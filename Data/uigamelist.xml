@@ -1,0 +1,202 @@
+<layout>
+  <gadget name="mpsetupcustom-page-gamesetup-gameslist" type="gadget" size1024="37 66 988 752" windowzstyle="" transparent="">
+    <gadget name="hostgame-dialog" hidden="" type="dialog" windowzstyle="" z="99" closeonesc="">
+      <gadget name="hostgame-dialog-Background" type="gadget" size1024="236 214 783 510" background="missing" tilebackground="" z="5">
+        <gadget tilebackgroundhoriz="" name="hostgame-dialog-BordersTop" type="gadget" background="ui\ui border top middle" size1024="272 206 772 214" z="6">
+        </gadget>
+        <gadget tilebackgroundhoriz="" name="hostgame-dialog-BordersBottom" type="gadget" background="ui\ui border bottom middle" size1024="261 507 772 515" z="6">
+        </gadget>
+        <gadget tilebackgroundvert="" name="hostgame-dialog-BordersLeft" type="gadget" background="ui\ui border left middle" size1024="225 234 241 453" z="6">
+        </gadget>
+        <gadget tilebackgroundvert="" name="hostgame-dialog-BordersRight" type="gadget" background="ui\ui border right middle" size1024="783 234 799 456" z="6">
+        </gadget>
+        <gadget name="hostgame-dialog-BordersLeftTop" type="gadget" background="ui\ui border top left corner" size1024="209 206 273 238" z="7">
+        </gadget>
+        <gadget name="hostgame-dialog-BordersLeftBottom" type="gadget" background="ui\ui border bottom left corner" size1024="209 451 273 515" z="7">
+        </gadget>
+        <gadget name="hostgame-dialog-BordersRightBottom" type="gadget" background="ui\ui border bottom right corner" size1024="751 451 815 515" z="7">
+        </gadget>
+        <gadget name="hostgame-dialog-BordersRightTop" type="gadget" background="ui\ui border top right corner" size1024="751 206 815 238" z="7">
+        </gadget>
+      </gadget>
+      <gadget name="hostgame-dialog--PlayerLabel" type="formatText" textfont="PregameLabels" textfontsize="18" textcolor="255 208 0" size1024="333 413 443 438" z="12">$$20020$$Players</gadget>
+      <gadget name="hostgame-dialog--NumberPlayers" fieldreadonly="" type="scrollList" textfont="ScrollFont" textfontsize="16" textcolor="0 0 0" fieldval="1" fieldtextboxcolor="255 255 255" fieldhideoninactive="" size1024="290 408 330 442" listitemheight="16" border1024="3 0" tilebackground="" background="ui\core_ui\dropdown_background" topcapart="ui\core_ui\dropdown_top_middle" bottomcapart="ui\core_ui\dropdown_bottom_middle" leftcapart="missing" rightcapart="ui\core_ui\dropdown_cap_left" artsize1024="256 16" z="12">
+        <listitem>2</listitem>
+        <listitem>3</listitem>
+        <listitem>4</listitem>
+        <listitem>5</listitem>
+        <listitem>6</listitem>
+        <listitem>7</listitem>
+        <listitem>8</listitem>
+        <listitem>9</listitem>
+        <listitem>10</listitem>
+        <listitem>11</listitem>
+        <listitem>12</listitem>
+      </gadget>
+      <gadget name="hostgame-dialog-dialogtitle" textcentervert="" textcolor="255 208 0" textfontsize="22" textfont="PregameHeaders" type="formatText" size1024="261 221 573 246">$$22564$$Host a Multiplayer Game</gadget>
+      <gadget name="hostgame-dialog-ScreenSeparator" type="gadget" size1024="251 250 773 252" background="missing">
+      </gadget>
+      <gadget name="hostgame-dialog-ESOLogo" type="gadget" size1024="517 218 773 250" background="ui\es online logo long">
+      </gadget>
+      <gadget name="hostgame-dialog-OkButton" type="stateButton" size1024="324 464 516 496" bevelbutton="" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="255 208 0" textcenterhoriz="" textcentervert="" texturecoords="0 0 .75 1">$$18465$$OK<stateentry background="ui\core_ui\button_192x32_normal"></stateentry><stateentry background="ui\ui button long 192X32 clicked"></stateentry><stateentry background="ui\ui button long 192X32 rollover"></stateentry><stateentry background=""></stateentry></gadget>
+      <gadget name="hostgame-dialog-CancelButton" type="stateButton" size1024="524 464 716 496" bevelbutton="" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="255 208 0" textcenterhoriz="" textcentervert="" texturecoords="0 0 .75 1">$$18466$$Cancel<stateentry background="ui\core_ui\button_192x32_normal"></stateentry><stateentry background="ui\ui button long 192X32 clicked"></stateentry><stateentry background="ui\ui button long 192X32 rollover"></stateentry><stateentry background=""></stateentry></gadget>
+      <gadget name="hostgame-dialog-NameLabel" textcentervert="" textcolor="255 208 0" textfontsize="18" textfont="Pregamelabels" type="formatText" size1024="253 269 387 290" textjustifyright="">$$21191$$Game Name:</gadget>
+      <gadget name="hostgame-dialog-Left-NameEntry" type="gadget" background="ui\ui text box left" size1024="388 264 404 296">
+      </gadget>
+      <gadget name="hostgame-dialog-Name" type="gadget" tilebackgroundhoriz="" background="missing" size1024="404 264 726 296">
+      </gadget>
+      <gadget name="hostgame-dialog-GameName-Text" type="editBox" editboxmaxchars="45" size1024="404 270 726 294" textfont="PregameEntry" textfontsize="15" textcolor="0 0 58" enterkey="" z="11">
+      </gadget>
+      <gadget name="hostgame-dialog-Right-NameEntry" type="gadget" background="ui\ui text box right" size1024="727 264 743 296">
+      </gadget>
+      <gadget name="hostgame-dialog-publicChoice" type="radioset" size1024="273 308 763 397" textcolor="255 208 0" textfontsize="14" textfont="RadioButtons" radiosetbuttonsize1024="450 36" radiosetdefaultbuttonindex="0" z="14" radiocheckedart="ui\core_ui\round clicked" radiouncheckedart="ui\core_ui\round" radiobtnborder1024="2 2" radiohighlightart="ui\core_ui\round rollover">
+        <button>$$22561$$Public - Game is added to the Game List.</button>
+        <button>$$22562$$Private - Game is not added to the Game List (invite only).</button>
+      </gadget>
+    </gadget>
+    <gadget name="gameslist-RefreshButton" type="stateButton" size1024="43 574 203 606" bevelbutton="" z="101" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="255 208 0" textcenterhoriz="" textcentervert="" texturecoords="0 0 .625 1" mouseovertext="$$22103$$">$$21156$$Refresh<stateentry background="ui\core_ui\button_128x32_normal"></stateentry><stateentry background="ui\ui button long 160X32 clicked"></stateentry><stateentry background="ui\ui button long 160X32 rollover"></stateentry><stateentry background="ui\core_ui\button_128x32_normal"></stateentry></gadget>
+    <gadget name="gameslist-JoinButton" type="stateButton" size1024="209 574 369 606" bevelbutton="" z="102" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="255 208 0" textcenterhoriz="" textcentervert="" texturecoords="0 0 .625 1" mouseovertext="$$22104$$">$$21157$$Join<stateentry background="ui\core_ui\button_128x32_normal"></stateentry><stateentry background="ui\ui button long 160X32 clicked"></stateentry><stateentry background="ui\ui button long 160X32 rollover"></stateentry><stateentry background="ui\core_ui\button_128x32_normal"></stateentry></gadget>
+    <gadget name="gameslist-CancelButton" type="stateButton" size1024="822 711 982 743" bevelbutton="" z="101" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="255 208 0" textcenterhoriz="" textcentervert="" texturecoords="0 0 .625 1" mouseovertext="$$19940$$">$$21158$$Quit<stateentry background="ui\core_ui\button_128x32_normal"></stateentry><stateentry background="ui\ui button long 160X32 clicked"></stateentry><stateentry background="ui\ui button long 160X32 rollover"></stateentry><stateentry background="ui\core_ui\button_128x32_normal"></stateentry></gadget>
+    <gadget name="gameslist-HostButton" type="stateButton" size1024="581 711 741 743" bevelbutton="" z="102" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="255 208 0" textcenterhoriz="" textcentervert="" texturecoords="0 0 .625 1" mouseovertext="$$22106$$">$$21159$$Host<stateentry background="ui\core_ui\button_128x32_normal"></stateentry><stateentry background="ui\ui button long 160X32 clicked"></stateentry><stateentry background="ui\ui button long 160X32 rollover"></stateentry><stateentry background=""></stateentry></gadget>
+    <gadget name="gameslist-PrevSelect" type="stateButton" size1024="390 574 437 599" bevelbutton="" z="50" statebuttonuseinternalstates="" texturecoords="0 0 .73 .78" mouseovertext="$$21165$$View previous page of games">
+      <stateentry background="ui\core_ui\arrow_left">
+      </stateentry>
+      <stateentry background="ui\core_ui\arrow_left clicked">
+      </stateentry>
+      <stateentry background="ui\core_ui\arrow_left rollover">
+      </stateentry>
+      <stateentry background="ui\core_ui\arrow_left grey">
+      </stateentry>
+    </gadget>
+    <gadget name="gameslist-NextSelect" type="stateButton" size1024="524 574 571 599" bevelbutton="" z="50" statebuttonuseinternalstates="" texturecoords="0 0 .73 .78" mouseovertext="$$21166$$View next page of maps">
+      <stateentry background="ui\core_ui\arrow_right">
+      </stateentry>
+      <stateentry background="ui\core_ui\arrow_right clicked">
+      </stateentry>
+      <stateentry background="ui\core_ui\arrow_right rollover">
+      </stateentry>
+      <stateentry background="ui\core_ui\arrow_right grey">
+      </stateentry>
+    </gadget>
+    <gadget name="gameslist-othersettingsLabel" textcentervert="" textcolor="255 208 0" textfontsize="18" textfont="Pregamelabels" type="formatText" size1024="583 208 982 228" z="11">$$21161$$Other Settings:</gadget>
+    <gadget name="gameslist-gamenamelabel" textcentervert="" textcolor="255 208 0" textfontsize="18" textfont="Pregamelabels" type="formatText" size1024="45 70 481 90" z="11">$$21163$$Game Name</gadget>
+    <gadget name="" textcentervert="" textcolor="255 208 0" textfontsize="18" textfont="Pregamelabels" type="formatText" size1024="481 70 570 90" z="11">$$21164$$# Players</gadget>
+    <gadget name="gameslist-pagenumber" textcentervert="" textcolor="255 208 0" textfontsize="10" textfont="SmallNumbers" type="formatText" size1024="440 577 522 598" z="11" textcenterhoriz="">
+    </gadget>
+    <gadget outlinecolor="255 208 0" name="gameslist-RolloverHelp-background" type="gadget" size1024="43 617 574 701" z="13">
+    </gadget>
+    <gadget name="gameslist-RolloverHelp-backgroundimage" type="gadget" size1024="180 643 436 675" z="14" background="ui\es online logo long">
+    </gadget>
+    <gadget name="gameslist-RolloverHelp" background="ui\background greek opaque" backgroundalpha=".8" type="formatText" size1024="46 620 571 699" textfont="PregameRollover" textfontsize="14" textcolor="255 208 0" z="15">Here is some sample rollover</gadget>
+    <gadget name="gameslist-gamearea" type="gadget" size1024="42 66 568 567" z="1">
+      <gadget outlinecolor="60 170 255" name="gameslist-gamearea-gamecolumn" type="gadget" size1024="42 66 481 567" z="2">
+        <gadget name="gameslist-gamecolumn-game1" textcentervert="" textcolor="255 208 0" textfontsize="16" textfont="GamesListGameName" type="button" size1024="45 95 481 115" z="11">
+        </gadget>
+        <gadget name="gameslist-gamecolumn-game2" textcentervert="" textcolor="255 208 0" textfontsize="16" textfont="GamesListGameName" type="button" size1024="45 124 481 144" z="11">
+        </gadget>
+        <gadget name="gameslist-gamecolumn-game3" textcentervert="" textcolor="255 208 0" textfontsize="16" textfont="GamesListGameName" type="button" size1024="45 153 481 173" z="11">
+        </gadget>
+        <gadget name="gameslist-gamecolumn-game4" textcentervert="" textcolor="255 208 0" textfontsize="16" textfont="GamesListGameName" type="button" size1024="45 182 481 202" z="11">
+        </gadget>
+        <gadget name="gameslist-gamecolumn-game5" textcentervert="" textcolor="255 208 0" textfontsize="16" textfont="GamesListGameName" type="button" size1024="45 211 481 231" z="11">
+        </gadget>
+        <gadget name="gameslist-gamecolumn-game6" textcentervert="" textcolor="255 208 0" textfontsize="16" textfont="GamesListGameName" type="button" size1024="45 240 481 260" z="11">
+        </gadget>
+        <gadget name="gameslist-gamecolumn-game7" textcentervert="" textcolor="255 208 0" textfontsize="16" textfont="GamesListGameName" type="button" size1024="45 270 481 290" z="11">
+        </gadget>
+        <gadget name="gameslist-gamecolumn-game8" textcentervert="" textcolor="255 208 0" textfontsize="16" textfont="GamesListGameName" type="button" size1024="45 300 481 320" z="11">
+        </gadget>
+        <gadget name="gameslist-gamecolumn-game9" textcentervert="" textcolor="255 208 0" textfontsize="16" textfont="GamesListGameName" type="button" size1024="45 330 481 350" z="11">
+        </gadget>
+        <gadget name="gameslist-gamecolumn-game10" textcentervert="" textcolor="255 208 0" textfontsize="16" textfont="GamesListGameName" type="button" size1024="45 359 481 379" z="11">
+        </gadget>
+        <gadget name="gameslist-gamecolumn-game11" textcentervert="" textcolor="255 208 0" textfontsize="16" textfont="GamesListGameName" type="button" size1024="45 388 481 408" z="11">
+        </gadget>
+        <gadget name="gameslist-gamecolumn-game12" textcentervert="" textcolor="255 208 0" textfontsize="16" textfont="GamesListGameName" type="button" size1024="45 418 481 438" z="11">
+        </gadget>
+        <gadget name="gameslist-gamecolumn-game13" textcentervert="" textcolor="255 208 0" textfontsize="16" textfont="GamesListGameName" type="button" size1024="45 447 481 467" z="11">
+        </gadget>
+        <gadget name="gameslist-gamecolumn-game14" textcentervert="" textcolor="255 208 0" textfontsize="16" textfont="GamesListGameName" type="button" size1024="45 477 481 497" z="11">
+        </gadget>
+        <gadget name="gameslist-gamecolumn-game15" textcentervert="" textcolor="255 208 0" textfontsize="16" textfont="GamesListGameName" type="button" size1024="45 506 481 526" z="11">
+        </gadget>
+        <gadget name="gameslist-gamecolumn-game16" textcentervert="" textcolor="255 208 0" textfontsize="16" textfont="GamesListGameName" type="button" size1024="45 535 481 555" z="11">
+        </gadget>
+      </gadget>
+      <gadget outlinecolor="60 170 255" name="gameslist-gamearea-NumberPlayerscolumn" type="gadget" size1024="481 66 570 567" z="2">
+        <gadget name="gameslist-NumberPlayerscolumn-game1" textcentervert="" textcolor="255 208 0" textfontsize="16" textfont="GamesListNumberPlayers" type="button" size1024="500 95 570 115" z="11">11/12</gadget>
+        <gadget name="gameslist-NumberPlayerscolumn-game2" textcentervert="" textcolor="255 208 0" textfontsize="16" textfont="GamesListNumberPlayers" type="button" size1024="500 124 570 144" z="11">11/12</gadget>
+        <gadget name="gameslist-NumberPlayerscolumn-game3" textcentervert="" textcolor="255 208 0" textfontsize="16" textfont="GamesListNumberPlayers" type="button" size1024="500 153 570 173" z="11">11/12</gadget>
+        <gadget name="gameslist-NumberPlayerscolumn-game4" textcentervert="" textcolor="255 208 0" textfontsize="16" textfont="GamesListNumberPlayers" type="button" size1024="500 182 570 202" z="11">11/12</gadget>
+        <gadget name="gameslist-NumberPlayerscolumn-game5" textcentervert="" textcolor="255 208 0" textfontsize="16" textfont="GamesListNumberPlayers" type="button" size1024="500 211 570 231" z="11">11/12</gadget>
+        <gadget name="gameslist-NumberPlayerscolumn-game6" textcentervert="" textcolor="255 208 0" textfontsize="16" textfont="GamesListNumberPlayers" type="button" size1024="500 240 570 260" z="11">11/12</gadget>
+        <gadget name="gameslist-NumberPlayerscolumn-game7" textcentervert="" textcolor="255 208 0" textfontsize="16" textfont="GamesListNumberPlayers" type="button" size1024="500 270 570 290" z="11">11/12</gadget>
+        <gadget name="gameslist-NumberPlayerscolumn-game8" textcentervert="" textcolor="255 208 0" textfontsize="16" textfont="GamesListNumberPlayers" type="button" size1024="500 300 570 320" z="11">11/12</gadget>
+        <gadget name="gameslist-NumberPlayerscolumn-game9" textcentervert="" textcolor="255 208 0" textfontsize="16" textfont="GamesListNumberPlayers" type="button" size1024="500 330 570 350" z="11">11/12</gadget>
+        <gadget name="gameslist-NumberPlayerscolumn-game10" textcentervert="" textcolor="255 208 0" textfontsize="16" textfont="GamesListNumberPlayers" type="button" size1024="500 359 570 379" z="11">11/12</gadget>
+        <gadget name="gameslist-NumberPlayerscolumn-game11" textcentervert="" textcolor="255 208 0" textfontsize="16" textfont="GamesListNumberPlayers" type="button" size1024="500 388 570 408" z="11">11/12</gadget>
+        <gadget name="gameslist-NumberPlayerscolumn-game12" textcentervert="" textcolor="255 208 0" textfontsize="16" textfont="GamesListNumberPlayers" type="button" size1024="500 418 570 438" z="11">11/12</gadget>
+        <gadget name="gameslist-NumberPlayerscolumn-game13" textcentervert="" textcolor="255 208 0" textfontsize="16" textfont="GamesListNumberPlayers" type="button" size1024="500 447 570 467" z="11">11/12</gadget>
+        <gadget name="gameslist-NumberPlayerscolumn-game14" textcentervert="" textcolor="255 208 0" textfontsize="16" textfont="GamesListNumberPlayers" type="button" size1024="500 477 570 497" z="11">11/12</gadget>
+        <gadget name="gameslist-NumberPlayerscolumn-game15" textcentervert="" textcolor="255 208 0" textfontsize="16" textfont="GamesListNumberPlayers" type="button" size1024="500 506 570 526" z="11">11/12</gadget>
+        <gadget name="gameslist-NumberPlayerscolumn-game16" textcentervert="" textcolor="255 208 0" textfontsize="16" textfont="GamesListNumberPlayers" type="button" size1024="500 535 570 555" z="11">11/12</gadget>
+      </gadget>
+    </gadget>
+    <gadget name="gameslist-gameinfoarea" type="gadget" size1024="580 66 982 703" z="2">
+      <gadget name="gameslist-gameinfoarea-basic" type="simpleTextBox" size1024="581 68 980 206" z="2" outlinecolor="255 208 0">
+        <gadget name="gamesinfoarea-gamename" textcentervert="" textcolor="255 208 0" textfontsize="16" textfont="GamesListGameName" type="formatText" size1024="581 73 980 93" z="11">
+        </gadget>
+        <gadget name="gamesinfoarea-PingLabel" textcentervert="" textcolor="255 208 0" textfontsize="14" textfont="GamesListSmallLabels" type="formatText" size1024="582 97 832 117" z="11">$$21173$$Ping:</gadget>
+        <gadget name="gamesinfoarea-numberplayerslabel" textcentervert="" textcolor="255 208 0" textfontsize="14" textfont="GamesListSmallLabels" type="formatText" size1024="582 119 832 139" z="11">$$21174$$Number of Players:</gadget>
+        <gadget name="gamesinfoarea-gametypelabel" textcentervert="" textcolor="255 208 0" textfontsize="14" textfont="GamesListSmallLabels" type="formatText" size1024="582 141 832 161" z="11">$$21175$$Game Type:</gadget>
+        <gadget name="gamesinfoarea-maptypelabel" textcentervert="" textcolor="255 208 0" textfontsize="14" textfont="GamesListSmallLabels" type="formatText" size1024="582 163 832 183" z="11">$$21176$$Map Type:</gadget>
+        <gadget name="gamesinfoarea-Ping" textcentervert="" textcolor="255 255 255" textfontsize="14" textfont="GamesListGameSetting" type="formatText" size1024="834 94 979 117" z="11">
+        </gadget>
+        <gadget name="gamesinfoarea-numberplayers" textcentervert="" textcolor="255 255 255" textfontsize="14" textfont="GamesListGameSetting" type="formatText" size1024="834 116 979 139" z="11">
+        </gadget>
+        <gadget name="gamesinfoarea-gametype" textcentervert="" textcolor="255 255 255" textfontsize="14" textfont="GamesListGameSetting" type="formatText" size1024="834 138 979 161" z="11">
+        </gadget>
+        <gadget name="gamesinfoarea-maptype" textcentervert="" textcolor="255 255 255" textfontsize="14" textfont="GamesListGameSetting" type="formatText" size1024="834 160 979 183" z="11">
+        </gadget>
+        <gadget name="gamesinfoarea-mapSizeLabel" textcentervert="" textcolor="255 208 0" textfontsize="14" textfont="GamesListSmallLabels" type="formatText" size1024="582 185 832 205" z="11">$$21177$$Map Size:</gadget>
+        <gadget name="gamesinfoarea-mapSize" textcentervert="" textcolor="255 255 255" textfontsize="14" textfont="GamesListGameSetting" type="formatText" size1024="834 182 979 205" z="11">
+        </gadget>
+      </gadget>
+      <gadget outlinecolor="255 208 0" name="gameslist-gameinfoarea-advanced" type="gadget" size1024="581 227 980 467" z="2">
+        <gadget name="gamesinfoarea-Visibilitylabel" textcentervert="" textcolor="255 208 0" textfontsize="14" textfont="GamesListSmallLabels" type="formatText" size1024="581 241 831 261" z="11">$$21178$$Visibility:</gadget>
+        <gadget name="gamesinfoarea-handicaplabel" textcentervert="" textcolor="255 208 0" textfontsize="14" textfont="GamesListSmallLabels" type="formatText" size1024="581 269 831 289" z="11">$$21179$$Handicap:</gadget>
+        <gadget name="gamesinfoarea-WorldReslabel" textcentervert="" textcolor="255 208 0" textfontsize="14" textfont="GamesListSmallLabels" type="formatText" size1024="581 298 831 318" z="11">$$21180$$World Resources:</gadget>
+        <gadget name="gamesinfoarea-sharedPoplabel" textcentervert="" textcolor="255 208 0" textfontsize="14" textfont="GamesListSmallLabels" type="formatText" size1024="581 327 831 347" z="11">$$21188$$Team Shared Pop:</gadget>
+        <gadget name="gamesinfoarea-SharedReslabel" textcentervert="" textcolor="255 208 0" textfontsize="14" textfont="GamesListSmallLabels" type="formatText" size1024="582 355 832 375" z="11">$$21183$$Team Shared Resources:</gadget>
+        <gadget name="gamesinfoarea-NumberPauseslabel" textcentervert="" textcolor="255 208 0" textfontsize="14" textfont="GamesListSmallLabels" type="formatText" size1024="581 382 831 402" z="11">$$21184$$Restrict Number of Pauses:</gadget>
+        <gadget name="gamesinfoarea-lockedTeamslabel" textcentervert="" textcolor="255 208 0" textfontsize="14" textfont="GamesListSmallLabels" type="formatText" size1024="581 409 831 429" z="11">$$21185$$Locked Teams:</gadget>
+        <gadget name="gamesinfoarea-allowCheatslabel" textcentervert="" textcolor="255 208 0" textfontsize="14" textfont="GamesListSmallLabels" type="formatText" size1024="582 437 832 457" z="11">$$21186$$Allow Cheats:</gadget>
+        <gadget name="gamesinfoarea-visibility" textcentervert="" textcolor="255 255 255" textfontsize="14" textfont="GamesListGameSetting" type="formatText" size1024="833 238 978 261" z="11">
+        </gadget>
+        <gadget name="gamesinfoarea-handicap" textcentervert="" textcolor="255 255 255" textfontsize="14" textfont="GamesListGameSetting" type="formatText" size1024="833 266 978 289" z="11">
+        </gadget>
+        <gadget name="gamesinfoarea-worldRes" textcentervert="" textcolor="255 255 255" textfontsize="14" textfont="GamesListGameSetting" type="formatText" size1024="833 295 978 318" z="11">
+        </gadget>
+        <gadget name="gamesinfoarea-sharedPop" textcentervert="" textcolor="255 255 255" textfontsize="14" textfont="GamesListGameSetting" type="formatText" size1024="833 324 978 347" z="11">
+        </gadget>
+        <gadget name="gamesinfoarea-sharedRes" textcentervert="" textcolor="255 255 255" textfontsize="14" textfont="GamesListGameSetting" type="formatText" size1024="834 352 979 375" z="11">
+        </gadget>
+        <gadget name="gamesinfoarea-numberPauses" textcentervert="" textcolor="255 255 255" textfontsize="14" textfont="GamesListGameSetting" type="formatText" size1024="833 379 978 402" z="11">
+        </gadget>
+        <gadget name="gamesinfoarea-lockedTeams" textcentervert="" textcolor="255 255 255" textfontsize="14" textfont="GamesListGameSetting" type="formatText" size1024="833 406 978 429" z="11">
+        </gadget>
+        <gadget name="gamesinfoarea-allowCheats" textcentervert="" textcolor="255 255 255" textfontsize="14" textfont="GamesListGameSetting" type="formatText" size1024="834 434 979 457" z="11">
+        </gadget>
+      </gadget>
+      <gadget name="gameslist-PlayersLabel" textcentervert="" textcolor="255 208 0" textfontsize="18" textfont="Pregamelabels" type="formatText" size1024="582 470 981 490" z="11">$$21162$$Players Currently in Game:</gadget>
+      <gadget textfontsize="14" name="gameslist-gameinfoarea-playerslist" outlinecolor="255 208 0" textfont="GamesListPlayerName" tilebackground="" background="ui\ui background dark blue opaque" type="simpleTextBox" size1024="582 491 981 702" textsimpleaddscrollstobottom="" scrollvert="" textcolor="45 160 255" wordwrap="">
+        <vertscrollbar sliderbuttons="" slidervertical="" sliderupbtnset="sliderUpBtn" sliderdownbtnset="sliderDownBtn" sliderpipart="ui\ui slider pip horizontal" sliderpiptexturecoords="0 0 0.625 0.438" sliderareaart="ui\ui background dark blue opaque" background="ui\core_ui\background_yellow_opaque">
+        </vertscrollbar>
+      </gadget>
+      <gadget type="gadget" hidden="" name="gameslist-wait-dialog" bevel="" size1024="83 212 437 441" background="ui\ui background blue transparent" tilebackground="" z="103">
+        <gadget name="gameslist-wait-text" textcolor="255 208 0" textcenterhoriz="" textcentervert="" textfontsize="16" textfont="Arial" type="formatText" size1024="132 267 397 373" textwrapon="" z="12">
+        </gadget>
+      </gadget>
+    </gadget>
+  </gadget>
+</layout>

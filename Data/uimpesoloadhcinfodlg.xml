@@ -1,0 +1,7 @@
+<layout>
+  <gadget name="ESOLoadHCInfoDlg" type="gadget" size1024="0 0 1024 768" background="ui\\home_city\\intro_hc" texturecoords="0 0 1 0.749755620723363" windowzstyle="" z="99">
+    <gadget name="ESOLoadHCInfoDlg-Background" type="gadget" size1024="109 204 922 459" background="ui\eso\eso_login" texturecoords="0 0.5 0.7939453 1" z="5">
+    </gadget>
+    <gadget name="ESOLoadHCInfoDlg-StatusLabel" textcentervert="" textcolor="255 255 255" textfontsize="18" textfont="Pregamelabels" type="formatText" size1024="281 304 743 335" textcenterhoriz="">$$43005$$Loading Home Cities...</gadget>
+  </gadget>
+</layout>

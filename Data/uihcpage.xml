@@ -1,0 +1,69 @@
+<layout>
+  <gadget name="AMPHCPage-ScreenContainer" hidden="" type="gadget" size1024="210 106 1024 768" z="20">
+    <gadget name="AMPHCPage-HCViewContainer" hidden="" type="gadget" size1024="210 106 1024 768" backgroundcolor="64 64 64" z="5">
+    </gadget>
+    <gadget name="AMPHCPage-HCUIContainer" hidden="" type="gadget" size1024="212 107 238 143" backgroundcolor="64 64 64" z="25">
+    </gadget>
+    <gadget name="AMPHCPage-ManageDlgContainer" type="gadget" size="214 581 508 767" transparent="">
+      <gadget name="AMPHCPage-Background" type="gadget" background="ui\core_ui\wood_thick_board_tile" size1024="214 581 508 767" tilebackgroundhoriz="" tilebackgroundvert="" z="10" transparent="">
+      </gadget>
+      <gadget name="AMPHCPage-BordersTop" type="gadget" background="ui\file_system\border_top_middle" size1024="242 581 478 589" tilebackgroundhoriz="" z="14" transparent="">
+      </gadget>
+      <gadget name="AMPHCPage-BordersLeft" type="gadget" background="ui\file_system\border_side_left" size1024="210 611 218 746" tilebackgroundvert="" transparent="" z="14">
+      </gadget>
+      <gadget name="AMPHCPage-BordersRight" type="gadget" background="ui\file_system\border_side_right" size1024="500 613 508 749" tilebackgroundvert="" z="14" transparent="">
+      </gadget>
+      <gadget name="AMPHCPage-BordersRightTop" type="gadget" background="ui\file_system\border_top_right" size1024="476 581 508 613" z="15" transparent="" clampbackground="">
+      </gadget>
+      <gadget name="AMPHCPage-BordersLeftTop" type="gadget" background="ui\file_system\border_top_left" size1024="210 581 242 613" z="15" transparent="" clampbackground="">
+      </gadget>
+      <gadget name="AMPHCPage-BordersRightBottom" type="gadget" background="ui\file_system\border_bottom_right" size1024="476 736 508 768" z="15" transparent="" clampbackground="">
+      </gadget>
+      <gadget name="AMPHCPage-BordersLeftBottom" type="gadget" background="ui\file_system\border_bottom_left" size1024="210 736 242 768" z="15" transparent="" clampbackground="">
+      </gadget>
+      <gadget name="AMPHCPage-BordersBottom" type="gadget" background="ui\file_system\border_bottom_middle" size1024="242 760 478 768" z="14" tilebackgroundhoriz="" transparent="">
+      </gadget>
+      <gadget name="AMPHCPage-Label-Left" type="gadget" background="ui\core_ui\title_bar_48_left" size1024="212 538 276 602" z="16">
+      </gadget>
+      <gadget name="AMPHCPage-Label-Middle" type="gadget" background="ui\core_ui\title_bar_48_middle" size1024="276 538 444 602" z="16">
+      </gadget>
+      <gadget name="AMPHCPage-Label-Right" type="gadget" background="ui\core_ui\title_bar_48_right" size1024="444 538 508 602" z="16">
+      </gadget>
+      <gadget name="AMPHCPage-Label" type="formatText" textcenterhoriz="" textcolor="255 200 3" textfont="PregameHeaders" textfontsize="22" size1024="266 549 456 582" transparent="" z="17">$$37425$$Home City Options</gadget>
+      <gadget name="AMPHCPage-ExitButton" type="stateButton" bevelbutton="" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="255 255 255" textcenterhoriz="" textcentervert="" size1024="263 723 459 755" z="11">$$18457$$<stateentry background="ui\core_ui\button_256x32_normal"></stateentry><stateentry background="ui\core_ui\button_256x32_clicked"></stateentry><stateentry background="ui\core_ui\button_256x32_rollover"></stateentry><stateentry background="ui\core_ui\button_256x32_disabled"></stateentry></gadget>
+      <gadget name="AMPHCPage-UpgradeButton" type="stateButton" bevelbutton="" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="255 255 255" textcenterhoriz="" textcentervert="" size1024="263 609 459 641" z="11">$$37432$$<stateentry background="ui\core_ui\button_256x32_normal"></stateentry><stateentry background="ui\core_ui\button_256x32_clicked"></stateentry><stateentry background="ui\core_ui\button_256x32_rollover"></stateentry><stateentry background="ui\core_ui\button_256x32_disabled"></stateentry></gadget>
+      <gadget name="AMPHCPage-DeckBuilderButton" type="stateButton" bevelbutton="" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="255 255 255" textcenterhoriz="" textcentervert="" size1024="263 647 459 679" z="11">$$37433$$<stateentry background="ui\core_ui\button_256x32_normal"></stateentry><stateentry background="ui\core_ui\button_256x32_clicked"></stateentry><stateentry background="ui\core_ui\button_256x32_rollover"></stateentry><stateentry background="ui\core_ui\button_256x32_disabled"></stateentry></gadget>
+      <gadget name="AMPHCPage-CustomizeButton" type="stateButton" bevelbutton="" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="255 255 255" mouseovertext="$$42142$$" textcenterhoriz="" textcentervert="" size1024="263 685 459 717" z="11">$$37434$$<stateentry background="ui\core_ui\button_256x32_normal"></stateentry><stateentry background="ui\core_ui\button_256x32_clicked"></stateentry><stateentry background="ui\core_ui\button_256x32_rollover"></stateentry><stateentry background="ui\core_ui\button_256x32_disabled"></stateentry></gadget>
+    </gadget>
+    <gadget name="AMPHCPage-LoadingScreen" type="gadget" hidden="" backgroundcolor="0 0 0" backgroundalpha="0.5" size1024="0 0 1024 768" z="31">
+      <gadget name="AMPHCPage-LoadingImage" type="gadget" background="\ui\home_city\intro_hc" backgroundalpha="0.5" size1024="210 106 1024 768" texturecoords="0 0 1 0.7509766" transparent="">
+      </gadget>
+      <gadget name="AMPHCPage-LoadingDlg" type="gadget" background="ui\core_ui\wood_thick_board_tile" size1024="281 203 750 460" tilebackgroundhoriz="" z="31">
+        <gadget name="AMPHCPage-Loading-Label-Left" type="gadget" background="ui\core_ui\title_bar_48_left" size1024="300 272 364 336" z="31">
+        </gadget>
+        <gadget name="AMPHCPage-Loading-Label-Middle" type="gadget" background="ui\core_ui\title_bar_48_middle" size1024="364 272 660 336" z="33">
+        </gadget>
+        <gadget name="AMPHCPage-Loading-Label-Right" type="gadget" background="ui\core_ui\title_bar_48_right" size1024="660 272 724 336" z="19">
+        </gadget>
+        <gadget name="AMPHCPage-Loading-Text" type="formatText" textcenterhoriz="" textcolor="255 200 3" textfont="PregameHeaders" textfontsize="22" size1024="364 282 659 317" transparent="" z="38">$$22605$$Loading...</gadget>
+        <gadget name="AMPHCPage-Loading-BordersTop" type="gadget" background="ui\file_system\border_top_middle" size1024="308 203 725 211" z="21" tilebackgroundhoriz="" transparent="">
+        </gadget>
+        <gadget name="AMPHCPage-Loading-BordersBottom" type="gadget" background="ui\file_system\border_bottom_middle" size1024="309 455 721 463" z="20" tilebackgroundhoriz="" transparent="">
+        </gadget>
+        <gadget name="AMPHCPage-Loading-BordersLeft" type="gadget" background="ui\file_system\border_side_left" size1024="281 234 290 437" tilebackgroundvert="" transparent="" z="26">
+        </gadget>
+        <gadget name="AMPHCPage-Loading-BordersRight" type="gadget" background="ui\file_system\border_side_right" size1024="741 232 750 435" tilebackgroundvert="" z="29" transparent="">
+        </gadget>
+        <gadget name="AMPHCPage-Loading-BordersRightTop" type="gadget" background="ui\file_system\border_top_right" size1024="713 203 750 234" z="30" transparent="" clampbackground="">
+        </gadget>
+        <gadget name="AMPHCPage-Loading-BordersLeftTop" type="gadget" background="ui\file_system\border_top_left" size1024="281 203 318 233" z="24" transparent="" clampbackground="">
+        </gadget>
+        <gadget name="AMPHCPage-Loading-BordersRightBottom" type="gadget" background="ui\file_system\border_bottom_right" size1024="713 432 750 463" z="23" transparent="" clampbackground="">
+        </gadget>
+        <gadget name="AMPHCPage-Loading-BordersLeftBottom" type="gadget" background="ui\file_system\border_bottom_left" size1024="281 431 318 463" z="40" transparent="" clampbackground="">
+        </gadget>
+        <gadget name="AMPHCPage-Loading-CancelButton" type="stateButton" bevelbutton="" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="255 255 255" textcenterhoriz="" textcentervert="" size1024="424 370 616 402" z="27" texturecoords="0 0 1 1">$$18466$$Cancel<stateentry background="ui\core_ui\button_256x32_normal"></stateentry><stateentry background="ui\core_ui\button_256x32_clicked"></stateentry><stateentry background="ui\core_ui\button_256x32_rollover"></stateentry><stateentry background="ui\core_ui\button_256x32_disabled"></stateentry></gadget>
+      </gadget>
+    </gadget>
+  </gadget>
+</layout>

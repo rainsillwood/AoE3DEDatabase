@@ -1,0 +1,16 @@
+<layout>
+  <gadget name="ForbiddenUnitsTechs" type="gadget" size1024="58 48 597 692" background="ui\editor\editor_background" titlebar="" bevel="" closebutton="" windowzstyle="" moveable="">
+    <gadget name="ForbiddenUnitsTechs_AllowedList" type="list" background="ui\editor\editor_background" sunkenbevel="" showselect="" selectedcolor="255 255 255" buttonsize1024="175 15" scrollvert="" titlebar="$$32607$$Allowed Units" locktitlebarmove="" size1024="77 146 272 626">
+    </gadget>
+    <gadget name="ForbiddenUnitsTechs_ForbiddenList" type="list" size1024="380 146 575 626" z="11" background="ui\editor\editor_background" sunkenbevel="" showselect="" selectedcolor="255 255 255" buttonsize1024="175 15" scrollvert="" titlebar="$$20479$$Forbidden Units" locktitlebarmove="">
+    </gadget>
+    <gadget name="ForbiddenUnitsTechs_ForbidBtn" type="button" bevel="" size1024="294 347 358 375" z="11">$$36994$$ Add </gadget>
+    <gadget name="ForbiddenUnitsTechs_AllowBtn" type="button" bevel="" size1024="294 398 358 426" z="11">$$36995$$ Remove </gadget>
+    <gadget name="ForbiddenUnitsTechs_DisplayBtns" type="radioset" sunkenbevel="" textcolor="0 0 0" background="ui\editor\editor_background" radiosetbuttonsize1024="125 25" radiosetdefaultbuttonindex="0" size1024="227 74 421 141">
+      <button>$$32610$$Display Units</button>
+      <button>$$32611$$Display Techs</button>
+    </gadget>
+    <gadget name="ForbiddenUnitsTechs_OkBtn" type="button" bevel="" size1024="349 650 455 670" z="11">$$18465$$Ok</gadget>
+    <gadget name="ForbiddenUnitsTechs_CancelBtn" type="button" bevel="" size1024="468 650 574 670" z="11">$$18466$$Cancel</gadget>
+  </gadget>
+</layout>

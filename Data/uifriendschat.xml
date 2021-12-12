@@ -1,0 +1,18 @@
+<layout>
+  <gadget name="Container" hidden="" type="gadget" size1024="210 105 1019 762" backgroundcolor="64 64 64" background="ui\eso\eso_chat_screen" z="10" texturecoords="0 0 0.796875 0.6484375" wheelfocuswhenmouseinside="">
+    <gadget name="Output" textfontsize="14" textfont="PregameChat" tilebackground="" type="simpleTextBox" size1024="219 176 767 686" textsimpleaddscrollstobottom="" scrollvert="" textcolor="0 0 58" wordwrap="" wordwrapspacing="20" sliderautounreal="">
+      <vertscrollbar sliderbuttons="" slidervertical="" sliderupbtnset="sliderUpBtn" sliderdownbtnset="sliderDownBtn" sliderpipart="ui\file_system\slider_pip_vertical" sliderpiptexturecoords="0 0 1 1" sliderareaart="ui\file_system\slider_background_vertical" background="ui\file_system\slider_background_vertical">
+      </vertscrollbar>
+    </gadget>
+    <gadget name="Input" enableime="" tilebackground="" type="editBox" size1024="228 723 748 749" cursorcolor="3 0 208" textcolor="3 0 208" textcentervert="" enterkey="" textfont="PregameChat" textfontsize="14" editboxmaxchars="200" mouseovertext="$$20032$$">
+    </gadget>
+    <gadget name="Name" type="formatText" textfont="PregameEntry" textfontsize="15" textcentervert="" textcenterhoriz="" textcolor="255 208 0" size1024="794 289 986 318" z="12">
+    </gadget>
+    <gadget name="CancelButton" type="stateButton" bevelbutton="" tooltiptext="$$18466$$Cancel." statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="255 255 255" textcenterhoriz="" textcentervert="" size1024="792 107 988 139" z="11">$$33756$$Leave Conversation<stateentry background="ui\core_ui\button_256x32_normal"></stateentry><stateentry background="ui\core_ui\button_256x32_clicked"></stateentry><stateentry background="ui\core_ui\button_256x32_rollover"></stateentry><stateentry background="ui\core_ui\button_256x32_disabled"></stateentry></gadget>
+    <gadget name="RightBar" type="gadget" size1024="765 149 1017 759" z="11" background="ui\eso\eso_chat_whisper" texturecoords="0.0078125 0 1 0.6044921875">
+      <gadget name="TitleLabel" textfont="PregameEntry" textfontsize="15" type="formatText" textcentervert="" textcenterhoriz="" textcolor="255 208 0" size1024="819 154 960 182" z="12">$$33286$$Whisper</gadget>
+      <gadget name="AvatarBar" type="gadget" size1024="858 203 922 267" z="12">
+      </gadget>
+    </gadget>
+  </gadget>
+</layout>

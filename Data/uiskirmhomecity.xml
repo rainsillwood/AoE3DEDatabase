@@ -1,0 +1,8 @@
+<layout>
+  <gadget name="SkirmHomeCity" type="gadget" z="10" size1024="0 0 1024 768" background="">
+    <gadget name="SkirmHomeCity-Backdrop" type="gadget" backgroundcolor="0 0 0" backgroundalpha="0.5" z="19" size1024="0 0 1024 768" hidden="">
+    </gadget>
+    <gadget name="SkirmHomeCityMenu-NextScenario" type="stateButton" hidden="" size1024="918 25 1024 49" z="10" statebuttonuseinternalstates="" textfont="SmallButtonFont" textfontsize="10" textcolor="255 255 255" texturecoords="0 0 0.826771653543307 0.67741935483871" textcenterhoriz="">$$18454$$Next Scenario<stateentry background="ui\ingame\button"></stateentry><stateentry background="ui\ingame\button_clicked"></stateentry><stateentry background="ui\ingame\button_rollover"></stateentry><stateentry background="ui\ingame\button_disable"></stateentry></gadget>
+    <gadget name="SkirmHomeCityMenu-Quit" type="stateButton" hidden="" size1024="918 49 1024 73" z="10" statebuttonuseinternalstates="" textfont="SmallButtonFont" textfontsize="10" textcolor="255 255 255" texturecoords="0 0 0.826771653543307 0.67741935483871" textcenterhoriz="">$$20215$$Save and Exit<stateentry background="ui\ingame\button"></stateentry><stateentry background="ui\ingame\button_clicked"></stateentry><stateentry background="ui\ingame\button_rollover"></stateentry><stateentry background="ui\ingame\button_disable"></stateentry></gadget>
+  </gadget>
+</layout>

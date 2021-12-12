@@ -1,0 +1,68 @@
+<layout>
+  <gadget name="multiselectpanel" type="multiselectpanel" size1024="0 514 301 768" background="ui\ingame\background_blue_b" tilebackground="" windowzstyle="">
+    <gadget name="multiselectpanel-upperPanel" type="gadget" background="ui\ingame\background_blue_b" size1024="4 517 298 613" z="10">
+      <gadget name="multiselectpanel-playerName" type="formatText" size1024="40 518 254 542" textcolor="255 255 255" textmarkup="" formattextusedatareplace="" textcenterhoriz="" textcentervert="" textfont="ObjectivesText" textfontsize="16" z="30">
+      </gadget>
+      <gadget name="multiselectpanel-line1" type="formatText" size1024="40 544 254 564" textcolor="255 255 255" textmarkup="" formattextusedatareplace="" textcenterhoriz="" textcentervert="" textfont="StatAreaText" textfontsize="12" z="30">
+      </gadget>
+      <gadget name="multiselectpanel-line2" type="formatText" size1024="40 566 254 586" textcolor="255 255 255" textmarkup="" formattextusedatareplace="" textcenterhoriz="" textcentervert="" textfont="StatAreaText" textfontsize="12" z="30">
+      </gadget>
+      <gadget name="multiselectpanel-line3" type="formatText" size1024="40 588 254 608" textcolor="255 255 255" textmarkup="" formattextusedatareplace="" textcenterhoriz="" textcentervert="" textfont="StatAreaText" textfontsize="12" z="30">
+      </gadget>
+      <gadget name="multiselectpanel-upperSeparator" type="gadget" background="ui/ingame/outline_top_middle" tilebackgroundhoriz="" size1024="3 610 298 613" z="20" texturecoords="0 .25 1 1">
+      </gadget>
+      <gadget name="multiselectpanel-border-top-middle" type="gadget" background="ui/ingame/outline_top_middle" tilebackgroundhoriz="" size1024="3 514 298 517" z="20" texturecoords="0 .25 1 1">
+      </gadget>
+    </gadget>
+    <gadget name="multiselectpanel-border-top-left" type="gadget" background="ui/ingame/outline_top_left" size1024="0 514 3 517" z="20" texturecoords=".25 .25 1 1">
+    </gadget>
+    <gadget name="multiselectpanel-border-top-right" type="gadget" background="ui/ingame/outline_top_right" size1024="298 514 301 517" z="20" texturecoords="0 .25 .75 1">
+    </gadget>
+    <gadget name="multiselectpanel-border-side-left" type="gadget" background="ui/ingame/outline_side_left" tilebackgroundvert="" size1024="0 516 3 765" z="20" texturecoords=".25 0 1 1">
+    </gadget>
+    <gadget name="multiselectpanel-border-side-right" type="gadget" background="ui/ingame/outline_side_right" tilebackgroundvert="" size1024="298 517 301 765" z="20" texturecoords="0 0 .75 1">
+    </gadget>
+    <gadget name="multiselectpanel-border-bottom-right" type="gadget" background="ui/ingame/outline_bottom_right" size1024="298 765 301 768" z="20" texturecoords="0 0 .75 .75">
+    </gadget>
+    <gadget name="multiselectpanel-border-bottom-middle" type="gadget" background="ui/ingame/outline_bottom_middle" tilebackgroundhoriz="" size1024="3 765 298 768" z="20" texturecoords="0 0 1 .75">
+    </gadget>
+    <gadget name="multiselectpanel-border-bottom-left" type="gadget" background="ui/ingame/outline_bottom_left" size1024="0 765 3 768" z="20" texturecoords=".25 0 1 .75">
+    </gadget>
+    <gadget name="multiselectpanel-unitButton0" type="button" size1024="7 615 55 663" z="11">
+    </gadget>
+    <gadget name="multiselectpanel-unitButton1" type="button" size1024="55 615 103 663" z="11">
+    </gadget>
+    <gadget name="multiselectpanel-unitButton2" type="button" size1024="103 615 151 663" z="11">
+    </gadget>
+    <gadget name="multiselectpanel-unitButton3" type="button" size1024="151 615 199 663" z="11">
+    </gadget>
+    <gadget name="multiselectpanel-unitButton4" type="button" size1024="199 615 247 663" z="11">
+    </gadget>
+    <gadget name="multiselectpanel-unitButton5" type="button" size1024="247 615 293 663" z="11">
+    </gadget>
+    <gadget name="multiselectpanel-unitButton6" type="button" size1024="7 665 55 713" z="11">
+    </gadget>
+    <gadget name="multiselectpanel-unitButton7" type="button" size1024="55 665 103 713" z="11">
+    </gadget>
+    <gadget name="multiselectpanel-unitButton8" type="button" size1024="103 665 151 713" z="11">
+    </gadget>
+    <gadget name="multiselectpanel-unitButton9" type="button" size1024="151 665 199 713" z="11">
+    </gadget>
+    <gadget name="multiselectpanel-unitButton10" type="button" size1024="199 665 247 713" z="11">
+    </gadget>
+    <gadget name="multiselectpanel-unitButton11" type="button" size1024="247 665 293 713" z="11">
+    </gadget>
+    <gadget name="multiselectpanel-unitButton12" type="button" size1024="7 715 55 763" z="11">
+    </gadget>
+    <gadget name="multiselectpanel-unitButton13" type="button" size1024="55 715 103 763" z="11">
+    </gadget>
+    <gadget name="multiselectpanel-unitButton14" type="button" size1024="103 715 151 763" z="11">
+    </gadget>
+    <gadget name="multiselectpanel-unitButton15" type="button" size1024="151 715 199 763" z="11">
+    </gadget>
+    <gadget name="multiselectpanel-unitButton16" type="button" size1024="199 715 247 763" z="11">
+    </gadget>
+    <gadget name="multiselectpanel-unitButton17" type="button" size1024="247 715 293 763" z="11">
+    </gadget>
+  </gadget>
+</layout>

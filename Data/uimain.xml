@@ -1,0 +1,512 @@
+<layout>
+  <gadget name="winLoseDisplay" type="textBox" size1024="20 230 1004 300" textcenterhoriz="" textfont="LargeIngame" textfontsize="24" textcolor="255 255 255" hidden="">$$18438$$You Win</gadget>
+  <gadget name="victoryDisplay" type="textBox" textcolor="255 255 255" transparent="" textfont="LargeInGame" textfontsize="24" textcenterhoriz="" textcentervert="" size1024="82 206 792 498" z="9">
+  </gadget>
+  <gadget name="victoryTimerDisplay" type="textBox" textcolor="255 255 255" transparent="" textjustifyright="" textfont="TimerDisplays" textfontsize="12" size1024="530 432 1022 533">
+  </gadget>
+  <gadget name="chatOutputDisplayBorder" hidden="" backgroundcolor="0 0 0" backgroundalpha="0.5" size1024="4 106 382 401" type="formatText" z="5">
+    <gadget name="chat-border-top-left" hidden="" backgroundalpha="1.0" type="gadget" background="ui\ingame\outline_top_left" size1024="1 103 4 106" z="6" texturecoords=".25 .25 1 1">
+    </gadget>
+    <gadget name="chat-border-top-middle" hidden="" backgroundalpha="1.0" type="gadget" background="ui\ingame\outline_top_middle" size1024="4 103 382 106" tilebackgroundhoriz="" z="6" texturecoords="0 .25 1 1">
+    </gadget>
+    <gadget name="chat-border-top-right" hidden="" backgroundalpha="1.0" type="gadget" background="ui\ingame\outline_top_right" size1024="382 103 385 106" z="6" texturecoords="0 .25 .75 1">
+    </gadget>
+    <gadget name="chat-border-side-left" hidden="" backgroundalpha="1.0" type="gadget" background="ui\ingame\outline_side_left" size1024="1 106 4 401" tilebackgroundvert="" z="6" texturecoords=".25 0 1 1">
+    </gadget>
+    <gadget name="chat-border-side-right" hidden="" backgroundalpha="1.0" type="gadget" background="ui\ingame\outline_side_right" size1024="382 106 385 401" tilebackgroundvert="" z="6" texturecoords="0 0 .75 1">
+    </gadget>
+    <gadget name="chat-border-bottom-left" hidden="" backgroundalpha="1.0" type="gadget" background="ui\ingame\outline_bottom_left" size1024="1 401 4 404" z="6" texturecoords=".25 0 1 .75">
+    </gadget>
+    <gadget name="chat-border-bottom-middle" hidden="" backgroundalpha="1.0" type="gadget" background="ui\ingame\outline_bottom_middle" size1024="4 401 382 404" tilebackgroundhoriz="" z="6" texturecoords="0 0 1 .75">
+    </gadget>
+    <gadget name="chat-border-bottom-right" hidden="" backgroundalpha="1.0" type="gadget" background="ui\ingame\outline_bottom_right" size1024="382 401 385 404" z="6" texturecoords="0 0 .75 .75">
+    </gadget>
+    <gadget name="chatHistoryPercentDisplay" hidden="" backgroundcolor="0 0 0" backgroundalpha="0.5" textcolor="255 255 255" textfontsize="12" textmarkup="" textfont="ChatOutline" textwrapon="" textjustifyright="" size1024="4 78 382 98" type="formatText" z="5">
+    </gadget>
+    <gadget name="chatHistoryHeader" hidden="" textcolor="255 255 255" textfontsize="12" textmarkup="" textfont="ChatOutline" textwrapon="" textjustifyleft="" size1024="4 78 382 98" type="formatText" z="6">
+    </gadget>
+    <gadget name="percent-border-top-left" hidden="" backgroundalpha="1.0" type="gadget" background="ui\ingame\outline_top_left" size1024="1 75 4 78" z="6" texturecoords=".25 .25 1 1">
+    </gadget>
+    <gadget name="percent-border-top-middle" hidden="" backgroundalpha="1.0" type="gadget" background="ui\ingame\outline_top_middle" size1024="4 75 382 78" tilebackgroundhoriz="" z="6" texturecoords="0 .25 1 1">
+    </gadget>
+    <gadget name="percent-border-top-right" hidden="" backgroundalpha="1.0" type="gadget" background="ui\ingame\outline_top_right" size1024="382 75 385 78" z="6" texturecoords="0 .25 .75 1">
+    </gadget>
+    <gadget name="percent-border-side-left" hidden="" backgroundalpha="1.0" type="gadget" background="ui\ingame\outline_side_left" size1024="1 78 4 98" tilebackgroundvert="" z="6" texturecoords=".25 0 1 1">
+    </gadget>
+    <gadget name="percent-border-side-right" hidden="" backgroundalpha="1.0" type="gadget" background="ui\ingame\outline_side_right" size1024="382 78 385 98" tilebackgroundvert="" z="6" texturecoords="0 0 .75 1">
+    </gadget>
+    <gadget name="percent-border-bottom-left" hidden="" backgroundalpha="1.0" type="gadget" background="ui\ingame\outline_bottom_left" size1024="1 98 4 101" z="6" texturecoords=".25 0 1 .75">
+    </gadget>
+    <gadget name="percent-border-bottom-middle" hidden="" backgroundalpha="1.0" type="gadget" background="ui\ingame\outline_bottom_middle" size1024="4 98 382 101" tilebackgroundhoriz="" z="6" texturecoords="0 0 1 .75">
+    </gadget>
+    <gadget name="percent-border-bottom-right" hidden="" backgroundalpha="1.0" type="gadget" background="ui\ingame\outline_bottom_right" size1024="382 98 385 101" z="6" texturecoords="0 0 .75 .75">
+    </gadget>
+  </gadget>
+  <gadget name="chatInput" type="gadget" size1024="4 472 382 496" background="ui\ingame\background_blue_c" hidden="" tilebackground="" bevel="" windowzstyle="" closeonesc="" dontautoclose="">
+    <gadget name="chatInput-text" type="editBox" enterkey="" grabinput="" textfont="ChatInput" textfontsize="12" textcolor="255 255 255" size1024="4 474 382 497" enableime="" editboxmaxchars="100">
+    </gadget>
+    <gadget name="chatInput-sendButton" size1024="-352 351 -256 383" type="stateButton" texturecoords="0 0 .75 1" textfont="InGameButtons" textfontsize="18" textcolor="255 208 0" statebuttonuseinternalstates="">
+      <command>uiSendIngameChat</command>
+      <stateentry background="">
+      </stateentry>
+      <stateentry background="">
+      </stateentry>
+      <stateentry background="">
+      </stateentry>
+      <stateentry background="">
+      </stateentry>
+    </gadget>
+  </gadget>
+  <gadget name="objectivesDialogButton" type="stateButton" z="16" size1024="794 0 912 24" hidden="" mouseovertext="$$31805$$Click on this button to view your objectives." clampforeground="" clampbackground="" statebuttonuseinternalstates="" activateondown="" texturecoords="0.0 0.0 0.83 0.69" textfont="SmallButtonFont" textfontsize="10" textcolor="255 255 255">$$20104$$Objectives<stateentry background="ui\ingame\button"></stateentry><stateentry background="ui\ingame\button_clicked"></stateentry><stateentry background="ui\ingame\button_rollover"></stateentry><stateentry background="ui\ingame\button_disabled"></stateentry><command>gadgetReal("objectivesdialog2")</command></gadget>
+  <gadget name="SubtitleName" type="formatText" textfont="SubtitleName" textfontsize="14" textcolor="231 201 40" size1024="212 671 812 697" z="101" transparent="">
+  </gadget>
+  <gadget name="SubtitleText" type="formatText" textfont="Subtitles" textfontsize="14" textcolor="255 255 255" size1024="212 701 812 768" z="101" transparent="">
+  </gadget>
+  <gadget name="SubtitlePortrait" type="gadget" size1024="115 671 211 767" z="101" transparent="">
+  </gadget>
+  <gadget name="WideSubtitleName" type="formatText" textfont="SubtitleName" textfontsize="14" textcolor="231 201 40" size1024="108 672 1008 698" z="101" transparent="">
+  </gadget>
+  <gadget name="WideSubtitleText" type="formatText" textfont="Subtitles" textfontsize="14" textcolor="255 255 255" size1024="108 701 1008 768" z="101" transparent="">
+  </gadget>
+  <gadget name="WideSubtitlePortrait" type="gadget" size1024="11 672 107 768" z="101" transparent="">
+  </gadget>
+  <gadget name="objectivesNotificationTextBox" type="formatText" z="16" background="" size1024="5 207 400 507" transparent="" hidden="" textfont="GoalText" textfontsize="18" textmarkup="" formattextconvertuserlf="" textcolor="255 255 255">
+  </gadget>
+  <gadget name="uimain-Score" type="gadget" size1024="374 0 600 40" z="5" backgroundalpha="0.85" background="ui\ingame\tempinterface" clickthrufile="ui\ingame\Background_defalut_f" clickthrucoords="0 0 0.823529411764706 0.431372549019608" texturecoords="0.00195694716242661 0.590998043052838 0.444227005870841 0.663405088062622">
+    <gadget name="titleBarPanel-text2" type="formatText" textcentervert="" textcenterhoriz="" transparent="" textcolor="255 255 255" datarefreshrate="200" z="15" textfont="AgeText" textfontsize="12" size1024="452 10 570 26">{playerAge}</gadget>
+    <gadget name="minimapPanel-homecityButton" type="button" size1024="389 5 433 33" texturecoords="0.0 0.0 0.8125 0.75" z="16" foreground="ui\ingame\french" clampforeground="" clampbackground="" donthighlight="" activateondown="">
+    </gadget>
+  </gadget>
+  <gadget name="titleBarPanel" type="gadget" size1024="916 0 1022 26" z="5" backgroundalpha="0.85" background="" clickthrufile="ui\ingame\Background_defalut_f" clickthrucoords="0 0 0.823529411764706 0.431372549019608">
+    <gadget name="minimapPanel-menubutton" type="stateButton" z="16" size1024="916 0 1022 26" mouseovertext="$$18410$$Click on this icon to see the in-game menu." clampforeground="" clampbackground="" statebuttonuseinternalstates="" activateondown="" texturecoords="0.0 0.0 0.83 0.69" textfont="SmallButtonFont" textfontsize="10" textcolor="255 255 255">$$29155$$Menu<stateentry background="ui\ingame\button"></stateentry><stateentry background="ui\ingame\button_clicked"></stateentry><stateentry background="ui\ingame\button_rollover"></stateentry><stateentry background="ui\ingame\button_disabled"></stateentry><command>showGameMenu()  modeEnter("GameMenu")</command></gadget>
+    <gadget name="mainGameMenu" type="dialog" size1024="916 1 1021 175" background="ui\ingame\background_black" hidden="" windowzstyle="" closeonesc="" tilebackground="" dontautoclose="" contextexclusive="mainGameMenu">
+      <gadget name="InGameMenu-PlayerOptions" type="stateButton" size1024="916 26 1022 50" z="10" statebuttonuseinternalstates="" textfont="SmallButtonFont" textfontsize="10" textcolor="255 255 255" texturecoords="0 0 0.826771653543307 0.67741935483871" textcenterhoriz="">$$18439$$Player Options        <command>gadgetUnReal("mainGameMenu") modeEnter("Options")</command><stateentry background="ui\ingame\button"></stateentry><stateentry background="ui\ingame\button_clicked"></stateentry><stateentry background="ui\ingame\button_rollover"></stateentry><stateentry background="ui\ingame\button_disable"></stateentry></gadget>
+      <gadget name="InGameMenu-SaveGame" type="stateButton" size1024="916 101 1022 125" z="10" statebuttonuseinternalstates="" textfont="SmallButtonFont" textfontsize="10" textcolor="255 255 255" texturecoords="0 0 0.826771653543307 0.67741935483871" textcenterhoriz="">$$18442$$Save Game        <command>gadgetUnReal("mainGameMenu") uiSaveSavedGameBrowser()</command><stateentry background="ui\ingame\button"></stateentry><stateentry background="ui\ingame\button_clicked"></stateentry><stateentry background="ui\ingame\button_rollover"></stateentry><stateentry background="ui\ingame\button_disable"></stateentry></gadget>
+      <gadget name="InGameMenu-LoadSavedGame" type="stateButton" size1024="916 126 1022 150" z="10" statebuttonuseinternalstates="" textfont="SmallButtonFont" textfontsize="10" textcolor="255 255 255" texturecoords="0 0 0.826771653543307 0.67741935483871" textcenterhoriz="">$$18443$$Load        <command>gadgetUnReal("mainGameMenu") uiOpenSavedGameBrowser()</command><stateentry background="ui\ingame\button"></stateentry><stateentry background="ui\ingame\button_clicked"></stateentry><stateentry background="ui\ingame\button_rollover"></stateentry><stateentry background="ui\ingame\button_disable"></stateentry></gadget>
+      <gadget name="InGameMenu-ResignGame" type="stateButton" size1024="916 51 1022 75" z="10" statebuttonuseinternalstates="" textfont="SmallButtonFont" textfontsize="10" textcolor="255 255 255" texturecoords="0 0 0.826771653543307 0.67741935483871" textcenterhoriz="">$$20143$$Resign      <command>gadgetReal("ConfirmResign-SinglePlayer") gadgetUnReal("mainGameMenu") </command><stateentry background="ui\ingame\button"></stateentry><stateentry background="ui\ingame\button_clicked"></stateentry><stateentry background="ui\ingame\button_rollover"></stateentry><stateentry background="ui\ingame\button_disable"></stateentry></gadget>
+      <gadget name="InGameMenu-DiplomacyGame" type="stateButton" size1024="916 76 1022 100" z="10" statebuttonuseinternalstates="" textfont="SmallButtonFont" textfontsize="10" textcolor="255 255 255" texturecoords="0 0 0.826771653543307 0.67741935483871" textcenterhoriz="">$$26310$$Diplomacy<command>uiShowPlayerSummaryDialog  gadgetUnReal("mainGameMenu") </command><stateentry background="ui\ingame\button"></stateentry><stateentry background="ui\ingame\button_clicked"></stateentry><stateentry background="ui\ingame\button_rollover"></stateentry><stateentry background="ui\ingame\button_disable"></stateentry></gadget>
+      <gadget name="InGameMenu-ReturntoGame" type="stateButton" size1024="916 1 1022 25" z="10" statebuttonuseinternalstates="" textfont="SmallButtonFont" textfontsize="10" textcolor="255 255 255" texturecoords="0 0 0.826771653543307 0.67741935483871" textcenterhoriz="">$$29155$$Menu<command>gadgetUnReal("mainGameMenu") echoLocalized(19172)</command><stateentry background="ui\ingame\button"></stateentry><stateentry background="ui\ingame\button_clicked"></stateentry><stateentry background="ui\ingame\button_rollover"></stateentry><stateentry background="ui\ingame\button_disable"></stateentry></gadget>
+      <gadget name="InGameMenu-RestartGame" type="stateButton" size1024="916 151 1022 175" z="10" statebuttonuseinternalstates="" textfont="SmallButtonFont" textfontsize="10" textcolor="255 255 255" texturecoords="0 0 0.826771653543307 0.67741935483871" textcenterhoriz="">$$20142$$Restart<stateentry background="ui\ingame\button"></stateentry><stateentry background="ui\ingame\button_clicked"></stateentry><stateentry background="ui\ingame\button_rollover"></stateentry><stateentry background="ui\ingame\button_disable"></stateentry><command>gadgetReal("RestartDialog") gadgetUnReal("mainGameMenu") </command></gadget>
+    </gadget>
+    <gadget name="mainGameMenuMP" type="dialog" size1024="916 1 1022 100" background="ui\ingame\background_black" hidden="" windowzstyle="" closeonesc="" tilebackground="" dontautoclose="" contextexclusive="mainGameMenu">
+      <gadget name="mainGameMenuMP-ReturntoGame" type="stateButton" size1024="916 1 1022 25" z="10" statebuttonuseinternalstates="" textfont="SmallButtonFont" textfontsize="10" textcolor="255 255 255" texturecoords="0 0 0.826771653543307 0.67741935483871" textcenterhoriz="">$$29155$$Menu<command>gadgetUnReal("mainGameMenuMP") echoLocalized(19172)</command><stateentry background="ui\ingame\button"></stateentry><stateentry background="ui\ingame\button_clicked"></stateentry><stateentry background="ui\ingame\button_rollover"></stateentry><stateentry background="ui\ingame\button_disable"></stateentry></gadget>
+      <gadget name="mainGameMenuMP-PlayerOptions" type="stateButton" size1024="916 26 1022 50" z="10" statebuttonuseinternalstates="" textfont="SmallButtonFont" textfontsize="10" textcolor="255 255 255" texturecoords="0 0 0.826771653543307 0.67741935483871" textcenterhoriz="">$$18439$$Player Options        <command>gadgetUnReal("mainGameMenuMP") modeEnter("Options")</command><stateentry background="ui\ingame\button"></stateentry><stateentry background="ui\ingame\button_clicked"></stateentry><stateentry background="ui\ingame\button_rollover"></stateentry><stateentry background="ui\ingame\button_disable"></stateentry></gadget>
+      <gadget name="mainGameMenuMP-ResignGame" type="stateButton" size1024="916 51 1022 75" z="10" statebuttonuseinternalstates="" textfont="SmallButtonFont" textfontsize="10" textcolor="255 255 255" texturecoords="0 0 0.826771653543307 0.67741935483871" textcenterhoriz="">$$20143$$Resign<command>gadgetReal("ConfirmResign") gadgetUnReal("mainGameMenuMP")</command><stateentry background="ui\ingame\button"></stateentry><stateentry background="ui\ingame\button_clicked"></stateentry><stateentry background="ui\ingame\button_rollover"></stateentry><stateentry background="ui\ingame\button_disable"></stateentry></gadget>
+      <gadget name="mainGameMenuMP-DiplomacyGame" type="stateButton" size1024="916 76 1022 100" z="10" statebuttonuseinternalstates="" textfont="SmallButtonFont" textfontsize="10" textcolor="255 255 255" texturecoords="0 0 0.826771653543307 0.67741935483871" textcenterhoriz="">$$26310$$Diplomacy<command>uiShowPlayerSummaryDialog  gadgetUnReal("mainGameMenuMP") </command><stateentry background="ui\ingame\button"></stateentry><stateentry background="ui\ingame\button_clicked"></stateentry><stateentry background="ui\ingame\button_rollover"></stateentry><stateentry background="ui\ingame\button_disable"></stateentry></gadget>
+    </gadget>
+    <gadget name="CampaignMenu" type="dialog" size1024="916 1 1023 150" background="ui\file_system\file_system_background" hidden="" windowzstyle="" closeonesc="" tilebackground="" dontautoclose="" contextexclusive="mainGameMenu">
+      <gadget name="CampaignMenu-PlayerOptions" type="stateButton" size1024="916 26 1022 50" z="10" statebuttonuseinternalstates="" textfont="SmallButtonFont" textfontsize="10" textcolor="255 255 255" texturecoords="0 0 0.826771653543307 0.67741935483871" textcenterhoriz="">$$18439$$Player Options        <command>gadgetUnReal("CampaignMenu") modeEnter("Options")</command><stateentry background="ui\ingame\button"></stateentry><stateentry background="ui\ingame\button_clicked"></stateentry><stateentry background="ui\ingame\button_rollover"></stateentry><stateentry background="ui\ingame\button_disable"></stateentry></gadget>
+      <gadget name="CampaignMenu-SaveGame" type="stateButton" size1024="916 101 1022 125" z="10" statebuttonuseinternalstates="" textfont="SmallButtonFont" textfontsize="10" textcolor="255 255 255" texturecoords="0 0 0.826771653543307 0.67741935483871" textcenterhoriz="">$$18442$$Save Game       <stateentry background="ui\ingame\button"></stateentry><stateentry background="ui\ingame\button_clicked"></stateentry><stateentry background="ui\ingame\button_rollover"></stateentry><stateentry background="ui\ingame\button_disable"></stateentry><command>gadgetUnReal("CampaignMenu") uiSaveSavedGameBrowser()</command></gadget>
+      <gadget name="CampaignMenu-ResignGame" type="stateButton" size1024="916 51 1022 75" z="10" statebuttonuseinternalstates="" textfont="SmallButtonFont" textfontsize="10" textcolor="255 255 255" texturecoords="0 0 0.826771653543307 0.67741935483871" textcenterhoriz="">$$20143$$Resign      <command>gadgetReal("ConfirmResign-SinglePlayer") gadgetUnReal("CampaignMenu") </command><stateentry background="ui\ingame\button"></stateentry><stateentry background="ui\ingame\button_clicked"></stateentry><stateentry background="ui\ingame\button_rollover"></stateentry><stateentry background="ui\ingame\button_disable"></stateentry></gadget>
+      <gadget name="CampaignMenu-DiplomacyGame" type="stateButton" size1024="916 76 1022 100" z="10" statebuttonuseinternalstates="" textfont="SmallButtonFont" textfontsize="10" textcolor="255 255 255" texturecoords="0 0 0.826771653543307 0.67741935483871" textcenterhoriz="">$$26310$$Diplomacy<command>uiShowPlayerSummaryDialog  gadgetUnReal("CampaignMenu") </command><stateentry background="ui\ingame\button"></stateentry><stateentry background="ui\ingame\button_clicked"></stateentry><stateentry background="ui\ingame\button_rollover"></stateentry><stateentry background="ui\ingame\button_disable"></stateentry></gadget>
+      <gadget name="CampaignMenu-QuitGame" type="stateButton" size1024="916 126 1022 150" z="10" statebuttonuseinternalstates="" textfont="SmallButtonFont" textfontsize="10" textcolor="255 255 255" texturecoords="0 0 0.826771653543307 0.67741935483871" textcenterhoriz="">$$18445$$Quit<stateentry background="ui\ingame\button"></stateentry><stateentry background="ui\ingame\button_clicked"></stateentry><stateentry background="ui\ingame\button_rollover"></stateentry><stateentry background="ui\ingame\button_disable"></stateentry><command>gadgetUnReal("CampaignMenu") gadgetReal("Campaign-ConfirmSave")</command></gadget>
+      <gadget name="CampaignMenu-ReturntoGame" type="stateButton" size1024="916 1 1022 25" z="10" statebuttonuseinternalstates="" textfont="SmallButtonFont" textfontsize="10" textcolor="255 255 255" texturecoords="0 0 0.826771653543307 0.67741935483871" textcenterhoriz="">$$29155$$Menu<stateentry background="ui\ingame\button"></stateentry><stateentry background="ui\ingame\button_clicked"></stateentry><stateentry background="ui\ingame\button_rollover"></stateentry><stateentry background="ui\ingame\button_disable"></stateentry><command>gadgetUnReal("CampaignMenu") echoLocalized(19172)</command></gadget>
+    </gadget>
+    <gadget name="editorTestGameMenu" type="dialog" size1024="916 1 1022 51" background="ui\file_system\file_system_background" hidden="" windowzstyle="" closeonesc="" tilebackground="" dontautoclose="" contextexclusive="mainGameMenu">
+      <gadget name="editorTestGameMenu-Quit" type="stateButton" size1024="916 26 1022 50" z="10" statebuttonuseinternalstates="" textfont="SmallButtonFont" textfontsize="10" textcolor="255 255 255" texturecoords="0 0 0.826771653543307 0.67741935483871" textcenterhoriz="">$$18445$$Quit<stateentry background="ui\ingame\button"></stateentry><stateentry background="ui\ingame\button_clicked"></stateentry><stateentry background="ui\ingame\button_rollover"></stateentry><stateentry background="ui\ingame\button_disable"></stateentry><command>gadgetUnReal("mainGameMenuRecGame") leaveGame</command></gadget>
+      <gadget name="editorTestGameMenu-ReturntoGame" type="stateButton" size1024="916 1 1022 25" z="10" statebuttonuseinternalstates="" textfont="SmallButtonFont" textfontsize="10" textcolor="255 255 255" texturecoords="0 0 0.826771653543307 0.67741935483871" textcenterhoriz="">$$29155$$Menu<stateentry background="ui\ingame\button"></stateentry><stateentry background="ui\ingame\button_clicked"></stateentry><stateentry background="ui\ingame\button_rollover"></stateentry><stateentry background="ui\ingame\button_disable"></stateentry><command>gadgetUnReal("editorTestGameMenu") echoLocalized(19172)</command></gadget>
+    </gadget>
+    <gadget name="GCPostGameMenu" type="dialog" size1024="916 1 1022 76" background="ui\ingame\background_black" hidden="" windowzstyle="" closeonesc="" tilebackground="" contextexclusive="mainGameMenu">
+      <gadget name="GCPostGameMenu-ViewPostgame" type="stateButton" size1024="916 51 1022 75" z="10" statebuttonuseinternalstates="" textfont="SmallButtonFont" textfontsize="10" textcolor="255 255 255" texturecoords="0 0 0.826771653543307 0.67741935483871" textcenterhoriz="">$$20152$$View Postgame<command>gadgetUnReal("GCPostGameMenu") handlePostGame</command><stateentry background="ui\ingame\button"></stateentry><stateentry background="ui\ingame\button_clicked"></stateentry><stateentry background="ui\ingame\button_rollover"></stateentry><stateentry background="ui\ingame\button_disable"></stateentry></gadget>
+      <gadget name="GCPostGameMenu-QuitGame" type="stateButton" size1024="916 26 1022 50" z="10" statebuttonuseinternalstates="" textfont="SmallButtonFont" textfontsize="10" textcolor="255 255 255" texturecoords="0 0 0.826771653543307 0.67741935483871" textcenterhoriz="">$$30193$$Strategic Map<command>gadgetUnReal("GCPostGameMenu") leaveGame</command><stateentry background="ui\ingame\button"></stateentry><stateentry background="ui\ingame\button_clicked"></stateentry><stateentry background="ui\ingame\button_rollover"></stateentry><stateentry background="ui\ingame\button_disable"></stateentry></gadget>
+      <gadget name="GCPostGameMenu-ReturntoGame" type="stateButton" size1024="916 1 1022 25" z="10" statebuttonuseinternalstates="" textfont="SmallButtonFont" textfontsize="10" textcolor="255 255 255" texturecoords="0 0 0.826771653543307 0.67741935483871" textcenterhoriz="">$$29155$$Menu<command>gadgetUnReal("GCPostGameMenu") echoLocalized(19172)</command><stateentry background="ui\ingame\button"></stateentry><stateentry background="ui\ingame\button_clicked"></stateentry><stateentry background="ui\ingame\button_rollover"></stateentry><stateentry background="ui\ingame\button_disable"></stateentry></gadget>
+    </gadget>
+    <gadget name="GrandConquestMenu" type="dialog" size1024="916 1 1022 151" background="ui\file_system\file_system_background" hidden="" windowzstyle="" closeonesc="" tilebackground="" dontautoclose="" contextexclusive="mainGameMenu">
+      <gadget name="GrandConquestMenu-PlayerOptions" type="stateButton" size1024="916 26 1022 50" z="10" statebuttonuseinternalstates="" textfont="SmallButtonFont" textfontsize="10" textcolor="255 255 255" texturecoords="0 0 0.826771653543307 0.67741935483871" textcenterhoriz="">$$18439$$Player Options        <command>gadgetUnReal("GrandConquestMenu") modeEnter("Options")</command><stateentry background="ui\ingame\button"></stateentry><stateentry background="ui\ingame\button_clicked"></stateentry><stateentry background="ui\ingame\button_rollover"></stateentry><stateentry background="ui\ingame\button_disable"></stateentry></gadget>
+      <gadget name="GrandConquestMenu-SaveGame" type="stateButton" size1024="916 101 1022 125" z="10" statebuttonuseinternalstates="" textfont="SmallButtonFont" textfontsize="10" textcolor="255 255 255" texturecoords="0 0 0.826771653543307 0.67741935483871" textcenterhoriz="">$$18442$$Save Game       <stateentry background="ui\ingame\button"></stateentry><stateentry background="ui\ingame\button_clicked"></stateentry><stateentry background="ui\ingame\button_rollover"></stateentry><stateentry background="ui\ingame\button_disable"></stateentry><command>gadgetUnReal("GrandConquestMenu") uiSaveSavedGameBrowser()</command></gadget>
+      <gadget name="GrandConquestMenu-ResignGame" type="stateButton" size1024="916 51 1022 75" z="10" statebuttonuseinternalstates="" textfont="SmallButtonFont" textfontsize="10" textcolor="255 255 255" texturecoords="0 0 0.826771653543307 0.67741935483871" textcenterhoriz="">$$20143$$Resign      <command>gadgetReal("ConfirmResign-SinglePlayer") gadgetUnReal("GrandConquestMenu") </command><stateentry background="ui\ingame\button"></stateentry><stateentry background="ui\ingame\button_clicked"></stateentry><stateentry background="ui\ingame\button_rollover"></stateentry><stateentry background="ui\ingame\button_disable"></stateentry></gadget>
+      <gadget name="GrandConquestMenu-DiplomacyGame" type="stateButton" size1024="916 76 1022 100" z="10" statebuttonuseinternalstates="" textfont="SmallButtonFont" textfontsize="10" textcolor="255 255 255" texturecoords="0 0 0.826771653543307 0.67741935483871" textcenterhoriz="">$$26310$$Diplomacy<command>uiShowPlayerSummaryDialog  gadgetUnReal("GrandConquestMenu") </command><stateentry background="ui\ingame\button"></stateentry><stateentry background="ui\ingame\button_clicked"></stateentry><stateentry background="ui\ingame\button_rollover"></stateentry><stateentry background="ui\ingame\button_disable"></stateentry></gadget>
+      <gadget name="GrandConquestMenu-QuitGame" type="stateButton" size1024="916 126 1022 150" z="10" statebuttonuseinternalstates="" textfont="SmallButtonFont" textfontsize="10" textcolor="255 255 255" texturecoords="0 0 0.826771653543307 0.67741935483871" textcenterhoriz="">$$30193$$Strategic Map<stateentry background="ui\ingame\button"></stateentry><stateentry background="ui\ingame\button_clicked"></stateentry><stateentry background="ui\ingame\button_rollover"></stateentry><stateentry background="ui\ingame\button_disable"></stateentry><command>gadgetUnReal("GrandConquestMenu") gadgetReal("GrandConquest-ConfirmSave")</command></gadget>
+      <gadget name="GrandConquestMenu-ReturntoGame" type="stateButton" size1024="916 1 1022 25" z="10" statebuttonuseinternalstates="" textfont="SmallButtonFont" textfontsize="10" textcolor="255 255 255" texturecoords="0 0 0.826771653543307 0.67741935483871" textcenterhoriz="">$$29155$$Menu<stateentry background="ui\ingame\button"></stateentry><stateentry background="ui\ingame\button_clicked"></stateentry><stateentry background="ui\ingame\button_rollover"></stateentry><stateentry background="ui\ingame\button_disable"></stateentry><command>gadgetUnReal("GrandConquestMenu") echoLocalized(19172)</command></gadget>
+    </gadget>
+    <gadget name="postGameMenu" type="dialog" size1024="916 1 1022 100" background="ui\ingame\background_black" hidden="" windowzstyle="" closeonesc="" tilebackground="" contextexclusive="mainGameMenu">
+      <gadget name="postGameMenu-ViewPostgame" type="stateButton" size1024="916 26 1022 50" z="10" statebuttonuseinternalstates="" textfont="SmallButtonFont" textfontsize="10" textcolor="255 255 255" texturecoords="0 0 0.826771653543307 0.67741935483871" textcenterhoriz="">$$20152$$View Postgame<command>gadgetUnReal("postGameMenu") handlePostGame</command><stateentry background="ui\ingame\button"></stateentry><stateentry background="ui\ingame\button_clicked"></stateentry><stateentry background="ui\ingame\button_rollover"></stateentry><stateentry background="ui\ingame\button_disable"></stateentry></gadget>
+      <gadget name="postGameMenu-PlayerOptions" type="stateButton" size1024="916 51 1022 75" z="10" statebuttonuseinternalstates="" textfont="SmallButtonFont" textfontsize="10" textcolor="255 255 255" texturecoords="0 0 0.826771653543307 0.67741935483871" textcenterhoriz="">$$18439$$Player Options        <command>gadgetUnReal("postGameMenu") modeEnter("Options")</command><stateentry background="ui\ingame\button"></stateentry><stateentry background="ui\ingame\button_clicked"></stateentry><stateentry background="ui\ingame\button_rollover"></stateentry><stateentry background="ui\ingame\button_disable"></stateentry></gadget>
+      <gadget name="postGameMenu-QuitGame" type="stateButton" size1024="916 76 1022 100" z="10" statebuttonuseinternalstates="" textfont="SmallButtonFont" textfontsize="10" textcolor="255 255 255" texturecoords="0 0 0.826771653543307 0.67741935483871" textcenterhoriz="">$$18445$$Quit<command>gadgetUnReal("postGameMenu") leaveGame</command><stateentry background="ui\ingame\button"></stateentry><stateentry background="ui\ingame\button_clicked"></stateentry><stateentry background="ui\ingame\button_rollover"></stateentry><stateentry background="ui\ingame\button_disable"></stateentry></gadget>
+      <gadget name="postGameMenu-ReturntoGame" type="stateButton" size1024="916 1 1022 25" z="10" statebuttonuseinternalstates="" textfont="SmallButtonFont" textfontsize="10" textcolor="255 255 255" texturecoords="0 0 0.826771653543307 0.67741935483871" textcenterhoriz="">$$29155$$Menu<command>gadgetUnReal("postGameMenu") echoLocalized(19172)</command><stateentry background="ui\ingame\button"></stateentry><stateentry background="ui\ingame\button_clicked"></stateentry><stateentry background="ui\ingame\button_rollover"></stateentry><stateentry background="ui\ingame\button_disable"></stateentry></gadget>
+    </gadget>
+  </gadget>
+  <gadget name="uimain-CoveredWagon" type="stateButton" z="16" size1024="0 46 146 70" hidden="" mouseovertext="$$32758$$Click on this button to build a new covered wagon." clampforeground="" clampbackground="" statebuttonuseinternalstates="" activateondown="" texturecoords="0.0 0.0 0.83 0.69" textfont="SmallButtonFont" textfontsize="10" textcolor="255 255 255">New Covered Wagon<stateentry background="ui\ingame\button"></stateentry><stateentry background="ui\ingame\button_clicked"></stateentry><stateentry background="ui\ingame\button_rollover"></stateentry><stateentry background="ui\ingame\button_disabled"></stateentry><command>editMode("coveredwagon") uiSetProtoID(293)</command></gadget>
+  <gadget name="SocketPanel" type="gadget" backgroundcolor="0 0 0" size1024="347 587 754 768" hidden="" texturecoords="0 0 0.792563600782779 0.701960784313725" z="5" background="ui\ingame\TEMPINTERFACE4">
+    <gadget name="SocketPanel-portrait" type="gadget" size1024="614 626 742 754" z="11">
+    </gadget>
+    <gadget name="SocketPanel-textUnitLabel" z="13" type="formatText" background="" textfont="AgeUpgradeMedium" textcenterhoriz="" textcentervert="" textfontsize="17" textcolor="255 255 255" textjustifycenter="" size1024="602 598 749 615">
+    </gadget>
+    <gadget name="SocketPanel-textDescription" z="13" type="formatText" background="" textfont="AgeUpgradeMedium" textcenterhoriz="" textfontsize="17" textcolor="255 255 255" textjustifycenter="" size1024="370 618 589 739">
+    </gadget>
+  </gadget>
+  <gadget name="SocketPanel2" type="gadget" backgroundcolor="0 0 0" size1024="591 561 1024 732" hidden="" texturecoords="0 0 0.845703125 0.66796875" z="5" background="ui\ingame\ingame_ui_04x_ypack">
+    <gadget name="SocketPanel2-portrait" type="gadget" size1024="891 609 987 705" z="11">
+    </gadget>
+    <gadget name="SocketPanel2-textUnitLabel" z="13" type="formatText" background="" textfont="AgeUpgradeMedium" textcenterhoriz="" textcentervert="" textfontsize="17" textcolor="255 255 255" textjustifycenter="" size1024="882 580 999 595">
+    </gadget>
+    <gadget name="SocketPanel2-textDescription" z="13" type="formatText" background="" textfont="AgeUpgradeMedium" textcenterhoriz="" textfontsize="17" textcolor="255 255 255" textjustifycenter="" size1024="618 598 837 719">
+    </gadget>
+  </gadget>
+  <gadget name="SettlerCountDialog" type="gadget" size1024="227 635 348 768" transparent="" z="7">
+    <gadget name="minimapPanel-tributebutton" type="button" z="12" size1024="285 666 336 738" mouseovertext="$$26320$$" foreground="" donthighlight="" activateondown="">
+      <command>uiShowPlayerSummaryDialog uiEnterGameMenuModeIfNotResigned</command>
+    </gadget>
+  </gadget>
+  <gadget name="SettlerCountDialog-defaultPanel" type="gadget" transparent="" size1024="227 638 338 768" donthighlight="" z="8" background="ui\ingame\tempinterface" texturecoords="0 0.669275929549902 0.215264187866928 0.923679060665362">
+    <gadget name="minimapPanel-tributebutton2" type="button" z="12" size1024="263 674 336 764" foreground="" donthighlight="" activateondown="">
+      <command>uiShowPlayerSummaryDialog uiEnterGameMenuModeIfNotResigned</command>
+    </gadget>
+    <gadget name="SettlerCountDialog-dpfood1" type="gadget" transparent="" z="9" size1024="235 680 253 696" mouseovertext="$$18397$$" background="ui\ingame\resource_food">
+    </gadget>
+    <gadget name="SettlerCountDialog-dpwood1" type="gadget" transparent="" z="9" size1024="235 712 255 726" mouseovertext="$$18419$$" background="ui\ingame\resource_wood">
+    </gadget>
+    <gadget name="SettlerCountDialog-dpgold1" type="gadget" transparent="" z="9" size1024="237 742 257 756" mouseovertext="$$18420$$" background="ui\ingame\resource_gold">
+    </gadget>
+    <gadget name="minimapPanel-dpfood" type="formatText" mouseovertext="$$18397$$Food Gatherers: {numGatherers(food)}" size1024="271 678 320 694" donthighlight="" datarefreshrate="100" textcolor="255 255 255" textfont="NumbersFont" textfontsize="12" textcentervert="" z="9" background="">{resource(food)}</gadget>
+    <gadget name="minimapPanel-dpwood" type="formatText" mouseovertext="$$18419$$Wood Gatherers: {numGatherers(wood)}" size1024="271 708 320 726" donthighlight="" datarefreshrate="100" textcolor="255 255 255" textfont="NumbersFont" textfontsize="12" textcentervert="" z="9" background="">{resource(wood)}</gadget>
+    <gadget name="minimapPanel-dpgold" type="formatText" mouseovertext="$$18420$$Gold Gatherers: {numGatherers(gold)}" size1024="271 744 320 762" donthighlight="" datarefreshrate="100" textcolor="255 255 255" textfont="NumbersFont" textfontsize="12" textcentervert="" z="9" background="">{resource(gold)}</gadget>
+  </gadget>
+  <gadget name="SettlerCountDialog-advancedPanel" type="gadget" transparent="" hidden="" size1024="227 638 338 768" donthighlight="" z="8" background="ui\ingame\tempinterface" texturecoords="0.455968688845401 0.330724070450098 0.671232876712329 0.585127201565558">
+    <gadget name="minimapPanel-tributebutton1" type="button" z="12" size1024="285 666 336 738" foreground="" donthighlight="" activateondown="">
+      <command>uiShowPlayerSummaryDialog uiEnterGameMenuModeIfNotResigned</command>
+    </gadget>
+    <gadget name="SettlerCountDialog-pop1" type="gadget" z="9" size1024="235 640 255 660" mouseovertext="$$32714$$" anchortooltiptopright="" texturecoords="0.0793650793650794 0 0.333333333333333 0.67741935483871" background="ui\banners\idle_villager">
+    </gadget>
+    <gadget name="SettlerCountDialog-totalPopLeft" type="textBox" size1024="261 642 334 660" datarefreshrate=".5" textcolor="255 255 255" z="9" mouseovertext="$$32714$$" anchortooltiptopright="" textfont="NumbersFont" textcenterhoriz="" textfontsize="12" background="">{totalPop} / {popcap}</gadget>
+    <gadget name="SettlerCountDialog-foodLabel" type="stateButton" z="9" size1024="231 666 281 684" mouseovertext="$$18397$$" anchortooltiptopright="" statebuttonuseinternalstates="" activateondown="" textfont="SmallButtonFont" textfontsize="10" textcolor="255 255 255">
+      <command>uiFindResourceGatherers("food")</command>
+      <stateentry background="">
+      </stateentry>
+    </gadget>
+    <gadget name="SettlerCountDialog-food" type="formatText" transparent="" textcenterhoriz="" size1024="233 668 253 684" anchortooltiptopright="" donthighlight="" datarefreshrate="100" textcolor="255 255 255" textfont="NumbersFont" textfontsize="12" textcentervert="" z="9" background="">{numGatherers(food)}</gadget>
+    <gadget name="SettlerCountDialog-food1" type="gadget" transparent="" size1024="257 668 277 682" anchortooltiptopright="" donthighlight="" z="9" background="ui\ingame\resource_food">
+    </gadget>
+    <gadget name="minimapPanel-food" type="formatText" mouseovertext="$$18397$$Food Gatherers: {numGatherers(food)}" anchortooltiptopright="" size1024="287 668 336 684" donthighlight="" datarefreshrate="100" textcolor="255 255 255" textfont="NumbersFont" textfontsize="12" textcentervert="" z="9" background="">{resource(food)}</gadget>
+    <gadget name="SettlerCountDialog-woodLabel" type="stateButton" z="9" size1024="233 694 281 710" mouseovertext="$$18419$$" anchortooltiptopright="" statebuttonuseinternalstates="" activateondown="" textfont="SmallButtonFont" textfontsize="10" textcolor="255 255 255">
+      <command>uiFindResourceGatherers("wood")</command>
+      <stateentry background="">
+      </stateentry>
+    </gadget>
+    <gadget name="SettlerCountDialog-wood" type="formatText" transparent="" textcenterhoriz="" size1024="233 694 253 710" donthighlight="" anchortooltiptopright="" datarefreshrate="100" textcolor="255 255 255" textfont="NumbersFont" textfontsize="12" textcentervert="" z="9" background="">{numGatherers(wood)}</gadget>
+    <gadget name="SettlerCountDialog-wood1" type="gadget" transparent="" z="9" size1024="259 696 279 710" mouseovertext="$$18419$$" anchortooltiptopright="" background="ui\ingame\resource_wood">
+    </gadget>
+    <gadget name="minimapPanel-wood" type="formatText" mouseovertext="$$18419$$Wood Gatherers: {numGatherers(wood)}" anchortooltiptopright="" size1024="287 694 336 712" donthighlight="" datarefreshrate="100" textcolor="255 255 255" textfont="NumbersFont" textfontsize="12" textcentervert="" z="9" background="">{resource(wood)}</gadget>
+    <gadget name="SettlerCountDialog-goldLabel" type="stateButton" z="9" size1024="231 720 281 736" mouseovertext="$$18420$$" anchortooltiptopright="" statebuttonuseinternalstates="" activateondown="" textfont="SmallButtonFont" textfontsize="10" textcolor="255 255 255">
+      <command>uiFindResourceGatherers("gold")</command>
+      <stateentry background="">
+      </stateentry>
+    </gadget>
+    <gadget name="SettlerCountDialog-gold" type="formatText" transparent="" textcenterhoriz="" size1024="233 720 253 736" donthighlight="" anchortooltiptopright="" datarefreshrate="100" textcolor="255 255 255" textfont="NumbersFont" textfontsize="12" textcentervert="" z="9" background="">{numGatherers(gold)}</gadget>
+    <gadget name="SettlerCountDialog-gold1" type="gadget" transparent="" z="9" size1024="257 722 277 736" mouseovertext="$$18420$$" anchortooltiptopright="" background="ui\ingame\resource_gold">
+    </gadget>
+    <gadget name="minimapPanel-gold" type="formatText" mouseovertext="$$18420$$Gold Gatherers: {numGatherers(gold)}" anchortooltiptopright="" size1024="285 720 334 738" donthighlight="" datarefreshrate="100" textcolor="255 255 255" textfont="NumbersFont" textfontsize="12" textcentervert="" z="9" background="">{resource(gold)}</gadget>
+    <gadget name="SettlerCountDialog-pop" type="textBox" size1024="230 745 255 761" datarefreshrate=".5" textcolor="255 255 255" z="9" mouseovertext="$$29017$$" anchortooltiptopright="" textfont="NumbersFont" textcenterhoriz="" textfontsize="12" background="">{numUnits(AbstractVillager)}</gadget>
+    <gadget name="SettlerCountDialog-pop2" type="gadget" z="9" size1024="259 744 279 764" mouseovertext="$$29017$$" anchortooltiptopright="" texturecoords="0.0793650793650794 0 0.333333333333333 0.67741935483871" background="ui\banners\idle_villager">
+    </gadget>
+    <gadget name="SettlerCountDialog-idleLabel" type="formatText" transparent="" size1024="285 746 333 762" donthighlight="" anchortooltiptopright="" datarefreshrate="100" textcolor="255 255 255" textfont="NumbersFont" textfontsize="12" textcentervert="" z="9" background="">{numIdle(AbstractVillager)}</gadget>
+    <gadget name="SettlerCountDialog-idle" type="stateButton" mouseovertext="Idle Villagers: {numIdle(AbstractVillager)}" anchortooltiptopright="" statebuttonuseinternalstates="" activateondown="" size1024="285 746 333 762" textcolor="255 255 255" textfont="SmallButtonFont" textfontsize="10" z="9" background="">
+      <command>uiFindIdleType("ValidIdleVillager")</command>
+      <stateentry background="">
+      </stateentry>
+    </gadget>
+  </gadget>
+  <gadget name="timeDisplay" type="textBox" size1024="734 26 1024 51" transparent="" datarefreshrate=".5" textcolor="255 255 255" z="8" textfont="TimerDisplays" textjustifyright="" textfontsize="12" hidden="">{gametime}{gamespeed}{aiDifficulty}</gadget>
+  <gadget name="mainHelpText" transparent="" type="formatText" size1024="703 483 1024 577" textcolor="255 255 255" backgroundcolor="0 0 0" backgroundalpha="0.3" textwrapon="" textfont="RolloverFont" textfontsize="12" textmarkup="" formattextusedatareplace="" hidden="">
+  </gadget>
+  <gadget name="terseHelpText" transparent="" type="formatText" size1024="702 527 1024 577" textcolor="255 255 255" background="" textwrapon="" textfont="RolloverFont" textfontsize="12" textmarkup="" formattextusedatareplace="" formattextbottomfill="" hidden="">
+  </gadget>
+  <gadget clampbackground="" name="MainBackground_edge1" type="gadget" background="missing" tilebackground="" size1024="-2 -2 1024 0">
+  </gadget>
+  <gadget clampbackground="" name="MainBackground_edge2" type="gadget" background="missing" tilebackground="" size1024="-2 -2 0 768">
+  </gadget>
+  <gadget name="messageWindow" type="gadget" background="ui\ingame\mission_objectives" tilebackground="" size1024="256 80 768 144" z="4" transparent="" fade="" hidden="">
+    <gadget name="messageWindow-CloseButton" type="stateButton" textcolor="255 208 0" statebuttonuseinternalstates="" size1024="752 80 768 96" z="10">
+      <command>gadgetUnReal("messageWindow")</command>
+      <stateentry background="ui\file_system\close">
+      </stateentry>
+      <stateentry background="ui\file_system\close_clicked">
+      </stateentry>
+      <stateentry background="ui\file_system\close_rollover">
+      </stateentry>
+      <stateentry background="">
+      </stateentry>
+    </gadget>
+    <gadget name="messageWindow-text" type="formatText" size1024="264 88 760 136" textcolor="255 208 0" background="" z="9" textfont="RegularInGame" textfontsize="12" textwrapon="">
+    </gadget>
+  </gadget>
+  <gadget name="ImperialArmyPanel" type="formatText" size1024="900 52 1023 285" z="7" transparent="" backgroundcolor="0 0 0" backgroundalpha="0.0" donthighlight="" textcolor="255 255 255" hidden="" textfont="ScoreFont" textfontsize="12" textmarkup="" formattextusedatareplace="">
+  </gadget>
+  <gadget name="AboutBox" type="dialog" size1024="325 128 691 533" background="missing" tilebackground="" hidden="" z="100" windowzstyle="" closeonesc="">
+    <gadget name="AboutBox-background2" type="gadget" size1024="345 148 671 478" background="missing" tilebackground="" bevel="" z="10">
+    </gadget>
+    <gadget name="VersionText" type="formatText" size1024="365 168 661 188" bevel="" verticalbuttons="" textfont="EntryFields" textfontsize="12" textcolor="255 255 255" z="25">$$18459$$Age of Empires III (TM), version {gameVersion}</gadget>
+    <gadget name="CopyrightText" type="formatText" size1024="365 198 661 238" bevel="" verticalbuttons="" textfont="EntryFields" textfontsize="12" textcolor="255 255 255" z="25">$$18460$$Copyright (c) Microsoft Corporation.  All rights reserved. </gadget>
+    <gadget name="WarningText" type="formatText" size1024="365 238 661 338" bevel="" verticalbuttons="" textfont="EntryFields" textfontsize="12" textcolor="255 255 255" textwrapon="" z="25">$$18461$$Warning:  This computer program is protected by copyright law and international treaties. Unauthorized reproduction or distribution of this program, or any portion of it, may result in severe civil and criminal penalties, and will be prosecuted to the maximum extent possible under the law.</gadget>
+    <gadget name="BinkText" type="formatText" size1024="365 338 661 378" bevel="" verticalbuttons="" textfont="EntryFields" textfontsize="12" textcolor="255 255 255" z="25">$$18462$$Uses Bink Video. Copyright (c) 1997-2002 by RAD Game Tools, Inc.</gadget>
+    <gadget name="GrannyText" type="formatText" size1024="365 378 661 418" bevel="" verticalbuttons="" textfont="EntryFields" textfontsize="12" textcolor="255 255 255" z="25">$$18463$$Uses Granny Animation. Copyright (c) 1999-2002 by RAD Game Tools, Inc.</gadget>
+    <gadget name="XerxesText" type="formatText" size1024="365 418 661 468" bevel="" verticalbuttons="" textfont="EntryFields" textfontsize="12" textcolor="255 255 255" z="25">$$18464$$This product includes software developed by the Apache Software Foundation (http://www.apache.org/).</gadget>
+    <gadget name="AboutBox-CloseButton" z="25" type="button" foreground="UI\button_Greek" textfont="ButtonFont" textfontsize="14" textcolor="255 255 255" size1024="445 491 573 523" bevelbutton="">$$18457$$Close<command>gadgetUnReal("AboutBox")</command></gadget>
+    <gadget name="AboutBox-bordertop" type="gadget" size1024="325 112 691 128" background="missing" tilebackground="">
+    </gadget>
+    <gadget name="AboutBox-borderleft" type="gadget" size1024="309 144 341 517" background="missing" tilebackground="">
+    </gadget>
+    <gadget name="AboutBox-borderright" type="gadget" size1024="675 144 707 517" background="missing" tilebackground="">
+    </gadget>
+    <gadget name="AboutBox-borderbottom" type="gadget" size1024="325 533 691 549" background="missing" tilebackground="">
+    </gadget>
+    <gadget name="AboutBox-upperleftcorner" type="gadget" size1024="309 112 341 144" background="UI\Dialogs G Topleft" z="11">
+    </gadget>
+    <gadget name="AboutBox-upperrightcorner" type="gadget" size1024="675 112 707 144" background="UI\Dialogs G Topright" z="11">
+    </gadget>
+    <gadget name="AboutBox-lowerleftcorner" type="gadget" size1024="309 517 341 549" background="UI\Dialogs G Bottomleft" z="11">
+    </gadget>
+    <gadget name="AboutBox-lowerrightcorner" type="gadget" size1024="675 517 707 549" background="UI\Dialogs G Bottomright" z="11">
+    </gadget>
+  </gadget>
+  <gadget name="mainGameMenuRecGame" type="dialog" size1024="386 181 637 501" background="ui\file_system\file_system_background" hidden="" windowzstyle="" closeonesc="" tilebackground="" dontautoclose="" contextexclusive="mainGameMenu">
+    <gadget tilebackgroundhoriz="" name="mainGameMenuRecGame-BordersTop" type="gadget" background="ui\file_system\border_top_middle" size1024="386 165 637 181" z="4" transparent="">
+    </gadget>
+    <gadget tilebackgroundhoriz="" name="mainGameMenuRecGame-BordersBottom" type="gadget" background="ui\file_system\border_bottom_middle" size1024="386 501 637 517" z="4" transparent="">
+    </gadget>
+    <gadget name="mainGameMenuRecGame-BordersLeft" type="gadget" background="ui\file_system\border_side_left" size1024="378 181 386 501" tilebackgroundvert="" transparent="">
+    </gadget>
+    <gadget name="mainGameMenuRecGame-BordersRight" type="gadget" background="ui\file_system\border_side_right" size1024="637 181 645 501" tilebackgroundvert="" z="4" transparent="">
+    </gadget>
+    <gadget name="mainGameMenuRecGame-BordersRightTop" type="gadget" background="ui\file_system\border_top_right" size1024="613 165 645 197" z="5" transparent="" clampbackground="">
+    </gadget>
+    <gadget name="mainGameMenuRecGame-BordersLeftTop" type="gadget" background="ui\file_system\border_top_left" size1024="378 165 410 197" z="5" transparent="" clampbackground="">
+    </gadget>
+    <gadget name="mainGameMenuRecGame-BordersRightBottom" type="gadget" background="ui\file_system\border_bottom_right" size1024="613 485 645 517" z="5" transparent="" clampbackground="">
+    </gadget>
+    <gadget name="mainGameMenuRecGame-BordersLeftBottom" type="gadget" background="ui\file_system\border_bottom_left" size1024="378 485 410 517" z="5" transparent="" clampbackground="">
+    </gadget>
+    <gadget name="mainGameMenuRecGame-Quit" type="stateButton" size1024="417 216 609 248" z="10" statebuttonuseinternalstates="" textfont="IngameButtons" textfontsize="18" textcolor="3 0 88" texturecoords="0 0 .75 1" textcenterhoriz="">$$18445$$Quit<stateentry background="ui\core_ui\button_192x32_normal"></stateentry><stateentry background="ui\core_ui\button_192x32_clicked"></stateentry><stateentry background="ui\core_ui\button_192x32_rollover"></stateentry><stateentry background="ui\core_ui\button_192x32_disabled"></stateentry><command>gadgetUnReal("mainGameMenuRecGame") leaveGame</command></gadget>
+    <gadget name="mainGameMenuRecGame-LoadGame" type="stateButton" size1024="417 256 609 288" z="10" statebuttonuseinternalstates="" textfont="IngameButtons" textfontsize="18" textcolor="3 0 88" texturecoords="0 0 .75 1" textcenterhoriz="">$$18443$$Load<stateentry background="ui\core_ui\button_192x32_normal"></stateentry><stateentry background="ui\core_ui\button_192x32_clicked"></stateentry><stateentry background="ui\core_ui\button_192x32_rollover"></stateentry><stateentry background="ui\core_ui\button_192x32_disabled"></stateentry><command>gadgetUnReal("mainGameMenuRecGame") uiOpenRecordGameBrowser</command></gadget>
+    <gadget name="mainGameMenuRecGame-ViewPostgame" type="stateButton" size1024="417 296 609 328" z="10" statebuttonuseinternalstates="" textfont="IngameButtons" textfontsize="18" textcolor="3 0 88" texturecoords="0 0 .75 1" textcenterhoriz="">$$20152$$View Postgame<stateentry background="ui\core_ui\button_192x32_normal"></stateentry><stateentry background="ui\core_ui\button_192x32_clicked"></stateentry><stateentry background="ui\core_ui\button_192x32_rollover"></stateentry><stateentry background="ui\core_ui\button_192x32_disabled"></stateentry><command>gadgetUnReal("mainGameMenuRecGame") handlePostGame</command></gadget>
+    <gadget name="mainGameMenuRecGame-ReturntoGame" type="stateButton" size1024="417 432 609 464" z="10" statebuttonuseinternalstates="" textfont="IngameButtons" textfontsize="18" textcolor="3 0 88" texturecoords="0 0 .75 1" textcenterhoriz="">$$29155$$Menu<stateentry background="ui\core_ui\button_192x32_normal"></stateentry><stateentry background="ui\core_ui\button_192x32_clicked"></stateentry><stateentry background="ui\core_ui\button_192x32_rollover"></stateentry><stateentry background="ui\core_ui\button_192x32_disabled"></stateentry><command>gadgetUnReal("mainGameMenuRecGame") echoLocalized(19172)</command></gadget>
+  </gadget>
+  <gadget hidden="" name="PlayerStatusButton" z="13" type="button" donthighlight="" foreground="UI\Player Status Icon" bevelinart="" beveloutart="" textfont="ButtonFont" textfontsize="14" textcolor="255 255 255" size1024="859 0 891 16" mouseovertext="$$21433$$Set diplomacy toward other players in the game.  ">
+    <command>gadgetReal("player status")  modeEnter("GameMenu")</command>
+  </gadget>
+  <gadget name="ConfirmLeave" type="dialog" size1024="343 204 691 403" background="ui\file_system\file_system_background" hidden="" windowzstyle="" closeonesc="" tilebackground="">
+    <gadget tilebackgroundhoriz="" name="ConfirmLeave-BordersTop" type="gadget" background="ui\file_system\border_top_middle" size1024="366 188 667 204" z="4" transparent="">
+    </gadget>
+    <gadget tilebackgroundhoriz="" name="ConfirmLeave-BordersBottom" type="gadget" background="ui\file_system\border_bottom_middle" size1024="366 403 667 419" z="4" transparent="">
+    </gadget>
+    <gadget name="ConfirmLeave-BordersLeft" type="gadget" background="ui\file_system\border_side_left" size1024="335 220 343 387" tilebackgroundvert="" transparent="">
+    </gadget>
+    <gadget name="ConfirmLeave-BordersRight" type="gadget" background="ui\file_system\border_side_right" size1024="691 220 699 387" tilebackgroundvert="" z="4" transparent="">
+    </gadget>
+    <gadget name="ConfirmLeave-BordersRightTop" type="gadget" background="ui\file_system\border_top_right" size1024="667 188 699 220" z="5" transparent="" clampbackground="">
+    </gadget>
+    <gadget name="ConfirmLeave-BordersLeftTop" type="gadget" background="ui\file_system\border_top_left" size1024="335 188 367 220" z="5" transparent="" clampbackground="">
+    </gadget>
+    <gadget name="ConfirmLeave-BordersRightBottom" type="gadget" background="ui\file_system\border_bottom_right" size1024="667 387 699 419" z="5" transparent="" clampbackground="">
+    </gadget>
+    <gadget name="ConfirmLeave-BordersLeftBottom" type="gadget" background="ui\file_system\border_bottom_left" size1024="335 387 367 419" z="10" transparent="" clampbackground="">
+    </gadget>
+    <gadget name="ConfirmLeave-text" type="formatText" textcenterhoriz="" textcolor="3 0 88" textfont="IngameDialogs" textfontsize="16" size1024="343 257 691 327">$$18722$$Are you sure you want to resign?</gadget>
+    <gadget name="ConfirmLeave-YesButton" type="stateButton" textfont="IngameButtons" textfontsize="18" textcolor="3 0 88" foreground="UI\button_Greek" bevelbutton="" statebuttonuseinternalstates="" size1024="380 348 508 380">$$18451$$Yes<command>gadgetUnreal("ConfirmLeave") gadgetUnreal("mainGameMenu") handlePostGame</command><stateentry background="ui\core_ui\button_128x32_normal"></stateentry><stateentry background="ui\core_ui\button_128x32_clicked"></stateentry><stateentry background="ui\core_ui\button_128x32_rollover"></stateentry><stateentry background=""></stateentry></gadget>
+    <gadget name="ConfirmLeave-NoButton" type="stateButton" bevelbutton="" foreground="UI\button_Greek" textfont="IngameButtons" textfontsize="18" textcolor="3 0 88" statebuttonuseinternalstates="" size1024="516 348 644 380">$$18452$$No<command>gadgetUnReal("ConfirmLeave") gadgetReal("mainGameMenu")</command><stateentry background="ui\core_ui\button_128x32_normal"></stateentry><stateentry background="ui\core_ui\button_128x32_clicked"></stateentry><stateentry background="ui\core_ui\button_128x32_rollover"></stateentry><stateentry background=""></stateentry></gadget>
+  </gadget>
+  <gadget name="ConfirmResign" type="dialog" size1024="343 204 691 403" background="ui\file_system\file_system_background" hidden="" windowzstyle="" closeonesc="" tilebackground="">
+    <gadget tilebackgroundhoriz="" name="ConfirmResign-BordersTop" type="gadget" background="ui\file_system\border_top_middle" size1024="366 188 667 204" z="4" transparent="">
+    </gadget>
+    <gadget tilebackgroundhoriz="" name="ConfirmResign-BordersBottom" type="gadget" background="ui\file_system\border_bottom_middle" size1024="366 403 667 419" z="4" transparent="">
+    </gadget>
+    <gadget name="ConfirmResign-BordersLeft" type="gadget" background="ui\file_system\border_side_left" size1024="335 220 343 387" tilebackgroundvert="" transparent="">
+    </gadget>
+    <gadget name="ConfirmResign-BordersRight" type="gadget" background="ui\file_system\border_side_right" size1024="691 220 699 387" tilebackgroundvert="" z="4" transparent="">
+    </gadget>
+    <gadget name="ConfirmResign-BordersRightTop" type="gadget" background="ui\file_system\border_top_right" size1024="667 188 699 220" z="5" transparent="" clampbackground="">
+    </gadget>
+    <gadget name="ConfirmResign-BordersLeftTop" type="gadget" background="ui\file_system\border_top_left" size1024="335 188 367 220" z="5" transparent="" clampbackground="">
+    </gadget>
+    <gadget name="ConfirmResign-BordersRightBottom" type="gadget" background="ui\file_system\border_bottom_right" size1024="667 387 699 419" z="5" transparent="" clampbackground="">
+    </gadget>
+    <gadget name="ConfirmResign-BordersLeftBottom" type="gadget" background="ui\file_system\border_bottom_left" size1024="335 387 367 419" z="10" transparent="" clampbackground="">
+    </gadget>
+    <gadget name="ConfirmResign-text" type="formatText" textcenterhoriz="" textcolor="3 0 88" textfont="IngameDialogs" textfontsize="16" size1024="343 257 691 327">$$18722$$Are you sure you want to resign?</gadget>
+    <gadget name="ConfirmResign-YesButton" type="stateButton" textfont="MainMenuButtons" textfontsize="18" textcolor="3 0 88" foreground="UI\button_Greek" bevelbutton="" statebuttonuseinternalstates="" size1024="380 348 508 380" texturecoords="0 0 1 1">$$18451$$Yes<command>gadgetUnReal("mainGameMenu") gadgetUnReal("ConfirmResign") playerResign</command><stateentry background="ui\core_ui\button_128x32_normal"></stateentry><stateentry background="ui\core_ui\button_128x32_clicked"></stateentry><stateentry background="ui\core_ui\button_128x32_rollover"></stateentry><stateentry background=""></stateentry></gadget>
+    <gadget name="ConfirmResign-NoButton" type="stateButton" bevelbutton="" foreground="UI\button_Greek" textfont="IngameDialogs" textfontsize="18" textcolor="3 0 88" statebuttonuseinternalstates="" size1024="516 348 644 380" texturecoords="0 0 1 1">$$18452$$No<command>gadgetUnReal("ConfirmResign")</command><stateentry background="ui\core_ui\button_128x32_normal"></stateentry><stateentry background="ui\core_ui\button_128x32_clicked"></stateentry><stateentry background="ui\core_ui\button_128x32_rollover"></stateentry><stateentry background=""></stateentry></gadget>
+  </gadget>
+  <gadget name="Campaign-ConfirmSave" type="dialog" size1024="343 204 691 403" background="ui\file_system\file_system_background" hidden="" windowzstyle="" closeonesc="" tilebackground="" dontautoclose="">
+    <gadget tilebackgroundhoriz="" name="Campaign-ConfirmSave-BordersTop" type="gadget" background="ui\file_system\border_top_middle" size1024="366 188 667 204" z="4" transparent="">
+    </gadget>
+    <gadget tilebackgroundhoriz="" name="Campaign-ConfirmSave-BordersBottom" type="gadget" background="ui\file_system\border_bottom_middle" size1024="366 403 667 419" z="4" transparent="">
+    </gadget>
+    <gadget name="Campaign-ConfirmSave-BordersLeft" type="gadget" background="ui\file_system\border_side_left" size1024="335 220 343 387" tilebackgroundvert="" transparent="">
+    </gadget>
+    <gadget name="Campaign-ConfirmSave-BordersRight" type="gadget" background="ui\file_system\border_side_right" size1024="691 220 699 387" tilebackgroundvert="" z="4" transparent="">
+    </gadget>
+    <gadget name="Campaign-ConfirmSave-BordersRightTop" type="gadget" background="ui\file_system\border_top_right" size1024="667 188 699 220" z="5" transparent="" clampbackground="">
+    </gadget>
+    <gadget name="Campaign-ConfirmSave-BordersLeftTop" type="gadget" background="ui\file_system\border_top_left" size1024="335 188 367 220" z="5" transparent="" clampbackground="">
+    </gadget>
+    <gadget name="Campaign-ConfirmSave-BordersRightBottom" type="gadget" background="ui\file_system\border_bottom_right" size1024="667 387 699 419" z="5" transparent="" clampbackground="">
+    </gadget>
+    <gadget name="Campaign-ConfirmSave-BordersLeftBottom" type="gadget" background="ui\file_system\border_bottom_left" size1024="335 387 367 419" z="10" transparent="" clampbackground="">
+    </gadget>
+    <gadget name="Campaign-ConfirmSave-text" type="formatText" textcenterhoriz="" textcolor="255 208 0" textfont="IngameDialogs" textfontsize="16" size1024="343 223 691 293">$$21396$$Do you want to save your game before quitting?</gadget>
+    <gadget name="Campaign-ConfirmSave-YesButton" type="stateButton" textfont="MainMenuButtons" textfontsize="18" textcolor="255 208 0" foreground="UI\button_Greek" bevelbutton="" statebuttonuseinternalstates="" size1024="381 305 509 337" texturecoords="0 0 1 1">$$19012$$Save<command>gadgetUnReal("Campaign-ConfirmSave") uiSaveCampaignGameBrowser()</command><stateentry background="ui\core_ui\button_128x32_normal"></stateentry><stateentry background="ui\core_ui\button_128x32_clicked"></stateentry><stateentry background="ui\core_ui\button_128x32_rollover"></stateentry><stateentry background=""></stateentry></gadget>
+    <gadget name="Campaign-ConfirmSave-NoButton" type="stateButton" bevelbutton="" foreground="UI\button_Greek" textfont="MainMenuButtons" textfontsize="18" textcolor="255 208 0" statebuttonuseinternalstates="" size1024="517 305 645 337" texturecoords="0 0 1 1">$$18445$$Quit<command>gadgetUnReal("Campaign-ConfirmSave") leavegame</command><stateentry background="ui\core_ui\button_128x32_normal"></stateentry><stateentry background="ui\core_ui\button_128x32_clicked"></stateentry><stateentry background="ui\core_ui\button_128x32_rollover"></stateentry><stateentry background=""></stateentry></gadget>
+    <gadget name="Campaign-ConfirmSave-CancelButton" type="stateButton" textfont="MainMenuButtons" textfontsize="18" textcolor="255 208 0" foreground="UI\button_Greek" bevelbutton="" statebuttonuseinternalstates="" size1024="454 347 582 379" texturecoords="0 0 1 1">$$18466$$Cancel<command>gadgetUnReal("Campaign-ConfirmSave")</command><stateentry background="ui\core_ui\button_128x32_normal"></stateentry><stateentry background="ui\core_ui\button_128x32_clicked"></stateentry><stateentry background="ui\core_ui\button_128x32_rollover"></stateentry><stateentry background=""></stateentry></gadget>
+  </gadget>
+  <gadget name="GrandConquest-ConfirmSave" type="dialog" size1024="343 204 691 403" background="ui\file_system\file_system_background" hidden="" windowzstyle="" closeonesc="" tilebackground="" dontautoclose="">
+    <gadget tilebackgroundhoriz="" name="GrandConquest-ConfirmSave-BordersTop" type="gadget" background="ui\file_system\border_top_middle" size1024="366 188 667 204" z="4" transparent="">
+    </gadget>
+    <gadget tilebackgroundhoriz="" name="GrandConquest-ConfirmSave-BordersBottom" type="gadget" background="ui\file_system\border_bottom_middle" size1024="366 403 667 419" z="4" transparent="">
+    </gadget>
+    <gadget name="GrandConquest-ConfirmSave-BordersLeft" type="gadget" background="ui\file_system\border_side_left" size1024="335 220 343 387" tilebackgroundvert="" transparent="">
+    </gadget>
+    <gadget name="GrandConquest-ConfirmSave-BordersRight" type="gadget" background="ui\file_system\border_side_right" size1024="691 220 699 387" tilebackgroundvert="" z="4" transparent="">
+    </gadget>
+    <gadget name="GrandConquest-ConfirmSave-BordersRightTop" type="gadget" background="ui\file_system\border_top_right" size1024="667 188 699 220" z="5" transparent="" clampbackground="">
+    </gadget>
+    <gadget name="GrandConquest-ConfirmSave-BordersLeftTop" type="gadget" background="ui\file_system\border_top_left" size1024="335 188 367 220" z="5" transparent="" clampbackground="">
+    </gadget>
+    <gadget name="GrandConquest-ConfirmSave-BordersRightBottom" type="gadget" background="ui\file_system\border_bottom_right" size1024="667 387 699 419" z="5" transparent="" clampbackground="">
+    </gadget>
+    <gadget name="GrandConquest-ConfirmSave-BordersLeftBottom" type="gadget" background="ui\file_system\border_bottom_left" size1024="335 387 367 419" z="10" transparent="" clampbackground="">
+    </gadget>
+    <gadget name="GrandConquest-ConfirmSave-text" type="formatText" textcenterhoriz="" textcolor="80 80 0" textfont="IngameDialogs" textfontsize="16" size1024="343 223 691 293">$$30194$$Do you want to save your game before returning to the Strategic Map?</gadget>
+    <gadget name="GrandConquest-ConfirmSave-YesButton" type="stateButton" textfont="MainMenuButtons" textfontsize="18" textcolor="80 80 0" foreground="UI\button_Greek" bevelbutton="" statebuttonuseinternalstates="" size1024="381 305 509 337" texturecoords="0 0 1 1">$$19012$$Save<command>gadgetUnReal("GrandConquest-ConfirmSave") uiSaveCampaignGameBrowser()</command><stateentry background="ui\core_ui\button_128x32_normal"></stateentry><stateentry background="ui\core_ui\button_128x32_clicked"></stateentry><stateentry background="ui\core_ui\button_128x32_rollover"></stateentry><stateentry background=""></stateentry></gadget>
+    <gadget name="GrandConquest-ConfirmSave-NoButton" type="stateButton" bevelbutton="" foreground="UI\button_Greek" textfont="MainMenuButtons" textfontsize="18" textcolor="80 80 0" statebuttonuseinternalstates="" size1024="517 305 645 337" texturecoords="0 0 1 1">$$18445$$Quit<command>gadgetUnReal("GrandConquest-ConfirmSave") leavegame</command><stateentry background="ui\core_ui\button_128x32_normal"></stateentry><stateentry background="ui\core_ui\button_128x32_clicked"></stateentry><stateentry background="ui\core_ui\button_128x32_rollover"></stateentry><stateentry background=""></stateentry></gadget>
+    <gadget name="GrandConquest-ConfirmSave-CancelButton" type="stateButton" textfont="MainMenuButtons" textfontsize="18" textcolor="80 80 0" foreground="UI\button_Greek" bevelbutton="" statebuttonuseinternalstates="" size1024="454 347 582 379" texturecoords="0 0 1 1">$$18466$$Cancel<command>gadgetUnReal("GrandConquest-ConfirmSave")</command><stateentry background="ui\core_ui\button_128x32_normal"></stateentry><stateentry background="ui\core_ui\button_128x32_clicked"></stateentry><stateentry background="ui\core_ui\button_128x32_rollover"></stateentry><stateentry background=""></stateentry></gadget>
+  </gadget>
+  <gadget name="ConfirmResign-SinglePlayer" type="dialog" size1024="343 204 691 403" background="ui\file_system\file_system_background" hidden="" windowzstyle="" closeonesc="" tilebackground="">
+    <gadget tilebackgroundhoriz="" name="ConfirmResign-SinglePlayer-BordersTop" type="gadget" background="ui\file_system\border_top_middle" size1024="366 188 667 204" z="4" transparent="">
+    </gadget>
+    <gadget tilebackgroundhoriz="" name="ConfirmResign-SinglePlayer-BordersBottom" type="gadget" background="ui\file_system\border_bottom_middle" size1024="366 403 667 419" z="4" transparent="">
+    </gadget>
+    <gadget name="ConfirmResign-SinglePlayer-BordersLeft" type="gadget" background="ui\file_system\border_side_left" size1024="335 220 343 387" tilebackgroundvert="" transparent="">
+    </gadget>
+    <gadget name="ConfirmResign-SinglePlayer-BordersRight" type="gadget" background="ui\file_system\border_side_right" size1024="691 220 699 387" tilebackgroundvert="" z="4" transparent="">
+    </gadget>
+    <gadget name="ConfirmResign-SinglePlayer-BordersRightTop" type="gadget" background="ui\file_system\border_top_right" size1024="667 188 699 220" z="5" transparent="" clampbackground="">
+    </gadget>
+    <gadget name="ConfirmResign-SinglePlayer-BordersLeftTop" type="gadget" background="ui\file_system\border_top_left" size1024="335 188 367 220" z="5" transparent="" clampbackground="">
+    </gadget>
+    <gadget name="ConfirmResign-SinglePlayer-BordersRightBottom" type="gadget" background="ui\file_system\border_bottom_right" size1024="667 387 699 419" z="5" transparent="" clampbackground="">
+    </gadget>
+    <gadget name="ConfirmResign-SinglePlayer-BordersLeftBottom" type="gadget" background="ui\file_system\border_bottom_left" size1024="335 387 367 419" z="10" transparent="" clampbackground="">
+    </gadget>
+    <gadget name="ConfirmResign-SinglePlayer-text" type="formatText" textcenterhoriz="" textcolor="3 0 88" textfont="IngameDialogs" textfontsize="16" size1024="343 257 691 327">$$18722$$Are you sure you want to resign?</gadget>
+    <gadget name="ConfirmResign-SinglePlayer-YesButton" type="stateButton" textfont="IngameButtons" textfontsize="18" textcolor="3 0 88" foreground="UI\button_Greek" bevelbutton="" statebuttonuseinternalstates="" size1024="380 348 508 380" texturecoords="0 0 1 1">$$18451$$Yes<command>gadgetUnReal("mainGameMenu") gadgetUnReal("ConfirmResign-SinglePlayer") playerResign</command><stateentry background="ui\core_ui\button_128x32_normal"></stateentry><stateentry background="ui\core_ui\button_128x32_clicked"></stateentry><stateentry background="ui\core_ui\button_128x32_rollover"></stateentry><stateentry background=""></stateentry></gadget>
+    <gadget name="ConfirmResign-SinglePlayer-NoButton" type="stateButton" bevelbutton="" foreground="UI\button_Greek" textfont="IngameButtons" textfontsize="18" textcolor="3 0 88" statebuttonuseinternalstates="" size1024="516 348 644 380" texturecoords="0 0 1 1">$$18452$$No<command>gadgetUnReal("ConfirmResign-SinglePlayer")</command><stateentry background="ui\core_ui\button_128x32_normal"></stateentry><stateentry background="ui\core_ui\button_128x32_clicked"></stateentry><stateentry background="ui\core_ui\button_128x32_rollover"></stateentry><stateentry background=""></stateentry></gadget>
+  </gadget>
+  <gadget name="YouAreDefeatedDialog-SinglePlayer" type="dialog" windowzstyle="" size1024="257 187 767 507" background="ui\file_system\file_system_background" tilebackground="" hidden="">
+    <gadget name="YouAreDefeatedDialog-SinglePlayer-ScreenSeparator1" type="gadget" size1024="258 226 768 227" background="missing" z="11">
+    </gadget>
+    <gadget name="YouAreDefeatedDialog-SinglePlayer-ScreenSeparator2" type="gadget" size1024="258 274 768 275" background="missing" z="11">
+    </gadget>
+    <gadget name="YouAreDefeatedDialog-SinglePlayer-ReturntoGame" type="stateButton" size1024="417 459 609 491" z="10" statebuttonuseinternalstates="" textfont="IngameButtons" textfontsize="18" textcolor="3 0 88" texturecoords="0 0 .75 1" textcenterhoriz="">$$18446$$Return to Game<stateentry background="ui\core_ui\button_192x32_normal"></stateentry><stateentry background="ui\core_ui\button_192x32_clicked"></stateentry><stateentry background="ui\core_ui\button_192x32_rollover"></stateentry><stateentry background=""></stateentry><command>gadgetUnReal("YouAreDefeatedDialog-SinglePlayer") echoLocalized(19172) pause(0)</command></gadget>
+    <gadget tilebackgroundhoriz="" name="YouAreDefeatedDialog-SinglePlayer-BordersTop" type="gadget" background="ui\file_system\border_top_middle" size1024="257 171 767 187">
+    </gadget>
+    <gadget tilebackgroundhoriz="" name="YouAreDefeatedDialog-SinglePlayer-BordersBottom" type="gadget" background="ui\file_system\border_bottom_middle" size1024="281 507 743 523">
+    </gadget>
+    <gadget tilebackgroundvert="" name="YouAreDefeatedDialog-SinglePlayer-BordersLeft" type="gadget" background="ui\file_system\border_side_left" size1024="249 186 257 498">
+    </gadget>
+    <gadget tilebackgroundvert="" name="YouAreDefeatedDialog-SinglePlayer-BordersRight" type="gadget" background="ui\file_system\border_side_right" size1024="767 187 775 499">
+    </gadget>
+    <gadget name="YouAreDefeatedDialog-SinglePlayer-BordersLeftTop" type="gadget" background="ui\file_system\border_top_left" size1024="249 171 281 203" z="12">
+    </gadget>
+    <gadget name="YouAreDefeatedDialog-SinglePlayer-BordersLeftBottom" type="gadget" background="ui\file_system\border_bottom_left" size1024="249 491 281 523" z="12">
+    </gadget>
+    <gadget name="YouAreDefeatedDialog-SinglePlayer-BordersRightBottom" type="gadget" background="ui\file_system\border_bottom_right" size1024="743 491 775 523" z="12">
+    </gadget>
+    <gadget name="YouAreDefeatedDialog-SinglePlayer-BordersRightTop" type="gadget" background="ui\file_system\border_top_right" size1024="743 171 775 203" z="12">
+    </gadget>
+    <gadget name="YouAreDefeatedDialog-SinglePlayer-DefeatedText" type="formatText" textfont="InGameDialogsLarge" textfontsize="30" textcolor="3 0 88" size1024="258 230 768 272" textcenterhoriz="" textcentervert="" z="13">$$20167$$You Are Defeated</gadget>
+    <gadget name="YouAreDefeatedDialog-SinglePlayer-Swirl-Top" type="gadget" hidden="" size1024="477 193 541 225" background="ui\ui ornate gold swirl 64x32" z="11">
+    </gadget>
+    <gadget name="YouAreDefeatedDialog-SinglePlayer-BlueFade" type="gadget" hidden="" size1024="258 228 768 274" background="ui\background fade blue" z="10">
+    </gadget>
+    <gadget name="YouAreDefeatedDialog-SinglePlayer-Swirl-Bottom" type="gadget" hidden="" size1024="477 275 541 307" background="ui\ui ornate gold swirl 64x32" z="11" texturecoords="0 1 1 0">
+    </gadget>
+  </gadget>
+  <gadget name="ShowImageBox" type="dialog" windowzstyle="" size1024="143 89 884 624" background="ui\file_system\file_system_background" tilebackground="" hidden="">
+    <gadget tilebackgroundhoriz="" name="ShowImageBox-BordersTop" type="gadget" background="ui\file_system\border_top_middle" size1024="145 73 886 89">
+    </gadget>
+    <gadget tilebackgroundhoriz="" name="ShowImageBox-BordersBottom" type="gadget" background="ui\file_system\border_bottom_middle" size1024="145 610 886 626">
+    </gadget>
+    <gadget tilebackgroundvert="" name="ShowImageBox-BordersLeft" type="gadget" background="ui\file_system\border_side_left" size1024="135 89 143 593">
+    </gadget>
+    <gadget tilebackgroundvert="" name="ShowImageBox-BordersRight" type="gadget" background="ui\file_system\border_side_right" size1024="884 89 892 593">
+    </gadget>
+    <gadget name="ShowImageBox-BordersLeftTop" type="gadget" background="ui\file_system\border_top_left" size1024="135 73 167 105" z="11">
+    </gadget>
+    <gadget name="ShowImageBox-BordersLeftBottom" type="gadget" background="ui\file_system\border_bottom_left" size1024="135 594 167 626" z="11">
+    </gadget>
+    <gadget name="ShowImageBox-BordersRightBottom" type="gadget" background="ui\file_system\border_bottom_right" size1024="860 594 892 626" z="11">
+    </gadget>
+    <gadget name="ShowImageBox-BordersRightTop" type="gadget" background="ui\file_system\border_top_right" size1024="860 73 892 105" z="12">
+    </gadget>
+    <gadget name="ShowImageBox-CloseButton" type="stateButton" size1024="414 576 606 608" bevelbutton="" z="101" statebuttonuseinternalstates="" textfont="InGameButtons" textfontsize="18" textcolor="3 0 88" textcenterhoriz="" textcentervert="" texturecoords="0 0 .75 1">$$18457$$Close<stateentry background="ui\core_ui\button_192x32_normal"></stateentry><stateentry background="ui\core_ui\button_192x32_clicked"></stateentry><stateentry background="ui\core_ui\button_192x32_rollover"></stateentry><stateentry background=""></stateentry><command>gadgetUnReal("ShowImageBox")</command></gadget>
+    <gadget name="ShowImageBox-Image" type="gadget" size1024="221 98 803 546" background="" z="11">
+    </gadget>
+    <gadget name="ShowImageBox-Subtitle" size1024="152 550 875 570" z="13" type="formatText" background="" textfont="IngameDialogs" textfontsize="16" textcolor="3 0 88" textcenterhoriz="">
+    </gadget>
+  </gadget>
+  <gadget name="ShowChoiceBox" type="dialog" windowzstyle="" size1024="343 189 684 424" background="ui\file_system\file_system_background" tilebackground="" hidden="">
+    <gadget tilebackgroundhoriz="" name="ShowChoiceBox-BordersTop" type="gadget" background="ui\file_system\border_top_middle" size1024="345 173 686 189">
+    </gadget>
+    <gadget tilebackgroundhoriz="" name="ShowChoiceBox-BordersBottom" type="gadget" background="ui\file_system\border_bottom_middle" size1024="345 410 686 426">
+    </gadget>
+    <gadget tilebackgroundvert="" name="ShowChoiceBox-BordersLeft" type="gadget" background="ui\file_system\border_side_left" size1024="335 189 343 393">
+    </gadget>
+    <gadget tilebackgroundvert="" name="ShowChoiceBox-BordersRight" type="gadget" background="ui\file_system\border_side_right" size1024="684 189 692 393">
+    </gadget>
+    <gadget name="ShowChoiceBox-BordersLeftTop" type="gadget" background="ui\file_system\border_top_left" size1024="335 173 367 205" z="11">
+    </gadget>
+    <gadget name="ShowChoiceBox-BordersLeftBottom" type="gadget" background="ui\file_system\border_bottom_left" size1024="335 394 367 426" z="11">
+    </gadget>
+    <gadget name="ShowChoiceBox-BordersRightBottom" type="gadget" background="ui\file_system\border_bottom_right" size1024="660 394 692 426" z="11">
+    </gadget>
+    <gadget name="ShowChoiceBox-BordersRightTop" type="gadget" background="ui\file_system\border_top_right" size1024="660 173 692 205" z="12">
+    </gadget>
+    <gadget name="ShowChoiceBox-Select-1" type="stateButton" size1024="352 290 435 320" bevelbutton="" z="101" statebuttonuseinternalstates="" textfont="InGameButtons" textfontsize="18" textcolor="3 0 88" textcenterhoriz="" textcentervert="" texturecoords="0 0 .75 1">-Select<stateentry background="ui\core_ui\button_192x32_normal"></stateentry><stateentry background="ui\core_ui\button_192x32_clicked"></stateentry><stateentry background="ui\core_ui\button_192x32_rollover"></stateentry><stateentry background=""></stateentry></gadget>
+    <gadget name="ShowChoiceBox-Select-2" type="stateButton" size1024="352 350 435 380" bevelbutton="" z="101" statebuttonuseinternalstates="" textfont="InGameButtons" textfontsize="18" textcolor="3 0 88" textcenterhoriz="" textcentervert="" texturecoords="0 0 .75 1">-Select<stateentry background="ui\core_ui\button_192x32_normal"></stateentry><stateentry background="ui\core_ui\button_192x32_clicked"></stateentry><stateentry background="ui\core_ui\button_192x32_rollover"></stateentry><stateentry background=""></stateentry></gadget>
+    <gadget name="ShowChoiceBox-Preface" size1024="352 209 675 270" z="13" type="formatText" background="" textfont="InGameDialogs" textfontsize="16" textcolor="0 3 88">
+    </gadget>
+    <gadget name="ShowChoiceBox-Text1" size1024="442 272 675 320" z="13" type="formatText" background="" textfont="InGameDialogs" textfontsize="16" textcolor="0 3 88" textcentervert="">
+    </gadget>
+    <gadget name="ShowChoiceBox-Text2" size1024="442 332 675 380" z="13" type="formatText" background="" textfont="InGameDialogs" textfontsize="16" textcolor="0 3 88" textcentervert="">
+    </gadget>
+  </gadget>
+  <gadget name="overlayWindow" type="gadget" background="" tilebackground="" size1024="1 1 2 2" z="4" transparent="" fade="" hidden="">
+    <gadget name="overlayWindow-text" type="formatText" size1024="193 106 794 540" textcolor="255 208 0" background="" z="9" textfont="LargeInGame" textfontsize="24" textwrapon="" transparent="">
+    </gadget>
+  </gadget>
+  <gadget name="RestartDialog" type="dialog" windowzstyle="" size1024="257 187 767 425" background="ui\file_system\file_system_background" tilebackground="" hidden="" closeonesc="">
+    <gadget name="RestartDialog-ScreenSeparator1" type="gadget" size1024="258 236 768 237" background="missing" z="11">
+    </gadget>
+    <gadget name="RestartDialog-ScreenSeparator2" type="gadget" size1024="258 294 768 295" background="missing" z="11">
+    </gadget>
+    <gadget name="RestartDialog-YesButton" type="stateButton" size1024="380 361 508 393" bevelbutton="" z="101" statebuttonuseinternalstates="" textfont="IngameButtons" textfontsize="18" textcolor="3 0 88" textcenterhoriz="" textcentervert="" texturecoords="0 0 1 1">$$18451$$Yes<stateentry background="ui\core_ui\button_128x32_normal"></stateentry><stateentry background="ui\core_ui\button_128x32_clicked"></stateentry><stateentry background="ui\core_ui\button_128x32_rollover"></stateentry><stateentry background=""></stateentry><command>gadgetUnreal("RestartDialog") restartCurrentGame</command></gadget>
+    <gadget name="RestartDialog-NoButton" type="stateButton" size1024="516 361 644 393" bevelbutton="" z="101" statebuttonuseinternalstates="" textfont="IngameButtons" textfontsize="18" textcolor="3 0 88" textcenterhoriz="" textcentervert="" texturecoords="0 0 1 1">$$18452$$No<stateentry background="ui\core_ui\button_128x32_normal"></stateentry><stateentry background="ui\core_ui\button_128x32_clicked"></stateentry><stateentry background="ui\core_ui\button_128x32_rollover"></stateentry><stateentry background=""></stateentry><command>gadgetUnreal("RestartDialog")</command></gadget>
+    <gadget tilebackgroundhoriz="" name="RestartDialog-BordersTop" type="gadget" background="ui\file_system\border_top_middle" size1024="257 171 767 187">
+    </gadget>
+    <gadget tilebackgroundhoriz="" name="RestartDialog-BordersBottom" type="gadget" background="ui\file_system\border_bottom_middle" size1024="258 425 768 441">
+    </gadget>
+    <gadget tilebackgroundvert="" name="RestartDialog-BordersLeft" type="gadget" background="ui\file_system\border_side_left" size1024="249 187 257 409">
+    </gadget>
+    <gadget tilebackgroundvert="" name="RestartDialog-BordersRight" type="gadget" background="ui\file_system\border_side_right" size1024="767 187 775 425">
+    </gadget>
+    <gadget name="RestartDialog-BordersLeftTop" type="gadget" background="ui\file_system\border_top_left" size1024="249 171 281 203" z="11">
+    </gadget>
+    <gadget name="RestartDialog-BordersLeftBottom" type="gadget" background="ui\file_system\border_bottom_left" size1024="249 409 281 441" z="11">
+    </gadget>
+    <gadget name="RestartDialog-BordersRightBottom" type="gadget" background="ui\file_system\border_bottom_right" size1024="743 409 775 441" z="11">
+    </gadget>
+    <gadget name="RestartDialog-BordersRightTop" type="gadget" background="ui\file_system\border_top_right" size1024="743 171 775 203" z="12">
+    </gadget>
+    <gadget name="RestartDialog-text" type="textBox" textfont="InGameDialogsLarge" textfontsize="30" textcolor="3 0 88" size1024="258 250 768 292" textcenterhoriz="" textcentervert="" z="13">$$21141$$Restart Current Game?</gadget>
+    <gadget name="RestartDialog-Swirl-Top" type="gadget" hidden="" size1024="480 203 544 235" background="ui\ui ornate gold swirl 64x32" z="11">
+    </gadget>
+    <gadget name="RestartDialog-BlueFade" type="gadget" hidden="" size1024="258 238 768 294" background="ui\background fade blue" z="10">
+    </gadget>
+    <gadget name="RestartDialog-Swirl-Bottom" type="gadget" hidden="" size1024="480 296 544 328" background="ui\ui ornate gold swirl 64x32" z="11" texturecoords="0 1 1 0">
+    </gadget>
+  </gadget>
+  <gadget name="buildVersionDisplay" type="textBox" size1024="786 533 1024 563" z="10">
+  </gadget>
+  <gadget name="RegistrationDisplay" type="textBox" textjustifyright="" size1024="668 563 1024 589" z="10">
+  </gadget>
+</layout>

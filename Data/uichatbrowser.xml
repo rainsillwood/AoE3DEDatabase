@@ -1,0 +1,298 @@
+<layout>
+  <gadget name="ChatBrowser-ScreenContainer" hidden="" type="gadget" size1024="211 108 1024 768" background="ui\eso\eso_chat_browser" texturecoords="0 0 0.7939453 0.6445313" z="20">
+    <gadget name="ChatBrowser-List" type="gadget" size1024="210 152 1019 726" z="10">
+      <gadget name="ChatBrowser-ScreenLabel" type="formatText" textfont="GamesListMediumLabels" textfontsize="16" textcolor="253 193 1" textcenterhoriz="" textcentervert="" size1024="237 117 453 145" z="10">$$29462$$Chat Browser</gadget>
+      <gadget name="ChatBrowser-Entry1" type="gadget" donthighlight="" size1024="210 182 1019 214" z="11">
+        <gadget name="ChatBrowser-Entry1-Name" type="button" donthighlight="" textfont="AgeText" textfontsize="12" textcentervert="" textcenterhoriz="" size1024="240 182 710 214" z="9">
+          <gadget name="ChatBrowser-Entry1-PasswordProtectedIcon" background="ui\eso\lock_icon" type="gadget" textcentervert="" textcenterhoriz="" size1024="217 189 241 213" z="9">
+          </gadget>
+        </gadget>
+        <gadget name="ChatBrowser-Entry1-Population" type="button" donthighlight="" textfont="AgeText" textfontsize="12" textcentervert="" textcenterhoriz="" size1024="732 182 808 214" z="13">
+        </gadget>
+        <gadget name="ChatBrowser-Entry1-Sticky" type="button" donthighlight="" textfont="AgeText" textfontsize="12" textcentervert="" textcenterhoriz="" size1024="838 182 1019 214" z="10">
+        </gadget>
+      </gadget>
+      <gadget name="ChatBrowser-Entry2" type="gadget" donthighlight="" size1024="210 214 1019 246" z="9">
+        <gadget name="ChatBrowser-Entry2-Name" type="button" donthighlight="" textfont="AgeText" textfontsize="12" textcentervert="" textcenterhoriz="" size1024="240 214 710 246" z="9">
+          <gadget name="ChatBrowser-Entry2-PasswordProtectedIcon" background="ui\eso\lock_icon" type="gadget" textcentervert="" textcenterhoriz="" size1024="217 219 241 243" z="9">
+          </gadget>
+        </gadget>
+        <gadget name="ChatBrowser-Entry2-Population" type="button" donthighlight="" textfont="AgeText" textfontsize="12" textcentervert="" textcenterhoriz="" size1024="732 214 808 246" z="9">
+        </gadget>
+        <gadget name="ChatBrowser-Entry2-Sticky" type="button" donthighlight="" textfont="AgeText" textfontsize="12" textcentervert="" textcenterhoriz="" size1024="838 214 1019 246" z="9">
+        </gadget>
+      </gadget>
+      <gadget name="ChatBrowser-Entry3" type="gadget" donthighlight="" size1024="210 246 1019 278" z="9">
+        <gadget name="ChatBrowser-Entry3-Name" type="button" donthighlight="" textfont="AgeText" textfontsize="12" textcentervert="" textcenterhoriz="" size1024="240 246 710 278" z="9">
+          <gadget name="ChatBrowser-Entry3-PasswordProtectedIcon" background="ui\eso\lock_icon" type="gadget" textcentervert="" textcenterhoriz="" size1024="217 251 241 275" z="9">
+          </gadget>
+        </gadget>
+        <gadget name="ChatBrowser-Entry3-Population" type="button" donthighlight="" textfont="AgeText" textfontsize="12" textcentervert="" textcenterhoriz="" size1024="732 246 808 278" z="9">
+        </gadget>
+        <gadget name="ChatBrowser-Entry3-Sticky" type="button" donthighlight="" textfont="AgeText" textfontsize="12" textcentervert="" textcenterhoriz="" size1024="838 246 1019 278" z="9">
+        </gadget>
+      </gadget>
+      <gadget name="ChatBrowser-Entry4" type="gadget" donthighlight="" size1024="210 278 1019 310" z="9">
+        <gadget name="ChatBrowser-Entry4-Name" type="button" donthighlight="" textfont="AgeText" textfontsize="12" textcentervert="" textcenterhoriz="" size1024="240 278 710 310" z="9">
+          <gadget name="ChatBrowser-Entry4-PasswordProtectedIcon" background="ui\eso\lock_icon" type="gadget" textcentervert="" textcenterhoriz="" size1024="217 283 241 307" z="9">
+          </gadget>
+        </gadget>
+        <gadget name="ChatBrowser-Entry4-Population" type="button" donthighlight="" textfont="AgeText" textfontsize="12" textcentervert="" textcenterhoriz="" size1024="732 278 808 310" z="9">
+        </gadget>
+        <gadget name="ChatBrowser-Entry4-Sticky" type="button" donthighlight="" textfont="AgeText" textfontsize="12" textcentervert="" textcenterhoriz="" size1024="838 278 1019 310" z="9">
+        </gadget>
+      </gadget>
+      <gadget name="ChatBrowser-Entry5" type="gadget" donthighlight="" size1024="210 310 1019 342" z="13">
+        <gadget name="ChatBrowser-Entry5-Name" type="button" donthighlight="" textfont="AgeText" textfontsize="12" textcentervert="" textcenterhoriz="" size1024="240 310 710 342" z="11">
+          <gadget name="ChatBrowser-Entry5-PasswordProtectedIcon" background="ui\eso\lock_icon" type="gadget" textcentervert="" textcenterhoriz="" size1024="217 315 241 339" z="11">
+          </gadget>
+        </gadget>
+        <gadget name="ChatBrowser-Entry5-Population" type="button" donthighlight="" textfont="AgeText" textfontsize="12" textcentervert="" textcenterhoriz="" size1024="732 310 808 342" z="15">
+        </gadget>
+        <gadget name="ChatBrowser-Entry5-Sticky" type="button" donthighlight="" textfont="AgeText" textfontsize="12" textcentervert="" textcenterhoriz="" size1024="838 310 1019 342" z="12">
+        </gadget>
+      </gadget>
+      <gadget name="ChatBrowser-Entry6" type="gadget" donthighlight="" size1024="210 342 1019 374" z="11">
+        <gadget name="ChatBrowser-Entry6-Name" type="button" donthighlight="" textfont="AgeText" textfontsize="12" textcentervert="" textcenterhoriz="" size1024="240 342 710 374" z="9">
+          <gadget name="ChatBrowser-Entry6-PasswordProtectedIcon" background="ui\eso\lock_icon" type="gadget" textcentervert="" textcenterhoriz="" size1024="217 347 241 371" z="9">
+          </gadget>
+        </gadget>
+        <gadget name="ChatBrowser-Entry6-Population" type="button" donthighlight="" textfont="AgeText" textfontsize="12" textcentervert="" textcenterhoriz="" size1024="732 342 808 374" z="13">
+        </gadget>
+        <gadget name="ChatBrowser-Entry6-Sticky" type="button" donthighlight="" textfont="AgeText" textfontsize="12" textcentervert="" textcenterhoriz="" size1024="838 342 1019 374" z="10">
+        </gadget>
+      </gadget>
+      <gadget name="ChatBrowser-Entry7" type="gadget" donthighlight="" size1024="210 374 1019 406" z="10">
+        <gadget name="ChatBrowser-Entry7-Name" type="button" donthighlight="" textfont="AgeText" textfontsize="12" textcentervert="" textcenterhoriz="" size1024="240 374 710 406" z="9">
+          <gadget name="ChatBrowser-Entry7-PasswordProtectedIcon" background="ui\eso\lock_icon" type="gadget" textcentervert="" textcenterhoriz="" size1024="217 379 241 403" z="9">
+          </gadget>
+        </gadget>
+        <gadget name="ChatBrowser-Entry7-Population" type="button" donthighlight="" textfont="AgeText" textfontsize="12" textcentervert="" textcenterhoriz="" size1024="732 374 808 406" z="10">
+        </gadget>
+        <gadget name="ChatBrowser-Entry7-Sticky" type="button" donthighlight="" textfont="AgeText" textfontsize="12" textcentervert="" textcenterhoriz="" size1024="838 374 1019 406" z="9">
+        </gadget>
+      </gadget>
+      <gadget name="ChatBrowser-Entry8" type="gadget" donthighlight="" size1024="210 406 1019 438" z="11">
+        <gadget name="ChatBrowser-Entry8-Name" type="button" donthighlight="" textfont="AgeText" textfontsize="12" textcentervert="" textcenterhoriz="" size1024="240 406 710 438" z="9">
+          <gadget name="ChatBrowser-Entry8-PasswordProtectedIcon" background="ui\eso\lock_icon" type="gadget" textcentervert="" textcenterhoriz="" size1024="217 411 241 435" z="9">
+          </gadget>
+        </gadget>
+        <gadget name="ChatBrowser-Entry8-Population" type="button" donthighlight="" textfont="AgeText" textfontsize="12" textcentervert="" textcenterhoriz="" size1024="732 406 808 438" z="13">
+        </gadget>
+        <gadget name="ChatBrowser-Entry8-Sticky" type="button" donthighlight="" textfont="AgeText" textfontsize="12" textcentervert="" textcenterhoriz="" size1024="838 406 1019 438" z="10">
+        </gadget>
+      </gadget>
+      <gadget name="ChatBrowser-Entry9" type="gadget" donthighlight="" size1024="210 438 1019 470" z="10">
+        <gadget name="ChatBrowser-Entry9-Name" type="button" donthighlight="" textfont="AgeText" textfontsize="12" textcentervert="" textcenterhoriz="" size1024="240 438 710 470" z="9">
+          <gadget name="ChatBrowser-Entry9-PasswordProtectedIcon" background="ui\eso\lock_icon" type="gadget" textcentervert="" textcenterhoriz="" size1024="217 443 241 467" z="9">
+          </gadget>
+        </gadget>
+        <gadget name="ChatBrowser-Entry9-Population" type="button" donthighlight="" textfont="AgeText" textfontsize="12" textcentervert="" textcenterhoriz="" size1024="732 438 808 470" z="10">
+        </gadget>
+        <gadget name="ChatBrowser-Entry9-Sticky" type="button" donthighlight="" textfont="AgeText" textfontsize="12" textcentervert="" textcenterhoriz="" size1024="838 438 1019 470" z="9">
+        </gadget>
+      </gadget>
+      <gadget name="ChatBrowser-Entry10" type="gadget" donthighlight="" size1024="210 470 1019 502" z="12">
+        <gadget name="ChatBrowser-Entry10-Name" type="button" donthighlight="" textfont="AgeText" textfontsize="12" textcentervert="" textcenterhoriz="" size1024="240 470 710 502" z="11">
+          <gadget name="ChatBrowser-Entry10-PasswordProtectedIcon" background="ui\eso\lock_icon" type="gadget" textcentervert="" textcenterhoriz="" size1024="217 475 241 499" z="11">
+          </gadget>
+        </gadget>
+        <gadget name="ChatBrowser-Entry10-Population" type="button" donthighlight="" textfont="AgeText" textfontsize="12" textcentervert="" textcenterhoriz="" size1024="732 470 808 502" z="13">
+        </gadget>
+        <gadget name="ChatBrowser-Entry10-Sticky" type="button" donthighlight="" textfont="AgeText" textfontsize="12" textcentervert="" textcenterhoriz="" size1024="838 470 1019 502" z="10">
+        </gadget>
+      </gadget>
+      <gadget name="ChatBrowser-Entry11" type="gadget" donthighlight="" size1024="210 502 1019 534" z="13">
+        <gadget name="ChatBrowser-Entry11-Name" type="button" donthighlight="" textfont="AgeText" textfontsize="12" textcentervert="" textcenterhoriz="" size1024="240 502 710 534" z="11">
+          <gadget name="ChatBrowser-Entry11-PasswordProtectedIcon" background="ui\eso\lock_icon" type="gadget" textcentervert="" textcenterhoriz="" size1024="217 507 241 531" z="11">
+          </gadget>
+        </gadget>
+        <gadget name="ChatBrowser-Entry11-Population" type="button" donthighlight="" textfont="AgeText" textfontsize="12" textcentervert="" textcenterhoriz="" size1024="732 502 808 534" z="15">
+        </gadget>
+        <gadget name="ChatBrowser-Entry11-Sticky" type="button" donthighlight="" textfont="AgeText" textfontsize="12" textcentervert="" textcenterhoriz="" size1024="838 502 1019 534" z="12">
+        </gadget>
+      </gadget>
+      <gadget name="ChatBrowser-Entry12" type="gadget" donthighlight="" size1024="210 534 1019 566" z="11">
+        <gadget name="ChatBrowser-Entry12-Name" type="button" donthighlight="" textfont="AgeText" textfontsize="12" textcentervert="" textcenterhoriz="" size1024="240 534 710 566" z="9">
+          <gadget name="ChatBrowser-Entry12-PasswordProtectedIcon" background="ui\eso\lock_icon" type="gadget" textcentervert="" textcenterhoriz="" size1024="217 539 241 563" z="9">
+          </gadget>
+        </gadget>
+        <gadget name="ChatBrowser-Entry12-Population" type="button" donthighlight="" textfont="AgeText" textfontsize="12" textcentervert="" textcenterhoriz="" size1024="732 534 808 566" z="13">
+        </gadget>
+        <gadget name="ChatBrowser-Entry12-Sticky" type="button" donthighlight="" textfont="AgeText" textfontsize="12" textcentervert="" textcenterhoriz="" size1024="838 534 1019 566" z="10">
+        </gadget>
+      </gadget>
+      <gadget name="ChatBrowser-Entry13" type="gadget" donthighlight="" size1024="210 566 1019 598" z="12">
+        <gadget name="ChatBrowser-Entry13-Name" type="button" donthighlight="" textfont="AgeText" textfontsize="12" textcentervert="" textcenterhoriz="" size1024="240 566 710 598" z="11">
+          <gadget name="ChatBrowser-Entry13-PasswordProtectedIcon" background="ui\eso\lock_icon" type="gadget" textcentervert="" textcenterhoriz="" size1024="217 571 241 595" z="11">
+          </gadget>
+        </gadget>
+        <gadget name="ChatBrowser-Entry13-Population" type="button" donthighlight="" textfont="AgeText" textfontsize="12" textcentervert="" textcenterhoriz="" size1024="732 566 808 598" z="13">
+        </gadget>
+        <gadget name="ChatBrowser-Entry13-Sticky" type="button" donthighlight="" textfont="AgeText" textfontsize="12" textcentervert="" textcenterhoriz="" size1024="838 566 1019 598" z="10">
+        </gadget>
+      </gadget>
+      <gadget name="ChatBrowser-Entry14" type="gadget" donthighlight="" size1024="210 598 1019 630" z="15">
+        <gadget name="ChatBrowser-Entry14-Name" type="button" donthighlight="" textfont="AgeText" textfontsize="12" textcentervert="" textcenterhoriz="" size1024="240 598 710 630" z="13">
+          <gadget name="ChatBrowser-Entry14-PasswordProtectedIcon" background="ui\eso\lock_icon" type="gadget" textcentervert="" textcenterhoriz="" size1024="217 603 241 627" z="13">
+          </gadget>
+        </gadget>
+        <gadget name="ChatBrowser-Entry14-Population" type="button" donthighlight="" textfont="AgeText" textfontsize="12" textcentervert="" textcenterhoriz="" size1024="732 598 808 630" z="17">
+        </gadget>
+        <gadget name="ChatBrowser-Entry14-Sticky" type="button" donthighlight="" textfont="AgeText" textfontsize="12" textcentervert="" textcenterhoriz="" size1024="838 598 1019 630" z="14">
+        </gadget>
+      </gadget>
+      <gadget name="ChatBrowser-Entry15" type="gadget" donthighlight="" size1024="210 630 1019 662" z="14">
+        <gadget name="ChatBrowser-Entry15-Name" type="button" donthighlight="" textfont="AgeText" textfontsize="12" textcentervert="" textcenterhoriz="" size1024="240 630 710 662" z="13">
+          <gadget name="ChatBrowser-Entry15-PasswordProtectedIcon" background="ui\eso\lock_icon" type="gadget" textcentervert="" textcenterhoriz="" size1024="217 635 241 659" z="13">
+          </gadget>
+        </gadget>
+        <gadget name="ChatBrowser-Entry15-Population" type="button" donthighlight="" textfont="AgeText" textfontsize="12" textcentervert="" textcenterhoriz="" size1024="732 630 808 662" z="15">
+        </gadget>
+        <gadget name="ChatBrowser-Entry15-Sticky" type="button" donthighlight="" textfont="AgeText" textfontsize="12" textcentervert="" textcenterhoriz="" size1024="838 630 1019 662" z="12">
+        </gadget>
+      </gadget>
+      <gadget name="ChatBrowser-Entry16" type="gadget" donthighlight="" size1024="210 662 1019 694" z="12">
+        <gadget name="ChatBrowser-Entry16-Name" type="button" donthighlight="" textfont="AgeText" textfontsize="12" textcentervert="" textcenterhoriz="" size1024="240 662 710 694" z="11">
+          <gadget name="ChatBrowser-Entry16-PasswordProtectedIcon" background="ui\eso\lock_icon" type="gadget" textcentervert="" textcenterhoriz="" size1024="217 667 241 691" z="11">
+          </gadget>
+        </gadget>
+        <gadget name="ChatBrowser-Entry16-Population" type="button" donthighlight="" textfont="AgeText" textfontsize="12" textcentervert="" textcenterhoriz="" size1024="732 662 808 694" z="13">
+        </gadget>
+        <gadget name="ChatBrowser-Entry16-Sticky" type="button" donthighlight="" textfont="AgeText" textfontsize="12" textcentervert="" textcenterhoriz="" size1024="838 662 1019 694" z="10">
+        </gadget>
+      </gadget>
+      <gadget name="ChatBrowser-Entry17" type="gadget" donthighlight="" size1024="210 694 1019 726" z="9">
+        <gadget name="ChatBrowser-Entry17-Name" type="button" donthighlight="" textfont="AgeText" textfontsize="12" textcentervert="" textcenterhoriz="" size1024="240 694 710 726" z="9">
+          <gadget name="ChatBrowser-Entry17-PasswordProtectedIcon" background="ui\eso\lock_icon" type="gadget" textcentervert="" textcenterhoriz="" size1024="217 699 241 723" z="9">
+          </gadget>
+        </gadget>
+        <gadget name="ChatBrowser-Entry17-Population" type="button" donthighlight="" textfont="AgeText" textfontsize="12" textcentervert="" textcenterhoriz="" size1024="732 694 808 726" z="9">
+        </gadget>
+        <gadget name="ChatBrowser-Entry17-Sticky" type="button" donthighlight="" textfont="AgeText" textfontsize="12" textcentervert="" textcenterhoriz="" size1024="838 694 1019 726" z="9">
+        </gadget>
+      </gadget>
+      <gadget name="ChatBrowser-ListSlider" type="slider" size1024="1000 182 1019 726" z="17" sliderbuttons="" slidervertical="" sliderupbtnset="sliderUpBtn_18" sliderdownbtnset="sliderDownBtn_18" sliderpipart="ui\file_system\slider_pip_horizontal" sliderareaart="ui\file_system\slider_background_vertical_18" background="ui\file_system\slider_background">
+      </gadget>
+      <gadget name="ChatBrowser-SortByName" type="stateButton" textfont="AgeText" textfontsize="12" textcentervert="" textcolor="253 193 1" textcenterhoriz="" size1024="240 152 710 182" z="10">
+      </gadget>
+      <gadget name="ChatBrowser-SortByPopulation" type="stateButton" textfont="AgeText" textfontsize="12" textcentervert="" textcolor="253 193 1" textcenterhoriz="" size1024="732 152 808 182" z="11">
+      </gadget>
+      <gadget name="ChatBrowser-SortBySticky" type="stateButton" textfont="AgeText" textfontsize="12" textcentervert="" textcolor="253 193 1" textcenterhoriz="" size1024="838 152 1019 182" z="9">
+      </gadget>
+      <gadget name="ChatBrowser-NameDivider" type="gadget" backgroundcolor="0 0 0" size1024="709 183 710 727" z="13">
+      </gadget>
+      <gadget name="ChatBrowser-PopulationDivider" type="gadget" backgroundcolor="0 0 0" size1024="804 182 805 726" z="10">
+      </gadget>
+      <gadget name="ChatBrowser-JoinEdit" type="gadget" background="ui\core_ui\text_block_193" size1024="648 115 841 147" z="9" texturecoords="0 0 0.75390625 1">
+      </gadget>
+      <gadget name="ChatBrowser-JoinEdit-Text" type="editBox" size1024="677 118 814 144" textfont="PregameEntry" textfontsize="15" textcolor="0 0 0" cursorcolor="0 0 0" enterkey="" z="10" background="ui\core_ui\text_bar_32_middle">
+        <gadget name="ChatBrowser-JoinEdit-TextLeft" type="gadget" size1024="672 118 680 144" z="27" background="ui\core_ui\text_bar_32_left">
+        </gadget>
+        <gadget name="ChatBrowser-JoinEdit-TextRight" type="gadget" size1024="809 118 817 144" z="27" background="ui\core_ui\text_bar_32_right">
+        </gadget>
+      </gadget>
+      <gadget name="ChatBrowser-JoinEdit-Button" type="stateButton" size1024="851 115 1012 147" texturecoords="0 0 0.6328125 1" bevelbutton="" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="255 255 255" textcenterhoriz="" textcentervert="" z="11">$$37379$$Join Channel<stateentry background="ui\core_ui\button_large_normal"></stateentry><stateentry background="ui\core_ui\button_large_clicked"></stateentry><stateentry background="ui\core_ui\button_large_high"></stateentry><stateentry background="ui\core_ui\button_large_disable"></stateentry></gadget>
+    </gadget>
+    <gadget name="ChatBrowser-CreateButton" type="stateButton" bevelbutton="" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="255 255 255" textcenterhoriz="" textcentervert="" size1024="484 730 592 762" z="11" texturecoords="0 0 0.8359375 1">$$24835$$Create<stateentry background="ui\core_ui\button_small_normal"></stateentry><stateentry background="ui\core_ui\button_small_clicked"></stateentry><stateentry background="ui\core_ui\button_small_high"></stateentry><stateentry background="ui\core_ui\button_small_disable"></stateentry></gadget>
+    <gadget name="ChatBrowser-JoinButton" type="stateButton" bevelbutton="" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="255 255 255" textcenterhoriz="" textcentervert="" size1024="623 730 731 762" z="11" texturecoords="0 0 0.8359375 1">$$21129$$Join<stateentry background="ui\core_ui\button_small_normal"></stateentry><stateentry background="ui\core_ui\button_small_clicked"></stateentry><stateentry background="ui\core_ui\button_small_high"></stateentry><stateentry background="ui\core_ui\button_small_disable"></stateentry></gadget>
+    <gadget name="ChatBrowser-CreateDlg-Container" type="gadget" backgroundcolor="0 0 0" backgroundalpha="0.5" size1024="0 0 1024 768" z="20">
+      <gadget name="ChatBrowser-CreateDlg" type="gadget" background="ui\core_ui\wood_thick_board_tile" size1024="281 201 750 458" tilebackgroundhoriz="" z="10">
+        <gadget name="ChatBrowser-CreateDlg-Label-Left" type="gadget" background="ui\core_ui\title_bar_48_left" size1024="303 210 367 274" z="11">
+        </gadget>
+        <gadget name="ChatBrowser-CreateDlg-Label-Middle" type="gadget" background="ui\core_ui\title_bar_48_middle" size1024="367 210 663 274" z="13">
+        </gadget>
+        <gadget name="ChatBrowser-CreateDlg-Label-Right" type="gadget" background="ui\core_ui\title_bar_48_right" size1024="663 210 727 274" z="13">
+        </gadget>
+        <gadget name="ChatBrowser-CreateDlg-Label" type="formatText" textcenterhoriz="" textcolor="255 200 3" textfont="PregameHeaders" textfontsize="22" size1024="367 220 662 255" transparent="" z="16">$$37377$$Create Channel</gadget>
+        <gadget name="ChatBrowser-CreateDlg-BordersTop" type="gadget" background="ui\file_system\border_top_middle" size1024="308 201 725 209" z="1" transparent="">
+        </gadget>
+        <gadget name="ChatBrowser-CreateDlg-BordersBottom" type="gadget" background="ui\file_system\border_bottom_middle" size1024="309 453 721 461" z="0" transparent="">
+        </gadget>
+        <gadget name="ChatBrowser-CreateDlg-BordersLeft" type="gadget" background="ui\file_system\border_side_left" size1024="282 232 290 435" tilebackgroundvert="" transparent="" z="8">
+        </gadget>
+        <gadget name="ChatBrowser-CreateDlg-BordersRight" type="gadget" background="ui\file_system\border_side_right" size1024="742 230 750 433" tilebackgroundvert="" z="4" transparent="">
+        </gadget>
+        <gadget name="ChatBrowser-CreateDlg-BordersRightTop" type="gadget" background="ui\file_system\border_top_right" size1024="718 201 750 233" z="2" transparent="" clampbackground="">
+        </gadget>
+        <gadget name="ChatBrowser-CreateDlg-BordersLeftTop" type="gadget" background="ui\file_system\border_top_left" size1024="282 201 314 233" z="5" transparent="" clampbackground="">
+        </gadget>
+        <gadget name="ChatBrowser-CreateDlg-BordersRightBottom" type="gadget" background="ui\file_system\border_bottom_right" size1024="718 429 750 461" z="3" transparent="" clampbackground="">
+        </gadget>
+        <gadget name="ChatBrowser-CreateDlg-BordersLeftBottom" type="gadget" background="ui\file_system\border_bottom_left" size1024="282 429 314 461" z="6" transparent="" clampbackground="">
+        </gadget>
+        <gadget name="ChatBrowser-CreateDlg-ChannelName" type="gadget" background="ui\core_ui\text_block_154" size1024="300 280 556 312" z="2">
+        </gadget>
+        <gadget name="ChatBrowser-CreateDlg-ChannelNameLabel" type="formatText" textcolor="255 200 3" textfont="IPAddy" textfontsize="14" size1024="325 286 430 305" textcenterhoriz="" transparent="" z="10">$$37378$$Channel Name:</gadget>
+        <gadget name="ChatBrowser-CreateDlg-ChannelNameBack-Left" type="gadget" background="ui\core_ui\text_bar_32_left" size1024="477 280 509 312" z="6">
+        </gadget>
+        <gadget name="ChatBrowser-CreateDlg-ChannelNameBack-Middle" type="gadget" tilebackgroundhoriz="" background="ui\core_ui\text_bar_32_middle" size1024="508 280 698 312" z="7">
+        </gadget>
+        <gadget name="ChatBrowser-CreateDlg-ChannelNameBack-Right" type="gadget" background="ui\core_ui\text_bar_32_right" size1024="697 280 729 312" z="12">
+        </gadget>
+        <gadget name="ChatBrowser-CreateDlg-ChannelNameText" type="editBox" editboxmaxchars="50" size1024="481 284 723 307" cursorcolor="0 0 0" textfont="PregameEntry" textfontsize="15" textcolor="0 0 0" enterkey="" z="12">
+        </gadget>
+        <gadget name="ChatBrowser-CreateDlg-PasswordButton" type="checkButton" size1024="478 318 508 346" checkcheckedart="ui\core_ui\round_clicked" checkuncheckedart="ui\core_ui\round" sound="UI_DefaultPregameClickSet" z="10" checkborder1024="5 0">
+        </gadget>
+        <gadget name="ChatBrowser-CreateDlg-PasswordButtonLabel" type="formatText" textcolor="255 200 3" textfont="IPAddy" textfontsize="14" size1024="508 323 658 341" textcenterhoriz="" transparent="" z="10">$$30070$$Password Protected</gadget>
+        <gadget name="ChatBrowser-CreateDlg-Password" type="gadget" background="ui\core_ui\text_block_154" size1024="301 354 557 386" z="8">
+        </gadget>
+        <gadget name="ChatBrowser-CreateDlg-PasswordTextLabel" type="formatText" textcolor="255 200 3" textfont="IPAddy" textfontsize="14" size1024="325 360 430 379" textcenterhoriz="" transparent="" z="10">$$22111$$Password:</gadget>
+        <gadget name="ChatBrowser-CreateDlg-PasswordBack-Left" type="gadget" background="ui\core_ui\text_bar_32_left" size1024="477 354 509 386" z="9">
+        </gadget>
+        <gadget name="ChatBrowser-CreateDlg-PasswordBack-Middle" type="gadget" tilebackgroundhoriz="" background="ui\core_ui\text_bar_32_middle" size1024="508 354 698 386" z="6">
+        </gadget>
+        <gadget name="ChatBrowser-CreateDlg-PasswordBack-Right" type="gadget" background="ui\core_ui\text_bar_32_right" size1024="697 354 729 386" z="7">
+        </gadget>
+        <gadget name="ChatBrowser-CreateDlg-PasswordDisable" type="gadget" backgroundcolor="128 128 128" backgroundalpha="0.5" size1024="480 357 727 381" z="14">
+        </gadget>
+        <gadget name="ChatBrowser-CreateDlg-PasswordText" type="editBox" editboxmaxchars="16" size1024="481 358 723 381" cursorcolor="0 0 0" textfont="PregameEntry" textfontsize="15" textcolor="0 0 0" enterkey="" z="11">
+        </gadget>
+        <gadget name="ChatBrowser-CreateDlg-PasswordWarning" type="formatText" textcolor="255 255 255" textfont="Arial Nodrop" textfontsize="12" size1024="477 386 669 400" textcenterhoriz="" transparent="" z="9">$$33444$$*Passwords are case sensitive</gadget>
+        <gadget name="ChatBrowser-CreateDlg-CreateButton" type="stateButton" bevelbutton="" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="255 255 255" textcenterhoriz="" textcentervert="" size1024="313 416 505 448" z="8" texturecoords="0 0 1 1">$$37377$$Create Channel<stateentry background="ui\core_ui\button_256x32_normal"></stateentry><stateentry background="ui\core_ui\button_256x32_clicked"></stateentry><stateentry background="ui\core_ui\button_256x32_rollover"></stateentry><stateentry background="ui\core_ui\button_256x32_disabled"></stateentry></gadget>
+        <gadget name="ChatBrowser-CreateDlg-CancelButton" type="stateButton" bevelbutton="" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="255 255 255" textcenterhoriz="" textcentervert="" size1024="525 416 717 448" z="9" texturecoords="0 0 1 1">$$18466$$Cancel<stateentry background="ui\core_ui\button_256x32_normal"></stateentry><stateentry background="ui\core_ui\button_256x32_clicked"></stateentry><stateentry background="ui\core_ui\button_256x32_rollover"></stateentry><stateentry background="ui\core_ui\button_256x32_disabled"></stateentry></gadget>
+      </gadget>
+    </gadget>
+    <gadget name="ChatBrowser-JoinDlg-Container" type="gadget" backgroundcolor="0 0 0" backgroundalpha="0.5" size1024="0 0 1024 768" z="20">
+      <gadget name="ChatBrowser-JoinDlg" type="gadget" background="ui\core_ui\wood_thick_board_tile" size1024="282 201 750 423" tilebackgroundhoriz="" z="12">
+        <gadget name="ChatBrowser-JoinDlg-Label-Left" type="gadget" background="ui\core_ui\title_bar_48_left" size1024="303 210 367 274" z="21">
+        </gadget>
+        <gadget name="ChatBrowser-JoinDlg-Label-Middle" type="gadget" background="ui\core_ui\title_bar_48_middle" size1024="367 210 663 274" z="19">
+        </gadget>
+        <gadget name="ChatBrowser-JoinDlg-Label-Right" type="gadget" background="ui\core_ui\title_bar_48_right" size1024="663 210 727 274" z="18">
+        </gadget>
+        <gadget name="ChatBrowser-JoinDlg-Label" type="formatText" textcenterhoriz="" textcolor="255 200 3" textfont="PregameHeaders" textfontsize="22" size1024="367 220 662 255" transparent="" z="20">$$37379$$Join Channel</gadget>
+        <gadget name="ChatBrowser-JoinDlg-BordersTop" type="gadget" background="ui\file_system\border_top_middle" size1024="308 201 725 209" z="11" transparent="">
+        </gadget>
+        <gadget name="ChatBrowser-JoinDlg-BordersBottom" type="gadget" background="ui\file_system\border_bottom_middle" size1024="308 421 720 429" z="13" transparent="">
+        </gadget>
+        <gadget name="ChatBrowser-JoinDlg-BordersLeft" type="gadget" background="ui\file_system\border_side_left" size1024="282 229 289 400" tilebackgroundvert="" transparent="" z="11">
+        </gadget>
+        <gadget name="ChatBrowser-JoinDlg-BordersRight" type="gadget" background="ui\file_system\border_side_right" size1024="742 230 750 398" tilebackgroundvert="" z="6" transparent="">
+        </gadget>
+        <gadget name="ChatBrowser-JoinDlg-BordersRightTop" type="gadget" background="ui\file_system\border_top_right" size1024="718 201 750 233" z="9" transparent="" clampbackground="">
+        </gadget>
+        <gadget name="ChatBrowser-JoinDlg-BordersLeftTop" type="gadget" background="ui\file_system\border_top_left" size1024="282 201 314 233" z="7" transparent="" clampbackground="">
+        </gadget>
+        <gadget name="ChatBrowser-JoinDlg-BordersRightBottom" type="gadget" background="ui\file_system\border_bottom_right" size1024="717 397 749 429" z="8" transparent="" clampbackground="">
+        </gadget>
+        <gadget name="ChatBrowser-JoinDlg-BordersLeftBottom" type="gadget" background="ui\file_system\border_bottom_left" size1024="281 397 313 429" z="13" transparent="" clampbackground="">
+        </gadget>
+        <gadget name="ChatBrowser-JoinDlg-Password" type="gadget" background="ui\core_ui\text_block_256" size1024="387 278 643 310" z="10">
+        </gadget>
+        <gadget name="ChatBrowser-JoinDlg-PasswordTextLabel" type="formatText" textcolor="255 200 3" textfont="IPAddy" textfontsize="14" size1024="411 284 619 303" textcenterhoriz="" transparent="" z="17">$$30074$$Please enter password:</gadget>
+        <gadget name="ChatBrowser-JoinDlg-PasswordBack-Left" type="gadget" background="ui\core_ui\text_bar_32_left" size1024="388 318 420 350" z="14">
+        </gadget>
+        <gadget name="ChatBrowser-JoinDlg-PasswordBack-Middle" type="gadget" tilebackgroundhoriz="" background="ui\core_ui\text_bar_32_middle" size1024="419 318 609 350" z="12">
+        </gadget>
+        <gadget name="ChatBrowser-JoinDlg-PasswordBack-Right" type="gadget" background="ui\core_ui\text_bar_32_right" size1024="608 318 640 350" z="15">
+        </gadget>
+        <gadget name="ChatBrowser-JoinDlg-PasswordText" type="editBox" editboxmaxchars="16" size1024="392 322 634 345" cursorcolor="0 0 0" textfont="PregameEntry" textfontsize="15" textcolor="0 0 0" enterkey="" z="17">
+        </gadget>
+        <gadget name="ChatBrowser-JoinDlg-PasswordWarning" type="formatText" textcolor="255 255 255" textfont="Arial Nodrop" textfontsize="12" size1024="388 350 580 364" textcenterhoriz="" transparent="" z="15">$$33444$$*Passwords are case sensitive</gadget>
+        <gadget name="ChatBrowser-JoinDlg-JoinButton" type="stateButton" bevelbutton="" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="255 255 255" textcenterhoriz="" textcentervert="" size1024="313 376 505 408" z="14" texturecoords="0 0 1 1">$$37379$$Join Channel<stateentry background="ui\core_ui\button_256x32_normal"></stateentry><stateentry background="ui\core_ui\button_256x32_clicked"></stateentry><stateentry background="ui\core_ui\button_256x32_rollover"></stateentry><stateentry background="ui\core_ui\button_256x32_disabled"></stateentry></gadget>
+        <gadget name="ChatBrowser-JoinDlg-CancelButton" type="stateButton" bevelbutton="" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="255 255 255" textcenterhoriz="" textcentervert="" size1024="525 376 717 408" z="16" texturecoords="0 0 1 1">$$18466$$Cancel<stateentry background="ui\core_ui\button_256x32_normal"></stateentry><stateentry background="ui\core_ui\button_256x32_clicked"></stateentry><stateentry background="ui\core_ui\button_256x32_rollover"></stateentry><stateentry background="ui\core_ui\button_256x32_disabled"></stateentry></gadget>
+      </gadget>
+    </gadget>
+  </gadget>
+</layout>

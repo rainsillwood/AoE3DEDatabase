@@ -1,0 +1,11 @@
+<layout>
+  <gadget name="TreeGadDropDown" type="gadget" size1024="16 117 613 151" background="">
+    <gadget name="TreeGadDropDown-Label" textcentervert="" textcolor="0 0 0" textfont="FieldLabels" textfontsize="14" type="formatText" size1024="18 120 373 147" z="11">Dropdown Label</gadget>
+    <gadget name="TreeGadDropDown-Drop" type="textField" textcolor="0 0 0" textfont="PregameEntry" dropdowndistance="132" dropdownvisitems="5" fieldreadonly="" textfontsize="15" size1024="379 121 607 147" z="14" background="ui\core_ui\dropdown_background2" dropdownbuttonart="ui\core_ui\minimize_down">
+      <dropdown>
+      </dropdown>
+    </gadget>
+    <gadget name="TreeGadDropDown-DisableOverlay" type="gadget" size1024="17 117 681 151" backgroundcolor="0 0 0" backgroundalpha="0.5" mouseovertext="$$41589$$" hidden="" z="15">
+    </gadget>
+  </gadget>
+</layout>

@@ -1,0 +1,85 @@
+<layout>
+  <gadget name="trainsandcontains" type="trainsandcontains" size1024="700 509 1024 547" z="6">
+    <gadget name="trainsandcontains-row0" type="gadget" background="ui\ingame\ingame_ui_small_01_ypack" size1024="700 509 1024 547" z="6" texturecoords="0 0 0.640 0.076">
+      <gadget name="trainsandcontains-rowLabel0" type="formatText" size1024="704 513 800 545" textfont="StatAreaText" textfontsize="12" textcentervert="" textcenterhoriz="" textcolor="255 255 255" z="11">Row0</gadget>
+      <gadget name="trainsandcontains-button00" type="button" size1024="804 514 836 546" z="16" activateondown="">
+        <piechartfilling color="255 0 0 100" rotation="cw" fill="false">
+        </piechartfilling>
+      </gadget>
+      <gadget name="trainsandcontains-button01" type="button" size1024="840 514 872 546" z="16" activateondown="">
+        <piechartfilling color="255 0 0 100" rotation="cw" fill="false">
+        </piechartfilling>
+      </gadget>
+      <gadget name="trainsandcontains-button02" type="button" size1024="876 514 908 546" z="16" activateondown="">
+        <piechartfilling color="255 0 0 100" rotation="cw" fill="false">
+        </piechartfilling>
+      </gadget>
+      <gadget name="trainsandcontains-button03" type="button" size1024="912 514 944 546" z="16" activateondown="">
+        <piechartfilling color="255 0 0 100" rotation="cw" fill="false">
+        </piechartfilling>
+      </gadget>
+      <gadget name="trainsandcontains-button04" type="button" size1024="948 514 980 546" z="16" activateondown="">
+        <piechartfilling color="255 0 0 100" rotation="cw" fill="false">
+        </piechartfilling>
+      </gadget>
+      <gadget name="trainsandcontains-button05" type="button" size1024="984 514 1016 546" z="16" activateondown="">
+        <piechartfilling color="255 0 0 100" rotation="cw" fill="false">
+        </piechartfilling>
+      </gadget>
+    </gadget>
+    <gadget name="trainsandcontains-row1" type="gadget" background="ui\ingame\ingame_ui_small_01_ypack" size1024="700 509 1024 547" z="6" texturecoords="0 0 0.640 0.076">
+      <gadget name="trainsandcontains-rowLabel1" type="formatText" size1024="704 513 800 545" textfont="StatAreaText" textfontsize="12" textcentervert="" textcenterhoriz="" textcolor="255 255 255" z="11">Row0</gadget>
+      <gadget name="trainsandcontains-button10" type="button" size1024="804 514 836 546" z="16" activateondown="">
+        <piechartfilling color="255 0 0 100" rotation="cw" fill="false">
+        </piechartfilling>
+      </gadget>
+      <gadget name="trainsandcontains-button11" type="button" size1024="840 514 872 546" z="16" activateondown="">
+        <piechartfilling color="255 0 0 100" rotation="cw" fill="false">
+        </piechartfilling>
+      </gadget>
+      <gadget name="trainsandcontains-button12" type="button" size1024="876 514 908 546" z="16" activateondown="">
+        <piechartfilling color="255 0 0 100" rotation="cw" fill="false">
+        </piechartfilling>
+      </gadget>
+      <gadget name="trainsandcontains-button13" type="button" size1024="912 514 944 546" z="16" activateondown="">
+        <piechartfilling color="255 0 0 100" rotation="cw" fill="false">
+        </piechartfilling>
+      </gadget>
+      <gadget name="trainsandcontains-button14" type="button" size1024="948 514 980 546" z="16" activateondown="">
+        <piechartfilling color="255 0 0 100" rotation="cw" fill="false">
+        </piechartfilling>
+      </gadget>
+      <gadget name="trainsandcontains-button15" type="button" size1024="984 514 1016 546" z="16" activateondown="">
+        <piechartfilling color="255 0 0 100" rotation="cw" fill="false">
+        </piechartfilling>
+      </gadget>
+    </gadget>
+    <gadget name="trainsandcontains-row2" type="gadget" background="ui\ingame\ingame_ui_small_01_ypack" size1024="700 509 1024 547" z="6" texturecoords="0 0 0.640 0.076">
+      <gadget name="trainsandcontains-rowLabel2" type="formatText" size1024="704 513 800 545" textfont="StatAreaText" textfontsize="12" textcentervert="" textcenterhoriz="" textcolor="255 255 255" z="11">Row0</gadget>
+      <gadget name="trainsandcontains-button20" type="button" size1024="804 514 836 546" z="16" activateondown="">
+        <piechartfilling color="255 0 0 100" rotation="cw" fill="false">
+        </piechartfilling>
+      </gadget>
+      <gadget name="trainsandcontains-button21" type="button" size1024="840 514 872 546" z="16" activateondown="">
+        <piechartfilling color="255 0 0 100" rotation="cw" fill="false">
+        </piechartfilling>
+      </gadget>
+      <gadget name="trainsandcontains-button22" type="button" size1024="876 514 908 546" z="16" activateondown="">
+        <piechartfilling color="255 0 0 100" rotation="cw" fill="false">
+        </piechartfilling>
+      </gadget>
+      <gadget name="trainsandcontains-button23" type="button" size1024="912 514 944 546" z="16" activateondown="">
+        <piechartfilling color="255 0 0 100" rotation="cw" fill="false">
+        </piechartfilling>
+      </gadget>
+      <gadget name="trainsandcontains-button24" type="button" size1024="948 514 980 546" z="16" activateondown="">
+        <piechartfilling color="255 0 0 100" rotation="cw" fill="false">
+        </piechartfilling>
+      </gadget>
+      <gadget name="trainsandcontains-button25" type="button" size1024="984 514 1016 546" z="16" activateondown="">
+        <piechartfilling color="255 0 0 100" rotation="cw" fill="false">
+        </piechartfilling>
+      </gadget>
+    </gadget>
+  </gadget>
+</layout>

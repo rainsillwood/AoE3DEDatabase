@@ -1,0 +1,41 @@
+<tactics>
+  <action>
+    <name stringid="68771">TradeAura1</name>
+    <type>AutoRangedModify</type>
+    <modifyabstracttype>AbstractVillager</modifyabstracttype>
+    <forbidunittype>AbstractFishingBoat</forbidunittype>
+    <persistent>1</persistent>
+    <modifytype>AutoGatherRate</modifytype>
+    <modifymultiplier>1.35</modifymultiplier>
+  </action>
+  <action>
+    <name stringid="68772">TradeAura2</name>
+    <type>AutoRangedModify</type>
+    <modifyabstracttype>AbstractVillager</modifyabstracttype>
+    <forbidunittype>AbstractFishingBoat</forbidunittype>
+    <persistent>1</persistent>
+    <modifytype>AutoGatherRate</modifytype>
+    <modifymultiplier>1.6</modifymultiplier>
+  </action>
+  <action>
+    <name stringid="68778">EconomicAura1</name>
+    <type>AutoRangedModify</type>
+    <modifyabstracttype>AbstractVillager</modifyabstracttype>
+    <forbidunittype>AbstractFishingBoat</forbidunittype>
+    <persistent>1</persistent>
+    <modifytype>GatherRate</modifytype>
+    <modifymultiplier>0.95</modifymultiplier>
+  </action>
+  <action>
+    <name stringid="68779">EconomicAura2</name>
+    <type>AutoRangedModify</type>
+    <modifyabstracttype>AbstractVillager</modifyabstracttype>
+    <forbidunittype>AbstractFishingBoat</forbidunittype>
+    <persistent>1</persistent>
+    <modifytype>GatherRate</modifytype>
+    <modifymultiplier>0.9</modifymultiplier>
+  </action>
+  <tactic>Tax0<active>0</active><protounitcommand>TacticTax0</protounitcommand><transition><tactic>Tax5</tactic><length>2</length><exit>1</exit></transition><transition><tactic>Tax10</tactic><length>2</length><exit>1</exit></transition></tactic>
+  <tactic>Tax5<active>0</active><action>EconomicAura1</action><action>TradeAura1</action><protounitcommand>TacticTax5</protounitcommand><transition><tactic>Tax0</tactic><length>2</length><exit>1</exit></transition><transition><tactic>Tax10</tactic><length>2</length><exit>1</exit></transition></tactic>
+  <tactic>Tax10<active>0</active><action>EconomicAura2</action><action>TradeAura2</action><protounitcommand>TacticTax10</protounitcommand><transition><tactic>Tax5</tactic><length>2</length><exit>1</exit></transition><transition><tactic>Tax0</tactic><length>2</length><exit>1</exit></transition></tactic>
+</tactics>

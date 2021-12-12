@@ -1,0 +1,6 @@
+<layout>
+  <gadget name="verifytester-Background" type="gadget" size1024="0 0 1024 768" z="120" bevel="" background="ui\file_system\file_system_background">
+    <gadget name="verifytester-StatusLabel" type="formatText" sizerel1024="0 100 1024 140" z="121" textcentervert="" textcolor="3 0 88" textfontsize="18" textfont="Pregamelabels" textcenterhoriz="">Verifying your CorpNet credentials...</gadget>
+    <gadget name="verifytester-CancelButton" type="stateButton" sizerel1024="442 160 582 190" z="121" bevelbutton="" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="255 255 255" textcenterhoriz="" textcentervert="" texturecoords="0 0 .68 1">Cancel<command>cancelAuthCheck()</command><stateentry background="ui\eso\eso_button_174x32_normal"></stateentry><stateentry background="ui\eso\eso_button_174x32_clicked"></stateentry><stateentry background="ui\eso\eso_button_174x32_rollover"></stateentry><stateentry background="ui\eso\eso_button_174x32_disabled"></stateentry></gadget>
+  </gadget>
+</layout>

@@ -1,0 +1,14 @@
+<tactics>
+  <action>
+    <name stringid="38134">HandAttack</name>
+    <type>Attack</type>
+    <maxrange>20.00</maxrange>
+    <rate type="Settler">1.0 </rate>
+    <attackaction>1</attackaction>
+    <rangedlogic>1</rangedlogic>
+    <anim>Attack</anim>
+    <damage>3</damage>
+    <rof>3</rof>
+    <projectile>Macaw</projectile>
+  </action>
+</tactics>

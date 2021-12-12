@@ -1,0 +1,35 @@
+<layout>
+  <gadget type="dialog" name="mpfriend-messagedialog" titlebar="A Friendly Message" size1024="0 0 400 130" bevel="" hidden="" a-dtype="textFontSize number Z number" centervert="" centerhoriz="" closebutton="">
+    <gadget name="mpfriend-messagedialog-prompt" type="textBox" sizerel1024="10 10 390 30" textcolor="0 0 0" textfont="Arial nobold nodrop" textfontsize="12" textcentervert="">Message for %s</gadget>
+    <gadget name="mpfriend-messagedialog-text" type="textField" sizerel1024="10 35 390 60" textcolor="0 0 0" textfont="Arial nodrop" textfontsize="12">Message:</gadget>
+    <button>Send</button>
+    <button>$$18466$$Cancel</button>
+    <command>gadgetUnreal("mpfriend-messagedialog")</command>
+  </gadget>
+  <gadget type="dialog" name="mpfriend-viewmessagesdialog" titlebar="Message from %s" size1024="0 0 400 400" bevel="" hidden="" a-dtype="textFontSize number Z number" centervert="" centerhoriz="" closebutton="">
+    <gadget name="mpfriend-viewmessagesdialog-text" type="textBox" sizerel1024="10 10 390 340" backgroundcolor="255 255 255" textcolor="0 0 0" textfont="Arial nodrop" textfontsize="12" textwrapon="" scrollvert="">
+    </gadget>
+    <button>Reply</button>
+    <button>Done</button>
+    <command>gadgetUnreal("mpfriend-viewmessagesdialog")</command>
+  </gadget>
+  <gadget type="dialog" name="mpfriend-adddialog" titlebar="Add Friend" size1024="0 0 400 130" bevel="" hidden="" a-dtype="textFontSize number Z number" centervert="" centerhoriz="" closebutton="">
+    <gadget name="mpfriend-adddialog-text" type="textField" sizerel1024="10 35 390 60" textcolor="0 0 0" textfont="Arial nodrop" textfontsize="12">Add </gadget>
+    <button>OK</button>
+    <button>$$18466$$Cancel</button>
+    <command>gadgetUnreal("mpfriend-adddialog")</command>
+  </gadget>
+  <gadget type="dialog" name="mpfriend-addfriendrequestdialog" titlebar="Friend Add Request" size1024="0 0 400 130" bevel="" hidden="" a-dtype="textFontSize number Z number" centervert="" centerhoriz="" closebutton="">
+    <gadget name="mpfriend-addfriendrequestdialog-prompt" type="textBox" sizerel1024="10 10 390 35" textcolor="0 0 0" textfont="Arial nobold nodrop" textfontsize="12" textcentervert="">Add %s as a friend?</gadget>
+    <gadget name="mpfriend-addfriendrequestdialog-addtolist" type="checkButton" sizerel1024="10 40 390 65" textfont="Arial nodrop" textfontsize="12" configindex="whatever">Add them to my friends list</gadget>
+    <button>Accept</button>
+    <button>Reject</button>
+    <command>gadgetUnreal("mpfriend-addfriendrequestdialog")</command>
+  </gadget>
+  <gadget type="dialog" name="mpfriend-removedialog" titlebar="Remove Friend" size1024="0 0 400 130" bevel="" hidden="" a-dtype="textFontSize number Z number" centervert="" centerhoriz="" closebutton="">
+    <gadget name="mpfriend-removedialog-prompt" type="textBox" sizerel1024="10 10 390 65" textcolor="0 0 0" textfont="Arial nobold nodrop" textfontsize="12" textcentervert="">Remove %s from your friends list?</gadget>
+    <button>OK</button>
+    <button>$$18466$$Cancel</button>
+    <command>gadgetUnreal("mpfriend-removedialog")</command>
+  </gadget>
+</layout>

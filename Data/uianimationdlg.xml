@@ -1,0 +1,60 @@
+<layout>
+  <gadget name="animgadget" type="gadget" size1024="10 10 460 545" closebutton="" titlebar="Animation Control" background="ui\core_ui\background_blue_normal" tilebackground="" bevel="">
+    <gadget type="textBox" name="animdlg-statustext" textcenterhoriz="" textcentervert="" textcolor="192 192 255" textfont="Arial Nodrop For SE" textfontsize="12" size1024="20 42 190 152">Status</gadget>
+    <gadget type="textField" name="animdlg-animlist" columnorder="" showselect="" selectedcolor="0 0 255" allowdoubleclick="" buttonsize1024="180 30" textcolor="192 192 255" textfont="Arial nobold nodrop" textfontsize="12" background="ui\core_ui\background_blue_normal" scrollvert="" size1024="200 42 450 72">Type:<dropdown></dropdown></gadget>
+    <gadget type="textField" name="animdlg-versionlist" tooltiptext="Variation of this animation.  (Not affected by path override)" columnorder="" showselect="" selectedcolor="0 0 255" allowdoubleclick="" buttonsize1024="180 30" textcolor="192 192 255" textfont="Arial nobold nodrop" textfontsize="12" background="ui\core_ui\background_blue_normal" scrollvert="" size1024="200 82 450 112">Anim Variation:<dropdown></dropdown></gadget>
+    <gadget type="button" name="animdlg-releasebutton" tooltiptext="Release the animation lock." bevelbutton="" textcolor="192 192 255" textfont="Arial Nodrop For SE" textfontsize="12" size1024="20 161 70 191">Release</gadget>
+    <gadget type="button" name="animdlg-reloadbutton" tooltiptext="Load the animation file for this model from the disk." bevelbutton="" textcolor="192 192 255" textfont="Arial Nodrop For SE" textfontsize="12" size1024="75 161 125 191">Reload</gadget>
+    <gadget type="button" name="animdlg-zoombutton" tooltiptext="Nifty zoom feature." bevelbutton="" textcolor="192 192 255" textfont="Arial Nodrop For SE" textfontsize="12" size1024="130 161 180 191">Zoom</gadget>
+    <gadget type="animationslider" name="animdlg-progressslider" textcolor="192 192 255" textfont="Arial Nodrop For SE" textfontsize="12" size1024="195 122 455 152">
+    </gadget>
+    <gadget type="button" name="animdlg-beginbutton" bevelbutton="" textcolor="192 192 255" textfont="Arial Nodrop For SE" textfontsize="12" size1024="200 161 240 191">Begin</gadget>
+    <gadget type="button" name="animdlg-stepbackbutton" bevelbutton="" textcolor="192 192 255" textfont="Arial Nodrop For SE" textfontsize="12" size1024="250 161 290 191">Back</gadget>
+    <gadget type="button" name="animdlg-playbutton" bevelbutton="" textcolor="192 192 255" textfont="Arial Nodrop For SE" textfontsize="12" size1024="300 161 340 191">Play</gadget>
+    <gadget type="button" name="animdlg-stepforwardbutton" bevelbutton="" textcolor="192 192 255" textfont="Arial Nodrop For SE" textfontsize="12" size1024="350 161 390 191">Fwd.</gadget>
+    <gadget type="button" name="animdlg-endbutton" bevelbutton="" textcolor="192 192 255" textfont="Arial Nodrop For SE" textfontsize="12" size1024="400 161 440 191">End</gadget>
+    <gadget type="textField" name="animdlg-modelvarselect" tooltiptext="Selects a model variation." columnorder="" showselect="" selectedcolor="0 0 255" allowdoubleclick="" buttonsize1024="180 30" textcolor="192 192 255" textfont="Arial nobold nodrop" textfontsize="12" background="ui\core_ui\background_blue_normal" scrollvert="" size1024="20 203 450 233">Model Variation:<dropdown></dropdown></gadget>
+    <gadget type="textField" name="animdlg-dummyselect" tooltiptext="Select the dummy object to show." displayname="Dummies" columnorder="" showselect="" selectedcolor="0 0 255" allowdoubleclick="" buttonsize1024="180 30" textcolor="192 192 255" textfont="Arial nobold nodrop" textfontsize="12" background="ui\core_ui\background_blue_normal" scrollvert="" size1024="20 242 270 272">Dummy:<dropdown></dropdown></gadget>
+    <gadget type="checkButton" name="animdlg-usesimskeleton-checkbutton" textcolor="192 192 255" size1024="280 247 440 267">Show Sim Skeleton</gadget>
+    <gadget type="list" name="animdlg-taglist" tooltiptext="These are the tags for this animation." buttonsize1024="200 30" showselect="" columnorder="" textcolor="192 192 255" selectedcolor="255 255 75" textfont="Arial Nodrop For SE" textfontsize="12" background="ui\core_ui\background_blue_dark" scrollvert="" size1024="20 299 230 449">
+    </gadget>
+    <gadget name="animdlg-soundsettagdlg" type="gadget" bevel="" background="ui\core_ui\background_blue_dark" size1024="240 299 450 449">
+      <gadget type="textField" tooltiptext="Pick the SoundSet to play when this tag fires." name="animdlg-soundsettagdlg-soundsetselect" displayname="SoundSet" columnorder="" showselect="" selectedcolor="0 0 255" allowdoubleclick="" buttonsize1024="180 30" textcolor="192 192 255" textfont="Arial nobold nodrop" textfontsize="12" background="ui\core_ui\background_blue_normal" scrollvert="" size1024="250 309 440 329">Set:<dropdown></dropdown></gadget>
+      <gadget type="checkButton" tooltiptext="Check this to make the unit silent when off screen." name="animdlg-soundsettagdlg-visiblecheck" textcolor="192 192 255" size1024="250 359 440 379">CheckVisible</gadget>
+      <gadget type="checkButton" tooltiptext="Check this to make the unit silent if you don't own it." name="animdlg-soundsettagdlg-ownercheck" textcolor="192 192 255" size1024="250 384 440 404">CheckOwner</gadget>
+      <gadget type="checkButton" tooltiptext="Check this to make the sound loop." name="animdlg-soundsettagdlg-loopcheck" textcolor="192 192 255" size1024="250 409 440 429">Loop</gadget>
+    </gadget>
+    <gadget name="animdlg-soundtagdlg" type="gadget" bevel="" background="ui\core_ui\background_blue_dark" size1024="240 299 450 449">
+      <gadget type="textField" name="animdlg-soundtagdlg-soundselect" displayname="Sound" columnorder="" showselect="" selectedcolor="0 0 255" allowdoubleclick="" buttonsize1024="180 30" textcolor="192 192 255" textfont="Arial nobold nodrop" textfontsize="12" background="ui\core_ui\background_blue_normal" scrollvert="" size1024="250 309 440 329">Sound:</gadget>
+      <gadget type="checkButton" tooltiptext="Check this to make the unit silent when off screen." name="animdlg-soundtagdlg-visiblecheck" textcolor="192 192 255" size1024="250 359 440 379">CheckVisible</gadget>
+      <gadget type="checkButton" tooltiptext="Check this to make the unit silent if you don't own it." name="animdlg-soundtagdlg-ownercheck" textcolor="192 192 255" size1024="250 384 440 404">CheckOwner</gadget>
+    </gadget>
+    <gadget name="animdlg-footsteptagdlg" type="gadget" bevel="" background="ui\core_ui\background_blue_dark" size1024="240 299 450 449">
+      <gadget type="textField" tooltiptext="Pick the footprint type to place when this tag fires." name="animdlg-footsteptagdlg-footprinttypeselect" displayname="Footprint Type" columnorder="" showselect="" selectedcolor="0 0 255" allowdoubleclick="" buttonsize1024="180 30" textcolor="192 192 255" textfont="Arial nobold nodrop" textfontsize="12" background="ui\core_ui\background_blue_normal" scrollvert="" size1024="250 309 440 329">Type:<dropdown></dropdown></gadget>
+      <gadget name="animdlg-footsteptagdlg-bonelabel" textjustifyright="" textcolor="0 0 0" textfont="Arial nobold nodrop" textfontsize="12" type="formatText" size1024="250 334 280 354" z="11">Bone:</gadget>
+      <gadget type="editBox" tooltiptext="Specify the footprint bone name." name="animdlg-footsteptagdlg-footprintboneedit" displayname="Footprint Bone" selectedcolor="0 0 255" textcolor="192 192 255" textfont="Arial nobold nodrop" textfontsize="12" background="ui\core_ui\background_blue_normal" size1024="280 334 440 354" editboxmaxchars="200">
+      </gadget>
+    </gadget>
+    <gadget name="animdlg-particletagdlg" type="gadget" bevel="" background="ui\core_ui\background_blue_dark" size1024="240 299 450 449">
+      <gadget type="textField" tooltiptext="Pick the particle set to spawn when this tag fires." name="animdlg-particletagdlg-particlesetselect" displayname="Particle Set" columnorder="" showselect="" selectedcolor="0 0 255" allowdoubleclick="" buttonsize1024="180 30" textcolor="192 192 255" textfont="Arial nobold nodrop" textfontsize="12" background="ui\core_ui\background_blue_normal" scrollvert="" size1024="250 309 440 329">Type:<dropdown></dropdown></gadget>
+      <gadget type="textBox" name="animdlg-particletagdlg-message" textcenterhoriz="" textcentervert="" textcolor="192 192 255" textfont="Arial Nodrop For SE" textfontsize="12" size1024="250 309 440 329">Can't set particle files</gadget>
+    </gadget>
+    <gadget type="button" name="animdlg-addbutton" tooltiptext="Add a tag." bevelbutton="" textcolor="192 192 255" textfont="Arial Nodrop For SE" textfontsize="12" size1024="30 459 110 489">Add</gadget>
+    <gadget type="button" name="animdlg-removebutton" tooltiptext="Remove a tag." bevelbutton="" textcolor="192 192 255" textfont="Arial Nodrop For SE" textfontsize="12" size1024="120 459 200 489">Remove</gadget>
+    <gadget type="button" name="animdlg-tagbutton" tooltiptext="Set the tag position to the current animation position." bevelbutton="" textcolor="192 192 255" textfont="Arial Nodrop For SE" textfontsize="12" size1024="260 459 340 489">Tag</gadget>
+    <gadget type="button" name="animdlg-minusbutton" tooltiptext="Decrement the current tag position." bevelbutton="" textcolor="192 192 255" textfont="Arial Nodrop For SE" textfontsize="12" size1024="350 464 370 484">-</gadget>
+    <gadget type="button" name="animdlg-plusbutton" tooltiptext="Increment the current tag position." bevelbutton="" textcolor="192 192 255" textfont="Arial Nodrop For SE" textfontsize="12" size1024="380 464 400 484">+</gadget>
+    <gadget type="button" name="animdlg-savebutton" tooltiptext="Save all tag information for this model." bevelbutton="" textcolor="192 192 255" textfont="Arial Nodrop For SE" textfontsize="12" size1024="30 499 110 529">Save Tags</gadget>
+    <gadget type="dialog" name="animdlg-tagtypedlg" closebutton="" titlebar="Tag Type" background="ui\core_ui\background_blue_dark" tilebackground="" size1024="133 186 323 406">
+      <gadget name="animdlg-tagtypedlg-typeradios" type="radioset" background="ui\core_ui\background_blue_dark" radiosetbuttonsize1024="125 25" radiosetdefaultbuttonindex="0" textcolor="192 192 255" size1024="143 213 243 293">
+        <button>Attack</button>
+        <button>Sound Set</button>
+        <button>Footstep Left</button>
+        <button>Footstep Right</button>
+        <button>Particle Set</button>
+      </gadget>
+      <gadget type="button" name="animdlg-tagtypedlg-okbutton" bevelbutton="" textcolor="192 192 255" textfont="Arial Nodrop For SE" textfontsize="12" size1024="151 358 221 388">OK</gadget>
+      <gadget type="button" name="animdlg-tagtypedlg-cancelbutton" bevelbutton="" textcolor="192 192 255" textfont="Arial Nodrop For SE" textfontsize="12" size1024="231 358 301 388">$$18466$$Cancel</gadget>
+    </gadget>
+  </gadget>
+</layout>

@@ -1,0 +1,26 @@
+<layout>
+  <gadget name="battleUIPanel" type="battleUIPanel" size1024="2 2 687 44" background="ui\ingame\background_black">
+    <gadget name="battleUIPanel-battlePanel" type="gadget" size1024="7 7 71 39" z="10">
+      <gadget name="battleUIPanel-button0" type="button" background="ui\ingame\battle_64x32" size1024="7 7 71 39" z="11" activateondown="">
+      </gadget>
+      <gadget name="battleUIPanel-Button1" type="button" background="ui\ingame\battle_64x32" size1024="75 7 139 39" z="11" activateondown="">
+      </gadget>
+      <gadget name="battleUIPanel-button2" type="button" background="ui\ingame\battle_64x32" size1024="143 7 207 39" z="11" activateondown="">
+      </gadget>
+      <gadget name="battleUIPanel-button3" type="button" background="ui\ingame\battle_64x32" size1024="211 7 275 39" z="11" activateondown="">
+      </gadget>
+      <gadget name="battleUIPanel-button4" type="button" background="ui\ingame\battle_64x32" size1024="279 7 343 39" z="11" activateondown="">
+      </gadget>
+      <gadget name="battleUIPanel-button5" type="button" background="ui\ingame\battle_64x32" size1024="347 7 411 39" z="11" activateondown="">
+      </gadget>
+      <gadget name="battleUIPanel-button6" type="button" background="ui\ingame\battle_64x32" size1024="415 7 479 39" z="11" activateondown="">
+      </gadget>
+      <gadget name="battleUIPanel-button7" type="button" background="ui\ingame\battle_64x32" size1024="483 7 547 39" z="11" activateondown="">
+      </gadget>
+      <gadget name="battleUIPanel-button8" type="button" background="ui\ingame\battle_64x32" size1024="551 7 615 39" z="11" activateondown="">
+      </gadget>
+      <gadget name="battleUIPanel-button9" type="button" background="ui\ingame\battle_64x32" size1024="619 7 683 39" z="11" activateondown="">
+      </gadget>
+    </gadget>
+  </gadget>
+</layout>

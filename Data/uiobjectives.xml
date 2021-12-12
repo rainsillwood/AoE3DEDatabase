@@ -1,0 +1,68 @@
+<layout>
+  <gadget name="objectivesDlg" type="gadget" size1024="133 54 827 738" background="ui\editor\editor_background" bevel="" titlebar="$$20493$$Objectives Editor" closebutton="" moveable="">
+    <gadget name="LabelScenarioTitle" align="left" type="gadget" size1024="137 83 338 108">$$20497$$Scenario Title</gadget>
+    <gadget name="objectivesTitle" type="formatText" background="ui\editor\editor_background" textcolor="0 0 0" textfont="Arial nobold nodrop" textfontsize="12" sunkenbevel="" textmarkup="" border1024="3 2" formattextconvertuserlf="" size1024="267 83 337 108">
+    </gadget>
+    <gadget name="objectivesTitleEdit" type="textField" enableime="" textcolor="0 0 0" textfont="Arial nobold nodrop" textfontsize="12" size1024="342 83 822 108">
+    </gadget>
+    <gadget name="LabelScenarioGoal" align="left" type="gadget" size1024="137 111 338 136">$$20496$$Overall Scenario Goal</gadget>
+    <gadget name="objectivesGoal" type="formatText" background="ui\editor\editor_background" textcolor="0 0 0" textfont="Arial nobold nodrop" textfontsize="12" sunkenbevel="" textmarkup="" border1024="3 2" formattextconvertuserlf="" size1024="267 111 337 136">
+    </gadget>
+    <gadget name="objectivesGoalEdit" type="textField" enableime="" textcolor="0 0 0" textfont="Arial nobold nodrop" textfontsize="12" size1024="342 111 822 136">
+    </gadget>
+    <gadget hidden="" name="LabelSpotlightPicture" type="gadget" size1024="149 557 208 578">$$20498$$Spotlight Picture</gadget>
+    <gadget hidden="" name="LabelSpotlightTitle" type="gadget" size1024="464 557 529 576">$$20499$$Spotlight Title</gadget>
+    <gadget hidden="" name="spotlightText" type="formatText" background="ui\editor\editor_background" textcolor="0 0 0" textfont="Arial nodrop" textfontsize="12" sunkenbevel="" textmarkup="" border1024="3 2" formattextconvertuserlf="" size1024="151 616 809 701">
+    </gadget>
+    <gadget hidden="" name="spotlightTextEdit" type="textField" enableime="" textcolor="0 0 0" textfont="Arial nobold nodrop" textfontsize="12" size1024="149 587 809 612">
+    </gadget>
+    <gadget hidden="" name="spotlightFilenameEdit" type="textField" enableime="" textcolor="0 0 0" textfont="Arial nobold nodrop" textfontsize="12" size1024="210 557 460 582">
+    </gadget>
+    <gadget hidden="" name="spotlightHeaderEdit" type="textField" enableime="" textcolor="0 0 0" textfont="Arial nobold nodrop" textfontsize="12" size1024="531 557 809 582">
+    </gadget>
+    <gadget name="label1" type="gadget" size1024="137 157 337 178">$$20104$$Objectives</gadget>
+    <gadget name="objectivesList" type="list" background="ui\editor\editor_background" showselect="" selectedcolor="255 255 255" buttonsize1024="125 15" scrollvert="" sunkenbevel="" size1024="137 178 337 488">
+    </gadget>
+    <gadget name="objectivesIns" type="button" bevel="" textfont="Arial nodrop" textfontsize="12" size1024="137 491 237 511">$$20488$$Insert</gadget>
+    <gadget name="objectivesDel" type="button" bevel="" textfont="Arial nodrop" textfontsize="12" size1024="237 491 337 511">$$18574$$Delete</gadget>
+    <gadget name="objectivesMoveUp" type="button" bevel="" textfont="Arial nodrop" textfontsize="12" size1024="137 512 237 532">$$31654$$Move Up</gadget>
+    <gadget name="objectivesMoveDown" type="button" bevel="" textfont="Arial nodrop" textfontsize="12" size1024="237 512 337 532">$$31655$$Move Down</gadget>
+    <gadget name="LabelObjectiveShortName" align="left" type="gadget" sunkenbevel="" size1024="417 156 575 181">$$31649$$Objective Short Name:</gadget>
+    <gadget name="objectivesShortName" type="textField" textcolor="0 0 0" textfont="Arial nobold nodrop" textfontsize="12" size1024="417 182 821 207">
+    </gadget>
+    <gadget name="LabelObjectiveDisplayName" hidden="" align="left" type="gadget" sunkenbevel="" size1024="417 216 575 242">$$31653$$Objective Display Name:</gadget>
+    <gadget name="objectivesDisplayName" hidden="" type="textField" textcolor="0 0 0" textfont="Arial nobold nodrop" textfontsize="12" size1024="417 242 821 268">
+    </gadget>
+    <gadget name="objectivesDisplayNameText" hidden="" type="formatText" background="ui\editor\editor_background" textcolor="0 0 0" textfont="Arial nodrop" textfontsize="12" sunkenbevel="" textmarkup="" border1024="3 2" formattextconvertuserlf="" size1024="417 267 821 293">
+    </gadget>
+    <gadget name="LabelObjectiveText" align="left" type="gadget" sunkenbevel="" size1024="417 306 575 330">$$31646$$Objective Text:</gadget>
+    <gadget name="objectivesTextEdit" type="textField" enableime="" textcolor="0 0 0" textfont="Arial nobold nodrop" textfontsize="12" size1024="417 331 821 355">
+    </gadget>
+    <gadget name="objectivesText" type="formatText" background="ui\editor\editor_background" textcolor="0 0 0" textfont="Arial nodrop" textfontsize="12" sunkenbevel="" textmarkup="" border1024="3 2" formattextconvertuserlf="" size1024="417 356 821 456">
+    </gadget>
+    <gadget name="LabelObjectiveHint" align="left" type="gadget" sunkenbevel="" size1024="417 465 575 490">$$20495$$Objective Hint:</gadget>
+    <gadget name="objectivesHintTextEdit" type="textField" enableime="" textcolor="0 0 0" textfont="Arial nobold nodrop" textfontsize="12" size1024="417 490 821 515">
+    </gadget>
+    <gadget name="objectivesHintText" type="formatText" background="ui\editor\editor_background" textcolor="0 0 0" textfont="Arial nodrop" textfontsize="12" sunkenbevel="" textmarkup="" border1024="3 2" formattextconvertuserlf="" size1024="417 515 821 615">
+    </gadget>
+    <gadget name="objectivesInitiallyVisible" type="checkButton" size1024="137 538 161 562" checkcheckedart="ui\core_ui\checkbox_checked" checkuncheckedart="ui\core_ui\checkbox" sound="UI_DefaultPregameClickSet" z="15" checkborder1024="5 0">
+    </gadget>
+    <gadget name="LabelObjectiveInitiallyVisible" type="gadget" align="left" size1024="176 538 360 562" textcolor="0 0 0">$$31656$$Initially Visible</gadget>
+    <gadget name="objectivesInitiallyDiscovered" type="checkButton" size1024="137 568 161 592" checkcheckedart="ui\core_ui\checkbox_checked" checkuncheckedart="ui\core_ui\checkbox" sound="UI_DefaultPregameClickSet" z="15" checkborder1024="5 0">
+    </gadget>
+    <gadget name="LabelObjectiveInitiallyDiscovered" type="gadget" align="left" size1024="176 568 360 592" textcolor="0 0 0">$$31790$$Initially Discovered</gadget>
+    <gadget name="objectivesIsPrimary" type="checkButton" size1024="137 598 161 622" checkcheckedart="ui\core_ui\checkbox_checked" checkuncheckedart="ui\core_ui\checkbox" sound="UI_DefaultPregameClickSet" z="15" checkborder1024="5 0">
+    </gadget>
+    <gadget name="LabelObjectiveIsPrimary" type="gadget" align="left" size1024="176 598 360 622" textcolor="0 0 0">$$31657$$Is Primary Objective</gadget>
+    <gadget name="LabelObjectiveFameAward" align="left" type="gadget" sunkenbevel="" size1024="137 641 295 666">$$31647$$Objective Fame Award:</gadget>
+    <gadget name="objectivesFameAward" type="textField" numberfield="" intfield="" enableime="" textcolor="0 0 0" textfont="Arial nobold nodrop" textfontsize="12" size1024="137 666 295 691">
+    </gadget>
+    <gadget name="LabelObjectiveOccurrenceCount" align="left" type="gadget" sunkenbevel="" size1024="304 641 462 666">$$32289$$Objective Occurrence Count:</gadget>
+    <gadget name="objectivesOccurreceCount" type="textField" numberfield="" intfield="" enableime="" textcolor="0 0 0" textfont="Arial nobold nodrop" textfontsize="12" size1024="304 666 462 691">
+    </gadget>
+    <gadget name="LabelObjectiveOccurrenceFameAward" align="left" type="gadget" sunkenbevel="" size1024="473 641 631 666">$$32288$$Per Occurrence Fame Award:</gadget>
+    <gadget name="objectivesOccurreceFameAward" type="textField" numberfield="" intfield="" enableime="" textcolor="0 0 0" textfont="Arial nobold nodrop" textfontsize="12" size1024="473 666 631 691">
+    </gadget>
+    <gadget name="objectivesClose" type="button" bevel="" textfont="Arial nodrop" textfontsize="12" size1024="648 711 808 731">$$18457$$Close</gadget>
+  </gadget>
+</layout>

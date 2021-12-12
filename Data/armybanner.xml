@@ -1,0 +1,18 @@
+<armybanners defaulttex="ui/banners/banner_default" defaultclicked="ui/banners/banner_default_clicked" defaultrollover="ui/banners/banner_default_rollover">
+  <banner proto="UIArmyBannerHero" type="Hero" tex="ui/banners/banner_explorer" clicked="ui/banners/banner_explorer_clicked" rollover="ui/banners/banner_explorer_rollover">
+  </banner>
+  <banner proto="UIArmyBannerVillager" type="AbstractVillager" tex="ui/banners/banner_villager" clicked="ui/banners/banner_villager_clicked" rollover="ui/banners/banner_villager_rollover">
+  </banner>
+  <banner proto="UIArmyBannerHand" type="AbstractHandInfantry" tex="ui/banners/banner_infantry" clicked="ui/banners/banner_infantry_clicked" rollover="ui/banners/banner_infantry_rollover">
+  </banner>
+  <banner proto="UIArmyBannerRanged" type="AbstractRangedInfantry" tex="ui/banners/banner_infantry" clicked="ui/banners/banner_infantry_clicked" rollover="ui/banners/banner_infantry_rollover">
+  </banner>
+  <banner proto="UIArmyBannerCavalry" type="AbstractCavalry" tex="ui/banners/banner_cavalry" clicked="ui/banners/banner_cavalry_clicked" rollover="ui/banners/banner_cavalry_rollover">
+  </banner>
+  <banner proto="UIArmyBannerArtillery" type="AbstractArtillery" tex="ui/banners/banner_artillery" clicked="ui/banners/banner_artillery_clicked" rollover="ui/banners/banner_artillery_rollover">
+  </banner>
+  <banner proto="UIArmyBannerNaval" type="Ship" tex="ui/banners/banner_naval" clicked="ui/banners/banner_naval_clicked" rollover="ui/banners/banner_naval_rollover">
+  </banner>
+  <banner proto="UIArmyBannerBuilding" type="Building" tex="ui/banners/banner_building" clicked="ui/banners/banner_building_clicked" rollover="ui/banners/banner_building_rollover">
+  </banner>
+</armybanners>

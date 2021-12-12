@@ -1,0 +1,449 @@
+<html>
+
+<head>
+    <meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
+    <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js'></script>
+    <script src='./script/xml2json.js' charset='utf-8'></script>
+    <script src='./script/tools.js' charset='utf-8'></script>
+    <script src='./script/geteffect.js' charset='utf-8'></script>
+    <link rel="stylesheet" type="text/css" href="./style/table.css">
+    <script>
+        var techs = {};
+        var units = {};
+        var civs = {};
+        var homecitys = {};
+        var strings = {};
+        var nuggets = {};
+        var unitTypes = getJson('./script/unittype.json');
+        var damageTypes = {};
+        //var commands = {};
+        var actions = {};
+        var tactics = {};
+        //,'':''
+        updateData();
+
+        function updateData() {
+            let idata = {};
+            //缓存String
+            idata = getXml('./data/strings/SimplifiedChinese/stringtabley.xml');
+            idata = idata.stringtable.language.string;
+            for (i in idata) {
+                strings[idata[i].__locid] = idata[i];
+            }
+            idata = getXml('./data/strings/SimplifiedChinese/unithelpstrings.xml');
+            idata = idata.stringtable.language.string;
+            for (i in idata) {
+                strings[idata[i].__locid] = idata[i];
+            }
+            idata = getXml('./data/strings/SimplifiedChinese/unithelpstringsx.xml');
+            idata = idata.stringtable.language.string;
+            for (i in idata) {
+                strings[idata[i].__locid] = idata[i];
+            }
+            idata = getXml('./data/strings/SimplifiedChinese/unithelpstringsy.xml');
+            idata = idata.stringtable.language.string;
+            for (i in idata) {
+                strings[idata[i].__locid] = idata[i];
+            }
+            //缓存科技
+            idata = getXml('./data/techtreey.xml');
+            idata = idata.techtree.tech;
+            for (i in idata) {
+                let temp = idata[i];
+                temp.displayname = getString(temp.displaynameid);
+                temp.rollovertext = getString(temp.rollovertextid);
+                techs[temp._name] = temp;
+            }
+            //缓存单位&动作
+            idata = getXml('./data/protoy.xml');
+            idata = idata.proto.unit;
+            for (i in idata) {
+                let temp = idata[i];
+                temp.displayname = getString(temp.displaynameid);
+                temp.rollovertext = getString(temp.rollovertextid);
+                temp.editorname = getString(temp.editornameid);
+                temp.shortrollovertext = getString(temp.shortrollovertextid);
+                units[idata[i]._name] = temp;
+            }
+            //缓存文明
+            idata = getXml('./data/civs.xml');
+            idata = idata.civs.civ;
+            for (i in idata) {
+                civs[idata[i].name] = idata[i];
+            }
+            //缓存主城
+            for (i in civs) {
+                let url = civs[i].homecityfilename;
+                if (!url) {
+                    continue;
+                }
+                url = url.toLowerCase();
+                idata = getXml('./data/' + url);
+                if (!idata) {
+                    continue;
+                }
+                idata = idata.homecity;
+                homecitys[civs[i].name.toLowerCase()] = idata;
+            }
+            //缓存宝藏
+            idata = getXml('./data/nuggets.xml');
+            idata = idata.nuggetmanager.nuggets.nugget;
+            for (i in idata) {
+                nuggets[idata[i].name] = idata[i];
+            }
+            //缓存伤害类型
+            idata = getXml('./data/damagetypes.xml');
+            idata = idata.damagetypes.damagetype;
+            for (i in idata) {
+                let temp = idata[i];
+                temp.displayname = getString(temp.displaynameid);
+                damageTypes[temp.unittype] = temp;
+            }
+            /*/缓存命令
+            idata = getXml('./data/protounitcommands.xml');
+            idata = idata.protounitcommands.protounitcommand;
+            for (i in idata) {
+                let temp = idata[i];
+                temp.displayname = getString(temp.rollovertextid);
+                commands[temp.name] = temp;
+            }*/
+            alert('缓存完成');
+        }
+
+        function test() {
+            let unittypes = {};
+            let info = '<tr><th>单位类型</th><th>名称</th></tr>';
+            for (i in units) {
+                let flags = returnList(units[i].unittype);
+                for (j in flags) {
+                    if (!flags[j]) continue;
+                    if (!unittypes[flags[j]]) {
+                        unittypes[flags[j]] = flags[j];
+                    }
+                }
+            }
+            let temp = {}
+            for (i in strings) {
+                if (!!strings[i]._symbol) {
+                    temp[strings[i]._symbol] = strings[i];
+                }
+            }
+            for (i in unittypes) {
+                let unittype = unittypes[i];
+                for (j in temp) {
+                    let exp = new RegExp('cString.*?' + unittype.replace('Abstract', ''), 'g');
+                    if (j.match(exp)) {
+                        info = info + '<tr><td>' + unittype + '</td>';
+                        info = info + '<td>' + j + '</td><td>' + temp[j].__text + '</td></tr>';
+                    }
+                }
+            }
+            info = info + '</table>';
+            document.getElementById('info').innerHTML = info;
+        }
+
+        function getTech() {
+            let txt = '';
+            for (i in techs) {
+                let tech = techs[i];
+                txt = txt + tech._name + '\t' + tech.dbid + '\t' + returnNode(tech.displaynameid) + '\t' + returnNode(tech.rollovertextid) + '\n';
+            }
+            document.getElementById('output').innerHTML = txt;
+        }
+
+        function getUnit() {
+            let txt = '';
+            for (i in units) {
+                let unit = units[i];
+                txt = txt + unit._name + '\t' + unit._id + '\t' + returnNode(unit.displaynameid) + '\t' + returnNode(unit.rollovertextid) + '\n';
+            }
+            document.getElementById('output').innerHTML = txt;
+        }
+
+        function getCivCard() {
+            let txt = '';
+            for (i in homecitys) {
+                let homecity = homecitys[i];
+                let cards = homecity.cards.card;
+                for (j in cards) {
+                    let card = cards[j];
+                    let temp = homecity.civ;
+                    if (card.revoltcard == '') {
+                        temp = temp + '*';
+                    }
+                    temp = temp + '\t' + card.name + '\t' + returnNode(card.maxcount) + '\t' + returnNode(card.age) + '\n';
+                    txt = txt + temp;
+                }
+            }
+            document.getElementById('output').innerHTML = txt;
+        }
+
+        function getCard() {
+            let txt = '';
+            for (i in techs) {
+                let tech = techs[i];
+                let flags = returnList(tech.flag);
+                for (j in flags) {
+                    if (flags[j] == 'HomeCity') {
+                        let displayname = returnNode(returnNode(strings[returnNode(tech.displaynameid)]).__text);
+                        txt = txt + tech._name + '\t';
+                        txt = txt + (displayname.indexOf('队伍：') == 0 ? '队伍' : '单人') + '\t' + displayname.replace("队伍：", "") + '\t';
+                        txt = txt + returnNode(strings[returnNode(tech.rollovertextid)]) + '\n';
+                        break;
+                    }
+                }
+            }
+            document.getElementById('output').innerHTML = txt;
+        }
+
+        function getStrings() {
+            let txt = '';
+            for (i in strings) {
+                txt = txt + strings[i].__locid + '\t' + returnNode(strings[i].__text) + '\n';
+            }
+            document.getElementById('output').innerHTML = txt;
+        }
+
+        function getShrine() {
+            let txt = '';
+            let info = '<tr><th>调用名</th><th>中文名</th><th>种类</th><th>生产效率</th><th>描述</th></tr>';
+            for (i in units) {
+                let temp = '';
+                let unit = units[i];
+                let protoactions = returnList(returnNode(unit.protoaction));
+                for (j in protoactions) {
+                    protoaction = protoactions[j];
+                    if (protoaction.name == 'ShrineGather') {
+                        temp = returnNode(unit._name) + '\t' + returnNode(protoaction.rate.__text) + '\n';
+                        info = info + '<tr>';
+                        info = info + '<td>' + returnNode(unit._name) + '</td>';
+                        info = info + '<td>' + strings[unit.displaynameid] + '</td>';
+                        let unittypes = returnList(returnNode(unit.unittype));
+                        let utype = '';
+                        if (unittypes.includes('Herdable')) {
+                            utype = 'Herdable';
+                        } else if (unittypes.includes('Huntable')) {
+                            utype = 'Huntable';
+                        }
+                        info = info + '<td>' + utype + '</td>';
+                        info = info + '<td>' + returnNode(protoaction.rate.__text) + '</td>';
+                        info = info + '<td>' + strings[unit.rollovertextid] + '</td>';
+                        info = info + '</tr>';
+                        break;
+                    }
+                }
+                txt = txt + temp;
+            }
+            document.getElementById('output').innerHTML = txt;
+            document.getElementById('info').innerHTML = info;
+        }
+
+        function getTree() {
+            let txt = '';
+            let info = '<tr><th>调用名</th><th>中文名</th><th>大小</th><th>资源总量</th><th>描述</th></tr>';
+            for (i in units) {
+                unit = units[i];
+                let unittypes = returnList(unit.unittype);
+                if (unittypes.includes('Tree')) {
+                    txt = txt + unit._name + '\t' + unit.initialresource.__text + '\n';
+                    info = info + '<tr>';
+                    info = info + '<td>' + unit._name + '</td>';
+                    info = info + '<td>' + strings[unit.displaynameid] + '</td>';
+                    info = info + '<td>' + unit.obstructionradiusx + '*' + unit.obstructionradiusz + '</td>';
+                    info = info + '<td>' + unit.initialresource.__text + '</td>';
+                    info = info + '<td>' + strings[unit.rollovertextid] + '</td>';
+                    info = info + '</tr>';
+                }
+            }
+            document.getElementById('output').innerHTML = txt;
+            document.getElementById('info').innerHTML = info;
+        }
+
+        function getNative() {
+            let txt = '';
+            let info = '<tr><th>调用名</th><th>中文名</th><th>科技</th><th>兵种</th></tr>';
+            for (i in civs) {
+                if (!civs[i].agetech) continue;
+                if (returnNode(civs[i].agetech.tech).indexOf('Native') > -1) {
+                    txt = txt + civs[i].name + '\t' + civs[i].displaynameid + '\t';
+                    info = info + '<tr>';
+                    info = info + '<td>' + civs[i].name + '</td>';
+                    info = info + '<td>' + strings[civs[i].displaynameid] + '</td>';
+                    let techeffect = returnList(techs[civs[i].agetech.tech].effects.effect);
+                    info = info + '<td><table border="1">';
+                    for (j in techeffect) {
+                        if (techeffect[j]._type == 'TechStatus') {
+                            txt = txt + '\t\t' + techeffect[j].__text + '\n';
+                            info = info + '<tr>';
+                            info = info + '<td>' + techeffect[j].__text + '</td>';
+                            info = info + '<td>' + strings[techs[techeffect[j].__text].displaynameid] + '</td>';
+                            info = info + '<td>' + strings[techs[techeffect[j].__text].rollovertextid] + '</td>';
+                            info = info + '</tr>';
+                        }
+                    }
+                    info = info + '</table></td>';
+                    info = info + '<td><table border="1">';
+                    for (j in techeffect) {
+                        if (techeffect[j]._type == 'Data' && techeffect[j]._subtype == 'Enable') {
+                            info = info + '<tr>';
+                            info = info + '<td>' + techeffect[j].target.__text + '</td>';
+                            info = info + '<td>' + strings[units[techeffect[j].target.__text].displaynameid] + '</td>';
+                            info = info + '<td>' + strings[units[techeffect[j].target.__text].rollovertextid] + '</td>';
+                            info = info + '</tr>';
+                        }
+                    }
+                    info = info + '</table></td>';
+                }
+                info = info + '</tr>';
+            }
+            document.getElementById('output').innerHTML = txt;
+            document.getElementById('info').innerHTML = info;
+        }
+
+        function getNuggetTech() {
+            let info = '<tr><th>调用名</th><th>地图</th><th>难度</th><th>描述</th><th>效果</th></tr>';
+            for (i in nuggets) {
+                let nugget = nuggets[i];
+                if ('AdjustHP|GiveTech|AdjustSpeed'.indexOf(nugget.type) > -1) {
+                    info = info + '<tr><td>' + nugget.name + '</td>';
+                    info = info + '<td>';
+                    let maptypes = returnList(nugget.maptype);
+                    for (j in maptypes) {
+                        info = info + maptypes[j] + '<br>';
+                    }
+                    info = info + '</td>';
+                    info = info + '<td>' + nugget.difficulty + '</td>';
+                    info = info + '<td>' + strings[nugget.rolloverstringid] + '</td>';
+                    info = info + '<td>' + strings[nugget.applystringid] + '</td></tr>';
+                }
+            }
+            document.getElementById('info').innerHTML = info;
+        }
+
+        function getLocal() {
+            let info = '<tr><th class="icon">图标</th><th class="name">调用名</th><th class="local">中文名</th><th class="type">类型</th><th class="desc">描述</th><th class="effect">效果</th></tr>';
+            let values = document.getElementById('input').value.split("\n");
+            for (i in values) {
+                let value = values[i];
+                if (value == "") continue;
+                info = info + '<tr>';
+                info = info + '<td class="icon">%picture%</td>';
+                info = info + '<td class="name">' + value + '</td>';
+                for (j in techs) {
+                    let temp = techs[j];
+                    if (temp._name.toLowerCase() == value.toLowerCase()) {
+                        info = info + '<td class="local">' + strings[temp.displaynameid] + '</td>';
+                        info = info.replace('%picture%', '<img src="./data/wpfg/' + returnNode(temp.icon).replace(/\\/g, '\/') + '" height="128" width="128">');
+                        info = info + '<td class="type">科技</td>';
+                        info = info + '<td class="desc">' + strings[temp.rollovertextid] + '</td><td><div class="effect">';
+                        let effects = returnList(temp.effects.effect);
+                        for (k in effects) {
+                            info = info + getEffect(effects[k]) + '<br>';
+                        }
+                        info = info + '</div></td>';
+                        break;
+                    }
+                }
+                for (j in units) {
+                    let temp = units[j];
+                    if (temp._name.toLowerCase() == value.toLowerCase()) {
+                        info = info + '<td>' + strings[temp.displaynameid] + '</td>';
+                        info = info.replace('%picture%', '<img src="./data/wpfg/' + temp.icon.replace(/\\/g, '\/') + '">');
+                        info = info + '<td>单位</td>';
+                        info = info + '<td>' + strings[temp.rollovertextid] + '</td>';
+                        info = info + '<td>' + '</td>';
+                        break;
+                    }
+                }
+                for (j in nuggets) {
+                    let temp = nuggets[j];
+                    if (temp.name.toLowerCase() == value.toLowerCase()) {
+                        info = info + '<td>' + strings[temp.rolloverstringid].__text + '</td>';
+                        info = info + '<td>宝藏</td>';
+                        /*.replace(/%2s/, tString[temp.resource] ? tString[temp.resource] : temp.resource).replace(/%1d/, temp.amount)*/
+                        ;
+                        info = info + '<td>' + strings[temp.applystringid].__text + '</td>';
+                    }
+                }
+                info = info + '</tr>';
+            }
+            document.getElementById('info').innerHTML = info;
+        }
+
+        function getName() {
+            let info = '<tr><th>中文名</th><th>调用名</th></tr>';
+            let values = document.getElementById('input').value.split("\n");
+            let tempList = [];
+            for (i in techs) {
+                let temp = {};
+                temp.name = techs[i]._name;
+                temp.displaynameid = techs[i].displaynameid;
+                temp.rollovertextid = techs[i].rollovertextid;
+                temp.type = '科技'
+                tempList.push(temp);
+            }
+            for (i in units) {
+                let temp = {};
+                temp.name = units[i]._name;
+                temp.displaynameid = units[i].displaynameid;
+                temp.rollovertextid = units[i].rollovertextid;
+                temp.type = '单位'
+                tempList.push(temp);
+            }
+            for (i in values) {
+                let value = values[i];
+                if (value == "") continue;
+                info = info + '<tr><td>' + value + '</td><td><table border="1">';
+                for (j in tempList) {
+                    let temp = tempList[j];
+                    if (returnNode(returnNode(strings[returnNode(temp.displaynameid)]).__text).indexOf(value) > -1) {
+                        info = info + '<tr><td>' + temp.name + '</td>';
+                        info = info + '<td>' + strings[temp.displaynameid] + '</td>';
+                        info = info + '<td>' + temp.type + '</td>';
+                        info = info + '<td>' + strings[temp.rollovertextid] + '</td></tr>';
+                    }
+                }
+                info = info + '</table></td>';
+            }
+            info = info + '</table>';
+            document.getElementById('info').innerHTML = info;
+        }
+
+        function getFlag() {
+            let flag
+        }
+    </script>
+    <title>帝国时代3决定版-离线数据查询</title>
+</head>
+
+<body>
+    <div style="width: 100%;height: 100%">
+        <div style='width: 450;float: left;'>
+            <button type='button' onclick='updateData()'>更新数据</button>
+            </p>
+            <button type='button' onclick='getTech()'>科技</button>
+            <button type='button' onclick='getUnit()'>单位</button>
+            <button type='button' onclick='getCard()'>卡片</button>
+            <button type='button' onclick='getStrings()'>语言</button>
+            </p>
+            <button type='button' onclick='getCivCard()'>文明卡片</button>
+            <button type='button' onclick='getShrine()'>查询神社效率</button>
+            <button type='button' onclick='getTree()'>查询树木</button>
+            <button type='button' onclick='getNative()'>查询土著</button>
+            <button type='button' onclick='getNuggetTech()'>查询科技宝藏</button>
+            </p>
+            <button type='button' onclick='getLocal()'>查询中文名</button>
+            <button type='button' onclick='getName()'>查询调用名</button>
+            <button type='button' onclick='test()'>测试</button>
+            <textarea id='input'></textarea>
+            </p>
+            <textarea id='output' rows="10" cols="50"></textarea>
+        </div>
+        <div style="display:block;height: 100%;margin-left:auto; margin-right: auto;overflow-x: auto;">
+            <table border='1' id='info' cellspacing='0' cellpadding='0' style="table-layout: fixed;width: 100%;">
+        </div>
+    </div>
+    </table>
+</body>
+
+</html>

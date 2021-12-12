@@ -1,0 +1,31 @@
+<layout>
+  <gadget name="soundsetdlg" type="gadget" size1024="10 60 610 690" closebutton="" titlebar="SoundSet Control" background="ui\core_ui\background_blue_normal" tilebackground="" bevel="">
+    <gadget type="textBox" name="soundsetdlg-soundsetlabel" textcenterhoriz="" textcentervert="" a-dtype="textFontSize number Z number" textcolor="192 192 255" textfont="Arial nodrop" textfontsize="12" sizerel1024="10 10 295 20">SoundSets:</gadget>
+    <gadget type="list" name="soundsetdlg-soundsetlist" buttonsize1024="200 30" showselect="" columnorder="" textcolor="127 127 255" selectedcolor="255 255 255" textfont="Arial nodrop" textfontsize="12" sizerel1024="10 30 295 300" background="ui\core_ui\background_blue_dark" scrollvert="">
+    </gadget>
+    <gadget type="button" name="soundsetdlg-soundsetaddbutton" bevelbutton="" textcolor="192 192 255" textfont="Arial nodrop" textfontsize="12" sizerel1024="20 310 100 340">Add Set</gadget>
+    <gadget type="button" name="soundsetdlg-soundsetremovebutton" bevelbutton="" textcolor="192 192 255" textfont="Arial nodrop" textfontsize="12" sizerel1024="110 310 190 340">Remove Set</gadget>
+    <gadget type="textBox" name="soundsetdlg-entrylabel" textcenterhoriz="" textcentervert="" a-dtype="textFontSize number Z number" textcolor="192 192 255" textfont="Arial nodrop" textfontsize="12" sizerel1024="305 10 590 20">Sound Entries:</gadget>
+    <gadget type="list" name="soundsetdlg-entrylist" buttonsize1024="200 30" showselect="" columnorder="" textcolor="127 127 255" selectedcolor="255 255 255" textfont="Arial nodrop" textfontsize="12" sizerel1024="305 30 590 300" background="ui\core_ui\background_blue_dark" scrollvert="">
+    </gadget>
+    <gadget type="button" name="soundsetdlg-entryaddbutton" bevelbutton="" textcolor="192 192 255" textfont="Arial nodrop" textfontsize="12" sizerel1024="315 310 395 340">Add Entry</gadget>
+    <gadget type="button" name="soundsetdlg-entryremovebutton" bevelbutton="" textcolor="192 192 255" textfont="Arial nodrop" textfontsize="12" sizerel1024="405 310 485 340">Remove Entry</gadget>
+    <gadget name="soundsetdlg-soundseteditdlg" type="gadget" sizerel1024="10 350 295 550" bevel="" background="ui\core_ui\background_blue_dark">
+      <gadget type="textField" name="soundsetdlg-soundseteditdlg-namefield" displayname="MaxNum" buttonsize1024="180 30" a-dtype="textFontSize number Z number" textcolor="192 192 255" textfont="Arial nobold nodrop" textfontsize="12" sizerel1024="10 10 275 40" background="ui\core_ui\background_blue_normal" scrollvert="">Name:</gadget>
+      <gadget type="textField" name="soundsetdlg-soundseteditdlg-volumefield" displayname="MaxNum" buttonsize1024="180 30" a-dtype="textFontSize number Z number" textcolor="192 192 255" textfont="Arial nobold nodrop" textfontsize="12" sizerel1024="10 50 275 80" background="ui\core_ui\background_blue_normal" scrollvert="">Volume:</gadget>
+      <gadget type="textField" name="soundsetdlg-soundseteditdlg-maxnumfield" displayname="MaxNum" buttonsize1024="180 30" a-dtype="textFontSize number Z number" textcolor="192 192 255" textfont="Arial nobold nodrop" textfontsize="12" sizerel1024="10 90 275 120" background="ui\core_ui\background_blue_normal" scrollvert="">MaxNum:</gadget>
+      <gadget type="textField" name="soundsetdlg-soundseteditdlg-distancefield" displayname="MaxNum" buttonsize1024="180 30" a-dtype="textFontSize number Z number" textcolor="192 192 255" textfont="Arial nobold nodrop" textfontsize="12" sizerel1024="10 125 275 155" background="ui\core_ui\background_blue_normal" scrollvert="">Distance:</gadget>
+      <gadget type="button" name="soundsetdlg-soundseteditdlg-updatebutton" bevelbutton="" textcolor="192 192 255" textfont="Arial nodrop" textfontsize="12" sizerel1024="10 160 100 190">Update Set</gadget>
+      <gadget type="button" name="soundsetdlg-soundseteditdlg-playbutton" bevelbutton="" textcolor="192 192 255" textfont="Arial nodrop" textfontsize="12" sizerel1024="110 160 200 190">Play Set</gadget>
+    </gadget>
+    <gadget name="soundsetdlg-entryeditdlg" type="gadget" sizerel1024="305 350 590 550" bevel="" background="ui\core_ui\background_blue_dark">
+      <gadget type="textField" name="soundsetdlg-entryeditdlg-filefield" displayname="MaxNum" buttonsize1024="180 30" a-dtype="textFontSize number Z number" textcolor="192 192 255" textfont="Arial nobold nodrop" textfontsize="12" sizerel1024="10 10 275 40" background="ui\core_ui\background_blue_normal" scrollvert="">File:</gadget>
+      <gadget type="textField" name="soundsetdlg-entryeditdlg-volumefield" displayname="MaxNum" buttonsize1024="180 30" a-dtype="textFontSize number Z number" textcolor="192 192 255" textfont="Arial nobold nodrop" textfontsize="12" sizerel1024="10 50 275 80" background="ui\core_ui\background_blue_normal" scrollvert="">Volume:</gadget>
+      <gadget type="textField" name="soundsetdlg-entryeditdlg-weightfield" displayname="MaxNum" buttonsize1024="180 30" a-dtype="textFontSize number Z number" textcolor="192 192 255" textfont="Arial nobold nodrop" textfontsize="12" sizerel1024="10 90 275 120" background="ui\core_ui\background_blue_normal" scrollvert="">Weight:</gadget>
+      <gadget type="button" name="soundsetdlg-entryeditdlg-updatebutton" bevelbutton="" textcolor="192 192 255" textfont="Arial nodrop" textfontsize="12" sizerel1024="10 160 100 190">Update Entry</gadget>
+      <gadget type="button" name="soundsetdlg-entryeditdlg-playbutton" bevelbutton="" textcolor="192 192 255" textfont="Arial nodrop" textfontsize="12" sizerel1024="110 160 200 190">Play Entry</gadget>
+    </gadget>
+    <gadget type="button" name="soundsetdlg-reloadallbutton" bevelbutton="" textcolor="192 192 255" textfont="Arial nodrop" textfontsize="12" sizerel1024="10 560 90 590">Reload All</gadget>
+    <gadget type="button" name="soundsetdlg-saveallbutton" bevelbutton="" textcolor="192 192 255" textfont="Arial nodrop" textfontsize="12" sizerel1024="100 560 190 590">Save All</gadget>
+  </gadget>
+</layout>

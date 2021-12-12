@@ -1,0 +1,11 @@
+<economymode>
+  <gamemodetype name="Exhaust">
+    <unitregen>
+      <unittype>Military</unittype>
+      <rate>-0.5</rate>
+      <excludeunittypes>
+        <unittype>Hero</unittype>
+      </excludeunittypes>
+    </unitregen>
+  </gamemodetype>
+</economymode>

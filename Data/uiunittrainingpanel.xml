@@ -1,0 +1,47 @@
+<layout>
+  <gadget name="unitTrainingPanel" type="unitTrainingPanel" size1024="0 514 400 554">
+    <gadget name="queuedPop" type="textBox" size1024="0 489 400 514" transparent="" datarefreshrate=".5" textcolor="255 255 255" z="8" textfont="TimerDisplays" textfontsize="12">$$36901$$Queued Pop: {futurepop}</gadget>
+    <gadget name="unitTrainingPanel-trainingPanel" type="gadget" size1024="0 514 40 554" z="10">
+      <gadget name="unittrainpanel-unitButton0" type="button" size1024="0 514 40 554" z="11" activateondown="">
+        <piechartfilling color="0 255 0 128" rotation="cw" fill="false">
+        </piechartfilling>
+      </gadget>
+      <gadget name="unittrainpanel-unitButton1" type="button" size1024="40 514 80 554" z="11" activateondown="">
+        <piechartfilling color="0 255 0 128" rotation="cw" fill="false">
+        </piechartfilling>
+      </gadget>
+      <gadget name="unittrainpanel-unitButton2" type="button" size1024="80 514 120 554" z="11" activateondown="">
+        <piechartfilling color="0 255 0 128" rotation="cw" fill="false">
+        </piechartfilling>
+      </gadget>
+      <gadget name="unittrainpanel-unitButton3" type="button" size1024="120 514 160 554" z="11" activateondown="">
+        <piechartfilling color="0 255 0 128" rotation="cw" fill="false">
+        </piechartfilling>
+      </gadget>
+      <gadget name="unittrainpanel-unitButton4" type="button" size1024="160 514 200 554" z="11" activateondown="">
+        <piechartfilling color="0 255 0 128" rotation="cw" fill="false">
+        </piechartfilling>
+      </gadget>
+      <gadget name="unittrainpanel-unitButton5" type="button" size1024="200 514 240 554" z="11" activateondown="">
+        <piechartfilling color="0 255 0 128" rotation="cw" fill="false">
+        </piechartfilling>
+      </gadget>
+      <gadget name="unittrainpanel-unitButton6" type="button" size1024="240 514 280 554" z="11" activateondown="">
+        <piechartfilling color="0 255 0 128" rotation="cw" fill="false">
+        </piechartfilling>
+      </gadget>
+      <gadget name="unittrainpanel-unitButton7" type="button" size1024="280 514 320 554" z="11" activateondown="">
+        <piechartfilling color="0 255 0 128" rotation="cw" fill="false">
+        </piechartfilling>
+      </gadget>
+      <gadget name="unittrainpanel-unitButton8" type="button" size1024="320 514 360 554" z="11" activateondown="">
+        <piechartfilling color="0 255 0 128" rotation="cw" fill="false">
+        </piechartfilling>
+      </gadget>
+      <gadget name="unittrainpanel-unitButton9" type="button" size1024="360 514 400 554" z="11" activateondown="">
+        <piechartfilling color="0 255 0 128" rotation="cw" fill="false">
+        </piechartfilling>
+      </gadget>
+    </gadget>
+  </gadget>
+</layout>

@@ -1,0 +1,53 @@
+<layout>
+  <gadget name="MPOtherSettings" type="gadget" size1024="3 2 1027 770" background="ui\ui background blue transparent" tilebackground="" windowzstyle="">
+    <gadget name="MPOtherSettings-Background" type="gadget" size1024="261 185 773 579" background="ui\ui background blue opaque" tilebackground="" z="9">
+      <gadget tilebackgroundhoriz="" name="BasicOptions-BordersTop" type="gadget" background="ui\ui border top middle" size1024="292 177 772 185" z="9">
+      </gadget>
+      <gadget tilebackgroundhoriz="" name="BasicOptions-BordersBottom" type="gadget" background="ui\ui border bottom middle" size1024="261 579 772 587" z="9">
+      </gadget>
+      <gadget tilebackgroundvert="" name="BasicOptions-BordersLeft" type="gadget" background="ui\ui border left middle" size1024="244 209 260 523" z="9">
+      </gadget>
+      <gadget tilebackgroundvert="" name="BasicOptions-BordersRight" type="gadget" background="ui\ui border right middle" size1024="773 209 789 523" z="9">
+      </gadget>
+      <gadget name="BasicOptions-BordersLeftTop" type="gadget" background="ui\ui border top left corner" size1024="228 177 292 209" z="9">
+      </gadget>
+      <gadget name="BasicOptions-BordersLeftBottom" type="gadget" background="ui\ui border bottom left corner" size1024="228 523 292 587" z="9">
+      </gadget>
+      <gadget name="AdvancedOptions-BordersRightBottom" type="gadget" background="ui\ui border bottom right corner" size1024="741 523 805 587" z="9">
+      </gadget>
+      <gadget name="AdvancedOptions-BordersRightTop" type="gadget" background="ui\ui border top right corner" size1024="741 177 805 209" z="10">
+      </gadget>
+    </gadget>
+    <gadget name="MPOtherSettings-ScreenLabel" textcentervert="" textcolor="255 208 0" textfontsize="22" textfont="PregameHeaders" type="formatText" size1024="278 192 571 217" z="11">$$18693$$Other Settings</gadget>
+    <gadget name="MPOtherSettings-ScreenSeparator" type="gadget" size1024="268 221 764 223" background="missing" z="11">
+    </gadget>
+    <gadget name="OKButton" type="stateButton" size1024="380 533 508 565" bevelbutton="" z="101" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="255 208 0" textcenterhoriz="" textcentervert="" texturecoords="0 0 1 1" mouseovertext="$$19939$$">$$18465$$OK<stateentry background="ui\ui button long 128X32"></stateentry><stateentry background="ui\ui button long 128X32 clicked"></stateentry><stateentry background="ui\ui button long 128X32 rollover"></stateentry><stateentry background=""></stateentry><command>gadgetUnReal("MPOtherSettings")</command></gadget>
+    <gadget name="CancelButton" type="stateButton" size1024="516 533 644 565" bevelbutton="" z="101" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="255 208 0" textcenterhoriz="" textcentervert="" texturecoords="0 0 1 1" mouseovertext="$$19940$$">$$18466$$Cancel<stateentry background="ui\ui button long 128X32"></stateentry><stateentry background="ui\ui button long 128X32 clicked"></stateentry><stateentry background="ui\ui button long 128X32 rollover"></stateentry><stateentry background=""></stateentry><command>gadgetUnReal("MPOtherSettings")</command></gadget>
+    <gadget name="MPOtherSettings-DataSection" type="gadget" size1024="284 230 756 534">
+      <gadget name="MPOtherSettings-VisibilityLabel" textcentervert="" textcolor="255 208 0" textfontsize="18" textfont="Pregamelabels" type="formatText" size1024="314 244 552 264" z="11" textjustifyright="">$$19123$$Visibility:</gadget>
+      <gadget name="Visibility" type="scrollList" size1024="556 236 711 270" z="51" textfontsize="16" textfont="ScrollFont" textcolor="0 0 58" background="ui\core_ui\dropdown_background" tilebackground="" topcapart="ui\core_ui\dropdown_top_middle" bottomcapart="ui\core_ui\dropdown_bottom_middle" leftcapart="ui\core_ui\dropdown_cap_left" rightcapart="ui\core_ui\dropdown_cap_right 8x8" border1024="10 0" listitemheight="20" artsize1024="256 18">
+        <listitem>$$18853$$Normal</listitem>
+        <listitem>$$18854$$Revealed</listitem>
+      </gadget>
+      <gadget name="MPOtherSettings-WorldResourcesLabel" textcentervert="" textcolor="255 208 0" textfontsize="18" textfont="Pregamelabels" type="formatText" size1024="299 286 552 306" z="11" textjustifyright="">$$19125$$World Resources:</gadget>
+      <gadget name="WorldResources" type="scrollList" size1024="556 278 711 312" z="51" textfontsize="16" textfont="ScrollFont" textcolor="0 0 58" background="ui\core_ui\dropdown_background" tilebackground="" topcapart="ui\core_ui\dropdown_top_middle" bottomcapart="ui\core_ui\dropdown_bottom_middle" leftcapart="ui\core_ui\dropdown_cap_left" rightcapart="ui\core_ui\dropdown_cap_right 8x8" border1024="10 0" llistitemheight="20">
+        <listitem>$$18849$$Scarce</listitem>
+        <listitem>$$18850$$Normal</listitem>
+        <listitem>$$18851$$Flush</listitem>
+      </gadget>
+      <gadget name="MPOtherSettings-PausesLabel" textcentervert="" textcolor="255 208 0" textfontsize="18" textfont="Pregamelabels" type="formatText" size1024="307 328 552 348" z="11" textjustifyright="">$$20035$$Restrict Number of Pauses:</gadget>
+      <gadget name="RestrictPauses" type="scrollList" size1024="556 320 711 354" z="51" textfontsize="16" textfont="ScrollFont" textcolor="0 0 58" background="ui\core_ui\dropdown_background" tilebackground="" topcapart="ui\core_ui\dropdown_top_middle" bottomcapart="ui\core_ui\dropdown_bottom_middle" leftcapart="ui\core_ui\dropdown_cap_left" rightcapart="ui\core_ui\dropdown_cap_right 8x8" border1024="10 0" listitemheight="22">
+        <listitem>$$21201$$1 per player</listitem>
+        <listitem>$$21202$$2 per player</listitem>
+        <listitem>$$21203$$3 per player</listitem>
+      </gadget>
+      <gadget name="CoopGame" texturecoords="0 0 .69 .69" textcolor="255 208 0" type="checkButton" textfont="RadioButtons" textfontsize="14" z="11" size1024="288 370 484 392" checkcheckedart="ui\ui button check box 32x32 clicked" checkuncheckedart="ui\ui button check box 32x32" checkhighlightart="ui\ui button check box 32x32 rollover" checkborder1024="5 0">$$19139$$Co-op Game</gadget>
+      <gadget name="LockedTeams" texturecoords="0 0 .69 .69" textcolor="255 208 0" type="checkButton" textfont="RadioButtons" textfontsize="14" z="11" size1024="288 400 484 422" checkcheckedart="ui\ui button check box 32x32 clicked" checkuncheckedart="ui\ui button check box 32x32" checkhighlightart="ui\ui button check box 32x32 rollover" checkborder1024="5 0">$$19133$$Locked Teams</gadget>
+      <gadget name="CommonLanguage" texturecoords="0 0 .69 .69" textcolor="255 208 0" type="checkButton" textfont="RadioButtons" textfontsize="14" z="11" size1024="288 430 536 452" checkcheckedart="ui\ui button check box 32x32 clicked" checkuncheckedart="ui\ui button check box 32x32" checkhighlightart="ui\ui button check box 32x32 rollover" checkborder1024="5 0">$$19307$$Restrict to Common Language</gadget>
+      <gadget name="RecordGame" texturecoords="0 0 .69 .69" textcolor="255 208 0" type="checkButton" textfont="RadioButtons" textfontsize="14" z="11" size1024="550 370 746 392" checkcheckedart="ui\ui button check box 32x32 clicked" checkuncheckedart="ui\ui button check box 32x32" checkhighlightart="ui\ui button check box 32x32 rollover" checkborder1024="5 0">$$19137$$Record Game</gadget>
+      <gadget name="Cheats" texturecoords="0 0 .69 .69" textcolor="255 208 0" type="checkButton" textfont="RadioButtons" textfontsize="14" z="11" size1024="550 400 746 422" checkcheckedart="ui\ui button check box 32x32 clicked" checkuncheckedart="ui\ui button check box 32x32" checkhighlightart="ui\ui button check box 32x32 rollover" checkborder1024="5 0">$$19135$$Allow Cheats</gadget>
+      <gadget name="SharedResources" texturecoords="0 0 .69 .69" textcolor="255 208 0" type="checkButton" textfont="RadioButtons" textfontsize="14" z="11" size1024="288 468 484 490" checkcheckedart="ui\ui button check box 32x32 clicked" checkuncheckedart="ui\ui button check box 32x32" checkhighlightart="ui\ui button check box 32x32 rollover" checkborder1024="5 0">$$19132$$Team Shared Resources</gadget>
+      <gadget name="SharedPopulation" texturecoords="0 0 .69 .69" textcolor="255 208 0" type="checkButton" textfont="RadioButtons" textfontsize="14" z="11" size1024="288 498 484 520" checkcheckedart="ui\ui button check box 32x32 clicked" checkuncheckedart="ui\ui button check box 32x32" checkhighlightart="ui\ui button check box 32x32 rollover" checkborder1024="5 0">$$19130$$Team shared population</gadget>
+    </gadget>
+  </gadget>
+</layout>

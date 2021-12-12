@@ -1,0 +1,19 @@
+<layout>
+  <gadget name="soundeditdlg" type="soundeditdialog" hidden="" background="ui\editor\editor_background" z="100" size1024="100 100 400 340" titlebar="Edit Sound" closebutton="" a-dtype="textFontSize number Z number">
+    <gadget type="textField" name="soundeditdlg-soundfield" a-dtype="textFontSize number Z number" sizerel1024="10 10 270 40" background="dialog">Wave</gadget>
+    <gadget type="button" name="soundeditdlg-browse" sizerel1024="275 10 290 40">...</gadget>
+    <gadget type="textField" name="soundeditdlg-variantfield" a-dtype="textFontSize number Z number" sizerel1024="10 50 290 80" background="dialog">
+      <dropdown>Default</dropdown>
+      <dropdown>Hack</dropdown>
+      <dropdown>Slash</dropdown>
+      <dropdown>Pierce</dropdown>
+      <dropdown>Crush</dropdown>
+      <dropdown>Fire</dropdown>
+    </gadget>
+    <gadget type="textField" name="soundeditdlg-variance" a-dtype="textFontSize number Z number" sizerel1024="10 90 290 120" background="dialog">Variance</gadget>
+    <gadget type="textBox" name="soundeditdlg-volumelabel" a-dtype="textFontSize number Z number" sizerel1024="10 130 290 150">Volume:</gadget>
+    <gadget type="slider" name="soundeditdlg-volumeslider" sizerel1024="5 150 295 180">
+    </gadget>
+    <gadget type="button" name="soundeditdlg-applybutton" bevelbutton="" sizerel1024="10 185 290 215">Apply</gadget>
+  </gadget>
+</layout>

@@ -1,0 +1,11 @@
+<layout>
+  <gadget name="homeCityDeckCreate" type="gadget" backgroundcolor="0 0 0" backgroundalpha="0.5" size1024="0 0 1024 768" z="99">
+    <gadget name="homeCityDeckCreate-Panel" type="gadget" size1024="454 164 854 352" transparent="" tilebackgroundvert="" tilebackgroundhoriz="" background="ui\home_city\hc_inventory_customize" z="100" texturecoords="0.6083984375 0 1 0.18359375">
+      <gadget name="homeCityDeckCreate-Label" textcentervert="" textcenterhoriz="" textcolor="255 255 255" textfont="SubtitleName" textfontsize="14" type="formatText" size1024="502 201 651 226" z="101">$$38236$$Deck Name</gadget>
+      <gadget name="homeCityDeckCreate-Edit" type="editBox" size1024="483 249 823 271" textfont="PregameEntry" textfontsize="15" textcolor="0 0 0" z="102" editboxmaxchars="16" enableime="">
+      </gadget>
+      <gadget name="homeCityDeckCreate-CreateButton" type="stateButton" size1024="481 310 642 342" bevelbutton="" z="101" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="255 255 255" textcenterhoriz="" textcentervert="" texturecoords="0 0 0.6328125 1" mouseovertext="" sound="UI_DefaultPregameClickSet">$$37466$$Create<stateentry background="ui\core_ui\button_large_normal"></stateentry><stateentry background="ui\core_ui\button_large_clicked"></stateentry><stateentry background="ui\core_ui\button_large_high"></stateentry><stateentry background="ui\core_ui\button_large_disable"></stateentry></gadget>
+      <gadget name="homeCityDeckCreate-CancelButton" type="stateButton" size1024="663 310 824 342" bevelbutton="" z="101" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="255 255 255" textcenterhoriz="" textcentervert="" texturecoords="0 0 0.6328125 1" mouseovertext="" sound="UI_DefaultPregameClickSet">$$18466$$Cancel<stateentry background="ui\core_ui\button_large_normal"></stateentry><stateentry background="ui\core_ui\button_large_clicked"></stateentry><stateentry background="ui\core_ui\button_large_high"></stateentry><stateentry background="ui\core_ui\button_large_disable"></stateentry></gadget>
+    </gadget>
+  </gadget>
+</layout>

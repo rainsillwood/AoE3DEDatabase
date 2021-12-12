@@ -1,0 +1,149 @@
+<layout>
+  <gadget name="homeCityPanel" type="gadget" size1024="346 401 1024 768" background="" hidden="">
+    <gadget name="homeCityPanel-skillTreePanel" type="gadget" background="ui\home_city\hc_deckbldr_byage_bot" tilebackgroundvert="" tilebackgroundhoriz="" size1024="0 308 1024 768" z="11" texturecoords="0. 0.110 1 1">
+      <gadget name="homeCityPanel-skillTreeUpgrades" type="formatText" size1024="360 314 422 340" textfont="GoalText" textcolor="050 255 255" textcentervert="" textcenterhoriz="" textfontsize="18" z="30" texturecoords="0.8828125 0.28125 0.98828125 0.484375">
+      </gadget>
+      <gadget name="homeCityPanel-skillTreeUpgradesText" type="formatText" textfont="GoalText" textfontsize="18" textcolor="231 201 40" size1024="410 316 670 342" z="51" transparent="">$$37421$$</gadget>
+      <gadget name="homeCityPanel-skillTreeTotalTechs" type="formatText" textfont="SubtitleName" textfontsize="14" textjustifyright="" textcolor="255 255 255" size1024="798 317 910 343" z="51" transparent="">$$37482$$Total Techs</gadget>
+      <gadget name="homeCityPanel-skillTreeActiveCards" type="formatText" textfont="GoalText" textfontsize="18" textjustifyleft="" textcolor="231 201 40" size1024="912 316 982 342" z="51" transparent="">
+      </gadget>
+      <gadget name="homeCityPanel-skillTree" type="hCSkillTree" textfont="Arial Nodrop For Cards" textfontsize="12" transparent="" size1024="358 277 1024 768" z="50">
+      </gadget>
+    </gadget>
+    <gadget name="homeCityPanel-skillTreePanelSPC" type="gadget" background="ui\home_city\hc_deckbldr_byage_bot_spc" tilebackgroundvert="" tilebackgroundhoriz="" size1024="0 308 1024 768" z="11" texturecoords="0. 0.110 1 1">
+      <gadget name="homeCityPanel-skillTreeUpgradesSPC" type="formatText" size1024="360 314 422 340" textfont="GoalText" textcolor="050 255 255" textcentervert="" textcenterhoriz="" textfontsize="18" z="30" texturecoords="0.8828125 0.28125 0.98828125 0.484375">
+      </gadget>
+      <gadget name="homeCityPanel-skillTreeUpgradesTextSPC" type="formatText" textfont="GoalText" textfontsize="18" textcolor="231 201 40" size1024="410 316 670 342" z="51" transparent="">$$37421$$</gadget>
+      <gadget name="homeCityPanel-skillTreeTotalTechsSPC" type="formatText" textfont="SubtitleName" textfontsize="14" textjustifyright="" textcolor="255 255 255" size1024="798 317 910 343" z="51" transparent="">$$37482$$Total Techs</gadget>
+      <gadget name="homeCityPanel-skillTreeActiveCardsSPC" type="formatText" textfont="GoalText" textfontsize="18" textjustifyleft="" textcolor="231 201 40" size1024="912 316 982 342" z="51" transparent="">
+      </gadget>
+      <gadget name="homeCityPanel-skillTreeSPC" type="hCSkillTree" textfont="Arial Nodrop For Cards" textfontsize="12" transparent="" size1024="358 277 1024 768" z="50">
+      </gadget>
+    </gadget>
+    <gadget name="homeCityPanel-customizationPanel" type="hcCustomizationPanel" background="ui\home_city\hc_inventory_customize" tilebackgroundvert="" tilebackgroundhoriz="" size1024="346 402 1024 768" z="11" texturecoords="0.3369140625 0.28125 1 0.638671875">
+      <gadget name="homeCityPanel-skillTreePanel" type="gadget" background="ui\home_city\hc_deckbldr_byage_bot" tilebackgroundvert="" tilebackgroundhoriz="" size1024="0 402 347 768" z="11" texturecoords="0. 0.277 0.335 1">
+      </gadget>
+      <gadget name="homeCityPanel-customization-label" type="formatText" size1024="325 363 720 410" textcolor="231 201 40" textcenterhoriz="" textcentervert="" textfont="GoalText" textfontsize="18" background="ui\home_city\hc_inventory_customize" texturecoords="0.6142578125 0.205078125 1 0.251953125" z="100">$$42188$$Customize Home City</gadget>
+      <gadget name="homeCityPanel-customization-availablePropsNum" type="formatText" size1024="381 419 445 445" textfont="GoalText" textcolor="050 255 255" textcentervert="" textcenterhoriz="" textfontsize="18" z="30">
+      </gadget>
+      <gadget name="homeCityPanel-customization-availableProps" type="formatText" size1024="454 419 696 445" textcolor="231 201 40" textcentervert="" textfont="GoalText" textfontsize="18" z="30">$$34089$$Customizations Available</gadget>
+      <gadget name="homeCityPanel-customization-propButton0" type="meshButton" activateondown="" size1024="382 490 446 554" z="51">
+      </gadget>
+      <gadget name="homeCityPanel-customization-propButton1" type="meshButton" activateondown="" size1024="450 490 514 554" z="51">
+      </gadget>
+      <gadget name="homeCityPanel-customization-propButton2" type="meshButton" activateondown="" size1024="518 490 582 554" z="51">
+      </gadget>
+      <gadget name="homeCityPanel-customization-propButton3" type="meshButton" activateondown="" size1024="586 490 650 554" z="51">
+      </gadget>
+      <gadget name="homeCityPanel-customization-propButton4" type="meshButton" activateondown="" size1024="654 490 718 554" z="51">
+      </gadget>
+      <gadget name="homeCityPanel-customization-propButton5" type="meshButton" activateondown="" size1024="722 490 786 554" z="51">
+      </gadget>
+      <gadget name="homeCityPanel-customization-propButton6" type="meshButton" activateondown="" size1024="790 490 854 554" z="51">
+      </gadget>
+      <gadget name="homeCityPanel-customization-propButton7" type="meshButton" activateondown="" size1024="858 490 922 554" z="51">
+      </gadget>
+      <gadget name="homeCityPanel-customization-propButton8" type="meshButton" activateondown="" size1024="926 490 990 554" z="51">
+      </gadget>
+      <gadget name="homeCityPanel-customization-propButton0-highlight" hidden="" transparent="" type="gadget" background="ui\home_city\HC_UI_tabs" size1024="377 485 451 559" texturecoords="0.322265625 0.671875 0.466796875 0.9609375" z="53">
+      </gadget>
+      <gadget name="homeCityPanel-customization-propButton1-highlight" hidden="" transparent="" type="gadget" background="ui\home_city\HC_UI_tabs" size1024="445 485 519 559" texturecoords="0.322265625 0.671875 0.466796875 0.9609375" z="53">
+      </gadget>
+      <gadget name="homeCityPanel-customization-propButton2-highlight" hidden="" transparent="" type="gadget" background="ui\home_city\HC_UI_tabs" size1024="513 485 587 559" texturecoords="0.322265625 0.671875 0.466796875 0.9609375" z="53">
+      </gadget>
+      <gadget name="homeCityPanel-customization-propButton3-highlight" hidden="" transparent="" type="gadget" background="ui\home_city\HC_UI_tabs" size1024="581 485 655 559" texturecoords="0.322265625 0.671875 0.466796875 0.9609375" z="53">
+      </gadget>
+      <gadget name="homeCityPanel-customization-propButton4-highlight" hidden="" transparent="" type="gadget" background="ui\home_city\HC_UI_tabs" size1024="649 485 723 559" texturecoords="0.322265625 0.671875 0.466796875 0.9609375" z="53">
+      </gadget>
+      <gadget name="homeCityPanel-customization-propButton5-highlight" hidden="" transparent="" type="gadget" background="ui\home_city\HC_UI_tabs" size1024="717 485 791 559" texturecoords="0.322265625 0.671875 0.466796875 0.9609375" z="53">
+      </gadget>
+      <gadget name="homeCityPanel-customization-propButton6-highlight" hidden="" transparent="" type="gadget" background="ui\home_city\HC_UI_tabs" size1024="785 485 859 559" texturecoords="0.322265625 0.671875 0.466796875 0.9609375" z="53">
+      </gadget>
+      <gadget name="homeCityPanel-customization-propButton7-highlight" hidden="" transparent="" type="gadget" background="ui\home_city\HC_UI_tabs" size1024="853 485 927 559" texturecoords="0.322265625 0.671875 0.466796875 0.9609375" z="53">
+      </gadget>
+      <gadget name="homeCityPanel-customization-propButton8-highlight" hidden="" transparent="" type="gadget" background="ui\home_city\HC_UI_tabs" size1024="921 485 995 559" texturecoords="0.322265625 0.671875 0.466796875 0.9609375" z="53">
+      </gadget>
+      <gadget name="homeCityPanel-customization-propButton0-check" hidden="" transparent="" type="gadget" background="ui\home_city\card_check" size1024="386 494 418 526" z="52">
+      </gadget>
+      <gadget name="homeCityPanel-customization-propButton1-check" hidden="" transparent="" type="gadget" background="ui\home_city\card_check" size1024="454 494 486 526" z="52">
+      </gadget>
+      <gadget name="homeCityPanel-customization-propButton2-check" hidden="" transparent="" type="gadget" background="ui\home_city\card_check" size1024="522 494 554 526" z="52">
+      </gadget>
+      <gadget name="homeCityPanel-customization-propButton3-check" hidden="" transparent="" type="gadget" background="ui\home_city\card_check" size1024="590 494 622 526" z="52">
+      </gadget>
+      <gadget name="homeCityPanel-customization-propButton4-check" hidden="" transparent="" type="gadget" background="ui\home_city\card_check" size1024="658 494 690 526" z="52">
+      </gadget>
+      <gadget name="homeCityPanel-customization-propButton5-check" hidden="" transparent="" type="gadget" background="ui\home_city\card_check" size1024="726 494 758 526" z="52">
+      </gadget>
+      <gadget name="homeCityPanel-customization-propButton6-check" hidden="" transparent="" type="gadget" background="ui\home_city\card_check" size1024="794 494 826 526" z="52">
+      </gadget>
+      <gadget name="homeCityPanel-customization-propButton7-check" hidden="" transparent="" type="gadget" background="ui\home_city\card_check" size1024="862 494 894 526" z="52">
+      </gadget>
+      <gadget name="homeCityPanel-customization-propButton8-check" hidden="" transparent="" type="gadget" background="ui\home_city\card_check" size1024="930 494 962 526" z="52">
+      </gadget>
+      <gadget name="homeCityPanel-customization-propButton0-canactivate-overlay" hidden="" transparent="" type="gadget" background="ui\home_city\HC_UI_tabs" size1024="376 484 451 559" texturecoords="0.544921875 0.67578125 0.689453125 0.96484375" z="52">
+      </gadget>
+      <gadget name="homeCityPanel-customization-propButton1-canactivate-overlay" hidden="" transparent="" type="gadget" background="ui\home_city\HC_UI_tabs" size1024="444 484 519 559" texturecoords="0.544921875 0.67578125 0.689453125 0.96484375" z="52">
+      </gadget>
+      <gadget name="homeCityPanel-customization-propButton2-canactivate-overlay" hidden="" transparent="" type="gadget" background="ui\home_city\HC_UI_tabs" size1024="512 484 587 559" texturecoords="0.544921875 0.67578125 0.689453125 0.96484375" z="52">
+      </gadget>
+      <gadget name="homeCityPanel-customization-propButton3-canactivate-overlay" hidden="" transparent="" type="gadget" background="ui\home_city\HC_UI_tabs" size1024="580 484 655 559" texturecoords="0.544921875 0.67578125 0.689453125 0.96484375" z="52">
+      </gadget>
+      <gadget name="homeCityPanel-customization-propButton4-canactivate-overlay" hidden="" transparent="" type="gadget" background="ui\home_city\HC_UI_tabs" size1024="648 484 723 559" texturecoords="0.544921875 0.67578125 0.689453125 0.96484375" z="52">
+      </gadget>
+      <gadget name="homeCityPanel-customization-propButton5-canactivate-overlay" hidden="" transparent="" type="gadget" background="ui\home_city\HC_UI_tabs" size1024="716 484 791 559" texturecoords="0.544921875 0.67578125 0.689453125 0.96484375" z="52">
+      </gadget>
+      <gadget name="homeCityPanel-customization-propButton6-canactivate-overlay" hidden="" transparent="" type="gadget" background="ui\home_city\HC_UI_tabs" size1024="784 484 859 559" texturecoords="0.544921875 0.67578125 0.689453125 0.96484375" z="52">
+      </gadget>
+      <gadget name="homeCityPanel-customization-propButton7-canactivate-overlay" hidden="" transparent="" type="gadget" background="ui\home_city\HC_UI_tabs" size1024="852 484 927 559" texturecoords="0.544921875 0.67578125 0.689453125 0.96484375" z="52">
+      </gadget>
+      <gadget name="homeCityPanel-customization-propButton8-canactivate-overlay" hidden="" transparent="" type="gadget" background="ui\home_city\HC_UI_tabs" size1024="920 484 995 559" texturecoords="0.544921875 0.67578125 0.689453125 0.96484375" z="52">
+      </gadget>
+      <gadget name="homeCityPanel-customization-propButton0-locked-overlay" hidden="" transparent="" type="gadget" background="ui\home_city\lock_icon_64" size1024="382 490 446 554" z="52">
+      </gadget>
+      <gadget name="homeCityPanel-customization-propButton1-locked-overlay" hidden="" transparent="" type="gadget" background="ui\home_city\lock_icon_64" size1024="450 490 514 554" z="52">
+      </gadget>
+      <gadget name="homeCityPanel-customization-propButton2-locked-overlay" hidden="" transparent="" type="gadget" background="ui\home_city\lock_icon_64" size1024="518 490 582 554" z="52">
+      </gadget>
+      <gadget name="homeCityPanel-customization-propButton3-locked-overlay" hidden="" transparent="" type="gadget" background="ui\home_city\lock_icon_64" size1024="586 490 650 554" z="52">
+      </gadget>
+      <gadget name="homeCityPanel-customization-propButton4-locked-overlay" hidden="" transparent="" type="gadget" background="ui\home_city\lock_icon_64" size1024="654 490 718 554" z="52">
+      </gadget>
+      <gadget name="homeCityPanel-customization-propButton5-locked-overlay" hidden="" transparent="" type="gadget" background="ui\home_city\lock_icon_64" size1024="722 490 786 554" z="52">
+      </gadget>
+      <gadget name="homeCityPanel-customization-propButton6-locked-overlay" hidden="" transparent="" type="gadget" background="ui\home_city\lock_icon_64" size1024="790 490 854 554" z="52">
+      </gadget>
+      <gadget name="homeCityPanel-customization-propButton7-locked-overlay" hidden="" transparent="" type="gadget" background="ui\home_city\lock_icon_64" size1024="858 490 922 554" z="52">
+      </gadget>
+      <gadget name="homeCityPanel-customization-propButton8-locked-overlay" hidden="" transparent="" type="gadget" background="ui\home_city\lock_icon_64" size1024="926 490 990 554" z="52">
+      </gadget>
+      <gadget name="homeCityPanel-customization-propButton0-disabled-overlay" hidden="" transparent="" type="gadget" background="ui\home_city\lock_icon_no-lock" size1024="382 490 446 554" z="52">
+      </gadget>
+      <gadget name="homeCityPanel-customization-propButton1-disabled-overlay" hidden="" transparent="" type="gadget" background="ui\home_city\lock_icon_no-lock" size1024="450 490 514 554" z="52">
+      </gadget>
+      <gadget name="homeCityPanel-customization-propButton2-disabled-overlay" hidden="" transparent="" type="gadget" background="ui\home_city\lock_icon_no-lock" size1024="518 490 582 554" z="52">
+      </gadget>
+      <gadget name="homeCityPanel-customization-propButton3-disabled-overlay" hidden="" transparent="" type="gadget" background="ui\home_city\lock_icon_no-lock" size1024="586 490 650 554" z="52">
+      </gadget>
+      <gadget name="homeCityPanel-customization-propButton4-disabled-overlay" hidden="" transparent="" type="gadget" background="ui\home_city\lock_icon_no-lock" size1024="654 490 718 554" z="52">
+      </gadget>
+      <gadget name="homeCityPanel-customization-propButton5-disabled-overlay" hidden="" transparent="" type="gadget" background="ui\home_city\lock_icon_no-lock" size1024="722 490 786 554" z="52">
+      </gadget>
+      <gadget name="homeCityPanel-customization-propButton6-disabled-overlay" hidden="" transparent="" type="gadget" background="ui\home_city\lock_icon_no-lock" size1024="790 490 854 554" z="52">
+      </gadget>
+      <gadget name="homeCityPanel-customization-propButton7-disabled-overlay" hidden="" transparent="" type="gadget" background="ui\home_city\lock_icon_no-lock" size1024="858 490 922 554" z="52">
+      </gadget>
+      <gadget name="homeCityPanel-customization-propButton8-disabled-overlay" hidden="" transparent="" type="gadget" background="ui\home_city\lock_icon_no-lock" size1024="926 490 990 554" z="52">
+      </gadget>
+      <gadget name="homeCityPanel-customization-propSlider" type="slider" size1024="382 555 990 575" sliderbuttons="" backgroundcolor="0 0 0" sliderleftbtnset="sliderLeftBtn_18" sliderrightbtnset="sliderRightBtn_18" sliderpipart="ui\file_system\slider_pip_horizontal" sliderareaart="ui\file_system\slider_background_horizontal_18" background="ui\file_system\slider_background" tilebackground="">
+      </gadget>
+      <gadget name="homeCityPanel-customization-propName" type="formatText" size1024="410 582 822 602" textcolor="255 255 255" textcentervert="" textfont="GoalText" textfontsize="18" z="30">$$38201$$Prop Name</gadget>
+      <gadget name="homeCityPanel-customization-propDesc" type="formatText" size1024="410 622 840 700" textcolor="255 255 255" textfont="AgeText" textfontsize="12" z="30">$$38202$$Description</gadget>
+      <gadget name="homeCityPanel-customization-propUnlockedMsg" type="formatText" size1024="382 718 990 750" textcolor="0 190 0" textcenterhoriz="1" textfont="GoalText" textfontsize="18" z="30">$$34090$$This customization is unlocked.</gadget>
+      <gadget name="homeCityPanel-customization-propPrereqMsg" type="formatText" size1024="382 718 990 750" textcolor="190 0 0" textcenterhoriz="1" textfont="GoalText" textfontsize="18" z="30">$$38204$$Incorrect level</gadget>
+      <gadget name="homeCityPanel-customization-unlockButton" type="stateButton" size1024="862 582 990 614" bevelbutton="" z="62" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="255 255 255" textcenterhoriz="" textcentervert="" texturecoords="0 0 1 1" sound="UI_DefaultPregameClickSet">$$34091$$Unlock<stateentry background="ui\core_ui\button_128x32_normal"></stateentry><stateentry background="ui\core_ui\button_128x32_clicked"></stateentry><stateentry background="ui\core_ui\button_128x32_rollover"></stateentry><stateentry background="ui\core_ui\button_128x32_disabled"></stateentry></gadget>
+      <gadget name="homeCityPanel-customization-enableButton" type="stateButton" size1024="862 582 990 614" bevelbutton="" z="62" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="255 255 255" textcenterhoriz="" textcentervert="" texturecoords="0 0 1 1">$$20359$$Apply<stateentry background="ui\core_ui\button_128x32_normal"></stateentry><stateentry background="ui\core_ui\button_128x32_clicked"></stateentry><stateentry background="ui\core_ui\button_128x32_rollover"></stateentry><stateentry background="ui\core_ui\button_128x32_disabled"></stateentry></gadget>
+      <gadget name="homeCityPanel-customization-disableButton" type="stateButton" size1024="862 582 990 614" bevelbutton="" z="62" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="255 255 255" textcenterhoriz="" textcentervert="" texturecoords="0 0 1 1">$$20055$$Remove<stateentry background="ui\core_ui\button_128x32_normal"></stateentry><stateentry background="ui\core_ui\button_128x32_clicked"></stateentry><stateentry background="ui\core_ui\button_128x32_rollover"></stateentry><stateentry background="ui\core_ui\button_128x32_disabled"></stateentry></gadget>
+    </gadget>
+  </gadget>
+</layout>

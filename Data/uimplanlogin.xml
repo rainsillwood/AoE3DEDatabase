@@ -1,0 +1,46 @@
+<layout>
+  <gadget name="Parent" type="gadget" size1024="0 0 1024 768">
+    <gadget name="MPLANLogin-Dialog" type="gadget" size1024="0 0 1024 768" background="" windowzstyle="" z="99" hidden="">
+      <gadget name="MPLANLogin-Background" type="gadget" size1024="237 205 781 421" background="ui\core_ui\wood_thick_board_tile" backgroundalpha=".6" tilebackground="" z="5">
+        <gadget tilebackgroundhoriz="" name="MPLANLogin-BordersTop" type="gadget" background="ui\file_system\border_top_middle" size1024="262 196 759 204" z="8">
+        </gadget>
+        <gadget tilebackgroundhoriz="" name="MPLANLogin-BordersBottom" type="gadget" background="ui\file_system\border_bottom_middle" size1024="262 422 758 430" z="10">
+        </gadget>
+        <gadget tilebackgroundvert="" name="MPLANLogin-BordersLeft" type="gadget" background="ui\file_system\border_side_left" size1024="230 228 238 398" z="9">
+        </gadget>
+        <gadget tilebackgroundvert="" name="MPLANLogin-BordersRight" type="gadget" background="ui\file_system\border_side_right" size1024="780 228 788 398" z="7">
+        </gadget>
+        <gadget name="MPLANLogin-BordersLeftTop" type="gadget" background="ui\file_system\border_top_left" size1024="230 196 262 228" z="15">
+        </gadget>
+        <gadget name="MPLANLogin-BordersLeftBottom" type="gadget" background="ui\file_system\border_bottom_left" size1024="230 398 262 430" z="11">
+        </gadget>
+        <gadget name="MPLANLogin-BordersRightBottom" type="gadget" background="ui\file_system\border_bottom_right" size1024="756 398 788 430" z="11">
+        </gadget>
+        <gadget name="MPLANLogin-BordersRightTop" type="gadget" background="ui\file_system\border_top_right" size1024="756 196 788 228" z="13">
+        </gadget>
+      </gadget>
+      <gadget name="MPLANLogin-ScreenLabel" textcentervert="" textcenterhoriz="" textcolor="255 180 0" textfontsize="22" textfont="PregameHeaders" type="formatText" size1024="329 222 681 257" z="15">$$22076$$LAN/Direct IP Login</gadget>
+      <gadget name="MPLANLogin-ScreenLabel-Background-Middle" type="gadget" size1024="324 211 701 275" tilebackgroundhoriz="" background="ui\core_ui\title_bar_48_middle">
+      </gadget>
+      <gadget name="MPLANLogin-ScreenLabel-Background-Left" type="gadget" size1024="260 211 324 275" background="ui\core_ui\title_bar_48_left">
+      </gadget>
+      <gadget name="MPLANLogin-ScreenLabel-Background-Right" type="gadget" size1024="698 211 762 275" background="ui\core_ui\title_bar_48_right">
+      </gadget>
+      <gadget name="MPLANLogin-OKButton" type="stateButton" size1024="351 367 479 399" bevelbutton="" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="255 255 255" textcenterhoriz="" textcentervert="" mouseovertext="$$19939$$">$$18465$$OK<stateentry background="ui\core_ui\button_med_normal"></stateentry><stateentry background="ui\core_ui\button_med_clicked"></stateentry><stateentry background="ui\core_ui\button_med_high"></stateentry><stateentry background="ui\core_ui\button_med_disabled"></stateentry></gadget>
+      <gadget name="MPLANLogin-CancelButton" type="stateButton" size1024="519 367 647 399" bevelbutton="" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="255 255 255" textcenterhoriz="" textcentervert="" mouseovertext="$$19940$$">$$18466$$Cancel<stateentry background="ui\core_ui\button_med_normal"></stateentry><stateentry background="ui\core_ui\button_med_clicked"></stateentry><stateentry background="ui\core_ui\button_med_high"></stateentry><stateentry background="ui\core_ui\button_med_disabled"></stateentry></gadget>
+      <gadget name="MPLANLogin-NameLabel" textcentervert="" textcenterhoriz="" textcolor="255 180 0" textfontsize="18" textfont="Pregamelabels" type="formatText" size1024="269 294 403 317">$$22077$$Nickname:</gadget>
+      <gadget name="MPLANLogin-NameLabel-Background" type="gadget" size1024="260 290 516 322" background="ui\core_ui\text_block_154">
+      </gadget>
+      <gadget name="MPLANLogin-EntryFields" type="gadget" size1024="408 280 764 334">
+        <gadget name="MPLANLogin-UserName-Background-Left" type="gadget" size1024="416 289 448 321" background="ui\core_ui\text_bar_32_left">
+        </gadget>
+        <gadget name="MPLANLogin-UserName-Background-Middle" type="gadget" tilebackgroundhoriz="" size1024="442 289 706 321" background="ui\core_ui\text_bar_32_middle">
+        </gadget>
+        <gadget name="MPLANLogin-UserName-Background-Right" type="gadget" size1024="702 289 734 321" background="ui\core_ui\text_bar_32_right">
+        </gadget>
+        <gadget name="MPLANLogin-UserName-Text" type="editBox" size1024="419 291 729 321" textfont="PregameEntry" textfontsize="15" textcolor="0 0 0" enterkey="" z="15" enableime="" editboxmaxchars="13">
+        </gadget>
+      </gadget>
+    </gadget>
+  </gadget>
+</layout>

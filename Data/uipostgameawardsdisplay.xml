@@ -1,0 +1,118 @@
+<layout>
+  <gadget name="uipostgameawardsdisplay" type="postGameAwardsDisplay" backgroundcolor="0 0 0" backgroundalpha="0.75" size1024="346 496 1024 768" z="5">
+    <gadget name="uipostgameawardsdisplay-borderTopLeft" type="gadget" size1024="347 496 355 504" transparent="" z="6" background="ui\home_city\border_top_left">
+    </gadget>
+    <gadget name="uipostgameawardsdisplay-borderTopMiddle" type="gadget" size1024="355 496 1016 504" transparent="" z="6" background="ui\home_city\border_top_middle">
+    </gadget>
+    <gadget name="uipostgameawardsdisplay-borderTopRight" type="gadget" size1024="1016 496 1024 504" transparent="" z="6" background="ui\home_city\border_top_right">
+    </gadget>
+    <gadget name="uipostgameawardsdisplay-borderSideLeft" type="gadget" size1024="347 504 355 760" transparent="" z="6" background="ui\home_city\border_left_middle">
+    </gadget>
+    <gadget name="uipostgameawardsdisplay-borderSideRight" type="gadget" size1024="1016 504 1024 760" transparent="" z="6" background="ui\home_city\border_right_middle">
+    </gadget>
+    <gadget name="uipostgameawardsdisplay-borderBottomLeft" type="gadget" size1024="347 760 355 768" transparent="" z="6" background="ui\home_city\border_bottom_left">
+    </gadget>
+    <gadget name="uipostgameawardsdisplay-borderBottomMiddle" type="gadget" size1024="355 760 1016 768" transparent="" z="6" background="ui\home_city\border_bottom_middle">
+    </gadget>
+    <gadget name="uipostgameawardsdisplay-borderBottomRight" type="gadget" size1024="1016 760 1024 768" transparent="" z="6" background="ui\home_city\border_bottom_right">
+    </gadget>
+    <gadget name="uipostgameawardsdisplay-totalXPBonus" type="formatText" textmarkup="" textcolor="255 255 255" textcentervert="" textcenterhoriz="" textfont="FloatyText" textfontsize="30" size1024="355 696 1014 760" transparent="" z="7">
+    </gadget>
+    <gadget name="uipostgameawardsdisplay-row0" type="gadget" size1024="356 728 1012 760" transparent="" z="6">
+      <gadget name="uipostgameawardsdisplay-row0Icon" type="gadget" size1024="356 728 388 760" transparent="" z="7">
+      </gadget>
+      <gadget name="uipostgameawardsdisplay-row0Award" type="formatText" textmarkup="" textcolor="255 255 255" textcentervert="" textfont="TechTreeLargeLabels" textfontsize="16" size1024="389 728 614 760" transparent="" z="7">
+      </gadget>
+      <gadget name="uipostgameawardsdisplay-row0Score" type="formatText" textmarkup="" textcolor="255 255 255" textcentervert="" textfont="TechTreeLargeLabels" textfontsize="16" size1024="612 728 720 760" transparent="" z="7">
+      </gadget>
+      <gadget name="uipostgameawardsdisplay-row0Player" type="formatText" textmarkup="" textcolor="255 255 255" textcentervert="" textfont="TechTreeLargeLabels" textfontsize="16" size1024="720 728 934 760" transparent="" z="7">
+      </gadget>
+      <gadget name="uipostgameawardsdisplay-row0XP" type="formatText" textmarkup="" textcolor="255 255 255" textcentervert="" textfont="TechTreeLargeLabels" textfontsize="16" size1024="934 728 1014 760" transparent="" z="7">
+      </gadget>
+    </gadget>
+    <gadget name="uipostgameawardsdisplay-row1" type="gadget" size1024="356 696 1012 728" transparent="" z="6">
+      <gadget name="uipostgameawardsdisplay-row1Icon" type="gadget" size1024="356 696 388 728" transparent="" z="7">
+      </gadget>
+      <gadget name="uipostgameawardsdisplay-row1Award" type="formatText" textmarkup="" textcolor="255 255 255" textcentervert="" textfont="TechTreeLargeLabels" textfontsize="16" size1024="388 696 614 728" transparent="" z="7">
+      </gadget>
+      <gadget name="uipostgameawardsdisplay-row1Score" type="formatText" textmarkup="" textcolor="255 255 255" textcentervert="" textfont="TechTreeLargeLabels" textfontsize="16" size1024="612 696 720 728" transparent="" z="7">
+      </gadget>
+      <gadget name="uipostgameawardsdisplay-row1Player" type="formatText" textmarkup="" textcolor="255 255 255" textcentervert="" textfont="TechTreeLargeLabels" textfontsize="16" size1024="720 696 934 728" transparent="" z="7">
+      </gadget>
+      <gadget name="uipostgameawardsdisplay-row1XP" type="formatText" textmarkup="" textcolor="255 255 255" textcentervert="" textfont="TechTreeLargeLabels" textfontsize="16" size1024="934 696 1014 728" transparent="" z="7">
+      </gadget>
+    </gadget>
+    <gadget name="uipostgameawardsdisplay-row2" type="gadget" size1024="356 664 1012 696" transparent="" z="6">
+      <gadget name="uipostgameawardsdisplay-row2Icon" type="gadget" size1024="356 664 388 696" transparent="" z="7">
+      </gadget>
+      <gadget name="uipostgameawardsdisplay-row2Award" type="formatText" textmarkup="" textcolor="255 255 255" textcentervert="" textfont="TechTreeLargeLabels" textfontsize="16" size1024="388 664 614 696" transparent="" z="7">
+      </gadget>
+      <gadget name="uipostgameawardsdisplay-row2Score" type="formatText" textmarkup="" textcolor="255 255 255" textcentervert="" textfont="TechTreeLargeLabels" textfontsize="16" size1024="612 664 720 696" transparent="" z="7">
+      </gadget>
+      <gadget name="uipostgameawardsdisplay-row2Player" type="formatText" textmarkup="" textcolor="255 255 255" textcentervert="" textfont="TechTreeLargeLabels" textfontsize="16" size1024="720 664 934 696" transparent="" z="7">
+      </gadget>
+      <gadget name="uipostgameawardsdisplay-row2XP" type="formatText" textmarkup="" textcolor="255 255 255" textcentervert="" textfont="TechTreeLargeLabels" textfontsize="16" size1024="934 664 1014 696" transparent="" z="7">
+      </gadget>
+    </gadget>
+    <gadget name="uipostgameawardsdisplay-row3" type="gadget" size1024="356 632 1012 664" transparent="" z="6">
+      <gadget name="uipostgameawardsdisplay-row3Icon" type="gadget" size1024="356 632 388 664" transparent="" z="7">
+      </gadget>
+      <gadget name="uipostgameawardsdisplay-row3Award" type="formatText" textmarkup="" textcolor="255 255 255" textcentervert="" textfont="TechTreeLargeLabels" textfontsize="16" size1024="388 632 614 664" transparent="" z="7">
+      </gadget>
+      <gadget name="uipostgameawardsdisplay-row3Score" type="formatText" textmarkup="" textcolor="255 255 255" textcentervert="" textfont="TechTreeLargeLabels" textfontsize="16" size1024="614 632 720 664" transparent="" z="7">
+      </gadget>
+      <gadget name="uipostgameawardsdisplay-row3Player" type="formatText" textmarkup="" textcolor="255 255 255" textcentervert="" textfont="TechTreeLargeLabels" textfontsize="16" size1024="720 632 934 664" transparent="" z="7">
+      </gadget>
+      <gadget name="uipostgameawardsdisplay-row3XP" type="formatText" textmarkup="" textcolor="255 255 255" textcentervert="" textfont="TechTreeLargeLabels" textfontsize="16" size1024="934 632 1014 664" transparent="" z="7">
+      </gadget>
+    </gadget>
+    <gadget name="uipostgameawardsdisplay-row4" type="gadget" size1024="356 600 1012 632" transparent="" z="6">
+      <gadget name="uipostgameawardsdisplay-row4Icon" type="gadget" size1024="356 600 388 632" transparent="" z="7">
+      </gadget>
+      <gadget name="uipostgameawardsdisplay-row4Award" type="formatText" textmarkup="" textcolor="255 255 255" textcentervert="" textfont="TechTreeLargeLabels" textfontsize="16" size1024="388 600 614 632" transparent="" z="7">
+      </gadget>
+      <gadget name="uipostgameawardsdisplay-row4Score" type="formatText" textmarkup="" textcolor="255 255 255" textcentervert="" textfont="TechTreeLargeLabels" textfontsize="16" size1024="614 600 720 632" transparent="" z="7">
+      </gadget>
+      <gadget name="uipostgameawardsdisplay-row4Player" type="formatText" textmarkup="" textcolor="255 255 255" textcentervert="" textfont="TechTreeLargeLabels" textfontsize="16" size1024="720 600 934 632" transparent="" z="7">
+      </gadget>
+      <gadget name="uipostgameawardsdisplay-row4XP" type="formatText" textmarkup="" textcolor="255 255 255" textcentervert="" textfont="TechTreeLargeLabels" textfontsize="16" size1024="934 600 1014 632" transparent="" z="7">
+      </gadget>
+    </gadget>
+    <gadget name="uipostgameawardsdisplay-row5" type="gadget" size1024="356 568 1012 600" transparent="" z="6">
+      <gadget name="uipostgameawardsdisplay-row5Icon" type="gadget" size1024="356 568 388 600" transparent="" z="7">
+      </gadget>
+      <gadget name="uipostgameawardsdisplay-row5Award" type="formatText" textmarkup="" textcolor="255 255 255" textcentervert="" textfont="TechTreeLargeLabels" textfontsize="16" size1024="388 568 614 600" transparent="" z="7">
+      </gadget>
+      <gadget name="uipostgameawardsdisplay-row5Score" type="formatText" textmarkup="" textcolor="255 255 255" textcentervert="" textfont="TechTreeLargeLabels" textfontsize="16" size1024="614 568 720 600" transparent="" z="7">
+      </gadget>
+      <gadget name="uipostgameawardsdisplay-row5Player" type="formatText" textmarkup="" textcolor="255 255 255" textcentervert="" textfont="TechTreeLargeLabels" textfontsize="16" size1024="720 568 934 600" transparent="" z="7">
+      </gadget>
+      <gadget name="uipostgameawardsdisplay-row5XP" type="formatText" textmarkup="" textcolor="255 255 255" textcentervert="" textfont="TechTreeLargeLabels" textfontsize="16" size1024="934 568 1014 600" transparent="" z="7">
+      </gadget>
+    </gadget>
+    <gadget name="uipostgameawardsdisplay-row6" type="gadget" size1024="356 536 1012 568" transparent="" z="6">
+      <gadget name="uipostgameawardsdisplay-row6Icon" type="gadget" size1024="356 536 388 568" transparent="" z="7">
+      </gadget>
+      <gadget name="uipostgameawardsdisplay-row6Award" type="formatText" textmarkup="" textcolor="255 255 255" textcentervert="" textfont="TechTreeLargeLabels" textfontsize="16" size1024="388 536 614 568" transparent="" z="7">
+      </gadget>
+      <gadget name="uipostgameawardsdisplay-row6Score" type="formatText" textmarkup="" textcolor="255 255 255" textcentervert="" textfont="TechTreeLargeLabels" textfontsize="16" size1024="614 536 720 568" transparent="" z="7">
+      </gadget>
+      <gadget name="uipostgameawardsdisplay-row6Player" type="formatText" textmarkup="" textcolor="255 255 255" textcentervert="" textfont="TechTreeLargeLabels" textfontsize="16" size1024="720 536 934 568" transparent="" z="7">
+      </gadget>
+      <gadget name="uipostgameawardsdisplay-row6XP" type="formatText" textmarkup="" textcolor="255 255 255" textcentervert="" textfont="TechTreeLargeLabels" textfontsize="16" size1024="934 536 1014 568" transparent="" z="7">
+      </gadget>
+    </gadget>
+    <gadget name="uipostgameawardsdisplay-row7" type="gadget" size1024="356 504 1012 536" transparent="" z="6">
+      <gadget name="uipostgameawardsdisplay-row7Icon" type="gadget" size1024="356 504 388 536" transparent="" z="7">
+      </gadget>
+      <gadget name="uipostgameawardsdisplay-row7Award" type="formatText" textmarkup="" textcolor="255 255 255" textcentervert="" textfont="TechTreeLargeLabels" textfontsize="16" size1024="388 504 614 536" transparent="" z="7">
+      </gadget>
+      <gadget name="uipostgameawardsdisplay-row7Score" type="formatText" textmarkup="" textcolor="255 255 255" textcentervert="" textfont="TechTreeLargeLabels" textfontsize="16" size1024="612 504 720 536" transparent="" z="7">
+      </gadget>
+      <gadget name="uipostgameawardsdisplay-row7Player" type="formatText" textmarkup="" textcolor="255 255 255" textcentervert="" textfont="TechTreeLargeLabels" textfontsize="16" size1024="720 504 934 536" transparent="" z="7">
+      </gadget>
+      <gadget name="uipostgameawardsdisplay-row7XP" type="formatText" textmarkup="" textcolor="255 255 255" textcentervert="" textfont="TechTreeLargeLabels" textfontsize="16" size1024="934 504 1014 536" transparent="" z="7">
+      </gadget>
+    </gadget>
+  </gadget>
+</layout>

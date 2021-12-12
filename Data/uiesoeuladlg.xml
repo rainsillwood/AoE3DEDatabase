@@ -1,0 +1,12 @@
+<layout>
+  <gadget name="ESOEula-BackGround" type="gadget" size1024="0 0 1024 768" background="ui\\home_city\\intro_hc" texturecoords="0 0 1 0.749755620723363" windowzstyle="" z="99">
+    <gadget name="ESOEula" type="gadget" size1024="265 112 777 624" background="ui\core_ui\eula" bevel="" moveable="">
+      <gadget name="ESOEulaDlg_Title" type="formatText" textcentervert="" textcenterhoriz="" textcolor="224 185 2" textfontsize="26" textfont="ScenarioTitleLarge" size1024="345 143 697 175" z="11">
+      </gadget>
+      <gadget name="ESOEulaDlg_Text" type="formatText" textcolor="20 20 20" textfontsize="16" textfont="ObjectivesText" size1024="322 208 719 562" textwrapon="" textmarkup="" textscrollbar="" vertscrollbar="" z="11">
+      </gadget>
+      <gadget name="ESOEulaDlg_AcceptBtn" type="stateButton" size1024="347 580 475 610" bevelbutton="" z="94" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="255 255 255" textcenterhoriz="" textcentervert="" texturecoords="0 0 1 1">$$29199$$Accept<stateentry background="ui\core_ui\button_128x32_normal"></stateentry><stateentry background="ui\core_ui\button_128x32_clicked"></stateentry><stateentry background="ui\core_ui\button_128x32_rollover"></stateentry><stateentry background=""></stateentry></gadget>
+      <gadget name="ESOEulaDlg_DeclineBtn" type="stateButton" size1024="567 580 695 610" bevelbutton="" z="94" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="255 255 255" textcenterhoriz="" textcentervert="" texturecoords="0 0 1 1">$$29200$$Decline<stateentry background="ui\core_ui\button_128x32_normal"></stateentry><stateentry background="ui\core_ui\button_128x32_clicked"></stateentry><stateentry background="ui\core_ui\button_128x32_rollover"></stateentry><stateentry background=""></stateentry></gadget>
+    </gadget>
+  </gadget>
+</layout>

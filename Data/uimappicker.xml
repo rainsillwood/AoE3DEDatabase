@@ -1,0 +1,274 @@
+<layout>
+  <gadget name="MapPicker" type="gadget" size1024="0 0 1024 768" background="" windowzstyle="">
+    <gadget name="MapPicker-Background" type="gadget" size1024="25 15 992 754" background="ui\file_system\file_system_background" tilebackground="" z="8">
+      <gadget tilebackgroundhoriz="" name="MapPicker-BordersTop" type="gadget" background="ui\file_system\border_top_middle" size1024="0 0 1024 16" z="5">
+      </gadget>
+      <gadget tilebackgroundhoriz="" name="MapPicker-BordersBottom" type="gadget" background="ui\file_system\border_bottom_middle" size1024="0 752 1024 768" z="5">
+      </gadget>
+      <gadget tilebackgroundvert="" name="MapPicker-BordersLeft" type="gadget" background="ui\file_system\border_side_left" size1024="0 0 8 768" z="5">
+      </gadget>
+      <gadget tilebackgroundvert="" name="MapPicker-BordersRight" type="gadget" background="ui\file_system\border_side_right" size1024="1016 0 1024 768" z="5">
+      </gadget>
+      <gadget name="MapPicker-BordersLeftTop" type="gadget" background="ui\file_system\border_top_left" size1024="0 0 32 32" clampbackground="" z="10">
+      </gadget>
+      <gadget name="MapPicker-BordersLeftBottom" type="gadget" background="ui\file_system\border_bottom_left" size1024="0 736 32 768" clampbackground="" z="10">
+      </gadget>
+      <gadget name="MapPicker-BordersRightBottom" type="gadget" background="ui\file_system\border_bottom_right" size1024="992 736 1024 768" clampbackground="" z="10">
+      </gadget>
+      <gadget name="MapPicker-BordersRightTop" type="gadget" background="ui\file_system\border_top_right" size1024="992 0 1024 32" clampbackground="" z="10">
+      </gadget>
+    </gadget>
+    <gadget name="MapPicker-Label" textcentervert="" textcolor="3 0 88" textfontsize="22" textfont="PregameHeaders" type="formatText" size1024="52 23 345 48" z="11">$$19881$$Map Picker</gadget>
+    <gadget name="MapPicker-Page" textcentervert="" textcolor="3 0 88" textfontsize="22" textfont="PregameHeaders" type="formatText" textcenterhoriz="" size1024="837 23 918 48" z="11">$$19922$$Page</gadget>
+    <gadget name="MapPicker-ScreenSeparator" type="gadget" size1024="32 52 992 54" background="missing" z="11">
+    </gadget>
+    <gadget name="MapPicker-PrevSelect" type="stateButton" size1024="790 23 837 48" bevelbutton="" z="50" statebuttonuseinternalstates="" texturecoords="0 0 1 1" mouseovertext="$$19921$$View previous page of maps">
+      <stateentry background="ui\core_ui\arrow_left">
+      </stateentry>
+      <stateentry background="ui\core_ui\arrow_left_clicked">
+      </stateentry>
+      <stateentry background="ui\core_ui\arrow_left_rollover">
+      </stateentry>
+      <stateentry background="ui\core_ui\arrow_left_disabled">
+      </stateentry>
+    </gadget>
+    <gadget name="MapPicker-NextSelect" type="stateButton" size1024="918 23 965 48" bevelbutton="" z="50" statebuttonuseinternalstates="" texturecoords="0 0 1 1" mouseovertext="$$19920$$View next page of maps">
+      <stateentry background="ui\core_ui\arrow_right">
+      </stateentry>
+      <stateentry background="ui\core_ui\arrow_right_clicked">
+      </stateentry>
+      <stateentry background="ui\core_ui\arrow_right_rollover">
+      </stateentry>
+      <stateentry background="ui\core_ui\arrow_right_disabled">
+      </stateentry>
+    </gadget>
+    <gadget name="MapPicker-OKButton" type="stateButton" size1024="380 710 508 742" bevelbutton="" z="50" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="3 0 88" mouseovertext="$$18427$$Accept selection and close this screen.">$$18465$$OK<stateentry background="ui\core_ui\button_128x32_normal"></stateentry><stateentry background="ui\core_ui\button_128x32_clicked"></stateentry><stateentry background="ui\core_ui\button_128x32_rollover"></stateentry><stateentry background=""></stateentry></gadget>
+    <gadget name="MapPicker-CancelButton" type="stateButton" size1024="516 710 644 742" bevelbutton="" z="50" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="3 0 88" mouseovertext="$$18428$$Ignore changes and close this screen.">$$18466$$Cancel <stateentry background="ui\core_ui\button_128x32_normal"></stateentry><stateentry background="ui\core_ui\button_128x32_clicked"></stateentry><stateentry background="ui\core_ui\button_128x32_rollover"></stateentry><stateentry background=""></stateentry></gadget>
+    <gadget name="MapPicker-Maps" type="gadget" size1024="50 65 970 687" background="" z="9">
+      <gadget name="MapPicker-R1C1-Highlight" type="gadget" size1024="50 61 178 189" z="10" hidden="" background="ui\ui map boarder highlight 128x128" transparent="">
+      </gadget>
+      <gadget name="MapPicker-R1C1-Button" type="button" size1024="50 61 178 189" z="8" background="ui\random_map\carolina" donthighlight="" sound="UI_brick">
+      </gadget>
+      <gadget name="MapPicker-R1C1-Border" hidden="" type="gadget" size1024="50 61 178 189" z="9" background="ui\ui map boarder template 128x128" transparent="">
+      </gadget>
+      <gadget name="MapPicker-R1C1-Name" textcentervert="" textcolor="3 0 88" transparent="" textfont="PickerTitle" textfontsize="16" type="formatText" size1024="51 189 180 211" z="10" textcenterhoriz="">
+      </gadget>
+      <gadget name="MapPicker-R1C2-Highlight" type="gadget" size1024="182 61 310 189" z="10" hidden="" background="ui\ui map boarder highlight 128x128" transparent="">
+      </gadget>
+      <gadget sound="UI_brick" name="MapPicker-R1C2-Button" type="button" size1024="182 61 310 189" z="8" background="ui\ui map alfheim 128x128" donthighlight="">
+      </gadget>
+      <gadget name="MapPicker-R1C2-Border" type="gadget" size1024="182 61 310 189" z="9" background="ui\ui map boarder template 128x128" transparent="">
+      </gadget>
+      <gadget name="MapPicker-R1C2-Name" textcentervert="" textcolor="3 0 88" textfont="PickerTitle" textfontsize="16" type="formatText" size1024="181 189 316 211" z="13" textcenterhoriz="">
+      </gadget>
+      <gadget name="MapPicker-R1C3-Highlight" type="gadget" size1024="314 61 442 189" z="10" hidden="" background="ui\ui map boarder highlight 128x128" transparent="">
+      </gadget>
+      <gadget sound="UI_brick" name="MapPicker-R1C3-Button" type="button" size1024="314 61 442 189" z="8" background="ui\ui map anatolia 128x128" donthighlight="">
+      </gadget>
+      <gadget name="MapPicker-R1C3-Border" type="gadget" size1024="314 61 442 189" z="9" background="ui\ui map boarder template 128x128" transparent="">
+      </gadget>
+      <gadget name="MapPicker-R1C3-Name" textcentervert="" textcolor="3 0 88" textfont="PickerTitle" textfontsize="16" type="formatText" size1024="317 189 444 211" z="10" textcenterhoriz="">
+      </gadget>
+      <gadget name="MapPicker-R1C4-Highlight" type="gadget" size1024="446 61 574 189" z="10" hidden="" background="ui\ui map boarder highlight 128x128" transparent="">
+      </gadget>
+      <gadget sound="UI_brick" name="MapPicker-R1C4-Button" type="button" size1024="446 61 574 189" z="8" background="ui\ui map archipelago 128x128" donthighlight="">
+      </gadget>
+      <gadget name="MapPicker-R1C4-Border" type="gadget" size1024="446 61 574 189" z="9" background="ui\ui map boarder template 128x128" transparent="">
+      </gadget>
+      <gadget name="MapPicker-R1C4-Name" textcentervert="" textcolor="3 0 88" textfont="PickerTitle" textfontsize="16" type="formatText" size1024="449 189 576 211" z="17" textcenterhoriz="">
+      </gadget>
+      <gadget name="MapPicker-R1C5-Highlight" type="gadget" size1024="578 61 706 189" z="10" hidden="" background="ui\ui map boarder highlight 128x128" transparent="">
+      </gadget>
+      <gadget sound="UI_brick" name="MapPicker-R1C5-Button" type="button" size1024="578 61 706 189" z="8" background="ui\ui map erebus 128x128" donthighlight="">
+      </gadget>
+      <gadget name="MapPicker-R1C5-Border" type="gadget" size1024="578 61 706 189" z="9" background="ui\ui map boarder template 128x128" transparent="">
+      </gadget>
+      <gadget name="MapPicker-R1C5-Name" textcentervert="" textcolor="3 0 88" textfont="PickerTitle" textfontsize="16" type="formatText" size1024="581 189 708 211" z="10" textcenterhoriz="">
+      </gadget>
+      <gadget name="MapPicker-R1C6-Highlight" type="gadget" size1024="710 61 838 189" z="10" hidden="" background="ui\ui map boarder highlight 128x128" transparent="">
+      </gadget>
+      <gadget sound="UI_brick" name="MapPicker-R1C6-Button" type="button" size1024="710 61 838 189" z="8" background="ui\ui map ghost lake 128x128" donthighlight="">
+      </gadget>
+      <gadget name="MapPicker-R1C6-Border" type="gadget" size1024="710 61 838 189" z="9" background="ui\ui map boarder template 128x128" transparent="">
+      </gadget>
+      <gadget name="MapPicker-R1C6-Name" textcentervert="" textcolor="3 0 88" textfont="PickerTitle" textfontsize="16" type="formatText" size1024="713 189 840 211" z="12" textcenterhoriz="">
+      </gadget>
+      <gadget name="MapPicker-R1C7-Highlight" type="gadget" size1024="842 61 970 189" z="10" hidden="" background="ui\ui map boarder highlight 128x128" transparent="">
+      </gadget>
+      <gadget sound="UI_brick" name="MapPicker-R1C7-Button" type="button" size1024="842 61 970 189" z="8" background="ui\ui map golden fleece 128x128" donthighlight="">
+      </gadget>
+      <gadget name="MapPicker-R1C7-Border" type="gadget" size1024="842 61 970 189" z="9" background="ui\ui map boarder template 128x128" transparent="">
+      </gadget>
+      <gadget name="MapPicker-R1C7-Name" textcentervert="" textcolor="3 0 88" textfont="PickerTitle" textfontsize="16" type="formatText" size1024="845 189 972 211" z="11" textcenterhoriz="">
+      </gadget>
+      <gadget name="MapPicker-R2C1-Highlight" type="gadget" size1024="50 219 178 347" z="10" hidden="" background="ui\ui map boarder highlight 128x128" transparent="">
+      </gadget>
+      <gadget sound="UI_brick" name="MapPicker-R2C1-Button" type="button" size1024="50 219 178 347" z="8" background="ui\ui map jotunheim 128x128" donthighlight="">
+      </gadget>
+      <gadget name="MapPicker-R2C1-Border" type="gadget" size1024="50 219 178 347" transparent="" z="9" background="ui\ui map boarder template 128x128">
+      </gadget>
+      <gadget name="MapPicker-R2C1-Name" textcentervert="" textcolor="3 0 88" textfont="PickerTitle" textfontsize="16" type="formatText" size1024="53 347 180 369" z="11" textcenterhoriz="">
+      </gadget>
+      <gadget name="MapPicker-R2C2-Highlight" type="gadget" size1024="182 219 310 347" z="10" hidden="" background="ui\ui map boarder highlight 128x128" transparent="">
+      </gadget>
+      <gadget sound="UI_brick" name="MapPicker-R2C2-Button" type="button" size1024="182 219 310 347" z="8" background="ui\ui map king of the hill 128x128" donthighlight="">
+      </gadget>
+      <gadget name="MapPicker-R2C2-Border" type="gadget" size1024="182 219 310 347" z="9" background="ui\ui map boarder template 128x128" transparent="">
+      </gadget>
+      <gadget name="MapPicker-R2C2-Name" textcentervert="" textcolor="3 0 88" textfont="PickerTitle" textfontsize="16" type="formatText" size1024="185 347 312 369" z="13" textcenterhoriz="">
+      </gadget>
+      <gadget name="MapPicker-R2C3-Highlight" type="gadget" size1024="314 219 442 347" z="10" hidden="" background="ui\ui map boarder highlight 128x128" transparent="">
+      </gadget>
+      <gadget sound="UI_brick" name="MapPicker-R2C3-Button" type="button" size1024="314 219 442 347" z="8" background="ui\ui map mediterranean 128x128" donthighlight="">
+      </gadget>
+      <gadget name="MapPicker-R2C3-Border" type="gadget" size1024="314 219 442 347" z="9" background="ui\ui map boarder template 128x128" transparent="">
+      </gadget>
+      <gadget name="MapPicker-R2C3-Name" textcentervert="" textcolor="3 0 88" textfont="PickerTitle" textfontsize="16" type="formatText" size1024="317 347 444 369" z="10" textcenterhoriz="">
+      </gadget>
+      <gadget name="MapPicker-R2C4-Highlight" type="gadget" size1024="446 219 574 347" z="10" hidden="" background="ui\ui map boarder highlight 128x128" transparent="">
+      </gadget>
+      <gadget sound="UI_brick" name="MapPicker-R2C4-Button" type="button" size1024="446 219 574 347" z="8" background="ui\ui map midgard 128x128" donthighlight="">
+      </gadget>
+      <gadget name="MapPicker-R2C4-Border" type="gadget" size1024="446 219 574 347" z="9" background="ui\ui map boarder template 128x128" transparent="">
+      </gadget>
+      <gadget name="MapPicker-R2C4-Name" textcentervert="" textcolor="3 0 88" textfont="PickerTitle" textfontsize="16" type="formatText" size1024="449 347 576 369" z="10" textcenterhoriz="">
+      </gadget>
+      <gadget name="MapPicker-R2C5-Highlight" type="gadget" size1024="578 219 706 347" z="10" hidden="" background="ui\ui map boarder highlight 128x128" transparent="">
+      </gadget>
+      <gadget sound="UI_brick" name="MapPicker-R2C5-Button" type="button" size1024="578 219 706 347" z="8" background="ui\ui map nomad 128x128" donthighlight="">
+      </gadget>
+      <gadget name="MapPicker-R2C5-Border" type="gadget" size1024="578 219 706 347" z="9" background="ui\ui map boarder template 128x128" transparent="">
+      </gadget>
+      <gadget name="MapPicker-R2C5-Name" textcentervert="" textcolor="3 0 88" textfont="PickerTitle" textfontsize="16" type="formatText" size1024="581 347 708 369" z="10" textcenterhoriz="">
+      </gadget>
+      <gadget name="MapPicker-R2C6-Highlight" type="gadget" size1024="710 219 838 347" z="10" hidden="" background="ui\ui map boarder highlight 128x128" transparent="">
+      </gadget>
+      <gadget sound="UI_brick" name="MapPicker-R2C6-Button" type="button" size1024="710 219 838 347" z="8" background="ui\ui map oasis 128x128" donthighlight="">
+      </gadget>
+      <gadget name="MapPicker-R2C6-Border" type="gadget" size1024="710 219 838 347" z="9" background="ui\ui map boarder template 128x128" transparent="">
+      </gadget>
+      <gadget name="MapPicker-R2C6-Name" textcentervert="" textcolor="3 0 88" textfont="PickerTitle" textfontsize="16" type="formatText" size1024="713 347 840 369" z="12" textcenterhoriz="">
+      </gadget>
+      <gadget name="MapPicker-R2C7-Highlight" type="gadget" size1024="842 219 970 347" z="10" hidden="" background="ui\ui map boarder highlight 128x128" transparent="">
+      </gadget>
+      <gadget sound="UI_brick" name="MapPicker-R2C7-Button" type="button" size1024="842 219 970 347" z="8" background="ui\ui map river nile 128x128" donthighlight="">
+      </gadget>
+      <gadget name="MapPicker-R2C7-Border" type="gadget" size1024="842 219 970 347" z="9" background="ui\ui map boarder template 128x128" transparent="">
+      </gadget>
+      <gadget name="MapPicker-R2C7-Name" textcentervert="" textcolor="3 0 88" textfont="PickerTitle" textfontsize="16" type="formatText" size1024="845 347 972 369" z="11" textcenterhoriz="">
+      </gadget>
+      <gadget name="MapPicker-R3C1-Highlight" type="gadget" size1024="50 377 178 505" z="10" hidden="" background="ui\ui map boarder highlight 128x128" transparent="">
+      </gadget>
+      <gadget sound="UI_brick" name="MapPicker-R3C1-Button" type="button" size1024="50 377 178 505" z="8" background="ui\ui map savannah 128x128" donthighlight="">
+      </gadget>
+      <gadget name="MapPicker-R3C1-Border" type="gadget" size1024="50 377 178 505" z="9" background="ui\ui map boarder template 128x128" transparent="">
+      </gadget>
+      <gadget name="MapPicker-R3C1-Name" textcentervert="" textcolor="3 0 88" textfont="PickerTitle" textfontsize="16" type="formatText" size1024="53 505 180 527" z="10" textcenterhoriz="">
+      </gadget>
+      <gadget name="MapPicker-R3C2-Highlight" type="gadget" size1024="182 377 310 505" z="10" hidden="" background="ui\ui map boarder highlight 128x128" transparent="">
+      </gadget>
+      <gadget sound="UI_brick" name="MapPicker-R3C2-Button" type="button" size1024="182 377 310 505" z="8" background="ui\ui map sudden death 128x128" donthighlight="">
+      </gadget>
+      <gadget name="MapPicker-R3C2-Border" type="gadget" size1024="182 377 310 505" z="9" background="ui\ui map boarder template 128x128" transparent="">
+      </gadget>
+      <gadget name="MapPicker-R3C2-Name" textcentervert="" textcolor="3 0 88" textfont="PickerTitle" textfontsize="16" type="formatText" size1024="185 505 312 527" z="11" textcenterhoriz="">
+      </gadget>
+      <gadget name="MapPicker-R3C3-Highlight" type="gadget" size1024="314 377 442 505" z="10" hidden="" background="ui\ui map boarder highlight 128x128" transparent="">
+      </gadget>
+      <gadget sound="UI_brick" name="MapPicker-R3C3-Button" type="button" size1024="314 377 442 505" z="8" background="ui\ui map team migration 128x128" donthighlight="">
+      </gadget>
+      <gadget name="MapPicker-R3C3-Border" type="gadget" size1024="314 377 442 505" z="9" background="ui\ui map boarder template 128x128" transparent="">
+      </gadget>
+      <gadget name="MapPicker-R3C3-Name" textcentervert="" textcolor="3 0 88" textfont="PickerTitle" textfontsize="16" type="formatText" size1024="317 505 444 527" z="13" textcenterhoriz="">
+      </gadget>
+      <gadget name="MapPicker-R3C4-Highlight" type="gadget" size1024="446 377 574 505" z="10" hidden="" background="ui\ui map boarder highlight 128x128" transparent="">
+      </gadget>
+      <gadget sound="UI_brick" name="MapPicker-R3C4-Button" type="button" size1024="446 377 574 505" z="8" background="ui\ui map valley of kings 128x128" donthighlight="">
+      </gadget>
+      <gadget name="MapPicker-R3C4-Border" type="gadget" size1024="446 377 574 505" z="9" background="ui\ui map boarder template 128x128" transparent="">
+      </gadget>
+      <gadget name="MapPicker-R3C4-Name" textcentervert="" textcolor="3 0 88" textfont="PickerTitle" textfontsize="16" type="formatText" size1024="449 505 576 527" z="10" textcenterhoriz="">
+      </gadget>
+      <gadget name="MapPicker-R3C5-Highlight" type="gadget" size1024="578 377 706 505" z="10" hidden="" background="ui\ui map boarder highlight 128x128" transparent="">
+      </gadget>
+      <gadget sound="UI_brick" name="MapPicker-R3C5-Button" type="button" size1024="578 377 706 505" z="8" background="ui\ui map vinlandsaga 128x128" donthighlight="">
+      </gadget>
+      <gadget name="MapPicker-R3C5-Border" type="gadget" size1024="578 377 706 505" z="9" background="ui\ui map boarder template 128x128" transparent="">
+      </gadget>
+      <gadget name="MapPicker-R3C5-Name" textcentervert="" textcolor="3 0 88" textfont="PickerTitle" textfontsize="16" type="formatText" size1024="581 505 708 527" z="10" textcenterhoriz="">
+      </gadget>
+      <gadget name="MapPicker-R3C6-Highlight" type="gadget" size1024="710 377 838 505" z="10" hidden="" background="ui\ui map boarder highlight 128x128" transparent="">
+      </gadget>
+      <gadget sound="UI_brick" name="MapPicker-R3C6-Button" type="button" size1024="710 377 838 505" z="8" background="ui\ui map watering hole 128x128" donthighlight="">
+      </gadget>
+      <gadget name="MapPicker-R3C6-Border" type="gadget" size1024="710 377 838 505" z="9" background="ui\ui map boarder template 128x128" transparent="">
+      </gadget>
+      <gadget name="MapPicker-R3C6-Name" textcentervert="" textcolor="3 0 88" textfont="PickerTitle" textfontsize="16" type="formatText" size1024="713 505 840 527" z="11" textcenterhoriz="">
+      </gadget>
+      <gadget name="MapPicker-R3C7-Highlight" type="gadget" size1024="842 377 970 505" z="10" hidden="" background="ui\ui map boarder highlight 128x128" transparent="">
+      </gadget>
+      <gadget sound="UI_brick" name="MapPicker-R3C7-Button" type="button" size1024="842 377 970 505" z="8" background="ui\ui map random 128x128" donthighlight="">
+      </gadget>
+      <gadget name="MapPicker-R3C7-Border" type="gadget" size1024="842 377 970 505" z="9" background="ui\ui map boarder template 128x128" transparent="">
+      </gadget>
+      <gadget name="MapPicker-R3C7-Name" textcentervert="" textcolor="3 0 88" textfont="PickerTitle" textfontsize="16" type="formatText" size1024="845 505 972 527" z="10" textcenterhoriz="">
+      </gadget>
+      <gadget name="MapPicker-R4C1-Highlight" type="gadget" size1024="50 535 178 663" z="10" hidden="" background="ui\ui map boarder highlight 128x128" transparent="">
+      </gadget>
+      <gadget sound="UI_brick" name="MapPicker-R4C1-Button" type="button" size1024="50 535 178 663" z="8" background="ui\ui map random 128x128" donthighlight="">
+      </gadget>
+      <gadget name="MapPicker-R4C1-Border" type="gadget" size1024="50 535 178 663" z="9" background="ui\ui map boarder template 128x128" transparent="">
+      </gadget>
+      <gadget name="MapPicker-R4C1-Name" textcentervert="" textcolor="3 0 88" textfont="PickerTitle" textfontsize="16" type="formatText" size1024="53 663 180 685" z="10" textcenterhoriz="">
+      </gadget>
+      <gadget name="MapPicker-R4C2-Highlight" type="gadget" size1024="182 535 310 663" z="10" hidden="" background="ui\ui map boarder highlight 128x128" transparent="">
+      </gadget>
+      <gadget sound="UI_brick" name="MapPicker-R4C2-Button" type="button" size1024="182 535 310 663" z="8" background="ui\ui map random 128x128" donthighlight="">
+      </gadget>
+      <gadget name="MapPicker-R4C2-Border" type="gadget" size1024="182 535 310 663" z="9" background="ui\ui map boarder template 128x128" transparent="">
+      </gadget>
+      <gadget name="MapPicker-R4C2-Name" textcentervert="" textcolor="3 0 88" textfont="PickerTitle" textfontsize="16" type="formatText" size1024="185 663 312 685" z="13" textcenterhoriz="">
+      </gadget>
+      <gadget name="MapPicker-R4C3-Highlight" type="gadget" size1024="314 535 442 663" z="10" hidden="" background="ui\ui map boarder highlight 128x128" transparent="">
+      </gadget>
+      <gadget sound="UI_brick" name="MapPicker-R4C3-Button" type="button" size1024="314 535 442 663" z="8" background="ui\ui map random 128x128" donthighlight="">
+      </gadget>
+      <gadget name="MapPicker-R4C3-Border" type="gadget" size1024="314 535 442 663" z="9" background="ui\ui map boarder template 128x128" transparent="">
+      </gadget>
+      <gadget name="MapPicker-R4C3-Name" textcentervert="" textcolor="3 0 88" textfont="PickerTitle" textfontsize="16" type="formatText" size1024="317 663 444 685" z="10" textcenterhoriz="">
+      </gadget>
+      <gadget name="MapPicker-R4C4-Highlight" type="gadget" size1024="446 535 574 663" z="10" hidden="" background="ui\ui map boarder highlight 128x128" transparent="">
+      </gadget>
+      <gadget sound="UI_brick" name="MapPicker-R4C4-Button" type="button" size1024="446 535 574 663" z="8" background="ui\ui map random 128x128" donthighlight="">
+      </gadget>
+      <gadget name="MapPicker-R4C4-Border" type="gadget" size1024="446 535 574 663" z="9" background="ui\ui map boarder template 128x128" transparent="">
+      </gadget>
+      <gadget name="MapPicker-R4C4-Name" textcentervert="" textcolor="3 0 88" textfont="PickerTitle" textfontsize="16" type="formatText" size1024="449 663 576 685" z="11" textcenterhoriz="">
+      </gadget>
+      <gadget name="MapPicker-R4C5-Highlight" type="gadget" size1024="578 535 706 663" z="10" hidden="" background="ui\ui map boarder highlight 128x128" transparent="">
+      </gadget>
+      <gadget sound="UI_brick" name="MapPicker-R4C5-Button" type="button" size1024="578 535 706 663" z="8" background="ui\ui map savannah 128x128" donthighlight="">
+      </gadget>
+      <gadget name="MapPicker-R4C5-Border" type="gadget" size1024="578 535 706 663" z="9" background="ui\ui map boarder template 128x128" transparent="">
+      </gadget>
+      <gadget name="MapPicker-R4C5-Name" textcentervert="" textcolor="3 0 88" textfont="PickerTitle" textfontsize="16" type="formatText" size1024="581 663 708 685" z="10" textcenterhoriz="">
+      </gadget>
+      <gadget name="MapPicker-R4C6-Highlight" type="gadget" size1024="710 535 838 663" z="10" hidden="" background="ui\ui map boarder highlight 128x128" transparent="">
+      </gadget>
+      <gadget sound="UI_brick" name="MapPicker-R4C6-Button" type="button" size1024="710 535 838 663" z="8" background="ui\ui map savannah 128x128" donthighlight="">
+      </gadget>
+      <gadget name="MapPicker-R4C6-Border" type="gadget" size1024="710 535 838 663" z="9" background="ui\ui map boarder template 128x128" transparent="">
+      </gadget>
+      <gadget name="MapPicker-R4C6-Name" textcentervert="" textcolor="3 0 88" textfont="PickerTitle" textfontsize="16" type="formatText" size1024="713 664 840 685" z="10" textcenterhoriz="">
+      </gadget>
+      <gadget name="MapPicker-R4C7-Highlight" type="gadget" size1024="841 535 969 663" z="10" hidden="" background="ui\ui map boarder highlight 128x128" transparent="">
+      </gadget>
+      <gadget sound="UI_brick" name="MapPicker-R4C7-Button" type="button" size1024="842 535 970 663" z="8" background="ui\ui map savannah 128x128" donthighlight="">
+      </gadget>
+      <gadget name="MapPicker-R4C7-Border" type="gadget" size1024="842 535 970 663" z="9" background="ui\ui map boarder template 128x128" transparent="">
+      </gadget>
+      <gadget name="MapPicker-R4C7-Name" textcentervert="" textcolor="3 0 88" textfont="PickerTitle" textfontsize="16" type="formatText" size1024="845 664 972 685" z="10" textcenterhoriz="">
+      </gadget>
+    </gadget>
+  </gadget>
+</layout>

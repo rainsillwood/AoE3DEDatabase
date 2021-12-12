@@ -1,0 +1,6 @@
+<layout>
+  <gadget type="gadget" name="pregame-messagedialog" size1024="350 196 680 420" bevel="" background="UI\background_D" tilebackground="" windowzstyle="">
+    <gadget name="pregame-messagedialog-prompt" type="formatText" textcolor="0 0 0" textfont="EntryFields" textfontsize="12" size1024="382 240 654 365" textcentervert="" textcenterhoriz="">Message Text Goes Here</gadget>
+    <gadget name="pregame-messagedialog-OKButton" z="12" textcolor="0 0 0" textfontsize="14" textfont="ButtonFont" type="button" foreground="UI\button_A" size1024="454 380 584 410">$$18465$$OK</gadget>
+  </gadget>
+</layout>

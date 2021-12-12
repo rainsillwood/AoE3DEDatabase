@@ -1,0 +1,19 @@
+<layout>
+  <gadget name="SPCLoad" type="gadget" size1024="0 0 1024 768" windowzstyle="" texturecoords="0 0 1 1">
+    <gadget name="SPCLoad-Background" type="gadget" size1024="0 0 1024 768" z="9" transparent="" background="ui\singleplayer\SPC_load_screen_01" texturecoords="0 0 1 0.749755620723363">
+      <gadget name="SPCLoad-Text1" type="formatText" textcolor="255 255 255" textmarkup="" textfont="ObjectivesText" textfontsize="16" size1024="78 573 708 701" z="10">
+      </gadget>
+      <gadget name="SPCLoad-Text2" type="formatText" textcolor="255 255 255" textmarkup="" textfont="ObjectivesText" textfontsize="16" size1024="336 525 685 699" z="10">
+      </gadget>
+      <gadget name="SPCLoad-Text3" type="formatText" textcolor="34 27 18" textmarkup="" textfont="ObjectivesText" textfontsize="16" size1024="404 100 870 240" z="10">
+      </gadget>
+      <gadget name="SPCLoad-Text4" type="formatText" textcolor="34 27 18" textmarkup="" textfont="ObjectivesText" textfontsize="16" size1024="145 100 610 240" z="10">
+      </gadget>
+      <gadget name="SPCLoad-Text5" type="formatText" textcolor="34 27 18" textmarkup="" textfont="ObjectivesText" textfontsize="16" size1024="404 525 870 665" z="10">
+      </gadget>
+      <gadget name="SPCLoad-Text6" type="formatText" textcolor="255 255 255" textmarkup="" textfont="ObjectivesText" textfontsize="16" size1024="98 537 569 680" z="10">
+      </gadget>
+      <gadget name="SPCLoad-Continue" type="stateButton" bevelbutton="" size1024="838 680 966 712" z="94" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="255 255 255" textcenterhoriz="" textcentervert="" texturecoords="0 0 1 1" mouseovertext="$$18427$$">$$20038$$Continue<stateentry background="ui\core_ui\button_128x32_normal"></stateentry><stateentry background="ui\core_ui\button_128x32_clicked"></stateentry><stateentry background="ui\core_ui\button_128x32_rollover"></stateentry><stateentry background=""></stateentry></gadget>
+    </gadget>
+  </gadget>
+</layout>

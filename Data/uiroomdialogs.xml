@@ -1,0 +1,29 @@
+<layout>
+  <gadget type="dialog" name="mproom-roominviterequestdialog" size1024="0 0 300 150" bevel="" hidden="" a-dtype="textFontSize number Z number" background="UI\DialogBG_C" centervert="" centerhoriz="" z="99" tilebackground="">
+    <gadget name="mproom-roominviterequestdialog-prompt" textwrapon="" type="textBox" sizerel1024="30 20 280 110" textcolor="0 0 0" textfont="Arial nodrop" textfontsize="14" textcentervert="">$$21400$$%s has invited you to their room. Accept?</gadget>
+    <gadget name="mproom-roominviterequestdialog-Yesbutton" type="button" sizerel1024="10 115 138 147" textfont="Arial" textfontsize="14" textcolor="0 0 0" a-dtype="textFontSize number Z number" foreground="UI\button_A">$$18451$$Yes</gadget>
+    <gadget name="mproom-roominviterequestdialog-Nobutton" foreground="UI\button_A" type="button" sizerel1024="162 115 290 147" textfont="Arial" textfontsize="14" textcolor="0 0 0" a-dtype="textFontSize number Z number">$$18452$$No</gadget>
+  </gadget>
+  <gadget type="dialog" name="mproom-roomjoinrequestdialog" size1024="0 0 300 150" bevel="" hidden="" a-dtype="textFontSize number Z number" background="UI\DialogBG_C" centervert="" centerhoriz="" z="99" tilebackground="">
+    <gadget name="mproom-roomjoinrequestdialog-prompt" textwrapon="" type="textBox" sizerel1024="30 20 280 110" textcolor="0 0 0" textfont="Arial nodrop" textfontsize="14" textcentervert="">$$21401$$%s would like to join your room. Accept?</gadget>
+    <gadget name="mproom-roomjoinrequestdialog-Yesbutton" foreground="UI\button_A" type="button" sizerel1024="10 115 138 147" textfont="Arial" textfontsize="14" textcolor="0 0 0" a-dtype="textFontSize number Z number">$$18451$$Yes</gadget>
+    <gadget name="mproom-roomjoinrequestdialog-Nobutton" foreground="UI\button_A" type="button" sizerel1024="162 115 290 147" textfont="Arial" textfontsize="14" textcolor="0 0 0" a-dtype="textFontSize number Z number">$$18452$$No</gadget>
+  </gadget>
+  <gadget type="dialog" name="mproom-roomerrordialog" size1024="0 0 300 150" bevel="" hidden="" a-dtype="textFontSize number Z number" centervert="" centerhoriz="" background="UI\DialogBG_C" z="100" tilebackground="">
+    <gadget name="mproom-roomerrordialog-prompt" type="textBox" sizerel1024="10 20 290 105" textcolor="0 0 0" textfont="Arial nodrop" textfontsize="14" textcentervert="" textwrapon="">
+    </gadget>
+    <gadget name="mproom-roomerrordialog-OKbutton" type="button" sizerel1024="86 115 214 147" foreground="UI\button_A" textfont="Arial" textfontsize="14" textcolor="0 0 0" a-dtype="textFontSize number Z number">$$18465$$OK<command>gadgetUnReal("mproom-roomerrordialog")</command></gadget>
+  </gadget>
+  <gadget type="dialog" name="mproom-roomyorndialog" size1024="0 0 300 150" bevel="" hidden="" a-dtype="textFontSize number Z number" centervert="" centerhoriz="" background="UI\DialogBG_C" z="100" tilebackground="">
+    <gadget name="mproom-roomyorndialog-prompt" type="textBox" sizerel1024="10 10 290 110" textcolor="0 0 0" textfont="Arial nodrop" textfontsize="14" textcentervert="" textwrapon="">
+    </gadget>
+    <gadget name="mproom-roomyorndialog-Yesbutton" type="button" sizerel1024="10 115 128 147" foreground="UI\button_A" textfont="Arial" textfontsize="14" textcolor="0 0 0" a-dtype="textFontSize number Z number">$$18451$$Yes<command>gadgetUnReal("mproom-roomyorndialog")</command></gadget>
+    <gadget name="mproom-roomyorndialog-Nobutton" type="button" sizerel1024="162 115 290 147" foreground="UI\button_A" textfont="Arial" textfontsize="14" textcolor="0 0 0" a-dtype="textFontSize number Z number">$$18452$$No<command>gadgetUnReal("mproom-roomyorndialog")</command></gadget>
+  </gadget>
+  <gadget type="dialog" name="friend-roomyorndialog" size1024="0 0 300 150" bevel="" hidden="" a-dtype="textFontSize number Z number" centervert="" centerhoriz="" background="UI\DialogBG_C" z="100" tilebackground="">
+    <gadget name="friend-roomyorndialog-prompt" type="textBox" sizerel1024="10 10 290 110" textcolor="0 0 0" textfont="Arial nodrop" textfontsize="14" textcentervert="" textwrapon="">
+    </gadget>
+    <gadget name="friend-roomyorndialog-Yesbutton" type="button" sizerel1024="10 115 128 147" foreground="UI\button_A" textfont="Arial" textfontsize="14" textcolor="0 0 0" a-dtype="textFontSize number Z number">$$18451$$Yes<command>gadgetUnReal("friend-roomyorndialog")</command></gadget>
+    <gadget name="friend-roomyorndialog-Nobutton" type="button" sizerel1024="162 115 290 147" foreground="UI\button_A" textfont="Arial" textfontsize="14" textcolor="0 0 0" a-dtype="textFontSize number Z number">$$18452$$No<command>gadgetUnReal("friend-roomyorndialog")</command></gadget>
+  </gadget>
+</layout>

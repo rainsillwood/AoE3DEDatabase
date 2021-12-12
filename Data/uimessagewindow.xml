@@ -1,0 +1,17 @@
+<layout>
+  <gadget name="messageWindow" type="gadget" background="ui\ingame\mission_objectives" tilebackground="" size1024="256 80 768 144" z="4" transparent="" fade="" hidden="">
+    <gadget name="messageWindow-CloseButton" type="stateButton" textcolor="255 208 0" statebuttonuseinternalstates="" size1024="752 80 768 96" z="10">
+      <command>gadgetUnReal("messageWindow")</command>
+      <stateentry background="ui\file_system\close">
+      </stateentry>
+      <stateentry background="ui\file_system\close_clicked">
+      </stateentry>
+      <stateentry background="ui\file_system\close_rollover">
+      </stateentry>
+      <stateentry background="">
+      </stateentry>
+    </gadget>
+    <gadget name="messageWindow-text" type="formatText" size1024="264 88 760 136" textcolor="255 208 0" background="" z="9" textfont="RegularInGame" textfontsize="12" textwrapon="">
+    </gadget>
+  </gadget>
+</layout>

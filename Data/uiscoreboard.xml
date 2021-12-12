@@ -1,0 +1,198 @@
+<layout>
+  <gadget name="ScoreBoard" type="gadget" size1024="899 131 1022 364" z="1" transparent="" donthighlight="">
+    <gadget name="TeamNameRow1" type="formatText" size1024="899 131 1022 147" z="2" transparent="" donthilight="" textcolor="255 255 255" textfont="ScoreFont" textfontsize="12" textmarkup="">
+    </gadget>
+    <gadget name="TeamNameRow2" type="formatText" size1024="899 131 1022 147" z="2" transparent="" donthilight="" textcolor="255 255 255" textfont="ScoreFont" textfontsize="12" textmarkup="">
+    </gadget>
+    <gadget name="PlayerRow1" type="gadget" size1024="899 131 1022 147" z="2" transparent="" donthilight="">
+      <gadget name="Player1AgeIcon" type="gadget" size1024="899 131 915 147" z="3" transparent="" donthilight="">
+      </gadget>
+      <gadget name="Player1NameAndScoreText" type="formatText" size1024="915 131 1022 147" z="3" transparent="" donthilight="" textcolor="255 255 255" textfont="ScoreFont" textfontsize="12" textmarkup="">
+      </gadget>
+    </gadget>
+    <gadget name="PlayerRow2" type="gadget" size1024="899 131 1022 147" z="2" transparent="" donthilight="">
+      <gadget name="Player2AgeIcon" type="gadget" size1024="899 131 915 147" z="3" transparent="" donthilight="">
+      </gadget>
+      <gadget name="Player2NameAndScoreText" type="formatText" size1024="915 131 1022 147" z="3" transparent="" donthilight="" textcolor="255 255 255" textfont="ScoreFont" textfontsize="12" textmarkup="">
+      </gadget>
+    </gadget>
+    <gadget name="PlayerRow3" type="gadget" size1024="899 131 1022 147" z="2" transparent="" donthilight="">
+      <gadget name="Player3AgeIcon" type="gadget" size1024="899 131 915 147" z="3" transparent="" donthilight="">
+      </gadget>
+      <gadget name="Player3NameAndScoreText" type="formatText" size1024="915 131 1022 147" z="3" transparent="" donthilight="" textcolor="255 255 255" textfont="ScoreFont" textfontsize="12" textmarkup="">
+      </gadget>
+    </gadget>
+    <gadget name="PlayerRow4" type="gadget" size1024="899 131 1022 147" z="2" transparent="" donthilight="">
+      <gadget name="Player4AgeIcon" type="gadget" size1024="899 131 915 147" z="3" transparent="" donthilight="">
+      </gadget>
+      <gadget name="Player4NameAndScoreText" type="formatText" size1024="915 131 1022 147" z="3" transparent="" donthilight="" textcolor="255 255 255" textfont="ScoreFont" textfontsize="12" textmarkup="">
+      </gadget>
+    </gadget>
+    <gadget name="PlayerRow5" type="gadget" size1024="899 131 1022 147" z="2" transparent="" donthilight="">
+      <gadget name="Player5AgeIcon" type="gadget" size1024="899 131 915 147" z="3" transparent="" donthilight="">
+      </gadget>
+      <gadget name="Player5NameAndScoreText" type="formatText" size1024="915 131 1022 147" z="3" transparent="" donthilight="" textcolor="255 255 255" textfont="ScoreFont" textfontsize="12" textmarkup="">
+      </gadget>
+    </gadget>
+    <gadget name="PlayerRow6" type="gadget" size1024="899 131 1022 147" z="2" transparent="" donthilight="">
+      <gadget name="Player6AgeIcon" type="gadget" size1024="899 131 915 147" z="3" transparent="" donthilight="">
+      </gadget>
+      <gadget name="Player6NameAndScoreText" type="formatText" size1024="915 131 1022 147" z="3" transparent="" donthilight="" textcolor="255 255 255" textfont="ScoreFont" textfontsize="12" textmarkup="">
+      </gadget>
+    </gadget>
+    <gadget name="PlayerRow7" type="gadget" size1024="899 131 1022 147" z="2" transparent="" donthilight="">
+      <gadget name="Player7AgeIcon" type="gadget" size1024="899 131 915 147" z="3" transparent="" donthilight="">
+      </gadget>
+      <gadget name="Player7NameAndScoreText" type="formatText" size1024="915 131 1022 147" z="3" transparent="" donthilight="" textcolor="255 255 255" textfont="ScoreFont" textfontsize="12" textmarkup="">
+      </gadget>
+    </gadget>
+    <gadget name="PlayerRow8" type="gadget" size1024="899 131 1022 147" z="2" transparent="" donthilight="">
+      <gadget name="Player8AgeIcon" type="gadget" size1024="899 131 915 147" z="3" transparent="" donthilight="">
+      </gadget>
+      <gadget name="Player8NameAndScoreText" type="formatText" size1024="915 131 1022 147" z="3" transparent="" donthilight="" textcolor="255 255 255" textfont="ScoreFont" textfontsize="12" textmarkup="">
+      </gadget>
+    </gadget>
+    <gadget name="PlayerTPRow1" type="gadget" size1024="899 131 1022 147" z="2" transparent="" donthilight="">
+      <gadget name="PlayerTPRow1Icon1" type="gadget" size1024="899 131 915 147" z="3" transparent="" donthilight="">
+      </gadget>
+      <gadget name="PlayerTPRow1Icon2" type="gadget" size1024="915 131 931 147" z="3" transparent="" donthilight="">
+      </gadget>
+      <gadget name="PlayerTPRow1Icon3" type="gadget" size1024="931 131 947 147" z="3" transparent="" donthilight="">
+      </gadget>
+      <gadget name="PlayerTPRow1Icon4" type="gadget" size1024="947 131 963 147" z="3" transparent="" donthilight="">
+      </gadget>
+      <gadget name="PlayerTPRow1Icon5" type="gadget" size1024="963 131 979 147" z="3" transparent="" donthilight="">
+      </gadget>
+      <gadget name="PlayerTPRow1Icon6" type="gadget" size1024="979 131 995 147" z="3" transparent="" donthilight="">
+      </gadget>
+      <gadget name="PlayerTPRow1Icon7" type="gadget" size1024="995 131 1011 147" z="3" transparent="" donthilight="">
+      </gadget>
+    </gadget>
+    <gadget name="PlayerTPRow2" type="gadget" size1024="899 131 1022 147" z="2" transparent="" donthilight="">
+      <gadget name="PlayerTPRow2Icon1" type="gadget" size1024="899 131 915 147" z="3" transparent="" donthilight="">
+      </gadget>
+      <gadget name="PlayerTPRow2Icon2" type="gadget" size1024="915 131 931 147" z="3" transparent="" donthilight="">
+      </gadget>
+      <gadget name="PlayerTPRow2Icon3" type="gadget" size1024="931 131 947 147" z="3" transparent="" donthilight="">
+      </gadget>
+      <gadget name="PlayerTPRow2Icon4" type="gadget" size1024="947 131 963 147" z="3" transparent="" donthilight="">
+      </gadget>
+      <gadget name="PlayerTPRow2Icon5" type="gadget" size1024="963 131 979 147" z="3" transparent="" donthilight="">
+      </gadget>
+      <gadget name="PlayerTPRow2Icon6" type="gadget" size1024="979 131 995 147" z="3" transparent="" donthilight="">
+      </gadget>
+      <gadget name="PlayerTPRow2Icon7" type="gadget" size1024="995 131 1011 147" z="3" transparent="" donthilight="">
+      </gadget>
+    </gadget>
+    <gadget name="PlayerTPRow3" type="gadget" size1024="899 131 1022 147" z="2" transparent="" donthilight="">
+      <gadget name="PlayerTPRow3Icon1" type="gadget" size1024="899 131 915 147" z="3" transparent="" donthilight="">
+      </gadget>
+      <gadget name="PlayerTPRow3Icon2" type="gadget" size1024="915 131 931 147" z="3" transparent="" donthilight="">
+      </gadget>
+      <gadget name="PlayerTPRow3Icon3" type="gadget" size1024="931 131 947 147" z="3" transparent="" donthilight="">
+      </gadget>
+      <gadget name="PlayerTPRow3Icon4" type="gadget" size1024="947 131 963 147" z="3" transparent="" donthilight="">
+      </gadget>
+      <gadget name="PlayerTPRow3Icon5" type="gadget" size1024="963 131 979 147" z="3" transparent="" donthilight="">
+      </gadget>
+      <gadget name="PlayerTPRow3Icon6" type="gadget" size1024="979 131 995 147" z="3" transparent="" donthilight="">
+      </gadget>
+      <gadget name="PlayerTPRow3Icon7" type="gadget" size1024="995 131 1011 147" z="3" transparent="" donthilight="">
+      </gadget>
+    </gadget>
+    <gadget name="PlayerTPRow4" type="gadget" size1024="899 131 1022 147" z="2" transparent="" donthilight="">
+      <gadget name="PlayerTPRow4Icon1" type="gadget" size1024="899 131 915 147" z="3" transparent="" donthilight="">
+      </gadget>
+      <gadget name="PlayerTPRow4Icon2" type="gadget" size1024="915 131 931 147" z="3" transparent="" donthilight="">
+      </gadget>
+      <gadget name="PlayerTPRow4Icon3" type="gadget" size1024="931 131 947 147" z="3" transparent="" donthilight="">
+      </gadget>
+      <gadget name="PlayerTPRow4Icon4" type="gadget" size1024="947 131 963 147" z="3" transparent="" donthilight="">
+      </gadget>
+      <gadget name="PlayerTPRow4Icon5" type="gadget" size1024="963 131 979 147" z="3" transparent="" donthilight="">
+      </gadget>
+      <gadget name="PlayerTPRow4Icon6" type="gadget" size1024="979 131 995 147" z="3" transparent="" donthilight="">
+      </gadget>
+      <gadget name="PlayerTPRow4Icon7" type="gadget" size1024="995 131 1011 147" z="3" transparent="" donthilight="">
+      </gadget>
+    </gadget>
+    <gadget name="PlayerTPRow5" type="gadget" size1024="899 131 1022 147" z="2" transparent="" donthilight="">
+      <gadget name="PlayerTPRow5Icon1" type="gadget" size1024="899 131 915 147" z="3" transparent="" donthilight="">
+      </gadget>
+      <gadget name="PlayerTPRow5Icon2" type="gadget" size1024="915 131 931 147" z="3" transparent="" donthilight="">
+      </gadget>
+      <gadget name="PlayerTPRow5Icon3" type="gadget" size1024="931 131 947 147" z="3" transparent="" donthilight="">
+      </gadget>
+      <gadget name="PlayerTPRow5Icon4" type="gadget" size1024="947 131 963 147" z="3" transparent="" donthilight="">
+      </gadget>
+      <gadget name="PlayerTPRow5Icon5" type="gadget" size1024="963 131 979 147" z="3" transparent="" donthilight="">
+      </gadget>
+      <gadget name="PlayerTPRow5Icon6" type="gadget" size1024="979 131 995 147" z="3" transparent="" donthilight="">
+      </gadget>
+      <gadget name="PlayerTPRow5Icon7" type="gadget" size1024="995 131 1011 147" z="3" transparent="" donthilight="">
+      </gadget>
+    </gadget>
+    <gadget name="PlayerTPRow6" type="gadget" size1024="899 131 1022 147" z="2" transparent="" donthilight="">
+      <gadget name="PlayerTPRow6Icon1" type="gadget" size1024="899 131 915 147" z="3" transparent="" donthilight="">
+      </gadget>
+      <gadget name="PlayerTPRow6Icon2" type="gadget" size1024="915 131 931 147" z="3" transparent="" donthilight="">
+      </gadget>
+      <gadget name="PlayerTPRow6Icon3" type="gadget" size1024="931 131 947 147" z="3" transparent="" donthilight="">
+      </gadget>
+      <gadget name="PlayerTPRow6Icon4" type="gadget" size1024="947 131 963 147" z="3" transparent="" donthilight="">
+      </gadget>
+      <gadget name="PlayerTPRow6Icon5" type="gadget" size1024="963 131 979 147" z="3" transparent="" donthilight="">
+      </gadget>
+      <gadget name="PlayerTPRow6Icon6" type="gadget" size1024="979 131 995 147" z="3" transparent="" donthilight="">
+      </gadget>
+      <gadget name="PlayerTPRow6Icon7" type="gadget" size1024="995 131 1011 147" z="3" transparent="" donthilight="">
+      </gadget>
+    </gadget>
+    <gadget name="PlayerTPRow7" type="gadget" size1024="899 131 1022 147" z="2" transparent="" donthilight="">
+      <gadget name="PlayerTPRow7Icon1" type="gadget" size1024="899 131 915 147" z="3" transparent="" donthilight="">
+      </gadget>
+      <gadget name="PlayerTPRow7Icon2" type="gadget" size1024="915 131 931 147" z="3" transparent="" donthilight="">
+      </gadget>
+      <gadget name="PlayerTPRow7Icon3" type="gadget" size1024="931 131 947 147" z="3" transparent="" donthilight="">
+      </gadget>
+      <gadget name="PlayerTPRow7Icon4" type="gadget" size1024="947 131 963 147" z="3" transparent="" donthilight="">
+      </gadget>
+      <gadget name="PlayerTPRow7Icon5" type="gadget" size1024="963 131 979 147" z="3" transparent="" donthilight="">
+      </gadget>
+      <gadget name="PlayerTPRow7Icon6" type="gadget" size1024="979 131 995 147" z="3" transparent="" donthilight="">
+      </gadget>
+      <gadget name="PlayerTPRow7Icon7" type="gadget" size1024="995 131 1011 147" z="3" transparent="" donthilight="">
+      </gadget>
+    </gadget>
+    <gadget name="PlayerTPRow8" type="gadget" size1024="899 131 1022 147" z="2" transparent="" donthilight="">
+      <gadget name="PlayerTPRow8Icon1" type="gadget" size1024="899 131 915 147" z="3" transparent="" donthilight="">
+      </gadget>
+      <gadget name="PlayerTPRow8Icon2" type="gadget" size1024="915 131 931 147" z="3" transparent="" donthilight="">
+      </gadget>
+      <gadget name="PlayerTPRow8Icon3" type="gadget" size1024="931 131 947 147" z="3" transparent="" donthilight="">
+      </gadget>
+      <gadget name="PlayerTPRow8Icon4" type="gadget" size1024="947 131 963 147" z="3" transparent="" donthilight="">
+      </gadget>
+      <gadget name="PlayerTPRow8Icon5" type="gadget" size1024="963 131 979 147" z="3" transparent="" donthilight="">
+      </gadget>
+      <gadget name="PlayerTPRow8Icon6" type="gadget" size1024="979 131 995 147" z="3" transparent="" donthilight="">
+      </gadget>
+      <gadget name="PlayerTPRow8Icon7" type="gadget" size1024="995 131 1011 147" z="3" transparent="" donthilight="">
+      </gadget>
+    </gadget>
+    <gadget name="TeamSpacer1B" type="gadget" size1024="899 131 1022 147" z="2" transparent="" donthilight="">
+    </gadget>
+    <gadget name="TeamSpacer2B" type="gadget" size1024="899 131 1022 147" z="2" transparent="" donthilight="">
+    </gadget>
+    <gadget name="TeamSpacer3B" type="gadget" size1024="899 131 1022 147" z="2" transparent="" donthilight="">
+    </gadget>
+    <gadget name="TeamSpacer4B" type="gadget" size1024="899 131 1022 147" z="2" transparent="" donthilight="">
+    </gadget>
+    <gadget name="TeamSpacer5B" type="gadget" size1024="899 131 1022 147" z="2" transparent="" donthilight="">
+    </gadget>
+    <gadget name="TeamSpacer6B" type="gadget" size1024="899 131 1022 147" z="2" transparent="" donthilight="">
+    </gadget>
+    <gadget name="TeamSpacer7B" type="gadget" size1024="899 131 1022 147" z="2" transparent="" donthilight="">
+    </gadget>
+  </gadget>
+</layout>

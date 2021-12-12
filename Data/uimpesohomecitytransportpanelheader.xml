@@ -1,0 +1,13 @@
+<layout>
+  <gadget name="homecitytransportpanel-header" type="homeCityTransportPanelHeader" mouseovertext="$$24542$$" size1024="224 109 464 231" z="20">
+    <gadget name="homecitytransportpanel-homecityPlayer" textjustifyright="" type="formatText" size1024="8 120 217 142" donthighlight="" textcolor="255 255 255" textfont="GoalText" textfontsize="18" textcentervert="" z="12" datarefreshrate="200">{playerName}</gadget>
+    <gadget name="homecitytransportpanel-homecityName" type="formatText" size1024="228 148 437 170" donthighlight="" textcolor="255 255 255" textfont="GoalText" textfontsize="18" textcentervert="" z="12" datarefreshrate="200">{playerHomeCityName}</gadget>
+    <gadget name="homecitytransportpanel-homecityButton" type="button" size1024="228 114 272 142" texturecoords="0.0 0.0 0.8125 0.75" z="16" foreground="" clampforeground="" clampbackground="" donthighlight="">
+      <leftcommand>toggleHomeCityView()</leftcommand>
+    </gadget>
+    <gadget name="homecitytransportpanel-homecityLevel" type="formatText" size1024="228 177 297 197" donthighlight="" textcolor="255 255 255" textfont="AgeText" textfontsize="12" textcentervert="" z="12" datarefreshrate="200">
+    </gadget>
+    <gadget name="homecitytransportpanel-homecityExp" type="formatText" size1024="228 203 343 223" donthighlight="" textcolor="255 255 255" textfont="AgeText" textfontsize="12" textcentervert="" z="12" datarefreshrate="200">
+    </gadget>
+  </gadget>
+</layout>

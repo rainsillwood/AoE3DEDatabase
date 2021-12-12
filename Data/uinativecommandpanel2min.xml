@@ -1,0 +1,58 @@
+<layout>
+  <gadget name="nativecommandpanel2" type="gadget" backgroundcolor="0 0 0" size1024="700 628 1024 746" texturecoords="0 0 0.64 0.455" z="5" background="ui\ingame\ingame_ui_small_03x_ypack">
+    <gadget name="nativecommandpanel2-NativePortraitBack" type="button" size1024="732 645 828 741" z="10" outlinecolor="75 55 30" foreground="ui\ingame\background_black" activateondown="">
+    </gadget>
+    <gadget name="nativecommandpanel2-NativePortrait" type="button" size1024="732 645 828 741" z="11" texturecoords="0 0 .66 1" outlinecolor="75 55 30" activateondown="">
+    </gadget>
+    <gadget name="nativecommandpanel2-NativeName" z="13" type="formatText" background="" textfont="AgeUpgradeMedium" textcenterhoriz="" textcentervert="" textfontsize="17" textcolor="255 255 255" textjustifycenter="" size1024="723 634 849 651">
+    </gadget>
+    <gadget name="nativecommandpanel2-button00" type="button" size1024="875 634 907 666" z="15" activateondown="">
+    </gadget>
+    <gadget name="nativecommandpanel2-button01" type="button" size1024="911 634 943 666" z="15" activateondown="">
+    </gadget>
+    <gadget name="nativecommandpanel2-button02" type="button" size1024="947 634 979 666" z="15" activateondown="">
+    </gadget>
+    <gadget name="nativecommandpanel2-button03" type="button" size1024="983 634 1015 666" z="15" activateondown="">
+    </gadget>
+    <gadget name="ageOverlay2-button00" type="gadget" size1024="896 653 908 665" z="20" transparent="">
+    </gadget>
+    <gadget name="ageOverlay2-button01" type="gadget" size1024="932 653 944 665" z="20" transparent="">
+    </gadget>
+    <gadget name="ageOverlay2-button02" type="gadget" size1024="968 653 980 665" z="20" transparent="">
+    </gadget>
+    <gadget name="ageOverlay2-button03" type="gadget" size1024="1004 653 1016 665" z="20" transparent="">
+    </gadget>
+    <gadget name="nativecommandpanel2-button10" type="button" size1024="875 671 907 703" z="15" activateondown="">
+    </gadget>
+    <gadget name="nativecommandpanel2-button11" type="button" size1024="911 671 943 703" z="15" activateondown="">
+    </gadget>
+    <gadget name="nativecommandpanel2-button12" type="button" size1024="947 671 979 703" z="15" activateondown="">
+    </gadget>
+    <gadget name="nativecommandpanel2-button13" type="button" size1024="983 671 1015 703" z="15" activateondown="">
+    </gadget>
+    <gadget name="ageOverlay2-button10" type="gadget" size1024="896 691 908 703" z="20" transparent="">
+    </gadget>
+    <gadget name="ageOverlay2-button11" type="gadget" size1024="932 691 944 703" z="20" transparent="">
+    </gadget>
+    <gadget name="ageOverlay2-button12" type="gadget" size1024="968 691 980 703" z="20" transparent="">
+    </gadget>
+    <gadget name="ageOverlay2-button13" type="gadget" size1024="1004 691 1016 703" z="20" transparent="">
+    </gadget>
+    <gadget name="nativecommandpanel2-button20" type="button" size1024="875 708 907 740" z="15" activateondown="">
+    </gadget>
+    <gadget name="nativecommandpanel2-button21" type="button" size1024="911 708 943 740" z="15" activateondown="">
+    </gadget>
+    <gadget name="nativecommandpanel2-button22" type="button" size1024="947 708 979 740" z="15" activateondown="">
+    </gadget>
+    <gadget name="nativecommandpanel2-button23" type="button" size1024="983 708 1015 740" z="15" activateondown="">
+    </gadget>
+    <gadget name="ageOverlay2-button20" type="gadget" size1024="896 729 908 741" z="20" transparent="">
+    </gadget>
+    <gadget name="ageOverlay2-button21" type="gadget" size1024="932 729 944 741" z="20" transparent="">
+    </gadget>
+    <gadget name="ageOverlay2-button22" type="gadget" size1024="968 729 980 741" z="20" transparent="">
+    </gadget>
+    <gadget name="ageOverlay2-button23" type="gadget" size1024="1004 729 1016 741" z="20" transparent="">
+    </gadget>
+  </gadget>
+</layout>

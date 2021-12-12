@@ -1,0 +1,25 @@
+<layout>
+  <gadget name="MapSizeDialog" type="gadget" size1024="339 202 740 591" background="ui\file_system\file_system_background" bevel="" titlebar="$$20361$$MapSize" closebutton="" windowzstyle="" moveable="">
+    <gadget name="mapsize_MinXTextLabel" type="formatText" textcenterhoriz="" size1024="344 385 444 405" z="11">$$32739$$</gadget>
+    <gadget name="mapsize_MinZTextLabel" type="formatText" textjustifyright="" size1024="434 514 534 534" z="11">$$32740$$</gadget>
+    <gadget name="mapsize_MaxXTextLabel" type="formatText" textcenterhoriz="" size1024="633 385 733 405" z="11">$$32741$$</gadget>
+    <gadget name="mapsize_MaxZTextLabel" type="formatText" textjustifyright="" size1024="435 307 535 327" z="11">$$32742$$</gadget>
+    <gadget name="mapsize_MinXText" type="textField" numberfield="" background="ui\file_system\file_system_background" size1024="344 407 444 427" z="11">
+    </gadget>
+    <gadget name="mapsize_MinZText" type="textField" numberfield="" background="ui\file_system\file_system_background" size1024="537 514 637 534" z="11">
+    </gadget>
+    <gadget name="mapsize_MaxXText" type="textField" numberfield="" background="ui\file_system\file_system_background" size1024="633 407 733 427" z="11">
+    </gadget>
+    <gadget name="mapsize_MaxZText" type="textField" numberfield="" background="ui\file_system\file_system_background" size1024="538 307 638 327" z="11">
+    </gadget>
+    <gadget name="mapsize_CurrentSizeLabel" type="textBox" textcolor="0 0 0" textfont="Arial nodrop" textfontsize="12" size1024="417 265 527 282">$$20363$$Current Map Size:</gadget>
+    <gadget name="mapsize_CurrentSize" type="textBox" textcolor="0 0 0" textfont="Arial nobold nodrop" textfontsize="12" size1024="533 265 640 282">
+    </gadget>
+    <gadget name="mapsize_AddBtn" type="button" bevelbutton="" textfont="Arial nodrop" textfontsize="12" size1024="503 559 573 584">$$71269$$Add</gadget>
+    <gadget name="mapsize_TakeBtn" type="button" bevelbutton="" textfont="Arial nodrop" textfontsize="12" size1024="583 559 653 584">$$71270$$Take</gadget>
+    <gadget name="mapsize_CancelBtn" type="button" bevelbutton="" textfont="Arial nodrop" textfontsize="12" size1024="663 559 733 584">$$18457$$Close<command>gadgetUnReal("MapSizeDialog")</command></gadget>
+    <gadget name="mapsize_maptexture" type="gadget" size1024="453 334 627 508" z="11" background="ui\grand_conquest\gc_mini_map">
+    </gadget>
+    <gadget name="mapsize_InfoText" type="textBox" size1024="376 240 726 260" z="11">$$32743$$</gadget>
+  </gadget>
+</layout>

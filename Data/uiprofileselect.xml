@@ -1,0 +1,16 @@
+<layout>
+  <gadget type="button" name="playerprofile-exitbtn" bevelbutton="" a-dtype="textFontSize number Z number" size1024="592 688 712 718">Exit Game<command>exitExit to Windows</command></gadget>
+  <gadget type="button" name="playerprofile-deletebtn" bevelbutton="" a-dtype="textFontSize number Z number" size1024="452 688 572 718">Delete</gadget>
+  <gadget type="button" name="playerprofile-okbtn" bevelbutton="" a-dtype="textFontSize number Z number" size1024="312 688 432 718">OK</gadget>
+  <gadget type="list" name="playerprofile-list" columnorder="" showselect="" selectedcolor="0 0 255" allowdoubleclick="" buttonsize1024="350 30" a-dtype="textFontSize number Z number" size1024="312 270 712 668" background="dialog" scrollvert="">
+  </gadget>
+  <gadget type="button" name="playerprofile-newbtn" bevelbutton="" a-dtype="textFontSize number Z number" size1024="312 220 712 250">
+    <command>gadgetReal("playerprofile-newdialog")New Player Profile</command>
+  </gadget>
+  <gadget type="textBox" name="playerprofile-text" textcenterhoriz="" textcentervert="" a-dtype="textFontSize number Z number" size1024="100 170 924 200">Select an existing player or click New Player Profile to create one</gadget>
+  <gadget type="gadget" backgroundmesh="UI Logo " transparent="" meshscale="4.0" meshyaw="1.0" a-dtype="textFontSize number Z number" size1024="262 50 762 150" name="playerprofile-logo">
+  </gadget>
+  <background>iansbigideer</background>
+  <gadget type="dialog" name="playerprofile-deletedialog" bevel="" hidden="" a-dtype="textFontSize number Z number" centervert="" centerhoriz="" size1024="0 0 300 100">Are you sure you want to delete?<button>Yes</button><button>$$18466$$Cancel</button></gadget>
+  <gadget type="dialog" name="playerprofile-newdialog" bevel="" hidden="" a-dtype="textFontSize number Z number" centervert="" centerhoriz="" size1024="0 0 400 100">Enter New Player Name:<button>OK</button><button>$$18466$$Cancel</button><gadget type="textField" a-dtype="textFontSize number Z number" sizerel1024="0 20 350 60" centerhoriz="" fieldval="DefaultName" name="playerprofile-newdialog-namefield">Name</gadget></gadget>
+</layout>

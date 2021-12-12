@@ -1,0 +1,131 @@
+<layout>
+  <gadget name="HomeCityPicker" type="gadget" size1024="0 0 364 262" z="20">
+    <gadget name="HomeCityPickerDlg" type="gadget" background="ui\core_ui\wood_thick_board_tile" size1024="-15 -15 376 278" tilebackgroundhoriz="" z="5">
+      <gadget name="HomeCityPickerDlg-BordersTop" type="gadget" background="ui\file_system\border_top_middle" size1024="12 -15 378 -7" z="4" transparent="">
+      </gadget>
+      <gadget name="HomeCityPickerDlg-BordersBottom" type="gadget" background="ui\file_system\border_bottom_middle" size1024="13 271 374 279" z="4" transparent="">
+      </gadget>
+      <gadget name="HomeCityPickerDlg-BordersLeft" type="gadget" background="ui\file_system\border_side_left" size1024="-15 17 -7 255" tilebackgroundvert="" transparent="">
+      </gadget>
+      <gadget name="HomeCityPickerDlg-BordersRight" type="gadget" background="ui\file_system\border_side_right" size1024="374 14 382 252" tilebackgroundvert="" z="4" transparent="">
+      </gadget>
+      <gadget name="HomeCityPickerDlg-BordersRightTop" type="gadget" background="ui\file_system\border_top_right" size1024="350 -15 382 17" z="5" transparent="" clampbackground="">
+      </gadget>
+      <gadget name="HomeCityPickerDlg-BordersLeftTop" type="gadget" background="ui\file_system\border_top_left" size1024="-15 -15 17 17" z="6" transparent="" clampbackground="">
+      </gadget>
+      <gadget name="HomeCityPickerDlg-BordersRightBottom" type="gadget" background="ui\file_system\border_bottom_right" size1024="350 247 382 279" z="6" transparent="" clampbackground="">
+      </gadget>
+      <gadget name="HomeCityPickerDlg-BordersLeftBottom" type="gadget" background="ui\file_system\border_bottom_left" size1024="-15 247 17 279" z="11" transparent="" clampbackground="">
+      </gadget>
+    </gadget>
+    <gadget name="HomeCityPicker-Frame" type="gadget" background="ui\eso\eso_persona_hc_picker" texturecoords="0 0 0.712890625 0.513671875" size1024="0 0 364 262" z="10">
+      <gadget name="HomeCityPicker-Label" type="formatText" textcenterhoriz="" textcolor="255 200 3" textfont="PregameEntry" textfontsize="15" size1024="44 12 318 35" z="21">$$41714$$</gadget>
+      <gadget name="HomeCityPicker-EntryList" type="gadget" size1024="17 36 346 210" tilebackground="" background="ui\ingame\ingame_ui_parch" z="21">
+        <gadget name="HomeCityPicker-HCList-BordersTop" type="gadget" background="ui\eso\eso_edge_top" size1024="16 32 347 36" z="22">
+        </gadget>
+        <gadget name="HomeCityPicker-HCList-BordersBottom" type="gadget" background="ui\eso\eso_edge_bottom" size1024="16 210 347 214" z="22">
+        </gadget>
+        <gadget name="HomeCityPicker-HCList-BordersLeft" type="gadget" background="ui\eso\eso_edge_left" size1024="13 35 17 210" z="22">
+        </gadget>
+        <gadget name="HomeCityPicker-HCList-BordersRight" type="gadget" background="ui\eso\eso_edge_right" size1024="346 35 350 210" z="22">
+        </gadget>
+        <gadget name="HomeCityPicker-HCList-BordersRightTop" type="gadget" background="ui\eso\eso_edge_top_right" size1024="346 32 350 36" z="23">
+        </gadget>
+        <gadget name="HomeCityPicker-HCList-Stats-BordersLeftTop" type="gadget" background="ui\eso\eso_edge_top_left" size1024="13 32 17 36" z="23">
+        </gadget>
+        <gadget name="HomeCityPicker-HCList-BordersRightBottom" type="gadget" background="ui\eso\eso_edge_bottom_right" size1024="346 210 350 214" z="23">
+        </gadget>
+        <gadget name="HomeCityPicker-HCList-BordersLeftBottom" type="gadget" background="ui\eso\eso_edge_bottom_left" size1024="13 210 17 214" z="23">
+        </gadget>
+        <gadget name="HomeCityPicker-Entry1" type="button" foreground="" donthilight="" size1024="20 39 325 71" anchortooltiptopleft="" z="22">
+          <gadget name="HomeCityPicker-Entry1-Flag" type="gadget" background="ui\ingame\ingame_ui_postgame_flag_british" size1024="20 39 148 71" z="23">
+          </gadget>
+          <gadget name="HomeCityPicker-Entry1-Name" type="formatText" textfont="ScrollFont" textjustifyright="" textcentervert="" textfontsize="16" textcolor="0 0 0" size1024="74 39 301 71" z="24">
+          </gadget>
+          <gadget name="HomeCityPicker-Entry1-Level" type="formatText" textfont="ScrollFont" textcenterhoriz="" textcentervert="" textfontsize="16" backgroundcolor="0 0 0" backgroundalpha="0.5" textcolor="0 0 0" size1024="20 51 60 71" z="25">
+          </gadget>
+          <gadget name="HomeCityPicker-Entry1-IconSupremacy" type="gadget" size1024="301 43 325 67" background="ui\ingame\game_type_supremacy" texturecoords="0 0 0.75 0.75" z="25" transparent="">
+          </gadget>
+          <gadget name="HomeCityPicker-Entry1-IconDeathmatch" type="gadget" size1024="301 43 325 67" background="ui\ingame\game_type_deathmatch" texturecoords="0 0 0.75 0.75" z="25" transparent="">
+          </gadget>
+          <gadget name="HomeCityPicker-Entry1-Hilight" type="gadget" background="ui\core_ui\civ_select" size1024="20 39 325 71" tilebackgroundhoriz="" texturecoords="0.2 0.171875 0.69921875 0.671875" z="26">
+          </gadget>
+        </gadget>
+        <gadget name="HomeCityPicker-Entry2" type="button" foreground="" donthilight="" size1024="20 73 325 105" anchortooltiptopleft="" z="22">
+          <gadget name="HomeCityPicker-Entry2-Flag" type="gadget" background="ui\ingame\ingame_ui_postgame_flag_british" size1024="20 73 148 105" z="23">
+          </gadget>
+          <gadget name="HomeCityPicker-Entry2-Name" type="formatText" textfont="ScrollFont" textjustifyright="" textcentervert="" textfontsize="16" textcolor="0 0 0" size1024="74 73 301 105" z="24">
+          </gadget>
+          <gadget name="HomeCityPicker-Entry2-Level" type="formatText" textfont="ScrollFont" textcenterhoriz="" textcentervert="" textfontsize="16" backgroundcolor="0 0 0" backgroundalpha="0.5" textcolor="0 0 0" size1024="20 85 60 105" z="25">
+          </gadget>
+          <gadget name="HomeCityPicker-Entry2-IconSupremacy" type="gadget" size1024="301 77 325 101" background="ui\ingame\game_type_supremacy" texturecoords="0 0 0.75 0.75" z="25" transparent="">
+          </gadget>
+          <gadget name="HomeCityPicker-Entry2-IconDeathmatch" type="gadget" size1024="301 77 325 101" background="ui\ingame\game_type_deathmatch" texturecoords="0 0 0.75 0.75" z="25" transparent="">
+          </gadget>
+          <gadget name="HomeCityPicker-Entry2-Hilight" type="gadget" background="ui\core_ui\civ_select" size1024="20 73 325 105" tilebackgroundhoriz="" texturecoords="0.2 0.171875 0.69921875 0.671875" z="26">
+          </gadget>
+        </gadget>
+        <gadget name="HomeCityPicker-Entry3" type="button" foreground="" donthilight="" size1024="20 107 325 139" anchortooltiptopleft="" z="22">
+          <gadget name="HomeCityPicker-Entry3-Flag" type="gadget" background="ui\ingame\ingame_ui_postgame_flag_british" size1024="20 107 148 139" z="23">
+          </gadget>
+          <gadget name="HomeCityPicker-Entry3-Name" type="formatText" textfont="ScrollFont" textjustifyright="" textcentervert="" textfontsize="16" textcolor="0 0 0" size1024="74 107 301 139" z="24">
+          </gadget>
+          <gadget name="HomeCityPicker-Entry3-Level" type="formatText" textfont="ScrollFont" textcenterhoriz="" textcentervert="" textfontsize="16" backgroundcolor="0 0 0" backgroundalpha="0.5" textcolor="0 0 0" size1024="20 119 60 139" z="25">
+          </gadget>
+          <gadget name="HomeCityPicker-Entry3-IconSupremacy" type="gadget" size1024="301 111 325 135" background="ui\ingame\game_type_supremacy" texturecoords="0 0 0.75 0.75" z="25" transparent="">
+          </gadget>
+          <gadget name="HomeCityPicker-Entry3-IconDeathmatch" type="gadget" size1024="301 111 325 135" background="ui\ingame\game_type_deathmatch" texturecoords="0 0 0.75 0.75" z="25" transparent="">
+          </gadget>
+          <gadget name="HomeCityPicker-Entry3-Hilight" type="gadget" background="ui\core_ui\civ_select" size1024="20 107 325 139" tilebackgroundhoriz="" texturecoords="0.2 0.171875 0.69921875 0.671875" z="26">
+          </gadget>
+        </gadget>
+        <gadget name="HomeCityPicker-Entry4" type="button" foreground="" donthilight="" size1024="20 141 325 173" anchortooltiptopleft="" z="22">
+          <gadget name="HomeCityPicker-Entry4-Flag" type="gadget" background="ui\ingame\ingame_ui_postgame_flag_british" size1024="20 141 148 173" z="23">
+          </gadget>
+          <gadget name="HomeCityPicker-Entry4-Name" type="formatText" textfont="ScrollFont" textjustifyright="" textcentervert="" textfontsize="16" textcolor="0 0 0" size1024="74 141 301 173" z="24">
+          </gadget>
+          <gadget name="HomeCityPicker-Entry4-Level" type="formatText" textfont="ScrollFont" textcenterhoriz="" textcentervert="" textfontsize="16" backgroundcolor="0 0 0" backgroundalpha="0.5" textcolor="0 0 0" size1024="20 153 60 173" z="25">
+          </gadget>
+          <gadget name="HomeCityPicker-Entry4-IconSupremacy" type="gadget" size1024="301 145 325 169" background="ui\ingame\game_type_supremacy" texturecoords="0 0 0.75 0.75" z="25" transparent="">
+          </gadget>
+          <gadget name="HomeCityPicker-Entry4-IconDeathmatch" type="gadget" size1024="301 145 325 169" background="ui\ingame\game_type_deathmatch" texturecoords="0 0 0.75 0.75" z="25" transparent="">
+          </gadget>
+          <gadget name="HomeCityPicker-Entry4-Hilight" type="gadget" background="ui\core_ui\civ_select" size1024="20 141 325 173" tilebackgroundhoriz="" texturecoords="0.2 0.171875 0.69921875 0.671875" z="26">
+          </gadget>
+        </gadget>
+        <gadget name="HomeCityPicker-Entry5" type="button" foreground="" donthilight="" size1024="20 175 325 207" anchortooltiptopleft="" z="22">
+          <gadget name="HomeCityPicker-Entry5-Flag" type="gadget" background="ui\ingame\ingame_ui_postgame_flag_british" size1024="20 175 148 207" z="23">
+          </gadget>
+          <gadget name="HomeCityPicker-Entry5-Name" type="formatText" textfont="ScrollFont" textjustifyright="" textcentervert="" textfontsize="16" textcolor="0 0 0" size1024="74 175 301 207" z="24">
+          </gadget>
+          <gadget name="HomeCityPicker-Entry5-Level" type="formatText" textfont="ScrollFont" textcenterhoriz="" textcentervert="" textfontsize="16" backgroundcolor="0 0 0" backgroundalpha="0.5" textcolor="0 0 0" size1024="20 187 60 207" z="25">
+          </gadget>
+          <gadget name="HomeCityPicker-Entry5-IconSupremacy" type="gadget" size1024="301 179 325 203" background="ui\ingame\game_type_supremacy" texturecoords="0 0 0.75 0.75" z="25" transparent="">
+          </gadget>
+          <gadget name="HomeCityPicker-Entry5-IconDeathmatch" type="gadget" size1024="301 179 325 203" background="ui\ingame\game_type_deathmatch" texturecoords="0 0 0.75 0.75" z="25" transparent="">
+          </gadget>
+          <gadget name="HomeCityPicker-Entry5-Hilight" type="gadget" background="ui\core_ui\civ_select" size1024="20 175 325 207" tilebackgroundhoriz="" texturecoords="0.2 0.171875 0.69921875 0.671875" z="26">
+          </gadget>
+        </gadget>
+        <gadget name="HomeCityPicker-Slider" type="slider" size1024="325 39 343 207" z="22" sliderbuttons="" slidervertical="" sliderupbtnset="sliderUpBtn" sliderdownbtnset="sliderDownBtn" sliderpipart="ui\file_system\slider_pip_vertical" sliderpiptexturecoords="0 0 1 1" sliderareaart="ui\file_system\slider_background_vertical" background="ui\file_system\slider_background_vertical">
+        </gadget>
+      </gadget>
+      <gadget name="HomeCityPicker-HCLevelButton" hidden="" type="checkButton" size1024="34 191 64 219" checkcheckedart="ui\core_ui\checkbox_green" checkuncheckedart="ui\core_ui\checkbox_red" sound="UI_DefaultPregameClickSet" z="13" checkborder1024="5 0">
+      </gadget>
+      <gadget name="HomeCityPicker-HCLevelButtonLabel" hidden="" type="formatText" textfont="Arial Nodrop" textfontsize="16" size1024="68 193 178 217" textjustifyleft="" z="13">Force to</gadget>
+      <gadget name="HomeCityPicker-HCLocationDropDown" hidden="" type="textField" textfont="ScrollFont" textfontsize="16" size1024="182 195 304 216" background="ui\core_ui\dropdown_background" z="10" textcolor="0 0 0" fieldtextboxcolor="255 255 255">
+        <dropdown>Local</dropdown>
+        <dropdown>Level 0</dropdown>
+        <dropdown>Level 1</dropdown>
+        <dropdown>Level 5</dropdown>
+        <dropdown>Level 10</dropdown>
+      </gadget>
+      <gadget name="HomeCityPicker-SubmitButton" type="stateButton" bevelbutton="" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="255 255 255" textcenterhoriz="" textcentervert="" size1024="94 219 178 251" z="11" texturecoords="0 0 0.6484375 0.96875">$$18465$$OK<stateentry background="ui\core_ui\button_tiny_normal"></stateentry><stateentry background="ui\core_ui\button_tiny_clicked"></stateentry><stateentry background="ui\core_ui\button_tiny_high"></stateentry><stateentry background="ui\core_ui\button_tiny_disable"></stateentry></gadget>
+      <gadget name="HomeCityPicker-CancelButton" type="stateButton" bevelbutton="" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="255 255 255" textcenterhoriz="" textcentervert="" size1024="200 219 284 251" z="11" texturecoords="0 0 0.6484375 0.96875">$$18466$$Cancel<stateentry background="ui\core_ui\button_tiny_normal"></stateentry><stateentry background="ui\core_ui\button_tiny_clicked"></stateentry><stateentry background="ui\core_ui\button_tiny_high"></stateentry><stateentry background="ui\core_ui\button_tiny_disable"></stateentry></gadget>
+      <gadget name="HomeCityPicker-ViewButton" type="stateButton" bevelbutton="" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="255 255 255" textcenterhoriz="" textcentervert="" size1024="42 219 126 251" z="11" texturecoords="0 0 0.6484375 0.96875">$$20293$$View<stateentry background="ui\core_ui\button_tiny_normal"></stateentry><stateentry background="ui\core_ui\button_tiny_clicked"></stateentry><stateentry background="ui\core_ui\button_tiny_high"></stateentry><stateentry background="ui\core_ui\button_tiny_disable"></stateentry></gadget>
+      <gadget name="HomeCityPicker-ViewButtonOtherUser" type="stateButton" bevelbutton="" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="255 255 255" textcenterhoriz="" textcentervert="" size1024="66 219 174 251" z="11" texturecoords="0 0 0.8359375 1">$$20293$$View<stateentry background="ui\core_ui\button_small_normal"></stateentry><stateentry background="ui\core_ui\button_small_clicked"></stateentry><stateentry background="ui\core_ui\button_small_high"></stateentry><stateentry background="ui\core_ui\button_small_disabled"></stateentry></gadget>
+      <gadget name="HomeCityPicker-CreateButton" type="stateButton" bevelbutton="" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="255 255 255" textcenterhoriz="" textcentervert="" size1024="138 219 222 251" z="11" texturecoords="0 0 0.6484375 0.96875">$$24835$$Create<stateentry background="ui\core_ui\button_tiny_normal"></stateentry><stateentry background="ui\core_ui\button_tiny_clicked"></stateentry><stateentry background="ui\core_ui\button_tiny_high"></stateentry><stateentry background="ui\core_ui\button_tiny_disable"></stateentry></gadget>
+      <gadget name="HomeCityPicker-DeleteButton" type="stateButton" bevelbutton="" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="255 255 255" textcenterhoriz="" textcentervert="" size1024="234 219 318 251" z="11" texturecoords="0 0 0.6484375 0.96875">$$18574$$Delete<stateentry background="ui\core_ui\button_tiny_normal"></stateentry><stateentry background="ui\core_ui\button_tiny_clicked"></stateentry><stateentry background="ui\core_ui\button_tiny_high"></stateentry><stateentry background="ui\core_ui\button_tiny_disable"></stateentry></gadget>
+    </gadget>
+  </gadget>
+</layout>

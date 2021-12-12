@@ -1,0 +1,56 @@
+<layout>
+  <gadget name="unitselectionpanel" type="unitselectionpanel" size1024="343 544 594 768" z="105">
+    <gadget name="unitselectionpanel-showCommands" type="button" size1024="560 592 594 667" z="125" foreground="ui\ingame\ingame_ui_tab_command_ypack" texturecoords="0 0 1 0.21484375" mouseovertext="$$42185$$Available Commands">
+      <command>uiShowCommandPanel()</command>
+    </gadget>
+    <gadget name="unitselectionpanel-showStats" type="button" size1024="560 674 594 749" z="125" foreground="ui\ingame\ingame_ui_tab_command_ypack" texturecoords="0 0 1 0.21484375" mouseovertext="$$42184$$Unit Information">
+      <command>uiShowStatPanel()</command>
+    </gadget>
+    <gadget name="unitselectionpanel-tabCommand" type="gadget" background="ui\ingame\ingame_ui_tab_command_ypack" size1024="561 561 604 768" z="120" texturecoords="0 0.595703125 0.671875 1">
+    </gadget>
+    <gadget name="unitselectionpanel-tabStats" type="gadget" background="ui\ingame\ingame_ui_tab_stats_ypack" size1024="561 561 604 768" z="120" texturecoords="0 0.595703125 0.671875 1">
+    </gadget>
+    <gadget name="unitselectionpanel-unit" type="gadget" background="ui\ingame\ingame_ui_02x_ypack" size1024="342 557 595 768" z="105" texturecoords="0 0 0.494140625 0.412109375">
+      <gadget name="unitselectionpanel-unitPortrait" type="button" background="" size1024="421 658 517 754" z="106">
+      </gadget>
+      <gadget name="unitselectionpanel-unitTypeName" type="formatText" textwrapon="" textcenterhoriz="" texttruecentervert="" background="" transparent="" textcolor="255 255 255" textfont="UnitName" textfontsize="16" size1024="397 598 533 653" z="107">
+      </gadget>
+      <gadget name="unitselectionpanel-unitPortraitCountBackground" type="gadget" background="ui\ingame\ingame_ui_02x_ypack" transparent="" size1024="479 709 511 741" z="107" texturecoords="0.861328125 0.62890625 0.923828125 0.69140625">
+      </gadget>
+      <gadget name="unitselectionpanel-unitPortraitCount" textfont="TimerDisplays" textfontsize="16" type="formatText" formattextbottomfill="" textjustifyright="" transparent="" textcolor="255 255 255" size1024="479 719 509 739" z="108">
+      </gadget>
+      <gadget name="unitselectionpanel-unitHealthBarGreen" type="progressBar" size1024="420 756 519 766" z="110" progressbarbackground="ui\ingame\ui_health_bar" progressbarbackgroundsize="104 8" progressbarmask="ui\ingame\ingame_ui_health_green">
+      </gadget>
+      <gadget name="unitselectionpanel-unitHealthBarYellow" type="progressBar" size1024="420 756 519 766" z="110" progressbarbackground="ui\ingame\ui_health_bar" progressbarbackgroundsize="104 8" progressbarmask="ui\ingame\ingame_ui_health_yellow">
+      </gadget>
+      <gadget name="unitselectionpanel-unitHealthBarRed" type="progressBar" size1024="420 756 519 766" z="110" progressbarbackground="ui\ingame\ui_health_bar" progressbarbackgroundsize="104 8" progressbarmask="ui\ingame\ingame_ui_health_red">
+      </gadget>
+    </gadget>
+    <gadget name="unitselectionpanel-stackQueue" background="ui\ingame\ingame_ui_02x_ypack" type="gadget" size1024="338 558 594 602" z="107" texturecoords="0.499021526418787 0.050880626223092 0.998043052837573 0.135029354207436">
+      <gadget name="unitselectionpanel-buttonArea" type="gadget" size1024="346 560 584 594" z="107">
+      </gadget>
+      <gadget name="unitselectionpanel-unitStackButton0" textfont="TimerDisplays" textfontsize="12" type="button" size1024="348 569 372 593" z="108" activateondown="">
+      </gadget>
+      <gadget name="unitselectionpanel-unitStackButton1" textfont="TimerDisplays" textfontsize="12" type="button" size1024="348 569 372 593" z="108" activateondown="">
+      </gadget>
+      <gadget name="unitselectionpanel-unitStackButton2" textfont="TimerDisplays" textfontsize="12" type="button" size1024="348 569 372 593" z="108" activateondown="">
+      </gadget>
+      <gadget name="unitselectionpanel-unitStackButton3" textfont="TimerDisplays" textfontsize="12" type="button" size1024="348 569 372 593" z="108" activateondown="">
+      </gadget>
+      <gadget name="unitselectionpanel-unitStackButton4" textfont="TimerDisplays" textfontsize="12" type="button" size1024="348 569 372 593" z="108" activateondown="">
+      </gadget>
+      <gadget name="unitselectionpanel-unitStackButton5" textfont="TimerDisplays" textfontsize="12" type="button" size1024="348 569 372 593" z="108" activateondown="">
+      </gadget>
+      <gadget name="unitselectionpanel-unitStackButton6" textfont="TimerDisplays" textfontsize="12" type="button" size1024="348 569 372 593" z="108" activateondown="">
+      </gadget>
+      <gadget name="unitselectionpanel-unitStackButton7" textfont="TimerDisplays" textfontsize="12" type="button" size1024="348 569 372 593" z="108" activateondown="">
+      </gadget>
+      <gadget name="unitselectionpanel-unitStackButton8" textfont="TimerDisplays" textfontsize="12" type="button" size1024="348 569 372 593" z="108" activateondown="">
+      </gadget>
+      <gadget name="unitselectionpanel-unitStackButtonBig0" textfont="TimerDisplays" textfontsize="12" type="button" size1024="348 561 380 593" z="108" activateondown="">
+      </gadget>
+      <gadget name="unitselectionpanel-unitStackButtonBigBackground" type="gadget" size1024="346 559 382 595" z="107" activateondown="" background="ui\ingame\ingame_ui_02x_ypack" texturecoords="0.857421875 0.72265625 0.927734375 0.79296875">
+      </gadget>
+    </gadget>
+  </gadget>
+</layout>

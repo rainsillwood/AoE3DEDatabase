@@ -1,0 +1,106 @@
+<layout>
+  <gadget name="MPESO" type="gadget" size1024="0 0 1024 768" background="" windowzstyle="" z="99">
+    <gadget name="MPESO-Background" type="gadget" size1024="167 101 860 644" background="ui\ui background blue transparent" tilebackground="" z="9">
+      <gadget tilebackgroundhoriz="" name="MPESO-BordersTop" type="gadget" background="ui\ui border top middle" size1024="199 93 859 101" z="9">
+      </gadget>
+      <gadget tilebackgroundhoriz="" name="MPESO-BordersBottom" type="gadget" background="ui\ui border bottom middle" size1024="199 644 859 652" z="9">
+      </gadget>
+      <gadget tilebackgroundvert="" name="MPESO-BordersLeft" type="gadget" background="ui\ui border left middle" size1024="151 125 167 588" z="9">
+      </gadget>
+      <gadget tilebackgroundvert="" name="MPESO-BordersRight" type="gadget" background="ui\ui border right middle" size1024="860 125 876 588" z="9">
+      </gadget>
+      <gadget name="MPESO-BordersLeftTop" type="gadget" background="ui\ui border top left corner" size1024="135 93 199 125" z="11">
+      </gadget>
+      <gadget name="MPESO-BordersLeftBottom" type="gadget" background="ui\ui border bottom left corner" size1024="135 588 199 652" z="10">
+      </gadget>
+      <gadget name="MPESO-BordersRightBottom" type="gadget" background="ui\ui border bottom right corner" size1024="828 588 892 652" z="10">
+      </gadget>
+      <gadget name="MPESO-BordersRightTop" type="gadget" background="ui\ui border top right corner" size1024="828 93 892 125" z="10">
+      </gadget>
+    </gadget>
+    <gadget name="MPESO-ScreenLabel" textcentervert="" textcolor="255 208 0" textfontsize="22" textfont="PregameHeaders" type="formatText" size1024="181 108 528 133">$$20002$$Create New ESO Account</gadget>
+    <gadget name="MPESO-ScreenSeparator" type="gadget" size1024="167 137 860 139" background="missing">
+    </gadget>
+    <gadget name="MPESO-ESOLogo" type="gadget" size1024="586 103 842 135" background="ui\es online logo long">
+    </gadget>
+    <gadget name="MPESO-OKButton" type="stateButton" size1024="313 598 505 630" bevelbutton="" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="255 208 0" textcenterhoriz="" textcentervert="" texturecoords="0 0 .75 1" mouseovertext="$$19939$$">$$18465$$OK<stateentry background="ui\core_ui\button_192x32_normal"></stateentry><stateentry background="ui\ui button long 192X32 clicked"></stateentry><stateentry background="ui\ui button long 192X32 rollover"></stateentry><stateentry background=""></stateentry></gadget>
+    <gadget name="MPESO-CancelButton" type="stateButton" size1024="513 598 705 630" bevelbutton="" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="255 208 0" textcenterhoriz="" textcentervert="" texturecoords="0 0 .75 1" mouseovertext="$$19940$$">$$18466$$Cancel<stateentry background="ui\core_ui\button_192x32_normal"></stateentry><stateentry background="ui\ui button long 192X32 clicked"></stateentry><stateentry background="ui\ui button long 192X32 rollover"></stateentry><stateentry background=""></stateentry></gadget>
+    <gadget name="MPESO-EntryFields" type="gadget" size1024="223 216 675 534">
+      <gadget name="MPESO-LoginInfo" textcentervert="" textcolor="60 170 255" textfontsize="18" textfont="Pregamelabels" type="formatText" size1024="234 153 404 174" textjustifyright="">$$22147$$Login Info:</gadget>
+      <gadget name="MPESO-NameLabel" textcentervert="" textcolor="255 208 0" textfontsize="18" textfont="Pregamelabels" type="formatText" size1024="234 187 404 208" textjustifyright="">$$22077$$Nickname:</gadget>
+      <gadget name="MPESO-PasswordLabel" textcentervert="" textcolor="255 208 0" textfontsize="18" textfont="Pregamelabels" type="formatText" size1024="237 227 404 248" textjustifyright="">$$22111$$Password:</gadget>
+      <gadget name="MPESO-PasswordConfirmLabel" textcentervert="" textcolor="255 208 0" textfontsize="18" textfont="Pregamelabels" type="formatText" size1024="234 267 404 288" textjustifyright="">$$20004$$Confirm Password:</gadget>
+      <gadget name="MPESO-PasswordConfirmationInfo" textcentervert="" textcolor="60 170 255" textfontsize="18" textfont="Pregamelabels" type="formatText" size1024="173 310 404 331">$$22148$$Password Confirmation Info:</gadget>
+      <gadget name="MPESO-CountryLabel" textcentervert="" textcolor="255 208 0" textfontsize="18" textfont="Pregamelabels" type="formatText" size1024="225 347 404 368" textjustifyright="">$$20005$$Country:</gadget>
+      <gadget name="MPESO-StateLabel" textcentervert="" textcolor="255 208 0" textfontsize="18" textfont="Pregamelabels" type="formatText" size1024="225 384 405 405" textjustifyright="">$$22170$$State:</gadget>
+      <gadget name="MPESO-PostalCodeLabel" textcentervert="" textcolor="255 208 0" textfontsize="18" textfont="Pregamelabels" type="formatText" size1024="225 426 405 447" textjustifyright="">$$20006$$Postal Code:</gadget>
+      <gadget name="MPESO-SecretQuestionLabel" textcentervert="" textcolor="255 208 0" textfontsize="18" textfont="Pregamelabels" type="formatText" size1024="228 486 405 507" textjustifyright="">$$20008$$Secret Question:</gadget>
+      <gadget name="MPESO-SecretAnswerLabel" textcentervert="" textcolor="255 208 0" textfontsize="18" textfont="Pregamelabels" type="formatText" size1024="225 526 405 547" textjustifyright="">$$20009$$Secret Answer:</gadget>
+      <gadget name="MPESO-Left-NameEntry" type="gadget" background="ui\ui text box left" size1024="405 182 421 214">
+      </gadget>
+      <gadget name="MPESO-Name" type="gadget" tilebackgroundhoriz="" background="missing" size1024="421 182 599 214">
+      </gadget>
+      <gadget name="MPESO-Name-Text" type="editBox" size1024="421 188 599 212" textfont="PregameEntry" textfontsize="15" textcolor="0 0 58" enterkey="" z="11">
+      </gadget>
+      <gadget name="MPESO-Right-NameEntry" type="gadget" background="ui\ui text box right" size1024="599 182 615 214">
+      </gadget>
+      <gadget name="MPESO-NameMaxChars" textcentervert="" textcolor="255 255 255" textfontsize="15" textfont="PregameEntry" type="formatText" size1024="618 182 810 214">$$22112$$max 16 characters</gadget>
+      <gadget name="MPESO-Left-PasswordEntry" type="gadget" background="ui\ui text box left" size1024="405 222 421 254">
+      </gadget>
+      <gadget name="MPESO-Password" type="gadget" tilebackgroundhoriz="" background="missing" size1024="421 222 599 254">
+      </gadget>
+      <gadget name="MPESO-Password-Text" type="editBox" size1024="421 228 599 252" textfont="PregameEntry" textfontsize="15" textcolor="0 0 58" enterkey="" editboxmaskchars="" z="11">
+      </gadget>
+      <gadget name="MPESO-Right-PasswordEntry" type="gadget" background="ui\ui text box right" size1024="599 222 615 254">
+      </gadget>
+      <gadget name="MPESO-Left-ConfirmPasswordEntry" type="gadget" background="ui\ui text box left" size1024="405 262 421 294">
+      </gadget>
+      <gadget name="MPESO-ConfirmPassword" type="gadget" tilebackgroundhoriz="" background="missing" size1024="421 262 599 294">
+      </gadget>
+      <gadget name="MPESO-ConfirmPassword-Text" type="editBox" size1024="421 268 599 292" textfont="PregameEntry" textfontsize="15" textcolor="0 0 58" enterkey="" editboxmaskchars="" z="11">
+      </gadget>
+      <gadget name="MPESO-Right-ConfirmPassword" type="gadget" background="ui\ui text box right" size1024="599 262 615 294">
+      </gadget>
+      <gadget name="MPESO-Country" type="textField" size1024="421 348 720 368" textcolor="0 0 0" textfontsize="15" textfont="PregameEntry" dropdownbuttonart="ui\record game input field arrow" fieldtextboxcolor="222 214 181">
+        <dropdown>
+        </dropdown>
+      </gadget>
+      <gadget name="MPESO-State" type="textField" size1024="421 385 720 405" textcolor="0 0 0" textfontsize="15" textfont="PregameEntry" dropdownbuttonart="ui\record game input field arrow" fieldtextboxcolor="222 214 181">
+        <dropdown>
+        </dropdown>
+      </gadget>
+      <gadget name="MPESO-Left-PostalCode" type="gadget" background="ui\ui text box left" size1024="406 421 422 453">
+      </gadget>
+      <gadget name="MPESO-PostalCode" type="gadget" tilebackgroundhoriz="" background="missing" size1024="422 421 600 453">
+      </gadget>
+      <gadget name="MPESO-PostalCode-Text" type="editBox" size1024="422 427 600 451" textfont="PregameEntry" textfontsize="15" textcolor="0 0 58" enterkey="" z="11">
+      </gadget>
+      <gadget name="MPESO-Right-PostalCode" type="gadget" background="ui\ui text box right" size1024="600 421 616 453">
+      </gadget>
+      <gadget name="MPESO-Left-SecretQuestion" type="gadget" background="ui\ui text box left" size1024="406 481 422 513">
+      </gadget>
+      <gadget name="MPESO-SecretQuestion" type="gadget" tilebackgroundhoriz="" background="missing" size1024="422 481 707 513">
+      </gadget>
+      <gadget name="MPESO-SecretQuestion-Text" type="editBox" size1024="422 487 707 511" textfont="PregameEntry" textfontsize="15" textcolor="0 0 58" enterkey="" z="11">
+      </gadget>
+      <gadget name="MPESO-Right-SecretQuestion" type="gadget" background="ui\ui text box right" size1024="707 481 723 513">
+      </gadget>
+      <gadget name="MPESO-Left-SecretAnswer" type="gadget" background="ui\ui text box left" size1024="406 521 422 553">
+      </gadget>
+      <gadget name="MPESO-SecretAnswer" type="gadget" tilebackgroundhoriz="" background="missing" size1024="422 521 707 553">
+      </gadget>
+      <gadget name="MPESO-SecretAnswer-Text" type="editBox" size1024="422 527 707 551" textfont="PregameEntry" textfontsize="15" textcolor="0 0 58" enterkey="" z="11">
+      </gadget>
+      <gadget name="MPESO-Right-SecretAnswer" type="gadget" background="ui\ui text box right" size1024="707 521 723 553">
+      </gadget>
+      <gadget name="MPESO-AllFieldsRequired" textcentervert="" textcolor="255 255 255" textfontsize="15" textfont="PregameEntry" type="formatText" size1024="616 565 860 586" textjustifyright="">$$22114$$All fields are required</gadget>
+    </gadget>
+  </gadget>
+  <gadget type="dialog" name="MPESO-DisablePanel" size1024="168 140 861 644" bevel="" background="ui\ui background blue transparent" tilebackground="" texturereplace="" windowzstyle="" hidden="">
+    <gadget name="MPESO-DisablePanel-BordersLeftBottom" type="gadget" background="ui\ui border bottom left corner" size1024="135 588 199 652" z="10">
+    </gadget>
+    <gadget name="MPESO-DisablePanel-BordersRightBottom" type="gadget" background="ui\ui border bottom right corner" size1024="828 588 892 652" z="10">
+    </gadget>
+    <gadget name="MPESO-DisablePanel-prompt" type="formatText" textcolor="255 208 0" textfont="PregameHeaders" textfontsize="22" textcentervert="" textcenterhoriz="" size1024="168 140 861 644" z="20">$$21216$$Creating account...</gadget>
+  </gadget>
+</layout>

@@ -1,0 +1,21 @@
+<layout>
+  <gadget name="StatsUpload" type="dialog" size1024="343 204 691 403" background="ui\background greek transparent" hidden="" windowzstyle="" tilebackground="" texturereplace="">
+    <gadget texturereplace="" tilebackgroundhoriz="" name="ConfirmLeave-BordersTop" type="gadget" background="missing" size1024="366 188 667 204" z="4" transparent="">
+    </gadget>
+    <gadget texturereplace="" tilebackgroundhoriz="" name="ConfirmLeave-BordersBottom" type="gadget" background="missing" size1024="366 403 667 419" z="4" transparent="">
+    </gadget>
+    <gadget texturereplace="" name="StatsUpload-BordersLeft" type="gadget" background="missing" size1024="335 220 343 407" tilebackgroundvert="" transparent="">
+    </gadget>
+    <gadget texturereplace="" name="StatsUpload-BordersRight" type="gadget" background="missing" size1024="691 220 699 407" tilebackgroundvert="" z="4" transparent="">
+    </gadget>
+    <gadget texturereplace="" name="StatsUpload-BordersRightTop" type="gadget" background="ui\ui border greek top right corner" size1024="667 188 699 220" z="5" transparent="" clampbackground="">
+    </gadget>
+    <gadget texturereplace="" name="StatsUpload-BordersLeftTop" type="gadget" background="ui\ui border greek top left corner" size1024="335 188 367 220" z="5" transparent="" clampbackground="">
+    </gadget>
+    <gadget texturereplace="" name="StatsUpload-BordersRightBottom" type="gadget" background="ui\ui border greek bottom right corner" size1024="667 387 699 419" z="5" transparent="" clampbackground="">
+    </gadget>
+    <gadget texturereplace="" name="StatsUpload-BordersLeftBottom" type="gadget" background="ui\ui border greek bottom left corner" size1024="335 387 367 419" z="5" transparent="" clampbackground="">
+    </gadget>
+    <gadget name="StatsUpload-text" type="formatText" textcenterhoriz="" textcolor="255 208 0" textfont="IngameDialogs" textfontsize="20" size1024="343 237 691 307">Uploading Stats. Please Wait...</gadget>
+  </gadget>
+</layout>

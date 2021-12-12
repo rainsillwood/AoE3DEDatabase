@@ -1,0 +1,13 @@
+<tactics>
+  <dbaction>HandAttack</dbaction>
+  <dbaction>RangedAttack</dbaction>
+  <dbaction>Build</dbaction>
+  <dbaction>Gather</dbaction>
+  <dbaction>Hunting</dbaction>
+  <dbaction>Discover</dbaction>
+  <dbaction>AutoGather</dbaction>
+  <dbaction>Heal</dbaction>
+  <dbaction>Gate</dbaction>
+  <dbaction>Spawn</dbaction>
+  <tactic>Normal<action>HandAttack</action><action>RangedAttack</action><action>Build</action><action>Gather</action><action>Hunting</action><action>Discover</action><action>AutoGather</action><action>Heal</action><action>Gate</action><action>Spawn</action><damageflags>GAIAAllySelfEnemy</damageflags><damageflags>GAIAEnemy</damageflags></tactic>
+</tactics>

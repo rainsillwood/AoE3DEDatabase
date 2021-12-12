@@ -1,0 +1,5 @@
+<layout>
+  <gadget name="MPESOScreen-screen" type="gadget" z="50">
+    <gadget name="MPESOScreen-ExitButton" type="stateButton" size1024="990 -1 1023 33" bevelbutton="" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="255 255 255" textcenterhoriz="" textcentervert="" z="60">X<stateentry background="ui\core_ui\button_med_normal"></stateentry><stateentry background="ui\core_ui\button_med_clicked"></stateentry><stateentry background="ui\core_ui\button_med_high"></stateentry><stateentry background="ui\core_ui\button_med_disabled"></stateentry></gadget>
+  </gadget>
+</layout>

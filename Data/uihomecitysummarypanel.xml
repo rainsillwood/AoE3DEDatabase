@@ -1,0 +1,26 @@
+<layout>
+  <gadget name="hcSummaryPanel-summary" type="hcSummaryPanel" size1024="0 0 1024 39" z="20" background="ui\home_city\hc_deck_ui" texturecoords="0 0.172 1 0.242">
+    <gadget name="hcSummaryPanel-Explorer" type="formatText" size1024="687 8 896 30" donthighlight="" textcolor="255 255 255" textfont="GoalText" textfontsize="18" textcentervert="" z="12">
+    </gadget>
+    <gadget name="hcSummaryPanel-IconSupremacy" type="gadget" size1024="135 7 159 31" background="ui\ingame\game_type_supremacy" texturecoords="0 0 0.75 0.75" donthilight="" z="12">
+    </gadget>
+    <gadget name="hcSummaryPanel-IconDeathmatch" type="gadget" size1024="135 7 159 31" background="ui\ingame\game_type_deathmatch" texturecoords="0 0 0.75 0.75" donthilight="" z="12">
+    </gadget>
+    <gadget name="hcSummaryPanel-Name" type="formatText" size1024="159 8 344 30" donthighlight="" textcolor="255 255 255" textfont="GoalText" textfontsize="18" textcentervert="" z="12">
+    </gadget>
+    <gadget name="hcSummaryPanel-Level" type="formatText" size1024="374 8 443 28" donthighlight="" textcolor="255 255 255" textfont="AgeText" textfontsize="12" textcentervert="" textcenterhoriz="" z="12">
+    </gadget>
+    <gadget name="hcSummaryPanel-homecityxpbar" type="gadget" size1024="371 28 446 34" donthilight="" background="ui\core_ui\xp-bar_empty" texturecoords="0 0 0.5859375 0.75" z="13">
+    </gadget>
+    <gadget name="hcSummaryPanel-homecityxpbarfill" type="gadget" size1024="371 28 446 34" donthilight="" background="ui\core_ui\xp-bar_full" texturecoords="0 0 0.5859375 0.75" z="14">
+    </gadget>
+    <gadget name="hcSummaryPanel-Exp" type="formatText" size1024="536 9 651 29" donthighlight="" textcolor="255 255 255" textfont="AgeText" textfontsize="12" textcentervert="" textcenterhoriz="" z="12">
+    </gadget>
+    <gadget name="hcSummaryPanel-Flag" type="gadget" size1024="458 3 510 35" z="10">
+    </gadget>
+    <gadget name="hcSummaryPanel-CardAvailable" type="formatText" size1024="82 432 278 456" textcenterhoriz="" donthighlight="" textcolor="255 255 255" textfont="AgeText" textfontsize="12" textcentervert="" z="13">
+    </gadget>
+    <gadget name="hcSummaryPanel-CardAvailableBack" type="formatText" size1024="32 428 328 460" background="ui\home_city\upgrade_available" donthighlight="" textcolor="255 255 255" textfont="GoalText" textfontsize="18" textcentervert="" z="12" texturecoords="0 0 0.580078125 1">
+    </gadget>
+  </gadget>
+</layout>

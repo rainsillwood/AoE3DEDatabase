@@ -1,0 +1,33 @@
+<layout>
+  <gadget name="HomecityEdit" type="gadget" size1024="3 100 492 518" transparent="" background="" z="10" hidden="" bevel="" windowzstyle="">
+    <gadget name="HomecityMainEdit" type="gadget" size1024="3 100 492 518" background="ui\editor\editor_background" bevel="">
+      <gadget name="HomecityEditCivLabel" textcolor="0 0 0" textjustifyright="" textfontsize="12" textfont="Arial nodrop" type="formatText" size1024="70 154 149 174">$$49150$$Civ:</gadget>
+      <gadget name="HomecityEditCivDropdown" type="textField" dropdowndistance="120" textfont="Arial nobold nodrop" z="11" textfontsize="12" textcolor="0 0 0" fieldreadonly="" size1024="161 156 276 176">
+        <dropdown>
+        </dropdown>
+      </gadget>
+      <gadget name="HomecityEditCityLabel" textcolor="0 0 0" textjustifyright="" textfontsize="12" textfont="Arial nodrop" type="formatText" size1024="68 201 147 221">$$41757$$City:</gadget>
+      <gadget name="HomecityEditCity" type="formatText" textjustifyleft="" textfont="Arial nobold nodrop" textfontsize="12" textcolor="255 255 255" size1024="160 200 337 220">
+      </gadget>
+      <gadget name="HomecityEditExplorerLabel" textcolor="0 0 0" textjustifyright="" textfontsize="12" textfont="Arial nodrop" type="formatText" size1024="68 229 147 249">$$41756$$Explorer:</gadget>
+      <gadget name="HomecityEditExplorer" type="formatText" textjustifyleft="" textfont="Arial nobold nodrop" textfontsize="12" textcolor="255 255 255" size1024="160 230 336 250">
+      </gadget>
+      <gadget name="HomecityEditLevelLabel" textcolor="0 0 0" textjustifyright="" textfontsize="12" textfont="Arial nodrop" type="formatText" size1024="67 258 148 278">$$41758$$Level:</gadget>
+      <gadget name="HomecityEditLevel" type="formatText" textjustifyleft="" textfont="Arial nobold nodrop" textfontsize="12" textcolor="255 255 255" size1024="161 259 200 279">
+      </gadget>
+      <gadget name="HomecityEditBuildDeckButton" z="11" type="button" bevelbutton="" textfont="Arial nodrop" textfontsize="12" size1024="343 192 460 217">$$49151$$Build Decks</gadget>
+      <gadget name="HomecityEditSummaryButton" z="11" type="button" bevelbutton="" textfont="Arial nodrop" textfontsize="12" size1024="344 229 461 254">$$49152$$Homecity Summary</gadget>
+      <gadget name="HomecityEditCancelButton" z="11" type="button" bevelbutton="" textfont="Arial nodrop" textfontsize="12" size1024="364 480 467 506">$$18457$$Close</gadget>
+    </gadget>
+    <gadget name="HomecitySummaryEdit" type="gadget" size1024="253 160 750 445" hidden="" background="ui\editor\editor_background" bevel="">
+      <gadget name="HomecitySummaryEditCityLabel" textcolor="0 0 0" textfontsize="12" textfont="Arial nodrop" type="textBox" size1024="394 227 473 247">$$41757$$City:</gadget>
+      <gadget name="HomecitySummaryEditCity" type="textField" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" size1024="486 226 663 246">
+      </gadget>
+      <gadget name="HomecitySummaryEditExplorerLabel" textcolor="0 0 0" textfontsize="12" textfont="Arial nodrop" type="textBox" size1024="394 255 473 275">$$41756$$Explorer:</gadget>
+      <gadget name="HomecitySummaryEditExplorer" type="textField" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" size1024="486 256 662 276">
+      </gadget>
+      <gadget name="HomecitySummaryOKButton" type="button" bevelbutton="" textfont="Arial nodrop" textfontsize="12" size1024="365 357 482 382">$$18465$$OK</gadget>
+      <gadget name="HomecitySummaryCancelButton" type="button" bevelbutton="" textfont="Arial nodrop" textfontsize="12" size1024="507 356 624 381">$$18466$$Cancel</gadget>
+    </gadget>
+  </gadget>
+</layout>

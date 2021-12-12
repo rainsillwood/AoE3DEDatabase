@@ -1,0 +1,54 @@
+<tactics>
+  <action>
+    <name stringid="38135">MeleeHandAttack</name>
+    <type>Attack</type>
+    <maxrange>1.75</maxrange>
+    <rate type="Military">1.0 </rate>
+    <rate type="Huntable">1.0 </rate>
+    <rate type="Economic">1.0 </rate>
+    <rate type="Guardian">1.0 </rate>
+    <rate type="Herdable">1.0 </rate>
+    <attackaction>1</attackaction>
+    <handlogic>1</handlogic>
+    <anim>Attack_melee</anim>
+    <idleanim>Idle</idleanim>
+    <impacteffect>effects\impacts\melee</impacteffect>
+    <targetspeedboost>1</targetspeedboost>
+    <basedamagecap>1</basedamagecap>
+  </action>
+  <action>
+    <name stringid="38118">BuildingAttack</name>
+    <type>Attack</type>
+    <rangedlogic>1</rangedlogic>
+    <maxrange>12</maxrange>
+    <rate type="LogicalTypeShipsAndBuildings">1.0</rate>
+    <attackaction>1</attackaction>
+    <speedboost>1</speedboost>
+    <anim>Raze_attack</anim>
+    <idleanim>Raze_idle</idleanim>
+    <projectile>TorchProjectile</projectile>
+    <impacteffect>effects\impacts\torch</impacteffect>
+  </action>
+  <action>
+    <name stringid="38142">TrampleHandAttack</name>
+    <type>Attack</type>
+    <maxrange>1.75</maxrange>
+    <rate type="Military">1.0 </rate>
+    <rate type="Huntable">1.0 </rate>
+    <rate type="Economic">1.0 </rate>
+    <rate type="Guardian">1.0 </rate>
+    <rate type="Herdable">1.0 </rate>
+    <attackaction>1</attackaction>
+    <handlogic>1</handlogic>
+    <speedboost>1</speedboost>
+    <anim>Attack_trample</anim>
+    <idleanim>Idle</idleanim>
+    <impacteffect>effects\impacts\melee</impacteffect>
+    <damage>6.5</damage>
+    <rof>1.0</rof>
+    <targetspeedboost>1</targetspeedboost>
+    <basedamagecap>1</basedamagecap>
+  </action>
+  <tactic>Melee<action priority="100">BuildingAttack</action><action priority="25">MeleeHandAttack</action><attacktype>LogicalTypeVillagersAttack</attacktype><autoattacktype>LogicalTypeHandUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeHandUnitsAttack</attackresponsetype><runaway>0</runaway><autoretarget>1</autoretarget><idleanim>Idle</idleanim><boredanim>Bored</boredanim><deathanim>Death_by_melee</deathanim><walkanim>Walk</walkanim><joganim>Jog</joganim><runanim>Run</runanim></tactic>
+  <tactic>Trample<speedmodifier>0.5</speedmodifier><action priority="100">BuildingAttack</action><action priority="25">TrampleHandAttack</action><attacktype>LogicalTypeVillagersAttack</attacktype><autoattacktype>LogicalTypeHandUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeHandUnitsAttack</attackresponsetype><runaway>0</runaway><autoretarget>1</autoretarget><idleanim>Idle</idleanim><boredanim>Bored</boredanim><deathanim>Death_by_melee</deathanim><walkanim>Highstep</walkanim><joganim>Jog</joganim><runanim>Run</runanim></tactic>
+</tactics>

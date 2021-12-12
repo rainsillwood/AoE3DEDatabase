@@ -1,0 +1,45 @@
+<layout>
+  <gadget name="MPPassportTaken" type="dialog" size1024="0 0 1024 768" bevel="" background="ui\background greek transparent" tilebackground="">
+    <gadget name="MPPassportTaken-Background" type="gadget" size1024="281 230 753 478" background="ui\ui background blue opaque" tilebackground="" z="5">
+      <gadget tilebackgroundhoriz="" name="BasicOptions-BordersTop" type="gadget" background="ui\ui border top middle" size1024="312 202 724 210" z="6">
+      </gadget>
+      <gadget tilebackgroundhoriz="" name="BasicOptions-BordersBottom" type="gadget" background="ui\ui border bottom middle" size1024="312 498 724 506" z="6">
+      </gadget>
+      <gadget tilebackgroundvert="" name="BasicOptions-BordersLeft" type="gadget" background="ui\ui border left middle" size1024="264 234 280 443" z="6">
+      </gadget>
+      <gadget tilebackgroundvert="" name="BasicOptions-BordersRight" type="gadget" background="ui\ui border right middle" size1024="753 234 769 443" z="6">
+      </gadget>
+      <gadget name="BasicOptions-BordersLeftTop" type="gadget" background="ui\ui border top left corner" size1024="248 202 312 234" z="6">
+      </gadget>
+      <gadget name="BasicOptions-BordersLeftBottom" type="gadget" background="ui\ui border bottom left corner" size1024="248 442 312 506" z="6">
+      </gadget>
+      <gadget name="AdvancedOptions-BordersRightBottom" type="gadget" background="ui\ui border bottom right corner" size1024="721 442 785 506" z="6">
+      </gadget>
+      <gadget name="AdvancedOptions-BordersRightTop" type="gadget" background="ui\ui border top right corner" size1024="721 202 785 234" z="6">
+      </gadget>
+    </gadget>
+    <gadget name="MPPassportTaken-ScreenLabel" textcentervert="" textcolor="255 208 0" textfontsize="22" textfont="PregameHeaders" type="formatText" size1024="291 217 571 242">$$20244$$Screen Name Taken</gadget>
+    <gadget name="MPPassportTaken-ScreenSeparator" type="gadget" size1024="291 246 743 248" background="missing">
+    </gadget>
+    <gadget name="MPPassportTaken-OKButton" type="stateButton" size1024="348 449 508 481" bevelbutton="" statebuttonuseinternalstates="" textfont="MainMenuButtons" textfontsize="18" textcolor="255 208 0" textcenterhoriz="" textcentervert="" texturecoords="0 0 .625 1" mouseovertext="$$19939$$">$$18465$$OK<stateentry background="ui\core_ui\button_128x32_normal"></stateentry><stateentry background="ui\ui button long 160X32 clicked"></stateentry><stateentry background="ui\ui button long 160X32 rollover"></stateentry><stateentry background=""></stateentry></gadget>
+    <gadget name="MPPassportTaken-CancelButton" type="stateButton" size1024="516 449 676 481" bevelbutton="" statebuttonuseinternalstates="" textfont="MainMenuButtons" textfontsize="18" textcolor="255 208 0" textcenterhoriz="" textcentervert="" texturecoords="0 0 .625 1" mouseovertext="$$19940$$">$$18466$$Cancel<stateentry background="ui\ui button long 160X32"></stateentry><stateentry background="ui\ui button long 160X32 clicked"></stateentry><stateentry background="ui\ui button long 160X32 rollover"></stateentry><stateentry background=""></stateentry><command>gadgetUnreal("MPPassportTaken")</command></gadget>
+    <gadget name="MPPassportTaken-ScreenNameLabel" textcentervert="" textcolor="255 208 0" textfontsize="18" textfont="Pregamelabels" type="formatText" size1024="275 269 402 290" textjustifyright="">$$20003$$Screen Name:</gadget>
+    <gadget name="MPPassportTaken-NameEntry" type="gadget" size1024="408 263 659 307">
+      <gadget name="MPPassportTaken-Left-NameEntry" type="gadget" background="ui\ui text box left" size1024="407 263 423 295">
+      </gadget>
+      <gadget name="MPPassportTaken-Center-NameEntry" type="gadget" tilebackgroundhoriz="" background="missing" size1024="423 263 601 295">
+      </gadget>
+      <gadget name="MPPassportTaken-UserName" type="editBox" size1024="423 267 601 291" textfont="PregameEntry" textfontsize="16" textcolor="0 0 58" enterkey="" z="11">
+      </gadget>
+      <gadget name="MPPassportTaken-Right-NameEntry" type="gadget" background="ui\ui text box right" size1024="601 263 617 295">
+      </gadget>
+    </gadget>
+    <gadget name="MPPassportTaken-TryLabel" textcentervert="" textcolor="255 208 0" textfontsize="18" textfont="Pregamelabels" type="formatText" size1024="349 313 520 334">$$20245$$Try These Names:</gadget>
+    <gadget name="MPPassportTaken-SuggestionsList-Background" type="gadget" size1024="348 339 676 434" background="ui\core_ui\background_yellow_opaque" tilebackground="" z="5">
+    </gadget>
+    <gadget name="MPPassportTaken-SuggestionsList" type="list" size1024="349 340 675 433" background="ui\ui background dark blue opaque" tilebackground="" textfontsize="14" textfont="PeopleListItems" texturereplace="" textcolor="60 170 255" scrollvert="" showselect="" z="10">
+      <vertscrollbar sliderbuttons="" slidervertical="" sliderupbtnset="sliderUpBtn" sliderdownbtnset="sliderDownBtn" sliderpipart="ui\ui slider pip verticle" sliderpiptexturecoords="0 0 0.5 0.75" sliderareaart="ui\ui background dark blue opaque" background="ui\core_ui\background_yellow_opaque">
+      </vertscrollbar>
+    </gadget>
+  </gadget>
+</layout>

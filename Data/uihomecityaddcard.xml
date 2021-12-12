@@ -1,0 +1,83 @@
+<layout>
+  <gadget name="homeCityAddCard" type="gadget" size1024="301 64 758 448" transparent="" tilebackgroundvert="" tilebackgroundhoriz="" background="ui\home_city\HC_UI_background_wood" hidden="" z="50">
+    <gadget name="homeCityAddCard-button00" type="button" size1024="338 174 386 222" z="51" activateondown="">
+    </gadget>
+    <gadget name="homeCityAddCard-button01" type="button" size1024="393 174 441 222" z="51" activateondown="">
+    </gadget>
+    <gadget name="homeCityAddCard-button02" type="button" size1024="448 174 496 222" z="51" activateondown="">
+    </gadget>
+    <gadget name="homeCityAddCard-button03" type="button" size1024="503 174 551 222" z="51" activateondown="">
+    </gadget>
+    <gadget name="homeCityAddCard-button04" type="button" size1024="558 174 606 222" z="51" activateondown="">
+    </gadget>
+    <gadget name="homeCityAddCard-button05" type="button" size1024="613 174 661 222" z="51" activateondown="">
+    </gadget>
+    <gadget name="homeCityAddCard-button06" type="button" size1024="668 174 716 222" z="51" activateondown="">
+    </gadget>
+    <gadget name="homeCityAddCard-button10" type="button" size1024="338 230 386 278" z="51" activateondown="">
+    </gadget>
+    <gadget name="homeCityAddCard-button11" type="button" size1024="393 230 441 278" z="51" activateondown="">
+    </gadget>
+    <gadget name="homeCityAddCard-button12" type="button" size1024="448 230 496 278" z="51" activateondown="">
+    </gadget>
+    <gadget name="homeCityAddCard-button13" type="button" size1024="503 230 551 278" z="51" activateondown="">
+    </gadget>
+    <gadget name="homeCityAddCard-button14" type="button" size1024="558 230 606 278" z="51" activateondown="">
+    </gadget>
+    <gadget name="homeCityAddCard-button15" type="button" size1024="613 230 661 278" z="51" activateondown="">
+    </gadget>
+    <gadget name="homeCityAddCard-button16" type="button" size1024="668 230 716 278" z="51" activateondown="">
+    </gadget>
+    <gadget name="homeCityAddCard-button20" type="button" size1024="338 286 386 334" z="51" activateondown="">
+    </gadget>
+    <gadget name="homeCityAddCard-button21" type="button" size1024="393 286 441 334" z="51" activateondown="">
+    </gadget>
+    <gadget name="homeCityAddCard-button22" type="button" size1024="448 286 496 334" z="51" activateondown="">
+    </gadget>
+    <gadget name="homeCityAddCard-button23" type="button" size1024="503 286 551 334" z="51" activateondown="">
+    </gadget>
+    <gadget name="homeCityAddCard-button24" type="button" size1024="558 286 606 334" z="51" activateondown="">
+    </gadget>
+    <gadget name="homeCityAddCard-button25" type="button" size1024="613 286 661 334" z="51" activateondown="">
+    </gadget>
+    <gadget name="homeCityAddCard-button26" type="button" size1024="668 286 716 334" z="51" activateondown="">
+    </gadget>
+    <gadget name="homeCityAddCard-button30" type="button" size1024="338 342 386 390" z="51" activateondown="">
+    </gadget>
+    <gadget name="homeCityAddCard-button31" type="button" size1024="393 342 441 390" z="51" activateondown="">
+    </gadget>
+    <gadget name="homeCityAddCard-button32" type="button" size1024="448 342 496 390" z="51" activateondown="">
+    </gadget>
+    <gadget name="homeCityAddCard-button33" type="button" size1024="503 342 551 390" z="51" activateondown="">
+    </gadget>
+    <gadget name="homeCityAddCard-button34" type="button" size1024="558 342 606 390" z="51" activateondown="">
+    </gadget>
+    <gadget name="homeCityAddCard-button35" type="button" size1024="613 342 661 390" z="51" activateondown="">
+    </gadget>
+    <gadget name="homeCityAddCard-button36" type="button" size1024="668 342 716 390" z="51" activateondown="">
+    </gadget>
+    <gadget name="homeCityAddCard-Name" type="formatText" textfont="SubtitleName" textfontsize="14" textcolor="231 201 40" size1024="324 81 740 131" z="51" transparent="">Click on a card to add to your deck</gadget>
+    <gadget name="homeCityAddCard-Label" textcentervert="" textcolor="255 255 255" textfontsize="12" type="formatText" size1024="322 140 539 165" z="51">Cards available for Age:</gadget>
+    <gadget name="homeCityAddCard-Drop" type="textField" textcolor="0 0 0" textfont="PregameEntry" dropdowndistance="132" dropdownvisitems="5" fieldreadonly="" textfontsize="15" size1024="547 139 737 165" z="51" background="ui\core_ui\dropdown_background2" dropdownbuttonart="ui\core_ui\minimize_down">
+      <dropdown>
+      </dropdown>
+    </gadget>
+    <gadget name="homeCityAddCard-CancelButton" type="stateButton" size1024="455 400 616 432" bevelbutton="" z="51" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="255 255 255" textcenterhoriz="" textcentervert="" texturecoords="0 0 0.6328125 1" mouseovertext="$$19940$$" sound="UI_DefaultPregameClickSet">Close<stateentry background="ui\core_ui\button_large_normal"></stateentry><stateentry background="ui\core_ui\button_large_clicked"></stateentry><stateentry background="ui\core_ui\button_large_high"></stateentry><stateentry background="ui\core_ui\button_large_disable"></stateentry></gadget>
+    <gadget name="homeCityAddCard-border-top-left" type="gadget" background="ui\home_city\border_top_left" size1024="301 64 309 72" z="51">
+    </gadget>
+    <gadget name="homeCityAddCard-border-bottom-left" type="gadget" background="ui\home_city\border_top_left" size1024="301 440 309 448" z="51">
+    </gadget>
+    <gadget name="homeCityAddCard-border-side-left" type="gadget" background="ui\home_city\border_left_middle" tilebackgroundvert="" size1024="301 72 309 440" z="51">
+    </gadget>
+    <gadget name="homeCityAddCard-border-top-right" type="gadget" background="ui\home_city\border_top_left" size1024="750 64 758 72" z="51">
+    </gadget>
+    <gadget name="homeCityAddCard-border-bottom-right" type="gadget" background="ui\home_city\border_top_left" size1024="750 440 758 448" z="51">
+    </gadget>
+    <gadget name="homeCityAddCard-border-bottom" type="gadget" background="ui\home_city\border_bottom_middle" tilebackgroundhoriz="" size1024="309 440 750 448" z="51">
+    </gadget>
+    <gadget name="homeCityAddCard-border-top" type="gadget" background="ui\home_city\border_bottom_middle" tilebackgroundhoriz="" size1024="309 66 750 72" z="51">
+    </gadget>
+    <gadget name="homeCityAddCard-border-side-right" type="gadget" background="ui\home_city\border_left_middle" tilebackgroundvert="" size1024="750 74 758 440" z="51">
+    </gadget>
+  </gadget>
+</layout>

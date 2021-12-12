@@ -1,0 +1,154 @@
+<layout>
+  <gadget name="YouAreDefeatedDialog" type="gadget" windowzstyle="" size1024="257 187 767 499" background="ui\background greek transparent" tilebackground="" texturereplace="" hidden="">
+    <gadget name="YouAreDefeatedDialog-ScreenSeparator1" type="gadget" size1024="258 216 768 217" background="missing" z="11">
+    </gadget>
+    <gadget name="YouAreDefeatedDialog-ScreenSeparator2" type="gadget" size1024="258 264 768 265" background="missing" z="11">
+    </gadget>
+    <gadget name="YouAreDefeatedDialog-ReplayButton" type="stateButton" size1024="417 377 609 409" bevelbutton="" z="101" statebuttonuseinternalstates="" textfont="MainMenuButtons" textfontsize="18" textcolor="255 208 0" textcenterhoriz="" textcentervert="" texturecoords="0 0 .75 1">$$20168$$Replay Scenario<stateentry background="ui\core_ui\button_192x32_normal"></stateentry><stateentry background="ui\ui button long 192X32 clicked"></stateentry><stateentry background="ui\ui button long 192X32 rollover"></stateentry><stateentry background=""></stateentry><command>gadgetUnreal("YouAreDefeatedDialog") restartCurrentGame</command></gadget>
+    <gadget name="YouAreDefeatedDialog-LoadSavedButton" type="stateButton" size1024="417 418 609 450" bevelbutton="" z="101" statebuttonuseinternalstates="" textfont="MainMenuButtons" textfontsize="18" textcolor="255 208 0" textcenterhoriz="" textcentervert="" texturecoords="0 0 .75 1">$$19837$$Load Saved Game<stateentry background="ui\core_ui\button_192x32_normal"></stateentry><stateentry background="ui\ui button long 192X32 clicked"></stateentry><stateentry background="ui\ui button long 192X32 rollover"></stateentry><stateentry background=""></stateentry></gadget>
+    <gadget name="YouAreDefeatedDialog-MainMenuButton" type="stateButton" size1024="417 457 609 489" bevelbutton="" z="101" statebuttonuseinternalstates="" textfont="MainMenuButtons" textfontsize="18" textcolor="255 208 0" textcenterhoriz="" textcentervert="" texturecoords="0 0 .75 1">$$18582$$Main Menu<stateentry background="ui\core_ui\button_192x32_normal"></stateentry><stateentry background="ui\ui button long 192X32 clicked"></stateentry><stateentry background="ui\ui button long 192X32 rollover"></stateentry><stateentry background=""></stateentry><command>gadgetUnreal("YouAreDefeatedDialog") leaveGame</command></gadget>
+    <gadget texturereplace="" tilebackgroundhoriz="" name="YouAreDefeatedDialog-BordersTop" type="gadget" background="ui\ui border greek top middle" size1024="257 171 767 187">
+    </gadget>
+    <gadget texturereplace="" tilebackgroundhoriz="" name="YouAreDefeatedDialog-BordersBottom" type="gadget" background="ui\ui border greek bottom middle" size1024="257 499 767 515">
+    </gadget>
+    <gadget texturereplace="" tilebackgroundvert="" name="YouAreDefeatedDialog-BordersLeft" type="gadget" background="ui\ui border greek left middle" size1024="249 186 257 498">
+    </gadget>
+    <gadget texturereplace="" tilebackgroundvert="" name="YouAreDefeatedDialog-BordersRight" type="gadget" background="ui\ui border greek right middle" size1024="767 187 775 499">
+    </gadget>
+    <gadget texturereplace="" name="YouAreDefeatedDialog-BordersLeftTop" type="gadget" background="ui\ui border greek top left corner" size1024="249 171 281 203" z="11">
+    </gadget>
+    <gadget texturereplace="" name="YouAreDefeatedDialog-BordersLeftBottom" type="gadget" background="ui\ui border greek bottom left corner" size1024="249 484 281 516">
+    </gadget>
+    <gadget texturereplace="" name="YouAreDefeatedDialog-BordersRightBottom" type="gadget" background="ui\ui border greek bottom right corner" size1024="743 483 775 515" z="11">
+    </gadget>
+    <gadget texturereplace="" name="YouAreDefeatedDialog-BordersRightTop" type="gadget" background="ui\ui border greek top right corner" size1024="743 171 775 203" z="12">
+    </gadget>
+    <gadget name="YouAreDefeatedDialog-DefeatedText" type="formatText" textfont="InGameDialogsLarge" textfontsize="30" textcolor="255 208 0" size1024="258 220 768 262" textcenterhoriz="" textcentervert="" z="13">$$20167$$You Are Defeated</gadget>
+    <gadget name="YouAreDefeatedDialog-DifficultySelection" type="radioset" size1024="258 332 768 362" textcolor="255 208 0" textfontsize="18" textfont="Pregamelabels" radiosetbuttonsize1024="125 36" radiosetdefaultbuttonindex="0" z="12" radiocheckedart="ui\core_ui\round clicked" radiouncheckedart="ui\core_ui\round" radiobtnborder1024="2 2" mouseovertext="$$19947$$" radiohighlightart="ui\core_ui\round rollover" radiosethorizlayout="">
+      <button>$$32605$$Sandbox</button>
+      <button>$$18297$$Easy</button>
+      <button>$$18298$$Moderate</button>
+      <button>$$18299$$Hard</button>
+      <button>$$32604$$Expert</button>
+    </gadget>
+    <gadget name="YouAreDefeatedDialog-DiffLevelLabel" type="formatText" textfont="InGameDialogs" textfontsize="20" textcolor="255 208 0" size1024="259 307 770 331" textcenterhoriz="" textcentervert="">##20166$$Change Difficulty Level:</gadget>
+    <gadget name="YouAreDefeatedDialog-Swirl-Top" type="gadget" size1024="477 183 541 215" background="ui\ui ornate gold swirl 64x32" z="11">
+    </gadget>
+    <gadget name="YouAreDefeatedDialog-BlueFade" type="gadget" size1024="258 218 768 264" background="ui\background fade blue" z="10">
+    </gadget>
+    <gadget name="YouAreDefeatedDialog-Swirl-Bottom" type="gadget" size1024="477 265 541 297" background="ui\ui ornate gold swirl 64x32" z="11" texturecoords="0 1 1 0">
+    </gadget>
+  </gadget>
+  <gadget name="ChatDialog" type="dialog" size1024="212 23 812 616" bevel="" background="ui\background greek transparent" tilebackground="" texturereplace="" hidden="">
+    <gadget tilebackgroundhoriz="" name="ChatDialog-BordersTop" type="gadget" background="ui\ui border greek top middle" texturereplace="" size1024="221 7 792 23" z="3" transparent="">
+    </gadget>
+    <gadget tilebackgroundhoriz="" name="ChatDialog-BordersBottom" type="gadget" background="ui\ui border greek bottom middle" texturereplace="" size1024="235 616 788 632" z="3" transparent="">
+    </gadget>
+    <gadget name="ChatDialog-BordersLeft" type="gadget" background="ui\ui border greek left middle" size1024="204 39 212 601" texturereplace="" tilebackgroundvert="" transparent="" z="9">
+    </gadget>
+    <gadget name="ChatDialog-BordersRight" type="gadget" background="ui\ui border greek right middle" size1024="812 39 820 601" texturereplace="" tilebackgroundvert="" z="3" transparent="">
+    </gadget>
+    <gadget name="ChatDialog-BordersRightTop" type="gadget" background="ui\ui border greek top right corner" size1024="788 7 820 39" texturereplace="" z="4" transparent="" clampbackground="">
+    </gadget>
+    <gadget name="ChatDialog-BordersLeftTop" type="gadget" background="ui\ui border greek top left corner" size1024="204 7 236 39" texturereplace="" z="4" transparent="" clampbackground="">
+    </gadget>
+    <gadget name="ChatDialog-BordersRightBottom" type="gadget" background="ui\ui border greek bottom right corner" size1024="788 600 820 632" texturereplace="" z="4" transparent="" clampbackground="">
+    </gadget>
+    <gadget name="ChatDialog-BordersLeftBottom" type="gadget" background="ui\ui border greek bottom left corner" size1024="204 600 236 632" texturereplace="" z="10" transparent="" clampbackground="">
+    </gadget>
+    <gadget name="ChatDialog-Header" type="gadget" size1024="232 30 718 61">
+      <gadget name="ChatDialog-ScreenLabel" textcentervert="" textcolor="255 208 0" textfontsize="22" textfont="PregameHeaders" type="formatText" size1024="232 30 525 55">$$20243$$Chat to Players</gadget>
+      <gadget name="ChatDialog-ScreenSeparator" type="gadget" size1024="222 59 802 61" background="missing">
+      </gadget>
+    </gadget>
+    <gadget name="ChatDialog-SendButton" type="stateButton" size1024="676 529 804 561" bevelbutton="" z="51" statebuttonuseinternalstates="" textfont="MainMenuButtons" textfontsize="18" textcolor="255 208 0" textcenterhoriz="" textcentervert="" texturecoords="0 0 1 1">$$19008$$Send<stateentry background="ui\ui button long 128X32"></stateentry><stateentry background="ui\ui button long 128X32 clicked"></stateentry><stateentry background="ui\ui button long 128X32 rollover"></stateentry><stateentry background=""></stateentry></gadget>
+    <gadget name="ChatDialog-CloseButton" type="stateButton" size1024="380 572 508 604" bevelbutton="" z="51" statebuttonuseinternalstates="" textfont="MainMenuButtons" textfontsize="18" textcolor="255 208 0" textcenterhoriz="" textcentervert="" texturecoords="0 0 1 1">$$18465$$OK<stateentry background="ui\ui button long 128X32"></stateentry><stateentry background="ui\ui button long 128X32 clicked"></stateentry><stateentry background="ui\ui button long 128X32 rollover"></stateentry><stateentry background=""></stateentry><command>gadgetUnReal("HelpDialog")</command></gadget>
+    <gadget name="tributedlg-CancelButton" type="stateButton" size1024="516 572 644 604" bevelbutton="" z="51" statebuttonuseinternalstates="" textfont="MainMenuButtons" textfontsize="18" textcolor="255 208 0" textcenterhoriz="" textcentervert="" texturecoords="0 0 1 1">$$18466$$Cancel<stateentry background="ui\ui button long 128X32"></stateentry><stateentry background="ui\ui button long 128X32 clicked"></stateentry><stateentry background="ui\ui button long 128X32 rollover"></stateentry><stateentry background=""></stateentry><command>gadgetUnReal("ChatDialog")</command></gadget>
+    <gadget name="ChatDialog-ChatSelection" type="radioset" size1024="631 71 803 248" textcolor="255 208 0" textfontsize="18" textfont="Pregamelabels" radiosetbuttonsize1024="165 36" radiosetdefaultbuttonindex="0" radiocheckedart="ui\core_ui\round clicked" radiouncheckedart="ui\core_ui\round" radiobtnborder1024="2 2">
+      <button>$$20179$$Allies Only</button>
+      <button>$$20180$$Enemies Only</button>
+      <button>$$20178$$Select All</button>
+      <button>$$18757$$Custom</button>
+    </gadget>
+    <gadget name="ChatDialog-PlayerSelection" type="list" size1024="226 72 623 246" background="ui\background greek transparent" tilebackground="" texturereplace="" checkbutton="" textcolor="255 208 0" scrollvert="" z="10">
+      <vertscrollbar sliderbuttons="" slidervertical="" sliderupbtnset="sliderUpBtn" sliderdownbtnset="sliderDownBtn" sliderpipart="ui\ui slider pip verticle" sliderpiptexturecoords="0 0 0.5 0.75" sliderareaart="ui\ui background dark blue opaque" background="ui\core_ui\background_yellow_opaque">
+      </vertscrollbar>
+    </gadget>
+    <gadget name="ChatDialog-PlayerSelection-LeftBorder" type="gadget" size1024="225 71 226 247" background="ui\core_ui\background_yellow_opaque" clampbackground="" z="20">
+    </gadget>
+    <gadget name="ChatDialog-PlayerSelection-RightBorder" type="gadget" size1024="623 71 624 247" background="ui\core_ui\background_yellow_opaque" clampbackground="" z="20">
+    </gadget>
+    <gadget name="ChatDialog-PlayerSelection-TopBorder" type="gadget" size1024="225 71 624 72" background="ui\core_ui\background_yellow_opaque" clampbackground="" z="20">
+    </gadget>
+    <gadget name="ChatDialog-PlayerSelection-BottomBorder" type="gadget" size1024="225 246 624 247" background="ui\core_ui\background_yellow_opaque" clampbackground="" z="20">
+    </gadget>
+    <gadget name="ChatDialog-QuickChatsLabel" type="formatText" textcolor="255 208 0" textmarkup="" usehyperlinks="" textfontsize="20" textfont="InGameDialogs" size1024="225 263 499 283" z="25">Quick Chats:</gadget>
+    <gadget name="ChatDialog-FormattedChats" type="list" size1024="226 285 802 390" background="ui\background greek transparent" tilebackground="" texturereplace="" textcolor="255 208 0" scrollvert="" showselect="">
+      <vertscrollbar sliderbuttons="" slidervertical="" sliderupbtnset="sliderUpBtn" sliderdownbtnset="sliderDownBtn" sliderpipart="ui\ui slider pip verticle" sliderpiptexturecoords="0 0 0.5 0.75" sliderareaart="ui\ui background dark blue opaque" background="ui\core_ui\background_yellow_opaque">
+      </vertscrollbar>
+    </gadget>
+    <gadget name="ChatDialog-FormattedChats-LeftBorder" type="gadget" size1024="225 284 226 391" background="ui\core_ui\background_yellow_opaque" clampbackground="" z="20">
+    </gadget>
+    <gadget name="ChatDialog-FormattedChats-RightBorder" type="gadget" size1024="802 284 803 391" background="ui\core_ui\background_yellow_opaque" clampbackground="" z="20">
+    </gadget>
+    <gadget name="ChatDialog-FormattedChats-TopBorder" type="gadget" size1024="225 284 803 285" background="ui\core_ui\background_yellow_opaque" clampbackground="" z="20">
+    </gadget>
+    <gadget name="ChatDialog-FormattedChats-BottomBorder" type="gadget" size1024="225 390 803 391" background="ui\core_ui\background_yellow_opaque" clampbackground="" z="20">
+    </gadget>
+    <gadget name="ChatDialog-ChatDisplay" type="formatText" size1024="226 405 669 532" bevel="" background="ui\background greek transparent" tilebackground="" texturereplace="" textcolor="255 208 0" textfontsize="14" textmarkup="" textfont="ChatOutput" textwrapon="" textscrollbar="" formattextscrolltobottom="" z="10">
+    </gadget>
+    <gadget name="ChatDialog-ChatDisplay-LeftBorder" type="gadget" size1024="225 404 226 532" background="ui\core_ui\background_yellow_opaque" clampbackground="" z="20">
+    </gadget>
+    <gadget name="ChatDialog-ChatDisplay-RightBorder" type="gadget" size1024="668 404 669 532" background="ui\core_ui\background_yellow_opaque" clampbackground="" z="20">
+    </gadget>
+    <gadget name="ChatDialog-ChatDisplay-TopBorder" type="gadget" size1024="225 404 669 405" background="ui\core_ui\background_yellow_opaque" clampbackground="" z="20">
+    </gadget>
+    <gadget name="ChatDialog-ChatEntry-Group" type="gadget" size1024="247 527 685 579" z="30">
+      <gadget name="ChatDialog-ChatEntry-Background" type="gadget" tilebackgroundhoriz="" background="missing" size1024="225 529 669 561" z="30">
+      </gadget>
+      <gadget name="ChatDialog-ChatEntry" type="editBox" size1024="225 534 669 557" textfont="PregameEntry" textfontsize="16" textcolor="0 0 58" enterkey="" editboxmaxchars="200" enableime="" z="35">
+      </gadget>
+    </gadget>
+  </gadget>
+  <gadget name="YouAreVictoriousDialog" type="gadget" windowzstyle="" size1024="0 0 1024 768" backgroundcolor="0 0 0">
+    <gadget name="YouAreVictoriousDialog-Dialog" type="gadget" size1024="257 187 767 499" background="ui\background greek transparent" tilebackground="" texturereplace="">
+      <gadget name="YouAreVictoriousDialog-ScreenSeparator1" type="gadget" size1024="258 216 768 217" background="missing" z="11">
+      </gadget>
+      <gadget name="YouAreVictoriousDialog-ScreenSeparator2" type="gadget" size1024="258 264 768 265" background="missing" z="11">
+      </gadget>
+      <gadget name="YouAreVictoriousDialog-NextScenarioButton" type="stateButton" size1024="417 417 609 449" bevelbutton="" z="101" statebuttonuseinternalstates="" textfont="MainMenuButtons" textfontsize="18" textcolor="255 208 0" textcenterhoriz="" textcentervert="" texturecoords="0 0 .75 1">$$18454$$Next Scenario<stateentry background="ui\core_ui\button_192x32_normal"></stateentry><stateentry background="ui\ui button long 192X32 clicked"></stateentry><stateentry background="ui\ui button long 192X32 rollover"></stateentry><stateentry background=""></stateentry><command>echo("next scenario not set!!")</command></gadget>
+      <gadget name="YouAreVictoriousDialog-MainMenuButton" type="stateButton" size1024="417 457 609 489" bevelbutton="" z="101" statebuttonuseinternalstates="" textfont="MainMenuButtons" textfontsize="18" textcolor="255 208 0" textcenterhoriz="" textcentervert="" texturecoords="0 0 .75 1">$$18582$$Main Menu<stateentry background="ui\core_ui\button_192x32_normal"></stateentry><stateentry background="ui\ui button long 192X32 clicked"></stateentry><stateentry background="ui\ui button long 192X32 rollover"></stateentry><stateentry background=""></stateentry><command>gadgetUnreal("YouAreVictoriousDialog") leaveGame</command></gadget>
+      <gadget texturereplace="" tilebackgroundhoriz="" name="YouAreVictoriousDialog-BordersTop" type="gadget" background="ui\ui border greek top middle" size1024="257 171 767 187">
+      </gadget>
+      <gadget texturereplace="" tilebackgroundhoriz="" name="YouAreVictoriousDialog-BordersBottom" type="gadget" background="ui\ui border greek bottom middle" size1024="257 499 767 515">
+      </gadget>
+      <gadget texturereplace="" tilebackgroundvert="" name="YouAreVictoriousDialog-BordersLeft" type="gadget" background="ui\ui border greek left middle" size1024="249 186 257 498">
+      </gadget>
+      <gadget texturereplace="" tilebackgroundvert="" name="YouAreVictoriousDialog-BordersRight" type="gadget" background="ui\ui border greek right middle" size1024="767 187 775 499">
+      </gadget>
+      <gadget texturereplace="" name="YouAreVictoriousDialog-BordersLeftTop" type="gadget" background="ui\ui border greek top left corner" size1024="249 171 281 203" z="11">
+      </gadget>
+      <gadget texturereplace="" name="YouAreVictoriousDialog-BordersLeftBottom" type="gadget" background="ui\ui border greek bottom left corner" size1024="249 484 281 516">
+      </gadget>
+      <gadget texturereplace="" name="YouAreVictoriousDialog-BordersRightBottom" type="gadget" background="ui\ui border greek bottom right corner" size1024="743 483 775 515" z="11">
+      </gadget>
+      <gadget texturereplace="" name="YouAreVictoriousDialog-BordersRightTop" type="gadget" background="ui\ui border greek top right corner" size1024="743 171 775 203" z="12">
+      </gadget>
+      <gadget name="YouAreVictoriousDialog-VictoriousText" type="formatText" textfont="InGameDialogsLarge" textfontsize="30" textcolor="255 208 0" size1024="258 220 768 262" textcenterhoriz="" textcentervert="">$$20165$$You Are Victorious!</gadget>
+      <gadget name="YouAreVictoriousDialog-DifficultySelection" type="radioset" size1024="257 347 767 404" textcolor="255 208 0" textfontsize="18" textfont="Pregamelabels" radiosetbuttonsize1024="125 36" radiosetdefaultbuttonindex="0" z="12" radiocheckedart="ui\core_ui\round clicked" radiouncheckedart="ui\core_ui\round" radiobtnborder1024="2 2" mouseovertext="$$19947$$" radiohighlightart="ui\core_ui\round rollover" radiosethorizlayout="">
+        <button>$$32605$$Sandbox</button>
+        <button>$$18297$$Easy</button>
+        <button>$$18298$$Moderate</button>
+        <button>$$18299$$Hard</button>
+        <button>$$32604$$Expert</button>
+      </gadget>
+      <gadget name="YouAreVictoriousDialog-DiffLevelLabel" type="formatText" textfont="InGameDialogs" textfontsize="20" textcolor="255 208 0" size1024="257 312 768 336" textcenterhoriz="" textcentervert="">$$20166$$Change Difficulty Level:</gadget>
+      <gadget name="YouAreVictoriousDialog-Swirl-Top" type="gadget" size1024="477 183 541 215" background="ui\ui ornate gold swirl 64x32" z="11">
+      </gadget>
+      <gadget name="YouAreVictoriousDialog-BlueFade" type="gadget" size1024="258 218 768 264" background="ui\background fade blue" z="10">
+      </gadget>
+      <gadget name="YouAreVictoriousDialog-Swirl-Bottom" type="gadget" size1024="477 265 541 297" background="ui\ui ornate gold swirl 64x32" z="11" texturecoords="0 1 1 0">
+      </gadget>
+    </gadget>
+  </gadget>
+</layout>

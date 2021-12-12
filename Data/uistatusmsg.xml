@@ -1,0 +1,21 @@
+<layout>
+  <gadget type="dialog" name="statusdialog" size1024="347 196 677 420" bevel="" background="ui\ui background blue opaque" tilebackground="" texturereplace="" windowzstyle="" hidden="" dialogdefaultbuttonindex="0">
+    <gadget tilebackgroundhoriz="" name="statusdialog-BordersTop" type="gadget" background="ui\ui border top middle" size1024="379 188 645 196">
+    </gadget>
+    <gadget tilebackgroundhoriz="" name="statusdialog-BordersBottom" type="gadget" background="ui\ui border bottom middle" size1024="379 420 645 428">
+    </gadget>
+    <gadget tilebackgroundvert="" name="statusdialog-BordersLeft" type="gadget" background="ui\ui border left middle" size1024="331 220 347 364">
+    </gadget>
+    <gadget tilebackgroundvert="" name="statusdialog-BordersRight" type="gadget" background="ui\ui border right middle" size1024="677 220 693 364">
+    </gadget>
+    <gadget name="statusdialog-BordersLeftTop" type="gadget" background="ui\ui border top left corner" size1024="315 188 379 220" clampbackground="">
+    </gadget>
+    <gadget name="statusdialog-BordersLeftBottom" type="gadget" background="ui\ui border bottom left corner" size1024="315 364 379 428" clampbackground="">
+    </gadget>
+    <gadget name="statusdialog-BordersRightBottom" type="gadget" background="ui\ui border bottom right corner" size1024="645 364 709 428" clampbackground="">
+    </gadget>
+    <gadget name="statusdialog-BordersRightTop" type="gadget" background="ui\ui border top right corner" size1024="645 188 709 220" clampbackground="">
+    </gadget>
+    <gadget name="statusdialog-prompt" type="formatText" textcolor="255 208 0" textfont="PregameEntry" textfontsize="15" textcentervert="" textcenterhoriz="" size1024="367 235 657 350">Message Text Goes Here</gadget>
+  </gadget>
+</layout>

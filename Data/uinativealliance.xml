@@ -1,0 +1,70 @@
+<layout>
+  <gadget name="nativealliance" type="dialog" size1024="245 126 791 582" background="ui\file_system\file_system_background" tilebackground="" hidden="" windowzstyle="" contextexclusive="nativealliance" closeonesc="">
+    <gadget tilebackgroundhoriz="" name="nativealliance-BordersTop" type="gadget" background="ui\file_system\border_top_middle" size1024="269 127 759 143" z="6">
+    </gadget>
+    <gadget tilebackgroundhoriz="" name="nativealliance-BordersBottom" type="gadget" background="ui\file_system\border_bottom_middle" size1024="279 570 757 582" z="6">
+    </gadget>
+    <gadget tilebackgroundvert="" name="nativealliance-BordersLeft" type="gadget" background="ui\file_system\border_side_left" size1024="245 157 257 550" z="6">
+    </gadget>
+    <gadget tilebackgroundvert="" name="nativealliance-BordersRight" type="gadget" background="ui\file_system\border_side_right" size1024="781 159 789 548" z="6">
+    </gadget>
+    <gadget name="nativealliance-BordersLeftTop" type="gadget" background="ui\file_system\border_top_left" size1024="245 127 277 159" z="9">
+    </gadget>
+    <gadget name="nativealliance-BordersLeftBottom" type="gadget" background="ui\file_system\border_bottom_left" size1024="245 550 277 582" z="10">
+    </gadget>
+    <gadget name="nativealliance-BordersRightBottom" type="gadget" background="ui\file_system\border_bottom_right" size1024="759 550 791 582" z="10">
+    </gadget>
+    <gadget name="nativealliance-BordersRightTop" type="gadget" background="ui\file_system\border_top_right" size1024="759 125 791 157" z="10">
+    </gadget>
+    <gadget name="nativealliance-Header" type="gadget" background="" size1024="259 144 781 216" z="9">
+      <gadget name="nativealliance-ScreenLabel" textcentervert="" textcenterhoriz="" textcolor="3 0 88" textfontsize="22" textfont="PregameHeaders" type="formatText" size1024="338 167 682 198" z="10">$$23630$$Native Alliances</gadget>
+      <gadget name="nativealliance-ScreenSeparator" type="gadget" size1024="345 204 671 206" background="missing" z="50">
+      </gadget>
+    </gadget>
+    <gadget name="nativealliance-Body" type="gadget" background="" size1024="257 217 779 571" z="10">
+      <gadget name="nativealliance-NativeName" z="13" type="formatText" background="" textfont="AgeUpgradeMedium" textfontsize="17" textcolor="3 0 88" textjustifyright="" size1024="269 247 439 270">
+      </gadget>
+      <gadget name="nativealliance-NativePortrait-Background" type="gadget" size1024="451 245 578 437" z="5" backgroundcolor="0 0 0">
+      </gadget>
+      <gadget name="nativealliance-NativePortrait" type="button" size1024="453 247 576 435" z="11" texturecoords="0 0 .66 1" outlinecolor="75 55 30" activateondown="">
+      </gadget>
+      <gadget name="nativealliance-NativeAllianceText" z="13" type="formatText" background="" textfont="AgeUpgradeMedium" textfontsize="17" textcolor="3 0 88" size1024="269 271 439 294">$$26301$$Current Allies</gadget>
+      <gadget name="nativealliance-NativeAlly0" z="13" type="formatText" background="" textfont="AgeUpgradeMedium" textfontsize="17" textcolor="3 0 88" size1024="269 295 439 318">
+      </gadget>
+      <gadget name="nativealliance-NativeAlly1" z="13" type="formatText" background="" textfont="AgeUpgradeMedium" textfontsize="17" textcolor="3 0 88" size1024="269 319 439 342">
+      </gadget>
+      <gadget name="nativealliance-NativeAlly2" z="13" type="formatText" background="" textfont="AgeUpgradeMedium" textfontsize="17" textcolor="3 0 88" size1024="269 343 439 366">
+      </gadget>
+      <gadget name="nativealliance-NativeAlly3" z="13" type="formatText" background="" textfont="AgeUpgradeMedium" textfontsize="17" textcolor="3 0 88" size1024="269 367 439 390">
+      </gadget>
+      <gadget name="nativealliance-NativeAlly4" z="13" type="formatText" background="" textfont="AgeUpgradeMedium" textfontsize="17" textcolor="3 0 88" size1024="269 391 439 414">
+      </gadget>
+      <gadget name="nativealliance-NativeAlly5" z="13" type="formatText" background="" textfont="AgeUpgradeMedium" textfontsize="17" textcolor="3 0 88" size1024="269 415 439 438">
+      </gadget>
+      <gadget name="nativealliance-NativeUnitLabel" z="13" type="formatText" background="" textfont="AgeUpgradeMedium" textfontsize="17" textcolor="3 0 88" size1024="597 245 764 269">$$25504$$Units</gadget>
+      <gadget name="nativealliance-NativeUnit0" type="button" size1024="597 269 629 301" z="11" activateondown="">
+      </gadget>
+      <gadget name="nativealliance-NativeUnit1" type="button" size1024="637 269 669 301" z="11" activateondown="">
+      </gadget>
+      <gadget name="nativealliance-NativeUnit2" type="button" size1024="677 269 709 301" z="11" activateondown="">
+      </gadget>
+      <gadget name="nativealliance-NativeUnit3" type="button" size1024="717 269 749 301" z="11" activateondown="">
+      </gadget>
+      <gadget name="nativealliance-NativeTechLabel" z="13" type="formatText" background="" textfont="AgeUpgradeMedium" textfontsize="17" textcolor="3 0 88" size1024="597 301 764 324">$$25505$$Techs</gadget>
+      <gadget name="nativealliance-NativeTech0" type="button" size1024="597 325 629 357" z="11" activateondown="">
+      </gadget>
+      <gadget name="nativealliance-NativeTech1" type="button" size1024="637 325 669 357" z="11" activateondown="">
+      </gadget>
+      <gadget name="nativealliance-NativeTech2" type="button" size1024="677 325 709 357" z="11" activateondown="">
+      </gadget>
+      <gadget name="nativealliance-NativeTech3" type="button" size1024="717 325 749 357" z="11" activateondown="">
+      </gadget>
+      <gadget name="nativealliance-DontShowAgain" textcolor="255 255 255" type="checkButton" textfont="NumbersFont" textfontsize="12" z="12" size1024="279 542 629 564" checkcheckedart="ui\core_ui\toggle_green" checkuncheckedart="ui\core_ui\toggle_red" checkhighlightart="ui\core_ui\toggle_red_rollover" checkborder1024="5 0" sound="ui_jewel">$$26302$$Don't Show this dialog again.</gadget>
+      <gadget name="nativealliance-Status" z="13" type="formatText" textwrapon="" background="" textfont="AgeUpgradeMedium" textfontsize="17" textcolor="3 0 88" size1024="268 445 764 492">
+      </gadget>
+      <gadget name="nativealliance-HelpText" z="13" type="formatText" textwrapon="" background="" textfont="AgeUpgradeMedium" textfontsize="17" textcolor="3 0 88" size1024="268 495 764 526">
+      </gadget>
+      <gadget name="nativealliance-CloseButton" type="stateButton" size1024="632 534 756 566" bevelbutton="" z="94" statebuttonuseinternalstates="" textfont="IngameButtons" textfontsize="18" textcolor="3 0 88" textcenterhoriz="" textcentervert="" mouseovertext="$$23631$$Close the Native Alliances Dialog.">$$21291$$Close<stateentry background="ui\core_ui\button_128x32_normal"></stateentry><stateentry background="ui\core_ui\button_128x32_clicked"></stateentry><stateentry background="ui\core_ui\button_128x32_rollover"></stateentry><stateentry background=""></stateentry></gadget>
+    </gadget>
+  </gadget>
+</layout>

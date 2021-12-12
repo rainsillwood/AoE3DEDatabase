@@ -1,0 +1,82 @@
+<cliffs>
+  <cliff name="Amazon River" blockland="1" blockwater="0" iconname="ui\editor\cliffgreatplainsmine">
+    <texturing>
+      <bump>
+      </bump>
+      <topedge>amazon\ground2_ama</topedge>
+      <top>amazon\ground3_ama</top>
+      <side>amazon\cliff_ama</side>
+      <edge>amazon\ground3_ama</edge>
+      <bottomedge>amazon\ground2_ama</bottomedge>
+      <piecetex height="6.0" bump="terrain\amazon\cliff_bump_ama">terrain\amazon\cliff_ama</piecetex>
+      <cappiecetex bump="terrain\amazon\cliff_bump_ama">terrain\amazon\cliff_ama</cappiecetex>
+      <displacement>terrain\amazon\cliff_displacement_ama</displacement>
+    </texturing>
+  </cliff>
+  <cliff name="Orinoco River" blockland="1" blockwater="0" iconname="ui\editor\cliffgreatplainsmine">
+    <texturing>
+      <bump>
+      </bump>
+      <topedge>amazon\ground2_ama</topedge>
+      <top>amazon\ground3_ama</top>
+      <side>amazon\cliff_ama</side>
+      <edge>amazon\ground3_ama</edge>
+      <bottomedge>amazon\ground2_ama</bottomedge>
+      <piecetex height="6.0" bump="terrain\amazon\cliff_bump_ama">terrain\amazon\cliff_ama</piecetex>
+      <cappiecetex bump="terrain\amazon\cliff_bump_ama">terrain\amazon\cliff_ama</cappiecetex>
+      <displacement>terrain\amazon\cliff_displacement_ama</displacement>
+    </texturing>
+  </cliff>
+  <cliff name="Andes River" blockland="1" blockwater="0" iconname="ui\editor\cliffandes">
+    <texturing>
+      <bump>
+      </bump>
+      <topedge>andes\ground11_and</topedge>
+      <top>andes\ground10_and</top>
+      <side>andes\wall_diffuse_02_and</side>
+      <edge>andes\ground16_and</edge>
+      <bottomedge>andes\ground17_and</bottomedge>
+      <piecetex height="1.0" bump="terrain\andes\wall_normal_02_and">terrain\andes\wall_diffuse_02_and</piecetex>
+      <cappiecetex bump="terrain\andes\wall_normal_02_and">terrain\andes\wall_diffuse_02_and</cappiecetex>
+      <displacement>terrain\andes\cliff_displacement_and</displacement>
+    </texturing>
+  </cliff>
+  <cliff name="Pampas River" blockland="1" blockwater="0" iconname="ui\editor\cliffnewengland">
+    <texturing>
+      <bump>
+      </bump>
+      <top>pampas\ground1_pam</top>
+      <side>pampas\ground1_pam</side>
+      <edge>pampas\ground5_pam</edge>
+      <piecetex height="20.0" bump="terrain\pampas\cliff_river_diffuse_pam_bump">terrain\pampas\cliff_river_diffuse_pam</piecetex>
+      <cappiecetex bump="terrain\pampas\cliff_river_diffuse_pam_bump">terrain\pampas\cliff_river_diffuse_pam</cappiecetex>
+      <displacement>terrain\pampas\cliff_river_displacement_pam</displacement>
+    </texturing>
+  </cliff>
+  <cliff name="YukonRiver" blockland="1" blockwater="0" iconname="ui\editor\cliffnewengland">
+    <texturing>
+      <bump>
+      </bump>
+      <top>yukon\ground1_yuk</top>
+      <side>yukon\ground1_yuk</side>
+      <edge>yukon\ground2_yuk</edge>
+      <piecetex height="20.0" bump="terrain\yukon\riverbank_diffuse_yuk_bump">terrain\yukon\riverbank_diffuse_yuk</piecetex>
+      <cappiecetex bump="terrain\yukon\riverbank_diffuse_yuk_bump">terrain\yukon\riverbank_diffuse_yuk</cappiecetex>
+      <displacement>terrain\yukon\river_displacement_yuk</displacement>
+    </texturing>
+  </cliff>
+  <cliff name="Great Lakes" blockland="1" blockwater="0" iconname="ui\editor\cliffnewengland">
+    <texturing>
+      <bump>
+      </bump>
+      <top>great_lakes\ground_ice1_gl</top>
+      <topedge>great_lakes\ground_ice1_gl</topedge>
+      <side>great_lakes\ground_ice1_gl</side>
+      <edge>great_lakes\ground_ice1_gl</edge>
+      <bottomedge>great_lakes\ground_ice1_gl</bottomedge>
+      <piecetex height="20.0" bump="terrain\great_lakes\cliff_ice1_bump_gl">terrain\great_lakes\cliff_ice1_gl</piecetex>
+      <cappiecetex bump="terrain\great_lakes\cliff_ice1_bump_gl">terrain\great_lakes\cliff_ice1_gl</cappiecetex>
+      <displacement>terrain\great_lakes\cliff_displacement_gl</displacement>
+    </texturing>
+  </cliff>
+</cliffs>

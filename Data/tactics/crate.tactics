@@ -1,0 +1,9 @@
+<tactics>
+  <action>
+    <name stringid="69146">AutoGather</name>
+    <type>AutoGather</type>
+    <persistent>1</persistent>
+    <singleuse>1</singleuse>
+  </action>
+  <tactic>Normal<action>AutoGather</action></tactic>
+</tactics>

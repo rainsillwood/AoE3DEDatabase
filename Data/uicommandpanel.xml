@@ -1,0 +1,115 @@
+<layout>
+  <gadget name="commandpanel" type="commandpanel" background="ui\ingame\tempinterface3" size1024="347 587 754 768" z="5" texturecoords="0.207436399217221 0.649706457925636 1 1">
+    <gadget name="commandpanel-rowLabel0" type="formatText" size1024="348 599 426 649" textfont="StatAreaText" textfontsize="12" textcentervert="" textcenterhoriz="" textcolor="255 255 255" z="10" hidden="">Row0</gadget>
+    <gadget name="commandpanel-rowLabel1" type="formatText" size1024="347 652 425 702" textfont="StatAreaText" textfontsize="12" textcentervert="" textcenterhoriz="" textcolor="255 255 255" z="10" hidden="">Row0</gadget>
+    <gadget name="commandpanel-rowLabel2" type="formatText" size1024="347 707 425 757" textfont="StatAreaText" textfontsize="12" textcentervert="" textcenterhoriz="" textcolor="255 255 255" z="10" hidden="">Row0</gadget>
+    <gadget name="commandPanel-button00" type="button" size1024="430 599 480 649" z="15" hidden="" activateondown="">
+      <piechartfilling color="255 0 0 100" rotation="cw" fill="false">
+      </piechartfilling>
+    </gadget>
+    <gadget name="commandPanel-button10" type="button" size1024="430 653 480 703" z="15" hidden="" activateondown="">
+      <piechartfilling color="255 0 0 100" rotation="cw" fill="false">
+      </piechartfilling>
+    </gadget>
+    <gadget name="commandPanel-button20" type="button" size1024="430 707 480 757" z="15" hidden="" activateondown="">
+      <piechartfilling color="255 0 0 100" rotation="cw" fill="false">
+      </piechartfilling>
+    </gadget>
+    <gadget name="commandPanel-button01" type="button" size1024="484 599 534 649" z="15" hidden="" activateondown="">
+      <piechartfilling color="255 0 0 100" rotation="cw" fill="false">
+      </piechartfilling>
+    </gadget>
+    <gadget name="commandPanel-button11" type="button" size1024="484 653 534 703" z="15" hidden="" activateondown="">
+      <piechartfilling color="255 0 0 100" rotation="cw" fill="false">
+      </piechartfilling>
+    </gadget>
+    <gadget name="commandPanel-button21" type="button" size1024="484 707 534 757" z="15" hidden="" activateondown="">
+      <piechartfilling color="255 0 0 100" rotation="cw" fill="false">
+      </piechartfilling>
+    </gadget>
+    <gadget name="commandPanel-button02" type="button" size1024="538 599 588 649" z="15" hidden="" activateondown="">
+      <piechartfilling color="255 0 0 100" rotation="cw" fill="false">
+      </piechartfilling>
+    </gadget>
+    <gadget name="commandPanel-button12" type="button" size1024="538 653 588 703" z="15" hidden="" activateondown="">
+      <piechartfilling color="255 0 0 100" rotation="cw" fill="false">
+      </piechartfilling>
+    </gadget>
+    <gadget name="commandPanel-button22" type="button" size1024="538 707 588 757" z="15" hidden="" activateondown="">
+      <piechartfilling color="255 0 0 100" rotation="cw" fill="false">
+      </piechartfilling>
+    </gadget>
+    <gadget name="commandPanel-button03" type="button" size1024="593 599 643 649" z="15" hidden="" activateondown="">
+      <piechartfilling color="255 0 0 100" rotation="cw" fill="false">
+      </piechartfilling>
+    </gadget>
+    <gadget name="commandPanel-button13" type="button" size1024="593 653 643 703" z="15" hidden="" activateondown="">
+      <piechartfilling color="255 0 0 100" rotation="cw" fill="false">
+      </piechartfilling>
+    </gadget>
+    <gadget name="commandPanel-button23" type="button" size1024="593 707 643 757" z="15" hidden="" activateondown="">
+      <piechartfilling color="255 0 0 100" rotation="cw" fill="false">
+      </piechartfilling>
+    </gadget>
+    <gadget name="commandPanel-button04" type="button" size1024="646 599 696 649" z="15" hidden="" activateondown="">
+      <piechartfilling color="255 0 0 100" rotation="cw" fill="false">
+      </piechartfilling>
+    </gadget>
+    <gadget name="commandPanel-button14" type="button" size1024="646 653 696 703" z="15" hidden="" activateondown="">
+      <piechartfilling color="255 0 0 100" rotation="cw" fill="false">
+      </piechartfilling>
+    </gadget>
+    <gadget name="commandPanel-button24" type="button" size1024="646 707 696 757" z="15" hidden="" activateondown="">
+      <piechartfilling color="255 0 0 100" rotation="cw" fill="false">
+      </piechartfilling>
+    </gadget>
+    <gadget name="commandPanel-button05" type="button" size1024="700 599 750 649" z="15" hidden="" activateondown="">
+      <piechartfilling color="255 0 0 100" rotation="cw" fill="false">
+      </piechartfilling>
+    </gadget>
+    <gadget name="commandPanel-button15" type="button" size1024="700 653 750 703" z="15" hidden="" activateondown="">
+      <piechartfilling color="255 0 0 100" rotation="cw" fill="false">
+      </piechartfilling>
+    </gadget>
+    <gadget name="commandPanel-button25" type="button" size1024="700 707 750 757" z="15" hidden="" activateondown="">
+      <piechartfilling color="255 0 0 100" rotation="cw" fill="false">
+      </piechartfilling>
+    </gadget>
+    <gadget name="ageOverlay-button00" type="gadget" size1024="464 632 480 648" z="20" transparent="">
+    </gadget>
+    <gadget name="ageOverlay-button10" type="gadget" size1024="463 686 479 702" z="20" transparent="">
+    </gadget>
+    <gadget name="ageOverlay-button20" type="gadget" size1024="463 741 479 757" z="20" transparent="">
+    </gadget>
+    <gadget name="ageOverlay-button01" type="gadget" size1024="517 632 533 648" z="20" transparent="">
+    </gadget>
+    <gadget name="ageOverlay-button11" type="gadget" size1024="517 686 533 702" z="20" transparent="">
+    </gadget>
+    <gadget name="ageOverlay-button21" type="gadget" size1024="517 741 533 757" z="20" transparent="">
+    </gadget>
+    <gadget name="ageOverlay-button02" type="gadget" size1024="572 632 588 648" z="20" transparent="">
+    </gadget>
+    <gadget name="ageOverlay-button12" type="gadget" size1024="572 686 588 702" z="20" transparent="">
+    </gadget>
+    <gadget name="ageOverlay-button22" type="gadget" size1024="572 741 588 757" z="20" transparent="">
+    </gadget>
+    <gadget name="ageOverlay-button03" type="gadget" size1024="626 632 642 648" z="20" transparent="">
+    </gadget>
+    <gadget name="ageOverlay-button13" type="gadget" size1024="626 686 642 702" z="20" transparent="">
+    </gadget>
+    <gadget name="ageOverlay-button23" type="gadget" size1024="626 741 642 757" z="20" transparent="">
+    </gadget>
+    <gadget name="ageOverlay-button04" type="gadget" size1024="680 632 696 648" z="20" transparent="">
+    </gadget>
+    <gadget name="ageOverlay-button14" type="gadget" size1024="680 686 696 702" z="20" transparent="">
+    </gadget>
+    <gadget name="ageOverlay-button24" type="gadget" size1024="680 741 696 757" z="20" transparent="">
+    </gadget>
+    <gadget name="ageOverlay-button05" type="gadget" size1024="733 632 749 648" z="20" transparent="">
+    </gadget>
+    <gadget name="ageOverlay-button15" type="gadget" size1024="733 686 749 702" z="20" transparent="">
+    </gadget>
+    <gadget name="ageOverlay-button25" type="gadget" size1024="733 741 749 757" z="20" transparent="">
+    </gadget>
+  </gadget>
+</layout>

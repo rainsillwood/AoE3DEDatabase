@@ -1,0 +1,20 @@
+<layout>
+  <gadget name="homecitytransportpanel-header" type="homeCityTransportPanelHeader" size1024="374 0 600 68" background="ui\home_city\HC_UI_tabs" z="5" texturecoords="0.55859375 0.0 1.0 0.265625">
+    <gadget name="homecitytransportpanel-homecityPlayer" textjustifyright="" type="formatText" size1024="158 8 367 30" donthighlight="" textcolor="255 255 255" textfont="GoalText" textfontsize="18" textcentervert="" z="12" datarefreshrate="200">
+    </gadget>
+    <gadget name="homecitytransportpanel-homecityName" type="formatText" size1024="608 8 817 30" donthighlight="" textcolor="255 255 255" textfont="GoalText" textfontsize="18" textcentervert="" z="12" datarefreshrate="200">
+    </gadget>
+    <gadget name="homecitytransportpanel-homecityAge" type="formatText" textcentervert="" textcenterhoriz="" transparent="" textcolor="255 255 255" datarefreshrate="200" z="15" textfont="AgeText" textfontsize="12" size1024="402 8 571 26">
+    </gadget>
+    <gadget name="homecitytransportpanel-AgeAdvFG" type="gadget" size1024="402 8 571 26" background="ui\ingame\ingame_ui_02x_ypack" z="14" texturecoords="0.609375 0.302734375 0.939453125 0.33984375">
+    </gadget>
+    <gadget name="homecitytransportpanel-homecityLevel" type="formatText" size1024="386 37 461 56" donthighlight="" textcolor="255 255 255" textfont="AgeText" textfontsize="12" textcentervert="" textcenterhoriz="" z="12">
+    </gadget>
+    <gadget name="homecitytransportpanel-homecityxpbar" type="gadget" size1024="386 57 461 63" donthilight="" background="ui\core_ui\xp-bar_empty" texturecoords="0 0 0.5859375 0.75" z="13">
+    </gadget>
+    <gadget name="homecitytransportpanel-homecityxpbarfill" type="gadget" size1024="386 57 461 63" donthilight="" background="ui\core_ui\xp-bar_full" texturecoords="0 0 0.5859375 0.75" z="14">
+    </gadget>
+    <gadget name="homecitytransportpanel-homecityExp" type="formatText" size1024="466 37 589 56" donthighlight="" textcolor="255 255 255" textfont="AgeText" textfontsize="12" textcentervert="" textcenterhoriz="" z="12">
+    </gadget>
+  </gadget>
+</layout>

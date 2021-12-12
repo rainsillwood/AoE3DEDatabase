@@ -1,0 +1,20 @@
+<layout>
+  <gadget name="TreatyAdd" type="gadget" size1024="216 144 540 462" background="ui\file_system\file_system_background" bevel="" titlebar="$$28368$$Create Treaty" closebutton="" windowzstyle="" moveable="">
+    <gadget name="TreatyAdd_OkBtn" type="button" bevel="" background="ui\file_system\file_system_background" textfont="Arial nobold nodrop" textfontsize="12" size1024="264 424 370 445">$$18465$$Ok</gadget>
+    <gadget name="TreatyAdd_OkDisableBtn" type="gadget" bevel="" background="ui\file_system\file_system_background" textfont="Arial nobold nodrop" textfontsize="12" size1024="264 424 370 445" z="11" mouseovertext="$$48946$$">$$18465$$Ok</gadget>
+    <gadget name="TreatyAdd_CancelBtn" type="button" bevel="" background="ui\file_system\file_system_background" textfont="Arial nobold nodrop" textfontsize="12" size1024="384 424 490 444">$$18466$$Cancel</gadget>
+    <gadget name="TreatyAdd_Player1Fld" type="textField" background="ui\file_system\file_system_background" size1024="240 176 514 196" z="11">$$28381$$Player 1</gadget>
+    <gadget name="TreatyAdd_Player2Fld" type="textField" background="ui\file_system\file_system_background" size1024="240 200 514 220" z="11">$$28382$$Player 1</gadget>
+    <gadget name="TreatyAdd_DurationFld" type="textField" background="ui\file_system\file_system_background" size1024="240 224 514 244" z="11">$$28383$$Duration</gadget>
+    <gadget name="TreatyAdd_SpecifiedInLabel" type="formatText" background="ui\file_system\file_system_background" size1024="240 248 322 268" z="11">$$28384$$Specified In:</gadget>
+    <gadget name="TreatyAdd_SpecifiedInBtns" type="radioset" textcolor="0 0 0" textfont="Arial nobold nodrop" textfontsize="12" background="ui\file_system\file_system_background" radiosetbuttonsize1024="125 25" radiosetdefaultbuttonindex="0" size1024="328 248 458 316">
+      <button>$$28385$$Game Years</button>
+      <button>$$28386$$Seconds</button>
+    </gadget>
+    <gadget name="TreatyAdd_UseDefaultCostBtn" type="checkButton" size1024="240 320 458 340" z="11">$$28522$$Use Default Cost</gadget>
+    <gadget name="TreatyAdd_CostLabel" type="formatText" background="ui\file_system\file_system_background" size1024="240 344 322 364" z="11">$$28387$$Cost</gadget>
+    <gadget name="TreatyAdd_FoodFld" type="textField" background="ui\file_system\file_system_background" size1024="328 344 514 364" z="11">$$28388$$Food</gadget>
+    <gadget name="TreatyAdd_WoodFld" type="textField" background="ui\file_system\file_system_background" size1024="328 368 514 388" z="11">$$28389$$Wood</gadget>
+    <gadget name="TreatyAdd_CoinFld" type="textField" background="ui\file_system\file_system_background" size1024="328 392 514 412" z="11">$$28390$$Coin</gadget>
+  </gadget>
+</layout>

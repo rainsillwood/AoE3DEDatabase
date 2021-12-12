@@ -1,0 +1,11 @@
+<tactics>
+  <action>
+    <name stringid="72551">ResourceProxyMine</name>
+    <type>ResourceProxy</type>
+    <modifyabstracttype>AbstractMine</modifyabstracttype>
+    <active>1</active>
+    <maxrange>8</maxrange>
+    <persistent>1</persistent>
+  </action>
+  <tactic>Normal<action>ResourceProxyMine</action></tactic>
+</tactics>

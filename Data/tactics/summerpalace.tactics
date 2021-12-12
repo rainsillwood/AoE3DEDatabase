@@ -1,0 +1,98 @@
+<tactics>
+  <action>
+    <name stringid="68982">OldHanArmySpawn</name>
+    <type>DanceBonus</type>
+    <active>1</active>
+    <persistent>1</persistent>
+    <dancebonustype>UnitSpawn</dancebonustype>
+    <modifyprotoid>ypOldHanArmySpawn</modifyprotoid>
+    <modifymultiplier>0.065</modifymultiplier>
+    <modifyexponent>1.03</modifyexponent>
+    <modifybase>0.0</modifybase>
+  </action>
+  <action>
+    <name stringid="68976">StandardArmySpawn</name>
+    <type>DanceBonus</type>
+    <active>1</active>
+    <persistent>1</persistent>
+    <dancebonustype>UnitSpawn</dancebonustype>
+    <modifyprotoid>ypStandardArmySpawn</modifyprotoid>
+    <modifymultiplier>0.065</modifymultiplier>
+    <modifyexponent>1.03</modifyexponent>
+    <modifybase>0.0</modifybase>
+  </action>
+  <action>
+    <name stringid="68979">MingArmySpawn</name>
+    <type>DanceBonus</type>
+    <active>1</active>
+    <persistent>1</persistent>
+    <dancebonustype>UnitSpawn</dancebonustype>
+    <modifyprotoid>ypMingArmySpawn</modifyprotoid>
+    <modifymultiplier>0.065</modifymultiplier>
+    <modifyexponent>1.03</modifyexponent>
+    <modifybase>0.0</modifybase>
+  </action>
+  <action>
+    <name stringid="68977">TerritorialArmySpawn</name>
+    <type>DanceBonus</type>
+    <active>1</active>
+    <persistent>1</persistent>
+    <dancebonustype>UnitSpawn</dancebonustype>
+    <modifyprotoid>ypTerritorialArmySpawn</modifyprotoid>
+    <modifymultiplier>0.065</modifymultiplier>
+    <modifyexponent>1.03</modifyexponent>
+    <modifybase>0.0</modifybase>
+  </action>
+  <action>
+    <name stringid="68981">ForbiddenArmySpawn</name>
+    <type>DanceBonus</type>
+    <active>1</active>
+    <persistent>1</persistent>
+    <dancebonustype>UnitSpawn</dancebonustype>
+    <modifyprotoid>ypForbiddenArmySpawn</modifyprotoid>
+    <modifymultiplier>0.065</modifymultiplier>
+    <modifyexponent>1.03</modifyexponent>
+    <modifybase>0.0</modifybase>
+  </action>
+  <action>
+    <name stringid="68980">ImperialArmySpawn</name>
+    <type>DanceBonus</type>
+    <active>1</active>
+    <persistent>1</persistent>
+    <dancebonustype>UnitSpawn</dancebonustype>
+    <modifyprotoid>ypImperialArmySpawn</modifyprotoid>
+    <modifymultiplier>0.065</modifymultiplier>
+    <modifyexponent>1.03</modifyexponent>
+    <modifybase>0.0</modifybase>
+  </action>
+  <action>
+    <name stringid="68978">MongolianArmySpawn</name>
+    <type>DanceBonus</type>
+    <active>1</active>
+    <persistent>1</persistent>
+    <dancebonustype>UnitSpawn</dancebonustype>
+    <modifyprotoid>ypMongolianArmySpawn</modifyprotoid>
+    <modifymultiplier>0.065</modifymultiplier>
+    <modifyexponent>1.03</modifyexponent>
+    <modifybase>0.0</modifybase>
+  </action>
+  <action>
+    <name stringid="71139">BlackFlagArmySpawn</name>
+    <type>DanceBonus</type>
+    <active>1</active>
+    <persistent>1</persistent>
+    <dancebonustype>UnitSpawn</dancebonustype>
+    <modifyprotoid>ypBlackFlagArmySpawn</modifyprotoid>
+    <modifymultiplier>0.065</modifymultiplier>
+    <modifyexponent>1.03</modifyexponent>
+    <modifybase>0.0</modifybase>
+  </action>
+  <tactic>StandardArmy<action>StandardArmySpawn</action><protounitcommand>WonderStandardArmy</protounitcommand><agerequirement>1</agerequirement><active>1</active><transition><tactic>Food</tactic><length>2</length><exit>1</exit></transition><transition><tactic>MingArmy</tactic><length>2</length><exit>1</exit></transition><transition><tactic>ForbiddenArmy</tactic><length>2</length><exit>1</exit></transition><transition><tactic>OldHanArmy</tactic><length>2</length><exit>1</exit></transition><transition><tactic>ImperialArmy</tactic><length>2</length><exit>1</exit></transition><transition><tactic>TerritorialArmy</tactic><length>2</length><exit>1</exit></transition><transition><tactic>MongolianArmy</tactic><length>2</length><exit>1</exit></transition><transition><tactic>BlackFlagArmy</tactic><length>2</length><exit>1</exit></transition></tactic>
+  <tactic>MingArmy<action>MingArmySpawn</action><protounitcommand>WonderMingArmy</protounitcommand><agerequirement>1</agerequirement><active>1</active><transition><tactic>Food</tactic><length>2</length><exit>1</exit></transition><transition><tactic>StandardArmy</tactic><length>2</length><exit>1</exit></transition><transition><tactic>ForbiddenArmy</tactic><length>2</length><exit>1</exit></transition><transition><tactic>OldHanArmy</tactic><length>2</length><exit>1</exit></transition><transition><tactic>ImperialArmy</tactic><length>2</length><exit>1</exit></transition><transition><tactic>TerritorialArmy</tactic><length>2</length><exit>1</exit></transition><transition><tactic>MongolianArmy</tactic><length>2</length><exit>1</exit></transition><transition><tactic>BlackFlagArmy</tactic><length>2</length><exit>1</exit></transition></tactic>
+  <tactic>TerritorialArmy<action>TerritorialArmySpawn</action><protounitcommand>WonderTerritorialArmy</protounitcommand><agerequirement>2</agerequirement><active>1</active><transition><tactic>Food</tactic><length>2</length><exit>1</exit></transition><transition><tactic>MingArmy</tactic><length>2</length><exit>1</exit></transition><transition><tactic>StandardArmy</tactic><length>2</length><exit>1</exit></transition><transition><tactic>ForbiddenArmy</tactic><length>2</length><exit>1</exit></transition><transition><tactic>OldHanArmy</tactic><length>2</length><exit>1</exit></transition><transition><tactic>ImperialArmy</tactic><length>2</length><exit>1</exit></transition><transition><tactic>MongolianArmy</tactic><length>2</length><exit>1</exit></transition><transition><tactic>BlackFlagArmy</tactic><length>2</length><exit>1</exit></transition></tactic>
+  <tactic>ImperialArmy<action>ImperialArmySpawn</action><protounitcommand>WonderImperialArmy</protounitcommand><agerequirement>2</agerequirement><active>1</active><transition><tactic>Food</tactic><length>2</length><exit>1</exit></transition><transition><tactic>MingArmy</tactic><length>2</length><exit>1</exit></transition><transition><tactic>StandardArmy</tactic><length>2</length><exit>1</exit></transition><transition><tactic>ForbiddenArmy</tactic><length>2</length><exit>1</exit></transition><transition><tactic>OldHanArmy</tactic><length>2</length><exit>1</exit></transition><transition><tactic>TerritorialArmy</tactic><length>2</length><exit>1</exit></transition><transition><tactic>MongolianArmy</tactic><length>2</length><exit>1</exit></transition><transition><tactic>BlackFlagArmy</tactic><length>2</length><exit>1</exit></transition></tactic>
+  <tactic>ForbiddenArmy<action>ForbiddenArmySpawn</action><protounitcommand>WonderForbiddenArmy</protounitcommand><agerequirement>2</agerequirement><active>1</active><transition><tactic>Food</tactic><length>2</length><exit>1</exit></transition><transition><tactic>MingArmy</tactic><length>2</length><exit>1</exit></transition><transition><tactic>StandardArmy</tactic><length>2</length><exit>1</exit></transition><transition><tactic>OldHanArmy</tactic><length>2</length><exit>1</exit></transition><transition><tactic>ImperialArmy</tactic><length>2</length><exit>1</exit></transition><transition><tactic>TerritorialArmy</tactic><length>2</length><exit>1</exit></transition><transition><tactic>MongolianArmy</tactic><length>2</length><exit>1</exit></transition><transition><tactic>BlackFlagArmy</tactic><length>2</length><exit>1</exit></transition></tactic>
+  <tactic>OldHanArmy<action>OldHanArmySpawn</action><protounitcommand>WonderOldHanArmy</protounitcommand><agerequirement>1</agerequirement><active>1</active><transition><tactic>Food</tactic><length>2</length><exit>1</exit></transition><transition><tactic>MingArmy</tactic><length>2</length><exit>1</exit></transition><transition><tactic>StandardArmy</tactic><length>2</length><exit>1</exit></transition><transition><tactic>ForbiddenArmy</tactic><length>2</length><exit>1</exit></transition><transition><tactic>ImperialArmy</tactic><length>2</length><exit>1</exit></transition><transition><tactic>TerritorialArmy</tactic><length>2</length><exit>1</exit></transition><transition><tactic>MongolianArmy</tactic><length>2</length><exit>1</exit></transition><transition><tactic>BlackFlagArmy</tactic><length>2</length><exit>1</exit></transition></tactic>
+  <tactic>MongolianArmy<action>MongolianArmySpawn</action><protounitcommand>WonderMongolianArmy</protounitcommand><agerequirement>1</agerequirement><active>1</active><transition><tactic>Food</tactic><length>2</length><exit>1</exit></transition><transition><tactic>MingArmy</tactic><length>2</length><exit>1</exit></transition><transition><tactic>StandardArmy</tactic><length>2</length><exit>1</exit></transition><transition><tactic>ForbiddenArmy</tactic><length>2</length><exit>1</exit></transition><transition><tactic>ImperialArmy</tactic><length>2</length><exit>1</exit></transition><transition><tactic>TerritorialArmy</tactic><length>2</length><exit>1</exit></transition><transition><tactic>OldHanArmy</tactic><length>2</length><exit>1</exit></transition><transition><tactic>BlackFlagArmy</tactic><length>2</length><exit>1</exit></transition></tactic>
+  <tactic>BlackFlagArmy<action>BlackFlagArmySpawn</action><protounitcommand>WonderBlackFlagArmy</protounitcommand><agerequirement>2</agerequirement><active>1</active><transition><tactic>Food</tactic><length>2</length><exit>1</exit></transition><transition><tactic>MingArmy</tactic><length>2</length><exit>1</exit></transition><transition><tactic>StandardArmy</tactic><length>2</length><exit>1</exit></transition><transition><tactic>ForbiddenArmy</tactic><length>2</length><exit>1</exit></transition><transition><tactic>ImperialArmy</tactic><length>2</length><exit>1</exit></transition><transition><tactic>TerritorialArmy</tactic><length>2</length><exit>1</exit></transition><transition><tactic>OldHanArmy</tactic><length>2</length><exit>1</exit></transition><transition><tactic>MongolianArmy</tactic><length>2</length><exit>1</exit></transition></tactic>
+</tactics>

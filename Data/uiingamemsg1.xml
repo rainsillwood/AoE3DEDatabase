@@ -1,0 +1,6 @@
+<layout>
+  <gadget type="dialog" name="ingame-messagedialog" hidden="" size1024="347 195 677 419" bevel="" background="ui\ingame\resign_window" texturecoords="0 0 0.7109375 0.90234375" windowzstyle="" dialogdefaultbuttonindex="0" closeonesc="">
+    <gadget name="ingame-messagedialog-prompt" type="formatText" textcolor="255 200 3" textfont="InGameDialogs" textfontsize="16" textcentervert="" textcenterhoriz="" size1024="367 235 657 350">Message Text Goes Here</gadget>
+    <gadget name="ingame-messagedialog-OKButton" type="stateButton" size1024="444 372 572 404" bevelbutton="" z="51" statebuttonuseinternalstates="" textfont="IngameButtons" textfontsize="18" textcolor="255 255 255" textcenterhoriz="" textcentervert="">$$18465$$OK<stateentry background="ui\core_ui\button_128x32_normal"></stateentry><stateentry background="ui\core_ui\button_128x32_clicked"></stateentry><stateentry background="ui\core_ui\button_128x32_rollover"></stateentry><stateentry background=""></stateentry></gadget>
+  </gadget>
+</layout>

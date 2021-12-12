@@ -1,0 +1,30 @@
+<layout>
+  <gadget name="ManageHCDlg" type="gadget" backgroundcolor="0 0 0" backgroundalpha="0.5" z="50" size1024="0 0 1024 768">
+    <gadget name="ManageHCDlg-Create-Dlg" tilebackgroundhoriz="" type="gadget" background="ui\home_city\asian_hc_create_hc" z="50" size1024="279 37 745 750" texturecoords="0 0 0.91015625 1">
+      <gadget name="ManageHCDlg-Create-Label" type="formatText" textcenterhoriz="" textcolor="255 200 3" textfont="PregameHeaders" textfontsize="22" size1024="368 55 663 90" transparent="" z="16">$$36437$$Create Home City</gadget>
+      <gadget name="ManageHCDlg-Create-HCNameLabel" type="formatText" textcolor="255 200 3" textfont="IPAddy" textfontsize="14" size1024="319 116 435 135" textcenterhoriz="" transparent="" z="14">$$36438$$City Name:</gadget>
+      <gadget name="ManageHCDlg-Create-HCNameText" type="editBox" editboxmaxchars="20" size1024="480 114 722 137" editboxfilesystem="" cursorcolor="3 0 208" textfont="PregameEntry" textfontsize="15" textcolor="3 0 208" enterkey="" z="14" enableime="">
+      </gadget>
+      <gadget name="ManageHCDlg-Create-ExplorerNameLabel" type="formatText" textcolor="255 200 3" textfont="IPAddy" textfontsize="14" size1024="319 164 435 183" textcenterhoriz="" transparent="" z="15">$$69202$$Monk Name:</gadget>
+      <gadget name="ManageHCDlg-Create-ExplorerNameText" type="editBox" editboxmaxchars="20" size1024="480 162 722 185" cursorcolor="3 0 208" textfont="PregameEntry" textfontsize="15" textcolor="3 0 208" enterkey="" z="14" enableime="">
+      </gadget>
+      <gadget name="ManageHCDlg-Create-Monk00NameLabel" type="formatText" textcolor="255 200 3" textfont="IPAddy" textfontsize="14" size1024="319 212 435 232" textcenterhoriz="" transparent="" z="15">$$69202$$Monk Name::</gadget>
+      <gadget name="ManageHCDlg-Create-Monk00NameText" type="editBox" editboxmaxchars="20" size1024="480 210 722 233" cursorcolor="3 0 208" textfont="PregameEntry" textfontsize="15" textcolor="3 0 208" enterkey="" z="14" enableime="">
+      </gadget>
+      <gadget name="ManageHCDlg-Create-CivHeader" type="formatText" textcolor="191 191 191" textfont="IPAddy" textfontsize="14" size1024="498 330 707 350" textcenterhoriz="" transparent="" z="15">
+      </gadget>
+      <gadget name="ManageHCDlg-Create-CivDetails" type="formatText" textcolor="255 200 3" textfont="IPAddy" textfontsize="14" size1024="488 350 717 550" transparent="" z="15">
+      </gadget>
+      <gadget name="ManageHCDlg-Create-CivLabel" type="formatText" textcolor="255 200 3" textfont="IPAddy" textfontsize="14" size1024="319 350 435 370" textcenterhoriz="" transparent="" z="15">$$19814$$Civilization:</gadget>
+      <gadget name="ManageHCDlg-Create-GameTypeLabel" type="formatText" textcolor="255 200 3" textfont="IPAddy" textfontsize="14" size1024="323 570 428 590" textcenterhoriz="" mouseovertext="$$42297$$" z="14">$$21226$$Game Type:</gadget>
+      <gadget name="ManageHCDlg-Create-GameTypeDropdown" type="textField" textfont="PregameEntry" textfontsize="15" textcolor="3 0 208" size1024="476 570 728 590" background="ui\core_ui\dropdown_background2" dropdownbuttonart="ui\core_ui\minimize_down" listitemheight="10" z="12">
+        <dropdown>
+        </dropdown>
+      </gadget>
+      <gadget name="ManageHCDlg-Create-PickCivButton" type="stateButton" size1024="314 400 442 500">
+      </gadget>
+      <gadget name="ManageHCDlg-Create-CreateButton" type="stateButton" bevelbutton="" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="255 255 255" textcenterhoriz="" textcentervert="" size1024="312 610 504 640" z="12" texturecoords="0 0 1 1">$$24835$$Create<stateentry background="ui\core_ui\button_256x32_normal"></stateentry><stateentry background="ui\core_ui\button_256x32_clicked"></stateentry><stateentry background="ui\core_ui\button_256x32_rollover"></stateentry><stateentry background="ui\core_ui\button_256x32_disabled"></stateentry></gadget>
+      <gadget name="ManageHCDlg-Create-CancelButton" type="stateButton" bevelbutton="" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="255 255 255" textcenterhoriz="" textcentervert="" size1024="524 610 716 640" z="11" texturecoords="0 0 1 1">$$18466$$Cancel<stateentry background="ui\core_ui\button_256x32_normal"></stateentry><stateentry background="ui\core_ui\button_256x32_clicked"></stateentry><stateentry background="ui\core_ui\button_256x32_rollover"></stateentry><stateentry background="ui\core_ui\button_256x32_disabled"></stateentry></gadget>
+    </gadget>
+  </gadget>
+</layout>

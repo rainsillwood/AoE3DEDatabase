@@ -1,0 +1,37 @@
+<layout>
+  <gadget name="SkirmNickName-Dialog" type="gadget" size1024="0 0 1024 768" background="ui\home_city\intro_hc" backgroundalpha=".6" texturecoords="0 0 1 0.749755620723363" z="15">
+    <gadget name="SkirmNickName-Background" type="gadget" size1024="237 225 781 421" background="ui\core_ui\wood_thick_board_tile" tilebackground="" z="20">
+      <gadget tilebackgroundhoriz="" name="SkirmNickName-BordersTop" type="gadget" background="ui\file_system\border_top_middle" size1024="262 216 759 224" z="25">
+      </gadget>
+      <gadget tilebackgroundhoriz="" name="SkirmNickName-BordersBottom" type="gadget" background="ui\file_system\border_bottom_middle" size1024="262 422 758 430" z="25">
+      </gadget>
+      <gadget tilebackgroundvert="" name="SkirmNickName-BordersLeft" type="gadget" background="ui\file_system\border_side_left" size1024="230 249 238 398" z="25">
+      </gadget>
+      <gadget tilebackgroundvert="" name="SkirmNickName-BordersRight" type="gadget" background="ui\file_system\border_side_right" size1024="780 248 788 397" z="25">
+      </gadget>
+      <gadget name="SkirmNickName-BordersLeftTop" type="gadget" background="ui\file_system\border_top_left" size1024="230 216 262 248" z="25">
+      </gadget>
+      <gadget name="SkirmNickName-BordersLeftBottom" type="gadget" background="ui\file_system\border_bottom_left" size1024="230 398 262 430" z="25">
+      </gadget>
+      <gadget name="SkirmNickName-BordersRightBottom" type="gadget" background="ui\file_system\border_bottom_right" size1024="756 398 788 430" z="25">
+      </gadget>
+      <gadget name="SkirmNickName-BordersRightTop" type="gadget" background="ui\file_system\border_top_right" size1024="756 216 788 248" z="25">
+      </gadget>
+    </gadget>
+    <gadget name="SkirmNickName-OKButton" type="stateButton" size1024="445 367 573 399" z="30" bevelbutton="" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="255 255 255" textcenterhoriz="" textcentervert="" mouseovertext="$$42368$$">$$18465$$OK<stateentry background="ui\core_ui\button_med_normal"></stateentry><stateentry background="ui\core_ui\button_med_clicked"></stateentry><stateentry background="ui\core_ui\button_med_high"></stateentry><stateentry background="ui\core_ui\button_med_disabled"></stateentry></gadget>
+    <gadget name="SkirmNickName-ExplainLabel" textcentervert="" textcenterhoriz="" textcolor="255 180 0" textfontsize="18" textfont="Pregamelabels" type="formatText" size1024="279 242 729 274" z="25">$$37463$$Please Enter Single Player Skirmish Nickname:</gadget>
+    <gadget name="SkirmNickName-NameLabel" textcentervert="" textcenterhoriz="" textcolor="255 180 0" textfontsize="18" textfont="Pregamelabels" type="formatText" size1024="269 294 403 317" z="25">$$22077$$Nickname:</gadget>
+    <gadget name="SkirmNickName-NameLabel-Background" type="gadget" size1024="260 290 413 322" z="25" background="ui\core_ui\text_block_154" texturecoords="0 0 0.6 1">
+    </gadget>
+    <gadget name="SkirmNickName-EntryFields" type="gadget" size1024="408 280 764 334" z="25">
+      <gadget name="SkirmNickName-UserName-Background-Left" type="gadget" size1024="416 289 448 321" background="ui\core_ui\text_bar_32_left" z="25">
+      </gadget>
+      <gadget name="SkirmNickName-UserName-Background-Middle" type="gadget" tilebackgroundhoriz="" size1024="442 289 706 321" background="ui\core_ui\text_bar_32_middle" z="25">
+      </gadget>
+      <gadget name="SkirmNickName-UserName-Background-Right" type="gadget" size1024="702 289 734 321" background="ui\core_ui\text_bar_32_right" z="25">
+      </gadget>
+      <gadget name="SkirmNickName-UserName-Text" type="editBox" size1024="419 291 729 321" textfont="PregameEntry" textfontsize="15" textcolor="0 0 0" enterkey="" editboxmaxchars="16" z="30" enableime="">
+      </gadget>
+    </gadget>
+  </gadget>
+</layout>

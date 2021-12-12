@@ -1,0 +1,182 @@
+<layout>
+  <gadget name="Persona-ScreenContainer" hidden="" type="gadget" size1024="208 106 1023 767" background="ui\eso\eso_persona" z="25" texturecoords="0 0 0.794921875 0.6455078125">
+    <gadget name="Persona-SettingsDlg-Container" type="gadget" hidden="" backgroundcolor="0 0 0" backgroundalpha="0.5" size1024="1 3 1021 771" z="31">
+      <gadget name="Persona-SettingsDlg" type="gadget" background="ui\core_ui\wood_thick_board_tile" size1024="281 203 750 460" tilebackgroundhoriz="" z="31">
+        <gadget name="Persona-SettingsDlg-Label-Left" type="gadget" background="ui\core_ui\title_bar_48_left" size1024="303 212 367 276" z="31">
+        </gadget>
+        <gadget name="Persona-SettingsDlg-Label-Middle" type="gadget" background="ui\core_ui\title_bar_48_middle" size1024="367 212 663 276" z="33">
+        </gadget>
+        <gadget name="Persona-SettingsDlg-Label-Right" type="gadget" background="ui\core_ui\title_bar_48_right" size1024="663 212 727 276" z="19">
+        </gadget>
+        <gadget name="Persona-SettingsDlg-Label" type="formatText" textcenterhoriz="" textcolor="255 200 3" textfont="PregameHeaders" textfontsize="22" size1024="367 222 662 257" transparent="" z="38">$$28573$$Reset Password</gadget>
+        <gadget name="Persona-SettingsDlg-BordersTop" type="gadget" background="ui\file_system\border_top_middle" size1024="308 203 725 211" z="21" transparent="">
+        </gadget>
+        <gadget name="Persona-SettingsDlg-BordersBottom" type="gadget" background="ui\file_system\border_bottom_middle" size1024="309 455 721 463" z="20" transparent="">
+        </gadget>
+        <gadget name="Persona-SettingsDlg-BordersLeft" type="gadget" background="ui\file_system\border_side_left" size1024="281 234 290 437" tilebackgroundvert="" transparent="" z="26">
+        </gadget>
+        <gadget name="Persona-SettingsDlg-BordersRight" type="gadget" background="ui\file_system\border_side_right" size1024="741 232 750 435" tilebackgroundvert="" z="29" transparent="">
+        </gadget>
+        <gadget name="Persona-SettingsDlg-BordersRightTop" type="gadget" background="ui\file_system\border_top_right" size1024="718 203 750 235" z="30" transparent="" clampbackground="">
+        </gadget>
+        <gadget name="Persona-SettingsDlg-BordersLeftTop" type="gadget" background="ui\file_system\border_top_left" size1024="282 203 314 235" z="24" transparent="" clampbackground="">
+        </gadget>
+        <gadget name="Persona-SettingsDlg-BordersRightBottom" type="gadget" background="ui\file_system\border_bottom_right" size1024="718 431 750 463" z="23" transparent="" clampbackground="">
+        </gadget>
+        <gadget name="Persona-SettingsDlg-BordersLeftBottom" type="gadget" background="ui\file_system\border_bottom_left" size1024="282 431 314 463" z="40" transparent="" clampbackground="">
+        </gadget>
+        <gadget name="Persona-SettingsDlg-OldPassword" type="gadget" background="ui\core_ui\text_block_154" size1024="300 282 556 314" z="28">
+        </gadget>
+        <gadget name="Persona-SettingsDlg-OldPasswordLabel" type="formatText" textcolor="255 200 3" textfont="IPAddy" textfontsize="14" size1024="325 288 430 307" textcenterhoriz="" transparent="" z="32">$$20013$$Old Password:</gadget>
+        <gadget name="Persona-SettingsDlg-OldPasswordBack-Left" type="gadget" background="ui\core_ui\text_bar_32_left" size1024="477 282 509 314" z="25">
+        </gadget>
+        <gadget name="Persona-SettingsDlg-OldPasswordBack-Middle" type="gadget" background="ui\core_ui\text_bar_32_middle" size1024="508 282 698 314" z="18">
+        </gadget>
+        <gadget name="Persona-SettingsDlg-OldPasswordBack-Right" type="gadget" background="ui\core_ui\text_bar_32_right" size1024="697 282 729 314" z="31">
+        </gadget>
+        <gadget name="Persona-SettingsDlg-OldPasswordText" type="editBox" editboxmaxchars="16" editboxmaskchars="" size1024="481 286 723 309" cursorcolor="0 0 0" textfont="PregameEntry" textfontsize="15" textcolor="0 0 0" enterkey="" z="33">
+        </gadget>
+        <gadget name="Persona-SettingsDlg-NewPassword" type="gadget" background="ui\core_ui\text_block_154" size1024="301 318 557 350" z="30">
+        </gadget>
+        <gadget name="Persona-SettingsDlg-NewPasswordTextLabel" type="formatText" textcolor="255 200 3" textfont="IPAddy" textfontsize="14" size1024="325 324 430 343" textcenterhoriz="" transparent="" z="35">$$33753$$New Password:</gadget>
+        <gadget name="Persona-SettingsDlg-NewPasswordBack-Left" type="gadget" background="ui\core_ui\text_bar_32_left" size1024="477 317 509 349" z="25">
+        </gadget>
+        <gadget name="Persona-SettingsDlg-NewPasswordBack-Middle" type="gadget" tilebackgroundhoriz="" background="ui\core_ui\text_bar_32_middle" size1024="508 317 698 349" z="41">
+        </gadget>
+        <gadget name="Persona-SettingsDlg-NewPasswordBack-Right" type="gadget" background="ui\core_ui\text_bar_32_right" size1024="697 317 729 349" z="22">
+        </gadget>
+        <gadget name="Persona-SettingsDlg-NewPasswordText" type="editBox" editboxmaxchars="16" editboxmaskchars="" size1024="481 322 723 345" cursorcolor="0 0 0" textfont="PregameEntry" textfontsize="15" textcolor="0 0 0" enterkey="" z="44">
+        </gadget>
+        <gadget name="Persona-SettingsDlg-ConfirmPassword" type="gadget" background="ui\core_ui\text_block_154" size1024="301 356 557 388" z="29">
+        </gadget>
+        <gadget name="Persona-SettingsDlg-ConfirmPasswordTextLabel" type="formatText" textcolor="255 200 3" textfont="IPAddy" textfontsize="14" size1024="325 362 430 381" textcenterhoriz="" transparent="" z="34">$$20004$$Confirm Password:</gadget>
+        <gadget name="Persona-SettingsDlg-ConfirmPasswordBack-Left" type="gadget" background="ui\core_ui\text_bar_32_left" size1024="477 356 509 388" z="20">
+        </gadget>
+        <gadget name="Persona-SettingsDlg-ConfirmPasswordBack-Middle" type="gadget" tilebackgroundhoriz="" background="ui\core_ui\text_bar_32_middle" size1024="508 356 698 388" z="26">
+        </gadget>
+        <gadget name="Persona-SettingsDlg-ConfirmPasswordBack-Right" type="gadget" background="ui\core_ui\text_bar_32_right" size1024="697 356 729 388" z="36">
+        </gadget>
+        <gadget name="Persona-SettingsDlg-ConfirmPasswordText" type="editBox" editboxmaxchars="16" editboxmaskchars="" size1024="481 360 723 383" cursorcolor="0 0 0" textfont="PregameEntry" textfontsize="15" textcolor="0 0 0" enterkey="" z="41">
+        </gadget>
+        <gadget name="Persona-SettingsDlg-PasswordWarning" type="formatText" textcolor="255 255 255" textfont="Arial Nodrop" textfontsize="12" size1024="477 388 669 402" textcenterhoriz="" transparent="" z="32">$$33444$$*Passwords are case sensitive</gadget>
+        <gadget name="Persona-SettingsDlg-SubmitButton" tooltiptext="$$28574$$Change current password." type="stateButton" bevelbutton="" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="255 255 255" textcenterhoriz="" textcentervert="" size1024="313 418 505 450" z="28" texturecoords="0 0 1 1">$$18465$$OK<stateentry background="ui\core_ui\button_256x32_normal"></stateentry><stateentry background="ui\core_ui\button_256x32_clicked"></stateentry><stateentry background="ui\core_ui\button_256x32_rollover"></stateentry><stateentry background="ui\core_ui\button_256x32_disabled"></stateentry></gadget>
+        <gadget name="Persona-SettingsDlg-CancelButton" type="stateButton" bevelbutton="" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="255 255 255" textcenterhoriz="" textcentervert="" size1024="525 418 717 450" z="27" texturecoords="0 0 1 1">$$18466$$Cancel<stateentry background="ui\core_ui\button_256x32_normal"></stateentry><stateentry background="ui\core_ui\button_256x32_clicked"></stateentry><stateentry background="ui\core_ui\button_256x32_rollover"></stateentry><stateentry background="ui\core_ui\button_256x32_disabled"></stateentry></gadget>
+      </gadget>
+    </gadget>
+    <gadget name="Persona-QueryBar" type="gadget" size1024="588 114 1007 206" z="10" background="ui\eso\eso_persona_search" texturecoords="0 0 0.822265625 0.7265625">
+      <gadget name="Persona-QueryLabel" type="formatText" textcenterhoriz="" textcolor="255 200 3" textfont="PregameEntry" textfontsize="15" size1024="663 122 937 145" z="2">$$38173$$Search for Player</gadget>
+      <gadget name="Persona-QueryText" type="editBox" size1024="605 159 878 183" z="2" textcolor="0 0 0" enterkey="" textfont="PregameEntry" textfontsize="15" enableime="" background="ui\core_ui\text_bar_32_middle">
+      </gadget>
+      <gadget name="Persona-QueryDisable" type="gadget" backgroundcolor="128 128 128" backgroundalpha="0.5" size1024="605 159 878 183" z="3">
+      </gadget>
+      <gadget name="Persona-QueryButton" tooltiptext="$$38173$$Search For Player" type="stateButton" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="255 255 255" textcenterhoriz="" textcentervert="" size1024="887 156 993 187" z="2">$$19813$$Search<stateentry background="ui\core_ui\button_med_normal"></stateentry><stateentry background="ui\core_ui\button_med_clicked"></stateentry><stateentry background="ui\core_ui\button_med_high"></stateentry><stateentry background="ui\core_ui\button_med_disable"></stateentry></gadget>
+    </gadget>
+    <gadget name="Persona-Medal1" type="gadget" size1024="630 258 678 306" z="22">
+    </gadget>
+    <gadget name="Persona-Medal2" type="gadget" size1024="688 258 736 306" z="22">
+    </gadget>
+    <gadget name="Persona-Medal3" type="gadget" size1024="746 258 794 306" z="22">
+    </gadget>
+    <gadget name="Persona-Medal4" type="gadget" size1024="804 258 852 306" z="22">
+    </gadget>
+    <gadget name="Persona-Medal5" type="gadget" size1024="862 258 910 306" z="22">
+    </gadget>
+    <gadget name="Persona-Medal6" type="gadget" size1024="920 258 968 306" z="22">
+    </gadget>
+    <gadget name="Persona-Medal7" type="gadget" size1024="630 316 678 364" z="22">
+    </gadget>
+    <gadget name="Persona-Medal8" type="gadget" size1024="688 316 736 364" z="22">
+    </gadget>
+    <gadget name="Persona-Medal9" type="gadget" size1024="746 316 794 364" z="22">
+    </gadget>
+    <gadget name="Persona-Medal10" type="gadget" size1024="804 316 852 364" z="22">
+    </gadget>
+    <gadget name="Persona-Medal11" type="gadget" size1024="862 316 910 364" z="22">
+    </gadget>
+    <gadget name="Persona-Medal12" type="gadget" size1024="920 316 968 364" z="22">
+    </gadget>
+    <gadget name="Persona-Medal13" type="gadget" size1024="630 374 678 422" z="22">
+    </gadget>
+    <gadget name="Persona-Medal14" type="gadget" size1024="688 374 736 422" z="22">
+    </gadget>
+    <gadget name="Persona-Medal15" type="gadget" size1024="746 374 794 422" z="22">
+    </gadget>
+    <gadget name="Persona-Medal16" type="gadget" size1024="804 374 852 422" z="22">
+    </gadget>
+    <gadget name="Persona-Medal17" type="gadget" size1024="862 374 910 422" z="22">
+    </gadget>
+    <gadget name="Persona-Medal18" type="gadget" size1024="920 374 968 422" z="22">
+    </gadget>
+    <gadget name="Persona-Medal1-Game" type="gadget" size1024="662 290 678 306" z="23">
+    </gadget>
+    <gadget name="Persona-Medal2-Game" type="gadget" size1024="720 290 736 306" z="23">
+    </gadget>
+    <gadget name="Persona-Medal3-Game" type="gadget" size1024="778 290 794 306" z="23">
+    </gadget>
+    <gadget name="Persona-Medal4-Game" type="gadget" size1024="836 290 852 306" z="23">
+    </gadget>
+    <gadget name="Persona-Medal5-Game" type="gadget" size1024="894 290 910 306" z="23">
+    </gadget>
+    <gadget name="Persona-Medal6-Game" type="gadget" size1024="952 290 968 306" z="23">
+    </gadget>
+    <gadget name="Persona-Medal7-Game" type="gadget" size1024="662 344 678 360" z="23">
+    </gadget>
+    <gadget name="Persona-Medal8-Game" type="gadget" size1024="720 344 736 360" z="23">
+    </gadget>
+    <gadget name="Persona-Medal9-Game" type="gadget" size1024="778 344 794 360" z="23">
+    </gadget>
+    <gadget name="Persona-Medal10-Game" type="gadget" size1024="836 344 852 360" z="23">
+    </gadget>
+    <gadget name="Persona-Medal11-Game" type="gadget" size1024="894 344 910 360" z="23">
+    </gadget>
+    <gadget name="Persona-Medal12-Game" type="gadget" size1024="952 344 968 360" z="23">
+    </gadget>
+    <gadget name="Persona-Medal13-Game" type="gadget" size1024="662 402 678 418" z="23">
+    </gadget>
+    <gadget name="Persona-Medal14-Game" type="gadget" size1024="720 402 736 418" z="23">
+    </gadget>
+    <gadget name="Persona-Medal15-Game" type="gadget" size1024="778 402 794 418" z="23">
+    </gadget>
+    <gadget name="Persona-Medal16-Game" type="gadget" size1024="836 402 852 418" z="23">
+    </gadget>
+    <gadget name="Persona-Medal17-Game" type="gadget" size1024="894 402 910 418" z="23">
+    </gadget>
+    <gadget name="Persona-Medal18-Game" type="gadget" size1024="952 402 968 418" z="23">
+    </gadget>
+    <gadget name="Persona-MedalSlider" type="slider" size1024="972 259 991 422" sliderbuttons="" slidervertical="" sliderupbtnset="sliderUpBtn_18" sliderdownbtnset="sliderDownBtn_18" sliderpipart="ui\file_system\slider_pip_horizontal" sliderareaart="ui\file_system\slider_background_vertical_18" background="ui\file_system\slider_background" z="23">
+    </gadget>
+    <gadget name="Persona-ClanCrest" type="gadget" size1024="255 353 319 449" z="21">
+    </gadget>
+    <gadget name="Persona-ViewClan" hidden="" type="stateButton" bevelbutton="" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="255 255 255" textcenterhoriz="" textcentervert="" size1024="467 238 571 264" z="11">View<stateentry background="ui\core_ui\button_med_normal"></stateentry><stateentry background="ui\core_ui\button_med_clicked"></stateentry><stateentry background="ui\core_ui\button_med_high"></stateentry><stateentry background="ui\core_ui\button_med_disable"></stateentry></gadget>
+    <gadget name="Persona-ClanInfo" textmarkup="" type="formatText" textfont="EntryFields" textfontsize="12" size1024="347 344 561 457" z="21" textcolor="0 0 0">
+    </gadget>
+    <gadget name="Persona-StatsContainerTab-Base" type="gadget" size1024="618 515 985 726" z="22" background="ui\eso\eso_PersonaStats" texturecoords="0 0 0 0">
+      <gadget name="Persona-StatsContainer-Base" type="gadget" size1024="623 520 977 718" z="22">
+        <gadget name="Persona-StatsSlider-Base" type="slider" size1024="958 520 977 718" sliderbuttons="" slidervertical="" sliderupbtnset="sliderUpBtn_18" sliderdownbtnset="sliderDownBtn_18" sliderpipart="ui\file_system\slider_pip_horizontal" sliderareaart="ui\file_system\slider_background_vertical_18" background="ui\file_system\slider_background" z="23">
+        </gadget>
+      </gadget>
+    </gadget>
+    <gadget name="Persona-StatsContainerTab-XPack" type="gadget" size1024="618 515 985 726" z="22" background="ui\eso\eso_PersonaStats" texturecoords="0 0 0 0">
+      <gadget name="Persona-StatsContainer-XPack" type="gadget" size1024="623 560 977 718" z="22">
+        <gadget name="Persona-StatsSlider-XPack" type="slider" size1024="958 560 977 718" sliderbuttons="" slidervertical="" sliderupbtnset="sliderUpBtn_18" sliderdownbtnset="sliderDownBtn_18" sliderpipart="ui\file_system\slider_pip_horizontal" sliderareaart="ui\file_system\slider_background_vertical_18" background="ui\file_system\slider_background" z="23">
+        </gadget>
+      </gadget>
+    </gadget>
+    <gadget name="Persona-UserAvatarImage" type="gadget" size1024="232 155 328 251" z="22" background="ui\eso\eso_portrait_01">
+    </gadget>
+    <gadget name="Persona-UserAvatar" tooltiptext="$$41544$$Change Your Avatar Image" type="stateButton" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="255 255 255" textcenterhoriz="" textcentervert="" size1024="232 254 344 286" z="22">$$38160$$Avatar<stateentry background="ui\core_ui\button_med_normal"></stateentry><stateentry background="ui\core_ui\button_med_clicked"></stateentry><stateentry background="ui\core_ui\button_med_high"></stateentry><stateentry background="ui\core_ui\button_med_disable"></stateentry></gadget>
+    <gadget name="Persona-UserPassword" tooltiptext="$$41546$$Change Your Password" type="stateButton" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="255 255 255" textcenterhoriz="" textcentervert="" size1024="459 254 571 286" z="22">$$38157$$Password<stateentry background="ui\core_ui\button_med_normal"></stateentry><stateentry background="ui\core_ui\button_med_clicked"></stateentry><stateentry background="ui\core_ui\button_med_high"></stateentry><stateentry background="ui\core_ui\button_med_disable"></stateentry></gadget>
+    <gadget name="Persona-UserOptions" tooltiptext="$$34259$$View/Modify Options." type="stateButton" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="255 255 255" textcenterhoriz="" textcentervert="" size1024="345 254 457 286" z="22">$$34260$$Options<stateentry background="ui\core_ui\button_med_normal"></stateentry><stateentry background="ui\core_ui\button_med_clicked"></stateentry><stateentry background="ui\core_ui\button_med_high"></stateentry><stateentry background="ui\core_ui\button_med_disable"></stateentry></gadget>
+    <gadget name="Persona-UserInfo" textmarkup="" type="formatText" textfont="EntryFields" textfontsize="12" size1024="336 159 565 248" z="22" textcolor="0 0 0">
+    </gadget>
+    <gadget name="Persona-MedalsLabel" type="formatText" textcenterhoriz="" textcolor="255 200 3" textfont="PregameEntry" textfontsize="15" size1024="664 224 938 247" z="21">$$19082$$Awards</gadget>
+    <gadget name="Persona-StatsLabel" type="formatText" textcenterhoriz="" textcolor="255 200 3" textfont="PregameEntry" textfontsize="15" size1024="662 477 936 500" z="21">$$38168$$Statistics</gadget>
+    <gadget name="Persona-PlayerLabel" type="formatText" textcenterhoriz="" textcolor="255 200 3" textfont="PregameEntry" textfontsize="15" size1024="272 126 528 149" z="21">$$38169$$Player Information</gadget>
+    <gadget name="Persona-ClanLabel" type="formatText" textcenterhoriz="" textcolor="255 200 3" textfont="PregameEntry" textfontsize="15" size1024="272 307 528 330" z="21">$$38172$$Clan Information</gadget>
+    <gadget name="Persona-HCPickerPlaceholder" type="gadget" z="25" size1024="218 480 584 747">
+    </gadget>
+    <gadget name="Persona-ManageHCDlgBackground" type="gadget" hidden="" backgroundalpha="0.0" backgroundcolor="0 0 0" size1024="0 2 1024 770" z="28">
+    </gadget>
+    <gadget name="Persona-Close" tooltiptext="$$41548$$Close Current Player Persona" type="stateButton" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="255 255 255" textcenterhoriz="" textcentervert="" size1024="409 699 517 731" texturecoords="0 0 0.8359375 1" z="30">$$18457$$Close<stateentry background="ui\core_ui\button_small_normal"></stateentry><stateentry background="ui\core_ui\button_small_clicked"></stateentry><stateentry background="ui\core_ui\button_small_high"></stateentry><stateentry background="ui\core_ui\button_small_disabled"></stateentry></gadget>
+  </gadget>
+</layout>

@@ -1,0 +1,17 @@
+<layout>
+  <gadget name="MPESOCommunity-page" type="gadget" size1024="210 106 1019 763" z="20">
+    <gadget name="MPESOCommunity-LoggedInGadget" type="gadget" size1024="210 106 1019 426" backgroundcolor="64 64 64" z="10" hidden="">
+      <gadget name="MPESOCommunity-LoggedInLabel" textcentervert="" textcolor="255 208 0" textfontsize="22" textfont="PregameHeaders" type="formatText" size1024="277 148 589 183">Logged in: </gadget>
+      <gadget name="MPESOCommunity-LoggedInAsText" textcentervert="" textcolor="255 255 255" textfontsize="22" textfont="PregameHeaders" type="formatText" size1024="637 149 933 184">
+      </gadget>
+    </gadget>
+    <gadget name="MPESOCommunity-ESO" type="gadget" size1024="210 440 1019 759" backgroundcolor="64 64 64" z="10" hidden="">
+      <gadget name="MPESOCommunity-MOTDLabel" textcentervert="" textcolor="255 208 0" textfontsize="22" textfont="PregameHeaders" type="formatText" size1024="281 540 593 575">MOTD: </gadget>
+      <gadget name="MPESOCommunity-MOTDText" textcentervert="" textcolor="255 255 255" textfontsize="22" textfont="PregameHeaders" type="formatText" size1024="641 540 937 575">
+      </gadget>
+      <gadget name="MPESOCommunity-UsersLabel" textcentervert="" textcolor="255 208 0" textfontsize="22" textfont="PregameHeaders" type="formatText" size1024="281 590 593 625">Users: </gadget>
+      <gadget name="MPESOCommunity-UsersText" textcentervert="" textcolor="255 255 255" textfontsize="22" textfont="PregameHeaders" type="formatText" size1024="641 590 937 625">
+      </gadget>
+    </gadget>
+  </gadget>
+</layout>

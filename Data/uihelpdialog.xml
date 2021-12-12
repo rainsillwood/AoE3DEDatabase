@@ -1,0 +1,111 @@
+<layout>
+  <gadget name="HelpDialog" type="dialog" size1024="195 2 828 764" background="ui\file_system\file_system_background" tilebackground="" texturereplace="" hidden="" context="detailHelp" contextexclusive="" windowzstyle="" closeonesc="" dontautoclose="">
+    <gadget name="HelpDialog-CloseButton" z="13" type="stateButton" texturecoords="0 0 1 1" textcentervert="" textcenterhoriz="" statebuttonuseinternalstates="" textfont="InGameButtons" textfontsize="18" textcolor="3 0 88" size1024="516 713 644 745">$$18457$$Close<command>gadgetUnReal("HelpDialog")</command><stateentry background="ui\core_ui\button_128x32_normal"></stateentry><stateentry background="ui\core_ui\button_128x32_clicked"></stateentry><stateentry background="ui\core_ui\button_128x32_rollover"></stateentry><stateentry background=""></stateentry></gadget>
+    <gadget name="HelpDialog-BackButton" z="13" type="stateButton" statebuttonuseinternalstates="" textcenterhoriz="" textcentervert="" texturecoords="0 0 1 1" textfont="InGameButtons" textfontsize="18" textcolor="3 0 88" hidden="" size1024="233 713 367 745">$$18458$$Back<command>uiLastDetailHelp</command><stateentry background="ui\core_ui\button_128x32_normal"></stateentry><stateentry background="ui\core_ui\button_128x32_clicked"></stateentry><stateentry background="ui\core_ui\button_128x32_rollover"></stateentry><stateentry background=""></stateentry></gadget>
+    <gadget name="HelpDialog-Stats-Labels-1" type="formatText" textcolor="3 0 88" textwrapoff="" formattextconvertuserlf="" textmarkup="" usehyperlinks="" textfont="StatsLabels" textfontsize="14" size1024="206 176 349 267" z="25" textjustifyright="">
+    </gadget>
+    <gadget name="HelpDialog-Stats-1" type="formatText" textcolor="3 0 88" textwrapoff="" formattextconvertuserlf="" textmarkup="" usehyperlinks="" textfont="Stats" textfontsize="14" size1024="350 176 512 267" z="25">
+    </gadget>
+    <gadget name="HelpDialog-Stats-Labels-2" type="formatText" textcolor="3 0 88" textwrapoff="" formattextconvertuserlf="" textmarkup="" usehyperlinks="" textfont="StatsLabels" textfontsize="14" size1024="513 176 658 267" z="25" textjustifyright="">
+    </gadget>
+    <gadget name="HelpDialog-Stats-2" type="formatText" textcolor="3 0 88" textwrapoff="" formattextconvertuserlf="" textmarkup="" usehyperlinks="" textfont="Stats" textfontsize="14" size1024="659 176 812 267" z="25">
+    </gadget>
+    <gadget name="HelpDialog-Portrait" type="gadget" clampbackground="" size1024="220 61 284 125" z="25">
+    </gadget>
+    <gadget textfont="UnitName" textfontsize="16" name="HelpDialog-Name" type="formatText" z="11" textcentervert="" textcolor="3 0 88" size1024="294 62 804 91">
+    </gadget>
+    <gadget textfontsize="14" textfont="History" name="HelpDialog-UpperHelpText" type="formatText" textcolor="3 0 88" textwrapon="" textmarkup="" usehyperlinks="" size1024="294 93 805 170" z="30">
+    </gadget>
+    <gadget tilebackgroundvert="" name="playerstatusdialog-leftborder" type="gadget" size1024="195 19 203 748" background="ui\file_system\border_side_left" texturereplace="" z="10">
+    </gadget>
+    <gadget tilebackgroundvert="" name="playerstatusdialog-rightborder" texturereplace="" type="gadget" size1024="821 19 829 748" background="ui\file_system\border_side_right">
+    </gadget>
+    <gadget tilebackgroundhoriz="" name="playerstatusdialog-top" texturereplace="" type="gadget" size1024="195 2 828 18" background="ui\file_system\border_top_middle">
+    </gadget>
+    <gadget name="playerstatusdialog-topleft" texturereplace="" type="gadget" size1024="195 2 227 34" background="ui\file_system\border_top_left" z="11">
+    </gadget>
+    <gadget name="playerstatusdialog-topright" texturereplace="" type="gadget" size1024="797 2 829 34" background="ui\file_system\border_top_right" z="11">
+    </gadget>
+    <gadget tilebackgroundhoriz="" name="playerstatusdialog-bottom" texturereplace="" type="gadget" size1024="195 747 828 764" background="ui\file_system\border_bottom_middle" z="9">
+    </gadget>
+    <gadget name="playerstatusdialog-bottomleft" texturereplace="" type="gadget" size1024="195 732 225 764" background="ui\file_system\border_bottom_left" z="10">
+    </gadget>
+    <gadget name="playerstatusdialog-bottomright" texturereplace="" type="gadget" size1024="797 732 829 764" background="ui\file_system\border_bottom_right" z="11">
+    </gadget>
+    <gadget textfontsize="14" textfont="History" name="HelpDialog-HistoryArea" type="formatText" textcolor="3 0 88" textwrapon="" outlinecolor="3 0 88" textscrollbar="" textmarkup="" usehyperlinks="" size1024="212 577 812 707" z="29" border1024="5 2">
+      <vertscrollbar sliderbuttons="" slidervertical="" sliderupbtnset="sliderUpBtn" sliderdownbtnset="sliderDownBtn" sliderpipart="ui\ui slider pip horizontal" sliderpiptexturecoords="0 0 0.625 0.438" sliderareaart="ui\ui background dark blue opaque" background="ui\core_ui\background_yellow_opaque">
+      </vertscrollbar>
+    </gadget>
+    <gadget textfontsize="14" textfont="History" name="HelpDialog-BigHistoryArea" border1024="5 2" outlinecolor="3 0 88" type="formatText" textcolor="3 0 88" textwrapon="" textscrollbar="" textmarkup="" usehyperlinks="" size1024="211 224 813 698" z="30">
+      <vertscrollbar sliderbuttons="" slidervertical="" sliderupbtnset="sliderUpBtn" sliderdownbtnset="sliderDownBtn" sliderpipart="ui\ui slider pip horizontal" sliderpiptexturecoords="0 0 0.625 0.438" sliderareaart="ui\ui background dark blue opaque" background="ui\core_ui\background_yellow_opaque">
+      </vertscrollbar>
+    </gadget>
+    <gadget textfontsize="14" textfont="HelpHelp" name="HelpDialog-HelpArea" type="formatText" textcolor="3 0 88" outlinecolor="3 0 88" textwrapon="" textscrollbar="" textmarkup="" usehyperlinks="" size1024="212 482 812 569" z="29" border1024="3 2">
+    </gadget>
+    <gadget name="HelpDialog-AbilText" type="formatText" background="" textfont="HelpLabel" textfontsize="16" textcolor="3 0 88" size1024="212 354 683 374">$$20943$$Abilities:</gadget>
+    <gadget name="HelpDialog-Abil-1" z="11" type="button" size1024="207 377 239 409" hidden="">
+    </gadget>
+    <gadget name="HelpDialog-Abil-2" z="11" type="button" size1024="241 377 273 409" hidden="">
+    </gadget>
+    <gadget name="HelpDialog-Abil-3" z="11" type="button" size1024="275 377 307 409" hidden="">
+    </gadget>
+    <gadget name="HelpDialog-Abil-4" z="11" type="button" size1024="309 377 341 409" hidden="">
+    </gadget>
+    <gadget name="HelpDialog-Abil-5" z="11" type="button" size1024="343 377 375 409" hidden="">
+    </gadget>
+    <gadget name="HelpDialog-Abil-6" z="11" type="button" size1024="377 377 409 409" hidden="">
+    </gadget>
+    <gadget name="HelpDialog-Abil-7" z="11" type="button" size1024="411 377 443 409" hidden="">
+    </gadget>
+    <gadget name="HelpDialog-Abil-8" z="11" type="button" size1024="445 377 477 409" hidden="">
+    </gadget>
+    <gadget name="HelpDialog-Abil-9" z="11" type="button" size1024="479 377 511 409" hidden="">
+    </gadget>
+    <gadget name="HelpDialog-Abil-10" z="11" type="button" size1024="513 377 545 409" hidden="">
+    </gadget>
+    <gadget name="HelpDialog-Abil-11" z="11" type="button" size1024="547 377 579 409" hidden="">
+    </gadget>
+    <gadget name="HelpDialog-Abil-12" z="11" type="button" size1024="581 377 613 409" hidden="">
+    </gadget>
+    <gadget name="HelpDialog-Abil-13" z="11" type="button" size1024="615 377 647 409" hidden="">
+    </gadget>
+    <gadget name="HelpDialog-Abil-14" z="11" type="button" size1024="649 377 681 409" hidden="">
+    </gadget>
+    <gadget name="HelpDialog-Abil-15" z="11" type="button" size1024="683 377 715 409" hidden="">
+    </gadget>
+    <gadget name="HelpDialog-Abil-16" z="11" type="button" size1024="717 377 749 409" hidden="">
+    </gadget>
+    <gadget name="HelpDialog-Abil-17" z="11" type="button" size1024="751 377 783 409" hidden="">
+    </gadget>
+    <gadget name="HelpDialog-Abil-18" z="11" type="button" size1024="785 377 817 409" hidden="">
+    </gadget>
+    <gadget name="HelpDialog-UpgradesText" type="formatText" background="" textfont="HelpLabel" textfontsize="16" textcolor="3 0 88" size1024="212 417 683 437">$$20944$$Upgrades:</gadget>
+    <gadget name="HelpDialog-Upgrades-1" z="11" type="button" size1024="235 439 267 471" hidden="">
+    </gadget>
+    <gadget name="HelpDialog-Upgrades-2" z="11" type="button" size1024="278 439 310 471" hidden="">
+    </gadget>
+    <gadget name="HelpDialog-Upgrades-3" z="11" type="button" size1024="322 439 354 471" hidden="">
+    </gadget>
+    <gadget name="HelpDialog-Upgrades-4" z="11" type="button" size1024="368 439 400 471" hidden="">
+    </gadget>
+    <gadget name="HelpDialog-Upgrades-5" z="11" type="button" size1024="414 439 446 471" hidden="">
+    </gadget>
+    <gadget name="HelpDialog-Upgrades-6" z="11" type="button" size1024="459 439 491 471" hidden="">
+    </gadget>
+    <gadget name="HelpDialog-Upgrades-7" z="11" type="button" size1024="504 439 536 471" hidden="">
+    </gadget>
+    <gadget name="HelpDialog-Upgrades-8" z="11" type="button" size1024="548 439 580 471" hidden="">
+    </gadget>
+    <gadget name="HelpDialog-Upgrades-9" z="11" type="button" size1024="590 439 622 471" hidden="">
+    </gadget>
+    <gadget name="HelpDialog-Upgrades-10" z="11" type="button" size1024="634 439 666 471" hidden="">
+    </gadget>
+    <gadget textfont="HelpTitleText" textfontsize="20" name="HelpDialog-Title" type="formatText" z="11" textcentervert="" textcolor="3 0 88" size1024="242 22 789 55">
+    </gadget>
+    <gadget name="HelpDialog-ScreenSeparator" type="gadget" size1024="213 56 785 58" background="missing" z="11">
+    </gadget>
+    <gadget name="HelpDialog-Stats-BonusArea" type="formatText" textcolor="3 0 88" textwrapoff="" formattextconvertuserlf="" textmarkup="" usehyperlinks="" textfont="Stats" textfontsize="14" size1024="212 274 812 345" z="25">
+    </gadget>
+    <gadget name="HelpDialog-TOCButton" z="13" type="stateButton" texturecoords="0 0 1 1" textcentervert="" textcenterhoriz="" statebuttonuseinternalstates="" textfont="InGameButtons" textfontsize="18" textcolor="3 0 88" size1024="380 713 508 745">$$21367$$Contents<stateentry background="ui\core_ui\button_128x32_normal"></stateentry><stateentry background="ui\core_ui\button_128x32_clicked"></stateentry><stateentry background="ui\core_ui\button_128x32_rollover"></stateentry><stateentry background=""></stateentry><command>uiTopicDetailHelp("history")</command></gadget>
+  </gadget>
+</layout>

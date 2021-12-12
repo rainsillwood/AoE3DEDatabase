@@ -1,0 +1,19 @@
+<layout>
+  <gadget name="AMPStatus-Container" type="gadget" size1024="0 0 209 112" z="10">
+    <gadget name="AMPStatus-Background" type="gadget" size1024="0 0 209 112" z="10" background="ui\eso\eso_main_ui" texturecoords="0.408203125 0.2890625 0.81640625 0.509765625">
+    </gadget>
+    <gadget name="AMPStatus-Avatar" type="gadget" size1024="6 48 70 112" z="5" background="ui\eso\eso_portrait_08" texturecoords="0 0 1 1">
+    </gadget>
+    <gadget name="AMPStatus-UserName" type="formatText" textfont="Arial" textfontsize="16" textcolor="255 255 255" textcenterhoriz="" textcentervert="" size1024="36 22 176 46" z="11">
+    </gadget>
+    <gadget name="AMPStatus-Idle" type="gadget" size1024="73 50 192 101" z="11">
+      <gadget name="AMPStatus-Idle-Online" type="formatText" textfont="Arial" textfontsize="16" textcolor="255 255 255" textcenterhoriz="" textcentervert="" size1024="72 52 188 80">$$32844$$ Offline</gadget>
+      <gadget name="AMPStatus-Idle-Build" type="formatText" textfont="Arial" textfontsize="10" textcolor="255 255 255" textcenterhoriz="" textcentervert="" size1024="83 68 203 110">
+      </gadget>
+    </gadget>
+    <gadget name="AMPStatus-Stats" type="formatText" textfont="Arial" textfontsize="12" size1024="72 50 191 101" textcolor="255 255 255" z="11">
+    </gadget>
+    <gadget name="AMPStatus-Matchmaking" type="formatText" textfont="Arial" textfontsize="16" size1024="72 50 191 101" textcolor="255 255 255" z="11">
+    </gadget>
+  </gadget>
+</layout>

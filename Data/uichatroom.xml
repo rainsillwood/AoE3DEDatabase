@@ -1,0 +1,164 @@
+<layout>
+  <gadget name="ChatRoom-ScreenContainer" hidden="" type="gadget" size1024="210 105 1019 762" backgroundcolor="64 64 64" background="ui\eso\eso_chat_screen" z="10" texturecoords="0 0 0.796875 0.6484375" wheelfocuswhenmouseinside="">
+    <gadget name="ChatRoom-ChatOutput" textfontsize="14" textfont="PregameChat" tilebackground="" type="simpleTextBox" size1024="219 176 767 686" textsimpleaddscrollstobottom="" scrollvert="" textcolor="255 200 3" wordwrap="" wordwrapspacing="20" transparent="" wheelfocuswhenmouseinside="" sliderautounreal="">
+      <vertscrollbar sliderbuttons="" slidervertical="" sliderupbtnset="sliderUpBtn_18" sliderdownbtnset="sliderDownBtn_18" sliderpipart="ui\file_system\slider_pip_horizontal" sliderareaart="ui\file_system\slider_background_vertical_18" background="ui\file_system\slider_background" z="50">
+      </vertscrollbar>
+    </gadget>
+    <gadget name="ChatRoom-ChatInput" enableime="" tilebackground="" type="editBox" size1024="228 723 748 749" cursorcolor="255 255 255" textcolor="255 255 255" textcentervert="" enterkey="" textfont="PregameChat" textfontsize="14" editboxmaxchars="250" mouseovertext="$$20032$$">
+    </gadget>
+    <gadget name="ChatRoom-ChannelName" type="formatText" textcolor="255 200 3" textfont="PregameHeaders" textfontsize="22" textjustifyleft="" size1024="242 105 739 140" z="11" transparent="">
+    </gadget>
+    <gadget name="ChatRoom-CancelButton" type="stateButton" bevelbutton="" tooltiptext="$$18466$$Cancel." statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="255 255 255" textcenterhoriz="" textcentervert="" size1024="792 107 988 139" z="11">$$38284$$Leave Chat Room<stateentry background="ui\core_ui\button_256x32_normal"></stateentry><stateentry background="ui\core_ui\button_256x32_clicked"></stateentry><stateentry background="ui\core_ui\button_256x32_rollover"></stateentry><stateentry background="ui\core_ui\button_256x32_disabled"></stateentry></gadget>
+    <gadget name="ChatRoom-UserList-Label" type="formatText" textcolor="255 200 3" textfont="IPAddy" textfontsize="14" size1024="829 156 934 175" textcenterhoriz="" transparent="" z="14">$$37516$$Users</gadget>
+    <gadget name="ChatRoom-UserList" type="gadget" size1024="775 183 984 749" z="11" transparent="" wheelfocuswhenmouseinside="">
+      <gadget name="ChatRoom-UserList-Entry1" type="button" size1024="775 183 984 214" z="12">
+        <gadget name="ChatRoom-UserList-Entry1-Name" type="button" textcentervert="" textcenterhoriz="" size1024="808 183 984 214" z="10">
+        </gadget>
+        <gadget name="ChatRoom-UserList-Entry1-Permissions" type="button" textcentervert="" textcenterhoriz="" size1024="775 183 806 214" z="10">
+        </gadget>
+        <gadget name="ChatRoom-UserList-Entry1-Highlight" type="gadget" hidden="" size1024="775 174 997 212" transparent="">
+        </gadget>
+      </gadget>
+      <gadget name="ChatRoom-UserList-Entry2" type="button" size1024="775 215 984 246" z="12">
+        <gadget name="ChatRoom-UserList-Entry2-Name" type="button" textcentervert="" textcenterhoriz="" size1024="808 215 984 246" z="10">
+        </gadget>
+        <gadget name="ChatRoom-UserList-Entry2-Permissions" type="button" textcentervert="" textcenterhoriz="" size1024="775 215 806 246" z="10">
+        </gadget>
+        <gadget name="ChatRoom-UserList-Entry2-Highlight" type="gadget" hidden="" size1024="775 206 997 244" z="5">
+        </gadget>
+      </gadget>
+      <gadget name="ChatRoom-UserList-Entry3" type="button" size1024="775 246 984 277" z="12">
+        <gadget name="ChatRoom-UserList-Entry3-Name" type="button" textcentervert="" textcenterhoriz="" size1024="808 246 984 277" z="10">
+        </gadget>
+        <gadget name="ChatRoom-UserList-Entry3-Permissions" type="button" textcentervert="" textcenterhoriz="" size1024="775 246 806 277" z="10">
+        </gadget>
+        <gadget name="ChatRoom-UserList-Entry3-Highlight" type="gadget" hidden="" size1024="775 237 997 275" z="5">
+        </gadget>
+      </gadget>
+      <gadget name="ChatRoom-UserList-Entry4" type="button" size1024="775 278 984 309" z="12">
+        <gadget name="ChatRoom-UserList-Entry4-Name" type="button" textcentervert="" textcenterhoriz="" size1024="808 278 984 309" z="10">
+        </gadget>
+        <gadget name="ChatRoom-UserList-Entry4-Permissions" type="button" textcentervert="" textcenterhoriz="" size1024="775 278 806 309" z="10">
+        </gadget>
+        <gadget name="ChatRoom-UserList-Entry4-Highlight" type="gadget" hidden="" size1024="775 269 997 307" z="5">
+        </gadget>
+      </gadget>
+      <gadget name="ChatRoom-UserList-Entry5" type="button" size1024="775 309 984 340" z="12">
+        <gadget name="ChatRoom-UserList-Entry5-Name" type="button" textcentervert="" textcenterhoriz="" size1024="808 309 984 340" z="10">
+        </gadget>
+        <gadget name="ChatRoom-UserList-Entry5-Permissions" type="button" textcentervert="" textcenterhoriz="" size1024="775 309 806 340" z="10">
+        </gadget>
+        <gadget name="ChatRoom-UserList-Entry5-Highlight" type="gadget" hidden="" size1024="775 300 997 338" z="5">
+        </gadget>
+      </gadget>
+      <gadget name="ChatRoom-UserList-Entry6" type="button" size1024="775 341 984 372" z="12">
+        <gadget name="ChatRoom-UserList-Entry6-Name" type="button" textcentervert="" textcenterhoriz="" size1024="808 341 984 372" z="10">
+        </gadget>
+        <gadget name="ChatRoom-UserList-Entry6-Permissions" type="button" textcentervert="" textcenterhoriz="" size1024="775 341 806 372" z="10">
+        </gadget>
+        <gadget name="ChatRoom-UserList-Entry6-Highlight" type="gadget" hidden="" size1024="775 332 997 370" z="5">
+        </gadget>
+      </gadget>
+      <gadget name="ChatRoom-UserList-Entry7" type="button" size1024="775 372 984 403" z="12">
+        <gadget name="ChatRoom-UserList-Entry7-Name" type="button" textcentervert="" textcenterhoriz="" size1024="808 372 984 403" z="10">
+        </gadget>
+        <gadget name="ChatRoom-UserList-Entry7-Permissions" type="button" textcentervert="" textcenterhoriz="" size1024="775 372 806 403" z="10">
+        </gadget>
+        <gadget name="ChatRoom-UserList-Entry7-Highlight" type="gadget" hidden="" size1024="775 363 997 401" z="5">
+        </gadget>
+      </gadget>
+      <gadget name="ChatRoom-UserList-Entry8" type="button" size1024="775 404 984 435" z="12">
+        <gadget name="ChatRoom-UserList-Entry8-Name" type="button" textcentervert="" textcenterhoriz="" size1024="808 404 984 435" z="10">
+        </gadget>
+        <gadget name="ChatRoom-UserList-Entry8-Permissions" type="button" textcentervert="" textcenterhoriz="" size1024="775 404 806 435" z="10">
+        </gadget>
+        <gadget name="ChatRoom-UserList-Entry8-Highlight" type="gadget" hidden="" size1024="775 395 997 433" z="5">
+        </gadget>
+      </gadget>
+      <gadget name="ChatRoom-UserList-Entry9" type="button" size1024="775 435 984 466" z="12">
+        <gadget name="ChatRoom-UserList-Entry9-Name" type="button" textcentervert="" textcenterhoriz="" size1024="808 435 984 466" z="10">
+        </gadget>
+        <gadget name="ChatRoom-UserList-Entry9-Permissions" type="button" textcentervert="" textcenterhoriz="" size1024="775 435 806 466" z="10">
+        </gadget>
+        <gadget name="ChatRoom-UserList-Entry9-Highlight" type="gadget" hidden="" size1024="775 426 997 464" z="5">
+        </gadget>
+      </gadget>
+      <gadget name="ChatRoom-UserList-Entry10" type="button" size1024="775 467 984 498" z="12">
+        <gadget name="ChatRoom-UserList-Entry10-Name" type="button" textcentervert="" textcenterhoriz="" size1024="808 467 984 498" z="10">
+        </gadget>
+        <gadget name="ChatRoom-UserList-Entry10-Permissions" type="button" textcentervert="" textcenterhoriz="" size1024="775 467 806 498" z="10">
+        </gadget>
+        <gadget name="ChatRoom-UserList-Entry10-Highlight" type="gadget" hidden="" size1024="775 458 997 496" z="5">
+        </gadget>
+      </gadget>
+      <gadget name="ChatRoom-UserList-Entry11" type="button" size1024="775 498 984 529" z="12">
+        <gadget name="ChatRoom-UserList-Entry11-Name" type="button" textcentervert="" textcenterhoriz="" size1024="808 498 984 529" z="10">
+        </gadget>
+        <gadget name="ChatRoom-UserList-Entry11-Permissions" type="button" textcentervert="" textcenterhoriz="" size1024="775 498 806 529" z="10">
+        </gadget>
+        <gadget name="ChatRoom-UserList-Entry11-Highlight" type="gadget" hidden="" size1024="775 489 997 527" z="5">
+        </gadget>
+      </gadget>
+      <gadget name="ChatRoom-UserList-Entry12" type="button" size1024="775 530 984 561" z="12">
+        <gadget name="ChatRoom-UserList-Entry12-Name" type="button" textcentervert="" textcenterhoriz="" size1024="808 530 984 561" z="10">
+        </gadget>
+        <gadget name="ChatRoom-UserList-Entry12-Permissions" type="button" textcentervert="" textcenterhoriz="" size1024="775 530 806 561" z="10">
+        </gadget>
+        <gadget name="ChatRoom-UserList-Entry12-Highlight" type="gadget" hidden="" size1024="775 521 997 559" z="5">
+        </gadget>
+      </gadget>
+      <gadget name="ChatRoom-UserList-Entry13" type="button" size1024="775 561 984 592" z="12">
+        <gadget name="ChatRoom-UserList-Entry13-Name" type="button" textcentervert="" textcenterhoriz="" size1024="808 561 984 592" z="10">
+        </gadget>
+        <gadget name="ChatRoom-UserList-Entry13-Permissions" type="button" textcentervert="" textcenterhoriz="" size1024="775 561 806 592" z="10">
+        </gadget>
+        <gadget name="ChatRoom-UserList-Entry13-Highlight" type="gadget" hidden="" size1024="775 552 997 590" z="5">
+        </gadget>
+      </gadget>
+      <gadget name="ChatRoom-UserList-Entry14" type="button" size1024="775 593 984 624" z="12">
+        <gadget name="ChatRoom-UserList-Entry14-Name" type="button" textcentervert="" textcenterhoriz="" size1024="808 593 984 624" z="10">
+        </gadget>
+        <gadget name="ChatRoom-UserList-Entry14-Permissions" type="button" textcentervert="" textcenterhoriz="" size1024="775 593 806 624" z="10">
+        </gadget>
+        <gadget name="ChatRoom-UserList-Entry14-Highlight" type="gadget" hidden="" size1024="775 584 997 622" z="5">
+        </gadget>
+      </gadget>
+      <gadget name="ChatRoom-UserList-Entry15" type="button" size1024="775 624 984 655" z="12">
+        <gadget name="ChatRoom-UserList-Entry15-Name" type="button" textcentervert="" textcenterhoriz="" size1024="808 624 984 655" z="10">
+        </gadget>
+        <gadget name="ChatRoom-UserList-Entry15-Permissions" type="button" textcentervert="" textcenterhoriz="" size1024="775 624 806 655" z="10">
+        </gadget>
+        <gadget name="ChatRoom-UserList-Entry15-Highlight" type="gadget" hidden="" size1024="775 615 997 653" z="5">
+        </gadget>
+      </gadget>
+      <gadget name="ChatRoom-UserList-Entry16" type="button" size1024="775 656 984 687" z="12">
+        <gadget name="ChatRoom-UserList-Entry16-Name" type="button" textcentervert="" textcenterhoriz="" size1024="808 656 984 687" z="10">
+        </gadget>
+        <gadget name="ChatRoom-UserList-Entry16-Permissions" type="button" textcentervert="" textcenterhoriz="" size1024="775 656 806 687" z="10">
+        </gadget>
+        <gadget name="ChatRoom-UserList-Entry16-Highlight" type="gadget" hidden="" size1024="775 653 997 691" z="5">
+        </gadget>
+      </gadget>
+      <gadget name="ChatRoom-UserList-Entry17" type="button" size1024="775 687 984 718" z="12">
+        <gadget name="ChatRoom-UserList-Entry17-Name" type="button" textcentervert="" textcenterhoriz="" size1024="808 687 984 718" z="10">
+        </gadget>
+        <gadget name="ChatRoom-UserList-Entry17-Permissions" type="button" textcentervert="" textcenterhoriz="" size1024="775 687 806 718" z="10">
+        </gadget>
+        <gadget name="ChatRoom-UserList-Entry17-Highlight" type="gadget" hidden="" size1024="775 684 997 722" z="5">
+        </gadget>
+      </gadget>
+      <gadget name="ChatRoom-UserList-Entry18" type="button" size1024="775 718 984 749" z="12">
+        <gadget name="ChatRoom-UserList-Entry18-Name" type="button" textcentervert="" textcenterhoriz="" size1024="808 718 984 749" z="10">
+        </gadget>
+        <gadget name="ChatRoom-UserList-Entry18-Permissions" type="button" textcentervert="" textcenterhoriz="" size1024="775 718 806 749" z="10">
+        </gadget>
+        <gadget name="ChatRoom-UserList-Entry18-Highlight" type="gadget" hidden="" size1024="775 715 997 753" z="5">
+        </gadget>
+      </gadget>
+      <gadget name="ChatRoom-UserList-Slider" type="slider" size1024="991 188 1011 748" z="12" sliderbuttons="" slidervertical="" sliderupbtnset="sliderUpBtn_18" sliderdownbtnset="sliderDownBtn_18" sliderpipart="ui\file_system\slider_pip_horizontal" sliderareaart="ui\file_system\slider_background_vertical_18" background="ui\file_system\slider_background">
+      </gadget>
+    </gadget>
+    <gadget name="ChatRoom-UserMenu" type="menu" windowzstyle="" buttonmask="ui\ingame\background_black" ignorecheckboxspacing="1" verticallayout="1" hidden="" bevel="1" textfont="Arial nobold nodrop" textfontsize="12" background="ui\file_system\file_system_background" tilebackground="" z="15" size1024="0 -1 30 29">
+    </gadget>
+  </gadget>
+</layout>

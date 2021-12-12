@@ -1,0 +1,23 @@
+<layout>
+  <gadget type="gadget" name="ingame-messagedialog2" size1024="347 195 677 420" bevel="" background="ui\file_system\file_system_background" tilebackground="" windowzstyle="" hidden="" dialogdefaultbuttonindex="1">
+    <gadget tilebackgroundhoriz="" name="ingame-messagedialog2-BordersTop" type="gadget" background="ui\file_system\border_top_middle" size1024="354 179 664 195" z="3" transparent="">
+    </gadget>
+    <gadget tilebackgroundhoriz="" name="ingame-messagedialog2-BordersBottom" type="gadget" background="ui\file_system\border_bottom_middle" size1024="371 420 654 436" z="3" transparent="">
+    </gadget>
+    <gadget name="ingame-messagedialog2-BordersLeft" type="gadget" background="ui\file_system\border_side_left" size1024="339 211 347 404" tilebackgroundvert="" transparent="" z="9">
+    </gadget>
+    <gadget name="ingame-messagedialog2-BordersRight" type="gadget" background="ui\file_system\border_side_right" size1024="677 210 685 404" tilebackgroundvert="" z="3" transparent="">
+    </gadget>
+    <gadget name="ingame-messagedialog2-BordersRightTop" type="gadget" background="ui\file_system\border_top_right" size1024="653 179 685 211" z="4" transparent="" clampbackground="">
+    </gadget>
+    <gadget name="ingame-messagedialog2-BordersLeftTop" type="gadget" background="ui\file_system\border_top_left" size1024="339 179 371 211" z="4" transparent="" clampbackground="">
+    </gadget>
+    <gadget name="ingame-messagedialog2-BordersRightBottom" type="gadget" background="ui\file_system\border_bottom_right" size1024="653 404 685 436" z="4" transparent="" clampbackground="">
+    </gadget>
+    <gadget name="ingame-messagedialog2-BordersLeftBottom" type="gadget" background="ui\file_system\border_bottom_left" size1024="339 404 371 436" z="10" transparent="" clampbackground="">
+    </gadget>
+    <gadget name="ingame-messagedialog2-prompt" type="formatText" textcolor="3 0 88" textfont="InGameDialogs" textfontsize="16" textcentervert="" textcenterhoriz="" size1024="367 235 657 350">Message Text Goes Here</gadget>
+    <gadget name="ingame-messagedialog2-OKButton" type="stateButton" size1024="380 372 508 404" bevelbutton="" z="51" statebuttonuseinternalstates="" textfont="IngameButtons" textfontsize="18" textcolor="3 0 88" textcenterhoriz="" textcentervert="" texturecoords="0 0 1 1">$$18465$$OK<stateentry background="ui\core_ui\button_128x32_normal"></stateentry><stateentry background="ui\core_ui\button_128x32_clicked"></stateentry><stateentry background="ui\core_ui\button_128x32_rollover"></stateentry><stateentry background=""></stateentry></gadget>
+    <gadget name="ingame-messagedialog2-CancelButton" type="stateButton" size1024="516 372 644 404" bevelbutton="" z="51" statebuttonuseinternalstates="" textfont="IngameButtons" textfontsize="18" textcolor="3 0 88" textcenterhoriz="" textcentervert="" texturecoords="0 0 1 1">$$18466$$Cancel<stateentry background="ui\core_ui\button_128x32_normal"></stateentry><stateentry background="ui\core_ui\button_128x32_clicked"></stateentry><stateentry background="ui\core_ui\button_128x32_rollover"></stateentry><stateentry background=""></stateentry><command>gadgetUnreal("ingame-messagedialog2")</command></gadget>
+  </gadget>
+</layout>

@@ -1,0 +1,9 @@
+<tactics>
+  <action>
+    <name stringid="69183">NoWork</name>
+    <type>NoWork</type>
+    <rate type="AbstractMine">1.0</rate>
+    <typedmaxrange type="AbstractMine">0</typedmaxrange>
+  </action>
+  <tactic>Normal<action>NoWork</action><idleanim>Idle</idleanim><boredanim>Bored</boredanim><walkanim>Walk</walkanim></tactic>
+</tactics>

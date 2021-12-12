@@ -1,0 +1,34 @@
+<layout>
+  <gadget name="traderoutepanel2" type="gadget" backgroundcolor="0 0 0" size1024="700 628 1024 746" texturecoords="0 0 0.64 0.455" z="5" background="ui\ingame\ingame_ui_small_03x_ypack">
+    <gadget name="traderoutepanel2-TradeRoutePortraitBack" type="button" size1024="745 654 829 738" z="10" outlinecolor="75 55 30" foreground="ui\ingame\background_black" activateondown="">
+    </gadget>
+    <gadget name="traderoutepanel2-TradeRoutePortrait" type="button" size1024="745 654 829 738" z="11" texturecoords="0 0 .66 1" outlinecolor="75 55 30" activateondown="">
+    </gadget>
+    <gadget name="traderoutepanel2-CurrentLevel" z="13" type="formatText" background="" textfont="AgeUpgradeMedium" textcenterhoriz="" textcentervert="" textfontsize="17" textcolor="255 255 255" textjustifycenter="" size1024="723 634 849 651">
+    </gadget>
+    <gadget name="traderoutepanel2-button00" type="button" size1024="875 634 907 666" z="15" activateondown="">
+    </gadget>
+    <gadget name="traderoutepanel2-button01" type="button" size1024="911 634 943 666" z="15" activateondown="">
+    </gadget>
+    <gadget name="traderoutepanel2-button02" type="button" size1024="947 634 979 666" z="15" activateondown="">
+    </gadget>
+    <gadget name="traderoutepanel2-button03" type="button" size1024="983 634 1015 666" z="15" activateondown="">
+    </gadget>
+    <gadget name="traderoutepanel2-button10" type="button" size1024="875 671 907 703" z="15" activateondown="">
+    </gadget>
+    <gadget name="traderoutepanel2-button11" type="button" size1024="911 671 943 703" z="15" activateondown="">
+    </gadget>
+    <gadget name="traderoutepanel2-button12" type="button" size1024="947 671 979 703" z="15" activateondown="">
+    </gadget>
+    <gadget name="traderoutepanel2-button13" type="button" size1024="983 671 1015 703" z="15" activateondown="">
+    </gadget>
+    <gadget name="traderoutepanel2-button20" type="button" size1024="875 708 907 740" z="15" activateondown="">
+    </gadget>
+    <gadget name="traderoutepanel2-button21" type="button" size1024="911 708 943 740" z="15" activateondown="">
+    </gadget>
+    <gadget name="traderoutepanel2-button22" type="button" size1024="947 708 979 740" z="15" activateondown="">
+    </gadget>
+    <gadget name="traderoutepanel2-button23" type="button" size1024="983 708 1015 740" z="15" activateondown="">
+    </gadget>
+  </gadget>
+</layout>

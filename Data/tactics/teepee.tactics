@@ -1,0 +1,72 @@
+<tactics>
+  <action>
+    <name stringid="48954">GreatHeart</name>
+    <type>AutoRangedModify</type>
+    <active>1</active>
+    <maxrange>20</maxrange>
+    <persistent>1</persistent>
+    <modifytype>MaxHP</modifytype>
+    <forbidabstracttype>AbstractArtillery</forbidabstracttype>
+    <modifymultiplier>1.10</modifymultiplier>
+    <modelattachment>effects\chiefpower\chiefpower.xml</modelattachment>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+  </action>
+  <action>
+    <name stringid="48954">ImprovedGreatHeart</name>
+    <type>AutoRangedModify</type>
+    <active>0</active>
+    <maxrange>24</maxrange>
+    <persistent>1</persistent>
+    <modifytype>MaxHP</modifytype>
+    <forbidabstracttype>AbstractArtillery</forbidabstracttype>
+    <modifymultiplier>1.10</modifymultiplier>
+    <modelattachment>effects\chiefpower\chiefpower.xml</modelattachment>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+  </action>
+  <action>
+    <name stringid="48959">SpawnWarbow</name>
+    <type>Maintain</type>
+    <rate type="xpWarBow">1.0 </rate>
+    <active>0</active>
+    <persistent>1</persistent>
+    <singleuse>1</singleuse>
+  </action>
+  <action>
+    <name stringid="48958">ExtraDamage</name>
+    <type>AutoRangedModify</type>
+    <active>0</active>
+    <maxrange>20</maxrange>
+    <persistent>1</persistent>
+    <modifytype>Damage</modifytype>
+    <forbidabstracttype>AbstractArtillery</forbidabstracttype>
+    <modifymultiplier>1.10</modifymultiplier>
+    <modelattachment>effects\chiefpower\chiefpower.xml</modelattachment>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+  </action>
+  <action>
+    <name stringid="48958">ImprovedExtraDamage</name>
+    <type>AutoRangedModify</type>
+    <active>0</active>
+    <maxrange>20</maxrange>
+    <persistent>1</persistent>
+    <modifytype>Damage</modifytype>
+    <forbidabstracttype>AbstractArtillery</forbidabstracttype>
+    <modifymultiplier>1.10</modifymultiplier>
+    <modelattachment>effects\chiefpower\chiefpower.xml</modelattachment>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+  </action>
+  <action>
+    <name stringid="68961">ImprovedEconomicAura</name>
+    <type>AutoRangedModify</type>
+    <maxrange>24</maxrange>
+    <active>0</active>
+    <modifyabstracttype>AbstractVillager</modifyabstracttype>
+    <persistent>1</persistent>
+    <modifyexclusive>1</modifyexclusive>
+    <modifytype>GatherRate</modifytype>
+    <modifymultiplier>1.10</modifymultiplier>
+    <modelattachment>effects\ypack_auras\econpower.xml</modelattachment>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+  </action>
+  <tactic>Normal<action>GreatHeart</action><action>ExtraDamage</action><action>ImprovedEconomicAura</action><action>ImprovedGreatHeart</action><action>ImprovedExtraDamage</action><action>SpawnWarbow</action></tactic>
+</tactics>

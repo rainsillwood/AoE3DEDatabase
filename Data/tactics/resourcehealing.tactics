@@ -1,0 +1,17 @@
+<tactics>
+  <action>
+    <name stringid="110152">HealWithResources</name>
+    <type>LikeBonus</type>
+    <modifyratebytype>1</modifyratebytype>
+    <modifyabstracttype>Resource</modifyabstracttype>
+    <includegaia>1</includegaia>
+    <active>1</active>
+    <maxrange>24</maxrange>
+    <rate type="Tree">1.0</rate>
+    <rate type="AbstractBerryBush">1.0</rate>
+    <persistent>1</persistent>
+    <modifytype>HealRate</modifytype>
+    <modifybase>0.0</modifybase>
+    <modifyratecap>1.0</modifyratecap>
+  </action>
+</tactics>

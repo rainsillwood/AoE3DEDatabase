@@ -1,0 +1,54 @@
+<tactics>
+  <action>
+    <name stringid="68958">RangedDamageIncrease2</name>
+    <type>AutoRangedModify</type>
+    <persistent>1</persistent>
+    <modifyabstracttype>AbstractRangedInfantry</modifyabstracttype>
+    <modifymultiplier>1.10</modifymultiplier>
+    <modifytype>UnitDamage</modifytype>
+  </action>
+  <action>
+    <name stringid="68958">CavalryRangedDamageIncrease2</name>
+    <type>AutoRangedModify</type>
+    <persistent>1</persistent>
+    <modifyabstracttype>AbstractRangedCavalry</modifyabstracttype>
+    <modifymultiplier>1.15</modifymultiplier>
+    <modifytype>UnitDamage</modifytype>
+  </action>
+  <action>
+    <name stringid="68959">HandDamageIncrease2</name>
+    <type>AutoRangedModify</type>
+    <persistent>1</persistent>
+    <modifyabstracttype>AbstractHandInfantry</modifyabstracttype>
+    <modifymultiplier>1.15</modifymultiplier>
+    <modifytype>UnitDamage</modifytype>
+  </action>
+  <action>
+    <name stringid="68959">CavalryHandDamageIncrease2</name>
+    <type>AutoRangedModify</type>
+    <persistent>1</persistent>
+    <modifyabstracttype>AbstractHandCavalry</modifyabstracttype>
+    <modifymultiplier>1.15</modifymultiplier>
+    <modifytype>UnitDamage</modifytype>
+  </action>
+  <action>
+    <name stringid="70273">UnitSpeedIncrease</name>
+    <type>AutoRangedModify</type>
+    <persistent>1</persistent>
+    <modifyabstracttype>LogicalTypeLandMilitary</modifyabstracttype>
+    <modifymultiplier>1.05</modifymultiplier>
+    <modifytype>Speed</modifytype>
+  </action>
+  <action>
+    <name stringid="68960">UnitHitpointsIncrease2</name>
+    <type>AutoRangedModify</type>
+    <persistent>1</persistent>
+    <modifyabstracttype>LogicalTypeLandMilitary</modifyabstracttype>
+    <modifymultiplier>1.1</modifymultiplier>
+    <modifytype>MaxHP</modifytype>
+  </action>
+  <tactic>RangeDamage<action>RangedDamageIncrease2</action><action>CavalryRangedDamageIncrease2</action><protounitcommand>TacticRangedDamage</protounitcommand><transition><tactic>UnitSpeed</tactic><length>2</length><exit>1</exit></transition><transition><tactic>HandDamage</tactic><length>2</length><exit>1</exit></transition><transition><tactic>UnitHitpoints</tactic><length>2</length><exit>1</exit></transition></tactic>
+  <tactic>HandDamage<action>HandDamageIncrease2</action><action>CavalryHandDamageIncrease2</action><protounitcommand>TacticHandDamage</protounitcommand><transition><tactic>UnitSpeed</tactic><length>2</length><exit>1</exit></transition><transition><tactic>RangeDamage</tactic><length>2</length><exit>1</exit></transition><transition><tactic>UnitHitpoints</tactic><length>2</length><exit>1</exit></transition></tactic>
+  <tactic>UnitHitpoints<action>UnitHitpointsIncrease2</action><protounitcommand>TacticUnitHitpoints</protounitcommand><transition><tactic>UnitSpeed</tactic><length>2</length><exit>1</exit></transition><transition><tactic>RangeDamage</tactic><length>2</length><exit>1</exit></transition><transition><tactic>HandDamage</tactic><length>2</length><exit>1</exit></transition></tactic>
+  <tactic>UnitSpeed<action>UnitSpeedIncrease</action><protounitcommand>TacticUnitSpeed</protounitcommand><transition><tactic>UnitHitpoints</tactic><length>2</length><exit>1</exit></transition><transition><tactic>RangeDamage</tactic><length>2</length><exit>1</exit></transition><transition><tactic>HandDamage</tactic><length>2</length><exit>1</exit></transition></tactic>
+</tactics>

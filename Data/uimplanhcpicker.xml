@@ -1,0 +1,21 @@
+<layout>
+  <gadget name="HomeCityPicker-Container" hidden="" type="gadget" size1024="0 0 1024 768" backgroundcolor="0 0 0" backgroundalpha="0.5" z="20">
+    <gadget name="HomeCityPicker" type="gadget" size1024="339 120 693 418" backgroundcolor="60 60 60" z="20">
+      <gadget name="HomeCityPicker-CivList" type="list" size1024="399 153 624 283" backgroundcolor="120 120 120" textfontsize="14" textfont="PeopleListItems" textcolor="3 0 88" scrollvert="" showselect="" buttonsize1024="391 20" z="10">
+        <vertscrollbar sliderbuttons="" slidervertical="" sliderupbtnset="" sliderdownbtnset="" sliderpipart="ui\file_system\slider_pip_vertical" sliderpiptexturecoords="0 0 1 1" sliderareaart="ui\file_system\slider_background_vertical" background="ui\core_ui\background_yellow_opaque">
+        </vertscrollbar>
+      </gadget>
+      <gadget name="HomeCityPicker-HCLevelButton" type="checkButton" size1024="367 298 397 326" checkcheckedart="ui\core_ui\checkbox_green" checkuncheckedart="ui\core_ui\checkbox_red" sound="UI_DefaultPregameClickSet" z="13" checkborder1024="5 0">
+      </gadget>
+      <gadget name="HomeCityPicker-HCLevelButtonLabel" type="formatText" textfont="Arial Nodrop" textfontsize="16" size1024="401 300 511 324" textjustifyleft="" z="13">Force to</gadget>
+      <gadget name="HomeCityPicker-HCLocationDropDown" type="textField" textfont="ScrollFont" textfontsize="16" size1024="515 302 637 323" background="ui\core_ui\dropdown_background" z="10" textcolor="0 0 0" fieldtextboxcolor="255 255 255">
+        <dropdown>Local</dropdown>
+        <dropdown>Level 1</dropdown>
+        <dropdown>Level 5</dropdown>
+        <dropdown>Level 10</dropdown>
+      </gadget>
+      <gadget name="HomeCityPicker-SubmitButton" type="stateButton" bevelbutton="" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="255 255 255" textcenterhoriz="" textcentervert="" size1024="423 345 507 377" z="11" texturecoords="0 0 0.6484375 0.96875">$$18465$$OK<stateentry background="ui\core_ui\button_tiny_normal"></stateentry><stateentry background="ui\core_ui\button_tiny_clicked"></stateentry><stateentry background="ui\core_ui\button_tiny_high"></stateentry><stateentry background="ui\core_ui\button_tiny_disabled"></stateentry></gadget>
+      <gadget name="HomeCityPicker-CancelButton" type="stateButton" bevelbutton="" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="255 255 255" textcenterhoriz="" textcentervert="" size1024="529 345 613 377" z="11" texturecoords="0 0 0.6484375 0.96875">$$18466$$Cancel<stateentry background="ui\core_ui\button_tiny_normal"></stateentry><stateentry background="ui\core_ui\button_tiny_clicked"></stateentry><stateentry background="ui\core_ui\button_tiny_high"></stateentry><stateentry background="ui\core_ui\button_tiny_disabled"></stateentry></gadget>
+    </gadget>
+  </gadget>
+</layout>

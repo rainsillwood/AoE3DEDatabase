@@ -1,0 +1,14 @@
+<tactics>
+  <action>
+    <name stringid="69154">WonderFlyingCrow</name>
+    <type>DanceBonus</type>
+    <active>1</active>
+    <persistent>1</persistent>
+    <dancebonustype>UnitSpawn</dancebonustype>
+    <modifyprotoid>ypFlyingCrow</modifyprotoid>
+    <modifymultiplier>0.065</modifymultiplier>
+    <modifyexponent>1.03</modifyexponent>
+    <modifybase>0.0</modifybase>
+  </action>
+  <tactic>WonderFlyingCrow<action>WonderFlyingCrow</action><protounitcommand>WonderFlyingCrow</protounitcommand><transition><tactic>Wood</tactic><length>2</length><exit>1</exit></transition></tactic>
+</tactics>

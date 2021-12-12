@@ -1,0 +1,19 @@
+<layout>
+  <gadget name="ArmyEditor" type="gadget" size1024="50 50 550 320" background="ui\editor\editor_background" bevel="" titlebar="$$20289$$Army Editor" closebutton="" windowzstyle="" moveable="">
+    <gadget name="AE-ArmyList" type="list" background="ui\editor\editor_background" sunkenbevel="" showselect="" selectedcolor="255 255 255" buttonsize1024="125 15" scrollvert="" alphasort="" titlebar="$$20480$$Current Armies" locktitlebarmove="" size1024="60 82 300 302">
+    </gadget>
+    <gadget name="AETextLabel" type="gadget" textcolor="0 0 0" textfont="Arial Nodrop For SE" textfontsize="12" size1024="310 81 540 106">$$20001$$Name:</gadget>
+    <gadget name="AE-ArmyName" type="textField" textcolor="0 0 0" textfont="Arial nobold nodrop" textfontsize="12" tooltiptext="$$20521$$Army Name" size1024="310 107 540 132">
+    </gadget>
+    <gadget name="AE-CreateArmy" type="button" bevel="" textfont="Arial nobold nodrop" textfontsize="12" tooltiptext="$$20481$$Create an army with selected units." size1024="310 137 420 157">$$20482$$Create Army</gadget>
+    <gadget name="AE-RenameArmy" type="button" bevel="" textfont="Arial nobold nodrop" textfontsize="12" tooltiptext="$$20543$$Rename currently selected army." size1024="430 137 540 157">$$20542$$Rename Army</gadget>
+    <gadget name="AE-DeleteArmy" type="button" bevel="" textfont="Arial nobold nodrop" textfontsize="12" tooltiptext="$$20483$$Delete the selected army." size1024="310 162 540 182">$$20484$$Delete Army</gadget>
+    <gadget name="AE-TakeFromArmy" type="button" bevel="" textfont="Arial nobold nodrop" textfontsize="12" tooltiptext="$$20541$$Remove selected units from currently selected army." size1024="430 189 540 209">$$20540$$Take from Army</gadget>
+    <gadget name="AE-AddToArmy" type="button" bevel="" textfont="Arial nobold nodrop" textfontsize="12" tooltiptext="$$20539$$Add selected units to currently selected army." size1024="310 189 420 209">$$20538$$Add to Army</gadget>
+    <gadget name="AE-GhostArmy" type="button" bevel="" textfont="Arial nobold nodrop" textfontsize="12" tooltiptext="$$20485$$Create an empty army." size1024="310 217 540 237">$$20486$$Ghost Army</gadget>
+    <gadget name="AE-GhostArmyPlayerLabel" type="gadget" textcolor="0 0 0" textfont="Arial Nodrop For SE" textfontsize="12" size1024="311 242 539 274">$$20391$$Player:</gadget>
+    <gadget name="AE-GhostArmyPlayer" type="textField" textcolor="0 0 0" textfont="Arial nobold nodrop" textfontsize="12" tooltiptext="$$20020$$Player" dropdowndistance="100" size1024="310 274 540 299">
+      <dropdown>1</dropdown>
+    </gadget>
+  </gadget>
+</layout>

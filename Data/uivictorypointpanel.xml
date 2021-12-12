@@ -1,0 +1,94 @@
+<layout>
+  <gadget name="VPPanelRoot" type="VictoryPointPanelRoot" size1024="832 8 1024 270" z="7" transparent="" hidden="">
+    <gadget name="VictoryPointPanel0" type="VictoryPointPanel" size1024="832 18 1024 97" z="8" hidden="">
+      <gadget name="Background" type="gadget" size1024="832 26 1024 97" z="8" backgroundcolor="0 0 0" backgroundalpha="0.3">
+      </gadget>
+      <gadget name="TeamName" type="formatText" z="22" size1024="832 40 1024 56" transparent="" donthighlight="" textcolor="255 255 255" textfont="ScoreFont" textfontsize="12" textcentervert="" textcenterhoriz="">
+      </gadget>
+      <gadget name="PlayerName0" type="formatText" z="22" size1024="832 58 1024 74" transparent="" donthighlight="" textcolor="255 255 255" textfont="ScoreFont" textfontsize="12" textcentervert="" textcenterhoriz="" datarefreshrate="100">
+      </gadget>
+      <gadget name="LeftCapBlack" type="gadget" z="22" size1024="832 18 856 34" background="ui\victory_points\vp_bar_black_cap_left" texturecoords="0 0 0.741935483870968 1">
+      </gadget>
+      <gadget name="RightCapBlack" type="gadget" z="22" size1024="1000 18 1024 34" background="ui\victory_points\vp_bar_black_cap_right" texturecoords="0 0 0.741935483870968 1">
+      </gadget>
+      <gadget name="LeftCapRed" type="gadget" z="22" size1024="832 18 856 34" background="ui\victory_points\vp_bar_red_cap_left" texturecoords="0 0 0.741935483870968 1">
+      </gadget>
+      <gadget name="RightCapRed" type="gadget" z="22" size1024="1000 18 1024 34" background="ui\victory_points\vp_bar_red_cap_right" texturecoords="0 0 0.741935483870968 1">
+      </gadget>
+      <gadget name="LeftCapGold" type="gadget" z="22" size1024="832 18 856 34" background="ui\victory_points\vp_bar_gold_cap_left" texturecoords="0 0 0.741935483870968 1">
+      </gadget>
+      <gadget name="RightCapGold" type="gadget" z="22" size1024="1000 18 1024 34" background="ui\victory_points\vp_bar_gold_cap_right" texturecoords="0 0 0.741935483870968 1">
+      </gadget>
+      <gadget name="YellowSlot" type="gadget" hidden="" z="200" size1024="856 18 872 34" background="ui\victory_points\vp_bar_gold">
+      </gadget>
+      <gadget name="SlotIconNative" type="gadget" hidden="" transparent="" z="201" size1024="856 10 872 42" background="ui\victory_points\vp_bar_native_icon">
+      </gadget>
+      <gadget name="SlotIconTradePost" type="gadget" hidden="" transparent="" z="201" size1024="856 10 872 42" background="ui\victory_points\vp_bar_trade_icon">
+      </gadget>
+      <gadget name="BlackBar" type="progressBar" size1024="856 18 1000 34" z="4" progressbarbackground="ui\victory_points\vp_bar_black" progressbarbackgroundsize="144 16" progressbarmask="ui\victory_points\vp_bar_red">
+      </gadget>
+      <gadget name="LookAtMe" type="gadget" hidden="" transparent="" size1024="832 0 1024 56" z="500">
+      </gadget>
+    </gadget>
+    <gadget name="VictoryPointPanel1" type="VictoryPointPanel" size1024="832 102 1024 181" z="8" hidden="">
+      <gadget name="Background" type="gadget" size1024="832 110 1024 181" z="8" backgroundcolor="0 0 0" backgroundalpha="0.3">
+      </gadget>
+      <gadget name="TeamName" type="formatText" z="22" size1024="832 124 1024 140" transparent="" donthighlight="" textcolor="255 255 255" textfont="ScoreFont" textfontsize="12" textcentervert="" textcenterhoriz="">
+      </gadget>
+      <gadget name="PlayerName0" type="formatText" z="22" size1024="832 142 1024 158" transparent="" donthighlight="" textcolor="255 255 255" textfont="ScoreFont" textfontsize="12" textcentervert="" textcenterhoriz="">
+      </gadget>
+      <gadget name="LeftCapBlack" type="gadget" z="22" size1024="832 102 856 118" background="ui\victory_points\vp_bar_black_cap_left" texturecoords="0 0 0.741935483870968 1">
+      </gadget>
+      <gadget name="RightCapBlack" type="gadget" z="22" size1024="1000 102 1024 118" background="ui\victory_points\vp_bar_black_cap_right" texturecoords="0 0 0.741935483870968 1">
+      </gadget>
+      <gadget name="LeftCapRed" type="gadget" z="22" size1024="832 102 856 118" background="ui\victory_points\vp_bar_red_cap_left" texturecoords="0 0 0.741935483870968 1">
+      </gadget>
+      <gadget name="RightCapRed" type="gadget" z="22" size1024="1000 102 1024 118" background="ui\victory_points\vp_bar_red_cap_right" texturecoords="0 0 0.741935483870968 1">
+      </gadget>
+      <gadget name="LeftCapGold" type="gadget" z="22" size1024="832 102 856 118" background="ui\victory_points\vp_bar_gold_cap_left" texturecoords="0 0 0.741935483870968 1">
+      </gadget>
+      <gadget name="RightCapGold" type="gadget" z="22" size1024="1000 102 1024 118" background="ui\victory_points\vp_bar_gold_cap_right" texturecoords="0 0 0.741935483870968 1">
+      </gadget>
+      <gadget name="SlotIconNative" type="gadget" hidden="" transparent="" z="201" size1024="856 94 872 126" background="ui\victory_points\vp_bar_native_icon">
+      </gadget>
+      <gadget name="SlotIconTradePost" type="gadget" hidden="" transparent="" z="201" size1024="856 94 872 126" background="ui\victory_points\vp_bar_trade_icon">
+      </gadget>
+      <gadget name="YellowSlot" type="gadget" hidden="" z="200" size1024="856 102 872 118" background="ui\victory_points\vp_bar_gold">
+      </gadget>
+      <gadget name="BlackBar" type="progressBar" size1024="856 102 1000 118" z="4" progressbarbackground="ui\victory_points\vp_bar_black" progressbarbackgroundsize="144 16" progressbarmask="ui\victory_points\vp_bar_red">
+      </gadget>
+      <gadget name="LookAtMe" type="gadget" transparent="" size1024="832 84 1024 140" z="500">
+      </gadget>
+    </gadget>
+    <gadget name="VictoryPointPanel2" type="VictoryPointPanel" size1024="832 186 1024 265" z="8" hidden="">
+      <gadget name="Background" type="gadget" size1024="832 194 1024 265" z="8" backgroundcolor="0 0 0" backgroundalpha="0.3">
+      </gadget>
+      <gadget name="TeamName" type="formatText" z="22" size1024="832 208 1024 224" transparent="" donthighlight="" textcolor="255 255 255" textfont="ScoreFont" textfontsize="12" textcentervert="" textcenterhoriz="">
+      </gadget>
+      <gadget name="PlayerName0" type="formatText" z="22" size1024="832 226 1024 242" transparent="" donthighlight="" textcolor="255 255 255" textfont="ScoreFont" textfontsize="12" textcentervert="" textcenterhoriz="">
+      </gadget>
+      <gadget name="LeftCapBlack" type="gadget" z="22" size1024="832 186 856 202" background="ui\victory_points\vp_bar_black_cap_left" texturecoords="0 0 0.741935483870968 1">
+      </gadget>
+      <gadget name="RightCapBlack" type="gadget" z="22" size1024="1000 186 1024 202" background="ui\victory_points\vp_bar_black_cap_right" texturecoords="0 0 0.741935483870968 1">
+      </gadget>
+      <gadget name="LeftCapRed" type="gadget" z="22" size1024="832 186 856 202" background="ui\victory_points\vp_bar_red_cap_left" texturecoords="0 0 0.741935483870968 1">
+      </gadget>
+      <gadget name="RightCapRed" type="gadget" z="22" size1024="1000 186 1024 202" background="ui\victory_points\vp_bar_red_cap_right" texturecoords="0 0 0.741935483870968 1">
+      </gadget>
+      <gadget name="LeftCapGold" type="gadget" z="22" size1024="832 186 856 202" background="ui\victory_points\vp_bar_gold_cap_left" texturecoords="0 0 0.741935483870968 1">
+      </gadget>
+      <gadget name="RightCapGold" type="gadget" z="22" size1024="1000 186 1024 202" background="ui\victory_points\vp_bar_gold_cap_right" texturecoords="0 0 0.741935483870968 1">
+      </gadget>
+      <gadget name="SlotIconNative" type="gadget" hidden="" transparent="" z="201" size1024="856 178 872 210" background="ui\victory_points\vp_bar_native_icon">
+      </gadget>
+      <gadget name="SlotIconTradePost" type="gadget" hidden="" transparent="" z="201" size1024="856 178 872 210" background="ui\victory_points\vp_bar_trade_icon">
+      </gadget>
+      <gadget name="YellowSlot" type="gadget" hidden="" z="200" size1024="856 186 872 202" background="ui\victory_points\vp_bar_gold">
+      </gadget>
+      <gadget name="BlackBar" type="progressBar" size1024="856 186 1000 202" z="4" progressbarbackground="ui\victory_points\vp_bar_black" progressbarbackgroundsize="144 16" progressbarmask="ui\victory_points\vp_bar_red">
+      </gadget>
+      <gadget name="LookAtMe" type="gadget" transparent="" size1024="832 168 1024 224" z="500">
+      </gadget>
+    </gadget>
+  </gadget>
+</layout>

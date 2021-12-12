@@ -1,0 +1,13 @@
+<tactics>
+  <action>
+    <name stringid="38134">HandAttack</name>
+    <type>HandAttack</type>
+    <maxrange>1.75</maxrange>
+    <rate type="All">1.0 </rate>
+    <attackaction>1</attackaction>
+    <handlogic>1</handlogic>
+    <anim>HandAttack</anim>
+    <impacteffect>effects\impacts\melee_no_weapon</impacteffect>
+  </action>
+  <tactic>Normal<action>HandAttack</action><attacktype>LogicalTypeHandUnitsAttack</attacktype><attackresponsetype>LogicalTypeHandUnitsAttack</attackresponsetype><runaway>1</runaway><autoretarget>1</autoretarget></tactic>
+</tactics>

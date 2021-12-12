@@ -1,0 +1,45 @@
+<layout>
+  <gadget name="CCDialog" type="gadget" size1024="0 0 800 300" closebutton="" titlebar="Combat Comparison" backgroundcolor="160 160 160" hidden="">
+    <gadget type="textBox" name="CCDlg-proto1-Text" size1024="5 35 70 60" textcolor="255 255 255" background="ui\ui_med_gray">Team 1: </gadget>
+    <gadget type="textField" name="CCDlg-proto1-field" size1024="80 35 280 60" textcolor="255 255 255" background="ui\ui_med_gray" bevel="" dropdowndistance="132">
+      <dropdown>
+      </dropdown>
+    </gadget>
+    <gadget type="textField" name="CCDlg-proto1-count-field" size1024="290 35 340 60" textcolor="255 255 255" background="ui\ui_med_gray" bevel="" fieldval="1">
+    </gadget>
+    <gadget type="textField" name="CCDlg-civ1-field" size1024="350 35 450 60" textcolor="255 255 255" background="ui\ui_med_gray" bevel="" dropdowndistance="132">
+      <dropdown>
+      </dropdown>
+    </gadget>
+    <gadget type="textField" name="CCDlg-tech1-field" size1024="460 35 560 60" textcolor="255 255 255" background="ui\ui_med_gray" bevel="" dropdowndistance="132">
+      <dropdown>
+      </dropdown>
+    </gadget>
+    <gadget type="button" name="CCDlg-opentechlist1-field" size1024="570 35 640 60" bevel="">Edit techs<command>gadgetToggle("CCDlg-techlist1")</command></gadget>
+    <gadget type="textBox" name="CCDlg-proto2-Text" size1024="5 85 70 110" textcolor="255 255 255" background="ui\ui_med_gray">Team 2: </gadget>
+    <gadget type="textField" name="CCDlg-proto2-field" size1024="80 85 280 110" textcolor="255 255 255" background="ui\ui_med_gray" bevel="" dropdowndistance="132">
+      <dropdown>
+      </dropdown>
+    </gadget>
+    <gadget type="textField" name="CCDlg-proto2-count-field" size1024="290 85 340 110" textcolor="255 255 255" background="ui\ui_med_gray" bevel="" fieldval="1">
+    </gadget>
+    <gadget type="textField" name="CCDlg-civ2-field" size1024="350 85 450 110" textcolor="255 255 255" background="ui\ui_med_gray" bevel="" dropdowndistance="132">
+      <dropdown>
+      </dropdown>
+    </gadget>
+    <gadget type="textField" name="CCDlg-tech2-field" size1024="460 85 560 110" textcolor="255 255 255" background="ui\ui_med_gray" bevel="" dropdowndistance="132">
+      <dropdown>
+      </dropdown>
+    </gadget>
+    <gadget type="button" name="CCDlg-opentechlist2-field" size1024="570 85 640 110" bevel="">Edit techs<command>gadgetToggle("CCDlg-techlist2")</command></gadget>
+    <gadget type="button" name="CCDlg-launch-button" textcolor="255 255 255" size1024="5 170 125 190">Compare!</gadget>
+    <gadget type="button" name="CCDlg-input-file" textcolor="255 255 255" size1024="135 140 255 160">Select batch file</gadget>
+    <gadget type="formatText" name="CCDlg-filename" size1024="265 140 400 160" textcolor="0 0 0">No file selected</gadget>
+    <gadget type="button" name="CCDlg-run-batch" textcolor="255 255 255" size1024="135 170 255 190">Run batch file</gadget>
+    <gadget type="formatText" name="CCDlg-results" size1024="5 200 780 300" textcolor="0 0 0">Starting Data</gadget>
+  </gadget>
+  <gadget type="list" checkbutton="" name="CCDlg-techlist1" size1024="0 310 400 700" background="ui\ui_med_gray" bevel="" closebutton="" hidden="" buttonsize1024="190 25" scrollvert="" alphasort="" titlebar="Techs For Team 1" textcolor="255 255 255">
+  </gadget>
+  <gadget type="list" checkbutton="" name="CCDlg-techlist2" size1024="410 310 810 700" background="ui\ui_med_gray" bevel="" closebutton="" hidden="" buttonsize1024="190 25" scrollvert="" alphasort="" titlebar="Techs For Team 2" textcolor="255 255 255">
+  </gadget>
+</layout>

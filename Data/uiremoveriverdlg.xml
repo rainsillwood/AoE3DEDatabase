@@ -1,0 +1,6 @@
+<layout>
+  <gadget name="RemoveRiver" type="gadget" size1024="178 601 393 708" background="ui\file_system\file_system_background" bevel="" titlebar="$$33280$$Remove River" closebutton="" windowzstyle="" moveable="">
+    <gadget name="RemoveRiver_SelectBtn" type="button" bevel="" background="ui\file_system\file_system_background" textfont="Arial nobold nodrop" textfontsize="12" size1024="193 637 378 657">$$33281$$Select Next River</gadget>
+    <gadget name="RemoveRiver_RemoveBtn" type="button" bevel="" background="ui\file_system\file_system_background" textfont="Arial nobold nodrop" textfontsize="12" size1024="193 667 378 687">$$33280$$Remove River</gadget>
+  </gadget>
+</layout>

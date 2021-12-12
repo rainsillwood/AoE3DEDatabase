@@ -1,0 +1,52 @@
+<layout>
+  <gadget name="RMSetup-Background" type="gadget" size1024="0 0 1024 768" z="1" background="ui\file_system\file_system_background" texturecoords="0 0 1 0.75">
+  </gadget>
+  <gadget name="RMSetup-BackgroundBorder" type="gadget" size1024="0 0 1024 768" z="2" background="ui\random_map\rm_frame_ypack" texturecoords="0 0 1 0.75">
+  </gadget>
+  <gadget name="RMSetup-Screenshot" type="gadget" size1024="64 439 576 695" z="2" background="ui\file_system\file_system_background">
+    <gadget name="RMSetup-Screenshot-BordersTop" type="gadget" background="ui\core_ui\faded_trim_top" size1024="64 431 576 439" z="5" transparent="">
+    </gadget>
+    <gadget name="RMSetup-Screenshot-BordersBottom" type="gadget" background="ui\core_ui\faded_trim_bottom" size1024="64 695 576 703" z="5" transparent="">
+    </gadget>
+    <gadget name="RMSetup-Screenshot-BordersLeft" type="gadget" background="ui\core_ui\faded_trim_left" size1024="56 439 64 695" tilebackgroundvert="" transparent="" z="5">
+    </gadget>
+    <gadget name="RMSetup-Screenshot-BordersRight" type="gadget" background="ui\core_ui\faded_trim_right" size1024="576 439 584 695" tilebackgroundvert="" z="5" transparent="">
+    </gadget>
+    <gadget name="RMSetup-Screenshot-BordersRightTop" type="gadget" background="ui\core_ui\faded_trim_topright_corner" size1024="576 407 608 439" z="6" transparent="" clampbackground="">
+    </gadget>
+    <gadget name="RMSetup-Screenshot-BordersLeftTop" type="gadget" background="ui\core_ui\faded_trim_topleft_corner" size1024="32 407 64 439" z="6" transparent="" clampbackground="">
+    </gadget>
+    <gadget name="RMSetup-Screenshot-BordersRightBottom" type="gadget" background="ui\core_ui\faded_trim_bottomright_corner" size1024="576 695 608 727" z="6" transparent="" clampbackground="">
+    </gadget>
+    <gadget name="RMSetup-Screenshot-BordersLeftBottom" type="gadget" background="ui\core_ui\faded_trim_bottomleft_corner" size1024="32 695 64 727" z="6" transparent="" clampbackground="">
+    </gadget>
+  </gadget>
+  <gadget name="RMSetup-TextBackground" type="gadget" size1024="616 73 960 695" z="2" background="ui\core_ui\shaded_dark">
+    <gadget name="RMSetup-MapName" type="formattext" textcenterhoriz="" textcentervert="" textcolor="255 210 87" textfont="SPCLoadingTitle" textfontsize="40" size1024="624 81 952 137" z="3">
+    </gadget>
+    <gadget name="RMSetup-MapDetail" type="formattext" textcolor="255 255 255" textfont="SPLoadingScreenText" textfontsize="14" size1024="624 145 952 361" z="3" textmarkup="" formattextconvertuserlf="">
+    </gadget>
+    <gadget name="RMSetup-TeamInfo1" type="formattext" textcolor="255 255 255" textfont="ScoreFont" textfontsize="12" size1024="624 369 952 577" z="3" textmarkup="">
+    </gadget>
+    <gadget name="RMSetup-MapDetailAlt" type="formattext" textcolor="255 255 255" textfont="SPLoadingScreenText" textfontsize="14" size1024="624 145 952 341" z="3" textmarkup="" formattextconvertuserlf="">
+    </gadget>
+    <gadget name="RMSetup-TeamInfo1Alt" type="formattext" textcolor="255 255 255" textfont="ScoreFont" textfontsize="12" size1024="624 357 952 687" z="3" textmarkup="">
+    </gadget>
+    <gadget name="RMSetup-Text-BordersTop" type="gadget" background="ui\core_ui\faded_trim_top" size1024="616 65 960 73" z="5" transparent="">
+    </gadget>
+    <gadget name="RMSetup-Text-BordersBottom" type="gadget" background="ui\core_ui\faded_trim_bottom" size1024="616 695 960 703" z="5" transparent="">
+    </gadget>
+    <gadget name="RMSetup-Text-BordersLeft" type="gadget" background="ui\core_ui\faded_trim_left" size1024="608 73 616 695" tilebackgroundvert="" transparent="" z="5">
+    </gadget>
+    <gadget name="RMSetup-Text-BordersRight" type="gadget" background="ui\core_ui\faded_trim_right" size1024="960 73 968 695" tilebackgroundvert="" z="5" transparent="">
+    </gadget>
+    <gadget name="RMSetup-Text-BordersRightTop" type="gadget" background="ui\core_ui\faded_trim_topright_corner" size1024="960 41 992 73" z="6" transparent="" clampbackground="">
+    </gadget>
+    <gadget name="RMSetup-Text-BordersLeftTop" type="gadget" background="ui\core_ui\faded_trim_topleft_corner" size1024="584 41 616 73" z="6" transparent="" clampbackground="">
+    </gadget>
+    <gadget name="RMSetup-Text-BordersRightBottom" type="gadget" background="ui\core_ui\faded_trim_bottomright_corner" size1024="960 695 992 727" z="6" transparent="" clampbackground="">
+    </gadget>
+    <gadget name="RMSetup-Text-BordersLeftBottom" type="gadget" background="ui\core_ui\faded_trim_bottomleft_corner" size1024="584 695 616 727" z="6" transparent="" clampbackground="">
+    </gadget>
+  </gadget>
+</layout>

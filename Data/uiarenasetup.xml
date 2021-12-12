@@ -1,0 +1,72 @@
+<layout>
+  <gadget name="arenasetup-screen" type="gadget">
+    <gadget name="arenaSelection" type="textField" size1024="65 60 350 80" dropdownvisitems="5" textfont="FieldLabels" textfontsize="14" fieldtextboxcolor="255 255 255" fieldnametextfontsize="14" fieldnametextfont="FieldLabels">Difficulty<dropdown></dropdown></gadget>
+    <gadget name="arenasetup-Background" type="gadget" size1024="0 0 1024 768" z="1" background="UI\background_B" tilebackground="">
+    </gadget>
+    <gadget clampbackground="" name="arenasetupBackground_edge1" type="gadget" background="missing" tilebackground="" size1024="-2 -2 1024 0">
+    </gadget>
+    <gadget clampbackground="" name="arenasetupBackground_edge2" type="gadget" background="missing" tilebackground="" size1024="-2 -2 0 768">
+    </gadget>
+    <gadget name="ScenarioList" type="list" textcolor="0 0 0" textfontsize="14" textfont="Arial" size1024="70 120 399 684" a-dtype="textFontSize number Z number" scrollvert="" z="30">
+    </gadget>
+    <gadget tilebackground="" background="UI\background_D" name="arenasetupRolloverHelpBackground" type="gadget" a-dtype="textFontSize number Z number" size1024="55 119 402 712">
+      <gadget name="arenasetup-rollover-bordertop" type="gadget" size1024="55 111 402 119" a-dtype="textFontSize number Z number" background="UI\border_a straight top" tilebackground="">
+      </gadget>
+      <gadget name="arenasetup-rollover-borderleft" type="gadget" size1024="47 119 55 712" a-dtype="textFontSize number Z number" background="UI\border_a straight left" tilebackground="">
+      </gadget>
+      <gadget name="arenasetup-rollover-borderright" type="gadget" size1024="402 119 410 712" a-dtype="textFontSize number Z number" background="UI\border_a straight right" tilebackground="">
+      </gadget>
+      <gadget name="arenasetup-rollover-borderbottom" type="gadget" size1024="55 712 402 720" a-dtype="textFontSize number Z number" background="UI\border_a straight bottom" tilebackground="">
+      </gadget>
+      <gadget name="arenasetup-rollover-upperleftcorner" type="gadget" size1024="47 111 55 119" a-dtype="textFontSize number Z number" background="UI\border_a corner left top">
+      </gadget>
+      <gadget name="arenasetup-rollover-upperrightcorner" type="gadget" size1024="402 111 410 119" a-dtype="textFontSize number Z number" background="UI\border_a corner right top">
+      </gadget>
+      <gadget name="arenasetup-rollover-lowerleftcorner" type="gadget" size1024="47 712 55 720" a-dtype="textFontSize number Z number" background="UI\border_a corner left bottom">
+      </gadget>
+      <gadget name="arenasetup-rollover-lowerrightcorner" type="gadget" size1024="402 712 410 720" a-dtype="textFontSize number Z number" background="UI\border_a corner right bottom">
+      </gadget>
+    </gadget>
+    <gadget name="ScenarioImage" type="gadget" size1024="449 119 965 379" a-dtype="textFontSize number Z number" background="arena_window">
+    </gadget>
+    <gadget name="arenasetup-rollover-bordertop" type="gadget" size1024="449 111 965 119" a-dtype="textFontSize number Z number" background="UI\border_a straight top" tilebackground="">
+    </gadget>
+    <gadget name="arenasetup-rollover-borderleft" type="gadget" size1024="441 119 449 379" a-dtype="textFontSize number Z number" background="UI\border_a straight left" tilebackground="">
+    </gadget>
+    <gadget name="arenasetup-rollover-borderright" type="gadget" size1024="965 119 973 379" a-dtype="textFontSize number Z number" background="UI\border_a straight right" tilebackground="">
+    </gadget>
+    <gadget name="arenasetup-rollover-borderbottom" type="gadget" size1024="449 379 965 387" a-dtype="textFontSize number Z number" background="UI\border_a straight bottom" tilebackground="">
+    </gadget>
+    <gadget name="arenasetup-rollover-upperleftcorner" type="gadget" size1024="441 111 449 119" a-dtype="textFontSize number Z number" background="UI\border_a corner left top">
+    </gadget>
+    <gadget name="arenasetup-rollover-upperrightcorner" type="gadget" size1024="965 111 973 119" a-dtype="textFontSize number Z number" background="UI\border_a corner right top">
+    </gadget>
+    <gadget name="arenasetup-rollover-lowerleftcorner" type="gadget" size1024="441 379 449 387" a-dtype="textFontSize number Z number" background="UI\border_a corner left bottom">
+    </gadget>
+    <gadget name="arenasetup-rollover-lowerrightcorner" type="gadget" size1024="965 379 973 387" a-dtype="textFontSize number Z number" background="UI\border_a corner right bottom">
+    </gadget>
+    <gadget name="ScenarioDetails" type="formatText" size1024="459 432 955 650" textcolor="0 0 0" textfontsize="12" textfont="RolloverFont" z="30">
+    </gadget>
+    <gadget name="HelpDisplay" type="textBox" size1024="459 432 955 650" textcolor="255 255 255" textfontsize="12" textfont="RolloverFont">Hit Play to Start</gadget>
+    <gadget tilebackground="" background="UI\background_D" name="arenasetupRolloverHelpBackground" type="gadget" a-dtype="textFontSize number Z number" size1024="449 422 965 660">
+      <gadget name="arenasetup-rollover-bordertop" type="gadget" size1024="449 414 965 422" a-dtype="textFontSize number Z number" background="UI\border_a straight top" tilebackground="">
+      </gadget>
+      <gadget name="arenasetup-rollover-borderleft" type="gadget" size1024="441 422 449 660" a-dtype="textFontSize number Z number" background="UI\border_a straight left" tilebackground="">
+      </gadget>
+      <gadget name="arenasetup-rollover-borderright" type="gadget" size1024="965 422 973 660" a-dtype="textFontSize number Z number" background="UI\border_a straight right" tilebackground="">
+      </gadget>
+      <gadget name="arenasetup-rollover-borderbottom" type="gadget" size1024="449 660 965 668" a-dtype="textFontSize number Z number" background="UI\border_a straight bottom" tilebackground="">
+      </gadget>
+      <gadget name="arenasetup-rollover-upperleftcorner" type="gadget" size1024="441 414 449 422" a-dtype="textFontSize number Z number" background="UI\border_a corner left top">
+      </gadget>
+      <gadget name="arenasetup-rollover-upperrightcorner" type="gadget" size1024="965 414 973 422" a-dtype="textFontSize number Z number" background="UI\border_a corner right top">
+      </gadget>
+      <gadget name="arenasetup-rollover-lowerleftcorner" type="gadget" size1024="441 660 449 668" a-dtype="textFontSize number Z number" background="UI\border_a corner left bottom">
+      </gadget>
+      <gadget name="arenasetup-rollover-lowerrightcorner" type="gadget" size1024="965 660 973 668" a-dtype="textFontSize number Z number" background="UI\border_a corner right bottom">
+      </gadget>
+    </gadget>
+    <gadget name="PlaySelectedScenarioButton" type="button" size1024="441 688 569 720" textfont="Arial" textfontsize="14" textcolor="0 0 0" foreground="UI\button_A">$$18593$$Play</gadget>
+    <gadget name="arenasetup-MainMenuButton" type="button" textfont="ButtonFont" textfontsize="14" bevelbutton="" textcolor="0 0 0" z="25" size1024="875 7 1003 39" foreground="UI\button_A">$$18582$$Main Menu<command>campaignQuit modeEnter("Pregame")--&gt;</command></gadget>
+  </gadget>
+</layout>

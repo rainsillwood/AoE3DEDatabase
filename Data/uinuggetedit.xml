@@ -1,0 +1,8 @@
+<layout>
+  <gadget name="NuggetEditor" type="gadget" size1024="50 50 350 320" background="ui\editor\editor_background" bevel="" titlebar="$$33710$$Nugget Editor" closebutton="" windowzstyle="" moveable="">
+    <gadget name="NuggetEditor-ProtoNuggetList" type="list" background="ui\editor\editor_background" sunkenbevel="" showselect="" selectedcolor="255 255 255" buttonsize1024="125 15" scrollvert="" alphasort="" titlebar="$$33711$$Available Nugget Types" locktitlebarmove="" size1024="60 82 200 302">
+    </gadget>
+    <gadget name="NuggetEditor-SetNuggetType" type="button" bevel="" textfont="Arial nobold nodrop" textfontsize="12" size1024="210 82 340 102">$$33712$$Set Nugget Type</gadget>
+    <gadget name="NuggetEditor-RandomizeNuggetType" type="button" bevel="" textfont="Arial nobold nodrop" textfontsize="12" size1024="210 112 340 132">$$33742$$Randomize Nugget Type</gadget>
+  </gadget>
+</layout>

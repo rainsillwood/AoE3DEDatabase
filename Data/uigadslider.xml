@@ -1,0 +1,13 @@
+<layout>
+  <gadget name="SliderContainer" type="gadget" size1024="16 37 668 70" background="">
+    <gadget name="SliderContainer-Label" textcentervert="" textcolor="0 0 0" textfont="FieldLabels" textfontsize="14" type="formatText" size1024="18 43 270 67" z="11">Slider Label</gadget>
+    <gadget name="SliderContainer-LabelMin" textjustifyright="" textcolor="0 0 0" textfont="FieldLabels" textfontsize="14" type="formatText" size1024="275 42 327 67" z="11">$$42084$$Min</gadget>
+    <gadget name="SliderContainer-LabelMax" textjustifyleft="" textcolor="0 0 0" textfont="FieldLabels" textfontsize="14" type="formatText" size1024="547 42 598 67" z="11">$$42085$$Max</gadget>
+    <gadget name="SliderContainer-Value" textjustifyleft="" textcolor="0 0 0" textfontsize="14" textfont="RadioButtons" type="formatText" size1024="605 42 664 67" z="11">
+    </gadget>
+    <gadget mouseovertext="" name="SliderContainer-TreeGadSlider" type="slider" size1024="331 43 543 61" sliderpipart="ui\file_system\slider_pip_horizontal" sliderpiptexturecoords="0 0 1 1" sliderareaart="ui\file_system\slider_background_horizontal" background="ui\file_system\slider_background_horizontal" tilebackgroundhoriz="">
+    </gadget>
+    <gadget name="SliderContainer-DisableOverlay" type="gadget" size1024="10 37 674 70" backgroundcolor="0 0 0" backgroundalpha="0.5" mouseovertext="$$41589$$" hidden="" z="12">
+    </gadget>
+  </gadget>
+</layout>

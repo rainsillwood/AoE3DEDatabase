@@ -1,0 +1,95 @@
+<tactics>
+  <action>
+    <name stringid="101111">SolidAttack</name>
+    <reloadanim>Bombard_reload</reloadanim>
+    <type>Attack</type>
+    <attackaction>1</attackaction>
+    <rangedlogic>1</rangedlogic>
+    <anim>Bombard_ranged_attack</anim>
+    <idleanim>Bombard_ranged_idle</idleanim>
+    <boredanim>Bombard_bored</boredanim>
+    <accuracy>1.0</accuracy>
+    <aimbonus>0</aimbonus>
+    <maxspread>5</maxspread>
+    <spreadfactor>0.25</spreadfactor>
+    <trackrating>2</trackrating>
+    <unintentionaldamagemultiplier>1.0</unintentionaldamagemultiplier>
+    <projectile>GreatBombardBall</projectile>
+    <impacteffect>effects\impacts\cannon</impacteffect>
+    <rate type="LogicalTypeLandMilitary">1.0 </rate>
+    <rate type="AbstractVillager">1.0 </rate>
+    <rate type="AbstractWagon">1.0 </rate>
+    <rate type="AbstractHealer">1.0 </rate>
+    <areasortmode>Radial</areasortmode>
+    <perfectaccuracy>1</perfectaccuracy>
+    <targetground>1</targetground>
+    <basedamagecap>1</basedamagecap>
+    <throw>1</throw>
+    <impactforcemin>1000.0f</impactforcemin>
+    <impactforcemax>1200.0f</impactforcemax>
+    <outerdamageareadistance>.25</outerdamageareadistance>
+    <outerdamageareafactor>.20</outerdamageareafactor>
+    <impactlaunchangle>30.0</impactlaunchangle>
+    <areasortmode>Directional</areasortmode>
+    <numberbounces>1</numberbounces>
+  </action>
+  <action>
+    <name stringid="101112">ExplosiveAttack</name>
+    <reloadanim>Bombard_reload</reloadanim>
+    <type>Attack</type>
+    <attackaction>1</attackaction>
+    <rangedlogic>1</rangedlogic>
+    <anim>Bombard_ranged_attack</anim>
+    <idleanim>Bombard_ranged_idle</idleanim>
+    <boredanim>Bombard_bored</boredanim>
+    <accuracy>1.0</accuracy>
+    <aimbonus>0</aimbonus>
+    <maxspread>5</maxspread>
+    <spreadfactor>0.25</spreadfactor>
+    <trackrating>2</trackrating>
+    <unintentionaldamagemultiplier>1.0</unintentionaldamagemultiplier>
+    <projectile>MortarShell</projectile>
+    <impacteffect>effects\impacts\mortar</impacteffect>
+    <rate type="LogicalTypeLandMilitary">1.0 </rate>
+    <rate type="AbstractVillager">1.0 </rate>
+    <rate type="AbstractWagon">1.0 </rate>
+    <rate type="AbstractHealer">1.0 </rate>
+    <areasortmode>Radial</areasortmode>
+    <perfectaccuracy>1</perfectaccuracy>
+    <targetground>1</targetground>
+    <basedamagecap>1</basedamagecap>
+    <throw>1</throw>
+    <impactforcemin>500.0f</impactforcemin>
+    <impactforcemax>800.0f</impactforcemax>
+    <outerdamageareadistance>.25</outerdamageareadistance>
+    <outerdamageareafactor>.20</outerdamageareafactor>
+    <impactlaunchangle>10.0</impactlaunchangle>
+    <areasortmode>Directional</areasortmode>
+    <numberbounces>0</numberbounces>
+  </action>
+  <action>
+    <name stringid="38119">BuildingAttack</name>
+    <reloadanim>Bombard_reload</reloadanim>
+    <type>Attack</type>
+    <attackaction>1</attackaction>
+    <rangedlogic>1</rangedlogic>
+    <anim>Bombard_ranged_attack</anim>
+    <idleanim>Bombard_ranged_idle</idleanim>
+    <boredanim>Bombard_bored</boredanim>
+    <accuracy>1.0</accuracy>
+    <aimbonus>0</aimbonus>
+    <maxspread>5</maxspread>
+    <spreadfactor>0.25</spreadfactor>
+    <trackrating>2</trackrating>
+    <unintentionaldamagemultiplier>1.0</unintentionaldamagemultiplier>
+    <projectile>MortarShell</projectile>
+    <impacteffect>effects\impacts\mortar</impacteffect>
+    <rate type="LogicalTypeShipsAndBuildings">1.0 </rate>
+    <areasortmode>Radial</areasortmode>
+    <perfectaccuracy>1</perfectaccuracy>
+    <targetground>1</targetground>
+    <basedamagecap>1</basedamagecap>
+  </action>
+  <tactic>SolidShot<attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><action priority="100">SolidAttack</action><action priority="25">BuildingAttack</action><idleanim>Bombard_ranged_idle</idleanim><boredanim>Bombard_bored</boredanim><walkanim>Bombard_Walk</walkanim><joganim>Bombard_Jog</joganim><runanim>Bombard_Run</runanim><throw>1</throw><deathanim>Death_by_melee</deathanim></tactic>
+  <tactic>ExplosiveShot<attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><action priority="100">ExplosiveAttack</action><action priority="25">BuildingAttack</action><idleanim>Bombard_ranged_idle</idleanim><boredanim>Bombard_bored</boredanim><walkanim>Bombard_Walk</walkanim><joganim>Bombard_Jog</joganim><runanim>Bombard_Run</runanim><throw>1</throw><deathanim>Death_by_melee</deathanim></tactic>
+</tactics>

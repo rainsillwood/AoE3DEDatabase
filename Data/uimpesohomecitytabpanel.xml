@@ -1,0 +1,28 @@
+<layout>
+  <gadget name="homecitytabpanel" type="homecitytabpanel" background="ui\home_city\HC_UI_tabs_wood" tilebackgroundvert="" tilebackgroundhoriz="" size1024="210 501 458 768" z="5">
+    <gadget name="homecitytabpanel-button1" type="button" size1024="256 508 449 532" z="15" textcolor="180 180 180" textfont="AgeText" textfontsize="12" activateondown="" foreground="ui\home_city\HC_UI_tabs" texturecoords="0 0.545098039215686 0.463796477495108 0.623529411764706">
+    </gadget>
+    <gadget name="homecitytabpanel-button2" type="button" size1024="256 533 449 557" z="15" textcolor="180 180 180" textfont="AgeText" textfontsize="12" activateondown="" foreground="ui\home_city\HC_UI_tabs" texturecoords="0 0.545098039215686 0.463796477495108 0.623529411764706">
+    </gadget>
+    <gadget name="homecitytabpanel-button3" type="button" size1024="256 558 449 582" z="15" textcolor="180 180 180" textfont="AgeText" textfontsize="12" activateondown="" foreground="ui\home_city\HC_UI_tabs" texturecoords="0 0.545098039215686 0.463796477495108 0.623529411764706">
+    </gadget>
+    <gadget name="homecitytabpanel-button4" type="button" size1024="256 583 449 607" z="15" textcolor="180 180 180" textfont="AgeText" textfontsize="12" activateondown="" foreground="ui\home_city\HC_UI_tabs" texturecoords="0 0.545098039215686 0.463796477495108 0.623529411764706">
+    </gadget>
+    <gadget name="homecitytabpanel-button5" type="button" size1024="256 608 449 632" z="15" textcolor="180 180 180" textfont="AgeText" textfontsize="12" activateondown="" foreground="ui\home_city\HC_UI_tabs" texturecoords="0 0.545098039215686 0.463796477495108 0.623529411764706">
+    </gadget>
+    <gadget name="homecitytabpanel-buttonOn1" type="button" size1024="213 509 452 533" z="15" textcolor="255 255 255" textfont="GoalText" textfontsize="18" activateondown="" foreground="ui\home_city\HC_UI_tabs" hidden="" texturecoords="0 0.219607843137255 0.555772994129158 0.317647058823529">
+    </gadget>
+    <gadget name="homecitytabpanel-buttonOn2" type="button" size1024="213 534 452 558" z="15" textcolor="255 255 255" textfont="GoalText" textfontsize="18" activateondown="" foreground="ui\home_city\HC_UI_tabs" hidden="" texturecoords="0 0.109803921568627 0.555772994129158 0.207843137254902">
+    </gadget>
+    <gadget name="homecitytabpanel-buttonOn3" type="button" size1024="213 559 452 583" z="15" textcolor="255 255 255" textfont="GoalText" textfontsize="18" activateondown="" foreground="ui\home_city\HC_UI_tabs" hidden="" texturecoords="0 0.43921568627451 0.555772994129158 0.537254901960784">
+    </gadget>
+    <gadget name="homecitytabpanel-buttonOn4" type="button" size1024="213 584 452 608" z="15" textcolor="255 255 255" textfont="GoalText" textfontsize="18" activateondown="" foreground="ui\home_city\HC_UI_tabs" hidden="" texturecoords="0 0.329411764705882 0.555772994129158 0.427450980392157">
+    </gadget>
+    <gadget name="homecitytabpanel-buttonOn5" type="button" size1024="212 608 451 632" z="15" textcolor="255 255 255" textfont="GoalText" textfontsize="18" activateondown="" foreground="ui\home_city\HC_UI_tabs" hidden="" texturecoords="0 0 0.555772994129158 0.0980392156862745">
+    </gadget>
+    <gadget name="homeCityCommandPanel-border-top" type="gadget" background="ui\home_city\border_bottom_middle" tilebackgroundhoriz="" size1024="210 501 454 509" z="20">
+    </gadget>
+    <gadget name="homecitytabpanel-border-side-right" type="gadget" background="ui\home_city\border_right_middle" tilebackgroundvert="" size1024="450 502 458 768" z="20">
+    </gadget>
+  </gadget>
+</layout>

@@ -1,0 +1,34 @@
+<tactics>
+  <action>
+    <name stringid="38119">CannonAttack</name>
+    <reloadanim>Bombard_reload</reloadanim>
+    <type>Attack</type>
+    <attackaction>1</attackaction>
+    <rangedlogic>1</rangedlogic>
+    <anim>Bombard_ranged_attack</anim>
+    <idleanim>Bombard_ranged_idle</idleanim>
+    <boredanim>Bombard_bored</boredanim>
+    <maxheight>0</maxheight>
+    <accuracy>1.0</accuracy>
+    <aimbonus>0</aimbonus>
+    <maxspread>5</maxspread>
+    <spreadfactor>0.25</spreadfactor>
+    <trackrating>12</trackrating>
+    <unintentionaldamagemultiplier>1.0</unintentionaldamagemultiplier>
+    <projectile>Cannonball</projectile>
+    <impacteffect>effects\impacts\cannon</impacteffect>
+    <rate type="All">1.0 </rate>
+    <throw>1</throw>
+    <impactforcemin>800.0f</impactforcemin>
+    <impactforcemax>1000.0f</impactforcemax>
+    <outerdamageareadistance>.25</outerdamageareadistance>
+    <outerdamageareafactor>.20</outerdamageareafactor>
+    <impactlaunchangle>15.0</impactlaunchangle>
+    <areasortmode>Directional</areasortmode>
+    <perfectaccuracy>1</perfectaccuracy>
+    <targetground>1</targetground>
+    <numberbounces>2</numberbounces>
+    <basedamagecap>1</basedamagecap>
+  </action>
+  <tactic>Bombard<speedmodifier>1.0</speedmodifier><attacktype>LogicalTypeRangedUnitsAttack</attacktype><exclusive>1</exclusive><action>CannonAttack</action><idleanim>Bombard_ranged_idle</idleanim><boredanim>Bombard_bored</boredanim><throw>1</throw><deathanim>Death_by_melee</deathanim></tactic>
+</tactics>

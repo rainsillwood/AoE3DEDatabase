@@ -1,0 +1,16 @@
+<layout>
+  <gadget name="TreeGadEdit" type="gadget" size1024="16 98 680 134" z="13">
+    <gadget name="TreeGadEdit-Label" textcentervert="" textcolor="0 0 0" textfont="FieldLabels" textfontsize="14" type="formatText" size1024="18 103 371 130" z="14">
+    </gadget>
+    <gadget name="TreeGadEdit-background-left" type="gadget" background="ui\core_ui\text_bar_32_left" size1024="379 100 411 132" z="14">
+    </gadget>
+    <gadget name="TreeGadEdit-background-middle" type="gadget" tilebackgroundhoriz="" background="ui\core_ui\text_bar_32_middle" size1024="411 100 531 132" z="14">
+    </gadget>
+    <gadget name="TreeGadEdit-background-right" type="gadget" background="ui\core_ui\text_bar_32_right" size1024="531 100 563 132" z="14">
+    </gadget>
+    <gadget name="TreeGadEdit-Edit" type="editBox" size1024="385 103 557 129" textfont="PregameEntry" textfontsize="15" textcolor="0 0 0" z="15" editboxmaxchars="32">
+    </gadget>
+    <gadget name="TreeGadEdit-DisableOverlay" type="gadget" size1024="16 98 680 134" backgroundcolor="0 0 0" backgroundalpha="0.5" mouseovertext="$$41589$$" hidden="" z="16">
+    </gadget>
+  </gadget>
+</layout>

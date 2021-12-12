@@ -1,0 +1,14 @@
+<layout>
+  <gadget name="MPESOScreen-Main" type="gadget" size1024="5 89 887 763" backgroundcolor="64 64 64" z="10">
+  </gadget>
+  <gadget name="MPESOScreen-Tabs" type="gadget" size1024="5 57 887 89" backgroundcolor="0 0 0" z="10">
+  </gadget>
+  <gadget name="MPESOScreen-Toolbar" type="gadget" size1024="5 2 585 50" backgroundcolor="64 64 128" z="10">
+  </gadget>
+  <gadget name="MPESOScreen-Sidebar" type="gadget" size1024="892 56 1018 592" backgroundcolor="128 128 64" z="10">
+  </gadget>
+  <gadget name="MPESOScreen-Tray" type="gadget" size1024="892 601 1018 763" backgroundcolor="64 128 64" z="10">
+  </gadget>
+  <gadget name="MPESOScreen-Banner" type="gadget" size1024="636 2 1018 50" z="10" backgroundcolor="128 128 128">
+  </gadget>
+</layout>

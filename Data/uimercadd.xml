@@ -1,0 +1,8 @@
+<layout>
+  <gadget name="MercAdd" type="gadget" size1024="256 168 572 292" background="ui\file_system\file_system_background" bevel="" titlebar="$$27263$$Add Mercenary" closebutton="" windowzstyle="" moveable="">
+    <gadget name="MercAdd_OkBtn" type="button" bevel="" background="ui\file_system\file_system_background" textfont="Arial nobold nodrop" textfontsize="12" size1024="304 260 410 282">$$18465$$Ok</gadget>
+    <gadget name="MercAdd_CancelBtn" type="button" bevel="" background="ui\file_system\file_system_background" textfont="Arial nobold nodrop" textfontsize="12" size1024="424 260 530 282">$$18466$$Cancel</gadget>
+    <gadget name="MercAdd_NameFld" type="textField" background="ui\file_system\file_system_background" size1024="280 200 554 220" z="11" dropdowndistance="430" dropdownvisitems="10">$$28111$$Name:<dropdown>1</dropdown></gadget>
+    <gadget name="MercAdd_BldLimitFld" type="textField" background="ui\file_system\file_system_background" size1024="280 230 554 250" z="11">$$79806$$Build Limit:</gadget>
+  </gadget>
+</layout>

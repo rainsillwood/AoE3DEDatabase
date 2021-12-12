@@ -1,0 +1,7 @@
+<layout>
+  <gadget name="LayoutRoot" type="gadget" background="dialog" z="100" size1024="500 200 1000 400" titlebar="My First Titlebar" closebutton="" a-dtype="textFontSize number Z number">
+    <gadget name="SubLayout1" type="gadget" backgroundmesh="UI Default Scenario" text="Goofus" textcolor="255 0 0" sizerel1024="0 0 100 200" a-dtype="textFontSize number Z number">
+    </gadget>
+    <gadget name="LayoutButton1" type="button" sizerel1024="100 10 400 60" foreground="dialog" bevel="" a-dtype="textFontSize number Z number">Push Me<command>echo("This is a test-o-tron, really")</command></gadget>
+  </gadget>
+</layout>

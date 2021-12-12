@@ -1,0 +1,11 @@
+<tactics>
+  <action>
+    <name stringid="69159">SpawnMacehualtin</name>
+    <type>Maintain</type>
+    <rate type="xpMacehualtin">1.0 </rate>
+    <active>0</active>
+    <persistent>1</persistent>
+    <singleuse>1</singleuse>
+  </action>
+  <tactic>Normal<action>SpawnMacehualtin</action></tactic>
+</tactics>

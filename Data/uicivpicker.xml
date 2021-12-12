@@ -1,0 +1,77 @@
+<layout>
+  <gadget name="CivPicker" type="gadget" backgroundcolor="0 0 0" backgroundalpha="0.5" z="50" size1024="0 0 1024 768">
+    <gadget name="CivPickerDlg" type="gadget" background="ui\core_ui\wood_thick_board_tile" size1024="476 203 867 496" tilebackgroundhoriz="" z="5">
+      <gadget name="CivPickerDlg-BordersTop" type="gadget" background="ui\file_system\border_top_middle" size1024="503 203 869 211" z="4" tilebackgroundhoriz="" transparent="">
+      </gadget>
+      <gadget name="CivPickerDlg-BordersBottom" type="gadget" background="ui\file_system\border_bottom_middle" size1024="504 489 865 497" z="4" tilebackgroundhoriz="" transparent="">
+      </gadget>
+      <gadget name="CivPickerDlg-BordersLeft" type="gadget" background="ui\file_system\border_side_left" size1024="476 235 484 473" tilebackgroundvert="" transparent="">
+      </gadget>
+      <gadget name="CivPickerDlg-BordersRight" type="gadget" background="ui\file_system\border_side_right" size1024="865 232 873 470" tilebackgroundvert="" z="4" transparent="">
+      </gadget>
+      <gadget name="CivPickerDlg-BordersRightTop" type="gadget" background="ui\file_system\border_top_right" size1024="841 203 873 235" z="5" transparent="" clampbackground="">
+      </gadget>
+      <gadget name="CivPickerDlg-BordersLeftTop" type="gadget" background="ui\file_system\border_top_left" size1024="476 203 508 235" z="6" transparent="" clampbackground="">
+      </gadget>
+      <gadget name="CivPickerDlg-BordersRightBottom" type="gadget" background="ui\file_system\border_bottom_right" size1024="841 465 873 497" z="6" transparent="" clampbackground="">
+      </gadget>
+      <gadget name="CivPickerDlg-BordersLeftBottom" type="gadget" background="ui\file_system\border_bottom_left" size1024="476 465 508 497" z="11" transparent="" clampbackground="">
+      </gadget>
+    </gadget>
+    <gadget name="CivPicker-Frame" type="gadget" background="ui\eso\eso_persona_hc_picker" texturecoords="0 0 0.712890625 0.513671875" size1024="495 211 859 473" z="10">
+      <gadget name="CivPicker-Label" type="formatText" textcenterhoriz="" textcolor="255 208 0" textfontsize="15" textfont="PregameEntry" size1024="539 220 813 243" z="21">Civilizations*</gadget>
+      <gadget name="CivPicker-CivList" type="gadget" size1024="512 247 841 421" tilebackground="" background="ui\ingame\ingame_ui_parch" z="21">
+        <gadget name="CivPicker-Entry1" type="button" foreground="" donthilight="" size1024="515 250 820 304" z="22">
+          <gadget name="CivPicker-Entry1-Portrait" type="gadget" background="ui\singleplayer\cpai_avatar_french" size1024="515 250 569 304" z="23">
+          </gadget>
+          <gadget name="CivPicker-Entry1-Flag" type="gadget" background="ui\ingame\ingame_ui_postgame_flag_british" size1024="569 261 697 293" z="23">
+          </gadget>
+          <gadget name="CivPicker-Entry1-Name" type="formatText" textfont="ScrollFont" textjustifyright="" textcentervert="" textfontsize="16" textcolor="0 0 0" size1024="569 261 800 293" z="24">
+          </gadget>
+          <gadget name="CivPicker-Entry1-Hilight" type="gadget" background="ui\core_ui\civ_select" size1024="515 250 820 304" texturecoords="0.0 0.0 0.59765625 0.859375" z="25">
+          </gadget>
+        </gadget>
+        <gadget name="CivPicker-Entry2" type="button" foreground="" donthilight="" size1024="515 307 820 361" z="22">
+          <gadget name="CivPicker-Entry2-Portrait" type="gadget" background="ui\singleplayer\cpai_avatar_french" size1024="515 307 569 361" z="23">
+          </gadget>
+          <gadget name="CivPicker-Entry2-Flag" type="gadget" background="ui\ingame\ingame_ui_postgame_flag_british" size1024="569 318 697 350" z="23">
+          </gadget>
+          <gadget name="CivPicker-Entry2-Name" type="formatText" textfont="ScrollFont" textjustifyright="" textcentervert="" textfontsize="16" textcolor="0 0 0" size1024="569 318 800 350" z="24">
+          </gadget>
+          <gadget name="CivPicker-Entry2-Hilight" type="gadget" background="ui\core_ui\civ_select" size1024="515 307 820 361" texturecoords="0.0 0.0 0.59765625 0.859375" z="25">
+          </gadget>
+        </gadget>
+        <gadget name="CivPicker-Entry3" type="button" foreground="" donthilight="" size1024="515 364 820 418" z="22">
+          <gadget name="CivPicker-Entry3-Portrait" type="gadget" background="ui\singleplayer\cpai_avatar_french" size1024="515 364 569 418" z="23">
+          </gadget>
+          <gadget name="CivPicker-Entry3-Flag" type="gadget" background="ui\ingame\ingame_ui_postgame_flag_british" size1024="569 375 697 407" z="23">
+          </gadget>
+          <gadget name="CivPicker-Entry3-Name" type="formatText" textfont="ScrollFont" textjustifyright="" textcentervert="" textfontsize="16" textcolor="0 0 0" size1024="569 375 800 407" z="24">
+          </gadget>
+          <gadget name="CivPicker-Entry3-Hilight" type="gadget" background="ui\core_ui\civ_select" size1024="515 364 820 418" texturecoords="0.0 0.0 0.59765625 0.859375" z="25">
+          </gadget>
+        </gadget>
+        <gadget name="CivPicker-Slider" type="slider" size1024="820 250 838 418" z="22" sliderbuttons="" slidervertical="" sliderupbtnset="sliderUpBtn" sliderdownbtnset="sliderDownBtn" sliderpipart="ui\file_system\slider_pip_vertical" sliderpiptexturecoords="0 0 1 1" sliderareaart="ui\file_system\slider_background_vertical" background="ui\file_system\slider_background_vertical">
+        </gadget>
+      </gadget>
+      <gadget name="CivPicker-CivList-BordersTop" type="gadget" background="ui\eso\eso_edge_top" size1024="511 243 842 247" z="22">
+      </gadget>
+      <gadget name="CivPicker-CivList-BordersBottom" type="gadget" background="ui\eso\eso_edge_bottom" size1024="511 421 842 425" z="22">
+      </gadget>
+      <gadget name="CivPicker-CivList-BordersLeft" type="gadget" background="ui\eso\eso_edge_left" size1024="508 246 512 421" z="22">
+      </gadget>
+      <gadget name="CivPicker-CivList-BordersRight" type="gadget" background="ui\eso\eso_edge_right" size1024="841 246 845 421" z="22">
+      </gadget>
+      <gadget name="CivPicker-CivList-BordersRightTop" type="gadget" background="ui\eso\eso_edge_top_right" size1024="841 243 845 247" z="23">
+      </gadget>
+      <gadget name="CivPicker-CivList-Stats-BordersLeftTop" type="gadget" background="ui\eso\eso_edge_top_left" size1024="508 243 512 247" z="23">
+      </gadget>
+      <gadget name="CivPicker-CivList-BordersRightBottom" type="gadget" background="ui\eso\eso_edge_bottom_right" size1024="841 421 845 425" z="23">
+      </gadget>
+      <gadget name="CivPicker-CivList-BordersLeftBottom" type="gadget" background="ui\eso\eso_edge_bottom_left" size1024="508 421 512 425" z="23">
+      </gadget>
+      <gadget name="CivPicker-SubmitButton" type="stateButton" bevelbutton="" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="255 255 255" textcenterhoriz="" textcentervert="" size1024="589 431 673 463" z="11" mouseovertext="$$42150$$" texturecoords="0 0 0.6484375 0.96875">$$18465$$OK<stateentry background="ui\core_ui\button_tiny_normal"></stateentry><stateentry background="ui\core_ui\button_tiny_clicked"></stateentry><stateentry background="ui\core_ui\button_tiny_high"></stateentry><stateentry background="ui\core_ui\button_tiny_disable"></stateentry></gadget>
+      <gadget name="CivPicker-CancelButton" type="stateButton" bevelbutton="" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="255 255 255" textcenterhoriz="" textcentervert="" size1024="695 431 779 463" z="11" mouseovertext="$$42151$$" texturecoords="0 0 0.6484375 0.96875">$$18466$$Cancel<stateentry background="ui\core_ui\button_tiny_normal"></stateentry><stateentry background="ui\core_ui\button_tiny_clicked"></stateentry><stateentry background="ui\core_ui\button_tiny_high"></stateentry><stateentry background="ui\core_ui\button_tiny_disable"></stateentry></gadget>
+    </gadget>
+  </gadget>
+</layout>

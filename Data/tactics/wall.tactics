@@ -1,0 +1,17 @@
+<tactics>
+  <action>
+    <name stringid="110152">IncreaseHPWithMilitaryUnits</name>
+    <type>LikeBonus</type>
+    <active>0</active>
+    <modifyratebytype>1</modifyratebytype>
+    <modifyabstracttype>Military</modifyabstracttype>
+    <maxrange>15</maxrange>
+    <rate type="LogicalTypeLandMilitary">0.03</rate>
+    <includeally>1</includeally>
+    <persistent>1</persistent>
+    <modifytype>BaseHP</modifytype>
+    <modifybase>1.0</modifybase>
+    <modifyratecap>13.0</modifyratecap>
+  </action>
+  <tactic>Normal<action>IncreaseHPWithMilitaryUnits</action></tactic>
+</tactics>

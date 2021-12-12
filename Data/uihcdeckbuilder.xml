@@ -1,0 +1,114 @@
+<layout>
+  <gadget name="hcDeck" type="gadget" size1024="0 39 1024 382" hidden="" z="50">
+    <gadget name="hcDeck-Panel" type="gadget" size1024="0 39 1024 310" tilebackgroundvert="" tilebackgroundhoriz="" background="ui\home_city\hc_deck_ui" z="50" texturecoords="0 0.4315 1 0.959">
+      <gadget name="hcDeck-button00" type="button" size1024="414 91 462 139" z="51" activateondown="" textfont="Arial Nodrop For Cards" textfontsize="12">
+      </gadget>
+      <gadget name="hcDeck-button01" type="button" size1024="469 91 517 139" z="51" activateondown="" textfont="Arial Nodrop For Cards" textfontsize="12">
+      </gadget>
+      <gadget name="hcDeck-button02" type="button" size1024="524 91 572 139" z="51" activateondown="" textfont="Arial Nodrop For Cards" textfontsize="12">
+      </gadget>
+      <gadget name="hcDeck-button03" type="button" size1024="579 91 627 139" z="51" activateondown="" textfont="Arial Nodrop For Cards" textfontsize="12">
+      </gadget>
+      <gadget name="hcDeck-button04" type="button" size1024="634 91 682 139" z="51" activateondown="" textfont="Arial Nodrop For Cards" textfontsize="12">
+      </gadget>
+      <gadget name="hcDeck-button05" type="button" size1024="689 91 737 139" z="51" activateondown="" textfont="Arial Nodrop For Cards" textfontsize="12">
+      </gadget>
+      <gadget name="hcDeck-button06" type="button" size1024="744 91 792 139" z="51" activateondown="" textfont="Arial Nodrop For Cards" textfontsize="12">
+      </gadget>
+      <gadget name="hcDeck-button07" type="button" size1024="799 91 847 139" z="51" activateondown="" textfont="Arial Nodrop For Cards" textfontsize="12">
+      </gadget>
+      <gadget name="hcDeck-button08" type="button" size1024="854 91 900 139" z="51" activateondown="" textfont="Arial Nodrop For Cards" textfontsize="12">
+      </gadget>
+      <gadget name="hcDeck-button09" type="button" size1024="909 91 957 139" z="51" activateondown="" textfont="Arial Nodrop For Cards" textfontsize="12">
+      </gadget>
+      <gadget name="hcDeck-button010" type="button" size1024="964 91 1012 139" z="51" activateondown="" textfont="Arial Nodrop For Cards" textfontsize="12">
+      </gadget>
+      <gadget name="hcDeck-button10" type="button" size1024="414 147 462 195" z="51" activateondown="" textfont="Arial Nodrop For Cards" textfontsize="12">
+      </gadget>
+      <gadget name="hcDeck-button11" type="button" size1024="469 147 517 195" z="51" activateondown="" textfont="Arial Nodrop For Cards" textfontsize="12">
+      </gadget>
+      <gadget name="hcDeck-button12" type="button" size1024="524 147 572 195" z="51" activateondown="" textfont="Arial Nodrop For Cards" textfontsize="12">
+      </gadget>
+      <gadget name="hcDeck-button13" type="button" size1024="579 147 627 195" z="51" activateondown="" textfont="Arial Nodrop For Cards" textfontsize="12">
+      </gadget>
+      <gadget name="hcDeck-button14" type="button" size1024="634 147 682 195" z="51" activateondown="" textfont="Arial Nodrop For Cards" textfontsize="12">
+      </gadget>
+      <gadget name="hcDeck-button15" type="button" size1024="689 147 737 195" z="51" activateondown="" textfont="Arial Nodrop For Cards" textfontsize="12">
+      </gadget>
+      <gadget name="hcDeck-button16" type="button" size1024="744 147 792 195" z="51" activateondown="" textfont="Arial Nodrop For Cards" textfontsize="12">
+      </gadget>
+      <gadget name="hcDeck-button17" type="button" size1024="799 147 847 195" z="51" activateondown="" textfont="Arial Nodrop For Cards" textfontsize="12">
+      </gadget>
+      <gadget name="hcDeck-button18" type="button" size1024="854 147 900 195" z="51" activateondown="" textfont="Arial Nodrop For Cards" textfontsize="12">
+      </gadget>
+      <gadget name="hcDeck-button19" type="button" size1024="909 147 957 195" z="51" activateondown="" textfont="Arial Nodrop For Cards" textfontsize="12">
+      </gadget>
+      <gadget name="hcDeck-button110" type="button" size1024="964 147 1012 195" z="51" activateondown="" textfont="Arial Nodrop For Cards" textfontsize="12">
+      </gadget>
+      <gadget name="hcDeck-button20" type="button" size1024="414 203 462 251" z="51" activateondown="" textfont="Arial nodrop for Cards" textfontsize="12">
+      </gadget>
+      <gadget name="hcDeck-button21" type="button" size1024="469 203 517 251" z="51" activateondown="" textfont="Arial nodrop for Cards" textfontsize="12">
+      </gadget>
+      <gadget name="hcDeck-button22" type="button" size1024="524 203 572 251" z="51" activateondown="" textfont="Arial nodrop for Cards" textfontsize="12">
+      </gadget>
+      <gadget name="hcDeck-button23" type="button" size1024="579 203 627 251" z="51" activateondown="" textfont="Arial nodrop for Cards" textfontsize="12">
+      </gadget>
+      <gadget name="hcDeck-button24" type="button" size1024="634 203 682 251" z="51" activateondown="" textfont="Arial nodrop for Cards" textfontsize="12">
+      </gadget>
+      <gadget name="hcDeck-button25" type="button" size1024="689 203 737 251" z="51" activateondown="" textfont="Arial nodrop for Cards" textfontsize="12">
+      </gadget>
+      <gadget name="hcDeck-button26" type="button" size1024="744 203 792 251" z="51" activateondown="" textfont="Arial nodrop for Cards" textfontsize="12">
+      </gadget>
+      <gadget name="hcDeck-button27" type="button" size1024="799 203 847 251" z="51" activateondown="" textfont="Arial nodrop for Cards" textfontsize="12">
+      </gadget>
+      <gadget name="hcDeck-button28" type="button" size1024="854 203 900 251" z="51" activateondown="" textfont="Arial nodrop for Cards" textfontsize="12">
+      </gadget>
+      <gadget name="hcDeck-button29" type="button" size1024="909 203 957 251" z="51" activateondown="" textfont="Arial nodrop for Cards" textfontsize="12">
+      </gadget>
+      <gadget name="hcDeck-button210" type="button" size1024="964 203 1012 251" z="51" activateondown="" textfont="Arial nodrop for Cards" textfontsize="12">
+      </gadget>
+      <gadget name="hcDeck-button30" type="button" size1024="414 259 462 307" z="51" activateondown="" textfont="Arial Nodrop For Cards" textfontsize="12">
+      </gadget>
+      <gadget name="hcDeck-button31" type="button" size1024="469 259 517 307" z="51" activateondown="" textfont="Arial Nodrop For Cards" textfontsize="12">
+      </gadget>
+      <gadget name="hcDeck-button32" type="button" size1024="524 259 572 307" z="51" activateondown="" textfont="Arial Nodrop For Cards" textfontsize="12">
+      </gadget>
+      <gadget name="hcDeck-button33" type="button" size1024="579 259 627 307" z="51" activateondown="" textfont="Arial Nodrop For Cards" textfontsize="12">
+      </gadget>
+      <gadget name="hcDeck-button34" type="button" size1024="634 259 682 307" z="51" activateondown="" textfont="Arial Nodrop For Cards" textfontsize="12">
+      </gadget>
+      <gadget name="hcDeck-button35" type="button" size1024="689 259 737 307" z="51" activateondown="" textfont="Arial Nodrop For Cards" textfontsize="12">
+      </gadget>
+      <gadget name="hcDeck-button36" type="button" size1024="744 259 792 307" z="51" activateondown="" textfont="Arial Nodrop For Cards" textfontsize="12">
+      </gadget>
+      <gadget name="hcDeck-button37" type="button" size1024="799 259 847 307" z="51" activateondown="" textfont="Arial Nodrop For Cards" textfontsize="12">
+      </gadget>
+      <gadget name="hcDeck-button38" type="button" size1024="854 259 900 307" z="51" activateondown="" textfont="Arial Nodrop For Cards" textfontsize="12">
+      </gadget>
+      <gadget name="hcDeck-button39" type="button" size1024="909 259 957 307" z="51" activateondown="" textfont="Arial Nodrop For Cards" textfontsize="12">
+      </gadget>
+      <gadget name="hcDeck-button310" type="button" size1024="964 259 1012 307" z="51" activateondown="" textfont="Arial Nodrop For Cards" textfontsize="12">
+      </gadget>
+      <gadget name="hcDeck-DeckList" type="list" size1024="20 80 333 284" background="" textfontsize="14" textfont="PeopleListItems" textcolor="180 180 180" scrollvert="" showselect="" buttonsize1024="310 20" z="10" activateondown="">
+        <vertscrollbar sliderbuttons="" slidervertical="" sliderupbtnset="" sliderdownbtnset="" sliderpipart="ui\file_system\slider_pip_vertical" sliderpiptexturecoords="0 0 1 1" sliderareaart="ui\file_system\slider_background_vertical" background="ui\core_ui\background_yellow_opaque">
+        </vertscrollbar>
+      </gadget>
+      <gadget name="hcDeck-DeckList-IconGame1" background="ui\eso\game1" type="gadget" size1024="0 0 16 16" hidden="" transparent="">
+      </gadget>
+      <gadget name="hcDeck-DeckList-IconGame2" background="ui\eso\game2" type="gadget" size1024="0 0 16 16" hidden="" transparent="">
+      </gadget>
+      <gadget name="hcDeck-DeckList-IconGame3" background="ui\eso\game3" type="gadget" size1024="0 0 16 16" hidden="" transparent="">
+      </gadget>
+      <gadget name="hcDeck-AvailableDecks" type="formatText" textfont="GoalText" textfontsize="18" textcenterhoriz="" textcolor="231 201 40" size1024="34 46 312 74" z="51" transparent="">$$37467$$Available Decks</gadget>
+      <gadget name="hcDeck-CurrentDeckLabel" type="formatText" textfont="SubtitleName" textfontsize="14" textjustifyright="" textcolor="255 255 255" size1024="368 48 528 74" z="51" transparent="">$$37480$$Current Deck</gadget>
+      <gadget name="hcDeck-CardsInDeckLabel" type="formatText" textfont="SubtitleName" textfontsize="14" textjustifyright="" textcolor="255 255 255" size1024="788 48 922 74" z="51" transparent="">$$37483$$Cards in Deck</gadget>
+      <gadget name="hcDeck-Name" type="formatText" textfont="GoalText" textfontsize="18" textjustifyleft="" textcolor="231 201 40" size1024="530 48 714 74" z="51" transparent="">
+      </gadget>
+      <gadget name="hcDeck-CardsInDeck" type="formatText" textfont="GoalText" textfontsize="18" textjustifyleft="" textcolor="231 201 40" size1024="924 48 990 74" z="51" transparent="">
+      </gadget>
+      <gadget name="hcDeck-CreateButton" type="stateButton" size1024="14 279 118 304" bevelbutton="" z="51" statebuttonuseinternalstates="" textfont="SubtitleName" textfontsize="14" textcolor="255 255 255" textcenterhoriz="" textcentervert="" texturecoords="0 0 0.6328125 1" mouseovertext="$$41536$$" sound="UI_DefaultPregameClickSet">$$37466$$Create<stateentry background="ui\core_ui\button_large_blue_normal"></stateentry><stateentry background="ui\core_ui\button_large_blue_clicked"></stateentry><stateentry background="ui\core_ui\button_large_blue_high"></stateentry><stateentry background="ui\core_ui\button_large_blue_disable"></stateentry></gadget>
+      <gadget name="hcDeck-CopyButton" type="stateButton" size1024="121 279 225 304" bevelbutton="" z="51" statebuttonuseinternalstates="" textfont="SubtitleName" textfontsize="14" textcolor="255 255 255" textcenterhoriz="" textcentervert="" texturecoords="0 0 0.6328125 1" mouseovertext="$$46643$$" sound="UI_DefaultPregameClickSet">$$46639$$Copy<stateentry background="ui\core_ui\button_large_blue_normal"></stateentry><stateentry background="ui\core_ui\button_large_blue_clicked"></stateentry><stateentry background="ui\core_ui\button_large_blue_high"></stateentry><stateentry background="ui\core_ui\button_large_blue_disable"></stateentry></gadget>
+      <gadget name="hcDeck-DeleteButton" type="stateButton" size1024="228 279 332 304" bevelbutton="" z="51" statebuttonuseinternalstates="" textfont="SubtitleName" textfontsize="14" textcolor="255 255 255" textcenterhoriz="" textcentervert="" texturecoords="0 0 0.6328125 1" mouseovertext="$$41538$$" sound="UI_DefaultPregameClickSet">$$18574$$Delete<stateentry background="ui\core_ui\button_large_blue_normal"></stateentry><stateentry background="ui\core_ui\button_large_blue_clicked"></stateentry><stateentry background="ui\core_ui\button_large_blue_high"></stateentry><stateentry background="ui\core_ui\button_large_blue_disable"></stateentry></gadget>
+    </gadget>
+  </gadget>
+</layout>

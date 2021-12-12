@@ -1,0 +1,5 @@
+<layout>
+  <gadget name="AGSMPClientWait" type="gadget" size1024="0 0 1024 768" background="" windowzstyle="">
+    <gadget name="AGSMPClientWait-WaitingMessage" type="formatText" textcolor="100 255 100" textfontsize="22" textfont="PregameHeaders" size1024="56 330 970 382" z="10">$$26751$$Waiting for ok from host.</gadget>
+  </gadget>
+</layout>

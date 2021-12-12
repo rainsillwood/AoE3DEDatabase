@@ -1,0 +1,65 @@
+<layout>
+  <gadget name="gamesettings-screen" type="dialog" size1024="322 76 730 636">
+    <gadget name="gamesettingsBackground" type="gadget" size1024="326 100 698 612" background="UI\background_B" tilebackground="">
+      <gadget name="gamesettingsBorderTop" type="gadget" size1024="326 68 698 100" background="UI\border_e straight top 256" tilebackground="">
+      </gadget>
+      <gadget name="gamesettingsBorderRight" type="gadget" size1024="698 100 730 612" background="UI\border_e straight right 256" tilebackground="">
+      </gadget>
+      <gadget name="gamesettingsBorderLeft" type="gadget" size1024="294 100 326 612" background="UI\border_e straight left 256" tilebackground="">
+      </gadget>
+      <gadget name="gamesettingsBorderBottom" type="gadget" size1024="326 612 698 644" background="UI\border_e straight Bottom 256" tilebackground="">
+      </gadget>
+      <gadget name="gamesettingsBorderRightUpperCorner" type="gadget" size1024="698 68 730 100" background="UI\border_e corner top right" tilebackground="">
+      </gadget>
+      <gadget name="gamesettingsBorderLeftUpperCorner" type="gadget" size1024="294 68 326 100" background="UI\border_e corner top left" tilebackground="">
+      </gadget>
+      <gadget name="gamesettingsBorderRightLowerCorner" type="gadget" size1024="698 612 730 644" background="UI\border_e corner right bottom" tilebackground="">
+      </gadget>
+      <gadget name="gamesettingsBorderLeftLowerCorner" type="gadget" size1024="294 612 326 644" background="UI\border_e corner left bottom" tilebackground="">
+      </gadget>
+    </gadget>
+    <gadget name="GameSettingsArea" type="gadget" size1024="354 103 662 419" z="11">
+      <gadget mouseovertext="$$19122$$Select the visibility on the map.  Default is &quot;normal,&quot; which means areas of the map are not visible until you or an ally explores that area.  &quot;Revealed Map&quot; means that areas are visible, but can be hidden by fog of war." name="VisibilityLabel" textfontsize="14" textfont="FieldLabels" textcolor="0 0 0" type="formatText" textjustifyright="" size1024="357 110 487 130" z="14">$$19123$$Visibility:</gadget>
+      <gadget mouseovertext="$$19122$$Select the visibility on the map.  Default is &quot;normal,&quot; which means areas of the map are not visible until you or an ally explores that area.  &quot;Revealed Map&quot; means that areas are visible, but can be hidden by fog of war.  " name="Visibility" textfontsize="12" textfont="EntryFields" fieldnametextcolor="0 0 0" textcolor="0 0 0" type="textField" fieldtextboxcolor="255 255 255" fieldnametextfont="Arial nodrop" fieldnametextfontsize="14" size1024="492 105 660 130">
+        <dropdown>$$18853$$Normal</dropdown>
+        <dropdown>$$18854$$Revealed</dropdown>
+      </gadget>
+      <gadget mouseovertext="$$19124$$Select the level of resources in the game world.  If you choose &quot;scarce&quot;, resources will be harder to find.  A &quot;flush&quot; resource level means that there are many resources." name="WorldResourcesLabel" textfontsize="14" textfont="FieldLabels" textcolor="0 0 0" type="formatText" textjustifyright="" size1024="357 145 487 165">$$19125$$World Resources:</gadget>
+      <gadget mouseovertext="$$19124$$Select the level of resources in the game world.  If you choose &quot;scarce&quot;, resources will be harder to find.  A &quot;flush&quot; resource level means that there are many resources." fieldval="1" name="WorldResources" type="textField" fieldnametextcolor="0 0 0" textcolor="0 0 0" textfont="EntryFields" textfontsize="12" fieldnametextfont="EntryFields" fieldnametextfontsize="12" fieldtextboxcolor="255 255 255" size1024="492 140 660 165" z="11">
+        <dropdown>$$18849$$Scarce</dropdown>
+        <dropdown>$$18850$$Normal</dropdown>
+        <dropdown>$$18851$$Flush</dropdown>
+      </gadget>
+      <gadget mouseovertext="$$19126$$Check this box if you want resources to be shared among your team." name="SharedResources" textfontsize="14" textfont="FieldLabels" textcolor="0 0 0" type="checkButton" size1024="357 173 660 193">$$19132$$Team Shared Resources</gadget>
+      <gadget mouseovertext="$$19129$$Check this box if you want population to be shared among your team." name="SharedPopulation" textfontsize="14" textfont="FieldLabels" textcolor="0 0 0" type="checkButton" size1024="357 206 660 226" z="12">$$19130$$Team shared population</gadget>
+      <gadget mouseovertext="$$19131$$Check this box if you want teams to be locked for the entire game. " name="LockedTeams" textfontsize="14" textfont="FieldLabels" textcolor="0 0 0" type="checkButton" size1024="357 239 660 259">$$19133$$Locked Teams</gadget>
+      <gadget mouseovertext="$$19134$$Check this box if you want to allow cheats." name="Cheats" textfontsize="14" textfont="FieldLabels" textcolor="0 0 0" type="checkButton" size1024="357 272 660 292">$$19135$$Allow Cheats</gadget>
+      <gadget mouseovertext="$$19136$$Check this box if you want to record this game." name="RecordGame" textfontsize="14" textfont="FieldLabels" textcolor="0 0 0" type="checkButton" size1024="357 304 660 324" z="12">$$19137$$Record Game</gadget>
+      <gadget mouseovertext="$$19138$$Check this box if you want a co-op game.  In a co-op game, players on the same team can control one another's units." name="CoopGame" textfontsize="14" textfont="FieldLabels" textcolor="0 0 0" type="checkButton" size1024="357 338 660 358" z="11">$$19139$$Co-op Game</gadget>
+      <gadget mouseovertext="$$19140$$Check this box if you want to restrict the number of times a player can pause the game." name="RestrictPauses" textfontsize="14" textfont="FieldLabels" textcolor="0 0 0" type="checkButton" size1024="357 368 660 388" z="11">$$19141$$Restrict Number of Pauses</gadget>
+      <gadget mouseovertext="$$19308$$Check this box if you only want to play opponents who have the same language version as you. " name="CommonLanguage" textfontsize="14" textfont="FieldLabels" textcolor="0 0 0" type="checkButton" size1024="357 394 660 414">$$19307$$Restrict to Common Language</gadget>
+    </gadget>
+    <gadget name="gamesettings-RolloverHelp" type="formatText" size1024="358 441 662 571" textcolor="0 0 0" textfontsize="12" textfont="RolloverFont" z="15">
+    </gadget>
+    <gadget tilebackground="" background="UI\background_c" name="gamesettings-RolloverHelpBackground" type="gadget" size1024="350 432 674 582" backgroundalpha=".5" z="11">
+      <gadget name="gamesettings-rollover-bordertop" type="gadget" size1024="350 424 674 432" background="UI\border_a straight top" tilebackground="" z="11">
+      </gadget>
+      <gadget name="gamesettings-rollover-borderleft" type="gadget" size1024="342 432 350 582" background="UI\border_a straight left" tilebackground="" z="11">
+      </gadget>
+      <gadget name="gamesettings-rollover-borderright" type="gadget" size1024="674 432 682 582" background="UI\border_a straight right" tilebackground="">
+      </gadget>
+      <gadget name="gamesettings-rollover-borderbottom" type="gadget" size1024="350 582 674 590" background="UI\border_a straight bottom" tilebackground="">
+      </gadget>
+      <gadget name="gamesettings-rollover-upperleftcorner" type="gadget" size1024="342 424 350 432" background="UI\border_a corner left top" z="14">
+      </gadget>
+      <gadget name="gamesettings-rollover-upperrightcorner" type="gadget" size1024="674 424 682 432" background="UI\border_a corner right top">
+      </gadget>
+      <gadget name="gamesettings-rollover-lowerleftcorner" type="gadget" size1024="342 582 350 590" background="UI\border_a corner left bottom" z="12">
+      </gadget>
+      <gadget name="gamesettings-rollover-lowerrightcorner" type="gadget" size1024="674 582 682 590" background="UI\border_a corner right bottom">
+      </gadget>
+    </gadget>
+    <gadget name="gamesettingsOKButton" type="button" size1024="372 600 501 632" foreground="UI\button_A" textcolor="0 0 0" textfontsize="14" textfont="ButtonFont" z="40" mouseovertext="$$18427$$Accept Changes and Close Screen">$$18465$$OK<command></command></gadget>
+    <gadget name="gamesettingsCancelButton" type="button" size1024="524 600 652 632" foreground="UI\button_A" textcolor="0 0 0" textfontsize="14" textfont="ButtonFont" z="40" mouseovertext="$$18428$$Ignore Changes and Close Screen">$$18466$$Cancel<command>gadgetUnReal("gamesettings-screen")</command></gadget>
+  </gadget>
+</layout>

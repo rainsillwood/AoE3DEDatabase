@@ -1,0 +1,56 @@
+<layout>
+  <gadget name="MPVoteToSave" type="gadget" size1024="270 114 869 422" background="" windowzstyle="" dontautoclose="">
+    <gadget name="MPVoteToSave-Background" type="gadget" size1024="277 120 866 415" background="ui\core_ui\wood_thick_board_tile" tilebackground="" texturereplace="" z="9">
+      <gadget tilebackgroundhoriz="" name="MPVoteToSave-BordersTop" type="gadget" background="ui\file_system\border_top_middle" texturereplace="" size1024="298 115 838 124" z="3" transparent="">
+      </gadget>
+      <gadget tilebackgroundhoriz="" name="MPVoteToSave-BordersBottom" type="gadget" background="ui\file_system\border_bottom_middle" texturereplace="" size1024="303 412 849 421" z="3" transparent="">
+      </gadget>
+      <gadget name="MPVoteToSave-BordersLeft" type="gadget" background="ui\file_system\border_side_left" size1024="271 144 279 390" texturereplace="" tilebackgroundvert="" transparent="" z="9">
+      </gadget>
+      <gadget name="MPVoteToSave-BordersRight" type="gadget" background="ui\file_system\border_side_right" size1024="862 140 871 401" texturereplace="" tilebackgroundvert="" z="3" transparent="">
+      </gadget>
+      <gadget name="MPVoteToSave-BordersRightTop" type="gadget" background="ui\file_system\border_top_right" size1024="839 115 871 147" texturereplace="" z="4" transparent="" clampbackground="">
+      </gadget>
+      <gadget name="MPVoteToSave-BordersLeftTop" type="gadget" background="ui\file_system\border_top_left" size1024="271 115 303 147" texturereplace="" z="4" transparent="" clampbackground="">
+      </gadget>
+      <gadget name="MPVoteToSave-BordersRightBottom" type="gadget" background="ui\file_system\border_bottom_right" size1024="839 390 871 422" texturereplace="" z="4" transparent="" clampbackground="">
+      </gadget>
+      <gadget name="MPVoteToSave-BordersLeftBottom" type="gadget" background="ui\file_system\border_bottom_left" size1024="271 389 303 421" texturereplace="" z="10" transparent="" clampbackground="">
+      </gadget>
+      <gadget name="MPVoteToSave-LabelLeft" type="gadget" size1024="353 126 401 174" z="10" background="ui\core_ui\title_bar_48_left">
+      </gadget>
+      <gadget name="MPVoteToSave-LabelMid" type="gadget" size1024="401 126 752 174" z="10" background="ui\core_ui\title_bar_48_middle">
+      </gadget>
+      <gadget name="MPVoteToSave-LabelRight" type="gadget" size1024="752 126 800 174" z="10" background="ui\core_ui\title_bar_48_right">
+      </gadget>
+      <gadget name="MPVoteToSave-VoteBackground" type="gadget" size1024="372 262 776 392" z="10" background="ui\core_ui\metal_tile">
+      </gadget>
+      <gadget name="MPVoteToSave-VoteBackgroundTop" type="gadget" size1024="394 259 756 267" z="10" background="ui\core_ui\metal_trim_top">
+      </gadget>
+      <gadget name="MPVoteToSave-VoteBackgroundBottom" type="gadget" size1024="394 388 756 396" z="10" background="ui\core_ui\metal_trim_bottom">
+      </gadget>
+      <gadget name="MPVoteToSave-VoteBackgroundLeft" type="gadget" size1024="371 277 379 374" z="10" background="ui\core_ui\metal_trim_left">
+      </gadget>
+      <gadget name="MPVoteToSave-VoteBackgroundRight" type="gadget" size1024="772 277 780 374" z="10" background="ui\core_ui\metal_trim_right">
+      </gadget>
+      <gadget name="MPVoteToSave-VoteBackgroundTopLeft" type="gadget" size1024="371 259 401 289" z="10" background="ui\core_ui\metal_trim_corner_topleft">
+      </gadget>
+      <gadget name="MPVoteToSave-VoteBackgroundTopRight" type="gadget" size1024="750 259 780 289" z="10" background="ui\core_ui\metal_trim_corner_topright">
+      </gadget>
+      <gadget name="MPVoteToSave-VoteBackgroundBottomLeft" type="gadget" size1024="371 366 401 396" z="10" background="ui\core_ui\metal_trim_corner_bottomleft">
+      </gadget>
+      <gadget name="MPVoteToSave-VoteBackgroundBottomRight" type="gadget" size1024="750 366 780 396" z="10" background="ui\core_ui\metal_trim_corner_bottomright">
+      </gadget>
+    </gadget>
+    <gadget name="MPVoteToSave-ScreenLabel" textcenterhoriz="" textcolor="253 193 1" textfontsize="22" textfont="PregameHeaders" type="formatText" size1024="402 129 751 159" z="11">$$20215$$Save and Exit</gadget>
+    <gadget name="MPVoteToSave-Warning" textcenterhoriz="" textcolor="253 193 1" textfontsize="18" textfont="Pregamelabels" type="formatText" size1024="372 177 779 254" z="11">$$36694$$Warning if you save and exit you will lose any home city experience earned this game.</gadget>
+    <gadget name="MPVoteToSave-ContinueText" type="formatText" size1024="422 282 548 304" z="11" textjustifyright="" textcolor="253 193 1" textfontsize="18" textfont="Pregamelabels">$$20038$$Continue</gadget>
+    <gadget name="MPVoteToSave-SaveText" type="formatText" size1024="422 323 548 345" z="11" textjustifyright="" textcolor="253 193 1" textfontsize="18" textfont="Pregamelabels">$$20215$$Save and Exit</gadget>
+    <gadget name="MPVoteToSave-NoVoteText" type="formatText" size1024="422 360 548 382" z="11" textjustifyright="" textcolor="253 193 1" textfontsize="18" textfont="Pregamelabels">$$20213$$No Vote</gadget>
+    <gadget name="MPVoteToSave-NoVoteCount" type="formatText" size1024="604 360 673 382" z="11" textcolor="253 193 1" textfontsize="18" textfont="Pregamelabels">(00/00)</gadget>
+    <gadget name="MPVoteToSave-Vote" type="radioset" size1024="564 267 735 357" textcolor="253 193 1" textfontsize="18" textfont="Pregamelabels" radiosetbuttonsize1024="100 36" radiosetdefaultbuttonindex="2" z="12" sound="UI_DefaultPregameClickSet" radiocheckedart="ui\core_ui\round_clicked" radiouncheckedart="ui\core_ui\round" radiobtnborder1024="2 2" radiohighlightart="ui\core_ui\round_rollover">
+      <button>(00/00)</button>
+      <button>(00/00)</button>
+    </gadget>
+  </gadget>
+</layout>

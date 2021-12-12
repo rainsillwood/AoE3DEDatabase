@@ -1,0 +1,30 @@
+<layout>
+  <gadget name="ScenarioVictoriousDlg-Dialog" type="dialog" windowzstyle="" size1024="257 177 767 450" background="ui\core_ui\wood_thick_board_tile" tilebackground="" dontautoclose="">
+    <gadget name="ScenarioVictoriousDlg-BordersLeftTop" type="gadget" background="ui\file_system\border_top_left" size1024="257 177 289 209" z="11">
+    </gadget>
+    <gadget name="ScenarioVictoriousDlg-BordersLeftBottom" type="gadget" background="ui\file_system\border_bottom_left" size1024="257 418 289 450">
+    </gadget>
+    <gadget name="ScenarioVictoriousDlg-BordersRightBottom" type="gadget" background="ui\file_system\border_bottom_right" size1024="735 418 767 450" z="11">
+    </gadget>
+    <gadget name="ScenarioVictoriousDlg-BordersRightTop" type="gadget" background="ui\file_system\border_top_right" size1024="735 177 767 209" z="12">
+    </gadget>
+    <gadget tilebackgroundhoriz="" name="ScenarioVictoriousDlg-BordersTop" type="gadget" background="ui\file_system\border_top_middle" size1024="289 177 735 185">
+    </gadget>
+    <gadget tilebackgroundhoriz="" name="ScenarioVictoriousDlg-BordersBottom" type="gadget" background="ui\file_system\border_bottom_middle" size1024="289 442 735 450">
+    </gadget>
+    <gadget tilebackgroundvert="" name="ScenarioVictoriousDlg-BordersLeft" type="gadget" background="ui\file_system\border_side_left" size1024="257 209 265 418">
+    </gadget>
+    <gadget tilebackgroundvert="" name="ScenarioVictoriousDlg-BordersRight" type="gadget" background="ui\file_system\border_side_right" size1024="759 209 767 418">
+    </gadget>
+    <gadget name="ScenarioVictoriousDlg-TitleLeft" type="gadget" size1024="277 220 341 284" background="ui\core_ui\title_bar_48_left" z="11">
+    </gadget>
+    <gadget name="ScenarioVictoriousDlg-TitleCenter" type="gadget" size1024="341 220 683 284" background="ui\core_ui\title_bar_48_middle" tilebackgroundhoriz="" z="11">
+    </gadget>
+    <gadget name="ScenarioVictoriousDlg-TitleRight" type="gadget" size1024="683 220 747 284" background="ui\core_ui\title_bar_48_right" z="11">
+    </gadget>
+    <gadget name="ScenarioVictoriousDlg-VictoriousText" type="formatText" textfont="ScenarioTitleLarge" textfontsize="26" textcolor="255 208 0" size1024="277 220 747 284" textcenterhoriz="" textcentervert="" z="12">$$20165$$Continue your Journey?</gadget>
+    <gadget name="ScenarioVictoriousDlg-NextScenarioButton" type="stateButton" size1024="375 308 631 340" bevelbutton="" z="101" statebuttonuseinternalstates="" textfont="IngameButtons" textfontsize="18" textcolor="255 255 255" textcenterhoriz="" textcentervert="">$$18454$$Next Scenario<stateentry background="ui\core_ui\button_256x32_normal"></stateentry><stateentry background="ui\core_ui\button_256x32_clicked"></stateentry><stateentry background="ui\core_ui\button_256x32_rollover"></stateentry><stateentry background="ui\core_ui\button_256x32_disabled"></stateentry></gadget>
+    <gadget name="ScenarioVictoriousDlg-MainMenuButton" type="stateButton" size1024="375 350 631 382" bevelbutton="" z="101" statebuttonuseinternalstates="" textfont="IngameButtons" textfontsize="18" textcolor="255 255 255" textcenterhoriz="" textcentervert="">$$20215$$Save and Exit<stateentry background="ui\core_ui\button_256x32_normal"></stateentry><stateentry background="ui\core_ui\button_256x32_clicked"></stateentry><stateentry background="ui\core_ui\button_256x32_rollover"></stateentry><stateentry background="ui\core_ui\button_256x32_disabled"></stateentry></gadget>
+    <gadget name="ScenarioVictoriousDlg-HCButton" type="stateButton" size1024="375 392 631 424" bevelbutton="" z="101" statebuttonuseinternalstates="" textfont="IngameButtons" textfontsize="18" textcolor="255 255 255" textcenterhoriz="" textcentervert="">$$35625$$Upgrade Home City<stateentry background="ui\core_ui\button_256x32_normal"></stateentry><stateentry background="ui\core_ui\button_256x32_clicked"></stateentry><stateentry background="ui\core_ui\button_256x32_rollover"></stateentry><stateentry background="ui\core_ui\button_256x32_disabled"></stateentry></gadget>
+  </gadget>
+</layout>

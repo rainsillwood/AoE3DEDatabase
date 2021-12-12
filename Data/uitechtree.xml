@@ -1,0 +1,43 @@
+<layout>
+  <gadget name="techtree-Main" type="gadget" size1024="0 0 1024 768" background="ui\ui_light_gray" bevel="" closebutton="">
+    <gadget name="techtree-CivChoice" type="textField" size1024="20 10 220 35" textcolor="0 0 0" textfont="Arial nobold nodrop" textfontsize="12" dropdowndistance="280" tooltiptext="Text Field gadget with dropdowns">Choose Civ:<dropdown>Zeus</dropdown><dropdown>Poseidon</dropdown><dropdown>Hades</dropdown><dropdown>Ra</dropdown><dropdown>Set</dropdown><dropdown>Isis</dropdown><dropdown>Thor</dropdown><dropdown>Odin</dropdown><dropdown>Loki</dropdown></gadget>
+    <gadget name="techtree-CivBonus" type="textBox" size1024="0 488 256 608" backgroundcolor="0 0 0" backgroundalpha="0.3" a-dtype="textFontSize number Z number" textwrapon="">
+    </gadget>
+    <gadget name="techtree-Legend" type="textBox" size1024="0 608 256 768" backgroundcolor="0 0 0" backgroundalpha="0.3" a-dtype="textFontSize number Z number">
+      <gadget name="techtree-Legend-1" type="gadget" size1024="30 618 100 638">Legend:</gadget>
+      <gadget name="techtree-Legend-2" type="gadget" size1024="110 648 210 668">ActiveEnabled</gadget>
+      <gadget name="techtree-Legend-3" type="gadget" size1024="30 678 90 698">Tech:</gadget>
+      <gadget name="techtree-Legend-4" type="gadget" size1024="30 708 90 728">Unit:</gadget>
+      <gadget name="techtree-Legend-5" type="gadget" size1024="30 738 90 758">Building:</gadget>
+      <gadget name="techtree-Legend-6" type="gadget" size1024="100 678 120 698" background="ui\red">
+      </gadget>
+      <gadget name="techtree-Legend-7" type="gadget" size1024="150 678 170 698" background="ui\lightred">
+      </gadget>
+      <gadget name="techtree-Legend-8" type="gadget" size1024="100 708 120 728" background="ui\green">
+      </gadget>
+      <gadget name="techtree-Legend-9" type="gadget" size1024="150 708 170 728" background="ui\lightgreen">
+      </gadget>
+      <gadget name="techtree-Legend-10" type="gadget" size1024="100 738 120 758" background="ui\blue">
+      </gadget>
+      <gadget name="techtree-Legend-11" type="gadget" size1024="150 738 170 758" background="ui\lightblue">
+      </gadget>
+    </gadget>
+    <gadget name="techtree-RightButton" type="button" size1024="856 718 896 738">Right</gadget>
+    <gadget name="techtree-LeftButton" type="button" size1024="796 718 836 738">Left</gadget>
+    <gadget name="techtree-UpButton" type="button" size1024="736 718 776 738">Up</gadget>
+    <gadget name="techtree-DownButton" type="button" size1024="676 718 716 738">Down</gadget>
+    <gadget name="techtree-CloseButton" type="button" size1024="616 718 656 738">Close</gadget>
+    <gadget name="techtree-CenterPanel" type="gadget" size1024="0 0 1024 1024" background="" sunkenbevel="">
+    </gadget>
+    <gadget name="techtree-LeftScrollArea" type="gadget" size1024="0 0 25 768">
+    </gadget>
+    <gadget name="techtree-RightScrollArea" type="gadget" size1024="999 0 1024 768">
+    </gadget>
+    <gadget name="techtree-TopScrollArea" type="gadget" size1024="256 0 1024 25">
+    </gadget>
+    <gadget name="techtree-BottomScrollArea" type="gadget" size1024="256 743 1024 768">
+    </gadget>
+    <gadget name="techtree-TechInfoArea" type="textBox" size1024="300 668 600 768" textcolor="255 255 255" backgroundcolor="0 0 0" backgroundalpha="0.3" a-dtype="textFontSize number Z number" textwrapon="">
+    </gadget>
+  </gadget>
+</layout>

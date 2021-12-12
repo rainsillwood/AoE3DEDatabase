@@ -1,0 +1,101 @@
+<layout>
+  <gadget name="homeCityDeck" type="gadget" size1024="0 37 1024 390" transparent="" tilebackgroundvert="" tilebackgroundhoriz="" background="ui\home_city\hc_deck_ui" hidden="" z="50" texturecoords="0 0.308 1 1">
+    <gadget name="homeCityDeck-button00" type="button" size1024="416 150 464 198" z="51" activateondown="">
+    </gadget>
+    <gadget name="homeCityDeck-button01" type="button" size1024="471 150 519 198" z="51" activateondown="">
+    </gadget>
+    <gadget name="homeCityDeck-button02" type="button" size1024="526 150 574 198" z="51" activateondown="">
+    </gadget>
+    <gadget name="homeCityDeck-button03" type="button" size1024="581 150 629 198" z="51" activateondown="">
+    </gadget>
+    <gadget name="homeCityDeck-button04" type="button" size1024="636 150 684 198" z="51" activateondown="">
+    </gadget>
+    <gadget name="homeCityDeck-button05" type="button" size1024="691 150 739 198" z="51" activateondown="">
+    </gadget>
+    <gadget name="homeCityDeck-button06" type="button" size1024="746 150 794 198" z="51" activateondown="">
+    </gadget>
+    <gadget name="homeCityDeck-button07" type="button" size1024="801 150 849 198" z="51" activateondown="">
+    </gadget>
+    <gadget name="homeCityDeck-button08" type="button" size1024="856 150 902 198" z="51" activateondown="">
+    </gadget>
+    <gadget name="homeCityDeck-button09" type="button" size1024="909 150 957 198" z="51" activateondown="">
+    </gadget>
+    <gadget name="homeCityDeck-button010" type="button" size1024="964 150 1012 198" z="51" activateondown="">
+    </gadget>
+    <gadget name="homeCityDeck-button10" type="button" size1024="416 206 464 254" z="51" activateondown="">
+    </gadget>
+    <gadget name="homeCityDeck-button11" type="button" size1024="471 206 519 254" z="51" activateondown="">
+    </gadget>
+    <gadget name="homeCityDeck-button12" type="button" size1024="526 206 574 254" z="51" activateondown="">
+    </gadget>
+    <gadget name="homeCityDeck-button13" type="button" size1024="581 206 629 254" z="51" activateondown="">
+    </gadget>
+    <gadget name="homeCityDeck-button14" type="button" size1024="636 206 684 254" z="51" activateondown="">
+    </gadget>
+    <gadget name="homeCityDeck-button15" type="button" size1024="691 206 739 254" z="51" activateondown="">
+    </gadget>
+    <gadget name="homeCityDeck-button16" type="button" size1024="746 206 794 254" z="51" activateondown="">
+    </gadget>
+    <gadget name="homeCityDeck-button17" type="button" size1024="801 206 849 254" z="51" activateondown="">
+    </gadget>
+    <gadget name="homeCityDeck-button18" type="button" size1024="856 206 902 254" z="51" activateondown="">
+    </gadget>
+    <gadget name="homeCityDeck-button19" type="button" size1024="909 206 957 254" z="51" activateondown="">
+    </gadget>
+    <gadget name="homeCityDeck-button110" type="button" size1024="964 206 1012 254" z="51" activateondown="">
+    </gadget>
+    <gadget name="homeCityDeck-button20" type="button" size1024="416 262 464 310" z="51" activateondown="">
+    </gadget>
+    <gadget name="homeCityDeck-button21" type="button" size1024="471 262 519 310" z="51" activateondown="">
+    </gadget>
+    <gadget name="homeCityDeck-button22" type="button" size1024="526 262 574 310" z="51" activateondown="">
+    </gadget>
+    <gadget name="homeCityDeck-button23" type="button" size1024="581 262 629 310" z="51" activateondown="">
+    </gadget>
+    <gadget name="homeCityDeck-button24" type="button" size1024="636 262 684 310" z="51" activateondown="">
+    </gadget>
+    <gadget name="homeCityDeck-button25" type="button" size1024="691 262 739 310" z="51" activateondown="">
+    </gadget>
+    <gadget name="homeCityDeck-button26" type="button" size1024="746 262 794 310" z="51" activateondown="">
+    </gadget>
+    <gadget name="homeCityDeck-button27" type="button" size1024="801 262 849 310" z="51" activateondown="">
+    </gadget>
+    <gadget name="homeCityDeck-button28" type="button" size1024="856 262 902 310" z="51" activateondown="">
+    </gadget>
+    <gadget name="homeCityDeck-button29" type="button" size1024="909 262 957 310" z="51" activateondown="">
+    </gadget>
+    <gadget name="homeCityDeck-button210" type="button" size1024="964 262 1012 310" z="51" activateondown="">
+    </gadget>
+    <gadget name="homeCityDeck-button30" type="button" size1024="416 318 464 366" z="51" activateondown="">
+    </gadget>
+    <gadget name="homeCityDeck-button31" type="button" size1024="471 318 519 366" z="51" activateondown="">
+    </gadget>
+    <gadget name="homeCityDeck-button32" type="button" size1024="526 318 574 366" z="51" activateondown="">
+    </gadget>
+    <gadget name="homeCityDeck-button33" type="button" size1024="581 318 629 366" z="51" activateondown="">
+    </gadget>
+    <gadget name="homeCityDeck-button34" type="button" size1024="636 318 684 366" z="51" activateondown="">
+    </gadget>
+    <gadget name="homeCityDeck-button35" type="button" size1024="691 318 739 366" z="51" activateondown="">
+    </gadget>
+    <gadget name="homeCityDeck-button36" type="button" size1024="746 318 794 366" z="51" activateondown="">
+    </gadget>
+    <gadget name="homeCityDeck-button37" type="button" size1024="801 318 849 366" z="51" activateondown="">
+    </gadget>
+    <gadget name="homeCityDeck-button38" type="button" size1024="856 318 902 366" z="51" activateondown="">
+    </gadget>
+    <gadget name="homeCityDeck-button39" type="button" size1024="909 318 957 366" z="51" activateondown="">
+    </gadget>
+    <gadget name="homeCityDeck-button310" type="button" size1024="964 318 1012 366" z="51" activateondown="">
+    </gadget>
+    <gadget name="homeCityDeck-DeckList" type="list" size1024="15 134 334 336" background="" textfontsize="14" textfont="PeopleListItems" textcolor="180 180 180" scrollvert="" showselect="" buttonsize1024="391 20" z="10">
+      <vertscrollbar sliderbuttons="" slidervertical="" sliderupbtnset="" sliderdownbtnset="" sliderpipart="ui\file_system\slider_pip_vertical" sliderpiptexturecoords="0 0 1 1" sliderareaart="ui\file_system\slider_background_vertical" background="ui\core_ui\background_yellow_opaque">
+      </vertscrollbar>
+    </gadget>
+    <gadget name="homeCityDeck-AvailableDecks" type="formatText" textfont="GoalText" textfontsize="18" textcenterhoriz="" textcolor="231 201 40" size1024="34 105 312 133" z="51" transparent="">$$37467$$Available Decks</gadget>
+    <gadget name="homeCityDeck-Name" type="formatText" textfont="SubtitleName" textfontsize="14" textcolor="231 201 40" size1024="374 111 702 135" z="51" transparent="">
+    </gadget>
+    <gadget name="homeCityDeck-OKButton" type="stateButton" size1024="11 339 172 365" bevelbutton="" z="51" statebuttonuseinternalstates="" textfont="SubtitleName" textfontsize="14" textcolor="255 255 255" textcenterhoriz="" textcentervert="" texturecoords="0 0 0.6328125 1" mouseovertext="$$42370$$" sound="UI_DefaultPregameClickSet">$$18465$$OK<stateentry background="ui\core_ui\button_large_normal"></stateentry><stateentry background="ui\core_ui\button_large_clicked"></stateentry><stateentry background="ui\core_ui\button_large_high"></stateentry><stateentry background="ui\core_ui\button_large_disable"></stateentry></gadget>
+    <gadget name="homeCityDeck-CancelButton" type="stateButton" size1024="175 339 336 365" bevelbutton="" z="51" statebuttonuseinternalstates="" textfont="SubtitleName" textfontsize="14" textcolor="255 255 255" textcenterhoriz="" textcentervert="" texturecoords="0 0 0.6328125 1" mouseovertext="$$42369$$" sound="UI_DefaultPregameClickSet">$$18466$$Cancel<stateentry background="ui\core_ui\button_large_normal"></stateentry><stateentry background="ui\core_ui\button_large_clicked"></stateentry><stateentry background="ui\core_ui\button_large_high"></stateentry><stateentry background="ui\core_ui\button_large_disable"></stateentry></gadget>
+  </gadget>
+</layout>

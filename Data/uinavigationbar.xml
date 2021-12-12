@@ -1,0 +1,124 @@
+<layout>
+  <gadget name="AMPNavigationBar-container" type="gadget" size1024="0 112 209 516" z="10" background="ui\eso\eso_main_ui" texturecoords="0 0.2109375 0.4082031 1" wheelfocuswhenmouseinside="">
+    <gadget name="AMPNavigationBar-TabContainer" type="gadget" size1024="11 111 207 303" z="10">
+      <gadget name="AMPNavigationBar-Button1" type="button" alpha="0.0" activateondown="" size1024="9 120 209 152" z="16">
+        <gadget name="AMPNavigationBar-ButtonOff1" type="button" textcolor="185 185 185" textfont="AgeText" textfontsize="12" activateondown="" texturecoords="0 0 0.65625 0.75" size1024="33 129 201 152">
+        </gadget>
+        <gadget name="AMPNavigationBar-ButtonOn1" type="button" textcolor="255 255 255" textfont="GoalText" textfontsize="18" activateondown="" texturecoords="0 0 0.78125 1" size1024="9 122 209 154">
+        </gadget>
+      </gadget>
+      <gadget name="AMPNavigationBar-Button2" type="button" alpha="0.0" activateondown="" size1024="9 145 209 177" z="15">
+        <gadget name="AMPNavigationBar-ButtonOff2" type="button" textcolor="185 185 185" textfont="AgeText" textfontsize="12" activateondown="" texturecoords="0 0 0.65625 0.75" size1024="33 154 201 177">
+        </gadget>
+        <gadget name="AMPNavigationBar-ButtonOn2" type="button" textcolor="255 255 255" textfont="GoalText" textfontsize="18" activateondown="" texturecoords="0 0 0.78125 1" size1024="9 147 209 179">
+        </gadget>
+      </gadget>
+      <gadget name="AMPNavigationBar-Button3" type="button" alpha="0.0" activateondown="" size1024="9 170 209 202" z="14">
+        <gadget name="AMPNavigationBar-ButtonOff3" type="button" textcolor="185 185 185" textfont="AgeText" textfontsize="12" activateondown="" texturecoords="0 0 0.65625 0.75" size1024="33 179 201 202">
+        </gadget>
+        <gadget name="AMPNavigationBar-ButtonOn3" type="button" textcolor="255 255 255" textfont="GoalText" textfontsize="18" activateondown="" texturecoords="0 0 0.78125 1" size1024="9 172 209 204">
+        </gadget>
+      </gadget>
+      <gadget name="AMPNavigationBar-Button4" type="button" alpha="0.0" activateondown="" size1024="9 195 209 227" z="13">
+        <gadget name="AMPNavigationBar-ButtonOff4" type="button" textcolor="185 185 185" textfont="AgeText" textfontsize="12" activateondown="" texturecoords="0 0 0.65625 0.75" size1024="33 204 201 227">
+        </gadget>
+        <gadget name="AMPNavigationBar-ButtonOn4" type="button" textcolor="255 255 255" textfont="GoalText" textfontsize="18" activateondown="" texturecoords="0 0 0.78125 1" size1024="9 197 209 229">
+        </gadget>
+      </gadget>
+      <gadget name="AMPNavigationBar-Button5" type="button" alpha="0.0" activateondown="" size1024="9 220 209 252" z="12">
+        <gadget name="AMPNavigationBar-ButtonOff5" type="button" textcolor="185 185 185" textfont="AgeText" textfontsize="12" activateondown="" texturecoords="0 0 0.65625 0.75" size1024="33 229 201 252">
+        </gadget>
+        <gadget name="AMPNavigationBar-ButtonOn5" type="button" textcolor="255 255 255" textfont="GoalText" textfontsize="18" activateondown="" texturecoords="0 0 0.78125 1" size1024="9 222 209 254">
+        </gadget>
+      </gadget>
+      <gadget name="AMPNavigationBar-Button6" type="button" alpha="0.0" activateondown="" size1024="9 245 209 277" z="11">
+        <gadget name="AMPNavigationBar-ButtonOff6" type="button" textcolor="185 185 185" textfont="AgeText" textfontsize="12" activateondown="" texturecoords="0 0 0.65625 0.75" size1024="33 254 201 277">
+        </gadget>
+        <gadget name="AMPNavigationBar-ButtonOn6" type="button" textcolor="255 255 255" textfont="GoalText" textfontsize="18" activateondown="" texturecoords="0 0 0.78125 1" size1024="9 247 209 279">
+        </gadget>
+      </gadget>
+      <gadget name="AMPNavigationBar-Button7" type="button" alpha="0.0" activateondown="" size1024="9 270 209 302" z="10">
+        <gadget name="AMPNavigationBar-ButtonOff7" type="button" textcolor="185 185 185" textfont="AgeText" textfontsize="12" activateondown="" texturecoords="0 0 0.65625 0.75" size1024="33 279 201 302">
+        </gadget>
+        <gadget name="AMPNavigationBar-ButtonOn7" type="button" textcolor="255 255 255" textfont="GoalText" textfontsize="18" activateondown="" texturecoords="0 0 0.78125 1" size1024="9 272 209 304">
+        </gadget>
+      </gadget>
+    </gadget>
+    <gadget name="AMPNavigationBar-PageContainer" type="gadget" size1024="7 315 206 498" z="11">
+      <gadget name="AMPNavigationBar-Entry1" type="button" alpha="0.0" activateondown="" size1024="9 314 209 346" z="16">
+        <gadget name="AMPNavigationBar-EntryOff1" type="button" textcolor="185 185 185" textfont="AgeText" textfontsize="12" textjustifyright="" activateondown="" texturecoords="0 0 0.65625 0.75" size1024="33 323 201 346">
+        </gadget>
+        <gadget name="AMPNavigationBar-EntryOn1" type="button" textcolor="255 255 255" textfont="GoalText" textfontsize="18" textjustifyright="" activateondown="" texturecoords="0 0 0.78125 1" hidden="" size1024="9 316 209 348">
+        </gadget>
+      </gadget>
+      <gadget name="AMPNavigationBar-Entry2" type="button" alpha="0.0" activateondown="" size1024="9 339 209 371" z="15">
+        <gadget name="AMPNavigationBar-EntryOff2" type="button" textcolor="185 185 185" textfont="AgeText" textfontsize="12" textjustifyright="" activateondown="" texturecoords="0 0 0.65625 0.75" size1024="33 348 201 371">
+        </gadget>
+        <gadget name="AMPNavigationBar-EntryOn2" type="button" textcolor="255 255 255" textfont="GoalText" textfontsize="18" textjustifyright="" activateondown="" texturecoords="0 0 0.78125 1" hidden="" size1024="9 341 209 373">
+        </gadget>
+      </gadget>
+      <gadget name="AMPNavigationBar-Entry3" type="button" alpha="0.0" activateondown="" size1024="9 364 209 396" z="14">
+        <gadget name="AMPNavigationBar-EntryOff3" type="button" textcolor="185 185 185" textfont="AgeText" textfontsize="12" textjustifyright="" activateondown="" texturecoords="0 0 0.65625 0.75" size1024="33 373 201 396">
+        </gadget>
+        <gadget name="AMPNavigationBar-EntryOn3" type="button" textcolor="255 255 255" textfont="GoalText" textfontsize="18" textjustifyright="" activateondown="" texturecoords="0 0 0.78125 1" hidden="" size1024="9 366 209 398">
+        </gadget>
+      </gadget>
+      <gadget name="AMPNavigationBar-Entry4" type="button" alpha="0.0" activateondown="" size1024="9 389 209 421" z="13">
+        <gadget name="AMPNavigationBar-EntryOff4" type="button" textcolor="185 185 185" textfont="AgeText" textfontsize="12" textjustifyright="" activateondown="" texturecoords="0 0 0.65625 0.75" size1024="33 398 201 421">
+        </gadget>
+        <gadget name="AMPNavigationBar-EntryOn4" type="button" textcolor="255 255 255" textfont="GoalText" textfontsize="18" textjustifyright="" activateondown="" texturecoords="0 0 0.78125 1" hidden="" size1024="9 391 209 423">
+        </gadget>
+      </gadget>
+      <gadget name="AMPNavigationBar-Entry5" type="button" alpha="0.0" activateondown="" size1024="9 414 209 446" z="12">
+        <gadget name="AMPNavigationBar-EntryOff5" type="button" textcolor="185 185 185" textfont="AgeText" textfontsize="12" textjustifyright="" activateondown="" texturecoords="0 0 0.65625 0.75" size1024="33 423 201 446">
+        </gadget>
+        <gadget name="AMPNavigationBar-EntryOn5" type="button" textcolor="255 255 255" textfont="GoalText" textfontsize="18" textjustifyright="" activateondown="" texturecoords="0 0 0.78125 1" hidden="" size1024="9 416 209 448">
+        </gadget>
+      </gadget>
+      <gadget name="AMPNavigationBar-Entry6" type="button" alpha="0.0" activateondown="" size1024="9 439 209 471" z="11">
+        <gadget name="AMPNavigationBar-EntryOff6" type="button" textcolor="185 185 185" textfont="AgeText" textfontsize="12" textjustifyright="" activateondown="" texturecoords="0 0 0.65625 0.75" size1024="33 448 201 471">
+        </gadget>
+        <gadget name="AMPNavigationBar-EntryOn6" type="button" textcolor="255 255 255" textfont="GoalText" textfontsize="18" textjustifyright="" activateondown="" texturecoords="0 0 0.78125 1" hidden="" size1024="9 441 209 473">
+        </gadget>
+      </gadget>
+      <gadget name="AMPNavigationBar-Entry7" type="button" alpha="0.0" activateondown="" size1024="9 464 209 496" z="10">
+        <gadget name="AMPNavigationBar-EntryOff7" type="button" textcolor="185 185 185" textfont="AgeText" textfontsize="12" textjustifyright="" activateondown="" texturecoords="0 0 0.65625 0.75" size1024="33 473 201 496">
+        </gadget>
+        <gadget name="AMPNavigationBar-EntryOn7" type="button" textcolor="255 255 255" textfont="GoalText" textfontsize="18" textjustifyright="" activateondown="" texturecoords="0 0 0.78125 1" hidden="" size1024="9 466 209 498">
+        </gadget>
+      </gadget>
+      <gadget name="AMPNavigationBar-ScrollUp" type="stateButton" size1024="-1 302 209 320" z="12" statebuttonuseinternalstates="" texturecoords="0 0 0.8203125 1">
+        <stateentry background="ui\eso\eso-scroll-up-normal">
+        </stateentry>
+        <stateentry background="ui\eso\eso-scroll-up-clicked">
+        </stateentry>
+        <stateentry background="ui\eso\eso-scroll-up-high">
+        </stateentry>
+        <stateentry background="ui\eso\eso-scroll-up-disable">
+        </stateentry>
+      </gadget>
+      <gadget name="AMPNavigationBar-ScrollDown" type="stateButton" size1024="-1 498 209 516" z="12" statebuttonuseinternalstates="" texturecoords="0 0 0.8203125 1">
+        <stateentry background="ui\eso\eso-scroll-down-normal">
+        </stateentry>
+        <stateentry background="ui\eso\eso-scroll-down-clicked">
+        </stateentry>
+        <stateentry background="ui\eso\eso-scroll-down-high">
+        </stateentry>
+        <stateentry background="ui\eso\eso-scroll-down-disable">
+        </stateentry>
+      </gadget>
+    </gadget>
+    <gadget name="AMPNavigationBar-scrollBar" type="slider" sliderbuttons="" slidervertical="" sliderupbtnset="sliderUpBtn" sliderdownbtnset="sliderDownBtn" size1024="113 342 116 349" z="0">
+    </gadget>
+    <gadget name="AMPNavigationBar-ExitButton" type="stateButton" size1024="991 -1 1023 31" bevelbutton="" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="255 255 255" textcenterhoriz="" textcentervert="" z="60">
+      <stateentry background="ui\core_ui\close_normal">
+      </stateentry>
+      <stateentry background="ui\core_ui\close_clicked">
+      </stateentry>
+      <stateentry background="ui\core_ui\close_active">
+      </stateentry>
+      <stateentry background="ui\core_ui\close_disabled">
+      </stateentry>
+    </gadget>
+  </gadget>
+</layout>

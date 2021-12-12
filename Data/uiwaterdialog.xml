@@ -1,0 +1,15 @@
+<layout>
+  <gadget name="WaterDlg1" type="gadget" size1024="0 0 350 200" closebutton="" titlebar="Water Editor" backgroundcolor="160 160 160" hidden="">
+    <gadget type="textBox" name="waterDlg-TypesText" size1024="5 40 125 70" textcolor="0 0 0" backgroundcolor="160 160 160">Types: </gadget>
+    <gadget type="textField" name="waterDlg-TypesList" size1024="130 35 320 70" textcolor="255 255 255" backgroundcolor="160 160 160" bevel="" dropdowndistance="132">
+      <dropdown>
+      </dropdown>
+    </gadget>
+    <gadget type="textBox" name="waterDlg-DepthText" size1024="5 80 125 110" textcolor="0 0 0" backgroundcolor="160 160 160">River Depth: </gadget>
+    <gadget type="slider" name="waterDlg-DepthSlider" size1024="140 75 320 110" textcolor="255 255 0" backgroundcolor="0 0 128" showvalue="">
+    </gadget>
+    <gadget type="textBox" name="waterDlg-HeightToleranceText" size1024="5 120 125 150" textcolor="0 0 0" backgroundcolor="160 160 160">Tolerance: </gadget>
+    <gadget type="slider" name="waterDlg-HeightToleranceSlider" size1024="140 115 320 150" textcolor="255 255 0" backgroundcolor="0 0 128" showvalue="">
+    </gadget>
+  </gadget>
+</layout>

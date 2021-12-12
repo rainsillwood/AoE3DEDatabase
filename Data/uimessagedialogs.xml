@@ -1,0 +1,12 @@
+<layout>
+  <gadget type="gadget" name="pregame-messagedialog" size1024="287 193 722 432" bevel="" hidden="" closebutton="" background="UI\background_D" tilebackground="">
+    <gadget name="pregame-messagedialog-prompt" type="formatText" textcolor="0 0 0" textfont="EntryFields" textfontsize="12" textcentervert="" size1024="293 243 713 364">Message Text Goes Here</gadget>
+    <gadget name="pregame-OKButton" z="12" textcolor="0 0 0" textfontsize="14" textfont="ButtonFont" type="button" foreground="UI\button_A" size1024="351 381 479 413">$$18465$$OK</gadget>
+    <gadget name="pregame-CancelButton" z="12" textcolor="0 0 0" textfontsize="14" textfont="ButtonFont" type="button" foreground="UI\button_A" size1024="527 381 655 413">$$18466$$Cancel<command>gadgetUnreal("pregame-messagedialog")</command></gadget>
+  </gadget>
+  <gadget type="gadget" name="ingame-messagedialog" size1024="287 193 722 432" bevel="" hidden="" closebutton="" background="ui\Dialogs G Tileable 256" tilebackground="" texturereplace="">
+    <gadget name="ingame-messagedialog-prompt" type="formatText" textcolor="0 0 0" textfont="EntryFields" textfontsize="12" textcentervert="" size1024="293 243 713 364">Message Text Goes Here</gadget>
+    <gadget name="ingame-OKButton" texturereplace="" z="12" textcolor="0 0 0" textfontsize="14" textfont="ButtonFont" type="button" foreground="UI\button_Greek" size1024="351 381 479 413">$$18465$$OK</gadget>
+    <gadget name="ingame-CancelButton" z="12" textcolor="0 0 0" texturereplace="" textfontsize="14" textfont="ButtonFont" type="button" foreground="UI\button_Greek" size1024="527 381 655 413">$$18466$$Cancel<command>gadgetUnreal("pregame-messagedialog")</command></gadget>
+  </gadget>
+</layout>

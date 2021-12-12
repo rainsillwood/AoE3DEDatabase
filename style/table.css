@@ -1,0 +1,24 @@
+.icon {
+    width: 128px;
+}
+
+.name {
+    width: 256px;
+}
+
+.local {
+    width: 128px;
+}
+
+.type {
+    width: 32px;
+}
+
+.desc {
+    width: 300px;
+}
+
+.effect {
+    overflow-x: auto;
+    white-space: nowrap;
+}

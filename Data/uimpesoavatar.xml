@@ -1,0 +1,78 @@
+<layout>
+  <gadget name="MPESOAvatar" type="gadget" backgroundcolor="0 0 0" backgroundalpha="0.5" size1024="0 0 1024 768" z="99">
+    <gadget name="MPESOAvatar-Panel" tilebackgroundhoriz="" type="gadget" size1024="267 161 731 496" background="ui\core_ui\wood_thick_board_tile" z="50">
+      <gadget tilebackgroundhoriz="" name="MPESOAvatar-BordersTop" type="gadget" background="ui\file_system\border_top_middle" size1024="299 161 706 169" z="4" transparent="">
+      </gadget>
+      <gadget tilebackgroundhoriz="" name="MPESOAvatar-BordersBottom" type="gadget" background="ui\file_system\border_bottom_middle" size1024="299 492 706 500" z="5" transparent="">
+      </gadget>
+      <gadget name="MPESOAvatar-BordersLeft" type="gadget" background="ui\file_system\border_side_left" size1024="267 193 275 477" tilebackgroundvert="" transparent="">
+      </gadget>
+      <gadget name="MPESOAvatar-BordersRight" type="gadget" background="ui\file_system\border_side_right" size1024="725 193 733 477" tilebackgroundvert="" z="5" transparent="">
+      </gadget>
+      <gadget name="MPESOAvatar-BordersRightTop" type="gadget" background="ui\file_system\border_top_right" size1024="701 161 733 193" z="5" transparent="" clampbackground="">
+      </gadget>
+      <gadget name="MPESOAvatar-BordersLeftTop" type="gadget" background="ui\file_system\border_top_left" size1024="267 161 299 193" z="5" transparent="" clampbackground="">
+      </gadget>
+      <gadget name="MPESOAvatar-BordersRightBottom" type="gadget" background="ui\file_system\border_bottom_right" size1024="701 468 733 500" z="6" transparent="" clampbackground="">
+      </gadget>
+      <gadget name="MPESOAvatar-BordersLeftBottom" type="gadget" background="ui\file_system\border_bottom_left" size1024="267 468 299 500" z="11" transparent="" clampbackground="">
+      </gadget>
+      <gadget name="MPESOAvatar-Label-Left" type="gadget" background="ui\core_ui\title_bar_48_left" size1024="288 168 352 232" z="14">
+      </gadget>
+      <gadget name="MPESOAvatar-Label-Middle" type="gadget" background="ui\core_ui\title_bar_48_middle" size1024="352 168 648 232" z="15">
+      </gadget>
+      <gadget name="MPESOAvatar-Label-Right" type="gadget" background="ui\core_ui\title_bar_48_right" size1024="648 168 712 232" z="14">
+      </gadget>
+      <gadget name="MPESOAvatar-Label" type="formatText" textcenterhoriz="" textcolor="255 200 3" textfont="PregameHeaders" textfontsize="22" size1024="352 178 647 213" transparent="" z="16">$$41778$$Pick an Avatar</gadget>
+      <gadget name="MPESOAvatar-ImageBackground" type="gadget" size1024="289 230 685 394" z="4" background="ui\core_ui\metal_tile">
+        <gadget name="MPESOAvatar-ImageBackground-BordersTop" type="gadget" background="ui\core_ui\metal_trim_top" size1024="319 229 661 237" z="5" transparent="">
+        </gadget>
+        <gadget name="MPESOAvatar-ImageBackground-BordersBottom" type="gadget" background="ui\core_ui\metal_trim_bottom" size1024="318 389 660 397" z="16" transparent="">
+        </gadget>
+        <gadget name="MPESOAvatar-ImageBackground-BordersLeft" type="gadget" background="ui\core_ui\metal_trim_left" size1024="287 261 295 367" tilebackgroundvert="" transparent="" z="6">
+        </gadget>
+        <gadget name="MPESOAvatar-ImageBackground-BordersRight" type="gadget" background="ui\core_ui\metal_trim_right" size1024="680 261 687 367" tilebackgroundvert="" z="6" transparent="">
+        </gadget>
+        <gadget name="MPESOAvatar-ImageBackground-BordersRightTop" type="gadget" background="ui\core_ui\metal_trim_corner_topright" size1024="655 229 687 261" z="11" transparent="" clampbackground="">
+        </gadget>
+        <gadget name="MPESOAvatar-ImageBackground-BordersLeftTop" type="gadget" background="ui\core_ui\metal_trim_corner_topleft" size1024="287 229 319 261" z="11" transparent="" clampbackground="">
+        </gadget>
+        <gadget name="MPESOAvatar-ImageBackground-BordersRightBottom" type="gadget" background="ui\core_ui\metal_trim_corner_bottomright" size1024="655 365 687 397" z="10" transparent="" clampbackground="">
+        </gadget>
+        <gadget name="MPESOAvatar-ImageBackground-BordersLeftBottom" type="gadget" background="ui\core_ui\metal_trim_corner_bottomleft" size1024="287 365 319 397" z="10" transparent="" clampbackground="">
+        </gadget>
+        <gadget name="MPESOAvatar-List" type="gadget" z="10" size1024="304 241 669 383">
+          <gadget name="MPESOAvatar-Entry1" type="button" alpha="0.0" bevelbutton="" z="12" size1024="306 243 370 307">
+          </gadget>
+          <gadget name="MPESOAvatar-Entry2" type="button" alpha="0.0" bevelbutton="" z="12" size1024="380 243 444 307">
+          </gadget>
+          <gadget name="MPESOAvatar-Entry3" type="button" alpha="0.0" bevelbutton="" z="12" size1024="454 243 518 307">
+          </gadget>
+          <gadget name="MPESOAvatar-Entry4" type="button" alpha="0.0" bevelbutton="" z="12" size1024="528 243 592 307">
+          </gadget>
+          <gadget name="MPESOAvatar-Entry5" type="button" alpha="0.0" bevelbutton="" z="12" size1024="602 243 666 307">
+          </gadget>
+          <gadget name="MPESOAvatar-Entry6" type="button" alpha="0.0" bevelbutton="" z="12" size1024="306 317 370 381">
+          </gadget>
+          <gadget name="MPESOAvatar-Entry7" type="button" alpha="0.0" bevelbutton="" z="12" size1024="380 317 444 381">
+          </gadget>
+          <gadget name="MPESOAvatar-Entry8" type="button" alpha="0.0" bevelbutton="" z="12" size1024="454 317 518 381">
+          </gadget>
+          <gadget name="MPESOAvatar-Entry9" type="button" alpha="0.0" bevelbutton="" z="12" size1024="528 317 592 381">
+          </gadget>
+          <gadget name="MPESOAvatar-Entry10" type="button" alpha="0.0" bevelbutton="" z="12" size1024="602 317 666 381">
+          </gadget>
+        </gadget>
+      </gadget>
+      <gadget name="MPESOAvatar-Slider" type="slider" z="14" sliderbuttons="" slidervertical="" sliderupbtnset="sliderUpBtn" sliderdownbtnset="sliderDownBtn" size1024="697 234 712 392">
+      </gadget>
+      <gadget name="MPESOAvatar-OKButton" type="stateButton" bevelbutton="" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="255 255 255" textcenterhoriz="" textcentervert="" z="52" texturecoords="0 0 1 0.96875" size1024="408 450 530 483">$$18465$$OK<stateentry background="ui\core_ui\button_med_normal"></stateentry><stateentry background="ui\core_ui\button_med_clicked"></stateentry><stateentry background="ui\core_ui\button_med_high"></stateentry><stateentry background="ui\core_ui\button_med_disable"></stateentry></gadget>
+      <gadget name="MPESOAvatar-CancelButton" type="stateButton" bevelbutton="" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="255 255 255" textcenterhoriz="" textcentervert="" z="51" texturecoords="0 0 1 0.96875" size1024="551 450 673 483">$$18466$$Cancel<stateentry background="ui\core_ui\button_med_normal"></stateentry><stateentry background="ui\core_ui\button_med_clicked"></stateentry><stateentry background="ui\core_ui\button_med_high"></stateentry><stateentry background="ui\core_ui\button_med_disable"></stateentry></gadget>
+      <gadget name="MPESOAvatar-Current-Container" type="gadget" size1024="305 408 622 476" z="50" background="ui\eso\avatar_picker" texturecoords="0 0 0.626953125 0.546875">
+        <gadget name="MPESOAvatar-Current-Label" type="formatText" textcenterhoriz="" textcolor="255 200 3" textfont="IPAddy" textfontsize="14" size1024="392 415 574 437" transparent="" z="16">$$41779$$Selected Avatar</gadget>
+        <gadget name="MPESOAvatar-Current" type="gadget" alpha="0.0" z="55" size1024="307 410 371 474">
+        </gadget>
+      </gadget>
+    </gadget>
+  </gadget>
+</layout>

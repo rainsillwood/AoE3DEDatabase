@@ -1,0 +1,25 @@
+<tactics>
+  <action>
+    <name stringid="38134">HandAttack</name>
+    <type>HandAttack</type>
+    <maxrange>1.75</maxrange>
+    <rate type="All">1.0 </rate>
+    <attackaction>1</attackaction>
+    <rangedlogic>1</rangedlogic>
+    <anim>HandAttack</anim>
+    <projectile>InvisibleProjectileNoTracer</projectile>
+    <impacteffect>effects\impacts\melee_no_weapon</impacteffect>
+    <throw>1</throw>
+    <impactforcemin>200.0f</impactforcemin>
+    <impactforcemax>500.0f</impactforcemax>
+    <outerdamageareadistance>.45</outerdamageareadistance>
+    <outerdamageareafactor>.5</outerdamageareafactor>
+    <impactlaunchangle>45.0</impactlaunchangle>
+    <areasortmode>Directional</areasortmode>
+    <targetground>1</targetground>
+    <numberbounces>0</numberbounces>
+    <basedamagecap>1</basedamagecap>
+    <perfectaccuracy>1</perfectaccuracy>
+  </action>
+  <tactic>Normal<action>HandAttack</action><attacktype>LogicalTypeHandUnitsAttack</attacktype><attackresponsetype>LogicalTypeHandUnitsAttack</attackresponsetype><runaway>1</runaway><autoretarget>1</autoretarget></tactic>
+</tactics>

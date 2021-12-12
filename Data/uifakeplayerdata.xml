@@ -1,0 +1,263 @@
+<layout>
+  <gadget name="FakePlayerEdit" type="gadget" size1024="4 93 1020 415" background="ui\editor\editor_background" bevel="" titlebar="Fake Player Data" windowzstyle="" closebutton="" moveable="">
+    <gadget name="FakePlayerEdit-LabelPlayerEditRow" type="gadget" size1024="4 134 1020 154">
+      <gadget name="FakePlayerEdit-PlayerNameText" textcolor="0 0 0" textfontsize="12" textfont="Arial Nodrop For SE" type="textBox" size1024="5 134 125 154">Fake Player Name</gadget>
+      <gadget name="FakePlayerEdit-CivNameText" textcolor="0 0 0" textfontsize="12" textfont="Arial Nodrop For SE" type="textBox" size1024="130 135 250 154">Fake Player Civ Name</gadget>
+      <gadget name="FakePlayerEdit-Color1RGB" textcolor="0 0 0" textfontsize="12" textfont="Arial Nodrop For SE" type="textBox" size1024="262 134 422 154">Color1-RGB</gadget>
+      <gadget name="FakePlayerEdit-Color2R" textcolor="0 0 0" textfontsize="12" textfont="Arial Nodrop For SE" type="textBox" size1024="433 134 593 154">Color2-RGB</gadget>
+      <gadget name="FakePlayerEdit-Color3R" textcolor="0 0 0" textfontsize="12" textfont="Arial Nodrop For SE" type="textBox" size1024="604 134 764 154">Color3-RGB</gadget>
+      <gadget name="FakePlayerEdit-ColorMinimapR" textcolor="0 0 0" textfontsize="12" textfont="Arial Nodrop For SE" type="textBox" size1024="775 134 935 154">ColorMinimap-RGB</gadget>
+      <gadget name="FakePlayerEdit-Fakify" textcolor="0 0 0" textfontsize="12" textfont="Arial Nodrop For SE" type="textBox" size1024="945 134 1015 154">Fakify</gadget>
+    </gadget>
+    <gadget name="FakePlayerEditRow1" type="gadget" size1024="5 158 1020 180">
+      <gadget name="FakePlayerEditRow1-PlayerNameText" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" type="textField" enableime="" size1024="5 158 125 180">
+      </gadget>
+      <gadget name="FakePlayerEditRow1-CivNameText" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" type="textField" enableime="" size1024="130 158 250 180">
+      </gadget>
+      <gadget name="FakePlayerEditRow1-Color1R" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" type="textField" size1024="262 158 312 180">
+      </gadget>
+      <gadget name="FakePlayerEditRow1-Color1G" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" type="textField" size1024="317 158 367 180">
+      </gadget>
+      <gadget name="FakePlayerEditRow1-Color1B" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" type="textField" size1024="372 158 422 180">
+      </gadget>
+      <gadget name="FakePlayerEditRow1-Color2R" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" type="textField" size1024="433 158 483 180">
+      </gadget>
+      <gadget name="FakePlayerEditRow1-Color2G" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" type="textField" size1024="488 158 538 180">
+      </gadget>
+      <gadget name="FakePlayerEditRow1-Color2B" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" type="textField" size1024="543 158 593 180">
+      </gadget>
+      <gadget name="FakePlayerEditRow1-Color3R" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" type="textField" size1024="604 158 654 180">
+      </gadget>
+      <gadget name="FakePlayerEditRow1-Color3G" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" type="textField" size1024="659 158 709 180">
+      </gadget>
+      <gadget name="FakePlayerEditRow1-Color3B" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" type="textField" size1024="714 158 764 180">
+      </gadget>
+      <gadget name="FakePlayerEditRow1-ColorMinimapR" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" type="textField" size1024="775 158 825 180">
+      </gadget>
+      <gadget name="FakePlayerEditRow1-ColorMinimapG" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" type="textField" size1024="830 158 880 180">
+      </gadget>
+      <gadget name="FakePlayerEditRow1-ColorMinimapB" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" type="textField" size1024="885 158 935 180">
+      </gadget>
+      <gadget name="FakePlayerEditRow1-Fakify" textcolor="0 0 0" textfontsize="12" textfont="Arial Nodrop For SE" type="button" bevelbutton="" size1024="945 158 1015 180">Fakify</gadget>
+    </gadget>
+    <gadget name="FakePlayerEditRow2" type="gadget" size1024="5 181 1020 203">
+      <gadget name="FakePlayerEditRow2-PlayerNameText" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" type="textField" enableime="" size1024="5 181 125 203">
+      </gadget>
+      <gadget name="FakePlayerEditRow2-CivNameText" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" type="textField" enableime="" size1024="130 181 250 203">
+      </gadget>
+      <gadget name="FakePlayerEditRow2-Color1R" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" type="textField" size1024="262 181 312 203">
+      </gadget>
+      <gadget name="FakePlayerEditRow2-Color1G" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" type="textField" size1024="317 181 367 203">
+      </gadget>
+      <gadget name="FakePlayerEditRow2-Color1B" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" type="textField" size1024="372 181 422 203">
+      </gadget>
+      <gadget name="FakePlayerEditRow2-Color2R" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" type="textField" size1024="433 181 483 203">
+      </gadget>
+      <gadget name="FakePlayerEditRow2-Color2G" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" type="textField" size1024="488 181 538 203">
+      </gadget>
+      <gadget name="FakePlayerEditRow2-Color2B" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" type="textField" size1024="543 181 593 203">
+      </gadget>
+      <gadget name="FakePlayerEditRow2-Color3R" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" type="textField" size1024="604 181 654 203">
+      </gadget>
+      <gadget name="FakePlayerEditRow2-Color3G" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" type="textField" size1024="659 181 709 203">
+      </gadget>
+      <gadget name="FakePlayerEditRow2-Color3B" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" type="textField" size1024="714 181 764 203">
+      </gadget>
+      <gadget name="FakePlayerEditRow2-ColorMinimapR" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" type="textField" size1024="775 181 825 203">
+      </gadget>
+      <gadget name="FakePlayerEditRow2-ColorMinimapG" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" type="textField" size1024="830 181 880 203">
+      </gadget>
+      <gadget name="FakePlayerEditRow2-ColorMinimapB" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" type="textField" size1024="885 181 935 203">
+      </gadget>
+      <gadget name="FakePlayerEditRow2-Fakify" textcolor="0 0 0" textfontsize="12" textfont="Arial Nodrop For SE" type="button" bevelbutton="" size1024="945 181 1015 203">Fakify</gadget>
+    </gadget>
+    <gadget name="FakePlayerEditRow3" type="gadget" size1024="5 204 1020 226">
+      <gadget name="FakePlayerEditRow3-PlayerNameText" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" type="textField" enableime="" size1024="5 204 125 226">
+      </gadget>
+      <gadget name="FakePlayerEditRow3-CivNameText" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" type="textField" enableime="" size1024="130 204 250 226">
+      </gadget>
+      <gadget name="FakePlayerEditRow3-Color1R" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" type="textField" size1024="262 204 312 226">
+      </gadget>
+      <gadget name="FakePlayerEditRow3-Color1G" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" type="textField" size1024="317 204 367 226">
+      </gadget>
+      <gadget name="FakePlayerEditRow3-Color1B" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" type="textField" size1024="372 204 422 226">
+      </gadget>
+      <gadget name="FakePlayerEditRow3-Color2R" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" type="textField" size1024="433 204 483 226">
+      </gadget>
+      <gadget name="FakePlayerEditRow3-Color2G" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" type="textField" size1024="488 204 538 226">
+      </gadget>
+      <gadget name="FakePlayerEditRow3-Color2B" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" type="textField" size1024="543 204 593 226">
+      </gadget>
+      <gadget name="FakePlayerEditRow3-Color3R" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" type="textField" size1024="604 204 654 226">
+      </gadget>
+      <gadget name="FakePlayerEditRow3-Color3G" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" type="textField" size1024="659 204 709 226">
+      </gadget>
+      <gadget name="FakePlayerEditRow3-Color3B" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" type="textField" size1024="714 204 764 226">
+      </gadget>
+      <gadget name="FakePlayerEditRow3-ColorMinimapR" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" type="textField" size1024="775 204 825 226">
+      </gadget>
+      <gadget name="FakePlayerEditRow3-ColorMinimapG" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" type="textField" size1024="830 204 880 226">
+      </gadget>
+      <gadget name="FakePlayerEditRow3-ColorMinimapB" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" type="textField" size1024="885 204 935 226">
+      </gadget>
+      <gadget name="FakePlayerEditRow3-Fakify" textcolor="0 0 0" textfontsize="12" textfont="Arial Nodrop For SE" type="button" bevelbutton="" size1024="945 204 1015 226">Fakify</gadget>
+    </gadget>
+    <gadget name="FakePlayerEditRow4" type="gadget" size1024="5 227 1020 249">
+      <gadget name="FakePlayerEditRow4-PlayerNameText" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" type="textField" enableime="" size1024="5 227 125 249">
+      </gadget>
+      <gadget name="FakePlayerEditRow4-CivNameText" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" type="textField" enableime="" size1024="130 227 250 249">
+      </gadget>
+      <gadget name="FakePlayerEditRow4-Color1R" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" type="textField" size1024="262 227 312 249">
+      </gadget>
+      <gadget name="FakePlayerEditRow4-Color1G" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" type="textField" size1024="317 227 367 249">
+      </gadget>
+      <gadget name="FakePlayerEditRow4-Color1B" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" type="textField" size1024="372 227 422 249">
+      </gadget>
+      <gadget name="FakePlayerEditRow4-Color2R" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" type="textField" size1024="433 227 483 249">
+      </gadget>
+      <gadget name="FakePlayerEditRow4-Color2G" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" type="textField" size1024="488 227 538 249">
+      </gadget>
+      <gadget name="FakePlayerEditRow4-Color2B" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" type="textField" size1024="543 227 593 249">
+      </gadget>
+      <gadget name="FakePlayerEditRow4-Color3R" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" type="textField" size1024="604 227 654 249">
+      </gadget>
+      <gadget name="FakePlayerEditRow4-Color3G" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" type="textField" size1024="659 227 709 249">
+      </gadget>
+      <gadget name="FakePlayerEditRow4-Color3B" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" type="textField" size1024="714 227 764 249">
+      </gadget>
+      <gadget name="FakePlayerEditRow4-ColorMinimapR" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" type="textField" size1024="775 227 825 249">
+      </gadget>
+      <gadget name="FakePlayerEditRow4-ColorMinimapG" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" type="textField" size1024="830 227 880 249">
+      </gadget>
+      <gadget name="FakePlayerEditRow4-ColorMinimapB" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" type="textField" size1024="885 227 935 249">
+      </gadget>
+      <gadget name="FakePlayerEditRow4-Fakify" textcolor="0 0 0" textfontsize="12" textfont="Arial Nodrop For SE" type="button" bevelbutton="" size1024="945 227 1015 249">Fakify</gadget>
+    </gadget>
+    <gadget name="FakePlayerEditRow5" type="gadget" size1024="5 250 1020 272">
+      <gadget name="FakePlayerEditRow5-PlayerNameText" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" type="textField" enableime="" size1024="5 250 125 272">
+      </gadget>
+      <gadget name="FakePlayerEditRow5-CivNameText" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" type="textField" enableime="" size1024="130 250 250 272">
+      </gadget>
+      <gadget name="FakePlayerEditRow5-Color1R" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" type="textField" size1024="262 250 312 272">
+      </gadget>
+      <gadget name="FakePlayerEditRow5-Color1G" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" type="textField" size1024="317 250 367 272">
+      </gadget>
+      <gadget name="FakePlayerEditRow5-Color1B" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" type="textField" size1024="372 250 422 272">
+      </gadget>
+      <gadget name="FakePlayerEditRow5-Color2R" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" type="textField" size1024="433 250 483 272">
+      </gadget>
+      <gadget name="FakePlayerEditRow5-Color2G" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" type="textField" size1024="488 250 538 272">
+      </gadget>
+      <gadget name="FakePlayerEditRow5-Color2B" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" type="textField" size1024="543 250 593 272">
+      </gadget>
+      <gadget name="FakePlayerEditRow5-Color3R" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" type="textField" size1024="604 250 654 272">
+      </gadget>
+      <gadget name="FakePlayerEditRow5-Color3G" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" type="textField" size1024="659 250 709 272">
+      </gadget>
+      <gadget name="FakePlayerEditRow5-Color3B" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" type="textField" size1024="714 250 764 272">
+      </gadget>
+      <gadget name="FakePlayerEditRow5-ColorMinimapR" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" type="textField" size1024="775 250 825 272">
+      </gadget>
+      <gadget name="FakePlayerEditRow5-ColorMinimapG" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" type="textField" size1024="830 250 880 272">
+      </gadget>
+      <gadget name="FakePlayerEditRow5-ColorMinimapB" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" type="textField" size1024="885 250 935 272">
+      </gadget>
+      <gadget name="FakePlayerEditRow5-Fakify" textcolor="0 0 0" textfontsize="12" textfont="Arial Nodrop For SE" type="button" bevelbutton="" size1024="945 250 1015 272">Fakify</gadget>
+    </gadget>
+    <gadget name="FakePlayerEditRow6" type="gadget" size1024="5 273 1020 295">
+      <gadget name="FakePlayerEditRow6-PlayerNameText" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" type="textField" enableime="" size1024="5 273 125 295">
+      </gadget>
+      <gadget name="FakePlayerEditRow6-CivNameText" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" type="textField" enableime="" size1024="130 273 250 295">
+      </gadget>
+      <gadget name="FakePlayerEditRow6-Color1R" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" type="textField" size1024="262 273 312 295">
+      </gadget>
+      <gadget name="FakePlayerEditRow6-Color1G" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" type="textField" size1024="317 273 367 295">
+      </gadget>
+      <gadget name="FakePlayerEditRow6-Color1B" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" type="textField" size1024="372 273 422 295">
+      </gadget>
+      <gadget name="FakePlayerEditRow6-Color2R" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" type="textField" size1024="433 273 483 295">
+      </gadget>
+      <gadget name="FakePlayerEditRow6-Color2G" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" type="textField" size1024="488 273 538 295">
+      </gadget>
+      <gadget name="FakePlayerEditRow6-Color2B" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" type="textField" size1024="543 273 593 295">
+      </gadget>
+      <gadget name="FakePlayerEditRow6-Color3R" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" type="textField" size1024="604 273 654 295">
+      </gadget>
+      <gadget name="FakePlayerEditRow6-Color3G" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" type="textField" size1024="659 273 709 295">
+      </gadget>
+      <gadget name="FakePlayerEditRow6-Color3B" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" type="textField" size1024="714 273 764 295">
+      </gadget>
+      <gadget name="FakePlayerEditRow6-ColorMinimapR" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" type="textField" size1024="775 273 825 295">
+      </gadget>
+      <gadget name="FakePlayerEditRow6-ColorMinimapG" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" type="textField" size1024="830 273 880 295">
+      </gadget>
+      <gadget name="FakePlayerEditRow6-ColorMinimapB" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" type="textField" size1024="885 273 935 295">
+      </gadget>
+      <gadget name="FakePlayerEditRow6-Fakify" textcolor="0 0 0" textfontsize="12" textfont="Arial Nodrop For SE" type="button" bevelbutton="" size1024="945 273 1015 295">Fakify</gadget>
+    </gadget>
+    <gadget name="FakePlayerEditRow7" type="gadget" size1024="5 296 1020 318">
+      <gadget name="FakePlayerEditRow7-PlayerNameText" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" type="textField" enableime="" size1024="5 296 125 318">
+      </gadget>
+      <gadget name="FakePlayerEditRow7-CivNameText" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" type="textField" enableime="" size1024="130 296 250 318">
+      </gadget>
+      <gadget name="FakePlayerEditRow7-Color1R" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" type="textField" size1024="262 296 312 318">
+      </gadget>
+      <gadget name="FakePlayerEditRow7-Color1G" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" type="textField" size1024="317 296 367 318">
+      </gadget>
+      <gadget name="FakePlayerEditRow7-Color1B" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" type="textField" size1024="372 296 422 318">
+      </gadget>
+      <gadget name="FakePlayerEditRow7-Color2R" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" type="textField" size1024="433 296 483 318">
+      </gadget>
+      <gadget name="FakePlayerEditRow7-Color2G" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" type="textField" size1024="488 296 538 318">
+      </gadget>
+      <gadget name="FakePlayerEditRow7-Color2B" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" type="textField" size1024="543 296 593 318">
+      </gadget>
+      <gadget name="FakePlayerEditRow7-Color3R" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" type="textField" size1024="604 296 654 318">
+      </gadget>
+      <gadget name="FakePlayerEditRow7-Color3G" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" type="textField" size1024="659 296 709 318">
+      </gadget>
+      <gadget name="FakePlayerEditRow7-Color3B" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" type="textField" size1024="714 296 764 318">
+      </gadget>
+      <gadget name="FakePlayerEditRow7-ColorMinimapR" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" type="textField" size1024="775 296 825 318">
+      </gadget>
+      <gadget name="FakePlayerEditRow7-ColorMinimapG" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" type="textField" size1024="830 296 880 318">
+      </gadget>
+      <gadget name="FakePlayerEditRow7-ColorMinimapB" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" type="textField" size1024="885 296 935 318">
+      </gadget>
+      <gadget name="FakePlayerEditRow7-Fakify" textcolor="0 0 0" textfontsize="12" textfont="Arial Nodrop For SE" type="button" bevelbutton="" size1024="945 296 1015 318">Fakify</gadget>
+    </gadget>
+    <gadget name="FakePlayerEditRow8" type="gadget" size1024="5 319 1020 341">
+      <gadget name="FakePlayerEditRow8-PlayerNameText" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" type="textField" enableime="" size1024="5 319 125 341">
+      </gadget>
+      <gadget name="FakePlayerEditRow8-CivNameText" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" type="textField" enableime="" size1024="130 319 250 341">
+      </gadget>
+      <gadget name="FakePlayerEditRow8-Color1R" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" type="textField" size1024="262 319 312 341">
+      </gadget>
+      <gadget name="FakePlayerEditRow8-Color1G" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" type="textField" size1024="317 319 367 341">
+      </gadget>
+      <gadget name="FakePlayerEditRow8-Color1B" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" type="textField" size1024="372 319 422 341">
+      </gadget>
+      <gadget name="FakePlayerEditRow8-Color2R" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" type="textField" size1024="433 319 483 341">
+      </gadget>
+      <gadget name="FakePlayerEditRow8-Color2G" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" type="textField" size1024="488 319 538 341">
+      </gadget>
+      <gadget name="FakePlayerEditRow8-Color2B" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" type="textField" size1024="543 319 593 341">
+      </gadget>
+      <gadget name="FakePlayerEditRow8-Color3R" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" type="textField" size1024="604 319 654 341">
+      </gadget>
+      <gadget name="FakePlayerEditRow8-Color3G" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" type="textField" size1024="659 319 709 341">
+      </gadget>
+      <gadget name="FakePlayerEditRow8-Color3B" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" type="textField" size1024="714 319 764 341">
+      </gadget>
+      <gadget name="FakePlayerEditRow8-ColorMinimapR" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" type="textField" size1024="775 319 825 341">
+      </gadget>
+      <gadget name="FakePlayerEditRow8-ColorMinimapG" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" type="textField" size1024="830 319 880 341">
+      </gadget>
+      <gadget name="FakePlayerEditRow8-ColorMinimapB" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" type="textField" size1024="885 319 935 341">
+      </gadget>
+      <gadget name="FakePlayerEditRow8-Fakify" textcolor="0 0 0" textfontsize="12" textfont="Arial Nodrop For SE" type="button" bevelbutton="" size1024="945 319 1015 341">Fakify</gadget>
+    </gadget>
+    <gadget name="FakePlayerEditUnfakifySelected" type="button" bevelbutton="" textfont="Arial Nodrop For SE" textfontsize="12" size1024="781 371 871 396">Unfakify Selected</gadget>
+    <gadget name="FakePlayerEditCancelButton" type="button" bevelbutton="" textfont="Arial Nodrop For SE" textfontsize="12" size1024="901 371 971 396">$$18457$$Close</gadget>
+  </gadget>
+</layout>

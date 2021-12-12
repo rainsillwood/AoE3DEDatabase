@@ -1,0 +1,11 @@
+<tactics>
+  <action>
+    <name stringid="69155">Heal</name>
+    <type>Heal</type>
+    <maxrange>12</maxrange>
+    <rate type="LogicalTypeHealed">5.0 </rate>
+    <active>0</active>
+    <anim>Heal</anim>
+  </action>
+  <tactic>Normal<action>Heal</action></tactic>
+</tactics>

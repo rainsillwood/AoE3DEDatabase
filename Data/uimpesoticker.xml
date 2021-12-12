@@ -1,0 +1,16 @@
+<layout>
+  <gadget name="AMPTicker-container" type="gadget" size1024="723 0 1024 106" z="5">
+    <gadget name="AMPTicker-background" type="gadget" size1024="723 0 1024 106" background="ui\eso\eso_main_ui" texturecoords="0.4101563 0.08007813 0.9980469 0.2871094" z="5">
+    </gadget>
+    <gadget name="AMPTicker-text" type="gadget" size1024="734 7 992 97" z="10">
+      <gadget name="AMPTicker-Ticker1" type="formatText" size1024="782 7 992 97" textfont="StatAreaText" textfontsize="12" textcolor="255 255 255" hidden="">
+      </gadget>
+      <gadget name="AMPTicker-Image1" type="gadget" size1024="734 32 766 64" background="ui\techs\industrialize\industrialize" hidden="">
+      </gadget>
+      <gadget name="AMPTicker-Ticker2" type="formatText" size1024="782 7 992 97" textfont="StatAreaText" textfontsize="12" textcolor="255 255 255" hidden="">
+      </gadget>
+      <gadget name="AMPTicker-Image2" type="gadget" size1024="734 32 766 64" background="ui\eso\eso_icon_clan_pages" hidden="">
+      </gadget>
+    </gadget>
+  </gadget>
+</layout>

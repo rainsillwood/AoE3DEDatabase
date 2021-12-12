@@ -1,0 +1,12 @@
+<layout>
+  <gadget name="MercEdit" type="gadget" size1024="20 80 440 353" background="ui\editor\editor_background" bevel="" titlebar="$$26824$$Merc Editor" closebutton="" windowzstyle="" moveable="">
+    <gadget name="MercEdit_MercList" type="list" background="ui\editor\editor_background" sunkenbevel="" showselect="" selectedcolor="255 255 255" buttonsize1024="175 15" scrollvert="" titlebar="$$27172$$(unit, buildlimit)" locktitlebarmove="" size1024="30 110 250 342">
+    </gadget>
+    <gadget name="MercEdit_AddMerc" type="button" bevel="" textfont="Arial nobold nodrop" textfontsize="12" tooltiptext="$$33980$$Add a new mercenary to the list." size1024="260 110 430 132">$$27263$$Add Mercenary</gadget>
+    <gadget name="MercEdit_EditMerc" type="button" bevel="" textfont="Arial nobold nodrop" textfontsize="12" tooltiptext="$$33982$$Edit the selected mercenary." size1024="260 140 430 162">$$33979$$Edit Mercenary</gadget>
+    <gadget name="MercEdit_DeleteMerc" type="button" bevel="" textfont="Arial nobold nodrop" textfontsize="12" tooltiptext="$$33981$$Delete the selected mercenary." size1024="260 170 430 192">$$27264$$Delete Mercenary</gadget>
+    <gadget name="MercEdit_DisableMercChk" type="checkButton" textfont="Arial nobold nodrop" textcolor="0 0 0" textfontsize="12" size1024="260 200 430 222">$$79807$$Disable Default Mercs</gadget>
+    <gadget name="MercEdit_OkBtn" type="button" bevel="" size1024="260 290 430 312" z="11">$$18465$$Ok</gadget>
+    <gadget name="MercEdit_CancelBtn" type="button" bevel="" size1024="260 320 430 342" z="11">$$18466$$Cancel</gadget>
+  </gadget>
+</layout>
