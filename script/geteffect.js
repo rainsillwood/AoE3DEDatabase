@@ -41,7 +41,7 @@ function actionType(action, allactions, proto) {
     let unit = getProto(proto);
 
     if (!!unit) {
-        let tactic = getXml('./data/tactics/' + unit.tactics);
+        let tactic = getXml('./Data/tactics/' + unit.tactics);
         if (allactions == 'CommandAdd') {
             return action;
         }
