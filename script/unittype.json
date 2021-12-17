@@ -1,4 +1,7 @@
 {
+    "abstracttypeherdablemagnet": "吸引蓄养的动物",
+    "abstracttypehuntablemagnet": "吸引猎捕的动物",
+
     "resource": "资源",
     "tree": "树木",
     "fish": "鱼群",
@@ -103,5 +106,28 @@
     "militaryunit": "军事",
     "economic": "经济",
     "economicunit": "经济",
-    "poisonattachment": "射弹"
+    "poisonattachment": "射弹",
+    "abstractwoodcrate": "木材捆",
+    "abstractfoodcrate": "食物箱",
+    "abstractcoincrate": "钱币箱",
+    "abstractdock": "码头",
+    "logicaltypepickableoutlaw": "亡命之徒",
+    "abstractconsulateunit": "领事馆单位",
+    "abstractconsulatesiegefortress": "领事馆要塞攻城单位",
+    "abstractconsulatesiegeindustrial": "领事馆工厂攻城单位",
+    "abstractmercflailiphant": "连枷象",
+    "hcgatherpointpri3": "自动收集单位",
+    "abstractcountasgatherer": "资源收集单位",
+    "logicaltypeinfantryvolleytactic": "步兵齐射战术单位",
+    "logicaltypesettlerbuildlimit": "拓荒者限制单位",
+    "abstracttradingpost": "交易站",
+    "abstractcallminutemen": "召集分钟人单位",
+    "logicaltypepickablemerc": "雇佣兵",
+    "embellishmentclass": "装饰",
+    "socket": "贸易站地点",
+    "abstracttradefoodcrate": "贸易路线食物",
+    "abstracttradewoodcrate": "贸易路线木材",
+    "abstracttradecoincrate": "贸易路线钱币",
+    "abstracttradecrate": "贸易路线资源",
+    "ships": "船只"
 }

@@ -19,13 +19,13 @@ function targetType(target, type) {
     if (!target) return '未知';
     switch (type) {
         case 'ProtoUnit':
-            return ' <ruby>' + ((!unitTypes[target.toLowerCase()]) ? (units[target].displayname) : (unitTypes[target.toLowerCase()])) + '<rt>' + target + '</rt></ruby> ';
+            return ' <ruby>' + ((!unitTypes[target.toLowerCase()]) ? (getProto(target).displayname) : (unitTypes[target.toLowerCase()])) + '<rt>' + target + '</rt></ruby> ';
         case 'Resource':
             return ' <ruby>' + ((!unitTypes[target.toLowerCase()]) ? '未知' : unitTypes[target.toLowerCase()]) + '<rt>' + target + '</rt></ruby> ';
         case 'Player':
             return ' 玩家 ';
         case 'Tech':
-            return ' <ruby>' + techs[target].displayname + '<rt>' + target + '</rt></ruby>';
+            return ' <ruby>' + getTech(target).displayname + '<rt>' + target + '</rt></ruby>';
         case 'techAll':
             return ' 所有科技 ';
         case 'techWithFlag':
@@ -38,7 +38,7 @@ function targetType(target, type) {
 function actionType(action, allactions, proto) {
     if (allactions == '1') return strings['42044'].__text;
     if (!action) return ' 未知 ';
-    let unit = units[proto];
+    let unit = getProto(proto);
 
     if (!!unit) {
         let tactic = getXml('./data/tactics/' + unit.tactics);
@@ -188,12 +188,12 @@ function subType(effect) {
                 info = strings['42177'].__text;
                 info = info.replace('%1!d!', effect._amount * 1);
                 info = info.replace('%2!s!', target);
-                return ('启用科技 <ruby>' + ((!techs[effect._tech].displayname) ? techs[effect._tech].displayname : '未知') + '<rt>' + effect._tech + '</rt></ruby> 时：' + info);
+                return ('启用科技 <ruby>' + ((!getTech(effect._tech).displayname) ? getTech(effect._tech).displayname : '未知') + '<rt>' + effect._tech + '</rt></ruby> 时：' + info);
             }
         case 'ResourceIfTechObtainable':
             {
                 info = strings['42054'].__text;
-                info = info.replace('%1s', '启用科技 <ruby>' + ((!techs[effect._tech].displayname) ? techs[effect._tech].displayname : '未知') + '<rt>' + effect._tech + '</rt></ruby> 时：');
+                info = info.replace('%1s', '启用科技 <ruby>' + ((!getTech(effect._tech).displayname) ? getTech(effect._tech).displayname : '未知') + '<rt>' + effect._tech + '</rt></ruby> 时：');
                 info = info.replace('%2.2f', effect._amount * 1);
                 info = info.replace('%3s', resource);
                 return info;
@@ -225,7 +225,7 @@ function subType(effect) {
     }
 }
 
-function getEffect(effect) {
+function getEffect(effect, tech) {
     let information = '';
     switch (effect._type) {
         //开/关科技
@@ -243,7 +243,7 @@ function getEffect(effect) {
                         information = '激活';
                         break;
                 }
-                information = information + '科技 <ruby>' + ((!techs[effect.__text].displayname) ? '未知' : techs[effect.__text].displayname + '<rt>' + effect.__text + '</rt></ruby> ');
+                information = information + '科技 <ruby>' + ((!getTech(effect.__text).displayname) ? '未知' : getTech(effect.__text).displayname + '<rt>' + effect.__text + '</rt></ruby> ');
                 break;
             }
             //改变数据
@@ -262,7 +262,7 @@ function getEffect(effect) {
             {
                 information = strings['42080'].__text;
                 information = information.replace('%1s', targetType(effect.target.__text, effect.target._type));
-                information = information.replace('%2s', actionType(effect._command, 'CommandAdd', effect.target.__text));
+                information = information.replace('%2s', actionType((!effect._command) ? effect._proto : effect._command, 'CommandAdd', effect.target.__text));
                 information = information.replace('启用', '增加');
                 information = information.replace('操作', '命令');
                 break;
@@ -276,7 +276,7 @@ function getEffect(effect) {
             //更改名称
         case 'SetName':
             {
-                information = (!effect._proto ? ('科技 ' + techs[effect._tech].displayname) : ('单位 ' + units[effect._proto].displayname)) + ' 更名为 ' + strings[effect._newname];
+                information = (!effect._proto ? ('科技 ' + getTech(effect._tech).displayname) : ('单位 ' + getProto(effect._proto).displayname)) + ' 更名为 ' + strings[effect._newname];
                 break;
             }
             //输出消息
@@ -294,5 +294,5 @@ function getEffect(effect) {
         default:
             information = JSON.stringify(effect);
     }
-    return information;
+    return information.replace('%1s', tech);
 }

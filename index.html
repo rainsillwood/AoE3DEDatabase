@@ -25,37 +25,37 @@
         function updateData() {
             let idata = {};
             //缓存String
-            idata = getXml('./data/strings/SimplifiedChinese/stringtabley.xml');
+            idata = getXml('./Data/strings/SimplifiedChinese/stringtabley.xml');
             idata = idata.stringtable.language.string;
             for (i in idata) {
                 strings[idata[i].__locid] = idata[i];
             }
-            idata = getXml('./data/strings/SimplifiedChinese/unithelpstrings.xml');
+            idata = getXml('./Data/strings/SimplifiedChinese/unithelpstrings.xml');
             idata = idata.stringtable.language.string;
             for (i in idata) {
                 strings[idata[i].__locid] = idata[i];
             }
-            idata = getXml('./data/strings/SimplifiedChinese/unithelpstringsx.xml');
+            idata = getXml('./Data/strings/SimplifiedChinese/unithelpstringsx.xml');
             idata = idata.stringtable.language.string;
             for (i in idata) {
                 strings[idata[i].__locid] = idata[i];
             }
-            idata = getXml('./data/strings/SimplifiedChinese/unithelpstringsy.xml');
+            idata = getXml('./Data/strings/SimplifiedChinese/unithelpstringsy.xml');
             idata = idata.stringtable.language.string;
             for (i in idata) {
                 strings[idata[i].__locid] = idata[i];
             }
             //缓存科技
-            idata = getXml('./data/techtreey.xml');
+            idata = getXml('./Data/techtreey.xml');
             idata = idata.techtree.tech;
             for (i in idata) {
                 let temp = idata[i];
                 temp.displayname = getString(temp.displaynameid);
                 temp.rollovertext = getString(temp.rollovertextid);
-                techs[temp._name] = temp;
+                techs[temp._name.toLowerCase()] = temp;
             }
             //缓存单位&动作
-            idata = getXml('./data/protoy.xml');
+            idata = getXml('./Data/protoy.xml');
             idata = idata.proto.unit;
             for (i in idata) {
                 let temp = idata[i];
@@ -63,10 +63,10 @@
                 temp.rollovertext = getString(temp.rollovertextid);
                 temp.editorname = getString(temp.editornameid);
                 temp.shortrollovertext = getString(temp.shortrollovertextid);
-                units[idata[i]._name] = temp;
+                units[idata[i]._name.toLowerCase()] = temp;
             }
             //缓存文明
-            idata = getXml('./data/civs.xml');
+            idata = getXml('./Data/civs.xml');
             idata = idata.civs.civ;
             for (i in idata) {
                 civs[idata[i].name] = idata[i];
@@ -78,7 +78,7 @@
                     continue;
                 }
                 url = url.toLowerCase();
-                idata = getXml('./data/' + url);
+                idata = getXml('./Data/' + url);
                 if (!idata) {
                     continue;
                 }
@@ -86,13 +86,13 @@
                 homecitys[civs[i].name.toLowerCase()] = idata;
             }
             //缓存宝藏
-            idata = getXml('./data/nuggets.xml');
+            idata = getXml('./Data/nuggets.xml');
             idata = idata.nuggetmanager.nuggets.nugget;
             for (i in idata) {
                 nuggets[idata[i].name] = idata[i];
             }
             //缓存伤害类型
-            idata = getXml('./data/damagetypes.xml');
+            idata = getXml('./Data/damagetypes.xml');
             idata = idata.damagetypes.damagetype;
             for (i in idata) {
                 let temp = idata[i];
@@ -100,7 +100,7 @@
                 damageTypes[temp.unittype] = temp;
             }
             /*/缓存命令
-            idata = getXml('./data/protounitcommands.xml');
+            idata = getXml('./Data/protounitcommands.xml');
             idata = idata.protounitcommands.protounitcommand;
             for (i in idata) {
                 let temp = idata[i];
@@ -142,7 +142,7 @@
             document.getElementById('info').innerHTML = info;
         }
 
-        function getTech() {
+        function getTechs() {
             let txt = '';
             for (i in techs) {
                 let tech = techs[i];
@@ -151,7 +151,7 @@
             document.getElementById('output').innerHTML = txt;
         }
 
-        function getUnit() {
+        function getProtos() {
             let txt = '';
             for (i in units) {
                 let unit = units[i];
@@ -269,15 +269,15 @@
                     info = info + '<tr>';
                     info = info + '<td>' + civs[i].name + '</td>';
                     info = info + '<td>' + strings[civs[i].displaynameid] + '</td>';
-                    let techeffect = returnList(techs[civs[i].agetech.tech].effects.effect);
+                    let techeffect = returnList(getTech(civs[i].agetech.tech).effects.effect);
                     info = info + '<td><table border="1">';
                     for (j in techeffect) {
                         if (techeffect[j]._type == 'TechStatus') {
                             txt = txt + '\t\t' + techeffect[j].__text + '\n';
                             info = info + '<tr>';
                             info = info + '<td>' + techeffect[j].__text + '</td>';
-                            info = info + '<td>' + strings[techs[techeffect[j].__text].displaynameid] + '</td>';
-                            info = info + '<td>' + strings[techs[techeffect[j].__text].rollovertextid] + '</td>';
+                            info = info + '<td>' + strings[getTech(techeffect[j].__text).displaynameid] + '</td>';
+                            info = info + '<td>' + strings[getTech(techeffect[j].__text).rollovertextid] + '</td>';
                             info = info + '</tr>';
                         }
                     }
@@ -287,8 +287,8 @@
                         if (techeffect[j]._type == 'Data' && techeffect[j]._subtype == 'Enable') {
                             info = info + '<tr>';
                             info = info + '<td>' + techeffect[j].target.__text + '</td>';
-                            info = info + '<td>' + strings[units[techeffect[j].target.__text].displaynameid] + '</td>';
-                            info = info + '<td>' + strings[units[techeffect[j].target.__text].rollovertextid] + '</td>';
+                            info = info + '<td>' + strings[getProto(techeffect[j].target.__text).displaynameid] + '</td>';
+                            info = info + '<td>' + strings[getProto(techeffect[j].target.__text).rollovertextid] + '</td>';
                             info = info + '</tr>';
                         }
                     }
@@ -332,13 +332,15 @@
                 for (j in techs) {
                     let temp = techs[j];
                     if (temp._name.toLowerCase() == value.toLowerCase()) {
-                        info = info + '<td class="local">' + strings[temp.displaynameid] + '</td>';
-                        info = info.replace('%picture%', '<img src="./data/wpfg/' + returnNode(temp.icon).replace(/\\/g, '\/') + '" height="128" width="128">');
+                        info = info + '<td class="local">' + temp.displayname + '</td>';
+                        info = info.replace('%picture%', '<img src="./Data/wpfg/' + returnNode(temp.icon).replace(/\\/g, '\/') + '" height="128" width="128">');
                         info = info + '<td class="type">科技</td>';
-                        info = info + '<td class="desc">' + strings[temp.rollovertextid] + '</td><td><div class="effect">';
-                        let effects = returnList(temp.effects.effect);
-                        for (k in effects) {
-                            info = info + getEffect(effects[k]) + '<br>';
+                        info = info + '<td class="desc">' + temp.rollovertext + '</td><td><div class="effect">';
+                        if (!!temp.effects) {
+                            let effects = returnList(temp.effects.effect);
+                            for (k in effects) {
+                                info = info + getEffect(effects[k], temp.displayname) + '<br>';
+                            }
                         }
                         info = info + '</div></td>';
                         break;
@@ -348,7 +350,7 @@
                     let temp = units[j];
                     if (temp._name.toLowerCase() == value.toLowerCase()) {
                         info = info + '<td>' + strings[temp.displaynameid] + '</td>';
-                        info = info.replace('%picture%', '<img src="./data/wpfg/' + temp.icon.replace(/\\/g, '\/') + '">');
+                        info = info.replace('%picture%', '<img src="./Data/wpfg/' + temp.icon.replace(/\\/g, '\/') + '">');
                         info = info + '<td>单位</td>';
                         info = info + '<td>' + strings[temp.rollovertextid] + '</td>';
                         info = info + '<td>' + '</td>';
@@ -421,8 +423,8 @@
         <div style='width: 450;float: left;'>
             <button type='button' onclick='updateData()'>更新数据</button>
             </p>
-            <button type='button' onclick='getTech()'>科技</button>
-            <button type='button' onclick='getUnit()'>单位</button>
+            <button type='button' onclick='getTechs()'>科技</button>
+            <button type='button' onclick='getProtos()'>单位</button>
             <button type='button' onclick='getCard()'>卡片</button>
             <button type='button' onclick='getStrings()'>语言</button>
             </p>

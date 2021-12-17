@@ -37,6 +37,16 @@ function getString(id) {
         return "找不到名称";
     return strings[id].__text;
 }
+//返回string
+function getTech(id) {
+    if (!id) return id;
+    return techs[id.toLowerCase()];
+}
+//返回string
+function getProto(id) {
+    if (!id) return id;
+    return units[id.toLowerCase()];
+}
 //小数+
 function Add(num1, num2) {
     let baseNum, baseNum1, baseNum2;
