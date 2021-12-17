@@ -3,7 +3,10 @@ function getXml(url) {
     let xml;
     let json;
     let x2js = new X2JS();
-    $.get(url, function(data) { xml = data }, 'xml');
+    $.get(url, function (data) { xml = data }, 'xml');
+    if (xml === undefined) {
+        $.get(url.replace('.xml', ''), function (data) { xml = data }, 'xml');
+    }
     if (xml === undefined) { return xml; }
     json = x2js.xml2json(xml);
     return json;
@@ -12,7 +15,7 @@ function getXml(url) {
 function getJson(url) {
     $.ajaxSetup({ async: false });
     let json;
-    $.get(url, function(data) { json = data; }, 'json');
+    $.get(url, function (data) { json = data; }, 'json');
     return json;
 }
 //返回一个节点或者返回空
