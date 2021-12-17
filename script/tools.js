@@ -4,9 +4,9 @@ function getXml(url) {
     let json;
     let x2js = new X2JS();
     $.get(url, function (data) { xml = data }, 'xml');
-    if (xml === undefined) {
+    /*if (xml === undefined) {
         $.get(url.replace('.xml', ''), function (data) { xml = data }, 'xml');
-    }
+    }*/
     if (xml === undefined) { return xml; }
     json = x2js.xml2json(xml);
     return json;
