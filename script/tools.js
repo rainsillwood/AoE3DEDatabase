@@ -43,7 +43,7 @@ function getString(id) {
 //返回string
 function getTech(id) {
     if (!id) return id;
-    return techs[id.toLowerCase()];
+    return (!techs[id.toLowerCase()] ? '找不到此科技' : techs[id.toLowerCase()]);
 }
 //返回string
 function getProto(id) {

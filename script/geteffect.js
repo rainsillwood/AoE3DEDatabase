@@ -243,10 +243,10 @@ function getEffect(effect, tech) {
                         information = '激活';
                         break;
                 }
-                information = information + '科技 <ruby>' + ((!getTech(effect.__text).displayname) ? '未知' : getTech(effect.__text).displayname + '<rt>' + effect.__text + '</rt></ruby> ');
+                information = information + '科技 <ruby>' + ((!getTech(effect.__text).displayname) ? '未知' : getTech(effect.__text).displayname) + '<rt>' + effect.__text + '</rt></ruby> ';
                 break;
             }
-            //改变数据
+        //改变数据
         case 'Data':
             {
                 information = subType(effect);
@@ -257,7 +257,7 @@ function getEffect(effect, tech) {
                 information = subType(effect);
                 break;
             }
-            //增加命令
+        //增加命令
         case 'CommandAdd':
             {
                 information = strings['42080'].__text;
@@ -267,27 +267,27 @@ function getEffect(effect, tech) {
                 information = information.replace('操作', '命令');
                 break;
             }
-            //更改单位
+        //更改单位
         case 'TransformUnit':
             {
                 information = targetType(effect._fromprotoid, 'ProtoUnit') + ' 变成 ' + targetType(effect._toprotoid, 'ProtoUnit');
                 break;
             }
-            //更改名称
+        //更改名称
         case 'SetName':
             {
                 information = (!effect._proto ? ('科技 ' + getTech(effect._tech).displayname) : ('单位 ' + getProto(effect._proto).displayname)) + ' 更名为 ' + strings[effect._newname];
                 break;
             }
-            //输出消息
+        //输出消息
         case 'TextOutput':
             information = '输出消息：『' + returnNode(strings[effect.__text]) + '』';
             break;
-            //输出消息
+        //输出消息
         case 'TextOutputTechName':
             information = '输出消息：『' + returnNode(strings[effect.__text]) + '』';
             break;
-            //输出消息
+        //输出消息
         case 'TextEffectOutput':
             information = '输出消息：『' + returnNode(strings[effect._selfmsg]) + '』/『' + returnNode(strings[effect._playermsg]) + '』';
             break;
