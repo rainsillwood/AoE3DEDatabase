@@ -108,7 +108,7 @@
     <string _locid="18407" symbol="cStringIdleMilitaryBanner">单击此旗帜即可找到您空闲的军事单位。</string>
     <string _locid="18408" symbol="cStringTownBellBanner">单击此旗帜即可依序前往所有已敲响警钟的堡垒。</string>
     <string _locid="18410" symbol="cStringMenu">单击此图标即可查看游戏内的菜单。</string>
-    <string _locid="18417" symbol="cStringRangeLabel">攻击距离：</string>
+    <string _locid="18417" symbol="cStringRangeLabel">距离：</string>
     <string _locid="18418" symbol="cStringDetailedHelp">单击即可查看关于此单位的详细帮助。</string>
     <string _locid="18419" symbol="cStringWoodGatherers">木材收集者：{numGatherers(wood)}</string>
     <string _locid="18420" symbol="cStringGoldGatherers">钱币收集者：{numGatherers(gold)}</string>
@@ -134,7 +134,7 @@
     <string _locid="18456" symbol="cStringGamePaused">游戏暂停</string>
     <string _locid="18457" symbol="cStringClose">关闭</string>
     <string _locid="18458" symbol="cStringBack">返回</string>
-    <string _locid="18459" symbol="cStringAoMVersion">《帝国时代 III：决定版》：版本 {gameVersion}    简体中文模组：版本v1.21.1201 by 摩根布莱克@百度贴吧</string>
+    <string _locid="18459" symbol="cStringAoMVersion">《帝国时代 III：决定版》：版本 {gameVersion}    简体中文模组：版本v1.21.1211 by 摩根布莱克@百度贴吧</string>
     <string _locid="18460" symbol="cStringMicrosoft">(c) and (P) 2020 Microsoft Corporation。保留所有权利。</string>
     <string _locid="18461" symbol="cStringWarning">警告：本计算机程序受到版权法和国际条约的保护。未经授权擅自复制或分发本程序或其中任何部分内容可能将受到严厉的民事及刑事制裁，并将在法律许可的范围内受到最大程度的起诉。</string>
     <string _locid="18462" symbol="cStringBlinkVideo">使用 Bink Video。(c) 1997-2020 by RAD Game Tools, Inc.</string>
@@ -689,7 +689,7 @@
     <string _locid="20298">非场景物体</string>
     <string _locid="20299">视野范围</string>
     <string _locid="20300">隐藏单位边框</string>
-    <string _locid="20301">切换攻击距离范围</string>
+    <string _locid="20301">切换距离范围</string>
     <string _locid="20302">切换小地图</string>
     <string _locid="20303">场景</string>
     <string _locid="20304">抬升/降低地形</string>
@@ -7427,7 +7427,7 @@
     <string _locid="36842" symbol="cStringChatHistoryHeader">聊天历史记录</string>
     <string _locid="36843" symbol="cStringChatHistoryCounter" comment="1 - min, 2 - max, 3 - total">聊天记录第 %1d 至 %2d 页 (共 %3d 页)</string>
     <string _locid="36844" symbol="cStringChatHistoryEmpty">聊天记录第 0 至 0 页 (共 0 页)</string>
-    <string _locid="36845" symbol="cStringChatHistoryOutOfRange">超出攻击距离</string>
+    <string _locid="36845" symbol="cStringChatHistoryOutOfRange">超出范围</string>
     <string _locid="36846">16 名火枪兵</string>
     <string _locid="36847">8 名骠骑兵</string>
     <string _locid="36848">7 名掷弹兵</string>
@@ -12428,12 +12428,12 @@
     <string _locid="42035" symbol="cStringHandCavalry">近战骑兵</string>
     <string _locid="42036" symbol="cStringWarShip">军舰</string>
     <string _locid="42037" symbol="cStringScout">侦察兵</string>
-    <string _locid="42038" symbol="cStringIncreaseMaxRangeEffect">%1!s!：%2!s!的最大攻击距离 +%3!.0f!%%</string>
-    <string _locid="42039" symbol="cStringAddMaxRangeEffect">%1!1s!：%3!3s!的最大攻击距离增加 %2!2.2f!</string>
-    <string _locid="42040" symbol="cStringSetMaxRangeEffect">%1s：将%2s的最大攻击距离设置为 %3.2f</string>
-    <string _locid="42041" symbol="cStringIncreaseMinRangeEffect">%1!s!：%2!s!的最小攻击距离 +%3!.0f!%%</string>
-    <string _locid="42042" symbol="cStringAddMinRangeEffect">%1!1s!：%3!3s!的最小攻击距离增加 %2!2.2f!</string>
-    <string _locid="42043" symbol="cStringSetMinRangeEffect">%1s：将%2s的最小攻击距离设置为 %3.2f</string>
+    <string _locid="42038" symbol="cStringIncreaseMaxRangeEffect">%1!s!：%2!s!的最大距离 +%3!.0f!%%</string>
+    <string _locid="42039" symbol="cStringAddMaxRangeEffect">%1!1s!：%3!3s!的最大距离增加 %2!2.2f!</string>
+    <string _locid="42040" symbol="cStringSetMaxRangeEffect">%1s：将%2s的最大距离设置为 %3.2f</string>
+    <string _locid="42041" symbol="cStringIncreaseMinRangeEffect">%1!s!：%2!s!的最小距离 +%3!.0f!%%</string>
+    <string _locid="42042" symbol="cStringAddMinRangeEffect">%1!1s!：%3!3s!的最小距离增加 %2!2.2f!</string>
+    <string _locid="42043" symbol="cStringSetMinRangeEffect">%1s：将%2s的最小距离设置为 %3.2f</string>
     <string _locid="42044" symbol="cStringAllActionsEffect">所有操作</string>
     <string _locid="42045" symbol="cStringIncreaseDamageEffect">%1!s!：%2!s!的伤害 +%3!.0f!%%</string>
     <string _locid="42046" symbol="cStringAddDamageEffect">%1!1s!：%3!3s!的伤害增加 %2!2.2f!</string>
@@ -12619,8 +12619,8 @@
     <string _locid="42224">寻找并收集塞米诺尔地图。</string>
     <string _locid="42225">波曼逃走了。也许他留下了什么可以暗示他逃亡地点的线索。只有英雄及拓荒者可以拾取宝藏。</string>
     <string _locid="42226" symbol="cStringStatDamageRollover">%1s (%2s) 伤害</string>
-    <string _locid="42227" symbol="cStringStatRangeRollover">%1d 攻击距离</string>
-    <string _locid="42228" symbol="cStringStatRangeRolloverArea">%1d 的攻击距离，覆盖面积为 %2d</string>
+    <string _locid="42227" symbol="cStringStatRangeRollover">%1d 距离</string>
+    <string _locid="42228" symbol="cStringStatRangeRolloverArea">%1d 的距离，覆盖面积为 %2d</string>
     <string _locid="42229" symbol="cStringStatBonusDamageRollover1">对%2!2s! (%3!3s!) 造成 %1!1.2f! 倍的伤害</string>
     <string _locid="42230" symbol="cStringStatBonusDamageRollover2">对%2!2s! (%3!3s!) 造成 %1!1d! 倍的伤害</string>
     <string _locid="42231" symbol="cStringPet">宠物</string>
@@ -19908,16 +19908,16 @@
     <string _locid="49591">宫殿的金色版本，呈现美丽的金色墙板和红砖入口。</string>
     <string _locid="49592">广场 (原始配色)</string>
     <string _locid="49593">广场的原始配色版本。</string>
-    <string _locid="49594">广场 (别样配色)</string>
-    <string _locid="49595">广场的别样配色版本，带有不同颜色的市场摊位。</string>
+    <string _locid="49594">广场 (其他配色)</string>
+    <string _locid="49595">广场的其他配色版本，带有不同颜色的市场摊位。</string>
     <string _locid="49596">集市 (原始配色)</string>
     <string _locid="49597">集市的原始配色版本。</string>
-    <string _locid="49598">集市 (别样配色)</string>
-    <string _locid="49599">集市的别样配色版本，带有交叉阴影图案的屋顶，以及粉红色、绿色、红色和黄色的市场摊位。</string>
+    <string _locid="49598">集市 (其他配色)</string>
+    <string _locid="49599">集市的其他配色版本，带有交叉阴影图案的屋顶，以及粉红色、绿色、红色和黄色的市场摊位。</string>
     <string _locid="49600">滨水区 (原始配色)</string>
     <string _locid="49601">滨水区的原始配色版本。</string>
-    <string _locid="49602">滨水区 (别样配色)</string>
-    <string _locid="49603">滨水区的别样配色版本，屋顶上有红色图样薄板。</string>
+    <string _locid="49602">滨水区 (其他配色)</string>
+    <string _locid="49603">滨水区的其他配色版本，屋顶上有红色图样薄板。</string>
     <string _locid="49604">船</string>
     <string _locid="49605">商船和渔船停靠在滨水区码头。</string>
     <string _locid="49606">档案图标解锁：带有包装礼物的 Xbox 主题安迪卡车。</string>
@@ -20068,7 +20068,7 @@
     <string _locid="49751">与墨西哥的大部分地区一样，该州早期也有一段动荡不安的历史，最初一世纪中，此州曾于西班牙、法国及不同的墨西哥势力间轮番易主。</string>
     <string _locid="49752">克雷塔罗州</string>
     <string _locid="49753">在一场游戏中使用探险家造成 1865 伤害。</string>
-    <string _locid="49754">该州的全称是“自由主权下的克雷塔罗·德阿特阿加州”，用来纪念何塞·玛丽·阿尔塔加·马加利亚内斯在改革战争和法国武装干预时期为墨西哥独立做出的奉献。</string>
+    <string _locid="49754">该州的全称是“自由主权下的克雷塔罗·德阿特阿加州”，用来纪念何塞·玛丽亚·阿特阿加·马加利亚内斯在改革战争和法国武装干预时期为墨西哥独立做出的奉献。</string>
     <string _locid="49755">索诺拉州</string>
     <string _locid="49756">在一场游戏中于原住民聚落建造 35 个单位。</string>
     <string _locid="49757">索诺拉州是抵抗欧洲影响力的雅基人的故乡，著名反抗军领袖卡耶梅就是出自该地的其中一人。</string>
@@ -20080,7 +20080,7 @@
     <string _locid="49763">塔毛利帕斯是墨西哥灌溉农田面积最大的州。</string>
     <string _locid="49764">新莱昂州</string>
     <string _locid="49765">在一场游戏中使用阿兹特克人摧毁 10 座建筑。</string>
-    <string _locid="49766">西班牙征服者屡次想在新莱昂州建立殖民地，但都被奇奇美卡人的突袭所挫败。</string>
+    <string _locid="49766">西班牙征服者屡次想在新莱昂州建立殖民地，但都被奇奇梅卡人的突袭所挫败。</string>
     <string _locid="49767">科阿韦拉州</string>
     <string _locid="49768">在得克萨斯地图中赢得一场小规模战斗或多人游戏。</string>
     <string _locid="49769">1824 年，墨西哥合众国宣布独立并颁布宪法，划分出“科阿韦拉及得克萨斯州”为其构成州分之一，并包含得克萨斯、科阿韦拉、新莱昂三个区域。</string>
@@ -20103,7 +20103,7 @@
     <string _locid="49786">在一场小规模战斗或多人游戏中战胜阿兹特克人。</string>
     <string _locid="49787">阿兹特克的属国特拉斯卡拉通过与西班牙结盟，摆脱了统治者，又在过程中脱离西班牙的控制，获得相对上的独立，最终成为现代墨西哥最小的州。</string>
     <string _locid="49788">科利马州</string>
-    <string _locid="49789">在一场游戏中训练 20 个海盗单位。</string>
+    <string _locid="49789">在一场游戏中训练 20 个海盗单位。（所有欧洲文明和中国人）</string>
     <string _locid="49790">17 世纪时，科利马州各港口经常停靠装载珍贵货物的马尼拉大帆船，因而成为海盗侵略的目标。</string>
     <string _locid="49791">阿瓜斯卡连特斯州</string>
     <string _locid="49792">从您的主城运送 2 座工厂。</string>
@@ -20125,7 +20125,7 @@
     <string _locid="49808">1853 年，暴兵威廉·沃克带着 45 名美国人，占领了首都拉巴斯，并宣布成立独立的共和国，但很快就被墨西哥军队赶走。</string>
     <string _locid="49809">金塔纳罗奥州</string>
     <string _locid="49810">在一场游戏中于一场比赛中获得 3000 经验值。</string>
-    <string _locid="49811">安德烈斯·金塔纳·罗奥是墨西哥独立斗争期间的一名律师、作家、革命者，并为《美洲画报》等革命报刊撰稿。</string>
+    <string _locid="49811">安德烈斯·金塔纳·罗奥是墨西哥独立斗争期间的一名律师、作家、革命者，并为《El Ilustrador Americano》等革命报刊撰稿。</string>
     <string _locid="49812">南下加利福尼亚州</string>
     <string _locid="49813">在下加利福尼亚地图中发动革命，成为墨西哥。</string>
     <string _locid="49814">波菲里奥·迪亚斯总统为政期间，将下加利福尼亚州一分为二，吸引外商来此投资矿业、开发航线，促进了国家发展。</string>
@@ -20142,10 +20142,10 @@
     <string _locid="49825">索卡洛广场的原始配色版本。</string>
     <string _locid="49826">索卡洛广场 (其他配色)</string>
     <string _locid="49827">索卡洛广场的其他配色版本。</string>
-    <string _locid="49828">国家宫殿 (原始配色)</string>
-    <string _locid="49829">国家宫殿的原始配色版本。</string>
-    <string _locid="49830">国家宫殿 (其他配色)</string>
-    <string _locid="49831">国家宫殿的其他配色版本。</string>
+    <string _locid="49828">国家宫 (原始配色)</string>
+    <string _locid="49829">国家宫的原始配色版本。</string>
+    <string _locid="49830">国家宫 (其他配色)</string>
+    <string _locid="49831">国家宫的其他配色版本。</string>
     <string _locid="49832">大都会大教堂 (原始配色)</string>
     <string _locid="49833">大都会大教堂的原始配色版本。</string>
     <string _locid="49834">大都会大教堂 (其他配色)</string>
@@ -20197,7 +20197,7 @@
     <string _locid="49880">大都会大教堂的淡蓝色版本。</string>
     <string _locid="49881">大都会大教堂 (白色)</string>
     <string _locid="49882">大都会大教堂的白色配色版本。</string>
-    <string _locid="49883">夜晚的城市&lt;color=1.0, 0.0, 0.0&gt;警告：选择该自定义选项会应用神庙 (原始配色) 自定义选项。&lt;/color&gt;</string>
+    <string _locid="49883">夜晚的城市。&lt;color=1.0, 0.0, 0.0&gt;警告：选择该自定义选项会应用神庙 (原始配色) 自定义选项。&lt;/color&gt;</string>
     <string _locid="60001" symbol="cStringCivNameJapanese">日本人</string>
     <string _locid="60002" symbol="cStringCivNameChinese">中国人</string>
     <string _locid="60003" symbol="cStringCivNameIndians">印度人</string>
@@ -33271,9 +33271,9 @@
     <string _locid="80987">运送一辆堡垒马车，守卫边境。</string>
     <string _locid="80988">11 名叛兵</string>
     <string _locid="80989">11 名匪贼</string>
-    <string _locid="80990">牧人变成牧民骑手，他们可在近战攻击中对步兵造成额外 300% 伤害</string>
+    <string _locid="80990">皮衣牛仔变成牧民骑手，他们可在近战攻击中对步兵造成额外 300% 伤害</string>
     <string _locid="80991">牧民骑手</string>
-    <string _locid="80992">皮衣牛仔变成义勇乡民，会消耗食物，占用较少的人口数。叛兵攻击距离更长，射速更快，但每发攻击伤害略微减少。</string>
+    <string _locid="80992">叛兵变成匪贼，会消耗食物，占用较少的人口数。叛兵攻击距离更长，射速更快，但每发攻击伤害略微减少。</string>
     <string _locid="80993">义勇乡民</string>
     <string _locid="80994">义勇乡民</string>
     <string _locid="80995">您的拓荒者变成皮衣牛仔，可从牲畜中收集资源，并配备左轮手枪。</string>
@@ -34315,7 +34315,7 @@
     <string _locid="85014" referencedplayerid="1" gamecharacter="斯蒂芬·迪凯特" soundfilename="ZDECA0030" portraitfilename="resources\art\units\spc\marine\marine_officer_portrait.png">现在可以带着划舟和被俘的海盗船进入码头了，但必须隐匿起来，以免敌人察觉。美国海军陆战队终于要扬眉吐气了！</string>
     <string _locid="85015" referencedplayerid="1" gamecharacter="斯蒂芬·迪凯特" soundfilename="ZDECA0035" portraitfilename="resources\art\units\spc\marine\marine_officer_portrait.png">离那些哨站远点！他们能发现我们的隐匿单位！</string>
     <string _locid="85016" referencedplayerid="1" gamecharacter="斯蒂芬·迪凯特" soundfilename="ZDECA0040" portraitfilename="resources\art\units\spc\marine\marine_officer_portrait.png">不好！海盗发现我们了！</string>
-    <string _locid="85017" referencedplayerid="1" gamecharacter="斯蒂芬·迪凯特" soundfilename="ZDECA0045" portraitfilename="resources\art\units\spc\marine\marine_officer_portrait.png">准备用火药炸掉费城号航母！海盗很快就会包围我们。不惜一切代价，严防死守！</string>
+    <string _locid="85017" referencedplayerid="1" gamecharacter="斯蒂芬·迪凯特" soundfilename="ZDECA0045" portraitfilename="resources\art\units\spc\marine\marine_officer_portrait.png">准备用火药炸掉费城号！海盗很快就会包围我们。不惜一切代价，严防死守！</string>
     <string _locid="85018" referencedplayerid="3" gamecharacter="柏柏里海盗" soundfilename="ZGENR0340" portraitfilename="resources\art\units\mercenaries\barbary_corsair\barbary_corsair_portrait.png">美国人正在夺回护卫舰！拉响警报！</string>
     <string _locid="85019" referencedplayerid="3" gamecharacter="柏柏里海盗" soundfilename="ZGENR0345" portraitfilename="resources\art\units\mercenaries\barbary_corsair\barbary_corsair_portrait.png">准备武器！装填大炮！将码头内的美国人，赶尽杀绝！</string>
     <string _locid="85020" referencedplayerid="3" gamecharacter="柏柏里海盗" soundfilename="ZGENR0350" portraitfilename="resources\art\units\mercenaries\barbary_corsair\barbary_corsair_portrait.png">不！别让这些美国佬逃掉！快！快阻止他们，你们这些懒鬼！</string>
@@ -34367,7 +34367,7 @@
     <string _locid="85105">南方保皇党军队</string>
     <string _locid="85108" referencedplayerid="1" gamecharacter="神甫" soundfilename="ZHIDA0000" portraitfilename="resources\art\units\spc\hidalgo\spc_hidalgo_portrait.png">我的孩子...西班牙人一直蹂躏和掌控我们的人民。是时候行动了。为了捍卫自己的权利，我们必须把西班牙人赶出这片土地！</string>
     <string _locid="85109" referencedplayerid="1" gamecharacter="神甫" soundfilename="ZHIDA0005" portraitfilename="resources\art\units\spc\hidalgo\spc_hidalgo_portrait.png">拿起武器！敌人的死期到了。</string>
-    <string _locid="85110" referencedplayerid="2" gamecharacter="将军" soundfilename="ZALLE0000" portraitfilename="resources\art\units\spc\allende\spc_allende_portrait.png">你的魄力是我们的心之所向！带领你的军队解放拉贾河以北的城镇吧，以南的城镇就交给我们。</string>
+    <string _locid="85110" referencedplayerid="2" gamecharacter="将军" soundfilename="ZALLE0000" portraitfilename="resources\art\units\spc\allende\spc_allende_portrait.png">你的魄力是我们的心之所向！带领你的军队解放拉哈河以北的城镇吧，以南的城镇就交给我们。</string>
     <string _locid="85111" referencedplayerid="2" gamecharacter="将军" soundfilename="ZALLE0005" portraitfilename="resources\art\units\spc\allende\spc_allende_portrait.png">镇上的人都会使用步枪。但要驱赶西班牙人，需要的不仅仅是步兵。</string>
     <string _locid="85112" referencedplayerid="1" gamecharacter="神甫" soundfilename="ZHIDA0010" portraitfilename="resources\art\units\spc\hidalgo\spc_hidalgo_portrait.png">河流下游有养马的牧场，旁边是炮兵制造厂。我们需要夺下这些建筑来进攻山里的西班牙基地。</string>
     <string _locid="85113" referencedplayerid="5" gamecharacter="塞拉亚市民" soundfilename="ZGENR0380" portraitfilename="resources\art\units\villagers\villager_portrait.png">谢谢你！击退了西班牙人，我们终于可以自由耕种了。</string>
@@ -34385,7 +34385,7 @@
     <string _locid="85125">解放一个城镇来获得对其建筑的控制权。</string>
     <string _locid="85126">革命军队兵分两路，但两支军队都很强大，足以解放离他们最近的城镇。河流以北的所有城镇在被解放后将站在北方军队一边，而河流以南的所有城镇将加入南方军队。</string>
     <string _locid="85127">解放这片地区的其他城镇。</string>
-    <string _locid="85128">每解放一个城镇都会解锁骑兵和炮兵等新单位。记住：河流以北的所有城镇在被解放后将站在北方军队一边，而河流以南的所有城镇将加入南方军队。被解放后，您们双方的部队都可以渡过拉贾河，互相支援。</string>
+    <string _locid="85128">每解放一个城镇都会解锁骑兵和炮兵等新单位。记住：河流以北的所有城镇在被解放后将站在北方军队一边，而河流以南的所有城镇将加入南方军队。被解放后，您们双方的部队都可以渡过拉哈河，互相支援。</string>
     <string _locid="85129">将西班牙在东南山区的两个基地全部摧毁。</string>
     <string _locid="85130">西班牙的军队盘踞在山区。如果您要围攻他们的两个大本营，你将需要占领所有的当地城镇并训练炮兵。</string>
     <string _locid="85131">偷取西班牙人的粮食供给。</string>
@@ -34430,7 +34430,7 @@
     <string _locid="85232">美国人正在用船渡过尼亚加拉河。在被标记的地区建立两个哨站，以防止其进一步越境。</string>
     <string _locid="85233">在被困的英国正规军被攻陷之前赶到他们身边。</string>
     <string _locid="85234">美国人困住了正在撤退的英国正规军。解救他们，使他们能够重新加入战斗。</string>
-    <string _locid="85235">约克郡</string>
+    <string _locid="85235">约克</string>
     <string _locid="85236">考福纳瓦格</string>
     <string _locid="85237">莱纳佩人</string>
     <string _locid="85238">莱纳佩人</string>
@@ -34573,8 +34573,8 @@
     <string _locid="90125" symbol="cStringDecreaseBuildLimitEffect" comment="1 - effect, 2 - how much was changed">%1!s!：建造限制 %2!.0f!%%</string>
     <string _locid="90126" symbol="cStringDecreaseWorkRateEffect">%1!s!：%3!s!的%2!s!工作速率 %4!.0f!%%</string>
     <string _locid="90127" symbol="cStringDecreaseCostEffect">%1!s!：%2!s!成本 %3!.0f!%%</string>
-    <string _locid="90128" symbol="cStringDecreaseMaxRangeEffect">%1!s!：%2!s!的最大攻击距离 %3!.0f!%%</string>
-    <string _locid="90129" symbol="cStringDecreaseMinRangeEffect">%1!s!：%2!s!的最小攻击距离 %3!.0f!%%</string>
+    <string _locid="90128" symbol="cStringDecreaseMaxRangeEffect">%1!s!：%2!s!的最大距离 %3!.0f!%%</string>
+    <string _locid="90129" symbol="cStringDecreaseMinRangeEffect">%1!s!：%2!s!的最小距离 %3!.0f!%%</string>
     <string _locid="90130" symbol="cStringDecreaseDamageEffect">%1!s!：%2!s!的伤害 %3!.0f!%%</string>
     <string _locid="90131" symbol="cStringDecreaseDamageAreaEffect">%1!s!：%2!s!的伤害区域 %3!.0f!%%</string>
     <string _locid="90132" symbol="cStringDecreaseDamageBonusEffect">%1!s!：%2!s!对%3!s!的伤害加成 %4!.0f!%%</string>
@@ -36142,7 +36142,7 @@
     <string _locid="101504">每次船运都有免费的山羊</string>
     <string _locid="101505">沙漠突袭者可以掠夺建筑、获取资源。擅长对抗建筑。</string>
     <string _locid="101506">摩洛哥人</string>
-    <string _locid="101507">10 名巴巴里步弓手</string>
+    <string _locid="101507">10 名柏柏里步弓手</string>
     <string _locid="101508">6 名柏柏尔火绳枪兵</string>
     <string _locid="101509">7 名贝都因骑马弓兵</string>
     <string _locid="101510">队伍：1 座塞瓦斯托波尔臼炮</string>
@@ -37046,8 +37046,8 @@
     <string _locid="102593">泽纳塔骑兵</string>
     <string _locid="102594">CAV 泽纳塔骑兵</string>
     <string _locid="102595">柏柏尔泽纳塔的雇佣骑兵，手持盾牌和标枪。擅长对付骑兵和炮兵。</string>
-    <string _locid="102596">森纳尔骑兵</string>
-    <string _locid="102597">CAV 森纳尔骑兵</string>
+    <string _locid="102596">森纳尔马兵</string>
+    <string _locid="102597">CAV 森纳尔马兵</string>
     <string _locid="102598">来自苏丹的重装近战雇佣骑兵，生命值较高并且身穿双重装甲。擅长对付轻型步兵和炮兵。</string>
     <string _locid="102599">达荷美女战士</string>
     <string _locid="102600">INF 达荷美女战士</string>
@@ -37173,7 +37173,7 @@
     <string _locid="102719">苏丹红海贸易</string>
     <string _locid="102720">所有骑兵和突击步兵获得额外护甲抵御近战攻击。</string>
     <string _locid="102721">苏丹绗缝护甲</string>
-    <string _locid="102722">允许从苏丹交易站招募阿斯卡里兵和森纳尔骑兵。</string>
+    <string _locid="102722">允许从苏丹交易站招募阿斯卡里兵和森纳尔马兵。</string>
     <string _locid="102723">PROP 木材箱</string>
     <string _locid="102724">PROP 食物箱</string>
     <string _locid="102725">PROP 钱币箱</string>
@@ -37802,20 +37802,20 @@
     <string _locid="103373" symbol="cStringAge2Mercenary">商业时代雇佣兵</string>
     <string _locid="103374" symbol="cStringAge3Mercenary">要塞时代雇佣兵</string>
     <string _locid="103375" symbol="cStringAge4Mercenary">工业时代雇佣兵</string>
-    <string _locid="103376">佣兵小栈森纳尔骑兵</string>
+    <string _locid="103376">佣兵小栈森纳尔马兵</string>
     <string _locid="103377">佣兵小栈钩铳手</string>
     <string _locid="103378">佣兵小栈阿斯卡里兵</string>
     <string _locid="103379">佣兵小栈达荷美女战士</string>
     <string _locid="103380">佣兵小栈泽纳塔骑兵</string>
     <string _locid="103381">佣兵小栈加特林驼兵</string>
     <string _locid="103382">佣兵小栈卡努里卫兵</string>
-    <string _locid="103383">归化的森纳尔骑兵</string>
-    <string _locid="103384">归化的加农炮</string>
-    <string _locid="103385">归化的阿斯卡里兵</string>
-    <string _locid="103386">归化的达荷美女战士</string>
-    <string _locid="103387">归化的泽纳塔骑兵</string>
-    <string _locid="103388">归化的加特林驼兵</string>
-    <string _locid="103389">归化的卡努里卫兵</string>
+    <string _locid="103383">归化森纳尔马兵</string>
+    <string _locid="103384">归化钩铳手</string>
+    <string _locid="103385">归化阿斯卡里兵</string>
+    <string _locid="103386">归化达荷美女战士</string>
+    <string _locid="103387">归化泽纳塔骑兵</string>
+    <string _locid="103388">归化加特林驼兵</string>
+    <string _locid="103389">归化卡努里卫兵</string>
     <string _locid="103390">苏丹地方部队</string>
     <string _locid="103391">祖玛岩学识剩余时间</string>
     <string _locid="103392">建造田地</string>
@@ -37973,7 +37973,7 @@
     <string _locid="104533">反骑兵战术</string>
     <string _locid="104534">标枪骑兵获得更多生命值，且远程攻击重装骑兵时能造成更多伤害。</string>
     <string _locid="104535">雇用达荷美女战士</string>
-    <string _locid="104536">雇用森纳尔骑兵</string>
+    <string _locid="104536">雇用森纳尔马兵</string>
     <string _locid="104537">雇用达荷美女战士</string>
     <string _locid="104538">大幅提升利菲迪骑士的作战能力，但同时提升他们占用的人口空间。</string>
     <string _locid="104539">增加富拉尼步弓手的攻击力和生命值。</string>
@@ -38015,9 +38015,9 @@
     <string _locid="104575">您的村民正在进行历法仪式，力求减少进入新时代的成本消耗。\n当前效益：\n{danceDescription}</string>
     <string _locid="104576">运送 1 名战斗祭司。允许在社区广场进行历法仪式，随着时间推移，该仪式将减少您进入新时代的成本消耗。</string>
     <string _locid="104577">历法仪式</string>
-    <string _locid="104578">造反了！奇奇梅克反抗军会将您当前现有的作战小屋战士封为武士。村民被击败后会变成战士。\n • 美洲狮长矛兵变成豹游荡勇士\n • 郊狼游击兵变成鹰游击勇士\n • 奥托米投石兵变成箭勇士</string>
-    <string _locid="104579">奇奇梅克之乱</string>
-    <string _locid="104580">奇奇梅克之乱！</string>
+    <string _locid="104578">造反了！奇奇梅卡反抗军会将您当前现有的作战小屋战士封为武士。村民被击败后会变成战士。\n • 美洲狮长矛兵变成豹游荡勇士\n • 郊狼游击兵变成鹰游击勇士\n • 奥托米投石兵变成箭勇士</string>
+    <string _locid="104579">奇奇梅卡之乱</string>
+    <string _locid="104580">奇奇梅卡之乱！</string>
     <string _locid="104581">%s发动了革命！</string>
     <string _locid="104582">根据您在这场游戏中已发送的船运数，每批船运运送 1 名拓荒者。</string>
     <string _locid="104583">卡片抵达时，会让您获得 2 次可用的船运。</string>
@@ -38090,21 +38090,21 @@
     <string _locid="104811">远古智慧</string>
     <string _locid="104812">允许研究中美洲市场升级。</string>
     <string _locid="104813">天人合一</string>
-    <string _locid="104814">克鲁佐布复仇者靠近自然资源时会变得更强大。</string>
+    <string _locid="104814">克鲁索布复仇者靠近自然资源时会变得更强大。</string>
     <string _locid="104815">隐匿炸药筒</string>
     <string _locid="104816">具有隐匿能力可使用的炸药筒。</string>
     <string _locid="104817">玛丽亚·尤卡布</string>
     <string _locid="104818">运送具有治疗和招降单位能力的女祭司。</string>
-    <string _locid="104819">普特的计划</string>
+    <string _locid="104819">波特的计划</string>
     <string _locid="104820">古老奇琴伊察传统</string>
     <string _locid="104821">古老科沃伊传统</string>
     <string _locid="104822">古老亚兰传统</string>
     <string _locid="104823">树木的寿命更长。</string>
-    <string _locid="104824">村民转变成蛇首标枪手，而非处于击败状态。</string>
+    <string _locid="104824">村民转变成投矛战士，而非处于击败状态。</string>
     <string _locid="104825">运送貘，数目为您在这场游戏中已运送的船运数。</string>
     <string _locid="104826">诺赫佩滕</string>
     <string _locid="104827">坎恩克</string>
-    <string _locid="104828">步兵单位变成克鲁佐布士兵。骑兵单位变成牲畜盗贼。马厩变成作战小屋。解锁玛雅蛇首标枪手和作战小屋。</string>
+    <string _locid="104828">步兵单位变成克鲁索布士兵。骑兵单位变成牲畜盗贼。马厩变成作战小屋。解锁玛雅投矛战士和作战小屋。</string>
     <string _locid="104829">运送玛雅要塞。</string>
     <string _locid="104830">佩滕伊察</string>
     <string _locid="104831">奇琴伊察</string>
@@ -38464,7 +38464,7 @@
     <string _locid="110166">运送 1 辆哨站马车。西班牙移民可以增加获得的经验值，大幅增加您获得船运的速度。在进入商业时代后，“募集”能力得到增强，可以招募一群强力的长枪兵。\n •长枪兵不会损失生命值</string>
     <string _locid="110167">巡逻：派遣一些长枪兵去赶走敌方骑兵！</string>
     <string _locid="110168">长枪兵募集</string>
-    <string _locid="110169">在%s城镇中派遣了反劫掠巡逻队！</string>
+    <string _locid="110169">%s城镇召集了反劫掠巡逻队！</string>
     <string _locid="110170">您现在无法召集巡逻队。</string>
     <string _locid="110171">卡宾枪攻击 (蓄力)</string>
     <string _locid="110172">卡宾枪攻击</string>
@@ -39441,7 +39441,7 @@
     <string _locid="112096">增加莱纳佩火枪兵的建造限制。</string>
     <string _locid="112097">莱纳佩仪式</string>
     <string _locid="112098">缩短战吼能力的冷却时间。</string>
-    <string _locid="112099">莱纳佩人公会</string>
+    <string _locid="112099">莱纳佩氏族</string>
     <string _locid="112100">增加村民从磨坊和农田处采集食物的速度。</string>
     <string _locid="112101">莱纳佩三姐妹</string>
     <string _locid="112102">NAT SPC 莱纳佩村民</string>
@@ -39504,17 +39504,17 @@
     <string _locid="112159">立即将所有主城船运的资源加入到资源库中。</string>
     <string _locid="112160">迪凯特资源</string>
     <string _locid="112161">海盗船</string>
-    <string _locid="112162">巴巴里海盗船。悬挂着巴巴里海盗旗的军舰。</string>
+    <string _locid="112162">柏柏里海盗船。悬挂着柏柏里海盗旗的军舰。</string>
     <string _locid="112163">海盗船</string>
     <string _locid="112164">SPC AM 海盗船</string>
-    <string _locid="112165">悬挂巴巴里海盗旗</string>
-    <string _locid="112166">将巴巴里海盗旗悬挂至船身上方，防止其被敌军攻击。如果您的单位当前正处于战斗状态，此能力则无法使用。能力激活期间您的单位不能进行攻击。</string>
+    <string _locid="112165">悬挂柏柏里海盗旗</string>
+    <string _locid="112166">将柏柏里海盗旗悬挂至船身上方，防止其被敌军攻击。如果您的单位当前正处于战斗状态，此能力则无法使用。能力激活期间您的单位不能进行攻击。</string>
     <string _locid="112167">隐藏</string>
     <string _locid="112168">使您的单位在短时间内无法被敌方单位发现。如果您的单位当前正处于战斗状态，此能力则无法使用。</string>
     <string _locid="112169">费城号</string>
     <string _locid="112170">SPC AM 费城号</string>
     <string _locid="112171">被俘的美国护卫舰</string>
-    <string _locid="112172">被巴巴里海盗俘获的美国军舰。技术先进，功能强大。</string>
+    <string _locid="112172">被柏柏里海盗俘获的美国军舰。技术先进，功能强大。</string>
     <string _locid="112173">美国护卫舰</string>
     <string _locid="112174">SPC AM 护卫舰</string>
     <string _locid="112175">突袭私掠船</string>
@@ -39697,9 +39697,9 @@
     <string _locid="112352">VIL 码头马车</string>
     <string _locid="112353">运送 1 辆原住民使馆运输架。原住民使馆和城镇中心获得耶稣会和中美洲功能。</string>
     <string _locid="112354">特拉斯卡拉同盟</string>
-    <string _locid="112355">运送拓荒者，数目为您在这场游戏中已运送的船运数 3 倍。</string>
+    <string _locid="112355">运送拓荒者，数目为您已建造的垦殖园数目 3 倍。</string>
     <string _locid="112356">特拉斯卡拉纺织业</string>
-    <string _locid="112357">运送玛雅蛇首标枪手，数目为您在这场游戏中已运送的船运数 4 倍。</string>
+    <string _locid="112357">运送玛雅投矛战士，数目为您在这场游戏中已运送的船运数 4 倍。</string>
     <string _locid="112358">佐齐尔人起义</string>
     <string _locid="112359">所有现有和新建的垦殖园均产生含有 350 单位食物的玛雅作物。</string>
     <string _locid="112360">玛雅作物</string>
@@ -39739,7 +39739,7 @@
     <string _locid="112394">抵达速度极快！运送 1 辆堡垒马车，并允许从哨站和堡垒召集民兵。</string>
     <string _locid="112395">特里亚斯防御工事</string>
     <string _locid="112396">提供稳定的木材细流。加快村民收集木材的速度，并延长树木的寿命。</string>
-    <string _locid="112397">马德雷山脉森林</string>
+    <string _locid="112397">马德雷山森林</string>
     <string _locid="112398">垦殖园的所有可用科技现在可以免费研究且立即完成。</string>
     <string _locid="112399">巴希奥</string>
     <string _locid="112400">运送 1 辆教堂马车。大幅加快大教堂的经验值产生速度。</string>
@@ -39749,7 +39749,7 @@
     <string _locid="112404">转变成大教堂来提供城镇改良技术和独有的改良技术。</string>
     <string _locid="112405">额外运送 1 名将军。</string>
     <string _locid="112406">独立英雄</string>
-    <string _locid="112407">原住民使馆获得远程攻击能力，就像作战小屋一样。使其能够训练原住民豹勇士和鹰勇士。</string>
+    <string _locid="112407">原住民使馆获得远程攻击能力，就像作战小屋一样。使其能够训练原住民豹战士和鹰战士。</string>
     <string _locid="112408">阿兹特克村庄</string>
     <string _locid="112409">运送半肥的奶牛，数目为您在这场游戏中已运送的船运数。</string>
     <string _locid="112410">瓜达拉哈拉放牧法</string>
@@ -39789,7 +39789,7 @@
     <string _locid="112447">墨西哥神父</string>
     <string _locid="112448">英勇墨西哥神父。他会探索、战斗、建造教堂和交易站。他不会死亡，当他因昏迷而倒下时，您可以派人去救他。</string>
     <string _locid="112449">大幅增加鼓舞之旗的效果范围，而且伤害提升的幅度更大。</string>
-    <string _locid="112450">华瑞兹之地</string>
+    <string _locid="112450">华雷斯之地</string>
     <string _locid="112451">与萨波特克人结盟，并允许在原住民使馆内研究萨波特克科技。</string>
     <string _locid="112452">萨波特克山谷</string>
     <string _locid="112453">巧克力的出口使您能够获得来自您主城的钱币箱。每隔 2 分钟会得到 1 箱 (最多可持续 30 分钟)。</string>
@@ -39958,7 +39958,7 @@
     <string _locid="112616">联合起来，我们的文化攻势就能让他们屈服！</string>
     <string _locid="112617">我们一直在等着搜刮你的收入。我想现在是时候了。</string>
     <string _locid="112618">你可能不喜欢我的独占事业，但你一定会喜欢我们自制的酒，而且价格合适。</string>
-    <string _locid="112619">你埋头书本的时候，我在操练火枪。我知道这对于一个祭司来说并不寻常。</string>
+    <string _locid="112619">你埋头书本的时候，我在操练火枪。我知道这对于一个神父来说并不寻常。</string>
     <string _locid="112620">你发展的这么慢，是因为你觉得我这样的老人追不上吗？低估我的实力是你犯的最后一个错误。</string>
     <string _locid="112621">下一个时代可会比刀剑更加致命。</string>
     <string _locid="112622">在愤怒的叛军面前，你的科技实力也救不了你！</string>
@@ -40114,11 +40114,11 @@
     <string _locid="112801">7 名拓荒者\n\n可训练炮兵和建造堡垒\n\n重点：要塞时代功能</string>
     <string _locid="112802">中美洲人</string>
     <string _locid="112803">危地马拉市</string>
-    <string _locid="112804">下加利福尼亚州</string>
+    <string _locid="112804">下加利福尼亚</string>
     <string _locid="112805">拓荒者成为暴兵\n\n2 辆驻站马车\n\n重点：亡命之徒、地图控制、资源细流</string>
     <string _locid="112806">暴兵</string>
     <string _locid="112807">拉巴斯</string>
-    <string _locid="112808">尤卡坦州</string>
+    <string _locid="112808">尤卡坦</string>
     <string _locid="112809">叛民成为西裔尤卡坦人\n\n可免费研究垦殖园和工厂升级\n\n重点：垦殖园、拓荒者、步兵</string>
     <string _locid="112810">西裔尤卡坦人</string>
     <string _locid="112811">梅里达</string>
@@ -40127,14 +40127,14 @@
     <string _locid="112814">格兰德河</string>
     <string _locid="112815">拉雷多</string>
     <string _locid="112816">玛雅人</string>
-    <string _locid="112817">劫匪、墨西哥士兵和革命军成为克鲁佐布士兵。马厩成为作战小屋。失去联邦卡片。</string>
+    <string _locid="112817">劫匪、墨西哥士兵和革命军成为克鲁索布士兵。马厩成为作战小屋。失去联邦卡片。</string>
     <string _locid="112818">玛雅人</string>
-    <string _locid="112819">圣克鲁兹神殿</string>
-    <string _locid="112820">加利福尼亚州</string>
+    <string _locid="112819">小圣克鲁斯</string>
+    <string _locid="112820">加利福尼亚</string>
     <string _locid="112821">拓荒者成为加利福尼亚西裔兵。\n\n奶牛的建造限制和工作速率大幅提高。\n\n重点：骑兵、牧场、重建经济。</string>
     <string _locid="112822">加利福尼亚人</string>
     <string _locid="112823">索诺玛</string>
-    <string _locid="112824">得克萨斯州</string>
+    <string _locid="112824">得克萨斯</string>
     <string _locid="112825">拓荒者成为志愿军。\n\n可训练美国单位。在城镇中心可募集分钟人。\n\n\n重点：堡垒、步兵升级。</string>
     <string _locid="112826">得克萨斯人</string>
     <string _locid="112827">奥斯汀</string>
@@ -40155,9 +40155,9 @@
     <string _locid="112842" symbol="cStringTempBlockadeTeammateAffected">%s的暂时封锁意外波及了您的主城！</string>
     <string _locid="112843" symbol="cStringTempBlockadeYouAll">您对敌人主城的暂时封锁意外波及了您的盟友！</string>
     <string _locid="112844">抵达速度极快！击败敌人现在除了经验值，也能获得钱币奖励。</string>
-    <string _locid="112845">幸运战士</string>
+    <string _locid="112845">财富士兵</string>
     <string _locid="112846">新的和现有的垦殖园产出 2 名拓荒者，并吸引附近可猎取的动物来提高生产率。</string>
-    <string _locid="112847">下加利福尼亚州领地</string>
+    <string _locid="112847">下加利福尼亚领地</string>
     <string _locid="112848">使美国的亡命之徒能够在佣兵小栈训练。所有亡命之徒消耗的人口更少。</string>
     <string _locid="112849">外国佬</string>
     <string _locid="112850">运送 1 个随机炮兵单位和 2 座木制假炮，木制假炮是一种不会造成伤害的伪装诱饵。</string>
@@ -40178,8 +40178,8 @@
     <string _locid="112865">垦殖园可切换给工人收集木材。</string>
     <string _locid="112866">索利斯粉碎机</string>
     <string _locid="112867">抵达速度极快！拓荒者产生更快，并且生命值显著提升。</string>
-    <string _locid="112868">安帕罗</string>
-    <string _locid="112869">劫匪、西裔尤卡坦叛民和蛇首标枪手在攻击时造成中毒伤害。</string>
+    <string _locid="112868">保护</string>
+    <string _locid="112869">劫匪、西裔尤卡坦叛民和投矛战士在攻击时造成中毒伤害。</string>
     <string _locid="112870">丛林战争</string>
     <string _locid="112871">3 座鹰炮</string>
     <string _locid="112872">运送 1 辆原住民使馆运输架，同时您会在原住民使馆与玛雅人结盟，让您能使用玛雅人的一些升级和单位。</string>
@@ -40190,7 +40190,7 @@
     <string _locid="112877">所有拓荒者都再次转变为革命军。使您已经运送的大多数单位卡能够再次被运送。</string>
     <string _locid="112878">蒙特雷计划</string>
     <string _locid="112879">您在这场游戏中每失去 3 名革命军时，运送 1 名拓荒者 (最多 99 名)。</string>
-    <string _locid="112880">马德雷山脉共和国</string>
+    <string _locid="112880">马德雷山共和国</string>
     <string _locid="112881">义勇乡民获得萨帕塔机动能力，该能力会使所有义勇乡民能在移动速度不降低的情况下以不被发现的方式移动。</string>
     <string _locid="112882">萨帕塔机动</string>
     <string _locid="112883">9 名革命军狙击手</string>
@@ -40207,10 +40207,10 @@
     <string _locid="112894">萨帕塔机动计时器</string>
     <string _locid="112895">帝国西裔尤卡坦叛民</string>
     <string _locid="112896">叛民的帝国升级。</string>
-    <string _locid="112897">克鲁佐布步兵</string>
-    <string _locid="112898">REV 克鲁佐布步兵</string>
+    <string _locid="112897">克鲁索布步兵</string>
+    <string _locid="112898">REV 克鲁索布步兵</string>
     <string _locid="112899">重装步兵</string>
-    <string _locid="112900">克鲁佐布火枪兵，可以从远程反制骑兵</string>
+    <string _locid="112900">克鲁索布火枪兵，可以从远程反制骑兵</string>
     <string _locid="112901">雨神独木舟</string>
     <string _locid="112902">护卫西裔尤卡坦叛民</string>
     <string _locid="112903">所有建筑的生命值增加。建筑在建造时除了提供经验值外，还提供食物。</string>
@@ -40226,22 +40226,22 @@
     <string _locid="112913">运送 12 名原住民村民。允许您在城镇中心训练原住民村民。</string>
     <string _locid="112914">独立城邦</string>
     <string _locid="112915">REV 原住民村民</string>
-    <string _locid="112916">蛇首标枪手</string>
-    <string _locid="112917">NAT 蛇首标枪手</string>
+    <string _locid="112916">投矛战士</string>
+    <string _locid="112917">NAT 投矛战士</string>
     <string _locid="112918">玛雅原住民重装步兵</string>
     <string _locid="112919">古老的重装步兵，擅长攻击骑兵和建筑。</string>
-    <string _locid="112920">NAT MERC 蛇首标枪手</string>
-    <string _locid="112921">精锐蛇首标枪手</string>
-    <string _locid="112922">风云蛇首标枪手</string>
-    <string _locid="112923">传奇蛇首标枪手</string>
+    <string _locid="112920">NAT MERC 投矛战士</string>
+    <string _locid="112921">精锐投矛战士</string>
+    <string _locid="112922">风云投矛战士</string>
+    <string _locid="112923">传奇投矛战士</string>
     <string _locid="112924">加利福尼亚西裔兵</string>
     <string _locid="112925">REV 加利福尼亚西裔兵</string>
     <string _locid="112926">远程骑兵</string>
     <string _locid="112927">拥有套索能力的远程骑兵，擅长对付骑兵。</string>
     <string _locid="112928">运送 1 辆州议会马车。州议会可以训练施工马车，并研究独有改良技术。</string>
-    <string _locid="112929">加利福尼亚独立州</string>
+    <string _locid="112929">加利福尼亚建州</string>
     <string _locid="112930">运送 1 辆州议会马车。州议会可以训练施工马车，并研究独有改良技术。</string>
-    <string _locid="112931">得克萨斯独立州</string>
+    <string _locid="112931">得克萨斯建州</string>
     <string _locid="112932">20 名加利福尼亚西裔兵</string>
     <string _locid="112933">增加垦殖园生命值，并可以生产牲畜盗贼。降低牲畜盗贼占用的人口空间，并能够从畜养动物和可狩猎动物身上采集食物。</string>
     <string _locid="112934">棚屋牧场</string>
@@ -40254,7 +40254,7 @@
     <string _locid="112941">加利福尼亚长枪骑兵</string>
     <string _locid="112942">加利福尼亚小径</string>
     <string _locid="112943">鼓舞之旗的效果范围大幅增加，而且还可以提高单位的生命值。</string>
-    <string _locid="112944">地榆之地</string>
+    <string _locid="112944">伯尼特之地</string>
     <string _locid="112945">允许研究帝王时代的码头升级。</string>
     <string _locid="112946">得克萨斯海军</string>
     <string _locid="112947">分钟人升级为得克萨斯海军陆战队。海军陆战队不再损失生命值，并可以对建筑、船只和炮兵造成更多伤害。</string>
@@ -40268,7 +40268,7 @@
     <string _locid="112955">长枪冲锋</string>
     <string _locid="112956">蓄力能力：从远处架起长枪，冲向一群敌人之中，造成巨大的溅射伤害。</string>
     <string _locid="112957">得克萨斯长枪骑兵</string>
-    <string _locid="112958">重返主城</string>
+    <string _locid="112958">重返母国</string>
     <string _locid="112959">运送 9 名美洲豹战士。允许在原住民使馆招募美洲豹战士。</string>
     <string _locid="112960">哈卡尔特克人</string>
     <string _locid="112961">将革命军升级为洪都拉斯兵，其生命值和射程较高，缺点是基本伤害较低，擅长对付雇佣兵和亡命之徒。</string>
@@ -40276,14 +40276,14 @@
     <string _locid="112963">洪都拉斯兵</string>
     <string _locid="112964">REV 洪都拉斯兵</string>
     <string _locid="112965">鼓舞之旗可以放置在任何地方，并使蓄力能力的蓄力速度大幅加快。</string>
-    <string _locid="112966">行者之地</string>
+    <string _locid="112966">沃克之地</string>
     <string _locid="112967">暴兵</string>
     <string _locid="112968">REV 暴兵</string>
     <string _locid="112969">重装远程步兵入侵者。</string>
     <string _locid="112970">越权出征的非正规军重装步兵，可建造建筑或用炸药摧毁它们。</string>
     <string _locid="112971">暴兵现在可以缓慢地从矿场中收集资源。</string>
     <string _locid="112972">战争剥削</string>
-    <string _locid="112973">行者帮派</string>
+    <string _locid="112973">沃克党徒</string>
     <string _locid="112974">增加亡命之徒和雇佣兵单位的生命值和伤害。</string>
     <string _locid="112975">亡命之徒战斗力</string>
     <string _locid="112976">老练暴兵</string>
@@ -40293,25 +40293,25 @@
     <string _locid="112980">套索攻击 (蓄力)</string>
     <string _locid="112981">套索攻击</string>
     <string _locid="112982">蓄力能力：抛出一个套索，造成伤害并捕捉目标。</string>
-    <string _locid="112983">11 名克鲁佐布步兵</string>
-    <string _locid="112984">新成立的玛雅州使得兵营单位可以进行帝国升级，且大幅加快研究速度。</string>
-    <string _locid="112985">圣克鲁兹神殿</string>
+    <string _locid="112983">11 名克鲁索布步兵</string>
+    <string _locid="112984">新成立的玛雅国家使得兵营单位可以进行帝国升级，且大幅加快研究速度。</string>
+    <string _locid="112985">小圣克鲁斯</string>
     <string _locid="112986">在玛雅球场进行的著名球类比赛，能够增加步兵单位的移动速度和训练速度。</string>
     <string _locid="112987">中美洲蹴球</string>
-    <string _locid="112988">大幅增加克鲁佐布英雄的生命值和攻击力。</string>
+    <string _locid="112988">大幅增加克鲁索布英雄的生命值和攻击力。</string>
     <string _locid="112989">会说话的十字架</string>
-    <string _locid="112990">增加克鲁佐布步兵的攻击力和生命值。</string>
-    <string _locid="112991">帝国克鲁佐布步兵</string>
-    <string _locid="112992">帝国克鲁佐布步兵</string>
-    <string _locid="112993">护卫克鲁佐布步兵</string>
+    <string _locid="112990">增加克鲁索布步兵的攻击力和生命值。</string>
+    <string _locid="112991">帝国克鲁索布步兵</string>
+    <string _locid="112992">帝国克鲁索布步兵</string>
+    <string _locid="112993">护卫克鲁索布步兵</string>
     <string _locid="112994">劫匪的帝国升级。</string>
-    <string _locid="112995">帝国克鲁佐布复仇者</string>
-    <string _locid="112996">帝国克鲁佐布复仇者</string>
-    <string _locid="112997">克鲁佐布复仇者</string>
+    <string _locid="112995">帝国克鲁索布复仇者</string>
+    <string _locid="112996">帝国克鲁索布复仇者</string>
+    <string _locid="112997">克鲁索布复仇者</string>
     <string _locid="112998">可免费研究兵营单位的帝王升级。</string>
     <string _locid="112999">得克萨斯军队</string>
     <string _locid="113000">索卡洛广场</string>
-    <string _locid="113001">国家宫殿</string>
+    <string _locid="113001">国家宫</string>
     <string _locid="113002">大都会大教堂</string>
     <string _locid="113003">树立一面振奋士气的中美洲革命军旗帜！增加附近的军事单位和建筑造成的伤害，生产速度加快。旗帜无法树立在起始的城镇中心附近，而且同一时间只能树立一面旗帜。</string>
     <string _locid="113004">树立一面振奋士气的暴兵革命军旗帜！增加附近的军事单位和建筑造成的伤害，生产速度加快。旗帜无法树立在起始的城镇中心附近，而且同一时间只能树立一面旗帜。</string>
@@ -40326,8 +40326,8 @@
     <string _locid="113013">可以振奋附近墨西哥单位的士气。</string>
     <string _locid="113014">革命军神甫</string>
     <string _locid="113015">革命军将军</string>
-    <string _locid="113016">克鲁佐布神甫</string>
-    <string _locid="113017">克鲁佐布将军</string>
+    <string _locid="113016">克鲁索布神甫</string>
+    <string _locid="113017">克鲁索布将军</string>
     <string _locid="113018">自由呐喊</string>
     <string _locid="113019">革命军神甫视野范围内或鼓舞之旗范围内的所有单位均会迅速获得治疗。</string>
     <string _locid="113020">革命军神甫</string>
@@ -40342,7 +40342,7 @@
     <string _locid="113029">教堂工程</string>
     <string _locid="113030">增加叛民、墨西哥士兵和劫匪的生命值并加快训练速度。</string>
     <string _locid="113031">队伍：船只收集食物和钱币的速度加快。</string>
-    <string _locid="113032">队伍：肉类处理厂</string>
+    <string _locid="113032">队伍：油脂精炼厂</string>
     <string _locid="113033">2 艘缴获大型战舰</string>
     <string _locid="113034">3 艘缴获大型战舰</string>
     <string _locid="113035">队伍：运送 1 艘码头马车并短暂地显示所有鱼类、鲸鱼和海军单位的位置。</string>
@@ -40399,8 +40399,8 @@
     <string _locid="113086">伊达尔戈之地</string>
     <string _locid="113087">13 名西裔尤卡坦叛民</string>
     <string _locid="113088">33 名西裔尤卡坦叛民</string>
-    <string _locid="113089">克鲁佐布神甫视野范围内的所有单位均会迅速获得治疗。</string>
-    <string _locid="113090">克鲁佐布神甫视野范围内，或鼓舞之旗和大教堂范围内的所有单位均会迅速获得治疗。</string>
+    <string _locid="113089">克鲁索布神甫视野范围内的所有单位均会迅速获得治疗。</string>
+    <string _locid="113090">克鲁索布神甫视野范围内，或鼓舞之旗和大教堂范围内的所有单位均会迅速获得治疗。</string>
     <string _locid="113091" symbol="cStringUnitSellMessage">您已经以 %2!2s! 的价格出售了%1!1s!。</string>
     <string _locid="113092">队伍：将“募集”能力升级为“征召”，此能力可以召集一支更多数量的分钟人军队，但是成本也会更高。</string>
     <string _locid="113093">队伍：海军陆战队公司</string>
@@ -40422,7 +40422,7 @@
     <string _locid="113109">产生义勇乡民</string>
     <string _locid="113110">梅里达计划</string>
     <string _locid="113111">将每名拓荒者都转变成 2 名叛民，且新的拓荒者产生速度更快。</string>
-    <string _locid="113112">克鲁佐布复仇者、西裔尤卡坦叛民和蛇首标枪手在攻击时造成中毒伤害。</string>
+    <string _locid="113112">克鲁索布复仇者、西裔尤卡坦叛民和投矛战士在攻击时造成中毒伤害。</string>
     <string _locid="113113">2 座垦殖园</string>
     <string _locid="113114">生产拓荒者</string>
     <string _locid="113115">生产义勇乡民</string>
@@ -40468,8 +40468,8 @@
     <string _locid="113155">少年英雄</string>
     <string _locid="113156">七宪令</string>
     <string _locid="113157">每次您的将军或神甫被击倒时，都会产生一名民兵。</string>
-    <string _locid="113158">所有七个独特墨西哥单位和建筑在建造时提供更多经验值。</string>
-    <string _locid="113159">只要您拥有其中一个，所有七个独特墨西哥单位和建筑在建造时产生更多经验值。</string>
+    <string _locid="113158">七个独特墨西哥单位和建筑在建造时均提供更多经验值。</string>
+    <string _locid="113159">七个独特墨西哥单位和建筑只要您每种拥有一个，则均在建造时产生更多经验值。</string>
     <string _locid="113160">所有墨西哥单位击杀敌方会获得更多经验值。</string>
     <string _locid="113161">所有墨西哥单位在建造和击杀时获得更多经验值。</string>
     <string _locid="113162">单位获得更多建造和击杀经验值。</string>
@@ -40561,6 +40561,8 @@
     <string _locid="200069">加勒比盟友</string>
     <string _locid="200070">马普切盟友</string>
     <string _locid="200071">萨波特克盟友</string>
+    <string _locid="200072">神庙 (废墟)</string>
+    <string _locid="200073">神庙的废墟版本。&lt;color=1.0, 0.0, 0.0&gt;警告：选择该自定义选项将应用白日照明自定义选项。&lt;/color&gt;</string>
     <string _locid="210000">DLSS</string>
     <string _locid="210001">深度学习超级采样 (DLSS) 是一项 NVIDIA RTX 技术，使用深度学习神经网络为您的游戏提高帧率并提供精美、清晰的图像。 该项技术能为您提供性能余量，让质量设定得以最大化并提高输出分辨率。</string>
     <string _locid="210002">DLSS 设置</string>
