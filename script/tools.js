@@ -43,12 +43,12 @@ function getString(id) {
 //返回string
 function getTech(id) {
     if (!id) return id;
-    return (!techs[id.toLowerCase()] ? '找不到此科技' : techs[id.toLowerCase()]);
+    return (!techs[id.toLowerCase()] ? ({ 'displayname': '找不到此科技', 'rollovertext': '找不到此科技' }) : techs[id.toLowerCase()]);
 }
 //返回string
 function getProto(id) {
     if (!id) return id;
-    return units[id.toLowerCase()];
+    return (!units[id.toLowerCase()] ? ({ 'displayname': '找不到该单位', 'rollovertext': '找不到该单位' }) : units[id.toLowerCase()]);
 }
 //小数+
 function Add(num1, num2) {
