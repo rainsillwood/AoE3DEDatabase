@@ -40,7 +40,7 @@ function actionType(action, allactions, proto) {
     if (!action) return ' 未知 ';
     let unit = getProto(proto);
 
-    if (!!unit) {
+    if (!!unit._id) {
         let tactic = getXml('./Data/tactics/' + unit.tactics);
         if (allactions == 'CommandAdd') {
             return action;
@@ -188,12 +188,12 @@ function subType(effect) {
                 info = strings['42177'].__text;
                 info = info.replace('%1!d!', effect._amount * 1);
                 info = info.replace('%2!s!', target);
-                return ('启用科技 <ruby>' + ((!getTech(effect._tech).displayname) ? getTech(effect._tech).displayname : '未知') + '<rt>' + effect._tech + '</rt></ruby> 时：' + info);
+                return ('启用科技 <ruby>' + getTech(effect._tech).displayname + '<rt>' + effect._tech + '</rt></ruby> 时：' + info);
             }
         case 'ResourceIfTechObtainable':
             {
                 info = strings['42054'].__text;
-                info = info.replace('%1s', '启用科技 <ruby>' + ((!getTech(effect._tech).displayname) ? getTech(effect._tech).displayname : '未知') + '<rt>' + effect._tech + '</rt></ruby> 时：');
+                info = info.replace('%1s', '启用科技 <ruby>' + getTech(effect._tech).displayname + '<rt>' + effect._tech + '</rt></ruby> 时：');
                 info = info.replace('%2.2f', effect._amount * 1);
                 info = info.replace('%3s', resource);
                 return info;
@@ -243,7 +243,7 @@ function getEffect(effect, tech) {
                         information = '激活';
                         break;
                 }
-                information = information + '科技 <ruby>' + ((!getTech(effect.__text).displayname) ? '未知' : getTech(effect.__text).displayname) + '<rt>' + effect.__text + '</rt></ruby> ';
+                information = information + '科技 <ruby>' + getTech(effect.__text).displayname + '<rt>' + effect.__text + '</rt></ruby> ';
                 break;
             }
         //改变数据

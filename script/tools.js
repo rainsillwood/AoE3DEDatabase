@@ -42,13 +42,13 @@ function getString(id) {
 }
 //返回string
 function getTech(id) {
-    if (!id) return id;
-    return (!techs[id.toLowerCase()] ? ({ 'displayname': '找不到此科技', 'rollovertext': '找不到此科技' }) : techs[id.toLowerCase()]);
+    if (!id) return { 'displayname': '空', 'rollovertext': '空', '_id': false };
+    return (!techs[id.toLowerCase()] ? ({ 'displayname': '找不到此科技', 'rollovertext': '找不到此科技', '_id': false }) : techs[id.toLowerCase()]);
 }
 //返回string
 function getProto(id) {
-    if (!id) return id;
-    return (!units[id.toLowerCase()] ? ({ 'displayname': '找不到该单位', 'rollovertext': '找不到该单位' }) : units[id.toLowerCase()]);
+    if (!id) return { 'displayname': '空', 'rollovertext': '空', '_id': false };
+    return (!units[id.toLowerCase()] ? ({ 'displayname': '找不到该单位', 'rollovertext': '找不到该单位', '_id': false }) : units[id.toLowerCase()]);
 }
 //小数+
 function Add(num1, num2) {
