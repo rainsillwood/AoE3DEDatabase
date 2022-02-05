@@ -9688,6 +9688,14 @@
       <time>1.1600000000000001</time>
     </protoaction>
   </unit>
+  <unit name="deHacienda">
+    <protoaction name="RangedAttack">
+      <time>1.35</time>
+    </protoaction>
+    <protoaction name="AntiShipAttack">
+      <time>1.35</time>
+    </protoaction>
+  </unit>
   <unit name="deNatSPCLenapeRifleman">
     <protoaction name="BuildingAttack">
       <time>1.7549999999999997</time>
@@ -10174,6 +10182,22 @@
     </protoaction>
     <protoaction name="HandAttack">
       <time>0.555</time>
+    </protoaction>
+  </unit>
+  <unit name="deGuardianLionMale">
+    <protoaction name="SacredBreathAttack">
+      <time>0.6</time>
+    </protoaction>
+    <protoaction name="HandAttack">
+      <time>0.4</time>
+    </protoaction>
+  </unit>
+  <unit name="deGuardianLionFemale">
+    <protoaction name="SacredBreathAttack">
+      <time>0.6</time>
+    </protoaction>
+    <protoaction name="HandAttack">
+      <time>0.4</time>
     </protoaction>
   </unit>
 </attacktime>

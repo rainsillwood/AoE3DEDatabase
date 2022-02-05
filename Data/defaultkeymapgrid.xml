@@ -478,7 +478,7 @@
       <command>activateCommandPanelBigButton</command>
     </keymapdata>
     <keymapdata>
-      <name>Big Ability Button</name>
+      <name>Big Ability Button 1</name>
       <displayname>$$90192$$</displayname>
       <event>o</event>
       <context>game</context>
@@ -620,7 +620,19 @@
       <displayname>$$20864$$Find Trading Post</displayname>
       <event>control-t</event>
       <context>game</context>
-      <command>uiFindType("TradingPost")</command>
+      <command>uiFindType("AbstractTradingPost")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Find Native Site Trading Post</name>
+      <displayname>$$113188$$Find Native Site Trading Post</displayname>
+      <context>game</context>
+      <command>uiFindNativeSite</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Find Trade Route Trading Post</name>
+      <displayname>$$113189$$Find Trade Route Trading Post</displayname>
+      <context>game</context>
+      <command>uiFindTradeRouteSite</command>
     </keymapdata>
     <keymapdata>
       <name>Find Church/Mosque/Community Plaza/Monastery</name>

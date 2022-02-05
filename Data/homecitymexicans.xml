@@ -71,6 +71,15 @@
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
+      <name>HCShipSettlers4</name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <prereqtech>HCShipSettlers3</prereqtech>
+      <age>1</age>
+      <displayunitcount>5</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
       <name>HCShipFoodCrates1</name>
       <maxcount>-1</maxcount>
       <level>0</level>
@@ -314,7 +323,7 @@
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>1</age>
-      <displayunitcount>12</displayunitcount>
+      <displayunitcount>11</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -440,7 +449,7 @@
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>3</age>
-      <displayunitcount>11</displayunitcount>
+      <displayunitcount>10</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -909,18 +918,11 @@
       <age>2</age>
     </card>
     <card>
-      <name>HCDuelingSchoolTeam</name>
-      <maxcount>1</maxcount>
-      <level>0</level>
-      <prereqtech>-1</prereqtech>
-      <age>0</age>
-    </card>
-    <card>
       <name>DEHCSevenLaws</name>
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
-      <age>2</age>
+      <age>1</age>
     </card>
     <card>
       <name>DEHCNinosHeroes</name>
@@ -1095,7 +1097,7 @@
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>3</age>
-      <displayunitcount>17</displayunitcount>
+      <displayunitcount>14</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -1250,16 +1252,16 @@
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
-      <age>2</age>
-      <displayunitcount>11</displayunitcount>
+      <age>1</age>
+      <displayunitcount>10</displayunitcount>
     </card>
     <card>
       <name>DEHCRenegadeComanche</name>
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
-      <age>1</age>
-      <displayunitcount>9</displayunitcount>
+      <age>2</age>
+      <displayunitcount>11</displayunitcount>
     </card>
     <card>
       <name>DEHCRenegadeApache</name>
@@ -1399,7 +1401,7 @@
       <level>0</level>
       <prereqtech>XPRevolution</prereqtech>
       <age>1</age>
-      <displayunitcount>7</displayunitcount>
+      <displayunitcount>6</displayunitcount>
       <revoltcard>
       </revoltcard>
     </card>
@@ -1512,7 +1514,7 @@
     </card>
     <card>
       <name>DEHCREVMXForeignInvestment</name>
-      <maxcount>-1</maxcount>
+      <maxcount>2</maxcount>
       <level>0</level>
       <prereqtech>XPRevolution</prereqtech>
       <age>1</age>
@@ -1556,6 +1558,7 @@
       <level>0</level>
       <prereqtech>XPRevolution</prereqtech>
       <age>1</age>
+      <displayunitcount>3</displayunitcount>
       <revoltcard>
       </revoltcard>
     </card>
@@ -1674,6 +1677,16 @@
       </revoltcard>
     </card>
     <card>
+      <name>DEHCREVMXWalkersRealities</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>XPRevolution</prereqtech>
+      <age>2</age>
+      <displayunitcount>3</displayunitcount>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
       <name>DEHCREVMXPlanMerida</name>
       <maxcount>1</maxcount>
       <level>0</level>
@@ -1755,7 +1768,7 @@
       </revoltcard>
     </card>
     <card>
-      <name>DEHCREVMXhipCoinCrates5</name>
+      <name>DEHCREVMXShipCoinCrates5</name>
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>XPRevolution</prereqtech>
@@ -1870,7 +1883,7 @@
       <level>0</level>
       <prereqtech>XPRevolution</prereqtech>
       <age>3</age>
-      <displayunitcount>1</displayunitcount>
+      <displayunitcount>12</displayunitcount>
       <revoltcard>
       </revoltcard>
     </card>
@@ -2080,15 +2093,6 @@
       <prereqtech>XPRevolution</prereqtech>
       <age>0</age>
       <displayunitcount>12</displayunitcount>
-      <revoltcard>
-      </revoltcard>
-    </card>
-    <card>
-      <name>DEHCAmericanAlliesInca</name>
-      <maxcount>1</maxcount>
-      <level>0</level>
-      <prereqtech>XPRevolution</prereqtech>
-      <age>3</age>
       <revoltcard>
       </revoltcard>
     </card>
@@ -2307,7 +2311,7 @@
       <level>0</level>
       <prereqtech>XPRevolution</prereqtech>
       <age>1</age>
-      <displayunitcount>17</displayunitcount>
+      <displayunitcount>14</displayunitcount>
       <revoltcard>
       </revoltcard>
     </card>
@@ -2716,6 +2720,7 @@
         <card>DEHCREVMXCapitalism</card>
         <card>DEHCREVMXWalkersGang</card>
         <card>DEHCREVMXWalkersIllusions</card>
+        <card>DEHCREVMXWalkersRealities</card>
         <card>DEHCREVMXMercsFusiliers</card>
         <card>DEHCREVMXMercsHessians</card>
         <card>DEHCREVMXShotgunMessengers</card>
@@ -2786,7 +2791,6 @@
         <card>HCXPBuccaneers2</card>
         <card>DEHCREVMXHuipils</card>
         <card>DEHCREVMXKuchkabal</card>
-        <card>DEHCAmericanAlliesInca</card>
         <card>DEHCREVMXMayaKowojTraditions</card>
         <card>DEHCREVMXMayaYalainTraditions</card>
         <card>DEHCREVMXAmbuscade</card>
@@ -2815,7 +2819,7 @@
         <card>DEHCREVMXShipSettlersRepeat2</card>
         <card>DEHCREVMXShipWoodCrates5</card>
         <card>DEHCREVMXShipFoodCrates5</card>
-        <card>DEHCREVMXhipCoinCrates5</card>
+        <card>DEHCREVMXShipCoinCrates5</card>
         <card>DEHCREVMXShipHaciendaWagonRepeat1</card>
         <card>DEHCREVMXShipGoldMineWagonRepeat</card>
         <card>DEHCREVMXPinatas</card>
@@ -2903,6 +2907,7 @@
     <rolloverstringid>25536</rolloverstringid>
     <obtainabletechs>
       <tech x="0.7" y="2.0">HCShipSettlers2</tech>
+      <tech x="0.7" y="4.0">HCShipSettlers4</tech>
       <tech x="2.0" y="1.0">HCShipFoodCrates1</tech>
       <tech x="2.7" y="1.0">HCShipWoodCrates1</tech>
       <tech x="3.4" y="1.0">HCShipCoinCrates1</tech>
@@ -2933,6 +2938,7 @@
     </obtainabletechs>
     <activetechs>
       <tech x="0.7" y="2.0">HCShipSettlers2</tech>
+      <tech x="0.7" y="4.0">HCShipSettlers4</tech>
       <tech x="2.0" y="1.0">HCShipFoodCrates1</tech>
       <tech x="2.7" y="1.0">HCShipWoodCrates1</tech>
       <tech x="3.4" y="1.0">HCShipCoinCrates1</tech>
@@ -3097,7 +3103,6 @@
       <tech x="0.9" y="5.0">HCXPBloodBrothers</tech>
       <tech x="0.0" y="5.0">HCAdvancedTradingPost</tech>
       <tech x="0.0" y="5.0">DEHCIndependenceMovements</tech>
-      <tech x="0.9" y="1.0">HCDuelingSchoolTeam</tech>
       <tech x="2.8" y="1.0">HCFrontierDefenses</tech>
       <tech x="2.5" y="2.0">HCPioneers</tech>
       <tech x="2.5" y="3.0">DEHCCathedralConstruction</tech>
@@ -3134,7 +3139,6 @@
       <tech x="0.9" y="5.0">HCXPBloodBrothers</tech>
       <tech x="0.0" y="5.0">HCAdvancedTradingPost</tech>
       <tech x="0.0" y="5.0">DEHCIndependenceMovements</tech>
-      <tech x="0.9" y="1.0">HCDuelingSchoolTeam</tech>
       <tech x="2.8" y="1.0">HCFrontierDefenses</tech>
       <tech x="2.5" y="2.0">HCPioneers</tech>
       <tech x="2.5" y="3.0">DEHCCathedralConstruction</tech>
@@ -3550,6 +3554,10 @@
       <bone>bone_parade_19</bone>
       <paradenext>1</paradenext>
     </waypoint>
+    <waypoint>
+      <bone>bone_parade_20</bone>
+      <paradenext>1</paradenext>
+    </waypoint>
   </waypoints>
   <obtainableprops>
     <prop active="1">Mexico_LightSetDaytime</prop>
@@ -3577,6 +3585,7 @@
     <prop>Mexico_DayOfTheDead_Festival_1</prop>
     <prop>Mexico_DayOfTheDead_Festival_2</prop>
     <prop>Mexico_Night_Lights</prop>
+    <prop>Mexico_Night_Lights_Without_Temple</prop>
     <prop>Mexico_DayOfTheDead_Fireworks</prop>
   </obtainableprops>
 </homecity>

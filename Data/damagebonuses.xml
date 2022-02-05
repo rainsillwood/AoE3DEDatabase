@@ -19,7 +19,7 @@
   </damagebonus>
   <damagebonus>
     <unittype>AbstractHeavyCavalry</unittype>
-    <icon>resources/images/hud/stat_icon_cavalry.png</icon>
+    <icon>resources/images/hud/stat_icon_heavy_cav.png</icon>
     <displaynameid>69676</displaynameid>
     <showrollover>
     </showrollover>
@@ -109,6 +109,8 @@
     <icon>resources/images/hud/stat_icon_siege_troop.png</icon>
     <displaynameid>42026</displaynameid>
     <rollovernameid>69637</rollovernameid>
+    <defaulttypestringskip>
+    </defaulttypestringskip>
   </damagebonus>
   <damagebonus>
     <unittype>AbstractLightInfantry</unittype>
@@ -194,5 +196,9 @@
     <displaynameid>112772</displaynameid>
     <showrollover>
     </showrollover>
+  </damagebonus>
+  <damagebonus>
+    <unittype>LogicalTypeHealed</unittype>
+    <displaynameid>113186</displaynameid>
   </damagebonus>
 </damagebonustypes>

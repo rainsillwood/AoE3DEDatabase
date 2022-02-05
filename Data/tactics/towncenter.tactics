@@ -176,9 +176,9 @@
     <attackaction>1</attackaction>
     <rangedlogic>1</rangedlogic>
     <scalebycontainedunittype>
-      <rate type="Unit">0.3</rate>
+      <rate type="Unit">0.301</rate>
     </scalebycontainedunittype>
-    <damagefactorcap>10</damagefactorcap>
+    <damagefactorcap>4</damagefactorcap>
     <anim>RangedAttackShip</anim>
     <maxheight>0</maxheight>
     <accuracy>1.0</accuracy>

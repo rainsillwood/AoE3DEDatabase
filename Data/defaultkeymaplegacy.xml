@@ -356,7 +356,19 @@
       <displayname>$$20864$$Find Trading Post or Tambo</displayname>
       <event>control-p</event>
       <context>game</context>
-      <command>uiFindType("TradingPost")</command>
+      <command>uiFindType("AbstractTradingPost")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Find Native Site Trading Post</name>
+      <displayname>$$113188$$Find Native Site Trading Post</displayname>
+      <context>game</context>
+      <command>uiFindNativeSite</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Find Trade Route Trading Post</name>
+      <displayname>$$113189$$Find Trade Route Trading Post</displayname>
+      <context>game</context>
+      <command>uiFindTradeRouteSite</command>
     </keymapdata>
     <keymapdata>
       <name>Find Field Hospital</name>
@@ -1052,72 +1064,72 @@
     <keymapdata>
       <name>Buy Food</name>
       <displayname>$$70541$$Buy Food</displayname>
-      <event>alt-q</event>
+      <event>q</event>
       <context>MarketAccel</context>
-      <command>resourceMarket(-1, "food" , 100.0, "gold", false)</command>
+      <command>resourceMarket(-1,"food",100.0,"gold",false)</command>
     </keymapdata>
     <keymapdata>
       <name>Multiple Buy Food</name>
       <displayname>$$70542$$Multiple Buy Food</displayname>
       <event>shift-q</event>
       <context>MarketAccel</context>
-      <command>resourceMarket(-1, "food" , 100.0, "gold", true)</command>
+      <command>resourceMarket(-1,"food",100.0,"gold",true)</command>
     </keymapdata>
     <keymapdata>
       <name>Sell Food</name>
       <displayname>$$70543$$Sell Food</displayname>
-      <event>alt-a</event>
+      <event>x</event>
       <context>MarketAccel</context>
-      <command>resourceMarket(-1, "food" , -100.0, "gold", false)</command>
+      <command>resourceMarket(-1,"food",-100.0,"gold",false)</command>
     </keymapdata>
     <keymapdata>
       <name>Multiple Sell Food</name>
       <displayname>$$70544$$Multiple Sell Food</displayname>
-      <event>shift-a</event>
+      <event>shift-x</event>
       <context>MarketAccel</context>
-      <command>resourceMarket(-1, "food" , -100.0, "gold", true)</command>
+      <command>resourceMarket(-1,"food",-100.0,"gold",true)</command>
     </keymapdata>
     <keymapdata>
       <name>Buy Wood</name>
       <displayname>$$70545$$Buy Wood</displayname>
-      <event>alt-w</event>
+      <event>w</event>
       <context>MarketAccel</context>
-      <command>resourceMarket(-1, "wood" , 100.0, "gold", false)</command>
+      <command>resourceMarket(-1,"wood",100.0,"gold",false)</command>
     </keymapdata>
     <keymapdata>
       <name>Multiple Buy Wood</name>
       <displayname>$$70546$$Multiple Buy Wood</displayname>
       <event>shift-w</event>
       <context>MarketAccel</context>
-      <command>resourceMarket(-1, "wood" , 100.0, "gold", true)</command>
+      <command>resourceMarket(-1,"wood",100.0,"gold",true)</command>
     </keymapdata>
     <keymapdata>
       <name>Sell Wood</name>
       <displayname>$$70547$$Sell Wood</displayname>
-      <event>alt-s</event>
+      <event>c</event>
       <context>MarketAccel</context>
-      <command>resourceMarket(-1, "wood" , -100.0, "gold", false)</command>
+      <command>resourceMarket(-1,"wood",-100.0,"gold",false)</command>
     </keymapdata>
     <keymapdata>
       <name>Multiple Sell Wood</name>
       <displayname>$$70548$$Multiple Sell Wood</displayname>
-      <event>shift-s</event>
+      <event>shift-c</event>
       <context>MarketAccel</context>
-      <command>resourceMarket(-1, "wood" , -100.0, "gold", true)</command>
+      <command>resourceMarket(-1,"wood",-100.0,"gold",true)</command>
     </keymapdata>
     <keymapdata>
       <name>Livestock Sell Wood</name>
       <displayname>$$101418$$Livestock Sell Wood</displayname>
-      <event>alt-d</event>
+      <event>v</event>
       <context>MarketAccel</context>
-      <command>sellLivestockAtMarketSelected("wood", false)</command>
+      <command>sellLivestockAtMarketSelected("wood",false)</command>
     </keymapdata>
     <keymapdata>
       <name>Livestock Sell Coin</name>
       <displayname>$$101420$$Livestock Sell Coin</displayname>
-      <event>alt-f</event>
+      <event>b</event>
       <context>MarketAccel</context>
-      <command>sellLivestockAtMarketSelected("gold", false)</command>
+      <command>sellLivestockAtMarketSelected("gold",false)</command>
     </keymapdata>
     <keymapdata>
       <name>Goat</name>
@@ -1167,21 +1179,21 @@
     <keymapdata>
       <name>Hunting Dogs</name>
       <displayname>$$23401$$Hunting Dogs</displayname>
-      <event>f</event>
+      <event>h</event>
       <context>MarketAccel</context>
       <command>researchTechInSelected("HuntingDogs")</command>
     </keymapdata>
     <keymapdata>
       <name>Steel Traps</name>
       <displayname>$$30449$$Steel Traps</displayname>
-      <event>f</event>
+      <event>h</event>
       <context>MarketAccel</context>
       <command>researchTechInSelected("SteelTraps")</command>
     </keymapdata>
     <keymapdata>
       <name>Selective Breeding</name>
       <displayname>$$23403$$Selective Breeding</displayname>
-      <event>f</event>
+      <event>h</event>
       <context>MarketAccel</context>
       <command>researchTechInSelected("SelectiveBreeding")</command>
     </keymapdata>
@@ -1279,28 +1291,28 @@
     <keymapdata>
       <name>Hunting Eagles</name>
       <displayname>$$63976$$Hunting Eagles</displayname>
-      <event>f</event>
+      <event>h</event>
       <context>MarketAccel</context>
       <command>researchTechInSelected("ypMarketHuntingDogs")</command>
     </keymapdata>
     <keymapdata>
       <name>Professional Hunters</name>
       <displayname>$$63982$$Professional Hunters</displayname>
-      <event>f</event>
+      <event>h</event>
       <context>MarketAccel</context>
       <command>researchTechInSelected("ypMarketSteelTraps")</command>
     </keymapdata>
     <keymapdata>
       <name>Hanami Parties</name>
       <displayname>$$65469$$Hanami Parties</displayname>
-      <event>f</event>
+      <event>h</event>
       <context>MarketAccel</context>
       <command>researchTechInSelected("ypMarketBerryDogs")</command>
     </keymapdata>
     <keymapdata>
       <name>Yozakura Lanterns</name>
       <displayname>$$65471$$Yozakura Lanterns</displayname>
-      <event>f</event>
+      <event>h</event>
       <context>MarketAccel</context>
       <command>researchTechInSelected("ypMarketBerryTraps")</command>
     </keymapdata>
@@ -1811,37 +1823,35 @@
       <context>BarracksAccel</context>
       <command>tis("deEmboscador",5)</command>
     </keymapdata>
+    <keymapdata>
+      <name>Maya Holcan Spearman</name>
+      <displayname>$$112916$$Maya Holcan Spearman</displayname>
+      <context>BarracksAccel</context>
+      <command>tis("deNatHolcanJavelineer")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Multiple Maya Holcan Spearman</name>
+      <displayname>$$112916$$Maya Holcan Spearman</displayname>
+      <displayformat>$$43376$$Multiple %s</displayformat>
+      <context>BarracksAccel</context>
+      <command>tis("deNatHolcanJavelineer",5)</command>
+    </keymapdata>
   </keymapgroup>
   <keymapgroup name="Village Hotkeys" displayname="$$68759$$Village Hotkeys" hotkeystyle="Legacy">
     <keymapdata>
-      <name>Pig</name>
-      <displayname>$$61752$$Pig</displayname>
+      <name>Goat</name>
+      <displayname>$$61752$$Goat</displayname>
       <event>q</event>
       <context>VillageAccel</context>
-      <command>tis("ypPig")</command>
+      <command>tis("ypGoat")</command>
     </keymapdata>
     <keymapdata>
-      <name>Multiple Pig</name>
-      <displayname>$$61752$$Pig</displayname>
+      <name>Multiple Goat</name>
+      <displayname>$$61752$$Goat</displayname>
       <displayformat>$$43376$$Multiple %s</displayformat>
       <event>shift-q</event>
       <context>VillageAccel</context>
-      <command>tis("ypPig",5)</command>
-    </keymapdata>
-    <keymapdata>
-      <name>Water Buffalo</name>
-      <displayname>$$61609$$Water Buffalo</displayname>
-      <event>w</event>
-      <context>VillageAccel</context>
-      <command>tis("ypWaterBuffalo")</command>
-    </keymapdata>
-    <keymapdata>
-      <name>Multiple Water Buffalo</name>
-      <displayname>$$61609$$Water Buffalo</displayname>
-      <displayformat>$$43376$$Multiple %s</displayformat>
-      <event>shift-w</event>
-      <context>VillageAccel</context>
-      <command>tis("ypWaterBuffalo",5)</command>
+      <command>tis("ypGoat",5)</command>
     </keymapdata>
   </keymapgroup>
   <keymapgroup name="Blockhouse Hotkeys" displayname="$$43362$$Blockhouse Hotkeys" hotkeystyle="Legacy">
@@ -1979,6 +1989,45 @@
       <displayname>$$110148$$Levy</displayname>
       <context>BlockhouseAccel</context>
       <command>commandResearchInSelected("deUSLevy") commandResearchInSelected("deUSConscription")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>State Militia</name>
+      <displayname>$$110006$$State Militia</displayname>
+      <context>BlockhouseAccel</context>
+      <command>tis("deStateMilitia")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Multiple State Militia</name>
+      <displayname>$$110006$$State Militia</displayname>
+      <displayformat>$$43376$$Multiple %s</displayformat>
+      <context>BlockhouseAccel</context>
+      <command>tis("deStateMilitia",5)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Regular</name>
+      <displayname>$$110014$$Regular</displayname>
+      <context>BlockhouseAccel</context>
+      <command>tis("deRegular")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Multiple Regulars</name>
+      <displayname>$$110014$$Regular</displayname>
+      <displayformat>$$43376$$Multiple %s</displayformat>
+      <context>BlockhouseAccel</context>
+      <command>tis("deRegular",5)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Rifleman</name>
+      <displayname>$$110010$$Rifleman</displayname>
+      <context>BlockhouseAccel</context>
+      <command>tis("deRifleman")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Multiple Riflemen</name>
+      <displayname>$$110010$$Rifleman</displayname>
+      <displayformat>$$43376$$Multiple %s</displayformat>
+      <context>BlockhouseAccel</context>
+      <command>tis("deRifleman",5)</command>
     </keymapdata>
   </keymapgroup>
   <keymapgroup name="War Hut Hotkeys" displayname="$$48892$$War Hut Hotkeys" hotkeystyle="Legacy">
@@ -2206,6 +2255,19 @@
       <event>shift-c</event>
       <context>WarHutAccel</context>
       <command>tis("deIncaRunner",5)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Maya Holcan Spearman</name>
+      <displayname>$$112916$$Maya Holcan Spearman</displayname>
+      <context>WarHutAccel</context>
+      <command>tis("deNatHolcanJavelineer")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Multiple Maya Holcan Spearman</name>
+      <displayname>$$112916$$Maya Holcan Spearman</displayname>
+      <displayformat>$$43376$$Multiple %s</displayformat>
+      <context>WarHutAccel</context>
+      <command>tis("deNatHolcanJavelineer",5)</command>
     </keymapdata>
   </keymapgroup>
   <keymapgroup name="Kallanka Hotkeys" displayname="$$80314$$Kallanka Hotkeys" hotkeystyle="Legacy">
@@ -7594,7 +7656,7 @@
       <displayname>$$112217$$Toggle Garrison/Gathering Mode</displayname>
       <event>b</event>
       <context>RicePaddyAccel</context>
-      <command>uiToggleGarrisonMode()</command>
+      <command>uiToggleGarrisonMode</command>
     </keymapdata>
     <keymapdata>
       <name>Eject Garrisoned Units</name>
@@ -7716,6 +7778,13 @@
       <event>c</event>
       <context>game</context>
       <command>doAbilityInSelected("deCaroleanCharge") doAbilityInSelected("deNizamCharge")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Chimu Maneuver</name>
+      <displayname>$$80579$$Chimu Maneuver</displayname>
+      <event>c</event>
+      <context>game</context>
+      <command>doAbilityInSelected("deChimuManeuver")</command>
     </keymapdata>
     <keymapdata>
       <name>Lightning Strike</name>
@@ -8163,7 +8232,7 @@
       <name>Flail Elephant</name>
       <displayname>$$60775$$Flail Elephant</displayname>
       <event>s</event>
-      <context>CastleAccel</context>
+      <context>AgraFortAccel</context>
       <command>tis("ypMercFlailiphant")</command>
     </keymapdata>
     <keymapdata>
@@ -8171,14 +8240,14 @@
       <displayname>$$60775$$Flail Elephant</displayname>
       <displayformat>$$43376$$Multiple %s</displayformat>
       <event>shift-s</event>
-      <context>CastleAccel</context>
+      <context>AgraFortAccel</context>
       <command>tis("ypMercFlailiphant",5)</command>
     </keymapdata>
     <keymapdata>
       <name>Siege Elephant</name>
       <displayname>$$60136$$Siege Elephant</displayname>
       <event>d</event>
-      <context>CastleAccel</context>
+      <context>AgraFortAccel</context>
       <command>tis("ypSiegeElephant")</command>
     </keymapdata>
     <keymapdata>
@@ -8186,7 +8255,7 @@
       <displayname>$$60136$$Siege Elephant</displayname>
       <displayformat>$$43376$$Multiple %s</displayformat>
       <event>shift-d</event>
-      <context>CastleAccel</context>
+      <context>AgraFortAccel</context>
       <command>tis("ypSiegeElephant",5)</command>
     </keymapdata>
   </keymapgroup>

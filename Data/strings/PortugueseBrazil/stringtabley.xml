@@ -1688,7 +1688,7 @@
     <string _locid="23515">Granada</string>
     <string _locid="23520">Asteca furtivo armado com uma espada obsidiana. Bom contra cavalaria e infantaria pesada.</string>
     <string _locid="23521">Guerreiro jaguar asteca</string>
-    <string _locid="23522">Infantaria asteca que arremessa lanças com um atlatl. Boa contra infantaria.</string>
+    <string _locid="23522">Infantaria asteca que arremessa dardos de um atlatl. Boa contra cavalaria e infantaria de choque corpo a corpo.</string>
     <string _locid="23523">Guerreiro águia asteca</string>
     <string _locid="23524">Cavalaria comanche de ataque à distância. Boa contra cavalaria.</string>
     <string _locid="23525">Arq. montado comanche</string>
@@ -7254,16 +7254,16 @@
     <string _locid="36647" gamecharacter="Bolívar" soundfilename="BOLI2020" portraitfilename="resources\art\units\spc\bolivar\bolivar_igc_icon.png">Atacar o forte!</string>
     <string _locid="36648" gamecharacter="Bolívar" soundfilename="BOLI2025" portraitfilename="resources\art\units\spc\bolivar\bolivar_igc_icon.png">Expulsamos os espanhóis! As aldeias locais estão gratas pelo seu feito.</string>
     <string _locid="36649" gamecharacter="Amelia" soundfilename="AMEL2070" portraitfilename="resources\art\units\spc\amelia_black\amelia_black_igc_icon.png">Protejam o canhão de Bolivar!</string>
-    <string _locid="36650" gamecharacter="Aldeão espanhol" soundfilename="GENR2140" portraitfilename="resources\art\units\spc\villagers\villager_portrait.png">Obrigado. Fazer canhões é nossa especialidade. Pode usar nossas edificações.</string>
-    <string _locid="36651" gamecharacter="Aldeão espanhol" soundfilename="GENR2145" portraitfilename="resources\art\units\spc\villagers\villager_portrait.png">Liberdade!</string>
-    <string _locid="36652" gamecharacter="Aldeão espanhol" soundfilename="GENR2150" portraitfilename="resources\art\units\spc\villagers\villager_portrait.png">Treinamos cavalaria aqui. As coudelarias podem ajudar.</string>
-    <string _locid="36653" gamecharacter="Aldeão espanhol" soundfilename="GENR2155" portraitfilename="resources\art\units\spc\villagers\villager_portrait.png">Os espanhóis fugiram! Usem nossas fazendas e quartéis; usem tudo para nos livrar dos espanhóis.</string>
+    <string _locid="36650" gamecharacter="Aldeão espanhol" soundfilename="GENR2140" portraitfilename="resources\art\units\villagers\villager_portrait.png">Obrigado. Fazer canhões é nossa especialidade. Pode usar nossas edificações.</string>
+    <string _locid="36651" gamecharacter="Aldeão espanhol" soundfilename="GENR2145" portraitfilename="resources\art\units\villagers\villager_portrait.png">Liberdade!</string>
+    <string _locid="36652" gamecharacter="Aldeão espanhol" soundfilename="GENR2150" portraitfilename="resources\art\units\villagers\villager_portrait.png">Treinamos cavalaria aqui. As coudelarias podem ajudar.</string>
+    <string _locid="36653" gamecharacter="Aldeão espanhol" soundfilename="GENR2155" portraitfilename="resources\art\units\villagers\villager_portrait.png">Os espanhóis fugiram! Usem nossas fazendas e quartéis; usem tudo para nos livrar dos espanhóis.</string>
     <string _locid="36654" gamecharacter="Amelia" soundfilename="AMEL2110" portraitfilename="resources\art\units\spc\amelia_black\amelia_black_igc_icon.png">Não sei se conseguimos passar pelo Ossário. Talvez devêssemos atracar no sul da ilha.</string>
     <string _locid="36655" gamecharacter="Amelia" soundfilename="AMEL2120" portraitfilename="resources\art\units\spc\amelia_black\amelia_black_igc_icon.png">Onde estão os navios americanos que nos devem?</string>
     <string _locid="36656" gamecharacter="Amelia" soundfilename="AMEL2125" portraitfilename="resources\art\units\spc\amelia_black\amelia_black_igc_icon.png">Conseguimos! O Ossário caiu! Mas quero ter certeza da morte de Beaumont.</string>
-    <string _locid="36657" gamecharacter="Aldeão espanhol" soundfilename="GENR2165" portraitfilename="resources\art\units\spc\villagers\villager_portrait.png">Tentaremos rechaçar as forças do Círculo enquanto constrói a base.</string>
-    <string _locid="36658" gamecharacter="Aldeão espanhol" soundfilename="GENR2170" portraitfilename="resources\art\units\spc\villagers\villager_portrait.png">Já faz tempo demais que vivemos sob a sombra do Ossário. Nós ajudaremos você.</string>
-    <string _locid="36659" gamecharacter="Aldeão espanhol" soundfilename="GENR2175" portraitfilename="resources\art\units\spc\villagers\villager_portrait.png">Ofereceremos recursos para você conforme pudermos.</string>
+    <string _locid="36657" gamecharacter="Aldeão espanhol" soundfilename="GENR2165" portraitfilename="resources\art\units\villagers\villager_portrait.png">Tentaremos rechaçar as forças do Círculo enquanto constrói a base.</string>
+    <string _locid="36658" gamecharacter="Aldeão espanhol" soundfilename="GENR2170" portraitfilename="resources\art\units\villagers\villager_portrait.png">Já faz tempo demais que vivemos sob a sombra do Ossário. Nós ajudaremos você.</string>
+    <string _locid="36659" gamecharacter="Aldeão espanhol" soundfilename="GENR2175" portraitfilename="resources\art\units\villagers\villager_portrait.png">Ofereceremos recursos para você conforme pudermos.</string>
     <string _locid="36660" gamecharacter="Beaumont" soundfilename="BEAU2045" portraitfilename="resources\art\units\spc\beaumont\beaumont_igc_icon.png">Então Havana se virou contra nós. Sem problemas… você morrerá com Amelia Black!</string>
     <string _locid="36661" gamecharacter="Soldado" soundfilename="GENR2180" portraitfilename="resources\art\units\infantry_ranged\crossbow\crossbow_portrait.png">Mais navios americanos chegaram!</string>
     <string _locid="36662">Sobreviver aos ataques cherokees</string>
@@ -7867,7 +7867,7 @@
     <string _locid="37357">EQ: Melhoria do projétil incendiário concluída.</string>
     <string _locid="37358" symbol="cStringPUNotEnabled">%s não está ativado agora.</string>
     <string _locid="37359" symbol="cStringPUNotObtainable">%s não é viável para a sua civilização.</string>
-    <string _locid="37360">As unidades de lanceiros causam dano maior à infantaria e podem atacar à distância.</string>
+    <string _locid="37360">As unidades de lanceiros causam dano maior à infantaria e podem atacar à maior distância.</string>
     <string _locid="37361">Caballeros</string>
     <string _locid="37362">Os centros urbanos fornecem tanta população que você não precisa de casas.</string>
     <string _locid="37363">Estâncias coloniais</string>
@@ -13534,7 +13534,7 @@
     <string _locid="43138">A Caravela</string>
     <string _locid="43139">O burro de carga da marinha aguarda cargas destinadas ao Novo Mundo.</string>
     <string _locid="43140">Expedição Drake</string>
-    <string _locid="43141">Placa de empresa transportadora.</string>
+    <string _locid="43141">Uma placa para uma companhia de transporte.</string>
     <string _locid="43142">O Chefe Tribal</string>
     <string _locid="43143">Placa de estabelecimento comum.</string>
     <string _locid="43144">O Gato Azul</string>
@@ -14535,7 +14535,7 @@
     <string _locid="44136">Choupana dos nobres</string>
     <string _locid="44137">Choupana dos nobres</string>
     <string _locid="44138">Infantaria de choque de ataque à distância</string>
-    <string _locid="44139">Aristocrata que arremessa lanças com um atlatl. Bom contra cavalaria e Corredores Coiote.</string>
+    <string _locid="44139">Nobre que arremessa dardos de um atlatl. Bom contra cavalaria e infantaria de choque corpo a corpo.</string>
     <string _locid="44140">Cavaleiro águia corredor</string>
     <string _locid="44141">INF Cavaleiro águia corredor</string>
     <string _locid="44142">Infantaria corpo a corpo</string>
@@ -16515,7 +16515,7 @@
     <string _locid="46122">Comanchero</string>
     <string _locid="46123">Comanchero do BAR</string>
     <string _locid="46124">Um fora da lei.</string>
-    <string _locid="46125">Um perigoso fora-da-lei com rifle.</string>
+    <string _locid="46125">Um fora da lei perigoso com uma arma, forte contra infantaria pesada.</string>
     <string _locid="46126">Renegado</string>
     <string _locid="46127">Renegado do BAR</string>
     <string _locid="46128">Um pirata.</string>
@@ -19524,7 +19524,7 @@
     <string _locid="49207">(+%d)</string>
     <string _locid="49208">Taxa de coleta de alimento (por minuto)</string>
     <string _locid="49209">Taxa de coleta de madeira (por minuto)</string>
-    <string _locid="49210">Taxa de coleta de ouro (por minuto)</string>
+    <string _locid="49210">Taxa de coleta de moedas (por minuto)</string>
     <string _locid="49211">Taxa de coleta de dança (por minuto)</string>
     <string _locid="49212">Taxa de coleta de comércio (por minuto)</string>
     <string _locid="49213">Selecione para convidar o jogador.</string>
@@ -20004,7 +20004,7 @@
     <string _locid="49688">Batalha cooperada</string>
     <string _locid="49689">Batalha cooperada: jogue uma batalha histórica ou campanha cooperada entre amigos ou com outros jogadores online.</string>
     <string _locid="49690">Cenário cooperado</string>
-    <string _locid="49691">Selecione um cenário cooperado no menu suspenso. O cenário também pode ser alterado depois que a sala for criada.</string>
+    <string _locid="49691">Selecione um cenário cooperativo no menu suspenso.</string>
     <string _locid="49692">Luz de eclipse</string>
     <string _locid="49693">A cidade sob um eclipse total.</string>
     <string _locid="49694">Moctezuma\nMoctezuma, o último governante da Tríplice Aliança Asteca, tem a última oportunidade de mostrar seu traje majestoso.</string>
@@ -20043,7 +20043,7 @@
     <string _locid="49727">A luta mexicana pela independência iniciou-se em 1810, em Guanajuato, com o Grito de Dolores.</string>
     <string _locid="49728">Oaxaca</string>
     <string _locid="49729">Alie-se ao povoado indígena dos zapotecas.</string>
-    <string _locid="49730">Oaxaca é mais conhecida por seus povos e culturas indígenas. Os mais numerosos e conhecidos são os zapotecas e os mixtecas, mas outros catorze são oficialmente reconhecidos.</string>
+    <string _locid="49730">Oaxaca é mais conhecida por seus povos e culturas indígenas. Os mais numerosos e conhecidos são os Zapotecas e os Mixtecas, mas outros catorze são oficialmente reconhecidos.</string>
     <string _locid="49731">Puebla</string>
     <string _locid="49732">Cause 5.000 de dano com a unidade Escaramuçadora em um único jogo. (Holandeses, franceses, alemães, espanhóis)</string>
     <string _locid="49733">Um equívoco comum é que Cinco de Mayo é o Dia da Independência do México. Na verdade, esse dia comemora a Batalha de Puebla no dia 5 de maio ("cinco de mayo"), quando as forças mexicanas em número inferior repeliram o exército invasor francês meio século após a Guerra da Independência do México.</string>
@@ -20102,7 +20102,7 @@
     <string _locid="49786">Vença uma partida de Escaramuça/Multijogador contra os astecas.</string>
     <string _locid="49787">O vassalo asteca Tlaxcala aliou-se à Espanha para se livrar de seu governante, ganhando relativa independência do controle espanhol no processo e, finalmente, resultando no menor estado do México moderno.</string>
     <string _locid="49788">Colima</string>
-    <string _locid="49789">Treine 20 unidades piratas em um único jogo.</string>
+    <string _locid="49789">Treine 20 unidades piratas em um único jogo. (Todas as civilizações europeias e os chineses)</string>
     <string _locid="49790">No século XVII, os portos de Colima foram alvo de invasões de piratas em busca da preciosa carga de galeões de Manila que atracavam lá.</string>
     <string _locid="49791">Aguascalientes</string>
     <string _locid="49792">Transporte 2 fábricas de sua Metrópole.</string>
@@ -20134,7 +20134,7 @@
     <string _locid="49818">Dia dos Mortos (Día de los Muertos) 1/2</string>
     <string _locid="49819">Os cidadãos do México celebrando o Día de los Muertos usando máscaras de caveira.</string>
     <string _locid="49820">Dia dos Mortos (Día de los Muertos) 2/2</string>
-    <string _locid="49821">Os cidadãos do México celebrando o Día de los Muertos, acendendo fogos de artifício e fogueiras.</string>
+    <string _locid="49821">Os cidadãos do México celebrando o Día de los Muertos, acendendo fogos de artifício.</string>
     <string _locid="49822">Soldados marchando</string>
     <string _locid="49823">Soldados do México marchando pela cidade.</string>
     <string _locid="49824">Plaza del Zócalo (original)</string>
@@ -20196,6 +20196,103 @@
     <string _locid="49880">A versão azul-clara da Catedral Metropolitana.</string>
     <string _locid="49881">Catedral Metropolitana (branca)</string>
     <string _locid="49882">A versão branca da Catedral Metropolitana.</string>
+    <string _locid="49883">A cidade à noite.</string>
+    <string _locid="49884">Exibe Mapas de Tratado em lista.</string>
+    <string _locid="49885">Apoio do Chefe de Guerra</string>
+    <string _locid="49886">Habilidade passiva: a habilidade passiva do Chefe de Guerra asteca permite que unidades próximas ganhem o dobro de experiência.</string>
+    <string _locid="49887">Habilidade passiva: a habilidade passiva do Chefe de Guerra lakota permite que unidades próximas ganhem +10% de velocidade de movimento.</string>
+    <string _locid="49888">Habilidade passiva: a habilidade passiva do Chefe de Guerra inca permite que nativas unidades próximas ganhem +20% de pontos de vida.</string>
+    <string _locid="49889">Habilidade passiva: a habilidade passiva do Chefe de Guerra iroquês permite que unidades próximas ganhem +10% de pontos de vida.</string>
+    <string _locid="49890">Comunidade</string>
+    <string _locid="49891">Acesse https://www.facebook.com/ageofempires/</string>
+    <string _locid="49892">Acesse https://www.twitter.com/ageofempires/</string>
+    <string _locid="49893">Acesse https://www.instagram.com/ageofempiresgame/</string>
+    <string _locid="49894">Acesse https://www.youtube.com/ageofempires/</string>
+    <string _locid="49895">Vá para https://discord.com/invite/ageofempires/login</string>
+    <string _locid="49896">Suporte</string>
+    <string _locid="49897">Encontre ajuda em nossos fóruns.</string>
+    <string _locid="49898">Acesse https://forums.ageofempires.com/c/age-of-empires-iii/133</string>
+    <string _locid="49899">Fóruns</string>
+    <string _locid="49900">Confira as últimas notícias em nossos fóruns.</string>
+    <string _locid="49901">Acesse https://support.ageofempires.com/hc/categories/360004101511-Age-of-Empires-III-Definitive-Edition</string>
+    <string _locid="49902">Relatar um problema</string>
+    <string _locid="49903">Informe-nos sobre bugs em nossos fóruns.</string>
+    <string _locid="49904">Acesse https://support.ageofempires.com/hc/articles/360048537332-Reporting-an-Issue</string>
+    <string _locid="49905">Evento de Ano Novo Lunar: 2022</string>
+    <string _locid="49906">Evento de Ano Novo Lunar: 2021</string>
+    <string _locid="49907">Ano do Tigre</string>
+    <string _locid="49908">Ano do Boi</string>
+    <string _locid="49909">Mudar para os desafios de evento do Ano do Tigre (2022).</string>
+    <string _locid="49910">Mudar para os desafios de evento do Ano do Boi (2021).</string>
+    <string _locid="49911">Os eventos anteriores já estão disponíveis! Se você perdeu algum evento nos últimos anos, agora você pode tentar realizar estes desafios!</string>
+    <string _locid="49912">Desbloqueio de ícone de perfil — Uma versão Xbox de um tigre.</string>
+    <string _locid="49913">Vença uma partida de Escaramuça ou Multijogador no mapa da Mongólia.</string>
+    <string _locid="49914">Desbloqueio de ícone de perfil — Um cidadão vestindo um hanfu tradicional.</string>
+    <string _locid="49915">Construa todas as Maravilhas chinesas.</string>
+    <string _locid="49916">Desbloqueio de ícone de perfil — Dança do Leão</string>
+    <string _locid="49917">Atordoe um total de 50 guardiões do tesouro com qualquer um dos exploradores das Dinastias Asiáticas.</string>
+    <string _locid="49918">Desbloqueio de ícone de perfil — Um arcabuzeiro em vestes tradicionais chinesas.</string>
+    <string _locid="49919">Posicione todos os exércitos das provisões da Academia de Guerra, do Castelo e da Metrópole como os chineses. (13 exércitos no total)</string>
+    <string _locid="49920">Desbloqueio de trapaça — Trapaça do Leão Guardião Chinês</string>
+    <string _locid="49921">Cause 2.022 de dano com Axehilt, o Tigre Manso, ou com Wagner, o Tigre Branco de Estimação, como os indianos.</string>
+    <string _locid="49922">Desbloqueio de ícone de perfil — Uma estátua do tigre de água, o dom da força e da coragem.</string>
+    <string _locid="49923">O Paraíso de Inverno já está disponível no navegador de mods!</string>
+    <string _locid="49924">Baixar mod</string>
+    <string _locid="49925">Selecione para baixar este mod.</string>
+    <string _locid="49926">Atualizar/corrigir mod</string>
+    <string _locid="49927">Este mod requer uma atualização ou uma correção.</string>
+    <string _locid="49928" symbol="cStringPlayWinterWonderland">Jogar Paraíso de Inverno</string>
+    <string _locid="49929">Selecione para jogar este mod.</string>
+    <string _locid="49930">Você atingiu o limite populacional militar {0}/{1} e não pode enviar este cartão de Metrópole.</string>
+    <string _locid="49931">Desafios Econômicos</string>
+    <string _locid="49932">Desafios Econômicos: veja mais detalhes sobre o desafio econômico.</string>
+    <string _locid="49933">Complete estes desafios para aumentar sua pontuação total!</string>
+    <string _locid="49934">Concluído por</string>
+    <string _locid="49935">O primeiro a coletar 2.000 alimentos. (200 pontos)</string>
+    <string _locid="49936">O primeiro a coletar 2.000 madeiras. (200 pontos)</string>
+    <string _locid="49937">O primeiro a coletar 2.000 moedas. (200 pontos)</string>
+    <string _locid="49938">O primeiro a coletar 1.000 alimentos em: 2 minutos (1.000 pontos), 5 minutos (400 pontos), 10 minutos (100 pontos)</string>
+    <string _locid="49939">O primeiro a coletar 1.000 madeiras em: 2 minutos (1.000 pontos), 5 minutos (400 pontos), 10 minutos (100 pontos)</string>
+    <string _locid="49940">O primeiro a coletar 1.000 moedas em: 2 minutos (1.000 pontos), 5 minutos (400 pontos), 10 minutos (100 pontos)</string>
+    <string _locid="49941">O primeiro a atingir uma população de 75 em: 6 minutos (1.000 pontos), 8 minutos (500 pontos), 10 minutos (250 pontos)</string>
+    <string _locid="49942">O primeiro a coletar {0} alimentos. ({1} pontos)</string>
+    <string _locid="49943">O primeiro a coletar {0} madeiras. ({1} pontos)</string>
+    <string _locid="49944">O primeiro a coletar {0} moedas. ({1} pontos)</string>
+    <string _locid="49945">Colete {0} comidas: {1}, {2} minutos ({3} pontos)</string>
+    <string _locid="49946">Colete {0} madeiras: {1}, {2} minutos ({3} pontos)</string>
+    <string _locid="49947">Colete {0} moedas: {1}, {2} minutos ({3} pontos)</string>
+    <string _locid="49948">Alcance uma população de {0}: {1}, {2} minutos ({3} pontos)</string>
+    <string _locid="49949">O primeiro a coletar {0} alimentos em: {1} minuto ({2} pontos), {3} minutos ({4} pontos), {5} minutos ({6} pontos)</string>
+    <string _locid="49950">O primeiro a coletar {0} madeiras em: {1} minuto ({2} pontos), {3} minutos ({4} pontos), {5} minutos ({6} pontos)</string>
+    <string _locid="49951">O primeiro a coletar {0} moedas em: {1} minuto ({2} pontos), {3} minutos ({4} pontos), {5} minutos ({6} pontos)</string>
+    <string _locid="49952">O primeiro a atingir uma população de {0} em: {1} minutos ({2} pontos), {3} minutos ({4} pontos), {5} minutos ({6} pontos)</string>
+    <string _locid="49953">Lao Chen\nUm marinheiro robusto cuja sagacidade e músculos podem ser muito úteis para encarar os desafios e virar o jogo.</string>
+    <string _locid="49954">Capitão Huang\nO luxuoso traje deste capitão naval que viajou mundo afora pode muito bem ser igualado às riquezas em seu navio de tesouros.</string>
+    <string _locid="49955">Lao Chen</string>
+    <string _locid="49956">Capitão Huang</string>
+    <string _locid="49957">Desbloqueie esta personalização de Mestre Shaolin ao completar os Desafios de Evento do Ano Novo Lunar.</string>
+    <string _locid="49958">
+    </string>
+    <string _locid="49959">
+    </string>
+    <string _locid="49960">
+    </string>
+    <string _locid="49961">
+    </string>
+    <string _locid="49962">Este jogador não possui uma Metrópole.</string>
+    <string _locid="49963">Selecione para expandir o minimapa ou revertê-lo de volta ao normal.</string>
+    <string _locid="49964">Leão Guardião</string>
+    <string _locid="49965">Leoa Guardiã</string>
+    <string _locid="49966">Acreditava-se que os leões guardiões chineses eram uma proteção contra influências espirituais negativas e pessoas mal-intencionadas que podem representar uma ameaça.</string>
+    <string _locid="49967">Os leões guardiões chineses lutarão contra influências e pessoas negativas que podem representar uma ameaça.</string>
+    <string _locid="49968">Desfile da Dança do Leão</string>
+    <string _locid="49969">Uma forma tradicional de dança da cultura asiática que traz sorte e boa fortuna.</string>
+    <string _locid="49970">Uma dança tradicional que traz sorte e boa fortuna.</string>
+    <string _locid="49971">Personalização de Mestre Shaolin — Lao Chen</string>
+    <string _locid="49972">Personalização de Mestre Shaolin — Capitão Huang</string>
+    <string _locid="49973">Respiração Sagrada</string>
+    <string _locid="49974">Bala de Canhão de Pérola</string>
+    <string _locid="49976">Evento de Ano Novo Lunar</string>
     <string _locid="60001" symbol="cStringCivNameJapanese">Japonês</string>
     <string _locid="60002" symbol="cStringCivNameChinese">Chineses</string>
     <string _locid="60003" symbol="cStringCivNameIndians">Indianos</string>
@@ -20420,7 +20517,7 @@
     <string _locid="60222">Suporta 10 populações.</string>
     <string _locid="60223">Santuário</string>
     <string _locid="60224">Santuário Japonês</string>
-    <string _locid="60225">Dá suporte a 20 populações / edifícios de curral</string>
+    <string _locid="60225">Dá suporte a {unitPopCapAddition(ypVillage)} populações / edifícios de curral</string>
     <string _locid="60226">Dá suporte a 20 populações, que podem ser aumentadas aqui com melhorias. Também engorda o gado mais rapidamente e treina Bodes.</string>
     <string _locid="60227">Aldeia</string>
     <string _locid="60228">Aldeia</string>
@@ -21746,7 +21843,7 @@
     <string _locid="61547">Ataque do Exército de Bandeira Negra</string>
     <string _locid="61548">A provisão de Pontos de Vida do Exército Territorial chegou.</string>
     <string _locid="61549">A Provisão de Combate do Exército Territorial chegou.</string>
-    <string _locid="61550">Cav. Estepe causam mais danos contra Aldeões e edif. Keshiks causam mais danos contra cav. pesada e Corred. Coiote. Manguais de Ferro causam mais danos que arq. e escaramuç.</string>
+    <string _locid="61550">Os Cavaleiros de Estepe causam mais dano contra Aldeões e edifícios. Keshiks causam mais dano contra cavalaria pesada e infantaria de choque corpo a corpo. Manguais de Ferro causam mais dano contra arqueiros e escaramuçadores.</string>
     <string _locid="61551">Praga Mongol</string>
     <string _locid="61552">A provisão de Pontos de Vida do Exército Territorial chegou.</string>
     <string _locid="61553">As Provisões Mongóis chegaram.</string>
@@ -25178,7 +25275,7 @@
     <string _locid="65135">Sipai Mansabdar</string>
     <string _locid="65136">MAN Sipai</string>
     <string _locid="65137" symbol="cStringWonderRangedDamage">Configure o Pavilhão Dourado para aumentar o ataque às suas unidades de ataque à distância.</string>
-    <string _locid="65138" symbol="cStringWonderRangedDamageActive">O Pavilhão Dourado está aumentando o ataque às suas unidades de ataque à distância.</string>
+    <string _locid="65138" symbol="cStringWonderRangedDamageActive">O Pavilhão Dourado está aumentando o ataque de suas unidades de longo alcance.</string>
     <string _locid="65139" symbol="cStringWonderHandDamage">Configure o Pavilhão Dourado para aumentar o ataque às suas unidades de combate corpo a corpo.</string>
     <string _locid="65140" symbol="cStringWonderHandDamageActive">O Pavilhão Dourado está aumentando o ataque às suas unidades de combate corpo a corpo.</string>
     <string _locid="65141" symbol="cStringWonderUnitHitpoints">Configure o Pavilhão Dourado para aumentar os pontos de vida das suas unidades militares de terra.</string>
@@ -32290,6 +32387,8 @@
     <string _locid="73001" symbol="cStringGameModeRankedDeathmatch">Jogo Fatal Ranqueado</string>
     <string _locid="73002" symbol="cStringCasualRankedTeamsError">Você precisa de duas equipes com o mesmo número de jogadores em uma partida ranqueada.</string>
     <string _locid="73003" symbol="cStringCasualRankedDisabled">Não permitido em partidas ranqueados.</string>
+    <string _locid="73004" symbol="cStringGameModeRankedTreatyTooltip">Tratado ranqueado: uma partida de tratado que impacta as classificações.</string>
+    <string _locid="73005" symbol="cStringGameModeRankedDeathmatchTooltip">Jogo fatal ranqueado: um jogo fatal que impacta as classificações.</string>
     <string _locid="79800">O ataque do Castelo e do Blocause aumentou.</string>
     <string _locid="79801">Castelos e blocauses recebem um ataque de canhão e mais pontos de vida.</string>
     <string _locid="79802">Castelo da Montanha e Blocause da Fronteira</string>
@@ -33860,17 +33959,17 @@
     <string _locid="84072" soundfilename="ZNARR0405">O corpo do rei inimigo nunca foi encontrado, e o sultão fantoche se afogou em um rio enquanto tentava escapar da carnificina. Pouco depois, o sultão Abd al-Malik também deu seu último suspiro. Ele e seus assessores esconderam sua grave doença durante a batalha para manter a moral de suas forças, mas agora, contente com sua vitória, o velho finalmente renunciou à vida.</string>
     <string _locid="84073" soundfilename="ZNARR0410">Assim, três reis morreram naquele dia. A Espanha posteriormente tomou o controle de Portugal e Ahmad al-Mansur sucedeu seu irmão como sultão, governando o Marrocos pelos próximos 25 anos.</string>
     <string _locid="84075">Determinados a acabar com os ataques predatórios a navios mercantes, os Estados Unidos declararam guerra aos piratas bárbaros no norte da África. Um início de conflito auspicioso transformou-se rapidamente em desastre e desgraça quando a fragata USS Philadelphia foi capturada intacta por piratas bárbaros. No entanto, um jovem tenente americano muito corajoso não estava disposto a deixar o navio em mãos inimigas. Reunindo um grupo de voluntários, Stephen Decatur partiu para destruir a fragata e salvar a reputação da Marinha dos EUA.</string>
-    <string _locid="84076" soundfilename="ZNARR0450">Pegos de surpresa, os piratas bárbaros não conseguiram impedir que os fuzileiros americanos destruíssem a fragata capturada.</string>
-    <string _locid="84077" soundfilename="ZNARR0455">A operação foi extremamente ousada para o seu tempo, e as notícias da bravura e astúcia de Stephen Decatur rapidamente se espalharam pelo mundo. Ações destemidas como essa ajudaram a promover a ascensão dos Estados Unidos à proeminência global.</string>
+    <string _locid="84076" soundfilename="ZNARR0450">Pegos de surpresa, os piratas bárbaros não conseguiram impedir que os fuzileiros americanos destruíssem aquilo que capturaram.</string>
+    <string _locid="84077" soundfilename="ZNARR0455">A operação foi extremamente ousada para o seu tempo, e as notícias da bravura e astúcia de Stephen Decatur rapidamente se espalharam pelo mundo. Ações destemidas como esta ajudaram a promover a ascensão dos Estados Unidos à proeminência global.</string>
     <string _locid="84078" soundfilename="ZNARR0465">Destemidos por esta pequena derrota, os Estados Bárbaros continuaram o conflito. Levou mais um ano de guerra, bloqueios navais dos EUA e uma expedição terrestre por fuzileiros navais dos EUA para forçar os piratas a capitular, terminando assim a Primeira Guerra Bárbara.</string>
     <string _locid="84080">À medida que as Reformas Borbônicas concederam mais poder à elite espanhola e diminuíram o da igreja, o ressentimento cresceu entre a população rural mexicana. Quando as notícias da conquista da Espanha por Napoleão Bonaparte chegaram às Américas, as palavras de um padre católico acenderam as faíscas da revolução.</string>
-    <string _locid="84081" soundfilename="ZNARR0500">A revolta obteve imenso sucesso conforme os revolucionários marcharam de Dolores para as montanhas perto de Toluca. A cada vitória, mais e mais mexicanos se juntaram ao exército da revolução até ele totalizar quase cem mil soldados.</string>
-    <string _locid="84082" soundfilename="ZNARR0505">Entretanto, o ataque deles cessou após a vitória em Monte de las Cruces. Por razões desconhecidas, os comandantes decidiram marchar para o norte e tomar Guadalajara em vez de sitiar a Cidade do México. Os soldados contestaram a decisão, resultando em deserções em massa até que restasse apenas uma força simbólica.</string>
-    <string _locid="84083" soundfilename="ZNARR0510">Os espanhóis seguiram o exército revolucionário até a Ponte de Calderón, onde os experientes soldados espanhóis derrotaram os indisciplinados e mal equipados remanescentes da milícia rebelde. Pouco tempo depois, muitos de seus líderes, entre eles o velho e carismático padre, foram capturados e executados.</string>
-    <string _locid="84084" soundfilename="ZNARR0515">As ações do padre marcaram profundamente os corações dos cidadãos da Nova Espanha. Seu legado continuou a incitar resistência contra os espanhóis até que o México finalmente se tornasse uma nação independente.</string>
+    <string _locid="84081" soundfilename="ZNARR0500">A revolta teve imenso sucesso enquanto os revolucionários marcharam de Dolores até as montanhas perto de Toluca. A cada vitória, mais e mais mexicanos se juntavam à tropa revolucionária, até que chegaram a quase cem mil soldados.</string>
+    <string _locid="84082" soundfilename="ZNARR0505">Entretanto, todo o ataque fora interrompido após a vitória no Monte de las Cruces. Por razões desconhecidas, os comandantes decidiram marchar para o norte e tomar Guadalajara, em vez de sitiar a Cidade do México. Os soldados contestaram a decisão, o que resultou em deserções em massa, até que apenas poucos homens decidiram ficar.</string>
+    <string _locid="84083" soundfilename="ZNARR0510">Os espanhóis seguiram o exército revolucionário até a Ponte Calderón, onde os soldados espanhóis derrotaram os indisciplinados e mal equipados remanescentes da milícia rebelde. Não demorou até que diversos de seus líderes, incluindo o velho e carismático padre, fossem capturados e executados.</string>
+    <string _locid="84084" soundfilename="ZNARR0515">As atitudes do padre deixaram uma marca inesquecível no coração dos cidadãos da Nova Espanha. Seu legado continuou reverberando resistência contra os espanhóis até que o México finalmente se tornou uma nação independente.</string>
     <string _locid="84085">No início da Guerra de 1812, os americanos iniciaram uma invasão, atravessando o rio Niágara até o Canadá britânico. Para deter essa ofensiva e defender o Canadá, os britânicos convocaram as milícias de York e Lincoln, bem como seus aliados mohawk, lenape e iroqueses.</string>
     <string _locid="84086" soundfilename="ZNARR0550">Em uma iniciativa corajosa, o general britânico Isaac Brock liderou suas tropas e impediu que os americanos cruzassem o Niágara. Entretanto, após ele ser baleado por um franco-atirador americano e os americanos tomarem o terreno mais elevado, as linhas britânicas começaram a desmoronar e a derrota parecia iminente.</string>
-    <string _locid="84087" soundfilename="ZNARR0555">Apesar das desvantagens numéricas e do moral debilitado, as milícias canadenses e seus aliados nativos americanos mantiveram-se firmes contra a investida americana. Os guerreiros mohawk, lenape e iroqueses desempenharam um papel vital, repelindo bravamente os ataques americanos e assustando os reforços com seus infames gritos de guerra.</string>
+    <string _locid="84087" soundfilename="ZNARR0555">Apesar das desvantagens numéricas e do moral debilitado, as milícias canadenses e seus aliados nativos americanos mantiveram-se firmes contra a investida americana. Os guerreiros Mohawk, Lenape e Iroqueses desempenharam um papel vital, repelindo bravamente os ataques americanos e assustando os reforços com seus infames gritos de guerra.</string>
     <string _locid="84088" soundfilename="ZNARR0560">A morte de Brock impediu que os britânicos tirassem proveito do ímpeto obtido com este triunfo, mas o resultado ainda foi significativo. Os canadenses entraram na guerra com dúvida e pouca experiência, mas a vitória em Queenston Heights fortaleceu sua determinação e despertou um sentimento de nacionalismo canadense.</string>
     <string _locid="84100">Corsários Bárbaros</string>
     <string _locid="84101">O exército espanhol</string>
@@ -34169,23 +34268,23 @@
     <string _locid="84705">Nômades fulani</string>
     <string _locid="84706">Camponeses hauçá</string>
     <string _locid="84708" referencedplayerid="1" gamecharacter="Usmã" soundfilename="ZUSMA0000" portraitfilename="resources\art\units\spc\usman_dan_fodio\usman_dan_fodio_portrait.png">Os nobres hauçás esqueceram nossas tradições! Eles vivem vidas decadentes de ganância e banem injustamente quem ousa criticá-los. Eu me recuso a permitir que isso continue!</string>
-    <string _locid="84709" referencedplayerid="1" gamecharacter="Seguidor" soundfilename="ZGENR0180" portraitfilename="resources\art\units\africans\hausa\bodyguard\bodyguard_portrait.png">Estaremos ao seu lado aconteça o que acontecer, dã Fodio, mas o que você sugere que façamos?</string>
+    <string _locid="84709" referencedplayerid="1" gamecharacter="Seguidor" soundfilename="ZGENR0180" portraitfilename="resources\art\units\africans\hausa\bodyguard\bodyguard_portrait_spc.png">Estaremos ao seu lado aconteça o que acontecer, dã Fodio, mas o que você sugere que façamos?</string>
     <string _locid="84710" referencedplayerid="1" gamecharacter="Usmã" soundfilename="ZUSMA0005" portraitfilename="resources\art\units\spc\usman_dan_fodio\usman_dan_fodio_portrait.png">Ouçam, meus amigos: os chicoteados e banidos devem se unir e arrancar esta terra das mãos gananciosas dos hauçás. Não estamos sozinhos, pois os fulani deste lado do rio os detestam. Eles vão nos ajudar em nossa revolta!</string>
-    <string _locid="84711" referencedplayerid="6" gamecharacter="Guerreiro fula" soundfilename="ZGENR0185" portraitfilename="resources\art\units\africans\hausa\fula_warrior\fula_warrior_portrait.png">Nos juntaremos a você em sua batalha, Usmã dã Fodio, comandante dos fiéis.</string>
-    <string _locid="84712" referencedplayerid="6" gamecharacter="Guerreiro fula" soundfilename="ZGENR0190" portraitfilename="resources\art\units\africans\hausa\fula_warrior\fula_warrior_portrait.png">Soldados hauçás vieram invadir nossos assentamentos! Nossos arqueiros podem nos proteger por ora, mas não vai demorar muito até que as cidades-estados nos ataquem em maior número. Devemos nos preparar.</string>
+    <string _locid="84711" referencedplayerid="6" gamecharacter="Guerreiro fula" soundfilename="ZGENR0185" portraitfilename="resources\art\units\africans\hausa\fula_warrior\fula_warrior_portrait_spc.png">Nos juntaremos a você em sua batalha, Usmã dã Fodio, comandante dos fiéis.</string>
+    <string _locid="84712" referencedplayerid="6" gamecharacter="Guerreiro fula" soundfilename="ZGENR0190" portraitfilename="resources\art\units\africans\hausa\fula_warrior\fula_warrior_portrait_spc.png">Soldados hauçás vieram invadir nossos assentamentos! Nossos arqueiros podem nos proteger por ora, mas não vai demorar muito até que as cidades-estados nos ataquem em maior número. Devemos nos preparar.</string>
     <string _locid="84713" referencedplayerid="1" gamecharacter="Usmã" soundfilename="ZUSMA0010" portraitfilename="resources\art\units\spc\usman_dan_fodio\usman_dan_fodio_portrait.png">Gobir, Katsina e Kano se uniram para lutar conosco. Temos que derrotar as três cidades para reivindicar a vitória. Cada uma se renderá a nós se destruirmos seu centro urbano.</string>
     <string _locid="84714" referencedplayerid="1" gamecharacter="Usmã" soundfilename="ZUSMA0015" portraitfilename="resources\art\units\spc\usman_dan_fodio\usman_dan_fodio_portrait.png">Devemos construir uma universidade para educar adequadamente nosso povo. Isso também aumentará nossa influência.</string>
     <string _locid="84715" referencedplayerid="1" gamecharacter="Usmã" soundfilename="ZUSMA0020" portraitfilename="resources\art\units\spc\usman_dan_fodio\usman_dan_fodio_portrait.png">Camponeses maltratados trabalham nos campos fora dos muros da cidade. Se os libertássemos de suas amarras, eles ficariam dispostos a pegar em armas conosco.</string>
-    <string _locid="84716" referencedplayerid="1" gamecharacter="Seguidor" soundfilename="ZGENR0195" portraitfilename="resources\art\units\africans\hausa\bodyguard\bodyguard_portrait.png">Os camponeses que libertamos se juntarão a Usmã e a nossos aliados fulas.</string>
-    <string _locid="84717" referencedplayerid="6" gamecharacter="Guerreiro fula" soundfilename="ZGENR0200" portraitfilename="resources\art\units\africans\hausa\fula_warrior\fula_warrior_portrait.png">Libertamos mais trabalhadores dos hauçás!</string>
-    <string _locid="84718" referencedplayerid="1" gamecharacter="Seguidor" soundfilename="ZGENR0205" portraitfilename="resources\art\units\africans\hausa\bodyguard\bodyguard_portrait.png">Venham, irmãos e irmãs. Levantem-se contra nossos opressores!</string>
-    <string _locid="84719" referencedplayerid="6" gamecharacter="Guerreiro fula" soundfilename="ZGENR0210" portraitfilename="resources\art\units\africans\hausa\fula_warrior\fula_warrior_portrait.png">Outro grupo de trabalhadores foi libertado! </string>
-    <string _locid="84720" referencedplayerid="1" gamecharacter="Seguidor" soundfilename="ZGENR0215" portraitfilename="resources\art\units\africans\hausa\bodyguard\bodyguard_portrait.png">Libertamos todos os trabalhadores!</string>
-    <string _locid="84721" referencedplayerid="6" gamecharacter="Guerreiro fula" soundfilename="ZGENR0220" portraitfilename="resources\art\units\africans\hausa\fula_warrior\fula_warrior_portrait.png">Katsina não lutará mais!</string>
-    <string _locid="84722" referencedplayerid="1" gamecharacter="Seguidor" soundfilename="ZGENR0225" portraitfilename="resources\art\units\africans\hausa\bodyguard\bodyguard_portrait.png">Kano foi subjugada!</string>
-    <string _locid="84723" referencedplayerid="1" gamecharacter="Seguidor" soundfilename="ZGENR0230" portraitfilename="resources\art\units\africans\hausa\bodyguard\bodyguard_portrait.png">Gobir está a arder!</string>
+    <string _locid="84716" referencedplayerid="1" gamecharacter="Seguidor" soundfilename="ZGENR0195" portraitfilename="resources\art\units\africans\hausa\bodyguard\bodyguard_portrait_spc.png">Os camponeses que libertamos se juntarão a Usmã e a nossos aliados fulas.</string>
+    <string _locid="84717" referencedplayerid="6" gamecharacter="Guerreiro fula" soundfilename="ZGENR0200" portraitfilename="resources\art\units\africans\hausa\fula_warrior\fula_warrior_portrait_spc.png">Libertamos mais trabalhadores dos hauçás!</string>
+    <string _locid="84718" referencedplayerid="1" gamecharacter="Seguidor" soundfilename="ZGENR0205" portraitfilename="resources\art\units\africans\hausa\bodyguard\bodyguard_portrait_spc.png">Venham, irmãos e irmãs. Levantem-se contra nossos opressores!</string>
+    <string _locid="84719" referencedplayerid="6" gamecharacter="Guerreiro fula" soundfilename="ZGENR0210" portraitfilename="resources\art\units\africans\hausa\fula_warrior\fula_warrior_portrait_spc.png">Outro grupo de trabalhadores foi libertado! </string>
+    <string _locid="84720" referencedplayerid="1" gamecharacter="Seguidor" soundfilename="ZGENR0215" portraitfilename="resources\art\units\africans\hausa\bodyguard\bodyguard_portrait_spc.png">Libertamos todos os trabalhadores!</string>
+    <string _locid="84721" referencedplayerid="6" gamecharacter="Guerreiro fula" soundfilename="ZGENR0220" portraitfilename="resources\art\units\africans\hausa\fula_warrior\fula_warrior_portrait_spc.png">Katsina não lutará mais!</string>
+    <string _locid="84722" referencedplayerid="1" gamecharacter="Seguidor" soundfilename="ZGENR0225" portraitfilename="resources\art\units\africans\hausa\bodyguard\bodyguard_portrait_spc.png">Kano foi subjugada!</string>
+    <string _locid="84723" referencedplayerid="1" gamecharacter="Seguidor" soundfilename="ZGENR0230" portraitfilename="resources\art\units\africans\hausa\bodyguard\bodyguard_portrait_spc.png">Gobir está a arder!</string>
     <string _locid="84724" referencedplayerid="1" gamecharacter="Usmã" soundfilename="ZUSMA0025" portraitfilename="resources\art\units\spc\usman_dan_fodio\usman_dan_fodio_portrait.png">Nós conseguimos! As outras cidades-estado saberão da nossa vitória e largarão suas armas. Não estaremos mais sujeitos a reis e rainhas implacáveis!</string>
-    <string _locid="84725" referencedplayerid="6" gamecharacter="Guerreiro fula" soundfilename="ZGENR0235" portraitfilename="resources\art\units\africans\hausa\fula_warrior\fula_warrior_portrait.png">Somente pelo trabalho manual manteremos a causa forte. Quando não estivermos lutando, podemos cortar lenha das árvores.</string>
+    <string _locid="84725" referencedplayerid="6" gamecharacter="Guerreiro fula" soundfilename="ZGENR0235" portraitfilename="resources\art\units\africans\hausa\fula_warrior\fula_warrior_portrait_spc.png">Somente pelo trabalho manual manteremos a causa forte. Quando não estivermos lutando, podemos cortar lenha das árvores.</string>
     <string _locid="84726">Queda dos Hauçás</string>
     <string _locid="84727">Rebeldes contra os reinos hauçás.</string>
     <string _locid="84728">Destrua os centros urbanos de Gobir, Katsina e Kano.</string>
@@ -34312,7 +34411,7 @@
     <string _locid="85013" referencedplayerid="1" gamecharacter="Stephen Decatur" soundfilename="ZDECA0025" portraitfilename="resources\art\units\spc\marine\marine_officer_portrait.png">Para que o inimigo ignore nossa presença, nossos navios de guerra maiores devem evitar o porto. Contudo, podemos usar as fragatas para construir mais barcos a remo e recrutar voluntários.</string>
     <string _locid="85014" referencedplayerid="1" gamecharacter="Stephen Decatur" soundfilename="ZDECA0030" portraitfilename="resources\art\units\spc\marine\marine_officer_portrait.png">Agora podemos atracar no porto com os barcos a remo e o navio corsário capturado, mas devemos ser furtivos para que o inimigo não nos detecte. Este dia pertencerá a nós, fuzileiros dos EUA!</string>
     <string _locid="85015" referencedplayerid="1" gamecharacter="Stephen Decatur" soundfilename="ZDECA0035" portraitfilename="resources\art\units\spc\marine\marine_officer_portrait.png">Fique longe dos postos avançados! Eles revelam nossas unidades furtivas!</string>
-    <string _locid="85016" referencedplayerid="1" gamecharacter="Stephen Decatur" soundfilename="ZDECA0040" portraitfilename="resources\art\units\spc\marine\marine_officer_portrait.png">Maldição! Os piratas nos viram!</string>
+    <string _locid="85016" referencedplayerid="1" gamecharacter="Stephen Decatur" soundfilename="ZDECA0040" portraitfilename="resources\art\units\spc\marine\marine_officer_portrait.png">Droga! Os piratas nos viram!</string>
     <string _locid="85017" referencedplayerid="1" gamecharacter="Stephen Decatur" soundfilename="ZDECA0045" portraitfilename="resources\art\units\spc\marine\marine_officer_portrait.png">Prepare a pólvora para explodir o USS Philadelphia! Os piratas logo virão de todas as direções, então defenda nossa posição a todo custo!</string>
     <string _locid="85018" referencedplayerid="3" gamecharacter="Pirata bárbaro" soundfilename="ZGENR0340" portraitfilename="resources\art\units\mercenaries\barbary_corsair\barbary_corsair_portrait.png">Os al'amrikiuwn estão tentando tomar de volta a fragata! Soe o alarme!</string>
     <string _locid="85019" referencedplayerid="3" gamecharacter="Pirata bárbaro" soundfilename="ZGENR0345" portraitfilename="resources\art\units\mercenaries\barbary_corsair\barbary_corsair_portrait.png">Amolem suas cimitarras! Carreguem os canhões! Nenhum amrikiin deixará este porto vivo!</string>
@@ -34324,7 +34423,7 @@
     <string _locid="85025" referencedplayerid="2" gamecharacter="Tripulante do USS Philadelphia" soundfilename="ZGENR0355" portraitfilename="resources\art\units\infantry_ranged\minuteman\us_marine_portrait.png">Fuzileiros, é um alívio ver vocês!</string>
     <string _locid="85026" referencedplayerid="2" gamecharacter="Tripulante do USS Philadelphia" soundfilename="ZGENR0360" portraitfilename="resources\art\units\infantry_ranged\minuteman\us_marine_portrait.png">Nós nem tínhamos mais esperança de sair daqui vivos!</string>
     <string _locid="85027" referencedplayerid="2" gamecharacter="Tripulante do USS Philadelphia" soundfilename="ZGENR0365" portraitfilename="resources\art\units\infantry_ranged\minuteman\us_marine_portrait.png">Vamos mostrar a esses piratas o poder dos Estados Unidos!</string>
-    <string _locid="85028" referencedplayerid="2" gamecharacter="Tripulante do USS Philadelphia" soundfilename="ZGENR0370" portraitfilename="resources\art\units\infantry_ranged\minuteman\us_marine_portrait.png">Enfim, livre!</string>
+    <string _locid="85028" referencedplayerid="2" gamecharacter="Tripulante do USS Philadelphia" soundfilename="ZGENR0370" portraitfilename="resources\art\units\infantry_ranged\minuteman\us_marine_portrait.png">Livre, afinal!</string>
     <string _locid="85029" referencedplayerid="2" gamecharacter="Tripulante do USS Philadelphia" soundfilename="ZGENR0375" portraitfilename="resources\art\units\infantry_ranged\minuteman\us_marine_portrait.png">Armem-se, tripulantes do USS Philadelphia! Essa fragata não permanecerá nas mãos dos piratas!</string>
     <string _locid="85030" referencedplayerid="1" gamecharacter="Stephen Decatur" soundfilename="ZDECA0070" portraitfilename="resources\art\units\spc\marine\marine_officer_portrait.png">O USS Philadelphia foi destruído! Fujam deste buraco agora mesmo, antes que sejamos invadidos por piratas!</string>
     <string _locid="85031" referencedplayerid="1" gamecharacter="Stephen Decatur" soundfilename="ZDECA0075" portraitfilename="resources\art\units\spc\marine\marine_officer_portrait.png">Uma de nossas fragatas foi destruída! Temos que voltar para casa com a vergonha do fracasso.</string>
@@ -34363,21 +34462,21 @@
     <string _locid="85103">Guardas Realistas</string>
     <string _locid="85104">Cidades mexicanas</string>
     <string _locid="85105">Exército Realista do Sul</string>
-    <string _locid="85108" referencedplayerid="1" gamecharacter="El Padre" soundfilename="ZHIDA0000" portraitfilename="resources\art\units\spc\hidalgo\spc_hidalgo_portrait.png">Meus filhos... os espanhóis foram injustos conosco e governam nossas vidas. Temos que agir logo. Para defender nossos direitos, devemos expulsar os espanhóis de nossas terras!</string>
-    <string _locid="85109" referencedplayerid="1" gamecharacter="El Padre" soundfilename="ZHIDA0005" portraitfilename="resources\art\units\spc\hidalgo\spc_hidalgo_portrait.png">Armem-se! Levaremos a morte aos nossos inimigos.</string>
-    <string _locid="85110" referencedplayerid="2" gamecharacter="El General" soundfilename="ZALLE0000" portraitfilename="resources\art\units\spc\allende\spc_allende_portrait.png">Precisamos de homens com o seu vigor! Lidere seu povo para libertar as cidades ao norte do rio Laja, e eu libertarei os territórios ao sul.</string>
-    <string _locid="85111" referencedplayerid="2" gamecharacter="El General" soundfilename="ZALLE0005" portraitfilename="resources\art\units\spc\allende\spc_allende_portrait.png">As pessoas desta cidade sabem manusear rifles, mas precisaremos de mais do que apenas soldados rasos para expulsar os espanhóis.</string>
-    <string _locid="85112" referencedplayerid="1" gamecharacter="El Padre" soundfilename="ZHIDA0010" portraitfilename="resources\art\units\spc\hidalgo\spc_hidalgo_portrait.png">Há fazendas mais abaixo ao longo do rio que mantêm cavalos, e mais adiante há fundições de artilharia. Precisaremos de ambas para atacar a base espanhola nas montanhas.</string>
-    <string _locid="85113" referencedplayerid="5" gamecharacter="Cidadão de Celaya" soundfilename="ZGENR0380" portraitfilename="resources\art\units\villagers\villager_portrait.png">Obrigado! Já que os espanhóis se foram, podemos voltar a cultivar livremente.</string>
-    <string _locid="85114" referencedplayerid="5" gamecharacter="Cidadão de Acámbaro" soundfilename="ZGENR0385" portraitfilename="resources\art\units\villagers\villager_portrait.png">Nós vamos segui-lo!</string>
-    <string _locid="85115" referencedplayerid="5" gamecharacter="Cidadão de Aculco" soundfilename="ZGENR0390" portraitfilename="resources\art\units\villagers\villager_portrait.png">Nossa liberdade chegou!</string>
-    <string _locid="85116" referencedplayerid="5" gamecharacter="Cidadão de Salamanca" soundfilename="ZGENR0395" portraitfilename="resources\art\units\villagers\villager_portrait.png">Estamos livres dos espanhóis por aqui. Vamos nos juntar a esta revolução!</string>
-    <string _locid="85117" referencedplayerid="5" gamecharacter="Cidadão de Ixtlahuaca" soundfilename="ZGENR0400" portraitfilename="resources\art\units\villagers\villager_portrait.png">O fogo da revolução transformará os espanhóis em cinzas!</string>
-    <string _locid="85118" referencedplayerid="5" gamecharacter="Cidadão de Toluca" soundfilename="ZGENR0405" portraitfilename="resources\art\units\villagers\villager_portrait.png">Os espanhóis não têm chance alguma!</string>
-    <string _locid="85119" referencedplayerid="1" gamecharacter="El Padre" soundfilename="ZHIDA0015" portraitfilename="resources\art\units\spc\hidalgo\spc_hidalgo_portrait.png">Os espanhóis nos forçam a comprar uvas e azeitonas de suas mercearias em vez de nos deixar cultivá-las nós mesmos. Essas lojas estão por perto. Nós deveríamos nos apropriar de qualquer comida que eles guardem lá.</string>
-    <string _locid="85120" referencedplayerid="2" gamecharacter="El General" soundfilename="ZALLE0010" portraitfilename="resources\art\units\spc\allende\spc_allende_portrait.png">Uma ótima ideia!</string>
-    <string _locid="85121" referencedplayerid="1" gamecharacter="El Padre" soundfilename="ZHIDA0020" portraitfilename="resources\art\units\spc\hidalgo\spc_hidalgo_portrait.png">Toda a população desta região nos apoia! Agora é hora de levar a luta para os espanhóis nas montanhas.</string>
-    <string _locid="85122" referencedplayerid="2" gamecharacter="El General" soundfilename="ZALLE0015" portraitfilename="resources\art\units\spc\allende\spc_allende_portrait.png">Estes espanhóis estão derrotados. O que acha de seguirmos para a Cidade do México?</string>
+    <string _locid="85108" referencedplayerid="1" gamecharacter="El Padre" soundfilename="ZHIDA0000" portraitfilename="resources\art\units\spc\hidalgo\igc_hidalgo_portrait.png">Meus filhos... os espanhóis foram injustos conosco e governam nossas vidas. Temos que agir logo. Para defender nossos direitos, devemos expulsar os espanhóis de nossas terras!</string>
+    <string _locid="85109" referencedplayerid="1" gamecharacter="El Padre" soundfilename="ZHIDA0005" portraitfilename="resources\art\units\spc\hidalgo\igc_hidalgo_portrait.png">Armem-se! Levaremos a morte aos nossos inimigos.</string>
+    <string _locid="85110" referencedplayerid="2" gamecharacter="El General" soundfilename="ZALLE0000" portraitfilename="resources\art\units\spc\allende\igc_allende_portrait.png">Homens de vigor como você são exatamente o que precisamos! Lidere seu povo para libertar as cidades ao norte do rio Laja, e eu libertarei as do sul.</string>
+    <string _locid="85111" referencedplayerid="2" gamecharacter="El General" soundfilename="ZALLE0005" portraitfilename="resources\art\units\spc\allende\igc_allende_portrait.png">As pessoas desta cidade sabem manusear rifles, mas precisaremos de mais do que apenas soldados rasos para expulsar os espanhóis.</string>
+    <string _locid="85112" referencedplayerid="1" gamecharacter="El Padre" soundfilename="ZHIDA0010" portraitfilename="resources\art\units\spc\hidalgo\igc_hidalgo_portrait.png">Há fazendas mais abaixo ao longo do rio que mantêm cavalos, e mais adiante há fundições de artilharia. Precisaremos de ambas para atacar a base espanhola nas montanhas.</string>
+    <string _locid="85113" referencedplayerid="5" gamecharacter="Cidadão de Celaya" soundfilename="ZGENR0380" portraitfilename="resources\art\units\villagers\villager_portrait_male.png">Obrigado! Já que os espanhóis se foram, podemos voltar a cultivar livremente.</string>
+    <string _locid="85114" referencedplayerid="5" gamecharacter="Cidadão de Acámbaro" soundfilename="ZGENR0385" portraitfilename="resources\art\units\villagers\villager_portrait_male.png">Nós vamos segui-lo!</string>
+    <string _locid="85115" referencedplayerid="5" gamecharacter="Cidadão de Aculco" soundfilename="ZGENR0390" portraitfilename="resources\art\units\villagers\villager_portrait_male.png">É chegada a nossa liberdade!</string>
+    <string _locid="85116" referencedplayerid="5" gamecharacter="Cidadão de Salamanca" soundfilename="ZGENR0395" portraitfilename="resources\art\units\villagers\villager_portrait_male.png">Estamos livres dos espanhóis aqui. Nos juntaremos a esta revolução!</string>
+    <string _locid="85117" referencedplayerid="5" gamecharacter="Cidadão de Ixtlahuaca" soundfilename="ZGENR0400" portraitfilename="resources\art\units\villagers\villager_portrait_male.png">O fogo da revolução transformará os espanhóis em cinzas!</string>
+    <string _locid="85118" referencedplayerid="5" gamecharacter="Cidadão de Toluca" soundfilename="ZGENR0405" portraitfilename="resources\art\units\villagers\villager_portrait_male.png">Os espanhóis não têm a menor chance!</string>
+    <string _locid="85119" referencedplayerid="1" gamecharacter="El Padre" soundfilename="ZHIDA0015" portraitfilename="resources\art\units\spc\hidalgo\igc_hidalgo_portrait.png">Os espanhóis nos forçam a comprar uvas e azeitonas de suas mercearias em vez de nos deixar cultivá-las nós mesmos. Essas lojas estão por perto. Nós deveríamos nos apropriar de qualquer comida que eles guardem lá.</string>
+    <string _locid="85120" referencedplayerid="2" gamecharacter="El General" soundfilename="ZALLE0010" portraitfilename="resources\art\units\spc\allende\igc_allende_portrait.png">Ótima ideia!</string>
+    <string _locid="85121" referencedplayerid="1" gamecharacter="El Padre" soundfilename="ZHIDA0020" portraitfilename="resources\art\units\spc\hidalgo\igc_hidalgo_portrait.png">Toda a população desta região nos apoia! Agora é hora de levar a luta para os espanhóis nas montanhas.</string>
+    <string _locid="85122" referencedplayerid="2" gamecharacter="El General" soundfilename="ZALLE0015" portraitfilename="resources\art\units\spc\allende\igc_allende_portrait.png">Estes espanhóis estão derrotados. O que acha de seguirmos para a Cidade do México?</string>
     <string _locid="85123">Grito de Dolores</string>
     <string _locid="85124">Reúna o povo do México em uma revolta contra o governo espanhol.</string>
     <string _locid="85125">Liberte uma cidade para assumir o controle das edificações dela.</string>
@@ -34402,9 +34501,9 @@
     <string _locid="85202">Exército americano</string>
     <string _locid="85203">Exército britânico</string>
     <string _locid="85208" referencedplayerid="4" gamecharacter="Soldado britânico" soundfilename="ZGENR0410" portraitfilename="resources\art\units\infantry_ranged\musketeer\igc_musketeer_portrait.png">Os americanos estão cruzando o rio Niágara! Soe o alarme e alerte o Major-general Brock!</string>
-    <string _locid="85209" referencedplayerid="4" gamecharacter="General Brock" soundfilename="ZBROCK0000" portraitfilename="resources\art\units\spc\brock\brock_portrait.png">Em frente, corajosos voluntários de York! Não deixem esses ianques tomarem o Canadá!</string>
+    <string _locid="85209" referencedplayerid="4" gamecharacter="General Brock" soundfilename="ZBROCK0000" portraitfilename="resources\art\units\spc\brock\brock_portrait.png">Em frente, voluntários de York! Não deixem esses Ianques tomarem o Canadá!</string>
     <string _locid="85210" referencedplayerid="4" gamecharacter="Soldado britânico" soundfilename="ZGENR0415" portraitfilename="resources\art\units\infantry_ranged\musketeer\igc_musketeer_portrait.png">Os americanos atiraram no General Brock! Recuem! Recuem, é uma ordem!</string>
-    <string _locid="85211" referencedplayerid="1" gamecharacter="Oficial miliciano" soundfilename="ZGENR0420" portraitfilename="resources\art\units\spc\canadian_officer\canadian_officer_portrait.png">Os Casacas Vermelhas podem ter fugido, mas a luta não acabou! Com nossos ferozes aliados iroqueses, mostraremos bravura de verdade aos nossos inimigos!</string>
+    <string _locid="85211" referencedplayerid="1" gamecharacter="Oficial miliciano" soundfilename="ZGENR0420" portraitfilename="resources\art\units\spc\canadian_officer\canadian_officer_portrait.png">Os Casacas Vermelhas podem ter fugido, mas a luta não acabou! Com nossos ferozes aliados Iroqueses, mostraremos bravura de verdade aos nossos inimigos!</string>
     <string _locid="85212" referencedplayerid="1" gamecharacter="Oficial miliciano" soundfilename="ZGENR0425" portraitfilename="resources\art\units\spc\canadian_officer\canadian_officer_portrait.png">Os Lenape estão dispostos a entrar na batalha, se construirmos um posto comercial em seu povoado.</string>
     <string _locid="85213" referencedplayerid="0" gamecharacter="Guerreiro lenape" soundfilename="ZGENR0430" portraitfilename="resources\art\units\spc\lenape_warrior\lenape_warrior_portrait.png">Enviamos nossos guerreiros mais corajosos. Os americanos temerão nossos gritos de guerra!</string>
     <string _locid="85214" referencedplayerid="0" gamecharacter="Guerreiro lenape" soundfilename="ZGENR0435" portraitfilename="resources\art\units\spc\lenape_warrior\lenape_warrior_portrait.png">Vamos lhe ajudar a expulsar os agressores americanos!</string>
@@ -34413,7 +34512,7 @@
     <string _locid="85217" referencedplayerid="4" gamecharacter="Soldado britânico" soundfilename="ZGENR0450" portraitfilename="resources\art\units\infantry_ranged\musketeer\igc_musketeer_portrait.png">Esses ianques nos cercaram por todos os lados, mas sem desespero! Nossos aliados não nos abandonarão aqui para morrer!</string>
     <string _locid="85218" referencedplayerid="4" gamecharacter="Soldado britânico" soundfilename="ZGENR0455" portraitfilename="resources\art\units\infantry_ranged\musketeer\igc_musketeer_portrait.png">Erramos em pensar que a batalha tinha acabado! Ataquem as linhas ianques, pelo rei e pela pátria!</string>
     <string _locid="85219" referencedplayerid="1" gamecharacter="Oficial miliciano" soundfilename="ZGENR0460" portraitfilename="resources\art\units\spc\canadian_officer\canadian_officer_portrait.png">Os americanos estão transportando tropas pelo rio para nos flanquear. Rápido, construa defesas para repelir os barcos deles!</string>
-    <string _locid="85220" referencedplayerid="1" gamecharacter="Oficial miliciano" soundfilename="ZGENR0465" portraitfilename="resources\art\units\spc\canadian_officer\canadian_officer_portrait.png">Os americanos se renderam! Alegrai-vos, homens!</string>
+    <string _locid="85220" referencedplayerid="1" gamecharacter="Oficial miliciano" soundfilename="ZGENR0465" portraitfilename="resources\art\units\spc\canadian_officer\canadian_officer_portrait.png">Os americanos se renderam! Alegrai-vos!</string>
     <string _locid="85221">Batalha de Queenston Heights (1812)</string>
     <string _locid="85222">Expulse as forças americanas de Queenston.</string>
     <string _locid="85223">Ajude os britânicos a defenderem Queenston.</string>
@@ -35626,7 +35725,7 @@
     <string _locid="91867">Opções de acessibilidade. Use o mouse e clique, ou as teclas de seta e Enter, para selecionar opções.</string>
     <string _locid="91868">Opções de personalização de teclas de atalho. Use o mouse e clique, ou as teclas de seta e Enter, para selecionar opções.</string>
     <string _locid="91869">1 Carroça Militar</string>
-    <string _locid="91870" symbol="cStringChallengeCompleteNotification">Você concluiu um/uma "{0}"</string>
+    <string _locid="91870" symbol="cStringChallengeCompleteNotification">Você concluiu "{0}"</string>
     <string _locid="91871">Metrópole. Visualize ou edite seus baralhos de metrópoles e de provisão de cartas. Clique com o mouse ou use as setas e pressione Enter para selecionar as opções</string>
     <string _locid="91872" symbol="cStringChatFromEveryone" comment="Presented in chat as prefix for chat message">[Todos]:</string>
     <string _locid="91873" symbol="cStringChatFromAllies" comment="Presented in chat as prefix for chat message">[Aliados]:</string>
@@ -35714,7 +35813,7 @@
     <string _locid="101078" symbol="cStringInfluenceGatherers">Influência adquirida (gerada por rotas comerciais, assentamentos nativos e rebanhos)</string>
     <string _locid="101079">Tokens de influência</string>
     <string _locid="101080">Influência de caixote</string>
-    <string _locid="101081">Provisão de 100 de influência</string>
+    <string _locid="101081">Tokens de 100 de Influência</string>
     <string _locid="101082">Fonte de influência</string>
     <string _locid="101083">Esta feitoria está gerando influência.</string>
     <string _locid="101084">Solicite geração de influência nesta feitoria.</string>
@@ -36072,10 +36171,10 @@
     <string _locid="101436">Criação de sanga</string>
     <string _locid="101437">Agora você pode treinar o gado sanga em mercados pecuários.</string>
     <string _locid="101438">Fonte de influência.</string>
-    <string _locid="101439">400 de influência</string>
-    <string _locid="101440">800 de influência</string>
-    <string _locid="101441">1.000 de influência</string>
-    <string _locid="101442">500 de influência</string>
+    <string _locid="101439">Tokens de 400 de Influência</string>
+    <string _locid="101440">Tokens de 800 de Influência</string>
+    <string _locid="101441">Tokens de 1.000 de Influência</string>
+    <string _locid="101442">Tokens de 500 de Influência</string>
     <string _locid="101443">6 Imames</string>
     <string _locid="101444">6 bovinos semiengordados</string>
     <string _locid="101445">Aura de Fidelidade</string>
@@ -36151,7 +36250,7 @@
     <string _locid="101515">Árvore - Sabal-anão</string>
     <string _locid="101516">Tokens abundantes de influência</string>
     <string _locid="101517">Grande caixote de influência</string>
-    <string _locid="101518">Provisão de 500 de influência</string>
+    <string _locid="101518">Tokens de 500 de Influência</string>
     <string _locid="101519">Árvore - Palmeira doum</string>
     <string _locid="101520">A palmeira doum floresce em regiões quentes e secas, onde pouca vegetação é capaz de sobreviver. Colha para obter madeira.</string>
     <string _locid="101521">Árvore - Acácia</string>
@@ -37248,9 +37347,9 @@
     <string _locid="102796">GRD Errante Nilota</string>
     <string _locid="102797">Ladrão de Túmulos</string>
     <string _locid="102798">GRD Ladrão de Túmulos</string>
-    <string _locid="102800">Provisão de 700 de influência</string>
-    <string _locid="102801">Provisão de 1.000 de influência</string>
-    <string _locid="102802">Provisão de 1.600 de influência</string>
+    <string _locid="102800">Tokens de 700 de Influência</string>
+    <string _locid="102801">Tokens de 1.000 de Influência</string>
+    <string _locid="102802">Tokens de 1.600 de Influência</string>
     <string _locid="102803">Emir de Katsina</string>
     <string _locid="102804">Cavaleiros de Rumfa</string>
     <string _locid="102805">Exterminador de Reis</string>
@@ -37294,7 +37393,7 @@
     <string _locid="102843">Habbanaya</string>
     <string _locid="102844">Entrega uma série de cavaleiros lifidis e permite que eles sejam treinados na Era Comercial.</string>
     <string _locid="102845">Os emirs causam consideravelmente mais dano contra heróis, e recebem ataques adicionais e pontos de vida de unidades militares inimigas próximas.</string>
-    <string _locid="102846">Fornecimento de 600 de influência</string>
+    <string _locid="102846">Tokens de 600 de Influência</string>
     <string _locid="102847">Aumenta o alcance e o alcance de cerco do arqueiro fula.</string>
     <string _locid="102848">Melhora os pontos de vida dos aldeões e a velocidade de ataque em combate corpo a corpo. Os aldeões tendem a preferir luta livre (ataque corpo a corpo) em combate e só atirar em alvos em longo alcance.</string>
     <string _locid="102849">Cavaleiros e batedores lifidis cavalgam mais rápido e seus ataques agora causam dano em área, especialmente no modo de tropel.</string>
@@ -37312,7 +37411,7 @@
     <string _locid="102861">Muralhas e portões devolvem seus custos quando destruídos. Portões e tecnologias de muralha ficam mais baratos.</string>
     <string _locid="102862">Permite que recrutamentos fiquem em guarnição dentro de torres de vigia. Unidades guarnecidas em uma torre de vigia têm dano aumentado em 10%.</string>
     <string _locid="102863">Habilidades de combate dos guerreiros nativos, foras da lei e mercenários melhoradas.</string>
-    <string _locid="102864">Guerreiros nativos, mercenários e foras da lei ficam mais baratos, incluindo suas provisões.</string>
+    <string _locid="102864">Guerreiros Indígenas, Mercenários e Fora da Lei são 15% mais baratos, incluindo suas provisões.</string>
     <string _locid="102865">Big Benny</string>
     <string _locid="102866">Todas as minas duram mais tempo e suas localizações são temporariamente reveladas por 3 minutos.</string>
     <string _locid="102867">Receba um arqueiro fula grátis por todas as suas provisões passadas e futuras.</string>
@@ -37331,7 +37430,7 @@
     <string _locid="102879">Touro Premiado</string>
     <string _locid="102880">Aumenta a quantidade máxima de alimentos que pode engordar o rebanho.</string>
     <string _locid="102881">Gado especialmente engordado contendo 900 de alimento.</string>
-    <string _locid="102882">300 de influência</string>
+    <string _locid="102882">Tokens de 300 de Influência</string>
     <string _locid="102883">Troca TODOS os seus sanga e outros bovinos por influência e substitui-os por bezerros não engordados.\n • Valor do Gado: 70%</string>
     <string _locid="102884">Canúris de Zinder</string>
     <string _locid="102885">Envia vários mercenários da guarda canúri (dragões). Permite que sejam treinados no palácio, onde seu custo é dividido entre moedas e influência.</string>
@@ -38003,7 +38102,7 @@
     <string _locid="104565">8 Huaracas</string>
     <string _locid="104566">6 Huaracas</string>
     <string _locid="104567">10 Guerreiros Boleadores</string>
-    <string _locid="104568">Envia 1 cavaleiro jaguar olheiro para cada 2 que você tiver perdido até agora (até um máximo de 16).</string>
+    <string _locid="104568">Envia 1 Cavaleiro Jaguar Olheiro para cada 2 que você tiver perdido até agora (até um máximo de 16 unidades).</string>
     <string _locid="104569">Gladiadores Rituais</string>
     <string _locid="104570">Envia 1 cavaleiro caveira para cada 2 que você tiver perdido até agora (até um máximo de 13).</string>
     <string _locid="104571">Muralha de Crânios</string>
@@ -38063,7 +38162,7 @@
     <string _locid="104624">
     </string>
     <string _locid="104625">2 Carroças de Forte</string>
-    <string _locid="104626">Chega rápido! Os aldeões coletam recursos de Haciendas +300% mais rápido por 60 segundos.</string>
+    <string _locid="104626">Chega rápido! Os Aldeões coletam recursos de Haciendas +250% mais rapidamente por 60 segundos.</string>
     <string _locid="104627">Permite que Haciendas produzam Colonizadores antecipadamente e melhora a taxa de geração deles.</string>
     <string _locid="104628">Cada Hacienda nova e existente gera 3 Colonizadores.</string>
     <string _locid="104629">Revoluções e Retornos ao México são mais baratos.</string>
@@ -38074,6 +38173,36 @@
     <string _locid="104634">Todos os seus Insurgentes se transformam em Revolucionários.</string>
     <string _locid="104635">Pontos de dano da cavalaria aumentados. Dragões podem ser recrutados na Era do Comércio.</string>
     <string _locid="104636">1 Corsário</string>
+    <string _locid="104637">Riquixá de Consulado</string>
+    <string _locid="104638">Envia 1 Riquixá do Consulado e concede um fluxo constante de exportação.</string>
+    <string _locid="104639">Exportação de chá</string>
+    <string _locid="104640">Tratado do Dragão de Fogo</string>
+    <string _locid="104641">Envia 2 Artilharias de Corvos. Ligeiramente aumenta a cadência de tiro delas.</string>
+    <string _locid="104642">Envia 1 Artilharia de Corvo e 2 Lança-chamas Honrados. Ligeiramente aumenta a cadência de tiro deles.</string>
+    <string _locid="104643">Ano do Dragão</string>
+    <string _locid="104644">Cada Centro Urbano reunirá 1 Lança-chamas e cada Vila reunirá 1 Lagarto-monitor no ponto de surgimento da sua cidade natal.</string>
+    <string _locid="104645">Envia 1 Lança-chamas para cada Centro Urbano e 1 Lagarto-monitor de estimação para cada Aldeia que você possui.</string>
+    <string _locid="104646">Koxinga</string>
+    <string _locid="104647">Envia 15 Tropas de Ferro. Cadência de tiro do arqueiro aumentada.</string>
+    <string _locid="104648">Envia uma quantidade de Tropas de Ferro e aumenta significativamente a cadência de tiro à distância delas.</string>
+    <string _locid="104649">1 Artilharia de Corvo</string>
+    <string _locid="104650">Cabras do Himalaia</string>
+    <string _locid="104651">Cabras das Montanhas Altas</string>
+    <string _locid="104652">Aldeias engordam o gado mais rápido.</string>
+    <string _locid="104653">Cada Aldeia fará uma única convocação de 1 Cabra. Aldeias engordam o gado mais rápido.</string>
+    <string _locid="104654">Ano do Galo</string>
+    <string _locid="104655">Cada Aldeia fará uma única convocação de 2 Perus. Aldeões coletam alimento de animais mais rápido.</string>
+    <string _locid="104656">Ano do Tigre</string>
+    <string _locid="104657">Para cada 2 Discípulos que você tiver perdido, um Tigre Branco de Estimação será reunido no ponto de surgimento da sua cidade natal (até um máximo de 12 unidades).</string>
+    <string _locid="104658">Para cada 2 Discípulos que você tiver adquirido até o momento, um Tigre Branco de Estimação será reunido no ponto de surgimento da sua cidade natal (até um máximo de 12 unidades).</string>
+    <string _locid="104659">Para cada 3 Discípulos que você tiver adquirido até o momento, um Tigre Branco de Estimação será reunido no ponto de surgimento da sua cidade natal (até um máximo de 12 unidades).</string>
+    <string _locid="104660">Provisões: 2 Riquixás de Aldeia\n \nPoder: Transcendência: todas as unidades curam. Monges também curam unidades.</string>
+    <string _locid="104661">Provisões: 1 Riquixá de Centro Urbano\n \nPoder: Transcendência: todas as unidades curam. Monges também curam unidades.</string>
+    <string _locid="104662">Provisões: 3 Riquixás de Arrozal\n \nPoder: Transcendência: todas as unidades curam. Monges também curam unidades.</string>
+    <string _locid="104663">Provisões: 4 Riquixás Militares e 600 Exportações\n \nPoder: Transcendência: todas as unidades curam. Monges também curam unidades.</string>
+    <string _locid="104664">Provisões: 1.200 Exportações\n \nPoder: Transcendência: todas as unidades curam. Monges também curam unidades.</string>
+    <string _locid="104665">Envia uma quantidade de Tropas de Ferro e reduz o custo de cartas que custam recursos.</string>
+    <string _locid="104666">Cartas que custam recursos são mais baratas e fornecem Tropas de Ferro adicionais.</string>
     <string _locid="104800">EQ: 1 construtor de acampamento</string>
     <string _locid="104801">EQ Império comercial</string>
     <string _locid="104802">Você recebe um construtor de feitoria e as feitorias custam menos e são mais fortes.</string>
@@ -38471,7 +38600,7 @@
     <string _locid="110175">Ataque de Sabre</string>
     <string _locid="110176">Habilidade Carregada: um ataque pesado que causa dano em área.</string>
     <string _locid="110177">Bandeira Inspiradora</string>
-    <string _locid="110178">Posicione a bandeira dos Estados Unidos para aumentar o moral! Edificações e unidades militares próximas causam mais dano e são criadas mais rapidamente. Bandeiras não podem ser posicionadas perto de Centros Urbanos iniciais. Somente uma bandeira pode ser posicionada por vez.</string>
+    <string _locid="110178">Posicione a bandeira dos Estados Unidos para aumentar o moral! Edificações e unidades militares próximas (com exceção da artilharia) causam mais dano e são criadas mais rapidamente. Bandeiras não podem ser posicionadas perto de Centros Urbanos iniciais. Somente uma bandeira pode ser posicionada por vez.</string>
     <string _locid="110179">Bandeira Inspiradora</string>
     <string _locid="110180">Posicionar Bandeira</string>
     <string _locid="110181">Aumenta o moral das unidades dos Estados Unidos próximas e deve ser defendida! Se capturada por inimigos, será removida do mapa.</string>
@@ -38867,7 +38996,7 @@
     <string _locid="110569">Teatros +2 Ulanos</string>
     <string _locid="110570">Envia 7 foras da lei do Velho Oeste.</string>
     <string _locid="110571">Gangue dos Irmãos Reno</string>
-    <string _locid="110572">Envia 3 Juncos Wokou.</string>
+    <string _locid="110572">Envia 2 Juncos Wokou.</string>
     <string _locid="110573">Recrutar Manilanos</string>
     <string _locid="110574">Envia 3 Juncos Wokou.</string>
     <string _locid="110575">Recrutar a Frota de Manilanos</string>
@@ -39343,7 +39472,7 @@
     <string _locid="112003">O General</string>
     <string _locid="112004">Padre Miguel</string>
     <string _locid="112005">Padre mexicano que lutará pela liberdade e pelo bem-estar de seu povo, mesmo que isso lhe custe muito caro.</string>
-    <string _locid="112006">Posicione a bandeira mexicana para aumentar o moral! Edificações e unidades militares próximas causam mais dano e são criadas mais rapidamente. Bandeiras não podem ser posicionadas perto de Centros Urbanos iniciais. Somente uma bandeira pode ser posicionada por vez.</string>
+    <string _locid="112006">Posicione a bandeira mexicana para aumentar o moral! Edificações e unidades militares próximas (com exceção da artilharia) causam mais dano e são criadas mais rapidamente. Bandeiras não podem ser posicionadas perto de Centros Urbanos iniciais. Somente uma bandeira pode ser posicionada por vez.</string>
     <string _locid="112007">Aumenta o moral das unidades mexicanas próximas e deve ser defendida! Se capturada por inimigos, será removida do mapa.</string>
     <string _locid="112008">Posicionada taticamente por um General para impulsionar edificações e unidades mexicanas. Caso não haja unidades ou edificações aliadas por perto, ela pode ser capturada por inimigos e removida do mapa.\n • Concede +10% de Dano de Ataque a todas as Unidades.\n • Concede +10% de Dano de Ataque a todas as Edificações.\n • Concede +25% de Taxa de Trabalho a Edificações Militares.\n • Concede +50% de velocidade de Construção a todas as Edificações.</string>
     <string _locid="112009">Bandido</string>
@@ -39404,7 +39533,7 @@
     <string _locid="112061">Cuatreros</string>
     <string _locid="112062">Catedral</string>
     <string _locid="112063">Igreja exclusiva</string>
-    <string _locid="112064">Edificação de Igreja Mexicana que pode reviver um Padre caído e possui poderosas atualizações exclusivas.</string>
+    <string _locid="112064">Edificação de Igreja Mexicana que pode reviver um Padre caído. Protege edifícios próximos e possui poderosas atualizações exclusivas.</string>
     <string _locid="112065">Hacienda</string>
     <string _locid="112066">Edificação econômica</string>
     <string _locid="112067">Edificação econômica que combina propriedade, moinho e curral.</string>
@@ -39488,7 +39617,7 @@
     <string _locid="112145">CJI AM Isaac Brock</string>
     <string _locid="112146">General Britânico</string>
     <string _locid="112147">General orgulhoso encarregado das forças britânicas no Canadá.</string>
-    <string _locid="112148">Posicione a bandeira canadense para aumentar o moral! Edificações e unidades militares próximas causam mais dano e são criadas mais rapidamente. Bandeiras não podem ser posicionadas perto de Centros Urbanos iniciais. Somente uma bandeira pode ser posicionada por vez.</string>
+    <string _locid="112148">Posicione a bandeira canadense para aumentar o moral! Edificações e unidades militares próximas (com exceção da artilharia) causam mais dano e são criadas mais rapidamente. Bandeiras não podem ser posicionadas perto de Centros Urbanos iniciais. Somente uma bandeira pode ser posicionada por vez.</string>
     <string _locid="112149">Aumenta o moral das unidades canadenses próximas e deve ser defendida! Se capturada por inimigos, será removida do mapa.</string>
     <string _locid="112150">Táticas de Guerrilha</string>
     <string _locid="112151">Se não estiverem em combate, Salteadores serão automaticamente furtivos, sem penalidade de velocidade, durante um curto período.</string>
@@ -39569,7 +39698,7 @@
     <string _locid="112226">Unidade de Guarnição</string>
     <string _locid="112227">Envia 3 grandes coleções de livros contendo 1.500 PE ao todo.</string>
     <string _locid="112228">Santa Missa</string>
-    <string _locid="112229">12 Insurgentes</string>
+    <string _locid="112229">11 insurgentes</string>
     <string _locid="112230">33 Insurgentes</string>
     <string _locid="112231">6 Soldados</string>
     <string _locid="112232">5 Soldados</string>
@@ -39581,7 +39710,7 @@
     <string _locid="112238">4 Chinacos</string>
     <string _locid="112239">Envia 8 Dragões e 1 Colubrina</string>
     <string _locid="112240">Regimento dos Dragões da Liberdade</string>
-    <string _locid="112241">Envia 9 Soldados e 2 Falconetes.</string>
+    <string _locid="112241">Envia 9 Soldados e 1 Falconete.</string>
     <string _locid="112242">Batalhão de Los Colorados</string>
     <string _locid="112243">Envia 8 Chinacos e 1 Morteiro.</string>
     <string _locid="112244">Batalhão de San Blas</string>
@@ -39637,7 +39766,7 @@
     <string _locid="112294">Porfiriato</string>
     <string _locid="112295">Envia 14 Invasores Apaches que causam mais dano a Aldeões do que o normal.</string>
     <string _locid="112296">Apache Renegado</string>
-    <string _locid="112297">Envia 9 Arqueiros Montados Comanches que causam mais dano a Aldeões do que o normal.</string>
+    <string _locid="112297">Envia 11 Arqueiros Montados Comanches que causam mais dano a Aldeões do que o normal.</string>
     <string _locid="112298">Comanche Renegado</string>
     <string _locid="112299" symbol="cStringBountyOverrideFormat">Recompensa por Abate:</string>
     <string _locid="112300">1 Carroça Militar</string>
@@ -39695,15 +39824,15 @@
     <string _locid="112352">ALD Carroça de Cais</string>
     <string _locid="112353">Envia 1 Travois de Embaixada Indígena. Habilita uma seleção de recursos jesuítas e mesoamericanos em sua Embaixada Indígena e seu Centro Urbano.</string>
     <string _locid="112354">Aliança Tlaxcala</string>
-    <string _locid="112355">Envia 3 Colonizadores por cada Hacienda que você construiu.</string>
+    <string _locid="112355">Envia 2 Colonizadores. Cada Hacienda nova e existente gera 2 Colonizadores.</string>
     <string _locid="112356">Têxteis Tlaxcala</string>
     <string _locid="112357">Envia 4 Lanceiros Holcan Maias para cada Hacienda que você construiu.</string>
     <string _locid="112358">Revolta de Tzotzil</string>
     <string _locid="112359">Todas as Haciendas existentes e recém-construídas geram Plantações Maias que contém 350 Alimentos.</string>
     <string _locid="112360">Plantações Maias</string>
-    <string _locid="112361">Chega rápido! Você recebe o dobro da recompensa do seu próximo Estado Federal e a próxima atualização pesquisada em uma Edificação Militar será gratuita.</string>
+    <string _locid="112361">Chega rápido! Seu próximo Estado Federal concede sua recompensa duas vezes. A próxima atualização do Quartel é gratuita.</string>
     <string _locid="112362">Reformas Arteaga</string>
-    <string _locid="112363">Envia 1 Carroça de Hacienda e permite que Haciendas suportem 20 de população.</string>
+    <string _locid="112363">Envia 1 Carroça de Hacienda e permite que Haciendas suportem 15 de população.</string>
     <string _locid="112364">Haciendas Querétaro</string>
     <string _locid="112365">Atualiza Salteadores para o status de Veteranos. Envia um Salteador adicional por cada provisão enviada até o momento.</string>
     <string _locid="112366">Separatistas Tabascanos</string>
@@ -39747,9 +39876,9 @@
     <string _locid="112404">Transforma-se em uma Catedral para melhorias da cidade e melhorias exclusivas.</string>
     <string _locid="112405">Envia 1 General adicional.</string>
     <string _locid="112406">Herói da Independência</string>
-    <string _locid="112407">Embaixadas Indígenas ganham um ataque a longa distância, como uma Choupana de Guerra. Permite que treinem Guerreiros Jaguar Nativos e Guerreiros Águia.</string>
+    <string _locid="112407">Embaixadas Indígenas ganham um ataque a longa distância, como uma Choupana de Guerra. Permite que treinem Guerreiros Jaguar e Guerreiros Águia Indígenas Campeões.</string>
     <string _locid="112408">Povos Astecas</string>
-    <string _locid="112409">Envia 2 Vacas Semiengordadas adicionais por cada provisão enviada até o momento.</string>
+    <string _locid="112409">Envia 1 Vaca Semiengordada adicional por cada provisão enviada até o momento.</string>
     <string _locid="112410">Criação de Guadalajara</string>
     <string _locid="112411">Aldeões coletam Moeda de Haciendas mais rapidamente.</string>
     <string _locid="112412">Cerâmica de Tonalá</string>
@@ -39788,7 +39917,7 @@
     <string _locid="112448">Heroico Padre Mexicano. Explora, luta e constrói Catedrais e Feitorias. Não morre. Pode ser resgatado se desmaiar.</string>
     <string _locid="112449">Bandeiras Inspiradoras ganham uma área de efeito muito maior e melhoram o dano a uma taxa ainda maior.</string>
     <string _locid="112450">Terras de Juarez</string>
-    <string _locid="112451">Alia-se com os Zapotecas e permite que as tecnologias Zapotecas sejam pesquisadas na Embaixada Indígena.</string>
+    <string _locid="112451">Permite que as tecnologias Zapotecas sejam pesquisadas na Embaixada Indígena.</string>
     <string _locid="112452">Vale Zapoteca</string>
     <string _locid="112453">Exportações de chocolate lhe fornecem Caixotes de Moedas da sua Metrópole. Você recebe um Caixote por cada 2 minutos de duração de jogo (até um máximo de 30 minutos).</string>
     <string _locid="112454">Receitas de Chocolate Tlaxcaltec</string>
@@ -40034,7 +40163,7 @@
     <string _locid="112701">Melhoria imperial para Salteadores.</string>
     <string _locid="112702">Vigilantes Imperiais</string>
     <string _locid="112703">Vigilante Imperial</string>
-    <string _locid="112704">Todas as unidades de infantaria e cavalaria são treinadas mais rápido.</string>
+    <string _locid="112704">Todas as unidades de infantaria e cavalaria treinam e se movem mais rápido.</string>
     <string _locid="112705">Envia alguns Garrochistas poderosos e permite que sejam treinados em Fortes.</string>
     <string _locid="112706">O Padre ganha a habilidade "Grito de Dolores", que cura rapidamente TODAS as unidades próximas a ele.</string>
     <string _locid="112707">Grito de Dolores</string>
@@ -40095,7 +40224,7 @@
     <string _locid="112762">Voluntários do Tennessee</string>
     <string _locid="112763">Envia 12 Milícias do Estado para cada jogador da EQUIPE.</string>
     <string _locid="112764">EQ: Milícia de Kentucky</string>
-    <string _locid="112765">Solares curam unidades aliadas próximas e reduzem a velocidade da infantaria inimiga em 10%.</string>
+    <string _locid="112765">Casas curam unidades aliadas próximas e reduzem a velocidade da infantaria inimiga em 10%.</string>
     <string _locid="112766">Habitação Nacional</string>
     <string _locid="112767">Aura de Cura</string>
     <string _locid="112768">Mosqueteiro Espanhol</string>
@@ -40113,11 +40242,11 @@
     <string _locid="112802">Centro-Americanos</string>
     <string _locid="112803">Cidade de Guatemala</string>
     <string _locid="112804">Baixa Califórnia</string>
-    <string _locid="112805">Colonizadores tornam-se Obstrucionistas\n\n2 Carroças de Posto\n\nFoco: Fora da lei, Controle do Mapa e Fluxos de recursos</string>
+    <string _locid="112805">Colonizadores tornam-se Obstrucionistas\n\n3 Carroças de Posto\n\nFoco: Fora da lei, Controle do Mapa e Fluxos de recursos</string>
     <string _locid="112806">Obstrucionistas</string>
     <string _locid="112807">La Paz</string>
     <string _locid="112808">Yucatán</string>
-    <string _locid="112809">Insurgentes tornam-se Yucatecos.\n\nAtualizações de Hacienda e Fábrica disponíveis e gratuitas\n\nFoco: Haciendas, Colonizadores e Infantaria</string>
+    <string _locid="112809">Insurgentes tornam-se Yucatecos\n\nAtualizações de Hacienda disponíveis e gratuitas\n\nFoco: Haciendas, Colonizadores e Infantaria</string>
     <string _locid="112810">Yucatecos</string>
     <string _locid="112811">Mérida</string>
     <string _locid="112812">Rio Grande</string>
@@ -40133,10 +40262,10 @@
     <string _locid="112822">Californianos</string>
     <string _locid="112823">Sonoma</string>
     <string _locid="112824">Texas</string>
-    <string _locid="112825">Colonizadores tornam-se Voluntários.\n\nTreina unidades dos Estados Unidos. Recrutamento de Minutemen ativado no Centro Urbano.\n\n\nFoco: Fortes e Atualizações de infantaria.</string>
+    <string _locid="112825">Colonizadores tornam-se Voluntários.\n\nTreina unidades da Guarda dos Estados Unidos. Recrutamento de Minutemen ativado no Centro Urbano.\n\nFoco: Fortes e Atualizações de Infantaria.</string>
     <string _locid="112826">Texanos</string>
     <string _locid="112827">Austin</string>
-    <string _locid="112828">Envia 5 Soldados. Você recebe um Petardo gratuito em todas as provisões futuras, começando por esta.</string>
+    <string _locid="112828">Envia 4 Soldados. Você recebe um Petardo gratuito em todas as provisões futuras, começando por esta.</string>
     <string _locid="112829">Fogo de Santamaria</string>
     <string _locid="112830">Envia um Colonizador adicional para cada provisão enviada até o momento.</string>
     <string _locid="112831">Café Salvadorenho</string>
@@ -40145,7 +40274,7 @@
     <string _locid="112834">Impõe um bloqueio temporário sobre metrópoles inimigas durante 2 minutos.</string>
     <string _locid="112835">Isolamento da Costa Rica</string>
     <string _locid="112836">10 Espiões</string>
-    <string _locid="112837">7 Revolucionários</string>
+    <string _locid="112837">6 revolucionários</string>
     <string _locid="112838">Tempo restante do Café Salvadorenho</string>
     <string _locid="112839" symbol="cStringTempBlockadeTeammate">%s impôs um bloqueio às Metrópoles de todos os seus inimigos!</string>
     <string _locid="112840" symbol="cStringTempBlockadeYou">Você impôs um bloqueio temporário às Metrópoles de seus inimigos!</string>
@@ -40154,10 +40283,10 @@
     <string _locid="112843" symbol="cStringTempBlockadeYouAll">Você impôs um bloqueio temporário às Metrópoles de seus inimigos que, acidentalmente, afetou as Metrópoles de seus aliados!</string>
     <string _locid="112844">Chega rápido! Inimigos derrotados agora também recompensam Moedas, bem como PE.</string>
     <string _locid="112845">Soldado da Fortuna</string>
-    <string _locid="112846">Haciendas novas e existentes geram 2 Colonizadores e atraem animais caçáveis próximos para melhorar as taxas de produção.</string>
+    <string _locid="112846">Envia 3 Colonizadores. Haciendas atraem animais de caça próximos para melhorar as taxas de produção.</string>
     <string _locid="112847">Território da Baixa Califórnia</string>
-    <string _locid="112848">Permite que Fora da lei dos Estados Unidos sejam treinados na Taberna. Todos os Fora da lei custam menos população.</string>
-    <string _locid="112849">Gringos</string>
+    <string _locid="112848">O que vai fazer quando os fora da lei vierem atrás de você? Agora, as tavernas treinam os fora da lei dos Estados Unidos, que são treinados muito mais rápido.</string>
+    <string _locid="112849">Malandros</string>
     <string _locid="112850">Envia 1 unidade de Artilharia aleatória e 2 Canhões Quacres, unidades chamariz que não causam dano.</string>
     <string _locid="112851">Ilusões de Walker</string>
     <string _locid="112852">Envia 3 Obstrucionistas adicionais para cada provisão enviada até o momento. Todas as Edificações Militares e Casas transformam-se em Obstrucionistas.</string>
@@ -40171,7 +40300,7 @@
     <string _locid="112860">Insurgente Yucateco</string>
     <string _locid="112861">Insurgente Yucateco da Guarda</string>
     <string _locid="112862">Insurgente Yucateco do Império</string>
-    <string _locid="112863">Haciendas agora geram um fluxo de recursos extras em TODOS os modos (1 Alimento, 1 Madeira e 1 Moeda por segundo).</string>
+    <string _locid="112863">Haciendas agora recebem fluxo de recursos extra em TODOS os modos.</string>
     <string _locid="112864">Indústria Henequen</string>
     <string _locid="112865">Haciendas ganham um alternador que permite que trabalhadores coletem Madeira.</string>
     <string _locid="112866">Trituradores Solís</string>
@@ -40180,14 +40309,14 @@
     <string _locid="112869">Salteadores, Insurgentes Yucatecos e Lanceiros Holcan causam dano venenoso ao atacar.</string>
     <string _locid="112870">Guerra na Selva</string>
     <string _locid="112871">3 Falconetes</string>
-    <string _locid="112872">Envia 1 Travois de Embaixada Indígena e cria aliança com os Maias em sua Embaixada Indígena, permitindo acesso a algumas melhorias e unidades deles.</string>
+    <string _locid="112872">Envia 6 Lanceiros Holcan e 6 Insurgentes Yucatecos. Os insurgentes ganham mais pontos de vida.</string>
     <string _locid="112873">Apoiadores Maias</string>
     <string _locid="112874">Fluxo de Madeira Adicional</string>
     <string _locid="112875">Infantarias treinam mais rápido, especialmente Revolucionários.</string>
     <string _locid="112876">Bastimento</string>
     <string _locid="112877">Todos os Colonizadores transformam-se em Revolucionários novamente. Permite que a maioria das cartas que você já enviou sejam enviadas novamente.</string>
     <string _locid="112878">Plano de Monterrey</string>
-    <string _locid="112879">Envia 1 Colonizador por cada 3 Revolucionários que você perdeu até o momento (até um máximo de 99).</string>
+    <string _locid="112879">Envia 1 Colonizador por cada 3 Revolucionários que você perdeu até o momento (até um máximo de 80).</string>
     <string _locid="112880">República de Sierra Madre</string>
     <string _locid="112881">Chinacos ganham a habilidade Manobra de Zapata, que permite que todos os Chinacos movam-se sem serem vistos e sem perder velocidade de movimento.</string>
     <string _locid="112882">Manobras de Zapata</string>
@@ -40253,9 +40382,9 @@
     <string _locid="112942">Trilha da Califórnia</string>
     <string _locid="112943">Bandeiras Inspiradoras ganham uma área de efeito muito maior e agora também melhoram pontos de vida de unidades.</string>
     <string _locid="112944">Terras de Burnet</string>
-    <string _locid="112945">Permite que as atualizações do Cais da Era Imperial sejam pesquisadas.</string>
+    <string _locid="112945">Permite que as atualizações do Cais da Era Imperial sejam pesquisadas gratuitamente.</string>
     <string _locid="112946">Marinha do Texas</string>
-    <string _locid="112947">Minutemen são atualizados para Fuzileiros Texanos. Fuzileiros não perdem mais pontos de vida e causam mais dano contra Edificações, Navios e Artilharia.</string>
+    <string _locid="112947">Minutemen são melhorados para Fuzileiros Texanos. Os Fuzileiros não perdem mais pontos de vida e causam mais dano contra Edificações, Navios e Artilharia.</string>
     <string _locid="112948">Fuzileiros do Texas</string>
     <string _locid="112949">Melhora Chinacos para Lanceiros Texanos, que são treinados, se movem mais rápido e têm um poderoso ataque carregado.</string>
     <string _locid="112950">Lanceiros do Texas</string>
@@ -40286,7 +40415,7 @@
     <string _locid="112975">Combate de Fora da lei</string>
     <string _locid="112976">Obstrucionista Veterano</string>
     <string _locid="112977">Obstrucionistas Veteranos</string>
-    <string _locid="112978">Bandeiras Inspiradoras agora também melhoram as taxas de coleta de Colonizadores em 20% e podem ser colocadas em qualquer lugar que você já explorou do mapa.</string>
+    <string _locid="112978">Bandeiras Inspiradoras agora também melhoram as taxas de coleta de Colonizadores em 15% e podem ser colocadas em qualquer lugar que você já explorou do mapa.</string>
     <string _locid="112979">Yucatán</string>
     <string _locid="112980">Ataque de Laço (Carregado)</string>
     <string _locid="112981">Ataque de Laço</string>
@@ -40306,19 +40435,19 @@
     <string _locid="112995">Vingadores Cruzob do Império</string>
     <string _locid="112996">Vingador Cruzob do Império</string>
     <string _locid="112997">Vingador Cruzob</string>
-    <string _locid="112998">Permite que as atualizações Imperiais de suas unidades de Quartel sejam pesquisadas gratuitamente.</string>
+    <string _locid="112998">Permite que as atualizações imperiais de suas unidades de Quartel sejam pesquisadas lentamente de graça.</string>
     <string _locid="112999">Exército do Texas</string>
     <string _locid="113000">Praça del Zócalo</string>
     <string _locid="113001">Palácio Nacional</string>
     <string _locid="113002">Catedral Metropolitana</string>
-    <string _locid="113003">Posicione a bandeira revolucionária da América Central para aumentar o moral! Edificações e unidades militares próximas causam mais dano e são criadas mais rapidamente. Bandeiras não podem ser posicionadas perto de Centros Urbanos iniciais. Somente uma bandeira pode ser posicionada por vez.</string>
-    <string _locid="113004">Posicione a bandeira revolucionária dos Obstrucionistas para aumentar o moral! Edificações e unidades militares próximas causam mais dano e são criadas mais rapidamente. Bandeiras não podem ser posicionadas perto de Centros Urbanos iniciais. Somente uma bandeira pode ser posicionada por vez.</string>
-    <string _locid="113005">Posicione a bandeira revolucionária de Yucatán para aumentar o moral! Edificações e unidades militares próximas causam mais dano e são criadas mais rapidamente. Bandeiras não podem ser posicionadas perto de Centros Urbanos iniciais. Somente uma bandeira pode ser posicionada por vez.</string>
-    <string _locid="113006">Posicione a bandeira revolucionária do Rio Grande para aumentar o moral! Edificações e unidades militares próximas causam mais dano e são criadas mais rapidamente. Bandeiras não podem ser posicionadas perto de Centros Urbanos iniciais. Somente uma bandeira pode ser posicionada por vez.</string>
-    <string _locid="113007">Posicione a bandeira revolucionária californiana para aumentar o moral! Edificações e unidades militares próximas causam mais dano e são criadas mais rapidamente. Bandeiras não podem ser posicionadas perto de Centros Urbanos iniciais. Somente uma bandeira pode ser posicionada por vez.</string>
-    <string _locid="113008">Posicione a bandeira revolucionária texana para aumentar o moral! Edificações e unidades militares próximas causam mais dano e são criadas mais rapidamente. Bandeiras não podem ser posicionadas perto de Centros Urbanos iniciais. Somente uma bandeira pode ser posicionada por vez.</string>
-    <string _locid="113009">Posicione a bandeira revolucionária maia para aumentar o moral! Edificações e unidades militares próximas causam mais dano e são criadas mais rapidamente. Bandeiras não podem ser posicionadas perto de Centros Urbanos iniciais. Somente uma bandeira pode ser posicionada por vez.</string>
-    <string _locid="113010">Posicionada taticamente por um General para impulsionar edificações e unidades próximas. Caso não haja unidades ou edificações aliadas por perto, ela pode ser capturada por inimigos e removida do mapa.\n • Concede +10% de Dano de Ataque a todas as Unidades.\n • Concede +10% de Dano de Ataque a todas as Edificações.\n • Concede +25% de Taxa de Trabalho a Edificações Militares.\n • Concede +50% de velocidade de Construção a todas as Edificações.</string>
+    <string _locid="113003">Posicione a bandeira revolucionária da América Central para aumentar o moral! Edificações e unidades militares próximas (com exceção da artilharia) causam mais dano e são criadas mais rapidamente. Bandeiras não podem ser posicionadas perto de Centros Urbanos iniciais. Somente uma bandeira pode ser posicionada por vez.</string>
+    <string _locid="113004">Posicione a bandeira revolucionária dos Obstrucionistas para aumentar o moral! Edificações e unidades militares próximas (com exceção da artilharia) causam mais dano e são criadas mais rapidamente. Bandeiras não podem ser posicionadas perto de Centros Urbanos iniciais. Somente uma bandeira pode ser posicionada por vez.</string>
+    <string _locid="113005">Posicione a bandeira revolucionária de Yucatán para aumentar o moral! Edificações e unidades militares próximas (com exceção da artilharia) causam mais dano e são criadas mais rapidamente. Bandeiras não podem ser posicionadas perto de Centros Urbanos iniciais. Somente uma bandeira pode ser posicionada por vez.</string>
+    <string _locid="113006">Posicione a bandeira revolucionária do Rio Grande para aumentar o moral! Edificações e unidades militares próximas (com exceção da artilharia) causam mais dano e são criadas mais rapidamente. Bandeiras não podem ser posicionadas perto de Centros Urbanos iniciais. Somente uma bandeira pode ser posicionada por vez.</string>
+    <string _locid="113007">Posicione a bandeira revolucionária californiana para aumentar o moral! Edificações e unidades militares próximas (com exceção da artilharia) causam mais dano e são criadas mais rapidamente. Bandeiras não podem ser posicionadas perto de Centros Urbanos iniciais. Somente uma bandeira pode ser posicionada por vez.</string>
+    <string _locid="113008">Posicione a bandeira revolucionária texana para aumentar o moral! Edificações e unidades militares próximas (com exceção da artilharia) causam mais dano e são criadas mais rapidamente. Bandeiras não podem ser posicionadas perto de Centros Urbanos iniciais. Somente uma bandeira pode ser posicionada por vez.</string>
+    <string _locid="113009">Posicione a bandeira revolucionária maia para aumentar o moral! Edificações e unidades militares próximas (com exceção da artilharia) causam mais dano e são criadas mais rapidamente. Bandeiras não podem ser posicionadas perto de Centros Urbanos iniciais. Somente uma bandeira pode ser posicionada por vez.</string>
+    <string _locid="113010">Posicionada taticamente por um General para impulsionar edificações e unidades próximas. Caso não haja unidades ou edificações aliadas por perto, ela pode ser capturada por inimigos e removida do mapa.\n • Concede +10% de Dano de Ataque a todas as Unidades (com exceção da artilharia).\n • Concede +10% de Dano de Ataque a todas as Edificações.\n • Concede +25% de Taxa de Trabalho a Edificações Militares.\n • Concede +50% de velocidade de Construção a todas as Edificações.</string>
     <string _locid="113011">Aumenta o moral das unidades próximas e deve ser defendida! Se capturada por inimigos, será removida do mapa.</string>
     <string _locid="113012">Aumenta o moral das unidades próximas.</string>
     <string _locid="113013">Aumenta o moral das unidades mexicanas próximas.</string>
@@ -40345,9 +40474,9 @@
     <string _locid="113034">3 Galeões Capturados</string>
     <string _locid="113035">EQ: Envia 1 Carroça de Cais e revela brevemente a localização de todos os Peixes, Baleias e Unidades Navais no mapa.</string>
     <string _locid="113036">EQ: Golfo do México</string>
-    <string _locid="113037">Agora as Haciendas podem coletar automaticamente de Gado totalmente engordado.</string>
+    <string _locid="113037">Haciendas engordam o Gado mais rápido e realizam o abate automaticamente quando os animais são totalmente engordados.</string>
     <string _locid="113038">Barbacoa</string>
-    <string _locid="113039">17 Barcos de Pesca</string>
+    <string _locid="113039">14 barcos de pesca</string>
     <string _locid="113040">Envia 3 Vacas semiengordadas + 3 a mais a cada 5 minutos decorridos. Melhora a taxa de venda de alimentos no mercado em 50%.</string>
     <string _locid="113041">Feira de San Marcos</string>
     <string _locid="113042">Vender Hacienda</string>
@@ -40364,7 +40493,7 @@
     <string _locid="113053">Todos os seus Salteadores transformam-se em poderosos Voltigeurs franceses. Infantarias armadas com rifles ganham mais alcance.</string>
     <string _locid="113054">Plano de Miramare</string>
     <string _locid="113055">Genizarios de Chimayó</string>
-    <string _locid="113056">Envia 11 Atiradores Navajos que causam mais dano a Aldeões do que o normal.</string>
+    <string _locid="113056">Envia 10 Atiradores Navajos que causam mais dano a Aldeões do que o normal.</string>
     <string _locid="113057">Navajo Renegado</string>
     <string _locid="113058">Dragões causam mais dano e podem ser recrutados na Era Comercial.</string>
     <string _locid="113059">Dragões da Rainha</string>
@@ -40377,7 +40506,7 @@
     <string _locid="113066">Visita das Sete Casas</string>
     <string _locid="113067">Concede +5 PE para cada unidade que você perdeu até o momento.</string>
     <string _locid="113068">Dia dos Mortos</string>
-    <string _locid="113069">Agora o seu General aumenta o moral, assim como a Bandeira Inspiradora. Ele também pode receber provisões da Metrópole e treinar Soldados.</string>
+    <string _locid="113069">Seu General agora também aumenta a moral, como a Bandeira Inspiradora. Ele também pode receber provisões da Capital e treinar Soldados.\n • Aura Inspiradora: não cumulativa com a bandeira</string>
     <string _locid="113070">Homem do Destino</string>
     <string _locid="113071">Envia 1 Carroça de Forte. Fortes têm mais Campo de Visão e causam dano extra contra Heróis.</string>
     <string _locid="113072">Castelo de Chapultepec</string>
@@ -40412,7 +40541,7 @@
     <string _locid="113101">Construtor Industrial</string>
     <string _locid="113102">16 Insurgentes Yucatecos</string>
     <string _locid="113103">Os Trezentos Antigos</string>
-    <string _locid="113104">Permite que Cidadãos sejam treinados em Centros Urbanos e envia 1 por cada Casa que você possui.</string>
+    <string _locid="113104">Envia 1 Cidadão para cada Edificação que você construiu (até um máximo de 80). Habilita cidadãos nos centros urbanos.</string>
     <string _locid="113105">Criação de Califórnia</string>
     <string _locid="113106">Laço</string>
     <string _locid="113107">Gerar Cuatrero</string>
@@ -40484,8 +40613,20 @@
     <string _locid="113173">Relatividade</string>
     <string _locid="113174">Revolta dos Sipais!</string>
     <string _locid="113175">%s se REVOLTOU!</string>
-    <string _locid="113176" symbol="cStringStatBuildingRepair">Reparo de Edificações:</string>
+    <string _locid="113176" symbol="cStringStatBuildingRepair">Reparo de Edificações (Porcentagem):</string>
     <string _locid="113177" symbol="cStringStatAreaRollover">Área %2d</string>
+    <string _locid="113178" symbol="cStringAllWorkers">Todos os Trabalhadores</string>
+    <string _locid="113179" symbol="cStringResourceAsCratesEffect">%1!s!: Entrega +%2!.2f! %3!s! como caixas</string>
+    <string _locid="113180">Combinação russa de Quartel e Posto Avançado. Pode defender a fronteira e treinar a infantaria em grupos. Também fornece 15 de população.</string>
+    <string _locid="113181" symbol="cStringStatRangeRolloverAreaFloat">%1!d! Alcance com área de %2!.2f!</string>
+    <string _locid="113182" symbol="cStringIncreaseModifyRateEffect">%1!s!: %2!s! Taxa de Modificação +%3!.0f!%%</string>
+    <string _locid="113183" symbol="cStringDecreaseModifyRateEffect">%1!s!: %2!s! Taxa de Modificação %3!.0f!%%</string>
+    <string _locid="113184" symbol="cStringAddModifyRateEffect">%1s: Adiciona %2.2f à taxa de modificação de %3s</string>
+    <string _locid="113185" symbol="cStringSetModifyRateEffect">%1s: Define a taxa de modificação de %2s em %3.2f</string>
+    <string _locid="113186">Unidade Curável</string>
+    <string _locid="113187" symbol="cStringDetailHelpMercs">Mercenários e fora da lei disponíveis:\n</string>
+    <string _locid="113188">Encontre a Feitoria do Território Nativo</string>
+    <string _locid="113189">Encontre a Feitoria da Rota Comercial</string>
     <string _locid="200000">Bandeiras Suecas</string>
     <string _locid="200001">Exibe bandeiras suecas nesta edificação.</string>
     <string _locid="200002">Novo Centro Comercial Mundial (verde)</string>
@@ -40558,6 +40699,8 @@
     <string _locid="200069">Aliados Caribenhos</string>
     <string _locid="200070">Aliados Mapuches</string>
     <string _locid="200071">Aliados Zapotecas</string>
+    <string _locid="200072">Templo (Ruína)</string>
+    <string _locid="200073">A versão arruinada do Templo.</string>
     <string _locid="210000">DLSS</string>
     <string _locid="210001">O Deep Learning Super Sampling (DLSS, em português: Aprendizado profundo de superamostragem) é uma tecnologia exclusiva da NVIDIA RTX que usa uma rede neural de aprendizagem profunda para aumentar as taxas de quadros e gerar imagens impressionantes e nítidas em seus jogos. Ela oferece maior capacidade de expansão de desempenho para maximizar as configurações de qualidade e aumentar a resolução de saída.</string>
     <string _locid="210002">Configurações do DLSS</string>
@@ -40573,5 +40716,27 @@
     <string _locid="210025">Oferece um desempenho otimizado e qualidade de imagem.</string>
     <string _locid="210026">Qualidade</string>
     <string _locid="210027">Oferece uma qualidade de imagem mais alta do que o modo equilibrado.</string>
+    <string _locid="220001">Modo de foto</string>
+    <string _locid="220002">Movimento:</string>
+    <string _locid="220003">Rotação:</string>
+    <string _locid="220004">Zoom:</string>
+    <string _locid="220005">Captura de tela:</string>
+    <string _locid="220006">Redefinir câmera:</string>
+    <string _locid="220007">Ativar/desativar interface de usuário:</string>
+    <string _locid="220008">Voltar:</string>
+    <string _locid="220009">Movimento:\n • Utilize as teclas WASD ou teclas de seta para mover a câmera.\n • Utilize as teclas Q e E para mover a câmera para cima/para baixo.\n • Mova o mouse para a borda da tela para mover a câmera.\n • Pressione e segure a barra de espaço e, depois, clique e arraste para mover a câmera.\n\n Rotação:\n • Alt + WASD ou Alt + setas para girar.\n • Alt + clique e arraste para girar.\n\n Mais zoom/menos zoom:\n • Use a roda de rolagem para aumentar e diminuir o zoom.</string>
+    <string _locid="220010">Ativar/desativar interface de usuário</string>
+    <string _locid="220011">Incluir interface de usuário na captura de tela</string>
+    <string _locid="220012">Localizar pasta:</string>
+    <string _locid="220013">Abrir pasta</string>
+    <string _locid="220014">Avanço de quadro</string>
+    <string _locid="220015">Predefinições de iluminação</string>
+    <string _locid="220016">Posição do sol</string>
+    <string _locid="220017">Passe pela cena em incrementos pequenos, mas gerenciáveis. Use o controle deslizante ou os botões de avanço rápido para manipular a cena.</string>
+    <string _locid="220018">Selecione várias predefinições de iluminação da caixa de combinação.</string>
+    <string _locid="220019">Altere a posição do sol manipulando o controle deslizante.</string>
+    <string _locid="220020">Selecione para ativar/desativar a interface de usuário.</string>
+    <string _locid="220021">Selecione para incluir a interface de usuário ao fazer uma captura de tela.</string>
+    <string _locid="220022">Selecione para abrir o local da pasta da captura de tela.</string>
   </language>
 </stringtable>

@@ -1,7 +1,7 @@
 <protounitcommands>
   <protounitcommand>
     <name>MarketBuy1</name>
-    <command>resourceMarket(-1, "food" , 100.0, "gold")</command>
+    <command>resourceMarket(-1,"food",100.0,"gold")</command>
     <icon>resources\images\icons\command\trade_buy_food.png</icon>
     <rollovertextid>19222</rollovertextid>
     <valuetext>{marketBuy(food)}</valuetext>
@@ -1210,7 +1210,7 @@
     <spawncommand>
     </spawncommand>
     <unittype>Minuteman</unittype>
-    <amount>15</amount>
+    <amount>12</amount>
     <associatedtech>DEFortConscription</associatedtech>
     <rollovertextid>90370</rollovertextid>
   </protounitcommand>
@@ -1821,7 +1821,7 @@
     <spawncommand>
     </spawncommand>
     <unittype>Minuteman</unittype>
-    <amount>15</amount>
+    <amount>12</amount>
     <associatedtech>DEFedMXFortConscription</associatedtech>
     <rollovertextid>36108</rollovertextid>
   </protounitcommand>

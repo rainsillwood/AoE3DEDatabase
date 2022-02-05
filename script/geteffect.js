@@ -16,7 +16,6 @@ function relativity(type, text) {
 }
 
 function targetType(target, type) {
-    if (!target) return '未知';
     switch (type) {
         case 'ProtoUnit':
             return ' <ruby>' + ((!unitTypes[target.toLowerCase()]) ? (getProto(target).displayname) : (unitTypes[target.toLowerCase()])) + '<rt>' + target + '</rt></ruby> ';
@@ -40,7 +39,7 @@ function actionType(action, allactions, proto) {
     if (!action) return ' 未知 ';
     let unit = getProto(proto);
 
-    if (!!unit._id) {
+    if (unit._id) {
         let tactic = getXml('./Data/tactics/' + unit.tactics);
         if (allactions == 'CommandAdd') {
             return action;
@@ -72,6 +71,8 @@ function subType(effect) {
             return (((effect._amount) * 1 > 0 ? '启用' : '禁用') + '建造 ' + actor);
         case 'AllowedAge':
             return (actor + '：建造时代' + ((effect._amount * 1) > 0 ? "推迟" : "提前") + Math.abs(effect._amount * 1) + '个时代');
+        case 'PopulationCap':
+            return (actor + '：人口上限' + relativity(effect._relativity, effect._amount));
         case 'BuildLimit':
             info = strings['90125'].__text;
             info = info.replace('%1!s!', actor);
@@ -109,6 +110,16 @@ function subType(effect) {
             return info;
         case 'LOS':
             info = strings['90118'].__text;
+            info = info.replace('%1!s!', actor);
+            info = info.replace('%2!.0f!%%', relativity(effect._relativity, effect._amount));
+            return info;
+        case 'BuildBounty':
+            info = strings['90139'].__text;
+            info = info.replace('%1!s!', actor);
+            info = info.replace('%2!.0f!%%', relativity(effect._relativity, effect._amount));
+            return info;
+        case 'KillBounty':
+            info = strings['79848'].__text;
             info = info.replace('%1!s!', actor);
             info = info.replace('%2!.0f!%%', relativity(effect._relativity, effect._amount));
             return info;
@@ -167,6 +178,24 @@ function subType(effect) {
             info = info.replace('%2!s!', actionType(effect._action, effect._allactions, effect.target.__text));
             info = info.replace('变更 %4!.0f!%%', relativity(effect._relativity, effect._amount));
             return info;
+        case 'ResourceTrickleRate':
+            info = strings['90133'].__text;
+            info = info.replace('%1!s!', actor);
+            info = info.replace('%2!s!', resource);
+            info = info.replace('%3!.0f!%%', relativity(effect._relativity, effect._amount));
+            return info;
+        case 'MinimumResourceTrickleRate':
+            info = strings['90134'].__text;
+            info = info.replace('%1!s!', actor);
+            info = info.replace('%2!s!', resource);
+            info = info.replace('%3!.0f!%%', relativity(effect._relativity, effect._amount));
+            return info;
+        case 'MaximumResourceTrickleRate':
+            info = strings['90135'].__text;
+            info = info.replace('%1!s!', actor);
+            info = info.replace('%2!s!', resource);
+            info = info.replace('%3!.0f!%%', relativity(effect._relativity, effect._amount));
+            return info;
         case 'FreeHomeCityUnit':
             {
                 info = strings['42177'].__text;
@@ -198,8 +227,19 @@ function subType(effect) {
                 info = info.replace('%3s', resource);
                 return info;
             }
+        case 'Resource':
+            {
+                info = strings['42078'].__text;
+                info = info.replace('%1!1s!', actor);
+                info = info.replace('%2!2.2f!', effect._amount * 1);
+                info = info.replace('%3!3s!', resource);
+                info = info.replace('增加', ' ');
+                return info;
+            }
         case 'RevealLOS':
-            return (actor + '：' + '获得视野');
+            return (actor + '：' + ((effect._amount) * 1 > 0 ? '获得' : '关闭') + '视野');
+        case 'EnableTradeRouteLOS':
+            return (((effect._amount) * 1 > 0 ? '获得' : '关闭') + '贸易路线视野');
         case 'ActionEnable':
             info = strings['42080'].__text;
             info = info.replace('%1s', actor);
@@ -218,8 +258,27 @@ function subType(effect) {
             info = info.replace('%1s', actor);
             info = info.replace('启用', ((effect._amount) * 1 > 0 ? '启用' : '禁用'));
             return info;
+        case 'AddSharedBuildLimitUnitType':
+            info = '%1s：%3s共享建造限制%2s';
+            info = info.replace('%1s', actor);
+            info = info.replace('%2s', target);
+            info = info.replace('%3s', (effect._amount) * 1 > 0 ? '增加' : '取消');
+            info = info.replace('启用', ((effect._amount) * 1 > 0 ? '启用' : '禁用'));
+            return info;
+        case 'SharedBuildLimitUnit':
+            info = '%1s：与%2s共享建造限制';
+            info = info.replace('%1s', actor);
+            info = info.replace('%2s', target);
+            info = info.replace('启用', ((effect._amount) * 1 > 0 ? '启用' : '禁用'));
+            return info;
         case 'ActionDisplayName':
             return (actor + '：动作' + actionType(effect._action, effect._allactions, effect.target.__text) + '更名为 ' + strings[effect._stringid]);
+        case 'MaximumContained':
+            return (actor + '：装载空间' + relativity(effect._relativity, effect._amount));
+        case 'AddTrain':
+            return (actor + '：' + ((effect._amount) * 1 > 0 ? '添加' : '删除') + '训练' + target);
+        case 'CopyUnitPortraitAndIcon':
+            return (target + '更该模型和图标为' + actor);
         default:
             return JSON.stringify(effect);
     }
@@ -276,7 +335,9 @@ function getEffect(effect, tech) {
         //更改名称
         case 'SetName':
             {
-                information = (!effect._proto ? ('科技 ' + getTech(effect._tech).displayname) : ('单位 ' + getProto(effect._proto).displayname)) + ' 更名为 ' + strings[effect._newname];
+                let type = !effect._proto ? '科技' : '单位';
+                let target = !effect._proto ? getTech(effect._tech) : getProto(effect._proto);
+                information = type + ' <ruby>' + target.displayname + '<rt>' + target._name + '</rt></ruby> 更名为 ' + strings[effect._newname];
                 break;
             }
         //输出消息

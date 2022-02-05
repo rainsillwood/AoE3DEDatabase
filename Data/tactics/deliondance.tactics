@@ -1,0 +1,11 @@
+<tactics>
+  <action>
+    <name stringid="69158">Spawn</name>
+    <type>Spawn</type>
+    <active>1</active>
+    <persistent>1</persistent>
+    <spawnonanimationloop>1</spawnonanimationloop>
+    <destroyunitafteruse>1</destroyunitafteruse>
+  </action>
+  <tactic>Normal<action>Spawn</action></tactic>
+</tactics>

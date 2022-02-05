@@ -125,36 +125,9 @@
       <idletimeout>3.5</idletimeout>
     </unitregen>
     <unitregen>
-      <unittype>Minuteman</unittype>
-      <rate>-2.0</rate>
-    </unitregen>
-    <unitregen>
-      <unittype>Spahi</unittype>
-      <rate>0.25</rate>
-      <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
-      <unittype>ypUrumi</unittype>
-      <rate>0.25</rate>
-      <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
-      <unittype>ypUrumiMansabdar</unittype>
-      <rate>0.25</rate>
-      <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
       <unittype>SPCBolivar</unittype>
       <rate>0.25</rate>
       <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
-      <unittype>deNatYorubaRider</unittype>
-      <rate>-0.75</rate>
-    </unitregen>
-    <unitregen>
-      <unittype>deNatMercYorubaRider</unittype>
-      <rate>-0.75</rate>
     </unitregen>
     <multipleblocktrain>
       <building>TownCenter</building>
@@ -316,33 +289,6 @@
       <rate>0.25</rate>
       <idletimeout>3.5</idletimeout>
     </unitregen>
-    <unitregen>
-      <unittype>Minuteman</unittype>
-      <rate>-2.0</rate>
-    </unitregen>
-    <unitregen>
-      <unittype>Spahi</unittype>
-      <rate>0.25</rate>
-      <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
-      <unittype>ypUrumi</unittype>
-      <rate>0.25</rate>
-      <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
-      <unittype>ypUrumiMansabdar</unittype>
-      <rate>0.25</rate>
-      <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
-      <unittype>deNatYorubaRider</unittype>
-      <rate>-0.75</rate>
-    </unitregen>
-    <unitregen>
-      <unittype>deNatMercYorubaRider</unittype>
-      <rate>-0.75</rate>
-    </unitregen>
     <multipleblocktrain>
       <building>TownCenter</building>
       <multipleblockunit>deFedBisonBatch</multipleblockunit>
@@ -499,33 +445,6 @@
       <unittype>Hero</unittype>
       <rate>0.25</rate>
       <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
-      <unittype>Minuteman</unittype>
-      <rate>-2.0</rate>
-    </unitregen>
-    <unitregen>
-      <unittype>Spahi</unittype>
-      <rate>0.25</rate>
-      <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
-      <unittype>ypUrumi</unittype>
-      <rate>0.25</rate>
-      <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
-      <unittype>ypUrumiMansabdar</unittype>
-      <rate>0.25</rate>
-      <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
-      <unittype>deNatYorubaRider</unittype>
-      <rate>-0.75</rate>
-    </unitregen>
-    <unitregen>
-      <unittype>deNatMercYorubaRider</unittype>
-      <rate>-0.75</rate>
     </unitregen>
     <multipleblocktrain>
       <building>TownCenter</building>
@@ -707,33 +626,6 @@
       <rate>0.25</rate>
       <idletimeout>3.5</idletimeout>
     </unitregen>
-    <unitregen>
-      <unittype>Minuteman</unittype>
-      <rate>-2.0</rate>
-    </unitregen>
-    <unitregen>
-      <unittype>Spahi</unittype>
-      <rate>0.25</rate>
-      <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
-      <unittype>ypUrumi</unittype>
-      <rate>0.25</rate>
-      <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
-      <unittype>ypUrumiMansabdar</unittype>
-      <rate>0.25</rate>
-      <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
-      <unittype>deNatYorubaRider</unittype>
-      <rate>-0.75</rate>
-    </unitregen>
-    <unitregen>
-      <unittype>deNatMercYorubaRider</unittype>
-      <rate>-0.75</rate>
-    </unitregen>
     <multipleblocktrain>
       <building>TownCenter</building>
       <multipleblockunit>deREVVoluntarioBatch</multipleblockunit>
@@ -839,7 +731,7 @@
     <townstartingunit>CrateofCoin</townstartingunit>
     <townstartingunit>CrateofCoin</townstartingunit>
     <townstartingunit>CrateofCoin</townstartingunit>
-    <townstartingunit>CrateofFood</townstartingunit>
+    <townstartingunit>deCrateofFood50</townstartingunit>
     <townstartingunit>CrateofWood</townstartingunit>
     <townstartingunit>CrateofWood</townstartingunit>
     <economymodestartingunit>Settler</economymodestartingunit>
@@ -905,33 +797,6 @@
       <unittype>Hero</unittype>
       <rate>0.25</rate>
       <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
-      <unittype>Minuteman</unittype>
-      <rate>-2.0</rate>
-    </unitregen>
-    <unitregen>
-      <unittype>Spahi</unittype>
-      <rate>0.25</rate>
-      <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
-      <unittype>ypUrumi</unittype>
-      <rate>0.25</rate>
-      <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
-      <unittype>ypUrumiMansabdar</unittype>
-      <rate>0.25</rate>
-      <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
-      <unittype>deNatYorubaRider</unittype>
-      <rate>-0.75</rate>
-    </unitregen>
-    <unitregen>
-      <unittype>deNatMercYorubaRider</unittype>
-      <rate>-0.75</rate>
     </unitregen>
     <multipleblocktrain>
       <building>TownCenter</building>
@@ -1104,33 +969,6 @@
       <rate>0.25</rate>
       <idletimeout>3.5</idletimeout>
     </unitregen>
-    <unitregen>
-      <unittype>Minuteman</unittype>
-      <rate>-2.0</rate>
-    </unitregen>
-    <unitregen>
-      <unittype>Spahi</unittype>
-      <rate>0.25</rate>
-      <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
-      <unittype>ypUrumi</unittype>
-      <rate>0.25</rate>
-      <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
-      <unittype>ypUrumiMansabdar</unittype>
-      <rate>0.25</rate>
-      <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
-      <unittype>deNatYorubaRider</unittype>
-      <rate>-0.75</rate>
-    </unitregen>
-    <unitregen>
-      <unittype>deNatMercYorubaRider</unittype>
-      <rate>-0.75</rate>
-    </unitregen>
     <blocktrain>
       <building>TownCenter</building>
       <unit>Settler</unit>
@@ -1301,33 +1139,6 @@
       <rate>0.25</rate>
       <idletimeout>3.5</idletimeout>
     </unitregen>
-    <unitregen>
-      <unittype>Minuteman</unittype>
-      <rate>-2.0</rate>
-    </unitregen>
-    <unitregen>
-      <unittype>Spahi</unittype>
-      <rate>0.25</rate>
-      <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
-      <unittype>ypUrumi</unittype>
-      <rate>0.25</rate>
-      <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
-      <unittype>ypUrumiMansabdar</unittype>
-      <rate>0.25</rate>
-      <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
-      <unittype>deNatYorubaRider</unittype>
-      <rate>-0.75</rate>
-    </unitregen>
-    <unitregen>
-      <unittype>deNatMercYorubaRider</unittype>
-      <rate>-0.75</rate>
-    </unitregen>
     <multipleblocktrain>
       <building>TownCenter</building>
       <multipleblockunit>deFedBisonBatch</multipleblockunit>
@@ -1484,33 +1295,6 @@
       <rate>0.25</rate>
       <idletimeout>3.5</idletimeout>
     </unitregen>
-    <unitregen>
-      <unittype>Spahi</unittype>
-      <rate>0.25</rate>
-      <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
-      <unittype>ypUrumi</unittype>
-      <rate>0.25</rate>
-      <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
-      <unittype>ypUrumiMansabdar</unittype>
-      <rate>0.25</rate>
-      <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
-      <unittype>Minuteman</unittype>
-      <rate>-2.0</rate>
-    </unitregen>
-    <unitregen>
-      <unittype>deNatYorubaRider</unittype>
-      <rate>-0.75</rate>
-    </unitregen>
-    <unitregen>
-      <unittype>deNatMercYorubaRider</unittype>
-      <rate>-0.75</rate>
-    </unitregen>
     <multipleblocktrain>
       <building>TownCenter</building>
       <multipleblockunit>deFedBisonBatch</multipleblockunit>
@@ -1633,10 +1417,6 @@
       <rate>0.65</rate>
       <idletimeout>3.5</idletimeout>
     </unitregen>
-    <unitregen>
-      <unittype>Minuteman</unittype>
-      <rate>-2.0</rate>
-    </unitregen>
     <visible>0</visible>
     <visibleineditor>1</visibleineditor>
   </civ>
@@ -1714,10 +1494,6 @@
       <unittype>ExplorerDog</unittype>
       <rate>0.40</rate>
       <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
-      <unittype>Minuteman</unittype>
-      <rate>-2.0</rate>
     </unitregen>
     <visible>0</visible>
     <visibleineditor>1</visibleineditor>
@@ -1805,25 +1581,6 @@
       <rate>0.40</rate>
       <idletimeout>3.5</idletimeout>
     </unitregen>
-    <unitregen>
-      <unittype>Minuteman</unittype>
-      <rate>-2.0</rate>
-    </unitregen>
-    <unitregen>
-      <unittype>Spahi</unittype>
-      <rate>0.25</rate>
-      <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
-      <unittype>ypUrumi</unittype>
-      <rate>0.25</rate>
-      <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
-      <unittype>ypUrumiMansabdar</unittype>
-      <rate>0.25</rate>
-      <idletimeout>3.5</idletimeout>
-    </unitregen>
     <visible>0</visible>
     <visibleineditor>1</visibleineditor>
   </civ>
@@ -1892,25 +1649,6 @@
       <rate>0.65</rate>
       <idletimeout>3.5</idletimeout>
     </unitregen>
-    <unitregen>
-      <unittype>Minuteman</unittype>
-      <rate>-2.0</rate>
-    </unitregen>
-    <unitregen>
-      <unittype>Spahi</unittype>
-      <rate>0.25</rate>
-      <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
-      <unittype>ypUrumi</unittype>
-      <rate>0.25</rate>
-      <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
-      <unittype>ypUrumiMansabdar</unittype>
-      <rate>0.25</rate>
-      <idletimeout>3.5</idletimeout>
-    </unitregen>
     <visible>0</visible>
     <visibleineditor>1</visibleineditor>
   </civ>
@@ -1971,10 +1709,6 @@
       <rate>0.65</rate>
       <idletimeout>3.5</idletimeout>
     </unitregen>
-    <unitregen>
-      <unittype>Minuteman</unittype>
-      <rate>-2.0</rate>
-    </unitregen>
     <visible>0</visible>
     <visibleineditor>1</visibleineditor>
   </civ>
@@ -2025,10 +1759,6 @@
     <homecityflagbuttonsetlarge>spanishFlagBtnLarge</homecityflagbuttonsetlarge>
     <homecityflagiconwpf>resources/images/icons/flags/Flag_Random.png</homecityflagiconwpf>
     <homecityflagbuttonwpf>resources\images\icons\flags\flag_hc_random.png</homecityflagbuttonwpf>
-    <unitregen>
-      <unittype>Minuteman</unittype>
-      <rate>-2.0</rate>
-    </unitregen>
     <visible>0</visible>
     <visibleineditor>1</visibleineditor>
   </civ>
@@ -2153,33 +1883,6 @@
       <unittype>Hero</unittype>
       <rate>0.25</rate>
       <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
-      <unittype>xpWarrior</unittype>
-      <rate>-2.0</rate>
-    </unitregen>
-    <unitregen>
-      <unittype>Spahi</unittype>
-      <rate>0.25</rate>
-      <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
-      <unittype>ypUrumi</unittype>
-      <rate>0.25</rate>
-      <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
-      <unittype>ypUrumiMansabdar</unittype>
-      <rate>0.25</rate>
-      <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
-      <unittype>deNatYorubaRider</unittype>
-      <rate>-0.75</rate>
-    </unitregen>
-    <unitregen>
-      <unittype>deNatMercYorubaRider</unittype>
-      <rate>-0.75</rate>
     </unitregen>
     <multipleblocktrain>
       <building>TownCenter</building>
@@ -2341,33 +2044,6 @@
       <unittype>Hero</unittype>
       <rate>0.25</rate>
       <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
-      <unittype>xpWarrior</unittype>
-      <rate>-2.0</rate>
-    </unitregen>
-    <unitregen>
-      <unittype>Spahi</unittype>
-      <rate>0.25</rate>
-      <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
-      <unittype>ypUrumi</unittype>
-      <rate>0.25</rate>
-      <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
-      <unittype>ypUrumiMansabdar</unittype>
-      <rate>0.25</rate>
-      <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
-      <unittype>deNatYorubaRider</unittype>
-      <rate>-0.75</rate>
-    </unitregen>
-    <unitregen>
-      <unittype>deNatMercYorubaRider</unittype>
-      <rate>-0.75</rate>
     </unitregen>
     <multipleblocktrain>
       <building>TownCenter</building>
@@ -2539,38 +2215,6 @@
       <rate>0.25</rate>
       <idletimeout>3.5</idletimeout>
     </unitregen>
-    <unitregen>
-      <unittype>xpWarrior</unittype>
-      <rate>-2.0</rate>
-    </unitregen>
-    <unitregen>
-      <unittype>xpSkullKnight</unittype>
-      <rate>0.25</rate>
-      <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
-      <unittype>Spahi</unittype>
-      <rate>0.25</rate>
-      <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
-      <unittype>ypUrumi</unittype>
-      <rate>0.25</rate>
-      <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
-      <unittype>ypUrumiMansabdar</unittype>
-      <rate>0.25</rate>
-      <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
-      <unittype>deNatYorubaRider</unittype>
-      <rate>-0.75</rate>
-    </unitregen>
-    <unitregen>
-      <unittype>deNatMercYorubaRider</unittype>
-      <rate>-0.75</rate>
-    </unitregen>
     <multipleblocktrain>
       <building>TownCenter</building>
       <multipleblockunit>deFedBisonBatch</multipleblockunit>
@@ -2674,29 +2318,6 @@
       <unittype>Hero</unittype>
       <rate>0.25</rate>
       <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
-      <unittype>Spahi</unittype>
-      <rate>0.25</rate>
-      <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
-      <unittype>ypUrumi</unittype>
-      <rate>0.25</rate>
-      <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
-      <unittype>ypUrumiMansabdar</unittype>
-      <rate>0.25</rate>
-      <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
-      <unittype>deNatYorubaRider</unittype>
-      <rate>-0.75</rate>
-    </unitregen>
-    <unitregen>
-      <unittype>deNatMercYorubaRider</unittype>
-      <rate>-0.75</rate>
     </unitregen>
     <multipleblocktrain>
       <building>TownCenter</building>
@@ -2893,40 +2514,9 @@
       <idletimeout>3.5</idletimeout>
     </unitregen>
     <unitregen>
-      <unittype>ypIrregular</unittype>
-      <rate>-2.0</rate>
-    </unitregen>
-    <unitregen>
-      <unittype>ypPeasant</unittype>
-      <rate>-1.0</rate>
-    </unitregen>
-    <unitregen>
-      <unittype>Spahi</unittype>
-      <rate>0.25</rate>
-      <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
-      <unittype>ypUrumi</unittype>
-      <rate>0.25</rate>
-      <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
-      <unittype>ypUrumiMansabdar</unittype>
-      <rate>0.25</rate>
-      <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
       <unittype>SPCBolivar</unittype>
       <rate>0.25</rate>
       <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
-      <unittype>deNatYorubaRider</unittype>
-      <rate>-0.75</rate>
-    </unitregen>
-    <unitregen>
-      <unittype>deNatMercYorubaRider</unittype>
-      <rate>-0.75</rate>
     </unitregen>
     <multipleblocktrain>
       <building>ypDojo</building>
@@ -3320,13 +2910,13 @@
     </startingresourcesmultiplier>
     <startingunit>ypMonkChinese</startingunit>
     <startingunit>ypMonkDisciple</startingunit>
+    <townstartingunit resourceamount="120.00">ypGoat</townstartingunit>
     <townstartingunit>ypSettlerAsian</townstartingunit>
     <townstartingunit>ypSettlerAsian</townstartingunit>
     <townstartingunit>ypSettlerAsian</townstartingunit>
     <townstartingunit>ypSettlerAsian</townstartingunit>
     <townstartingunit>ypSettlerAsian</townstartingunit>
     <townstartingunit>ypSettlerAsian</townstartingunit>
-    <townstartingunit>ypGoat</townstartingunit>
     <townstartingunit>CrateofFood</townstartingunit>
     <townstartingunit>CrateofFood</townstartingunit>
     <townstartingunit>CrateofWood</townstartingunit>
@@ -3399,40 +2989,9 @@
       <idletimeout>3.5</idletimeout>
     </unitregen>
     <unitregen>
-      <unittype>ypPeasant</unittype>
-      <rate>-1.0</rate>
-    </unitregen>
-    <unitregen>
-      <unittype>ypIrregular</unittype>
-      <rate>-2.0</rate>
-    </unitregen>
-    <unitregen>
-      <unittype>Spahi</unittype>
-      <rate>0.25</rate>
-      <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
-      <unittype>ypUrumi</unittype>
-      <rate>0.25</rate>
-      <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
-      <unittype>ypUrumiMansabdar</unittype>
-      <rate>0.25</rate>
-      <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
       <unittype>SPCBolivar</unittype>
       <rate>0.25</rate>
       <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
-      <unittype>deNatYorubaRider</unittype>
-      <rate>-0.75</rate>
-    </unitregen>
-    <unitregen>
-      <unittype>deNatMercYorubaRider</unittype>
-      <rate>-0.75</rate>
     </unitregen>
     <blocktrain>
       <building>ypBarracksChinese</building>
@@ -4715,49 +4274,9 @@
       <smallportraittexturecoords>0 0 1 1</smallportraittexturecoords>
     </matchmakingtextures>
     <unitregen>
-      <unittype>Spahi</unittype>
-      <rate>0.25</rate>
-      <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
-      <unittype>ypUrumi</unittype>
-      <rate>0.25</rate>
-      <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
-      <unittype>ypUrumiMansabdar</unittype>
-      <rate>0.25</rate>
-      <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
       <unittype>Hero</unittype>
       <rate>0.25</rate>
       <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
-      <unittype>Minuteman</unittype>
-      <rate>-2.0</rate>
-    </unitregen>
-    <unitregen>
-      <unittype>ypIrregular</unittype>
-      <rate>-2.0</rate>
-    </unitregen>
-    <unitregen>
-      <unittype>ypPeasant</unittype>
-      <rate>-1.0</rate>
-    </unitregen>
-    <unitregen>
-      <unittype>SPCBolivar</unittype>
-      <rate>0.25</rate>
-      <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
-      <unittype>deNatYorubaRider</unittype>
-      <rate>-0.75</rate>
-    </unitregen>
-    <unitregen>
-      <unittype>deNatMercYorubaRider</unittype>
-      <rate>-0.75</rate>
     </unitregen>
     <multipleblocktrain>
       <building>ypConsulate</building>
@@ -5058,21 +4577,6 @@
       <smallportraittexturecoords>0 0 1 1</smallportraittexturecoords>
     </matchmakingtextures>
     <unitregen>
-      <unittype>Spahi</unittype>
-      <rate>0.25</rate>
-      <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
-      <unittype>ypUrumi</unittype>
-      <rate>0.25</rate>
-      <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
-      <unittype>ypUrumiMansabdar</unittype>
-      <rate>0.25</rate>
-      <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
       <unittype>ypSPCKichiro</unittype>
       <rate>0.65</rate>
       <idletimeout>3.5</idletimeout>
@@ -5111,14 +4615,6 @@
       <unittype>ypSPCDaimyoTadaoki</unittype>
       <rate>0.25</rate>
       <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
-      <unittype>ypIrregular</unittype>
-      <rate>-2.0</rate>
-    </unitregen>
-    <unitregen>
-      <unittype>ypPeasant</unittype>
-      <rate>-1.0</rate>
     </unitregen>
     <multipleblocktrain>
       <building>ypDojo</building>
@@ -5340,21 +4836,6 @@
       <smallportraittexturecoords>0 0 1 1</smallportraittexturecoords>
     </matchmakingtextures>
     <unitregen>
-      <unittype>Spahi</unittype>
-      <rate>0.25</rate>
-      <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
-      <unittype>ypUrumi</unittype>
-      <rate>0.25</rate>
-      <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
-      <unittype>ypUrumiMansabdar</unittype>
-      <rate>0.25</rate>
-      <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
       <unittype>ypMonkChinese</unittype>
       <rate>0.25</rate>
       <idletimeout>3.5</idletimeout>
@@ -5378,14 +4859,6 @@
       <unittype>ypSPCJinhai</unittype>
       <rate>0.65</rate>
       <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
-      <unittype>ypPeasant</unittype>
-      <rate>-1.0</rate>
-    </unitregen>
-    <unitregen>
-      <unittype>ypIrregular</unittype>
-      <rate>-2.0</rate>
     </unitregen>
     <blocktrain>
       <building>ypBarracksChinese</building>
@@ -6435,21 +5908,6 @@
       <idletimeout>3.5</idletimeout>
     </unitregen>
     <unitregen>
-      <unittype>Spahi</unittype>
-      <rate>0.25</rate>
-      <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
-      <unittype>ypUrumi</unittype>
-      <rate>0.25</rate>
-      <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
-      <unittype>ypUrumiMansabdar</unittype>
-      <rate>0.25</rate>
-      <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
       <unittype>ypSPCPravar</unittype>
       <rate>0.65</rate>
       <idletimeout>3.5</idletimeout>
@@ -6468,18 +5926,6 @@
       <unittype>ypSPCEmperorBahadarSharZafar</unittype>
       <rate>0.65</rate>
       <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
-      <unittype>Minuteman</unittype>
-      <rate>-2.0</rate>
-    </unitregen>
-    <unitregen>
-      <unittype>ypIrregular</unittype>
-      <rate>-2.0</rate>
-    </unitregen>
-    <unitregen>
-      <unittype>ypPeasant</unittype>
-      <rate>-1.0</rate>
     </unitregen>
     <multipleblocktrain>
       <building>ypConsulate</building>
@@ -6731,33 +6177,6 @@
       <rate>0.25</rate>
       <idletimeout>3.5</idletimeout>
     </unitregen>
-    <unitregen>
-      <unittype>Minuteman</unittype>
-      <rate>-2.0</rate>
-    </unitregen>
-    <unitregen>
-      <unittype>Spahi</unittype>
-      <rate>0.25</rate>
-      <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
-      <unittype>ypUrumi</unittype>
-      <rate>0.25</rate>
-      <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
-      <unittype>ypUrumiMansabdar</unittype>
-      <rate>0.25</rate>
-      <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
-      <unittype>deNatYorubaRider</unittype>
-      <rate>-0.75</rate>
-    </unitregen>
-    <unitregen>
-      <unittype>deNatMercYorubaRider</unittype>
-      <rate>-0.75</rate>
-    </unitregen>
     <multipleblocktrain>
       <building>TradingPost</building>
       <multipleblockunit>deNatSomaliAskariProxy</multipleblockunit>
@@ -6898,14 +6317,6 @@
       <unittype>ypSPCDaimyoTadaoki</unittype>
       <rate>0.25</rate>
       <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
-      <unittype>ypIrregular</unittype>
-      <rate>-2.0</rate>
-    </unitregen>
-    <unitregen>
-      <unittype>ypPeasant</unittype>
-      <rate>-1.0</rate>
     </unitregen>
     <multipleblocktrain>
       <building>ypDojo</building>
@@ -7104,7 +6515,6 @@
     <townstartingunit>CrateofFood</townstartingunit>
     <townstartingunit>CrateofFood</townstartingunit>
     <townstartingunit>CrateofFood</townstartingunit>
-    <townstartingunit>CrateofFood</townstartingunit>
     <townstartingunit>CrateofWood</townstartingunit>
     <townstartingunit>CrateofWood</townstartingunit>
     <townstartingunit>CrateofWood</townstartingunit>
@@ -7169,33 +6579,6 @@
       <unittype>Hero</unittype>
       <rate>0.25</rate>
       <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
-      <unittype>xpWarrior</unittype>
-      <rate>-2.0</rate>
-    </unitregen>
-    <unitregen>
-      <unittype>Spahi</unittype>
-      <rate>0.25</rate>
-      <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
-      <unittype>ypUrumi</unittype>
-      <rate>0.25</rate>
-      <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
-      <unittype>ypUrumiMansabdar</unittype>
-      <rate>0.25</rate>
-      <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
-      <unittype>deNatYorubaRider</unittype>
-      <rate>-0.75</rate>
-    </unitregen>
-    <unitregen>
-      <unittype>deNatMercYorubaRider</unittype>
-      <rate>-0.75</rate>
     </unitregen>
     <multipleblocktrain>
       <building>TownCenter</building>
@@ -7355,33 +6738,6 @@
       <rate>0.25</rate>
       <idletimeout>3.5</idletimeout>
     </unitregen>
-    <unitregen>
-      <unittype>Minuteman</unittype>
-      <rate>-2.0</rate>
-    </unitregen>
-    <unitregen>
-      <unittype>Spahi</unittype>
-      <rate>0.25</rate>
-      <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
-      <unittype>ypUrumi</unittype>
-      <rate>0.25</rate>
-      <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
-      <unittype>ypUrumiMansabdar</unittype>
-      <rate>0.25</rate>
-      <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
-      <unittype>deNatYorubaRider</unittype>
-      <rate>-0.75</rate>
-    </unitregen>
-    <unitregen>
-      <unittype>deNatMercYorubaRider</unittype>
-      <rate>-0.75</rate>
-    </unitregen>
     <multipleblocktrain>
       <building>deTorp</building>
       <multipleblockunit>deCaroleanBatch</multipleblockunit>
@@ -7499,33 +6855,6 @@
       <rate>0.25</rate>
       <idletimeout>3.5</idletimeout>
     </unitregen>
-    <unitregen>
-      <unittype>Spahi</unittype>
-      <rate>0.25</rate>
-      <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
-      <unittype>ypUrumi</unittype>
-      <rate>0.25</rate>
-      <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
-      <unittype>ypUrumiMansabdar</unittype>
-      <rate>0.25</rate>
-      <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
-      <unittype>Minuteman</unittype>
-      <rate>-2.0</rate>
-    </unitregen>
-    <unitregen>
-      <unittype>deNatYorubaRider</unittype>
-      <rate>-0.75</rate>
-    </unitregen>
-    <unitregen>
-      <unittype>deNatMercYorubaRider</unittype>
-      <rate>-0.75</rate>
-    </unitregen>
     <multipleblocktrain>
       <building>TradingPost</building>
       <multipleblockunit>deNatSomaliAskariProxy</multipleblockunit>
@@ -7620,33 +6949,6 @@
       <unittype>ExplorerDog</unittype>
       <rate>0.40</rate>
       <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
-      <unittype>Spahi</unittype>
-      <rate>0.25</rate>
-      <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
-      <unittype>ypUrumi</unittype>
-      <rate>0.25</rate>
-      <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
-      <unittype>ypUrumiMansabdar</unittype>
-      <rate>0.25</rate>
-      <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
-      <unittype>Minuteman</unittype>
-      <rate>-2.0</rate>
-    </unitregen>
-    <unitregen>
-      <unittype>deNatYorubaRider</unittype>
-      <rate>-0.75</rate>
-    </unitregen>
-    <unitregen>
-      <unittype>deNatMercYorubaRider</unittype>
-      <rate>-0.75</rate>
     </unitregen>
     <multipleblocktrain>
       <building>TradingPost</building>
@@ -7746,33 +7048,6 @@
       <rate>0.25</rate>
       <idletimeout>3.5</idletimeout>
     </unitregen>
-    <unitregen>
-      <unittype>Minuteman</unittype>
-      <rate>-2.0</rate>
-    </unitregen>
-    <unitregen>
-      <unittype>Spahi</unittype>
-      <rate>0.25</rate>
-      <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
-      <unittype>ypUrumi</unittype>
-      <rate>0.25</rate>
-      <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
-      <unittype>ypUrumiMansabdar</unittype>
-      <rate>0.25</rate>
-      <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
-      <unittype>deNatYorubaRider</unittype>
-      <rate>-0.75</rate>
-    </unitregen>
-    <unitregen>
-      <unittype>deNatMercYorubaRider</unittype>
-      <rate>-0.75</rate>
-    </unitregen>
     <multipleblocktrain>
       <building>TradingPost</building>
       <multipleblockunit>deNatSomaliAskariProxy</multipleblockunit>
@@ -7844,33 +7119,6 @@
       <rate>0.25</rate>
       <idletimeout>3.5</idletimeout>
     </unitregen>
-    <unitregen>
-      <unittype>Minuteman</unittype>
-      <rate>-2.0</rate>
-    </unitregen>
-    <unitregen>
-      <unittype>Spahi</unittype>
-      <rate>0.25</rate>
-      <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
-      <unittype>ypUrumi</unittype>
-      <rate>0.25</rate>
-      <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
-      <unittype>ypUrumiMansabdar</unittype>
-      <rate>0.25</rate>
-      <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
-      <unittype>deNatYorubaRider</unittype>
-      <rate>-0.75</rate>
-    </unitregen>
-    <unitregen>
-      <unittype>deNatMercYorubaRider</unittype>
-      <rate>-0.75</rate>
-    </unitregen>
     <multipleblocktrain>
       <building>TradingPost</building>
       <multipleblockunit>deNatSomaliAskariProxy</multipleblockunit>
@@ -7940,33 +7188,6 @@
       <unittype>Hero</unittype>
       <rate>0.25</rate>
       <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
-      <unittype>Minuteman</unittype>
-      <rate>-2.0</rate>
-    </unitregen>
-    <unitregen>
-      <unittype>Spahi</unittype>
-      <rate>0.25</rate>
-      <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
-      <unittype>ypUrumi</unittype>
-      <rate>0.25</rate>
-      <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
-      <unittype>ypUrumiMansabdar</unittype>
-      <rate>0.25</rate>
-      <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
-      <unittype>deNatYorubaRider</unittype>
-      <rate>-0.75</rate>
-    </unitregen>
-    <unitregen>
-      <unittype>deNatMercYorubaRider</unittype>
-      <rate>-0.75</rate>
     </unitregen>
     <multipleblocktrain>
       <building>TradingPost</building>
@@ -8149,29 +7370,6 @@
       <rate>0.25</rate>
       <idletimeout>3.5</idletimeout>
     </unitregen>
-    <unitregen>
-      <unittype>Spahi</unittype>
-      <rate>0.25</rate>
-      <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
-      <unittype>ypUrumi</unittype>
-      <rate>0.25</rate>
-      <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
-      <unittype>ypUrumiMansabdar</unittype>
-      <rate>0.25</rate>
-      <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
-      <unittype>deNatYorubaRider</unittype>
-      <rate>-0.75</rate>
-    </unitregen>
-    <unitregen>
-      <unittype>deNatMercYorubaRider</unittype>
-      <rate>-0.75</rate>
-    </unitregen>
     <multipleblocktrain>
       <building>TradingPost</building>
       <multipleblockunit>deNatSomaliAskariProxy</multipleblockunit>
@@ -8266,29 +7464,6 @@
       <unittype>Hero</unittype>
       <rate>0.25</rate>
       <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
-      <unittype>Spahi</unittype>
-      <rate>0.25</rate>
-      <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
-      <unittype>ypUrumi</unittype>
-      <rate>0.25</rate>
-      <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
-      <unittype>ypUrumiMansabdar</unittype>
-      <rate>0.25</rate>
-      <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
-      <unittype>deNatYorubaRider</unittype>
-      <rate>-0.75</rate>
-    </unitregen>
-    <unitregen>
-      <unittype>deNatMercYorubaRider</unittype>
-      <rate>-0.75</rate>
     </unitregen>
     <multipleblocktrain>
       <building>TradingPost</building>
@@ -8444,33 +7619,6 @@
       <unittype>Hero</unittype>
       <rate>0.25</rate>
       <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
-      <unittype>deMinuteman</unittype>
-      <rate>-2.0</rate>
-    </unitregen>
-    <unitregen>
-      <unittype>Spahi</unittype>
-      <rate>0.25</rate>
-      <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
-      <unittype>ypUrumi</unittype>
-      <rate>0.25</rate>
-      <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
-      <unittype>ypUrumiMansabdar</unittype>
-      <rate>0.25</rate>
-      <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
-      <unittype>deNatYorubaRider</unittype>
-      <rate>-0.75</rate>
-    </unitregen>
-    <unitregen>
-      <unittype>deNatMercYorubaRider</unittype>
-      <rate>-0.75</rate>
     </unitregen>
     <multipleblocktrain>
       <building>TownCenter</building>
@@ -8898,45 +8046,6 @@
       <idletimeout>3.5</idletimeout>
     </unitregen>
     <unitregen>
-      <unittype>Minuteman</unittype>
-      <rate>-2.0</rate>
-    </unitregen>
-    <unitregen>
-      <unittype>Spahi</unittype>
-      <rate>0.25</rate>
-      <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
-      <unittype>ypUrumi</unittype>
-      <rate>0.25</rate>
-      <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
-      <unittype>ypUrumiMansabdar</unittype>
-      <rate>0.25</rate>
-      <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
-      <unittype>deBowmanLevy</unittype>
-      <rate>-1.0</rate>
-    </unitregen>
-    <unitregen>
-      <unittype>deGunnerLevy</unittype>
-      <rate>-1.0</rate>
-    </unitregen>
-    <unitregen>
-      <unittype>deSpearmanLevy</unittype>
-      <rate>-1.0</rate>
-    </unitregen>
-    <unitregen>
-      <unittype>deNatYorubaRider</unittype>
-      <rate>-0.75</rate>
-    </unitregen>
-    <unitregen>
-      <unittype>deNatMercYorubaRider</unittype>
-      <rate>-0.75</rate>
-    </unitregen>
-    <unitregen>
       <unittype>UnitClass</unittype>
       <absolute>0.0</absolute>
     </unitregen>
@@ -9152,45 +8261,6 @@
       <rate>0.25</rate>
       <idletimeout>3.5</idletimeout>
     </unitregen>
-    <unitregen>
-      <unittype>Spahi</unittype>
-      <rate>0.25</rate>
-      <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
-      <unittype>ypUrumi</unittype>
-      <rate>0.25</rate>
-      <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
-      <unittype>ypUrumiMansabdar</unittype>
-      <rate>0.25</rate>
-      <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
-      <unittype>Minuteman</unittype>
-      <rate>-2.0</rate>
-    </unitregen>
-    <unitregen>
-      <unittype>deBowmanLevy</unittype>
-      <rate>-1.0</rate>
-    </unitregen>
-    <unitregen>
-      <unittype>deGunnerLevy</unittype>
-      <rate>-1.0</rate>
-    </unitregen>
-    <unitregen>
-      <unittype>deSpearmanLevy</unittype>
-      <rate>-1.0</rate>
-    </unitregen>
-    <unitregen>
-      <unittype>deNatYorubaRider</unittype>
-      <rate>-0.75</rate>
-    </unitregen>
-    <unitregen>
-      <unittype>deNatMercYorubaRider</unittype>
-      <rate>-0.75</rate>
-    </unitregen>
     <multipleblocktrain>
       <building>TownCenter</building>
       <multipleblockunit>deFedBisonBatch</multipleblockunit>
@@ -9304,7 +8374,7 @@
     <homecityflagbuttonset>ottomanFlagBtn</homecityflagbuttonset>
     <homecityflagbuttonsetlarge>ottomanFlagBtnLarge</homecityflagbuttonsetlarge>
     <postgameflagtexture>ui\ingame\ingame_ui_postgame_flag_ottoman</postgameflagtexture>
-    <postgameflagiconwpf>resources/images/icons/flags/postgame_flag_barbary.png</postgameflagiconwpf>
+    <postgameflagiconwpf>resources/images/icons/flags/postgame_flag_moroccan.png</postgameflagiconwpf>
     <matchmakingtextures>
       <bannertexture>ui\eso\civ_flags_quick_launch</bannertexture>
       <bannertexturecoords>0 0 0.78125 0.125</bannertexturecoords>
@@ -9317,33 +8387,6 @@
       <unittype>Hero</unittype>
       <rate>0.25</rate>
       <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
-      <unittype>Spahi</unittype>
-      <rate>0.25</rate>
-      <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
-      <unittype>ypUrumi</unittype>
-      <rate>0.25</rate>
-      <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
-      <unittype>ypUrumiMansabdar</unittype>
-      <rate>0.25</rate>
-      <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
-      <unittype>Minuteman</unittype>
-      <rate>-2.0</rate>
-    </unitregen>
-    <unitregen>
-      <unittype>deNatYorubaRider</unittype>
-      <rate>-0.75</rate>
-    </unitregen>
-    <unitregen>
-      <unittype>deNatMercYorubaRider</unittype>
-      <rate>-0.75</rate>
     </unitregen>
     <multipleblocktrain>
       <building>TradingPost</building>
@@ -9501,19 +8544,6 @@
       <rate>0.25</rate>
       <idletimeout>3.5</idletimeout>
     </unitregen>
-    <unitregen>
-      <unittype>Minuteman</unittype>
-      <rate>-2.0</rate>
-    </unitregen>
-    <unitregen>
-      <unittype>deMinuteman</unittype>
-      <rate>-2.0</rate>
-    </unitregen>
-    <unitregen>
-      <unittype>SPCBolivar</unittype>
-      <rate>0.25</rate>
-      <idletimeout>3.5</idletimeout>
-    </unitregen>
     <multipleblocktrain>
       <building>deHacienda</building>
       <multipleblockunit>deSpawnBajaCaliforniaTerritoryBatch</multipleblockunit>
@@ -9562,6 +8592,16 @@
       </units>
       <unitcounts>
         <count>1</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>TownCenter</building>
+      <multipleblockunit>deFedBisonBatch</multipleblockunit>
+      <units>
+        <unit>Bison</unit>
+      </units>
+      <unitcounts>
+        <count>3</count>
       </unitcounts>
     </multipleblocktrain>
     <multipleblocktrain>
@@ -9704,6 +8744,36 @@
         <count>2</count>
       </unitcounts>
     </multipleblocktrain>
+    <multipleblocktrain>
+      <building>TradingPost</building>
+      <multipleblockunit>deNatSomaliAskariProxy</multipleblockunit>
+      <units>
+        <unit>deMercAskari</unit>
+      </units>
+      <unitcounts>
+        <count>1</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>TradingPost</building>
+      <multipleblockunit>deNatSudaneseAskariProxy</multipleblockunit>
+      <units>
+        <unit>deMercAskari</unit>
+      </units>
+      <unitcounts>
+        <count>1</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>TradingPost</building>
+      <multipleblockunit>deNatSudaneseSennarProxy</multipleblockunit>
+      <units>
+        <unit>deMercSudaneseRider</unit>
+      </units>
+      <unitcounts>
+        <count>1</count>
+      </unitcounts>
+    </multipleblocktrain>
   </civ>
   <civ>
     <name>SPCCanadians</name>
@@ -9775,10 +8845,6 @@
       <unittype>Hero</unittype>
       <rate>0.25</rate>
       <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
-      <unittype>Minuteman</unittype>
-      <rate>-2.0</rate>
     </unitregen>
     <multipleblocktrain>
       <building>Outpost</building>

@@ -436,7 +436,7 @@
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>2</age>
-      <displayunitcount>10</displayunitcount>
+      <displayunitcount>8</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -450,7 +450,7 @@
     </card>
     <card>
       <name>DEHCShipBolasWarriorsRepeat</name>
-      <maxcount>-1</maxcount>
+      <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>2</age>
@@ -533,7 +533,7 @@
     </card>
     <card>
       <name>DEHCShipSlingersRepeat2</name>
-      <maxcount>-1</maxcount>
+      <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>2</age>
@@ -711,13 +711,6 @@
       <age>1</age>
     </card>
     <card>
-      <name>HCSchooners</name>
-      <maxcount>1</maxcount>
-      <level>0</level>
-      <prereqtech>-1</prereqtech>
-      <age>0</age>
-    </card>
-    <card>
       <name>HCExoticHardwoods</name>
       <maxcount>1</maxcount>
       <level>25</level>
@@ -812,7 +805,7 @@
     </card>
     <card>
       <name>HCXPSpanishAllies1</name>
-      <maxcount>2</maxcount>
+      <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>1</age>
@@ -821,7 +814,7 @@
     </card>
     <card>
       <name>HCXPSpanishAllies2</name>
-      <maxcount>2</maxcount>
+      <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>3</age>
@@ -881,7 +874,7 @@
     </card>
     <card>
       <name>DEHCSpanishAllies1</name>
-      <maxcount>2</maxcount>
+      <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>2</age>
@@ -890,7 +883,7 @@
     </card>
     <card>
       <name>DEHCSpanishAllies2</name>
-      <maxcount>2</maxcount>
+      <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>3</age>
@@ -1618,7 +1611,6 @@
       <tech x="0.8" y="1.0">HCXPShipFarmTravois1</tech>
       <tech x="0.8" y="2.0">HCXPShipFarmTravois2</tech>
       <tech x="1.8" y="2.0">HCFishMarket</tech>
-      <tech x="1.8" y="3.0">HCSchooners</tech>
       <tech x="2.9" y="5.0">HCExoticHardwoods</tech>
       <tech x="5.7" y="1.0">HCFoodSilos</tech>
       <tech x="7.5" y="1.0">HCFurrier</tech>
@@ -1638,7 +1630,6 @@
       <tech>HCXPShipFarmTravois1</tech>
       <tech>HCXPShipFarmTravois2</tech>
       <tech>HCFishMarket</tech>
-      <tech>HCSchooners</tech>
       <tech>HCExoticHardwoods</tech>
       <tech>HCFoodSilos</tech>
       <tech>HCFurrier</tech>

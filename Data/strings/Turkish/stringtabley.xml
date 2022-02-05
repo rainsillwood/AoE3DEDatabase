@@ -1688,7 +1688,7 @@
     <string _locid="23515">El Bombası</string>
     <string _locid="23520">Obsidyen kılıç kuşanmış gizli Aztek savaşçısı. Süvari ve ağır piyadelere karşı iyidir.</string>
     <string _locid="23521">Aztek Jaguar Savaşçı</string>
-    <string _locid="23522">Bir atlatl ile cirit fırlatan Aztek piyadesi. Süvarilere karşı iyidir.</string>
+    <string _locid="23522">Bir Atlatl'dan cirit fırlatan Aztek piyade. Süvari ve El Gücü Hücum Piyadelerine karşı iyidir.</string>
     <string _locid="23523">Aztek Kartal Savaşçı</string>
     <string _locid="23524">Komançi menzilli süvarisi. Süvarilere karşı iyidir.</string>
     <string _locid="23525">Komançi Atlı Okçu</string>
@@ -7254,16 +7254,16 @@
     <string _locid="36647" gamecharacter="Bolivar" soundfilename="BOLI2020" portraitfilename="resources\art\units\spc\bolivar\bolivar_igc_icon.png">Hisara saldır!</string>
     <string _locid="36648" gamecharacter="Bolivar" soundfilename="BOLI2025" portraitfilename="resources\art\units\spc\bolivar\bolivar_igc_icon.png">İspanyolları defettik! Yerel köyler sana teşekkür borçlu.</string>
     <string _locid="36649" gamecharacter="Amelia" soundfilename="AMEL2070" portraitfilename="resources\art\units\spc\amelia_black\amelia_black_igc_icon.png">Bolivar'ın topunu koru!</string>
-    <string _locid="36650" gamecharacter="İspanyol Köylü" soundfilename="GENR2140" portraitfilename="resources\art\units\spc\villagers\villager_portrait.png">Teşekkürler. Biz burada top yapma konusunda uzmanlaşıyoruz. İstersen binalarımızı kullan.</string>
-    <string _locid="36651" gamecharacter="İspanyol Köylü" soundfilename="GENR2145" portraitfilename="resources\art\units\spc\villagers\villager_portrait.png">Özgürüz!</string>
-    <string _locid="36652" gamecharacter="İspanyol Köylü" soundfilename="GENR2150" portraitfilename="resources\art\units\spc\villagers\villager_portrait.png">Burada süvari eğitiyoruz. Umarım ahırlarımız sana yardımcı olabilir.</string>
-    <string _locid="36653" gamecharacter="İspanyol Köylü" soundfilename="GENR2155" portraitfilename="resources\art\units\spc\villagers\villager_portrait.png">İspanyollar gitti! Lütfen, tarlalarımızı ve kışlalarımızı kullan, bizi İspanyol egemenliğinden kurtaracak ne olursa.</string>
+    <string _locid="36650" gamecharacter="İspanyol Köylü" soundfilename="GENR2140" portraitfilename="resources\art\units\villagers\villager_portrait.png">Teşekkürler. Biz burada top yapma konusunda uzmanlaşıyoruz. İstersen binalarımızı kullan.</string>
+    <string _locid="36651" gamecharacter="İspanyol Köylü" soundfilename="GENR2145" portraitfilename="resources\art\units\villagers\villager_portrait.png">Özgürüz!</string>
+    <string _locid="36652" gamecharacter="İspanyol Köylü" soundfilename="GENR2150" portraitfilename="resources\art\units\villagers\villager_portrait.png">Burada süvari eğitiyoruz. Umarım ahırlarımız sana yardımcı olabilir.</string>
+    <string _locid="36653" gamecharacter="İspanyol Köylü" soundfilename="GENR2155" portraitfilename="resources\art\units\villagers\villager_portrait.png">İspanyollar gitti! Lütfen, tarlalarımızı ve kışlalarımızı kullan, bizi İspanyol egemenliğinden kurtaracak ne olursa.</string>
     <string _locid="36654" gamecharacter="Amelia" soundfilename="AMEL2110" portraitfilename="resources\art\units\spc\amelia_black\amelia_black_igc_icon.png">Kemiklik'i geçebilir miyiz bilmiyorum. Belki de adanın güney tarafına çıkmalıyız.</string>
     <string _locid="36655" gamecharacter="Amelia" soundfilename="AMEL2120" portraitfilename="resources\art\units\spc\amelia_black\amelia_black_igc_icon.png">Bize vaat edilen Amerikan gemileri nerede?</string>
     <string _locid="36656" gamecharacter="Amelia" soundfilename="AMEL2125" portraitfilename="resources\art\units\spc\amelia_black\amelia_black_igc_icon.png">Başardık! Kemiklik düştü! Ancak Beaumont'un öldüğünden emin olmak istiyorum.</string>
-    <string _locid="36657" gamecharacter="İspanyol Köylü" soundfilename="GENR2165" portraitfilename="resources\art\units\spc\villagers\villager_portrait.png">Sen üssünü inşa ederken biz de Çember'in kuvvetlerini uzak tutmaya çalışacağız.</string>
-    <string _locid="36658" gamecharacter="İspanyol Köylü" soundfilename="GENR2170" portraitfilename="resources\art\units\spc\villagers\villager_portrait.png">Uzun zamandır Kemikhane'nin gölgesi altında yaşıyorduk. Sana yardım edeceğiz.</string>
-    <string _locid="36659" gamecharacter="İspanyol Köylü" soundfilename="GENR2175" portraitfilename="resources\art\units\spc\villagers\villager_portrait.png">Sana elimizden geldiğince kaynak göndermeye çalışacağız.</string>
+    <string _locid="36657" gamecharacter="İspanyol Köylü" soundfilename="GENR2165" portraitfilename="resources\art\units\villagers\villager_portrait.png">Sen üssünü inşa ederken biz de Çember'in kuvvetlerini uzak tutmaya çalışacağız.</string>
+    <string _locid="36658" gamecharacter="İspanyol Köylü" soundfilename="GENR2170" portraitfilename="resources\art\units\villagers\villager_portrait.png">Uzun zamandır Kemikhane'nin gölgesi altında yaşıyorduk. Sana yardım edeceğiz.</string>
+    <string _locid="36659" gamecharacter="İspanyol Köylü" soundfilename="GENR2175" portraitfilename="resources\art\units\villagers\villager_portrait.png">Sana elimizden geldiğince kaynak göndermeye çalışacağız.</string>
     <string _locid="36660" gamecharacter="Beaumont" soundfilename="BEAU2045" portraitfilename="resources\art\units\spc\beaumont\beaumont_igc_icon.png">Yani, Havana bize düşman oldu. Pekâlâ ... Amelia Black ile birlikte öleceksin!</string>
     <string _locid="36661" gamecharacter="Asker" soundfilename="GENR2180" portraitfilename="resources\art\units\infantry_ranged\crossbow\crossbow_portrait.png">Daha fazla Amerikan gemisi ulaştı!</string>
     <string _locid="36662">Çeroki baskınlarından sağ çık</string>
@@ -7867,7 +7867,7 @@
     <string _locid="37357">TAKIM: Isıtılmış Atış gelişimi tamamlandı.</string>
     <string _locid="37358" symbol="cStringPUNotEnabled">%s şu an etkin değil.</string>
     <string _locid="37359" symbol="cStringPUNotObtainable">%s, medeniyetin tarafından elde edilebilir değil.</string>
-    <string _locid="37360">Mızraklı Süvari birimleri piyadelere artırılmış hasar verir ve uzaktan saldırıya geçebilir.</string>
+    <string _locid="37360">Mızraklı Süvari birimleri piyadelere artırılmış hasar verir ve daha uzaktan saldırıya geçebilir.</string>
     <string _locid="37361">Kavalye</string>
     <string _locid="37362">Şehir Merkezleri, Evlere ihtiyaç duymayacağın kadar nüfus sağlar.</string>
     <string _locid="37363">Sömürge Mekanı</string>
@@ -12482,7 +12482,7 @@
     <string _locid="42090" symbol="cStringObtainable">Elde Edilebilir</string>
     <string _locid="42091" symbol="cStringUnobtainable">Elde Edilemez</string>
     <string _locid="42092" symbol="cStringActive">Etkin</string>
-    <string _locid="42093" symbol="cStringTechSetStatusEffect">%1s: Durum %2s 'a ayarlandı.</string>
+    <string _locid="42093" symbol="cStringTechSetStatusEffect">%1s: Durum %2s olarak ayarlandı.</string>
     <string _locid="42094" symbol="cStringArtillery">Topçuluk</string>
     <string _locid="42095" symbol="cStringStartingUnits">Başlangıç Birimleri</string>
     <string _locid="42096">Amelia Black</string>
@@ -14535,7 +14535,7 @@
     <string _locid="44136">Asil Kulübesi</string>
     <string _locid="44137">Asil Kulübesi</string>
     <string _locid="44138">Menzilli hücum piyadesi</string>
-    <string _locid="44139">Bir Atlatl'dan cirit fırlatan asilzade. Süvari ve Çakal Akıncılara karşı iyidir.</string>
+    <string _locid="44139">Bir Atlatl'dan cirit fırlatan asilzade. Süvari ve El Gücü Hücum Piyadelerine karşı iyidir.</string>
     <string _locid="44140">Koşucu Kartal Şövalyesi</string>
     <string _locid="44141">INF Koşucu Kartal Şövalyesi</string>
     <string _locid="44142">El gücü piyadesi</string>
@@ -16515,7 +16515,7 @@
     <string _locid="46122">Comanchero</string>
     <string _locid="46123">HAN Comanchero</string>
     <string _locid="46124">Bir haydut.</string>
-    <string _locid="46125">Tüfekli tehlikeli bir haydut.</string>
+    <string _locid="46125">Tabancalı, tehlikeli bir haydut. Ağır Piyadelere karşı güçlüdür.</string>
     <string _locid="46126">Renegado</string>
     <string _locid="46127">HAN Renegado</string>
     <string _locid="46128">Bir Korsan.</string>
@@ -19524,7 +19524,7 @@
     <string _locid="49207">(+%d)</string>
     <string _locid="49208">Yiyecek toplama oranı (dakika başına)</string>
     <string _locid="49209">Odun toplama oranı (dakika başına)</string>
-    <string _locid="49210">Altın toplama oranı (dakika başına)</string>
+    <string _locid="49210">Sikke toplama oranı (dakika başına)</string>
     <string _locid="49211">Dans toplama oranı (dakika başına)</string>
     <string _locid="49212">Ticaret toplama oranı (dakika başına)</string>
     <string _locid="49213">Oyuncu davet etmek için seç.</string>
@@ -20004,7 +20004,7 @@
     <string _locid="49688">İş Birliği Muharebesi</string>
     <string _locid="49689">İş Birliği Muharebesi: Arkadaşların arasında veya çevrimiçi olarak diğer oyuncularla işbirliğine dayalı tarihi savaşlar veya sefer oyna.</string>
     <string _locid="49690">İş Birliği Senaryosu</string>
-    <string _locid="49691">Açılan kutudan bir iş birliği senaryosu seç. Senaryo, lobi oluşturulduktan sonra da değiştirilebilir.</string>
+    <string _locid="49691">Açılan kutudan bir işbirliği senaryosu seç.</string>
     <string _locid="49692">Tutulma Işıklandırması</string>
     <string _locid="49693">Tam tutulma olan şehir.</string>
     <string _locid="49694">Moctezuma\nAztek Üçlü İttifakı'nın son hükümdarı Moctezuma, görkemli kıyafetini sergilemek için son fırsatını elde eder.</string>
@@ -20102,7 +20102,7 @@
     <string _locid="49786">Azteklere karşı bir Çarpışma/Çok Oyunculu eşleşme kazan.</string>
     <string _locid="49787">Aztek satraplığı Tlaxcala, hükümdarlarından kurtulmak için İspanya ile ittifak yaptı, bu süreçte İspanyol kontrolünden nispeten bağımsızlık kazandı ve sonunda modern Meksika'nın en küçük eyaleti haline geldi.</string>
     <string _locid="49788">Colima</string>
-    <string _locid="49789">Tek bir oyunda 20 Korsan birimi eğit.</string>
+    <string _locid="49789">Tek bir oyunda 20 Korsan birimi eğit. (Tüm Avrupalı medeniyetler ve Çinliler)</string>
     <string _locid="49790">17. yüzyılda Colima'nın limanları, buraya demirleyen Manila Kalyonlarının taşıdığı değerli yükler nedeniyle korsan istilalarının hedefindeydi.</string>
     <string _locid="49791">Aguascalientes</string>
     <string _locid="49792">Ana Şehrinden 2 fabrika gönder.</string>
@@ -20134,7 +20134,7 @@
     <string _locid="49818">Ölüler Günü (Día de Muertos) 1/2</string>
     <string _locid="49819">Meksika vatandaşları Ölüler Günü'nü kafatası maskeleri takarak kutluyor.</string>
     <string _locid="49820">Ölüler Günü (Día de Muertos) 2/2</string>
-    <string _locid="49821">Meksika vatandaşları Ölüler Günü'nü havai fişeklerle ve şenlik ateşi yakarak kutluyor.</string>
+    <string _locid="49821">Meksika vatandaşları Ölüler Günü'nü havai fişek patlatarak kutluyor.</string>
     <string _locid="49822">Askerler yürüyor</string>
     <string _locid="49823">Meksika askerleri şehrin içinden geçiyor.</string>
     <string _locid="49824">Plaza del Zócalo (orijinal)</string>
@@ -20196,6 +20196,103 @@
     <string _locid="49880">Metropoliten Katedrali'nin açık mavi versiyonu.</string>
     <string _locid="49881">Metropoliten Katedrali (beyaz)</string>
     <string _locid="49882">Metropoliten Katedrali'nin beyaz versiyonu.</string>
+    <string _locid="49883">Gece vakti şehir.</string>
+    <string _locid="49884">Antlaşma Haritalarını liste olarak görüntüler.</string>
+    <string _locid="49885">Savaş Reisi Desteği</string>
+    <string _locid="49886">Pasif Yetenek: Aztek Savaş Reisi'nin pasif yeteneği yakındaki birimlerin iki kat tecrübe kazanmasını sağlar.</string>
+    <string _locid="49887">Pasif Yetenek: Lakota Savaş Reisi'nin pasif yeteneği yakındaki birimlerin +%10 hareket hızı kazanmasını sağlar.</string>
+    <string _locid="49888">Pasif Yetenek: İnka Savaş Reisi'nin pasif yeteneği yakındaki yerli birimlerin +%20 darbe puanı kazanmasını sağlar.</string>
+    <string _locid="49889">Pasif Yetenek: Haudenosaunee Savaş Reisi'nin pasif yeteneği yakındaki birimlerin +%10 darbe puanı kazanmasını sağlar.</string>
+    <string _locid="49890">Topluluk</string>
+    <string _locid="49891">Şu adrese git: https://www.facebook.com/ageofempires/</string>
+    <string _locid="49892">Şu adrese git: https://www.twitter.com/ageofempires/</string>
+    <string _locid="49893">Şu adrese git: https://www.instagram.com/ageofempiresgame/</string>
+    <string _locid="49894">Şu adrese git: https://www.youtube.com/ageofempires/</string>
+    <string _locid="49895">Şu adrese git: https://discord.com/invite/ageofempires/login</string>
+    <string _locid="49896">Destek</string>
+    <string _locid="49897">Forumlarımızdan yardım al.</string>
+    <string _locid="49898">Şu adrese git: https://forums.ageofempires.com/c/age-of-empires-iii/133</string>
+    <string _locid="49899">Forumlar</string>
+    <string _locid="49900">Son gelişmeler için forumlarımıza göz at.</string>
+    <string _locid="49901">Şu adrese git: https://support.ageofempires.com/hc/categories/360004101511-Age-of-Empires-III-Definitive-Edition</string>
+    <string _locid="49902">Bir sorun rapor et</string>
+    <string _locid="49903">Forumlarımızda bir hatayı rapor et.</string>
+    <string _locid="49904">Şu adrese git: https://support.ageofempires.com/hc/articles/360048537332-Reporting-an-Issue</string>
+    <string _locid="49905">Ay Yeni Yılı Etkinliği: 2022</string>
+    <string _locid="49906">Ay Yeni Yılı Etkinliği: 2021</string>
+    <string _locid="49907">Kaplan Yılı</string>
+    <string _locid="49908">Öküz Yılı</string>
+    <string _locid="49909">Kaplan Yılı (2022) etkinlik mücadelelerine geç.</string>
+    <string _locid="49910">Öküz Yılı (2021) etkinlik mücadelelerine geç.</string>
+    <string _locid="49911">Eski etkinliklere artık erişilebilir! Geçmiş yıllardan bir etkinlik kaçırdıysan artık o mücadelelere el atabilirsin!</string>
+    <string _locid="49912">Profil Simgesi Kilidi Açma - Bir kaplanın Xbox versiyonu.</string>
+    <string _locid="49913">Moğolistan Haritasında bir Çarpışma veya Çok Oyunculu oyun kazan</string>
+    <string _locid="49914">Profil Simgesi Kilidi Açma - Hanfu geleneksel kıyafetli bir vatandaş.</string>
+    <string _locid="49915">Çin Dünya Harikalarının tamamını inşa et.</string>
+    <string _locid="49916">Profil Simgesi Kilidi Açma - Aslan Dansı</string>
+    <string _locid="49917">Asya Hanedan kâşifleriyle toplamda 50 hazine muhafızını sersemlet.</string>
+    <string _locid="49918">Profil Simgesi Kilidi Açma - Tang kıyafetli bir Arkebüz Ustası.</string>
+    <string _locid="49919">Çinliler olarak Savaş Akademisi'nden, Kale'den ve Ana Şehir sevkiyatlarından tüm orduları yerleştir. (Toplamda 13 ordu)</string>
+    <string _locid="49920">Hile Kilidi Açma - Çinli Muhafız Aslan hilesi</string>
+    <string _locid="49921">Hintliler olarak Evcil Kaplan Axehilt ya da Evcil Beyaz Kaplan Wagner ile 2022 hasar ver.</string>
+    <string _locid="49922">Profil Simgesi Kilidi Açma - Gücün ve cesaretin karşılığı bir hediye, bir su Kaplanı heykeli.</string>
+    <string _locid="49923">Kış Mucizesi artık mod tarayıcısında kullanılabilir!</string>
+    <string _locid="49924">Mod İndir</string>
+    <string _locid="49925">Bu modu indirmek için seç.</string>
+    <string _locid="49926">Modu Güncelle/Onar</string>
+    <string _locid="49927">Bu modun güncellenmeye veya onarılmaya ihtiyacı var.</string>
+    <string _locid="49928" symbol="cStringPlayWinterWonderland">Kış Mucizesi Oyna</string>
+    <string _locid="49929">Bu modu oynamak için seç.</string>
+    <string _locid="49930">{0}/{1} askeri nüfus sınırına ulaştın ve bu Ana Şehir Kartını gönderemezsin.</string>
+    <string _locid="49931">Ekonomi Mücadeleleri</string>
+    <string _locid="49932">Ekonomi Mücadeleleri: Daha fazla ekonomi mücadelesi detayı görüntüle.</string>
+    <string _locid="49933">Toplam puanını arttırmak için bu mücadeleleri tamamla!</string>
+    <string _locid="49934">Tamamlayan:</string>
+    <string _locid="49935">2.000 yiyeceği ilk toplayan ol. (200 puan)</string>
+    <string _locid="49936">2.000 odunu ilk toplayan ol. (200 puan)</string>
+    <string _locid="49937">2.000 sikkeyi ilk toplayan ol. (200 puan)</string>
+    <string _locid="49938">1.000 yiyeceği ilk toplayan ol: 2 dakika içinde (1000 puan), 5 dakika içinde (400 puan), 10 dakika içinde (100 puan)</string>
+    <string _locid="49939">1.000 odunu ilk toplayan ol: 2 dakika içinde (1000 puan), 5 dakika içinde (400 puan), 10 dakika içinde (100 puan)</string>
+    <string _locid="49940">1.000 sikkeyi ilk toplayan ol: 2 dakika içinde (1000 puan), 5 dakika içinde (400 puan), 10 dakika içinde (100 puan)</string>
+    <string _locid="49941">75 nüfusa ilk ulaşma: 6 dakika içinde (1000 puan), 8 dakika içinde (500 puan), 10 dakika içinde (250 puan)</string>
+    <string _locid="49942">{0} yiyeceği ilk toplayan ol. ({1} puan)</string>
+    <string _locid="49943">{0} odunu ilk toplayan ol. ({1} puan)</string>
+    <string _locid="49944">{0} sikkeyi ilk toplayan ol. ({1} puan)</string>
+    <string _locid="49945">{0} yiyecek topla: {1}, {2} dakika ({3} puan)</string>
+    <string _locid="49946">{0} odun topla: {1}, {2} dakika ({3} puan)</string>
+    <string _locid="49947">{0} sikke topla: {1}, {2} dakika ({3} puan)</string>
+    <string _locid="49948">{0} nüfusa ulaş: {1}, {2} dakika ({3} puan)</string>
+    <string _locid="49949">{0} yiyeceği ilk toplayan ol: {1} dakikada ({2} puan), {3} dakikada ({4} puan), {5} dakikada ({6} puan)</string>
+    <string _locid="49950">{0} odunu ilk toplayan ol: {1} dakikada ({2} puan), {3} dakikada ({4} puan), {5} dakikada ({6} puan)</string>
+    <string _locid="49951">{0} sikkeyi ilk toplayan ol: {1} dakikada ({2} puan), {3} dakikada ({4} puan), {5} dakikada ({6} puan)</string>
+    <string _locid="49952">{0} nüfusa ilk ulaşan ol: {1} dakikada ({2} puan), {3} dakikada ({4} puan), {5} dakikada ({6} puan)</string>
+    <string _locid="49953">Lao Chen\nAklı ve kasları ile zorlukların üstesinden gelebilecek ve olayların akışını değiştirebilecek gürbüz bir denizci.</string>
+    <string _locid="49954">Kaptan Huang\nGezmiş görmüş bu kaptanın lüks cübbesi, onun hazine gemisindeki varlıklarının yanında hiçbir şey.</string>
+    <string _locid="49955">Lao Chen</string>
+    <string _locid="49956">Kaptan Huang</string>
+    <string _locid="49957">Ay Yeni Yılı Etkinliği Mücadelelerini tamamlayarak bu Shaolin Ustası özelleştirmesinin kilidini aç.</string>
+    <string _locid="49958">
+    </string>
+    <string _locid="49959">
+    </string>
+    <string _locid="49960">
+    </string>
+    <string _locid="49961">
+    </string>
+    <string _locid="49962">Bu oyuncunun Ana Şehri yok.</string>
+    <string _locid="49963">Genişleterek/normale döndürerek mini haritayı değiştirmek için seç.</string>
+    <string _locid="49964">Erkek Muhafız Aslan</string>
+    <string _locid="49965">Dişi Muhafız Aslan</string>
+    <string _locid="49966">Çin muhafız aslanlarının, kötü manevi etkilerden ve tehdit olabilecek kötü insanlardan koruduğuna inanılırdı.</string>
+    <string _locid="49967">Çin muhafız aslanları, kötü etkiler ve tehdit olabilecek insanlara karşı savaşır.</string>
+    <string _locid="49968">Aslan Dansı Geçit Töreni</string>
+    <string _locid="49969">Asya kültürlerinde şans ve başarı getiren geleneksel bir dans şekli.</string>
+    <string _locid="49970">Şans ve başarı getiren geleneksel bir dans.</string>
+    <string _locid="49971">Shaolin Ustası özelleştirmesi - Lao Chen</string>
+    <string _locid="49972">Shaolin Ustası özelleştirmesi - Kaptan Huang</string>
+    <string _locid="49973">Kutsal Nefes</string>
+    <string _locid="49974">İnci Top Güllesi</string>
+    <string _locid="49976">Ay Yeni Yılı Etkinliği</string>
     <string _locid="60001" symbol="cStringCivNameJapanese">Japonlar</string>
     <string _locid="60002" symbol="cStringCivNameChinese">Çinliler</string>
     <string _locid="60003" symbol="cStringCivNameIndians">Hintler</string>
@@ -20420,7 +20517,7 @@
     <string _locid="60222">10 kişilik nüfusu destekler.</string>
     <string _locid="60223">Mabet</string>
     <string _locid="60224">Japon Mabedi</string>
-    <string _locid="60225">20 kişilik nüfusu destekler / besi hayvanı binası</string>
+    <string _locid="60225">{unitPopCapAddition(ypVillage)} kişilik nüfusu destekler / besi hayvanı binası</string>
     <string _locid="60226">Buradaki gelişimlerle arttırılabilecek 20 nüfusu destekler. Ayrıca besi hayvanlarını daha hızlı semirir ve Keçi eğitir.</string>
     <string _locid="60227">Köy</string>
     <string _locid="60228">Köy</string>
@@ -21746,7 +21843,7 @@
     <string _locid="61547">Korsan Bayrağı Ordusu Saldırı</string>
     <string _locid="61548">Bölgesel Ordu Darbe Puanı Sevkiyatı ulaştı.</string>
     <string _locid="61549">Bölgesel Ordu Çarpışması Sevkiyatı ulaştı.</string>
-    <string _locid="61550">Bozkır Binicileri Köylülere ve binalara daha fazla hasar verir. Keshikler ağır süvarilere ve Çakal Akıncılara daha fazla hasar verir. Demir Tahripler okçulara ve avcı erlerine daha fazla hasar verir.</string>
+    <string _locid="61550">Bozkır Binicileri Köylülere ve binalara daha fazla hasar verir. Keshikler ağır süvarilere ve el gücü hücum piyadelerine daha fazla hasar verir. Demir Tahripler okçulara ve avcı erlerine daha fazla hasar verir.</string>
     <string _locid="61551">Moğol Cezası</string>
     <string _locid="61552">Bölgesel Ordu Darbe Puanı Sevkiyatı ulaştı.</string>
     <string _locid="61553">Moğol Sevkiyatı ulaştı.</string>
@@ -32290,6 +32387,8 @@
     <string _locid="73001" symbol="cStringGameModeRankedDeathmatch">Sıralı Ölüm Karşılaşması</string>
     <string _locid="73002" symbol="cStringCasualRankedTeamsError">Bir sıralı oyunda eşit sayıda iki takıma sahip olmalısın.</string>
     <string _locid="73003" symbol="cStringCasualRankedDisabled">Sıralı oyunlarda kullanılamaz.</string>
+    <string _locid="73004" symbol="cStringGameModeRankedTreatyTooltip">Sıralı Antlaşması: Sıralamaları etkileyen bir antlaşma karşılaşması.</string>
+    <string _locid="73005" symbol="cStringGameModeRankedDeathmatchTooltip">Sıralı Ölüm Karşılaşması: Sıralamaları etkileyen bir ölüm karşılaşması oyunu.</string>
     <string _locid="79800">Kale ve Korugan saldırısı artar.</string>
     <string _locid="79801">Kaleler ve Koruganlar, top saldırısı ve daha fazla darbe puanı alır.</string>
     <string _locid="79802">Dağ Kalesi ve Sınır Koruganı</string>
@@ -34169,23 +34268,23 @@
     <string _locid="84705">Fulani Göçebeleri</string>
     <string _locid="84706">Hausa Rençperleri</string>
     <string _locid="84708" referencedplayerid="1" gamecharacter="Usman" soundfilename="ZUSMA0000" portraitfilename="resources\art\units\spc\usman_dan_fodio\usman_dan_fodio_portrait.png">Hausa soyluları geleneklerimizi unuttular! Tamahkârlıkla yozlaşmış bir hayat yaşıyorlar ve onları tenkit etmeye cesaret edenleri haksız yere sürgün ediyorlar. Bunun devam etmesine izin vermeyi reddediyorum!</string>
-    <string _locid="84709" referencedplayerid="1" gamecharacter="Takipçi" soundfilename="ZGENR0180" portraitfilename="resources\art\units\africans\hausa\bodyguard\bodyguard_portrait.png">Ne olursa olsun yanındayız, dan Fodio; lakin ne yapmamızı önerirsin?</string>
+    <string _locid="84709" referencedplayerid="1" gamecharacter="Takipçi" soundfilename="ZGENR0180" portraitfilename="resources\art\units\africans\hausa\bodyguard\bodyguard_portrait_spc.png">Ne olursa olsun yanındayız, dan Fodio; lakin ne yapmamızı önerirsin?</string>
     <string _locid="84710" referencedplayerid="1" gamecharacter="Usman" soundfilename="ZUSMA0005" portraitfilename="resources\art\units\spc\usman_dan_fodio\usman_dan_fodio_portrait.png">Diyorum ki dostlarım, kırbaçlananlar ve sürgün edilenler bir araya gelerek bu toprakları onların açgözlü ellerinden alacak. Nehrin bu yakasındaki Fulani'ler, Hausa'dan nefret ettikleri için yalnız da değiliz. İsyanımızda bize yardım edeceklerdir!</string>
-    <string _locid="84711" referencedplayerid="6" gamecharacter="Fula Savaşçısı" soundfilename="ZGENR0185" portraitfilename="resources\art\units\africans\hausa\fula_warrior\fula_warrior_portrait.png">İnananların komutanı Usman dan Fodio, savaşınızda size katılacağız.</string>
-    <string _locid="84712" referencedplayerid="6" gamecharacter="Fula Savaşçısı" soundfilename="ZGENR0190" portraitfilename="resources\art\units\africans\hausa\fula_warrior\fula_warrior_portrait.png">Hausa askerleri yerleşim yerlerimizi basmaya geldi! Okçularımız şimdilik bizi koruyabilir ancak şehir devletlerinin bize daha fazla sayıda askerle saldırması çok sürmeyecektir. Onlarla yüzleşmeye hazır olmalıyız.</string>
+    <string _locid="84711" referencedplayerid="6" gamecharacter="Fula Savaşçısı" soundfilename="ZGENR0185" portraitfilename="resources\art\units\africans\hausa\fula_warrior\fula_warrior_portrait_spc.png">İnananların komutanı Usman dan Fodio, savaşınızda size katılacağız.</string>
+    <string _locid="84712" referencedplayerid="6" gamecharacter="Fula Savaşçısı" soundfilename="ZGENR0190" portraitfilename="resources\art\units\africans\hausa\fula_warrior\fula_warrior_portrait_spc.png">Hausa askerleri yerleşim yerlerimizi basmaya geldi! Okçularımız şimdilik bizi koruyabilir ancak şehir devletlerinin bize daha fazla sayıda askerle saldırması çok sürmeyecektir. Onlarla yüzleşmeye hazır olmalıyız.</string>
     <string _locid="84713" referencedplayerid="1" gamecharacter="Usman" soundfilename="ZUSMA0010" portraitfilename="resources\art\units\spc\usman_dan_fodio\usman_dan_fodio_portrait.png">Gobir, Katsina ve Kano bizimle savaşmak için birleşti. Zaferimizi ilan etmek için üç şehri de mağlup etmeliyiz. Şehir merkezlerini yok edersek birer birer teslim olurlar.</string>
     <string _locid="84714" referencedplayerid="1" gamecharacter="Usman" soundfilename="ZUSMA0015" portraitfilename="resources\art\units\spc\usman_dan_fodio\usman_dan_fodio_portrait.png">İnsanlarımızı doğru bir şekilde eğitmek için bir üniversite inşa etmeliyiz. Bunu yapmak, nüfuzumuzu da artıracaktır.</string>
     <string _locid="84715" referencedplayerid="1" gamecharacter="Usman" soundfilename="ZUSMA0020" portraitfilename="resources\art\units\spc\usman_dan_fodio\usman_dan_fodio_portrait.png">Kötü muamele gören rençperler, şehir surlarının dışında kalan arazilerde çalışıyor. Onları zincirlerinden kurtarırsak bizimle birlikte silah kuşanmaya razı olacaklardır.</string>
-    <string _locid="84716" referencedplayerid="1" gamecharacter="Takipçi" soundfilename="ZGENR0195" portraitfilename="resources\art\units\africans\hausa\bodyguard\bodyguard_portrait.png">Özgürlüğe kavuşturduğumuz rençperler, hem Usman'a hem de Fula müttefiklerimize katılmak için ayrılacaklar.</string>
-    <string _locid="84717" referencedplayerid="6" gamecharacter="Fula Savaşçısı" soundfilename="ZGENR0200" portraitfilename="resources\art\units\africans\hausa\fula_warrior\fula_warrior_portrait.png">Birkaç işçiyi daha Hausa'dan kurtardık!</string>
-    <string _locid="84718" referencedplayerid="1" gamecharacter="Takipçi" soundfilename="ZGENR0205" portraitfilename="resources\art\units\africans\hausa\bodyguard\bodyguard_portrait.png">Gelin kardeşlerim. Zalimlerimize karşı ayaklanalım!</string>
-    <string _locid="84719" referencedplayerid="6" gamecharacter="Fula Savaşçısı" soundfilename="ZGENR0210" portraitfilename="resources\art\units\africans\hausa\fula_warrior\fula_warrior_portrait.png">Bir işçi grubu daha serbest bırakıldı! </string>
-    <string _locid="84720" referencedplayerid="1" gamecharacter="Takipçi" soundfilename="ZGENR0215" portraitfilename="resources\art\units\africans\hausa\bodyguard\bodyguard_portrait.png">Tüm işçileri özgürlüğüne kavuşturduk!</string>
-    <string _locid="84721" referencedplayerid="6" gamecharacter="Fula Savaşçısı" soundfilename="ZGENR0220" portraitfilename="resources\art\units\africans\hausa\fula_warrior\fula_warrior_portrait.png">Katsina artık savaşmayacak!</string>
-    <string _locid="84722" referencedplayerid="1" gamecharacter="Takipçi" soundfilename="ZGENR0225" portraitfilename="resources\art\units\africans\hausa\bodyguard\bodyguard_portrait.png">Kano etkisiz hale getirildi!</string>
-    <string _locid="84723" referencedplayerid="1" gamecharacter="Takipçi" soundfilename="ZGENR0230" portraitfilename="resources\art\units\africans\hausa\bodyguard\bodyguard_portrait.png">Gobir alevler içinde!</string>
+    <string _locid="84716" referencedplayerid="1" gamecharacter="Takipçi" soundfilename="ZGENR0195" portraitfilename="resources\art\units\africans\hausa\bodyguard\bodyguard_portrait_spc.png">Özgürlüğe kavuşturduğumuz rençperler, hem Usman'a hem de Fula müttefiklerimize katılmak için ayrılacaklar.</string>
+    <string _locid="84717" referencedplayerid="6" gamecharacter="Fula Savaşçısı" soundfilename="ZGENR0200" portraitfilename="resources\art\units\africans\hausa\fula_warrior\fula_warrior_portrait_spc.png">Birkaç işçiyi daha Hausa'dan kurtardık!</string>
+    <string _locid="84718" referencedplayerid="1" gamecharacter="Takipçi" soundfilename="ZGENR0205" portraitfilename="resources\art\units\africans\hausa\bodyguard\bodyguard_portrait_spc.png">Gelin kardeşlerim. Zalimlerimize karşı ayaklanalım!</string>
+    <string _locid="84719" referencedplayerid="6" gamecharacter="Fula Savaşçısı" soundfilename="ZGENR0210" portraitfilename="resources\art\units\africans\hausa\fula_warrior\fula_warrior_portrait_spc.png">Bir işçi grubu daha serbest bırakıldı! </string>
+    <string _locid="84720" referencedplayerid="1" gamecharacter="Takipçi" soundfilename="ZGENR0215" portraitfilename="resources\art\units\africans\hausa\bodyguard\bodyguard_portrait_spc.png">Tüm işçileri özgürlüğüne kavuşturduk!</string>
+    <string _locid="84721" referencedplayerid="6" gamecharacter="Fula Savaşçısı" soundfilename="ZGENR0220" portraitfilename="resources\art\units\africans\hausa\fula_warrior\fula_warrior_portrait_spc.png">Katsina artık savaşmayacak!</string>
+    <string _locid="84722" referencedplayerid="1" gamecharacter="Takipçi" soundfilename="ZGENR0225" portraitfilename="resources\art\units\africans\hausa\bodyguard\bodyguard_portrait_spc.png">Kano etkisiz hale getirildi!</string>
+    <string _locid="84723" referencedplayerid="1" gamecharacter="Takipçi" soundfilename="ZGENR0230" portraitfilename="resources\art\units\africans\hausa\bodyguard\bodyguard_portrait_spc.png">Gobir alevler içinde!</string>
     <string _locid="84724" referencedplayerid="1" gamecharacter="Usman" soundfilename="ZUSMA0025" portraitfilename="resources\art\units\spc\usman_dan_fodio\usman_dan_fodio_portrait.png">Başardık! Diğer şehir devletleri zaferimizi haber alacak ve silahlarını bırakacaklar. Artık acımasız krallara ve kraliçelere boyun eğmeyeceğiz!</string>
-    <string _locid="84725" referencedplayerid="6" gamecharacter="Fula Savaşçısı" soundfilename="ZGENR0235" portraitfilename="resources\art\units\africans\hausa\fula_warrior\fula_warrior_portrait.png">Sadece el emeği ile davamızı güçlü tutacağız. Savaşmadığımız zamanlar ağaçlardan odun kesebiliriz.</string>
+    <string _locid="84725" referencedplayerid="6" gamecharacter="Fula Savaşçısı" soundfilename="ZGENR0235" portraitfilename="resources\art\units\africans\hausa\fula_warrior\fula_warrior_portrait_spc.png">Sadece el emeği ile davamızı güçlü tutacağız. Savaşmadığımız zamanlar ağaçlardan odun kesebiliriz.</string>
     <string _locid="84726">Hausa'nın Düşüşü</string>
     <string _locid="84727">Hausa krallıklarına karşı isyan et.</string>
     <string _locid="84728">Gobir, Katsina ve Kano Şehir Merkezlerini yok et.</string>
@@ -34363,21 +34462,21 @@
     <string _locid="85103">Kraliyet Muhafızları</string>
     <string _locid="85104">Meksika Şehirleri</string>
     <string _locid="85105">Güney Kraliyet Ordusu</string>
-    <string _locid="85108" referencedplayerid="1" gamecharacter="Peder" soundfilename="ZHIDA0000" portraitfilename="resources\art\units\spc\hidalgo\spc_hidalgo_portrait.png">Çocuklarım... İspanyollar bize insafsızca davrandılar ve hayatımızı yönettiler. Bir an önce harekete geçmeliyiz. Haklarımızı savunmak için İspanyolları topraklarımızdan defetmeliyiz!</string>
-    <string _locid="85109" referencedplayerid="1" gamecharacter="Peder" soundfilename="ZHIDA0005" portraitfilename="resources\art\units\spc\hidalgo\spc_hidalgo_portrait.png">Silahlarınızı kuşanın! Düşmanlarımıza ölüm getireceğiz.</string>
-    <string _locid="85110" referencedplayerid="2" gamecharacter="General" soundfilename="ZALLE0000" portraitfilename="resources\art\units\spc\allende\spc_allende_portrait.png">Senin kuvvetli adamların tam da ihtiyacımız olan şey! Adamlarını Laja Nehri'nin kuzeyindeki şehirleri serbest bırakmaya yönlendir, ben de güneydekileri serbest eyleyeyim.</string>
-    <string _locid="85111" referencedplayerid="2" gamecharacter="General" soundfilename="ZALLE0005" portraitfilename="resources\art\units\spc\allende\spc_allende_portrait.png">Bu şehrin insanları tüfek kullanmayı biliyor ama İspanyolları kovmak için piyadelerden daha fazlasına ihtiyacımız olacak.</string>
-    <string _locid="85112" referencedplayerid="1" gamecharacter="Peder" soundfilename="ZHIDA0010" portraitfilename="resources\art\units\spc\hidalgo\spc_hidalgo_portrait.png">Nehrin aşağısında atları tutan çiftlikler var ve onların ötesinde de topçu dökümhaneleri. Dağlardaki İspanyol üssüne saldırmak için bunlara ihtiyacımız olacak.</string>
-    <string _locid="85113" referencedplayerid="5" gamecharacter="Celaya Vatandaşı" soundfilename="ZGENR0380" portraitfilename="resources\art\units\villagers\villager_portrait.png">Teşekkürler! İspanyollar gittiğine göre yine özgürce çiftçilik yapabiliriz.</string>
-    <string _locid="85114" referencedplayerid="5" gamecharacter="Acámbaro Vatandaşı" soundfilename="ZGENR0385" portraitfilename="resources\art\units\villagers\villager_portrait.png">Seni takip edeceğiz!</string>
-    <string _locid="85115" referencedplayerid="5" gamecharacter="Aculco Vatandaşı" soundfilename="ZGENR0390" portraitfilename="resources\art\units\villagers\villager_portrait.png">Özgürlüğümüze kavuştuk!</string>
-    <string _locid="85116" referencedplayerid="5" gamecharacter="Salamanca Vatandaşı" soundfilename="ZGENR0395" portraitfilename="resources\art\units\villagers\villager_portrait.png">Burada İspanyollardan kurtulduk. Bu devrime katılacağız!</string>
-    <string _locid="85117" referencedplayerid="5" gamecharacter="Ixtlahuaca Vatandaşı" soundfilename="ZGENR0400" portraitfilename="resources\art\units\villagers\villager_portrait.png">Devrim ateşleri İspanyolları küle çevirecek!</string>
-    <string _locid="85118" referencedplayerid="5" gamecharacter="Toluca Vatandaşı" soundfilename="ZGENR0405" portraitfilename="resources\art\units\villagers\villager_portrait.png">İspanyolların hiç şansı yok!</string>
-    <string _locid="85119" referencedplayerid="1" gamecharacter="Peder" soundfilename="ZHIDA0015" portraitfilename="resources\art\units\spc\hidalgo\spc_hidalgo_portrait.png">İspanyollar kendimizin yetiştirmesine izin vermek yerine yiyecek mağazalarından üzüm ve zeytin almaya zorluyorlar. O dükkanlar yakında. Orada bulundurdukları yiyecekleri kendimiz için almalıyız.</string>
-    <string _locid="85120" referencedplayerid="2" gamecharacter="General" soundfilename="ZALLE0010" portraitfilename="resources\art\units\spc\allende\spc_allende_portrait.png">İyi bir fikir!</string>
-    <string _locid="85121" referencedplayerid="1" gamecharacter="Peder" soundfilename="ZHIDA0020" portraitfilename="resources\art\units\spc\hidalgo\spc_hidalgo_portrait.png">Bu bölgedeki tüm insanlar bizi destekliyor! Artık dağlardaki İspanyollarla savaşma zamanı geldi.</string>
-    <string _locid="85122" referencedplayerid="2" gamecharacter="General" soundfilename="ZALLE0015" portraitfilename="resources\art\units\spc\allende\spc_allende_portrait.png">İspanyollar mağlup edildi. Ne dersin, Meksika'ya geçelim mi?</string>
+    <string _locid="85108" referencedplayerid="1" gamecharacter="Peder" soundfilename="ZHIDA0000" portraitfilename="resources\art\units\spc\hidalgo\igc_hidalgo_portrait.png">Çocuklarım... İspanyollar bize insafsızca davrandılar ve hayatımızı yönettiler. Bir an önce harekete geçmeliyiz. Haklarımızı savunmak için İspanyolları topraklarımızdan defetmeliyiz!</string>
+    <string _locid="85109" referencedplayerid="1" gamecharacter="Peder" soundfilename="ZHIDA0005" portraitfilename="resources\art\units\spc\hidalgo\igc_hidalgo_portrait.png">Silahlarınızı kuşanın! Düşmanlarımıza ölüm getireceğiz.</string>
+    <string _locid="85110" referencedplayerid="2" gamecharacter="General" soundfilename="ZALLE0000" portraitfilename="resources\art\units\spc\allende\igc_allende_portrait.png">Senin kuvvetli adamların tam da ihtiyacımız olan şey! Adamlarını Laja Nehri'nin kuzeyindeki şehirleri serbest bırakmaya yönlendir, ben de güneydekileri serbest eyleyeyim.</string>
+    <string _locid="85111" referencedplayerid="2" gamecharacter="General" soundfilename="ZALLE0005" portraitfilename="resources\art\units\spc\allende\igc_allende_portrait.png">Bu şehrin insanları tüfek kullanmayı biliyor ama İspanyolları kovmak için piyadelerden daha fazlasına ihtiyacımız olacak.</string>
+    <string _locid="85112" referencedplayerid="1" gamecharacter="Peder" soundfilename="ZHIDA0010" portraitfilename="resources\art\units\spc\hidalgo\igc_hidalgo_portrait.png">Nehrin aşağısında atları tutan çiftlikler var ve onların ötesinde de topçu dökümhaneleri. Dağlardaki İspanyol üssüne saldırmak için bunlara ihtiyacımız olacak.</string>
+    <string _locid="85113" referencedplayerid="5" gamecharacter="Celaya Vatandaşı" soundfilename="ZGENR0380" portraitfilename="resources\art\units\villagers\villager_portrait_male.png">Teşekkürler! İspanyollar gittiğine göre yine özgürce çiftçilik yapabiliriz.</string>
+    <string _locid="85114" referencedplayerid="5" gamecharacter="Acámbaro Vatandaşı" soundfilename="ZGENR0385" portraitfilename="resources\art\units\villagers\villager_portrait_male.png">Seni takip edeceğiz!</string>
+    <string _locid="85115" referencedplayerid="5" gamecharacter="Aculco Vatandaşı" soundfilename="ZGENR0390" portraitfilename="resources\art\units\villagers\villager_portrait_male.png">Özgürlüğümüze kavuştuk!</string>
+    <string _locid="85116" referencedplayerid="5" gamecharacter="Salamanca Vatandaşı" soundfilename="ZGENR0395" portraitfilename="resources\art\units\villagers\villager_portrait_male.png">Burada İspanyollardan kurtulduk. Bu devrime katılacağız!</string>
+    <string _locid="85117" referencedplayerid="5" gamecharacter="Ixtlahuaca Vatandaşı" soundfilename="ZGENR0400" portraitfilename="resources\art\units\villagers\villager_portrait_male.png">Devrim ateşleri İspanyolları küle çevirecek!</string>
+    <string _locid="85118" referencedplayerid="5" gamecharacter="Toluca Vatandaşı" soundfilename="ZGENR0405" portraitfilename="resources\art\units\villagers\villager_portrait_male.png">İspanyolların hiç şansı yok!</string>
+    <string _locid="85119" referencedplayerid="1" gamecharacter="Peder" soundfilename="ZHIDA0015" portraitfilename="resources\art\units\spc\hidalgo\igc_hidalgo_portrait.png">İspanyollar kendimizin yetiştirmesine izin vermek yerine yiyecek mağazalarından üzüm ve zeytin almaya zorluyorlar. O dükkanlar yakında. Orada bulundurdukları yiyecekleri kendimiz için almalıyız.</string>
+    <string _locid="85120" referencedplayerid="2" gamecharacter="General" soundfilename="ZALLE0010" portraitfilename="resources\art\units\spc\allende\igc_allende_portrait.png">İyi bir fikir!</string>
+    <string _locid="85121" referencedplayerid="1" gamecharacter="Peder" soundfilename="ZHIDA0020" portraitfilename="resources\art\units\spc\hidalgo\igc_hidalgo_portrait.png">Bu bölgedeki tüm insanlar bizi destekliyor! Artık dağlardaki İspanyollarla savaşma zamanı geldi.</string>
+    <string _locid="85122" referencedplayerid="2" gamecharacter="General" soundfilename="ZALLE0015" portraitfilename="resources\art\units\spc\allende\igc_allende_portrait.png">İspanyollar mağlup edildi. Ne dersin, Meksika'ya geçelim mi?</string>
     <string _locid="85123">Grito de Dolores</string>
     <string _locid="85124">Meksika halkını topla ve İspanyol hükümetine karşı ayaklanma çıkar.</string>
     <string _locid="85125">Binalarının kontrolünü ele geçirmek için şehri kurtar.</string>
@@ -35626,7 +35725,7 @@
     <string _locid="91867">Erişilebilirlik seçenekleri. Seçenekleri seçmek için fareyle tıkla veya ok tuşlarını kullanarak Enter'a bas</string>
     <string _locid="91868">Kısayol özelleştirme seçenekleri. Seçenekleri seçmek için fareyle tıkla veya ok tuşlarını kullanarak Enter'a bas</string>
     <string _locid="91869">1 Askeri At Arabası</string>
-    <string _locid="91870" symbol="cStringChallengeCompleteNotification">Bir ''{0}'' tamamladın</string>
+    <string _locid="91870" symbol="cStringChallengeCompleteNotification">''{0}'' tamamladın</string>
     <string _locid="91871">Ana Şehir. Ana Şehirlerini ve kart sevkiyat destelerini görüntüle veya düzenle. Seçenekleri seçmek için fare ile tıkla veya ok tuşlarını kullanarak enter'a bas</string>
     <string _locid="91872" symbol="cStringChatFromEveryone" comment="Presented in chat as prefix for chat message">[Herkes]:</string>
     <string _locid="91873" symbol="cStringChatFromAllies" comment="Presented in chat as prefix for chat message">[Müttefikler]:</string>
@@ -35714,7 +35813,7 @@
     <string _locid="101078" symbol="cStringInfluenceGatherers">Nüfuz Toplandı (Ticaret Yolları, Yerli Yerleşimler ve Güdülebilenler tarafından oluşturulur)</string>
     <string _locid="101079">Nüfuz Jetonları</string>
     <string _locid="101080">Nüfuz Kasası</string>
-    <string _locid="101081">100 Nüfuz sağlar</string>
+    <string _locid="101081">100 Nüfuzluk jeton</string>
     <string _locid="101082">Nüfuz kaynağı</string>
     <string _locid="101083">Bu Ticaret Merkezi, Nüfuz üretiyor.</string>
     <string _locid="101084">Bu Ticaret Merkezi'nden Nüfuz üretimi talep et.</string>
@@ -36072,10 +36171,10 @@
     <string _locid="101436">Sanga Yetiştiriciliği</string>
     <string _locid="101437">Artık Besi Hayvanı Marketlerinden Sanga Sığırları eğitebilirsin.</string>
     <string _locid="101438">Nüfuz kaynağı.</string>
-    <string _locid="101439">400 Nüfuz</string>
-    <string _locid="101440">800 Nüfuz</string>
-    <string _locid="101441">1.000 Nüfuz</string>
-    <string _locid="101442">500 Nüfuz</string>
+    <string _locid="101439">400 Nüfuzluk jeton</string>
+    <string _locid="101440">800 Nüfuzluk jeton</string>
+    <string _locid="101441">1000 Nüfuzluk jeton</string>
+    <string _locid="101442">500 Nüfuzluk jeton</string>
     <string _locid="101443">6 İmam</string>
     <string _locid="101444">6 Yarı Semirmiş Sığır</string>
     <string _locid="101445">Sadakat Havası</string>
@@ -36151,7 +36250,7 @@
     <string _locid="101515">Ağaç - Yelpaze Palmiyesi</string>
     <string _locid="101516">Bir Sürü Nüfuz Jetonu</string>
     <string _locid="101517">Nüfuz Kasası Büyük</string>
-    <string _locid="101518">500 Nüfuz sağlar</string>
+    <string _locid="101518">500 Nüfuzluk jeton</string>
     <string _locid="101519">Ağaç - Doum Palmiyesi</string>
     <string _locid="101520">Doum Palmiyesi, çok az şeyin yetiştiği sıcak ve kurak bölgelerde büyür. Odun için hasat et.</string>
     <string _locid="101521">Ağaç - Akasya</string>
@@ -37248,9 +37347,9 @@
     <string _locid="102796">GRD Gezgin Nilot</string>
     <string _locid="102797">Mezar Soyguncusu</string>
     <string _locid="102798">GRD Mezar Soyguncusu</string>
-    <string _locid="102800">700 Nüfuz sağlar</string>
-    <string _locid="102801">1000 Nüfuz sağlar</string>
-    <string _locid="102802">1600 Nüfuz sağlar</string>
+    <string _locid="102800">700 Nüfuzluk jeton</string>
+    <string _locid="102801">1000 Nüfuzluk jeton</string>
+    <string _locid="102802">1600 Nüfuzluk jeton</string>
     <string _locid="102803">Katsina Emiri</string>
     <string _locid="102804">Rumfa'nın Binicileri</string>
     <string _locid="102805">Kral Katili</string>
@@ -37294,7 +37393,7 @@
     <string _locid="102843">Habbanaya</string>
     <string _locid="102844">Birkaç Lifidi Şövalyesi verir ve bunların Ticaret Çağında eğitilmesini sağlar.</string>
     <string _locid="102845">Emirler, Kahramanlara karşı önemli ölçüde daha fazla hasar verir ve yakındaki düşman askeri birimlerinden ek saldırı ve isabet darbe puanları kazanır.</string>
-    <string _locid="102846">600 Nüfuz sağlar</string>
+    <string _locid="102846">600 Nüfuzluk jeton</string>
     <string _locid="102847">Fulani Okçusu menzilini ve kuşatma menzilini artırır.</string>
     <string _locid="102848">Köylü darbe puanlarını ve yakın dövüş saldırı hızlarını iyileştirir. Köylüler savaşta göğüs göğüse çarpışmayı (yakın dövüş saldırısı) tercih etme eğiliminde olacak ve sadece özellikle uzak mesafedeki hedeflere ateş edecektir.</string>
     <string _locid="102849">Lifidi Şövalyeleri ve Baskıncılar daha hızlı at sürer ve bundan böyle saldırıları sıçrama hasarı verir, özellikle ezme modunda.</string>
@@ -37312,7 +37411,7 @@
     <string _locid="102861">Surlar ve Kapılar yok edildiğinde maliyetleri geri ödenir. Kapılar ve sur teknolojileri daha ucuzdur.</string>
     <string _locid="102862">Toplama Birliklerin Gözcü Kulelerinin içerisine konuşlanmasını sağlar. Gözcü Kulesine konuşlanmış birlikler, hasarını %10 artırır.</string>
     <string _locid="102863">Yerli Savaşçı, Haydut ve Paralı Asker çarpışması geliştirilir.</string>
-    <string _locid="102864">Yerli Savaşçılar, Paralı Askerler ve Haydutlar, sevkiyatları da dahil olmak üzere daha ucuzdur.</string>
+    <string _locid="102864">Yerli Savaşçılar, Paralı Askerler ve Haydutlar, sevkiyatları da dâhil olmak üzere %15 daha ucuzdur.</string>
     <string _locid="102865">Büyük Benny</string>
     <string _locid="102866">Tüm madenler daha uzun süre dayanır ve yerleri 3 dakika boyunca geçici olarak görünür olur.</string>
     <string _locid="102867">Geçmişteki ve gelecekteki tüm gönderilerin için ücretsiz bir Fulani Okçusu alırsın.</string>
@@ -37331,7 +37430,7 @@
     <string _locid="102879">Ödül Boğası</string>
     <string _locid="102880">Güdülebilen hayvanların semirebileceği maksimum yiyecek toplamını artırır.</string>
     <string _locid="102881">Özellikle semirmiş, 900 Yiyecek içeren Sığırlar.</string>
-    <string _locid="102882">300 Nüfuz</string>
+    <string _locid="102882">300 Nüfuzluk jeton</string>
     <string _locid="102883">TÜM Sanga ve diğer Sığırlarını Nüfuz karşılığında satar ve bunları semirmemiş bir buzağı ile değiştirir.\n • Sığır Değeri: %50</string>
     <string _locid="102884">Zinder Kanuris</string>
     <string _locid="102885">Birkaç paralı Kanuri Muhafızı (Ejderler) gönderir. Bunların kısmen Sikke ve Nüfuza mal olduğu Saraylardan eğitilmesini sağlar.</string>
@@ -38003,7 +38102,7 @@
     <string _locid="104565">8 Huaraca</string>
     <string _locid="104566">6 Huaraca</string>
     <string _locid="104567">10 Bola Savaşçısı</string>
-    <string _locid="104568">Şu ana kadar kaybettiğin her 2 tanesi için 1 Hayalet Jaguar Şövalye gönderir (en fazla 16).</string>
+    <string _locid="104568">Şu ana kadar kaybettiğin her 2 Hayalet Jaguar Şövalye için 1 kişi gönderir (en fazla 16 birim gönderir).</string>
     <string _locid="104569">Tören Gladyatörleri</string>
     <string _locid="104570">Şu ana kadar kaybettiğin her 2 tanesi için 1 Kuru Kafa Şövalyesi gönderir (en fazla 13).</string>
     <string _locid="104571">Kuru Kafa Duvarı</string>
@@ -38063,7 +38162,7 @@
     <string _locid="104624">
     </string>
     <string _locid="104625">2 Hisar At Arabası</string>
-    <string _locid="104626">Hızlı ulaşır! Köylüler, Haciendalardan 60 saniyeliğine %300 daha hızlı kaynak toplar.</string>
+    <string _locid="104626">Hızlı ulaşır! Köylüler, Haciendalardan 60 saniyeliğine %250 daha hızlı kaynak toplar.</string>
     <string _locid="104627">Haciendaların Yerleşimcileri daha erken üretmesini sağlar ve çıkarılma hızlarını artırır.</string>
     <string _locid="104628">Yeni ve mevcut Haciendaların her biri 3 Yerleşimci çıkarır.</string>
     <string _locid="104629">Devrimler ve Meksika'ya Dönüşler daha ucuzdur.</string>
@@ -38074,6 +38173,36 @@
     <string _locid="104634">Tüm Insurgentelerin Devrimcilere dönüşüyor.</string>
     <string _locid="104635">Süvari darbe puanı artar. Ejderler Ticaret Çağı'nda vazifelendirilebilir.</string>
     <string _locid="104636">1 Korsan Gemisi</string>
+    <string _locid="104637">Konsolosluk Çekçeği</string>
+    <string _locid="104638">1 Konsolosluk Çekçeği gönderir ve sabit bir İhracat akışı sağlar.</string>
+    <string _locid="104639">Çay İhracatı</string>
+    <string _locid="104640">Ateş Ejderhası Manuel</string>
+    <string _locid="104641">2 Uçan Karga gönderir. Atış hızlarını az miktarda artırır.</string>
+    <string _locid="104642">1 Uçan Karga ve 2 Onurlu Alev Atar gönderir. Atış hızlarını az miktarda artırır.</string>
+    <string _locid="104643">Ejderha Yılı</string>
+    <string _locid="104644">Ana şehir çıkarma noktana her bir Şehir Merkezi 1 Alev Atar ve her bir Köy 1 Komodo Ejderi toplar.</string>
+    <string _locid="104645">Sahip olduğun her bir Şehir Merkezi için 1 Alev Atar, her bir Köy için 1 Evcil Komodo Ejderi gönderir.</string>
+    <string _locid="104646">Koxinga</string>
+    <string _locid="104647">15 Demir Birlik gönderir. Okçu atış hızı artar.</string>
+    <string _locid="104648">Birkaç Demir Birlik gönderir ve atış hızlarını önemli ölçüde artırır.</string>
+    <string _locid="104649">1 Uçan Karga</string>
+    <string _locid="104650">Himalaya Keçileri</string>
+    <string _locid="104651">Yüksek Dağ Keçileri</string>
+    <string _locid="104652">Köyler, Besi Hayvanlarını daha hızlı semirir.</string>
+    <string _locid="104653">Her bir Köy bir seferliğine 1 Keçi toplar. Köyler, Besi Hayvanlarını daha hızlı semirir.</string>
+    <string _locid="104654">Horoz Yılı</string>
+    <string _locid="104655">Her bir Köy bir seferliğine 2 Hindi toplar. Köylüler hayvanlardan yiyeceği daha hızlı toplar.</string>
+    <string _locid="104656">Kaplan Yılı</string>
+    <string _locid="104657">Kaybettiğin her 2 Mürit için ana şehir çıkarma noktana bir Evcil Beyaz Kaplan toplanır (en fazla 12 birim).</string>
+    <string _locid="104658">Bu oyunda şu ana kadar edindiğin her 2 Mürit için ana şehir çıkarma noktana bir Evcil Beyaz Kaplan toplanır (en fazla 12 birim).</string>
+    <string _locid="104659">Bu oyunda şu ana kadar edindiğin her 3 Mürit için ana şehir çıkarma noktana bir Evcil Beyaz Kaplan toplanır (en fazla 12 birim).</string>
+    <string _locid="104660">Sevkiyat: 2 Köy Çekçeği\n \nGüç: Üstünlük - Tüm birimler iyileşir. Keşişler artık birimleri iyileştirebilir.</string>
+    <string _locid="104661">Sevkiyat: 1 Şehir Merkezi Çekçeği\n \nGüç: Üstünlük - Tüm birimler iyileşir. Keşişler artık birimleri iyileştirebilir.</string>
+    <string _locid="104662">Sevkiyat: 3 Pirinç Tarlası Çekçeği\n \nGüç: Üstünlük - Tüm birimler iyileşir. Keşişler artık birimleri iyileştirebilir.</string>
+    <string _locid="104663">Sevkiyat: 4 Askeri Çekçek ve 600 İhracat\n \nGüç: Üstünlük - Tüm birimler iyileşir. Keşişler artık birimleri iyileştirebilir.</string>
+    <string _locid="104664">Sevkiyat: 1200 İhracat\n \nGüç: Üstünlük - Tüm birimler iyileşir. Keşişler artık birimleri iyileştirebilir.</string>
+    <string _locid="104665">Birkaç Demir Birlik gönderir ve kaynaklara mal olan kartları daha ucuz hâle getirir.</string>
+    <string _locid="104666">Kaynaklara mal olan kartlar daha ucuzdur ve bonus Demir Birlikler getirir.</string>
     <string _locid="104800">TAKIM 1 Kamp İnşaat Ustası</string>
     <string _locid="104801">TAKIM Ticaret İmparatorluğu</string>
     <string _locid="104802">Bir Ticaret Merkezi İnşaat Ustası aldın ve artık Ticaret Merkezleri daha ucuz ve daha dayanıklı.</string>
@@ -38471,7 +38600,7 @@
     <string _locid="110175">Kılıç Darbesi</string>
     <string _locid="110176">Yüklü Yetenek: Alan hasarı veren ağır bir darbe.</string>
     <string _locid="110177">İlham Veren Bayrak</string>
-    <string _locid="110178">Moral yükseltmek için Birleşik Devletler bayrağı diker! Yakındaki askeri birimler ve binalar daha fazla hasar verir ve daha hızlı oluşturulur. Bayraklar, yeni başlayan Şehir Merkezlerinin yakınına dikilemez ve bir seferde yalnızca bir bayrak dikilebilir.</string>
+    <string _locid="110178">Moral yükseltmek için Birleşik Devletler bayrağı diker! Yakındaki askeri birimler (topçular hariç) ve binalar daha fazla hasar verir ve daha hızlı oluşturulur. Bayraklar, yeni başlayan Şehir Merkezlerinin yakınına dikilemez ve bir seferde yalnızca bir bayrak dikilebilir.</string>
     <string _locid="110179">İlham Veren Bayrak</string>
     <string _locid="110180">Bayrak Dik</string>
     <string _locid="110181">Yakındaki Birleşik Devletler birimlerinin moralini yükseltir ve savunulması gerekir! Düşmanlar tarafından ele geçirilirse haritadan kaldırılır.</string>
@@ -38867,7 +38996,7 @@
     <string _locid="110569">Tiyatrolar +2 Uhlan</string>
     <string _locid="110570">Rastgele 7 Vahşi Batı haydudu gönderir.</string>
     <string _locid="110571">Reno Çetesi</string>
-    <string _locid="110572">3 Wokou Yelkenlisi gönderir.</string>
+    <string _locid="110572">2 Wokou Yelkenlisi gönderir.</string>
     <string _locid="110573">Manila İnsanı vazifelendir</string>
     <string _locid="110574">3 Wokou Yelkenlisi gönderir.</string>
     <string _locid="110575">Manila İnsanlı Filosu Vazifelendir</string>
@@ -39343,7 +39472,7 @@
     <string _locid="112003">General</string>
     <string _locid="112004">Peder Miguel</string>
     <string _locid="112005">Kendi ölümüyle sonuçlanacak bile olsa halkının özgürlüğü ve refahı için savaşacak Meksikalı Peder.</string>
-    <string _locid="112006">Moral yükseltmek için Meksika bayrağı diker! Yakındaki askeri birimler ve binalar daha fazla hasar verir ve daha hızlı oluşturulur. Bayraklar, yeni başlayan Şehir Merkezlerinin yakınına dikilemez ve bir seferde yalnızca bir bayrak dikilebilir.</string>
+    <string _locid="112006">Moral yükseltmek için Meksika bayrağı diker! Yakındaki askeri birimler (topçular hariç) ve binalar daha fazla hasar verir ve daha hızlı oluşturulur. Bayraklar, yeni başlayan Şehir Merkezlerinin yakınına dikilemez ve bir seferde yalnızca bir bayrak dikilebilir.</string>
     <string _locid="112007">Yakındaki Meksikalı birimlerinin moralini yükseltir ve savunulması gerekir! Düşmanlar tarafından ele geçirilirse haritadan kaldırılır.</string>
     <string _locid="112008">Yakındaki Meksika birimlerini ve binalarını güçlendirmek için bir General tarafından taktiksel olarak yerleştirilir. Yakınlarda müttefik birim veya bina yoksa düşmanlar tarafından ele geçirilebilir ve haritadan kaldırılabilir.\n • Tüm Birimlere +%10 Saldırı Hasarı sağlar.\n • Tüm Binalara +%10 Saldırı Hasarı sağlar.\n • Askeri Binalara +%25 Çalışma Hızı sağlar.\n • Tüm Binalara +%50 İnşaat hızı sağlar.</string>
     <string _locid="112009">Bandido</string>
@@ -39404,7 +39533,7 @@
     <string _locid="112061">Cuatrerolar</string>
     <string _locid="112062">Katedral</string>
     <string _locid="112063">Eşsiz Kilise</string>
-    <string _locid="112064">Düşmüş bir Peder'i canlandırabilen ve güçlü özgün yükseltmelere sahip Meksika Kilise binası.</string>
+    <string _locid="112064">Ölen bir Pederi canlandırabilen, yakınındaki binaları koruyan ve güçlü özgün yükseltmelere sahip Meksika Kilise binası.</string>
     <string _locid="112065">Hacienda</string>
     <string _locid="112066">Ekonomi binası</string>
     <string _locid="112067">Mülk, Değirmen ve Hayvan Ağılı'nı birleştiren ekonomi binası.</string>
@@ -39488,7 +39617,7 @@
     <string _locid="112145">SPC Isaac Brock</string>
     <string _locid="112146">Britanyalı General</string>
     <string _locid="112147">Kanada'daki Britanya kuvvetlerinden sorumlu gururlu general.</string>
-    <string _locid="112148">Moral yükseltmek için Kanada bayrağı diker! Yakındaki askeri birimler ve binalar daha fazla hasar verir ve daha hızlı oluşturulur. Bayraklar, yeni başlayan Şehir Merkezlerinin yakınına dikilemez ve bir seferde yalnızca bir bayrak dikilebilir.</string>
+    <string _locid="112148">Moral yükseltmek için Kanada bayrağı diker! Yakındaki askeri birimler (topçular hariç) ve binalar daha fazla hasar verir ve daha hızlı oluşturulur. Bayraklar, yeni başlayan Şehir Merkezlerinin yakınına dikilemez ve bir seferde yalnızca bir bayrak dikilebilir.</string>
     <string _locid="112149">Yakındaki Kanadalı birimlerinin moralini yükseltir ve savunulması gerekir! Düşmanlar tarafından ele geçirilirse haritadan kaldırılır.</string>
     <string _locid="112150">Gerilla Taktikleri</string>
     <string _locid="112151">Çarpışma halinde değilken Salteadorlar kısa bir süre için hız cezası olmadan otomatik olarak gizli olurlar.</string>
@@ -39569,7 +39698,7 @@
     <string _locid="112226">Konuşlanan Birim</string>
     <string _locid="112227">Toplam 1.500 TP bulunduran 3 büyük kitap koleksiyonu gönderir.</string>
     <string _locid="112228">Kutsal Ayin</string>
-    <string _locid="112229">12 Insurgente</string>
+    <string _locid="112229">11 Insurgente</string>
     <string _locid="112230">33 Insurgente</string>
     <string _locid="112231">6 Soldado</string>
     <string _locid="112232">5 Soldado</string>
@@ -39581,7 +39710,7 @@
     <string _locid="112238">4 Chinaco</string>
     <string _locid="112239">8 Ejder ve 1 Culverin gönderir</string>
     <string _locid="112240">Özgürlük Ejderi Alayı</string>
-    <string _locid="112241">9 Soldado ve 2 Şahin Topu gönderir.</string>
+    <string _locid="112241">9 Soldado ve 1 Şahin Topu gönderir.</string>
     <string _locid="112242">Los Colorados Taburu</string>
     <string _locid="112243">8 Chinaco ve 1 Havan Topu gönderir.</string>
     <string _locid="112244">San Blas Taburu</string>
@@ -39637,7 +39766,7 @@
     <string _locid="112294">Porfiriato</string>
     <string _locid="112295">Köylülere normalden daha fazla hasar veren 14 Apaçi Binicisi gönderir.</string>
     <string _locid="112296">Kaçak Apaçi</string>
-    <string _locid="112297">Köylülere normalden daha fazla hasar veren 9 Komançi Atlı Okçusu gönderir.</string>
+    <string _locid="112297">Köylülere normalden daha fazla hasar veren 11 Komançi Atlı Okçusu gönderir.</string>
     <string _locid="112298">Kaçak Komançi</string>
     <string _locid="112299" symbol="cStringBountyOverrideFormat">Öldürme Ödülü: </string>
     <string _locid="112300">1 Askeri At Arabası</string>
@@ -39695,15 +39824,15 @@
     <string _locid="112352">VIL Rıhtım At Arabası</string>
     <string _locid="112353">1 Yerli Elçiliği Travoisi gönderir. Yerli Elçiliğinde ve Şehir Merkezinde bazı Cizvit ve Mezoamerikan özelliklerini etkinleştirir.</string>
     <string _locid="112354">Tlaxcala İttifakı</string>
-    <string _locid="112355">İnşa ettiğin her Hacienda için 3 Yerleşimci gönderir.</string>
+    <string _locid="112355">2 Yerleşimci gönderir. Yeni ve mevcut Haciendaların her biri 2 Yerleşimci çıkarır.</string>
     <string _locid="112356">Tlaxcala Tekstili</string>
     <string _locid="112357">İnşa ettiğin her Hacienda için 4 Maya Holcan Ciritcisi gönderir.</string>
     <string _locid="112358">Tzotzil Ayaklanması</string>
     <string _locid="112359">Mevcut ve yeni inşa edilmiş tüm Haciendalar, 350 Yiyecek içeren Maya Mahsulleri çıkarır.</string>
     <string _locid="112360">Maya Mahsulleri</string>
-    <string _locid="112361">Hızlı ulaşır! Bir sonraki Federal Eyaletin iki kez ödül verir ve Askeri bir binada araştırılan sonraki yükseltme ücretsiz olur.</string>
+    <string _locid="112361">Hızlı ulaşır! Bir sonraki Federal Eyaletin iki kez ödül verir. Bir sonraki Kışla yükseltmesi ücretsiz olur.</string>
     <string _locid="112362">Arteaga Reformları</string>
-    <string _locid="112363">1 Hacienda At Arabası gönderir ve Haciendaların 20 nüfusu desteklemesini sağlar.</string>
+    <string _locid="112363">1 Hacienda At Arabası gönderir ve Haciendaların 15 nüfusu desteklemesini sağlar.</string>
     <string _locid="112364">Querétaro Haciendaları</string>
     <string _locid="112365">Salteadorları Kıdemli statüsüne yükseltir. Bu oyunda şu ana kadar gönderdiğin her sevkiyat için ilave bir Salteador gönderir.</string>
     <string _locid="112366">Tabascan Ayrılıkçıları</string>
@@ -39747,9 +39876,9 @@
     <string _locid="112404">Şehir gelişimleri ve özgün gelişimler için bir Katedral'e dönüşür.</string>
     <string _locid="112405">Şehrine ilave 1 General gönderir.</string>
     <string _locid="112406">Bağımsızlık Kahramanı</string>
-    <string _locid="112407">Yerli Elçilikleri bir Savaş Kulübesi gibi menzilli saldırı kazanır. Yerli Jaguar Savaşçılar ve Kartal Savaşçılar eğitmesini sağlar.</string>
+    <string _locid="112407">Yerli Elçilikleri bir Savaş Kulübesi gibi menzilli saldırı kazanır. Şampiyon Yerli Jaguar Savaşçılar ve Kartal Savaşçılar eğitmesini sağlar.</string>
     <string _locid="112408">Aztek Puebloları</string>
-    <string _locid="112409">Bu oyunda şimdiye kadar gönderdiğin her sevkiyat için fazladan 2 Yarı Semirmiş İnek gönderir.</string>
+    <string _locid="112409">Bu oyunda şimdiye kadar gönderdiğin her sevkiyat için fazladan 1 Yarı Semirmiş İnek gönderir.</string>
     <string _locid="112410">Guadalajara Yetiştiriciliği</string>
     <string _locid="112411">Köylüler, Haciendalardan daha hızlı Sikke toplar.</string>
     <string _locid="112412">Tonalá Seramiği</string>
@@ -39788,7 +39917,7 @@
     <string _locid="112448">Kahraman Meksika Rahibi. Keşfeder, savaşır, Katedraller ve Ticaret Merkezleri inşa eder. Ölmez. Bayılırsa kurtarılabilir.</string>
     <string _locid="112449">İlham Veren Bayraklar çok daha geniş bir etki alanı kazanır ve hasarını çok daha fazla artırır.</string>
     <string _locid="112450">Juarez'in Toprağı</string>
-    <string _locid="112451">Zapotec ile müttefik olur ve Zapotec teknolojilerinin Yerli Elçiliği'nde araştırılmasına olanak verir.</string>
+    <string _locid="112451">Zapotec teknolojilerinin Yerli Elçiliği'nde araştırılmasını sağlar.</string>
     <string _locid="112452">Zapotec Vadisi</string>
     <string _locid="112453">Çikolata ihracatı sana Ana Şehrinden Sikke Kasaları sağlar. Oyun süresince her 2 dakikada 1 Kasa alırsın (en fazla 30 dakikaya kadar).</string>
     <string _locid="112454">Tlaxcaltec Çikolata Tarifleri</string>
@@ -39966,7 +40095,7 @@
     <string _locid="112626">Müttefikime bu kadar yakın yaşamak akıllıca değil. Her zaman kıymetli dostlarımı savunurum!</string>
     <string _locid="112627">Senin tekelin, bizim boykotumuz.</string>
     <string _locid="112628">Savaş alanında seninle yüzleşmek ne acı. Farklılıklarımızı çözmek için meydanda halka açık bir münazara tercih ederdim.</string>
-    <string _locid="112629">Görünüş aldatıcıdır. Geçen sefer her şey yolunda gitti ama henüz avokadonun sert çekirdeğine ulaşmadın!</string>
+    <string _locid="112629">Görünüş aldatıcıdır. Geçen sefer her şey yolunda gitti ama avokadonun ortasındaki sertliğe henüz ulaşmadın!</string>
     <string _locid="112630">Habanero senin için çok mu acıydı? O zaman biraz jalapeño al! Merak etme, hayatta kalırsın. Muhtemelen.</string>
     <string _locid="112631">Bükülmüş olarak doğan bir ağaç dallarını asla düzeltmez. Tıpkı haritayı hiç değiştirmediğin gibi!</string>
     <string _locid="112632">İttifakınız beni korkutmuyor çünkü kader bizzat benden yana.</string>
@@ -40034,7 +40163,7 @@
     <string _locid="112701">Salteadorlar için İmparatorluk yükseltmesi.</string>
     <string _locid="112702">İmparatorluk Kanunsuzları</string>
     <string _locid="112703">İmparatorluk Kanunsuzu</string>
-    <string _locid="112704">Tüm piyade ve süvariler daha hızlı eğitilir.</string>
+    <string _locid="112704">Tüm piyade ve süvariler daha hızlı eğitilir ve hareket eder.</string>
     <string _locid="112705">Birkaç tane güçlü Garrochista gönderir ve bunların Hisarlarda eğitilmesini sağlar.</string>
     <string _locid="112706">Peder, yakınındaki TÜM birimleri hızla iyileştiren "Dolores'in Çığlığı" yeteneğini kazanır.</string>
     <string _locid="112707">Dolores'in Çığlığı</string>
@@ -40095,7 +40224,7 @@
     <string _locid="112762">Tennessee Gönüllüleri</string>
     <string _locid="112763">Her TAKIM oyuncusuna 12 Eyalet Milisi gönderir.</string>
     <string _locid="112764">TAKIM Kentucky Milisi</string>
-    <string _locid="112765">Köşkler yakındaki müttefik birlikleri iyileştirir ve düşman piyadelerini %10 yavaşlatır.</string>
+    <string _locid="112765">Evler yakındaki müttefik birlikleri iyileştirir ve düşman piyadelerini %10 yavaşlatır.</string>
     <string _locid="112766">Ulusal Barındırma</string>
     <string _locid="112767">İyileştirme Havası</string>
     <string _locid="112768">İspanyol Silahşor</string>
@@ -40113,11 +40242,11 @@
     <string _locid="112802">Orta Amerikalılar</string>
     <string _locid="112803">Guatemala Şehri</string>
     <string _locid="112804">Aşağı Kaliforniya</string>
-    <string _locid="112805">Yerleşimciler, Lobicilere dönüşür\n\n2 Ordugâh At Arabası\n\nOdak: Haydutlar, Harita Kontrolü, Kaynak akışı</string>
+    <string _locid="112805">Yerleşimciler, Lobicilere dönüşür\n\n3 Ordugâh At Arabası\n\nOdak: Haydutlar, Harita Kontrolü, Kaynak akışı</string>
     <string _locid="112806">Lobiciler</string>
     <string _locid="112807">La Paz</string>
     <string _locid="112808">Yucatán</string>
-    <string _locid="112809">Insurgenteler, Yucatecolara dönüşür\n\nHacienda ve Fabrika yükseltmeleri kullanılabilir ve ücretsiz olur\n\nOdak: Haciendalar, Yerleşimciler, Piyadeler</string>
+    <string _locid="112809">Insurgenteler, Yucatecolara dönüşür\n\nHacienda yükseltmeleri kullanılabilir ve ücretsiz olur\n\nOdak: Haciendalar, Yerleşimciler, Piyadeler</string>
     <string _locid="112810">Yucatecolar</string>
     <string _locid="112811">Mérida</string>
     <string _locid="112812">Rio Grande</string>
@@ -40133,10 +40262,10 @@
     <string _locid="112822">Kaliforniyalılar</string>
     <string _locid="112823">Sonoma</string>
     <string _locid="112824">Teksas</string>
-    <string _locid="112825">Yerleşimciler, Gönüllülere dönüşür.\n\nBirleşik Devletler birimleri eğitir. Şehir Merkezi'nde Gönüllü Asker toplanabilir.\n\n\nOdak: Hisarlar, Piyade yükseltmeleri.</string>
+    <string _locid="112825">Yerleşimciler, Gönüllülere dönüşür.\n\nNöbetçi Birleşik Devletler birimleri eğitir. Şehir Merkezi'nde Gönüllü Askerler toplanabilir.\n\nOdak: Hisarlar, Piyade yükseltmeleri.</string>
     <string _locid="112826">Texianlar</string>
     <string _locid="112827">Austin</string>
-    <string _locid="112828">5 Soldado gönderir. Bu sevkiyattan itibaren gelecekteki tüm sevkiyatlarla birlikte ücretsiz bir Patlatıcı alırsın.</string>
+    <string _locid="112828">4 Soldado gönderir. Bu sevkiyattan itibaren gelecekteki tüm sevkiyatlarla birlikte ücretsiz bir Patlatıcı alırsın.</string>
     <string _locid="112829">Santamaria'nın Ateşi</string>
     <string _locid="112830">Bu oyunda şu ana kadar gönderdiğin her sevkiyat için bir ilave Yerleşimci gönderir.</string>
     <string _locid="112831">Salvador Kahvesi</string>
@@ -40145,7 +40274,7 @@
     <string _locid="112834">Düşman ana şehirleri üzerinde 2 dakika boyunca geçici bir abluka uygular.</string>
     <string _locid="112835">Kosta Rika Tecridi</string>
     <string _locid="112836">10 Casus</string>
-    <string _locid="112837">7 Devrimci</string>
+    <string _locid="112837">6 Devrimci</string>
     <string _locid="112838">Salvador Kahvesi kalan zaman</string>
     <string _locid="112839" symbol="cStringTempBlockadeTeammate">%s, tüm düşmanlarının Ana Şehirlerine abluka uyguladı!</string>
     <string _locid="112840" symbol="cStringTempBlockadeYou">Düşmanlarının Ana Şehirlerine geçici bir abluka uyguladın!</string>
@@ -40154,10 +40283,10 @@
     <string _locid="112843" symbol="cStringTempBlockadeYouAll">Düşmanlarının Ana Şehirlerine geçici bir abluka uyguladın ve müttefiklerine ait olan şehirler istemeden de olsa etkilendi!</string>
     <string _locid="112844">Hızlı ulaşır! Mağlup edilen düşmanlar artık TP'nin yanı sıra Sikke de kazandırır.</string>
     <string _locid="112845">Servet Askeri</string>
-    <string _locid="112846">Yeni ve mevcut Haciendalar 2 Yerleşimci çıkarır ve üretim hızını artırmak için yakındaki Avlanabilir Hayvanları çeker.</string>
+    <string _locid="112846">3 Yerleşimci gönderir. Haciendalar üretim hızını artırmak için yakındaki Avlanabilir Hayvanları çeker.</string>
     <string _locid="112847">Aşağı Kaliforniya Arazisi</string>
-    <string _locid="112848">Meyhane'de Birleşik Devletler Haydutlarının eğitilmesini sağlar. Tüm haydutlar daha az nüfus harcar.</string>
-    <string _locid="112849">Gringolar</string>
+    <string _locid="112848">Haydutlar senin için geldiğinde ne yapacaksın? Meyhaneler artık çok daha hızlı bir şekilde üretilebilen Birleşik Devletler Haydutlarını eğitir.</string>
+    <string _locid="112849">Kötü Çocuklar</string>
     <string _locid="112850">1 rastgele Topçu birimi ve hasar vermeyen şaşırtmaca tuzakları olan 2 Yalancı Silah gönderir.</string>
     <string _locid="112851">Walker'ın Yanılsamaları</string>
     <string _locid="112852">Bu oyunda şimdiye kadar gönderdiğin her sevkiyat için 3 ek Haydut gönderir. Tüm Askeri Binalar ve Evler Lobicilere dönüşür.</string>
@@ -40171,7 +40300,7 @@
     <string _locid="112860">Yucateco Insurgente'si</string>
     <string _locid="112861">Nöbetçi Yucateco Insurgente'si</string>
     <string _locid="112862">İmparatorluk Yucateco Insurgente'si</string>
-    <string _locid="112863">Haciendalar artık TÜM modlarda (saniyede 1 Yiyecek, 1 Odun ve 1 Sikke) ilave kaynak akışı sağlar.</string>
+    <string _locid="112863">Haciendalar artık TÜM modlarda ilave kaynak akışı sağlar.</string>
     <string _locid="112864">Henequen Sanayisi</string>
     <string _locid="112865">Haciendalar, işçilerin Odun toplamasına izin veren bir seçenek kazanır.</string>
     <string _locid="112866">Solís Öğütücüleri</string>
@@ -40180,14 +40309,14 @@
     <string _locid="112869">Salteadorlar, Yucateco Insurgenteleri ve Holcan Ciritcileri saldırırken zehir hasarı verirler.</string>
     <string _locid="112870">Ağaçlık Savaşı</string>
     <string _locid="112871">3 Şahin Topu</string>
-    <string _locid="112872">1 Yerli Elçiliği Travoisi gönderir ve bazı yükseltmelerinin ve birimlerinin mevcut olduğu Yerli Elçiliğindeki Mayalar ile müttefik olur.</string>
+    <string _locid="112872">6 Holcan Ciritcisi ve 6 Yucateco İsyancısı gönderir. İsyancılar fazladan darbe puanı kazanır.</string>
     <string _locid="112873">Maya Destekçileri</string>
     <string _locid="112874">İlave Odun Akışı</string>
     <string _locid="112875">Piyadeler, özellikle de Devrimciler daha hızlı eğitilir.</string>
     <string _locid="112876">Bastimento</string>
     <string _locid="112877">Tüm Yerleşimciler yeniden Devrimcilere dönüşür. Hâlihazırda gönderdiğin çoğu birim kartının yeniden gönderilmesini sağlar.</string>
     <string _locid="112878">Monterrey Planı</string>
-    <string _locid="112879">Bu oyunda şu ana kadar kaybettiğin her Devrimci için 1 Yerleşimci gönderir (en fazla 99).</string>
+    <string _locid="112879">Bu oyunda şu ana kadar kaybettiğin her 3 Devrimci için 1 Yerleşimci gönderir (en fazla 80).</string>
     <string _locid="112880">Sierra Madre Cumhuriyeti</string>
     <string _locid="112881">Chinacolar, tüm Chinacoların hareket hızı kaybı olmaksızın görünmeden hareket etmelerini sağlayan Zapata Manevrası yeteneği kazanır.</string>
     <string _locid="112882">Zapata Manevraları</string>
@@ -40253,7 +40382,7 @@
     <string _locid="112942">Kaliforniya Yolu</string>
     <string _locid="112943">İlham Veren Bayraklar çok daha geniş bir etki alanı kazanır ve artık birim darbe puanlarını da iyileştirir.</string>
     <string _locid="112944">Burnet Toprağı</string>
-    <string _locid="112945">İmparatorluk Çağı Rıhtım yükseltmelerinin araştırılmasına olanak sağlar.</string>
+    <string _locid="112945">İmparatorluk Çağı Rıhtım yükseltmelerinin ücretsiz olarak araştırılmalarına olanak sağlar.</string>
     <string _locid="112946">Teksas Donanması</string>
     <string _locid="112947">Gönüllü Askerler, Teksaslı Deniz Piyadelerine yükseltilir. Denizciler artık darbe puanı kaybetmez ve Binalara, Gemilere ve Topçulara daha fazla hasar verir.</string>
     <string _locid="112948">Teksas Deniz Piyadeleri</string>
@@ -40286,7 +40415,7 @@
     <string _locid="112975">Haydut Çarpışması</string>
     <string _locid="112976">Kıdemli Lobici</string>
     <string _locid="112977">Kıdemli Lobiciler</string>
-    <string _locid="112978">İlham Veren Bayraklar artık Yerleşimcilerin toplama oranlarını %20 artırır ve haritada keşfettiğin herhangi bir yere yerleştirilebilir.</string>
+    <string _locid="112978">İlham Veren Bayraklar artık Yerleşimcilerin toplama oranlarını %15 artırır ve haritada keşfettiğin herhangi bir yere yerleştirilebilir.</string>
     <string _locid="112979">Yucatecan</string>
     <string _locid="112980">Kement Saldırısı (Yüklü)</string>
     <string _locid="112981">Kement Saldırısı</string>
@@ -40306,19 +40435,19 @@
     <string _locid="112995">İmparatorluk Cruzob İntikamcıları</string>
     <string _locid="112996">İmparatorluk Cruzob İntikamcısı</string>
     <string _locid="112997">Cruzob İntikamcısı</string>
-    <string _locid="112998">Kışla birimlerin için İmparatorluk yükseltmelerinin ücretsiz araştırılmasını sağlar.</string>
+    <string _locid="112998">Kışla birimlerin için İmparatorluk yükseltmelerinin ücretsiz olarak yavaş bir şekilde araştırılmalarını sağlar.</string>
     <string _locid="112999">Teksas Ordusu</string>
     <string _locid="113000">Plaza del Zócalo</string>
     <string _locid="113001">Milli Saray</string>
     <string _locid="113002">Metropoliten Katedrali</string>
-    <string _locid="113003">Moral yükseltmek için Orta Amerika devrimci bayrağı diker! Yakındaki askeri birimler ve binalar daha fazla hasar verir ve daha hızlı oluşturulur. Bayraklar, yeni başlayan Şehir Merkezlerinin yakınına dikilemez ve bir seferde yalnızca bir bayrak dikilebilir.</string>
-    <string _locid="113004">Moral yükseltmek için Lobici devrimci bayrağı diker! Yakındaki askeri birimler ve binalar daha fazla hasar verir ve daha hızlı oluşturulur. Bayraklar, yeni başlayan Şehir Merkezlerinin yakınına dikilemez ve bir seferde yalnızca bir bayrak dikilebilir.</string>
-    <string _locid="113005">Moral yükseltmek için Yucatecan devrimci bayrağı diker! Yakındaki askeri birimler ve binalar daha fazla hasar verir ve daha hızlı oluşturulur. Bayraklar, yeni başlayan Şehir Merkezlerinin yakınına dikilemez ve bir seferde yalnızca bir bayrak dikilebilir.</string>
-    <string _locid="113006">Moral yükseltmek için Rio Grande devrimci bayrağı diker! Yakındaki askeri birimler ve binalar daha fazla hasar verir ve daha hızlı oluşturulur. Bayraklar, yeni başlayan Şehir Merkezlerinin yakınına dikilemez ve bir seferde yalnızca bir bayrak dikilebilir.</string>
-    <string _locid="113007">Moral yükseltmek için Kaliforniya devrimci bayrağı diker! Yakındaki askeri birimler ve binalar daha fazla hasar verir ve daha hızlı oluşturulur. Bayraklar, yeni başlayan Şehir Merkezlerinin yakınına dikilemez ve bir seferde yalnızca bir bayrak dikilebilir.</string>
-    <string _locid="113008">Moral yükseltmek için Texian devrimci bayrağı diker! Yakındaki askeri birimler ve binalar daha fazla hasar verir ve daha hızlı oluşturulur. Bayraklar, yeni başlayan Şehir Merkezlerinin yakınına dikilemez ve bir seferde yalnızca bir bayrak dikilebilir.</string>
-    <string _locid="113009">Moral yükseltmek için Maya devrimci bayrağı diker! Yakındaki askeri birimler ve binalar daha fazla hasar verir ve daha hızlı oluşturulur. Bayraklar, yeni başlayan Şehir Merkezlerinin yakınına dikilemez ve bir seferde yalnızca bir bayrak dikilebilir.</string>
-    <string _locid="113010">Yakındaki birimleri ve binaları güçlendirmek için bir General tarafından taktiksel olarak yerleştirilir. Yakınlarda müttefik birim veya bina yoksa düşmanlar tarafından ele geçirilebilir ve haritadan kaldırılabilir.\n • Tüm Birimlere +%10 Saldırı Hasarı sağlar.\n • Tüm Binalara +%10 Saldırı Hasarı sağlar.\n • Askeri Binalara +%25 Çalışma Hızı sağlar.\n • Tüm Binalara +%50 İnşaat hızı sağlar.</string>
+    <string _locid="113003">Moral yükseltmek için Orta Amerika devrimci bayrağı diker! Yakındaki askeri birimler (topçular hariç) ve binalar daha fazla hasar verir ve daha hızlı oluşturulur. Bayraklar, yeni başlayan Şehir Merkezlerinin yakınına dikilemez ve bir seferde yalnızca bir bayrak dikilebilir.</string>
+    <string _locid="113004">Moral yükseltmek için Lobici devrimci bayrağı diker! Yakındaki askeri birimler (topçular hariç) ve binalar daha fazla hasar verir ve daha hızlı oluşturulur. Bayraklar, yeni başlayan Şehir Merkezlerinin yakınına dikilemez ve bir seferde yalnızca bir bayrak dikilebilir.</string>
+    <string _locid="113005">Moral yükseltmek için Yucatecan devrimci bayrağı diker! Yakındaki askeri birimler (topçular hariç) ve binalar daha fazla hasar verir ve daha hızlı oluşturulur. Bayraklar, yeni başlayan Şehir Merkezlerinin yakınına dikilemez ve bir seferde yalnızca bir bayrak dikilebilir.</string>
+    <string _locid="113006">Moral yükseltmek için Rio Grande devrimci bayrağı diker! Yakındaki askeri birimler (topçular hariç) ve binalar daha fazla hasar verir ve daha hızlı oluşturulur. Bayraklar, yeni başlayan Şehir Merkezlerinin yakınına dikilemez ve bir seferde yalnızca bir bayrak dikilebilir.</string>
+    <string _locid="113007">Moral yükseltmek için Kaliforniya devrimci bayrağı diker! Yakındaki askeri birimler (topçular hariç) ve binalar daha fazla hasar verir ve daha hızlı oluşturulur. Bayraklar, yeni başlayan Şehir Merkezlerinin yakınına dikilemez ve bir seferde yalnızca bir bayrak dikilebilir.</string>
+    <string _locid="113008">Moral yükseltmek için Texian devrimci bayrağı diker! Yakındaki askeri birimler (topçular hariç) ve binalar daha fazla hasar verir ve daha hızlı oluşturulur. Bayraklar, yeni başlayan Şehir Merkezlerinin yakınına dikilemez ve bir seferde yalnızca bir bayrak dikilebilir.</string>
+    <string _locid="113009">Moral yükseltmek için Maya devrimci bayrağı diker! Yakındaki askeri birimler (topçular hariç) ve binalar daha fazla hasar verir ve daha hızlı oluşturulur. Bayraklar, yeni başlayan Şehir Merkezlerinin yakınına dikilemez ve bir seferde yalnızca bir bayrak dikilebilir.</string>
+    <string _locid="113010">Yakındaki birimleri ve binaları güçlendirmek için bir General tarafından taktiksel olarak yerleştirilir. Yakınlarda müttefik birim veya bina yoksa düşmanlar tarafından ele geçirilebilir ve haritadan kaldırılabilir.\n • Tüm Birimlere +%10 Saldırı Hasarı sağlar (topçular hariç).\n • Tüm Binalara +%10 Saldırı Hasarı sağlar.\n • Askeri Binalara +%25 Çalışma Hızı sağlar.\n • Tüm Binalara +%50 İnşaat hızı sağlar.</string>
     <string _locid="113011">Yakındaki birimlerin moralini yükseltir ve savunulması gerekir! Düşmanlar tarafından ele geçirilirse haritadan kaldırılır.</string>
     <string _locid="113012">Yakındaki birimlerin moralini yükseltir.</string>
     <string _locid="113013">Yakındaki Meksikalı birimlerin moralini yükseltir.</string>
@@ -40345,9 +40474,9 @@
     <string _locid="113034">Ele Geçirilmiş 3 Kalyon</string>
     <string _locid="113035">TAKIM 1 Rıhtım At Arabası gönderir ve haritadaki tüm Balık, Balina ve Deniz Birimlerinin yerini kısa bir süre açığa çıkarır.</string>
     <string _locid="113036">TAKIM Meksika Körfezi</string>
-    <string _locid="113037">Haciendalar artık tam semirmiş Besi Hayvanlarından otomatik olarak ürün toplar.</string>
+    <string _locid="113037">Haciendalar, besi hayvanlarını daha hızlı bir şekilde şişmanlatır ve tamamen semirdiklerinde otomatik olarak hasat eder.</string>
     <string _locid="113038">Barbacoa</string>
-    <string _locid="113039">17 Balıkçı Teknesi</string>
+    <string _locid="113039">14 Balıkçı Teknesi</string>
     <string _locid="113040">3 Yarı semirmiş + geçen her 5 dakika için 3 tane daha inek gönderir. Marketin yiyecek satış oranını %50 artırır</string>
     <string _locid="113041">San Marcos Fuarı</string>
     <string _locid="113042">Hacienda'yı sat</string>
@@ -40364,7 +40493,7 @@
     <string _locid="113053">Tüm Salteadorların güçlü Fransız Voltigeurlarına dönüşür. Tüfeklerle donatılmış piyadeler daha fazla menzil kazanır.</string>
     <string _locid="113054">Miramare Planı</string>
     <string _locid="113055">Chimayó Genizarios</string>
-    <string _locid="113056">Köylülere normalden daha fazla hasar veren 11 Navaho Tüfeklisi gönderir.</string>
+    <string _locid="113056">Köylülere normalden daha fazla hasar veren 10 Navaho Tüfeklisi gönderir.</string>
     <string _locid="113057">Kaçak Navaho</string>
     <string _locid="113058">Ejderler daha fazla hasar verir ve Ticaret Çağı'nda vazifelendirilebilirler.</string>
     <string _locid="113059">Kraliçenin Ejderleri</string>
@@ -40377,7 +40506,7 @@
     <string _locid="113066">Yedi Evler Ziyareti</string>
     <string _locid="113067">Bu oyunda şimdiye kadar kaybettiğin her birim için +5 TP verir.</string>
     <string _locid="113068">Día de Muertos</string>
-    <string _locid="113069">İlham Veren Bayrak gibi Generalin de artık moral yükseltir. Ana Şehir sevkiyatlarını alabilir ve Soldado eğitebilir.</string>
+    <string _locid="113069">İlham Veren Bayrak gibi Generalin de artık moral yükseltir. Ana Şehir sevkiyatlarını alabilir ve Soldado eğitebilir.\n • İlham Veren Hava: Bayrakla birlikte kullanılamaz.</string>
     <string _locid="113070">Yazgı Adamı</string>
     <string _locid="113071">1 Hisar At Arabası gönderir. Hisarlar daha fazla Görüş Hattına sahiptir ve Kahramanlara karşı ilave hasar verir.</string>
     <string _locid="113072">Chapultepec Kalesi</string>
@@ -40412,7 +40541,7 @@
     <string _locid="113101">Sanayi İnşaat Ustası</string>
     <string _locid="113102">16 Yucateco Insurgentes'</string>
     <string _locid="113103">Eski Üç Yüz</string>
-    <string _locid="113104">Vatandaşların Şehir Merkezlerinden eğitilmesini sağlar ve sahip olduğun her Ev için 1 tane gönderir.</string>
+    <string _locid="113104">İnşa ettiğin her bir Bina için 1 Vatandaş gönderir (en fazla 80). Vatandaşları Şehir Merkezlerinde etkinleştirir.</string>
     <string _locid="113105">Kaliforniya Yetiştiriciliği</string>
     <string _locid="113106">Kement</string>
     <string _locid="113107">Çıkma Cuatrero</string>
@@ -40484,8 +40613,20 @@
     <string _locid="113173">Görecelik</string>
     <string _locid="113174">Sepoy İsyanı!</string>
     <string _locid="113175">%s, AYAKLANDI!</string>
-    <string _locid="113176" symbol="cStringStatBuildingRepair">Bina Onarımı:</string>
+    <string _locid="113176" symbol="cStringStatBuildingRepair">Bina Onarımı (Yüzde):</string>
     <string _locid="113177" symbol="cStringStatAreaRollover">%2d Alanı</string>
+    <string _locid="113178" symbol="cStringAllWorkers">Tüm Çalışanlar</string>
+    <string _locid="113179" symbol="cStringResourceAsCratesEffect">%1!s!: Kasalarda +%2!.2f! %3!s! teslim eder</string>
+    <string _locid="113180">Kışla ve Karakol'un Rus kombinasyonu. Cepheyi savunabilir ve gruplar hâlinde piyade eğitebilir. Ayrıca 15 nüfus sağlar.</string>
+    <string _locid="113181" symbol="cStringStatRangeRolloverAreaFloat">%1!d! Menzil ve %2!.2f! Alan</string>
+    <string _locid="113182" symbol="cStringIncreaseModifyRateEffect">%1!s!: %2!s! Değiştirme Oranı +%3!.0f!%%</string>
+    <string _locid="113183" symbol="cStringDecreaseModifyRateEffect">%1!s!: %2!s! Değiştirme Oranı %3!.0f!%%</string>
+    <string _locid="113184" symbol="cStringAddModifyRateEffect">%1!1s!: %3!3s! Değiştirme Oranına %2!2.2f! ekler</string>
+    <string _locid="113185" symbol="cStringSetModifyRateEffect">%1s: %2s Değiştirme Oranını %3.2f olarak ayarlar</string>
+    <string _locid="113186">İyileştirilebilir Birim</string>
+    <string _locid="113187" symbol="cStringDetailHelpMercs">Kullanılabilir Paralı Asker ve Haydutlar:\n</string>
+    <string _locid="113188">Yerli Alan Ticaret Merkezi'ni bul</string>
+    <string _locid="113189">Ticaret Yolu Ticaret Merkezi'ni bul</string>
     <string _locid="200000">İsveç Bayrakları</string>
     <string _locid="200001">Bu binada İsveç bayrakları göster.</string>
     <string _locid="200002">Yeni Dünya Ticaret Merkezi (yeşil)</string>
@@ -40558,6 +40699,8 @@
     <string _locid="200069">Karib Müttefikleri</string>
     <string _locid="200070">Mapuçe Müttefikleri</string>
     <string _locid="200071">Zapotec Müttefikleri</string>
+    <string _locid="200072">Tapınak (Harabe)</string>
+    <string _locid="200073">Tapınağın harabe hâldeki versiyonu.</string>
     <string _locid="210000">DLSS</string>
     <string _locid="210001">Derin Öğrenme Süper Örneklemesi (DLSS), kare hızlarını artırmak ve oyunlarında hoş, keskin görüntüler oluşturmak için derin öğrenme sinir ağı kullanan bir NVIDIA RTX teknolojisidir. Kalite ayarlarını en üst düzeye çıkarmak ve çıktı çözünürlüğünü artırmak için sana performans boşluk payı sağlar.</string>
     <string _locid="210002">DLSS Ayarları</string>
@@ -40573,5 +40716,27 @@
     <string _locid="210025">Hem iyileştirilmiş performans hem de görüntü kalitesi sunar.</string>
     <string _locid="210026">Kalite</string>
     <string _locid="210027">Dengeli moddan daha yüksek görüntü kalitesi sunar.</string>
+    <string _locid="220001">Fotoğraf Modu</string>
+    <string _locid="220002">Hareket:</string>
+    <string _locid="220003">Döndürme:</string>
+    <string _locid="220004">Yakınlaştırma:</string>
+    <string _locid="220005">Ekran görüntüsü:</string>
+    <string _locid="220006">Kamerayı Sıfırla:</string>
+    <string _locid="220007">Arayüzü Aç/Kapat:</string>
+    <string _locid="220008">Geri:</string>
+    <string _locid="220009">Hareket:\n • Kamerayı hareket ettirmek için WASD veya Ok tuşları.\n • Kamerayı aşağı/yukarı hareket ettirmek için Q ve E.\n • Kamerayı hareket ettirmek için fareyi kenara getir\n • Kamerayı hareket ettirmek için Space tuşuna basılı tutup fareyle tıkla ve sürükle.\n\n Döndürme:\n • Döndürmek için Alt + WASD veya Alt + Ok tuşları.\n • Döndürmek için Alt + tıklayıp sürükle.\n\n Yakınlaştırma/Uzaklaştırma:\n • Yakınlaştırıp uzaklaştırmak için kaydırma tekerleğini kullan</string>
+    <string _locid="220010">Arayüzü Aç/Kapat</string>
+    <string _locid="220011">Ekran görüntüsünde arayüzü göster</string>
+    <string _locid="220012">Klasörü Bul:</string>
+    <string _locid="220013">Klasörü Aç</string>
+    <string _locid="220014">Çerçeve İlerletme</string>
+    <string _locid="220015">Işık Ön Ayarları</string>
+    <string _locid="220016">Güneş Konumu</string>
+    <string _locid="220017">Sahneye küçük ama kontrol edilebilir artışlarla adım at. Sahneyi hareket ettirmek için kaydırıcıyı veya ileri sarma düğmelerini kullan.</string>
+    <string _locid="220018">Açılan kutudan çoklu ışık ön ayarlarını seç.</string>
+    <string _locid="220019">Kaydırıcıyı oynatarak güneşin konumunu değiştir.</string>
+    <string _locid="220020">Arayüzü açıp kapatmak için seç.</string>
+    <string _locid="220021">Ekran görüntüsü alırken arayüzü de göstermek için seç.</string>
+    <string _locid="220022">Ekran görüntüsü klasör konumunu açmak için seç.</string>
   </language>
 </stringtable>

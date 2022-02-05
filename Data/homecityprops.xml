@@ -5649,7 +5649,7 @@
     <position>
       <building>Academy</building>
     </position>
-    <icon>homecity\home_city_props\icons\medacademy2</icon>
+    <icon>homecity\home_city_props\icons\medacademy1</icon>
     <variationid>0</variationid>
   </prop>
   <prop>
@@ -5663,7 +5663,7 @@
     <position>
       <building>Academy</building>
     </position>
-    <icon>homecity\home_city_props\icons\medacademy1</icon>
+    <icon>homecity\home_city_props\icons\medacademy2</icon>
     <variationid>1</variationid>
   </prop>
   <prop>
@@ -5705,7 +5705,7 @@
     <position>
       <building>Academy</building>
     </position>
-    <icon>homecity\home_city_props\icons\medacademy6</icon>
+    <icon>homecity\home_city_props\icons\medacademy5</icon>
     <variationid>4</variationid>
   </prop>
   <prop>
@@ -5719,7 +5719,7 @@
     <position>
       <building>Academy</building>
     </position>
-    <icon>homecity\home_city_props\icons\medacademy5</icon>
+    <icon>homecity\home_city_props\icons\medacademy6</icon>
     <variationid>5</variationid>
   </prop>
   <prop>
@@ -9153,6 +9153,12 @@
     <prop>SPCAct3_DockTexture7</prop>
   </exclusiveprops>
   <prop>
+    <name>ypMonkChinese</name>
+    <type>Unit</type>
+    <description>View and Customize the appearance of your Explorer</description>
+    <descriptionstringid>49566</descriptionstringid>
+  </prop>
+  <prop>
     <name>Swedish_NWTCFlag</name>
     <type>Object</type>
     <displayname>Swedish Flag</displayname>
@@ -11608,12 +11614,6 @@
     </position>
     <variationid>2</variationid>
     <icon>homecity\home_city_props\icons\Mex_templo_1</icon>
-    <deactivateprops>
-      <prop>Mexico_LightSetNight</prop>
-    </deactivateprops>
-    <activateprops>
-      <prop>Mexico_LightSetDaytime</prop>
-    </activateprops>
   </prop>
   <prop>
     <name>Mexico_TemploMayorTexture1</name>
@@ -11804,6 +11804,14 @@
     <visual>homecity\mexico\mexico_night_lights\mexico_night_lights.xml</visual>
   </prop>
   <prop>
+    <name>Mexico_Night_Lights_Without_Temple</name>
+    <type>Object</type>
+    <position>
+      <bone>bone_centered</bone>
+    </position>
+    <visual>homecity\mexico\mexico_night_lights\mexico_night_lights_without_temple.xml</visual>
+  </prop>
+  <prop>
     <name>Mexico_LightSetDaytime</name>
     <type>LightSet</type>
     <displayname>Daytime Lighting</displayname>
@@ -11816,9 +11824,6 @@
     <variationid>0</variationid>
     <lightset>Mexico</lightset>
     <icon>homecity\home_city_props\icons\Mex_Day</icon>
-    <deactivateprops>
-      <prop>Mexico_Night_Lights</prop>
-    </deactivateprops>
   </prop>
   <prop>
     <name>Mexico_LightSetNight</name>
@@ -11836,13 +11841,6 @@
     <cost>15</cost>
     <icon>homecity\home_city_props\icons\Mex_Night</icon>
     <prereq>Mexico_TemploMayorTexture1</prereq>
-    <deactivateprops>
-      <prop>Mexico_TemploMayorTexture0</prop>
-    </deactivateprops>
-    <activateprops>
-      <prop>Mexico_TemploMayorTexture1</prop>
-      <prop>Mexico_Night_Lights</prop>
-    </activateprops>
   </prop>
   <prop>
     <name>Mexico_LightSetSunset</name>
@@ -11858,9 +11856,6 @@
     <lightset>mexico_sunrise</lightset>
     <cost>5</cost>
     <icon>homecity\home_city_props\icons\Mex_Sunset</icon>
-    <deactivateprops>
-      <prop>Mexico_Night_Lights</prop>
-    </deactivateprops>
   </prop>
   <prop>
     <name>Mexico_Military_Parade</name>

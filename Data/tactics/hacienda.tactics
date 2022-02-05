@@ -54,9 +54,9 @@
     <active>0</active>
     <dancebonustype>UnitSpawn</dancebonustype>
     <modifyprotoid>deSaloonVaquero</modifyprotoid>
-    <maintaintrainpoints>70</maintaintrainpoints>
+    <maintaintrainpoints>80</maintaintrainpoints>
     <modifymultiplier>0.24</modifymultiplier>
-    <modifyexponent>0.95</modifyexponent>
+    <modifyexponent>0.97</modifyexponent>
     <modifybase>1.0</modifybase>
     <persistent>1</persistent>
   </action>
@@ -140,7 +140,7 @@
     <name stringid="69158">SpawnBajaCaliforniaTerritory</name>
     <type>Maintain</type>
     <active>0</active>
-    <rate type="deSpawnBajaCaliforniaTerritoryBatch">1</rate>
+    <rate type="deSpawnBajaCaliforniaTerritoryBatch">2</rate>
     <singleuse>1</singleuse>
     <animationrate>1</animationrate>
     <persistent>1</persistent>

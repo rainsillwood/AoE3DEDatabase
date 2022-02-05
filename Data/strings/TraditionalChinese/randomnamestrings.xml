@@ -470,7 +470,7 @@
     <string _locid="50467" comment="proto-Monitor civ-Ottomans/SPCBarbaryPirates type-title">伊格蘭司‧珍密斯號</string>
     <string _locid="50468" comment="proto-Monitor civ-Ottomans/SPCBarbaryPirates type-title">卡地爾凱號</string>
     <string _locid="50469" comment="proto-Monitor civ-Portuguese/Chinese type-title">聖迪爾多號</string>
-    <string _locid="50470" comment="proto-Monitor civ-Portuguese/Chinese type-title">聖佛蘭西斯科號</string>
+    <string _locid="50470" comment="proto-Monitor civ-Portuguese/Chinese type-title">聖法蘭西斯科號</string>
     <string _locid="50471" comment="proto-Monitor civ-Portuguese/Chinese type-title">聖瓊巴提斯塔號</string>
     <string _locid="50472" comment="proto-Monitor civ-Portuguese/Chinese type-title">維多利亞號</string>
     <string _locid="50473" comment="proto-Monitor civ-Russians type-title">克來塞號</string>
@@ -592,7 +592,7 @@
     <string _locid="50589" comment="proto-xpLakotaWarChief/Explorer civ-Default/xpSioux type-title">觸摸大地</string>
     <string _locid="50590" comment="proto-xpLakotaWarChief/Explorer civ-Default/xpSioux type-title">慢行者</string>
     <string _locid="50591" comment="proto-xpLakotaWarChief/Explorer civ-Default/xpSioux type-title">雲端行者</string>
-    <string _locid="50592" comment="proto-xpAztecWarChief/Explorer civ-Default/xpAztec type-title">鐵諾奇</string>
+    <string _locid="50592" comment="proto-xpAztecWarChief/Explorer civ-Default/xpAztec type-title">特諾奇</string>
     <string _locid="50593" comment="proto-xpAztecWarChief/Explorer civ-Default/xpAztec type-title">阿卡馬比切特力</string>
     <string _locid="50594" comment="proto-xpAztecWarChief/Explorer civ-Default/xpAztec type-title">胡茲里特</string>
     <string _locid="50595" comment="proto-xpAztecWarChief/Explorer civ-Default/xpAztec type-title">奇馬爾波波卡</string>
@@ -1024,7 +1024,7 @@
     <string _locid="51021" comment="proto-Explorer civ-Spanish type-firstname">艾斯特方尼可</string>
     <string _locid="51022" comment="proto-Explorer civ-Spanish type-firstname">伍思拜歐</string>
     <string _locid="51023" comment="proto-Explorer civ-Spanish type-firstname">佛爾頓</string>
-    <string _locid="51024" comment="proto-Explorer civ-Spanish type-firstname">法蘭斯哥</string>
+    <string _locid="51024" comment="proto-Explorer civ-Spanish type-firstname">法蘭西斯科</string>
     <string _locid="51025" comment="proto-Explorer civ-Spanish type-firstname">湯馬斯</string>
     <string _locid="51026" comment="proto-Explorer civ-Spanish type-firstname">赫曼</string>
     <string _locid="51027" comment="proto-Explorer civ-Spanish type-firstname">赫曼多</string>
@@ -2309,7 +2309,7 @@
     <string _locid="52331" comment="proto-deGeneral civ-DEMexicans type-firstname">菲利普‧聖地亞哥 </string>
     <string _locid="52332" comment="proto-deGeneral civ-DEMexicans type-firstname">李奧納多 </string>
     <string _locid="52333" comment="proto-deGeneral civ-DEMexicans type-firstname">赫爾梅吉爾多 </string>
-    <string _locid="52334" comment="proto-deGeneral civ-DEMexicans type-firstname">法蘭斯哥</string>
+    <string _locid="52334" comment="proto-deGeneral civ-DEMexicans type-firstname">法蘭西斯科</string>
     <string _locid="52335" comment="proto-deGeneral civ-DEMexicans type-firstname">胡安‧帕布羅 </string>
     <string _locid="52336" comment="proto-deGeneral civ-DEMexicans type-firstname">維克多 </string>
     <string _locid="52337" comment="proto-deGeneral civ-DEMexicans type-firstname">卡洛斯‧薩拉札爾 </string>
@@ -2344,5 +2344,27 @@
     <string _locid="52366" comment="proto-deGeneral civ-DEMexicans type-lastname">古鐵雷斯</string>
     <string _locid="52367" comment="proto-deGeneral civ-DEMexicans type-lastname">阿拉戈</string>
     <string _locid="52368" comment="proto-deGeneral civ-DEMexicans type-lastname">巴拉岡</string>
+    <string _locid="52369" comment="proto-dePadre civ-DEMexicans type-firstname">胡安·狄亞哥 </string>
+    <string _locid="52370" comment="proto-dePadre civ-DEMexicans type-firstname">路易斯·婓力普 </string>
+    <string _locid="52371" comment="proto-dePadre civ-DEMexicans type-firstname">巴托羅米 </string>
+    <string _locid="52372" comment="proto-dePadre civ-DEMexicans type-firstname">基思 </string>
+    <string _locid="52373" comment="proto-dePadre civ-DEMexicans type-firstname">法蘭西斯科</string>
+    <string _locid="52374" comment="proto-dePadre civ-DEMexicans type-firstname">安東尼奧‧羅培茲 </string>
+    <string _locid="52375" comment="proto-dePadre civ-DEMexicans type-firstname">赫蘇斯·門德斯 </string>
+    <string _locid="52376" comment="proto-dePadre civ-DEMexicans type-firstname">薩爾瓦多 </string>
+    <string _locid="52377" comment="proto-dePadre civ-DEMexicans type-firstname">何塞 </string>
+    <string _locid="52378" comment="proto-dePadre civ-DEMexicans type-firstname">胡安</string>
+    <string _locid="52379" comment="proto-dePadre civ-DEMexicans type-firstname">路易斯·婓力普 </string>
+    <string _locid="52380" comment="proto-dePadre civ-DEMexicans type-firstname">胡安·狄亞哥 </string>
+    <string _locid="52381" comment="proto-dePadre civ-DEMexicans type-lastname">卡奧拉特奧塔欽</string>
+    <string _locid="52382" comment="proto-dePadre civ-DEMexicans type-lastname">魯伊斯·德埃斯帕薩·達瓦洛斯</string>
+    <string _locid="52383" comment="proto-dePadre civ-DEMexicans type-lastname">內里·德·阿爾法羅</string>
+    <string _locid="52384" comment="proto-dePadre civ-DEMexicans type-lastname">岡薩雷斯·拉豐</string>
+    <string _locid="52385" comment="proto-dePadre civ-DEMexicans type-lastname">阿爾法羅·維拉斯奎茲</string>
+    <string _locid="52386" comment="proto-dePadre civ-DEMexicans type-lastname">德拉斯·卡薩斯</string>
+    <string _locid="52387" comment="proto-dePadre civ-DEMexicans type-lastname">德耶爾莫·帕雷斯</string>
+    <string _locid="52388" comment="proto-dePadre civ-DEMexicans type-lastname">阿里西維塔</string>
+    <string _locid="52389" comment="proto-dePadre civ-DEMexicans type-lastname">德洛斯安赫萊斯</string>
+    <string _locid="52390" comment="proto-dePadre civ-DEMexicans type-lastname">包提斯塔</string>
   </language>
 </stringtable>

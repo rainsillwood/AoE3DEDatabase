@@ -366,6 +366,19 @@
       <command loop="" loopparm="SrcObject">trUnitSelect("%SrcObject%");</command>
       <expression>trUnitIsAttacking()==true</expression>
     </condition>
+    <condition name="All Valid Units And Buildings Dead">
+      <param name="PlayerID" dispname="$$22301$$Player" vartype="player">1</param>
+      <expression>trPlayerValidUnitAndBuildingCount(%PlayerID%)==0</expression>
+    </condition>
+    <condition name="Player Defeated or Resigned">
+      <param name="PlayerID" dispname="$$22301$$Player" vartype="player">1</param>
+      <expression>trPlayerDefeatedResigned(%PlayerID%)</expression>
+    </condition>
+    <condition name="Player Civilization">
+      <param name="PlayerID" dispname="$$22301$$Player" vartype="player">1</param>
+      <param name="Civilization" dispname="$$18682$$Civilization" vartype="civilization">Default</param>
+      <expression>trPlayerCivilization(%PlayerID%, "%Civilization%")</expression>
+    </condition>
   </conditions>
   <effects>
     <effect name="SetIdleProcessing">

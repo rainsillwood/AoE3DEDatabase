@@ -1689,7 +1689,7 @@
     <string _locid="23515">手榴彈</string>
     <string _locid="23520">可隱匿的阿茲特克戰士，配備黑曜石劍，擅長攻擊騎兵及重裝步兵。</string>
     <string _locid="23521">阿茲特克豹勇士</string>
-    <string _locid="23522">阿茲特克步兵單位，會從擲矛器擲射標槍，擅長攻擊步兵。</string>
+    <string _locid="23522">阿茲特克步兵，會從擲矛器擲射標槍，擅長攻擊騎兵及近戰突擊步兵。</string>
     <string _locid="23523">阿茲特克鷹勇士</string>
     <string _locid="23524">卡曼契遠距步兵單位，擅長攻擊騎兵。</string>
     <string _locid="23525">卡曼契弓馬兵</string>
@@ -5157,10 +5157,10 @@
     <string _locid="33424" gamecharacter="摩根" soundfilename="MORG4915" portraitfilename="resources\art\units\spc\morgan_black\morgan_black_igc_icon.png">西班牙人摧毀了最後一座阿茲特克神殿，這個村落沒救了。</string>
     <string _locid="33425" gamecharacter="摩根" soundfilename="MORG4916" portraitfilename="resources\art\units\spc\morgan_black\morgan_black_igc_icon.png">光靠我們現在的力量，沒辦法攻擊西班牙人的基地。</string>
     <string _locid="33426" gamecharacter="阿茲特克酋長" soundfilename="GENR5041" portraitfilename="resources\images\icons\native_allies\aztec.png">歡迎你加入我們對抗西班牙人的行列。</string>
-    <string _locid="33427" gamecharacter="阿茲特克酋長" soundfilename="GENR5042" portraitfilename="resources\images\icons\native_allies\aztec.png">我會派人到鐵諾奇帝蘭要求派一支阿茲特克軍隊前來支援。在他們抵達之前，我們必須保護村落裡的神殿。</string>
-    <string _locid="33428" gamecharacter="阿茲特克酋長" soundfilename="GENR5043" portraitfilename="resources\images\icons\native_allies\aztec.png">我的手下說來自鐵諾奇帝蘭的阿茲特克軍隊已經上路了。</string>
-    <string _locid="33429" gamecharacter="阿茲特克酋長" soundfilename="GENR5044" portraitfilename="resources\images\icons\native_allies\aztec.png">鐵諾奇帝蘭的阿茲特克大軍很快就會到了，我們必須保護自己的神殿!</string>
-    <string _locid="33430" gamecharacter="阿茲特克酋長" soundfilename="GENR4900" portraitfilename="resources\images\icons\native_allies\aztec.png">鐵諾奇帝蘭的軍隊就快到了，保護神殿!</string>
+    <string _locid="33427" gamecharacter="阿茲特克酋長" soundfilename="GENR5042" portraitfilename="resources\images\icons\native_allies\aztec.png">我會派人到特諾奇提特蘭要求派一支阿茲特克軍隊前來支援。在他們抵達之前，我們必須保護村落裡的神殿。</string>
+    <string _locid="33428" gamecharacter="阿茲特克酋長" soundfilename="GENR5043" portraitfilename="resources\images\icons\native_allies\aztec.png">我的手下說來自特諾奇提特蘭的阿茲特克軍隊已經上路了。</string>
+    <string _locid="33429" gamecharacter="阿茲特克酋長" soundfilename="GENR5044" portraitfilename="resources\images\icons\native_allies\aztec.png">特諾奇提特蘭的阿茲特克大軍很快就會到了，我們必須保護自己的神殿!</string>
+    <string _locid="33430" gamecharacter="阿茲特克酋長" soundfilename="GENR4900" portraitfilename="resources\images\icons\native_allies\aztec.png">特諾奇提特蘭的軍隊就快到了，保護神殿!</string>
     <string _locid="33431" gamecharacter="摩根" soundfilename="MORG4917" portraitfilename="resources\art\units\spc\morgan_black\morgan_black_igc_icon.png">阿茲特克軍隊到了! 把西班牙人趕出去吧!</string>
     <string _locid="33432" gamecharacter="摩根" soundfilename="MORG4918" portraitfilename="resources\art\units\spc\morgan_black\morgan_black_igc_icon.png">西班牙人逃走了，村落得救了。</string>
     <string _locid="33433">殺死在礦場旁邊，守護著囚犯的西班牙守衛。</string>
@@ -5211,7 +5211,7 @@
     <string _locid="33497" gamecharacter="摩根" soundfilename="MORG4900" portraitfilename="resources\art\units\spc\morgan_black\morgan_black_igc_icon.png">這些海盜擁有一些地圖和航海圖，可以幫助我們通過這片島嶼和暗礁的迷宮。</string>
     <string _locid="33498">建造第二個市鎮中心。</string>
     <string _locid="33499">第二個市鎮中心可讓您更快速地發展殖民地的經濟。</string>
-    <string _locid="33500">鐵諾奇帝蘭的阿茲特克軍隊抵達了</string>
+    <string _locid="33500">特諾奇提特蘭的阿茲特克軍隊抵達了</string>
     <string _locid="33501">解救更多的阿茲特克囚犯。</string>
     <string _locid="33502">西班牙人可能也看守著剩下的囚犯，如果您可以救出他們，他們就會幫助您。</string>
     <string _locid="33503">撞擊、探索用的船</string>
@@ -7255,16 +7255,16 @@
     <string _locid="36647" gamecharacter="波利法" soundfilename="BOLI2020" portraitfilename="resources\art\units\spc\bolivar\bolivar_igc_icon.png">攻擊堡壘!</string>
     <string _locid="36648" gamecharacter="波利法" soundfilename="BOLI2025" portraitfilename="resources\art\units\spc\bolivar\bolivar_igc_icon.png">我們已經把西班牙人趕走了，這裡的村落欠你一個人情。</string>
     <string _locid="36649" gamecharacter="艾蜜莉亞" soundfilename="AMEL2070" portraitfilename="resources\art\units\spc\amelia_black\amelia_black_igc_icon.png">保護波利法的加農砲!</string>
-    <string _locid="36650" gamecharacter="西班牙村民" soundfilename="GENR2140" portraitfilename="resources\art\units\spc\villagers\villager_portrait.png">謝謝你。我們擅長製造加農砲，您可以自由地使用我們的建築物。</string>
-    <string _locid="36651" gamecharacter="西班牙村民" soundfilename="GENR2145" portraitfilename="resources\art\units\spc\villagers\villager_portrait.png">我們自由了!</string>
-    <string _locid="36652" gamecharacter="西班牙村民" soundfilename="GENR2150" portraitfilename="resources\art\units\spc\villagers\villager_portrait.png">我們在這裡訓練騎兵。我希望我們的馬廄可以幫忙你們。</string>
-    <string _locid="36653" gamecharacter="西班牙村民" soundfilename="GENR2155" portraitfilename="resources\art\units\spc\villagers\villager_portrait.png">西班牙人離開了! 利用這裡所有的東西，好讓我們擺脫西班牙人的統治。</string>
+    <string _locid="36650" gamecharacter="西班牙村民" soundfilename="GENR2140" portraitfilename="resources\art\units\villagers\villager_portrait.png">謝謝你。我們擅長製造加農砲，您可以自由地使用我們的建築物。</string>
+    <string _locid="36651" gamecharacter="西班牙村民" soundfilename="GENR2145" portraitfilename="resources\art\units\villagers\villager_portrait.png">我們自由了!</string>
+    <string _locid="36652" gamecharacter="西班牙村民" soundfilename="GENR2150" portraitfilename="resources\art\units\villagers\villager_portrait.png">我們在這裡訓練騎兵。我希望我們的馬廄可以幫忙你們。</string>
+    <string _locid="36653" gamecharacter="西班牙村民" soundfilename="GENR2155" portraitfilename="resources\art\units\villagers\villager_portrait.png">西班牙人離開了! 利用這裡所有的東西，好讓我們擺脫西班牙人的統治。</string>
     <string _locid="36654" gamecharacter="艾蜜莉亞" soundfilename="AMEL2110" portraitfilename="resources\art\units\spc\amelia_black\amelia_black_igc_icon.png">我不確定我們能不能航行過藏骨殿，也許我們應該在小島的南邊上岸。</string>
     <string _locid="36655" gamecharacter="艾蜜莉亞" soundfilename="AMEL2120" portraitfilename="resources\art\units\spc\amelia_black\amelia_black_igc_icon.png">答應要來幫我們的美國軍艦呢?</string>
     <string _locid="36656" gamecharacter="艾蜜莉亞" soundfilename="AMEL2125" portraitfilename="resources\art\units\spc\amelia_black\amelia_black_igc_icon.png">我們成功了! 藏骨殿被摧毀了! 但我要確定波曼死了沒。</string>
-    <string _locid="36657" gamecharacter="西班牙村民" soundfilename="GENR2165" portraitfilename="resources\art\units\spc\villagers\villager_portrait.png">當你在建造基地時，我們會試著擋住藏骨集團的軍隊。</string>
-    <string _locid="36658" gamecharacter="西班牙村民" soundfilename="GENR2170" portraitfilename="resources\art\units\spc\villagers\villager_portrait.png">我們活在藏骨殿的陰影下太久了，我們會幫助你。</string>
-    <string _locid="36659" gamecharacter="西班牙村民" soundfilename="GENR2175" portraitfilename="resources\art\units\spc\villagers\villager_portrait.png">我們會盡可能地提供資源給你。</string>
+    <string _locid="36657" gamecharacter="西班牙村民" soundfilename="GENR2165" portraitfilename="resources\art\units\villagers\villager_portrait.png">當你在建造基地時，我們會試著擋住藏骨集團的軍隊。</string>
+    <string _locid="36658" gamecharacter="西班牙村民" soundfilename="GENR2170" portraitfilename="resources\art\units\villagers\villager_portrait.png">我們活在藏骨殿的陰影下太久了，我們會幫助你。</string>
+    <string _locid="36659" gamecharacter="西班牙村民" soundfilename="GENR2175" portraitfilename="resources\art\units\villagers\villager_portrait.png">我們會盡可能地提供資源給你。</string>
     <string _locid="36660" gamecharacter="波曼" soundfilename="BEAU2045" portraitfilename="resources\art\units\spc\beaumont\beaumont_igc_icon.png">看來哈瓦那已經開始反抗我了。很好... 你們會和艾蜜莉亞‧布萊克一起死!</string>
     <string _locid="36661" gamecharacter="士兵" soundfilename="GENR2180" portraitfilename="resources\art\units\infantry_ranged\crossbow\crossbow_portrait.png">有更多美國軍艦到達了。</string>
     <string _locid="36662">反抗卻洛奇人的攻擊</string>
@@ -7868,7 +7868,7 @@
     <string _locid="37357">隊伍:「火箭技術」改良技術已完成。</string>
     <string _locid="37358" symbol="cStringPUNotEnabled">%s現在無法使用。</string>
     <string _locid="37359" symbol="cStringPUNotObtainable">您的文明無法得到%s。</string>
-    <string _locid="37360">增加長矛騎兵單位對步兵的傷害，且可進行長程攻擊。</string>
+    <string _locid="37360">增加長矛騎兵單位對步兵的傷害，並讓其可以從更遠的距離進行攻擊。</string>
     <string _locid="37361">西班牙紳士</string>
     <string _locid="37362">市鎮中心可支援許多人口，讓您不再需要房舍。</string>
     <string _locid="37363">殖民地地產</string>
@@ -12483,7 +12483,7 @@
     <string _locid="42090" symbol="cStringObtainable">可取得</string>
     <string _locid="42091" symbol="cStringUnobtainable">不可取得</string>
     <string _locid="42092" symbol="cStringActive">作用中</string>
-    <string _locid="42093" symbol="cStringTechSetStatusEffect">%1s: 狀態設定為 %2s</string>
+    <string _locid="42093" symbol="cStringTechSetStatusEffect">%1s: 狀態設定為%2s</string>
     <string _locid="42094" symbol="cStringArtillery">砲兵</string>
     <string _locid="42095" symbol="cStringStartingUnits">起始單位</string>
     <string _locid="42096">艾蜜莉亞‧布萊克</string>
@@ -14037,7 +14037,7 @@
     <string _locid="43637" symbol="cStringRMSNorthwestTerritory">西北區域</string>
     <string _locid="43638">Test Unit</string>
     <string _locid="43639">Test Unit</string>
-    <string _locid="43640">鐵諾奇帝蘭</string>
+    <string _locid="43640">特諾奇提特蘭</string>
     <string _locid="43641">卡納瓦加</string>
     <string _locid="43642">大議會</string>
     <string _locid="43643">起始科技</string>
@@ -14536,7 +14536,7 @@
     <string _locid="44136">貴族小屋</string>
     <string _locid="44137">貴族小屋</string>
     <string _locid="44138">遠距突擊步兵</string>
-    <string _locid="44139">貴族單位，會從擲矛器擲射標槍，擅長攻擊騎兵及土狼游擊兵。</string>
+    <string _locid="44139">貴族單位，會從擲矛器擲射標槍，擅長攻擊騎兵及近戰突擊步兵。</string>
     <string _locid="44140">鷹游擊武士</string>
     <string _locid="44141">INF 鷹游擊武士</string>
     <string _locid="44142">近戰步兵</string>
@@ -16516,7 +16516,7 @@
     <string _locid="46122">短槍商人騎兵</string>
     <string _locid="46123">酒館短槍商人騎兵</string>
     <string _locid="46124">亡命之徒。</string>
-    <string _locid="46125">配備步槍的危險亡命之徒。</string>
+    <string _locid="46125">配備槍械的危險亡命之徒，擅長攻擊重裝步兵。</string>
     <string _locid="46126">持槍叛兵</string>
     <string _locid="46127">酒館持槍叛兵</string>
     <string _locid="46128">海盜。</string>
@@ -18082,7 +18082,7 @@
     <string _locid="47706">考烏特莫克覺得你的軍隊有點單薄，他的戰士會加入你們。</string>
     <string _locid="47707">考烏特莫克不願錯過接下來的戰鬥，等他的軍隊來再進攻!</string>
     <string _locid="47708">阿茲特克軍隊會在這裡集結，不要擋路。</string>
-    <string _locid="47709">鐵諾奇帝蘭的城牆垮了，考烏特莫克正在建造新城市。</string>
+    <string _locid="47709">特諾奇提特蘭的城牆垮了，考烏特莫克正在建造新城市。</string>
     <string _locid="47710">開始演奏歌曲及音樂，為阿茲特克新城市祈福吧!</string>
     <string _locid="47711">我要舉辦盛大的儀式! 因為新城市無法為自己祈福!</string>
     <string _locid="47712">雖然考烏特莫克曾在這裡受過傷，但還是要跟這裡的原住民結盟。</string>
@@ -19249,7 +19249,7 @@
     <string _locid="48930" symbol="cStringSupTrPlayerRankTT">條約爭霸戰玩家排名: %1s (等級 %2s)</string>
     <string _locid="48931" symbol="cStringSupTrTotalXPTT">條約爭霸戰總經驗值: %s</string>
     <string _locid="48932" symbol="cStringSupTrWinRatioTT">條約爭霸戰勝率: %s</string>
-    <string _locid="48933">&lt;color=1.0, 1.0, 0.0&gt;文明優勢:&lt;/color&gt;\n戰鬥祭司可在社區廣場進行儀式，得到更大的效果。\n&lt;color=1.0, 1.0, 0.0&gt;特殊單位:&lt;/color&gt;\n弓箭武士、土狼游擊兵、鷹游擊武士、豹遊蕩武士、奧托米擲石繩兵、美洲獅長槍兵、骷髏武士。\n&lt;color=1.0, 1.0, 0.0&gt;特殊建築物:&lt;/color&gt;\n貴族小屋有絕佳的防禦力，還能訓練精銳阿茲特克單位。\n&lt;color=1.0, 1.0, 0.0&gt;特殊儀式:&lt;/color&gt;\n治療儀式、榮冠戰爭儀式\n\n征服了鄰近諸邦的中美洲強國。他們的權力中心位於鐵諾奇帝蘭，也就是現今的墨西哥市。</string>
+    <string _locid="48933">&lt;color=1.0, 1.0, 0.0&gt;文明優勢:&lt;/color&gt;\n戰鬥祭司可在社區廣場進行儀式，得到更大的效果。\n&lt;color=1.0, 1.0, 0.0&gt;特殊單位:&lt;/color&gt;\n弓箭武士、土狼游擊兵、鷹游擊武士、豹遊蕩武士、奧托米擲石繩兵、美洲獅長槍兵、骷髏武士。\n&lt;color=1.0, 1.0, 0.0&gt;特殊建築物:&lt;/color&gt;\n貴族小屋有絕佳的防禦力，還能訓練精銳阿茲特克單位。\n&lt;color=1.0, 1.0, 0.0&gt;特殊儀式:&lt;/color&gt;\n治療儀式、榮冠戰爭儀式\n\n征服了鄰近諸邦的中美洲強國。他們的權力中心位於特諾奇提特蘭，也就是現今的墨西哥市。</string>
     <string _locid="48934">&lt;color=1.0, 1.0, 0.0&gt;文明優勢:&lt;/color&gt;\n遊戲開始時擁有 1 輛可免費建造建築物的拉橇。\n&lt;color=1.0, 1.0, 0.0&gt;特殊單位:&lt;/color&gt;\n艾那弓箭步兵、森林遊蕩者、坎亞騎兵、輕型加農砲、防彈盾、火槍騎兵、攻城槌、戰斧兵。\n&lt;color=1.0, 1.0, 0.0&gt;特殊建築物:&lt;/color&gt;\n長屋可支援達 15 個人口數、攻城武器廠可訓練和升級砲兵。\n&lt;color=1.0, 1.0, 0.0&gt;特殊儀式:&lt;/color&gt;\n創造者儀式、大地母親儀式\n\n豪丹諾蘇尼人是一支興盛於北美洲東北部的美洲原住民文明。豪丹諾蘇尼同盟的規矩是成員必須和平相處，而他們在對抗外敵時也能團結成一股強大的勢力。</string>
     <string _locid="48935">&lt;color=1.0, 1.0, 0.0&gt;文明優勢:&lt;/color&gt;\n遊戲開始時人口數即為 200，但在進入工業時代之前無法建造牆。\n&lt;color=1.0, 1.0, 0.0&gt;特殊單位:&lt;/color&gt;\n斧騎兵、弓騎士、鷹神弓兵、步槍騎士、托卡拉士兵、塔斯雲坎遊蕩者、瓦其那步槍兵、持棍戰士。\n&lt;color=1.0, 1.0, 0.0&gt;特殊建築物:&lt;/color&gt;\n印第安帳篷可為附近單位提供少量生命值加成。\n&lt;color=1.0, 1.0, 0.0&gt;特殊儀式:&lt;/color&gt;\n戰靈儀式、托卡拉儀式\n\n拉科塔人據有北美洲大片土地，同時也吸收了鄰近部族的「大平原」文化，成為嫻熟的野牛獵人。</string>
     <string _locid="48936">廣場</string>
@@ -19525,7 +19525,7 @@
     <string _locid="49207">(+%d)</string>
     <string _locid="49208">食物收集速率 (每分鐘)</string>
     <string _locid="49209">木材收集速率 (每分鐘)</string>
-    <string _locid="49210">黃金收集速率 (每分鐘)</string>
+    <string _locid="49210">錢幣收集速率 (每分鐘)</string>
     <string _locid="49211">儀式收集速率 (每分鐘)</string>
     <string _locid="49212">貿易收集速率 (每分鐘)</string>
     <string _locid="49213">選取即可邀請玩家。</string>
@@ -20005,7 +20005,7 @@
     <string _locid="49688">聯合戰役</string>
     <string _locid="49689">聯合戰役: 與朋友或其他線上玩家遊玩一場聯合歷史戰役或戰役。</string>
     <string _locid="49690">聯合劇情</string>
-    <string _locid="49691">從下拉式方塊選取一種聯合劇情。劇情在大廳建立後也可以變更。</string>
+    <string _locid="49691">從下拉式方塊選取一種聯合劇情。</string>
     <string _locid="49692">日蝕照明</string>
     <string _locid="49693">日全蝕的城市。</string>
     <string _locid="49694">摩泰佐馬\n摩泰佐馬是阿茲特克三國同盟的最後統治者，這是他最後一次展示華麗服裝的機會。</string>
@@ -20038,13 +20038,13 @@
     <string _locid="49721">/5</string>
     <string _locid="49722">墨西哥</string>
     <string _locid="49723">為阿茲特克人取得一座 5 級以上的家鄉城市。</string>
-    <string _locid="49724">鐵諾奇帝蘭坐落於墨西哥市，該市位於墨西哥合眾國下所屬的墨西哥州境內。</string>
+    <string _locid="49724">特諾奇提特蘭坐落於墨西哥市，該市位於墨西哥合眾國下所屬的墨西哥州境內。</string>
     <string _locid="49725">瓜納華托州</string>
     <string _locid="49726">使用西班牙人發動革命，反抗墨西哥。</string>
     <string _locid="49727">1810 年，在瓜納華托引發的「多洛雷斯呼聲」事件，揭開了墨西哥獨立奮戰的序幕。</string>
     <string _locid="49728">瓦哈卡州</string>
     <string _locid="49729">與薩波特克原住民部落結盟。</string>
-    <string _locid="49730">瓦哈卡州以當地原住民與其文化著稱。其中人口最多、最廣為人知的是薩波特克族和米斯特克族。而該州還有其他十四個民族受官方正式承認。</string>
+    <string _locid="49730">瓦哈卡州以當地原住民與其文化著稱。其中人口最多、最廣為人知的是薩波特克族和米斯特克族。而該州還有其他十四個受官方正式承認的民族。</string>
     <string _locid="49731">普埃布拉州</string>
     <string _locid="49732">在單次遊戲中使用長槍兵單位造成 5,000 傷害。(荷蘭人、法國人、德國人和西班牙人)</string>
     <string _locid="49733">人們經常誤以為「五月五日」是墨西哥獨立日，但這一天實際上是為紀念發生於「五月五日」的普埃布拉戰役，墨西哥軍隊在此戰中以少勝多擊退入侵的法軍，而此戰役發生於墨西哥獨立戰爭後半個世紀。</string>
@@ -20059,7 +20059,7 @@
     <string _locid="49742">港口城市韋拉克魯斯，是墨西哥第一個建立的西班牙國王直轄自治區，其建立甚至早於阿茲特克帝國的滅亡。</string>
     <string _locid="49743">猶加敦州</string>
     <string _locid="49744">與馬雅原住民部落結盟。</string>
-    <string _locid="49745">猶加敦半島的原名是「馬雅布」。在猶加敦馬雅語中，馬雅布的意涵為「平坦」，「馬雅」一詞也是來源於此。</string>
+    <string _locid="49745">猶加敦半島的原名是「馬雅布」。在猶加敦馬雅語中，馬雅布的意涵為「平坦」，「馬雅」一詞也是源自於此。</string>
     <string _locid="49746">哈利斯科州</string>
     <string _locid="49747">在一場小規模戰鬥或多人連線遊戲中，使用西班牙人對墨西哥發動革命後取勝。</string>
     <string _locid="49748">哈利斯科州的座右銘是「哈利斯科即墨西哥」，具體是指墨西哥許多文化特色，如街頭樂隊、墨西哥鄉土音樂、墨西哥炸玉米餅、龍舌蘭、奔牛競賽等，均源於哈利斯科州。</string>
@@ -20089,13 +20089,13 @@
     <string _locid="49772">杜蘭戈城於 18 世紀開設了許多重要礦場，該城至今仍是墨西哥的主要黃金生產地之一。</string>
     <string _locid="49773">奇瓦瓦州</string>
     <string _locid="49774">在單次遊戲中使用西班牙人收集 1,562 單位的錢幣。</string>
-    <string _locid="49775">西班牙人在奇瓦瓦州的第一座城市起於 16 世紀，由當時在尋找「黃金七城」的探險家們建立。</string>
+    <string _locid="49775">西班牙人在奇瓦瓦州的第一座城市建於 16 世紀，由當時在尋找「黃金七城」的探險家們建立。</string>
     <string _locid="49776">恰帕斯州</string>
     <string _locid="49777">對大哥倫比亞共和國 (德國、葡萄牙或西班牙) 發動革命。</string>
-    <string _locid="49778">從西班牙獨立出來後，恰帕斯有三條道路可走，獨立、與北方的墨西哥聯合、或加入中美洲聯邦共和國。該共和國和大哥倫比亞共和國一樣，很快便分崩離析，各州各自為政，恰帕斯則加入了墨西哥。</string>
+    <string _locid="49778">從西班牙獨立出來後，恰帕斯有三條路可選，獨立、與北方的墨西哥聯合、或加入中美洲聯邦共和國。該共和國和大哥倫比亞共和國一樣，很快便分崩離析，各州各自為政，恰帕斯則加入了墨西哥。</string>
     <string _locid="49779">錫那羅亞州</string>
     <string _locid="49780">在單次遊戲中訓練 20 個馬雅單位。</string>
-    <string _locid="49781">一種著名的中美洲古代球類運動，其現代版至今依然盛行於錫那羅亞州。</string>
+    <string _locid="49781">中美洲蹴球是一種著名的中美洲古代球類運動，其現代版至今依然盛行於錫那羅亞州。</string>
     <string _locid="49782">格雷羅州</string>
     <string _locid="49783">在單次遊戲中訓練 30 個革命軍。</string>
     <string _locid="49784">維森特‧格雷羅是墨西哥獨立戰爭期間的革命領袖，他後來廢除了全國的奴隸制度。</string>
@@ -20103,11 +20103,11 @@
     <string _locid="49786">在一場小規模戰鬥或多人連線遊戲中，戰勝阿茲特克人。</string>
     <string _locid="49787">原屬阿茲特克的附庸國特拉斯卡拉，透過與西班牙結盟，擺脫了統治者。又在過程中脫離西班牙的控制，獲得相對上的獨立，最終成為現代墨西哥最小的州。</string>
     <string _locid="49788">科利馬州</string>
-    <string _locid="49789">在單次遊戲中訓練 20 個海盜單位。</string>
+    <string _locid="49789">在單次遊戲中訓練 20 個海盜單位。(包括所有的歐洲文明和中國文明)</string>
     <string _locid="49790">17 世紀時，科利馬州各港口經常停靠裝載珍貴貨物的馬尼拉大帆船，因而成為海盜侵略的目標。</string>
     <string _locid="49791">阿瓜斯卡連特斯州</string>
     <string _locid="49792">從您的家鄉城市運送 2 座工廠。</string>
-    <string _locid="49793">阿瓜斯卡連特斯地州處墨西哥中心，透過鐵路和各個主要城市相連，因此成為紡織業的製造中心。</string>
+    <string _locid="49793">阿瓜斯卡連特斯州位於墨西哥中心，透過鐵路和各個主要城市相連，因此成為紡織業的製造中心。</string>
     <string _locid="49794">坎佩切州</string>
     <string _locid="49795">在單次遊戲中建造 5 艘船隻。</string>
     <string _locid="49796">作為一個重要的貿易港口，坎佩切附近海盜橫行，派去抵禦海盜的船隻最終往往被敵方俘虜。</string>
@@ -20116,7 +20116,7 @@
     <string _locid="49799">墨西哥獨立戰爭後，伊達爾戈州當地的採礦業一蹶不振，英國礦業公司帶來了最先進的蒸汽動力設備和經驗，再次振興了此地區。</string>
     <string _locid="49800">莫雷洛斯州</string>
     <string _locid="49801">在單次遊戲中使用革命軍造成 1,812 傷害。</string>
-    <string _locid="49802">莫雷洛斯州以何塞‧瑪麗亞‧莫雷洛斯神父命名。作為反抗軍領袖，他於 1812 年發起庫奧特拉圍城戰，標誌著反抗軍早期的重要勝利。</string>
+    <string _locid="49802">莫雷洛斯州以何塞‧瑪麗亞‧莫雷洛斯神父命名。作為反抗軍領袖，他於 1812 年發起庫奧特拉圍城戰，象徵著反抗軍早期的重要勝利。</string>
     <string _locid="49803">納亞里特州</string>
     <string _locid="49804">在一場初始時代為探索時代的小規模戰鬥或多人連線遊戲開始 20 分鐘後發動革命。</string>
     <string _locid="49805">雖然納亞里特直到 1917 年才獨立成州，但它從一開始就參與了由何塞‧瑪麗亞‧莫雷洛斯領導的獨立戰爭。</string>
@@ -20135,7 +20135,7 @@
     <string _locid="49818">亡靈節 (Día de Muertos) 1/2</string>
     <string _locid="49819">墨西哥人民正在戴著骷髏面具慶祝亡靈節。</string>
     <string _locid="49820">亡靈節 (Día de Muertos) 2/2</string>
-    <string _locid="49821">墨西哥人民正在施放煙火和點燃營火慶祝亡靈節。</string>
+    <string _locid="49821">墨西哥人民正在施放煙火慶祝亡靈節。</string>
     <string _locid="49822">士兵進軍</string>
     <string _locid="49823">穿越城鎮的墨西哥士兵。</string>
     <string _locid="49824">索卡洛廣場 (原始配色)</string>
@@ -20171,10 +20171,10 @@
     <string _locid="49854">墨西哥探險家自訂項目解除鎖定: 土蘭辛哥軍官和卡拉卡人偶。美國探險家自訂解除鎖定: 山姆大叔和太空人</string>
     <string _locid="49855">檢查</string>
     <string _locid="49856">選取即可檢查挑戰是否已完成。</string>
-    <string _locid="49857">搜尋合作 vs AI</string>
-    <string _locid="49858">搜尋快速配對合作 vs AI 的遊戲。</string>
-    <string _locid="49859">主持合作 vs AI</string>
-    <string _locid="49860">主持快速配對合作 vs AI 的遊戲。</string>
+    <string _locid="49857">搜尋聯合 vs AI</string>
+    <string _locid="49858">搜尋快速配對聯合 vs AI 的遊戲。</string>
+    <string _locid="49859">主持聯合 vs AI</string>
+    <string _locid="49860">主持快速配對聯合 vs AI 的遊戲。</string>
     <string _locid="49861">請選擇至少一項設定以開始搜尋。</string>
     <string _locid="49862">2P vs 2 AI</string>
     <string _locid="49863">3P vs 3 AI</string>
@@ -20197,6 +20197,103 @@
     <string _locid="49880">城都主教座堂的淡藍色版本。</string>
     <string _locid="49881">城都主教座堂 (白色)</string>
     <string _locid="49882">城都主教座堂的白色配色版本。</string>
+    <string _locid="49883">夜間城市。</string>
+    <string _locid="49884">顯示清單中的條約地圖。</string>
+    <string _locid="49885">戰酋援助</string>
+    <string _locid="49886">被動能力: 阿茲特克戰酋的被動能力能讓附近單位獲得雙倍經驗。</string>
+    <string _locid="49887">被動能力: 拉科塔戰酋的被動能力能讓附近單位的移動速度 +10%。</string>
+    <string _locid="49888">被動能力: 印加戰酋的被動能力能讓附近原住民單位的生命值 +20%。</string>
+    <string _locid="49889">被動能力: 豪丹諾蘇尼戰酋的被動能力能讓附近單位的生命值 +10%。</string>
+    <string _locid="49890">社群</string>
+    <string _locid="49891">前往 https://www.facebook.com/ageofempires/</string>
+    <string _locid="49892">前往 https://www.twitter.com/ageofempires/</string>
+    <string _locid="49893">前往 https://www.instagram.com/ageofempiresgame/</string>
+    <string _locid="49894">前往 https://www.youtube.com/ageofempires/</string>
+    <string _locid="49895">前往 https://discord.com/invite/ageofempires/login</string>
+    <string _locid="49896">支援</string>
+    <string _locid="49897">在論壇中尋求協助。</string>
+    <string _locid="49898">請前往 https://forums.ageofempires.com/c/age-of-empires-iii/133</string>
+    <string _locid="49899">論壇</string>
+    <string _locid="49900">查看論壇上的最新內容。</string>
+    <string _locid="49901">前往 https://support.ageofempires.com/hc/categories/360004101511-Age-of-Empires-III-Definitive-Edition</string>
+    <string _locid="49902">回報問題</string>
+    <string _locid="49903">在論壇中報告錯誤。</string>
+    <string _locid="49904">前往 https://support.ageofempires.com/hc/articles/360048537332-Reporting-an-Issue</string>
+    <string _locid="49905">2022 年春節活動</string>
+    <string _locid="49906">2021 年春節活動</string>
+    <string _locid="49907">虎年</string>
+    <string _locid="49908">牛年</string>
+    <string _locid="49909">切換到虎年 (2022) 活動挑戰。</string>
+    <string _locid="49910">切換到牛年 (2021) 活動挑戰。</string>
+    <string _locid="49911">現在您也可以參加以前的活動了! 如果您錯過了往年活動，那就趁現在去嘗試這些挑戰吧!</string>
+    <string _locid="49912">設定檔圖示解除鎖定: 一隻 Xbox 版本的老虎。</string>
+    <string _locid="49913">在蒙古地圖中贏得一場小規模戰鬥或多人連線遊戲。</string>
+    <string _locid="49914">設定檔圖示解除鎖定: 一個身著傳統服裝「漢服」的市民。</string>
+    <string _locid="49915">建造全部的中國奇觀。</string>
+    <string _locid="49916">設定檔圖示解除鎖定: 舞獅</string>
+    <string _locid="49917">使用任何一位亞洲王朝探險家擊昏 50 個寶藏守護者。</string>
+    <string _locid="49918">設定檔圖示解除鎖定: 一個身著唐裝的火繩槍兵。</string>
+    <string _locid="49919">使用中國人從軍事學院、城堡和家鄉城市船運中部署所有軍隊。 (共 13 支軍隊)</string>
+    <string _locid="49920">作弊碼解除鎖定: 中國護衛石獅作弊碼</string>
+    <string _locid="49921">使用印度人並用溫順的老虎艾希爾特或寵物白虎華格納造成 2022 傷害。</string>
+    <string _locid="49922">設定檔圖示解除鎖定: 水虎雕像，一份力量與勇氣的禮物。</string>
+    <string _locid="49923">現在可以從模組瀏覽器中下載冬季仙境了!</string>
+    <string _locid="49924">下載模組</string>
+    <string _locid="49925">選取即可下載此模組。</string>
+    <string _locid="49926">更新/修理模組</string>
+    <string _locid="49927">此模組需要進行更新或修理。</string>
+    <string _locid="49928" symbol="cStringPlayWinterWonderland">遊玩冬季仙境</string>
+    <string _locid="49929">選擇即可遊玩此模組。</string>
+    <string _locid="49930">您已達到了軍事人口上限 {0}/{1}，無法發送這張家鄉城市紙牌。</string>
+    <string _locid="49931">經濟挑戰</string>
+    <string _locid="49932">經濟挑戰: 檢視更多關於經濟挑戰的詳細資訊。</string>
+    <string _locid="49933">完成這些挑戰以提高你的總分!</string>
+    <string _locid="49934">完成方式</string>
+    <string _locid="49935">率先採集 2,000 單位的食物。(200 分)</string>
+    <string _locid="49936">率先採集 2,000 單位的木材。(200 分)</string>
+    <string _locid="49937">率先收集 2,000 單位的錢幣。(200 分)</string>
+    <string _locid="49938">在限制時間內率先採集 1,000 單位的食物: 2 分鐘 (1000 分)、5 分鐘 (400 分)、10 分鐘 (100 分)。</string>
+    <string _locid="49939">在限制時間內率先採集 1,000 單位的木材: 2 分鐘 (1000 分)、5 分鐘 (400 分)、10 分鐘 (100 分)。</string>
+    <string _locid="49940">在限制時間內率先收集 1,000 單位的錢幣: 2 分鐘 (1000 分)、5 分鐘 (400 分)、10 分鐘 (100 分)。</string>
+    <string _locid="49941">在限制時間內率先達到 75 人口: 6 分鐘 (1000 分)、8 分鐘 (500 分)、10 分鐘 (250 分)</string>
+    <string _locid="49942">率先採集 {0} 單位的食物。({1} 分)</string>
+    <string _locid="49943">率先採集 {0} 單位的木材。({1} 分)</string>
+    <string _locid="49944">率先收集 {0} 單位的錢幣。({1} 分)</string>
+    <string _locid="49945">採集 {0} 單位的食物: {1}、{2} 分鐘 ({3} 分)</string>
+    <string _locid="49946">採集 {0} 單位的木材: {1}、{2} 分鐘 ({3} 分)</string>
+    <string _locid="49947">收集 {0} 單位的錢幣: {1}、{2} 分鐘 ({3} 分)</string>
+    <string _locid="49948">達到 {0} 人口: {1}、{2} 分鐘 ({3} 分)</string>
+    <string _locid="49949">在限制時間內率先採集 {0} 單位的食物: {1} 分鐘 ({2} 分)、{3} 分鐘 ({4} 分)、{5} 分鐘 ({6} 分)</string>
+    <string _locid="49950">在限制時間內率先採集 {0} 單位的木材: {1} 分鐘 ({2} 分)、{3} 分鐘 ({4} 分)、{5} 分鐘 ({6} 分)</string>
+    <string _locid="49951">在限制時間內率先收集 {0} 單位的錢幣: {1} 分鐘 ({2} 分)、{3} 分鐘 ({4} 分)、{5} 分鐘 ({6} 分)</string>
+    <string _locid="49952">在限制時間內率先達到 {0} 人口: {1} 分鐘 ({2} 分)、{3} 分鐘 ({4} 分)、{5} 分鐘 ({6} 分)</string>
+    <string _locid="49953">陳烙\n一位強壯的水手，他的智慧和力量能夠助您克服萬難或扭轉局勢。</string>
+    <string _locid="49954">黃堅都指揮\n這位遊歷甚廣的海軍指揮所穿的奢華長袍價值不菲，和他尋寶船上的寶藏一樣珍貴。</string>
+    <string _locid="49955">陳烙</string>
+    <string _locid="49956">黃堅都指揮</string>
+    <string _locid="49957">完成春節活動挑戰以解除此少林大師自訂項目的鎖定。</string>
+    <string _locid="49958">
+    </string>
+    <string _locid="49959">
+    </string>
+    <string _locid="49960">
+    </string>
+    <string _locid="49961">
+    </string>
+    <string _locid="49962">該玩家沒有家鄉城市。</string>
+    <string _locid="49963">選擇即可切換迷你地圖的尺寸: 放大/還原至標準尺寸。</string>
+    <string _locid="49964">雄性護衛石獅</string>
+    <string _locid="49965">雌性護衛石獅</string>
+    <string _locid="49966">人們認為中國的護衛石獅能夠幫助他們抵禦有害的精神影響及可能構成威脅的有害人士。</string>
+    <string _locid="49967">中國的護衛石獅會對抗有害的影響和可能構成威脅的人士。</string>
+    <string _locid="49968">舞獅遊行</string>
+    <string _locid="49969">亞洲文化中的一種傳統舞蹈形式，能帶來好運和財富。</string>
+    <string _locid="49970">一種能帶來好運和財富的傳統舞蹈。</string>
+    <string _locid="49971">少林大師自訂項目: 陳烙</string>
+    <string _locid="49972">少林大師自訂項目: 黃堅都指揮</string>
+    <string _locid="49973">神聖吐息</string>
+    <string _locid="49974">珍珠加農砲彈</string>
+    <string _locid="49976">年春節活動</string>
     <string _locid="60001" symbol="cStringCivNameJapanese">日本人</string>
     <string _locid="60002" symbol="cStringCivNameChinese">中國人</string>
     <string _locid="60003" symbol="cStringCivNameIndians">印度人</string>
@@ -20421,7 +20518,7 @@
     <string _locid="60222">支援人口數為 10。</string>
     <string _locid="60223">神社</string>
     <string _locid="60224">日本神社</string>
-    <string _locid="60225">支援人口數為 20 / 牲畜建築物</string>
+    <string _locid="60225">支援人口數為 {unitPopCapAddition(ypVillage)} / 牲畜建築物</string>
     <string _locid="60226">支援人口數為 20，但可使用改良技術來增加。還能加快牲畜變肥的速度，以及訓練山羊。</string>
     <string _locid="60227">村落</string>
     <string _locid="60228">村落</string>
@@ -20529,8 +20626,8 @@
     <string _locid="60330">VIL 遊牧民族</string>
     <string _locid="60331">輕型砲兵單位，擅長攻擊步兵</string>
     <string _locid="60332">中國攻城武器，射程短，擅長攻擊步兵，但對建築物的攻擊力稍差。</string>
-    <string _locid="60333">火焰投擲器</string>
-    <string _locid="60334">AR 火焰投擲器</string>
+    <string _locid="60333">猛火油櫃</string>
+    <string _locid="60334">AR 猛火油櫃</string>
     <string _locid="60335">間諜</string>
     <string _locid="60336">可隱匿的遠距步兵單位，擅長攻擊步兵及建築物，以及突襲敵人。</string>
     <string _locid="60337">密探</string>
@@ -20890,20 +20987,20 @@
     <string _locid="60691">高貴怯薛</string>
     <string _locid="60692">高貴鐵連枷兵</string>
     <string _locid="60693">高貴流星鎚兵</string>
-    <string _locid="60694">增加火焰投擲器的攻擊力及生命值。</string>
-    <string _locid="60695">紀律火焰投擲器</string>
+    <string _locid="60694">增加猛火油櫃的攻擊力及生命值。</string>
+    <string _locid="60695">紀律猛火油櫃</string>
     <string _locid="60696">紀律日本火槍步兵</string>
     <string _locid="60697">紀律火焰投擲器</string>
-    <string _locid="60698">增加火焰投擲器的攻擊力及生命值。</string>
-    <string _locid="60699">光榮火焰投擲器</string>
+    <string _locid="60698">增加猛火油櫃的攻擊力及生命值。</string>
+    <string _locid="60699">光榮猛火油櫃</string>
     <string _locid="60700">光榮日本火槍步兵</string>
     <string _locid="60701">光榮火焰投擲器</string>
     <string _locid="60702">增加輕型迫擊砲的攻擊力及生命值。</string>
     <string _locid="60703">光榮輕型迫擊砲</string>
     <string _locid="60704">光榮火焰投擲器</string>
     <string _locid="60705">光榮輕型迫擊砲</string>
-    <string _locid="60706">火焰投擲器的高貴升級。</string>
-    <string _locid="60707">高貴火焰投擲器</string>
+    <string _locid="60706">猛火油櫃的高貴升級。</string>
+    <string _locid="60707">高貴猛火油櫃</string>
     <string _locid="60708">高貴日本火槍步兵</string>
     <string _locid="60709">高貴火焰投擲器</string>
     <string _locid="60710">輕型迫擊砲的高貴升級。</string>
@@ -21722,9 +21819,9 @@
     <string _locid="61522">鐵帽王爺軍</string>
     <string _locid="61523">御林軍</string>
     <string _locid="61524">常勝軍</string>
-    <string _locid="61525">1 座火焰投擲器</string>
-    <string _locid="61526">2 座火焰投擲器</string>
-    <string _locid="61527">4 座火焰投擲器</string>
+    <string _locid="61525">1 座猛火油櫃</string>
+    <string _locid="61526">2 座猛火油櫃</string>
+    <string _locid="61527">4 座猛火油櫃</string>
     <string _locid="61528">7 座輕型迫擊砲</string>
     <string _locid="61529">11 座輕型迫擊砲</string>
     <string _locid="61530">2 個神火飛鴉</string>
@@ -21743,11 +21840,11 @@
     <string _locid="61543">防衛軍戰鬥力</string>
     <string _locid="61544">「禁衛軍傷害」船運已經抵達了。</string>
     <string _locid="61545">「防衛軍生命值」船運已經抵達了。</string>
-    <string _locid="61546">增加火繩槍兵及火焰投擲器的攻擊力。</string>
+    <string _locid="61546">增加火繩槍兵及猛火油櫃的攻擊力。</string>
     <string _locid="61547">黑旗軍攻擊力</string>
     <string _locid="61548">「防衛軍生命值」船運已經抵達了。</string>
     <string _locid="61549">「防衛軍戰鬥力」船運已經抵達了。</string>
-    <string _locid="61550">增加草原騎兵對村民及建築物的傷害。增加怯薛對重裝騎兵及土狼游擊兵的傷害。增加鐵連枷兵對弓兵及長槍兵的傷害。</string>
+    <string _locid="61550">增加草原騎兵對村民和建築物的攻擊傷害。增加怯薛對重裝騎兵和近戰突擊步兵的攻擊傷害。增加鐵連枷兵對弓兵和長槍兵的攻擊傷害。</string>
     <string _locid="61551">蒙古勇者</string>
     <string _locid="61552">「防衛軍生命值」船運已經抵達了。</string>
     <string _locid="61553">「蒙古軍」船運已經抵達了。</string>
@@ -22628,7 +22725,7 @@
     <string _locid="62427">木工技術</string>
     <string _locid="62428">「木工技術」船運已經抵達了。</string>
     <string _locid="62429" symbol="cStringCivRolloverJapanese">&lt;color=1.0, 1.0, 0.0&gt;文明優勢:&lt;/color&gt;\n村民無法狩獵，但神社可以吸引動物而產生資源。\n&lt;color=1.0, 1.0, 0.0&gt;特殊單位:&lt;/color&gt;\n日本火槍步兵、安宅船、大名、火焰之箭、日本船、弓僧兵、日本迫擊砲、薙刀騎兵、鐵甲船、日本武士、流鏑馬弓兵、日本長弓兵。\n&lt;color=1.0, 1.0, 0.0&gt;特殊建築物:&lt;/color&gt;\n櫻桃園是食物的來源。道場可自動產生軍隊、神社是日本人的家鄉。\n&lt;color=1.0, 1.0, 0.0&gt;奇觀:&lt;/color&gt;\n金閣寺、鐮倉大佛、幕府、鳥居、東照宮\n\n居住於亞洲遠東地區日本島等地的大和文明後裔，目前由統一全國的德川幕府統治。</string>
-    <string _locid="62430" symbol="cStringCivRolloverChinese">&lt;color=1.0, 1.0, 0.0&gt;文明優勢:&lt;/color&gt;\n人口上限可達 220。可在軍事學院訓練旗軍。\n&lt;color=1.0, 1.0, 0.0&gt;特殊單位:&lt;/color&gt;\n火繩槍兵、長刀兵、中國連弩兵、弟子、火帆船、火焰投擲器、神火飛鴉、福船、輕型迫擊砲、鐵連枷兵、怯薛、流星鎚兵、中國長槍兵、少林大師、草原騎兵和戰鬥帆船。\n&lt;color=1.0, 1.0, 0.0&gt;特殊建築物:&lt;/color&gt;\n軍事學院結合了軍營及馬廄的功能。村落可支援 20 個人口數，還能加快牲畜變肥的速度。\n&lt;color=1.0, 1.0, 0.0&gt;奇觀:&lt;/color&gt;\n孔廟、大報恩寺塔、頤和園、天壇和白塔\n\n清朝是世界歷史上第五大的帝國。當時中國人組成的「旗軍」，是一種囊括滿人、漢人和蒙古人在內的軍事社會組織。</string>
+    <string _locid="62430" symbol="cStringCivRolloverChinese">&lt;color=1.0, 1.0, 0.0&gt;文明優勢:&lt;/color&gt;\n人口上限可達 220。可在軍事學院訓練旗軍。\n&lt;color=1.0, 1.0, 0.0&gt;特殊單位:&lt;/color&gt;\n火繩槍兵、長刀兵、中國連弩兵、弟子、火帆船、猛火油櫃、神火飛鴉、福船、輕型迫擊砲、鐵連枷兵、怯薛、流星鎚兵、中國長槍兵、少林大師、草原騎兵和戰鬥帆船。\n&lt;color=1.0, 1.0, 0.0&gt;特殊建築物:&lt;/color&gt;\n軍事學院結合了軍營及馬廄的功能。村落可支援 20 個人口數，還能加快牲畜變肥的速度。\n&lt;color=1.0, 1.0, 0.0&gt;奇觀:&lt;/color&gt;\n孔廟、大報恩寺塔、頤和園、天壇和白塔\n\n清朝是世界歷史上第五大的帝國。當時中國人組成的「旗軍」，是一種囊括滿人、漢人和蒙古人在內的軍事社會組織。</string>
     <string _locid="62431" symbol="cStringCivRolloverIndians">&lt;color=1.0, 1.0, 0.0&gt;文明優勢:&lt;/color&gt;\n大多數的船運能帶來額外的村民。村民耗費木材而非食物，且無法透過牲畜採集食物。\n&lt;color=1.0, 1.0, 0.0&gt;特殊單位:&lt;/color&gt;\n婆羅門、連枷象、廓爾喀兵、象轎兵、長矛象夫、拉傑普特人、攻城大象、印度兵、土著騎兵和駱駝騎兵。\n&lt;color=1.0, 1.0, 0.0&gt;特殊建築物:&lt;/color&gt;\n在聖地放牧牲畜時可獲得更多經驗值，還能訓練牛。芒果園是木材的來源。客棧可提供類似馬廄的功能。\n&lt;color=1.0, 1.0, 0.0&gt;奇觀:&lt;/color&gt;\n阿格拉堡壘、查米納塔門、老鼠神廟、泰姬瑪哈陵、勝利塔\n\n蒙兀兒帝國是南亞地區的近現代帝國，為南亞歷史上最大的帝國之一。</string>
     <string _locid="62432" symbol="cStringCivNameSPCJapanese">日本人</string>
     <string _locid="62433" symbol="cStringCivNameSPCChinese">中國人</string>
@@ -23775,11 +23872,11 @@
     <string _locid="63691">一隻馴養的白虎，擅長攻擊守護者。</string>
     <string _locid="63692">寵物白虎華格納</string>
     <string _locid="63693">寵物白虎</string>
-    <string _locid="63694">運送 9 位中國連弩兵，以及 1 座火焰投擲器到殖民地。</string>
+    <string _locid="63694">運送 9 位中國連弩兵，以及 1 座猛火油櫃到殖民地。</string>
     <string _locid="63695">運送 8 位草原騎兵，以及 8 位怯薛到殖民地，並升級這兩種單位。</string>
     <string _locid="63696">運送 8 位鐵連枷兵，以及 3 隻神火飛鴉到殖民地。</string>
     <string _locid="63697">運送 22 位火繩槍兵，以及 8 座輕型迫擊砲到殖民地。</string>
-    <string _locid="63698">運送 12 位長刀兵，以及 2 座火焰投擲器到殖民地。</string>
+    <string _locid="63698">運送 12 位長刀兵，以及 2 座猛火油櫃到殖民地。</string>
     <string _locid="63699">長槍兵單位，擅長攻擊步兵。</string>
     <string _locid="63700">生命值低的長槍兵，但射程很長，且擅長攻擊步兵。</string>
     <string _locid="63701">護衛法國長槍兵</string>
@@ -28750,13 +28847,13 @@
     <string _locid="68725">這個船運抵達後，每次船運都會免費得到 2 位印度兵，而不是村民。</string>
     <string _locid="68726">徵召印度兵</string>
     <string _locid="68727">步槍步兵單位，擅長攻擊重裝步兵。 / 砲兵單位，擅長攻擊步兵。</string>
-    <string _locid="68728">包含步槍步兵及砲兵單位的反步兵軍隊。\n3 位火繩槍兵: 射程長但生命值低的長槍兵單位，擅長攻擊步兵。\n1 座火焰投擲器: 輕型砲兵單位，擅長攻擊步兵，對建築物的攻擊力稍差。</string>
+    <string _locid="68728">包含步槍步兵及砲兵單位的反步兵軍隊。\n3 位火繩槍兵: 射程長但生命值低的長槍兵單位，擅長攻擊步兵。\n1 座猛火油櫃: 輕型砲兵單位，擅長攻擊步兵，對建築物的攻擊力稍差。</string>
     <string _locid="68729">黑旗軍</string>
     <string _locid="68730">步槍步兵單位，擅長攻擊重裝步兵。 / 砲兵單位，擅長攻擊步兵。</string>
-    <string _locid="68731">包含步槍步兵及砲兵單位的反步兵軍隊。\n3 位火繩槍兵: 射程長但生命值低的長槍兵單位，擅長攻擊步兵。\n1 座火焰投擲器: 輕型砲兵單位，擅長攻擊步兵，對建築物的攻擊力稍差。</string>
+    <string _locid="68731">包含步槍步兵及砲兵單位的反步兵軍隊。\n3 位火繩槍兵: 射程長但生命值低的長槍兵單位，擅長攻擊步兵。\n1 座猛火油櫃: 輕型砲兵單位，擅長攻擊步兵，對建築物的攻擊力稍差。</string>
     <string _locid="68732">黑旗軍 (頤和園)</string>
-    <string _locid="68733" symbol="cStringWonderBlackFlagArmy">設定這個奇觀生產黑旗軍。\n4 位火繩槍兵\n1 座火焰投擲器</string>
-    <string _locid="68734" symbol="cStringWonderBlackFlagArmyActive">這個奇觀正在生產黑旗軍。\n4 位火繩槍兵\n1 座火焰投擲器</string>
+    <string _locid="68733" symbol="cStringWonderBlackFlagArmy">設定這個奇觀生產黑旗軍。\n4 位火繩槍兵\n1 座猛火油櫃</string>
+    <string _locid="68734" symbol="cStringWonderBlackFlagArmyActive">這個奇觀正在生產黑旗軍。\n4 位火繩槍兵\n1 座猛火油櫃</string>
     <string _locid="68735" symbol="cStringRMSDeccanLarge">大型德干高原</string>
     <string _locid="68736" symbol="cStringRMSYellowRriverLarge">大型黃河</string>
     <string _locid="68737" symbol="cStringRMSSilkRoadLarge">大型絲路</string>
@@ -30206,8 +30303,8 @@
     <string _locid="70180">舞蛇人: 這支蛇笛可以吹出十一個音階。</string>
     <string _locid="70181">舞蛇人: 沒錯，那些都是被蛇咬的疤痕。我又沒說我有天份。</string>
     <string _locid="70182">舞蛇人: 跟你說個秘密，可別告訴任何人。這條蛇可以抽我收入的兩成...</string>
-    <string _locid="70183" symbol="cStringWonderBlackFlag">設定頤和園生產黑旗軍。\n3 火繩槍兵\n1 座火焰投擲器</string>
-    <string _locid="70184" symbol="cStringWonderBlackFlagOn">頤和園正在生產黑旗軍。\n3 位火繩槍兵\n1 座火焰投擲器</string>
+    <string _locid="70183" symbol="cStringWonderBlackFlag">設定頤和園生產黑旗軍。\n3 火繩槍兵\n1 座猛火油櫃</string>
+    <string _locid="70184" symbol="cStringWonderBlackFlagOn">頤和園正在生產黑旗軍。\n3 位火繩槍兵\n1 座猛火油櫃</string>
     <string _locid="70185" symbol="cStringypUnitMansabdarAuraName">皇家服務</string>
     <string _locid="70186" symbol="cStringypUnitMansabdarAura">被動能力: 曼沙達爾會增加附近相同類型單位的生命值。</string>
     <string _locid="70187" gamecharacter="陳烙" portraitfilename="resources\art\units\asians\spc\chen\chen_icon_portrait.png" soundfilename="YCHEN5025">既然我們已經救出人了，就讓他們清出一條回營地的路吧。</string>
@@ -32038,7 +32135,7 @@
     <string _locid="72598">布萊克家族獵鷹公司的農莊。\n\n&lt;color=1.0, 1.0, 0.0&gt;單位:&lt;/color&gt;\n火槍兵、革命軍、長槍兵、擲彈兵、輕騎兵、鷹砲、騎砲兵、槍騎兵</string>
     <string _locid="72599">布萊克拉科塔家族的農莊。\n\n&lt;color=1.0, 1.0, 0.0&gt;單位:&lt;/color&gt;\n持棍戰士、革命軍、瓦其那步槍兵、塔斯雲坎遊蕩者、斧騎兵、鷹砲、長重砲、弓騎士</string>
     <string _locid="72600">日本德川幕府，江戶時代。\n\n&lt;color=1.0, 1.0, 0.0&gt;單位:&lt;/color&gt;\n日本長弓兵、日本火槍步兵、日本武士、薙刀騎兵、流鏑馬弓兵、日本迫擊砲、火焰之箭</string>
-    <string _locid="72601">15 世紀中國明朝尋寶船。\n\n&lt;color=1.0, 1.0, 0.0&gt;單位:&lt;/color&gt;\n中國連弩兵、中國長槍兵、怯薛、火繩槍兵、長刀兵、草原騎兵、鐵連枷兵、流星鎚兵、火焰投擲器、神火飛鴉</string>
+    <string _locid="72601">15 世紀中國明朝尋寶船。\n\n&lt;color=1.0, 1.0, 0.0&gt;單位:&lt;/color&gt;\n中國連弩兵、中國長槍兵、怯薛、火繩槍兵、長刀兵、草原騎兵、鐵連枷兵、流星鎚兵、猛火油櫃、神火飛鴉</string>
     <string _locid="72602">德里英國東印度公司。\n\n&lt;color=1.0, 1.0, 0.0&gt;單位:&lt;/color&gt;\n拉傑普特人、軟劍兵、廓爾喀兵、印度兵、土著騎兵、駱駝騎兵、長矛象夫、象轎兵、攻城大象</string>
     <string _locid="72603">簡單</string>
     <string _locid="72604">令人反感的氏族名稱</string>
@@ -32291,6 +32388,8 @@
     <string _locid="73001" symbol="cStringGameModeRankedDeathmatch">排名生死戰</string>
     <string _locid="73002" symbol="cStringCasualRankedTeamsError">排名遊戲必須有兩支人數相同的隊伍。</string>
     <string _locid="73003" symbol="cStringCasualRankedDisabled">在排名遊戲中不允許使用。</string>
+    <string _locid="73004" symbol="cStringGameModeRankedTreatyTooltip">排名條約: 影響排名的條約遊戲。</string>
+    <string _locid="73005" symbol="cStringGameModeRankedDeathmatchTooltip">排名生死戰: 影響排名的生死戰遊戲。</string>
     <string _locid="79800">增加城堡和碉堡的攻擊力。</string>
     <string _locid="79801">城堡和碉堡可發射加農砲進行攻擊，而且有更多生命值。</string>
     <string _locid="79802">山地城堡和前線碉堡</string>
@@ -34170,23 +34269,23 @@
     <string _locid="84705">富拉尼遊牧民族</string>
     <string _locid="84706">豪薩佃農</string>
     <string _locid="84708" referencedplayerid="1" gamecharacter="奧斯曼" soundfilename="ZUSMA0000" portraitfilename="resources\art\units\spc\usman_dan_fodio\usman_dan_fodio_portrait.png">豪薩貴族們忘記了我們的傳統! 他們過著貪婪的腐朽生活，若有誰膽敢批評他們，他們都會遭到驅逐。我拒絕讓這一切再這樣繼續下去了!</string>
-    <string _locid="84709" referencedplayerid="1" gamecharacter="追隨者" soundfilename="ZGENR0180" portraitfilename="resources\art\units\africans\hausa\bodyguard\bodyguard_portrait.png">無論發生什麼事，我們都會站在你這邊，丹‧福迪奧，但你建議我們怎麼做呢?</string>
+    <string _locid="84709" referencedplayerid="1" gamecharacter="追隨者" soundfilename="ZGENR0180" portraitfilename="resources\art\units\africans\hausa\bodyguard\bodyguard_portrait_spc.png">無論發生什麼事，我們都會站在你這邊，丹‧福迪奧，但你建議我們怎麼做呢?</string>
     <string _locid="84710" referencedplayerid="1" gamecharacter="奧斯曼" soundfilename="ZUSMA0005" portraitfilename="resources\art\units\spc\usman_dan_fodio\usman_dan_fodio_portrait.png">聽我說，我的朋友們，被鞭打和放逐的人應該團結起來，把這片土地從他們貪婪的手中奪回來。我們並不孤單，因為河這一邊的富拉尼人討厭豪薩。他們會幫助我們起義的!</string>
-    <string _locid="84711" referencedplayerid="6" gamecharacter="富拉戰士" soundfilename="ZGENR0185" portraitfilename="resources\art\units\africans\hausa\fula_warrior\fula_warrior_portrait.png">我們將加入你的戰鬥，奧斯曼‧丹‧福迪奧，忠實信徒的指揮官。</string>
-    <string _locid="84712" referencedplayerid="6" gamecharacter="富拉戰士" soundfilename="ZGENR0190" portraitfilename="resources\art\units\africans\hausa\fula_warrior\fula_warrior_portrait.png">豪薩士兵前來襲擊我們的駐紮地了! 我們的弓兵現在可以保護我們了，但不久之後，城邦會向我們發動更猛烈的攻擊。我們必須做好迎戰他們的準備。</string>
+    <string _locid="84711" referencedplayerid="6" gamecharacter="富拉戰士" soundfilename="ZGENR0185" portraitfilename="resources\art\units\africans\hausa\fula_warrior\fula_warrior_portrait_spc.png">我們將加入你的戰鬥，奧斯曼‧丹‧福迪奧，忠實信徒的指揮官。</string>
+    <string _locid="84712" referencedplayerid="6" gamecharacter="富拉戰士" soundfilename="ZGENR0190" portraitfilename="resources\art\units\africans\hausa\fula_warrior\fula_warrior_portrait_spc.png">豪薩士兵前來襲擊我們的駐紮地了! 我們的弓兵現在可以保護我們了，但不久之後，城邦會向我們發動更猛烈的攻擊。我們必須做好迎戰他們的準備。</string>
     <string _locid="84713" referencedplayerid="1" gamecharacter="奧斯曼" soundfilename="ZUSMA0010" portraitfilename="resources\art\units\spc\usman_dan_fodio\usman_dan_fodio_portrait.png">戈比爾、卡齊納和卡諾已經聯合起來與我們作戰了。我們必須擊敗所有這三座城市才能取得勝利。只要我們能摧毀他們的市鎮中心，他們就會降服於我們。</string>
     <string _locid="84714" referencedplayerid="1" gamecharacter="奧斯曼" soundfilename="ZUSMA0015" portraitfilename="resources\art\units\spc\usman_dan_fodio\usman_dan_fodio_portrait.png">我們必須建造一所大學，以便正確地教育我們的人民。這樣做也會增加我們的影響力。</string>
     <string _locid="84715" referencedplayerid="1" gamecharacter="奧斯曼" soundfilename="ZUSMA0020" portraitfilename="resources\art\units\spc\usman_dan_fodio\usman_dan_fodio_portrait.png">受折磨的佃農們在城牆外的田地裡幹活。如果我們能解救他們，他們將願意拿起武器與我們一起作戰。</string>
-    <string _locid="84716" referencedplayerid="1" gamecharacter="追隨者" soundfilename="ZGENR0195" portraitfilename="resources\art\units\africans\hausa\bodyguard\bodyguard_portrait.png">我們解救出來的佃農們將分別加入奧斯曼和我們的富拉盟友。</string>
-    <string _locid="84717" referencedplayerid="6" gamecharacter="富拉戰士" soundfilename="ZGENR0200" portraitfilename="resources\art\units\africans\hausa\fula_warrior\fula_warrior_portrait.png">我們從豪薩那裡解救了更多工人!</string>
-    <string _locid="84718" referencedplayerid="1" gamecharacter="追隨者" soundfilename="ZGENR0205" portraitfilename="resources\art\units\africans\hausa\bodyguard\bodyguard_portrait.png">來吧，兄弟姐妹們。站起來反抗我們的壓迫者!</string>
-    <string _locid="84719" referencedplayerid="6" gamecharacter="富拉戰士" soundfilename="ZGENR0210" portraitfilename="resources\art\units\africans\hausa\fula_warrior\fula_warrior_portrait.png">又一批工人們被解救出來了!</string>
-    <string _locid="84720" referencedplayerid="1" gamecharacter="追隨者" soundfilename="ZGENR0215" portraitfilename="resources\art\units\africans\hausa\bodyguard\bodyguard_portrait.png">我們解救了所有工人!</string>
-    <string _locid="84721" referencedplayerid="6" gamecharacter="富拉戰士" soundfilename="ZGENR0220" portraitfilename="resources\art\units\africans\hausa\fula_warrior\fula_warrior_portrait.png">卡齊納已經投降了!</string>
-    <string _locid="84722" referencedplayerid="1" gamecharacter="追隨者" soundfilename="ZGENR0225" portraitfilename="resources\art\units\africans\hausa\bodyguard\bodyguard_portrait.png">卡諾已經屈服了!</string>
-    <string _locid="84723" referencedplayerid="1" gamecharacter="追隨者" soundfilename="ZGENR0230" portraitfilename="resources\art\units\africans\hausa\bodyguard\bodyguard_portrait.png">戈比爾陷入火海了!</string>
+    <string _locid="84716" referencedplayerid="1" gamecharacter="追隨者" soundfilename="ZGENR0195" portraitfilename="resources\art\units\africans\hausa\bodyguard\bodyguard_portrait_spc.png">我們解救出來的佃農們將分別加入奧斯曼和我們的富拉盟友。</string>
+    <string _locid="84717" referencedplayerid="6" gamecharacter="富拉戰士" soundfilename="ZGENR0200" portraitfilename="resources\art\units\africans\hausa\fula_warrior\fula_warrior_portrait_spc.png">我們從豪薩那裡解救了更多工人!</string>
+    <string _locid="84718" referencedplayerid="1" gamecharacter="追隨者" soundfilename="ZGENR0205" portraitfilename="resources\art\units\africans\hausa\bodyguard\bodyguard_portrait_spc.png">來吧，兄弟姐妹們。站起來反抗我們的壓迫者!</string>
+    <string _locid="84719" referencedplayerid="6" gamecharacter="富拉戰士" soundfilename="ZGENR0210" portraitfilename="resources\art\units\africans\hausa\fula_warrior\fula_warrior_portrait_spc.png">又一批工人們被解救出來了!</string>
+    <string _locid="84720" referencedplayerid="1" gamecharacter="追隨者" soundfilename="ZGENR0215" portraitfilename="resources\art\units\africans\hausa\bodyguard\bodyguard_portrait_spc.png">我們解救了所有工人!</string>
+    <string _locid="84721" referencedplayerid="6" gamecharacter="富拉戰士" soundfilename="ZGENR0220" portraitfilename="resources\art\units\africans\hausa\fula_warrior\fula_warrior_portrait_spc.png">卡齊納已經投降了!</string>
+    <string _locid="84722" referencedplayerid="1" gamecharacter="追隨者" soundfilename="ZGENR0225" portraitfilename="resources\art\units\africans\hausa\bodyguard\bodyguard_portrait_spc.png">卡諾已經屈服了!</string>
+    <string _locid="84723" referencedplayerid="1" gamecharacter="追隨者" soundfilename="ZGENR0230" portraitfilename="resources\art\units\africans\hausa\bodyguard\bodyguard_portrait_spc.png">戈比爾陷入火海了!</string>
     <string _locid="84724" referencedplayerid="1" gamecharacter="奧斯曼" soundfilename="ZUSMA0025" portraitfilename="resources\art\units\spc\usman_dan_fodio\usman_dan_fodio_portrait.png">我們成功了! 其他城邦將知曉我們的勝利並放下武器。我們再也不用屈服於冷酷無情的國王和王后了!</string>
-    <string _locid="84725" referencedplayerid="6" gamecharacter="富拉戰士" soundfilename="ZGENR0235" portraitfilename="resources\art\units\africans\hausa\fula_warrior\fula_warrior_portrait.png">只有透過體力勞動才能使我們保持強大。當我們沒有戰鬥時，我們可以砍伐樹木來採集木材。</string>
+    <string _locid="84725" referencedplayerid="6" gamecharacter="富拉戰士" soundfilename="ZGENR0235" portraitfilename="resources\art\units\africans\hausa\fula_warrior\fula_warrior_portrait_spc.png">只有透過體力勞動才能使我們保持強大。當我們沒有戰鬥時，我們可以砍伐樹木來採集木材。</string>
     <string _locid="84726">豪薩的隕落</string>
     <string _locid="84727">反抗豪薩諸國。</string>
     <string _locid="84728">摧毀戈比爾、卡齊納和卡諾的市鎮中心。</string>
@@ -34305,8 +34404,8 @@
     <string _locid="85003">的黎玻里</string>
     <string _locid="85004">的黎玻里</string>
     <string _locid="85005">美國海軍</string>
-    <string _locid="85008" referencedplayerid="1" gamecharacter="史帝芬‧迪凱特" soundfilename="ZDECA0000" portraitfilename="resources\art\units\spc\marine\marine_officer_portrait.png">美國絕不接受強大的軍艦落入下流海盜的手中! 費城號無法在低潮時出航，因此唯一選項就是把船摧毀!</string>
-    <string _locid="85009" referencedplayerid="1" gamecharacter="史帝芬‧迪凱特" soundfilename="ZDECA0005" portraitfilename="resources\art\units\spc\marine\marine_officer_portrait.png">我們需要的黎玻里旗幟的海盜船，才有辦法悄悄溜進碼頭。偵察兵說有一艘很快會經過，我們必須擄獲那艘船!</string>
+    <string _locid="85008" referencedplayerid="1" gamecharacter="史帝芬‧迪凱特" soundfilename="ZDECA0000" portraitfilename="resources\art\units\spc\marine\marine_officer_portrait.png">美國絕不接受強大的軍艦落入下流的海盜手中! 既然退潮讓我們無法把費城號駛出碼頭，因此唯一選項就是把船摧毀!</string>
+    <string _locid="85009" referencedplayerid="1" gamecharacter="史帝芬‧迪凱特" soundfilename="ZDECA0005" portraitfilename="resources\art\units\spc\marine\marine_officer_portrait.png">我們需要一艘掛有的黎玻里旗幟的海盜船，才有辦法悄悄溜進碼頭。偵察兵說有一艘很快會經過，我們必須擄獲那艘船!</string>
     <string _locid="85010" referencedplayerid="1" gamecharacter="史帝芬‧迪凱特" soundfilename="ZDECA0010" portraitfilename="resources\art\units\spc\marine\marine_officer_portrait.png">動作快! 海盜船就快追不到了!</string>
     <string _locid="85011" referencedplayerid="1" gamecharacter="史帝芬‧迪凱特" soundfilename="ZDECA0015" portraitfilename="resources\art\units\spc\marine\marine_officer_portrait.png">我們未能及時擄獲船艦，導致的黎玻里被驚動了。放棄任務!</string>
     <string _locid="85012" referencedplayerid="1" gamecharacter="史帝芬‧迪凱特" soundfilename="ZDECA0020" portraitfilename="resources\art\units\spc\marine\marine_officer_portrait.png">弟兄們，幹得好! 現在立即攻占碼頭入口!</string>
@@ -34340,7 +34439,7 @@
     <string _locid="85040">攻占哨站即可控制碼頭入口。</string>
     <string _locid="85041">將俘虜的海盜船帶到費城號並消滅其守衛。</string>
     <string _locid="85042">使用俘虜的海盜船能力和划槳船悄悄抵達費城號。船艦的隱匿能力時間有限，所以也要抓準時間。</string>
-    <string _locid="85043">在費城號裝炸藥的期間防衛俘虜的海盜船。</string>
+    <string _locid="85043">在費城號裝炸藥的期間保衛俘虜的海盜船。</string>
     <string _locid="85044">費城號準備爆破需要時間，務必派遣增援。</string>
     <string _locid="85045">俘虜的海盜船抵達了碼頭入口的護衛艦。</string>
     <string _locid="85046">費城號摧毀了! 快逃跑!</string>
@@ -34364,21 +34463,21 @@
     <string _locid="85103">保皇派護衛</string>
     <string _locid="85104">墨西哥城鎮</string>
     <string _locid="85105">南部保皇派軍隊</string>
-    <string _locid="85108" referencedplayerid="1" gamecharacter="隨軍神父" soundfilename="ZHIDA0000" portraitfilename="resources\art\units\spc\hidalgo\spc_hidalgo_portrait.png">我的子民... 我們遭受西班牙人不公不義的對待，生計被他們完全掌控。我們必須立即起身反抗，維護我們的權利，將西班牙人逐出我們的土地!</string>
-    <string _locid="85109" referencedplayerid="1" gamecharacter="隨軍神父" soundfilename="ZHIDA0005" portraitfilename="resources\art\units\spc\hidalgo\spc_hidalgo_portrait.png">拿起武器! 我們將殺光敵人。</string>
-    <string _locid="85110" referencedplayerid="2" gamecharacter="將軍" soundfilename="ZALLE0000" portraitfilename="resources\art\units\spc\allende\spc_allende_portrait.png">我們正需要像你這種猛將! 率兵去解放拉哈河以北的城鎮，南部城鎮交給我。</string>
-    <string _locid="85111" referencedplayerid="2" gamecharacter="將軍" soundfilename="ZALLE0005" portraitfilename="resources\art\units\spc\allende\spc_allende_portrait.png">這座城鎮的居民會用步槍，但除了步兵以外，我們還需要更強的火力來驅逐西班牙人。</string>
-    <string _locid="85112" referencedplayerid="1" gamecharacter="隨軍神父" soundfilename="ZHIDA0010" portraitfilename="resources\art\units\spc\hidalgo\spc_hidalgo_portrait.png">河流下游有養馬的牧場，更遠處則有槍砲鑄造廠。我們需要這些火力才能攻打山上的西班牙人基地。</string>
-    <string _locid="85113" referencedplayerid="5" gamecharacter="塞拉亞市民" soundfilename="ZGENR0380" portraitfilename="resources\art\units\villagers\villager_portrait.png">謝謝你! 西班牙人被趕走了，我們終於能再次自由自在地務農了。</string>
-    <string _locid="85114" referencedplayerid="5" gamecharacter="阿坎巴羅市民" soundfilename="ZGENR0385" portraitfilename="resources\art\units\villagers\villager_portrait.png">我們要跟隨你!</string>
-    <string _locid="85115" referencedplayerid="5" gamecharacter="阿庫爾科市民" soundfilename="ZGENR0390" portraitfilename="resources\art\units\villagers\villager_portrait.png">我們的自由到來了!</string>
-    <string _locid="85116" referencedplayerid="5" gamecharacter="薩拉曼卡市民" soundfilename="ZGENR0395" portraitfilename="resources\art\units\villagers\villager_portrait.png">我們脫離西班牙人的掌控了。我們將加入這場革命!</string>
-    <string _locid="85117" referencedplayerid="5" gamecharacter="伊斯特拉瓦卡市民" soundfilename="ZGENR0400" portraitfilename="resources\art\units\villagers\villager_portrait.png">革命之火將燒盡西班牙人!</string>
-    <string _locid="85118" referencedplayerid="5" gamecharacter="托路卡市民" soundfilename="ZGENR0405" portraitfilename="resources\art\units\villagers\villager_portrait.png">西班牙人毫無招架之力!</string>
-    <string _locid="85119" referencedplayerid="1" gamecharacter="隨軍神父" soundfilename="ZHIDA0015" portraitfilename="resources\art\units\spc\hidalgo\spc_hidalgo_portrait.png">西班牙逼我們從糧倉購買葡萄和橄欖，不讓我們自己種。那些糧倉就在附近，我們應該奪回屬於我們的食物。</string>
-    <string _locid="85120" referencedplayerid="2" gamecharacter="將軍" soundfilename="ZALLE0010" portraitfilename="resources\art\units\spc\allende\spc_allende_portrait.png">好主意!</string>
-    <string _locid="85121" referencedplayerid="1" gamecharacter="隨軍神父" soundfilename="ZHIDA0020" portraitfilename="resources\art\units\spc\hidalgo\spc_hidalgo_portrait.png">我們得到了本地居民的全數支持! 是時候攻打山上的西班牙人了。</string>
-    <string _locid="85122" referencedplayerid="2" gamecharacter="將軍" soundfilename="ZALLE0015" portraitfilename="resources\art\units\spc\allende\spc_allende_portrait.png">這裡的西班牙人被打敗了。你認為接下來要進攻墨西哥城嗎?</string>
+    <string _locid="85108" referencedplayerid="1" gamecharacter="隨軍神父" soundfilename="ZHIDA0000" portraitfilename="resources\art\units\spc\hidalgo\igc_hidalgo_portrait.png">我的子民... 我們遭受西班牙人不公不義的對待，生計被他們完全掌控。我們必須立即起身反抗，維護我們的權利，將西班牙人逐出我們的土地!</string>
+    <string _locid="85109" referencedplayerid="1" gamecharacter="隨軍神父" soundfilename="ZHIDA0005" portraitfilename="resources\art\units\spc\hidalgo\igc_hidalgo_portrait.png">拿起武器! 我們將殺光敵人。</string>
+    <string _locid="85110" referencedplayerid="2" gamecharacter="將軍" soundfilename="ZALLE0000" portraitfilename="resources\art\units\spc\allende\igc_allende_portrait.png">我們正需要像你這種猛將! 率兵去解放拉哈河以北的城鎮，南部城鎮交給我。</string>
+    <string _locid="85111" referencedplayerid="2" gamecharacter="將軍" soundfilename="ZALLE0005" portraitfilename="resources\art\units\spc\allende\igc_allende_portrait.png">這座城鎮的居民會用步槍，但除了步兵以外，我們還需要更強的火力來驅逐西班牙人。</string>
+    <string _locid="85112" referencedplayerid="1" gamecharacter="隨軍神父" soundfilename="ZHIDA0010" portraitfilename="resources\art\units\spc\hidalgo\igc_hidalgo_portrait.png">河流下游有養馬的牧場，更遠處則有槍砲鑄造廠。我們需要這些火力才能攻打山上的西班牙人基地。</string>
+    <string _locid="85113" referencedplayerid="5" gamecharacter="塞拉亞市民" soundfilename="ZGENR0380" portraitfilename="resources\art\units\villagers\villager_portrait_male.png">謝謝你! 西班牙人被趕走了，我們終於能再次自由自在地務農了。</string>
+    <string _locid="85114" referencedplayerid="5" gamecharacter="阿坎巴羅市民" soundfilename="ZGENR0385" portraitfilename="resources\art\units\villagers\villager_portrait_male.png">我們要跟隨你!</string>
+    <string _locid="85115" referencedplayerid="5" gamecharacter="阿庫爾科市民" soundfilename="ZGENR0390" portraitfilename="resources\art\units\villagers\villager_portrait_male.png">我們的自由到來了!</string>
+    <string _locid="85116" referencedplayerid="5" gamecharacter="薩拉曼卡市民" soundfilename="ZGENR0395" portraitfilename="resources\art\units\villagers\villager_portrait_male.png">我們脫離西班牙人的掌控了。我們將加入這場革命!</string>
+    <string _locid="85117" referencedplayerid="5" gamecharacter="伊斯特拉瓦卡市民" soundfilename="ZGENR0400" portraitfilename="resources\art\units\villagers\villager_portrait_male.png">革命之火將燒盡西班牙人!</string>
+    <string _locid="85118" referencedplayerid="5" gamecharacter="托路卡市民" soundfilename="ZGENR0405" portraitfilename="resources\art\units\villagers\villager_portrait_male.png">西班牙人毫無招架之力!</string>
+    <string _locid="85119" referencedplayerid="1" gamecharacter="隨軍神父" soundfilename="ZHIDA0015" portraitfilename="resources\art\units\spc\hidalgo\igc_hidalgo_portrait.png">西班牙逼我們從糧倉購買葡萄和橄欖，不讓我們自己種。那些糧倉就在附近，我們應該奪回屬於我們的食物。</string>
+    <string _locid="85120" referencedplayerid="2" gamecharacter="將軍" soundfilename="ZALLE0010" portraitfilename="resources\art\units\spc\allende\igc_allende_portrait.png">好主意!</string>
+    <string _locid="85121" referencedplayerid="1" gamecharacter="隨軍神父" soundfilename="ZHIDA0020" portraitfilename="resources\art\units\spc\hidalgo\igc_hidalgo_portrait.png">我們得到了本地居民的全數支持! 是時候攻打山上的西班牙人了。</string>
+    <string _locid="85122" referencedplayerid="2" gamecharacter="將軍" soundfilename="ZALLE0015" portraitfilename="resources\art\units\spc\allende\igc_allende_portrait.png">這裡的西班牙人被打敗了。你認為接下來要進攻墨西哥城嗎?</string>
     <string _locid="85123">多洛雷斯呼聲</string>
     <string _locid="85124">號召墨西哥人民起身反抗西班牙政府。</string>
     <string _locid="85125">解放城鎮來控制當地的建築物。</string>
@@ -34425,9 +34524,9 @@
     <string _locid="85228">萊納佩人是英國人的盟友，若能說服他們加入戰局，他們便能提供強大的單位。</string>
     <string _locid="85229">奪回昆士頓高地。</string>
     <string _locid="85230">美國人在昆士頓高地拿下了具備戰略價值的哨站。奪回此哨站便能扭轉局勢。</string>
-    <string _locid="85231">在河岸附近標幟的區域建造 2 座哨站。</string>
-    <string _locid="85232">美國人正在乘船跨越尼加拉河。在標幟的區域建造 2 座哨站以阻止他們繼續跨河。</string>
-    <string _locid="85233">趁受困的英國正規軍被包圍前前往馳援。</string>
+    <string _locid="85231">在河岸附近被旗幟標記的區域建造 2 座哨站。</string>
+    <string _locid="85232">美國人正在乘船跨越尼加拉河。在被旗幟標記的區域建造 2 座哨站以阻止他們繼續跨河。</string>
+    <string _locid="85233">趁受困的英國正規軍被攻陷前，前往支援。</string>
     <string _locid="85234">美國人困住了撤退的英國正規軍。解救他們，好讓他們重返戰場。</string>
     <string _locid="85235">約克</string>
     <string _locid="85236">卡納瓦加</string>
@@ -35715,7 +35814,7 @@
     <string _locid="101078" symbol="cStringInfluenceGatherers">收集的影響力 (由貿易路線、原住民部落和畜養的動物產生)</string>
     <string _locid="101079">影響力令牌</string>
     <string _locid="101080">影響力箱</string>
-    <string _locid="101081">提供 100 點影響力</string>
+    <string _locid="101081">100 點影響力令牌</string>
     <string _locid="101082">影響力來源</string>
     <string _locid="101083">這個交易站在為您產生影響力。</string>
     <string _locid="101084">要求在這個交易站生產影響力。</string>
@@ -36073,10 +36172,10 @@
     <string _locid="101436">桑格牛養殖技術</string>
     <string _locid="101437">您現在可以從牲畜市場中訓練桑格牛了。</string>
     <string _locid="101438">影響力的來源。</string>
-    <string _locid="101439">400 點影響力</string>
-    <string _locid="101440">800 點影響力</string>
-    <string _locid="101441">1000 點影響力</string>
-    <string _locid="101442">500 點影響力</string>
+    <string _locid="101439">400 點影響力令牌</string>
+    <string _locid="101440">800 點影響力令牌</string>
+    <string _locid="101441">1,000 點影響力令牌</string>
+    <string _locid="101442">500 點影響力令牌</string>
     <string _locid="101443">6 位伊瑪目</string>
     <string _locid="101444">6 頭半肥的牛</string>
     <string _locid="101445">忠誠光環</string>
@@ -36152,7 +36251,7 @@
     <string _locid="101515">樹木: 扇葉棕櫚</string>
     <string _locid="101516">豐富的影響力令牌</string>
     <string _locid="101517">大影響力箱</string>
-    <string _locid="101518">提供 500 點影響力</string>
+    <string _locid="101518">500 點影響力令牌</string>
     <string _locid="101519">樹木: 埃及棕櫚</string>
     <string _locid="101520">埃及棕櫚生長在條件惡劣的炎熱乾燥地區，可收集木材。</string>
     <string _locid="101521">樹木: 金合歡樹</string>
@@ -37249,9 +37348,9 @@
     <string _locid="102796">GRD 尼羅特流浪者</string>
     <string _locid="102797">盜墓賊</string>
     <string _locid="102798">GRD 盜墓賊</string>
-    <string _locid="102800">提供 700 點影響力</string>
-    <string _locid="102801">提供 1000 點影響力</string>
-    <string _locid="102802">提供 1600 點影響力</string>
+    <string _locid="102800">700 點影響力令牌</string>
+    <string _locid="102801">1,000 點影響力令牌</string>
+    <string _locid="102802">1600 點影響力令牌</string>
     <string _locid="102803">卡齊納的埃米爾</string>
     <string _locid="102804">魯姆法的騎兵</string>
     <string _locid="102805">弒君者</string>
@@ -37295,7 +37394,7 @@
     <string _locid="102843">哈巴雅那</string>
     <string _locid="102844">運送一批利菲迪騎士，可在商業時代訓練他們。</string>
     <string _locid="102845">埃米爾可對英雄造成更大的傷害，且附近有敵方軍事單位時，可獲得額外的攻擊力和生命值。</string>
-    <string _locid="102846">提供 600 點影響力</string>
+    <string _locid="102846">600 點影響力令牌</string>
     <string _locid="102847">增加富拉尼弓兵的射程和攻城距離。</string>
     <string _locid="102848">提升村民生命值和近戰攻擊速度。村民在戰鬥中會更偏好摔角 (近戰攻擊)，且只對距離特別遠的目標進行射擊。</string>
     <string _locid="102849">加快利菲迪騎士和突襲者的騎乘速度，他們的攻擊現在能造成散射傷害，尤其在踐踏模式效果最好。</string>
@@ -37313,7 +37412,7 @@
     <string _locid="102861">城牆和城門被摧毀後退還建造成本。城牆和城門科技花費降低。</string>
     <string _locid="102862">允許徵召兵駐守於瞭望台內。駐守於瞭望台內的單位提升 10% 的傷害。</string>
     <string _locid="102863">提升原住民戰士、亡命之徒和傭兵的戰鬥力。</string>
-    <string _locid="102864">原住民戰士、傭兵和亡命之徒花費降低，包括他們的船運花費。</string>
+    <string _locid="102864">原住民戰士、傭兵和亡命之徒 (包含其船運) 成本降低 15%。</string>
     <string _locid="102865">大本尼</string>
     <string _locid="102866">所有礦場持續時間變長，他們的位置也會暫時顯示 3 分鐘。</string>
     <string _locid="102867">您過去和今後的每次船運都將獲得 1 位免費的富拉尼弓兵。</string>
@@ -37332,7 +37431,7 @@
     <string _locid="102879">獲獎公牛</string>
     <string _locid="102880">增加可養肥的畜養動物的最大食物總數。</string>
     <string _locid="102881">特別肥的牛，裡面裝有 900 單位的食物。</string>
-    <string _locid="102882">300 點影響力</string>
+    <string _locid="102882">300 點影響力令牌</string>
     <string _locid="102883">使用您所有的桑格牛和其他牛來換取影響力，並獲得一頭未餵養的小牛作為替代。\n ‧ 牛價值: 70%</string>
     <string _locid="102884">津德爾‧卡努里斯</string>
     <string _locid="102885">運送一批卡努里護衛傭兵 (槍騎兵)。可在宮殿訓練此單位 (消耗部分錢幣和影響力)。</string>
@@ -38004,7 +38103,7 @@
     <string _locid="104565">8 位投石索兵</string>
     <string _locid="104566">6 位投石索兵</string>
     <string _locid="104567">10 位擲石繩戰士</string>
-    <string _locid="104568">每失去 2 位豹遊蕩武士即運送 1 位 (最多 16 位)。</string>
+    <string _locid="104568">每當您失去 2 名豹遊蕩武士，即運送 1 名豹遊蕩武士 (最多運送 16 名)。</string>
     <string _locid="104569">儀式角鬥士</string>
     <string _locid="104570">每失去 2 位骷髏武士即運送 1 位 (最多 13 位)。</string>
     <string _locid="104571">頭骨牆</string>
@@ -38064,7 +38163,7 @@
     <string _locid="104624">
     </string>
     <string _locid="104625">2 輛堡壘馬車</string>
-    <string _locid="104626">抵達速度極快! 村民從大莊園收集資源速度 +300%，持續 60 秒。</string>
+    <string _locid="104626">抵達速度極快! 村民從大莊園收集資源的速度 +250%，持續 60 秒。</string>
     <string _locid="104627">大莊園可更早生產拓荒者，並且提高產生率。</string>
     <string _locid="104628">每座新的和現有的大莊園生產 3 位拓荒者。</string>
     <string _locid="104629">革命和回歸墨西哥的花費降低。</string>
@@ -38075,6 +38174,36 @@
     <string _locid="104634">所有的起義軍轉變成革命軍。</string>
     <string _locid="104635">增加騎兵生命值。並可以在商業時代招募槍騎兵。</string>
     <string _locid="104636">1 艘私掠船</string>
+    <string _locid="104637">領事館人力車</string>
+    <string _locid="104638">運送 1 輛領事館人力車，並持續提供穩定的出口商品。</string>
+    <string _locid="104639">茶葉出口</string>
+    <string _locid="104640">火龍經</string>
+    <string _locid="104641">運送 2 座神火飛鴉。稍微提升發射速率。</string>
+    <string _locid="104642">運送 1 座神火飛鴉和 2 座光榮猛火油櫃。稍微提升發射速率。</string>
+    <string _locid="104643">龍年</string>
+    <string _locid="104644">每個市鎮中心將向您的家鄉城市產生點召集 1 座猛火油櫃，每個村落將向您的家鄉城市產生點召集 1 隻巨蜥。</string>
+    <string _locid="104645">為每座市鎮中心運送 1 座猛火油櫃，並為您所擁有每個村落運送 1 隻寵物巨蜥。</string>
+    <string _locid="104646">鄭成功</string>
+    <string _locid="104647">運送 15 名鐵軍。增加弓兵的發射速率。</string>
+    <string _locid="104648">運送一批鐵軍，並大幅提升其的遠距發射速率。</string>
+    <string _locid="104649">1 座神火飛鴉</string>
+    <string _locid="104650">喜馬拉雅山羊</string>
+    <string _locid="104651">高山山羊</string>
+    <string _locid="104652">村落養肥牲畜的速度加快。</string>
+    <string _locid="104653">每個村落可召集 1 隻山羊一次。加快村落養肥牲畜的速度。</string>
+    <string _locid="104654">雞年</string>
+    <string _locid="104655">每個村落可召集 2 隻火雞一次。加快村民從動物身上收集食物的速度。</string>
+    <string _locid="104656">虎年</string>
+    <string _locid="104657">每當您失去 2 名弟子，即會向您的家鄉城市產生點召集 1 隻寵物白虎 (最多 12 隻)。</string>
+    <string _locid="104658">每當您在這場遊戲中獲得 2 名弟子，即會向您的家鄉城市產生點召集 1 隻寵物白虎 (最多 12 隻)。</string>
+    <string _locid="104659">每當您在這場遊戲中獲得 3 名弟子，即會向您的家鄉城市產生點召集 1 隻寵物白虎 (最多 12 隻)。</string>
+    <string _locid="104660">船運: 2 輛村落人力車\n \n能力: 卓越 - 治療所有單位。僧侶現在可以治療單位了。</string>
+    <string _locid="104661">船運: 1 輛市鎮中心人力車\n \n能力: 卓越 - 治療所有單位。僧侶現在可以治療單位了。</string>
+    <string _locid="104662">船運: 3 輛稻田人力車\n \n能力: 卓越 - 治療所有單位。僧侶現在可以治療單位了。</string>
+    <string _locid="104663">船運: 4 輛軍事人力車及 600 單位的出口商品\n \n能力: 卓越 - 治療所有單位。僧侶現在可以治療單位了。</string>
+    <string _locid="104664">船運: 1200 單位的出口商品\n \n能力: 卓越 - 治療所有單位。僧侶現在可以治療單位了。</string>
+    <string _locid="104665">運送一批鐵軍，並降低紙牌資源成本。</string>
+    <string _locid="104666">紙牌資源成本降低並運送額外的鐵軍。</string>
     <string _locid="104800">隊伍 1 位營地建築工人</string>
     <string _locid="104801">隊伍 貿易帝國</string>
     <string _locid="104802">獲得一位交易站建築工人，而且交易站變得更便宜、更強大。</string>
@@ -38472,7 +38601,7 @@
     <string _locid="110175">軍刀攻擊</string>
     <string _locid="110176">蓄力能力: 可以造成區域性傷害的強力攻擊。</string>
     <string _locid="110177">鼓舞之旗</string>
-    <string _locid="110178">豎立一面振奮士氣的美國旗幟! 增加附近軍事單位和建築物造成的傷害，加快生產速度。旗幟無法樹立在起始市鎮中心附近，而且同一時間只能豎立一面旗幟。</string>
+    <string _locid="110178">豎立一面振奮士氣的美國旗幟! 增加附近軍事單位 (砲兵除外) 和建築物造成的傷害，並加快生產速度。旗幟無法豎立在起始市鎮中心附近，而且同一時間只能豎立一面旗幟。</string>
     <string _locid="110179">鼓舞之旗</string>
     <string _locid="110180">樹立旗幟</string>
     <string _locid="110181">可以振奮附近美國單位的士氣，但需要妥善保護! 如果被敵人奪取，這面旗幟就會從地圖上消失。</string>
@@ -38868,7 +38997,7 @@
     <string _locid="110569">劇院，以及 2 位德國騎兵</string>
     <string _locid="110570">運送 7 位隨機的西部荒野亡命之徒。</string>
     <string _locid="110571">雷諾幫</string>
-    <string _locid="110572">運送 3 艘海賊帆船。</string>
+    <string _locid="110572">運送 2 艘海賊帆船。</string>
     <string _locid="110573">招募馬尼拉人</string>
     <string _locid="110574">運送 3 艘海賊帆船。</string>
     <string _locid="110575">招募馬尼拉人艦隊</string>
@@ -39316,8 +39445,8 @@
     <string _locid="111377">要求:</string>
     <string _locid="111378">獎勵:</string>
     <string _locid="111379">恭喜!\n您已解除美國文明的鎖定，可在小規模戰鬥和多人連線遊戲使用。</string>
-    <string _locid="111380" symbol="cStringMaxChallengeAttemptsMessage">此活動每天最多只能嘗試 %d 次挑戰。請稍後再回來。</string>
-    <string _locid="111381">此活動每天最多只能嘗試 3 次挑戰。</string>
+    <string _locid="111380" symbol="cStringMaxChallengeAttemptsMessage">每天最多只能於此活動中進行 %d 個挑戰。請稍後再回來。</string>
+    <string _locid="111381">每天最多只能於此活動中進行 3 個挑戰。</string>
     <string _locid="111382" symbol="cStringChallengeCountdownShort" comment="hours:minutes:seconds">解除鎖定時間: %1!d!:%2!02d!:%3!02d!</string>
     <string _locid="111383" symbol="cStringMatchChatTitle">比賽聊天</string>
     <string _locid="111384" symbol="cStringChallengeEventExpiry">活動結束倒數: %1!d! 天 %2!d! 小時 %3!02d! 分鐘 %4!02d! 秒</string>
@@ -39344,7 +39473,7 @@
     <string _locid="112003">將軍</string>
     <string _locid="112004">米格爾隨軍神父</string>
     <string _locid="112005">墨西哥隨軍神父將會為了自由和其人民的福祉而戰，即使是獻出自己的生命。</string>
-    <string _locid="112006">豎立一面振奮士氣的墨西哥旗幟! 增加附近軍事單位和建築物造成的傷害，加快生產速度。旗幟無法豎立在起始市鎮中心附近，而且同一時間只能豎立一面旗幟。</string>
+    <string _locid="112006">豎立一面振奮士氣的墨西哥旗幟! 增加附近軍事單位 (砲兵除外) 和建築物造成的傷害，並加快生產速度。旗幟無法豎立在起始市鎮中心附近，而且同一時間只能豎立一面旗幟。</string>
     <string _locid="112007">可以振奮附近墨西哥單位的士氣，但需要妥善保護! 如果被敵人奪取，這面旗幟就會從地圖上消失。</string>
     <string _locid="112008">將軍可以選擇合適的地點豎立這面旗幟，強化附近的墨西哥單位和建築物。如果附近沒有盟友單位或建築物，敵人有可能奪取這面旗幟，使它從地圖上消失。\n • 使所有單位攻擊傷害 +10%。\n • 使所有建築物的攻擊傷害 +10%。\n • 使軍事建築物的工作速率 +25%。\n • 使所有建築物的建造速度 +50%。</string>
     <string _locid="112009">盜匪</string>
@@ -39358,7 +39487,7 @@
     <string _locid="112016">INF 匪徒</string>
     <string _locid="112017">
     </string>
-    <string _locid="112018">可隱匿的長槍兵，能夠看見傷害過敵人的蹤跡。</string>
+    <string _locid="112018">可隱匿的長槍兵，能夠看見近期傷害過的敵人的位置。</string>
     <string _locid="112019">墨西哥士兵</string>
     <string _locid="112020">INF 墨西哥士兵</string>
     <string _locid="112021">
@@ -39405,7 +39534,7 @@
     <string _locid="112061">牲畜盜賊</string>
     <string _locid="112062">大教堂</string>
     <string _locid="112063">特殊教堂</string>
-    <string _locid="112064">墨西哥教堂建築物，可用來復活倒下的隨軍神父，且擁有強大的特殊升級。</string>
+    <string _locid="112064">墨西哥教堂建築物，可用來復活倒下的隨軍神父、保護附近的建築，且擁有強大的特殊升級。</string>
     <string _locid="112065">大莊園</string>
     <string _locid="112066">經濟建築物</string>
     <string _locid="112067">結合農莊、磨坊和畜欄的經濟建築物。</string>
@@ -39489,7 +39618,7 @@
     <string _locid="112145">SPC AM 艾薩克‧布羅克</string>
     <string _locid="112146">英國將軍</string>
     <string _locid="112147">指揮駐加拿大英軍的名將。</string>
-    <string _locid="112148">豎立一面振奮士氣的加拿大旗幟! 增加附近軍事單位和建築物造成的傷害，加快生產速度。旗幟無法豎立在起始市鎮中心附近，而且同一時間只能豎立一面旗幟。</string>
+    <string _locid="112148">豎立一面振奮士氣的加拿大旗幟! 增加附近軍事單位 (砲兵除外) 和建築物造成的傷害，並加快生產速度。旗幟無法豎立在起始市鎮中心附近，而且同一時間只能豎立一面旗幟。</string>
     <string _locid="112149">可以振奮附近加拿大單位的士氣，但需要妥善保護! 如果遭敵人奪取，這面旗幟就會從地圖上消失。</string>
     <string _locid="112150">游擊戰術</string>
     <string _locid="112151">匪徒未交戰時會短時間自動隱匿，且移動速度不受影響。</string>
@@ -39570,7 +39699,7 @@
     <string _locid="112226">駐守單位</string>
     <string _locid="112227">運送 3 批大量藏書到殖民地，共包含 1500 經驗值。</string>
     <string _locid="112228">神聖彌撒</string>
-    <string _locid="112229">12 位起義軍</string>
+    <string _locid="112229">11 位起義軍</string>
     <string _locid="112230">33 位起義軍</string>
     <string _locid="112231">6 位墨西哥士兵</string>
     <string _locid="112232">5 位墨西哥士兵</string>
@@ -39582,7 +39711,7 @@
     <string _locid="112238">4 位游擊叛兵</string>
     <string _locid="112239">運送 8 位槍騎兵及 1 座長重砲</string>
     <string _locid="112240">自由槍騎兵團</string>
-    <string _locid="112241">運送 9 位墨西哥士兵和 2 座鷹砲。</string>
+    <string _locid="112241">運送 9 位墨西哥士兵和 1 座鷹砲。</string>
     <string _locid="112242">科羅拉多營隊</string>
     <string _locid="112243">運送 8 位游擊叛兵及 1 門迫擊砲。</string>
     <string _locid="112244">聖布拉斯營隊</string>
@@ -39638,7 +39767,7 @@
     <string _locid="112294">波費里奧</string>
     <string _locid="112295">運送 14 位可對村民造成更多傷害的阿帕契騎兵。</string>
     <string _locid="112296">阿帕契叛軍</string>
-    <string _locid="112297">運送 9 位可對村民造成更多傷害的卡曼契弓馬兵。</string>
+    <string _locid="112297">運送 11 位可對村民造成更多傷害的卡曼契弓馬兵。</string>
     <string _locid="112298">卡曼契叛軍</string>
     <string _locid="112299" symbol="cStringBountyOverrideFormat">擊殺獎勵: </string>
     <string _locid="112300">1 輛軍事馬車</string>
@@ -39696,15 +39825,15 @@
     <string _locid="112352">VIL 碼頭馬車</string>
     <string _locid="112353">運送 1 個原住民使館拉橇。原住民使館和市鎮中心獲得耶穌會和中美洲功能。</string>
     <string _locid="112354">特拉斯卡拉同盟</string>
-    <string _locid="112355">每建造 1 個大莊園，就運送 3 位拓荒者。</string>
+    <string _locid="112355">運送 2 位拓荒者。每座新的和現有的大莊園生產 2 位拓荒者。</string>
     <string _locid="112356">特拉斯卡拉紡織品</string>
     <string _locid="112357">每建造 1 個大莊園，就運送 4 位馬雅標槍兵。</string>
     <string _locid="112358">索西族暴動</string>
     <string _locid="112359">所有現有且新建造的大莊園可產生含有 350 單位食物的馬雅作物。</string>
     <string _locid="112360">馬雅作物</string>
-    <string _locid="112361">抵達速度極快! 您的下一個聯邦州獲得 2 倍獎勵，下次在軍事建築研究升級時免費。</string>
+    <string _locid="112361">抵達速度極快! 您的下一個聯邦州會給予兩倍獎勵。下一次軍營升級免費。</string>
     <string _locid="112362">阿爾塔加改革</string>
-    <string _locid="112363">運送 1 輛大莊園馬車，並允許大莊園容納 20 個人口。</string>
+    <string _locid="112363">運送 1 輛大莊園馬車，並允許大莊園容納 15 個人口。</string>
     <string _locid="112364">克雷塔羅大莊園</string>
     <string _locid="112365">匪徒升級為老練等級。根據您在這場遊戲中已運送的船運數，每批船運再額外運送 1 位匪徒。</string>
     <string _locid="112366">塔巴斯坎分離主義者</string>
@@ -39748,9 +39877,9 @@
     <string _locid="112404">轉變成大教堂來提供城鎮改良技術，以及獨有的改良技術。</string>
     <string _locid="112405">再運送 1 位將軍到殖民地。</string>
     <string _locid="112406">獨立英雄</string>
-    <string _locid="112407">原住民使館獲得遠距攻擊能力，就像作戰小屋一樣。可以讓其訓練原住民豹勇士和鷹勇士。</string>
+    <string _locid="112407">原住民使館獲得像作戰小屋一樣的遠距攻擊能力，並使其能夠訓練風雲原住民豹勇士和鷹勇士。</string>
     <string _locid="112408">阿茲特克普韋布洛村落</string>
-    <string _locid="112409">根據您在這場遊戲中已運送的船運數，每批船運再額外運送 2 隻半肥的牛。</string>
+    <string _locid="112409">根據您在這場遊戲中已運送的船運數，每批船運再額外運送 1 隻半肥的牛。</string>
     <string _locid="112410">瓜達拉哈拉牧場經營</string>
     <string _locid="112411">加快村民從大莊園收集錢幣的速度。</string>
     <string _locid="112412">托納拉陶器</string>
@@ -39789,7 +39918,7 @@
     <string _locid="112448">英勇墨西哥神父，他會探索、戰鬥、建造大教堂及交易站。他不會死亡，當他因陷入昏迷而倒下時，您可以派人去解救他。</string>
     <string _locid="112449">鼓舞之旗的效果範圍大幅增加，而且傷害提升的幅度更大。</string>
     <string _locid="112450">華雷斯之地</string>
-    <string _locid="112451">與薩波特克結為盟友，原住民使館可以研究薩波特克科技。</string>
+    <string _locid="112451">原住民使館可以研究薩波特克科技。</string>
     <string _locid="112452">薩波特克山谷</string>
     <string _locid="112453">出口巧克力讓您得到來自家鄉城市的錢幣箱。您從現在開始每 2 分鐘會得到 1 個錢幣箱 (最多持續 30 分鐘)。</string>
     <string _locid="112454">特拉斯卡拉巧克力食譜</string>
@@ -40035,7 +40164,7 @@
     <string _locid="112701">匪徒的帝國升級。</string>
     <string _locid="112702">帝國自衛隊</string>
     <string _locid="112703">帝國自衛隊</string>
-    <string _locid="112704">加快所有步兵和騎兵的訓練速度。</string>
+    <string _locid="112704">加快所有步兵和騎兵的訓練和移動速度。</string>
     <string _locid="112705">運送一批強大的護衛長矛騎兵，並允許您在堡壘訓練此單位。</string>
     <string _locid="112706">給予隨軍神父「多洛雷斯呼聲」能力，可以快速治療附近的所有單位。</string>
     <string _locid="112707">多洛雷斯呼聲</string>
@@ -40096,7 +40225,7 @@
     <string _locid="112762">田納西州志願軍</string>
     <string _locid="112763">運送 12 位州民兵到每個隊伍玩家的殖民地。</string>
     <string _locid="112764">隊伍 肯塔基州民兵</string>
-    <string _locid="112765">莊園可治療附近的盟友單位，並拖慢敵方步兵的移動速度 10%。</string>
+    <string _locid="112765">房舍可治療附近的盟友單位，並拖慢敵方步兵的移動速度 10%。</string>
     <string _locid="112766">國家住宅</string>
     <string _locid="112767">治療光環</string>
     <string _locid="112768">西班牙火槍兵</string>
@@ -40114,11 +40243,11 @@
     <string _locid="112802">中美洲人</string>
     <string _locid="112803">瓜地馬拉城</string>
     <string _locid="112804">下加利福尼亞州</string>
-    <string _locid="112805">拓荒者變成軍事冒險家\n\n可建造 2 輛駐站馬車\n\n重點: 亡命之徒、地圖控制、資源細流</string>
+    <string _locid="112805">拓荒者變成軍事冒險家\n\n可建造 3 輛駐站馬車\n\n重點: 亡命之徒、地圖控制、資源細流</string>
     <string _locid="112806">軍事冒險家</string>
     <string _locid="112807">巴斯</string>
     <string _locid="112808">猶加敦州</string>
-    <string _locid="112809">起義軍變成西裔猶加敦人\n\n可免費研究大莊園和工廠升級\n\n重點: 大莊園、拓荒者、步兵</string>
+    <string _locid="112809">起義軍變成西裔猶加敦人\n\n可免費研究大莊園升級\n\n重點: 大莊園、拓荒者、步兵</string>
     <string _locid="112810">西裔猶加敦人</string>
     <string _locid="112811">美里達</string>
     <string _locid="112812">里約格蘭德</string>
@@ -40134,10 +40263,10 @@
     <string _locid="112822">加利福尼亞人</string>
     <string _locid="112823">索諾瑪</string>
     <string _locid="112824">德克薩斯州</string>
-    <string _locid="112825">拓荒者成為志願軍。\n\n可訓練美國單位。允許在市鎮中心召集後備民兵。\n\n\n重點: 堡壘、步兵升級。</string>
+    <string _locid="112825">拓荒者成為志願軍。\n\n可訓練美國護衛單位。可在市鎮中心召集後備民兵。\n\n重點: 堡壘、步兵升級。</string>
     <string _locid="112826">德克薩斯人</string>
     <string _locid="112827">奧斯丁</string>
-    <string _locid="112828">運送 5 位墨西哥士兵。從本次開始，以後的每次船運您將會獲得一位免費的炸藥筒。</string>
+    <string _locid="112828">運送 4 位墨西哥士兵。從本次開始，以後的每次船運您將會獲得一個免費的炸藥筒。</string>
     <string _locid="112829">聖瑪利亞之火</string>
     <string _locid="112830">根據您在這場遊戲中已運送的船運數，每批船運再額外運送 1 位拓荒者。</string>
     <string _locid="112831">薩爾瓦多咖啡</string>
@@ -40146,7 +40275,7 @@
     <string _locid="112834">暫時封鎖敵方家鄉城市 2 分鐘。</string>
     <string _locid="112835">哥斯大黎加鎖國</string>
     <string _locid="112836">10 位間諜</string>
-    <string _locid="112837">7 位革命軍</string>
+    <string _locid="112837">6 位革命軍</string>
     <string _locid="112838">薩爾瓦多咖啡剩餘時間</string>
     <string _locid="112839" symbol="cStringTempBlockadeTeammate">%s已封鎖您所有敵方的家鄉城市!</string>
     <string _locid="112840" symbol="cStringTempBlockadeYou">您暫時封鎖了敵方的家鄉城市!</string>
@@ -40155,10 +40284,10 @@
     <string _locid="112843" symbol="cStringTempBlockadeYouAll">您暫時封鎖了敵方的家鄉城市，卻也意外波及了盟友的家鄉城市!</string>
     <string _locid="112844">抵達速度極快! 擊敗敵人現在也會獎勵錢幣和經驗值。</string>
     <string _locid="112845">傭兵本色</string>
-    <string _locid="112846">新的和現有的大莊園生產 2 位拓荒者，並吸引附近可狩獵動物以提升生產速率。</string>
+    <string _locid="112846">運送 3 位拓荒者。大莊園會吸引附近可狩獵動物以提升生產速率。</string>
     <string _locid="112847">下加利福尼亞領地</string>
-    <string _locid="112848">允許您在傭兵小棧訓練美國亡命之徒。降低所有亡命之徒的人口成本。</string>
-    <string _locid="112849">老外</string>
+    <string _locid="112848">您打算怎麼應對迎面而來的亡命之徒? 傭兵小棧現在改為訓練美國亡命之徒，訓練速度更快。</string>
+    <string _locid="112849">壞傢伙</string>
     <string _locid="112850">運送 1 個隨機砲兵單位和 2 門木製假砲 (無法造成傷害的假誘餌) 到殖民地。</string>
     <string _locid="112851">沃克的假象</string>
     <string _locid="112852">根據您在這場遊戲中已運送的船運數，每批船運再額外運送 3 位軍事冒險家。將所有軍事建築物和房舍轉變成軍事冒險家。</string>
@@ -40172,7 +40301,7 @@
     <string _locid="112860">西裔猶加敦起義軍</string>
     <string _locid="112861">護衛西裔猶加敦起義軍</string>
     <string _locid="112862">帝國西裔猶加敦起義軍</string>
-    <string _locid="112863">大莊園在所有模式中皆能持續產生額外資源 (每秒產生 1 單位的食物、1 單位的木材和 1 單位的錢幣)。</string>
+    <string _locid="112863">大莊園現在於所有模式中皆能持續產生額外資源。</string>
     <string _locid="112864">赫納昆劍麻產業</string>
     <string _locid="112865">大莊園可切換給工人收集木材。</string>
     <string _locid="112866">索利斯切碎機</string>
@@ -40181,14 +40310,14 @@
     <string _locid="112869">匪徒、西裔猶加敦起義軍和馬雅標槍兵攻擊時能造成中毒傷害。</string>
     <string _locid="112870">叢林戰爭</string>
     <string _locid="112871">3 座鷹砲</string>
-    <string _locid="112872">運送 1 輛原住民使館拉橇，同時您會在原住民使館與馬雅人結盟，讓你能使用馬雅人的一些升級和單位。</string>
+    <string _locid="112872">運送 6 位馬雅標槍兵和 6 位西裔猶加敦起義軍。起義軍獲得更多生命值。</string>
     <string _locid="112873">馬雅支持者</string>
     <string _locid="112874">額外提供木材</string>
     <string _locid="112875">加快步兵的訓練速度，特別是革命軍。</string>
     <string _locid="112876">補給</string>
     <string _locid="112877">再次將所有拓荒者轉變成革命軍。允許您擁有的多數已運送單位紙牌再次運送。</string>
     <string _locid="112878">蒙特瑞計畫</string>
-    <string _locid="112879">每失去 3 位革命軍即運送 1 位拓荒者 (最多 99 位)。</string>
+    <string _locid="112879">您在這場遊戲中每失去 3 位革命軍即運送 1 位拓荒者 (最多 80 位)。</string>
     <string _locid="112880">榭拉馬德雷共和國</string>
     <string _locid="112881">給予游擊叛兵「薩帕塔戰略」能力，可在移動速度不受影響的情況下隱匿行動。</string>
     <string _locid="112882">薩帕塔戰略</string>
@@ -40254,7 +40383,7 @@
     <string _locid="112942">加利福尼亞路徑</string>
     <string _locid="112943">鼓舞之旗的效果範圍大幅增加，而且可以提高單位的生命值。</string>
     <string _locid="112944">柏內特之地</string>
-    <string _locid="112945">允許您研究帝王時代的碼頭升級。</string>
+    <string _locid="112945">允許免費研究帝王時代的碼頭升級。</string>
     <string _locid="112946">德克薩斯海軍</string>
     <string _locid="112947">後備民兵升級為德克薩斯海軍陸戰隊。海軍陸戰隊不會再損失生命值，並可以對建築物、船隻和砲兵造成更多傷害。</string>
     <string _locid="112948">德克薩斯海軍陸戰隊</string>
@@ -40287,7 +40416,7 @@
     <string _locid="112975">亡命之徒戰鬥力</string>
     <string _locid="112976">老練軍事冒險家</string>
     <string _locid="112977">老練軍事冒險家</string>
-    <string _locid="112978">鼓舞之旗現在也可以讓拓荒者的收集速率加快 20%，而且可以任意放置在已探索的地圖上。</string>
+    <string _locid="112978">鼓舞之旗現在也可以讓拓荒者的收集速率加快 15%，而且可以任意放置在已探索的地圖上。</string>
     <string _locid="112979">猶加敦人</string>
     <string _locid="112980">套索攻擊 (蓄力)</string>
     <string _locid="112981">套索攻擊</string>
@@ -40307,19 +40436,19 @@
     <string _locid="112995">帝國克魯佐卜復仇者</string>
     <string _locid="112996">帝國克魯佐卜復仇者</string>
     <string _locid="112997">克魯佐卜復仇者</string>
-    <string _locid="112998">允許免費研究軍營單位的帝王升級。</string>
+    <string _locid="112998">能以緩慢的速度免費研究軍營單位的帝國升級。</string>
     <string _locid="112999">德克薩斯軍隊</string>
     <string _locid="113000">索卡洛廣場</string>
     <string _locid="113001">國家宮</string>
     <string _locid="113002">城都主教座堂</string>
-    <string _locid="113003">豎立一面振奮士氣的中美洲革命軍旗幟! 增加附近軍事單位和建築物造成的傷害，加快生產速度。旗幟無法豎立在起始市鎮中心附近，而且同一時間只能豎立一面旗幟。</string>
-    <string _locid="113004">豎立一面振奮士氣的軍事冒險家革命軍旗幟! 增加附近軍事單位和建築物造成的傷害，加快生產速度。旗幟無法豎立在起始市鎮中心附近，而且同一時間只能豎立一面旗幟。</string>
-    <string _locid="113005">豎立一面振奮士氣的猶加敦革命軍旗幟! 增加附近軍事單位和建築物造成的傷害，加快生產速度。旗幟無法豎立在起始市鎮中心附近，而且同一時間只能豎立一面旗幟。</string>
-    <string _locid="113006">豎立一面振奮士氣的里約格蘭德革命軍旗幟! 增加附近軍事單位和建築物造成的傷害，加快生產速度。旗幟無法豎立在起始市鎮中心附近，而且同一時間只能豎立一面旗幟。</string>
-    <string _locid="113007">豎立一面振奮士氣的加利福尼亞革命軍旗幟! 增加附近軍事單位和建築物造成的傷害，加快生產速度。旗幟無法豎立在起始市鎮中心附近，而且同一時間只能豎立一面旗幟。</string>
-    <string _locid="113008">豎立一面振奮士氣的德克薩斯革命軍旗幟! 增加附近軍事單位和建築物造成的傷害，加快生產速度。旗幟無法豎立在起始市鎮中心附近，而且同一時間只能豎立一面旗幟。</string>
-    <string _locid="113009">豎立一面振奮士氣的馬雅革命軍旗幟! 增加附近軍事單位和建築物造成的傷害，加快生產速度。旗幟無法豎立在起始市鎮中心附近，而且同一時間只能豎立一面旗幟。</string>
-    <string _locid="113010">將軍可以選擇合適的地點豎立這面旗幟，強化附近的單位和建築物。如果附近沒有盟友單位或建築物，敵人有可能奪取這面旗幟，使它從地圖上消失。\n • 使所有單位攻擊傷害 +10%。\n • 使所有建築物的攻擊傷害 +10%。\n • 使軍事建築物的工作速率 +25%。\n • 使所有建築物的建造速度 +50%。</string>
+    <string _locid="113003">豎立一面振奮士氣的中美洲革命軍旗幟! 增加附近軍事單位 (砲兵除外) 和建築物造成的傷害，並加快生產速度。旗幟無法豎立在起始市鎮中心附近，而且同一時間只能豎立一面旗幟。</string>
+    <string _locid="113004">豎立一面振奮士氣的軍事冒險家革命軍旗幟! 增加附近軍事單位 (砲兵除外) 和建築物造成的傷害，並加快生產速度。旗幟無法豎立在起始市鎮中心附近，而且同一時間只能豎立一面旗幟。</string>
+    <string _locid="113005">豎立一面振奮士氣的猶加敦革命軍旗幟! 增加附近軍事單位 (砲兵除外) 和建築物造成的傷害，並加快生產速度。旗幟無法豎立在起始市鎮中心附近，而且同一時間只能豎立一面旗幟。</string>
+    <string _locid="113006">豎立一面振奮士氣的里約格蘭德革命軍旗幟! 增加附近軍事單位 (砲兵除外) 和建築物造成的傷害，並加快生產速度。旗幟無法豎立在起始市鎮中心附近，而且同一時間只能豎立一面旗幟。</string>
+    <string _locid="113007">豎立一面振奮士氣的加利福尼亞革命軍旗幟! 增加附近軍事單位 (砲兵除外) 和建築物造成的傷害，並加快生產速度。旗幟無法豎立在起始市鎮中心附近，而且同一時間只能豎立一面旗幟。</string>
+    <string _locid="113008">豎立一面振奮士氣的德克薩斯革命軍旗幟! 增加附近軍事單位 (砲兵除外) 和建築物造成的傷害，並加快生產速度。旗幟無法豎立在起始市鎮中心附近，而且同一時間只能豎立一面旗幟。</string>
+    <string _locid="113009">豎立一面振奮士氣的馬雅革命軍旗幟! 增加附近軍事單位 (砲兵除外) 和建築物造成的傷害，並加快生產速度。旗幟無法豎立在起始市鎮中心附近，而且同一時間只能豎立一面旗幟。</string>
+    <string _locid="113010">將軍可以選擇合適的地點豎立這面旗幟，強化附近的單位和建築物。如果附近沒有盟友單位或建築物，敵人有可能奪取這面旗幟，使它從地圖上消失。\n • 使所有單位 (砲兵除外) 攻擊傷害 +10%。\n • 使所有建築物的攻擊傷害 +10%。\n • 使軍事建築物的工作速率 +25%。\n • 使所有建築物的建造速度 +50%。</string>
     <string _locid="113011">可以振奮附近單位的士氣，但需要妥善保護! 如果被敵人奪取，這面旗幟就會從地圖上消失。</string>
     <string _locid="113012">可以振奮附近單位的士氣。</string>
     <string _locid="113013">可以振奮附近墨西哥單位的士氣。</string>
@@ -40346,9 +40475,9 @@
     <string _locid="113034">3 艘俘虜的重型戰船</string>
     <string _locid="113035">隊伍 運送 1 輛碼頭馬車到殖民地，並短暫顯示地圖上所有魚群、鯨魚和海軍單位。</string>
     <string _locid="113036">隊伍 墨西哥灣</string>
-    <string _locid="113037">大莊園可以自動收集養肥的牲畜。</string>
+    <string _locid="113037">加快大莊園養肥牲畜的速度，並在完全養肥後自動收集牠們。</string>
     <string _locid="113038">墨西哥燉肉</string>
-    <string _locid="113039">17 艘漁船</string>
+    <string _locid="113039">14 艘漁船</string>
     <string _locid="113040">運送 3 隻半肥的牛到殖民地，每過 5 分鐘再運送 3 隻。市場的食物出售速率加快 50%。</string>
     <string _locid="113041">聖馬可斯博覽會</string>
     <string _locid="113042">出售大莊園</string>
@@ -40365,7 +40494,7 @@
     <string _locid="113053">所有匪徒轉變成強大的護衛法國長槍兵。配備步槍的步兵射程增加。</string>
     <string _locid="113054">米拉馬雷計畫</string>
     <string _locid="113055">奇馬約傑尼薩羅人</string>
-    <string _locid="113056">運送 11 位可對村民造成更多傷害的納瓦霍步槍兵到殖民地。</string>
+    <string _locid="113056">運送 10 位可對村民造成更多傷害的納瓦霍步槍兵。</string>
     <string _locid="113057">納瓦霍叛軍</string>
     <string _locid="113058">槍騎兵的傷害增加，而且可以在商業時代招募。</string>
     <string _locid="113059">女王槍騎兵</string>
@@ -40378,7 +40507,7 @@
     <string _locid="113066">拜七宅</string>
     <string _locid="113067">您在這場遊戲中每失去 1 個單位時，經驗值 +5。</string>
     <string _locid="113068">亡靈節</string>
-    <string _locid="113069">您的將軍也可以提升士氣，就如同鼓舞之旗一樣。將軍也可以接收來自家鄉城市的船運，並且可以訓練墨西哥士兵。</string>
+    <string _locid="113069">您的將軍現在也能提高士氣，就像鼓舞之旗一樣。將軍也可以接收來自家鄉城市的船運，並且可以訓練墨西哥士兵。\n • 鼓舞光環: 不會與鼓舞之旗疊加效果</string>
     <string _locid="113070">天命之人</string>
     <string _locid="113071">運送 1 輛堡壘馬車到殖民地。堡壘視野增加，且可對英雄造成額外傷害。</string>
     <string _locid="113072">查普爾提佩克城堡</string>
@@ -40413,7 +40542,7 @@
     <string _locid="113101">工業建築工人</string>
     <string _locid="113102">16 位西裔猶加敦起義軍</string>
     <string _locid="113103">老三百</string>
-    <string _locid="113104">市鎮中心可以訓練市民，並根據您目前擁有的房舍數量運送 1 位市民。</string>
+    <string _locid="113104">根據您建造的建築數量 (最多 80 座)，每座建築運送 1 位市民。可在市鎮中心訓練市民。</string>
     <string _locid="113105">加利福尼亞牧場經營</string>
     <string _locid="113106">套索</string>
     <string _locid="113107">產生牲畜盜賊</string>
@@ -40485,8 +40614,20 @@
     <string _locid="113173">相對性</string>
     <string _locid="113174">印度兵之亂！</string>
     <string _locid="113175">%s發動了革命!</string>
-    <string _locid="113176" symbol="cStringStatBuildingRepair">建築物修理：</string>
+    <string _locid="113176" symbol="cStringStatBuildingRepair">建築物修理 (百分比):</string>
     <string _locid="113177" symbol="cStringStatAreaRollover">%2d 區域</string>
+    <string _locid="113178" symbol="cStringAllWorkers">所有工人</string>
+    <string _locid="113179" symbol="cStringResourceAsCratesEffect">%1!s!: 以木箱的形式運送 +%2!.2f! %3!s!</string>
+    <string _locid="113180">結合軍營及哨站功能的俄羅斯建築物。可保衛前線和訓練一整群的步兵，並支援 15 個人口數。</string>
+    <string _locid="113181" symbol="cStringStatRangeRolloverAreaFloat">射程 %1!d! 以及面積 %2!.2f!</string>
+    <string _locid="113182" symbol="cStringIncreaseModifyRateEffect">%1!s!: %2!s!的修改速率 +%3!.0f!%%</string>
+    <string _locid="113183" symbol="cStringDecreaseModifyRateEffect">%1!s!: %2!s!的修改速率 %3!.0f!%%</string>
+    <string _locid="113184" symbol="cStringAddModifyRateEffect">%1!1s!: %3!3s!的修改速率增加 %2!2.2f!</string>
+    <string _locid="113185" symbol="cStringSetModifyRateEffect">%1s: 設定%2s的修改速率為 %3.2f</string>
+    <string _locid="113186">可治療單位</string>
+    <string _locid="113187" symbol="cStringDetailHelpMercs">可用傭兵和亡命之徒:\n</string>
+    <string _locid="113188">尋找原住民部落交易站</string>
+    <string _locid="113189">尋找貿易路線上的交易站</string>
     <string _locid="200000">瑞典旗幟</string>
     <string _locid="200001">在此建築物上顯示瑞典旗幟。</string>
     <string _locid="200002">新世界貿易中心 (綠色)</string>
@@ -40559,6 +40700,8 @@
     <string _locid="200069">加勒比盟友</string>
     <string _locid="200070">曼帕契盟友</string>
     <string _locid="200071">薩波特克盟友</string>
+    <string _locid="200072">神殿 (廢墟)</string>
+    <string _locid="200073">神殿的廢墟版本。</string>
     <string _locid="210000">DLSS</string>
     <string _locid="210001">深度學習超高取樣 (DLSS) 是一種 NVIDIA RTX 技術，運用深度學習神經網路提升畫面播放速率，為您的遊戲呈現精美而銳利的影像。此技術可為您提供將畫質設定最大化，並提高輸出解析度所需的效能空間。</string>
     <string _locid="210002">DLSS 設定</string>
@@ -40574,5 +40717,27 @@
     <string _locid="210025">提供最佳化效能和影像畫質。</string>
     <string _locid="210026">品質</string>
     <string _locid="210027">提供比「平衡」模式更高的影像畫質。</string>
+    <string _locid="220001">拍照模式</string>
+    <string _locid="220002">移動:</string>
+    <string _locid="220003">旋轉:</string>
+    <string _locid="220004">縮放:</string>
+    <string _locid="220005">螢幕擷取:</string>
+    <string _locid="220006">重設視角:</string>
+    <string _locid="220007">切換開啟或關閉使用者介面:</string>
+    <string _locid="220008">返回:</string>
+    <string _locid="220009">移動:\n • 使用 WASD 或方向鍵即可移動視角。\n • 使用 Q 和 E 即可上下調整視角。\n • 將滑鼠移動至邊緣即可移動視角。\n • 按住空白鍵後，按一下滑鼠左鍵並拖曳即可移動視角。\n\n 旋轉:\n • 使用 Alt + WASD 或 Alt + 方向鍵即可旋轉。\n • Alt + 按一下滑鼠左鍵並拖曳即可旋轉。\n\n 拉近/拉遠:\n • 使用滑鼠滾輪拉近或拉遠視角。</string>
+    <string _locid="220010">切換開啟或關閉使用者介面</string>
+    <string _locid="220011">螢幕擷取時包括使用者介面</string>
+    <string _locid="220012">尋找資料夾位置:</string>
+    <string _locid="220013">開啟資料夾</string>
+    <string _locid="220014">逐格推進</string>
+    <string _locid="220015">照明預設</string>
+    <string _locid="220016">太陽位置</string>
+    <string _locid="220017">使用較小但可管理的增量逐步推進場景。使用滑桿或快轉按鈕即可操控場景。</string>
+    <string _locid="220018">從下拉式方塊中選取多個照明預設。</string>
+    <string _locid="220019">透過控制滑桿變更太陽位置。</string>
+    <string _locid="220020">選取即可切換開啟或關閉使用者介面。</string>
+    <string _locid="220021">選取即可在螢幕擷取時包括使用者介面。</string>
+    <string _locid="220022">選取即可開啟螢幕擷取資料夾位置。</string>
   </language>
 </stringtable>

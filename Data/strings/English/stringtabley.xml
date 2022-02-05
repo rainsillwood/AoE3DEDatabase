@@ -1688,7 +1688,7 @@
     <string _locid="23515">Grenade</string>
     <string _locid="23520">Stealthy Aztec warrior armed with an obsidian sword. Good against cavalry and heavy infantry.</string>
     <string _locid="23521">Aztec Jaguar Warrior</string>
-    <string _locid="23522">Aztec infantry that flings javelins from an atlatl. Good against infantry.</string>
+    <string _locid="23522">Aztec infantry that flings javelins from an atlatl. Good against Cavalry and Hand Shock Infantry.</string>
     <string _locid="23523">Aztec Eagle Warrior</string>
     <string _locid="23524">Comanche ranged cavalry. Good against cavalry.</string>
     <string _locid="23525">Comanche Horse Archer</string>
@@ -6711,7 +6711,7 @@
     <string _locid="36007">Gold Mine</string>
     <string _locid="36008">Mine Gold</string>
     <string _locid="36010">Silk Road</string>
-    <string _locid="36012">All Crates contain 125 resources instead of 100.</string>
+    <string _locid="36012">All Crates contain +25% more resources. Trade Routes yield +25% more resources.</string>
     <string _locid="36013">TEAM increased Coin Chests to 120 resources.</string>
     <string _locid="36014">Improves your Ottoman Explorer in combat, increases his movement rate, and gives him a powerful canine companion.</string>
     <string _locid="36015">Agha</string>
@@ -7254,16 +7254,16 @@
     <string _locid="36647" gamecharacter="Bolivar" soundfilename="BOLI2020" portraitfilename="resources\art\units\spc\bolivar\bolivar_igc_icon.png">Attack the fort!</string>
     <string _locid="36648" gamecharacter="Bolivar" soundfilename="BOLI2025" portraitfilename="resources\art\units\spc\bolivar\bolivar_igc_icon.png">We've driven the Spanish out! The local villages owe you their thanks.</string>
     <string _locid="36649" gamecharacter="Amelia" soundfilename="AMEL2070" portraitfilename="resources\art\units\spc\amelia_black\amelia_black_igc_icon.png">Protect Bolivar's cannon!</string>
-    <string _locid="36650" gamecharacter="Spanish Villager" soundfilename="GENR2140" portraitfilename="resources\art\units\spc\villagers\villager_portrait.png">Thank you. We specialize in making cannon here. Use our buildings if you like.</string>
-    <string _locid="36651" gamecharacter="Spanish Villager" soundfilename="GENR2145" portraitfilename="resources\art\units\spc\villagers\villager_portrait.png">We're free!</string>
-    <string _locid="36652" gamecharacter="Spanish Villager" soundfilename="GENR2150" portraitfilename="resources\art\units\spc\villagers\villager_portrait.png">We train cavalry here. I hope our stables can help you.</string>
-    <string _locid="36653" gamecharacter="Spanish Villager" soundfilename="GENR2155" portraitfilename="resources\art\units\spc\villagers\villager_portrait.png">The Spanish are gone! Please, use our farms and barracks -- anything to rid us of Spanish rule.</string>
+    <string _locid="36650" gamecharacter="Spanish Villager" soundfilename="GENR2140" portraitfilename="resources\art\units\villagers\villager_portrait.png">Thank you. We specialize in making cannon here. Use our buildings if you like.</string>
+    <string _locid="36651" gamecharacter="Spanish Villager" soundfilename="GENR2145" portraitfilename="resources\art\units\villagers\villager_portrait.png">We're free!</string>
+    <string _locid="36652" gamecharacter="Spanish Villager" soundfilename="GENR2150" portraitfilename="resources\art\units\villagers\villager_portrait.png">We train cavalry here. I hope our stables can help you.</string>
+    <string _locid="36653" gamecharacter="Spanish Villager" soundfilename="GENR2155" portraitfilename="resources\art\units\villagers\villager_portrait.png">The Spanish are gone! Please, use our farms and barracks -- anything to rid us of Spanish rule.</string>
     <string _locid="36654" gamecharacter="Amelia" soundfilename="AMEL2110" portraitfilename="resources\art\units\spc\amelia_black\amelia_black_igc_icon.png">I don't know if we can sail past the Ossuary. Maybe we should land on the south side of the island.</string>
     <string _locid="36655" gamecharacter="Amelia" soundfilename="AMEL2120" portraitfilename="resources\art\units\spc\amelia_black\amelia_black_igc_icon.png">Where are the American ships we were promised?</string>
     <string _locid="36656" gamecharacter="Amelia" soundfilename="AMEL2125" portraitfilename="resources\art\units\spc\amelia_black\amelia_black_igc_icon.png">We've done it! The Ossuary has fallen! But I want to make sure Beaumont is dead.</string>
-    <string _locid="36657" gamecharacter="Spanish Villager" soundfilename="GENR2165" portraitfilename="resources\art\units\spc\villagers\villager_portrait.png">We will try to hold off the Circle's forces while you build up your base.</string>
-    <string _locid="36658" gamecharacter="Spanish Villager" soundfilename="GENR2170" portraitfilename="resources\art\units\spc\villagers\villager_portrait.png">We have been living under the shadow of the Ossuary for a long time. We will help you.</string>
-    <string _locid="36659" gamecharacter="Spanish Villager" soundfilename="GENR2175" portraitfilename="resources\art\units\spc\villagers\villager_portrait.png">We will try to tribute resources to you as we can.</string>
+    <string _locid="36657" gamecharacter="Spanish Villager" soundfilename="GENR2165" portraitfilename="resources\art\units\villagers\villager_portrait.png">We will try to hold off the Circle's forces while you build up your base.</string>
+    <string _locid="36658" gamecharacter="Spanish Villager" soundfilename="GENR2170" portraitfilename="resources\art\units\villagers\villager_portrait.png">We have been living under the shadow of the Ossuary for a long time. We will help you.</string>
+    <string _locid="36659" gamecharacter="Spanish Villager" soundfilename="GENR2175" portraitfilename="resources\art\units\villagers\villager_portrait.png">We will try to tribute resources to you as we can.</string>
     <string _locid="36660" gamecharacter="Beaumont" soundfilename="BEAU2045" portraitfilename="resources\art\units\spc\beaumont\beaumont_igc_icon.png">So, Havana has turned against us. Fine ... you will die alongside Amelia Black!</string>
     <string _locid="36661" gamecharacter="Soldier" soundfilename="GENR2180" portraitfilename="resources\art\units\infantry_ranged\crossbow\crossbow_portrait.png">More American ships have arrived!</string>
     <string _locid="36662">Survive Cherokee raids</string>
@@ -13534,7 +13534,7 @@
     <string _locid="43138">The Caravel</string>
     <string _locid="43139">The navy's light workhorse awaits cargo bound for the New World.</string>
     <string _locid="43140">Drake Expediters</string>
-    <string _locid="43141">A sign for transportation company.</string>
+    <string _locid="43141">A sign for a transportation company.</string>
     <string _locid="43142">The Chieftain</string>
     <string _locid="43143">A sign for an Ordinary Establishment.</string>
     <string _locid="43144">The Blue Cat</string>
@@ -14535,7 +14535,7 @@
     <string _locid="44136">Nobles' Hut</string>
     <string _locid="44137">Nobles' Hut</string>
     <string _locid="44138">Ranged shock infantry</string>
-    <string _locid="44139">Nobleman that flings javelins from an atlatl. Good against cavalry and Coyote Runners.</string>
+    <string _locid="44139">Nobleman that flings javelins from an atlatl. Good against Cavalry and Hand Shock Infantry.</string>
     <string _locid="44140">Eagle Runner Knight</string>
     <string _locid="44141">INF Eagle Runner Knight</string>
     <string _locid="44142">Hand infantry</string>
@@ -16515,7 +16515,7 @@
     <string _locid="46122">Comanchero</string>
     <string _locid="46123">TAVERN Comanchero</string>
     <string _locid="46124">An outlaw.</string>
-    <string _locid="46125">A dangerous outlaw with a rifle.</string>
+    <string _locid="46125">A dangerous outlaw with a gun, strong against Heavy Infantry.</string>
     <string _locid="46126">Renegado</string>
     <string _locid="46127">TAVERN Renegado</string>
     <string _locid="46128">A Pirate.</string>
@@ -19524,7 +19524,7 @@
     <string _locid="49207">(+%d)</string>
     <string _locid="49208">Food gather rate (per minute)</string>
     <string _locid="49209">Wood gather rate (per minute)</string>
-    <string _locid="49210">Gold gather rate (per minute)</string>
+    <string _locid="49210">Coin gather rate (per minute)</string>
     <string _locid="49211">Dance gather rate (per minute)</string>
     <string _locid="49212">Trade gather rate (per minute)</string>
     <string _locid="49213">Select to invite player.</string>
@@ -20004,7 +20004,7 @@
     <string _locid="49688">Co-op Battle</string>
     <string _locid="49689">Co-op Battle: Play a co-op historical battles or campaign among friends or with other players online.</string>
     <string _locid="49690">Co-op Scenario</string>
-    <string _locid="49691">Select a co-op scenario from the dropdown box. The scenario can also be changed once the lobby is created.</string>
+    <string _locid="49691">Select a co-op scenario from the dropdown box.</string>
     <string _locid="49692">Eclipse Lighting</string>
     <string _locid="49693">The city with a total eclipse.</string>
     <string _locid="49694">Moctezuma\nMoctezuma, the final ruler of the Aztec Triple Alliance, gets the last opportunity to show off his majestic attire.</string>
@@ -20134,7 +20134,7 @@
     <string _locid="49818">Day of the Dead (Día de Muertos) 1/2</string>
     <string _locid="49819">The citizens of Mexico celebrating Day of the Dead by wearing skull masks.</string>
     <string _locid="49820">Day of the Dead (Día de Muertos) 2/2</string>
-    <string _locid="49821">The citizens of Mexico celebrating Day of the Dead by lighting fireworks and bonfires.</string>
+    <string _locid="49821">The citizens of Mexico celebrating Day of the Dead by lighting fireworks.</string>
     <string _locid="49822">Soldiers marching</string>
     <string _locid="49823">Soldiers of Mexico marching through the town.</string>
     <string _locid="49824">Plaza del Zócalo (original)</string>
@@ -20196,7 +20196,104 @@
     <string _locid="49880">The light blue version of the Metropolitan Cathedral.</string>
     <string _locid="49881">Metropolitan Cathedral (white)</string>
     <string _locid="49882">The white version of the Metropolitan Cathedral.</string>
-    <string _locid="49883">The city at night. &lt;color=1.0, 0.0, 0.0&gt;Warning: Selecting this customization will apply the Temple (Original) customization.&lt;/color&gt;</string>
+    <string _locid="49883">The city at night.</string>
+    <string _locid="49884">Displays Treaty Maps in list.</string>
+    <string _locid="49885">Warchief Support</string>
+    <string _locid="49886">Passive Ability: The Aztec Warchief's passive ability allows nearby units to gain double experience.</string>
+    <string _locid="49887">Passive Ability: The Lakota Warchief's passive ability allows nearby units to gain +10% in movement speed.</string>
+    <string _locid="49888">Passive Ability: The Inca Warchief's passive ability allows nearby Native Warriors to gain +10% attack and hitpoints.</string>
+    <string _locid="49889">Passive Ability: The Haudenosaunee Warchief's passive ability allows nearby units to gain +10% hitpoints.</string>
+    <string _locid="49890">Community</string>
+    <string _locid="49891">Go to https://www.facebook.com/ageofempires/</string>
+    <string _locid="49892">Go to https://www.twitter.com/ageofempires/</string>
+    <string _locid="49893">Go to https://www.instagram.com/ageofempiresgame/</string>
+    <string _locid="49894">Go to https://www.youtube.com/ageofempires/</string>
+    <string _locid="49895">Go to https://discord.com/invite/ageofempires/login</string>
+    <string _locid="49896">Support</string>
+    <string _locid="49897">Find help in our forums.</string>
+    <string _locid="49898">Go to https://forums.ageofempires.com/c/age-of-empires-iii/133</string>
+    <string _locid="49899">Forums</string>
+    <string _locid="49900">Check the latest in our forums.</string>
+    <string _locid="49901">Go to https://support.ageofempires.com/hc/categories/360004101511-Age-of-Empires-III-Definitive-Edition</string>
+    <string _locid="49902">Report an issue</string>
+    <string _locid="49903">Report a bug in our forums.</string>
+    <string _locid="49904">Go to https://support.ageofempires.com/hc/articles/360048537332-Reporting-an-Issue</string>
+    <string _locid="49905">Lunar New Year Event: 2022</string>
+    <string _locid="49906">Lunar New Year Event: 2021</string>
+    <string _locid="49907">Year of the Tiger</string>
+    <string _locid="49908">Year of the Ox</string>
+    <string _locid="49909">Switch to Year of the Tiger (2022) event challenges.</string>
+    <string _locid="49910">Switch to Year of the Ox (2021) event challenges.</string>
+    <string _locid="49911">Previous events are now available! If you missed out on last years event, you can now attempt those challenges!</string>
+    <string _locid="49912">Profile Icon Unlock - An Xbox version of a Tiger.</string>
+    <string _locid="49913">Win a Skirmish or Multiplayer game on the Mongolia Map.</string>
+    <string _locid="49914">Profile Icon Unlock -  A citizen in Hanfu traditional clothing.</string>
+    <string _locid="49915">Build all Chinese Wonders.</string>
+    <string _locid="49916">Profile Icon Unlock - Lion Dance</string>
+    <string _locid="49917">Stun a total of 50 treasure guardians with any of the Asian Dynasty explorers.</string>
+    <string _locid="49918">Profile Icon Unlock - An Arquebusier in a Tang Suit.</string>
+    <string _locid="49919">Deploy all armies from the War Academy, Castle and Home City shipments as the Chinese. (13 armies in total)</string>
+    <string _locid="49920">Cheat Unlock - Chinese Guardian Lion cheat</string>
+    <string _locid="49921">Deal 2022 damage with Axehilt the Tame Tiger or Wagner the Pet White Tiger as the Indians.</string>
+    <string _locid="49922">Profile Icon Unlock - A water Tiger statue, a gift of strength and braveness.</string>
+    <string _locid="49923">Winter Wonderland is now available in the mods browser!</string>
+    <string _locid="49924">Download Mod</string>
+    <string _locid="49925">Select to download this mod.</string>
+    <string _locid="49926">Update/Repair Mod</string>
+    <string _locid="49927">This mod requires an update or repairing.</string>
+    <string _locid="49928" symbol="cStringPlayWinterWonderland">Play Winter Wonderland</string>
+    <string _locid="49929">Select to play this mod.</string>
+    <string _locid="49930">You have reached the military pop cap {0}/{1} and cannot send this Home City Card.</string>
+    <string _locid="49931">Economy Challenges</string>
+    <string _locid="49932">Economy Challenges: View more economy challenge details.</string>
+    <string _locid="49933">Complete these challenges to increase your total score!</string>
+    <string _locid="49934">Completed by</string>
+    <string _locid="49935">First to gather 2,000 food. (200 score)</string>
+    <string _locid="49936">First to gather 2,000 wood. (200 score)</string>
+    <string _locid="49937">First to gather 2,000 coin. (200 score)</string>
+    <string _locid="49938">First to gather 1,000 food in: 2 minute (1000 score), 5 minutes (400 score), 10 minutes (100 score)</string>
+    <string _locid="49939">First to gather 1,000 wood in: 2 minute (1000 score), 5 minutes (400 score), 10 minutes (100 score)</string>
+    <string _locid="49940">First to gather 1,000 coin in: 2 minute (1000 score), 5 minutes (400 score), 10 minutes (100 score)</string>
+    <string _locid="49941">First to reach a pop of 75 in: 6 minutes (1000 score), 8 minutes (500 score), 10 minutes (250 score)</string>
+    <string _locid="49942">First to gather {0} food. ({1} score)</string>
+    <string _locid="49943">First to gather {0} wood. ({1} score)</string>
+    <string _locid="49944">First to gather {0} coin. ({1} score)</string>
+    <string _locid="49945">Gather {0} food: {1}, {2} minute ({3} score)</string>
+    <string _locid="49946">Gather {0} wood: {1}, {2} minute ({3} score)</string>
+    <string _locid="49947">Gather {0} coin: {1}, {2} minute ({3} score)</string>
+    <string _locid="49948">Reach a pop of {0}: {1}, {2} minutes ({3} score)</string>
+    <string _locid="49949">First to gather {0} food in: {1} minute ({2} score), {3} minutes ({4} score), {5} minutes ({6} score)</string>
+    <string _locid="49950">First to gather {0} wood in: {1} minute ({2} score), {3} minutes ({4} score), {5} minutes ({6} score)</string>
+    <string _locid="49951">First to gather {0} coin in: {1} minute ({2} score), {3} minutes ({4} score), {5} minutes ({6} score)</string>
+    <string _locid="49952">First to reach a pop of {0} in: {1} minutes ({2} score), {3} minutes ({4} score), {5} minutes ({6} score)</string>
+    <string _locid="49953">Lao Chen\nA sturdy sailor whose wit and pack of muscles may prove useful to defy the odds - or turn the tide.</string>
+    <string _locid="49954">Captain Huang\nThe luxurious robe of this well-traveled naval captain easily competes with the riches in his treasure ship.</string>
+    <string _locid="49955">Lao Chen</string>
+    <string _locid="49956">Captain Huang</string>
+    <string _locid="49957">Unlock this Shaolin Master customization by completing Lunar New Year Event Challenges.</string>
+    <string _locid="49958">
+    </string>
+    <string _locid="49959">
+    </string>
+    <string _locid="49960">
+    </string>
+    <string _locid="49961">
+    </string>
+    <string _locid="49962">This player has no Home City.</string>
+    <string _locid="49963">Select to toggle the mini map by expanding/reverting back to normal.</string>
+    <string _locid="49964">Male Guardian Lion</string>
+    <string _locid="49965">Female Guardian Lion</string>
+    <string _locid="49966">Chinese guardian lions were thought to protect from harmful spiritual influences and harmful people that might be a threat.</string>
+    <string _locid="49967">Chinese guardian lions will fight against harmful influences and people that might be a threat.</string>
+    <string _locid="49968">Lion Dance Parade</string>
+    <string _locid="49969">A traditional form of dancing in Asian cultures that brings good luck and fortune.</string>
+    <string _locid="49970">A traditional dance that brings good luck and fortune.</string>
+    <string _locid="49971">Shaolin Master customization - Lao Chen</string>
+    <string _locid="49972">Shaolin Master customization - Captain Huang</string>
+    <string _locid="49973">Sacred Breath</string>
+    <string _locid="49974">Pearl Cannonball</string>
+    <string _locid="49975">Monk (Default)\nThis is the default version of the Monk.</string>
+    <string _locid="49976">Lunar New Year Event</string>
     <string _locid="60001" symbol="cStringCivNameJapanese">Japanese</string>
     <string _locid="60002" symbol="cStringCivNameChinese">Chinese</string>
     <string _locid="60003" symbol="cStringCivNameIndians">Indians</string>
@@ -20421,7 +20518,7 @@
     <string _locid="60222">Supports 10 population.</string>
     <string _locid="60223">Shrine</string>
     <string _locid="60224">Shrine Japanese</string>
-    <string _locid="60225">Supports 20 population / livestock building</string>
+    <string _locid="60225">Supports {unitPopCapAddition(ypVillage)} population / livestock building</string>
     <string _locid="60226">Supports 20 population, which can be increased here with improvements. Also fattens livestock faster and trains Goats.</string>
     <string _locid="60227">Village</string>
     <string _locid="60228">Village</string>
@@ -21722,9 +21819,9 @@
     <string _locid="61522">Iron Cap Princes' Army</string>
     <string _locid="61523">Emperor's Army</string>
     <string _locid="61524">Ever Victorious Army</string>
-    <string _locid="61525">1 Flamethrower</string>
-    <string _locid="61526">2 Flamethrowers</string>
-    <string _locid="61527">4 Flamethrowers</string>
+    <string _locid="61525">1 Flamethrower + 1 Castle Rickshaw</string>
+    <string _locid="61526">2 Flamethrowers + 1 Castle Rickshaw</string>
+    <string _locid="61527">4 Flamethrowers + 1 Castle Rickshaw</string>
     <string _locid="61528">7 Hand Mortars</string>
     <string _locid="61529">11 Hand Mortars</string>
     <string _locid="61530">2 Flying Crows</string>
@@ -21747,7 +21844,7 @@
     <string _locid="61547">Black Flag Army Attack</string>
     <string _locid="61548">Territorial Army Hitpoints Shipment has arrived.</string>
     <string _locid="61549">Territorial Army Combat Shipment has arrived.</string>
-    <string _locid="61550">Steppe Riders do more damage against Villagers and buildings. Keshiks do more damage against heavy cavalry and Coyote Runners. Iron Flails do more damage versus archers and skirmishers.</string>
+    <string _locid="61550">Steppe Riders do more damage against Villagers and buildings. Keshiks do more damage against heavy cavalry and hand shock infantry. Iron Flails do more damage versus archers and skirmishers.</string>
     <string _locid="61551">Mongolian Scourge</string>
     <string _locid="61552">Territorial Army Hitpoints Shipment has arrived.</string>
     <string _locid="61553">Mongolian Shipment has arrived.</string>
@@ -24201,7 +24298,7 @@
     <string _locid="64152">Portuguese Allies</string>
     <string _locid="64153">Bonus: +0.8 Coin Trickle Rate\n\nTrains: Musketeers, Ruyters, Mortars\n\nShipments: Economic buildings</string>
     <string _locid="64154">Dutch Allies</string>
-    <string _locid="64155">Bonus: -10% Settler Training Time\n\nTrains: Cossacks, Culverins, Dragoons\n\nShipments: Defensive buildings</string>
+    <string _locid="64155">Bonus: -10% Settler Training Time and Cost\n\nTrains: Cossacks, Culverins, Dragoons\n\nShipments: Defensive buildings</string>
     <string _locid="64156">Russian Allies</string>
     <string _locid="64157">Bonus: +0.8 Experience Trickle Rate\n\nTrains: Pikemen, Rodeleros, Falconets\n\nShipments: Shipment enhancements</string>
     <string _locid="64158">Spanish Allies</string>
@@ -25179,7 +25276,7 @@
     <string _locid="65135">Mansabdar Sepoy</string>
     <string _locid="65136">MAN Sepoy</string>
     <string _locid="65137" symbol="cStringWonderRangedDamage">Configure the Golden Pavilion to increase the attack of your ranged units.</string>
-    <string _locid="65138" symbol="cStringWonderRangedDamageActive">The Golden Pavilion is increasing the attack your ranged units.</string>
+    <string _locid="65138" symbol="cStringWonderRangedDamageActive">The Golden Pavilion is increasing the attack of your ranged units.</string>
     <string _locid="65139" symbol="cStringWonderHandDamage">Configure the Golden Pavilion to increase the attack of your hand units.</string>
     <string _locid="65140" symbol="cStringWonderHandDamageActive">The Golden Pavilion is increasing the attack of your hand units.</string>
     <string _locid="65141" symbol="cStringWonderUnitHitpoints">Configure the Golden Pavilion to increase the hitpoints of your land military units.</string>
@@ -32291,6 +32388,8 @@
     <string _locid="73001" symbol="cStringGameModeRankedDeathmatch">Ranked Deathmatch</string>
     <string _locid="73002" symbol="cStringCasualRankedTeamsError">You must have two teams of equal numbers in a ranked game.</string>
     <string _locid="73003" symbol="cStringCasualRankedDisabled">Not allowed in ranked games.</string>
+    <string _locid="73004" symbol="cStringGameModeRankedTreatyTooltip">Ranked Treaty: a treaty match that impacts rankings.</string>
+    <string _locid="73005" symbol="cStringGameModeRankedDeathmatchTooltip">Ranked Deathmatch: a deathmatch game that impacts rankings.</string>
     <string _locid="79800">Castle and Blockhouse attack increased.</string>
     <string _locid="79801">Castles and Blockhouses get a cannon attack and more hitpoints.</string>
     <string _locid="79802">Mountain Castle and Frontier Blockhouse</string>
@@ -32451,6 +32550,7 @@
     <string _locid="79959" symbol="cStringFriendly">Friendly</string>
     <string _locid="79960">Large Map</string>
     <string _locid="79961">Loads the larger variant for the selected map.</string>
+    <string _locid="79962">15 Sheep + 1 Homestead Wagon + 3 Uhlans</string>
     <string _locid="80000" symbol="cStringCultureInca">Inca</string>
     <string _locid="80001" symbol="cStringCivNameInca">Inca</string>
     <string _locid="80002" symbol="cStringCivRolloverInca">&lt;color=1.0, 1.0, 0.0&gt;Civilization bonus:&lt;/color&gt;\nKancha Houses produce food. Receives a free Chasqui with Exploration Age shipments and with each Age-up. Chasqui's can construct Tambos (powerful Trading Posts that can receive shipments and civilians can garrison in). Military units can garrison in Kallankas and Strongholds. Priestesses can convert enemies and work at the Community Plaza.\n&lt;color=1.0, 1.0, 0.0&gt;Unique units:&lt;/color&gt;\nChasqui, Plumed Spearman, Chimu Runner, Jungle Bowman, Bolas Warrior, Huaraca, Maceman, Priestess and Chincha Raft.\n&lt;color=1.0, 1.0, 0.0&gt;Unique buildings:&lt;/color&gt;\nKallanka, Stronghold, Kancha House and Tambo\n&lt;color=1.0, 1.0, 0.0&gt;Unique ceremonies:&lt;/color&gt;\nMoon Ceremony and Supay Ceremony\n\nA vast South American empire known for the power of its walls and smart administration.</string>
@@ -32589,8 +32689,8 @@
     <string _locid="80135">Heals injured units and converts enemy units.</string>
     <string _locid="80136">Kancha House</string>
     <string _locid="80137">Kancha House</string>
-    <string _locid="80138">Supports 16 population and produces food.</string>
-    <string _locid="80139">Inca House that supports 16 population and produces food.</string>
+    <string _locid="80138">Supports 15 population and produces food.</string>
+    <string _locid="80139">Inca House that supports 15 population and produces food.</string>
     <string _locid="80140">Kallanka</string>
     <string _locid="80141">Kallanka</string>
     <string _locid="80142">Elite infantry building</string>
@@ -32823,7 +32923,7 @@
     <string _locid="80549">Ranged Infantry Hitpoints</string>
     <string _locid="80550">Huaracas, Bolas Warriors and Jungle Bowmen hitpoints increased.</string>
     <string _locid="80551">Quipu Kamayuks</string>
-    <string _locid="80552">Greatly increases line of sight and speed of Chasquis. Tambos improve the hitpoints of units in proximity.</string>
+    <string _locid="80552">Greatly increases line of sight + speed of Chasquis and enables them to pick up treasures. Tambos improve the hitpoints of nearby units.</string>
     <string _locid="80553">Quipu Kamayuks have arrived.</string>
     <string _locid="80554">High Ground</string>
     <string _locid="80555">The high ground of Inca buildings grants them additional line of sight and attack range.</string>
@@ -33943,7 +34043,7 @@
     <string _locid="84208" referencedplayerid="1" gamecharacter="Yermak" soundfilename="ZYERM0000" portraitfilename="resources\art\units\spc\yermak_timofeyevich\yermak_timofeyevich_portrait.png">Tatars are everywhere! Do not disembark here. We must sail on!</string>
     <string _locid="84209" referencedplayerid="1" gamecharacter="Yermak" soundfilename="ZYERM0005" portraitfilename="resources\art\units\spc\yermak_timofeyevich\yermak_timofeyevich_portrait.png">The Watch tower on that island will fill us full of holes if we do not move fast. Hold your fire and rush past it!</string>
     <string _locid="84210" referencedplayerid="1" gamecharacter="Yermak" soundfilename="ZYERM0010" portraitfilename="resources\art\units\spc\yermak_timofeyevich\yermak_timofeyevich_portrait.png">We cannot continue by boat! Rugged rocks block the river! We will have to disembark here and continue on foot!</string>
-    <string _locid="84211" referencedplayerid="3" gamecharacter="Settler" soundfilename="ZGENR0025" portraitfilename="resources\art\units\villagers\villager_portrait.png">The Tatars set fire to our home village and drove us out! We will help you set up a camp—just avenge our fallen brothers and sisters, Yermak!</string>
+    <string _locid="84211" referencedplayerid="3" gamecharacter="Settler" soundfilename="ZGENR0025" portraitfilename="resources\art\units\villagers\villager_portrait_male.png">The Tatars set fire to our home village and drove us out! We will help you set up a camp—just avenge our fallen brothers and sisters, Yermak!</string>
     <string _locid="84212" referencedplayerid="1" gamecharacter="Yermak" soundfilename="ZYERM0015" portraitfilename="resources\art\units\spc\yermak_timofeyevich\yermak_timofeyevich_portrait.png">The Tatars raid Russian villages. If you men want warm fire and hot food in your bellies, come and burn the Tatar camps and their cursed fortress!</string>
     <string _locid="84213" referencedplayerid="1" gamecharacter="Yermak" soundfilename="ZYERM0020" portraitfilename="resources\art\units\spc\yermak_timofeyevich\yermak_timofeyevich_portrait.png">Argh! Vot blin! We were not fast enough. The Tatars burned the village. If you want hot food, the only place you will find it is in the Tatar camp. Onwards, Cossacks! We come for dinner!</string>
     <string _locid="84214" referencedplayerid="1" gamecharacter="Yermak" soundfilename="ZYERM0025" portraitfilename="resources\art\units\spc\yermak_timofeyevich\yermak_timofeyevich_portrait.png">I had begun to worry that I had recruited some weak farm boys crying for their babushkas—but you men are strong Russians, indeed! The Tatar camp lies in ruins!</string>
@@ -34170,23 +34270,23 @@
     <string _locid="84705">Fulani Nomads</string>
     <string _locid="84706">Hausa Peasants</string>
     <string _locid="84708" referencedplayerid="1" gamecharacter="Usman" soundfilename="ZUSMA0000" portraitfilename="resources\art\units\spc\usman_dan_fodio\usman_dan_fodio_portrait.png">The Hausa nobles have forgotten our traditions! They live decadent lives of greed and unjustly banish whoever dares to criticize them. I refuse to let this go on!</string>
-    <string _locid="84709" referencedplayerid="1" gamecharacter="Follower" soundfilename="ZGENR0180" portraitfilename="resources\art\units\africans\hausa\bodyguard\bodyguard_portrait.png">We will be at your side whatever happens, dan Fodio – but what do you suggest that we do?</string>
+    <string _locid="84709" referencedplayerid="1" gamecharacter="Follower" soundfilename="ZGENR0180" portraitfilename="resources\art\units\africans\hausa\bodyguard\bodyguard_portrait_spc.png">We will be at your side whatever happens, dan Fodio – but what do you suggest that we do?</string>
     <string _locid="84710" referencedplayerid="1" gamecharacter="Usman" soundfilename="ZUSMA0005" portraitfilename="resources\art\units\spc\usman_dan_fodio\usman_dan_fodio_portrait.png">I say this, my friends – the whipped and banished shall rally and pry this land from their greedy hands. We are not alone, for the Fulani on this side of the river loathe the Hausa. They will help us in our uprising!</string>
-    <string _locid="84711" referencedplayerid="6" gamecharacter="Fula Warrior" soundfilename="ZGENR0185" portraitfilename="resources\art\units\africans\hausa\fula_warrior\fula_warrior_portrait.png">We will join you in your battle, Usman dan Fodio, commander of the faithful.</string>
-    <string _locid="84712" referencedplayerid="6" gamecharacter="Fula Warrior" soundfilename="ZGENR0190" portraitfilename="resources\art\units\africans\hausa\fula_warrior\fula_warrior_portrait.png">Hausa soldiers have come to raid our settlements! Our archers can protect us for now, but it will not be long before the city-states attack us in greater numbers. We must be prepared to face them.</string>
+    <string _locid="84711" referencedplayerid="6" gamecharacter="Fula Warrior" soundfilename="ZGENR0185" portraitfilename="resources\art\units\africans\hausa\fula_warrior\fula_warrior_portrait_spc.png">We will join you in your battle, Usman dan Fodio, commander of the faithful.</string>
+    <string _locid="84712" referencedplayerid="6" gamecharacter="Fula Warrior" soundfilename="ZGENR0190" portraitfilename="resources\art\units\africans\hausa\fula_warrior\fula_warrior_portrait_spc.png">Hausa soldiers have come to raid our settlements! Our archers can protect us for now, but it will not be long before the city-states attack us in greater numbers. We must be prepared to face them.</string>
     <string _locid="84713" referencedplayerid="1" gamecharacter="Usman" soundfilename="ZUSMA0010" portraitfilename="resources\art\units\spc\usman_dan_fodio\usman_dan_fodio_portrait.png">Gobir, Katsina and Kano have unified to fight us. We must defeat all three cities to claim victory. Each one will surrender to us if we destroy their town center.</string>
     <string _locid="84714" referencedplayerid="1" gamecharacter="Usman" soundfilename="ZUSMA0015" portraitfilename="resources\art\units\spc\usman_dan_fodio\usman_dan_fodio_portrait.png">We must build a university in order to properly educate our people. Doing so will also increase our influence.</string>
     <string _locid="84715" referencedplayerid="1" gamecharacter="Usman" soundfilename="ZUSMA0020" portraitfilename="resources\art\units\spc\usman_dan_fodio\usman_dan_fodio_portrait.png">Mistreated peasants work the fields outside of the city walls. If we were to free them from their bonds, they would be willing to take up arms with us.</string>
-    <string _locid="84716" referencedplayerid="1" gamecharacter="Follower" soundfilename="ZGENR0195" portraitfilename="resources\art\units\africans\hausa\bodyguard\bodyguard_portrait.png">Peasants that we free will split up to join both Usman and our Fula allies.</string>
-    <string _locid="84717" referencedplayerid="6" gamecharacter="Fula Warrior" soundfilename="ZGENR0200" portraitfilename="resources\art\units\africans\hausa\fula_warrior\fula_warrior_portrait.png">We have freed more workers from the Hausa!</string>
-    <string _locid="84718" referencedplayerid="1" gamecharacter="Follower" soundfilename="ZGENR0205" portraitfilename="resources\art\units\africans\hausa\bodyguard\bodyguard_portrait.png">Come, brothers and sisters. Rise up against our oppressors!</string>
-    <string _locid="84719" referencedplayerid="6" gamecharacter="Fula Warrior" soundfilename="ZGENR0210" portraitfilename="resources\art\units\africans\hausa\fula_warrior\fula_warrior_portrait.png">Another group of workers has been set free! </string>
-    <string _locid="84720" referencedplayerid="1" gamecharacter="Follower" soundfilename="ZGENR0215" portraitfilename="resources\art\units\africans\hausa\bodyguard\bodyguard_portrait.png">We have freed all of the workers!</string>
-    <string _locid="84721" referencedplayerid="6" gamecharacter="Fula Warrior" soundfilename="ZGENR0220" portraitfilename="resources\art\units\africans\hausa\fula_warrior\fula_warrior_portrait.png">Katsina will fight no longer!</string>
-    <string _locid="84722" referencedplayerid="1" gamecharacter="Follower" soundfilename="ZGENR0225" portraitfilename="resources\art\units\africans\hausa\bodyguard\bodyguard_portrait.png">Kano has been subdued!</string>
-    <string _locid="84723" referencedplayerid="1" gamecharacter="Follower" soundfilename="ZGENR0230" portraitfilename="resources\art\units\africans\hausa\bodyguard\bodyguard_portrait.png">Gobir is in flames!</string>
+    <string _locid="84716" referencedplayerid="1" gamecharacter="Follower" soundfilename="ZGENR0195" portraitfilename="resources\art\units\africans\hausa\bodyguard\bodyguard_portrait_spc.png">Peasants that we free will split up to join both Usman and our Fula allies.</string>
+    <string _locid="84717" referencedplayerid="6" gamecharacter="Fula Warrior" soundfilename="ZGENR0200" portraitfilename="resources\art\units\africans\hausa\fula_warrior\fula_warrior_portrait_spc.png">We have freed more workers from the Hausa!</string>
+    <string _locid="84718" referencedplayerid="1" gamecharacter="Follower" soundfilename="ZGENR0205" portraitfilename="resources\art\units\africans\hausa\bodyguard\bodyguard_portrait_spc.png">Come, brothers and sisters. Rise up against our oppressors!</string>
+    <string _locid="84719" referencedplayerid="6" gamecharacter="Fula Warrior" soundfilename="ZGENR0210" portraitfilename="resources\art\units\africans\hausa\fula_warrior\fula_warrior_portrait_spc.png">Another group of workers has been set free! </string>
+    <string _locid="84720" referencedplayerid="1" gamecharacter="Follower" soundfilename="ZGENR0215" portraitfilename="resources\art\units\africans\hausa\bodyguard\bodyguard_portrait_spc.png">We have freed all of the workers!</string>
+    <string _locid="84721" referencedplayerid="6" gamecharacter="Fula Warrior" soundfilename="ZGENR0220" portraitfilename="resources\art\units\africans\hausa\fula_warrior\fula_warrior_portrait_spc.png">Katsina will fight no longer!</string>
+    <string _locid="84722" referencedplayerid="1" gamecharacter="Follower" soundfilename="ZGENR0225" portraitfilename="resources\art\units\africans\hausa\bodyguard\bodyguard_portrait_spc.png">Kano has been subdued!</string>
+    <string _locid="84723" referencedplayerid="1" gamecharacter="Follower" soundfilename="ZGENR0230" portraitfilename="resources\art\units\africans\hausa\bodyguard\bodyguard_portrait_spc.png">Gobir is in flames!</string>
     <string _locid="84724" referencedplayerid="1" gamecharacter="Usman" soundfilename="ZUSMA0025" portraitfilename="resources\art\units\spc\usman_dan_fodio\usman_dan_fodio_portrait.png">We have done it! The other city-states will learn of our victory and lay down their weapons. No longer shall we be subject to ruthless kings and queens!</string>
-    <string _locid="84725" referencedplayerid="6" gamecharacter="Fula Warrior" soundfilename="ZGENR0235" portraitfilename="resources\art\units\africans\hausa\fula_warrior\fula_warrior_portrait.png">Only through manual labor will we keep our cause strong. When we are not fighting, we can chop wood from trees.</string>
+    <string _locid="84725" referencedplayerid="6" gamecharacter="Fula Warrior" soundfilename="ZGENR0235" portraitfilename="resources\art\units\africans\hausa\fula_warrior\fula_warrior_portrait_spc.png">Only through manual labor will we keep our cause strong. When we are not fighting, we can chop wood from trees.</string>
     <string _locid="84726">Fall of the Hausa</string>
     <string _locid="84727">Rebel against the Hausa kingdoms.</string>
     <string _locid="84728">Destroy the Town Centers of Gobir, Katsina and Kano.</string>
@@ -34364,21 +34464,21 @@
     <string _locid="85103">Royalist Guards</string>
     <string _locid="85104">Mexican Towns</string>
     <string _locid="85105">Southern Royalist Army</string>
-    <string _locid="85108" referencedplayerid="1" gamecharacter="El Padre" soundfilename="ZHIDA0000" portraitfilename="resources\art\units\spc\hidalgo\spc_hidalgo_portrait.png">My children… the Spanish have treated us unjustly, and govern our very lives. We must act at once. To defend our rights, we must oust the Spanish from our lands!</string>
-    <string _locid="85109" referencedplayerid="1" gamecharacter="El Padre" soundfilename="ZHIDA0005" portraitfilename="resources\art\units\spc\hidalgo\spc_hidalgo_portrait.png">Take up arms! We will bring death to our enemies.</string>
-    <string _locid="85110" referencedplayerid="2" gamecharacter="El General" soundfilename="ZALLE0000" portraitfilename="resources\art\units\spc\allende\spc_allende_portrait.png">Men of your vigor are just what we need! Lead your people to free the towns north of the Laja River, and I shall free those to the south.</string>
-    <string _locid="85111" referencedplayerid="2" gamecharacter="El General" soundfilename="ZALLE0005" portraitfilename="resources\art\units\spc\allende\spc_allende_portrait.png">The people of this town know how to handle rifles, but we will need more than just foot soldiers to drive out the Spanish.</string>
-    <string _locid="85112" referencedplayerid="1" gamecharacter="El Padre" soundfilename="ZHIDA0010" portraitfilename="resources\art\units\spc\hidalgo\spc_hidalgo_portrait.png">There are ranches further downriver that keep horses, and beyond are artillery foundries. We will need these to assault the Spanish base in the mountains.</string>
-    <string _locid="85113" referencedplayerid="5" gamecharacter="Celaya Citizen" soundfilename="ZGENR0380" portraitfilename="resources\art\units\villagers\villager_portrait.png">Thank you! With the Spanish gone, we may once again farm freely.</string>
-    <string _locid="85114" referencedplayerid="5" gamecharacter="Acámbaro Citizen" soundfilename="ZGENR0385" portraitfilename="resources\art\units\villagers\villager_portrait.png">We shall follow you!</string>
-    <string _locid="85115" referencedplayerid="5" gamecharacter="Aculco Citizen" soundfilename="ZGENR0390" portraitfilename="resources\art\units\villagers\villager_portrait.png">Our freedom has come!</string>
-    <string _locid="85116" referencedplayerid="5" gamecharacter="Salamanca Citizen" soundfilename="ZGENR0395" portraitfilename="resources\art\units\villagers\villager_portrait.png">We are free of the Spanish here. We will join this revolution!</string>
-    <string _locid="85117" referencedplayerid="5" gamecharacter="Ixtlahuaca Citizen" soundfilename="ZGENR0400" portraitfilename="resources\art\units\villagers\villager_portrait.png">The fires of revolution will burn the Spanish to ash!</string>
-    <string _locid="85118" referencedplayerid="5" gamecharacter="Toluca Citizen" soundfilename="ZGENR0405" portraitfilename="resources\art\units\villagers\villager_portrait.png">The Spanish do not stand a chance!</string>
-    <string _locid="85119" referencedplayerid="1" gamecharacter="El Padre" soundfilename="ZHIDA0015" portraitfilename="resources\art\units\spc\hidalgo\spc_hidalgo_portrait.png">The Spanish force us to buy grapes and olives from their food stores instead of letting us grow them ourselves. Those stores are nearby. We should take whatever food they keep there for ourselves.</string>
-    <string _locid="85120" referencedplayerid="2" gamecharacter="El General" soundfilename="ZALLE0010" portraitfilename="resources\art\units\spc\allende\spc_allende_portrait.png">A fine idea!</string>
-    <string _locid="85121" referencedplayerid="1" gamecharacter="El Padre" soundfilename="ZHIDA0020" portraitfilename="resources\art\units\spc\hidalgo\spc_hidalgo_portrait.png">All of the people in this region support us! Now it is time to take the fight to the Spanish in the mountains.</string>
-    <string _locid="85122" referencedplayerid="2" gamecharacter="El General" soundfilename="ZALLE0015" portraitfilename="resources\art\units\spc\allende\spc_allende_portrait.png">These Spanish are defeated. What do you say – shall we move on to Mexico City?</string>
+    <string _locid="85108" referencedplayerid="1" gamecharacter="El Padre" soundfilename="ZHIDA0000" portraitfilename="resources\art\units\spc\hidalgo\igc_hidalgo_portrait.png">My children… the Spanish have treated us unjustly, and govern our very lives. We must act at once. To defend our rights, we must oust the Spanish from our lands!</string>
+    <string _locid="85109" referencedplayerid="1" gamecharacter="El Padre" soundfilename="ZHIDA0005" portraitfilename="resources\art\units\spc\hidalgo\igc_hidalgo_portrait.png">Take up arms! We will bring death to our enemies.</string>
+    <string _locid="85110" referencedplayerid="2" gamecharacter="El General" soundfilename="ZALLE0000" portraitfilename="resources\art\units\spc\allende\igc_allende_portrait.png">Men of your vigor are just what we need! Lead your people to free the towns north of the Laja River, and I shall free those to the south.</string>
+    <string _locid="85111" referencedplayerid="2" gamecharacter="El General" soundfilename="ZALLE0005" portraitfilename="resources\art\units\spc\allende\igc_allende_portrait.png">The people of this town know how to handle rifles, but we will need more than just foot soldiers to drive out the Spanish.</string>
+    <string _locid="85112" referencedplayerid="1" gamecharacter="El Padre" soundfilename="ZHIDA0010" portraitfilename="resources\art\units\spc\hidalgo\igc_hidalgo_portrait.png">There are ranches further downriver that keep horses, and beyond are artillery foundries. We will need these to assault the Spanish base in the mountains.</string>
+    <string _locid="85113" referencedplayerid="5" gamecharacter="Celaya Citizen" soundfilename="ZGENR0380" portraitfilename="resources\art\units\villagers\villager_portrait_male.png">Thank you! With the Spanish gone, we may once again farm freely.</string>
+    <string _locid="85114" referencedplayerid="5" gamecharacter="Acámbaro Citizen" soundfilename="ZGENR0385" portraitfilename="resources\art\units\villagers\villager_portrait_male.png">We shall follow you!</string>
+    <string _locid="85115" referencedplayerid="5" gamecharacter="Aculco Citizen" soundfilename="ZGENR0390" portraitfilename="resources\art\units\villagers\villager_portrait_male.png">Our freedom has come!</string>
+    <string _locid="85116" referencedplayerid="5" gamecharacter="Salamanca Citizen" soundfilename="ZGENR0395" portraitfilename="resources\art\units\villagers\villager_portrait_male.png">We are free of the Spanish here. We will join this revolution!</string>
+    <string _locid="85117" referencedplayerid="5" gamecharacter="Ixtlahuaca Citizen" soundfilename="ZGENR0400" portraitfilename="resources\art\units\villagers\villager_portrait_male.png">The fires of revolution will burn the Spanish to ash!</string>
+    <string _locid="85118" referencedplayerid="5" gamecharacter="Toluca Citizen" soundfilename="ZGENR0405" portraitfilename="resources\art\units\villagers\villager_portrait_male.png">The Spanish do not stand a chance!</string>
+    <string _locid="85119" referencedplayerid="1" gamecharacter="El Padre" soundfilename="ZHIDA0015" portraitfilename="resources\art\units\spc\hidalgo\igc_hidalgo_portrait.png">The Spanish force us to buy grapes and olives from their food stores instead of letting us grow them ourselves. Those stores are nearby. We should take whatever food they keep there for ourselves.</string>
+    <string _locid="85120" referencedplayerid="2" gamecharacter="El General" soundfilename="ZALLE0010" portraitfilename="resources\art\units\spc\allende\igc_allende_portrait.png">A fine idea!</string>
+    <string _locid="85121" referencedplayerid="1" gamecharacter="El Padre" soundfilename="ZHIDA0020" portraitfilename="resources\art\units\spc\hidalgo\igc_hidalgo_portrait.png">All of the people in this region support us! Now it is time to take the fight to the Spanish in the mountains.</string>
+    <string _locid="85122" referencedplayerid="2" gamecharacter="El General" soundfilename="ZALLE0015" portraitfilename="resources\art\units\spc\allende\igc_allende_portrait.png">These Spanish are defeated. What do you say – shall we move on to Mexico City?</string>
     <string _locid="85123">Grito de Dolores</string>
     <string _locid="85124">Rally the people of Mexico and revolt against the Spanish government.</string>
     <string _locid="85125">Liberate a town to gain control of its buildings.</string>
@@ -34727,10 +34827,10 @@
     <string _locid="90409">Ahmad al-Mansur</string>
     <string _locid="90410">Sebastian of Portugal, a young and jealous king, has launched an invasion into Morocco under the pretense of a crusade. The Saadis, however, are not impressed and gather their army to meet the invaders. The Iberians may have superior technology, mercenaries, and the help of a local puppet sultan, but the sultan's forces are fighting to protect their homes.</string>
     <string _locid="90411">The Battle of the Three Kings (aftermath)</string>
-    <string _locid="90427">The Burning of USS Philadelphia (1803)</string>
+    <string _locid="90427">The Burning of the USS Philadelphia (1803)</string>
     <string _locid="90428">Stephen Decatur</string>
     <string _locid="90429">Determined to put an end to predatory raids on merchant vessels, the United States has declared war on the Barbary pirates in North Africa. An auspicious start to the conflict quickly turned into disaster and disgrace when the frigate USS Philadelphia was captured intact by Barbary pirates. However, one brave young American lieutenant was unwilling to let the vessel remain in enemy hands. Assembling a group of volunteers, Stephen Decatur set sail to destroy the frigate and salvage the US Navy's reputation.</string>
-    <string _locid="90430">The Burning of USS Philadelphia (aftermath)</string>
+    <string _locid="90430">The Burning of the USS Philadelphia (aftermath)</string>
     <string _locid="90431">Grito de Dolores (1810)</string>
     <string _locid="90432">Mexican Revolutionaries</string>
     <string _locid="90433">As the Bourbon Reforms granted the Spanish elite more power and diminished that of the church, resentment grew among the rural Mexican population. When news of Napoleon Bonaparte’s conquest of Spain reached the Americas, the words of a Catholic priest ignited the sparks of revolution.</string>
@@ -35715,7 +35815,7 @@
     <string _locid="101078" symbol="cStringInfluenceGatherers">Influence Collected (generated by Trade Routes, Native Settlements and Herdables)</string>
     <string _locid="101079">Tokens of Influence</string>
     <string _locid="101080">Crate Influence</string>
-    <string _locid="101081">Supply of 100 Influence</string>
+    <string _locid="101081">Tokens of 100 Influence</string>
     <string _locid="101082">Influence source</string>
     <string _locid="101083">This Trading Post is generating Influence.</string>
     <string _locid="101084">Request Influence generation at this Trading Post.</string>
@@ -36073,10 +36173,10 @@
     <string _locid="101436">Sanga Ranching</string>
     <string _locid="101437">You can now train Sanga Cattle from Livestock Markets.</string>
     <string _locid="101438">Source of Influence.</string>
-    <string _locid="101439">400 Influence</string>
-    <string _locid="101440">800 Influence</string>
-    <string _locid="101441">1000 Influence</string>
-    <string _locid="101442">500 Influence</string>
+    <string _locid="101439">Tokens of 400 Influence</string>
+    <string _locid="101440">Tokens of 800 Influence</string>
+    <string _locid="101441">Tokens of 1000 Influence</string>
+    <string _locid="101442">Tokens of 500 Influence</string>
     <string _locid="101443">6 Imams</string>
     <string _locid="101444">6 Semi-fattened Cattle</string>
     <string _locid="101445">Fealty Aura</string>
@@ -36152,7 +36252,7 @@
     <string _locid="101515">Tree - Fan Palm</string>
     <string _locid="101516">Plentiful Tokens of Influence</string>
     <string _locid="101517">Crate Influence Large</string>
-    <string _locid="101518">Supply of 500 Influence</string>
+    <string _locid="101518">Tokens of 500 Influence</string>
     <string _locid="101519">Tree - Doum Palm</string>
     <string _locid="101520">The Doum Palm flourishes in hot dry regions where little else grows. Harvest for wood.</string>
     <string _locid="101521">Tree - Acacia</string>
@@ -37249,9 +37349,9 @@
     <string _locid="102796">GRD Wandering Nilote</string>
     <string _locid="102797">Grave Robber</string>
     <string _locid="102798">GRD Grave Robber</string>
-    <string _locid="102800">Supply of 700 Influence</string>
-    <string _locid="102801">Supply of 1000 Influence</string>
-    <string _locid="102802">Supply of 1600 Influence</string>
+    <string _locid="102800">Tokens of 700 Influence</string>
+    <string _locid="102801">Tokens of 1000 Influence</string>
+    <string _locid="102802">Tokens of 1600 Influence</string>
     <string _locid="102803">Emir of Katsina</string>
     <string _locid="102804">Rumfa's Riders</string>
     <string _locid="102805">Kingslayer</string>
@@ -37295,7 +37395,7 @@
     <string _locid="102843">Habbanaya</string>
     <string _locid="102844">Delivers a number of Lifidi Knights and enables them to be trained in the Commerce Age.</string>
     <string _locid="102845">Emirs inflict considerably more damage against Heroes and gain additional attack and hitpoints from nearby enemy military units.</string>
-    <string _locid="102846">Supply of 600 Influence</string>
+    <string _locid="102846">Tokens of 600 Influence</string>
     <string _locid="102847">Increases Fulani Archer range and siege range.</string>
     <string _locid="102848">Improves Villager hitpoints and attack speed in melee combat. Villagers will tend to prefer wrestling (melee attack) in combat and only shoot at particularly long distance targets.</string>
     <string _locid="102849">Lifidi Knights and Raiders ride faster and their attacks now inflict splash damage, especially in trample mode.</string>
@@ -37313,7 +37413,7 @@
     <string _locid="102861">Walls and Gates return their cost when destroyed. Gates and wall technologies are cheaper.</string>
     <string _locid="102862">Allows Levies to garrison inside Watch Towers. Units garrisoned in a Watch Tower improve its damage by 10%.</string>
     <string _locid="102863">Native Warrior, Outlaw, and Mercenary combat improved.</string>
-    <string _locid="102864">Native Warriors, Mercenaries and Outlaws are cheaper, including shipments of them.</string>
+    <string _locid="102864">Native Warriors, Mercenaries and Outlaws are 15% cheaper, including shipments of them.</string>
     <string _locid="102865">Big Benny</string>
     <string _locid="102866">All mines last longer and their locations are temporarily revealed for 3 minutes.</string>
     <string _locid="102867">You receive a free Fulani Archer for all your past and future shipments.</string>
@@ -37332,7 +37432,7 @@
     <string _locid="102879">Prize Bull</string>
     <string _locid="102880">Increases the maximum food total Herdables can fatten to.</string>
     <string _locid="102881">Particularly fattened Cattle containing 900 Food.</string>
-    <string _locid="102882">300 Influence</string>
+    <string _locid="102882">Tokens of 300 Influence</string>
     <string _locid="102883">Exchanges ALL your Sanga and other Cattle for Influence and replaces them with an unfattened calfs.\n • Cattle Value: 70%</string>
     <string _locid="102884">Zinder Kanuris</string>
     <string _locid="102885">Ships a number of Kanuri Guard mercenaries (Dragoons). Enables them to be trained from the Palace where they cost partially Coin and Influence.</string>
@@ -38003,8 +38103,8 @@
     <string _locid="104564">5 Macemen</string>
     <string _locid="104565">8 Huaracas</string>
     <string _locid="104566">6 Huaracas</string>
-    <string _locid="104567">10 Bolas Warriors</string>
-    <string _locid="104568">Ships 1 Jaguar Prowl Knight for each 2 you have lost so far (up to a maximum of 16).</string>
+    <string _locid="104567">8 Bolas Warriors</string>
+    <string _locid="104568">Ships 1 Jaguar Prowl Knight for each 2 you have lost so far (ships up to a maximum of 16 units).</string>
     <string _locid="104569">Ritual Gladiators</string>
     <string _locid="104570">Ships 1 Skull Knight for each 2 you have lost so far (up to a maximum of 13).</string>
     <string _locid="104571">Wall of Skulls</string>
@@ -38075,6 +38175,43 @@
     <string _locid="104634">All your Insurgentes transform into Revolutionaries.</string>
     <string _locid="104635">Cavalry hitpoints increased. Dragoons may be recruited in the Commerce Age.</string>
     <string _locid="104636">1 Privateer</string>
+    <string _locid="104637">
+    </string>
+    <string _locid="104638">Ships 1 Consulate Rickshaw and 100 Export to spend. Also grants a steady trickle of Export permanently.</string>
+    <string _locid="104639">Tea Export</string>
+    <string _locid="104640">Fire Dragon Manual</string>
+    <string _locid="104641">Ships 2 Flying Crows. Slightly improves their rate of fire.</string>
+    <string _locid="104642">Ships 1 Flying Crow and 2 Honored Flamethrowers. Slightly improves their rate of fire.</string>
+    <string _locid="104643">Year of the Dragon</string>
+    <string _locid="104644">Each Town Center will muster 1 Flamethrower and each Village will muster 1 Monitor Lizard, to your homecity spawn point.</string>
+    <string _locid="104645">Ships 1 Flamethrower for each Town Center and 1 Pet Monitor Lizard for each Village you have.</string>
+    <string _locid="104646">Koxinga</string>
+    <string _locid="104647">
+    </string>
+    <string _locid="104648">Ships a number of Iron Troops and significantly improves their ranged rate of fire.</string>
+    <string _locid="104649">1 Flying Crow</string>
+    <string _locid="104650">Himalayan Goats</string>
+    <string _locid="104651">High Mountain Goats</string>
+    <string _locid="104652">Villages fatten Livestock faster.</string>
+    <string _locid="104653">Each Village will do a one-time muster of 1 Goat. Villages fatten Livestock faster.</string>
+    <string _locid="104654">
+    </string>
+    <string _locid="104655">
+    </string>
+    <string _locid="104656">Year of the Tiger</string>
+    <string _locid="104657">For each 2 Disciples you have lost, a Pet White Tiger will be mustered to your homecity spawn point (up to a maximum of 12 units).</string>
+    <string _locid="104658">For each 2 Disciples you have obtained so far this game, a Pet White Tiger will be mustered to your homecity spawn point (up to a maximum of 12 units).</string>
+    <string _locid="104659">For each 3 Disciples you have obtained so far this game, a Pet White Tiger will be mustered to your homecity spawn point (up to a maximum of 12 units).</string>
+    <string _locid="104660">Shipment: 2 Village Rickshaws\n \nPower: Transcendence - all units heal. Monks can now heal units.</string>
+    <string _locid="104661">Shipment: 1 Town Center Rickshaw\n \nPower: Transcendence - all units heal. Monks can now heal units.</string>
+    <string _locid="104662">Shipment: 3 Rice Paddy Rickshaws\n \nPower: Transcendence - all units heal. Monks can now heal units.</string>
+    <string _locid="104663">Shipment: 4 Military Rickshaws and 600 Export\n \nPower: Transcendence - all units heal. Monks can now heal units.</string>
+    <string _locid="104664">Shipment: 1200 Export\n \nPower: Transcendence - all units heal. Monks can now heal units.</string>
+    <string _locid="104665">Ships a number of Iron Troops and makes cards which cost resources cheaper.</string>
+    <string _locid="104666">Cards which cost resources are cheaper and deliver bonus Iron Troops.</string>
+    <string _locid="104667">Battle Bluster (Charged)</string>
+    <string _locid="104668">Battle Bluster</string>
+    <string _locid="104669">Charged Ability: Propels explosives from a grenade launcher for extra range and area damage.</string>
     <string _locid="104800">TEAM 1 Camp Builder</string>
     <string _locid="104801">TEAM Trade Empire</string>
     <string _locid="104802">You get a Trading Post Builder, and Trading Posts are cheaper and stronger.</string>
@@ -38472,7 +38609,7 @@
     <string _locid="110175">Saber Strike</string>
     <string _locid="110176">Charged Ability: A heavy strike dealing area damage.</string>
     <string _locid="110177">Inspiring Flag</string>
-    <string _locid="110178">Plants the United States flag to boost morale! Nearby military units and buildings inflict more damage and are created faster. Flags cannot be planted near starting Town Centers, and only one flag can be planted at a time.</string>
+    <string _locid="110178">Plants the United States flag to boost morale! Nearby military units (excluding artillery) and buildings inflict more damage and are created faster. Flags cannot be planted near starting Town Centers, and only one flag can be planted at a time.</string>
     <string _locid="110179">Inspiring Flag</string>
     <string _locid="110180">Plant Flag</string>
     <string _locid="110181">Boosts the morale of nearby United States units and must be defended! If captured by enemies, it will be removed from the map.</string>
@@ -38747,7 +38884,7 @@
     <string _locid="110448">Virginia Oak</string>
     <string _locid="110449">Exploration and Commerce Age Market technologies are free. Improves Market buy rate.</string>
     <string _locid="110450">Hamiltonian Economics</string>
-    <string _locid="110451">Saloons now support population and can be constructed in the Exploration Age. The Saloon's Build Limit is increased and Military Wagons can construct them too.</string>
+    <string _locid="110451">Saloons now support population and can be constructed in the Exploration Age. The Saloon's Build Limit is increased.</string>
     <string _locid="110452">Advanced Saloon</string>
     <string _locid="110453">Ships 400 wood. Villagers gather wood faster.\n • Villlager: Gather Work Rate for Tree and Grove +10%</string>
     <string _locid="110454">Washington Lumber Mills</string>
@@ -38868,7 +39005,7 @@
     <string _locid="110569">Theaters +2 Uhlans</string>
     <string _locid="110570">Ships 7 random Wild West outlaws.</string>
     <string _locid="110571">Reno Gang</string>
-    <string _locid="110572">Ships 3 Wokou Junks.</string>
+    <string _locid="110572">Ships 2 Wokou Junks.</string>
     <string _locid="110573">Recruit Manilamen</string>
     <string _locid="110574">Ships 3 Wokou Junks.</string>
     <string _locid="110575">Recruit Manilamen Fleet</string>
@@ -39344,7 +39481,7 @@
     <string _locid="112003">The General</string>
     <string _locid="112004">Padre Miguel</string>
     <string _locid="112005">Mexican Padre who will fight for the freedom and wellbeing of his people, even if it means his own demise.</string>
-    <string _locid="112006">Plants the Mexican flag to boost morale! Nearby military units and buildings inflict more damage and are created faster. Flags cannot be planted near starting Town Centers, and only one flag can be planted at a time.</string>
+    <string _locid="112006">Plants the Mexican flag to boost morale! Nearby military units (excluding artillery) and buildings inflict more damage and are created faster. Flags cannot be planted near starting Town Centers, and only one flag can be planted at a time.</string>
     <string _locid="112007">Boosts the morale of nearby Mexican units and must be defended! If captured by enemies, it will be removed from the map.</string>
     <string _locid="112008">Tactically planted by a General to boost nearby Mexican units and buildings. If no allied units or buildings are nearby, it can be captured by enemies and removed from the map.\n • Grants +10% Attack Damage to all Units.\n • Grants +10% Attack Damage to all Buildings.\n • Grants +25% Workrate to Military Buildings.\n • Grants +50% Construction speed to all Buildings.</string>
     <string _locid="112009">Bandido</string>
@@ -39489,7 +39626,7 @@
     <string _locid="112145">SPC AM Isaac Brock</string>
     <string _locid="112146">British General</string>
     <string _locid="112147">Proud general in charge of British forces in Canada.</string>
-    <string _locid="112148">Plants the Canadian flag to boost morale! Nearby military units and buildings inflict more damage and are created faster. Flags cannot be planted near starting Town Centers, and only one flag can be planted at a time.</string>
+    <string _locid="112148">Plants the Canadian flag to boost morale! Nearby military units (excluding artillery) and buildings inflict more damage and are created faster. Flags cannot be planted near starting Town Centers, and only one flag can be planted at a time.</string>
     <string _locid="112149">Boosts the morale of nearby Canadian units and must be defended! If captured by enemies, it will be removed from the map.</string>
     <string _locid="112150">Guerilla Tactics</string>
     <string _locid="112151">If not in combat, Salteadores will automatically be stealthy with no speed penalty - for a short duration.</string>
@@ -39570,7 +39707,7 @@
     <string _locid="112226">Garrison Unit</string>
     <string _locid="112227">Ships 3 large collections of books containing 1500 XP in total.</string>
     <string _locid="112228">Holy Mass</string>
-    <string _locid="112229">12 Insurgentes</string>
+    <string _locid="112229">11 Insurgentes</string>
     <string _locid="112230">33 Insurgentes</string>
     <string _locid="112231">6 Soldados</string>
     <string _locid="112232">5 Soldados</string>
@@ -39582,7 +39719,7 @@
     <string _locid="112238">4 Chinacos</string>
     <string _locid="112239">Ships 8 Dragoons and 1 Culverin</string>
     <string _locid="112240">Liberty Dragoon Regiment</string>
-    <string _locid="112241">Ships 9 Soldados and 2 Falconets.</string>
+    <string _locid="112241">Ships 9 Soldados and 1 Falconet.</string>
     <string _locid="112242">Los Colorados Battalion</string>
     <string _locid="112243">Ships 8 Chinacos and 1 Mortar.</string>
     <string _locid="112244">San Blas Battalion</string>
@@ -39634,11 +39771,11 @@
     <string _locid="112290">Plan of Ayutla</string>
     <string _locid="112291">All your Salteadores transform into Soldados. Soldado gain slightly more range.</string>
     <string _locid="112292">Plan of Tuxtepec</string>
-    <string _locid="112293">Arives fast! Ships 1 Factory Wagon. Factory technologies and repairs are free. Factory hitpoints improved.</string>
+    <string _locid="112293">Arrives fast! Ships 1 Factory Wagon. Factory technologies and repairs are free. Factory hitpoints improved.</string>
     <string _locid="112294">Porfiriato</string>
     <string _locid="112295">Ships 14 Apache Riders that inflict more damage to Villagers than usual.</string>
     <string _locid="112296">Renegade Apache</string>
-    <string _locid="112297">Ships 9 Comanche Horse Archers that inflict more damage to Villagers than usual.</string>
+    <string _locid="112297">Ships 11 Comanche Horse Archers that inflict more damage to Villagers than usual.</string>
     <string _locid="112298">Renegade Comanche</string>
     <string _locid="112299" symbol="cStringBountyOverrideFormat">Kill Reward: </string>
     <string _locid="112300">1 Military Wagon</string>
@@ -39696,15 +39833,15 @@
     <string _locid="112352">VIL Dock Wagon</string>
     <string _locid="112353">Ships 1 Native Embassy Travois. Enables a selection of Jesuit and Mesoamerican features at your Native Embassy and Town Center.</string>
     <string _locid="112354">Tlaxcala Alliance</string>
-    <string _locid="112355">Ships 3 Settlers for each Hacienda you have constructed.</string>
+    <string _locid="112355">Ships 2 Settlers. Each new and existing Hacienda spawns 2 Settlers.</string>
     <string _locid="112356">Tlaxcala Textiles</string>
-    <string _locid="112357">Ships 4 Maya Holcan Javelineers for each Hacienda you have constructed.</string>
+    <string _locid="112357">Ships 3 Maya Holcan Javelineers for each Hacienda you have constructed.</string>
     <string _locid="112358">Tzotzil Uprising</string>
-    <string _locid="112359">All existing and newly constructed Haciendas spawn Maya Crops containing 350 Food.</string>
+    <string _locid="112359">All existing and newly constructed Haciendas spawn Maya Crops containing 300 Food.</string>
     <string _locid="112360">Maya Crops</string>
     <string _locid="112361">Arrives fast! Your next Federal State grants its reward twice. Next Barracks upgrade is free.</string>
     <string _locid="112362">Arteaga Reforms</string>
-    <string _locid="112363">Ships 1 Hacienda Wagon and enables Haciendas to support 20 population.</string>
+    <string _locid="112363">Ships 1 Hacienda Wagon and enables Haciendas to support 15 population.</string>
     <string _locid="112364">Querétaro Haciendas</string>
     <string _locid="112365">Upgrades Salteadores to Veteran status. Ships an additional Salteador for each shipment you have sent so far this game.</string>
     <string _locid="112366">Tabascan Separatists</string>
@@ -39735,7 +39872,7 @@
     <string _locid="112391">Tampico Customs</string>
     <string _locid="112392">Cards which deliver only crates (e.g., Cords of 700 Wood) may now be sent from the Homecity without costing a shipment but take longer to arrive.</string>
     <string _locid="112393">Pánuco Waterway</string>
-    <string _locid="112394">Arives fast! Ships 1 Fort Wagon and allows Militiamen to be called from Outposts and Forts.</string>
+    <string _locid="112394">Arrives fast! Ships 1 Fort Wagon and allows Militiamen to be called from Outposts and Forts.</string>
     <string _locid="112395">Trías Fortifications</string>
     <string _locid="112396">Grants a steady trickle of wood. Villagers gather wood faster and trees last longer.</string>
     <string _locid="112397">Sierra Madre Forests</string>
@@ -40015,7 +40152,7 @@
     <string _locid="112681">Guerilla Tactics</string>
     <string _locid="112682">Salteadores gain more range and their attacks reveal enemies for a longer duration.</string>
     <string _locid="112683">Observers</string>
-    <string _locid="112684">Equips all Insurgentes with Muskets.</string>
+    <string _locid="112684">Equips all Insurgentes with Muskets and improves their trainspeed.</string>
     <string _locid="112685">Reservistas</string>
     <string _locid="112686">Insurgente attack and movement speed improved.</string>
     <string _locid="112687">Machetes</string>
@@ -40059,11 +40196,11 @@
     <string _locid="112725">Big Game Hunting (Charged)</string>
     <string _locid="112726">Dynamite Demolition (Charged)</string>
     <string _locid="112727">Shootout</string>
-    <string _locid="112728">Charged Action: Fires both pistols quickly for a short duration.</string>
+    <string _locid="112728">Charged Ability: Fires both pistols quickly for a short duration.</string>
     <string _locid="112729">Big Game Hunting</string>
-    <string _locid="112730">Charged Action: Ensnares enemies with a lasso to slow them down.</string>
+    <string _locid="112730">Charged Ability: Ensnares enemies with a lasso to slow them down.</string>
     <string _locid="112731">Dynamite Demolition</string>
-    <string _locid="112732">Charged Action: Tosses dynamite to inflict massive area damage.</string>
+    <string _locid="112732">Charged Ability: Tosses dynamite to inflict massive area damage.</string>
     <string _locid="112733">SALOON Gunslinger</string>
     <string _locid="112734">SALOON Cowboy</string>
     <string _locid="112735">SALOON Owlhoot</string>
@@ -40096,7 +40233,7 @@
     <string _locid="112762">Tennessee Volunteers</string>
     <string _locid="112763">Ships 12 State Militia to each TEAM player.</string>
     <string _locid="112764">TEAM Kentucky Militia</string>
-    <string _locid="112765">Manors heal nearby allied units and slow down enemy infantry by 10%.</string>
+    <string _locid="112765">Houses heal nearby allied units and slow down enemy infantry by 10%.</string>
     <string _locid="112766">National Housing</string>
     <string _locid="112767">Heal Aura</string>
     <string _locid="112768">Spanish Musketeer</string>
@@ -40114,11 +40251,11 @@
     <string _locid="112802">Central Americans</string>
     <string _locid="112803">Guatemala City</string>
     <string _locid="112804">Baja California</string>
-    <string _locid="112805">Settlers become Filibusters\n\n2 Post Wagons\n\nFocus: Outlaws, Map Control, Resource trickles</string>
+    <string _locid="112805">Settlers become Filibusters\n\n3 Post Wagons\n\nFocus: Outlaws, Map Control, Resource trickles</string>
     <string _locid="112806">Filibusters</string>
     <string _locid="112807">La Paz</string>
     <string _locid="112808">Yucatán</string>
-    <string _locid="112809">Insurgentes become Yucatecos\n\nHacienda and Factory upgrades available and free\n\nFocus: Haciendas, Settlers, Infantry</string>
+    <string _locid="112809">Insurgentes become Yucatecos\n\nHacienda upgrades available and free\n\nFocus: Haciendas, Settlers, Infantry</string>
     <string _locid="112810">Yucatecos</string>
     <string _locid="112811">Mérida</string>
     <string _locid="112812">Rio Grande</string>
@@ -40137,7 +40274,7 @@
     <string _locid="112825">Settlers become Volunteers.\n\nTrain Guard United States units. Minutemen levies enabled at the Town Center.\n\nFocus: Forts, Infantry upgrades.</string>
     <string _locid="112826">Texians</string>
     <string _locid="112827">Austin</string>
-    <string _locid="112828">Ships 5 Soldados. You receive a free Petard with all future shipments, starting with this one.</string>
+    <string _locid="112828">Ships 4 Soldados. You receive a free Petard with all future shipments, starting with this one.</string>
     <string _locid="112829">Santamaria's Fire</string>
     <string _locid="112830">Ships an additional Settler for each shipment you have sent so far this game.</string>
     <string _locid="112831">Salvadoran Coffee</string>
@@ -40146,7 +40283,7 @@
     <string _locid="112834">Imposes a temporary blockade over enemy home cities for 2 minutes.</string>
     <string _locid="112835">Costa Rica Isolation</string>
     <string _locid="112836">10 Spies</string>
-    <string _locid="112837">7 Revolutionaries</string>
+    <string _locid="112837">6 Revolutionaries</string>
     <string _locid="112838">Salvadoran Coffee time remaining</string>
     <string _locid="112839" symbol="cStringTempBlockadeTeammate">%s has imposed a blockade on the Home Cities of all your enemies!</string>
     <string _locid="112840" symbol="cStringTempBlockadeYou">You have imposed a temporary blockade on your enemies' Home Cities!</string>
@@ -40155,10 +40292,10 @@
     <string _locid="112843" symbol="cStringTempBlockadeYouAll">You have imposed a temporary blockade on your enemies' Home Cities that, inadvertently, has affected your allies'!</string>
     <string _locid="112844">Arrives fast! Defeated enemies now also reward Coin, as well as XP.</string>
     <string _locid="112845">Soldier of Fortune</string>
-    <string _locid="112846">New and existing Haciendas spawn 1 Settlers and attract nearby Huntable Animals to improve production rates.</string>
+    <string _locid="112846">Ships 3 Settlers. Haciendas attract nearby Huntable Animals to improve production rates.</string>
     <string _locid="112847">Baja California Territory</string>
-    <string _locid="112848">Saloons now instead train United States Outlaws, which train much faster.</string>
-    <string _locid="112849">Gringos</string>
+    <string _locid="112848">What you gonna do when Outlaws come for you? Saloons now instead train United States Outlaws, which train much faster.</string>
+    <string _locid="112849">Bad Boys</string>
     <string _locid="112850">Ships 1 random Artillery unit and 2 Quaker Guns, fake decoys which deal no damage.</string>
     <string _locid="112851">Walker's Illusions</string>
     <string _locid="112852">Ships 3 additional Filibusters for each shipment you have sent so far this game. All Military Buildings and Houses transform into Filibusters.</string>
@@ -40172,7 +40309,7 @@
     <string _locid="112860">Yucateco Insurgente</string>
     <string _locid="112861">Guard Yucateco Insurgente</string>
     <string _locid="112862">Imperial Yucateco Insurgente</string>
-    <string _locid="112863">Haciendas now trickle extra resources in ALL modes (1 Food, 1 Wood, and 1 Coin per second).</string>
+    <string _locid="112863">Haciendas now trickle extra resources in ALL modes.</string>
     <string _locid="112864">Henequen Industry</string>
     <string _locid="112865">Haciendas gain a toggle that allows workers to gather Wood.</string>
     <string _locid="112866">Solís Shredders</string>
@@ -40181,14 +40318,14 @@
     <string _locid="112869">Salteadores, Yucateco Insurgentes, and Holcan Javelineers deal poison damage when attacking.</string>
     <string _locid="112870">Jungle Warfare</string>
     <string _locid="112871">3 Falconets</string>
-    <string _locid="112872">Ships 1 Native Embassy Travois and allies you with the Maya at your Native Embassy, where some of their upgrades and units are available.</string>
+    <string _locid="112872">Ships 6 Holcan Javelineers and 6 Yucateco Insurgents. Insurgents gain more hitpoints.</string>
     <string _locid="112873">Mayan Supporters</string>
     <string _locid="112874">Additional Wood Trickle</string>
     <string _locid="112875">Infantry train faster, especially Revolutionaries.</string>
     <string _locid="112876">Bastimento</string>
     <string _locid="112877">All Settlers transform into Revolutionaries again. Enables most unit cards you have already sent to be sent again.</string>
     <string _locid="112878">Plan of Monterrey</string>
-    <string _locid="112879">Ships 1 Settler for each 3 Revolutionaries you have lost so far this game (up to a maximum of 99).</string>
+    <string _locid="112879">Ships 1 Settler for each 3 Revolutionaries you have lost so far this game (up to a maximum of 85).</string>
     <string _locid="112880">Sierra Madre Republic</string>
     <string _locid="112881">Chinacos gain the Zapata Maneuver ability that allows all Chinacos to move unseen without loss of movement speed.</string>
     <string _locid="112882">Zapata Maneuvers</string>
@@ -40218,7 +40355,7 @@
     <string _locid="112906">Maya Ceramics</string>
     <string _locid="112907">All Trading Posts generate a steady trickle of XP.</string>
     <string _locid="112908">Cenotes</string>
-    <string _locid="112909">Ships 4 Rockets and 12 Redcoats.</string>
+    <string _locid="112909">Ships 4 Rockets and 12 Redcoats. Significantly improves Light Cannon hitpoints.</string>
     <string _locid="112910">British Weapon Trade</string>
     <string _locid="112911">Each existing and newly constructed Haciendas and Town Centers spawns 3 Native Villagers.</string>
     <string _locid="112912">Huipils</string>
@@ -40274,7 +40411,7 @@
     <string _locid="112962">Catrachos</string>
     <string _locid="112963">Catracho</string>
     <string _locid="112964">REV Catracho</string>
-    <string _locid="112965">The Inspiring Flag may be planted anywhere and causes Charged Abilities to recharge significantly faster.</string>
+    <string _locid="112965">The Inspiring Flag may be planted anywhere and causes Outlaw and Trading Post Abilities to recharge significantly faster.</string>
     <string _locid="112966">Land of Walker</string>
     <string _locid="112967">Filibuster</string>
     <string _locid="112968">REV Filibuster</string>
@@ -40287,7 +40424,7 @@
     <string _locid="112975">Outlaw Combat</string>
     <string _locid="112976">Veteran Filibuster</string>
     <string _locid="112977">Veteran Filibusters</string>
-    <string _locid="112978">Inspiring Flags now also improve Settler gathering rates by 20% and may be placed anywhere on the map you have explored.</string>
+    <string _locid="112978">Inspiring Flags now also improve Settler gathering rates by 15% and may be placed anywhere on the map you have explored.</string>
     <string _locid="112979">Yucatecan</string>
     <string _locid="112980">Lasso Attack (Charged)</string>
     <string _locid="112981">Lasso Attack</string>
@@ -40312,14 +40449,14 @@
     <string _locid="113000">Plaza del Zócalo</string>
     <string _locid="113001">National Palace</string>
     <string _locid="113002">Metropolitan Cathedral</string>
-    <string _locid="113003">Plants the Central American revolutionary flag to boost morale! Nearby military units and buildings inflict more damage and are created faster. Flags cannot be planted near starting Town Centers, and only one flag can be planted at a time.</string>
-    <string _locid="113004">Plants the Filibuster revolutionary flag to boost morale! Nearby military units and buildings inflict more damage and are created faster. Flags cannot be planted near starting Town Centers, and only one flag can be planted at a time.</string>
-    <string _locid="113005">Plants the Yucatecan revolutionary flag to boost morale! Nearby military units and buildings inflict more damage and are created faster. Flags cannot be planted near starting Town Centers, and only one flag can be planted at a time.</string>
-    <string _locid="113006">Plants the Rio Grande revolutionary flag to boost morale! Nearby military units and buildings inflict more damage and are created faster. Flags cannot be planted near starting Town Centers, and only one flag can be planted at a time.</string>
-    <string _locid="113007">Plants the Californian revolutionary flag to boost morale! Nearby military units and buildings inflict more damage and are created faster. Flags cannot be planted near starting Town Centers, and only one flag can be planted at a time.</string>
-    <string _locid="113008">Plants the Texian revolutionary flag to boost morale! Nearby military units and buildings inflict more damage and are created faster. Flags cannot be planted near starting Town Centers, and only one flag can be planted at a time.</string>
-    <string _locid="113009">Plants the Mayan revolutionary flag to boost morale! Nearby military units and buildings inflict more damage and are created faster. Flags cannot be planted near starting Town Centers, and only one flag can be planted at a time.</string>
-    <string _locid="113010">Tactically planted by a General to boost nearby units and buildings. If no allied units or buildings are nearby, it can be captured by enemies and removed from the map.\n • Grants +10% Attack Damage to all Units.\n • Grants +10% Attack Damage to all Buildings.\n • Grants +25% Workrate to Military Buildings.\n • Grants +50% Construction speed to all Buildings.</string>
+    <string _locid="113003">Plants the Central American revolutionary flag to boost morale! Nearby military units (excluding artillery) and buildings inflict more damage and are created faster. Flags cannot be planted near starting Town Centers, and only one flag can be planted at a time.</string>
+    <string _locid="113004">Plants the Filibuster revolutionary flag to boost morale! Nearby military units (excluding artillery) and buildings inflict more damage and are created faster. Flags cannot be planted near starting Town Centers, and only one flag can be planted at a time.</string>
+    <string _locid="113005">Plants the Yucatecan revolutionary flag to boost morale! Nearby military units (excluding artillery) and buildings inflict more damage and are created faster. Flags cannot be planted near starting Town Centers, and only one flag can be planted at a time.</string>
+    <string _locid="113006">Plants the Rio Grande revolutionary flag to boost morale! Nearby military units (excluding artillery) and buildings inflict more damage and are created faster. Flags cannot be planted near starting Town Centers, and only one flag can be planted at a time.</string>
+    <string _locid="113007">Plants the Californian revolutionary flag to boost morale! Nearby military units (excluding artillery) and buildings inflict more damage and are created faster. Flags cannot be planted near starting Town Centers, and only one flag can be planted at a time.</string>
+    <string _locid="113008">Plants the Texian revolutionary flag to boost morale! Nearby military units (excluding artillery) and buildings inflict more damage and are created faster. Flags cannot be planted near starting Town Centers, and only one flag can be planted at a time.</string>
+    <string _locid="113009">Plants the Mayan revolutionary flag to boost morale! Nearby military units (excluding artillery) and buildings inflict more damage and are created faster. Flags cannot be planted near starting Town Centers, and only one flag can be planted at a time.</string>
+    <string _locid="113010">Tactically planted by a General to boost nearby units and buildings. If no allied units or buildings are nearby, it can be captured by enemies and removed from the map.\n • Grants +10% Attack Damage to all Units (excluding artillery).\n • Grants +10% Attack Damage to all Buildings.\n • Grants +25% Workrate to Military Buildings.\n • Grants +50% Construction speed to all Buildings.</string>
     <string _locid="113011">Boosts the morale of nearby units and must be defended! If captured by enemies, it will be removed from the map.</string>
     <string _locid="113012">Boosts the morale of nearby units.</string>
     <string _locid="113013">Boosts the morale of nearby Mexican units.</string>
@@ -40348,7 +40485,7 @@
     <string _locid="113036">TEAM Gulf of Mexico</string>
     <string _locid="113037">Haciendas fatten Livestock faster and will automatically harvest them when fully-fattened.</string>
     <string _locid="113038">Barbacoa</string>
-    <string _locid="113039">17 Fishing Boats</string>
+    <string _locid="113039">14 Fishing Boats</string>
     <string _locid="113040">Ships 3 Semi-fattened cows + 3 more for each 5 minutes elapsed. Improves market food sell rate by 50%</string>
     <string _locid="113041">San Marcos Fair</string>
     <string _locid="113042">Sell Hacienda</string>
@@ -40365,7 +40502,7 @@
     <string _locid="113053">All your Salteadores transform into powerful French Voltigeurs. Infantry armed with rifles gain more range.</string>
     <string _locid="113054">Plan of Miramare</string>
     <string _locid="113055">Chimayó Genizarios</string>
-    <string _locid="113056">Ships 11 Navajo Riflemen that inflict more damage to Villagers than usual.</string>
+    <string _locid="113056">Ships 10 Navajo Riflemen that inflict more damage to Villagers than usual.</string>
     <string _locid="113057">Renegade Navajo</string>
     <string _locid="113058">Dragoons inflict more damage and may be recruited in the Commerce Age.</string>
     <string _locid="113059">Queen's Dragoons</string>
@@ -40378,7 +40515,7 @@
     <string _locid="113066">Visit of the Seven Houses</string>
     <string _locid="113067">Grants +5 XP for every unit you have lost so far this game.</string>
     <string _locid="113068">Día de Muertos</string>
-    <string _locid="113069">Your General now also boosts morale, like the Inspiring Flag. He may also receive Homecity shipments and train Soldados.\n • Inspiring Aura: Does not stack with flag</string>
+    <string _locid="113069">Your General now also boosts morale, like the Inspiring Flag. He may also receive Homecity shipments and slowly train Soldados.\n • Inspiring Aura: Does not stack with flag</string>
     <string _locid="113070">Man of Destiny</string>
     <string _locid="113071">Ships 1 Fort Wagon. Forts have more Line of Sight and inflict extra damage against Heroes.</string>
     <string _locid="113072">Chapultepec Castle</string>
@@ -40413,7 +40550,7 @@
     <string _locid="113101">Industrial Builder</string>
     <string _locid="113102">16 Yucateco Insurgentes</string>
     <string _locid="113103">Old Three Hundred</string>
-    <string _locid="113104">Ships 1 Citizen for each Building you have constructed. Enables Citizens to be recruited from Town Centers.</string>
+    <string _locid="113104">Ships 1 Citizen for each Building you have constructed (up to a maximum of 85). Enables Citizens at Town Centers.</string>
     <string _locid="113105">California Ranching</string>
     <string _locid="113106">Lasso</string>
     <string _locid="113107">Spawn Cuatrero</string>
@@ -40468,7 +40605,7 @@
     <string _locid="113156">Seven Laws</string>
     <string _locid="113157">Every time your General or Padre gets knocked out a Militiaman spawns.</string>
     <string _locid="113158">All seven unique Mexican units and buildings grant more XP upon construction.</string>
-    <string _locid="113159">All seven unique Mexican units and buildings grant significantly more XP upon construction as long as you own at least one of each.</string>
+    <string _locid="113159">All seven unique Mexican units and buildings grant 50% more XP when created, but only if you have created at least 1 of each this game.</string>
     <string _locid="113160">All Mexican units gain more Kill XP.</string>
     <string _locid="113161">All Mexican units gain more Build and Kill XP.</string>
     <string _locid="113162">Units gain more Build and Kill XP.</string>
@@ -40488,6 +40625,18 @@
     <string _locid="113176" symbol="cStringStatBuildingRepair">Building Repair (Percent):</string>
     <string _locid="113177" symbol="cStringStatAreaRollover">%2d Area</string>
     <string _locid="113178" symbol="cStringAllWorkers">All Workers</string>
+    <string _locid="113179" symbol="cStringResourceAsCratesEffect">%1!s!: Delivers +%2!.2f! %3!s! as crates</string>
+    <string _locid="113180">Russian combination of Barracks and Outpost. Can defend the frontier and train infantry in groups. Also provides 15 population.</string>
+    <string _locid="113181" symbol="cStringStatRangeRolloverAreaFloat">%1!d! Range with %2!.2f! Area</string>
+    <string _locid="113182" symbol="cStringIncreaseModifyRateEffect">%1!s!: %2!s! Modify Rate +%3!.0f!%%</string>
+    <string _locid="113183" symbol="cStringDecreaseModifyRateEffect">%1!s!: %2!s! Modify Rate %3!.0f!%%</string>
+    <string _locid="113184" symbol="cStringAddModifyRateEffect">%1s: Adds %2.2f to %3s Modify Rate</string>
+    <string _locid="113185" symbol="cStringSetModifyRateEffect">%1s: Sets %2s Modify Rate to %3.2f</string>
+    <string _locid="113186">Healable Unit</string>
+    <string _locid="113187" symbol="cStringDetailHelpMercs">Available Mercenaries and Outlaws:\n</string>
+    <string _locid="113188">Find Native Site Trading Post</string>
+    <string _locid="113189">Find Trade Route Trading Post</string>
+    <string _locid="113190">Walker's Gamble</string>
     <string _locid="200000">Swedish Flags</string>
     <string _locid="200001">Display Swedish flags on this building.</string>
     <string _locid="200002">New World Trading Center (green)</string>
@@ -40561,7 +40710,7 @@
     <string _locid="200070">Mapuche Allies</string>
     <string _locid="200071">Zapotec Allies</string>
     <string _locid="200072">Temple (Ruin)</string>
-    <string _locid="200073">The ruined version of the Temple.&lt;color=1.0, 0.0, 0.0&gt;Warning: Selecting this customization will apply Day Lighting customization.&lt;/color&gt;</string>
+    <string _locid="200073">The ruined version of the Temple.</string>
     <string _locid="210000">DLSS</string>
     <string _locid="210001">Deep Learning Super Sampling (DLSS) is an NVIDIA RTX technology which uses a deep learning neural network to boost frame rates and generate beautiful, sharp images for your games. It gives you the performance headroom to maximize quality settings and increase output resolution.</string>
     <string _locid="210002">DLSS Settings</string>
@@ -40577,5 +40726,27 @@
     <string _locid="210025">Offers both optimized performance and image quality.</string>
     <string _locid="210026">Quality</string>
     <string _locid="210027">Offers higher image quality than balanced mode.</string>
+    <string _locid="220001">Photo Mode</string>
+    <string _locid="220002">Movement:</string>
+    <string _locid="220003">Rotation:</string>
+    <string _locid="220004">Zoom:</string>
+    <string _locid="220005">Screenshot:</string>
+    <string _locid="220006">Reset Camera:</string>
+    <string _locid="220007">Toggle UI On/Off:</string>
+    <string _locid="220008">Back:</string>
+    <string _locid="220009">Movement:\n • WASD or Arrow keys to move camera.\n • Q and E to move camera up/down.\n • Moving mouse to edge to move camera\n • Press and hold Space bar then clicking and dragging to move camera.\n\n Rotation:\n • Alt + WASD or Alt + Arrow keys to rotate.\n • Alt + clicking and dragging to rotate.\n\n Zoom int/out:\n • Using the scroll wheel to zoom in and out</string>
+    <string _locid="220010">Toggle UI On/Off</string>
+    <string _locid="220011">Include UI on Screenshot</string>
+    <string _locid="220012">Locate Folder:</string>
+    <string _locid="220013">Open Folder</string>
+    <string _locid="220014">Frame Advance</string>
+    <string _locid="220015">Lighting Presets</string>
+    <string _locid="220016">Sun Position</string>
+    <string _locid="220017">Step through the scene in small but manageable increments. Use either the slider or fast forward buttons to manipulate the scene.</string>
+    <string _locid="220018">Select multiple lighting presets from the combobox.</string>
+    <string _locid="220019">Change the sun posistion by manipulating the slider.</string>
+    <string _locid="220020">Select to toggle UI on/off.</string>
+    <string _locid="220021">Select to inlcude UI when taking a screenshot.</string>
+    <string _locid="220022">Select to open screenshot folder location.</string>
   </language>
 </stringtable>

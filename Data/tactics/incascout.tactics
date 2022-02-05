@@ -21,6 +21,7 @@
     <anim>Pickup</anim>
     <maxrange>0.2</maxrange>
     <rate type="AbstractNuggetLand">1.0</rate>
+    <active>0</active>
   </action>
   <action>
     <name stringid="69150">CrateGather</name>

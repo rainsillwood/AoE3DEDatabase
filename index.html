@@ -139,7 +139,7 @@
                 }
             }
             info = info + '</table>';
-            document.getElementById('info').innerHTML = info;
+            document.getElementById('info').value = info;
         }
 
         function getTechs() {
@@ -148,7 +148,7 @@
                 let tech = techs[i];
                 txt = txt + tech._name + '\t' + tech.dbid + '\t' + returnNode(tech.displaynameid) + '\t' + returnNode(tech.rollovertextid) + '\n';
             }
-            document.getElementById('output').innerHTML = txt;
+            document.getElementById('output').value = txt;
         }
 
         function getProtos() {
@@ -157,7 +157,7 @@
                 let unit = units[i];
                 txt = txt + unit._name + '\t' + unit._id + '\t' + returnNode(unit.displaynameid) + '\t' + returnNode(unit.rollovertextid) + '\n';
             }
-            document.getElementById('output').innerHTML = txt;
+            document.getElementById('output').value = txt;
         }
 
         function getCivCard() {
@@ -175,7 +175,7 @@
                     txt = txt + temp;
                 }
             }
-            document.getElementById('output').innerHTML = txt;
+            document.getElementById('output').value = txt;
         }
 
         function getCard() {
@@ -193,7 +193,7 @@
                     }
                 }
             }
-            document.getElementById('output').innerHTML = txt;
+            document.getElementById('output').value = txt;
         }
 
         function getStrings() {
@@ -201,7 +201,7 @@
             for (i in strings) {
                 txt = txt + strings[i].__locid + '\t' + returnNode(strings[i].__text) + '\n';
             }
-            document.getElementById('output').innerHTML = txt;
+            document.getElementById('output').value = txt;
         }
 
         function getShrine() {
@@ -234,7 +234,7 @@
                 }
                 txt = txt + temp;
             }
-            document.getElementById('output').innerHTML = txt;
+            document.getElementById('output').value = txt;
             document.getElementById('info').innerHTML = info;
         }
 
@@ -255,7 +255,7 @@
                     info = info + '</tr>';
                 }
             }
-            document.getElementById('output').innerHTML = txt;
+            document.getElementById('output').value = txt;
             document.getElementById('info').innerHTML = info;
         }
 
@@ -296,7 +296,7 @@
                 }
                 info = info + '</tr>';
             }
-            document.getElementById('output').innerHTML = txt;
+            document.getElementById('output').value = txt;
             document.getElementById('info').innerHTML = info;
         }
 

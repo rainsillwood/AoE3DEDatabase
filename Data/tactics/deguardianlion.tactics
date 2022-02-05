@@ -1,0 +1,53 @@
+<tactics>
+  <action>
+    <name stringid="49973">SacredBreathAttack</name>
+    <type>Attack</type>
+    <attackaction>1</attackaction>
+    <rangedlogic>1</rangedlogic>
+    <anim>RangedAttack</anim>
+    <maxheight>0</maxheight>
+    <accuracy>1.0</accuracy>
+    <aimbonus>0</aimbonus>
+    <maxspread>5</maxspread>
+    <spreadfactor>0.25</spreadfactor>
+    <trackrating>12</trackrating>
+    <unintentionaldamagemultiplier>1.0</unintentionaldamagemultiplier>
+    <projectile>PearlCannonball</projectile>
+    <impacteffect>effects\impacts\cannon</impacteffect>
+    <rate type="All">1.0 </rate>
+    <throw>1</throw>
+    <impactforcemin>500.0f</impactforcemin>
+    <impactforcemax>800.0f</impactforcemax>
+    <outerdamageareadistance>.25</outerdamageareadistance>
+    <outerdamageareafactor>.20</outerdamageareafactor>
+    <impactlaunchangle>10.0</impactlaunchangle>
+    <areasortmode>Directional</areasortmode>
+    <targetground>1</targetground>
+    <numberbounces>1</numberbounces>
+    <basedamagecap>1</basedamagecap>
+    <perfectaccuracy>1</perfectaccuracy>
+  </action>
+  <action>
+    <name stringid="38134">HandAttack</name>
+    <type>HandAttack</type>
+    <maxrange>1.75</maxrange>
+    <rate type="All">1.0 </rate>
+    <attackaction>1</attackaction>
+    <rangedlogic>1</rangedlogic>
+    <anim>HandAttack</anim>
+    <projectile>InvisibleProjectileNoTracer</projectile>
+    <impacteffect>effects\impacts\melee_no_weapon</impacteffect>
+    <throw>1</throw>
+    <impactforcemin>200.0f</impactforcemin>
+    <impactforcemax>500.0f</impactforcemax>
+    <outerdamageareadistance>.45</outerdamageareadistance>
+    <outerdamageareafactor>.5</outerdamageareafactor>
+    <impactlaunchangle>45.0</impactlaunchangle>
+    <areasortmode>Directional</areasortmode>
+    <targetground>1</targetground>
+    <numberbounces>0</numberbounces>
+    <basedamagecap>1</basedamagecap>
+    <perfectaccuracy>1</perfectaccuracy>
+  </action>
+  <tactic>Normal<action priority="100">SacredBreathAttack</action><action priority="50">HandAttack</action><attacktype>LogicalTypeRangedUnitsAutoAttack</attacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><runaway>1</runaway><autoretarget>1</autoretarget></tactic>
+</tactics>

@@ -150,7 +150,8 @@
     <persistent>1</persistent>
     <nostack>1</nostack>
     <nostackignorepuid>1</nostackignorepuid>
-    <modifyabstracttype>UnitClass</modifyabstracttype>
+    <modifyabstracttype>AbstractOutlaw</modifyabstracttype>
+    <modifyabstracttype>Hero</modifyabstracttype>
     <modifytype>RechargeTime</modifytype>
     <modifymultiplier>0.50</modifymultiplier>
   </action>
@@ -176,7 +177,7 @@
     <nostackignorepuid>1</nostackignorepuid>
     <modifyabstracttype>AbstractVillager</modifyabstracttype>
     <modifytype>GatherRate</modifytype>
-    <modifymultiplier>1.2</modifymultiplier>
+    <modifymultiplier>1.15</modifymultiplier>
   </action>
   <action>
     <name stringid="48954">FlagExtraHitpoints</name>

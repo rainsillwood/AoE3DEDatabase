@@ -1150,6 +1150,17 @@
     <minturnangle>45.0</minturnangle>
   </protounit>
   <protounit>
+    <name>ypMonkChinese</name>
+    <culturegroup>Chinese</culturegroup>
+    <visual>units/asians/chinese/monk/monk.xml</visual>
+    <bone>bone_explorer_special</bone>
+    <script>explorer</script>
+    <selectable>
+    </selectable>
+    <camera>china/china_homecity_explorer_camera.cam</camera>
+    <widescreencamera>china/china_homecity_explorer_widescreencamera.cam</widescreencamera>
+  </protounit>
+  <protounit>
     <name>IndianGirl</name>
     <culturegroup>Indians</culturegroup>
     <visual>homecity\homecity_units\indian_girl\indian_girl.xml</visual>
@@ -2272,6 +2283,11 @@
     <visual>homecity\home_city_props\mexico_military_parade\mexico_dayOfDead_parade.xml</visual>
     <locked>
     </locked>
+  </protounit>
+  <protounit>
+    <name>Mexico_NightLight_Handler</name>
+    <civilization>DEMexicans</civilization>
+    <script>mexico_nightlight_handler</script>
   </protounit>
   <protounit>
     <name>deGeneralMexican</name>

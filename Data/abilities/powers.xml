@@ -467,7 +467,7 @@
   <power name="PowerBalloon" type="TempUnit">
     <displaynameid>42372</displaynameid>
     <rolloverid>42373</rolloverid>
-    <icon>resources\art\units\balloons\hot_air_balloon.png</icon>
+    <icon>resources\art\units\balloons\hot_air_balloon_ability.png</icon>
     <minimapeventtime sendalertto="ally">1</minimapeventtime>
     <activetime>30</activetime>
     <createunit quantity="1" radius="0" delay="0.0">HotAirBalloon</createunit>
@@ -916,6 +916,30 @@
     <icon>\resources\images\icons\abilities\tech_passive_regenerate_health.png</icon>
     <allowduringnorush>1</allowduringnorush>
   </power>
+  <power name="deAztecPassiveAbility" type="UnitAction">
+    <displaynameid>49885</displaynameid>
+    <rolloverid>49886</rolloverid>
+    <icon>\resources\images\icons\abilities\tech_passive_aztec_ability.png</icon>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="deLakotaPassiveAbility" type="UnitAction">
+    <displaynameid>49885</displaynameid>
+    <rolloverid>49887</rolloverid>
+    <icon>\resources\images\icons\abilities\tech_passive_lakota_ability.png</icon>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="deIncaPassiveAbility" type="UnitAction">
+    <displaynameid>49885</displaynameid>
+    <rolloverid>49888</rolloverid>
+    <icon>\resources\images\icons\abilities\tech_passive_inca_ability.png</icon>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="deHaudenosauneePassiveAbility" type="UnitAction">
+    <displaynameid>49885</displaynameid>
+    <rolloverid>49889</rolloverid>
+    <icon>\resources\images\icons\abilities\tech_passive_haudenosaunee_ability.png</icon>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
   <power name="dePowerChaosPlayer" type="TempUnit">
     <displaynameid>101093</displaynameid>
     <rolloverid>101094</rolloverid>
@@ -927,7 +951,7 @@
     <createunit quantity="1" radius="0" delay="0.0" chaos="1">deChaosToken</createunit>
     <rangeindicatorprotoid radius="10.0" indicatorcount="8" speed="0.6">PowerRanger</rangeindicatorprotoid>
     <allowduringnorush>1</allowduringnorush>
-    <displaycastpowermessagetoplayeronly>1</displaycastpowermessagetoplayeronly>
+    <messagealertplayerrelation>player</messagealertplayerrelation>
     <alwaysaddtoplayer>1</alwaysaddtoplayer>
   </power>
   <power name="dePowerChaos" type="UnitAction">
@@ -942,7 +966,7 @@
     <castingpower>dePowerChaosPlayer</castingpower>
     <rangeindicatorprotoid radius="10.0" indicatorcount="8" speed="0.6">PowerRanger</rangeindicatorprotoid>
     <allowduringnorush>1</allowduringnorush>
-    <displaycastpowermessagetoplayeronly>1</displaycastpowermessagetoplayeronly>
+    <messagealertplayerrelation>player</messagealertplayerrelation>
     <alwaysaddtoplayer>1</alwaysaddtoplayer>
     <forceglobalcooldown>1</forceglobalcooldown>
   </power>
@@ -1633,6 +1657,12 @@
     <displaynameid>112753</displaynameid>
     <rolloverid>112754</rolloverid>
     <icon>resources\images\icons\abilities\passive_mexican_standoff.png</icon>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="dePassiveAbilityMortar" type="GeneralEffect">
+    <displaynameid>104668</displaynameid>
+    <rolloverid>104669</rolloverid>
+    <icon>resources\images\icons\abilities\passive_battle_bluster.png</icon>
     <allowduringnorush>1</allowduringnorush>
   </power>
 </powers>

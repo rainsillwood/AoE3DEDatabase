@@ -635,6 +635,18 @@
       </entry>
       <entry protoname="deMercGatlingCamel" name="102559" historytext="162151" unithelptext="162150" texture="ui\\history\\militaries\\m_a_gatling_camel">
       </entry>
+      <entry protoname="deSaloonGunslinger" name="162291" historytext="162293" unithelptext="162292" texture="ui\\history\\militaries\\M_M_Pistolero">
+      </entry>
+      <entry protoname="deSaloonOwlhoot" name="162288" historytext="162290" unithelptext="162289" texture="ui\\history\\militaries\\M_M_Renagado">
+      </entry>
+      <entry protoname="deSaloonCowboy" name="162294" historytext="162296" unithelptext="162295" texture="ui\\history\\militaries\\M_M_Comanchero">
+      </entry>
+      <entry protoname="deSaloonDesperado" name="162300" historytext="162302" unithelptext="162301" texture="ui\\history\\militaries\\M_M_Pistolero">
+      </entry>
+      <entry protoname="deSaloonBandido" name="162297" historytext="162299" unithelptext="162298" texture="ui\\history\\militaries\\M_M_Renagado">
+      </entry>
+      <entry protoname="deSaloonVaquero" name="162303" historytext="162305" unithelptext="162304" texture="ui\\history\\militaries\\M_M_Comanchero">
+      </entry>
     </subcategory>
     <subcategory name="100687">
       <entry protoname="natapachecavalry" name="43882" historytext="120076" unithelptext="120075" texture="ui\\history\\militaries\\M_C_Apache Cavalry">
@@ -1165,11 +1177,11 @@
       </entry>
       <entry protoname="deIconTambo" name="80128" historytext="160041" unithelptext="160040" texture="ui\\history\\buildings\\B_Tambo">
       </entry>
-      <entry protoname="deIncaStronghold" name="80144" historytext="160041" unithelptext="160042" texture="ui\\history\\buildings\\B_Stronghold">
+      <entry protoname="deIncaStronghold" name="80144" historytext="160043" unithelptext="160042" texture="ui\\history\\buildings\\B_Stronghold">
       </entry>
-      <entry protoname="deKallanka" name="80140" historytext="160043" unithelptext="160044" texture="ui\\history\\buildings\\B_Kallanka">
+      <entry protoname="deKallanka" name="80140" historytext="160045" unithelptext="160044" texture="ui\\history\\buildings\\B_Kallanka">
       </entry>
-      <entry protoname="deHouseInca" name="80136" historytext="160045" unithelptext="160046" texture="ui\\history\\buildings\\B_Kancha House">
+      <entry protoname="deHouseInca" name="80136" historytext="160047" unithelptext="160046" texture="ui\\history\\buildings\\B_Kancha House">
       </entry>
       <entry protoname="deTorp" name="91523" historytext="160067" unithelptext="160066" texture="ui\\history\\buildings\\b_torp">
       </entry>
@@ -1964,6 +1976,18 @@
     </subcategory>
     <subcategory name="162276">
       <entry protoname="deSPCKassaHailu" name="101399" historytext="162059" unithelptext="162058" texture="ui\\history\\campaign_heroes\\a_kassa_hailu">
+      </entry>
+    </subcategory>
+    <subcategory name="162282">
+      <entry name="162282" historytext="162283" texture="ui\\history\\campaign_heroes\\c_de_philadelphia">
+      </entry>
+    </subcategory>
+    <subcategory name="162284">
+      <entry name="162284" historytext="162285" texture="ui\\history\\campaign_heroes\\c_de_dolores">
+      </entry>
+    </subcategory>
+    <subcategory name="162286">
+      <entry name="162286" historytext="162287" texture="ui\\history\\campaign_heroes\\c_de_queenston">
       </entry>
     </subcategory>
   </category>

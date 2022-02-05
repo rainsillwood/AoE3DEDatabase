@@ -255,6 +255,7 @@
     <ability>PowerSharpshooter<rof>60</rof><sharedcooldown>true</sharedcooldown></ability>
     <ability>PowerLOS<tech>DESpyglassEnableShadow</tech><rof>90</rof><activetimecooldown>true</activetimecooldown></ability>
     <ability>deUnitHealthRegen<alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
+    <ability>deHaudenosauneePassiveAbility<alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
   </xpiroquoiswarchief>
   <xplakotawarchief>
     <ability>PowerRecruitGuardian<rof>90</rof><sharedcooldown>true</sharedcooldown></ability>
@@ -263,6 +264,7 @@
     <ability>PowerBerserk<rof>60</rof><sharedcooldown>true</sharedcooldown></ability>
     <ability>PowerLOS<tech>DESpyglassEnableShadow</tech><rof>90</rof><activetimecooldown>true</activetimecooldown></ability>
     <ability>deUnitHealthRegen<alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
+    <ability>deLakotaPassiveAbility<alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
   </xplakotawarchief>
   <xpaztecwarchief>
     <ability>PowerRecruitGuardian<rof>90</rof><sharedcooldown>true</sharedcooldown></ability>
@@ -271,6 +273,7 @@
     <ability>dePowerAscensionAux<rof>9</rof><nevershowingrid>true</nevershowingrid><alwaysdisabledingrid>false</alwaysdisabledingrid></ability>
     <ability>PowerLOS<tech>DESpyglassEnableShadow</tech><rof>90</rof><activetimecooldown>true</activetimecooldown></ability>
     <ability>deUnitHealthRegen<alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
+    <ability>deAztecPassiveAbility<alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
   </xpaztecwarchief>
   <deincawarchief>
     <ability>PowerRecruitGuardian<rof>90</rof><sharedcooldown>true</sharedcooldown></ability>
@@ -278,6 +281,7 @@
     <ability>PowerSwashbuckler<tech>DEHCWarChiefInca2</tech><rof>90</rof><sharedcooldown>true</sharedcooldown></ability>
     <ability>PowerLOS<tech>DESpyglassEnableShadow</tech><rof>90</rof><activetimecooldown>true</activetimecooldown></ability>
     <ability>deUnitHealthRegen<alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
+    <ability>deIncaPassiveAbility<alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
   </deincawarchief>
   <spcsahin>
     <ability>PowerSwashbuckler<rof>90</rof></ability>
@@ -355,7 +359,6 @@
   </xpironclad>
   <spclizzieflagship>
     <ability>PowerBroadside<rof>60</rof></ability>
-    <ability>deUnitHealthRegen<alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
   </spclizzieflagship>
   <spcmorganflagship>
     <ability>PowerBroadside<rof>60</rof></ability>
@@ -363,19 +366,35 @@
   <spcxpnathaniel>
     <ability>PowerHawkeye<rof>30</rof></ability>
     <ability>PowerEagleEye<rof>60</rof></ability>
+    <ability>deUnitHealthRegen<alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
   </spcxpnathaniel>
   <spcxpnathanielnative>
     <ability>PowerHawkeye<rof>30</rof></ability>
     <ability>PowerEagleEye<rof>60</rof></ability>
+    <ability>deUnitHealthRegen<alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
   </spcxpnathanielnative>
+  <spcwashington>
+    <ability>deUnitHealthRegen<alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
+  </spcwashington>
+  <spcxpwashington>
+    <ability>deUnitHealthRegen<alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
+  </spcxpwashington>
   <spcxpchayton>
     <ability>PowerHawkeye<rof>30</rof></ability>
     <ability>PowerEagleEye<rof>90</rof></ability>
+    <ability>deUnitHealthRegen<alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
   </spcxpchayton>
   <spcxpnativechayton>
     <ability>PowerHawkeye<rof>30</rof></ability>
     <ability>PowerEagleEye<rof>60</rof></ability>
+    <ability>deUnitHealthRegen<alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
   </spcxpnativechayton>
+  <spcxpholme>
+    <ability>deUnitHealthRegen<alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
+  </spcxpholme>
+  <spcdeunclefrankhorse>
+    <ability>deUnitHealthRegen<alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
+  </spcdeunclefrankhorse>
   <ypspckichiro>
     <ability>ypPowerSwordFury<rof>30</rof><castonself>true</castonself><activetimecooldown>true</activetimecooldown></ability>
     <ability>ypPowerSmokeBomb<rof>60</rof><castonself>true</castonself></ability>
@@ -501,7 +520,7 @@
     <ability>PowerLOS<tech>DESpyglassEnableShadow</tech><rof>90</rof><activetimecooldown>true</activetimecooldown></ability>
     <ability>deChargeAbilityHeavyStrike<tech>deGeneralChargeHeavyStrike</tech><bindtoauxchargeaction>true</bindtoauxchargeaction><forceshowrollover>true</forceshowrollover></ability>
     <ability>deChargeAbilityCarbine<tech>deGeneralChargeCarbine</tech><bindtochargeaction>true</bindtochargeaction><forceshowrollover>true</forceshowrollover></ability>
-    <ability>deUnitHealthRegen<alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
+    <ability>deUnitHealthRegen<tech>DEGeneralHealthRegenDisplay</tech><alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
   </degeneral>
   <desloop>
     <ability>deStealthHide<tech>DEHCREVMXSanFranciscoBay</tech><rof>60</rof><castonself>true</castonself><donotforcestop>true</donotforcestop><activetimecooldown>true</activetimecooldown><forceshowrollover>true</forceshowrollover></ability>
@@ -644,7 +663,7 @@
     <ability>PowerLOS<tech>DESpyglassEnableShadow</tech><rof>90</rof><activetimecooldown>true</activetimecooldown></ability>
     <ability>deChargeAbilityHeavyStrike<tech>deGeneralChargeHeavyStrike</tech><bindtoauxchargeaction>true</bindtoauxchargeaction><forceshowrollover>true</forceshowrollover></ability>
     <ability>deChargeAbilityCarbine<tech>deGeneralChargeCarbine</tech><bindtochargeaction>true</bindtochargeaction><forceshowrollover>true</forceshowrollover></ability>
-    <ability>deUnitHealthRegen<alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
+    <ability>deUnitHealthRegen<tech>DEGeneralHealthRegenDisplay</tech><alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
   </degeneral2>
   <depadre>
     <ability>dePowerPacify<tech>DEPacifyGuardiansShadow</tech><rof>60</rof><sharedcooldown>true</sharedcooldown><activetimecooldown>true</activetimecooldown></ability>
@@ -668,12 +687,15 @@
   </desaloonbandido>
   <desaloonowlhoot>
     <ability>deChargeAbilityBuckshot<bindtochargeaction>true</bindtochargeaction><forceshowrollover>true</forceshowrollover></ability>
+    <ability>dePassiveAbilityStandoff<tech>DEHCMexicanStandoff</tech><alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
   </desaloonowlhoot>
   <desaloongunslinger>
     <ability>deChargeAbilityQuickdraw<bindtochargeaction>true</bindtochargeaction><forceshowrollover>true</forceshowrollover></ability>
+    <ability>dePassiveAbilityStandoff<tech>DEHCMexicanStandoff</tech><alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
   </desaloongunslinger>
   <desalooncowboy>
     <ability>deChargeAbilityBullsEye<bindtochargeaction>true</bindtochargeaction><forceshowrollover>true</forceshowrollover></ability>
+    <ability>dePassiveAbilityStandoff<tech>DEHCMexicanStandoff</tech><alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
   </desalooncowboy>
   <dechinaco>
     <ability>deChargeAbilityLance<tech>DEMXLanceChargeShadow</tech><bindtochargeaction>true</bindtochargeaction><forceshowrollover>true</forceshowrollover></ability>
@@ -682,4 +704,10 @@
   <deinsurgente>
     <ability>deChargeAbilityLassoInsurgente<tech>DERevolutionMXYucatan</tech><bindtochargeaction>true</bindtochargeaction><forceshowrollover>true</forceshowrollover></ability>
   </deinsurgente>
+  <desoldado>
+    <ability>dePassiveAbilityMortar<tech>DEHCRefurbishedFirearms</tech><bindtochargeaction>true</bindtochargeaction><forceshowrollover>true</forceshowrollover></ability>
+  </desoldado>
+  <deregular>
+    <ability>dePassiveAbilityMortar<tech>DEHCRefurbishedFirearms</tech><bindtochargeaction>true</bindtochargeaction><forceshowrollover>true</forceshowrollover></ability>
+  </deregular>
 </abilities>
