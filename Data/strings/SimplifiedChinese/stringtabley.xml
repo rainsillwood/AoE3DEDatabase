@@ -134,7 +134,7 @@
     <string _locid="18456" symbol="cStringGamePaused">游戏暂停</string>
     <string _locid="18457" symbol="cStringClose">关闭</string>
     <string _locid="18458" symbol="cStringBack">返回</string>
-    <string _locid="18459" symbol="cStringAoMVersion">《帝国时代 III：决定版》：版本 {gameVersion}    简体中文模组：版本v1.22.0202 by 摩根布莱克@百度贴吧</string>
+    <string _locid="18459" symbol="cStringAoMVersion">《帝国时代 III：决定版》：版本 {gameVersion}    简体中文模组：版本v1.22.0215 by 摩根布莱克@百度贴吧</string>
     <string _locid="18460" symbol="cStringMicrosoft">(c) and (P) 2020 Microsoft Corporation。保留所有权利。</string>
     <string _locid="18461" symbol="cStringWarning">警告：本计算机程序受到版权法和国际条约的保护。未经授权擅自复制或分发本程序或其中任何部分内容可能将受到严厉的民事及刑事制裁，并将在法律许可的范围内受到最大程度的起诉。</string>
     <string _locid="18462" symbol="cStringBlinkVideo">使用 Bink Video。(c) 1997-2020 by RAD Game Tools, Inc.</string>
@@ -1945,11 +1945,11 @@
     <string _locid="24229">风云斧骑兵</string>
     <string _locid="24230">增加图皮战士的攻击力和生命值。</string>
     <string _locid="24233">风云黑檀木步弓手</string>
-    <string _locid="24239">所有步弓手类单位都可以对村民造成更多伤害。</string>
+    <string _locid="24239">所有弓弩手类单位都可以对村民造成更多伤害。</string>
     <string _locid="24240">加勒比节奏鼓</string>
     <string _locid="24245">加快所有原住民战士的移动速度。</string>
     <string _locid="24246">切罗基战争仪式</string>
-    <string _locid="24251">塞米诺尔人的制弓技术可以增加所有步弓手类单位的攻击力。</string>
+    <string _locid="24251">塞米诺尔人的制弓技术可以增加所有弓弩手类单位的攻击力。</string>
     <string _locid="24252">塞米诺尔制弓匠</string>
     <string _locid="24254">克里血缘关系</string>
     <string _locid="24255">登山训练是克丘亚人的终生事业，可提升所有步兵的移动速度。</string>
@@ -1960,7 +1960,7 @@
     <string _locid="24262">玛雅棉甲</string>
     <string _locid="24263">努特卡树皮衣可增加村民的生命值。</string>
     <string _locid="24264">努特卡树皮衣</string>
-    <string _locid="24267">图皮的毒箭头制作技术，可增加步弓手的攻击力。</string>
+    <string _locid="24267">图皮的毒箭头制作技术，可增加弓弩手的攻击力。</string>
     <string _locid="24268">图皮毒蛙箭</string>
     <string _locid="24283" symbol="cStringCommandPanelTactics">战术</string>
     <string _locid="24303">加快捕鱼艇从鱼群采集食物和从鲸鱼收集钱币的速度。</string>
@@ -2944,7 +2944,7 @@
     <string _locid="27167" gamecharacter="艾蜜莉亚" soundfilename="AMEL0235" portraitfilename="resources\art\units\spc\amelia_black\amelia_black_igc_icon.png">你说什么？</string>
     <string _locid="27168" gamecharacter="怪老头" soundfilename="MORG0225" portraitfilename="resources\art\units\spc\old_coot\old_coot_igc_icon.png">别错过了火车喔。</string>
     <string _locid="27169">鹅群</string>
-    <string _locid="27172" symbol="cStringmerceditListHeader">(单位，建造限制)</string>
+    <string _locid="27172" symbol="cStringmerceditListHeader">(单位，建造数量上限)</string>
     <string _locid="27174">全部显示点</string>
     <string _locid="27175">全部显示点</string>
     <string _locid="27176" symbol="cStringLimberedMode">移动模式</string>
@@ -3660,7 +3660,7 @@
     <string _locid="29030">牲畜建筑</string>
     <string _locid="29031">牲畜被派到畜栏后会加快变肥的速度。可训练羊。</string>
     <string _locid="29032">畜栏</string>
-    <string _locid="29038" symbol="cStringBuildLimitRollover" comment="1 - min, 2 - max build limit">建造限制：%1d/%2d</string>
+    <string _locid="29038" symbol="cStringBuildLimitRollover" comment="1 - min, 2 - max build limit">建造数量上限：%1d/%2d</string>
     <string _locid="29046">忠诚纽带可以增加克里人单位的招募速度。</string>
     <string _locid="29047">矮树丛 (得克萨斯)</string>
     <string _locid="29060">木材的来源</string>
@@ -4082,7 +4082,7 @@
     <string _locid="30325">精锐拉科塔骑兵。</string>
     <string _locid="30326">拉科塔狐斗士</string>
     <string _locid="30327">NAT 拉科塔狐斗士</string>
-    <string _locid="30331">使用有毒的木薯根酿造的特殊啤酒，可以增加士兵的力量。增加步弓手和近战步兵的攻击力。</string>
+    <string _locid="30331">使用有毒的木薯根酿造的特殊啤酒，可以增加士兵的力量。增加弓弩手和近战步兵的攻击力。</string>
     <string _locid="30332">加勒比木薯啤酒</string>
     <string _locid="30336">将资源运回您的主城。作为回报，您的队伍将提早 1 年拥有御林军。</string>
     <string _locid="30339">悬崖植物 (新英格兰)</string>
@@ -4101,7 +4101,7 @@
     <string _locid="30459">针对敌人的主城设置一个封锁工具，不让他们送出任何船运！</string>
     <string _locid="30509" symbol="cStringReachedAge2">您已经进入商业时代！</string>
     <string _locid="30510" symbol="cStringReachedAge3">您已经进入要塞时代了！</string>
-    <string _locid="30524">增加所有军舰 (例如卡拉维尔帆船、护卫舰和臼炮战船) 的建造限制。</string>
+    <string _locid="30524">增加所有军舰 (例如卡拉维尔帆船、护卫舰和臼炮战船) 的建造数量上限。</string>
     <string _locid="30525">城镇中心可以生产热气球。当热气球升空后，您的视野范围将变得非常广大。一旦部署了热气球后就无法再移动它们，而且它们不具有攻击性。</string>
     <string _locid="30554">雇佣兵属于精锐部队，只要在主城花一些钱币即可雇用他们。一旦游戏中有任何玩家雇用了一群雇佣兵，那么在游戏的剩余过程中就无法再雇用这些雇佣兵。</string>
     <string _locid="30559">加快村民从猎物处采集食物的速度。</string>
@@ -5343,7 +5343,7 @@
     <string _locid="33758">银行的成本变低，并且有更多的生命值。</string>
     <string _locid="33759">荷兰东印度公司</string>
     <string _locid="33760">可以交换的部件</string>
-    <string _locid="33761">工厂的建造限制 +1。</string>
+    <string _locid="33761">工厂的建造数量上限 +1。</string>
     <string _locid="33766">队伍的数量</string>
     <string _locid="33767">木材的来源</string>
     <string _locid="33773">IGC 目标</string>
@@ -6134,7 +6134,7 @@
     <string _locid="35130">增加骠骑兵和长枪骑兵的攻击力。</string>
     <string _locid="35131">近战骑兵攻击力</string>
     <string _locid="35132">大规模防御工事</string>
-    <string _locid="35133">增加哨站、作战小屋、碉堡及城堡的建造限制及生命值。</string>
+    <string _locid="35133">增加哨站、作战小屋、碉堡及城堡的建造数量上限及生命值。</string>
     <string _locid="35134">强盗贵族</string>
     <string _locid="35135">运送 1 辆工厂马车到您的城镇。它可以让您建造一个威力强大的工厂，用来生产资源或重装炮兵。</string>
     <string _locid="35136">加快村民从猎物、浆果丛及樱桃园采集食物的速度，并延长浆果和猎物资源的寿命。</string>
@@ -6712,7 +6712,7 @@
     <string _locid="36007">金矿</string>
     <string _locid="36008">金矿</string>
     <string _locid="36010">丝绸之路</string>
-    <string _locid="36012">所有木箱所载资源量 +25%。贸易路线产生资源量 +25%。</string>
+    <string _locid="36012">所有木箱包含的资源量 +25%。贸易路线产生的资源 +25%。</string>
     <string _locid="36013">队伍：将钱币箱容量增加到 120 单位。</string>
     <string _locid="36014">加强您的奥斯曼探险家的战斗力，加快他的移动速率，并给他一只很强的狗作为同伴。</string>
     <string _locid="36015">阿迦</string>
@@ -6877,7 +6877,7 @@
     <string _locid="36195">TRAIN 煤车</string>
     <string _locid="36196">免费资源</string>
     <string _locid="36197">免费单位</string>
-    <string _locid="36198" symbol="cStringAtBuildLimit">您已经达到%s的建造限制。</string>
+    <string _locid="36198" symbol="cStringAtBuildLimit">您已经达到%s的建造数量上限。</string>
     <string _locid="36199">3 名闯林人和 3 名火枪兵</string>
     <string _locid="36200">总督</string>
     <string _locid="36203">暴风雪 Prop</string>
@@ -6938,8 +6938,8 @@
     <string _locid="36285">队伍：库霍恩臼炮</string>
     <string _locid="36287">队伍：加强臼炮的伤害。</string>
     <string _locid="36288">阿姆斯特丹银行</string>
-    <string _locid="36289">银行的建造限制增加 1，拓荒者的建造限制增加 5。</string>
-    <string _locid="36290">银行的建造限制增加 1，拓荒者的建造限制增加 5。</string>
+    <string _locid="36289">银行的建造数量上限增加 1，拓荒者的建造数量上限增加 5。</string>
+    <string _locid="36290">银行的建造数量上限增加 1，拓荒者的建造数量上限增加 5。</string>
     <string _locid="36291">鹿特丹银行</string>
     <string _locid="36292">城市卫队长戟兵</string>
     <string _locid="36293">队伍：加快村民从猎物、浆果丛及樱桃园采集食物的速度，并延长浆果和猎物资源的寿命。</string>
@@ -7192,7 +7192,7 @@
     <string _locid="36573">1 艘臼炮战船和 4 名乌兰骑兵</string>
     <string _locid="36574">码头的军舰改良技术成本和研究时间显著减少，外加 2 名乌兰骑兵。</string>
     <string _locid="36575">海军总部</string>
-    <string _locid="36576">增加所有军舰 (例如卡拉维尔帆船、护卫舰和臼炮战船) 的建造限制。</string>
+    <string _locid="36576">增加所有军舰 (例如卡拉维尔帆船、护卫舰和臼炮战船) 的建造数量上限。</string>
     <string _locid="36577">雇佣兵变得更便宜，外加 3 名乌兰骑兵。</string>
     <string _locid="36578">雇佣兵的忠诚</string>
     <string _locid="36582">队伍：3 名使者</string>
@@ -7361,7 +7361,7 @@
     <string _locid="36769">受惊吓的鸟</string>
     <string _locid="36771">IGC 受惊吓的鸟</string>
     <string _locid="36772" symbol="cStringCardFailedNotEnoughPop">您需要有可用的人口空间才能使用这张卡片。</string>
-    <string _locid="36773" symbol="cStringCardFailedAtBuildLimit">您已经达到建造限制，因此无法使用这张卡片。</string>
+    <string _locid="36773" symbol="cStringCardFailedAtBuildLimit">您已经达到建造数量上限，因此无法使用这张卡片。</string>
     <string _locid="36774" symbol="cStringCardFailedAgePrereqNotMet">您的时代不符合使用这张卡片的要求。</string>
     <string _locid="36775" symbol="cStringCardFailedNoShipmentsAvailable">您现在没有任何可用的船运。</string>
     <string _locid="36776" gamecharacter="艾伦" soundfilename="ALAI2005" portraitfilename="resources\art\units\spc\alain\alain_igc_portrait.png">这片地区的一些宝藏受到了守护者的保护。我们必须干掉这些守护者才能得到宝藏。</string>
@@ -7915,7 +7915,7 @@
     <string _locid="37404" symbol="cStringHintRequestFailed">无法取回密码提示</string>
     <string _locid="37405" symbol="cStringPasswordRequestSuccess">已收到密码要求。电子邮件将发送到您的注册电子邮件地址。</string>
     <string _locid="37406" soundfilename="SAHI5011">等一下，摩根！先不要杀我！德尔加多把所有的寻宝船都藏在了潟湖那里...我可以带你去！</string>
-    <string _locid="37407">城镇中心的建造限制 +2。</string>
+    <string _locid="37407">城镇中心的建造数量上限 +2。</string>
     <string _locid="37408">领主</string>
     <string _locid="37410">“海军总部”船运已经抵达。</string>
     <string _locid="37411">队伍：1000 单位木材的木箱</string>
@@ -12392,9 +12392,9 @@
     <string _locid="42000" symbol="cStringIncreaseTributePenaltyEffect">%1!s!：贡品赋税 +%2!.0f!%%</string>
     <string _locid="42001" symbol="cStringAddTributePenaltyEffect">%1s：贡品赋税增加 %2.2f</string>
     <string _locid="42002" symbol="cStringSetTributePenaltyEffect">%1s：将贡品赋税设置为 %2.2f</string>
-    <string _locid="42003" symbol="cStringIncreaseBuildLimitEffect" comment="1 - effect, 2 - how much was changed">%1!s!：建造限制 +%2!.0f!%%</string>
-    <string _locid="42004" symbol="cStringAddBuildLimitEffect" comment="1 - effect, 2 - how much was changed">%1s：建造限制增加 %2.2f</string>
-    <string _locid="42005" symbol="cStringSetBuildLimitEffect" comment="1 - effect, 2 - how much was changed">%1s：将建造限制设置为 %2.2f</string>
+    <string _locid="42003" symbol="cStringIncreaseBuildLimitEffect" comment="1 - effect, 2 - how much was changed">%1!s!：建造数量上限 +%2!.0f!%%</string>
+    <string _locid="42004" symbol="cStringAddBuildLimitEffect" comment="1 - effect, 2 - how much was changed">%1s：建造数量上限增加 %2.2f</string>
+    <string _locid="42005" symbol="cStringSetBuildLimitEffect" comment="1 - effect, 2 - how much was changed">%1s：将建造数量上限设置为 %2.2f</string>
     <string _locid="42006" symbol="cStringMill">磨坊</string>
     <string _locid="42007" symbol="cStringIncreaseWorkRateEffect">%1!s!：%3!s!的%2!s!工作速率 +%4!.0f!%%</string>
     <string _locid="42008" symbol="cStringAddWorkRateEffect">%1!1s!：%4!4s!的%3!3s!工作速率增加 %2!2.2f!</string>
@@ -13409,7 +13409,7 @@
     <string _locid="43013" symbol="cStringLoadscreenTutorial1">学习《帝国时代 III》的基本游戏方式：如何选择单位、如何移动及战斗，以及如何从零开始建造殖民地。</string>
     <string _locid="43014" symbol="cStringLoadscreenTutorial2">尝试与电脑对手进行一场完整的游戏。游戏中会为您提供有用的建议，引导您用正确的方式进行游戏。</string>
     <string _locid="43015" symbol="cStringAbstractNameWhale">鲸鱼</string>
-    <string _locid="43016" symbol="cStringAbstractNameArcher">步弓手</string>
+    <string _locid="43016" symbol="cStringAbstractNameArcher">弓弩手</string>
     <string _locid="43017" symbol="cStringFailedGetHCs">无法检索主城：%s</string>
     <string _locid="43018">加载用户自定义分组</string>
     <string _locid="43019" symbol="cStringAutoGatherName">自动收集</string>
@@ -14437,7 +14437,7 @@
     <string _locid="44038">战斗房屋</string>
     <string _locid="44039">队伍：码头变得更便宜。</string>
     <string _locid="44040">队伍：房屋变得更便宜。</string>
-    <string _locid="44041">增加作战小屋的建造限制和生命值。</string>
+    <string _locid="44041">增加作战小屋的建造数量上限和生命值。</string>
     <string _locid="44042">大规模防御工事 2</string>
     <string _locid="44043">“大规模防御工事”船运已经抵达。</string>
     <string _locid="44044">“大规模防御工事 II”船运已经抵达。</string>
@@ -14671,7 +14671,7 @@
     <string _locid="44271">5 名骷髅勇士</string>
     <string _locid="44272">6 名骷髅勇士</string>
     <string _locid="44273">7 名骷髅勇士</string>
-    <string _locid="44274">增加作战小屋和贵族小屋的建造限制。</string>
+    <string _locid="44274">增加作战小屋和贵族小屋的建造数量上限。</string>
     <string _locid="44275">阿兹特克防御工事</string>
     <string _locid="44276">“大规模防御工事”船运已经抵达。</string>
     <string _locid="44277">增加贵族小屋的攻击力和生命值。</string>
@@ -17555,7 +17555,7 @@
     <string _locid="47164">传奇美洲狮长矛兵</string>
     <string _locid="47165">传奇鹰神弓箭手</string>
     <string _locid="47166">传奇雷鸟步枪兵</string>
-    <string _locid="47167">大幅增加游荡骑兵的建造限制。</string>
+    <string _locid="47167">大幅增加游荡骑兵的建造数量上限。</string>
     <string _locid="47168">掠夺者</string>
     <string _locid="47169">“扰敌骑兵”船运已经抵达。</string>
     <string _locid="47170">“掠夺者”船运已经抵达。</string>
@@ -17584,7 +17584,7 @@
     <string _locid="47193">队伍：3 只宠物美洲豹</string>
     <string _locid="47194">队伍：4 只宠物熊</string>
     <string _locid="47195">高级侦察兵</string>
-    <string _locid="47196">现在可以在城镇中心训练侦察兵，同时增加他们的战斗能力和建造限制。</string>
+    <string _locid="47196">现在可以在城镇中心训练侦察兵，同时增加他们的战斗能力和建造数量上限。</string>
     <string _locid="47197">“离岸援助”船运已经抵达。</string>
     <string _locid="47198">冷酷无情</string>
     <string _locid="47199">大幅增加作战小屋单位对拓荒者的伤害。</string>
@@ -19742,7 +19742,7 @@
     <string _locid="49425">约鲁巴同盟</string>
     <string _locid="49426">解锁约鲁巴同盟。</string>
     <string _locid="49427">阿肯同盟</string>
-    <string _locid="49428">解锁阿坎同盟。</string>
+    <string _locid="49428">解锁阿肯同盟。</string>
     <string _locid="49429">摩洛哥同盟</string>
     <string _locid="49430">解锁摩洛哥同盟。</string>
     <string _locid="49431">英国同盟</string>
@@ -20202,7 +20202,7 @@
     <string _locid="49885">战酋援助</string>
     <string _locid="49886">被动能力：阿兹特克战酋的被动能力可以让附近的单位获得双倍经验值。</string>
     <string _locid="49887">被动能力：拉科塔战酋的被动能力可以让附近的单位移动速度 +10%。</string>
-    <string _locid="49888">被动能力：印加战酋的被动能力可以让附近的单位生命值 +20%。</string>
+    <string _locid="49888">被动能力：印加战酋的被动能力可以让附近的原住民战士攻击力和生命值 +10%。</string>
     <string _locid="49889">被动能力：豪德诺索尼战酋的被动能力可以让附近的单位生命值 +10%。</string>
     <string _locid="49890">社区</string>
     <string _locid="49891">前往 https://www.facebook.com/ageofempires/</string>
@@ -20293,8 +20293,19 @@
     <string _locid="49972">少林大师自定义项目：黄坚都指挥</string>
     <string _locid="49973">神圣吐息</string>
     <string _locid="49974">珍珠加农炮弹</string>
-    <string _locid="49975">僧侣 (默认)\n这是僧侣的默认版本。</string>
-    <string _locid="49976">新年春节活动</string>
+    <string _locid="49975">僧侣 (默认)\n这是默认版本的僧侣。</string>
+    <string _locid="49976">春节活动</string>
+    <string _locid="49977">选择经济挑战</string>
+    <string _locid="49978">选择即可开启经济挑战并选择要为此游戏会话设置的挑战。</string>
+    <string _locid="49979">经济挑战</string>
+    <string _locid="49980">经济挑战可在所有文明之间共享，并且可以由任何文明在比赛中完成。</string>
+    <string _locid="49981">自动挑战</string>
+    <string _locid="49982">这些挑战会自动选择以平衡游戏。</string>
+    <string _locid="49983">其他挑战</string>
+    <string _locid="49984">选择的玩家：{0}</string>
+    <string _locid="49985">玩家所选择的其他挑战。</string>
+    <string _locid="49986">选择其他挑战</string>
+    <string _locid="49987">已选择的挑战：{0}/{1}</string>
     <string _locid="60001" symbol="cStringCivNameJapanese">日本人</string>
     <string _locid="60002" symbol="cStringCivNameChinese">中国人</string>
     <string _locid="60003" symbol="cStringCivNameIndians">印度人</string>
@@ -20519,7 +20530,7 @@
     <string _locid="60222">可提供 10 单位人口空间。</string>
     <string _locid="60223">神社</string>
     <string _locid="60224">日本神社</string>
-    <string _locid="60225">提供 {unitPopCapAddition(ypVillage)} 单位人口空间/牲畜的建筑</string>
+    <string _locid="60225">提供 {unitPopCapAddition(ypVillage)} 单位人口空间/牲畜建筑</string>
     <string _locid="60226">提供 20 单位人口空间，但可使用改良技术来增加。还能加快牲畜变肥的速度，以及训练山羊。</string>
     <string _locid="60227">村落</string>
     <string _locid="60228">村落</string>
@@ -21402,7 +21413,7 @@
     <string _locid="61105">“这不是我们的战争。但是，如果你要在这里建造一个交易站，或许我们双方可以合作。”</string>
     <string _locid="61106">苏菲派清真寺</string>
     <string _locid="61107">Socket 苏菲派</string>
-    <string _locid="61108">苏菲派的学者提供伊斯兰教法相关的教育，可增加拓荒者、村民和闯林人的建造限制。</string>
+    <string _locid="61108">苏菲派的学者提供伊斯兰教法相关的教育，可增加拓荒者、村民和闯林人的建造数量上限。</string>
     <string _locid="61109">伊斯兰教法</string>
     <string _locid="61110">每日斋戒会减少村民的生命值，但会加快所有资源的收集速率。</string>
     <string _locid="61111">斋戒</string>
@@ -21820,9 +21831,9 @@
     <string _locid="61522">铁帽子王军</string>
     <string _locid="61523">神机营</string>
     <string _locid="61524">常胜军</string>
-    <string _locid="61525">1 座猛火油柜，外加 1 城堡拉车</string>
-    <string _locid="61526">2 座猛火油柜，外加 1 城堡拉车</string>
-    <string _locid="61527">4 座猛火油柜，外加 1 城堡拉车</string>
+    <string _locid="61525">1 座猛火油柜，外加 1 辆城堡拉车</string>
+    <string _locid="61526">2 座猛火油柜，外加 1 辆城堡拉车</string>
+    <string _locid="61527">4 座猛火油柜，外加 1 辆城堡拉车</string>
     <string _locid="61528">7 座碗口铳</string>
     <string _locid="61529">11 座碗口铳</string>
     <string _locid="61530">2 座神火飞鸦</string>
@@ -22303,11 +22314,11 @@
     <string _locid="62004">可隐秘行动的远程步兵，擅长对付步兵。</string>
     <string _locid="62005">间者</string>
     <string _locid="62006">INF 间者</string>
-    <string _locid="62007">增加道场的建造限制。</string>
+    <string _locid="62007">增加道场的建造数量上限。</string>
     <string _locid="62008">江户道场</string>
     <string _locid="62009">“大规模防御工事”船运已经抵达。</string>
     <string _locid="62010">“江户道场”船运已经抵达。</string>
-    <string _locid="62011">增加道场的建造限制。</string>
+    <string _locid="62011">增加道场的建造数量上限。</string>
     <string _locid="62012">大坂道场</string>
     <string _locid="62013">“江户道场”船运已经抵达。</string>
     <string _locid="62014">“大坂道场”船运已经抵达。</string>
@@ -22537,7 +22548,7 @@
     <string _locid="62238">加快所有炮兵的训练速度。</string>
     <string _locid="62239">工程学校</string>
     <string _locid="62240">“工程学校”船运已经抵达。</string>
-    <string _locid="62241">增加哨站、作战小屋和碉堡的建造限制和生命值。</string>
+    <string _locid="62241">增加哨站、作战小屋和碉堡的建造数量上限和生命值。</string>
     <string _locid="62242">大规模防御工事</string>
     <string _locid="62243">“大规模防御工事”船运已经抵达。</string>
     <string _locid="62244">运送 5 名铁炮足轻、5 名武士和 1 名大名。</string>
@@ -22688,7 +22699,7 @@
     <string _locid="62389">增加僧侣的攻击力和生命值，外加 2 名倭寇</string>
     <string _locid="62390">倭寇训练</string>
     <string _locid="62391">4 队常规军</string>
-    <string _locid="62392">增加城堡的建造限制和生命值。</string>
+    <string _locid="62392">增加城堡的建造数量上限和生命值。</string>
     <string _locid="62393">大规模防御工事</string>
     <string _locid="62394">“大规模防御工事”船运已经抵达。</string>
     <string _locid="62395">大幅提升村民的生命值。</string>
@@ -22849,7 +22860,7 @@
     <string _locid="62579">加快所有单位的训练速度。</string>
     <string _locid="62580">针灸</string>
     <string _locid="62581">“针灸”船运已经抵达。</string>
-    <string _locid="62582">增加城堡的建造限制和生命值。</string>
+    <string _locid="62582">增加城堡的建造数量上限和生命值。</string>
     <string _locid="62583">强化的城堡</string>
     <string _locid="62584">“大规模防御工事”船运已经抵达。</string>
     <string _locid="62585">“强化的城堡”船运已经抵达。</string>
@@ -23440,7 +23451,7 @@
     <string _locid="63234">原住民战士团</string>
     <string _locid="63235">队伍：您可以训练更多的原住民战士了。</string>
     <string _locid="63236">您可以训练更多的原住民战士了。</string>
-    <string _locid="63237">增加城堡的建造限制和生命值。</string>
+    <string _locid="63237">增加城堡的建造数量上限和生命值。</string>
     <string _locid="63238">大规模防御工事 2</string>
     <string _locid="63239">“大规模防御工事 II”船运已经抵达。</string>
     <string _locid="63240">大幅增加村民的生命值，外加 1 名村民。</string>
@@ -24994,7 +25005,7 @@
     <string _locid="64852">日本旗帜</string>
     <string _locid="64853">PROP YP 日本旗帜</string>
     <string _locid="64854">天坛建造完成后会运送村民，并且它可以通过“超越”能力快速治疗玩家的所有单位，同时让少林大师治疗友军单位。</string>
-    <string _locid="64855">天坛建造完成后会运送村民，并且它可以通过“超越”能力快速治疗玩家的所有单位，同时让少林大师治疗友军单位。\n----------\n建造完成后可获得的船运：\nII：运送 3 名村民\nIII：运送 6 名村民\nIV：运送 10 名村民\nV：运送 20 名村民</string>
+    <string _locid="64855">天坛建造完成后会运送村民，并且它可以通过“超越”能力快速治疗玩家的所有单位，同时让少林大师治疗友军单位。\n----------\n建造完成后可获得的船运：\nII：运送 3 名村民\nIII：1 辆城镇中心拉车\nIV：运送 3 辆稻田拉车\nV：获得 1200 单位的出口商品</string>
     <string _locid="64856">天坛</string>
     <string _locid="64857">WON 天坛</string>
     <string _locid="64858">帐篷。</string>
@@ -25002,15 +25013,15 @@
     <string _locid="64860">作战帐篷</string>
     <string _locid="64861">PROP YP 作战帐篷</string>
     <string _locid="64862">天坛建造完成后会运送村民，并且它可以通过“超越”能力快速治疗玩家的所有单位，同时让少林大师治疗友军单位。</string>
-    <string _locid="64863">天坛建造完成后会运送村民，并且它可以通过“超越”能力快速治疗玩家的所有单位，同时让少林大师治疗友军单位。\n----------\n建造完成后可获得的船运：\nII：运送 3 名村民\nIII：运送 6 名村民\nIV：运送 10 名村民\nV：运送 20 名村民</string>
+    <string _locid="64863">天坛建造完成后会运送村民，并且它可以通过“超越”能力快速治疗玩家的所有单位，同时让少林大师治疗友军单位。\n----------\n建造完成后可获得的船运：\nII：运送 3 名村民\nIII：1 辆城镇中心拉车\nIV：运送 3 辆稻田拉车\nV：获得 1200 单位的出口商品</string>
     <string _locid="64864">天坛</string>
     <string _locid="64865">WON 天坛</string>
     <string _locid="64866">天坛建造完成后会运送村民，并且它可以通过“超越”能力快速治疗玩家的所有单位，同时让少林大师治疗友军单位。</string>
-    <string _locid="64867">天坛建造完成后会运送村民，并且它可以通过“超越”能力快速治疗玩家的所有单位，同时让少林大师治疗友军单位。\n----------\n建造完成后可获得的船运：\nII：运送 3 名村民\nIII：运送 6 名村民\nIV：运送 10 名村民\nV：运送 20 名村民</string>
+    <string _locid="64867">天坛建造完成后会运送村民，并且它可以通过“超越”能力快速治疗玩家的所有单位，同时让少林大师治疗友军单位。\n----------\n建造完成后可获得的船运：\nII：运送 3 名村民\nIII：1 辆城镇中心拉车\nIV：运送 3 辆稻田拉车\nV：获得 1200 单位的出口商品</string>
     <string _locid="64868">天坛</string>
     <string _locid="64869">WON 天坛</string>
     <string _locid="64870">天坛建造完成后会运送村民，并且它可以通过“超越”能力快速治疗玩家的所有单位，同时让少林大师治疗友军单位。</string>
-    <string _locid="64871">天坛建造完成后会运送村民，并且它可以通过“超越”能力快速治疗玩家的所有单位，同时让少林大师治疗友军单位。\n----------\n建造完成后可获得的船运：\nII：运送 3 名村民\nIII：运送 6 名村民\nIV：运送 10 名村民\nV：运送 20 名村民</string>
+    <string _locid="64871">天坛建造完成后会运送村民，并且它可以通过“超越”能力快速治疗玩家的所有单位，同时让少林大师治疗友军单位。\n----------\n建造完成后可获得的船运：\nII：运送 3 名村民\nIII：1 辆城镇中心拉车\nIV：运送 3 辆稻田拉车\nV：获得 1200 单位的出口商品</string>
     <string _locid="64872">天坛</string>
     <string _locid="64873">WON 天坛</string>
     <string _locid="64874">爆炸</string>
@@ -25201,13 +25212,13 @@
     <string _locid="65059">船运：800 单位的食物、800 单位的木材、800 单位的钱币\n \n能力：提升附近的收集效果。</string>
     <string _locid="65060">克勒妮玛塔神庙</string>
     <string _locid="65061">矮树丛 (日本海岸)</string>
-    <string _locid="65062">船运：4 名弟子\n \n能力：增加僧侣的攻击力和生命值，以及弟子的建造限制。</string>
+    <string _locid="65062">船运：4 名弟子\n \n能力：增加僧侣的攻击力和生命值，以及弟子的建造数量上限。</string>
     <string _locid="65063">白塔</string>
-    <string _locid="65064">船运：6 名弟子\n \n能力：增加僧侣的攻击力和生命值，以及弟子的建造限制。</string>
+    <string _locid="65064">船运：6 名弟子\n \n能力：增加僧侣的攻击力和生命值，以及弟子的建造数量上限。</string>
     <string _locid="65065">白塔</string>
-    <string _locid="65066">船运：10 名弟子\n \n能力：增加僧侣的攻击力和生命值，以及弟子的建造限制。</string>
+    <string _locid="65066">船运：10 名弟子\n \n能力：增加僧侣的攻击力和生命值，以及弟子的建造数量上限。</string>
     <string _locid="65067">白塔</string>
-    <string _locid="65068">船运：16 名弟子\n \n能力：增加僧侣的攻击力和生命值，以及弟子的建造限制。</string>
+    <string _locid="65068">船运：16 名弟子\n \n能力：增加僧侣的攻击力和生命值，以及弟子的建造数量上限。</string>
     <string _locid="65069">白塔</string>
     <string _locid="65070">船运：400 单位的食物\n \n能力：生产旗军</string>
     <string _locid="65071">颐和园</string>
@@ -25808,7 +25819,7 @@
     <string _locid="65669">齐发模式</string>
     <string _locid="65670">近战模式</string>
     <string _locid="65671">防御模式</string>
-    <string _locid="65672">2 名少林弟子，少林大师的攻击力和生命值 +10%，并且增加弟子的建造限制。</string>
+    <string _locid="65672">2 名少林弟子，少林大师的攻击力和生命值 +10%，并且增加弟子的建造数量上限。</string>
     <string _locid="65673">[NULL]</string>
     <string _locid="65674">1 支蒙古旗军，生产旗军或食物。</string>
     <string _locid="65675">[NULL]</string>
@@ -26529,7 +26540,7 @@
     <string _locid="66388">增加城堡的视野和攻击距离。</string>
     <string _locid="66389">山城</string>
     <string _locid="66390">“石造城堡”船运已经抵达。</string>
-    <string _locid="66391">增加城堡的建造限制和生命值，外加 1 名村民。</string>
+    <string _locid="66391">增加城堡的建造数量上限和生命值，外加 1 名村民。</string>
     <string _locid="66392">大规模防御工事</string>
     <string _locid="66393">“大规模防御工事”船运已经抵达。</string>
     <string _locid="66394">“大规模防御工事 2”船运已经抵达。</string>
@@ -30345,7 +30356,7 @@
     <string _locid="70221">木材的来源。</string>
     <string _locid="70222">1,000 单位木材的木材捆</string>
     <string _locid="70223">城镇拉车</string>
-    <string _locid="70224">增加哨站、作战小屋、碉堡及城堡的建造限制及生命值。</string>
+    <string _locid="70224">增加哨站、作战小屋、碉堡及城堡的建造数量上限及生命值。</string>
     <string _locid="70225">大规模防御工事</string>
     <string _locid="70226">“大规模防御工事”船运已经抵达。</string>
     <string _locid="70227">大幅增加少数聚落的美洲原住民战士和亚洲战士的攻击力和生命值。</string>
@@ -32397,7 +32408,7 @@
     <string _locid="79803">强化的城堡和碉堡</string>
     <string _locid="79804" symbol="cStringObjectInfoPanelAttack">%1d (%2s)</string>
     <string _locid="79805" symbol="cStringObjectInfoPanelAttackNoString">%1d (单位攻击 #%2d)</string>
-    <string _locid="79806" symbol="cStringmercaddBldLimitFld">建造限制：</string>
+    <string _locid="79806" symbol="cStringmercaddBldLimitFld">建造数量上限：</string>
     <string _locid="79807" symbol="cStringmerceditDisableMercChk">禁用默认雇佣兵</string>
     <string _locid="79808">废弃的塔楼</string>
     <string _locid="79809">针对敌人的主城设置封锁工具，不让他们送出任何船运！总成本为每个敌军单位 100 单位的钱币。</string>
@@ -32551,7 +32562,7 @@
     <string _locid="79959" symbol="cStringFriendly">友好</string>
     <string _locid="79960">大型地图</string>
     <string _locid="79961">加载所选地图的大型版本。</string>
-    <string _locid="79962">15 只羊和 1 辆农场马车，外加 3 乌兰骑兵</string>
+    <string _locid="79962">15 只羊、1 辆农场马车，外加 3 乌兰骑兵</string>
     <string _locid="80000" symbol="cStringCultureInca">印加人</string>
     <string _locid="80001" symbol="cStringCivNameInca">印加人</string>
     <string _locid="80002" symbol="cStringCivRolloverInca">&lt;color=1.0, 1.0, 0.0&gt;文明优势：&lt;/color&gt;\n干查屋可以生产食物。可通过探索时代船运及随时代提升免费获得一名传信使者。传信使者可以够建造驿舍 (强大的交易站，可接收船运并供平民驻扎其中)。军事单位可以驻扎在会堂和堡寨中。女祭司可以招降敌人，她们在社区广场处工作。\n&lt;color=1.0, 1.0, 0.0&gt;独特单位：&lt;/color&gt;\n传信使者、羽饰长矛兵、奇穆游击兵、丛林弓箭手、流星索战士、投石索兵、槌兵、女祭司和钦查木筏。\n&lt;color=1.0, 1.0, 0.0&gt;独特建筑：&lt;/color&gt;\n会堂、堡寨、干查屋和驿舍\n&lt;color=1.0, 1.0, 0.0&gt;独特仪式：&lt;/color&gt;\n月之仪式和死神仪式\n\n一个庞大的南美帝国，其城墙和精明的管理使其十分强大，它也因此举世闻名。</string>
@@ -32691,7 +32702,7 @@
     <string _locid="80136">干查屋</string>
     <string _locid="80137">干查屋</string>
     <string _locid="80138">提供 15 单位人口空间并生产食物。</string>
-    <string _locid="80139">提供 145 单位人口空间并生产食物的印加房屋。</string>
+    <string _locid="80139">提供 15 单位人口空间并生产食物的印加房屋。</string>
     <string _locid="80140">会堂</string>
     <string _locid="80141">会堂</string>
     <string _locid="80142">精锐步兵建筑</string>
@@ -32902,7 +32913,7 @@
     <string _locid="80527">专业人士</string>
     <string _locid="80528">“专业人士”船运已经抵达。</string>
     <string _locid="80529" symbol="cStringFreeHomeCityUnitResourceEffect">运送 %1!d! 个%2!s!，其载有额外的 %3!d! 单位的%4!s!</string>
-    <string _locid="80530">艾马拉人送来 5 名传信使者并大幅提高他们的战斗技术。增加传信使者的建造限制。</string>
+    <string _locid="80530">艾马拉人送来 5 名传信使者并大幅提高他们的战斗技术。增加传信使者的建造数量上限。</string>
     <string _locid="80531">“艾马拉援助”船运已经抵达。</string>
     <string _locid="80532">卡哈马卡援助</string>
     <string _locid="80533">卡哈马卡人送来 9 名丛林弓箭手，并增加他们对重装步兵造成的额外伤害。</string>
@@ -32919,12 +32930,12 @@
     <string _locid="80544">驿舍运输架</string>
     <string _locid="80545">转变成驿舍。</string>
     <string _locid="80546">人口普查</string>
-    <string _locid="80547">会堂的生命值增加、建造速度更快并且不用花费钱币。增加建造限制。</string>
+    <string _locid="80547">会堂的生命值增加、建造速度更快并且不用花费钱币。增加建造数量上限。</string>
     <string _locid="80548">“人口普查”船运已经抵达。</string>
     <string _locid="80549">远程步兵生命值</string>
     <string _locid="80550">增加投石索兵、流星索战士和丛林弓箭手的生命值。</string>
     <string _locid="80551">奇普绳结专家</string>
-    <string _locid="80552">大幅增加传信使者的视野和速度并允许其拾取宝藏。驿舍可以增加邻近单位的生命值。</string>
+    <string _locid="80552">大幅增加传信使者的视野和速度并使其可以拾取宝藏。驿舍可以增加附近单位的生命值。</string>
     <string _locid="80553">“奇普绳结专家”船运已经抵达。</string>
     <string _locid="80554">制高点</string>
     <string _locid="80555">印加建筑的制高点能带来更宽广的视野和攻击范围。</string>
@@ -33334,7 +33345,7 @@
     <string _locid="80950">通过一项法律，允许海盗携带枪支，从箱子中搜集资源，抢夺宝藏。相较于其他单位，海盗和私掠船能够更彻底地掠夺财宝。私掠船也能利用海盗活动提供稳定的钱币收入。太棒了！</string>
     <string _locid="80951">私掠许可证</string>
     <string _locid="80952">15 名加勒比吹箭手</string>
-    <string _locid="80953">1 辆篷车并增加城镇中心建造限制</string>
+    <string _locid="80953">1 辆篷车并增加城镇中心建造数量上限</string>
     <string _locid="80954">骑马掷弹兵</string>
     <string _locid="80955">远程骑兵，可展开强大的手榴弹攻击。非常擅长攻击建筑。</string>
     <string _locid="80956">骑马掷弹兵</string>
@@ -33963,7 +33974,7 @@
     <string _locid="84073" soundfilename="ZNARR0410">因此，在那一天，有三个国王死去了。西班牙随后控制了葡萄牙，而艾哈迈德·曼苏尔接替他的兄弟成为了苏丹，统治了摩洛哥 25 年。</string>
     <string _locid="84075">美国决心阻止对其商船的掠夺袭击，并已对北非的柏柏里海盗宣战。在一个顺利的开头之后，美军的费城号被柏柏里海盗完好无损地俘获。这使得冲突情况急转直下，变为了一场灾难般的耻辱。但是，一位勇敢而年轻的美军上尉，斯蒂芬·迪凯特，不愿让这艘战舰落入敌人手中。他集结了一群志愿军，开始了一场摧毁护卫舰、挽救美国海军声誉的航行。</string>
     <string _locid="84076" soundfilename="ZNARR0450">猝不及防的柏柏里海盗完全无法阻止美国海军陆战队摧毁他们的战利品。</string>
-    <string _locid="84077" soundfilename="ZNARR0455">本次行动在当时是异常大胆之举，也让斯蒂芬·迪凯特的勇敢和狡黠迅速传遍世界。类似的英勇行动促进了美国国际地位的上升。</string>
+    <string _locid="84077" soundfilename="ZNARR0455">本次行动是当时的大胆之举，也让斯蒂芬·迪凯特的勇敢和狡黠迅速传遍世界。这类英勇行动促进了美国国际地位的上升。</string>
     <string _locid="84078" soundfilename="ZNARR0465">柏柏里诸国未受挫于此次的小失败，并持续挑起纷争。之后的一整年战乱依旧，美军依靠多次海军封锁与一次海军陆战队的陆上远征，最终迫使海盗投降。至此，第一次柏柏里战争落下帷幕。</string>
     <string _locid="84080">随着波旁改革赋予西班牙精英人群更大的权力，并削弱教会的影响，怨恨情绪日渐在墨西哥的农村人口心中滋生蔓延。当拿破仑征服西班牙的消息传到美洲时，一位天主教神父的话点燃了革命的火花。</string>
     <string _locid="84081" soundfilename="ZNARR0500">革命者从多洛雷斯抵达托卢卡附近山区，标志着起义的巨大成功。每次胜利都有更多的墨西哥人加入革命军。最后，军队的人数接近十万。</string>
@@ -34670,7 +34681,7 @@
     <string _locid="90122" symbol="cStringDecreaseMinXPTrickleRateEffect">%1!s!：最小经验值细流速率 %2!.0f!%%</string>
     <string _locid="90123" symbol="cStringDecreaseMaxXPTrickleRateEffect">%1!s!：最大经验值细流速率 %2!.0f!%%</string>
     <string _locid="90124" symbol="cStringDecreaseTributePenaltyEffect">%1!s!：贡品赋税 %2!.0f!%%</string>
-    <string _locid="90125" symbol="cStringDecreaseBuildLimitEffect" comment="1 - effect, 2 - how much was changed">%1!s!：建造限制 %2!.0f!%%</string>
+    <string _locid="90125" symbol="cStringDecreaseBuildLimitEffect" comment="1 - effect, 2 - how much was changed">%1!s!：建造数量上限 %2!.0f!%%</string>
     <string _locid="90126" symbol="cStringDecreaseWorkRateEffect">%1!s!：%3!s!的%2!s!工作速率 %4!.0f!%%</string>
     <string _locid="90127" symbol="cStringDecreaseCostEffect">%1!s!：%2!s!成本 %3!.0f!%%</string>
     <string _locid="90128" symbol="cStringDecreaseMaxRangeEffect">%1!s!：%2!s!的最大距离 %3!.0f!%%</string>
@@ -34743,7 +34754,7 @@
     <string _locid="90195">能力大按钮/中型按钮 3</string>
     <string _locid="90196">达乌帆船/谢贝克帆船</string>
     <string _locid="90300">拓荒者收集资源的速度更快，而不是成为革命军，拓荒者也可以驻扎在长途马车中，进行运输和防卫。运送 3 辆长途马车。</string>
-    <string _locid="90301">可以从城镇中心训练胡格诺派教徒 (闯林人)。在原有的村民建造限制基础上，允许您再训练 30 名闯林人。</string>
+    <string _locid="90301">可以从城镇中心训练胡格诺派教徒 (闯林人)。在原有的村民建造数量上限基础上，允许您再训练 30 名闯林人。</string>
     <string _locid="90302">胡格诺派教徒</string>
     <string _locid="90303">5 辆军事马车和 2 辆长途马车</string>
     <string _locid="90304">3 辆农场马车和 2 辆长途马车</string>
@@ -35967,7 +35978,7 @@
     <string _locid="101229">寺院</string>
     <string _locid="101230">皇家图书馆</string>
     <string _locid="101231">所有的亡命之徒、浪人和倭寇单位占用较少的人口空间。允许训练特殊亡命之徒等单位。</string>
-    <string _locid="101232">运送 2 名宫殿建筑工人和 3 名营地建筑工人并提升建造限制。可研究强化城市。</string>
+    <string _locid="101232">运送 2 名宫殿建筑工人和 3 名营地建筑工人并提升建造数量上限。可研究强化城市。</string>
     <string _locid="101233">募集长矛兵、募集弓箭手和募集枪手不再损失生命值并消除所有伤害惩罚。</string>
     <string _locid="101234">常备募集军</string>
     <string _locid="101235" symbol="cStringCivNameSPCBerbers">柏柏尔人</string>
@@ -36068,7 +36079,7 @@
     <string _locid="101330">三位一体</string>
     <string _locid="101331">运送 2 名村民和 1 名阿布恩。村民可以建造建筑和收集资源。阿布恩被派至山地寺院进行采集或在战斗中远程治疗负伤的单位。</string>
     <string _locid="101332">朱昆族</string>
-    <string _locid="101333">运送 5 名 村民和 5 名格里奥。格里奥的建造限制增加。</string>
+    <string _locid="101333">运送 5 名 村民和 5 名格里奥。格里奥的建造数量上限增加。</string>
     <string _locid="101334" symbol="cStringGriotMalletsMode">命令格里奥用他的木槌击鼓。奏乐！(仅视觉效果)</string>
     <string _locid="101335" symbol="cStringGriotHandsMode">太吵了！命令格里奥用他的双手击鼓，声音轻点。(仅视觉效果)</string>
     <string _locid="101336" symbol="cStringGriotSilenceMode">安静！命令格里奥停止弹奏他那吵闹喧嚣的乐器！(仅视觉效果)</string>
@@ -37240,7 +37251,7 @@
     <string _locid="102686">索马里货币</string>
     <string _locid="102687">加快步弓手和装备有步枪的步兵的近战攻击速度。</string>
     <string _locid="102688">索马里吉勒匕首</string>
-    <string _locid="102689">提升前线防御工事 (哨站、作战小屋、城堡等) 的建造限制。攻城单位和军舰对前线防御工事造成的伤害提升。</string>
+    <string _locid="102689">提升前线防御工事 (哨站、作战小屋、城堡等) 的建造数量上限。攻城单位和军舰对前线防御工事造成的伤害提升。</string>
     <string _locid="102690">索马里阿朱兰工程师</string>
     <string _locid="102691">红海马车</string>
     <string _locid="102692">VIL 红海马车</string>
@@ -37403,12 +37414,12 @@
     <string _locid="102850">向每座宫殿运送 1 名利菲迪骑士，向每座战斗营和瞭望塔运送 1 名突袭者。</string>
     <string _locid="102851">提高马伊加迪卫兵攻击力和训练速度。他们现在会消耗部分钱币和影响力。</string>
     <string _locid="102852">为您的埃米尔解锁新能力。舌蝇破坏：可用来破坏敌人的军事建筑，大大减缓其生产和研究速度。</string>
-    <string _locid="102853">为了教育目的运送 1 名格里奥和 1 名大学建筑工人。增加大学建造限制。</string>
+    <string _locid="102853">为了教育目的运送 1 名格里奥和 1 名大学建筑工人。增加大学建造数量上限。</string>
     <string _locid="102854">在到达特定时代时，运送以下所有建筑工人：\n • 探索时代：1 名大学建筑工人\n • 商业时代：1 名贸易建筑工人\n • 要塞时代：1 名宫殿建筑工人\n • 工业时代：1 名城镇中心建筑工人\n • 帝王时代：5 名营地建筑工人</string>
     <string _locid="102855">大学可提高附近建筑的建造速度和工作速率。</string>
     <string _locid="102856">村民在大学周围收集树木和矿产的速度提升 30%。大学视野大幅提升。</string>
     <string _locid="102857">运送一座宫殿，并可提前一个时代建造宫殿。</string>
-    <string _locid="102858">运送 1 辆宫殿马车和 300 点影响力令牌。宫殿建造限制提升 1。</string>
+    <string _locid="102858">运送 1 辆宫殿马车和 300 点影响力令牌。宫殿建造数量上限提升 1。</string>
     <string _locid="102859">可研究护城坚墙并让城门可提供附近单位 5% 攻击加成。</string>
     <string _locid="102860">队伍：附近的军事单位提升了城墙生命值。</string>
     <string _locid="102861">城墙和城门被摧毁后返还其成本。城墙和城门科技花费降低。</string>
@@ -37419,7 +37430,7 @@
     <string _locid="102866">所有矿产持续时间变长，并暂时显示它们的位置 3 分钟。</string>
     <string _locid="102867">您过去和今后的每次船运都将获得 1 名免费的富拉尼步弓手。</string>
     <string _locid="102868">每个已训练的突袭者和利菲迪都将其一部分成本储备为影响力。</string>
-    <string _locid="102869">格里奥生命值、速度和建造限制提升。</string>
+    <string _locid="102869">格里奥生命值、速度和建造数量上限提升。</string>
     <string _locid="102870">格里奥可造成更多伤害。乐器能恐吓更大范围内的敌人。</string>
     <string _locid="102871">允许瞭望塔召集募集军并驻守于内。驻守于瞭望塔内的单位提升其 10% 的攻击力。</string>
     <string _locid="102872">运送一批阿肯安科比亚卫兵 (火枪兵)。并允许在战斗营训练此单位 (消耗人口、食物和钱币)。</string>
@@ -37650,11 +37661,11 @@
     <string _locid="103142">可以建造城镇中心、宫殿、大学或山地寺院。</string>
     <string _locid="103143">可以免费建造 1 个城镇中心、宫殿或大学的建筑工人。</string>
     <string _locid="103144">每进入一个时代时可建造 1 个额外的城镇中心。</string>
-    <string _locid="103145">城镇中心的建造限制 +3。</string>
+    <string _locid="103145">城镇中心的建造数量上限 +3。</string>
     <string _locid="103146">豪萨七邦</string>
     <string _locid="103147">以后的每次船运，您会获得一名免费豪萨建筑工人。</string>
     <string _locid="103148">卡诺编年史</string>
-    <string _locid="103149">运送 3 个王国建筑工人，大学建造限制 +3。</string>
+    <string _locid="103149">运送 3 个王国建筑工人，大学建造数量上限 +3。</string>
     <string _locid="103150">班扎七邦</string>
     <string _locid="103151">运送 1 个埃米尔，建筑在建造完成后提供影响力而不是经验值。</string>
     <string _locid="103152">巴亚吉达史诗</string>
@@ -37739,7 +37750,7 @@
     <string _locid="103231">在接下来的游戏中，击败敌方单位和摧毁建筑时获得少量的影响力。</string>
     <string _locid="103232">运送雇佣火绳枪骑兵并提高所有重装远程骑兵的攻击伤害。</string>
     <string _locid="103233">运送雇佣里尔火炮并提高所有炮兵的区域性伤害。</string>
-    <string _locid="103234">可在宫殿和原住民使馆解锁索马利亚达鲁德民兵及索马利亚伊萨战士。</string>
+    <string _locid="103234">可在宫殿和原住民使馆解锁索马利达鲁德民兵及索马利伊萨战士。</string>
     <string _locid="103235">索马里单位</string>
     <string _locid="103236">可在山地寺院解锁索马里原住民改良技术。</string>
     <string _locid="103237">索马里科技</string>
@@ -37816,7 +37827,7 @@
     <string _locid="103296">约柜</string>
     <string _locid="103297">使山地寺院能够提升附近单位和建筑的生命值 10%。</string>
     <string _locid="103298">主显节</string>
-    <string _locid="103299">增加阿布恩的治疗范围和建造限制。</string>
+    <string _locid="103299">增加阿布恩的治疗范围和建造数量上限。</string>
     <string _locid="103300">阿克苏姆之书</string>
     <string _locid="103301">运送 1 名拉斯。可使所有敌方军事单位在被击败时，除了经验值外，还奖励少量影响力。</string>
     <string _locid="103302">所罗门王朝</string>
@@ -37852,7 +37863,7 @@
     <string _locid="103332">
     </string>
     <string _locid="103333">友好合约：印度象变得更便宜，并降低占用人口空间。</string>
-    <string _locid="103334">即便处于战斗之中，也可小幅度增加所有单位的生命值，但治疗非常缓慢。</string>
+    <string _locid="103334">所有单位小幅度增加生命值，同时获得缓慢但在战斗中不会停止的回复能力。</string>
     <string _locid="103335">依纳爵灵修</string>
     <string _locid="103336">从本次开始，您今后每一次船运都将获得 200 点影响力令牌。</string>
     <string _locid="103337">耶稣会影响力</string>
@@ -38145,7 +38156,7 @@
     <string _locid="104605">还原至您的初始卡组，并让您进入帝王时代。\n\n保留联邦卡片。</string>
     <string _locid="104606">还原至您的初始卡组，并让您进入要塞时代。\n\n保留联邦卡片。</string>
     <string _locid="104607">抵达速度极快！运送 1 座蛇炮和 2 座木制假炮。</string>
-    <string _locid="104608">运送 1 辆工厂马车并提升建造限制。</string>
+    <string _locid="104608">运送 1 辆工厂马车并提升建造数量上限。</string>
     <string _locid="104609">允许加利福尼亚西裔兵捕获动物并在垦殖园工作。</string>
     <string _locid="104610">允许另外建造 2 个垦殖园，并使其能够自动收集资源箱。</string>
     <string _locid="104611">运送半肥的奶牛，数目为您在这场游戏中已运送的船运数 2 倍。</string>
@@ -38178,7 +38189,7 @@
     <string _locid="104636">1 艘私掠船</string>
     <string _locid="104637">
     </string>
-    <string _locid="104638">运送 1 辆领事馆拉车，并持续提供稳定的出口商品。</string>
+    <string _locid="104638">运送 1 辆领事馆拉车和 100 单位的出口商品供您使用，并持续提供稳定的出口商品。</string>
     <string _locid="104639">茶叶出口</string>
     <string _locid="104640">火龙经</string>
     <string _locid="104641">运送 2 座神火飞鸦。小幅提升发射速率。</string>
@@ -38212,7 +38223,7 @@
     <string _locid="104666">卡片资源成本降低并运送额外的铁人。</string>
     <string _locid="104667">战斗咆哮 (蓄力)</string>
     <string _locid="104668">战斗咆哮</string>
-    <string _locid="104669">蓄力能力：以榴弹发射器射出爆炸物，在相当距离造成额外范围伤害。</string>
+    <string _locid="104669">蓄力能力：从榴弹发射器中发射爆炸物，攻击范围更大并能造成区域性伤害。</string>
     <string _locid="104800">队伍：1 名营地建筑工人</string>
     <string _locid="104801">队伍：贸易帝国</string>
     <string _locid="104802">您将获得一名交易站建筑工人，而且交易站会变得更便宜并且更牢固。</string>
@@ -38681,9 +38692,9 @@
     <string _locid="110246">北卡罗来纳州</string>
     <string _locid="110247">200 单位钱币的箱子</string>
     <string _locid="110248">罗得岛州</string>
-    <string _locid="110249">提前获得蒸汽力：\n • 可在任意时代将贸易路线免费升级为铁路。\n • 码头可以提前一个时代建造汽轮和装甲军舰 (在正常可建造的时代之前，装甲军舰的建造限制略微降低)。</string>
+    <string _locid="110249">提前获得蒸汽力：\n • 可在任意时代将贸易路线免费升级为铁路。\n • 码头可以提前一个时代建造汽轮和装甲军舰 (在正常可建造的时代之前，装甲军舰的建造数量上限略微降低)。</string>
     <string _locid="110250">皮衣牛仔</string>
-    <string _locid="110251">1 辆堡垒马车和建造限制</string>
+    <string _locid="110251">1 辆堡垒马车和建造数量上限</string>
     <string _locid="110252">得克萨斯州</string>
     <string _locid="110253">500 单位钱币的箱子</string>
     <string _locid="110254">加利福尼亚州</string>
@@ -38885,7 +38896,7 @@
     <string _locid="110448">维吉尼亚橡木</string>
     <string _locid="110449">探索时代和商业时代的市场科技可以免费研究。提高市场购买行情。</string>
     <string _locid="110450">汉密尔顿经济学</string>
-    <string _locid="110451">佣兵小栈提供人口空间，并且从探索时代开始就可以建造。佣兵小栈的建造限制增加。</string>
+    <string _locid="110451">佣兵小栈提供人口空间，并且从探索时代开始就可以建造。增加佣兵小栈的建造数量上限。</string>
     <string _locid="110452">高级佣兵小栈</string>
     <string _locid="110453">运送 400 单位木材。增加村民收集木材的速度。\n • 村民：树木和果园的收集工作速率 +10%</string>
     <string _locid="110454">华盛顿木材厂</string>
@@ -39062,14 +39073,14 @@
     <string _locid="110625">4 名狙击手</string>
     <string _locid="110626">600 单位木材的木材捆</string>
     <string _locid="110627">600 单位木材的木材捆</string>
-    <string _locid="110628">1 辆篷车并增加城镇中心建造限制</string>
+    <string _locid="110628">1 辆篷车并增加城镇中心建造数量上限</string>
     <string _locid="110629">1 座骑兵炮</string>
     <string _locid="110630">1 座骑兵炮</string>
     <string _locid="110631">1500 单位木材的木材捆</string>
     <string _locid="110632">1500 单位木材的木材捆</string>
     <string _locid="110633">雇佣兵和亡命之徒的生命值和攻击力稍微增加</string>
-    <string _locid="110634">1 辆堡垒马车和建造限制</string>
-    <string _locid="110635">1 辆堡垒马车和建造限制</string>
+    <string _locid="110634">1 辆堡垒马车和建造数量上限</string>
+    <string _locid="110635">1 辆堡垒马车和建造数量上限</string>
     <string _locid="110636">蓄力能力：使用卡宾枪在较远距离上进行精确射击。</string>
     <string _locid="110637">佐治亚骠骑兵</string>
     <string _locid="110638">将您的骠骑兵升级为老练等级并降低成本。</string>
@@ -39078,7 +39089,7 @@
     <string _locid="110640">抵达速度极快！使您的将军能够建造城镇中心并使用热气球能力。</string>
     <string _locid="110641">4 名卡宾枪骑兵</string>
     <string _locid="110642">5 名卡宾枪骑兵</string>
-    <string _locid="110643">密苏里州河远征军</string>
+    <string _locid="110643">密苏里河远征</string>
     <string _locid="110644">抵达速度极快！运送 1 辆篷车并使您的将军能够使用热气球能力。</string>
     <string _locid="110645">2 挺加特林机枪</string>
     <string _locid="110646">弹幕炮兵</string>
@@ -39575,7 +39586,7 @@
     <string _locid="112093">蓄力能力：发出一次能够眩晕远处敌方单位的战吼。</string>
     <string _locid="112094">莱纳佩聚落</string>
     <string _locid="112095">Socket 莱纳佩人</string>
-    <string _locid="112096">增加莱纳佩火枪兵的建造限制。</string>
+    <string _locid="112096">增加莱纳佩火枪兵的建造数量上限。</string>
     <string _locid="112097">莱纳佩仪式</string>
     <string _locid="112098">缩短战吼能力的冷却时间。</string>
     <string _locid="112099">莱纳佩氏族</string>
@@ -39772,7 +39783,7 @@
     <string _locid="112290">阿尤特拉计划</string>
     <string _locid="112291">将全部劫匪转变成墨西哥士兵。略微增加墨西哥士兵的攻击距离。</string>
     <string _locid="112292">图斯特佩克计划</string>
-    <string _locid="112293">抵达速度极快！运送 1 辆工厂马车。工厂科技和修复免费。工厂生命值提升。</string>
+    <string _locid="112293">抵达速度极快！运送 1 辆工厂马车。工厂科技和修复免费。提升工厂生命值。</string>
     <string _locid="112294">波菲里奥时期</string>
     <string _locid="112295">运送 14 名阿帕奇骑兵，他们能对村民造成更多伤害。</string>
     <string _locid="112296">阿帕奇叛军</string>
@@ -39809,15 +39820,15 @@
     <string _locid="112327">瓜纳华托州</string>
     <string _locid="112328">600 单位的钱币</string>
     <string _locid="112329">格雷罗州</string>
-    <string _locid="112330">1 辆堡垒马车和建造限制</string>
+    <string _locid="112330">1 辆堡垒马车和建造数量上限</string>
     <string _locid="112331">哈利斯科州</string>
-    <string _locid="112332">1 辆堡垒马车和建造限制</string>
+    <string _locid="112332">1 辆堡垒马车和建造数量上限</string>
     <string _locid="112333">墨西哥州</string>
-    <string _locid="112334">1 辆堡垒马车和建造限制</string>
+    <string _locid="112334">1 辆堡垒马车和建造数量上限</string>
     <string _locid="112335">韦拉克鲁斯州</string>
-    <string _locid="112336">1 辆堡垒马车和建造限制</string>
+    <string _locid="112336">1 辆堡垒马车和建造数量上限</string>
     <string _locid="112337">普埃布拉州</string>
-    <string _locid="112338">1 辆堡垒马车和建造限制</string>
+    <string _locid="112338">1 辆堡垒马车和建造数量上限</string>
     <string _locid="112339">瓦哈卡州</string>
     <string _locid="112340">运送 1 辆垦殖园马车。当有村民驻扎时，垦殖园获得远程攻击能力。</string>
     <string _locid="112341">强化垦殖园</string>
@@ -40153,7 +40164,7 @@
     <string _locid="112681">游击战术</string>
     <string _locid="112682">增加劫匪的攻击距离，且他们的攻击会使敌人暴露更长时间。</string>
     <string _locid="112683">观察者</string>
-    <string _locid="112684">为所有叛民装备火枪，并提高其训练速度。</string>
+    <string _locid="112684">为所有叛民装备火枪，并提升他们的训练速度。</string>
     <string _locid="112685">预备军</string>
     <string _locid="112686">增加叛民的攻击力和移动速度。</string>
     <string _locid="112687">砍刀</string>
@@ -40268,7 +40279,7 @@
     <string _locid="112818">玛雅人</string>
     <string _locid="112819">小圣克鲁斯</string>
     <string _locid="112820">加利福尼亚</string>
-    <string _locid="112821">拓荒者成为加利福尼亚西裔兵。\n\n奶牛的建造限制和工作速率大幅提高。\n\n重点：骑兵、牧场、重建经济。</string>
+    <string _locid="112821">拓荒者成为加利福尼亚西裔兵。\n\n奶牛的建造数量上限和工作速率大幅提高。\n\n重点：骑兵、牧场、重建经济。</string>
     <string _locid="112822">加利福尼亚人</string>
     <string _locid="112823">索诺玛</string>
     <string _locid="112824">得克萨斯</string>
@@ -40412,7 +40423,7 @@
     <string _locid="112962">洪都拉斯兵</string>
     <string _locid="112963">洪都拉斯兵</string>
     <string _locid="112964">REV 洪都拉斯兵</string>
-    <string _locid="112965">鼓舞之旗可以放置在任何地方，并使亡命之徒和交易站能力的蓄力速度大幅加快。</string>
+    <string _locid="112965">鼓舞之旗可以放置在任何地方，并大幅缩短亡命之徒和交易站能力的冷却时间。</string>
     <string _locid="112966">沃克之地</string>
     <string _locid="112967">暴兵</string>
     <string _locid="112968">REV 暴兵</string>

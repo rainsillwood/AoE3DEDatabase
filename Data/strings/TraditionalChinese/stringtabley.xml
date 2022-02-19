@@ -6712,7 +6712,7 @@
     <string _locid="36007">金礦</string>
     <string _locid="36008">金礦</string>
     <string _locid="36010">絲路</string>
-    <string _locid="36012">隊伍 所有木箱的容量從 100 單位增加到 130 單位。</string>
+    <string _locid="36012">所有木箱包含的資源量 +25%。貿易路線產生的資源 +25%。</string>
     <string _locid="36013">隊伍 讓錢幣箱容量增加到 120 單位。</string>
     <string _locid="36014">加強您鄂圖曼探險家的戰鬥力，加快他的移動速率，並給他一隻很強的狗。</string>
     <string _locid="36015">鄂圖曼將軍</string>
@@ -20202,7 +20202,7 @@
     <string _locid="49885">戰酋援助</string>
     <string _locid="49886">被動能力: 阿茲特克戰酋的被動能力能讓附近單位獲得雙倍經驗。</string>
     <string _locid="49887">被動能力: 拉科塔戰酋的被動能力能讓附近單位的移動速度 +10%。</string>
-    <string _locid="49888">被動能力: 印加戰酋的被動能力能讓附近原住民單位的生命值 +20%。</string>
+    <string _locid="49888">被動能力: 印加戰酋的被動能力可以讓附近的原住民戰士攻擊力和生命值 +10%。</string>
     <string _locid="49889">被動能力: 豪丹諾蘇尼戰酋的被動能力能讓附近單位的生命值 +10%。</string>
     <string _locid="49890">社群</string>
     <string _locid="49891">前往 https://www.facebook.com/ageofempires/</string>
@@ -20235,7 +20235,7 @@
     <string _locid="49918">設定檔圖示解除鎖定: 一個身著唐裝的火繩槍兵。</string>
     <string _locid="49919">使用中國人從軍事學院、城堡和家鄉城市船運中部署所有軍隊。 (共 13 支軍隊)</string>
     <string _locid="49920">作弊碼解除鎖定: 中國護衛石獅作弊碼</string>
-    <string _locid="49921">使用印度人並用溫順的老虎艾希爾特或寵物白虎華格納造成 2022 傷害。</string>
+    <string _locid="49921">使用印度人並用溫馴的老虎艾希爾特或寵物白虎華格納造成 2022 傷害。</string>
     <string _locid="49922">設定檔圖示解除鎖定: 水虎雕像，一份力量與勇氣的禮物。</string>
     <string _locid="49923">現在可以從模組瀏覽器中下載冬季仙境了!</string>
     <string _locid="49924">下載模組</string>
@@ -20293,7 +20293,19 @@
     <string _locid="49972">少林大師自訂項目: 黃堅都指揮</string>
     <string _locid="49973">神聖吐息</string>
     <string _locid="49974">珍珠加農砲彈</string>
-    <string _locid="49976">年春節活動</string>
+    <string _locid="49975">僧侶 (預設)\n這是僧侶的預設版本。</string>
+    <string _locid="49976">春節活動</string>
+    <string _locid="49977">選取經濟挑戰</string>
+    <string _locid="49978">選取即可開啟經濟挑戰並選取要為此遊戲階段設定的挑戰。</string>
+    <string _locid="49979">經濟挑戰</string>
+    <string _locid="49980">經濟挑戰可在所有文明之間共用，並且可以由任何文明在比賽中完成。</string>
+    <string _locid="49981">自動挑戰</string>
+    <string _locid="49982">這些挑戰會自動選擇以平衡遊戲。</string>
+    <string _locid="49983">其他挑戰</string>
+    <string _locid="49984">選取的玩家：{0}</string>
+    <string _locid="49985">玩家所選取的其他挑戰。</string>
+    <string _locid="49986">選取其他挑戰</string>
+    <string _locid="49987">已選取的挑戰：{0}/{1}</string>
     <string _locid="60001" symbol="cStringCivNameJapanese">日本人</string>
     <string _locid="60002" symbol="cStringCivNameChinese">中國人</string>
     <string _locid="60003" symbol="cStringCivNameIndians">印度人</string>
@@ -21819,9 +21831,9 @@
     <string _locid="61522">鐵帽王爺軍</string>
     <string _locid="61523">御林軍</string>
     <string _locid="61524">常勝軍</string>
-    <string _locid="61525">1 座猛火油櫃</string>
-    <string _locid="61526">2 座猛火油櫃</string>
-    <string _locid="61527">4 座猛火油櫃</string>
+    <string _locid="61525">1 座猛火油櫃，以及 1 輛城堡人力車</string>
+    <string _locid="61526">2 座猛火油櫃，以及 1 輛城堡人力車</string>
+    <string _locid="61527">4 座猛火油櫃，以及 1 輛城堡人力車</string>
     <string _locid="61528">7 座輕型迫擊砲</string>
     <string _locid="61529">11 座輕型迫擊砲</string>
     <string _locid="61530">2 個神火飛鴉</string>
@@ -24298,7 +24310,7 @@
     <string _locid="64152">葡萄牙盟友</string>
     <string _locid="64153">加成: 錢幣細流速率 +0.8\n\n訓練: 火槍兵、荷蘭槍騎兵、迫擊砲\n\n船運: 經濟建築物</string>
     <string _locid="64154">荷蘭盟友</string>
-    <string _locid="64155">加成: 拓荒者訓練時間 -10%\n\n訓練: 哥薩克騎兵、長重砲、槍騎兵\n\n船運: 防禦型建築物</string>
+    <string _locid="64155">加成: 拓荒者訓練時間和成本 -10%\n\n訓練: 哥薩克騎兵、長重砲、槍騎兵\n\n船運: 防禦型建築物</string>
     <string _locid="64156">俄羅斯盟友</string>
     <string _locid="64157">加成: 經驗值細流速率 +0.8\n\n訓練: 長矛兵、蘭朵武士、鷹砲\n\n船運: 船運效果提高</string>
     <string _locid="64158">西班牙盟友</string>
@@ -24993,7 +25005,7 @@
     <string _locid="64852">日本旗幟</string>
     <string _locid="64853">PROP YP 日本旗幟</string>
     <string _locid="64854">天壇建造完成後會運送村民，並可使用「卓越」能力快速治癒玩家所有的單位，同時能讓少林大師治癒友軍單位。</string>
-    <string _locid="64855">天壇建造完成後會運送村民，並可使用「卓越」能力快速治癒玩家所有的單位，同時能讓少林大師治癒友軍單位。\n----------\n建造完成後可獲得的船運:\nII: 運送 3 位村民\nIII: 運送 6 位村民\nIV: 運送 10 位村民\nV: 運送 20 位村民</string>
+    <string _locid="64855">天壇建造完成後會運送村民，並可使用「卓越」能力快速治癒玩家所有的單位，同時能讓少林大師治癒友軍單位。\n----------\n建造完成後可獲得的船運:\nII: 運送 3 位村民\nIII: 運送 1 輛市鎮中心人力車\nIV: 運送 3 輛稻田人力車\nV: 獲得 1200 單位的出口商品</string>
     <string _locid="64856">天壇</string>
     <string _locid="64857">WON 天壇</string>
     <string _locid="64858">帳篷。</string>
@@ -25001,15 +25013,15 @@
     <string _locid="64860">作戰帳篷</string>
     <string _locid="64861">PROP 作戰帳篷</string>
     <string _locid="64862">天壇建造完成後會運送村民，並可使用「卓越」能力快速治癒玩家所有的單位，同時能讓少林大師治癒友軍單位。</string>
-    <string _locid="64863">天壇建造完成後會運送村民，並可使用「卓越」能力快速治癒玩家所有的單位，同時能讓少林大師治癒友軍單位。\n----------\n建造完成後可獲得的船運:\nII: 運送 3 位村民\nIII: 運送 6 位村民\nIV: 運送 10 位村民\nV: 運送 20 位村民</string>
+    <string _locid="64863">天壇建造完成後會運送村民，並可使用「卓越」能力快速治癒玩家所有的單位，同時能讓少林大師治癒友軍單位。\n----------\n建造完成後可獲得的船運:\nII: 運送 3 位村民\nIII: 運送 1 輛市鎮中心人力車\nIV: 運送 3 輛稻田人力車\nV: 獲得 1200 單位的出口商品</string>
     <string _locid="64864">天壇</string>
     <string _locid="64865">WON 天壇</string>
     <string _locid="64866">天壇建造完成後會運送村民，並可使用「卓越」能力快速治癒玩家所有的單位，同時能讓少林大師治癒友軍單位。</string>
-    <string _locid="64867">天壇建造完成後會運送村民，並可使用「卓越」能力快速治癒玩家所有的單位，同時能讓少林大師治癒友軍單位。\n----------\n建造完成後可獲得的船運:\nII: 運送 3 位村民\nIII: 運送 6 位村民\nIV: 運送 10 位村民\nV: 運送 20 位村民</string>
+    <string _locid="64867">天壇建造完成後會運送村民，並可使用「卓越」能力快速治癒玩家所有的單位，同時能讓少林大師治癒友軍單位。\n----------\n建造完成後可獲得的船運:\nII: 運送 3 位村民\nIII: 運送 1 輛市鎮中心人力車\nIV: 運送 3 輛稻田人力車\nV: 獲得 1200 單位的出口商品</string>
     <string _locid="64868">天壇</string>
     <string _locid="64869">WON 天壇</string>
     <string _locid="64870">天壇建造完成後會運送村民，並可使用「卓越」能力快速治癒玩家所有的單位，同時能讓少林大師治癒友軍單位。</string>
-    <string _locid="64871">天壇建造完成後會運送村民，並可使用「卓越」能力快速治癒玩家所有的單位，同時能讓少林大師治癒友軍單位。\n----------\n建造完成後可獲得的船運:\nII: 運送 3 位村民\nIII: 運送 6 位村民\nIV: 運送 10 位村民\nV: 運送 20 位村民</string>
+    <string _locid="64871">天壇建造完成後會運送村民，並可使用「卓越」能力快速治癒玩家所有的單位，同時能讓少林大師治癒友軍單位。\n----------\n建造完成後可獲得的船運:\nII: 運送 3 位村民\nIII: 運送 1 輛市鎮中心人力車\nIV: 運送 3 輛稻田人力車\nV: 獲得 1200 單位的出口商品</string>
     <string _locid="64872">天壇</string>
     <string _locid="64873">WON 天壇</string>
     <string _locid="64874">爆炸</string>
@@ -32550,6 +32562,7 @@
     <string _locid="79959" symbol="cStringFriendly">友好</string>
     <string _locid="79960">大型地圖</string>
     <string _locid="79961">載入所選地圖的放大版。</string>
+    <string _locid="79962">15 隻羊、1 輛農場馬車，以及 3 名德國騎兵</string>
     <string _locid="80000" symbol="cStringCultureInca">印加人</string>
     <string _locid="80001" symbol="cStringCivNameInca">印加人</string>
     <string _locid="80002" symbol="cStringCivRolloverInca">&lt;color=1.0, 1.0, 0.0&gt;文明優勢:&lt;/color&gt;\n干查屋可以生產食物。可透過探索時代船運並隨時代提升免費獲得一位海螺信使。海螺信使可以建造印加驛站 (強大的交易站，可接收船運並供平民駐守其中)。軍事單位可以駐守在印加長屋和大本營中。女祭司可以招降敵人，而她們會在社區廣場中工作。\n&lt;color=1.0, 1.0, 0.0&gt;特殊單位:&lt;/color&gt;\n海螺信使、羽飾長槍兵、奇穆游擊兵、叢林弓兵、擲石繩戰士、投石索兵、槌兵、女祭司和欽查木筏\n&lt;color=1.0, 1.0, 0.0&gt;特殊建築物: &lt;/color&gt;\n印加長屋、大本營、干查屋和印加驛站\n&lt;color=1.0, 1.0, 0.0&gt;特殊儀式:&lt;/color&gt;\n月之儀式和死神儀式\n\n一個龐大的南美帝國，因堅固的城牆和精明的管理能力而舉世聞名。</string>
@@ -32688,8 +32701,8 @@
     <string _locid="80135">治療受傷的單位並轉變敵方單位。</string>
     <string _locid="80136">干查屋</string>
     <string _locid="80137">干查屋</string>
-    <string _locid="80138">支援人口數為 16 並可生產食物。</string>
-    <string _locid="80139">支援人口數為 16 並可生產食物的印加房舍。</string>
+    <string _locid="80138">支援人口數為 15 並可生產食物。</string>
+    <string _locid="80139">支援人口數為 15 並可生產食物的印加房舍。</string>
     <string _locid="80140">印加長屋</string>
     <string _locid="80141">印加長屋</string>
     <string _locid="80142">精銳步兵建築物</string>
@@ -32922,7 +32935,7 @@
     <string _locid="80549">遠程步兵生命值</string>
     <string _locid="80550">增加投石索兵、擲石繩戰士與叢林弓兵的生命值。</string>
     <string _locid="80551">奇普槍隊長</string>
-    <string _locid="80552">大幅增加海螺信使的視野及速度。印加驛站能提升鄰近單位的生命值。</string>
+    <string _locid="80552">大幅增加海螺信使的視野和速度並使其可以撿起寶藏。印加驛站能增加附近單位的生命值。</string>
     <string _locid="80553">「奇普槍隊長」船運已經抵達了。</string>
     <string _locid="80554">制高點</string>
     <string _locid="80555">印加建築物的制高點能帶來更寬廣的視野與攻擊範圍。</string>
@@ -34042,7 +34055,7 @@
     <string _locid="84208" referencedplayerid="1" gamecharacter="葉爾馬克" soundfilename="ZYERM0000" portraitfilename="resources\art\units\spc\yermak_timofeyevich\yermak_timofeyevich_portrait.png">到處都是韃靼人! 別在這裡下船，我們得繼續航行!</string>
     <string _locid="84209" referencedplayerid="1" gamecharacter="葉爾馬克" soundfilename="ZYERM0005" portraitfilename="resources\art\units\spc\yermak_timofeyevich\yermak_timofeyevich_portrait.png">如果不快速移動的話，島上的瞭望台就會把我們打成蜂窩。停火全力衝過瞭望台吧!</string>
     <string _locid="84210" referencedplayerid="1" gamecharacter="葉爾馬克" soundfilename="ZYERM0010" portraitfilename="resources\art\units\spc\yermak_timofeyevich\yermak_timofeyevich_portrait.png">我們沒辦法繼續走水路了! 崎嶇的岩石擋住了河流! 我們必須在這裡下船，然後繼續步行!</string>
-    <string _locid="84211" referencedplayerid="3" gamecharacter="拓荒者" soundfilename="ZGENR0025" portraitfilename="resources\art\units\villagers\villager_portrait.png">韃靼人放火燒毀了我們的家園，把我們趕了出來! 葉爾馬克，我們會幫你建立營地，只求你為我們死去的兄弟姊妹復仇!</string>
+    <string _locid="84211" referencedplayerid="3" gamecharacter="拓荒者" soundfilename="ZGENR0025" portraitfilename="resources\art\units\villagers\villager_portrait_male.png">韃靼人放火燒毀了我們的家園，把我們趕了出來! 葉爾馬克，我們會幫你建立營地，只求你為我們死去的兄弟姊妹復仇!</string>
     <string _locid="84212" referencedplayerid="1" gamecharacter="葉爾馬克" soundfilename="ZYERM0015" portraitfilename="resources\art\units\spc\yermak_timofeyevich\yermak_timofeyevich_portrait.png">韃靼人突襲了俄羅斯村落，如果你的人馬想要溫暖的柴火與填飽肚子的熱食，那就過來燒毀韃靼人的營地與他們那可恨的要塞!</string>
     <string _locid="84213" referencedplayerid="1" gamecharacter="葉爾馬克" soundfilename="ZYERM0020" portraitfilename="resources\art\units\spc\yermak_timofeyevich\yermak_timofeyevich_portrait.png">啊! 該死! 我們動作不夠快，韃靼人燒毀村落了。如果你想吃熱食，我看只能去韃靼人的營地找了。哥薩克騎兵們，出發! 為晚餐而戰!</string>
     <string _locid="84214" referencedplayerid="1" gamecharacter="葉爾馬克" soundfilename="ZYERM0025" portraitfilename="resources\art\units\spc\yermak_timofeyevich\yermak_timofeyevich_portrait.png">我本來還擔心你們是一群哭著要找祖母的軟弱農場男孩，但你們確實是強壯的俄羅斯人! 韃靼人的營地成了一片廢墟了!</string>
@@ -38102,7 +38115,7 @@
     <string _locid="104564">5 位槌兵</string>
     <string _locid="104565">8 位投石索兵</string>
     <string _locid="104566">6 位投石索兵</string>
-    <string _locid="104567">10 位擲石繩戰士</string>
+    <string _locid="104567">8 位擲石繩戰士</string>
     <string _locid="104568">每當您失去 2 名豹遊蕩武士，即運送 1 名豹遊蕩武士 (最多運送 16 名)。</string>
     <string _locid="104569">儀式角鬥士</string>
     <string _locid="104570">每失去 2 位骷髏武士即運送 1 位 (最多 13 位)。</string>
@@ -38175,7 +38188,7 @@
     <string _locid="104635">增加騎兵生命值。並可以在商業時代招募槍騎兵。</string>
     <string _locid="104636">1 艘私掠船</string>
     <string _locid="104637">領事館人力車</string>
-    <string _locid="104638">運送 1 輛領事館人力車，並持續提供穩定的出口商品。</string>
+    <string _locid="104638">運送 1 輛領事館人力車和 100 單位的出口商品供您使用，並永久提供穩定的出口商品。</string>
     <string _locid="104639">茶葉出口</string>
     <string _locid="104640">火龍經</string>
     <string _locid="104641">運送 2 座神火飛鴉。稍微提升發射速率。</string>
@@ -38204,6 +38217,9 @@
     <string _locid="104664">船運: 1200 單位的出口商品\n \n能力: 卓越 - 治療所有單位。僧侶現在可以治療單位了。</string>
     <string _locid="104665">運送一批鐵軍，並降低紙牌資源成本。</string>
     <string _locid="104666">紙牌資源成本降低並運送額外的鐵軍。</string>
+    <string _locid="104667">戰鬥咆哮 (蓄力)</string>
+    <string _locid="104668">戰鬥咆哮</string>
+    <string _locid="104669">蓄力能力: 從榴彈發射器中發射炸藥，攻擊範圍更大並能造成區域性傷害。</string>
     <string _locid="104800">隊伍 1 位營地建築工人</string>
     <string _locid="104801">隊伍 貿易帝國</string>
     <string _locid="104802">獲得一位交易站建築工人，而且交易站變得更便宜、更強大。</string>
@@ -38876,7 +38892,7 @@
     <string _locid="110448">維吉尼亞橡木</string>
     <string _locid="110449">探索時代和商業時代的市場科技可以免費研究。提高市場購買行情。</string>
     <string _locid="110450">漢彌頓經濟計畫</string>
-    <string _locid="110451">傭兵小棧現在能容納單位，並且從探索時代開始就可以建造。傭兵小棧的建造限制增加，而且軍事馬車也可以建造傭兵小棧。</string>
+    <string _locid="110451">傭兵小棧現在能容納單位，並且從探索時代開始就可以建造。增加傭兵小棧的建造限制。</string>
     <string _locid="110452">高等傭兵小棧</string>
     <string _locid="110453">運送 400 單位的木材。增加村民收集木材的速度。\n • 村民: 樹木和果園的收集工作速率 +10%</string>
     <string _locid="110454">華盛頓木材廠</string>
@@ -39763,7 +39779,7 @@
     <string _locid="112290">阿尤特拉計畫</string>
     <string _locid="112291">所有匪徒轉變成墨西哥士兵，小幅增加墨西哥士兵的射程。</string>
     <string _locid="112292">土斯特佩克計畫</string>
-    <string _locid="112293">抵達速度極快! 運送 1 輛工廠馬車。工廠科技和修理免費。提升工廠的生命值。</string>
+    <string _locid="112293">抵達速度極快! 運送 1 輛工廠馬車。工廠科技和修理免費。提升工廠生命值。</string>
     <string _locid="112294">波費里奧</string>
     <string _locid="112295">運送 14 位可對村民造成更多傷害的阿帕契騎兵。</string>
     <string _locid="112296">阿帕契叛軍</string>
@@ -39827,9 +39843,9 @@
     <string _locid="112354">特拉斯卡拉同盟</string>
     <string _locid="112355">運送 2 位拓荒者。每座新的和現有的大莊園生產 2 位拓荒者。</string>
     <string _locid="112356">特拉斯卡拉紡織品</string>
-    <string _locid="112357">每建造 1 個大莊園，就運送 4 位馬雅標槍兵。</string>
+    <string _locid="112357">每當您建造 1 個大莊園，即會運送 3 位馬雅標槍兵。</string>
     <string _locid="112358">索西族暴動</string>
-    <string _locid="112359">所有現有且新建造的大莊園可產生含有 350 單位食物的馬雅作物。</string>
+    <string _locid="112359">所有現有和新建的大莊園均產生含有 300 單位食物的馬雅作物。</string>
     <string _locid="112360">馬雅作物</string>
     <string _locid="112361">抵達速度極快! 您的下一個聯邦州會給予兩倍獎勵。下一次軍營升級免費。</string>
     <string _locid="112362">阿爾塔加改革</string>
@@ -40144,7 +40160,7 @@
     <string _locid="112681">游擊戰術</string>
     <string _locid="112682">增加匪徒的射程，且敵人被擊中時暴露位置的時間更長。</string>
     <string _locid="112683">觀察者</string>
-    <string _locid="112684">為所有起義軍裝備火槍。</string>
+    <string _locid="112684">為所有起義軍裝備火槍，並提升他們的訓練速度。</string>
     <string _locid="112685">後備軍人</string>
     <string _locid="112686">增加起義軍的攻擊力及移動速度。</string>
     <string _locid="112687">大砍刀</string>
@@ -40188,11 +40204,11 @@
     <string _locid="112725">大型動物狩獵 (蓄力)</string>
     <string _locid="112726">炸藥爆破 (蓄力)</string>
     <string _locid="112727">槍林彈雨</string>
-    <string _locid="112728">蓄力行動: 短時間快速雙槍齊發。</string>
+    <string _locid="112728">蓄力能力: 短時間快速雙槍齊發。</string>
     <string _locid="112729">大型動物狩獵</string>
-    <string _locid="112730">蓄力行動: 使用套索絆住敵人，拖慢其移動速度。</string>
+    <string _locid="112730">蓄力能力: 使用套索絆住敵人，拖慢其移動速度。</string>
     <string _locid="112731">炸藥爆破</string>
-    <string _locid="112732">蓄力行動: 投擲炸藥，造成大量區域性傷害。</string>
+    <string _locid="112732">蓄力能力: 投擲炸藥，造成大量區域性傷害。</string>
     <string _locid="112733">傭兵小棧持槍殺手</string>
     <string _locid="112734">傭兵小棧牛仔</string>
     <string _locid="112735">傭兵小棧逃犯</string>
@@ -40317,7 +40333,7 @@
     <string _locid="112876">補給</string>
     <string _locid="112877">再次將所有拓荒者轉變成革命軍。允許您擁有的多數已運送單位紙牌再次運送。</string>
     <string _locid="112878">蒙特瑞計畫</string>
-    <string _locid="112879">您在這場遊戲中每失去 3 位革命軍即運送 1 位拓荒者 (最多 80 位)。</string>
+    <string _locid="112879">每當您在這場遊戲中失去 3 名革命軍，即會運送 1 位拓荒者 (最多 85 位)。</string>
     <string _locid="112880">榭拉馬德雷共和國</string>
     <string _locid="112881">給予游擊叛兵「薩帕塔戰略」能力，可在移動速度不受影響的情況下隱匿行動。</string>
     <string _locid="112882">薩帕塔戰略</string>
@@ -40347,7 +40363,7 @@
     <string _locid="112906">馬雅陶器</string>
     <string _locid="112907">所有交易站會持續產生經驗值。</string>
     <string _locid="112908">天然井</string>
-    <string _locid="112909">運送 4 座火箭砲和 12 位紅衣軍。</string>
+    <string _locid="112909">運送 4 座火箭砲和 12 位紅衫軍。大幅提升輕型加農砲的生命值。</string>
     <string _locid="112910">英國軍火貿易</string>
     <string _locid="112911">所有現有且新建造的大莊園和市鎮中心可產生 3 位原住民村民。</string>
     <string _locid="112912">傳統長袍</string>
@@ -40403,7 +40419,7 @@
     <string _locid="112962">宏都拉斯兵</string>
     <string _locid="112963">宏都拉斯兵</string>
     <string _locid="112964">REV 宏都拉斯兵</string>
-    <string _locid="112965">鼓舞之旗可以豎立在任何地點，並可使蓄力能力冷卻速度大幅加快。</string>
+    <string _locid="112965">鼓舞之旗可以豎立在任何地點，並大幅縮短亡命之徒和交易站能力的冷卻時間。</string>
     <string _locid="112966">沃克之地</string>
     <string _locid="112967">軍事冒險家</string>
     <string _locid="112968">REV 軍事冒險家</string>
@@ -40507,7 +40523,7 @@
     <string _locid="113066">拜七宅</string>
     <string _locid="113067">您在這場遊戲中每失去 1 個單位時，經驗值 +5。</string>
     <string _locid="113068">亡靈節</string>
-    <string _locid="113069">您的將軍現在也能提高士氣，就像鼓舞之旗一樣。將軍也可以接收來自家鄉城市的船運，並且可以訓練墨西哥士兵。\n • 鼓舞光環: 不會與鼓舞之旗疊加效果</string>
+    <string _locid="113069">您的將軍現在也能提高士氣，就像鼓舞之旗一樣。他也可以接收來自家鄉城市的船運，並緩慢訓練墨西哥士兵。\n • 鼓舞光環: 不會與鼓舞之旗疊加效果</string>
     <string _locid="113070">天命之人</string>
     <string _locid="113071">運送 1 輛堡壘馬車到殖民地。堡壘視野增加，且可對英雄造成額外傷害。</string>
     <string _locid="113072">查普爾提佩克城堡</string>
@@ -40542,7 +40558,7 @@
     <string _locid="113101">工業建築工人</string>
     <string _locid="113102">16 位西裔猶加敦起義軍</string>
     <string _locid="113103">老三百</string>
-    <string _locid="113104">根據您建造的建築數量 (最多 80 座)，每座建築運送 1 位市民。可在市鎮中心訓練市民。</string>
+    <string _locid="113104">每當您建造 1 座建築物，即會運送 1 位市民 (最多 85 位)。可在市鎮中心招募市民。</string>
     <string _locid="113105">加利福尼亞牧場經營</string>
     <string _locid="113106">套索</string>
     <string _locid="113107">產生牲畜盜賊</string>
@@ -40597,7 +40613,7 @@
     <string _locid="113156">七律</string>
     <string _locid="113157">每次您的將軍或隨軍神父遭擊暈，會產生 1 位民兵。</string>
     <string _locid="113158">所有 7 個特殊墨西哥單位和建築物建造完成時會獲得更多經驗值。</string>
-    <string _locid="113159">所有 7 個特殊墨西哥單位和建築物建造完成時會獲得大量經驗值 (至少得擁有一個才會生效)。</string>
+    <string _locid="113159">所有 7 個特殊墨西哥單位和建築物在生產完成後會提供 50% 額外經驗值 (僅當您在這場遊戲中各生產了至少 1 個單位和建築物時生效)。</string>
     <string _locid="113160">所有墨西哥單位可取得更多殺戮經驗值。</string>
     <string _locid="113161">所有墨西哥單位可取得更多建造和殺戮經驗值。</string>
     <string _locid="113162">單位可取得更多建造和殺戮經驗值。</string>
@@ -40628,6 +40644,7 @@
     <string _locid="113187" symbol="cStringDetailHelpMercs">可用傭兵和亡命之徒:\n</string>
     <string _locid="113188">尋找原住民部落交易站</string>
     <string _locid="113189">尋找貿易路線上的交易站</string>
+    <string _locid="113190">沃克的賭局</string>
     <string _locid="200000">瑞典旗幟</string>
     <string _locid="200001">在此建築物上顯示瑞典旗幟。</string>
     <string _locid="200002">新世界貿易中心 (綠色)</string>

@@ -1047,7 +1047,7 @@
     <string _locid="21249">Ver a posição do jogador selecionado.</string>
     <string _locid="21250" symbol="cStringESOPlayerGames">Jogos do jog.</string>
     <string _locid="21251">Ver os jogos do jogador selecionado.</string>
-    <string _locid="21252" symbol="cStringESOGameSumarry">Resumo do jogo</string>
+    <string _locid="21252" symbol="cStringESOGameSumarry">Resumo</string>
     <string _locid="21253">Ver o resumo do jogo do jogador selecionado.</string>
     <string _locid="21254">Numérico</string>
     <string _locid="21255">Nome do jogador</string>
@@ -1360,7 +1360,7 @@
     <string _locid="22482">Fade In:</string>
     <string _locid="22483">Invocar poder divino</string>
     <string _locid="22484">Counter:Add Timer</string>
-    <string _locid="22485" symbol="cStringStartLit">Início</string>
+    <string _locid="22485" symbol="cStringStartLit">Iniciar</string>
     <string _locid="22486">Counter:Add Unit</string>
     <string _locid="22487">Total</string>
     <string _locid="22488">Interrupção do contador</string>
@@ -6711,7 +6711,7 @@
     <string _locid="36007">Mina de ouro</string>
     <string _locid="36008">Ouro da mina</string>
     <string _locid="36010">EQ: Rota da seda</string>
-    <string _locid="36012">EQ: Todos os caixotes contêm 130 recursos em vez de 100.</string>
+    <string _locid="36012">Todos os Caixotes contêm +25% de recursos. As rotas comerciais produzem +25% de recursos.</string>
     <string _locid="36013">EQ: Baús de moedas aumentarão para 120 recursos.</string>
     <string _locid="36014">Melhora seu explorador otomano em combate, aumenta a velocidade de seus movimentos e concede-lhe um poderoso companheiro canino.</string>
     <string _locid="36015">Agha</string>
@@ -20201,7 +20201,7 @@
     <string _locid="49885">Apoio do Chefe de Guerra</string>
     <string _locid="49886">Habilidade passiva: a habilidade passiva do Chefe de Guerra asteca permite que unidades próximas ganhem o dobro de experiência.</string>
     <string _locid="49887">Habilidade passiva: a habilidade passiva do Chefe de Guerra lakota permite que unidades próximas ganhem +10% de velocidade de movimento.</string>
-    <string _locid="49888">Habilidade passiva: a habilidade passiva do Chefe de Guerra inca permite que nativas unidades próximas ganhem +20% de pontos de vida.</string>
+    <string _locid="49888">Habilidade Passiva: a habilidade passiva do Chefe de Guerra dos Inca permite que guerreiros nativos próximos ganhem +10% de ataque e pontos de vida.</string>
     <string _locid="49889">Habilidade passiva: a habilidade passiva do Chefe de Guerra iroquês permite que unidades próximas ganhem +10% de pontos de vida.</string>
     <string _locid="49890">Comunidade</string>
     <string _locid="49891">Acesse https://www.facebook.com/ageofempires/</string>
@@ -20233,7 +20233,7 @@
     <string _locid="49917">Atordoe um total de 50 guardiões do tesouro com qualquer um dos exploradores das Dinastias Asiáticas.</string>
     <string _locid="49918">Desbloqueio de ícone de perfil — Um arcabuzeiro em vestes tradicionais chinesas.</string>
     <string _locid="49919">Posicione todos os exércitos das provisões da Academia de Guerra, do Castelo e da Metrópole como os chineses. (13 exércitos no total)</string>
-    <string _locid="49920">Desbloqueio de trapaça — Trapaça do Leão Guardião Chinês</string>
+    <string _locid="49920">Desbloqueio de trapaça - Trapaça do Leão Guardião Chinês</string>
     <string _locid="49921">Cause 2.022 de dano com Axehilt, o Tigre Manso, ou com Wagner, o Tigre Branco de Estimação, como os indianos.</string>
     <string _locid="49922">Desbloqueio de ícone de perfil — Uma estátua do tigre de água, o dom da força e da coragem.</string>
     <string _locid="49923">O Paraíso de Inverno já está disponível no navegador de mods!</string>
@@ -20292,7 +20292,19 @@
     <string _locid="49972">Personalização de Mestre Shaolin — Capitão Huang</string>
     <string _locid="49973">Respiração Sagrada</string>
     <string _locid="49974">Bala de Canhão de Pérola</string>
+    <string _locid="49975">Monge (Padrão)\nEsta é a versão padrão do Monge.</string>
     <string _locid="49976">Evento de Ano Novo Lunar</string>
+    <string _locid="49977">Selecione Desafios Econômicos</string>
+    <string _locid="49978">Selecione para abrir os desafios Econômicos e escolha quais desafios inserir nesta sessão de jogo.</string>
+    <string _locid="49979">Desafios Econômicos</string>
+    <string _locid="49980">Os desafios Econômicos são compartilhados entre todas as civilizações e podem ser concluídos por qualquer civilização durante a partida.</string>
+    <string _locid="49981">Desafios Automáticos</string>
+    <string _locid="49982">Esses desafios são automaticamente escolhidos para equilibrar o jogo.</string>
+    <string _locid="49983">Desafios Adicionais</string>
+    <string _locid="49984">Selecionado por: {0}</string>
+    <string _locid="49985">Desafios adicionais selecionados pelo jogador.</string>
+    <string _locid="49986">Selecione Desafios Adicionais</string>
+    <string _locid="49987">Desafios selecionados: {0}/{1}</string>
     <string _locid="60001" symbol="cStringCivNameJapanese">Japonês</string>
     <string _locid="60002" symbol="cStringCivNameChinese">Chineses</string>
     <string _locid="60003" symbol="cStringCivNameIndians">Indianos</string>
@@ -20517,7 +20529,7 @@
     <string _locid="60222">Suporta 10 populações.</string>
     <string _locid="60223">Santuário</string>
     <string _locid="60224">Santuário Japonês</string>
-    <string _locid="60225">Dá suporte a {unitPopCapAddition(ypVillage)} populações / edifícios de curral</string>
+    <string _locid="60225">Suporta {unitPopCapAddition(ypVillage)} população / construção de gado</string>
     <string _locid="60226">Dá suporte a 20 populações, que podem ser aumentadas aqui com melhorias. Também engorda o gado mais rapidamente e treina Bodes.</string>
     <string _locid="60227">Aldeia</string>
     <string _locid="60228">Aldeia</string>
@@ -21818,9 +21830,9 @@
     <string _locid="61522">Exérc.Príncipes Iron Cap</string>
     <string _locid="61523">Exército do Imperador</string>
     <string _locid="61524">Exército Sempre Vitorioso</string>
-    <string _locid="61525">1 Lança-Chamas</string>
-    <string _locid="61526">2 Lança-Chamas</string>
-    <string _locid="61527">4 Lança-Chamas</string>
+    <string _locid="61525">1 Lança-chamas + 1 Riquixá de Castelo</string>
+    <string _locid="61526">2 Lança-chamas + 1 Riquixá de Castelo</string>
+    <string _locid="61527">4 Lança-chamas + 1 Riquixá de Castelo</string>
     <string _locid="61528">7 Morteiros de Mão</string>
     <string _locid="61529">11 Morteiros de Mão</string>
     <string _locid="61530">2 Corvos</string>
@@ -24297,7 +24309,7 @@
     <string _locid="64152">Aliados portugueses</string>
     <string _locid="64153">Bônus: +0,8 de fluxo de moedas\n\nTreina: mosqueteiros, ruyters, morteiros.\n\nProvisões: edificações econômicas</string>
     <string _locid="64154">Aliados holandeses</string>
-    <string _locid="64155">Bônus: -10% de tempo de treinamento de colonizadores\n\nTreina: cossacos, colubrinas, dragões\n\nProvisões: edificações defensivas</string>
+    <string _locid="64155">Bônus: -10% de tempo de treinamento e custo de colonizadores\n\nTreina: cossacos, colubrinas, dragões\n\nProvisões: edificações defensivas</string>
     <string _locid="64156">Aliados russos</string>
     <string _locid="64157">Bônus: +0,8 de fluxo de experiência\n\nTreina: piqueiros, rodeleiros, falconetes\n\nProvisões: melhorias de provisão</string>
     <string _locid="64158">Aliados espanhóis</string>
@@ -24992,7 +25004,7 @@
     <string _locid="64852">Estandarte Japonês</string>
     <string _locid="64853">PROP YP Estandarte Japonês</string>
     <string _locid="64854">O Templo do Céu envia Aldeões quando construído e permite o uso da Transcendência para curar rapidamente todas as unidades do jogador, bem como permitir que o Mestre Shaolin cure unidades aliadas.</string>
-    <string _locid="64855">O Templo do Céu envia Aldeões quando construído e permite o uso da Transcendência para curar rapidamente todas as unidades do jogador, bem como permitir que o Mestre Shaolin cure unidades aliadas.\n----------\nProvisões concedidas quando construído:\nII: Envia 3 Aldeões\nIII: Envia 6 Aldeões\nIV: Envia 10 Aldeões\nV: Envia 20 Aldeões</string>
+    <string _locid="64855">O Templo do Céu envia Aldeões quando construído e permite o uso da Transcendência para curar rapidamente todas as unidades do jogador, bem como permitir que o Mestre Shaolin cure unidades aliadas.\n----------\nProvisões concedidas quando construído:\nII: Envia 3 Aldeões\nIII: Envia 1 Riquixá de Centro Urbano\nIV: Envia 3 Riquixás de Arrozal\nV: Recebe 1.200 Exportações</string>
     <string _locid="64856">Templo do Céu</string>
     <string _locid="64857">WON Templo do Céu</string>
     <string _locid="64858">Uma tenda.</string>
@@ -25000,15 +25012,15 @@
     <string _locid="64860">Tenda de Guerra</string>
     <string _locid="64861">PROP YP Tenda de Guerra</string>
     <string _locid="64862">O Templo do Céu envia Aldeões quando construído e permite o uso da Transcendência para curar rapidamente todas as unidades do jogador, bem como permitir que o Mestre Shaolin cure unidades aliadas.</string>
-    <string _locid="64863">O Templo do Céu envia Aldeões quando construído e permite o uso da Transcendência para curar rapidamente todas as unidades do jogador, bem como permitir que o Mestre Shaolin cure unidades aliadas.\n----------\nProvisões concedidas quando construído:\nII: Envia 3 Aldeões\nIII: Envia 6 Aldeões\nIV: Envia 10 Aldeões\nV: Envia 20 Aldeões</string>
+    <string _locid="64863">O Templo do Céu envia Aldeões quando construído e permite o uso da Transcendência para curar rapidamente todas as unidades do jogador, bem como permitir que o Mestre Shaolin cure unidades aliadas.\n----------\nProvisões concedidas quando construído:\nII: Envia 3 Aldeões\nIII: Envia 1 Riquixá de Centro Urbano\nIV: Envia 3 Riquixás de Arrozal\nV: Recebe 1.200 Exportações</string>
     <string _locid="64864">Templo do Céu</string>
     <string _locid="64865">WON Templo do Céu</string>
     <string _locid="64866">O Templo do Céu envia Aldeões quando construído e permite o uso da Transcendência para curar rapidamente todas as unidades do jogador, bem como permitir que o Mestre Shaolin cure unidades aliadas.</string>
-    <string _locid="64867">O Templo do Céu envia Aldeões quando construído e permite o uso da Transcendência para curar rapidamente todas as unidades do jogador, bem como permitir que o Mestre Shaolin cure unidades aliadas.\n----------\nProvisões concedidas quando construído:\nII: Envia 3 Aldeões\nIII: Envia 6 Aldeões\nIV: Envia 10 Aldeões\nV: Envia 20 Aldeões</string>
+    <string _locid="64867">O Templo do Céu envia Aldeões quando construído e permite o uso da Transcendência para curar rapidamente todas as unidades do jogador, bem como permitir que o Mestre Shaolin cure unidades aliadas.\n----------\nProvisões concedidas quando construído:\nII: Envia 3 Aldeões\nIII: Envia 1 Riquixá de Centro Urbano\nIV: Envia 3 Riquixás de Arrozal\nV: Recebe 1.200 Exportações</string>
     <string _locid="64868">Templo do Céu</string>
     <string _locid="64869">WON Templo do Céu</string>
     <string _locid="64870">O Templo do Céu envia Aldeões quando construído e permite o uso da Transcendência para curar rapidamente todas as unidades do jogador, bem como permitir que o Mestre Shaolin cure unidades aliadas.</string>
-    <string _locid="64871">O Templo do Céu envia Aldeões quando construído e permite o uso da Transcendência para curar rapidamente todas as unidades do jogador, bem como permitir que o Mestre Shaolin cure unidades aliadas.\n----------\nProvisões concedidas quando construído:\nII: Envia 3 Aldeões\nIII: Envia 6 Aldeões\nIV: Envia 10 Aldeões\nV: Envia 20 Aldeões</string>
+    <string _locid="64871">O Templo do Céu envia Aldeões quando construído e permite o uso da Transcendência para curar rapidamente todas as unidades do jogador, bem como permitir que o Mestre Shaolin cure unidades aliadas.\n----------\nProvisões concedidas quando construído:\nII: Envia 3 Aldeões\nIII: Envia 1 Riquixá de Centro Urbano\nIV: Envia 3 Riquixás de Arrozal\nV: Recebe 1.200 Exportações</string>
     <string _locid="64872">Templo do Céu</string>
     <string _locid="64873">WON Templo do Céu</string>
     <string _locid="64874">Explosão</string>
@@ -32549,6 +32561,7 @@
     <string _locid="79959" symbol="cStringFriendly">Amigável</string>
     <string _locid="79960">Mapa Grande</string>
     <string _locid="79961">Carrega a variante maior do mapa selecionado.</string>
+    <string _locid="79962">15 Ovelhas + 1 Carroça de Herdade + 3 Ulanos</string>
     <string _locid="80000" symbol="cStringCultureInca">Incas</string>
     <string _locid="80001" symbol="cStringCivNameInca">Incas</string>
     <string _locid="80002" symbol="cStringCivRolloverInca">&lt;color=1.0, 1.0, 0.0&gt;Bônus da civilização:&lt;/color&gt;\nCasas kancha produzem alimentos. Recebe um chasqui gratuito em provisões da Era da Exploração e a cada avanço de Era. O chasqui é capaz de construir tambos, poderosos postos comerciais que os aldeões podem guarnecer. Unidades militares podem ser guarnecidas em kallankas e fortalezas. Sacerdotisas podem converter inimigos e trabalhar na Praça da Comunidade.\n&lt;color=1.0, 1.0, 0.0&gt;Unidades exclusivas:&lt;/color&gt;\nChasqui, lanceiro de plumas, corredor chimu, arqueiro da selva, guerreiro boleador, huaraca, guerreiro de maça, sacerdotisa e balsa chincha.\n&lt;color=1.0, 1.0, 0.0&gt;Edificações exclusivas:&lt;/color&gt;\nKallanka, fortaleza, casas kancha e tambo\n&lt;color=1.0, 1.0, 0.0&gt;Cerimônias exclusivas:&lt;/color&gt;\nCerimônia da Lua e Cerimônia de Supay\n\nUm vasto império sul-americano conhecido pelo poder de suas muralhas e administração inteligente.</string>
@@ -32687,8 +32700,8 @@
     <string _locid="80135">Cura unidades feridas e converte unidades inimigas.</string>
     <string _locid="80136">Casa Kancha</string>
     <string _locid="80137">Casa Kancha</string>
-    <string _locid="80138">Suporta 16 habitantes e produz alimentos.</string>
-    <string _locid="80139">Casa inca que suporta 16 habitantes e produz alimentos.</string>
+    <string _locid="80138">Suporta 15 habitantes e produz alimentos.</string>
+    <string _locid="80139">Casa inca que suporta 15 habitantes e produz alimentos.</string>
     <string _locid="80140">Kallanka</string>
     <string _locid="80141">Kallanka</string>
     <string _locid="80142">Edificação de infantaria de elite</string>
@@ -32921,7 +32934,7 @@
     <string _locid="80549">Pontos de vida de infantaria de longo alcance</string>
     <string _locid="80550">Pontos de vida de huaracas, guerreiros boleadores e arqueiros da selva aumentados.</string>
     <string _locid="80551">Quipu Kamayuks</string>
-    <string _locid="80552">Aumenta muito o campo visual e a velocidade dos Chasquis. Os Tambos melhoram os pontos de vida das unidades próximas.</string>
+    <string _locid="80552">Aumenta muito o campo de visão + velocidade de Chasquis e permite que coletem tesouros. Tambos aumentam os pontos de vida de unidades próximas.</string>
     <string _locid="80553">Os Quipu Kamayuks chegaram.</string>
     <string _locid="80554">Terreno Alto</string>
     <string _locid="80555">O terreno alto das edificações incas dá a elas mais campo visual e mais alcance de ataque.</string>
@@ -33961,7 +33974,7 @@
     <string _locid="84075">Determinados a acabar com os ataques predatórios a navios mercantes, os Estados Unidos declararam guerra aos piratas bárbaros no norte da África. Um início de conflito auspicioso transformou-se rapidamente em desastre e desgraça quando a fragata USS Philadelphia foi capturada intacta por piratas bárbaros. No entanto, um jovem tenente americano muito corajoso não estava disposto a deixar o navio em mãos inimigas. Reunindo um grupo de voluntários, Stephen Decatur partiu para destruir a fragata e salvar a reputação da Marinha dos EUA.</string>
     <string _locid="84076" soundfilename="ZNARR0450">Pegos de surpresa, os piratas bárbaros não conseguiram impedir que os fuzileiros americanos destruíssem aquilo que capturaram.</string>
     <string _locid="84077" soundfilename="ZNARR0455">A operação foi extremamente ousada para o seu tempo, e as notícias da bravura e astúcia de Stephen Decatur rapidamente se espalharam pelo mundo. Ações destemidas como esta ajudaram a promover a ascensão dos Estados Unidos à proeminência global.</string>
-    <string _locid="84078" soundfilename="ZNARR0465">Destemidos por esta pequena derrota, os Estados Bárbaros continuaram o conflito. Levou mais um ano de guerra, bloqueios navais dos EUA e uma expedição terrestre por fuzileiros navais dos EUA para forçar os piratas a capitular, terminando assim a Primeira Guerra Bárbara.</string>
+    <string _locid="84078" soundfilename="ZNARR0465">Inabalados com esta pequena derrota, os Estados Berberes continuaram o conflito. Levou mais de um ano de guerra, bloqueios navais dos EUA e uma expedição terrestre por fuzileiros para forçar os piratas a capitularem, dando fim à Primeira Guerra Berberesca.</string>
     <string _locid="84080">À medida que as Reformas Borbônicas concederam mais poder à elite espanhola e diminuíram o da igreja, o ressentimento cresceu entre a população rural mexicana. Quando as notícias da conquista da Espanha por Napoleão Bonaparte chegaram às Américas, as palavras de um padre católico acenderam as faíscas da revolução.</string>
     <string _locid="84081" soundfilename="ZNARR0500">A revolta teve imenso sucesso enquanto os revolucionários marcharam de Dolores até as montanhas perto de Toluca. A cada vitória, mais e mais mexicanos se juntavam à tropa revolucionária, até que chegaram a quase cem mil soldados.</string>
     <string _locid="84082" soundfilename="ZNARR0505">Entretanto, todo o ataque fora interrompido após a vitória no Monte de las Cruces. Por razões desconhecidas, os comandantes decidiram marchar para o norte e tomar Guadalajara, em vez de sitiar a Cidade do México. Os soldados contestaram a decisão, o que resultou em deserções em massa, até que apenas poucos homens decidiram ficar.</string>
@@ -34041,7 +34054,7 @@
     <string _locid="84208" referencedplayerid="1" gamecharacter="Yermak" soundfilename="ZYERM0000" portraitfilename="resources\art\units\spc\yermak_timofeyevich\yermak_timofeyevich_portrait.png">Os tártaros estão por toda parte! Não desembarque aqui. Temos que continuar navegando!</string>
     <string _locid="84209" referencedplayerid="1" gamecharacter="Yermak" soundfilename="ZYERM0005" portraitfilename="resources\art\units\spc\yermak_timofeyevich\yermak_timofeyevich_portrait.png">A torre de vigia naquela ilha nos encherá de buracos se não nos movermos rápido. Pare de atacar e apresse-se!</string>
     <string _locid="84210" referencedplayerid="1" gamecharacter="Yermak" soundfilename="ZYERM0010" portraitfilename="resources\art\units\spc\yermak_timofeyevich\yermak_timofeyevich_portrait.png">Não podemos continuar de barco! Rochas acidentadas bloqueiam o rio! Teremos que desembarcar aqui e continuar a pé!</string>
-    <string _locid="84211" referencedplayerid="3" gamecharacter="Colonizador" soundfilename="ZGENR0025" portraitfilename="resources\art\units\villagers\villager_portrait.png">Os tártaros incendiaram nossa aldeia natal e nos expulsaram! Vamos ajudá-lo a montar um acampamento, só vingue nossos irmãos e irmãs abatidos, Yermak!</string>
+    <string _locid="84211" referencedplayerid="3" gamecharacter="Colonizador" soundfilename="ZGENR0025" portraitfilename="resources\art\units\villagers\villager_portrait_male.png">Os tártaros incendiaram nossa aldeia natal e nos expulsaram! Vamos ajudá-lo a montar um acampamento, só vingue nossos irmãos e irmãs abatidos, Yermak!</string>
     <string _locid="84212" referencedplayerid="1" gamecharacter="Yermak" soundfilename="ZYERM0015" portraitfilename="resources\art\units\spc\yermak_timofeyevich\yermak_timofeyevich_portrait.png">Os tártaros invadiram as aldeias russas. Se querem uma fogueira para se aquecer e comida quente para comer, venham e queimem os acampamentos tártaros e sua fortaleza maldita!</string>
     <string _locid="84213" referencedplayerid="1" gamecharacter="Yermak" soundfilename="ZYERM0020" portraitfilename="resources\art\units\spc\yermak_timofeyevich\yermak_timofeyevich_portrait.png">Droga! Vote blin! Não fomos rápidos o bastante. Os tártaros queimaram a aldeia. Se quiserem comida quente, o único lugar onde encontraremos é no acampamento tártaro. Avante, cossacos! Vamos jantar!</string>
     <string _locid="84214" referencedplayerid="1" gamecharacter="Yermak" soundfilename="ZYERM0025" portraitfilename="resources\art\units\spc\yermak_timofeyevich\yermak_timofeyevich_portrait.png">Comecei a me preocupar que eu tinha recrutado camponeses fracotes chorando por suas avós, mas vocês são de fato russos fortes! O acampamento tártaro está em ruínas!</string>
@@ -34467,8 +34480,8 @@
     <string _locid="85110" referencedplayerid="2" gamecharacter="El General" soundfilename="ZALLE0000" portraitfilename="resources\art\units\spc\allende\igc_allende_portrait.png">Homens de vigor como você são exatamente o que precisamos! Lidere seu povo para libertar as cidades ao norte do rio Laja, e eu libertarei as do sul.</string>
     <string _locid="85111" referencedplayerid="2" gamecharacter="El General" soundfilename="ZALLE0005" portraitfilename="resources\art\units\spc\allende\igc_allende_portrait.png">As pessoas desta cidade sabem manusear rifles, mas precisaremos de mais do que apenas soldados rasos para expulsar os espanhóis.</string>
     <string _locid="85112" referencedplayerid="1" gamecharacter="El Padre" soundfilename="ZHIDA0010" portraitfilename="resources\art\units\spc\hidalgo\igc_hidalgo_portrait.png">Há fazendas mais abaixo ao longo do rio que mantêm cavalos, e mais adiante há fundições de artilharia. Precisaremos de ambas para atacar a base espanhola nas montanhas.</string>
-    <string _locid="85113" referencedplayerid="5" gamecharacter="Cidadão de Celaya" soundfilename="ZGENR0380" portraitfilename="resources\art\units\villagers\villager_portrait_male.png">Obrigado! Já que os espanhóis se foram, podemos voltar a cultivar livremente.</string>
-    <string _locid="85114" referencedplayerid="5" gamecharacter="Cidadão de Acámbaro" soundfilename="ZGENR0385" portraitfilename="resources\art\units\villagers\villager_portrait_male.png">Nós vamos segui-lo!</string>
+    <string _locid="85113" referencedplayerid="5" gamecharacter="Cidadão de Celaya" soundfilename="ZGENR0380" portraitfilename="resources\art\units\villagers\villager_portrait_male.png">Obrigado! Sem os espanhóis, podemos voltar a cultivar livremente.</string>
+    <string _locid="85114" referencedplayerid="5" gamecharacter="Cidadão de Acámbaro" soundfilename="ZGENR0385" portraitfilename="resources\art\units\villagers\villager_portrait_male.png">Nós o seguiremos!</string>
     <string _locid="85115" referencedplayerid="5" gamecharacter="Cidadão de Aculco" soundfilename="ZGENR0390" portraitfilename="resources\art\units\villagers\villager_portrait_male.png">É chegada a nossa liberdade!</string>
     <string _locid="85116" referencedplayerid="5" gamecharacter="Cidadão de Salamanca" soundfilename="ZGENR0395" portraitfilename="resources\art\units\villagers\villager_portrait_male.png">Estamos livres dos espanhóis aqui. Nos juntaremos a esta revolução!</string>
     <string _locid="85117" referencedplayerid="5" gamecharacter="Cidadão de Ixtlahuaca" soundfilename="ZGENR0400" portraitfilename="resources\art\units\villagers\villager_portrait_male.png">O fogo da revolução transformará os espanhóis em cinzas!</string>
@@ -34476,7 +34489,7 @@
     <string _locid="85119" referencedplayerid="1" gamecharacter="El Padre" soundfilename="ZHIDA0015" portraitfilename="resources\art\units\spc\hidalgo\igc_hidalgo_portrait.png">Os espanhóis nos forçam a comprar uvas e azeitonas de suas mercearias em vez de nos deixar cultivá-las nós mesmos. Essas lojas estão por perto. Nós deveríamos nos apropriar de qualquer comida que eles guardem lá.</string>
     <string _locid="85120" referencedplayerid="2" gamecharacter="El General" soundfilename="ZALLE0010" portraitfilename="resources\art\units\spc\allende\igc_allende_portrait.png">Ótima ideia!</string>
     <string _locid="85121" referencedplayerid="1" gamecharacter="El Padre" soundfilename="ZHIDA0020" portraitfilename="resources\art\units\spc\hidalgo\igc_hidalgo_portrait.png">Toda a população desta região nos apoia! Agora é hora de levar a luta para os espanhóis nas montanhas.</string>
-    <string _locid="85122" referencedplayerid="2" gamecharacter="El General" soundfilename="ZALLE0015" portraitfilename="resources\art\units\spc\allende\igc_allende_portrait.png">Estes espanhóis estão derrotados. O que acha de seguirmos para a Cidade do México?</string>
+    <string _locid="85122" referencedplayerid="2" gamecharacter="El General" soundfilename="ZALLE0015" portraitfilename="resources\art\units\spc\allende\igc_allende_portrait.png">Esses espanhóis foram derrotados. O que diz, prosseguimos para a Cidade do México?</string>
     <string _locid="85123">Grito de Dolores</string>
     <string _locid="85124">Reúna o povo do México em uma revolta contra o governo espanhol.</string>
     <string _locid="85125">Liberte uma cidade para assumir o controle das edificações dela.</string>
@@ -38101,7 +38114,7 @@
     <string _locid="104564">5 guerreiros de maça</string>
     <string _locid="104565">8 Huaracas</string>
     <string _locid="104566">6 Huaracas</string>
-    <string _locid="104567">10 Guerreiros Boleadores</string>
+    <string _locid="104567">8 Guerreiros Boleadores</string>
     <string _locid="104568">Envia 1 Cavaleiro Jaguar Olheiro para cada 2 que você tiver perdido até agora (até um máximo de 16 unidades).</string>
     <string _locid="104569">Gladiadores Rituais</string>
     <string _locid="104570">Envia 1 cavaleiro caveira para cada 2 que você tiver perdido até agora (até um máximo de 13).</string>
@@ -38174,7 +38187,7 @@
     <string _locid="104635">Pontos de dano da cavalaria aumentados. Dragões podem ser recrutados na Era do Comércio.</string>
     <string _locid="104636">1 Corsário</string>
     <string _locid="104637">Riquixá de Consulado</string>
-    <string _locid="104638">Envia 1 Riquixá do Consulado e concede um fluxo constante de exportação.</string>
+    <string _locid="104638">Envia 1 Riquixá de Consulado e 100 de Exportação para gastar. Também concede um fluxo constante e permanente de Exportação.</string>
     <string _locid="104639">Exportação de chá</string>
     <string _locid="104640">Tratado do Dragão de Fogo</string>
     <string _locid="104641">Envia 2 Artilharias de Corvos. Ligeiramente aumenta a cadência de tiro delas.</string>
@@ -38203,6 +38216,9 @@
     <string _locid="104664">Provisões: 1.200 Exportações\n \nPoder: Transcendência: todas as unidades curam. Monges também curam unidades.</string>
     <string _locid="104665">Envia uma quantidade de Tropas de Ferro e reduz o custo de cartas que custam recursos.</string>
     <string _locid="104666">Cartas que custam recursos são mais baratas e fornecem Tropas de Ferro adicionais.</string>
+    <string _locid="104667">Brado de Batalha (carregado)</string>
+    <string _locid="104668">Brado de Batalha</string>
+    <string _locid="104669">Habilidade Carregada: impulsiona explosivos de um lança-granadas com maior alcance e dano em área.</string>
     <string _locid="104800">EQ: 1 construtor de acampamento</string>
     <string _locid="104801">EQ Império comercial</string>
     <string _locid="104802">Você recebe um construtor de feitoria e as feitorias custam menos e são mais fortes.</string>
@@ -38875,7 +38891,7 @@
     <string _locid="110448">Carvalho da Virgínia</string>
     <string _locid="110449">Tecnologias de Mercado da Era de Exploração e da Era Comercial são gratuitas. Melhora a taxa de compra do Mercado.</string>
     <string _locid="110450">Programa Econômico de Hamilton</string>
-    <string _locid="110451">Tavernas agora suportam população e podem ser construídas na Era da Exploração. O Limite de Construção de Tavernas foi aumentado, e Carroças Militares também podem construí-las.</string>
+    <string _locid="110451">Tavernas agora suportam população e podem ser construídas na Era da Exploração. O limite de construção de Tavernas é aumentado.</string>
     <string _locid="110452">Tavernas Aprimoradas</string>
     <string _locid="110453">Envia 400 madeiras. Aldeões coletam madeira mais rapidamente.\n • Aldeão: +10% de Taxa de Trabalho de Coleta de Árvores e Bosques</string>
     <string _locid="110454">Serrarias de Washington</string>
@@ -39762,7 +39778,7 @@
     <string _locid="112290">Plano de Ayutla</string>
     <string _locid="112291">Todos os seus Salteadores transformam-se em Soldados. Soldados ganham um pouco mais de alcance.</string>
     <string _locid="112292">Plano de Tuxtepec</string>
-    <string _locid="112293">Chega rápido! Envia 1 Carroça de Fábrica. As tecnologias e reparos da Fábrica são gratuitos. Pontos de vida da Fábrica aumentados.</string>
+    <string _locid="112293">Chega rápido! Envia 1 Carroça de Fábrica. Tecnologias e reparos da Fábrica são gratuitos. Pontos de vida da Fábrica aumentados.</string>
     <string _locid="112294">Porfiriato</string>
     <string _locid="112295">Envia 14 Invasores Apaches que causam mais dano a Aldeões do que o normal.</string>
     <string _locid="112296">Apache Renegado</string>
@@ -39826,9 +39842,9 @@
     <string _locid="112354">Aliança Tlaxcala</string>
     <string _locid="112355">Envia 2 Colonizadores. Cada Hacienda nova e existente gera 2 Colonizadores.</string>
     <string _locid="112356">Têxteis Tlaxcala</string>
-    <string _locid="112357">Envia 4 Lanceiros Holcan Maias para cada Hacienda que você construiu.</string>
+    <string _locid="112357">Envia 3 Lanceiros Holcan Maias para cada Hacienda que você construiu.</string>
     <string _locid="112358">Revolta de Tzotzil</string>
-    <string _locid="112359">Todas as Haciendas existentes e recém-construídas geram Plantações Maias que contém 350 Alimentos.</string>
+    <string _locid="112359">Todas as Haciendas existentes e recém-construídas geram Plantações Maias que contêm 300 Alimentos.</string>
     <string _locid="112360">Plantações Maias</string>
     <string _locid="112361">Chega rápido! Seu próximo Estado Federal concede sua recompensa duas vezes. A próxima atualização do Quartel é gratuita.</string>
     <string _locid="112362">Reformas Arteaga</string>
@@ -39863,7 +39879,7 @@
     <string _locid="112391">Alfândega de Tampico</string>
     <string _locid="112392">Cartas que entregam apenas caixotes (por exemplo, Levas de 700 Madeiras) agora podem ser enviadas da Metrópole sem custar uma provisão, mas demoram mais para chegar.</string>
     <string _locid="112393">Hidrovia Pánuco</string>
-    <string _locid="112394">Chega rapidamente! Envia 1 Carroça de Forte e permite que Milicianos sejam chamados de Postos Avançados e Fortes.</string>
+    <string _locid="112394">Chega rápido! Envia 1 Carroça de Forte e permite que Milicianos sejam chamados de Postos Avançados e Fortes.</string>
     <string _locid="112395">Fortificações de Trías</string>
     <string _locid="112396">Concede um fluxo constante de madeira. Aldeões coletam madeira mais rápido e árvores duram mais tempo.</string>
     <string _locid="112397">Florestas de Sierra Madre</string>
@@ -40143,7 +40159,7 @@
     <string _locid="112681">Táticas de Guerrilha</string>
     <string _locid="112682">Salteadores ganham mais alcance e seus ataques revelam inimigos por mais tempo.</string>
     <string _locid="112683">Observadores</string>
-    <string _locid="112684">Equipa todos os Insurgentes com Mosquetes.</string>
+    <string _locid="112684">Equipa todos os Insurgentes com Mosquetes e aumenta sua velocidade de treinamento.</string>
     <string _locid="112685">Reservistas</string>
     <string _locid="112686">Ataque e velocidade de movimento de Insurgentes melhorada.</string>
     <string _locid="112687">Facões</string>
@@ -40187,11 +40203,11 @@
     <string _locid="112725">Caça Maior (Carregado)</string>
     <string _locid="112726">Demolição com Dinamite (Carregado)</string>
     <string _locid="112727">Tiroteio</string>
-    <string _locid="112728">Ação Carregada: dispara as duas pistolas rapidamente por um curto período.</string>
+    <string _locid="112728">Habilidade Carregada: dispara as duas pistolas rapidamente, durante um curto período.</string>
     <string _locid="112729">Caça Maior</string>
-    <string _locid="112730">Ação Carregada: enlaça inimigos para diminuir a velocidade deles.</string>
+    <string _locid="112730">Habilidade Carregada: enlaça inimigos para diminuir a velocidade deles.</string>
     <string _locid="112731">Demolição com Dinamite</string>
-    <string _locid="112732">Ação Carregada: lança dinamite para causar dano maciço em área.</string>
+    <string _locid="112732">Habilidade Carregada: lança dinamite para causar dano em área maciço.</string>
     <string _locid="112733">TAVERNA Mestre do Revólver</string>
     <string _locid="112734">TAVERNA Caubói</string>
     <string _locid="112735">TAVERNA Owlhoot</string>
@@ -40316,7 +40332,7 @@
     <string _locid="112876">Bastimento</string>
     <string _locid="112877">Todos os Colonizadores transformam-se em Revolucionários novamente. Permite que a maioria das cartas que você já enviou sejam enviadas novamente.</string>
     <string _locid="112878">Plano de Monterrey</string>
-    <string _locid="112879">Envia 1 Colonizador por cada 3 Revolucionários que você perdeu até o momento (até um máximo de 80).</string>
+    <string _locid="112879">Envia 1 Colonizador para cada 3 Revolucionários que você perdeu até o momento (até um máximo de 85).</string>
     <string _locid="112880">República de Sierra Madre</string>
     <string _locid="112881">Chinacos ganham a habilidade Manobra de Zapata, que permite que todos os Chinacos movam-se sem serem vistos e sem perder velocidade de movimento.</string>
     <string _locid="112882">Manobras de Zapata</string>
@@ -40346,7 +40362,7 @@
     <string _locid="112906">Cerâmica Maia</string>
     <string _locid="112907">Todas as Feitorias geram um fluxo constante de PE.</string>
     <string _locid="112908">Cenotes</string>
-    <string _locid="112909">Envia 4 Foguetes e 12 Casacas Vermelhas.</string>
+    <string _locid="112909">Envia 4 Foguetes e 12 Casacas Vermelhas. Melhora consideravelmente os pontos de vida de Canhões Leves.</string>
     <string _locid="112910">Comércio de Armas Britânico</string>
     <string _locid="112911">Cada Hacienda e Centro Urbano existentes e recém-construídos geram 3 Aldeões Nativos.</string>
     <string _locid="112912">Huipils</string>
@@ -40402,7 +40418,7 @@
     <string _locid="112962">Catrachos</string>
     <string _locid="112963">Catracho</string>
     <string _locid="112964">REV Catracho</string>
-    <string _locid="112965">A Bandeira Inspiradora pode ser posicionada em qualquer lugar e faz com que as Habilidades Carregadas recarreguem consideravelmente mais rápido.</string>
+    <string _locid="112965">A Bandeira Inspiradora pode ser posicionada em qualquer lugar e faz com que as Habilidades de Feitorias e Foras da Lei recarreguem consideravelmente mais rápido.</string>
     <string _locid="112966">Terras de Walker</string>
     <string _locid="112967">Obstrucionista</string>
     <string _locid="112968">REV Obstrucionista</string>
@@ -40506,7 +40522,7 @@
     <string _locid="113066">Visita das Sete Casas</string>
     <string _locid="113067">Concede +5 PE para cada unidade que você perdeu até o momento.</string>
     <string _locid="113068">Dia dos Mortos</string>
-    <string _locid="113069">Seu General agora também aumenta a moral, como a Bandeira Inspiradora. Ele também pode receber provisões da Capital e treinar Soldados.\n • Aura Inspiradora: não cumulativa com a bandeira</string>
+    <string _locid="113069">Seu General agora também aumenta o moral, assim como a Bandeira Inspiradora. Ele também pode receber provisões da Metrópole e lentamente treinar Soldados.\n • Aura Inspiradora: não cumulativa com a bandeira</string>
     <string _locid="113070">Homem do Destino</string>
     <string _locid="113071">Envia 1 Carroça de Forte. Fortes têm mais Campo de Visão e causam dano extra contra Heróis.</string>
     <string _locid="113072">Castelo de Chapultepec</string>
@@ -40541,7 +40557,7 @@
     <string _locid="113101">Construtor Industrial</string>
     <string _locid="113102">16 Insurgentes Yucatecos</string>
     <string _locid="113103">Os Trezentos Antigos</string>
-    <string _locid="113104">Envia 1 Cidadão para cada Edificação que você construiu (até um máximo de 80). Habilita cidadãos nos centros urbanos.</string>
+    <string _locid="113104">Envia 1 Cidadão para cada Edificação que você construiu (até um máximo de 85). Permite cidadãos em centros urbanos.</string>
     <string _locid="113105">Criação de Califórnia</string>
     <string _locid="113106">Laço</string>
     <string _locid="113107">Gerar Cuatrero</string>
@@ -40596,7 +40612,7 @@
     <string _locid="113156">As Sete Leis</string>
     <string _locid="113157">Toda vez que seu General ou Padre é nocauteado, um Miliciano é gerado.</string>
     <string _locid="113158">Todas as sete unidades e edificações mexicanas exclusivas concedem mais PE após serem construídas.</string>
-    <string _locid="113159">Todas as sete unidades e edificações mexicanas exclusivas concedem consideravelmente mais PE após serem construídas, desde que você possua pelo menos uma de cada.</string>
+    <string _locid="113159">Todas as sete unidades e edificações mexicanas exclusivas concedem 50% mais PE ao serem construídas, mas apenas se você tiver construído pelo menos 1 de cada neste jogo.</string>
     <string _locid="113160">Todas as unidades mexicanas ganham mais PE por eliminação.</string>
     <string _locid="113161">Todas as unidades mexicanas ganham mais PE por construção e eliminação.</string>
     <string _locid="113162">As unidades ganham mais PE por construção e eliminação.</string>
@@ -40627,6 +40643,7 @@
     <string _locid="113187" symbol="cStringDetailHelpMercs">Mercenários e fora da lei disponíveis:\n</string>
     <string _locid="113188">Encontre a Feitoria do Território Nativo</string>
     <string _locid="113189">Encontre a Feitoria da Rota Comercial</string>
+    <string _locid="113190">Aposta do Walker</string>
     <string _locid="200000">Bandeiras Suecas</string>
     <string _locid="200001">Exibe bandeiras suecas nesta edificação.</string>
     <string _locid="200002">Novo Centro Comercial Mundial (verde)</string>

@@ -6711,7 +6711,7 @@
     <string _locid="36007">Altın Madeni</string>
     <string _locid="36008">Maden Altın</string>
     <string _locid="36010">İpek Yolu</string>
-    <string _locid="36012">Bütün Kasalar 100 yerine 125 kaynak içerir.</string>
+    <string _locid="36012">Tüm Kasalar +%25 daha fazla kaynak içerir. Ticaret Yolları +%25 daha fazla kaynak sağlar.</string>
     <string _locid="36013">TAKIM tüm Sikke Sandıkları 120 kaynağa artar.</string>
     <string _locid="36014">Osmanlı Kaşif'ini savaşta geliştirir, hareket oranını arttırır ve ona güçlü bir köpek yoldaş verir.</string>
     <string _locid="36015">Ağa</string>
@@ -20201,7 +20201,7 @@
     <string _locid="49885">Savaş Reisi Desteği</string>
     <string _locid="49886">Pasif Yetenek: Aztek Savaş Reisi'nin pasif yeteneği yakındaki birimlerin iki kat tecrübe kazanmasını sağlar.</string>
     <string _locid="49887">Pasif Yetenek: Lakota Savaş Reisi'nin pasif yeteneği yakındaki birimlerin +%10 hareket hızı kazanmasını sağlar.</string>
-    <string _locid="49888">Pasif Yetenek: İnka Savaş Reisi'nin pasif yeteneği yakındaki yerli birimlerin +%20 darbe puanı kazanmasını sağlar.</string>
+    <string _locid="49888">Pasif Yetenek: İnka Savaş Reisi'nin pasif yeteneği yakındaki Yerli Savaşçıların +%10 saldırı ve darbe puanı kazanmasını sağlar.</string>
     <string _locid="49889">Pasif Yetenek: Haudenosaunee Savaş Reisi'nin pasif yeteneği yakındaki birimlerin +%10 darbe puanı kazanmasını sağlar.</string>
     <string _locid="49890">Topluluk</string>
     <string _locid="49891">Şu adrese git: https://www.facebook.com/ageofempires/</string>
@@ -20292,7 +20292,19 @@
     <string _locid="49972">Shaolin Ustası özelleştirmesi - Kaptan Huang</string>
     <string _locid="49973">Kutsal Nefes</string>
     <string _locid="49974">İnci Top Güllesi</string>
+    <string _locid="49975">Keşiş (Varsayılan)\nBu, Keşiş'in varsayılan sürümüdür.</string>
     <string _locid="49976">Ay Yeni Yılı Etkinliği</string>
+    <string _locid="49977">Ekonomi Mücadelelerini Seç</string>
+    <string _locid="49978">Ekonomi mücadelelerini açmak için ve bu oyun oturumu için hangi mücadelelerin olacağını belirlemek için seç.</string>
+    <string _locid="49979">Ekonomi Mücadeleleri</string>
+    <string _locid="49980">Ekonomi mücadeleleri tüm medeniyetler arasında paylaştırılmıştır ve mücadele esnasında herhangi bir medeniyet tarafından tamamlanabilir.</string>
+    <string _locid="49981">Otomatik Mücadeleler</string>
+    <string _locid="49982">Bu mücadeleler oyunu dengelemek için otomatik olarak seçilmiştir.</string>
+    <string _locid="49983">İlave Mücadeleler</string>
+    <string _locid="49984">Şuna göre seçildi: {0}</string>
+    <string _locid="49985">Oyuncu tarafından seçilen ilave mücadeleler.</string>
+    <string _locid="49986">İlave Mücadeleleri Seç</string>
+    <string _locid="49987">Seçilen mücadele: {0}/{1}</string>
     <string _locid="60001" symbol="cStringCivNameJapanese">Japonlar</string>
     <string _locid="60002" symbol="cStringCivNameChinese">Çinliler</string>
     <string _locid="60003" symbol="cStringCivNameIndians">Hintler</string>
@@ -20517,7 +20529,7 @@
     <string _locid="60222">10 kişilik nüfusu destekler.</string>
     <string _locid="60223">Mabet</string>
     <string _locid="60224">Japon Mabedi</string>
-    <string _locid="60225">{unitPopCapAddition(ypVillage)} kişilik nüfusu destekler / besi hayvanı binası</string>
+    <string _locid="60225">{unitPopCapAddition(ypVillage)} nüfus / besi hayvanı binası destekler</string>
     <string _locid="60226">Buradaki gelişimlerle arttırılabilecek 20 nüfusu destekler. Ayrıca besi hayvanlarını daha hızlı semirir ve Keçi eğitir.</string>
     <string _locid="60227">Köy</string>
     <string _locid="60228">Köy</string>
@@ -21818,9 +21830,9 @@
     <string _locid="61522">Demir Başlıklı Prens'in Ordusu</string>
     <string _locid="61523">İmparatorun Ordusu</string>
     <string _locid="61524">Daima Kazananlar Ordusu</string>
-    <string _locid="61525">1 Alev Atar</string>
-    <string _locid="61526">2 Alev Atar</string>
-    <string _locid="61527">4 Alev Atar</string>
+    <string _locid="61525">1 Alev Atar + 1 Kale Çekçeği</string>
+    <string _locid="61526">2 Alev Atar + 1 Kale Çekçeği</string>
+    <string _locid="61527">4 Alev Atar + 1 Kale Çekçeği</string>
     <string _locid="61528">7 El Topu</string>
     <string _locid="61529">11 El Topu</string>
     <string _locid="61530">2 Uçan Karga</string>
@@ -24297,7 +24309,7 @@
     <string _locid="64152">Portekizli Müttefikler</string>
     <string _locid="64153">Bonus: +0,8 Sikke Akış Oranı\n\nEğitilenler: Silahşorlar, Ruyterler, Havan Topları\n\nSevkiyatlar: Ekonomi binaları</string>
     <string _locid="64154">Hollandalı Müttefikler</string>
-    <string _locid="64155">Bonus: -%10 Yerleşimci Eğitim Süresi\n\nEğitilenler: Kazaklar, Culverinler, Ejderler\n\nSevkiyatlar: Savunma binaları</string>
+    <string _locid="64155">Bonus: -%10 Yerleşimci Eğitim Süresi ve Maliyeti\n\nEğitilenler: Kazaklar, Culverinler, Ejderler\n\nSevkiyatlar: Savunma binaları</string>
     <string _locid="64156">Rus Müttefikler</string>
     <string _locid="64157">Bonus: +0,8 Tecrübe Akış Oranı\n\nEğitilenler: Mızraklı Askerler, Rodelerolar, Şahin Topları\n\nSevkiyatlar: Sevkiyat iyileştirmeleri</string>
     <string _locid="64158">İspanyol Müttefikler</string>
@@ -24992,7 +25004,7 @@
     <string _locid="64852">Japon Sancağı</string>
     <string _locid="64853">PROP YP Japon Sancağı</string>
     <string _locid="64854">Cennet Tapınağı, inşa edildiğinde Köylüler gönderir ve oyuncunun tüm birimlerini hızla iyileştirmek için Üstünlük kullanımı sağlar ve Shaolin Ustası'nın dost birimleri iyileştirmesine izin verir.</string>
-    <string _locid="64855">Cennet Tapınağı, inşa edildiğinde Köylüler gönderir ve oyuncunun tüm birimlerini hızla iyileştirmek için Üstünlük kullanımı sağlar ve Shaolin Ustası'nın dost birimleri iyileştirmesine izin verir.\n----------\nİnşa edildiğinde kazanılan sevkiyatlar:\nII: 3 Köylü gönderir\nIII: 6 Köylü gönderir\nIV: 10 Köylü gönderir\nV: 20 Köylü gönderir</string>
+    <string _locid="64855">Cennet Tapınağı, inşa edildiğinde Köylüler gönderir ve oyuncunun tüm birimlerini hızla iyileştirmek için Üstünlük kullanımı sağlar. Ayrıca Shaolin Ustası'nın dost birimleri iyileştirmesine de izin verir.\n----------\nİnşa edildiğinde kazanılan sevkiyatlar:\nII: 3 Köylü gönderir\nIII: 1 Şehir Merkezi Çekçeği gönderir\nIV: 3 Pirinç Tarlası Çekçeği gönderir\nV: 1.200 İhracat elde et</string>
     <string _locid="64856">Cennet Tapınağı</string>
     <string _locid="64857">WON Cennet Tapınağı</string>
     <string _locid="64858">Bir çadır.</string>
@@ -25000,15 +25012,15 @@
     <string _locid="64860">Savaş Çadırı</string>
     <string _locid="64861">PROP YP Savaş Çadırı</string>
     <string _locid="64862">Cennet Tapınağı, inşa edildiğinde Köylüler gönderir ve oyuncunun tüm birimlerini hızla iyileştirmek için Üstünlük kullanımı sağlar ve Shaolin Ustası'nın dost birimleri iyileştirmesine izin verir.</string>
-    <string _locid="64863">Cennet Tapınağı, inşa edildiğinde Köylüler gönderir ve oyuncunun tüm birimlerini hızla iyileştirmek için Üstünlük kullanımı sağlar ve Shaolin Ustası'nın dost birimleri iyileştirmesine izin verir.\n----------\nİnşa edildiğinde kazanılan sevkiyatlar:\nII: 3 Köylü gönderir\nIII: 6 Köylü gönderir\nIV: 10 Köylü gönderir\nV: 20 Köylü gönderir</string>
+    <string _locid="64863">Cennet Tapınağı, inşa edildiğinde Köylüler gönderir ve oyuncunun tüm birimlerini hızla iyileştirmek için Üstünlük kullanımı sağlar. Ayrıca Shaolin Ustası'nın dost birimleri iyileştirmesine de izin verir.\n----------\nİnşa edildiğinde kazanılan sevkiyatlar:\nII: 3 Köylü gönderir\nIII: 1 Şehir Merkezi Çekçeği gönderir\nIV: 3 Pirinç Tarlası Çekçeği gönderir\nV: 1.200 İhracat elde et</string>
     <string _locid="64864">Cennet Tapınağı</string>
     <string _locid="64865">WON Cennet Tapınağı</string>
     <string _locid="64866">Cennet Tapınağı, inşa edildiğinde Köylüler gönderir ve oyuncunun tüm birimlerini hızla iyileştirmek için Üstünlük kullanımı sağlar ve Shaolin Ustası'nın dost birimleri iyileştirmesine izin verir.</string>
-    <string _locid="64867">Cennet Tapınağı, inşa edildiğinde Köylüler gönderir ve oyuncunun tüm birimlerini hızla iyileştirmek için Üstünlük kullanımı sağlar ve Shaolin Ustası'nın dost birimleri iyileştirmesine izin verir.\n----------\nİnşa edildiğinde kazanılan sevkiyatlar:\nII: 3 Köylü gönderir\nIII: 6 Köylü gönderir\nIV: 10 Köylü gönderir\nV: 20 Köylü gönderir</string>
+    <string _locid="64867">Cennet Tapınağı, inşa edildiğinde Köylüler gönderir ve oyuncunun tüm birimlerini hızla iyileştirmek için Üstünlük kullanımı sağlar. Ayrıca Shaolin Ustası'nın dost birimleri iyileştirmesine de izin verir.\n----------\nİnşa edildiğinde kazanılan sevkiyatlar:\nII: 3 Köylü gönderir\nIII: 1 Şehir Merkezi Çekçeği gönderir\nIV: 3 Pirinç Tarlası Çekçeği gönderir\nV: 1.200 İhracat elde et</string>
     <string _locid="64868">Cennet Tapınağı</string>
     <string _locid="64869">WON Cennet Tapınağı</string>
     <string _locid="64870">Cennet Tapınağı, inşa edildiğinde Köylüler gönderir ve oyuncunun tüm birimlerini hızla iyileştirmek için Üstünlük kullanımı sağlar ve Shaolin Ustası'nın dost birimleri iyileştirmesine izin verir.</string>
-    <string _locid="64871">Cennet Tapınağı, inşa edildiğinde Köylüler gönderir ve oyuncunun tüm birimlerini hızla iyileştirmek için Üstünlük kullanımı sağlar ve Shaolin Ustası'nın dost birimleri iyileştirmesine izin verir.\n----------\nİnşa edildiğinde kazanılan sevkiyatlar:\nII: 3 Köylü gönderir\nIII: 6 Köylü gönderir\nIV: 10 Köylü gönderir\nV: 20 Köylü gönderir</string>
+    <string _locid="64871">Cennet Tapınağı, inşa edildiğinde Köylüler gönderir ve oyuncunun tüm birimlerini hızla iyileştirmek için Üstünlük kullanımı sağlar. Ayrıca Shaolin Ustası'nın dost birimleri iyileştirmesine de izin verir.\n----------\nİnşa edildiğinde kazanılan sevkiyatlar:\nII: 3 Köylü gönderir\nIII: 1 Şehir Merkezi Çekçeği gönderir\nIV: 3 Pirinç Tarlası Çekçeği gönderir\nV: 1.200 İhracat elde et</string>
     <string _locid="64872">Cennet Tapınağı</string>
     <string _locid="64873">WON Cennet Tapınağı</string>
     <string _locid="64874">Patlama</string>
@@ -32549,6 +32561,7 @@
     <string _locid="79959" symbol="cStringFriendly">Dost Canlısı</string>
     <string _locid="79960">Büyük Harita</string>
     <string _locid="79961">Seçili haritanın daha büyüğünü yükler.</string>
+    <string _locid="79962">15 Koyun + 1 Arazi At Arabası + 3 Uhlan</string>
     <string _locid="80000" symbol="cStringCultureInca">İnka</string>
     <string _locid="80001" symbol="cStringCivNameInca">İnka</string>
     <string _locid="80002" symbol="cStringCivRolloverInca">&lt;color=1.0, 1.0, 0.0&gt;Medeniyet bonusu:&lt;/color&gt;\nKancha Evleri yiyecek üretir. Keşif Çağı sevkiyatlarıyla ve her Çağ atlandığında ücretsiz bir Çaski alır. Çaskiler, Tambo (sevkiyat alabilen ve köylülerin içine konuşlanabildiği güçlü Ticaret Merkezleri) inşa edebilir. Askeri birimler Kallankalara ve Sığınaklara konuşlanabilir. Rahibeler düşmanları dönüştürebilir ve Halk Meydanında çalışabilir.\n&lt;color=1.0, 1.0, 0.0&gt;Özgün birimler:&lt;/color&gt;\nÇaski, Tüylü Mızraklı, Çimu Akıncısı, Orman Yaylısı, Bola Savaşçısı, Huaraca, Gürzlü Asker, Rahibe ve Chincha Salı.\n&lt;color=1.0, 1.0, 0.0&gt;Özgün binalar:&lt;/color&gt;\nKallanka, Sığınak, Kancha Evi ve Tambo\n&lt;color=1.0, 1.0, 0.0&gt;Özgün törenler:&lt;/color&gt;\nAy Töreni ve Supay Töreni\n\nSurlarının gücü ve akıllıca yönetimi ile bilinen uçsuz bucaksız bir Güney Amerika imparatorluğu.</string>
@@ -32687,8 +32700,8 @@
     <string _locid="80135">Yaralı birimleri iyileştirir ve düşman birimlerini dönüştürür.</string>
     <string _locid="80136">Kancha Evi</string>
     <string _locid="80137">Kancha Evi</string>
-    <string _locid="80138">16 nüfusu destekler ve yiyecek üretir.</string>
-    <string _locid="80139">16 nüfusu destekleyen ve yiyecek üreten İnka Evi.</string>
+    <string _locid="80138">15 nüfusu destekler ve yiyecek üretir.</string>
+    <string _locid="80139">15 nüfusu destekleyen ve yiyecek üreten İnka Evi.</string>
     <string _locid="80140">Kallanka</string>
     <string _locid="80141">Kallanka</string>
     <string _locid="80142">Elit piyade binası</string>
@@ -32921,7 +32934,7 @@
     <string _locid="80549">Menzilli Piyade Darbe Puanları</string>
     <string _locid="80550">Huaraca, Bola Savaşçısı ve Orman Yaylısı darbe puanları artar.</string>
     <string _locid="80551">Quipu Kamayukları</string>
-    <string _locid="80552">Çaskilerin görüş hattını ve hızını büyük ölçüde artırır. Tambolar yakındaki birimlerin darbe puanlarını geliştirir.</string>
+    <string _locid="80552">Çaskilerin görüş hattını + hızını büyük ölçüde artırır ve hazine toplamalarına olanak verir. Tambolar yakındaki birimlerin darbe puanlarını geliştirir.</string>
     <string _locid="80553">Quipu Kamayukları ulaştı.</string>
     <string _locid="80554">Yüksek Zemin</string>
     <string _locid="80555">İnka binalarının yüksek zemini onlara fazladan görüş hattı ve saldırı menzili sağlar.</string>
@@ -34041,7 +34054,7 @@
     <string _locid="84208" referencedplayerid="1" gamecharacter="Yermak" soundfilename="ZYERM0000" portraitfilename="resources\art\units\spc\yermak_timofeyevich\yermak_timofeyevich_portrait.png">Tatarlar her yerde! Burada karaya çıkma. Yelken açmaya devam etmeliyiz!</string>
     <string _locid="84209" referencedplayerid="1" gamecharacter="Yermak" soundfilename="ZYERM0005" portraitfilename="resources\art\units\spc\yermak_timofeyevich\yermak_timofeyevich_portrait.png">Eğer hızlı hareket etmezsek, o adadaki Gözcü kulesi bizi delik deşik edecek. Ateş etmeden yanından hızla geç!</string>
     <string _locid="84210" referencedplayerid="1" gamecharacter="Yermak" soundfilename="ZYERM0010" portraitfilename="resources\art\units\spc\yermak_timofeyevich\yermak_timofeyevich_portrait.png">Tekneyle devam edemeyiz! Engebeli kayalar nehri kapatıyor! Buradan karaya çıkıp yaya olarak devam etmeliyiz!</string>
-    <string _locid="84211" referencedplayerid="3" gamecharacter="Yerleşimci" soundfilename="ZGENR0025" portraitfilename="resources\art\units\villagers\villager_portrait.png">Tatarlar köyümüzü ateşe verdi ve bizi defetti! Bir kamp kurmana yardım edeceğiz... sadece ölen kardeşlerimizin intikamını al, Yermak!</string>
+    <string _locid="84211" referencedplayerid="3" gamecharacter="Yerleşimci" soundfilename="ZGENR0025" portraitfilename="resources\art\units\villagers\villager_portrait_male.png">Tatarlar köyümüzü ateşe verdi ve bizi defetti! Bir kamp kurmana yardım edeceğiz... sadece ölen kardeşlerimizin intikamını al, Yermak!</string>
     <string _locid="84212" referencedplayerid="1" gamecharacter="Yermak" soundfilename="ZYERM0015" portraitfilename="resources\art\units\spc\yermak_timofeyevich\yermak_timofeyevich_portrait.png">Tatarlar Rus köylerini kuşatıyor. Eğer sıcak ateş ve karnınızda sıcak yemek istiyorsanız gelip Tatar kamplarını ve lanetli hisarlarını yakın!</string>
     <string _locid="84213" referencedplayerid="1" gamecharacter="Yermak" soundfilename="ZYERM0020" portraitfilename="resources\art\units\spc\yermak_timofeyevich\yermak_timofeyevich_portrait.png">Ah! Vot blin! Yeterince hızlı değildik. Tatarlar köyü yaktı. Eğer sıcak yemek istiyorsanız, bulabileceğiniz tek yer Tatar kampı. İleriye doğru, Kazaklar! Akşam yemeğine gidiyoruz!</string>
     <string _locid="84214" referencedplayerid="1" gamecharacter="Yermak" soundfilename="ZYERM0025" portraitfilename="resources\art\units\spc\yermak_timofeyevich\yermak_timofeyevich_portrait.png">Babuşkaları için ağlayan bazı zayıf çiftlik çocuklarını göreve aldığımdan endişelenmeye başlamıştım ama sizler güçlü Ruslarsınız gerçekten! Tatar kampı harabeye döndü!</string>
@@ -38101,7 +38114,7 @@
     <string _locid="104564">5 Gürzlü Asker</string>
     <string _locid="104565">8 Huaraca</string>
     <string _locid="104566">6 Huaraca</string>
-    <string _locid="104567">10 Bola Savaşçısı</string>
+    <string _locid="104567">8 Bola Savaşçısı</string>
     <string _locid="104568">Şu ana kadar kaybettiğin her 2 Hayalet Jaguar Şövalye için 1 kişi gönderir (en fazla 16 birim gönderir).</string>
     <string _locid="104569">Tören Gladyatörleri</string>
     <string _locid="104570">Şu ana kadar kaybettiğin her 2 tanesi için 1 Kuru Kafa Şövalyesi gönderir (en fazla 13).</string>
@@ -38174,7 +38187,7 @@
     <string _locid="104635">Süvari darbe puanı artar. Ejderler Ticaret Çağı'nda vazifelendirilebilir.</string>
     <string _locid="104636">1 Korsan Gemisi</string>
     <string _locid="104637">Konsolosluk Çekçeği</string>
-    <string _locid="104638">1 Konsolosluk Çekçeği gönderir ve sabit bir İhracat akışı sağlar.</string>
+    <string _locid="104638">1 Konsolosluk Çekçeği ve harcamak için 100 İhracat gönderir. Ayrıca kalıcı olarak sabit bir İhracat akışı sağlar.</string>
     <string _locid="104639">Çay İhracatı</string>
     <string _locid="104640">Ateş Ejderhası Manuel</string>
     <string _locid="104641">2 Uçan Karga gönderir. Atış hızlarını az miktarda artırır.</string>
@@ -38203,6 +38216,9 @@
     <string _locid="104664">Sevkiyat: 1200 İhracat\n \nGüç: Üstünlük - Tüm birimler iyileşir. Keşişler artık birimleri iyileştirebilir.</string>
     <string _locid="104665">Birkaç Demir Birlik gönderir ve kaynaklara mal olan kartları daha ucuz hâle getirir.</string>
     <string _locid="104666">Kaynaklara mal olan kartlar daha ucuzdur ve bonus Demir Birlikler getirir.</string>
+    <string _locid="104667">Muharebe Yaygarası (Yüklü)</string>
+    <string _locid="104668">Muharebe Yaygarası</string>
+    <string _locid="104669">Yüklü Yetenek: Ekstra menzil ve alan hasarı için bir el bombası atıcısından patlayıcılar fırlatır.</string>
     <string _locid="104800">TAKIM 1 Kamp İnşaat Ustası</string>
     <string _locid="104801">TAKIM Ticaret İmparatorluğu</string>
     <string _locid="104802">Bir Ticaret Merkezi İnşaat Ustası aldın ve artık Ticaret Merkezleri daha ucuz ve daha dayanıklı.</string>
@@ -38875,7 +38891,7 @@
     <string _locid="110448">Virginia Meşesi</string>
     <string _locid="110449">Keşif ve Ticaret Çağı Market teknolojileri ücretsizdir. Marketin satın alma oranını iyileştirir.</string>
     <string _locid="110450">Hamilton Ekonomisi</string>
-    <string _locid="110451">Meyhaneler artık nüfus destekleyebilir ve Keşif Çağında inşa edilebilir. Meyhanenin İnşa Sınırı artırılır ve Askeri At Arabaları da bunları inşa edebilir.</string>
+    <string _locid="110451">Meyhaneler artık nüfus destekleyebilir ve Keşif Çağında inşa edilebilir. Meyhanenin İnşa Sınırı artırılır.</string>
     <string _locid="110452">Gelişmiş Meyhane</string>
     <string _locid="110453">400 odun gönderir. Köylüler daha hızlı Odun toplar.\n • Köylü: Ağaç ve Koru için Toplama Çalışması Hızı +%10</string>
     <string _locid="110454">Washington Kereste Atölyeleri</string>
@@ -39826,9 +39842,9 @@
     <string _locid="112354">Tlaxcala İttifakı</string>
     <string _locid="112355">2 Yerleşimci gönderir. Yeni ve mevcut Haciendaların her biri 2 Yerleşimci çıkarır.</string>
     <string _locid="112356">Tlaxcala Tekstili</string>
-    <string _locid="112357">İnşa ettiğin her Hacienda için 4 Maya Holcan Ciritcisi gönderir.</string>
+    <string _locid="112357">İnşa ettiğin her Hacienda için 3 Maya Holcan Ciritcisi gönderir.</string>
     <string _locid="112358">Tzotzil Ayaklanması</string>
-    <string _locid="112359">Mevcut ve yeni inşa edilmiş tüm Haciendalar, 350 Yiyecek içeren Maya Mahsulleri çıkarır.</string>
+    <string _locid="112359">Mevcut ve yeni inşa edilmiş tüm Haciendalar, 300 Yiyecek içeren Maya Mahsulleri çıkarır.</string>
     <string _locid="112360">Maya Mahsulleri</string>
     <string _locid="112361">Hızlı ulaşır! Bir sonraki Federal Eyaletin iki kez ödül verir. Bir sonraki Kışla yükseltmesi ücretsiz olur.</string>
     <string _locid="112362">Arteaga Reformları</string>
@@ -40143,7 +40159,7 @@
     <string _locid="112681">Gerilla Taktikleri</string>
     <string _locid="112682">Salteadores daha fazla menzil kazanır ve saldırıları düşmanları daha uzun süre ortaya çıkarır.</string>
     <string _locid="112683">Gözlemciler</string>
-    <string _locid="112684">Tüm Insurgenteleri Misket Silahı ile donatır.</string>
+    <string _locid="112684">Tüm Insurgenteleri Misket Silahı ile donatır ve eğitilme hızlarını geliştirir.</string>
     <string _locid="112685">Reservistas</string>
     <string _locid="112686">Insurgente saldırısı ve hareket hızı artar.</string>
     <string _locid="112687">Palalar</string>
@@ -40187,11 +40203,11 @@
     <string _locid="112725">Büyük Oyun Avlanma (Yüklü)</string>
     <string _locid="112726">Dinamit Yıkımı (Yüklü)</string>
     <string _locid="112727">Çatışma</string>
-    <string _locid="112728">Yüklü Eylem: Her iki tabancayı da kısa bir süre için hızlı bir şekilde ateşler.</string>
+    <string _locid="112728">Yüklü Yetenek: Her iki tabancayı da kısa bir süre için hızlı bir şekilde ateşler.</string>
     <string _locid="112729">Büyük Oyun Avlanma</string>
-    <string _locid="112730">Yüklü Eylem: Düşmanları yavaşlatmak için kementle yakalar.</string>
+    <string _locid="112730">Yüklü Yetenek: Düşmanları yavaşlatmak için kementle yakalar.</string>
     <string _locid="112731">Dinamit Yıkımı</string>
-    <string _locid="112732">Yüklü Eylem: Büyük alan hasarı vermek için dinamit atar.</string>
+    <string _locid="112732">Yüklü Yetenek: Büyük alan hasarı vermek için dinamit atar.</string>
     <string _locid="112733">MEYHANE Silahşor</string>
     <string _locid="112734">MEYHANE Kovboy</string>
     <string _locid="112735">MEYHANE Owlhoot</string>
@@ -40316,7 +40332,7 @@
     <string _locid="112876">Bastimento</string>
     <string _locid="112877">Tüm Yerleşimciler yeniden Devrimcilere dönüşür. Hâlihazırda gönderdiğin çoğu birim kartının yeniden gönderilmesini sağlar.</string>
     <string _locid="112878">Monterrey Planı</string>
-    <string _locid="112879">Bu oyunda şu ana kadar kaybettiğin her 3 Devrimci için 1 Yerleşimci gönderir (en fazla 80).</string>
+    <string _locid="112879">Bu oyunda şu ana kadar kaybettiğin her 3 Devrimci için 1 Yerleşimci gönderir (en fazla 85).</string>
     <string _locid="112880">Sierra Madre Cumhuriyeti</string>
     <string _locid="112881">Chinacolar, tüm Chinacoların hareket hızı kaybı olmaksızın görünmeden hareket etmelerini sağlayan Zapata Manevrası yeteneği kazanır.</string>
     <string _locid="112882">Zapata Manevraları</string>
@@ -40346,7 +40362,7 @@
     <string _locid="112906">Maya Seramiği</string>
     <string _locid="112907">Tüm Ticaret Merkezleri sürekli bir TP akışı sağlar.</string>
     <string _locid="112908">Cenoteler</string>
-    <string _locid="112909">4 Roket ve 12 Kırmızı Ceketli gönderir.</string>
+    <string _locid="112909">4 Roket ve 12 Kırmızı Ceketli gönderir. Hafif Top darbe puanını önemli ölçüde geliştirir.</string>
     <string _locid="112910">Britanya Silah Ticareti</string>
     <string _locid="112911">Mevcut ve yeni inşa edilen Haciendaların ve Şehir Merkezleri'nin her biri 3 Yerli Köylü çıkarır.</string>
     <string _locid="112912">Huipiller</string>
@@ -40402,7 +40418,7 @@
     <string _locid="112962">Catracholar</string>
     <string _locid="112963">Catracho</string>
     <string _locid="112964">REV Catracho</string>
-    <string _locid="112965">İlham Veren Bayrak herhangi bir yere dikilebilir ve Yüklü Yeteneklerin önemli ölçüde daha hızlı yeniden yüklenmesini sağlar.</string>
+    <string _locid="112965">İlham Veren Bayrak herhangi bir yere dikilebilir ve Haydut ve Ticaret Merkezi Yeteneklerinin önemli ölçüde daha hızlı yeniden yüklenmesini sağlar.</string>
     <string _locid="112966">Walker'ın Toprağı</string>
     <string _locid="112967">Lobici</string>
     <string _locid="112968">REV Lobici</string>
@@ -40506,7 +40522,7 @@
     <string _locid="113066">Yedi Evler Ziyareti</string>
     <string _locid="113067">Bu oyunda şimdiye kadar kaybettiğin her birim için +5 TP verir.</string>
     <string _locid="113068">Día de Muertos</string>
-    <string _locid="113069">İlham Veren Bayrak gibi Generalin de artık moral yükseltir. Ana Şehir sevkiyatlarını alabilir ve Soldado eğitebilir.\n • İlham Veren Hava: Bayrakla birlikte kullanılamaz.</string>
+    <string _locid="113069">İlham Veren Bayrak gibi Generalin de artık moral yükseltir. Ana Şehir sevkiyatlarını alabilir ve yavaşça Soldado eğitebilir.\n • İlham Veren Hava: Bayrakla birlikte kullanılamaz.</string>
     <string _locid="113070">Yazgı Adamı</string>
     <string _locid="113071">1 Hisar At Arabası gönderir. Hisarlar daha fazla Görüş Hattına sahiptir ve Kahramanlara karşı ilave hasar verir.</string>
     <string _locid="113072">Chapultepec Kalesi</string>
@@ -40541,7 +40557,7 @@
     <string _locid="113101">Sanayi İnşaat Ustası</string>
     <string _locid="113102">16 Yucateco Insurgentes'</string>
     <string _locid="113103">Eski Üç Yüz</string>
-    <string _locid="113104">İnşa ettiğin her bir Bina için 1 Vatandaş gönderir (en fazla 80). Vatandaşları Şehir Merkezlerinde etkinleştirir.</string>
+    <string _locid="113104">İnşa ettiğin her bir Bina için 1 Vatandaş gönderir (en fazla 85). Vatandaşları Şehir Merkezlerinde etkinleştirir.</string>
     <string _locid="113105">Kaliforniya Yetiştiriciliği</string>
     <string _locid="113106">Kement</string>
     <string _locid="113107">Çıkma Cuatrero</string>
@@ -40596,7 +40612,7 @@
     <string _locid="113156">Yedi Yasa</string>
     <string _locid="113157">Generalin veya Pederin her düştüğünde bir Milis çıkar.</string>
     <string _locid="113158">Özgün Meksika birim ve binalarının yedisi de inşa edildiğinde daha fazla TP verir.</string>
-    <string _locid="113159">Hepsinden birer tanesine sahip olduğun takdirde özgün Meksika birim ve binalarının yedisi de inşa edildiğinde önemli ölçüde daha fazla TP verir.</string>
+    <string _locid="113159">Özgün Meksika birim ve binalarının yedisi de oluşturulduğunda %50 daha fazla TP verir ancak yalnızca bu oyunda her birinden en az 1 tane oluşturduysan.</string>
     <string _locid="113160">Tüm Meksika birimleri daha fazla Öldürme TP'si kazanır.</string>
     <string _locid="113161">Tüm Meksika birimleri daha fazla İnşaat ve Öldürme TP'si kazanır.</string>
     <string _locid="113162">Birimler daha fazla İnşaat ve Öldürme TP'si kazanır.</string>
@@ -40627,6 +40643,7 @@
     <string _locid="113187" symbol="cStringDetailHelpMercs">Kullanılabilir Paralı Asker ve Haydutlar:\n</string>
     <string _locid="113188">Yerli Alan Ticaret Merkezi'ni bul</string>
     <string _locid="113189">Ticaret Yolu Ticaret Merkezi'ni bul</string>
+    <string _locid="113190">Walker'ın Kumarı</string>
     <string _locid="200000">İsveç Bayrakları</string>
     <string _locid="200001">Bu binada İsveç bayrakları göster.</string>
     <string _locid="200002">Yeni Dünya Ticaret Merkezi (yeşil)</string>

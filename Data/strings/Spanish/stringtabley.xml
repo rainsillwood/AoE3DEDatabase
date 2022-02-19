@@ -256,7 +256,7 @@
     <string _locid="19007" symbol="cStringLoop">Repetir</string>
     <string _locid="19008" symbol="cStringSend">Enviar</string>
     <string _locid="19009" symbol="cStringClear">Borrar</string>
-    <string _locid="19010" symbol="cStringOpen">Abrir</string>
+    <string _locid="19010" symbol="cStringOpen">Abierto</string>
     <string _locid="19011" symbol="cStringOpenFile">Abrir archivo</string>
     <string _locid="19012" symbol="cStringSave">Guardar</string>
     <string _locid="19013" symbol="cStringSaveFile">Guardar archivo</string>
@@ -314,7 +314,7 @@
     <string _locid="19096" symbol="cStringCiv">Civilización</string>
     <string _locid="19097" symbol="cStringGPS">Secretos del Nuevo Mundo</string>
     <string _locid="19098" symbol="cStringDIP">Resumen del jugador</string>
-    <string _locid="19099" symbol="cStringRate">Clasificación</string>
+    <string _locid="19099" symbol="cStringRate">Puesto</string>
     <string _locid="19100" symbol="cStringHandicap">Desventaja</string>
     <string _locid="19101" symbol="cStringAlly">Aliado</string>
     <string _locid="19102" symbol="cStringNeutral">Neutral</string>
@@ -6711,7 +6711,7 @@
     <string _locid="36007">Mina de oro</string>
     <string _locid="36008">Mina de oro</string>
     <string _locid="36010">Ruta de la Seda</string>
-    <string _locid="36012">Todos los cajones contienen 125 recursos en lugar de 100.</string>
+    <string _locid="36012">Todas las cajas contienen un 25 % más de recursos. Las rutas comerciales producen un 25 % más de recursos.</string>
     <string _locid="36013">EQUIPO ha aumentado a 120 monedas la capacidad de los arcones.</string>
     <string _locid="36014">Mejora el combate del explorador otomano, aumenta su velocidad y le otorga un compañero canino imponente.</string>
     <string _locid="36015">Agá</string>
@@ -19878,7 +19878,7 @@
     <string _locid="49562">Desbloqueo de icono de perfil: Maigadi</string>
     <string _locid="49563">Desbloqueo de icono de perfil: Invasor del desierto</string>
     <string _locid="49564">Desbloqueo de icono de perfil: Mortero de Sebastopol</string>
-    <string _locid="49565" symbol="cStringCheatCode">Código de trampa: &amp;quot;{0}&amp;quot;</string>
+    <string _locid="49565" symbol="cStringCheatCode">Código de trampa: "{0}"</string>
     <string _locid="49566">Ver el aspecto del explorador</string>
     <string _locid="49567">Selecciona para aplicar una estética o cambiar el nombre del explorador.</string>
     <string _locid="49568">¡Selecciona para empezar el siguiente desafío!</string>
@@ -20201,7 +20201,7 @@
     <string _locid="49885">Apoyo de jefe de guerra</string>
     <string _locid="49886">Habilidad pasiva: la habilidad pasiva del jefe de guerra azteca permite a las unidades cercanas ganar el doble de experiencia.</string>
     <string _locid="49887">Habilidad pasiva: la habilidad pasiva del jefe de guerra lakota permite a las unidades cercanas ganar +10 % en la velocidad de movimiento.</string>
-    <string _locid="49888">Habilidad pasiva: la habilidad pasiva del jefe de guerra inca permite a las unidades nativas cercanas ganar +20 % en puntos de resistencia.</string>
+    <string _locid="49888">Habilidad pasiva: la habilidad pasiva del jefe de guerra haudenosaunee permite a los guerreros nativos cercanos ganar +10 % en ataque y puntos de resistencia.</string>
     <string _locid="49889">Habilidad pasiva: la habilidad pasiva del jefe de guerra haudenosaunee permite a las unidades cercanas ganar +10 % en puntos de resistencia.</string>
     <string _locid="49890">Comunidad</string>
     <string _locid="49891">Ir a https://www.facebook.com/ageofempires/</string>
@@ -20233,8 +20233,8 @@
     <string _locid="49917">Aturde a 50 guardianes del tesoro con cualquiera de los exploradores de la dinastía asiática.</string>
     <string _locid="49918">Desbloqueo de icono de perfil: un arcabucero con un traje tang.</string>
     <string _locid="49919">Despliega todos los envíos de ejércitos desde la academia de guerra, el castillo y la metrópoli con los chinos. (13 ejércitos en total)</string>
-    <string _locid="49920">Desbloqueo del truco del león guardián chino</string>
-    <string _locid="49921">Inflige daño en 2022 con el tigre manso Mango de Hacha o el tigre albino mascota Wagner con los indios.</string>
+    <string _locid="49920">Desbloqueo del truco: truco del león guardián chino</string>
+    <string _locid="49921">Inflige 2022 de daño con el tigre manso Mango de Hacha o el tigre albino mascota Wagner con los indios.</string>
     <string _locid="49922">Desbloqueo de icono de perfil: una estatua de agua de un tigre, un regalo de fuerza y valentía.</string>
     <string _locid="49923">¡Winter Wonderland ya está disponible en el navegador de modificaciones!</string>
     <string _locid="49924">Descargar modificación</string>
@@ -20292,7 +20292,19 @@
     <string _locid="49972">Personalización de maestro shaolin: capitán Huang</string>
     <string _locid="49973">Aliento sagrado</string>
     <string _locid="49974">Bala de cañón perla</string>
-    <string _locid="49976">Evento del Año Nuevo Lunar</string>
+    <string _locid="49975">Monje (predeterminado)\nEsta es la versión predeterminada del monje.</string>
+    <string _locid="49976">Evento del nuevo año lunar</string>
+    <string _locid="49977">Seleccionar desafíos de economía</string>
+    <string _locid="49978">Esta opción te permite abrir los desafíos de economía y configurar cuáles se emplearán en esta sesión de juego.</string>
+    <string _locid="49979">Desafíos de economía</string>
+    <string _locid="49980">Los desafíos de economía son comunes para todas las civilizaciones, por lo que cualquiera de ellas puede completarlos durante la partida.</string>
+    <string _locid="49981">Desafíos automáticos</string>
+    <string _locid="49982">Estos desafíos se eligen automáticamente para equilibrar la partida.</string>
+    <string _locid="49983">Desafíos adicionales</string>
+    <string _locid="49984">Selección de {0}</string>
+    <string _locid="49985">Desafíos adicionales seleccionados por el jugador.</string>
+    <string _locid="49986">Seleccionar desafíos adicionales</string>
+    <string _locid="49987">Desafíos seleccionados: {0}/{1}</string>
     <string _locid="60001" symbol="cStringCivNameJapanese">Japoneses</string>
     <string _locid="60002" symbol="cStringCivNameChinese">Chinos</string>
     <string _locid="60003" symbol="cStringCivNameIndians">Indios</string>
@@ -21818,9 +21830,9 @@
     <string _locid="61522">Ejér. Príncipes de Hierro</string>
     <string _locid="61523">Ejército del Emperador</string>
     <string _locid="61524">Ejército de la Eterna Victoria</string>
-    <string _locid="61525">1 lanzallamas</string>
-    <string _locid="61526">2 lanzallamas</string>
-    <string _locid="61527">4 lanzallamas</string>
+    <string _locid="61525">1 lanzallamas + 1 rickshaw de castillo</string>
+    <string _locid="61526">2 lanzallamas + 1 rickshaw de castillo</string>
+    <string _locid="61527">4 lanzallamas + 1 rickshaw de castillo</string>
     <string _locid="61528">7 morteros portátiles</string>
     <string _locid="61529">11 morteros portátiles</string>
     <string _locid="61530">2 cuervos voladores</string>
@@ -24297,7 +24309,7 @@
     <string _locid="64152">Aliados portugueses</string>
     <string _locid="64153">Bonificación: +0,8 de velocidad de flujo de monedas\n\nCrea: mosqueteros, ruyters, morteros\n\nEnvíos: edificios económicos</string>
     <string _locid="64154">Aliados holandeses</string>
-    <string _locid="64155">Bonificación: -10 % de tiempo de creación de colonos\n\nCrea: cosacos, culebrinas, dragones\n\nEnvíos: edificios defensivos</string>
+    <string _locid="64155">Bonificación: -10 % de tiempo y coste de creación de colonos\n\nCrea: cosacos, culebrinas, dragones\n\nEnvíos: edificios defensivos</string>
     <string _locid="64156">Aliados rusos</string>
     <string _locid="64157">Bonificación: +0,8 de velocidad de flujo de experiencia\n\nCrea: piqueros, rodeleros, falconetes\n\nEnvíos: mejoras de envíos</string>
     <string _locid="64158">Aliados españoles</string>
@@ -24992,7 +25004,7 @@
     <string _locid="64852">Estandarte japonés</string>
     <string _locid="64853">UTIL YP Estandarte japonés</string>
     <string _locid="64854">El Templo del Cielo envía aldeanos cuando está construido y permite el uso de Trascendencia para curar rápidamente todas las unidades del jugador, así como la capacidad del maestro shaolin para curar a las unidades amigas.</string>
-    <string _locid="64855">El Templo del Cielo envía aldeanos cuando está construido y permite el uso de Trascendencia para curar rápidamente todas las unidades del jugador, así como la capacidad del maestro shaolin para curar a las unidades amigas.\n----------\nEnvíos disponibles cuando está construido:\nII: envía 3 aldeanos\nIII: envía 6 aldeanos\nIV: envía 10 aldeanos\nV: envía 20 aldeanos</string>
+    <string _locid="64855">El Templo del Cielo envía aldeanos cuando está construido, permite usar Transcendencia para curar rápidamente todas las unidades del jugador y otorga al maestro shaolin la capacidad de curar a los aliados.\n----------\nEnvíos disponibles cuando está construido:\nII: envía 3 aldeanos\nIII: envía 1 rickshaw de centro urbano\nIV: envía 3 rickshaws de arrozal\nV: recibe 1200 de exportación</string>
     <string _locid="64856">Templo del Cielo</string>
     <string _locid="64857">MAR Templo del Cielo</string>
     <string _locid="64858">Una tienda.</string>
@@ -25000,15 +25012,15 @@
     <string _locid="64860">Tienda de guerra</string>
     <string _locid="64861">UTIL YP Tienda de guerra</string>
     <string _locid="64862">El Templo del Cielo envía aldeanos cuando está construido y permite el uso de Trascendencia para curar rápidamente todas las unidades del jugador, así como la capacidad del maestro shaolin para curar a las unidades amigas.</string>
-    <string _locid="64863">El Templo del Cielo envía aldeanos cuando está construido y permite el uso de Trascendencia para curar rápidamente todas las unidades del jugador, así como la capacidad del maestro shaolin para curar a las unidades amigas.\n----------\nEnvíos disponibles cuando está construido:\nII: envía 3 aldeanos\nIII: envía 6 aldeanos\nIV: envía 10 aldeanos\nV: envía 20 aldeanos</string>
+    <string _locid="64863">El Templo del Cielo envía aldeanos cuando está construido, permite usar Transcendencia para curar rápidamente todas las unidades del jugador y otorga al maestro shaolin la capacidad de curar a los aliados.\n----------\nEnvíos disponibles cuando está construido:\nII: envía 3 aldeanos\nIII: envía 1 rickshaw de centro urbano\nIV: envía 3 rickshaws de arrozal\nV: recibe 1200 de exportación</string>
     <string _locid="64864">Templo del Cielo</string>
     <string _locid="64865">MAR Templo del Cielo</string>
     <string _locid="64866">El Templo del Cielo envía aldeanos cuando está construido y permite el uso de Trascendencia para curar rápidamente todas las unidades del jugador, así como la capacidad del maestro shaolin para curar a las unidades amigas.</string>
-    <string _locid="64867">El Templo del Cielo envía aldeanos cuando está construido y permite el uso de Trascendencia para curar rápidamente todas las unidades del jugador, así como la capacidad del maestro shaolin para curar a las unidades amigas.\n----------\nEnvíos disponibles cuando está construido:\nII: envía 3 aldeanos\nIII: envía 6 aldeanos\nIV: envía 10 aldeanos\nV: envía 20 aldeanos</string>
+    <string _locid="64867">El Templo del Cielo envía aldeanos cuando está construido, permite usar Transcendencia para curar rápidamente todas las unidades del jugador y otorga al maestro shaolin la capacidad de curar a los aliados.\n----------\nEnvíos disponibles cuando está construido:\nII: envía 3 aldeanos\nIII: envía 1 rickshaw de centro urbano\nIV: envía 3 rickshaws de arrozal\nV: recibe 1200 de exportación</string>
     <string _locid="64868">Templo del Cielo</string>
     <string _locid="64869">MAR Templo del Cielo</string>
     <string _locid="64870">El Templo del Cielo envía aldeanos cuando está construido y permite el uso de Trascendencia para curar rápidamente todas las unidades del jugador, así como la capacidad del maestro shaolin para curar a las unidades amigas.</string>
-    <string _locid="64871">El Templo del Cielo envía aldeanos cuando está construido y permite el uso de Trascendencia para curar rápidamente todas las unidades del jugador, así como la capacidad del maestro shaolin para curar a las unidades amigas.\n----------\nEnvíos disponibles cuando está construido:\nII: envía 3 aldeanos\nIII: envía 6 aldeanos\nIV: envía 10 aldeanos\nV: envía 20 aldeanos</string>
+    <string _locid="64871">El Templo del Cielo envía aldeanos cuando está construido, permite usar Transcendencia para curar rápidamente todas las unidades del jugador y otorga al maestro shaolin la capacidad de curar a los aliados.\n----------\nEnvíos disponibles cuando está construido:\nII: envía 3 aldeanos\nIII: envía 1 rickshaw de centro urbano\nIV: envía 3 rickshaws de arrozal\nV: recibe 1200 de exportación</string>
     <string _locid="64872">Templo del Cielo</string>
     <string _locid="64873">MAR Templo del Cielo</string>
     <string _locid="64874">Explosión</string>
@@ -30939,8 +30951,8 @@
     <string _locid="70820">Ver todos los jugadores con los que has jugado recientemente.</string>
     <string _locid="70821">Búscame</string>
     <string _locid="70822">Búscame en la clasificación.</string>
-    <string _locid="70823">Partidas ganadas</string>
-    <string _locid="70824">Partidas perdidas</string>
+    <string _locid="70823">Victorias</string>
+    <string _locid="70824">Derrotas</string>
     <string _locid="70825" symbol="cStringLadderGameTypeTooltip">Selecciona el tipo de juego que quieres visualizar.</string>
     <string _locid="70826" symbol="cStringLadderTeamSizeTooltip">Selecciona el número de jugadores.</string>
     <string _locid="70827">Juega partidas de clasificación u ocasionales contra otros jugadores.</string>
@@ -31369,7 +31381,7 @@
     <string _locid="71251">Estás a punto de establecer una ciudad en el bosque Sundarbans de la bahía de Bengala. Atraviesa el manglar para poder acceder a más recursos. En esta región no hay rutas comerciales, pero puede que los devotos bhakti se unan a tu causa.\n---------------------------------\nCiv. nativa: bhakti\nMercenarios: bandidos maratíes/thuggee maratíes \n---------------------------------\nConfiguración de jugador en modo Observación\n-1c1: todos contra todos\n-2c2: 1+2 vs. 3+4\n-3c3: 1+2+3 vs. 4+5+6\n\nConfiguración de Observación\n-El equipo es irrelevante\n-¡No se pueden usar haudenosaunee/aztecas/lakotas!\n---------------------------------\nDiseñado por Garja\nIU de Observación de Aizamk</string>
     <string _locid="71252">Estás a punto de establecer una ciudad en el bosque Sundarbans de la bahía de Bengala. Atraviesa el manglar para poder acceder a más recursos. En esta región no hay rutas comerciales, pero puede que los devotos bhakti se unan a tu causa.\n\nDiseñado por Garja\nIU de Observación de Aizamk</string>
     <string _locid="71253">Juega una partida a modos de juego como Supremacía o A muerte.</string>
-    <string _locid="71254">Definitivo</string>
+    <string _locid="71254">Definitiva</string>
     <string _locid="71255">Predeterminada: Los estandartes se encuentran en la esquina superior izquierda. Los mapas y recursos se encuentran en la esquina inferior derecha. El panel de comandos se encuentra en la esquina inferior izquierda.\n&lt;icon="(960,540)(resources/images/hud/hudtooltips/HUD_Default.png)"&gt;</string>
     <string _locid="71256">Definitiva: Los estandartes y recursos se encuentran en la esquina superior izquierda. El mapa se encuentra en la esquina inferior derecha. El panel de comandos se encuentra en la esquina inferior izquierda.\n&lt;icon="(960,540)(resources/images/hud/hudtooltips/HUD_Definitive.png)"&gt;</string>
     <string _locid="71257">Clásica: Los estandartes se encuentran en la esquina superior izquierda. Los mapas y recursos se encuentran en la esquina inferior izquierda. El panel de comandos se encuentra en la esquina inferior derecha.\n&lt;icon="(960,540)(resources/images/hud/hudtooltips/HUD_Classic.png)"&gt;</string>
@@ -31622,7 +31634,7 @@
     <string _locid="71505" symbol="cStringESOAllRankedMatches">A muerte (No clasificatoria)</string>
     <string _locid="71506" symbol="cStringESOTreatyAllTeamSizes">Tratado (todas)</string>
     <string _locid="71507" symbol="cStringESODeathmatchAllTeamSizes">A muerte (todas)</string>
-    <string _locid="71508" symbol="cStringESOHeadingRating">Clasificación</string>
+    <string _locid="71508" symbol="cStringESOHeadingRating">Puesto</string>
     <string _locid="71509" symbol="cStringESOHeadingStreak">Racha</string>
     <string _locid="71510" symbol="cStringESOStreakWins">{0} victorias</string>
     <string _locid="71511" symbol="cStringESOStreakLosses">{0} derrotas</string>
@@ -32200,7 +32212,7 @@
     <string _locid="72664">Icono revolucionario especial.</string>
     <string _locid="72665">Selecciona esta opción para abrir los desafíos de evento.</string>
     <string _locid="72666">¡Desafío completado!</string>
-    <string _locid="72667">Tabla de clasificación de partidas clasificatorias</string>
+    <string _locid="72667">Tabla de partidas clasificatorias</string>
     <string _locid="72668" symbol="cStringClanNewApplicants">Hay {0} nuevas solicitudes de clan.</string>
     <string _locid="72669" symbol="cStringGrantApplication">Otorgar solicitud</string>
     <string _locid="72670" symbol="cStringGrantApplicationTooltip">Conceder membresía en el clan a este usuario.</string>
@@ -32513,7 +32525,7 @@
     <string _locid="79923">Avanza muy rápido y los chasquis pueden recibir envíos en la Edad de las Fortalezas</string>
     <string _locid="79924">Carreta de ciudadanos</string>
     <string _locid="79925">Rango</string>
-    <string _locid="79926">% de victorias</string>
+    <string _locid="79926">% victorias</string>
     <string _locid="79927">Cargando...</string>
     <string _locid="79928">No se han encontrado resultados</string>
     <string _locid="79929">#{0}</string>
@@ -32549,6 +32561,7 @@
     <string _locid="79959" symbol="cStringFriendly">Amistosa</string>
     <string _locid="79960">Mapa grande</string>
     <string _locid="79961">Carga la variante más grande del mapa seleccionado.</string>
+    <string _locid="79962">15 ovejas + 1 carretón de colonos + 3 ulanos</string>
     <string _locid="80000" symbol="cStringCultureInca">Inca</string>
     <string _locid="80001" symbol="cStringCivNameInca">Inca</string>
     <string _locid="80002" symbol="cStringCivRolloverInca">&lt;color=1.0, 1.0, 0.0&gt;Bonificación por civilización:&lt;/color&gt;\nLas kanchas producen alimentos. Recibe un chasqui gratis con los envíos de la Edad de la Exploración y cada vez que se avanza de edad. Los chasquis pueden construir tambos (puestos comerciales que pueden recibir envíos y en los que los civiles pueden alojarse). Las unidades militares pueden acuartelarse en kallankas y en fortalezas. Las sacerdotisas pueden convertir enemigos y trabajar en la plaza comunitaria.\n&lt;color=1.0, 1.0, 0.0&gt;Unidades únicas:&lt;/color&gt;\nChasqui, lancero emplumado, corredor chimú, arquero de la selva, guerrero con boleadoras, huaraca, soldado con garrote, sacerdotisa y balsa chincha.\n&lt;color=1.0, 1.0, 0.0&gt;Edificios únicos:&lt;/color&gt;\nKallanka, fortaleza, kancha y tambo\n&lt;color=1.0, 1.0, 0.0&gt;Ceremonias únicas:&lt;/color&gt;\nCeremonia lunar y ceremonia supay\n\nUn vasto imperio sudamericano conocido por la fuerza de sus murallas y una administración inteligente.</string>
@@ -32687,8 +32700,8 @@
     <string _locid="80135">Cura a las unidades heridas y convierte unidades enemigas.</string>
     <string _locid="80136">Kancha</string>
     <string _locid="80137">Kancha</string>
-    <string _locid="80138">Da apoyo a 16 habitantes y produce alimentos.</string>
-    <string _locid="80139">Casa inca que da apoyo a 16 habitantes y produce alimentos.</string>
+    <string _locid="80138">Da apoyo a 15 habitantes y produce alimentos.</string>
+    <string _locid="80139">Casa inca que da apoyo a 15 personas y produce alimentos.</string>
     <string _locid="80140">Kallanka</string>
     <string _locid="80141">Kallanka</string>
     <string _locid="80142">Edificio de infantería de élite</string>
@@ -32921,7 +32934,7 @@
     <string _locid="80549">Puntos de resistencia de infantería a distancia</string>
     <string _locid="80550">Huaracas, guerreros con boleadoras y arqueros de la selva con más puntos de resistencia.</string>
     <string _locid="80551">Quipucamayoc</string>
-    <string _locid="80552">Aumenta considerablemente la línea de visión y la velocidad de los chasquis. Los tambos mejoran los puntos de resistencia de las unidades cercanas.</string>
+    <string _locid="80552">Aumenta considerablemente el campo visual y la velocidad de los chasquis, y les permite recoger tesoros. Los tambos mejoran los puntos de resistencia de las unidades cercanas.</string>
     <string _locid="80553">Los quipucamayoc han llegado.</string>
     <string _locid="80554">Terreno elevado</string>
     <string _locid="80555">El terreno elevado de los edificios incas proporciona más línea de visión y alcance de ataque.</string>
@@ -34041,7 +34054,7 @@
     <string _locid="84208" referencedplayerid="1" gamecharacter="Yermak" soundfilename="ZYERM0000" portraitfilename="resources\art\units\spc\yermak_timofeyevich\yermak_timofeyevich_portrait.png">¡Los tártaros están por todas partes! No desembarques aquí, ¡sigue navegando!</string>
     <string _locid="84209" referencedplayerid="1" gamecharacter="Yermak" soundfilename="ZYERM0005" portraitfilename="resources\art\units\spc\yermak_timofeyevich\yermak_timofeyevich_portrait.png">La torre de vigilancia de aquella isla nos agujereará si no nos movemos con rapidez. ¡No dispares y déjala atrás rápido!</string>
     <string _locid="84210" referencedplayerid="1" gamecharacter="Yermak" soundfilename="ZYERM0010" portraitfilename="resources\art\units\spc\yermak_timofeyevich\yermak_timofeyevich_portrait.png">¡No podemos continuar en barco! ¡Unas rocas abruptas nos impiden el paso! ¡Hay que desembarcar aquí y continuar a pie!</string>
-    <string _locid="84211" referencedplayerid="3" gamecharacter="Colono" soundfilename="ZGENR0025" portraitfilename="resources\art\units\villagers\villager_portrait.png">¡Los tártaros han incendiado nuestra aldea natal y nos han expulsado! Os ayudaremos a montar el campamento. ¡Venga a nuestro pueblo, Yermak!</string>
+    <string _locid="84211" referencedplayerid="3" gamecharacter="Colono" soundfilename="ZGENR0025" portraitfilename="resources\art\units\villagers\villager_portrait_male.png">¡Los tártaros han incendiado nuestra aldea natal y nos han expulsado! Os ayudaremos a montar el campamento. ¡Venga a nuestro pueblo, Yermak!</string>
     <string _locid="84212" referencedplayerid="1" gamecharacter="Yermak" soundfilename="ZYERM0015" portraitfilename="resources\art\units\spc\yermak_timofeyevich\yermak_timofeyevich_portrait.png">Los tártaros atacan las aldeas rusas. Si buscáis una lumbre y comida caliente en el estómago, venid conmigo y quemaremos los campamentos tártaros y su fortaleza.</string>
     <string _locid="84213" referencedplayerid="1" gamecharacter="Yermak" soundfilename="ZYERM0020" portraitfilename="resources\art\units\spc\yermak_timofeyevich\yermak_timofeyevich_portrait.png">¡Nooo! ¡Vot blin! Hemos llegado demasiado tarde: los tártaros han quemado la aldea. Si queréis comida caliente, solo podréis encontrarla en el campamento tártaro. ¡Adelante, cosacos! ¡Hemos venido a cenar!</string>
     <string _locid="84214" referencedplayerid="1" gamecharacter="Yermak" soundfilename="ZYERM0025" portraitfilename="resources\art\units\spc\yermak_timofeyevich\yermak_timofeyevich_portrait.png">Ya temía haber reclutado a unos granjeros debiluchos y llorones que llamasen a gritos a su babushka, ¡pero sois rusos hechos y derechos! ¡El campamento tártaro está en ruinas!</string>
@@ -38101,7 +38114,7 @@
     <string _locid="104564">5 soldados con garrote</string>
     <string _locid="104565">8 huaracas</string>
     <string _locid="104566">6 huaracas</string>
-    <string _locid="104567">10 guerreros con boleadoras</string>
+    <string _locid="104567">8 guerreros con boleadoras</string>
     <string _locid="104568">Envía 1 caballero merodeador jaguar por cada 2 que hayas perdido hasta ahora (hasta un máximo de 16 unidades).</string>
     <string _locid="104569">Gladiadores rituales</string>
     <string _locid="104570">Envía 1 caballero cráneo por cada 2 que hayas perdido hasta ahora (hasta un máximo de 13).</string>
@@ -38174,7 +38187,7 @@
     <string _locid="104635">Han aumentado los puntos de resistencia de la caballería. Se pueden reclutar dragones en la Edad del Comercio.</string>
     <string _locid="104636">1 corsario</string>
     <string _locid="104637">Rickshaw de consulado</string>
-    <string _locid="104638">Envía 1 rickshaw de consulado y concede un ingreso estable de exportaciones.</string>
+    <string _locid="104638">Envía 1 rickshaw de consulado y 100 de exportación para gastar. También otorga un flujo constante de exportación permanentemente.</string>
     <string _locid="104639">Exportación de té</string>
     <string _locid="104640">Manual del dragón de fuego</string>
     <string _locid="104641">Envía 2 cuervos voladores. Mejora ligeramente su cadencia de fuego.</string>
@@ -38203,6 +38216,9 @@
     <string _locid="104664">Envío: 1200 de exportación\n \nPoder: Trascendencia. Todas las unides se curan. Los monjes pueden curar unidades.</string>
     <string _locid="104665">Envía varios soldados de hierro y hace que las cartas que cuestan recursos sean más baratas.</string>
     <string _locid="104666">Las cartas que cuestan recursos son más baratas y proporcionan soldados de hierro de bonificación.</string>
+    <string _locid="104667">Ráfaga de batalla (cargada)</string>
+    <string _locid="104668">Ráfaga de batalla</string>
+    <string _locid="104669">Habilidad cargada: lanza explosivos desde un lanzagranadas para obtener un alcance adicional y daño de área.</string>
     <string _locid="104800">EQUIPO 1 constructor de campamentos</string>
     <string _locid="104801">EQUIPO Imperio comercial</string>
     <string _locid="104802">Consigues un constructor de puesto comercial y los puestos comerciales son más baratos y más fuertes.</string>
@@ -38875,7 +38891,7 @@
     <string _locid="110448">Roble de Virginia</string>
     <string _locid="110449">Las tecnologías de mercado de la Edad de la Exploración y de la Edad del Comercio son gratuitas. Mejora el índice de compra del mercado.</string>
     <string _locid="110450">Economía hamiltoniana</string>
-    <string _locid="110451">Los bares ahora admiten a la población y se pueden construir en la Edad de la Exploración. El límite de construcción de los bares aumenta y también los pueden construir las carretas militares.</string>
+    <string _locid="110451">Ahora los bares admiten a la población y se pueden construir en la Edad de la Exploración. El límite de construcción de los bares aumenta.</string>
     <string _locid="110452">Bar avanzado</string>
     <string _locid="110453">Envía 400 unidades de madera. Los aldeanos recolectan madera más rápido.\n • Aldeano: Velocidad de recolección de árboles y arboledas +10 %</string>
     <string _locid="110454">Aserraderos de Washington</string>
@@ -39826,9 +39842,9 @@
     <string _locid="112354">Alianza de Tlaxcala</string>
     <string _locid="112355">Envía 2 colonos. Cada hacienda nueva y existente genera 2 colonos.</string>
     <string _locid="112356">Textiles Tlaxcala</string>
-    <string _locid="112357">Envía 4 lanzadores de jabalina holcan mayas por cada hacienda que hayas construido.</string>
+    <string _locid="112357">Envía 3 lanzadores de jabalina holcan mayas por cada hacienda que hayas construido.</string>
     <string _locid="112358">Levantamiento tzotzil</string>
-    <string _locid="112359">Todas las haciendas existentes y de nueva construcción generan cultivos mayas que contienen 350 alimentos.</string>
+    <string _locid="112359">Todas las haciendas existentes y de nueva construcción generan cultivos mayas que contienen 300 de alimento.</string>
     <string _locid="112360">Cultivos mayas</string>
     <string _locid="112361">¡Llega rápido! Tu próximo estado federal otorga su recompensa dos veces. La próxima mejora del cuartel es gratuita.</string>
     <string _locid="112362">Reformas Arteaga</string>
@@ -39863,7 +39879,7 @@
     <string _locid="112391">Aduanas de Tampico</string>
     <string _locid="112392">Ahora las cartas que entregan solo cajones (por ejemplo, brazadas de 700 unidades de madera) se pueden enviar desde la metrópoli sin costar un envío, pero tardan más en llegar.</string>
     <string _locid="112393">Canal de Pánuco</string>
-    <string _locid="112394">¡Llega rápido! Envía una carreta de fuerte y permite llamar a los milicianos desde destacamentos y fuertes.</string>
+    <string _locid="112394">¡Llega rápido! Envía 1 carreta de fuerte y permite llamar a los milicianos desde destacamentos y fuertes.</string>
     <string _locid="112395">Fortificaciones de Trías</string>
     <string _locid="112396">Otorga un ingreso constante de madera. Los aldeanos recogen madera más rápido y los árboles duran más tiempo.</string>
     <string _locid="112397">Bosques de la Sierra Madre</string>
@@ -40143,7 +40159,7 @@
     <string _locid="112681">Tácticas de guerrilla</string>
     <string _locid="112682">Los salteadores obtienen más alcance y sus ataques revelan enemigos durante más tiempo.</string>
     <string _locid="112683">Observadores</string>
-    <string _locid="112684">Equipa a todos los insurgentes con mosquetes.</string>
+    <string _locid="112684">Equipa a todos los insurgentes con mosquetes y mejora su velocidad de creación.</string>
     <string _locid="112685">Reservistas</string>
     <string _locid="112686">Se ha mejorado la velocidad de ataque y movimiento de los insurgentes.</string>
     <string _locid="112687">Machetes</string>
@@ -40187,11 +40203,11 @@
     <string _locid="112725">Caza mayor (cargado)</string>
     <string _locid="112726">Demolición con dinamita (cargada)</string>
     <string _locid="112727">Tiroteo</string>
-    <string _locid="112728">Acción cargada: Dispara ambas pistolas rápidamente durante un corto período de tiempo.</string>
+    <string _locid="112728">Habilidad cargada: dispara ambas pistolas rápidamente durante un corto período de tiempo.</string>
     <string _locid="112729">Caza mayor</string>
-    <string _locid="112730">Acción cargada: Atrapa a los enemigos con un lazo para frenar su avance.</string>
+    <string _locid="112730">Habilidad cargada: atrapa a los enemigos con un lazo para frenar su avance.</string>
     <string _locid="112731">Demolición con dinamita</string>
-    <string _locid="112732">Acción cargada: Lanza dinamita para infligir cuantiosos daños de área.</string>
+    <string _locid="112732">Habilidad cargada: lanza dinamita para infligir cuantiosos daños de área.</string>
     <string _locid="112733">BAR Bandido</string>
     <string _locid="112734">BAR Cowboy</string>
     <string _locid="112735">BAR Owlhoot</string>
@@ -40316,7 +40332,7 @@
     <string _locid="112876">Bastimento</string>
     <string _locid="112877">Todos los colonos se vuelven a transformar en revolucionarios. Permite volver a enviar la mayoría de cartas de unidad que ya hayas enviado.</string>
     <string _locid="112878">El Plan de Monterrey</string>
-    <string _locid="112879">Envía 1 colono por cada 3 revolucionarios que hayas perdido hasta ahora en esta partida (hasta un máximo de 80).</string>
+    <string _locid="112879">Envía 1 colono por cada 3 revolucionarios que hayas perdido hasta ahora en esta partida (hasta un máximo de 85).</string>
     <string _locid="112880">República de la Sierra Madre</string>
     <string _locid="112881">Los chinacos obtienen la habilidad Maniobra de Zapata, que les permite moverse sin ser vistos y sin perder velocidad de movimiento.</string>
     <string _locid="112882">Maniobras de Zapata</string>
@@ -40346,7 +40362,7 @@
     <string _locid="112906">Cerámica maya</string>
     <string _locid="112907">Todos los puestos comerciales generan un pequeño ingreso constante de EXP.</string>
     <string _locid="112908">Cenotes</string>
-    <string _locid="112909">Envía 4 cohetes y 12 casacas rojas.</string>
+    <string _locid="112909">Envía 4 cohetes y 12 casacas rojas. Mejora significativamente los puntos de resistencia de los cañones ligeros.</string>
     <string _locid="112910">Comercio de armas británico</string>
     <string _locid="112911">Cada hacienda y centro urbano existente y recién construido genera 3 aldeanos nativos.</string>
     <string _locid="112912">Huipiles</string>
@@ -40402,7 +40418,7 @@
     <string _locid="112962">Catrachos</string>
     <string _locid="112963">Catracho</string>
     <string _locid="112964">REV Catracho</string>
-    <string _locid="112965">La bandera inspiradora puede plantarse en cualquier lugar y hace que las habilidades cargadas se recarguen considerablemente más rápido.</string>
+    <string _locid="112965">La bandera inspiradora puede plantarse en cualquier lugar y hace que las habilidades de forajido y de puesto comercial se recarguen considerablemente más rápido.</string>
     <string _locid="112966">Tierra de Walker</string>
     <string _locid="112967">Filibustero</string>
     <string _locid="112968">REV Filibustero</string>
@@ -40506,7 +40522,7 @@
     <string _locid="113066">Visita de las Siete Casas</string>
     <string _locid="113067">Otorga +5 de experiencia por cada unidad que hayas perdido hasta ahora en esta partida.</string>
     <string _locid="113068">Día de Muertos</string>
-    <string _locid="113069">Tu general ahora también mejora la moral, como la bandera inspiradora. También puede recibir envíos de la metrópoli y construye soldados.\n • Aura inspiradora: no se acumula con la bandera</string>
+    <string _locid="113069">Tu general ahora también mejora la moral, como la bandera inspiradora. También puede recibir envíos de la metrópoli y construye soldados lentamente.\n • Aura inspiradora: no se acumula con la bandera</string>
     <string _locid="113070">Hombre del destino</string>
     <string _locid="113071">Envía 1 carreta de fuerte. Los fuertes tienen más campo de visión e infligen daño adicional a los héroes.</string>
     <string _locid="113072">Castillo de Chapultepec</string>
@@ -40541,7 +40557,7 @@
     <string _locid="113101">Constructor industrial</string>
     <string _locid="113102">16 insurgentes yucatecos</string>
     <string _locid="113103">Los antiguos trescientos</string>
-    <string _locid="113104">Envía 1 ciudadano por cada edificio que hayas construido (hasta un máximo de 80). Permite ciudadanos en centros urbanos.</string>
+    <string _locid="113104">Envía 1 ciudadano por cada edificio que hayas construido (hasta un máximo de 85). Permite ciudadanos en centros urbanos.</string>
     <string _locid="113105">Crianza en California</string>
     <string _locid="113106">Lazo</string>
     <string _locid="113107">Generar cuatrero</string>
@@ -40596,7 +40612,7 @@
     <string _locid="113156">Las Siete Leyes</string>
     <string _locid="113157">Cada vez que tu general o sacerdote es derribado, se genera un miliciano.</string>
     <string _locid="113158">En el momento de su creación o construcción, las siete unidades y edificios mexicanos únicos conceden más exp.</string>
-    <string _locid="113159">En el momento de su creación o construcción, las siete unidades y edificios mexicanos únicos conceden más exp., siempre que tengas al menos uno de cada.</string>
+    <string _locid="113159">Las siete unidades y edificios mexicanos únicos otorgan un 50 % más de EXP cuando se crean, pero solo si has creado al menos 1 de cada uno en esta partida.</string>
     <string _locid="113160">Todas las unidades mexicanas ganan más exp. por bajas.</string>
     <string _locid="113161">Todas las unidades mexicanas ganan más exp. por crear y por bajas.</string>
     <string _locid="113162">Las unidades ganan más exp. por crear y por bajas.</string>
@@ -40627,6 +40643,7 @@
     <string _locid="113187" symbol="cStringDetailHelpMercs">Mercenarios y forajidos disponibles:\n</string>
     <string _locid="113188">Encuentra el puesto comercial del poblado nativo.</string>
     <string _locid="113189">Encuentra el puesto comercial de la ruta.</string>
+    <string _locid="113190">La apuesta de Walker</string>
     <string _locid="200000">Banderas suecas</string>
     <string _locid="200001">Despliega banderas suecas en este edificio.</string>
     <string _locid="200002">Centro de comercio del Nuevo Mundo (verde)</string>

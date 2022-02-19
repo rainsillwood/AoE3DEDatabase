@@ -6711,7 +6711,7 @@
     <string _locid="36007">Miniera d'oro</string>
     <string _locid="36008">Estrai oro</string>
     <string _locid="36010">Via della seta</string>
-    <string _locid="36012">Tutte le casse contengono 125 unità di risorse anziché 100.</string>
+    <string _locid="36012">Tutte le casse contengono il 25% di risorse in più. Le rotte commerciali producono il 25% di risorse in più.</string>
     <string _locid="36013">SQUADRA Casse di denaro aumentate a 120 unità.</string>
     <string _locid="36014">Migliora le capacità in combattimento dell'esploratore ottomano, aumenta la sua velocità di movimento e gli fornisce un potente compagno a quattro zampe.</string>
     <string _locid="36015">Agha</string>
@@ -20201,7 +20201,7 @@
     <string _locid="49885">Supporto capo guerriero</string>
     <string _locid="49886">Abilità passiva: l'abilità passiva del capo guerriero azteco permette alle unità vicine di ottenere esperienza doppia.</string>
     <string _locid="49887">Abilità passiva: l'abilità passiva del capo guerriero lakota permette alle unità vicine di ottenere un +10% nella velocità di movimento.</string>
-    <string _locid="49888">Abilità passiva: l'abilità passiva del capo guerriero inca permette alle unità native vicine di ottenere un +20% di punti danno.</string>
+    <string _locid="49888">Abilità passiva: l'abilità passiva del capo guerriero inca permette ai guerrieri nativi vicini di ottenere un +10% d'attacco e di punti danno.</string>
     <string _locid="49889">Abilità passiva: l'abilità passiva del capo guerriero haudenosaunee permette alle unità vicine di ottenere un +10% di punti danno.</string>
     <string _locid="49890">Comunità</string>
     <string _locid="49891">Visita https://www.facebook.com/ageofempires/</string>
@@ -20233,7 +20233,7 @@
     <string _locid="49917">Stordisci un totale di 50 guardiani del tesoro con uno qualsiasi degli esploratori della dinastia asiatica.</string>
     <string _locid="49918">Sblocco icona profilo: un archibugiere che indossa un abito tang.</string>
     <string _locid="49919">Schiera tutti gli eserciti delle spedizioni della città madre, dell'accademia di guerra e del castello nei panni dei Cinesi (13 eserciti in totale).</string>
-    <string _locid="49920">Sblocco trucco: trucco leone guardiano cinese</string>
+    <string _locid="49920">Sblocca il trucco: Chinese Guardian Lion</string>
     <string _locid="49921">Infliggi 2022 danni con Asciaelsa la tigre domestica o Wagner la tigre bianca domestica nei panni degli Indiani.</string>
     <string _locid="49922">Sblocco icona profilo: una statua di tigre d'acqua, un dono di forza e coraggio.</string>
     <string _locid="49923">Paesaggio invernale è ora disponibile nel browser delle mod!</string>
@@ -20292,7 +20292,19 @@
     <string _locid="49972">Personalizzazione Maestro shaolin: Capitano Huang</string>
     <string _locid="49973">Respiro sacro</string>
     <string _locid="49974">Palla di cannone perla</string>
+    <string _locid="49975">Monaco (predefinito)\nQuesta è la versione predefinita del monaco.</string>
     <string _locid="49976">Evento Capodanno lunare</string>
+    <string _locid="49977">Seleziona le sfide economiche</string>
+    <string _locid="49978">Seleziona per aprire le sfide economiche e seleziona quali sfide impostare per questa sessione di gioco.</string>
+    <string _locid="49979">Sfide economiche</string>
+    <string _locid="49980">Le sfide economiche sono condivise tra tutte le civiltà e possono essere completate da qualsiasi civiltà nel corso della partita.</string>
+    <string _locid="49981">Sfide automatiche</string>
+    <string _locid="49982">Queste sfide vengono scelte automaticamente per bilanciare la partita.</string>
+    <string _locid="49983">Sfide aggiuntive</string>
+    <string _locid="49984">Selezionata da: {0}</string>
+    <string _locid="49985">Sfide aggiuntive selezionate dal giocatore.</string>
+    <string _locid="49986">Seleziona sfide aggiuntive</string>
+    <string _locid="49987">Sfide selezionate: {0}/{1}</string>
     <string _locid="60001" symbol="cStringCivNameJapanese">Giapponese</string>
     <string _locid="60002" symbol="cStringCivNameChinese">Cinese</string>
     <string _locid="60003" symbol="cStringCivNameIndians">Indiani</string>
@@ -20517,7 +20529,7 @@
     <string _locid="60222">Supporta 10 unità di popolazione.</string>
     <string _locid="60223">Reliquiario</string>
     <string _locid="60224">Reliquiario giapponese</string>
-    <string _locid="60225">Supporta {unitPopCapAddition(ypVillage)} unità di popolazione / costruzione recinto</string>
+    <string _locid="60225">Supporta {unitPopCapAddition(ypVillage)} unità di popolazione / edificio recinto</string>
     <string _locid="60226">Supporta 20 unità di popolazione che possono essere aumentate qui tramite dei miglioramenti. Inoltre, fa ingrassare il bestiame più velocemente e addestra le capre.</string>
     <string _locid="60227">Villaggio</string>
     <string _locid="60228">Villaggio</string>
@@ -21818,9 +21830,9 @@
     <string _locid="61522">Esercito principi elmo di ferro</string>
     <string _locid="61523">Esercito dell'Imperatore</string>
     <string _locid="61524">Esercito invincibile</string>
-    <string _locid="61525">1 lanciafiamme</string>
-    <string _locid="61526">2 lanciafiamme</string>
-    <string _locid="61527">4 lanciafiamme</string>
+    <string _locid="61525">1 lanciafiamme + 1 risciò-castello</string>
+    <string _locid="61526">2 lanciafiamme + 1 risciò-castello</string>
+    <string _locid="61527">4 lanciafiamme + 1 risciò-castello</string>
     <string _locid="61528">7 mortai a mano</string>
     <string _locid="61529">11 mortai a mano</string>
     <string _locid="61530">2 corvi volanti</string>
@@ -24297,7 +24309,7 @@
     <string _locid="64152">Alleati portoghesi</string>
     <string _locid="64153">Bonus: +0,8 all'afflusso di denaro\n\nAddestra: moschettieri, ruyter, mortai\n\nSpedizioni: edifici economici</string>
     <string _locid="64154">Alleati olandesi</string>
-    <string _locid="64155">Bonus: -10% tempo di addestramento dei coloni\n\nAddestra: cosacchi, colubrine, dragoni\n\nSpedizioni: edifici difensivi</string>
+    <string _locid="64155">Bonus: -10% tempo e costo di addestramento dei coloni\n\nAddestra: cosacchi, colubrine, dragoni\n\nSpedizioni: edifici difensivi</string>
     <string _locid="64156">Alleati russi</string>
     <string _locid="64157">Bonus: +0,8 velocità di acquisizione esperienza\n\nAddestra: picchieri, rodeleros, falconetti\n\nSpedizioni: potenziamenti per le spedizioni</string>
     <string _locid="64158">Alleati spagnoli</string>
@@ -24992,7 +25004,7 @@
     <string _locid="64852">Vessillo giapponese</string>
     <string _locid="64853">PROP YP Vessillo giapponese</string>
     <string _locid="64854">Quando viene costruito, il tempio del paradiso spedisce abitanti del villaggio e permette l'uso della Trascendenza per guarire rapidamente tutte le unità del giocatore, oltre a permettere al maestro shaolin di guarire le unità alleate.</string>
-    <string _locid="64855">Quando viene costruito, il tempio del paradiso spedisce abitanti del villaggio e permette l'uso della Trascendenza per guarire rapidamente tutte le unità del giocatore, oltre a permettere al maestro shaolin di guarire le unità alleate.\n----------\nSpedizioni ottenute alla costruzione:\nII: spedisce 3 abitanti del villaggio\nIII: spedisce 6 abitanti del villaggio\nIV: spedisce 10 abitanti del villaggio\nV: spedisce 20 abitanti del villaggio</string>
+    <string _locid="64855">Quando viene costruito, il tempio del paradiso spedisce abitanti del villaggio e permette l'uso della Trascendenza per guarire rapidamente tutte le unità del giocatore, oltre a permettere al maestro shaolin di guarire le unità alleate.\n----------\nSpedizioni ottenute alla costruzione:\nII: spedisce 3 abitanti del villaggio\nIII: spedisce 1 risciò-centro città\nIV: spedisce 3 risciò-risaia\nV: ricevi 1.200 esportazioni</string>
     <string _locid="64856">Tempio del paradiso</string>
     <string _locid="64857">MER Tempio del paradiso</string>
     <string _locid="64858">Una tenda.</string>
@@ -25000,15 +25012,15 @@
     <string _locid="64860">Tenda di guerra</string>
     <string _locid="64861">PROP YP Tenda di guerra</string>
     <string _locid="64862">Quando viene costruito, il tempio del paradiso spedisce abitanti del villaggio e permette l'uso della Trascendenza per guarire rapidamente tutte le unità del giocatore, oltre a permettere al maestro shaolin di guarire le unità alleate.</string>
-    <string _locid="64863">Quando viene costruito, il tempio del paradiso spedisce abitanti del villaggio e permette l'uso della Trascendenza per guarire rapidamente tutte le unità del giocatore, oltre a permettere al maestro shaolin di guarire le unità alleate.\n----------\nSpedizioni ottenute alla costruzione:\nII: spedisce 3 abitanti del villaggio\nIII: spedisce 6 abitanti del villaggio\nIV: spedisce 10 abitanti del villaggio\nV: spedisce 20 abitanti del villaggio</string>
+    <string _locid="64863">Quando viene costruito, il tempio del paradiso spedisce abitanti del villaggio e permette l'uso della Trascendenza per guarire rapidamente tutte le unità del giocatore, oltre a permettere al maestro shaolin di guarire le unità alleate.\n----------\nSpedizioni ottenute alla costruzione:\nII: spedisce 3 abitanti del villaggio\nIII: spedisce 1 risciò-centro città\nIV: spedisce 3 risciò-risaia\nV: ricevi 1.200 esportazioni</string>
     <string _locid="64864">Tempio del paradiso</string>
     <string _locid="64865">MER Tempio del paradiso</string>
     <string _locid="64866">Quando viene costruito, il tempio del paradiso spedisce abitanti del villaggio e permette l'uso della Trascendenza per guarire rapidamente tutte le unità del giocatore, oltre a permettere al maestro shaolin di guarire le unità alleate.</string>
-    <string _locid="64867">Quando viene costruito, il tempio del paradiso spedisce abitanti del villaggio e permette l'uso della Trascendenza per guarire rapidamente tutte le unità del giocatore, oltre a permettere al maestro shaolin di guarire le unità alleate.\n----------\nSpedizioni ottenute alla costruzione:\nII: spedisce 3 abitanti del villaggio\nIII: spedisce 6 abitanti del villaggio\nIV: spedisce 10 abitanti del villaggio\nV: spedisce 20 abitanti del villaggio</string>
+    <string _locid="64867">Quando viene costruito, il tempio del paradiso spedisce abitanti del villaggio e permette l'uso della Trascendenza per guarire rapidamente tutte le unità del giocatore, oltre a permettere al maestro shaolin di guarire le unità alleate.\n----------\nSpedizioni ottenute alla costruzione:\nII: spedisce 3 abitanti del villaggio\nIII: spedisce 1 risciò-centro città\nIV: spedisce 3 risciò-risaia\nV: ricevi 1.200 esportazioni</string>
     <string _locid="64868">Tempio del paradiso</string>
     <string _locid="64869">MER Tempio del paradiso</string>
     <string _locid="64870">Quando viene costruito, il tempio del paradiso spedisce abitanti del villaggio e permette l'uso della Trascendenza per guarire rapidamente tutte le unità del giocatore, oltre a permettere al maestro shaolin di guarire le unità alleate.</string>
-    <string _locid="64871">Quando viene costruito, il tempio del paradiso spedisce abitanti del villaggio e permette l'uso della Trascendenza per guarire rapidamente tutte le unità del giocatore, oltre a permettere al maestro shaolin di guarire le unità alleate.\n----------\nSpedizioni ottenute alla costruzione:\nII: spedisce 3 abitanti del villaggio\nIII: spedisce 6 abitanti del villaggio\nIV: spedisce 10 abitanti del villaggio\nV: spedisce 20 abitanti del villaggio</string>
+    <string _locid="64871">Quando viene costruito, il tempio del paradiso spedisce abitanti del villaggio e permette l'uso della Trascendenza per guarire rapidamente tutte le unità del giocatore, oltre a permettere al maestro shaolin di guarire le unità alleate.\n----------\nSpedizioni ottenute alla costruzione:\nII: spedisce 3 abitanti del villaggio\nIII: spedisce 1 risciò-centro città\nIV: spedisce 3 risciò-risaia\nV: ricevi 1.200 esportazioni</string>
     <string _locid="64872">Tempio del paradiso</string>
     <string _locid="64873">MER Tempio del paradiso</string>
     <string _locid="64874">Esplosione</string>
@@ -32549,6 +32561,7 @@
     <string _locid="79959" symbol="cStringFriendly">Amichevole</string>
     <string _locid="79960">Mappa grande</string>
     <string _locid="79961">Carica la variante più grande della mappa selezionata.</string>
+    <string _locid="79962">15 pecore + 1 carro-fattoria + 3 ulani</string>
     <string _locid="80000" symbol="cStringCultureInca">Inca</string>
     <string _locid="80001" symbol="cStringCivNameInca">Inca</string>
     <string _locid="80002" symbol="cStringCivRolloverInca">&lt;color=1.0, 1.0, 0.0&gt;Bonus civiltà:&lt;/color&gt;\nLe case kancha producono cibo. Riceve un chasqui gratuito con le spedizioni dell'età delle esplorazioni e con ogni avanzamento di età. I chasqui possono costruire i tambo (potenti basi commerciali che possono ricevere spedizioni e in cui i civili possono mettersi al sicuro). Le unità militari possono presidiare i kallanka e le roccaforti. Le sacerdotesse possono convertire i nemici e lavorare presso la piazza comunitaria.\n&lt;color=1.0, 1.0, 0.0&gt;Unità riservate:&lt;/color&gt;\nChasqui, lanciere piumato, corridore chimu, arciere della giungla, guerriero bolas, guerriero con huaraca, guerriero con mazza, sacerdotessa e zattera chincha.\n&lt;color=1.0, 1.0, 0.0&gt;Edifici riservati:&lt;/color&gt;\nKallanka, roccaforte, casa kancha e tambo\n&lt;color=1.0, 1.0, 0.0&gt;Cerimonie riservate:&lt;/color&gt;\nCerimonia della luna e cerimonia di Supay\n\nUn vasto impero sudamericano noto per la potenza delle sue mura e la sua saggia amministrazione.</string>
@@ -32687,8 +32700,8 @@
     <string _locid="80135">Guarisce le unità ferite e converte le unità nemiche.</string>
     <string _locid="80136">Casa kancha</string>
     <string _locid="80137">Casa kancha</string>
-    <string _locid="80138">Supporta 16 unità di popolazione e produce cibo.</string>
-    <string _locid="80139">Casa inca che supporta 16 unità di popolazione e produce cibo.</string>
+    <string _locid="80138">Supporta 15 unità di popolazione e produce cibo.</string>
+    <string _locid="80139">Casa inca che supporta 15 unità di popolazione e produce cibo.</string>
     <string _locid="80140">Kallanka</string>
     <string _locid="80141">Kallanka</string>
     <string _locid="80142">Edificio di fanteria d'élite</string>
@@ -32921,7 +32934,7 @@
     <string _locid="80549">Punti danno della fanteria a distanza</string>
     <string _locid="80550">Punti danno guerriero con huaraca, guerriero bolas e arciere della giungla aumentato.</string>
     <string _locid="80551">Kamayuk quipu</string>
-    <string _locid="80552">Aumenta notevolmente il campo visivo e la velocità dei chasqui. I tambo aumentano i punti danno delle unità vicine.</string>
+    <string _locid="80552">Aumenta notevolmente il campo visivo e la velocità dei chasqui inoltre permette loro di raccogliere tesori. I tambo aumentano i punti danno delle unità vicine.</string>
     <string _locid="80553">I kamayuk quipu sono arrivati.</string>
     <string _locid="80554">Posizione elevata</string>
     <string _locid="80555">La posizione elevata delle costruzioni inca fornisce un campo visivo e una gittata d'attacco più ampia.</string>
@@ -34041,7 +34054,7 @@
     <string _locid="84208" referencedplayerid="1" gamecharacter="Ermak" soundfilename="ZYERM0000" portraitfilename="resources\art\units\spc\yermak_timofeyevich\yermak_timofeyevich_portrait.png">I Tartari sono ovunque! Non sbarcare qui. Dobbiamo continuare!</string>
     <string _locid="84209" referencedplayerid="1" gamecharacter="Ermak" soundfilename="ZYERM0005" portraitfilename="resources\art\units\spc\yermak_timofeyevich\yermak_timofeyevich_portrait.png">La torre di osservazione su quell'isola ci riempirà di buchi se non ci muoviamo velocemente. Non sparate e superiamola rapidamente!</string>
     <string _locid="84210" referencedplayerid="1" gamecharacter="Ermak" soundfilename="ZYERM0010" portraitfilename="resources\art\units\spc\yermak_timofeyevich\yermak_timofeyevich_portrait.png">Non possiamo continuare in barca! Delle rocce frastagliate bloccano il fiume! Dovremo sbarcare qui e continuare a piedi!</string>
-    <string _locid="84211" referencedplayerid="3" gamecharacter="Colono" soundfilename="ZGENR0025" portraitfilename="resources\art\units\villagers\villager_portrait.png">I Tartari hanno dato fuoco al nostro villaggio madre! Ti aiuteremo a creare un accampamento... ma tu vendica i nostri fratelli, Ermak!</string>
+    <string _locid="84211" referencedplayerid="3" gamecharacter="Colono" soundfilename="ZGENR0025" portraitfilename="resources\art\units\villagers\villager_portrait_male.png">I Tartari hanno dato fuoco al nostro villaggio madre! Ti aiuteremo a creare un accampamento... ma tu vendica i nostri fratelli, Ermak!</string>
     <string _locid="84212" referencedplayerid="1" gamecharacter="Ermak" soundfilename="ZYERM0015" portraitfilename="resources\art\units\spc\yermak_timofeyevich\yermak_timofeyevich_portrait.png">I Tartari razziano i villaggi russi. Uomini, se volete un fuoco caldo e del cibo buono, venite a bruciare i campi tartari e la loro maledetta fortezza!</string>
     <string _locid="84213" referencedplayerid="1" gamecharacter="Ermak" soundfilename="ZYERM0020" portraitfilename="resources\art\units\spc\yermak_timofeyevich\yermak_timofeyevich_portrait.png">Argh! Vot blin! Non siamo stati abbastanza veloci. I Tartari hanno bruciato il villaggio. Se volete del cibo caldo, l'unico posto dove trovarlo è l'accampamento tartaro. Avanti, cosacchi! Andiamo a cena!</string>
     <string _locid="84214" referencedplayerid="1" gamecharacter="Ermak" soundfilename="ZYERM0025" portraitfilename="resources\art\units\spc\yermak_timofeyevich\yermak_timofeyevich_portrait.png">Avevo iniziato a temere di aver assoldato dei deboli pastorelli a cui manca la loro babushka... ma devo ricredermi: voi siete forti uomini russi! L'accampamento tartaro è stato distrutto!</string>
@@ -38101,7 +38114,7 @@
     <string _locid="104564">5 guerrieri con mazza</string>
     <string _locid="104565">8 guerrieri con huaraca</string>
     <string _locid="104566">6 guerrieri con huaraca</string>
-    <string _locid="104567">10 guerrieri bolas</string>
+    <string _locid="104567">8 guerrieri bolas</string>
     <string _locid="104568">Invia 1 cavaliere predone giaguaro per ogni 2 che hai perso finora (fino a un massimo di 16 unità).</string>
     <string _locid="104569">Gladiatori rituali</string>
     <string _locid="104570">Invia 1 cavaliere del teschio per ogni 2 che hai perso finora (fino a un massimo di 13).</string>
@@ -38174,7 +38187,7 @@
     <string _locid="104635">Punti danno della cavalleria aumentati. I dragoni possono essere reclutati nell'età del commercio.</string>
     <string _locid="104636">1 nave corsara</string>
     <string _locid="104637">Risciò-consolato</string>
-    <string _locid="104638">Spedisce 1 risciò-consolato e fornisce un afflusso costante di esportazione.</string>
+    <string _locid="104638">Spedisce 1 risciò-consolato e 100 esportazioni da spendere. Conferisce anche un flusso costante di esportazione in modo permanente.</string>
     <string _locid="104639">Esportazione di tè</string>
     <string _locid="104640">Manuale drago di fuoco</string>
     <string _locid="104641">Invia 2 corvi volanti. Migliora leggermente la loro cadenza di fuoco.</string>
@@ -38203,6 +38216,9 @@
     <string _locid="104664">Spedizione: 1200 esportazioni\n \nPotere: Trascendenza, cura tutte le unità. I monaci possono curare unità.</string>
     <string _locid="104665">Invia un certo numero di truppe di ferro e riduce il costo in risorse delle carte.</string>
     <string _locid="104666">Le carte che costano risorse sono più economiche e offrono truppe di ferro bonus.</string>
+    <string _locid="104667">Sfuriata da battaglia (caricata)</string>
+    <string _locid="104668">Sfuriata da battaglia</string>
+    <string _locid="104669">Abilità caricata: lancia degli esplosivi da un lanciagranate per infliggere danni in un'area più ampia e a una gittata maggiore.</string>
     <string _locid="104800">SQUADRA 1 costruttore di accampamenti</string>
     <string _locid="104801">SQUADRA Impero commerciale</string>
     <string _locid="104802">Ottieni un costruttore di basi commerciali e le basi commerciali costano meno e sono più resistenti.</string>
@@ -38875,7 +38891,7 @@
     <string _locid="110448">Quercia della Virginia</string>
     <string _locid="110449">Le tecnologie del mercato dell'età delle esplorazioni e dell'età del commercio sono gratuite. Migliora il tasso di scambio del mercato.</string>
     <string _locid="110450">Economia hamiltoniana</string>
-    <string _locid="110451">I saloon ora supportano la popolazione e possono essere costruiti nell'età delle esplorazioni. Il limite di costruzione del saloon è aumentato e anche i carri militari possono costruirli.</string>
+    <string _locid="110451">I saloon ora supportano la popolazione e possono essere costruiti nell'età delle esplorazioni. Il limite di costruzione del saloon è aumentato.</string>
     <string _locid="110452">Saloon avanzato</string>
     <string _locid="110453">Spedisce 400 unità di legname. Gli abitanti del villaggio raccolgono legname più velocemente.\n • Abitante del villaggio: +10% velocità di raccolta da alberi e boschetti.</string>
     <string _locid="110454">Segherie di Washington</string>
@@ -39826,9 +39842,9 @@
     <string _locid="112354">Alleanza tlaxcala</string>
     <string _locid="112355">Spedisce 2 coloni. Ogni hacienda nuova ed esistente genera 2 coloni.</string>
     <string _locid="112356">Tessuti tlaxcala</string>
-    <string _locid="112357">Spedisce 4 giavellottieri maya holcan per ogni hacienda che hai costruito.</string>
+    <string _locid="112357">Spedisce 3 giavellottisti maya holcan per ogni hacienda che hai costruito.</string>
     <string _locid="112358">Rivolta degli Tzotzil</string>
-    <string _locid="112359">Tutte le hacienda esistenti e nuove generano colture maya contenenti 350 unità di cibo.</string>
+    <string _locid="112359">Tutte le hacienda esistenti e nuove generano colture maya contenenti 300 unità di cibo.</string>
     <string _locid="112360">Colture maya</string>
     <string _locid="112361">Arriva velocemente! Il tuo prossimo Stato federale fornisce la sua ricompensa due volte. Il prossimo potenziamento della caserma è gratuito.</string>
     <string _locid="112362">Riforme di Arteaga</string>
@@ -40143,7 +40159,7 @@
     <string _locid="112681">Tattiche di guerilla</string>
     <string _locid="112682">I salteador ottengono una gittata maggiore e i loro attacchi rivelano i nemici per più tempo.</string>
     <string _locid="112683">Osservatori</string>
-    <string _locid="112684">Equipaggia tutti gli insurgente con moschetti.</string>
+    <string _locid="112684">Equipaggia tutti gli insurgente con moschetti e aumenta la loro velocità di addestramento.</string>
     <string _locid="112685">Reservista</string>
     <string _locid="112686">L'attacco degli insurgente e la velocità di movimento sono migliorati.</string>
     <string _locid="112687">Machete</string>
@@ -40187,11 +40203,11 @@
     <string _locid="112725">Caccia grossa (caricata)</string>
     <string _locid="112726">Demolizione con dinamite (caricata)</string>
     <string _locid="112727">Sparatoria</string>
-    <string _locid="112728">Azione caricata: esplode colpi da entrambe le pistole rapidamente per una breve durata.</string>
+    <string _locid="112728">Abilità caricata: esplode colpi da entrambe le pistole rapidamente per una breve durata.</string>
     <string _locid="112729">Caccia grossa</string>
-    <string _locid="112730">Azione caricata: intrappola i nemici con un lazo per rallentarli.</string>
+    <string _locid="112730">Abilità caricata: intrappola i nemici con un lazo per rallentarli.</string>
     <string _locid="112731">Demolizione con dinamite</string>
-    <string _locid="112732">Azione caricata: lancia la dinamite per infliggere enormi danni ad area.</string>
+    <string _locid="112732">Abilità caricata: lancia la dinamite per infliggere enormi danni ad area.</string>
     <string _locid="112733">SALOON Tiratore</string>
     <string _locid="112734">SALOON Cowboy</string>
     <string _locid="112735">SALOON Brigante</string>
@@ -40316,7 +40332,7 @@
     <string _locid="112876">Bastimento</string>
     <string _locid="112877">Tutti i coloni si trasformano di nuovo in rivoluzionari. Consente di inviare nuovamente la maggior parte delle carte unità che hai già inviato.</string>
     <string _locid="112878">Piano di Monterrey</string>
-    <string _locid="112879">Spedisce 1 colono per ogni 3 rivoluzionari che hai perso finora in questa partita (fino a un massimo di 80).</string>
+    <string _locid="112879">Spedisce 1 colono per ogni 3 rivoluzionari che hai perso finora in questa partita (fino a un massimo di 85).</string>
     <string _locid="112880">Repubblica di Sierra Madre</string>
     <string _locid="112881">I chinaco ottengono l'abilità Manovra di Zapata che consente a tutti i chinaco di muoversi senza essere visti e senza perdere velocità di movimento.</string>
     <string _locid="112882">Manovre di Zapata</string>
@@ -40346,7 +40362,7 @@
     <string _locid="112906">Ceramiche maya</string>
     <string _locid="112907">Tutte le basi commerciali generano un afflusso costante di PE.</string>
     <string _locid="112908">Cenote</string>
-    <string _locid="112909">Spedisce 4 razzi e 12 giubbe rosse.</string>
+    <string _locid="112909">Spedisce 4 razzi e 12 giubbe rosse. Migliora significativamente i punti danno cannoni leggeri.</string>
     <string _locid="112910">Commercio britannico di armamenti</string>
     <string _locid="112911">Ogni hacienda e centro città esistente e di nuova costruzione genera 3 abitanti nativi del villaggio.</string>
     <string _locid="112912">Huipil</string>
@@ -40402,7 +40418,7 @@
     <string _locid="112962">Catracho</string>
     <string _locid="112963">Catracho</string>
     <string _locid="112964">REV Catracho</string>
-    <string _locid="112965">La bandiera ispiratrice può essere piantata ovunque e fa sì che le abilità caricate si ricarichino molto più velocemente.</string>
+    <string _locid="112965">La bandiera ispiratrice può essere piantata ovunque e fa sì che le abilità dei fuorilegge e delle basi commerciali si ricarichino molto più velocemente.</string>
     <string _locid="112966">Terra di Walker</string>
     <string _locid="112967">Ostruzionista</string>
     <string _locid="112968">REV Ostruzionista</string>
@@ -40506,7 +40522,7 @@
     <string _locid="113066">Visita delle Sette Case</string>
     <string _locid="113067">Concede +5 PE per ogni unità che hai perso finora in questa partita.</string>
     <string _locid="113068">Giorno dei morti</string>
-    <string _locid="113069">Il tuo generale ora aumenta anche il morale, come la bandiera ispiratrice. Può anche ricevere spedizioni dalla città madre e addestrare soldado.\n • Aura ispiratrice: non si somma alla bandiera</string>
+    <string _locid="113069">Il tuo generale ora aumenta anche il morale, come la bandiera ispiratrice. Può anche ricevere spedizioni dalla città madre e addestrare soldado lentamente.\n • Aura ispiratrice: non si somma alla bandiera</string>
     <string _locid="113070">Uomo del Destino</string>
     <string _locid="113071">Spedisce 1 carro-forte. I forti hanno più campo visivo e infliggono danni extra contro gli eroi.</string>
     <string _locid="113072">Castello di Chapultepec</string>
@@ -40541,7 +40557,7 @@
     <string _locid="113101">Costruttore d'industria</string>
     <string _locid="113102">16 insurgente yucatechi</string>
     <string _locid="113103">I Vecchi Trecento</string>
-    <string _locid="113104">Spedisce 1 cittadino per ogni edificio che hai costruito (fino a un massimo di 80). Attiva i cittadini nei centri città.</string>
+    <string _locid="113104">Spedisce 1 cittadino per ogni edificio che hai costruito (fino a un massimo di 85). Attiva i cittadini nei centri città.</string>
     <string _locid="113105">Allevamento in California</string>
     <string _locid="113106">Lazo</string>
     <string _locid="113107">Creazione di cuatrero</string>
@@ -40596,7 +40612,7 @@
     <string _locid="113156">Sette leggi</string>
     <string _locid="113157">Ogni volta che il tuo generale o Padre viene messo fuori combattimento, si genera un miliziano.</string>
     <string _locid="113158">Tutte e sette le unità e gli edifici riservati messicani forniscono più PE al momento della costruzione.</string>
-    <string _locid="113159">Tutte e sette le unità e gli edifici riservati messicani forniscono molti più PE al momento della costruzione, purché tu ne possieda almeno uno di ciascuno.</string>
+    <string _locid="113159">Tutte e sette le unità e gli edifici riservati a Messicani forniscono il 50% di PE in più al momento della costruzione, purché tu ne possieda almeno 1 di ciascuno in questa partita.</string>
     <string _locid="113160">Tutte le unità messicane ottengono più PE uccisione.</string>
     <string _locid="113161">Tutte le unità messicane ottengono più PE creazione e uccisione.</string>
     <string _locid="113162">Le unità guadagnano più PE creazione e uccisione.</string>
@@ -40627,6 +40643,7 @@
     <string _locid="113187" symbol="cStringDetailHelpMercs">Mercenari e fuorilegge disponibili:\n</string>
     <string _locid="113188">Trova una base commerciale di un sito di Nativi</string>
     <string _locid="113189">Trova una base commerciale lungo una rotta commerciale</string>
+    <string _locid="113190">L'azzardo di Walker</string>
     <string _locid="200000">Bandiere svedesi</string>
     <string _locid="200001">Metti in mostra bandiere svedesi su questo edificio.</string>
     <string _locid="200002">Centro per il commercio nel Nuovo Mondo (verde)</string>
