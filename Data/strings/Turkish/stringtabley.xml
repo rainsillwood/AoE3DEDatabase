@@ -279,6 +279,7 @@
     <string _locid="19036" symbol="cStringEconomy">Ekonomi</string>
     <string _locid="19037" symbol="cStringMilitaryDetail">Askeri puanları ayrıntılı incele.</string>
     <string _locid="19038" symbol="cStringMilitary">Askeri</string>
+    <string _locid="19039" symbol="cStringEconomyFilter">Ekonomi (Sıralı Değil)</string>
     <string _locid="19041" symbol="cStringGameStatistics">Daha fazla gelişmiş oyun istatistikleri görüntüle.</string>
     <string _locid="19042" symbol="cStringExperienceDetail">Tecrübe puanlarını ayrıntılı incele.</string>
     <string _locid="19043" symbol="cStringExperience">Tecrübe</string>
@@ -1154,7 +1155,7 @@
     <string _locid="22177" symbol="cStringStartupLoadingSounds">Sesler yükleniyor...</string>
     <string _locid="22178" symbol="cStringEditorNewScenarioBlankType">Boş</string>
     <string _locid="22179">Oyunu Geri Yükle</string>
-    <string _locid="22180" symbol="cStringESOBadPassword">Şifreler boşluk ve şu karakterleri içeremez: $ "&lt;&gt; ( ) ;</string>
+    <string _locid="22180" symbol="cStringESOBadPassword">Şifreler boşluk ve şu karakterleri içeremez: $ " &lt;&gt; ( ) ;</string>
     <string _locid="22201" symbol="cStringMultiple">Çoklu</string>
     <string _locid="22203" symbol="cStringAbstractNameWood">Odun</string>
     <string _locid="22204" symbol="cStringAbstractNameFood">Yiyecek</string>
@@ -1476,7 +1477,7 @@
     <string _locid="22749" symbol="cStringESOPasswordCantContainNickname">Takma adın şifrende yer alamaz.</string>
     <string _locid="22750" symbol="cStringESOSecretQuestionRules">Gizli sorun ve yanıtı aynı olamaz.</string>
     <string _locid="22751" symbol="cStringESOSecretQuestionPassword">Gizli sorun ve yanıtı, şifreni içeremez.</string>
-    <string _locid="22752" symbol="cStringESOSecretQuestionChars">Gizli sorun ve yanıtı $ &amp; ( ) ; "&lt;&gt; içeremez</string>
+    <string _locid="22752" symbol="cStringESOSecretQuestionChars">Gizli sorun ve yanıtı $ &amp; ( ) ; " &lt;&gt; içeremez</string>
     <string _locid="22804">Değirmen</string>
     <string _locid="22805">Silahşor</string>
     <string _locid="22806">Yerleşimci</string>
@@ -1696,7 +1697,7 @@
     <string _locid="23527">Komançi Beygirleri</string>
     <string _locid="23529">Atların seçici olarak yetiştirilmesi süvari türündeki birimlerin darbe puanını artırır.</string>
     <string _locid="23530">Komançi At Yetiştiriciliği</string>
-    <string _locid="23540">Aztek yüzen bahçe yöntemlerini kullanarak Köylülerin Değirmenlerden ve Teknelerin de Balık ve Balinalardan daha hızlı bir şekilde Yiyecek toplar.</string>
+    <string _locid="23540">Yüzen bahçe yöntemlerini kullanarak Köylülerin Değirmenlerden ve Teknelerin de Balık ve Balinalardan daha hızlı bir şekilde Yiyecek toplar.</string>
     <string _locid="23541">Aztek Chinampa</string>
     <string _locid="23546">Havan Topu Mermisi</string>
     <string _locid="23559" symbol="cStringRed">Kırmızı</string>
@@ -2182,7 +2183,7 @@
     <string _locid="25336">IGC Nonahkee</string>
     <string _locid="25337">IGC Şahin</string>
     <string _locid="25338">IGC Warwick</string>
-    <string _locid="25339">Yaralı birimleri iyileştirir.</string>
+    <string _locid="25339">Hızlı bir bineği olan eşsiz İspanyol şifacı. Nüfusa mal olmaz.</string>
     <string _locid="25340">Misyoner</string>
     <string _locid="25343">Gruplamayı Belirle</string>
     <string _locid="25344" symbol="cStringTrEffectPanWithUnit">Kamera Birimi Takip Et</string>
@@ -2372,7 +2373,7 @@
     <string _locid="25664">El gücü piyadesi paralı askeri</string>
     <string _locid="25665">Yiyecek binası</string>
     <string _locid="25666">Kısa süreli menzilli piyade</string>
-    <string _locid="25667">Şifacı</string>
+    <string _locid="25667">Hızlı atlı Şifacı</string>
     <string _locid="25668">Kuşatma topçusu</string>
     <string _locid="25669">Ağır menzilli piyade</string>
     <string _locid="25670">Kızılderili el gücü süvarisi</string>
@@ -3356,8 +3357,8 @@
     <string _locid="27776">Şampiyon Huaminca</string>
     <string _locid="27778">Şampiyon Kartal Savaşçı</string>
     <string _locid="27779">Şampiyon Mantlet</string>
-    <string _locid="27780" symbol="cStringNuggetafCorsairLoot" comment="1 - amount, 2 - resource">Bir korsan kaptanının %1d %2s ve bir sevkiyat değerindeki gizli sığınağı.</string>
-    <string _locid="27781" symbol="cStringNuggetafCorsairLootActivate" comment="1 - player, 2 - amount, 3 - resource">%1s, bir korsan kaptanının %2d %3s ve bir sevkiyat değerindeki gizli sığınağını keşfetti.</string>
+    <string _locid="27780" symbol="cStringNuggetafCorsairLoot" comment="1 - amount, 2 - resource">Bir korsan kaptanının %2d %3s ve %4d %5s değerindeki gizli sığınağı.</string>
+    <string _locid="27781" symbol="cStringNuggetafCorsairLootActivate" comment="1 - player, 2 - amount, 3 - resource">%1s, bir korsan kaptanının %2d %3s ve %4d %5s değerindeki gizli sığınağını keşfetti.</string>
     <string _locid="27835">Şehrine güçlü bir Hisar inşa etmeni sağlayan bir Hisar At Arabası gönderir.</string>
     <string _locid="27836">Hisar</string>
     <string _locid="27844">BAŞLANGIÇ TEKNOLOJİLERİ</string>
@@ -3798,7 +3799,7 @@
     <string _locid="29468">Kabin inşa et</string>
     <string _locid="29469">Arbaletçi</string>
     <string _locid="29470">Çoklu Arbaletçi</string>
-    <string _locid="29471">Uzun Yaylı</string>
+    <string _locid="29471">Uzun Yaylı / Korucu</string>
     <string _locid="29472">Çoklu Uzun Yaylı</string>
     <string _locid="29473">Yeniçeri</string>
     <string _locid="29474">Çoklu Yeniçeri</string>
@@ -4265,6 +4266,8 @@
     <string _locid="31144">Buz veya Kaya Köprüleri yıkmak için üzerlerinde görevlendir. Menzilli saldırı ve elle saldırıya sahiptir.</string>
     <string _locid="31145">Madenci</string>
     <string _locid="31146">SPC Madenci</string>
+    <string _locid="31147">Bilinmeyen Madenci</string>
+    <string _locid="31148">Madenlerden son derece hızlı Sikke toplar ancak diğer Sikke kaynaklarından yavaş toplar. Güçlü bir el bombası saldırısı vardır.</string>
     <string _locid="31153" symbol="cStringNuggetKinkajou" comment="1 - amount, 2 - resource">%1d %2s değerinde sevimli bir kinkaju.</string>
     <string _locid="31154" symbol="cStringNuggetKinkajouActivate" comment="1 - player, 2 - amount, 3 - resource">%1s, %2d %3s değerinde sevimli bir kinkaju buldu.</string>
     <string _locid="31155" symbol="cStringNuggetSloth" comment="1 - amount, 2 - resource">%1d %2s değerinde ürkek iki parmaklı tembel hayvan.</string>
@@ -4836,7 +4839,7 @@
     <string _locid="32909" symbol="cStringAbilityRolloverSharpshooter">Hazine muhafızlarını tek vuruşla öldürür.</string>
     <string _locid="32910" symbol="cStringAbilityNameBroadside">Borda Saldırısı</string>
     <string _locid="32911" symbol="cStringAbilityRolloverBroadside">Bir hedefe tüm silahlarla ateş et.</string>
-    <string _locid="32912">Ön cepheden 26 Roger'in Korucuları (Avcı Erleri) gönderir.</string>
+    <string _locid="32912">Ön cepheden birkaç Korucu (Avcı Eri) gönderir.</string>
     <string _locid="32913">Roger'in Korucuları</string>
     <string _locid="32914">Osmanlılar kudretli Tufancı Sınıfını topladı!</string>
     <string _locid="32915">Nöbetçi Avcı Eri</string>
@@ -5203,7 +5206,7 @@
     <string _locid="33477">Yeniçerilere alevli çemberler fırlatan Malta Şövalyeleri.</string>
     <string _locid="33478">Çember Atan</string>
     <string _locid="33479">SPC Çember Atan</string>
-    <string _locid="33486">Savaş gemilerinin darbe puanı ve görüş hattı artar.</string>
+    <string _locid="33486">Savaş gemilerinin darbe puanı ve görüş hattı artar. İspanyol Savaş Gemilerinin belirli Askeri Birimleri eğitmesini sağlar.</string>
     <string _locid="33487">Armada</string>
     <string _locid="33492">Bütün özgün Osmanlı Cami yükseltmeleri %60 daha ucuza mal olur.</string>
     <string _locid="33493">Cami İnşaatı</string>
@@ -5507,7 +5510,7 @@
     <string _locid="33973" symbol="cStringmercaddIncCountFld">Sayım Artışı:</string>
     <string _locid="33974">Bataklık Bitkileri Bayou</string>
     <string _locid="33975">PROP Bataklık Bitkileri Bayou</string>
-    <string _locid="33976">Yoğun Aztek savaş eğitimi, Kahramanlarına daha fazla darbe puanı ve saldırı kazandırır.</string>
+    <string _locid="33976">Yoğun savaş eğitimi, Kahramanlarına daha fazla darbe puanı ve saldırı kazandırır.</string>
     <string _locid="33977">Aztek Kabul Töreni</string>
     <string _locid="33978" symbol="cStringMercenaryEditorErrorMsg1">Bu paralı asker birimi zaten listeye eklenmiş. Birden fazla kopyaya izin verilmez.</string>
     <string _locid="33979" symbol="cStringmerceditEditBtn">Paralı Askeri Düzenle</string>
@@ -6217,7 +6220,8 @@
     <string _locid="35298">Havan Toplarını ve Atlı Topçuları Hisar Çağı'na geçirir.</string>
     <string _locid="35299">Gelişmiş Topçuluk</string>
     <string _locid="35307">Levazımcı</string>
-    <string _locid="35308">Uzun Yaylı menzili artar.</string>
+    <string _locid="35308">Uzun Yaylıların oklarını daha uzağa fırlatabilir.</string>
+    <string _locid="35309">Uzun Yaylılar Ağır Piyadelere daha fazla hasar verir ve daha fazla menzil kazanırlar.</string>
     <string _locid="35317">Silahşor ve El Bombacısı saldırısı ve darbe puanı artar.</string>
     <string _locid="35318">Silahşor / El Bombacısı Çarpışması</string>
     <string _locid="35319">Hüssar ve Ejder darbe puanı artar.</string>
@@ -6493,7 +6497,7 @@
     <string _locid="35732">8 Mızraklı Asker</string>
     <string _locid="35733">10 Mızraklı Asker</string>
     <string _locid="35734">8 Rodelero</string>
-    <string _locid="35735">13 Rodelero</string>
+    <string _locid="35735">16 Rodelero</string>
     <string _locid="35736">9 Rodelero</string>
     <string _locid="35737">4 Hüssar</string>
     <string _locid="35738">6 Mızraklı Süvari</string>
@@ -7519,8 +7523,8 @@
     <string _locid="36937">Üç nesil boyunca, bir aile Yeni Dünya'nın unutulmuş bir sırrını tehlikeli bir düşmanın ellerine düşmekten koruyor.</string>
     <string _locid="36938" symbol="cStringNuggetCoureur">Tuzağa düşmüş bir Coureur des Bois. Onu kurtaran kişinin gayesine ortak olabilir.</string>
     <string _locid="36939" symbol="cStringNuggetCoureurActivate">%1s, gayesine ortak olacak bir Coureur des Bois kurtardı.</string>
-    <string _locid="36940" symbol="cStringNuggetNative">Tuzağa düşmüş bir Kızılderili savaşçı. Onu kurtaran gayesine ortak olabilir.</string>
-    <string _locid="36941" symbol="cStringNuggetNativeActivate">%1s, gayesine ortak olacak bir Kızılderili savaşçıyı kurtardı.</string>
+    <string _locid="36940" symbol="cStringNuggetNative">Tuzağa düşmüş bir Yerli savaşçı. Onu kurtaran kişinin gayesine ortak olabilir.</string>
+    <string _locid="36941" symbol="cStringNuggetNativeActivate">%1s, gayesine ortak olacak bir Yerli savaşçı kurtardı.</string>
     <string _locid="36942" symbol="cStringNuggetPrisSettler">Kurtarıcısının gayesine ortak olacak, tuzağa düşmüş bir Yerleşimci.</string>
     <string _locid="36943" symbol="cStringNuggetPrisSettlerActivate">%1s, gayesine ortak olacak bir Yerleşimciyi kurtardı.</string>
     <string _locid="36944" symbol="cStringNuggetPrisSurgeon">Kurtarıcısının gayesine ortak olacak, tuzağa düşmüş bir şifacı.</string>
@@ -13747,7 +13751,7 @@
     <string _locid="43349">Herhangi Bir Gruptan Çıkar</string>
     <string _locid="43350">Kâşif bul</string>
     <string _locid="43351">At Arabası bul</string>
-    <string _locid="43352">Kışla, Korugan veya Savaş Kampı bul</string>
+    <string _locid="43352">Kışla, Korugan, Savaş Akademisi veya Savaş Kampı bul</string>
     <string _locid="43353">Kongre Binası bul</string>
     <string _locid="43354">Sahra Hastanesi bul</string>
     <string _locid="43355">Sur inşa et</string>
@@ -14627,9 +14631,9 @@
     <string _locid="44228">8 Çakal Akıncı</string>
     <string _locid="44229">12 Çakal Akıncı</string>
     <string _locid="44230">Çakal Akıncı hızı ve darbe puanı artar.</string>
-    <string _locid="44231">Çakal Çarpışması</string>
+    <string _locid="44231">Çakal Taktikleri</string>
     <string _locid="44232">Piyade Çarpışması Sevkiyatı ulaştı.</string>
-    <string _locid="44233">Çakal Çarpışması Sevkiyatı ulaştı.</string>
+    <string _locid="44233">Çakal Taktikleri Sevkiyatı ulaştı.</string>
     <string _locid="44234">9 Mızraklı Puma</string>
     <string _locid="44235">6 Mızraklı Puma</string>
     <string _locid="44236">8 Otontin Sapancısı</string>
@@ -15488,7 +15492,7 @@
     <string _locid="45087">Reis</string>
     <string _locid="45088">En iyi Savaş Reisi Darbe saldırısı ve Savaş Reisi'nin darbe puanını %50 geliştirir.</string>
     <string _locid="45089">Reis</string>
-    <string _locid="45090">+%10 Savaş/Asil Kulübesi sdr/sp ve 1 Savaş Kulübesi Travoisi.</string>
+    <string _locid="45090">+%10 Savaş Kulübesi &amp; Asil Kulübesi saldırı ve darbe puanı; 1 Savaş Kulübesi Travoisi.</string>
     <string _locid="45091">İhtiyar</string>
     <string _locid="45092">2 Tarla Travoisi</string>
     <string _locid="45093">İhtiyar</string>
@@ -15523,11 +15527,11 @@
     <string _locid="45122">Zapotec savaşçısı saldırısı ve darbe puanı artar.</string>
     <string _locid="45123">GÖLGE Aztek Kabadayısı</string>
     <string _locid="45124">Elit Yıldırım Savaşçısı</string>
-    <string _locid="45125">+%10 Savaş/Asil Kulübesi sdr/sp ve 2 Asil Kulübesi Travoisi.</string>
+    <string _locid="45125">+%10 Savaş Kulübesi &amp; Asil Kulübesi saldırı ve darbe puanı; 2 Asil Kulübesi Travoisi.</string>
     <string _locid="45126">İhtiyar</string>
-    <string _locid="45127">+%30 Savaş/Asil Kulübesi sdr/sp ve 2 Asil Kulübesi Travoisi.</string>
+    <string _locid="45127">+%30 Savaş Kulübesi &amp; Asil Kulübesi saldırı ve darbe puanı; 2 Asil Kulübesi Travoisi.</string>
     <string _locid="45128">İhtiyar</string>
-    <string _locid="45129">+%50 Savaş/Asil Kulübesi sdr/sp ve 2 Asil Kulübesi Travoisi.</string>
+    <string _locid="45129">+%50 Savaş Kulübesi &amp; Asil Kulübesi saldırı ve darbe puanı; 2 Asil Kulübesi Travoisi.</string>
     <string _locid="45130">İhtiyar</string>
     <string _locid="45131">400 Odun</string>
     <string _locid="45132">Reis</string>
@@ -17356,7 +17360,7 @@
     <string _locid="46966">2 Atlı Topçu</string>
     <string _locid="46967">3 Atlı Topçu</string>
     <string _locid="46968">1 Ağır Top +4 Uhlan</string>
-    <string _locid="46969">10 Rodelero</string>
+    <string _locid="46969">14 Rodelero</string>
     <string _locid="46970">6 El Bombacısı</string>
     <string _locid="46971">8 Teberli Piyade</string>
     <string _locid="46972">7 Okçu Süvari</string>
@@ -17411,7 +17415,7 @@
     <string _locid="47021" gamecharacter="Demir Yolu İşçisi" soundfilename="XGENR9292" portraitfilename="resources\art\units\spc\miner\miner_portrait.png">Bizi kurtar!</string>
     <string _locid="47022" gamecharacter="Demir Yolu İşçisi" soundfilename="XGENR9293" portraitfilename="resources\art\units\spc\miner\miner_portrait.png">Şehirden kaç!</string>
     <string _locid="47023" gamecharacter="Demir Yolu İşçisi" soundfilename="XGENR9294" portraitfilename="resources\art\units\spc\miner\miner_portrait.png">Yardım!</string>
-    <string _locid="47024">Artık misyonerlerin yakındaki askerlerin saldırısını artırıyor.</string>
+    <string _locid="47024">Artık misyonerlerin yakındaki Piyade ve Süvarilerin saldırısını artırıyor.</string>
     <string _locid="47025">Kutsal Yağ</string>
     <string _locid="47026">Amirallik Sevkiyatı ulaştı.</string>
     <string _locid="47027">Kutsal Yağ Sevkiyatı ulaştı.</string>
@@ -19783,10 +19787,10 @@
     <string _locid="49467">Gümrük İdaresi'nin orijinal versiyonu.</string>
     <string _locid="49468">Gümrük İdaresi (altın rengi ve beyaz)</string>
     <string _locid="49469">Gümrük İdaresi'nin yeşil siperli altın rengi ve beyaz versiyonu.</string>
-    <string _locid="49470">Tüccarın Loncası (kırmızı)</string>
-    <string _locid="49471">Tüccarın Loncası'nın kırmızı versiyonu</string>
-    <string _locid="49472">Tüccarın Loncası (mavi)</string>
-    <string _locid="49473">Tüccarın Loncası'nın mavi versiyonu</string>
+    <string _locid="49470">Tüccarların Loncası (kırmızı)</string>
+    <string _locid="49471">Tüccarların Loncası'nın kırmızı versiyonu.</string>
+    <string _locid="49472">Tüccarların Loncası (mavi)</string>
+    <string _locid="49473">Tüccarların Loncası'nın mavi versiyonu.</string>
     <string _locid="49474">İmparator'un Hazinesi (orijinal)</string>
     <string _locid="49475">İmparator'un Hazinesi'nin orijinal versiyonu.</string>
     <string _locid="49476">İmparator'un Hazinesi (beyaz)</string>
@@ -19797,10 +19801,10 @@
     <string _locid="49481">Gümrük İdaresi'nin orijinal versiyonu.</string>
     <string _locid="49482">Gümrük İdaresi (maun kırmızısı ve siyah)</string>
     <string _locid="49483">Gümrük İdaresi'nin maun kırmızısı ve siyah versiyonu.</string>
-    <string _locid="49484">Tüccarın Loncası (orijinal)</string>
-    <string _locid="49485">Tüccarın Loncası'nın orijinal versiyonu.</string>
-    <string _locid="49486">Tüccarın Loncası (kırmızı ve siyah)</string>
-    <string _locid="49487">Tüccarın Loncası'nın kırmızı ve siyah versiyonu.</string>
+    <string _locid="49484">Tüccarların Loncası (orijinal)</string>
+    <string _locid="49485">Tüccarların Loncası'nın orijinal versiyonu.</string>
+    <string _locid="49486">Tüccarların Loncası (kırmızı ve siyah)</string>
+    <string _locid="49487">Tüccarların Loncası'nın kırmızı ve siyah versiyonu.</string>
     <string _locid="49488">İmparatorluk Mahkemesi (orijinal)</string>
     <string _locid="49489">İmparatorluk Mahkemesi'nin orijinal versiyonu.</string>
     <string _locid="49490">İmparatorluk Mahkemesi (İmparatorluk altını)</string>
@@ -19816,7 +19820,7 @@
     <string _locid="49500">Uçurtma Festivali</string>
     <string _locid="49501">Japonya vatandaşları, Hamamatsu Uçurtma Festivali'ni kutluyor.</string>
     <string _locid="49502">Japon balıkçı tekneleri</string>
-    <string _locid="49503">Tüccarın Loncası'nın yanında Japon balıkçı teknelerini sergile.</string>
+    <string _locid="49503">Tüccarların Loncası'nın yanında Japon balıkçı tekneleri sergile.</string>
     <string _locid="49504">Kar Maymunları</string>
     <string _locid="49505">Şehirde başıboş dolaşan kar maymunları.</string>
     <string _locid="49506">Kamihinokinai Kağıt Balon Festivali - Fenerler</string>
@@ -19882,7 +19886,7 @@
     <string _locid="49566">Kâşif görünümünü görüntüle</string>
     <string _locid="49567">Kâşifin ismini değiştirmek ya da kozmetik uygulamak için seç.</string>
     <string _locid="49568">Bir sonraki mücadeleye başlamak için seç!</string>
-    <string _locid="49569">Kâşif (Varsayılan)\nBu, Kâşif'in varsayılan sürümüdür.</string>
+    <string _locid="49569">Prens (Varsayılan)\nBu, Prens'in varsayılan sürümüdür.</string>
     <string _locid="49570">Emperor Tewodros\nAv kıyafetli İmparator Tewodros, altın desenli bir koşum takımı giymiş beyaz atına bindi.</string>
     <string _locid="49571">Usman dan Fodio\nUsman dan Fodio, çöl devesine taktığı, parşömenleri ve diğer eşyaları tutan bir asa ile donatılmış seyahat kıyafetleri içinde.</string>
     <string _locid="49572">Tüm Afrika Kraliyeti Etkinlik Mücadelelerini tamamlayarak bu Kâşif özelleştirmesinin kilidini aç.</string>
@@ -20012,8 +20016,9 @@
     <string _locid="49696">AoE2DE Kutlama Etkinliği Mücadelelerini tamamlayarak bu Savaş Reisi özelleştirmesinin kilidini aç.</string>
     <string _locid="49697">Moctezuma</string>
     <string _locid="49698">Tonatiuh</string>
-    <string _locid="49699">Ekonomi modu</string>
-    <string _locid="49700">Ekonomi modu: Oyuncular ekonomide en yüksek puanı elde etmek için rekabet ederler. Bu oyun modunu kazanmak için şunlara odaklan: Birimleri eğiterek ve binalar inşa ederek ekonomini oluşturmak. Kaynakları topla, çağ atlayarak ilerle ve teknolojilerini geliştirin. Puanını artırmak için Ekonomi Mücadelelerini de tamamlayabilirsin.</string>
+    <string _locid="49699">Ekonomi</string>
+    <string _locid="49700">
+    </string>
     <string _locid="49701">Profil Simgesi Kilidi Açma - AoE2 Kadın Köylü.</string>
     <string _locid="49702">Savaş Reisi Özelleştirmesi - Moctezuma.</string>
     <string _locid="49703">Savaş Reisi Özelleştirmesi - Tonatiuh.</string>
@@ -20211,13 +20216,13 @@
     <string _locid="49895">Şu adrese git: https://discord.com/invite/ageofempires/login</string>
     <string _locid="49896">Destek</string>
     <string _locid="49897">Forumlarımızdan yardım al.</string>
-    <string _locid="49898">Şu adrese git: https://forums.ageofempires.com/c/age-of-empires-iii/133</string>
+    <string _locid="49898">Şu adrese git: https://aoe.ms/AoE3DEForums</string>
     <string _locid="49899">Forumlar</string>
     <string _locid="49900">Son gelişmeler için forumlarımıza göz at.</string>
-    <string _locid="49901">Şu adrese git: https://support.ageofempires.com/hc/categories/360004101511-Age-of-Empires-III-Definitive-Edition</string>
+    <string _locid="49901">Şu adrese git: https://aoe.ms/AoE3DEFAQ</string>
     <string _locid="49902">Bir sorun rapor et</string>
     <string _locid="49903">Forumlarımızda bir hatayı rapor et.</string>
-    <string _locid="49904">Şu adrese git: https://support.ageofempires.com/hc/articles/360048537332-Reporting-an-Issue</string>
+    <string _locid="49904">Şu adrese git: https://aoe.ms/AoE3DEReportIssue</string>
     <string _locid="49905">Ay Yeni Yılı Etkinliği: 2022</string>
     <string _locid="49906">Ay Yeni Yılı Etkinliği: 2021</string>
     <string _locid="49907">Kaplan Yılı</string>
@@ -20305,6 +20310,126 @@
     <string _locid="49985">Oyuncu tarafından seçilen ilave mücadeleler.</string>
     <string _locid="49986">İlave Mücadeleleri Seç</string>
     <string _locid="49987">Seçilen mücadele: {0}/{1}</string>
+    <string _locid="49988">Uluslararası Kadınlar Günü Etkinliği</string>
+    <string _locid="49989">Profil Simgesi Kilidi Açma - Mor güneş gözlükleri olan bir Dahomey Amazonu</string>
+    <string _locid="49990">Tek bir Çarpışma veya Çok Oyunculu karşılaşmada İsveçliler olarak 20 Torp inşa et.</string>
+    <string _locid="49991">Profil Simgesi Kilidi Açma - İsveç Kraliçesi Christina.</string>
+    <string _locid="49992">Herhangi bir Yerli medeniyet olarak tek oyunculu Çarpışma veya Çok Oyunculu oyun kazan. (Haudenosaunee, Lakota, İnka, Aztek, Hausa, Etiyopya)</string>
+    <string _locid="49993">Hile kilidini aç - “Granny Nanny”, tüm köylüler Dahomey Amazonlarına dönüşür.</string>
+    <string _locid="49994">Herhangi bir miktarda Çarpışma veya Çok Oyunculu karşılaşmasında Florence Nightingale ana şehir sevkiyatı ile Malikaneleri kullanarak 1.000 DP iyileştir.</string>
+    <string _locid="49995">Profil Simgesi Kilidi Açma - Kadın Kâşif.</string>
+    <string _locid="49996">Herhangi bir miktarda Çarpışma veya Çok Oyunculu karşılaşmasında 50 Malikane, Ev, Uzun Ev, Köy, Mabet veya Kancha inşa et.</string>
+    <string _locid="49997">Britanyalı Kâşif Özelleştirmesi Kilidi Açma - Elisabet Ramsey.</string>
+    <string _locid="49998">Herhangi bir miktarda Çarpışma veya Çok Oyunculu karşılaşmasında Daimyo Mototada, Daimyo Kiyomasa ve Şogun Tokugawa ana şehir sevkiyatları gönder.</string>
+    <string _locid="49999">Profil Simgesi Kilidi Açma - Nakano Takeko.</string>
+    <string _locid="55000">Herhangi bir türde Hint Fili ile 10.000 hasar ver. (Mahout Mızraklı Süvarisi, Mahfe, Tahrip Fili, Kuşatma Fili veya Mansabdar birimleri)</string>
+    <string _locid="55001">Profil Simgesi Kilidi Açma - Rani Lakshmibai.</string>
+    <string _locid="55002">Herhangi bir miktarda Çarpışma veya Çok Oyunculu karşılaşmasında İngilizler olarak 3 Fabrika inşa et.</string>
+    <string _locid="55003">Profil Simgesi Kilidi Açma - Ada Lovelace.</string>
+    <string _locid="55004">Ada Lovelace</string>
+    <string _locid="55005">Makinelere hayranlık duyan ve ilk bilgisayar programcısı olarak kabul edilen Kontes Lovelace, en zor problemleri çözmek için matematiği kullandı. İnce ruhlu babası Lord Byron'ın cazibesine ve ölümcül algoritmalı bir silah prototipine sahip olan Ada Lovelace, kalıcı bir etki bırakacaktır.</string>
+    <string _locid="55006">Uluslararası Kadınlar Günü Etkinliği Mücadelelerini tamamlayarak bu özelleştirmenin kilidini aç.</string>
+    <string _locid="55007">Süre: {0}/00:{1}:00</string>
+    <string _locid="55008">Puan Hedefi: {0}</string>
+    <string _locid="55009">Profil Simgesi Kilidi Açma - Kış Kadın Kâşifi.</string>
+    <string _locid="55010">Britanyalı Kâşif Özelleştirmesi Kilidi Açma - Ada Lovelace.</string>
+    <string _locid="55011">Korsan Lizzie</string>
+    <string _locid="55012">Soylu bir İngiliz'in kızı olarak yetiştirilmiş olmasına rağmen Elisabet Ramsey, Majestelerinin korsanlık fermanı olsun ya da olmasın Karayiplerde korsanlık yapmayı tercih ediyor.</string>
+    <string _locid="55013">Kâşif (Varsayılan)\nBu, Kâşif'in varsayılan sürümüdür.</string>
+    <string _locid="55014" symbol="cStringOldReplayWarning">Uyarı: Bu kayıt, oyunun önceki bir versiyonunda kaydedilmiş. Ne yazık ki bu, eşlemenin başarısız olma olasılığını büyük ölçüde artıracaktır.</string>
+    <string _locid="55015">Tehlike</string>
+    <string _locid="55016">Buraya saldır</string>
+    <string _locid="55017">Buraya destek ver</string>
+    <string _locid="55018">Burayı izle</string>
+    <string _locid="55019">{0}, bu bölgedeki tehlikeyi haber verdi.</string>
+    <string _locid="55020">{0}, bu bölgeye saldırmayı talep etti.</string>
+    <string _locid="55021">{0}, bu bölgede yardım talebinde bulundu.</string>
+    <string _locid="55022">{0}, bu bölgeyi izlemek için alarm verdi.</string>
+    <string _locid="55023">Bir ping seçeneği belirle.</string>
+    <string _locid="55024">İletişim Pingi</string>
+    <string _locid="55025">Üzerinde şu seçenek dizilimleri olan bir ping çarkı açar: Tehlike, Buraya saldır, Buraya destek ver ve Burayı izle.</string>
+    <string _locid="55026">Beta Ayarları</string>
+    <string _locid="55027">Aşağıdaki tüm beta ayarları; grafik ve performans sorunları gibi sorunlara neden olabilir.</string>
+    <string _locid="55028">Uyarı Fişeği (Beta): Bu düğmeye tıkla ve ardından bir uyarı fişeği göndermek için dünyaya veya mini haritaya tıkla.</string>
+    <string _locid="55029">Fişek türünü seç</string>
+    <string _locid="55030">Bahar Etkinliği</string>
+    <string _locid="55031">Profil Simgesi Kilidi Açma - Çiçek satıcısı standı.</string>
+    <string _locid="55032">Japonlar olarak Kiraz Çiçeği Festivali'ni araştır.</string>
+    <string _locid="55033">Profil Simgesi Kilidi Açma - Çiçek açan çiçeklerin bir dalına tünemiş bir şarkıcı kuş.</string>
+    <string _locid="55034">Etiyopyalılar olarak bir Çarpışma veya Çok Oyunculu oyunu kazan.</string>
+    <string _locid="55035">Profil Simgesi Kilidi Açma - Birlikte uçan kelebek sürüsü.</string>
+    <string _locid="55036">Herhangi bir sayıdaki Çarpışma veya Çok Oyunculu karşılaşmasında 40 Tarla, Arazi, Değirmen veya Pirinç Tarlası inşa et.</string>
+    <string _locid="55037">İspanyol Kâşif Özelleştirmenin Kilidi Açma - Kahraman Köylü.</string>
+    <string _locid="55038">Herhangi bir sayıdaki Çarpışma veya Çok Oyunculu karşılaşmasında 10.000 çiçek topla. (kaynak kasaları)</string>
+    <string _locid="55039">Profil Simgesi Kilidi Açma - Çiçekten bir taç takan Kapibara.</string>
+    <string _locid="55040">Herhangi bir sayıdaki Çarpışma veya Çok Oyunculu karşılaşmasında Ana Şehrinden 30 Sevkiyat gönder.</string>
+    <string _locid="55041">İspanyol Kâşif Özelleştirmenin Kilidi Açma - Flamenko Dansçısı.</string>
+    <string _locid="55042">İş birliği yaparak oynamak için bir Bilgisayar Kişiliği seç.</string>
+    <string _locid="55043">Flamenko Dansçısı</string>
+    <string _locid="55044">Flamenko Dansçısı\nSıcak Endülüs güneşinin altında büyüyen bu Flamenko Dansçısı alevleri sıcaklığı dizginlemiş ve düşmanının ağaçlık üssünde öfkeli dansını gerçekleştirmeye çok kararlı.</string>
+    <string _locid="55045">Kahraman Köylü</string>
+    <string _locid="55046">Kahraman Köylü\nBu kahraman İspanyol köylü, üstünlüğünü nasıl sağlayacağını iyi biliyor! Şehrin ya da köyün saldırıya uğrarsa ona güvenebilirsin.</string>
+    <string _locid="55047">Bahar Etkinliği Mücadelelerini tamamlayarak bu özelleştirmenin kilidini aç.</string>
+    <string _locid="55500">
+    </string>
+    <string _locid="55501">
+    </string>
+    <string _locid="55502">
+    </string>
+    <string _locid="55503">
+    </string>
+    <string _locid="55504">
+    </string>
+    <string _locid="55505">
+    </string>
+    <string _locid="55506">
+    </string>
+    <string _locid="55507">
+    </string>
+    <string _locid="55508">
+    </string>
+    <string _locid="55509">
+    </string>
+    <string _locid="55510">
+    </string>
+    <string _locid="55511">
+    </string>
+    <string _locid="55512">
+    </string>
+    <string _locid="55513">
+    </string>
+    <string _locid="55514">
+    </string>
+    <string _locid="55515">Süresi Doldu</string>
+    <string _locid="55516">
+    </string>
+    <string _locid="55517">
+    </string>
+    <string _locid="55518">
+    </string>
+    <string _locid="55519">
+    </string>
+    <string _locid="55520">
+    </string>
+    <string _locid="55521">
+    </string>
+    <string _locid="55522">
+    </string>
+    <string _locid="55523">
+    </string>
+    <string _locid="55524">
+    </string>
+    <string _locid="55525">
+    </string>
+    <string _locid="55526">
+    </string>
+    <string _locid="55527">
+    </string>
+    <string _locid="55528">
+    </string>
+    <string _locid="55529">(Abluka Yok)</string>
+    <string _locid="55530">(Abluka)</string>
+    <string _locid="55531">{0}, artık mod tarayıcısında kullanılabilir!</string>
     <string _locid="60001" symbol="cStringCivNameJapanese">Japonlar</string>
     <string _locid="60002" symbol="cStringCivNameChinese">Çinliler</string>
     <string _locid="60003" symbol="cStringCivNameIndians">Hintler</string>
@@ -20410,7 +20535,7 @@
     <string _locid="60103">Hazine Muhafızlarını sersemleten ve çarpışmada İlahi Darbe uygulama şansı olan dini lider. Keşfeder, savaşır ve Şehir Merkezleri, Ticaret Merkezler ve Mabetler inşa eder.</string>
     <string _locid="60104">Sohei Okçusu</string>
     <string _locid="60105">MONK Sohei Okçusu</string>
-    <string _locid="60106">El gücü piyadesi Paralı Askeri</string>
+    <string _locid="60106" symbol="cStringHandInfantryMerc">El Gücü Piyadesi Paralı Askeri</string>
     <string _locid="60107">Japon samuray paralı askeri.</string>
     <string _locid="60108">Ronin</string>
     <string _locid="60109">INF Ronin</string>
@@ -25165,35 +25290,35 @@
     <string _locid="65013">Kıyı Şeridi Küçük Kaya CJ</string>
     <string _locid="65014">PROP Kıyı Şeridi Küçük Kaya CJ</string>
     <string _locid="65015">Beyaz Pagoda, Mürit gönderir, Shaolin Ustası ve Müritlerin istatistiklerini ve Müritlerin eğitim sınırını artıran Kutsal Kubbe'ye sahiptir.</string>
-    <string _locid="65016">Beyaz Pagoda, Mürit gönderir, Shaolin Ustası ve Müritlerin istatistiklerini ve Müritlerin eğitim sınırını artıran Kutsal Kubbe'ye sahiptir.\n----------\nİnşa edildiğinde kazanılan sevkiyatlar:\nII: 4 Mürit gönderir\nIII: 6 Mürit gönderir \nIV: 10 Mürit gönderir\nV: 14 Mürit gönderir</string>
+    <string _locid="65016">Beyaz Pagoda, Mürit gönderir, Shaolin Ustası ve Müritlerin istatistiklerini ve Müritlerin eğitim sınırını artıran Kutsal Kubbe'ye sahiptir.\n----------\nİnşa edildiğinde kazanılan sevkiyatlar:\nII: 4 Mürit gönderir\nIII: 6 Mürit gönderir \nIV: 10 Mürit gönderir\nV: 16 Mürit gönderir</string>
     <string _locid="65017">Beyaz Pagoda</string>
     <string _locid="65018">WON Beyaz Pagoda</string>
     <string _locid="65019">Beyaz Pagoda, Mürit gönderir, Shaolin Ustası ve Müritlerin istatistiklerini ve Müritlerin eğitim sınırını artıran Kutsal Kubbe'ye sahiptir.</string>
-    <string _locid="65020">Beyaz Pagoda, Mürit gönderir, Shaolin Ustası ve Müritlerin istatistiklerini ve Müritlerin eğitim sınırını artıran Kutsal Kubbe'ye sahiptir.\n----------\nİnşa edildiğinde kazanılan sevkiyatlar:\nII: 4 Mürit gönderir\nIII: 6 Mürit gönderir \nIV: 10 Mürit gönderir\nV: 14 Mürit gönderir</string>
+    <string _locid="65020">Beyaz Pagoda, Mürit gönderir, Shaolin Ustası ve Müritlerin istatistiklerini ve Müritlerin eğitim sınırını artıran Kutsal Kubbe'ye sahiptir.\n----------\nİnşa edildiğinde kazanılan sevkiyatlar:\nII: 4 Mürit gönderir\nIII: 6 Mürit gönderir \nIV: 10 Mürit gönderir\nV: 16 Mürit gönderir</string>
     <string _locid="65021">Beyaz Pagoda</string>
     <string _locid="65022">WON Beyaz Pagoda</string>
     <string _locid="65023">Beyaz Pagoda, Mürit gönderir, Shaolin Ustası ve Müritlerin istatistiklerini ve Müritlerin eğitim sınırını artıran Kutsal Kubbe'ye sahiptir.</string>
-    <string _locid="65024">Beyaz Pagoda, Mürit gönderir, Shaolin Ustası ve Müritlerin istatistiklerini ve Müritlerin eğitim sınırını artıran Kutsal Kubbe'ye sahiptir.\n----------\nİnşa edildiğinde kazanılan sevkiyatlar:\nII: 4 Mürit gönderir\nIII: 6 Mürit gönderir \nIV: 10 Mürit gönderir\nV: 14 Mürit gönderir</string>
+    <string _locid="65024">Beyaz Pagoda, Mürit gönderir, Shaolin Ustası ve Müritlerin istatistiklerini ve Müritlerin eğitim sınırını artıran Kutsal Kubbe'ye sahiptir.\n----------\nİnşa edildiğinde kazanılan sevkiyatlar:\nII: 4 Mürit gönderir\nIII: 6 Mürit gönderir \nIV: 10 Mürit gönderir\nV: 16 Mürit gönderir</string>
     <string _locid="65025">Beyaz Pagoda</string>
     <string _locid="65026">WON Beyaz Pagoda</string>
     <string _locid="65027">Beyaz Pagoda, Mürit gönderir, Shaolin Ustası ve Müritlerin istatistiklerini ve Müritlerin eğitim sınırını artıran Kutsal Kubbe'ye sahiptir.</string>
-    <string _locid="65028">Beyaz Pagoda, Mürit gönderir, Shaolin Ustası ve Müritlerin istatistiklerini ve Müritlerin eğitim sınırını artıran Kutsal Kubbe'ye sahiptir.\n----------\nİnşa edildiğinde kazanılan sevkiyatlar:\nII: 4 Mürit gönderir\nIII: 6 Mürit gönderir \nIV: 10 Mürit gönderir\nV: 14 Mürit gönderir</string>
+    <string _locid="65028">Beyaz Pagoda, Mürit gönderir, Shaolin Ustası ve Müritlerin istatistiklerini ve Müritlerin eğitim sınırını artıran Kutsal Kubbe'ye sahiptir.\n----------\nİnşa edildiğinde kazanılan sevkiyatlar:\nII: 4 Mürit gönderir\nIII: 6 Mürit gönderir \nIV: 10 Mürit gönderir\nV: 16 Mürit gönderir</string>
     <string _locid="65029">Beyaz Pagoda</string>
     <string _locid="65030">WON Beyaz Pagoda</string>
     <string _locid="65031">Porselen Kule, her saniye yiyecek, odun, sikke veya ihracat ve tecrübe de dâhil tüm kaynakların birleşimine ayarlanabilen kaynaklar üretir.</string>
-    <string _locid="65032">Porselen Kule, her saniye yiyecek, odun, sikke veya ihracat ve tecrübe de dâhil tüm kaynakların birleşimine ayarlanabilen kaynaklar üretir.\n----------\nİnşa edildiğinde kazanılan üretim değeri:\nII: Yiyecek: 3 / Odun: 2.5 / Sikke: 2.5 / \nKarma: 0.6 yiyecek, 0.6 odun, 0.6 sikke, 0.18 ihracat, 0.18 TP\nIII: Yiyecek: 4.5 / Odun: 4 / Sikke: 4 /\nKarma: 1.25 yiyecek, 1 odun, 1 sikke, 0.25 ihracat, 0.25 TP\nIV: Yiyecek: 6 / Odun: 5.5 / Sikke / 5.5 /\nKarma: 1.5 yiyecek, 1.1 odun, 1.1 sikke, 0.4 ihracat, 0.4 TP\nV: Yiyecek: 6.5 / Odun: 6 / Sikke: 6 /\nKarma: 1.5 yiyecek, 2 odun, 2 sikke, 0.5, ihracat, 0.5 TP</string>
+    <string _locid="65032">Porselen Kule, her saniye yiyecek, odun, sikke veya ihracat ve tecrübe de dâhil tüm kaynakların birleşimine ayarlanabilen kaynaklar üretir.\n----------\nİnşa edildiğinde kazanılan üretim değeri:\nII: Yiyecek: 3 / Odun: 2.5 / Sikke: 2.5 / \nKarma: 0.6 yiyecek, 0.6 odun, 0.6 sikke, 0.18 ihracat, 0.18 TP\nIII: Yiyecek: 4.5 / Odun: 4 / Sikke: 4 /\nKarma: 1.25 yiyecek, 1 odun, 1 sikke, 0.25 ihracat, 0.25 TP\nIV: Yiyecek: 6 / Odun: 5.5 / Sikke / 5.5 /\nKarma: 1.5 yiyecek, 1.1 odun, 1.1 sikke, 0.4 ihracat, 0.4 TP\nV: Yiyecek: 6.5 / Odun: 6 / Sikke: 6 /\nKarma: 2 yiyecek, 1.5 odun, 1.5 sikke, 0.5, ihracat, 0.5 TP</string>
     <string _locid="65033">Porselen Kule</string>
     <string _locid="65034">WON Porselen Kule</string>
     <string _locid="65035">Porselen Kule, her saniye yiyecek, odun, sikke veya ihracat ve tecrübe de dâhil tüm kaynakların birleşimine ayarlanabilen kaynaklar üretir.</string>
-    <string _locid="65036">Porselen Kule, her saniye yiyecek, odun, sikke veya ihracat ve tecrübe de dâhil tüm kaynakların birleşimine ayarlanabilen kaynaklar üretir.\n----------\nİnşa edildiğinde kazanılan üretim değeri:\nII: Yiyecek: 3 / Odun: 2.5 / Sikke: 2.5 / \nKarma: 0.6 yiyecek, 0.6 odun, 0.6 sikke, 0.18 ihracat, 0.18 TP\nIII: Yiyecek: 4.5 / Odun: 4 / Sikke: 4 /\nKarma: 1.25 yiyecek, 1 odun, 1 sikke, 0.25 ihracat, 0.25 TP\nIV: Yiyecek: 6 / Odun: 5.5 / Sikke / 5.5 /\nKarma: 1.5 yiyecek, 1.1 odun, 1.1 sikke, 0.4 ihracat, 0.4 TP\nV: Yiyecek: 6.5 / Odun: 6 / Sikke: 6 /\nKarma: 1.5 yiyecek, 2 odun, 2 sikke, 0.5, ihracat, 0.5 TP</string>
+    <string _locid="65036">Porselen Kule, her saniye yiyecek, odun, sikke veya ihracat ve tecrübe de dâhil tüm kaynakların birleşimine ayarlanabilen kaynaklar üretir.\n----------\nİnşa edildiğinde kazanılan üretim değeri:\nII: Yiyecek: 3 / Odun: 2.5 / Sikke: 2.5 / \nKarma: 0.6 yiyecek, 0.6 odun, 0.6 sikke, 0.18 ihracat, 0.18 TP\nIII: Yiyecek: 4.5 / Odun: 4 / Sikke: 4 /\nKarma: 1.25 yiyecek, 1 odun, 1 sikke, 0.25 ihracat, 0.25 TP\nIV: Yiyecek: 6 / Odun: 5.5 / Sikke / 5.5 /\nKarma: 1.5 yiyecek, 1.1 odun, 1.1 sikke, 0.4 ihracat, 0.4 TP\nV: Yiyecek: 6.5 / Odun: 6 / Sikke: 6 /\nKarma: 2 yiyecek, 1.5 odun, 1.5 sikke, 0.5, ihracat, 0.5 TP</string>
     <string _locid="65037">Porselen Kule</string>
     <string _locid="65038">WON Porselen Kule</string>
     <string _locid="65039">Porselen Kule, her saniye yiyecek, odun, sikke veya ihracat ve tecrübe de dâhil tüm kaynakların birleşimine ayarlanabilen kaynaklar üretir.</string>
-    <string _locid="65040">Porselen Kule, her saniye yiyecek, odun, sikke veya ihracat ve tecrübe de dâhil tüm kaynakların birleşimine ayarlanabilen kaynaklar üretir.\n----------\nİnşa edildiğinde kazanılan üretim değeri:\nII: Yiyecek: 3 / Odun: 2.5 / Sikke: 2.5 / \nKarma: 0.6 yiyecek, 0.6 odun, 0.6 sikke, 0.18 ihracat, 0.18 TP\nIII: Yiyecek: 4.5 / Odun: 4 / Sikke: 4 /\nKarma: 1.25 yiyecek, 1 odun, 1 sikke, 0.25 ihracat, 0.25 TP\nIV: Yiyecek: 6 / Odun: 5.5 / Sikke / 5.5 /\nKarma: 1.5 yiyecek, 1.1 odun, 1.1 sikke, 0.4 ihracat, 0.4 TP\nV: Yiyecek: 6.5 / Odun: 6 / Sikke: 6 /\nKarma: 1.5 yiyecek, 2 odun, 2 sikke, 0.5, ihracat, 0.5 TP</string>
+    <string _locid="65040">Porselen Kule, her saniye yiyecek, odun, sikke veya ihracat ve tecrübe de dâhil tüm kaynakların birleşimine ayarlanabilen kaynaklar üretir.\n----------\nİnşa edildiğinde kazanılan üretim değeri:\nII: Yiyecek: 3 / Odun: 2.5 / Sikke: 2.5 / \nKarma: 0.6 yiyecek, 0.6 odun, 0.6 sikke, 0.18 ihracat, 0.18 TP\nIII: Yiyecek: 4.5 / Odun: 4 / Sikke: 4 /\nKarma: 1.25 yiyecek, 1 odun, 1 sikke, 0.25 ihracat, 0.25 TP\nIV: Yiyecek: 6 / Odun: 5.5 / Sikke / 5.5 /\nKarma: 1.5 yiyecek, 1.1 odun, 1.1 sikke, 0.4 ihracat, 0.4 TP\nV: Yiyecek: 6.5 / Odun: 6 / Sikke: 6 /\nKarma: 2 yiyecek, 1.5 odun, 1.5 sikke, 0.5, ihracat, 0.5 TP</string>
     <string _locid="65041">Porselen Kule</string>
     <string _locid="65042">WON Porselen Kule</string>
     <string _locid="65043">Porselen Kule, her saniye yiyecek, odun, sikke veya ihracat ve tecrübe de dâhil tüm kaynakların birleşimine ayarlanabilen kaynaklar üretir.</string>
-    <string _locid="65044">Porselen Kule, her saniye yiyecek, odun, sikke veya ihracat ve tecrübe de dâhil tüm kaynakların birleşimine ayarlanabilen kaynaklar üretir.\n----------\nİnşa edildiğinde kazanılan üretim değeri:\nII: Yiyecek: 3 / Odun: 2.5 / Sikke: 2.5 / \nKarma: 0.6 yiyecek, 0.6 odun, 0.6 sikke, 0.18 ihracat, 0.18 TP\nIII: Yiyecek: 4.5 / Odun: 4 / Sikke: 4 /\nKarma: 1.25 yiyecek, 1 odun, 1 sikke, 0.25 ihracat, 0.25 TP\nIV: Yiyecek: 6 / Odun: 5.5 / Sikke / 5.5 /\nKarma: 1.5 yiyecek, 1.1 odun, 1.1 sikke, 0.4 ihracat, 0.4 TP\nV: Yiyecek: 6.5 / Odun: 6 / Sikke: 6 /\nKarma: 1.5 yiyecek, 2 odun, 2 sikke, 0.5, ihracat, 0.5 TP</string>
+    <string _locid="65044">Porselen Kule, her saniye yiyecek, odun, sikke veya ihracat ve tecrübe de dâhil tüm kaynakların birleşimine ayarlanabilen kaynaklar üretir.\n----------\nİnşa edildiğinde kazanılan üretim değeri:\nII: Yiyecek: 3 / Odun: 2.5 / Sikke: 2.5 / \nKarma: 0.6 yiyecek, 0.6 odun, 0.6 sikke, 0.18 ihracat, 0.18 TP\nIII: Yiyecek: 4.5 / Odun: 4 / Sikke: 4 /\nKarma: 1.25 yiyecek, 1 odun, 1 sikke, 0.25 ihracat, 0.25 TP\nIV: Yiyecek: 6 / Odun: 5.5 / Sikke / 5.5 /\nKarma: 1.5 yiyecek, 1.1 odun, 1.1 sikke, 0.4 ihracat, 0.4 TP\nV: Yiyecek: 6.5 / Odun: 6 / Sikke: 6 /\nKarma: 2 yiyecek, 1.5 odun, 1.5 sikke, 0.5, ihracat, 0.5 TP</string>
     <string _locid="65045">Porselen Kule</string>
     <string _locid="65046">WON Porselen Kule</string>
     <string _locid="65047">Sevkiyat: 1500 Sikke\n \nGüç: Ateş Kes - kısa süreliğine savaşı durdurur.</string>
@@ -26050,7 +26175,7 @@
     <string _locid="65901">CON Acemi Nöbetçi</string>
     <string _locid="65902">Kara Muhafız gönderir.</string>
     <string _locid="65903">Kara Muhafız gönderir.</string>
-    <string _locid="65904">Bonus: -%20 Sancak Ordusu Yiyecek Ücreti\n\nEğitilenler: Doppelsöldnerler, Avcı Erleri, Ağır Toplar\n\n: Sevkiyatlar: Kaynak akışları</string>
+    <string _locid="65904">Bonus: -%15 Sancak Ordusu Yiyecek Ücreti\n\nEğitilenler: Doppelsöldnerler, Avcı Erleri, Ağır Toplar\n\nSevkiyatlar: Kaynak akışları</string>
     <string _locid="65905">Alman Müttefikler</string>
     <string _locid="65906">Müttefikini kov, böylece yeni bir tane seçebilirsin.</string>
     <string _locid="65907">İlişkileri Sonlandır</string>
@@ -29673,7 +29798,7 @@
     <string _locid="69540">Efendisi olmayan bir Japon Samuray. Süvarilere ve binalara karşı iyidir.</string>
     <string _locid="69541">Nadim Ronin</string>
     <string _locid="69542">REP Ronin</string>
-    <string _locid="69543">El gücü süvarisi paralı askeri</string>
+    <string _locid="69543" symbol="cStringHandCavalryMerc">El Gücü Süvarisi Paralı Askeri</string>
     <string _locid="69544">Balkanlardan el gücü süvarisi paralı asker.</string>
     <string _locid="69545">Nadim Stradiot</string>
     <string _locid="69546">REP Stradiot</string>
@@ -30253,9 +30378,9 @@
     <string _locid="70119">Keşiş: Gözlerinin içine bakma. Tek istedikleri seninle dalga geçmek.</string>
     <string _locid="70120">Keşiş: Bir gün hesabını verecekler. Hepsi verecek.</string>
     <string _locid="70121">Keşiş: Gücün artıyor Hiro. Yakında öfkeni hissedecekler.</string>
-    <string _locid="70122">Müzisyen: "Ah sevgilim, kafan kalbimi olgunlaşmış kokusuyla dolduran, biçimsiz bir sukabağı gibi..."</string>
+    <string _locid="70122">Müzisyen: "Ah sevgilim, kafan kalbimi olgunlaşmış kokusuyla dolduran, biçimsiz bir sukabağı gibi..." </string>
     <string _locid="70123">Müzisyen: "Ah bir tanem, ayak parmaklarını bir tabak umeboshi gibi ısırmayı dilerim, fakat ürpertmeden..."</string>
-    <string _locid="70124">Müzisyen: "Ah tatlım, her hareketini aşkımdan ötürü sinsice izliyorum, ondan lütfen babana beni rahat bırakmasını söyle..."</string>
+    <string _locid="70124">Müzisyen: "Ah tatlım, her hareketini aşkımdan ötürü sinsice izliyorum, ondan lütfen babana beni rahat bırakmasını söyle..." </string>
     <string _locid="70125">Müzisyen: "Ah güzel kadın, senin ağır, hantal yürüyüşün kalbimin temellerini sarsıyor..."</string>
     <string _locid="70126">Müzisyen: "Ah tatlı anata, vahşi tazılar beni senin kollarından alıkoyamaz fakat bana topal bir ayak verdiler."</string>
     <string _locid="70127">Kadın: Çok yalnızım. Şu köprü çok yüksek, aşağıdaki su da çok derin görünüyor. Zamanı geldi.</string>
@@ -30656,7 +30781,7 @@
     <string _locid="70522">Düşük harbe puanı fakat güçlü saldırısı olan avcı eri. Piyadelere karşı iyidir.</string>
     <string _locid="70523">Kıdemli Cassador</string>
     <string _locid="70524">INF Cassador</string>
-    <string _locid="70528">Her sevkiyatla birlikte 360 Sikkelik Kasa.</string>
+    <string _locid="70528">Her sevkiyatla birlikte 350 Sikkelik Kasa</string>
     <string _locid="70529">400 Sikke erzak sağlar.</string>
     <string _locid="70530">400 Sikkelik Sandık</string>
     <string _locid="70531">400 Sikke Kasası Büyük</string>
@@ -32562,6 +32687,13 @@
     <string _locid="79960">Büyük Harita</string>
     <string _locid="79961">Seçili haritanın daha büyüğünü yükler.</string>
     <string _locid="79962">15 Koyun + 1 Arazi At Arabası + 3 Uhlan</string>
+    <string _locid="79963">[REZERVE]</string>
+    <string _locid="79964">[REZERVE]</string>
+    <string _locid="79965">[REZERVE]</string>
+    <string _locid="79966">[REZERVE]</string>
+    <string _locid="79967">[REZERVE]</string>
+    <string _locid="79968">[REZERVE]</string>
+    <string _locid="79969">[REZERVE]</string>
     <string _locid="80000" symbol="cStringCultureInca">İnka</string>
     <string _locid="80001" symbol="cStringCivNameInca">İnka</string>
     <string _locid="80002" symbol="cStringCivRolloverInca">&lt;color=1.0, 1.0, 0.0&gt;Medeniyet bonusu:&lt;/color&gt;\nKancha Evleri yiyecek üretir. Keşif Çağı sevkiyatlarıyla ve her Çağ atlandığında ücretsiz bir Çaski alır. Çaskiler, Tambo (sevkiyat alabilen ve köylülerin içine konuşlanabildiği güçlü Ticaret Merkezleri) inşa edebilir. Askeri birimler Kallankalara ve Sığınaklara konuşlanabilir. Rahibeler düşmanları dönüştürebilir ve Halk Meydanında çalışabilir.\n&lt;color=1.0, 1.0, 0.0&gt;Özgün birimler:&lt;/color&gt;\nÇaski, Tüylü Mızraklı, Çimu Akıncısı, Orman Yaylısı, Bola Savaşçısı, Huaraca, Gürzlü Asker, Rahibe ve Chincha Salı.\n&lt;color=1.0, 1.0, 0.0&gt;Özgün binalar:&lt;/color&gt;\nKallanka, Sığınak, Kancha Evi ve Tambo\n&lt;color=1.0, 1.0, 0.0&gt;Özgün törenler:&lt;/color&gt;\nAy Töreni ve Supay Töreni\n\nSurlarının gücü ve akıllıca yönetimi ile bilinen uçsuz bucaksız bir Güney Amerika imparatorluğu.</string>
@@ -34943,7 +35075,7 @@
     <string _locid="90591">Kavurucu gün ışığı ve kurumuş göletleriyle, Meksika'nın bu özel bölgesi sıcak ve kurudur - fakat kesinlikle çorak değildir. Bol miktarda çatalboynuz ve hatta birkaç bizon, bu yarı kuru arazide dolaşır. Bakır madeni damarları yeterli miktarda sikke sağlar fakat ağaçlar çok sınırlı sayıdadır. Uzunca bir ticaret yolunun geçtiği haritanın merkezinde büyük bir düz tepe bulunur. Bu tepeyi de birçok yerli yerleşimi çevreler. Oyuncular, bu yerleşimlerde bazen Apaçi ve Navahoları, bazen de Zapotec ve Mayaları bulurlar.</string>
     <string _locid="90592">Meksika: merkezi bir düz tepeden uzunca bir ticaret yolu geçer.\n\nYerleşimler: Navaho, Apaçi, Zapotec, Maya\nHaydutlar: Comanchero, Pistolero</string>
     <string _locid="90593">And Dağları-Yukarı</string>
-    <string _locid="90594">Takımlar alışılmadık şekilde birbirlerine yakın mesafelerde başlarlar ve bolca kaynakla çevrelenmişlerdir - yani surlar çekerek savunmacı şekilde oynamak normalden daha kolay olur. And Dağları'nın bu yöresinde nehir bulunmaz... Bulacağın yalnızca bir ticaret yolu ve dar geçitlerinde birçok İnka yerleşiminin bulunduğu engin dağlardır.</string>
+    <string _locid="90594">Takımlar alışılmadık şekilde birbirlerine yakın mesafelerde başlarlar ve bolca kaynakla çevrelenmişlerdir, yani surlar çekerek savunmacı şekilde oynamak normalden daha kolay olur. And Dağlarının bu yöresinde nehir bulunmaz. Bulacağın yalnızca bir ticaret yolu ve dar geçitlerinde birçok Keçuva yerleşiminin bulunduğu engin dağlardır.</string>
     <string _locid="90595">And Dağları-Yukarı: Takımlar alışılmadık şekilde birbirlerine yakın başlar. Antlaşma oyun modu için mükemmeldir.\n\nYerleşimler: Keçuva\nHaydutlar: Pistolero, Renegado</string>
     <string _locid="90596">Paralel Nehirler</string>
     <string _locid="90597">Oyuncular, üç paralel nehir arasında yuvalanmış şekilde güney taraflarında oyuna başlar. Bu hoş manzaralı bölge sahip olduğu birçok hazine ve bolca bulunan doğal kaynaklarıyla iftihar eder - fakat bunların hepsi nehirlerin yukarı kısımlarındadır. Burada ticaret yolu bulunmaz, bu yüzden de oyuncular kuzeye, dağlara doğru ilerlemelidirler. Bu üst bölgelerde keçiler serbestçe dolaşır - onlara evine kadar eşlik etmen gerekecek... ve dönüş yolcuğu uzun olur.</string>
@@ -34968,6 +35100,24 @@
     <string _locid="90902">Kaynak taşıyabilen, daha hızlı hareket eden ve daha büyük bir görüş hattı sağlayan Gezici Tüccarları kullanmak için bu Ticaret Yolunu yükseltir.</string>
     <string _locid="90903">Demir Lama</string>
     <string _locid="90904">Yük Arabası</string>
+    <string _locid="90905" symbol="cStringNuggetUnknown" comment="1 - amount, 2 - resource">Gizemli bie zula.</string>
+    <string _locid="90906" symbol="cStringNuggetUnknownActivate" comment="1 - player, 2 - amount, 3 - resource">%1s, %2d %3s değerinde gizemli bir kaynak zulası keşfetti.</string>
+    <string _locid="90907" symbol="cStringNuggetUnknown2Activate" comment="1 - player, 2 - amount, 3 - resource">%1s, %2d %3s ve %4d %5s değerinde gizemli bir kaynak zulası keşfetti.</string>
+    <string _locid="90908" symbol="cStringNuggetUnknown3Activate" comment="1 - player, 2 - amount, 3 - resource">%1s; %2d %3s, %4d %5s ve %6d %7s değerinde gizemli bir kaynak zulası keşfetti. </string>
+    <string _locid="90909" symbol="cStringdeTeamNugget">Takımın tümü için %1d %2s değerinde gizli bir zula.</string>
+    <string _locid="90910" symbol="cStringdeTeamNuggetActivate">%1s, takımı için %2d %3s değerinde gizli bir zula keşfetti.</string>
+    <string _locid="90911" symbol="cStringdeTeamNugget2Activate">%1s, takımı için %2d %3s ve %4d %5s değerinde gizli bir zula keşfetti.</string>
+    <string _locid="90912" symbol="cStringdeTeamNugget3Activate">%1s, takımı için %2d %3s, %4d %5s ve %6d %7s değerinde gizli bir zula keşfetti.</string>
+    <string _locid="90913" symbol="cStringdeTeamUnknownNugget">Tüm takım için gizemli bir zula.</string>
+    <string _locid="90914" symbol="cStringdeTeamUnknownNuggetActivate" comment="1 - player, 2 - amount, 3 - resource">%1s, takımı için %2d %3s değerinde gizemli bir kaynak zulası keşfetti.</string>
+    <string _locid="90915" symbol="cStringdeTeamUnknownNugget2Activate" comment="1 - player, 2 - amount, 3 - resource">%1s, takımı için %2d %3s ve %4d %5s değerinde gizemli bir kaynak zulası keşfetti.</string>
+    <string _locid="90916" symbol="cStringdeTeamUnknownNugget3Activate" comment="1 - player, 2 - amount, 3 - resource">%1s; takımı için %2d %3s, %4d %5s ve %6d %7s değerinde gizemli bir kaynak zulası keşfetti. </string>
+    <string _locid="90917" symbol="cStringafNomadNugget">Kurtarılmayı bekleyen bir göçebe.</string>
+    <string _locid="90918" symbol="cStringafNomadNuggetActivate">%1s, davasına ortak olacak bir Göçebe kurtardı.</string>
+    <string _locid="90919" symbol="cStringNuggetProspector">Yolunu kaybetmiş bir Maden Arama Arabası fakat hâlâ bir maden bulabilir.</string>
+    <string _locid="90920" symbol="cStringNuggetProspector">%s, şu anda bir maden bulmaya çalışacak olan bir Maden Arama Arabası kurtardı.</string>
+    <string _locid="90921" symbol="cStringNuggetSaltCamel">Yolunu kaybetmiş, susamış bir Tuz Devesi fakat hâlâ bir maden bulabilir.</string>
+    <string _locid="90922" symbol="cStringNuggetSaltCamel">%s, susamış bir Tuz Devesini suya götürdü, artık bir maden bulmayı deneyebilir.</string>
     <string _locid="91000">Daha fazla gencini savaşa gönder! Düşmanın böylesine korkakça bir zafer elde etmesine müsaade edemeyiz.</string>
     <string _locid="91001">Inti, Huayna Capac'ın savaşçılarına ışık tutuyor! Bize şanlı bir zafer kazandıracak!</string>
     <string _locid="91002">Sapa İnka da aynı fikirde.</string>
@@ -37276,7 +37426,7 @@
     <string _locid="102712">Sudan Zariba Çitleri</string>
     <string _locid="102713">Surlar (Kapılar hariç) daha hızlı inşa edilir ve yükseltilir ve artık esas ücretlerinin yarısı Yiyecek olarak ödenir.</string>
     <string _locid="102714">Sudan Zariba Çit Surları</string>
-    <string _locid="102715">Değirmen, Mülk, Tarla, Pirinç Tarlası ve Araziler daha az Oduna mal olur ve daha hızlı inşa edilir.</string>
+    <string _locid="102715">Değirmen, Mülk, Tarla, Pirinç Tarlası, Hacienda ve Araziler daha az Oduna mal olur ve daha hızlı inşa edilir.</string>
     <string _locid="102716">Sudan Hakura Sistemi</string>
     <string _locid="102717">2 Kızıldeniz At Arabası gönderir (çoğu binayı inşa eder).</string>
     <string _locid="102718">1 Kızıldeniz At Arabası gönderir (çoğu binayı inşa eder). Geçen her 5 dakikalık oyun süresi için (en fazla 30 dakikaya kadar) 1 ilave Kızıldeniz At Arabası gönderir.</string>
@@ -38047,6 +38197,10 @@
     <string _locid="104134">Cevheri işlemek için endüstriyel yöntemler, Köylülerin madenleri önemli ölçüde daha hızlı toplamasını sağlar.</string>
     <string _locid="104135" symbol="cStringNuggetPilgrim1">Kurtarıcısının gayesine ortak olacak, tuzağa düşmüş bir Hacı.</string>
     <string _locid="104136" symbol="cStringNuggetPilgrim1Activate">%1s, davasına ortak olacak bir Hacı kurtardı.</string>
+    <string _locid="104137" symbol="cStringNuggetKidnapPilgrim">İki Hacı esir tutuluyor.</string>
+    <string _locid="104138" symbol="cStringNuggetKidnapPilgrimActivate">%1s, iki Hacı kurtardı.</string>
+    <string _locid="104139" symbol="cStringNuggetKidnapSettler">İki Yerleşimci esir tutuluyor.</string>
+    <string _locid="104140" symbol="cStringNuggetKidnapSettlerActivate">%1s, iki Yerleşimci kurtardı.</string>
     <string _locid="104500">Çalı Yakma</string>
     <string _locid="104501">Ambarlar, yakınlardaki odun toplamayı da geliştirir. Yakınlardaki hayvanlar ve böğürtlenler de daha hızlı toplanır.\n • Odun Toplama: +%15\n • Hayvanlar + Böğürtlenler: +%5</string>
     <string _locid="104502">Heywat Felsefesi</string>
@@ -38117,7 +38271,7 @@
     <string _locid="104567">8 Bola Savaşçısı</string>
     <string _locid="104568">Şu ana kadar kaybettiğin her 2 Hayalet Jaguar Şövalye için 1 kişi gönderir (en fazla 16 birim gönderir).</string>
     <string _locid="104569">Tören Gladyatörleri</string>
-    <string _locid="104570">Şu ana kadar kaybettiğin her 2 tanesi için 1 Kuru Kafa Şövalyesi gönderir (en fazla 13).</string>
+    <string _locid="104570">Şu ana kadar kaybettiğin her 3 tanesi için 1 Kuru Kafa Şövalyesi gönderir (en fazla 13).</string>
     <string _locid="104571">Kuru Kafa Duvarı</string>
     <string _locid="104572" symbol="cStringDanceDesc13">Çağ atlama maliyetleri - saniyede %1.2f kaynak (toplam %2.2f)</string>
     <string _locid="104573" symbol="cStringDanceDescQ10">- %1.2f /sn</string>
@@ -38263,6 +38417,43 @@
     </string>
     <string _locid="104839">
     </string>
+    <string _locid="104840">Tlaxcala Kabul Töreni</string>
+    <string _locid="104841">Tlaxcala Chinampa</string>
+    <string _locid="104842">Hükmet, Britanya</string>
+    <string _locid="104843">Kudretli bir Savaş Gemisi gönderir! Bu kart bir sonraki gönderişinde 1000 Sikkeye mal olur.</string>
+    <string _locid="104844">Kudretli bir Savaş Gemisi gönderir!</string>
+    <string _locid="104845">1 Savaş Gemisi</string>
+    <string _locid="104846">Yok edildiği takdirde Rıhtımında tekrar inşa edebileceğin kudretli bir Savaş Gemisi gönderir.</string>
+    <string _locid="104847">Savaş Gemisi vazifelendir</string>
+    <string _locid="104848">Greenwich Saati</string>
+    <string _locid="104849">1 Ticaret Merkezi At Arabası gönderir. Ticaret Merkezlerinin her biri, Politikacı ve Teknoloji araştırma sürelerini %20 kısaltır.</string>
+    <string _locid="104850">TÜM Teknolojiler, Kartlar ve Politikacılar daha hızlı araştırılır.</string>
+    <string _locid="104851" symbol="cStringGreenwichTimeAura">Kraliyet Gözlemevi</string>
+    <string _locid="104852">Her sevkiyatla birlikte ilave Sikke Kasası</string>
+    <string _locid="104853">1 Cephanelik Arabası ve ücretsiz bir Cephanelik teknolojisi</string>
+    <string _locid="104854">10 Insurgente</string>
+    <string _locid="104855">TAKIM 1 Şahin Topu</string>
+    <string _locid="104856">TAKIM 1 Ağır Top</string>
+    <string _locid="104857">Muhteşem Yıl</string>
+    <string _locid="104858">
+    </string>
+    <string _locid="104859">Hızlı ulaşır! ŞU ANKİ Çağınızda ne kadar çok sevkiyat aldıysanız bir sonraki Çağ atlamanız o kadar ucuz ve hızlıdır.</string>
+    <string _locid="104860">Yerleşimciler 365 saniye boyunca önemli ölçüde daha hızlı eğitilir ve çalışır. Muhteşem bir yıl, Viva España!</string>
+    <string _locid="104861">Yarımada Gerillaları</string>
+    <string _locid="104862">Menzilli Piyade saldırısını geliştirir ve son zamanlarda zarar verdikleri düşmanların yerini görebilmelerini sağlar.</string>
+    <string _locid="104863">Yeni İspanya Genel Valisi</string>
+    <string _locid="104864">Yerleşimcilerin kaynak toplayabileceği veya İneklerin, Yerleşimcilerin veya güçlü Soldadoların ortaya çıkmasına yardımcı olabilecek Haciendalara dönüşebilen 2 Hacienda At Arabası.</string>
+    <string _locid="104865">Reconquista</string>
+    <string _locid="104866">Kaybettiğin her 5 Arkaik piyade için 1 Konkistador gönderir (en fazla 10). Yerli Elçiliği'nde çeşitli Cizvit yükseltmeleri araştırmana imkân sağlar.</string>
+    <string _locid="104867">Kaybettiğin her 5 Arkaik piyade için 1 Konkistador gönderir (en fazla 10).</string>
+    <string _locid="104868">Nuestras Senyoras</string>
+    <string _locid="104869">2 kudretli Savaş Gemisi gönderir.</string>
+    <string _locid="104870">Özgürlük Savaşları</string>
+    <string _locid="104871">Devrimleri daha ucuz hâle getirir ve orijinal desteni geri almak için İspanya'ya dönmeni sağlar.</string>
+    <string _locid="104872">Muhteşem Yıl sona eriyor</string>
+    <string _locid="104873">Trastamára Hanedanı</string>
+    <string _locid="104874">Bu Hacienda'yı Soldado üretmek için yapılandır.</string>
+    <string _locid="104875">Bu Hacienda, Soldado üretiyor.</string>
     <string _locid="105000">Altın Kıyı</string>
     <string _locid="105001">Bu tropikal kıyı bölgesi; çayır ovaları ve açık düzlüklerle bezeli, lüks, altın rengi kumlu kıyılara sahiptir. Volta Gölü, haritayı ikiye böler ve merkezdeki ormanlık platolarla birlikte kolaylıkla savunulabilen kaynaklar oluşturur. Bu mineral zengini bölge, adını ana ihracat kaynağından almaktadır, öyle ki burada sadece altın madenleri bulabilirsin. Bölgedeki deniz ticaretinin yaygınlığı ve önemi, okyanustan kolayca kontrol edilen bir deniz ticaret yolu ile ehemmiyet kazanmaktadır ancak balinalar yoktur.</string>
     <string _locid="105002">Altın Kıyı: Tek sikke kaynağı olan büyük altın madenlerine sahip mineral bakımından zengin bir kıyı bölgesi.\n\nYerleşimler: Akan, Yoruba\nHaydutlar: Çöl Savaşçısı, Çöl Okçusu</string>
@@ -38721,7 +38912,7 @@
     <string _locid="110278">Pensilvanya Süvarileri</string>
     <string _locid="110279">1 Yerli Elçiliği Travoisi gönderir ve bazı yükseltmelerinin ve birimlerinin mevcut olduğu Yerli Elçiliğindeki Kriler ile müttefik olur.</string>
     <string _locid="110280">Tammany Festivali</string>
-    <string _locid="110281">Kartlardan sandık sevkiyatları doğrudan stokuna yatırılır ve +900 ek kaynak sağlar. Gönderilmiş olanlar tekrar gönderilebilir.</string>
+    <string _locid="110281">Kartlardan sandık sevkiyatları doğrudan stokuna yatırılır ve ek kaynak sağlar. Gönderilmiş olanlar tekrar gönderilebilir.</string>
     <string _locid="110282">New Jersey Limanları</string>
     <string _locid="110283">4 Altyapı At Arabası gönderir. Bu da dahil olmak üzere tüm gönderiler önemli ölçüde daha hızlı ulaşır.</string>
     <string _locid="110284">Morris Kanalı</string>
@@ -38836,12 +39027,12 @@
     <string _locid="110393">Haydut Nüfus Azaltma</string>
     <string _locid="110394">Kaliforniyum</string>
     <string _locid="110395">Ticaret Merkezi +%100 Gelir</string>
-    <string _locid="110396">360 İspanyol Altını bulunduran kocaman Sandıklar</string>
+    <string _locid="110396">İspanyol Hazine Sandığı</string>
     <string _locid="110397">400 Odunluk Büyük Kasa</string>
     <string _locid="110398">50 Yiyeceklik Kasa</string>
     <string _locid="110399">Devrimci Keskin Nişancı</string>
     <string _locid="110400">400 Yiyecek erzak sağlar.</string>
-    <string _locid="110401">360 İspanyol Altını sağlar.</string>
+    <string _locid="110401">300 İspanyol Altını sağlar.</string>
     <string _locid="110402">400 Yiyeceklik Büyük Kasa</string>
     <string _locid="110403">REV Keskin Nişancı</string>
     <string _locid="110404">Büyük Kitap Koleksiyonu</string>
@@ -39034,7 +39225,7 @@
     <string _locid="110591">Savaş Gemisi</string>
     <string _locid="110592">SHP Savaş Gemisi</string>
     <string _locid="110593">Paralı Asker Savaş Gemisi</string>
-    <string _locid="110594">Savaş Gemisi. Dalgalara ve üzerindeki her şeye hükmeden güçlü bir paralı savaş gemisi.</string>
+    <string _locid="110594">Savaş Gemisi. Dalgalara ve üzerindeki her şeye hükmeden güçlü bir Cephe Gemisi.</string>
     <string _locid="110595">Ticaret Merkezlerine, alan hasarına yol açan kuvvetli bir yüklü yetenek verir.</string>
     <string _locid="110596">Pompalı Tüfekli Ulaklar</string>
     <string _locid="110597">Pompalı Tüfekli Ulaklar (Yüklü)</string>
@@ -40274,7 +40465,7 @@
     <string _locid="112818">Mayalar</string>
     <string _locid="112819">Chan Santa Cruz</string>
     <string _locid="112820">Kaliforniya</string>
-    <string _locid="112821">Yerleşimciler, Californiolara dönüşür.\n\nİnek oluşturma sınırı ve çalışma hızı büyük ölçüde artar.\n\nOdak: Süvariler, Yetiştiricilik, yeniden ekonomi oluşturma.</string>
+    <string _locid="112821">Yerleşimciler, Californiolara dönüşür.\n\nİnek oluşturma sınırı ve çalışma hızı büyük ölçüde artar.\n\nOdak: Süvariler, yetiştiricilik, yeniden ekonomi oluşturma.</string>
     <string _locid="112822">Kaliforniyalılar</string>
     <string _locid="112823">Sonoma</string>
     <string _locid="112824">Teksas</string>
@@ -40644,6 +40835,32 @@
     <string _locid="113188">Yerli Alan Ticaret Merkezi'ni bul</string>
     <string _locid="113189">Ticaret Yolu Ticaret Merkezi'ni bul</string>
     <string _locid="113190">Walker'ın Kumarı</string>
+    <string _locid="113191">Korucu</string>
+    <string _locid="113192">INF Korucu</string>
+    <string _locid="113193">Britanyalı avcı eri. Ağır Piyadelere daha yakın mesafeden daha etkili bir şekilde karşı koymak için uzun menzilli bir yay ve bir tüfekle donatılmıştır.</string>
+    <string _locid="113194">Britanyalı avcı eri. Ağır Piyadelere karşı daha etkili bir şekilde karşı koymak için bir tüfekle donatılmıştır ancak daha kısa menzile sahiptir.</string>
+    <string _locid="113195">Britanyalı avcı eri</string>
+    <string _locid="113196">Korucu saldırısı ve darbe puanı artar.</string>
+    <string _locid="113197">Kıdemli Korucu</string>
+    <string _locid="113198">Kıdemli Korucu</string>
+    <string _locid="113199">Nöbetçi Korucu</string>
+    <string _locid="113200">Nöbetçi Korucu</string>
+    <string _locid="113201">İmparatorluk Korucusu</string>
+    <string _locid="113202">İmparatorluk Korucusu</string>
+    <string _locid="113203">Uzun Yaylıların hepsi Kışlalarda, Ana Şehir'de ve haritada Korucular ile değiştirilir. Korucular, bir yay ile kuşatılmıştır ve ayrıca Ağır Piyadelere daha yakın mesafelerde daha etkili bir şekilde karşı koymak için tüfek kullanırlar.</string>
+    <string _locid="113204">Korucu</string>
+    <string _locid="113205">6 Korucu</string>
+    <string _locid="113206">8 Korucu</string>
+    <string _locid="113207">15 Korucu</string>
+    <string _locid="113208">10 Korucu</string>
+    <string _locid="113209">20 Korucu</string>
+    <string _locid="113211">Uzun Yaylıların hepsi Kışlalarda, Ana Şehir'de ve haritada Korucular ile değiştirilir. Korucular, Ağır Piyadelere daha etkili bir şekilde karşı koymak için yay yerine tüfek kullanır ancak daha kısa menzile sahiptir.</string>
+    <string _locid="113212">Kuşatma Okçuluğu</string>
+    <string _locid="113213">Uzun Yaylıların, zamanla yanma hasarı veren alevli oklarla binaları uzun mesafeden kuşatmalarını sağlar.</string>
+    <string _locid="113214">Menzilli Kuşatma Saldırısı</string>
+    <string _locid="113215">5 güçlü Korucu gönderir ve mevcut Uzun Yaylılarını da onlarla değiştirir.\n • Uzun Yaylı sevkiyatları, artık onların yerine Korucular gönderir.</string>
+    <string _locid="113216">7 Korucu</string>
+    <string _locid="113217">Denizlerin Hükümdarı</string>
     <string _locid="200000">İsveç Bayrakları</string>
     <string _locid="200001">Bu binada İsveç bayrakları göster.</string>
     <string _locid="200002">Yeni Dünya Ticaret Merkezi (yeşil)</string>
@@ -40733,6 +40950,18 @@
     <string _locid="210025">Hem iyileştirilmiş performans hem de görüntü kalitesi sunar.</string>
     <string _locid="210026">Kalite</string>
     <string _locid="210027">Dengeli moddan daha yüksek görüntü kalitesi sunar.</string>
+    <string _locid="210100">Bu özellikler hâlen geliştirilme aşamasındadır ve belirsiz donanım yapılanması kullanan kişiler için sorunlara yol açabilir. Bu seçenekleri etkinleştirmek oyun deneyiminizi beklenmedik bir şekilde etkileyebilir. Devam etmek istiyor musunuz?</string>
+    <string _locid="230101">Değer Ön Yüklemesini Etkinleştir</string>
+    <string _locid="230102">Değer ön yüklemesini etkinleştirmek, oyun içi denetimin daha sağlam olmasını sağlamak için yükleme ekranı süresince vaktinden önce değerlerin hazırlanması için uygulamayı zorlar. Bu durum daha fazla bellek tüketecektir ve 8GB ve daha az RAM'a sahip sistemlerde sorunlara yol açabilir.</string>
+    <string _locid="210103">Değer Ön Yüklemesi (Beta)</string>
+    <string _locid="210104">Değer ön yüklemesi, tüm değerlerin vaktinden önce yüklenmesini sağlayarak uygulamanın daha sağlıklı çalışması için tasarlanmıştır. Deneme sürecindeki bir özelliktir. Grafik seçenekleri menüsünden kapatılabilir.</string>
+    <string _locid="210105">Yükleniyor</string>
+    <string _locid="210106">Tamamlanıyor</string>
+    <string _locid="210107">Taranıyor</string>
+    <string _locid="210108">Çevresel Efektler</string>
+    <string _locid="210109">Arazi Objeleri</string>
+    <string _locid="210110">Harita Değerleri</string>
+    <string _locid="210111">Statik Değerler</string>
     <string _locid="220001">Fotoğraf Modu</string>
     <string _locid="220002">Hareket:</string>
     <string _locid="220003">Döndürme:</string>
@@ -40741,7 +40970,7 @@
     <string _locid="220006">Kamerayı Sıfırla:</string>
     <string _locid="220007">Arayüzü Aç/Kapat:</string>
     <string _locid="220008">Geri:</string>
-    <string _locid="220009">Hareket:\n • Kamerayı hareket ettirmek için WASD veya Ok tuşları.\n • Kamerayı aşağı/yukarı hareket ettirmek için Q ve E.\n • Kamerayı hareket ettirmek için fareyi kenara getir\n • Kamerayı hareket ettirmek için Space tuşuna basılı tutup fareyle tıkla ve sürükle.\n\n Döndürme:\n • Döndürmek için Alt + WASD veya Alt + Ok tuşları.\n • Döndürmek için Alt + tıklayıp sürükle.\n\n Yakınlaştırma/Uzaklaştırma:\n • Yakınlaştırıp uzaklaştırmak için kaydırma tekerleğini kullan</string>
+    <string _locid="220009">Hareket:\n• WASD ile kamerayı hareket ettir.\n• Fareyi kenarlara getirerek kamerayı hareket ettir.\n\nYükseltme:\n• Q ve E tuşlarıyla kamerayı yukarı/aşağı taşı.\n\nDöndürme:\n• Alt + WASD.\n\nYakınlaştırma/Uzaklaştırma:\n• Yakınlaştırıp uzaklaştırmak için kaydırma tekerleğini kullan\n\nEkran Görüntüsü: PrtSc\n\nKamerayı Sıfırlama: R\n\nArayüzü Aç/Kapat: T\n\nGeri: Esc</string>
     <string _locid="220010">Arayüzü Aç/Kapat</string>
     <string _locid="220011">Ekran görüntüsünde arayüzü göster</string>
     <string _locid="220012">Klasörü Bul:</string>
@@ -40753,7 +40982,18 @@
     <string _locid="220018">Açılan kutudan çoklu ışık ön ayarlarını seç.</string>
     <string _locid="220019">Kaydırıcıyı oynatarak güneşin konumunu değiştir.</string>
     <string _locid="220020">Arayüzü açıp kapatmak için seç.</string>
-    <string _locid="220021">Ekran görüntüsü alırken arayüzü de göstermek için seç.</string>
+    <string _locid="220021">Ekran görüntüsü alırken arayüzün de gösterilmesi için bunu seç.</string>
     <string _locid="220022">Ekran görüntüsü klasör konumunu açmak için seç.</string>
+    <string _locid="220023">Işık Ön Ayarı Gündüz</string>
+    <string _locid="220024">Işık Ön Ayarı Gece</string>
+    <string _locid="220025">Fotoğraf Modu'nu aç. \nNOT: Bu mod şu anda BETA sürümdedir. \nBu moddaki tüm ayarlar ve özellikler geliştirme aşamasındadır. Grafik ve performans sorunları gibi sorunlara neden olabilir.</string>
+    <string _locid="220026">Işıklandırma</string>
+    <string _locid="220027">Aşama: Beta</string>
+    <string _locid="220028">Bu mod şu anda BETA sürümdedir. \nBu moddaki tüm ayarlar ve özellikler geliştirme aşamasındadır ve sorunlara neden olabilir.</string>
+    <string _locid="220029">Fotoğraf Modu (Beta)</string>
+    <string _locid="220030">Move Camera Up</string>
+    <string _locid="220031">Move Camera Down</string>
+    <string _locid="220032">Camera Rotate Up</string>
+    <string _locid="220033">Camera Rotate Down</string>
   </language>
 </stringtable>

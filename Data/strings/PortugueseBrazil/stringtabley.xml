@@ -279,6 +279,7 @@
     <string _locid="19036" symbol="cStringEconomy">Economia</string>
     <string _locid="19037" symbol="cStringMilitaryDetail">Veja detalhes da pontuação militar.</string>
     <string _locid="19038" symbol="cStringMilitary">Militar</string>
+    <string _locid="19039" symbol="cStringEconomyFilter">Economia (não ranqueada)</string>
     <string _locid="19041" symbol="cStringGameStatistics">Exibir mais estatísticas avançadas do jogo.</string>
     <string _locid="19042" symbol="cStringExperienceDetail">Veja detalhes da pontuação de experiência.</string>
     <string _locid="19043" symbol="cStringExperience">Experiência</string>
@@ -1154,7 +1155,7 @@
     <string _locid="22177" symbol="cStringStartupLoadingSounds">Carregando sons...</string>
     <string _locid="22178" symbol="cStringEditorNewScenarioBlankType">Em branco</string>
     <string _locid="22179">Restaurar jogo</string>
-    <string _locid="22180" symbol="cStringESOBadPassword">Senhas não podem conter espaços nem os caracteres: $ "&lt;&gt; ( ) ;</string>
+    <string _locid="22180" symbol="cStringESOBadPassword">Senhas não podem conter espaços nem os caracteres: $ " &lt;&gt; ( ) ;</string>
     <string _locid="22201" symbol="cStringMultiple">Vários</string>
     <string _locid="22203" symbol="cStringAbstractNameWood">Madeira</string>
     <string _locid="22204" symbol="cStringAbstractNameFood">Alimento</string>
@@ -1476,7 +1477,7 @@
     <string _locid="22749" symbol="cStringESOPasswordCantContainNickname">A sua senha não pode conter o seu apelido.</string>
     <string _locid="22750" symbol="cStringESOSecretQuestionRules">A sua pergunta e resposta secretas precisam ser diferentes.</string>
     <string _locid="22751" symbol="cStringESOSecretQuestionPassword">A sua pergunta e resposta secretas não podem conter a sua senha.</string>
-    <string _locid="22752" symbol="cStringESOSecretQuestionChars">A sua pergunta e resposta secretas não podem conter $ &amp; ( ) ; "&lt;&gt;</string>
+    <string _locid="22752" symbol="cStringESOSecretQuestionChars">A sua pergunta e resposta secretas não podem conter $ &amp; ( ) ; " &lt;&gt;</string>
     <string _locid="22804">Moinho</string>
     <string _locid="22805">Mosqueteiro</string>
     <string _locid="22806">Colonizador</string>
@@ -1696,7 +1697,7 @@
     <string _locid="23527">Mustangues comanches</string>
     <string _locid="23529">A criação seletiva de cavalos aumenta os pontos de vida de unidades do tipo cavalaria.</string>
     <string _locid="23530">Criação de cavalos comanches</string>
-    <string _locid="23540">Usando métodos de jardim flutuante asteca, os seus aldeões coletam alimentos de moinhos mais rapidamente e os barcos coletam de peixes e baleias mais rápido.</string>
+    <string _locid="23540">Ao usar métodos de jardim flutuante, seus aldeões coletam alimentos de moinhos mais rapidamente e barcos coletam de peixes e baleias mais rapidamente.</string>
     <string _locid="23541">Chinampa asteca</string>
     <string _locid="23546">Bomba morteiro</string>
     <string _locid="23559" symbol="cStringRed">Red</string>
@@ -2182,7 +2183,7 @@
     <string _locid="25336">IGC Nonahkee</string>
     <string _locid="25337">IGC Sahin</string>
     <string _locid="25338">IGC Warwick</string>
-    <string _locid="25339">Cura unidades feridas.</string>
+    <string _locid="25339">Curandeiro espanhol único com uma montaria rápida. Sem custo populacional.</string>
     <string _locid="25340">Missionário</string>
     <string _locid="25343">Definir agrupamento</string>
     <string _locid="25344" symbol="cStringTrEffectPanWithUnit">Camera Follow Unit</string>
@@ -2372,7 +2373,7 @@
     <string _locid="25664">Mercenário de infantaria corpo a corpo</string>
     <string _locid="25665">Edificação de alimentos</string>
     <string _locid="25666">Infantaria de ataque à distância e curta duração</string>
-    <string _locid="25667">Curandeiro</string>
+    <string _locid="25667">Curandeiro veloz em montaria</string>
     <string _locid="25668">Artilharia de cerco</string>
     <string _locid="25669">Infantaria pesada de ataque à distância</string>
     <string _locid="25670">Cavalaria corpo a corpo indígena americana</string>
@@ -3356,8 +3357,8 @@
     <string _locid="27776">Huaminca defensor</string>
     <string _locid="27778">Guerreiro águia defensor</string>
     <string _locid="27779">Mantelete defensor</string>
-    <string _locid="27780" symbol="cStringNuggetafCorsairLoot" comment="1 - amount, 2 - resource">O esconderijo secreto de um capitão pirata que vale %1d %2s e uma provisão.</string>
-    <string _locid="27781" symbol="cStringNuggetafCorsairLootActivate" comment="1 - player, 2 - amount, 3 - resource">%1s descobriu o esconderijo secreto de um capitão pirata no valor de %2d %3s e uma provisão.</string>
+    <string _locid="27780" symbol="cStringNuggetafCorsairLoot" comment="1 - amount, 2 - resource">O esconderijo secreto de um capitão pirata que vale %2d %3s e %4d %5s.</string>
+    <string _locid="27781" symbol="cStringNuggetafCorsairLootActivate" comment="1 - player, 2 - amount, 3 - resource">%1s descobriu o esconderijo secreto de um capitão pirata que vale %2d %3s e %4d %5s.</string>
     <string _locid="27835">Envia uma Carroça de Forte à sua cidade, que permite construir um poderoso Forte.</string>
     <string _locid="27836">Forte</string>
     <string _locid="27844">TECNOLOGIAS INICIAIS</string>
@@ -3798,7 +3799,7 @@
     <string _locid="29468">Construir cabana</string>
     <string _locid="29469">Besteiro</string>
     <string _locid="29470">Besteiros múltiplos</string>
-    <string _locid="29471">Arqueiro de arco longo</string>
+    <string _locid="29471">Arqueiro de Arco Longo/Patrulheiro</string>
     <string _locid="29472">Arqueiros de arco longo múltiplos</string>
     <string _locid="29473">Janízaro</string>
     <string _locid="29474">Janízaros múltiplos</string>
@@ -4265,6 +4266,8 @@
     <string _locid="31144">Direcione para gelo ou pontes de pedra para fazer com que desmoronem. Tem ataque à distância e corpo a corpo.</string>
     <string _locid="31145">Mineiro</string>
     <string _locid="31146">CJI Mineiro</string>
+    <string _locid="31147">Mineiro Desconhecido</string>
+    <string _locid="31148">Coleta Moedas rapidamente das minas, mas lentamente de outras fontes. Possui um poderoso ataque de granada.</string>
     <string _locid="31153" symbol="cStringNuggetKinkajou" comment="1 - amount, 2 - resource">Um adorável jupará que vale %1d %2s(s).</string>
     <string _locid="31154" symbol="cStringNuggetKinkajouActivate" comment="1 - player, 2 - amount, 3 - resource">%1s descobriu um adorável jupará que vale %2d %3s(s).</string>
     <string _locid="31155" symbol="cStringNuggetSloth" comment="1 - amount, 2 - resource">A assustadora preguiça-de-dois-dedos que vale %1d %2s(s).</string>
@@ -4836,7 +4839,7 @@
     <string _locid="32909" symbol="cStringAbilityRolloverSharpshooter">Mata guardiões de tesouro com um único tiro.</string>
     <string _locid="32910" symbol="cStringAbilityNameBroadside">Ataque de Banda de Artilharia</string>
     <string _locid="32911" symbol="cStringAbilityRolloverBroadside">Atira no alvo com todas as armas!</string>
-    <string _locid="32912">Envia 26 Forças Especiais de Roger (escaramuçadores) da fronteira.</string>
+    <string _locid="32912">Envia um número de Patrulheiros (Escaramuças) da fronteira.</string>
     <string _locid="32913">Forças especiais de Roger</string>
     <string _locid="32914">Os otomanos reuniram a poderosa Corporação Tufanci!</string>
     <string _locid="32915">Escaramuçador guarda</string>
@@ -5203,7 +5206,7 @@
     <string _locid="33477">Cavaleiros de Malta que jogam argolas de fogo nos janízaros.</string>
     <string _locid="33478">Atirador de argolas</string>
     <string _locid="33479">CJI Atirador de argolas</string>
-    <string _locid="33486">Pontos de vida e campo de visão de navios de guerra aumentados.</string>
+    <string _locid="33486">Pontos de vida e campo de visão de navios de guerra aumentados. Permite que navios de guerra espanhóis treinem determinadas unidades militares.</string>
     <string _locid="33487">Armada</string>
     <string _locid="33492">Todas as melhorias exclusivas da Mesquita otomana custam 60% menos.</string>
     <string _locid="33493">Construção de mesquita</string>
@@ -5507,7 +5510,7 @@
     <string _locid="33973" symbol="cStringmercaddIncCountFld">Incremento de contagem:</string>
     <string _locid="33974">Plantas do pântano de Bayou</string>
     <string _locid="33975">ACES Plantas do pântano de Bayou</string>
-    <string _locid="33976">O treinamento intensivo de batalha asteca dá aos seus heróis mais pontos de vida e ataque.</string>
+    <string _locid="33976">O treinamento intensivo de batalha dá aos seus Heróis mais pontos de vida e ataque.</string>
     <string _locid="33977">Iniciação asteca</string>
     <string _locid="33978" symbol="cStringMercenaryEditorErrorMsg1">Esta unidade de mercenário já foi adicionada à sua lista. Duplicatas não são permitidas.</string>
     <string _locid="33979" symbol="cStringmerceditEditBtn">Editar mercenário</string>
@@ -6217,7 +6220,8 @@
     <string _locid="35298">Move morteiros e artilharia montada para a Era das Fortalezas.</string>
     <string _locid="35299">Artilharia avançada</string>
     <string _locid="35307">Oficial da Guarda Real</string>
-    <string _locid="35308">O alcance do Arqueiro de Arco Longo aumentou.</string>
+    <string _locid="35308">Seu Arqueiro de Arco Longo pode atirar suas flechas ainda mais longe.</string>
+    <string _locid="35309">O Arqueiro de Arco Longo inflige mais dano à Infantaria Pesada e ganha mais alcance.</string>
     <string _locid="35317">Ataque e pontos de vida de mosqueteiros e granadeiros aumentarão.</string>
     <string _locid="35318">Comb. mosq/granadeiro</string>
     <string _locid="35319">Pontos de vida de hussardos e dragões aumentarão.</string>
@@ -6493,7 +6497,7 @@
     <string _locid="35732">8 piqueiros</string>
     <string _locid="35733">10 piqueiros</string>
     <string _locid="35734">8 rodeleiros</string>
-    <string _locid="35735">13 rodeleiros</string>
+    <string _locid="35735">16 Rodeleiros</string>
     <string _locid="35736">9 rodeleiros</string>
     <string _locid="35737">4 hussardos</string>
     <string _locid="35738">6 lanceiros</string>
@@ -7519,8 +7523,8 @@
     <string _locid="36937">Por três gerações, uma família protege um segredo esquecido do Novo Mundo das mãos de um perigoso inimigo.</string>
     <string _locid="36938" symbol="cStringNuggetCoureur">Um coureur des bois capturado. Ele pode juntar-se à causa de quem o salvar.</string>
     <string _locid="36939" symbol="cStringNuggetCoureurActivate">%1s resgatou um coureur des bois, que se uniu à causa.</string>
-    <string _locid="36940" symbol="cStringNuggetNative">Um guerreiro indígena americano capturado. Ele pode juntar-se à causa de quem o salvar.</string>
-    <string _locid="36941" symbol="cStringNuggetNativeActivate">%1s resgatou um guerreiro indígena americano, que se uniu à causa.</string>
+    <string _locid="36940" symbol="cStringNuggetNative">Um guerreiro nativo preso. Ele pode se unir à causa de quem o resgatar.</string>
+    <string _locid="36941" symbol="cStringNuggetNativeActivate">%1s resgatou um guerreiro nativo, que se uniu à causa.</string>
     <string _locid="36942" symbol="cStringNuggetPrisSettler">Um colonizador capturado. Ele pode juntar-se à causa de quem o salvar.</string>
     <string _locid="36943" symbol="cStringNuggetPrisSettlerActivate">%1s resgatou um colonizador, que se uniu a ele.</string>
     <string _locid="36944" symbol="cStringNuggetPrisSurgeon">Um curandeiro capturado, que pode juntar-se à causa de quem o salvar.</string>
@@ -13747,7 +13751,7 @@
     <string _locid="43349">Remover de qualquer grupo</string>
     <string _locid="43350">Localizar explorador</string>
     <string _locid="43351">Localizar carroça</string>
-    <string _locid="43352">Localizar quartéis, blocause ou acampamento</string>
+    <string _locid="43352">Localize quartéis, blocause, academia de guerra ou acampamento de guerra</string>
     <string _locid="43353">Localizar capitólio</string>
     <string _locid="43354">Localizar hospital de campo</string>
     <string _locid="43355">Construir muralha</string>
@@ -14627,9 +14631,9 @@
     <string _locid="44228">8 corredores coiote</string>
     <string _locid="44229">12 corredores coiote</string>
     <string _locid="44230">Velocidade e pontos de vida do corredor coiote aumentarão.</string>
-    <string _locid="44231">Combate de coiote</string>
+    <string _locid="44231">Táticas do Coiote</string>
     <string _locid="44232">As provisões de combate de infantaria chegaram.</string>
-    <string _locid="44233">As provisões de combate de coiote chegaram.</string>
+    <string _locid="44233">As provisões de Táticas do Coiote chegaram.</string>
     <string _locid="44234">9 lanceiros puma</string>
     <string _locid="44235">6 lanceiros puma</string>
     <string _locid="44236">8 fundeiros otontin</string>
@@ -15488,7 +15492,7 @@
     <string _locid="45087">O chefe</string>
     <string _locid="45088">O melhor ataque do chefe de guerra.</string>
     <string _locid="45089">O chefe</string>
-    <string _locid="45090">+10% ataque e PV choup. guerra/nobres.</string>
+    <string _locid="45090">+10% de ataque e pontos de vida da Choupana de Guerra e Choupana de Nobres e 1 Travois de Choupana de Guerra.</string>
     <string _locid="45091">O Ancião</string>
     <string _locid="45092">2 travois de fazenda</string>
     <string _locid="45093">O Ancião</string>
@@ -15523,11 +15527,11 @@
     <string _locid="45122">Ataque e pontos de vida de guerreiros zapotecas aumentarão.</string>
     <string _locid="45123">SOMBRA Espadachim asteca</string>
     <string _locid="45124">Guer. relâmp. de elite</string>
-    <string _locid="45125">+10% at. e PV choup. guerra/nobres e 2 Travois de choup. nobres.</string>
+    <string _locid="45125">+10% de ataque e pontos de vida da Choupana de Guerra e Choupana de Nobres e 2 Travois de Choupana de Nobres.</string>
     <string _locid="45126">O Ancião</string>
-    <string _locid="45127">+30% de ataque e PV choupana de guerra/nobres e 2 travois de choupana dos nobres.</string>
+    <string _locid="45127">+30% de ataque e pontos de vida da Choupana de Guerra e Choupana de Nobres e 2 Travois de Choupana de Nobres.</string>
     <string _locid="45128">O Ancião</string>
-    <string _locid="45129">+50% de ataque e PV choupana de guerra/nobres e 2 travois de choupana dos nobres.</string>
+    <string _locid="45129">+50% de ataque e pontos de vida da Choupana de Guerra e Choupana de Nobres e 2 Travois de Choupana de Nobres.</string>
     <string _locid="45130">O Ancião</string>
     <string _locid="45131">400 madeiras</string>
     <string _locid="45132">O chefe</string>
@@ -17356,7 +17360,7 @@
     <string _locid="46966">2 artilharias montadas</string>
     <string _locid="46967">3 artilharias montadas</string>
     <string _locid="46968">1 canhão pesado + 4 ulanos</string>
-    <string _locid="46969">10 rodeleiros</string>
+    <string _locid="46969">14 Rodeleiros</string>
     <string _locid="46970">6 granadeiros</string>
     <string _locid="46971">8 alabardeiros</string>
     <string _locid="46972">7 arqueiros de cavalaria</string>
@@ -17411,7 +17415,7 @@
     <string _locid="47021" gamecharacter="Funcionário da ferrovia" soundfilename="XGENR9292" portraitfilename="resources\art\units\spc\miner\miner_portrait.png">Salve-nos!</string>
     <string _locid="47022" gamecharacter="Funcionário da ferrovia" soundfilename="XGENR9293" portraitfilename="resources\art\units\spc\miner\miner_portrait.png">Corra para a cidade!</string>
     <string _locid="47023" gamecharacter="Funcionário da ferrovia" soundfilename="XGENR9294" portraitfilename="resources\art\units\spc\miner\miner_portrait.png">Socorro!</string>
-    <string _locid="47024">Agora os missionários aumentarão o ataque dos soldados próximos.</string>
+    <string _locid="47024">Agora os seus missionários potencializam o ataque da infantaria e cavalaria próximas.</string>
     <string _locid="47025">Unção</string>
     <string _locid="47026">As provisões de almirantado chegaram.</string>
     <string _locid="47027">As provisões de unção chegaram.</string>
@@ -19882,7 +19886,7 @@
     <string _locid="49566">Ver a aparência do explorador</string>
     <string _locid="49567">Selecione para aplicar o efeito cosmético ou a alteração do nome do explorador.</string>
     <string _locid="49568">Selecione para começar o próximo desafio!</string>
-    <string _locid="49569">Explorador (Padrão)\nEsta é a versão padrão do explorador.</string>
+    <string _locid="49569">Prince (Padrão)\nEsta é a versão padrão do Prince.</string>
     <string _locid="49570">Imperador Teodoro\nO Imperador Teodoro vestindo trajes de caça, montado em seu garanhão branco usando um arreio com padrões em ouro.</string>
     <string _locid="49571">Usmã dã Fodio\nUsmã dã Fodio vestindo trajes de viagem equipado com um cajado, montado em seu camelo do deserto e segurando pergaminhos e outros bens.</string>
     <string _locid="49572">Desbloqueie esta personalização de explorador ao completar todos os Desafios de Evento do The African Royals.</string>
@@ -20012,8 +20016,9 @@
     <string _locid="49696">Desbloqueie esta personalização de Chefe de guerra ao completar os Desafios do Evento de Comemoração de AoE2DE.</string>
     <string _locid="49697">Moctezuma</string>
     <string _locid="49698">Tonatiuh</string>
-    <string _locid="49699">Modo de Economia</string>
-    <string _locid="49700">Modo de Economia: os jogadores estão em uma corrida para obter a maior pontuação econômica. Para ganhar este modo de jogo, concentre-se em desenvolver sua economia treinando unidades e construindo edificações. Colete recursos, avance nas eras e melhore suas tecnologias. Você também pode completar Desafios Econômicos para melhorar sua pontuação.</string>
+    <string _locid="49699">Economia</string>
+    <string _locid="49700">
+    </string>
     <string _locid="49701">Desbloqueio de ícone de perfil - Aldeã do AoE2.</string>
     <string _locid="49702">Personalização Chefe de Guerra - Moctezuma.</string>
     <string _locid="49703">Personalização Chefe de Guerra - Tonatiuh.</string>
@@ -20211,13 +20216,13 @@
     <string _locid="49895">Vá para https://discord.com/invite/ageofempires/login</string>
     <string _locid="49896">Suporte</string>
     <string _locid="49897">Encontre ajuda em nossos fóruns.</string>
-    <string _locid="49898">Acesse https://forums.ageofempires.com/c/age-of-empires-iii/133</string>
+    <string _locid="49898">Vá para https://aoe.ms/AoE3DEForums</string>
     <string _locid="49899">Fóruns</string>
     <string _locid="49900">Confira as últimas notícias em nossos fóruns.</string>
-    <string _locid="49901">Acesse https://support.ageofempires.com/hc/categories/360004101511-Age-of-Empires-III-Definitive-Edition</string>
+    <string _locid="49901">Vá para https://aoe.ms/AoE3DEFAQ</string>
     <string _locid="49902">Relatar um problema</string>
     <string _locid="49903">Informe-nos sobre bugs em nossos fóruns.</string>
-    <string _locid="49904">Acesse https://support.ageofempires.com/hc/articles/360048537332-Reporting-an-Issue</string>
+    <string _locid="49904">Vá para https://aoe.ms/AoE3DEReportIssue</string>
     <string _locid="49905">Evento de Ano Novo Lunar: 2022</string>
     <string _locid="49906">Evento de Ano Novo Lunar: 2021</string>
     <string _locid="49907">Ano do Tigre</string>
@@ -20305,6 +20310,126 @@
     <string _locid="49985">Desafios adicionais selecionados pelo jogador.</string>
     <string _locid="49986">Selecione Desafios Adicionais</string>
     <string _locid="49987">Desafios selecionados: {0}/{1}</string>
+    <string _locid="49988">Evento Internacional das Mulheres</string>
+    <string _locid="49989">Desbloqueio de ícone de perfil — Uma guerreira Amazona Daomé com óculos de sol roxo.</string>
+    <string _locid="49990">Construa 20 chalés como os suecos em uma única partida de escaramuça ou multijogador.</string>
+    <string _locid="49991">Desbloqueio de ícone de perfil — Rainha Christina da Suécia.</string>
+    <string _locid="49992">Vença uma partida de escaramuça de um jogador ou multijogador como qualquer civilização nativa (iroqueses, lakota, incas, astecas, hauçás, etíopes).</string>
+    <string _locid="49993">Desbloqueio de trapaça — "Vovó Babá", todos os aldeões se transformam em amazonas daomés.</string>
+    <string _locid="49994">Cure 1000 de PV usando mansões com a provisão da metrópole de Florence Nightingale em qualquer quantidade de partidas de escaramuça ou multijogador.</string>
+    <string _locid="49995">Desbloqueio de ícone de perfil — Exploradora.</string>
+    <string _locid="49996">Construa 50 mansões, casas, casas comunais, aldeias, santuários ou kanchas em qualquer quantidade de partidas de escaramuça ou multijogador.</string>
+    <string _locid="49997">Desbloqueio de personalização de explorador inglês — Elisabet Ramsey.</string>
+    <string _locid="49998">Envie as provisões da metrópole Daimiô Mototada, Daimiô Kiyomasa e Xogum Tokugawa em qualquer quantidade de partidas de escaramuça ou multijogador.</string>
+    <string _locid="49999">Desbloqueio de ícone de perfil — Nakano Takeko.</string>
+    <string _locid="55000">Cause 10.000 de dano com qualquer tipo de elefante indiano (lanceiro Mahout, Howdah, elefante de mangual, elefante de cerco ou unidades Mansabdar).</string>
+    <string _locid="55001">Desbloqueio de ícone de perfil — Rani Lakshmibai.</string>
+    <string _locid="55002">Construa 3 fábricas como os britânicos em qualquer quantidade de partidas de escaramuça ou multijogador.</string>
+    <string _locid="55003">Desbloqueio de ícone de perfil — Ada Lovelace.</string>
+    <string _locid="55004">Ada Lovelace</string>
+    <string _locid="55005">Fascinada por máquinas e considerada a primeira programadora de computadores, a Condessa de Lovelace fez as contas para resolver os problemas mais difíceis. Equipada com o charme de seu pai romântico Lord Byron e uma arma protótipo com um algoritmo mortal, Ada Lovelace causará uma impressão duradoura.</string>
+    <string _locid="55006">Desbloqueie esta personalização ao completar os Desafios do Evento Internacional das Mulheres.</string>
+    <string _locid="55007">Horário: {0}/00:{1}:00</string>
+    <string _locid="55008">Objetivo de pontuação: {0}</string>
+    <string _locid="55009">Desbloqueio de ícone de perfil — Exploradora Invernal.</string>
+    <string _locid="55010">Desbloqueio de personalização de explorador inglês — Ada Lovelace.</string>
+    <string _locid="55011">Lizzie, a Pirata</string>
+    <string _locid="55012">Embora criada como filha de um nobre inglês, Elisabet Ramsey prefere ser pirata no Caribe com, e sem, a carta de marca de Sua Majestade.</string>
+    <string _locid="55013">Explorador (Padrão)\nEsta é a versão padrão do explorador.</string>
+    <string _locid="55014" symbol="cStringOldReplayWarning">Aviso: Este replay foi gravado em uma versão anterior do jogo. Infelizmente, isso aumenta muito a chance de sair de sincronia.</string>
+    <string _locid="55015">Perigo</string>
+    <string _locid="55016">Ataque aqui</string>
+    <string _locid="55017">Ajude aqui</string>
+    <string _locid="55018">Vigie aqui</string>
+    <string _locid="55019">{0} alertou o perigo nesta área.</string>
+    <string _locid="55020">{0} pediu para atacar nesta área.</string>
+    <string _locid="55021">{0} solicitou ajuda nesta área.</string>
+    <string _locid="55022">{0} alertou para vigiar esta área.</string>
+    <string _locid="55023">Selecione uma opção de alerta.</string>
+    <string _locid="55024">Alerta de Comunicação</string>
+    <string _locid="55025">Abre uma roda de alertas com uma variedade de opções, como: Perigo, Ataque aqui, Ajude aqui e Vigie aqui.</string>
+    <string _locid="55026">Configurações Beta</string>
+    <string _locid="55027">Todas as configurações beta a seguir podem causar problemas gráficos e/ou de desempenho.</string>
+    <string _locid="55028">Sinalização de Aviso (Beta): clique neste botão e, em seguida, no mundo ou no minimapa para enviar um aviso.</string>
+    <string _locid="55029">Selecione o tipo de sinalização</string>
+    <string _locid="55030">Evento de Primavera</string>
+    <string _locid="55031">Desbloqueio de ícone de perfil — Estande de flores.</string>
+    <string _locid="55032">Pesquise o Festival da Flor de Cerejeira como os japoneses.</string>
+    <string _locid="55033">Desbloqueio de ícone de perfil — Um pássaro cantor empoleirado em um galho de flores a desabrochar.</string>
+    <string _locid="55034">Vença uma partida de Escaramuça ou Multijogador como os etíopes.</string>
+    <string _locid="55035">Desbloqueio de ícone de perfil — Um caleidoscópio de borboletas voando juntas.</string>
+    <string _locid="55036">Construa 40 Fazendas, Campos, Moinhos ou Arrozais em qualquer quantidade de partidas de Escaramuça ou Multijogador.</string>
+    <string _locid="55037">Desbloqueio de personalização de explorador espanhol — Aldeã Heroica.</string>
+    <string _locid="55038">Colete 10.000 flores em qualquer quantidade de partidas de Escaramuça ou Multijogador. (caixote de recursos)</string>
+    <string _locid="55039">Desbloqueio de ícone de perfil — Capivara usando uma coroa de flores.</string>
+    <string _locid="55040">Envie 30 Provisões de sua Metrópole em qualquer quantidade de partidas de Escaramuça ou Multijogador.</string>
+    <string _locid="55041">Desbloqueio de personalização de explorador espanhol — Dançarina de Flamenco.</string>
+    <string _locid="55042">Selecione uma personagem de computador para jogar com ela no cooperativo.</string>
+    <string _locid="55043">Dançarina de Flamenco</string>
+    <string _locid="55044">Dançarina de Flamenco\nCriada sob o próprio sol andaluz, esta Dançarina de Flamenco se beneficia das chamas e está determinada a realizar sua dança ardente na base de madeira do inimigo.</string>
+    <string _locid="55045">Aldeã Heroica</string>
+    <string _locid="55046">Aldeã Heroica\nEsta heroica aldeã espanhola sabe como restaurar a supremacia! Se sua cidade ou vila estiver sob ataque, pode contar com ela.</string>
+    <string _locid="55047">Desbloqueie esta personalização ao completar os Desafios do Evento de Primavera.</string>
+    <string _locid="55500">
+    </string>
+    <string _locid="55501">
+    </string>
+    <string _locid="55502">
+    </string>
+    <string _locid="55503">
+    </string>
+    <string _locid="55504">
+    </string>
+    <string _locid="55505">
+    </string>
+    <string _locid="55506">
+    </string>
+    <string _locid="55507">
+    </string>
+    <string _locid="55508">
+    </string>
+    <string _locid="55509">
+    </string>
+    <string _locid="55510">
+    </string>
+    <string _locid="55511">
+    </string>
+    <string _locid="55512">
+    </string>
+    <string _locid="55513">
+    </string>
+    <string _locid="55514">
+    </string>
+    <string _locid="55515">Expirou</string>
+    <string _locid="55516">
+    </string>
+    <string _locid="55517">
+    </string>
+    <string _locid="55518">
+    </string>
+    <string _locid="55519">
+    </string>
+    <string _locid="55520">
+    </string>
+    <string _locid="55521">
+    </string>
+    <string _locid="55522">
+    </string>
+    <string _locid="55523">
+    </string>
+    <string _locid="55524">
+    </string>
+    <string _locid="55525">
+    </string>
+    <string _locid="55526">
+    </string>
+    <string _locid="55527">
+    </string>
+    <string _locid="55528">
+    </string>
+    <string _locid="55529">(S/ bloqueio)</string>
+    <string _locid="55530">(Bloqueio)</string>
+    <string _locid="55531">{0} já está disponível no navegador de mods!</string>
     <string _locid="60001" symbol="cStringCivNameJapanese">Japonês</string>
     <string _locid="60002" symbol="cStringCivNameChinese">Chineses</string>
     <string _locid="60003" symbol="cStringCivNameIndians">Indianos</string>
@@ -20410,7 +20535,7 @@
     <string _locid="60103">Líder religioso que surpreende Guardiões de Tesouro e tem uma chance de fazer danos de ataque divino em combate. Explora, luta, constrói Centros da Cidade, Feitorias e Santuários.</string>
     <string _locid="60104">Arqueiro Sohei</string>
     <string _locid="60105">MONGE Arqueiro Sohei</string>
-    <string _locid="60106">Mercenário de infantaria leve</string>
+    <string _locid="60106" symbol="cStringHandInfantryMerc">Mercenário de infantaria leve</string>
     <string _locid="60107">Mercenário samurai japonês.</string>
     <string _locid="60108">Ronin</string>
     <string _locid="60109">INF Ronin</string>
@@ -23305,7 +23430,7 @@
     <string _locid="63088">Samurai Honrado</string>
     <string _locid="63089">Samurai Exaltado</string>
     <string _locid="63090" symbol="cStringIncreaseResearchPointsEffect">%1!s!: +%2!.0f!%% de Pontos de Pesquisa</string>
-    <string _locid="63091" symbol="cStringAddResearchPointsEffect">%1s: %2.2f Tempo de Pesquisa</string>
+    <string _locid="63091" symbol="cStringAddResearchPointsEffect">%1s: %2.2f Tempo de pesquisa</string>
     <string _locid="63092" symbol="cStringSetResearchPointsEffect">%1s: Define os Pontos de Pesquisa para %2.2f</string>
     <string _locid="63093">Aldeão</string>
     <string _locid="63094">Aldeão que coleta recursos.</string>
@@ -25165,35 +25290,35 @@
     <string _locid="65013">Rochedo Pequeno Litoral CJ</string>
     <string _locid="65014">PROP Rochedo Pequeno Litoral CJ</string>
     <string _locid="65015">O Pagode Branco envia Discípulos e tem o Cofre Sagrado, que aumenta os atributos do Mestre Shaolin e dos Discípulos, além do limite de treinamento de Discípulos.</string>
-    <string _locid="65016">O Pagode Branco envia Discípulos e tem o Cofre Sagrado, que aumenta os atributos do Mestre Shaolin e dos Discípulos, além do limite de treinamento de Discípulos.\n----------\nProvisões concedidas quando construído:\nII: Envia 4 Discípulos\nIII: Envia 6 Discípulos \nIV: Envia 10 Discípulos\nV: Envia 14 Discípulos</string>
+    <string _locid="65016">O Pagode Branco envia Discípulos e tem o Cofre Sagrado, que aumenta os atributos do Mestre Shaolin e dos Discípulos, além do limite de treinamento de Discípulos.\n----------\nProvisões concedidas quando construído:\nII: Envia 4 Discípulos\nIII: Envia 6 Discípulos \nIV: Envia 10 Discípulos\nV: Envia 16 Discípulos</string>
     <string _locid="65017">Pagode Branco</string>
     <string _locid="65018">WON Pagode Branco</string>
     <string _locid="65019">O Pagode Branco envia Discípulos e tem o Cofre Sagrado, que aumenta os atributos do Mestre Shaolin e dos Discípulos, além do limite de treinamento de Discípulos.</string>
-    <string _locid="65020">O Pagode Branco envia Discípulos e tem o Cofre Sagrado, que aumenta os atributos do Mestre Shaolin e dos Discípulos, além do limite de treinamento de Discípulos.\n----------\nProvisões concedidas quando construído:\nII: Envia 4 Discípulos\nIII: Envia 6 Discípulos \nIV: Envia 10 Discípulos\nV: Envia 14 Discípulos</string>
+    <string _locid="65020">O Pagode Branco envia Discípulos e tem o Cofre Sagrado, que aumenta os atributos do Mestre Shaolin e dos Discípulos, além do limite de treinamento de Discípulos.\n----------\nProvisões concedidas quando construído:\nII: Envia 4 Discípulos\nIII: Envia 6 Discípulos \nIV: Envia 10 Discípulos\nV: Envia 16 Discípulos</string>
     <string _locid="65021">Pagode Branco</string>
     <string _locid="65022">WON Pagode Branco</string>
     <string _locid="65023">O Pagode Branco envia Discípulos e tem o Cofre Sagrado, que aumenta os atributos do Mestre Shaolin e dos Discípulos, além do limite de treinamento de Discípulos.</string>
-    <string _locid="65024">O Pagode Branco envia Discípulos e tem o Cofre Sagrado, que aumenta os atributos do Mestre Shaolin e dos Discípulos, além do limite de treinamento de Discípulos.\n----------\nProvisões concedidas quando construído:\nII: Envia 4 Discípulos\nIII: Envia 6 Discípulos \nIV: Envia 10 Discípulos\nV: Envia 14 Discípulos</string>
+    <string _locid="65024">O Pagode Branco envia Discípulos e tem o Cofre Sagrado, que aumenta os atributos do Mestre Shaolin e dos Discípulos, além do limite de treinamento de Discípulos.\n----------\nProvisões concedidas quando construído:\nII: Envia 4 Discípulos\nIII: Envia 6 Discípulos \nIV: Envia 10 Discípulos\nV: Envia 16 Discípulos</string>
     <string _locid="65025">Pagode Branco</string>
     <string _locid="65026">WON Pagode Branco</string>
     <string _locid="65027">O Pagode Branco envia Discípulos e tem o Cofre Sagrado, que aumenta os atributos do Mestre Shaolin e dos Discípulos, além do limite de treinamento de Discípulos.</string>
-    <string _locid="65028">O Pagode Branco envia Discípulos e tem o Cofre Sagrado, que aumenta os atributos do Mestre Shaolin e dos Discípulos, além do limite de treinamento de Discípulos.\n----------\nProvisões concedidas quando construído:\nII: Envia 4 Discípulos\nIII: Envia 6 Discípulos \nIV: Envia 10 Discípulos\nV: Envia 14 Discípulos</string>
+    <string _locid="65028">O Pagode Branco envia Discípulos e tem o Cofre Sagrado, que aumenta os atributos do Mestre Shaolin e dos Discípulos, além do limite de treinamento de Discípulos.\n----------\nProvisões concedidas quando construído:\nII: Envia 4 Discípulos\nIII: Envia 6 Discípulos \nIV: Envia 10 Discípulos\nV: Envia 16 Discípulos</string>
     <string _locid="65029">Pagode Branco</string>
     <string _locid="65030">WON Pagode Branco</string>
     <string _locid="65031">A Torre de Porcelana gera recursos por segundo que podem ser definidos como alimentos, madeira, moedas ou uma combinação de todos os recursos, incluindo exportação e experiência.</string>
-    <string _locid="65032">A Torre de Porcelana gera recursos por segundo que podem ser definidos como alimentos, madeira, moedas ou uma combinação de todos os recursos, incluindo exportação e experiência.\n----------\nValores produzidos quando construída:\nII: Alimento: 3 / Madeira: 2,5 / Moedas: 2,5 /\nCombinação: 0,6 de alimento, 0,6 de madeira, 0,6 moedas, 0,18 de exportação, 0,18 PE\nIII: Alimento: 4,5 / Madeira: 4 / Moedas: 4 /\nCombinação: 1,25 de alimento, 1 de madeira, 1 moeda, 0,25 de exportação, 0,25 PE\nIV: Alimento: 6 / Madeira: 5,5 / Moeda / 5,5 /\nCombinação: 1,5 de alimento, 1,1 de madeira, 1,1 moedas, 0,4 de exportação, 0,4 PE\nV: Alimento: 6,5 / Madeira: 6 / Moedas: 6 /\nCombinação: 1,5 de alimento, 2 de madeira, 2 moedas, 0,5 de exportação, 0,5 PE</string>
+    <string _locid="65032">A Torre de Porcelana gera recursos por segundo que podem ser definidos como alimentos, madeira, moedas ou uma combinação de todos os recursos, incluindo exportação e experiência.\n----------\nValores produzidos quando construída:\nII: Alimento: 3 / Madeira: 2,5 / Moedas: 2,5 /\nCombinação: 0,6 de alimento, 0,6 de madeira, 0,6 moedas, 0,18 de exportação, 0,18 PE\nIII: Alimento: 4,5 / Madeira: 4 / Moedas: 4 /\nCombinação: 1,25 de alimento, 1 de madeira, 1 moeda, 0,25 de exportação, 0,25 PE\nIV: Alimento: 6 / Madeira: 5,5 / Moeda / 5,5 /\nCombinação: 1,5 de alimento, 1,1 de madeira, 1,1 moedas, 0,4 de exportação, 0,4 PE\nV: Alimento: 6,5 / Madeira: 6 / Moedas: 6 /\nCombinação: 2 de alimento, 1,5 de madeira, 1,5 moedas, 0,5 de exportação, 0,5 PE</string>
     <string _locid="65033">Torre de Porcelana</string>
     <string _locid="65034">WON Torre de Porcelana</string>
     <string _locid="65035">A Torre de Porcelana gera recursos por segundo que podem ser definidos como alimentos, madeira, moedas ou uma combinação de todos os recursos, incluindo exportação e experiência.</string>
-    <string _locid="65036">A Torre de Porcelana gera recursos por segundo que podem ser definidos como alimentos, madeira, moedas ou uma combinação de todos os recursos, incluindo exportação e experiência.\n----------\nValores produzidos quando construída:\nII: Alimento: 3 / Madeira: 2,5 / Moedas: 2,5 /\nCombinação: 0,6 de alimento, 0,6 de madeira, 0,6 moedas, 0,18 de exportação, 0,18 PE\nIII: Alimento: 4,5 / Madeira: 4 / Moedas: 4 /\nCombinação: 1,25 de alimento, 1 de madeira, 1 moeda, 0,25 de exportação, 0,25 PE\nIV: Alimento: 6 / Madeira: 5,5 / Moeda / 5,5 /\nCombinação: 1,5 de alimento, 1,1 de madeira, 1,1 moedas, 0,4 de exportação, 0,4 PE\nV: Alimento: 6,5 / Madeira: 6 / Moedas: 6 /\nCombinação: 1,5 de alimento, 2 de madeira, 2 moedas, 0,5 de exportação, 0,5 PE</string>
+    <string _locid="65036">A Torre de Porcelana gera recursos por segundo que podem ser definidos como alimentos, madeira, moedas ou uma combinação de todos os recursos, incluindo exportação e experiência.\n----------\nValores produzidos quando construída:\nII: Alimento: 3 / Madeira: 2,5 / Moedas: 2,5 /\nCombinação: 0,6 de alimento, 0,6 de madeira, 0,6 moedas, 0,18 de exportação, 0,18 PE\nIII: Alimento: 4,5 / Madeira: 4 / Moedas: 4 /\nCombinação: 1,25 de alimento, 1 de madeira, 1 moeda, 0,25 de exportação, 0,25 PE\nIV: Alimento: 6 / Madeira: 5,5 / Moeda / 5,5 /\nCombinação: 1,5 de alimento, 1,1 de madeira, 1,1 moedas, 0,4 de exportação, 0,4 PE\nV: Alimento: 6,5 / Madeira: 6 / Moedas: 6 /\nCombinação: 2 de alimento, 1,5 de madeira, 1,5 moedas, 0,5 de exportação, 0,5 PE</string>
     <string _locid="65037">Torre de Porcelana</string>
     <string _locid="65038">WON Torre de Porcelana</string>
     <string _locid="65039">A Torre de Porcelana gera recursos por segundo que podem ser definidos como alimentos, madeira, moedas ou uma combinação de todos os recursos, incluindo exportação e experiência.</string>
-    <string _locid="65040">A Torre de Porcelana gera recursos por segundo que podem ser definidos como alimentos, madeira, moedas ou uma combinação de todos os recursos, incluindo exportação e experiência.\n----------\nValores produzidos quando construída:\nII: Alimento: 3 / Madeira: 2,5 / Moedas: 2,5 /\nCombinação: 0,6 de alimento, 0,6 de madeira, 0,6 moedas, 0,18 de exportação, 0,18 PE\nIII: Alimento: 4,5 / Madeira: 4 / Moedas: 4 /\nCombinação: 1,25 de alimento, 1 de madeira, 1 moeda, 0,25 de exportação, 0,25 PE\nIV: Alimento: 6 / Madeira: 5,5 / Moeda / 5,5 /\nCombinação: 1,5 de alimento, 1,1 de madeira, 1,1 moedas, 0,4 de exportação, 0,4 PE\nV: Alimento: 6,5 / Madeira: 6 / Moedas: 6 /\nCombinação: 1,5 de alimento, 2 de madeira, 2 moedas, 0,5 de exportação, 0,5 PE</string>
+    <string _locid="65040">A Torre de Porcelana gera recursos por segundo que podem ser definidos como alimentos, madeira, moedas ou uma combinação de todos os recursos, incluindo exportação e experiência.\n----------\nValores produzidos quando construída:\nII: Alimento: 3 / Madeira: 2,5 / Moedas: 2,5 /\nCombinação: 0,6 de alimento, 0,6 de madeira, 0,6 moedas, 0,18 de exportação, 0,18 PE\nIII: Alimento: 4,5 / Madeira: 4 / Moedas: 4 /\nCombinação: 1,25 de alimento, 1 de madeira, 1 moeda, 0,25 de exportação, 0,25 PE\nIV: Alimento: 6 / Madeira: 5,5 / Moeda / 5,5 /\nCombinação: 1,5 de alimento, 1,1 de madeira, 1,1 moedas, 0,4 de exportação, 0,4 PE\nV: Alimento: 6,5 / Madeira: 6 / Moedas: 6 /\nCombinação: 2 de alimento, 1,5 de madeira, 1,5 moedas, 0,5 de exportação, 0,5 PE</string>
     <string _locid="65041">Torre de Porcelana</string>
     <string _locid="65042">WON Torre de Porcelana</string>
     <string _locid="65043">A Torre de Porcelana gera recursos por segundo que podem ser definidos como alimentos, madeira, moedas ou uma combinação de todos os recursos, incluindo exportação e experiência.</string>
-    <string _locid="65044">A Torre de Porcelana gera recursos por segundo que podem ser definidos como alimentos, madeira, moedas ou uma combinação de todos os recursos, incluindo exportação e experiência.\n----------\nValores produzidos quando construída:\nII: Alimento: 3 / Madeira: 2,5 / Moedas: 2,5 /\nCombinação: 0,6 de alimento, 0,6 de madeira, 0,6 moedas, 0,18 de exportação, 0,18 PE\nIII: Alimento: 4,5 / Madeira: 4 / Moedas: 4 /\nCombinação: 1,25 de alimento, 1 de madeira, 1 moeda, 0,25 de exportação, 0,25 PE\nIV: Alimento: 6 / Madeira: 5,5 / Moeda / 5,5 /\nCombinação: 1,5 de alimento, 1,1 de madeira, 1,1 moedas, 0,4 de exportação, 0,4 PE\nV: Alimento: 6,5 / Madeira: 6 / Moedas: 6 /\nCombinação: 1,5 de alimento, 2 de madeira, 2 moedas, 0,5 de exportação, 0,5 PE</string>
+    <string _locid="65044">A Torre de Porcelana gera recursos por segundo que podem ser definidos como alimentos, madeira, moedas ou uma combinação de todos os recursos, incluindo exportação e experiência.\n----------\nValores produzidos quando construída:\nII: Alimento: 3 / Madeira: 2,5 / Moedas: 2,5 /\nCombinação: 0,6 de alimento, 0,6 de madeira, 0,6 moedas, 0,18 de exportação, 0,18 PE\nIII: Alimento: 4,5 / Madeira: 4 / Moedas: 4 /\nCombinação: 1,25 de alimento, 1 de madeira, 1 moeda, 0,25 de exportação, 0,25 PE\nIV: Alimento: 6 / Madeira: 5,5 / Moeda / 5,5 /\nCombinação: 1,5 de alimento, 1,1 de madeira, 1,1 moedas, 0,4 de exportação, 0,4 PE\nV: Alimento: 6,5 / Madeira: 6 / Moedas: 6 /\nCombinação: 2 de alimento, 1,5 de madeira, 1,5 moedas, 0,5 de exportação, 0,5 PE</string>
     <string _locid="65045">Torre de Porcelana</string>
     <string _locid="65046">WON Torre de Porcelana</string>
     <string _locid="65047">Provisões: 1.500 Moedas\n \nPoder: Cessar-fogo: interrompe o combate por um breve período.</string>
@@ -26050,7 +26175,7 @@
     <string _locid="65901">CON Guarda jovem</string>
     <string _locid="65902">Envia a Guarda Negra.</string>
     <string _locid="65903">Envia a Guarda Negra.</string>
-    <string _locid="65904">Bônus: -20% de custo em alimentos do exército de bandeira\n\nTreina: doppelsoldners, escaramuçadores, canhões pesados\n\nProvisões: fluxos de recursos</string>
+    <string _locid="65904">Bônus: -15% de custo em alimentos do exército de bandeira\n\nTreina: doppelsoldners, escaramuçadores, canhões pesados\n\nProvisões: fluxos de recursos</string>
     <string _locid="65905">Aliados alemães</string>
     <string _locid="65906">Desfaça-se de seu aliado para que você possa escolher outro.</string>
     <string _locid="65907">Terminar Relações</string>
@@ -29673,7 +29798,7 @@
     <string _locid="69540">Um espadachim japonês sem mestres. Bom contra cavalaria e edifícios.</string>
     <string _locid="69541">Ronin Arrependido</string>
     <string _locid="69542">REP Ronin</string>
-    <string _locid="69543">Mercenário de cavalaria corpo a corpo</string>
+    <string _locid="69543" symbol="cStringHandCavalryMerc">Mercenário de cavalaria corpo a corpo</string>
     <string _locid="69544">Mercenário de cavalaria corpo a corpo dos Bálcãs.</string>
     <string _locid="69545">Stradiot Arrependido</string>
     <string _locid="69546">REP Stradiot</string>
@@ -30253,9 +30378,9 @@
     <string _locid="70119">Monge: Não olhe em seus olhos. Eles só querem ridicularizá-lo.</string>
     <string _locid="70120">Monge: Algum dia eles pagarão. Eles pagarão.</string>
     <string _locid="70121">Monge: Seu poder está aumentando, Hiro. Em breve eles sentirão sua ira.</string>
-    <string _locid="70122">Músico: "Ah, meu amor, sua cabeça é como uma cuia mal formada com seu odor maduro..."</string>
+    <string _locid="70122">Músico: "Ah, meu amor, sua cabeça é como uma cuia mal formada com seu odor maduro..." </string>
     <string _locid="70123">Músico: "Ah, meu amado, eu quero morder seus dedos como um prato de umeboshi, mas não de forma medrosa..."</string>
-    <string _locid="70124">Músico: "Oh, querida, eu a espreito cada movimento seu com amor, portanto, diga ao seu pai para me deixar em paz..."</string>
+    <string _locid="70124">Músico: "Oh, querida, eu a espreito cada movimento seu com amor, portanto, diga ao seu pai para me deixar em paz..." </string>
     <string _locid="70125">Músico: "Ah, minha bela, seu pesado e difícil andar balança as estruturas do meu coração..."</string>
     <string _locid="70126">Músico: "Ah, doce anata, cães ferozes não podem me afastar de seus braços, mas eles me deixaram mancando".</string>
     <string _locid="70127">Mulher: Estou tão só. Aquela ponte parece alta, e a água abaixo parece profunda. Está na hora.</string>
@@ -30656,7 +30781,7 @@
     <string _locid="70522">Escaramuçador com poucos pontos de vida, mas ataque forte. Bom contra infantaria.</string>
     <string _locid="70523">Caçador Veterano</string>
     <string _locid="70524">INF Caçador</string>
-    <string _locid="70528">Caixa de 360 moedas a cada provisão</string>
+    <string _locid="70528">Caixa de 350 moedas a cada provisão</string>
     <string _locid="70529">Suprimento de 400 Moedas.</string>
     <string _locid="70530">Baús de 400 Moedas</string>
     <string _locid="70531">Caixa Grande com 400 Moedas</string>
@@ -32562,6 +32687,13 @@
     <string _locid="79960">Mapa Grande</string>
     <string _locid="79961">Carrega a variante maior do mapa selecionado.</string>
     <string _locid="79962">15 Ovelhas + 1 Carroça de Herdade + 3 Ulanos</string>
+    <string _locid="79963">[RESERVED]</string>
+    <string _locid="79964">[RESERVED]</string>
+    <string _locid="79965">[RESERVED]</string>
+    <string _locid="79966">[RESERVED]</string>
+    <string _locid="79967">[RESERVED]</string>
+    <string _locid="79968">[RESERVED]</string>
+    <string _locid="79969">[RESERVED]</string>
     <string _locid="80000" symbol="cStringCultureInca">Incas</string>
     <string _locid="80001" symbol="cStringCivNameInca">Incas</string>
     <string _locid="80002" symbol="cStringCivRolloverInca">&lt;color=1.0, 1.0, 0.0&gt;Bônus da civilização:&lt;/color&gt;\nCasas kancha produzem alimentos. Recebe um chasqui gratuito em provisões da Era da Exploração e a cada avanço de Era. O chasqui é capaz de construir tambos, poderosos postos comerciais que os aldeões podem guarnecer. Unidades militares podem ser guarnecidas em kallankas e fortalezas. Sacerdotisas podem converter inimigos e trabalhar na Praça da Comunidade.\n&lt;color=1.0, 1.0, 0.0&gt;Unidades exclusivas:&lt;/color&gt;\nChasqui, lanceiro de plumas, corredor chimu, arqueiro da selva, guerreiro boleador, huaraca, guerreiro de maça, sacerdotisa e balsa chincha.\n&lt;color=1.0, 1.0, 0.0&gt;Edificações exclusivas:&lt;/color&gt;\nKallanka, fortaleza, casas kancha e tambo\n&lt;color=1.0, 1.0, 0.0&gt;Cerimônias exclusivas:&lt;/color&gt;\nCerimônia da Lua e Cerimônia de Supay\n\nUm vasto império sul-americano conhecido pelo poder de suas muralhas e administração inteligente.</string>
@@ -34943,7 +35075,7 @@
     <string _locid="90591">Com raios solares escaldantes e lagoas evaporadas, esta região particular do México é quente e seca, mas com certeza não é estéril. Muitos antilocapras, e até mesmo alguns bisões, vagam por essa paisagem semiárida. Filões de cobre serão uma fonte adequada de moedas, mas a quantidade de árvores é bem limitada. Uma longa rota comercial percorre o centro do mapa, que é ocupado por um grande planalto. Vários povoados nativos estão ao redor dele. Os jogadores podem encontrar apaches e navajos em algumas ocasiões, ou zapotecas e maias em outras.</string>
     <string _locid="90592">México: uma longa rota comercial passa por uma grande chapada central.\n\nAssentamentos: navajo, apache, zapoteca, maia\nForas da lei: comanchero, pistoleiro</string>
     <string _locid="90593">Andes – Superior</string>
-    <string _locid="90594">As equipes começam excepcionalmente próximas umas das outras e estão cercadas por muitos recursos, erguer muros e jogar defensivamente vai ser mais fácil do que o habitual. Não há rios nesta região dos Andes... apenas uma rota comercial e montanhas, onde muitos povoados incas ocupam os gargalos geográficos.</string>
+    <string _locid="90594">As equipes começam excepcionalmente próximas umas das outras e estão cercadas por muitos recursos; emparedar-se e jogar de forma defensiva será mais fácil do que o habitual. Não há rios nesta região dos Andes, apenas uma rota de comércio e montanhas abertas onde muitos povoados quíchua ocupam os gargalos.</string>
     <string _locid="90595">Andes – Superior: as equipes começam excepcionalmente próximas umas das outras. Ideal para o modo de jogo Tratado.\n\nAssentamentos: quíchua\nForas da lei: pistoleiro, renegado</string>
     <string _locid="90596">Rios Paralelos</string>
     <string _locid="90597">Os jogadores começam em uma posição ao sul, aninhados entre três rios paralelos. Esta região pitoresca possui muitos tesouros e abundância em recursos naturais, embora estejam rio acima. Não há rotas comerciais aqui, então as equipes devem ir para o norte, em direção às montanhas. Lá, as cabras vagam livremente, mas terão que ser pastoreadas para casa... é uma longa jornada de volta.</string>
@@ -34968,6 +35100,24 @@
     <string _locid="90902">Aprimora esta Rota Comercial para usar Caixeiros-viajantes, que podem entregar recursos mais rápido, movimentam-se mais rápido e oferecem maior campo visual.</string>
     <string _locid="90903">Lhama de Ferro</string>
     <string _locid="90904">Carrinho de Mão</string>
+    <string _locid="90905" symbol="cStringNuggetUnknown" comment="1 - amount, 2 - resource">Um saque misterioso.</string>
+    <string _locid="90906" symbol="cStringNuggetUnknownActivate" comment="1 - player, 2 - amount, 3 - resource">%1s descobriu um saque misterioso de recursos que vale %2d %3s.</string>
+    <string _locid="90907" symbol="cStringNuggetUnknown2Activate" comment="1 - player, 2 - amount, 3 - resource">%1s descobriu um saque misterioso de recursos que vale %2d %3s e %4d %5s.</string>
+    <string _locid="90908" symbol="cStringNuggetUnknown3Activate" comment="1 - player, 2 - amount, 3 - resource">%1s descobriu um saque misterioso de recursos que vale %2d %3s, %4d %5s e %6d %7s.</string>
+    <string _locid="90909" symbol="cStringdeTeamNugget">Um depósito escondido que vale %1d %2s para toda a equipe.</string>
+    <string _locid="90910" symbol="cStringdeTeamNuggetActivate">%1s descobriu um depósito escondido que vale %2d %3s para sua equipe.</string>
+    <string _locid="90911" symbol="cStringdeTeamNugget2Activate">%1s descobriu um depósito escondido que vale %2d %3s e %4d %5s para sua equipe.</string>
+    <string _locid="90912" symbol="cStringdeTeamNugget3Activate">%1s descobriu um depósito escondido que vale %2d %3s, %4d %5s e %6d %7s para sua equipe.</string>
+    <string _locid="90913" symbol="cStringdeTeamUnknownNugget">Um depósito misterioso para toda a equipe.</string>
+    <string _locid="90914" symbol="cStringdeTeamUnknownNuggetActivate" comment="1 - player, 2 - amount, 3 - resource">%1s descobriu um saque misterioso de recursos que vale %2d %3s para sua equipe.</string>
+    <string _locid="90915" symbol="cStringdeTeamUnknownNugget2Activate" comment="1 - player, 2 - amount, 3 - resource">%1s descobriu um saque misterioso de recursos que vale %2d %3s e %4d %5s para sua equipe.</string>
+    <string _locid="90916" symbol="cStringdeTeamUnknownNugget3Activate" comment="1 - player, 2 - amount, 3 - resource">%1s descobriu um saque misterioso de recursos que vale %2d %3s, %4d %5s e %6d %7s para sua equipe.</string>
+    <string _locid="90917" symbol="cStringafNomadNugget">Um nômade que precisa ser resgatado.</string>
+    <string _locid="90918" symbol="cStringafNomadNuggetActivate">%1s resgatou um nômade, que se uniu à causa.</string>
+    <string _locid="90919" symbol="cStringNuggetProspector">Uma Carroça de Garimpo que se perdeu, mas ainda pode encontrar uma mina.</string>
+    <string _locid="90920" symbol="cStringNuggetProspector">%s resgatou uma Carroça de Garimpo que tentará localizar uma mina.</string>
+    <string _locid="90921" symbol="cStringNuggetSaltCamel">Um Camelo de Sal sedento que se perdeu, mas pode encontrar uma mina.</string>
+    <string _locid="90922" symbol="cStringNuggetSaltCamel">%s levou um Camelo de Sal sedento até a água, agora ele pode tentar localizar uma mina.</string>
     <string _locid="91000">Mande mais de nossos jovens para a batalha! Não podemos deixar que o inimigo consiga uma vitória tão covarde.</string>
     <string _locid="91001">Inti ilumina os guerreiros de Huayna Capac! Ele nos concederá uma vitória gloriosa!</string>
     <string _locid="91002">O Sapa Inca concorda.</string>
@@ -37276,7 +37426,7 @@
     <string _locid="102712">Cercas de zariba sudanesas</string>
     <string _locid="102713">As muralhas (com a exceção dos Portões) são construídas e melhoradas mais rapidamente, e agora custam metade de seu custo base como alimento.</string>
     <string _locid="102714">Paliçadas de zariba sudanesas</string>
-    <string _locid="102715">Moinhos, propriedades, fazendas, arrozais e campos custam menos madeira e são construídos mais rápido.</string>
+    <string _locid="102715">Moinhos, propriedades, fazendas, arrozais, haciendas e campos custam menos madeira e são construídos mais rápido.</string>
     <string _locid="102716">Sistema hakura sudanês</string>
     <string _locid="102717">Envia 2 carroças do Mar Vermelho (constrói a maioria das edificações).</string>
     <string _locid="102718">Envia 1 carroça do Mar Vermelho (constrói a maioria das edificações). Envia 1 carroça do Mar Vermelho adicional a cada 5 minutos de jogo (até um máximo de 30 minutos).</string>
@@ -38047,6 +38197,10 @@
     <string _locid="104134">Os métodos industriais de processamento de minérios permitem que os aldeões coletem minérios consideravelmente mais rápido.</string>
     <string _locid="104135" symbol="cStringNuggetPilgrim1">Um peregrino capturado. Ele pode juntar-se à causa de quem o salvar.</string>
     <string _locid="104136" symbol="cStringNuggetPilgrim1Activate">%1s resgatou um peregrino, que se uniu à causa.</string>
+    <string _locid="104137" symbol="cStringNuggetKidnapPilgrim">Dois peregrinos presos.</string>
+    <string _locid="104138" symbol="cStringNuggetKidnapPilgrimActivate">%1s resgatou dois peregrinos.</string>
+    <string _locid="104139" symbol="cStringNuggetKidnapSettler">Dois colonizadores presos.</string>
+    <string _locid="104140" symbol="cStringNuggetKidnapSettlerActivate">%1s resgatou dois colonizadores.</string>
     <string _locid="104500">Queimada</string>
     <string _locid="104501">Os celeiros agora também melhoram a coleta de madeira nas proximidades. Animais e frutas silvestres próximos também são coletados mais rápido.\n • Coleta de madeira: +15%\n • Animais + Frutas silvestres: +5%</string>
     <string _locid="104502">Filosofia Heywat</string>
@@ -38117,7 +38271,7 @@
     <string _locid="104567">8 Guerreiros Boleadores</string>
     <string _locid="104568">Envia 1 Cavaleiro Jaguar Olheiro para cada 2 que você tiver perdido até agora (até um máximo de 16 unidades).</string>
     <string _locid="104569">Gladiadores Rituais</string>
-    <string _locid="104570">Envia 1 cavaleiro caveira para cada 2 que você tiver perdido até agora (até um máximo de 13).</string>
+    <string _locid="104570">Envia 1 cavaleiro caveira para cada 3 que você tiver perdido até agora (até um máximo de 13).</string>
     <string _locid="104571">Muralha de Crânios</string>
     <string _locid="104572" symbol="cStringDanceDesc13">Custos de avanço de era - %1.2f recursos por segundo (%2.2f no total)</string>
     <string _locid="104573" symbol="cStringDanceDescQ10">- %1.2f/s</string>
@@ -38263,6 +38417,43 @@
     </string>
     <string _locid="104839">
     </string>
+    <string _locid="104840">Iniciação tlaxcala</string>
+    <string _locid="104841">Chinampa tlaxcala</string>
+    <string _locid="104842">Reine, Britânia</string>
+    <string _locid="104843">Envia um poderoso Navio de Batalha! Este cartão custará 1000 moedas na próxima vez que você o enviar.</string>
+    <string _locid="104844">Envia um poderoso Navio de Batalha!</string>
+    <string _locid="104845">1 Navio de Batalha</string>
+    <string _locid="104846">Envia um poderoso Navio de Batalha que pode ser reconstruído em sua doca, caso seja destruído.</string>
+    <string _locid="104847">Recrutar Navio de Batalha</string>
+    <string _locid="104848">Horário de Greenwich</string>
+    <string _locid="104849">Envia 1 Carroça de Feitoria. Cada uma de suas feitorias melhora o tempo de pesquisa de Políticos e Tecnologia em -20%.</string>
+    <string _locid="104850">TODAS as tecnologias, cartões e políticos pesquisam mais rápido.</string>
+    <string _locid="104851" symbol="cStringGreenwichTimeAura">Observatório Real</string>
+    <string _locid="104852">Caixa de moedas adicional a cada provisão</string>
+    <string _locid="104853">1 Carroça de Arsenal e uma tecnologia de Arsenal gratuita</string>
+    <string _locid="104854">10 Insurgentes</string>
+    <string _locid="104855">EQ 1: Falconete</string>
+    <string _locid="104856">EQ 1: Canhão Pesado</string>
+    <string _locid="104857">Ano Maravilhoso</string>
+    <string _locid="104858">
+    </string>
+    <string _locid="104859">Chega rápido! Seu próximo avanço de era fica mais barato e mais rápido quanto mais provisões você recebeu na era ATUAL.</string>
+    <string _locid="104860">Os colonos treinam e trabalham significativamente mais rápido durante 365 segundos. Um ano maravilhoso, Viva España!</string>
+    <string _locid="104861">Guerrilheiros Peninsulares</string>
+    <string _locid="104862">Melhora o ataque de infantaria à distância e permite que eles vejam a localização dos inimigos que atingiram recentemente.</string>
+    <string _locid="104863">Vice-rei da Nova Espanha</string>
+    <string _locid="104864">Envia 2 Carroças de Hacienda que se transformam em Haciendas onde os colonos podem obter recursos, ou ajudar na geração de vacas, colonos ou poderosos soldados.</string>
+    <string _locid="104865">Reconquista</string>
+    <string _locid="104866">Envia 1 Conquistador para cada 5 unidades de infantaria arcaica perdidas (até um máximo de 10). Permite que você pesquise várias atualizações jesuítas em sua embaixada nativa.</string>
+    <string _locid="104867">Envia 1 Conquistador para cada 5 unidades de infantaria arcaica perdidas (até um máximo de 10).</string>
+    <string _locid="104868">Nuestras Señoras</string>
+    <string _locid="104869">Envia 2 poderosos Navios de Batalha.</string>
+    <string _locid="104870">Guerras da Liberdade</string>
+    <string _locid="104871">Barateia Revoluções e permite que você volte para a Espanha e recupere seu baralho original.</string>
+    <string _locid="104872">Final do Ano Maravilhoso</string>
+    <string _locid="104873">Casa de Trastamára</string>
+    <string _locid="104874">Configure esta Hacienda para produzir Soldados.</string>
+    <string _locid="104875">Esta Hacienda está produzindo Soldados.</string>
     <string _locid="105000">Costa do Ouro</string>
     <string _locid="105001">Esta região costeira tropical possui luxuosas margens de areia dourada e planícies de pastagem e matagal aberto. O Lago Volta se interpõe no mapa e, juntamente com os planaltos florestais centrais, cria recursos facilmente defensáveis. Esta região rica em minerais foi batizada com o nome de seu principal produto de exportação. Ou seja, você só encontrará minas de ouro por aqui. A prevalência e a importância do comércio marítimo nesta região é acentuada por uma rota de comércio naval que é facilmente controlada a partir do oceano. No entanto, não há baleias.</string>
     <string _locid="105002">Costa do Ouro: uma região costeira rica em minerais. Suas grandes minas de ouro são a única fonte de obtenção de moedas.\n\nAssentamentos: acã, iorubá\nForas da lei: guerreiro do deserto, arqueiro do deserto</string>
@@ -38721,7 +38912,7 @@
     <string _locid="110278">Cavalaria da Pensilvânia</string>
     <string _locid="110279">Envia 1 Travois de Embaixada Indígena e cria aliança com os crees em sua Embaixada Indígena, permitindo acesso a algumas melhorias e unidades deles.</string>
     <string _locid="110280">Festival de Tammany</string>
-    <string _locid="110281">Provisões de caixotes de cartas são depositadas diretamente em seu estoque e fornecem 900 recursos adicionais. Qualquer uma que tenha sido enviada pode ser enviada outra vez.</string>
+    <string _locid="110281">Provisões de caixotes de cartas são depositadas diretamente em seu estoque e fornecem recursos adicionais. Qualquer uma que tenha sido enviada pode ser enviada outra vez.</string>
     <string _locid="110282">Portos de Nova Jersey</string>
     <string _locid="110283">Envia 4 Carroças de infraestrutura. Todas as provisões chegam consideravelmente mais rápido, incluindo esta.</string>
     <string _locid="110284">Canal de Morris</string>
@@ -38836,12 +39027,12 @@
     <string _locid="110393">Redução de População de Foras da Lei</string>
     <string _locid="110394">Californio</string>
     <string _locid="110395">+100% de Renda de Feitoria</string>
-    <string _locid="110396">Baús enormes com 360 de Ouro Espanhol</string>
+    <string _locid="110396">Baú do Tesouro Espanhol</string>
     <string _locid="110397">Caixote Grande de 400 Madeiras</string>
     <string _locid="110398">Caixote de 50 Alimentos</string>
     <string _locid="110399">Atirador de Elite Revolucionário</string>
     <string _locid="110400">Provisão de 400 Alimentos.</string>
-    <string _locid="110401">Provisão de 360 de Ouro Espanhol.</string>
+    <string _locid="110401">Provisão de 300 de Ouro Espanhol.</string>
     <string _locid="110402">Caixote Grande de 400 Alimentos</string>
     <string _locid="110403">REV Atirador de Elite</string>
     <string _locid="110404">Grande Coleção de Livros</string>
@@ -39034,7 +39225,7 @@
     <string _locid="110591">Navio de Batalha</string>
     <string _locid="110592">NAV Navio de Batalha</string>
     <string _locid="110593">Navio de Batalha Mercenário</string>
-    <string _locid="110594">Navio de Batalha. Um poderoso navio de guerra que domina o mar e tudo que navega nele.</string>
+    <string _locid="110594">Navio de Batalha. Um poderoso Navio da Linha que domina o mar e tudo que navega nele.</string>
     <string _locid="110595">Concede às Feitorias uma poderosa habilidade carregada que causa dano em área.</string>
     <string _locid="110596">Mensageiros de Espingarda</string>
     <string _locid="110597">Mensageiros de Espingarda (Carregado)</string>
@@ -40644,6 +40835,32 @@
     <string _locid="113188">Encontre a Feitoria do Território Nativo</string>
     <string _locid="113189">Encontre a Feitoria da Rota Comercial</string>
     <string _locid="113190">Aposta do Walker</string>
+    <string _locid="113191">Patrulheiro</string>
+    <string _locid="113192">INF Patrulheiro</string>
+    <string _locid="113193">Escaramuçador britânico. Equipado com um arco de longo alcance e um rifle para combater a Infantaria Pesada de forma mais eficaz a curta distância.</string>
+    <string _locid="113194">Escaramuçador britânico. Equipado com um rifle para combater a Infantaria Pesada de forma mais eficaz, porém tem um alcance menor.</string>
+    <string _locid="113195">Escaramuçador britânico</string>
+    <string _locid="113196">Ataque e pontos de vida de patrulheiro aumentados.</string>
+    <string _locid="113197">Patrulheiros Veteranos</string>
+    <string _locid="113198">Patrulheiro Veterano</string>
+    <string _locid="113199">Patrulheiros da Guarda</string>
+    <string _locid="113200">Patrulheiro da Guarda</string>
+    <string _locid="113201">Patrulheiros Imperiais</string>
+    <string _locid="113202">Patrulheiro Imperial</string>
+    <string _locid="113203">Arqueiros de Arco Longo são totalmente substituídos por Patrulheiros no Quartel, na Metrópole e no mapa. Patrulheiros são equipados com um arco e também têm um rifle para combater a Infantaria Pesada de forma mais eficaz em distâncias mais curtas.</string>
+    <string _locid="113204">Patrulheiros</string>
+    <string _locid="113205">6 Patrulheiros</string>
+    <string _locid="113206">8 Patrulheiros</string>
+    <string _locid="113207">15 Patrulheiros</string>
+    <string _locid="113208">10 Patrulheiros</string>
+    <string _locid="113209">20 Patrulheiros</string>
+    <string _locid="113211">Arqueiros de Arco Longo são totalmente substituídos por Patrulheiros no Quartel, na Metrópole e no mapa. Patrulheiros usam um rifle em vez de um arco para combater a Infantaria Pesada de forma mais eficaz, mas têm menos alcance.</string>
+    <string _locid="113212">Arqueiros de Cerco</string>
+    <string _locid="113213">Permite que Arqueiros de Arco Longo sitiem construções de longo alcance com flechas de fogo, que infligem dano contínuo de queimadura.</string>
+    <string _locid="113214">Ataques à Distância de Cerco</string>
+    <string _locid="113215">Envia 5 Patrulheiros poderosos e substitui seus Arqueiros de Arco Longo atuais com Patrulheiros também.\n • Em vez disso, as provisões de Arqueiros de Arco Longo agora concedem Patrulheiros.</string>
+    <string _locid="113216">7 Patrulheiros</string>
+    <string _locid="113217">Sovereign of the Seas</string>
     <string _locid="200000">Bandeiras Suecas</string>
     <string _locid="200001">Exibe bandeiras suecas nesta edificação.</string>
     <string _locid="200002">Novo Centro Comercial Mundial (verde)</string>
@@ -40733,6 +40950,18 @@
     <string _locid="210025">Oferece um desempenho otimizado e qualidade de imagem.</string>
     <string _locid="210026">Qualidade</string>
     <string _locid="210027">Oferece uma qualidade de imagem mais alta do que o modo equilibrado.</string>
+    <string _locid="210100">Esses recursos ainda estão em desenvolvimento e podem causar problemas em configurações de hardware incomuns. Habilitar essas opções pode afetar sua experiência de jogo de maneiras inesperadas. Concorda em continuar?</string>
+    <string _locid="230101">Habilitar pré-carregamento de ativos</string>
+    <string _locid="230102">Habilitar o pré-carregamento de ativos força o aplicativo a preparar ativos com antecedência durante a tela de carregamento, permitindo que a experiência do jogo seja mais suave. Isso consumirá mais memória e poderá causar problemas em sistemas com 8GB ou menos de RAM.</string>
+    <string _locid="210103">Pré-carregamento de ativos (Beta)</string>
+    <string _locid="210104">O pré-carregamento de ativos foi desenvolvido para permitir que o aplicativo seja executado de forma mais suave, garantindo que todos os ativos sejam carregados com antecedência. Este recurso é experimental. Desabilite-o no menu de opções gráficas.</string>
+    <string _locid="210105">Carregando</string>
+    <string _locid="210106">Finalizando</string>
+    <string _locid="210107">Escaneando</string>
+    <string _locid="210108">Efeitos ambientais</string>
+    <string _locid="210109">Objetos de superfície</string>
+    <string _locid="210110">Ativos de mapa</string>
+    <string _locid="210111">Ativos estáticos</string>
     <string _locid="220001">Modo de foto</string>
     <string _locid="220002">Movimento:</string>
     <string _locid="220003">Rotação:</string>
@@ -40741,7 +40970,7 @@
     <string _locid="220006">Redefinir câmera:</string>
     <string _locid="220007">Ativar/desativar interface de usuário:</string>
     <string _locid="220008">Voltar:</string>
-    <string _locid="220009">Movimento:\n • Utilize as teclas WASD ou teclas de seta para mover a câmera.\n • Utilize as teclas Q e E para mover a câmera para cima/para baixo.\n • Mova o mouse para a borda da tela para mover a câmera.\n • Pressione e segure a barra de espaço e, depois, clique e arraste para mover a câmera.\n\n Rotação:\n • Alt + WASD ou Alt + setas para girar.\n • Alt + clique e arraste para girar.\n\n Mais zoom/menos zoom:\n • Use a roda de rolagem para aumentar e diminuir o zoom.</string>
+    <string _locid="220009">Movimento:\n• WASD para mover a câmera.\n• Mover o mouse para a borda para mover a câmera.\n\nElevação:\n• Q e E para elevar a câmera para cima/para baixo.\n\nRotação:\n• Alt + WASD.\n\nAumentar/diminuir zoom:\n• Usar a roda de rolagem para aumentar/diminuir o zoom.\n\nCaptura de tela: PrtSc\n\nRedefinir câmera: R\n\nAtivar/desativar interface: T\n\nVoltar: Esc</string>
     <string _locid="220010">Ativar/desativar interface de usuário</string>
     <string _locid="220011">Incluir interface de usuário na captura de tela</string>
     <string _locid="220012">Localizar pasta:</string>
@@ -40755,5 +40984,16 @@
     <string _locid="220020">Selecione para ativar/desativar a interface de usuário.</string>
     <string _locid="220021">Selecione para incluir a interface de usuário ao fazer uma captura de tela.</string>
     <string _locid="220022">Selecione para abrir o local da pasta da captura de tela.</string>
+    <string _locid="220023">Dia predefinido de iluminação</string>
+    <string _locid="220024">Noite predefinida de iluminação</string>
+    <string _locid="220025">Abrir o Modo de Foto. \nNOTA: Este modo está atualmente em BETA. \nTodas as configurações e recursos deste modo estão em desenvolvimento e podem causar problemas gráficos e/ou de desempenho.</string>
+    <string _locid="220026">Iluminação</string>
+    <string _locid="220027">Etapa: Beta</string>
+    <string _locid="220028">Este modo está atualmente em BETA. \nTodas as configurações e recursos deste modo estão em desenvolvimento e podem causar problemas.</string>
+    <string _locid="220029">Modo de Foto (Beta)</string>
+    <string _locid="220030">Move Camera Up</string>
+    <string _locid="220031">Move Camera Down</string>
+    <string _locid="220032">Camera Rotate Up</string>
+    <string _locid="220033">Camera Rotate Down</string>
   </language>
 </stringtable>

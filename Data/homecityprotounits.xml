@@ -2300,4 +2300,26 @@
     <camera>mexico\mexico_homecity_explorer_camera.cam</camera>
     <widescreencamera>mexico\mexico_homecity_explorer_widescreencamera.cam</widescreencamera>
   </protounit>
+  <protounit>
+    <name>ExplorerBritish</name>
+    <civilization>British</civilization>
+    <visual>units/explorers/explorer.xml</visual>
+    <bone>bone_explorer_special</bone>
+    <script>explorer</script>
+    <selectable>
+    </selectable>
+    <camera>british\british_homecity_dock_camera.cam</camera>
+    <widescreencamera>british\british_homecity_dock_widescreencamera.cam</widescreencamera>
+  </protounit>
+  <protounit>
+    <name>ExplorerSpanish</name>
+    <civilization>Spanish</civilization>
+    <visual>units/explorers/explorer.xml</visual>
+    <bone>bone_explorer_special</bone>
+    <script>explorer</script>
+    <selectable>
+    </selectable>
+    <camera>spanish\spanish_homecity_explorer_camera.cam</camera>
+    <widescreencamera>spanish\spanish_homecity_explorer_widescreencamera.cam</widescreencamera>
+  </protounit>
 </homecityprotounits>

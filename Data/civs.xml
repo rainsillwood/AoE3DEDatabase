@@ -42,7 +42,6 @@
     <deathmatchtech>DEDeathMatch</deathmatchtech>
     <treatytech>DETreatyShadow</treatytech>
     <empirewarstech>DEEmpireWars</empirewarstech>
-    <economymodetech>DEEconomyMode</economymodetech>
     <buildingefficiency>0.3</buildingefficiency>
     <gold>0</gold>
     <food>0</food>
@@ -60,10 +59,6 @@
     <townstartingunit>CrateofFood</townstartingunit>
     <townstartingunit>CrateofWood</townstartingunit>
     <townstartingunit>CrateofWood</townstartingunit>
-    <economymodestartingunit>Settler</economymodestartingunit>
-    <economymodestartingunit>Settler</economymodestartingunit>
-    <economymodestartingunit>Settler</economymodestartingunit>
-    <economymodestartingunit>Settler</economymodestartingunit>
     <empirewarsstartingunit>Settler</empirewarsstartingunit>
     <empirewarsstartingunit>Settler</empirewarsstartingunit>
     <empirewarsstartingunit>Settler</empirewarsstartingunit>
@@ -125,6 +120,11 @@
       <idletimeout>3.5</idletimeout>
     </unitregen>
     <unitregen>
+      <unittype>deMercBattleship</unittype>
+      <rate>0.225</rate>
+      <idletimeout>3.5</idletimeout>
+    </unitregen>
+    <unitregen>
       <unittype>SPCBolivar</unittype>
       <rate>0.25</rate>
       <idletimeout>3.5</idletimeout>
@@ -169,6 +169,66 @@
         <count>1</count>
       </unitcounts>
     </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoYumiArmy</multipleblockunit>
+      <units>
+        <unit>ypYumi</unit>
+      </units>
+      <unitcounts>
+        <count>5</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoAshigaruArmy</multipleblockunit>
+      <units>
+        <unit>ypAshigaru</unit>
+      </units>
+      <unitcounts>
+        <count>5</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoKenseiArmy</multipleblockunit>
+      <units>
+        <unit>ypKensei</unit>
+      </units>
+      <unitcounts>
+        <count>3</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoNaginataRiderArmy</multipleblockunit>
+      <units>
+        <unit>ypNaginataRider</unit>
+      </units>
+      <unitcounts>
+        <count>3</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoYabusameArmy</multipleblockunit>
+      <units>
+        <unit>ypYabusame</unit>
+      </units>
+      <unitcounts>
+        <count>3</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoShinobiArmy</multipleblockunit>
+      <units>
+        <unit>ypShinobiHorse</unit>
+      </units>
+      <unitcounts>
+        <count>3</count>
+      </unitcounts>
+    </multipleblocktrain>
   </civ>
   <civ>
     <name>British</name>
@@ -207,7 +267,6 @@
     <deathmatchtech>DEDeathMatch</deathmatchtech>
     <treatytech>DETreatyShadow</treatytech>
     <empirewarstech>DEEmpireWars</empirewarstech>
-    <economymodetech>DEEconomyMode</economymodetech>
     <buildingefficiency>0.3</buildingefficiency>
     <gold>0</gold>
     <food>0</food>
@@ -221,14 +280,9 @@
     <townstartingunit>Settler</townstartingunit>
     <townstartingunit>CrateofFood</townstartingunit>
     <townstartingunit>CrateofFood</townstartingunit>
-    <townstartingunit>CrateofFood</townstartingunit>
     <townstartingunit>CrateofWood</townstartingunit>
     <townstartingunit>CrateofWood</townstartingunit>
     <townstartingunit>CrateofWood</townstartingunit>
-    <economymodestartingunit>Settler</economymodestartingunit>
-    <economymodestartingunit>Settler</economymodestartingunit>
-    <economymodestartingunit>Settler</economymodestartingunit>
-    <economymodestartingunit>Settler</economymodestartingunit>
     <empirewarsstartingunit>Settler</empirewarsstartingunit>
     <empirewarsstartingunit>Settler</empirewarsstartingunit>
     <empirewarsstartingunit>Settler</empirewarsstartingunit>
@@ -329,6 +383,66 @@
         <count>1</count>
       </unitcounts>
     </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoYumiArmy</multipleblockunit>
+      <units>
+        <unit>ypYumi</unit>
+      </units>
+      <unitcounts>
+        <count>5</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoAshigaruArmy</multipleblockunit>
+      <units>
+        <unit>ypAshigaru</unit>
+      </units>
+      <unitcounts>
+        <count>5</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoKenseiArmy</multipleblockunit>
+      <units>
+        <unit>ypKensei</unit>
+      </units>
+      <unitcounts>
+        <count>3</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoNaginataRiderArmy</multipleblockunit>
+      <units>
+        <unit>ypNaginataRider</unit>
+      </units>
+      <unitcounts>
+        <count>3</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoYabusameArmy</multipleblockunit>
+      <units>
+        <unit>ypYabusame</unit>
+      </units>
+      <unitcounts>
+        <count>3</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoShinobiArmy</multipleblockunit>
+      <units>
+        <unit>ypShinobiHorse</unit>
+      </units>
+      <unitcounts>
+        <count>3</count>
+      </unitcounts>
+    </multipleblocktrain>
   </civ>
   <civ>
     <name>French</name>
@@ -367,7 +481,6 @@
     <deathmatchtech>DEDeathMatch</deathmatchtech>
     <treatytech>DETreatyShadow</treatytech>
     <empirewarstech>DEEmpireWars</empirewarstech>
-    <economymodetech>DEEconomyMode</economymodetech>
     <buildingefficiency>0.3</buildingefficiency>
     <gold>0</gold>
     <food>0</food>
@@ -385,10 +498,6 @@
     <townstartingunit>CrateofFood</townstartingunit>
     <townstartingunit>CrateofWood</townstartingunit>
     <townstartingunit>CrateofWood</townstartingunit>
-    <economymodestartingunit>Coureur</economymodestartingunit>
-    <economymodestartingunit>Coureur</economymodestartingunit>
-    <economymodestartingunit>Coureur</economymodestartingunit>
-    <economymodestartingunit>Coureur</economymodestartingunit>
     <empirewarsstartingunit>Coureur</empirewarsstartingunit>
     <empirewarsstartingunit>Coureur</empirewarsstartingunit>
     <empirewarsstartingunit>Coureur</empirewarsstartingunit>
@@ -506,6 +615,66 @@
         <count>1</count>
       </unitcounts>
     </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoYumiArmy</multipleblockunit>
+      <units>
+        <unit>ypYumi</unit>
+      </units>
+      <unitcounts>
+        <count>5</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoAshigaruArmy</multipleblockunit>
+      <units>
+        <unit>ypAshigaru</unit>
+      </units>
+      <unitcounts>
+        <count>5</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoKenseiArmy</multipleblockunit>
+      <units>
+        <unit>ypKensei</unit>
+      </units>
+      <unitcounts>
+        <count>3</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoNaginataRiderArmy</multipleblockunit>
+      <units>
+        <unit>ypNaginataRider</unit>
+      </units>
+      <unitcounts>
+        <count>3</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoYabusameArmy</multipleblockunit>
+      <units>
+        <unit>ypYabusame</unit>
+      </units>
+      <unitcounts>
+        <count>3</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoShinobiArmy</multipleblockunit>
+      <units>
+        <unit>ypShinobiHorse</unit>
+      </units>
+      <unitcounts>
+        <count>3</count>
+      </unitcounts>
+    </multipleblocktrain>
   </civ>
   <civ>
     <name>Portuguese</name>
@@ -544,7 +713,6 @@
     <deathmatchtech>DEDeathMatch</deathmatchtech>
     <treatytech>DETreatyShadow</treatytech>
     <empirewarstech>DEEmpireWars</empirewarstech>
-    <economymodetech>DEEconomyMode</economymodetech>
     <buildingefficiency>0.3</buildingefficiency>
     <gold>0</gold>
     <food>0</food>
@@ -561,10 +729,6 @@
     <townstartingunit>CrateofFood</townstartingunit>
     <townstartingunit>CrateofWood</townstartingunit>
     <townstartingunit>CrateofWood</townstartingunit>
-    <economymodestartingunit>Settler</economymodestartingunit>
-    <economymodestartingunit>Settler</economymodestartingunit>
-    <economymodestartingunit>Settler</economymodestartingunit>
-    <economymodestartingunit>Settler</economymodestartingunit>
     <empirewarsstartingunit>Settler</empirewarsstartingunit>
     <empirewarsstartingunit>Settler</empirewarsstartingunit>
     <empirewarsstartingunit>Settler</empirewarsstartingunit>
@@ -676,6 +840,66 @@
         <count>1</count>
       </unitcounts>
     </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoYumiArmy</multipleblockunit>
+      <units>
+        <unit>ypYumi</unit>
+      </units>
+      <unitcounts>
+        <count>5</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoAshigaruArmy</multipleblockunit>
+      <units>
+        <unit>ypAshigaru</unit>
+      </units>
+      <unitcounts>
+        <count>5</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoKenseiArmy</multipleblockunit>
+      <units>
+        <unit>ypKensei</unit>
+      </units>
+      <unitcounts>
+        <count>3</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoNaginataRiderArmy</multipleblockunit>
+      <units>
+        <unit>ypNaginataRider</unit>
+      </units>
+      <unitcounts>
+        <count>3</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoYabusameArmy</multipleblockunit>
+      <units>
+        <unit>ypYabusame</unit>
+      </units>
+      <unitcounts>
+        <count>3</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoShinobiArmy</multipleblockunit>
+      <units>
+        <unit>ypShinobiHorse</unit>
+      </units>
+      <unitcounts>
+        <count>3</count>
+      </unitcounts>
+    </multipleblocktrain>
   </civ>
   <civ>
     <name>Dutch</name>
@@ -714,7 +938,6 @@
     <deathmatchtech>DEDeathMatch</deathmatchtech>
     <treatytech>DETreatyShadow</treatytech>
     <empirewarstech>DEEmpireWars</empirewarstech>
-    <economymodetech>DEEconomyMode</economymodetech>
     <buildingefficiency>0.3</buildingefficiency>
     <gold>0</gold>
     <food>0</food>
@@ -734,10 +957,6 @@
     <townstartingunit>deCrateofFood50</townstartingunit>
     <townstartingunit>CrateofWood</townstartingunit>
     <townstartingunit>CrateofWood</townstartingunit>
-    <economymodestartingunit>Settler</economymodestartingunit>
-    <economymodestartingunit>Settler</economymodestartingunit>
-    <economymodestartingunit>Settler</economymodestartingunit>
-    <economymodestartingunit>Settler</economymodestartingunit>
     <empirewarsstartingunit>Settler</empirewarsstartingunit>
     <empirewarsstartingunit>Settler</empirewarsstartingunit>
     <empirewarsstartingunit>Settler</empirewarsstartingunit>
@@ -848,6 +1067,66 @@
         <count>1</count>
       </unitcounts>
     </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoYumiArmy</multipleblockunit>
+      <units>
+        <unit>ypYumi</unit>
+      </units>
+      <unitcounts>
+        <count>5</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoAshigaruArmy</multipleblockunit>
+      <units>
+        <unit>ypAshigaru</unit>
+      </units>
+      <unitcounts>
+        <count>5</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoKenseiArmy</multipleblockunit>
+      <units>
+        <unit>ypKensei</unit>
+      </units>
+      <unitcounts>
+        <count>3</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoNaginataRiderArmy</multipleblockunit>
+      <units>
+        <unit>ypNaginataRider</unit>
+      </units>
+      <unitcounts>
+        <count>3</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoYabusameArmy</multipleblockunit>
+      <units>
+        <unit>ypYabusame</unit>
+      </units>
+      <unitcounts>
+        <count>3</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoShinobiArmy</multipleblockunit>
+      <units>
+        <unit>ypShinobiHorse</unit>
+      </units>
+      <unitcounts>
+        <count>3</count>
+      </unitcounts>
+    </multipleblocktrain>
   </civ>
   <civ>
     <name>Russians</name>
@@ -886,7 +1165,6 @@
     <deathmatchtech>DEDeathMatch</deathmatchtech>
     <treatytech>DETreatyShadow</treatytech>
     <empirewarstech>DEEmpireWars</empirewarstech>
-    <economymodetech>DEEconomyMode</economymodetech>
     <buildingefficiency>0.3</buildingefficiency>
     <gold>0</gold>
     <food>0</food>
@@ -904,10 +1182,6 @@
     <townstartingunit>CrateofFood</townstartingunit>
     <townstartingunit>CrateofWood</townstartingunit>
     <townstartingunit>CrateofWood</townstartingunit>
-    <economymodestartingunit>Settler</economymodestartingunit>
-    <economymodestartingunit>Settler</economymodestartingunit>
-    <economymodestartingunit>Settler</economymodestartingunit>
-    <economymodestartingunit>Settler</economymodestartingunit>
     <empirewarsstartingunit>Settler</empirewarsstartingunit>
     <empirewarsstartingunit>Settler</empirewarsstartingunit>
     <empirewarsstartingunit>Settler</empirewarsstartingunit>
@@ -1029,6 +1303,66 @@
         <count>1</count>
       </unitcounts>
     </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoYumiArmy</multipleblockunit>
+      <units>
+        <unit>ypYumi</unit>
+      </units>
+      <unitcounts>
+        <count>5</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoAshigaruArmy</multipleblockunit>
+      <units>
+        <unit>ypAshigaru</unit>
+      </units>
+      <unitcounts>
+        <count>5</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoKenseiArmy</multipleblockunit>
+      <units>
+        <unit>ypKensei</unit>
+      </units>
+      <unitcounts>
+        <count>3</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoNaginataRiderArmy</multipleblockunit>
+      <units>
+        <unit>ypNaginataRider</unit>
+      </units>
+      <unitcounts>
+        <count>3</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoYabusameArmy</multipleblockunit>
+      <units>
+        <unit>ypYabusame</unit>
+      </units>
+      <unitcounts>
+        <count>3</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoShinobiArmy</multipleblockunit>
+      <units>
+        <unit>ypShinobiHorse</unit>
+      </units>
+      <unitcounts>
+        <count>3</count>
+      </unitcounts>
+    </multipleblocktrain>
   </civ>
   <civ>
     <name>Germans</name>
@@ -1068,7 +1402,6 @@
     <deathmatchtech>DEDeathMatch</deathmatchtech>
     <treatytech>DETreatyShadow</treatytech>
     <empirewarstech>DEEmpireWars</empirewarstech>
-    <economymodetech>DEEconomyMode</economymodetech>
     <buildingefficiency>0.3</buildingefficiency>
     <gold>0</gold>
     <food>0</food>
@@ -1082,10 +1415,6 @@
     <townstartingunit>CrateofFood</townstartingunit>
     <townstartingunit>CrateofWood</townstartingunit>
     <townstartingunit>CrateofCoin</townstartingunit>
-    <economymodestartingunit>SettlerWagon</economymodestartingunit>
-    <economymodestartingunit>SettlerWagon</economymodestartingunit>
-    <economymodestartingunit>SettlerWagon</economymodestartingunit>
-    <economymodestartingunit>SettlerWagon</economymodestartingunit>
     <empirewarsstartingunit>SettlerWagon</empirewarsstartingunit>
     <empirewarsstartingunit>SettlerWagon</empirewarsstartingunit>
     <empirewarsstartingunit>SettlerWagon</empirewarsstartingunit>
@@ -1179,6 +1508,66 @@
         <count>1</count>
       </unitcounts>
     </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoYumiArmy</multipleblockunit>
+      <units>
+        <unit>ypYumi</unit>
+      </units>
+      <unitcounts>
+        <count>5</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoAshigaruArmy</multipleblockunit>
+      <units>
+        <unit>ypAshigaru</unit>
+      </units>
+      <unitcounts>
+        <count>5</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoKenseiArmy</multipleblockunit>
+      <units>
+        <unit>ypKensei</unit>
+      </units>
+      <unitcounts>
+        <count>3</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoNaginataRiderArmy</multipleblockunit>
+      <units>
+        <unit>ypNaginataRider</unit>
+      </units>
+      <unitcounts>
+        <count>3</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoYabusameArmy</multipleblockunit>
+      <units>
+        <unit>ypYabusame</unit>
+      </units>
+      <unitcounts>
+        <count>3</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoShinobiArmy</multipleblockunit>
+      <units>
+        <unit>ypShinobiHorse</unit>
+      </units>
+      <unitcounts>
+        <count>3</count>
+      </unitcounts>
+    </multipleblocktrain>
   </civ>
   <civ>
     <name>Ottomans</name>
@@ -1217,7 +1606,6 @@
     <deathmatchtech>DEDeathMatch</deathmatchtech>
     <treatytech>DETreatyShadow</treatytech>
     <empirewarstech>DEEmpireWars</empirewarstech>
-    <economymodetech>DEEconomyMode</economymodetech>
     <buildingefficiency>0.3</buildingefficiency>
     <gold>0</gold>
     <food>0</food>
@@ -1234,10 +1622,6 @@
     <townstartingunit>CrateofWood</townstartingunit>
     <townstartingunit>CrateofWood</townstartingunit>
     <townstartingunit>CrateofFood</townstartingunit>
-    <economymodestartingunit>Settler</economymodestartingunit>
-    <economymodestartingunit>Settler</economymodestartingunit>
-    <economymodestartingunit>Settler</economymodestartingunit>
-    <economymodestartingunit>Settler</economymodestartingunit>
     <empirewarsstartingunit>Settler</empirewarsstartingunit>
     <empirewarsstartingunit>Settler</empirewarsstartingunit>
     <empirewarsstartingunit>Settler</empirewarsstartingunit>
@@ -1333,6 +1717,66 @@
       </units>
       <unitcounts>
         <count>1</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoYumiArmy</multipleblockunit>
+      <units>
+        <unit>ypYumi</unit>
+      </units>
+      <unitcounts>
+        <count>5</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoAshigaruArmy</multipleblockunit>
+      <units>
+        <unit>ypAshigaru</unit>
+      </units>
+      <unitcounts>
+        <count>5</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoKenseiArmy</multipleblockunit>
+      <units>
+        <unit>ypKensei</unit>
+      </units>
+      <unitcounts>
+        <count>3</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoNaginataRiderArmy</multipleblockunit>
+      <units>
+        <unit>ypNaginataRider</unit>
+      </units>
+      <unitcounts>
+        <count>3</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoYabusameArmy</multipleblockunit>
+      <units>
+        <unit>ypYabusame</unit>
+      </units>
+      <unitcounts>
+        <count>3</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoShinobiArmy</multipleblockunit>
+      <units>
+        <unit>ypShinobiHorse</unit>
+      </units>
+      <unitcounts>
+        <count>3</count>
       </unitcounts>
     </multipleblocktrain>
   </civ>
@@ -1802,7 +2246,6 @@
     <deathmatchtech>DEDeathMatch</deathmatchtech>
     <treatytech>DETreatyShadow</treatytech>
     <empirewarstech>DEEmpireWars</empirewarstech>
-    <economymodetech>DEEconomyMode</economymodetech>
     <buildingefficiency>0.3</buildingefficiency>
     <gold>0</gold>
     <food>0</food>
@@ -1820,10 +2263,6 @@
     <townstartingunit>CrateofFood</townstartingunit>
     <townstartingunit>CrateofFood</townstartingunit>
     <townstartingunit>CrateofWood</townstartingunit>
-    <economymodestartingunit>SettlerNative</economymodestartingunit>
-    <economymodestartingunit>SettlerNative</economymodestartingunit>
-    <economymodestartingunit>SettlerNative</economymodestartingunit>
-    <economymodestartingunit>SettlerNative</economymodestartingunit>
     <empirewarsstartingunit>SettlerNative</empirewarsstartingunit>
     <empirewarsstartingunit>SettlerNative</empirewarsstartingunit>
     <empirewarsstartingunit>SettlerNative</empirewarsstartingunit>
@@ -1924,6 +2363,66 @@
         <count>1</count>
       </unitcounts>
     </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoYumiArmy</multipleblockunit>
+      <units>
+        <unit>ypYumi</unit>
+      </units>
+      <unitcounts>
+        <count>5</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoAshigaruArmy</multipleblockunit>
+      <units>
+        <unit>ypAshigaru</unit>
+      </units>
+      <unitcounts>
+        <count>5</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoKenseiArmy</multipleblockunit>
+      <units>
+        <unit>ypKensei</unit>
+      </units>
+      <unitcounts>
+        <count>3</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoNaginataRiderArmy</multipleblockunit>
+      <units>
+        <unit>ypNaginataRider</unit>
+      </units>
+      <unitcounts>
+        <count>3</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoYabusameArmy</multipleblockunit>
+      <units>
+        <unit>ypYabusame</unit>
+      </units>
+      <unitcounts>
+        <count>3</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoShinobiArmy</multipleblockunit>
+      <units>
+        <unit>ypShinobiHorse</unit>
+      </units>
+      <unitcounts>
+        <count>3</count>
+      </unitcounts>
+    </multipleblocktrain>
   </civ>
   <civ>
     <name>XPSioux</name>
@@ -1965,7 +2464,6 @@
     <deathmatchtech>DEDeathMatch</deathmatchtech>
     <treatytech>DETreatyShadow</treatytech>
     <empirewarstech>DEEmpireWars</empirewarstech>
-    <economymodetech>DEEconomyMode</economymodetech>
     <buildingefficiency>0.3</buildingefficiency>
     <gold>0</gold>
     <food>0</food>
@@ -1981,10 +2479,6 @@
     <townstartingunit>CrateofFood</townstartingunit>
     <townstartingunit>CrateofFood</townstartingunit>
     <townstartingunit>CrateofCoin</townstartingunit>
-    <economymodestartingunit>SettlerNative</economymodestartingunit>
-    <economymodestartingunit>SettlerNative</economymodestartingunit>
-    <economymodestartingunit>SettlerNative</economymodestartingunit>
-    <economymodestartingunit>SettlerNative</economymodestartingunit>
     <empirewarsstartingunit>SettlerNative</empirewarsstartingunit>
     <empirewarsstartingunit>SettlerNative</empirewarsstartingunit>
     <empirewarsstartingunit>SettlerNative</empirewarsstartingunit>
@@ -2085,6 +2579,66 @@
         <count>1</count>
       </unitcounts>
     </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoYumiArmy</multipleblockunit>
+      <units>
+        <unit>ypYumi</unit>
+      </units>
+      <unitcounts>
+        <count>5</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoAshigaruArmy</multipleblockunit>
+      <units>
+        <unit>ypAshigaru</unit>
+      </units>
+      <unitcounts>
+        <count>5</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoKenseiArmy</multipleblockunit>
+      <units>
+        <unit>ypKensei</unit>
+      </units>
+      <unitcounts>
+        <count>3</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoNaginataRiderArmy</multipleblockunit>
+      <units>
+        <unit>ypNaginataRider</unit>
+      </units>
+      <unitcounts>
+        <count>3</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoYabusameArmy</multipleblockunit>
+      <units>
+        <unit>ypYabusame</unit>
+      </units>
+      <unitcounts>
+        <count>3</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoShinobiArmy</multipleblockunit>
+      <units>
+        <unit>ypShinobiHorse</unit>
+      </units>
+      <unitcounts>
+        <count>3</count>
+      </unitcounts>
+    </multipleblocktrain>
   </civ>
   <civ>
     <name>XPAztec</name>
@@ -2126,7 +2680,6 @@
     <deathmatchtech>DEDeathMatch</deathmatchtech>
     <treatytech>DETreatyShadow</treatytech>
     <empirewarstech>DEEmpireWars</empirewarstech>
-    <economymodetech>DEEconomyMode</economymodetech>
     <maximumageupresourcecost>
       <age1>800.00</age1>
       <age2>2200.00</age2>
@@ -2152,10 +2705,6 @@
     <townstartingunit>CrateofWood</townstartingunit>
     <townstartingunit>CrateofWood</townstartingunit>
     <townstartingunit>CrateofWood</townstartingunit>
-    <economymodestartingunit>SettlerNative</economymodestartingunit>
-    <economymodestartingunit>SettlerNative</economymodestartingunit>
-    <economymodestartingunit>SettlerNative</economymodestartingunit>
-    <economymodestartingunit>SettlerNative</economymodestartingunit>
     <empirewarsstartingunit>SettlerNative</empirewarsstartingunit>
     <empirewarsstartingunit>SettlerNative</empirewarsstartingunit>
     <empirewarsstartingunit>SettlerNative</empirewarsstartingunit>
@@ -2253,6 +2802,66 @@
       </units>
       <unitcounts>
         <count>1</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoYumiArmy</multipleblockunit>
+      <units>
+        <unit>ypYumi</unit>
+      </units>
+      <unitcounts>
+        <count>5</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoAshigaruArmy</multipleblockunit>
+      <units>
+        <unit>ypAshigaru</unit>
+      </units>
+      <unitcounts>
+        <count>5</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoKenseiArmy</multipleblockunit>
+      <units>
+        <unit>ypKensei</unit>
+      </units>
+      <unitcounts>
+        <count>3</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoNaginataRiderArmy</multipleblockunit>
+      <units>
+        <unit>ypNaginataRider</unit>
+      </units>
+      <unitcounts>
+        <count>3</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoYabusameArmy</multipleblockunit>
+      <units>
+        <unit>ypYabusame</unit>
+      </units>
+      <unitcounts>
+        <count>3</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoShinobiArmy</multipleblockunit>
+      <units>
+        <unit>ypShinobiHorse</unit>
+      </units>
+      <unitcounts>
+        <count>3</count>
       </unitcounts>
     </multipleblocktrain>
   </civ>
@@ -2414,7 +3023,6 @@
     <deathmatchtech>DEDeathMatch</deathmatchtech>
     <treatytech>DETreatyShadow</treatytech>
     <empirewarstech>DEEmpireWars</empirewarstech>
-    <economymodetech>DEEconomyMode</economymodetech>
     <buildingefficiency>0.3</buildingefficiency>
     <gold>0</gold>
     <food>0</food>
@@ -2442,10 +3050,6 @@
     <townstartingunit>CrateofWood</townstartingunit>
     <townstartingunit>CrateofWood</townstartingunit>
     <townstartingunit>CrateofWood</townstartingunit>
-    <economymodestartingunit>ypSettlerJapanese</economymodestartingunit>
-    <economymodestartingunit>ypSettlerJapanese</economymodestartingunit>
-    <economymodestartingunit>ypSettlerJapanese</economymodestartingunit>
-    <economymodestartingunit>ypSettlerJapanese</economymodestartingunit>
     <empirewarsstartingunit>ypSettlerJapanese</empirewarsstartingunit>
     <empirewarsstartingunit>ypSettlerJapanese</empirewarsstartingunit>
     <empirewarsstartingunit>ypSettlerJapanese</empirewarsstartingunit>
@@ -2897,7 +3501,6 @@
     <deathmatchtech>DEDeathMatch</deathmatchtech>
     <treatytech>DETreatyShadow</treatytech>
     <empirewarstech>DEEmpireWars</empirewarstech>
-    <economymodetech>DEEconomyMode</economymodetech>
     <buildingefficiency>0.3</buildingefficiency>
     <gold>0</gold>
     <food>0</food>
@@ -2922,10 +3525,6 @@
     <townstartingunit>CrateofWood</townstartingunit>
     <townstartingunit>CrateofWood</townstartingunit>
     <townstartingunit>CrateofWood</townstartingunit>
-    <economymodestartingunit>ypSettlerAsian</economymodestartingunit>
-    <economymodestartingunit>ypSettlerAsian</economymodestartingunit>
-    <economymodestartingunit>ypSettlerAsian</economymodestartingunit>
-    <economymodestartingunit>ypSettlerAsian</economymodestartingunit>
     <empirewarsstartingunit>ypSettlerAsian</empirewarsstartingunit>
     <empirewarsstartingunit>ypSettlerAsian</empirewarsstartingunit>
     <empirewarsstartingunit>ypSettlerAsian</empirewarsstartingunit>
@@ -4137,6 +4736,66 @@
         <count>1</count>
       </unitcounts>
     </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoYumiArmy</multipleblockunit>
+      <units>
+        <unit>ypYumi</unit>
+      </units>
+      <unitcounts>
+        <count>5</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoAshigaruArmy</multipleblockunit>
+      <units>
+        <unit>ypAshigaru</unit>
+      </units>
+      <unitcounts>
+        <count>5</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoKenseiArmy</multipleblockunit>
+      <units>
+        <unit>ypKensei</unit>
+      </units>
+      <unitcounts>
+        <count>3</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoNaginataRiderArmy</multipleblockunit>
+      <units>
+        <unit>ypNaginataRider</unit>
+      </units>
+      <unitcounts>
+        <count>3</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoYabusameArmy</multipleblockunit>
+      <units>
+        <unit>ypYabusame</unit>
+      </units>
+      <unitcounts>
+        <count>3</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoShinobiArmy</multipleblockunit>
+      <units>
+        <unit>ypShinobiHorse</unit>
+      </units>
+      <unitcounts>
+        <count>3</count>
+      </unitcounts>
+    </multipleblocktrain>
     <key>C</key>
   </civ>
   <civ>
@@ -4188,7 +4847,6 @@
     <deathmatchtech>DEDeathMatch</deathmatchtech>
     <treatytech>DETreatyShadow</treatytech>
     <empirewarstech>DEEmpireWars</empirewarstech>
-    <economymodetech>DEEconomyMode</economymodetech>
     <buildingefficiency>0.3</buildingefficiency>
     <gold>0</gold>
     <food>0</food>
@@ -4213,10 +4871,6 @@
     <townstartingunit>CrateofWood</townstartingunit>
     <townstartingunit>CrateofFood</townstartingunit>
     <townstartingunit>CrateofFood</townstartingunit>
-    <economymodestartingunit>ypSettlerAsian</economymodestartingunit>
-    <economymodestartingunit>ypSettlerAsian</economymodestartingunit>
-    <economymodestartingunit>ypSettlerAsian</economymodestartingunit>
-    <economymodestartingunit>ypSettlerAsian</economymodestartingunit>
     <empirewarsstartingunit>ypSettlerIndian</empirewarsstartingunit>
     <empirewarsstartingunit>ypSettlerIndian</empirewarsstartingunit>
     <empirewarsstartingunit>ypSettlerIndian</empirewarsstartingunit>
@@ -4494,6 +5148,66 @@
       </units>
       <unitcounts>
         <count>1</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoYumiArmy</multipleblockunit>
+      <units>
+        <unit>ypYumi</unit>
+      </units>
+      <unitcounts>
+        <count>5</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoAshigaruArmy</multipleblockunit>
+      <units>
+        <unit>ypAshigaru</unit>
+      </units>
+      <unitcounts>
+        <count>5</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoKenseiArmy</multipleblockunit>
+      <units>
+        <unit>ypKensei</unit>
+      </units>
+      <unitcounts>
+        <count>3</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoNaginataRiderArmy</multipleblockunit>
+      <units>
+        <unit>ypNaginataRider</unit>
+      </units>
+      <unitcounts>
+        <count>3</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoYabusameArmy</multipleblockunit>
+      <units>
+        <unit>ypYabusame</unit>
+      </units>
+      <unitcounts>
+        <count>3</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoShinobiArmy</multipleblockunit>
+      <units>
+        <unit>ypShinobiHorse</unit>
+      </units>
+      <unitcounts>
+        <count>3</count>
       </unitcounts>
     </multipleblocktrain>
     <key>I</key>
@@ -6500,7 +7214,6 @@
     <deathmatchtech>DEDeathMatch</deathmatchtech>
     <treatytech>DETreatyShadow</treatytech>
     <empirewarstech>DEEmpireWars</empirewarstech>
-    <economymodetech>DEEconomyMode</economymodetech>
     <buildingefficiency>0.3</buildingefficiency>
     <gold>0</gold>
     <food>0</food>
@@ -6519,10 +7232,6 @@
     <townstartingunit>CrateofWood</townstartingunit>
     <townstartingunit>CrateofWood</townstartingunit>
     <townstartingunit>CrateofWood</townstartingunit>
-    <economymodestartingunit>SettlerNative</economymodestartingunit>
-    <economymodestartingunit>SettlerNative</economymodestartingunit>
-    <economymodestartingunit>SettlerNative</economymodestartingunit>
-    <economymodestartingunit>SettlerNative</economymodestartingunit>
     <empirewarsstartingunit>SettlerNative</empirewarsstartingunit>
     <empirewarsstartingunit>SettlerNative</empirewarsstartingunit>
     <empirewarsstartingunit>SettlerNative</empirewarsstartingunit>
@@ -6620,6 +7329,66 @@
         <count>1</count>
       </unitcounts>
     </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoYumiArmy</multipleblockunit>
+      <units>
+        <unit>ypYumi</unit>
+      </units>
+      <unitcounts>
+        <count>5</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoAshigaruArmy</multipleblockunit>
+      <units>
+        <unit>ypAshigaru</unit>
+      </units>
+      <unitcounts>
+        <count>5</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoKenseiArmy</multipleblockunit>
+      <units>
+        <unit>ypKensei</unit>
+      </units>
+      <unitcounts>
+        <count>3</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoNaginataRiderArmy</multipleblockunit>
+      <units>
+        <unit>ypNaginataRider</unit>
+      </units>
+      <unitcounts>
+        <count>3</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoYabusameArmy</multipleblockunit>
+      <units>
+        <unit>ypYabusame</unit>
+      </units>
+      <unitcounts>
+        <count>3</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoShinobiArmy</multipleblockunit>
+      <units>
+        <unit>ypShinobiHorse</unit>
+      </units>
+      <unitcounts>
+        <count>3</count>
+      </unitcounts>
+    </multipleblocktrain>
   </civ>
   <civ>
     <name>DESwedish</name>
@@ -6659,7 +7428,6 @@
     <deathmatchtech>DEDeathMatch</deathmatchtech>
     <treatytech>DETreatyShadow</treatytech>
     <empirewarstech>DEEmpireWars</empirewarstech>
-    <economymodetech>DEEconomyMode</economymodetech>
     <buildingefficiency>0.3</buildingefficiency>
     <gold>0</gold>
     <food>0</food>
@@ -6672,13 +7440,10 @@
     <townstartingunit>Settler</townstartingunit>
     <townstartingunit>CrateofFood</townstartingunit>
     <townstartingunit>CrateofFood</townstartingunit>
+    <townstartingunit>CrateofFood</townstartingunit>
     <townstartingunit>CrateofWood</townstartingunit>
     <townstartingunit>CrateofWood</townstartingunit>
     <townstartingunit>CrateofWood</townstartingunit>
-    <economymodestartingunit>Settler</economymodestartingunit>
-    <economymodestartingunit>Settler</economymodestartingunit>
-    <economymodestartingunit>Settler</economymodestartingunit>
-    <economymodestartingunit>Settler</economymodestartingunit>
     <empirewarsstartingunit>Settler</empirewarsstartingunit>
     <empirewarsstartingunit>Settler</empirewarsstartingunit>
     <empirewarsstartingunit>Settler</empirewarsstartingunit>
@@ -6786,6 +7551,66 @@
       </units>
       <unitcounts>
         <count>1</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoYumiArmy</multipleblockunit>
+      <units>
+        <unit>ypYumi</unit>
+      </units>
+      <unitcounts>
+        <count>5</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoAshigaruArmy</multipleblockunit>
+      <units>
+        <unit>ypAshigaru</unit>
+      </units>
+      <unitcounts>
+        <count>5</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoKenseiArmy</multipleblockunit>
+      <units>
+        <unit>ypKensei</unit>
+      </units>
+      <unitcounts>
+        <count>3</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoNaginataRiderArmy</multipleblockunit>
+      <units>
+        <unit>ypNaginataRider</unit>
+      </units>
+      <unitcounts>
+        <count>3</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoYabusameArmy</multipleblockunit>
+      <units>
+        <unit>ypYabusame</unit>
+      </units>
+      <unitcounts>
+        <count>3</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoShinobiArmy</multipleblockunit>
+      <units>
+        <unit>ypShinobiHorse</unit>
+      </units>
+      <unitcounts>
+        <count>3</count>
       </unitcounts>
     </multipleblocktrain>
   </civ>
@@ -7536,7 +8361,6 @@
     <deathmatchtech>DEDeathMatch</deathmatchtech>
     <treatytech>DETreatyShadow</treatytech>
     <empirewarstech>DEEmpireWars</empirewarstech>
-    <economymodetech>DEEconomyMode</economymodetech>
     <buildingefficiency>0.3</buildingefficiency>
     <gold>0</gold>
     <food>0</food>
@@ -7554,10 +8378,6 @@
     <townstartingunit>CrateofWood</townstartingunit>
     <townstartingunit>CrateofWood</townstartingunit>
     <townstartingunit>deCrateofXP</townstartingunit>
-    <economymodestartingunit>Settler</economymodestartingunit>
-    <economymodestartingunit>Settler</economymodestartingunit>
-    <economymodestartingunit>Settler</economymodestartingunit>
-    <economymodestartingunit>Settler</economymodestartingunit>
     <empirewarsstartingunit>Settler</empirewarsstartingunit>
     <empirewarsstartingunit>Settler</empirewarsstartingunit>
     <empirewarsstartingunit>Settler</empirewarsstartingunit>
@@ -7910,6 +8730,66 @@
         <count>1</count>
       </unitcounts>
     </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoYumiArmy</multipleblockunit>
+      <units>
+        <unit>ypYumi</unit>
+      </units>
+      <unitcounts>
+        <count>5</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoAshigaruArmy</multipleblockunit>
+      <units>
+        <unit>ypAshigaru</unit>
+      </units>
+      <unitcounts>
+        <count>5</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoKenseiArmy</multipleblockunit>
+      <units>
+        <unit>ypKensei</unit>
+      </units>
+      <unitcounts>
+        <count>3</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoNaginataRiderArmy</multipleblockunit>
+      <units>
+        <unit>ypNaginataRider</unit>
+      </units>
+      <unitcounts>
+        <count>3</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoYabusameArmy</multipleblockunit>
+      <units>
+        <unit>ypYabusame</unit>
+      </units>
+      <unitcounts>
+        <count>3</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoShinobiArmy</multipleblockunit>
+      <units>
+        <unit>ypShinobiHorse</unit>
+      </units>
+      <unitcounts>
+        <count>3</count>
+      </unitcounts>
+    </multipleblocktrain>
   </civ>
   <civ>
     <name>DEEthiopians</name>
@@ -7950,7 +8830,6 @@
     <deathmatchtech>DEDeathMatch</deathmatchtech>
     <treatytech>DETreatyShadow</treatytech>
     <empirewarstech>DEEmpireWars</empirewarstech>
-    <economymodetech>DEEconomyMode</economymodetech>
     <buildingefficiency>0.3</buildingefficiency>
     <gold>0</gold>
     <food>0</food>
@@ -7979,10 +8858,6 @@
     <townstartingunit resourceamount="135.00">deZebuCattle</townstartingunit>
     <deathmatchstartingunit resourceamount="135.00">deZebuCattle</deathmatchstartingunit>
     <startingunit>deLivestockMarketWagon</startingunit>
-    <economymodestartingunit>deSettlerAfrican</economymodestartingunit>
-    <economymodestartingunit>deSettlerAfrican</economymodestartingunit>
-    <economymodestartingunit>deSettlerAfrican</economymodestartingunit>
-    <economymodestartingunit>deSettlerAfrican</economymodestartingunit>
     <empirewarsstartingunit>deSettlerAfrican</empirewarsstartingunit>
     <empirewarsstartingunit>deSettlerAfrican</empirewarsstartingunit>
     <empirewarsstartingunit>deSettlerAfrican</empirewarsstartingunit>
@@ -8129,6 +9004,66 @@
         <count>1</count>
       </unitcounts>
     </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoYumiArmy</multipleblockunit>
+      <units>
+        <unit>ypYumi</unit>
+      </units>
+      <unitcounts>
+        <count>5</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoAshigaruArmy</multipleblockunit>
+      <units>
+        <unit>ypAshigaru</unit>
+      </units>
+      <unitcounts>
+        <count>5</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoKenseiArmy</multipleblockunit>
+      <units>
+        <unit>ypKensei</unit>
+      </units>
+      <unitcounts>
+        <count>3</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoNaginataRiderArmy</multipleblockunit>
+      <units>
+        <unit>ypNaginataRider</unit>
+      </units>
+      <unitcounts>
+        <count>3</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoYabusameArmy</multipleblockunit>
+      <units>
+        <unit>ypYabusame</unit>
+      </units>
+      <unitcounts>
+        <count>3</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoShinobiArmy</multipleblockunit>
+      <units>
+        <unit>ypShinobiHorse</unit>
+      </units>
+      <unitcounts>
+        <count>3</count>
+      </unitcounts>
+    </multipleblocktrain>
   </civ>
   <civ>
     <name>DEHausa</name>
@@ -8169,7 +9104,6 @@
     <deathmatchtech>DEDeathMatch</deathmatchtech>
     <treatytech>DETreatyShadow</treatytech>
     <empirewarstech>DEEmpireWars</empirewarstech>
-    <economymodetech>DEEconomyMode</economymodetech>
     <buildingefficiency>0.3</buildingefficiency>
     <gold>0</gold>
     <food>0</food>
@@ -8198,10 +9132,6 @@
     <townstartingunit resourceamount="135.00">deSangaCattle</townstartingunit>
     <deathmatchstartingunit resourceamount="135.00">deSangaCattle</deathmatchstartingunit>
     <startingunit>deLivestockMarketWagon</startingunit>
-    <economymodestartingunit>deSettlerAfrican</economymodestartingunit>
-    <economymodestartingunit>deSettlerAfrican</economymodestartingunit>
-    <economymodestartingunit>deSettlerAfrican</economymodestartingunit>
-    <economymodestartingunit>deSettlerAfrican</economymodestartingunit>
     <empirewarsstartingunit>deSettlerAfrican</empirewarsstartingunit>
     <empirewarsstartingunit>deSettlerAfrican</empirewarsstartingunit>
     <empirewarsstartingunit>deSettlerAfrican</empirewarsstartingunit>
@@ -8319,6 +9249,66 @@
       </units>
       <unitcounts>
         <count>1</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoYumiArmy</multipleblockunit>
+      <units>
+        <unit>ypYumi</unit>
+      </units>
+      <unitcounts>
+        <count>5</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoAshigaruArmy</multipleblockunit>
+      <units>
+        <unit>ypAshigaru</unit>
+      </units>
+      <unitcounts>
+        <count>5</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoKenseiArmy</multipleblockunit>
+      <units>
+        <unit>ypKensei</unit>
+      </units>
+      <unitcounts>
+        <count>3</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoNaginataRiderArmy</multipleblockunit>
+      <units>
+        <unit>ypNaginataRider</unit>
+      </units>
+      <unitcounts>
+        <count>3</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoYabusameArmy</multipleblockunit>
+      <units>
+        <unit>ypYabusame</unit>
+      </units>
+      <unitcounts>
+        <count>3</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoShinobiArmy</multipleblockunit>
+      <units>
+        <unit>ypShinobiHorse</unit>
+      </units>
+      <unitcounts>
+        <count>3</count>
       </unitcounts>
     </multipleblocktrain>
   </civ>
@@ -8772,6 +9762,66 @@
       </units>
       <unitcounts>
         <count>1</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoYumiArmy</multipleblockunit>
+      <units>
+        <unit>ypYumi</unit>
+      </units>
+      <unitcounts>
+        <count>5</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoAshigaruArmy</multipleblockunit>
+      <units>
+        <unit>ypAshigaru</unit>
+      </units>
+      <unitcounts>
+        <count>5</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoKenseiArmy</multipleblockunit>
+      <units>
+        <unit>ypKensei</unit>
+      </units>
+      <unitcounts>
+        <count>3</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoNaginataRiderArmy</multipleblockunit>
+      <units>
+        <unit>ypNaginataRider</unit>
+      </units>
+      <unitcounts>
+        <count>3</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoYabusameArmy</multipleblockunit>
+      <units>
+        <unit>ypYabusame</unit>
+      </units>
+      <unitcounts>
+        <count>3</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoShinobiArmy</multipleblockunit>
+      <units>
+        <unit>ypShinobiHorse</unit>
+      </units>
+      <unitcounts>
+        <count>3</count>
       </unitcounts>
     </multipleblocktrain>
   </civ>

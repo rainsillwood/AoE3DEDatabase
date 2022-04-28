@@ -10,7 +10,7 @@
     <string _locid="17062" symbol="cStringCantPayResearchCost" comment="1 - cost, 2 - tech name">%1s per il miglioramento %2s.</string>
     <string _locid="17063" symbol="cStringCantPayTrainCost" comment="1 - cost, 2 - unit name">%1s per addestrare un'altra unità %2s.</string>
     <string _locid="17064" symbol="cStringCantPayBuildCost" comment="1 - cost, 2 - building name">%1s per costruire: %2s.</string>
-    <string _locid="17073" symbol="cStringCoreInitErrorCaption">Errore. Impossibile continuare l'esecuzione del gioco.</string>
+    <string _locid="17073" symbol="cStringCoreInitErrorCaption">Errore. Impossibile continuare l'esecuzione del gioco</string>
     <string _locid="17074" symbol="cStringMultipleGamesRunningError">Può essere eseguita una sola copia del gioco alla volta. Un'altra copia del gioco è già in esecuzione.</string>
     <string _locid="17075" symbol="cStringBadOSError">Per l'esecuzione di questo gioco è necessario Windows XP o versione successiva.</string>
     <string _locid="17079" symbol="cStringDetailUnitCost">Costo:\n</string>
@@ -279,6 +279,7 @@
     <string _locid="19036" symbol="cStringEconomy">Economia</string>
     <string _locid="19037" symbol="cStringMilitaryDetail">Visualizza i dettagli sul punteggio militare.</string>
     <string _locid="19038" symbol="cStringMilitary">Esercito</string>
+    <string _locid="19039" symbol="cStringEconomyFilter">Economia (non classificata)</string>
     <string _locid="19041" symbol="cStringGameStatistics">Visualizza le statistiche di gioco avanzate.</string>
     <string _locid="19042" symbol="cStringExperienceDetail">Visualizza i dettagli sul punteggio di esperienza.</string>
     <string _locid="19043" symbol="cStringExperience">Esperienza</string>
@@ -1154,7 +1155,7 @@
     <string _locid="22177" symbol="cStringStartupLoadingSounds">Caricamento suoni in corso...</string>
     <string _locid="22178" symbol="cStringEditorNewScenarioBlankType">Vuoto</string>
     <string _locid="22179">Ripristina part.</string>
-    <string _locid="22180" symbol="cStringESOBadPassword">Le password non possono contenere spazi o i seguenti caratteri: $ "&lt;&gt; ( ) ;</string>
+    <string _locid="22180" symbol="cStringESOBadPassword">Le password non possono contenere spazi o i seguenti caratteri: $ " &lt;&gt; ( ) ;</string>
     <string _locid="22201" symbol="cStringMultiple">Multiplo</string>
     <string _locid="22203" symbol="cStringAbstractNameWood">Legname</string>
     <string _locid="22204" symbol="cStringAbstractNameFood">Cibo</string>
@@ -1362,7 +1363,7 @@
     <string _locid="22484">Counter:Add Timer</string>
     <string _locid="22485" symbol="cStringStartLit">Inizio</string>
     <string _locid="22486">Counter:Add Unit</string>
-    <string _locid="22487">Total</string>
+    <string _locid="22487">Totale</string>
     <string _locid="22488">Counter Stop</string>
     <string _locid="22489">Player LOS Change</string>
     <string _locid="22490">Has LOS</string>
@@ -1476,7 +1477,7 @@
     <string _locid="22749" symbol="cStringESOPasswordCantContainNickname">La password non può contenere lo pseudonimo.</string>
     <string _locid="22750" symbol="cStringESOSecretQuestionRules">La domanda e la risposta segreta non possono essere uguali.</string>
     <string _locid="22751" symbol="cStringESOSecretQuestionPassword">La domanda e la risposta segreta non possono contenere la password.</string>
-    <string _locid="22752" symbol="cStringESOSecretQuestionChars">Le tue domande e risposte segrete non possono contenere i seguenti caratteri: $ &amp; ( ) ; "&lt;&gt;</string>
+    <string _locid="22752" symbol="cStringESOSecretQuestionChars">Le tue domande e risposte segrete non possono contenere i seguenti caratteri: $ &amp; ( ) ; " &lt;&gt;</string>
     <string _locid="22804">Mulino</string>
     <string _locid="22805">Moschettiere</string>
     <string _locid="22806">Colono</string>
@@ -1696,7 +1697,7 @@
     <string _locid="23527">Mustang comanche</string>
     <string _locid="23529">L'allevamento selettivo di cavalli aumenta i punti danno di unità di cavalleria.</string>
     <string _locid="23530">Allevamento di cavalli comanche</string>
-    <string _locid="23540">Grazie alle tecniche dei giardini galleggianti aztechi, gli abitanti procurano cibo dai mulini e le imbarcazioni pescano pesce e balene più velocemente.</string>
+    <string _locid="23540">Grazie alle tecniche dei giardini galleggianti, gli abitanti procurano cibo dai mulini e le imbarcazioni pescano pesce e balene più velocemente.</string>
     <string _locid="23541">Chinampa aztechi</string>
     <string _locid="23546">Proiettile di mortaio</string>
     <string _locid="23559" symbol="cStringRed">Red</string>
@@ -2182,7 +2183,7 @@
     <string _locid="25336">IGC Nonahkee</string>
     <string _locid="25337">IGC Sahin</string>
     <string _locid="25338">IGC Warwick</string>
-    <string _locid="25339">Guarisce le unità ferite.</string>
+    <string _locid="25339">Guaritore spagnolo riservato con cavalcatura veloce. Non costa popolazione.</string>
     <string _locid="25340">Missionario</string>
     <string _locid="25343">Determina raggruppamento</string>
     <string _locid="25344" symbol="cStringTrEffectPanWithUnit">Camera Follow Unit</string>
@@ -2372,8 +2373,8 @@
     <string _locid="25664">Mercenario di fanteria corpo a corpo</string>
     <string _locid="25665">Edificio per il cibo</string>
     <string _locid="25666">Fanteria a distanza di breve durata</string>
-    <string _locid="25667">Guaritore</string>
-    <string _locid="25668">Artiglieria da assedio</string>
+    <string _locid="25667">Guaritore a cavallo rapido</string>
+    <string _locid="25668">Artiglieria d'assedio</string>
     <string _locid="25669">Fanteria pesante a distanza</string>
     <string _locid="25670">Fanteria corpo a corpo dei Nativi</string>
     <string _locid="25671">Fanteria leggera dei Nativi</string>
@@ -2392,7 +2393,7 @@
     <string _locid="25684">Edificio dei Nativi. Costruisci una base commerciale per stringere un'alleanza.</string>
     <string _locid="25685">Abitante nativo</string>
     <string _locid="25686">Fanteria corpo a corpo dei Nativi</string>
-    <string _locid="25687">Unità da assedio dei Nativi</string>
+    <string _locid="25687">Unità d'assedio dei Nativi</string>
     <string _locid="25688">Schermagliatore nativo americano</string>
     <string _locid="25689">Arciere nativo americano</string>
     <string _locid="25690">Fanteria di Nativi che utilizza armi corpo a corpo a distanza!</string>
@@ -3356,8 +3357,8 @@
     <string _locid="27776">Campione huaminca</string>
     <string _locid="27778">Campione guerriero aquila</string>
     <string _locid="27779">Campione mantelletto</string>
-    <string _locid="27780" symbol="cStringNuggetafCorsairLoot" comment="1 - amount, 2 - resource">Nascondiglio segreto di un capitano pirata del valore di %1d %2s e una spedizione.</string>
-    <string _locid="27781" symbol="cStringNuggetafCorsairLootActivate" comment="1 - player, 2 - amount, 3 - resource">%1s ha scoperto un nascondiglio segreto di un capitano pirata del valore di %2d %3s e una spedizione.</string>
+    <string _locid="27780" symbol="cStringNuggetafCorsairLoot" comment="1 - amount, 2 - resource">Nascondiglio segreto di un capitano pirata del valore di %2d %3s e %4d %5s.</string>
+    <string _locid="27781" symbol="cStringNuggetafCorsairLootActivate" comment="1 - player, 2 - amount, 3 - resource">%1s ha scoperto un nascondiglio segreto di un capitano pirata del valore di %2d %3s e %4d %5s.</string>
     <string _locid="27835">Spedisce alla tua città un carro-forte che consente di costruire un imponente forte.</string>
     <string _locid="27836">Forte</string>
     <string _locid="27844">TECNOLOGIE INIZIALI</string>
@@ -3798,7 +3799,7 @@
     <string _locid="29468">Costruisci capanna</string>
     <string _locid="29469">Balestriere</string>
     <string _locid="29470">Balestrieri multipli</string>
-    <string _locid="29471">Arciere con arco lungo</string>
+    <string _locid="29471">Arciere con arco lungo/Ranger</string>
     <string _locid="29472">Arcieri con arco lungo multipli</string>
     <string _locid="29473">Giannizzero</string>
     <string _locid="29474">Giannizzeri multipli</string>
@@ -4265,6 +4266,8 @@
     <string _locid="31144">Fai pressione sui ponti di ghiaccio o di pietra per farli crollare. Dispone di attacchi a distanza e corpo a corpo.</string>
     <string _locid="31145">Minatore</string>
     <string _locid="31146">CGS Minatore</string>
+    <string _locid="31147">Minatore sconosciuto</string>
+    <string _locid="31148">Raccoglie denaro molto rapidamente dalle miniere, ma lentamente da altre fonti di denaro. Ha un potente attacco con granata.</string>
     <string _locid="31153" symbol="cStringNuggetKinkajou" comment="1 - amount, 2 - resource">Un kinkajou adorabile del valore di %1d %2s.</string>
     <string _locid="31154" symbol="cStringNuggetKinkajouActivate" comment="1 - player, 2 - amount, 3 - resource">%1s ha scoperto radice di kinkajou del valore di %2d %3s.</string>
     <string _locid="31155" symbol="cStringNuggetSloth" comment="1 - amount, 2 - resource">Il temuto bradipo bidattilo del valore di %1d %2s.</string>
@@ -4836,7 +4839,7 @@
     <string _locid="32909" symbol="cStringAbilityRolloverSharpshooter">Uccide i guardiani dei tesori con un colpo solo.</string>
     <string _locid="32910" symbol="cStringAbilityNameBroadside">Attacco Bordate</string>
     <string _locid="32911" symbol="cStringAbilityRolloverBroadside">Spara al bersaglio con tutti i cannoni!</string>
-    <string _locid="32912">Invia 26 ranger di Roger (schermagliatori) dalla frontiera.</string>
+    <string _locid="32912">Invia un numero di ranger (schermagliatori) dalla frontiera.</string>
     <string _locid="32913">Ranger di Roger</string>
     <string _locid="32914">Gli Ottomani hanno arruolato il potente contingente tufanci!</string>
     <string _locid="32915">Schermagliatore della Guardia</string>
@@ -5203,7 +5206,7 @@
     <string _locid="33477">Cavalieri di Malta che lanciano cerchi infuocati contro i Giannizzeri.</string>
     <string _locid="33478">Lanciatori di cerchi</string>
     <string _locid="33479">CGS Lanciatori di cerchi</string>
-    <string _locid="33486">Punti danno e campo visivo navi da guerra aumentati.</string>
+    <string _locid="33486">Punti danno e campo visivo navi da guerra aumentati. Consente alle navi da guerra spagnole di addestrare determinate unità militari.</string>
     <string _locid="33487">Armada</string>
     <string _locid="33492">Tutti i miglioramenti della moschea ottomana riservati costano il 60% in meno.</string>
     <string _locid="33493">Costruzione moschea</string>
@@ -5507,7 +5510,7 @@
     <string _locid="33973" symbol="cStringmercaddIncCountFld">Incremento conteggio:</string>
     <string _locid="33974">Piante palustri Bayou</string>
     <string _locid="33975">PROP Piante palustri Bayou</string>
-    <string _locid="33976">L'addestramento intensivo degli Aztechi al combattimento aumenta i punti danno e la capacità d'attacco degli eroi.</string>
+    <string _locid="33976">L'addestramento intensivo al combattimento aumenta i punti danno e la capacità d'attacco degli eroi.</string>
     <string _locid="33977">Iniziazione azteca</string>
     <string _locid="33978" symbol="cStringMercenaryEditorErrorMsg1">Questa unità mercenaria è già stata aggiunta all'elenco. Non puoi aggiungere due volte la stessa unità.</string>
     <string _locid="33979" symbol="cStringmerceditEditBtn">Modifica mercenario</string>
@@ -6217,7 +6220,8 @@
     <string _locid="35298">Sposta i mortai e l'artiglieria a cavallo all'età delle fortezze.</string>
     <string _locid="35299">Artiglieria avanzata</string>
     <string _locid="35307">Yeoman</string>
-    <string _locid="35308">Gittata arciere con arco lungo aumentata.</string>
+    <string _locid="35308">Il tuo arciere con arco lungo può scagliare le sue frecce più lontano.</string>
+    <string _locid="35309">L'arciere con arco lungo infligge più danni alla fanteria pesante e ottiene maggiore gittata.</string>
     <string _locid="35317">Attacco e punti danno moschettiere e granatiere aumentati.</string>
     <string _locid="35318">Combat. mosch./granatieri</string>
     <string _locid="35319">Punti danno ussaro e dragone aumentati.</string>
@@ -6493,7 +6497,7 @@
     <string _locid="35732">8 picchieri</string>
     <string _locid="35733">10 picchieri</string>
     <string _locid="35734">8 rodeleros</string>
-    <string _locid="35735">13 rodeleros</string>
+    <string _locid="35735">16 rodeleros</string>
     <string _locid="35736">9 rodeleros</string>
     <string _locid="35737">4 ussari</string>
     <string _locid="35738">6 lancieri</string>
@@ -6517,7 +6521,7 @@
     <string _locid="35758" symbol="cStringArmor">Resiste a:</string>
     <string _locid="35759">Corpo a corpo</string>
     <string _locid="35760">A distanza</string>
-    <string _locid="35761">Da assedio</string>
+    <string _locid="35761">D'assedio</string>
     <string _locid="35762">24 picchieri</string>
     <string _locid="35763">10 balestrieri</string>
     <string _locid="35764">Attacco e punti danno balestriere e schermagliatore aumentati.</string>
@@ -12414,7 +12418,7 @@
     <string _locid="42023" symbol="cStringPikeman">Picchiere</string>
     <string _locid="42024" symbol="cStringMine">Miniera</string>
     <string _locid="42025" symbol="cStringGuardian">Guardiano</string>
-    <string _locid="42026" symbol="cStringSiegeTrooper">Unità da assedio</string>
+    <string _locid="42026" symbol="cStringSiegeTrooper">Unità d'assedio</string>
     <string _locid="42027" symbol="cStringLancer">Lanciere e chinaco</string>
     <string _locid="42028">
     </string>
@@ -13747,7 +13751,7 @@
     <string _locid="43349">Rimuovi da qualsiasi gruppo</string>
     <string _locid="43350">Trova esploratore</string>
     <string _locid="43351">Trova carro</string>
-    <string _locid="43352">Trova caserma, fortino o campo da guerra</string>
+    <string _locid="43352">Trova caserma, fortino, accademia di guerra o campo da guerra</string>
     <string _locid="43353">Trova campidoglio</string>
     <string _locid="43354">Trova ospedale da campo</string>
     <string _locid="43355">Costruisci mura</string>
@@ -13866,7 +13870,7 @@
     <string _locid="43467">Moschettiere a cavallo</string>
     <string _locid="43468">CAV Moschettiere a cavallo</string>
     <string _locid="43469">Artiglieria anti-edifici</string>
-    <string _locid="43470">Guerriero da assedio. Efficace contro gli edifici.</string>
+    <string _locid="43470">Guerriero d'assedio. Efficace contro gli edifici.</string>
     <string _locid="43471">Ariete d'élite</string>
     <string _locid="43472">AR Ariete</string>
     <string _locid="43473">Assedio a corta gittata</string>
@@ -13902,7 +13906,7 @@
     <string _locid="43503">Edificio per il cibo</string>
     <string _locid="43504">Fonte lenta e inesauribile di cibo. Limitata a 10 raccoglitori.</string>
     <string _locid="43505">Fattoria</string>
-    <string _locid="43506">Laboratorio da assedio</string>
+    <string _locid="43506">Laboratorio d'assedio</string>
     <string _locid="43507">Robusta canoa da combattimento.</string>
     <string _locid="43508">Potente nel combattimento navale se costruita in notevole quantità.</string>
     <string _locid="43509">Canoa da guerra</string>
@@ -14019,8 +14023,8 @@
     <string _locid="43620">Cavallo segreto</string>
     <string _locid="43621">Cavalieri e moschettieri a cavallo vengono addestrati più velocemente.</string>
     <string _locid="43622">Addestramento cavallo</string>
-    <string _locid="43623">Laboratorio da assedio</string>
-    <string _locid="43624">Laboratorio da assedio</string>
+    <string _locid="43623">Laboratorio d'assedio</string>
+    <string _locid="43624">Laboratorio d'assedio</string>
     <string _locid="43625">Lakota post-industriale</string>
     <string _locid="43626">Post-industriale - Aztechi</string>
     <string _locid="43627">Post-imperiale - Aztechi</string>
@@ -14054,9 +14058,9 @@
     <string _locid="43655">Carica spietata</string>
     <string _locid="43656">Grazie alla tradizionale corazza e all'impavido coraggio, la tua cavalleria infligge danni maggiori all'artiglieria nemica.</string>
     <string _locid="43657">Armatura in osso</string>
-    <string _locid="43658">Le unità laboratorio da assedio sono più veloci.</string>
-    <string _locid="43659">Trivella da assedio</string>
-    <string _locid="43660">Tutte le corazze per le armi da assedio aumentate e rese più resistenti al fuoco a distanza.</string>
+    <string _locid="43658">Le unità laboratorio d'assedio sono più veloci.</string>
+    <string _locid="43659">Trivella d'assedio</string>
+    <string _locid="43660">Tutte le corazze per le armi d'assedio aumentate e rese più resistenti al fuoco a distanza.</string>
     <string _locid="43661">Copertura di cuoio</string>
     <string _locid="43662">Raggio dei danni inflitti dal cannone leggero aumentati.</string>
     <string _locid="43663">Polvere in grani</string>
@@ -14264,7 +14268,7 @@
     <string _locid="43865">Potenziamento leggendario per arcieri cetan.</string>
     <string _locid="43866">Arcieri cetan leggendari</string>
     <string _locid="43867">Aenna leggendario</string>
-    <string _locid="43868">Unità da assedio dei Nativi americani</string>
+    <string _locid="43868">Unità d'assedio dei Nativi americani</string>
     <string _locid="43869">Unità d'assedio urone a corta gittata.</string>
     <string _locid="43870">Mantelletto urone</string>
     <string _locid="43871">NAT Mantelletto urone</string>
@@ -14428,7 +14432,7 @@
     <string _locid="44030">I guerrieri a piedi haudenosaunee possono costruire capanne da guerra, corral e laboratori d'assedio.</string>
     <string _locid="44031">Campo di battaglia</string>
     <string _locid="44032">La spedizione della costruzione del campo di battaglia è arrivata.</string>
-    <string _locid="44033">Laboratorio da assedio</string>
+    <string _locid="44033">Laboratorio d'assedio</string>
     <string _locid="44034">Attacco abitante enormemente aumentato.</string>
     <string _locid="44035">Cultura del guerriero</string>
     <string _locid="44036">La spedizione dei pionieri è arrivata.</string>
@@ -14465,10 +14469,10 @@
     <string _locid="44066">Albero - Ginepro</string>
     <string _locid="44067">Fam. Black</string>
     <string _locid="44068">La proprietà della famiglia Black.</string>
-    <string _locid="44069">Laboratorio da assedio</string>
+    <string _locid="44069">Laboratorio d'assedio</string>
     <string _locid="44070">Casa villaggio</string>
     <string _locid="44071">Abitante</string>
-    <string _locid="44072">Laboratorio da assedio</string>
+    <string _locid="44072">Laboratorio d'assedio</string>
     <string _locid="44073">Risorse.</string>
     <string _locid="44074">400 unità: cibo, legname, denaro</string>
     <string _locid="44075">Il tuo capo guerriero è più efficace in combattimento e nell'organizzazione delle difese. Adesso la sua aura aumenta leggermente anche i punti danno degli edifici.</string>
@@ -14508,11 +14512,11 @@
     <string _locid="44109">Squadra d'assedio haudenosaunee</string>
     <string _locid="44110">Invia 4 mantelletti e 6 montoni.</string>
     <string _locid="44111">Tutte le armi d'assedio haudenosaunee ottengono più punti danno.</string>
-    <string _locid="44112">Punti danno da assedio</string>
+    <string _locid="44112">Punti danno d'assedio</string>
     <string _locid="44113">Tutte le armi d'assedio haudenosaunee infliggono più danni.</string>
-    <string _locid="44114">Danno da assedio</string>
-    <string _locid="44115">La spedizione di punti danno da assedio è arrivata.</string>
-    <string _locid="44116">La spedizione dei danni da assedio è arrivata.</string>
+    <string _locid="44114">Danno d'assedio</string>
+    <string _locid="44115">La spedizione di punti danno d'assedio è arrivata.</string>
+    <string _locid="44116">La spedizione dei danni d'assedio è arrivata.</string>
     <string _locid="44117">La spedizione delle case da guerra è arrivata.</string>
     <string _locid="44118">Fonte di legname</string>
     <string _locid="44119">Un pino ponderosa.</string>
@@ -14542,7 +14546,7 @@
     <string _locid="44143">Nobile furtivo armato di spada di ossidiana. Efficace contro cavalleria e fanteria pesante.</string>
     <string _locid="44144">Cavaliere predone giaguaro</string>
     <string _locid="44145">FAN Cavaliere predone giaguaro</string>
-    <string _locid="44146">Fanteria da assedio</string>
+    <string _locid="44146">Fanteria d'assedio</string>
     <string _locid="44147">Nobile che lancia frecce infuocate a lunga gittata. Efficace contro artiglieria ed edifici.</string>
     <string _locid="44148">Cavaliere freccia</string>
     <string _locid="44149">FAN Cavaliere freccia</string>
@@ -14627,9 +14631,9 @@
     <string _locid="44228">8 corridori coyote</string>
     <string _locid="44229">12 corridori coyote</string>
     <string _locid="44230">Velocità e punti danno corridore coyote aumentati.</string>
-    <string _locid="44231">Combattimento coyote</string>
+    <string _locid="44231">Tattiche coyote</string>
     <string _locid="44232">La spedizione della fanteria da combattimento è arrivata.</string>
-    <string _locid="44233">La spedizione dei coyote da combattimento è arrivata.</string>
+    <string _locid="44233">La spedizione delle tattiche coyote è arrivata.</string>
     <string _locid="44234">9 lancieri puma</string>
     <string _locid="44235">6 lancieri puma</string>
     <string _locid="44236">8 frombolieri otontin</string>
@@ -14986,14 +14990,14 @@
     <string _locid="44583">Attacco e punti danno di tutti i corral aumentati.</string>
     <string _locid="44584">Campione corral</string>
     <string _locid="44585">Attacco e punti danno arieti e mantelletti aumentati.</string>
-    <string _locid="44586">Campione laboratorio da assedio</string>
+    <string _locid="44586">Campione laboratorio d'assedio</string>
     <string _locid="44587">Potenziamento leggendario per tutte le capanne da guerra.</string>
     <string _locid="44588">Capanna da guerra leggendaria</string>
     <string _locid="44589">Aenna leggendario</string>
     <string _locid="44590">Potenziamento leggendario per tutti i corral.</string>
     <string _locid="44591">Corral leggendario</string>
-    <string _locid="44592">Potenziamento leggendario per tutti i laboratori da assedio.</string>
-    <string _locid="44593">Laboratorio da assedio leggendario</string>
+    <string _locid="44592">Potenziamento leggendario per tutti i laboratori d'assedio.</string>
+    <string _locid="44593">Laboratorio d'assedio leggendario</string>
     <string _locid="44594">Cannone leggero leggendario</string>
     <string _locid="44595">Amicizia con la natura</string>
     <string _locid="44596">Converte i guardiani del tesoro.</string>
@@ -15402,7 +15406,7 @@
     <string _locid="44999">Tecnologie iniziali</string>
     <string _locid="45000">Tecnologie iniziali</string>
     <string _locid="45001">Artiglieria anti-edifici</string>
-    <string _locid="45002">Guerriero da assedio che muore quando attacca gli edifici, ma infligge notevoli danni.</string>
+    <string _locid="45002">Guerriero d'assedio che muore quando attacca gli edifici, ma infligge notevoli danni.</string>
     <string _locid="45003">Petardo</string>
     <string _locid="45004">AR Petardo</string>
     <string _locid="45005">Tecnologie iniziali</string>
@@ -15417,7 +15421,7 @@
     <string _locid="45014">Attacco e punti danno aumentati per tutte le unità corral. Richiede una piazza comunitaria.</string>
     <string _locid="45015">Campione corral</string>
     <string _locid="45016">Attacco e punti danno aumentati per arieti e mantelletti. Richiede una piazza comunitaria.</string>
-    <string _locid="45017">Campione laboratorio da assedio</string>
+    <string _locid="45017">Campione laboratorio d'assedio</string>
     <string _locid="45018">Attacco e punti danno aumentati per tutte le unità della capanna da guerra. Richiede una piazza comunitaria.</string>
     <string _locid="45019">Campione capanna da guerra</string>
     <string _locid="45020">Gli abitanti del villaggio raccolgono denaro più velocemente. Richiede una piazza comunitaria.</string>
@@ -15453,7 +15457,7 @@
     <string _locid="45050">Potenziamento leggendario per tutte le unità corral. Richiede una piazza comunitaria.</string>
     <string _locid="45051">Corral leggendario</string>
     <string _locid="45052">Potenziamento leggendario per tutti i laboratori d'assedio. Richiede una piazza comunitaria.</string>
-    <string _locid="45053">Laboratorio da assedio leggendario</string>
+    <string _locid="45053">Laboratorio d'assedio leggendario</string>
     <string _locid="45054">Potenziamento leggendario per tutte le unità della capanna da guerra. Richiede una piazza comunitaria.</string>
     <string _locid="45055">Capanna da guerra leggendaria</string>
     <string _locid="45056">Gli abitanti del villaggio raccolgono legname più velocemente. Richiede una piazza comunitaria.</string>
@@ -15488,7 +15492,7 @@
     <string _locid="45087">Il capo</string>
     <string _locid="45088">Attacco capo guerriero più potente e punti danno aumentati del 50%.</string>
     <string _locid="45089">Il capo</string>
-    <string _locid="45090">+10% capanna da guerra e dei nobili e 1 travois capanna da guerra.</string>
+    <string _locid="45090">+10% attacco e punti danno capanna da guerra e capanna dei nobili, e 1 Travois capanna dei nobili.</string>
     <string _locid="45091">L'anziano</string>
     <string _locid="45092">2 travois fattoria</string>
     <string _locid="45093">L'anziano</string>
@@ -15523,11 +15527,11 @@
     <string _locid="45122">Attacco e punti danno guerriero zapoteco aumentati.</string>
     <string _locid="45123">OMBRA Attacco all'arma bianca azteco</string>
     <string _locid="45124">Guerriero del fulmine d'élite</string>
-    <string _locid="45125">+10% capanna da guerra e dei nobili e 2 travois capanna da guerra.</string>
+    <string _locid="45125">+10% attacco e punti danno capanna da guerra e capanna dei nobili, e 2 Travois capanna dei nobili.</string>
     <string _locid="45126">L'anziano</string>
-    <string _locid="45127">+30% att/pd capanna da guerra e dei nobili e 2 travois capanna dei nobili.</string>
+    <string _locid="45127">+30% attacco e punti danno capanna da guerra e capanna dei nobili, e 2 Travois capanna dei nobili.</string>
     <string _locid="45128">L'anziano</string>
-    <string _locid="45129">+50% att/pd capanna da guerra e dei nobili e 2 travois capanna da guerra.</string>
+    <string _locid="45129">+50% attacco e punti danno capanna da guerra e capanna dei nobili, e 2 Travois capanna dei nobili.</string>
     <string _locid="45130">L'anziano</string>
     <string _locid="45131">400 unità di legname</string>
     <string _locid="45132">Il capo</string>
@@ -15973,7 +15977,7 @@
     <string _locid="45571" gamecharacter="Kuechler" soundfilename="XKUEC9060" portraitfilename="resources\art\units\spc\sven\sven_igc_icon.png">No... Non sarò mai sconfitto da te! No!</string>
     <string _locid="45572" gamecharacter="Kuechler" soundfilename="XKUEC9065" portraitfilename="resources\art\units\spc\sven\sven_igc_icon.png">Aaaarrrrgh!</string>
     <string _locid="45573" gamecharacter="Prigioniero haudenosaunee" soundfilename="XGENR9200">Gli Assiani mi tenevano prigioniero... grazie per avermi salvato.</string>
-    <string _locid="45574" gamecharacter="Prigioniero haudenosaunee" soundfilename="XGENR9205">La base principale degli Assiani è a nord. Sta riunendo un enorme esercito da assedio in gran segreto.</string>
+    <string _locid="45574" gamecharacter="Prigioniero haudenosaunee" soundfilename="XGENR9205">La base principale degli Assiani è a nord. Sta riunendo un enorme esercito d'assedio in gran segreto.</string>
     <string _locid="45575" gamecharacter="Prigioniero haudenosaunee" soundfilename="XGENR9210">Il Colonnello Kuechler intende avanzare col suo esercito a Morristown attraverso una rotta segreta in una palude a ovest. Vuole distruggere il Campidoglio!</string>
     <string _locid="45576" gamecharacter="Prigioniero haudenosaunee" soundfilename="XGENR9215">Ti mostrerò l'unica rotta per raggiungere l'esercito d'assedio di Kuechler prima che rada al suolo il campidoglio.</string>
     <string _locid="45577" gamecharacter="Washington" soundfilename="XWASH9115" portraitfilename="resources\art\units\spc\george_washington_x\george_washington_x_igc_icon.png">Ce l'hai fatta! Kuechler e i suoi Assiani sono sconfitti.</string>
@@ -16534,9 +16538,9 @@
     <string _locid="46141">Corsaro della Barberia del saloon</string>
     <string _locid="46142">Cavaliere nero del saloon</string>
     <string _locid="46143">Abitante</string>
-    <string _locid="46144">Laboratorio da assedio</string>
+    <string _locid="46144">Laboratorio d'assedio</string>
     <string _locid="46145">Abitante</string>
-    <string _locid="46146">Laboratorio da assedio</string>
+    <string _locid="46146">Laboratorio d'assedio</string>
     <string _locid="46147">Potere del capo</string>
     <string _locid="46148">PROP Potere del capo</string>
     <string _locid="46149">Trasporta cibo</string>
@@ -16797,13 +16801,13 @@
     <string _locid="46407" symbol="cStringMapControlWarning2">Vittoria per monopolio commerciale imminente!</string>
     <string _locid="46408" symbol="cStringMapControlWarning0">Vittoria per monopolio commerciale avviata!</string>
     <string _locid="46409">Abitante</string>
-    <string _locid="46410">Laboratorio da assedio</string>
+    <string _locid="46410">Laboratorio d'assedio</string>
     <string _locid="46411">Abitante</string>
-    <string _locid="46412">Laboratorio da assedio</string>
+    <string _locid="46412">Laboratorio d'assedio</string>
     <string _locid="46413">Abitante</string>
-    <string _locid="46414">Laboratorio da assedio</string>
+    <string _locid="46414">Laboratorio d'assedio</string>
     <string _locid="46415">Abitante</string>
-    <string _locid="46416">Laboratorio da assedio</string>
+    <string _locid="46416">Laboratorio d'assedio</string>
     <string _locid="46417">Schermagliatore veterano</string>
     <string _locid="46418">Cavaliere del teschio d'élite</string>
     <string _locid="46419">Cavaliere del teschio d'élite</string>
@@ -17120,7 +17124,7 @@
     <string _locid="46730" symbol="cStringDanceDescUnit04">edifici</string>
     <string _locid="46731" symbol="cStringDanceDescEffect01">punti danno</string>
     <string _locid="46732" symbol="cStringDanceDescEffect02">danno</string>
-    <string _locid="46733" symbol="cStringDanceDescEffect03">danno da assedio</string>
+    <string _locid="46733" symbol="cStringDanceDescEffect03">danno d'assedio</string>
     <string _locid="46734" symbol="cStringDanceDescEffect04">danni alle unità</string>
     <string _locid="46735" symbol="cStringDanceDesc04">Aumenta la %1s di %2s del %3.1f%%</string>
     <string _locid="46736" symbol="cStringDanceDesc05">Aumenta la %1s di %2s del %3d%%</string>
@@ -17291,7 +17295,7 @@
     <string _locid="46901">Riforme militari</string>
     <string _locid="46902">La spedizione delle scazzottate è arrivata.</string>
     <string _locid="46903">Artiglieria anti-edifici</string>
-    <string _locid="46904">Guerriero da assedio che muore quando attacca gli edifici, ma infligge notevoli danni.</string>
+    <string _locid="46904">Guerriero d'assedio che muore quando attacca gli edifici, ma infligge notevoli danni.</string>
     <string _locid="46905">Petardo alla nitroglicerina</string>
     <string _locid="46906">AR Nitroglicerina petardi</string>
     <string _locid="46907">Squadra di demolizione</string>
@@ -17318,7 +17322,7 @@
     <string _locid="46928">Attiva simultaneamente tutti i potenziamenti (pulsanti grandi) di tutti gli edifici, tranne Ricognizione, Incursione e Squadra d'assalto.</string>
     <string _locid="46929">Vecchie maniere</string>
     <string _locid="46930">La spedizione dell'artiglieria avanzata è arrivata.</string>
-    <string _locid="46931">Laboratorio da assedio</string>
+    <string _locid="46931">Laboratorio d'assedio</string>
     <string _locid="46932">Vecchie maniere</string>
     <string _locid="46933">Notevole riduzione dei prezzi per tutti i potenziamenti speciali (pulsante grande). </string>
     <string _locid="46934">La spedizione delle vecchie strade è arrivata.</string>
@@ -17356,7 +17360,7 @@
     <string _locid="46966">2 artiglieri a cavallo</string>
     <string _locid="46967">3 artiglieri a cavallo</string>
     <string _locid="46968">1 cannone pesante + 4 ulani</string>
-    <string _locid="46969">10 rodeleros</string>
+    <string _locid="46969">14 rodeleros</string>
     <string _locid="46970">6 granatieri</string>
     <string _locid="46971">8 alabardieri</string>
     <string _locid="46972">7 arcieri a cavallo</string>
@@ -17411,7 +17415,7 @@
     <string _locid="47021" gamecharacter="Operaio della ferrovia" soundfilename="XGENR9292" portraitfilename="resources\art\units\spc\miner\miner_portrait.png">Salvaci!</string>
     <string _locid="47022" gamecharacter="Operaio della ferrovia" soundfilename="XGENR9293" portraitfilename="resources\art\units\spc\miner\miner_portrait.png">Corri alla città!</string>
     <string _locid="47023" gamecharacter="Operaio della ferrovia" soundfilename="XGENR9294" portraitfilename="resources\art\units\spc\miner\miner_portrait.png">Aiuto!</string>
-    <string _locid="47024">I tuoi missionari potenziano l'attacco dei soldati circostanti.</string>
+    <string _locid="47024">Ora i tuoi missionari potenziano l'attacco della fanteria e della cavalleria circostante.</string>
     <string _locid="47025">Unzione</string>
     <string _locid="47026">La spedizione dell'ammiragliato è arrivata.</string>
     <string _locid="47027">La spedizione dell'unzione è arrivata.</string>
@@ -17636,7 +17640,7 @@
     <string _locid="47246">La spedizione della disciplina dell'assedio è arrivata.</string>
     <string _locid="47247">Tutte le truppe dei laboratori di assedio costano meno unità di popolazione.</string>
     <string _locid="47248">7 mantelletti</string>
-    <string _locid="47249">Tutte le armi da assedio haudenosaunee infliggono danni maggiori e hanno più punti danno.</string>
+    <string _locid="47249">Tutte le armi d'assedio haudenosaunee infliggono danni maggiori e hanno più punti danno.</string>
     <string _locid="47250">Combattimento con assedio</string>
     <string _locid="47251">La spedizione della disciplina dell'assedio è arrivata.</string>
     <string _locid="47252">Colonnello Washington</string>
@@ -17904,7 +17908,7 @@
     <string _locid="47522">Il tesoro di Cuauhtemoc non si trova in fondo al lago. Non fare caso a quando dirà questo al nemico.</string>
     <string _locid="47523">Gli déi apprezzano il sangue che Cuauhtemoc ha versato per loro. La vittoria ci arriderà presto.</string>
     <string _locid="47524">Ai potenti Aztechi non serve artiglieria. Ma a te sì.</string>
-    <string _locid="47525">A te serviranno armi da assedio per distruggere il nemico. Crea l'artiglieria.</string>
+    <string _locid="47525">A te serviranno armi d'assedio per distruggere il nemico. Crea l'artiglieria.</string>
     <string _locid="47526">Addestra altra cavalleria. Ai guerrieri di Cuauhtemoc piace lo strano cervo senza corna.</string>
     <string _locid="47527">I potenti Aztechi inseguono i nemici a piedi. Ma se tu vuoi fare altrettanto, dovrai addestrare la cavalleria.</string>
     <string _locid="47528">Stai sprecando sangue in quella battaglia... ti serve più fanteria.</string>
@@ -18298,7 +18302,7 @@
     <string _locid="47930">Non temere per me, o alleato. Dolore e sofferenza non ci attenderanno più!</string>
     <string _locid="47931">Per le acque cristalline e le praterie erbose, vinceremo in meno di un minuto.</string>
     <string _locid="47932">Nei miei pensieri alberga la vendetta, ma in cuor mio so che è più utile continuare l'assedio.</string>
-    <string _locid="47933">Sarebbe davvero un successo se tu riuscissi a portare altre armi da assedio nella battaglia.</string>
+    <string _locid="47933">Sarebbe davvero un successo se tu riuscissi a portare altre armi d'assedio nella battaglia.</string>
     <string _locid="47934">In questi giorni di spiriti malevoli, i campi di battaglia ti richiedono altri cavalieri.</string>
     <string _locid="47935">Continuiamo a combattere con solennità ma ti chiediamo altri guerrieri a cavallo.</string>
     <string _locid="47936">Quando parlo al nemico lui trema; la battaglia richiede altri guerrieri a piedi.</string>
@@ -18326,7 +18330,7 @@
     <string _locid="47958">Sulla mia nazione, sul mio onore, sì.</string>
     <string _locid="47959">Sia, anche se ci troviamo sotto pressione.</string>
     <string _locid="47960">Sì, le fucine ardano, l'assedio sia portato.</string>
-    <string _locid="47961">Fabbricherò le armi da assedio che chiedi, alleato.</string>
+    <string _locid="47961">Fabbricherò le armi d'assedio che chiedi, alleato.</string>
     <string _locid="47962">Sì, i nostri cavalieri piegheranno i fili d'erba.</string>
     <string _locid="47963">Tu chiedi cavalieri, e cavalieri ti darò!</string>
     <string _locid="47964">Osservo con cipiglio. I tuoi cavalieri stanno arrivando.</string>
@@ -18800,9 +18804,9 @@
     <string _locid="48447">Nome ladder</string>
     <string _locid="48448">Ande: lotta per il controllo sul commercio e sugli alleati nativi ai piedi delle imponenti montagne delle Ande.\n\nInsediamenti: Quechua, Mapuche, Zapotechi\nFuorilegge: pistolero, renegado</string>
     <string _locid="48449">Abitante</string>
-    <string _locid="48450">Laboratorio da assedio</string>
+    <string _locid="48450">Laboratorio d'assedio</string>
     <string _locid="48451">Abitante</string>
-    <string _locid="48452">Laboratorio da assedio</string>
+    <string _locid="48452">Laboratorio d'assedio</string>
     <string _locid="48453">Il Rivoluzionario</string>
     <string _locid="48454">I Lakota</string>
     <string _locid="48455">Artiglieria pesante</string>
@@ -18821,7 +18825,7 @@
     <string _locid="48468">Schermagliatore cherokee per attacchi di precisione a lunga gittata.</string>
     <string _locid="48469">Fuciliere cherokee</string>
     <string _locid="48470">NAT MERC Fuciliere cherokee</string>
-    <string _locid="48471">Unità da assedio dei Nativi</string>
+    <string _locid="48471">Unità d'assedio dei Nativi</string>
     <string _locid="48472">Unità d'assedio haudenosaunee a corta gittata.</string>
     <string _locid="48473">Mantelletto haudenosaunee</string>
     <string _locid="48474">NAT MERC Mantelletto haudenosaunee</string>
@@ -18850,8 +18854,8 @@
     <string _locid="48497">Arciere a cavallo d'élite</string>
     <string _locid="48498">Cacciatore cree d'élite</string>
     <string _locid="48499">Guida d'élite</string>
-    <string _locid="48500">Unità da assedio dei Nativi</string>
-    <string _locid="48501">Unità da assedio urone a corta gittata.</string>
+    <string _locid="48500">Unità d'assedio dei Nativi</string>
+    <string _locid="48501">Unità d'assedio urone a corta gittata.</string>
     <string _locid="48502">Mantelletto urone</string>
     <string _locid="48503">NAT MERC Mantelletto urone</string>
     <string _locid="48504">Mantelletto urone d'élite</string>
@@ -19139,7 +19143,7 @@
     <string _locid="48821">Tecnologie iniziali PI</string>
     <string _locid="48822">Travois città</string>
     <string _locid="48823">Gioca una storia della campagna immaginaria.</string>
-    <string _locid="48824">Laboratorio da assedio</string>
+    <string _locid="48824">Laboratorio d'assedio</string>
     <string _locid="48825">Eroe lakota</string>
     <string _locid="48826">Figlio mezzo lakota di Amelia Black.</string>
     <string _locid="48827">Chayton Black</string>
@@ -19243,7 +19247,7 @@
     <string _locid="48925" symbol="cStringCommunityPlazaGatherWarning">Solo %1d unità per volta possono essere occupate con %2s.</string>
     <string _locid="48926">Fonte di denaro.</string>
     <string _locid="48927">1600 unità di denaro</string>
-    <string _locid="48928">La spedizione di punti danno da assedio è arrivata.</string>
+    <string _locid="48928">La spedizione di punti danno d'assedio è arrivata.</string>
     <string _locid="48929">La spedizione della casa grande è arrivata.</string>
     <string _locid="48930" symbol="cStringSupTrPlayerRankTT">Livello giocatore trattato Supremazia: %1s (Livello %2s)</string>
     <string _locid="48931" symbol="cStringSupTrTotalXPTT">Totale PE trattato Supremazia: %s</string>
@@ -19882,7 +19886,7 @@
     <string _locid="49566">Visualizza aspetto esploratore</string>
     <string _locid="49567">Seleziona questa opzione per applicare le modifiche cosmetiche o del nome dell'esploratore.</string>
     <string _locid="49568">Seleziona per iniziare la prossima sfida!</string>
-    <string _locid="49569">Esploratore (predefinito)\nQuesta è la versione predefinita dell'esploratore.</string>
+    <string _locid="49569">Principe (predefinito)\nQuesta è la versione predefinita del principe.</string>
     <string _locid="49570">Imperatore Teodoro\nL'imperatore Teodoro in abiti da caccia, in sella al suo stallone bianco con finimenti dorati decorati.</string>
     <string _locid="49571">Usman dan Fodio\nUsman dan Fodio in abiti da viaggio e con un bastone, in sella al suo cammello del deserto caricato di pergamene e altri beni.</string>
     <string _locid="49572">Sblocca questa personalizzazione dell'esploratore completando tutte le sfide dell'evento African Royal.</string>
@@ -19992,7 +19996,7 @@
     <string _locid="49676">Sblocco mod: Ussaro alato.</string>
     <string _locid="49677">Infliggi 2.013 danni a qualsiasi unità di fanteria in una partita schermaglia giocatore singolo o multigiocatore.</string>
     <string _locid="49678">Sblocco icona profilo: Guerriero giaguaro di AoE2.</string>
-    <string _locid="49679">Infliggi 2.019 danni con le unità Elefanti in una partita schermaglia giocatore singolo o multigiocatore (mahout, howdah, flagelefante, elefante da assedio, elefante da guerra, Aiz l'elefante addomesticato).</string>
+    <string _locid="49679">Infliggi 2.019 danni con le unità Elefanti in una partita schermaglia giocatore singolo o multigiocatore (mahout, howdah, flagelefante, elefante d'assedio, elefante da guerra, Aiz l'elefante addomesticato).</string>
     <string _locid="49680">Sblocco icona profilo: Elefante da guerra persiano di AoE2.</string>
     <string _locid="49681">Addestra 10 petardi in una partita schermaglia giocatore singolo o multigiocatore.</string>
     <string _locid="49682">Sblocco icona profilo: Petardo con occhiali da sole.</string>
@@ -20012,8 +20016,9 @@
     <string _locid="49696">Sblocca questa personalizzazione del capo guerriero completando le sfide dell'evento festeggiamento AoE2DE.</string>
     <string _locid="49697">Montezuma</string>
     <string _locid="49698">Tonatiuh</string>
-    <string _locid="49699">Modalità Economia</string>
-    <string _locid="49700">Modalità Economia: i giocatori sono in gara per ottenere il punteggio economico più alto. Per vincere in questa modalità di gioco, concentrati su: sviluppare la tua economia addestrando unità e costruendo edifici. Raccogli risorse, avanza d'età e migliora la tua tecnologia. Puoi anche completare delle sfide economiche per aumentare il tuo punteggio.</string>
+    <string _locid="49699">Economia</string>
+    <string _locid="49700">
+    </string>
     <string _locid="49701">Sblocco icona profilo: Abitante del villaggio donna di AoE2.</string>
     <string _locid="49702">Personalizzazione capo guerriero: Montezuma.</string>
     <string _locid="49703">Personalizzazione capo guerriero: Tonatiuh.</string>
@@ -20211,13 +20216,13 @@
     <string _locid="49895">Vai su https://discord.com/invite/ageofempires/login</string>
     <string _locid="49896">Supporto</string>
     <string _locid="49897">Trova aiuto sui nostri forum.</string>
-    <string _locid="49898">Visita https://forums.ageofempires.com/c/age-of-empires-iii/133</string>
+    <string _locid="49898">Visita: https://aoe.ms/AoE3DEForums</string>
     <string _locid="49899">Forum</string>
     <string _locid="49900">Controlla le ultime novità sui nostri forum.</string>
-    <string _locid="49901">Visita https://support.ageofempires.com/hc/categories/360004101511-Age-of-Empires-III-Definitive-Edition</string>
+    <string _locid="49901">Visita: https://aoe.ms/AoE3DEFAQ</string>
     <string _locid="49902">Segnala un problema</string>
     <string _locid="49903">Segnala un bug sui nostri forum.</string>
-    <string _locid="49904">Visita https://support.ageofempires.com/hc/articles/360048537332-Reporting-an-Issue</string>
+    <string _locid="49904">Visita: https://aoe.ms/AoE3DEReportIssue</string>
     <string _locid="49905">Evento Capodanno lunare: 2022</string>
     <string _locid="49906">Evento Capodanno lunare: 2021</string>
     <string _locid="49907">Anno della tigre</string>
@@ -20305,6 +20310,126 @@
     <string _locid="49985">Sfide aggiuntive selezionate dal giocatore.</string>
     <string _locid="49986">Seleziona sfide aggiuntive</string>
     <string _locid="49987">Sfide selezionate: {0}/{1}</string>
+    <string _locid="49988">Evento internazionale femminile</string>
+    <string _locid="49989">Sblocco icona profilo: una guerriera amazzone dahomey con occhiali da sole viola.</string>
+    <string _locid="49990">Costruisci 20 torp giocando nei panni degli Svedesi in una singola partita schermaglia o multigiocatore.</string>
+    <string _locid="49991">Sblocco icona profilo: regina Cristina di Svezia.</string>
+    <string _locid="49992">Vinci una partita schermaglia giocatore singolo o multigiocatore nei panni di una qualsiasi civiltà nativa. (Haudenosaunee, Lakota, Inca, Aztechi, Hausa, Etiopi)</string>
+    <string _locid="49993">Sblocca il trucco: "Granny Nanny", tutti gli abitanti del villaggio si trasformano in amazzoni dahomey.</string>
+    <string _locid="49994">Guarisci 1.000 PD usando i manieri con la spedizione di Florence Nightingale dalla città madre in una qualsiasi quantità di partite schermaglia o multigiocatore.</string>
+    <string _locid="49995">Sblocco icona profilo: esploratrice.</string>
+    <string _locid="49996">Costruisci 50 manieri, case, case-villaggio, villaggi, santuari o kancha in una qualsiasi quantità di partite schermaglia o multigiocatore.</string>
+    <string _locid="49997">Sblocco personalizzazione esploratore britannico: Elisabet Ramsey.</string>
+    <string _locid="49998">Invia le spedizioni dalla città madre del daimyo Mototada, del daimyo Kiyomasa e dello shogun Tokugawa in una qualsiasi quantità di partite schermaglia o multigiocatore.</string>
+    <string _locid="49999">Sblocco icona profilo: Nakano Takeko.</string>
+    <string _locid="55000">Infliggi 10.000 danni con qualsiasi tipo di elefante indiano. (Lanciere mahout, howdah, flagelefante, elefante d'assedio o unità mansabdar)</string>
+    <string _locid="55001">Sblocco icona profilo: Rani Lakshmibai.</string>
+    <string _locid="55002">Costruisci 3 fabbriche giocando nei panni dei Britannici in una qualsiasi quantità di partite schermaglia o multigiocatore.</string>
+    <string _locid="55003">Sblocco icona profilo: Ada Lovelace.</string>
+    <string _locid="55004">Ada Lovelace</string>
+    <string _locid="55005">Affascinata dalle macchine e considerata la prima programmatrice di computer, la contessa di Lovelace ha fatto i conti per risolvere i problemi più difficili. Ada Lovelace ha ereditato il fascino del suo romantico padre Lord Byron ed è equipaggiata con una pistola prototipo dall'algoritmo mortale. Lascerà un ricordo indelebile.</string>
+    <string _locid="55006">Sblocca questa personalizzazione completando le sfide dell'evento internazionale femminile.</string>
+    <string _locid="55007">Tempo: {0}/00:{1}:00</string>
+    <string _locid="55008">Obiettivo punteggio: {0}</string>
+    <string _locid="55009">Sblocco icona profilo: esploratrice invernale.</string>
+    <string _locid="55010">Sblocco personalizzazione esploratore britannico: Ada Lovelace.</string>
+    <string _locid="55011">Lizzie la piratessa</string>
+    <string _locid="55012">Sebbene sia cresciuta alla corte di un nobile inglese, Elisabet Ramsey preferisce essere un bucaniere nei Caraibi agendo con... o senza... la lettera di corsa di Sua Maestà.</string>
+    <string _locid="55013">Esploratore (predefinito)\nQuesta è la versione predefinita dell'esploratore.</string>
+    <string _locid="55014" symbol="cStringOldReplayWarning">Attenzione: questo replay è stato registrato in una versione precedente del gioco. Sfortunatamente, ciò aumenta la possibilità che non sia sincronizzato.</string>
+    <string _locid="55015">Pericolo</string>
+    <string _locid="55016">Attacca qui</string>
+    <string _locid="55017">Aiuta qui</string>
+    <string _locid="55018">Sorveglia qui</string>
+    <string _locid="55019">{0} ha avvisato del pericolo in quest'area.</string>
+    <string _locid="55020">{0} ha chiesto di attaccare in quest'area.</string>
+    <string _locid="55021">{0} ha richiesto assistenza in quest'area.</string>
+    <string _locid="55022">{0} ha avvisato di sorvegliare questa zona.</string>
+    <string _locid="55023">Selezionare un'opzione.</string>
+    <string _locid="55024">Ping di comunicazione</string>
+    <string _locid="55025">Apre un menu circolare con un assortimento di opzioni come: Pericolo, Attacca qui, Aiuta qui e Sorveglia qui.</string>
+    <string _locid="55026">Impostazioni Beta</string>
+    <string _locid="55027">Tutte le impostazioni Beta riportate di seguito possono causare problemi, per esempio nella grafica e nelle prestazioni.</string>
+    <string _locid="55028">Segnale di avviso luminoso (Beta): fai clic su questo pulsante e poi fai clic sul mondo o sulla mini-mappa per inviare un segnale di avviso luminoso.</string>
+    <string _locid="55029">Seleziona il tipo di segnale luminoso</string>
+    <string _locid="55030">Evento primaverile</string>
+    <string _locid="55031">Sblocco icona profilo: chiosco dei fiori.</string>
+    <string _locid="55032">Sviluppa la festa dei ciliegi in fiore nei panni dei Giapponesi.</string>
+    <string _locid="55033">Sblocco icona profilo: un uccello canterino appollaiato su un ramo in fiore.</string>
+    <string _locid="55034">Vinci una partita schermaglia o multigiocatore nei panni degli Etiopi.</string>
+    <string _locid="55035">Sblocco icona profilo: un caleidoscopio di farfalle che volano insieme.</string>
+    <string _locid="55036">Costruisci 40 fattorie, campi, mulini o risaie in qualsiasi quantità di partite schermaglie o multigiocatore.</string>
+    <string _locid="55037">Sblocca personalizzazione esploratore spagnolo: Abitante del villaggio eroica.</string>
+    <string _locid="55038">Raccogli 10.000 unità di fiori in qualsiasi quantità di partite di schermaglia o multigiocatore. (casse di risorse)</string>
+    <string _locid="55039">Sblocco icona profilo: capibara che indossa una corona di fiori.</string>
+    <string _locid="55040">Invia 30 spedizioni dalla tua città madre in qualsiasi quantità di partite schermaglie o multigiocatore.</string>
+    <string _locid="55041">Sblocca personalizzazione esploratore spagnolo: Ballando il flamenco.</string>
+    <string _locid="55042">Seleziona una personalità virtuale per giocare in collaborativa.</string>
+    <string _locid="55043">Ballando il flamenco</string>
+    <string _locid="55044">Ballando il flamenco\nCresciuta sotto il sole cocente dell'Andalusia, questa ballerina di flamenco ha imbrigliato la fiamma ed è determinata a eseguire la sua danza infuocata nella base di legno del tuo nemico.</string>
+    <string _locid="55045">Abitante del villaggio eroica</string>
+    <string _locid="55046">Abitante del villaggio eroica\nQuesta eroica abitante spagnola sa come ripristinare la tua supremazia! Se la tua città o il tuo villaggio sono sotto attacco, puoi contare su di lei.</string>
+    <string _locid="55047">Sblocca questa personalizzazione completando le sfide dell'evento primavera.</string>
+    <string _locid="55500">
+    </string>
+    <string _locid="55501">
+    </string>
+    <string _locid="55502">
+    </string>
+    <string _locid="55503">
+    </string>
+    <string _locid="55504">
+    </string>
+    <string _locid="55505">
+    </string>
+    <string _locid="55506">
+    </string>
+    <string _locid="55507">
+    </string>
+    <string _locid="55508">
+    </string>
+    <string _locid="55509">
+    </string>
+    <string _locid="55510">
+    </string>
+    <string _locid="55511">
+    </string>
+    <string _locid="55512">
+    </string>
+    <string _locid="55513">
+    </string>
+    <string _locid="55514">
+    </string>
+    <string _locid="55515">Scaduto</string>
+    <string _locid="55516">
+    </string>
+    <string _locid="55517">
+    </string>
+    <string _locid="55518">
+    </string>
+    <string _locid="55519">
+    </string>
+    <string _locid="55520">
+    </string>
+    <string _locid="55521">
+    </string>
+    <string _locid="55522">
+    </string>
+    <string _locid="55523">
+    </string>
+    <string _locid="55524">
+    </string>
+    <string _locid="55525">
+    </string>
+    <string _locid="55526">
+    </string>
+    <string _locid="55527">
+    </string>
+    <string _locid="55528">
+    </string>
+    <string _locid="55529">(Nessun embargo)</string>
+    <string _locid="55530">(Embargo)</string>
+    <string _locid="55531">{0} è ora disponibile nel browser delle mod!</string>
     <string _locid="60001" symbol="cStringCivNameJapanese">Giapponese</string>
     <string _locid="60002" symbol="cStringCivNameChinese">Cinese</string>
     <string _locid="60003" symbol="cStringCivNameIndians">Indiani</string>
@@ -20410,7 +20535,7 @@
     <string _locid="60103">Capo religioso che stordisce i guardiani del tesoro e può infliggere danni con un castigo divino in combattimento. Esplora, combatte, costruisce centri città, basi commerciali e reliquiari.</string>
     <string _locid="60104">Arciere sohei</string>
     <string _locid="60105">MON Arciere sohei</string>
-    <string _locid="60106">Fante corpo a corpo mercenario</string>
+    <string _locid="60106" symbol="cStringHandInfantryMerc">Mercenario di fanteria corpo a corpo</string>
     <string _locid="60107">Samurai mercenario giapponese.</string>
     <string _locid="60108">Ronin</string>
     <string _locid="60109">FAN Ronin</string>
@@ -20440,8 +20565,8 @@
     <string _locid="60133">CAV Howdah</string>
     <string _locid="60134">Artiglieria leggera</string>
     <string _locid="60135">Artiglieria leggera. Più efficace contro la fanteria che contro gli edifici.</string>
-    <string _locid="60136">Elefante da assedio</string>
-    <string _locid="60137">AR Elefante da assedio</string>
+    <string _locid="60136">Elefante d'assedio</string>
+    <string _locid="60137">AR Elefante d'assedio</string>
     <string _locid="60138">Fanteria corpo a corpo veloce, efficace contro la cavalleria e le costruzioni</string>
     <string _locid="60139">Fanteria veloce con guanti spadati. Efficace contro la cavalleria e gli edifici.</string>
     <string _locid="60140">Rajput</string>
@@ -20487,7 +20612,7 @@
     <string _locid="60180">Martello meteora</string>
     <string _locid="60181">CAV Martello meteora</string>
     <string _locid="60182">Artiglieria anti-edifici</string>
-    <string _locid="60183">Guerriero da assedio. Efficace contro gli edifici.</string>
+    <string _locid="60183">Guerriero d'assedio. Efficace contro gli edifici.</string>
     <string _locid="60184">Ariete d'élite</string>
     <string _locid="60185">AR Ariete</string>
     <string _locid="60186">Artiglieria leggera</string>
@@ -20538,11 +20663,11 @@
     <string _locid="60231">Accademia di guerra</string>
     <string _locid="60232">Edificio per l'artiglieria</string>
     <string _locid="60233">Addestra e potenzia l'artiglieria.</string>
-    <string _locid="60234">Laboratorio da assedio</string>
+    <string _locid="60234">Laboratorio d'assedio</string>
     <string _locid="60235">Edificio per la fanteria</string>
     <string _locid="60236">Addestra e potenzia la fanteria da corpo a corpo e da tiro.</string>
     <string _locid="60237">Caserma</string>
-    <string _locid="60238">Laboratorio da assedio cinese</string>
+    <string _locid="60238">Laboratorio d'assedio cinese</string>
     <string _locid="60239">Fanteria a distanza di breve durata</string>
     <string _locid="60240">Difensore asiatico ad addestramento rapido che perde rapidamente punti danno, diventando via via meno efficace.</string>
     <string _locid="60241">Irregolare</string>
@@ -20645,8 +20770,8 @@
     <string _locid="60338">FAN Shinobi</string>
     <string _locid="60339">Artiglieria anti-artiglieria</string>
     <string _locid="60340">Artiglieria leggera. Efficace contro altre unità d'artiglieria.</string>
-    <string _locid="60341">Elefante da assedio</string>
-    <string _locid="60342">AR Elefante da assedio</string>
+    <string _locid="60341">Elefante d'assedio</string>
+    <string _locid="60342">AR Elefante d'assedio</string>
     <string _locid="60343">Fonte di cibo.</string>
     <string _locid="60344">Cassa con 400 unità di cibo</string>
     <string _locid="60345">SQUADRA Fonte di cibo.</string>
@@ -20834,10 +20959,10 @@
     <string _locid="60527">Howdah esperto</string>
     <string _locid="60528">Mahout esperto</string>
     <string _locid="60529">Howdah esperto</string>
-    <string _locid="60530">Promuove gli elefanti da assedio al rango di esperti.</string>
-    <string _locid="60531">Elefanti da assedio esperti</string>
+    <string _locid="60530">Promuove gli elefanti d'assedio al rango di esperti.</string>
+    <string _locid="60531">Elefanti d'assedio esperti</string>
     <string _locid="60532">Howdah esperti</string>
-    <string _locid="60533">Elefante da assedio esperto</string>
+    <string _locid="60533">Elefante d'assedio esperto</string>
     <string _locid="60534">Guardiano del tesoro</string>
     <string _locid="60535">Sconfiggi questo guardiano per recuperare il tesoro.</string>
     <string _locid="60536">Contrabbandiere</string>
@@ -21067,7 +21192,7 @@
     <string _locid="60760">Guaritori esperti</string>
     <string _locid="60761">Gli animali domestici vicino ai tuoi monaci ottengono attacco e danni migliorati. Permette ai monaci di addestrare tigri bianche + 1 abitante.</string>
     <string _locid="60762">Aura animale</string>
-    <string _locid="60763">Danni da assedio dei monaci aumentati + 1 abitante.</string>
+    <string _locid="60763">Danni d'assedio dei monaci aumentati + 1 abitante.</string>
     <string _locid="60764">Violenza</string>
     <string _locid="60765">Artiglieria pesante</string>
     <string _locid="60766">Potente artiglieria pesante dalle fonderie coreane.</string>
@@ -21804,7 +21929,7 @@
     <string _locid="61496">2 howdah + 1 abitante</string>
     <string _locid="61497">3 howdah + 1 abitante</string>
     <string _locid="61498">SQUADRA 3 howdah + 1 abitante</string>
-    <string _locid="61499">2 elefanti da assedio + 1 abitante</string>
+    <string _locid="61499">2 elefanti d'assedio + 1 abitante</string>
     <string _locid="61500">3 elef.  assedio + 1 abit.</string>
     <string _locid="61501">Squadra di elefanti</string>
     <string _locid="61502">Squadra di cammelli</string>
@@ -21838,7 +21963,7 @@
     <string _locid="61530">2 corvi volanti</string>
     <string _locid="61531">3 corvi volanti</string>
     <string _locid="61532">2 corvi volanti</string>
-    <string _locid="61533">SQUADRA 2 elefanti da assedio + 1 abitante</string>
+    <string _locid="61533">SQUADRA 2 elefanti d'assedio + 1 abitante</string>
     <string _locid="61534">Armatura e punti danno del flagello di ferro e del martello meteora aumentati.</string>
     <string _locid="61535">Armatura double-face</string>
     <string _locid="61536">La spedizione dei danni della fanteria è arrivata.</string>
@@ -21948,7 +22073,7 @@
     <string _locid="61640">SQUADRA È stata ricevuta la spedizione di 2 kensei.</string>
     <string _locid="61641">SQUADRA È stata ricevuta la spedizione di 2 mahout.</string>
     <string _locid="61642">SQUADRA È stata ricevuta la spedizione di 2 rajput.</string>
-    <string _locid="61643">SQUADRA È stata ricevuta la spedizione di 1 elefante da assedio.</string>
+    <string _locid="61643">SQUADRA È stata ricevuta la spedizione di 1 elefante d'assedio.</string>
     <string _locid="61644">SQUADRA È stata ricevuta la spedizione di 1 carro-base commerciale.</string>
     <string _locid="61645">SQUADRA È stata ricevuta la spedizione di 2 urumi.</string>
     <string _locid="61646">SQUADRA È stata ricevuta la spedizione di 3 zamburak.</string>
@@ -22060,8 +22185,8 @@
     <string _locid="61752">Capra</string>
     <string _locid="61753">Artiglieria su elefanti, efficace contro l'artiglieria e gli edifici</string>
     <string _locid="61754">Elefante munito di un cannone. Efficace contro l'artiglieria e gli edifici.</string>
-    <string _locid="61755">Elefante da assedio</string>
-    <string _locid="61756">AR Elefante da assedio</string>
+    <string _locid="61755">Elefante d'assedio</string>
+    <string _locid="61756">AR Elefante d'assedio</string>
     <string _locid="61757">Picchiere qiang disciplinato</string>
     <string _locid="61758">Archibugiere disciplinato</string>
     <string _locid="61759">Picchiere qiang esperto</string>
@@ -22096,7 +22221,7 @@
     <string _locid="61787">La spedizione del costo dell'elefante è arrivata.</string>
     <string _locid="61788">Potenzia a dojo di Kendo, aumentando i punti danno del dojo e riducendone il tempo di addestramento delle unità.</string>
     <string _locid="61789">Dojo di Kendo</string>
-    <string _locid="61790">Gli howdah, i mahout e gli elefanti da assedio sono disponibili un'età in anticipo. + 1 abitante.</string>
+    <string _locid="61790">Gli howdah, i mahout e gli elefanti d'assedio sono disponibili un'età in anticipo. + 1 abitante.</string>
     <string _locid="61791">Elefanti precoci</string>
     <string _locid="61792">SQUADRA Consente di disporre di schermagliatori nell'età del commercio.</string>
     <string _locid="61793">Dojo di Kendo</string>
@@ -22737,7 +22862,7 @@
     <string _locid="62428">La spedizione delle tecniche del legno è arrivata.</string>
     <string _locid="62429" symbol="cStringCivRolloverJapanese">&lt;color=1.0, 1.0, 0.0&gt;Bonus civiltà:&lt;/color&gt;\nGli abitanti del villaggio non possono cacciare. I reliquiari attirano gli animali per generare risorse.\n&lt;color=1.0, 1.0, 0.0&gt;Unità riservate:&lt;/color&gt;\nMoschettiere ashigaru, atakebune, daimyo, freccia infuocata, fune, arciere sohei, morutaru, cavaliere con naginata, tekkousen, samurai, yabusame e arciere yumi.\n&lt;color=1.0, 1.0, 0.0&gt;Edifici riservati:&lt;/color&gt;\nIl ciliegeto è una fonte di cibo. Il dojo genera eserciti automaticamente e i reliquiari sono case giapponesi.\n&lt;color=1.0, 1.0, 0.0&gt;Meraviglie:&lt;/color&gt;\nPadiglione d'oro, grande Buddha, lo shogunato, cancelli Torii e reliquiario di Toshogu\n\nDiscendenti della civiltà Yamato che risiedeva nelle isole del Giappone e in altre parti dell'Asia nel lontano Oriente. La civiltà giapponese ora è sotto il controllo dello shogunato Tokugawa che ha unificato il paese.</string>
     <string _locid="62430" symbol="cStringCivRolloverChinese">&lt;color=1.0, 1.0, 0.0&gt;Bonus civiltà:&lt;/color&gt;\nPuò raggiungere una popolazione di 220. Addestra armate presso l'accademia di guerra.\n&lt;color=1.0, 1.0, 0.0&gt;Unità riservate:&lt;/color&gt;\nArchibugiere, spadaccini changdao, chu ko nu, discepolo, giunca incendiaria, lanciafiamme, corvo volante, fuchuan, mortaio a mano, flagello di ferro, keshik, martello meteora, picchieri qiang, maestro shaolin, cavaliere della steppa e giunca da guerra.\n&lt;color=1.0, 1.0, 0.0&gt;Edifici riservati:&lt;/color&gt;\nL'accademia di guerra è un'unione tra caserme e scuderie. Il villaggio supporta 20 unità di popolazione e fa ingrassare il bestiame.\n&lt;color=1.0, 1.0, 0.0&gt;Meraviglie:&lt;/color&gt;\nAccademia confuciana, torre di porcellana, palazzo estivo, tempio del Paradiso e pagoda bianca\n\nLa dinastia Qing è nota per essere stato il quinto impero più vasto nella storia mondiale. I Cinesi organizzarono un sistema di "bandiere", ovvero delle unità sociali militari che includevano unità manciù, han e mongole.</string>
-    <string _locid="62431" symbol="cStringCivRolloverIndians">&lt;color=1.0, 1.0, 0.0&gt;Bonus civiltà:&lt;/color&gt;\nLa maggior parte delle spedizioni ti conferirà ulteriori abitanti del villaggio. Gli abitanti del villaggio costano legname, non cibo e non possono raccogliere cibo dal bestiame.\n&lt;color=1.0, 1.0, 0.0&gt;Unità riservate:&lt;/color&gt;\nBramino, flagelefante, gurkha, howdah, lanciere mahout, rajput, elefante da assedio, sepoy, sowar e zamburak.\n&lt;color=1.0, 1.0, 0.0&gt;Costruzioni riservate:&lt;/color&gt;\nIl campo consacrato genera più esperienza quando si occupa del bestiame e addestra mucche. Il boschetto di manghi è una fonte di legname. Il caravanserraglio svolge un ruolo simile alle scuderie.\n&lt;color=1.0, 1.0, 0.0&gt;Meraviglie:&lt;/color&gt;\nForte di Agra, cancello di Charminar, Karni Mata, Taj Mahal, torre della vittoria\n\nL'Impero Mughal fu uno dei primi imperi moderni dell'Asia meridionale. Era noto come uno dei più grandi imperi della storia dell'Asia meridionale.</string>
+    <string _locid="62431" symbol="cStringCivRolloverIndians">&lt;color=1.0, 1.0, 0.0&gt;Bonus civiltà:&lt;/color&gt;\nLa maggior parte delle spedizioni ti conferirà ulteriori abitanti del villaggio. Gli abitanti del villaggio costano legname, non cibo e non possono raccogliere cibo dal bestiame.\n&lt;color=1.0, 1.0, 0.0&gt;Unità riservate:&lt;/color&gt;\nBramino, flagelefante, gurkha, howdah, lanciere mahout, rajput, elefante d'assedio, sepoy, sowar e zamburak.\n&lt;color=1.0, 1.0, 0.0&gt;Costruzioni riservate:&lt;/color&gt;\nIl campo consacrato genera più esperienza quando si occupa del bestiame e addestra mucche. Il boschetto di manghi è una fonte di legname. Il caravanserraglio svolge un ruolo simile alle scuderie.\n&lt;color=1.0, 1.0, 0.0&gt;Meraviglie:&lt;/color&gt;\nForte di Agra, cancello di Charminar, Karni Mata, Taj Mahal, torre della vittoria\n\nL'Impero Mughal fu uno dei primi imperi moderni dell'Asia meridionale. Era noto come uno dei più grandi imperi della storia dell'Asia meridionale.</string>
     <string _locid="62432" symbol="cStringCivNameSPCJapanese">Giapponese</string>
     <string _locid="62433" symbol="cStringCivNameSPCChinese">Cinese</string>
     <string _locid="62434" symbol="cStringCivNameSPCIndian">Indiana</string>
@@ -22962,7 +23087,7 @@
     <string _locid="62681" symbol="cStringCommandPanelConsulateFrench">Francesi</string>
     <string _locid="62682" symbol="cStringCommandPanelConsulateRussians">Russi</string>
     <string _locid="62683" symbol="cStringCommandPanelConsulateDutch">Olandesi</string>
-    <string _locid="62684">Cavalleria da tiro da assedio</string>
+    <string _locid="62684">Cavalleria da tiro d'assedio</string>
     <string _locid="62685">Cavalleria da tiro efficace contro gli edifici.</string>
     <string _locid="62686">Shinobi</string>
     <string _locid="62687">CAV Shinobi</string>
@@ -23695,7 +23820,7 @@
     <string _locid="63497">Anime ardenti</string>
     <string _locid="63498" symbol="cStringInformersEnemy">%s si è infiltrato tra i tuoi ranghi con l'abilità Informatori e ora sa tutto quello che fai.</string>
     <string _locid="63499" symbol="cStringInformersTeammate">%s si è infiltrato tra i ranghi del tuo nemico con l'abilità Informatori e ora sa tutto quello che fa.</string>
-    <string _locid="63500">Una spedizione di mahout, howdah ed elefanti da assedio. + 1 abitante.</string>
+    <string _locid="63500">Una spedizione di mahout, howdah ed elefanti d'assedio. + 1 abitante.</string>
     <string _locid="63501">Aumenta la produzione di risorse dei reliquiari, che sono anche meno costosi.</string>
     <string _locid="63502">Cavalleria da tiro efficace contro la cavalleria</string>
     <string _locid="63503">Cavalleria a distanza. Efficace contro la cavalleria.</string>
@@ -23924,7 +24049,7 @@
     <string _locid="63732">10 highlander</string>
     <string _locid="63733">Rende più economiche le armate.</string>
     <string _locid="63734">Movimento autorinforzante</string>
-    <string _locid="63735">Aumenta i danni delle armi da assedio.</string>
+    <string _locid="63735">Aumenta i danni delle armi d'assedio.</string>
     <string _locid="63736">Polvere bianca</string>
     <string _locid="63737">Potenzia i danni delle navi.</string>
     <string _locid="63738">Cannoni navali</string>
@@ -23941,7 +24066,7 @@
     <string _locid="63749">Mobilità occidentale</string>
     <string _locid="63750">Aumenta i punti danno della cavalleria.</string>
     <string _locid="63751">Cavalli strigliati</string>
-    <string _locid="63752">Aumenta il danno da assedio della fanteria.</string>
+    <string _locid="63752">Aumenta il danno d'assedio della fanteria.</string>
     <string _locid="63753">Arte dell'assedio</string>
     <string _locid="63754">Aumenta l'armatura degli elefanti.</string>
     <string _locid="63755">Armatura dell'elefante</string>
@@ -24019,7 +24144,7 @@
     <string _locid="63854" comment="Objective: rescue the legendary swordsman" gamecharacter="Musashi leggendario">Thank you, General. My sword craves justice. Its edge will shine with the blood of my enemies.</string>
     <string _locid="63857" comment="Objective: destroy the black powder" gamecharacter="Daimyo Mototada" portraitfilename="resources\art\units\asians\spc\mototada\mototada_icon_portrait.png">Our archers wither in the path of the enemy Ashigaru. Locate Ishida's black powder cache and blow it heavenward.</string>
     <string _locid="63859" comment="Objective: Capture supplies" gamecharacter="Generale Kichiro" portraitfilename="resources\art\units\asians\spc\kichiro\kichiro_icon_portrait.png">We must hurry! These men are desperately needed inside the castle!</string>
-    <string _locid="63860" comment="Objective: destroy trading post" gamecharacter="Daimyo Mototada" soundfilename="YMOTO5019_PU" portraitfilename="resources\art\units\asians\spc\mototada\mototada_icon_portrait.png">I monaci hanno dato a Ishida la macchina da assedio. Hanno pagato per il loro tradimento.</string>
+    <string _locid="63860" comment="Objective: destroy trading post" gamecharacter="Daimyo Mototada" soundfilename="YMOTO5019_PU" portraitfilename="resources\art\units\asians\spc\mototada\mototada_icon_portrait.png">I monaci hanno dato a Ishida la macchina d'assedio. Hanno pagato per il loro tradimento.</string>
     <string _locid="63863" comment="Objective: save twenty civilians" gamecharacter="Daimyo Mototada" soundfilename="YMOTO5024" portraitfilename="resources\art\units\asians\spc\mototada\mototada_icon_portrait.png">Kichiro, scorta i contadini e portali in salvo. Percorri la strada orientale, ma non perdere d'occhio il nemico. </string>
     <string _locid="63864" comment="Victory/Defeat" gamecharacter="Daimyo Mototada" soundfilename="YMOTO5025" portraitfilename="resources\art\units\asians\spc\mototada\mototada_icon_portrait.png">L'evacuazione è riuscita, ma la battaglia continua. Uomini, se dovete morire, morite combattendo.</string>
     <string _locid="63865" comment="You are losing and near defeat" gamecharacter="Daimyo Mototada" soundfilename="YMOTO5020" portraitfilename="resources\art\units\asians\spc\mototada\mototada_icon_portrait.png">Continuate a combattere! Il nemico è alle porte!</string>
@@ -24115,10 +24240,10 @@
     <string _locid="63956">Alleati russi</string>
     <string _locid="63957">Bonus: +7% punti danno unità di terra\n\nAddestra: moschettieri, falconetti, ussari\n\nSpedizioni: unità di supporto</string>
     <string _locid="63958">Alleati britannici</string>
-    <string _locid="63959">I Francesi manderanno spedizioni di armi da assedio, di cavalleria e di tecnologie europee.</string>
+    <string _locid="63959">I Francesi manderanno spedizioni di armi d'assedio, di cavalleria e di tecnologie europee.</string>
     <string _locid="63960">Alleati francesi</string>
     <string _locid="63961">Edificio per spedizioni militari</string>
-    <string _locid="63962">Invia armi da assedio, navi e mercenari europei.</string>
+    <string _locid="63962">Invia armi d'assedio, navi e mercenari europei.</string>
     <string _locid="63963">Consolato</string>
     <string _locid="63964">Bushido:</string>
     <string _locid="63965">Fonte di legname</string>
@@ -24528,7 +24653,7 @@
     <string _locid="64371">Discepolo shaolin erudito</string>
     <string _locid="64372">Blocco filmati</string>
     <string _locid="64373">Blocco filmati</string>
-    <string _locid="64374">La spedizione della fanteria da assedio è arrivata.</string>
+    <string _locid="64374">La spedizione della fanteria d'assedio è arrivata.</string>
     <string _locid="64375">Aumenta i punti danno e l'attacco anti-navi dell'accademia di guerra, fornendole anche un cannone.</string>
     <string _locid="64376">Fortino fortificato</string>
     <string _locid="64377">Accademia di guerra di frontiera</string>
@@ -25165,35 +25290,35 @@
     <string _locid="65013">Sasso costiero CJ</string>
     <string _locid="65014">PROP Sasso costiero CJ</string>
     <string _locid="65015">La pagoda bianca spedisce discepoli e dispone di Volta sacra, che aumenta le statistiche del maestro e dei discepoli shaolin, oltre ad aumentare il limite d'addestramento dei discepoli.</string>
-    <string _locid="65016">La pagoda bianca spedisce discepoli e dispone di Volta sacra, che aumenta le statistiche del maestro e dei discepoli shaolin, oltre ad aumentare il limite d'addestramento dei discepoli.\n----------\nSpedizioni ottenute alla costruzione:\nII: spedisce 4 discepoli\nIII: spedisce 6 discepoli \nIV: spedisce 10 discepoli\nV: spedisce 14 discepoli</string>
+    <string _locid="65016">La pagoda bianca invia discepoli e dispone di Volta sacra che aumenta le statistiche del maestro e dei discepoli shaolin, oltre ad aumentare il limite d'addestramento dei discepoli.\n----------\nSpedizioni ottenute alla costruzione:\nII: invia 4 discepoli\nIII: invia 6 discepoli \nIV: invia 10 discepoli\nV: invia 16 discepoli</string>
     <string _locid="65017">Pagoda bianca</string>
     <string _locid="65018">MER Pagoda bianca</string>
     <string _locid="65019">La pagoda bianca spedisce discepoli e dispone di Volta sacra, che aumenta le statistiche del maestro e dei discepoli shaolin, oltre ad aumentare il limite d'addestramento dei discepoli.</string>
-    <string _locid="65020">La pagoda bianca spedisce discepoli e dispone di Volta sacra, che aumenta le statistiche del maestro e dei discepoli shaolin, oltre ad aumentare il limite d'addestramento dei discepoli.\n----------\nSpedizioni ottenute alla costruzione:\nII: spedisce 4 discepoli\nIII: spedisce 6 discepoli \nIV: spedisce 10 discepoli\nV: spedisce 14 discepoli</string>
+    <string _locid="65020">La pagoda bianca invia discepoli e dispone di Volta sacra che aumenta le statistiche del maestro e dei discepoli shaolin, oltre ad aumentare il limite d'addestramento dei discepoli.\n----------\nSpedizioni ottenute alla costruzione:\nII: invia 4 discepoli\nIII: invia 6 discepoli \nIV: invia 10 discepoli\nV: invia 16 discepoli</string>
     <string _locid="65021">Pagoda bianca</string>
     <string _locid="65022">MER Pagoda bianca</string>
     <string _locid="65023">La pagoda bianca spedisce discepoli e dispone di Volta sacra, che aumenta le statistiche del maestro e dei discepoli shaolin, oltre ad aumentare il limite d'addestramento dei discepoli.</string>
-    <string _locid="65024">La pagoda bianca spedisce discepoli e dispone di Volta sacra, che aumenta le statistiche del maestro e dei discepoli shaolin, oltre ad aumentare il limite d'addestramento dei discepoli.\n----------\nSpedizioni ottenute alla costruzione:\nII: spedisce 4 discepoli\nIII: spedisce 6 discepoli \nIV: spedisce 10 discepoli\nV: spedisce 14 discepoli</string>
+    <string _locid="65024">La pagoda bianca invia discepoli e dispone di Volta sacra che aumenta le statistiche del maestro e dei discepoli shaolin, oltre ad aumentare il limite d'addestramento dei discepoli.\n----------\nSpedizioni ottenute alla costruzione:\nII: invia 4 discepoli\nIII: invia 6 discepoli \nIV: invia 10 discepoli\nV: invia 16 discepoli</string>
     <string _locid="65025">Pagoda bianca</string>
     <string _locid="65026">MER Pagoda bianca</string>
     <string _locid="65027">La pagoda bianca spedisce discepoli e dispone di Volta sacra, che aumenta le statistiche del maestro e dei discepoli shaolin, oltre ad aumentare il limite d'addestramento dei discepoli.</string>
-    <string _locid="65028">La pagoda bianca spedisce discepoli e dispone di Volta sacra, che aumenta le statistiche del maestro e dei discepoli shaolin, oltre ad aumentare il limite d'addestramento dei discepoli.\n----------\nSpedizioni ottenute alla costruzione:\nII: spedisce 4 discepoli\nIII: spedisce 6 discepoli \nIV: spedisce 10 discepoli\nV: spedisce 14 discepoli</string>
+    <string _locid="65028">La pagoda bianca invia discepoli e dispone di Volta sacra che aumenta le statistiche del maestro e dei discepoli shaolin, oltre ad aumentare il limite d'addestramento dei discepoli.\n----------\nSpedizioni ottenute alla costruzione:\nII: invia 4 discepoli\nIII: invia 6 discepoli \nIV: invia 10 discepoli\nV: invia 16 discepoli</string>
     <string _locid="65029">Pagoda bianca</string>
     <string _locid="65030">MER Pagoda bianca</string>
-    <string _locid="65031">La torre di porcellana genera risorse al secondo. È possibile impostare la generazione di cibo, legname, denaro o una combinazione di tutte le risorse, incluse esportazioni ed esperienza.</string>
-    <string _locid="65032">La torre di porcellana genera risorse al secondo. È possibile impostare la generazione di cibo, legname, denaro o una combinazione di tutte le risorse, incluse esportazioni ed esperienza.\n----------\nValore di produzione alla costruzione:\nII: Cibo: 3 / Legname: 2,5 / Denaro: 2,5 /\nCombo: 0,6 unità di cibo, 0,6 unità di legname, 0,6 unità di denaro, 0,18 esportazioni, 0,18 PE\nIII: Cibo: 4,5 / Legname: 4 / Denaro: 4 /\nCombo: 1,25 unità di cibo, 1 unità di legname, 1 unità di denaro, 0,25 esportazioni, 0,25 PE\nIV: Cibo: 6 / Legname: 5,5 / Denaro: 5,5 /\nCombo: 1,5 unità di cibo, 1,1 unità di legname, 1,1 unità di denaro, 0,4 esportazioni, 0,4 PE\nV: Cibo: 6,5 / Legname: 6 / Denaro: 6 /\nCombo: 1,5 unità di cibo, 2 unità di legname, 2 unità di denaro, 0,5 esportazioni, 0,5 PE</string>
+    <string _locid="65031">La torre di porcellana genera risorse al secondo. È possibile impostarla in modo tale che generi cibo, legname, denaro o una combinazione di tutte le risorse, incluse esportazioni ed esperienza.</string>
+    <string _locid="65032">La torre di porcellana genera risorse al secondo. È possibile impostarla in modo tale che generi cibo, legname, denaro o una combinazione di tutte le risorse, incluse esportazioni ed esperienza.\n----------\nValore di produzione alla costruzione:\nII: Cibo: 3 / Legname: 2,5 / Denaro: 2,5 /\nCombo: 0,6 unità di cibo, 0,6 unità di legname, 0,6 unità di denaro, 0,18 esportazioni, 0,18 PE\nIII: Cibo: 4,5 / Legname: 4 / Denaro: 4 /\nCombo: 1,25 unità di cibo, 1 unità di legname, 1 unità di denaro, 0,25 esportazioni, 0,25 PE\nIV: Cibo: 6 / Legname: 5,5 / Denaro: 5,5 /\nCombo: 1,5 unità di cibo, 1,1 unità di legname, 1,1 unità di denaro, 0,4 esportazioni, 0,4 PE\nV: Cibo: 6,5 / Legname: 6 / Denaro: 6 /\nCombo: 2 unità di cibo, 1,5 unità di legname, 1,5 unità di denaro, 0,5 esportazioni, 0,5 PE</string>
     <string _locid="65033">Torre di porcellana</string>
     <string _locid="65034">MER Torre di porcellana</string>
-    <string _locid="65035">La torre di porcellana genera risorse al secondo. È possibile impostare la generazione di cibo, legname, denaro o una combinazione di tutte le risorse, incluse esportazioni ed esperienza.</string>
-    <string _locid="65036">La torre di porcellana genera risorse al secondo. È possibile impostare la generazione di cibo, legname, denaro o una combinazione di tutte le risorse, incluse esportazioni ed esperienza.\n----------\nValore di produzione alla costruzione:\nII: Cibo: 3 / Legname: 2,5 / Denaro: 2,5 /\nCombo: 0,6 unità di cibo, 0,6 unità di legname, 0,6 unità di denaro, 0,18 esportazioni, 0,18 PE\nIII: Cibo: 4,5 / Legname: 4 / Denaro: 4 /\nCombo: 1,25 unità di cibo, 1 unità di legname, 1 unità di denaro, 0,25 esportazioni, 0,25 PE\nIV: Cibo: 6 / Legname: 5,5 / Denaro: 5,5 /\nCombo: 1,5 unità di cibo, 1,1 unità di legname, 1,1 unità di denaro, 0,4 esportazioni, 0,4 PE\nV: Cibo: 6,5 / Legname: 6 / Denaro: 6 /\nCombo: 1,5 unità di cibo, 2 unità di legname, 2 unità di denaro, 0,5 esportazioni, 0,5 PE</string>
+    <string _locid="65035">La torre di porcellana genera risorse al secondo. È possibile impostarla in modo tale che generi cibo, legname, denaro o una combinazione di tutte le risorse, incluse esportazioni ed esperienza.</string>
+    <string _locid="65036">La torre di porcellana genera risorse al secondo. È possibile impostarla in modo tale che generi cibo, legname, denaro o una combinazione di tutte le risorse, incluse esportazioni ed esperienza.\n----------\nValore di produzione alla costruzione:\nII: Cibo: 3 / Legname: 2,5 / Denaro: 2,5 /\nCombo: 0,6 unità di cibo, 0,6 unità di legname, 0,6 unità di denaro, 0,18 esportazioni, 0,18 PE\nIII: Cibo: 4,5 / Legname: 4 / Denaro: 4 /\nCombo: 1,25 unità di cibo, 1 unità di legname, 1 unità di denaro, 0,25 esportazioni, 0,25 PE\nIV: Cibo: 6 / Legname: 5,5 / Denaro: 5,5 /\nCombo: 1,5 unità di cibo, 1,1 unità di legname, 1,1 unità di denaro, 0,4 esportazioni, 0,4 PE\nV: Cibo: 6,5 / Legname: 6 / Denaro: 6 /\nCombo: 2 unità di cibo, 1,5 unità di legname, 1,5 unità di denaro, 0,5 esportazioni, 0,5 PE</string>
     <string _locid="65037">Torre di porcellana</string>
     <string _locid="65038">MER Torre di porcellana</string>
-    <string _locid="65039">La torre di porcellana genera risorse al secondo. È possibile impostare la generazione di cibo, legname, denaro o una combinazione di tutte le risorse, incluse esportazioni ed esperienza.</string>
-    <string _locid="65040">La torre di porcellana genera risorse al secondo. È possibile impostare la generazione di cibo, legname, denaro o una combinazione di tutte le risorse, incluse esportazioni ed esperienza.\n----------\nValore di produzione alla costruzione:\nII: Cibo: 3 / Legname: 2,5 / Denaro: 2,5 /\nCombo: 0,6 unità di cibo, 0,6 unità di legname, 0,6 unità di denaro, 0,18 esportazioni, 0,18 PE\nIII: Cibo: 4,5 / Legname: 4 / Denaro: 4 /\nCombo: 1,25 unità di cibo, 1 unità di legname, 1 unità di denaro, 0,25 esportazioni, 0,25 PE\nIV: Cibo: 6 / Legname: 5,5 / Denaro: 5,5 /\nCombo: 1,5 unità di cibo, 1,1 unità di legname, 1,1 unità di denaro, 0,4 esportazioni, 0,4 PE\nV: Cibo: 6,5 / Legname: 6 / Denaro: 6 /\nCombo: 1,5 unità di cibo, 2 unità di legname, 2 unità di denaro, 0,5 esportazioni, 0,5 PE</string>
+    <string _locid="65039">La torre di porcellana genera risorse al secondo. È possibile impostarla in modo tale che generi cibo, legname, denaro o una combinazione di tutte le risorse, incluse esportazioni ed esperienza.</string>
+    <string _locid="65040">La torre di porcellana genera risorse al secondo. È possibile impostarla in modo tale che generi cibo, legname, denaro o una combinazione di tutte le risorse, incluse esportazioni ed esperienza.\n----------\nValore di produzione alla costruzione:\nII: Cibo: 3 / Legname: 2,5 / Denaro: 2,5 /\nCombo: 0,6 unità di cibo, 0,6 unità di legname, 0,6 unità di denaro, 0,18 esportazioni, 0,18 PE\nIII: Cibo: 4,5 / Legname: 4 / Denaro: 4 /\nCombo: 1,25 unità di cibo, 1 unità di legname, 1 unità di denaro, 0,25 esportazioni, 0,25 PE\nIV: Cibo: 6 / Legname: 5,5 / Denaro: 5,5 /\nCombo: 1,5 unità di cibo, 1,1 unità di legname, 1,1 unità di denaro, 0,4 esportazioni, 0,4 PE\nV: Cibo: 6,5 / Legname: 6 / Denaro: 6 /\nCombo: 2 unità di cibo, 1,5 unità di legname, 1,5 unità di denaro, 0,5 esportazioni, 0,5 PE</string>
     <string _locid="65041">Torre di porcellana</string>
     <string _locid="65042">MER Torre di porcellana</string>
-    <string _locid="65043">La torre di porcellana genera risorse al secondo. È possibile impostare la generazione di cibo, legname, denaro o una combinazione di tutte le risorse, incluse esportazioni ed esperienza.</string>
-    <string _locid="65044">La torre di porcellana genera risorse al secondo. È possibile impostare la generazione di cibo, legname, denaro o una combinazione di tutte le risorse, incluse esportazioni ed esperienza.\n----------\nValore di produzione alla costruzione:\nII: Cibo: 3 / Legname: 2,5 / Denaro: 2,5 /\nCombo: 0,6 unità di cibo, 0,6 unità di legname, 0,6 unità di denaro, 0,18 esportazioni, 0,18 PE\nIII: Cibo: 4,5 / Legname: 4 / Denaro: 4 /\nCombo: 1,25 unità di cibo, 1 unità di legname, 1 unità di denaro, 0,25 esportazioni, 0,25 PE\nIV: Cibo: 6 / Legname: 5,5 / Denaro: 5,5 /\nCombo: 1,5 unità di cibo, 1,1 unità di legname, 1,1 unità di denaro, 0,4 esportazioni, 0,4 PE\nV: Cibo: 6,5 / Legname: 6 / Denaro: 6 /\nCombo: 1,5 unità di cibo, 2 unità di legname, 2 unità di denaro, 0,5 esportazioni, 0,5 PE</string>
+    <string _locid="65043">La torre di porcellana genera risorse al secondo. È possibile impostarla in modo tale che generi cibo, legname, denaro o una combinazione di tutte le risorse, incluse esportazioni ed esperienza.</string>
+    <string _locid="65044">La torre di porcellana genera risorse al secondo. È possibile impostarla in modo tale che generi cibo, legname, denaro o una combinazione di tutte le risorse, incluse esportazioni ed esperienza.\n----------\nValore di produzione alla costruzione:\nII: Cibo: 3 / Legname: 2,5 / Denaro: 2,5 /\nCombo: 0,6 unità di cibo, 0,6 unità di legname, 0,6 unità di denaro, 0,18 esportazioni, 0,18 PE\nIII: Cibo: 4,5 / Legname: 4 / Denaro: 4 /\nCombo: 1,25 unità di cibo, 1 unità di legname, 1 unità di denaro, 0,25 esportazioni, 0,25 PE\nIV: Cibo: 6 / Legname: 5,5 / Denaro: 5,5 /\nCombo: 1,5 unità di cibo, 1,1 unità di legname, 1,1 unità di denaro, 0,4 esportazioni, 0,4 PE\nV: Cibo: 6,5 / Legname: 6 / Denaro: 6 /\nCombo: 2 unità di cibo, 1,5 unità di legname, 1,5 unità di denaro, 0,5 esportazioni, 0,5 PE</string>
     <string _locid="65045">Torre di porcellana</string>
     <string _locid="65046">MER Torre di porcellana</string>
     <string _locid="65047">Spedizione: 1.500 unità di denaro  Potere: Cessate il fuoco - Interrompe i combattimenti per un breve periodo.</string>
@@ -25534,7 +25659,7 @@
     <string _locid="65385">Artiglieria leggera. Efficace contro altre unità d'artiglieria.</string>
     <string _locid="65386">Colubrina</string>
     <string _locid="65387">CON Colubrina</string>
-    <string _locid="65388">Artiglieria da assedio</string>
+    <string _locid="65388">Artiglieria d'assedio</string>
     <string _locid="65389">Artiglieria che spara granate esplosive contro edifici o navi.</string>
     <string _locid="65390">Mortaio</string>
     <string _locid="65391">CON Mortaio</string>
@@ -25547,7 +25672,7 @@
     <string _locid="65398">Artiglieria a cavallo</string>
     <string _locid="65399">CON Artiglieria a cavallo</string>
     <string _locid="65400">Artiglieria anti-edifici</string>
-    <string _locid="65401">Guerriero da assedio che muore quando attacca gli edifici, ma infligge notevoli danni.</string>
+    <string _locid="65401">Guerriero d'assedio che muore quando attacca gli edifici, ma infligge notevoli danni.</string>
     <string _locid="65402">Petardo</string>
     <string _locid="65403">CON Petardo</string>
     <string _locid="65404">Spia efficace contro i mercenari e i capi</string>
@@ -25608,7 +25733,7 @@
     <string _locid="65459">Invia un carro-chiesa.</string>
     <string _locid="65460">Aumenta la velocità delle unità di fanteria.</string>
     <string _locid="65461">4 coloni</string>
-    <string _locid="65462">Aumenta il danno da assedio delle unità che usano polvere da sparo.</string>
+    <string _locid="65462">Aumenta il danno d'assedio delle unità che usano polvere da sparo.</string>
     <string _locid="65463">2 bombarde grandi</string>
     <string _locid="65464">Gli abitanti raccolgono più velocemente tutte le risorse naturali.</string>
     <string _locid="65465">Carriola</string>
@@ -25798,8 +25923,8 @@
     <string _locid="65649">Spedizioni di Yongle</string>
     <string _locid="65650">La spedizione del flagello mongolo è arrivata.</string>
     <string _locid="65651">La spedizione della velocità e dell'attacco mongolo è arrivata.</string>
-    <string _locid="65652">Attacco e punti danno dell'artiglieria e delle unità da assedio aumentati.</string>
-    <string _locid="65653">Combattimento da assedio</string>
+    <string _locid="65652">Attacco e punti danno dell'artiglieria e delle unità d'assedio aumentati.</string>
+    <string _locid="65653">Combattimento d'assedio</string>
     <string _locid="65654">La spedizione dei danni artiglieria è arrivata.</string>
     <string _locid="65655">La spedizione del combattimento dell'artiglieria è arrivata.</string>
     <string _locid="65656">La spedizione dei pascoli è arrivata.</string>
@@ -25966,7 +26091,7 @@
     <string _locid="65817">Un esercito di Guardie blu olandesi (moschettieri) e di carabinieri (ruyter).\n6 Guardie blu: fanteria da distanza pesante munita di baionette per sconfiggere la cavalleria ed efficace da distanza contro la fanteria corpo a corpo.\n8 carabinieri: cavalleria da distanza efficace contro la cavalleria.</string>
     <string _locid="65818">Forza di spedizione olandese</string>
     <string _locid="65819">Forza di spedizione olandese</string>
-    <string _locid="65820">Cavalleria da tiro, efficace contro la cavalleria / Artiglieria da assedio</string>
+    <string _locid="65820">Cavalleria da tiro, efficace contro la cavalleria / Artiglieria d'assedio</string>
     <string _locid="65821">Un esercito di carabinieri olandesi (ruyter) e di mortai.\n16 carabinieri: cavalleria da distanza efficace contro la cavalleria.\n2 mortai: artiglieria che spara proiettili esplosivi contro gli edifici o le navi.</string>
     <string _locid="65822">Esercito di spedizione olandese</string>
     <string _locid="65823">Esercito di spedizione olandese</string>
@@ -26050,7 +26175,7 @@
     <string _locid="65901">CON Giovane guardia</string>
     <string _locid="65902">Invia guardia nera.</string>
     <string _locid="65903">Invia guardia nera.</string>
-    <string _locid="65904">Bonus: -20% al costo in cibo delle armate\n\nAddestra: doppelsoldner, schermagliatori, cannoni pesanti\n\nSpedizioni: afflussi di risorse</string>
+    <string _locid="65904">Bonus: -15% al costo in cibo delle armate\n\nAddestra: doppelsoldner, schermagliatori, cannoni pesanti\n\nSpedizioni: afflussi di risorse</string>
     <string _locid="65905">Alleati tedeschi</string>
     <string _locid="65906">Espelli il tuo alleato in modo da poterne scegliere un altro.</string>
     <string _locid="65907">Interrompi i rapporti</string>
@@ -26091,10 +26216,10 @@
     <string _locid="65942">Ispira tutti i lancieri mahout circostanti. Cavalleria corpo a corpo pesante che causa danni in una vasta area. Straordinariamente letale contro gli arcieri e gli schermagliatori.</string>
     <string _locid="65943">Mahout mansabdar</string>
     <string _locid="65944">MAN Mahout</string>
-    <string _locid="65945">Mansabdar. Ispira gli elefanti da assedio circostanti</string>
-    <string _locid="65946">Ispira tutti gli elefanti da assedio circostanti. Elefante armato di cannone. Efficace contro l'artiglieria e gli edifici.</string>
-    <string _locid="65947">Elefante da assedio mansabdar</string>
-    <string _locid="65948">MAN Elefante da assedio</string>
+    <string _locid="65945">Mansabdar. Ispira gli elefanti d'assedio circostanti</string>
+    <string _locid="65946">Ispira tutti gli elefanti d'assedio circostanti. Elefante armato di cannone. Efficace contro l'artiglieria e gli edifici.</string>
+    <string _locid="65947">Elefante d'assedio mansabdar</string>
+    <string _locid="65948">MAN Elefante d'assedio</string>
     <string _locid="65949">Mansabdar. Ispira i flagelefanti circostanti</string>
     <string _locid="65950">Ispira tutti i flagelefanti circostanti. Potente elefante indiano che brandisce una mazza. Efficace contro gli edifici.</string>
     <string _locid="65951">Flagelefante mansabdar</string>
@@ -26152,7 +26277,7 @@
     <string _locid="66003">Cannone giapponese che spara frecce esplosive. Più efficace contro la fanteria e l'artiglieria che contro gli edifici.</string>
     <string _locid="66004">Freccia infuocata</string>
     <string _locid="66005">AR Freccia infuocata</string>
-    <string _locid="66006">Artiglieria da assedio</string>
+    <string _locid="66006">Artiglieria d'assedio</string>
     <string _locid="66007">Artiglieria che spara granate esplosive contro edifici o navi.</string>
     <string _locid="66008">Morutaru</string>
     <string _locid="66009">AR Morutaru</string>
@@ -26164,13 +26289,13 @@
     <string _locid="66015">Freccia infuocata esperta</string>
     <string _locid="66016">Morutaru esperto</string>
     <string _locid="66017">Freccia infuocata esperta</string>
-    <string _locid="66018">Attacco e punti danno dell'elefante da assedio aumentati.</string>
-    <string _locid="66019">Elefante da assedio onorato</string>
+    <string _locid="66018">Attacco e punti danno dell'elefante d'assedio aumentati.</string>
+    <string _locid="66019">Elefante d'assedio onorato</string>
     <string _locid="66020">Mortaio a mano onorato</string>
-    <string _locid="66021">Elefante da assedio onorato</string>
+    <string _locid="66021">Elefante d'assedio onorato</string>
     <string _locid="66022">Attacco e punti danno della freccia infuocata aumentati.</string>
     <string _locid="66023">Freccia infuocata onorata</string>
-    <string _locid="66024">Elefante da assedio onorato</string>
+    <string _locid="66024">Elefante d'assedio onorato</string>
     <string _locid="66025">Freccia infuocata onorata</string>
     <string _locid="66026">Attacco del castello potenziato.</string>
     <string _locid="66027">Castello di collina</string>
@@ -26340,10 +26465,10 @@
     <string _locid="66191">Sconfiggi l'esercito lealista di Uesugi.</string>
     <string _locid="66192" symbol="cStringDamageCap">Limite di danni: %.1f </string>
     <string _locid="66193" symbol="cStringActiveTime">Tempo di attività: %.1f </string>
-    <string _locid="66194">Elefante da assedio, efficace contro l'artiglieria e gli edifici</string>
+    <string _locid="66194">Elefante d'assedio, efficace contro l'artiglieria e gli edifici</string>
     <string _locid="66195">Elefante munito di un cannone. Efficace contro l'artiglieria e gli edifici.</string>
-    <string _locid="66196">Test dell'elefante da assedio</string>
-    <string _locid="66197">CAV Test dell'elefante da assedio</string>
+    <string _locid="66196">Test dell'elefante d'assedio</string>
+    <string _locid="66197">CAV Test dell'elefante d'assedio</string>
     <string _locid="66198">Le navi hanno un campo visivo più ampio.</string>
     <string _locid="66199">Tesoro per il campo visivo delle navi</string>
     <string _locid="66200" symbol="cStringypShipLOSNugget">La vedetta fortunata di El Halcón Sincero, che amplia il campo visivo delle navi.</string>
@@ -26735,7 +26860,7 @@
     <string _locid="66583" symbol="cStringAbstractNameSowar">Sowar</string>
     <string _locid="66584" symbol="cStringAbstractNameMahout">Mahout</string>
     <string _locid="66585" symbol="cStringAbstractNameHowdah">Howdah</string>
-    <string _locid="66586" symbol="cStringAbstractNameSiegeElephant">Elefante da assedio</string>
+    <string _locid="66586" symbol="cStringAbstractNameSiegeElephant">Elefante d'assedio</string>
     <string _locid="66587" symbol="cStringAbstractNameFlailiphant">Flagelefante</string>
     <string _locid="66588" symbol="cStringAbstractNameHandElephant">Elefante corpo a corpo</string>
     <string _locid="66589">Interrompi</string>
@@ -28619,8 +28744,8 @@
     <string _locid="68485">Capo religioso che addestra discepoli, stordisce guardiani e può sferrare colpi critici in combattimento. Esplora, combatte, costruisce centri città e basi commerciali.</string>
     <string _locid="68486">Maestro shaolin</string>
     <string _locid="68487">MON Maestro shaolin</string>
-    <string _locid="68488">Invia unità e armi da assedio europee</string>
-    <string _locid="68489">Invia armi da assedio, navi e mercenari europei.</string>
+    <string _locid="68488">Invia unità e armi d'assedio europee</string>
+    <string _locid="68489">Invia armi d'assedio, navi e mercenari europei.</string>
     <string _locid="68490">Consolato</string>
     <string _locid="68491" symbol="cStringYPGenericWonderHelptext">Porta il giocatore all'età successiva.</string>
     <string _locid="68492">Invia 2 risciò-boschetto.</string>
@@ -28782,8 +28907,8 @@
     <string _locid="68649">Velocità di movimento della cavalleria aumentata.</string>
     <string _locid="68650">Velocità della cavalleria</string>
     <string _locid="68651">Attacco contro gli edifici della cavalleria aumentato.</string>
-    <string _locid="68652">Cavalleria da assedio</string>
-    <string _locid="68653">La spedizione della fanteria da assedio è arrivata.</string>
+    <string _locid="68652">Cavalleria d'assedio</string>
+    <string _locid="68653">La spedizione della fanteria d'assedio è arrivata.</string>
     <string _locid="68654">La cavalleria corpo a corpo infligge più danni agli abitanti.</string>
     <string _locid="68655">Cavalleria spietata</string>
     <string _locid="68656">La spedizione della spietatezza è arrivata.</string>
@@ -28795,8 +28920,8 @@
     <string _locid="68662" symbol="cStringypCavTrainSpeedActivate">%1s ha recuperato la musetta di El Pollo Guapo, che riduce del 5%% il tempo di addestramento della cavalleria.</string>
     <string _locid="68663" symbol="cStringypCavSpeed">Le staffe d'oro di El Pollo Guapo, che aumentano del 5% la velocità della cavalleria.</string>
     <string _locid="68664" symbol="cStringypCavSpeedActivate">%1s ha recuperato le staffe d'oro di El Pollo Guapo, che aumentano del 5%% la velocità della cavalleria.</string>
-    <string _locid="68665" symbol="cStringypCavSiege">La sciabola da cavaliere di El Pollo Guapo, che aumenta del 10% i danni da assedio della cavalleria.</string>
-    <string _locid="68666" symbol="cStringypCavSiegeActivate">%1s ha recuperato la sciabola da cavaliere di El Pollo Guapo, che aumenta del 10%% i danni da assedio della cavalleria.</string>
+    <string _locid="68665" symbol="cStringypCavSiege">La sciabola da cavaliere di El Pollo Guapo, che aumenta del 10% i danni d'assedio della cavalleria.</string>
+    <string _locid="68666" symbol="cStringypCavSiegeActivate">%1s ha recuperato la sciabola da cavaliere di El Pollo Guapo, che aumenta del 10%% i danni d'assedio della cavalleria.</string>
     <string _locid="68667" symbol="cStringypCavVilBonus">La lancia spinata di El Pollo Guapo, che aumenta i danni della cavalleria corpo a corpo contro gli abitanti.</string>
     <string _locid="68668" symbol="cStringypCavVilBonusActivate">%1s ha trovato la lancia spinata di El Pollo Guapo, che aumenta i danni della cavalleria corpo a corpo contro gli abitanti.</string>
     <string _locid="68669" symbol="cStringypStableWagon">Squadra di costruzione intrappolata, adatta a costruire capanne da guerra e scuderie.</string>
@@ -29316,7 +29441,7 @@
     <string _locid="69184">
     </string>
     <string _locid="69185" symbol="cStringTradeMarket">Mercato di esportazione</string>
-    <string _locid="69186">Aura da assedio</string>
+    <string _locid="69186">Aura d'assedio</string>
     <string _locid="69187">Aura PD animale</string>
     <string _locid="69188">Aura danni animale</string>
     <string _locid="69189">Aura PD discepolo</string>
@@ -29348,7 +29473,7 @@
     <string _locid="69215">La spedizione del boom della popolazione è arrivata.</string>
     <string _locid="69216">Tutte le unità ottengono attacco e punti danno aumentati.</string>
     <string _locid="69217">Riforme occidentali</string>
-    <string _locid="69218">La spedizione della fanteria da assedio è arrivata.</string>
+    <string _locid="69218">La spedizione della fanteria d'assedio è arrivata.</string>
     <string _locid="69219">La spedizione delle riforme occidentali è arrivata.</string>
     <string _locid="69220" gamecharacter="Colonnello Edwardson" portraitfilename="resources\art\units\asians\spc\edwardson\clnl_edwardson_icon_portrait.png" soundfilename="YEDWA5000_PU">I nativi sono insorti e hanno preso le cave di salnitro, che ci servono per la polvere da sparo. Dobbiamo agire, e in fretta. </string>
     <string _locid="69221" gamecharacter="Colonnello Edwardson" portraitfilename="resources\art\units\asians\spc\edwardson\clnl_edwardson_icon_portrait.png" soundfilename="YEDWA5001">È tutto. Gli uomini sono tuoi, Luogotenente.</string>
@@ -29524,7 +29649,7 @@
     <string _locid="69391" symbol="cStringCeaseFireEnded">I combattimenti sono ripresi!</string>
     <string _locid="69392">Attacco e punti danno abitante aumentati.</string>
     <string _locid="69393">YP Medicina spirituale </string>
-    <string _locid="69394">Fanteria da assedio</string>
+    <string _locid="69394">Fanteria d'assedio</string>
     <string _locid="69395">Nobile che lancia frecce infuocate a lunga gittata. Efficace contro artiglieria ed edifici.</string>
     <string _locid="69396">Cavaliere freccia</string>
     <string _locid="69397">CGS YP Cavaliere freccia</string>
@@ -29673,7 +29798,7 @@
     <string _locid="69540">Uno spadaccino giapponese privo di maestro. Efficace contro la cavalleria e gli edifici.</string>
     <string _locid="69541">Ronin pentito</string>
     <string _locid="69542">PEN Ronin</string>
-    <string _locid="69543">Mercenario cavalleria corpo a corpo</string>
+    <string _locid="69543" symbol="cStringHandCavalryMerc">Mercenario di cavalleria corpo a corpo</string>
     <string _locid="69544">Mercenario di cavalleria corpo a corpo proveniente dai Balcani.</string>
     <string _locid="69545">Stradiotto pentito</string>
     <string _locid="69546">PEN Stradiotto</string>
@@ -29767,7 +29892,7 @@
     <string _locid="69634" symbol="cStringGunpowderCavalry">Cavalleria con polvere da sparo</string>
     <string _locid="69635" symbol="cStringType">Tipo: </string>
     <string _locid="69636">Stordita</string>
-    <string _locid="69637" symbol="cStringSiegeTrooper2">Soldato da assedio</string>
+    <string _locid="69637" symbol="cStringSiegeTrooper2">Soldato d'assedio</string>
     <string _locid="69638">Mercenari imperiali</string>
     <string _locid="69639">Invadi la terra ferma e salva l'ammiraglio Jinhai</string>
     <string _locid="69640">Consente al monastero di addestrare yojimbo e le unità fuorilegge costano meno popolazione.</string>
@@ -30253,9 +30378,9 @@
     <string _locid="70119">Monaco: Non guardargli negli occhi. Vogliono solo prendersi gioco di te.</string>
     <string _locid="70120">Monaco: Un giorno pagheranno, e pagheranno tutti.</string>
     <string _locid="70121">Monaco: Il tuo potere cresce, Hiro. Presto sentiranno la tua ira.</string>
-    <string _locid="70122">Musicista: "Oh, amore mio, la tua testa è come strana zucca che ha riempito il mio cuore con il suo fragrante odore..."</string>
+    <string _locid="70122">Musicista: "Oh, amore mio, la tua testa è come strana zucca che ha riempito il mio cuore con il suo fragrante odore..." </string>
     <string _locid="70123">Musicista: "Oh, mia amata, voglio mordicchiarti gli alluci come fossero un piatto di umeboshi, ma con dolcezza..."</string>
-    <string _locid="70124">Musicista: "Oh, cara, se spio ogni tua mossa è solo per amore, dimmi a tuo padre di lasciarmi stare..."</string>
+    <string _locid="70124">Musicista: "Oh, cara, se spio ogni tua mossa è solo per amore, dimmi a tuo padre di lasciarmi stare..." </string>
     <string _locid="70125">Musicista: "Oh bellissima, la tua possente e massiccia falcata scuote le fondamenta del mio cuore..."</string>
     <string _locid="70126">Musicista: "Oh, mia doce amata, i più feroci mastini non potevano separarmi dalle tua braccia. Ad azzopparmi però ce l'hanno fatta."</string>
     <string _locid="70127">Donna: Sono così sola. Quel ponte sembra alto, e l'acqua sotto di esso profonda. È il momento.</string>
@@ -30473,14 +30598,14 @@
     <string _locid="70339" symbol="cStringJapaneseMonkKnockoutTooltipText">I miei ultimi pensieri sono di compassione... e di dolore insostenibile...</string>
     <string _locid="70340" symbol="cStringChineseMonkKnockoutTooltipText">Fine dell'illuminazione...</string>
     <string _locid="70341" symbol="cStringIndianMonkKnockoutTooltipText">Vivrò di nuovo, sia pure come farfalla...</string>
-    <string _locid="70342">Attacco delle unità di artiglieria e da assedio aumentato.</string>
+    <string _locid="70342">Attacco delle unità di artiglieria e d'assedio aumentato.</string>
     <string _locid="70343">Attacco d'assedio</string>
     <string _locid="70344">La spedizione del combattimento con assedio è arrivata.</string>
-    <string _locid="70345">PD delle unità di artiglieria e da assedio aumentati.</string>
-    <string _locid="70346">Punti danno da assedio</string>
+    <string _locid="70345">PD delle unità di artiglieria e d'assedio aumentati.</string>
+    <string _locid="70346">Punti danno d'assedio</string>
     <string _locid="70347">La spedizione del combattimento con assedio è arrivata.</string>
-    <string _locid="70348">La spedizione dei PD da assedio è arrivata.</string>
-    <string _locid="70349">La spedizione dei PD da assedio è arrivata.</string>
+    <string _locid="70348">La spedizione dei PD d'assedio è arrivata.</string>
+    <string _locid="70349">La spedizione dei PD d'assedio è arrivata.</string>
     <string _locid="70350">La spedizione del combattimento dell'esercito territoriale è arrivata.</string>
     <string _locid="70351">La spedizione della Spedizione di Youngle è arrivata.</string>
     <string _locid="70352">SQUADRA La spedizione delle tattiche di Shivaji è arrivata.</string>
@@ -30656,7 +30781,7 @@
     <string _locid="70522">Schermagliatore con pochi punti danno, ma dotato di attacco potente. Efficace contro la fanteria.</string>
     <string _locid="70523">Caçador veterano</string>
     <string _locid="70524">INF Caçadore</string>
-    <string _locid="70528">Cassa con 360 unità di denaro ad ogni spedizione</string>
+    <string _locid="70528">Cassa da 350 unità di denaro a ogni spedizione</string>
     <string _locid="70529">Fornitura di 400 unità di denaro.</string>
     <string _locid="70530">Casse con 400 unità di denaro</string>
     <string _locid="70531">Cassa con 400 unità di denaro grande</string>
@@ -31409,7 +31534,7 @@
     <string _locid="71280">Alleati spagnoli: +0,8 velocità di acquisizione esperienza.\nAddestra:\npicchieri, rodeleros e falconetti.\nSpedizioni:\npotenziamenti per le spedizioni</string>
     <string _locid="71281">Isolamento giapponese: +5% attacco delle unità di terra\nAddestra:\nyamabushi, ninja, shinobi e ronin\nSpedizioni:\npotenziamenti militari</string>
     <string _locid="71282">Invia 2 chirurghi. Guarisce le unità ferite.</string>
-    <string _locid="71283">Invia 5 petardi. Guerrieri da assedio che muoiono quando attaccano le costruzioni, ma infliggono danni ingenti.</string>
+    <string _locid="71283">Invia 5 petardi. Guerrieri d'assedio che muoiono quando attaccano le costruzioni, ma infliggono danni ingenti.</string>
     <string _locid="71284">Invia 4 spie. Assassini furtivi. Molto efficaci contro mercenari, esploratori, capi guerrieri e monaci.</string>
     <string _locid="71285">Spedisce 1 carro fortino e permette agli abitanti del villaggio di ricostruirlo, se dovesse andare distrutto.</string>
     <string _locid="71286">Invia 1 carro-fabbrica. Genera automaticamente risorse o artiglieria. Configuralo per produrre cose diverse.</string>
@@ -31420,7 +31545,7 @@
     <string _locid="71291">Invia 2 bombarde grandi. Artiglieria ultra pesante ottomana. Si muove e spara lentamente, ma infligge danni devastanti alla fanteria o alle costruzioni.</string>
     <string _locid="71292">3 pescherecci</string>
     <string _locid="71293">Invia 3 pescherecci. Raccoglie cibo dai pesci o ricava denaro dalle balene.</string>
-    <string _locid="71294">Invia 1 caravella con 3 petardi.\nCaravella: efficace per l'esplorazione, la pesca o il trasporto.\nPetardi: guerriero da assedio che muore quando attacca le costruzioni, ma infligge danni ingenti.</string>
+    <string _locid="71294">Invia 1 caravella con 3 petardi.\nCaravella: efficace per l'esplorazione, la pesca o il trasporto.\nPetardi: guerriero d'assedio che muore quando attacca le costruzioni, ma infligge danni ingenti.</string>
     <string _locid="71295">Invia 1 corazzata. Nave da guerra avanzata.</string>
     <string _locid="71296">Invia 11 dragoni jinete e 4 unità d'artiglieria a cavallo.\n Dragoni jinete: cavalleria a distanza. Efficace contro la cavalleria.\n Artiglieria a cavallo: artiglieria che si muove rapidamente. Efficace contro la fanteria.</string>
     <string _locid="71297">Spedisce 1 carro-chiesa. Si trasforma in una chiesa con miglioramenti per le città e miglioramenti riservati.</string>
@@ -32147,7 +32272,7 @@
     <string _locid="72599">La tenuta dei Lakota della famiglia Black.\n\n&lt;color=1.0, 1.0, 0.0&gt;Unità:&lt;/color&gt;\nGuerrieri con clava, rivoluzionari, fucili wakina, predoni tashunke, cavalieri con ascia, falconetti, colubrine, arcieri a cavallo</string>
     <string _locid="72600">Shogunato Tokugawa del Giappone, periodo Edo.\n\n&lt;color=1.0, 1.0, 0.0&gt;Unità:&lt;/color&gt;\nArcieri yumi, moschettieri ashigaru, samurai, cavalieri con naginata, arcieri yabusame, morutaru, frecce infuocate</string>
     <string _locid="72601">La nave tesoriera cinese della dinastia Ming del XV secolo.\n\n&lt;color=1.0, 1.0, 0.0&gt;Unità:&lt;/color&gt;\nChu ko nu, picchieri qiang, keshik, archibugieri, spadaccini changdao, cavalieri della steppa, flagelli di ferro, martelli meteora, lanciafiamme, corvi volanti</string>
-    <string _locid="72602">La Compagnia delle Indie orientali britannica di Delhi.\n\n&lt;color=1.0, 1.0, 0.0&gt;Unità:&lt;/color&gt;\nRajput, spadaccini urumi, gurkha, sepoy, sowar, zamburak, lancieri mahout, howdah, elefanti da assedio</string>
+    <string _locid="72602">La Compagnia delle Indie orientali britannica di Delhi.\n\n&lt;color=1.0, 1.0, 0.0&gt;Unità:&lt;/color&gt;\nRajput, spadaccini urumi, gurkha, sepoy, sowar, zamburak, lancieri mahout, howdah, elefanti d'assedio</string>
     <string _locid="72603">Facile</string>
     <string _locid="72604">Nome del clan offensivo</string>
     <string _locid="72605">Abbreviazione clan offensiva</string>
@@ -32562,6 +32687,13 @@
     <string _locid="79960">Mappa grande</string>
     <string _locid="79961">Carica la variante più grande della mappa selezionata.</string>
     <string _locid="79962">15 pecore + 1 carro-fattoria + 3 ulani</string>
+    <string _locid="79963">[RESERVED]</string>
+    <string _locid="79964">[RESERVED]</string>
+    <string _locid="79965">[RESERVED]</string>
+    <string _locid="79966">[RESERVED]</string>
+    <string _locid="79967">[RESERVED]</string>
+    <string _locid="79968">[RESERVED]</string>
+    <string _locid="79969">[RESERVED]</string>
     <string _locid="80000" symbol="cStringCultureInca">Inca</string>
     <string _locid="80001" symbol="cStringCivNameInca">Inca</string>
     <string _locid="80002" symbol="cStringCivRolloverInca">&lt;color=1.0, 1.0, 0.0&gt;Bonus civiltà:&lt;/color&gt;\nLe case kancha producono cibo. Riceve un chasqui gratuito con le spedizioni dell'età delle esplorazioni e con ogni avanzamento di età. I chasqui possono costruire i tambo (potenti basi commerciali che possono ricevere spedizioni e in cui i civili possono mettersi al sicuro). Le unità militari possono presidiare i kallanka e le roccaforti. Le sacerdotesse possono convertire i nemici e lavorare presso la piazza comunitaria.\n&lt;color=1.0, 1.0, 0.0&gt;Unità riservate:&lt;/color&gt;\nChasqui, lanciere piumato, corridore chimu, arciere della giungla, guerriero bolas, guerriero con huaraca, guerriero con mazza, sacerdotessa e zattera chincha.\n&lt;color=1.0, 1.0, 0.0&gt;Edifici riservati:&lt;/color&gt;\nKallanka, roccaforte, casa kancha e tambo\n&lt;color=1.0, 1.0, 0.0&gt;Cerimonie riservate:&lt;/color&gt;\nCerimonia della luna e cerimonia di Supay\n\nUn vasto impero sudamericano noto per la potenza delle sue mura e la sua saggia amministrazione.</string>
@@ -34943,7 +35075,7 @@
     <string _locid="90591">Con zone assolate e stagni prosciugati, questa particolare regione del Messico è calda e secca... ma certamente non priva di vita. Questa regione ospita moltissime antilocapre e anche un paio di bisonti che vagano per il paesaggio semi arido. I depositi di rame forniranno abbastanza denaro, ma gli alberi a disposizione sono pochi. Una grande mesa occupa il centro della mappa attraverso la quale passa una lunga rotta commerciale. Attorno ad essa ci sono diversi insediamenti nativi. I giocatori a volte trovano Apache e Navajo, ma altre volte Zapotec e Maya.</string>
     <string _locid="90592">Messico: una lunga rotta commerciale attraversa una grande mesa centrale.\n\nInsediamenti: Navajo, Apache, Zapotechi, Maya\nFuorilegge: comanchero, pistolero</string>
     <string _locid="90593">Ande superiori</string>
-    <string _locid="90594">Le squadre iniziano eccezionalmente vicine l'una all'altra e sono circondate da molte risorse. Innalzare delle mura e giocare sulla difensiva sarà più facile del solito. Non ci sono fiumi in questa regione delle Ande... solo una rotta commerciale e montagne con grandi spazi aperti dove molti insediamenti nativi inca occupano le strettoie.</string>
+    <string _locid="90594">Le squadre iniziano eccezionalmente vicine l'una all'altra e sono circondate da molte risorse. Innalzare delle mura e giocare sulla difensiva sarà più facile del solito. Non ci sono fiumi in questa regione delle Ande, solo una rotta commerciale e montagne con grandi spazi aperti dove molti insediamenti nativi quechua occupano le strettoie.</string>
     <string _locid="90595">Ande superiori: le squadre iniziano eccezionalmente vicine l'una all'altra, situazione perfetta per la modalità di gioco Trattato.\n\nInsediamenti: Quechua\nFuorilegge: pistolero, renegado</string>
     <string _locid="90596">Fiumi paralleli</string>
     <string _locid="90597">I giocatori iniziano in una posizione meridionale, insediati tra tre fiumi paralleli. Questa regione panoramica vanta molti tesori e risorse naturali... anche se tutte lontane e controcorrente. Non ci sono rotte commerciali qui, quindi le squadre dovranno spingersi a nord, verso le montagne. Lì, le capre vagano liberamente, ma dovranno essere scortate a casa... ed è un viaggio lungo.</string>
@@ -34968,6 +35100,24 @@
     <string _locid="90902">Potenzia questa rotta commerciale per l'utilizzo di mercanti itineranti che consegnano le risorse più velocemente e offrono un campo visivo più ampio.</string>
     <string _locid="90903">Lama di ferro</string>
     <string _locid="90904">Carretto a mano</string>
+    <string _locid="90905" symbol="cStringNuggetUnknown" comment="1 - amount, 2 - resource">Una scorta misteriosa.</string>
+    <string _locid="90906" symbol="cStringNuggetUnknownActivate" comment="1 - player, 2 - amount, 3 - resource">%1s ha scoperto una scorta misteriosa di risorse del valore di %2d %3s.</string>
+    <string _locid="90907" symbol="cStringNuggetUnknown2Activate" comment="1 - player, 2 - amount, 3 - resource">%1s ha scoperto una scorta misteriosa di risorse del valore di %2d %3s e %4d %5s.</string>
+    <string _locid="90908" symbol="cStringNuggetUnknown3Activate" comment="1 - player, 2 - amount, 3 - resource">%1s ha scoperto una scorta misteriosa di risorse del valore di %2d %3s, %4d %5s e %6d %7s.</string>
+    <string _locid="90909" symbol="cStringdeTeamNugget">Un deposito segreto del valore di %1d %2s per tutta la squadra.</string>
+    <string _locid="90910" symbol="cStringdeTeamNuggetActivate">%1s ha scoperto un deposito segreto del valore di %2d %3s per tutta la squadra.</string>
+    <string _locid="90911" symbol="cStringdeTeamNugget2Activate">%1s ha scoperto un deposito segreto del valore di %2d %3s, e %4d %5s per tutta la squadra.</string>
+    <string _locid="90912" symbol="cStringdeTeamNugget3Activate">%1s ha scoperto un deposito segreto del valore di %2d %3s, %4d %5s, e %6d %7s per tutta la squadra.</string>
+    <string _locid="90913" symbol="cStringdeTeamUnknownNugget">Un deposito misterioso per tutta la squadra.</string>
+    <string _locid="90914" symbol="cStringdeTeamUnknownNuggetActivate" comment="1 - player, 2 - amount, 3 - resource">%1s ha scoperto una scorta misteriosa di risorse del valore di %2d %3s per tutta la squadra.</string>
+    <string _locid="90915" symbol="cStringdeTeamUnknownNugget2Activate" comment="1 - player, 2 - amount, 3 - resource">%1s ha scoperto una scorta misteriosa di risorse del valore di %2d %3s e %4d %5s per tutta la squadra.</string>
+    <string _locid="90916" symbol="cStringdeTeamUnknownNugget3Activate" comment="1 - player, 2 - amount, 3 - resource">%1s ha scoperto una scorta misteriosa di risorse del valore di %2d %3s, %4d %5s, e %6d %7s per tutta la squadra. </string>
+    <string _locid="90917" symbol="cStringafNomadNugget">Un nomade che ha bisogno di essere salvato.</string>
+    <string _locid="90918" symbol="cStringafNomadNuggetActivate">%1s ha salvato un nomade che adesso è suo alleato.</string>
+    <string _locid="90919" symbol="cStringNuggetProspector">Un carro-prospettore che ha perso la strada, ma potrebbe ancora trovare una miniera.</string>
+    <string _locid="90920" symbol="cStringNuggetProspector">%s ha salvato un carro-prospettore che ora cercherà di localizzare una miniera.</string>
+    <string _locid="90921" symbol="cStringNuggetSaltCamel">Un cammello del sale assetato che ha perso la strada, ma potrebbe trovare una miniera.</string>
+    <string _locid="90922" symbol="cStringNuggetSaltCamel">%s ha portato un cammello del sale assetato all'acqua, ora potrebbe provare a localizzare una miniera.</string>
     <string _locid="91000">Invia altri nostri giovani in battaglia! Non possiamo permettere che il nemico ottenga una vittoria così vile.</string>
     <string _locid="91001">Inti illumina i guerrieri di Huayna Capac! Egli ci concederà una vittoria gloriosa!</string>
     <string _locid="91002">Il Sapa Inca concorda.</string>
@@ -36970,8 +37120,8 @@
     <string _locid="102225" symbol="cStringNuggetafAxumiteActivate" comment="1 - player, 2 - amount, 3 - resource">%1s ha scoperto delle monete axumite perdute del valore di %2d %3s.</string>
     <string _locid="102226" symbol="cStringNuggetafInscriptions" comment="1 - amount, 2 - resource">Antiche iscrizioni che insegnano le vere origini dell'universo e conferiscono %1d %2s.</string>
     <string _locid="102227" symbol="cStringNuggetafInscriptionsActivate" comment="1 - player, 2 - amount, 3 - resource">%1s ha scoperto le vere origini dell'universo e ha ricevuto %2d %3s.</string>
-    <string _locid="102228" symbol="cStringNuggetafYodit" comment="1 - amount, 2 - resource">Una stele axumita che descrive il percorso di distruzione di Yodit e che aumenta leggermente i danni da assedio della fanteria.</string>
-    <string _locid="102229" symbol="cStringNuggetafYoditActivate" comment="1 - player, 2 - amount, 3 - resource">%1!s! ha imparato dal percorso di distruzione di Yodit, aumentando leggermente i danni da assedio della sua fanteria.</string>
+    <string _locid="102228" symbol="cStringNuggetafYodit" comment="1 - amount, 2 - resource">Una stele axumita che descrive il percorso di distruzione di Yodit e che aumenta leggermente i danni d'assedio della fanteria.</string>
+    <string _locid="102229" symbol="cStringNuggetafYoditActivate" comment="1 - player, 2 - amount, 3 - resource">%1!s! ha imparato dal percorso di distruzione di Yodit, aumentando leggermente i danni d'assedio della sua fanteria.</string>
     <string _locid="102230" symbol="cStringNuggetafVisigoth" comment="1 - amount, 2 - resource">Bottino di guerra visigoto saccheggiato da Musa ibn Nusayr del valore di %1d %2s.</string>
     <string _locid="102231" symbol="cStringNuggetafVisigothActivate" comment="1 - player, 2 - amount, 3 - resource">%1s ha scoperto il bottino di guerra visigoto perduto del valore di %2d %3s.</string>
     <string _locid="102232" symbol="cStringNuggetafBalafon" comment="1 - amount, 2 - resource">Balafon di Sundjata che conferisce %1d %2s.</string>
@@ -37113,7 +37263,7 @@
     <string _locid="102550">Arciere ad addestramento rapido che perde rapidamente punti danno, diventando via via meno efficace.</string>
     <string _locid="102551">Cannoniere</string>
     <string _locid="102552">FAN Cannoniere</string>
-    <string _locid="102553">Mercenario cannoniere corazzato dal Portogallo che spara con un pesante moschetto infliggendo danni da assedio.</string>
+    <string _locid="102553">Mercenario cannoniere corazzato dal Portogallo che spara con un pesante moschetto infliggendo danni d'assedio.</string>
     <string _locid="102554">Sciabecco</string>
     <string _locid="102555">NAV Sciabecco</string>
     <string _locid="102556">Nave da guerra mercenaria</string>
@@ -37276,7 +37426,7 @@
     <string _locid="102712">Recinzioni zariba sudanesi</string>
     <string _locid="102713">Le mura (tranne i cancelli) vengono costruite e potenziate più rapidamente e costano la metà del loro prezzo di base in cibo.</string>
     <string _locid="102714">Palizzate zariba sudanesi</string>
-    <string _locid="102715">Mulini, proprietà, fattorie, risaie e campi costano meno legname e vengono costruiti più velocemente.</string>
+    <string _locid="102715">Mulini, proprietà, fattorie, risaie, hacienda e campi costano meno legname e vengono costruiti più velocemente.</string>
     <string _locid="102716">Sistema hakura sudanese</string>
     <string _locid="102717">Spedisce 2 carri del Mar Rosso (costruisce la maggior parte degli edifici).</string>
     <string _locid="102718">Spedisce 1 carro del Mar Rosso (costruisce la maggior parte degli edifici). Spedisce 1 carro del Mar Rosso aggiuntivo ogni 5 minuti di gioco (fino a un massimo di 30 minuti).</string>
@@ -38047,6 +38197,10 @@
     <string _locid="104134">I metodi industriali di lavorazione dei minerali grezzi consentono agli abitanti del villaggio di estrarre dalle miniere molto più velocemente.</string>
     <string _locid="104135" symbol="cStringNuggetPilgrim1">Un pellegrino intrappolato, potrebbe allearsi con chiunque lo liberi.</string>
     <string _locid="104136" symbol="cStringNuggetPilgrim1Activate">%1s ha liberato un pellegrino che adesso è suo alleato.</string>
+    <string _locid="104137" symbol="cStringNuggetKidnapPilgrim">Due pellegrini tenuti prigionieri.</string>
+    <string _locid="104138" symbol="cStringNuggetKidnapPilgrimActivate">%1s ha salvato due pellegrini.</string>
+    <string _locid="104139" symbol="cStringNuggetKidnapSettler">Due coloni tenuti prigionieri.</string>
+    <string _locid="104140" symbol="cStringNuggetKidnapSettlerActivate">%1s ha salvato due coloni.</string>
     <string _locid="104500">Incendio controllato</string>
     <string _locid="104501">I granai ora migliorano anche la raccolta del legname nelle vicinanze. Anche la raccolta da animali e cespugli di bacche nelle vicinanze è più veloce.\n • Raccolta del legname: +15%\n • Animali + bacche: +5%</string>
     <string _locid="104502">Filosofia di Heywat</string>
@@ -38117,7 +38271,7 @@
     <string _locid="104567">8 guerrieri bolas</string>
     <string _locid="104568">Invia 1 cavaliere predone giaguaro per ogni 2 che hai perso finora (fino a un massimo di 16 unità).</string>
     <string _locid="104569">Gladiatori rituali</string>
-    <string _locid="104570">Invia 1 cavaliere del teschio per ogni 2 che hai perso finora (fino a un massimo di 13).</string>
+    <string _locid="104570">Invia 1 cavaliere del teschio per ogni 3 che hai perso finora (fino a un massimo di 13).</string>
     <string _locid="104571">Muro di teschi</string>
     <string _locid="104572" symbol="cStringDanceDesc13">Costo avanzamento di età: %1.2f risorse al secondo (%2.2f totale)</string>
     <string _locid="104573" symbol="cStringDanceDescQ10">- %1.2f /s</string>
@@ -38263,6 +38417,43 @@
     </string>
     <string _locid="104839">
     </string>
+    <string _locid="104840">Iniziazione tlaxcala</string>
+    <string _locid="104841">Chinampa tlaxcala</string>
+    <string _locid="104842">Rule, Britannia</string>
+    <string _locid="104843">Invia una potente nave da battaglia! Questa carta costa 1000 unità di denaro la prossima volta che la invii.</string>
+    <string _locid="104844">Invia una potente nave da battaglia!</string>
+    <string _locid="104845">1 nave da battaglia</string>
+    <string _locid="104846">Invia una potente nave da battaglia che può essere ricostruita al tuo molo, se distrutta.</string>
+    <string _locid="104847">Recluta nave da battaglia</string>
+    <string _locid="104848">Orario di Greenwich</string>
+    <string _locid="104849">Invia 1 carro-base commerciale. Ognuna delle tue basi commerciali migliora i tempi di sviluppo politico e tecnologia del -20%.</string>
+    <string _locid="104850">TUTTE le tecnologie, le carte e i politici si sviluppano più velocemente.</string>
+    <string _locid="104851" symbol="cStringGreenwichTimeAura">Osservatorio reale</string>
+    <string _locid="104852">Cassa di denaro aggiuntiva a ogni spedizione</string>
+    <string _locid="104853">1 carro-arsenale e una tecnologia arsenale gratuita</string>
+    <string _locid="104854">10 insurgente</string>
+    <string _locid="104855">TEAM 1 Falconetto</string>
+    <string _locid="104856">TEAM 1 cannone pesante</string>
+    <string _locid="104857">L'anno meraviglioso</string>
+    <string _locid="104858">
+    </string>
+    <string _locid="104859">Arriva velocemente! Più spedizioni hai ricevuto nella tua età ATTUALE e più economico e veloce sarà il tuo prossimo avanzamento di età.</string>
+    <string _locid="104860">I coloni si allenano e lavorano molto più velocemente per 365 secondi. Un anno meraviglioso, Viva España!</string>
+    <string _locid="104861">Guerriglieri peninsulari</string>
+    <string _locid="104862">Migliora l'attacco di fanteria a distanza e consente loro di vedere la posizione dei nemici che hanno recentemente danneggiato.</string>
+    <string _locid="104863">Vicereame della Nuova Spagna</string>
+    <string _locid="104864">Invia 2 carri hacienda che possono trasformarsi in hacienda da cui i coloni possono raccogliere risorse o aiutare a generare mucche, coloni o potenti soldado.</string>
+    <string _locid="104865">Reconquista</string>
+    <string _locid="104866">Invia 1 conquistador per ogni 5 unità di fanteria arcaica che hai perso (fino a un massimo di 10). Ti consente di sviluppare vari potenziamenti gesuiti presso la tua ambasciata dei Nativi.</string>
+    <string _locid="104867">Invia 1 conquistador per ogni 5 unità di fanteria arcaica che hai perso (fino a un massimo di 10).</string>
+    <string _locid="104868">Nuestras Señoras</string>
+    <string _locid="104869">Invia 2 potenti navi da battaglia.</string>
+    <string _locid="104870">Guerre di liberazione</string>
+    <string _locid="104871">Rende le rivoluzioni più economiche e ti consente di tornare in Spagna per recuperare il tuo mazzo originale.</string>
+    <string _locid="104872">L'anno meraviglioso termina</string>
+    <string _locid="104873">Casa di Trastamára</string>
+    <string _locid="104874">Configura questa hacienda per produrre soldado.</string>
+    <string _locid="104875">Questa hacienda produce soldado.</string>
     <string _locid="105000">Costa d'Oro</string>
     <string _locid="105001">Questa regione costiera tropicale presenta spiagge di sabbia dorata al limitare di pianure erbose e macchia aperta. Il lago Volta interrompe la mappa e, insieme agli altipiani boschivi centrali, crea risorse facilmente difendibili. Questa regione ricca di minerali prende il nome dalla sua esportazione principale e pertanto qui troverai solo miniere d'oro. La prevalenza e l'importanza del commercio marittimo in questa regione è accentuata da una rotta commerciale navale facilmente controllabile dall'oceano, tuttavia non ci sono balene.</string>
     <string _locid="105002">Costa d'Oro: una regione costiera ricca di minerali con grandi miniere d'oro come unica fonte di denaro.\n\nInsediamenti: Akan, Yoruba\nFuorilegge: guerriero del deserto, arciere del deserto</string>
@@ -38721,7 +38912,7 @@
     <string _locid="110278">Cavalleria della Pennsylvania</string>
     <string _locid="110279">Spedisce 1 travois ambasciata dei Nativi e ti fa alleare con i Cree presso la tua ambasciata nativa, dove sono disponibili alcuni loro potenziamenti e unità.</string>
     <string _locid="110280">Festival di Tammany</string>
-    <string _locid="110281">Le casse spedite dalle carte vengono depositate direttamente nella tua scorta e forniscono +900 unità di risorse aggiuntive. Qualsiasi cassa inviata può essere inviata nuovamente.</string>
+    <string _locid="110281">Le casse spedite dalle carte vengono depositate direttamente nella tua scorta e forniscono risorse aggiuntive. Qualsiasi cassa inviata può essere inviata nuovamente.</string>
     <string _locid="110282">Porti marittimi del New Jersey</string>
     <string _locid="110283">Spedisce 4 carri-infrastruttura. Tutte le spedizioni arrivano molto più velocemente, inclusa questa.</string>
     <string _locid="110284">Canale di Morris</string>
@@ -38836,12 +39027,12 @@
     <string _locid="110393">Riduzione popolazione fuorilegge</string>
     <string _locid="110394">Californio</string>
     <string _locid="110395">+100% entrate delle basi commerciali</string>
-    <string _locid="110396">Enormi casse di 360 unità d'oro spagnolo</string>
+    <string _locid="110396">Scrigno del tesoro spagnolo</string>
     <string _locid="110397">Cassa grande di 400 unità di legname</string>
     <string _locid="110398">Cassa di 50 unità di cibo</string>
     <string _locid="110399">Tiratore scelto rivoluzionario</string>
     <string _locid="110400">Fornitura di 400 unità di cibo.</string>
-    <string _locid="110401">Fornitura di 360 unità d'oro spagnolo.</string>
+    <string _locid="110401">Fornitura di 300 unità d'oro spagnolo.</string>
     <string _locid="110402">Cassa grande di 400 unità di cibo</string>
     <string _locid="110403">REV Tiratore scelto</string>
     <string _locid="110404">Raccolta di libri grande</string>
@@ -39034,7 +39225,7 @@
     <string _locid="110591">Nave da battaglia</string>
     <string _locid="110592">NAV Nave da battaglia</string>
     <string _locid="110593">Nave da battaglia mercenaria</string>
-    <string _locid="110594">Nave da battaglia. Una potente nave da guerra mercenaria che solca le onde e comanda i mari.</string>
+    <string _locid="110594">Nave da battaglia. Una potente nave di linea che solca le onde e comanda i mari.</string>
     <string _locid="110595">Conferisce alle basi commerciali una potente abilità caricata che infligge danni ad area.</string>
     <string _locid="110596">Messaggeri con fucili</string>
     <string _locid="110597">Messaggeri con fucili (caricati)</string>
@@ -40644,6 +40835,32 @@
     <string _locid="113188">Trova una base commerciale di un sito di Nativi</string>
     <string _locid="113189">Trova una base commerciale lungo una rotta commerciale</string>
     <string _locid="113190">L'azzardo di Walker</string>
+    <string _locid="113191">Ranger</string>
+    <string _locid="113192">FAN Ranger</string>
+    <string _locid="113193">Schermagliatore britannico. Equipaggiato con un arco a lunga gittata e un fucile per contrastare la fanteria pesante in modo più efficace a distanza ravvicinata.</string>
+    <string _locid="113194">Schermagliatore britannico. Equipaggiato con un fucile per contrastare la fanteria pesante in modo più efficace ma ha una gittata inferiore.</string>
+    <string _locid="113195">Schermagliatore britannico</string>
+    <string _locid="113196">Attacco e punti danno ranger aumentati.</string>
+    <string _locid="113197">Ranger veterani</string>
+    <string _locid="113198">Ranger veterano</string>
+    <string _locid="113199">Ranger della Guardia</string>
+    <string _locid="113200">Ranger della Guardia</string>
+    <string _locid="113201">Ranger imperiali</string>
+    <string _locid="113202">Ranger imperiale</string>
+    <string _locid="113203">Gli arcieri con arco lungo vengono sostituiti dai ranger alla caserma, presso la città madre e sulla mappa. I ranger sono equipaggiati con un arco e con un fucile per contrastare la fanteria pesante in modo più efficace a distanza ravvicinata.</string>
+    <string _locid="113204">Ranger</string>
+    <string _locid="113205">6 ranger</string>
+    <string _locid="113206">8 ranger</string>
+    <string _locid="113207">15 ranger</string>
+    <string _locid="113208">10 ranger</string>
+    <string _locid="113209">20 ranger</string>
+    <string _locid="113211">Gli arcieri con arco lungo vengono sostituiti dai ranger alla caserma, presso la città madre e sulla mappa. I ranger usano un fucile al posto di un arco per contrastare la fanteria pesante in modo più efficace, ma hanno una gittata inferiore.</string>
+    <string _locid="113212">Tiro con l'arco d'assedio</string>
+    <string _locid="113213">Consente agli arcieri con arco lungo di assediare edifici da lunga distanza con frecce infuocate che infliggono danni brucianti nel tempo.</string>
+    <string _locid="113214">Attacco d'assedio a distanza</string>
+    <string _locid="113215">Invia 5 potenti ranger e rimpiazza anche i tuoi attuali arcieri con arco lungo.\n • Le spedizioni degli arcieri con arco lungo ora forniscono invece dei ranger.</string>
+    <string _locid="113216">7 ranger</string>
+    <string _locid="113217">Sovrano dei mari</string>
     <string _locid="200000">Bandiere svedesi</string>
     <string _locid="200001">Metti in mostra bandiere svedesi su questo edificio.</string>
     <string _locid="200002">Centro per il commercio nel Nuovo Mondo (verde)</string>
@@ -40733,6 +40950,18 @@
     <string _locid="210025">Offre prestazioni e qualità dell'immagine ottimizzate.</string>
     <string _locid="210026">Qualità</string>
     <string _locid="210027">Offre una qualità dell'immagine superiore rispetto alla modalità bilanciata.</string>
+    <string _locid="210100">Queste funzionalità sono ancora in fase di sviluppo e possono causare problemi alle persone che utilizzano configurazioni hardware meno comuni. Attivare queste opzioni può influire sulla tua esperienza di gioco in modi imprevisti. Accetti di continuare?</string>
+    <string _locid="230101">Attiva precaricamento delle risorse</string>
+    <string _locid="230102">Attivando il precaricamento delle risorse si forza l'applicazione a preparare le risorse in anticipo durante la schermata di caricamento, consentendo un'esperienza di gioco più fluida. Ciò consumerà più memoria e potrebbe causare problemi su sistemi con 8 GB o meno di RAM.</string>
+    <string _locid="210103">Precaricamento delle risorse (Beta)</string>
+    <string _locid="210104">Il precaricamento delle risorse è progettato per consentire all'applicazione di funzionare in modo più fluido, assicurando che tutte le risorse vengano caricate in anticipo. Si tratta di una funzionalità sperimentale. Disattiva tramite il menu delle opzioni grafiche.</string>
+    <string _locid="210105">Caricamento in corso</string>
+    <string _locid="210106">Finalizzazione in corso</string>
+    <string _locid="210107">Scansione in corso</string>
+    <string _locid="210108">Effetti ambientali</string>
+    <string _locid="210109">Oggetti terreno</string>
+    <string _locid="210110">Risorse mappa</string>
+    <string _locid="210111">Risorse statiche</string>
     <string _locid="220001">Modalità foto</string>
     <string _locid="220002">Movimento:</string>
     <string _locid="220003">Rotazione:</string>
@@ -40741,7 +40970,7 @@
     <string _locid="220006">Ripristina visuale:</string>
     <string _locid="220007">Attiva/disattiva l'interfaccia utente:</string>
     <string _locid="220008">Indietro:</string>
-    <string _locid="220009">Movimento:\n • Tasti WASD o tasti di direzione per spostare la visuale.\n • Q ed E per spostare la visuale su/giù.\n • Spostare il mouse sul bordo per spostare la visuale\n • Tenere premuta la barra spaziatrice, quindi fare clic e trascinare per spostare la visuale.\n\n Rotazione:\n • Alt + WASD o Alt + tasti di direzione per ruotare.\n • Alt + fare clic e trascinare per ruotare.\n\n Zoom avanti/indietro: \n • Utilizzare la rotellina del mouse per fare zoom avanti e indietro</string>
+    <string _locid="220009">Movimento:\n• Tasti WASD per spostare la visuale.\n• Spostare il mouse sul bordo per spostare la visuale.\n\nAltezza:\n• Q ed E per traslare la visuale su/giù.\n\nRotazione:\n• Alt + WASD.\n\nZoom avanti/indietro: \n• Utilizzare la rotellina del mouse per fare zoom avanti e indietro\n\nScreenshot: Stamp\n\nRipristinare visuale: R\n\nAttivare/disattivare interfaccia utente: T\n\nIndietro: Esc</string>
     <string _locid="220010">Attiva/disattiva l'interfaccia utente</string>
     <string _locid="220011">Includi interfaccia utente nella schermata</string>
     <string _locid="220012">Individua cartella:</string>
@@ -40755,5 +40984,16 @@
     <string _locid="220020">Seleziona per attivare/disattivare l'interfaccia utente.</string>
     <string _locid="220021">Seleziona per includere l'interfaccia utente quando fai uno screenshot.</string>
     <string _locid="220022">Seleziona per aprire la posizione della cartella screenshot.</string>
+    <string _locid="220023">Illuminazione giorno predefinita</string>
+    <string _locid="220024">Illuminazione notte predefinita</string>
+    <string _locid="220025">Apri modalità Foto. \nNOTA: questa modalità è attualmente in BETA. \nTutte le impostazioni e le funzionalità di questa modalità sono in fase di sviluppo e possono causare problemi, per esempio nella grafica e nelle prestazioni.</string>
+    <string _locid="220026">Illuminazione</string>
+    <string _locid="220027">Fase: Beta</string>
+    <string _locid="220028">Questa modalità è attualmente in BETA. \nTutte le impostazioni e le funzionalità di questa modalità sono in fase di sviluppo e potrebbero causare problemi.</string>
+    <string _locid="220029">Modalità Foto (Beta)</string>
+    <string _locid="220030">Move Camera Up</string>
+    <string _locid="220031">Move Camera Down</string>
+    <string _locid="220032">Camera Rotate Up</string>
+    <string _locid="220033">Camera Rotate Down</string>
   </language>
 </stringtable>

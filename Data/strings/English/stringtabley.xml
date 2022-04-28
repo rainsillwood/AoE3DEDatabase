@@ -10,7 +10,7 @@
     <string _locid="17062" symbol="cStringCantPayResearchCost" comment="1 - cost, 2 - tech name">An additional %1s required for the improvement %2s.</string>
     <string _locid="17063" symbol="cStringCantPayTrainCost" comment="1 - cost, 2 - unit name">An additional %1s required to train another %2s.</string>
     <string _locid="17064" symbol="cStringCantPayBuildCost" comment="1 - cost, 2 - building name">%1s required to build another %2s.</string>
-    <string _locid="17073" symbol="cStringCoreInitErrorCaption">Error - Unable to continue running the game</string>
+    <string _locid="17073" symbol="cStringCoreInitErrorCaption">Error - Unable to continue running the gamce</string>
     <string _locid="17074" symbol="cStringMultipleGamesRunningError">Only a single copy of the game can run at once! There is another copy of the game already running.</string>
     <string _locid="17075" symbol="cStringBadOSError">This game requires Microsoft Windows XP or later.</string>
     <string _locid="17079" symbol="cStringDetailUnitCost">Cost:\n</string>
@@ -279,6 +279,7 @@
     <string _locid="19036" symbol="cStringEconomy">Economy</string>
     <string _locid="19037" symbol="cStringMilitaryDetail">View detail on the military scores.</string>
     <string _locid="19038" symbol="cStringMilitary">Military</string>
+    <string _locid="19039" symbol="cStringEconomyFilter">Economy (Non-Ranked)</string>
     <string _locid="19041" symbol="cStringGameStatistics">View more advanced game statistics.</string>
     <string _locid="19042" symbol="cStringExperienceDetail">View detail on Experience scores.</string>
     <string _locid="19043" symbol="cStringExperience">Experience</string>
@@ -1696,7 +1697,7 @@
     <string _locid="23527">Comanche Mustangs</string>
     <string _locid="23529">Selective breeding of horses increases cavalry-type unit hitpoints.</string>
     <string _locid="23530">Comanche Horse Breeding</string>
-    <string _locid="23540">Using Aztec floating garden methods, your villagers gather Food from Mills faster, and Boats gather from Fish and Whales faster.</string>
+    <string _locid="23540">Using floating garden methods, your villagers gather Food from Mills faster, and Boats gather from Fish and Whales faster.</string>
     <string _locid="23541">Aztec Chinampa</string>
     <string _locid="23546">Mortar Shell</string>
     <string _locid="23559" symbol="cStringRed">Red</string>
@@ -2182,7 +2183,7 @@
     <string _locid="25336">IGC Nonahkee</string>
     <string _locid="25337">IGC Sahin</string>
     <string _locid="25338">IGC Warwick</string>
-    <string _locid="25339">Heals injured units.</string>
+    <string _locid="25339">Unique Spanish healer with a speedy mount. Doesn’t cost population.</string>
     <string _locid="25340">Missionary</string>
     <string _locid="25343">Define Grouping</string>
     <string _locid="25344" symbol="cStringTrEffectPanWithUnit">Camera Follow Unit</string>
@@ -2372,7 +2373,7 @@
     <string _locid="25664">Hand infantry mercenary</string>
     <string _locid="25665">Food building</string>
     <string _locid="25666">Short-duration ranged infantry</string>
-    <string _locid="25667">Healer</string>
+    <string _locid="25667">Speedy mounted Healer</string>
     <string _locid="25668">Siege artillery</string>
     <string _locid="25669">Heavy ranged infantry</string>
     <string _locid="25670">Native American hand cavalry</string>
@@ -3356,8 +3357,8 @@
     <string _locid="27776">Champion Huaminca</string>
     <string _locid="27778">Champion Eagle Warrior</string>
     <string _locid="27779">Champion Mantlet</string>
-    <string _locid="27780" symbol="cStringNuggetafCorsairLoot" comment="1 - amount, 2 - resource">A pirate captain's secret hideout worth %1d %2s and one shipment.</string>
-    <string _locid="27781" symbol="cStringNuggetafCorsairLootActivate" comment="1 - player, 2 - amount, 3 - resource">%1s has discovered a pirate captain's secret hideout worth %2d %3s and one shipment.</string>
+    <string _locid="27780" symbol="cStringNuggetafCorsairLoot" comment="1 - amount, 2 - resource">A pirate captain's secret hideout worth %2d %3s and %4d %5s.</string>
+    <string _locid="27781" symbol="cStringNuggetafCorsairLootActivate" comment="1 - player, 2 - amount, 3 - resource">%1s has discovered a pirate captain's secret hideout worth %2d %3s and %4d %5s.</string>
     <string _locid="27835">Ships a Fort Wagon to your town, allowing you to construct a mighty Fort.</string>
     <string _locid="27836">Fort</string>
     <string _locid="27844">STARTING TECHS</string>
@@ -3798,7 +3799,7 @@
     <string _locid="29468">Build Cabin</string>
     <string _locid="29469">Crossbowman</string>
     <string _locid="29470">Multiple Crossbowmen</string>
-    <string _locid="29471">Longbowman</string>
+    <string _locid="29471">Longbowman/Ranger</string>
     <string _locid="29472">Multiple Longbowmen</string>
     <string _locid="29473">Janissary</string>
     <string _locid="29474">Multiple Janissaries</string>
@@ -4265,6 +4266,8 @@
     <string _locid="31144">Task on Ice or Rock Bridges to cause them to collapse. Has ranged and hand attack.</string>
     <string _locid="31145">Miner</string>
     <string _locid="31146">SPC Miner</string>
+    <string _locid="31147">Unknown Miner</string>
+    <string _locid="31148">Gathers Coin extremely quickly from mines, but slowly from other Coin sources. Has a powerful grenade attack.</string>
     <string _locid="31153" symbol="cStringNuggetKinkajou" comment="1 - amount, 2 - resource">An adorable kinkajou worth %1d %2s.</string>
     <string _locid="31154" symbol="cStringNuggetKinkajouActivate" comment="1 - player, 2 - amount, 3 - resource">%1s has discovered an adorable kinkajou worth %2d %3s.</string>
     <string _locid="31155" symbol="cStringNuggetSloth" comment="1 - amount, 2 - resource">The dread two-toed sloth worth %1d %2s.</string>
@@ -4836,7 +4839,7 @@
     <string _locid="32909" symbol="cStringAbilityRolloverSharpshooter">Kills treasure guardians in one shot.</string>
     <string _locid="32910" symbol="cStringAbilityNameBroadside">Broadside Attack</string>
     <string _locid="32911" symbol="cStringAbilityRolloverBroadside">Fire on a target with all guns!</string>
-    <string _locid="32912">Ships 26 Roger's Rangers (Skirmishers) from the frontier.</string>
+    <string _locid="32912">Ships a number of Rangers (Skirmishers) from the frontier.</string>
     <string _locid="32913">Roger's Rangers</string>
     <string _locid="32914">The Ottomans have mustered the mighty Tufanci Corps!</string>
     <string _locid="32915">Guard Skirmisher</string>
@@ -5203,7 +5206,7 @@
     <string _locid="33477">Knights of Malta that throw flaming hoops at Janissaries.</string>
     <string _locid="33478">Hoop Thrower</string>
     <string _locid="33479">SPC Hoop Thrower</string>
-    <string _locid="33486">Warships hitpoints and line of sight increased.</string>
+    <string _locid="33486">Warships hitpoints and line of sight increased. Enables Spanish Warships to train certain Military Units.</string>
     <string _locid="33487">Armada</string>
     <string _locid="33492">All unique Ottoman Mosque improvements cost 60% less.</string>
     <string _locid="33493">Mosque Construction</string>
@@ -5507,7 +5510,7 @@
     <string _locid="33973" symbol="cStringmercaddIncCountFld">Count Increment:</string>
     <string _locid="33974">Marsh Plants Bayou</string>
     <string _locid="33975">PROP Marsh Plants Bayou</string>
-    <string _locid="33976">Intensive Aztec battle training gives your Heroes more hitpoints and attack.</string>
+    <string _locid="33976">Intensive battle training gives your Heroes more hitpoints and attack.</string>
     <string _locid="33977">Aztec Initiation</string>
     <string _locid="33978" symbol="cStringMercenaryEditorErrorMsg1">This mercenary unit has already been added to the list. Duplicates are not allowed.</string>
     <string _locid="33979" symbol="cStringmerceditEditBtn">Edit Mercenary</string>
@@ -6217,7 +6220,8 @@
     <string _locid="35298">Moves Mortars and Horse Artillery to the Fortress Age.</string>
     <string _locid="35299">Advanced Artillery</string>
     <string _locid="35307">Yeomen</string>
-    <string _locid="35308">Longbowman range increased.</string>
+    <string _locid="35308">Your Longbowman can shoot their arrows further.</string>
+    <string _locid="35309">Longbowman inflict more damage to Heavy Infantry and gain more range.</string>
     <string _locid="35317">Musketeer and Grenadier attack and hitpoints increased.</string>
     <string _locid="35318">Musketeer / Grenadier Combat</string>
     <string _locid="35319">Hussar and Dragoon hitpoints increased.</string>
@@ -6493,7 +6497,7 @@
     <string _locid="35732">8 Pikemen</string>
     <string _locid="35733">10 Pikemen</string>
     <string _locid="35734">8 Rodeleros</string>
-    <string _locid="35735">13 Rodeleros</string>
+    <string _locid="35735">16 Rodeleros</string>
     <string _locid="35736">9 Rodeleros</string>
     <string _locid="35737">4 Hussars</string>
     <string _locid="35738">6 Lancers</string>
@@ -7519,8 +7523,8 @@
     <string _locid="36937">Through three generations, one family keeps a forgotten secret of the New World from falling into the hands of a dangerous enemy.</string>
     <string _locid="36938" symbol="cStringNuggetCoureur">A trapped Coureur des Bois. He may join the cause of whoever rescues him.</string>
     <string _locid="36939" symbol="cStringNuggetCoureurActivate">%1s has rescued a Coureur des Bois, who joins the cause.</string>
-    <string _locid="36940" symbol="cStringNuggetNative">A trapped Native American warrior. He may join the cause of whoever rescues him.</string>
-    <string _locid="36941" symbol="cStringNuggetNativeActivate">%1s has rescued a Native American warrior, who joins the cause.</string>
+    <string _locid="36940" symbol="cStringNuggetNative">A trapped Native warrior. He may join the cause of whoever rescues him.</string>
+    <string _locid="36941" symbol="cStringNuggetNativeActivate">%1s has rescued a Native warrior, who joins the cause.</string>
     <string _locid="36942" symbol="cStringNuggetPrisSettler">A trapped Settler, who may join the cause of a rescuer.</string>
     <string _locid="36943" symbol="cStringNuggetPrisSettlerActivate">%1s has rescued a Settler, who joins the cause.</string>
     <string _locid="36944" symbol="cStringNuggetPrisSurgeon">A trapped healer, who may join the cause of a rescuer.</string>
@@ -13747,7 +13751,7 @@
     <string _locid="43349">Remove From Any Group</string>
     <string _locid="43350">Find Explorer</string>
     <string _locid="43351">Find Wagon</string>
-    <string _locid="43352">Find Barracks, Blockhouse or War Camp</string>
+    <string _locid="43352">Find Barracks, Blockhouse, War Academy or War Camp</string>
     <string _locid="43353">Find Capitol</string>
     <string _locid="43354">Find Field Hospital</string>
     <string _locid="43355">Build Wall</string>
@@ -14627,9 +14631,9 @@
     <string _locid="44228">8 Coyote Runners</string>
     <string _locid="44229">12 Coyote Runners</string>
     <string _locid="44230">Coyote Runner speed and hitpoints increased.</string>
-    <string _locid="44231">Coyote Combat</string>
+    <string _locid="44231">Coyote Tactics</string>
     <string _locid="44232">Infantry Combat Shipment has arrived.</string>
-    <string _locid="44233">Coyote Combat Shipment has arrived.</string>
+    <string _locid="44233">Coyote Tactics Shipment has arrived.</string>
     <string _locid="44234">9 Puma Spearmen</string>
     <string _locid="44235">6 Puma Spearmen</string>
     <string _locid="44236">8 Otontin Slingers</string>
@@ -15488,7 +15492,7 @@
     <string _locid="45087">The Chief</string>
     <string _locid="45088">Best War Chief Strike attack and improves the War Chief's hitpoints by 50%.</string>
     <string _locid="45089">The Chief</string>
-    <string _locid="45090">+10% War/Nobles' Hut att/hp and 1 War Hut Travois.</string>
+    <string _locid="45090">+10% War Hut &amp; Nobles' Hut attack and hitpoints and 1 War Hut Travois.</string>
     <string _locid="45091">The Elder</string>
     <string _locid="45092">2 Farm Travois</string>
     <string _locid="45093">The Elder</string>
@@ -15523,11 +15527,11 @@
     <string _locid="45122">Zapotec warrior attack and hitpoints increased.</string>
     <string _locid="45123">SHADOW Aztec Swashbuckler</string>
     <string _locid="45124">Elite Lightning Warrior</string>
-    <string _locid="45125">+10% War/Nobles' Hut att/hp and 2 Nobles Hut Travois.</string>
+    <string _locid="45125">+10% War Hut &amp; Nobles' Hut attack and hitpoints and 2 Nobles Hut Travois.</string>
     <string _locid="45126">The Elder</string>
-    <string _locid="45127">+30% War/Nobles' Hut att/hp and 2 Nobles Hut Travois.</string>
+    <string _locid="45127">+30% War Hut &amp; Nobles' Hut attack and hitpoints and 2 Nobles Hut Travois.</string>
     <string _locid="45128">The Elder</string>
-    <string _locid="45129">+50% War/Nobles' Hut att/hp and 2 Nobles Hut Travois.</string>
+    <string _locid="45129">+50% War Hut &amp; Nobles' Hut attack and hitpoints and 2 Nobles Hut Travois.</string>
     <string _locid="45130">The Elder</string>
     <string _locid="45131">400 Wood</string>
     <string _locid="45132">The Chief</string>
@@ -17356,7 +17360,7 @@
     <string _locid="46966">2 Horse Artillery</string>
     <string _locid="46967">3 Horse Artillery</string>
     <string _locid="46968">1 Heavy Cannon +4 Uhlans</string>
-    <string _locid="46969">10 Rodeleros</string>
+    <string _locid="46969">14 Rodeleros</string>
     <string _locid="46970">6 Grenadiers</string>
     <string _locid="46971">8 Halberdiers</string>
     <string _locid="46972">7 Cavalry Archers</string>
@@ -17411,7 +17415,7 @@
     <string _locid="47021" gamecharacter="Railroad Worker" soundfilename="XGENR9292" portraitfilename="resources\art\units\spc\miner\miner_portrait.png">Save us!</string>
     <string _locid="47022" gamecharacter="Railroad Worker" soundfilename="XGENR9293" portraitfilename="resources\art\units\spc\miner\miner_portrait.png">Make a run for the town!</string>
     <string _locid="47023" gamecharacter="Railroad Worker" soundfilename="XGENR9294" portraitfilename="resources\art\units\spc\miner\miner_portrait.png">Help!</string>
-    <string _locid="47024">Now your missionaries boost the attack of nearby soldiers.</string>
+    <string _locid="47024">Now your missionaries boost the attack of nearby Infantry and Cavalry.</string>
     <string _locid="47025">Unction</string>
     <string _locid="47026">Admiralty Shipment has arrived.</string>
     <string _locid="47027">Unction Shipment has arrived.</string>
@@ -19380,7 +19384,7 @@
     <string _locid="49063">A red version of the Emperor's Treasury with dark wood and a touch of gold accent.</string>
     <string _locid="49064">Emperor's Treasury (blue)</string>
     <string _locid="49065">A blue version of the Emperor's Treasury with light wood and a touch of gold accent.</string>
-    <string _locid="49066">Emperor's Treasury (forst green)</string>
+    <string _locid="49066">Emperor's Treasury (forest green)</string>
     <string _locid="49067">A forest green version of the Emperor's Treasury with dark wood and a touch of black accent.</string>
     <string _locid="49068">Emperor's Treasury (stone)</string>
     <string _locid="49069">A stone version of the Emperor's Treasury with brown wood roofing and red wood accent.</string>
@@ -19783,10 +19787,10 @@
     <string _locid="49467">The original version of the Customs House.</string>
     <string _locid="49468">Customs House (gold and white)</string>
     <string _locid="49469">The gold and white version of the Customs House with green covers.</string>
-    <string _locid="49470">Merchant's Guild (red)</string>
-    <string _locid="49471">The red version of the Merchant's Guild</string>
-    <string _locid="49472">Merchant's Guild (blue)</string>
-    <string _locid="49473">The blue version of the Merchant's Guild</string>
+    <string _locid="49470">Merchants' Guild (red)</string>
+    <string _locid="49471">The red version of the Merchants' Guild</string>
+    <string _locid="49472">Merchants' Guild (blue)</string>
+    <string _locid="49473">The blue version of the Merchants' Guild</string>
     <string _locid="49474">Emperor's Treasury (original)</string>
     <string _locid="49475">The original version of the Emperor's Treasury.</string>
     <string _locid="49476">Emperor's Treasury (white)</string>
@@ -19797,10 +19801,10 @@
     <string _locid="49481">The original version of the Customs House.</string>
     <string _locid="49482">Customs House (mahogany red and black)</string>
     <string _locid="49483">The mahogany red and black version of the Customs House.</string>
-    <string _locid="49484">Merchant's Guild (original)</string>
-    <string _locid="49485">The original version of the Merchant's Guild.</string>
-    <string _locid="49486">Merchant's Guild (red and black)</string>
-    <string _locid="49487">The red and black version of the Merchant's Guild.</string>
+    <string _locid="49484">Merchants' Guild (original)</string>
+    <string _locid="49485">The original version of the Merchants' Guild.</string>
+    <string _locid="49486">Merchants' Guild (red and black)</string>
+    <string _locid="49487">The red and black version of the Merchants' Guild.</string>
     <string _locid="49488">Imperial Court (original)</string>
     <string _locid="49489">The original version of the Imperial Court.</string>
     <string _locid="49490">Imperial Court (imperial gold)</string>
@@ -19816,7 +19820,7 @@
     <string _locid="49500">Kite Festival</string>
     <string _locid="49501">The citizens of Japan celebrating the Hamamatsu Kite Festival.</string>
     <string _locid="49502">Japanese fishing boats</string>
-    <string _locid="49503">Display japanese fishing boats by the Merchant's Guild.</string>
+    <string _locid="49503">Display japanese fishing boats by the Merchants' Guild.</string>
     <string _locid="49504">Snow Monkeys</string>
     <string _locid="49505">Snow monkeys running loose in the city.</string>
     <string _locid="49506">Kamihinokinai Paper Balloon Festival - Lanterns</string>
@@ -19882,7 +19886,7 @@
     <string _locid="49566">View Explorer appearance</string>
     <string _locid="49567">Select to apply cosmetic or explorer name change.</string>
     <string _locid="49568">Select to begin the next challenge!</string>
-    <string _locid="49569">Explorer (Default)\nThis is the default version of the Explorer.</string>
+    <string _locid="49569">Prince (Default)\nThis is the default version of the Prince.</string>
     <string _locid="49570">Emperor Tewodros\nEmperor Tewodros in hunting attire, mounted on his white stallion dressed in a gold patterned harness.</string>
     <string _locid="49571">Usman dan Fodio\nUsman dan Fodio in travelling attire equipped with a staff, mounted on his desert camel holding scrolls and other goods.</string>
     <string _locid="49572">Unlock this Explorer customization by completing all the African Royal Event Challenges.</string>
@@ -20012,8 +20016,9 @@
     <string _locid="49696">Unlock this Warchief customization by completing the AoE2DE Celebration Event Challenges.</string>
     <string _locid="49697">Moctezuma</string>
     <string _locid="49698">Tonatiuh</string>
-    <string _locid="49699">Economy mode</string>
-    <string _locid="49700">Economy mode: Players are in a race to obtain the highest score in economy. To win this game mode focus on: building up your economy by training units and build buildings. Collect resources, progress in age and improve your technologies. You can also complete Economy Challenges to boost your score.</string>
+    <string _locid="49699">Economy</string>
+    <string _locid="49700">
+    </string>
     <string _locid="49701">Profile Icon Unlock - AoE2 Female Villager.</string>
     <string _locid="49702">Warchief Customization - Moctezuma.</string>
     <string _locid="49703">Warchief Customization - Tonatiuh.</string>
@@ -20211,13 +20216,13 @@
     <string _locid="49895">Go to https://discord.com/invite/ageofempires/login</string>
     <string _locid="49896">Support</string>
     <string _locid="49897">Find help in our forums.</string>
-    <string _locid="49898">Go to https://forums.ageofempires.com/c/age-of-empires-iii/133</string>
+    <string _locid="49898">Go to https://aoe.ms/AoE3DEForums</string>
     <string _locid="49899">Forums</string>
     <string _locid="49900">Check the latest in our forums.</string>
-    <string _locid="49901">Go to https://support.ageofempires.com/hc/categories/360004101511-Age-of-Empires-III-Definitive-Edition</string>
+    <string _locid="49901">Go to https://aoe.ms/AoE3DEFAQ</string>
     <string _locid="49902">Report an issue</string>
     <string _locid="49903">Report a bug in our forums.</string>
-    <string _locid="49904">Go to https://support.ageofempires.com/hc/articles/360048537332-Reporting-an-Issue</string>
+    <string _locid="49904">Go to https://aoe.ms/AoE3DEReportIssue</string>
     <string _locid="49905">Lunar New Year Event: 2022</string>
     <string _locid="49906">Lunar New Year Event: 2021</string>
     <string _locid="49907">Year of the Tiger</string>
@@ -20305,6 +20310,126 @@
     <string _locid="49985">Additional challenges selected by the player.</string>
     <string _locid="49986">Select Additional Challenges</string>
     <string _locid="49987">Challenges selected: {0}/{1}</string>
+    <string _locid="49988">International Women's Event</string>
+    <string _locid="49989">Profile Icon Unlock - A Dahomey Amazon warrior with purple sunglasses.</string>
+    <string _locid="49990">Build 20 Torps as the Swedes in a single Skirmish or Multiplayer match.</string>
+    <string _locid="49991">Profile Icon Unlock - Queen Christina of Sweden.</string>
+    <string _locid="49992">Win a single player Skirmish or Multiplayer as any Native civilization. (Haudenosaunee, Lakota, Inca, Aztecs, Hausa, Ethiopia)</string>
+    <string _locid="49993">Unlock Cheat - “Granny Nanny”, all villagers turn into Dahomey Amazons.</string>
+    <string _locid="49994">Heal 1000 HP using manors with the Florence Nightingale home city shipment in any amount of Skirmish or Multiplayer matches.</string>
+    <string _locid="49995">Profile Icon Unlock - Female Explorer.</string>
+    <string _locid="49996">Build 50 Manors, Houses, Longhouses, Villages, Shrines, or Kanchas in any amount of Skirmish or Multiplayer matches.</string>
+    <string _locid="49997">Unlock British Explorer Customization - Elisabet Ramsey.</string>
+    <string _locid="49998">Send the Daimyo Mototada, Daimyo Kiyomasa and Shogun Tokugawa home city shipments in any amount of Skirmish or Multiplayer matches.</string>
+    <string _locid="49999">Profile Icon Unlock - Nakano Takeko.</string>
+    <string _locid="55000">Deal 10,000 damage with any type of Indian Elephant. (Mahout Lancer, Howdah, Flail Elephant, Siege Elephant or Mansabdar units)</string>
+    <string _locid="55001">Profile Icon Unlock - Rani Lakshmibai.</string>
+    <string _locid="55002">Build 3 Factories as the British in any amount of Skirmish or Multiplayer matches.</string>
+    <string _locid="55003">Profile Icon Unlock - Ada Lovelace.</string>
+    <string _locid="55004">Ada Lovelace</string>
+    <string _locid="55005">Fascinated by machines and regarded as the first computer programmer the Countess of Lovelace has done the maths to solve the toughest problems. Equipped with the charme of her romantic father Lord Byron and a protoype gun with a deadly algorithm Ada Lovelace will make a lasting impression.</string>
+    <string _locid="55006">Unlock this customization by completing the International Women's Event Challenges.</string>
+    <string _locid="55007">Time: {0}/00:{1}:00</string>
+    <string _locid="55008">Score Goal: {0}</string>
+    <string _locid="55009">Profile Icon Unlock - Winter Female Explorer.</string>
+    <string _locid="55010">Unlock British Explorer Customization - Ada Lovelace.</string>
+    <string _locid="55011">Lizzie the Pirate</string>
+    <string _locid="55012">Although raised as daughter of an English nobleman, Elisabet Ramsey prefers to be buccaneering in the Carribean with - and without - Her Majesty's letter of marque.</string>
+    <string _locid="55013">Explorer (Default)\nThis is the default version of the Explorer.</string>
+    <string _locid="55014" symbol="cStringOldReplayWarning">Warning: This replay was recorded in an earlier version of the game. Unfortunately, this greatly increases the chance of it going out of sync.</string>
+    <string _locid="55015">Danger</string>
+    <string _locid="55016">Attack here</string>
+    <string _locid="55017">Assist here</string>
+    <string _locid="55018">Watch here</string>
+    <string _locid="55019">{0} has alerted danger in this area.</string>
+    <string _locid="55020">{0} has requested to attack in this area.</string>
+    <string _locid="55021">{0} has requested assist in this area.</string>
+    <string _locid="55022">{0} has alerted to watch in this area.</string>
+    <string _locid="55023">Select a ping option.</string>
+    <string _locid="55024">Communication Ping</string>
+    <string _locid="55025">Opens a ping wheel with an assortment of options such as: Danger, Attack here, Assist here and Watch here.</string>
+    <string _locid="55026">Beta Settings</string>
+    <string _locid="55027">All beta settings below may cause issues, such as graphical and performance issues.</string>
+    <string _locid="55028">Warning Flare (Beta): Click this button, and then click in the world or minimap to send a warning flare.</string>
+    <string _locid="55029">Select flare type</string>
+    <string _locid="55030">Spring Event</string>
+    <string _locid="55031">Profile Icon Unlock - Flower vendor stand.</string>
+    <string _locid="55032">Research Cherry Blossom Festival as the Japanese.</string>
+    <string _locid="55033">Profile Icon Unlock - A song bird perched on a branch of blooming flowers.</string>
+    <string _locid="55034">Win a Skirmish or Multiplayer game as the Ethiopians, Hausa, Incas or Aztecs.</string>
+    <string _locid="55035">Profile Icon Unlock - A kaleidoscope of butterflies flying together.</string>
+    <string _locid="55036">Build 40 Farms, Fields, Mills or Rice Paddies in any amount of Skirmish or Multiplayer matches.</string>
+    <string _locid="55037">Unlock Spain Explorer Customization - Heroic Villager.</string>
+    <string _locid="55038">Gather 10,000 flowers (available in any resource crate) in any amount of Skirmish or Multiplayer matches.</string>
+    <string _locid="55039">Profile Icon Unlock - Capybara wearing a flower crown.</string>
+    <string _locid="55040">Send 30 Shipments from your Home City in any amount of Skirmish or Multiplayer matches.</string>
+    <string _locid="55041">Unlock Spain Explorer Customization - Flamenco Dancer.</string>
+    <string _locid="55042">Select a Computer Personality to play co-op with.</string>
+    <string _locid="55043">Flamenco Dancer</string>
+    <string _locid="55044">Flamenco Dancer\nRaised by the hot Andalusian sun itself this Flamenco Dancer harnessed the flame and is determined to perform her fiery dance in the wooden base of your enemy.</string>
+    <string _locid="55045">Heroic Villager</string>
+    <string _locid="55046">Heroic Villager\nThis heroic Spanish villager knows how to restore your supremacy! If your town or village is under attack you can count on her.</string>
+    <string _locid="55047">Unlock this customization by completing the Spring Event Challenges.</string>
+    <string _locid="55500">
+    </string>
+    <string _locid="55501">
+    </string>
+    <string _locid="55502">
+    </string>
+    <string _locid="55503">
+    </string>
+    <string _locid="55504">
+    </string>
+    <string _locid="55505">
+    </string>
+    <string _locid="55506">
+    </string>
+    <string _locid="55507">
+    </string>
+    <string _locid="55508">
+    </string>
+    <string _locid="55509">
+    </string>
+    <string _locid="55510">
+    </string>
+    <string _locid="55511">
+    </string>
+    <string _locid="55512">
+    </string>
+    <string _locid="55513">
+    </string>
+    <string _locid="55514">
+    </string>
+    <string _locid="55515">Expired</string>
+    <string _locid="55516">
+    </string>
+    <string _locid="55517">
+    </string>
+    <string _locid="55518">
+    </string>
+    <string _locid="55519">
+    </string>
+    <string _locid="55520">
+    </string>
+    <string _locid="55521">
+    </string>
+    <string _locid="55522">
+    </string>
+    <string _locid="55523">
+    </string>
+    <string _locid="55524">
+    </string>
+    <string _locid="55525">
+    </string>
+    <string _locid="55526">
+    </string>
+    <string _locid="55527">
+    </string>
+    <string _locid="55528">
+    </string>
+    <string _locid="55529">(No Blockade)</string>
+    <string _locid="55530">(Blockade)</string>
+    <string _locid="55531">{0} is now available in the mods browser!</string>
     <string _locid="60001" symbol="cStringCivNameJapanese">Japanese</string>
     <string _locid="60002" symbol="cStringCivNameChinese">Chinese</string>
     <string _locid="60003" symbol="cStringCivNameIndians">Indians</string>
@@ -20410,7 +20535,7 @@
     <string _locid="60103">Religious leader who stuns Treasure Guardians and has a chance to do Divine Strike damage in combat. Explores, fights, and builds Town Centers, Trading Posts, and Shrines.</string>
     <string _locid="60104">Sohei Archer</string>
     <string _locid="60105">MONK Sohei Archer</string>
-    <string _locid="60106">Hand infantry Mercenary</string>
+    <string _locid="60106" symbol="cStringHandInfantryMerc">Hand Infantry Mercenary</string>
     <string _locid="60107">Japanese samurai mercenary.</string>
     <string _locid="60108">Ronin</string>
     <string _locid="60109">INF Ronin</string>
@@ -23305,7 +23430,7 @@
     <string _locid="63088">Honored Samurai</string>
     <string _locid="63089">Exalted Samurai</string>
     <string _locid="63090" symbol="cStringIncreaseResearchPointsEffect">%1!s!: Research Points +%2!.0f!%%</string>
-    <string _locid="63091" symbol="cStringAddResearchPointsEffect">%1s: Adds %2.2f Research Points</string>
+    <string _locid="63091" symbol="cStringAddResearchPointsEffect">%1s: %2.2f Research Time</string>
     <string _locid="63092" symbol="cStringSetResearchPointsEffect">%1s: Sets Research Points to %2.2f</string>
     <string _locid="63093">Villager</string>
     <string _locid="63094">Villager that gathers resources.</string>
@@ -25165,35 +25290,35 @@
     <string _locid="65013">Shoreline Rock Small CJ</string>
     <string _locid="65014">PROP Shoreline Rock Small CJ</string>
     <string _locid="65015">The White Pagoda ships Disciples and has Sacred Vault which increases the stats of the Shaolin Master and Disciples, and the latter's train limit.</string>
-    <string _locid="65016">The White Pagoda ships Disciples and has Sacred Vault which increases the stats of the Shaolin Master and Disciples, and the latter's train limit.\n----------\nShipments gained when built:\nII: Ships 4 Disciples\nIII: Ships 6 Disciples \nIV: Ships 10 Disciples\nV: Ships 14 Disciples</string>
+    <string _locid="65016">The White Pagoda ships Disciples and has Sacred Vault which increases the stats of the Shaolin Master and Disciples, and the latter's train limit.\n----------\nShipments gained when built:\nII: Ships 4 Disciples\nIII: Ships 6 Disciples \nIV: Ships 10 Disciples\nV: Ships 16 Disciples</string>
     <string _locid="65017">White Pagoda</string>
     <string _locid="65018">WON White Pagoda</string>
     <string _locid="65019">The White Pagoda ships Disciples and has Sacred Vault which increases the stats of the Shaolin Master and Disciples, and the latter's train limit.</string>
-    <string _locid="65020">The White Pagoda ships Disciples and has Sacred Vault which increases the stats of the Shaolin Master and Disciples, and the latter's train limit.\n----------\nShipments gained when built:\nII: Ships 4 Disciples\nIII: Ships 6 Disciples \nIV: Ships 10 Disciples\nV: Ships 14 Disciples</string>
+    <string _locid="65020">The White Pagoda ships Disciples and has Sacred Vault which increases the stats of the Shaolin Master and Disciples, and the latter's train limit.\n----------\nShipments gained when built:\nII: Ships 4 Disciples\nIII: Ships 6 Disciples \nIV: Ships 10 Disciples\nV: Ships 16 Disciples</string>
     <string _locid="65021">White Pagoda</string>
     <string _locid="65022">WON White Pagoda</string>
     <string _locid="65023">The White Pagoda ships Disciples and has Sacred Vault which increases the stats of the Shaolin Master and Disciples, and the latter's train limit.</string>
-    <string _locid="65024">The White Pagoda ships Disciples and has Sacred Vault which increases the stats of the Shaolin Master and Disciples, and the latter's train limit.\n----------\nShipments gained when built:\nII: Ships 4 Disciples\nIII: Ships 6 Disciples \nIV: Ships 10 Disciples\nV: Ships 14 Disciples</string>
+    <string _locid="65024">The White Pagoda ships Disciples and has Sacred Vault which increases the stats of the Shaolin Master and Disciples, and the latter's train limit.\n----------\nShipments gained when built:\nII: Ships 4 Disciples\nIII: Ships 6 Disciples \nIV: Ships 10 Disciples\nV: Ships 16 Disciples</string>
     <string _locid="65025">White Pagoda</string>
     <string _locid="65026">WON White Pagoda</string>
     <string _locid="65027">The White Pagoda ships Disciples and has Sacred Vault which increases the stats of the Shaolin Master and Disciples, and the latter's train limit.</string>
-    <string _locid="65028">The White Pagoda ships Disciples and has Sacred Vault which increases the stats of the Shaolin Master and Disciples, and the latter's train limit.\n----------\nShipments gained when built:\nII: Ships 4 Disciples\nIII: Ships 6 Disciples \nIV: Ships 10 Disciples\nV: Ships 14 Disciples</string>
+    <string _locid="65028">The White Pagoda ships Disciples and has Sacred Vault which increases the stats of the Shaolin Master and Disciples, and the latter's train limit.\n----------\nShipments gained when built:\nII: Ships 4 Disciples\nIII: Ships 6 Disciples \nIV: Ships 10 Disciples\nV: Ships 16 Disciples</string>
     <string _locid="65029">White Pagoda</string>
     <string _locid="65030">WON White Pagoda</string>
     <string _locid="65031">The Porcelain Tower generates resources per second which can be set to food, wood, coin, or a combination of all resources including export and experience.</string>
-    <string _locid="65032">The Porcelain Tower generates resources per second which can be set to food, wood, coin, or a combination of all resources including export and experience.\n----------\nProduction value when built:\nII: Food: 3 / Wood: 2.5 / Coin: 2.5 /\nCombo: 0.6 food, 0.6 wood, 0.6 coin, 0.18 export, 0.18 XP\nIII: Food: 4.5 / Wood: 4 / Coin: 4 /\nCombo: 1.25 food, 1 wood, 1 coin, 0.25 export, 0.25 XP\nIV: Food: 6 / Wood: 5.5 / Coin / 5.5 /\nCombo: 1.5 food, 1.1 wood, 1.1 coin, 0.4 export, 0.4 XP\nV: Food: 6.5 / Wood: 6 / Coin: 6 /\nCombo: 1.5 food, 2 wood, 2 coin, 0.5 export, 0.5 XP</string>
+    <string _locid="65032">The Porcelain Tower generates resources per second which can be set to food, wood, coin, or a combination of all resources including export and experience.\n----------\nProduction value when built:\nII: Food: 3 / Wood: 2.5 / Coin: 2.5 /\nCombo: 0.6 food, 0.6 wood, 0.6 coin, 0.18 export, 0.18 XP\nIII: Food: 4.5 / Wood: 4 / Coin: 4 /\nCombo: 1.25 food, 1 wood, 1 coin, 0.25 export, 0.25 XP\nIV: Food: 6 / Wood: 5.5 / Coin / 5.5 /\nCombo: 1.5 food, 1.1 wood, 1.1 coin, 0.4 export, 0.4 XP\nV: Food: 6.5 / Wood: 6 / Coin: 6 /\nCombo: 2 food, 1.5 wood, 1.5 coin, 0.5 export, 0.5 XP</string>
     <string _locid="65033">Porcelain Tower</string>
     <string _locid="65034">WON Porcelain Tower</string>
     <string _locid="65035">The Porcelain Tower generates resources per second which can be set to food, wood, coin, or a combination of all resources including export and experience.</string>
-    <string _locid="65036">The Porcelain Tower generates resources per second which can be set to food, wood, coin, or a combination of all resources including export and experience.\n----------\nProduction value when built:\nII: Food: 3 / Wood: 2.5 / Coin: 2.5 /\nCombo: 0.6 food, 0.6 wood, 0.6 coin, 0.18 export, 0.18 XP\nIII: Food: 4.5 / Wood: 4 / Coin: 4 /\nCombo: 1.25 food, 1 wood, 1 coin, 0.25 export, 0.25 XP\nIV: Food: 6 / Wood: 5.5 / Coin / 5.5 /\nCombo: 1.5 food, 1.1 wood, 1.1 coin, 0.4 export, 0.4 XP\nV: Food: 6.5 / Wood: 6 / Coin: 6 /\nCombo: 1.5 food, 2 wood, 2 coin, 0.5 export, 0.5 XP</string>
+    <string _locid="65036">The Porcelain Tower generates resources per second which can be set to food, wood, coin, or a combination of all resources including export and experience.\n----------\nProduction value when built:\nII: Food: 3 / Wood: 2.5 / Coin: 2.5 /\nCombo: 0.6 food, 0.6 wood, 0.6 coin, 0.18 export, 0.18 XP\nIII: Food: 4.5 / Wood: 4 / Coin: 4 /\nCombo: 1.25 food, 1 wood, 1 coin, 0.25 export, 0.25 XP\nIV: Food: 6 / Wood: 5.5 / Coin / 5.5 /\nCombo: 1.5 food, 1.1 wood, 1.1 coin, 0.4 export, 0.4 XP\nV: Food: 6.5 / Wood: 6 / Coin: 6 /\nCombo: 2 food, 1.5 wood, 1.5 coin, 0.5 export, 0.5 XP</string>
     <string _locid="65037">Porcelain Tower</string>
     <string _locid="65038">WON Porcelain Tower</string>
     <string _locid="65039">The Porcelain Tower generates resources per second which can be set to food, wood, coin, or a combination of all resources including export and experience.</string>
-    <string _locid="65040">The Porcelain Tower generates resources per second which can be set to food, wood, coin, or a combination of all resources including export and experience.\n----------\nProduction value when built:\nII: Food: 3 / Wood: 2.5 / Coin: 2.5 /\nCombo: 0.6 food, 0.6 wood, 0.6 coin, 0.18 export, 0.18 XP\nIII: Food: 4.5 / Wood: 4 / Coin: 4 /\nCombo: 1.25 food, 1 wood, 1 coin, 0.25 export, 0.25 XP\nIV: Food: 6 / Wood: 5.5 / Coin / 5.5 /\nCombo: 1.5 food, 1.1 wood, 1.1 coin, 0.4 export, 0.4 XP\nV: Food: 6.5 / Wood: 6 / Coin: 6 /\nCombo: 1.5 food, 2 wood, 2 coin, 0.5 export, 0.5 XP</string>
+    <string _locid="65040">The Porcelain Tower generates resources per second which can be set to food, wood, coin, or a combination of all resources including export and experience.\n----------\nProduction value when built:\nII: Food: 3 / Wood: 2.5 / Coin: 2.5 /\nCombo: 0.6 food, 0.6 wood, 0.6 coin, 0.18 export, 0.18 XP\nIII: Food: 4.5 / Wood: 4 / Coin: 4 /\nCombo: 1.25 food, 1 wood, 1 coin, 0.25 export, 0.25 XP\nIV: Food: 6 / Wood: 5.5 / Coin / 5.5 /\nCombo: 1.5 food, 1.1 wood, 1.1 coin, 0.4 export, 0.4 XP\nV: Food: 6.5 / Wood: 6 / Coin: 6 /\nCombo: 2 food, 1.5 wood, 1.5 coin, 0.5 export, 0.5 XP</string>
     <string _locid="65041">Porcelain Tower</string>
     <string _locid="65042">WON Porcelain Tower</string>
     <string _locid="65043">The Porcelain Tower generates resources per second which can be set to food, wood, coin, or a combination of all resources including export and experience.</string>
-    <string _locid="65044">The Porcelain Tower generates resources per second which can be set to food, wood, coin, or a combination of all resources including export and experience.\n----------\nProduction value when built:\nII: Food: 3 / Wood: 2.5 / Coin: 2.5 /\nCombo: 0.6 food, 0.6 wood, 0.6 coin, 0.18 export, 0.18 XP\nIII: Food: 4.5 / Wood: 4 / Coin: 4 /\nCombo: 1.25 food, 1 wood, 1 coin, 0.25 export, 0.25 XP\nIV: Food: 6 / Wood: 5.5 / Coin / 5.5 /\nCombo: 1.5 food, 1.1 wood, 1.1 coin, 0.4 export, 0.4 XP\nV: Food: 6.5 / Wood: 6 / Coin: 6 /\nCombo: 1.5 food, 2 wood, 2 coin, 0.5 export, 0.5 XP</string>
+    <string _locid="65044">The Porcelain Tower generates resources per second which can be set to food, wood, coin, or a combination of all resources including export and experience.\n----------\nProduction value when built:\nII: Food: 3 / Wood: 2.5 / Coin: 2.5 /\nCombo: 0.6 food, 0.6 wood, 0.6 coin, 0.18 export, 0.18 XP\nIII: Food: 4.5 / Wood: 4 / Coin: 4 /\nCombo: 1.25 food, 1 wood, 1 coin, 0.25 export, 0.25 XP\nIV: Food: 6 / Wood: 5.5 / Coin / 5.5 /\nCombo: 1.5 food, 1.1 wood, 1.1 coin, 0.4 export, 0.4 XP\nV: Food: 6.5 / Wood: 6 / Coin: 6 /\nCombo: 2 food, 1.5 wood, 1.5 coin, 0.5 export, 0.5 XP</string>
     <string _locid="65045">Porcelain Tower</string>
     <string _locid="65046">WON Porcelain Tower</string>
     <string _locid="65047">Shipment: 1500 Coin\n \nPower: Cease Fire - stops fighting for a short time.</string>
@@ -26050,7 +26175,7 @@
     <string _locid="65901">CON Young Guard</string>
     <string _locid="65902">Ships Black Watch.</string>
     <string _locid="65903">Ships Black Watch.</string>
-    <string _locid="65904">Bonus: -20% to Banner Army Food Cost\n\nTrains: Doppelsoldners, Skirmishers, Heavy Cannons\n\nShipments: Resource trickles</string>
+    <string _locid="65904">Bonus: -15% to Banner Army Food Cost\n\nTrains: Doppelsoldners, Skirmishers, Heavy Cannons\n\nShipments: Resource trickles</string>
     <string _locid="65905">German Allies</string>
     <string _locid="65906">Kick out your ally so that you can choose a new one.</string>
     <string _locid="65907">End Relations</string>
@@ -29673,7 +29798,7 @@
     <string _locid="69540">A Japanese swordsman with no master. Good against cavalry and buildings.</string>
     <string _locid="69541">Repentant Ronin</string>
     <string _locid="69542">REP Ronin</string>
-    <string _locid="69543">Hand cavalry mercenary</string>
+    <string _locid="69543" symbol="cStringHandCavalryMerc">Hand Cavalry Mercenary</string>
     <string _locid="69544">Hand cavalry mercenary from the Balkans.</string>
     <string _locid="69545">Repentant Stradiot</string>
     <string _locid="69546">REP Stradiot</string>
@@ -30656,7 +30781,7 @@
     <string _locid="70522">Skirmisher with low hitpoints, but a strong attack. Good against infantry.</string>
     <string _locid="70523">Veteran Cassador</string>
     <string _locid="70524">INF Cassador</string>
-    <string _locid="70528">360 Coin Crate with every shipment</string>
+    <string _locid="70528">350 Coin Crate with every shipment</string>
     <string _locid="70529">Supply of 400 Coin.</string>
     <string _locid="70530">Chests of 400 Coin</string>
     <string _locid="70531">Crate 400 Coin Large</string>
@@ -32562,6 +32687,13 @@
     <string _locid="79960">Large Map</string>
     <string _locid="79961">Loads the larger variant for the selected map.</string>
     <string _locid="79962">15 Sheep + 1 Homestead Wagon + 3 Uhlans</string>
+    <string _locid="79963">[RESERVED]</string>
+    <string _locid="79964">[RESERVED]</string>
+    <string _locid="79965">[RESERVED]</string>
+    <string _locid="79966">[RESERVED]</string>
+    <string _locid="79967">[RESERVED]</string>
+    <string _locid="79968">[RESERVED]</string>
+    <string _locid="79969">[RESERVED]</string>
     <string _locid="80000" symbol="cStringCultureInca">Inca</string>
     <string _locid="80001" symbol="cStringCivNameInca">Inca</string>
     <string _locid="80002" symbol="cStringCivRolloverInca">&lt;color=1.0, 1.0, 0.0&gt;Civilization bonus:&lt;/color&gt;\nKancha Houses produce food. Receives a free Chasqui with Exploration Age shipments and with each Age-up. Chasqui's can construct Tambos (powerful Trading Posts that can receive shipments and civilians can garrison in). Military units can garrison in Kallankas and Strongholds. Priestesses can convert enemies and work at the Community Plaza.\n&lt;color=1.0, 1.0, 0.0&gt;Unique units:&lt;/color&gt;\nChasqui, Plumed Spearman, Chimu Runner, Jungle Bowman, Bolas Warrior, Huaraca, Maceman, Priestess and Chincha Raft.\n&lt;color=1.0, 1.0, 0.0&gt;Unique buildings:&lt;/color&gt;\nKallanka, Stronghold, Kancha House and Tambo\n&lt;color=1.0, 1.0, 0.0&gt;Unique ceremonies:&lt;/color&gt;\nMoon Ceremony and Supay Ceremony\n\nA vast South American empire known for the power of its walls and smart administration.</string>
@@ -34943,7 +35075,7 @@
     <string _locid="90591">With scorching rays and dried-up ponds, this particular region of Mexico is hot and dry - but certainly not barren. Plenty of pronghorn, and even a few bison, roam this semi-arid landscape. Veins of copper will supply adequate coin, but there are very limited trees. A large mesa occupies the center of the map through which a lengthy trading route passes by. Surrounding it are several native settlements; players will sometimes find the Apache and Navajo, but at other times the Zapotec and Maya.</string>
     <string _locid="90592">Mexico: a lengthy trading route passes through a large central mesa.\n\nSettlements: Navajo, Apache, Zapotec, Maya\nOutlaws: Comanchero, Pistolero</string>
     <string _locid="90593">Andes-Upper</string>
-    <string _locid="90594">Teams begin exceptionally close to each other and are surrounded by plenty of resources - walling up and playing defensively will be easier than usual. There are no rivers in this region of the Andes… only a trading route and wide-open mountains where many native Inca settlements occupy the chokepoints.</string>
+    <string _locid="90594">Teams begin exceptionally close to each other and are surrounded by plenty of resources - walling up and playing defensively will be easier than usual. There are no rivers in this region of the Andes, only a trading route and wide-open mountains where many native Quechua settlements occupy the chokepoints.</string>
     <string _locid="90595">Andes-Upper: Teams begin exceptionally close to each other - perfect for the Treaty game mode.\n\nSettlements: Quechua\nOutlaws: Pistolero, Renegado</string>
     <string _locid="90596">Parallel Rivers</string>
     <string _locid="90597">Players begin in a southerly position, nestled between three parallel rivers. This scenic region boasts many treasures and plenty of natural resources - though all of them upstream. There are no trading routes here, so teams must push northward towards the mountains. There, goats roam freely - though will need to be escorted home... it’s a long journey back.</string>
@@ -34968,6 +35100,24 @@
     <string _locid="90902">Upgrades this Trade Route to use Traveling Merchants, which can deliver resources, move faster, and provide greater line of sight.</string>
     <string _locid="90903">Iron Llama</string>
     <string _locid="90904">Hand Cart</string>
+    <string _locid="90905" symbol="cStringNuggetUnknown" comment="1 - amount, 2 - resource">A mysterious stash.</string>
+    <string _locid="90906" symbol="cStringNuggetUnknownActivate" comment="1 - player, 2 - amount, 3 - resource">%1s discovered a mysterious stash of resources worth %2d %3s.</string>
+    <string _locid="90907" symbol="cStringNuggetUnknown2Activate" comment="1 - player, 2 - amount, 3 - resource">%1s discovered a mysterious stash of resources worth %2d %3s and %4d %5s.</string>
+    <string _locid="90908" symbol="cStringNuggetUnknown3Activate" comment="1 - player, 2 - amount, 3 - resource">%1s discovered a mysterious stash of resources worth %2d %3s, %4d %5s, and %6d %7s. </string>
+    <string _locid="90909" symbol="cStringdeTeamNugget">A hidden cache worth %1d %2s for the entire team.</string>
+    <string _locid="90910" symbol="cStringdeTeamNuggetActivate">%1s discovered a hidden cache worth %2d %3s for their team.</string>
+    <string _locid="90911" symbol="cStringdeTeamNugget2Activate">%1s discovered a hidden cache worth %2d %3s, and %4d %5s for their team.</string>
+    <string _locid="90912" symbol="cStringdeTeamNugget3Activate">%1s discovered a hidden cache worth %2d %3s, %4d %5s, and %6d %7s for their team.</string>
+    <string _locid="90913" symbol="cStringdeTeamUnknownNugget">A mysterious cache for the entire team.</string>
+    <string _locid="90914" symbol="cStringdeTeamUnknownNuggetActivate" comment="1 - player, 2 - amount, 3 - resource">%1s discovered a mysterious stash of resources worth %2d %3s for their team.</string>
+    <string _locid="90915" symbol="cStringdeTeamUnknownNugget2Activate" comment="1 - player, 2 - amount, 3 - resource">%1s discovered a mysterious stash of resources worth %2d %3s and %4d %5s for their team.</string>
+    <string _locid="90916" symbol="cStringdeTeamUnknownNugget3Activate" comment="1 - player, 2 - amount, 3 - resource">%1s discovered a mysterious stash of resources worth %2d %3s, %4d %5s, and %6d %7s for their team. </string>
+    <string _locid="90917" symbol="cStringafNomadNugget">A Nomad in need of rescue.</string>
+    <string _locid="90918" symbol="cStringafNomadNuggetActivate">%1s has rescued a Nomad, who joins the cause.</string>
+    <string _locid="90919" symbol="cStringNuggetProspector">A Prospector Wagon that has lost its way, but may still be able to find a mine.</string>
+    <string _locid="90920" symbol="cStringNuggetProspector">%s has rescued a Prospector Wagon that will now try to locate a mine.</string>
+    <string _locid="90921" symbol="cStringNuggetSaltCamel">A thirsty Salt Camel that has lost its way, but might be able to find a mine.</string>
+    <string _locid="90922" symbol="cStringNuggetSaltCamel">%s has led a thirsty Salt Camel to water, now it may try to locate a mine.</string>
     <string _locid="91000">Send more of our young men into battle! We cannot let the enemy achieve such a cowardly victory.</string>
     <string _locid="91001">Inti shines his light upon Huayna Capac's warriors! He will grant us a glorious victory!</string>
     <string _locid="91002">The Sapa Inca agrees.</string>
@@ -37276,7 +37426,7 @@
     <string _locid="102712">Sudanese Zariba Fences</string>
     <string _locid="102713">Walls (except Gates) are built and upgraded faster, and now cost half of their base cost as Food.</string>
     <string _locid="102714">Sudanese Zariba Palisades</string>
-    <string _locid="102715">Mills, Estates, Farms, Rice Paddies, and Fields cost less Wood and are built faster.</string>
+    <string _locid="102715">Mills, Estates, Farms, Rice Paddies, Haciendas and Fields cost less Wood and are built faster.</string>
     <string _locid="102716">Sudanese Hakura System</string>
     <string _locid="102717">Ships 2 Red Sea Wagons (constructs most buildings).</string>
     <string _locid="102718">Ships 1 Red Sea Wagon (constructs most buildings). Ships 1 additional Red Sea Wagon for every 5 minutes of game time passed (up to a maximum of 30 minutes).</string>
@@ -38047,6 +38197,10 @@
     <string _locid="104134">Industrial methods for processing ore enable Villagers to gather mines considerably faster.</string>
     <string _locid="104135" symbol="cStringNuggetPilgrim1">A trapped Pilgrim, who may join the cause of a rescuer.</string>
     <string _locid="104136" symbol="cStringNuggetPilgrim1Activate">%1s has rescued a Pilgrim, who joins the cause.</string>
+    <string _locid="104137" symbol="cStringNuggetKidnapPilgrim">Two Pilgrims held prisoner.</string>
+    <string _locid="104138" symbol="cStringNuggetKidnapPilgrimActivate">%1s has rescued two Pilgrims.</string>
+    <string _locid="104139" symbol="cStringNuggetKidnapSettler">Two Settlers held prisoner.</string>
+    <string _locid="104140" symbol="cStringNuggetKidnapSettlerActivate">%1s has rescued two Settlers.</string>
     <string _locid="104500">Bushburning</string>
     <string _locid="104501">Granaries now also improve nearby wood gathering. Nearby animals and berries are gathered faster too.\n • Wood Gathering: +15%\n • Animals + Berries: +5%</string>
     <string _locid="104502">Heywat Philosophy</string>
@@ -38117,7 +38271,7 @@
     <string _locid="104567">8 Bolas Warriors</string>
     <string _locid="104568">Ships 1 Jaguar Prowl Knight for each 2 you have lost so far (ships up to a maximum of 16 units).</string>
     <string _locid="104569">Ritual Gladiators</string>
-    <string _locid="104570">Ships 1 Skull Knight for each 2 you have lost so far (up to a maximum of 13).</string>
+    <string _locid="104570">Ships 1 Skull Knight for each 3 you have lost so far (up to a maximum of 13).</string>
     <string _locid="104571">Wall of Skulls</string>
     <string _locid="104572" symbol="cStringDanceDesc13">Age up costs - %1.2f resources per second (%2.2f total)</string>
     <string _locid="104573" symbol="cStringDanceDescQ10">- %1.2f /s</string>
@@ -38267,6 +38421,43 @@
     </string>
     <string _locid="104839">
     </string>
+    <string _locid="104840">Tlaxcala Initiation</string>
+    <string _locid="104841">Tlaxcala Chinampa</string>
+    <string _locid="104842">Rule, Britannia</string>
+    <string _locid="104843">Ships a mighty Battleship! This card costs 1000 Coin the next time you send it.</string>
+    <string _locid="104844">Ships a mighty Battleship!</string>
+    <string _locid="104845">1 Battleship</string>
+    <string _locid="104846">Ships a mighty Battleship which may be rebuilt at your Dock, if destroyed.</string>
+    <string _locid="104847">Recruit Battleship</string>
+    <string _locid="104848">Greenwich Time</string>
+    <string _locid="104849">Ships 1 Trading Post Wagon. Each of your Trading Posts improve Politician and Technology research time by -20%.</string>
+    <string _locid="104850">ALL Technologies, Cards, and Politicians research faster.</string>
+    <string _locid="104851" symbol="cStringGreenwichTimeAura">Royal Observatory</string>
+    <string _locid="104852">Additional Coin Crate with every shipment</string>
+    <string _locid="104853">1 Arsenal Wagon and a free Arsenal technology</string>
+    <string _locid="104854">10 Insurgentes</string>
+    <string _locid="104855">TEAM 1 Falconet</string>
+    <string _locid="104856">TEAM 1 Heavy Cannon</string>
+    <string _locid="104857">Marvelous Year</string>
+    <string _locid="104858">
+    </string>
+    <string _locid="104859">Arrives fast! Your next Age-up is cheaper and faster the more shipments you have received in your CURRENT Age.</string>
+    <string _locid="104860">Settlers train and work significantly faster for 365 seconds. A marvelous year, Viva España!</string>
+    <string _locid="104861">Peninsular Guerrillas</string>
+    <string _locid="104862">Improves Ranged Infantry attack and allows Skirmishers to see the location of enemies they've recently damaged.</string>
+    <string _locid="104863">Viceroyalty of New Spain</string>
+    <string _locid="104864">Ships 2 Haciendas Wagons which can transform into Haciendas that Settlers may gather resources from, or help spawn Cows, Settlers or powerful Soldados at.</string>
+    <string _locid="104865">Reconquista</string>
+    <string _locid="104866">Ships 1 Conquistador for each 5 Archaic infantry units you have lost (up to a maximum of 10). Enables you to research various Jesuit upgrades at your Native Embassy.</string>
+    <string _locid="104867">Ships 1 Conquistador for each 5 Archaic infantry units you have lost (up to a maximum of 10).</string>
+    <string _locid="104868">Nuestras Señoras</string>
+    <string _locid="104869">Ships 2 mighty Battleships.</string>
+    <string _locid="104870">Wars of Liberty</string>
+    <string _locid="104871">Makes Revolutions cheaper and allows you to return to Spain to get your original deck back.</string>
+    <string _locid="104872">Marvelous Year ends</string>
+    <string _locid="104873">House of Trastamára</string>
+    <string _locid="104874">Configure this Hacienda to produce Soldados.</string>
+    <string _locid="104875">This Hacienda is producing Soldados.</string>
     <string _locid="105000">Gold Coast</string>
     <string _locid="105001">This tropical coastal region features luxurious, golden sandy shores backed by grassland plains and open scrub. Lake Volta breaks up the map and, together with the central forested plateaus, creates easily defensible resources. This mineral-rich region was named for its main export, as such, you will only find gold mines here. The prevalence and importance of maritime trade in this region is accentuated by a naval trade route which is easily controlled from the ocean - however there are no whales.</string>
     <string _locid="105002">Gold Coast: A mineral rich coastal region with large gold mines as the only source of coin.\n\nSettlements: Akan, Yoruba\nOutlaws: Desert Warrior, Desert Archer</string>
@@ -38725,7 +38916,7 @@
     <string _locid="110278">Pennsylvania Cavalry</string>
     <string _locid="110279">Ships 1 Native Embassy Travois and allies you with the Cree at your Native Embassy where some of their upgrades and units are available.</string>
     <string _locid="110280">Tammany Festival</string>
-    <string _locid="110281">Crate shipments from cards are deposited directly into your stockpile and deliver +900 additional resources. Any which have been sent may be sent again.</string>
+    <string _locid="110281">Crate shipments from cards are deposited directly into your stockpile and deliver additional resources. Any which have been sent may be sent again.</string>
     <string _locid="110282">New Jersey Seaports</string>
     <string _locid="110283">Ships 4 Infrastructure Wagons. All shipments arrive considerably faster, including this one.</string>
     <string _locid="110284">Morris Canal</string>
@@ -38840,12 +39031,12 @@
     <string _locid="110393">Outlaw Pop Reduction</string>
     <string _locid="110394">Californio</string>
     <string _locid="110395">Trading Post +100% Income</string>
-    <string _locid="110396">Huge Chests of 360 Spanish Gold</string>
+    <string _locid="110396">Spanish Treasure Chest</string>
     <string _locid="110397">Crate 400 Wood Large</string>
     <string _locid="110398">Crate 50 Food</string>
     <string _locid="110399">Revolutionary Sharpshooter</string>
     <string _locid="110400">Supply of 400 Food.</string>
-    <string _locid="110401">Supply of 360 Spanish Gold.</string>
+    <string _locid="110401">Supply of 300 Spanish Gold.</string>
     <string _locid="110402">Crate 400 Food Large</string>
     <string _locid="110403">REV Sharpshooter</string>
     <string _locid="110404">Large Collection of Books</string>
@@ -39038,7 +39229,7 @@
     <string _locid="110591">Battleship</string>
     <string _locid="110592">SHP Battleship</string>
     <string _locid="110593">Mercenary Battleship</string>
-    <string _locid="110594">Battleship. A mighty mercen warship that rules the waves and everything on it.</string>
+    <string _locid="110594">Battleship. A mighty Ship of the Line that rules the waves and everything on it.</string>
     <string _locid="110595">Gives Trading Posts a powerful charged ability that inflicts area damage.</string>
     <string _locid="110596">Shotgun Messengers</string>
     <string _locid="110597">Shotgun Messengers (Charged)</string>
@@ -40278,7 +40469,7 @@
     <string _locid="112818">Mayans</string>
     <string _locid="112819">Chan Santa Cruz</string>
     <string _locid="112820">California</string>
-    <string _locid="112821">Settlers become Californios.\n\nCow build limit and work rate greatly increased.\n\nFocus: Cavalry, Ranching, Rebuiling economy.</string>
+    <string _locid="112821">Settlers become Californios.\n\nCow build limit and work rate greatly increased.\n\nFocus: Cavalry, Ranching, Rebuilding economy.</string>
     <string _locid="112822">Californians</string>
     <string _locid="112823">Sonoma</string>
     <string _locid="112824">Texas</string>
@@ -40648,6 +40839,32 @@
     <string _locid="113188">Find Native Site Trading Post</string>
     <string _locid="113189">Find Trade Route Trading Post</string>
     <string _locid="113190">Walker's Gamble</string>
+    <string _locid="113191">Ranger</string>
+    <string _locid="113192">INF Ranger</string>
+    <string _locid="113193">British skirmisher. Equipped with a long-range bow and a rifle to counter Heavy Infantry more effectively at closer-range.</string>
+    <string _locid="113194">British skirmisher. Equipped with a rifle to counter Heavy Infantry more effectively, but has less range.</string>
+    <string _locid="113195">British skirmisher</string>
+    <string _locid="113196">Ranger attack and hitpoints increased.</string>
+    <string _locid="113197">Veteran Rangers</string>
+    <string _locid="113198">Veteran Ranger</string>
+    <string _locid="113199">Guard Rangers</string>
+    <string _locid="113200">Guard Ranger</string>
+    <string _locid="113201">Imperial Rangers</string>
+    <string _locid="113202">Imperial Ranger</string>
+    <string _locid="113203">Longbowmen are fully replaced with Rangers at the Barracks, Homecity, and on the map. Rangers are equipped with a bow and also have a rifle to counter Heavy Infantry more effectively at closer ranges.</string>
+    <string _locid="113204">Rangers</string>
+    <string _locid="113205">6 Rangers</string>
+    <string _locid="113206">8 Rangers</string>
+    <string _locid="113207">15 Rangers</string>
+    <string _locid="113208">10 Rangers</string>
+    <string _locid="113209">20 Rangers</string>
+    <string _locid="113211">Longbowmen are fully replaced with Rangers at the Barracks, Homecity, and on the map. Rangers use a rifle instead of a bow to counter Heavy Infantry more effectively, but have less range.</string>
+    <string _locid="113212">Siege Archery</string>
+    <string _locid="113213">Enables Longbowmen to siege buildings from a long-range with fire arrows, which inflict burning damage over time.</string>
+    <string _locid="113214">Ranged Siege Attack</string>
+    <string _locid="113215">Ships 5 powerful Rangers and replaces your current Longbowmen with them, too.\n • Longbowmen shipments now grant Rangers instead.</string>
+    <string _locid="113216">7 Rangers</string>
+    <string _locid="113217">Sovereign Of The Seas</string>
     <string _locid="200000">Swedish Flags</string>
     <string _locid="200001">Display Swedish flags on this building.</string>
     <string _locid="200002">New World Trading Center (green)</string>
@@ -40737,6 +40954,18 @@
     <string _locid="210025">Offers both optimized performance and image quality.</string>
     <string _locid="210026">Quality</string>
     <string _locid="210027">Offers higher image quality than balanced mode.</string>
+    <string _locid="210100">These features are still in development and may cause issues for people using obscure hardware configurations. Enabling of these options may impact your experience of the game in unexpected ways. Do you agree to continue?</string>
+    <string _locid="230101">Enable Asset Preloading</string>
+    <string _locid="230102">Enabling asset preloading forces the application to prepare assets ahead of time during the loading screen allowing the ingame experience to be smoother. This will consume more memory and may cause issues on systems with 8GB or less RAM.</string>
+    <string _locid="210103">Asset Preloading (Beta)</string>
+    <string _locid="210104">Asset preloading is designed to allow the application to run smoother by ensuring all assets are loaded ahead of time. This is an experimental feature. Disable via the graphics options menu.</string>
+    <string _locid="210105">Loading</string>
+    <string _locid="210106">Finalizing</string>
+    <string _locid="210107">Scanning</string>
+    <string _locid="210108">Ambient Effects</string>
+    <string _locid="210109">Terrain Objects</string>
+    <string _locid="210110">Map Assets</string>
+    <string _locid="210111">Static Assets</string>
     <string _locid="220001">Photo Mode</string>
     <string _locid="220002">Movement:</string>
     <string _locid="220003">Rotation:</string>
@@ -40745,7 +40974,7 @@
     <string _locid="220006">Reset Camera:</string>
     <string _locid="220007">Toggle UI On/Off:</string>
     <string _locid="220008">Back:</string>
-    <string _locid="220009">Movement:\n • WASD or Arrow keys to move camera.\n • Q and E to move camera up/down.\n • Moving mouse to edge to move camera\n • Press and hold Space bar then clicking and dragging to move camera.\n\n Rotation:\n • Alt + WASD or Alt + Arrow keys to rotate.\n • Alt + clicking and dragging to rotate.\n\n Zoom int/out:\n • Using the scroll wheel to zoom in and out</string>
+    <string _locid="220009">Movement:\n• WASD to move camera.\n• Moving mouse to edge to move camera.\n\nElevation:\n• Q and E to elevate camera up/down.\n\nRotation:\n• Alt + WASD.\n\nZoom In/Out:\n• Using the scroll wheel to zoom in and out\n\nScreenshot: PrtSc\n\nReset Camera: R\n\nToggle UI On/Off: T\n\nBack: Esc</string>
     <string _locid="220010">Toggle UI On/Off</string>
     <string _locid="220011">Include UI on Screenshot</string>
     <string _locid="220012">Locate Folder:</string>
@@ -40757,7 +40986,18 @@
     <string _locid="220018">Select multiple lighting presets from the combobox.</string>
     <string _locid="220019">Change the sun posistion by manipulating the slider.</string>
     <string _locid="220020">Select to toggle UI on/off.</string>
-    <string _locid="220021">Select to inlcude UI when taking a screenshot.</string>
+    <string _locid="220021">Select to include UI when taking a screenshot.</string>
     <string _locid="220022">Select to open screenshot folder location.</string>
+    <string _locid="220023">Lighting Preset Day</string>
+    <string _locid="220024">Lighting Preset Night</string>
+    <string _locid="220025">Open Photo Mode. \nNOTE: This mode is currently in BETA. \nAll settings and features in this mode are under development and may cause issues, such as graphical and performance issues.</string>
+    <string _locid="220026">Lighting</string>
+    <string _locid="220027">Stage: Beta</string>
+    <string _locid="220028">This mode is currently in BETA. \nAll settings and features in this mode are under development and may cause issues.</string>
+    <string _locid="220029">Photo Mode (Beta)</string>
+    <string _locid="220030">Move Camera Up</string>
+    <string _locid="220031">Move Camera Down</string>
+    <string _locid="220032">Camera Rotate Up</string>
+    <string _locid="220033">Camera Rotate Down</string>
   </language>
 </stringtable>

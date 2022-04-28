@@ -48,6 +48,15 @@
       <event>alt-mouse1down</event>
       <context>game</context>
       <command>uiFlareAtPointer</command>
+      <minimapignore>1</minimapignore>
+    </keymapdata>
+    <keymapdata>
+      <name>Flare Type</name>
+      <displayname>$$55029$$Select flare type</displayname>
+      <event>control-mouse2down</event>
+      <context>game</context>
+      <command>openFlareType</command>
+      <minimapignore>1</minimapignore>
     </keymapdata>
     <keymapdata>
       <name>Enter Flare Mode</name>

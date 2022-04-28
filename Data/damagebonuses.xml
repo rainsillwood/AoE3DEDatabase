@@ -201,4 +201,18 @@
     <unittype>LogicalTypeHealed</unittype>
     <displaynameid>113186</displaynameid>
   </damagebonus>
+  <damagebonus>
+    <unittype>AbstractHandInfantryMerc</unittype>
+    <displaynameid>60106</displaynameid>
+  </damagebonus>
+  <damagebonus>
+    <unittype>AbstractHandCavalryMerc</unittype>
+    <displaynameid>69543</displaynameid>
+  </damagebonus>
+  <damagebonus>
+    <unittype>AbstractRangedShockInfantry</unittype>
+    <displaynameid>44138</displaynameid>
+    <showrollover>
+    </showrollover>
+  </damagebonus>
 </damagebonustypes>

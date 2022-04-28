@@ -1,0 +1,132 @@
+<decktreedata>
+  <group name="General Store">
+    <label string="47185" banner="building" icon="resources/art/buildings/town_center/towncenter_portrait.png" row="0" col="1">
+    </label>
+    <card name="HCXPShipVillagers1" banner="unit" icon="resources/art/units/native_villager_portrait.png" row="1" col="2">
+    </card>
+    <card name="HCXPShipVillagers2" banner="unit" icon="resources/art/units/native_villager_portrait.png" row="2" col="2">
+    </card>
+    <card name="HCXPShipVillagers3" banner="unit" icon="resources/art/units/native_villager_portrait.png" row="3" col="2">
+    </card>
+    <card name="HCXPShipVillagers4" banner="unit" icon="resources/art/units/native_villager_portrait.png" row="4" col="2">
+    </card>
+    <card name="HCShipFoodCrates1" banner="improvement" icon="resources/images/icons/techs/infinite_food.png" row="5" col="2">
+    </card>
+    <card name="HCShipFoodCrates2" banner="improvement" icon="resources/images/icons/techs/hc_food_crate/hc_food_crate_128.png" row="6" col="2">
+    </card>
+    <card name="HCShipWoodCrates1" banner="improvement" icon="resources/images/icons/techs/infinite_wood.png" row="7" col="2">
+    </card>
+    <card name="HCShipWoodCrates2" banner="improvement" icon="resources/images/icons/techs/hc_wood_crate/hc_wood_crate_128.png" row="8" col="2">
+    </card>
+    <card name="HCXPShipMixedCrates1" banner="improvement" icon="resources/images/icons/techs/infinite_mixed.png" row="1" col="8">
+    </card>
+    <card name="HCXPShipMixedCrates2" banner="improvement" icon="resources/images/icons/techs/native/hc_mix_crate.png" row="2" col="8">
+    </card>
+    <card name="HCXPShipMixedCrates3" banner="improvement" icon="resources/images/icons/techs/native/hc_mix_crate.png" row="3" col="8">
+    </card>
+    <card name="HCXPShipMixedCrates4" banner="improvement" icon="resources/images/icons/techs/native/hc_mix_crate.png" row="4" col="8">
+    </card>
+    <card name="HCXPShipMixedCrates5" banner="improvement" icon="resources/images/icons/techs/native/hc_mix_crate.png" row="5" col="8">
+    </card>
+    <card name="HCShipCoinCrates1" banner="improvement" icon="resources/images/icons/techs/infinite_gold.png" row="1" col="14">
+    </card>
+    <card name="HCShipCoinCrates2" banner="improvement" icon="resources/images/icons/techs/hc_unlock_coin_crate/hc_unlock_coin_crate.png" row="2" col="14">
+    </card>
+    <card name="HCXPShipMixedCrates6" banner="improvement" icon="resources/images/icons/techs/native/hc_mix_crate.png" row="5" col="14">
+    </card>
+    <card name="HCFurrier" banner="improvement" icon="resources/images/icons/techs/hc_furrier/hc_furrier.png" row="1" col="20">
+    </card>
+    <card name="HCShipSheep1Team" banner="unit" icon="resources/images/icons/techs/hc_team_4_sheep/hc_team_4_sheep.png" row="2" col="20">
+    </card>
+    <card name="HCShipSheep2" banner="unit" icon="resources/art/units/animals/sheep/sheep_icon_portrait.png" row="3" col="20">
+    </card>
+    <card name="HCShipSheep3" banner="unit" icon="resources/art/units/animals/sheep/sheep_icon_portrait.png" row="4" col="20">
+    </card>
+    <card name="HCXPBuffalo3" banner="unit" icon="resources/art/units/animals/bison/bison_portrait.png" row="5" col="20">
+    </card>
+    <card name="HCXPBuffalo4" banner="unit" icon="resources/art/units/animals/bison/bison_portrait.png" row="6" col="20">
+    </card>
+  </group>
+  <group name="Town Hall">
+    <label string="47186" banner="building" icon="resources/art/buildings/town_center/towncenter_portrait.png" row="0" col="26">
+    </label>
+    <card name="HCXPShipTomahawk1" banner="unit" icon="resources/art/units/IRO_tomahawk_portrait.png" row="1" col="27">
+    </card>
+    <card name="HCXPShipTomahawk2" banner="unit" icon="resources/art/units/IRO_tomahawk_portrait.png" row="2" col="27">
+    </card>
+    <card name="HCXPSPCShipColonialMilitia1" banner="unit" icon="resources/art/units/colonial_militia_portrait.png" row="3" col="27">
+    </card>
+    <card name="HCXPSPCShipColonialMilitia2" banner="unit" icon="resources/art/units/colonial_militia_portrait.png" row="4" col="27">
+    </card>
+    <card name="HCShipSkirmishers3" banner="unit" icon="resources/art/units/infantry_ranged/skirmisher/skirmisher_portrait.png" row="5" col="27">
+    </card>
+    <card name="HCShipSkirmishers4" banner="unit" icon="resources/art/units/infantry_ranged/skirmisher/skirmisher_portrait.png" row="6" col="27">
+    </card>
+    <card name="HCXPBanditGang" banner="unit" icon="resources/images/icons/techs/native/outlawband.png" row="7" col="27">
+    </card>
+    <card name="HCXPShipHorsemen1" banner="unit" icon="resources/art/units/IRO_horseman_portrait.png" row="1" col="33">
+    </card>
+    <card name="HCXPShipHorsemen2" banner="unit" icon="resources/art/units/IRO_horseman_portrait.png" row="2" col="33">
+    </card>
+    <card name="HCXPShipAxeRiders4" banner="unit" icon="resources/art/units/sx_axe_rider_portrait.png" row="3" col="33">
+    </card>
+    <card name="HCXPShipAxeRiders5" banner="unit" icon="resources/art/units/sx_axe_rider_portrait.png" row="4" col="33">
+    </card>
+    <card name="HCXPSiouxLakotaSupport" banner="unit" icon="resources/art/units/sx_axe_rider_portrait.png" row="5" col="33">
+    </card>
+    <card name="HCXPShipMantlets1" banner="unit" icon="resources/art/units/natives/mantlet_portrait.png" row="1" col="39">
+    </card>
+    <card name="HCXPShipMantlets2" banner="unit" icon="resources/art/units/natives/mantlet_portrait.png" row="2" col="39">
+    </card>
+    <card name="HCXPShipHorseArtillery1" banner="unit" icon="resources/art/units/horse_artillery_portrait.png" row="3" col="39">
+    </card>
+    <card name="HCXPShipHorseArtillery2" banner="unit" icon="resources/art/units/horse_artillery_portrait.png" row="4" col="39">
+    </card>
+    <card name="HCXPSiouxDakotaSupport" banner="unit" icon="resources/art/units/coup_rider_portrait.png" row="5" col="39">
+    </card>
+    <card name="HCShipDragoons3" banner="unit" icon="resources/art/units/cavalry/dragoon/dragoon_portrait.png" row="1" col="45">
+    </card>
+    <card name="HCShipDragoons2" banner="unit" icon="resources/art/units/cavalry/dragoon/dragoon_portrait.png" row="2" col="45">
+    </card>
+    <card name="HCXPCavalryDamageSPC" banner="improvement" icon="resources/images/icons/techs/hc_cavalry_damage/hc_cavalry_damage.png" row="3" col="45">
+    </card>
+    <card name="HCXPSiouxNakotaSupport" banner="unit" icon="resources/art/units/sx_dog_soldier_portrait.png" row="5" col="45">
+    </card>
+    <card name="HCXPShipBears" banner="unit" icon="resources/art/units/animals/bear/bearblack_portrait.png" row="1" col="51">
+    </card>
+    <card name="HCXPShipCougars" banner="unit" icon="resources/art/units/animals/cougar/cougar_portrait.png" row="2" col="51">
+    </card>
+  </group>
+  <group name="Old North Church">
+    <label string="47187" banner="building" icon="resources/art/buildings/town_center/towncenter_portrait.png" row="0" col="57">
+    </label>
+    <card name="HCXPShipFarmTravois1" banner="improvement" icon="resources/art/buildings/farm_portrait.png" row="1" col="58">
+    </card>
+    <card name="HCXPShipFarmTravois2" banner="improvement" icon="resources/art/buildings/farm_portrait.png" row="2" col="58">
+    </card>
+    <card name="HCXPShipFarmTravois3" banner="improvement" icon="resources/art/buildings/farm_portrait.png" row="3" col="58">
+    </card>
+    <card name="HCPioneers" banner="improvement" icon="resources/images/icons/techs/hc_pioneers/hc_pioneers.png" row="4" col="58">
+    </card>
+    <card name="HCXPPioneers2" banner="improvement" icon="resources/images/icons/techs/native/warrior_culture.png" row="5" col="58">
+    </card>
+    <card name="HCXPAdvancedFarms" banner="improvement" icon="resources/images/icons/techs/native/advanced_farm.png" row="6" col="58">
+    </card>
+    <card name="HCAdvancedMarket" banner="improvement" icon="resources/images/icons/techs/hc_advanced_market/hc_advanced_market.png" row="7" col="58">
+    </card>
+    <card name="HCXPShipFishingBoats" banner="unit" icon="resources/art/units/native_fishing_boat_portrait.png" row="1" col="64">
+    </card>
+    <card name="HCAdvancedTradingPost" banner="improvement" icon="resources/images/icons/techs/hc_advanced_trading_post/hc_advanced_trading_post.png" row="2" col="64">
+    </card>
+    <card name="HCAdvancedPlantations" banner="improvement" icon="resources/images/icons/techs/hc_advanced_plantation/hc_advanced_plantation.png" row="3" col="64">
+    </card>
+    <card name="HCImprovedBuildings" banner="improvement" icon="resources/images/icons/techs/hc_improved_buildings/hc_improved_buildings.png" row="4" col="64">
+    </card>
+    <card name="HCDEEconomicTheoryNoMine" banner="improvement" icon="resources/images/icons/techs/native/economic_theory.png" row="5" col="64">
+    </card>
+    <card name="HCXPIroquoisWoodworking" banner="improvement" icon="resources/images/icons/techs/native/wood_crafting.png" row="6" col="64">
+    </card>
+    <card name="HCEngineeringSchool" banner="improvement" icon="resources/images/icons/techs/hc_engineering_school/hc_engineering_school.png" row="7" col="64">
+    </card>
+  </group>
+</decktreedata>

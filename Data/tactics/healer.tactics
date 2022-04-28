@@ -19,11 +19,14 @@
   <action>
     <name stringid="48958">ExtraDamage</name>
     <type>AutoRangedModify</type>
+    <modifyabstracttype>Military</modifyabstracttype>
+    <forbidabstracttype>AbstractArtillery</forbidabstracttype>
+    <forbidabstracttype>AbstractWarShip</forbidabstracttype>
     <active>0</active>
-    <maxrange>24</maxrange>
+    <maxrange>34</maxrange>
     <persistent>1</persistent>
     <modifytype>Damage</modifytype>
-    <modifymultiplier>1.045</modifymultiplier>
+    <modifymultiplier>1.025</modifymultiplier>
     <modelattachment>effects\chiefpower\chiefpower.xml</modelattachment>
     <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
   </action>

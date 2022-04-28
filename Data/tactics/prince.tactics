@@ -104,7 +104,6 @@
     <type>LikeBonus</type>
     <modifyratebytype>1</modifyratebytype>
     <modifyabstracttype>All</modifyabstracttype>
-    <active>0</active>
     <maxrange>32</maxrange>
     <rate type="LogicalTypeLandEconomy">0.02</rate>
     <rate type="LogicalTypeLandMilitary">0.03</rate>
@@ -121,7 +120,6 @@
     <type>LikeBonus</type>
     <modifyratebytype>1</modifyratebytype>
     <modifyabstracttype>All</modifyabstracttype>
-    <active>1</active>
     <maxrange>32</maxrange>
     <rate type="LogicalTypeLandEconomy">0.01</rate>
     <rate type="LogicalTypeLandMilitary">0.015</rate>

@@ -238,5 +238,17 @@
     <active>1</active>
     <persistent>1</persistent>
   </action>
-  <tactic>Normal<attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><action priority="100">AntiShipAttack</action><action priority="75">CannonAttack</action><action priority="75">RangedAttack</action><action priority="15">SpawnSaiga</action><action priority="15">SpawnRefugees1</action><action priority="15">SpawnRefugees2</action><action priority="15">SpawnMigrants3</action><action priority="15">SpawnLivestock1</action><action priority="15">SpawnLivestock2</action><action priority="15">SpawnLivestock3</action><action>MaintainSettlersOttoman</action><action>MaintainSettlersFedCalifornia</action><action>MaintainPirateHaiti</action><action>MaintainVoluntarioBrazil</action><action>SpawnBison</action><action>UniversityAutoGatherBonus</action><action>SpawnFrontierWagon</action><action>SpawnREVNatVillager</action></tactic>
+  <action>
+    <name stringid="48954">HPBoostFirstTC</name>
+    <type>AutoRangedModify</type>
+    <modifyabstracttype>AbstractTownCenter</modifyabstracttype>
+    <active>0</active>
+    <persistent>1</persistent>
+    <modifytype>MaxHP</modifytype>
+    <modifymultiplier>1.5</modifymultiplier>
+    <modifyselfonly>1</modifyselfonly>
+    <firsttc>
+    </firsttc>
+  </action>
+  <tactic>Normal<attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><action priority="100">AntiShipAttack</action><action priority="75">CannonAttack</action><action priority="75">RangedAttack</action><action priority="15">SpawnSaiga</action><action priority="15">SpawnRefugees1</action><action priority="15">SpawnRefugees2</action><action priority="15">SpawnMigrants3</action><action priority="15">SpawnLivestock1</action><action priority="15">SpawnLivestock2</action><action priority="15">SpawnLivestock3</action><action>MaintainSettlersOttoman</action><action>MaintainSettlersFedCalifornia</action><action>MaintainPirateHaiti</action><action>MaintainVoluntarioBrazil</action><action>SpawnBison</action><action>UniversityAutoGatherBonus</action><action>SpawnFrontierWagon</action><action>SpawnREVNatVillager</action><action>HPBoostFirstTC</action></tactic>
 </tactics>

@@ -1,0 +1,214 @@
+<decktreedata>
+  <group name="Hold">
+    <label string="69669" banner="building" icon="resources/art/buildings/town_center/towncenter_portrait.png" row="0" col="1">
+    </label>
+    <card name="YPHCSpawnRefugees1" banner="improvement" icon="resources/images/icons/home_city/hc_northern_refugees.png" row="1" col="2">
+    </card>
+    <card name="YPHCSpawnRefugees2" banner="improvement" icon="resources/images/icons/home_city/hc_western_refugees.png" row="2" col="2">
+    </card>
+    <card name="YPHCSpawnMigrants1" banner="improvement" icon="resources/images/icons/home_city/hc_migrants_shipment_spawn_icon_64.png" row="3" col="2">
+    </card>
+    <card name="HCShipFoodCrates1" banner="improvement" icon="resources/images/icons/techs/infinite_food.png" row="4" col="2">
+    </card>
+    <card name="HCShipFoodCrates2" banner="improvement" icon="resources/images/icons/techs/hc_food_crate/hc_food_crate_128.png" row="5" col="2">
+    </card>
+    <card name="HCShipFoodCrates3" banner="improvement" icon="resources/images/icons/techs/hc_food_crate/hc_food_crate_128.png" row="6" col="2">
+    </card>
+    <card name="HCShipFoodCrates4" banner="improvement" icon="resources/images/icons/techs/hc_food_crate/hc_food_crate_128.png" row="7" col="2">
+    </card>
+    <card name="HCShipFoodCrates5" banner="improvement" icon="resources/images/icons/techs/hc_food_crate/hc_food_crate_128.png" row="8" col="2">
+    </card>
+    <card name="YPHCSpawnLivestock1" banner="improvement" icon="resources/images/icons/home_city/hc_year_of_the_goat.png" row="1" col="8">
+    </card>
+    <card name="YPHCSpawnLivestock2" banner="improvement" icon="resources/images/icons/home_city/hc_year_of_the_ox.png" row="2" col="8">
+    </card>
+    <card name="HCShipWoodCrates1" banner="improvement" icon="resources/images/icons/techs/infinite_wood.png" row="3" col="8">
+    </card>
+    <card name="HCShipWoodCrates2" banner="improvement" icon="resources/images/icons/techs/hc_wood_crate/hc_wood_crate_128.png" row="4" col="8">
+    </card>
+    <card name="HCShipWoodCrates3" banner="improvement" icon="resources/images/icons/techs/hc_wood_crate/hc_wood_crate_128.png" row="5" col="8">
+    </card>
+    <card name="HCShipWoodCrates4" banner="improvement" icon="resources/images/icons/techs/hc_wood_crate/hc_wood_crate_128.png" row="6" col="8">
+    </card>
+    <card name="HCShipWoodCrates5" banner="improvement" icon="resources/images/icons/techs/hc_wood_crate/hc_wood_crate_128.png" row="7" col="8">
+    </card>
+    <card name="YPHCShipVillageWagon1" banner="improvement" icon="resources/images/icons/home_city/hc_nomadic_expansion.png" row="1" col="14">
+    </card>
+    <card name="YPHCShipVillageWagon2" banner="improvement" icon="resources/images/icons/home_city/hc_nomadic_expansion.png" row="2" col="14">
+    </card>
+    <card name="HCShipCoinCrates1" banner="improvement" icon="resources/images/icons/techs/infinite_gold.png" row="3" col="14">
+    </card>
+    <card name="HCShipCoinCrates2" banner="improvement" icon="resources/images/icons/techs/hc_unlock_coin_crate/hc_unlock_coin_crate.png" row="4" col="14">
+    </card>
+    <card name="HCShipCoinCrates3" banner="improvement" icon="resources/images/icons/techs/hc_unlock_coin_crate/hc_unlock_coin_crate.png" row="5" col="14">
+    </card>
+    <card name="HCShipCoinCrates4" banner="improvement" icon="resources/images/icons/techs/hc_unlock_coin_crate/hc_unlock_coin_crate.png" row="6" col="14">
+    </card>
+    <card name="HCShipCoinCrates5" banner="improvement" icon="resources/images/icons/techs/hc_unlock_coin_crate/hc_unlock_coin_crate.png" row="7" col="14">
+    </card>
+    <card name="YPHCShipCoveredWagonsAsian" banner="unit" icon="resources/images/icons/home_city/hc_2x_town_center_wagon.png" row="1" col="20">
+    </card>
+    <card name="YPHCShipCoveredWagonsChina" banner="unit" icon="resources/images/icons/home_city/hc_ship_covered_wagon_and_villagers.png" row="2" col="20">
+    </card>
+  </group>
+  <group name="Captain's Quarters">
+    <label string="69671" banner="building" icon="resources/art/buildings/town_center/towncenter_portrait.png" row="0" col="26">
+    </label>
+    <card name="YPHCShipChuKoNu1" banner="unit" icon="resources/art/units/asians/chinese/chu_ko_nu/chu_ko_nu_icon_portrait.png" row="1" col="27">
+    </card>
+    <card name="YPHCShipChuKoNu2" banner="unit" icon="resources/art/units/asians/chinese/chu_ko_nu/chu_ko_nu_icon_portrait.png" row="2" col="27">
+    </card>
+    <card name="YPHCShipChuKoNu3" banner="unit" icon="resources/art/units/asians/chinese/chu_ko_nu/chu_ko_nu_icon_portrait.png" row="3" col="27">
+    </card>
+    <card name="YPHCShipMandarinDuckSquad" banner="army" icon="resources/images/icons/home_city/hc_chinese_mandarin_duck_squad.png" row="4" col="27">
+    </card>
+    <card name="YPHCShipQiangPikeman1" banner="unit" icon="resources/art/units/asians/chinese/qiang_pikeman/qiang_pikeman_icon_portrait.png" row="5" col="27">
+    </card>
+    <card name="YPHCShipQiangPikeman2" banner="unit" icon="resources/art/units/asians/chinese/qiang_pikeman/qiang_pikeman_icon_portrait.png" row="6" col="27">
+    </card>
+    <card name="YPHCShipQiangPikeman3" banner="unit" icon="resources/art/units/asians/chinese/qiang_pikeman/qiang_pikeman_icon_portrait.png" row="7" col="27">
+    </card>
+    <card name="YPHCOldHanArmyReforms" banner="improvement" icon="resources/images/icons/home_city/hc_old_han_heavy_infantry_bonus.png" row="8" col="27">
+    </card>
+    <card name="YPHCShipKeshik2" banner="unit" icon="resources/art/units/asians/chinese/keshik/keshik_icon_portrait.png" row="1" col="33">
+    </card>
+    <card name="YPHCShipKeshik3" banner="unit" icon="resources/art/units/asians/chinese/keshik/keshik_icon_portrait.png" row="2" col="33">
+    </card>
+    <card name="YPHCStandardArmyHitpoints" banner="improvement" icon="resources/images/icons/home_city/hc_standard_army_reforms.png" row="3" col="33">
+    </card>
+    <card name="YPHCBannerReforms" banner="improvement" icon="resources/images/icons/home_city/hc_banner_reforms.png" row="4" col="33">
+    </card>
+    <card name="YPHCShipArquebusier1" banner="unit" icon="resources/art/units/asians/chinese/arquebusier/arquebusier_icon_portrait.png" row="1" col="39">
+    </card>
+    <card name="YPHCShipArquebusier2" banner="unit" icon="resources/art/units/asians/chinese/arquebusier/arquebusier_icon_portrait.png" row="2" col="39">
+    </card>
+    <card name="YPHCShipEmperorsArmy" banner="improvement" icon="resources/images/icons/home_city/hc_chinese_emperors_army.png" row="3" col="39">
+    </card>
+    <card name="YPHCShipChangdao1" banner="unit" icon="resources/art/units/asians/chinese/changdao/changdao_icon_portrait.png" row="4" col="39">
+    </card>
+    <card name="YPHCShipChangdao2" banner="unit" icon="resources/art/units/asians/chinese/changdao/changdao_icon_portrait.png" row="5" col="39">
+    </card>
+    <card name="YPHCShipIronCapPrincesArmy" banner="army" icon="resources/images/icons/home_city/hc_chinese_iron_cap_prince_army.png" row="6" col="39">
+    </card>
+    <card name="YPHCHanAntiCavalryBonus" banner="improvement" icon="resources/images/icons/home_city/hc_han_anti_cavalry_bonus.png" row="7" col="39">
+    </card>
+    <card name="YPHCShipSteppeRider1" banner="unit" icon="resources/art/units/asians/chinese/steppe_rider/steppe_rider_icon_portrait.png" row="1" col="45">
+    </card>
+    <card name="YPHCShipSteppeRider2" banner="unit" icon="resources/art/units/asians/chinese/steppe_rider/steppe_rider_icon_portrait.png" row="2" col="45">
+    </card>
+    <card name="YPHCShipSteppeRider3" banner="unit" icon="resources/art/units/asians/chinese/steppe_rider/steppe_rider_icon_portrait.png" row="3" col="45">
+    </card>
+    <card name="YPHCMongolianScourge" banner="improvement" icon="resources/images/icons/home_city/hc_mongolian_scourge.png" row="4" col="45">
+    </card>
+    <card name="YPHCShipIronFlail1" banner="unit" icon="resources/art/units/asians/chinese/iron_flail/iron_flail_icon_portrait.png" row="5" col="45">
+    </card>
+    <card name="YPHCShipIronFlail2" banner="unit" icon="resources/art/units/asians/chinese/iron_flail/iron_flail_icon_portrait.png" row="6" col="45">
+    </card>
+    <card name="YPHCShipBeiyangArmy" banner="army" icon="resources/images/icons/home_city/hc_bei_ying_army.png" row="7" col="45">
+    </card>
+    <card name="YPHCShipEverVictoriousArmy" banner="army" icon="resources/images/icons/home_city/hc_chinese_ever_victorious_army.png" row="8" col="45">
+    </card>
+    <card name="YPHCShipMeteorHammer1" banner="unit" icon="resources/art/units/asians/chinese/meteor_hammer/meteor_hammer_icon_portrait.png" row="1" col="51">
+    </card>
+    <card name="YPHCShipMeteorHammer2" banner="unit" icon="resources/art/units/asians/chinese/meteor_hammer/meteor_hammer_icon_portrait.png" row="2" col="51">
+    </card>
+    <card name="YPHCShipMeteorHammer3" banner="unit" icon="resources/art/units/asians/chinese/meteor_hammer/meteor_hammer_icon_portrait.png" row="3" col="51">
+    </card>
+    <card name="YPHCForbiddenArmyArmor" banner="improvement" icon="resources/images/icons/home_city/hc_mongolian_armor.png" row="4" col="51">
+    </card>
+    <card name="YPHCShipFlameThrower2" banner="unit" icon="resources/art/units/asians/chinese/flame_thrower/flame_thrower_icon_portrait.png" row="5" col="51">
+    </card>
+    <card name="YPHCShipFlameThrower3" banner="unit" icon="resources/art/units/asians/chinese/flame_thrower/flame_thrower_icon_portrait.png" row="6" col="51">
+    </card>
+    <card name="YPHCShipHandMortar1" banner="unit" icon="resources/art/units/asians/chinese/hand_mortar/hand_mortar_icon_portrait.png" row="7" col="51">
+    </card>
+    <card name="YPHCShipHandMortar2" banner="unit" icon="resources/art/units/asians/chinese/hand_mortar/hand_mortar_icon_portrait.png" row="8" col="51">
+    </card>
+    <card name="YPHCShipFlyingCrow1" banner="unit" icon="resources/art/units/asians/chinese/flying_crow/flying_crow_icon_portrait.png" row="1" col="57">
+    </card>
+    <card name="YPHCArtilleryCombatChinese" banner="improvement" icon="resources/images/icons/techs/hc_artillary_combat/hc_artillary_combat.png" row="2" col="57">
+    </card>
+    <card name="YPHCShipFlyingCrow2" banner="unit" icon="resources/art/units/asians/chinese/flying_crow/flying_crow_icon_portrait.png" row="3" col="57">
+    </card>
+  </group>
+  <group name="Galley">
+    <label string="69672" banner="building" icon="resources/art/buildings/town_center/towncenter_portrait.png" row="0" col="63">
+    </label>
+    <card name="YPHCShipCastleWagons1" banner="improvement" icon="resources/images/icons/home_city/hc_flatland_castle_icon_64.png" row="1" col="64">
+    </card>
+    <card name="YPHCShipCastleWagons2" banner="improvement" icon="resources/images/icons/home_city/hc_hill_castle_icon_64.png" row="2" col="64">
+    </card>
+    <card name="YPHCAccupuncture" banner="improvement" icon="resources/images/icons/techs/asians/acupuncture.png" row="3" col="64">
+    </card>
+    <card name="YPHCBannerSchool" banner="improvement" icon="resources/images/icons/home_city/hc_banner_school.png" row="4" col="64">
+    </card>
+    <card name="YPHCConfusciousGift" banner="improvement" icon="resources/images/icons/home_city/hc_confucious_gift.png" row="5" col="64">
+    </card>
+    <card name="HCPioneers" banner="improvement" icon="resources/images/icons/techs/hc_pioneers/hc_pioneers.png" row="6" col="64">
+    </card>
+    <card name="YPHCAdvancedIrregulars" banner="improvement" icon="resources/images/icons/techs/asians/tech_advance_to_regulars_icon_64.png" row="7" col="64">
+    </card>
+    <card name="YPHCRanchingWaterBuffalo" banner="improvement" icon="resources/images/icons/home_city/hc_water_buffalo_ranching_icon_64.png" row="8" col="64">
+    </card>
+    <card name="YPHCExtensiveFortifications" banner="improvement" icon="resources/images/icons/techs/hc_extensive_fortifications/hc_extensive_fortifications.png" row="2" col="70">
+    </card>
+    <card name="HCImprovedBuildings" banner="improvement" icon="resources/images/icons/techs/hc_improved_buildings/hc_improved_buildings.png" row="3" col="70">
+    </card>
+    <card name="YPHCGreatWall" banner="improvement" icon="resources/images/icons/home_city/hc_great_wall.png" row="4" col="70">
+    </card>
+  </group>
+  <group name="Forecastle">
+    <label string="69673" banner="building" icon="resources/art/buildings/town_center/towncenter_portrait.png" row="0" col="76">
+    </label>
+    <card name="HCFoodSilos" banner="improvement" icon="resources/images/icons/techs/hc_silos/hc_silos.png" row="1" col="77">
+    </card>
+    <card name="HCSustainableAgriculture" banner="improvement" icon="resources/images/icons/techs/hc_sustainable_agriculture/hc_sustainable_agriculture.png" row="2" col="77">
+    </card>
+    <card name="HCRefrigeration" banner="improvement" icon="resources/images/icons/techs/hc_refrigeration/hc_refrigeration.png" row="3" col="77">
+    </card>
+    <card name="HCSawmills" banner="improvement" icon="resources/images/icons/techs/hc_sawmills/hc_sawmills.png" row="4" col="77">
+    </card>
+    <card name="HCExoticHardwoods" banner="improvement" icon="resources/images/icons/techs/hc_exotic_hardwoods/hc_exotic_hardwoods.png" row="5" col="77">
+    </card>
+    <card name="HCRoyalMint" banner="improvement" icon="resources/images/icons/techs/hc_establish_royal_mint/hc_establish_royal_mint.png" row="6" col="77">
+    </card>
+    <card name="HCSilversmith" banner="improvement" icon="resources/images/icons/techs/hc_silver_smith/hc_silver_smith.png" row="7" col="77">
+    </card>
+    <card name="HCFurrier" banner="improvement" icon="resources/images/icons/techs/hc_furrier/hc_furrier.png" row="1" col="83">
+    </card>
+    <card name="HCSpiceTrade" banner="improvement" icon="resources/images/icons/techs/hc_spice_trade/hc_spice_trade.png" row="2" col="83">
+    </card>
+    <card name="YPHCSpawnSaigaHerd" banner="improvement" icon="resources/images/icons/home_city/hc_saiga_shipment_spawn_icon_64.png" row="3" col="83">
+    </card>
+    <card name="HCStockyards" banner="improvement" icon="resources/images/icons/techs/hc_stockyards/hc_stockyards.png" row="4" col="83">
+    </card>
+    <card name="HCFullingMills" banner="improvement" icon="resources/images/icons/techs/hc_fulling_mills/hc_fulling_mills.png" row="5" col="83">
+    </card>
+  </group>
+  <group name="Crow`s Nest">
+    <label string="69670" banner="building" icon="resources/art/buildings/town_center/towncenter_portrait.png" row="0" col="89">
+    </label>
+    <card name="YPHCAtonementChinese" banner="improvement" icon="resources/images/icons/home_city/hc_atonement.png" row="1" col="90">
+    </card>
+    <card name="HCMercenaryLoyalty" banner="improvement" icon="resources/images/icons/techs/hc_mercenary_loyalty/hc_mercenary_loyalty.png" row="2" col="90">
+    </card>
+    <card name="YPHCMercsIronTroop1" banner="unit" icon="resources/art/units/asians/mercenaries/iron_troop/iron_troop_icon_portrait.png" row="3" col="90">
+    </card>
+    <card name="HCMercsManchu" banner="unit" icon="resources/art/units/mercenaries/manchurian_archer/manchurian_archer_portrait.png" row="4" col="90">
+    </card>
+    <card name="YPHCMercsMandarinArmy1" banner="unit" icon="resources/images/icons/home_city/hc_mandarin_mercenary_army.png" row="5" col="90">
+    </card>
+    <card name="YPHCMercsRattanShield1" banner="unit" icon="resources/art/units/asians/natives/rattan_shield/shield_rattan_icon_portrait.png" row="6" col="90">
+    </card>
+    <card name="YPHCMercsRattanShield2" banner="unit" icon="resources/art/units/asians/natives/rattan_shield/shield_rattan_icon_portrait.png" row="7" col="90">
+    </card>
+    <card name="YPHCMercsRattanShield3" banner="unit" icon="resources/images/icons/home_city/hc_infinite_rattanshield_icon_64.png" row="8" col="90">
+    </card>
+    <card name="YPHCWokouChinese1" banner="unit" icon="resources/art/units/asians/naval/wokou_junk/wokou_junk_icon_portrait.png" row="1" col="96">
+    </card>
+    <card name="YPHCWokouChinese2" banner="unit" icon="resources/art/units/asians/naval/wokou_junk/wokou_junk_icon_portrait.png" row="2" col="96">
+    </card>
+    <card name="YPHCWokouChinese3" banner="unit" icon="resources/images/icons/techs/asians/chuck/hc_wokou_ronin.png" row="3" col="96">
+    </card>
+  </group>
+</decktreedata>

@@ -1847,4 +1847,14 @@
     <activerollovertextid>113144</activerollovertextid>
     <command>unitSetTactic("HaciendaWood")</command>
   </protounitcommand>
+  <protounitcommand>
+    <dbid>199</dbid>
+    <name>deHaciendaSoldado</name>
+    <icon>resources\images\icons\command\hacienda_soldado.png</icon>
+    <activeicon>resources\images\icons\command\hacienda_soldado_on.png</activeicon>
+    <disabledicon>resources\images\icons\command\hacienda_soldado.png</disabledicon>
+    <rollovertextid>104874</rollovertextid>
+    <activerollovertextid>104875</activerollovertextid>
+    <command>unitSetTactic("HaciendaSoldado")</command>
+  </protounitcommand>
 </protounitcommands>

@@ -1,6 +1,108 @@
 <assetcollection>
   <asset type="animxml" path="units\infantry_ranged\minuteman\minuteman.xml">
   </asset>
+  <asset type="animxml" path="buildings\props_colony\crate_coin.xml">
+  </asset>
+  <asset type="animxml" path="buildings\props_colony\crate_coin_small.xml">
+  </asset>
+  <asset type="animxml" path="buildings\props_colony\crate_fish.xml">
+  </asset>
+  <asset type="animxml" path="buildings\props_colony\crate_food.xml">
+  </asset>
+  <asset type="animxml" path="buildings\props_colony\crate_food_small.xml">
+  </asset>
+  <asset type="animxml" path="buildings\props_colony\crate_food_tiny.xml">
+  </asset>
+  <asset type="animxml" path="buildings\props_colony\crate_influence.xml">
+  </asset>
+  <asset type="animxml" path="buildings\props_colony\crate_influence_small.xml">
+  </asset>
+  <asset type="animxml" path="buildings\props_colony\crate_wood.xml">
+  </asset>
+  <asset type="animxml" path="buildings\props_colony\crate_wood_small.xml">
+  </asset>
+  <asset type="animxml" path="buildings\props_colony\crate_xp.xml">
+  </asset>
+  <asset type="animxml" path="buildings\props_colony\crate_xp_small.xml">
+  </asset>
+  <asset type="animxml" path="buildings\props_colony\props_colony.xml">
+  </asset>
+  <asset type="animxml" path="buildings\props_colony\props_colony_africa.xml">
+  </asset>
+  <asset type="animxml" path="buildings\props_colony\props_poles.xml">
+  </asset>
+  <asset type="animxml" path="buildings\props_colony\props_signs.xml">
+  </asset>
+  <asset type="animxml" path="effects\projectiles\arrow.xml">
+  </asset>
+  <asset type="animxml" path="effects\projectiles\arrow_flaming.xml">
+  </asset>
+  <asset type="animxml" path="effects\projectiles\arrow_poison.xml">
+  </asset>
+  <asset type="animxml" path="effects\projectiles\ball.xml">
+  </asset>
+  <asset type="animxml" path="effects\projectiles\bolas.xml">
+  </asset>
+  <asset type="animxml" path="effects\projectiles\cannonball.xml">
+  </asset>
+  <asset type="animxml" path="effects\projectiles\cannonball_small.xml">
+  </asset>
+  <asset type="animxml" path="effects\projectiles\chakram.xml">
+  </asset>
+  <asset type="animxml" path="effects\projectiles\crow.xml">
+  </asset>
+  <asset type="animxml" path="effects\projectiles\dynamite.xml">
+  </asset>
+  <asset type="animxml" path="effects\projectiles\fire_ball.xml">
+  </asset>
+  <asset type="animxml" path="effects\projectiles\fixed_gun_ball.xml">
+  </asset>
+  <asset type="animxml" path="effects\projectiles\flamingarrow.xml">
+  </asset>
+  <asset type="animxml" path="effects\projectiles\great_bombard_ball.xml">
+  </asset>
+  <asset type="animxml" path="effects\projectiles\grenade.xml">
+  </asset>
+  <asset type="animxml" path="effects\projectiles\hoop.xml">
+  </asset>
+  <asset type="animxml" path="effects\projectiles\hotdog.xml">
+  </asset>
+  <asset type="animxml" path="effects\projectiles\javelin.xml">
+  </asset>
+  <asset type="animxml" path="effects\projectiles\knife.xml">
+  </asset>
+  <asset type="animxml" path="effects\projectiles\laserbeam.xml">
+  </asset>
+  <asset type="animxml" path="effects\projectiles\lasso.xml">
+  </asset>
+  <asset type="animxml" path="effects\projectiles\mortarshell.xml">
+  </asset>
+  <asset type="animxml" path="effects\projectiles\musket_ball.xml">
+  </asset>
+  <asset type="animxml" path="effects\projectiles\poison.xml">
+  </asset>
+  <asset type="animxml" path="effects\projectiles\rocket.xml">
+  </asset>
+  <asset type="animxml" path="effects\projectiles\shuriken.xml">
+  </asset>
+  <asset type="animxml" path="effects\projectiles\spc_russian_great_cannonball.xml">
+  </asset>
+  <asset type="animxml" path="effects\projectiles\thrombash.xml">
+  </asset>
+  <asset type="animxml" path="effects\projectiles\tomahawk.xml">
+  </asset>
+  <asset type="animxml" path="effects\projectiles\torch.xml">
+  </asset>
+  <asset type="animxml" path="effects\projectiles\torch_cavalry.xml">
+  </asset>
+  <asset type="animxml" path="effects\projectiles\torch_flipped.xml">
+  </asset>
+  <asset type="animxml" path="effects\projectiles\torch_projectile.xml">
+  </asset>
+  <asset type="animxml" path="effects\projectiles\torch_spin.xml">
+  </asset>
+  <asset type="animxml" path="effects\projectiles\truly_invisible_projectile.xml">
+  </asset>
   <asset type="animxml" path="ui\waypoint_flag\moveto.xml">
   </asset>
   <asset type="animxml" path="ui\waypoint_flag\waypointflag.xml">

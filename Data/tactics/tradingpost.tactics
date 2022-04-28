@@ -253,5 +253,14 @@
     <modifytype>AutoGatherAbsolute</modifytype>
     <modifyamount>0.35</modifyamount>
   </action>
-  <tactic>Normal<attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><action priority="100">ChargeRangedAttack</action><action priority="95">RangedGarrisonAttack</action><action priority="95">RangedAttack</action><action>HPAura</action><action>MaintainNatBlackwoodArcher</action><action>MaintainNativeSharktoothBowman</action><action>MaintainNatClubman</action><action>MaintainNatHolcanSpearman</action><action>MaintainNatAxeRider</action><action>MaintainNatAxeRiderDogSoldier</action><action>MaintainNatTomahawk</action><action>MaintainNatMantlet</action><action>MaintainNatBolasWarrior</action><action>MaintainNatHuaminca</action><action>MaintainNatTracker</action><action>MaintainNatHorseArcher</action><action>MaintainNatRifleman</action><action>MaintainNatBlogunWarrior</action><action>MaintainNatJaguarWarrior</action><action>MaintainNatEagleWarrior</action><action>AutoGatherXP</action><action>AutoGatherGold</action><action>AutoGatherXPNative</action><action>AutoGatherXPTrickleEconomics</action><action>AutoGatherInfluence</action><action>UniversityAutoGatherBonus</action></tactic>
+  <action>
+    <name stringid="104848">GreenwichTime</name>
+    <active>0</active>
+    <type>AutoRangedModify</type>
+    <modifyabstracttype>Building</modifyabstracttype>
+    <persistent>1</persistent>
+    <modifytype>ResearchRate</modifytype>
+    <modifymultiplier>1.20</modifymultiplier>
+  </action>
+  <tactic>Normal<attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><action priority="100">ChargeRangedAttack</action><action priority="95">RangedGarrisonAttack</action><action priority="95">RangedAttack</action><action>HPAura</action><action>MaintainNatBlackwoodArcher</action><action>MaintainNativeSharktoothBowman</action><action>MaintainNatClubman</action><action>MaintainNatHolcanSpearman</action><action>MaintainNatAxeRider</action><action>MaintainNatAxeRiderDogSoldier</action><action>MaintainNatTomahawk</action><action>MaintainNatMantlet</action><action>MaintainNatBolasWarrior</action><action>MaintainNatHuaminca</action><action>MaintainNatTracker</action><action>MaintainNatHorseArcher</action><action>MaintainNatRifleman</action><action>MaintainNatBlogunWarrior</action><action>MaintainNatJaguarWarrior</action><action>MaintainNatEagleWarrior</action><action>AutoGatherXP</action><action>AutoGatherGold</action><action>AutoGatherXPNative</action><action>AutoGatherXPTrickleEconomics</action><action>AutoGatherInfluence</action><action>UniversityAutoGatherBonus</action><action>GreenwichTime</action></tactic>
 </tactics>

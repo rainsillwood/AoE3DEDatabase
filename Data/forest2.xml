@@ -263,16 +263,20 @@
     <underbrushobj prob="0.5">underbrushdeccan</underbrushobj>
   </forest>
   <forest name="Unknown Forest Funky" iconname="ui\editor\forestCeylon" floor="carolinas\Underwater2" density="0.5" clumpiness="0.6">
+    <protounit>deTreeBaobab</protounit>
     <protounit>TreeSonora</protounit>
     <protounit>ypTreeCeylon</protounit>
     <protounit>ypTreeSaxaul</protounit>
     <protounit>ypTreeJapaneseMaple</protounit>
+    <protounit>TreeRedwoodChonky</protounit>
     <protounit>TreePampas</protounit>
     <protounit>TreeCarolinaMarsh</protounit>
     <protounit>ypTreeBamboo</protounit>
+    <protounit>deTreeFig</protounit>
     <protounit>ypTreeGinkgo</protounit>
     <protounit>TreeChristmas</protounit>
     <protounit>ypTreeYellowRiver</protounit>
+    <protounit>deTreeFanPalm</protounit>
     <underbrushobj prob="0.5">underbrushdeccan</underbrushobj>
   </forest>
   <forest name="z49 South Persian Forest" iconname="ui\editor\forestCeylon" floormix="" density="0.6" clumpiness="0.7">

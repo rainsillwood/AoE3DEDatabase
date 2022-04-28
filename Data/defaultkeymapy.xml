@@ -461,4 +461,123 @@
       <command>doCommandInSelected("Garrison")</command>
     </keymapdata>
   </keymapgroup>
+  <keymapgroup name="Photo Mode" displayname="$$220001$$Photo Mode">
+    <keymapdata>
+      <name>Photo Mode</name>
+      <displayname>$$220001$$Photo Mode</displayname>
+      <event>control-F7</event>
+      <context>game</context>
+      <command>openPhotoScreen</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Move Camera Left</name>
+      <displayname>$$43412$$Move Camera Left</displayname>
+      <event>a</event>
+      <context>Photo</context>
+      <edgetriggered>1</edgetriggered>
+      <command>cameraLeft</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Move Camera Right</name>
+      <displayname>$$43413$$Move Camera Right</displayname>
+      <event>d</event>
+      <context>Photo</context>
+      <edgetriggered>1</edgetriggered>
+      <command>cameraRight</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Move Camera Forward</name>
+      <displayname>$$43414$$Move Camera Forward</displayname>
+      <event>w</event>
+      <context>Photo</context>
+      <edgetriggered>1</edgetriggered>
+      <command>cameraWorldForward</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Move Camera Backward</name>
+      <displayname>$$43415$$Move Camera Backward</displayname>
+      <event>s</event>
+      <context>Photo</context>
+      <edgetriggered>1</edgetriggered>
+      <command>cameraWorldBackward</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Camera Zoom In</name>
+      <displayname>$$43420$$Camera Zoom In</displayname>
+      <event>numpadplus</event>
+      <context>Photo</context>
+      <edgetriggered>1</edgetriggered>
+      <command>handleCameraForward</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Camera Zoom Out</name>
+      <displayname>$$43421$$Camera Zoom Out</displayname>
+      <event>numpadminus</event>
+      <context>Photo</context>
+      <edgetriggered>1</edgetriggered>
+      <command>handleCameraBackward</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Move Camera Up</name>
+      <displayname>$$220030$$Move Camera Up</displayname>
+      <event>q</event>
+      <context>Photo</context>
+      <edgetriggered>1</edgetriggered>
+      <command>cameraUp</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Move Camera Down</name>
+      <displayname>$$220031$$Move Camera Down</displayname>
+      <event>e</event>
+      <context>Photo</context>
+      <edgetriggered>1</edgetriggered>
+      <command>cameraDown</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Reset Camera Start Location</name>
+      <displayname>$$32670$$Reset Camera Start Location</displayname>
+      <event>r</event>
+      <context>Photo</context>
+      <command>resetCameraPhotoScreen</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Toggle UI On/Off</name>
+      <displayname>$$220010$$Toggle UI On/Off</displayname>
+      <event>t</event>
+      <context>Photo</context>
+      <command>toggleUIPhotoScreen</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Camera Rotate Left</name>
+      <displayname>$$43423$$Camera Rotate Left</displayname>
+      <event>alt-a</event>
+      <context>Photo</context>
+      <edgetriggered>1</edgetriggered>
+      <command>cameraYawLeft</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Camera Rotate Right</name>
+      <displayname>$$43424$$Camera Rotate Right</displayname>
+      <event>alt-d</event>
+      <context>Photo</context>
+      <edgetriggered>1</edgetriggered>
+      <command>cameraYawRight</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Camera Rotate Up</name>
+      <displayname>$$220032$$Camera Rotate Up</displayname>
+      <event>alt-w</event>
+      <context>Photo</context>
+      <edgetriggered>1</edgetriggered>
+      <command>cameraPitchForward</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Camera Rotate Down</name>
+      <displayname>$$220033$$Camera Rotate Down</displayname>
+      <event>alt-s</event>
+      <context>Photo</context>
+      <edgetriggered>1</edgetriggered>
+      <command>cameraPitchBackward</command>
+    </keymapdata>
+  </keymapgroup>
 </defaultkeymapy>

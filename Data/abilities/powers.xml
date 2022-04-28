@@ -1665,4 +1665,79 @@
     <icon>resources\images\icons\abilities\passive_battle_bluster.png</icon>
     <allowduringnorush>1</allowduringnorush>
   </power>
+  <power name="deMarvelousYear" type="GeneralEffect">
+    <timerrolloverid>104872</timerrolloverid>
+    <minimapeventtime sendalertto="none">1</minimapeventtime>
+    <activetime>365</activetime>
+    <effect type="WorkRate" action="Gather" unittype="Huntable" relativity="BasePercent" amount="1.20">
+      <target type="ProtoUnit">LogicalTypeLandEconomy</target>
+    </effect>
+    <effect type="WorkRate" action="Gather" unittype="AbstractBerryBush" relativity="BasePercent" amount="1.20">
+      <target type="ProtoUnit">LogicalTypeLandEconomy</target>
+    </effect>
+    <effect type="WorkRate" action="Gather" unittype="Herdable" relativity="BasePercent" amount="1.20">
+      <target type="ProtoUnit">LogicalTypeLandEconomy</target>
+    </effect>
+    <effect type="WorkRate" action="Gather" unittype="Tree" relativity="BasePercent" amount="1.20">
+      <target type="ProtoUnit">LogicalTypeLandEconomy</target>
+    </effect>
+    <effect type="WorkRate" action="Gather" unittype="AbstractMine" relativity="BasePercent" amount="1.20">
+      <target type="ProtoUnit">LogicalTypeLandEconomy</target>
+    </effect>
+    <effect type="WorkRate" action="Gather" unittype="Plantation" relativity="BasePercent" amount="1.20">
+      <target type="ProtoUnit">LogicalTypeLandEconomy</target>
+    </effect>
+    <effect type="WorkRate" action="Gather" unittype="Mill" relativity="BasePercent" amount="1.20">
+      <target type="ProtoUnit">LogicalTypeLandEconomy</target>
+    </effect>
+    <effect type="WorkRate" action="Gather" unittype="Farm" relativity="BasePercent" amount="1.20">
+      <target type="ProtoUnit">LogicalTypeLandEconomy</target>
+    </effect>
+    <effect type="WorkRate" action="Gather" unittype="ypBerryBuilding" relativity="BasePercent" amount="1.20">
+      <target type="ProtoUnit">LogicalTypeLandEconomy</target>
+    </effect>
+    <effect type="WorkRate" action="Gather" unittype="ypGroveBuilding" relativity="BasePercent" amount="1.20">
+      <target type="ProtoUnit">LogicalTypeLandEconomy</target>
+    </effect>
+    <effect type="WorkRate" action="Gather" unittype="deFurTrade" relativity="BasePercent" amount="1.20">
+      <target type="ProtoUnit">LogicalTypeLandEconomy</target>
+    </effect>
+    <effect type="WorkRate" action="Gather" unittype="deMountainMonastery" relativity="BasePercent" amount="1.20">
+      <target type="ProtoUnit">LogicalTypeLandEconomy</target>
+    </effect>
+    <effect type="WorkRate" action="Gather" unittype="deMountainMonastery" relativity="BasePercent" amount="1.20">
+      <target type="ProtoUnit">deAbun</target>
+    </effect>
+    <effect type="WorkRate" action="Gather" unittype="deTorpBush2" relativity="BasePercent" amount="1.20">
+      <target type="ProtoUnit">LogicalTypeLandEconomy</target>
+    </effect>
+    <effect type="WorkRateSpecific" action="Gather" unittype="deHacienda" resource="Food" relativity="BasePercent" amount="1.20">
+      <target type="ProtoUnit">LogicalTypeLandEconomy</target>
+    </effect>
+    <effect type="WorkRateSpecific" action="Gather" unittype="deHacienda" resource="Gold" relativity="BasePercent" amount="1.20">
+      <target type="ProtoUnit">LogicalTypeLandEconomy</target>
+    </effect>
+    <effect type="WorkRateSpecific" action="Gather" unittype="deHacienda" resource="Wood" relativity="BasePercent" amount="1.20">
+      <target type="ProtoUnit">LogicalTypeLandEconomy</target>
+    </effect>
+    <effect type="WorkRateSpecific" action="Gather" unittype="ypRicePaddy" resource="Food" relativity="BasePercent" amount="1.20">
+      <target type="ProtoUnit">LogicalTypeLandEconomy</target>
+    </effect>
+    <effect type="WorkRateSpecific" action="Gather" unittype="ypRicePaddy" resource="Gold" relativity="BasePercent" amount="1.20">
+      <target type="ProtoUnit">LogicalTypeLandEconomy</target>
+    </effect>
+    <effect type="WorkRateSpecific" action="Gather" unittype="deField" resource="Food" relativity="BasePercent" amount="1.20">
+      <target type="ProtoUnit">LogicalTypeLandEconomy</target>
+    </effect>
+    <effect type="WorkRateSpecific" action="Gather" unittype="deField" resource="Gold" relativity="BasePercent" amount="1.20">
+      <target type="ProtoUnit">LogicalTypeLandEconomy</target>
+    </effect>
+    <effect type="WorkRate" action="Build" relativity="BasePercent" amount="1.20">
+      <target type="ProtoUnit">LogicalTypeLandEconomy</target>
+    </effect>
+    <effect type="TrainPoints" relativity="BasePercent" amount="0.725">
+      <target type="ProtoUnit">LogicalTypeLandEconomy</target>
+    </effect>
+    <placement forceonmap="1" ally="">full</placement>
+  </power>
 </powers>

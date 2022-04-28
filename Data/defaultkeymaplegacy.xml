@@ -118,6 +118,15 @@
       <event>alt-mouse1down</event>
       <context>game</context>
       <command>uiFlareAtPointer</command>
+      <minimapignore>1</minimapignore>
+    </keymapdata>
+    <keymapdata>
+      <name>Flare Type</name>
+      <displayname>$$55029$$Select flare type</displayname>
+      <event>control-mouse2down</event>
+      <context>game</context>
+      <command>openFlareType</command>
+      <minimapignore>1</minimapignore>
     </keymapdata>
     <keymapdata>
       <name>Enter Flare Mode</name>
@@ -230,7 +239,7 @@
       <displayname>$$43352$$Find Barracks or Blockhouse</displayname>
       <event>control-b</event>
       <context>game</context>
-      <command>uiFindAnyOfTypes("Barracks, Blockhouse, ypBarracksIndian, ypBarracksJapanese, deWarCamp")</command>
+      <command>uiFindAnyOfTypes("Barracks, ypBarracksIndian, ypBarracksJapanese, deWarCamp, ypWarAcademy, Blockhouse")</command>
     </keymapdata>
     <keymapdata>
       <name>Find Church or Mosque</name>
@@ -453,13 +462,6 @@
       <event>control-s</event>
       <context>game</context>
       <command>uiFindType("ypCaravanserai") </command>
-    </keymapdata>
-    <keymapdata>
-      <name>Find War Academy</name>
-      <displayname>$$68823$$Find War Academy</displayname>
-      <event>control-b</event>
-      <context>game</context>
-      <command>uiFindType("ypWarAcademy")</command>
     </keymapdata>
     <keymapdata>
       <name>Find Consulate</name>
@@ -1476,7 +1478,7 @@
       <displayname>$$29471$$Longbowman</displayname>
       <event>l</event>
       <context>BarracksAccel</context>
-      <command>tis("Longbowman")</command>
+      <command>tis("Longbowman") tis("deRanger")</command>
     </keymapdata>
     <keymapdata>
       <name>Multiple Longbowmen</name>
@@ -1484,7 +1486,7 @@
       <displayformat>$$43376$$Multiple %s</displayformat>
       <event>shift-l</event>
       <context>BarracksAccel</context>
-      <command>tis("Longbowman",5)</command>
+      <command>tis("Longbowman",5) tis("deRanger",5)</command>
     </keymapdata>
     <keymapdata>
       <name>Musketeer</name>
@@ -1853,6 +1855,21 @@
       <context>VillageAccel</context>
       <command>tis("ypGoat",5)</command>
     </keymapdata>
+    <keymapdata>
+      <name>Water Buffalo</name>
+      <displayname>$$61609$$Water Buffalo</displayname>
+      <event>c</event>
+      <context>VillageAccel</context>
+      <command>tis("ypWaterBuffalo")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Multiple Water Buffalo</name>
+      <displayname>$$61609$$Water Buffalo</displayname>
+      <displayformat>$$43376$$Multiple %s</displayformat>
+      <event>shift-c</event>
+      <context>VillageAccel</context>
+      <command>tis("ypWaterBuffalo",5)</command>
+    </keymapdata>
   </keymapgroup>
   <keymapgroup name="Blockhouse Hotkeys" displayname="$$43362$$Blockhouse Hotkeys" hotkeystyle="Legacy">
     <keymapdata>
@@ -2028,6 +2045,164 @@
       <displayformat>$$43376$$Multiple %s</displayformat>
       <context>BlockhouseAccel</context>
       <command>tis("deRifleman",5)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Old Han Army</name>
+      <displayname>$$62090$$Old Han Army</displayname>
+      <event>q</event>
+      <context>BlockhouseAccel</context>
+      <command>tis("ypOldHanArmy")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Multiple Old Han Army</name>
+      <displayname>$$62090$$Old Han Army</displayname>
+      <displayformat>$$43376$$Multiple %s</displayformat>
+      <event>shift-q</event>
+      <context>BlockhouseAccel</context>
+      <command>tis("ypOldHanArmy",5)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Ming Army</name>
+      <displayname>$$66595$$Ming Army</displayname>
+      <event>w</event>
+      <context>BlockhouseAccel</context>
+      <command>tis("ypMingArmy")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Multiple Ming Army</name>
+      <displayname>$$66595$$Ming Army</displayname>
+      <displayformat>$$43376$$Multiple %s</displayformat>
+      <event>shift-w</event>
+      <context>BlockhouseAccel</context>
+      <command>tis("ypMingArmy",5)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Standard Army</name>
+      <displayname>$$66592$$Standard Army</displayname>
+      <event>e</event>
+      <context>BlockhouseAccel</context>
+      <command>tis("ypStandardArmy")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Multiple Standard Army</name>
+      <displayname>$$66592$$Standard Army</displayname>
+      <displayformat>$$43376$$Multiple %s</displayformat>
+      <event>shift-e</event>
+      <context>BlockhouseAccel</context>
+      <command>tis("ypStandardArmy",5)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Territorial Army</name>
+      <displayname>$$68404$$Territorial Army</displayname>
+      <event>r</event>
+      <context>BlockhouseAccel</context>
+      <command>tis("ypTerritorialArmy")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Multiple Territorial Army</name>
+      <displayname>$$68404$$Territorial Army</displayname>
+      <displayformat>$$43376$$Multiple %s</displayformat>
+      <event>shift-r</event>
+      <context>BlockhouseAccel</context>
+      <command>tis("ypTerritorialArmy",5)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Forbidden Army</name>
+      <displayname>$$68410$$Forbidden Army</displayname>
+      <event>a</event>
+      <context>BlockhouseAccel</context>
+      <command>tis("ypForbiddenArmy")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Multiple Forbidden Army</name>
+      <displayname>$$68410$$Forbidden Army</displayname>
+      <displayformat>$$43376$$Multiple %s</displayformat>
+      <event>shift-a</event>
+      <context>BlockhouseAccel</context>
+      <command>tis("ypForbiddenArmy",5)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Imperial Army</name>
+      <displayname>$$68419$$Imperial Army</displayname>
+      <event>s</event>
+      <context>BlockhouseAccel</context>
+      <command>tis("ypImperialArmy")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Multiple Imperial Army</name>
+      <displayname>$$68419$$Imperial Army</displayname>
+      <displayformat>$$43376$$Multiple %s</displayformat>
+      <event>shift-s</event>
+      <context>BlockhouseAccel</context>
+      <command>tis("ypImperialArmy",5)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Flame Thrower</name>
+      <displayname>$$60333$$Flame Thrower</displayname>
+      <event>
+      </event>
+      <context>BlockhouseAccel</context>
+      <command>tis("ypFlameThrower")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Multiple Flame Thrower</name>
+      <displayname>$$60333$$Flame Thrower</displayname>
+      <displayformat>$$43376$$Multiple %s</displayformat>
+      <event>
+      </event>
+      <context>BlockhouseAccel</context>
+      <command>tis("ypFlameThrower",5)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Hand Mortar</name>
+      <displayname>$$60192$$Hand Mortar</displayname>
+      <event>
+      </event>
+      <context>BlockhouseAccel</context>
+      <command>tis("ypHandMortar")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Multiple Hand Mortar</name>
+      <displayname>$$60192$$Hand Mortar</displayname>
+      <displayformat>$$43376$$Multiple %s</displayformat>
+      <event>
+      </event>
+      <context>BlockhouseAccel</context>
+      <command>tis("ypHandMortar",5)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Black Flag Army</name>
+      <displayname>$$68729$$Black Flag Army</displayname>
+      <event>
+      </event>
+      <context>BlockhouseAccel</context>
+      <command>tis("ypBlackFlagArmy")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Multiple Black Flag Army</name>
+      <displayname>$$68729$$Black Flag Army</displayname>
+      <displayformat>$$43376$$Multiple %s</displayformat>
+      <event>
+      </event>
+      <context>BlockhouseAccel</context>
+      <command>tis("ypBlackFlagArmy",5)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Mongolian Army</name>
+      <displayname>$$69406$$Mongolian Army</displayname>
+      <event>
+      </event>
+      <context>BlockhouseAccel</context>
+      <command>tis("ypMongolianArmy")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Multiple Mongolian Army</name>
+      <displayname>$$69406$$Mongolian Army</displayname>
+      <displayformat>$$43376$$Multiple %s</displayformat>
+      <event>
+      </event>
+      <context>BlockhouseAccel</context>
+      <command>tis("ypMongolianArmy",5)</command>
     </keymapdata>
   </keymapgroup>
   <keymapgroup name="War Hut Hotkeys" displayname="$$48892$$War Hut Hotkeys" hotkeystyle="Legacy">
@@ -5101,7 +5276,7 @@
       <displayname>$$44657$$Comanchero</displayname>
       <event>c</event>
       <context>SaloonAccel</context>
-      <command>tis("SaloonOutlawRider")</command>
+      <command>tis("SaloonOutlawRider") tis("deSaloonVaquero") tis("deSaloonCowboy")</command>
     </keymapdata>
     <keymapdata>
       <name>Multiple Comanchero</name>
@@ -5109,7 +5284,7 @@
       <displayformat>$$43376$$Multiple %s</displayformat>
       <event>shift-c</event>
       <context>SaloonAccel</context>
-      <command>tis("SaloonOutlawRider",5)</command>
+      <command>tis("SaloonOutlawRider",5) tis("deSaloonVaquero",5) tis("deSaloonCowboy",5)</command>
     </keymapdata>
     <keymapdata>
       <name>Highlander</name>
@@ -5266,7 +5441,7 @@
       <displayname>$$46118$$Pistolero</displayname>
       <event>p</event>
       <context>SaloonAccel</context>
-      <command>tis("SaloonOutlawPistol")</command>
+      <command>tis("SaloonOutlawPistol") tis("deSaloonDesperado") tis("deSaloonGunslinger")</command>
     </keymapdata>
     <keymapdata>
       <name>Multiple Pistolero</name>
@@ -5274,14 +5449,14 @@
       <displayformat>$$43376$$Multiple %s</displayformat>
       <event>shift-p</event>
       <context>SaloonAccel</context>
-      <command>tis("SaloonOutlawPistol",5)</command>
+      <command>tis("SaloonOutlawPistol",5) tis("deSaloonDesperado",5) tis("deSaloonGunslinger",5)</command>
     </keymapdata>
     <keymapdata>
       <name>Renegado</name>
       <displayname>$$44653$$Renegado</displayname>
       <event>r</event>
       <context>SaloonAccel</context>
-      <command>tis("SaloonOutlawRifleman")</command>
+      <command>tis("SaloonOutlawRifleman") tis("deSaloonBandido") tis("deSaloonOwlhoot")</command>
     </keymapdata>
     <keymapdata>
       <name>Multiple Renegado</name>
@@ -5289,7 +5464,7 @@
       <displayformat>$$43376$$Multiple %s</displayformat>
       <event>shift-r</event>
       <context>SaloonAccel</context>
-      <command>tis("SaloonOutlawRifleman",5)</command>
+      <command>tis("SaloonOutlawRifleman",5) tis("deSaloonBandido",5) tis("deSaloonOwlhoot",5)</command>
     </keymapdata>
     <keymapdata>
       <name>Stradiot</name>
@@ -5980,7 +6155,7 @@
       <displayname>$$46118$$Pistolero</displayname>
       <event>q</event>
       <context>NativeEmbassyAccel</context>
-      <command>tis("SaloonOutlawPistol")</command>
+      <command>tis("SaloonOutlawPistol") tis("deSaloonDesperado") tis("deSaloonGunslinger")</command>
     </keymapdata>
     <keymapdata>
       <name>Multiple Pistolero</name>
@@ -5988,14 +6163,14 @@
       <displayformat>$$43376$$Multiple %s</displayformat>
       <event>shift-q</event>
       <context>NativeEmbassyAccel</context>
-      <command>tis("SaloonOutlawPistol",5)</command>
+      <command>tis("SaloonOutlawPistol",5) tis("deSaloonDesperado",5) tis("deSaloonGunslinger",5)</command>
     </keymapdata>
     <keymapdata>
       <name>Comanchero</name>
       <displayname>$$46122$$Comanchero</displayname>
       <event>w</event>
       <context>NativeEmbassyAccel</context>
-      <command>tis("SaloonOutlawRider")</command>
+      <command>tis("SaloonOutlawRider") tis("deSaloonVaquero") tis("deSaloonCowboy")</command>
     </keymapdata>
     <keymapdata>
       <name>Multiple Comanchero</name>
@@ -6003,14 +6178,14 @@
       <displayformat>$$43376$$Multiple %s</displayformat>
       <event>shift-w</event>
       <context>NativeEmbassyAccel</context>
-      <command>tis("SaloonOutlawRider",5)</command>
+      <command>tis("SaloonOutlawRider",5) tis("deSaloonVaquero",5) tis("deSaloonCowboy",5)</command>
     </keymapdata>
     <keymapdata>
       <name>Renegado</name>
       <displayname>$$46126$$Renegado</displayname>
       <event>e</event>
       <context>NativeEmbassyAccel</context>
-      <command>tis("SaloonOutlawRifleman")</command>
+      <command>tis("SaloonOutlawRifleman") tis("deSaloonBandido") tis("deSaloonOwlhoot")</command>
     </keymapdata>
     <keymapdata>
       <name>Multiple Renegado</name>
@@ -6018,7 +6193,7 @@
       <displayformat>$$43376$$Multiple %s</displayformat>
       <event>shift-e</event>
       <context>NativeEmbassyAccel</context>
-      <command>tis("SaloonOutlawRifleman",5)</command>
+      <command>tis("SaloonOutlawRifleman",5) tis("deSaloonBandido",5) tis("deSaloonOwlhoot",5)</command>
     </keymapdata>
     <keymapdata>
       <name>Captured Mortar</name>

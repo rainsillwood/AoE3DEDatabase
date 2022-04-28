@@ -319,7 +319,7 @@
     <string _locid="50316" comment="proto-Frigate/SPCXPTreasureShip civ-Default/British/SPCCompany type-title">Sybil</string>
     <string _locid="50317" comment="proto-Frigate/SPCXPTreasureShip civ-Default/British/SPCCompany type-title">Sunneshine</string>
     <string _locid="50318" comment="proto-Frigate/deSteamer/SPCXPTreasureShip civ-Default/British/SPCCompany type-title">Union</string>
-    <string _locid="50319" comment="proto-Frigate/Privateer/SPCXPTreasureShip civ-Default/British/SPCCompany type-title">Victory</string>
+    <string _locid="50319" comment="proto-deMercBattleship/Privateer/SPCXPTreasureShip civ-Default/British/SPCCompany type-title">Victory</string>
     <string _locid="50320" comment="proto-Frigate civ-SPCAct1 type-title">Imperatore del Sacro Romano Impero</string>
     <string _locid="50321" comment="proto-Frigate civ-SPCAct1 type-title">Zabbar</string>
     <string _locid="50322" comment="proto-Frigate civ-SPCAct1 type-title">Salina</string>
@@ -2366,5 +2366,23 @@
     <string _locid="52388" comment="proto-dePadre civ-DEMexicans type-lastname">Arricivita</string>
     <string _locid="52389" comment="proto-dePadre civ-DEMexicans type-lastname">de los Ángeles</string>
     <string _locid="52390" comment="proto-dePadre civ-DEMexicans type-lastname">Bautista</string>
+    <string _locid="53000" comment="proto-deMercBattleship civ-British type-title">Sovrano dei mari</string>
+    <string _locid="53001" comment="proto-deMercBattleship civ-British type-title">Giorgio reale</string>
+    <string _locid="53002" comment="proto-deMercBattleship civ-British type-title">Carlo reale</string>
+    <string _locid="53003" comment="proto-deMercBattleship civ-British type-title">Sovrano reale</string>
+    <string _locid="53004" comment="proto-deMercBattleship civ-British type-title">Principe</string>
+    <string _locid="53005" comment="proto-deMiner civ-Default type-title">Alexander</string>
+    <string _locid="53006" comment="proto-deMiner civ-Default type-title">Ambrose</string>
+    <string _locid="53007" comment="proto-deMiner civ-Default type-title">Brady</string>
+    <string _locid="53008" comment="proto-deMiner civ-Default type-title">Clarance</string>
+    <string _locid="53009" comment="proto-deMiner civ-Default type-title">Edmund</string>
+    <string _locid="53010" comment="proto-deMiner civ-Default type-title">Howard</string>
+    <string _locid="53011" comment="proto-deMiner civ-Default type-title">Johnathan</string>
+    <string _locid="53012" comment="proto-deMiner civ-Default type-title">Lawrence</string>
+    <string _locid="53013" comment="proto-deMiner civ-Default type-title">Malcolm</string>
+    <string _locid="53014" comment="proto-deMiner civ-Default type-title">Nathaniel</string>
+    <string _locid="53015" comment="proto-deMiner civ-Default type-title">Ross</string>
+    <string _locid="53016" comment="proto-deMiner civ-Default type-title">Seamus</string>
+    <string _locid="53017" comment="proto-deMiner civ-Default type-title">Silas</string>
   </language>
 </stringtable>

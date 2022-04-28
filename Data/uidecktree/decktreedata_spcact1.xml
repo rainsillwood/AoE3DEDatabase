@@ -1,0 +1,88 @@
+<decktreedata>
+  <group name="New World Trading Company">
+    <label string="24970" banner="building" icon="resources/art/buildings/town_center/towncenter_portrait.png" row="0" col="1">
+    </label>
+    <card name="HCShipSettlers1" banner="unit" icon="resources/art/units/villagers/villager_portrait.png" row="1" col="2">
+    </card>
+    <card name="HCShipSettlers2" banner="unit" icon="resources/art/units/villagers/villager_portrait.png" row="2" col="2">
+    </card>
+    <card name="HCShipFoodCrates1" banner="improvement" icon="resources/images/icons/techs/infinite_food.png" row="3" col="2">
+    </card>
+    <card name="HCShipFoodCrates2" banner="improvement" icon="resources/images/icons/techs/hc_food_crate/hc_food_crate_128.png" row="4" col="2">
+    </card>
+    <card name="HCShipWoodCrates1" banner="improvement" icon="resources/images/icons/techs/infinite_wood.png" row="5" col="2">
+    </card>
+    <card name="HCShipWoodCrates2" banner="improvement" icon="resources/images/icons/techs/hc_wood_crate/hc_wood_crate_128.png" row="6" col="2">
+    </card>
+    <card name="HCShipCoinCrates1" banner="improvement" icon="resources/images/icons/techs/infinite_gold.png" row="7" col="2">
+    </card>
+    <card name="HCShipCoinCrates2" banner="improvement" icon="resources/images/icons/techs/hc_unlock_coin_crate/hc_unlock_coin_crate.png" row="8" col="2">
+    </card>
+    <card name="HCShipCoveredWagons" banner="unit" icon="resources/art/units/villagers/covered_wagon/covered_wagon_portrait.png" row="1" col="8">
+    </card>
+    <card name="HCAdmirality" banner="improvement" icon="resources/images/icons/techs/hc_admirality/hc_admirality.png" row="2" col="8">
+    </card>
+    <card name="HCShipGalleons" banner="unit" icon="resources/art/units/naval/galleon/galleon_icon_portrait.png" row="3" col="8">
+    </card>
+    <card name="HCPrivateers" banner="unit" icon="resources/art/units/naval/privateer/privateer_icon_portrait.png" row="4" col="8">
+    </card>
+    <card name="HCShipFireships" banner="unit" icon="resources/art/units/naval/fluyt/fluyt_portrait.png" row="3" col="14">
+    </card>
+  </group>
+  <group name="The Knight's Garrison">
+    <label string="36923" banner="building" icon="resources/art/buildings/town_center/towncenter_portrait.png" row="0" col="20">
+    </label>
+    <card name="HCShipCrossbowmen1" banner="unit" icon="resources/art/units/infantry_ranged/crossbow/crossbow_portrait.png" row="1" col="21">
+    </card>
+    <card name="HCHandInfantryHitpointsSpanish" banner="improvement" icon="resources/images/icons/techs/hc_gunpowder_infantry_hitpoints/hc_gunpowder_infantry_hitpoints.png" row="2" col="21">
+    </card>
+    <card name="HCShipRodeleros1" banner="unit" icon="resources/art/units/infantry/redolero/redolero_portrait.png" row="3" col="21">
+    </card>
+    <card name="HCShipRodeleros2" banner="unit" icon="resources/art/units/infantry/redolero/redolero_portrait.png" row="4" col="21">
+    </card>
+    <card name="HCShipLancers1" banner="unit" icon="resources/art/units/cavalry/lancer/lancer_portrait.png" row="5" col="21">
+    </card>
+    <card name="HCShipLancers2" banner="unit" icon="resources/art/units/cavalry/lancer/lancer_portrait.png" row="6" col="21">
+    </card>
+    <card name="HCShipLancers3" banner="unit" icon="resources/art/units/cavalry/lancer/lancer_portrait.png" row="7" col="21">
+    </card>
+    <card name="HCHandCavalryHitpointsSpanish" banner="improvement" icon="resources/images/icons/techs/hc_cavalry_hitpoints/hc_cavalry_hitpoints.png" row="6" col="27">
+    </card>
+    <card name="HCHandCavalryDamageSpanish" banner="improvement" icon="resources/images/icons/techs/hc_cavalry_damage/hc_cavalry_damage.png" row="7" col="27">
+    </card>
+    <card name="HCShipHoopThrowers1" banner="unit" icon="resources/art/units/spc/hoop_thrower/hoop_thrower_portrait.png" row="1" col="33">
+    </card>
+    <card name="HCShipHoopThrowers2" banner="unit" icon="resources/art/units/spc/hoop_thrower/hoop_thrower_portrait.png" row="2" col="33">
+    </card>
+    <card name="HCShipFalconets1" banner="unit" icon="resources/art/units/artillery/falconet/falconet_portrait.png" row="3" col="33">
+    </card>
+    <card name="HCShipFalconets2" banner="unit" icon="resources/art/units/artillery/falconet/falconet_portrait.png" row="4" col="33">
+    </card>
+    <card name="HCShipMortars1" banner="unit" icon="resources/art/units/artillery/mortar/mortar_portrait.png" row="5" col="33">
+    </card>
+    <card name="HCShipMortars2" banner="unit" icon="resources/art/units/artillery/mortar/mortar_portrait.png" row="6" col="33">
+    </card>
+  </group>
+  <group name="The Grand Magistery">
+    <label string="36922" banner="building" icon="resources/art/buildings/town_center/towncenter_portrait.png" row="0" col="39">
+    </label>
+    <card name="HCNativeLore" banner="improvement" icon="resources/images/icons/techs/hc_native_diplomacy1/hc_native_diplomacy1.png" row="1" col="40">
+    </card>
+    <card name="HCNativeTreaties" banner="improvement" icon="resources/images/icons/techs/treaty/treaty.png" row="2" col="40">
+    </card>
+    <card name="HCNativeWarriors" banner="improvement" icon="resources/images/icons/techs/hc_native_warriors/hc_native_warriors.png" row="3" col="40">
+    </card>
+    <card name="HCPioneers" banner="improvement" icon="resources/images/icons/techs/hc_pioneers/hc_pioneers.png" row="4" col="40">
+    </card>
+    <card name="HCImprovedBuildings" banner="improvement" icon="resources/images/icons/techs/hc_improved_buildings/hc_improved_buildings.png" row="5" col="40">
+    </card>
+    <card name="HCAdvancedMill" banner="improvement" icon="resources/images/icons/techs/hc_advanced_mill/hc_advanced_mill.png" row="6" col="40">
+    </card>
+    <card name="HCRoyalDecreeSPC" banner="improvement" icon="resources/images/icons/techs/hc_royal_decree/hc_royal_decree.png" row="7" col="40">
+    </card>
+    <card name="HCUnlockFort" banner="building" icon="resources/art/buildings/fort/fort_portrait.png" row="1" col="46">
+    </card>
+    <card name="HCHeavyFortifications" banner="improvement" icon="resources/images/icons/techs/hc_heavy_fortifications/hc_heavy_fortifications.png" row="2" col="46">
+    </card>
+  </group>
+</decktreedata>

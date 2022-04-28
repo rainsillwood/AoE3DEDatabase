@@ -134,7 +134,7 @@
     <string _locid="18456" symbol="cStringGamePaused">游戏暂停</string>
     <string _locid="18457" symbol="cStringClose">关闭</string>
     <string _locid="18458" symbol="cStringBack">返回</string>
-    <string _locid="18459" symbol="cStringAoMVersion">《帝国时代 III：决定版》：版本 {gameVersion}    简体中文模组：版本v1.22.0215 by 摩根布莱克@百度贴吧</string>
+    <string _locid="18459" symbol="cStringAoMVersion">《帝国时代 III：决定版》：版本 {gameVersion}    简体中文模组：版本v1.22.0420 by 摩根布莱克@百度贴吧</string>
     <string _locid="18460" symbol="cStringMicrosoft">(c) and (P) 2020 Microsoft Corporation。保留所有权利。</string>
     <string _locid="18461" symbol="cStringWarning">警告：本计算机程序受到版权法和国际条约的保护。未经授权擅自复制或分发本程序或其中任何部分内容可能将受到严厉的民事及刑事制裁，并将在法律许可的范围内受到最大程度的起诉。</string>
     <string _locid="18462" symbol="cStringBlinkVideo">使用 Bink Video。(c) 1997-2020 by RAD Game Tools, Inc.</string>
@@ -279,6 +279,7 @@
     <string _locid="19036" symbol="cStringEconomy">经济</string>
     <string _locid="19037" symbol="cStringMilitaryDetail">查看军事分数的详细信息。</string>
     <string _locid="19038" symbol="cStringMilitary">军事</string>
+    <string _locid="19039" symbol="cStringEconomyFilter">经济战 (非排名)</string>
     <string _locid="19041" symbol="cStringGameStatistics">查看更进一步的游戏统计数据。</string>
     <string _locid="19042" symbol="cStringExperienceDetail">查看经验值分数的详细信息。</string>
     <string _locid="19043" symbol="cStringExperience">经验值</string>
@@ -1477,7 +1478,7 @@
     <string _locid="22749" symbol="cStringESOPasswordCantContainNickname">您的密码不能包含您的昵称。</string>
     <string _locid="22750" symbol="cStringESOSecretQuestionRules">您的机密问题和答案不能相同。</string>
     <string _locid="22751" symbol="cStringESOSecretQuestionPassword">您的机密问题和答案不能包含您的密码。</string>
-    <string _locid="22752" symbol="cStringESOSecretQuestionChars">您的机密问题和答案不能包含 $ &amp; ( ) ; "&lt;&gt;</string>
+    <string _locid="22752" symbol="cStringESOSecretQuestionChars">您的机密问题和答案不能包含 $ &amp; ( ) ; " &lt;&gt;</string>
     <string _locid="22804">磨坊</string>
     <string _locid="22805">火枪兵</string>
     <string _locid="22806">拓荒者</string>
@@ -1697,7 +1698,7 @@
     <string _locid="23527">科曼切野马</string>
     <string _locid="23529">选择性育种的马匹，可增加骑兵类型单位的生命值。</string>
     <string _locid="23530">科曼切马育种</string>
-    <string _locid="23540">当您使用阿兹特克水上花园农业技术后，不但可以加快村民从磨坊采集食物的速度，也可以加快捕鱼艇从鱼群和鲸鱼处采集食物的速度。</string>
+    <string _locid="23540">当您使用水上花园农业技术后，不但可以加快村民从磨坊采集食物的速度，也可以加快捕鱼艇从鱼群和鲸鱼处采集食物的速度。</string>
     <string _locid="23541">阿兹特克湖田技术</string>
     <string _locid="23546">臼炮弹</string>
     <string _locid="23559" symbol="cStringRed">红色</string>
@@ -1838,7 +1839,7 @@
     <string _locid="23915">伊比利亚龙骑兵</string>
     <string _locid="23917">从祖国运送 22 位经验丰富的弩手，此外，还能增强您普通弩手的能力。</string>
     <string _locid="23918">劲弩手</string>
-    <string _locid="23927">掷石绳</string>
+    <string _locid="23927">流星索</string>
     <string _locid="23928">标枪</string>
     <string _locid="23955">大幅增加奥斯曼骠骑兵的攻击力和生命值。</string>
     <string _locid="23956">园丁卫兵</string>
@@ -2183,7 +2184,7 @@
     <string _locid="25336">IGC 诺娜凯</string>
     <string _locid="25337">IGC 夏伊</string>
     <string _locid="25338">IGC 瓦力克</string>
-    <string _locid="25339">治疗受伤的单位。</string>
+    <string _locid="25339">骑着迅捷坐骑的独特西班牙治疗者。不会占用人口。</string>
     <string _locid="25340">传教士</string>
     <string _locid="25343">定义分组</string>
     <string _locid="25344" symbol="cStringTrEffectPanWithUnit">镜头跟随单位</string>
@@ -2373,7 +2374,7 @@
     <string _locid="25664">近战雇佣步兵</string>
     <string _locid="25665">食物建筑</string>
     <string _locid="25666">持续时间短暂的远程步兵</string>
-    <string _locid="25667">治疗者</string>
+    <string _locid="25667">骑着迅捷坐骑的治疗者</string>
     <string _locid="25668">攻城炮兵</string>
     <string _locid="25669">重装远程步兵</string>
     <string _locid="25670">美洲原住民近战骑兵</string>
@@ -3357,8 +3358,8 @@
     <string _locid="27776">风云神兵</string>
     <string _locid="27778">风云鹰战士</string>
     <string _locid="27779">风云防弹盾</string>
-    <string _locid="27780" symbol="cStringNuggetafCorsairLoot" comment="1 - amount, 2 - resource">一个海盗船长的秘密藏身处，价值 %1d %2s 和 1 批船运。</string>
-    <string _locid="27781" symbol="cStringNuggetafCorsairLootActivate" comment="1 - player, 2 - amount, 3 - resource">%1s发现了一个海盗船长的秘密藏身地，价值 %2d %3s 和 1 批船运。</string>
+    <string _locid="27780" symbol="cStringNuggetafCorsairLoot" comment="1 - amount, 2 - resource">一个海盗船长的秘密藏身地，值 %2d 单位的%3s和 %4d 单位的 %5s。</string>
+    <string _locid="27781" symbol="cStringNuggetafCorsairLootActivate" comment="1 - player, 2 - amount, 3 - resource">%1s发现了一个海盗船长的秘密藏身地，值 %2d 单位的%3s和 %4d 单位的 %5s。</string>
     <string _locid="27835">运送 1 辆堡垒马车到您的城镇。它可以让您建造一个强大的堡垒。</string>
     <string _locid="27836">堡垒</string>
     <string _locid="27844">起始科技</string>
@@ -3799,7 +3800,7 @@
     <string _locid="29468">建造小屋</string>
     <string _locid="29469">弩手</string>
     <string _locid="29470">多名弩手</string>
-    <string _locid="29471">长弓兵</string>
+    <string _locid="29471">长弓兵/突击队</string>
     <string _locid="29472">多名长弓兵</string>
     <string _locid="29473">苏丹亲兵</string>
     <string _locid="29474">多名苏丹亲兵</string>
@@ -4266,6 +4267,8 @@
     <string _locid="31144">派铁道工人到冰或石桥上，就能让它们倒塌。铁道工人有远程攻击和近战攻击的能力。</string>
     <string _locid="31145">矿工</string>
     <string _locid="31146">SPC 矿工</string>
+    <string _locid="31147">未知矿工</string>
+    <string _locid="31148">从矿场收集钱币的速度极快，但从其他钱币来源收集钱币的速度缓慢。可以发动强大的手榴弹攻击。</string>
     <string _locid="31153" symbol="cStringNuggetKinkajou" comment="1 - amount, 2 - resource">一只可爱的蜜熊，值 %1d 单位的%2s。</string>
     <string _locid="31154" symbol="cStringNuggetKinkajouActivate" comment="1 - player, 2 - amount, 3 - resource">%1s发现了可爱的蜜熊，值 %2d 单位的%3s。</string>
     <string _locid="31155" symbol="cStringNuggetSloth" comment="1 - amount, 2 - resource">一只恐惧的二趾树懒，值 %1d 单位的%2s。</string>
@@ -4334,7 +4337,7 @@
     <string _locid="31478">加勒比庆典盛宴</string>
     <string _locid="31484">切罗基人的读写能力能让切罗基村民与您展开更紧密的协作，您将因此得到一次载有 4 名拓荒者的船运。</string>
     <string _locid="31485">塞阔雅的切罗基音节文字</string>
-    <string _locid="31486">在您精通了科曼切交易行话后，您所有物品研究的钱币成本将减少。</string>
+    <string _locid="31486">在您精通了科曼切交易行话后，您所有研究项目的钱币成本将减少。</string>
     <string _locid="31487">科曼切交易行话</string>
     <string _locid="31497">图皮人的砍烧技术使您能够快速开拓土地以备耕种，并且降低了成本。您所有建筑的木材成本都变便宜了。</string>
     <string _locid="31498">图皮人的森林燃烧法</string>
@@ -4434,7 +4437,7 @@
     <string _locid="31813">石桥</string>
     <string _locid="31814">SPC 被摧毁的石桥</string>
     <string _locid="31815" symbol="cStringObjectiveNoticeFameReward">\n&lt;color="1.0 0.81568627 0.0"&gt;(%d 经验值奖励。)&lt;/color&gt;</string>
-    <string _locid="31818" symbol="cStringResourceNameShips">船只</string>
+    <string _locid="31818" symbol="cStringResourceNameShips">船运</string>
     <string _locid="31820">湖畔植物 (新英格兰)</string>
     <string _locid="31821">PROP 湖畔植物 (新英格兰)</string>
     <string _locid="31822">湖畔岩石 (新英格兰)</string>
@@ -4837,7 +4840,7 @@
     <string _locid="32909" symbol="cStringAbilityRolloverSharpshooter">一枪击杀宝藏守护者。</string>
     <string _locid="32910" symbol="cStringAbilityNameBroadside">舷侧攻击</string>
     <string _locid="32911" symbol="cStringAbilityRolloverBroadside">全体向目标开火！</string>
-    <string _locid="32912">从偏远地区运送 26 名罗杰斯突击队员 (散兵)。</string>
+    <string _locid="32912">从偏远地区运送一批突击队员 (散兵)。</string>
     <string _locid="32913">罗杰斯突击队</string>
     <string _locid="32914">奥斯曼人召集了强大的图费克奇团！</string>
     <string _locid="32915">护卫散兵</string>
@@ -5204,7 +5207,7 @@
     <string _locid="33477">向苏丹亲兵投掷火环的马耳他骑士。</string>
     <string _locid="33478">火环兵</string>
     <string _locid="33479">SPC 火环兵</string>
-    <string _locid="33486">增加军舰的生命值和视野。</string>
+    <string _locid="33486">增加军舰的生命值和视野。让西班牙军舰能训练特定军事单位。</string>
     <string _locid="33487">无敌舰队</string>
     <string _locid="33492">所有奥斯曼独特的清真寺改良技术花费成本降低 60%。</string>
     <string _locid="33493">清真寺工程</string>
@@ -5508,7 +5511,7 @@
     <string _locid="33973" symbol="cStringmercaddIncCountFld">计数增量：</string>
     <string _locid="33974">湿地植物 (沼泽地)</string>
     <string _locid="33975">PROP 湿地植物 (沼泽地)</string>
-    <string _locid="33976">高强度的阿兹特克战斗训练可增加英雄的生命值和攻击力。</string>
+    <string _locid="33976">高强度的战斗训练可增加英雄的生命值和攻击力。</string>
     <string _locid="33977">阿兹特克战斗传授</string>
     <string _locid="33978" symbol="cStringMercenaryEditorErrorMsg1">此雇佣兵单位已被添加到列表中，您无法重复此操作。</string>
     <string _locid="33979" symbol="cStringmerceditEditBtn">编辑雇佣兵</string>
@@ -6218,7 +6221,8 @@
     <string _locid="35298">将臼炮和骑兵炮转移到要塞时代。</string>
     <string _locid="35299">高级炮兵</string>
     <string _locid="35307">自由民</string>
-    <string _locid="35308">增加长弓兵的攻击距离。</string>
+    <string _locid="35308">长弓兵的射程将变得更远。</string>
+    <string _locid="35309">长弓兵对重装步兵造成更大的伤害，且射程更远。</string>
     <string _locid="35317">增加火枪兵和掷弹兵的攻击力和生命值。</string>
     <string _locid="35318">火枪兵/掷弹兵战斗力</string>
     <string _locid="35319">增加所有骑兵的生命值。</string>
@@ -6494,7 +6498,7 @@
     <string _locid="35732">8 名长枪兵</string>
     <string _locid="35733">10 名长枪兵</string>
     <string _locid="35734">8 名圆盾剑兵</string>
-    <string _locid="35735">13 名圆盾剑兵</string>
+    <string _locid="35735">16 名圆盾剑兵</string>
     <string _locid="35736">9 名圆盾剑兵</string>
     <string _locid="35737">4 名骠骑兵</string>
     <string _locid="35738">6 名长枪骑兵</string>
@@ -7520,8 +7524,8 @@
     <string _locid="36937">一个家族在三代人的时间里，保护着一个被遗忘的新世界秘密，不让它落入危险的敌人手中。</string>
     <string _locid="36938" symbol="cStringNuggetCoureur">1 位被困住的闯林人。无论谁解救了他，他都会加入解救者的阵营。</string>
     <string _locid="36939" symbol="cStringNuggetCoureurActivate">%1s解救了 1 位闯林人。这位闯林人加入了他的阵营。</string>
-    <string _locid="36940" symbol="cStringNuggetNative">1 位被困住的美洲原住民战士。无论谁解救了他，他都会加入解救者的阵营。</string>
-    <string _locid="36941" symbol="cStringNuggetNativeActivate">%1s解救了 1 位美洲原住民战士。这位原住民战士加入了他的阵营。</string>
+    <string _locid="36940" symbol="cStringNuggetNative">1 位被困住的原住民战士。无论谁解救了他，他都会加入解救者的阵营。</string>
+    <string _locid="36941" symbol="cStringNuggetNativeActivate">%1s解救了 1 位原住民战士。这位原住民战士加入了他的阵营。</string>
     <string _locid="36942" symbol="cStringNuggetPrisSettler">1 位被困住的拓荒者。无论谁解救了他，他都会加入解救者的阵营。</string>
     <string _locid="36943" symbol="cStringNuggetPrisSettlerActivate">%1s解救了 1 位拓荒者。这位拓荒者加入了他的阵营。</string>
     <string _locid="36944" symbol="cStringNuggetPrisSurgeon">1 位被困住的治疗者。无论谁解救了他，他都会加入解救者的阵营。</string>
@@ -7783,7 +7787,7 @@
     <string _locid="37261">英国人征召了著名的罗杰斯突击队。</string>
     <string _locid="37264">港长</string>
     <string _locid="37265">IGC 港长</string>
-    <string _locid="37266">每座碉堡持续自行召集 5 名射击军，并增加所有射击军的生命值。</string>
+    <string _locid="37266">每座碉堡一次性自行召集 5 名射击军，并增加所有射击军的生命值。</string>
     <string _locid="37267">射击军团</string>
     <string _locid="37268">减少臼炮的训练成本，并增加它的训练速率和攻击力。</string>
     <string _locid="37269">独角兽炮</string>
@@ -13748,7 +13752,7 @@
     <string _locid="43349">从任何组中移除</string>
     <string _locid="43350">寻找探险家</string>
     <string _locid="43351">寻找马车</string>
-    <string _locid="43352">寻找兵营、碉堡或战斗营</string>
+    <string _locid="43352">寻找兵营、碉堡、军事学院或战斗营</string>
     <string _locid="43353">寻找议会</string>
     <string _locid="43354">寻找军医院</string>
     <string _locid="43355">建造城墙</string>
@@ -14628,9 +14632,9 @@
     <string _locid="44228">8 名郊狼游击兵</string>
     <string _locid="44229">12 名郊狼游击兵</string>
     <string _locid="44230">增加郊狼游击兵的速度和生命值。</string>
-    <string _locid="44231">郊狼战斗力</string>
+    <string _locid="44231">郊狼战术</string>
     <string _locid="44232">“步兵战斗力”船运已经抵达。</string>
-    <string _locid="44233">“郊狼战斗力”船运已经抵达。</string>
+    <string _locid="44233">“郊狼战术”船运已经抵达。</string>
     <string _locid="44234">9 名美洲狮长矛兵</string>
     <string _locid="44235">6 名美洲狮长矛兵</string>
     <string _locid="44236">8 名奥托米投石兵</string>
@@ -14896,7 +14900,7 @@
     <string _locid="44492">{E^中型食草动物，可以捕获作为食物。^}{J^中型食草动物，会被附近的神社所吸引，可以提高神社的资源产生速率。^}</string>
     <string _locid="44493">栗色羊驼</string>
     <string _locid="44494">经仪式净化过的狐斗士，可增加对步兵的伤害。</string>
-    <string _locid="44495">欧尼卡小屋</string>
+    <string _locid="44495">蒸汗小屋</string>
     <string _locid="44496">“尊贵骑士”船运已经抵达。</string>
     <string _locid="44497">“洁身礼室”船运已经抵达。</string>
     <string _locid="44498">莫霍克人</string>
@@ -15489,7 +15493,7 @@
     <string _locid="45087">酋长</string>
     <string _locid="45088">增强战酋的致命攻击力，并将战酋的生命值提高 50%。</string>
     <string _locid="45089">酋长</string>
-    <string _locid="45090">作战小屋/贵族小屋的攻击力/生命值增加 10%，外加 1 辆作战小屋运输架。</string>
+    <string _locid="45090">作战小屋和贵族小屋的攻击力与生命值 +10%，外加 1 辆作战小屋运输架。</string>
     <string _locid="45091">长老</string>
     <string _locid="45092">2 辆农田运输架</string>
     <string _locid="45093">长老</string>
@@ -15524,11 +15528,11 @@
     <string _locid="45122">增加萨波特克战士的攻击力和生命值。</string>
     <string _locid="45123">SHADOW 阿兹特克暴徒</string>
     <string _locid="45124">精锐闪电战士</string>
-    <string _locid="45125">作战小屋/贵族小屋的攻击力/生命值增加 10%，外加 2 辆贵族小屋运输架。</string>
+    <string _locid="45125">作战小屋和贵族小屋的攻击力与生命值 +10%，外加 2 辆贵族小屋运输架。</string>
     <string _locid="45126">长老</string>
-    <string _locid="45127">作战小屋/贵族小屋的攻击力/生命值增加 30%，外加 2 辆贵族小屋运输架。</string>
+    <string _locid="45127">作战小屋和贵族小屋的攻击力与生命值 +30%，外加 2 辆贵族小屋运输架。</string>
     <string _locid="45128">长老</string>
-    <string _locid="45129">作战小屋/贵族小屋的攻击力/生命值增加 50%，外加 2 辆贵族小屋运输架。</string>
+    <string _locid="45129">作战小屋和贵族小屋的攻击力与生命值 +50%，外加 2 辆贵族小屋运输架。</string>
     <string _locid="45130">长老</string>
     <string _locid="45131">400 单位的木材</string>
     <string _locid="45132">酋长</string>
@@ -16606,7 +16610,7 @@
     <string _locid="46212">第二辆篷车来了。好好保护它，不过别忘了也要看好您的新城镇中心。等第二辆篷车安全抵达目的地后，您就能进入下一个时代并训练军事单位了。</string>
     <string _locid="46213">在场景结束前拥有 2 座交易站。</string>
     <string _locid="46214">除了拉勒米堡的交易站外，地图上只有 2 座尚未被占领的交易站。</string>
-    <string _locid="46215">“欧尼卡小屋”船运已经抵达。</string>
+    <string _locid="46215">“蒸汗小屋”船运已经抵达。</string>
     <string _locid="46216">成功的新年庆典会让您获得 2000 点经验点数。</string>
     <string _locid="46217">水神崇拜</string>
     <string _locid="46218">转变成堡垒</string>
@@ -16796,7 +16800,7 @@
     <string _locid="46402" gamecharacter="风之羽" soundfilename="XGENR9420" portraitfilename="resources\art\units\sx_warchief_portrait.png">荷姆就在那里，他是你的了。</string>
     <string _locid="46406" symbol="cStringMapControlWarning1">快要获得独占事业胜利了！</string>
     <string _locid="46407" symbol="cStringMapControlWarning2">即将获得独占事业胜利！</string>
-    <string _locid="46408" symbol="cStringMapControlWarning0">独占事业胜利倒计时开始了！</string>
+    <string _locid="46408" symbol="cStringMapControlWarning0">独占事业胜利倒计时启动了！</string>
     <string _locid="46409">村民</string>
     <string _locid="46410">攻城武器厂</string>
     <string _locid="46411">村民</string>
@@ -17357,7 +17361,7 @@
     <string _locid="46966">2 座骑兵炮</string>
     <string _locid="46967">3 座骑兵炮</string>
     <string _locid="46968">1 座重型加农炮和 4 名乌兰骑兵</string>
-    <string _locid="46969">10 名圆盾剑兵</string>
+    <string _locid="46969">14 名圆盾剑兵</string>
     <string _locid="46970">6 名掷弹兵</string>
     <string _locid="46971">8 名长戟兵</string>
     <string _locid="46972">7 名骑射手</string>
@@ -17412,7 +17416,7 @@
     <string _locid="47021" gamecharacter="铁道工人" soundfilename="XGENR9292" portraitfilename="resources\art\units\spc\miner\miner_portrait.png">救救我们！</string>
     <string _locid="47022" gamecharacter="铁道工人" soundfilename="XGENR9293" portraitfilename="resources\art\units\spc\miner\miner_portrait.png">快逃到城镇！</string>
     <string _locid="47023" gamecharacter="铁道工人" soundfilename="XGENR9294" portraitfilename="resources\art\units\spc\miner\miner_portrait.png">救命啊！</string>
-    <string _locid="47024">现在您的传教士可以增加附近士兵的攻击力。</string>
+    <string _locid="47024">现在您的传教士可以增加附近步兵和骑兵的攻击力。</string>
     <string _locid="47025">傅油</string>
     <string _locid="47026">“海军总部”船运已经抵达。</string>
     <string _locid="47027">“傅油”船运已经抵达。</string>
@@ -17563,7 +17567,7 @@
     <string _locid="47172" symbol="cStringTreatyTimeRemaining">条约剩余时间</string>
     <string _locid="47173">郊狼游击兵现可隐秘行动。</string>
     <string _locid="47174">无声突袭</string>
-    <string _locid="47175">“欧尼卡小屋”船运已经抵达。</string>
+    <string _locid="47175">“蒸汗小屋”船运已经抵达。</string>
     <string _locid="47176">“无声突袭”船运已经抵达。</string>
     <string _locid="47177">增加作战小屋和贵族小屋的视野和攻击距离。</string>
     <string _locid="47178">石塔</string>
@@ -19883,7 +19887,7 @@
     <string _locid="49566">查看探险家外观</string>
     <string _locid="49567">选择即可应用装扮或探险家名称变更。</string>
     <string _locid="49568">选择即可开始下一个挑战！</string>
-    <string _locid="49569">探险家 (默认)\n这是默认版本的探险家。</string>
+    <string _locid="49569">王子 (默认)\n这是默认版本的王子。</string>
     <string _locid="49570">特沃德罗斯皇帝\n特沃德罗斯皇帝穿着狩猎装，骑在身披金色纹路马具的白马上。</string>
     <string _locid="49571">奥斯曼·丹·福迪奥\n奥斯曼·丹·福迪奥身着旅行装，带着权杖，骑着沙漠骆驼，手持卷轴和其他物品。</string>
     <string _locid="49572">通过完成所有非洲皇家活动挑战来解锁此探险家角色自定义外观。</string>
@@ -20013,8 +20017,9 @@
     <string _locid="49696">通过完成《帝国时代 II：决定版》庆祝活动挑战，解锁此战酋自定义项目。</string>
     <string _locid="49697">蒙特祖马</string>
     <string _locid="49698">托纳蒂乌</string>
-    <string _locid="49699">经济模式</string>
-    <string _locid="49700">经济模式：玩家间竞争获得最高的经济分数。如果想在该游戏模式获胜，需要把精力集中在以训练单位和建造建筑发展经济。收集资源，进入新时代，改良自己的技术。你也可以通过完成经济挑战提升分数。</string>
+    <string _locid="49699">经济战</string>
+    <string _locid="49700">
+    </string>
     <string _locid="49701">档案图标解锁：《帝国时代 II》女性村民。</string>
     <string _locid="49702">战酋自定义项目：蒙特祖马。</string>
     <string _locid="49703">战酋自定义项目：托纳蒂乌。</string>
@@ -20212,13 +20217,13 @@
     <string _locid="49895">前往 https://discord.com/invite/ageofempires/login</string>
     <string _locid="49896">支持</string>
     <string _locid="49897">在论坛中寻求帮助。</string>
-    <string _locid="49898">请前往 https://forums.ageofempires.com/c/age-of-empires-iii/133</string>
+    <string _locid="49898">前往 https://aoe.ms/AoE3DEForums</string>
     <string _locid="49899">论坛</string>
     <string _locid="49900">查看论坛上的最新内容。</string>
-    <string _locid="49901">前往 https://support.ageofempires.com/hc/categories/360004101511-Age-of-Empires-III-Definitive-Edition</string>
+    <string _locid="49901">前往 https://aoe.ms/AoE3DEFAQ</string>
     <string _locid="49902">报告问题</string>
     <string _locid="49903">在论坛中报告错误。</string>
-    <string _locid="49904">前往 https://support.ageofempires.com/hc/articles/360048537332-Reporting-an-Issue</string>
+    <string _locid="49904">前往 https://aoe.ms/AoE3DEReportIssue</string>
     <string _locid="49905">2022 年春节活动</string>
     <string _locid="49906">2021 年春节活动</string>
     <string _locid="49907">虎年</string>
@@ -20306,6 +20311,126 @@
     <string _locid="49985">玩家所选择的其他挑战。</string>
     <string _locid="49986">选择其他挑战</string>
     <string _locid="49987">已选择的挑战：{0}/{1}</string>
+    <string _locid="49988">国际妇女活动</string>
+    <string _locid="49989">档案图标解锁：戴着紫色墨镜的达荷美女战士。</string>
+    <string _locid="49990">在一场小规模战斗或多人游戏中，使用瑞典人建造 20 座农舍。</string>
+    <string _locid="49991">档案图标解锁：瑞典女王克里斯蒂娜。</string>
+    <string _locid="49992">使用任意原住民文明 (豪德诺索尼人、拉科塔人、印加人、阿兹特克人、豪萨人、埃塞俄比亚人)，赢得一场单人小规模战斗或多人游戏。</string>
+    <string _locid="49993">解锁作弊码：“Granny Nanny”，该作弊码可将所有村民都变成达荷美女战士。</string>
+    <string _locid="49994">在任意数量的小规模战斗或多人游戏中，通过弗洛伦斯·南丁格尔主城船运使庄园房屋拥有治疗能力，并使用庄园房屋治疗单位的生命值 1000 点。</string>
+    <string _locid="49995">档案图标解锁：女探险家。</string>
+    <string _locid="49996">在任意数量的小规模战斗或多人游戏中，建造 50 座庄园房屋、房屋、长屋、村落、神社或干查屋。</string>
+    <string _locid="49997">解锁英国探险家自定义项目：伊丽莎白·拉姆齐。</string>
+    <string _locid="49998">在任意数量的小规模战斗或多人游戏中，运送大名鸟居元忠、大名加藤清正和德川幕府将军主城船运。</string>
+    <string _locid="49999">档案图标解锁：中野竹子。</string>
+    <string _locid="55000">以任意类型的印度象 (长枪象兵、驮轿象兵、连枷象、攻城大象或曼萨卜达尔单位) 造成 10000 伤害。</string>
+    <string _locid="55001">档案图标解锁：詹西女王。</string>
+    <string _locid="55002">在任意数量的小规模战斗或多人游戏中，使用英国人建造 3 座工厂。</string>
+    <string _locid="55003">档案图标解锁：埃达·洛夫莱斯。</string>
+    <string _locid="55004">埃达·洛夫莱斯</string>
+    <string _locid="55005">洛夫莱斯伯爵夫人被认为是第一位计算机程序员，她痴迷于机械，擅长用数学解决最棘手的问题。埃达·洛夫莱斯继承了自己浪漫气质的父亲拜伦勋爵的魅力，且配有采用致命算法的原型枪，肯定能让人留下深刻的印象。</string>
+    <string _locid="55006">完成国际妇女活动挑战即可解锁此自定义项目。</string>
+    <string _locid="55007">剩余时间：{0}/00:{1}:00</string>
+    <string _locid="55008">分数目标：{0}</string>
+    <string _locid="55009">档案图标解锁：冬季女探险家。</string>
+    <string _locid="55010">解锁英国探险家自定义项目：爱达·勒芙蕾丝。</string>
+    <string _locid="55011">海盗莉丝</string>
+    <string _locid="55012">伊丽莎白·拉姆齐身为英国贵族之女，却更喜欢航行在加勒比海上，有时甚至在没有女王陛下的私掠许可证的情况下出航。</string>
+    <string _locid="55013">探险家 (默认)\n这是默认版本的探险家。</string>
+    <string _locid="55014" symbol="cStringOldReplayWarning">警告：此重播为游戏早期版本的记录，很遗憾，在此情况下无法同步的可能性极大。</string>
+    <string _locid="55015">危险</string>
+    <string _locid="55016">攻击此处</string>
+    <string _locid="55017">协助此处</string>
+    <string _locid="55018">小心此处</string>
+    <string _locid="55019">{0}在此区域发出危险警报。</string>
+    <string _locid="55020">{0}在此区域请求攻击。</string>
+    <string _locid="55021">{0}在此区域请求协助。</string>
+    <string _locid="55022">{0}在此区域发出警戒警报。</string>
+    <string _locid="55023">选择消息选项。</string>
+    <string _locid="55024">通信消息</string>
+    <string _locid="55025">打开有各种选项的消息轮盘，选项包括：危险、攻击此处、协助此处和小心此处。</string>
+    <string _locid="55026">测试版设置</string>
+    <string _locid="55027">下列的所有测试版设置可能会导致一些方面 (例如图形和性能) 的问题。</string>
+    <string _locid="55028">警告闪光 (测试版)：单击此按钮，然后单击世界地图或小地图即可发送警告闪光。</string>
+    <string _locid="55029">选择闪光类型</string>
+    <string _locid="55030">春季活动</string>
+    <string _locid="55031">档案图标解锁：花贩摊位。</string>
+    <string _locid="55032">使用日本人研究“樱花祭”。</string>
+    <string _locid="55033">档案图标解锁：一只鸣唱的小鸟栖息在盛开的花枝上。</string>
+    <string _locid="55034">使用埃塞俄比亚人、豪萨人、印加人或阿兹特克人赢得一场小规模战斗或多人游戏。</string>
+    <string _locid="55035">档案图标解锁：蝴蝶齐飞的万花筒。</string>
+    <string _locid="55036">在任何数量的小规模战斗或多人游戏中建造 40 个农田、田地、磨坊或稻田。</string>
+    <string _locid="55037">解锁西班牙探险家自定义项目：英勇的村民。</string>
+    <string _locid="55038">在任何数量的小规模战斗或多人游戏中，收集 10,000 花朵 (在各种资源箱中获得)。</string>
+    <string _locid="55039">档案图标解锁：戴着花冠的水豚。</string>
+    <string _locid="55040">在任何数量的小规模战斗或多人游戏中，从您的主城运送 30 次船运。</string>
+    <string _locid="55041">解锁西班牙探险家自定义项目：弗拉门戈舞者。</string>
+    <string _locid="55042">选择您要合作游玩的电脑角色。</string>
+    <string _locid="55043">弗拉门戈舞者</string>
+    <string _locid="55044">弗拉门戈舞者\n生长于安达卢西亚的烈日下，这名弗拉门戈舞者驾驭着火焰，下定决心前往敌人的木制基地，献上她的热辣舞蹈。</string>
+    <string _locid="55045">英勇的村民</string>
+    <string _locid="55046">英勇的村民\n这位英勇的西班牙村民知道怎样帮助您恢复霸业！如果您的城镇或村落遭到攻击，她会帮您的。</string>
+    <string _locid="55047">完成春季活动挑战即可解锁此自定义项目。</string>
+    <string _locid="55500">
+    </string>
+    <string _locid="55501">
+    </string>
+    <string _locid="55502">
+    </string>
+    <string _locid="55503">
+    </string>
+    <string _locid="55504">
+    </string>
+    <string _locid="55505">
+    </string>
+    <string _locid="55506">
+    </string>
+    <string _locid="55507">
+    </string>
+    <string _locid="55508">
+    </string>
+    <string _locid="55509">
+    </string>
+    <string _locid="55510">
+    </string>
+    <string _locid="55511">
+    </string>
+    <string _locid="55512">
+    </string>
+    <string _locid="55513">
+    </string>
+    <string _locid="55514">
+    </string>
+    <string _locid="55515">已过期</string>
+    <string _locid="55516">
+    </string>
+    <string _locid="55517">
+    </string>
+    <string _locid="55518">
+    </string>
+    <string _locid="55519">
+    </string>
+    <string _locid="55520">
+    </string>
+    <string _locid="55521">
+    </string>
+    <string _locid="55522">
+    </string>
+    <string _locid="55523">
+    </string>
+    <string _locid="55524">
+    </string>
+    <string _locid="55525">
+    </string>
+    <string _locid="55526">
+    </string>
+    <string _locid="55527">
+    </string>
+    <string _locid="55528">
+    </string>
+    <string _locid="55529">(无封锁)</string>
+    <string _locid="55530">(封锁)</string>
+    <string _locid="55531">现在可以从模组浏览器中下载{0}了！</string>
     <string _locid="60001" symbol="cStringCivNameJapanese">日本人</string>
     <string _locid="60002" symbol="cStringCivNameChinese">中国人</string>
     <string _locid="60003" symbol="cStringCivNameIndians">印度人</string>
@@ -20411,7 +20536,7 @@
     <string _locid="60103">宗教领袖，可击昏宝藏守护者，并且有几率在战斗中造成神圣打击伤害。可以用来探险、战斗、建造城镇中心、交易站和神社。</string>
     <string _locid="60104">弓僧兵</string>
     <string _locid="60105">MONK 弓僧兵</string>
-    <string _locid="60106">近战雇佣步兵</string>
+    <string _locid="60106" symbol="cStringHandInfantryMerc">近战雇佣步兵</string>
     <string _locid="60107">武士雇佣兵。</string>
     <string _locid="60108">浪人</string>
     <string _locid="60109">INF 浪人</string>
@@ -23663,10 +23788,10 @@
     <string _locid="63464" symbol="cStringypMizuna2Activate">%1s发现了一块美味野生水菜的田地，值 %2d 单位的%3s。</string>
     <string _locid="63465">地图上遍布着藏有古代亚洲圣物的宝藏地点，这些圣物可以带来大量钱币。只要把它们全抢夺过来，胜利计时器就会开始倒数计时。</string>
     <string _locid="63466">抢夺圣物</string>
-    <string _locid="63467" symbol="cStringWonderVictoryWarning">奇观胜利倒计时开始了！</string>
+    <string _locid="63467" symbol="cStringWonderVictoryWarning">奇观胜利倒计时启动了！</string>
     <string _locid="63468" symbol="cStringVictoryWonderBuilt">%1s建造了一个胜利奇观，将在 %2s 后获胜</string>
     <string _locid="63469">古代圣物</string>
-    <string _locid="63470">古代圣物，会提供钱币给它的拥有者。只要把它们全抢夺过来，胜利计时器就会开始倒数计时。</string>
+    <string _locid="63470">古代圣物，会提供钱币给它的拥有者。只要把它们全抢夺过来，胜利计时器就会启动倒数计时。</string>
     <string _locid="63471">圣物</string>
     <string _locid="63472">YPPotalaWonderPlayers2</string>
     <string _locid="63473">YPPotalaWonderPlayers3</string>
@@ -24042,7 +24167,7 @@
     <string _locid="63881" comment="A clan sides with you at your show of force" gamecharacter="家康" portraitfilename="resources\art\units\asians\spc\tokugawa\tokugawa_icon_portrait.png">我们通过军力展示说服了赤座氏加入我们的阵营，我们要像亲兄弟一样对待他们。</string>
     <string _locid="63882" comment="Victory" gamecharacter="家康" soundfilename="YTOKU5008" portraitfilename="resources\art\units\asians\spc\tokugawa\tokugawa_icon_portrait.png">石田的军队已经化为尘土，德川是胜利的一方。</string>
     <string _locid="63883" comment="Victory" gamecharacter="家康" soundfilename="YTOKU5009" portraitfilename="resources\art\units\asians\spc\tokugawa\tokugawa_icon_portrait.png">鲜血已经流得够多了，这场权利之战就到此结束吧。</string>
-    <string _locid="63884" symbol="cStringRelicVictoryWarning">圣物胜利倒计时开始了！</string>
+    <string _locid="63884" symbol="cStringRelicVictoryWarning">圣物胜利倒计时启动了！</string>
     <string _locid="63885" symbol="cStringRelicMapVictoryTimer">圣物胜利</string>
     <string _locid="63886">增加山伏可以进行治疗的量，并增加他们的生命值和攻击力。</string>
     <string _locid="63887">山伏大师</string>
@@ -24240,9 +24365,9 @@
     <string _locid="64080">抵抗！</string>
     <string _locid="64081">德里突袭行动</string>
     <string _locid="64082">针锋相对</string>
-    <string _locid="64083" symbol="cStringKOTHVictoryWarning">占山为王胜利倒计时开始了！</string>
-    <string _locid="64084" symbol="cStringKOTHControlTaken">%1s控制了王者山丘，因此将会在 %2s 后获胜</string>
-    <string _locid="64085" symbol="cStringRelicVictoryStarted">%1s控制了所有圣物，因此将会在 %2s 后获胜</string>
+    <string _locid="64083" symbol="cStringKOTHVictoryWarning">占山为王胜利倒计时启动了！</string>
+    <string _locid="64084" symbol="cStringKOTHControlTaken">%1s控制了王者山丘，因此将会在 %2s后获胜</string>
+    <string _locid="64085" symbol="cStringRelicVictoryStarted">%1s控制了所有圣物，因此将会在 %2s后获胜</string>
     <string _locid="64086">间歇泉</string>
     <string _locid="64087">PROP 间歇泉</string>
     <string _locid="64088">古代圣物</string>
@@ -25166,35 +25291,35 @@
     <string _locid="65013">岸边的小岩石 CJ</string>
     <string _locid="65014">PROP 岸边的小岩石 CJ</string>
     <string _locid="65015">白塔会运送弟子，并且它具备的“圣物所在”能力可以增加少林大师和弟子的能力值，同时增加弟子的训练上限。</string>
-    <string _locid="65016">白塔会运送弟子，并且它具备的“圣物所在”能力可以增加少林大师和弟子的能力值，同时增加弟子的训练上限。\n----------\n建造完成后可获得的船运：\nII：运送 4 名弟子\nIII：运送 6 名弟子\nIV：运送 10 名弟子\nV：运送 14 名弟子</string>
+    <string _locid="65016">白塔会运送弟子，并且它具备的“圣物所在”能力可以增加少林大师和弟子的能力值，同时增加弟子的训练上限。\n----------\n建造完成后可获得的船运：\nII：运送 4 名弟子\nIII：运送 6 名弟子\nIV：运送 10 名弟子\nV：运送 16 名弟子</string>
     <string _locid="65017">白塔</string>
     <string _locid="65018">WON 白塔</string>
     <string _locid="65019">白塔会运送弟子，并且它具备的“圣物所在”能力可以增加少林大师和弟子的能力值，同时增加弟子的训练上限。</string>
-    <string _locid="65020">白塔会运送弟子，并且它具备的“圣物所在”能力可以增加少林大师和弟子的能力值，同时增加弟子的训练上限。\n----------\n建造完成后可获得的船运：\nII：运送 4 名弟子\nIII：运送 6 名弟子\nIV：运送 10 名弟子\nV：运送 14 名弟子</string>
+    <string _locid="65020">白塔会运送弟子，并且它具备的“圣物所在”能力可以增加少林大师和弟子的能力值，同时增加弟子的训练上限。\n----------\n建造完成后可获得的船运：\nII：运送 4 名弟子\nIII：运送 6 名弟子\nIV：运送 10 名弟子\nV：运送 16 名弟子</string>
     <string _locid="65021">白塔</string>
     <string _locid="65022">WON 白塔</string>
     <string _locid="65023">白塔会运送弟子，并且它具备的“圣物所在”能力可以增加少林大师和弟子的能力值，同时增加弟子的训练上限。</string>
-    <string _locid="65024">白塔会运送弟子，并且它具备的“圣物所在”能力可以增加少林大师和弟子的能力值，同时增加弟子的训练上限。\n----------\n建造完成后可获得的船运：\nII：运送 4 名弟子\nIII：运送 6 名弟子\nIV：运送 10 名弟子\nV：运送 14 名弟子</string>
+    <string _locid="65024">白塔会运送弟子，并且它具备的“圣物所在”能力可以增加少林大师和弟子的能力值，同时增加弟子的训练上限。\n----------\n建造完成后可获得的船运：\nII：运送 4 名弟子\nIII：运送 6 名弟子\nIV：运送 10 名弟子\nV：运送 16 名弟子</string>
     <string _locid="65025">白塔</string>
     <string _locid="65026">WON 白塔</string>
     <string _locid="65027">白塔会运送弟子，并且它具备的“圣物所在”能力可以增加少林大师和弟子的能力值，同时增加弟子的训练上限。</string>
-    <string _locid="65028">白塔会运送弟子，并且它具备的“圣物所在”能力可以增加少林大师和弟子的能力值，同时增加弟子的训练上限。\n----------\n建造完成后可获得的船运：\nII：运送 4 名弟子\nIII：运送 6 名弟子\nIV：运送 10 名弟子\nV：运送 14 名弟子</string>
+    <string _locid="65028">白塔会运送弟子，并且它具备的“圣物所在”能力可以增加少林大师和弟子的能力值，同时增加弟子的训练上限。\n----------\n建造完成后可获得的船运：\nII：运送 4 名弟子\nIII：运送 6 名弟子\nIV：运送 10 名弟子\nV：运送 16 名弟子</string>
     <string _locid="65029">白塔</string>
     <string _locid="65030">WON 白塔</string>
     <string _locid="65031">大报恩寺塔每秒产生的资源可以设置为食物、木材、钱币，也可以设置为包括出口商品和经验值在内的所有资源的组合。</string>
-    <string _locid="65032">大报恩寺塔每秒产生的资源可以设置为食物、木材、钱币，也可以设置为包括出口商品和经验值在内的所有资源的组合。\n----------\n建造完成后的生产值：\nII：3 单位的食物、2.5 单位的木材、2.5 单位的钱币\n组合：0.6 单位的食物、0.6 单位的木材、0.6 单位的钱币、0.18 单位的出口商品、0.18 点经验值\nIII：4.5 单位的食物、4 单位的木材、4 单位的钱币\n组合：1.25 单位的食物、1 单位的木材、1 单位的钱币、0.25 单位的出口商品、0.25 点经验值\nIV：6 单位的食物、5.5 单位的木材、5.5 单位的钱币\n组合：1.5 单位的食物、1.1 单位的木材、1.1 单位的钱币、0.4 单位的出口商品、0.4 点经验值\nV：6.5 单位的食物、6 单位的木材、6 单位的钱币\n组合：1.5 单位的食物、2 单位的木材、2 单位的钱币、0.5 单位的出口商品、0.5 点经验值</string>
+    <string _locid="65032">大报恩寺塔每秒产生的资源可以设置为食物、木材、钱币，也可以设置为包括出口商品和经验值在内的所有资源的组合。\n----------\n建造完成后的生产值：\nII：3 单位的食物、2.5 单位的木材、2.5 单位的钱币\n组合：0.6 单位的食物、0.6 单位的木材、0.6 单位的钱币、0.18 单位的出口商品、0.18 点经验值\nIII：4.5 单位的食物、4 单位的木材、4 单位的钱币\n组合：1.25 单位的食物、1 单位的木材、1 单位的钱币、0.25 单位的出口商品、0.25 点经验值\nIV：6 单位的食物、5.5 单位的木材、5.5 单位的钱币\n组合：1.5 单位的食物、1.1 单位的木材、1.1 单位的钱币、0.4 单位的出口商品、0.4 点经验值\nV：6.5 单位的食物、6 单位的木材、6 单位的钱币\n组合：2 单位的食物、1.5 单位的木材、1.5 单位的钱币、0.5 单位的出口商品、0.5 点经验值</string>
     <string _locid="65033">大报恩寺塔</string>
     <string _locid="65034">WON 大报恩寺塔</string>
     <string _locid="65035">大报恩寺塔每秒产生的资源可以设置为食物、木材、钱币，也可以设置为包括出口商品和经验值在内的所有资源的组合。</string>
-    <string _locid="65036">大报恩寺塔每秒产生的资源可以设置为食物、木材、钱币，也可以设置为包括出口商品和经验值在内的所有资源的组合。\n----------\n建造完成后的生产值：\nII：3 单位的食物、2.5 单位的木材、2.5 单位的钱币\n组合：0.6 单位的食物、0.6 单位的木材、0.6 单位的钱币、0.18 单位的出口商品、0.18 点经验值\nIII：4.5 单位的食物、4 单位的木材、4 单位的钱币\n组合：1.25 单位的食物、1 单位的木材、1 单位的钱币、0.25 单位的出口商品、0.25 点经验值\nIV：6 单位的食物、5.5 单位的木材、5.5 单位的钱币\n组合：1.5 单位的食物、1.1 单位的木材、1.1 单位的钱币、0.4 单位的出口商品、0.4 点经验值\nV：6.5 单位的食物、6 单位的木材、6 单位的钱币\n组合：1.5 单位的食物、2 单位的木材、2 单位的钱币、0.5 单位的出口商品、0.5 点经验值</string>
+    <string _locid="65036">大报恩寺塔每秒产生的资源可以设置为食物、木材、钱币，也可以设置为包括出口商品和经验值在内的所有资源的组合。\n----------\n建造完成后的生产值：\nII：3 单位的食物、2.5 单位的木材、2.5 单位的钱币\n组合：0.6 单位的食物、0.6 单位的木材、0.6 单位的钱币、0.18 单位的出口商品、0.18 点经验值\nIII：4.5 单位的食物、4 单位的木材、4 单位的钱币\n组合：1.25 单位的食物、1 单位的木材、1 单位的钱币、0.25 单位的出口商品、0.25 点经验值\nIV：6 单位的食物、5.5 单位的木材、5.5 单位的钱币\n组合：1.5 单位的食物、1.1 单位的木材、1.1 单位的钱币、0.4 单位的出口商品、0.4 点经验值\nV：6.5 单位的食物、6 单位的木材、6 单位的钱币\n组合：2 单位的食物、1.5 单位的木材、1.5 单位的钱币、0.5 单位的出口商品、0.5 点经验值</string>
     <string _locid="65037">大报恩寺塔</string>
     <string _locid="65038">WON 大报恩寺塔</string>
     <string _locid="65039">大报恩寺塔每秒产生的资源可以设置为食物、木材、钱币，也可以设置为包括出口商品和经验值在内的所有资源的组合。</string>
-    <string _locid="65040">大报恩寺塔每秒产生的资源可以设置为食物、木材、钱币，也可以设置为包括出口商品和经验值在内的所有资源的组合。\n----------\n建造完成后的生产值：\nII：3 单位的食物、2.5 单位的木材、2.5 单位的钱币\n组合：0.6 单位的食物、0.6 单位的木材、0.6 单位的钱币、0.18 单位的出口商品、0.18 点经验值\nIII：4.5 单位的食物、4 单位的木材、4 单位的钱币\n组合：1.25 单位的食物、1 单位的木材、1 单位的钱币、0.25 单位的出口商品、0.25 点经验值\nIV：6 单位的食物、5.5 单位的木材、5.5 单位的钱币\n组合：1.5 单位的食物、1.1 单位的木材、1.1 单位的钱币、0.4 单位的出口商品、0.4 点经验值\nV：6.5 单位的食物、6 单位的木材、6 单位的钱币\n组合：1.5 单位的食物、2 单位的木材、2 单位的钱币、0.5 单位的出口商品、0.5 点经验值</string>
+    <string _locid="65040">大报恩寺塔每秒产生的资源可以设置为食物、木材、钱币，也可以设置为包括出口商品和经验值在内的所有资源的组合。\n----------\n建造完成后的生产值：\nII：3 单位的食物、2.5 单位的木材、2.5 单位的钱币\n组合：0.6 单位的食物、0.6 单位的木材、0.6 单位的钱币、0.18 单位的出口商品、0.18 点经验值\nIII：4.5 单位的食物、4 单位的木材、4 单位的钱币\n组合：1.25 单位的食物、1 单位的木材、1 单位的钱币、0.25 单位的出口商品、0.25 点经验值\nIV：6 单位的食物、5.5 单位的木材、5.5 单位的钱币\n组合：1.5 单位的食物、1.1 单位的木材、1.1 单位的钱币、0.4 单位的出口商品、0.4 点经验值\nV：6.5 单位的食物、6 单位的木材、6 单位的钱币\n组合：2 单位的食物、1.5 单位的木材、1.5 单位的钱币、0.5 单位的出口商品、0.5 点经验值</string>
     <string _locid="65041">大报恩寺塔</string>
     <string _locid="65042">WON 大报恩寺塔</string>
     <string _locid="65043">大报恩寺塔每秒产生的资源可以设置为食物、木材、钱币，也可以设置为包括出口商品和经验值在内的所有资源的组合。</string>
-    <string _locid="65044">大报恩寺塔每秒产生的资源可以设置为食物、木材、钱币，也可以设置为包括出口商品和经验值在内的所有资源的组合。\n----------\n建造完成后的生产值：\nII：3 单位的食物、2.5 单位的木材、2.5 单位的钱币\n组合：0.6 单位的食物、0.6 单位的木材、0.6 单位的钱币、0.18 单位的出口商品、0.18 点经验值\nIII：4.5 单位的食物、4 单位的木材、4 单位的钱币\n组合：1.25 单位的食物、1 单位的木材、1 单位的钱币、0.25 单位的出口商品、0.25 点经验值\nIV：6 单位的食物、5.5 单位的木材、5.5 单位的钱币\n组合：1.5 单位的食物、1.1 单位的木材、1.1 单位的钱币、0.4 单位的出口商品、0.4 点经验值\nV：6.5 单位的食物、6 单位的木材、6 单位的钱币\n组合：1.5 单位的食物、2 单位的木材、2 单位的钱币、0.5 单位的出口商品、0.5 点经验值</string>
+    <string _locid="65044">大报恩寺塔每秒产生的资源可以设置为食物、木材、钱币，也可以设置为包括出口商品和经验值在内的所有资源的组合。\n----------\n建造完成后的生产值：\nII：3 单位的食物、2.5 单位的木材、2.5 单位的钱币\n组合：0.6 单位的食物、0.6 单位的木材、0.6 单位的钱币、0.18 单位的出口商品、0.18 点经验值\nIII：4.5 单位的食物、4 单位的木材、4 单位的钱币\n组合：1.25 单位的食物、1 单位的木材、1 单位的钱币、0.25 单位的出口商品、0.25 点经验值\nIV：6 单位的食物、5.5 单位的木材、5.5 单位的钱币\n组合：1.5 单位的食物、1.1 单位的木材、1.1 单位的钱币、0.4 单位的出口商品、0.4 点经验值\nV：6.5 单位的食物、6 单位的木材、6 单位的钱币\n组合：2 单位的食物、1.5 单位的木材、1.5 单位的钱币、0.5 单位的出口商品、0.5 点经验值</string>
     <string _locid="65045">大报恩寺塔</string>
     <string _locid="65046">WON 大报恩寺塔</string>
     <string _locid="65047">船运：1500 单位的钱币\n \n能力：停战，可暂时停止战斗。</string>
@@ -26051,7 +26176,7 @@
     <string _locid="65901">CON 青年近卫军</string>
     <string _locid="65902">运送黑卫士。</string>
     <string _locid="65903">运送黑卫士。</string>
-    <string _locid="65904">奖励：旗军食物成本 -20%\n\n训练：双酬剑士、散兵、重型加农炮\n\n船运：资源细流</string>
+    <string _locid="65904">奖励：旗军食物成本 -15%\n\n训练：双酬剑士、散兵、重型加农炮\n\n船运：资源细流</string>
     <string _locid="65905">德国盟友</string>
     <string _locid="65906">踢掉您的盟友，以便选择新的盟友。</string>
     <string _locid="65907">结束关系</string>
@@ -29674,7 +29799,7 @@
     <string _locid="69540">没有主人的日本剑客，擅长攻击骑兵和建筑。</string>
     <string _locid="69541">归化浪人</string>
     <string _locid="69542">REP 浪人</string>
-    <string _locid="69543">近战雇佣骑兵</string>
+    <string _locid="69543" symbol="cStringHandCavalryMerc">近战雇佣骑兵</string>
     <string _locid="69544">来自巴尔干半岛的近战雇佣骑兵。</string>
     <string _locid="69545">归化巴尔干骑兵</string>
     <string _locid="69546">REP 巴尔干骑兵</string>
@@ -30657,7 +30782,7 @@
     <string _locid="70522">散兵，生命值较低，但是攻击力强大，并且擅长对付步兵。</string>
     <string _locid="70523">老练猎手</string>
     <string _locid="70524">INF 猎手</string>
-    <string _locid="70528">每次船运都有 360 单位的钱币箱</string>
+    <string _locid="70528">每次船运都有 350 单位的钱币箱</string>
     <string _locid="70529">提供 400 单位的钱币。</string>
     <string _locid="70530">400 单位钱币的箱子</string>
     <string _locid="70531">400 单位大钱币箱</string>
@@ -32563,6 +32688,13 @@
     <string _locid="79960">大型地图</string>
     <string _locid="79961">加载所选地图的大型版本。</string>
     <string _locid="79962">15 只羊、1 辆农场马车，外加 3 乌兰骑兵</string>
+    <string _locid="79963">[RESERVED]</string>
+    <string _locid="79964">[RESERVED]</string>
+    <string _locid="79965">[RESERVED]</string>
+    <string _locid="79966">[RESERVED]</string>
+    <string _locid="79967">[RESERVED]</string>
+    <string _locid="79968">[RESERVED]</string>
+    <string _locid="79969">[RESERVED]</string>
     <string _locid="80000" symbol="cStringCultureInca">印加人</string>
     <string _locid="80001" symbol="cStringCivNameInca">印加人</string>
     <string _locid="80002" symbol="cStringCivRolloverInca">&lt;color=1.0, 1.0, 0.0&gt;文明优势：&lt;/color&gt;\n干查屋可以生产食物。可通过探索时代船运及随时代提升免费获得一名传信使者。传信使者可以够建造驿舍 (强大的交易站，可接收船运并供平民驻扎其中)。军事单位可以驻扎在会堂和堡寨中。女祭司可以招降敌人，她们在社区广场处工作。\n&lt;color=1.0, 1.0, 0.0&gt;独特单位：&lt;/color&gt;\n传信使者、羽饰长矛兵、奇穆游击兵、丛林弓箭手、流星索战士、投石索兵、槌兵、女祭司和钦查木筏。\n&lt;color=1.0, 1.0, 0.0&gt;独特建筑：&lt;/color&gt;\n会堂、堡寨、干查屋和驿舍\n&lt;color=1.0, 1.0, 0.0&gt;独特仪式：&lt;/color&gt;\n月之仪式和死神仪式\n\n一个庞大的南美帝国，其城墙和精明的管理使其十分强大，它也因此举世闻名。</string>
@@ -32646,7 +32778,7 @@
     <string _locid="80080">流星索战士</string>
     <string _locid="80081">INF 流星索战士</string>
     <string _locid="80082">重装远程步兵</string>
-    <string _locid="80083">会猛力投出掷石绳的远程攻击战士，攻击范围较广。掷石绳能减慢敌军的速度。擅长对付骑兵。</string>
+    <string _locid="80083">会猛力投出流星索的远程攻击战士，攻击范围较广。流星索能减慢敌军的速度。擅长对付骑兵。</string>
     <string _locid="80084">精锐流星索战士</string>
     <string _locid="80085">精锐流星索战士</string>
     <string _locid="80086">风云流星索战士</string>
@@ -33049,7 +33181,7 @@
     <string _locid="80664">REV 海盗神射手</string>
     <string _locid="80665">马普切流星索骑兵</string>
     <string _locid="80666">NAT 马普切流星索骑兵</string>
-    <string _locid="80667">马普切远程骑兵，会利用掷石绳来拖慢敌人的行动速度并造成溅射伤害。擅长对付骑兵。</string>
+    <string _locid="80667">马普切远程骑兵，会利用流星索来拖慢敌人的行动速度并造成溅射伤害。擅长对付骑兵。</string>
     <string _locid="80668">猎鹰俯冲</string>
     <string _locid="80669">新月挥击</string>
     <string _locid="80670">闪电弯刀</string>
@@ -33351,12 +33483,12 @@
     <string _locid="80956">骑马掷弹兵</string>
     <string _locid="80957">CAV 骑马掷弹兵</string>
     <string _locid="80958">远程骑兵</string>
-    <string _locid="80959">利用掷石绳的骑兵，可降低敌方单位的速度。可从牲畜中收集资源并建造畜栏。</string>
+    <string _locid="80959">利用流星索的骑兵，可降低敌方单位的速度。可从牲畜中收集资源并建造畜栏。</string>
     <string _locid="80960">高乔人</string>
-    <string _locid="80961">运送 10 名高乔人和 10 头奶牛。\n\n使您能征召高乔人。高乔人可从牲畜中收集资源并使用掷石绳拖慢敌人。</string>
+    <string _locid="80961">运送 10 名高乔人和 10 头奶牛。\n\n使您能征召高乔人。高乔人可从牲畜中收集资源并使用流星索拖慢敌人。</string>
     <string _locid="80962">运送 10 名近卫掷弹兵和 10 头奶牛。可在酒馆、马厩、堡垒和盖伦帆船上招募近卫掷弹兵。</string>
     <string _locid="80963">近卫掷弹兵</string>
-    <string _locid="80964">掷石绳远程攻击</string>
+    <string _locid="80964">流星索远程攻击</string>
     <string _locid="80965">独立卫队</string>
     <string _locid="80966">运送 2 名高地兵，2 名猎兵和 3 名火绳枪骑兵。</string>
     <string _locid="80967">阿尔比恩军团</string>
@@ -34944,7 +35076,7 @@
     <string _locid="90591">这片地区位于墨西哥，它既炎热又干燥，阳光灼人、池塘干涸。但这里绝非贫瘠之地，反而有大批的叉角羚出没，甚至还有些许野牛漫步在半干旱的地形上。铜矿脉可以提供足够的钱币，但树木资源十分有限。地图中央矗立着巨大的台地，一条漫长的贸易路线由此经过。台地周围有一些原住民聚落，有时会是阿帕奇人和纳瓦霍人，另一些时候则是萨波特克人和玛雅人。</string>
     <string _locid="90592">墨西哥：地图中央矗立着巨大的台地，一条漫长的贸易路线由此经过。\n\n聚落：纳瓦霍人、阿帕奇人、萨波特克人、玛雅人\n亡命之徒：科曼切罗、枪手</string>
     <string _locid="90593">安第斯山脉-上段</string>
-    <string _locid="90594">游戏开始时，队伍之间距离极近，周围物产丰饶。因此，建造城墙并采取保守策略可能相对容易。安第斯地区没有河流...只有一条贸易路线和开阔的山区。许多印加原住民聚落占领了山中的关卡。</string>
+    <string _locid="90594">游戏开始时，队伍之间距离极近，周围物产丰饶。因此，建造城墙并采取保守策略可能相对容易。安第斯地区没有河流，只有一条贸易路线和开阔的山区。许多克丘亚原住民聚落占领了山中的关卡。</string>
     <string _locid="90595">安第斯山脉-上段：游戏开始时，队伍之间距离极近。非常适合进行条约游戏模式。\n\n聚落：克丘亚人\n亡命之徒：枪手、叛兵</string>
     <string _locid="90596">三江并流</string>
     <string _locid="90597">玩家将从地图南部开始游戏，置身于三条并行的河流之间。这片地区风景如画，蕴藏着许多宝藏和丰富的自然资源，不过大部分资源都位于河流上游。这里没有贸易路线，因此队伍必须向北部的山脉推进。山羊在那里悠闲漫步，如果想护送它们回家...恐怕会有很长一段路要走。</string>
@@ -34969,6 +35101,24 @@
     <string _locid="90902">升级这条贸易路线即可使用旅行商人。旅行商人不仅可以运送资源，而且他的移动速度更快，视野也更广。</string>
     <string _locid="90903">铁制羊驼</string>
     <string _locid="90904">手推车</string>
+    <string _locid="90905" symbol="cStringNuggetUnknown" comment="1 - amount, 2 - resource">一个神秘的藏匿处。</string>
+    <string _locid="90906" symbol="cStringNuggetUnknownActivate" comment="1 - player, 2 - amount, 3 - resource">%1s发现了一个神秘的资源藏匿处，值 %2d 单位的%3s。</string>
+    <string _locid="90907" symbol="cStringNuggetUnknown2Activate" comment="1 - player, 2 - amount, 3 - resource">%1s发现了一个神秘的资源藏匿处，值 %2d 单位的%3s和 %4d 单位的%5s。</string>
+    <string _locid="90908" symbol="cStringNuggetUnknown3Activate" comment="1 - player, 2 - amount, 3 - resource">%1s发现了一个神秘的资源藏匿处，值 %2d 单位的%3s、%4d 单位的%5s、和 %6d 单位的%7s。 </string>
+    <string _locid="90909" symbol="cStringdeTeamNugget">值 %1d 单位的%2s的隐藏藏品，可供整个队伍使用。</string>
+    <string _locid="90910" symbol="cStringdeTeamNuggetActivate">%1s发现了值 %2d 单位的%3s的隐藏藏品，可供其队伍使用。</string>
+    <string _locid="90911" symbol="cStringdeTeamNugget2Activate">%1s发现了值 %2d 单位的%3s、以及 %4d 单位的%5s的隐藏藏品，可供其队伍使用。</string>
+    <string _locid="90912" symbol="cStringdeTeamNugget3Activate">%1s发现了值 %2d 单位的%3s、%4d 单位的%5s、以及 %6d 单位的%7s的隐藏藏品，可供其队伍使用。</string>
+    <string _locid="90913" symbol="cStringdeTeamUnknownNugget">隐藏藏品，可供整个队伍使用。</string>
+    <string _locid="90914" symbol="cStringdeTeamUnknownNuggetActivate" comment="1 - player, 2 - amount, 3 - resource">%1s发现了一个神秘的资源藏匿处，值 %2d 单位的%3s，可供其队伍使用。</string>
+    <string _locid="90915" symbol="cStringdeTeamUnknownNugget2Activate" comment="1 - player, 2 - amount, 3 - resource">%1s发现了一个神秘的资源藏匿处，值 %2d 单位的%3s和 %4d 单位的%5s，可供整个队伍使用。</string>
+    <string _locid="90916" symbol="cStringdeTeamUnknownNugget3Activate" comment="1 - player, 2 - amount, 3 - resource">%1s发现了一个神秘的资源藏匿处，值 %2d 单位的%3s、%4d 单位的%5s和 %6d 单位的%7s，可供其队伍使用。 </string>
+    <string _locid="90917" symbol="cStringafNomadNugget">1 位需要救援的游牧民。</string>
+    <string _locid="90918" symbol="cStringafNomadNuggetActivate">%1s解救了 1 位游牧民。这位游牧民加入了他的阵营。</string>
+    <string _locid="90919" symbol="cStringNuggetProspector">1 辆迷路的探矿者马车，但也许还能找到一个矿场。</string>
+    <string _locid="90920" symbol="cStringNuggetProspector">%s解救了 1 辆迷路的探矿者马车，现在它可能会试着找到一个矿场。</string>
+    <string _locid="90921" symbol="cStringNuggetSaltCamel">1 只口干舌燥的贩盐骆驼迷了路，但也许还能找到一个矿场。</string>
+    <string _locid="90922" symbol="cStringNuggetSaltCamel">%s把 1 只口干舌燥的贩盐骆驼领到了水边，现在它可能会试着找到一个矿场。</string>
     <string _locid="91000">派更多年轻人上战场！我们不能让敌人以卑鄙的手段获胜。</string>
     <string _locid="91001">因蒂的光芒照耀在瓦伊纳·卡帕克的战士身上！他会赐予我们光荣的胜利！</string>
     <string _locid="91002">印加帝国君主同意。</string>
@@ -34991,7 +35141,7 @@
     <string _locid="91028">奥斯曼人会失败的原因就是他们始终派出一样的战士。</string>
     <string _locid="91029">葡萄牙人全都会死在印加战士的手上！</string>
     <string _locid="91030">俄罗斯人以为自己的战士很多，但瓦伊纳·卡帕克会展现什么才是真正的大军！</string>
-    <string _locid="91031">拉科塔人的大型犬不喜欢跟我们一起舞动掷石绳，真可惜，这很有趣的！</string>
+    <string _locid="91031">拉科塔人的大型犬不喜欢跟我们一起舞动流星索，真可惜，这很有趣的！</string>
     <string _locid="91032">西班牙人就和他们的建筑一样脆弱，全都会在印加帝国面前颤抖！</string>
     <string _locid="91033">印加帝国君主只能有一位！将叛徒处死！</string>
     <string _locid="91034">这些阿兹特克人是嗜血的征服者。</string>
@@ -35938,7 +36088,7 @@
     <string _locid="101189">转变成牲畜市场</string>
     <string _locid="101190">免费转变成牲畜市场。</string>
     <string _locid="101191">8 头半肥的牛及 1 名牲畜市场建筑工人</string>
-    <string _locid="101192">法西里迪斯城堡</string>
+    <string _locid="101192">法西利德斯的城堡</string>
     <string _locid="101193">2 辆宫殿马车</string>
     <string _locid="101194">港口的攻击力变得更强，治疗和训练船只的速度也变得更快。</string>
     <string _locid="101195">高级港口</string>
@@ -37277,7 +37427,7 @@
     <string _locid="102712">苏丹刺棘栅栏</string>
     <string _locid="102713">建造和升级城墙 (城门除外) 的速度更快，并且其成本现在变为其食物基本成本的一半。</string>
     <string _locid="102714">苏丹刺棘木栅栏</string>
-    <string _locid="102715">建造磨坊、农庄、农田、稻田和田地所需的木材减少，加快建造速度。</string>
+    <string _locid="102715">建造磨坊、农庄、农田、稻田、垦殖园和田地所需的木材减少，加快建造速度。</string>
     <string _locid="102716">苏丹哈库拉赐地制度</string>
     <string _locid="102717">运送 2 艘红海马车 (可建造大多数建筑)。</string>
     <string _locid="102718">运送 1 辆红海马车 (可建造大多数建筑)。根据游戏已进行时间 (最多 30 分钟)，每 5 分钟额外运送 1 辆红海马车。</string>
@@ -37434,7 +37584,7 @@
     <string _locid="102870">格里奥可造成更多伤害。乐器能恐吓更大范围内的敌人。</string>
     <string _locid="102871">允许瞭望塔召集募集军并驻守于内。驻守于瞭望塔内的单位提升其 10% 的攻击力。</string>
     <string _locid="102872">运送一批阿肯安科比亚卫兵 (火枪兵)。并允许在战斗营训练此单位 (消耗人口、食物和钱币)。</string>
-    <string _locid="102873">野外采集也可得到一小部分木材。</string>
+    <string _locid="102873">田地采集所得资源有部分为木材。</string>
     <string _locid="102874">村民从田地收集资源速度和田地建造速度提升。</string>
     <string _locid="102875">加快村民从田地、农庄和稻田收集钱币的速度</string>
     <string _locid="102876">每个已拥有田地可获得资源。</string>
@@ -37879,7 +38029,7 @@
     </string>
     <string _locid="103346">
     </string>
-    <string _locid="103347">运送 1 名村民。您在这场游戏中每失去 1 名村民时，运送 1 名额外村民  (最多 15 名)。</string>
+    <string _locid="103347">运送 1 名村民。另外根据您目前在游戏中每失去的村民数目，每失去 1 名则运送 1 名额外村民 (最多 15 名)。</string>
     <string _locid="103348">奥罗莫移民</string>
     <string _locid="103349">运送 2 头养肥的牛并获得一次性的牲畜兑换率提升。</string>
     <string _locid="103350">卡拉尤畜牧</string>
@@ -38048,6 +38198,10 @@
     <string _locid="104134">通过加工矿石的工业方法使村民收集矿产的速度提升。</string>
     <string _locid="104135" symbol="cStringNuggetPilgrim1">1 位被困住的清教徒。无论谁解救了他，他都会加入解救者的阵营。</string>
     <string _locid="104136" symbol="cStringNuggetPilgrim1Activate">%1s解救了 1 位清教徒。这位清教徒加入了他的阵营。</string>
+    <string _locid="104137" symbol="cStringNuggetKidnapPilgrim">2 名清教徒被囚禁。</string>
+    <string _locid="104138" symbol="cStringNuggetKidnapPilgrimActivate">%1s解救了 2 名清教徒。</string>
+    <string _locid="104139" symbol="cStringNuggetKidnapSettler">2 名拓荒者被囚禁。</string>
+    <string _locid="104140" symbol="cStringNuggetKidnapSettlerActivate">%1s解救了 2 名拓荒者。</string>
     <string _locid="104500">焚烧灌木</string>
     <string _locid="104501">粮仓现在也可以加快收集附近木材的速率。附近动物及浆果丛的收集速度也更快。\n • 木材收集：+15%\n • 动物 + 浆果：+5%</string>
     <string _locid="104502">海沃特哲学</string>
@@ -38116,9 +38270,9 @@
     <string _locid="104565">8 名投石索战士</string>
     <string _locid="104566">6 名投石索战士</string>
     <string _locid="104567">8 名流星索战士</string>
-    <string _locid="104568">根据您目前在游戏中每失去的豹游荡勇士数目，每失去 2 名则运送 1 名豹游荡勇士 (最多 16 名)。</string>
+    <string _locid="104568">根据您目前在游戏中失去的豹游荡勇士数目，每失去 2 名则运送 1 名豹游荡勇士 (最多 16 名)。</string>
     <string _locid="104569">仪式角斗士</string>
-    <string _locid="104570">根据您目前在游戏中每失去的骷髅勇士数目，每失去 2 名则运送 1 名骷髅勇士 (最多 13 名)。</string>
+    <string _locid="104570">根据您目前在游戏中失去的骷髅勇士数目，每失去 3 名则运送 1 名骷髅勇士 (最多 13 名)。</string>
     <string _locid="104571">头骨墙</string>
     <string _locid="104572" symbol="cStringDanceDesc13">时代升级成本每秒 - %1.2f 资源 (总计 %2.2f)</string>
     <string _locid="104573" symbol="cStringDanceDescQ10">- %1.2f /s</string>
@@ -38211,9 +38365,9 @@
     <string _locid="104655">
     </string>
     <string _locid="104656">虎年</string>
-    <string _locid="104657">根据您目前在游戏中每失去的弟子数目，每失去 2 名则在主城产生点召集 1 只宠物白虎 (最多 12 只)。</string>
-    <string _locid="104658">根据您目前在游戏中每获得的弟子数目，每获得 2 名则在主城产生点召集 1 只宠物白虎 (最多 12 只)。</string>
-    <string _locid="104659">根据您目前在游戏中每获得的弟子数目，每获得 3 名则在主城产生点召集 1 只宠物白虎 (最多 12 只)。</string>
+    <string _locid="104657">根据您目前在游戏中失去的弟子数目，每失去 2 名则在主城产生点召集 1 只宠物白虎 (最多 12 只)。</string>
+    <string _locid="104658">根据您目前在游戏中获得的弟子数目，每获得 2 名则在主城产生点召集 1 只宠物白虎 (最多 12 只)。</string>
+    <string _locid="104659">根据您目前在游戏中获得的弟子数目，每获得 3 名则在主城产生点召集 1 只宠物白虎 (最多 12 只)。</string>
     <string _locid="104660">船运：2 辆村落拉车\n \n能力：超越，治疗所有单位。僧侣现在可以治疗单位了。</string>
     <string _locid="104661">船运：1 辆城镇中心拉车\n \n能力：超越，治疗所有单位。僧侣现在可以治疗单位了。</string>
     <string _locid="104662">船运：3 辆稻田拉车\n \n能力：超越，治疗所有单位。僧侣现在可以治疗单位了。</string>
@@ -38268,6 +38422,43 @@
     </string>
     <string _locid="104839">
     </string>
+    <string _locid="104840">特拉斯卡拉战斗传授</string>
+    <string _locid="104841">特拉斯卡拉湖田技术</string>
+    <string _locid="104842">《不列颠万岁》</string>
+    <string _locid="104843">运送一艘超强战列舰！这张卡片在下次运送时需要花费 1000 单位的钱币。</string>
+    <string _locid="104844">运送一艘超强战列舰！</string>
+    <string _locid="104845">1 艘战列舰</string>
+    <string _locid="104846">运送一艘超强战列舰。如果战列舰被摧毁，可以在您的码头进行重建。</string>
+    <string _locid="104847">招募战列舰</string>
+    <string _locid="104848">格林尼治时间</string>
+    <string _locid="104849">运送 1 辆交易站马车。每个交易站都能使政治家和科技研究时间 -20%。</string>
+    <string _locid="104850">加快所有科技、卡片和政治家的研究速度。</string>
+    <string _locid="104851" symbol="cStringGreenwichTimeAura">皇家天文台</string>
+    <string _locid="104852">每次船运都有额外钱币箱</string>
+    <string _locid="104853">1 辆兵工厂马车和 1 项免费兵工厂科技</string>
+    <string _locid="104854">10 名叛民</string>
+    <string _locid="104855">队伍：1 座隼炮</string>
+    <string _locid="104856">队伍：1 座重型加农炮</string>
+    <string _locid="104857">奇迹之年</string>
+    <string _locid="104858">
+    </string>
+    <string _locid="104859">抵达速度极快！您在当前时代收到的船运越多，您进入新时代的费用就越低，速度也越快。</string>
+    <string _locid="104860">拓荒者的训练和工作速度大幅加快，持续 365 秒。真是奇迹之年，西班牙万岁！</string>
+    <string _locid="104861">半岛游击队</string>
+    <string _locid="104862">提高远程步兵的攻击力，并让散兵能够看见自己近期攻击过的敌军位置。</string>
+    <string _locid="104863">新西班牙总督辖区</string>
+    <string _locid="104864">运送 2 辆大庄园马车，它们可以转变成大庄园，拓荒者可以从中收集资源，或帮助产生奶牛、拓荒者或强大的墨西哥士兵。</string>
+    <string _locid="104865">收复失地运动</string>
+    <string _locid="104866">根据您目前在游戏中失去的古老的步兵单位，每失去 5 个则运送 1 名西班牙征服者 (最多 10 个)。可以让您在原住民使馆研究各种耶稣会升级。</string>
+    <string _locid="104867">根据您目前在游戏中失去的古老的步兵单位，每失去 5 个则运送 1 名西班牙征服者 (最多 10 个)。</string>
+    <string _locid="104868">圣母号</string>
+    <string _locid="104869">运送 2 艘超强战列舰。</string>
+    <string _locid="104870">自由之战</string>
+    <string _locid="104871">革命费用变低，并允许您返回西班牙，取回您的初始卡组。</string>
+    <string _locid="104872">奇迹之年结束</string>
+    <string _locid="104873">特拉斯塔马拉王朝</string>
+    <string _locid="104874">配置这座大庄园以生产墨西哥士兵。</string>
+    <string _locid="104875">这座大庄园正在生产墨西哥士兵。</string>
     <string _locid="105000">黄金海岸</string>
     <string _locid="105001">这个热带沿海地区拥有华美的金色沙滩，周围被平原和开阔灌木丛环绕。沃尔特拉湖将地图一分为二，并与森林遍布的中央高原一道，为其中的资源创造了易守难攻的地域优势。周边矿产资源丰富，金矿比比皆是。因主要出口矿产为黄金，故此地得名“黄金海岸”。其海上贸易也十分盛行，主要得益于一条易于从海洋控制的海上贸易路线。然而，附近海域没有鲸鱼出没。</string>
     <string _locid="105002">黄金海岸：矿产丰富的沿海地区，大型金矿是唯一的钱币来源。\n\n聚落：阿肯人、约鲁巴人\n亡命之徒：沙漠战士、沙漠步弓手</string>
@@ -38726,7 +38917,7 @@
     <string _locid="110278">宾夕法尼亚骑兵</string>
     <string _locid="110279">运送 1 个原住民使馆运输架，同时您会在原住民使馆中与克里人结盟，让您能使用克里人的一些升级和单位。</string>
     <string _locid="110280">坦慕尼节</string>
-    <string _locid="110281">从卡片获得的木箱船运会直接存入您的资源库中，并运送 900 的额外资源。已发送的货物可以再次发送。</string>
+    <string _locid="110281">从卡片获得的木箱船运会直接存入您的资源库中，并运送额外资源。已发送的货物可以再次发送。</string>
     <string _locid="110282">新泽西海港</string>
     <string _locid="110283">运送 4 辆基础设施马车。大幅增加所有船运 (包括本次船运) 的抵达速度。</string>
     <string _locid="110284">莫里斯运河</string>
@@ -38841,12 +39032,12 @@
     <string _locid="110393">亡命之徒数量减少</string>
     <string _locid="110394">加利福尼亚西裔</string>
     <string _locid="110395">交易站收入 +100%</string>
-    <string _locid="110396">存放 360 单位西班牙黄金的巨大箱子</string>
+    <string _locid="110396">西班牙宝箱</string>
     <string _locid="110397">400 单位大型木材箱</string>
     <string _locid="110398">存放 50 单位食物的木箱</string>
     <string _locid="110399">革命军狙击手</string>
     <string _locid="110400">提供 400 单位的食物。</string>
-    <string _locid="110401">提供 360 单位的西班牙黄金。</string>
+    <string _locid="110401">提供 300 单位的西班牙黄金。</string>
     <string _locid="110402">400 单位大型食物箱</string>
     <string _locid="110403">REV 狙击手</string>
     <string _locid="110404">大型藏书</string>
@@ -39039,7 +39230,7 @@
     <string _locid="110591">战列舰</string>
     <string _locid="110592">SHP 战列舰</string>
     <string _locid="110593">雇佣兵战列舰</string>
-    <string _locid="110594">战列舰，这艘强大的雇佣军舰可以统治水上的一切。</string>
+    <string _locid="110594">战列舰，这艘强大的风帆战列舰可以统治水上的一切。</string>
     <string _locid="110595">交易站可以使用一种强力的蓄力能力，造成区域性伤害。</string>
     <string _locid="110596">猎枪信使</string>
     <string _locid="110597">猎枪信使 (蓄力)</string>
@@ -40279,7 +40470,7 @@
     <string _locid="112818">玛雅人</string>
     <string _locid="112819">小圣克鲁斯</string>
     <string _locid="112820">加利福尼亚</string>
-    <string _locid="112821">拓荒者成为加利福尼亚西裔兵。\n\n奶牛的建造数量上限和工作速率大幅提高。\n\n重点：骑兵、牧场、重建经济。</string>
+    <string _locid="112821">拓荒者成为加利福尼亚西裔兵。\n\n奶牛的建造数量上限和工作速率大幅提高。\n\n重点：骑兵、牧场经营、重建经济。</string>
     <string _locid="112822">加利福尼亚人</string>
     <string _locid="112823">索诺玛</string>
     <string _locid="112824">得克萨斯</string>
@@ -40525,7 +40716,7 @@
     <string _locid="113064">将单位成本恢复至正常状态。</string>
     <string _locid="113065">运送免费的叛民，数目为您拥有的房屋数量。</string>
     <string _locid="113066">拜七堂</string>
-    <string _locid="113067">在这场游戏中，您每个已损失的单位提供经验值 +5。</string>
+    <string _locid="113067">在这场游戏中，您每个已失去的单位提供经验值 +5。</string>
     <string _locid="113068">亡灵节</string>
     <string _locid="113069">您的将军现在也能提高士气，就像鼓舞之旗一样。他也能接收主城船运，并缓慢训练墨西哥士兵。\n • 鼓舞光环：不会与鼓舞之旗叠加效果</string>
     <string _locid="113070">天选之人</string>
@@ -40649,6 +40840,32 @@
     <string _locid="113188">寻找原住民部落交易站</string>
     <string _locid="113189">寻找贸易路线上的交易站</string>
     <string _locid="113190">沃克的赌局</string>
+    <string _locid="113191">突击队</string>
+    <string _locid="113192">INF 突击队</string>
+    <string _locid="113193">英国散兵，装备有远程弓和步枪，可以在近距离更有效地对抗重装步兵。</string>
+    <string _locid="113194">英国散兵，装备有步枪，可以更有效地对付重装步兵，但射程较短。</string>
+    <string _locid="113195">英国散兵</string>
+    <string _locid="113196">增加突击队的攻击力和生命值。</string>
+    <string _locid="113197">老练突击队</string>
+    <string _locid="113198">老练突击队</string>
+    <string _locid="113199">护卫突击队</string>
+    <string _locid="113200">护卫突击队</string>
+    <string _locid="113201">帝国突击队</string>
+    <string _locid="113202">帝国突击队</string>
+    <string _locid="113203">在兵营、主城和地图上，突击队将完全取代长弓兵。突击队配有弓和步枪，可以在近距离更有效地对抗重装步兵。</string>
+    <string _locid="113204">突击队</string>
+    <string _locid="113205">6 名突击队</string>
+    <string _locid="113206">8 名突击队</string>
+    <string _locid="113207">15 名突击队</string>
+    <string _locid="113208">10 名突击队</string>
+    <string _locid="113209">20 名突击队</string>
+    <string _locid="113211">在兵营、主城和地图上，突击队将完全取代长弓兵。突击队使用步枪而非弓箭，可以更有效地对付重装步兵，但射程较短。</string>
+    <string _locid="113212">攻城箭术</string>
+    <string _locid="113213">使长弓兵可以发射火箭远距离攻击建筑，火箭会在一段时间内造成燃烧伤害。</string>
+    <string _locid="113214">远程攻城攻击</string>
+    <string _locid="113215">运送 5 名强大的突击队员，并将您当前的长弓兵取代为突击队。\n • 现在运送长弓兵船运时改为运送突击队。</string>
+    <string _locid="113216">7 名突击队</string>
+    <string _locid="113217">海上之主</string>
     <string _locid="200000">瑞典旗帜</string>
     <string _locid="200001">在此建筑上显示瑞典旗帜。</string>
     <string _locid="200002">新世界贸易中心 (绿色)</string>
@@ -40738,6 +40955,18 @@
     <string _locid="210025">提供兼顾质量与性能的最优化设置。</string>
     <string _locid="210026">质量</string>
     <string _locid="210027">提供比平衡模式提供更优质的图像质量。</string>
+    <string _locid="210100">这些功能还在开发中，如果您使用的硬件配置特殊，可能会导致一些方面的问题。启用这些选项可能会对您的游戏体验产生未知的影响。您确定要继续吗？</string>
+    <string _locid="230101">启用资产预加载</string>
+    <string _locid="230102">启用资产预加载功能后，应用程序将在显示加载画面时提前为您准备资产，从而带来更顺畅的游戏体验。该功能将占用较多内存，如果您的系统 RAM 等于或低于 8GB，可能会导致一些方面的问题。</string>
+    <string _locid="210103">资产预加载 (测试版)</string>
+    <string _locid="210104">资产预加载功能可以通过确保提前加载所有资产，使应用程序更顺畅运行。当前该功能为测试版，您可通过图形选项菜单禁用该功能。</string>
+    <string _locid="210105">正在加载</string>
+    <string _locid="210106">正在完成</string>
+    <string _locid="210107">正在扫描</string>
+    <string _locid="210108">环境效果</string>
+    <string _locid="210109">地形物体</string>
+    <string _locid="210110">地图资产</string>
+    <string _locid="210111">静态资产</string>
     <string _locid="220001">照片模式</string>
     <string _locid="220002">移动：</string>
     <string _locid="220003">旋转：</string>
@@ -40746,19 +40975,30 @@
     <string _locid="220006">重置镜头：</string>
     <string _locid="220007">切换开启/关闭用户介面：</string>
     <string _locid="220008">返回：</string>
-    <string _locid="220009">移动：\n • 使用 WASD 或方向键即可移动镜头。\n • 使用 Q 或 E 即可抬高或降低镜头。\n • 移动鼠标至屏幕边缘即可移动镜头。\n • 按住空格键后单击并拖动即可移动镜头。\n\n 旋转：\n • Alt + WASD 或 Alt + 方向键即可旋转。\n • Alt + 单击并拖动即可旋转。\n\n 拉近/拉远：\n • 使用滚轮即可拉近和拉远镜头。</string>
+    <string _locid="220009">移动：\n • 使用 WASD 或方向键即可移动镜头。\n\n抬高/降低：\n • 使用 Q 或 E 即可抬高/降低镜头。\n\n 旋转：\n • Alt + WASD。\n\n 拉近/拉远：\n • 使用滚轮即可拉近和拉远镜头。\n\n截屏：PrtSc\n\n重置镜头：R\n\n切换开启/关闭用户介面：T\n\n返回：Esc</string>
     <string _locid="220010">切换开启/关闭用户介面</string>
     <string _locid="220011">屏幕截图中包括用户介面</string>
     <string _locid="220012">定位文件夹：</string>
     <string _locid="220013">打开文件夹</string>
     <string _locid="220014">逐帧推进</string>
-    <string _locid="220015">光照预设</string>
+    <string _locid="220015">照明预设</string>
     <string _locid="220016">太阳位置</string>
     <string _locid="220017">以较小但可控的增量逐步推进场景。使用滑块或快进按钮即可操纵场景。</string>
-    <string _locid="220018">在组合框中选择多个光照预设。</string>
+    <string _locid="220018">在组合框中选择多个照明预设。</string>
     <string _locid="220019">通过操纵滑块更改太阳位置。</string>
     <string _locid="220020">选择即可开启/关闭用户介面。</string>
     <string _locid="220021">选择即可在截图时包含用户介面。</string>
     <string _locid="220022">选择即可打开屏幕截图文件夹。</string>
+    <string _locid="220023">日间照明预设</string>
+    <string _locid="220024">夜间照明预设</string>
+    <string _locid="220025">打开照片模式。\n注意：该模式当前为测试版。\n该模式下的所有设置和功能还在开发中，可能会导致一些方面 (例如图形和性能) 的问题。</string>
+    <string _locid="220026">照明</string>
+    <string _locid="220027">状态：测试版</string>
+    <string _locid="220028">该模式目前处于测试状态。\n该模式下所有设置和内容还在开发中，可能会导致一些方面的问题。</string>
+    <string _locid="220029">照片模式 (测试)</string>
+    <string _locid="220030">镜头向上移动</string>
+    <string _locid="220031">镜头向下移动</string>
+    <string _locid="220032">镜头向上旋转</string>
+    <string _locid="220033">镜头向下旋转</string>
   </language>
 </stringtable>
