@@ -379,6 +379,40 @@
       <param name="Civilization" dispname="$$18682$$Civilization" vartype="civilization">Default</param>
       <expression>trPlayerCivilization(%PlayerID%, "%Civilization%")</expression>
     </condition>
+    <condition name="Socket Empty">
+      <param name="Socket" dispname="$$32975$$Socket" vartype="unit">default</param>
+      <expression>trSocketEmpty("%Socket%")</expression>
+    </condition>
+    <condition name="Team SubCiv Trading Post Count">
+      <param name="SubCiv" dispname="$$123031$$SubCiv" vartype="string">Maya</param>
+      <param name="TeamID" dispname="$$123032$$TeamID" vartype="long">0</param>
+      <param name="Op" dispname="$$22297$$Operator" vartype="operator">==</param>
+      <param name="Count" dispname="$$22321$$Number" vartype="long">1</param>
+      <expression>trTeamSubCivTradingPostCount("%SubCiv%", %TeamID%) %Op% %Count%</expression>
+    </condition>
+    <condition name="Counter Value">
+      <param name="Name" dispname="$$22365$$Name" vartype="string">countdown</param>
+      <param name="Op" dispname="$$22297$$Operator" vartype="operator">==</param>
+      <param name="Value" dispname="$$25372$$Value" vartype="long">0</param>
+      <expression>trCounterValue("%Name%") %Op% %Value%</expression>
+    </condition>
+    <condition name="Team Player Controls Socket">
+      <param name="PlayerID" dispname="$$22301$$Player" vartype="player">1</param>
+      <param name="Socket" dispname="$$32975$$Socket" vartype="unit">default</param>
+      <expression>trTeamPlayerControlsSocket(%PlayerID%, "%Socket%")</expression>
+    </condition>
+    <condition name="Grouping Rebuildable Unit Is Alive">
+      <param name="InstanceID" dispname="$$123028$$Instance ID" vartype="long">0</param>
+      <param name="UnitIdx" dispname="$$123088$$Unit Index" vartype="long">0</param>
+      <expression>trGroupingRebuildUnitIsAlive(%InstanceID%, %UnitIdx%)</expression>
+    </condition>
+    <condition name="Team Unit Count">
+      <param name="TeamID" dispname="$$123032$$TeamID" vartype="long">0</param>
+      <param name="ProtoUnit" dispname="$$19160$$Unit" vartype="protounit">default</param>
+      <param name="Op" dispname="$$22297$$Operator" vartype="operator">==</param>
+      <param name="Count" dispname="$$22321$$Number" vartype="long">1</param>
+      <expression>trTeamUnitCountSpecific(%TeamID%, "%ProtoUnit%") %Op% %Count%</expression>
+    </condition>
   </conditions>
   <effects>
     <effect name="SetIdleProcessing">
@@ -1851,6 +1885,163 @@
       <param name="Delta" dispname="$$25372$$Delta" vartype="float">1.0</param>
       <param name="Relativity" dispname="$$113173$$Relativity" vartype="purelativity">0</param>
       <command>trModifyProtounitActionUnitType("%ProtoUnit%", "%ProtoUnitAction%", "%UnitType%", %PlayerID%, %Field%, %Delta%, %Relativity%);</command>
+    </effect>
+    <effect name="Grouping Convert Unit Type">
+      <param name="InstanceID" dispname="$$123028$$Instance ID" vartype="long">0</param>
+      <param name="PlayerID" dispname="$$22301$$Player" vartype="player">1</param>
+      <param name="UnitType" dispname="$$22302$$Unit Type" vartype="string">
+      </param>
+      <command>trGroupingConvertUnitType(%InstanceID%, %PlayerID%, "%UnitType%");</command>
+    </effect>
+    <effect name="Heal Units Percent in Area">
+      <param name="SrcObject" dispname="$$22300$$Center Unit" vartype="unit">default</param>
+      <param name="Player" dispname="$$22301$$Player" vartype="player">1</param>
+      <param name="UnitType" dispname="$$22302$$Unit Type" vartype="unittype">Unit</param>
+      <param name="Dist" dispname="$$22303$$Radius" vartype="float">10</param>
+      <param name="HealPct" dispname="$$123029$$HealPct" vartype="float">50</param>
+      <command>trUnitSelectClear();</command>
+      <command loop="" loopparm="SrcObject">trUnitSelect("%SrcObject%");</command>
+      <command>trHealUnitsPercentInArea(%Player%,"%UnitType%",%Dist%,%HealPct%);</command>
+    </effect>
+    <effect name="Unit Create from Source">
+      <param name="PlayerID" dispname="$$22301$$Player" vartype="player">1</param>
+      <param name="ProtoName" dispname="$$22434$$ProtoName" vartype="protounit">Villager</param>
+      <param name="SrcObject" dispname="$$22295$$Source Unit" vartype="unit">default</param>
+      <param name="DstObject" dispname="$$22296$$Target Unit" vartype="unit">default</param>
+      <command>trUnitCreateFromSource("%ProtoName%", "%SrcObject%", "%DstObject%", %PlayerID%);</command>
+    </effect>
+    <effect name="Counter Pause">
+      <param name="Name" dispname="$$22365$$Name" vartype="string">countdown</param>
+      <param name="Pause" dispname="$$20172$$Pause:" vartype="bool">true</param>
+      <command>trCounterPause("%Name%", %Pause%);</command>
+    </effect>
+    <effect name="Counter Visible">
+      <param name="Name" dispname="$$22365$$Name" vartype="string">countdown</param>
+      <param name="Visible" dispname="$$123033$$Visible:" vartype="bool">true</param>
+      <command>trCounterVisible("%Name%", %Visible%);</command>
+    </effect>
+    <effect name="Counter Time Set Value">
+      <param name="Name" dispname="$$22365$$Name" vartype="string">countdown</param>
+      <param name="Value" dispname="$$25372$$Value" vartype="long">0</param>
+      <command>trCounterTimeSetValue("%Name%", %Value%);</command>
+    </effect>
+    <effect name="Display UI Alert">
+      <param name="Reason" dispname="$$123041$$Reason" vartype="string">revolution</param>
+      <param name="AlertStrID" dispname="$$123042$$Alert String ID" vartype="long">-1</param>
+      <param name="EnemyAlertStrID" dispname="$$123043$$Enemy Alert String ID" vartype="long">-1</param>
+      <param name="RefPlayerID" dispname="$$123044$$Reference Player" vartype="player">1</param>
+      <param name="IgnoreDiplomacy" dispname="$$123096$$Ignore Diplomacy" vartype="bool">false</param>
+      <command>trDisplayUIAlert("%Reason%", %AlertStrID%, %EnemyAlertStrID%, %RefPlayerID%, %IgnoreDiplomacy%);</command>
+    </effect>
+    <effect name="Display UI Alert Team">
+      <param name="Reason" dispname="$$123041$$Reason" vartype="string">revolution</param>
+      <param name="AlertStrID" dispname="$$123042$$Alert String ID" vartype="long">-1</param>
+      <param name="EnemyAlertStrID" dispname="$$123043$$Enemy Alert String ID" vartype="long">-1</param>
+      <param name="RefTeamID" dispname="$$123045$$Reference Team" vartype="long">0</param>
+      <command>trDisplayUIAlertTeam("%Reason%", %AlertStrID%, %EnemyAlertStrID%, %RefTeamID%);</command>
+    </effect>
+    <effect name="Counter Set Text Team">
+      <param name="Name" dispname="$$22365$$Name" vartype="string">countdown</param>
+      <param name="Msg" dispname="$$20056$$Message" vartype="stringid">The End is Not Near</param>
+      <param name="EnemyMsg" dispname="$$123046$$Enemy Message" vartype="stringid">The End is Near</param>
+      <param name="RefTeamID" dispname="$$123045$$Reference Team" vartype="long">0</param>
+      <command>trCounterSetTextTeam("%Name%", "%Msg%", "%EnemyMsg%", %RefTeamID%);</command>
+    </effect>
+    <effect name="Team Victory">
+      <param name="TeamID" dispname="$$123032$$TeamID" vartype="long">0</param>
+      <command>trTeamVictory(%TeamID%);</command>
+    </effect>
+    <effect name="Grouping Rebuild Unit">
+      <param name="InstanceID" dispname="$$123028$$Instance ID" vartype="long">0</param>
+      <param name="UnitIdx" dispname="$$123088$$Unit Index" vartype="long">0</param>
+      <param name="PlayerID" dispname="$$22301$$Player" vartype="player">1</param>
+      <command>trGroupingRebuildUnitIdx(%InstanceID%, %UnitIdx%, %PlayerID%);</command>
+    </effect>
+    <effect name="Counter Persistent">
+      <param name="Name" dispname="$$22365$$Name" vartype="string">countdown</param>
+      <param name="Persistent" dispname="$$123089$$Persistent:" vartype="bool">true</param>
+      <command>trCounterPersistent("%Name%", %Persistent%);</command>
+    </effect>
+    <effect name="Counter Player Specific">
+      <param name="Name" dispname="$$22365$$Name" vartype="string">countdown</param>
+      <param name="PlayerSpecific" dispname="$$123090$$Player Specific:" vartype="bool">true</param>
+      <command>trCounterPlayerSpecific("%Name%", %PlayerSpecific%);</command>
+    </effect>
+    <effect name="Counter:Add Player Name">
+      <param name="Name" dispname="$$22365$$Name" vartype="string">countdown</param>
+      <param name="Msg" dispname="$$20056$$Message" vartype="stringid">The End is Near</param>
+      <param name="Player" dispname="$$22301$$Player" vartype="player">0</param>
+      <command>trCounterAddPlayerName("%Name%", "%Msg%", %Player%);</command>
+    </effect>
+    <effect name="Counter Set Player Name">
+      <param name="Name" dispname="$$22365$$Name" vartype="string">countdown</param>
+      <param name="Player" dispname="$$22301$$Player" vartype="player">0</param>
+      <command>trCounterSetPlayerName("%Name%", %Player%);</command>
+    </effect>
+    <effect name="Display UI Alert Format">
+      <param name="Reason" dispname="$$123041$$Reason" vartype="string">revolution</param>
+      <param name="SelfAlertStrID" dispname="$$123097$$Self Alert String ID" vartype="long">-1</param>
+      <param name="OtherAlertStrID" dispname="$$123042$$Alert String ID" vartype="long">-1</param>
+      <param name="RefPlayerID" dispname="$$123044$$Reference Player" vartype="player">1</param>
+      <command>trDisplayUIAlertFormat("%Reason%", %SelfAlertStrID%, %OtherAlertStrID%, %RefPlayerID%);</command>
+    </effect>
+    <effect name="Player Victory">
+      <param name="Player" dispname="$$22301$$Player" vartype="player">0</param>
+      <command>trPlayerVictory(%Player%);</command>
+    </effect>
+    <effect name="Play Soundset">
+      <param name="Soundset" dispname="$$123098$$Soundset" vartype="string">default</param>
+      <command>trSoundsetPlay("%Soundset%");</command>
+    </effect>
+    <effect name="Forbid Convert">
+      <param name="SrcObject" dispname="$$22421$$Unit" vartype="unit">default</param>
+      <param name="PlayerID" dispname="$$22301$$Player" vartype="player">1</param>
+      <param name="Forbid" dispname="$$123090$$Player Specific:" vartype="bool">true</param>
+      <command>trUnitSelectClear();</command>
+      <command loop="" loopparm="SrcObject">trUnitSelect("%SrcObject%");</command>
+      <command>trUnitForbidConvert(%PlayerID%, %Forbid%);</command>
+    </effect>
+    <effect name="Start Treaty">
+      <param name="Duration" dispname="$$123167$$Duration (minutes)" vartype="float">0</param>
+      <command>trStartTreaty(%Duration%);</command>
+    </effect>
+    <effect name="Counter:Add Unit Team">
+      <param name="Name" dispname="$$22365$$Name" vartype="string">countdown</param>
+      <param name="RefPlayer" dispname="$$22301$$Player" vartype="player">0</param>
+      <param name="ProtoUnit" dispname="$$22412$$ProtoUnit" vartype="protounit">Villager</param>
+      <param name="Count" dispname="$$22487$$Total" vartype="long">0</param>
+      <param name="Msg" dispname="$$20056$$Message" vartype="stringid">The End is Near</param>
+      <param name="Event" dispname="$$22362$$Trigger" vartype="event">0</param>
+      <param name="ShowCount" dispname="$$72466$$Show Total" vartype="bool">false</param>
+      <param name="ReverseCount" dispname="$$72507$$Reverse Count" vartype="bool">false</param>
+      <command>trCounterAddUnitTeam("%Name%", %RefPlayer%, %Count%, "%ProtoUnit%", "%Msg%", %Event%, %ShowCount%, %ReverseCount%);</command>
+    </effect>
+    <effect name="Socket Build">
+      <param name="PlayerID" dispname="$$22301$$Player" vartype="player">1</param>
+      <param name="Socket" dispname="$$32975$$Socket" vartype="unit">default</param>
+      <param name="ProtoUnit" dispname="$$22412$$ProtoUnit" vartype="protounit">TradingPost</param>
+      <command>trSocketBuild(%PlayerID%, "%Socket%", "%ProtoUnit%");</command>
+    </effect>
+    <effect name="Player Play Soundset">
+      <param name="PlayerID" dispname="$$22301$$Player" vartype="player">1</param>
+      <param name="Soundset" dispname="$$123098$$Soundset" vartype="string">default</param>
+      <command>trSoundsetPlayPlayer(%PlayerID%, "%Soundset%");</command>
+    </effect>
+    <effect name="Modify Player Data">
+      <param name="PlayerID" dispname="$$22301$$Player" vartype="player">1</param>
+      <param name="Field" dispname="$$25417$$Field" vartype="playerdatafield">0</param>
+      <param name="Param" dispname="$$22439$$Parameter" vartype="long">-1</param>
+      <param name="Delta" dispname="$$25372$$Delta" vartype="float">1.0</param>
+      <param name="Relativity" dispname="$$113173$$Relativity" vartype="purelativity">0</param>
+      <command>trModifyPlayerData(%PlayerID%, %Field%, %Param%, %Delta%, %Relativity%);</command>
+    </effect>
+    <effect name="Unit Create from Source Multi">
+      <param name="PlayerID" dispname="$$22301$$Player" vartype="player">1</param>
+      <param name="ProtoName" dispname="$$22434$$ProtoName" vartype="protounit">Villager</param>
+      <param name="SrcObject" dispname="$$22295$$Source Unit" vartype="unit">default</param>
+      <param name="DstObject" dispname="$$22296$$Target Unit" vartype="unit">default</param>
+      <param name="Count" dispname="$$22304$$Count" vartype="long">1</param>
+      <command>trUnitCreateFromSourceMulti("%ProtoName%", "%SrcObject%", "%DstObject%", %PlayerID%, %Count%);</command>
     </effect>
   </effects>
 </trigger>

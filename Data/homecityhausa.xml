@@ -1314,6 +1314,36 @@
         <card dbid="8371">DEHCExtensiveFortificationsHausa</card>
       </cards>
     </deck>
+    <deck version="8">
+      <name>$$55547$$Tycoon</name>
+      <cards>
+        <card dbid="6878">DEHCShipVillagers1Repeat</card>
+        <card dbid="8338">DEHCKoose</card>
+        <card dbid="8316">DEHCHausaKingdom</card>
+        <card dbid="8319">DEHCGidanSarkin</card>
+        <card dbid="8141">DEHCMoroccanLeather</card>
+        <card dbid="2090">HCSawmills</card>
+        <card dbid="1950">HCIronmonger</card>
+        <card dbid="2032">HCFurrier</card>
+        <card dbid="6879">DEHCShipVillagers2</card>
+        <card dbid="2212">HCShipWoodCrates3</card>
+        <card dbid="2215">HCShipCoinCrates3</card>
+        <card dbid="8302">DEHCShipInfluence1</card>
+        <card dbid="2213">HCShipWoodCrates4</card>
+        <card dbid="2216">HCShipCoinCrates4</card>
+        <card dbid="8271">DEHCShipVillagersGriots</card>
+        <card dbid="6750">DEHCShipVillagerRepeat</card>
+        <card dbid="2268">HCShipFoodCrates5</card>
+        <card dbid="3521">HCShipCoinCrates5</card>
+        <card dbid="8301">DEHCShipInfluence3</card>
+        <card dbid="2210">HCShipFoodCrates4</card>
+        <card dbid="8393">DEHCDraftOxen</card>
+        <card dbid="8335">DEHCRanoIndigoProduction</card>
+        <card dbid="6743">DEHCShipCoveredWagonsAfrica</card>
+        <card dbid="8318">DEHCMassinaMadrasahs</card>
+        <card dbid="8333">DEHCKolaNutCultivation</card>
+      </cards>
+    </deck>
     <revoltdeck>
       <name>$$45518$$</name>
       <cards>
@@ -2025,6 +2055,5 @@
     <prop>Hausa_WorkshopsTexture1</prop>
     <prop active="1">Hausa_WaterplaceTexture0</prop>
     <prop>Hausa_WaterplaceTexture1</prop>
-    <prop>HausaExplorer</prop>
   </obtainableprops>
 </homecity>

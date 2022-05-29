@@ -195,5 +195,16 @@
     <name stringid="72556">Socialise</name>
     <type>Socialise</type>
   </action>
-  <tactic>Normal<speedmodifier>1.0</speedmodifier><action>Build</action><action>Gather</action><action>Discover</action><action>NoWork</action><action>CrateGather</action><action>Hunting</action><action>AutoGatherTrade</action><action>AutoGatherXP</action><action>AutoGatherWoodField</action><action>Socialise</action><action priority="100">BuildingAttack</action><action priority="90">ChopAttack</action><action priority="50">SpearAttack</action><action priority="50">BlunderbussAttack</action><action priority="25">HandAttack</action><action priority="20">HandAttackCrate</action><attacktype>LogicalTypeVillagersAttack</attacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><runaway>0</runaway><autoretarget>1</autoretarget></tactic>
+  <action>
+    <name stringid="43019">AutoGatherCoinHunt</name>
+    <type>AutoGather</type>
+    <active>0</active>
+    <donotautogatherunlessgatheringtypes>
+      <unittype>Huntable</unittype>
+    </donotautogatherunlessgatheringtypes>
+    <autogatherscalebygatherrate>1</autogatherscalebygatherrate>
+    <persistent>1</persistent>
+    <rate type="Gold">0.100000</rate>
+  </action>
+  <tactic>Normal<speedmodifier>1.0</speedmodifier><action>Build</action><action>Gather</action><action>Discover</action><action>NoWork</action><action>CrateGather</action><action>Hunting</action><action>AutoGatherTrade</action><action>AutoGatherXP</action><action>AutoGatherWoodField</action><action>Socialise</action><action>AutoGatherCoinHunt</action><action priority="100">BuildingAttack</action><action priority="90">ChopAttack</action><action priority="50">SpearAttack</action><action priority="50">BlunderbussAttack</action><action priority="25">HandAttack</action><action priority="20">HandAttackCrate</action><attacktype>LogicalTypeVillagersAttack</attacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><runaway>0</runaway><autoretarget>1</autoretarget></tactic>
 </tactics>

@@ -1,0 +1,15 @@
+<tactics>
+  <action>
+    <name stringid="43019">AutoGatherFoodTeam</name>
+    <type>AutoGather</type>
+    <persistent>1</persistent>
+    <autogatherteam>1</autogatherteam>
+  </action>
+  <action>
+    <name stringid="43019">AutoGatherCoinTeam</name>
+    <type>AutoGather</type>
+    <persistent>1</persistent>
+    <autogatherteam>1</autogatherteam>
+  </action>
+  <tactic>Normal<action>AutoGatherFoodTeam</action><action>AutoGatherCoinTeam</action></tactic>
+</tactics>

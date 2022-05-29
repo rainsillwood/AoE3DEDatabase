@@ -84,7 +84,7 @@
       <displayname>$$20861$$Find Town Center</displayname>
       <event>F1</event>
       <context>game</context>
-      <command>uiFindType("TownCenter")</command>
+      <command>uiFindAnyOfTypes("TownCenter, deSPCCommandPost")</command>
     </keymapdata>
     <keymapdata>
       <name>Find Home City</name>
@@ -571,6 +571,25 @@
       <command>uiFindAllOfTypeIdle2("AbstractVillager")</command>
     </keymapdata>
     <keymapdata>
+      <name>Find Architect</name>
+      <displayname>$$122185$$Find Architect</displayname>
+      <event>[</event>
+      <context>game</context>
+      <command>uiFindType("deArchitect")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Find Idle Architect</name>
+      <displayname>$$122186$$Find Idle Architect</displayname>
+      <context>game</context>
+      <command>uiFindIdleType("deArchitect", false)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Find All Architects</name>
+      <displayname>$$122187$$Find All Architects</displayname>
+      <context>game</context>
+      <command>uiFindAllOfType("deArchitect")</command>
+    </keymapdata>
+    <keymapdata>
       <name>Find All Idle Military</name>
       <displayname>$$69011$$Find All Idle Military</displayname>
       <event>control-f3</event>
@@ -648,28 +667,28 @@
       <displayname>$$90110$$Find Church, Mosque, Community Plaza or Monastery</displayname>
       <event>control-y</event>
       <context>game</context>
-      <command>uiFindAnyOfTypes("Church, ypMonastery, ypChurch, CommunityPlaza, deMountainMonastery, deUniversity, deCathedral")</command>
+      <command>uiFindAnyOfTypes("Church, ypMonastery, ypChurch, CommunityPlaza, deMountainMonastery, deUniversity, deCathedral, deBasilica")</command>
     </keymapdata>
     <keymapdata>
       <name>Find Barracks/Blockhouse/War hut/War academy</name>
       <displayname>$$90111$$Find Barracks, Blockhouse, War Hut or War Academy</displayname>
       <event>control-a</event>
       <context>game</context>
-      <command>uiFindAnyOfTypes("Barracks, Blockhouse, ypBarracksIndian, ypBarracksJapanese, WarHut, ypWarAcademy, deWarCamp") </command>
+      <command>uiFindAnyOfTypes("Barracks, Blockhouse, ypBarracksIndian, ypBarracksJapanese, WarHut, ypWarAcademy, deWarCamp, deHospital") </command>
     </keymapdata>
     <keymapdata>
       <name>Find Town Center/Capitol</name>
       <displayname>$$90112$$Find Town Center or Capitol</displayname>
       <event>control-s</event>
       <context>game</context>
-      <command>uiFindAnyOfTypes("Capitol, TownCenter, deStateCapitol")</command>
+      <command>uiFindAnyOfTypes("Capitol, TownCenter, deStateCapitol, deSPCCommandPost")</command>
     </keymapdata>
     <keymapdata>
       <name>Find Stable/Nobles Hut/Corral/Caravanserai</name>
       <displayname>$$90113$$Find Stables, Corral, Nobles Hut or Caravanserai</displayname>
       <event>control-d</event>
       <context>game</context>
-      <command>uiFindType("Stable") uiFindType("NoblesHut") uiFindType("Corral") uiFindType("ypStableJapanese") uiFindType("ypCaravanserai") uiFindType("deKallanka")</command>
+      <command>uiFindType("Stable") uiFindType("NoblesHut") uiFindType("Corral") uiFindType("ypStableJapanese") uiFindType("ypCaravanserai") uiFindType("deKallanka")  uiFindType("deCommandery")</command>
     </keymapdata>
     <keymapdata>
       <name>Find Artillery foundary/Siege workshop/Castle</name>
@@ -737,7 +756,7 @@
       <name>Find Bank</name>
       <displayname>$$20856$$Find Bank</displayname>
       <context>game</context>
-      <command>uiFindType("Bank")</command>
+      <command>uiFindType("Bank") uiFindType("deLombard")</command>
     </keymapdata>
     <keymapdata>
       <name>Find Field Hospital</name>
@@ -822,7 +841,7 @@
       <name>Find All Town Centers</name>
       <displayname>$$79870$$Find All Town Centers</displayname>
       <context>game</context>
-      <command>uiFindAllOfType("TownCenter")</command>
+      <command>uiFindAllOfTwoTypes("TownCenter", "deSPCCommandPost")</command>
     </keymapdata>
     <keymapdata>
       <name>Find All Idle Fishing Boats</name>

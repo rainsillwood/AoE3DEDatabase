@@ -116,6 +116,7 @@
     <rate type="Huntable">1.0 </rate>
     <rate type="Economic">1.0 </rate>
     <rate type="Guardian">1.0 </rate>
+    <targetlock>1</targetlock>
   </action>
   <action>
     <name stringid="38134">HandAttack</name>
@@ -156,6 +157,7 @@
     <idleanim>Raze_Idle</idleanim>
     <impacteffect>effects\impacts\torch</impacteffect>
     <projectile>TorchProjectile</projectile>
+    <targetlock>1</targetlock>
   </action>
   <action>
     <name stringid="42136">ChopAttack</name>
@@ -167,5 +169,28 @@
     <rate type="Tree">1.0 </rate>
     <hidefromstats>1</hidefromstats>
   </action>
-  <tactic>Normal<speedmodifier>1.0</speedmodifier><action>Gather</action><action>CrateGather</action><action>Build</action><action>Discover</action><action>Hunting</action><action>AutoGatherTrade</action><action>AutoGatherXP</action><action>IncreaseHPWithLikeUnits</action><action>IncreaseSpeedWithLikeUnits</action><action priority="100">ChopAttack</action><action priority="75">BuildingAttack</action><action priority="50">RangedAttack</action><action priority="25">HandAttack</action><action priority="20">HandAttackCrate</action><attacktype>LogicalTypeVillagersAttack</attacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><runaway>0</runaway><autoretarget>1</autoretarget><idleanim>Idle</idleanim><boredanim>Bored</boredanim><deathanim>Death_by_melee</deathanim><walkanim>Walk</walkanim><joganim>Jog</joganim><runanim>Run</runanim></tactic>
+  <action>
+    <name stringid="69183">NoWork</name>
+    <type>NoWork</type>
+    <maxrange>10</maxrange>
+    <rate type="Herdable">1.0</rate>
+    <rate type="Huntable">1.0</rate>
+    <rate type="AbstractMine">1.0</rate>
+    <typedmaxrange type="Herdable">0</typedmaxrange>
+    <typedmaxrange type="AbstractNuggetWater">0</typedmaxrange>
+    <typedmaxrange type="Huntable">10</typedmaxrange>
+    <typedmaxrange type="AbstractMine">0</typedmaxrange>
+  </action>
+  <action>
+    <name stringid="43019">AutoGatherCoinHunt</name>
+    <type>AutoGather</type>
+    <active>0</active>
+    <donotautogatherunlessgatheringtypes>
+      <unittype>Huntable</unittype>
+    </donotautogatherunlessgatheringtypes>
+    <autogatherscalebygatherrate>1</autogatherscalebygatherrate>
+    <persistent>1</persistent>
+    <rate type="Gold">0.100000</rate>
+  </action>
+  <tactic>Normal<speedmodifier>1.0</speedmodifier><action>Gather</action><action>CrateGather</action><action>Build</action><action>Discover</action><action>Hunting</action><action>AutoGatherTrade</action><action>AutoGatherXP</action><action>IncreaseHPWithLikeUnits</action><action>IncreaseSpeedWithLikeUnits</action><action>AutoGatherCoinHunt</action><action priority="100">ChopAttack</action><action priority="75">BuildingAttack</action><action priority="50">RangedAttack</action><action priority="25">HandAttack</action><action priority="20">HandAttackCrate</action><attacktype>LogicalTypeVillagersAttack</attacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><runaway>0</runaway><autoretarget>1</autoretarget><idleanim>Idle</idleanim><boredanim>Bored</boredanim><deathanim>Death_by_melee</deathanim><walkanim>Walk</walkanim><joganim>Jog</joganim><runanim>Run</runanim></tactic>
 </tactics>

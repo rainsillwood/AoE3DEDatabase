@@ -21,7 +21,7 @@
     <name stringid="42178">Gather</name>
     <type>Gather</type>
     <maxrange>0.5</maxrange>
-    <rate type="deMountainMonastery">1.0</rate>
+    <rate type="AbstractMountainMonastery">1.0</rate>
   </action>
   <action>
     <name stringid="24102">Build</name>

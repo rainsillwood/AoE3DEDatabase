@@ -709,7 +709,7 @@
       <maxcount>1</maxcount>
       <level>10</level>
       <prereqtech>HCPioneers</prereqtech>
-      <age>0</age>
+      <age>3</age>
     </card>
     <card>
       <name>HCFrontierDefenses</name>
@@ -1180,7 +1180,7 @@
       <level>25</level>
       <prereqtech>HCMercsStradiots</prereqtech>
       <age>3</age>
-      <displayunitcount>13</displayunitcount>
+      <displayunitcount>8</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -1598,6 +1598,36 @@
         <card dbid="469">HCFishMarket</card>
         <card dbid="2234">HCShipLancers3</card>
         <card dbid="2670">HCFrontierDefenses2</card>
+      </cards>
+    </deck>
+    <deck version="8">
+      <name>$$55547$$Tycoon</name>
+      <cards>
+        <card dbid="2268">HCShipFoodCrates5</card>
+        <card dbid="625">HCUnlockFactory</card>
+        <card dbid="3345">HCXPIndustrialRevolution</card>
+        <card dbid="2213">HCShipWoodCrates4</card>
+        <card dbid="2093">HCRoyalMint</card>
+        <card dbid="2041">HCRefrigeration</card>
+        <card dbid="814">HCUnlockFort</card>
+        <card dbid="2623">HCColonialEstancias</card>
+        <card dbid="2208">HCShipSettlers4</card>
+        <card dbid="2212">HCShipWoodCrates3</card>
+        <card dbid="2206">HCShipSettlers2</card>
+        <card dbid="2215">HCShipCoinCrates3</card>
+        <card dbid="2207">HCShipSettlers3</card>
+        <card dbid="1849">HCExplorerSpanish</card>
+        <card dbid="1796">HCAdvancedTradingPost</card>
+        <card dbid="1992">HCColonialMilitia</card>
+        <card dbid="3387">HCXPEconomicTheory</card>
+        <card dbid="3438">HCXPCapitalism</card>
+        <card dbid="2032">HCFurrier</card>
+        <card dbid="2091">HCExoticHardwoods</card>
+        <card dbid="2090">HCSawmills</card>
+        <card dbid="2190">HCShipCoveredWagons</card>
+        <card dbid="2102">HCTextileMills</card>
+        <card dbid="3464">HCXPSpanishGold</card>
+        <card dbid="2095">HCSustainableAgriculture</card>
       </cards>
     </deck>
     <revoltdeck>
@@ -2447,6 +2477,5 @@
     <prop>Spanish_DockTexture5</prop>
     <prop>Spanish_DockTexture6</prop>
     <prop>Spanish_DockTexture7</prop>
-    <prop>ExplorerSpanish</prop>
   </obtainableprops>
 </homecity>

@@ -688,7 +688,7 @@
       <maxcount>1</maxcount>
       <level>10</level>
       <prereqtech>DEHCExtensiveFortificationsEuropean</prereqtech>
-      <age>0</age>
+      <age>3</age>
     </card>
     <card>
       <name>HCFrontierDefenses</name>
@@ -1149,7 +1149,7 @@
       <level>25</level>
       <prereqtech>HCMercsCorsairs</prereqtech>
       <age>3</age>
-      <displayunitcount>13</displayunitcount>
+      <displayunitcount>8</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -1693,6 +1693,36 @@
         <card dbid="2041">HCRefrigeration</card>
         <card dbid="2309">HCShipLongbowmen1</card>
         <card dbid="2213">HCShipWoodCrates4</card>
+      </cards>
+    </deck>
+    <deck version="8">
+      <name>$$55547$$Tycoon</name>
+      <cards>
+        <card dbid="2207">HCShipSettlers3</card>
+        <card dbid="1992">HCColonialMilitia</card>
+        <card dbid="1796">HCAdvancedTradingPost</card>
+        <card dbid="3440">HCXPDistributivism</card>
+        <card dbid="625">HCUnlockFactory</card>
+        <card dbid="2031">HCRobberBarons</card>
+        <card dbid="2213">HCShipWoodCrates4</card>
+        <card dbid="2216">HCShipCoinCrates4</card>
+        <card dbid="2567">HCShipSettlers5</card>
+        <card dbid="2208">HCShipSettlers4</card>
+        <card dbid="2211">HCShipWoodCrates2</card>
+        <card dbid="2212">HCShipWoodCrates3</card>
+        <card dbid="2214">HCShipCoinCrates2</card>
+        <card dbid="2215">HCShipCoinCrates3</card>
+        <card dbid="2088">HCExplorerBritish</card>
+        <card dbid="6691">DEHCExtensiveFortificationsEuropean</card>
+        <card dbid="814">HCUnlockFort</card>
+        <card dbid="2093">HCRoyalMint</card>
+        <card dbid="2075">HCCheaperManors</card>
+        <card dbid="2218">HCShipSheep1</card>
+        <card dbid="1950">HCIronmonger</card>
+        <card dbid="2607">HCStockyards</card>
+        <card dbid="2614">HCHouseEstates</card>
+        <card dbid="3450">HCXPSouthSeaBubble</card>
+        <card dbid="2041">HCRefrigeration</card>
       </cards>
     </deck>
     <revoltdeck>
@@ -2475,6 +2505,5 @@
     <prop>British_ManuPlantTexture5</prop>
     <prop>British_ManuPlantTexture6</prop>
     <prop>British_ManuPlantTexture7</prop>
-    <prop>ExplorerBritish</prop>
   </obtainableprops>
 </homecity>

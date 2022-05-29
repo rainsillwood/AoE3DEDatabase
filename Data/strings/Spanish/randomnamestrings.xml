@@ -921,7 +921,7 @@
     <string _locid="50918" comment="proto-Explorer civ-Portuguese type-firstname">Capitán</string>
     <string _locid="50919" comment="proto-Explorer civ-Portuguese type-firstname">Afonso</string>
     <string _locid="50920" comment="proto-Explorer civ-Portuguese type-firstname">Alfonso</string>
-    <string _locid="50921" comment="proto-Explorer civ-Portuguese type-firstname">Amerigo</string>
+    <string _locid="50921" comment="proto-Explorer civ-DEItalians type-firstname">Américo</string>
     <string _locid="50922" comment="proto-Explorer civ-Portuguese type-firstname">Antonio</string>
     <string _locid="50923" comment="proto-Explorer civ-Portuguese type-firstname">Bartolomé</string>
     <string _locid="50924" comment="proto-Explorer civ-Portuguese type-firstname">Bartolomeu </string>
@@ -2384,5 +2384,243 @@
     <string _locid="53015" comment="proto-deMiner civ-Default type-title">Ross</string>
     <string _locid="53016" comment="proto-deMiner civ-Default type-title">Seamus</string>
     <string _locid="53017" comment="proto-deMiner civ-Default type-title">Silas</string>
+    <string _locid="53018" comment="proto-deMercBattleship civ-Spanish type-title">Nuestra Señora</string>
+    <string _locid="53019" comment="proto-deMercBattleship civ-Spanish type-title">Santa Ana</string>
+    <string _locid="53020" comment="proto-deMercBattleship civ-Spanish type-title">Príncipe de Asturias</string>
+    <string _locid="53021" comment="proto-deMercBattleship civ-Spanish type-title">Purísima Concepción</string>
+    <string _locid="53022" comment="proto-deMercBattleship civ-Spanish type-title">San José</string>
+    <string _locid="53023" comment="proto-deMercBattleship civ-Spanish type-title">San Luis</string>
+    <string _locid="53024" comment="proto-deMercBattleship civ-Spanish type-title">San Hermenegildo</string>
+    <string _locid="53025" comment="proto-deMercBattleship civ-Spanish type-title">Salvador del Mundo</string>
+    <string _locid="53026" comment="proto-deMercBattleship civ-Spanish type-title">Familia real</string>
+    <string _locid="54000" comment="proto-deGrandMaster civ-DEMaltese type-title">Jean de Lastic</string>
+    <string _locid="54001" comment="proto-deGrandMaster civ-DEMaltese type-title">Jacques de Milly</string>
+    <string _locid="54002" comment="proto-deGrandMaster civ-DEMaltese type-title">Piero Raimondo Zacosta</string>
+    <string _locid="54003" comment="proto-deGrandMaster civ-DEMaltese type-title">Giovanni Battista Orsini</string>
+    <string _locid="54004" comment="proto-deGrandMaster civ-DEMaltese type-title">Pierre d'Aubusson</string>
+    <string _locid="54005" comment="proto-deGrandMaster civ-DEMaltese type-title">Emery d'Amboise</string>
+    <string _locid="54006" comment="proto-deGrandMaster civ-DEMaltese type-title">Guy de Blanchefort</string>
+    <string _locid="54007" comment="proto-deGrandMaster civ-DEMaltese type-title">Fabrizio del Carretto</string>
+    <string _locid="54008" comment="proto-deGrandMaster civ-DEMaltese type-title">Jean Parisot</string>
+    <string _locid="54009" comment="proto-deGrandMaster civ-DEMaltese type-title">Alain Magnan</string>
+    <string _locid="54010" comment="proto-deGrandMaster civ-DEMaltese type-title">Morgan Black</string>
+    <string _locid="54011" comment="proto-deGrandMaster civ-DEMaltese type-title">Philippe Villiers</string>
+    <string _locid="54012" comment="proto-deGrandMaster civ-DEMaltese type-title">Pierre de Monte</string>
+    <string _locid="54013" comment="proto-deGrandMaster civ-DEMaltese type-title">Didier de Saint-Jaille</string>
+    <string _locid="54014" comment="proto-deGrandMaster civ-DEMaltese type-title">Juan de Homedes</string>
+    <string _locid="54015" comment="proto-deGrandMaster civ-DEMaltese type-title">Claude de la Sengle</string>
+    <string _locid="54016" comment="proto-deGrandMaster civ-DEMaltese type-title">Pierre de Monte</string>
+    <string _locid="54017" comment="proto-deGrandMaster civ-DEMaltese type-title">Jean de la Cassière</string>
+    <string _locid="54018" comment="proto-deGrandMaster civ-DEMaltese type-title">Mathurin Romegas</string>
+    <string _locid="54019" comment="proto-deGrandMaster civ-DEMaltese type-title">Hugues Loubenx</string>
+    <string _locid="54020" comment="proto-deGrandMaster civ-DEMaltese type-title">Martín Garzés</string>
+    <string _locid="54021" comment="proto-deGrandMaster civ-DEMaltese type-title">Alof de Wignacourt</string>
+    <string _locid="54022" comment="proto-deGrandMaster civ-DEMaltese type-title">Luís de Vasconcellos</string>
+    <string _locid="54023" comment="proto-deGrandMaster civ-DEMaltese type-title">Antoine de Paule</string>
+    <string _locid="54024" comment="proto-deGrandMaster civ-DEMaltese type-title">Giovanni Lascaris</string>
+    <string _locid="54025" comment="proto-deGrandMaster civ-DEMaltese type-title">Martin de Redin</string>
+    <string _locid="54026" comment="proto-deGrandMaster civ-DEMaltese type-title">Annet de Clermont-Gessant</string>
+    <string _locid="54027" comment="proto-deGrandMaster civ-DEMaltese type-title">Rafael Cotoner</string>
+    <string _locid="54028" comment="proto-deGrandMaster civ-DEMaltese type-title">Nicolás Cotoner</string>
+    <string _locid="54029" comment="proto-deGrandMaster civ-DEMaltese type-title">Gregorio Carafa</string>
+    <string _locid="54030" comment="proto-deGrandMaster civ-DEMaltese type-title">Adrien de Wignacourt</string>
+    <string _locid="54031" comment="proto-deGrandMaster civ-DEMaltese type-title">Ramón Perellós</string>
+    <string _locid="54032" comment="proto-deGrandMaster civ-DEMaltese type-title">Marc'Antonio Zondadari</string>
+    <string _locid="54033" comment="proto-deGrandMaster civ-DEMaltese type-title">António Manoel de Vilhena</string>
+    <string _locid="54034" comment="proto-deGrandMaster civ-DEMaltese type-title">Ramón Despuig</string>
+    <string _locid="54035" comment="proto-deGrandMaster civ-DEMaltese type-title">Manuel Pinto da Fonseca</string>
+    <string _locid="54036" comment="proto-deGrandMaster civ-DEMaltese type-title">Francisco Ximénez</string>
+    <string _locid="54037" comment="proto-deGrandMaster civ-DEMaltese type-title">Emmanuel de Rohan-Polduc</string>
+    <string _locid="54038" comment="proto-deGrandMaster civ-DEMaltese type-title">Ferdinand von Hompesch</string>
+    <string _locid="54039" comment="proto-deGrandMaster civ-DEMaltese type-title">Pável Petróvich</string>
+    <string _locid="54040" comment="proto-deGrandMaster civ-DEMaltese type-title">Nikolái Saltykov</string>
+    <string _locid="54041" comment="proto-deGrandMaster civ-DEMaltese type-title">Giovanni Battista Tommasi</string>
+    <string _locid="54042" comment="proto-deGrandMaster civ-DEMaltese type-title">Innico Guevara-Suardo</string>
+    <string _locid="54043" comment="proto-deGrandMaster civ-DEMaltese type-title">Di Giovanni Centellés</string>
+    <string _locid="54044" comment="proto-deGrandMaster civ-DEMaltese type-title">Antoine Busca</string>
+    <string _locid="54045" comment="proto-deGrandMaster civ-DEMaltese type-title">Carlo Candida</string>
+    <string _locid="54046" comment="proto-deGrandMaster civ-DEMaltese type-title">Filippo di Colloredo-Mels</string>
+    <string _locid="54047" comment="proto-deGrandMaster civ-DEMaltese type-title">Alessandro Borgia</string>
+    <string _locid="54100" comment="proto-Explorer civ-DEItalians type-firstname">Giovanni </string>
+    <string _locid="54101" comment="proto-Explorer civ-DEItalians type-firstname">Marco </string>
+    <string _locid="54102" comment="proto-Explorer civ-DEItalians type-firstname">Christopher</string>
+    <string _locid="54103" comment="proto-Explorer civ-DEItalians type-firstname">Antonio</string>
+    <string _locid="54104" comment="proto-Explorer civ-DEItalians type-firstname">Galileo </string>
+    <string _locid="54105" comment="proto-Explorer civ-DEItalians type-firstname">Eugenio </string>
+    <string _locid="54106" comment="proto-Explorer civ-DEItalians type-firstname">Cesare </string>
+    <string _locid="54107" comment="proto-Explorer civ-DEItalians type-firstname">Leonardo </string>
+    <string _locid="54108" comment="proto-Explorer civ-DEItalians type-firstname">Antonio</string>
+    <string _locid="54109" comment="proto-Explorer civ-DEItalians type-firstname">Pietro </string>
+    <string _locid="54110" comment="proto-Explorer civ-DEItalians type-firstname">Pietro Paolo </string>
+    <string _locid="54111" comment="proto-Explorer civ-DEItalians type-firstname">Amedeo</string>
+    <string _locid="54112" comment="proto-Explorer civ-DEItalians type-firstname">Luigi </string>
+    <string _locid="54113" comment="proto-Explorer civ-DEItalians type-firstname">Guglielmo </string>
+    <string _locid="54114" comment="proto-Explorer civ-DEItalians type-firstname">Evangelista</string>
+    <string _locid="54115" comment="proto-Explorer civ-DEItalians type-firstname">Alessandro </string>
+    <string _locid="54116" comment="proto-Explorer civ-DEItalians type-firstname">Giuseppe</string>
+    <string _locid="54117" comment="proto-Explorer civ-DEItalians type-firstname">Marco </string>
+    <string _locid="54118" comment="proto-Explorer civ-DEItalians type-lastname">
+    </string>
+    <string _locid="54119" comment="proto-Explorer civ-DEItalians type-lastname">Vespucci</string>
+    <string _locid="54120" comment="proto-Explorer civ-DEItalians type-lastname">Caboto</string>
+    <string _locid="54121" comment="proto-Explorer civ-DEItalians type-lastname">Polo</string>
+    <string _locid="54122" comment="proto-Explorer civ-DEItalians type-lastname">Colón</string>
+    <string _locid="54123" comment="proto-Explorer civ-DEItalians type-lastname">Meucci</string>
+    <string _locid="54124" comment="proto-Explorer civ-DEItalians type-lastname">de Galilei</string>
+    <string _locid="54125" comment="proto-Explorer civ-DEItalians type-lastname">Barsanti</string>
+    <string _locid="54126" comment="proto-Explorer civ-DEItalians type-lastname">di Beccaria</string>
+    <string _locid="54127" comment="proto-Explorer civ-DEItalians type-lastname">da Vinci</string>
+    <string _locid="54128" comment="proto-Explorer civ-DEItalians type-lastname">Genovesi</string>
+    <string _locid="54129" comment="proto-Explorer civ-DEItalians type-lastname">da Verrazzano</string>
+    <string _locid="54130" comment="proto-Explorer civ-DEItalians type-lastname">de Brazza</string>
+    <string _locid="54131" comment="proto-Explorer civ-DEItalians type-lastname">Avogadro</string>
+    <string _locid="54132" comment="proto-Explorer civ-DEItalians type-lastname">Galvani</string>
+    <string _locid="54133" comment="proto-Explorer civ-DEItalians type-lastname">Marconi</string>
+    <string _locid="54134" comment="proto-Explorer civ-DEItalians type-lastname">Torricelli</string>
+    <string _locid="54135" comment="proto-Explorer civ-DEItalians type-lastname">Volta</string>
+    <string _locid="54136" comment="proto-Explorer civ-DEItalians type-lastname">Mazzini</string>
+    <string _locid="54137" comment="proto-Explorer civ-DEItalians type-lastname">Garibaldi</string>
+    <string _locid="54138" comment="proto-Explorer civ-DEItalians type-lastname">Polo</string>
+    <string _locid="54139" comment="proto-Fort civ-Italians type-title">Forte Gonzaga</string>
+    <string _locid="54140" comment="proto-Fort civ-Italians type-title">Real Cittadella</string>
+    <string _locid="54141" comment="proto-Fort civ-Italians type-title">Forte del Santissimo Salvatore</string>
+    <string _locid="54142" comment="proto-Fort civ-Italians type-title">Castel Sant'Angelo</string>
+    <string _locid="54143" comment="proto-Fort civ-Italians type-title">Palmanova</string>
+    <string _locid="54144" comment="proto-Fort civ-Italians type-title">Rivellino de Leonardo</string>
+    <string _locid="54145" comment="proto-Fort civ-Italians type-title">Aurelia Antica</string>
+    <string _locid="54146" comment="proto-Fort civ-Italians type-title">Forte Belvedere</string>
+    <string _locid="54147" comment="proto-Fort civ-Italians type-title">Forte Antenne</string>
+    <string _locid="54148" comment="proto-Fort civ-Italians type-title">Forte Braschi</string>
+    <string _locid="54149" comment="proto-Fort civ-Italians type-title">Forte di San Leo</string>
+    <string _locid="54150" comment="proto-Fort civ-Italians type-title">Castello de Zanna</string>
+    <string _locid="54151" comment="proto-Fort civ-Italians type-title">Cittadella Nuova</string>
+    <string _locid="54152" comment="proto-Fort civ-Italians type-title">Castello di Santa Margherita Ligure</string>
+    <string _locid="54153" comment="proto-Fort civ-Maltese type-title">Forte San Salvatore</string>
+    <string _locid="54154" comment="proto-Fort civ-Maltese type-title">Forte Saint Angelo</string>
+    <string _locid="54155" comment="proto-Fort civ-Maltese type-title">Forte Saint Elmo</string>
+    <string _locid="54156" comment="proto-Fort civ-Maltese type-title">Bastión de Santiago</string>
+    <string _locid="54157" comment="proto-Fort civ-Maltese type-title">Bastión de San Lucas</string>
+    <string _locid="54158" comment="proto-Fort civ-Maltese type-title">Bastión de San Francisco</string>
+    <string _locid="54159" comment="proto-Fort civ-Maltese type-title">Fort Manoel</string>
+    <string _locid="54160" comment="proto-Fort civ-Maltese type-title">Fort Tigné</string>
+    <string _locid="54161" comment="proto-Fort civ-Maltese type-title">Cittadella</string>
+    <string _locid="54162" comment="proto-Fort civ-Maltese type-title">Bastión de San Felipe</string>
+    <string _locid="54163" comment="proto-Fort civ-Maltese type-title">Fort Saint Michael </string>
+    <string _locid="54164" comment="proto-Saloon/deTavern civ-Italians type-title">Mamma In Cucina</string>
+    <string _locid="54165" comment="proto-Saloon/deTavern civ-Italians type-title">Pizzería</string>
+    <string _locid="54166" comment="proto-Saloon/deTavern civ-Italians type-title">Al Forno</string>
+    <string _locid="54167" comment="proto-Saloon/deTavern civ-Italians type-title">La Gustosa</string>
+    <string _locid="54168" comment="proto-Saloon/deTavern civ-Italians type-title">L'Oro di Napoli</string>
+    <string _locid="54169" comment="proto-Saloon/deTavern civ-Italians type-title">Vesubio</string>
+    <string _locid="54170" comment="proto-Saloon/deTavern civ-Italians type-title">La Pérgola</string>
+    <string _locid="54171" comment="proto-Saloon/deTavern civ-Italians type-title">Aroma</string>
+    <string _locid="54172" comment="proto-Saloon/deTavern civ-Italians type-title">Il Salamino</string>
+    <string _locid="54173" comment="proto-Saloon/deTavern civ-Italians type-title">La Rústica</string>
+    <string _locid="54174" comment="proto-Saloon/deTavern civ-Italians type-title">Primavera</string>
+    <string _locid="54175" comment="proto-Saloon/deTavern civ-Italians type-title">Mangia Tutto</string>
+    <string _locid="54176" comment="proto-Saloon/deTavern civ-Italians type-title">Che Buono</string>
+    <string _locid="54177" comment="proto-Saloon/deTavern civ-Italians type-title">Come A Casa</string>
+    <string _locid="54178" comment="proto-Saloon/deTavern civ-Italians type-title">Al dente</string>
+    <string _locid="54179" comment="proto-Saloon/deTavern civ-Italians type-title">Terra Mare</string>
+    <string _locid="54180" comment="proto-Saloon/deTavern civ-Italians type-title">Pizza Pasta</string>
+    <string _locid="54181" comment="proto-Saloon/deTavern civ-Italians type-title">Il Pescatore</string>
+    <string _locid="54182" comment="proto-Saloon/deTavern civ-Italians type-title">Il Ghiottone</string>
+    <string _locid="54183" comment="proto-Saloon/deTavern civ-Maltese type-title">Black's Beverages</string>
+    <string _locid="54184" comment="proto-Saloon/deTavern civ-Maltese type-title">Black's Bourbon</string>
+    <string _locid="54185" comment="proto-Saloon/deTavern civ-Maltese type-title">Pub Pirata de Lizzie</string>
+    <string _locid="54186" comment="proto-Saloon/deTavern civ-Maltese type-title">Hostel de Verdelin</string>
+    <string _locid="54187" comment="proto-Saloon/deTavern civ-Maltese type-title">Casa del Almirantazgo</string>
+    <string _locid="54188" comment="proto-Saloon/deTavern civ-Maltese type-title">Taberna de San Juan</string>
+    <string _locid="54189" comment="proto-Saloon/deTavern civ-Maltese type-title">El Caballero Bebedor</string>
+    <string _locid="54190" comment="proto-Saloon/deTavern civ-Maltese type-title">Café de los Cruzados</string>
+    <string _locid="54191" comment="proto-Saloon/deTavern civ-Maltese type-title">Zum Johlenden Johanniter</string>
+    <string _locid="54192" comment="proto-Saloon/deTavern civ-Maltese type-title">Fuente de la Juventud</string>
+    <string _locid="54193" comment="proto-Saloon/deTavern civ-Maltese type-title">El Santo Grial</string>
+    <string _locid="54194" comment="proto-Saloon/deTavern civ-Maltese type-title">El Inquisidor Risueño</string>
+    <string _locid="54195" comment="proto-Saloon/deTavern civ-Maltese type-title">Depósito de Kukkanja</string>
+    <string _locid="54196" comment="proto-Saloon/deTavern civ-Maltese type-title">Vestuario de carnaval</string>
+    <string _locid="54211" comment="proto-Galleon civ-Italians type-title">Gaeta</string>
+    <string _locid="54212" comment="proto-Galleon civ-Italians type-title">Duca di Genova</string>
+    <string _locid="54213" comment="proto-Galleon civ-Italians type-title">Garibaldi</string>
+    <string _locid="54214" comment="proto-Galleon civ-Italians type-title">Governolo</string>
+    <string _locid="54215" comment="proto-Galleon civ-Italians type-title">Furia</string>
+    <string _locid="54216" comment="proto-Galleon civ-Italians type-title">Bastarda</string>
+    <string _locid="54217" comment="proto-Galleon civ-Italians type-title">Monarca</string>
+    <string _locid="54218" comment="proto-Galleon civ-Italians type-title">La Donna</string>
+    <string _locid="54219" comment="proto-Galleon civ-Italians type-title">Mondo</string>
+    <string _locid="54220" comment="proto-Galleon civ-Italians type-title">Sibilla</string>
+    <string _locid="54221" comment="proto-Galleon civ-Italians type-title">Baccana</string>
+    <string _locid="54222" comment="proto-Galleon civ-Italians type-title">Fuoco</string>
+    <string _locid="54223" comment="proto-Frigate civ-Italians type-title">Bucentauro</string>
+    <string _locid="54224" comment="proto-Frigate civ-Italians type-title">Re d'Italia</string>
+    <string _locid="54225" comment="proto-Frigate civ-Italians type-title">Re di Portogallo</string>
+    <string _locid="54226" comment="proto-Frigate civ-Italians type-title">Regina Maria Pia</string>
+    <string _locid="54227" comment="proto-Frigate civ-Italians type-title">Castelfidardo</string>
+    <string _locid="54228" comment="proto-Frigate civ-Italians type-title">Ancona</string>
+    <string _locid="54229" comment="proto-Frigate civ-Italians type-title">Principe di Carignano</string>
+    <string _locid="54230" comment="proto-Frigate civ-Italians type-title">Capitana</string>
+    <string _locid="54231" comment="proto-Frigate civ-Italians type-title">Padrona</string>
+    <string _locid="54232" comment="proto-Frigate civ-Italians type-title">Perla</string>
+    <string _locid="54233" comment="proto-Frigate civ-Italians type-title">Regina</string>
+    <string _locid="54234" comment="proto-Frigate civ-Italians type-title">Uomo di Mare</string>
+    <string _locid="54235" comment="proto-Monitor civ-Italians type-title">Leone</string>
+    <string _locid="54236" comment="proto-Monitor civ-Italians type-title">San Girolamo</string>
+    <string _locid="54237" comment="proto-Monitor civ-Italians type-title">Santa Caterina</string>
+    <string _locid="54238" comment="proto-Monitor civ-Italians type-title">Mongibello</string>
+    <string _locid="54239" comment="proto-Monitor civ-Italians type-title">Formidabile</string>
+    <string _locid="54240" comment="proto-Monitor civ-Italians type-title">Affondatore</string>
+    <string _locid="54241" comment="proto-Monitor civ-Italians type-title">Terribile</string>
+    <string _locid="54242" comment="proto-Monitor civ-Italians type-title">Palestro</string>
+    <string _locid="54243" comment="proto-Monitor civ-Italians type-title">Varese</string>
+    <string _locid="54244" comment="proto-deMercBattleship civ-Italians type-title">Vesuvio</string>
+    <string _locid="54245" comment="proto-deMercBattleship civ-Italians type-title">Munarca</string>
+    <string _locid="54246" comment="proto-deMercBattleship civ-Italians type-title">Amalia</string>
+    <string _locid="54247" comment="proto-deMercBattleship civ-Italians type-title">San Felippo 'a Riale</string>
+    <string _locid="54248" comment="proto-deMercBattleship civ-Italians type-title">Gioacchino</string>
+    <string _locid="54249" comment="proto-Galley civ-Maltese type-title">Santa Fè</string>
+    <string _locid="54250" comment="proto-Galley civ-Maltese type-title">San Michele</string>
+    <string _locid="54251" comment="proto-Galley civ-Maltese type-title">San Filippo</string>
+    <string _locid="54252" comment="proto-Galley civ-Maltese type-title">San Claudio</string>
+    <string _locid="54253" comment="proto-Galley civ-Maltese type-title">San Pietro</string>
+    <string _locid="54254" comment="proto-Galley civ-Maltese type-title">San Juan</string>
+    <string _locid="54255" comment="proto-Galley civ-Maltese type-title">San Lorenzo</string>
+    <string _locid="54256" comment="proto-Galley civ-Maltese type-title">Santa María</string>
+    <string _locid="54257" comment="proto-Galley civ-Maltese type-title">Vittoria</string>
+    <string _locid="54258" comment="proto-Galley civ-Maltese type-title">San Giuseppe</string>
+    <string _locid="54259" comment="proto-Galley civ-Maltese type-title">San Giovanni</string>
+    <string _locid="54260" comment="proto-Galley civ-Maltese type-title">San Francesco</string>
+    <string _locid="54261" comment="proto-Galley civ-Maltese type-title">San Fede</string>
+    <string _locid="54262" comment="proto-Galley civ-Maltese type-title">San Croce</string>
+    <string _locid="54263" comment="proto-Galley civ-Maltese type-title">San Plácido</string>
+    <string _locid="54264" comment="proto-Galleon civ-Maltese type-title">Sante Elisabeth</string>
+    <string _locid="54265" comment="proto-Galleon civ-Maltese type-title">Santa Croce</string>
+    <string _locid="54266" comment="proto-Galleon civ-Maltese type-title">San Vicenzo</string>
+    <string _locid="54267" comment="proto-Galleon civ-Maltese type-title">Santa Ana</string>
+    <string _locid="54268" comment="proto-Monitor civ-Maltese type-title">San Antonio di Padova</string>
+    <string _locid="54269" comment="proto-Monitor civ-Maltese type-title">San Jorge</string>
+    <string _locid="54270" comment="proto-Monitor civ-Maltese type-title">San Antonio</string>
+    <string _locid="54271" comment="proto-Frigate civ-Maltese type-title">San Giacomo</string>
+    <string _locid="54272" comment="proto-Frigate civ-Maltese type-title">Santa Caterina</string>
+    <string _locid="54273" comment="proto-Frigate civ-Maltese type-title">San Zaccaria</string>
+    <string _locid="54274" comment="proto-Frigate civ-Maltese type-title">San Giovanni</string>
+    <string _locid="54275" comment="proto-deMercBattleship civ-Maltese type-title">San Salvatore</string>
+    <string _locid="54276" comment="proto-deMercBattleship civ-Maltese type-title">Barco del Gran Maestre</string>
+    <string _locid="54277" comment="proto-deMercBattleship civ-Maltese type-title">Buque insignia de Morgan</string>
+    <string _locid="54278" comment="proto-deMercBattleship civ-Maltese type-title">Capitana</string>
+    <string _locid="54279" comment="proto-deMalteseFireship civ-Maltese type-title">Fuego Sagrado</string>
+    <string _locid="54280" comment="proto-deMalteseFireship civ-Maltese type-title">Pétard de Morgan</string>
+    <string _locid="54281" comment="proto-deMalteseFireship civ-Maltese type-title">Humos sagrados</string>
+    <string _locid="54282" comment="proto-deMalteseFireship civ-Maltese type-title">Purificación</string>
+    <string _locid="54283" comment="proto-deMalteseFireship civ-Maltese type-title">Humo en el agua</string>
+    <string _locid="54284" comment="proto-deMalteseFireship civ-Maltese type-title">Bautista de fuego</string>
+    <string _locid="54285" comment="proto-deMalteseFireship civ-Maltese type-title">Apocalipsis</string>
+    <string _locid="54286" comment="proto-deMalteseFireship civ-Maltese type-title">Comerciante de petróleo</string>
+    <string _locid="54287" comment="proto-deMalteseFireship civ-Maltese type-title">Brulote bizantino</string>
+    <string _locid="54288" comment="proto-deMalteseFireship civ-Maltese type-title">Buque de demolición</string>
+    <string _locid="54289" comment="proto-deMalteseFireship civ-Maltese type-title">Deseo ardiente</string>
+    <string _locid="54290" comment="proto-deMalteseFireship civ-Maltese type-title">Vela</string>
+    <string _locid="54291" comment="proto-deMalteseFireship civ-Maltese type-title">Depósito natatorio</string>
+    <string _locid="54292" comment="proto-deMalteseFireship civ-Maltese type-title">Brulote instantáneo</string>
+    <string _locid="54293" comment="proto-deMalteseFireship civ-Maltese type-title">Viento ardiente</string>
   </language>
 </stringtable>

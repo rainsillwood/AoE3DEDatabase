@@ -921,7 +921,7 @@
     <string _locid="50918" comment="proto-Explorer civ-Portuguese type-firstname">Капитан </string>
     <string _locid="50919" comment="proto-Explorer civ-Portuguese type-firstname">Афонсу </string>
     <string _locid="50920" comment="proto-Explorer civ-Portuguese type-firstname">Альфонсо </string>
-    <string _locid="50921" comment="proto-Explorer civ-Portuguese type-firstname">Америгу </string>
+    <string _locid="50921" comment="proto-Explorer civ-DEItalians type-firstname">Америгу </string>
     <string _locid="50922" comment="proto-Explorer civ-Portuguese type-firstname">Антониу </string>
     <string _locid="50923" comment="proto-Explorer civ-Portuguese type-firstname">Бартоломе </string>
     <string _locid="50924" comment="proto-Explorer civ-Portuguese type-firstname">Бартоломеу </string>
@@ -2384,5 +2384,243 @@
     <string _locid="53015" comment="proto-deMiner civ-Default type-title">Росс</string>
     <string _locid="53016" comment="proto-deMiner civ-Default type-title">Шеймус</string>
     <string _locid="53017" comment="proto-deMiner civ-Default type-title">Сайлас</string>
+    <string _locid="53018" comment="proto-deMercBattleship civ-Spanish type-title">Нуэстра Сеньора</string>
+    <string _locid="53019" comment="proto-deMercBattleship civ-Spanish type-title">Санта-Ана</string>
+    <string _locid="53020" comment="proto-deMercBattleship civ-Spanish type-title">Принсипе де Астуриас</string>
+    <string _locid="53021" comment="proto-deMercBattleship civ-Spanish type-title">Пурисима Консепсьон</string>
+    <string _locid="53022" comment="proto-deMercBattleship civ-Spanish type-title">Сан-Хосе</string>
+    <string _locid="53023" comment="proto-deMercBattleship civ-Spanish type-title">Сан-Луис</string>
+    <string _locid="53024" comment="proto-deMercBattleship civ-Spanish type-title">Сан-Эрменехильдо</string>
+    <string _locid="53025" comment="proto-deMercBattleship civ-Spanish type-title">Сальвадор-дель-Мундо</string>
+    <string _locid="53026" comment="proto-deMercBattleship civ-Spanish type-title">Реал Фамилиа</string>
+    <string _locid="54000" comment="proto-deGrandMaster civ-DEMaltese type-title">Жан де Ластик</string>
+    <string _locid="54001" comment="proto-deGrandMaster civ-DEMaltese type-title">Жак де Мийи</string>
+    <string _locid="54002" comment="proto-deGrandMaster civ-DEMaltese type-title">Пьер Раймон Закоста</string>
+    <string _locid="54003" comment="proto-deGrandMaster civ-DEMaltese type-title">Жан-Батист Орсини</string>
+    <string _locid="54004" comment="proto-deGrandMaster civ-DEMaltese type-title">Пьер д’Обюссон</string>
+    <string _locid="54005" comment="proto-deGrandMaster civ-DEMaltese type-title">Эмери д'Амбуаз</string>
+    <string _locid="54006" comment="proto-deGrandMaster civ-DEMaltese type-title">Гиде Бланшефор</string>
+    <string _locid="54007" comment="proto-deGrandMaster civ-DEMaltese type-title">Фабрис дель Карретто</string>
+    <string _locid="54008" comment="proto-deGrandMaster civ-DEMaltese type-title">Жан Паризо</string>
+    <string _locid="54009" comment="proto-deGrandMaster civ-DEMaltese type-title">Ален Маньян</string>
+    <string _locid="54010" comment="proto-deGrandMaster civ-DEMaltese type-title">Морган Блэк</string>
+    <string _locid="54011" comment="proto-deGrandMaster civ-DEMaltese type-title">Филипп де Вилье</string>
+    <string _locid="54012" comment="proto-deGrandMaster civ-DEMaltese type-title">Пьетро даль Монте</string>
+    <string _locid="54013" comment="proto-deGrandMaster civ-DEMaltese type-title">Дидье де Сен-Жай</string>
+    <string _locid="54014" comment="proto-deGrandMaster civ-DEMaltese type-title">Хуан де Омедес</string>
+    <string _locid="54015" comment="proto-deGrandMaster civ-DEMaltese type-title">Клод де ла Сангль</string>
+    <string _locid="54016" comment="proto-deGrandMaster civ-DEMaltese type-title">Пьетро даль Монте</string>
+    <string _locid="54017" comment="proto-deGrandMaster civ-DEMaltese type-title">Жан де ла Касьер</string>
+    <string _locid="54018" comment="proto-deGrandMaster civ-DEMaltese type-title">Матюрен Ромегас</string>
+    <string _locid="54019" comment="proto-deGrandMaster civ-DEMaltese type-title">Гуго де Лубенс</string>
+    <string _locid="54020" comment="proto-deGrandMaster civ-DEMaltese type-title">Мартин Гарсес</string>
+    <string _locid="54021" comment="proto-deGrandMaster civ-DEMaltese type-title">Алоф де Виньякур</string>
+    <string _locid="54022" comment="proto-deGrandMaster civ-DEMaltese type-title">Луиш де Вашконселуш</string>
+    <string _locid="54023" comment="proto-deGrandMaster civ-DEMaltese type-title">Антуан де Поль</string>
+    <string _locid="54024" comment="proto-deGrandMaster civ-DEMaltese type-title">Жан Ласкарис</string>
+    <string _locid="54025" comment="proto-deGrandMaster civ-DEMaltese type-title">Мартин де Редин</string>
+    <string _locid="54026" comment="proto-deGrandMaster civ-DEMaltese type-title">Анне де Клермон-Жессан</string>
+    <string _locid="54027" comment="proto-deGrandMaster civ-DEMaltese type-title">Рафаэль Котонер</string>
+    <string _locid="54028" comment="proto-deGrandMaster civ-DEMaltese type-title">Николас Котонер</string>
+    <string _locid="54029" comment="proto-deGrandMaster civ-DEMaltese type-title">Грегорио Карафа</string>
+    <string _locid="54030" comment="proto-deGrandMaster civ-DEMaltese type-title">Адриан де Виньякур</string>
+    <string _locid="54031" comment="proto-deGrandMaster civ-DEMaltese type-title">Раймундо де Перельос</string>
+    <string _locid="54032" comment="proto-deGrandMaster civ-DEMaltese type-title">Марк Антонио Дзондадари</string>
+    <string _locid="54033" comment="proto-deGrandMaster civ-DEMaltese type-title">Антониу Мануэл де Вильена</string>
+    <string _locid="54034" comment="proto-deGrandMaster civ-DEMaltese type-title">Раймон Депюи</string>
+    <string _locid="54035" comment="proto-deGrandMaster civ-DEMaltese type-title">Мануэл Пинту да Фонсека</string>
+    <string _locid="54036" comment="proto-deGrandMaster civ-DEMaltese type-title">Франциско Химене</string>
+    <string _locid="54037" comment="proto-deGrandMaster civ-DEMaltese type-title">Эммануэль де Роган-Полдю</string>
+    <string _locid="54038" comment="proto-deGrandMaster civ-DEMaltese type-title">Фердинанд фон Гомпеш</string>
+    <string _locid="54039" comment="proto-deGrandMaster civ-DEMaltese type-title">Павел Петрович</string>
+    <string _locid="54040" comment="proto-deGrandMaster civ-DEMaltese type-title">Николай Салтыков</string>
+    <string _locid="54041" comment="proto-deGrandMaster civ-DEMaltese type-title">Джованни Баттиста Томмази</string>
+    <string _locid="54042" comment="proto-deGrandMaster civ-DEMaltese type-title">Иннико Гевара-Суардо</string>
+    <string _locid="54043" comment="proto-deGrandMaster civ-DEMaltese type-title">Андре Ди Джованни</string>
+    <string _locid="54044" comment="proto-deGrandMaster civ-DEMaltese type-title">Антуан Бюска</string>
+    <string _locid="54045" comment="proto-deGrandMaster civ-DEMaltese type-title">Карло Кандида</string>
+    <string _locid="54046" comment="proto-deGrandMaster civ-DEMaltese type-title">Филиппе ди Коллоредо-Мельс</string>
+    <string _locid="54047" comment="proto-deGrandMaster civ-DEMaltese type-title">Алессандро Борджиа</string>
+    <string _locid="54100" comment="proto-Explorer civ-DEItalians type-firstname">Джованни </string>
+    <string _locid="54101" comment="proto-Explorer civ-DEItalians type-firstname">Марко </string>
+    <string _locid="54102" comment="proto-Explorer civ-DEItalians type-firstname">Кристофер </string>
+    <string _locid="54103" comment="proto-Explorer civ-DEItalians type-firstname">Антониу </string>
+    <string _locid="54104" comment="proto-Explorer civ-DEItalians type-firstname">Галилео </string>
+    <string _locid="54105" comment="proto-Explorer civ-DEItalians type-firstname">Евгений </string>
+    <string _locid="54106" comment="proto-Explorer civ-DEItalians type-firstname">Чезаре </string>
+    <string _locid="54107" comment="proto-Explorer civ-DEItalians type-firstname">Леонардо </string>
+    <string _locid="54108" comment="proto-Explorer civ-DEItalians type-firstname">Антониу </string>
+    <string _locid="54109" comment="proto-Explorer civ-DEItalians type-firstname">Пьетро </string>
+    <string _locid="54110" comment="proto-Explorer civ-DEItalians type-firstname">Пьетро Паоло </string>
+    <string _locid="54111" comment="proto-Explorer civ-DEItalians type-firstname">Амедей </string>
+    <string _locid="54112" comment="proto-Explorer civ-DEItalians type-firstname">Луиджи </string>
+    <string _locid="54113" comment="proto-Explorer civ-DEItalians type-firstname">Гульельмо </string>
+    <string _locid="54114" comment="proto-Explorer civ-DEItalians type-firstname">Эванджелиста </string>
+    <string _locid="54115" comment="proto-Explorer civ-DEItalians type-firstname">Алессандро </string>
+    <string _locid="54116" comment="proto-Explorer civ-DEItalians type-firstname">Джузеппе </string>
+    <string _locid="54117" comment="proto-Explorer civ-DEItalians type-firstname">Марко </string>
+    <string _locid="54118" comment="proto-Explorer civ-DEItalians type-lastname">
+    </string>
+    <string _locid="54119" comment="proto-Explorer civ-DEItalians type-lastname">Веспуччи</string>
+    <string _locid="54120" comment="proto-Explorer civ-DEItalians type-lastname">Кабото</string>
+    <string _locid="54121" comment="proto-Explorer civ-DEItalians type-lastname">Поло</string>
+    <string _locid="54122" comment="proto-Explorer civ-DEItalians type-lastname">Колумб</string>
+    <string _locid="54123" comment="proto-Explorer civ-DEItalians type-lastname">Меуччи</string>
+    <string _locid="54124" comment="proto-Explorer civ-DEItalians type-lastname">де Галилей</string>
+    <string _locid="54125" comment="proto-Explorer civ-DEItalians type-lastname">Барсанти</string>
+    <string _locid="54126" comment="proto-Explorer civ-DEItalians type-lastname">ди Беккариа</string>
+    <string _locid="54127" comment="proto-Explorer civ-DEItalians type-lastname">да Винчи</string>
+    <string _locid="54128" comment="proto-Explorer civ-DEItalians type-lastname">Дженовези</string>
+    <string _locid="54129" comment="proto-Explorer civ-DEItalians type-lastname">да Верраццано</string>
+    <string _locid="54130" comment="proto-Explorer civ-DEItalians type-lastname">де Бразза</string>
+    <string _locid="54131" comment="proto-Explorer civ-DEItalians type-lastname">Авогадро</string>
+    <string _locid="54132" comment="proto-Explorer civ-DEItalians type-lastname">Гальвани</string>
+    <string _locid="54133" comment="proto-Explorer civ-DEItalians type-lastname">Маркони</string>
+    <string _locid="54134" comment="proto-Explorer civ-DEItalians type-lastname">Торричелли</string>
+    <string _locid="54135" comment="proto-Explorer civ-DEItalians type-lastname">Вольта</string>
+    <string _locid="54136" comment="proto-Explorer civ-DEItalians type-lastname">Мадзини</string>
+    <string _locid="54137" comment="proto-Explorer civ-DEItalians type-lastname">Гарибальди</string>
+    <string _locid="54138" comment="proto-Explorer civ-DEItalians type-lastname">Поло</string>
+    <string _locid="54139" comment="proto-Fort civ-Italians type-title">Форте-Гонзага</string>
+    <string _locid="54140" comment="proto-Fort civ-Italians type-title">Реаль-Читтаделла</string>
+    <string _locid="54141" comment="proto-Fort civ-Italians type-title">Форте-дель-Сантиссимо-Сальваторе</string>
+    <string _locid="54142" comment="proto-Fort civ-Italians type-title">Замок Святого Ангела</string>
+    <string _locid="54143" comment="proto-Fort civ-Italians type-title">Пальманова</string>
+    <string _locid="54144" comment="proto-Fort civ-Italians type-title">Ривеллино Леонардо</string>
+    <string _locid="54145" comment="proto-Fort civ-Italians type-title">Аурелия-Антика</string>
+    <string _locid="54146" comment="proto-Fort civ-Italians type-title">Форте-Бельведере</string>
+    <string _locid="54147" comment="proto-Fort civ-Italians type-title">Форте-Антенне</string>
+    <string _locid="54148" comment="proto-Fort civ-Italians type-title">Форте-Браски</string>
+    <string _locid="54149" comment="proto-Fort civ-Italians type-title">Форте-ди-Сан-Лео</string>
+    <string _locid="54150" comment="proto-Fort civ-Italians type-title">Кастелло-де-Занна</string>
+    <string _locid="54151" comment="proto-Fort civ-Italians type-title">Читтаделла-Нуова</string>
+    <string _locid="54152" comment="proto-Fort civ-Italians type-title">Кастелло-ди-Санта-Маргерита-Лигуре</string>
+    <string _locid="54153" comment="proto-Fort civ-Maltese type-title">Форт Сан-Сальваторе</string>
+    <string _locid="54154" comment="proto-Fort civ-Maltese type-title">Форт Сант-Анджело</string>
+    <string _locid="54155" comment="proto-Fort civ-Maltese type-title">Форт Святого Эльма</string>
+    <string _locid="54156" comment="proto-Fort civ-Maltese type-title">Бастион Святого Иакова</string>
+    <string _locid="54157" comment="proto-Fort civ-Maltese type-title">Бастион Святого Луки</string>
+    <string _locid="54158" comment="proto-Fort civ-Maltese type-title">Бастион Святого Франциска</string>
+    <string _locid="54159" comment="proto-Fort civ-Maltese type-title">Форт Маноэль</string>
+    <string _locid="54160" comment="proto-Fort civ-Maltese type-title">Форт Тигне</string>
+    <string _locid="54161" comment="proto-Fort civ-Maltese type-title">Читтаделла</string>
+    <string _locid="54162" comment="proto-Fort civ-Maltese type-title">Бастион Святого Филиппа</string>
+    <string _locid="54163" comment="proto-Fort civ-Maltese type-title">Форт Святого Михаила </string>
+    <string _locid="54164" comment="proto-Saloon/deTavern civ-Italians type-title">«Мамма ин Кучина»</string>
+    <string _locid="54165" comment="proto-Saloon/deTavern civ-Italians type-title">Пиццерия</string>
+    <string _locid="54166" comment="proto-Saloon/deTavern civ-Italians type-title">«Аль Форно»</string>
+    <string _locid="54167" comment="proto-Saloon/deTavern civ-Italians type-title">«Ла Густоса»</string>
+    <string _locid="54168" comment="proto-Saloon/deTavern civ-Italians type-title">«Льоро ди Наполи»</string>
+    <string _locid="54169" comment="proto-Saloon/deTavern civ-Italians type-title">«Везувий»</string>
+    <string _locid="54170" comment="proto-Saloon/deTavern civ-Italians type-title">«Ла Пергола»</string>
+    <string _locid="54171" comment="proto-Saloon/deTavern civ-Italians type-title">«Арома»</string>
+    <string _locid="54172" comment="proto-Saloon/deTavern civ-Italians type-title">«Иль Саламино»</string>
+    <string _locid="54173" comment="proto-Saloon/deTavern civ-Italians type-title">«Ла Рустика»</string>
+    <string _locid="54174" comment="proto-Saloon/deTavern civ-Italians type-title">«Примавера»</string>
+    <string _locid="54175" comment="proto-Saloon/deTavern civ-Italians type-title">«Манджа Тутто»</string>
+    <string _locid="54176" comment="proto-Saloon/deTavern civ-Italians type-title">«Ке Буоно»</string>
+    <string _locid="54177" comment="proto-Saloon/deTavern civ-Italians type-title">«Коме-а-Каса»</string>
+    <string _locid="54178" comment="proto-Saloon/deTavern civ-Italians type-title">«Аль Денте»</string>
+    <string _locid="54179" comment="proto-Saloon/deTavern civ-Italians type-title">«Терра Маре»</string>
+    <string _locid="54180" comment="proto-Saloon/deTavern civ-Italians type-title">«Пицца-Паста»</string>
+    <string _locid="54181" comment="proto-Saloon/deTavern civ-Italians type-title">«Иль Пескаторе»</string>
+    <string _locid="54182" comment="proto-Saloon/deTavern civ-Italians type-title">«Иль Гьоттоне»</string>
+    <string _locid="54183" comment="proto-Saloon/deTavern civ-Maltese type-title">«Напитки Блэка»</string>
+    <string _locid="54184" comment="proto-Saloon/deTavern civ-Maltese type-title">«Бурбон Блэка»</string>
+    <string _locid="54185" comment="proto-Saloon/deTavern civ-Maltese type-title">«Пиратский паб Лиззи»</string>
+    <string _locid="54186" comment="proto-Saloon/deTavern civ-Maltese type-title">«Хостель де Верделин»</string>
+    <string _locid="54187" comment="proto-Saloon/deTavern civ-Maltese type-title">«Адмиралтейский дом»</string>
+    <string _locid="54188" comment="proto-Saloon/deTavern civ-Maltese type-title">«Таверна Святого Иоанна»</string>
+    <string _locid="54189" comment="proto-Saloon/deTavern civ-Maltese type-title">«Пьющий рыцарь»</string>
+    <string _locid="54190" comment="proto-Saloon/deTavern civ-Maltese type-title">Кафе «У крестоносца»</string>
+    <string _locid="54191" comment="proto-Saloon/deTavern civ-Maltese type-title">«Йоленден Йоханнитер»</string>
+    <string _locid="54192" comment="proto-Saloon/deTavern civ-Maltese type-title">«Источник молодости»</string>
+    <string _locid="54193" comment="proto-Saloon/deTavern civ-Maltese type-title">«Святой Грааль»</string>
+    <string _locid="54194" comment="proto-Saloon/deTavern civ-Maltese type-title">«Смеющийся инквизитор»</string>
+    <string _locid="54195" comment="proto-Saloon/deTavern civ-Maltese type-title">«Склад для кукканьи»</string>
+    <string _locid="54196" comment="proto-Saloon/deTavern civ-Maltese type-title">Карнавальная раздевалка</string>
+    <string _locid="54211" comment="proto-Galleon civ-Italians type-title">Гаэта</string>
+    <string _locid="54212" comment="proto-Galleon civ-Italians type-title">Дука ди Дженова</string>
+    <string _locid="54213" comment="proto-Galleon civ-Italians type-title">Гарибальди</string>
+    <string _locid="54214" comment="proto-Galleon civ-Italians type-title">Говерноло</string>
+    <string _locid="54215" comment="proto-Galleon civ-Italians type-title">Фурия</string>
+    <string _locid="54216" comment="proto-Galleon civ-Italians type-title">Бастарда</string>
+    <string _locid="54217" comment="proto-Galleon civ-Italians type-title">Монарка</string>
+    <string _locid="54218" comment="proto-Galleon civ-Italians type-title">Ла Донна</string>
+    <string _locid="54219" comment="proto-Galleon civ-Italians type-title">Мондо</string>
+    <string _locid="54220" comment="proto-Galleon civ-Italians type-title">Сибилла</string>
+    <string _locid="54221" comment="proto-Galleon civ-Italians type-title">Баккана</string>
+    <string _locid="54222" comment="proto-Galleon civ-Italians type-title">Фуоко</string>
+    <string _locid="54223" comment="proto-Frigate civ-Italians type-title">Бучинторо</string>
+    <string _locid="54224" comment="proto-Frigate civ-Italians type-title">Ре д’Италия</string>
+    <string _locid="54225" comment="proto-Frigate civ-Italians type-title">Ре ди Портогалло</string>
+    <string _locid="54226" comment="proto-Frigate civ-Italians type-title">Реджина Мария Пиа</string>
+    <string _locid="54227" comment="proto-Frigate civ-Italians type-title">Кастельфидардо</string>
+    <string _locid="54228" comment="proto-Frigate civ-Italians type-title">Анкона</string>
+    <string _locid="54229" comment="proto-Frigate civ-Italians type-title">Принчипе ди Кариньяно</string>
+    <string _locid="54230" comment="proto-Frigate civ-Italians type-title">Капитана</string>
+    <string _locid="54231" comment="proto-Frigate civ-Italians type-title">Падрона</string>
+    <string _locid="54232" comment="proto-Frigate civ-Italians type-title">Перла</string>
+    <string _locid="54233" comment="proto-Frigate civ-Italians type-title">Реджина</string>
+    <string _locid="54234" comment="proto-Frigate civ-Italians type-title">Уомо ди Маре</string>
+    <string _locid="54235" comment="proto-Monitor civ-Italians type-title">Леоне</string>
+    <string _locid="54236" comment="proto-Monitor civ-Italians type-title">Сан-Джироламо</string>
+    <string _locid="54237" comment="proto-Monitor civ-Italians type-title">Санта-Катерина</string>
+    <string _locid="54238" comment="proto-Monitor civ-Italians type-title">Монджибелло</string>
+    <string _locid="54239" comment="proto-Monitor civ-Italians type-title">Формидабиле</string>
+    <string _locid="54240" comment="proto-Monitor civ-Italians type-title">Аффондаторе</string>
+    <string _locid="54241" comment="proto-Monitor civ-Italians type-title">Террибиле</string>
+    <string _locid="54242" comment="proto-Monitor civ-Italians type-title">Палестро</string>
+    <string _locid="54243" comment="proto-Monitor civ-Italians type-title">Варесе</string>
+    <string _locid="54244" comment="proto-deMercBattleship civ-Italians type-title">Везувий</string>
+    <string _locid="54245" comment="proto-deMercBattleship civ-Italians type-title">Мунарка</string>
+    <string _locid="54246" comment="proto-deMercBattleship civ-Italians type-title">Амалия</string>
+    <string _locid="54247" comment="proto-deMercBattleship civ-Italians type-title">Сан Фелиппо а Риале</string>
+    <string _locid="54248" comment="proto-deMercBattleship civ-Italians type-title">Джоаккино</string>
+    <string _locid="54249" comment="proto-Galley civ-Maltese type-title">Санта-Фе</string>
+    <string _locid="54250" comment="proto-Galley civ-Maltese type-title">Сан-Микеле</string>
+    <string _locid="54251" comment="proto-Galley civ-Maltese type-title">Сан-Филиппо</string>
+    <string _locid="54252" comment="proto-Galley civ-Maltese type-title">Сан-Клаудио</string>
+    <string _locid="54253" comment="proto-Galley civ-Maltese type-title">Сан-Пьетро</string>
+    <string _locid="54254" comment="proto-Galley civ-Maltese type-title">Сент-Джон</string>
+    <string _locid="54255" comment="proto-Galley civ-Maltese type-title">Сан-Лоренцо</string>
+    <string _locid="54256" comment="proto-Galley civ-Maltese type-title">Санта-Мария</string>
+    <string _locid="54257" comment="proto-Galley civ-Maltese type-title">Виттория</string>
+    <string _locid="54258" comment="proto-Galley civ-Maltese type-title">Сан-Джузеппе</string>
+    <string _locid="54259" comment="proto-Galley civ-Maltese type-title">Сан-Джованни</string>
+    <string _locid="54260" comment="proto-Galley civ-Maltese type-title">Сан-Франческо</string>
+    <string _locid="54261" comment="proto-Galley civ-Maltese type-title">Сан-Феде</string>
+    <string _locid="54262" comment="proto-Galley civ-Maltese type-title">Сан-Кроче</string>
+    <string _locid="54263" comment="proto-Galley civ-Maltese type-title">Сан-Плачидо</string>
+    <string _locid="54264" comment="proto-Galleon civ-Maltese type-title">Санте-Элизабет</string>
+    <string _locid="54265" comment="proto-Galleon civ-Maltese type-title">Санта-Кроче</string>
+    <string _locid="54266" comment="proto-Galleon civ-Maltese type-title">Сан-Виченцо</string>
+    <string _locid="54267" comment="proto-Galleon civ-Maltese type-title">Санта-Анна</string>
+    <string _locid="54268" comment="proto-Monitor civ-Maltese type-title">Сан-Антонио ди Падова</string>
+    <string _locid="54269" comment="proto-Monitor civ-Maltese type-title">Сент-Джорджес</string>
+    <string _locid="54270" comment="proto-Monitor civ-Maltese type-title">Сент-Антуан</string>
+    <string _locid="54271" comment="proto-Frigate civ-Maltese type-title">Сан-Джакомо</string>
+    <string _locid="54272" comment="proto-Frigate civ-Maltese type-title">Санта-Катерина</string>
+    <string _locid="54273" comment="proto-Frigate civ-Maltese type-title">Сан-Дзаккария</string>
+    <string _locid="54274" comment="proto-Frigate civ-Maltese type-title">Сан-Джованни</string>
+    <string _locid="54275" comment="proto-deMercBattleship civ-Maltese type-title">Сан-Сальваторе</string>
+    <string _locid="54276" comment="proto-deMercBattleship civ-Maltese type-title">Корабль великого магистра</string>
+    <string _locid="54277" comment="proto-deMercBattleship civ-Maltese type-title">Флагман Моргана</string>
+    <string _locid="54278" comment="proto-deMercBattleship civ-Maltese type-title">Капитана</string>
+    <string _locid="54279" comment="proto-deMalteseFireship civ-Maltese type-title">Священный огонь</string>
+    <string _locid="54280" comment="proto-deMalteseFireship civ-Maltese type-title">Петар де Морган</string>
+    <string _locid="54281" comment="proto-deMalteseFireship civ-Maltese type-title">Боже правый</string>
+    <string _locid="54282" comment="proto-deMalteseFireship civ-Maltese type-title">Очищение</string>
+    <string _locid="54283" comment="proto-deMalteseFireship civ-Maltese type-title">Дым над водой</string>
+    <string _locid="54284" comment="proto-deMalteseFireship civ-Maltese type-title">Креститель огнем</string>
+    <string _locid="54285" comment="proto-deMalteseFireship civ-Maltese type-title">Апокалипсис</string>
+    <string _locid="54286" comment="proto-deMalteseFireship civ-Maltese type-title">Торговец маслами</string>
+    <string _locid="54287" comment="proto-deMalteseFireship civ-Maltese type-title">Византийский брандер</string>
+    <string _locid="54288" comment="proto-deMalteseFireship civ-Maltese type-title">Подрывной корабль</string>
+    <string _locid="54289" comment="proto-deMalteseFireship civ-Maltese type-title">Жгучее желание</string>
+    <string _locid="54290" comment="proto-deMalteseFireship civ-Maltese type-title">Свеча</string>
+    <string _locid="54291" comment="proto-deMalteseFireship civ-Maltese type-title">Плавучий склад</string>
+    <string _locid="54292" comment="proto-deMalteseFireship civ-Maltese type-title">Мгновенный брандер</string>
+    <string _locid="54293" comment="proto-deMalteseFireship civ-Maltese type-title">Огненный ветер</string>
   </language>
 </stringtable>

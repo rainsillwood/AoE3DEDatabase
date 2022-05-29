@@ -79,7 +79,7 @@
   <action>
     <name stringid="69158">SpawnPandour</name>
     <type>Spawn</type>
-    <rate type="MercJaeger">1.0</rate>
+    <rate type="deMercPandour">1.0</rate>
     <singleuse>1</singleuse>
     <animationrate>1</animationrate>
     <active>0</active>
@@ -88,7 +88,7 @@
   <action>
     <name stringid="69158">SpawnMagyarGrenadier</name>
     <type>Spawn</type>
-    <rate type="Grenadier">1.0</rate>
+    <rate type="deNatHungarianGrenadier">1.0</rate>
     <singleuse>1</singleuse>
     <animationrate>1</animationrate>
     <active>0</active>
@@ -97,7 +97,7 @@
   <action>
     <name stringid="69776">SpawnMagyarGrenadierOnce</name>
     <type>Spawn</type>
-    <rate type="Grenadier">1</rate>
+    <rate type="deNatHungarianGrenadier">1</rate>
     <active>1</active>
     <persistent>0</persistent>
     <singleuse>1</singleuse>
@@ -113,7 +113,7 @@
   <action>
     <name stringid="69776">SpawnHajdukOnce</name>
     <type>Spawn</type>
-    <rate type="SaloonOutlawRifleman">1</rate>
+    <rate type="deSaloonHajduk">1</rate>
     <active>1</active>
     <persistent>0</persistent>
     <singleuse>1</singleuse>
@@ -176,5 +176,14 @@
     <active>0</active>
     <persistent>1</persistent>
   </action>
-  <tactic>Normal<attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><action priority="100">AntiShipAttack</action><action priority="75">CannonAttack</action><action priority="25">RangedAttack</action><action priority="15">SpawnStrelet</action><action>SpawnMagyarHussar</action><action>SpawnPandour</action><action>SpawnMagyarGrenadier</action><action>SpawnRoshiorDragoon</action><action>SpawnFedStateMilitiaBatch</action></tactic>
+  <action>
+    <name stringid="69158">SpawnHajduk</name>
+    <type>Spawn</type>
+    <rate type="deSaloonHajduk">1.0</rate>
+    <singleuse>1</singleuse>
+    <animationrate>1</animationrate>
+    <active>0</active>
+    <persistent>1</persistent>
+  </action>
+  <tactic>Normal<attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><action priority="100">AntiShipAttack</action><action priority="75">CannonAttack</action><action priority="25">RangedAttack</action><action priority="15">SpawnStrelet</action><action>SpawnMagyarHussar</action><action>SpawnPandour</action><action>SpawnMagyarGrenadier</action><action>SpawnRoshiorDragoon</action><action>SpawnFedStateMilitiaBatch</action><action>SpawnHajduk</action></tactic>
 </tactics>

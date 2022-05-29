@@ -9,7 +9,6 @@
   <kothvictorytimeperplayer>0</kothvictorytimeperplayer>
   <adjustkothtotaltimebyteams>3</adjustkothtotaltimebyteams>
   <adjustkothtotaltimebyteamsfactor>60</adjustkothtotaltimebyteamsfactor>
-  <economyvictorytime>300</economyvictorytime>
   <defaultshipmentxpvalue>300</defaultshipmentxpvalue>
   <shipmentxpgrowth>1.15</shipmentxpgrowth>
   <shipmentxpmaximum>2500</shipmentxpmaximum>
@@ -21,6 +20,13 @@
   <awardbountyonunitdamage>0</awardbountyonunitdamage>
   <awardbountyonbuildingdamage>0</awardbountyonbuildingdamage>
   <yearendfamegrant>0</yearendfamegrant>
+  <techxprewardrate>0.10</techxprewardrate>
+  <shipmentxprewardrate>
+    <age0>300.00</age0>
+    <age1>700.00</age1>
+    <age2>1000.00</age2>
+    <age3>1600.00</age3>
+  </shipmentxprewardrate>
   <famepurchasecost>
     <resource>Gold</resource>
     <amount>1000</amount>

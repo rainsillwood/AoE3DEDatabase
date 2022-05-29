@@ -86,6 +86,7 @@
     <persistent>1</persistent>
     <dancebonustype>UnitSpawn</dancebonustype>
     <modifyprotoid>xpWarrior</modifyprotoid>
+    <maintaintrainpoints>2</maintaintrainpoints>
     <modifymultiplier>0.020</modifymultiplier>
     <modifyexponent>1.02</modifyexponent>
     <modifybase>0.0</modifybase>
@@ -218,6 +219,7 @@
     <persistent>1</persistent>
     <dancebonustype>UnitSpawn</dancebonustype>
     <modifyprotoid>xpMedicineManAztec</modifyprotoid>
+    <maintaintrainpoints>45</maintaintrainpoints>
     <modifymultiplier>0.08125</modifymultiplier>
     <modifyexponent>1.03</modifyexponent>
     <modifybase>0.0</modifybase>

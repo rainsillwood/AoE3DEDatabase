@@ -36,6 +36,7 @@
     <areasortmode>Radial</areasortmode>
     <targetground>1</targetground>
     <basedamagecap>1</basedamagecap>
+    <excludefromrangeindicator>1</excludefromrangeindicator>
   </action>
   <action>
     <name stringid="69148">Discover</name>

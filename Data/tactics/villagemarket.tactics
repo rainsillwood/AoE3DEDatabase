@@ -1,0 +1,51 @@
+<tactics>
+  <action>
+    <name stringid="43019">AutoGatherXP</name>
+    <type>AutoGather</type>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="43019">AutoGatherFood</name>
+    <type>AutoGather</type>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="43019">AutoGatherWood</name>
+    <type>AutoGather</type>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="43019">AutoGatherCoin</name>
+    <type>AutoGather</type>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="43019">AutoGatherXPTeam</name>
+    <active>0</active>
+    <type>AutoGather</type>
+    <persistent>1</persistent>
+    <autogatherteam>1</autogatherteam>
+  </action>
+  <action>
+    <name stringid="43019">AutoGatherFoodTeam</name>
+    <active>0</active>
+    <type>AutoGather</type>
+    <persistent>1</persistent>
+    <autogatherteam>1</autogatherteam>
+  </action>
+  <action>
+    <name stringid="43019">AutoGatherWoodTeam</name>
+    <active>0</active>
+    <type>AutoGather</type>
+    <persistent>1</persistent>
+    <autogatherteam>1</autogatherteam>
+  </action>
+  <action>
+    <name stringid="43019">AutoGatherCoinTeam</name>
+    <active>0</active>
+    <type>AutoGather</type>
+    <persistent>1</persistent>
+    <autogatherteam>1</autogatherteam>
+  </action>
+  <tactic>Normal<action>AutoGatherXP</action><action>AutoGatherFood</action><action>AutoGatherWood</action><action>AutoGatherCoin</action><action>AutoGatherXPTeam</action><action>AutoGatherFoodTeam</action><action>AutoGatherWoodTeam</action><action>AutoGatherCoinTeam</action></tactic>
+</tactics>

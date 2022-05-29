@@ -921,7 +921,7 @@
     <string _locid="50918" comment="proto-Explorer civ-Portuguese type-firstname">कप्तान </string>
     <string _locid="50919" comment="proto-Explorer civ-Portuguese type-firstname">अफोंसो </string>
     <string _locid="50920" comment="proto-Explorer civ-Portuguese type-firstname">अल्फोंसो </string>
-    <string _locid="50921" comment="proto-Explorer civ-Portuguese type-firstname">अमीरीगो </string>
+    <string _locid="50921" comment="proto-Explorer civ-DEItalians type-firstname">अमीरीगो </string>
     <string _locid="50922" comment="proto-Explorer civ-Portuguese type-firstname">एंटोनियो </string>
     <string _locid="50923" comment="proto-Explorer civ-Portuguese type-firstname">बार्टोलोम </string>
     <string _locid="50924" comment="proto-Explorer civ-Portuguese type-firstname">बार्टोलोमेयू </string>
@@ -2384,5 +2384,243 @@
     <string _locid="53015" comment="proto-deMiner civ-Default type-title">रॉस</string>
     <string _locid="53016" comment="proto-deMiner civ-Default type-title">सीमस</string>
     <string _locid="53017" comment="proto-deMiner civ-Default type-title">सिलास</string>
+    <string _locid="53018" comment="proto-deMercBattleship civ-Spanish type-title">नुएस्ट्रा सेनोरा</string>
+    <string _locid="53019" comment="proto-deMercBattleship civ-Spanish type-title">सैंटा एना</string>
+    <string _locid="53020" comment="proto-deMercBattleship civ-Spanish type-title">अस्टुरियस के राजकुमार</string>
+    <string _locid="53021" comment="proto-deMercBattleship civ-Spanish type-title">पुरीसीमा कॉन्सेप्सिओन</string>
+    <string _locid="53022" comment="proto-deMercBattleship civ-Spanish type-title">सैन जोस</string>
+    <string _locid="53023" comment="proto-deMercBattleship civ-Spanish type-title">सैन लुइस</string>
+    <string _locid="53024" comment="proto-deMercBattleship civ-Spanish type-title">सैन हर्मेनेगिल्डो</string>
+    <string _locid="53025" comment="proto-deMercBattleship civ-Spanish type-title">साल्वाडोर डेल मुंडो</string>
+    <string _locid="53026" comment="proto-deMercBattleship civ-Spanish type-title">शाही परिवार</string>
+    <string _locid="54000" comment="proto-deGrandMaster civ-DEMaltese type-title">जीन डे लास्टिक</string>
+    <string _locid="54001" comment="proto-deGrandMaster civ-DEMaltese type-title">जैक्स डे मिली</string>
+    <string _locid="54002" comment="proto-deGrandMaster civ-DEMaltese type-title">पिएरो रायमोंडो ज़कोस्टा</string>
+    <string _locid="54003" comment="proto-deGrandMaster civ-DEMaltese type-title">जियोवानी बतिस्ता ओरसिनी</string>
+    <string _locid="54004" comment="proto-deGrandMaster civ-DEMaltese type-title">पियरे डी'ऑबसन</string>
+    <string _locid="54005" comment="proto-deGrandMaster civ-DEMaltese type-title">एमरी डी'अम्बोइस</string>
+    <string _locid="54006" comment="proto-deGrandMaster civ-DEMaltese type-title">गाइ डे ब्लैंचफोर्ट</string>
+    <string _locid="54007" comment="proto-deGrandMaster civ-DEMaltese type-title">फैब्रीज़ियो डेल कैरेटो</string>
+    <string _locid="54008" comment="proto-deGrandMaster civ-DEMaltese type-title">जीन पेरिसोट</string>
+    <string _locid="54009" comment="proto-deGrandMaster civ-DEMaltese type-title">एलन मैगनन</string>
+    <string _locid="54010" comment="proto-deGrandMaster civ-DEMaltese type-title">मॉर्गन ब्लैक</string>
+    <string _locid="54011" comment="proto-deGrandMaster civ-DEMaltese type-title">फिलिप विलियर्स</string>
+    <string _locid="54012" comment="proto-deGrandMaster civ-DEMaltese type-title">पियरे डे मोंटे</string>
+    <string _locid="54013" comment="proto-deGrandMaster civ-DEMaltese type-title">डिडिएर डे सेंट-जेल</string>
+    <string _locid="54014" comment="proto-deGrandMaster civ-DEMaltese type-title">जुआन डे होमडेस</string>
+    <string _locid="54015" comment="proto-deGrandMaster civ-DEMaltese type-title">क्लाउड डे ला सेंगल</string>
+    <string _locid="54016" comment="proto-deGrandMaster civ-DEMaltese type-title">पियरे डे मोंटे</string>
+    <string _locid="54017" comment="proto-deGrandMaster civ-DEMaltese type-title">जीन डे ला कैसिएरे</string>
+    <string _locid="54018" comment="proto-deGrandMaster civ-DEMaltese type-title">माथुरिन रोमेगास</string>
+    <string _locid="54019" comment="proto-deGrandMaster civ-DEMaltese type-title">ह्यूजेस लुबेन्‍क्स</string>
+    <string _locid="54020" comment="proto-deGrandMaster civ-DEMaltese type-title">मार्टिन गार्ज़ेस</string>
+    <string _locid="54021" comment="proto-deGrandMaster civ-DEMaltese type-title">अलोफ डे विग्नाकोर्ट</string>
+    <string _locid="54022" comment="proto-deGrandMaster civ-DEMaltese type-title">लुइस डे वास्कोनसेलोस</string>
+    <string _locid="54023" comment="proto-deGrandMaster civ-DEMaltese type-title">एंटोनी डे पाउले</string>
+    <string _locid="54024" comment="proto-deGrandMaster civ-DEMaltese type-title">जियोवानी लस्कारिस</string>
+    <string _locid="54025" comment="proto-deGrandMaster civ-DEMaltese type-title">मार्टिन डे रेडिन</string>
+    <string _locid="54026" comment="proto-deGrandMaster civ-DEMaltese type-title">एनेट डे क्लेरमोंट-गेसेंटा</string>
+    <string _locid="54027" comment="proto-deGrandMaster civ-DEMaltese type-title">राफेल कोटोनर</string>
+    <string _locid="54028" comment="proto-deGrandMaster civ-DEMaltese type-title">निकोलास कोटोनर</string>
+    <string _locid="54029" comment="proto-deGrandMaster civ-DEMaltese type-title">ग्रेगोरियो काराफा</string>
+    <string _locid="54030" comment="proto-deGrandMaster civ-DEMaltese type-title">एड्रियन डी विग्नाकोर्ट</string>
+    <string _locid="54031" comment="proto-deGrandMaster civ-DEMaltese type-title">रेमन पेरेलोस</string>
+    <string _locid="54032" comment="proto-deGrandMaster civ-DEMaltese type-title">मार्क'एंटोनियो ज़ोंडादरी</string>
+    <string _locid="54033" comment="proto-deGrandMaster civ-DEMaltese type-title">एंटोनियो मनोएल डी विल्हेना</string>
+    <string _locid="54034" comment="proto-deGrandMaster civ-DEMaltese type-title">रेमन डेस्प्युग</string>
+    <string _locid="54035" comment="proto-deGrandMaster civ-DEMaltese type-title">मैनुअल पिंटो दा फ़ोनसेका</string>
+    <string _locid="54036" comment="proto-deGrandMaster civ-DEMaltese type-title">फ़्रांसिस्को हिमेनेज़</string>
+    <string _locid="54037" comment="proto-deGrandMaster civ-DEMaltese type-title">इमैनुएल डे रोहन-पोल्डुक</string>
+    <string _locid="54038" comment="proto-deGrandMaster civ-DEMaltese type-title">फर्डिनेंड वॉन होमपेस्चो</string>
+    <string _locid="54039" comment="proto-deGrandMaster civ-DEMaltese type-title">पावेल पेट्रोविच</string>
+    <string _locid="54040" comment="proto-deGrandMaster civ-DEMaltese type-title">निकोले साल्टिकोव</string>
+    <string _locid="54041" comment="proto-deGrandMaster civ-DEMaltese type-title">जियोवानी बतिस्ता तोमासी</string>
+    <string _locid="54042" comment="proto-deGrandMaster civ-DEMaltese type-title">इनिको ग्वेरा-सुआर्डो</string>
+    <string _locid="54043" comment="proto-deGrandMaster civ-DEMaltese type-title">डि जियोवानी सेंटेलिस</string>
+    <string _locid="54044" comment="proto-deGrandMaster civ-DEMaltese type-title">एंटोनी बुस्का</string>
+    <string _locid="54045" comment="proto-deGrandMaster civ-DEMaltese type-title">कार्लो कैंडिडा</string>
+    <string _locid="54046" comment="proto-deGrandMaster civ-DEMaltese type-title">फ़िलिपो डि कोलोरेडो-मेल्स</string>
+    <string _locid="54047" comment="proto-deGrandMaster civ-DEMaltese type-title">एलेसेंड्रो बोर्गिया</string>
+    <string _locid="54100" comment="proto-Explorer civ-DEItalians type-firstname">जियोवानी </string>
+    <string _locid="54101" comment="proto-Explorer civ-DEItalians type-firstname">मार्को </string>
+    <string _locid="54102" comment="proto-Explorer civ-DEItalians type-firstname">क्रिस्टोफर </string>
+    <string _locid="54103" comment="proto-Explorer civ-DEItalians type-firstname">एंटोनियो </string>
+    <string _locid="54104" comment="proto-Explorer civ-DEItalians type-firstname">गैलीलियो </string>
+    <string _locid="54105" comment="proto-Explorer civ-DEItalians type-firstname">यूजेनियो </string>
+    <string _locid="54106" comment="proto-Explorer civ-DEItalians type-firstname">सेसरे </string>
+    <string _locid="54107" comment="proto-Explorer civ-DEItalians type-firstname">लियोनार्डो </string>
+    <string _locid="54108" comment="proto-Explorer civ-DEItalians type-firstname">एंटोनियो </string>
+    <string _locid="54109" comment="proto-Explorer civ-DEItalians type-firstname">पिएत्रो </string>
+    <string _locid="54110" comment="proto-Explorer civ-DEItalians type-firstname">पिएत्रो पाओलो </string>
+    <string _locid="54111" comment="proto-Explorer civ-DEItalians type-firstname">एमेडियो </string>
+    <string _locid="54112" comment="proto-Explorer civ-DEItalians type-firstname">लुइगी </string>
+    <string _locid="54113" comment="proto-Explorer civ-DEItalians type-firstname">गुग्लिल्मो </string>
+    <string _locid="54114" comment="proto-Explorer civ-DEItalians type-firstname">इवानजेलिस्टा </string>
+    <string _locid="54115" comment="proto-Explorer civ-DEItalians type-firstname">एलेसेंड्रो </string>
+    <string _locid="54116" comment="proto-Explorer civ-DEItalians type-firstname">जूसैपे </string>
+    <string _locid="54117" comment="proto-Explorer civ-DEItalians type-firstname">मार्को </string>
+    <string _locid="54118" comment="proto-Explorer civ-DEItalians type-lastname">
+    </string>
+    <string _locid="54119" comment="proto-Explorer civ-DEItalians type-lastname">वेस्पुची</string>
+    <string _locid="54120" comment="proto-Explorer civ-DEItalians type-lastname">काबोटो</string>
+    <string _locid="54121" comment="proto-Explorer civ-DEItalians type-lastname">पोलो</string>
+    <string _locid="54122" comment="proto-Explorer civ-DEItalians type-lastname">कोलंबस</string>
+    <string _locid="54123" comment="proto-Explorer civ-DEItalians type-lastname">मेउची</string>
+    <string _locid="54124" comment="proto-Explorer civ-DEItalians type-lastname">डी गैलिली</string>
+    <string _locid="54125" comment="proto-Explorer civ-DEItalians type-lastname">बरसांति</string>
+    <string _locid="54126" comment="proto-Explorer civ-DEItalians type-lastname">डि बेकेरिया</string>
+    <string _locid="54127" comment="proto-Explorer civ-DEItalians type-lastname">दा विंची</string>
+    <string _locid="54128" comment="proto-Explorer civ-DEItalians type-lastname">गेनोवेसी</string>
+    <string _locid="54129" comment="proto-Explorer civ-DEItalians type-lastname">दा वेराज़ानो</string>
+    <string _locid="54130" comment="proto-Explorer civ-DEItalians type-lastname">डी ब्रेज़ा</string>
+    <string _locid="54131" comment="proto-Explorer civ-DEItalians type-lastname">एवोगाड्रो</string>
+    <string _locid="54132" comment="proto-Explorer civ-DEItalians type-lastname">गलवानी</string>
+    <string _locid="54133" comment="proto-Explorer civ-DEItalians type-lastname">मार्कोनी</string>
+    <string _locid="54134" comment="proto-Explorer civ-DEItalians type-lastname">टोरिसेली</string>
+    <string _locid="54135" comment="proto-Explorer civ-DEItalians type-lastname">वोल्टा</string>
+    <string _locid="54136" comment="proto-Explorer civ-DEItalians type-lastname">मज़िनी</string>
+    <string _locid="54137" comment="proto-Explorer civ-DEItalians type-lastname">गैरीबाल्डी</string>
+    <string _locid="54138" comment="proto-Explorer civ-DEItalians type-lastname">पोलो</string>
+    <string _locid="54139" comment="proto-Fort civ-Italians type-title">फ़ोर्ट गोंज़ागा</string>
+    <string _locid="54140" comment="proto-Fort civ-Italians type-title">रियल सिटाडेला</string>
+    <string _locid="54141" comment="proto-Fort civ-Italians type-title">फ़ोर्ट डेल सेंटिसिमो सल्वाटोर</string>
+    <string _locid="54142" comment="proto-Fort civ-Italians type-title">कास्टेल सेंट एंजेलो</string>
+    <string _locid="54143" comment="proto-Fort civ-Italians type-title">पालमनोवा</string>
+    <string _locid="54144" comment="proto-Fort civ-Italians type-title">लियोनार्डोज़ रिवैलिनो</string>
+    <string _locid="54145" comment="proto-Fort civ-Italians type-title">ऑरेलिया एंटीका</string>
+    <string _locid="54146" comment="proto-Fort civ-Italians type-title">फ़ोर्ट बेल्वेडियर</string>
+    <string _locid="54147" comment="proto-Fort civ-Italians type-title">फ़ोर्ट एंटीना</string>
+    <string _locid="54148" comment="proto-Fort civ-Italians type-title">फ़ोर्ट ब्रास्ची</string>
+    <string _locid="54149" comment="proto-Fort civ-Italians type-title">फ़ोर्ट डि सैन लियो</string>
+    <string _locid="54150" comment="proto-Fort civ-Italians type-title">कैस्टेलो डी ज़ाना</string>
+    <string _locid="54151" comment="proto-Fort civ-Italians type-title">सिटाडेला नुओवा</string>
+    <string _locid="54152" comment="proto-Fort civ-Italians type-title">कैस्टेलो डि सेंटा मार्गेरिटा लिगुरे</string>
+    <string _locid="54153" comment="proto-Fort civ-Maltese type-title">फ़ोर्ट सैन साल्वाटोर</string>
+    <string _locid="54154" comment="proto-Fort civ-Maltese type-title">फ़ोर्ट सेंट एंजेलो</string>
+    <string _locid="54155" comment="proto-Fort civ-Maltese type-title">फ़ोर्ट सेंट एल्मो</string>
+    <string _locid="54156" comment="proto-Fort civ-Maltese type-title">सेंट जेम्स बुर्ज</string>
+    <string _locid="54157" comment="proto-Fort civ-Maltese type-title">सेंट ल्यूक बुर्ज</string>
+    <string _locid="54158" comment="proto-Fort civ-Maltese type-title">सेंट फ़्रांसिस बुर्ज</string>
+    <string _locid="54159" comment="proto-Fort civ-Maltese type-title">फ़ोर्ट मैनोएल</string>
+    <string _locid="54160" comment="proto-Fort civ-Maltese type-title">फ़ोर्ट टिग्ने</string>
+    <string _locid="54161" comment="proto-Fort civ-Maltese type-title">सिटाडेला</string>
+    <string _locid="54162" comment="proto-Fort civ-Maltese type-title">सेंट फ़िलिप्स बुर्ज</string>
+    <string _locid="54163" comment="proto-Fort civ-Maltese type-title">फ़ोर्ट सेंट माइकल </string>
+    <string _locid="54164" comment="proto-Saloon/deTavern civ-Italians type-title">ममा इन कुचिना</string>
+    <string _locid="54165" comment="proto-Saloon/deTavern civ-Italians type-title">पिज़्ज़ेरिया</string>
+    <string _locid="54166" comment="proto-Saloon/deTavern civ-Italians type-title">अल फोर्नो</string>
+    <string _locid="54167" comment="proto-Saloon/deTavern civ-Italians type-title">ला गुस्तोसा</string>
+    <string _locid="54168" comment="proto-Saloon/deTavern civ-Italians type-title">ल'ओरो डि नेपोली</string>
+    <string _locid="54169" comment="proto-Saloon/deTavern civ-Italians type-title">वेसुवियो</string>
+    <string _locid="54170" comment="proto-Saloon/deTavern civ-Italians type-title">ला परगोला</string>
+    <string _locid="54171" comment="proto-Saloon/deTavern civ-Italians type-title">एरोमा</string>
+    <string _locid="54172" comment="proto-Saloon/deTavern civ-Italians type-title">Il सलामिनो</string>
+    <string _locid="54173" comment="proto-Saloon/deTavern civ-Italians type-title">ला रस्टीका</string>
+    <string _locid="54174" comment="proto-Saloon/deTavern civ-Italians type-title">प्राइमावेरा</string>
+    <string _locid="54175" comment="proto-Saloon/deTavern civ-Italians type-title">मांगिया टूटो</string>
+    <string _locid="54176" comment="proto-Saloon/deTavern civ-Italians type-title">चे बुओनो</string>
+    <string _locid="54177" comment="proto-Saloon/deTavern civ-Italians type-title">कोम ए कासा</string>
+    <string _locid="54178" comment="proto-Saloon/deTavern civ-Italians type-title">अल देंते</string>
+    <string _locid="54179" comment="proto-Saloon/deTavern civ-Italians type-title">टेर्रा मेर</string>
+    <string _locid="54180" comment="proto-Saloon/deTavern civ-Italians type-title">पिज़्ज़ा पास्ता</string>
+    <string _locid="54181" comment="proto-Saloon/deTavern civ-Italians type-title">Il पेस्काटोर</string>
+    <string _locid="54182" comment="proto-Saloon/deTavern civ-Italians type-title">Il घियोटोन</string>
+    <string _locid="54183" comment="proto-Saloon/deTavern civ-Maltese type-title">ब्लैक्स बेवरेजेस</string>
+    <string _locid="54184" comment="proto-Saloon/deTavern civ-Maltese type-title">ब्लैक्स बर्बन</string>
+    <string _locid="54185" comment="proto-Saloon/deTavern civ-Maltese type-title">लिज़ीज़ पाइरेट क्लब</string>
+    <string _locid="54186" comment="proto-Saloon/deTavern civ-Maltese type-title">हॉस्टल डी वर्डेलिन</string>
+    <string _locid="54187" comment="proto-Saloon/deTavern civ-Maltese type-title">एडमिरैलिटी हाउस</string>
+    <string _locid="54188" comment="proto-Saloon/deTavern civ-Maltese type-title">सेंट जॉन्स शराबखाना</string>
+    <string _locid="54189" comment="proto-Saloon/deTavern civ-Maltese type-title">द ड्रिंकिंग कैवेलियर</string>
+    <string _locid="54190" comment="proto-Saloon/deTavern civ-Maltese type-title">क्रूसेडर कैफे</string>
+    <string _locid="54191" comment="proto-Saloon/deTavern civ-Maltese type-title">ज़ुम जोहलेनडेन जोहनाइटर</string>
+    <string _locid="54192" comment="proto-Saloon/deTavern civ-Maltese type-title">फ़ाउंटेन ऑफ़ यूथ</string>
+    <string _locid="54193" comment="proto-Saloon/deTavern civ-Maltese type-title">द होली ग्रेल</string>
+    <string _locid="54194" comment="proto-Saloon/deTavern civ-Maltese type-title">द लॉफ़िंग इन्क्विज़िटर</string>
+    <string _locid="54195" comment="proto-Saloon/deTavern civ-Maltese type-title">कुककांजा डिपो</string>
+    <string _locid="54196" comment="proto-Saloon/deTavern civ-Maltese type-title">कार्निवल चेंजिंग रूम</string>
+    <string _locid="54211" comment="proto-Galleon civ-Italians type-title">गायटा</string>
+    <string _locid="54212" comment="proto-Galleon civ-Italians type-title">डुका डि जेनोवा</string>
+    <string _locid="54213" comment="proto-Galleon civ-Italians type-title">गैरीबाल्डी</string>
+    <string _locid="54214" comment="proto-Galleon civ-Italians type-title">गवर्नोलो</string>
+    <string _locid="54215" comment="proto-Galleon civ-Italians type-title">फ़ुरिया</string>
+    <string _locid="54216" comment="proto-Galleon civ-Italians type-title">बास्टर्डा</string>
+    <string _locid="54217" comment="proto-Galleon civ-Italians type-title">मोनार्का</string>
+    <string _locid="54218" comment="proto-Galleon civ-Italians type-title">ला डोना</string>
+    <string _locid="54219" comment="proto-Galleon civ-Italians type-title">मोंडो</string>
+    <string _locid="54220" comment="proto-Galleon civ-Italians type-title">सिबिला</string>
+    <string _locid="54221" comment="proto-Galleon civ-Italians type-title">बक्काना</string>
+    <string _locid="54222" comment="proto-Galleon civ-Italians type-title">फ़्यूओको</string>
+    <string _locid="54223" comment="proto-Frigate civ-Italians type-title">बुसैन्टौर</string>
+    <string _locid="54224" comment="proto-Frigate civ-Italians type-title">रे डी'इटालिया</string>
+    <string _locid="54225" comment="proto-Frigate civ-Italians type-title">रे डि पोर्टोगैलो</string>
+    <string _locid="54226" comment="proto-Frigate civ-Italians type-title">रेजिना मारिया पिया</string>
+    <string _locid="54227" comment="proto-Frigate civ-Italians type-title">कास्टेल फ़िदार्दो</string>
+    <string _locid="54228" comment="proto-Frigate civ-Italians type-title">एंकोना</string>
+    <string _locid="54229" comment="proto-Frigate civ-Italians type-title">प्रिंसिप डि कैरिग्नानो</string>
+    <string _locid="54230" comment="proto-Frigate civ-Italians type-title">कैपिटाना</string>
+    <string _locid="54231" comment="proto-Frigate civ-Italians type-title">पैद्रोना</string>
+    <string _locid="54232" comment="proto-Frigate civ-Italians type-title">पर्ला</string>
+    <string _locid="54233" comment="proto-Frigate civ-Italians type-title">रेजिना</string>
+    <string _locid="54234" comment="proto-Frigate civ-Italians type-title">उओमो डि मेर</string>
+    <string _locid="54235" comment="proto-Monitor civ-Italians type-title">लियोन</string>
+    <string _locid="54236" comment="proto-Monitor civ-Italians type-title">सैन गिरोलामो</string>
+    <string _locid="54237" comment="proto-Monitor civ-Italians type-title">सेंटा कैटरीना</string>
+    <string _locid="54238" comment="proto-Monitor civ-Italians type-title">मॉन्जीबेलो</string>
+    <string _locid="54239" comment="proto-Monitor civ-Italians type-title">फॉर्मिडाबाइल</string>
+    <string _locid="54240" comment="proto-Monitor civ-Italians type-title">एफ़ोंडेटोर</string>
+    <string _locid="54241" comment="proto-Monitor civ-Italians type-title">टैरीबाइल</string>
+    <string _locid="54242" comment="proto-Monitor civ-Italians type-title">पेलेस्ट्रो</string>
+    <string _locid="54243" comment="proto-Monitor civ-Italians type-title">वरेसे</string>
+    <string _locid="54244" comment="proto-deMercBattleship civ-Italians type-title">वेसुवियो</string>
+    <string _locid="54245" comment="proto-deMercBattleship civ-Italians type-title">मुनारका</string>
+    <string _locid="54246" comment="proto-deMercBattleship civ-Italians type-title">एमेलिया</string>
+    <string _locid="54247" comment="proto-deMercBattleship civ-Italians type-title">सैन फ़ेलिपो 'ए रियाल</string>
+    <string _locid="54248" comment="proto-deMercBattleship civ-Italians type-title">जिओआचिनो</string>
+    <string _locid="54249" comment="proto-Galley civ-Maltese type-title">सेंटा फ़े</string>
+    <string _locid="54250" comment="proto-Galley civ-Maltese type-title">सैन मिशेल</string>
+    <string _locid="54251" comment="proto-Galley civ-Maltese type-title">सैन फ़िलिपो</string>
+    <string _locid="54252" comment="proto-Galley civ-Maltese type-title">सैन क्लाउडियो</string>
+    <string _locid="54253" comment="proto-Galley civ-Maltese type-title">सैन पिएत्रो</string>
+    <string _locid="54254" comment="proto-Galley civ-Maltese type-title">सेंट जॉन</string>
+    <string _locid="54255" comment="proto-Galley civ-Maltese type-title">सैन लोरांज़ो</string>
+    <string _locid="54256" comment="proto-Galley civ-Maltese type-title">सेंटा मारिया</string>
+    <string _locid="54257" comment="proto-Galley civ-Maltese type-title">विटोरिया</string>
+    <string _locid="54258" comment="proto-Galley civ-Maltese type-title">सैन ग्यूसेप</string>
+    <string _locid="54259" comment="proto-Galley civ-Maltese type-title">सैन जियोवानी</string>
+    <string _locid="54260" comment="proto-Galley civ-Maltese type-title">सैन फ़्रांसेस्को</string>
+    <string _locid="54261" comment="proto-Galley civ-Maltese type-title">सैन फ़ेडे</string>
+    <string _locid="54262" comment="proto-Galley civ-Maltese type-title">सैन क्रोस</string>
+    <string _locid="54263" comment="proto-Galley civ-Maltese type-title">सैन प्लासिडो</string>
+    <string _locid="54264" comment="proto-Galleon civ-Maltese type-title">सेंटे एलिज़ाबेथ</string>
+    <string _locid="54265" comment="proto-Galleon civ-Maltese type-title">सेंटा क्रोस</string>
+    <string _locid="54266" comment="proto-Galleon civ-Maltese type-title">सैन विसेन्ज़ो</string>
+    <string _locid="54267" comment="proto-Galleon civ-Maltese type-title">सेंटा अन्ना</string>
+    <string _locid="54268" comment="proto-Monitor civ-Maltese type-title">सैन एंटोनियो डी पाडोवा</string>
+    <string _locid="54269" comment="proto-Monitor civ-Maltese type-title">सेंट-जार्ज</string>
+    <string _locid="54270" comment="proto-Monitor civ-Maltese type-title">सेंट-एंटोनी</string>
+    <string _locid="54271" comment="proto-Frigate civ-Maltese type-title">सैन जियाकोमो</string>
+    <string _locid="54272" comment="proto-Frigate civ-Maltese type-title">सेंटा कैटरीना</string>
+    <string _locid="54273" comment="proto-Frigate civ-Maltese type-title">सैन ज़कारिया</string>
+    <string _locid="54274" comment="proto-Frigate civ-Maltese type-title">सैन जियोवानी</string>
+    <string _locid="54275" comment="proto-deMercBattleship civ-Maltese type-title">सैन साल्वाडोर</string>
+    <string _locid="54276" comment="proto-deMercBattleship civ-Maltese type-title">ग्रैंडमास्टर का जहाज</string>
+    <string _locid="54277" comment="proto-deMercBattleship civ-Maltese type-title">मॉर्गन्स फ़्लैगशिप</string>
+    <string _locid="54278" comment="proto-deMercBattleship civ-Maltese type-title">कैपिटाना</string>
+    <string _locid="54279" comment="proto-deMalteseFireship civ-Maltese type-title">पवित्र अग्नि</string>
+    <string _locid="54280" comment="proto-deMalteseFireship civ-Maltese type-title">पेटार्ड डी मॉर्गन</string>
+    <string _locid="54281" comment="proto-deMalteseFireship civ-Maltese type-title">पवित्र धुआं</string>
+    <string _locid="54282" comment="proto-deMalteseFireship civ-Maltese type-title">प्यूरीफ़िकेशन</string>
+    <string _locid="54283" comment="proto-deMalteseFireship civ-Maltese type-title">जल पर धुआं</string>
+    <string _locid="54284" comment="proto-deMalteseFireship civ-Maltese type-title">फ़ायर बैपटिस्ट</string>
+    <string _locid="54285" comment="proto-deMalteseFireship civ-Maltese type-title">कयामत</string>
+    <string _locid="54286" comment="proto-deMalteseFireship civ-Maltese type-title">तेल व्यापारी</string>
+    <string _locid="54287" comment="proto-deMalteseFireship civ-Maltese type-title">बीजान्टिन का आग फेंकने वाला जहाज</string>
+    <string _locid="54288" comment="proto-deMalteseFireship civ-Maltese type-title">विनाशक जहाज</string>
+    <string _locid="54289" comment="proto-deMalteseFireship civ-Maltese type-title">तीव्र इच्छा</string>
+    <string _locid="54290" comment="proto-deMalteseFireship civ-Maltese type-title">मोमबत्ती</string>
+    <string _locid="54291" comment="proto-deMalteseFireship civ-Maltese type-title">तैराकी डिपो</string>
+    <string _locid="54292" comment="proto-deMalteseFireship civ-Maltese type-title">तुरंत आग फेंकने वाला जहाज</string>
+    <string _locid="54293" comment="proto-deMalteseFireship civ-Maltese type-title">जलती हुई हवा</string>
   </language>
 </stringtable>

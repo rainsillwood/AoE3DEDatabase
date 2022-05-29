@@ -262,5 +262,37 @@
     <modifytype>ResearchRate</modifytype>
     <modifymultiplier>1.20</modifymultiplier>
   </action>
-  <tactic>Normal<attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><action priority="100">ChargeRangedAttack</action><action priority="95">RangedGarrisonAttack</action><action priority="95">RangedAttack</action><action>HPAura</action><action>MaintainNatBlackwoodArcher</action><action>MaintainNativeSharktoothBowman</action><action>MaintainNatClubman</action><action>MaintainNatHolcanSpearman</action><action>MaintainNatAxeRider</action><action>MaintainNatAxeRiderDogSoldier</action><action>MaintainNatTomahawk</action><action>MaintainNatMantlet</action><action>MaintainNatBolasWarrior</action><action>MaintainNatHuaminca</action><action>MaintainNatTracker</action><action>MaintainNatHorseArcher</action><action>MaintainNatRifleman</action><action>MaintainNatBlogunWarrior</action><action>MaintainNatJaguarWarrior</action><action>MaintainNatEagleWarrior</action><action>AutoGatherXP</action><action>AutoGatherGold</action><action>AutoGatherXPNative</action><action>AutoGatherXPTrickleEconomics</action><action>AutoGatherInfluence</action><action>UniversityAutoGatherBonus</action><action>GreenwichTime</action></tactic>
+  <action>
+    <name stringid="43019">AutoGatherMarketDistrictFood</name>
+    <type>AutoGather</type>
+    <active>0</active>
+    <persistent>1</persistent>
+    <subciv>SPCMarketDistrict</subciv>
+    <autogatherteam>1</autogatherteam>
+  </action>
+  <action>
+    <name stringid="43019">AutoGatherMarketDistrictWood</name>
+    <type>AutoGather</type>
+    <active>0</active>
+    <persistent>1</persistent>
+    <subciv>SPCMarketDistrict</subciv>
+    <autogatherteam>1</autogatherteam>
+  </action>
+  <action>
+    <name stringid="43019">AutoGatherMarketDistrictGold</name>
+    <type>AutoGather</type>
+    <active>0</active>
+    <persistent>1</persistent>
+    <subciv>SPCMarketDistrict</subciv>
+    <autogatherteam>1</autogatherteam>
+  </action>
+  <action>
+    <name stringid="43019">AutoGatherReligiousDistrict</name>
+    <type>AutoGather</type>
+    <active>0</active>
+    <persistent>1</persistent>
+    <subciv>SPCReligiousDistrict</subciv>
+    <autogatherteam>1</autogatherteam>
+  </action>
+  <tactic>Normal<attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><action priority="100">ChargeRangedAttack</action><action priority="95">RangedGarrisonAttack</action><action priority="95">RangedAttack</action><action>HPAura</action><action>MaintainNatBlackwoodArcher</action><action>MaintainNativeSharktoothBowman</action><action>MaintainNatClubman</action><action>MaintainNatHolcanSpearman</action><action>MaintainNatAxeRider</action><action>MaintainNatAxeRiderDogSoldier</action><action>MaintainNatTomahawk</action><action>MaintainNatMantlet</action><action>MaintainNatBolasWarrior</action><action>MaintainNatHuaminca</action><action>MaintainNatTracker</action><action>MaintainNatHorseArcher</action><action>MaintainNatRifleman</action><action>MaintainNatBlogunWarrior</action><action>MaintainNatJaguarWarrior</action><action>MaintainNatEagleWarrior</action><action>AutoGatherXP</action><action>AutoGatherGold</action><action>AutoGatherXPNative</action><action>AutoGatherXPTrickleEconomics</action><action>AutoGatherInfluence</action><action>UniversityAutoGatherBonus</action><action>GreenwichTime</action><action>AutoGatherMarketDistrictFood</action><action>AutoGatherMarketDistrictWood</action><action>AutoGatherMarketDistrictGold</action><action>AutoGatherReligiousDistrict</action></tactic>
 </tactics>

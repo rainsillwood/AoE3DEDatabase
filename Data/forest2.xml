@@ -838,4 +838,31 @@
   <forest name="Af Harenna Forest" iconname="ui\editor\forestAmazonRain" floor="Africa\ground3_afr" density="0.25" clumpiness="0.5">
     <protounit>TreeAraucania</protounit>
   </forest>
+  <forest name="Italian Forest" iconname="ui\editor\foresttexas" floor="great_lakes\ground_forest_gls" density="0.25" clumpiness="0.5">
+    <protounit>deTreeCypress</protounit>
+    <protounit>deTreeCypress</protounit>
+    <protounit>TreeGreatLakes</protounit>
+    <protounit>TreeGreatLakes</protounit>
+    <protounit>deTreePoplar</protounit>
+    <protounit>deTreePoplar</protounit>
+    <protounit>TreeGreatPlains</protounit>
+    <protounit>ypTreeMongolianFir</protounit>
+    <underbrushobj prob="0.5">underbrushgreatplains</underbrushobj>
+    <underbrushobj prob="0.5">UnderbrushShrub</underbrushobj>
+    <underbrushobj prob="0.5">UnderbrushBlackhills</underbrushobj>
+    <underbrushobj prob="0.5">UnderbrushTexasGrass</underbrushobj>
+  </forest>
+  <forest name="East European Forest" iconname="ui\editor\foresttexas" floor="great_lakes\ground_forest_gls" density="0.25" clumpiness="0.5">
+    <protounit>deTreePoplar</protounit>
+    <protounit>deTreePoplar</protounit>
+    <protounit>TreeGreatLakes</protounit>
+    <protounit>TreeGreatLakes</protounit>
+    <protounit>deTreePoplar</protounit>
+    <protounit>deTreePoplar</protounit>
+    <protounit>TreeGreatPlains</protounit>
+    <protounit>ypTreeMongolianFir</protounit>
+    <underbrushobj prob="0.5">underbrushgreatplains</underbrushobj>
+    <underbrushobj prob="0.5">UnderbrushShrub</underbrushobj>
+    <underbrushobj prob="1.0">UnderbrushForest</underbrushobj>
+  </forest>
 </foresttypes>

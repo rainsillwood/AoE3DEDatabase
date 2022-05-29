@@ -17,7 +17,7 @@
     <name stringid="38134">HandAttack</name>
     <type>Attack</type>
     <maxrange>1.75</maxrange>
-    <rate type="Unit">1.0 </rate>
+    <rate type="Unit">1.0</rate>
     <attackaction>1</attackaction>
     <handlogic>1</handlogic>
     <anim>Attack_melee</anim>
@@ -29,7 +29,7 @@
     <name stringid="38134">GuardianAttack</name>
     <type>Attack</type>
     <maxrange>1.75</maxrange>
-    <rate type="Guardian">1.0 </rate>
+    <rate type="Guardian">1.0</rate>
     <attackaction>1</attackaction>
     <handlogic>1</handlogic>
     <anim>Attack_melee</anim>
@@ -41,7 +41,7 @@
     <name stringid="38134">SweepDamage</name>
     <type>Attack</type>
     <maxrange>1.75</maxrange>
-    <rate type="Guardian">1.0 </rate>
+    <rate type="Guardian">1.0</rate>
     <attackaction>1</attackaction>
     <handlogic>1</handlogic>
     <anim>Attack_melee</anim>
@@ -66,7 +66,7 @@
     <type>Heal</type>
     <active>1</active>
     <maxrange>12</maxrange>
-    <rate type="LogicalTypeHealed">10.0 </rate>
+    <rate type="LogicalTypeHealed">10.0</rate>
     <anim>Cheer</anim>
   </action>
   <action>
@@ -77,7 +77,7 @@
     <idleanim>CombatIdle</idleanim>
     <maxrange>16</maxrange>
     <impacteffect>effects\impacts\gun</impacteffect>
-    <rate type="Guardian">1.0 </rate>
+    <rate type="Guardian">1.0</rate>
     <rof>1</rof>
   </action>
   <action>
@@ -110,7 +110,32 @@
     <active>0</active>
     <persistent>1</persistent>
   </action>
-  <tactic>Melee<action priority="100">BuildingAttack</action><action priority="100">GuardianAttack</action><action priority="75">HandAttack</action><action priority="2">Stun</action><action priority="1">SwashbucklerAttack</action><action>AutoGatherWood</action><action>Build</action><action>ExtraSpeed</action><action>FrightenSpeed</action><action>Discover</action><action>Heal</action><attacktype>LogicalTypeHandUnitsAttack</attacktype><autoattacktype>LogicalTypeHandUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeHandUnitsAttack</attackresponsetype><idleanim>Idle</idleanim><boredanim>Bored</boredanim><deathanim>Death_by_melee</deathanim><walkanim>Walk</walkanim><joganim>Jog</joganim><runanim>Run</runanim></tactic>
-  <tactic>Trample<speedmodifier>0.5</speedmodifier><action priority="100">BuildingAttack</action><action priority="100">GuardianAttack</action><action priority="75">HandAttack</action><action priority="2">Stun</action><action priority="1">SwashbucklerAttack</action><action>AutoGatherWood</action><action>Build</action><action>ExtraSpeed</action><action>FrightenSpeed</action><action>Discover</action><action>Heal</action><attacktype>LogicalTypeHandUnitsAttack</attacktype><autoattacktype>LogicalTypeHandUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeHandUnitsAttack</attackresponsetype><runaway>0</runaway><transition><tactic>Stealth</tactic><length>2</length><exit>1</exit></transition><autoretarget>1</autoretarget><idleanim>Idle</idleanim><boredanim>Bored</boredanim><deathanim>Death_by_melee</deathanim><walkanim>Highstep</walkanim><joganim>Jog</joganim><runanim>Run</runanim></tactic>
-  <tactic>Defend<action priority="100">BuildingAttack</action><action priority="100">GuardianAttack</action><action priority="75">HandAttack</action><action priority="2">Stun</action><action priority="1">SwashbucklerAttack</action><action>AutoGatherWood</action><action>Build</action><action>ExtraSpeed</action><action>FrightenSpeed</action><action>Discover</action><action>Heal</action><attacktype>LogicalTypeHandUnitsAttack</attacktype><autoattacktype>LogicalTypeHandUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeHandUnitsAttack</attackresponsetype><runaway>0</runaway><transition><tactic>Stealth</tactic><length>2</length><exit>1</exit></transition><autoretarget>1</autoretarget><idleanim>Idle</idleanim><boredanim>Bored</boredanim><deathanim>Death_by_melee</deathanim><walkanim>Walk</walkanim><joganim>Jog</joganim><runanim>Run</runanim></tactic>
+  <action>
+    <name stringid="48954">ExtraHitPointsHM02</name>
+    <type>AutoRangedModify</type>
+    <active>0</active>
+    <maxrange>24</maxrange>
+    <persistent>1</persistent>
+    <modifytype>MaxHP</modifytype>
+    <forbidabstracttype>AbstractArtillery</forbidabstracttype>
+    <modifymultiplier>1.10</modifymultiplier>
+    <nostack>1</nostack>
+    <nostackignorepuid>1</nostackignorepuid>
+    <modelattachment>effects\chiefpower\chiefpower.xml</modelattachment>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+  </action>
+  <action>
+    <name stringid="69158">SpawnKnockoutEvzone</name>
+    <type>Spawn</type>
+    <rate type="deNatEvzone">1.0</rate>
+    <singleuse>1</singleuse>
+    <restricttoknockout>1</restricttoknockout>
+    <animationrate>1</animationrate>
+    <active>0</active>
+    <persistent>1</persistent>
+  </action>
+  <tactic>Melee<action priority="100">BuildingAttack</action><action priority="100">GuardianAttack</action><action priority="75">HandAttack</action><action priority="2">Stun</action><action priority="1">SwashbucklerAttack</action><action>AutoGatherWood</action><action>Build</action><action>ExtraSpeed</action><action>FrightenSpeed</action><action>Discover</action><action>Heal</action><action>ExtraHitPointsHM02</action><action>SpawnKnockoutEvzone</action><attacktype>LogicalTypeHandUnitsAttack</attacktype><autoattacktype>LogicalTypeHandUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeHandUnitsAttack</attackresponsetype><idleanim>Idle</idleanim><boredanim>Bored</boredanim><deathanim>Death_by_melee</deathanim><walkanim>Walk</walkanim><joganim>Jog</joganim><runanim>Run</runanim></tactic>
+  <tactic>Trample<speedmodifier>0.5</speedmodifier><action priority="100">BuildingAttack</action><action priority="100">GuardianAttack</action><action priority="75">HandAttack</action><action priority="2">Stun</action><action priority="1">SwashbucklerAttack</action><action>AutoGatherWood</action><action>Build</action><action>ExtraSpeed</action><action>FrightenSpeed</action><action>Discover</action><action>Heal</action><action>ExtraHitPointsHM02</action><action>SpawnKnockoutEvzone</action><attacktype>LogicalTypeHandUnitsAttack</attacktype><autoattacktype>LogicalTypeHandUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeHandUnitsAttack</attackresponsetype><runaway>0</runaway><transition><tactic>Stealth</tactic><length>2</length><exit>1</exit></transition><autoretarget>1</autoretarget><idleanim>Idle</idleanim><boredanim>Bored</boredanim><deathanim>Death_by_melee</deathanim><walkanim>Highstep</walkanim><joganim>Jog</joganim><runanim>Run</runanim></tactic>
+  <tactic>Defend<action priority="100">BuildingAttack</action><action priority="100">GuardianAttack</action><action priority="75">HandAttack</action><action priority="2">Stun</action><action priority="1">SwashbucklerAttack</action><action>AutoGatherWood</action><action>Build</action><action>ExtraSpeed</action><action>FrightenSpeed</action><action>Discover</action><action>Heal</action><action>ExtraHitPointsHM02</action><action>SpawnKnockoutEvzone</action><attacktype>LogicalTypeHandUnitsAttack</attacktype><autoattacktype>LogicalTypeHandUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeHandUnitsAttack</attackresponsetype><runaway>0</runaway><transition><tactic>Stealth</tactic><length>2</length><exit>1</exit></transition><autoretarget>1</autoretarget><idleanim>Idle</idleanim><boredanim>Bored</boredanim><deathanim>Death_by_melee</deathanim><walkanim>Walk</walkanim><joganim>Jog</joganim><runanim>Run</runanim></tactic>
+  <tactic>StandGround<action priority="100">BuildingAttack</action><action priority="100">GuardianAttack</action><action priority="75">HandAttack</action><action priority="2">Stun</action><action priority="1">SwashbucklerAttack</action><action>AutoGatherWood</action><action>Build</action><action>ExtraSpeed</action><action>FrightenSpeed</action><action>Discover</action><action>Heal</action><action>ExtraHitPointsHM02</action><action>SpawnKnockoutEvzone</action><attacktype>LogicalTypeHandUnitsAttack</attacktype><autoattacktype>LogicalTypeHandUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeHandUnitsAttack</attackresponsetype><runaway>0</runaway><transition><tactic>Stealth</tactic><length>2</length><exit>1</exit></transition><autoretarget>1</autoretarget><idleanim>Idle</idleanim><boredanim>Bored</boredanim><deathanim>Death_by_melee</deathanim><walkanim>Walk</walkanim><joganim>Jog</joganim><runanim>Run</runanim></tactic>
 </tactics>

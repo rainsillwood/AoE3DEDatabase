@@ -1,0 +1,69 @@
+<tactics>
+  <action>
+    <name stringid="43294">AutoGatherCoin</name>
+    <type>AutoGather</type>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="43295">AutoGatherFood</name>
+    <type>AutoGather</type>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="43296">AutoGatherWood</name>
+    <type>AutoGather</type>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="43294">AutoGatherCoinSmall</name>
+    <type>AutoGather</type>
+    <active>1</active>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="43295">AutoGatherFoodSmall</name>
+    <type>AutoGather</type>
+    <active>1</active>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="43296">AutoGatherWoodSmall</name>
+    <type>AutoGather</type>
+    <active>1</active>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="43294">AutoGatherCoinSmaller</name>
+    <type>AutoGather</type>
+    <active>0</active>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="43295">AutoGatherFoodSmaller</name>
+    <type>AutoGather</type>
+    <active>0</active>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="43296">AutoGatherWoodSmaller</name>
+    <type>AutoGather</type>
+    <active>0</active>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="43295">AutoGatherTrade</name>
+    <type>AutoGather</type>
+    <active>0</active>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="43296">AutoGatherInfluence</name>
+    <type>AutoGather</type>
+    <active>0</active>
+    <persistent>1</persistent>
+  </action>
+  <tactic>Normal<protounitcommand>BuildingTrickleVaried</protounitcommand><action>AutoGatherFoodSmall</action><action>AutoGatherWoodSmall</action><action>AutoGatherCoinSmall</action><action>AutoGatherFoodSmaller</action><action>AutoGatherWoodSmaller</action><action>AutoGatherCoinSmaller</action><action>AutoGatherTrade</action><action>AutoGatherInfluence</action><transition><tactic>TrickleFood</tactic><length>2</length><exit>1</exit></transition><transition><tactic>TrickleWood</tactic><length>2</length><exit>1</exit></transition><transition><tactic>TrickleCoin</tactic><length>2</length><exit>1</exit></transition></tactic>
+  <tactic>TrickleFood<protounitcommand>BuildingTrickleFood</protounitcommand><action>AutoGatherFood</action><transition><tactic>TrickleWood</tactic><length>2</length><exit>1</exit></transition><transition><tactic>TrickleCoin</tactic><length>2</length><exit>1</exit></transition><transition><tactic>Normal</tactic><length>2</length><exit>1</exit></transition></tactic>
+  <tactic>TrickleWood<protounitcommand>BuildingTrickleWood</protounitcommand><action>AutoGatherWood</action><transition><tactic>TrickleFood</tactic><length>2</length><exit>1</exit></transition><transition><tactic>TrickleCoin</tactic><length>2</length><exit>1</exit></transition><transition><tactic>Normal</tactic><length>2</length><exit>1</exit></transition></tactic>
+  <tactic>TrickleCoin<protounitcommand>BuildingTrickleCoin</protounitcommand><action>AutoGatherCoin</action><transition><tactic>TrickleFood</tactic><length>2</length><exit>1</exit></transition><transition><tactic>TrickleWood</tactic><length>2</length><exit>1</exit></transition><transition><tactic>Normal</tactic><length>2</length><exit>1</exit></transition></tactic>
+</tactics>

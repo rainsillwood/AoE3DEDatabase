@@ -33,4 +33,10 @@
     <event name="Kaboom" type="PlaySFX" soundset="DEFireworks">
     </event>
   </effect>
+  <effect file="homecity\italy_hc_storm.pkfx">
+    <event name="Thunder" type="PlaySFX" soundset="DEThunder">
+    </event>
+    <event name="Rain" type="PlaySFX" soundset="DERain">
+    </event>
+  </effect>
 </particledata>

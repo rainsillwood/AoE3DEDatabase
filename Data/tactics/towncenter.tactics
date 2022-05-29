@@ -17,7 +17,7 @@
     <unintentionaldamagemultiplier>0.7</unintentionaldamagemultiplier>
     <projectile>InvisibleProjectile</projectile>
     <impacteffect>effects\impacts\gun</impacteffect>
-    <rate type="Unit">1.0 </rate>
+    <rate type="Unit">1.0</rate>
     <instantballistics>1</instantballistics>
     <perfectaccuracy>1</perfectaccuracy>
   </action>
@@ -37,12 +37,12 @@
     <projectile>Cannonball</projectile>
     <impacteffect>effects\impacts\cannon</impacteffect>
     <perfectaccuracy>1</perfectaccuracy>
-    <rate type="Ship">1.0 </rate>
+    <rate type="Ship">1.0</rate>
   </action>
   <action>
     <name stringid="68972">SpawnSaiga</name>
     <type>Maintain</type>
-    <rate type="ypSaiga">5.0 </rate>
+    <rate type="ypSaiga">5.0</rate>
     <active>1</active>
     <persistent>0</persistent>
     <singleuse>1</singleuse>
@@ -101,6 +101,7 @@
     <rate type="Settler">1.0</rate>
     <active>0</active>
     <persistent>1</persistent>
+    <buildlimitsuspend>1</buildlimitsuspend>
   </action>
   <action>
     <name stringid="68971">MaintainSettlersFedCalifornia</name>
@@ -189,7 +190,7 @@
     <unintentionaldamagemultiplier>0.7</unintentionaldamagemultiplier>
     <projectile>Cannonball</projectile>
     <impacteffect>effects\impacts\cannon</impacteffect>
-    <rate type="Unit">1.0 </rate>
+    <rate type="Unit">1.0</rate>
     <perfectaccuracy>1</perfectaccuracy>
     <throw>1</throw>
     <outerdamageareadistance>.25</outerdamageareadistance>
@@ -250,5 +251,64 @@
     <firsttc>
     </firsttc>
   </action>
-  <tactic>Normal<attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><action priority="100">AntiShipAttack</action><action priority="75">CannonAttack</action><action priority="75">RangedAttack</action><action priority="15">SpawnSaiga</action><action priority="15">SpawnRefugees1</action><action priority="15">SpawnRefugees2</action><action priority="15">SpawnMigrants3</action><action priority="15">SpawnLivestock1</action><action priority="15">SpawnLivestock2</action><action priority="15">SpawnLivestock3</action><action>MaintainSettlersOttoman</action><action>MaintainSettlersFedCalifornia</action><action>MaintainPirateHaiti</action><action>MaintainVoluntarioBrazil</action><action>SpawnBison</action><action>UniversityAutoGatherBonus</action><action>SpawnFrontierWagon</action><action>SpawnREVNatVillager</action><action>HPBoostFirstTC</action></tactic>
+  <action>
+    <name stringid="68961">OutpostTreeGatherRateBonus</name>
+    <type>AutoRangedModify</type>
+    <active>0</active>
+    <maxrange>40</maxrange>
+    <modifyabstracttype>AbstractVillager</modifyabstracttype>
+    <persistent>1</persistent>
+    <nostack>1</nostack>
+    <nostackignorepuid>1</nostackignorepuid>
+    <modifytype>TreeGatherRate</modifytype>
+    <modifymultiplier>1.30</modifymultiplier>
+    <modelattachment>effects\ypack_auras\econpower.xml</modelattachment>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+    <modifyrangeuselos>1</modifyrangeuselos>
+  </action>
+  <action>
+    <name stringid="68961">OutpostMineGatherRateBonus</name>
+    <type>AutoRangedModify</type>
+    <active>0</active>
+    <maxrange>40</maxrange>
+    <modifyabstracttype>AbstractVillager</modifyabstracttype>
+    <persistent>1</persistent>
+    <nostack>1</nostack>
+    <nostackignorepuid>1</nostackignorepuid>
+    <modifytype>MineGatherRate</modifytype>
+    <modifymultiplier>1.30</modifymultiplier>
+    <modelattachment>effects\ypack_auras\econpower.xml</modelattachment>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+    <modifyrangeuselos>1</modifyrangeuselos>
+  </action>
+  <action>
+    <name stringid="68961">OutpostNaturalFoodRateBonus</name>
+    <active>0</active>
+    <type>AutoRangedModify</type>
+    <maxrange>40</maxrange>
+    <modifyabstracttype>AbstractVillager</modifyabstracttype>
+    <persistent>1</persistent>
+    <nostack>1</nostack>
+    <nostackignorepuid>1</nostackignorepuid>
+    <modifytype>NaturalFoodGatherRate</modifytype>
+    <modifymultiplier>1.30</modifymultiplier>
+    <modelattachment>effects\ypack_auras\econpower.xml</modelattachment>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+    <modifyrangeuselos>1</modifyrangeuselos>
+  </action>
+  <action>
+    <name stringid="68961">NativeWarriorDecay</name>
+    <type>AutoRangedModify</type>
+    <targetenemy>1</targetenemy>
+    <maxrange>65</maxrange>
+    <modifyprotoid>xpWarrior</modifyprotoid>
+    <persistent>1</persistent>
+    <nostack>1</nostack>
+    <nostackignorepuid>1</nostackignorepuid>
+    <modifytype>UnitRegenRate</modifytype>
+    <modifymultiplier>3</modifymultiplier>
+    <modelattachment>effects\ypack_auras\frightpower.xml</modelattachment>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+  </action>
+  <tactic>Normal<attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><action priority="100">AntiShipAttack</action><action priority="75">CannonAttack</action><action priority="75">RangedAttack</action><action priority="15">SpawnSaiga</action><action priority="15">SpawnRefugees1</action><action priority="15">SpawnRefugees2</action><action priority="15">SpawnMigrants3</action><action priority="15">SpawnLivestock1</action><action priority="15">SpawnLivestock2</action><action priority="15">SpawnLivestock3</action><action>MaintainSettlersOttoman</action><action>MaintainSettlersFedCalifornia</action><action>MaintainPirateHaiti</action><action>MaintainVoluntarioBrazil</action><action>SpawnBison</action><action>UniversityAutoGatherBonus</action><action>SpawnFrontierWagon</action><action>SpawnREVNatVillager</action><action>HPBoostFirstTC</action><action>OutpostTreeGatherRateBonus</action><action>OutpostMineGatherRateBonus</action><action>OutpostNaturalFoodRateBonus</action><action>NativeWarriorDecay</action></tactic>
 </tactics>

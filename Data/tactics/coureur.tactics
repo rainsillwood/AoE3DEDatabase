@@ -164,5 +164,16 @@
     <rate type="Tree">1.0 </rate>
     <hidefromstats>1</hidefromstats>
   </action>
-  <tactic>Normal<speedmodifier>1.0</speedmodifier><action>Gather</action><action>CrateGather</action><action>Build</action><action>Discover</action><action>Hunting</action><action>NoWork</action><action>AutoGatherTrade</action><action>AutoGatherXP</action><action>AutoGatherWoodField</action><action priority="100">ChopAttack</action><action priority="75">BuildingAttack</action><action priority="50">RifleAttack</action><action priority="25">ButtAttack</action><action priority="20">HandAttackCrate</action><attacktype>LogicalTypeVillagersAttack</attacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><runaway>0</runaway><autoretarget>1</autoretarget><idleanim>Volley_standing_idle</idleanim><boredanim>Volley_standing_bored</boredanim><deathanim>Death_by_melee</deathanim><walkanim>Volley_walk</walkanim><joganim>Volley_jog</joganim><runanim>Volley_run</runanim></tactic>
+  <action>
+    <name stringid="43019">AutoGatherCoinHunt</name>
+    <type>AutoGather</type>
+    <active>0</active>
+    <donotautogatherunlessgatheringtypes>
+      <unittype>Huntable</unittype>
+    </donotautogatherunlessgatheringtypes>
+    <autogatherscalebygatherrate>1</autogatherscalebygatherrate>
+    <persistent>1</persistent>
+    <rate type="Gold">0.100000</rate>
+  </action>
+  <tactic>Normal<speedmodifier>1.0</speedmodifier><action>Gather</action><action>CrateGather</action><action>Build</action><action>Discover</action><action>Hunting</action><action>NoWork</action><action>AutoGatherTrade</action><action>AutoGatherXP</action><action>AutoGatherWoodField</action><action>AutoGatherCoinHunt</action><action priority="100">ChopAttack</action><action priority="75">BuildingAttack</action><action priority="50">RifleAttack</action><action priority="25">ButtAttack</action><action priority="20">HandAttackCrate</action><attacktype>LogicalTypeVillagersAttack</attacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><runaway>0</runaway><autoretarget>1</autoretarget><idleanim>Volley_standing_idle</idleanim><boredanim>Volley_standing_bored</boredanim><deathanim>Death_by_melee</deathanim><walkanim>Volley_walk</walkanim><joganim>Volley_jog</joganim><runanim>Volley_run</runanim></tactic>
 </tactics>

@@ -1,0 +1,256 @@
+<tactics>
+  <action>
+    <name stringid="38133">GrenadeAttackGuardian</name>
+    <type>Attack</type>
+    <attackaction>1</attackaction>
+    <rangedlogic>1</rangedlogic>
+    <anim>Ranged_attack</anim>
+    <idleanim>Idle</idleanim>
+    <accuracy>1.0</accuracy>
+    <accuracyreductionfactor>0.5</accuracyreductionfactor>
+    <aimbonus>0</aimbonus>
+    <maxspread>5</maxspread>
+    <spreadfactor>0.25</spreadfactor>
+    <trackrating>12</trackrating>
+    <unintentionaldamagemultiplier>1.0</unintentionaldamagemultiplier>
+    <projectile>Hoop</projectile>
+    <impacteffect>effects\impacts\hoop</impacteffect>
+    <rate type="Guardian">1.0 </rate>
+    <throw>0</throw>
+    <targetlock>1</targetlock>
+    <hidefromstats>1</hidefromstats>
+  </action>
+  <action>
+    <name stringid="38133">GrenadeAttack</name>
+    <type>Attack</type>
+    <attackaction>1</attackaction>
+    <rangedlogic>1</rangedlogic>
+    <anim>Ranged_attack</anim>
+    <idleanim>Idle</idleanim>
+    <accuracy>1.0</accuracy>
+    <accuracyreductionfactor>0.5</accuracyreductionfactor>
+    <aimbonus>0</aimbonus>
+    <maxspread>5</maxspread>
+    <spreadfactor>0.25</spreadfactor>
+    <trackrating>12</trackrating>
+    <unintentionaldamagemultiplier>1.0</unintentionaldamagemultiplier>
+    <projectile>Hoop</projectile>
+    <impacteffect>effects\impacts\hoop</impacteffect>
+    <minrange>4</minrange>
+    <rate type="Unit">1.0 </rate>
+    <throw>0</throw>
+    <impactforcemin>450.0</impactforcemin>
+    <impactforcemax>600.0</impactforcemax>
+    <impactlaunchangle>50.0</impactlaunchangle>
+    <areasortmode>Radial</areasortmode>
+    <targetground>1</targetground>
+    <basedamagecap>1</basedamagecap>
+    <targetlock>1</targetlock>
+  </action>
+  <action>
+    <name stringid="124996">RocketAttack</name>
+    <type>Attack</type>
+    <active>0</active>
+    <attackaction>1</attackaction>
+    <rangedlogic>1</rangedlogic>
+    <reloadanim>Rocket_reload</reloadanim>
+    <anim>Rocket_attack</anim>
+    <idleanim>Rocket_idle</idleanim>
+    <boredanim>Rocket_idle</boredanim>
+    <accuracy>1.0</accuracy>
+    <aimbonus>0</aimbonus>
+    <maxspread>5</maxspread>
+    <spreadfactor>0.25</spreadfactor>
+    <trackrating>2</trackrating>
+    <unintentionaldamagemultiplier>1.0</unintentionaldamagemultiplier>
+    <projectile>RocketShellSmall</projectile>
+    <impacteffect>effects\impacts\mortar</impacteffect>
+    <rate type="Unit">1.0 </rate>
+    <areasortmode>Radial</areasortmode>
+    <outerdamageareadistance>.25</outerdamageareadistance>
+    <outerdamageareafactor>.20</outerdamageareafactor>
+    <perfectaccuracy>1</perfectaccuracy>
+    <targetground>1</targetground>
+    <throw>1</throw>
+    <basedamagecap>1</basedamagecap>
+    <targetlock>1</targetlock>
+  </action>
+  <action>
+    <name stringid="124996">RocketAttackGuardian</name>
+    <type>Attack</type>
+    <active>0</active>
+    <attackaction>1</attackaction>
+    <rangedlogic>1</rangedlogic>
+    <reloadanim>Rocket_reload</reloadanim>
+    <anim>Rocket_attack</anim>
+    <idleanim>Rocket_idle</idleanim>
+    <boredanim>Rocket_idle</boredanim>
+    <accuracy>1.0</accuracy>
+    <aimbonus>0</aimbonus>
+    <maxspread>5</maxspread>
+    <spreadfactor>0.25</spreadfactor>
+    <trackrating>2</trackrating>
+    <unintentionaldamagemultiplier>1.0</unintentionaldamagemultiplier>
+    <projectile>RocketShellSmall</projectile>
+    <impacteffect>effects\impacts\mortar</impacteffect>
+    <rate type="Guardian">1.0 </rate>
+    <targetlock>1</targetlock>
+    <hidefromstats>1</hidefromstats>
+  </action>
+  <action>
+    <name stringid="124965">FlameThrowerAttack</name>
+    <type>Attack</type>
+    <active>0</active>
+    <attackaction>1</attackaction>
+    <handlogic>1</handlogic>
+    <anim>Flamethrower_attack</anim>
+    <idleanim>Flamethrower_idle</idleanim>
+    <boredanim>Flamethrower_bored</boredanim>
+    <maxheight>0</maxheight>
+    <accuracy>1.0</accuracy>
+    <aimbonus>0</aimbonus>
+    <maxspread>5</maxspread>
+    <spreadfactor>0.25</spreadfactor>
+    <trackrating>12</trackrating>
+    <unintentionaldamagemultiplier>1.0</unintentionaldamagemultiplier>
+    <impacteffect>effects\impacts\torch</impacteffect>
+    <minrange>2</minrange>
+    <rate type="Unit">1.0 </rate>
+    <chargeaction>1</chargeaction>
+    <perfectaccuracy>1</perfectaccuracy>
+    <basedamagecap>1</basedamagecap>
+    <targetlock>1</targetlock>
+    <walkanim>Flamethrower_walk</walkanim>
+    <joganim>Flamethrower_jog</joganim>
+    <runanim>Flamethrower_run</runanim>
+  </action>
+  <action>
+    <name stringid="38118">BuildingAttack</name>
+    <type>Attack</type>
+    <active>1</active>
+    <attackaction>1</attackaction>
+    <rangedlogic>1</rangedlogic>
+    <maxrange>6</maxrange>
+    <rate type="LogicalTypeShipsAndBuildings">1.0 </rate>
+    <speedboost>1</speedboost>
+    <anim>Ranged_attack</anim>
+    <projectile>Hoop</projectile>
+    <impacteffect>effects\impacts\hoop</impacteffect>
+  </action>
+  <action>
+    <name stringid="38118">RocketBuildingAttack</name>
+    <type>Attack</type>
+    <active>0</active>
+    <attackaction>1</attackaction>
+    <rangedlogic>1</rangedlogic>
+    <reloadanim>Rocket_reload</reloadanim>
+    <anim>Rocket_attack</anim>
+    <idleanim>Rocket_idle</idleanim>
+    <boredanim>Rocket_idle</boredanim>
+    <accuracy>1.0</accuracy>
+    <aimbonus>0</aimbonus>
+    <maxspread>5</maxspread>
+    <spreadfactor>0.25</spreadfactor>
+    <trackrating>2</trackrating>
+    <unintentionaldamagemultiplier>1.0</unintentionaldamagemultiplier>
+    <projectile>RocketShellSmall</projectile>
+    <impacteffect>effects\impacts\mortar</impacteffect>
+    <rate type="LogicalTypeShipsAndBuildings">1.0 </rate>
+    <areasortmode>Radial</areasortmode>
+    <outerdamageareadistance>.25</outerdamageareadistance>
+    <outerdamageareafactor>.20</outerdamageareafactor>
+    <perfectaccuracy>1</perfectaccuracy>
+    <targetground>1</targetground>
+    <throw>1</throw>
+    <basedamagecap>1</basedamagecap>
+    <targetlock>1</targetlock>
+  </action>
+  <action>
+    <name stringid="38134">HandAttackGuardian</name>
+    <type>Attack</type>
+    <maxrange>2</maxrange>
+    <rate type="Guardian">1.0 </rate>
+    <attackaction>1</attackaction>
+    <handlogic>1</handlogic>
+    <speedboost>1</speedboost>
+    <anim>Attack_melee</anim>
+    <idleanim>Idle</idleanim>
+    <impacteffect>effects\impacts\melee</impacteffect>
+    <hidefromstats>1</hidefromstats>
+  </action>
+  <action>
+    <name stringid="38134">HandAttack</name>
+    <type>Attack</type>
+    <maxrange>2</maxrange>
+    <rate type="Unit">1.0 </rate>
+    <attackaction>1</attackaction>
+    <handlogic>1</handlogic>
+    <speedboost>1</speedboost>
+    <anim>Attack_melee</anim>
+    <idleanim>Idle</idleanim>
+    <impacteffect>effects\impacts\melee</impacteffect>
+  </action>
+  <action>
+    <name stringid="38133">GrenadeAttackShort</name>
+    <type>Attack</type>
+    <attackaction>1</attackaction>
+    <rangedlogic>1</rangedlogic>
+    <active>0</active>
+    <anim>Ranged_attack</anim>
+    <idleanim>Idle</idleanim>
+    <accuracy>1.0</accuracy>
+    <accuracyreductionfactor>0.5</accuracyreductionfactor>
+    <aimbonus>0</aimbonus>
+    <maxspread>5</maxspread>
+    <spreadfactor>0.25</spreadfactor>
+    <trackrating>12</trackrating>
+    <unintentionaldamagemultiplier>1.0</unintentionaldamagemultiplier>
+    <projectile>Hoop</projectile>
+    <impacteffect>effects\impacts\hoop</impacteffect>
+    <minrange>4</minrange>
+    <rate type="Unit">1.0 </rate>
+    <throw>0</throw>
+    <impactforcemin>450.0</impactforcemin>
+    <impactforcemax>600.0</impactforcemax>
+    <impactlaunchangle>50.0</impactlaunchangle>
+    <areasortmode>Radial</areasortmode>
+    <targetground>1</targetground>
+    <basedamagecap>1</basedamagecap>
+    <targetlock>1</targetlock>
+    <hidefromstats>1</hidefromstats>
+  </action>
+  <action>
+    <name stringid="38133">GrenadeAttackLong</name>
+    <type>Attack</type>
+    <attackaction>1</attackaction>
+    <rangedlogic>1</rangedlogic>
+    <active>0</active>
+    <anim>Ranged_attack</anim>
+    <idleanim>Idle</idleanim>
+    <accuracy>1.0</accuracy>
+    <accuracyreductionfactor>0.5</accuracyreductionfactor>
+    <aimbonus>0</aimbonus>
+    <maxspread>5</maxspread>
+    <spreadfactor>0.25</spreadfactor>
+    <trackrating>12</trackrating>
+    <unintentionaldamagemultiplier>1.0</unintentionaldamagemultiplier>
+    <projectile>Hoop</projectile>
+    <impacteffect>effects\impacts\hoop</impacteffect>
+    <minrange>4</minrange>
+    <rate type="Unit">1.0 </rate>
+    <throw>0</throw>
+    <impactforcemin>450.0</impactforcemin>
+    <impactforcemax>600.0</impactforcemax>
+    <impactlaunchangle>50.0</impactlaunchangle>
+    <areasortmode>Radial</areasortmode>
+    <targetground>1</targetground>
+    <basedamagecap>1</basedamagecap>
+    <targetlock>1</targetlock>
+    <hidefromstats>1</hidefromstats>
+  </action>
+  <tactic>Volley<speedmodifier>1.0</speedmodifier><action priority="91">RocketAttackGuardian</action><action priority="90">RocketAttack</action><action priority="87">GrenadeAttackGuardian</action><action priority="86">HandAttackGuardian</action><action priority="85">GrenadeAttackLong</action><action priority="83">FlameThrowerAttack</action><action priority="81">GrenadeAttackShort</action><action priority="80">GrenadeAttack</action><action priority="76">RocketBuildingAttack</action><action priority="75">BuildingAttack</action><action priority="25">HandAttack</action><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><runaway>1</runaway><autoretarget>1</autoretarget><idleanim>Idle</idleanim><boredanim>Bored</boredanim><deathanim>Death_by_melee</deathanim><walkanim>Walk</walkanim><joganim>Jog</joganim><runanim>Run</runanim></tactic>
+  <tactic>Defend<speedmodifier>1.0</speedmodifier><action priority="91">RocketAttackGuardian</action><action priority="90">RocketAttack</action><action priority="87">GrenadeAttackGuardian</action><action priority="86">HandAttackGuardian</action><action priority="85">GrenadeAttackLong</action><action priority="83">FlameThrowerAttack</action><action priority="81">GrenadeAttackShort</action><action priority="80">GrenadeAttack</action><action priority="76">RocketBuildingAttack</action><action priority="75">BuildingAttack</action><action priority="25">HandAttack</action><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><runaway>1</runaway><autoretarget>1</autoretarget><idleanim>Idle</idleanim><boredanim>Bored</boredanim><deathanim>Death_by_melee</deathanim><walkanim>Walk</walkanim><joganim>Jog</joganim><runanim>Run</runanim></tactic>
+  <tactic>Stagger<speedmodifier>1.0</speedmodifier><action priority="91">RocketAttackGuardian</action><action priority="90">RocketAttack</action><action priority="87">GrenadeAttackGuardian</action><action priority="86">HandAttackGuardian</action><action priority="85">GrenadeAttackLong</action><action priority="83">FlameThrowerAttack</action><action priority="81">GrenadeAttackShort</action><action priority="80">GrenadeAttack</action><action priority="76">RocketBuildingAttack</action><action priority="75">BuildingAttack</action><action priority="25">HandAttack</action><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><runaway>1</runaway><autoretarget>1</autoretarget><deathanim>Death_by_melee</deathanim><idleanim>Idle</idleanim><boredanim>Bored</boredanim><deathanim>Death_by_melee</deathanim><walkanim>Walk</walkanim><joganim>Jog</joganim><runanim>Run</runanim></tactic>
+  <tactic>Melee<action priority="100">FlameThrowerAttack</action><action priority="90">HandAttack</action><action priority="80">RocketBuildingAttack</action><action priority="70">BuildingAttack</action><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><runaway>0</runaway><autoretarget>1</autoretarget><idleanim>Idle</idleanim><boredanim>Bored</boredanim><deathanim>Death_by_melee</deathanim><walkanim>Walk</walkanim><joganim>Jog</joganim><runanim>Run</runanim></tactic>
+  <tactic>StandGround<speedmodifier>1.0</speedmodifier><action priority="91">RocketAttackGuardian</action><action priority="90">RocketAttack</action><action priority="87">GrenadeAttackGuardian</action><action priority="86">HandAttackGuardian</action><action priority="85">GrenadeAttackLong</action><action priority="83">FlameThrowerAttack</action><action priority="81">GrenadeAttackShort</action><action priority="80">GrenadeAttack</action><action priority="76">RocketBuildingAttack</action><action priority="75">BuildingAttack</action><action priority="25">HandAttack</action><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><runaway>1</runaway><autoretarget>1</autoretarget><idleanim>Idle</idleanim><boredanim>Bored</boredanim><deathanim>Death_by_melee</deathanim><walkanim>Walk</walkanim><joganim>Jog</joganim><runanim>Run</runanim></tactic>
+</tactics>

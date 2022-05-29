@@ -18,14 +18,14 @@
     <projectile>InvisibleProjectile</projectile>
     <impacteffect>effects\impacts\gun</impacteffect>
     <minrange>2</minrange>
-    <rate type="Unit">1.0 </rate>
+    <rate type="Unit">1.0</rate>
     <instantballistics>1</instantballistics>
   </action>
   <action>
     <name stringid="38132">StaggerHandAttack</name>
     <type>Attack</type>
     <maxrange>1.75</maxrange>
-    <rate type="Unit">1.0 </rate>
+    <rate type="Unit">1.0</rate>
     <attackaction>1</attackaction>
     <handlogic>1</handlogic>
     <speedboost>1</speedboost>
@@ -40,7 +40,7 @@
     <name stringid="38135">MeleeHandAttack</name>
     <type>Attack</type>
     <maxrange>1.75</maxrange>
-    <rate type="Unit">1.0 </rate>
+    <rate type="Unit">1.0</rate>
     <attackaction>1</attackaction>
     <handlogic>1</handlogic>
     <speedboost>1</speedboost>
@@ -70,7 +70,7 @@
     <projectile>InvisibleProjectile</projectile>
     <impacteffect>effects\impacts\gun</impacteffect>
     <minrange>2</minrange>
-    <rate type="Unit">1.0 </rate>
+    <rate type="Unit">1.0</rate>
     <throw>1</throw>
     <damage>13.000000</damage>
     <maxrange>12.000000</maxrange>
@@ -80,7 +80,7 @@
     <name stringid="38137">DefendHandAttack</name>
     <type>Attack</type>
     <maxrange>1.75</maxrange>
-    <rate type="Unit">1.0 </rate>
+    <rate type="Unit">1.0</rate>
     <attackaction>1</attackaction>
     <handlogic>1</handlogic>
     <speedboost>1</speedboost>
@@ -96,7 +96,7 @@
     <type>Attack</type>
     <rangedlogic>1</rangedlogic>
     <maxrange>6</maxrange>
-    <rate type="Building">1.0 </rate>
+    <rate type="Building">1.0</rate>
     <attackaction>1</attackaction>
     <speedboost>1</speedboost>
     <anim>Raze_attack</anim>
@@ -107,4 +107,5 @@
   <tactic>Stagger<action priority="75">BuildingAttack</action><action priority="100">StaggerRangedAttack</action><action priority="90">StaggerHandAttack</action><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><runaway>0</runaway><autoretarget>1</autoretarget><idleanim>Idle</idleanim><boredanim>Bored</boredanim><deathanim>Death_by_melee</deathanim><walkanim>Walk</walkanim><joganim>Jog</joganim><runanim>Run</runanim></tactic>
   <tactic>Defend<action priority="75">BuildingAttack</action><action priority="100">DefendRangedAttack</action><action priority="90">DefendHandAttack</action><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><runaway>1</runaway><autoretarget>1</autoretarget><idleanim>Idle</idleanim><boredanim>Bored</boredanim><deathanim>Death_by_melee</deathanim><walkanim>Walk</walkanim><joganim>Jog</joganim><runanim>Run</runanim></tactic>
   <tactic>Melee<action priority="75">BuildingAttack</action><action priority="100">MeleeHandAttack</action><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><runaway>0</runaway><autoretarget>1</autoretarget><idleanim>Idle</idleanim><boredanim>Bored</boredanim><deathanim>Death_by_melee</deathanim><walkanim>Walk</walkanim><joganim>Jog</joganim><runanim>Run</runanim></tactic>
+  <tactic>StandGround<action priority="75">BuildingAttack</action><action priority="100">DefendRangedAttack</action><action priority="90">DefendHandAttack</action><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><runaway>1</runaway><autoretarget>1</autoretarget><idleanim>Idle</idleanim><boredanim>Bored</boredanim><deathanim>Death_by_melee</deathanim><walkanim>Walk</walkanim><joganim>Jog</joganim><runanim>Run</runanim></tactic>
 </tactics>

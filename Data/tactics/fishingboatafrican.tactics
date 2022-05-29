@@ -53,5 +53,16 @@
     <rate type="AbstractFish">0.4</rate>
     <rate type="AbstractWhale">0.4</rate>
   </action>
-  <tactic>Normal<speedmodifier>1.0</speedmodifier><action priority="100">BuildingAttack</action><action priority="75">RangedAttack</action><action>Discover</action><action>Gather</action><action>BoatManager</action><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><runaway>1</runaway><autoretarget>1</autoretarget></tactic>
+  <action>
+    <name stringid="43019">AutoGatherCoinFish</name>
+    <type>AutoGather</type>
+    <active>0</active>
+    <donotautogatherunlessgatheringtypes>
+      <unittype>AbstractFish</unittype>
+    </donotautogatherunlessgatheringtypes>
+    <autogatherscalebygatherrate>1</autogatherscalebygatherrate>
+    <persistent>1</persistent>
+    <rate type="Gold">0.100000</rate>
+  </action>
+  <tactic>Normal<speedmodifier>1.0</speedmodifier><action priority="100">BuildingAttack</action><action priority="75">RangedAttack</action><action>Discover</action><action>Gather</action><action>BoatManager</action><action>AutoGatherCoinFish</action><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><runaway>1</runaway><autoretarget>1</autoretarget></tactic>
 </tactics>

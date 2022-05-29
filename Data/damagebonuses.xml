@@ -215,4 +215,32 @@
     <showrollover>
     </showrollover>
   </damagebonus>
+  <damagebonus>
+    <unittype>AbstractSkirmisher</unittype>
+    <icon>resources/images/hud/stat_icon_skirmisher.png</icon>
+    <displaynameid>122333</displaynameid>
+    <showrollover>
+    </showrollover>
+  </damagebonus>
+  <damagebonus>
+    <unittype>AbstractCounterSkirmisher</unittype>
+    <displaynameid>122334</displaynameid>
+  </damagebonus>
+  <damagebonus>
+    <unittype>LogicalTypeMalteseCivBonus</unittype>
+    <displaynameid>124677</displaynameid>
+  </damagebonus>
+  <damagebonus>
+    <unittype>LogicalTypeMalteseCivBonusArtilleryAndShips</unittype>
+    <displaynameid>124728</displaynameid>
+  </damagebonus>
+  <damagebonus>
+    <unittype>AbstractMountainMonastery</unittype>
+    <displaynameid>101137</displaynameid>
+  </damagebonus>
+  <damagebonus>
+    <unittype>AbstractPikeman</unittype>
+    <icon>resources/images/hud/stat_icon_hand_infantry.png</icon>
+    <displaynameid>25628</displaynameid>
+  </damagebonus>
 </damagebonustypes>

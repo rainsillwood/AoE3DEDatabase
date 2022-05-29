@@ -12,4 +12,7 @@
   <distanceatleastfromcliff distance="1" errorstringid="25529">
   </distanceatleastfromcliff>
   <distanceatleastfromtype player="any" foundation="any" distance="4" errorstringid="110197">deInspiringFlag</distanceatleastfromtype>
+  <distanceatleastfromtype player="any" foundation="any" distance="18" errorstringid="123113">deSPCCapturableFlag</distanceatleastfromtype>
+  <distanceatleastfromtype player="any" foundation="any" distance="16" errorstringid="123320">deSPCPeninsularFixedGun</distanceatleastfromtype>
+  <distanceatleastfromtype player="any" foundation="any" distance="16" errorstringid="125166">deRMFoodMill</distanceatleastfromtype>
 </placementrules>

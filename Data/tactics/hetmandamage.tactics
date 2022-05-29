@@ -1,0 +1,17 @@
+<tactics>
+  <action>
+    <name stringid="48955">ExtraDanageHetman</name>
+    <type>AutoRangedModify</type>
+    <modifyabstracttype>UnitClass</modifyabstracttype>
+    <active>1</active>
+    <maxrange>24</maxrange>
+    <persistent>1</persistent>
+    <nostack>1</nostack>
+    <nostackignorepuid>1</nostackignorepuid>
+    <modifytype>BaseDamage</modifytype>
+    <modifymultiplier>1.20</modifymultiplier>
+    <includeally>1</includeally>
+    <modelattachment>effects\ypack_auras\daimyopower.xml</modelattachment>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+  </action>
+</tactics>

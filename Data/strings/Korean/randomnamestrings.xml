@@ -921,7 +921,7 @@
     <string _locid="50918" comment="proto-Explorer civ-Portuguese type-firstname">선장</string>
     <string _locid="50919" comment="proto-Explorer civ-Portuguese type-firstname">아폰수 </string>
     <string _locid="50920" comment="proto-Explorer civ-Portuguese type-firstname">알폰소 </string>
-    <string _locid="50921" comment="proto-Explorer civ-Portuguese type-firstname">아메리고 </string>
+    <string _locid="50921" comment="proto-Explorer civ-DEItalians type-firstname">아메리고 </string>
     <string _locid="50922" comment="proto-Explorer civ-Portuguese type-firstname">안토니오 </string>
     <string _locid="50923" comment="proto-Explorer civ-Portuguese type-firstname">바르톨로메 </string>
     <string _locid="50924" comment="proto-Explorer civ-Portuguese type-firstname">바르톨로메오 </string>
@@ -2384,5 +2384,243 @@
     <string _locid="53015" comment="proto-deMiner civ-Default type-title">로스</string>
     <string _locid="53016" comment="proto-deMiner civ-Default type-title">시무스</string>
     <string _locid="53017" comment="proto-deMiner civ-Default type-title">사일러스</string>
+    <string _locid="53018" comment="proto-deMercBattleship civ-Spanish type-title">누에스트라 세뇨라</string>
+    <string _locid="53019" comment="proto-deMercBattleship civ-Spanish type-title">산타 아나</string>
+    <string _locid="53020" comment="proto-deMercBattleship civ-Spanish type-title">아스투리아스 공</string>
+    <string _locid="53021" comment="proto-deMercBattleship civ-Spanish type-title">퓨리시마 콘셉시온</string>
+    <string _locid="53022" comment="proto-deMercBattleship civ-Spanish type-title">산 호세</string>
+    <string _locid="53023" comment="proto-deMercBattleship civ-Spanish type-title">산 루이스</string>
+    <string _locid="53024" comment="proto-deMercBattleship civ-Spanish type-title">산 에르메네힐도</string>
+    <string _locid="53025" comment="proto-deMercBattleship civ-Spanish type-title">살바도르 델 문도</string>
+    <string _locid="53026" comment="proto-deMercBattleship civ-Spanish type-title">레알 파밀리아</string>
+    <string _locid="54000" comment="proto-deGrandMaster civ-DEMaltese type-title">장 드 라스틱</string>
+    <string _locid="54001" comment="proto-deGrandMaster civ-DEMaltese type-title">자크 드 밀리</string>
+    <string _locid="54002" comment="proto-deGrandMaster civ-DEMaltese type-title">피에로 라이몬도 자코스타</string>
+    <string _locid="54003" comment="proto-deGrandMaster civ-DEMaltese type-title">조반니 바티스타 오르시니</string>
+    <string _locid="54004" comment="proto-deGrandMaster civ-DEMaltese type-title">피에르 도뷔송</string>
+    <string _locid="54005" comment="proto-deGrandMaster civ-DEMaltese type-title">에머리 당부아즈</string>
+    <string _locid="54006" comment="proto-deGrandMaster civ-DEMaltese type-title">기 드 블랑셰포르</string>
+    <string _locid="54007" comment="proto-deGrandMaster civ-DEMaltese type-title">파브리치오 델 카레토</string>
+    <string _locid="54008" comment="proto-deGrandMaster civ-DEMaltese type-title">장 파리조</string>
+    <string _locid="54009" comment="proto-deGrandMaster civ-DEMaltese type-title">알레인 매그넌</string>
+    <string _locid="54010" comment="proto-deGrandMaster civ-DEMaltese type-title">모건 블랙</string>
+    <string _locid="54011" comment="proto-deGrandMaster civ-DEMaltese type-title">필립 빌리에르</string>
+    <string _locid="54012" comment="proto-deGrandMaster civ-DEMaltese type-title">피에르 드 몬테</string>
+    <string _locid="54013" comment="proto-deGrandMaster civ-DEMaltese type-title">디디에 드 생재유</string>
+    <string _locid="54014" comment="proto-deGrandMaster civ-DEMaltese type-title">후안 데 호메데스</string>
+    <string _locid="54015" comment="proto-deGrandMaster civ-DEMaltese type-title">클로드 드 라 상글</string>
+    <string _locid="54016" comment="proto-deGrandMaster civ-DEMaltese type-title">피에르 드 몬테</string>
+    <string _locid="54017" comment="proto-deGrandMaster civ-DEMaltese type-title">장 드 카시에르</string>
+    <string _locid="54018" comment="proto-deGrandMaster civ-DEMaltese type-title">마튀랭 로메가스</string>
+    <string _locid="54019" comment="proto-deGrandMaster civ-DEMaltese type-title">후게스 루벤스</string>
+    <string _locid="54020" comment="proto-deGrandMaster civ-DEMaltese type-title">마르틴 가르세스</string>
+    <string _locid="54021" comment="proto-deGrandMaster civ-DEMaltese type-title">알로프 드 비냐크르</string>
+    <string _locid="54022" comment="proto-deGrandMaster civ-DEMaltese type-title">루이스 드 바스콘셀루스</string>
+    <string _locid="54023" comment="proto-deGrandMaster civ-DEMaltese type-title">앙투안 드 폴</string>
+    <string _locid="54024" comment="proto-deGrandMaster civ-DEMaltese type-title">조반니 라스카리스</string>
+    <string _locid="54025" comment="proto-deGrandMaster civ-DEMaltese type-title">마르틴 데 레딘</string>
+    <string _locid="54026" comment="proto-deGrandMaster civ-DEMaltese type-title">아네트 드 클레르몽-게상</string>
+    <string _locid="54027" comment="proto-deGrandMaster civ-DEMaltese type-title">라파엘 코토네르</string>
+    <string _locid="54028" comment="proto-deGrandMaster civ-DEMaltese type-title">니콜라스 코토네르</string>
+    <string _locid="54029" comment="proto-deGrandMaster civ-DEMaltese type-title">그레고리오 카라파</string>
+    <string _locid="54030" comment="proto-deGrandMaster civ-DEMaltese type-title">아드리엔 드 비냐크르</string>
+    <string _locid="54031" comment="proto-deGrandMaster civ-DEMaltese type-title">라몬 페렐로스</string>
+    <string _locid="54032" comment="proto-deGrandMaster civ-DEMaltese type-title">마르칸토니오 존다다리</string>
+    <string _locid="54033" comment="proto-deGrandMaster civ-DEMaltese type-title">안토니우 마노에우 드 빌헤나</string>
+    <string _locid="54034" comment="proto-deGrandMaster civ-DEMaltese type-title">라몬 데스푸이그</string>
+    <string _locid="54035" comment="proto-deGrandMaster civ-DEMaltese type-title">마누엘 핀투 다 폰세카</string>
+    <string _locid="54036" comment="proto-deGrandMaster civ-DEMaltese type-title">프란시스코 시메네스</string>
+    <string _locid="54037" comment="proto-deGrandMaster civ-DEMaltese type-title">엠마누엘 드 로한-폴두크</string>
+    <string _locid="54038" comment="proto-deGrandMaster civ-DEMaltese type-title">페르디난트 폰 홈페쉬</string>
+    <string _locid="54039" comment="proto-deGrandMaster civ-DEMaltese type-title">파벨 1세</string>
+    <string _locid="54040" comment="proto-deGrandMaster civ-DEMaltese type-title">니콜라이 살티코프</string>
+    <string _locid="54041" comment="proto-deGrandMaster civ-DEMaltese type-title">조반니 바티스타 토마시</string>
+    <string _locid="54042" comment="proto-deGrandMaster civ-DEMaltese type-title">이니코 게바라-수아르도</string>
+    <string _locid="54043" comment="proto-deGrandMaster civ-DEMaltese type-title">디 조반니 센텔레스</string>
+    <string _locid="54044" comment="proto-deGrandMaster civ-DEMaltese type-title">앙투안 부스카</string>
+    <string _locid="54045" comment="proto-deGrandMaster civ-DEMaltese type-title">카를로 칸디다</string>
+    <string _locid="54046" comment="proto-deGrandMaster civ-DEMaltese type-title">필리포 디 콜로레도-멜스</string>
+    <string _locid="54047" comment="proto-deGrandMaster civ-DEMaltese type-title">알레산드로 보르지아</string>
+    <string _locid="54100" comment="proto-Explorer civ-DEItalians type-firstname">조반니 </string>
+    <string _locid="54101" comment="proto-Explorer civ-DEItalians type-firstname">마르코 </string>
+    <string _locid="54102" comment="proto-Explorer civ-DEItalians type-firstname">크리스토퍼 </string>
+    <string _locid="54103" comment="proto-Explorer civ-DEItalians type-firstname">안토니오 </string>
+    <string _locid="54104" comment="proto-Explorer civ-DEItalians type-firstname">갈릴레오 </string>
+    <string _locid="54105" comment="proto-Explorer civ-DEItalians type-firstname">에우제니오 </string>
+    <string _locid="54106" comment="proto-Explorer civ-DEItalians type-firstname">체사레 </string>
+    <string _locid="54107" comment="proto-Explorer civ-DEItalians type-firstname">레오나르도 </string>
+    <string _locid="54108" comment="proto-Explorer civ-DEItalians type-firstname">안토니오 </string>
+    <string _locid="54109" comment="proto-Explorer civ-DEItalians type-firstname">피에트로 </string>
+    <string _locid="54110" comment="proto-Explorer civ-DEItalians type-firstname">피에트로 파올로 </string>
+    <string _locid="54111" comment="proto-Explorer civ-DEItalians type-firstname">아메데오 </string>
+    <string _locid="54112" comment="proto-Explorer civ-DEItalians type-firstname">루이지 </string>
+    <string _locid="54113" comment="proto-Explorer civ-DEItalians type-firstname">굴리엘모 </string>
+    <string _locid="54114" comment="proto-Explorer civ-DEItalians type-firstname">에반젤리스타 </string>
+    <string _locid="54115" comment="proto-Explorer civ-DEItalians type-firstname">알레산드로 </string>
+    <string _locid="54116" comment="proto-Explorer civ-DEItalians type-firstname">주세페 </string>
+    <string _locid="54117" comment="proto-Explorer civ-DEItalians type-firstname">마르코 </string>
+    <string _locid="54118" comment="proto-Explorer civ-DEItalians type-lastname">
+    </string>
+    <string _locid="54119" comment="proto-Explorer civ-DEItalians type-lastname">베스푸치</string>
+    <string _locid="54120" comment="proto-Explorer civ-DEItalians type-lastname">카보토</string>
+    <string _locid="54121" comment="proto-Explorer civ-DEItalians type-lastname">폴로</string>
+    <string _locid="54122" comment="proto-Explorer civ-DEItalians type-lastname">콜럼버스</string>
+    <string _locid="54123" comment="proto-Explorer civ-DEItalians type-lastname">메우치</string>
+    <string _locid="54124" comment="proto-Explorer civ-DEItalians type-lastname">드 갈릴레이</string>
+    <string _locid="54125" comment="proto-Explorer civ-DEItalians type-lastname">바르산티</string>
+    <string _locid="54126" comment="proto-Explorer civ-DEItalians type-lastname">디 베카리아</string>
+    <string _locid="54127" comment="proto-Explorer civ-DEItalians type-lastname">다 빈치</string>
+    <string _locid="54128" comment="proto-Explorer civ-DEItalians type-lastname">제노베시</string>
+    <string _locid="54129" comment="proto-Explorer civ-DEItalians type-lastname">다 베라차노</string>
+    <string _locid="54130" comment="proto-Explorer civ-DEItalians type-lastname">드 브라자</string>
+    <string _locid="54131" comment="proto-Explorer civ-DEItalians type-lastname">아보가드로</string>
+    <string _locid="54132" comment="proto-Explorer civ-DEItalians type-lastname">갈바니</string>
+    <string _locid="54133" comment="proto-Explorer civ-DEItalians type-lastname">마르코니</string>
+    <string _locid="54134" comment="proto-Explorer civ-DEItalians type-lastname">토리첼리</string>
+    <string _locid="54135" comment="proto-Explorer civ-DEItalians type-lastname">볼타</string>
+    <string _locid="54136" comment="proto-Explorer civ-DEItalians type-lastname">마치니</string>
+    <string _locid="54137" comment="proto-Explorer civ-DEItalians type-lastname">가리발디</string>
+    <string _locid="54138" comment="proto-Explorer civ-DEItalians type-lastname">폴로</string>
+    <string _locid="54139" comment="proto-Fort civ-Italians type-title">포르테 곤자가</string>
+    <string _locid="54140" comment="proto-Fort civ-Italians type-title">레알 치타델라</string>
+    <string _locid="54141" comment="proto-Fort civ-Italians type-title">포르테 델 산티시모 살바토레</string>
+    <string _locid="54142" comment="proto-Fort civ-Italians type-title">카스텔 산탄젤로</string>
+    <string _locid="54143" comment="proto-Fort civ-Italians type-title">팔마노바</string>
+    <string _locid="54144" comment="proto-Fort civ-Italians type-title">레오나르도의 리벨리노</string>
+    <string _locid="54145" comment="proto-Fort civ-Italians type-title">아우렐리아 안티카</string>
+    <string _locid="54146" comment="proto-Fort civ-Italians type-title">포르테 벨베데레</string>
+    <string _locid="54147" comment="proto-Fort civ-Italians type-title">포르테 안테네</string>
+    <string _locid="54148" comment="proto-Fort civ-Italians type-title">포르테 브라스키</string>
+    <string _locid="54149" comment="proto-Fort civ-Italians type-title">포르테 디 산 레오</string>
+    <string _locid="54150" comment="proto-Fort civ-Italians type-title">카스텔로 드 잔나</string>
+    <string _locid="54151" comment="proto-Fort civ-Italians type-title">시타델라 누오바</string>
+    <string _locid="54152" comment="proto-Fort civ-Italians type-title">카스텔로 디 산타 마르게리타 리구레</string>
+    <string _locid="54153" comment="proto-Fort civ-Maltese type-title">산 살바토레 요새</string>
+    <string _locid="54154" comment="proto-Fort civ-Maltese type-title">성 안젤로 요새</string>
+    <string _locid="54155" comment="proto-Fort civ-Maltese type-title">세인트 엘모 요새</string>
+    <string _locid="54156" comment="proto-Fort civ-Maltese type-title">성 야고보 요새</string>
+    <string _locid="54157" comment="proto-Fort civ-Maltese type-title">성 누가 요새</string>
+    <string _locid="54158" comment="proto-Fort civ-Maltese type-title">성 프란치스코 요새</string>
+    <string _locid="54159" comment="proto-Fort civ-Maltese type-title">마노에우 요새</string>
+    <string _locid="54160" comment="proto-Fort civ-Maltese type-title">티네 요새</string>
+    <string _locid="54161" comment="proto-Fort civ-Maltese type-title">시타델라</string>
+    <string _locid="54162" comment="proto-Fort civ-Maltese type-title">성 빌립보 요새</string>
+    <string _locid="54163" comment="proto-Fort civ-Maltese type-title">성 미가엘 요새 </string>
+    <string _locid="54164" comment="proto-Saloon/deTavern civ-Italians type-title">맘마 인 쿠치나</string>
+    <string _locid="54165" comment="proto-Saloon/deTavern civ-Italians type-title">피제리아</string>
+    <string _locid="54166" comment="proto-Saloon/deTavern civ-Italians type-title">알 포르노</string>
+    <string _locid="54167" comment="proto-Saloon/deTavern civ-Italians type-title">라 구스토사</string>
+    <string _locid="54168" comment="proto-Saloon/deTavern civ-Italians type-title">로로 디 나폴리</string>
+    <string _locid="54169" comment="proto-Saloon/deTavern civ-Italians type-title">베수비오</string>
+    <string _locid="54170" comment="proto-Saloon/deTavern civ-Italians type-title">라 페르골라</string>
+    <string _locid="54171" comment="proto-Saloon/deTavern civ-Italians type-title">아로마</string>
+    <string _locid="54172" comment="proto-Saloon/deTavern civ-Italians type-title">일 살라미노</string>
+    <string _locid="54173" comment="proto-Saloon/deTavern civ-Italians type-title">라 루스티카</string>
+    <string _locid="54174" comment="proto-Saloon/deTavern civ-Italians type-title">프리마베라</string>
+    <string _locid="54175" comment="proto-Saloon/deTavern civ-Italians type-title">만지아 투토</string>
+    <string _locid="54176" comment="proto-Saloon/deTavern civ-Italians type-title">케 부오노</string>
+    <string _locid="54177" comment="proto-Saloon/deTavern civ-Italians type-title">코메 아 카사</string>
+    <string _locid="54178" comment="proto-Saloon/deTavern civ-Italians type-title">알 덴테</string>
+    <string _locid="54179" comment="proto-Saloon/deTavern civ-Italians type-title">테라 마레</string>
+    <string _locid="54180" comment="proto-Saloon/deTavern civ-Italians type-title">피자 파스타</string>
+    <string _locid="54181" comment="proto-Saloon/deTavern civ-Italians type-title">일 페스카토레</string>
+    <string _locid="54182" comment="proto-Saloon/deTavern civ-Italians type-title">일 기오토네</string>
+    <string _locid="54183" comment="proto-Saloon/deTavern civ-Maltese type-title">블랙네 음료집</string>
+    <string _locid="54184" comment="proto-Saloon/deTavern civ-Maltese type-title">블랙네 버본</string>
+    <string _locid="54185" comment="proto-Saloon/deTavern civ-Maltese type-title">리지의 해적 펍</string>
+    <string _locid="54186" comment="proto-Saloon/deTavern civ-Maltese type-title">호스텔 드 베르델린</string>
+    <string _locid="54187" comment="proto-Saloon/deTavern civ-Maltese type-title">애드미럴티 하우스</string>
+    <string _locid="54188" comment="proto-Saloon/deTavern civ-Maltese type-title">세인트 존의 술집</string>
+    <string _locid="54189" comment="proto-Saloon/deTavern civ-Maltese type-title">드링킹 카발리에</string>
+    <string _locid="54190" comment="proto-Saloon/deTavern civ-Maltese type-title">십자군의 카페</string>
+    <string _locid="54191" comment="proto-Saloon/deTavern civ-Maltese type-title">줌 조렌덴 조하니터</string>
+    <string _locid="54192" comment="proto-Saloon/deTavern civ-Maltese type-title">젊음의 샘</string>
+    <string _locid="54193" comment="proto-Saloon/deTavern civ-Maltese type-title">성배</string>
+    <string _locid="54194" comment="proto-Saloon/deTavern civ-Maltese type-title">웃는 종교재판관</string>
+    <string _locid="54195" comment="proto-Saloon/deTavern civ-Maltese type-title">쿠칸자 저장고</string>
+    <string _locid="54196" comment="proto-Saloon/deTavern civ-Maltese type-title">카니발 탈의실</string>
+    <string _locid="54211" comment="proto-Galleon civ-Italians type-title">가에타</string>
+    <string _locid="54212" comment="proto-Galleon civ-Italians type-title">두카 디 제노바</string>
+    <string _locid="54213" comment="proto-Galleon civ-Italians type-title">가리발디</string>
+    <string _locid="54214" comment="proto-Galleon civ-Italians type-title">고베르놀로</string>
+    <string _locid="54215" comment="proto-Galleon civ-Italians type-title">푸리아</string>
+    <string _locid="54216" comment="proto-Galleon civ-Italians type-title">바스타르다</string>
+    <string _locid="54217" comment="proto-Galleon civ-Italians type-title">모나르카</string>
+    <string _locid="54218" comment="proto-Galleon civ-Italians type-title">라 돈나</string>
+    <string _locid="54219" comment="proto-Galleon civ-Italians type-title">몬도</string>
+    <string _locid="54220" comment="proto-Galleon civ-Italians type-title">시빌라</string>
+    <string _locid="54221" comment="proto-Galleon civ-Italians type-title">바카나</string>
+    <string _locid="54222" comment="proto-Galleon civ-Italians type-title">푸오코</string>
+    <string _locid="54223" comment="proto-Frigate civ-Italians type-title">부첸타우르</string>
+    <string _locid="54224" comment="proto-Frigate civ-Italians type-title">레 디탈리아</string>
+    <string _locid="54225" comment="proto-Frigate civ-Italians type-title">레 디 포루토갈로</string>
+    <string _locid="54226" comment="proto-Frigate civ-Italians type-title">레지나 마리아 피아</string>
+    <string _locid="54227" comment="proto-Frigate civ-Italians type-title">카스텔피다르도</string>
+    <string _locid="54228" comment="proto-Frigate civ-Italians type-title">안코나</string>
+    <string _locid="54229" comment="proto-Frigate civ-Italians type-title">프린치페 디 카리냐노</string>
+    <string _locid="54230" comment="proto-Frigate civ-Italians type-title">카피타나</string>
+    <string _locid="54231" comment="proto-Frigate civ-Italians type-title">파드로나</string>
+    <string _locid="54232" comment="proto-Frigate civ-Italians type-title">페를라</string>
+    <string _locid="54233" comment="proto-Frigate civ-Italians type-title">레지나</string>
+    <string _locid="54234" comment="proto-Frigate civ-Italians type-title">우오모 디 마레</string>
+    <string _locid="54235" comment="proto-Monitor civ-Italians type-title">레오네</string>
+    <string _locid="54236" comment="proto-Monitor civ-Italians type-title">산 지롤라모</string>
+    <string _locid="54237" comment="proto-Monitor civ-Italians type-title">산타 카테리나</string>
+    <string _locid="54238" comment="proto-Monitor civ-Italians type-title">몬지벨로</string>
+    <string _locid="54239" comment="proto-Monitor civ-Italians type-title">포르미다빌레</string>
+    <string _locid="54240" comment="proto-Monitor civ-Italians type-title">아폰다토레</string>
+    <string _locid="54241" comment="proto-Monitor civ-Italians type-title">테리빌레</string>
+    <string _locid="54242" comment="proto-Monitor civ-Italians type-title">팔레스트로</string>
+    <string _locid="54243" comment="proto-Monitor civ-Italians type-title">바레세</string>
+    <string _locid="54244" comment="proto-deMercBattleship civ-Italians type-title">베수비오</string>
+    <string _locid="54245" comment="proto-deMercBattleship civ-Italians type-title">무나르카</string>
+    <string _locid="54246" comment="proto-deMercBattleship civ-Italians type-title">아말리아</string>
+    <string _locid="54247" comment="proto-deMercBattleship civ-Italians type-title">산 펠리포 아 리알레</string>
+    <string _locid="54248" comment="proto-deMercBattleship civ-Italians type-title">조아키노</string>
+    <string _locid="54249" comment="proto-Galley civ-Maltese type-title">산타 페</string>
+    <string _locid="54250" comment="proto-Galley civ-Maltese type-title">산 미켈레</string>
+    <string _locid="54251" comment="proto-Galley civ-Maltese type-title">산 필리포</string>
+    <string _locid="54252" comment="proto-Galley civ-Maltese type-title">산 클라우디오</string>
+    <string _locid="54253" comment="proto-Galley civ-Maltese type-title">산 피에트로</string>
+    <string _locid="54254" comment="proto-Galley civ-Maltese type-title">세인트 존</string>
+    <string _locid="54255" comment="proto-Galley civ-Maltese type-title">산 로렌조</string>
+    <string _locid="54256" comment="proto-Galley civ-Maltese type-title">산타 마리아</string>
+    <string _locid="54257" comment="proto-Galley civ-Maltese type-title">비토리아</string>
+    <string _locid="54258" comment="proto-Galley civ-Maltese type-title">산 주세페</string>
+    <string _locid="54259" comment="proto-Galley civ-Maltese type-title">산 조반니</string>
+    <string _locid="54260" comment="proto-Galley civ-Maltese type-title">산 프란체스코</string>
+    <string _locid="54261" comment="proto-Galley civ-Maltese type-title">산 페더</string>
+    <string _locid="54262" comment="proto-Galley civ-Maltese type-title">산 크로체</string>
+    <string _locid="54263" comment="proto-Galley civ-Maltese type-title">산 플라시도</string>
+    <string _locid="54264" comment="proto-Galleon civ-Maltese type-title">산테 엘리사베스</string>
+    <string _locid="54265" comment="proto-Galleon civ-Maltese type-title">산타 크로체</string>
+    <string _locid="54266" comment="proto-Galleon civ-Maltese type-title">산 비첸초</string>
+    <string _locid="54267" comment="proto-Galleon civ-Maltese type-title">산타 아나</string>
+    <string _locid="54268" comment="proto-Monitor civ-Maltese type-title">산 안토니오 디 파도바</string>
+    <string _locid="54269" comment="proto-Monitor civ-Maltese type-title">생조르주</string>
+    <string _locid="54270" comment="proto-Monitor civ-Maltese type-title">생앙투안</string>
+    <string _locid="54271" comment="proto-Frigate civ-Maltese type-title">산 지아코모</string>
+    <string _locid="54272" comment="proto-Frigate civ-Maltese type-title">산타 카테리나</string>
+    <string _locid="54273" comment="proto-Frigate civ-Maltese type-title">산 자카리아</string>
+    <string _locid="54274" comment="proto-Frigate civ-Maltese type-title">산 조반니</string>
+    <string _locid="54275" comment="proto-deMercBattleship civ-Maltese type-title">산 살바토레</string>
+    <string _locid="54276" comment="proto-deMercBattleship civ-Maltese type-title">그랜드마스터의 함선</string>
+    <string _locid="54277" comment="proto-deMercBattleship civ-Maltese type-title">모건의 기함</string>
+    <string _locid="54278" comment="proto-deMercBattleship civ-Maltese type-title">카피타나</string>
+    <string _locid="54279" comment="proto-deMalteseFireship civ-Maltese type-title">신성한 불</string>
+    <string _locid="54280" comment="proto-deMalteseFireship civ-Maltese type-title">페타르 드 모건</string>
+    <string _locid="54281" comment="proto-deMalteseFireship civ-Maltese type-title">신성한 연기</string>
+    <string _locid="54282" comment="proto-deMalteseFireship civ-Maltese type-title">정화</string>
+    <string _locid="54283" comment="proto-deMalteseFireship civ-Maltese type-title">물 위의 연기</string>
+    <string _locid="54284" comment="proto-deMalteseFireship civ-Maltese type-title">불의 세례자</string>
+    <string _locid="54285" comment="proto-deMalteseFireship civ-Maltese type-title">묵시록</string>
+    <string _locid="54286" comment="proto-deMalteseFireship civ-Maltese type-title">기름 교역 상인</string>
+    <string _locid="54287" comment="proto-deMalteseFireship civ-Maltese type-title">비잔티움 화공선</string>
+    <string _locid="54288" comment="proto-deMalteseFireship civ-Maltese type-title">파괴선</string>
+    <string _locid="54289" comment="proto-deMalteseFireship civ-Maltese type-title">불타는 욕망</string>
+    <string _locid="54290" comment="proto-deMalteseFireship civ-Maltese type-title">양초</string>
+    <string _locid="54291" comment="proto-deMalteseFireship civ-Maltese type-title">헤엄치는 화약고</string>
+    <string _locid="54292" comment="proto-deMalteseFireship civ-Maltese type-title">즉각 화공선</string>
+    <string _locid="54293" comment="proto-deMalteseFireship civ-Maltese type-title">불타는 바람</string>
   </language>
 </stringtable>

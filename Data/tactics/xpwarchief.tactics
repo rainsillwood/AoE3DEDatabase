@@ -31,7 +31,7 @@
     <projectile>InvisibleProjectile</projectile>
     <impacteffect>effects\impacts\gun</impacteffect>
     <minrange>2</minrange>
-    <rate type="Unit">1.0 </rate>
+    <rate type="Unit">1.0</rate>
     <instantballistics>1</instantballistics>
   </action>
   <action>
@@ -43,7 +43,7 @@
     <idleanim>CombatIdle</idleanim>
     <maxrange>1.75</maxrange>
     <impacteffect>effects\impacts\melee</impacteffect>
-    <rate type="Unit">1.0 </rate>
+    <rate type="Unit">1.0</rate>
     <targetspeedboost>1</targetspeedboost>
   </action>
   <action>
@@ -51,7 +51,7 @@
     <type>Attack</type>
     <rangedlogic>1</rangedlogic>
     <maxrange>6</maxrange>
-    <rate type="LogicalTypeShipsAndBuildings">1.0 </rate>
+    <rate type="LogicalTypeShipsAndBuildings">1.0</rate>
     <attackaction>1</attackaction>
     <speedboost>1</speedboost>
     <anim>Raze_Attack</anim>
@@ -73,7 +73,7 @@
     <accuracyreductionfactor>0.001</accuracyreductionfactor>
     <aimbonus>5</aimbonus>
     <trackrating>12</trackrating>
-    <rate type="Guardian">1.0 </rate>
+    <rate type="Guardian">1.0</rate>
     <impacteffect>effects\impacts\gun</impacteffect>
     <projectile>InvisibleProjectile</projectile>
     <rof>1.000000</rof>
@@ -93,7 +93,7 @@
     <accuracyreductionfactor>0.001</accuracyreductionfactor>
     <aimbonus>5</aimbonus>
     <trackrating>12</trackrating>
-    <rate type="LogicalTypeValidSharpshoot">1.0 </rate>
+    <rate type="LogicalTypeValidSharpshoot">1.0</rate>
     <impacteffect>effects\impacts\gun</impacteffect>
     <projectile>InvisibleProjectile</projectile>
     <rof>1.000000</rof>
@@ -109,7 +109,7 @@
     <idleanim>CombatIdle</idleanim>
     <maxrange>2</maxrange>
     <impacteffect>effects\impacts\melee</impacteffect>
-    <rate type="Unit">1.0 </rate>
+    <rate type="Unit">1.0</rate>
     <basedamagecap>1</basedamagecap>
   </action>
   <action>
@@ -117,7 +117,7 @@
     <type>Heal</type>
     <active>0</active>
     <maxrange>12</maxrange>
-    <rate type="LogicalTypeHealed">50.0 </rate>
+    <rate type="LogicalTypeHealed">50.0</rate>
     <anim>Heal</anim>
   </action>
   <action>
@@ -174,8 +174,33 @@
     <modelattachment>effects\chiefpower\chiefpower.xml</modelattachment>
     <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
   </action>
-  <tactic>Volley<action priority="100">VolleyRangedAttack</action><action priority="75">BuildingAttack</action><action priority="25">HandAttack</action><action priority="2">SharpshooterAttack</action><action priority="2">CrackshotAttack</action><action priority="1">SwashbucklerAttack</action><action>Build</action><action>Discover</action><action>Heal</action><action>GreatHeart</action><action>BuildingHP</action><action>BuildingHP2</action><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><runaway>0</runaway></tactic>
-  <tactic>Melee<action priority="100">BuildingAttack</action><action priority="75">HandAttack</action><action priority="2">SharpshooterAttack</action><action priority="2">CrackshotAttack</action><action priority="1">SwashbucklerAttack</action><action>Build</action><action>Discover</action><action>Heal</action><action>GreatHeart</action><action>BuildingHP</action><action>BuildingHP2</action><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><runaway>0</runaway><autoretarget>1</autoretarget></tactic>
-  <tactic>Defend<action priority="100">VolleyRangedAttack</action><action priority="75">BuildingAttack</action><action priority="25">HandAttack</action><action priority="2">SharpshooterAttack</action><action priority="2">CrackshotAttack</action><action priority="1">SwashbucklerAttack</action><action>Build</action><action>Discover</action><action>Heal</action><action>GreatHeart</action><action>BuildingHP</action><action>BuildingHP2</action><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><runaway>0</runaway><autoretarget>1</autoretarget><idleanim>Defend_idle</idleanim><boredanim>Defend_bored</boredanim><deathanim>Death_by_melee</deathanim><joganim>Defend_jog</joganim><walkanim>Defend_walk</walkanim><runanim>Defend_run</runanim></tactic>
-  <tactic>Stagger<action priority="100">VolleyRangedAttack</action><action priority="75">BuildingAttack</action><action priority="25">HandAttack</action><action priority="2">SharpshooterAttack</action><action priority="2">CrackshotAttack</action><action priority="1">SwashbucklerAttack</action><action>Build</action><action>Discover</action><action>Heal</action><action>GreatHeart</action><action>BuildingHP</action><action>BuildingHP2</action><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><runaway>0</runaway><autoretarget>1</autoretarget><idleanim>Cover_ranged_idle</idleanim><boredanim>Cover_bored</boredanim><deathanim>Death_by_melee</deathanim><walkanim>Cover_walk</walkanim><joganim>Cover_jog</joganim><runanim>Cover_run</runanim></tactic>
+  <action>
+    <name stringid="48954">ExtraHitPointsHM02</name>
+    <type>AutoRangedModify</type>
+    <active>0</active>
+    <maxrange>24</maxrange>
+    <persistent>1</persistent>
+    <modifytype>MaxHP</modifytype>
+    <forbidabstracttype>AbstractArtillery</forbidabstracttype>
+    <modifymultiplier>1.10</modifymultiplier>
+    <nostack>1</nostack>
+    <nostackignorepuid>1</nostackignorepuid>
+    <modelattachment>effects\chiefpower\chiefpower.xml</modelattachment>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+  </action>
+  <action>
+    <name stringid="69158">SpawnKnockoutEvzone</name>
+    <type>Spawn</type>
+    <rate type="deNatEvzone">2.0</rate>
+    <singleuse>1</singleuse>
+    <restricttoknockout>1</restricttoknockout>
+    <animationrate>1</animationrate>
+    <active>0</active>
+    <persistent>1</persistent>
+  </action>
+  <tactic>Volley<action priority="100">VolleyRangedAttack</action><action priority="75">BuildingAttack</action><action priority="25">HandAttack</action><action priority="2">SharpshooterAttack</action><action priority="2">CrackshotAttack</action><action priority="1">SwashbucklerAttack</action><action>Build</action><action>Discover</action><action>Heal</action><action>GreatHeart</action><action>BuildingHP</action><action>BuildingHP2</action><action>ExtraHitPointsHM02</action><action>SpawnKnockoutEvzone</action><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><runaway>0</runaway></tactic>
+  <tactic>Melee<action priority="100">BuildingAttack</action><action priority="75">HandAttack</action><action priority="2">SharpshooterAttack</action><action priority="2">CrackshotAttack</action><action priority="1">SwashbucklerAttack</action><action>Build</action><action>Discover</action><action>Heal</action><action>GreatHeart</action><action>BuildingHP</action><action>BuildingHP2</action><action>ExtraHitPointsHM02</action><action>SpawnKnockoutEvzone</action><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><runaway>0</runaway><autoretarget>1</autoretarget></tactic>
+  <tactic>Defend<action priority="100">VolleyRangedAttack</action><action priority="75">BuildingAttack</action><action priority="25">HandAttack</action><action priority="2">SharpshooterAttack</action><action priority="2">CrackshotAttack</action><action priority="1">SwashbucklerAttack</action><action>Build</action><action>Discover</action><action>Heal</action><action>GreatHeart</action><action>BuildingHP</action><action>BuildingHP2</action><action>ExtraHitPointsHM02</action><action>SpawnKnockoutEvzone</action><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><runaway>0</runaway><autoretarget>1</autoretarget><idleanim>Defend_idle</idleanim><boredanim>Defend_bored</boredanim><deathanim>Death_by_melee</deathanim><joganim>Defend_jog</joganim><walkanim>Defend_walk</walkanim><runanim>Defend_run</runanim></tactic>
+  <tactic>Stagger<action priority="100">VolleyRangedAttack</action><action priority="75">BuildingAttack</action><action priority="25">HandAttack</action><action priority="2">SharpshooterAttack</action><action priority="2">CrackshotAttack</action><action priority="1">SwashbucklerAttack</action><action>Build</action><action>Discover</action><action>Heal</action><action>GreatHeart</action><action>BuildingHP</action><action>BuildingHP2</action><action>ExtraHitPointsHM02</action><action>SpawnKnockoutEvzone</action><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><runaway>0</runaway><autoretarget>1</autoretarget><idleanim>Cover_ranged_idle</idleanim><boredanim>Cover_bored</boredanim><deathanim>Death_by_melee</deathanim><walkanim>Cover_walk</walkanim><joganim>Cover_jog</joganim><runanim>Cover_run</runanim></tactic>
+  <tactic>StandGround<action priority="100">VolleyRangedAttack</action><action priority="75">BuildingAttack</action><action priority="25">HandAttack</action><action priority="2">SharpshooterAttack</action><action priority="2">CrackshotAttack</action><action priority="1">SwashbucklerAttack</action><action>Build</action><action>Discover</action><action>Heal</action><action>GreatHeart</action><action>BuildingHP</action><action>BuildingHP2</action><action>ExtraHitPointsHM02</action><action>SpawnKnockoutEvzone</action><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><runaway>0</runaway><autoretarget>1</autoretarget><idleanim>Defend_idle</idleanim><boredanim>Defend_bored</boredanim><deathanim>Death_by_melee</deathanim><joganim>Defend_jog</joganim><walkanim>Defend_walk</walkanim><runanim>Defend_run</runanim></tactic>
 </tactics>

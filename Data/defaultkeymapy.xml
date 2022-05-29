@@ -550,7 +550,7 @@
     <keymapdata>
       <name>Camera Rotate Left</name>
       <displayname>$$43423$$Camera Rotate Left</displayname>
-      <event>alt-a</event>
+      <event>alt-d</event>
       <context>Photo</context>
       <edgetriggered>1</edgetriggered>
       <command>cameraYawLeft</command>
@@ -558,7 +558,7 @@
     <keymapdata>
       <name>Camera Rotate Right</name>
       <displayname>$$43424$$Camera Rotate Right</displayname>
-      <event>alt-d</event>
+      <event>alt-a</event>
       <context>Photo</context>
       <edgetriggered>1</edgetriggered>
       <command>cameraYawRight</command>

@@ -4,6 +4,9 @@
   </subcivalliancecost>
   <subcivalliancecostfactor>2.0</subcivalliancecostfactor>
   <maxdecksize>25</maxdecksize>
+  <defaultpoplimit>200</defaultpoplimit>
+  <defaultpopextralimit>50</defaultpopextralimit>
+  <defaultcontainedregenrate>0.25</defaultcontainedregenrate>
   <civ>
     <name>Spanish</name>
     <main>1</main>
@@ -43,6 +46,9 @@
     <treatytech>DETreatyShadow</treatytech>
     <empirewarstech>DEEmpireWars</empirewarstech>
     <buildingefficiency>0.3</buildingefficiency>
+    <freebuildingefficiency>1.0</freebuildingefficiency>
+    <investmentamount>300</investmentamount>
+    <investmentcap>1500</investmentcap>
     <gold>0</gold>
     <food>0</food>
     <wood>0</wood>
@@ -117,11 +123,6 @@
     <unitregen>
       <unittype>Hero</unittype>
       <rate>0.25</rate>
-      <idletimeout>3.5</idletimeout>
-    </unitregen>
-    <unitregen>
-      <unittype>deMercBattleship</unittype>
-      <rate>0.225</rate>
       <idletimeout>3.5</idletimeout>
     </unitregen>
     <unitregen>
@@ -229,6 +230,38 @@
         <count>3</count>
       </unitcounts>
     </multipleblocktrain>
+    <multipleblocktrain>
+      <building>TradingPost</building>
+      <multipleblockunit>deNatRoyalHorsemanBourbonProxy</multipleblockunit>
+      <units>
+        <unit>deMercRoyalHorseman</unit>
+      </units>
+      <unitcounts>
+        <count>1</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>deSPCCommandPost</building>
+      <multipleblockunit>deTrainCommandPostWagon</multipleblockunit>
+      <units>
+        <unit>deCommandWagon</unit>
+      </units>
+      <unitcounts>
+        <count>1</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>deSPCCommandPost</building>
+      <multipleblockunit>deSPCSiegeForceBatch</multipleblockunit>
+      <units>
+        <unit>deSPCGreatBombardNoPop</unit>
+        <unit>deSPCJanissaryNoPop</unit>
+      </units>
+      <unitcounts>
+        <count>1</count>
+        <count>12</count>
+      </unitcounts>
+    </multipleblocktrain>
   </civ>
   <civ>
     <name>British</name>
@@ -268,6 +301,9 @@
     <treatytech>DETreatyShadow</treatytech>
     <empirewarstech>DEEmpireWars</empirewarstech>
     <buildingefficiency>0.3</buildingefficiency>
+    <freebuildingefficiency>1.0</freebuildingefficiency>
+    <investmentamount>300</investmentamount>
+    <investmentcap>1500</investmentcap>
     <gold>0</gold>
     <food>0</food>
     <wood>0</wood>
@@ -443,6 +479,38 @@
         <count>3</count>
       </unitcounts>
     </multipleblocktrain>
+    <multipleblocktrain>
+      <building>TradingPost</building>
+      <multipleblockunit>deNatRoyalHorsemanBourbonProxy</multipleblockunit>
+      <units>
+        <unit>deMercRoyalHorseman</unit>
+      </units>
+      <unitcounts>
+        <count>1</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>deSPCCommandPost</building>
+      <multipleblockunit>deTrainCommandPostWagon</multipleblockunit>
+      <units>
+        <unit>deCommandWagon</unit>
+      </units>
+      <unitcounts>
+        <count>1</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>deSPCCommandPost</building>
+      <multipleblockunit>deSPCSiegeForceBatch</multipleblockunit>
+      <units>
+        <unit>deSPCGreatBombardNoPop</unit>
+        <unit>deSPCJanissaryNoPop</unit>
+      </units>
+      <unitcounts>
+        <count>1</count>
+        <count>12</count>
+      </unitcounts>
+    </multipleblocktrain>
   </civ>
   <civ>
     <name>French</name>
@@ -482,6 +550,9 @@
     <treatytech>DETreatyShadow</treatytech>
     <empirewarstech>DEEmpireWars</empirewarstech>
     <buildingefficiency>0.3</buildingefficiency>
+    <freebuildingefficiency>1.0</freebuildingefficiency>
+    <investmentamount>300</investmentamount>
+    <investmentcap>1500</investmentcap>
     <gold>0</gold>
     <food>0</food>
     <wood>0</wood>
@@ -675,6 +746,38 @@
         <count>3</count>
       </unitcounts>
     </multipleblocktrain>
+    <multipleblocktrain>
+      <building>TradingPost</building>
+      <multipleblockunit>deNatRoyalHorsemanBourbonProxy</multipleblockunit>
+      <units>
+        <unit>deMercRoyalHorseman</unit>
+      </units>
+      <unitcounts>
+        <count>1</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>deSPCCommandPost</building>
+      <multipleblockunit>deTrainCommandPostWagon</multipleblockunit>
+      <units>
+        <unit>deCommandWagon</unit>
+      </units>
+      <unitcounts>
+        <count>1</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>deSPCCommandPost</building>
+      <multipleblockunit>deSPCSiegeForceBatch</multipleblockunit>
+      <units>
+        <unit>deSPCGreatBombardNoPop</unit>
+        <unit>deSPCJanissaryNoPop</unit>
+      </units>
+      <unitcounts>
+        <count>1</count>
+        <count>12</count>
+      </unitcounts>
+    </multipleblocktrain>
   </civ>
   <civ>
     <name>Portuguese</name>
@@ -714,6 +817,9 @@
     <treatytech>DETreatyShadow</treatytech>
     <empirewarstech>DEEmpireWars</empirewarstech>
     <buildingefficiency>0.3</buildingefficiency>
+    <freebuildingefficiency>1.0</freebuildingefficiency>
+    <investmentamount>300</investmentamount>
+    <investmentcap>1500</investmentcap>
     <gold>0</gold>
     <food>0</food>
     <wood>0</wood>
@@ -900,6 +1006,38 @@
         <count>3</count>
       </unitcounts>
     </multipleblocktrain>
+    <multipleblocktrain>
+      <building>TradingPost</building>
+      <multipleblockunit>deNatRoyalHorsemanBourbonProxy</multipleblockunit>
+      <units>
+        <unit>deMercRoyalHorseman</unit>
+      </units>
+      <unitcounts>
+        <count>1</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>deSPCCommandPost</building>
+      <multipleblockunit>deTrainCommandPostWagon</multipleblockunit>
+      <units>
+        <unit>deCommandWagon</unit>
+      </units>
+      <unitcounts>
+        <count>1</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>deSPCCommandPost</building>
+      <multipleblockunit>deSPCSiegeForceBatch</multipleblockunit>
+      <units>
+        <unit>deSPCGreatBombardNoPop</unit>
+        <unit>deSPCJanissaryNoPop</unit>
+      </units>
+      <unitcounts>
+        <count>1</count>
+        <count>12</count>
+      </unitcounts>
+    </multipleblocktrain>
   </civ>
   <civ>
     <name>Dutch</name>
@@ -939,6 +1077,9 @@
     <treatytech>DETreatyShadow</treatytech>
     <empirewarstech>DEEmpireWars</empirewarstech>
     <buildingefficiency>0.3</buildingefficiency>
+    <freebuildingefficiency>1.0</freebuildingefficiency>
+    <investmentamount>300</investmentamount>
+    <investmentcap>1500</investmentcap>
     <gold>0</gold>
     <food>0</food>
     <wood>0</wood>
@@ -1127,6 +1268,38 @@
         <count>3</count>
       </unitcounts>
     </multipleblocktrain>
+    <multipleblocktrain>
+      <building>TradingPost</building>
+      <multipleblockunit>deNatRoyalHorsemanBourbonProxy</multipleblockunit>
+      <units>
+        <unit>deMercRoyalHorseman</unit>
+      </units>
+      <unitcounts>
+        <count>1</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>deSPCCommandPost</building>
+      <multipleblockunit>deTrainCommandPostWagon</multipleblockunit>
+      <units>
+        <unit>deCommandWagon</unit>
+      </units>
+      <unitcounts>
+        <count>1</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>deSPCCommandPost</building>
+      <multipleblockunit>deSPCSiegeForceBatch</multipleblockunit>
+      <units>
+        <unit>deSPCGreatBombardNoPop</unit>
+        <unit>deSPCJanissaryNoPop</unit>
+      </units>
+      <unitcounts>
+        <count>1</count>
+        <count>12</count>
+      </unitcounts>
+    </multipleblocktrain>
   </civ>
   <civ>
     <name>Russians</name>
@@ -1166,6 +1339,9 @@
     <treatytech>DETreatyShadow</treatytech>
     <empirewarstech>DEEmpireWars</empirewarstech>
     <buildingefficiency>0.3</buildingefficiency>
+    <freebuildingefficiency>1.0</freebuildingefficiency>
+    <investmentamount>300</investmentamount>
+    <investmentcap>1500</investmentcap>
     <gold>0</gold>
     <food>0</food>
     <wood>0</wood>
@@ -1245,6 +1421,11 @@
     </unitregen>
     <blocktrain>
       <building>TownCenter</building>
+      <unit>Settler</unit>
+      <count>3</count>
+    </blocktrain>
+    <blocktrain>
+      <building>deSPCCommandPost</building>
       <unit>Settler</unit>
       <count>3</count>
     </blocktrain>
@@ -1363,6 +1544,38 @@
         <count>3</count>
       </unitcounts>
     </multipleblocktrain>
+    <multipleblocktrain>
+      <building>TradingPost</building>
+      <multipleblockunit>deNatRoyalHorsemanBourbonProxy</multipleblockunit>
+      <units>
+        <unit>deMercRoyalHorseman</unit>
+      </units>
+      <unitcounts>
+        <count>1</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>deSPCCommandPost</building>
+      <multipleblockunit>deTrainCommandPostWagon</multipleblockunit>
+      <units>
+        <unit>deCommandWagon</unit>
+      </units>
+      <unitcounts>
+        <count>1</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>deSPCCommandPost</building>
+      <multipleblockunit>deSPCSiegeForceBatch</multipleblockunit>
+      <units>
+        <unit>deSPCGreatBombardNoPop</unit>
+        <unit>deSPCJanissaryNoPop</unit>
+      </units>
+      <unitcounts>
+        <count>1</count>
+        <count>12</count>
+      </unitcounts>
+    </multipleblocktrain>
   </civ>
   <civ>
     <name>Germans</name>
@@ -1403,6 +1616,9 @@
     <treatytech>DETreatyShadow</treatytech>
     <empirewarstech>DEEmpireWars</empirewarstech>
     <buildingefficiency>0.3</buildingefficiency>
+    <freebuildingefficiency>1.0</freebuildingefficiency>
+    <investmentamount>300</investmentamount>
+    <investmentcap>1500</investmentcap>
     <gold>0</gold>
     <food>0</food>
     <wood>0</wood>
@@ -1568,6 +1784,38 @@
         <count>3</count>
       </unitcounts>
     </multipleblocktrain>
+    <multipleblocktrain>
+      <building>TradingPost</building>
+      <multipleblockunit>deNatRoyalHorsemanBourbonProxy</multipleblockunit>
+      <units>
+        <unit>deMercRoyalHorseman</unit>
+      </units>
+      <unitcounts>
+        <count>1</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>deSPCCommandPost</building>
+      <multipleblockunit>deTrainCommandPostWagon</multipleblockunit>
+      <units>
+        <unit>deCommandWagon</unit>
+      </units>
+      <unitcounts>
+        <count>1</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>deSPCCommandPost</building>
+      <multipleblockunit>deSPCSiegeForceBatch</multipleblockunit>
+      <units>
+        <unit>deSPCGreatBombardNoPop</unit>
+        <unit>deSPCJanissaryNoPop</unit>
+      </units>
+      <unitcounts>
+        <count>1</count>
+        <count>12</count>
+      </unitcounts>
+    </multipleblocktrain>
   </civ>
   <civ>
     <name>Ottomans</name>
@@ -1607,6 +1855,9 @@
     <treatytech>DETreatyShadow</treatytech>
     <empirewarstech>DEEmpireWars</empirewarstech>
     <buildingefficiency>0.3</buildingefficiency>
+    <freebuildingefficiency>1.0</freebuildingefficiency>
+    <investmentamount>300</investmentamount>
+    <investmentcap>1500</investmentcap>
     <gold>0</gold>
     <food>0</food>
     <wood>0</wood>
@@ -1779,6 +2030,38 @@
         <count>3</count>
       </unitcounts>
     </multipleblocktrain>
+    <multipleblocktrain>
+      <building>TradingPost</building>
+      <multipleblockunit>deNatRoyalHorsemanBourbonProxy</multipleblockunit>
+      <units>
+        <unit>deMercRoyalHorseman</unit>
+      </units>
+      <unitcounts>
+        <count>1</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>deSPCCommandPost</building>
+      <multipleblockunit>deTrainCommandPostWagon</multipleblockunit>
+      <units>
+        <unit>deCommandWagon</unit>
+      </units>
+      <unitcounts>
+        <count>1</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>deSPCCommandPost</building>
+      <multipleblockunit>deSPCSiegeForceBatch</multipleblockunit>
+      <units>
+        <unit>deSPCGreatBombardNoPop</unit>
+        <unit>deSPCJanissaryNoPop</unit>
+      </units>
+      <unitcounts>
+        <count>1</count>
+        <count>12</count>
+      </unitcounts>
+    </multipleblocktrain>
   </civ>
   <civ>
     <name>SPCAct1</name>
@@ -1812,6 +2095,7 @@
       <tech>ImperializeSPCAct1</tech>
     </agetech>
     <buildingefficiency>0.3</buildingefficiency>
+    <freebuildingefficiency>1.0</freebuildingefficiency>
     <gold>0</gold>
     <food>0</food>
     <wood>0</wood>
@@ -1896,6 +2180,7 @@
       <tech>ImperializeSPCAct2</tech>
     </agetech>
     <buildingefficiency>0.3</buildingefficiency>
+    <freebuildingefficiency>1.0</freebuildingefficiency>
     <gold>0</gold>
     <food>0</food>
     <wood>0</wood>
@@ -1974,6 +2259,7 @@
       <tech>ImperializeSPCAct3</tech>
     </agetech>
     <buildingefficiency>0.3</buildingefficiency>
+    <freebuildingefficiency>1.0</freebuildingefficiency>
     <gold>0</gold>
     <food>0</food>
     <wood>0</wood>
@@ -2059,6 +2345,7 @@
       <tech>ImperializeBritish</tech>
     </agetech>
     <buildingefficiency>0.3</buildingefficiency>
+    <freebuildingefficiency>1.0</freebuildingefficiency>
     <gold>0</gold>
     <food>0</food>
     <wood>0</wood>
@@ -2127,6 +2414,7 @@
       <tech>ImperializeBritish</tech>
     </agetech>
     <buildingefficiency>0.3</buildingefficiency>
+    <freebuildingefficiency>1.0</freebuildingefficiency>
     <gold>0</gold>
     <food>0</food>
     <wood>0</wood>
@@ -2187,6 +2475,7 @@
       <tech>ImperializeBritish</tech>
     </agetech>
     <buildingefficiency>0.3</buildingefficiency>
+    <freebuildingefficiency>1.0</freebuildingefficiency>
     <gold>0</gold>
     <food>0</food>
     <wood>0</wood>
@@ -2247,6 +2536,9 @@
     <treatytech>DETreatyShadow</treatytech>
     <empirewarstech>DEEmpireWars</empirewarstech>
     <buildingefficiency>0.3</buildingefficiency>
+    <freebuildingefficiency>1.0</freebuildingefficiency>
+    <investmentamount>300</investmentamount>
+    <investmentcap>1500</investmentcap>
     <gold>0</gold>
     <food>0</food>
     <wood>0</wood>
@@ -2423,6 +2715,38 @@
         <count>3</count>
       </unitcounts>
     </multipleblocktrain>
+    <multipleblocktrain>
+      <building>TradingPost</building>
+      <multipleblockunit>deNatRoyalHorsemanBourbonProxy</multipleblockunit>
+      <units>
+        <unit>deMercRoyalHorseman</unit>
+      </units>
+      <unitcounts>
+        <count>1</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>deSPCCommandPost</building>
+      <multipleblockunit>deTrainCommandPostWagon</multipleblockunit>
+      <units>
+        <unit>deCommandWagon</unit>
+      </units>
+      <unitcounts>
+        <count>1</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>deSPCCommandPost</building>
+      <multipleblockunit>deSPCSiegeForceBatch</multipleblockunit>
+      <units>
+        <unit>deSPCGreatBombardNoPop</unit>
+        <unit>deSPCJanissaryNoPop</unit>
+      </units>
+      <unitcounts>
+        <count>1</count>
+        <count>12</count>
+      </unitcounts>
+    </multipleblocktrain>
   </civ>
   <civ>
     <name>XPSioux</name>
@@ -2465,6 +2789,9 @@
     <treatytech>DETreatyShadow</treatytech>
     <empirewarstech>DEEmpireWars</empirewarstech>
     <buildingefficiency>0.3</buildingefficiency>
+    <freebuildingefficiency>1.0</freebuildingefficiency>
+    <investmentamount>300</investmentamount>
+    <investmentcap>1500</investmentcap>
     <gold>0</gold>
     <food>0</food>
     <wood>0</wood>
@@ -2639,6 +2966,38 @@
         <count>3</count>
       </unitcounts>
     </multipleblocktrain>
+    <multipleblocktrain>
+      <building>TradingPost</building>
+      <multipleblockunit>deNatRoyalHorsemanBourbonProxy</multipleblockunit>
+      <units>
+        <unit>deMercRoyalHorseman</unit>
+      </units>
+      <unitcounts>
+        <count>1</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>deSPCCommandPost</building>
+      <multipleblockunit>deTrainCommandPostWagon</multipleblockunit>
+      <units>
+        <unit>deCommandWagon</unit>
+      </units>
+      <unitcounts>
+        <count>1</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>deSPCCommandPost</building>
+      <multipleblockunit>deSPCSiegeForceBatch</multipleblockunit>
+      <units>
+        <unit>deSPCGreatBombardNoPop</unit>
+        <unit>deSPCJanissaryNoPop</unit>
+      </units>
+      <unitcounts>
+        <count>1</count>
+        <count>12</count>
+      </unitcounts>
+    </multipleblocktrain>
   </civ>
   <civ>
     <name>XPAztec</name>
@@ -2687,6 +3046,9 @@
       <age4>8000.00</age4>
     </maximumageupresourcecost>
     <buildingefficiency>0.3</buildingefficiency>
+    <freebuildingefficiency>1.0</freebuildingefficiency>
+    <investmentamount>300</investmentamount>
+    <investmentcap>1500</investmentcap>
     <gold>0</gold>
     <food>0</food>
     <wood>0</wood>
@@ -2864,6 +3226,38 @@
         <count>3</count>
       </unitcounts>
     </multipleblocktrain>
+    <multipleblocktrain>
+      <building>TradingPost</building>
+      <multipleblockunit>deNatRoyalHorsemanBourbonProxy</multipleblockunit>
+      <units>
+        <unit>deMercRoyalHorseman</unit>
+      </units>
+      <unitcounts>
+        <count>1</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>deSPCCommandPost</building>
+      <multipleblockunit>deTrainCommandPostWagon</multipleblockunit>
+      <units>
+        <unit>deCommandWagon</unit>
+      </units>
+      <unitcounts>
+        <count>1</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>deSPCCommandPost</building>
+      <multipleblockunit>deSPCSiegeForceBatch</multipleblockunit>
+      <units>
+        <unit>deSPCGreatBombardNoPop</unit>
+        <unit>deSPCJanissaryNoPop</unit>
+      </units>
+      <unitcounts>
+        <count>1</count>
+        <count>12</count>
+      </unitcounts>
+    </multipleblocktrain>
   </civ>
   <civ>
     <name>XPSPC</name>
@@ -2897,6 +3291,7 @@
       <tech>ImperializeXPSPC</tech>
     </agetech>
     <buildingefficiency>0.3</buildingefficiency>
+    <freebuildingefficiency>1.0</freebuildingefficiency>
     <gold>0</gold>
     <food>0</food>
     <wood>0</wood>
@@ -2968,6 +3363,16 @@
         <count>1</count>
       </unitcounts>
     </multipleblocktrain>
+    <multipleblocktrain>
+      <building>TradingPost</building>
+      <multipleblockunit>deNatRoyalHorsemanBourbonProxy</multipleblockunit>
+      <units>
+        <unit>deMercRoyalHorseman</unit>
+      </units>
+      <unitcounts>
+        <count>1</count>
+      </unitcounts>
+    </multipleblocktrain>
     <visible>0</visible>
     <visibleineditor>1</visibleineditor>
   </civ>
@@ -3024,6 +3429,9 @@
     <treatytech>DETreatyShadow</treatytech>
     <empirewarstech>DEEmpireWars</empirewarstech>
     <buildingefficiency>0.3</buildingefficiency>
+    <freebuildingefficiency>1.0</freebuildingefficiency>
+    <investmentamount>300</investmentamount>
+    <investmentcap>1500</investmentcap>
     <gold>0</gold>
     <food>0</food>
     <wood>0</wood>
@@ -3448,7 +3856,39 @@
         <count>1</count>
       </unitcounts>
     </multipleblocktrain>
+    <multipleblocktrain>
+      <building>TradingPost</building>
+      <multipleblockunit>deNatRoyalHorsemanBourbonProxy</multipleblockunit>
+      <units>
+        <unit>deMercRoyalHorseman</unit>
+      </units>
+      <unitcounts>
+        <count>1</count>
+      </unitcounts>
+    </multipleblocktrain>
     <key>J</key>
+    <multipleblocktrain>
+      <building>deSPCCommandPost</building>
+      <multipleblockunit>deTrainCommandPostWagon</multipleblockunit>
+      <units>
+        <unit>deCommandWagon</unit>
+      </units>
+      <unitcounts>
+        <count>1</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>deSPCCommandPost</building>
+      <multipleblockunit>deSPCSiegeForceBatch</multipleblockunit>
+      <units>
+        <unit>deSPCGreatBombardNoPop</unit>
+        <unit>deSPCJanissaryNoPop</unit>
+      </units>
+      <unitcounts>
+        <count>1</count>
+        <count>12</count>
+      </unitcounts>
+    </multipleblocktrain>
   </civ>
   <civ>
     <name>Chinese</name>
@@ -3502,6 +3942,9 @@
     <treatytech>DETreatyShadow</treatytech>
     <empirewarstech>DEEmpireWars</empirewarstech>
     <buildingefficiency>0.3</buildingefficiency>
+    <freebuildingefficiency>1.0</freebuildingefficiency>
+    <investmentamount>300</investmentamount>
+    <investmentcap>1500</investmentcap>
     <gold>0</gold>
     <food>0</food>
     <wood>0</wood>
@@ -4796,7 +5239,39 @@
         <count>3</count>
       </unitcounts>
     </multipleblocktrain>
+    <multipleblocktrain>
+      <building>TradingPost</building>
+      <multipleblockunit>deNatRoyalHorsemanBourbonProxy</multipleblockunit>
+      <units>
+        <unit>deMercRoyalHorseman</unit>
+      </units>
+      <unitcounts>
+        <count>1</count>
+      </unitcounts>
+    </multipleblocktrain>
     <key>C</key>
+    <multipleblocktrain>
+      <building>deSPCCommandPost</building>
+      <multipleblockunit>deTrainCommandPostWagon</multipleblockunit>
+      <units>
+        <unit>deCommandWagon</unit>
+      </units>
+      <unitcounts>
+        <count>1</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>deSPCCommandPost</building>
+      <multipleblockunit>deSPCSiegeForceBatch</multipleblockunit>
+      <units>
+        <unit>deSPCGreatBombardNoPop</unit>
+        <unit>deSPCJanissaryNoPop</unit>
+      </units>
+      <unitcounts>
+        <count>1</count>
+        <count>12</count>
+      </unitcounts>
+    </multipleblocktrain>
   </civ>
   <civ>
     <name>Indians</name>
@@ -4813,7 +5288,7 @@
     <alliedid>26446</alliedid>
     <alliedotherid>26445</alliedotherid>
     <unalliedid>26444</unalliedid>
-    <hcshipmentmodifier>1.075</hcshipmentmodifier>
+    <hcshipmentmodifier>1.080</hcshipmentmodifier>
     <additionalwonderbuildrate>0.091</additionalwonderbuildrate>
     <additionalwonderbuildrate>0.1</additionalwonderbuildrate>
     <additionalwonderbuildrate>0.111</additionalwonderbuildrate>
@@ -4848,6 +5323,9 @@
     <treatytech>DETreatyShadow</treatytech>
     <empirewarstech>DEEmpireWars</empirewarstech>
     <buildingefficiency>0.3</buildingefficiency>
+    <freebuildingefficiency>1.0</freebuildingefficiency>
+    <investmentamount>300</investmentamount>
+    <investmentcap>1500</investmentcap>
     <gold>0</gold>
     <food>0</food>
     <wood>0</wood>
@@ -5210,7 +5688,39 @@
         <count>3</count>
       </unitcounts>
     </multipleblocktrain>
+    <multipleblocktrain>
+      <building>TradingPost</building>
+      <multipleblockunit>deNatRoyalHorsemanBourbonProxy</multipleblockunit>
+      <units>
+        <unit>deMercRoyalHorseman</unit>
+      </units>
+      <unitcounts>
+        <count>1</count>
+      </unitcounts>
+    </multipleblocktrain>
     <key>I</key>
+    <multipleblocktrain>
+      <building>deSPCCommandPost</building>
+      <multipleblockunit>deTrainCommandPostWagon</multipleblockunit>
+      <units>
+        <unit>deCommandWagon</unit>
+      </units>
+      <unitcounts>
+        <count>1</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>deSPCCommandPost</building>
+      <multipleblockunit>deSPCSiegeForceBatch</multipleblockunit>
+      <units>
+        <unit>deSPCGreatBombardNoPop</unit>
+        <unit>deSPCJanissaryNoPop</unit>
+      </units>
+      <unitcounts>
+        <count>1</count>
+        <count>12</count>
+      </unitcounts>
+    </multipleblocktrain>
   </civ>
   <civ>
     <name>SPCJapanese</name>
@@ -5258,6 +5768,7 @@
       <tech>YPImperializeJapanese</tech>
     </agetech>
     <buildingefficiency>0.3</buildingefficiency>
+    <freebuildingefficiency>1.0</freebuildingefficiency>
     <gold>0</gold>
     <food>0</food>
     <wood>0</wood>
@@ -5517,6 +6028,7 @@
       <tech>YPImperializeChinese</tech>
     </agetech>
     <buildingefficiency>0.3</buildingefficiency>
+    <freebuildingefficiency>1.0</freebuildingefficiency>
     <gold>0</gold>
     <food>0</food>
     <wood>0</wood>
@@ -6581,6 +7093,7 @@
       <tech>YPImperializeIndians</tech>
     </agetech>
     <buildingefficiency>0.3</buildingefficiency>
+    <freebuildingefficiency>1.0</freebuildingefficiency>
     <gold>0</gold>
     <food>0</food>
     <wood>0</wood>
@@ -6857,6 +7370,7 @@
     <postindustrialtech>PostIndustrialBritish</postindustrialtech>
     <postimperialtech>PostImperialBritish</postimperialtech>
     <buildingefficiency>0.3</buildingefficiency>
+    <freebuildingefficiency>1.0</freebuildingefficiency>
     <gold>0</gold>
     <food>0</food>
     <wood>0</wood>
@@ -6921,6 +7435,16 @@
         <count>1</count>
       </unitcounts>
     </multipleblocktrain>
+    <multipleblocktrain>
+      <building>TradingPost</building>
+      <multipleblockunit>deNatRoyalHorsemanBourbonProxy</multipleblockunit>
+      <units>
+        <unit>deMercRoyalHorseman</unit>
+      </units>
+      <unitcounts>
+        <count>1</count>
+      </unitcounts>
+    </multipleblocktrain>
     <visible>0</visible>
     <visibleineditor>1</visibleineditor>
   </civ>
@@ -6970,6 +7494,7 @@
       <tech>YPImperializeJapanese</tech>
     </agetech>
     <buildingefficiency>0.3</buildingefficiency>
+    <freebuildingefficiency>1.0</freebuildingefficiency>
     <gold>0</gold>
     <food>0</food>
     <wood>0</wood>
@@ -7215,6 +7740,9 @@
     <treatytech>DETreatyShadow</treatytech>
     <empirewarstech>DEEmpireWars</empirewarstech>
     <buildingefficiency>0.3</buildingefficiency>
+    <freebuildingefficiency>1.0</freebuildingefficiency>
+    <investmentamount>300</investmentamount>
+    <investmentcap>1500</investmentcap>
     <gold>0</gold>
     <food>0</food>
     <wood>0</wood>
@@ -7389,6 +7917,38 @@
         <count>3</count>
       </unitcounts>
     </multipleblocktrain>
+    <multipleblocktrain>
+      <building>TradingPost</building>
+      <multipleblockunit>deNatRoyalHorsemanBourbonProxy</multipleblockunit>
+      <units>
+        <unit>deMercRoyalHorseman</unit>
+      </units>
+      <unitcounts>
+        <count>1</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>deSPCCommandPost</building>
+      <multipleblockunit>deTrainCommandPostWagon</multipleblockunit>
+      <units>
+        <unit>deCommandWagon</unit>
+      </units>
+      <unitcounts>
+        <count>1</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>deSPCCommandPost</building>
+      <multipleblockunit>deSPCSiegeForceBatch</multipleblockunit>
+      <units>
+        <unit>deSPCGreatBombardNoPop</unit>
+        <unit>deSPCJanissaryNoPop</unit>
+      </units>
+      <unitcounts>
+        <count>1</count>
+        <count>12</count>
+      </unitcounts>
+    </multipleblocktrain>
   </civ>
   <civ>
     <name>DESwedish</name>
@@ -7429,6 +7989,9 @@
     <treatytech>DETreatyShadow</treatytech>
     <empirewarstech>DEEmpireWars</empirewarstech>
     <buildingefficiency>0.3</buildingefficiency>
+    <freebuildingefficiency>1.0</freebuildingefficiency>
+    <investmentamount>300</investmentamount>
+    <investmentcap>1500</investmentcap>
     <gold>0</gold>
     <food>0</food>
     <wood>0</wood>
@@ -7613,6 +8176,38 @@
         <count>3</count>
       </unitcounts>
     </multipleblocktrain>
+    <multipleblocktrain>
+      <building>TradingPost</building>
+      <multipleblockunit>deNatRoyalHorsemanBourbonProxy</multipleblockunit>
+      <units>
+        <unit>deMercRoyalHorseman</unit>
+      </units>
+      <unitcounts>
+        <count>1</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>deSPCCommandPost</building>
+      <multipleblockunit>deTrainCommandPostWagon</multipleblockunit>
+      <units>
+        <unit>deCommandWagon</unit>
+      </units>
+      <unitcounts>
+        <count>1</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>deSPCCommandPost</building>
+      <multipleblockunit>deSPCSiegeForceBatch</multipleblockunit>
+      <units>
+        <unit>deSPCGreatBombardNoPop</unit>
+        <unit>deSPCJanissaryNoPop</unit>
+      </units>
+      <unitcounts>
+        <count>1</count>
+        <count>12</count>
+      </unitcounts>
+    </multipleblocktrain>
   </civ>
   <civ>
     <name>SPCBarbaryPirates</name>
@@ -7646,6 +8241,7 @@
     <postindustrialtech>PostIndustrialOttoman</postindustrialtech>
     <postimperialtech>PostImperialOttoman</postimperialtech>
     <buildingefficiency>0.3</buildingefficiency>
+    <freebuildingefficiency>1.0</freebuildingefficiency>
     <gold>0</gold>
     <food>0</food>
     <wood>0</wood>
@@ -7710,6 +8306,16 @@
         <count>1</count>
       </unitcounts>
     </multipleblocktrain>
+    <multipleblocktrain>
+      <building>TradingPost</building>
+      <multipleblockunit>deNatRoyalHorsemanBourbonProxy</multipleblockunit>
+      <units>
+        <unit>deMercRoyalHorseman</unit>
+      </units>
+      <unitcounts>
+        <count>1</count>
+      </unitcounts>
+    </multipleblocktrain>
     <visible>0</visible>
     <visibleineditor>1</visibleineditor>
   </civ>
@@ -7740,6 +8346,7 @@
       <tech>ImperializeSPCAct3</tech>
     </agetech>
     <buildingefficiency>0.3</buildingefficiency>
+    <freebuildingefficiency>1.0</freebuildingefficiency>
     <gold>0</gold>
     <food>0</food>
     <wood>0</wood>
@@ -7805,6 +8412,16 @@
         <count>1</count>
       </unitcounts>
     </multipleblocktrain>
+    <multipleblocktrain>
+      <building>TradingPost</building>
+      <multipleblockunit>deNatRoyalHorsemanBourbonProxy</multipleblockunit>
+      <units>
+        <unit>deMercRoyalHorseman</unit>
+      </units>
+      <unitcounts>
+        <count>1</count>
+      </unitcounts>
+    </multipleblocktrain>
     <visible>0</visible>
     <visibleineditor>1</visibleineditor>
   </civ>
@@ -7837,6 +8454,7 @@
     <postindustrialtech>PostIndustrialRussian</postindustrialtech>
     <postimperialtech>PostImperialRussian</postimperialtech>
     <buildingefficiency>0.3</buildingefficiency>
+    <freebuildingefficiency>1.0</freebuildingefficiency>
     <gold>0</gold>
     <food>0</food>
     <wood>0</wood>
@@ -7898,6 +8516,16 @@
       <multipleblockunit>deNatSudaneseSennarProxy</multipleblockunit>
       <units>
         <unit>deMercSudaneseRider</unit>
+      </units>
+      <unitcounts>
+        <count>1</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>TradingPost</building>
+      <multipleblockunit>deNatRoyalHorsemanBourbonProxy</multipleblockunit>
+      <units>
+        <unit>deMercRoyalHorseman</unit>
       </units>
       <unitcounts>
         <count>1</count>
@@ -7974,6 +8602,16 @@
         <count>1</count>
       </unitcounts>
     </multipleblocktrain>
+    <multipleblocktrain>
+      <building>TradingPost</building>
+      <multipleblockunit>deNatRoyalHorsemanBourbonProxy</multipleblockunit>
+      <units>
+        <unit>deMercRoyalHorseman</unit>
+      </units>
+      <unitcounts>
+        <count>1</count>
+      </unitcounts>
+    </multipleblocktrain>
     <visible>0</visible>
     <visibleineditor>1</visibleineditor>
   </civ>
@@ -8039,6 +8677,16 @@
       <multipleblockunit>deNatSudaneseSennarProxy</multipleblockunit>
       <units>
         <unit>deMercSudaneseRider</unit>
+      </units>
+      <unitcounts>
+        <count>1</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>TradingPost</building>
+      <multipleblockunit>deNatRoyalHorsemanBourbonProxy</multipleblockunit>
+      <units>
+        <unit>deMercRoyalHorseman</unit>
       </units>
       <unitcounts>
         <count>1</count>
@@ -8165,6 +8813,7 @@
       <tech>ImperializeXPSPCFalcon</tech>
     </agetech>
     <buildingefficiency>0.3</buildingefficiency>
+    <freebuildingefficiency>1.0</freebuildingefficiency>
     <gold>0</gold>
     <food>0</food>
     <wood>0</wood>
@@ -8225,6 +8874,16 @@
         <count>1</count>
       </unitcounts>
     </multipleblocktrain>
+    <multipleblocktrain>
+      <building>TradingPost</building>
+      <multipleblockunit>deNatRoyalHorsemanBourbonProxy</multipleblockunit>
+      <units>
+        <unit>deMercRoyalHorseman</unit>
+      </units>
+      <unitcounts>
+        <count>1</count>
+      </unitcounts>
+    </multipleblocktrain>
     <visible>0</visible>
     <visibleineditor>1</visibleineditor>
   </civ>
@@ -8260,6 +8919,7 @@
       <tech>ImperializeXPSPCLakota</tech>
     </agetech>
     <buildingefficiency>0.3</buildingefficiency>
+    <freebuildingefficiency>1.0</freebuildingefficiency>
     <gold>0</gold>
     <food>0</food>
     <wood>0</wood>
@@ -8320,6 +8980,16 @@
         <count>1</count>
       </unitcounts>
     </multipleblocktrain>
+    <multipleblocktrain>
+      <building>TradingPost</building>
+      <multipleblockunit>deNatRoyalHorsemanBourbonProxy</multipleblockunit>
+      <units>
+        <unit>deMercRoyalHorseman</unit>
+      </units>
+      <unitcounts>
+        <count>1</count>
+      </unitcounts>
+    </multipleblocktrain>
     <visible>0</visible>
     <visibleineditor>1</visibleineditor>
   </civ>
@@ -8362,6 +9032,9 @@
     <treatytech>DETreatyShadow</treatytech>
     <empirewarstech>DEEmpireWars</empirewarstech>
     <buildingefficiency>0.3</buildingefficiency>
+    <freebuildingefficiency>1.0</freebuildingefficiency>
+    <investmentamount>300</investmentamount>
+    <investmentcap>1500</investmentcap>
     <gold>0</gold>
     <food>0</food>
     <wood>0</wood>
@@ -8790,6 +9463,38 @@
         <count>3</count>
       </unitcounts>
     </multipleblocktrain>
+    <multipleblocktrain>
+      <building>TradingPost</building>
+      <multipleblockunit>deNatRoyalHorsemanBourbonProxy</multipleblockunit>
+      <units>
+        <unit>deMercRoyalHorseman</unit>
+      </units>
+      <unitcounts>
+        <count>1</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>deSPCCommandPost</building>
+      <multipleblockunit>deTrainCommandPostWagon</multipleblockunit>
+      <units>
+        <unit>deCommandWagon</unit>
+      </units>
+      <unitcounts>
+        <count>1</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>deSPCCommandPost</building>
+      <multipleblockunit>deSPCSiegeForceBatch</multipleblockunit>
+      <units>
+        <unit>deSPCGreatBombardNoPop</unit>
+        <unit>deSPCJanissaryNoPop</unit>
+      </units>
+      <unitcounts>
+        <count>1</count>
+        <count>12</count>
+      </unitcounts>
+    </multipleblocktrain>
   </civ>
   <civ>
     <name>DEEthiopians</name>
@@ -8831,6 +9536,9 @@
     <treatytech>DETreatyShadow</treatytech>
     <empirewarstech>DEEmpireWars</empirewarstech>
     <buildingefficiency>0.3</buildingefficiency>
+    <freebuildingefficiency>1.0</freebuildingefficiency>
+    <investmentamount>300</investmentamount>
+    <investmentcap>1500</investmentcap>
     <gold>0</gold>
     <food>0</food>
     <wood>0</wood>
@@ -8965,6 +9673,16 @@
       </unitcounts>
     </multipleblocktrain>
     <multipleblocktrain>
+      <building>TradingPost</building>
+      <multipleblockunit>deNatRoyalHorsemanBourbonProxy</multipleblockunit>
+      <units>
+        <unit>deMercRoyalHorseman</unit>
+      </units>
+      <unitcounts>
+        <count>1</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
       <building>TownCenter</building>
       <multipleblockunit>deTrainArsenalWagon</multipleblockunit>
       <units>
@@ -9002,6 +9720,28 @@
       </units>
       <unitcounts>
         <count>1</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>deSPCCommandPost</building>
+      <multipleblockunit>deTrainCommandPostWagon</multipleblockunit>
+      <units>
+        <unit>deCommandWagon</unit>
+      </units>
+      <unitcounts>
+        <count>1</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>deSPCCommandPost</building>
+      <multipleblockunit>deSPCSiegeForceBatch</multipleblockunit>
+      <units>
+        <unit>deSPCGreatBombardNoPop</unit>
+        <unit>deSPCJanissaryNoPop</unit>
+      </units>
+      <unitcounts>
+        <count>1</count>
+        <count>12</count>
       </unitcounts>
     </multipleblocktrain>
     <multipleblocktrain>
@@ -9105,6 +9845,9 @@
     <treatytech>DETreatyShadow</treatytech>
     <empirewarstech>DEEmpireWars</empirewarstech>
     <buildingefficiency>0.3</buildingefficiency>
+    <freebuildingefficiency>1.0</freebuildingefficiency>
+    <investmentamount>300</investmentamount>
+    <investmentcap>1500</investmentcap>
     <gold>0</gold>
     <food>0</food>
     <wood>0</wood>
@@ -9232,6 +9975,16 @@
       </unitcounts>
     </multipleblocktrain>
     <multipleblocktrain>
+      <building>TradingPost</building>
+      <multipleblockunit>deNatRoyalHorsemanBourbonProxy</multipleblockunit>
+      <units>
+        <unit>deMercRoyalHorseman</unit>
+      </units>
+      <unitcounts>
+        <count>1</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
       <building>TownCenter</building>
       <multipleblockunit>deTrainArsenalWagon</multipleblockunit>
       <units>
@@ -9249,6 +10002,28 @@
       </units>
       <unitcounts>
         <count>1</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>deSPCCommandPost</building>
+      <multipleblockunit>deTrainCommandPostWagon</multipleblockunit>
+      <units>
+        <unit>deCommandWagon</unit>
+      </units>
+      <unitcounts>
+        <count>1</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>deSPCCommandPost</building>
+      <multipleblockunit>deSPCSiegeForceBatch</multipleblockunit>
+      <units>
+        <unit>deSPCGreatBombardNoPop</unit>
+        <unit>deSPCJanissaryNoPop</unit>
+      </units>
+      <unitcounts>
+        <count>1</count>
+        <count>12</count>
       </unitcounts>
     </multipleblocktrain>
     <multipleblocktrain>
@@ -9344,6 +10119,7 @@
     <postindustrialtech>PostIndustrialOttoman</postindustrialtech>
     <postimperialtech>PostImperialOttoman</postimperialtech>
     <buildingefficiency>0.3</buildingefficiency>
+    <freebuildingefficiency>1.0</freebuildingefficiency>
     <gold>0</gold>
     <food>0</food>
     <wood>0</wood>
@@ -9408,6 +10184,38 @@
         <count>1</count>
       </unitcounts>
     </multipleblocktrain>
+    <multipleblocktrain>
+      <building>TradingPost</building>
+      <multipleblockunit>deNatRoyalHorsemanBourbonProxy</multipleblockunit>
+      <units>
+        <unit>deMercRoyalHorseman</unit>
+      </units>
+      <unitcounts>
+        <count>1</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>deSPCCommandPost</building>
+      <multipleblockunit>deTrainCommandPostWagon</multipleblockunit>
+      <units>
+        <unit>deCommandWagon</unit>
+      </units>
+      <unitcounts>
+        <count>1</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>deSPCCommandPost</building>
+      <multipleblockunit>deSPCSiegeForceBatch</multipleblockunit>
+      <units>
+        <unit>deSPCGreatBombardNoPop</unit>
+        <unit>deSPCJanissaryNoPop</unit>
+      </units>
+      <unitcounts>
+        <count>1</count>
+        <count>12</count>
+      </unitcounts>
+    </multipleblocktrain>
     <visible>0</visible>
     <visibleineditor>1</visibleineditor>
   </civ>
@@ -9451,6 +10259,9 @@
     <additionalfoaktech>DEHCREVMXAnnexation</additionalfoaktech>
     <empirewarstech>DEEmpireWars</empirewarstech>
     <buildingefficiency>0.3</buildingefficiency>
+    <freebuildingefficiency>1.0</freebuildingefficiency>
+    <investmentamount>300</investmentamount>
+    <investmentcap>1500</investmentcap>
     <gold>0</gold>
     <food>0</food>
     <wood>0</wood>
@@ -9824,6 +10635,38 @@
         <count>3</count>
       </unitcounts>
     </multipleblocktrain>
+    <multipleblocktrain>
+      <building>TradingPost</building>
+      <multipleblockunit>deNatRoyalHorsemanBourbonProxy</multipleblockunit>
+      <units>
+        <unit>deMercRoyalHorseman</unit>
+      </units>
+      <unitcounts>
+        <count>1</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>deSPCCommandPost</building>
+      <multipleblockunit>deTrainCommandPostWagon</multipleblockunit>
+      <units>
+        <unit>deCommandWagon</unit>
+      </units>
+      <unitcounts>
+        <count>1</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>deSPCCommandPost</building>
+      <multipleblockunit>deSPCSiegeForceBatch</multipleblockunit>
+      <units>
+        <unit>deSPCGreatBombardNoPop</unit>
+        <unit>deSPCJanissaryNoPop</unit>
+      </units>
+      <unitcounts>
+        <count>1</count>
+        <count>12</count>
+      </unitcounts>
+    </multipleblocktrain>
   </civ>
   <civ>
     <name>SPCCanadians</name>
@@ -9857,6 +10700,7 @@
     <deathmatchtech>DEDeathMatch</deathmatchtech>
     <treatytech>DETreatyShadow</treatytech>
     <buildingefficiency>0.3</buildingefficiency>
+    <freebuildingefficiency>1.0</freebuildingefficiency>
     <gold>0</gold>
     <food>0</food>
     <wood>0</wood>
@@ -9918,6 +10762,539 @@
     </multipleblocktrain>
     <visible>0</visible>
     <visibleineditor>1</visibleineditor>
+  </civ>
+  <civ>
+    <name>DEItalians</name>
+    <main>1</main>
+    <statsid>IT</statsid>
+    <portrait>objects\flags\italian</portrait>
+    <culture>Mediterranean</culture>
+    <settlerprotoname>Settler</settlerprotoname>
+    <displaynameid>122000</displaynameid>
+    <rollovernameid>122001</rollovernameid>
+    <alliedid>26446</alliedid>
+    <alliedotherid>26445</alliedotherid>
+    <unalliedid>26444</unalliedid>
+    <hcshipmentmodifier>1.080</hcshipmentmodifier>
+    <agetech>
+      <age>Age0</age>
+      <tech>DEAge0Italians</tech>
+    </agetech>
+    <agetech>
+      <age>Age1</age>
+      <tech>DEColonializeItalians</tech>
+    </agetech>
+    <agetech>
+      <age>Age2</age>
+      <tech>DEFortressizeItalians</tech>
+    </agetech>
+    <agetech>
+      <age>Age3</age>
+      <tech>DEIndustrializeItalians</tech>
+    </agetech>
+    <agetech>
+      <age>Age4</age>
+      <tech>DEImperializeItalians</tech>
+    </agetech>
+    <postindustrialtech>DEPostIndustrialItalians</postindustrialtech>
+    <postimperialtech>DEPostImperialItalians</postimperialtech>
+    <deathmatchtech>DEDeathMatch</deathmatchtech>
+    <treatytech>DETreatyShadow</treatytech>
+    <empirewarstech>DEEmpireWars</empirewarstech>
+    <buildingefficiency>0.3</buildingefficiency>
+    <freebuildingefficiency>1.0</freebuildingefficiency>
+    <canpayfreefoundations>
+    </canpayfreefoundations>
+    <investmentamount>300</investmentamount>
+    <investmentcap>1500</investmentcap>
+    <gold>0</gold>
+    <food>0</food>
+    <wood>0</wood>
+    <startingunit>Explorer</startingunit>
+    <startingunit>deArchitect</startingunit>
+    <townstartingunit>Settler</townstartingunit>
+    <townstartingunit>Settler</townstartingunit>
+    <townstartingunit>Settler</townstartingunit>
+    <townstartingunit>CrateofFood</townstartingunit>
+    <townstartingunit>CrateofFood</townstartingunit>
+    <townstartingunit>CrateofFood</townstartingunit>
+    <townstartingunit>CrateofFood</townstartingunit>
+    <townstartingunit>CrateofFood</townstartingunit>
+    <townstartingunit>CrateofFood</townstartingunit>
+    <townstartingunit>CrateofWood</townstartingunit>
+    <townstartingunit>CrateofWood</townstartingunit>
+    <empirewarsstartingunit>Settler</empirewarsstartingunit>
+    <empirewarsstartingunit>Settler</empirewarsstartingunit>
+    <empirewarsstartingunit>Settler</empirewarsstartingunit>
+    <empirewarsstartingunit>Settler</empirewarsstartingunit>
+    <empirewarsstartingunit>Settler</empirewarsstartingunit>
+    <empirewarsstartingunit>Settler</empirewarsstartingunit>
+    <empirewarsstartingunit>deArchitect</empirewarsstartingunit>
+    <empirewarsstartingunit>OutpostWagon</empirewarsstartingunit>
+    <empirewarsstartingunit>deCrateofFoodLarge600</empirewarsstartingunit>
+    <empirewarsstartingunit>CrateofFoodLarge</empirewarsstartingunit>
+    <empirewarsstartingunit>CrateofFoodLarge</empirewarsstartingunit>
+    <empirewarsresources>
+      <food>100.00</food>
+      <wood>400.00</wood>
+      <gold>100.00</gold>
+      <xp>184.00</xp>
+      <ships>0</ships>
+    </empirewarsresources>
+    <empirewarsshipmentxpmaximummodifier>0.60</empirewarsshipmentxpmaximummodifier>
+    <empirewarsshipmentgrowthmodifier>0.95</empirewarsshipmentgrowthmodifier>
+    <empirewarsshipmentmodifier>1.0</empirewarsshipmentmodifier>
+    <empirewarsshipmentrates>
+      <age0>4.00</age0>
+      <age1>2.67</age1>
+      <age2>1.34</age2>
+      <age3>1.34</age3>
+    </empirewarsshipmentrates>
+    <empirewarsageuprates>
+      <age1>2.00</age1>
+      <age2>1.50</age2>
+      <age3>1.50</age3>
+      <age4>1.00</age4>
+    </empirewarsageuprates>
+    <randomstartingunits>0</randomstartingunits>
+    <homecityfilename>homecityitalians.xml</homecityfilename>
+    <homecityflagtexture>objects\flags\italian</homecityflagtexture>
+    <homecityflagiconwpf>resources/images/icons/flags/Flag_Italian.png</homecityflagiconwpf>
+    <homecitypreviewwpf>resources/images/icons/history/histories/h_pc_italian.png</homecitypreviewwpf>
+    <homecityflagbuttonwpf>resources\images\icons\flags\flag_hc_italian.png</homecityflagbuttonwpf>
+    <homecityflagbuttonset>spanishFlagBtn</homecityflagbuttonset>
+    <homecityflagbuttonsetlarge>spanishFlagBtnLarge</homecityflagbuttonsetlarge>
+    <postgameflagtexture>ui\ingame\ingame_ui_postgame_flag_italian</postgameflagtexture>
+    <postgameflagiconwpf>resources/images/icons/flags/postgame_flag_italian.png</postgameflagiconwpf>
+    <matchmakingtextures>
+      <bannertexture>ui\eso\civ_flags_quick_launch</bannertexture>
+      <bannertexturecoords>0 0 0.78125 0.125</bannertexturecoords>
+      <portraittexture>ui\eso\eso_quick_search_politicians_02</portraittexture>
+      <portraittexturecoords>0.4375 0.4296875 0.830078125 0.814453125</portraittexturecoords>
+      <smallportraittexturewpf>resources/images/icons/singleplayer/cpai_avatar_italian.png</smallportraittexturewpf>
+    </matchmakingtextures>
+    <unitregen>
+      <unittype>Hero</unittype>
+      <rate>0.25</rate>
+      <idletimeout>3.5</idletimeout>
+    </unitregen>
+    <unitregen>
+      <unittype>SPCBolivar</unittype>
+      <rate>0.25</rate>
+      <idletimeout>3.5</idletimeout>
+    </unitregen>
+    <multipleblocktrain>
+      <building>TownCenter</building>
+      <multipleblockunit>deREVVoluntarioBatch</multipleblockunit>
+      <units>
+        <unit>xpColonialMilitia</unit>
+      </units>
+      <unitcounts>
+        <count>9</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>TownCenter</building>
+      <multipleblockunit>deFedBisonBatch</multipleblockunit>
+      <units>
+        <unit>Bison</unit>
+      </units>
+      <unitcounts>
+        <count>3</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>TradingPost</building>
+      <multipleblockunit>deNatSomaliAskariProxy</multipleblockunit>
+      <units>
+        <unit>deMercAskari</unit>
+      </units>
+      <unitcounts>
+        <count>1</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>TradingPost</building>
+      <multipleblockunit>deNatSudaneseAskariProxy</multipleblockunit>
+      <units>
+        <unit>deMercAskari</unit>
+      </units>
+      <unitcounts>
+        <count>1</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>TradingPost</building>
+      <multipleblockunit>deNatSudaneseSennarProxy</multipleblockunit>
+      <units>
+        <unit>deMercSudaneseRider</unit>
+      </units>
+      <unitcounts>
+        <count>1</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>TradingPost</building>
+      <multipleblockunit>deNatRoyalHorsemanBourbonProxy</multipleblockunit>
+      <units>
+        <unit>deMercRoyalHorseman</unit>
+      </units>
+      <unitcounts>
+        <count>1</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>deSPCCommandPost</building>
+      <multipleblockunit>deTrainCommandPostWagon</multipleblockunit>
+      <units>
+        <unit>deCommandWagon</unit>
+      </units>
+      <unitcounts>
+        <count>1</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>deSPCCommandPost</building>
+      <multipleblockunit>deSPCSiegeForceBatch</multipleblockunit>
+      <units>
+        <unit>deSPCGreatBombardNoPop</unit>
+        <unit>deSPCJanissaryNoPop</unit>
+      </units>
+      <unitcounts>
+        <count>1</count>
+        <count>12</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoYumiArmy</multipleblockunit>
+      <units>
+        <unit>ypYumi</unit>
+      </units>
+      <unitcounts>
+        <count>5</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoAshigaruArmy</multipleblockunit>
+      <units>
+        <unit>ypAshigaru</unit>
+      </units>
+      <unitcounts>
+        <count>5</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoKenseiArmy</multipleblockunit>
+      <units>
+        <unit>ypKensei</unit>
+      </units>
+      <unitcounts>
+        <count>3</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoNaginataRiderArmy</multipleblockunit>
+      <units>
+        <unit>ypNaginataRider</unit>
+      </units>
+      <unitcounts>
+        <count>3</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoYabusameArmy</multipleblockunit>
+      <units>
+        <unit>ypYabusame</unit>
+      </units>
+      <unitcounts>
+        <count>3</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoShinobiArmy</multipleblockunit>
+      <units>
+        <unit>ypShinobiHorse</unit>
+      </units>
+      <unitcounts>
+        <count>3</count>
+      </unitcounts>
+    </multipleblocktrain>
+  </civ>
+  <civ>
+    <name>DEMaltese</name>
+    <main>1</main>
+    <statsid>MT</statsid>
+    <portrait>objects\flags\malta</portrait>
+    <culture>Mediterranean</culture>
+    <settlerprotoname>Settler</settlerprotoname>
+    <displaynameid>122010</displaynameid>
+    <rollovernameid>122011</rollovernameid>
+    <alliedid>26446</alliedid>
+    <alliedotherid>26445</alliedotherid>
+    <unalliedid>26444</unalliedid>
+    <agetech>
+      <age>Age0</age>
+      <tech>DEAge0Maltese</tech>
+    </agetech>
+    <agetech>
+      <age>Age1</age>
+      <tech>DEColonializeMaltese</tech>
+    </agetech>
+    <agetech>
+      <age>Age2</age>
+      <tech>DEFortressizeMaltese</tech>
+    </agetech>
+    <agetech>
+      <age>Age3</age>
+      <tech>DEIndustrializeMaltese</tech>
+    </agetech>
+    <agetech>
+      <age>Age4</age>
+      <tech>DEImperializeMaltese</tech>
+    </agetech>
+    <postindustrialtech>DEPostIndustrialMaltese</postindustrialtech>
+    <postimperialtech>DEPostImperialMaltese</postimperialtech>
+    <deathmatchtech>DEDeathMatch</deathmatchtech>
+    <treatytech>DETreatyShadow</treatytech>
+    <empirewarstech>DEEmpireWars</empirewarstech>
+    <buildingefficiency>0.3</buildingefficiency>
+    <freebuildingefficiency>1.0</freebuildingefficiency>
+    <investmentamount>300</investmentamount>
+    <investmentcap>1500</investmentcap>
+    <gold>0</gold>
+    <food>0</food>
+    <wood>0</wood>
+    <startingunit>deGrandMaster</startingunit>
+    <townstartingunit>Settler</townstartingunit>
+    <townstartingunit>Settler</townstartingunit>
+    <townstartingunit>Settler</townstartingunit>
+    <townstartingunit>Settler</townstartingunit>
+    <townstartingunit>Settler</townstartingunit>
+    <townstartingunit>Settler</townstartingunit>
+    <townstartingunit>CrateofFood</townstartingunit>
+    <townstartingunit>CrateofFood</townstartingunit>
+    <townstartingunit>CrateofFood</townstartingunit>
+    <townstartingunit>CrateofFood</townstartingunit>
+    <townstartingunit>CrateofWood</townstartingunit>
+    <townstartingunit>CrateofWood</townstartingunit>
+    <townstartingunit>CrateofCoin</townstartingunit>
+    <empirewarsstartingunit>Settler</empirewarsstartingunit>
+    <empirewarsstartingunit>Settler</empirewarsstartingunit>
+    <empirewarsstartingunit>Settler</empirewarsstartingunit>
+    <empirewarsstartingunit>Settler</empirewarsstartingunit>
+    <empirewarsstartingunit>Settler</empirewarsstartingunit>
+    <empirewarsstartingunit>Settler</empirewarsstartingunit>
+    <empirewarsstartingunit>Settler</empirewarsstartingunit>
+    <empirewarsstartingunit>Settler</empirewarsstartingunit>
+    <empirewarsstartingunit>Settler</empirewarsstartingunit>
+    <empirewarsstartingunit>Settler</empirewarsstartingunit>
+    <empirewarsstartingunit>Settler</empirewarsstartingunit>
+    <empirewarsstartingunit>Settler</empirewarsstartingunit>
+    <empirewarsstartingunit>OutpostWagon</empirewarsstartingunit>
+    <empirewarsstartingunit>deCrateofFoodLarge600</empirewarsstartingunit>
+    <empirewarsstartingunit>CrateofFoodLarge</empirewarsstartingunit>
+    <empirewarsresources>
+      <food>100.00</food>
+      <wood>400.00</wood>
+      <gold>100.00</gold>
+      <xp>184.00</xp>
+      <ships>0</ships>
+    </empirewarsresources>
+    <empirewarsshipmentxpmaximummodifier>0.60</empirewarsshipmentxpmaximummodifier>
+    <empirewarsshipmentgrowthmodifier>0.95</empirewarsshipmentgrowthmodifier>
+    <empirewarsshipmentmodifier>1.0</empirewarsshipmentmodifier>
+    <empirewarsshipmentrates>
+      <age0>4.00</age0>
+      <age1>2.67</age1>
+      <age2>1.34</age2>
+      <age3>1.34</age3>
+    </empirewarsshipmentrates>
+    <empirewarsageuprates>
+      <age1>2.00</age1>
+      <age2>1.50</age2>
+      <age3>1.50</age3>
+      <age4>1.00</age4>
+    </empirewarsageuprates>
+    <randomstartingunits>0</randomstartingunits>
+    <homecityfilename>homecitymaltese.xml</homecityfilename>
+    <homecityflagtexture>objects\flags\malta</homecityflagtexture>
+    <homecityflagbuttonset>maltaFlagBtn</homecityflagbuttonset>
+    <homecityflagbuttonsetlarge>spanishFlagBtnLarge</homecityflagbuttonsetlarge>
+    <homecityflagiconwpf>resources/images/icons/flags/Flag_Maltese.png</homecityflagiconwpf>
+    <homecitypreviewwpf>resources/images/icons/history/histories/h_pc_maltese.png</homecitypreviewwpf>
+    <homecityflagbuttonwpf>resources\images\icons\flags\flag_hc_maltese.png</homecityflagbuttonwpf>
+    <postgameflagtexture>ui\ingame\ingame_ui_postgame_flag_maltese</postgameflagtexture>
+    <postgameflagiconwpf>resources/images/icons/flags/postgame_flag_maltese.png</postgameflagiconwpf>
+    <matchmakingtextures>
+      <bannertexture>ui\eso\civ_flags_quick_launch</bannertexture>
+      <bannertexturecoords>0 0 0.78125 0.125</bannertexturecoords>
+      <portraittexture>ui\eso\eso_quick_search_politicians_02</portraittexture>
+      <portraittexturecoords>0.4375 0.4296875 0.830078125 0.814453125</portraittexturecoords>
+      <smallportraittexturewpf>resources/images/icons/singleplayer/cpai_avatar_maltese.png</smallportraittexturewpf>
+    </matchmakingtextures>
+    <unitregen>
+      <unittype>LogicalTypeMalteseCivBonusHealsWhenIdle</unittype>
+      <rate>0.25</rate>
+      <idletimeout>3.5</idletimeout>
+    </unitregen>
+    <unitregen>
+      <unittype>Hero</unittype>
+      <rate>0.25</rate>
+      <idletimeout>3.5</idletimeout>
+    </unitregen>
+    <unitregen>
+      <unittype>SPCBolivar</unittype>
+      <rate>0.25</rate>
+      <idletimeout>3.5</idletimeout>
+    </unitregen>
+    <multipleblocktrain>
+      <building>TownCenter</building>
+      <multipleblockunit>deFedBisonBatch</multipleblockunit>
+      <units>
+        <unit>Bison</unit>
+      </units>
+      <unitcounts>
+        <count>3</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>TradingPost</building>
+      <multipleblockunit>deNatSomaliAskariProxy</multipleblockunit>
+      <units>
+        <unit>deMercAskari</unit>
+      </units>
+      <unitcounts>
+        <count>1</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>TradingPost</building>
+      <multipleblockunit>deNatSudaneseAskariProxy</multipleblockunit>
+      <units>
+        <unit>deMercAskari</unit>
+      </units>
+      <unitcounts>
+        <count>1</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>TradingPost</building>
+      <multipleblockunit>deNatSudaneseSennarProxy</multipleblockunit>
+      <units>
+        <unit>deMercSudaneseRider</unit>
+      </units>
+      <unitcounts>
+        <count>1</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>TradingPost</building>
+      <multipleblockunit>deNatRoyalHorsemanBourbonProxy</multipleblockunit>
+      <units>
+        <unit>deMercRoyalHorseman</unit>
+      </units>
+      <unitcounts>
+        <count>1</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoYumiArmy</multipleblockunit>
+      <units>
+        <unit>ypYumi</unit>
+      </units>
+      <unitcounts>
+        <count>5</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoAshigaruArmy</multipleblockunit>
+      <units>
+        <unit>ypAshigaru</unit>
+      </units>
+      <unitcounts>
+        <count>5</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoKenseiArmy</multipleblockunit>
+      <units>
+        <unit>ypKensei</unit>
+      </units>
+      <unitcounts>
+        <count>3</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoNaginataRiderArmy</multipleblockunit>
+      <units>
+        <unit>ypNaginataRider</unit>
+      </units>
+      <unitcounts>
+        <count>3</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoYabusameArmy</multipleblockunit>
+      <units>
+        <unit>ypYabusame</unit>
+      </units>
+      <unitcounts>
+        <count>3</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>ypDojo</building>
+      <multipleblockunit>ypDojoShinobiArmy</multipleblockunit>
+      <units>
+        <unit>ypShinobiHorse</unit>
+      </units>
+      <unitcounts>
+        <count>3</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>deSPCCommandPost</building>
+      <multipleblockunit>deTrainCommandPostWagon</multipleblockunit>
+      <units>
+        <unit>deCommandWagon</unit>
+      </units>
+      <unitcounts>
+        <count>1</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>deSPCCommandPost</building>
+      <multipleblockunit>deSPCSiegeForceBatch</multipleblockunit>
+      <units>
+        <unit>deSPCGreatBombardNoPop</unit>
+        <unit>deSPCJanissaryNoPop</unit>
+      </units>
+      <unitcounts>
+        <count>1</count>
+        <count>12</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>FortFrontier</building>
+      <multipleblockunit>deFortSpawnHospitallers</multipleblockunit>
+      <units>
+        <unit>deHospitaller</unit>
+      </units>
+      <unitcounts>
+        <count>5</count>
+      </unitcounts>
+    </multipleblocktrain>
   </civ>
   <civ>
     <name>Aztecs</name>
@@ -10476,6 +11853,284 @@
     <agetech>
       <age>Age0</age>
       <tech>DESPCNativeLenape</tech>
+    </agetech>
+    <visible>0</visible>
+    <visibleineditor>0</visibleineditor>
+  </civ>
+  <civ>
+    <name>SPCCityState</name>
+    <main>0</main>
+    <portrait>buildings\native_settlement\native_berber_site_portrait</portrait>
+    <culture>Stone</culture>
+    <displaynameid>102504</displaynameid>
+    <rollovernameid>45433</rollovernameid>
+    <alliedid>26446</alliedid>
+    <alliedotherid>26445</alliedotherid>
+    <unalliedid>26444</unalliedid>
+    <agetech>
+      <age>Age0</age>
+      <tech>DENativeSPCCityState</tech>
+    </agetech>
+    <allyunit>deSPCCityGuard</allyunit>
+    <allyunit>deSPCCityGuard</allyunit>
+    <allyunit>deSPCCityGuard</allyunit>
+    <allyunit>deSPCCityGuard</allyunit>
+    <visible>0</visible>
+    <visibleineditor>0</visibleineditor>
+  </civ>
+  <civ>
+    <name>SPCMilitaryDistrict</name>
+    <main>0</main>
+    <portrait>resources\images\icons\portraits\buildings\barracks_portraits.png</portrait>
+    <culture>Stone</culture>
+    <displaynameid>123222</displaynameid>
+    <rollovernameid>45433</rollovernameid>
+    <alliedid>26446</alliedid>
+    <alliedotherid>26445</alliedotherid>
+    <unalliedid>26444</unalliedid>
+    <agetech>
+      <age>Age0</age>
+      <tech>DENativeSPCMilitaryDistrict</tech>
+    </agetech>
+    <visible>0</visible>
+    <visibleineditor>0</visibleineditor>
+  </civ>
+  <civ>
+    <name>SPCMarketDistrict</name>
+    <main>0</main>
+    <portrait>resources\images\icons\portraits\buildings\market_portrait.png</portrait>
+    <culture>Stone</culture>
+    <displaynameid>123223</displaynameid>
+    <rollovernameid>45433</rollovernameid>
+    <alliedid>26446</alliedid>
+    <alliedotherid>26445</alliedotherid>
+    <unalliedid>26444</unalliedid>
+    <agetech>
+      <age>Age0</age>
+      <tech>DENativeSPCMarketDistrict</tech>
+    </agetech>
+    <visible>0</visible>
+    <visibleineditor>0</visibleineditor>
+  </civ>
+  <civ>
+    <name>SPCArtilleryDistrict</name>
+    <main>0</main>
+    <portrait>resources\images\icons\portraits\buildings\artillery_depot_portrait.png</portrait>
+    <culture>Stone</culture>
+    <displaynameid>123224</displaynameid>
+    <rollovernameid>45433</rollovernameid>
+    <alliedid>26446</alliedid>
+    <alliedotherid>26445</alliedotherid>
+    <unalliedid>26444</unalliedid>
+    <agetech>
+      <age>Age0</age>
+      <tech>DENativeSPCArtilleryDistrict</tech>
+    </agetech>
+    <visible>0</visible>
+    <visibleineditor>0</visibleineditor>
+  </civ>
+  <civ>
+    <name>SPCReligiousDistrict</name>
+    <main>0</main>
+    <portrait>resources\images\icons\portraits\buildings\church_portrait.png</portrait>
+    <culture>Stone</culture>
+    <displaynameid>123225</displaynameid>
+    <rollovernameid>45433</rollovernameid>
+    <alliedid>26446</alliedid>
+    <alliedotherid>26445</alliedotherid>
+    <unalliedid>26444</unalliedid>
+    <agetech>
+      <age>Age0</age>
+      <tech>DENativeSPCReligiousDistrict</tech>
+    </agetech>
+    <visible>0</visible>
+    <visibleineditor>0</visibleineditor>
+  </civ>
+  <civ>
+    <name>Jagiellon</name>
+    <main>0</main>
+    <portrait>buildings\native_settlement\native_site_jagiellon_icon_portrait.png</portrait>
+    <culture>Stone</culture>
+    <displaynameid>122024</displaynameid>
+    <rollovernameid>122024</rollovernameid>
+    <alliedid>122402</alliedid>
+    <alliedotherid>122401</alliedotherid>
+    <unalliedid>122400</unalliedid>
+    <agetech>
+      <age>Age0</age>
+      <tech>DENativeJagiellon</tech>
+    </agetech>
+    <agetech>
+      <age>Age1</age>
+      <tech>DENativeJagiellonColonialize</tech>
+    </agetech>
+    <visible>0</visible>
+    <visibleineditor>0</visibleineditor>
+  </civ>
+  <civ>
+    <name>Bourbon</name>
+    <main>0</main>
+    <portrait>buildings\native_settlement\native_site_bourbon_icon_portrait.png</portrait>
+    <culture>Stone</culture>
+    <displaynameid>122142</displaynameid>
+    <rollovernameid>122142</rollovernameid>
+    <alliedid>122402</alliedid>
+    <alliedotherid>122401</alliedotherid>
+    <unalliedid>122400</unalliedid>
+    <agetech>
+      <age>Age0</age>
+      <tech>DENativeBourbon</tech>
+    </agetech>
+    <agetech>
+      <age>Age1</age>
+      <tech>DENativeBourbonColonialize</tech>
+    </agetech>
+    <visible>0</visible>
+    <visibleineditor>0</visibleineditor>
+  </civ>
+  <civ>
+    <name>Habsburg</name>
+    <main>0</main>
+    <portrait>buildings\native_settlement\native_site_habsburg_icon_portrait.png</portrait>
+    <culture>Stone</culture>
+    <displaynameid>122143</displaynameid>
+    <rollovernameid>122143</rollovernameid>
+    <alliedid>122402</alliedid>
+    <alliedotherid>122401</alliedotherid>
+    <unalliedid>122400</unalliedid>
+    <agetech>
+      <age>Age0</age>
+      <tech>DENativeHabsburg</tech>
+    </agetech>
+    <agetech>
+      <age>Age1</age>
+      <tech>DENativeHabsburgColonialize</tech>
+    </agetech>
+    <visible>0</visible>
+    <visibleineditor>0</visibleineditor>
+  </civ>
+  <civ>
+    <name>Hanover</name>
+    <main>0</main>
+    <portrait>buildings\native_settlement\native_site_hanover_icon_portrait.png</portrait>
+    <culture>Stone</culture>
+    <displaynameid>122144</displaynameid>
+    <rollovernameid>122144</rollovernameid>
+    <alliedid>122402</alliedid>
+    <alliedotherid>122401</alliedotherid>
+    <unalliedid>122400</unalliedid>
+    <agetech>
+      <age>Age0</age>
+      <tech>DENativeHanover</tech>
+    </agetech>
+    <agetech>
+      <age>Age1</age>
+      <tech>DENativeHanoverColonialize</tech>
+    </agetech>
+    <visible>0</visible>
+    <visibleineditor>0</visibleineditor>
+  </civ>
+  <civ>
+    <name>Oldenburg</name>
+    <main>0</main>
+    <portrait>buildings\native_settlement\native_site_oldenburg_icon_portrait.png</portrait>
+    <culture>Stone</culture>
+    <displaynameid>122145</displaynameid>
+    <rollovernameid>122145</rollovernameid>
+    <alliedid>122402</alliedid>
+    <alliedotherid>122401</alliedotherid>
+    <unalliedid>122400</unalliedid>
+    <agetech>
+      <age>Age0</age>
+      <tech>DENativeOldenburg</tech>
+    </agetech>
+    <agetech>
+      <age>Age1</age>
+      <tech>DENativeOldenburgColonialize</tech>
+    </agetech>
+    <visible>0</visible>
+    <visibleineditor>0</visibleineditor>
+  </civ>
+  <civ>
+    <name>Phanar</name>
+    <main>0</main>
+    <portrait>buildings\native_settlement\native_site_phanar_icon_portrait.png</portrait>
+    <culture>Stone</culture>
+    <displaynameid>122146</displaynameid>
+    <rollovernameid>122146</rollovernameid>
+    <alliedid>122402</alliedid>
+    <alliedotherid>122401</alliedotherid>
+    <unalliedid>122400</unalliedid>
+    <agetech>
+      <age>Age0</age>
+      <tech>DENativePhanar</tech>
+    </agetech>
+    <agetech>
+      <age>Age1</age>
+      <tech>DENativePhanarColonialize</tech>
+    </agetech>
+    <visible>0</visible>
+    <visibleineditor>0</visibleineditor>
+  </civ>
+  <civ>
+    <name>Vasa</name>
+    <main>0</main>
+    <portrait>buildings\native_settlement\native_site_vasa_icon_portrait.png</portrait>
+    <culture>Stone</culture>
+    <displaynameid>122147</displaynameid>
+    <rollovernameid>122147</rollovernameid>
+    <alliedid>122402</alliedid>
+    <alliedotherid>122401</alliedotherid>
+    <unalliedid>122400</unalliedid>
+    <agetech>
+      <age>Age0</age>
+      <tech>DENativeVasa</tech>
+    </agetech>
+    <agetech>
+      <age>Age1</age>
+      <tech>DENativeVasaColonialize</tech>
+    </agetech>
+    <visible>0</visible>
+    <visibleineditor>0</visibleineditor>
+  </civ>
+  <civ>
+    <name>Wettin</name>
+    <main>0</main>
+    <portrait>buildings\native_settlement\native_site_wettin_icon_portrait.png</portrait>
+    <culture>Stone</culture>
+    <displaynameid>122148</displaynameid>
+    <rollovernameid>122148</rollovernameid>
+    <alliedid>122402</alliedid>
+    <alliedotherid>122401</alliedotherid>
+    <unalliedid>122400</unalliedid>
+    <agetech>
+      <age>Age0</age>
+      <tech>DENativeWettin</tech>
+    </agetech>
+    <agetech>
+      <age>Age1</age>
+      <tech>DENativeWettinColonialize</tech>
+    </agetech>
+    <visible>0</visible>
+    <visibleineditor>0</visibleineditor>
+  </civ>
+  <civ>
+    <name>Wittelsbach</name>
+    <main>0</main>
+    <portrait>buildings\native_settlement\native_site_wittelsbach_icon_portrait.png</portrait>
+    <culture>Stone</culture>
+    <displaynameid>122149</displaynameid>
+    <rollovernameid>122149</rollovernameid>
+    <alliedid>122402</alliedid>
+    <alliedotherid>122401</alliedotherid>
+    <unalliedid>122400</unalliedid>
+    <agetech>
+      <age>Age0</age>
+      <tech>DENativeWittelsbach</tech>
+    </agetech>
+    <agetech>
+      <age>Age1</age>
+      <tech>DENativeWittelsbachColonialize</tech>
     </agetech>
     <visible>0</visible>
     <visibleineditor>0</visibleineditor>

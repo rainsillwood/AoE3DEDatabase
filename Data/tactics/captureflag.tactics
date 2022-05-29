@@ -1,0 +1,45 @@
+<tactics>
+  <action>
+    <name stringid="69161">AutoConvert</name>
+    <type>AutoConvert</type>
+    <maxrange>12.0</maxrange>
+    <persistent>1</persistent>
+    <converttogaiaifforbidden>1</converttogaiaifforbidden>
+  </action>
+  <action>
+    <name stringid="69161">AutoConvertTreaty</name>
+    <active>0</active>
+    <type>AutoConvert</type>
+    <maxrange>12.0</maxrange>
+    <persistent>1</persistent>
+    <notactiveontreaty>1</notactiveontreaty>
+    <cannotbeconvertedbyallies>1</cannotbeconvertedbyallies>
+  </action>
+  <action>
+    <name stringid="48958">ExtraDamageHM07</name>
+    <active>0</active>
+    <type>AutoRangedModify</type>
+    <maxrange>14</maxrange>
+    <modifyabstracttype>UnitClass</modifyabstracttype>
+    <persistent>1</persistent>
+    <modifytype>Damage</modifytype>
+    <modifymultiplier>1.1</modifymultiplier>
+    <modelattachment>effects\chiefpower\chiefpower.xml</modelattachment>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+    <modifyrangeuselos>1</modifyrangeuselos>
+  </action>
+  <action>
+    <name stringid="48958">ExtraHitPointsHM07</name>
+    <active>0</active>
+    <type>AutoRangedModify</type>
+    <maxrange>14</maxrange>
+    <modifyabstracttype>UnitClass</modifyabstracttype>
+    <persistent>1</persistent>
+    <modifytype>MaxHP</modifytype>
+    <modifymultiplier>1.1</modifymultiplier>
+    <modelattachment>effects\chiefpower\chiefpower.xml</modelattachment>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+    <modifyrangeuselos>1</modifyrangeuselos>
+  </action>
+  <tactic>Normal<action>AutoConvert</action><action>AutoConvertTreaty</action><action>ExtraDamageHM07</action><action>ExtraHitPointsHM07</action></tactic>
+</tactics>

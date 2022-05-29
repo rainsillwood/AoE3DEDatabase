@@ -41,6 +41,7 @@
     <targetground>1</targetground>
     <basedamagecap>1</basedamagecap>
     <singleuseplayer>1</singleuseplayer>
+    <excludefromrangeindicator>1</excludefromrangeindicator>
   </action>
   <action>
     <name stringid="38133">RangedAttackContained</name>

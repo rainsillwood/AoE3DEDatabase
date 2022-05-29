@@ -183,6 +183,29 @@
     <battlecrylarge>BattlecryLarge</battlecrylarge>
   </squadmode>
   <squadmode>
+    <name>Trample</name>
+    <tactic>Trample</tactic>
+    <allowautopick>0</allowautopick>
+    <unittype>deNatRoyalDragoon</unittype>
+    <targetunittype>All</targetunittype>
+    <stance>Defensive</stance>
+    <formationtype>InvertedPhalanx</formationtype>
+    <formationlinelinespacing>1.5</formationlinelinespacing>
+    <formationlinecolumnspacing>1.15</formationlinecolumnspacing>
+    <formationphalanxoffset>0.7</formationphalanxoffset>
+    <randomspacingoffset>0.25</randomspacingoffset>
+    <cooldowntime>5000</cooldowntime>
+    <transitiontimein>500</transitiontimein>
+    <activeicon>resources\images\icons\command\tactics_trample_cur.png</activeicon>
+    <availableicon>resources\images\icons\command\tactics_trample_avl.png</availableicon>
+    <unavailableicon>resources\images\icons\command\tactics_trample_un_avl.png</unavailableicon>
+    <rolloverstringid>35908</rolloverstringid>
+    <reflectdamage>1</reflectdamage>
+    <battlecrysmall>BattlecrySmall</battlecrysmall>
+    <battlecrymedium>BattlecryMedium</battlecrymedium>
+    <battlecrylarge>BattlecryLarge</battlecrylarge>
+  </squadmode>
+  <squadmode>
     <name>Cover</name>
     <tactic>Cover</tactic>
     <armorbonus>
@@ -248,9 +271,10 @@
   </squadmode>
   <squadmode>
     <name>StandGround</name>
-    <tactic>Defend</tactic>
+    <tactic>StandGround</tactic>
     <allowautopick>0</allowautopick>
     <unittype>Military</unittype>
+    <unittype>xpMedicineManAztec</unittype>
     <targetunittype>All</targetunittype>
     <stance>StandGround</stance>
     <formationtype>Line</formationtype>

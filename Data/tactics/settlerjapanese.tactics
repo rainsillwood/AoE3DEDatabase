@@ -152,5 +152,16 @@
     <rate type="Tree">1.0 </rate>
     <hidefromstats>1</hidefromstats>
   </action>
-  <tactic>Normal<speedmodifier>1.0</speedmodifier><action>Build</action><action>Gather</action><action>Discover</action><action>NoWork</action><action>Hunting</action><action>CrateGather</action><action>AutoGatherTrade</action><action>AutoGatherXP</action><action>AutoGatherWoodField</action><action priority="100">BuildingAttack</action><action priority="90">ChopAttack</action><action priority="50">BlunderbussAttack</action><action priority="25">HandAttack</action><action priority="20">HandAttackCrate</action><attacktype>LogicalTypeVillagersAttack</attacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><runaway>0</runaway><autoretarget>1</autoretarget></tactic>
+  <action>
+    <name stringid="43019">AutoGatherCoinHunt</name>
+    <type>AutoGather</type>
+    <active>0</active>
+    <donotautogatherunlessgatheringtypes>
+      <unittype>Huntable</unittype>
+    </donotautogatherunlessgatheringtypes>
+    <autogatherscalebygatherrate>1</autogatherscalebygatherrate>
+    <persistent>1</persistent>
+    <rate type="Gold">0.100000</rate>
+  </action>
+  <tactic>Normal<speedmodifier>1.0</speedmodifier><action>Build</action><action>Gather</action><action>Discover</action><action>NoWork</action><action>Hunting</action><action>CrateGather</action><action>AutoGatherTrade</action><action>AutoGatherXP</action><action>AutoGatherWoodField</action><action>AutoGatherCoinHunt</action><action priority="100">BuildingAttack</action><action priority="90">ChopAttack</action><action priority="50">BlunderbussAttack</action><action priority="25">HandAttack</action><action priority="20">HandAttackCrate</action><attacktype>LogicalTypeVillagersAttack</attacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><runaway>0</runaway><autoretarget>1</autoretarget></tactic>
 </tactics>

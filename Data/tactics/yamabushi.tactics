@@ -3,7 +3,7 @@
     <name stringid="38135">MeleeHandAttack</name>
     <type>Attack</type>
     <maxrange>1.75</maxrange>
-    <rate type="Unit">1.0 </rate>
+    <rate type="Unit">1.0</rate>
     <attackaction>1</attackaction>
     <handlogic>1</handlogic>
     <speedboost>1</speedboost>
@@ -16,7 +16,7 @@
     <name stringid="38131">CoverHandAttack</name>
     <type>Attack</type>
     <maxrange>1.75</maxrange>
-    <rate type="Unit">1.0 </rate>
+    <rate type="Unit">1.0</rate>
     <attackaction>1</attackaction>
     <handlogic>1</handlogic>
     <anim>Charge_attack</anim>
@@ -29,7 +29,7 @@
     <name stringid="38137">DefendHandAttack</name>
     <type>Attack</type>
     <maxrange>1.75</maxrange>
-    <rate type="Unit">1.0 </rate>
+    <rate type="Unit">1.0</rate>
     <attackaction>1</attackaction>
     <handlogic>1</handlogic>
     <speedboost>1</speedboost>
@@ -45,7 +45,7 @@
     <type>Attack</type>
     <rangedlogic>1</rangedlogic>
     <maxrange>6</maxrange>
-    <rate type="LogicalTypeShipsAndBuildings">1.0 </rate>
+    <rate type="LogicalTypeShipsAndBuildings">1.0</rate>
     <attackaction>1</attackaction>
     <speedboost>1</speedboost>
     <anim>Raze_attack</anim>
@@ -58,7 +58,7 @@
     <type>Attack</type>
     <rangedlogic>1</rangedlogic>
     <maxrange>6</maxrange>
-    <rate type="LogicalTypeShipsAndBuildings">1.0 </rate>
+    <rate type="LogicalTypeShipsAndBuildings">1.0</rate>
     <attackaction>1</attackaction>
     <speedboost>1</speedboost>
     <anim>Raze_attack</anim>
@@ -70,11 +70,12 @@
     <name stringid="70488">Heal</name>
     <type>Heal</type>
     <maxrange>12</maxrange>
-    <rate type="LogicalTypeHealed">10.0 </rate>
+    <rate type="LogicalTypeHealed">10.0</rate>
     <anim>Heal</anim>
     <active>0</active>
   </action>
   <tactic>Melee<action priority="100">BuildingAttack</action><action priority="75">MeleeHandAttack</action><action>Heal</action><speedmodifier>1.0</speedmodifier><attacktype>LogicalTypeHandUnitsAttack</attacktype><autoattacktype>LogicalTypeHandUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeHandUnitsAttack</attackresponsetype><runaway>1</runaway><transition><tactic>Defend</tactic><length>0</length><exit>1</exit></transition><transition><tactic>Stealth</tactic><length>2</length><anim>Cover_In</anim><exit>1</exit></transition><autoretarget>1</autoretarget><idleanim>Charge_idle</idleanim><boredanim>Charge_bored</boredanim><deathanim>Death_by_melee</deathanim><walkanim>Charge_walk</walkanim><joganim>Charge_jog</joganim><runanim>Charge_run</runanim></tactic>
   <tactic>Defend<action priority="100">BuildingAttack</action><action priority="25">DefendHandAttack</action><action>Heal</action><attacktype>LogicalTypeHandUnitsAttack</attacktype><autoattacktype>LogicalTypeHandUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeHandUnitsAttack</attackresponsetype><runaway>0</runaway><transition><tactic>Normal</tactic><length>0</length><exit>1</exit></transition><transition><tactic>Stealth</tactic><length>2</length><anim>Cover_In</anim><exit>1</exit></transition><autoretarget>1</autoretarget><idleanim>Defend_idle</idleanim><boredanim>Defend_bored</boredanim><deathanim>Death_by_melee</deathanim><walkanim>Cover_walk</walkanim><joganim>Cover_jog</joganim><runanim>Cover_run</runanim></tactic>
   <tactic>Cover<action priority="100">CoverBuildingAttack</action><action priority="25">CoverHandAttack</action><action>Heal</action><speedmodifier>0.5</speedmodifier><attacktype>LogicalTypeHandUnitsAttack</attacktype><autoattacktype>LogicalTypeHandUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeHandUnitsAttack</attackresponsetype><runaway>0</runaway><transition><tactic>Normal</tactic><length>0</length><exit>1</exit></transition><transition><tactic>Stealth</tactic><length>2</length><anim>Cover_In</anim><exit>1</exit></transition><autoretarget>1</autoretarget><idleanim>Cover_idle</idleanim><boredanim>Cover_bored</boredanim><deathanim>Death_by_melee</deathanim><walkanim>Cover_walk</walkanim><joganim>Cover_jog</joganim><runanim>Cover_run</runanim></tactic>
+  <tactic>StandGround<action priority="100">BuildingAttack</action><action priority="25">DefendHandAttack</action><action>Heal</action><attacktype>LogicalTypeHandUnitsAttack</attacktype><autoattacktype>LogicalTypeHandUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeHandUnitsAttack</attackresponsetype><runaway>0</runaway><transition><tactic>Normal</tactic><length>0</length><exit>1</exit></transition><transition><tactic>Stealth</tactic><length>2</length><anim>Cover_In</anim><exit>1</exit></transition><autoretarget>1</autoretarget><idleanim>Defend_idle</idleanim><boredanim>Defend_bored</boredanim><deathanim>Death_by_melee</deathanim><walkanim>Cover_walk</walkanim><joganim>Cover_jog</joganim><runanim>Cover_run</runanim></tactic>
 </tactics>
