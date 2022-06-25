@@ -51,6 +51,7 @@
     <maxrange>12.000000</maxrange>
     <rof>2.000000</rof>
     <instantballistics>1</instantballistics>
+    <perfectaccuracy>1</perfectaccuracy>
   </action>
   <action>
     <name stringid="38130">VolleyHandAttack</name>
@@ -89,6 +90,7 @@
     <maxrange>12.000000</maxrange>
     <rof>2.000000</rof>
     <instantballistics>1</instantballistics>
+    <perfectaccuracy>1</perfectaccuracy>
   </action>
   <action>
     <name stringid="38137">DefendHandAttack</name>
@@ -129,6 +131,7 @@
     <maxrange>12.000000</maxrange>
     <rof>2.000000</rof>
     <instantballistics>1</instantballistics>
+    <perfectaccuracy>1</perfectaccuracy>
   </action>
   <action>
     <name stringid="38132">StaggerHandAttack</name>
@@ -184,25 +187,6 @@
     <active>0</active>
     <projectile>Grenade</projectile>
     <impacteffect>effects\impacts\grenade</impacteffect>
-  </action>
-  <action>
-    <name stringid="38122">BowAttack</name>
-    <active>0</active>
-    <type>Attack</type>
-    <attackaction>1</attackaction>
-    <rangedlogic>1</rangedlogic>
-    <anim>Bow_standing_attack</anim>
-    <idleanim>Bow_standing_idle</idleanim>
-    <accuracy>1.0</accuracy>
-    <accuracyreductionfactor>0.5</accuracyreductionfactor>
-    <aimbonus>0</aimbonus>
-    <maxspread>5</maxspread>
-    <spreadfactor>0.25</spreadfactor>
-    <trackrating>12</trackrating>
-    <unintentionaldamagemultiplier>0.7</unintentionaldamagemultiplier>
-    <projectile>Arrow</projectile>
-    <minrange>2</minrange>
-    <rate type="Unit">1.0</rate>
   </action>
   <action>
     <name stringid="113214">BuildingBowAttack</name>
@@ -305,9 +289,9 @@
     <active>0</active>
     <persistent>1</persistent>
   </action>
-  <tactic>Volley<action priority="100">GrenadeAttack</action><action priority="100">BowAttack</action><action priority="90">VolleyRangedAttack</action><action priority="80">BuildingBowAttack</action><action priority="75">GrenadeBuildingAttack</action><action priority="75">BuildingAttack</action><action priority="50">ChopAttack</action><action priority="40">HandAttackCrate</action><action priority="25">VolleyHandAttack</action><action>Build</action><action>Gather</action><action>CrateGather</action><action>Hunting</action><action>Discover</action><action>AutoGatherInfluence</action><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><runaway>1</runaway><autoretarget>1</autoretarget><idleanim>Volley_standing_idle</idleanim><boredanim>Volley_standing_bored</boredanim><deathanim>Death_by_melee</deathanim><walkanim>Volley_walk</walkanim><joganim>Volley_jog</joganim><runanim>Volley_run</runanim></tactic>
-  <tactic>Defend<action priority="100">GrenadeAttack</action><action priority="100">BowAttack</action><action priority="90">DefendRangedAttack</action><action priority="80">BuildingBowAttack</action><action priority="75">GrenadeBuildingAttack</action><action priority="75">BuildingAttack</action><action priority="50">ChopAttack</action><action priority="40">HandAttackCrate</action><action priority="25">DefendHandAttack</action><action>Build</action><action>Gather</action><action>CrateGather</action><action>Hunting</action><action>Discover</action><action>AutoGatherInfluence</action><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><runaway>0</runaway><autoretarget>1</autoretarget><idleanim>Defend_idle</idleanim><boredanim>Defend_bored</boredanim><deathanim>Death_by_melee</deathanim><walkanim>Defend_walk</walkanim><joganim>Defend_jog</joganim><runanim>Defend_run</runanim></tactic>
-  <tactic>Stagger<action priority="100">GrenadeAttack</action><action priority="100">BowAttack</action><action priority="90">StaggerRangedAttack</action><action priority="80">BuildingBowAttack</action><action priority="75">GrenadeBuildingAttack</action><action priority="75">BuildingAttack</action><action priority="50">ChopAttack</action><action priority="40">HandAttackCrate</action><action priority="25">StaggerHandAttack</action><action>Build</action><action>Gather</action><action>CrateGather</action><action>Hunting</action><action>Discover</action><action>AutoGatherInfluence</action><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><runaway>0</runaway><autoretarget>1</autoretarget><idleanim>Cover_ranged_idle</idleanim><boredanim>Cover_bored</boredanim><deathanim>Death_by_melee</deathanim><walkanim>Cover_walk</walkanim><joganim>Cover_jog</joganim><runanim>Cover_run</runanim></tactic>
-  <tactic>Melee<action priority="100">MeleeHandAttack</action><action priority="90">BuildingBowAttack</action><action priority="80">GrenadeBuildingAttack</action><action priority="80">BuildingAttack</action><action priority="50">ChopAttack</action><action priority="40">HandAttackCrate</action><action>Build</action><action>Gather</action><action>CrateGather</action><action>Hunting</action><action>Discover</action><action>AutoGatherInfluence</action><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><runaway>0</runaway><autoretarget>1</autoretarget><idleanim>Charge_idle</idleanim><boredanim>Charge_bored</boredanim><deathanim>Death_by_melee</deathanim><walkanim>Charge_walk</walkanim><joganim>Charge_jog</joganim><runanim>Charge_run</runanim></tactic>
-  <tactic>StandGround<action priority="100">GrenadeAttack</action><action priority="100">BowAttack</action><action priority="90">DefendRangedAttack</action><action priority="80">BuildingBowAttack</action><action priority="75">GrenadeBuildingAttack</action><action priority="75">BuildingAttack</action><action priority="50">ChopAttack</action><action priority="40">HandAttackCrate</action><action priority="25">DefendHandAttack</action><action>Build</action><action>Gather</action><action>CrateGather</action><action>Hunting</action><action>Discover</action><action>AutoGatherInfluence</action><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><runaway>0</runaway><autoretarget>1</autoretarget><idleanim>Defend_idle</idleanim><boredanim>Defend_bored</boredanim><deathanim>Death_by_melee</deathanim><walkanim>Defend_walk</walkanim><joganim>Defend_jog</joganim><runanim>Defend_run</runanim></tactic>
+  <tactic>Volley<action priority="100">GrenadeAttack</action><action priority="90">VolleyRangedAttack</action><action priority="80">BuildingBowAttack</action><action priority="75">GrenadeBuildingAttack</action><action priority="75">BuildingAttack</action><action priority="50">ChopAttack</action><action priority="40">HandAttackCrate</action><action priority="25">VolleyHandAttack</action><action>Build</action><action>Gather</action><action>CrateGather</action><action>Hunting</action><action>Discover</action><action>AutoGatherInfluence</action><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><runaway>1</runaway><autoretarget>1</autoretarget><idleanim>Volley_standing_idle</idleanim><boredanim>Volley_standing_bored</boredanim><deathanim>Death_by_melee</deathanim><walkanim>Volley_walk</walkanim><joganim>Volley_jog</joganim><runanim>Volley_run</runanim></tactic>
+  <tactic>Defend<action priority="100">GrenadeAttack</action><action priority="90">DefendRangedAttack</action><action priority="75">GrenadeBuildingAttack</action><action priority="75">BuildingAttack</action><action priority="50">ChopAttack</action><action priority="40">HandAttackCrate</action><action priority="25">DefendHandAttack</action><action>Build</action><action>Gather</action><action>CrateGather</action><action>Hunting</action><action>Discover</action><action>AutoGatherInfluence</action><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><runaway>0</runaway><autoretarget>1</autoretarget><idleanim>Defend_idle</idleanim><boredanim>Defend_bored</boredanim><deathanim>Death_by_melee</deathanim><walkanim>Defend_walk</walkanim><joganim>Defend_jog</joganim><runanim>Defend_run</runanim></tactic>
+  <tactic>Stagger<action priority="100">GrenadeAttack</action><action priority="90">StaggerRangedAttack</action><action priority="75">GrenadeBuildingAttack</action><action priority="75">BuildingAttack</action><action priority="50">ChopAttack</action><action priority="40">HandAttackCrate</action><action priority="25">StaggerHandAttack</action><action>Build</action><action>Gather</action><action>CrateGather</action><action>Hunting</action><action>Discover</action><action>AutoGatherInfluence</action><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><runaway>0</runaway><autoretarget>1</autoretarget><idleanim>Cover_ranged_idle</idleanim><boredanim>Cover_bored</boredanim><deathanim>Death_by_melee</deathanim><walkanim>Cover_walk</walkanim><joganim>Cover_jog</joganim><runanim>Cover_run</runanim></tactic>
+  <tactic>Melee<action priority="100">MeleeHandAttack</action><action priority="80">GrenadeBuildingAttack</action><action priority="80">BuildingAttack</action><action priority="50">ChopAttack</action><action priority="40">HandAttackCrate</action><action>Build</action><action>Gather</action><action>CrateGather</action><action>Hunting</action><action>Discover</action><action>AutoGatherInfluence</action><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><runaway>0</runaway><autoretarget>1</autoretarget><idleanim>Charge_idle</idleanim><boredanim>Charge_bored</boredanim><deathanim>Death_by_melee</deathanim><walkanim>Charge_walk</walkanim><joganim>Charge_jog</joganim><runanim>Charge_run</runanim></tactic>
+  <tactic>StandGround<action priority="100">GrenadeAttack</action><action priority="90">DefendRangedAttack</action><action priority="75">GrenadeBuildingAttack</action><action priority="75">BuildingAttack</action><action priority="50">ChopAttack</action><action priority="40">HandAttackCrate</action><action priority="25">DefendHandAttack</action><action>Build</action><action>Gather</action><action>CrateGather</action><action>Hunting</action><action>Discover</action><action>AutoGatherInfluence</action><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><runaway>0</runaway><autoretarget>1</autoretarget><idleanim>Defend_idle</idleanim><boredanim>Defend_bored</boredanim><deathanim>Death_by_melee</deathanim><walkanim>Defend_walk</walkanim><joganim>Defend_jog</joganim><runanim>Defend_run</runanim></tactic>
 </tactics>

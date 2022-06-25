@@ -100,7 +100,7 @@
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>HCShipSettlers1</prereqtech>
-      <age>1</age>
+      <age>0</age>
     </card>
     <card>
       <name>DEHCVictoriousCity</name>
@@ -113,6 +113,15 @@
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>0</age>
+    </card>
+    <card>
+      <name>HCShipCoveredWagons</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+      <displayunitcount>1</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
       <name>HCShipCows</name>
@@ -317,7 +326,7 @@
       <level>0</level>
       <prereqtech>HCShipHoopThrowers1</prereqtech>
       <age>2</age>
-      <displayunitcount>8</displayunitcount>
+      <displayunitcount>9</displayunitcount>
     </card>
     <card>
       <name>HCShipPikemen1</name>
@@ -510,7 +519,7 @@
       <name>DEHCShipHoopThrowers1</name>
       <maxcount>1</maxcount>
       <age>2</age>
-      <displayunitcount>8</displayunitcount>
+      <displayunitcount>9</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -691,7 +700,6 @@
       <maxcount>1</maxcount>
       <age>3</age>
       <displayunitcount>25</displayunitcount>
-      <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
       <name>DEHCMercsPandours</name>
@@ -1734,6 +1742,7 @@
       <tech x="4.7" y="1.0">HCShipSheep1</tech>
       <tech x="4.4" y="2.0">HCShipSheep2</tech>
       <tech x="5.1" y="2.0">HCShipCows</tech>
+      <tech x="6.0" y="1.0">HCShipCoveredWagons</tech>
       <tech x="7.0" y="1.0">DEHCExplorerMaltese</tech>
       <tech x="7.0" y="2.0">HCExplorerCombatTeam</tech>
       <tech x="7.0" y="5.0">HCXPAdvancedBalloon</tech>
@@ -1760,6 +1769,7 @@
       <tech x="4.7" y="1.0">HCShipSheep1</tech>
       <tech x="4.4" y="2.0">HCShipSheep2</tech>
       <tech x="5.1" y="2.0">HCShipCows</tech>
+      <tech x="6.0" y="1.0">HCShipCoveredWagons</tech>
       <tech x="7.0" y="1.0">DEHCExplorerMaltese</tech>
       <tech x="7.0" y="2.0">HCExplorerCombatTeam</tech>
       <tech x="7.0" y="5.0">HCXPAdvancedBalloon</tech>

@@ -56,7 +56,7 @@
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>HCShipSettlers1</prereqtech>
-      <age>1</age>
+      <age>0</age>
     </card>
     <card>
       <name>DEHCGondolas</name>
@@ -76,7 +76,7 @@
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
-      <age>0</age>
+      <age>1</age>
     </card>
     <card>
       <name>DEHCLombardy</name>
@@ -92,7 +92,7 @@
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>1</age>
-      <displayunitcount>2</displayunitcount>
+      <displayunitcount>3</displayunitcount>
     </card>
     <card>
       <name>DEHCUffizi</name>
@@ -319,30 +319,36 @@
       <age>1</age>
     </card>
     <card>
-      <name>HCShipMusketeers1</name>
+      <name>DEHCShipHalberdiersRepeat</name>
+      <maxcount>-1</maxcount>
+      <age>2</age>
+      <displayunitcount>7</displayunitcount>
+    </card>
+    <card>
+      <name>HCShipHalberdiers4</name>
       <maxcount>1</maxcount>
       <level>0</level>
-      <prereqtech>-1</prereqtech>
-      <age>1</age>
-      <displayunitcount>6</displayunitcount>
+      <prereqtech>HCShipMusketeers1</prereqtech>
+      <age>3</age>
+      <displayunitcount>11</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
-      <name>HCShipMusketeers2</name>
+      <name>HCShipHalberdiers3</name>
       <maxcount>1</maxcount>
       <level>10</level>
-      <prereqtech>HCShipDragoons4</prereqtech>
+      <prereqtech>HCShipDragoons1</prereqtech>
       <age>2</age>
       <displayunitcount>8</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
-      <name>HCShipMusketeers4</name>
+      <name>HCShipHalberdiers5</name>
       <maxcount>1</maxcount>
-      <level>0</level>
-      <prereqtech>HCShipMusketeers1</prereqtech>
-      <age>2</age>
-      <displayunitcount>9</displayunitcount>
+      <level>10</level>
+      <prereqtech>HCShipDragoons1</prereqtech>
+      <age>3</age>
+      <displayunitcount>13</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -381,36 +387,49 @@
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
-      <name>DEHCShipHalberdiersRepeat</name>
-      <maxcount>-1</maxcount>
-      <age>2</age>
-      <displayunitcount>7</displayunitcount>
-    </card>
-    <card>
-      <name>HCShipHalberdiers4</name>
+      <name>DEHCHeavyPaveses</name>
       <maxcount>1</maxcount>
       <level>0</level>
-      <prereqtech>HCShipMusketeers1</prereqtech>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+    </card>
+    <card>
+      <name>DEHCImprovedCrossbowsItalians</name>
+      <maxcount>1</maxcount>
+      <age>2</age>
+    </card>
+    <card>
+      <name>DEHCRomanTactics</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
       <age>3</age>
-      <displayunitcount>11</displayunitcount>
+    </card>
+    <card>
+      <name>HCShipMusketeers1</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>1</age>
+      <displayunitcount>6</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
-      <name>HCShipHalberdiers3</name>
+      <name>HCShipMusketeers2</name>
       <maxcount>1</maxcount>
       <level>10</level>
-      <prereqtech>HCShipDragoons1</prereqtech>
+      <prereqtech>HCShipDragoons4</prereqtech>
       <age>2</age>
       <displayunitcount>8</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
-      <name>HCShipHalberdiers5</name>
+      <name>HCShipMusketeers4</name>
       <maxcount>1</maxcount>
-      <level>10</level>
-      <prereqtech>HCShipDragoons1</prereqtech>
-      <age>3</age>
-      <displayunitcount>13</displayunitcount>
+      <level>0</level>
+      <prereqtech>HCShipMusketeers1</prereqtech>
+      <age>2</age>
+      <displayunitcount>9</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -429,6 +448,18 @@
       <prereqtech>HCShipDragoons1</prereqtech>
       <age>3</age>
       <displayunitcount>8</displayunitcount>
+    </card>
+    <card>
+      <name>DEHCAlpini</name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <prereqtech>-1</prereqtech>
+      <age>3</age>
+    </card>
+    <card>
+      <name>DEHCRedshirts</name>
+      <maxcount>1</maxcount>
+      <age>3</age>
     </card>
     <card>
       <name>HCShipGrenadiers2</name>
@@ -467,6 +498,34 @@
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
+      <name>DEHCHandMortar</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+    </card>
+    <card>
+      <name>DEHCInfantryHitpointsItalian</name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <prereqtech>DEHCInfantryDamageItalian</prereqtech>
+      <age>1</age>
+    </card>
+    <card>
+      <name>DEHCSchiavoniSwords</name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <prereqtech>DEHCCavalryHitpointsItalian</prereqtech>
+      <age>1</age>
+    </card>
+    <card>
+      <name>DEHCCavalryCombatItalian</name>
+      <maxcount>1</maxcount>
+      <level>25</level>
+      <prereqtech>DEHCSchiavoniSwords</prereqtech>
+      <age>2</age>
+    </card>
+    <card>
       <name>HCShipMortars2</name>
       <maxcount>1</maxcount>
       <level>10</level>
@@ -500,6 +559,13 @@
       <prereqtech>DEHCShipPapalBombards</prereqtech>
       <age>3</age>
       <displayunitcount>2</displayunitcount>
+    </card>
+    <card>
+      <name>HCAdvancedArtillery</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
     </card>
     <card>
       <name>HCXPShipCulverins2</name>
@@ -598,7 +664,7 @@
       <name>DEHCAlbanianCompany</name>
       <maxcount>1</maxcount>
       <age>2</age>
-      <displayunitcount>8</displayunitcount>
+      <displayunitcount>7</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -698,7 +764,6 @@
       <maxcount>1</maxcount>
       <age>3</age>
       <displayunitcount>25</displayunitcount>
-      <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
       <name>DEHCPapalArsenal</name>
@@ -706,46 +771,6 @@
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>3</age>
-    </card>
-    <card>
-      <name>DEHCHeavyPaveses</name>
-      <maxcount>1</maxcount>
-      <level>0</level>
-      <prereqtech>-1</prereqtech>
-      <age>2</age>
-    </card>
-    <card>
-      <name>DEHCImprovedCrossbowsItalians</name>
-      <maxcount>1</maxcount>
-      <age>2</age>
-    </card>
-    <card>
-      <name>DEHCAlpini</name>
-      <maxcount>1</maxcount>
-      <level>10</level>
-      <prereqtech>-1</prereqtech>
-      <age>3</age>
-    </card>
-    <card>
-      <name>DEHCCavalryCombatItalian</name>
-      <maxcount>1</maxcount>
-      <level>25</level>
-      <prereqtech>DEHCSchiavoniSwords</prereqtech>
-      <age>2</age>
-    </card>
-    <card>
-      <name>DEHCHandMortar</name>
-      <maxcount>1</maxcount>
-      <level>0</level>
-      <prereqtech>-1</prereqtech>
-      <age>2</age>
-    </card>
-    <card>
-      <name>HCAdvancedArtillery</name>
-      <maxcount>1</maxcount>
-      <level>0</level>
-      <prereqtech>-1</prereqtech>
-      <age>2</age>
     </card>
     <card>
       <name>HCImprovedBuildings</name>
@@ -799,20 +824,6 @@
       <maxcount>1</maxcount>
       <level>10</level>
       <prereqtech>-1</prereqtech>
-      <age>1</age>
-    </card>
-    <card>
-      <name>DEHCSchiavoniSwords</name>
-      <maxcount>1</maxcount>
-      <level>10</level>
-      <prereqtech>DEHCCavalryHitpointsItalian</prereqtech>
-      <age>1</age>
-    </card>
-    <card>
-      <name>DEHCInfantryHitpointsItalian</name>
-      <maxcount>1</maxcount>
-      <level>10</level>
-      <prereqtech>DEHCInfantryDamageItalian</prereqtech>
       <age>1</age>
     </card>
     <card>
@@ -2112,6 +2123,7 @@
       <tech x="2.5" y="1.0">HCShipMusketeers1</tech>
       <tech x="2.5" y="1.0">HCShipMusketeers2</tech>
       <tech x="2.5" y="1.0">HCShipMusketeers4</tech>
+      <tech x="2.5" y="1.0">DEHCRedshirts</tech>
       <tech x="2.5" y="5.0">DEHCShipHalberdiersRepeat</tech>
       <tech x="2.5" y="5.0">HCShipHalberdiers4</tech>
       <tech x="2.5" y="5.0">HCShipHalberdiers3</tech>
@@ -2119,6 +2131,7 @@
       <tech x="2.5" y="5.0">DEHCShipPavisiers1</tech>
       <tech x="0.9" y="1.0">DEHCHeavyPaveses</tech>
       <tech x="0.9" y="1.0">DEHCImprovedCrossbowsItalians</tech>
+      <tech x="0.9" y="1.0">DEHCRomanTactics</tech>
       <tech x="1.8" y="4.0">DEHCInfantryHitpointsItalian</tech>
       <tech x="5.3" y="4.0">DEHCGuardiaFinanza</tech>
       <tech x="3.2" y="3.0">DEHCShipBersaglieriRepeat</tech>
@@ -2151,6 +2164,7 @@
       <tech x="2.5" y="1.0">HCShipMusketeers1</tech>
       <tech x="2.5" y="1.0">HCShipMusketeers2</tech>
       <tech x="2.5" y="1.0">HCShipMusketeers4</tech>
+      <tech x="2.5" y="1.0">DEHCRedshirts</tech>
       <tech x="2.5" y="5.0">DEHCShipHalberdiersRepeat</tech>
       <tech x="2.5" y="5.0">HCShipHalberdiers4</tech>
       <tech x="2.5" y="5.0">HCShipHalberdiers3</tech>
@@ -2158,6 +2172,7 @@
       <tech x="2.5" y="5.0">DEHCShipPavisiers1</tech>
       <tech x="0.9" y="1.0">DEHCHeavyPaveses</tech>
       <tech x="0.9" y="1.0">DEHCImprovedCrossbowsItalians</tech>
+      <tech x="0.9" y="1.0">DEHCRomanTactics</tech>
       <tech x="1.8" y="4.0">DEHCInfantryHitpointsItalian</tech>
       <tech x="5.3" y="4.0">DEHCGuardiaFinanza</tech>
       <tech x="3.2" y="3.0">DEHCShipBersaglieriRepeat</tech>

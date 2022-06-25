@@ -2480,7 +2480,7 @@
   <power name="deAuraBasilica" type="GeneralEffect">
     <displaynameid>125145</displaynameid>
     <rolloverid>125143</rolloverid>
-    <icon>resources\images\icons\abilities\passive_courage_aura.png</icon>
+    <icon>resources\images\icons\abilities\passive_architectural_heritage.png</icon>
     <allowduringnorush>1</allowduringnorush>
   </power>
   <power name="deChargeAbilityFlamethrower" type="GeneralEffect">
@@ -2523,5 +2523,11 @@
     </effect>
     <placement forceonmap="1" ally="">full</placement>
     <startsoundset>UnknownDrum</startsoundset>
+  </power>
+  <power name="dePassiveAbilityMortarMaltese" type="GeneralEffect">
+    <displaynameid>104668</displaynameid>
+    <rolloverid>104647</rolloverid>
+    <icon>resources\images\icons\abilities\passive_battle_bluster.png</icon>
+    <allowduringnorush>1</allowduringnorush>
   </power>
 </powers>

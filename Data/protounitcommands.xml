@@ -1900,6 +1900,7 @@
     <command>investResource(-1,"Food")</command>
     <icon>resources\images\icons\techs\asians\shrine_food.png</icon>
     <rollovertextid>122202</rollovertextid>
+    <disabledrollovertextid>122202</disabledrollovertextid>
     <valuetext>{resourceInvestment}</valuetext>
   </protounitcommand>
   <protounitcommand>
@@ -1908,6 +1909,7 @@
     <command>investResource(-1,"Wood")</command>
     <icon>resources\images\icons\techs\asians\shrine_wood.png</icon>
     <rollovertextid>122203</rollovertextid>
+    <disabledrollovertextid>122203</disabledrollovertextid>
     <valuetext>{resourceInvestment}</valuetext>
   </protounitcommand>
   <protounitcommand>
@@ -1916,6 +1918,7 @@
     <command>investResource(-1,"Gold")</command>
     <icon>resources\images\icons\techs\asians\shrine_coin.png</icon>
     <rollovertextid>122204</rollovertextid>
+    <disabledrollovertextid>122204</disabledrollovertextid>
     <valuetext>{resourceInvestment}</valuetext>
   </protounitcommand>
   <protounitcommand>
@@ -2239,5 +2242,211 @@
     </usemultiple>
     <usemediumbutton3>
     </usemediumbutton3>
+  </protounitcommand>
+  <protounitcommand>
+    <dbid>232</dbid>
+    <name>deSocketBuildNative</name>
+    <icon>resources\images\icons\command\build_socket_trading_post_america.png</icon>
+    <command>uiSocketBuildNative(%d)</command>
+    <commandpassesunitid>
+    </commandpassesunitid>
+    <socketbuild>
+    </socketbuild>
+    <subcivalliance>
+    </subcivalliance>
+    <rollovertextid>125500</rollovertextid>
+    <disabledrollovertextid>104891</disabledrollovertextid>
+  </protounitcommand>
+  <protounitcommand>
+    <dbid>233</dbid>
+    <name>deSocketBuildSouthNative</name>
+    <icon>resources\images\icons\command\build_socket_trading_post_america.png</icon>
+    <command>uiSocketBuildNative(%d)</command>
+    <commandpassesunitid>
+    </commandpassesunitid>
+    <socketbuild>
+    </socketbuild>
+    <subcivalliance>
+    </subcivalliance>
+    <rollovertextid>125500</rollovertextid>
+    <disabledrollovertextid>104891</disabledrollovertextid>
+  </protounitcommand>
+  <protounitcommand>
+    <dbid>234</dbid>
+    <name>deSocketBuildAsian</name>
+    <icon>resources\images\icons\command\build_socket_trading_post_asia.png</icon>
+    <command>uiSocketBuildNative(%d)</command>
+    <commandpassesunitid>
+    </commandpassesunitid>
+    <socketbuild>
+    </socketbuild>
+    <subcivalliance>
+    </subcivalliance>
+    <rollovertextid>125500</rollovertextid>
+    <disabledrollovertextid>104891</disabledrollovertextid>
+  </protounitcommand>
+  <protounitcommand>
+    <dbid>235</dbid>
+    <name>deSocketBuildAfrican</name>
+    <icon>resources\images\icons\command\build_socket_trading_post_africa.png</icon>
+    <command>uiSocketBuildNative(%d)</command>
+    <commandpassesunitid>
+    </commandpassesunitid>
+    <socketbuild>
+    </socketbuild>
+    <subcivalliance>
+    </subcivalliance>
+    <rollovertextid>125500</rollovertextid>
+    <disabledrollovertextid>104891</disabledrollovertextid>
+  </protounitcommand>
+  <protounitcommand>
+    <dbid>236</dbid>
+    <name>deSocketBuildEuropean</name>
+    <icon>resources\images\icons\command\build_socket_trading_post_eu.png</icon>
+    <command>uiSocketBuildNative(%d)</command>
+    <commandpassesunitid>
+    </commandpassesunitid>
+    <socketbuild>
+    </socketbuild>
+    <subcivalliance>
+    </subcivalliance>
+    <rollovertextid>125500</rollovertextid>
+    <disabledrollovertextid>104891</disabledrollovertextid>
+  </protounitcommand>
+  <protounitcommand>
+    <dbid>237</dbid>
+    <name>deTownCenterTransformTravois</name>
+    <icon>resources\images\icons\command\command_pack.png</icon>
+    <command>uiTransformSelectedUnit("CoveredWagon", true, %d)</command>
+    <commandpassesunitid>
+    </commandpassesunitid>
+    <associatedtech>DETownCenterTransformTravois</associatedtech>
+    <rollovertextid>125508</rollovertextid>
+    <disabledrollovertextid>125508</disabledrollovertextid>
+    <donotallowifunitdamaged>
+    </donotallowifunitdamaged>
+    <canqueue>
+    </canqueue>
+    <transformselected>
+    </transformselected>
+  </protounitcommand>
+  <protounitcommand>
+    <dbid>238</dbid>
+    <name>deCommunityPlazaTransformTravois</name>
+    <icon>resources\images\icons\command\command_pack.png</icon>
+    <command>uiTransformSelectedUnit("deCommunityPlazaTravois", true, %d)</command>
+    <commandpassesunitid>
+    </commandpassesunitid>
+    <associatedtech>DECommunityPlazaTransformTravois</associatedtech>
+    <rollovertextid>125508</rollovertextid>
+    <disabledrollovertextid>125508</disabledrollovertextid>
+    <donotallowifunitdamaged>
+    </donotallowifunitdamaged>
+    <canqueue>
+    </canqueue>
+    <transformselected>
+    </transformselected>
+  </protounitcommand>
+  <protounitcommand>
+    <dbid>239</dbid>
+    <name>deMarketTransformTravois</name>
+    <icon>resources\images\icons\command\command_pack.png</icon>
+    <command>uiTransformSelectedUnit("deMarketTravois", true, %d)</command>
+    <commandpassesunitid>
+    </commandpassesunitid>
+    <associatedtech>DEMarketTransformTravois</associatedtech>
+    <rollovertextid>125508</rollovertextid>
+    <disabledrollovertextid>125508</disabledrollovertextid>
+    <donotallowifunitdamaged>
+    </donotallowifunitdamaged>
+    <canqueue>
+    </canqueue>
+    <transformselected>
+    </transformselected>
+  </protounitcommand>
+  <protounitcommand>
+    <dbid>240</dbid>
+    <name>deCorralTransformTravois</name>
+    <icon>resources\images\icons\command\command_pack.png</icon>
+    <command>uiTransformSelectedUnit("deCorralTravois", true, %d)</command>
+    <commandpassesunitid>
+    </commandpassesunitid>
+    <associatedtech>DECorralTransformTravois</associatedtech>
+    <rollovertextid>125508</rollovertextid>
+    <disabledrollovertextid>125508</disabledrollovertextid>
+    <donotallowifunitdamaged>
+    </donotallowifunitdamaged>
+    <canqueue>
+    </canqueue>
+    <transformselected>
+    </transformselected>
+  </protounitcommand>
+  <protounitcommand>
+    <dbid>241</dbid>
+    <name>deWarHutTransformTravois</name>
+    <icon>resources\images\icons\command\command_pack.png</icon>
+    <command>uiTransformSelectedUnit("WarHutTravois", true, %d)</command>
+    <commandpassesunitid>
+    </commandpassesunitid>
+    <associatedtech>DEWarHutTransformTravois</associatedtech>
+    <rollovertextid>125508</rollovertextid>
+    <disabledrollovertextid>125508</disabledrollovertextid>
+    <donotallowifunitdamaged>
+    </donotallowifunitdamaged>
+    <canqueue>
+    </canqueue>
+    <transformselected>
+    </transformselected>
+  </protounitcommand>
+  <protounitcommand>
+    <dbid>242</dbid>
+    <name>deFarmTransformTravois</name>
+    <icon>resources\images\icons\command\command_pack.png</icon>
+    <command>uiTransformSelectedUnit("FarmTravois", true, %d)</command>
+    <commandpassesunitid>
+    </commandpassesunitid>
+    <associatedtech>DEFarmTransformTravois</associatedtech>
+    <rollovertextid>125508</rollovertextid>
+    <disabledrollovertextid>125508</disabledrollovertextid>
+    <donotallowifunitdamaged>
+    </donotallowifunitdamaged>
+    <canqueue>
+    </canqueue>
+    <transformselected>
+    </transformselected>
+  </protounitcommand>
+  <protounitcommand>
+    <dbid>243</dbid>
+    <name>deEmbassyTransformTravois</name>
+    <icon>resources\images\icons\command\command_pack.png</icon>
+    <command>uiTransformSelectedUnit("deEmbassyTravois", true, %d)</command>
+    <commandpassesunitid>
+    </commandpassesunitid>
+    <associatedtech>DEEmbassyTransformTravois</associatedtech>
+    <rollovertextid>125508</rollovertextid>
+    <disabledrollovertextid>125508</disabledrollovertextid>
+    <donotallowifunitdamaged>
+    </donotallowifunitdamaged>
+    <canqueue>
+    </canqueue>
+    <transformselected>
+    </transformselected>
+  </protounitcommand>
+  <protounitcommand>
+    <dbid>244</dbid>
+    <name>dePlantationTransformTravois</name>
+    <icon>resources\images\icons\command\command_pack.png</icon>
+    <command>uiTransformSelectedUnit("dePlantationTravois", true, %d)</command>
+    <commandpassesunitid>
+    </commandpassesunitid>
+    <associatedtech>DEPlantationTransformTravois</associatedtech>
+    <rollovertextid>125508</rollovertextid>
+    <disabledrollovertextid>125508</disabledrollovertextid>
+    <donotallowifunitdamaged>
+    </donotallowifunitdamaged>
+    <canqueue>
+    </canqueue>
+    <transformselected>
+    </transformselected>
   </protounitcommand>
 </protounitcommands>

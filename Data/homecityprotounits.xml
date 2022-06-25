@@ -2460,7 +2460,7 @@
   <protounit>
     <name>Malta_gondolas</name>
     <civilization>DEMaltese</civilization>
-    <visual>homecity\italy\italy_boats\gondolas.xml</visual>
+    <visual>homecity\malta\malta_boats\luzzus.xml</visual>
     <script>gondola</script>
     <mincount>1</mincount>
     <maxcount>8</maxcount>
@@ -2524,5 +2524,66 @@
     <visual>homecity\home_city_props\italy_carnevale\italy_carnevale_2.xml</visual>
     <locked>
     </locked>
+  </protounit>
+  <protounit>
+    <name>xpLakotaWarchief</name>
+    <culturegroup>Sioux</culturegroup>
+    <visual>units\natives\lakota\war_chief\war_chief_horse.xml</visual>
+    <bone>bone_explorer_special</bone>
+    <script>explorer</script>
+    <selectable>
+    </selectable>
+    <camera>sioux\sioux_homecity_explorer_camera.cam</camera>
+    <widescreencamera>sioux\sioux_homecity_explorer_widescreencamera.cam</widescreencamera>
+  </protounit>
+  <protounit>
+    <name>Lakota_Fauna</name>
+    <civilization>XPSioux</civilization>
+    <visual>homecity\sioux\sioux_dogs\sioux_dogs.xml</visual>
+    <script>citizen</script>
+    <mincount>2</mincount>
+    <maxcount>5</maxcount>
+    <maxwalkvelocity>1.0</maxwalkvelocity>
+    <turnrate>360.0</turnrate>
+    <minturnangle>45.0</minturnangle>
+    <locked>
+    </locked>
+  </protounit>
+  <protounit>
+    <name>lakota_foxes</name>
+    <civilization>XPSioux</civilization>
+    <visual>homecity\homecity_units\grey_fox\grey_fox.xml</visual>
+    <script>citizen</script>
+    <mincount>2</mincount>
+    <maxcount>5</maxcount>
+    <maxwalkvelocity>1.0</maxwalkvelocity>
+    <turnrate>360.0</turnrate>
+    <minturnangle>45.0</minturnangle>
+    <locked>
+    </locked>
+  </protounit>
+  <protounit>
+    <name>lakota_horses</name>
+    <civilization>XPSioux</civilization>
+    <bone>bone_centered</bone>
+    <script>Citizen</script>
+    <visual>homecity\home_city_props\lakota_horses\lakota_horses.xml</visual>
+    <locked>
+    </locked>
+  </protounit>
+  <protounit>
+    <name>lakota_dogs</name>
+    <civilization>XPSioux</civilization>
+    <bone>bone_centered</bone>
+    <script>Citizen</script>
+    <visual>homecity\home_city_props\lakota_horses\lakota_horses.xml</visual>
+    <locked>
+    </locked>
+  </protounit>
+  <protounit>
+    <culturegroup>Sioux</culturegroup>
+    <name>Lakota_Tent_Handler</name>
+    <script>lakota_tent_handler</script>
+    <bone>bone_centered</bone>
   </protounit>
 </homecityprotounits>

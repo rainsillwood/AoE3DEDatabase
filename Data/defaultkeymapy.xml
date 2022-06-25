@@ -548,6 +548,20 @@
       <command>toggleUIPhotoScreen</command>
     </keymapdata>
     <keymapdata>
+      <name>Toggle Fog of War</name>
+      <displayname>$$79814$$Toggle Fog of War</displayname>
+      <event>f</event>
+      <context>Photo</context>
+      <command>ToggleFogOfWarCheckBox</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Toggle Blackmap</name>
+      <displayname>$$79815$$Toggle Blackmap</displayname>
+      <event>g</event>
+      <context>Photo</context>
+      <command>ToggleBlackMapCheckBox</command>
+    </keymapdata>
+    <keymapdata>
       <name>Camera Rotate Left</name>
       <displayname>$$43423$$Camera Rotate Left</displayname>
       <event>alt-d</event>
@@ -578,6 +592,70 @@
       <context>Photo</context>
       <edgetriggered>1</edgetriggered>
       <command>cameraPitchBackward</command>
+    </keymapdata>
+  </keymapgroup>
+  <keymapgroup name="Tycoon Package Hotkeys" displayname="$$79982$$Tycoon Package Hotkeys">
+    <keymapdata>
+      <name>Expand Tycoon Menu</name>
+      <displayname>$$55693$$Expand Tycoon Menu</displayname>
+      <context>game</context>
+      <command>uiToggleEcoPackagePanel()</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Tycoon Package 1</name>
+      <displayname>$$79983$$Tycoon Package 1</displayname>
+      <event>q</event>
+      <context>TycoonPackage</context>
+      <command>uiEcoTradeHotkey(1)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Multiple Tycoon Package 1</name>
+      <displayname>$$79987$$Multiple Tycoon Package 1</displayname>
+      <event>shift-q</event>
+      <context>TycoonPackage</context>
+      <command>uiEcoTradeMultipleHotkey(1)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Tycoon Package 2</name>
+      <displayname>$$79984$$Tycoon Package 2</displayname>
+      <event>w</event>
+      <context>TycoonPackage</context>
+      <command>uiEcoTradeHotkey(2)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Multiple Tycoon Package 2</name>
+      <displayname>$$79988$$Multiple Tycoon Package 2</displayname>
+      <event>shift-w</event>
+      <context>TycoonPackage</context>
+      <command>uiEcoTradeMultipleHotkey(2)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Tycoon Package 3</name>
+      <displayname>$$79985$$Tycoon Package 3</displayname>
+      <event>e</event>
+      <context>TycoonPackage</context>
+      <command>uiEcoTradeHotkey(3)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Multiple Tycoon Package 3</name>
+      <displayname>$$79989$$Multiple Tycoon Package 3</displayname>
+      <event>shift-e</event>
+      <context>TycoonPackage</context>
+      <command>uiEcoTradeMultipleHotkey(3)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Tycoon Package 4</name>
+      <displayname>$$79986$$Tycoon Package 4</displayname>
+      <event>r</event>
+      <context>TycoonPackage</context>
+      <command>uiEcoTradeHotkey(4)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Multiple Tycoon Package 4</name>
+      <displayname>$$79990$$Multiple Tycoon Package 4</displayname>
+      <event>shift-r</event>
+      <context>TycoonPackage</context>
+      <command>uiEcoTradeMultipleHotkey(4)</command>
     </keymapdata>
   </keymapgroup>
 </defaultkeymapy>

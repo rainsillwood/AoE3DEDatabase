@@ -123,6 +123,8 @@
       </entry>
       <entry name="141004" historytext="140004" texture="ui\\history\\histories\\H_ER_Sufi">
       </entry>
+      <entry name="61084" historytext="162521" texture="ui\\history\\histories\\H_ER_Tengri">
+      </entry>
       <entry name="141005" historytext="140005" texture="ui\\history\\histories\\H_ER_Udasi">
       </entry>
       <entry name="141006" historytext="140006" texture="ui\\history\\histories\\H_ER_Zen">
@@ -815,6 +817,12 @@
       </entry>
       <entry protoname="ypNatMercRattanShield" skiphistory="1" name="140103" historytext="140102" unithelptext="142053" texture="ui\\history\\militaries\\M_I_Shaolin Rattan Shield">
       </entry>
+      <entry protoname="deNatTatarArcher" name="61092" historytext="162520" unithelptext="162519" texture="ui\\history\\militaries\\m_a_NatTatarArcher">
+      </entry>
+      <entry protoname="deNatQizilbash" name="61096" historytext="162523" unithelptext="162522" texture="ui\\history\\militaries\\m_a_NatQizilbash">
+      </entry>
+      <entry protoname="deNatTengriWolf" name="61424" historytext="162527" unithelptext="162526" texture="ui\\history\\geography\\G_R_Wolf">
+      </entry>
       <entry protoname="deNatAkanWarchief" name="102544" historytext="162180" unithelptext="162179" texture="ui\\history\\militaries\\m_a_akan_warchief">
       </entry>
       <entry protoname="deNatAkanMusketeer" name="102536" historytext="162183" unithelptext="162182" texture="ui\\history\\militaries\\m_a_akan_musketeer">
@@ -1048,6 +1056,8 @@
       <entry protoname="deOutlawDesertArcher" name="102602" historytext="162157" unithelptext="162156" texture="ui\\history\\militaries\\m_a_desert_archer">
       </entry>
       <entry protoname="deOutlawDesertWarrior" name="102606" historytext="162160" unithelptext="162159" texture="ui\\history\\militaries\\m_a_desert_warrior">
+      </entry>
+      <entry protoname="deAllegianceBarbaryMarksman" name="80648" historytext="162525" unithelptext="162524" texture="ui\\history\\militaries\\m_a_corsair_marksman">
       </entry>
       <entry protoname="dePadre" name="112445" historytext="160105" unithelptext="160104" texture="ui\\history\\militaries\\m_a_padre">
       </entry>

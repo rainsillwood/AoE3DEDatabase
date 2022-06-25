@@ -89,7 +89,7 @@
     <string _locid="50086" comment="proto-Caravel civ-Germans type-title">Charlotte-Louise</string>
     <string _locid="50087" comment="proto-Caravel civ-Germans type-title">Churfürst</string>
     <string _locid="50088" comment="proto-Caravel civ-Germans type-title">Cleve</string>
-    <string _locid="50089" comment="proto-Caravel civ-Germans type-title">Derfflinger</string>
+    <string _locid="50089" comment="proto-Galleon civ-Germans type-title">Derfflinger</string>
     <string _locid="50090" comment="proto-Caravel civ-Germans type-title">Eichhorn</string>
     <string _locid="50091" comment="proto-Caravel civ-Germans type-title">Einhorn</string>
     <string _locid="50092" comment="proto-Caravel civ-Germans type-title">Falke</string>
@@ -368,11 +368,11 @@
     <string _locid="50365" comment="proto-Frigate civ-French type-title">Hortense</string>
     <string _locid="50366" comment="proto-Frigate civ-French type-title">Bucentaure</string>
     <string _locid="50367" comment="proto-Frigate civ-French type-title">Le Protecteur</string>
-    <string _locid="50368" comment="proto-Frigate civ-Germans type-title">Pferde</string>
-    <string _locid="50369" comment="proto-Frigate civ-Germans type-title">Hamburg</string>
-    <string _locid="50370" comment="proto-Frigate civ-Germans type-title">Betriebsamkeit</string>
-    <string _locid="50371" comment="proto-Frigate civ-Germans type-title">Admiralitatsyacht</string>
-    <string _locid="50372" comment="proto-Frigate civ-Germans type-title">Friedrich</string>
+    <string _locid="50368" comment="proto-Frigate civ-Germans type-title">Friedrich Wilhelm</string>
+    <string _locid="50369" comment="proto-Frigate civ-Germans type-title">Wapen von Hamburg</string>
+    <string _locid="50370" comment="proto-Frigate civ-Germans type-title">Novara</string>
+    <string _locid="50371" comment="proto-Frigate civ-Germans type-title">Admiralitätsyacht</string>
+    <string _locid="50372" comment="proto-Frigate civ-Germans type-title">San Carlos</string>
     <string _locid="50373" comment="proto-Frigate civ-Ottomans/SPCBarbaryPirates type-title">Ziveribahri</string>
     <string _locid="50374" comment="proto-Frigate civ-Ottomans/SPCBarbaryPirates type-title">Heybetendaz</string>
     <string _locid="50375" comment="proto-Frigate civ-Ottomans/SPCBarbaryPirates type-title">Asar-I-Nusret</string>
@@ -1903,8 +1903,8 @@
     <string _locid="51900" comment="proto-deTavern civ-Germans type-title">Karl's Kneipe</string>
     <string _locid="51901" comment="proto-deTavern civ-Germans type-title">Wiener Kaffeehaus</string>
     <string _locid="51902" comment="proto-deTavern civ-Germans type-title">Zum Langen Kerl</string>
-    <string _locid="51903" comment="proto-deTavern civ-Portuguese type-title">Joaquim'in Meyhanesi</string>
-    <string _locid="51904" comment="proto-deTavern civ-Portuguese type-title">Manuel'in Tavernası</string>
+    <string _locid="51903" comment="proto-deTavern civ-Portuguese type-title">Botequim do Joaquim</string>
+    <string _locid="51904" comment="proto-deTavern civ-Portuguese type-title">Bar do Manuel</string>
     <string _locid="51905" comment="proto-deTavern civ-Portuguese type-title">Pedreira do Pereira</string>
     <string _locid="51906" comment="proto-deTavern civ-Portuguese type-title">Caravela do Cabral</string>
     <string _locid="51907" comment="proto-deTavern civ-Portuguese type-title">Bar do Miranda</string>
@@ -2622,5 +2622,63 @@
     <string _locid="54291" comment="proto-deMalteseFireship civ-Maltese type-title">Yüzme Deposu</string>
     <string _locid="54292" comment="proto-deMalteseFireship civ-Maltese type-title">Hızlı Kundak Gemisi</string>
     <string _locid="54293" comment="proto-deMalteseFireship civ-Maltese type-title">Yakıcı Rüzgâr</string>
+    <string _locid="54294" comment="proto-Dog civ-Default type-title">Pluto</string>
+    <string _locid="54295" comment="proto-Dog civ-Default type-title">Bello</string>
+    <string _locid="54296" comment="proto-Dog civ-Default type-title">Caesar</string>
+    <string _locid="54297" comment="proto-Dog civ-Default type-title">Brutus</string>
+    <string _locid="54298" comment="proto-Dog civ-Default type-title">Mars</string>
+    <string _locid="54299" comment="proto-Dog civ-Default type-title">Pinocchio</string>
+    <string _locid="54300" comment="proto-Dog civ-Default type-title">Luigi</string>
+    <string _locid="54301" comment="proto-Dog civ-Default type-title">Isabella</string>
+    <string _locid="54302" comment="proto-Dog civ-Default type-title">Lupo</string>
+    <string _locid="54303" comment="proto-Dog civ-Default type-title">Biscotti</string>
+    <string _locid="54304" comment="proto-Dog civ-Default type-title">Dante</string>
+    <string _locid="54305" comment="proto-Dog civ-Default type-title">Michelangelo</string>
+    <string _locid="54306" comment="proto-Dog civ-Default type-title">Dolce</string>
+    <string _locid="54307" comment="proto-Dog civ-Default type-title">Ferrari</string>
+    <string _locid="54308" comment="proto-Dog civ-Default type-title">Sicily</string>
+    <string _locid="54309" comment="proto-Dog civ-Default type-title">Claudio</string>
+    <string _locid="54310" comment="proto-deMercBattleship civ-Germans type-title">Kaiser</string>
+    <string _locid="54311" comment="proto-deMercBattleship civ-Portuguese type-title">Vasco da Gama</string>
+    <string _locid="54312" comment="proto-deMercBattleship civ-Portuguese type-title">Santa Catarina</string>
+    <string _locid="54313" comment="proto-deMercBattleship civ-Portuguese type-title">Rainha de Portugal</string>
+    <string _locid="54314" comment="proto-deMercBattleship civ-Portuguese type-title">Padre Eterno</string>
+    <string _locid="54315" comment="proto-deMercBattleship civ-Portuguese type-title">Nossa Senhora da Conceição</string>
+    <string _locid="54316" comment="proto-deMercBattleship civ-Swedes type-title">Götha Lejon</string>
+    <string _locid="54317" comment="proto-deMercBattleship civ-Swedes type-title">Äpple</string>
+    <string _locid="54318" comment="proto-deMercBattleship civ-Ottomans type-title">Mahmudiye</string>
+    <string _locid="54319" comment="proto-deMercBattleship civ-Ottomans type-title">Selimiye</string>
+    <string _locid="54320" comment="proto-deMercBattleship civ-Ottomans type-title">Faouish</string>
+    <string _locid="54321" comment="proto-deMercBattleship civ-Ottomans type-title">Teşrifiye</string>
+    <string _locid="54322" comment="proto-deMercBattleship civ-Ottomans type-title">Teşvikiye</string>
+    <string _locid="54323" comment="proto-deMercBattleship civ-Ottomans type-title">Memdûhiye</string>
+    <string _locid="54324" comment="proto-deMercBattleship civ-Ottomans type-title">Fethiye</string>
+    <string _locid="54325" comment="proto-deMercBattleship civ-Dutch type-title">Eendracht</string>
+    <string _locid="54326" comment="proto-deMercBattleship civ-Russians type-title">İmparator Piotr</string>
+    <string _locid="54327" comment="proto-deMercBattleship civ-Russians type-title">İmparator Aleksandr</string>
+    <string _locid="54328" comment="proto-deMercBattleship civ-Russians type-title">İmparator Nikolai</string>
+    <string _locid="54329" comment="proto-deMercBattleship civ-Russians type-title">Apostolov</string>
+    <string _locid="54330" comment="proto-deMercBattleship civ-Russians type-title">Rostislav</string>
+    <string _locid="54331" comment="proto-deMercBattleship civ-Russians type-title">Blagodat</string>
+    <string _locid="54332" comment="proto-deMercBattleship civ-Russians type-title">Tsesarevitch</string>
+    <string _locid="54333" comment="proto-deMercBattleship civ-Russians type-title">Sinop</string>
+    <string _locid="54334" comment="proto-deMercBattleship civ-Russians type-title">Khrabryi</string>
+    <string _locid="54335" comment="proto-deMercBattleship civ-Russians type-title">Rossiya</string>
+    <string _locid="54336" comment="proto-deMercBattleship civ-Russians type-title">Varshava</string>
+    <string _locid="54337" comment="proto-deMercBattleship civ-Russians type-title">Tri Sviatitelia</string>
+    <string _locid="54338" comment="proto-deMercBattleship civ-Russians type-title">Parizh</string>
+    <string _locid="54339" comment="proto-deMercBattleship civ-French type-title">Valmy</string>
+    <string _locid="54340" comment="proto-deMercBattleship civ-French type-title">Intrépide</string>
+    <string _locid="54341" comment="proto-deMercBattleship civ-French type-title">Imperial</string>
+    <string _locid="54342" comment="proto-deMercBattleship civ-French type-title">Marseille</string>
+    <string _locid="54343" comment="proto-deMercBattleship civ-French type-title">Dauphin-Royal</string>
+    <string _locid="54344" comment="proto-deMercBattleship civ-French type-title">Océan</string>
+    <string _locid="54345" comment="proto-deMercBattleship civ-French type-title">Soleil Royal</string>
+    <string _locid="54346" comment="proto-deMercBattleship civ-French type-title">Bretagne</string>
+    <string _locid="54347" comment="proto-deMercBattleship civ-French type-title">Invincible</string>
+    <string _locid="54348" comment="proto-deMercBattleship civ-French type-title">Orient</string>
+    <string _locid="54349" comment="proto-deMercBattleship civ-French type-title">Vengeur</string>
+    <string _locid="54350" comment="proto-deMercBattleship civ-French type-title">Montebello</string>
+    <string _locid="54351" comment="proto-deMercBattleship civ-Germans type-title">Adler von Lübeck</string>
   </language>
 </stringtable>

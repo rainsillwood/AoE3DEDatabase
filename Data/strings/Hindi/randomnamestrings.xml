@@ -89,7 +89,7 @@
     <string _locid="50086" comment="proto-Caravel civ-Germans type-title">शार्लोट-लुइस</string>
     <string _locid="50087" comment="proto-Caravel civ-Germans type-title">चुरफ्रस्ट</string>
     <string _locid="50088" comment="proto-Caravel civ-Germans type-title">क्लीव</string>
-    <string _locid="50089" comment="proto-Caravel civ-Germans type-title">डर्फलिंगर</string>
+    <string _locid="50089" comment="proto-Galleon civ-Germans type-title">डर्फलिंगर</string>
     <string _locid="50090" comment="proto-Caravel civ-Germans type-title">इचहॉर्न</string>
     <string _locid="50091" comment="proto-Caravel civ-Germans type-title">इनहॉर्न</string>
     <string _locid="50092" comment="proto-Caravel civ-Germans type-title">फाल्के</string>
@@ -368,11 +368,11 @@
     <string _locid="50365" comment="proto-Frigate civ-French type-title">हॉर्टेन्स</string>
     <string _locid="50366" comment="proto-Frigate civ-French type-title">बुसेन्टौर</string>
     <string _locid="50367" comment="proto-Frigate civ-French type-title">ले प्रोटेक्टर</string>
-    <string _locid="50368" comment="proto-Frigate civ-Germans type-title">पीफर्ड</string>
-    <string _locid="50369" comment="proto-Frigate civ-Germans type-title">हैम्बर्ग</string>
-    <string _locid="50370" comment="proto-Frigate civ-Germans type-title">बेट्रीबसमकेइट</string>
+    <string _locid="50368" comment="proto-Frigate civ-Germans type-title">फ्रेडरिक विल्हेम</string>
+    <string _locid="50369" comment="proto-Frigate civ-Germans type-title">वैपेन वॉन हैम्बर्ग</string>
+    <string _locid="50370" comment="proto-Frigate civ-Germans type-title">नोवारा</string>
     <string _locid="50371" comment="proto-Frigate civ-Germans type-title">एडमिरलिटाटस्याट</string>
-    <string _locid="50372" comment="proto-Frigate civ-Germans type-title">फ्रेडरिक</string>
+    <string _locid="50372" comment="proto-Frigate civ-Germans type-title">सैन कार्लोस</string>
     <string _locid="50373" comment="proto-Frigate civ-Ottomans/SPCBarbaryPirates type-title">जिवरीबहरी</string>
     <string _locid="50374" comment="proto-Frigate civ-Ottomans/SPCBarbaryPirates type-title">हेबेटेंडाज़</string>
     <string _locid="50375" comment="proto-Frigate civ-Ottomans/SPCBarbaryPirates type-title">असार-ए-नुसरत</string>
@@ -1903,8 +1903,8 @@
     <string _locid="51900" comment="proto-deTavern civ-Germans type-title">कार्ल केनेप</string>
     <string _locid="51901" comment="proto-deTavern civ-Germans type-title">वीनर काफईहॉस</string>
     <string _locid="51902" comment="proto-deTavern civ-Germans type-title">जुम लैंगन कर्ल</string>
-    <string _locid="51903" comment="proto-deTavern civ-Portuguese type-title">जोआक्विम का बोटेक्विम</string>
-    <string _locid="51904" comment="proto-deTavern civ-Portuguese type-title">मैनुअल पब</string>
+    <string _locid="51903" comment="proto-deTavern civ-Portuguese type-title">बोटेक्विम दो जोएक्विम</string>
+    <string _locid="51904" comment="proto-deTavern civ-Portuguese type-title">बार दो मैनुअल</string>
     <string _locid="51905" comment="proto-deTavern civ-Portuguese type-title">पेडरेरा डो परेरा</string>
     <string _locid="51906" comment="proto-deTavern civ-Portuguese type-title">कैरवेला डो कैबरल</string>
     <string _locid="51907" comment="proto-deTavern civ-Portuguese type-title">बार डो मिरांडा</string>
@@ -2622,5 +2622,63 @@
     <string _locid="54291" comment="proto-deMalteseFireship civ-Maltese type-title">तैराकी डिपो</string>
     <string _locid="54292" comment="proto-deMalteseFireship civ-Maltese type-title">तुरंत आग फेंकने वाला जहाज</string>
     <string _locid="54293" comment="proto-deMalteseFireship civ-Maltese type-title">जलती हुई हवा</string>
+    <string _locid="54294" comment="proto-Dog civ-Default type-title">प्लूटो</string>
+    <string _locid="54295" comment="proto-Dog civ-Default type-title">बेलो</string>
+    <string _locid="54296" comment="proto-Dog civ-Default type-title">सीज़र</string>
+    <string _locid="54297" comment="proto-Dog civ-Default type-title">ब्रूटस</string>
+    <string _locid="54298" comment="proto-Dog civ-Default type-title">मंगल</string>
+    <string _locid="54299" comment="proto-Dog civ-Default type-title">पिनोचियो</string>
+    <string _locid="54300" comment="proto-Dog civ-Default type-title">लुइगी</string>
+    <string _locid="54301" comment="proto-Dog civ-Default type-title">इसाबेला</string>
+    <string _locid="54302" comment="proto-Dog civ-Default type-title">लुपो</string>
+    <string _locid="54303" comment="proto-Dog civ-Default type-title">बिस्कोटी</string>
+    <string _locid="54304" comment="proto-Dog civ-Default type-title">दांते</string>
+    <string _locid="54305" comment="proto-Dog civ-Default type-title">माइकल एंजेलो</string>
+    <string _locid="54306" comment="proto-Dog civ-Default type-title">डोल्से</string>
+    <string _locid="54307" comment="proto-Dog civ-Default type-title">Ferrari</string>
+    <string _locid="54308" comment="proto-Dog civ-Default type-title">सिसिली</string>
+    <string _locid="54309" comment="proto-Dog civ-Default type-title">क्लाउडियो</string>
+    <string _locid="54310" comment="proto-deMercBattleship civ-Germans type-title">कैसर</string>
+    <string _locid="54311" comment="proto-deMercBattleship civ-Portuguese type-title">वास्को दि गामा</string>
+    <string _locid="54312" comment="proto-deMercBattleship civ-Portuguese type-title">सांता कैटरीना</string>
+    <string _locid="54313" comment="proto-deMercBattleship civ-Portuguese type-title">रैन्हा दे पुर्तगाल</string>
+    <string _locid="54314" comment="proto-deMercBattleship civ-Portuguese type-title">पेड्रे इटर्नो</string>
+    <string _locid="54315" comment="proto-deMercBattleship civ-Portuguese type-title">नोसा सेन्होरा दा कॉन्सेइकाओ</string>
+    <string _locid="54316" comment="proto-deMercBattleship civ-Swedes type-title">गोथा लेजोन</string>
+    <string _locid="54317" comment="proto-deMercBattleship civ-Swedes type-title">एपल</string>
+    <string _locid="54318" comment="proto-deMercBattleship civ-Ottomans type-title">महमुदिये</string>
+    <string _locid="54319" comment="proto-deMercBattleship civ-Ottomans type-title">सेलिमिये</string>
+    <string _locid="54320" comment="proto-deMercBattleship civ-Ottomans type-title">फ़ौइशो</string>
+    <string _locid="54321" comment="proto-deMercBattleship civ-Ottomans type-title">तेसरिफिये</string>
+    <string _locid="54322" comment="proto-deMercBattleship civ-Ottomans type-title">टेस्विकिये</string>
+    <string _locid="54323" comment="proto-deMercBattleship civ-Ottomans type-title">मेमदोहिये</string>
+    <string _locid="54324" comment="proto-deMercBattleship civ-Ottomans type-title">फेथिये</string>
+    <string _locid="54325" comment="proto-deMercBattleship civ-Dutch type-title">एनड्राचट</string>
+    <string _locid="54326" comment="proto-deMercBattleship civ-Russians type-title">इम्पीरेटर पिओत्र</string>
+    <string _locid="54327" comment="proto-deMercBattleship civ-Russians type-title">इम्पीरेटर अलेक्सांद्रे</string>
+    <string _locid="54328" comment="proto-deMercBattleship civ-Russians type-title">इम्पीरेटर निकोलाईक</string>
+    <string _locid="54329" comment="proto-deMercBattleship civ-Russians type-title">अपोस्टोलोव</string>
+    <string _locid="54330" comment="proto-deMercBattleship civ-Russians type-title">रोस्तिस्लाव</string>
+    <string _locid="54331" comment="proto-deMercBattleship civ-Russians type-title">ब्लागोडाट</string>
+    <string _locid="54332" comment="proto-deMercBattleship civ-Russians type-title">सेसरेविच</string>
+    <string _locid="54333" comment="proto-deMercBattleship civ-Russians type-title">साइनॉप</string>
+    <string _locid="54334" comment="proto-deMercBattleship civ-Russians type-title">ख्राब्री</string>
+    <string _locid="54335" comment="proto-deMercBattleship civ-Russians type-title">रोसिया</string>
+    <string _locid="54336" comment="proto-deMercBattleship civ-Russians type-title">वर्षावा</string>
+    <string _locid="54337" comment="proto-deMercBattleship civ-Russians type-title">त्रि स्वीतितेलिया</string>
+    <string _locid="54338" comment="proto-deMercBattleship civ-Russians type-title">पेरिज़</string>
+    <string _locid="54339" comment="proto-deMercBattleship civ-French type-title">वाल्मी</string>
+    <string _locid="54340" comment="proto-deMercBattleship civ-French type-title">इंट्रेपाइड</string>
+    <string _locid="54341" comment="proto-deMercBattleship civ-French type-title">शाही</string>
+    <string _locid="54342" comment="proto-deMercBattleship civ-French type-title">मारसैल</string>
+    <string _locid="54343" comment="proto-deMercBattleship civ-French type-title">दौफिन-रॉयल</string>
+    <string _locid="54344" comment="proto-deMercBattleship civ-French type-title">महासागर</string>
+    <string _locid="54345" comment="proto-deMercBattleship civ-French type-title">सोलेइल रॉयल</string>
+    <string _locid="54346" comment="proto-deMercBattleship civ-French type-title">ब्रेतांगे</string>
+    <string _locid="54347" comment="proto-deMercBattleship civ-French type-title">अजेय</string>
+    <string _locid="54348" comment="proto-deMercBattleship civ-French type-title">ऑरिएन्ट</string>
+    <string _locid="54349" comment="proto-deMercBattleship civ-French type-title">वेंगुर</string>
+    <string _locid="54350" comment="proto-deMercBattleship civ-French type-title">मोंतेबेलो</string>
+    <string _locid="54351" comment="proto-deMercBattleship civ-Germans type-title">एडलर वॉन लुबेक</string>
   </language>
 </stringtable>

@@ -326,6 +326,7 @@
       <level>10</level>
       <prereqtech>-1</prereqtech>
       <age>3</age>
+      <displayunitcount>1</displayunitcount>
     </card>
     <card>
       <name>HCXPAdvancedBalloon</name>
@@ -1009,6 +1010,13 @@
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
+      <name>YPHCEuropeanCannons</name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <prereqtech>HCShipFrigates</prereqtech>
+      <age>1</age>
+    </card>
+    <card>
       <name>HCNavalGunners</name>
       <maxcount>1</maxcount>
       <level>25</level>
@@ -1108,9 +1116,8 @@
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
-      <age>3</age>
+      <age>2</age>
       <displayunitcount>6</displayunitcount>
-      <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
       <name>DEHCHireManilamen</name>
@@ -1706,6 +1713,7 @@
       <tech x="1.7" y="2.0">DEHCShipSteamers2</tech>
       <tech x="1.7" y="2.0">DEHCShipSteamersRepeat1</tech>
       <tech x="1.7" y="3.0">HCShipFrigates</tech>
+      <tech x="1.0" y="4.0">YPHCEuropeanCannons</tech>
       <tech x="1.7" y="4.0">DEHCShipIroncladsRepeat1</tech>
       <tech x="1.7" y="5.0">DEHCShipIroncladsSteamers1</tech>
       <tech x="3.1" y="1.0">HCAdmirality</tech>
@@ -1744,6 +1752,7 @@
       <tech x="1.7" y="2.0">DEHCShipSteamers2</tech>
       <tech x="1.7" y="2.0">DEHCShipSteamersRepeat1</tech>
       <tech x="1.7" y="3.0">HCShipFrigates</tech>
+      <tech x="1.0" y="4.0">YPHCEuropeanCannons</tech>
       <tech x="1.7" y="4.0">DEHCShipIroncladsRepeat1</tech>
       <tech x="1.7" y="5.0">DEHCShipIroncladsSteamers1</tech>
       <tech x="3.1" y="1.0">HCAdmirality</tech>

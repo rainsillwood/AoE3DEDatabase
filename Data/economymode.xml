@@ -129,19 +129,23 @@
       <level place="1st" type="Revolt" amount="1" score="250" stringid="55603" shortstringid="55604" perplayer="true">
       </level>
     </challenge>
-    <challenge name="Homecity Shipment">
+    <challenge name="Revolt2">
+      <level place="2nd" type="Revolt" amount="2" score="500" stringid="55689" shortstringid="55604" perplayer="true">
+      </level>
+    </challenge>
+    <challenge name="Homecity Shipment1">
       <level place="1st" type="Shipment" amount="5" score="500" stringid="55624" perplayer="true" shortstringid="55625">
       </level>
     </challenge>
-    <challenge name="Homecity Shipment">
+    <challenge name="Homecity Shipment2">
       <level place="1st" type="Shipment" amount="10" score="1000" stringid="55624" perplayer="true" shortstringid="55625">
       </level>
     </challenge>
-    <challenge name="Homecity Shipment">
+    <challenge name="Homecity Shipment3">
       <level place="1st" type="Shipment" amount="15" score="1500" stringid="55624" perplayer="true" shortstringid="55625">
       </level>
     </challenge>
-    <challenge name="Homecity Shipment">
+    <challenge name="Homecity Shipment4">
       <level place="1st" type="Shipment" amount="20" score="2000" stringid="55624" perplayer="true" shortstringid="55625">
       </level>
     </challenge>
@@ -165,7 +169,7 @@
     <agemultiplier age="3">1.5</agemultiplier>
     <agemultiplier age="4">2</agemultiplier>
     <agemultiplier age="5">4</agemultiplier>
-    <ecopackage name="FoodWood" nameid="55516">
+    <ecopackage name="FoodWood" nameid="55637">
       <icon>resources\images\economy\eco_packages_fw.png</icon>
       <cost>
         <food>60</food>
@@ -175,10 +179,9 @@
       <bonuspoints age="3">170</bonuspoints>
       <bonuspoints age="4">140</bonuspoints>
       <bonuspoints age="5">85</bonuspoints>
-      <purchasedstringid>55520</purchasedstringid>
-      <purchasedmultiplestringid>55521</purchasedmultiplestringid>
+      <purchasedstringid>55521</purchasedstringid>
     </ecopackage>
-    <ecopackage name="FoodGold" nameid="55516">
+    <ecopackage name="FoodGold" nameid="55638">
       <icon>resources\images\economy\eco_packages_fc.png</icon>
       <cost>
         <food>40</food>
@@ -188,10 +191,9 @@
       <bonuspoints age="3">170</bonuspoints>
       <bonuspoints age="4">140</bonuspoints>
       <bonuspoints age="5">85</bonuspoints>
-      <purchasedstringid>55520</purchasedstringid>
-      <purchasedmultiplestringid>55521</purchasedmultiplestringid>
+      <purchasedstringid>55521</purchasedstringid>
     </ecopackage>
-    <ecopackage name="WoodGold" nameid="55516">
+    <ecopackage name="WoodGold" nameid="55639">
       <icon>resources\images\economy\eco_packages_wc.png</icon>
       <cost>
         <wood>40</wood>
@@ -201,10 +203,9 @@
       <bonuspoints age="3">188</bonuspoints>
       <bonuspoints age="4">155</bonuspoints>
       <bonuspoints age="5">94</bonuspoints>
-      <purchasedstringid>55520</purchasedstringid>
-      <purchasedmultiplestringid>55521</purchasedmultiplestringid>
+      <purchasedstringid>55521</purchasedstringid>
     </ecopackage>
-    <ecopackage name="Export" nameid="55516">
+    <ecopackage name="Export" nameid="55641">
       <icon>resources\images\economy\eco_packages_e.png</icon>
       <cost>
         <trade>60</trade>
@@ -213,10 +214,9 @@
       <bonuspoints age="3">170</bonuspoints>
       <bonuspoints age="4">140</bonuspoints>
       <bonuspoints age="5">85</bonuspoints>
-      <purchasedstringid>55520</purchasedstringid>
-      <purchasedmultiplestringid>55521</purchasedmultiplestringid>
+      <purchasedstringid>55521</purchasedstringid>
     </ecopackage>
-    <ecopackage name="Influence" nameid="55516">
+    <ecopackage name="Influence" nameid="55640">
       <icon>resources\images\economy\eco_packages_i.png</icon>
       <cost>
         <influence>100</influence>
@@ -225,8 +225,7 @@
       <bonuspoints age="3">170</bonuspoints>
       <bonuspoints age="4">140</bonuspoints>
       <bonuspoints age="5">85</bonuspoints>
-      <purchasedstringid>55520</purchasedstringid>
-      <purchasedmultiplestringid>55521</purchasedmultiplestringid>
+      <purchasedstringid>55521</purchasedstringid>
     </ecopackage>
   </ecopackages>
 </economymode>

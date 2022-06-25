@@ -254,19 +254,17 @@
     </proto>
     <proto name="ypMercArsonist" banner="unit" icon="resources/art/units/asians/spc/arsonist/arsonist_icon_portrait.png" row="4" col="159">
     </proto>
-    <proto name="MercLandsknecht" banner="unit" icon="resources/art/units/mercenaries/landsknecht/landsknecht_portrait.png" row="5" col="159">
-    </proto>
+    <tech name="DETavernFolkHeroes" banner="improvement" icon="resources/images/icons/techs/tavern/folk_heroes.png" row="5" col="159">
+    </tech>
     <proto name="MercElmeti" banner="unit" icon="resources/art/units/elmeti_portrait.png" row="6" col="159">
     </proto>
-    <tech name="SaloonWildWest" banner="improvement" icon="resources/images/icons/techs/native/dance_hall.png" row="7" col="159">
-    </tech>
     <proto name="SaloonOutlawRider" banner="unit" icon="resources/art/units/spc/outlaws/outlaw_rider_portrait.png" row="2" col="164">
     </proto>
     <proto name="ypThuggee" banner="unit" icon="resources/art/units/asians/mercenaries/delinquent_thuggee/thuggee_icon_portrait.png" row="3" col="164">
     </proto>
     <proto name="MercBarbaryCorsair" banner="unit" icon="resources/art/units/mercenaries/barbary_corsair/barbary_corsair_portrait.png" row="4" col="164">
     </proto>
-    <proto name="MercManchu" banner="unit" icon="resources/art/units/mercenaries/manchurian_archer/manchurian_archer_portrait.png" row="5" col="164">
+    <proto name="MercLandsknecht" banner="unit" icon="resources/art/units/mercenaries/landsknecht/landsknecht_portrait.png" row="5" col="164">
     </proto>
     <proto name="MercGreatCannon" banner="unit" icon="resources/art/units/spc/russian_cannon/russian_cannon_icon_portrait.png" row="6" col="164">
     </proto>
@@ -276,7 +274,7 @@
     </proto>
     <proto name="MercBlackRider" banner="unit" icon="resources/art/units/mercenaries/black_rider/black_rider_portrait.png" row="4" col="169">
     </proto>
-    <proto name="MercNinja" banner="unit" icon="resources/art/units/ninja_portrait.png" row="5" col="169">
+    <proto name="MercManchu" banner="unit" icon="resources/art/units/mercenaries/manchurian_archer/manchurian_archer_portrait.png" row="5" col="169">
     </proto>
     <proto name="MercMameluke" banner="unit" icon="resources/art/units/mercenaries/mameluke/mameluke_portrait.png" row="6" col="169">
     </proto>
@@ -286,7 +284,7 @@
     </proto>
     <proto name="MercFusilier" banner="unit" icon="resources/art/units/fusilier_portrait.png" row="4" col="174">
     </proto>
-    <proto name="MercRonin" banner="unit" icon="resources/art/units/mercenaries/samurai/ronin_portrait.png" row="5" col="174">
+    <proto name="MercNinja" banner="unit" icon="resources/art/units/ninja_portrait.png" row="5" col="174">
     </proto>
     <proto name="SaloonOutlawPistol" banner="unit" icon="resources/art/nuggets/outlaw_kidnap/outlaw_icon_portrait.png" row="2" col="179">
     </proto>
@@ -294,7 +292,7 @@
     </proto>
     <proto name="deMercHarquebusier" banner="unit" icon="resources/art/units/mercenaries/harquebusier/harquebusier_portrait.png" row="4" col="179">
     </proto>
-    <proto name="MercStradiot" banner="unit" icon="resources/art/units/mercenaries/balkan_stradiot/balkan_stradiot_portrait.png" row="5" col="179">
+    <proto name="MercRonin" banner="unit" icon="resources/art/units/mercenaries/samurai/ronin_portrait.png" row="5" col="179">
     </proto>
     <proto name="SaloonOutlawRifleman" banner="unit" icon="resources/art/units/spc/outlaws/outlaw_shotgun_portrait.png" row="2" col="184">
     </proto>
@@ -302,9 +300,11 @@
     </proto>
     <proto name="MercHighlander" banner="unit" icon="resources/art/units/mercenaries/highlander/highlander_portrait.png" row="4" col="184">
     </proto>
-    <proto name="MercSwissPikeman" banner="unit" icon="resources/art/units/mercenaries/swiss_pikeman/swiss_pikeman_portrait.png" row="5" col="184">
+    <proto name="MercStradiot" banner="unit" icon="resources/art/units/mercenaries/balkan_stradiot/balkan_stradiot_portrait.png" row="5" col="184">
     </proto>
     <proto name="MercJaeger" banner="unit" icon="resources/art/units/mercenaries/jaeger/hessian_jaeger_portrait.png" row="4" col="189">
+    </proto>
+    <proto name="MercSwissPikeman" banner="unit" icon="resources/art/units/mercenaries/swiss_pikeman/swiss_pikeman_portrait.png" row="5" col="189">
     </proto>
   </group>
   <group name="Arsenal">

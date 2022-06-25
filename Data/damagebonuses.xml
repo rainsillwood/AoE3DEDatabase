@@ -243,4 +243,9 @@
     <icon>resources/images/hud/stat_icon_hand_infantry.png</icon>
     <displaynameid>25628</displaynameid>
   </damagebonus>
+  <damagebonus>
+    <unittype>AbstractWall</unittype>
+    <icon>resources/images/hud/stat_icon_wall.png</icon>
+    <displaynameid>42181</displaynameid>
+  </damagebonus>
 </damagebonustypes>

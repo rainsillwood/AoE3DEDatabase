@@ -164,6 +164,13 @@
       <context>FoundationAccel</context>
       <command>uiPayFoundation</command>
     </keymapdata>
+    <keymapdata>
+      <name>Socket Trading Post</name>
+      <displayname>$$125501$$Socket Trading Post</displayname>
+      <event>q</event>
+      <context>SocketAccel</context>
+      <command>uiSocketBuildNative</command>
+    </keymapdata>
   </keymapgroup>
   <keymapgroup name="Find Unit Hotkeys" displayname="$$43367$$Find Unit Hotkeys" hotkeystyle="Legacy">
     <keymapdata>
@@ -450,7 +457,7 @@
     <keymapdata>
       <name>Find Teepee</name>
       <displayname>$$48921$$Find Teepee</displayname>
-      <event>control-u</event>
+      <event>control-e</event>
       <context>game</context>
       <command>uiFindType("Teepee")</command>
     </keymapdata>
@@ -650,6 +657,18 @@
       <displayname>$$68933$$Find All Artillery Foundry-type Buildings</displayname>
       <context>game</context>
       <command>uiFindAllOfType("AbstractFoundry")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Find Fattened Herdable</name>
+      <displayname>$$55646$$Find Fattened Herdable</displayname>
+      <context>game</context>
+      <command>uiFindFattenedHerdable()</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Find All Fattened Herdables</name>
+      <displayname>$$55647$$Find All Fattened Herdables</displayname>
+      <context>game</context>
+      <command>uiFindAllFattenedHerdables()</command>
     </keymapdata>
   </keymapgroup>
   <keymapgroup name="Building Construction Hotkeys" displayname="$$43368$$Building Construction Hotkeys" hotkeystyle="Legacy">
@@ -859,7 +878,7 @@
     <keymapdata>
       <name>Build Teepee</name>
       <displayname>$$48922$$Build Teepee</displayname>
-      <event>u</event>
+      <event>e</event>
       <context>BuildAccel</context>
       <command>tis("Teepee")</command>
     </keymapdata>
@@ -946,18 +965,6 @@
       <event>q</event>
       <context>BuildAccel</context>
       <command>tis("ypBerryBuilding")</command>
-    </keymapdata>
-    <keymapdata>
-      <name>Build Depot</name>
-      <displayname>$$124831$$Build Depot</displayname>
-      <context>BuildAccel</context>
-      <command>tis("deDepot")</command>
-    </keymapdata>
-    <keymapdata>
-      <name>Build Fixed Gun</name>
-      <displayname>$$124832$$Build Fixed Gun</displayname>
-      <context>BuildAccel</context>
-      <command>tis("deMalteseGun")</command>
     </keymapdata>
     <keymapdata>
       <name>Build Wonder</name>

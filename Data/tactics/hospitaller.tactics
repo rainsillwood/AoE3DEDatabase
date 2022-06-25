@@ -103,7 +103,7 @@
     <name stringid="112710">ShieldAura</name>
     <type>AutoRangedModify</type>
     <maxrange>12</maxrange>
-    <modifyabstracttype>UnitClass</modifyabstracttype>
+    <modifyabstracttype>LogicalTypeValidSharpshoot</modifyabstracttype>
     <persistent>1</persistent>
     <modifytype>Shield</modifytype>
     <modifymultiplier>0.25</modifymultiplier>
@@ -116,7 +116,7 @@
     <modifyratebytype>1</modifyratebytype>
     <modifyabstracttype>LogicalTypeBuildingsNotWallsOrGroves</modifyabstracttype>
     <active>1</active>
-    <maxrange>32</maxrange>
+    <maxrange>34</maxrange>
     <rate type="LogicalTypeBuildingsNotWallsOrGroves">0.112</rate>
     <includeally>1</includeally>
     <persistent>1</persistent>
@@ -132,7 +132,7 @@
     <modifyratebytype>1</modifyratebytype>
     <modifyabstracttype>LogicalTypeBuildingsNotWallsOrGroves</modifyabstracttype>
     <active>0</active>
-    <maxrange>32</maxrange>
+    <maxrange>34</maxrange>
     <rate type="LogicalTypeBuildingsNotWallsOrGroves">0.112</rate>
     <includeally>1</includeally>
     <includeenemy>1</includeenemy>

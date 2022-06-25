@@ -1216,6 +1216,14 @@
       <age>2</age>
     </card>
     <card>
+      <name>DEHCShipBattleshipRepeat</name>
+      <maxcount>-1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>3</age>
+      <displayunitcount>1</displayunitcount>
+    </card>
+    <card>
       <name>HCREVShipGatlingGuns</name>
       <maxcount>-1</maxcount>
       <level>0</level>
@@ -2114,6 +2122,7 @@
       <tech x="6.0" y="3.0">HCPrivateers2</tech>
       <tech x="6.0" y="5.0">HCPrivateersTeam</tech>
       <tech x="6.0" y="7.0">HCPrivateersRepeat</tech>
+      <tech x="6.0" y="7.0">DEHCShipBattleshipRepeat</tech>
       <tech x="4.6" y="7.0">HCXPCaribAlliesRepeat</tech>
     </obtainabletechs>
     <activetechs>
@@ -2143,6 +2152,7 @@
       <tech x="6.0" y="3.0">HCPrivateers2</tech>
       <tech x="6.0" y="5.0">HCPrivateersTeam</tech>
       <tech x="6.0" y="7.0">HCPrivateersRepeat</tech>
+      <tech x="6.0" y="7.0">DEHCShipBattleshipRepeat</tech>
       <tech x="4.6" y="7.0">HCXPCaribAlliesRepeat</tech>
     </activetechs>
     <validunits>

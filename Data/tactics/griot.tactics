@@ -73,7 +73,7 @@
       <military>
         <anim>EmpowerEnemy</anim>
         <empowerarea>1.0</empowerarea>
-        <empowerrate modifytype="ROF">2.0</empowerrate>
+        <empowerrate modifytype="ROF">1.6666667</empowerrate>
         <empowerrate modifytype="HealRate">-2.0</empowerrate>
         <modelattachment>units\attachments\stun_stars.xml</modelattachment>
         <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
@@ -81,7 +81,7 @@
       <logicaltypelandeconomy>
         <anim>EmpowerEnemy</anim>
         <empowerarea>1.0</empowerarea>
-        <empowerrate modifytype="ROF">2.0</empowerrate>
+        <empowerrate modifytype="ROF">1.6666667</empowerrate>
         <empowerrate modifytype="HealRate">-2.0</empowerrate>
         <modelattachment>units\attachments\stun_stars.xml</modelattachment>
         <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
@@ -91,7 +91,7 @@
       <guardian>
         <anim>EmpowerEnemy</anim>
         <empowerarea>1.0</empowerarea>
-        <empowerrate modifytype="ROF">2.0</empowerrate>
+        <empowerrate modifytype="ROF">1.6666667</empowerrate>
         <empowerrate modifytype="HealRate">-2.0</empowerrate>
         <modelattachment>units\attachments\stun_stars.xml</modelattachment>
         <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>

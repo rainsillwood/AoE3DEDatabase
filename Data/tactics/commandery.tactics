@@ -99,7 +99,7 @@
     <nostack>1</nostack>
     <nostackignorepuid>1</nostackignorepuid>
     <modifytype>TreeGatherRate</modifytype>
-    <modifymultiplier>1.30</modifymultiplier>
+    <modifymultiplier>1.20</modifymultiplier>
     <modelattachment>effects\ypack_auras\econpower.xml</modelattachment>
     <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
   </action>
@@ -113,7 +113,7 @@
     <nostack>1</nostack>
     <nostackignorepuid>1</nostackignorepuid>
     <modifytype>MineGatherRate</modifytype>
-    <modifymultiplier>1.30</modifymultiplier>
+    <modifymultiplier>1.20</modifymultiplier>
     <modelattachment>effects\ypack_auras\econpower.xml</modelattachment>
     <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
   </action>
@@ -127,7 +127,7 @@
     <nostack>1</nostack>
     <nostackignorepuid>1</nostackignorepuid>
     <modifytype>NaturalFoodGatherRate</modifytype>
-    <modifymultiplier>1.30</modifymultiplier>
+    <modifymultiplier>1.20</modifymultiplier>
     <modelattachment>effects\ypack_auras\econpower.xml</modelattachment>
     <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
   </action>

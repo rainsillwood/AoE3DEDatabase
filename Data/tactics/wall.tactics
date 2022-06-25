@@ -18,10 +18,10 @@
     <type>AutoRangedModify</type>
     <modifyabstracttype>deMalteseMusketeer</modifyabstracttype>
     <active>0</active>
-    <maxrange>10</maxrange>
+    <maxrange>14</maxrange>
     <persistent>1</persistent>
     <modifytype>Damage</modifytype>
-    <modifymultiplier>1.01</modifymultiplier>
+    <modifymultiplier>1.0125</modifymultiplier>
     <modifyratecap>1.10</modifyratecap>
     <nostack>1</nostack>
     <modelattachment>effects\ypack_auras\malta_power.xml</modelattachment>
@@ -32,10 +32,10 @@
     <type>AutoRangedModify</type>
     <modifyabstracttype>deMalteseMusketeer</modifyabstracttype>
     <active>0</active>
-    <maxrange>10</maxrange>
+    <maxrange>14</maxrange>
     <persistent>1</persistent>
     <modifytype>Range</modifytype>
-    <modifymultiplier>1.0418</modifymultiplier>
+    <modifymultiplier>1.05</modifymultiplier>
     <modifybase>1.0</modifybase>
     <nostack>1</nostack>
     <modelattachment>effects\ypack_auras\malta_power.xml</modelattachment>

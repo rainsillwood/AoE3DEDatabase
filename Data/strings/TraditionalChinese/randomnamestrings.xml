@@ -89,7 +89,7 @@
     <string _locid="50086" comment="proto-Caravel civ-Germans type-title">夏洛特路易絲號</string>
     <string _locid="50087" comment="proto-Caravel civ-Germans type-title">庫弗斯特號</string>
     <string _locid="50088" comment="proto-Caravel civ-Germans type-title">克利夫號</string>
-    <string _locid="50089" comment="proto-Caravel civ-Germans type-title">德夫林格號</string>
+    <string _locid="50089" comment="proto-Galleon civ-Germans type-title">德夫林格號</string>
     <string _locid="50090" comment="proto-Caravel civ-Germans type-title">艾西霍恩號</string>
     <string _locid="50091" comment="proto-Caravel civ-Germans type-title">艾因霍恩號</string>
     <string _locid="50092" comment="proto-Caravel civ-Germans type-title">法爾卡號</string>
@@ -368,11 +368,11 @@
     <string _locid="50365" comment="proto-Frigate civ-French type-title">賀爾坦斯號</string>
     <string _locid="50366" comment="proto-Frigate civ-French type-title">布森特爾號</string>
     <string _locid="50367" comment="proto-Frigate civ-French type-title">保護者號</string>
-    <string _locid="50368" comment="proto-Frigate civ-Germans type-title">菲爾德號</string>
-    <string _locid="50369" comment="proto-Frigate civ-Germans type-title">漢堡號</string>
-    <string _locid="50370" comment="proto-Frigate civ-Germans type-title">行動號</string>
-    <string _locid="50371" comment="proto-Frigate civ-Germans type-title">司令快艇號</string>
-    <string _locid="50372" comment="proto-Frigate civ-Germans type-title">腓特烈號</string>
+    <string _locid="50368" comment="proto-Frigate civ-Germans type-title">腓特烈‧威廉號</string>
+    <string _locid="50369" comment="proto-Frigate civ-Germans type-title">瓦本‧馮‧漢堡號</string>
+    <string _locid="50370" comment="proto-Frigate civ-Germans type-title">諾瓦拉號</string>
+    <string _locid="50371" comment="proto-Frigate civ-Germans type-title">金鐘塔茨亞特號</string>
+    <string _locid="50372" comment="proto-Frigate civ-Germans type-title">聖卡洛斯號</string>
     <string _locid="50373" comment="proto-Frigate civ-Ottomans/SPCBarbaryPirates type-title">海洋之光號</string>
     <string _locid="50374" comment="proto-Frigate civ-Ottomans/SPCBarbaryPirates type-title">雄偉號</string>
     <string _locid="50375" comment="proto-Frigate civ-Ottomans/SPCBarbaryPirates type-title">勝利號</string>
@@ -1903,8 +1903,8 @@
     <string _locid="51900" comment="proto-deTavern civ-Germans type-title">佧爾的酒館</string>
     <string _locid="51901" comment="proto-deTavern civ-Germans type-title">維也納的咖啡館</string>
     <string _locid="51902" comment="proto-deTavern civ-Germans type-title">大個子軍團</string>
-    <string _locid="51903" comment="proto-deTavern civ-Portuguese type-title">喬阿金的酒館</string>
-    <string _locid="51904" comment="proto-deTavern civ-Portuguese type-title">曼努埃爾的酒吧</string>
+    <string _locid="51903" comment="proto-deTavern civ-Portuguese type-title">若阿金酒吧</string>
+    <string _locid="51904" comment="proto-deTavern civ-Portuguese type-title">曼紐爾酒吧</string>
     <string _locid="51905" comment="proto-deTavern civ-Portuguese type-title">佩雷拉的採石場</string>
     <string _locid="51906" comment="proto-deTavern civ-Portuguese type-title">卡布拉爾的卡拉維爾帆船</string>
     <string _locid="51907" comment="proto-deTavern civ-Portuguese type-title">米蘭達的酒吧</string>
@@ -2622,5 +2622,63 @@
     <string _locid="54291" comment="proto-deMalteseFireship civ-Maltese type-title">游泳補給站</string>
     <string _locid="54292" comment="proto-deMalteseFireship civ-Maltese type-title">即燃火戰船</string>
     <string _locid="54293" comment="proto-deMalteseFireship civ-Maltese type-title">燃燒之風</string>
+    <string _locid="54294" comment="proto-Dog civ-Default type-title">布魯頓</string>
+    <string _locid="54295" comment="proto-Dog civ-Default type-title">貝洛</string>
+    <string _locid="54296" comment="proto-Dog civ-Default type-title">凱撒</string>
+    <string _locid="54297" comment="proto-Dog civ-Default type-title">布魯圖斯</string>
+    <string _locid="54298" comment="proto-Dog civ-Default type-title">火星</string>
+    <string _locid="54299" comment="proto-Dog civ-Default type-title">皮諾丘</string>
+    <string _locid="54300" comment="proto-Dog civ-Default type-title">盧依吉</string>
+    <string _locid="54301" comment="proto-Dog civ-Default type-title">伊莎貝拉</string>
+    <string _locid="54302" comment="proto-Dog civ-Default type-title">盧波</string>
+    <string _locid="54303" comment="proto-Dog civ-Default type-title">比斯科蒂</string>
+    <string _locid="54304" comment="proto-Dog civ-Default type-title">但丁</string>
+    <string _locid="54305" comment="proto-Dog civ-Default type-title">米開朗基羅</string>
+    <string _locid="54306" comment="proto-Dog civ-Default type-title">多爾斯</string>
+    <string _locid="54307" comment="proto-Dog civ-Default type-title">法拉利</string>
+    <string _locid="54308" comment="proto-Dog civ-Default type-title">西西里</string>
+    <string _locid="54309" comment="proto-Dog civ-Default type-title">克勞迪奧</string>
+    <string _locid="54310" comment="proto-deMercBattleship civ-Germans type-title">凱撒號</string>
+    <string _locid="54311" comment="proto-deMercBattleship civ-Portuguese type-title">瓦斯科‧達‧伽瑪號</string>
+    <string _locid="54312" comment="proto-deMercBattleship civ-Portuguese type-title">聖卡塔琳娜號</string>
+    <string _locid="54313" comment="proto-deMercBattleship civ-Portuguese type-title">葡萄牙女王號</string>
+    <string _locid="54314" comment="proto-deMercBattleship civ-Portuguese type-title">埃泰爾諾隨軍神父號</string>
+    <string _locid="54315" comment="proto-deMercBattleship civ-Portuguese type-title">聖母瑪利亞受孕號</string>
+    <string _locid="54316" comment="proto-deMercBattleship civ-Swedes type-title">哥莎‧萊瓊號</string>
+    <string _locid="54317" comment="proto-deMercBattleship civ-Swedes type-title">艾朋號</string>
+    <string _locid="54318" comment="proto-deMercBattleship civ-Ottomans type-title">馬哈茂迪耶號</string>
+    <string _locid="54319" comment="proto-deMercBattleship civ-Ottomans type-title">瑟里米耶號</string>
+    <string _locid="54320" comment="proto-deMercBattleship civ-Ottomans type-title">法伊什號</string>
+    <string _locid="54321" comment="proto-deMercBattleship civ-Ottomans type-title">特里菲耶號</string>
+    <string _locid="54322" comment="proto-deMercBattleship civ-Ottomans type-title">泰什維基耶號</string>
+    <string _locid="54323" comment="proto-deMercBattleship civ-Ottomans type-title">姆杜希耶號</string>
+    <string _locid="54324" comment="proto-deMercBattleship civ-Ottomans type-title">費特希耶號</string>
+    <string _locid="54325" comment="proto-deMercBattleship civ-Dutch type-title">安德列治號</string>
+    <string _locid="54326" comment="proto-deMercBattleship civ-Russians type-title">彼得大帝號</string>
+    <string _locid="54327" comment="proto-deMercBattleship civ-Russians type-title">亞歷山大大帝號</string>
+    <string _locid="54328" comment="proto-deMercBattleship civ-Russians type-title">尼古拉大帝號</string>
+    <string _locid="54329" comment="proto-deMercBattleship civ-Russians type-title">奧普斯特羅夫號</string>
+    <string _locid="54330" comment="proto-deMercBattleship civ-Russians type-title">羅斯季斯拉夫號</string>
+    <string _locid="54331" comment="proto-deMercBattleship civ-Russians type-title">布拉戈達特號</string>
+    <string _locid="54332" comment="proto-deMercBattleship civ-Russians type-title">澤薩雷維奇號</string>
+    <string _locid="54333" comment="proto-deMercBattleship civ-Russians type-title">錫諾普號</string>
+    <string _locid="54334" comment="proto-deMercBattleship civ-Russians type-title">喀拉布依號</string>
+    <string _locid="54335" comment="proto-deMercBattleship civ-Russians type-title">俄羅斯號</string>
+    <string _locid="54336" comment="proto-deMercBattleship civ-Russians type-title">瓦爾沙瓦號</string>
+    <string _locid="54337" comment="proto-deMercBattleship civ-Russians type-title">三聖徒號</string>
+    <string _locid="54338" comment="proto-deMercBattleship civ-Russians type-title">帕里澤號</string>
+    <string _locid="54339" comment="proto-deMercBattleship civ-French type-title">瓦爾密號</string>
+    <string _locid="54340" comment="proto-deMercBattleship civ-French type-title">無畏號</string>
+    <string _locid="54341" comment="proto-deMercBattleship civ-French type-title">帝國號</string>
+    <string _locid="54342" comment="proto-deMercBattleship civ-French type-title">馬賽號</string>
+    <string _locid="54343" comment="proto-deMercBattleship civ-French type-title">皇太子號</string>
+    <string _locid="54344" comment="proto-deMercBattleship civ-French type-title">海洋號</string>
+    <string _locid="54345" comment="proto-deMercBattleship civ-French type-title">皇家索萊爾號</string>
+    <string _locid="54346" comment="proto-deMercBattleship civ-French type-title">布列塔尼號</string>
+    <string _locid="54347" comment="proto-deMercBattleship civ-French type-title">無敵號</string>
+    <string _locid="54348" comment="proto-deMercBattleship civ-French type-title">東方號</string>
+    <string _locid="54349" comment="proto-deMercBattleship civ-French type-title">復仇者號</string>
+    <string _locid="54350" comment="proto-deMercBattleship civ-French type-title">蒙特貝洛號</string>
+    <string _locid="54351" comment="proto-deMercBattleship civ-Germans type-title">阿德爾‧馮‧呂貝克號</string>
   </language>
 </stringtable>

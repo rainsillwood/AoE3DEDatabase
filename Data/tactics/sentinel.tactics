@@ -1,6 +1,6 @@
 <tactics>
   <action>
-    <name stringid="8090705">MortarAttack</name>
+    <name stringid="124813">RocketAttack</name>
     <displaynameid>104667</displaynameid>
     <type>Attack</type>
     <active>0</active>
@@ -60,14 +60,14 @@
     <modifyratebytype>1</modifyratebytype>
     <modifyabstracttype>LogicalTypeBuildingsNotWallsOrGroves</modifyabstracttype>
     <active>1</active>
-    <maxrange>32</maxrange>
-    <rate type="LogicalTypeBuildingsHasRangedAttack">0.0705</rate>
-    <rate type="LogicalTypeBuildingsNoRangedAttack">0.0705</rate>
+    <maxrange>34</maxrange>
+    <rate type="LogicalTypeBuildingsHasRangedAttack">0.07085</rate>
+    <rate type="LogicalTypeBuildingsNoRangedAttack">0.07085</rate>
     <includeally>1</includeally>
     <persistent>1</persistent>
     <modifytype>MaxHP</modifytype>
     <modifybase>1.0</modifybase>
-    <modifyratecap>1.0705</modifyratecap>
+    <modifyratecap>1.07085</modifyratecap>
     <modelattachment>effects\ypack_auras\malta_power.xml</modelattachment>
     <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
   </action>
@@ -77,14 +77,14 @@
     <modifyratebytype>1</modifyratebytype>
     <modifyabstracttype>LogicalTypeBuildingsNotWallsOrGroves</modifyabstracttype>
     <active>1</active>
-    <maxrange>32</maxrange>
-    <rate type="LogicalTypeBuildingsHasRangedAttack">0.0705</rate>
-    <rate type="LogicalTypeBuildingsNoRangedAttack">0.0705</rate>
+    <maxrange>34</maxrange>
+    <rate type="LogicalTypeBuildingsHasRangedAttack">0.07085</rate>
+    <rate type="LogicalTypeBuildingsNoRangedAttack">0.07085</rate>
     <includeally>1</includeally>
     <persistent>1</persistent>
     <modifytype>Damage</modifytype>
     <modifybase>1.0</modifybase>
-    <modifyratecap>1.0705</modifyratecap>
+    <modifyratecap>1.07085</modifyratecap>
     <modelattachment>effects\ypack_auras\malta_power.xml</modelattachment>
     <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
   </action>
@@ -94,15 +94,15 @@
     <modifyratebytype>1</modifyratebytype>
     <modifyabstracttype>LogicalTypeBuildingsNotWallsOrGroves</modifyabstracttype>
     <active>0</active>
-    <maxrange>32</maxrange>
-    <rate type="LogicalTypeBuildingsHasRangedAttack">0.0705</rate>
-    <rate type="LogicalTypeBuildingsNoRangedAttack">0.0705</rate>
+    <maxrange>34</maxrange>
+    <rate type="LogicalTypeBuildingsHasRangedAttack">0.07085</rate>
+    <rate type="LogicalTypeBuildingsNoRangedAttack">0.07085</rate>
     <includeally>1</includeally>
     <includeenemy>1</includeenemy>
     <persistent>1</persistent>
     <modifytype>MaxHP</modifytype>
     <modifybase>1.0</modifybase>
-    <modifyratecap>1.0705</modifyratecap>
+    <modifyratecap>1.07085</modifyratecap>
     <modelattachment>effects\ypack_auras\malta_power.xml</modelattachment>
     <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
   </action>
@@ -112,15 +112,15 @@
     <modifyratebytype>1</modifyratebytype>
     <modifyabstracttype>LogicalTypeBuildingsNotWallsOrGroves</modifyabstracttype>
     <active>0</active>
-    <maxrange>32</maxrange>
-    <rate type="LogicalTypeBuildingsHasRangedAttack">0.0705</rate>
-    <rate type="LogicalTypeBuildingsNoRangedAttack">0.0705</rate>
+    <maxrange>34</maxrange>
+    <rate type="LogicalTypeBuildingsHasRangedAttack">0.07085</rate>
+    <rate type="LogicalTypeBuildingsNoRangedAttack">0.07085</rate>
     <includeally>1</includeally>
     <includeenemy>1</includeenemy>
     <persistent>1</persistent>
     <modifytype>Damage</modifytype>
     <modifybase>1.0</modifybase>
-    <modifyratecap>1.0705</modifyratecap>
+    <modifyratecap>1.07085</modifyratecap>
     <modelattachment>effects\ypack_auras\malta_power.xml</modelattachment>
     <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
   </action>
@@ -130,13 +130,13 @@
     <modifyratebytype>1</modifyratebytype>
     <modifyabstracttype>LogicalTypeBuildingsHasRangedAttack</modifyabstracttype>
     <active>1</active>
-    <maxrange>32</maxrange>
-    <rate type="LogicalTypeBuildingsNotWallsOrGroves">0.0705</rate>
+    <maxrange>34</maxrange>
+    <rate type="LogicalTypeBuildingsNotWallsOrGroves">0.07085</rate>
     <includeally>1</includeally>
     <persistent>1</persistent>
     <modifytype>MaxHP</modifytype>
     <modifybase>1.0</modifybase>
-    <modifyratecap>1.0705</modifyratecap>
+    <modifyratecap>1.07085</modifyratecap>
     <modelattachment>effects\ypack_auras\malta_power.xml</modelattachment>
     <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
   </action>
@@ -146,13 +146,13 @@
     <modifyratebytype>1</modifyratebytype>
     <modifyabstracttype>LogicalTypeBuildingsHasRangedAttack</modifyabstracttype>
     <active>1</active>
-    <maxrange>32</maxrange>
-    <rate type="LogicalTypeBuildingsNotWallsOrGroves">0.0705</rate>
+    <maxrange>34</maxrange>
+    <rate type="LogicalTypeBuildingsNotWallsOrGroves">0.07085</rate>
     <includeally>1</includeally>
     <persistent>1</persistent>
     <modifytype>Damage</modifytype>
     <modifybase>1.0</modifybase>
-    <modifyratecap>1.0705</modifyratecap>
+    <modifyratecap>1.07085</modifyratecap>
     <modelattachment>effects\ypack_auras\malta_power.xml</modelattachment>
     <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
   </action>
@@ -162,14 +162,14 @@
     <modifyratebytype>1</modifyratebytype>
     <modifyabstracttype>LogicalTypeBuildingsHasRangedAttack</modifyabstracttype>
     <active>0</active>
-    <maxrange>32</maxrange>
-    <rate type="LogicalTypeBuildingsNotWallsOrGroves">0.0705</rate>
+    <maxrange>34</maxrange>
+    <rate type="LogicalTypeBuildingsNotWallsOrGroves">0.07085</rate>
     <includeally>1</includeally>
     <includeenemy>1</includeenemy>
     <persistent>1</persistent>
     <modifytype>MaxHP</modifytype>
     <modifybase>1.0</modifybase>
-    <modifyratecap>1.0705</modifyratecap>
+    <modifyratecap>1.07085</modifyratecap>
     <modelattachment>effects\ypack_auras\malta_power.xml</modelattachment>
     <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
   </action>
@@ -179,14 +179,14 @@
     <modifyratebytype>1</modifyratebytype>
     <modifyabstracttype>LogicalTypeBuildingsHasRangedAttack</modifyabstracttype>
     <active>0</active>
-    <maxrange>32</maxrange>
-    <rate type="LogicalTypeBuildingsNotWallsOrGroves">0.0705</rate>
+    <maxrange>34</maxrange>
+    <rate type="LogicalTypeBuildingsNotWallsOrGroves">0.07085</rate>
     <includeally>1</includeally>
     <includeenemy>1</includeenemy>
     <persistent>1</persistent>
     <modifytype>Damage</modifytype>
     <modifybase>1.0</modifybase>
-    <modifyratecap>1.0705</modifyratecap>
+    <modifyratecap>1.07085</modifyratecap>
     <modelattachment>effects\ypack_auras\malta_power.xml</modelattachment>
     <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
   </action>
@@ -206,7 +206,7 @@
     <targetspeedboost>1</targetspeedboost>
   </action>
   <action>
-    <name stringid="38118">MortarBuildingAttack</name>
+    <name stringid="38118">RocketBuildingAttack</name>
     <type>Attack</type>
     <active>0</active>
     <rangedlogic>1</rangedlogic>
@@ -313,9 +313,9 @@
     <modelattachment>effects\ypack_auras\malta_power.xml</modelattachment>
     <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
   </action>
-  <tactic>Volley<action priority="100">MortarAttack</action><action priority="95">VolleyRangedAttack</action><action priority="75">MortarBuildingAttack</action><action priority="75">BuildingAttack</action><action priority="25">MeleeHandAttack</action><action>IncreaseDamageWithBuildings</action><action>IncreaseHPWithBuildings</action><action>IncreaseHPWithBuildingsIncludesEnemies</action><action>IncreaseDamageWithBuildingsIncludesEnemies</action><action>Build</action><action>IncreaseHPWithFortifications</action><action>IncreaseHPWithFortificationsIncludesEnemies</action><action>IncreaseDamageWithFortificationsIncludesEnemies</action><action>IncreaseDamageWithFortifications</action><action>IncreaseDamageWithWalls</action><action>IncreaseRangeWithWalls</action><action>IncreaseDamageWithWallsIncludeEnemies</action><action>IncreaseRangeWithWallsIncludeEnemies</action><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><runaway>1</runaway><autoretarget>1</autoretarget><idleanim>Volley_standing_idle</idleanim><boredanim>Volley_standing_bored</boredanim><deathanim>Death_by_melee</deathanim><walkanim>Volley_walk</walkanim><joganim>Volley_jog</joganim><runanim>Volley_run</runanim></tactic>
-  <tactic>Defend<action priority="100">MortarAttack</action><action priority="95">VolleyRangedAttack</action><action priority="75">MortarBuildingAttack</action><action priority="75">BuildingAttack</action><action priority="25">MeleeHandAttack</action><action>IncreaseDamageWithBuildings</action><action>IncreaseHPWithBuildings</action><action>IncreaseHPWithBuildingsIncludesEnemies</action><action>IncreaseDamageWithBuildingsIncludesEnemies</action><action>Build</action><action>IncreaseHPWithFortifications</action><action>IncreaseHPWithFortificationsIncludesEnemies</action><action>IncreaseDamageWithFortificationsIncludesEnemies</action><action>IncreaseDamageWithFortifications</action><action>IncreaseDamageWithWalls</action><action>IncreaseRangeWithWalls</action><action>IncreaseDamageWithWallsIncludeEnemies</action><action>IncreaseRangeWithWallsIncludeEnemies</action><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><runaway>0</runaway><autoretarget>1</autoretarget><idleanim>Defend_idle</idleanim><boredanim>Defend_bored</boredanim><deathanim>Death_by_melee</deathanim><walkanim>Cover_walk</walkanim><joganim>Cover_jog</joganim><runanim>Cover_run</runanim></tactic>
-  <tactic>Stagger<action priority="100">MortarAttack</action><action priority="95">VolleyRangedAttack</action><action priority="75">MortarBuildingAttack</action><action priority="75">BuildingAttack</action><action priority="25">MeleeHandAttack</action><action>IncreaseDamageWithBuildings</action><action>IncreaseHPWithBuildings</action><action>IncreaseHPWithBuildingsIncludesEnemies</action><action>IncreaseDamageWithBuildingsIncludesEnemies</action><action>Build</action><action>IncreaseHPWithFortifications</action><action>IncreaseHPWithFortificationsIncludesEnemies</action><action>IncreaseDamageWithFortificationsIncludesEnemies</action><action>IncreaseDamageWithFortifications</action><action>IncreaseDamageWithWalls</action><action>IncreaseRangeWithWalls</action><action>IncreaseDamageWithWallsIncludeEnemies</action><action>IncreaseRangeWithWallsIncludeEnemies</action><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><runaway>0</runaway><autoretarget>1</autoretarget><idleanim>Cover_ranged_idle</idleanim><boredanim>Cover_bored</boredanim><deathanim>Death_by_melee</deathanim><walkanim>Cover_walk</walkanim><joganim>Cover_jog</joganim><runanim>Cover_run</runanim></tactic>
-  <tactic>Melee<action priority="100">MortarBuildingAttack</action><action priority="100">BuildingAttack</action><action priority="75">MeleeHandAttack</action><action>IncreaseDamageWithBuildings</action><action>IncreaseHPWithBuildings</action><action>IncreaseHPWithBuildingsIncludesEnemies</action><action>IncreaseDamageWithBuildingsIncludesEnemies</action><action>Build</action><action>IncreaseHPWithFortifications</action><action>IncreaseHPWithFortificationsIncludesEnemies</action><action>IncreaseDamageWithFortificationsIncludesEnemies</action><action>IncreaseDamageWithFortifications</action><action>IncreaseDamageWithWalls</action><action>IncreaseRangeWithWalls</action><action>IncreaseDamageWithWallsIncludeEnemies</action><action>IncreaseRangeWithWallsIncludeEnemies</action><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><runaway>0</runaway><autoretarget>1</autoretarget><idleanim>Charge_idle</idleanim><boredanim>Charge_bored</boredanim><deathanim>Death_by_melee</deathanim><walkanim>Charge_walk</walkanim><joganim>Charge_jog</joganim><runanim>Charge_run</runanim></tactic>
-  <tactic>StandGround<action priority="100">MortarAttack</action><action priority="95">VolleyRangedAttack</action><action priority="75">MortarBuildingAttack</action><action priority="75">BuildingAttack</action><action priority="25">MeleeHandAttack</action><action>IncreaseDamageWithBuildings</action><action>IncreaseHPWithBuildings</action><action>IncreaseHPWithBuildingsIncludesEnemies</action><action>IncreaseDamageWithBuildingsIncludesEnemies</action><action>Build</action><action>IncreaseHPWithFortifications</action><action>IncreaseHPWithFortificationsIncludesEnemies</action><action>IncreaseDamageWithFortificationsIncludesEnemies</action><action>IncreaseDamageWithFortifications</action><action>IncreaseDamageWithWalls</action><action>IncreaseRangeWithWalls</action><action>IncreaseDamageWithWallsIncludeEnemies</action><action>IncreaseRangeWithWallsIncludeEnemies</action><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><runaway>0</runaway><autoretarget>1</autoretarget><idleanim>Defend_idle</idleanim><boredanim>Defend_bored</boredanim><deathanim>Death_by_melee</deathanim><walkanim>Cover_walk</walkanim><joganim>Cover_jog</joganim><runanim>Cover_run</runanim></tactic>
+  <tactic>Volley<action priority="100">RocketAttack</action><action priority="95">VolleyRangedAttack</action><action priority="75">RocketBuildingAttack</action><action priority="75">BuildingAttack</action><action priority="25">MeleeHandAttack</action><action>IncreaseDamageWithBuildings</action><action>IncreaseHPWithBuildings</action><action>IncreaseHPWithBuildingsIncludesEnemies</action><action>IncreaseDamageWithBuildingsIncludesEnemies</action><action>Build</action><action>IncreaseHPWithFortifications</action><action>IncreaseHPWithFortificationsIncludesEnemies</action><action>IncreaseDamageWithFortificationsIncludesEnemies</action><action>IncreaseDamageWithFortifications</action><action>IncreaseDamageWithWalls</action><action>IncreaseRangeWithWalls</action><action>IncreaseDamageWithWallsIncludeEnemies</action><action>IncreaseRangeWithWallsIncludeEnemies</action><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><runaway>1</runaway><autoretarget>1</autoretarget><idleanim>Volley_standing_idle</idleanim><boredanim>Volley_standing_bored</boredanim><deathanim>Death_by_melee</deathanim><walkanim>Volley_walk</walkanim><joganim>Volley_jog</joganim><runanim>Volley_run</runanim></tactic>
+  <tactic>Defend<action priority="100">RocketAttack</action><action priority="95">VolleyRangedAttack</action><action priority="75">RocketBuildingAttack</action><action priority="75">BuildingAttack</action><action priority="25">MeleeHandAttack</action><action>IncreaseDamageWithBuildings</action><action>IncreaseHPWithBuildings</action><action>IncreaseHPWithBuildingsIncludesEnemies</action><action>IncreaseDamageWithBuildingsIncludesEnemies</action><action>Build</action><action>IncreaseHPWithFortifications</action><action>IncreaseHPWithFortificationsIncludesEnemies</action><action>IncreaseDamageWithFortificationsIncludesEnemies</action><action>IncreaseDamageWithFortifications</action><action>IncreaseDamageWithWalls</action><action>IncreaseRangeWithWalls</action><action>IncreaseDamageWithWallsIncludeEnemies</action><action>IncreaseRangeWithWallsIncludeEnemies</action><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><runaway>0</runaway><autoretarget>1</autoretarget><idleanim>Defend_idle</idleanim><boredanim>Defend_bored</boredanim><deathanim>Death_by_melee</deathanim><walkanim>Cover_walk</walkanim><joganim>Cover_jog</joganim><runanim>Cover_run</runanim></tactic>
+  <tactic>Stagger<action priority="100">RocketAttack</action><action priority="95">VolleyRangedAttack</action><action priority="75">RocketBuildingAttack</action><action priority="75">BuildingAttack</action><action priority="25">MeleeHandAttack</action><action>IncreaseDamageWithBuildings</action><action>IncreaseHPWithBuildings</action><action>IncreaseHPWithBuildingsIncludesEnemies</action><action>IncreaseDamageWithBuildingsIncludesEnemies</action><action>Build</action><action>IncreaseHPWithFortifications</action><action>IncreaseHPWithFortificationsIncludesEnemies</action><action>IncreaseDamageWithFortificationsIncludesEnemies</action><action>IncreaseDamageWithFortifications</action><action>IncreaseDamageWithWalls</action><action>IncreaseRangeWithWalls</action><action>IncreaseDamageWithWallsIncludeEnemies</action><action>IncreaseRangeWithWallsIncludeEnemies</action><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><runaway>0</runaway><autoretarget>1</autoretarget><idleanim>Cover_ranged_idle</idleanim><boredanim>Cover_bored</boredanim><deathanim>Death_by_melee</deathanim><walkanim>Cover_walk</walkanim><joganim>Cover_jog</joganim><runanim>Cover_run</runanim></tactic>
+  <tactic>Melee<action priority="100">RocketBuildingAttack</action><action priority="100">BuildingAttack</action><action priority="75">MeleeHandAttack</action><action>IncreaseDamageWithBuildings</action><action>IncreaseHPWithBuildings</action><action>IncreaseHPWithBuildingsIncludesEnemies</action><action>IncreaseDamageWithBuildingsIncludesEnemies</action><action>Build</action><action>IncreaseHPWithFortifications</action><action>IncreaseHPWithFortificationsIncludesEnemies</action><action>IncreaseDamageWithFortificationsIncludesEnemies</action><action>IncreaseDamageWithFortifications</action><action>IncreaseDamageWithWalls</action><action>IncreaseRangeWithWalls</action><action>IncreaseDamageWithWallsIncludeEnemies</action><action>IncreaseRangeWithWallsIncludeEnemies</action><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><runaway>0</runaway><autoretarget>1</autoretarget><idleanim>Charge_idle</idleanim><boredanim>Charge_bored</boredanim><deathanim>Death_by_melee</deathanim><walkanim>Charge_walk</walkanim><joganim>Charge_jog</joganim><runanim>Charge_run</runanim></tactic>
+  <tactic>StandGround<action priority="100">RocketAttack</action><action priority="95">VolleyRangedAttack</action><action priority="75">RocketBuildingAttack</action><action priority="75">BuildingAttack</action><action priority="25">MeleeHandAttack</action><action>IncreaseDamageWithBuildings</action><action>IncreaseHPWithBuildings</action><action>IncreaseHPWithBuildingsIncludesEnemies</action><action>IncreaseDamageWithBuildingsIncludesEnemies</action><action>Build</action><action>IncreaseHPWithFortifications</action><action>IncreaseHPWithFortificationsIncludesEnemies</action><action>IncreaseDamageWithFortificationsIncludesEnemies</action><action>IncreaseDamageWithFortifications</action><action>IncreaseDamageWithWalls</action><action>IncreaseRangeWithWalls</action><action>IncreaseDamageWithWallsIncludeEnemies</action><action>IncreaseRangeWithWallsIncludeEnemies</action><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><runaway>0</runaway><autoretarget>1</autoretarget><idleanim>Defend_idle</idleanim><boredanim>Defend_bored</boredanim><deathanim>Death_by_melee</deathanim><walkanim>Cover_walk</walkanim><joganim>Cover_jog</joganim><runanim>Cover_run</runanim></tactic>
 </tactics>

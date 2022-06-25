@@ -126,6 +126,7 @@
     <name stringid="91720">AreaGatherMine</name>
     <type>AutoRangedModify</type>
     <modifyabstracttype>AbstractMine</modifyabstracttype>
+    <forbidunittype>Plantation</forbidunittype>
     <includegaia>1</includegaia>
     <active>1</active>
     <maxrange>6.1</maxrange>
@@ -140,6 +141,7 @@
     <name stringid="91720">AreaGatherMine2</name>
     <type>AutoRangedModify</type>
     <modifyabstracttype>AbstractMine</modifyabstracttype>
+    <forbidunittype>Plantation</forbidunittype>
     <includegaia>1</includegaia>
     <active>0</active>
     <maxrange>6.1</maxrange>

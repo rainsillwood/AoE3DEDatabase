@@ -867,5 +867,17 @@
       <context>game</context>
       <command>uiFindAllOfType("LogicalTypeNavalMilitary")</command>
     </keymapdata>
+    <keymapdata>
+      <name>Find Fattened Herdable</name>
+      <displayname>$$55646$$Find Fattened Herdable</displayname>
+      <context>game</context>
+      <command>uiFindFattenedHerdable()</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Find All Fattened Herdables</name>
+      <displayname>$$55647$$Find All Fattened Herdables</displayname>
+      <context>game</context>
+      <command>uiFindAllFattenedHerdables()</command>
+    </keymapdata>
   </keymapgroup>
 </defaultkeymapgrid>

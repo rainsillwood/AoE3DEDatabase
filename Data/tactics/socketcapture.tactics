@@ -4,6 +4,7 @@
     <type>AutoConvert</type>
     <maxrange>12.0</maxrange>
     <persistent>1</persistent>
+    <shortconversiondelay>1</shortconversiondelay>
   </action>
   <tactic>Normal<action>AutoConvert</action></tactic>
 </tactics>

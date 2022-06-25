@@ -1,6 +1,7 @@
 <civs>
   <subcivalliancecost>
-    <gold>0</gold>
+    <food>100</food>
+    <wood>100</wood>
   </subcivalliancecost>
   <subcivalliancecostfactor>2.0</subcivalliancecostfactor>
   <maxdecksize>25</maxdecksize>
@@ -48,7 +49,7 @@
     <buildingefficiency>0.3</buildingefficiency>
     <freebuildingefficiency>1.0</freebuildingefficiency>
     <investmentamount>300</investmentamount>
-    <investmentcap>1500</investmentcap>
+    <investmentcap>3000</investmentcap>
     <gold>0</gold>
     <food>0</food>
     <wood>0</wood>
@@ -303,7 +304,7 @@
     <buildingefficiency>0.3</buildingefficiency>
     <freebuildingefficiency>1.0</freebuildingefficiency>
     <investmentamount>300</investmentamount>
-    <investmentcap>1500</investmentcap>
+    <investmentcap>3000</investmentcap>
     <gold>0</gold>
     <food>0</food>
     <wood>0</wood>
@@ -552,7 +553,7 @@
     <buildingefficiency>0.3</buildingefficiency>
     <freebuildingefficiency>1.0</freebuildingefficiency>
     <investmentamount>300</investmentamount>
-    <investmentcap>1500</investmentcap>
+    <investmentcap>3000</investmentcap>
     <gold>0</gold>
     <food>0</food>
     <wood>0</wood>
@@ -819,7 +820,7 @@
     <buildingefficiency>0.3</buildingefficiency>
     <freebuildingefficiency>1.0</freebuildingefficiency>
     <investmentamount>300</investmentamount>
-    <investmentcap>1500</investmentcap>
+    <investmentcap>3000</investmentcap>
     <gold>0</gold>
     <food>0</food>
     <wood>0</wood>
@@ -1079,7 +1080,7 @@
     <buildingefficiency>0.3</buildingefficiency>
     <freebuildingefficiency>1.0</freebuildingefficiency>
     <investmentamount>300</investmentamount>
-    <investmentcap>1500</investmentcap>
+    <investmentcap>3000</investmentcap>
     <gold>0</gold>
     <food>0</food>
     <wood>0</wood>
@@ -1341,7 +1342,7 @@
     <buildingefficiency>0.3</buildingefficiency>
     <freebuildingefficiency>1.0</freebuildingefficiency>
     <investmentamount>300</investmentamount>
-    <investmentcap>1500</investmentcap>
+    <investmentcap>3000</investmentcap>
     <gold>0</gold>
     <food>0</food>
     <wood>0</wood>
@@ -1618,7 +1619,7 @@
     <buildingefficiency>0.3</buildingefficiency>
     <freebuildingefficiency>1.0</freebuildingefficiency>
     <investmentamount>300</investmentamount>
-    <investmentcap>1500</investmentcap>
+    <investmentcap>3000</investmentcap>
     <gold>0</gold>
     <food>0</food>
     <wood>0</wood>
@@ -1857,7 +1858,7 @@
     <buildingefficiency>0.3</buildingefficiency>
     <freebuildingefficiency>1.0</freebuildingefficiency>
     <investmentamount>300</investmentamount>
-    <investmentcap>1500</investmentcap>
+    <investmentcap>3000</investmentcap>
     <gold>0</gold>
     <food>0</food>
     <wood>0</wood>
@@ -2538,7 +2539,7 @@
     <buildingefficiency>0.3</buildingefficiency>
     <freebuildingefficiency>1.0</freebuildingefficiency>
     <investmentamount>300</investmentamount>
-    <investmentcap>1500</investmentcap>
+    <investmentcap>3000</investmentcap>
     <gold>0</gold>
     <food>0</food>
     <wood>0</wood>
@@ -2791,7 +2792,7 @@
     <buildingefficiency>0.3</buildingefficiency>
     <freebuildingefficiency>1.0</freebuildingefficiency>
     <investmentamount>300</investmentamount>
-    <investmentcap>1500</investmentcap>
+    <investmentcap>3000</investmentcap>
     <gold>0</gold>
     <food>0</food>
     <wood>0</wood>
@@ -2805,6 +2806,8 @@
     <townstartingunit>CrateofFood</townstartingunit>
     <townstartingunit>CrateofFood</townstartingunit>
     <townstartingunit>CrateofFood</townstartingunit>
+    <townstartingunit>CrateofWood</townstartingunit>
+    <townstartingunit>CrateofWood</townstartingunit>
     <townstartingunit>CrateofCoin</townstartingunit>
     <empirewarsstartingunit>SettlerNative</empirewarsstartingunit>
     <empirewarsstartingunit>SettlerNative</empirewarsstartingunit>
@@ -3048,7 +3051,7 @@
     <buildingefficiency>0.3</buildingefficiency>
     <freebuildingefficiency>1.0</freebuildingefficiency>
     <investmentamount>300</investmentamount>
-    <investmentcap>1500</investmentcap>
+    <investmentcap>3000</investmentcap>
     <gold>0</gold>
     <food>0</food>
     <wood>0</wood>
@@ -3431,7 +3434,7 @@
     <buildingefficiency>0.3</buildingefficiency>
     <freebuildingefficiency>1.0</freebuildingefficiency>
     <investmentamount>300</investmentamount>
-    <investmentcap>1500</investmentcap>
+    <investmentcap>3000</investmentcap>
     <gold>0</gold>
     <food>0</food>
     <wood>0</wood>
@@ -3944,7 +3947,7 @@
     <buildingefficiency>0.3</buildingefficiency>
     <freebuildingefficiency>1.0</freebuildingefficiency>
     <investmentamount>300</investmentamount>
-    <investmentcap>1500</investmentcap>
+    <investmentcap>3000</investmentcap>
     <gold>0</gold>
     <food>0</food>
     <wood>0</wood>
@@ -5325,7 +5328,7 @@
     <buildingefficiency>0.3</buildingefficiency>
     <freebuildingefficiency>1.0</freebuildingefficiency>
     <investmentamount>300</investmentamount>
-    <investmentcap>1500</investmentcap>
+    <investmentcap>3000</investmentcap>
     <gold>0</gold>
     <food>0</food>
     <wood>0</wood>
@@ -7742,7 +7745,7 @@
     <buildingefficiency>0.3</buildingefficiency>
     <freebuildingefficiency>1.0</freebuildingefficiency>
     <investmentamount>300</investmentamount>
-    <investmentcap>1500</investmentcap>
+    <investmentcap>3000</investmentcap>
     <gold>0</gold>
     <food>0</food>
     <wood>0</wood>
@@ -7991,7 +7994,7 @@
     <buildingefficiency>0.3</buildingefficiency>
     <freebuildingefficiency>1.0</freebuildingefficiency>
     <investmentamount>300</investmentamount>
-    <investmentcap>1500</investmentcap>
+    <investmentcap>3000</investmentcap>
     <gold>0</gold>
     <food>0</food>
     <wood>0</wood>
@@ -9034,7 +9037,7 @@
     <buildingefficiency>0.3</buildingefficiency>
     <freebuildingefficiency>1.0</freebuildingefficiency>
     <investmentamount>300</investmentamount>
-    <investmentcap>1500</investmentcap>
+    <investmentcap>3000</investmentcap>
     <gold>0</gold>
     <food>0</food>
     <wood>0</wood>
@@ -9538,7 +9541,7 @@
     <buildingefficiency>0.3</buildingefficiency>
     <freebuildingefficiency>1.0</freebuildingefficiency>
     <investmentamount>300</investmentamount>
-    <investmentcap>1500</investmentcap>
+    <investmentcap>3000</investmentcap>
     <gold>0</gold>
     <food>0</food>
     <wood>0</wood>
@@ -9563,7 +9566,6 @@
     <townstartingunit resourceamount="135.00">deZebuCattle</townstartingunit>
     <townstartingunit resourceamount="135.00">deZebuCattle</townstartingunit>
     <townstartingunit resourceamount="135.00">deZebuCattle</townstartingunit>
-    <townstartingunit resourceamount="135.00">deZebuCattle</townstartingunit>
     <deathmatchstartingunit resourceamount="135.00">deZebuCattle</deathmatchstartingunit>
     <startingunit>deLivestockMarketWagon</startingunit>
     <empirewarsstartingunit>deSettlerAfrican</empirewarsstartingunit>
@@ -9576,7 +9578,6 @@
     <empirewarsstartingunit>deSettlerAfrican</empirewarsstartingunit>
     <empirewarsstartingunit>deSettlerAfrican</empirewarsstartingunit>
     <empirewarsstartingunit>deSettlerAfrican</empirewarsstartingunit>
-    <empirewarsstartingunit resourceamount="215.00">deZebuCattle</empirewarsstartingunit>
     <empirewarsstartingunit resourceamount="215.00">deZebuCattle</empirewarsstartingunit>
     <empirewarsstartingunit resourceamount="215.00">deZebuCattle</empirewarsstartingunit>
     <empirewarsstartingunit resourceamount="215.00">deZebuCattle</empirewarsstartingunit>
@@ -9819,6 +9820,7 @@
     <alliedotherid>26445</alliedotherid>
     <unalliedid>26444</unalliedid>
     <herohclabelid>103412</herohclabelid>
+    <hcshipmentmodifier>1.080</hcshipmentmodifier>
     <agetech>
       <age>Age0</age>
       <tech>DEAge0Hausa</tech>
@@ -9847,7 +9849,7 @@
     <buildingefficiency>0.3</buildingefficiency>
     <freebuildingefficiency>1.0</freebuildingefficiency>
     <investmentamount>300</investmentamount>
-    <investmentcap>1500</investmentcap>
+    <investmentcap>3000</investmentcap>
     <gold>0</gold>
     <food>0</food>
     <wood>0</wood>
@@ -9872,7 +9874,6 @@
     <townstartingunit resourceamount="135.00">deSangaCattle</townstartingunit>
     <townstartingunit resourceamount="135.00">deSangaCattle</townstartingunit>
     <townstartingunit resourceamount="135.00">deSangaCattle</townstartingunit>
-    <townstartingunit resourceamount="135.00">deSangaCattle</townstartingunit>
     <deathmatchstartingunit resourceamount="135.00">deSangaCattle</deathmatchstartingunit>
     <startingunit>deLivestockMarketWagon</startingunit>
     <empirewarsstartingunit>deSettlerAfrican</empirewarsstartingunit>
@@ -9883,7 +9884,6 @@
     <empirewarsstartingunit>deSettlerAfrican</empirewarsstartingunit>
     <empirewarsstartingunit>deSettlerAfrican</empirewarsstartingunit>
     <empirewarsstartingunit>deSettlerAfrican</empirewarsstartingunit>
-    <empirewarsstartingunit resourceamount="215.00">deSangaCattle</empirewarsstartingunit>
     <empirewarsstartingunit resourceamount="215.00">deSangaCattle</empirewarsstartingunit>
     <empirewarsstartingunit resourceamount="215.00">deSangaCattle</empirewarsstartingunit>
     <empirewarsstartingunit resourceamount="215.00">deSangaCattle</empirewarsstartingunit>
@@ -10261,7 +10261,7 @@
     <buildingefficiency>0.3</buildingefficiency>
     <freebuildingefficiency>1.0</freebuildingefficiency>
     <investmentamount>300</investmentamount>
-    <investmentcap>1500</investmentcap>
+    <investmentcap>3000</investmentcap>
     <gold>0</gold>
     <food>0</food>
     <wood>0</wood>
@@ -10806,7 +10806,7 @@
     <canpayfreefoundations>
     </canpayfreefoundations>
     <investmentamount>300</investmentamount>
-    <investmentcap>1500</investmentcap>
+    <investmentcap>3000</investmentcap>
     <gold>0</gold>
     <food>0</food>
     <wood>0</wood>
@@ -11066,7 +11066,7 @@
     <buildingefficiency>0.3</buildingefficiency>
     <freebuildingefficiency>1.0</freebuildingefficiency>
     <investmentamount>300</investmentamount>
-    <investmentcap>1500</investmentcap>
+    <investmentcap>3000</investmentcap>
     <gold>0</gold>
     <food>0</food>
     <wood>0</wood>
@@ -11299,6 +11299,7 @@
   <civ>
     <name>Aztecs</name>
     <main>0</main>
+    <subcivtype>1</subcivtype>
     <portrait>ui\native_allies\aztec</portrait>
     <culture>Stone</culture>
     <displaynameid>22872</displaynameid>
@@ -11316,6 +11317,7 @@
   <civ>
     <name>Caribs</name>
     <main>0</main>
+    <subcivtype>1</subcivtype>
     <portrait>ui\native_allies\carib</portrait>
     <culture>Grass</culture>
     <displaynameid>22876</displaynameid>
@@ -11384,6 +11386,7 @@
   <civ>
     <name>Incas</name>
     <main>0</main>
+    <subcivtype>1</subcivtype>
     <portrait>ui\native_allies\inca</portrait>
     <culture>Stone</culture>
     <displaynameid>22874</displaynameid>
@@ -11435,6 +11438,7 @@
   <civ>
     <name>Maya</name>
     <main>0</main>
+    <subcivtype>1</subcivtype>
     <portrait>ui\native_allies\maya</portrait>
     <culture>Stone</culture>
     <displaynameid>22873</displaynameid>
@@ -11486,6 +11490,7 @@
   <civ>
     <name>Tupi</name>
     <main>0</main>
+    <subcivtype>1</subcivtype>
     <portrait>ui\native_allies\tupi</portrait>
     <culture>Grass</culture>
     <displaynameid>22875</displaynameid>
@@ -11503,6 +11508,7 @@
   <civ>
     <name>Zapotec</name>
     <main>0</main>
+    <subcivtype>1</subcivtype>
     <portrait>ui\native_allies\zapotec</portrait>
     <culture>Stone</culture>
     <displaynameid>43450</displaynameid>
@@ -11571,6 +11577,7 @@
   <civ>
     <name>Mapuche</name>
     <main>0</main>
+    <subcivtype>1</subcivtype>
     <portrait>ui\native_allies\mapuche</portrait>
     <culture>Grass</culture>
     <displaynameid>45431</displaynameid>
@@ -11622,6 +11629,7 @@
   <civ>
     <name>Udasi</name>
     <main>0</main>
+    <subcivtype>2</subcivtype>
     <portrait>buildings\native_settlement\native_udasi_site_icon_portrait</portrait>
     <culture>Stone</culture>
     <displaynameid>61081</displaynameid>
@@ -11639,6 +11647,7 @@
   <civ>
     <name>Zen</name>
     <main>0</main>
+    <subcivtype>2</subcivtype>
     <portrait>buildings\native_settlement\native_zen_site_icon_portrait</portrait>
     <culture>Wood</culture>
     <displaynameid>61078</displaynameid>
@@ -11656,6 +11665,7 @@
   <civ>
     <name>Shaolin</name>
     <main>0</main>
+    <subcivtype>2</subcivtype>
     <portrait>buildings\native_settlement\native_shaolin_site_icon_portrait</portrait>
     <culture>Stone</culture>
     <displaynameid>61079</displaynameid>
@@ -11690,6 +11700,7 @@
   <civ>
     <name>Bhakti</name>
     <main>0</main>
+    <subcivtype>2</subcivtype>
     <portrait>buildings\native_settlement\native_bhakti_site_icon_portrait</portrait>
     <culture>Stone</culture>
     <displaynameid>61082</displaynameid>
@@ -11707,6 +11718,7 @@
   <civ>
     <name>Jesuit</name>
     <main>0</main>
+    <subcivtype>2</subcivtype>
     <portrait>buildings\native_settlement\native_jesuit_site_icon_portrait</portrait>
     <culture>Stone</culture>
     <displaynameid>61080</displaynameid>
@@ -11724,6 +11736,7 @@
   <civ>
     <name>Sufi</name>
     <main>0</main>
+    <subcivtype>2</subcivtype>
     <portrait>buildings\native_settlement\native_sufi_site_icon_portrait</portrait>
     <culture>Stone</culture>
     <displaynameid>61083</displaynameid>
@@ -11758,6 +11771,7 @@
   <civ>
     <name>Akan</name>
     <main>0</main>
+    <subcivtype>3</subcivtype>
     <portrait>buildings\native_settlement\native_akan_site_portrait</portrait>
     <culture>Stone</culture>
     <displaynameid>102500</displaynameid>
@@ -11775,6 +11789,7 @@
   <civ>
     <name>Yoruba</name>
     <main>0</main>
+    <subcivtype>3</subcivtype>
     <portrait>buildings\native_settlement\native_yoruba_site_portrait</portrait>
     <culture>Stone</culture>
     <displaynameid>102501</displaynameid>
@@ -11792,6 +11807,7 @@
   <civ>
     <name>Somali</name>
     <main>0</main>
+    <subcivtype>3</subcivtype>
     <portrait>buildings\native_settlement\native_somali_site_portrait</portrait>
     <culture>Stone</culture>
     <displaynameid>102502</displaynameid>
@@ -11809,6 +11825,7 @@
   <civ>
     <name>Sudanese</name>
     <main>0</main>
+    <subcivtype>3</subcivtype>
     <portrait>buildings\native_settlement\native_sudanese_site_portrait</portrait>
     <culture>Stone</culture>
     <displaynameid>102503</displaynameid>
@@ -11826,6 +11843,7 @@
   <civ>
     <name>Berbers</name>
     <main>0</main>
+    <subcivtype>3</subcivtype>
     <portrait>buildings\native_settlement\native_berber_site_portrait</portrait>
     <culture>Stone</culture>
     <displaynameid>102504</displaynameid>
@@ -11949,6 +11967,7 @@
   <civ>
     <name>Jagiellon</name>
     <main>0</main>
+    <subcivtype>4</subcivtype>
     <portrait>buildings\native_settlement\native_site_jagiellon_icon_portrait.png</portrait>
     <culture>Stone</culture>
     <displaynameid>122024</displaynameid>
@@ -11970,6 +11989,7 @@
   <civ>
     <name>Bourbon</name>
     <main>0</main>
+    <subcivtype>4</subcivtype>
     <portrait>buildings\native_settlement\native_site_bourbon_icon_portrait.png</portrait>
     <culture>Stone</culture>
     <displaynameid>122142</displaynameid>
@@ -11991,6 +12011,7 @@
   <civ>
     <name>Habsburg</name>
     <main>0</main>
+    <subcivtype>4</subcivtype>
     <portrait>buildings\native_settlement\native_site_habsburg_icon_portrait.png</portrait>
     <culture>Stone</culture>
     <displaynameid>122143</displaynameid>
@@ -12012,6 +12033,7 @@
   <civ>
     <name>Hanover</name>
     <main>0</main>
+    <subcivtype>4</subcivtype>
     <portrait>buildings\native_settlement\native_site_hanover_icon_portrait.png</portrait>
     <culture>Stone</culture>
     <displaynameid>122144</displaynameid>
@@ -12033,6 +12055,7 @@
   <civ>
     <name>Oldenburg</name>
     <main>0</main>
+    <subcivtype>4</subcivtype>
     <portrait>buildings\native_settlement\native_site_oldenburg_icon_portrait.png</portrait>
     <culture>Stone</culture>
     <displaynameid>122145</displaynameid>
@@ -12054,6 +12077,7 @@
   <civ>
     <name>Phanar</name>
     <main>0</main>
+    <subcivtype>4</subcivtype>
     <portrait>buildings\native_settlement\native_site_phanar_icon_portrait.png</portrait>
     <culture>Stone</culture>
     <displaynameid>122146</displaynameid>
@@ -12075,6 +12099,7 @@
   <civ>
     <name>Vasa</name>
     <main>0</main>
+    <subcivtype>4</subcivtype>
     <portrait>buildings\native_settlement\native_site_vasa_icon_portrait.png</portrait>
     <culture>Stone</culture>
     <displaynameid>122147</displaynameid>
@@ -12096,6 +12121,7 @@
   <civ>
     <name>Wettin</name>
     <main>0</main>
+    <subcivtype>4</subcivtype>
     <portrait>buildings\native_settlement\native_site_wettin_icon_portrait.png</portrait>
     <culture>Stone</culture>
     <displaynameid>122148</displaynameid>
@@ -12117,6 +12143,7 @@
   <civ>
     <name>Wittelsbach</name>
     <main>0</main>
+    <subcivtype>4</subcivtype>
     <portrait>buildings\native_settlement\native_site_wittelsbach_icon_portrait.png</portrait>
     <culture>Stone</culture>
     <displaynameid>122149</displaynameid>
@@ -12131,6 +12158,24 @@
     <agetech>
       <age>Age1</age>
       <tech>DENativeWittelsbachColonialize</tech>
+    </agetech>
+    <visible>0</visible>
+    <visibleineditor>0</visibleineditor>
+  </civ>
+  <civ>
+    <name>Tengri</name>
+    <main>0</main>
+    <subcivtype>2</subcivtype>
+    <portrait>buildings\native_settlement\native_tengri_site_icon_portrait</portrait>
+    <culture>Stone</culture>
+    <displaynameid>61084</displaynameid>
+    <rollovernameid>61084</rollovernameid>
+    <alliedid>26446</alliedid>
+    <alliedotherid>26445</alliedotherid>
+    <unalliedid>26444</unalliedid>
+    <agetech>
+      <age>Age0</age>
+      <tech>DENativeTengri</tech>
     </agetech>
     <visible>0</visible>
     <visibleineditor>0</visibleineditor>

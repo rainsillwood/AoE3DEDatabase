@@ -89,7 +89,7 @@
     <string _locid="50086" comment="proto-Caravel civ-Germans type-title">Шарлотта-Луиза</string>
     <string _locid="50087" comment="proto-Caravel civ-Germans type-title">Курфюрст</string>
     <string _locid="50088" comment="proto-Caravel civ-Germans type-title">Клеве</string>
-    <string _locid="50089" comment="proto-Caravel civ-Germans type-title">Дерфлингер</string>
+    <string _locid="50089" comment="proto-Galleon civ-Germans type-title">Дерфлингер</string>
     <string _locid="50090" comment="proto-Caravel civ-Germans type-title">Айхорн</string>
     <string _locid="50091" comment="proto-Caravel civ-Germans type-title">Айнхорн</string>
     <string _locid="50092" comment="proto-Caravel civ-Germans type-title">Фальке</string>
@@ -368,11 +368,11 @@
     <string _locid="50365" comment="proto-Frigate civ-French type-title">Гортензия</string>
     <string _locid="50366" comment="proto-Frigate civ-French type-title">Буцентавр</string>
     <string _locid="50367" comment="proto-Frigate civ-French type-title">Ле Протектор</string>
-    <string _locid="50368" comment="proto-Frigate civ-Germans type-title">Пферде</string>
-    <string _locid="50369" comment="proto-Frigate civ-Germans type-title">Гамбург</string>
-    <string _locid="50370" comment="proto-Frigate civ-Germans type-title">Бетрибзамкайт</string>
+    <string _locid="50368" comment="proto-Frigate civ-Germans type-title">Фридрих Вильгельм</string>
+    <string _locid="50369" comment="proto-Frigate civ-Germans type-title">Вапен фон Гамбург</string>
+    <string _locid="50370" comment="proto-Frigate civ-Germans type-title">Новара</string>
     <string _locid="50371" comment="proto-Frigate civ-Germans type-title">Адмиралитатсъяхт</string>
-    <string _locid="50372" comment="proto-Frigate civ-Germans type-title">Фридрих</string>
+    <string _locid="50372" comment="proto-Frigate civ-Germans type-title">Сан-Карлос</string>
     <string _locid="50373" comment="proto-Frigate civ-Ottomans/SPCBarbaryPirates type-title">Зиверибахри</string>
     <string _locid="50374" comment="proto-Frigate civ-Ottomans/SPCBarbaryPirates type-title">Хейбетендаз</string>
     <string _locid="50375" comment="proto-Frigate civ-Ottomans/SPCBarbaryPirates type-title">Асар-и-нусрет</string>
@@ -1904,7 +1904,7 @@
     <string _locid="51901" comment="proto-deTavern civ-Germans type-title">«Венская кофейня»</string>
     <string _locid="51902" comment="proto-deTavern civ-Germans type-title">«Потсдамский великан»</string>
     <string _locid="51903" comment="proto-deTavern civ-Portuguese type-title">Винная лавка Хоакима</string>
-    <string _locid="51904" comment="proto-deTavern civ-Portuguese type-title">Паб Мануэля</string>
+    <string _locid="51904" comment="proto-deTavern civ-Portuguese type-title">Бар Мануэля</string>
     <string _locid="51905" comment="proto-deTavern civ-Portuguese type-title">«Педрейра дона Перейры»</string>
     <string _locid="51906" comment="proto-deTavern civ-Portuguese type-title">«Каравелла Кабрала»</string>
     <string _locid="51907" comment="proto-deTavern civ-Portuguese type-title">Бар Миранды</string>
@@ -2622,5 +2622,63 @@
     <string _locid="54291" comment="proto-deMalteseFireship civ-Maltese type-title">Плавучий склад</string>
     <string _locid="54292" comment="proto-deMalteseFireship civ-Maltese type-title">Мгновенный брандер</string>
     <string _locid="54293" comment="proto-deMalteseFireship civ-Maltese type-title">Огненный ветер</string>
+    <string _locid="54294" comment="proto-Dog civ-Default type-title">Плуто</string>
+    <string _locid="54295" comment="proto-Dog civ-Default type-title">Белло</string>
+    <string _locid="54296" comment="proto-Dog civ-Default type-title">Цезарь</string>
+    <string _locid="54297" comment="proto-Dog civ-Default type-title">Брут</string>
+    <string _locid="54298" comment="proto-Dog civ-Default type-title">Марс</string>
+    <string _locid="54299" comment="proto-Dog civ-Default type-title">Пиноккио</string>
+    <string _locid="54300" comment="proto-Dog civ-Default type-title">Луиджи</string>
+    <string _locid="54301" comment="proto-Dog civ-Default type-title">Изабелла</string>
+    <string _locid="54302" comment="proto-Dog civ-Default type-title">Луп</string>
+    <string _locid="54303" comment="proto-Dog civ-Default type-title">Бискотти</string>
+    <string _locid="54304" comment="proto-Dog civ-Default type-title">Данте</string>
+    <string _locid="54305" comment="proto-Dog civ-Default type-title">Микеланджело</string>
+    <string _locid="54306" comment="proto-Dog civ-Default type-title">Дольче</string>
+    <string _locid="54307" comment="proto-Dog civ-Default type-title">Феррари</string>
+    <string _locid="54308" comment="proto-Dog civ-Default type-title">Сицилия</string>
+    <string _locid="54309" comment="proto-Dog civ-Default type-title">Клаудио</string>
+    <string _locid="54310" comment="proto-deMercBattleship civ-Germans type-title">Кайзер</string>
+    <string _locid="54311" comment="proto-deMercBattleship civ-Portuguese type-title">Васко да Гама</string>
+    <string _locid="54312" comment="proto-deMercBattleship civ-Portuguese type-title">Санта-Катарина</string>
+    <string _locid="54313" comment="proto-deMercBattleship civ-Portuguese type-title">Райнья де Португал</string>
+    <string _locid="54314" comment="proto-deMercBattleship civ-Portuguese type-title">Падре Этерно</string>
+    <string _locid="54315" comment="proto-deMercBattleship civ-Portuguese type-title">Носса-Сеньора-да-Консейсан</string>
+    <string _locid="54316" comment="proto-deMercBattleship civ-Swedes type-title">Гёта Лейон</string>
+    <string _locid="54317" comment="proto-deMercBattleship civ-Swedes type-title">Эппл</string>
+    <string _locid="54318" comment="proto-deMercBattleship civ-Ottomans type-title">Махмудие</string>
+    <string _locid="54319" comment="proto-deMercBattleship civ-Ottomans type-title">Селимие</string>
+    <string _locid="54320" comment="proto-deMercBattleship civ-Ottomans type-title">Фаоуиш</string>
+    <string _locid="54321" comment="proto-deMercBattleship civ-Ottomans type-title">Тешрифие</string>
+    <string _locid="54322" comment="proto-deMercBattleship civ-Ottomans type-title">Тешвикие</string>
+    <string _locid="54323" comment="proto-deMercBattleship civ-Ottomans type-title">Мемдюхие</string>
+    <string _locid="54324" comment="proto-deMercBattleship civ-Ottomans type-title">Фетхие</string>
+    <string _locid="54325" comment="proto-deMercBattleship civ-Dutch type-title">Эндрахт</string>
+    <string _locid="54326" comment="proto-deMercBattleship civ-Russians type-title">Император Петр</string>
+    <string _locid="54327" comment="proto-deMercBattleship civ-Russians type-title">Император Александр</string>
+    <string _locid="54328" comment="proto-deMercBattleship civ-Russians type-title">Император Николай</string>
+    <string _locid="54329" comment="proto-deMercBattleship civ-Russians type-title">Апостолов</string>
+    <string _locid="54330" comment="proto-deMercBattleship civ-Russians type-title">Ростислав</string>
+    <string _locid="54331" comment="proto-deMercBattleship civ-Russians type-title">Благодать</string>
+    <string _locid="54332" comment="proto-deMercBattleship civ-Russians type-title">Цесаревич</string>
+    <string _locid="54333" comment="proto-deMercBattleship civ-Russians type-title">Синоп</string>
+    <string _locid="54334" comment="proto-deMercBattleship civ-Russians type-title">Храбрый</string>
+    <string _locid="54335" comment="proto-deMercBattleship civ-Russians type-title">Россия</string>
+    <string _locid="54336" comment="proto-deMercBattleship civ-Russians type-title">Варшава</string>
+    <string _locid="54337" comment="proto-deMercBattleship civ-Russians type-title">Три святителя</string>
+    <string _locid="54338" comment="proto-deMercBattleship civ-Russians type-title">Париж</string>
+    <string _locid="54339" comment="proto-deMercBattleship civ-French type-title">Вальми</string>
+    <string _locid="54340" comment="proto-deMercBattleship civ-French type-title">Интерпид</string>
+    <string _locid="54341" comment="proto-deMercBattleship civ-French type-title">Империал</string>
+    <string _locid="54342" comment="proto-deMercBattleship civ-French type-title">Марсель</string>
+    <string _locid="54343" comment="proto-deMercBattleship civ-French type-title">Дофин Рояль</string>
+    <string _locid="54344" comment="proto-deMercBattleship civ-French type-title">Океан</string>
+    <string _locid="54345" comment="proto-deMercBattleship civ-French type-title">Солей Рояль</string>
+    <string _locid="54346" comment="proto-deMercBattleship civ-French type-title">Бретань</string>
+    <string _locid="54347" comment="proto-deMercBattleship civ-French type-title">Инвинсибл</string>
+    <string _locid="54348" comment="proto-deMercBattleship civ-French type-title">Ориент</string>
+    <string _locid="54349" comment="proto-deMercBattleship civ-French type-title">Венжюр</string>
+    <string _locid="54350" comment="proto-deMercBattleship civ-French type-title">Монтебелло</string>
+    <string _locid="54351" comment="proto-deMercBattleship civ-Germans type-title">Адлер фон Любек</string>
   </language>
 </stringtable>

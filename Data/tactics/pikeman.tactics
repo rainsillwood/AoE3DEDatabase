@@ -63,8 +63,38 @@
     <impacteffect>effects\impacts\torch</impacteffect>
     <projectile>TorchProjectile</projectile>
   </action>
-  <tactic>Melee<action priority="100">BuildingAttack</action><action priority="75">MeleeHandAttack</action><speedmodifier>1.0</speedmodifier><attacktype>LogicalTypeHandUnitsAttack</attacktype><autoattacktype>LogicalTypeHandUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeHandUnitsAttack</attackresponsetype><runaway>1</runaway><autoretarget>1</autoretarget><idleanim>Charge_idle</idleanim><boredanim>Charge_bored</boredanim><deathanim>Death_by_melee</deathanim><walkanim>Charge_walk</walkanim><joganim>Charge_jog</joganim><runanim>Charge_run</runanim></tactic>
-  <tactic>Defend<action priority="100">BuildingAttack</action><action priority="75">DefendHandAttack</action><attacktype>LogicalTypeHandUnitsAttack</attacktype><autoattacktype>LogicalTypeHandUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeHandUnitsAttack</attackresponsetype><runaway>0</runaway><autoretarget>1</autoretarget><idleanim>Defend_idle</idleanim><boredanim>Defend_bored</boredanim><deathanim>Death_by_melee</deathanim><walkanim>Cover_walk</walkanim><joganim>Charge_jog</joganim><runanim>Charge_run</runanim></tactic>
-  <tactic>Cover<speedmodifier>0.5</speedmodifier><action priority="100">CoverBuildingAttack</action><action priority="75">CoverHandAttack</action><attacktype>LogicalTypeHandUnitsAttack</attacktype><autoattacktype>LogicalTypeHandUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeHandUnitsAttack</attackresponsetype><runaway>0</runaway><autoretarget>1</autoretarget><idleanim>Cover_idle</idleanim><boredanim>Cover_bored</boredanim><deathanim>Death_by_melee</deathanim><walkanim>Cover_walk</walkanim><joganim>Charge_jog</joganim><runanim>Charge_run</runanim></tactic>
-  <tactic>StandGround<action priority="100">BuildingAttack</action><action priority="75">DefendHandAttack</action><attacktype>LogicalTypeHandUnitsAttack</attacktype><autoattacktype>LogicalTypeHandUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeHandUnitsAttack</attackresponsetype><runaway>0</runaway><autoretarget>1</autoretarget><idleanim>Defend_idle</idleanim><boredanim>Defend_bored</boredanim><deathanim>Death_by_melee</deathanim><walkanim>Cover_walk</walkanim><joganim>Charge_jog</joganim><runanim>Charge_run</runanim></tactic>
+  <action>
+    <name stringid="113226">RomanTactics1</name>
+    <type>LikeBonus</type>
+    <modifyratebytype>1</modifyratebytype>
+    <modifyabstracttype>LogicalTypeRomanTactics</modifyabstracttype>
+    <active>0</active>
+    <maxrange>34</maxrange>
+    <rate type="LogicalTypeRomanTactics">0.0033333334</rate>
+    <persistent>1</persistent>
+    <modifytype>Damage</modifytype>
+    <modifybase>1.0</modifybase>
+    <modifyratecap>1.15</modifyratecap>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+    <modifyself>1</modifyself>
+  </action>
+  <action>
+    <name stringid="113226">RomanTactics2</name>
+    <type>LikeBonus</type>
+    <modifyratebytype>1</modifyratebytype>
+    <modifyabstracttype>LogicalTypeRomanTactics</modifyabstracttype>
+    <active>0</active>
+    <maxrange>34</maxrange>
+    <rate type="LogicalTypeRomanTactics">0.005</rate>
+    <persistent>1</persistent>
+    <modifytype>Damage</modifytype>
+    <modifybase>1.0</modifybase>
+    <modifyratecap>1.20</modifyratecap>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+    <modifyself>1</modifyself>
+  </action>
+  <tactic>Melee<action priority="100">BuildingAttack</action><action priority="75">MeleeHandAttack</action><action>RomanTactics1</action><action>RomanTactics2</action><speedmodifier>1.0</speedmodifier><attacktype>LogicalTypeHandUnitsAttack</attacktype><autoattacktype>LogicalTypeHandUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeHandUnitsAttack</attackresponsetype><runaway>1</runaway><autoretarget>1</autoretarget><idleanim>Charge_idle</idleanim><boredanim>Charge_bored</boredanim><deathanim>Death_by_melee</deathanim><walkanim>Charge_walk</walkanim><joganim>Charge_jog</joganim><runanim>Charge_run</runanim></tactic>
+  <tactic>Defend<action priority="100">BuildingAttack</action><action priority="75">DefendHandAttack</action><action>RomanTactics1</action><action>RomanTactics2</action><attacktype>LogicalTypeHandUnitsAttack</attacktype><autoattacktype>LogicalTypeHandUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeHandUnitsAttack</attackresponsetype><runaway>0</runaway><autoretarget>1</autoretarget><idleanim>Defend_idle</idleanim><boredanim>Defend_bored</boredanim><deathanim>Death_by_melee</deathanim><walkanim>Cover_walk</walkanim><joganim>Charge_jog</joganim><runanim>Charge_run</runanim></tactic>
+  <tactic>Cover<speedmodifier>0.5</speedmodifier><action priority="100">CoverBuildingAttack</action><action priority="75">CoverHandAttack</action><action>RomanTactics1</action><action>RomanTactics2</action><attacktype>LogicalTypeHandUnitsAttack</attacktype><autoattacktype>LogicalTypeHandUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeHandUnitsAttack</attackresponsetype><runaway>0</runaway><autoretarget>1</autoretarget><idleanim>Cover_idle</idleanim><boredanim>Cover_bored</boredanim><deathanim>Death_by_melee</deathanim><walkanim>Cover_walk</walkanim><joganim>Charge_jog</joganim><runanim>Charge_run</runanim></tactic>
+  <tactic>StandGround<action priority="100">BuildingAttack</action><action priority="75">DefendHandAttack</action><action>RomanTactics1</action><action>RomanTactics2</action><attacktype>LogicalTypeHandUnitsAttack</attacktype><autoattacktype>LogicalTypeHandUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeHandUnitsAttack</attackresponsetype><runaway>0</runaway><autoretarget>1</autoretarget><idleanim>Defend_idle</idleanim><boredanim>Defend_bored</boredanim><deathanim>Death_by_melee</deathanim><walkanim>Cover_walk</walkanim><joganim>Charge_jog</joganim><runanim>Charge_run</runanim></tactic>
 </tactics>

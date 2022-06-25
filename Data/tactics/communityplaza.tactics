@@ -62,10 +62,15 @@
     <persistent>1</persistent>
     <dancebonustype>UnitModification</dancebonustype>
     <modifyabstracttype>Ship</modifyabstracttype>
-    <modifymultiplier>0.024</modifymultiplier>
-    <modifyexponent>1.0075</modifyexponent>
+    <forbidunittype>deMercBattleship</forbidunittype>
+    <forbidunittype>ypFuchuan</forbidunittype>
+    <forbidunittype>Monitor</forbidunittype>
+    <forbidunittype>ypJunk</forbidunittype>
+    <forbidunittype>Privateer</forbidunittype>
+    <modifymultiplier>0.009</modifymultiplier>
+    <modifyexponent>1.00475</modifyexponent>
     <modifybase>1.0</modifybase>
-    <modifytype>MaxHP</modifytype>
+    <modifytype>BaseHP</modifytype>
   </action>
   <action>
     <name stringid="69168">ShipDamageIncrease</name>
@@ -74,10 +79,15 @@
     <persistent>1</persistent>
     <dancebonustype>UnitModification</dancebonustype>
     <modifyabstracttype>Ship</modifyabstracttype>
-    <modifymultiplier>0.008</modifymultiplier>
-    <modifyexponent>1.0075</modifyexponent>
+    <forbidunittype>deMercBattleship</forbidunittype>
+    <forbidunittype>ypFuchuan</forbidunittype>
+    <forbidunittype>Monitor</forbidunittype>
+    <forbidunittype>ypJunk</forbidunittype>
+    <forbidunittype>Privateer</forbidunittype>
+    <modifymultiplier>0.002</modifymultiplier>
+    <modifyexponent>1.005</modifyexponent>
     <modifybase>1.0</modifybase>
-    <modifytype>Damage</modifytype>
+    <modifytype>BaseDamage</modifytype>
   </action>
   <action>
     <name stringid="69169">SpawnWarrior</name>
@@ -243,9 +253,9 @@
     <dancebonustype>UnitModification</dancebonustype>
     <modifyabstracttype>Unit</modifyabstracttype>
     <forbidabstracttype>AbstractArtillery</forbidabstracttype>
-    <modifymultiplier>0.03</modifymultiplier>
-    <modifyexponent>1.02</modifyexponent>
-    <modifybase>1.08</modifybase>
+    <modifymultiplier>0.016</modifymultiplier>
+    <modifyexponent>1</modifyexponent>
+    <modifybase>1.1</modifybase>
     <modifytype>SiegeDamage</modifytype>
   </action>
   <action>

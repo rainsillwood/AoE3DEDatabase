@@ -20,5 +20,12 @@
     <persistent>1</persistent>
     <investmentresource>Gold</investmentresource>
   </action>
-  <tactic>Normal<action>AutoGatherFoodInvestment</action><action>AutoGatherWoodInvestment</action><action>AutoGatherCoinInvestment</action></tactic>
+  <action>
+    <name stringid="43019">AutoGatherXP</name>
+    <type>AutoGather</type>
+    <active>0</active>
+    <persistent>1</persistent>
+    <autogatherifresourcesinvested>1</autogatherifresourcesinvested>
+  </action>
+  <tactic>Normal<action>AutoGatherFoodInvestment</action><action>AutoGatherWoodInvestment</action><action>AutoGatherCoinInvestment</action><action>AutoGatherXP</action></tactic>
 </tactics>

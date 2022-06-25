@@ -138,6 +138,7 @@
     <spreadfactor>0.25</spreadfactor>
     <trackrating>12</trackrating>
     <unintentionaldamagemultiplier>0.7</unintentionaldamagemultiplier>
+    <impacteffect>effects\impacts\torch</impacteffect>
     <projectile>ArrowFlaming</projectile>
     <minrange>2</minrange>
     <rate type="LogicalTypeShipsAndBuildings">1.0 </rate>

@@ -89,7 +89,7 @@
     <string _locid="50086" comment="proto-Caravel civ-Germans type-title">シャルロットルイーゼ</string>
     <string _locid="50087" comment="proto-Caravel civ-Germans type-title">フルフスト</string>
     <string _locid="50088" comment="proto-Caravel civ-Germans type-title">クレーヴェ</string>
-    <string _locid="50089" comment="proto-Caravel civ-Germans type-title">デルフリンガー</string>
+    <string _locid="50089" comment="proto-Galleon civ-Germans type-title">デルフリンガー</string>
     <string _locid="50090" comment="proto-Caravel civ-Germans type-title">アイヒホルン</string>
     <string _locid="50091" comment="proto-Caravel civ-Germans type-title">アインホルン</string>
     <string _locid="50092" comment="proto-Caravel civ-Germans type-title">ファルケ</string>
@@ -368,11 +368,11 @@
     <string _locid="50365" comment="proto-Frigate civ-French type-title">オルテンス</string>
     <string _locid="50366" comment="proto-Frigate civ-French type-title">ビュセントール</string>
     <string _locid="50367" comment="proto-Frigate civ-French type-title">ルプロテクトゥール</string>
-    <string _locid="50368" comment="proto-Frigate civ-Germans type-title">プフェルデ</string>
-    <string _locid="50369" comment="proto-Frigate civ-Germans type-title">ハンブルク</string>
-    <string _locid="50370" comment="proto-Frigate civ-Germans type-title">ベトリーブサムカイト</string>
-    <string _locid="50371" comment="proto-Frigate civ-Germans type-title">アドミラリタッツヤハト</string>
-    <string _locid="50372" comment="proto-Frigate civ-Germans type-title">フリードリッヒ</string>
+    <string _locid="50368" comment="proto-Frigate civ-Germans type-title">フリードリッヒ ヴィルヘルム号</string>
+    <string _locid="50369" comment="proto-Frigate civ-Germans type-title">ワーペン フォン ハンブルク号</string>
+    <string _locid="50370" comment="proto-Frigate civ-Germans type-title">ノヴァーラ号</string>
+    <string _locid="50371" comment="proto-Frigate civ-Germans type-title">アドミラリタッツヤハト号</string>
+    <string _locid="50372" comment="proto-Frigate civ-Germans type-title">サン カール号</string>
     <string _locid="50373" comment="proto-Frigate civ-Ottomans/SPCBarbaryPirates type-title">ジヴェリバリ</string>
     <string _locid="50374" comment="proto-Frigate civ-Ottomans/SPCBarbaryPirates type-title">ヘイベテンダズ</string>
     <string _locid="50375" comment="proto-Frigate civ-Ottomans/SPCBarbaryPirates type-title">アサルイヌスレット</string>
@@ -1903,8 +1903,8 @@
     <string _locid="51900" comment="proto-deTavern civ-Germans type-title">カールズ クナイペ</string>
     <string _locid="51901" comment="proto-deTavern civ-Germans type-title">ウィーナー カフィハウス</string>
     <string _locid="51902" comment="proto-deTavern civ-Germans type-title">ツム ランゲン カール</string>
-    <string _locid="51903" comment="proto-deTavern civ-Portuguese type-title">ホアキンズ ボトキム</string>
-    <string _locid="51904" comment="proto-deTavern civ-Portuguese type-title">マヌエルズ パブ</string>
+    <string _locid="51903" comment="proto-deTavern civ-Portuguese type-title">ボトキム ド ホアキン</string>
+    <string _locid="51904" comment="proto-deTavern civ-Portuguese type-title">バー ド マヌエル</string>
     <string _locid="51905" comment="proto-deTavern civ-Portuguese type-title">ペデイラ ド ペレイラ</string>
     <string _locid="51906" comment="proto-deTavern civ-Portuguese type-title">カラヴェーラ ド カブラル</string>
     <string _locid="51907" comment="proto-deTavern civ-Portuguese type-title">バー ド ミランダ</string>
@@ -2622,5 +2622,63 @@
     <string _locid="54291" comment="proto-deMalteseFireship civ-Maltese type-title">泳ぐ補給基地号</string>
     <string _locid="54292" comment="proto-deMalteseFireship civ-Maltese type-title">即席火船</string>
     <string _locid="54293" comment="proto-deMalteseFireship civ-Maltese type-title">バーニング ウィンド号</string>
+    <string _locid="54294" comment="proto-Dog civ-Default type-title">プルート</string>
+    <string _locid="54295" comment="proto-Dog civ-Default type-title">ベロ</string>
+    <string _locid="54296" comment="proto-Dog civ-Default type-title">カエサル</string>
+    <string _locid="54297" comment="proto-Dog civ-Default type-title">ブルータス</string>
+    <string _locid="54298" comment="proto-Dog civ-Default type-title">マルス</string>
+    <string _locid="54299" comment="proto-Dog civ-Default type-title">ピノッキオ</string>
+    <string _locid="54300" comment="proto-Dog civ-Default type-title">ルイージ</string>
+    <string _locid="54301" comment="proto-Dog civ-Default type-title">イザベラ</string>
+    <string _locid="54302" comment="proto-Dog civ-Default type-title">ルポ</string>
+    <string _locid="54303" comment="proto-Dog civ-Default type-title">ビスコッティ</string>
+    <string _locid="54304" comment="proto-Dog civ-Default type-title">ダンテ</string>
+    <string _locid="54305" comment="proto-Dog civ-Default type-title">ミケランジェロ</string>
+    <string _locid="54306" comment="proto-Dog civ-Default type-title">ドルチェ</string>
+    <string _locid="54307" comment="proto-Dog civ-Default type-title">フェラーリ</string>
+    <string _locid="54308" comment="proto-Dog civ-Default type-title">シシリー</string>
+    <string _locid="54309" comment="proto-Dog civ-Default type-title">クラウディオ</string>
+    <string _locid="54310" comment="proto-deMercBattleship civ-Germans type-title">カイゼル号</string>
+    <string _locid="54311" comment="proto-deMercBattleship civ-Portuguese type-title">ヴァスコ ダ ガマ号</string>
+    <string _locid="54312" comment="proto-deMercBattleship civ-Portuguese type-title">サンタ カタリーナ号</string>
+    <string _locid="54313" comment="proto-deMercBattleship civ-Portuguese type-title">ハイナ デ ポルトガル号</string>
+    <string _locid="54314" comment="proto-deMercBattleship civ-Portuguese type-title">パディレ エテーノ号</string>
+    <string _locid="54315" comment="proto-deMercBattleship civ-Portuguese type-title">ノッサ セノーラ ダ コンセイサーオ号</string>
+    <string _locid="54316" comment="proto-deMercBattleship civ-Swedes type-title">ゲサ レニョン号</string>
+    <string _locid="54317" comment="proto-deMercBattleship civ-Swedes type-title">エップレ号</string>
+    <string _locid="54318" comment="proto-deMercBattleship civ-Ottomans type-title">マフムディエ号</string>
+    <string _locid="54319" comment="proto-deMercBattleship civ-Ottomans type-title">セリミエ号</string>
+    <string _locid="54320" comment="proto-deMercBattleship civ-Ottomans type-title">ファオウイシュ号</string>
+    <string _locid="54321" comment="proto-deMercBattleship civ-Ottomans type-title">テシュフィエ号</string>
+    <string _locid="54322" comment="proto-deMercBattleship civ-Ottomans type-title">テシュビキエ号</string>
+    <string _locid="54323" comment="proto-deMercBattleship civ-Ottomans type-title">メムディエ号</string>
+    <string _locid="54324" comment="proto-deMercBattleship civ-Ottomans type-title">フェティエ号</string>
+    <string _locid="54325" comment="proto-deMercBattleship civ-Dutch type-title">エインドゥラフト号</string>
+    <string _locid="54326" comment="proto-deMercBattleship civ-Russians type-title">インペラートル ピヨトル号</string>
+    <string _locid="54327" comment="proto-deMercBattleship civ-Russians type-title">インペラートル アレクサンドル号</string>
+    <string _locid="54328" comment="proto-deMercBattleship civ-Russians type-title">インペラートル ナイコーレイ号</string>
+    <string _locid="54329" comment="proto-deMercBattleship civ-Russians type-title">アポストロフ号</string>
+    <string _locid="54330" comment="proto-deMercBattleship civ-Russians type-title">ロスチスラフ号</string>
+    <string _locid="54331" comment="proto-deMercBattleship civ-Russians type-title">ブラゴダット号</string>
+    <string _locid="54332" comment="proto-deMercBattleship civ-Russians type-title">ツェサリヴィッチ号</string>
+    <string _locid="54333" comment="proto-deMercBattleship civ-Russians type-title">シノップ号</string>
+    <string _locid="54334" comment="proto-deMercBattleship civ-Russians type-title">フラブリー号</string>
+    <string _locid="54335" comment="proto-deMercBattleship civ-Russians type-title">ロッシーア号</string>
+    <string _locid="54336" comment="proto-deMercBattleship civ-Russians type-title">ワルシャワ号</string>
+    <string _locid="54337" comment="proto-deMercBattleship civ-Russians type-title">トリィ スヴィツィーツェリア号</string>
+    <string _locid="54338" comment="proto-deMercBattleship civ-Russians type-title">パリシュ号</string>
+    <string _locid="54339" comment="proto-deMercBattleship civ-French type-title">ヴァルミー号</string>
+    <string _locid="54340" comment="proto-deMercBattleship civ-French type-title">アントレピッド号</string>
+    <string _locid="54341" comment="proto-deMercBattleship civ-French type-title">インペリアル号</string>
+    <string _locid="54342" comment="proto-deMercBattleship civ-French type-title">マルセイユ号</string>
+    <string _locid="54343" comment="proto-deMercBattleship civ-French type-title">ドゥーファン ロワイヤル号</string>
+    <string _locid="54344" comment="proto-deMercBattleship civ-French type-title">オセアン号</string>
+    <string _locid="54345" comment="proto-deMercBattleship civ-French type-title">ソレイユ ロワイヤル号</string>
+    <string _locid="54346" comment="proto-deMercBattleship civ-French type-title">ブルターニュ号</string>
+    <string _locid="54347" comment="proto-deMercBattleship civ-French type-title">アンヴァンシビル号</string>
+    <string _locid="54348" comment="proto-deMercBattleship civ-French type-title">オリアント号</string>
+    <string _locid="54349" comment="proto-deMercBattleship civ-French type-title">ヴァンジュール号</string>
+    <string _locid="54350" comment="proto-deMercBattleship civ-French type-title">モンテベロ号</string>
+    <string _locid="54351" comment="proto-deMercBattleship civ-Germans type-title">アドラー フォン リューベック号</string>
   </language>
 </stringtable>

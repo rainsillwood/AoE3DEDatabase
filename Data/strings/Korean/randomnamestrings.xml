@@ -89,7 +89,7 @@
     <string _locid="50086" comment="proto-Caravel civ-Germans type-title">샤를로트 루이즈</string>
     <string _locid="50087" comment="proto-Caravel civ-Germans type-title">셰르퓌르스트</string>
     <string _locid="50088" comment="proto-Caravel civ-Germans type-title">클레브</string>
-    <string _locid="50089" comment="proto-Caravel civ-Germans type-title">데어플링어</string>
+    <string _locid="50089" comment="proto-Galleon civ-Germans type-title">데어플링어</string>
     <string _locid="50090" comment="proto-Caravel civ-Germans type-title">아이히혼</string>
     <string _locid="50091" comment="proto-Caravel civ-Germans type-title">아인혼</string>
     <string _locid="50092" comment="proto-Caravel civ-Germans type-title">팔케</string>
@@ -368,11 +368,11 @@
     <string _locid="50365" comment="proto-Frigate civ-French type-title">홀텐스</string>
     <string _locid="50366" comment="proto-Frigate civ-French type-title">부센토르</string>
     <string _locid="50367" comment="proto-Frigate civ-French type-title">르 프로테크뛰르</string>
-    <string _locid="50368" comment="proto-Frigate civ-Germans type-title">페르트</string>
-    <string _locid="50369" comment="proto-Frigate civ-Germans type-title">함부르크</string>
-    <string _locid="50370" comment="proto-Frigate civ-Germans type-title">베트리에삼카이트</string>
+    <string _locid="50368" comment="proto-Frigate civ-Germans type-title">프리드리히 빌헬름</string>
+    <string _locid="50369" comment="proto-Frigate civ-Germans type-title">바펜 폰 함부르크</string>
+    <string _locid="50370" comment="proto-Frigate civ-Germans type-title">노바라</string>
     <string _locid="50371" comment="proto-Frigate civ-Germans type-title">아드미랄리타시아흐트</string>
-    <string _locid="50372" comment="proto-Frigate civ-Germans type-title">프레드리히</string>
+    <string _locid="50372" comment="proto-Frigate civ-Germans type-title">산 카를로스</string>
     <string _locid="50373" comment="proto-Frigate civ-Ottomans/SPCBarbaryPirates type-title">지베리바흐리</string>
     <string _locid="50374" comment="proto-Frigate civ-Ottomans/SPCBarbaryPirates type-title">헤이베텐다즈</string>
     <string _locid="50375" comment="proto-Frigate civ-Ottomans/SPCBarbaryPirates type-title">아사리누스렛</string>
@@ -1904,7 +1904,7 @@
     <string _locid="51901" comment="proto-deTavern civ-Germans type-title">비너 카페하우스</string>
     <string _locid="51902" comment="proto-deTavern civ-Germans type-title">춤 랑겐 케를</string>
     <string _locid="51903" comment="proto-deTavern civ-Portuguese type-title">조아킹의 보테킹</string>
-    <string _locid="51904" comment="proto-deTavern civ-Portuguese type-title">마누엘의 펍</string>
+    <string _locid="51904" comment="proto-deTavern civ-Portuguese type-title">바르 두 마누엘</string>
     <string _locid="51905" comment="proto-deTavern civ-Portuguese type-title">페데이라 두 페레이라</string>
     <string _locid="51906" comment="proto-deTavern civ-Portuguese type-title">카라벨라 두 카브랄</string>
     <string _locid="51907" comment="proto-deTavern civ-Portuguese type-title">바르 두 미란다</string>
@@ -2622,5 +2622,63 @@
     <string _locid="54291" comment="proto-deMalteseFireship civ-Maltese type-title">헤엄치는 화약고</string>
     <string _locid="54292" comment="proto-deMalteseFireship civ-Maltese type-title">즉각 화공선</string>
     <string _locid="54293" comment="proto-deMalteseFireship civ-Maltese type-title">불타는 바람</string>
+    <string _locid="54294" comment="proto-Dog civ-Default type-title">플루토</string>
+    <string _locid="54295" comment="proto-Dog civ-Default type-title">벨로</string>
+    <string _locid="54296" comment="proto-Dog civ-Default type-title">카이사르</string>
+    <string _locid="54297" comment="proto-Dog civ-Default type-title">브루투스</string>
+    <string _locid="54298" comment="proto-Dog civ-Default type-title">마스</string>
+    <string _locid="54299" comment="proto-Dog civ-Default type-title">피노키오</string>
+    <string _locid="54300" comment="proto-Dog civ-Default type-title">루이지</string>
+    <string _locid="54301" comment="proto-Dog civ-Default type-title">이사벨라</string>
+    <string _locid="54302" comment="proto-Dog civ-Default type-title">루포</string>
+    <string _locid="54303" comment="proto-Dog civ-Default type-title">비스코티</string>
+    <string _locid="54304" comment="proto-Dog civ-Default type-title">단테</string>
+    <string _locid="54305" comment="proto-Dog civ-Default type-title">미켈란젤로</string>
+    <string _locid="54306" comment="proto-Dog civ-Default type-title">돌체</string>
+    <string _locid="54307" comment="proto-Dog civ-Default type-title">페라리</string>
+    <string _locid="54308" comment="proto-Dog civ-Default type-title">시실리</string>
+    <string _locid="54309" comment="proto-Dog civ-Default type-title">클라우디오</string>
+    <string _locid="54310" comment="proto-deMercBattleship civ-Germans type-title">카이저</string>
+    <string _locid="54311" comment="proto-deMercBattleship civ-Portuguese type-title">바스코 다 가마</string>
+    <string _locid="54312" comment="proto-deMercBattleship civ-Portuguese type-title">산타 카타리나</string>
+    <string _locid="54313" comment="proto-deMercBattleship civ-Portuguese type-title">하이냐 데 포르투갈</string>
+    <string _locid="54314" comment="proto-deMercBattleship civ-Portuguese type-title">파드레 이테르누</string>
+    <string _locid="54315" comment="proto-deMercBattleship civ-Portuguese type-title">노사 세뇨라 데 콘세이상</string>
+    <string _locid="54316" comment="proto-deMercBattleship civ-Swedes type-title">예타 레욘</string>
+    <string _locid="54317" comment="proto-deMercBattleship civ-Swedes type-title">애플레</string>
+    <string _locid="54318" comment="proto-deMercBattleship civ-Ottomans type-title">마흐무디예</string>
+    <string _locid="54319" comment="proto-deMercBattleship civ-Ottomans type-title">셀리미예</string>
+    <string _locid="54320" comment="proto-deMercBattleship civ-Ottomans type-title">파오우이시</string>
+    <string _locid="54321" comment="proto-deMercBattleship civ-Ottomans type-title">테시리피예</string>
+    <string _locid="54322" comment="proto-deMercBattleship civ-Ottomans type-title">테시비키예</string>
+    <string _locid="54323" comment="proto-deMercBattleship civ-Ottomans type-title">멤두히예</string>
+    <string _locid="54324" comment="proto-deMercBattleship civ-Ottomans type-title">페티예</string>
+    <string _locid="54325" comment="proto-deMercBattleship civ-Dutch type-title">에인드라흐트</string>
+    <string _locid="54326" comment="proto-deMercBattleship civ-Russians type-title">임페라토르 표트르</string>
+    <string _locid="54327" comment="proto-deMercBattleship civ-Russians type-title">임페라토르 알렉산드르</string>
+    <string _locid="54328" comment="proto-deMercBattleship civ-Russians type-title">임페라토르 니콜라이</string>
+    <string _locid="54329" comment="proto-deMercBattleship civ-Russians type-title">아포스톨로프</string>
+    <string _locid="54330" comment="proto-deMercBattleship civ-Russians type-title">로스티슬라프</string>
+    <string _locid="54331" comment="proto-deMercBattleship civ-Russians type-title">블라고다트</string>
+    <string _locid="54332" comment="proto-deMercBattleship civ-Russians type-title">체사레비치</string>
+    <string _locid="54333" comment="proto-deMercBattleship civ-Russians type-title">시노프</string>
+    <string _locid="54334" comment="proto-deMercBattleship civ-Russians type-title">흐라브리</string>
+    <string _locid="54335" comment="proto-deMercBattleship civ-Russians type-title">로시야</string>
+    <string _locid="54336" comment="proto-deMercBattleship civ-Russians type-title">바르샤바</string>
+    <string _locid="54337" comment="proto-deMercBattleship civ-Russians type-title">트리 스뱌치첼랴</string>
+    <string _locid="54338" comment="proto-deMercBattleship civ-Russians type-title">파리시</string>
+    <string _locid="54339" comment="proto-deMercBattleship civ-French type-title">발미</string>
+    <string _locid="54340" comment="proto-deMercBattleship civ-French type-title">엥트레피드</string>
+    <string _locid="54341" comment="proto-deMercBattleship civ-French type-title">엥페리얼</string>
+    <string _locid="54342" comment="proto-deMercBattleship civ-French type-title">마르세유</string>
+    <string _locid="54343" comment="proto-deMercBattleship civ-French type-title">도팽-르와얄</string>
+    <string _locid="54344" comment="proto-deMercBattleship civ-French type-title">오세앙</string>
+    <string _locid="54345" comment="proto-deMercBattleship civ-French type-title">솔레유 르와얄</string>
+    <string _locid="54346" comment="proto-deMercBattleship civ-French type-title">브르타뉴</string>
+    <string _locid="54347" comment="proto-deMercBattleship civ-French type-title">앙방시블레</string>
+    <string _locid="54348" comment="proto-deMercBattleship civ-French type-title">오리엉</string>
+    <string _locid="54349" comment="proto-deMercBattleship civ-French type-title">방죄르</string>
+    <string _locid="54350" comment="proto-deMercBattleship civ-French type-title">몽트벨로</string>
+    <string _locid="54351" comment="proto-deMercBattleship civ-Germans type-title">아들러 폰 뤼벡</string>
   </language>
 </stringtable>

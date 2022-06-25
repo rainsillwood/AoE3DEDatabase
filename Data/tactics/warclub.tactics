@@ -72,6 +72,7 @@
     <anim>Build</anim>
     <maxrange>0.2</maxrange>
     <rate type="Building">1.0</rate>
+    <active>0</active>
   </action>
   <action>
     <name stringid="46491">Stealth</name>
