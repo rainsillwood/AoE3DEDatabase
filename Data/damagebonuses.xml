@@ -248,4 +248,8 @@
     <icon>resources/images/hud/stat_icon_wall.png</icon>
     <displaynameid>42181</displaynameid>
   </damagebonus>
+  <damagebonus>
+    <unittype>MilitaryProductionBuilding</unittype>
+    <displaynameid>125577</displaynameid>
+  </damagebonus>
 </damagebonustypes>

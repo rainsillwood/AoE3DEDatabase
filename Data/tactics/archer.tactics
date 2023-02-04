@@ -154,6 +154,8 @@
     <rate type="Corral">2.0</rate>
     <rate type="Teepee">2.0</rate>
     <rate type="ArtilleryDepot">2.0</rate>
+    <rate type="Barracks">2.0</rate>
+    <rate type="Stable">2.0</rate>
   </action>
   <tactic>Volley<action priority="100">VolleyRangedAttack</action><action priority="80">RangedBuildingAttack</action><action priority="75">BuildingAttack</action><action priority="25">VolleyHandAttack</action><action>Build</action><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><runaway>1</runaway><autoretarget>1</autoretarget><idleanim>Volley_standing_idle</idleanim><boredanim>Volley_standing_bored</boredanim><deathanim>Death_by_melee</deathanim><walkanim>Volley_walk</walkanim><joganim>Volley_jog</joganim><runanim>Volley_run</runanim></tactic>
   <tactic>Defend<action priority="100">DefendRangedAttack</action><action priority="80">RangedBuildingAttack</action><action priority="75">BuildingAttack</action><action priority="25">DefendHandAttack</action><action>Build</action><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><runaway>0</runaway><autoretarget>1</autoretarget><idleanim>Defend_idle</idleanim><boredanim>Defend_bored</boredanim><deathanim>Death_by_melee</deathanim><walkanim>Cover_walk</walkanim><joganim>Cover_jog</joganim><runanim>Cover_run</runanim></tactic>

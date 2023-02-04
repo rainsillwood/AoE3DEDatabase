@@ -255,6 +255,15 @@
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
+      <name>HCShipCoinCrates4</name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <prereqtech>HCShipCoinCrates3</prereqtech>
+      <age>2</age>
+      <displayunitcount>1000</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
       <name>HCShipSheep1</name>
       <maxcount>-1</maxcount>
       <level>0</level>
@@ -348,25 +357,25 @@
       <name>DEHCBritishTongue</name>
       <maxcount>1</maxcount>
       <age>1</age>
-      <displayunitcount>10</displayunitcount>
+      <displayunitcount>11</displayunitcount>
     </card>
     <card>
       <name>DEHCSpanishTongue</name>
       <maxcount>1</maxcount>
       <age>2</age>
-      <displayunitcount>9</displayunitcount>
+      <displayunitcount>10</displayunitcount>
     </card>
     <card>
       <name>DEHCFrenchTongue</name>
       <maxcount>1</maxcount>
       <age>3</age>
-      <displayunitcount>9</displayunitcount>
+      <displayunitcount>10</displayunitcount>
     </card>
     <card>
       <name>DEHCPortugueseTongue</name>
       <maxcount>1</maxcount>
       <age>2</age>
-      <displayunitcount>12</displayunitcount>
+      <displayunitcount>14</displayunitcount>
     </card>
     <card>
       <name>DEHCRussianTongue</name>
@@ -398,7 +407,7 @@
       <name>DEHCMercsIrishBrigadiers</name>
       <maxcount>1</maxcount>
       <age>1</age>
-      <displayunitcount>11</displayunitcount>
+      <displayunitcount>9</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -477,14 +486,14 @@
       <name>DEHCShipSentinel2</name>
       <maxcount>1</maxcount>
       <age>2</age>
-      <displayunitcount>8</displayunitcount>
+      <displayunitcount>9</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
       <name>DEHCShipSentinel3</name>
       <maxcount>1</maxcount>
       <age>2</age>
-      <displayunitcount>7</displayunitcount>
+      <displayunitcount>8</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -615,12 +624,12 @@
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
-      <name>HCXPShipCulverins2</name>
+      <name>HCDEShipCulverins</name>
       <maxcount>1</maxcount>
       <level>40</level>
       <prereqtech>HCShipFalconets3</prereqtech>
       <age>3</age>
-      <displayunitcount>4</displayunitcount>
+      <displayunitcount>3</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -690,7 +699,7 @@
     </card>
     <card>
       <name>DEHCMercsRoyalHorseman</name>
-      <maxcount>3</maxcount>
+      <maxcount>1</maxcount>
       <age>3</age>
       <displayunitcount>7</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
@@ -1735,6 +1744,7 @@
       <tech x="2.0" y="3.0">HCShipFoodCrates3</tech>
       <tech x="2.7" y="3.0">HCShipWoodCrates3</tech>
       <tech x="3.4" y="3.0">HCShipCoinCrates3</tech>
+      <tech x="3.4" y="3.0">HCShipCoinCrates4</tech>
       <tech x="2.0" y="4.0">HCShipFoodCrates4</tech>
       <tech x="2.7" y="4.0">HCShipWoodCrates4</tech>
       <tech x="2.7" y="4.0">DEHCShipRollingWoodMalta</tech>
@@ -1762,6 +1772,7 @@
       <tech x="2.0" y="3.0">HCShipFoodCrates3</tech>
       <tech x="2.7" y="3.0">HCShipWoodCrates3</tech>
       <tech x="3.4" y="3.0">HCShipCoinCrates3</tech>
+      <tech x="3.4" y="3.0">HCShipCoinCrates4</tech>
       <tech x="2.0" y="4.0">HCShipFoodCrates4</tech>
       <tech x="2.7" y="4.0">HCShipWoodCrates4</tech>
       <tech x="2.7" y="4.0">DEHCShipRollingWoodMalta</tech>
@@ -1837,7 +1848,7 @@
       <tech x="6.7" y="2.0">HCShipFalconets2</tech>
       <tech x="6.7" y="7.0">HCShipFalconets4</tech>
       <tech x="6.7" y="7.0">HCShipFalconets5</tech>
-      <tech x="6.7" y="7.0">HCXPShipCulverins2</tech>
+      <tech x="6.7" y="7.0">HCDEShipCulverins</tech>
       <tech x="7.4" y="1.0">HCAdvancedArtillery</tech>
       <tech x="7.4" y="2.0">HCShipMortars1</tech>
       <tech x="7.4" y="3.0">HCShipMortars2</tech>
@@ -1887,7 +1898,7 @@
       <tech x="6.7" y="2.0">HCShipFalconets2</tech>
       <tech x="6.7" y="7.0">HCShipFalconets4</tech>
       <tech x="6.7" y="7.0">HCShipFalconets5</tech>
-      <tech x="6.7" y="7.0">HCXPShipCulverins2</tech>
+      <tech x="6.7" y="7.0">HCDEShipCulverins</tech>
       <tech x="7.4" y="1.0">HCAdvancedArtillery</tech>
       <tech x="7.4" y="2.0">HCShipMortars1</tech>
       <tech x="7.4" y="3.0">HCShipMortars2</tech>
@@ -2572,10 +2583,6 @@
     </waypoint>
     <waypoint>
       <bone>bone_boat_node_17</bone>
-      <gondola>1</gondola>
-    </waypoint>
-    <waypoint>
-      <bone>bone_boat_node_18</bone>
       <gondola>1</gondola>
     </waypoint>
   </waypoints>

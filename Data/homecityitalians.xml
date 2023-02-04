@@ -76,7 +76,7 @@
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
-      <age>1</age>
+      <age>0</age>
     </card>
     <card>
       <name>DEHCLombardy</name>
@@ -357,7 +357,7 @@
       <level>25</level>
       <prereqtech>HCShipDragoons3</prereqtech>
       <age>1</age>
-      <displayunitcount>7</displayunitcount>
+      <displayunitcount>8</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -568,12 +568,12 @@
       <age>2</age>
     </card>
     <card>
-      <name>HCXPShipCulverins2</name>
+      <name>HCDEShipCulverins</name>
       <maxcount>1</maxcount>
       <level>40</level>
       <prereqtech>HCShipFalconets3</prereqtech>
       <age>3</age>
-      <displayunitcount>4</displayunitcount>
+      <displayunitcount>3</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -711,7 +711,7 @@
     </card>
     <card>
       <name>DEHCMercsArmoredPistoleersRepeatTeam</name>
-      <maxcount>-1</maxcount>
+      <maxcount>1</maxcount>
       <level>40</level>
       <prereqtech>HCMercsHolyRomanGerman</prereqtech>
       <age>2</age>
@@ -991,18 +991,16 @@
       <age>2</age>
     </card>
     <card>
-      <name>HCXPOffshoreSupport</name>
-      <maxcount>1</maxcount>
-      <level>10</level>
-      <prereqtech>-1</prereqtech>
-      <age>1</age>
-    </card>
-    <card>
       <name>HCAdmirality</name>
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>1</age>
+    </card>
+    <card>
+      <name>HCNativeWarriors</name>
+      <maxcount>1</maxcount>
+      <age>2</age>
     </card>
     <card>
       <name>DEHCPioneersItalian</name>
@@ -2148,7 +2146,7 @@
       <tech x="6.7" y="3.0">HCShipFalconets3</tech>
       <tech x="6.7" y="3.0">DEHCShipFalconetsCulverins1</tech>
       <tech x="6.7" y="3.0">DEHCShipFalconetsCulverins2</tech>
-      <tech x="6.7" y="7.0">HCXPShipCulverins2</tech>
+      <tech x="6.7" y="7.0">HCDEShipCulverins</tech>
       <tech x="7.4" y="1.0">HCAdvancedArtillery</tech>
       <tech x="7.4" y="2.0">HCShipMortars1</tech>
       <tech x="7.4" y="3.0">HCShipMortars2</tech>
@@ -2189,7 +2187,7 @@
       <tech x="6.7" y="3.0">HCShipFalconets3</tech>
       <tech x="6.7" y="3.0">DEHCShipFalconetsCulverins1</tech>
       <tech x="6.7" y="3.0">DEHCShipFalconetsCulverins2</tech>
-      <tech x="6.7" y="7.0">HCXPShipCulverins2</tech>
+      <tech x="6.7" y="7.0">HCDEShipCulverins</tech>
       <tech x="7.4" y="1.0">HCAdvancedArtillery</tech>
       <tech x="7.4" y="2.0">HCShipMortars1</tech>
       <tech x="7.4" y="3.0">HCShipMortars2</tech>
@@ -2221,6 +2219,7 @@
     <rolloverstringid>25538</rolloverstringid>
     <obtainabletechs>
       <tech x="0.0" y="2.0">HCNativeTreaties</tech>
+      <tech x="0.0" y="3.0">HCNativeWarriors</tech>
       <tech x="0.0" y="5.0">HCAdvancedTradingPost</tech>
       <tech x="0.9" y="3.0">HCFencingSchool</tech>
       <tech x="1.6" y="3.0">HCRidingSchool</tech>
@@ -2256,6 +2255,7 @@
     </obtainabletechs>
     <activetechs>
       <tech x="0.0" y="2.0">HCNativeTreaties</tech>
+      <tech x="0.0" y="3.0">HCNativeWarriors</tech>
       <tech x="0.0" y="5.0">HCAdvancedTradingPost</tech>
       <tech x="0.9" y="3.0">HCFencingSchool</tech>
       <tech x="1.6" y="3.0">HCRidingSchool</tech>
@@ -2386,7 +2386,6 @@
       <tech x="1.7" y="4.0">DEHCImprovedGalleassAbilities</tech>
       <tech x="1.7" y="4.0">DEHCRoundelAttack</tech>
       <tech x="1.7" y="4.0">HCNavalGunners</tech>
-      <tech x="1.7" y="4.0">HCXPOffshoreSupport</tech>
       <tech x="3.6" y="1.0">DEHCTheaters</tech>
       <tech x="2.8" y="3.0">HCShipFrigates</tech>
       <tech x="2.4" y="4.0">HCNavalCombat</tech>
@@ -2424,7 +2423,6 @@
       <tech x="1.7" y="4.0">DEHCImprovedGalleassAbilities</tech>
       <tech x="1.7" y="4.0">DEHCRoundelAttack</tech>
       <tech x="1.7" y="4.0">HCNavalGunners</tech>
-      <tech x="1.7" y="4.0">HCXPOffshoreSupport</tech>
       <tech x="3.6" y="1.0">DEHCTheaters</tech>
       <tech x="2.8" y="3.0">HCShipFrigates</tech>
       <tech x="2.4" y="4.0">HCNavalCombat</tech>

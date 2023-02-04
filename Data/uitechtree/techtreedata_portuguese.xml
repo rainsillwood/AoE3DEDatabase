@@ -201,9 +201,9 @@
     </proto>
     <tech name="VeteranHussars" banner="improvement" icon="resources/images/icons/techs/veteran_cavalry/veteran_cavalry.png" row="4" col="129">
     </tech>
-    <tech name="RGLifeGuardHussars" banner="improvement" icon="resources/images/icons/techs/guard_cavalry/guard_cavalry.png" row="6" col="129">
+    <tech name="GuardHussars" banner="improvement" icon="resources/images/icons/techs/guard_cavalry/guard_cavalry.png" row="6" col="129">
     </tech>
-    <tech name="ImperialLifeGuard" banner="improvement" icon="resources/images/icons/techs/imperial_cavalry/imperial_cavalry.png" row="8" col="129">
+    <tech name="ImperialHussars" banner="improvement" icon="resources/images/icons/techs/imperial_cavalry/imperial_cavalry.png" row="8" col="129">
     </tech>
     <proto name="Dragoon" banner="unit" icon="resources/art/units/cavalry/dragoon/dragoon_portrait.png" row="4" col="134">
       <override>
@@ -220,7 +220,7 @@
     </proto>
     <proto name="OrganGun" banner="unit" icon="resources/art/units/artillery/organ_gun/organ_gun_portrait.png" row="5" col="140">
     </proto>
-    <tech name="Rabauld" banner="improvement" icon="resources/images/icons/techs/guard_artillery/guard_artillery.png" row="6" col="134">
+    <tech name="Rabauld" banner="improvement" icon="resources/images/icons/techs/guard_artillery/guard_artillery.png" row="6" col="140">
     </tech>
     <tech name="ImperialRabaulds" banner="improvement" icon="resources/images/icons/techs/imperial_artillery/imperial_artillery.png" row="8" col="140">
     </tech>

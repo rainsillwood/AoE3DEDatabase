@@ -119,6 +119,7 @@
     <persistent>1</persistent>
     <modifytype>MaxHP</modifytype>
     <modifymultiplier>1.05</modifymultiplier>
+    <forbidabstracttype>AbstractArtillery</forbidabstracttype>
     <modelattachment>effects\ypack_auras\daimyopower.xml</modelattachment>
     <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
   </action>

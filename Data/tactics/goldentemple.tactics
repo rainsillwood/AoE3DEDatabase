@@ -2,11 +2,11 @@
   <action>
     <name stringid="68961">EconomicAuraKM</name>
     <type>AutoRangedModify</type>
-    <maxrange>36</maxrange>
+    <maxrange>46</maxrange>
     <modifyabstracttype>AbstractVillager</modifyabstracttype>
     <persistent>1</persistent>
     <modifytype>GatherRate</modifytype>
-    <modifymultiplier>1.1</modifymultiplier>
+    <modifymultiplier>1.15</modifymultiplier>
     <modelattachment>effects\ypack_auras\econpower.xml</modelattachment>
     <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
   </action>

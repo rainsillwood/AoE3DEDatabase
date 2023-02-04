@@ -487,6 +487,18 @@
       <command>activateCommandPanelBigButton</command>
     </keymapdata>
     <keymapdata>
+      <name>Big Button 2</name>
+      <displayname>$$90197$$</displayname>
+      <context>game</context>
+      <command>activateCommandPanelBigButton2</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Big Button 3</name>
+      <displayname>$$90198$$</displayname>
+      <context>game</context>
+      <command>activateCommandPanelBigButton3</command>
+    </keymapdata>
+    <keymapdata>
       <name>Big Ability Button 1</name>
       <displayname>$$90192$$</displayname>
       <event>o</event>

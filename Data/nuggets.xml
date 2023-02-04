@@ -1492,7 +1492,7 @@
       <difficulty>3</difficulty>
     </nugget>
     <nugget>
-      <name>Mahogany22</name>
+      <name>Mahogany2</name>
       <type>AdjustResource</type>
       <nuggetunit>NuggetAbandonedCabin</nuggetunit>
       <rolloverstringid>25500</rolloverstringid>
@@ -1500,6 +1500,7 @@
       <resource>Wood</resource>
       <amount>90</amount>
       <maptype>bayou</maptype>
+      <maptype>pampas</maptype>
       <maptype>caribbean</maptype>
       <guardian>Pirate</guardian>
       <guardian>Pirate</guardian>
@@ -3294,6 +3295,7 @@
       <maptype>yukon</maptype>
       <maptype>arcticterritories</maptype>
       <maptype>mediEurope</maptype>
+      <maptype>mediSea</maptype>
       <guardian>OutlawPistol</guardian>
       <guardian>OutlawPistol</guardian>
       <guardian>OutlawRifleman</guardian>
@@ -4014,6 +4016,38 @@
       <killunitonapply>0</killunitonapply>
     </nugget>
     <nugget>
+      <name>NativeHolcanSpearman</name>
+      <type>ConvertUnit</type>
+      <nuggetunit>NuggetBearTree</nuggetunit>
+      <rolloverstringid>36940</rolloverstringid>
+      <applystringid>36941</applystringid>
+      <convertunit>
+        <unit>NatHolcanSpearman</unit>
+        <idleanim>Bear_Tree_Captive_Idle</idleanim>
+        <exitanim>Bear_Tree_Captive_Exit</exitanim>
+        <attachdummy>bone_nuggetA</attachdummy>
+      </convertunit>
+      <maptype>sonora</maptype>
+      <maptype>mexico</maptype>
+      <maptype>yucatan</maptype>
+      <guardianunit>
+        <unit>BlackBear</unit>
+        <idleanim>Bear_Tree_Bear_Idle</idleanim>
+        <exitanim>Bear_Tree_Bear_Exit</exitanim>
+        <attachdummy>bone_nuggetB</attachdummy>
+      </guardianunit>
+      <guardianunit>
+        <unit>BlackBear</unit>
+        <attachdummy>bone_nuggetC</attachdummy>
+      </guardianunit>
+      <guardianunit>
+        <unit>BlackBear</unit>
+        <attachdummy>bone_nuggetD</attachdummy>
+      </guardianunit>
+      <difficulty>2</difficulty>
+      <killunitonapply>0</killunitonapply>
+    </nugget>
+    <nugget>
       <name>NativeSpearman</name>
       <type>ConvertUnit</type>
       <nuggetunit>NuggetBearTree</nuggetunit>
@@ -4026,9 +4060,6 @@
         <attachdummy>bone_nuggetA</attachdummy>
       </convertunit>
       <maptype>araucania</maptype>
-      <maptype>sonora</maptype>
-      <maptype>mexico</maptype>
-      <maptype>yucatan</maptype>
       <guardianunit>
         <unit>BlackBear</unit>
         <idleanim>Bear_Tree_Bear_Idle</idleanim>
@@ -4058,7 +4089,6 @@
         <exitanim>Kidnap_HostageA_Exit</exitanim>
         <attachdummy>bone_hostage_A</attachdummy>
       </convertunit>
-      <maptype>araucania</maptype>
       <maptype>pampas</maptype>
       <maptype>patagonia</maptype>
       <guardianunit>
@@ -4583,8 +4613,8 @@
       <name>SpawnSheep</name>
       <type>SpawnUnit</type>
       <nuggetunit>NuggetCoveredWagon</nuggetunit>
-      <rolloverstringid>36954</rolloverstringid>
-      <applystringid>36955</applystringid>
+      <rolloverstringid>71183</rolloverstringid>
+      <applystringid>71184</applystringid>
       <unittype>Sheep</unittype>
       <amount>3</amount>
       <maptype>andes</maptype>
@@ -5020,6 +5050,7 @@
       <maptype>centralEurope</maptype>
       <maptype>westEurope</maptype>
       <maptype>mediEurope</maptype>
+      <maptype>mediSea</maptype>
       <maptype>Iceland</maptype>
       <guardianunit>
         <unit>Wolf</unit>
@@ -5725,6 +5756,7 @@
       <applystringid>68643</applystringid>
       <resource>Food</resource>
       <amount>75</amount>
+      <maptype>Steppe2</maptype>
       <maptype>siberia</maptype>
       <maptype>silkRoad3</maptype>
       <maptype>himalayas</maptype>
@@ -5795,6 +5827,8 @@
       <resource>Food</resource>
       <amount>50</amount>
       <maptype>silkRoad1</maptype>
+      <maptype>Steppe2</maptype>
+      <maptype>Steppe3</maptype>
       <maptype>yellowRiver</maptype>
       <guardian>ypTiger</guardian>
       <difficulty>1</difficulty>
@@ -6048,6 +6082,7 @@
       <resource>Food</resource>
       <amount>400</amount>
       <maptype>silkRoad2</maptype>
+      <maptype>Steppe3</maptype>
       <maptype>mongolia</maptype>
       <maptype>silkRoad1</maptype>
       <maptype>yellowRiver</maptype>
@@ -6066,6 +6101,8 @@
       <applystringid>63051</applystringid>
       <resource>Food</resource>
       <amount>400</amount>
+      <maptype>Steppe2</maptype>
+      <maptype>Steppe3</maptype>
       <maptype>siberia</maptype>
       <maptype>silkRoad3</maptype>
       <maptype>himalayas</maptype>
@@ -6073,8 +6110,8 @@
       <guardian>ypWanderingHorseman</guardian>
       <guardian>ypWanderingHorseman</guardian>
       <guardian>ypWanderingHorseman</guardian>
-      <guardian>ypWaywardRonin</guardian>
-      <guardian>ypWaywardRonin</guardian>
+      <guardian>ypBlindMonk</guardian>
+      <guardian>ypBlindMonk</guardian>
       <difficulty>4</difficulty>
     </nugget>
     <nugget>
@@ -6124,6 +6161,8 @@
       <applystringid>63041</applystringid>
       <resource>wood</resource>
       <amount>40</amount>
+      <maptype>Steppe2</maptype>
+      <maptype>Steppe3</maptype>
       <maptype>siberia</maptype>
       <maptype>silkRoad3</maptype>
       <maptype>himalayas</maptype>
@@ -6156,6 +6195,7 @@
       <applystringid>29448</applystringid>
       <resource>wood</resource>
       <amount>40</amount>
+      <maptype>Steppe2</maptype>
       <maptype>siberia</maptype>
       <maptype>silkRoad3</maptype>
       <maptype>himalayas</maptype>
@@ -6255,6 +6295,8 @@
       <applystringid>29684</applystringid>
       <resource>wood</resource>
       <amount>75</amount>
+      <maptype>Steppe2</maptype>
+      <maptype>Steppe3</maptype>
       <maptype>siberia</maptype>
       <maptype>deccan</maptype>
       <maptype>fertilecrescent</maptype>
@@ -6276,8 +6318,8 @@
       <applystringid>29684</applystringid>
       <resource>wood</resource>
       <amount>100</amount>
-      <maptype>silkRoad1</maptype>
-      <maptype>yellowRiver</maptype>
+      <maptype>Steppe2</maptype>
+      <maptype>Steppe3</maptype>
       <guardianunit>
         <unit>BlackBear</unit>
         <idleanim>wagon_Idle01</idleanim>
@@ -6290,6 +6332,33 @@
       </guardianunit>
       <guardianunit>
         <unit>BlackBear</unit>
+        <idleanim>wagon_Idle01</idleanim>
+        <attachdummy>bone_nuggetD</attachdummy>
+      </guardianunit>
+      <difficulty>3</difficulty>
+    </nugget>
+    <nugget>
+      <name>ypLiveOak2Panda</name>
+      <type>AdjustResource</type>
+      <nuggetunit>ypNuggetWagonAsian</nuggetunit>
+      <rolloverstringid>29683</rolloverstringid>
+      <applystringid>29684</applystringid>
+      <resource>wood</resource>
+      <amount>150</amount>
+      <maptype>silkRoad1</maptype>
+      <maptype>yellowRiver</maptype>
+      <guardianunit>
+        <unit>ypPanda</unit>
+        <idleanim>wagon_Idle01</idleanim>
+        <attachdummy>bone_nuggetA</attachdummy>
+      </guardianunit>
+      <guardianunit>
+        <unit>ypPanda</unit>
+        <idleanim>wagon_Idle01</idleanim>
+        <attachdummy>bone_nuggetB</attachdummy>
+      </guardianunit>
+      <guardianunit>
+        <unit>ypPanda</unit>
         <idleanim>wagon_Idle01</idleanim>
         <attachdummy>bone_nuggetD</attachdummy>
       </guardianunit>
@@ -6421,6 +6490,7 @@
       <resource>wood</resource>
       <amount>250</amount>
       <maptype>silkRoad2</maptype>
+      <maptype>Steppe3</maptype>
       <maptype>mongolia</maptype>
       <maptype>silkRoad1</maptype>
       <maptype>yellowRiver</maptype>
@@ -6455,6 +6525,7 @@
       <resource>wood</resource>
       <amount>250</amount>
       <maptype>japan</maptype>
+      <maptype>Steppe3</maptype>
       <maptype>yellowRiver</maptype>
       <guardian>ypWokou</guardian>
       <guardian>ypWokou</guardian>
@@ -6473,9 +6544,7 @@
       <maptype>ceylon</maptype>
       <maptype>borneo</maptype>
       <maptype>silkRoad3</maptype>
-      <maptype>yellowRiver</maptype>
       <maptype>himalayas</maptype>
-      <maptype>kamchatka</maptype>
       <guardianunit>
         <unit>ypFugitiveDacoit</unit>
         <idleanim>NuggetPirate2_Idle</idleanim>
@@ -6522,6 +6591,8 @@
       <resource>Wood</resource>
       <amount>75</amount>
       <maptype>silkRoad2</maptype>
+      <maptype>Steppe2</maptype>
+      <maptype>Steppe3</maptype>
       <maptype>mongolia</maptype>
       <maptype>silkRoad3</maptype>
       <maptype>himalayas</maptype>
@@ -6543,6 +6614,8 @@
       <amount>120</amount>
       <maptype>silkRoad2</maptype>
       <maptype>deccan</maptype>
+      <maptype>Steppe2</maptype>
+      <maptype>Steppe3</maptype>
       <maptype>mongolia</maptype>
       <maptype>silkRoad3</maptype>
       <maptype>himalayas</maptype>
@@ -6599,10 +6672,23 @@
       <resource>Gold</resource>
       <amount>45</amount>
       <maptype>silkRoad2</maptype>
+      <maptype>Steppe2</maptype>
+      <maptype>Steppe3</maptype>
       <maptype>mongolia</maptype>
-      <maptype>silkRoad1</maptype>
       <maptype>yellowRiver</maptype>
       <guardian>BlackBear</guardian>
+      <difficulty>1</difficulty>
+    </nugget>
+    <nugget>
+      <name>ypCinnamon3Panda</name>
+      <type>AdjustResource</type>
+      <nuggetunit>ypNuggetDroppedCoinAsian</nuggetunit>
+      <rolloverstringid>63408</rolloverstringid>
+      <applystringid>63409</applystringid>
+      <resource>Gold</resource>
+      <amount>60</amount>
+      <maptype>silkRoad1</maptype>
+      <guardian>ypPanda</guardian>
       <difficulty>1</difficulty>
     </nugget>
     <nugget>
@@ -6764,6 +6850,8 @@
       <maptype>himalayas</maptype>
       <maptype>kamchatka</maptype>
       <maptype>silkRoad1</maptype>
+      <maptype>Steppe2</maptype>
+      <maptype>Steppe3</maptype>
       <maptype>yellowRiver</maptype>
       <guardian>ypTiger</guardian>
       <guardian>ypTiger</guardian>
@@ -6814,6 +6902,7 @@
       <maptype>fertilecrescent</maptype>
       <maptype>punjab</maptype>
       <maptype>silkRoad2</maptype>
+      <maptype>Steppe2</maptype>
       <maptype>mongolia</maptype>
       <maptype>ceylon</maptype>
       <maptype>borneo</maptype>
@@ -6827,6 +6916,7 @@
       <applystringid>63038</applystringid>
       <resource>Gold</resource>
       <amount>30</amount>
+      <maptype>Steppe2</maptype>
       <maptype>siberia</maptype>
       <maptype>Japan</maptype>
       <difficulty>1</difficulty>
@@ -6877,7 +6967,6 @@
       <amount>480</amount>
       <maptype>silkRoad3</maptype>
       <maptype>himalayas</maptype>
-      <maptype>kamchatka</maptype>
       <guardianunit>
         <unit>ypFugitiveDacoit</unit>
         <idleanim>NuggetPirate2_Idle</idleanim>
@@ -6945,6 +7034,8 @@
       <resource>Gold</resource>
       <amount>140</amount>
       <maptype>silkRoad2</maptype>
+      <maptype>Steppe2</maptype>
+      <maptype>Steppe3</maptype>
       <maptype>mongolia</maptype>
       <maptype>silkRoad3</maptype>
       <maptype>himalayas</maptype>
@@ -6963,6 +7054,7 @@
       <applystringid>25467</applystringid>
       <resource>Gold</resource>
       <amount>150</amount>
+      <maptype>kamchatka</maptype>
       <maptype>siberia</maptype>
       <guardian>ypWhiteTiger</guardian>
       <guardian>ypWhiteTiger</guardian>
@@ -6994,6 +7086,7 @@
       <resource>Gold</resource>
       <amount>30</amount>
       <maptype>silkRoad2</maptype>
+      <maptype>Steppe2</maptype>
       <maptype>mongolia</maptype>
       <maptype>silkRoad3</maptype>
       <maptype>himalayas</maptype>
@@ -7044,6 +7137,7 @@
       <resource>Gold</resource>
       <amount>80</amount>
       <maptype>silkRoad2</maptype>
+      <maptype>Steppe3</maptype>
       <maptype>mongolia</maptype>
       <maptype>silkRoad1</maptype>
       <maptype>yellowRiver</maptype>
@@ -7060,6 +7154,7 @@
       <resource>Gold</resource>
       <amount>75</amount>
       <maptype>silkRoad2</maptype>
+      <maptype>Steppe2</maptype>
       <maptype>mongolia</maptype>
       <maptype>silkRoad1</maptype>
       <maptype>yellowRiver</maptype>
@@ -7097,7 +7192,7 @@
       <resource>XP</resource>
       <amount>120</amount>
       <maptype>silkRoad2</maptype>
-      <maptype>mongolia</maptype>
+      <maptype>Steppe2</maptype>
       <maptype>siberia</maptype>
       <maptype>silkRoad3</maptype>
       <maptype>himalayas</maptype>
@@ -7267,8 +7362,9 @@
       <maptype>himalayas</maptype>
       <maptype>kamchatka</maptype>
       <maptype>silkRoad1</maptype>
+      <maptype>Steppe2</maptype>
+      <maptype>Steppe3</maptype>
       <maptype>yellowRiver</maptype>
-      <guardian>ypTiger</guardian>
       <guardian>ypTiger</guardian>
       <guardian>ypTiger</guardian>
       <guardian>ypTiger</guardian>
@@ -7282,7 +7378,8 @@
       <rolloverstringid>63446</rolloverstringid>
       <applystringid>63447</applystringid>
       <resource>XP</resource>
-      <amount>300</amount>
+      <amount>330</amount>
+      <maptype>kamchatka</maptype>
       <maptype>siberia</maptype>
       <guardian>ypWhiteTiger</guardian>
       <guardian>ypWhiteTiger</guardian>
@@ -7334,13 +7431,14 @@
       <resource>XP</resource>
       <amount>300</amount>
       <maptype>silkRoad2</maptype>
+      <maptype>Steppe3</maptype>
       <maptype>mongolia</maptype>
       <maptype>siberia</maptype>
       <maptype>silkRoad3</maptype>
       <maptype>himalayas</maptype>
       <maptype>kamchatka</maptype>
-      <guardian>ypWaywardRonin</guardian>
-      <guardian>ypWaywardRonin</guardian>
+      <guardian>ypBlindMonk</guardian>
+      <guardian>ypBlindMonk</guardian>
       <guardian>ypWanderingHorseman</guardian>
       <guardian>ypWanderingHorseman</guardian>
       <difficulty>3</difficulty>
@@ -7470,6 +7568,7 @@
         <attachdummy>bone_hostage_B</attachdummy>
       </convertunit>
       <maptype>silkRoad2</maptype>
+      <maptype>Steppe3</maptype>
       <maptype>mongolia</maptype>
       <maptype>silkRoad1</maptype>
       <maptype>yellowRiver</maptype>
@@ -7513,7 +7612,6 @@
       <maptype>siberia</maptype>
       <maptype>himalayas</maptype>
       <maptype>kamchatka</maptype>
-      <maptype>rockies</maptype>
       <difficulty>95</difficulty>
     </nugget>
     <nugget>
@@ -7592,7 +7690,8 @@
       <applystringid>65283</applystringid>
       <unittype>ypPetPanda</unittype>
       <amount>1</amount>
-      <maptype>NoMap</maptype>
+      <maptype>silkRoad1</maptype>
+      <maptype>yellowRiver</maptype>
       <guardian>ypWaywardRonin</guardian>
       <guardian>ypWaywardRonin</guardian>
       <difficulty>4</difficulty>
@@ -7621,6 +7720,8 @@
       <unittype>ypStableWagon</unittype>
       <amount>1</amount>
       <maptype>silkRoad2</maptype>
+      <maptype>Steppe2</maptype>
+      <maptype>Steppe3</maptype>
       <maptype>mongolia</maptype>
       <guardianunit>
         <unit>ypWanderingHorseman</unit>
@@ -7733,6 +7834,8 @@
       <maptype>fertilecrescent</maptype>
       <maptype>punjab</maptype>
       <maptype>borneo</maptype>
+      <maptype>Steppe2</maptype>
+      <maptype>Steppe3</maptype>
       <maptype>yellowRiver</maptype>
       <maptype>Japan</maptype>
       <guardian>ypTiger</guardian>
@@ -7787,6 +7890,7 @@
       <applystringid>42888</applystringid>
       <icon>discover_villages</icon>
       <maptype>borneo</maptype>
+      <maptype>Steppe3</maptype>
       <maptype>yellowRiver</maptype>
       <convertunit>
         <unit>Settler</unit>
@@ -8102,6 +8206,7 @@
       <maptype>northeastEurope</maptype>
       <maptype>westEurope</maptype>
       <maptype>mediEurope</maptype>
+      <maptype>mediSea</maptype>
       <maptype>centralEurope</maptype>
       <maptype>Iceland</maptype>
       <maptype>Steppe1</maptype>
@@ -8142,6 +8247,7 @@
       <maptype>northeastEurope</maptype>
       <maptype>westEurope</maptype>
       <maptype>mediEurope</maptype>
+      <maptype>mediSea</maptype>
       <maptype>centralEurope</maptype>
       <maptype>Iceland</maptype>
       <maptype>Steppe1</maptype>
@@ -8184,7 +8290,6 @@
       <maptype>deccan</maptype>
       <maptype>punjab</maptype>
       <maptype>himalayas</maptype>
-      <maptype>kamchatka</maptype>
       <maptype>silkRoad3</maptype>
       <guardianunit>
         <unit>ypDelinquentThuggee</unit>
@@ -8215,7 +8320,6 @@
       <maptype>deccan</maptype>
       <maptype>punjab</maptype>
       <maptype>himalayas</maptype>
-      <maptype>kamchatka</maptype>
       <maptype>silkRoad3</maptype>
       <guardianunit>
         <unit>ypFugitiveDacoit</unit>
@@ -8231,8 +8335,9 @@
       <tech>ypDecreaseFoodCostsNugget</tech>
       <rolloverstringid>63461</rolloverstringid>
       <applystringid>63462</applystringid>
-      <maptype>silkRoad1</maptype>
-      <maptype>yellowRiver</maptype>
+      <maptype>Steppe1</maptype>
+      <maptype>Steppe2</maptype>
+      <maptype>Steppe3</maptype>
       <guardianunit>
         <unit>BlackBear</unit>
         <idleanim>wagon_Idle01</idleanim>
@@ -8255,6 +8360,33 @@
       <difficulty>4</difficulty>
     </nugget>
     <nugget>
+      <name>ypDecreaseFoodCostsPanda</name>
+      <type>GiveTech</type>
+      <nuggetunit>ypNuggetWagonAsian</nuggetunit>
+      <tech>ypDecreaseFoodCostsNugget</tech>
+      <rolloverstringid>63461</rolloverstringid>
+      <applystringid>63462</applystringid>
+      <maptype>silkRoad1</maptype>
+      <maptype>yellowRiver</maptype>
+      <guardianunit>
+        <unit>ypPanda</unit>
+        <idleanim>wagon_Idle01</idleanim>
+        <attachdummy>bone_nuggetA</attachdummy>
+      </guardianunit>
+      <guardianunit>
+        <unit>ypPanda</unit>
+        <idleanim>wagon_Idle01</idleanim>
+        <attachdummy>bone_nuggetB</attachdummy>
+      </guardianunit>
+      <guardianunit>
+        <unit>ypPanda</unit>
+      </guardianunit>
+      <guardianunit>
+        <unit>ypPanda</unit>
+      </guardianunit>
+      <difficulty>4</difficulty>
+    </nugget>
+    <nugget>
       <name>ypDecreaseCoinCosts</name>
       <type>GiveTech</type>
       <nuggetunit>ypNuggetAbandonedShrine</nuggetunit>
@@ -8263,7 +8395,6 @@
       <applystringid>69065</applystringid>
       <maptype>silkRoad3</maptype>
       <maptype>himalayas</maptype>
-      <maptype>kamchatka</maptype>
       <guardian>ypTibetanMacaque</guardian>
       <guardian>ypTibetanMacaque</guardian>
       <guardian>ypFugitiveDacoit</guardian>
@@ -8299,6 +8430,8 @@
       <rolloverstringid>27746</rolloverstringid>
       <applystringid>27747</applystringid>
       <amount>1.3</amount>
+      <maptype>Steppe2</maptype>
+      <maptype>Steppe3</maptype>
       <maptype>siberia</maptype>
       <maptype>silkRoad3</maptype>
       <maptype>himalayas</maptype>
@@ -8316,12 +8449,14 @@
       <applystringid>27765</applystringid>
       <amount>1.6</amount>
       <maptype>silkRoad1</maptype>
+      <maptype>Steppe2</maptype>
+      <maptype>Steppe3</maptype>
       <maptype>yellowRiver</maptype>
       <guardian>ypTiger</guardian>
       <guardian>ypTiger</guardian>
       <guardian>ypTiger</guardian>
       <guardian>ypTiger</guardian>
-      <difficulty>3</difficulty>
+      <difficulty>4</difficulty>
     </nugget>
     <nugget>
       <name>ypGive1.4HP2</name>
@@ -8345,6 +8480,8 @@
       <applystringid>68662</applystringid>
       <maptype>silkRoad1</maptype>
       <maptype>silkRoad2</maptype>
+      <maptype>Steppe2</maptype>
+      <maptype>Steppe3</maptype>
       <maptype>mongolia</maptype>
       <maptype>silkRoad3</maptype>
       <guardian>ypWanderingHorseman</guardian>
@@ -8361,6 +8498,8 @@
       <applystringid>68664</applystringid>
       <maptype>silkRoad1</maptype>
       <maptype>silkRoad2</maptype>
+      <maptype>Steppe2</maptype>
+      <maptype>Steppe3</maptype>
       <maptype>mongolia</maptype>
       <maptype>silkRoad3</maptype>
       <guardian>ypWanderingHorseman</guardian>
@@ -8377,6 +8516,8 @@
       <applystringid>68666</applystringid>
       <maptype>silkRoad1</maptype>
       <maptype>silkRoad2</maptype>
+      <maptype>Steppe2</maptype>
+      <maptype>Steppe3</maptype>
       <maptype>mongolia</maptype>
       <maptype>silkRoad3</maptype>
       <guardian>ypWanderingHorseman</guardian>
@@ -8393,6 +8534,8 @@
       <applystringid>68668</applystringid>
       <maptype>silkRoad2</maptype>
       <maptype>silkRoad1</maptype>
+      <maptype>Steppe2</maptype>
+      <maptype>Steppe3</maptype>
       <maptype>mongolia</maptype>
       <maptype>silkRoad3</maptype>
       <guardian>ypWanderingHorseman</guardian>
@@ -8411,6 +8554,8 @@
       <applystringid>63451</applystringid>
       <maptype>silkRoad1</maptype>
       <maptype>silkRoad2</maptype>
+      <maptype>Steppe2</maptype>
+      <maptype>Steppe3</maptype>
       <maptype>mongolia</maptype>
       <maptype>silkRoad3</maptype>
       <guardian>ypWanderingHorseman</guardian>
@@ -8432,7 +8577,6 @@
       <maptype>fertilecrescent</maptype>
       <maptype>punjab</maptype>
       <maptype>himalayas</maptype>
-      <maptype>kamchatka</maptype>
       <maptype>silkRoad3</maptype>
       <guardianunit>
         <unit>ypDelinquentThuggee</unit>
@@ -8506,14 +8650,12 @@
       <tech>ypSettlerHPNugget</tech>
       <rolloverstringid>65274</rolloverstringid>
       <applystringid>65275</applystringid>
-      <maptype>siberia</maptype>
       <maptype>silkRoad1</maptype>
       <maptype>silkRoad2</maptype>
       <maptype>silkRoad3</maptype>
       <maptype>yellowRiver</maptype>
       <maptype>mongolia</maptype>
       <maptype>himalayas</maptype>
-      <maptype>kamchatka</maptype>
       <maptype>Arabia</maptype>
       <maptype>punjab</maptype>
       <maptype>fertilecrescent</maptype>
@@ -8536,7 +8678,6 @@
       <maptype>punjab</maptype>
       <maptype>fertilecrescent</maptype>
       <maptype>himalayas</maptype>
-      <maptype>kamchatka</maptype>
       <guardian>ypLionTailedMacaque</guardian>
       <guardian>ypLionTailedMacaque</guardian>
       <difficulty>3</difficulty>
@@ -9000,6 +9141,20 @@
       <guardian>deEthiopianWolf</guardian>
     </nugget>
     <nugget>
+      <name>afAcacia3Medi</name>
+      <type>AdjustResource</type>
+      <nuggetunit>NuggetDroppedWood</nuggetunit>
+      <rolloverstringid>102252</rolloverstringid>
+      <applystringid>102253</applystringid>
+      <resource>Wood</resource>
+      <amount>90</amount>
+      <maptype>mediSea</maptype>
+      <difficulty>71</difficulty>
+      <guardian>deEthiopianWolf</guardian>
+      <guardian>deEthiopianWolf</guardian>
+      <guardian>deEthiopianWolf</guardian>
+    </nugget>
+    <nugget>
       <name>afBranch</name>
       <type>AdjustResource</type>
       <nuggetunit>NuggetDroppedWood</nuggetunit>
@@ -9053,6 +9208,20 @@
       <maptype>LostSahara3</maptype>
       <maptype>Tripolitania</maptype>
       <difficulty>1</difficulty>
+      <guardian>deHoneyBadger</guardian>
+    </nugget>
+    <nugget>
+      <name>afDragonTree1Medi</name>
+      <type>AdjustResource</type>
+      <nuggetunit>ypNuggetDroppedWoodAsian</nuggetunit>
+      <rolloverstringid>102111</rolloverstringid>
+      <applystringid>102112</applystringid>
+      <resource>Wood</resource>
+      <amount>80</amount>
+      <maptype>mediSea</maptype>
+      <difficulty>71</difficulty>
+      <guardian>deHoneyBadger</guardian>
+      <guardian>deHoneyBadger</guardian>
       <guardian>deHoneyBadger</guardian>
     </nugget>
     <nugget>
@@ -9146,6 +9315,21 @@
       <guardian>ypLion</guardian>
     </nugget>
     <nugget>
+      <name>afVisigothMedi</name>
+      <type>AdjustResource</type>
+      <nuggetunit>deNuggetAfricanDroppedWood</nuggetunit>
+      <rolloverstringid>102230</rolloverstringid>
+      <applystringid>102231</applystringid>
+      <resource>Wood</resource>
+      <amount>235</amount>
+      <maptype>mediSea</maptype>
+      <difficulty>72</difficulty>
+      <guardian>ypLion</guardian>
+      <guardian>ypLion</guardian>
+      <guardian>ypLion</guardian>
+      <guardian>ypLion</guardian>
+    </nugget>
+    <nugget>
       <name>afObelisk</name>
       <type>AdjustResource</type>
       <nuggetunit>deNuggetObelisk</nuggetunit>
@@ -9165,6 +9349,21 @@
       <maptype>LostSahara3</maptype>
       <maptype>Tripolitania</maptype>
       <difficulty>2</difficulty>
+      <guardian>deCrocodile</guardian>
+      <guardian>deCrocodile</guardian>
+    </nugget>
+    <nugget>
+      <name>afObeliskMedi</name>
+      <type>AdjustResource</type>
+      <nuggetunit>deNuggetObelisk</nuggetunit>
+      <rolloverstringid>102238</rolloverstringid>
+      <applystringid>102239</applystringid>
+      <resource>Wood</resource>
+      <amount>200</amount>
+      <maptype>mediSea</maptype>
+      <difficulty>72</difficulty>
+      <guardian>deCrocodile</guardian>
+      <guardian>deCrocodile</guardian>
       <guardian>deCrocodile</guardian>
       <guardian>deCrocodile</guardian>
     </nugget>
@@ -9260,6 +9459,22 @@
       <difficulty>3</difficulty>
     </nugget>
     <nugget>
+      <name>afAcacia2Medi</name>
+      <type>AdjustResource</type>
+      <nuggetunit>deNuggetAfricanDroppedWood</nuggetunit>
+      <rolloverstringid>102085</rolloverstringid>
+      <applystringid>102086</applystringid>
+      <resource>Wood</resource>
+      <amount>205</amount>
+      <maptype>mediSea</maptype>
+      <guardian>deLeopard</guardian>
+      <guardian>deLeopard</guardian>
+      <guardian>deLeopard</guardian>
+      <guardian>deLeopard</guardian>
+      <guardian>deLeopard</guardian>
+      <difficulty>73</difficulty>
+    </nugget>
+    <nugget>
       <name>afDragonTree3</name>
       <type>AdjustResource</type>
       <nuggetunit>deNuggetAfricanDroppedWood</nuggetunit>
@@ -9283,6 +9498,22 @@
       <guardian>deCrocodile</guardian>
       <guardian>deCrocodile</guardian>
       <difficulty>3</difficulty>
+    </nugget>
+    <nugget>
+      <name>afDragonTree3Medi</name>
+      <type>AdjustResource</type>
+      <nuggetunit>deNuggetAfricanDroppedWood</nuggetunit>
+      <rolloverstringid>102111</rolloverstringid>
+      <applystringid>102112</applystringid>
+      <resource>Wood</resource>
+      <amount>235</amount>
+      <maptype>mediSea</maptype>
+      <guardian>deCrocodile</guardian>
+      <guardian>deCrocodile</guardian>
+      <guardian>deCrocodile</guardian>
+      <guardian>deCrocodile</guardian>
+      <guardian>deCrocodile</guardian>
+      <difficulty>73</difficulty>
     </nugget>
     <nugget>
       <name>afAcacia</name>
@@ -9373,6 +9604,21 @@
       <difficulty>4</difficulty>
     </nugget>
     <nugget>
+      <name>afBoababMedi</name>
+      <type>AdjustResource</type>
+      <nuggetunit>deNuggetBaobabTree</nuggetunit>
+      <rolloverstringid>102113</rolloverstringid>
+      <applystringid>102114</applystringid>
+      <resource>Wood</resource>
+      <amount>500</amount>
+      <maptype>mediSea</maptype>
+      <guardian>deElephantGuardian</guardian>
+      <guardian>deElephantGuardian</guardian>
+      <guardian>deElephantGuardian</guardian>
+      <guardian>deElephantGuardian</guardian>
+      <difficulty>74</difficulty>
+    </nugget>
+    <nugget>
       <name>afAcacia5</name>
       <type>AdjustResource</type>
       <nuggetunit>deNuggetWestAfricanTreasure</nuggetunit>
@@ -9442,6 +9688,17 @@
       <difficulty>1</difficulty>
     </nugget>
     <nugget>
+      <name>afMeerkat2Medi</name>
+      <type>AdjustResource</type>
+      <nuggetunit>deNuggetMeerkatDen</nuggetunit>
+      <rolloverstringid>102107</rolloverstringid>
+      <applystringid>102108</applystringid>
+      <resource>Gold</resource>
+      <amount>75</amount>
+      <maptype>mediSea</maptype>
+      <difficulty>71</difficulty>
+    </nugget>
+    <nugget>
       <name>afMeerkat3</name>
       <type>AdjustResource</type>
       <nuggetunit>deNuggetAfricanDroppedCoin</nuggetunit>
@@ -9506,6 +9763,21 @@
       <maptype>LostSahara3</maptype>
       <maptype>Tripolitania</maptype>
       <difficulty>2</difficulty>
+      <guardian>deLeopard</guardian>
+      <guardian>deLeopard</guardian>
+    </nugget>
+    <nugget>
+      <name>afBuried2Medi</name>
+      <type>AdjustResource</type>
+      <nuggetunit>deNuggetObelisk</nuggetunit>
+      <rolloverstringid>102254</rolloverstringid>
+      <applystringid>102255</applystringid>
+      <resource>Gold</resource>
+      <amount>175</amount>
+      <maptype>mediSea</maptype>
+      <difficulty>72</difficulty>
+      <guardian>deLeopard</guardian>
+      <guardian>deLeopard</guardian>
       <guardian>deLeopard</guardian>
       <guardian>deLeopard</guardian>
     </nugget>
@@ -9615,6 +9887,40 @@
         <attachdummy>bone_nuggetB</attachdummy>
       </guardianunit>
       <difficulty>2</difficulty>
+    </nugget>
+    <nugget>
+      <name>afCorsairLoot22Medi</name>
+      <type>AdjustResource</type>
+      <nuggetunit>NuggetPirate</nuggetunit>
+      <rolloverstringid>27780</rolloverstringid>
+      <applystringid>27781</applystringid>
+      <resource>Gold</resource>
+      <amount>125</amount>
+      <resource2>XP</resource2>
+      <amount2>125</amount2>
+      <maptype>mediSea</maptype>
+      <guardianunit>
+        <unit>Pirate</unit>
+        <idleanim>NuggetPirate1_Idle</idleanim>
+        <exitanim>NuggetPirate1_Exit</exitanim>
+        <attachdummy>bone_nuggetA</attachdummy>
+      </guardianunit>
+      <guardianunit>
+        <unit>deGuardBucCaptain</unit>
+        <idleanim>NuggetPirate2_Idle</idleanim>
+        <exitanim>NuggetPirate2_Exit</exitanim>
+        <attachdummy>bone_nuggetB</attachdummy>
+      </guardianunit>
+      <guardianunit>
+        <unit>Pirate</unit>
+      </guardianunit>
+      <guardianunit>
+        <unit>Pirate</unit>
+      </guardianunit>
+      <guardianunit>
+        <unit>Pirate</unit>
+      </guardianunit>
+      <difficulty>72</difficulty>
     </nugget>
     <nugget>
       <name>afCorsairLoot33</name>
@@ -9788,6 +10094,21 @@
       <guardian>Pirate</guardian>
     </nugget>
     <nugget>
+      <name>afHieroglyphMedi</name>
+      <type>AdjustResource</type>
+      <nuggetunit>deNuggetNubianPyramidTreasure</nuggetunit>
+      <rolloverstringid>102246</rolloverstringid>
+      <applystringid>102247</applystringid>
+      <resource>Gold</resource>
+      <amount>500</amount>
+      <maptype>mediSea</maptype>
+      <difficulty>74</difficulty>
+      <guardian>Pirate</guardian>
+      <guardian>deGuardBucCaptain</guardian>
+      <guardian>Pirate</guardian>
+      <guardian>Pirate</guardian>
+    </nugget>
+    <nugget>
       <name>afCorsairLoot</name>
       <type>AdjustResource</type>
       <nuggetunit>NuggetPirate</nuggetunit>
@@ -9842,6 +10163,49 @@
         <attachdummy>bone_nuggetG</attachdummy>
       </guardianunit>
       <difficulty>4</difficulty>
+    </nugget>
+    <nugget>
+      <name>afCorsairLootMedi</name>
+      <type>AdjustResource</type>
+      <nuggetunit>NuggetPirate</nuggetunit>
+      <rolloverstringid>27780</rolloverstringid>
+      <applystringid>27781</applystringid>
+      <resource>Gold</resource>
+      <amount>331</amount>
+      <resource2>Ships</resource2>
+      <amount2>1</amount2>
+      <maptype>mediSea</maptype>
+      <guardianunit>
+        <unit>Pirate</unit>
+        <idleanim>NuggetPirate1_Idle</idleanim>
+        <exitanim>NuggetPirate1_Exit</exitanim>
+        <attachdummy>bone_nuggetA</attachdummy>
+      </guardianunit>
+      <guardianunit>
+        <unit>deGuardBucCaptain</unit>
+        <idleanim>NuggetPirate2_Idle</idleanim>
+        <exitanim>NuggetPirate2_Exit</exitanim>
+        <attachdummy>bone_nuggetB</attachdummy>
+      </guardianunit>
+      <guardianunit>
+        <unit>Pirate</unit>
+        <idleanim>NuggetPirate3_Idle</idleanim>
+        <exitanim>NuggetPirate3_Exit</exitanim>
+        <attachdummy>bone_nuggetC</attachdummy>
+      </guardianunit>
+      <guardianunit>
+        <unit>Pirate</unit>
+        <attachdummy>bone_nuggetD</attachdummy>
+      </guardianunit>
+      <guardianunit>
+        <unit>Pirate</unit>
+        <attachdummy>bone_nuggetE</attachdummy>
+      </guardianunit>
+      <guardianunit>
+        <unit>Pirate</unit>
+        <attachdummy>bone_nuggetF</attachdummy>
+      </guardianunit>
+      <difficulty>74</difficulty>
     </nugget>
     <nugget>
       <name>afGoldCave</name>
@@ -9927,6 +10291,20 @@
       <difficulty>1</difficulty>
     </nugget>
     <nugget>
+      <name>afSandalsMedi</name>
+      <type>AdjustResource</type>
+      <nuggetunit>ypNuggetDroppedSuppliesAsian</nuggetunit>
+      <rolloverstringid>102109</rolloverstringid>
+      <applystringid>102110</applystringid>
+      <resource>XP</resource>
+      <amount>100</amount>
+      <maptype>mediSea</maptype>
+      <guardian>deHoneyBadger</guardian>
+      <guardian>deHoneyBadger</guardian>
+      <guardian>deHoneyBadger</guardian>
+      <difficulty>71</difficulty>
+    </nugget>
+    <nugget>
       <name>afSandals2</name>
       <type>AdjustResource</type>
       <nuggetunit>ypNuggetDroppedSuppliesAsian</nuggetunit>
@@ -9958,6 +10336,21 @@
       <maptype>Sudd</maptype>
       <maptype>Tripolitania</maptype>
       <difficulty>2</difficulty>
+      <guardian>ypLion</guardian>
+      <guardian>ypLion</guardian>
+    </nugget>
+    <nugget>
+      <name>afInscriptionsMedi</name>
+      <type>AdjustResource</type>
+      <nuggetunit>deNuggetObelisk</nuggetunit>
+      <rolloverstringid>102226</rolloverstringid>
+      <applystringid>102227</applystringid>
+      <resource>XP</resource>
+      <amount>250</amount>
+      <maptype>mediSea</maptype>
+      <difficulty>72</difficulty>
+      <guardian>ypLion</guardian>
+      <guardian>ypLion</guardian>
       <guardian>ypLion</guardian>
       <guardian>ypLion</guardian>
     </nugget>
@@ -10041,6 +10434,22 @@
       <difficulty>2</difficulty>
     </nugget>
     <nugget>
+      <name>afFruitBasketMedi</name>
+      <type>AdjustResource</type>
+      <nuggetunit>deAfricanBrokenCart</nuggetunit>
+      <rolloverstringid>102089</rolloverstringid>
+      <applystringid>102090</applystringid>
+      <resource>XP</resource>
+      <amount>180</amount>
+      <maptype>mediSea</maptype>
+      <guardian>deBaboon</guardian>
+      <guardian>deBaboon</guardian>
+      <guardian>deBaboon</guardian>
+      <guardian>deBaboon</guardian>
+      <guardian>deBaboon</guardian>
+      <difficulty>72</difficulty>
+    </nugget>
+    <nugget>
       <name>afHakunaMatata</name>
       <type>AdjustResource</type>
       <nuggetunit>deNuggetMeerkatDen</nuggetunit>
@@ -10089,6 +10498,22 @@
       <maptype>Sudd</maptype>
       <maptype>Tripolitania</maptype>
       <difficulty>3</difficulty>
+      <guardian>deCrocodile</guardian>
+      <guardian>deCrocodile</guardian>
+      <guardian>deCrocodile</guardian>
+    </nugget>
+    <nugget>
+      <name>afInscriptions3Medi</name>
+      <type>AdjustResource</type>
+      <nuggetunit>deNuggetObelisk</nuggetunit>
+      <rolloverstringid>102226</rolloverstringid>
+      <applystringid>102227</applystringid>
+      <resource>XP</resource>
+      <amount>300</amount>
+      <maptype>mediSea</maptype>
+      <difficulty>73</difficulty>
+      <guardian>deCrocodile</guardian>
+      <guardian>deCrocodile</guardian>
       <guardian>deCrocodile</guardian>
       <guardian>deCrocodile</guardian>
       <guardian>deCrocodile</guardian>
@@ -10185,6 +10610,20 @@
       <maptype>Tripolitania</maptype>
       <difficulty>4</difficulty>
       <guardian>deGuardianColoRider</guardian>
+      <guardian>deGuardianColoRider</guardian>
+      <guardian>deGuardianColoRider</guardian>
+      <guardian>deGuardianColoRider</guardian>
+    </nugget>
+    <nugget>
+      <name>afInscriptions5Medi</name>
+      <type>AdjustResource</type>
+      <nuggetunit>deNuggetObelisk</nuggetunit>
+      <rolloverstringid>102226</rolloverstringid>
+      <applystringid>102227</applystringid>
+      <resource>XP</resource>
+      <amount>440</amount>
+      <maptype>mediSea</maptype>
+      <difficulty>74</difficulty>
       <guardian>deGuardianColoRider</guardian>
       <guardian>deGuardianColoRider</guardian>
       <guardian>deGuardianColoRider</guardian>
@@ -10429,6 +10868,7 @@
       <maptype>LostSahara2</maptype>
       <maptype>LostSahara3</maptype>
       <maptype>Tripolitania</maptype>
+      <maptype>mediSea</maptype>
       <guardian>deGuardianColoSword</guardian>
       <guardian>deGuardianColoSword</guardian>
     </nugget>
@@ -10469,6 +10909,7 @@
       <maptype>LostSahara2</maptype>
       <maptype>LostSahara3</maptype>
       <maptype>Tripolitania</maptype>
+      <maptype>mediSea</maptype>
     </nugget>
     <nugget>
       <name>afNuggetalism</name>
@@ -10577,6 +11018,7 @@
       <maptype>LostSahara2</maptype>
       <maptype>LostSahara3</maptype>
       <maptype>Tripolitania</maptype>
+      <maptype>mediSea</maptype>
     </nugget>
     <nugget>
       <name>afNuggetWoodTrickle11</name>
@@ -10609,6 +11051,7 @@
       <maptype>LostSahara2</maptype>
       <maptype>LostSahara3</maptype>
       <maptype>Tripolitania</maptype>
+      <maptype>mediSea</maptype>
     </nugget>
     <nugget>
       <name>afNuggetFoodTrickle11</name>
@@ -10641,6 +11084,7 @@
       <maptype>LostSahara2</maptype>
       <maptype>LostSahara3</maptype>
       <maptype>Tripolitania</maptype>
+      <maptype>mediSea</maptype>
     </nugget>
     <nugget>
       <name>afNuggetXPTrickle11</name>
@@ -10673,6 +11117,7 @@
       <maptype>LostSahara2</maptype>
       <maptype>LostSahara3</maptype>
       <maptype>Tripolitania</maptype>
+      <maptype>mediSea</maptype>
     </nugget>
     <nugget>
       <name>deHouseNugget</name>
@@ -10684,6 +11129,37 @@
       <amount>1</amount>
       <difficulty>111</difficulty>
       <maptype>Plymouth</maptype>
+    </nugget>
+    <nugget>
+      <name>deUnknownEuroHouseNugget</name>
+      <type>SpawnUnit</type>
+      <nuggetunit>NuggetAbandonedCabin</nuggetunit>
+      <rolloverstringid>102272</rolloverstringid>
+      <applystringid>102273</applystringid>
+      <unittype>deSPCVillageHouseTreasure</unittype>
+      <amount>1</amount>
+      <difficulty>121</difficulty>
+      <guardian>deGuardianBoar</guardian>
+      <guardian>deGuardianBrigand</guardian>
+      <guardian>deGuardianCuirassier</guardian>
+      <guardian>deGuardianElmeti</guardian>
+      <maptype>historicalMaps</maptype>
+      <maptype>lostEU</maptype>
+      <maptype>Finland</maptype>
+      <maptype>northEurope</maptype>
+      <maptype>northeastEurope</maptype>
+      <maptype>westEurope</maptype>
+      <maptype>mediEurope</maptype>
+      <maptype>mediSea</maptype>
+      <maptype>centralEurope</maptype>
+      <maptype>Iceland</maptype>
+      <maptype>Steppe1</maptype>
+      <maptype>Steppe2</maptype>
+      <maptype>Steppe3</maptype>
+      <maptype>eastEurope</maptype>
+      <maptype>Wallachia</maptype>
+      <maptype>mediTurkishWar</maptype>
+      <maptype>westNapoleon</maptype>
     </nugget>
     <nugget>
       <name>deHouseNugget3</name>
@@ -10804,6 +11280,7 @@
       <maptype>LostSahara2</maptype>
       <maptype>LostSahara3</maptype>
       <maptype>Tripolitania</maptype>
+      <maptype>mediSea</maptype>
     </nugget>
     <nugget>
       <name>afRome</name>
@@ -10848,6 +11325,7 @@
       <maptype>LostSahara2</maptype>
       <maptype>LostSahara3</maptype>
       <maptype>Tripolitania</maptype>
+      <maptype>mediSea</maptype>
     </nugget>
     <nugget>
       <name>afOutpost</name>
@@ -10889,6 +11367,7 @@
       <maptype>LostSahara2</maptype>
       <maptype>LostSahara3</maptype>
       <maptype>Tripolitania</maptype>
+      <maptype>mediSea</maptype>
     </nugget>
     <nugget>
       <name>afHouse</name>
@@ -10937,6 +11416,7 @@
       <maptype>LostSahara2</maptype>
       <maptype>LostSahara3</maptype>
       <maptype>Tripolitania</maptype>
+      <maptype>mediSea</maptype>
     </nugget>
     <nugget>
       <name>afBuildingSpeed2</name>
@@ -10979,6 +11459,7 @@
       <maptype>LostSahara2</maptype>
       <maptype>LostSahara3</maptype>
       <maptype>Tripolitania</maptype>
+      <maptype>mediSea</maptype>
     </nugget>
     <nugget>
       <name>afEwagon</name>
@@ -11020,6 +11501,7 @@
       <maptype>LostSahara2</maptype>
       <maptype>LostSahara3</maptype>
       <maptype>Tripolitania</maptype>
+      <maptype>mediSea</maptype>
     </nugget>
     <nugget>
       <name>afSpawnGoat4</name>
@@ -11729,8 +12211,9 @@
       <applystringid>63421</applystringid>
       <resource>wood</resource>
       <amount>50</amount>
-      <maptype>silkRoad1</maptype>
-      <maptype>yellowRiver</maptype>
+      <maptype>lostEU</maptype>
+      <maptype>Steppe2</maptype>
+      <maptype>Steppe3</maptype>
       <guardianunit>
         <unit>BlackBear</unit>
         <idleanim>wagon_Idle01</idleanim>
@@ -11738,6 +12221,29 @@
       </guardianunit>
       <guardianunit>
         <unit>BlackBear</unit>
+        <idleanim>wagon_Idle01</idleanim>
+        <attachdummy>bone_nuggetB</attachdummy>
+      </guardianunit>
+      <difficulty>12</difficulty>
+    </nugget>
+    <nugget>
+      <name>ypBanyan2Panda</name>
+      <type>AdjustResource</type>
+      <nuggetunit>ypNuggetWagonAsian</nuggetunit>
+      <teamnugget>1</teamnugget>
+      <rolloverstringid>63420</rolloverstringid>
+      <applystringid>63421</applystringid>
+      <resource>wood</resource>
+      <amount>60</amount>
+      <maptype>silkRoad1</maptype>
+      <maptype>yellowRiver</maptype>
+      <guardianunit>
+        <unit>ypPanda</unit>
+        <idleanim>wagon_Idle01</idleanim>
+        <attachdummy>bone_nuggetA</attachdummy>
+      </guardianunit>
+      <guardianunit>
+        <unit>ypPanda</unit>
         <idleanim>wagon_Idle01</idleanim>
         <attachdummy>bone_nuggetB</attachdummy>
       </guardianunit>
@@ -11754,6 +12260,8 @@
       <amount>35</amount>
       <maptype>silkRoad2</maptype>
       <maptype>silkRoad1</maptype>
+      <maptype>Steppe2</maptype>
+      <maptype>Steppe3</maptype>
       <maptype>mongolia</maptype>
       <maptype>yellowRiver</maptype>
       <guardian>ypTiger</guardian>
@@ -11810,10 +12318,13 @@
       <maptype>silkRoad3</maptype>
       <maptype>silkRoad2</maptype>
       <maptype>silkRoad1</maptype>
+      <maptype>Steppe2</maptype>
+      <maptype>Steppe3</maptype>
       <maptype>mongolia</maptype>
       <maptype>borneo</maptype>
       <maptype>japan</maptype>
       <maptype>yellowRiver</maptype>
+      <maptype>lostEU</maptype>
       <guardian>ypWanderingHorseman</guardian>
       <guardian>ypWanderingHorseman</guardian>
       <guardian>ypWanderingHorseman</guardian>
@@ -11831,6 +12342,7 @@
       <maptype>silkRoad3</maptype>
       <maptype>silkRoad2</maptype>
       <maptype>silkRoad1</maptype>
+      <maptype>Steppe3</maptype>
       <maptype>mongolia</maptype>
       <maptype>borneo</maptype>
       <maptype>japan</maptype>
@@ -11852,6 +12364,7 @@
       <maptype>silkRoad3</maptype>
       <maptype>silkRoad2</maptype>
       <maptype>silkRoad1</maptype>
+      <maptype>Steppe3</maptype>
       <maptype>mongolia</maptype>
       <maptype>borneo</maptype>
       <maptype>japan</maptype>
@@ -11901,6 +12414,7 @@
       <resource>XP</resource>
       <amount>75</amount>
       <maptype>silkRoad2</maptype>
+      <maptype>Steppe2</maptype>
       <maptype>mongolia</maptype>
       <guardian>ypSnowLeopard</guardian>
       <guardian>ypSnowLeopard</guardian>
@@ -11965,6 +12479,7 @@
       <applystringid>90910</applystringid>
       <resource>wood</resource>
       <amount>111</amount>
+      <maptype>lostEU</maptype>
       <maptype>bayou</maptype>
       <maptype>california</maptype>
       <maptype>carolina</maptype>
@@ -12085,11 +12600,13 @@
       <unittype>deMiner</unittype>
       <amount>4</amount>
       <maptype>historicalMaps</maptype>
+      <maptype>lostEU</maptype>
       <maptype>centralEurope</maptype>
       <maptype>northeastEurope</maptype>
       <maptype>westEurope</maptype>
       <maptype>eastEurope</maptype>
       <maptype>mediEurope</maptype>
+      <maptype>mediSea</maptype>
       <maptype>northEurope</maptype>
       <maptype>greatPlains</maptype>
       <maptype>sonora</maptype>
@@ -12128,11 +12645,13 @@
       <applystringid>90930</applystringid>
       <tech>DEUnknownTeamMiner</tech>
       <maptype>historicalMaps</maptype>
+      <maptype>lostEU</maptype>
       <maptype>centralEurope</maptype>
       <maptype>northeastEurope</maptype>
       <maptype>westEurope</maptype>
       <maptype>eastEurope</maptype>
       <maptype>mediEurope</maptype>
+      <maptype>mediSea</maptype>
       <maptype>northEurope</maptype>
       <maptype>greatPlains</maptype>
       <maptype>sonora</maptype>
@@ -12171,11 +12690,13 @@
       <applystringid>90956</applystringid>
       <tech>DEUnknownLouisianaNugget</tech>
       <maptype>historicalMaps</maptype>
+      <maptype>lostEU</maptype>
       <maptype>centralEurope</maptype>
       <maptype>northeastEurope</maptype>
       <maptype>westEurope</maptype>
       <maptype>eastEurope</maptype>
       <maptype>mediEurope</maptype>
+      <maptype>mediSea</maptype>
       <maptype>northEurope</maptype>
       <maptype>greatPlains</maptype>
       <maptype>sonora</maptype>
@@ -12204,11 +12725,13 @@
       <unittype>deProspectorWagon</unittype>
       <amount>1</amount>
       <maptype>historicalMaps</maptype>
+      <maptype>lostEU</maptype>
       <maptype>centralEurope</maptype>
       <maptype>northeastEurope</maptype>
       <maptype>westEurope</maptype>
       <maptype>eastEurope</maptype>
       <maptype>mediEurope</maptype>
+      <maptype>mediSea</maptype>
       <maptype>northEurope</maptype>
       <maptype>greatPlains</maptype>
       <maptype>sonora</maptype>
@@ -12251,11 +12774,13 @@
       <unittype>deProspectorWagonGold</unittype>
       <amount>1</amount>
       <maptype>historicalMaps</maptype>
+      <maptype>lostEU</maptype>
       <maptype>centralEurope</maptype>
       <maptype>northeastEurope</maptype>
       <maptype>westEurope</maptype>
       <maptype>eastEurope</maptype>
       <maptype>mediEurope</maptype>
+      <maptype>mediSea</maptype>
       <maptype>northEurope</maptype>
       <maptype>california</maptype>
       <maptype>yukon</maptype>
@@ -12303,11 +12828,13 @@
       <unittype>deProspectorWagonCoal</unittype>
       <amount>1</amount>
       <maptype>historicalMaps</maptype>
+      <maptype>lostEU</maptype>
       <maptype>centralEurope</maptype>
       <maptype>northeastEurope</maptype>
       <maptype>westEurope</maptype>
       <maptype>eastEurope</maptype>
       <maptype>mediEurope</maptype>
+      <maptype>mediSea</maptype>
       <maptype>northEurope</maptype>
       <maptype>greatPlains</maptype>
       <maptype>sonora</maptype>
@@ -12388,11 +12915,13 @@
       <resource>XP</resource>
       <amount>100</amount>
       <maptype>historicalMaps</maptype>
+      <maptype>lostEU</maptype>
       <maptype>centralEurope</maptype>
       <maptype>northeastEurope</maptype>
       <maptype>westEurope</maptype>
       <maptype>eastEurope</maptype>
       <maptype>mediEurope</maptype>
+      <maptype>mediSea</maptype>
       <maptype>northEurope</maptype>
       <guardian>deGuardianHaramija</guardian>
       <guardian>deGuardianHaramija</guardian>
@@ -12475,11 +13004,13 @@
       <resource>Food</resource>
       <amount>100</amount>
       <maptype>historicalMaps</maptype>
+      <maptype>lostEU</maptype>
       <maptype>centralEurope</maptype>
       <maptype>northeastEurope</maptype>
       <maptype>westEurope</maptype>
       <maptype>eastEurope</maptype>
       <maptype>mediEurope</maptype>
+      <maptype>mediSea</maptype>
       <maptype>northEurope</maptype>
       <guardian>deGuardianHaramija</guardian>
       <guardian>deGuardianHaramija</guardian>
@@ -12562,11 +13093,13 @@
       <resource>Wood</resource>
       <amount>100</amount>
       <maptype>historicalMaps</maptype>
+      <maptype>lostEU</maptype>
       <maptype>centralEurope</maptype>
       <maptype>northeastEurope</maptype>
       <maptype>westEurope</maptype>
       <maptype>eastEurope</maptype>
       <maptype>mediEurope</maptype>
+      <maptype>mediSea</maptype>
       <maptype>northEurope</maptype>
       <guardian>deGuardianHaramija</guardian>
       <guardian>deGuardianHaramija</guardian>
@@ -12649,11 +13182,13 @@
       <resource>Gold</resource>
       <amount>100</amount>
       <maptype>historicalMaps</maptype>
+      <maptype>lostEU</maptype>
       <maptype>centralEurope</maptype>
       <maptype>northeastEurope</maptype>
       <maptype>westEurope</maptype>
       <maptype>eastEurope</maptype>
       <maptype>mediEurope</maptype>
+      <maptype>mediSea</maptype>
       <maptype>northEurope</maptype>
       <guardian>deGuardianHaramija</guardian>
       <guardian>deGuardianHaramija</guardian>
@@ -12740,11 +13275,13 @@
       <resource2>Gold</resource2>
       <amount2>50</amount2>
       <maptype>historicalMaps</maptype>
+      <maptype>lostEU</maptype>
       <maptype>centralEurope</maptype>
       <maptype>northeastEurope</maptype>
       <maptype>westEurope</maptype>
       <maptype>eastEurope</maptype>
       <maptype>mediEurope</maptype>
+      <maptype>mediSea</maptype>
       <maptype>northEurope</maptype>
       <guardian>deGuardianHaramija</guardian>
       <guardian>deGuardianHaramija</guardian>
@@ -12837,11 +13374,13 @@
       <resource2>Wood</resource2>
       <amount2>50</amount2>
       <maptype>historicalMaps</maptype>
+      <maptype>lostEU</maptype>
       <maptype>centralEurope</maptype>
       <maptype>northeastEurope</maptype>
       <maptype>westEurope</maptype>
       <maptype>eastEurope</maptype>
       <maptype>mediEurope</maptype>
+      <maptype>mediSea</maptype>
       <maptype>northEurope</maptype>
       <guardian>deGuardianHaramija</guardian>
       <guardian>deGuardianHaramija</guardian>
@@ -12934,11 +13473,13 @@
       <resource2>Food</resource2>
       <amount2>50</amount2>
       <maptype>historicalMaps</maptype>
+      <maptype>lostEU</maptype>
       <maptype>centralEurope</maptype>
       <maptype>northeastEurope</maptype>
       <maptype>westEurope</maptype>
       <maptype>eastEurope</maptype>
       <maptype>mediEurope</maptype>
+      <maptype>mediSea</maptype>
       <maptype>northEurope</maptype>
       <guardian>deGuardianHaramija</guardian>
       <guardian>deGuardianHaramija</guardian>
@@ -13031,11 +13572,13 @@
       <resource2>Wood</resource2>
       <amount2>50</amount2>
       <maptype>historicalMaps</maptype>
+      <maptype>lostEU</maptype>
       <maptype>centralEurope</maptype>
       <maptype>northeastEurope</maptype>
       <maptype>westEurope</maptype>
       <maptype>eastEurope</maptype>
       <maptype>mediEurope</maptype>
+      <maptype>mediSea</maptype>
       <maptype>northEurope</maptype>
       <guardian>deGuardianHaramija</guardian>
       <guardian>deGuardianHaramija</guardian>
@@ -13128,11 +13671,13 @@
       <resource2>Food</resource2>
       <amount2>50</amount2>
       <maptype>historicalMaps</maptype>
+      <maptype>lostEU</maptype>
       <maptype>centralEurope</maptype>
       <maptype>northeastEurope</maptype>
       <maptype>westEurope</maptype>
       <maptype>eastEurope</maptype>
       <maptype>mediEurope</maptype>
+      <maptype>mediSea</maptype>
       <maptype>northEurope</maptype>
       <guardian>deGuardianHaramija</guardian>
       <guardian>deGuardianHaramija</guardian>
@@ -13225,11 +13770,13 @@
       <resource2>Wood</resource2>
       <amount2>50</amount2>
       <maptype>historicalMaps</maptype>
+      <maptype>lostEU</maptype>
       <maptype>centralEurope</maptype>
       <maptype>northeastEurope</maptype>
       <maptype>westEurope</maptype>
       <maptype>eastEurope</maptype>
       <maptype>mediEurope</maptype>
+      <maptype>mediSea</maptype>
       <maptype>northEurope</maptype>
       <guardian>deGuardianHaramija</guardian>
       <guardian>deGuardianHaramija</guardian>
@@ -13321,11 +13868,13 @@
       <resource>Wood</resource>
       <amount>100</amount>
       <maptype>historicalMaps</maptype>
+      <maptype>lostEU</maptype>
       <maptype>centralEurope</maptype>
       <maptype>northeastEurope</maptype>
       <maptype>westEurope</maptype>
       <maptype>eastEurope</maptype>
       <maptype>mediEurope</maptype>
+      <maptype>mediSea</maptype>
       <maptype>northEurope</maptype>
       <guardian>deGuardianHaramija</guardian>
       <guardian>deGuardianHaramija</guardian>
@@ -13418,11 +13967,13 @@
       <resource>Food</resource>
       <amount>100</amount>
       <maptype>historicalMaps</maptype>
+      <maptype>lostEU</maptype>
       <maptype>centralEurope</maptype>
       <maptype>northeastEurope</maptype>
       <maptype>westEurope</maptype>
       <maptype>eastEurope</maptype>
       <maptype>mediEurope</maptype>
+      <maptype>mediSea</maptype>
       <maptype>northEurope</maptype>
       <guardian>deGuardianHaramija</guardian>
       <guardian>deGuardianHaramija</guardian>
@@ -13515,11 +14066,13 @@
       <resource>Gold</resource>
       <amount>100</amount>
       <maptype>historicalMaps</maptype>
+      <maptype>lostEU</maptype>
       <maptype>centralEurope</maptype>
       <maptype>northeastEurope</maptype>
       <maptype>westEurope</maptype>
       <maptype>eastEurope</maptype>
       <maptype>mediEurope</maptype>
+      <maptype>mediSea</maptype>
       <maptype>northEurope</maptype>
       <guardian>deGuardianHaramija</guardian>
       <guardian>deGuardianHaramija</guardian>
@@ -13612,11 +14165,13 @@
       <resource>XP</resource>
       <amount>100</amount>
       <maptype>historicalMaps</maptype>
+      <maptype>lostEU</maptype>
       <maptype>centralEurope</maptype>
       <maptype>northeastEurope</maptype>
       <maptype>westEurope</maptype>
       <maptype>eastEurope</maptype>
       <maptype>mediEurope</maptype>
+      <maptype>mediSea</maptype>
       <maptype>northEurope</maptype>
       <guardian>deGuardianHaramija</guardian>
       <guardian>deGuardianHaramija</guardian>
@@ -13713,11 +14268,13 @@
       <resource2>Gold</resource2>
       <amount2>50</amount2>
       <maptype>historicalMaps</maptype>
+      <maptype>lostEU</maptype>
       <maptype>centralEurope</maptype>
       <maptype>northeastEurope</maptype>
       <maptype>westEurope</maptype>
       <maptype>eastEurope</maptype>
       <maptype>mediEurope</maptype>
+      <maptype>mediSea</maptype>
       <maptype>northEurope</maptype>
       <guardian>deGuardianHaramija</guardian>
       <guardian>deGuardianHaramija</guardian>
@@ -13820,11 +14377,13 @@
       <resource2>XP</resource2>
       <amount2>50</amount2>
       <maptype>historicalMaps</maptype>
+      <maptype>lostEU</maptype>
       <maptype>centralEurope</maptype>
       <maptype>northeastEurope</maptype>
       <maptype>westEurope</maptype>
       <maptype>eastEurope</maptype>
       <maptype>mediEurope</maptype>
+      <maptype>mediSea</maptype>
       <maptype>northEurope</maptype>
       <guardian>deGuardianHaramija</guardian>
       <guardian>deGuardianHaramija</guardian>
@@ -13927,11 +14486,13 @@
       <resource2>XP</resource2>
       <amount2>50</amount2>
       <maptype>historicalMaps</maptype>
+      <maptype>lostEU</maptype>
       <maptype>centralEurope</maptype>
       <maptype>northeastEurope</maptype>
       <maptype>westEurope</maptype>
       <maptype>eastEurope</maptype>
       <maptype>mediEurope</maptype>
+      <maptype>mediSea</maptype>
       <maptype>northEurope</maptype>
       <guardian>deGuardianHaramija</guardian>
       <guardian>deGuardianHaramija</guardian>
@@ -14034,11 +14595,13 @@
       <resource2>Gold</resource2>
       <amount2>50</amount2>
       <maptype>historicalMaps</maptype>
+      <maptype>lostEU</maptype>
       <maptype>centralEurope</maptype>
       <maptype>northeastEurope</maptype>
       <maptype>westEurope</maptype>
       <maptype>eastEurope</maptype>
       <maptype>mediEurope</maptype>
+      <maptype>mediSea</maptype>
       <maptype>northEurope</maptype>
       <guardian>deGuardianHaramija</guardian>
       <guardian>deGuardianHaramija</guardian>
@@ -14141,11 +14704,13 @@
       <resource2>Wood</resource2>
       <amount2>50</amount2>
       <maptype>historicalMaps</maptype>
+      <maptype>lostEU</maptype>
       <maptype>centralEurope</maptype>
       <maptype>northeastEurope</maptype>
       <maptype>westEurope</maptype>
       <maptype>eastEurope</maptype>
       <maptype>mediEurope</maptype>
+      <maptype>mediSea</maptype>
       <maptype>northEurope</maptype>
       <guardian>deGuardianHaramija</guardian>
       <guardian>deGuardianHaramija</guardian>
@@ -14223,6 +14788,7 @@
       <resource>Wood</resource>
       <amount>20</amount>
       <maptype>mediEurope</maptype>
+      <maptype>mediSea</maptype>
       <maptype>CongoBasin</maptype>
       <maptype>LakeChad</maptype>
       <maptype>LakeVictoria</maptype>
@@ -14250,6 +14816,7 @@
       <resource>Food</resource>
       <amount>65</amount>
       <maptype>mediEurope</maptype>
+      <maptype>mediSea</maptype>
       <maptype>GoldCoast</maptype>
       <maptype>Horn</maptype>
       <maptype>IvoryCoast</maptype>
@@ -14271,8 +14838,9 @@
       <rolloverstringid>66485</rolloverstringid>
       <applystringid>66486</applystringid>
       <resource>xp</resource>
-      <amount>25</amount>
+      <amount>30</amount>
       <maptype>mediEurope</maptype>
+      <maptype>mediSea</maptype>
       <maptype>GoldCoast</maptype>
       <maptype>Horn</maptype>
       <maptype>IvoryCoast</maptype>
@@ -14293,8 +14861,9 @@
       <rolloverstringid>66491</rolloverstringid>
       <applystringid>66492</applystringid>
       <resource>Gold</resource>
-      <amount>20</amount>
+      <amount>25</amount>
       <maptype>mediEurope</maptype>
+      <maptype>mediSea</maptype>
       <maptype>GoldCoast</maptype>
       <maptype>Horn</maptype>
       <maptype>IvoryCoast</maptype>
@@ -14317,6 +14886,7 @@
       <resource>Gold</resource>
       <amount>60</amount>
       <maptype>mediEurope</maptype>
+      <maptype>mediSea</maptype>
       <maptype>GoldCoast</maptype>
       <maptype>Horn</maptype>
       <maptype>IvoryCoast</maptype>
@@ -14340,6 +14910,7 @@
       <resource>Wood</resource>
       <amount>55</amount>
       <maptype>mediEurope</maptype>
+      <maptype>mediSea</maptype>
       <maptype>GoldCoast</maptype>
       <maptype>Horn</maptype>
       <maptype>IvoryCoast</maptype>
@@ -14541,6 +15112,7 @@
       <resource>Gold</resource>
       <amount>150</amount>
       <maptype>mediEurope</maptype>
+      <maptype>mediSea</maptype>
       <maptype>GoldCoast</maptype>
       <maptype>Horn</maptype>
       <maptype>IvoryCoast</maptype>
@@ -14660,6 +15232,7 @@
       <resource2>Gold</resource2>
       <amount2>55</amount2>
       <maptype>mediEurope</maptype>
+      <maptype>mediSea</maptype>
       <maptype>GoldCoast</maptype>
       <maptype>Horn</maptype>
       <maptype>IvoryCoast</maptype>
@@ -14707,6 +15280,7 @@
       <maptype>PepperCoast</maptype>
       <maptype>SwahiliCoast</maptype>
       <maptype>Tripolitania</maptype>
+      <maptype>mediSea</maptype>
       <maptype>japan</maptype>
       <maptype>ceylon</maptype>
       <maptype>borneo</maptype>
@@ -14726,6 +15300,7 @@
       <amount>1</amount>
       <maptype>Horn</maptype>
       <maptype>SwahiliCoast</maptype>
+      <maptype>mediSea</maptype>
       <guardian>ypGreatWhiteShark</guardian>
       <guardian>ypGreatWhiteShark</guardian>
       <guardian>ypGreatWhiteShark</guardian>
@@ -14952,6 +15527,7 @@
       <amount>1</amount>
       <difficulty>104</difficulty>
       <maptype>historicalMaps</maptype>
+      <maptype>lostEU</maptype>
       <maptype>westNapoleon</maptype>
       <maptype>centralEurope</maptype>
       <guardian>deGuardianCrabat</guardian>
@@ -14969,6 +15545,7 @@
       <amount>1</amount>
       <difficulty>104</difficulty>
       <maptype>historicalMaps</maptype>
+      <maptype>lostEU</maptype>
       <maptype>westNapoleon</maptype>
       <maptype>centralEurope</maptype>
       <guardian>deGuardianBeast</guardian>
@@ -14989,6 +15566,7 @@
       <maptype>centralEurope</maptype>
       <maptype>mediEurope</maptype>
       <maptype>historicalMaps</maptype>
+      <maptype>lostEU</maptype>
       <maptype>mediTurkishWar</maptype>
       <convertunit>
         <unit>euNuggetLombardReward</unit>
@@ -15012,6 +15590,7 @@
       <type>GiveTech</type>
       <tech>euTreasureTechMercCost</tech>
       <maptype>historicalMaps</maptype>
+      <maptype>lostEU</maptype>
       <maptype>centralEurope</maptype>
       <guardian>deGuardianLandsknecht</guardian>
       <guardian>deGuardianLandsknecht</guardian>
@@ -15027,6 +15606,7 @@
       <type>GiveTech</type>
       <tech>euTreasureTechMercCost</tech>
       <maptype>historicalMaps</maptype>
+      <maptype>lostEU</maptype>
       <maptype>centralEurope</maptype>
       <guardian>deGuardianLandsknecht</guardian>
       <guardian>deGuardianLandsknecht</guardian>
@@ -15042,6 +15622,7 @@
       <type>GiveTech</type>
       <tech>euTreasureTechArtilleryHP</tech>
       <maptype>historicalMaps</maptype>
+      <maptype>lostEU</maptype>
       <maptype>westNapoleon</maptype>
       <guardian>deGuardianHighwayman</guardian>
       <guardian>deGuardianHighwayman</guardian>
@@ -15061,6 +15642,7 @@
       <type>GiveTech</type>
       <tech>euTreasureTechInfantrySpeed</tech>
       <maptype>historicalMaps</maptype>
+      <maptype>lostEU</maptype>
       <maptype>northeastEurope</maptype>
       <maptype>eastEurope</maptype>
       <maptype>centralEurope</maptype>
@@ -15084,6 +15666,7 @@
       <maptype>centralEurope</maptype>
       <maptype>westEurope</maptype>
       <maptype>historicalMaps</maptype>
+      <maptype>lostEU</maptype>
       <maptype>westNapoleon</maptype>
       <guardian>deGuardianSkirmisher</guardian>
       <guardian>deGuardianSkirmisher</guardian>
@@ -15103,6 +15686,7 @@
       <type>GiveTech</type>
       <tech>euTreasureTechCavHP</tech>
       <maptype>historicalMaps</maptype>
+      <maptype>lostEU</maptype>
       <maptype>westNapoleon</maptype>
       <guardian>deGuardianHussar</guardian>
       <guardian>deGuardianHussar</guardian>
@@ -15121,6 +15705,7 @@
       <maptype>centralEurope</maptype>
       <maptype>westEurope</maptype>
       <maptype>historicalMaps</maptype>
+      <maptype>lostEU</maptype>
       <maptype>westNapoleon</maptype>
       <guardian>deGuardianMusketeer</guardian>
       <guardian>deGuardianMusketeer</guardian>
@@ -15140,6 +15725,7 @@
       <maptype>centralEurope</maptype>
       <maptype>westEurope</maptype>
       <maptype>historicalMaps</maptype>
+      <maptype>lostEU</maptype>
       <maptype>westNapoleon</maptype>
       <guardian>deGuardianHighwayman</guardian>
       <guardian>deGuardianCuirassier</guardian>
@@ -15178,6 +15764,7 @@
       <type>GiveTech</type>
       <tech>euTreasureTechInfantrySpeed</tech>
       <maptype>historicalMaps</maptype>
+      <maptype>lostEU</maptype>
       <maptype>westNapoleon</maptype>
       <guardianunit>
         <unit>deGuardianHighwayman</unit>
@@ -15222,6 +15809,7 @@
       <maptype>westEurope</maptype>
       <maptype>mediEurope</maptype>
       <maptype>historicalMaps</maptype>
+      <maptype>lostEU</maptype>
       <maptype>westNapoleon</maptype>
       <guardian>deGuardianCuirassier</guardian>
       <guardianunit>
@@ -15245,6 +15833,7 @@
       <type>GiveTech</type>
       <tech>euTreasureTechHeroAtk</tech>
       <maptype>historicalMaps</maptype>
+      <maptype>lostEU</maptype>
       <maptype>centralEurope</maptype>
       <maptype>westEurope</maptype>
       <guardian>deGuardianHighlander</guardian>
@@ -15260,6 +15849,7 @@
       <type>GiveTech</type>
       <tech>euTreasureTechFarmBuff</tech>
       <maptype>historicalMaps</maptype>
+      <maptype>lostEU</maptype>
       <maptype>centralEurope</maptype>
       <maptype>westEurope</maptype>
       <guardianunit>
@@ -15296,6 +15886,7 @@
       <type>GiveTech</type>
       <tech>euTreasureTechInfAtk</tech>
       <maptype>historicalMaps</maptype>
+      <maptype>lostEU</maptype>
       <maptype>centralEurope</maptype>
       <maptype>westEurope</maptype>
       <maptype>northEurope</maptype>
@@ -15313,6 +15904,7 @@
       <rolloverstringid>124174</rolloverstringid>
       <applystringid>124175</applystringid>
       <maptype>historicalMaps</maptype>
+      <maptype>lostEU</maptype>
       <maptype>northeastEurope</maptype>
       <maptype>eastEurope</maptype>
       <maptype>centralEurope</maptype>
@@ -15332,6 +15924,7 @@
       <rolloverstringid>124186</rolloverstringid>
       <applystringid>124187</applystringid>
       <maptype>historicalMaps</maptype>
+      <maptype>lostEU</maptype>
       <maptype>eastEurope</maptype>
       <maptype>centralEurope</maptype>
       <maptype>westEurope</maptype>
@@ -15349,6 +15942,7 @@
       <rolloverstringid>124192</rolloverstringid>
       <applystringid>124193</applystringid>
       <maptype>historicalMaps</maptype>
+      <maptype>lostEU</maptype>
       <maptype>mediTurkishWar</maptype>
       <guardian>deGuardianJanissary</guardian>
       <guardian>deGuardianJanissary</guardian>
@@ -15365,6 +15959,7 @@
       <type>GiveTech</type>
       <tech>euTreasureTechArtilleryWagonSpeed</tech>
       <maptype>historicalMaps</maptype>
+      <maptype>lostEU</maptype>
       <maptype>mediTurkishWar</maptype>
       <guardian>deGuardianJanissary</guardian>
       <guardian>deGuardianJanissary</guardian>
@@ -15383,6 +15978,7 @@
       <type>GiveTech</type>
       <tech>euTreasureTechArtilleryBonusDmg</tech>
       <maptype>historicalMaps</maptype>
+      <maptype>lostEU</maptype>
       <maptype>eastEurope</maptype>
       <maptype>mediTurkishWar</maptype>
       <guardian>deGuardianBrownBear</guardian>
@@ -15404,6 +16000,7 @@
       <maptype>centralEurope</maptype>
       <maptype>westEurope</maptype>
       <maptype>historicalMaps</maptype>
+      <maptype>lostEU</maptype>
       <maptype>westNapoleon</maptype>
       <guardian>deGuardianMusketeer</guardian>
       <guardian>deGuardianMusketeer</guardian>
@@ -15422,6 +16019,7 @@
       <type>GiveTech</type>
       <tech>euTreasureTechArtilleryAtk</tech>
       <maptype>historicalMaps</maptype>
+      <maptype>lostEU</maptype>
       <maptype>eastEurope</maptype>
       <guardian>deGuardianJanissary</guardian>
       <guardian>deGuardianJanissary</guardian>
@@ -15442,6 +16040,7 @@
       <tech>euTreasureTechWarshipAtk</tech>
       <maptype>eastEurope</maptype>
       <maptype>historicalMaps</maptype>
+      <maptype>lostEU</maptype>
       <guardian>deGuardianHalberdier</guardian>
       <guardian>deGuardianHalberdier</guardian>
       <guardian>deGuardianHalberdier</guardian>
@@ -15521,7 +16120,7 @@
       <name>euCarrots</name>
       <rolloverstringid>124058</rolloverstringid>
       <applystringid>124059</applystringid>
-      <nuggetunit>NuggetBeaver</nuggetunit>
+      <nuggetunit>NuggetDroppedFood</nuggetunit>
       <type>adjustResource</type>
       <resource>Food</resource>
       <amount>50</amount>
@@ -15531,6 +16130,7 @@
       <maptype>Steppe2</maptype>
       <maptype>Steppe3</maptype>
       <maptype>historicalMaps</maptype>
+      <maptype>lostEU</maptype>
       <guardian>deGuardianWildDog</guardian>
       <difficulty>1</difficulty>
     </nugget>
@@ -15554,7 +16154,7 @@
       <name>euHare</name>
       <rolloverstringid>124060</rolloverstringid>
       <applystringid>124061</applystringid>
-      <nuggetunit>NuggetBeaver</nuggetunit>
+      <nuggetunit>NuggetDroppedFood</nuggetunit>
       <type>adjustResource</type>
       <resource>Food</resource>
       <amount>30</amount>
@@ -15571,7 +16171,7 @@
       <name>euAsparagus</name>
       <rolloverstringid>124094</rolloverstringid>
       <applystringid>124095</applystringid>
-      <nuggetunit>NuggetBeaver</nuggetunit>
+      <nuggetunit>NuggetDroppedFood</nuggetunit>
       <type>adjustResource</type>
       <resource>Food</resource>
       <amount>30</amount>
@@ -15588,13 +16188,13 @@
       <nuggetunit>NuggetDroppedFood</nuggetunit>
       <type>adjustResource</type>
       <resource>Food</resource>
-      <amount>50</amount>
+      <amount>40</amount>
       <maptype>northeastEurope</maptype>
       <maptype>Steppe1</maptype>
       <maptype>Steppe2</maptype>
       <maptype>Steppe3</maptype>
       <maptype>historicalMaps</maptype>
-      <guardian>deGuardianBrownBear</guardian>
+      <guardian>Wolf</guardian>
       <difficulty>1</difficulty>
     </nugget>
     <nugget>
@@ -15608,6 +16208,7 @@
       <maptype>eastEurope</maptype>
       <maptype>Wallachia</maptype>
       <maptype>mediEurope</maptype>
+      <maptype>mediSea</maptype>
       <maptype>historicalMaps</maptype>
       <maptype>mediTurkishWar</maptype>
       <guardian>deGuardianBoar</guardian>
@@ -15703,9 +16304,6 @@
       <amount>100</amount>
       <maptype>Wallachia</maptype>
       <maptype>eastEurope</maptype>
-      <maptype>Steppe1</maptype>
-      <maptype>Steppe2</maptype>
-      <maptype>Steppe3</maptype>
       <maptype>mediEurope</maptype>
       <maptype>historicalMaps</maptype>
       <maptype>mediTurkishWar</maptype>
@@ -15727,6 +16325,7 @@
       <maptype>northeastEurope</maptype>
       <maptype>westEurope</maptype>
       <maptype>historicalMaps</maptype>
+      <maptype>lostEU</maptype>
       <maptype>westNapoleon</maptype>
       <guardian>deGuardianPlagueDoctor</guardian>
       <guardian>deGuardianPlagueDoctor</guardian>
@@ -15745,8 +16344,6 @@
       <maptype>eastEurope</maptype>
       <maptype>northeastEurope</maptype>
       <maptype>Steppe1</maptype>
-      <maptype>Steppe2</maptype>
-      <maptype>Steppe3</maptype>
       <maptype>northEurope</maptype>
       <maptype>Iceland</maptype>
       <maptype>Finland</maptype>
@@ -15762,12 +16359,14 @@
       <nuggetunit>NuggetPumpkinSmall</nuggetunit>
       <type>adjustResource</type>
       <resource>Food</resource>
-      <amount>50</amount>
+      <amount>60</amount>
       <maptype>historicalMaps</maptype>
+      <maptype>lostEU</maptype>
       <maptype>mediTurkishWar</maptype>
       <maptype>centralEurope</maptype>
       <maptype>westNapoleon</maptype>
       <maptype>mediEurope</maptype>
+      <maptype>mediSea</maptype>
       <guardian>deGuardianBoar</guardian>
       <guardian>deGuardianBoar</guardian>
       <guardian>deGuardianBoar</guardian>
@@ -15786,8 +16385,6 @@
       <maptype>eastEurope</maptype>
       <maptype>northeastEurope</maptype>
       <maptype>Steppe1</maptype>
-      <maptype>Steppe2</maptype>
-      <maptype>Steppe3</maptype>
       <maptype>Wallachia</maptype>
       <maptype>northEurope</maptype>
       <maptype>Iceland</maptype>
@@ -15826,8 +16423,6 @@
       <maptype>eastEurope</maptype>
       <maptype>northeastEurope</maptype>
       <maptype>Steppe1</maptype>
-      <maptype>Steppe2</maptype>
-      <maptype>Steppe3</maptype>
       <maptype>Wallachia</maptype>
       <guardian>deGuardianCrabat</guardian>
       <guardian>deGuardianCrabat</guardian>
@@ -15869,6 +16464,7 @@
       <rolloverstringid>124206</rolloverstringid>
       <applystringid>124207</applystringid>
       <maptype>historicalMaps</maptype>
+      <maptype>lostEU</maptype>
       <maptype>Finland</maptype>
       <maptype>mediTurkishWar</maptype>
       <maptype>westEurope</maptype>
@@ -15886,6 +16482,7 @@
       <resource>Wood</resource>
       <amount>45</amount>
       <maptype>historicalMaps</maptype>
+      <maptype>lostEU</maptype>
       <maptype>centralEurope</maptype>
       <maptype>westEurope</maptype>
       <maptype>northEurope</maptype>
@@ -15903,11 +16500,15 @@
       <resource>Wood</resource>
       <amount>40</amount>
       <maptype>historicalMaps</maptype>
+      <maptype>lostEU</maptype>
       <maptype>mediEurope</maptype>
+      <maptype>mediSea</maptype>
       <maptype>northEurope</maptype>
       <maptype>Finland</maptype>
       <maptype>Wallachia</maptype>
       <maptype>mediTurkishWar</maptype>
+      <maptype>Steppe1</maptype>
+      <maptype>siberia</maptype>
       <guardian>deGuardianBrownBear</guardian>
       <difficulty>1</difficulty>
     </nugget>
@@ -15932,13 +16533,12 @@
       <resource>Wood</resource>
       <amount>50</amount>
       <maptype>historicalMaps</maptype>
+      <maptype>lostEU</maptype>
       <maptype>centralEurope</maptype>
       <maptype>Steppe1</maptype>
-      <maptype>Steppe2</maptype>
-      <maptype>Steppe3</maptype>
       <maptype>mediTurkishWar</maptype>
       <maptype>westNapoleon</maptype>
-      <guardian>deGuardianLandsknecht</guardian>
+      <guardian>deGuardianPlagueDoctor</guardian>
       <difficulty>1</difficulty>
     </nugget>
     <nugget>
@@ -15950,7 +16550,9 @@
       <rolloverstringid>124210</rolloverstringid>
       <applystringid>124211</applystringid>
       <maptype>historicalMaps</maptype>
+      <maptype>lostEU</maptype>
       <maptype>mediEurope</maptype>
+      <maptype>mediSea</maptype>
       <maptype>eastEurope</maptype>
       <maptype>northeastEurope</maptype>
       <maptype>Steppe1</maptype>
@@ -15970,6 +16572,7 @@
       <rolloverstringid>124216</rolloverstringid>
       <applystringid>124217</applystringid>
       <maptype>historicalMaps</maptype>
+      <maptype>lostEU</maptype>
       <maptype>westEurope</maptype>
       <maptype>eastEurope</maptype>
       <maptype>mediTurkishWar</maptype>
@@ -15986,17 +16589,26 @@
       <resource>Wood</resource>
       <amount>85</amount>
       <maptype>historicalMaps</maptype>
-      <maptype>Steppe1</maptype>
-      <maptype>Steppe2</maptype>
-      <maptype>Steppe3</maptype>
-      <maptype>mediTurkishWar</maptype>
-      <maptype>centralEurope</maptype>
+      <maptype>lostEU</maptype>
+      <maptype>northEurope</maptype>
+      <maptype>Finland</maptype>
       <maptype>westNapoleon</maptype>
-      <maptype>westEurope</maptype>
-      <maptype>mediEurope</maptype>
       <guardian>Wolf</guardian>
       <guardian>Wolf</guardian>
       <guardian>Wolf</guardian>
+      <difficulty>2</difficulty>
+    </nugget>
+    <nugget>
+      <name>euStretcherIce</name>
+      <rolloverstringid>124018</rolloverstringid>
+      <applystringid>124019</applystringid>
+      <nuggetunit>NuggetDroppedWood</nuggetunit>
+      <type>adjustResource</type>
+      <resource>Wood</resource>
+      <amount>110</amount>
+      <maptype>Iceland</maptype>
+      <guardian>PolarBear</guardian>
+      <guardian>PolarBear</guardian>
       <difficulty>2</difficulty>
     </nugget>
     <nugget>
@@ -16008,25 +16620,14 @@
       <resource>Wood</resource>
       <amount>90</amount>
       <maptype>historicalMaps</maptype>
+      <maptype>lostEU</maptype>
+      <maptype>Steppe1</maptype>
+      <maptype>centralEurope</maptype>
+      <maptype>eastEurope</maptype>
       <maptype>northeastEurope</maptype>
       <maptype>Wallachia</maptype>
-      <maptype>northEurope</maptype>
-      <maptype>Finland</maptype>
       <guardian>deGuardianBrownBear</guardian>
       <guardian>deGuardianBrownBear</guardian>
-      <difficulty>2</difficulty>
-    </nugget>
-    <nugget>
-      <name>euPeasantIce</name>
-      <rolloverstringid>124160</rolloverstringid>
-      <applystringid>124161</applystringid>
-      <nuggetunit>NuggetDroppedWood</nuggetunit>
-      <type>adjustResource</type>
-      <resource>Wood</resource>
-      <amount>110</amount>
-      <maptype>Iceland</maptype>
-      <guardian>PolarBear</guardian>
-      <guardian>PolarBear</guardian>
       <difficulty>2</difficulty>
     </nugget>
     <nugget>
@@ -16038,17 +16639,14 @@
       <rolloverstringid>124206</rolloverstringid>
       <applystringid>124207</applystringid>
       <maptype>historicalMaps</maptype>
-      <maptype>eastEurope</maptype>
+      <maptype>lostEU</maptype>
       <maptype>northeastEurope</maptype>
       <maptype>Steppe1</maptype>
-      <maptype>Steppe2</maptype>
-      <maptype>Steppe3</maptype>
       <maptype>Wallachia</maptype>
       <maptype>centralEurope</maptype>
       <maptype>mediEurope</maptype>
+      <maptype>mediSea</maptype>
       <maptype>northEurope</maptype>
-      <maptype>Iceland</maptype>
-      <maptype>Finland</maptype>
       <guardian>Wolf</guardian>
       <guardian>Wolf</guardian>
       <difficulty>2</difficulty>
@@ -16064,6 +16662,7 @@
       <maptype>Finland</maptype>
       <maptype>northEurope</maptype>
       <maptype>historicalMaps</maptype>
+      <maptype>lostEU</maptype>
       <guardian>Wolf</guardian>
       <guardian>Wolf</guardian>
       <guardian>Wolf</guardian>
@@ -16079,6 +16678,7 @@
       <rolloverstringid>124218</rolloverstringid>
       <applystringid>124219</applystringid>
       <maptype>historicalMaps</maptype>
+      <maptype>lostEU</maptype>
       <maptype>Wallachia</maptype>
       <maptype>eastEurope</maptype>
       <guardian>deGuardianHussar</guardian>
@@ -16097,7 +16697,9 @@
       <maptype>centralEurope</maptype>
       <maptype>westEurope</maptype>
       <maptype>mediEurope</maptype>
+      <maptype>mediSea</maptype>
       <maptype>historicalMaps</maptype>
+      <maptype>lostEU</maptype>
       <maptype>westNapoleon</maptype>
       <guardian>deGuardianMusketeer</guardian>
       <guardian>deGuardianMusketeer</guardian>
@@ -16129,7 +16731,9 @@
       <maptype>centralEurope</maptype>
       <maptype>westEurope</maptype>
       <maptype>mediEurope</maptype>
+      <maptype>mediSea</maptype>
       <maptype>historicalMaps</maptype>
+      <maptype>lostEU</maptype>
       <maptype>westNapoleon</maptype>
       <guardian>deGuardianHussar</guardian>
       <guardian>deGuardianHussar</guardian>
@@ -16161,6 +16765,7 @@
       <rolloverstringid>124218</rolloverstringid>
       <applystringid>124219</applystringid>
       <maptype>historicalMaps</maptype>
+      <maptype>lostEU</maptype>
       <maptype>eastEurope</maptype>
       <maptype>northeastEurope</maptype>
       <maptype>Steppe1</maptype>
@@ -16190,9 +16795,8 @@
       <maptype>Iceland</maptype>
       <maptype>Finland</maptype>
       <maptype>Steppe1</maptype>
-      <maptype>Steppe2</maptype>
-      <maptype>Steppe3</maptype>
       <maptype>historicalMaps</maptype>
+      <maptype>lostEU</maptype>
       <difficulty>1</difficulty>
     </nugget>
     <nugget>
@@ -16245,6 +16849,7 @@
       <amount>40</amount>
       <maptype>Wallachia</maptype>
       <maptype>mediEurope</maptype>
+      <maptype>mediSea</maptype>
       <maptype>historicalMaps</maptype>
       <maptype>mediTurkishWar</maptype>
       <guardian>Wolf</guardian>
@@ -16347,7 +16952,9 @@
       <maptype>centralEurope</maptype>
       <maptype>westEurope</maptype>
       <maptype>mediEurope</maptype>
+      <maptype>mediSea</maptype>
       <maptype>historicalMaps</maptype>
+      <maptype>lostEU</maptype>
       <maptype>mediTurkishWar</maptype>
       <maptype>westNapoleon</maptype>
       <guardian>deGuardianPlagueDoctor</guardian>
@@ -16362,11 +16969,11 @@
       <nuggetunit>NuggetDroppedCoin</nuggetunit>
       <type>adjustResource</type>
       <resource>Gold</resource>
-      <amount>100</amount>
+      <amount>85</amount>
       <maptype>historicalMaps</maptype>
       <maptype>centralEurope</maptype>
       <maptype>westEurope</maptype>
-      <guardian>deGuardianHighlander</guardian>
+      <guardian>deGuardianMusketeer</guardian>
       <guardian>deGuardianMusketeer</guardian>
       <difficulty>2</difficulty>
     </nugget>
@@ -16394,7 +17001,7 @@
       <nuggetunit>NuggetDroppedCoin</nuggetunit>
       <type>AdjustResource</type>
       <resource>Gold</resource>
-      <amount>100</amount>
+      <amount>80</amount>
       <rolloverstringid>124222</rolloverstringid>
       <applystringid>124223</applystringid>
       <maptype>historicalMaps</maptype>
@@ -16517,8 +17124,6 @@
       <maptype>eastEurope</maptype>
       <maptype>northeastEurope</maptype>
       <maptype>Steppe1</maptype>
-      <maptype>Steppe2</maptype>
-      <maptype>Steppe3</maptype>
       <guardian>deGuardianCossack</guardian>
       <guardian>deGuardianCossack</guardian>
       <guardian>deGuardianCossack</guardian>
@@ -16535,6 +17140,7 @@
       <maptype>historicalMaps</maptype>
       <maptype>westEurope</maptype>
       <maptype>mediEurope</maptype>
+      <maptype>mediSea</maptype>
       <maptype>mediTurkishWar</maptype>
       <maptype>westNapoleon</maptype>
       <guardian>deGuardianCrabat</guardian>
@@ -16569,6 +17175,7 @@
       <amount>180</amount>
       <maptype>historicalMaps</maptype>
       <maptype>mediEurope</maptype>
+      <maptype>mediSea</maptype>
       <maptype>mediTurkishWar</maptype>
       <maptype>westNapoleon</maptype>
       <guardian>deGuardianWitchHunter</guardian>
@@ -16584,9 +17191,9 @@
       <rolloverstringid>124102</rolloverstringid>
       <applystringid>124103</applystringid>
       <resource>Gold</resource>
-      <amount>80</amount>
+      <amount>100</amount>
       <resource2>XP</resource2>
-      <amount2>80</amount2>
+      <amount2>100</amount2>
       <maptype>westEurope</maptype>
       <maptype>westNapoleon</maptype>
       <maptype>historicalMaps</maptype>
@@ -16602,20 +17209,22 @@
       <rolloverstringid>124106</rolloverstringid>
       <applystringid>124107</applystringid>
       <resource>Gold</resource>
-      <amount>50</amount>
+      <amount>40</amount>
       <resource2>Wood</resource2>
-      <amount2>100</amount2>
+      <amount2>80</amount2>
       <maptype>Wallachia</maptype>
       <maptype>eastEurope</maptype>
       <maptype>centralEurope</maptype>
       <maptype>westEurope</maptype>
       <maptype>mediEurope</maptype>
+      <maptype>mediSea</maptype>
       <maptype>historicalMaps</maptype>
+      <maptype>lostEU</maptype>
       <maptype>mediTurkishWar</maptype>
       <maptype>westNapoleon</maptype>
       <guardian>deGuardianBrigand</guardian>
-      <guardian>deGuardianHussar</guardian>
-      <guardian>deGuardianHussar</guardian>
+      <guardian>deGuardianBrigand</guardian>
+      <guardian>deGuardianBrigand</guardian>
       <difficulty>3</difficulty>
     </nugget>
     <nugget>
@@ -16630,8 +17239,6 @@
       <maptype>Wallachia</maptype>
       <maptype>eastEurope</maptype>
       <maptype>Steppe1</maptype>
-      <maptype>Steppe2</maptype>
-      <maptype>Steppe3</maptype>
       <guardian>deGuardianCossack</guardian>
       <guardian>deGuardianCossack</guardian>
       <guardian>deGuardianCrabat</guardian>
@@ -16646,6 +17253,7 @@
       <rolloverstringid>124178</rolloverstringid>
       <applystringid>124179</applystringid>
       <maptype>historicalMaps</maptype>
+      <maptype>lostEU</maptype>
       <maptype>centralEurope</maptype>
       <maptype>northeastEurope</maptype>
       <guardian>deGuardianPikeman</guardian>
@@ -16663,9 +17271,10 @@
       <amount>200</amount>
       <resource2>XP</resource2>
       <amount2>200</amount2>
-      <maptype>mediEurope</maptype>
-      <maptype>mediTurkishWar</maptype>
+      <maptype>westEurope</maptype>
+      <maptype>westNapoleon</maptype>
       <maptype>historicalMaps</maptype>
+      <maptype>lostEU</maptype>
       <guardian>deGuardianHighlander</guardian>
       <guardian>deGuardianHighlander</guardian>
       <guardian>deGuardianHighlander</guardian>
@@ -16684,6 +17293,7 @@
       <maptype>historicalMaps</maptype>
       <maptype>centralEurope</maptype>
       <maptype>mediEurope</maptype>
+      <maptype>mediSea</maptype>
       <guardian>deGuardianHussar</guardian>
       <guardian>deGuardianHussar</guardian>
       <guardian>deGuardianHussar</guardian>
@@ -16702,6 +17312,7 @@
       <maptype>centralEurope</maptype>
       <maptype>westEurope</maptype>
       <maptype>mediEurope</maptype>
+      <maptype>mediSea</maptype>
       <guardian>deGuardianPikeman</guardian>
       <guardian>deGuardianPikeman</guardian>
       <guardian>deGuardianPikeman</guardian>
@@ -16867,18 +17478,20 @@
       <resource>Gold</resource>
       <amount>50</amount>
       <resource2>Wood</resource2>
-      <amount2>300</amount2>
+      <amount2>225</amount2>
       <maptype>centralEurope</maptype>
       <maptype>westEurope</maptype>
       <maptype>mediEurope</maptype>
+      <maptype>mediSea</maptype>
       <maptype>historicalMaps</maptype>
+      <maptype>lostEU</maptype>
       <maptype>mediTurkishWar</maptype>
       <maptype>westNapoleon</maptype>
       <guardian>deGuardianCuirassier</guardian>
-      <guardian>deGuardianHussar</guardian>
-      <guardian>deGuardianHussar</guardian>
-      <guardian>deGuardianHussar</guardian>
-      <guardian>deGuardianHussar</guardian>
+      <guardian>deGuardianCuirassier</guardian>
+      <guardian>deGuardianCuirassier</guardian>
+      <guardian>deGuardianCuirassier</guardian>
+      <guardian>deGuardianCuirassier</guardian>
       <difficulty>4</difficulty>
     </nugget>
     <nugget>
@@ -16894,6 +17507,7 @@
       <maptype>northEurope</maptype>
       <maptype>historicalMaps</maptype>
       <maptype>mediEurope</maptype>
+      <maptype>mediSea</maptype>
       <maptype>mediTurkishWar</maptype>
       <guardian>deGuardianWitchHunter</guardian>
       <difficulty>1</difficulty>
@@ -16924,9 +17538,6 @@
       <maptype>northeastEurope</maptype>
       <maptype>Wallachia</maptype>
       <maptype>eastEurope</maptype>
-      <maptype>Steppe1</maptype>
-      <maptype>Steppe2</maptype>
-      <maptype>Steppe3</maptype>
       <maptype>historicalMaps</maptype>
       <guardian>deGuardianWitchHunter</guardian>
       <difficulty>1</difficulty>
@@ -16938,18 +17549,8 @@
       <nuggetunit>euNuggetTreasureCharts</nuggetunit>
       <type>adjustResource</type>
       <resource>XP</resource>
-      <amount>40</amount>
-      <maptype>Iceland</maptype>
-      <maptype>Finland</maptype>
-      <maptype>northEurope</maptype>
-      <maptype>northeastEurope</maptype>
-      <maptype>Wallachia</maptype>
-      <maptype>eastEurope</maptype>
-      <maptype>Steppe1</maptype>
-      <maptype>Steppe2</maptype>
-      <maptype>Steppe3</maptype>
+      <amount>50</amount>
       <maptype>centralEurope</maptype>
-      <maptype>westEurope</maptype>
       <maptype>mediEurope</maptype>
       <maptype>historicalMaps</maptype>
       <maptype>mediTurkishWar</maptype>
@@ -16971,12 +17572,9 @@
       <maptype>Finland</maptype>
       <maptype>northEurope</maptype>
       <maptype>northeastEurope</maptype>
-      <maptype>centralEurope</maptype>
       <maptype>westEurope</maptype>
-      <maptype>mediEurope</maptype>
       <maptype>historicalMaps</maptype>
-      <maptype>mediTurkishWar</maptype>
-      <maptype>westNapoleon</maptype>
+      <maptype>lostEU</maptype>
       <guardian>deGuardianWitchHunter</guardian>
       <difficulty>1</difficulty>
     </nugget>
@@ -16990,13 +17588,10 @@
       <amount>50</amount>
       <maptype>Wallachia</maptype>
       <maptype>eastEurope</maptype>
-      <maptype>Steppe1</maptype>
-      <maptype>Steppe2</maptype>
-      <maptype>Steppe3</maptype>
       <maptype>westEurope</maptype>
       <maptype>westNapoleon</maptype>
       <maptype>historicalMaps</maptype>
-      <guardian>deGuardianBeast</guardian>
+      <guardian>Wolf</guardian>
       <difficulty>1</difficulty>
     </nugget>
     <nugget>
@@ -17009,8 +17604,6 @@
       <amount>95</amount>
       <maptype>northeastEurope</maptype>
       <maptype>Steppe1</maptype>
-      <maptype>Steppe2</maptype>
-      <maptype>Steppe3</maptype>
       <maptype>historicalMaps</maptype>
       <guardianunit>
         <unit>deGuardianPlagueDoctor</unit>
@@ -17034,6 +17627,7 @@
       <amount>125</amount>
       <maptype>Wallachia</maptype>
       <maptype>mediEurope</maptype>
+      <maptype>mediSea</maptype>
       <maptype>historicalMaps</maptype>
       <maptype>mediTurkishWar</maptype>
       <maptype>westNapoleon</maptype>
@@ -17080,6 +17674,7 @@
       <resource2>Wood</resource2>
       <amount2>50</amount2>
       <maptype>historicalMaps</maptype>
+      <maptype>lostEU</maptype>
       <maptype>northEurope</maptype>
       <maptype>westEurope</maptype>
       <maptype>westNapoleon</maptype>
@@ -17098,6 +17693,7 @@
       <resource>XP</resource>
       <amount>85</amount>
       <maptype>mediEurope</maptype>
+      <maptype>mediSea</maptype>
       <maptype>historicalMaps</maptype>
       <maptype>mediTurkishWar</maptype>
       <guardian>deGuardianPlagueDoctor</guardian>
@@ -17111,13 +17707,13 @@
       <nuggetunit>euNuggetTreasureCharts</nuggetunit>
       <type>adjustResource</type>
       <resource>XP</resource>
-      <amount>100</amount>
+      <amount>85</amount>
       <maptype>Iceland</maptype>
       <maptype>Finland</maptype>
       <maptype>northEurope</maptype>
       <maptype>historicalMaps</maptype>
       <maptype>westNapoleon</maptype>
-      <guardian>deGuardianLandsknecht</guardian>
+      <guardian>deGuardianMusketeer</guardian>
       <guardian>deGuardianMusketeer</guardian>
       <difficulty>2</difficulty>
     </nugget>
@@ -17133,8 +17729,6 @@
       <maptype>eastEurope</maptype>
       <maptype>northeastEurope</maptype>
       <maptype>Steppe1</maptype>
-      <maptype>Steppe2</maptype>
-      <maptype>Steppe3</maptype>
       <guardian>deGuardianPlagueDoctor</guardian>
       <guardian>deGuardianPlagueDoctor</guardian>
       <difficulty>2</difficulty>
@@ -17146,7 +17740,7 @@
       <rolloverstringid>124233</rolloverstringid>
       <applystringid>124234</applystringid>
       <resource>XP</resource>
-      <amount>120</amount>
+      <amount>100</amount>
       <maptype>mediEurope</maptype>
       <maptype>mediTurkishWar</maptype>
       <maptype>Wallachia</maptype>
@@ -17194,10 +17788,11 @@
       <rolloverstringid>124104</rolloverstringid>
       <applystringid>124105</applystringid>
       <resource>XP</resource>
-      <amount>80</amount>
+      <amount>100</amount>
       <resource2>Wood</resource2>
-      <amount2>80</amount2>
+      <amount2>100</amount2>
       <maptype>historicalMaps</maptype>
+      <maptype>lostEU</maptype>
       <maptype>Iceland</maptype>
       <maptype>Finland</maptype>
       <maptype>northEurope</maptype>
@@ -17220,8 +17815,6 @@
       <maptype>northeastEurope</maptype>
       <maptype>Wallachia</maptype>
       <maptype>Steppe1</maptype>
-      <maptype>Steppe2</maptype>
-      <maptype>Steppe3</maptype>
       <maptype>historicalMaps</maptype>
       <guardian>deGuardianLandsknecht</guardian>
       <guardian>deGuardianLandsknecht</guardian>
@@ -17235,8 +17828,9 @@
       <nuggetunit>NuggetDroppedSupplies</nuggetunit>
       <type>adjustResource</type>
       <resource>XP</resource>
-      <amount>125</amount>
+      <amount>135</amount>
       <maptype>mediEurope</maptype>
+      <maptype>mediSea</maptype>
       <maptype>historicalMaps</maptype>
       <maptype>mediTurkishWar</maptype>
       <guardian>deGuardianHighwayman</guardian>
@@ -17304,15 +17898,16 @@
       <nuggetunit>NuggetDroppedSupplies</nuggetunit>
       <type>AdjustResource</type>
       <resource>XP</resource>
-      <amount>200</amount>
+      <amount>175</amount>
       <rolloverstringid>124184</rolloverstringid>
       <applystringid>124185</applystringid>
       <maptype>historicalMaps</maptype>
       <maptype>centralEurope</maptype>
       <maptype>northeastEurope</maptype>
-      <guardian>deGuardianHighlander</guardian>
-      <guardian>deGuardianHighlander</guardian>
-      <guardian>deGuardianHighlander</guardian>
+      <guardian>deGuardianHighwayman</guardian>
+      <guardian>deGuardianHighwayman</guardian>
+      <guardian>deGuardianHighwayman</guardian>
+      <guardian>deGuardianHighwayman</guardian>
       <difficulty>3</difficulty>
     </nugget>
     <nugget>
@@ -17344,6 +17939,7 @@
       <applystringid>124203</applystringid>
       <maptype>historicalMaps</maptype>
       <maptype>mediEurope</maptype>
+      <maptype>mediSea</maptype>
       <maptype>mediTurkishWar</maptype>
       <guardian>deGuardianPikeman</guardian>
       <guardian>deGuardianPikeman</guardian>
@@ -17358,13 +17954,14 @@
       <nuggetunit>NuggetDroppedSupplies</nuggetunit>
       <type>adjustResource</type>
       <resource>XP</resource>
-      <amount>220</amount>
+      <amount>200</amount>
       <maptype>historicalMaps</maptype>
       <maptype>centralEurope</maptype>
       <maptype>westEurope</maptype>
-      <guardian>deGuardianHighlander</guardian>
-      <guardian>deGuardianHighlander</guardian>
-      <guardian>deGuardianHighlander</guardian>
+      <guardian>deGuardianSkirmisher</guardian>
+      <guardian>deGuardianSkirmisher</guardian>
+      <guardian>deGuardianSkirmisher</guardian>
+      <guardian>deGuardianSkirmisher</guardian>
       <difficulty>3</difficulty>
     </nugget>
     <nugget>
@@ -17398,6 +17995,7 @@
       <resource>XP</resource>
       <amount>250</amount>
       <maptype>historicalMaps</maptype>
+      <maptype>lostEU</maptype>
       <maptype>centralEurope</maptype>
       <maptype>westEurope</maptype>
       <guardian>Wolf</guardian>
@@ -17419,6 +18017,7 @@
       <maptype>Wallachia</maptype>
       <maptype>eastEurope</maptype>
       <maptype>mediEurope</maptype>
+      <maptype>mediSea</maptype>
       <maptype>historicalMaps</maptype>
       <maptype>mediTurkishWar</maptype>
       <guardian>deGuardianMusketeer</guardian>
@@ -17459,18 +18058,14 @@
       <resource>Gold</resource>
       <amount>1</amount>
       <resource2>XP</resource2>
-      <amount2>330</amount2>
+      <amount2>400</amount2>
       <maptype>historicalMaps</maptype>
       <maptype>northeastEurope</maptype>
       <maptype>northEurope</maptype>
       <maptype>Iceland</maptype>
       <maptype>Finland</maptype>
-      <maptype>Steppe1</maptype>
-      <maptype>Steppe2</maptype>
-      <maptype>Steppe3</maptype>
       <maptype>mediTurkishWar</maptype>
       <maptype>westNapoleon</maptype>
-      <guardian>Wolf</guardian>
       <guardian>Wolf</guardian>
       <guardian>Wolf</guardian>
       <guardian>Wolf</guardian>
@@ -17493,9 +18088,6 @@
       <maptype>Wallachia</maptype>
       <maptype>Iceland</maptype>
       <maptype>Finland</maptype>
-      <maptype>Steppe1</maptype>
-      <maptype>Steppe2</maptype>
-      <maptype>Steppe3</maptype>
       <maptype>mediTurkishWar</maptype>
       <maptype>westNapoleon</maptype>
       <guardian>deGuardianBeastOfGevaudan</guardian>
@@ -17540,7 +18132,7 @@
       <guardian>deGuardianBrigand</guardian>
       <guardian>deGuardianBrigand</guardian>
       <guardian>deGuardianBrigand</guardian>
-      <guardian>deGuardianWildDog</guardian>
+      <guardian>deGuardianBrigand</guardian>
       <difficulty>4</difficulty>
     </nugget>
     <nugget>
@@ -17612,8 +18204,10 @@
       <unittype>PetWolf</unittype>
       <amount>1</amount>
       <maptype>historicalMaps</maptype>
+      <maptype>lostEU</maptype>
       <maptype>northeastEurope</maptype>
       <maptype>Steppe2</maptype>
+      <maptype>Steppe3</maptype>
       <maptype>northEurope</maptype>
       <maptype>Iceland</maptype>
       <guardianunit>
@@ -17639,13 +18233,13 @@
       <unittype>Wardog</unittype>
       <amount>1</amount>
       <maptype>historicalMaps</maptype>
+      <maptype>lostEU</maptype>
       <maptype>eastEurope</maptype>
       <maptype>centralEurope</maptype>
       <maptype>mediEurope</maptype>
       <maptype>Wallachia</maptype>
       <maptype>Finland</maptype>
       <maptype>Steppe1</maptype>
-      <maptype>Steppe3</maptype>
       <maptype>mediTurkishWar</maptype>
       <maptype>westNapoleon</maptype>
       <guardian>deGuardianHighwayman</guardian>
@@ -17686,8 +18280,6 @@
       <maptype>eastEurope</maptype>
       <maptype>northeastEurope</maptype>
       <maptype>Steppe1</maptype>
-      <maptype>Steppe2</maptype>
-      <maptype>Steppe3</maptype>
       <convertunit>
         <unit>Settler</unit>
         <idleanim>Bear_Tree_Captive_Idle</idleanim>
@@ -17721,6 +18313,7 @@
       <maptype>Finland</maptype>
       <maptype>Wallachia</maptype>
       <maptype>historicalMaps</maptype>
+      <maptype>lostEU</maptype>
       <maptype>mediTurkishWar</maptype>
       <maptype>westNapoleon</maptype>
       <convertunit>
@@ -17762,6 +18355,7 @@
       <maptype>centralEurope</maptype>
       <maptype>westEurope</maptype>
       <maptype>historicalMaps</maptype>
+      <maptype>lostEU</maptype>
       <guardianunit>
         <unit>deGuardianMusketeer</unit>
         <idleanim>Kidnap_OutlawA_Idle</idleanim>
@@ -17798,7 +18392,9 @@
       </convertunit>
       <maptype>centralEurope</maptype>
       <maptype>mediEurope</maptype>
+      <maptype>mediSea</maptype>
       <maptype>historicalMaps</maptype>
+      <maptype>lostEU</maptype>
       <maptype>Steppe1</maptype>
       <maptype>Steppe2</maptype>
       <maptype>Steppe3</maptype>
@@ -17834,10 +18430,10 @@
       <maptype>Wallachia</maptype>
       <maptype>eastEurope</maptype>
       <maptype>westEurope</maptype>
-      <maptype>Steppe1</maptype>
       <maptype>Steppe2</maptype>
       <maptype>Steppe3</maptype>
       <maptype>historicalMaps</maptype>
+      <maptype>lostEU</maptype>
       <convertunit>
         <unit>Settler</unit>
         <idleanim>Wolf_Treebent_Captive_Idle</idleanim>
@@ -17873,7 +18469,9 @@
       <applystringid>124115</applystringid>
       <maptype>Wallachia</maptype>
       <maptype>mediEurope</maptype>
+      <maptype>mediSea</maptype>
       <maptype>historicalMaps</maptype>
+      <maptype>lostEU</maptype>
       <maptype>mediTurkishWar</maptype>
       <maptype>westNapoleon</maptype>
       <convertunit>
@@ -17907,12 +18505,11 @@
       <rolloverstringid>36942</rolloverstringid>
       <applystringid>36943</applystringid>
       <maptype>historicalMaps</maptype>
+      <maptype>lostEU</maptype>
       <maptype>northeastEurope</maptype>
       <maptype>northEurope</maptype>
       <maptype>Finland</maptype>
       <maptype>Steppe1</maptype>
-      <maptype>Steppe2</maptype>
-      <maptype>Steppe3</maptype>
       <convertunit>
         <unit>Settler</unit>
         <idleanim>Wolf_Treebent_Captive_Idle</idleanim>
@@ -17976,9 +18573,6 @@
       <amount>3</amount>
       <maptype>historicalMaps</maptype>
       <maptype>eastEurope</maptype>
-      <maptype>Steppe1</maptype>
-      <maptype>Steppe2</maptype>
-      <maptype>Steppe3</maptype>
       <maptype>mediEurope</maptype>
       <guardian>deGuardianPlagueDoctor</guardian>
       <guardian>deGuardianPlagueDoctor</guardian>
@@ -17997,6 +18591,7 @@
       <maptype>centralEurope</maptype>
       <maptype>westEurope</maptype>
       <maptype>historicalMaps</maptype>
+      <maptype>lostEU</maptype>
       <convertunit>
         <unit>euNuggetHouseReward</unit>
         <attachdummy>bone_nuggetA</attachdummy>
@@ -18041,6 +18636,7 @@
       <maptype>Iceland</maptype>
       <maptype>Finland</maptype>
       <maptype>historicalMaps</maptype>
+      <maptype>lostEU</maptype>
       <difficulty>4</difficulty>
       <killunitonapply>0</killunitonapply>
     </nugget>
@@ -18068,7 +18664,9 @@
       </guardianunit>
       <maptype>Wallachia</maptype>
       <maptype>mediEurope</maptype>
+      <maptype>mediSea</maptype>
       <maptype>historicalMaps</maptype>
+      <maptype>lostEU</maptype>
       <difficulty>4</difficulty>
       <killunitonapply>0</killunitonapply>
     </nugget>
@@ -18080,6 +18678,7 @@
       <applystringid>27741</applystringid>
       <amount>1.1</amount>
       <maptype>historicalMaps</maptype>
+      <maptype>lostEU</maptype>
       <maptype>Steppe1</maptype>
       <maptype>Steppe2</maptype>
       <maptype>Steppe3</maptype>
@@ -18102,7 +18701,6 @@
       <maptype>westEurope</maptype>
       <maptype>mediEurope</maptype>
       <maptype>Finland</maptype>
-      <maptype>Steppe1</maptype>
       <guardian>deGuardianBeast</guardian>
       <guardian>deGuardianBeast</guardian>
       <difficulty>3</difficulty>
@@ -18116,7 +18714,7 @@
       <applystringid>27743</applystringid>
       <amount>2</amount>
       <maptype>historicalMaps</maptype>
-      <maptype>Steppe2</maptype>
+      <maptype>lostEU</maptype>
       <maptype>centralEurope</maptype>
       <maptype>northEurope</maptype>
       <guardian>deGuardianBeastOfGevaudan</guardian>
@@ -18136,8 +18734,8 @@
       <maptype>Iceland</maptype>
       <maptype>northeastEurope</maptype>
       <maptype>eastEurope</maptype>
-      <maptype>Steppe3</maptype>
       <maptype>historicalMaps</maptype>
+      <maptype>lostEU</maptype>
       <maptype>mediTurkishWar</maptype>
       <maptype>westNapoleon</maptype>
       <guardian>deGuardianPlagueDoctor</guardian>
@@ -18157,8 +18755,6 @@
       <maptype>Finland</maptype>
       <maptype>Wallachia</maptype>
       <maptype>Steppe1</maptype>
-      <maptype>Steppe2</maptype>
-      <maptype>Steppe3</maptype>
       <maptype>historicalMaps</maptype>
       <maptype>mediTurkishWar</maptype>
       <maptype>westNapoleon</maptype>
@@ -18179,6 +18775,7 @@
       <maptype>centralEurope</maptype>
       <maptype>westEurope</maptype>
       <maptype>mediEurope</maptype>
+      <maptype>mediSea</maptype>
       <maptype>northEurope</maptype>
       <maptype>Wallachia</maptype>
       <maptype>Iceland</maptype>
@@ -18198,11 +18795,13 @@
       <type>GiveTech</type>
       <tech>euTreasureTechWoodBuff</tech>
       <maptype>historicalMaps</maptype>
+      <maptype>lostEU</maptype>
       <maptype>eastEurope</maptype>
       <maptype>northeastEurope</maptype>
       <maptype>centralEurope</maptype>
       <maptype>westEurope</maptype>
       <maptype>mediEurope</maptype>
+      <maptype>mediSea</maptype>
       <maptype>northEurope</maptype>
       <maptype>Wallachia</maptype>
       <maptype>Iceland</maptype>
@@ -18224,11 +18823,13 @@
       <applystringid>102289</applystringid>
       <difficulty>69</difficulty>
       <maptype>historicalMaps</maptype>
+      <maptype>lostEU</maptype>
       <maptype>eastEurope</maptype>
       <maptype>northeastEurope</maptype>
       <maptype>centralEurope</maptype>
       <maptype>westEurope</maptype>
       <maptype>mediEurope</maptype>
+      <maptype>mediSea</maptype>
       <maptype>northEurope</maptype>
       <maptype>Wallachia</maptype>
       <maptype>Iceland</maptype>
@@ -18248,11 +18849,13 @@
       <type>ConvertUnit</type>
       <amount>1</amount>
       <maptype>historicalMaps</maptype>
+      <maptype>lostEU</maptype>
       <maptype>eastEurope</maptype>
       <maptype>northeastEurope</maptype>
       <maptype>centralEurope</maptype>
       <maptype>westEurope</maptype>
       <maptype>mediEurope</maptype>
+      <maptype>mediSea</maptype>
       <maptype>northEurope</maptype>
       <maptype>Wallachia</maptype>
       <maptype>Iceland</maptype>
@@ -18284,6 +18887,7 @@
       <unittype>dePetBoar</unittype>
       <amount>1</amount>
       <maptype>mediEurope</maptype>
+      <maptype>mediSea</maptype>
       <difficulty>1297</difficulty>
     </nugget>
     <nugget>
@@ -18348,6 +18952,7 @@
       <resource>Wood</resource>
       <amount>20</amount>
       <maptype>mediEurope</maptype>
+      <maptype>mediSea</maptype>
       <difficulty>5</difficulty>
     </nugget>
     <nugget>
@@ -18360,6 +18965,7 @@
       <resource>Wood</resource>
       <amount>100</amount>
       <maptype>mediEurope</maptype>
+      <maptype>mediSea</maptype>
       <guardian>ypGreatWhiteShark</guardian>
       <guardian>ypGreatWhiteShark</guardian>
       <difficulty>5</difficulty>
@@ -18374,6 +18980,7 @@
       <resource>Food</resource>
       <amount>100</amount>
       <maptype>mediEurope</maptype>
+      <maptype>mediSea</maptype>
       <guardian>ypGreatWhiteShark</guardian>
       <guardian>ypGreatWhiteShark</guardian>
       <difficulty>5</difficulty>
@@ -18388,6 +18995,7 @@
       <resource>xp</resource>
       <amount>30</amount>
       <maptype>mediEurope</maptype>
+      <maptype>mediSea</maptype>
       <difficulty>5</difficulty>
     </nugget>
     <nugget>
@@ -18400,6 +19008,7 @@
       <resource>Gold</resource>
       <amount>25</amount>
       <maptype>mediEurope</maptype>
+      <maptype>mediSea</maptype>
       <difficulty>5</difficulty>
     </nugget>
     <nugget>
@@ -18412,6 +19021,7 @@
       <resource>XP</resource>
       <amount>25</amount>
       <maptype>mediEurope</maptype>
+      <maptype>mediSea</maptype>
       <difficulty>5</difficulty>
     </nugget>
     <nugget>
@@ -18424,6 +19034,7 @@
       <resource>Gold</resource>
       <amount>90</amount>
       <maptype>mediEurope</maptype>
+      <maptype>mediSea</maptype>
       <guardian>ypGreatWhiteShark</guardian>
       <guardian>ypGreatWhiteShark</guardian>
       <difficulty>5</difficulty>
@@ -18438,6 +19049,7 @@
       <resource>XP</resource>
       <amount>65</amount>
       <maptype>mediEurope</maptype>
+      <maptype>mediSea</maptype>
       <guardian>ypGreatWhiteShark</guardian>
       <difficulty>5</difficulty>
     </nugget>
@@ -18451,6 +19063,7 @@
       <resource>Gold</resource>
       <amount>55</amount>
       <maptype>mediEurope</maptype>
+      <maptype>mediSea</maptype>
       <guardian>ypGreatWhiteShark</guardian>
       <difficulty>5</difficulty>
     </nugget>
@@ -18464,6 +19077,7 @@
       <resource>Wood</resource>
       <amount>45</amount>
       <maptype>mediEurope</maptype>
+      <maptype>mediSea</maptype>
       <guardian>ypGreatWhiteShark</guardian>
       <difficulty>5</difficulty>
     </nugget>
@@ -18477,6 +19091,7 @@
       <resource>Gold</resource>
       <amount>200</amount>
       <maptype>mediEurope</maptype>
+      <maptype>mediSea</maptype>
       <guardian>ypGreatWhiteShark</guardian>
       <guardian>ypGreatWhiteShark</guardian>
       <guardian>ypGreatWhiteShark</guardian>
@@ -18493,6 +19108,7 @@
       <resource>XP</resource>
       <amount>225</amount>
       <maptype>mediEurope</maptype>
+      <maptype>mediSea</maptype>
       <guardian>ypGreatWhiteShark</guardian>
       <guardian>ypGreatWhiteShark</guardian>
       <guardian>ypGreatWhiteShark</guardian>
@@ -18509,6 +19125,7 @@
       <resource>Wood</resource>
       <amount>175</amount>
       <maptype>mediEurope</maptype>
+      <maptype>mediSea</maptype>
       <guardian>ypGreatWhiteShark</guardian>
       <guardian>ypGreatWhiteShark</guardian>
       <guardian>ypGreatWhiteShark</guardian>
@@ -18525,6 +19142,7 @@
       <resource>Gold</resource>
       <amount>50</amount>
       <maptype>mediEurope</maptype>
+      <maptype>mediSea</maptype>
       <guardian>ypGreatWhiteShark</guardian>
       <difficulty>5</difficulty>
     </nugget>
@@ -18538,6 +19156,7 @@
       <resource>XP</resource>
       <amount>60</amount>
       <maptype>mediEurope</maptype>
+      <maptype>mediSea</maptype>
       <guardian>ypGreatWhiteShark</guardian>
       <difficulty>5</difficulty>
     </nugget>
@@ -18551,6 +19170,7 @@
       <resource>Wood</resource>
       <amount>40</amount>
       <maptype>mediEurope</maptype>
+      <maptype>mediSea</maptype>
       <guardian>ypGreatWhiteShark</guardian>
       <difficulty>5</difficulty>
     </nugget>
@@ -18563,6 +19183,7 @@
       <applystringid>66494</applystringid>
       <tech>ypNuggetShipHP</tech>
       <maptype>mediEurope</maptype>
+      <maptype>mediSea</maptype>
       <guardian>dePrivateerGuardian</guardian>
       <difficulty>6</difficulty>
     </nugget>
@@ -18575,6 +19196,7 @@
       <applystringid>66500</applystringid>
       <tech>ypNuggetShipBuilding</tech>
       <maptype>mediEurope</maptype>
+      <maptype>mediSea</maptype>
       <guardian>dePrivateerGuardian</guardian>
       <difficulty>6</difficulty>
     </nugget>
@@ -18587,6 +19209,7 @@
       <applystringid>66490</applystringid>
       <tech>ypNuggetShipGather</tech>
       <maptype>mediEurope</maptype>
+      <maptype>mediSea</maptype>
       <guardian>dePrivateerGuardian</guardian>
       <difficulty>6</difficulty>
     </nugget>
@@ -18600,6 +19223,7 @@
       <resource>Gold</resource>
       <amount>100</amount>
       <maptype>mediEurope</maptype>
+      <maptype>mediSea</maptype>
       <guardian>ypGreatWhiteShark</guardian>
       <guardian>ypGreatWhiteShark</guardian>
       <difficulty>5</difficulty>
@@ -18616,6 +19240,7 @@
       <resource2>Gold</resource2>
       <amount2>100</amount2>
       <maptype>mediEurope</maptype>
+      <maptype>mediSea</maptype>
       <difficulty>5</difficulty>
       <guardian>ypGreatWhiteShark</guardian>
       <guardian>ypGreatWhiteShark</guardian>
@@ -18634,6 +19259,7 @@
       <resource2>Gold</resource2>
       <amount2>200</amount2>
       <maptype>mediEurope</maptype>
+      <maptype>mediSea</maptype>
       <difficulty>6</difficulty>
       <guardian>dePrivateerGuardian</guardian>
     </nugget>
@@ -18647,6 +19273,7 @@
       <resource>XP</resource>
       <amount>400</amount>
       <maptype>mediEurope</maptype>
+      <maptype>mediSea</maptype>
       <difficulty>6</difficulty>
       <guardian>dePrivateerGuardian</guardian>
     </nugget>
@@ -18660,6 +19287,7 @@
       <resource>Gold</resource>
       <amount>400</amount>
       <maptype>mediEurope</maptype>
+      <maptype>mediSea</maptype>
       <difficulty>6</difficulty>
       <guardian>dePrivateerGuardian</guardian>
     </nugget>
@@ -18673,6 +19301,7 @@
       <resource>Food</resource>
       <amount>400</amount>
       <maptype>mediEurope</maptype>
+      <maptype>mediSea</maptype>
       <difficulty>6</difficulty>
       <guardian>dePrivateerGuardian</guardian>
     </nugget>
@@ -18686,6 +19315,7 @@
       <unittype>FishingBoat</unittype>
       <amount>1</amount>
       <maptype>mediEurope</maptype>
+      <maptype>mediSea</maptype>
       <guardian>ypGreatWhiteShark</guardian>
       <guardian>ypGreatWhiteShark</guardian>
       <guardian>ypGreatWhiteShark</guardian>
@@ -18702,6 +19332,7 @@
       <resource>XP</resource>
       <amount>175</amount>
       <maptype>mediEurope</maptype>
+      <maptype>mediSea</maptype>
       <guardian>ypGreatWhiteShark</guardian>
       <guardian>ypGreatWhiteShark</guardian>
       <guardian>ypGreatWhiteShark</guardian>
@@ -18718,6 +19349,7 @@
       <resource>XP</resource>
       <amount>70</amount>
       <maptype>mediEurope</maptype>
+      <maptype>mediSea</maptype>
       <guardian>ypGreatWhiteShark</guardian>
       <difficulty>5</difficulty>
     </nugget>
@@ -18730,6 +19362,7 @@
       <applystringid>90942</applystringid>
       <tech>deWarshipAttack</tech>
       <maptype>mediEurope</maptype>
+      <maptype>mediSea</maptype>
       <guardian>dePrivateerGuardian</guardian>
       <difficulty>6</difficulty>
     </nugget>
@@ -18742,6 +19375,7 @@
       <applystringid>90944</applystringid>
       <tech>deWarshipCost</tech>
       <maptype>mediEurope</maptype>
+      <maptype>mediSea</maptype>
       <guardian>dePrivateerGuardian</guardian>
       <difficulty>6</difficulty>
     </nugget>
@@ -18754,6 +19388,7 @@
       <applystringid>90946</applystringid>
       <tech>deWarshipROF</tech>
       <maptype>mediEurope</maptype>
+      <maptype>mediSea</maptype>
       <guardian>dePrivateerGuardian</guardian>
       <difficulty>6</difficulty>
     </nugget>

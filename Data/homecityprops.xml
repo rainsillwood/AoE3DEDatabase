@@ -14094,8 +14094,298 @@
     <prop>Lakota_Tipi_New</prop>
     <prop>Lakota_Tipi_Original</prop>
   </exclusiveprops>
+  <compositeprops>
+    <prop>Lakota_Fireflies</prop>
+  </compositeprops>
   <prop>
     <name>xpLakotaWarchief</name>
+    <type>Unit</type>
+    <description>View and Customize the appearance of your Explorer</description>
+    <descriptionstringid>49566</descriptionstringid>
+  </prop>
+  <prop>
+    <name>ExplorerDutch</name>
+    <type>Unit</type>
+    <description>View and Customize the appearance of your Explorer</description>
+    <descriptionstringid>49566</descriptionstringid>
+  </prop>
+  <prop>
+    <name>ExplorerFrench</name>
+    <type>Unit</type>
+    <description>View and Customize the appearance of your Explorer</description>
+    <descriptionstringid>49566</descriptionstringid>
+  </prop>
+  <prop>
+    <name>ExplorerGerman</name>
+    <type>Unit</type>
+    <description>View and Customize the appearance of your Explorer</description>
+    <descriptionstringid>49566</descriptionstringid>
+  </prop>
+  <prop>
+    <name>ypMonkIndian</name>
+    <type>Unit</type>
+    <description>View and Customize the appearance of your Explorer</description>
+    <descriptionstringid>49566</descriptionstringid>
+  </prop>
+  <prop>
+    <name>ypMonkJapanese</name>
+    <type>Unit</type>
+    <description>View and Customize the appearance of your Explorer</description>
+    <descriptionstringid>49566</descriptionstringid>
+  </prop>
+  <prop>
+    <name>ExplorerOttomans</name>
+    <type>Unit</type>
+    <description>View and Customize the appearance of your Explorer</description>
+    <descriptionstringid>49566</descriptionstringid>
+  </prop>
+  <prop>
+    <name>ExplorerPortuguese</name>
+    <type>Unit</type>
+    <description>View and Customize the appearance of your Explorer</description>
+    <descriptionstringid>49566</descriptionstringid>
+  </prop>
+  <prop>
+    <name>ExplorerRussian</name>
+    <type>Unit</type>
+    <description>View and Customize the appearance of your Explorer</description>
+    <descriptionstringid>49566</descriptionstringid>
+  </prop>
+  <prop>
+    <name>ExplorerDESwedish</name>
+    <type>Unit</type>
+    <description>View and Customize the appearance of your Explorer</description>
+    <descriptionstringid>49566</descriptionstringid>
+  </prop>
+  <prop>
+    <name>Iroquois_Moonlight_night</name>
+    <type>LightSet</type>
+    <displayname>Moonlit Night Lighting</displayname>
+    <displaynamestringid>55704</displaynamestringid>
+    <description>A moonlit night at the Haudenosaunee campsite.</description>
+    <descriptionstringid>55705</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <position>
+      <building>ManufacturingPlant</building>
+    </position>
+    <icon>homecity\home_city_props\icons\Ha_HC_Moonlit</icon>
+    <variationid>3</variationid>
+    <lightset>hc_iroquois1</lightset>
+    <deactivateprops>
+      <prop>Iroquois_Fireflies</prop>
+    </deactivateprops>
+  </prop>
+  <prop>
+    <name>Iroquois_Sunset_lighting</name>
+    <type>LightSet</type>
+    <displayname>Sunset Lighting</displayname>
+    <displaynamestringid>49456</displaynamestringid>
+    <description>The sunset at the Haudenosaunee campsite.</description>
+    <descriptionstringid>55706</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <cost>5</cost>
+    <position>
+      <building>ManufacturingPlant</building>
+    </position>
+    <icon>homecity\home_city_props\icons\Ha_HC_Sunset</icon>
+    <variationid>2</variationid>
+    <lightset>hc_iroquois_sunset</lightset>
+    <deactivateprops>
+      <prop>Iroquois_Fireflies</prop>
+    </deactivateprops>
+  </prop>
+  <prop>
+    <name>Iroquois_NightLighting</name>
+    <type>LightSet</type>
+    <displayname>Night Lighting</displayname>
+    <displaynamestringid>49058</displaynamestringid>
+    <description>Haudenosaunee campsite at night.</description>
+    <descriptionstringid>55707</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <cost>10</cost>
+    <position>
+      <building>ManufacturingPlant</building>
+    </position>
+    <icon>homecity\home_city_props\icons\Ha_HC_Night</icon>
+    <variationid>1</variationid>
+    <lightset>hc_iroquois_night</lightset>
+    <deactivateprops>
+      <prop>Iroquois_Fireflies</prop>
+    </deactivateprops>
+  </prop>
+  <prop>
+    <name>Iroquois_NightLighting_Fireflies</name>
+    <type>LightSet</type>
+    <displayname>Night Lighting - Fireflies</displayname>
+    <displaynamestringid>55670</displaynamestringid>
+    <description>Haudenosaunee campsite at night with fireflies.</description>
+    <descriptionstringid>55708</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <cost>10</cost>
+    <position>
+      <building>ManufacturingPlant</building>
+    </position>
+    <icon>homecity\home_city_props\icons\Ha_HC_NightFF</icon>
+    <variationid>1</variationid>
+    <lightset>hc_iroquois_night</lightset>
+    <activateprops>
+      <prop>Iroquois_Fireflies</prop>
+    </activateprops>
+  </prop>
+  <prop>
+    <name>Iroquois_Snowy_season</name>
+    <type>LightSet</type>
+    <displayname>Snowy Season</displayname>
+    <displaynamestringid>49510</displaynamestringid>
+    <description>Seasons changing at the Haudenosaunee campsite.</description>
+    <descriptionstringid>55709</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <cost>20</cost>
+    <position>
+      <building>ManufacturingPlant</building>
+    </position>
+    <icon>homecity\home_city_props\icons\Ha_HC_Snow</icon>
+    <cityvariationid>1</cityvariationid>
+    <variationid>0</variationid>
+    <applyvariationoffset>snow</applyvariationoffset>
+    <lightset>hc_iroquois_snow</lightset>
+    <weathereffect>Snow</weathereffect>
+    <deactivateprops>
+      <prop>Iroquois_Fireflies</prop>
+    </deactivateprops>
+  </prop>
+  <prop>
+    <name>Iroquois_fishrack</name>
+    <type>Object</type>
+    <displayname>Work station - Fish rack</displayname>
+    <displaynamestringid>55710</displaynamestringid>
+    <description>Fish racks stationed around the campsite.</description>
+    <descriptionstringid>55711</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <visual>homecity\home_city_props\Haudenosaunee_fishRacks\Haudenosaunee_fishRacks.xml</visual>
+    <cost>2</cost>
+    <position>
+      <bone>bone_campfire</bone>
+      <building>Market</building>
+    </position>
+    <icon>homecity\home_city_props\icons\Ha_HC_fishRack</icon>
+    <buttonaction>toggle</buttonaction>
+  </prop>
+  <prop>
+    <name>Iroquois_pelt_rack</name>
+    <type>Object</type>
+    <displayname>Work station - Pelt rack</displayname>
+    <displaynamestringid>55712</displaynamestringid>
+    <description>Original pelt rack stationed at the campsite.</description>
+    <descriptionstringid>55721</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <visual>homecity\home_city_props\Haudenosaunee_stretcher\Haudenosaunee_stretcher.xml</visual>
+    <position>
+      <bone>bone_main</bone>
+      <building>Academy</building>
+    </position>
+    <icon>homecity\home_city_props\icons\Ha_HC_Peltwolf</icon>
+    <buttonaction>toggle</buttonaction>
+  </prop>
+  <prop>
+    <name>Iroquois_pelt_rack_fox</name>
+    <type>Object</type>
+    <displayname>Work station - Pelt rack</displayname>
+    <displaynamestringid>55712</displaynamestringid>
+    <description>New pelt rack stationed at the campsite.</description>
+    <descriptionstringid>55713</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <visual>homecity\home_city_props\Haudenosaunee_stretcher\Haudenosaunee_stretcher_fox.xml</visual>
+    <cost>2</cost>
+    <position>
+      <bone>bone_main</bone>
+      <building>Academy</building>
+    </position>
+    <icon>homecity\home_city_props\icons\Ha_HC_Peltfox</icon>
+    <buttonaction>toggle</buttonaction>
+  </prop>
+  <prop>
+    <name>Iroquois_canoe</name>
+    <type>Unit</type>
+    <displayname>Civilians - Canoes</displayname>
+    <displaynamestringid>55714</displaynamestringid>
+    <description>Civilians sailing in their canoes. </description>
+    <descriptionstringid>55715</descriptionstringid>
+    <position>
+      <building>Dock</building>
+    </position>
+    <cost>2</cost>
+    <icon>homecity\home_city_props\icons\Ha_HC_canoes</icon>
+    <buttonaction>toggle</buttonaction>
+    <variationmaxid>2</variationmaxid>
+  </prop>
+  <prop>
+    <name>Iroquois_longhouse</name>
+    <type>Object</type>
+    <displayname>Original Long House Entry</displayname>
+    <displaynamestringid>55716</displaynamestringid>
+    <description>The original entrance design of the front door.</description>
+    <descriptionstringid>55717</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <position>
+      <bone>bone_main</bone>
+      <building>Cathedral</building>
+    </position>
+    <icon>homecity\home_city_props\icons\Ha_longhouse_Door_01</icon>
+    <visual>homecity\home_city_props\\Haudenosaunee_door\Haudenosaunee_door1.xml</visual>
+  </prop>
+  <prop>
+    <name>Iroquois_alternate_longhouse</name>
+    <type>Object</type>
+    <displayname>Alternate Long House Entry</displayname>
+    <displaynamestringid>55718</displaynamestringid>
+    <description>An alternate entrance design of the front door.</description>
+    <descriptionstringid>55719</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <cost>2</cost>
+    <position>
+      <bone>bone_main</bone>
+      <building>Cathedral</building>
+    </position>
+    <icon>homecity\home_city_props\icons\Ha_longhouse_Door_02</icon>
+    <visual>homecity\home_city_props\\Haudenosaunee_door\Haudenosaunee_door2.xml</visual>
+  </prop>
+  <prop>
+    <name>Iroquois_Fireflies</name>
+    <type>Object</type>
+    <position>
+      <bone>bone_main</bone>
+    </position>
+    <visual>homecity\home_city_props\Haudenosaunee_fireflies\Haudenosaunee_fireflies.xml</visual>
+  </prop>
+  <prop>
+    <name>Iroquois_longhouse_variation</name>
+    <type>ReplaceVisual</type>
+    <position>
+      <parentbuilding>Cathedral</parentbuilding>
+    </position>
+    <variationoffset name="snow">1</variationoffset>
+  </prop>
+  <compositeprops>
+    <prop>Iroquois_Fireflies</prop>
+  </compositeprops>
+  <exclusiveprops>
+    <prop>Iroquois_Moonlight_night</prop>
+    <prop>Iroquois_Sunset_lighting</prop>
+    <prop>Iroquois_NightLighting</prop>
+    <prop>Iroquois_NightLighting_Fireflies</prop>
+    <prop>Iroquois_Snowy_season</prop>
+  </exclusiveprops>
+  <exclusiveprops>
+    <prop>Iroquois_longhouse</prop>
+    <prop>Iroquois_alternate_longhouse</prop>
+  </exclusiveprops>
+  <exclusiveprops>
+    <prop>Iroquois_pelt_rack</prop>
+    <prop>Iroquois_pelt_rack_fox</prop>
+  </exclusiveprops>
+  <prop>
+    <name>xpIroquoisWarChief</name>
     <type>Unit</type>
     <description>View and Customize the appearance of your Explorer</description>
     <descriptionstringid>49566</descriptionstringid>

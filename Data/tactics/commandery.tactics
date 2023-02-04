@@ -36,7 +36,7 @@
     <projectile>Cannonball</projectile>
     <impacteffect>effects\impacts\cannon</impacteffect>
     <perfectaccuracy>1</perfectaccuracy>
-    <rate type="Ship">1.0</rate>
+    <rate type="AbstractWarship">1.0</rate>
   </action>
   <action>
     <name stringid="122315">FireAttack</name>

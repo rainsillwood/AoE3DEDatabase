@@ -802,11 +802,17 @@
     <name>RansomExplorer</name>
     <icon>resources\images\icons\command\ransom_explorer_on.png</icon>
     <disabledicon>resources\images\icons\command\ransom_explorer_off.png</disabledicon>
+    <associatedtech>DERansom</associatedtech>
+    <associatedpower>deRansom</associatedpower>
     <rollovertextid>28369</rollovertextid>
     <disabledrollovertextid>28370</disabledrollovertextid>
-    <command>ransomExplorer</command>
-    <closemenu>
-    </closemenu>
+    <command>ransomExplorerByID(%d)</command>
+    <commandpassesunitid>
+    </commandpassesunitid>
+    <usemultiple>
+    </usemultiple>
+    <ransom>
+    </ransom>
   </protounitcommand>
   <protounitcommand>
     <name>RansomExplorerAsian</name>
@@ -814,7 +820,9 @@
     <disabledicon>resources\images\icons\command\ransom_explorer_off.png</disabledicon>
     <rollovertextid>69609</rollovertextid>
     <disabledrollovertextid>69610</disabledrollovertextid>
-    <command>ransomExplorer</command>
+    <command>ransomExplorerByID(%d)</command>
+    <commandpassesunitid>
+    </commandpassesunitid>
     <closemenu>
     </closemenu>
   </protounitcommand>
@@ -968,13 +976,13 @@
   </protounitcommand>
   <protounitcommand>
     <name>ypOttomanLevy</name>
-    <icon>resources\images\icons\techs\levy\levy.png</icon>
+    <icon>resources\images\icons\techs\levy\levy_ottoman.png</icon>
     <spawncommand>
     </spawncommand>
     <unittype>Minuteman</unittype>
     <amount>6</amount>
-    <associatedtech>ypConsulateOttomansSettlerCombat</associatedtech>
-    <rollovertextid>64257</rollovertextid>
+    <associatedtech>DEOttomanLevy</associatedtech>
+    <rollovertextid>125451</rollovertextid>
   </protounitcommand>
   <protounitcommand>
     <name>Levy</name>
@@ -1204,7 +1212,6 @@
     <command>autoScout(false)</command>
   </protounitcommand>
   <protounitcommand>
-    <dbid>140</dbid>
     <name>deFortConscription</name>
     <icon>resources\images\icons\techs\conscription\conscription.png</icon>
     <spawncommand>
@@ -1215,7 +1222,6 @@
     <rollovertextid>90370</rollovertextid>
   </protounitcommand>
   <protounitcommand>
-    <dbid>141</dbid>
     <name>deFortLevy</name>
     <icon>resources\images\icons\techs\levy\levy.png</icon>
     <spawncommand>
@@ -1226,7 +1232,6 @@
     <rollovertextid>90371</rollovertextid>
   </protounitcommand>
   <protounitcommand>
-    <dbid>142</dbid>
     <name>deTacticHolyDanceLakota</name>
     <icon>resources\images\icons\fire_pit\Holy_sioux.png</icon>
     <activeicon>resources\images\icons\fire_pit\Holy_sioux_on.png</activeicon>
@@ -1236,7 +1241,6 @@
     <command>unitSetTactic("HolyDanceLakota")</command>
   </protounitcommand>
   <protounitcommand>
-    <dbid>143</dbid>
     <name>deUSLevy</name>
     <icon>resources\images\icons\techs\americans\levy_minutemen.png</icon>
     <spawncommand>
@@ -1255,7 +1259,6 @@
     </donotallowoverpoplimit>
   </protounitcommand>
   <protounitcommand>
-    <dbid>144</dbid>
     <name>deUSConscription</name>
     <icon>resources\images\icons\techs\americans\levy_minutemen.png</icon>
     <spawncommand>
@@ -1274,7 +1277,6 @@
     </donotallowoverpoplimit>
   </protounitcommand>
   <protounitcommand>
-    <dbid>145</dbid>
     <name>deImmigrantsSpanishLevy</name>
     <icon>resources\images\icons\techs\americans\levy_pikemen.png</icon>
     <spawncommand>
@@ -1294,7 +1296,6 @@
     </donotallowoverpoplimit>
   </protounitcommand>
   <protounitcommand>
-    <dbid>146</dbid>
     <name>deTacticFortStateMilitia</name>
     <icon>resources\images\icons\command\fort_produce_state_militia.png</icon>
     <activeicon>resources\images\icons\command\fort_produce_state_militia_on.png</activeicon>
@@ -1304,7 +1305,6 @@
     <command>unitSetTactic("FortNormal")</command>
   </protounitcommand>
   <protounitcommand>
-    <dbid>147</dbid>
     <name>deTacticFortRegular</name>
     <icon>resources\images\icons\command\fort_produce_regular.png</icon>
     <activeicon>resources\images\icons\command\fort_produce_regular_on.png</activeicon>
@@ -1314,7 +1314,6 @@
     <command>unitSetTactic("FortRegular")</command>
   </protounitcommand>
   <protounitcommand>
-    <dbid>148</dbid>
     <name>deTacticFortRifleman</name>
     <icon>resources\images\icons\command\fort_produce_sharpshooter.png</icon>
     <activeicon>resources\images\icons\command\fort_produce_sharpshooter_on.png</activeicon>
@@ -1324,7 +1323,6 @@
     <command>unitSetTactic("FortRifleman")</command>
   </protounitcommand>
   <protounitcommand>
-    <dbid>149</dbid>
     <name>deTacticFortHussar</name>
     <icon>resources\images\icons\command\fort_produce_hussar.png</icon>
     <activeicon>resources\images\icons\command\fort_produce_hussar_on.png</activeicon>
@@ -1334,7 +1332,6 @@
     <command>unitSetTactic("FortHussar")</command>
   </protounitcommand>
   <protounitcommand>
-    <dbid>150</dbid>
     <name>deTacticFortUSCavalry</name>
     <icon>resources\images\icons\command\fort_produce_us_cavalry.png</icon>
     <activeicon>resources\images\icons\command\fort_produce_us_cavalry_on.png</activeicon>
@@ -1344,7 +1341,6 @@
     <command>unitSetTactic("FortUSCavalry")</command>
   </protounitcommand>
   <protounitcommand>
-    <dbid>151</dbid>
     <name>deTacticFortGatlingGun</name>
     <icon>resources\images\icons\command\fort_produce_gatling_gun.png</icon>
     <activeicon>resources\images\icons\command\fort_produce_gatling_gun_on.png</activeicon>
@@ -1354,7 +1350,6 @@
     <command>unitSetTactic("FortGatlingGun")</command>
   </protounitcommand>
   <protounitcommand>
-    <dbid>152</dbid>
     <name>deTacticFortLegionMagyarHussar</name>
     <icon>resources\images\icons\command\fort_produce_magyar_hussar.png</icon>
     <activeicon>resources\images\icons\command\fort_produce_magyar_hussar_on.png</activeicon>
@@ -1364,7 +1359,6 @@
     <command>unitSetTactic("FortLegionMagyarHussar")</command>
   </protounitcommand>
   <protounitcommand>
-    <dbid>153</dbid>
     <name>deTacticFortLegionDragoon</name>
     <icon>resources\images\icons\command\fort_produce_dragoon.png</icon>
     <activeicon>resources\images\icons\command\fort_produce_dragoon_on.png</activeicon>
@@ -1374,7 +1368,6 @@
     <command>unitSetTactic("FortLegionDragoon")</command>
   </protounitcommand>
   <protounitcommand>
-    <dbid>154</dbid>
     <name>deTacticFortLegionCzapaka</name>
     <icon>resources\images\icons\command\fort_produce_uhlan.png</icon>
     <activeicon>resources\images\icons\command\fort_produce_uhlan_on.png</activeicon>
@@ -1384,7 +1377,6 @@
     <command>unitSetTactic("FortLegionCzapaka")</command>
   </protounitcommand>
   <protounitcommand>
-    <dbid>155</dbid>
     <name>deTacticFortLegionGrenadier</name>
     <icon>resources\images\icons\command\fort_produce_grenadier.png</icon>
     <activeicon>resources\images\icons\command\fort_produce_grenadier_on.png</activeicon>
@@ -1394,7 +1386,6 @@
     <command>unitSetTactic("FortLegionGrenadier")</command>
   </protounitcommand>
   <protounitcommand>
-    <dbid>156</dbid>
     <name>deImmigrantsChineseTradingPostLevy</name>
     <icon>resources\art\units\asians\shared\wagon\chinese_town_center_wagon_icon_64.png</icon>
     <spawncommand>
@@ -1412,7 +1403,6 @@
     </usemultiple>
   </protounitcommand>
   <protounitcommand>
-    <dbid>157</dbid>
     <name>deChargeShotgunMessengers</name>
     <icon>resources\images\icons\abilities\passive_buckshot.png</icon>
     <command>
@@ -1424,7 +1414,6 @@
     </bindtochargeaction>
   </protounitcommand>
   <protounitcommand>
-    <dbid>158</dbid>
     <name>deSellLivestockForCoin</name>
     <command>sellLivestock(-1, "gold", %d)</command>
     <commandpassesunitid>
@@ -1434,7 +1423,6 @@
     <valuetext>{livestockSell(gold)}</valuetext>
   </protounitcommand>
   <protounitcommand>
-    <dbid>159</dbid>
     <name>deLivestockMarketSellLivestockForWood</name>
     <command>sellLivestockAtMarket(-1, "wood", %d)</command>
     <commandpassesunitid>
@@ -1444,7 +1432,6 @@
     <valuetext>{livestockMarketSell(wood)}</valuetext>
   </protounitcommand>
   <protounitcommand>
-    <dbid>160</dbid>
     <name>deLivestockMarketSellLivestockForCoin</name>
     <command>sellLivestockAtMarket(-1, "gold", %d)</command>
     <commandpassesunitid>
@@ -1454,14 +1441,12 @@
     <valuetext>{livestockMarketSell(gold)}</valuetext>
   </protounitcommand>
   <protounitcommand>
-    <dbid>161</dbid>
     <name>CancelAllQueued</name>
     <icon>resources\images\icons\command\command_stop.png</icon>
     <command>cancelAllQueuedInSelected</command>
     <rollovertextid>101096</rollovertextid>
   </protounitcommand>
   <protounitcommand>
-    <dbid>162</dbid>
     <name>deFieldFood</name>
     <icon>resources\images\icons\command\tactic_rice_paddy_food_off.png</icon>
     <activeicon>resources\images\icons\command\tactic_rice_paddy_food_on.png</activeicon>
@@ -1471,7 +1456,6 @@
     <command>unitSetTactic("FieldFood")</command>
   </protounitcommand>
   <protounitcommand>
-    <dbid>163</dbid>
     <name>deFieldCoin</name>
     <icon>resources\images\icons\command\tactic_rice_paddy_coin_off.png</icon>
     <activeicon>resources\images\icons\command\tactic_rice_paddy_coin_on.png</activeicon>
@@ -1481,7 +1465,6 @@
     <command>unitSetTactic("FieldCoin")</command>
   </protounitcommand>
   <protounitcommand>
-    <dbid>164</dbid>
     <name>deFieldWood</name>
     <icon>resources\images\icons\command\generate_wood_off.png</icon>
     <activeicon>resources\images\icons\command\generate_wood_on.png</activeicon>
@@ -1491,7 +1474,6 @@
     <command>unitSetTactic("FieldWood")</command>
   </protounitcommand>
   <protounitcommand>
-    <dbid>165</dbid>
     <name>deFieldInfluence</name>
     <icon>resources\images\icons\command\generate_influence_off.png</icon>
     <activeicon>resources\images\icons\command\generate_influence_on.png</activeicon>
@@ -1501,7 +1483,6 @@
     <command>unitSetTactic("FieldInfluence")</command>
   </protounitcommand>
   <protounitcommand>
-    <dbid>166</dbid>
     <name>deMonasteryInfluence50</name>
     <icon>resources\images\icons\command\tactic_monastery_influence50_off.png</icon>
     <activeicon>resources\images\icons\command\tactic_monastery_influence50_on.png</activeicon>
@@ -1511,7 +1492,6 @@
     <command>unitSetTactic("MonasteryInfluence50")</command>
   </protounitcommand>
   <protounitcommand>
-    <dbid>167</dbid>
     <name>deMonasteryInfluence25</name>
     <icon>resources\images\icons\command\tactic_monastery_influence25_off.png</icon>
     <activeicon>resources\images\icons\command\tactic_monastery_influence25_on.png</activeicon>
@@ -1521,7 +1501,6 @@
     <command>unitSetTactic("MonasteryInfluence25")</command>
   </protounitcommand>
   <protounitcommand>
-    <dbid>168</dbid>
     <name>deMonasteryInfluence75</name>
     <icon>resources\images\icons\command\generate_influence_off.png</icon>
     <activeicon>resources\images\icons\command\generate_influence_on.png</activeicon>
@@ -1531,7 +1510,6 @@
     <command>unitSetTactic("MonasteryInfluence75")</command>
   </protounitcommand>
   <protounitcommand>
-    <dbid>169</dbid>
     <name>deUniversityInfluence</name>
     <icon>resources\images\icons\command\generate_influence_off.png</icon>
     <activeicon>resources\images\icons\command\generate_influence_on.png</activeicon>
@@ -1541,7 +1519,6 @@
     <command>unitSetTactic("UniversityInfluence")</command>
   </protounitcommand>
   <protounitcommand>
-    <dbid>170</dbid>
     <name>deUniversityXP</name>
     <icon>resources\images\icons\command\generate_fame_off.png</icon>
     <activeicon>resources\images\icons\command\generate_fame_on.png</activeicon>
@@ -1551,7 +1528,6 @@
     <command>unitSetTactic("UniversityXP")</command>
   </protounitcommand>
   <protounitcommand>
-    <dbid>171</dbid>
     <name>deConscriptSpearmen</name>
     <icon>resources\images\icons\techs\africans\conscript_levied_spearmen.png</icon>
     <spawncommand>
@@ -1562,7 +1538,6 @@
     <rollovertextid>101211</rollovertextid>
   </protounitcommand>
   <protounitcommand>
-    <dbid>172</dbid>
     <name>deConscriptBowmen</name>
     <icon>resources\images\icons\techs\africans\conscript_levied_bowmen.png</icon>
     <spawncommand>
@@ -1573,7 +1548,6 @@
     <rollovertextid>101213</rollovertextid>
   </protounitcommand>
   <protounitcommand>
-    <dbid>173</dbid>
     <name>deSellLivestockForWood</name>
     <command>sellLivestock(-1, "wood", %d)</command>
     <commandpassesunitid>
@@ -1583,7 +1557,6 @@
     <valuetext>{livestockSell(wood)}</valuetext>
   </protounitcommand>
   <protounitcommand>
-    <dbid>174</dbid>
     <name>SetBuildingAsHomeCityGatherPointEconomic</name>
     <icon>resources\images\icons\command\toggle_shipment_economic.png</icon>
     <command>setHomeCityGatherUnitEconomic(%d)</command>
@@ -1593,7 +1566,6 @@
     <disabledrollovertextid>49314</disabledrollovertextid>
   </protounitcommand>
   <protounitcommand>
-    <dbid>175</dbid>
     <name>SetBuildingAsHomeCityGatherPointMilitary</name>
     <icon>resources\images\icons\command\toggle_shipment_military.png</icon>
     <command>setHomeCityGatherUnitMilitary(%d)</command>
@@ -1603,7 +1575,6 @@
     <disabledrollovertextid>49316</disabledrollovertextid>
   </protounitcommand>
   <protounitcommand>
-    <dbid>176</dbid>
     <name>SetUnitAsHomeCityGatherPointEconomic</name>
     <icon>resources\images\icons\command\toggle_shipment_economic.png</icon>
     <command>setHomeCityGatherUnitEconomic(%d)</command>
@@ -1613,7 +1584,6 @@
     <disabledrollovertextid>49318</disabledrollovertextid>
   </protounitcommand>
   <protounitcommand>
-    <dbid>177</dbid>
     <name>SetUnitAsHomeCityGatherPointMilitary</name>
     <icon>resources\images\icons\command\toggle_shipment_military.png</icon>
     <command>setHomeCityGatherUnitMilitary(%d)</command>
@@ -1623,7 +1593,6 @@
     <disabledrollovertextid>49320</disabledrollovertextid>
   </protounitcommand>
   <protounitcommand>
-    <dbid>178</dbid>
     <name>deNatSomaliLighthouse</name>
     <icon>resources\images\icons\abilities\ability_lighthouse.png</icon>
     <associatedtech>DENatSomaliLighthouseEnableShadow</associatedtech>
@@ -1637,7 +1606,6 @@
     </usemultiple>
   </protounitcommand>
   <protounitcommand>
-    <dbid>179</dbid>
     <name>deNatSomaliLighthouseTownCenter</name>
     <icon>resources\images\icons\abilities\ability_lighthouse.png</icon>
     <associatedtech>DEAllegianceSomaliLighthouseEnableShadow</associatedtech>
@@ -1650,7 +1618,6 @@
     </usemultiple>
   </protounitcommand>
   <protounitcommand>
-    <dbid>180</dbid>
     <name>deMonasteryGold</name>
     <icon>resources\images\icons\command\tactic_monastery_coin_off.png</icon>
     <activeicon>resources\images\icons\command\tactic_monastery_coin_on.png</activeicon>
@@ -1660,7 +1627,6 @@
     <command>unitSetTactic("MonasteryGold")</command>
   </protounitcommand>
   <protounitcommand>
-    <dbid>181</dbid>
     <name>deAllegianceSonghaiRaid</name>
     <icon>resources\images\icons\abilities\ability_songhai_raid_lrg.png</icon>
     <spawncommand>
@@ -1679,7 +1645,6 @@
     </usemediumbutton3>
   </protounitcommand>
   <protounitcommand>
-    <dbid>182</dbid>
     <name>deTransformCrateofInfluence</name>
     <icon>resources\images\icons\command\generate_influence_icon.png</icon>
     <command>uiTransformSelectedUnit("deCrateofInfluence200", true, %d)</command>
@@ -1690,7 +1655,6 @@
     <disabledrollovertextid>103424</disabledrollovertextid>
   </protounitcommand>
   <protounitcommand>
-    <dbid>183</dbid>
     <name>deKanchaFood</name>
     <icon>resources\images\icons\command\generate_food_off.png</icon>
     <activeicon>resources\images\icons\command\generate_food_on.png</activeicon>
@@ -1700,7 +1664,6 @@
     <command>unitSetTactic("KanchaFood")</command>
   </protounitcommand>
   <protounitcommand>
-    <dbid>184</dbid>
     <name>deKanchaWood</name>
     <icon>resources\images\icons\command\generate_wood_off.png</icon>
     <activeicon>resources\images\icons\command\generate_wood_on.png</activeicon>
@@ -1710,7 +1673,6 @@
     <command>unitSetTactic("KanchaWood")</command>
   </protounitcommand>
   <protounitcommand>
-    <dbid>185</dbid>
     <name>deKanchaGold</name>
     <icon>resources\images\icons\command\generate_coin_off.png</icon>
     <activeicon>resources\images\icons\command\generate_coin_on.png</activeicon>
@@ -1720,7 +1682,6 @@
     <command>unitSetTactic("KanchaGold")</command>
   </protounitcommand>
   <protounitcommand>
-    <dbid>186</dbid>
     <name>deTacticCalendarDance</name>
     <icon>resources\images\icons\fire_pit\calendar.png</icon>
     <activeicon>resources\images\icons\fire_pit\calendar_on.png</activeicon>
@@ -1730,7 +1691,6 @@
     <command>unitSetTactic("deCalendarDance")</command>
   </protounitcommand>
   <protounitcommand>
-    <dbid>187</dbid>
     <name>deHaciendaFood</name>
     <icon>resources\images\icons\command\tactic_rice_paddy_food_off.png</icon>
     <activeicon>resources\images\icons\command\tactic_rice_paddy_food_on.png</activeicon>
@@ -1740,7 +1700,6 @@
     <command>unitSetTactic("HaciendaFood")</command>
   </protounitcommand>
   <protounitcommand>
-    <dbid>188</dbid>
     <name>deHaciendaCoin</name>
     <icon>resources\images\icons\command\tactic_rice_paddy_coin_off.png</icon>
     <activeicon>resources\images\icons\command\tactic_rice_paddy_coin_on.png</activeicon>
@@ -1750,7 +1709,6 @@
     <command>unitSetTactic("HaciendaCoin")</command>
   </protounitcommand>
   <protounitcommand>
-    <dbid>189</dbid>
     <name>deHaciendaCow</name>
     <icon>resources\images\icons\command\hacienda_cow.png</icon>
     <activeicon>resources\images\icons\command\hacienda_cow_on.png</activeicon>
@@ -1760,7 +1718,6 @@
     <command>unitSetTactic("HaciendaCow")</command>
   </protounitcommand>
   <protounitcommand>
-    <dbid>190</dbid>
     <name>deHaciendaSettler</name>
     <icon>resources\images\icons\command\hacienda_settler.png</icon>
     <activeicon>resources\images\icons\command\hacienda_settler_on.png</activeicon>
@@ -1770,7 +1727,6 @@
     <command>unitSetTactic("HaciendaSettler")</command>
   </protounitcommand>
   <protounitcommand>
-    <dbid>191</dbid>
     <name>deHaciendaComanchero</name>
     <icon>resources\images\icons\command\hacienda_vaquero.png</icon>
     <activeicon>resources\images\icons\command\hacienda_vaquero_on.png</activeicon>
@@ -1780,7 +1736,6 @@
     <command>unitSetTactic("HaciendaComanchero")</command>
   </protounitcommand>
   <protounitcommand>
-    <dbid>192</dbid>
     <name>deHaciendaChinaco</name>
     <icon>resources\images\icons\command\hacienda_chinaco.png</icon>
     <activeicon>resources\images\icons\command\hacienda_chinaco_on.png</activeicon>
@@ -1790,21 +1745,18 @@
     <command>unitSetTactic("HaciendaChinaco")</command>
   </protounitcommand>
   <protounitcommand>
-    <dbid>193</dbid>
     <name>deBuildingGarrisonMode</name>
     <icon>resources\images\icons\command\building_garrison_mode.png</icon>
     <command>uiToggleGarrisonMode</command>
     <rollovertextid>112215</rollovertextid>
   </protounitcommand>
   <protounitcommand>
-    <dbid>194</dbid>
     <name>deBuildingGatherMode</name>
     <icon>resources\images\icons\command\building_gather_mode.png</icon>
     <command>uiToggleGarrisonMode</command>
     <rollovertextid>112216</rollovertextid>
   </protounitcommand>
   <protounitcommand>
-    <dbid>195</dbid>
     <name>deMXOutpostLevy</name>
     <icon>resources\images\icons\techs\levy\levy.png</icon>
     <spawncommand>
@@ -1815,7 +1767,6 @@
     <rollovertextid>23458</rollovertextid>
   </protounitcommand>
   <protounitcommand>
-    <dbid>196</dbid>
     <name>deMXFortConscription</name>
     <icon>resources\images\icons\techs\conscription\conscription.png</icon>
     <spawncommand>
@@ -1826,7 +1777,6 @@
     <rollovertextid>36108</rollovertextid>
   </protounitcommand>
   <protounitcommand>
-    <dbid>197</dbid>
     <name>deSellHacienda</name>
     <icon>resources\images\icons\command\trade_sell_wood.png</icon>
     <command>uiSellUnit(%d)</command>
@@ -1838,7 +1788,6 @@
     </donotallowifunitdamaged>
   </protounitcommand>
   <protounitcommand>
-    <dbid>198</dbid>
     <name>deHaciendaWood</name>
     <icon>resources\images\icons\techs\asians\shrine_wood.png</icon>
     <activeicon>resources\images\icons\techs\asians\shrine_wood_on.png</activeicon>
@@ -1848,14 +1797,12 @@
     <command>unitSetTactic("HaciendaWood")</command>
   </protounitcommand>
   <protounitcommand>
-    <dbid>199</dbid>
     <name>dePayFoundation</name>
     <icon>resources\images\icons\command\build_architect.png</icon>
     <command>uiPayFoundation</command>
     <rollovertextid>122057</rollovertextid>
   </protounitcommand>
   <protounitcommand>
-    <dbid>200</dbid>
     <name>deSocketBuild</name>
     <icon>resources\images\icons\command\build_socket_trading_post_eu.png</icon>
     <command>uiSocketBuild(%d)</command>
@@ -1866,7 +1813,6 @@
     <rollovertextid>123002</rollovertextid>
   </protounitcommand>
   <protounitcommand>
-    <dbid>201</dbid>
     <name>deSocketBuildCityTower</name>
     <icon>resources\images\icons\command\build_socket_tower.png</icon>
     <command>uiSocketBuild(%d)</command>
@@ -1877,7 +1823,6 @@
     <rollovertextid>123005</rollovertextid>
   </protounitcommand>
   <protounitcommand>
-    <dbid>202</dbid>
     <name>deSPCLevyCityGuards</name>
     <icon>resources\images\icons\techs\levy\levy.png</icon>
     <spawncommand>
@@ -1895,7 +1840,6 @@
     </donotallowoverpoplimit>
   </protounitcommand>
   <protounitcommand>
-    <dbid>203</dbid>
     <name>deInvestFood</name>
     <command>investResource(-1,"Food")</command>
     <icon>resources\images\icons\techs\asians\shrine_food.png</icon>
@@ -1904,7 +1848,6 @@
     <valuetext>{resourceInvestment}</valuetext>
   </protounitcommand>
   <protounitcommand>
-    <dbid>204</dbid>
     <name>deInvestWood</name>
     <command>investResource(-1,"Wood")</command>
     <icon>resources\images\icons\techs\asians\shrine_wood.png</icon>
@@ -1913,7 +1856,6 @@
     <valuetext>{resourceInvestment}</valuetext>
   </protounitcommand>
   <protounitcommand>
-    <dbid>205</dbid>
     <name>deInvestCoin</name>
     <command>investResource(-1,"Gold")</command>
     <icon>resources\images\icons\techs\asians\shrine_coin.png</icon>
@@ -1922,7 +1864,6 @@
     <valuetext>{resourceInvestment}</valuetext>
   </protounitcommand>
   <protounitcommand>
-    <dbid>206</dbid>
     <name>deSocketBuildBatteryTower</name>
     <icon>resources\images\icons\command\build_socket_tower.png</icon>
     <command>uiSocketBuild(%d)</command>
@@ -1933,7 +1874,6 @@
     <rollovertextid>123120</rollovertextid>
   </protounitcommand>
   <protounitcommand>
-    <dbid>207</dbid>
     <name>deSPCHeadquartersLevy</name>
     <icon>resources\images\icons\techs\conscription\conscription.png</icon>
     <spawncommand>
@@ -1944,7 +1884,6 @@
     <rollovertextid>23460</rollovertextid>
   </protounitcommand>
   <protounitcommand>
-    <dbid>208</dbid>
     <name>deSocketBuildWoodenTower</name>
     <icon>resources\images\icons\command\build_socket_tower.png</icon>
     <command>uiSocketBuild(%d)</command>
@@ -1955,7 +1894,6 @@
     <rollovertextid>123164</rollovertextid>
   </protounitcommand>
   <protounitcommand>
-    <dbid>209</dbid>
     <name>BuildingTrickleFood</name>
     <icon>resources\images\icons\command\generate_food_off.png</icon>
     <activeicon>resources\images\icons\command\generate_food_on.png</activeicon>
@@ -1965,7 +1903,6 @@
     <command>unitSetTactic("TrickleFood")</command>
   </protounitcommand>
   <protounitcommand>
-    <dbid>210</dbid>
     <name>BuildingTrickleWood</name>
     <icon>resources\images\icons\command\generate_wood_off.png</icon>
     <activeicon>resources\images\icons\command\generate_wood_on.png</activeicon>
@@ -1975,7 +1912,6 @@
     <command>unitSetTactic("TrickleWood")</command>
   </protounitcommand>
   <protounitcommand>
-    <dbid>211</dbid>
     <name>BuildingTrickleCoin</name>
     <icon>resources\images\icons\command\generate_coin_off.png</icon>
     <activeicon>resources\images\icons\command\generate_coin_on.png</activeicon>
@@ -1985,7 +1921,6 @@
     <command>unitSetTactic("TrickleCoin")</command>
   </protounitcommand>
   <protounitcommand>
-    <dbid>212</dbid>
     <name>BuildingTrickleAll</name>
     <icon>resources\images\icons\command\tactic_rainbow_trickle_off.png</icon>
     <activeicon>resources\images\icons\command\tactic_rainbow_trickle_on.png</activeicon>
@@ -1995,7 +1930,6 @@
     <command>unitSetTactic("TrickleAll")</command>
   </protounitcommand>
   <protounitcommand>
-    <dbid>213</dbid>
     <name>BuildingTrickleVaried</name>
     <icon>resources\images\icons\command\tactic_varied_trickle_off.png</icon>
     <activeicon>resources\images\icons\command\tactic_varied_trickle_on.png</activeicon>
@@ -2005,7 +1939,6 @@
     <command>unitSetTactic("Normal")</command>
   </protounitcommand>
   <protounitcommand>
-    <dbid>214</dbid>
     <name>deSocketBuildDistrict</name>
     <icon>resources\images\icons\command\build_socket_trading_post_eu.png</icon>
     <command>uiSocketBuild(%d)</command>
@@ -2016,7 +1949,6 @@
     <rollovertextid>123234</rollovertextid>
   </protounitcommand>
   <protounitcommand>
-    <dbid>215</dbid>
     <name>dePassiveMilitaryDistrict</name>
     <icon>resources\images\icons\abilities\passive_district_military.png</icon>
     <command>
@@ -2028,7 +1960,6 @@
     </displayaspassive>
   </protounitcommand>
   <protounitcommand>
-    <dbid>216</dbid>
     <name>dePassiveMarketDistrict</name>
     <icon>resources\images\icons\abilities\passive_district_market.png</icon>
     <command>
@@ -2040,7 +1971,6 @@
     </displayaspassive>
   </protounitcommand>
   <protounitcommand>
-    <dbid>217</dbid>
     <name>dePassiveArtilleryDistrict</name>
     <icon>resources\images\icons\abilities\passive_district_artillery.png</icon>
     <command>
@@ -2052,7 +1982,6 @@
     </displayaspassive>
   </protounitcommand>
   <protounitcommand>
-    <dbid>218</dbid>
     <name>dePassiveReligiousDistrict</name>
     <icon>resources\images\icons\abilities\tech_passive_regenerate_health.png</icon>
     <command>
@@ -2064,7 +1993,6 @@
     </displayaspassive>
   </protounitcommand>
   <protounitcommand>
-    <dbid>219</dbid>
     <name>deNatBourbonRoyalMarch</name>
     <icon>resources\images\icons\abilities\ability_royal_march_lrg.png</icon>
     <associatedtech>deNatBourbonRoyalMarch</associatedtech>
@@ -2078,7 +2006,6 @@
     </usemediumbutton3>
   </protounitcommand>
   <protounitcommand>
-    <dbid>220</dbid>
     <name>deNatHabsburgRadetzyMarch</name>
     <icon>resources\images\icons\abilities\ability_radetzky_march_lrg.png</icon>
     <associatedtech>deNatHabsburgRadetzyMarch</associatedtech>
@@ -2092,7 +2019,6 @@
     </usemediumbutton3>
   </protounitcommand>
   <protounitcommand>
-    <dbid>221</dbid>
     <name>deNatVasaOrder</name>
     <icon>resources\images\icons\abilities\ability_vasa_order_lrg.png</icon>
     <associatedtech>deNatVasaOrder</associatedtech>
@@ -2106,7 +2032,6 @@
     </usemediumbutton3>
   </protounitcommand>
   <protounitcommand>
-    <dbid>222</dbid>
     <name>deNatJagiellonPowerBalance</name>
     <icon>resources\images\icons\abilities\ability_balance_power_lrg.png</icon>
     <associatedtech>deNatJagiellonPowerBalance</associatedtech>
@@ -2120,7 +2045,6 @@
     </usemediumbutton3>
   </protounitcommand>
   <protounitcommand>
-    <dbid>223</dbid>
     <name>deNatOldenburgScientificExpeditions</name>
     <icon>resources\images\icons\abilities\ability_scientific_expeditions_lrg.png</icon>
     <associatedtech>deNatOldenburgScientificExpeditions</associatedtech>
@@ -2134,7 +2058,6 @@
     </usemediumbutton3>
   </protounitcommand>
   <protounitcommand>
-    <dbid>224</dbid>
     <name>deNatWettinGoldenerReiter</name>
     <icon>resources\images\icons\abilities\ability_golden_rider_lrg.png</icon>
     <associatedtech>deNatWettinGoldenerReiter</associatedtech>
@@ -2148,7 +2071,6 @@
     </usemediumbutton3>
   </protounitcommand>
   <protounitcommand>
-    <dbid>225</dbid>
     <name>deNatWittelsbachAlpineHorns</name>
     <icon>resources\images\icons\abilities\ability_alpine_horns_lrg.png</icon>
     <associatedtech>deNatWittelsbachAlpineHorns</associatedtech>
@@ -2162,7 +2084,6 @@
     </usemediumbutton3>
   </protounitcommand>
   <protounitcommand>
-    <dbid>226</dbid>
     <name>deSellMalteseGun</name>
     <icon>resources\images\icons\command\trade_sell_wood.png</icon>
     <command>uiSellUnit(%d)</command>
@@ -2174,7 +2095,6 @@
     </donotallowifunitdamaged>
   </protounitcommand>
   <protounitcommand>
-    <dbid>227</dbid>
     <name>deDepotDetonate</name>
     <icon>resources\images\icons\abilities\ability_detonate_depot.png</icon>
     <command>deleteUnit(%d)</command>
@@ -2188,7 +2108,6 @@
     </notcancellable>
   </protounitcommand>
   <protounitcommand>
-    <dbid>228</dbid>
     <name>deCommanderyDeploy</name>
     <icon>resources\images\icons\abilities\ability_commandery_eject.png</icon>
     <command>ejectAll(%d)</command>
@@ -2204,9 +2123,10 @@
     </usemediumbutton3>
     <deploy>
     </deploy>
+    <notcancellable>
+    </notcancellable>
   </protounitcommand>
   <protounitcommand>
-    <dbid>229</dbid>
     <name>deNatHanoverRoyalFireworks</name>
     <icon>resources\images\icons\abilities\ability_royal_fireworks_lrg.png</icon>
     <associatedtech>deNatHanoverRoyalFireworks</associatedtech>
@@ -2220,7 +2140,6 @@
     </usemediumbutton3>
   </protounitcommand>
   <protounitcommand>
-    <dbid>230</dbid>
     <name>deHaciendaSoldado</name>
     <icon>resources\images\icons\command\hacienda_soldado.png</icon>
     <activeicon>resources\images\icons\command\hacienda_soldado_on.png</activeicon>
@@ -2230,7 +2149,6 @@
     <command>unitSetTactic("HaciendaSoldado")</command>
   </protounitcommand>
   <protounitcommand>
-    <dbid>231</dbid>
     <name>deNatPhanarGreekRevolution</name>
     <icon>resources\images\icons\abilities\ability_greek_revolution_lrg.png</icon>
     <associatedtech>deNatPhanarGreekRevolution</associatedtech>
@@ -2244,7 +2162,6 @@
     </usemediumbutton3>
   </protounitcommand>
   <protounitcommand>
-    <dbid>232</dbid>
     <name>deSocketBuildNative</name>
     <icon>resources\images\icons\command\build_socket_trading_post_america.png</icon>
     <command>uiSocketBuildNative(%d)</command>
@@ -2258,7 +2175,6 @@
     <disabledrollovertextid>104891</disabledrollovertextid>
   </protounitcommand>
   <protounitcommand>
-    <dbid>233</dbid>
     <name>deSocketBuildSouthNative</name>
     <icon>resources\images\icons\command\build_socket_trading_post_america.png</icon>
     <command>uiSocketBuildNative(%d)</command>
@@ -2272,7 +2188,6 @@
     <disabledrollovertextid>104891</disabledrollovertextid>
   </protounitcommand>
   <protounitcommand>
-    <dbid>234</dbid>
     <name>deSocketBuildAsian</name>
     <icon>resources\images\icons\command\build_socket_trading_post_asia.png</icon>
     <command>uiSocketBuildNative(%d)</command>
@@ -2286,7 +2201,6 @@
     <disabledrollovertextid>104891</disabledrollovertextid>
   </protounitcommand>
   <protounitcommand>
-    <dbid>235</dbid>
     <name>deSocketBuildAfrican</name>
     <icon>resources\images\icons\command\build_socket_trading_post_africa.png</icon>
     <command>uiSocketBuildNative(%d)</command>
@@ -2300,7 +2214,6 @@
     <disabledrollovertextid>104891</disabledrollovertextid>
   </protounitcommand>
   <protounitcommand>
-    <dbid>236</dbid>
     <name>deSocketBuildEuropean</name>
     <icon>resources\images\icons\command\build_socket_trading_post_eu.png</icon>
     <command>uiSocketBuildNative(%d)</command>
@@ -2314,7 +2227,6 @@
     <disabledrollovertextid>104891</disabledrollovertextid>
   </protounitcommand>
   <protounitcommand>
-    <dbid>237</dbid>
     <name>deTownCenterTransformTravois</name>
     <icon>resources\images\icons\command\command_pack.png</icon>
     <command>uiTransformSelectedUnit("CoveredWagon", true, %d)</command>
@@ -2331,7 +2243,6 @@
     </transformselected>
   </protounitcommand>
   <protounitcommand>
-    <dbid>238</dbid>
     <name>deCommunityPlazaTransformTravois</name>
     <icon>resources\images\icons\command\command_pack.png</icon>
     <command>uiTransformSelectedUnit("deCommunityPlazaTravois", true, %d)</command>
@@ -2348,7 +2259,6 @@
     </transformselected>
   </protounitcommand>
   <protounitcommand>
-    <dbid>239</dbid>
     <name>deMarketTransformTravois</name>
     <icon>resources\images\icons\command\command_pack.png</icon>
     <command>uiTransformSelectedUnit("deMarketTravois", true, %d)</command>
@@ -2365,7 +2275,6 @@
     </transformselected>
   </protounitcommand>
   <protounitcommand>
-    <dbid>240</dbid>
     <name>deCorralTransformTravois</name>
     <icon>resources\images\icons\command\command_pack.png</icon>
     <command>uiTransformSelectedUnit("deCorralTravois", true, %d)</command>
@@ -2382,7 +2291,6 @@
     </transformselected>
   </protounitcommand>
   <protounitcommand>
-    <dbid>241</dbid>
     <name>deWarHutTransformTravois</name>
     <icon>resources\images\icons\command\command_pack.png</icon>
     <command>uiTransformSelectedUnit("WarHutTravois", true, %d)</command>
@@ -2399,7 +2307,6 @@
     </transformselected>
   </protounitcommand>
   <protounitcommand>
-    <dbid>242</dbid>
     <name>deFarmTransformTravois</name>
     <icon>resources\images\icons\command\command_pack.png</icon>
     <command>uiTransformSelectedUnit("FarmTravois", true, %d)</command>
@@ -2416,7 +2323,6 @@
     </transformselected>
   </protounitcommand>
   <protounitcommand>
-    <dbid>243</dbid>
     <name>deEmbassyTransformTravois</name>
     <icon>resources\images\icons\command\command_pack.png</icon>
     <command>uiTransformSelectedUnit("deEmbassyTravois", true, %d)</command>
@@ -2433,7 +2339,6 @@
     </transformselected>
   </protounitcommand>
   <protounitcommand>
-    <dbid>244</dbid>
     <name>dePlantationTransformTravois</name>
     <icon>resources\images\icons\command\command_pack.png</icon>
     <command>uiTransformSelectedUnit("dePlantationTravois", true, %d)</command>
@@ -2448,5 +2353,26 @@
     </canqueue>
     <transformselected>
     </transformselected>
+  </protounitcommand>
+  <protounitcommand>
+    <name>deSellTorp</name>
+    <icon>resources\images\icons\command\trade_sell_wood.png</icon>
+    <command>uiSellUnit(%d)</command>
+    <commandpassesunitid>
+    </commandpassesunitid>
+    <associatedtech>DESellTorp</associatedtech>
+    <rollovertextid>125600</rollovertextid>
+    <donotallowifunitdamaged>
+    </donotallowifunitdamaged>
+  </protounitcommand>
+  <protounitcommand>
+    <name>deOttomanConscription</name>
+    <icon>resources\images\icons\techs\conscription\conscript_bashibozuk.png</icon>
+    <spawncommand>
+    </spawncommand>
+    <unittype>Minuteman</unittype>
+    <amount>12</amount>
+    <associatedtech>deOttomanConscription</associatedtech>
+    <rollovertextid>62526</rollovertextid>
   </protounitcommand>
 </protounitcommands>

@@ -63,6 +63,69 @@
     <rate type="AbstractWarship">1.0 </rate>
   </action>
   <action>
+    <name stringid="68961">OutpostTreeGatherRateBonus</name>
+    <type>AutoRangedModify</type>
+    <active>0</active>
+    <maxrange>36</maxrange>
+    <modifyabstracttype>AbstractVillager</modifyabstracttype>
+    <persistent>1</persistent>
+    <nostack>1</nostack>
+    <nostackignorepuid>1</nostackignorepuid>
+    <modifytype>TreeGatherRate</modifytype>
+    <modifymultiplier>1.20</modifymultiplier>
+    <modelattachment>effects\ypack_auras\econpower.xml</modelattachment>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+  </action>
+  <action>
+    <name stringid="68961">OutpostMineGatherRateBonus</name>
+    <type>AutoRangedModify</type>
+    <active>0</active>
+    <maxrange>36</maxrange>
+    <modifyabstracttype>AbstractVillager</modifyabstracttype>
+    <persistent>1</persistent>
+    <nostack>1</nostack>
+    <nostackignorepuid>1</nostackignorepuid>
+    <modifytype>MineGatherRate</modifytype>
+    <modifymultiplier>1.20</modifymultiplier>
+    <modelattachment>effects\ypack_auras\econpower.xml</modelattachment>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+  </action>
+  <action>
+    <name stringid="68961">OutpostNaturalFoodRateBonus</name>
+    <active>0</active>
+    <type>AutoRangedModify</type>
+    <maxrange>36</maxrange>
+    <modifyabstracttype>AbstractVillager</modifyabstracttype>
+    <persistent>1</persistent>
+    <nostack>1</nostack>
+    <nostackignorepuid>1</nostackignorepuid>
+    <modifytype>NaturalFoodGatherRate</modifytype>
+    <modifymultiplier>1.20</modifymultiplier>
+    <modelattachment>effects\ypack_auras\econpower.xml</modelattachment>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+  </action>
+  <action>
+    <name stringid="68961">WignacourtAuraRange</name>
+    <type>Attack</type>
+    <attackaction>1</attackaction>
+    <maxrange>35</maxrange>
+    <active>0</active>
+    <hidefromstats>1</hidefromstats>
+    <rangedlogic>1</rangedlogic>
+    <anim>RangedAttack</anim>
+    <maxheight>0</maxheight>
+    <accuracy>1.0</accuracy>
+    <accuracyreductionfactor>0.01</accuracyreductionfactor>
+    <aimbonus>0</aimbonus>
+    <maxspread>5</maxspread>
+    <spreadfactor>0.25</spreadfactor>
+    <trackrating>12</trackrating>
+    <unintentionaldamagemultiplier>0.7</unintentionaldamagemultiplier>
+    <projectile>InvisibleProjectile</projectile>
+    <impacteffect>effects\impacts\gun</impacteffect>
+    <instantballistics>1</instantballistics>
+  </action>
+  <action>
     <name stringid="69776">SpawnSamurai</name>
     <type>Maintain</type>
     <rate type="ypKensei">1</rate>
@@ -70,5 +133,5 @@
     <persistent>0</persistent>
     <singleuse>1</singleuse>
   </action>
-  <tactic>Normal<attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><action priority="100">AntiShipAttack</action><action priority="75">CannonAttack</action><action priority="25">RangedAttack</action><action>Spawn</action></tactic>
+  <tactic>Normal<attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><action priority="100">AntiShipAttack</action><action priority="75">CannonAttack</action><action priority="25">RangedAttack</action><action priority="1">WignacourtAuraRange</action><action>OutpostTreeGatherRateBonus</action><action>OutpostMineGatherRateBonus</action><action>OutpostNaturalFoodRateBonus</action><action>Spawn</action></tactic>
 </tactics>

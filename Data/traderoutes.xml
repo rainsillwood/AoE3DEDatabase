@@ -546,7 +546,40 @@
       <countincrement>0</countincrement>
       <activetooltipid>101083</activetooltipid>
       <disabledtooltipid>101084</disabledtooltipid>
-      <techprereq>DEAfricanTradeRouteInfluenceShadow</techprereq>
+      <playertechprereq>DEAfricanTradeRouteInfluenceShadow</playertechprereq>
+      <techprereq>ypTradeRouteUpgrade1</techprereq>
+      <techprereq>TradeRouteUpgrade1</techprereq>
+      <techprereq>deTradeRouteUpgradeAll1</techprereq>
+      <techprereq>deTradeRouteUpgradeAmerica1</techprereq>
+      <techprereq>DETradeRouteUpgradeMaghreb1</techprereq>
+      <techprereq>DETradeRouteUpgradeAfrica1</techprereq>
+      <techprereq>DETradeRouteUpgradeWater1</techprereq>
+      <techprereq>DETradeRouteUpgradeWaterAll1</techprereq>
+      <techprereq>DETradeRouteUpgradeRiver1</techprereq>
+      <techprereq>DETradeRouteUpgradeRiverAll1</techprereq>
+      <techprereq>DETradeRouteUpgradeEurope1</techprereq>
+      <techprereq>DETradeRouteUpgradeEuropeAll1</techprereq>
+      <orprereqs>
+      </orprereqs>
+      <activeicon>resources\images\icons\command\generate_influence_on.png</activeicon>
+      <disabledicon>resources\images\icons\command\generate_influence_off.png</disabledicon>
+    </unit>
+    <unit>
+      <name>deTradeCrateofInfluenceCapture</name>
+      <count>1</count>
+      <mincount>1</mincount>
+      <maxcount>1</maxcount>
+      <countincrement>0</countincrement>
+      <restricttocapturabletp>
+      </restricttocapturabletp>
+      <activetooltipid>101083</activetooltipid>
+      <disabledtooltipid>101084</disabledtooltipid>
+      <playertechprereq>DEAfricanTradeRouteInfluenceShadow</playertechprereq>
+      <techprereq>ypTradeRouteCaptureable</techprereq>
+      <techprereq>deTradeRouteCaptureableAfrican</techprereq>
+      <techprereq>deTradeRouteCaptureableEuropean</techprereq>
+      <orprereqs>
+      </orprereqs>
       <activeicon>resources\images\icons\command\generate_influence_on.png</activeicon>
       <disabledicon>resources\images\icons\command\generate_influence_off.png</disabledicon>
     </unit>

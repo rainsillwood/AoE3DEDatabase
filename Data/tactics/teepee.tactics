@@ -14,6 +14,20 @@
     <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
   </action>
   <action>
+    <name stringid="112021">FriendlyTerritory</name>
+    <type>AutoRangedModify</type>
+    <active>0</active>
+    <maxrange>22</maxrange>
+    <persistent>1</persistent>
+    <nostack>1</nostack>
+    <modifytype>Range</modifytype>
+    <modifyabstracttype>UnitClass</modifyabstracttype>
+    <forbidabstracttype>AbstractArtillery</forbidabstracttype>
+    <modifymultiplier>1.10</modifymultiplier>
+    <modelattachment>effects\chiefpower\chiefpower.xml</modelattachment>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+  </action>
+  <action>
     <name stringid="48954">ImprovedGreatHeart</name>
     <type>AutoRangedModify</type>
     <active>0</active>
@@ -98,7 +112,7 @@
     <persistent>1</persistent>
     <nostack>1</nostack>
     <modifytype>GatherRate</modifytype>
-    <modifymultiplier>1.125</modifymultiplier>
+    <modifymultiplier>1.10</modifymultiplier>
     <modelattachment>effects\ypack_auras\econpower.xml</modelattachment>
     <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
   </action>
@@ -114,5 +128,19 @@
     <modifymultiplier>2.00</modifymultiplier>
     <modifybase>1.0</modifybase>
   </action>
-  <tactic>Normal<action>GreatHeart</action><action>ExtraDamage</action><action>ImprovedEconomicAura</action><action>ImprovedGreatHeart</action><action>ImprovedExtraDamage</action><action>SpawnWarbow</action><action>ExtraSpeed</action><action>ExtraSpeedVillagers</action><action>MilitaryBuildingWorkRateBonus</action></tactic>
+  <action>
+    <name stringid="112021">ExtraRange</name>
+    <type>AutoRangedModify</type>
+    <active>0</active>
+    <maxrange>22</maxrange>
+    <persistent>1</persistent>
+    <nostack>1</nostack>
+    <modifytype>Range</modifytype>
+    <modifyabstracttype>UnitClass</modifyabstracttype>
+    <forbidabstracttype>AbstractArtillery</forbidabstracttype>
+    <modifymultiplier>1.10</modifymultiplier>
+    <modelattachment>effects\chiefpower\chiefpower.xml</modelattachment>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+  </action>
+  <tactic>Normal<action>GreatHeart</action><action>FriendlyTerritory</action><action>ExtraDamage</action><action>ImprovedEconomicAura</action><action>ImprovedGreatHeart</action><action>ImprovedExtraDamage</action><action>SpawnWarbow</action><action>ExtraSpeed</action><action>ExtraSpeedVillagers</action><action>MilitaryBuildingWorkRateBonus</action><action>ExtraRange</action></tactic>
 </tactics>

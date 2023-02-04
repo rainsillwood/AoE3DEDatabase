@@ -86,7 +86,7 @@
     <targetunittype>All</targetunittype>
     <stance>Defensive</stance>
     <formationtype>Line</formationtype>
-    <maxnumberformationlines>3</maxnumberformationlines>
+    <maxnumberformationlines>4</maxnumberformationlines>
     <formationlinelinespacing>1.6</formationlinelinespacing>
     <formationlinecolumnspacing>1.6</formationlinecolumnspacing>
     <randomspacingoffset>1.0</randomspacingoffset>
@@ -106,7 +106,7 @@
     <formationtype>Line</formationtype>
     <canbreakformation>0</canbreakformation>
     <canrotateinformation>1</canrotateinformation>
-    <maxnumberformationlines>3</maxnumberformationlines>
+    <maxnumberformationlines>4</maxnumberformationlines>
     <formationlinelinespacing>1.2</formationlinelinespacing>
     <formationlinecolumnspacing>1.4</formationlinecolumnspacing>
     <randomspacingoffset>0.5</randomspacingoffset>
@@ -164,29 +164,8 @@
     <tactic>Trample</tactic>
     <allowautopick>0</allowautopick>
     <unittype>AbstractHandCavalry</unittype>
-    <targetunittype>All</targetunittype>
-    <stance>Defensive</stance>
-    <formationtype>InvertedPhalanx</formationtype>
-    <formationlinelinespacing>1.5</formationlinelinespacing>
-    <formationlinecolumnspacing>1.15</formationlinecolumnspacing>
-    <formationphalanxoffset>0.7</formationphalanxoffset>
-    <randomspacingoffset>0.25</randomspacingoffset>
-    <cooldowntime>5000</cooldowntime>
-    <transitiontimein>500</transitiontimein>
-    <activeicon>resources\images\icons\command\tactics_trample_cur.png</activeicon>
-    <availableicon>resources\images\icons\command\tactics_trample_avl.png</availableicon>
-    <unavailableicon>resources\images\icons\command\tactics_trample_un_avl.png</unavailableicon>
-    <rolloverstringid>35908</rolloverstringid>
-    <reflectdamage>1</reflectdamage>
-    <battlecrysmall>BattlecrySmall</battlecrysmall>
-    <battlecrymedium>BattlecryMedium</battlecrymedium>
-    <battlecrylarge>BattlecryLarge</battlecrylarge>
-  </squadmode>
-  <squadmode>
-    <name>Trample</name>
-    <tactic>Trample</tactic>
-    <allowautopick>0</allowautopick>
     <unittype>deNatRoyalDragoon</unittype>
+    <unittype>deNatMercRoyalDragoon</unittype>
     <targetunittype>All</targetunittype>
     <stance>Defensive</stance>
     <formationtype>InvertedPhalanx</formationtype>
@@ -201,6 +180,7 @@
     <unavailableicon>resources\images\icons\command\tactics_trample_un_avl.png</unavailableicon>
     <rolloverstringid>35908</rolloverstringid>
     <reflectdamage>1</reflectdamage>
+    <reflectdamagerate>0.35</reflectdamagerate>
     <battlecrysmall>BattlecrySmall</battlecrysmall>
     <battlecrymedium>BattlecryMedium</battlecrymedium>
     <battlecrylarge>BattlecryLarge</battlecrylarge>

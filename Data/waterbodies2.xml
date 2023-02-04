@@ -321,7 +321,7 @@
       <riverobj name="RiverEdgeFlow" minsplinedistance="20" maxsplinedistance="40" mincrossdistance="10" maxcrossdistance="20" maxpercenttoshore="0.99" mirror="false" randomyaw="false" clusterminnum="1" clustermaxnum="1">
       </riverobj>
     </riverline>
-    <rendering scatter_color="0.25 0.39 0.53" sun_set_color="0.000 0.000 0.000" caustics_depth="1.8000" caustics_intensity="1.2100" caustics_scale="0.1100" caustics_scroll="0.0460" fft_displace="1.0200" custom_wave_scale="8.0000" reflection_normal="0.9800" refraction_normal="0.0820" scatter_amount="0.0790" fog_color_mult="0.3330" custom_wave_scatter="1.0000" surface_roughness="0.0000" fog_density="1.1900" water_color="0.73 0.87 0.95" blur_intensity="1.6300" water_brighten="2.0000" reflection_intensity="0.3333">
+    <rendering scatter_color="0.25 0.39 0.53" sun_set_color="0.000 0.000 0.000" caustics_depth="1.8000" caustics_intensity="1.2100" caustics_scale="0.1100" caustics_scroll="0.0460" fft_displace="1.0200" custom_wave_scale="8.0000" reflection_normal="0.9800" refraction_normal="0.0820" scatter_amount="0.0790" fog_color_mult="0.3330" custom_wave_scatter="1.0000" surface_roughness="0.0000" fog_density="1.1900" water_color="0.73 0.87 0.95" blur_intensity="1.2500" water_brighten="1.5000" reflection_intensity="0.2500">
     </rendering>
   </river>
   <river name="Amazon River2" iconname="ui\editor\wateramazonriver" bumpmap="terrain\water\ocean1\ocean1" surface="water" bottom="Amazon\river1_am" bank="Amazon\river2_am" outerbank="amazon\ground3_ama" slope="" color="85 56 0" deepcolor="0 0 0" depth="3.000000" fresnelscale="3.057851" fresnelbias="0.125000" cliffbanks="Orinoco" alphaminvalue="0.000000" alphamaxvalue="1.000000" alphamindepth="-1.500000" alphamaxdepth="2.500000" minriverbankheight="0.500000" maxriverbankheight="1.000000" waterplaneoffset="1.000000" coloramount="2.066116" reflectionamount="-0.109375" bumpscale="0.380000" reflectionbumpscale="0.170000" foamscale="-0.190000" texscale="2.890000" texscrollspeed="4.000000" texrotation="225.000000" rivertexcoords="false">
@@ -363,6 +363,20 @@
     </rendering>
   </ocean>
   <ocean name="Danish Coast" cluttermix="caribbean_underwater" iconname="ui\editor\watercaribbeancoast" bumpmap="terrain\water\ocean1\ocean1" surface="water" bottom="Carolinas\ground_shoreline2_car" bank="Carolinas\ground_shoreline2_car" outerbank="great_plains\ground2_gp" slope="" color="9 110 88" deepcolor="0 0 0" depth="2.000000" fresnelscale="0.247934" fresnelbias="0.555556" alphaminvalue="0.000000" alphamaxvalue="0.914063" alphamindepth="0.000000" alphamaxdepth="1.900827" minriverbankheight="0.500000" maxriverbankheight="1.000000" waterplaneoffset="1.000000" coloramount="1.842105" reflectionamount="-0.222222" bumpscale="0.660000" reflectionbumpscale="0.710000" foamscale="-0.110000" texscale="1.970000" texscrollspeed="0.000000" texrotation="129.000000">
+    <textureplacement>
+      <texture distance="10" variance="0">Carolinas\ground_shoreline2_car</texture>
+      <texture distance="16" variance="0">yucatan\ground_shoreline1_yuc</texture>
+    </textureplacement>
+    <shoreline>
+      <shorelong name="ShorelineFoam" distance="3.0" randomyaw="false">
+      </shorelong>
+      <waves bumpmap="terrain\water\waterwavebump" bumpmapcrashposition="0.45" foam1tex="terrain\waves\wavefoam" foam2tex="terrain\waves\wavefoam2" foamalphasidetex="terrain\waves\wavefoam_alpha" foamalphabacktex="terrain\waves\wavefoam_alphaback" minlength="15.00" maxlength="35.00" minconcavelength="8.69" maxconcavelength="12.74" minwidth="2.00" maxwidth="5.00" minheight="0.65" maxheight="0.75" minfadelength="8.00" maxfadelength="14.00" minspeed="0.90" maxspeed="1.20" foamstartnormalizedtime="0.10" foamnormalizedspeed="0.00" foammaxnormalizedwidth="1.00" foam1scrollspeed="0.05" foam2scrollspeed="0.23" foamfadeintime="2.00" foamfadeouttime="2.70" recedetime="3.40" recedeendscale="1.00" recedemotion="true" variance="3.50" minstartdistance="14.00" maxstartdistance="20.00" sectionlength="15.00" wavedensity="3" convexitylimit="-11.35" concavitylimit="11.21">
+      </waves>
+    </shoreline>
+    <rendering scatter_color="0.150 0.415 0.502" sun_set_color="1.000 0.400 0.000" caustics_depth="2.5000" caustics_intensity="1.0600" caustics_scale="0.3000" caustics_scroll="0.0430" fft_displace="0.5800" custom_wave_scale="8.0000" reflection_normal="0.8300" refraction_normal="0.0710" scatter_amount="0.5450" fog_color_mult="0.2970" custom_wave_scatter="5.0000" surface_roughness="0.0100" fog_density="1.7620" water_color="0.669 0.898 0.879" blur_intensity="0.2800" water_brighten="1.7070" reflection_intensity="0.1000">
+    </rendering>
+  </ocean>
+  <ocean name="Danish Shallow" cluttermix="caribbean_underwater" iconname="ui\editor\watercaribbeancoast" bumpmap="terrain\water\ocean1\ocean1" surface="water" bottom="Carolinas\ground_shoreline2_car" bank="Carolinas\ground_shoreline2_car" outerbank="great_plains\ground2_gp" slope="" color="9 110 88" deepcolor="0 0 0" depth="0.500000" fresnelscale="0.247934" fresnelbias="0.555556" alphaminvalue="0.000000" alphamaxvalue="0.914063" alphamindepth="0.000000" alphamaxdepth="1.900827" minriverbankheight="0.500000" maxriverbankheight="1.000000" waterplaneoffset="1.000000" coloramount="1.842105" reflectionamount="-0.222222" bumpscale="0.660000" reflectionbumpscale="0.710000" foamscale="-0.110000" texscale="1.970000" texscrollspeed="0.000000" texrotation="129.000000">
     <textureplacement>
       <texture distance="10" variance="0">Carolinas\ground_shoreline2_car</texture>
       <texture distance="16" variance="0">yucatan\ground_shoreline1_yuc</texture>
@@ -1016,12 +1030,34 @@
       </shoreobj>
       <shorelong name="ShorelineFoam" distance="2.0" randomyaw="false">
       </shorelong>
-      <shorecliff backcliffdistmin="14.0" backcliffdistmax="20.0" backcliffprob="1.0">
-        <watercliff name="Coastal Japan" paintedge="true" lengthmin="0.07" lengthmax="0.15" smoothdistance="10.0" lowheight="1.0" topheight="4.5" noisemin="0.0" noisemax="0.1">
-        </watercliff>
-        <backcliff name="Coastal Japan" paintedge="true" lengthmin="0.07" lengthmax="0.15" smoothdistance="14.0" lowheight="1.0" topheight="4.0" noisemin="0.0" noisemax="0.1">
+      <shorecliff backcliffdistmin="10.0" backcliffdistmax="14.0" backcliffprob="1.0">
+        <backcliff name="Coastal Japan" paintedge="true" lengthmin="0.12" lengthmax="0.15" smoothdistance="14.0" lowheight="1.0" topheight="4.0" noisemin="0.0" noisemax="0.1">
         </backcliff>
       </shorecliff>
+    </shoreline>
+    <rendering scatter_color="0.064 0.411 0.463" sun_set_color="1.000 0.400 0.000" caustics_depth="1.0000" caustics_intensity="1.6800" caustics_scale="0.1700" caustics_scroll="0.0500" fft_displace="0.9500" custom_wave_scale="8.0000" reflection_normal="0.7200" refraction_normal="0.0380" scatter_amount="0.3710" fog_color_mult="0.1890" custom_wave_scatter="5.0000" surface_roughness="0.0100" fog_density="1.3870" water_color="0.451 0.866 0.871" blur_intensity="0.9000" water_brighten="0.5000" reflection_intensity="0.1260">
+    </rendering>
+  </ocean>
+  <ocean name="Parallel Rivers Sans Cliff" iconname="ui\editor\watercaribbeancoast" bumpmap="terrain\water\ocean1\ocean1" surface="water" bottom="coastal_japan\shoreline1_co_japan" bank="coastal_japan\ground_dirt1_co_japan" outerbank="coastal_japan\ground_dirt1_co_japan" slope="" color="65 110 113" deepcolor="0 0 0" depth="3.800000" fresnelscale="0.247934" fresnelbias="0.555556" alphaminvalue="0.000000" alphamaxvalue="0.930000" alphamindepth="0.000000" alphamaxdepth="1.900827" minriverbankheight="0.500000" maxriverbankheight="1.000000" waterplaneoffset="1.000000" coloramount="1.842105" reflectionamount="-0.222222" bumpscale="0.660000" reflectionbumpscale="0.710000" foamscale="-0.110000" texscale="1.970000" texscrollspeed="0.000000" texrotation="129.000000">
+    <textureplacement>
+      <texture distance="12" variance="4">coastal_japan\shoreline1_co_japan</texture>
+      <texture distance="16" variance="6">coastal_japan\seafloor_coral1_co_japan</texture>
+      <texture distance="24" variance="6">caribbean\seafloor_coral2_crb</texture>
+      <texture distance="34" variance="4">caribbean\seafloor_coral1_crb</texture>
+      <texture distance="48" variance="4">caribbean\seafloor_coral0_crb</texture>
+    </textureplacement>
+    <beachtextureplacement>
+      <texture distance="1.00" variance="1">coastal_japan\ground_dirt4_co_japan</texture>
+      <texture distance="5.00" variance="1">coastal_japan\ground_dirt3_co_japan</texture>
+      <texture distance="13.00" variance="1">coastal_japan\ground_dirt1_co_japan</texture>
+    </beachtextureplacement>
+    <shoreline>
+      <shoreobj name="ShorelineRockBigCJ" mindistance="85.0" maxdistance="110" deltawatermin="0.0" deltawatermax="1.0" randomyaw="false">
+      </shoreobj>
+      <shoreobj name="ShorelineRockSmallCJ" mindistance="1" maxdistance="15" deltawatermin="0.0" deltawatermax="0.75" randomyaw="true">
+      </shoreobj>
+      <shorelong name="ShorelineFoam" distance="2.0" randomyaw="false">
+      </shorelong>
     </shoreline>
     <rendering scatter_color="0.064 0.411 0.463" sun_set_color="1.000 0.400 0.000" caustics_depth="1.0000" caustics_intensity="1.6800" caustics_scale="0.1700" caustics_scroll="0.0500" fft_displace="0.9500" custom_wave_scale="8.0000" reflection_normal="0.7200" refraction_normal="0.0380" scatter_amount="0.3710" fog_color_mult="0.1890" custom_wave_scatter="5.0000" surface_roughness="0.0100" fog_density="1.3870" water_color="0.451 0.866 0.871" blur_intensity="0.9000" water_brighten="0.5000" reflection_intensity="0.1260">
     </rendering>
@@ -1167,6 +1203,14 @@
       </riverobj>
     </riverline>
     <rendering scatter_color="0.329 0.696 0.816" sun_set_color="1.000 0.400 0.000" caustics_depth="2.0000" caustics_intensity="2.8300" caustics_scale="0.1700" caustics_scroll="0.0740" fft_displace="0.4000" custom_wave_scale="8.0000" reflection_normal="1.5000" refraction_normal="0.0380" scatter_amount="0.1550" fog_color_mult="0.3550" custom_wave_scatter="5.0000" surface_roughness="0.0000" fog_density="0.4600" water_color="0.230 0.514 0.733" blur_intensity="1.4000" water_brighten="1.4270" reflection_intensity="0.1350">
+    </rendering>
+  </lake>
+  <lake name="Pomerania Shallow" iconname="ui\editor\watergreatlakes" bumpmap="terrain\water\ocean1\ocean1" surface="water" bottom="yucatan\ground_shoreline1_yuc" bank="great_lakes\ground_shoreline2_gls" outerbank="great_lakes\ground_shoreline3_gls" slope="" color="29 81 101" deepcolor="0 0 0" depth="0.500000" fresnelscale="4.049587" fresnelbias="0.328125" alphaminvalue="0.000000" alphamaxvalue="1.000000" alphamindepth="-1.500000" alphamaxdepth="2.500000" minriverbankheight="0.500000" maxriverbankheight="1.000000" waterplaneoffset="1.000000" coloramount="2.148760" reflectionamount="-0.062500" bumpscale="0.580000" reflectionbumpscale="0.710000" foamscale="-0.110000" texscale="2.000000" texscrollspeed="0.880000" texrotation="99.999992">
+    <shoreline>
+      <waves bumpmap="terrain\water\waterwavebump" bumpmapcrashposition="0.45" foam1tex="terrain\waves\wavefoam" foam2tex="terrain\waves\wavefoam2" foamalphasidetex="terrain\waves\wavefoam_alpha" foamalphabacktex="terrain\waves\wavefoam_alphaback" minlength="7.48" maxlength="22.06" minconcavelength="3.83" maxconcavelength="6.67" minwidth="2.00" maxwidth="3.00" minheight="0.1" maxheight="0.2" minfadelength="4.00" maxfadelength="8.00" minspeed="1.0" maxspeed="1.5" foamstartnormalizedtime="0.10" foamnormalizedspeed="0.00" foammaxnormalizedwidth="1.00" foam1scrollspeed="0.05" foam2scrollspeed="0.23" foamfadeintime="0.20" foamfadeouttime="2.50" recedetime="1.50" recedeendscale="1.00" recedemotion="true" variance="3.00" minstartdistance="2.68" maxstartdistance="4.12" sectionlength="10.83" wavedensity="3" convexitylimit="-8.20" concavitylimit="8.38">
+      </waves>
+    </shoreline>
+    <rendering scatter_color="0.234 0.605 0.730" sun_set_color="1.000 0.400 0.000" caustics_depth="2.2000" caustics_intensity="2.3900" caustics_scale="0.2000" caustics_scroll="0.0290" fft_displace="0.8000" custom_wave_scale="8.0000" reflection_normal="0.4000" refraction_normal="0.0200" scatter_amount="0.4160" fog_color_mult="0.4130" custom_wave_scatter="5.0000" surface_roughness="0.0500" fog_density="0.1510" water_color="0.401 0.594 0.713" blur_intensity="0.1400" water_brighten="2.9110" reflection_intensity="0.1440">
     </rendering>
   </lake>
 </waterbodies>

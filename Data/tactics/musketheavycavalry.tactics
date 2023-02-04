@@ -18,13 +18,6 @@
     <impacteffect>effects\impacts\gun</impacteffect>
     <minrange>2</minrange>
     <rate type="Unit">1.0</rate>
-    <throw>1</throw>
-    <impactforcemin>50.0f</impactforcemin>
-    <impactforcemax>150.0f</impactforcemax>
-    <outerdamageareadistance>.25</outerdamageareadistance>
-    <outerdamageareafactor>.20</outerdamageareafactor>
-    <impactlaunchangle>10.0</impactlaunchangle>
-    <areasortmode>Directional</areasortmode>
     <perfectaccuracy>1</perfectaccuracy>
     <basedamagecap>1</basedamagecap>
   </action>
@@ -47,13 +40,6 @@
     <impacteffect>effects\impacts\gun</impacteffect>
     <minrange>2</minrange>
     <rate type="Guardian">1.0</rate>
-    <throw>1</throw>
-    <impactforcemin>50.0f</impactforcemin>
-    <impactforcemax>150.0f</impactforcemax>
-    <outerdamageareadistance>.25</outerdamageareadistance>
-    <outerdamageareafactor>.20</outerdamageareafactor>
-    <impactlaunchangle>10.0</impactlaunchangle>
-    <areasortmode>Directional</areasortmode>
     <perfectaccuracy>1</perfectaccuracy>
     <basedamagecap>1</basedamagecap>
     <hidefromstats>1</hidefromstats>
@@ -124,13 +110,6 @@
     <impacteffect>effects\impacts\gun</impacteffect>
     <minrange>2</minrange>
     <rate type="Unit">1.0</rate>
-    <throw>1</throw>
-    <impactforcemin>50.0f</impactforcemin>
-    <impactforcemax>150.0f</impactforcemax>
-    <outerdamageareadistance>.25</outerdamageareadistance>
-    <outerdamageareafactor>.20</outerdamageareafactor>
-    <impactlaunchangle>10.0</impactlaunchangle>
-    <areasortmode>Directional</areasortmode>
     <perfectaccuracy>1</perfectaccuracy>
     <basedamagecap>1</basedamagecap>
   </action>

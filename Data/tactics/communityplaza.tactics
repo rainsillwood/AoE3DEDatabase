@@ -1,13 +1,24 @@
 <tactics>
   <action>
+    <name stringid="69162">MilitaryTrainFaster</name>
+    <type>DanceBonus</type>
+    <active>1</active>
+    <persistent>1</persistent>
+    <dancebonustype>Training</dancebonustype>
+    <modifyabstracttype>Military</modifyabstracttype>
+    <modifymultiplier>0.064</modifymultiplier>
+    <modifyexponent>1.0425</modifyexponent>
+    <modifybase>1.0</modifybase>
+  </action>
+  <action>
     <name stringid="69162">VillagerTrainFaster</name>
     <type>DanceBonus</type>
     <active>1</active>
     <persistent>1</persistent>
     <dancebonustype>Training</dancebonustype>
-    <modifyabstracttype>Unit</modifyabstracttype>
+    <modifyabstracttype>EconomicUnit</modifyabstracttype>
     <modifymultiplier>0.064</modifymultiplier>
-    <modifyexponent>1.020</modifyexponent>
+    <modifyexponent>0.9800</modifyexponent>
     <modifybase>1.0</modifybase>
   </action>
   <action>
@@ -61,12 +72,7 @@
     <active>1</active>
     <persistent>1</persistent>
     <dancebonustype>UnitModification</dancebonustype>
-    <modifyabstracttype>Ship</modifyabstracttype>
-    <forbidunittype>deMercBattleship</forbidunittype>
-    <forbidunittype>ypFuchuan</forbidunittype>
-    <forbidunittype>Monitor</forbidunittype>
-    <forbidunittype>ypJunk</forbidunittype>
-    <forbidunittype>Privateer</forbidunittype>
+    <modifyabstracttype>LogicalTypeImprovedByWaterCeremony</modifyabstracttype>
     <modifymultiplier>0.009</modifymultiplier>
     <modifyexponent>1.00475</modifyexponent>
     <modifybase>1.0</modifybase>
@@ -78,12 +84,7 @@
     <active>1</active>
     <persistent>1</persistent>
     <dancebonustype>UnitModification</dancebonustype>
-    <modifyabstracttype>Ship</modifyabstracttype>
-    <forbidunittype>deMercBattleship</forbidunittype>
-    <forbidunittype>ypFuchuan</forbidunittype>
-    <forbidunittype>Monitor</forbidunittype>
-    <forbidunittype>ypJunk</forbidunittype>
-    <forbidunittype>Privateer</forbidunittype>
+    <modifyabstracttype>LogicalTypeImprovedByWaterCeremony</modifyabstracttype>
     <modifymultiplier>0.002</modifymultiplier>
     <modifyexponent>1.005</modifyexponent>
     <modifybase>1.0</modifybase>
@@ -218,7 +219,7 @@
     <persistent>1</persistent>
     <dancebonustype>UnitSpawn</dancebonustype>
     <modifyprotoid>xpMedicineMan</modifyprotoid>
-    <modifymultiplier>0.065</modifymultiplier>
+    <modifymultiplier>0.08125</modifymultiplier>
     <modifyexponent>1.03</modifyexponent>
     <modifybase>0.0</modifybase>
   </action>
@@ -324,7 +325,7 @@
     <modifyexponent>0.0</modifyexponent>
     <modifybase>1.0</modifybase>
   </action>
-  <tactic>FertilityDance<action>VillagerTrainFaster</action><active>0</active><agerequirement>0</agerequirement><firetype>Economic</firetype><protounitcommand>Tactic14</protounitcommand><transition><tactic>GiftDance</tactic><length>2</length><exit>1</exit></transition><transition><tactic>CityDance</tactic><length>2</length><exit>1</exit></transition><transition><tactic>WaterDance</tactic><length>2</length><exit>1</exit></transition><transition><tactic>AlarmDance</tactic><length>2</length><exit>1</exit></transition><transition><tactic>FounderDance</tactic><length>2</length><exit>1</exit></transition><transition><tactic>MorningWarsDance</tactic><length>2</length><exit>1</exit></transition><transition><tactic>EarthMotherDance</tactic><length>2</length><exit>1</exit></transition><transition><tactic>HealingDance</tactic><length>2</length><exit>1</exit></transition><transition><tactic>FireDance</tactic><length>2</length><exit>1</exit></transition><transition><tactic>WarDanceSong</tactic><length>2</length><exit>1</exit></transition><transition><tactic>GarlandWarDance</tactic><length>2</length><exit>1</exit></transition><transition><tactic>WarChiefDance</tactic><length>2</length><exit>1</exit></transition><transition><tactic>WarChiefDanceSioux</tactic><length>2</length><exit>1</exit></transition><transition><tactic>WarChiefDanceAztec</tactic><length>2</length><exit>1</exit></transition><transition><tactic>HolyDance</tactic><length>2</length><exit>1</exit></transition><transition><tactic>HolyDanceLakota</tactic><length>2</length><exit>1</exit></transition><transition><tactic>WarDance</tactic><length>2</length><exit>1</exit></transition><transition><tactic>HolyDanceAztec</tactic><length>2</length><exit>1</exit></transition><transition><tactic>deHolyDanceInca</tactic><length>2</length><exit>1</exit></transition><transition><tactic>deWarChiefDanceInca</tactic><length>2</length><exit>1</exit></transition><transition><tactic>deSupayWarDance</tactic><length>2</length><exit>1</exit></transition><transition><tactic>deMoonDance</tactic><length>2</length><exit>1</exit></transition><transition><tactic>deCalendarDance</tactic><length>2</length><exit>1</exit></transition></tactic>
+  <tactic>FertilityDance<action>MilitaryTrainFaster</action><action>VillagerTrainFaster</action><active>0</active><agerequirement>0</agerequirement><firetype>Economic</firetype><protounitcommand>Tactic14</protounitcommand><transition><tactic>GiftDance</tactic><length>2</length><exit>1</exit></transition><transition><tactic>CityDance</tactic><length>2</length><exit>1</exit></transition><transition><tactic>WaterDance</tactic><length>2</length><exit>1</exit></transition><transition><tactic>AlarmDance</tactic><length>2</length><exit>1</exit></transition><transition><tactic>FounderDance</tactic><length>2</length><exit>1</exit></transition><transition><tactic>MorningWarsDance</tactic><length>2</length><exit>1</exit></transition><transition><tactic>EarthMotherDance</tactic><length>2</length><exit>1</exit></transition><transition><tactic>HealingDance</tactic><length>2</length><exit>1</exit></transition><transition><tactic>FireDance</tactic><length>2</length><exit>1</exit></transition><transition><tactic>WarDanceSong</tactic><length>2</length><exit>1</exit></transition><transition><tactic>GarlandWarDance</tactic><length>2</length><exit>1</exit></transition><transition><tactic>WarChiefDance</tactic><length>2</length><exit>1</exit></transition><transition><tactic>WarChiefDanceSioux</tactic><length>2</length><exit>1</exit></transition><transition><tactic>WarChiefDanceAztec</tactic><length>2</length><exit>1</exit></transition><transition><tactic>HolyDance</tactic><length>2</length><exit>1</exit></transition><transition><tactic>HolyDanceLakota</tactic><length>2</length><exit>1</exit></transition><transition><tactic>WarDance</tactic><length>2</length><exit>1</exit></transition><transition><tactic>HolyDanceAztec</tactic><length>2</length><exit>1</exit></transition><transition><tactic>deHolyDanceInca</tactic><length>2</length><exit>1</exit></transition><transition><tactic>deWarChiefDanceInca</tactic><length>2</length><exit>1</exit></transition><transition><tactic>deSupayWarDance</tactic><length>2</length><exit>1</exit></transition><transition><tactic>deMoonDance</tactic><length>2</length><exit>1</exit></transition><transition><tactic>deCalendarDance</tactic><length>2</length><exit>1</exit></transition></tactic>
   <tactic>GiftDance<action>XPTrickleIncrease</action><active>0</active><agerequirement>0</agerequirement><firetype>Economic</firetype><protounitcommand>Tactic15</protounitcommand><transition><tactic>FertilityDance</tactic><length>2</length><exit>1</exit></transition><transition><tactic>CityDance</tactic><length>2</length><exit>1</exit></transition><transition><tactic>WaterDance</tactic><length>2</length><exit>1</exit></transition><transition><tactic>AlarmDance</tactic><length>2</length><exit>1</exit></transition><transition><tactic>FounderDance</tactic><length>2</length><exit>1</exit></transition><transition><tactic>MorningWarsDance</tactic><length>2</length><exit>1</exit></transition><transition><tactic>EarthMotherDance</tactic><length>2</length><exit>1</exit></transition><transition><tactic>HealingDance</tactic><length>2</length><exit>1</exit></transition><transition><tactic>FireDance</tactic><length>2</length><exit>1</exit></transition><transition><tactic>WarDanceSong</tactic><length>2</length><exit>1</exit></transition><transition><tactic>GarlandWarDance</tactic><length>2</length><exit>1</exit></transition><transition><tactic>WarChiefDance</tactic><length>2</length><exit>1</exit></transition><transition><tactic>WarChiefDanceSioux</tactic><length>2</length><exit>1</exit></transition><transition><tactic>WarChiefDanceAztec</tactic><length>2</length><exit>1</exit></transition><transition><tactic>HolyDance</tactic><length>2</length><exit>1</exit></transition><transition><tactic>HolyDanceLakota</tactic><length>2</length><exit>1</exit></transition><transition><tactic>WarDance</tactic><length>2</length><exit>1</exit></transition><transition><tactic>HolyDanceAztec</tactic><length>2</length><exit>1</exit></transition><transition><tactic>deHolyDanceInca</tactic><length>2</length><exit>1</exit></transition><transition><tactic>deWarChiefDanceInca</tactic><length>2</length><exit>1</exit></transition><transition><tactic>deSupayWarDance</tactic><length>2</length><exit>1</exit></transition><transition><tactic>deMoonDance</tactic><length>2</length><exit>1</exit></transition><transition><tactic>deCalendarDance</tactic><length>2</length><exit>1</exit></transition></tactic>
   <tactic>CityDance<action>BuildingHitpointIncrease</action><action>BuildingDamageIncrease</action><active>0</active><agerequirement>0</agerequirement><firetype>Military</firetype><protounitcommand>Tactic16</protounitcommand><transition><tactic>FertilityDance</tactic><length>2</length><exit>1</exit></transition><transition><tactic>GiftDance</tactic><length>2</length><exit>1</exit></transition><transition><tactic>WaterDance</tactic><length>2</length><exit>1</exit></transition><transition><tactic>AlarmDance</tactic><length>2</length><exit>1</exit></transition><transition><tactic>FounderDance</tactic><length>2</length><exit>1</exit></transition><transition><tactic>MorningWarsDance</tactic><length>2</length><exit>1</exit></transition><transition><tactic>EarthMotherDance</tactic><length>2</length><exit>1</exit></transition><transition><tactic>HealingDance</tactic><length>2</length><exit>1</exit></transition><transition><tactic>FireDance</tactic><length>2</length><exit>1</exit></transition><transition><tactic>WarDanceSong</tactic><length>2</length><exit>1</exit></transition><transition><tactic>GarlandWarDance</tactic><length>2</length><exit>1</exit></transition><transition><tactic>WarChiefDance</tactic><length>2</length><exit>1</exit></transition><transition><tactic>WarChiefDanceSioux</tactic><length>2</length><exit>1</exit></transition><transition><tactic>WarChiefDanceAztec</tactic><length>2</length><exit>1</exit></transition><transition><tactic>HolyDance</tactic><length>2</length><exit>1</exit></transition><transition><tactic>HolyDanceLakota</tactic><length>2</length><exit>1</exit></transition><transition><tactic>WarDance</tactic><length>2</length><exit>1</exit></transition><transition><tactic>HolyDanceAztec</tactic><length>2</length><exit>1</exit></transition><transition><tactic>deHolyDanceInca</tactic><length>2</length><exit>1</exit></transition><transition><tactic>deWarChiefDanceInca</tactic><length>2</length><exit>1</exit></transition><transition><tactic>deSupayWarDance</tactic><length>2</length><exit>1</exit></transition><transition><tactic>deMoonDance</tactic><length>2</length><exit>1</exit></transition><transition><tactic>deCalendarDance</tactic><length>2</length><exit>1</exit></transition></tactic>
   <tactic>WaterDance<action>ShipHitpointIncrease</action><action>ShipDamageIncrease</action><active>0</active><agerequirement>0</agerequirement><firetype>Military</firetype><protounitcommand>Tactic17</protounitcommand><transition><tactic>FertilityDance</tactic><length>2</length><exit>1</exit></transition><transition><tactic>GiftDance</tactic><length>2</length><exit>1</exit></transition><transition><tactic>CityDance</tactic><length>2</length><exit>1</exit></transition><transition><tactic>AlarmDance</tactic><length>2</length><exit>1</exit></transition><transition><tactic>FounderDance</tactic><length>2</length><exit>1</exit></transition><transition><tactic>MorningWarsDance</tactic><length>2</length><exit>1</exit></transition><transition><tactic>EarthMotherDance</tactic><length>2</length><exit>1</exit></transition><transition><tactic>HealingDance</tactic><length>2</length><exit>1</exit></transition><transition><tactic>FireDance</tactic><length>2</length><exit>1</exit></transition><transition><tactic>WarDanceSong</tactic><length>2</length><exit>1</exit></transition><transition><tactic>GarlandWarDance</tactic><length>2</length><exit>1</exit></transition><transition><tactic>WarChiefDance</tactic><length>2</length><exit>1</exit></transition><transition><tactic>WarChiefDanceSioux</tactic><length>2</length><exit>1</exit></transition><transition><tactic>WarChiefDanceAztec</tactic><length>2</length><exit>1</exit></transition><transition><tactic>HolyDance</tactic><length>2</length><exit>1</exit></transition><transition><tactic>HolyDanceLakota</tactic><length>2</length><exit>1</exit></transition><transition><tactic>WarDance</tactic><length>2</length><exit>1</exit></transition><transition><tactic>HolyDanceAztec</tactic><length>2</length><exit>1</exit></transition><transition><tactic>deHolyDanceInca</tactic><length>2</length><exit>1</exit></transition><transition><tactic>deWarChiefDanceInca</tactic><length>2</length><exit>1</exit></transition><transition><tactic>deSupayWarDance</tactic><length>2</length><exit>1</exit></transition><transition><tactic>deMoonDance</tactic><length>2</length><exit>1</exit></transition><transition><tactic>deCalendarDance</tactic><length>2</length><exit>1</exit></transition></tactic>

@@ -8,6 +8,7 @@
   <defaultpoplimit>200</defaultpoplimit>
   <defaultpopextralimit>50</defaultpopextralimit>
   <defaultcontainedregenrate>0.25</defaultcontainedregenrate>
+  <displayfame>0</displayfame>
   <civ>
     <name>Spanish</name>
     <main>1</main>
@@ -20,7 +21,7 @@
     <alliedid>26446</alliedid>
     <alliedotherid>26445</alliedotherid>
     <unalliedid>26444</unalliedid>
-    <hcshipmentmodifier>0.72</hcshipmentmodifier>
+    <hcshipmentmodifier>0.74</hcshipmentmodifier>
     <agetech>
       <age>Age0</age>
       <tech>Age0Spanish</tech>
@@ -48,8 +49,6 @@
     <empirewarstech>DEEmpireWars</empirewarstech>
     <buildingefficiency>0.3</buildingefficiency>
     <freebuildingefficiency>1.0</freebuildingefficiency>
-    <investmentamount>300</investmentamount>
-    <investmentcap>3000</investmentcap>
     <gold>0</gold>
     <food>0</food>
     <wood>0</wood>
@@ -303,8 +302,6 @@
     <empirewarstech>DEEmpireWars</empirewarstech>
     <buildingefficiency>0.3</buildingefficiency>
     <freebuildingefficiency>1.0</freebuildingefficiency>
-    <investmentamount>300</investmentamount>
-    <investmentcap>3000</investmentcap>
     <gold>0</gold>
     <food>0</food>
     <wood>0</wood>
@@ -552,8 +549,6 @@
     <empirewarstech>DEEmpireWars</empirewarstech>
     <buildingefficiency>0.3</buildingefficiency>
     <freebuildingefficiency>1.0</freebuildingefficiency>
-    <investmentamount>300</investmentamount>
-    <investmentcap>3000</investmentcap>
     <gold>0</gold>
     <food>0</food>
     <wood>0</wood>
@@ -819,8 +814,6 @@
     <empirewarstech>DEEmpireWars</empirewarstech>
     <buildingefficiency>0.3</buildingefficiency>
     <freebuildingefficiency>1.0</freebuildingefficiency>
-    <investmentamount>300</investmentamount>
-    <investmentcap>3000</investmentcap>
     <gold>0</gold>
     <food>0</food>
     <wood>0</wood>
@@ -1079,8 +1072,6 @@
     <empirewarstech>DEEmpireWars</empirewarstech>
     <buildingefficiency>0.3</buildingefficiency>
     <freebuildingefficiency>1.0</freebuildingefficiency>
-    <investmentamount>300</investmentamount>
-    <investmentcap>3000</investmentcap>
     <gold>0</gold>
     <food>0</food>
     <wood>0</wood>
@@ -1096,7 +1087,6 @@
     <townstartingunit>CrateofCoin</townstartingunit>
     <townstartingunit>CrateofCoin</townstartingunit>
     <townstartingunit>CrateofCoin</townstartingunit>
-    <townstartingunit>deCrateofFood50</townstartingunit>
     <townstartingunit>CrateofWood</townstartingunit>
     <townstartingunit>CrateofWood</townstartingunit>
     <empirewarsstartingunit>Settler</empirewarsstartingunit>
@@ -1341,8 +1331,6 @@
     <empirewarstech>DEEmpireWars</empirewarstech>
     <buildingefficiency>0.3</buildingefficiency>
     <freebuildingefficiency>1.0</freebuildingefficiency>
-    <investmentamount>300</investmentamount>
-    <investmentcap>3000</investmentcap>
     <gold>0</gold>
     <food>0</food>
     <wood>0</wood>
@@ -1618,8 +1606,6 @@
     <empirewarstech>DEEmpireWars</empirewarstech>
     <buildingefficiency>0.3</buildingefficiency>
     <freebuildingefficiency>1.0</freebuildingefficiency>
-    <investmentamount>300</investmentamount>
-    <investmentcap>3000</investmentcap>
     <gold>0</gold>
     <food>0</food>
     <wood>0</wood>
@@ -1857,8 +1843,6 @@
     <empirewarstech>DEEmpireWars</empirewarstech>
     <buildingefficiency>0.3</buildingefficiency>
     <freebuildingefficiency>1.0</freebuildingefficiency>
-    <investmentamount>300</investmentamount>
-    <investmentcap>3000</investmentcap>
     <gold>0</gold>
     <food>0</food>
     <wood>0</wood>
@@ -2538,8 +2522,6 @@
     <empirewarstech>DEEmpireWars</empirewarstech>
     <buildingefficiency>0.3</buildingefficiency>
     <freebuildingefficiency>1.0</freebuildingefficiency>
-    <investmentamount>300</investmentamount>
-    <investmentcap>3000</investmentcap>
     <gold>0</gold>
     <food>0</food>
     <wood>0</wood>
@@ -2791,8 +2773,6 @@
     <empirewarstech>DEEmpireWars</empirewarstech>
     <buildingefficiency>0.3</buildingefficiency>
     <freebuildingefficiency>1.0</freebuildingefficiency>
-    <investmentamount>300</investmentamount>
-    <investmentcap>3000</investmentcap>
     <gold>0</gold>
     <food>0</food>
     <wood>0</wood>
@@ -2806,7 +2786,6 @@
     <townstartingunit>CrateofFood</townstartingunit>
     <townstartingunit>CrateofFood</townstartingunit>
     <townstartingunit>CrateofFood</townstartingunit>
-    <townstartingunit>CrateofWood</townstartingunit>
     <townstartingunit>CrateofWood</townstartingunit>
     <townstartingunit>CrateofCoin</townstartingunit>
     <empirewarsstartingunit>SettlerNative</empirewarsstartingunit>
@@ -3050,8 +3029,6 @@
     </maximumageupresourcecost>
     <buildingefficiency>0.3</buildingefficiency>
     <freebuildingefficiency>1.0</freebuildingefficiency>
-    <investmentamount>300</investmentamount>
-    <investmentcap>3000</investmentcap>
     <gold>0</gold>
     <food>0</food>
     <wood>0</wood>
@@ -3433,8 +3410,6 @@
     <empirewarstech>DEEmpireWars</empirewarstech>
     <buildingefficiency>0.3</buildingefficiency>
     <freebuildingefficiency>1.0</freebuildingefficiency>
-    <investmentamount>300</investmentamount>
-    <investmentcap>3000</investmentcap>
     <gold>0</gold>
     <food>0</food>
     <wood>0</wood>
@@ -3946,8 +3921,6 @@
     <empirewarstech>DEEmpireWars</empirewarstech>
     <buildingefficiency>0.3</buildingefficiency>
     <freebuildingefficiency>1.0</freebuildingefficiency>
-    <investmentamount>300</investmentamount>
-    <investmentcap>3000</investmentcap>
     <gold>0</gold>
     <food>0</food>
     <wood>0</wood>
@@ -3959,7 +3932,7 @@
     </startingresourcesmultiplier>
     <startingunit>ypMonkChinese</startingunit>
     <startingunit>ypMonkDisciple</startingunit>
-    <townstartingunit resourceamount="120.00">ypGoat</townstartingunit>
+    <townstartingunit>ypGoat</townstartingunit>
     <townstartingunit>ypSettlerAsian</townstartingunit>
     <townstartingunit>ypSettlerAsian</townstartingunit>
     <townstartingunit>ypSettlerAsian</townstartingunit>
@@ -5327,8 +5300,6 @@
     <empirewarstech>DEEmpireWars</empirewarstech>
     <buildingefficiency>0.3</buildingefficiency>
     <freebuildingefficiency>1.0</freebuildingefficiency>
-    <investmentamount>300</investmentamount>
-    <investmentcap>3000</investmentcap>
     <gold>0</gold>
     <food>0</food>
     <wood>0</wood>
@@ -6156,7 +6127,7 @@
         <unit>ypNatMercRattanShield</unit>
       </units>
       <units>
-        <unit>ypBlindMonk</unit>
+        <unit>ypRepentantBlindMonk</unit>
       </units>
       <unitcounts>
         <count>24</count>
@@ -7744,8 +7715,6 @@
     <empirewarstech>DEEmpireWars</empirewarstech>
     <buildingefficiency>0.3</buildingefficiency>
     <freebuildingefficiency>1.0</freebuildingefficiency>
-    <investmentamount>300</investmentamount>
-    <investmentcap>3000</investmentcap>
     <gold>0</gold>
     <food>0</food>
     <wood>0</wood>
@@ -7993,8 +7962,6 @@
     <empirewarstech>DEEmpireWars</empirewarstech>
     <buildingefficiency>0.3</buildingefficiency>
     <freebuildingefficiency>1.0</freebuildingefficiency>
-    <investmentamount>300</investmentamount>
-    <investmentcap>3000</investmentcap>
     <gold>0</gold>
     <food>0</food>
     <wood>0</wood>
@@ -8004,7 +7971,7 @@
     <townstartingunit>Settler</townstartingunit>
     <townstartingunit>Settler</townstartingunit>
     <townstartingunit>Settler</townstartingunit>
-    <townstartingunit>CrateofFood</townstartingunit>
+    <townstartingunit>Settler</townstartingunit>
     <townstartingunit>CrateofFood</townstartingunit>
     <townstartingunit>CrateofFood</townstartingunit>
     <townstartingunit>CrateofWood</townstartingunit>
@@ -9036,8 +9003,6 @@
     <empirewarstech>DEEmpireWars</empirewarstech>
     <buildingefficiency>0.3</buildingefficiency>
     <freebuildingefficiency>1.0</freebuildingefficiency>
-    <investmentamount>300</investmentamount>
-    <investmentcap>3000</investmentcap>
     <gold>0</gold>
     <food>0</food>
     <wood>0</wood>
@@ -9048,6 +9013,7 @@
     <townstartingunit>Settler</townstartingunit>
     <townstartingunit>Settler</townstartingunit>
     <townstartingunit>Settler</townstartingunit>
+    <townstartingunit>CrateofFood</townstartingunit>
     <townstartingunit>CrateofFood</townstartingunit>
     <townstartingunit>CrateofFood</townstartingunit>
     <townstartingunit>CrateofFood</townstartingunit>
@@ -9540,8 +9506,6 @@
     <empirewarstech>DEEmpireWars</empirewarstech>
     <buildingefficiency>0.3</buildingefficiency>
     <freebuildingefficiency>1.0</freebuildingefficiency>
-    <investmentamount>300</investmentamount>
-    <investmentcap>3000</investmentcap>
     <gold>0</gold>
     <food>0</food>
     <wood>0</wood>
@@ -9848,8 +9812,6 @@
     <empirewarstech>DEEmpireWars</empirewarstech>
     <buildingefficiency>0.3</buildingefficiency>
     <freebuildingefficiency>1.0</freebuildingefficiency>
-    <investmentamount>300</investmentamount>
-    <investmentcap>3000</investmentcap>
     <gold>0</gold>
     <food>0</food>
     <wood>0</wood>
@@ -10260,8 +10222,6 @@
     <empirewarstech>DEEmpireWars</empirewarstech>
     <buildingefficiency>0.3</buildingefficiency>
     <freebuildingefficiency>1.0</freebuildingefficiency>
-    <investmentamount>300</investmentamount>
-    <investmentcap>3000</investmentcap>
     <gold>0</gold>
     <food>0</food>
     <wood>0</wood>
@@ -10320,8 +10280,6 @@
     <homecityfilename>homecitymexicans.xml</homecityfilename>
     <usetwoheronames>
     </usetwoheronames>
-    <restrictdefaultentryfirsthero>
-    </restrictdefaultentryfirsthero>
     <secondherohclabelid>112249</secondherohclabelid>
     <useextendeddeckui>
     </useextendeddeckui>
@@ -10775,7 +10733,7 @@
     <alliedid>26446</alliedid>
     <alliedotherid>26445</alliedotherid>
     <unalliedid>26444</unalliedid>
-    <hcshipmentmodifier>1.080</hcshipmentmodifier>
+    <hcshipmentmodifier>1.070</hcshipmentmodifier>
     <agetech>
       <age>Age0</age>
       <tech>DEAge0Italians</tech>
@@ -10805,8 +10763,6 @@
     <freebuildingefficiency>1.0</freebuildingefficiency>
     <canpayfreefoundations>
     </canpayfreefoundations>
-    <investmentamount>300</investmentamount>
-    <investmentcap>3000</investmentcap>
     <gold>0</gold>
     <food>0</food>
     <wood>0</wood>
@@ -11038,6 +10994,7 @@
     <alliedid>26446</alliedid>
     <alliedotherid>26445</alliedotherid>
     <unalliedid>26444</unalliedid>
+    <herohclabelid>212012</herohclabelid>
     <agetech>
       <age>Age0</age>
       <tech>DEAge0Maltese</tech>
@@ -11065,8 +11022,6 @@
     <empirewarstech>DEEmpireWars</empirewarstech>
     <buildingefficiency>0.3</buildingefficiency>
     <freebuildingefficiency>1.0</freebuildingefficiency>
-    <investmentamount>300</investmentamount>
-    <investmentcap>3000</investmentcap>
     <gold>0</gold>
     <food>0</food>
     <wood>0</wood>
@@ -12631,6 +12586,33 @@
     <postgameflagiconwpf>resources/images/icons/flags/postgame_flag_texan.png</postgameflagiconwpf>
     <homecityflagiconwpf>resources/images/icons/flags/Flag_texan.png</homecityflagiconwpf>
     <homecityflagbuttonwpf>resources/images/icons/flags/flag_hc_texan.png</homecityflagbuttonwpf>
+    <visible>0</visible>
+    <visibleineditor>0</visibleineditor>
+  </civ>
+  <civ>
+    <name>DERevFrance</name>
+    <main>0</main>
+    <displaynameid>125353</displaynameid>
+    <displayrevolutionflag>0</displayrevolutionflag>
+    <revolutionhomecityname>36885</revolutionhomecityname>
+    <homecityflagtexture>objects\flags\french_revolution</homecityflagtexture>
+    <postgameflagiconwpf>resources/images/icons/flags/postgame_flag_french_revolution.png</postgameflagiconwpf>
+    <homecityflagiconwpf>resources/images/icons/flags/Flag_French_Revolution.png</homecityflagiconwpf>
+    <homecityflagbuttonwpf>resources/images/icons/flags/flag_hc_french_revolution.png</homecityflagbuttonwpf>
+    <visible>0</visible>
+    <visibleineditor>0</visibleineditor>
+  </civ>
+  <civ>
+    <name>DERevFranceNE</name>
+    <main>0</main>
+    <displaynameid>125353</displaynameid>
+    <displayrevolutionflag>0</displayrevolutionflag>
+    <revolutionhomecityname>36885</revolutionhomecityname>
+    <revolutiondecksize>30</revolutiondecksize>
+    <homecityflagtexture>objects\flags\french_revolution</homecityflagtexture>
+    <postgameflagiconwpf>resources/images/icons/flags/postgame_flag_french_revolution.png</postgameflagiconwpf>
+    <homecityflagiconwpf>resources/images/icons/flags/Flag_French_Revolution.png</homecityflagiconwpf>
+    <homecityflagbuttonwpf>resources/images/icons/flags/flag_hc_french_revolution.png</homecityflagbuttonwpf>
     <visible>0</visible>
     <visibleineditor>0</visibleineditor>
   </civ>

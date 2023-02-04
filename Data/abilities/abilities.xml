@@ -246,6 +246,7 @@
     <ability>PowerHealSwedish<tech>DEREVUnlockHeal</tech><civ>DESwedish</civ><rof>120</rof><activetimecooldown>true</activetimecooldown></ability>
     <ability>PowerHealRussian<tech>DEREVUnlockHeal</tech><civ>Russians</civ><rof>120</rof><activetimecooldown>true</activetimecooldown></ability>
     <ability>PowerBalloon<tech>deEnableBalloonPower</tech><rof>240</rof><activetimecooldown>true</activetimecooldown></ability>
+    <ability>PowerBalloonFrench<tech>DEHCShipBalloonsFrench</tech><rof>200</rof><activetimecooldown>true</activetimecooldown></ability>
     <ability>deUnitHealthRegen<alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
   </explorer>
   <xpiroquoiswarchief>
@@ -499,6 +500,7 @@
     <ability>deUSLevyMinutemen<rof>160</rof><nevershowingrid>true</nevershowingrid><alwaysdisabledingrid>false</alwaysdisabledingrid></ability>
     <ability>deNatSomaliLighthouse<tech>DEAllegianceSomaliLighthouseShadow</tech><rof>60</rof><castonself>true</castonself></ability>
     <ability>deAllegianceSonghaiLevyRaiders<rof>160</rof><nevershowingrid>true</nevershowingrid><alwaysdisabledingrid>false</alwaysdisabledingrid></ability>
+    <ability>deRansom<rof>90</rof><nevershowingrid>true</nevershowingrid><alwaysdisabledingrid>false</alwaysdisabledingrid></ability>
   </towncenter>
   <merclandsknecht>
     <ability>deChargeAbilitySwashbuckler<bindtochargeaction>true</bindtochargeaction><forceshowrollover>true</forceshowrollover></ability>
@@ -600,18 +602,21 @@
   <tradingpost>
     <ability>deNatSomaliLighthouse<tech>DENatSomaliLighthouses</tech><subciv>Somali</subciv><rof>60</rof><castonself>true</castonself></ability>
     <ability>deSPCLevyCityGuards<subciv>SPCCityState</subciv><rof>160</rof><nevershowingrid>true</nevershowingrid><alwaysdisabledingrid>false</alwaysdisabledingrid></ability>
-    <ability>deNatPowerRoyalMarch<tech>Colonialize</tech><subciv>Bourbon</subciv><subcivalliancefactor>0.5</subcivalliancefactor><subcivstartincooldown>true</subcivstartincooldown><activetimecooldown>true</activetimecooldown><usebigabilitybutton3>true</usebigabilitybutton3><rof>300</rof><castonself>true</castonself></ability>
-    <ability>deNatPowerRadetzyMarch<tech>Colonialize</tech><subciv>Habsburg</subciv><subcivalliancefactor>0.5</subcivalliancefactor><subcivstartincooldown>true</subcivstartincooldown><uicommand>uiFindNativeSiteSubCiv("Habsburg")</uicommand><usebigabilitybutton3>true</usebigabilitybutton3><rof>300</rof><castonself>true</castonself><donotallowoverpoplimit>true</donotallowoverpoplimit></ability>
-    <ability>deNatPowerVasaOrder<tech>Colonialize</tech><subciv>Vasa</subciv><subcivalliancefactor>0.5</subcivalliancefactor><subcivstartincooldown>true</subcivstartincooldown><activetimecooldown>true</activetimecooldown><usebigabilitybutton3>true</usebigabilitybutton3><rof>300</rof><castonself>true</castonself></ability>
-    <ability>deNatPowerPowerBalance<tech>Colonialize</tech><subciv>Jagiellon</subciv><subcivalliancefactor>0.5</subcivalliancefactor><subcivstartincooldown>true</subcivstartincooldown><usebigabilitybutton3>true</usebigabilitybutton3><rof>300</rof><castonself>true</castonself></ability>
+    <ability>deNatPowerRoyalMarch<tech>Colonialize</tech><subciv>Bourbon</subciv><subcivalliancefactor>0.5</subcivalliancefactor><subcivstartincooldown>true</subcivstartincooldown><activetimecooldown>true</activetimecooldown><usebigabilitybutton3>true</usebigabilitybutton3><rof>275</rof><castonself>true</castonself></ability>
+    <ability>deNatPowerRadetzyMarch<tech>Colonialize</tech><subciv>Habsburg</subciv><subcivalliancefactor>0.5</subcivalliancefactor><subcivstartincooldown>true</subcivstartincooldown><uicommand>uiFindNativeSiteSubCiv("Habsburg")</uicommand><usebigabilitybutton3>true</usebigabilitybutton3><rof>250</rof><castonself>true</castonself><donotallowoverpoplimit>true</donotallowoverpoplimit></ability>
+    <ability>deNatPowerVasaOrder<tech>Colonialize</tech><subciv>Vasa</subciv><subcivalliancefactor>0.5</subcivalliancefactor><subcivstartincooldown>true</subcivstartincooldown><activetimecooldown>true</activetimecooldown><usebigabilitybutton3>true</usebigabilitybutton3><rof>280</rof><castonself>true</castonself></ability>
+    <ability>deNatPowerPowerBalance<tech>Colonialize</tech><subciv>Jagiellon</subciv><subcivalliancefactor>0.5</subcivalliancefactor><subcivstartincooldown>true</subcivstartincooldown><usebigabilitybutton3>true</usebigabilitybutton3><rof>260</rof><castonself>true</castonself></ability>
     <ability>deNatPowerScientificExpeditions<tech>Colonialize</tech><subciv>Oldenburg</subciv><subcivalliancefactor>0.5</subcivalliancefactor><subcivstartincooldown>true</subcivstartincooldown><activetimecooldown>true</activetimecooldown><usebigabilitybutton3>true</usebigabilitybutton3><castifnotselected>true</castifnotselected><rof>150</rof></ability>
-    <ability>deNatPowerGoldenerReiter<tech>Colonialize</tech><subciv>Wettin</subciv><subcivalliancefactor>0.5</subcivalliancefactor><subcivstartincooldown>true</subcivstartincooldown><activetimecooldown>true</activetimecooldown><usebigabilitybutton3>true</usebigabilitybutton3><castifnotselected>true</castifnotselected><rof>300</rof></ability>
-    <ability>deNatPowerAlpineHorns<tech>Colonialize</tech><subciv>Wittelsbach</subciv><subcivalliancefactor>0.5</subcivalliancefactor><subcivstartincooldown>true</subcivstartincooldown><uicommand>uiFindNativeSiteSubCiv("Wittelsbach")</uicommand><usebigabilitybutton3>true</usebigabilitybutton3><rof>300</rof><castonself>true</castonself><donotallowoverpoplimit>true</donotallowoverpoplimit></ability>
+    <ability>deNatPowerGoldenerReiter<tech>Colonialize</tech><subciv>Wettin</subciv><subcivalliancefactor>0.5</subcivalliancefactor><subcivstartincooldown>true</subcivstartincooldown><activetimecooldown>true</activetimecooldown><usebigabilitybutton3>true</usebigabilitybutton3><castifnotselected>true</castifnotselected><rof>280</rof></ability>
+    <ability>deNatPowerAlpineHorns<tech>Colonialize</tech><subciv>Wittelsbach</subciv><subcivalliancefactor>0.5</subcivalliancefactor><subcivstartincooldown>true</subcivstartincooldown><uicommand>uiFindNativeSiteSubCiv("Wittelsbach")</uicommand><usebigabilitybutton3>true</usebigabilitybutton3><rof>250</rof><castonself>true</castonself><donotallowoverpoplimit>true</donotallowoverpoplimit></ability>
     <ability>dePowerAlpineHornsAux<rof>1</rof><nevershowingrid>true</nevershowingrid><alwaysdisabledingrid>false</alwaysdisabledingrid></ability>
     <ability>deNatPowerRoyalFireworks<tech>Colonialize</tech><subciv>Hanover</subciv><subcivalliancefactor>0.5</subcivalliancefactor><subcivstartincooldown>true</subcivstartincooldown><activetimecooldown>true</activetimecooldown><usebigabilitybutton3>true</usebigabilitybutton3><castifnotselected>true</castifnotselected><rof>300</rof></ability>
-    <ability>deNatPowerGreekRevolution<tech>Colonialize</tech><subciv>Phanar</subciv><subcivalliancefactor>0.5</subcivalliancefactor><subcivstartincooldown>true</subcivstartincooldown><activetimecooldown>true</activetimecooldown><uicommand>uiFindNativeSiteSubCiv("Phanar")</uicommand><usebigabilitybutton3>true</usebigabilitybutton3><rof>600</rof><castonself>true</castonself><donotallowoverpoplimit>true</donotallowoverpoplimit></ability>
+    <ability>deNatPowerGreekRevolution<tech>Colonialize</tech><subciv>Phanar</subciv><subcivalliancefactor>0.5</subcivalliancefactor><subcivstartincooldown>true</subcivstartincooldown><activetimecooldown>true</activetimecooldown><uicommand>uiFindNativeSiteSubCiv("Phanar")</uicommand><usebigabilitybutton3>true</usebigabilitybutton3><rof>450</rof><castonself>true</castonself><donotallowoverpoplimit>true</donotallowoverpoplimit></ability>
     <ability>dePowerGreekRevolutionAux<rof>1</rof><nevershowingrid>true</nevershowingrid><alwaysdisabledingrid>false</alwaysdisabledingrid></ability>
   </tradingpost>
+  <nativeembassy>
+    <ability>deNatPowerRoyalMarch<tech>DEHCAncienRegime</tech><subciv>Bourbon</subciv><subcivalliancefactor>0.5</subcivalliancefactor><subcivstartincooldown>true</subcivstartincooldown><activetimecooldown>true</activetimecooldown><usebigabilitybutton3>true</usebigabilitybutton3><rof>300</rof><castonself>true</castonself></ability>
+  </nativeembassy>
   <destartingunitprivateer>
     <ability>PowerBroadside<rof>60</rof></ability>
   </destartingunitprivateer>
@@ -636,6 +641,9 @@
   <denatspclenaperifleman>
     <ability>deChargeAbilityStun<bindtochargeaction>true</bindtochargeaction><forceshowrollover>true</forceshowrollover></ability>
   </denatspclenaperifleman>
+  <denatmerclenaperifleman>
+    <ability>deChargeAbilityStun<bindtochargeaction>true</bindtochargeaction><forceshowrollover>true</forceshowrollover></ability>
+  </denatmerclenaperifleman>
   <despcmilitiaofficer>
     <ability>PowerSharpshooter<rof>60</rof></ability>
     <ability>deAbilityInspiringFlagCanada<rof>180</rof><donotforcestop>true</donotforcestop></ability>
@@ -793,12 +801,22 @@
     <ability>dePromotionHpROF<alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
     <ability>deChargeAbilityDeathStrike<bindtochargeaction>true</bindtochargeaction><forceshowrollover>true</forceshowrollover></ability>
   </denatmerctotenkopf>
+  <detotenkopf>
+    <ability>dePromotionHpROF<alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
+    <ability>deChargeAbilityDeathStrike<bindtochargeaction>true</bindtochargeaction><forceshowrollover>true</forceshowrollover></ability>
+  </detotenkopf>
   <denatbrunswicker>
     <ability>dePromotionHpDMG<alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
   </denatbrunswicker>
+  <denatmercbrunswicker>
+    <ability>dePromotionHpDMG<alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
+  </denatmercbrunswicker>
   <denatlineinfantry>
     <ability>dePromotionHpDMG<alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
   </denatlineinfantry>
+  <denatmerclineinfantry>
+    <ability>dePromotionHpDMG<alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
+  </denatmerclineinfantry>
   <demercbosniak>
     <ability>dePromotionHpDMG<alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
     <ability>deChargeAbilityEuropeanLance<bindtochargeaction>true</bindtochargeaction><forceshowrollover>true</forceshowrollover></ability>
@@ -825,9 +843,15 @@
   <denatmountaintrooper>
     <ability>dePromotionRangeROF<alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
   </denatmountaintrooper>
+  <denatmercmountaintrooper>
+    <ability>dePromotionRangeROF<alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
+  </denatmercmountaintrooper>
   <denatnorthernmusketeer>
     <ability>dePromotionHitpoints<alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
   </denatnorthernmusketeer>
+  <denatmercnorthernmusketeer>
+    <ability>dePromotionHitpoints<alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
+  </denatmercnorthernmusketeer>
   <desalooncrabat>
     <ability>dePromotionHpROF<alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
   </desalooncrabat>
@@ -843,6 +867,11 @@
     <ability>deDrummerAura<alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
     <ability>deAbilityInspiringFlagHanover<tech>DENatHanoverUnionActs</tech><rof>360</rof><donotforcestop>true</donotforcestop></ability>
   </denatdrummer>
+  <denatmercdrummer>
+    <ability>deDrummerInverted<alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
+    <ability>deDrummerAura<alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
+    <ability>deAbilityInspiringFlagHanover<tech>DENatHanoverUnionActs</tech><rof>360</rof><donotforcestop>true</donotforcestop></ability>
+  </denatmercdrummer>
   <deathosmonastery>
     <ability>deNatMountAthos<alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
   </deathosmonastery>
@@ -863,8 +892,13 @@
     <ability>deChargeAbilityShootoutHighwayman<bindtochargeaction>true</bindtochargeaction><forceshowrollover>true</forceshowrollover></ability>
   </desaloonhighwayman>
   <denattrabant>
+    <ability>deChargeAbilityChargedPistol<bindtochargeaction>true</bindtochargeaction><forceshowrollover>true</forceshowrollover></ability>
     <ability>deShieldAura<alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
   </denattrabant>
+  <denatmerctrabant>
+    <ability>deChargeAbilityChargedPistol<bindtochargeaction>true</bindtochargeaction><forceshowrollover>true</forceshowrollover></ability>
+    <ability>deShieldAura<alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
+  </denatmerctrabant>
   <demercpistoleer>
     <ability>deShieldAura<alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
   </demercpistoleer>
@@ -893,4 +927,20 @@
   <denatroyalarquebusier>
     <ability>dePromotionHpDMG<alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
   </denatroyalarquebusier>
+  <halberdier>
+    <ability>dePromotionHpDMG<tech>DEHCFrenchRoyalArmy</tech><alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
+  </halberdier>
+  <musketeer>
+    <ability>dePromotionHpDMG<tech>DEHCFrenchRoyalArmy</tech><alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
+  </musketeer>
+  <crossbowman>
+    <ability>dePromotionHpROF<tech>ChurchBestieros</tech><alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
+  </crossbowman>
+  <deoromowarrior>
+    <ability>deChargeAbilityBerberMusket<bindtochargeaction>true</bindtochargeaction><forceshowrollover>true</forceshowrollover></ability>
+  </deoromowarrior>
+  <xpspy>
+    <ability>deChargeAbilitySpyCrackshot<tech>HCXPAssassins</tech><bindtochargeaction>true</bindtochargeaction><forceshowrollover>true</forceshowrollover></ability>
+    <ability>deChargeAbilitySpyPistol<tech>HCXPAgents</tech><bindtochargeaction>true</bindtochargeaction><bindtoauxchargeaction>true</bindtoauxchargeaction><forceshowrollover>true</forceshowrollover></ability>
+  </xpspy>
 </abilities>

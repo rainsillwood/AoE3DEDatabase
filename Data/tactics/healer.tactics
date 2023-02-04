@@ -17,6 +17,13 @@
     <anim>Heal</anim>
   </action>
   <action>
+    <name stringid="42178">Gather</name>
+    <active>0</active>
+    <type>Gather</type>
+    <maxrange>0.5</maxrange>
+    <rate type="CommunityPlaza">1.0</rate>
+  </action>
+  <action>
     <name stringid="48958">ExtraDamage</name>
     <type>AutoRangedModify</type>
     <modifyabstracttype>Military</modifyabstracttype>
@@ -30,5 +37,5 @@
     <modelattachment>effects\chiefpower\chiefpower.xml</modelattachment>
     <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
   </action>
-  <tactic>Normal<action>HandAttack</action><action>Heal</action><action>ExtraDamage</action><attacktype>LogicalTypeHandUnitsAttack</attacktype><runaway>1</runaway><autoretarget>1</autoretarget></tactic>
+  <tactic>Normal<action>HandAttack</action><action>Heal</action><action>ExtraDamage</action><action>Gather</action><attacktype>LogicalTypeHandUnitsAttack</attacktype><runaway>1</runaway><autoretarget>1</autoretarget></tactic>
 </tactics>

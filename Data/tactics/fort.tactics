@@ -191,70 +191,70 @@
   <action>
     <name stringid="43299">MaintainFedStateMilitia</name>
     <type>Maintain</type>
-    <rate type="deFortStateMilitiaBatch">1.0 </rate>
+    <rate type="deFortStateMilitiaBatch">1.15 </rate>
     <active>0</active>
     <persistent>1</persistent>
   </action>
   <action>
     <name stringid="43299">MaintainFedRegular</name>
     <type>Maintain</type>
-    <rate type="deFortRegularBatch">1.0 </rate>
+    <rate type="deFortRegularBatch">1.15 </rate>
     <active>0</active>
     <persistent>1</persistent>
   </action>
   <action>
     <name stringid="43299">MaintainFedRifleman</name>
     <type>Maintain</type>
-    <rate type="deFortRiflemanBatch">1.0 </rate>
+    <rate type="deFortRiflemanBatch">1.15 </rate>
     <active>0</active>
     <persistent>1</persistent>
   </action>
   <action>
     <name stringid="43299">MaintainFedHussar</name>
     <type>Maintain</type>
-    <rate type="deFortHussarBatch">1.0 </rate>
+    <rate type="deFortHussarBatch">1.15 </rate>
     <active>0</active>
     <persistent>1</persistent>
   </action>
   <action>
     <name stringid="43299">MaintainFedUSCavalry</name>
     <type>Maintain</type>
-    <rate type="deFortUSCavalryBatch">1.0 </rate>
+    <rate type="deFortUSCavalryBatch">1.15 </rate>
     <active>0</active>
     <persistent>1</persistent>
   </action>
   <action>
     <name stringid="43299">MaintainFedGatlingGun</name>
     <type>Maintain</type>
-    <rate type="deFortGatlingGunBatch">1.0 </rate>
+    <rate type="deFortGatlingGunBatch">1.15 </rate>
     <active>0</active>
     <persistent>1</persistent>
   </action>
   <action>
     <name stringid="43299">MaintainFedLegionDragoon</name>
     <type>Maintain</type>
-    <rate type="deFortLegionDragoonBatch">1.0 </rate>
+    <rate type="deFortLegionDragoonBatch">1.15 </rate>
     <active>0</active>
     <persistent>1</persistent>
   </action>
   <action>
     <name stringid="43299">MaintainFedLegionCzapaka</name>
     <type>Maintain</type>
-    <rate type="deFortLegionCzapakaBatch">1.0 </rate>
+    <rate type="deFortLegionCzapakaBatch">1.15 </rate>
     <active>0</active>
     <persistent>1</persistent>
   </action>
   <action>
     <name stringid="43299">MaintainFedLegionMagyarHussar</name>
     <type>Maintain</type>
-    <rate type="deFortLegionMagyarHussarBatch">1.0 </rate>
+    <rate type="deFortLegionMagyarHussarBatch">1.15 </rate>
     <active>0</active>
     <persistent>1</persistent>
   </action>
   <action>
     <name stringid="43299">MaintainFedLegionGrenadier</name>
     <type>Maintain</type>
-    <rate type="deFortLegionGrenadierBatch">1.0 </rate>
+    <rate type="deFortLegionGrenadierBatch">1.15 </rate>
     <active>0</active>
     <persistent>1</persistent>
   </action>

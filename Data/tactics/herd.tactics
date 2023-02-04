@@ -20,6 +20,12 @@
     <maxrange>0.5</maxrange>
   </action>
   <action>
+    <name stringid="43294">AutoGatherCoin</name>
+    <type>AutoGather</type>
+    <active>0</active>
+    <persistent>1</persistent>
+  </action>
+  <action>
     <name stringid="43295">AutoGatherFood</name>
     <type>AutoGather</type>
     <persistent>1</persistent>
@@ -70,5 +76,5 @@
     <anim>Build</anim>
     <maxrange>0.2</maxrange>
   </action>
-  <tactic>Normal<action>Gather</action><action>GatherHacienda</action><action>GatherField</action><action>GatherXP</action><action>AutoGatherFood</action><action>AutoGatherFood2</action><action>AutoGatherXP</action><action>AutoConvert</action><action>ShrineGather</action><action>AutoGatherInfluence</action><action>Build</action></tactic>
+  <tactic>Normal<action>Gather</action><action>GatherHacienda</action><action>GatherField</action><action>GatherXP</action><action>AutoGatherCoin</action><action>AutoGatherFood</action><action>AutoGatherFood2</action><action>AutoGatherXP</action><action>AutoConvert</action><action>ShrineGather</action><action>AutoGatherInfluence</action><action>Build</action></tactic>
 </tactics>

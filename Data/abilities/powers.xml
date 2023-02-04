@@ -516,6 +516,7 @@
     <unitaction>SmokeBomb</unitaction>
     <allowduringnorush>1</allowduringnorush>
     <startsoundset>PowerSmokeBomb</startsoundset>
+    <forceglobalcooldown>1</forceglobalcooldown>
   </power>
   <power name="PowerConvert" type="UnitAction">
     <displaynameid>80577</displaynameid>
@@ -632,6 +633,7 @@
   <power name="dePowerHitpointsBoost" type="AttackBlessing">
     <displaynameid>80678</displaynameid>
     <rolloverid>80679</rolloverid>
+    <forceshowrollover>true</forceshowrollover>
     <icon>resources\images\icons\abilities\ability_old_hickory.png</icon>
     <minimapeventtime sendalertto="none">1</minimapeventtime>
     <activetime>15</activetime>
@@ -1518,11 +1520,14 @@
   </power>
   <power name="dePowerREVBlockade" type="BlockHcTransport">
     <timerrolloverid>112856</timerrolloverid>
+    <msgselfstringid>112840</msgselfstringid>
+    <msgenemystringid>112841</msgenemystringid>
+    <msgallystringid>112839</msgallystringid>
     <minimapeventtime sendalertto="none">1</minimapeventtime>
-    <activetime>120</activetime>
+    <activetime>240</activetime>
     <allplayers>1</allplayers>
     <placement forceonmap="1" ally="">full</placement>
-    <startsoundset>AttackNotification</startsoundset>
+    <soundset type="StartSound" listenertype="All">UI_StrategyWarning</soundset>
   </power>
   <power name="deREVBigStealthChinaco" type="GeneralEffect">
     <displaynameid>112892</displaynameid>
@@ -1741,7 +1746,7 @@
     <effect type="WorkRate" action="Build" relativity="BasePercent" amount="1.20">
       <target type="ProtoUnit">LogicalTypeLandEconomy</target>
     </effect>
-    <effect type="TrainPoints" relativity="BasePercent" amount="0.725">
+    <effect type="TrainPoints" relativity="BasePercent" amount="0.667">
       <target type="ProtoUnit">LogicalTypeLandEconomy</target>
     </effect>
     <placement forceonmap="1" ally="">full</placement>
@@ -2257,7 +2262,7 @@
     <allowduringnorush>1</allowduringnorush>
   </power>
   <power name="deBersagliereSpeedBoost" type="UnitModify">
-    <activetime>4</activetime>
+    <activetime>2.5</activetime>
     <unitmodify amount="1.025" apply="multiply">BaseSpeed</unitmodify>
     <powerplayerrelation>player</powerplayerrelation>
     <radius>25.0</radius>
@@ -2366,7 +2371,7 @@
     <icon>resources\images\icons\abilities\ability_greek_revolution_lrg.png</icon>
     <minimapeventtime sendalertto="ally">1</minimapeventtime>
     <activetime>120</activetime>
-    <createunit pattern="Spawn" quantity="1" delay="0.0" permanent="">deSacredBand</createunit>
+    <createunit pattern="Spawn" quantity="2" delay="0.0" permanent="">deSacredBand</createunit>
     <placement forceonmap="1">LOSDontCare</placement>
     <rangeindicatorprotoid radius="12.0" indicatorcount="16" speed="0.6">PowerRanger</rangeindicatorprotoid>
     <auxiliarypower>dePowerGreekRevolutionAux</auxiliarypower>
@@ -2528,6 +2533,38 @@
     <displaynameid>104668</displaynameid>
     <rolloverid>104647</rolloverid>
     <icon>resources\images\icons\abilities\passive_battle_bluster.png</icon>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="deRansom" type="GeneralEffect">
+    <placement forceonmap="1">LOSDontCare</placement>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="PowerBalloonFrench" type="TempUnit">
+    <displaynameid>42372</displaynameid>
+    <rolloverid>42373</rolloverid>
+    <icon>resources\art\units\balloons\hot_air_balloon_ability.png</icon>
+    <minimapeventtime sendalertto="ally">1</minimapeventtime>
+    <activetime>45</activetime>
+    <createunit quantity="1" radius="0" delay="0.0">HotAirBalloon</createunit>
+    <placement forceonmap="1">LOSDontCare</placement>
+    <rangeindicatorprotoid radius="12.0" indicatorcount="16" speed="0.6">PowerRanger</rangeindicatorprotoid>
+    <allowduringnorush>1</allowduringnorush>
+    <alwaysaddtoplayer>1</alwaysaddtoplayer>
+  </power>
+  <power name="deToySoldiersSound" type="GeneralEffect">
+    <activetime>10</activetime>
+    <startsoundset>ToySoldierArrival</startsoundset>
+  </power>
+  <power name="deChargeAbilitySpyCrackshot" type="GeneralEffect">
+    <displaynameid>110172</displaynameid>
+    <rolloverid>110173</rolloverid>
+    <icon>resources\images\icons\abilities\passive_carbine_shot.png</icon>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="deChargeAbilitySpyPistol" type="GeneralEffect">
+    <displaynameid>122273</displaynameid>
+    <rolloverid>122274</rolloverid>
+    <icon>resources\images\icons\abilities\passive_gunslinger_quick_draw.png</icon>
     <allowduringnorush>1</allowduringnorush>
   </power>
 </powers>

@@ -10,6 +10,7 @@
   <action>
     <name stringid="42178">Gather</name>
     <anim>GatherMine</anim>
+    <typedanim type="deFurTrade">GatherFruit</typedanim>
     <type>Gather</type>
     <maxrange>0.5</maxrange>
     <rate type="AbstractMine">1.0</rate>
