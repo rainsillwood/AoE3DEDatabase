@@ -67,6 +67,7 @@
   <action>
     <name stringid="42178">Gather</name>
     <anim>Gather</anim>
+    <typedanim type="deFurTrade">GatherBush</typedanim>
     <type>Gather</type>
     <maxrange>0.5</maxrange>
     <rate type="Plantation">1.0</rate>

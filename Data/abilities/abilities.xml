@@ -793,6 +793,10 @@
     <ability>dePromotionHpROF<alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
     <ability>deChargeAbilityEuropeanLance<bindtochargeaction>true</bindtochargeaction><forceshowrollover>true</forceshowrollover></ability>
   </denatshockrider>
+  <denatmercshockrider>
+    <ability>dePromotionHpROF<alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
+    <ability>deChargeAbilityEuropeanLance<bindtochargeaction>true</bindtochargeaction><forceshowrollover>true</forceshowrollover></ability>
+  </denatmercshockrider>
   <denattotenkopf>
     <ability>dePromotionHpROF<alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
     <ability>deChargeAbilityDeathStrike<bindtochargeaction>true</bindtochargeaction><forceshowrollover>true</forceshowrollover></ability>
@@ -909,8 +913,12 @@
     <ability>deChargeAbilityWingedHussarLance<bindtochargeaction>true</bindtochargeaction><forceshowrollover>true</forceshowrollover></ability>
   </denatmercwingedhussar>
   <dehoopthrower>
+    <ability>deBurningDamage<alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
     <ability>deChargeAbilityFlamethrower<tech>DEHCFlameThrowers</tech><bindtochargeaction>true</bindtochargeaction><forceshowrollover>true</forceshowrollover></ability>
   </dehoopthrower>
+  <spchoopthrowers>
+    <ability>deBurningDamage<alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
+  </spchoopthrowers>
   <denatroyalmusketeer>
     <ability>deChargeAbilityChargedPistol<bindtochargeaction>true</bindtochargeaction><forceshowrollover>true</forceshowrollover></ability>
   </denatroyalmusketeer>
@@ -943,4 +951,17 @@
     <ability>deChargeAbilitySpyCrackshot<tech>HCXPAssassins</tech><bindtochargeaction>true</bindtochargeaction><forceshowrollover>true</forceshowrollover></ability>
     <ability>deChargeAbilitySpyPistol<tech>HCXPAgents</tech><bindtochargeaction>true</bindtochargeaction><bindtoauxchargeaction>true</bindtoauxchargeaction><forceshowrollover>true</forceshowrollover></ability>
   </xpspy>
+  <demercbattleship>
+    <ability>deUnitHealthRegen<alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
+    <ability>dePromotionHitpoints<tech>DEHCFrenchBattleshipCard</tech><alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
+  </demercbattleship>
+  <desalooninquisitor>
+    <ability>deBurningDamage<alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
+  </desalooninquisitor>
+  <desaloonoutlawarsonist>
+    <ability>deBurningDamage<alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
+  </desaloonoutlawarsonist>
+  <ypmercarsonist>
+    <ability>deBurningDamage<alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
+  </ypmercarsonist>
 </abilities>

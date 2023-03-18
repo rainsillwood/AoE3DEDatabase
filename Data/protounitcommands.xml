@@ -2375,4 +2375,17 @@
     <associatedtech>deOttomanConscription</associatedtech>
     <rollovertextid>62526</rollovertextid>
   </protounitcommand>
+  <protounitcommand>
+    <name>deBattleshipDetonate</name>
+    <icon>resources\images\icons\abilities\ability_detonate_battleship.png</icon>
+    <command>deleteUnit(%d)</command>
+    <commandpassesunitid>
+    </commandpassesunitid>
+    <associatedtech>DEBattleshipDetonate</associatedtech>
+    <rollovertextid>200128</rollovertextid>
+    <usemediumbutton>
+    </usemediumbutton>
+    <notcancellable>
+    </notcancellable>
+  </protounitcommand>
 </protounitcommands>

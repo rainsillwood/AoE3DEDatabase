@@ -70,6 +70,15 @@
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
+      <name>DEHCShipVillagers2</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>1</age>
+      <displayunitcount>4</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
       <name>DEHCOromoMigrations</name>
       <maxcount>1</maxcount>
       <age>0</age>
@@ -293,7 +302,7 @@
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>2</age>
-      <displayunitcount>3</displayunitcount>
+      <displayunitcount>4</displayunitcount>
     </card>
     <card>
       <name>DEHCShipOromo2</name>
@@ -301,7 +310,7 @@
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>3</age>
-      <displayunitcount>6</displayunitcount>
+      <displayunitcount>7</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -392,6 +401,12 @@
       <age>3</age>
       <displayunitcount>15</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>DEHCHandInfantryCombatEthiopian</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <age>2</age>
     </card>
     <card>
       <name>DEHCShipNeftenya1</name>
@@ -1170,6 +1185,7 @@
         <card dbid="6751">DEHCShipJavelinRidersRepeat1</card>
         <card dbid="8354">DEHCKingKings</card>
         <card dbid="8389">DEHCIyasuReforms</card>
+        <card dbid="8393">DEHCDraftOxen</card>
       </cards>
     </deck>
     <deck>
@@ -1262,6 +1278,66 @@
         <card dbid="8392">DEHCRoofAfrica</card>
       </cards>
     </deck>
+    <deck version="11">
+      <name>$$90977$$TreatyNoTrade</name>
+      <cards>
+        <card dbid="8345">DEHCTemenyas</card>
+        <card dbid="8360">DEHCLoyalWarriors</card>
+        <card dbid="8220">DEHCJesuitInfluence</card>
+        <card dbid="8352">DEHCDejazmach</card>
+        <card dbid="8462">DEHCFirearmsBritish</card>
+        <card dbid="10584">DEHCHandInfantryCombatEthiopian</card>
+        <card dbid="8440">DEHCBeekeepers</card>
+        <card dbid="8391">DEHCFazogli</card>
+        <card dbid="8347">DEHCZebenyas</card>
+        <card dbid="8379">DEHCShewaRiders</card>
+        <card dbid="8353">DEHCTigrayMekonnen</card>
+        <card dbid="8389">DEHCIyasuReforms</card>
+        <card dbid="8218">DEHCJesuitSpirituality</card>
+        <card dbid="8346">DEHCChewaWarriors</card>
+        <card dbid="8392">DEHCRoofAfrica</card>
+        <card dbid="6747">DEHCFasterTrainingUnitsAfrican</card>
+        <card dbid="8348">DEHCCartridgeCurrency</card>
+        <card dbid="8418">DEHCShipSebastopolMortarRepeat</card>
+        <card dbid="8442">DEHCIronmongerEthiopians</card>
+        <card dbid="8461">DEHCGondarineArchitecture</card>
+        <card dbid="8351">DEHCBalambaras</card>
+        <card dbid="8386">DEHCMountainRelics</card>
+        <card dbid="8193">DEHCLalibelaRockChurch</card>
+        <card dbid="6733">DEHCHegemony</card>
+        <card dbid="8393">DEHCDraftOxen</card>
+      </cards>
+    </deck>
+    <deck version="11">
+      <name>$$90976$$TreatyTrade</name>
+      <cards>
+        <card dbid="8345">DEHCTemenyas</card>
+        <card dbid="8360">DEHCLoyalWarriors</card>
+        <card dbid="8220">DEHCJesuitInfluence</card>
+        <card dbid="8352">DEHCDejazmach</card>
+        <card dbid="8462">DEHCFirearmsBritish</card>
+        <card dbid="10584">DEHCHandInfantryCombatEthiopian</card>
+        <card dbid="8440">DEHCBeekeepers</card>
+        <card dbid="8391">DEHCFazogli</card>
+        <card dbid="8347">DEHCZebenyas</card>
+        <card dbid="8379">DEHCShewaRiders</card>
+        <card dbid="8353">DEHCTigrayMekonnen</card>
+        <card dbid="8389">DEHCIyasuReforms</card>
+        <card dbid="8218">DEHCJesuitSpirituality</card>
+        <card dbid="8346">DEHCChewaWarriors</card>
+        <card dbid="8392">DEHCRoofAfrica</card>
+        <card dbid="6747">DEHCFasterTrainingUnitsAfrican</card>
+        <card dbid="8348">DEHCCartridgeCurrency</card>
+        <card dbid="8418">DEHCShipSebastopolMortarRepeat</card>
+        <card dbid="8442">DEHCIronmongerEthiopians</card>
+        <card dbid="8461">DEHCGondarineArchitecture</card>
+        <card dbid="8351">DEHCBalambaras</card>
+        <card dbid="8386">DEHCMountainRelics</card>
+        <card dbid="8193">DEHCLalibelaRockChurch</card>
+        <card dbid="6731">DEHCCharity</card>
+        <card dbid="6733">DEHCHegemony</card>
+      </cards>
+    </deck>
     <revoltdeck>
       <name>$$45518$$</name>
       <cards>
@@ -1315,6 +1391,7 @@
       <tech x="1.0" y="1.0">DEHCShipVillagerRepeat</tech>
       <tech x="1.0" y="1.0">DEHCShipVillagersAbunRepeat</tech>
       <tech x="1.0" y="1.0">DEHCShipZebu2</tech>
+      <tech x="1.0" y="1.0">DEHCShipVillagers2</tech>
       <tech x="1.0" y="1.0">DEHCOromoMigrations</tech>
       <tech x="1.0" y="1.0">HCShipFoodCrates1</tech>
       <tech x="1.7" y="1.0">HCShipWoodCrates1</tech>
@@ -1352,6 +1429,7 @@
       <tech x="1.0" y="1.0">DEHCShipVillagerRepeat</tech>
       <tech x="1.0" y="1.0">DEHCShipVillagersAbunRepeat</tech>
       <tech x="1.0" y="1.0">DEHCShipZebu2</tech>
+      <tech x="1.0" y="1.0">DEHCShipVillagers2</tech>
       <tech x="1.0" y="1.0">DEHCOromoMigrations</tech>
       <tech x="1.0" y="1.0">HCShipFoodCrates1</tech>
       <tech x="1.7" y="1.0">HCShipWoodCrates1</tech>
@@ -1420,6 +1498,7 @@
       <tech x="0.0" y="3.0">DEHCShipShotel2</tech>
       <tech x="0.0" y="3.0">DEHCShipShotel3</tech>
       <tech x="0.0" y="3.0">DEHCShipShotel4</tech>
+      <tech x="0.0" y="3.0">DEHCHandInfantryCombatEthiopian</tech>
       <tech x="0.0" y="3.0">DEHCShipNeftenya1</tech>
       <tech x="0.0" y="3.0">DEHCShipNeftenya2</tech>
       <tech x="0.0" y="3.0">DEHCShipNeftenyaRepeat</tech>
@@ -1458,6 +1537,7 @@
       <tech x="0.0" y="3.0">DEHCShipShotel2</tech>
       <tech x="0.0" y="3.0">DEHCShipShotel3</tech>
       <tech x="0.0" y="3.0">DEHCShipShotel4</tech>
+      <tech x="0.0" y="3.0">DEHCHandInfantryCombatEthiopian</tech>
       <tech x="0.0" y="3.0">DEHCShipNeftenya1</tech>
       <tech x="0.0" y="3.0">DEHCShipNeftenya2</tech>
       <tech x="0.0" y="3.0">DEHCShipNeftenyaRepeat</tech>

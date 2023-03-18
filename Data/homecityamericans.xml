@@ -123,7 +123,7 @@
       <maxcount>1</maxcount>
       <level>10</level>
       <prereqtech>-1</prereqtech>
-      <age>2</age>
+      <age>1</age>
     </card>
     <card>
       <name>HCShipFoodCrates1</name>
@@ -344,68 +344,6 @@
       <displayunitcount>1</displayunitcount>
     </card>
     <card>
-      <name>DEHCShipStateMilitia1</name>
-      <maxcount>1</maxcount>
-      <level>0</level>
-      <prereqtech>-1</prereqtech>
-      <age>1</age>
-      <displayunitcount>8</displayunitcount>
-      <infiniteinlastage>1</infiniteinlastage>
-    </card>
-    <card>
-      <name>DEHCShipStateMilitia2</name>
-      <maxcount>1</maxcount>
-      <level>0</level>
-      <prereqtech>-1</prereqtech>
-      <age>2</age>
-      <displayunitcount>11</displayunitcount>
-      <infiniteinlastage>1</infiniteinlastage>
-    </card>
-    <card>
-      <name>DEHCShipStateMilitia3</name>
-      <maxcount>1</maxcount>
-      <level>10</level>
-      <prereqtech>-1</prereqtech>
-      <age>3</age>
-      <displayunitcount>22</displayunitcount>
-      <infiniteinlastage>1</infiniteinlastage>
-    </card>
-    <card>
-      <name>DEHCShipStateMilitiaRepeat1</name>
-      <maxcount>-1</maxcount>
-      <level>10</level>
-      <prereqtech>-1</prereqtech>
-      <age>2</age>
-      <displayunitcount>9</displayunitcount>
-    </card>
-    <card>
-      <name>DEHCShipCarbineCav1</name>
-      <maxcount>1</maxcount>
-      <level>40</level>
-      <prereqtech>-1</prereqtech>
-      <age>3</age>
-      <displayunitcount>10</displayunitcount>
-      <infiniteinlastage>1</infiniteinlastage>
-    </card>
-    <card>
-      <name>DEHCShipCarbineCav2</name>
-      <maxcount>1</maxcount>
-      <level>40</level>
-      <prereqtech>-1</prereqtech>
-      <age>2</age>
-      <displayunitcount>5</displayunitcount>
-      <infiniteinlastage>1</infiniteinlastage>
-    </card>
-    <card>
-      <name>DEHCShipCarbineCav3</name>
-      <maxcount>1</maxcount>
-      <level>40</level>
-      <prereqtech>-1</prereqtech>
-      <age>2</age>
-      <displayunitcount>4</displayunitcount>
-      <infiniteinlastage>1</infiniteinlastage>
-    </card>
-    <card>
       <name>DEHCShipRegulars1</name>
       <maxcount>1</maxcount>
       <level>0</level>
@@ -449,12 +387,48 @@
       <age>2</age>
     </card>
     <card>
-      <name>DEHCMichiganSharpshooters</name>
+      <name>DEHCShipStateMilitia1</name>
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
+      <age>1</age>
+      <displayunitcount>8</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>DEHCShipStateMilitia2</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+      <displayunitcount>11</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>DEHCShipStateMilitia3</name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <prereqtech>-1</prereqtech>
       <age>3</age>
-      <displayunitcount>16</displayunitcount>
+      <displayunitcount>22</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>DEHCShipStateMilitiaRepeat1</name>
+      <maxcount>-1</maxcount>
+      <level>10</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+      <displayunitcount>9</displayunitcount>
+    </card>
+    <card>
+      <name>DEHCMassachusettsVolunteers</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+      <displayunitcount>9</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
       <name>DEHCShipRiflemen1</name>
@@ -484,13 +458,81 @@
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
-      <name>DEHCMassachusettsVolunteers</name>
+      <name>DEHCMichiganSharpshooters</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>3</age>
+      <displayunitcount>16</displayunitcount>
+    </card>
+    <card>
+      <name>DEHCLongRifles</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>1</age>
+    </card>
+    <card>
+      <name>DEHCContinentalRangers</name>
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>2</age>
-      <displayunitcount>9</displayunitcount>
+    </card>
+    <card>
+      <name>DEHCUSMarines</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+    </card>
+    <card>
+      <name>DEHCShipCarbineCav1</name>
+      <maxcount>1</maxcount>
+      <level>40</level>
+      <prereqtech>-1</prereqtech>
+      <age>3</age>
+      <displayunitcount>10</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>DEHCShipCarbineCav2</name>
+      <maxcount>1</maxcount>
+      <level>40</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+      <displayunitcount>5</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>DEHCShipCarbineCav3</name>
+      <maxcount>1</maxcount>
+      <level>40</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+      <displayunitcount>4</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>DEHCBuffaloSoldiers</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+    </card>
+    <card>
+      <name>DEHCGeorgiaHussars</name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+    </card>
+    <card>
+      <name>DEHCRollingArtillery</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
     </card>
     <card>
       <name>DEHCShipGatlingsTeam1</name>
@@ -506,7 +548,7 @@
       <maxcount>1</maxcount>
       <level>10</level>
       <prereqtech>-1</prereqtech>
-      <age>2</age>
+      <age>3</age>
     </card>
     <card>
       <name>HCAdvancedArtillery</name>
@@ -579,48 +621,6 @@
       <level>0</level>
       <age>3</age>
       <displayunitcount>5</displayunitcount>
-    </card>
-    <card>
-      <name>DEHCLongRifles</name>
-      <maxcount>1</maxcount>
-      <level>0</level>
-      <prereqtech>-1</prereqtech>
-      <age>1</age>
-    </card>
-    <card>
-      <name>DEHCContinentalRangers</name>
-      <maxcount>1</maxcount>
-      <level>0</level>
-      <prereqtech>-1</prereqtech>
-      <age>2</age>
-    </card>
-    <card>
-      <name>DEHCBuffaloSoldiers</name>
-      <maxcount>1</maxcount>
-      <level>0</level>
-      <prereqtech>-1</prereqtech>
-      <age>3</age>
-    </card>
-    <card>
-      <name>DEHCUSMarines</name>
-      <maxcount>1</maxcount>
-      <level>0</level>
-      <prereqtech>-1</prereqtech>
-      <age>2</age>
-    </card>
-    <card>
-      <name>DEHCGeorgiaHussars</name>
-      <maxcount>1</maxcount>
-      <level>10</level>
-      <prereqtech>-1</prereqtech>
-      <age>2</age>
-    </card>
-    <card>
-      <name>DEHCRollingArtillery</name>
-      <maxcount>1</maxcount>
-      <level>0</level>
-      <prereqtech>-1</prereqtech>
-      <age>2</age>
     </card>
     <card>
       <name>DEHCLouisianaPurchase</name>
@@ -1260,6 +1260,11 @@
         <card dbid="7215">DEHCApacheScouts</card>
         <card dbid="7225">DEHCUSExpedition</card>
         <card dbid="7210">DEHCLouisianaPurchase</card>
+        <card dbid="7055">DEHCCoffeeMillGun</card>
+        <card dbid="7975">DEHCRollingArtillery</card>
+        <card dbid="7056">DEHCImmigrantsDutch</card>
+        <card dbid="7061">DEHCImmigrantsSpanish</card>
+        <card dbid="7017">DEHCImmigrantsBritish</card>
       </cards>
     </deck>
     <deck>
@@ -1284,6 +1289,8 @@
         <card dbid="7266">DEHCMassachusettsVolunteers</card>
         <card dbid="7181">DEHCBuffaloSoldiers</card>
         <card dbid="7177">DEHCGeneralAmericans</card>
+        <card dbid="7975">DEHCRollingArtillery</card>
+        <card dbid="7182">DEHCUSMarines</card>
       </cards>
     </deck>
     <deck>
@@ -1308,6 +1315,8 @@
         <card dbid="2223">HCShipFrigates</card>
         <card dbid="7052">DEHCTrainTimeUS</card>
         <card dbid="7183">DEHCSpringfieldArmory</card>
+        <card dbid="7181">DEHCBuffaloSoldiers</card>
+        <card dbid="7055">DEHCCoffeeMillGun</card>
       </cards>
     </deck>
     <deck version="8">
@@ -1334,6 +1343,58 @@
         <card dbid="7199">DEHCMinneapolisMills</card>
         <card dbid="7342">DEHCKosciuszkoFortifications</card>
         <card dbid="474">HCCigarRoller</card>
+      </cards>
+    </deck>
+    <deck version="11">
+      <name>$$90974$$TreatyNoNat</name>
+      <cards>
+        <card dbid="7056">DEHCImmigrantsDutch</card>
+        <card dbid="7064">DEHCImmigrantsFrench</card>
+        <card dbid="7170">DEHCImmigrantsGerman</card>
+        <card dbid="2041">HCRefrigeration</card>
+        <card dbid="7199">DEHCMinneapolisMills</card>
+        <card dbid="7332">DEHCKnoxArtilleryTrain</card>
+        <card dbid="7180">DEHCContinentalRangers</card>
+        <card dbid="7327">DEHCRegularCombat</card>
+        <card dbid="7183">DEHCSpringfieldArmory</card>
+        <card dbid="7052">DEHCTrainTimeUS</card>
+        <card dbid="7181">DEHCBuffaloSoldiers</card>
+        <card dbid="7182">DEHCUSMarines</card>
+        <card dbid="2101">HCRumDistillery</card>
+        <card dbid="474">HCCigarRoller</card>
+        <card dbid="2102">HCTextileMills</card>
+        <card dbid="7179">DEHCLongRifles</card>
+        <card dbid="7048">DEHCMinutemenCompanies</card>
+        <card dbid="7061">DEHCImmigrantsSpanish</card>
+        <card dbid="7970">DEHCGeorgiaHussars</card>
+        <card dbid="7342">DEHCKosciuszkoFortifications</card>
+        <card dbid="2573">HCShipWoodCrates1</card>
+      </cards>
+    </deck>
+    <deck version="11">
+      <name>$$90975$$TreatyNative</name>
+      <cards>
+        <card dbid="7056">DEHCImmigrantsDutch</card>
+        <card dbid="7064">DEHCImmigrantsFrench</card>
+        <card dbid="7170">DEHCImmigrantsGerman</card>
+        <card dbid="2041">HCRefrigeration</card>
+        <card dbid="7199">DEHCMinneapolisMills</card>
+        <card dbid="7332">DEHCKnoxArtilleryTrain</card>
+        <card dbid="7180">DEHCContinentalRangers</card>
+        <card dbid="7327">DEHCRegularCombat</card>
+        <card dbid="7183">DEHCSpringfieldArmory</card>
+        <card dbid="7052">DEHCTrainTimeUS</card>
+        <card dbid="7181">DEHCBuffaloSoldiers</card>
+        <card dbid="7182">DEHCUSMarines</card>
+        <card dbid="2101">HCRumDistillery</card>
+        <card dbid="474">HCCigarRoller</card>
+        <card dbid="2102">HCTextileMills</card>
+        <card dbid="7179">DEHCLongRifles</card>
+        <card dbid="7048">DEHCMinutemenCompanies</card>
+        <card dbid="2091">HCExoticHardwoods</card>
+        <card dbid="7061">DEHCImmigrantsSpanish</card>
+        <card dbid="7970">DEHCGeorgiaHussars</card>
+        <card dbid="2573">HCShipWoodCrates1</card>
       </cards>
     </deck>
     <revoltdeck>

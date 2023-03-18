@@ -1238,7 +1238,7 @@
       <maxcount>1</maxcount>
       <level>25</level>
       <prereqtech>HCXPBuccaneers</prereqtech>
-      <age>3</age>
+      <age>2</age>
       <displayunitcount>4</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
@@ -1345,6 +1345,8 @@
         <card dbid="2219">HCShipSheep2</card>
         <card dbid="2830">HCXPIroquoisSenecaSupport</card>
         <card dbid="2811">HCXPShipMusketRiders1</card>
+        <card dbid="10170">DEHCWampum</card>
+        <card dbid="10165">DEHCEnvironmentalism</card>
       </cards>
     </deck>
     <deck>
@@ -1435,6 +1437,66 @@
         <card dbid="2285">HCFoodSilosTeam</card>
         <card dbid="2286">HCFurrierTeam</card>
         <card dbid="3504">HCXPFurTrade</card>
+      </cards>
+    </deck>
+    <deck version="11">
+      <name>$$90974$$TreatyNoNat</name>
+      <cards>
+        <card dbid="3470">HCXPNewWaysIroquois</card>
+        <card dbid="2822">HCXPInfantryDamageIroquois</card>
+        <card dbid="2095">HCSustainableAgriculture</card>
+        <card dbid="3367">HCXPRanching</card>
+        <card dbid="2091">HCExoticHardwoods</card>
+        <card dbid="2090">HCSawmills</card>
+        <card dbid="2285">HCFoodSilosTeam</card>
+        <card dbid="3504">HCXPFurTrade</card>
+        <card dbid="2607">HCStockyards</card>
+        <card dbid="2613">HCFullingMills</card>
+        <card dbid="3503">HCXPSiegeCombat</card>
+        <card dbid="2899">HCXPSiegeHitpoints</card>
+        <card dbid="2900">HCXPSiegeDamage</card>
+        <card dbid="2818">HCXPCavalryDamageIroquois</card>
+        <card dbid="2821">HCXPInfantryCombatIroquois</card>
+        <card dbid="2823">HCXPInfantryHitpointsIroquois</card>
+        <card dbid="6701">HCXPWarHutTrainingIroquois</card>
+        <card dbid="2820">HCXPCavalryHitpointsIroquois</card>
+        <card dbid="10168">DEHCBeaverWars</card>
+        <card dbid="10169">DEHCSiegeConstruction</card>
+        <card dbid="3500">HCXPConservativeTactics</card>
+        <card dbid="10172">DEHCCanadianLoyalists</card>
+        <card dbid="10166">DEHCNorthAmericaTrade</card>
+        <card dbid="2859">HCXPBattlefieldConstructionIroquois</card>
+        <card dbid="10167">DEHCMedicineWheels</card>
+      </cards>
+    </deck>
+    <deck version="11">
+      <name>$$90975$$TreatyNative</name>
+      <cards>
+        <card dbid="3470">HCXPNewWaysIroquois</card>
+        <card dbid="2822">HCXPInfantryDamageIroquois</card>
+        <card dbid="2095">HCSustainableAgriculture</card>
+        <card dbid="3367">HCXPRanching</card>
+        <card dbid="2091">HCExoticHardwoods</card>
+        <card dbid="2090">HCSawmills</card>
+        <card dbid="2285">HCFoodSilosTeam</card>
+        <card dbid="3504">HCXPFurTrade</card>
+        <card dbid="2607">HCStockyards</card>
+        <card dbid="2613">HCFullingMills</card>
+        <card dbid="3503">HCXPSiegeCombat</card>
+        <card dbid="2899">HCXPSiegeHitpoints</card>
+        <card dbid="2900">HCXPSiegeDamage</card>
+        <card dbid="2821">HCXPInfantryCombatIroquois</card>
+        <card dbid="2052">HCNativeCombat</card>
+        <card dbid="1847">HCNativeWarriors</card>
+        <card dbid="2823">HCXPInfantryHitpointsIroquois</card>
+        <card dbid="6701">HCXPWarHutTrainingIroquois</card>
+        <card dbid="10172">DEHCCanadianLoyalists</card>
+        <card dbid="10168">DEHCBeaverWars</card>
+        <card dbid="10166">DEHCNorthAmericaTrade</card>
+        <card dbid="10169">DEHCSiegeConstruction</card>
+        <card dbid="10167">DEHCMedicineWheels</card>
+        <card dbid="3500">HCXPConservativeTactics</card>
+        <card dbid="10165">DEHCEnvironmentalism</card>
       </cards>
     </deck>
   </decks>

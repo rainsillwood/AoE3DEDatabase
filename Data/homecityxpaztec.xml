@@ -1264,6 +1264,7 @@
         <card dbid="2968">HCXPTempleCenteotl</card>
         <card dbid="2950">HCXPExtensiveFortificationsAztec</card>
         <card dbid="2983">HCXPChinampa2</card>
+        <card dbid="8493">DEHCChichimecaRebellion</card>
       </cards>
     </deck>
     <deck>
@@ -1357,6 +1358,66 @@
         <card dbid="3327">HCXPShipFarmTravois2</card>
         <card dbid="2980">HCXPSilversmithTeam</card>
         <card dbid="2190">HCShipCoveredWagons</card>
+      </cards>
+    </deck>
+    <deck version="11">
+      <name>$$90974$$TreatyNoNat</name>
+      <cards>
+        <card dbid="2217">HCXPCoinCratesAztec5</card>
+        <card dbid="2975">HCXPGreatTempleQuetzalcoatl</card>
+        <card dbid="2950">HCXPExtensiveFortificationsAztec</card>
+        <card dbid="2945">HCXPKnightCombat</card>
+        <card dbid="2943">HCXPKnightDamage</card>
+        <card dbid="2944">HCXPKnightHitpoints</card>
+        <card dbid="2972">HCXPTempleCoatlicue</card>
+        <card dbid="2968">HCXPTempleCenteotl</card>
+        <card dbid="2969">HCXPTempleXipeTotec</card>
+        <card dbid="2971">HCXPTempleXolotl</card>
+        <card dbid="2973">HCXPTempleTlaloc</card>
+        <card dbid="2095">HCSustainableAgriculture</card>
+        <card dbid="2033">HCGrainMarket</card>
+        <card dbid="2982">HCXPChinampa1</card>
+        <card dbid="2931">HCXPWarHutTraining</card>
+        <card dbid="2984">HCXPExoticHardwoodsTeam</card>
+        <card dbid="2091">HCExoticHardwoods</card>
+        <card dbid="2094">HCFoodSilos</card>
+        <card dbid="2923">HCXPCoyoteCombat</card>
+        <card dbid="2983">HCXPChinampa2</card>
+        <card dbid="2037">HCFencingSchool</card>
+        <card dbid="2981">HCXPAztecMining</card>
+        <card dbid="8497">DEHCMacehualtinCombat</card>
+        <card dbid="2880">HCXPWarChiefAztec1</card>
+        <card dbid="2976">HCXPGreatTempleTezcatlipoca</card>
+      </cards>
+    </deck>
+    <deck version="11">
+      <name>$$90975$$TreatyNative</name>
+      <cards>
+        <card dbid="2217">HCXPCoinCratesAztec5</card>
+        <card dbid="2975">HCXPGreatTempleQuetzalcoatl</card>
+        <card dbid="2950">HCXPExtensiveFortificationsAztec</card>
+        <card dbid="2945">HCXPKnightCombat</card>
+        <card dbid="2943">HCXPKnightDamage</card>
+        <card dbid="2944">HCXPKnightHitpoints</card>
+        <card dbid="2972">HCXPTempleCoatlicue</card>
+        <card dbid="2968">HCXPTempleCenteotl</card>
+        <card dbid="2969">HCXPTempleXipeTotec</card>
+        <card dbid="2971">HCXPTempleXolotl</card>
+        <card dbid="2973">HCXPTempleTlaloc</card>
+        <card dbid="2095">HCSustainableAgriculture</card>
+        <card dbid="2033">HCGrainMarket</card>
+        <card dbid="2982">HCXPChinampa1</card>
+        <card dbid="2931">HCXPWarHutTraining</card>
+        <card dbid="2984">HCXPExoticHardwoodsTeam</card>
+        <card dbid="2091">HCExoticHardwoods</card>
+        <card dbid="2094">HCFoodSilos</card>
+        <card dbid="2923">HCXPCoyoteCombat</card>
+        <card dbid="2983">HCXPChinampa2</card>
+        <card dbid="2037">HCFencingSchool</card>
+        <card dbid="2981">HCXPAztecMining</card>
+        <card dbid="8497">DEHCMacehualtinCombat</card>
+        <card dbid="2880">HCXPWarChiefAztec1</card>
+        <card dbid="5075">YPHCNativeIncorporation</card>
       </cards>
     </deck>
   </decks>
@@ -1518,6 +1579,7 @@
       <tech x="7.2" y="3.0">HCXPShipSkullKnights2</tech>
       <tech x="7.2" y="4.0">HCXPShipSkullKnights3</tech>
       <tech x="7.2" y="5.0">HCXPShipSkullKnights4</tech>
+      <tech x="7.0" y="3.0">DEHCChichimecaRebellion</tech>
     </obtainabletechs>
     <activetechs>
       <tech x="0.0" y="1.0">HCXPShipCoyoteMen1</tech>
@@ -1556,6 +1618,7 @@
       <tech x="7.2" y="3.0">HCXPShipSkullKnights2</tech>
       <tech x="7.2" y="4.0">HCXPShipSkullKnights3</tech>
       <tech x="7.2" y="5.0">HCXPShipSkullKnights4</tech>
+      <tech x="7.0" y="3.0">DEHCChichimecaRebellion</tech>
     </activetechs>
     <validunits>
     </validunits>
@@ -1605,7 +1668,6 @@
       <tech x="7.0" y="3.0">DEHCRitualGladiators</tech>
       <tech x="7.0" y="3.0">DEHCSkullWall</tech>
       <tech x="7.0" y="3.0">DEHCCalendarCeremony</tech>
-      <tech x="7.0" y="3.0">DEHCChichimecaRebellion</tech>
       <tech x="7.0" y="3.0">DEHCCalmecac</tech>
     </obtainabletechs>
     <activetechs>
@@ -1636,7 +1698,6 @@
       <tech x="7.0" y="3.0">DEHCRitualGladiators</tech>
       <tech x="7.0" y="3.0">DEHCSkullWall</tech>
       <tech x="7.0" y="3.0">DEHCCalendarCeremony</tech>
-      <tech x="7.0" y="3.0">DEHCChichimecaRebellion</tech>
       <tech x="7.0" y="3.0">DEHCCalmecac</tech>
     </activetechs>
     <validunits>

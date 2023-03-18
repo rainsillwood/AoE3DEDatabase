@@ -570,6 +570,7 @@
       <level>0</level>
       <prereqtech>HCShipWarWagons2</prereqtech>
       <age>2</age>
+      <displayunitcount>8</displayunitcount>
     </card>
     <card>
       <name>HCShipFalconets1German</name>
@@ -867,6 +868,7 @@
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
+      <bindtotech>HCXPRanching</bindtotech>
       <age>0</age>
     </card>
     <card>
@@ -967,6 +969,7 @@
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
+      <bindtotech>HCStockyards</bindtotech>
       <age>0</age>
     </card>
     <card>
@@ -1023,6 +1026,7 @@
       <maxcount>1</maxcount>
       <level>25</level>
       <prereqtech>HCStonemasonsGerman</prereqtech>
+      <bindtotech>HCXPLandGrab</bindtotech>
       <age>0</age>
     </card>
     <card>
@@ -1278,7 +1282,8 @@
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
-      <age>1</age>
+      <age>0</age>
+      <displayunitcount>1</displayunitcount>
     </card>
     <card>
       <name>DEHCCircleArmy</name>
@@ -1336,6 +1341,15 @@
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>3</age>
+    </card>
+    <card>
+      <name>DEHCGermanBattleshipCard</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+      <infiniteinlastage>1</infiniteinlastage>
+      <displayunitcount>2</displayunitcount>
     </card>
     <card>
       <name>DEHCShipBattleshipRepeat</name>
@@ -1512,6 +1526,104 @@
       </revoltcard>
     </card>
     <card>
+      <name>DEHCREVBlandengues</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>XPRevolution</prereqtech>
+      <age>0</age>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>DEHCREVMXCaballeros</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>XPRevolution</prereqtech>
+      <bindtotech>HCCaballeros</bindtotech>
+      <age>0</age>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>HCAdvancedDock</name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <prereqtech>-1</prereqtech>
+      <bindtotech>HCAdvancedDockGerman</bindtotech>
+      <age>1</age>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>HCUnlockFactory</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <bindtotech>HCUnlockFactoryGerman</bindtotech>
+      <age>3</age>
+      <displayunitcount>1</displayunitcount>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>HCShipCoveredWagons2</name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <bindtotech>HCShipCoveredWagons2</bindtotech>
+      <age>3</age>
+      <displayunitcount>2</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>HCNavalCombat</name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <prereqtech>HCShipFrigates</prereqtech>
+      <bindtotech>HCNavalCombatGerman</bindtotech>
+      <age>1</age>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>HCNavalGunners</name>
+      <maxcount>1</maxcount>
+      <level>25</level>
+      <prereqtech>HCAdmirality</prereqtech>
+      <age>1</age>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>HCAdvancedArsenal</name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <bindtotech>HCAdvancedArsenalGerman</bindtotech>
+      <age>1</age>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>DEHCREVColombianNavy</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>XPRevolution</prereqtech>
+      <age>1</age>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>DEHCREVShipColombianRevolutionaries</name>
+      <maxcount>-1</maxcount>
+      <level>0</level>
+      <prereqtech>XPRevolution</prereqtech>
+      <age>2</age>
+      <displayunitcount>16</displayunitcount>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
       <name>DEHCREVAlbionLegion</name>
       <maxcount>-1</maxcount>
       <level>0</level>
@@ -1579,6 +1691,10 @@
         <card dbid="2478">HCShipSkirmishers3German</card>
         <card dbid="2463">HCShipCoinCrates4German</card>
         <card dbid="2458">HCShipFoodCrates3German</card>
+        <card dbid="10257">DEHCWitchHunt</card>
+        <card dbid="10412">DEHCMercenaryCampsGerman</card>
+        <card dbid="10269">DEHCMarchRevolution</card>
+        <card dbid="10315">DEHCLandwehr</card>
       </cards>
     </deck>
     <deck>
@@ -1638,7 +1754,7 @@
         <card dbid="2494">HCUnlockFortGerman</card>
         <card dbid="3415">HCXPShipCannonsRepeat</card>
         <card dbid="2508">HCRenderingPlantGerman</card>
-        <card dbid="2515">HCRoyalMintGerman</card>
+        <card dbid="10426">DEHCGermanBattleshipCard</card>
       </cards>
     </deck>
     <deck version="8">
@@ -1669,6 +1785,66 @@
         <card dbid="2658">HCGermantownFarmers</card>
         <card dbid="2523">HCTextileMillsGerman</card>
         <card dbid="2516">HCSustainableAgricultureGerman</card>
+      </cards>
+    </deck>
+    <deck version="11">
+      <name>$$90974$$TreatyNoNat</name>
+      <cards>
+        <card dbid="2156">HCExplorerGerman</card>
+        <card dbid="2521">HCRumDistilleryGerman</card>
+        <card dbid="2285">HCFoodSilosTeam</card>
+        <card dbid="3387">HCXPEconomicTheory</card>
+        <card dbid="2280">HCCavalryDamageGermanTeam</card>
+        <card dbid="2281">HCCavalryHitpointsGerman</card>
+        <card dbid="2516">HCSustainableAgricultureGerman</card>
+        <card dbid="2496">HCRidingSchoolGerman</card>
+        <card dbid="2495">HCFencingSchoolGerman</card>
+        <card dbid="2493">HCAdvancedArsenalGerman</card>
+        <card dbid="2522">HCCigarRollerGerman</card>
+        <card dbid="2523">HCTextileMillsGerman</card>
+        <card dbid="2517">HCRefrigerationGerman</card>
+        <card dbid="2515">HCRoyalMintGerman</card>
+        <card dbid="2658">HCGermantownFarmers</card>
+        <card dbid="2159">HCCavalryCombatGerman</card>
+        <card dbid="2692">HCShipSettlerWagonsTeam</card>
+        <card dbid="2538">HCGuildArtisans</card>
+        <card dbid="3415">HCXPShipCannonsRepeat</card>
+        <card dbid="2580">HCRangedInfantryHitpointsGerman</card>
+        <card dbid="3395">HCXPSolingenSteel</card>
+        <card dbid="2643">HCUhlanCombatGerman</card>
+        <card dbid="2502">HCUnlockFactoryGerman</card>
+        <card dbid="2677">HCRobberBaronsGerman</card>
+        <card dbid="2272">HCHandInfantryCombatGerman</card>
+      </cards>
+    </deck>
+    <deck version="11">
+      <name>$$90975$$TreatyNative</name>
+      <cards>
+        <card dbid="2521">HCRumDistilleryGerman</card>
+        <card dbid="2285">HCFoodSilosTeam</card>
+        <card dbid="3387">HCXPEconomicTheory</card>
+        <card dbid="2280">HCCavalryDamageGermanTeam</card>
+        <card dbid="2281">HCCavalryHitpointsGerman</card>
+        <card dbid="2516">HCSustainableAgricultureGerman</card>
+        <card dbid="2496">HCRidingSchoolGerman</card>
+        <card dbid="2495">HCFencingSchoolGerman</card>
+        <card dbid="2493">HCAdvancedArsenalGerman</card>
+        <card dbid="2522">HCCigarRollerGerman</card>
+        <card dbid="2523">HCTextileMillsGerman</card>
+        <card dbid="2517">HCRefrigerationGerman</card>
+        <card dbid="2515">HCRoyalMintGerman</card>
+        <card dbid="2658">HCGermantownFarmers</card>
+        <card dbid="2159">HCCavalryCombatGerman</card>
+        <card dbid="2692">HCShipSettlerWagonsTeam</card>
+        <card dbid="2538">HCGuildArtisans</card>
+        <card dbid="3415">HCXPShipCannonsRepeat</card>
+        <card dbid="2643">HCUhlanCombatGerman</card>
+        <card dbid="2502">HCUnlockFactoryGerman</card>
+        <card dbid="2677">HCRobberBaronsGerman</card>
+        <card dbid="2487">HCNativeWarriorsGerman</card>
+        <card dbid="10295">DEHCHabsburgAllies2</card>
+        <card dbid="10258">DEHCPrinceElectors</card>
+        <card dbid="2580">HCRangedInfantryHitpointsGerman</card>
       </cards>
     </deck>
     <revoltdeck>
@@ -1705,11 +1881,17 @@
         <card>DEHCREVGranaderos</card>
         <card>DEHCREVCitizenship</card>
         <card>DEHCREVArgentineMortars</card>
+        <card>HCStockyards</card>
+        <card>HCXPRanching</card>
+        <card>HCXPLandGrab</card>
+        <card>DEHCREVBlandengues</card>
+        <card>DEHCREVMXCaballeros</card>
       </cards>
     </revoltdeck>
     <revoltdeck civ="DERevColombia">
       <name>$$45518$$</name>
       <cards>
+        <card>DEHCREVShipColombianRevolutionaries</card>
         <card>DEHCREVAlbionLegion</card>
         <card>HCREVShipGatlingGuns</card>
         <card>HCREVShipIronclads</card>
@@ -1718,6 +1900,13 @@
         <card>DEHCREVLlaneros</card>
         <card>DEHCREVCattleDeliveryColombia</card>
         <card>DEHCREVCitizenship</card>
+        <card>HCAdvancedDock</card>
+        <card>HCUnlockFactory</card>
+        <card>HCShipCoveredWagons2</card>
+        <card>HCNavalCombat</card>
+        <card>HCNavalGunners</card>
+        <card>DEHCREVColombianNavy</card>
+        <card>HCAdvancedArsenal</card>
       </cards>
     </revoltdeck>
   </decks>
@@ -2145,6 +2334,7 @@
       <tech x="6.1" y="1.0">DEHCPrinceElectors</tech>
       <tech x="6.1" y="1.0">DEHCCircleArmy</tech>
       <tech x="7.0" y="1.0">HCPrivateers</tech>
+      <tech x="7.0" y="1.0">DEHCGermanBattleshipCard</tech>
       <tech x="7.0" y="1.0">DEHCShipBattleshipRepeat</tech>
     </obtainabletechs>
     <activetechs>
@@ -2182,6 +2372,7 @@
       <tech x="6.1" y="1.0">DEHCPrinceElectors</tech>
       <tech x="6.1" y="1.0">DEHCCircleArmy</tech>
       <tech x="7.0" y="1.0">HCPrivateers</tech>
+      <tech x="7.0" y="1.0">DEHCGermanBattleshipCard</tech>
       <tech x="7.0" y="1.0">DEHCShipBattleshipRepeat</tech>
     </activetechs>
     <validunits>

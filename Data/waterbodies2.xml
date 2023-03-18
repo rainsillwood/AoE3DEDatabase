@@ -1213,4 +1213,18 @@
     <rendering scatter_color="0.234 0.605 0.730" sun_set_color="1.000 0.400 0.000" caustics_depth="2.2000" caustics_intensity="2.3900" caustics_scale="0.2000" caustics_scroll="0.0290" fft_displace="0.8000" custom_wave_scale="8.0000" reflection_normal="0.4000" refraction_normal="0.0200" scatter_amount="0.4160" fog_color_mult="0.4130" custom_wave_scatter="5.0000" surface_roughness="0.0500" fog_density="0.1510" water_color="0.401 0.594 0.713" blur_intensity="0.1400" water_brighten="2.9110" reflection_intensity="0.1440">
     </rendering>
   </lake>
+  <lake name="Himalayas Lake" iconname="ui\editor\waterbayou" bumpmap="terrain\water\ocean1\ocean1" surface="water" bottom="himalayas\ground_dirt1_himal" bank="himalayas\ground_dirt1_himal" outerbank="himalayas\ground_dirt3_himal" slope="" color="43 72 36" deepcolor="0 24 98.421" depth="3.000000" fresnelscale="1.818000" fresnelbias="0.109000" alphaminvalue="0.000000" alphamaxvalue="1.000000" alphamindepth="0.000000" alphamaxdepth="0.909091" minriverbankheight="0.500000" maxriverbankheight="1.000000" waterplaneoffset="1.000000" coloramount="2.231405" reflectionamount="-0.437500" bumpscale="0.210000" reflectionbumpscale="0.270000" foamscale="-0.030000" texscale="2.700000" texscrollspeed="0.000000" texrotation="99.999992" rivertexcoords="false">
+    <beachtextureplacement>
+      <texture distance="3.00" variance="1">himalayas\ground_dirt1_himal</texture>
+      <texture distance="5.00" variance="1">himalayas\ground_dirt3_himal</texture>
+    </beachtextureplacement>
+    <riverline>
+      <riverobj name="RiverFlow" shallowslining="fill" minsplinedistance="4.0" maxsplinedistance="8.0" mincrossdistance="4.0" maxcrossdistance="8.0" maxpercenttoshore="0.80" randomyaw="false" clusterminnum="1" clustermaxnum="3" clusterspread="4.0">
+      </riverobj>
+      <riverobj name="RiverObjectsPam" shallowslining="fill" minsplinedistance="4.0" maxsplinedistance="8.0" mincrossdistance="4.0" maxcrossdistance="8.0" maxpercenttoshore="0.80" randomyaw="false" clusterminnum="1" clustermaxnum="3" clusterspread="4.0">
+      </riverobj>
+    </riverline>
+    <rendering scatter_color="0.245 0.388 0.346" sun_set_color="1.000 0.400 0.000" caustics_depth="1.5000" caustics_intensity="3.7400" caustics_scale="0.2000" caustics_scroll="0.0420" fft_displace="0.7400" custom_wave_scale="8.0000" reflection_normal="0.6900" refraction_normal="0.0300" scatter_amount="0.3040" fog_color_mult="0.5410" custom_wave_scatter="5.0000" surface_roughness="0.0100" fog_density="0.4620" water_color="0.424 0.646 0.702" blur_intensity="1.5500" water_brighten="0.5000" reflection_intensity="0.1620">
+    </rendering>
+  </lake>
 </waterbodies>

@@ -284,6 +284,30 @@
       <age>3</age>
     </card>
     <card>
+      <name>DEHCShipAzaps1</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>1</age>
+      <displayunitcount>7</displayunitcount>
+    </card>
+    <card>
+      <name>DEHCShiAzaps2</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+      <displayunitcount>11</displayunitcount>
+    </card>
+    <card>
+      <name>DEHCShiAzaps3</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>3</age>
+      <displayunitcount>22</displayunitcount>
+    </card>
+    <card>
       <name>HCShipJanissaries1</name>
       <maxcount>1</maxcount>
       <level>0</level>
@@ -784,6 +808,13 @@
       <prereqtech>DEHCExtensiveFortificationsEuropean</prereqtech>
       <age>3</age>
       <displayunitcount>1</displayunitcount>
+    </card>
+    <card>
+      <name>DEHCFencingSchoolOttoman</name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <prereqtech>-1</prereqtech>
+      <age>1</age>
     </card>
     <card>
       <name>HCRidingSchool</name>
@@ -1310,6 +1341,15 @@
       <age>2</age>
     </card>
     <card>
+      <name>DEHCOttomanBattleshipCard</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>3</age>
+      <infiniteinlastage>1</infiniteinlastage>
+      <displayunitcount>1</displayunitcount>
+    </card>
+    <card>
       <name>DEHCShipBattleshipRepeat</name>
       <maxcount>-1</maxcount>
       <level>0</level>
@@ -1737,6 +1777,8 @@
         <card dbid="2350">HCShipSpahis3</card>
         <card dbid="10252">DEHCShipSettlersOttomanRepeat</card>
         <card dbid="3386">HCXPIrregulars</card>
+        <card dbid="10378">DEHCFlightArchery</card>
+        <card dbid="2364">HCShipCoveredWagons2</card>
       </cards>
     </deck>
     <deck>
@@ -1792,7 +1834,7 @@
         <card dbid="2604">HCJanissaryCost</card>
         <card dbid="2346">HCJanissaryCombatOttoman</card>
         <card dbid="3457">HCXPShipGalleysRepeat</card>
-        <card dbid="2601">HCBastionsTeam</card>
+        <card dbid="10427">DEHCOttomanBattleshipCard</card>
         <card dbid="814">HCUnlockFort</card>
         <card dbid="2236">HCShipFalconets3</card>
         <card dbid="3458">HCShipSpahisTeam</card>
@@ -1827,6 +1869,66 @@
         <card dbid="625">HCUnlockFactory</card>
         <card dbid="2031">HCRobberBarons</card>
         <card dbid="2041">HCRefrigeration</card>
+      </cards>
+    </deck>
+    <deck version="11">
+      <name>$$90974$$TreatyNoNat</name>
+      <cards>
+        <card dbid="2577">HCCavalryCombatOttoman</card>
+        <card dbid="2041">HCRefrigeration</card>
+        <card dbid="2093">HCRoyalMint</card>
+        <card dbid="625">HCUnlockFactory</card>
+        <card dbid="2357">HCShipGreatBombards1</card>
+        <card dbid="2038">HCRidingSchool</card>
+        <card dbid="2363">HCEngineeringSchool</card>
+        <card dbid="2645">HCRoyalDecreeOttoman</card>
+        <card dbid="2353">HCLightArtilleryHitpointsOttoman</card>
+        <card dbid="2095">HCSustainableAgriculture</card>
+        <card dbid="1957">HCAdvancedArsenal</card>
+        <card dbid="3387">HCXPEconomicTheory</card>
+        <card dbid="3455">HCXPSublimePorte</card>
+        <card dbid="3438">HCXPCapitalism</card>
+        <card dbid="2031">HCRobberBarons</card>
+        <card dbid="2604">HCJanissaryCost</card>
+        <card dbid="2346">HCJanissaryCombatOttoman</card>
+        <card dbid="2094">HCFoodSilos</card>
+        <card dbid="10377">DEHCHeavyInfHitpointsOttoman</card>
+        <card dbid="10378">DEHCFlightArchery</card>
+        <card dbid="2102">HCTextileMills</card>
+        <card dbid="2697">HCBattlefieldConstruction</card>
+        <card dbid="2355">HCArtilleryCombatOttoman</card>
+        <card dbid="10298">DEHCSufiAllies</card>
+        <card dbid="10430">DEHCFencingSchoolOttoman</card>
+      </cards>
+    </deck>
+    <deck version="11">
+      <name>$$90975$$TreatyNative</name>
+      <cards>
+        <card dbid="2577">HCCavalryCombatOttoman</card>
+        <card dbid="2041">HCRefrigeration</card>
+        <card dbid="2093">HCRoyalMint</card>
+        <card dbid="625">HCUnlockFactory</card>
+        <card dbid="2357">HCShipGreatBombards1</card>
+        <card dbid="2038">HCRidingSchool</card>
+        <card dbid="2363">HCEngineeringSchool</card>
+        <card dbid="2697">HCBattlefieldConstruction</card>
+        <card dbid="2645">HCRoyalDecreeOttoman</card>
+        <card dbid="2353">HCLightArtilleryHitpointsOttoman</card>
+        <card dbid="2095">HCSustainableAgriculture</card>
+        <card dbid="1957">HCAdvancedArsenal</card>
+        <card dbid="3387">HCXPEconomicTheory</card>
+        <card dbid="3455">HCXPSublimePorte</card>
+        <card dbid="3438">HCXPCapitalism</card>
+        <card dbid="2031">HCRobberBarons</card>
+        <card dbid="2604">HCJanissaryCost</card>
+        <card dbid="2346">HCJanissaryCombatOttoman</card>
+        <card dbid="1847">HCNativeWarriors</card>
+        <card dbid="2094">HCFoodSilos</card>
+        <card dbid="10377">DEHCHeavyInfHitpointsOttoman</card>
+        <card dbid="10298">DEHCSufiAllies</card>
+        <card dbid="2355">HCArtilleryCombatOttoman</card>
+        <card dbid="2102">HCTextileMills</card>
+        <card dbid="10430">DEHCFencingSchoolOttoman</card>
       </cards>
     </deck>
     <revoltdeck>
@@ -2025,6 +2127,9 @@
     <displaynamestringid>24965</displaynamestringid>
     <rolloverstringid>25533</rolloverstringid>
     <obtainabletechs>
+      <tech x="0.5" y="1.0">DEHCShipAzaps1</tech>
+      <tech x="0.5" y="2.0">DEHCShiAzaps2</tech>
+      <tech x="0.5" y="3.0">DEHCShiAzaps3</tech>
       <tech x="0.5" y="1.0">HCShipJanissaries1</tech>
       <tech x="0.5" y="2.0">HCShipJanissaries2</tech>
       <tech x="0.5" y="3.0">HCShipJanissaries3</tech>
@@ -2074,6 +2179,9 @@
       <tech x="7.2" y="7.0">DEHCHandMortarOttoman</tech>
     </obtainabletechs>
     <activetechs>
+      <tech x="0.5" y="1.0">DEHCShipAzaps1</tech>
+      <tech x="0.5" y="2.0">DEHCShiAzaps2</tech>
+      <tech x="0.5" y="3.0">DEHCShiAzaps3</tech>
       <tech x="0.5" y="1.0">HCShipJanissaries1</tech>
       <tech x="0.5" y="2.0">HCShipJanissaries2</tech>
       <tech x="0.5" y="3.0">HCShipJanissaries3</tech>
@@ -2149,6 +2257,7 @@
       <tech x="0.0" y="2.0">HCNativeTreaties</tech>
       <tech x="0.0" y="3.0">HCNativeWarriors</tech>
       <tech x="0.0" y="5.0">HCAdvancedTradingPost</tech>
+      <tech x="0.7" y="3.0">DEHCFencingSchoolOttoman</tech>
       <tech x="0.7" y="3.0">HCRidingSchool</tech>
       <tech x="0.7" y="4.0">HCEngineeringSchool</tech>
       <tech x="1.6" y="1.0">HCXPShipSpies1</tech>
@@ -2181,6 +2290,7 @@
       <tech x="0.0" y="2.0">HCNativeTreaties</tech>
       <tech x="0.0" y="3.0">HCNativeWarriors</tech>
       <tech x="0.0" y="5.0">HCAdvancedTradingPost</tech>
+      <tech x="0.7" y="3.0">DEHCFencingSchoolOttoman</tech>
       <tech x="0.7" y="3.0">HCRidingSchool</tech>
       <tech x="0.7" y="4.0">HCEngineeringSchool</tech>
       <tech x="1.6" y="1.0">HCXPShipSpies1</tech>
@@ -2321,6 +2431,7 @@
       <tech x="6.8" y="1.0">HCPrivateers</tech>
       <tech x="6.8" y="3.0">HCPrivateers2</tech>
       <tech x="6.8" y="3.0">DEHCShipMercXebecOttoman</tech>
+      <tech x="6.8" y="3.0">DEHCOttomanBattleshipCard</tech>
       <tech x="6.8" y="3.0">DEHCShipBattleshipRepeat</tech>
     </obtainabletechs>
     <activetechs>
@@ -2356,6 +2467,7 @@
       <tech x="6.8" y="1.0">HCPrivateers</tech>
       <tech x="6.8" y="3.0">HCPrivateers2</tech>
       <tech x="6.8" y="3.0">DEHCShipMercXebecOttoman</tech>
+      <tech x="6.8" y="3.0">DEHCOttomanBattleshipCard</tech>
       <tech x="6.8" y="3.0">DEHCShipBattleshipRepeat</tech>
     </activetechs>
     <validunits>

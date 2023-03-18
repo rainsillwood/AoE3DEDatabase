@@ -767,6 +767,7 @@
       <maxcount>1</maxcount>
       <level>10</level>
       <prereqtech>HCPioneers</prereqtech>
+      <bindtotech>DEHCREVMXImprovedBuildings</bindtotech>
       <age>3</age>
     </card>
     <card>
@@ -880,6 +881,7 @@
       <maxcount>1</maxcount>
       <level>40</level>
       <prereqtech>-1</prereqtech>
+      <bindtotech>DEREVHCMXAssassins</bindtotech>
       <age>2</age>
     </card>
     <card>
@@ -922,7 +924,7 @@
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
-      <age>1</age>
+      <age>0</age>
     </card>
     <card>
       <name>DEHCNinosHeroes</name>
@@ -1621,6 +1623,7 @@
       <level>0</level>
       <prereqtech>XPRevolution</prereqtech>
       <age>2</age>
+      <displayunitcount>6</displayunitcount>
       <revoltcard>
       </revoltcard>
     </card>
@@ -2589,6 +2592,7 @@
         <card dbid="7577">DEHCShipChinaco2</card>
         <card dbid="2192">HCShipFalconets1</card>
         <card dbid="3382">HCXPAdvancedBalloon</card>
+        <card dbid="7599">DEHCNuevoMexico</card>
       </cards>
     </deck>
     <deck>
@@ -2667,6 +2671,58 @@
         <card dbid="2041">HCRefrigeration</card>
         <card dbid="2102">HCTextileMills</card>
         <card dbid="474">HCCigarRoller</card>
+      </cards>
+    </deck>
+    <deck version="11">
+      <name>$$90974$$TreatyNoNat</name>
+      <cards>
+        <card dbid="7620">DEHCObservers</card>
+        <card dbid="1957">HCAdvancedArsenal</card>
+        <card dbid="2095">HCSustainableAgriculture</card>
+        <card dbid="2622">HCCaballeros</card>
+        <card dbid="7619">DEHCGuerillaTactics</card>
+        <card dbid="7858">DEHCCavalryCombatMexican</card>
+        <card dbid="7626">DEHCLiberationMarch</card>
+        <card dbid="2041">HCRefrigeration</card>
+        <card dbid="625">HCUnlockFactory</card>
+        <card dbid="7839">DEHCPresidialLancers</card>
+        <card dbid="2091">HCExoticHardwoods</card>
+        <card dbid="2090">HCSawmills</card>
+        <card dbid="7612">DEHCPlanTuxtepec</card>
+        <card dbid="7613">DEHCPorfiriato</card>
+        <card dbid="1950">HCIronmonger</card>
+        <card dbid="2043">HCSilversmith</card>
+        <card dbid="7595">DEHCCopperCanyon</card>
+        <card dbid="7594">DEHCMexicanMint</card>
+        <card dbid="7606">DEHCPresidios</card>
+        <card dbid="7602">DEHCHabaneroPeppers</card>
+        <card dbid="7601">DEHCJalapenoPeppers</card>
+      </cards>
+    </deck>
+    <deck version="11">
+      <name>$$90975$$TreatyNative</name>
+      <cards>
+        <card dbid="7620">DEHCObservers</card>
+        <card dbid="1957">HCAdvancedArsenal</card>
+        <card dbid="2095">HCSustainableAgriculture</card>
+        <card dbid="2622">HCCaballeros</card>
+        <card dbid="7619">DEHCGuerillaTactics</card>
+        <card dbid="7858">DEHCCavalryCombatMexican</card>
+        <card dbid="7626">DEHCLiberationMarch</card>
+        <card dbid="2041">HCRefrigeration</card>
+        <card dbid="625">HCUnlockFactory</card>
+        <card dbid="7839">DEHCPresidialLancers</card>
+        <card dbid="2091">HCExoticHardwoods</card>
+        <card dbid="2090">HCSawmills</card>
+        <card dbid="7596">DEHCAltaCalifornia</card>
+        <card dbid="1950">HCIronmonger</card>
+        <card dbid="2043">HCSilversmith</card>
+        <card dbid="7595">DEHCCopperCanyon</card>
+        <card dbid="7594">DEHCMexicanMint</card>
+        <card dbid="1847">HCNativeWarriors</card>
+        <card dbid="7602">DEHCHabaneroPeppers</card>
+        <card dbid="7613">DEHCPorfiriato</card>
+        <card dbid="7601">DEHCJalapenoPeppers</card>
       </cards>
     </deck>
     <revoltdeck>

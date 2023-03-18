@@ -328,7 +328,7 @@
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>1</age>
-      <displayunitcount>5</displayunitcount>
+      <displayunitcount>6</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -412,7 +412,7 @@
       <level>10</level>
       <prereqtech>HCXPShipAxeRiders2</prereqtech>
       <age>1</age>
-      <displayunitcount>3</displayunitcount>
+      <displayunitcount>4</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -1297,6 +1297,8 @@
         <card dbid="3001">HCXPShipWarBows1</card>
         <card dbid="2917">HCXPShipVillagers5</card>
         <card dbid="2214">HCShipCoinCrates2</card>
+        <card dbid="10154">DEHCAkicita</card>
+        <card dbid="10158">HCShipAdvancedCapturedMortars</card>
       </cards>
     </deck>
     <deck>
@@ -1387,6 +1389,66 @@
         <card dbid="2999">HCXPGreatHunter</card>
         <card dbid="3473">HCXPShipTradingPostTravois</card>
         <card dbid="2917">HCXPShipVillagers5</card>
+      </cards>
+    </deck>
+    <deck version="11">
+      <name>$$90974$$TreatyNoNat</name>
+      <cards>
+        <card dbid="2091">HCExoticHardwoods</card>
+        <card dbid="3049">HCXPWoodcrafting</card>
+        <card dbid="2094">HCFoodSilos</card>
+        <card dbid="3411">HCXPNomadicExpansion</card>
+        <card dbid="3494">HCXPEarthBounty</card>
+        <card dbid="3015">HCXPCavalryDamageSioux</card>
+        <card dbid="3471">HCXPNewWaysSioux</card>
+        <card dbid="3481">HCXPAggressivePolicy</card>
+        <card dbid="3412">HCXPFriendlyTerritory</card>
+        <card dbid="3496">HCXPMustangs</card>
+        <card dbid="3017">HCXPCavalryCombatSioux</card>
+        <card dbid="3075">HCXPSiouxSanteeSupport</card>
+        <card dbid="3077">HCXPSiouxTwoKettleSupport</card>
+        <card dbid="3499">HCXPCommandSkill</card>
+        <card dbid="2996">HCXPBuffalo2</card>
+        <card dbid="2999">HCXPGreatHunter</card>
+        <card dbid="2881">HCXPWarChiefSioux1</card>
+        <card dbid="2032">HCFurrier</card>
+        <card dbid="10158">HCShipAdvancedCapturedMortars</card>
+        <card dbid="10154">DEHCAkicita</card>
+        <card dbid="2428">HCSpiceTradeTeam</card>
+        <card dbid="3076">HCXPSiouxYanktonSupport</card>
+        <card dbid="10166">DEHCNorthAmericaTrade</card>
+        <card dbid="3504">HCXPFurTrade</card>
+        <card dbid="10167">DEHCMedicineWheels</card>
+      </cards>
+    </deck>
+    <deck version="11">
+      <name>$$90975$$TreatyNative</name>
+      <cards>
+        <card dbid="2091">HCExoticHardwoods</card>
+        <card dbid="3049">HCXPWoodcrafting</card>
+        <card dbid="2094">HCFoodSilos</card>
+        <card dbid="3411">HCXPNomadicExpansion</card>
+        <card dbid="3494">HCXPEarthBounty</card>
+        <card dbid="3015">HCXPCavalryDamageSioux</card>
+        <card dbid="3471">HCXPNewWaysSioux</card>
+        <card dbid="3412">HCXPFriendlyTerritory</card>
+        <card dbid="3496">HCXPMustangs</card>
+        <card dbid="3017">HCXPCavalryCombatSioux</card>
+        <card dbid="3075">HCXPSiouxSanteeSupport</card>
+        <card dbid="3077">HCXPSiouxTwoKettleSupport</card>
+        <card dbid="3499">HCXPCommandSkill</card>
+        <card dbid="2996">HCXPBuffalo2</card>
+        <card dbid="2999">HCXPGreatHunter</card>
+        <card dbid="2032">HCFurrier</card>
+        <card dbid="10158">HCShipAdvancedCapturedMortars</card>
+        <card dbid="10154">DEHCAkicita</card>
+        <card dbid="2428">HCSpiceTradeTeam</card>
+        <card dbid="3076">HCXPSiouxYanktonSupport</card>
+        <card dbid="10166">DEHCNorthAmericaTrade</card>
+        <card dbid="3504">HCXPFurTrade</card>
+        <card dbid="10167">DEHCMedicineWheels</card>
+        <card dbid="1847">HCNativeWarriors</card>
+        <card dbid="3059">HCXPBlackArrow</card>
       </cards>
     </deck>
   </decks>

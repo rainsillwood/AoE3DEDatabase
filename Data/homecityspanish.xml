@@ -285,7 +285,7 @@
       <name>DEHCNewSpainViceroyalty</name>
       <maxcount>1</maxcount>
       <level>0</level>
-      <prereqtech>-1</prereqtech>
+      <bindtotech>DEHCNewSpainViceroyalty</bindtotech>
       <age>2</age>
       <displayunitcount>2</displayunitcount>
     </card>
@@ -331,15 +331,6 @@
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
-      <name>HCShipPikemen3Spanish</name>
-      <maxcount>1</maxcount>
-      <level>10</level>
-      <prereqtech>HCShipPikemen2</prereqtech>
-      <age>3</age>
-      <displayunitcount>20</displayunitcount>
-      <infiniteinlastage>1</infiniteinlastage>
-    </card>
-    <card>
       <name>HCShipPikemen4</name>
       <maxcount>1</maxcount>
       <level>10</level>
@@ -363,7 +354,7 @@
       <level>25</level>
       <prereqtech>HCShipPikemen4</prereqtech>
       <age>3</age>
-      <displayunitcount>18</displayunitcount>
+      <displayunitcount>20</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -526,7 +517,7 @@
       <name>HCCaballeros</name>
       <maxcount>1</maxcount>
       <level>10</level>
-      <prereqtech>HCShipLancers3</prereqtech>
+      <bindtotech>DEHCREVMXCaballeros</bindtotech>
       <age>2</age>
     </card>
     <card>
@@ -732,7 +723,7 @@
       <name>HCAdvancedArsenal</name>
       <maxcount>1</maxcount>
       <level>10</level>
-      <prereqtech>HCColonialMilitia</prereqtech>
+      <bindtotech>HCAdvancedArsenal</bindtotech>
       <age>1</age>
     </card>
     <card>
@@ -817,6 +808,7 @@
       <prereqtech>-1</prereqtech>
       <age>3</age>
       <displayunitcount>1</displayunitcount>
+      <bindtotech>HCUnlockFactory</bindtotech>
     </card>
     <card>
       <name>HCXPIndustrialRevolution</name>
@@ -959,7 +951,18 @@
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
+      <bindtotech>HCStockyards</bindtotech>
       <age>0</age>
+    </card>
+    <card>
+      <name>HCXPRanching</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <bindtotech>HCXPRanching</bindtotech>
+      <age>0</age>
+      <revoltcard>
+      </revoltcard>
     </card>
     <card>
       <name>HCFurrier</name>
@@ -1023,6 +1026,7 @@
       <maxcount>1</maxcount>
       <level>25</level>
       <prereqtech>HCStonemasons</prereqtech>
+      <bindtotech>HCXPLandGrab</bindtotech>
       <age>0</age>
     </card>
     <card>
@@ -1453,6 +1457,63 @@
       </revoltcard>
     </card>
     <card>
+      <name>DEHCREVBlandengues</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>XPRevolution</prereqtech>
+      <age>0</age>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>DEHCREVMXCaballeros</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>XPRevolution</prereqtech>
+      <bindtotech>HCCaballeros</bindtotech>
+      <age>0</age>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>HCNavalGunners</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>HCAdmirality</prereqtech>
+      <age>1</age>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>DEHCREVColombianNavy</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>XPRevolution</prereqtech>
+      <age>1</age>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>DEHCREVShipColombianRevolutionaries</name>
+      <maxcount>-1</maxcount>
+      <level>0</level>
+      <prereqtech>XPRevolution</prereqtech>
+      <age>2</age>
+      <displayunitcount>16</displayunitcount>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>HCShipCoveredWagons2</name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <age>3</age>
+      <displayunitcount>2</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
       <name>DEHCREVAlbionLegion</name>
       <maxcount>-1</maxcount>
       <level>0</level>
@@ -1493,6 +1554,24 @@
       </revoltcard>
     </card>
     <card>
+      <name>DEHCCharreada</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>0</age>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>DEHCREVCharros</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>XPRevolution</prereqtech>
+      <age>0</age>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
       <name>DEHCREVShipVaqueros</name>
       <maxcount>1</maxcount>
       <level>0</level>
@@ -1513,29 +1592,19 @@
       </revoltcard>
     </card>
     <card>
-      <name>DEHCREVShipRenegados</name>
-      <maxcount>-1</maxcount>
+      <name>DEHCREVFedMXRanching</name>
+      <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>XPRevolution</prereqtech>
-      <age>3</age>
-      <displayunitcount>11</displayunitcount>
+      <age>1</age>
       <revoltcard>
       </revoltcard>
     </card>
     <card>
-      <name>DEHCREVChinacos</name>
+      <name>DEHCBarbacoa</name>
       <maxcount>1</maxcount>
       <level>0</level>
-      <prereqtech>XPRevolution</prereqtech>
-      <age>3</age>
-      <revoltcard>
-      </revoltcard>
-    </card>
-    <card>
-      <name>DEHCREVCharros</name>
-      <maxcount>1</maxcount>
-      <level>0</level>
-      <prereqtech>XPRevolution</prereqtech>
+      <prereqtech>-1</prereqtech>
       <age>1</age>
       <revoltcard>
       </revoltcard>
@@ -1547,6 +1616,82 @@
       <prereqtech>XPRevolution</prereqtech>
       <age>2</age>
       <displayunitcount>3</displayunitcount>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>DEHCFedMXThreeGuarantees</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>XPRevolution</prereqtech>
+      <age>2</age>
+      <displayunitcount>27</displayunitcount>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>DEHCREVMXShipHaciendaWagonRepeat</name>
+      <maxcount>-1</maxcount>
+      <level>0</level>
+      <prereqtech>XPRevolution</prereqtech>
+      <age>3</age>
+      <displayunitcount>1</displayunitcount>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>DEHCFedMXZacatecasSilver</name>
+      <maxcount>-1</maxcount>
+      <level>0</level>
+      <prereqtech>XPRevolution</prereqtech>
+      <age>3</age>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>DEHCREVShipBandidos</name>
+      <maxcount>-1</maxcount>
+      <level>0</level>
+      <prereqtech>XPRevolution</prereqtech>
+      <age>3</age>
+      <displayunitcount>11</displayunitcount>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>DEHCREVFedMXFilibusterCombat</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>XPRevolution</prereqtech>
+      <age>3</age>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>DEHCChipotles</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>3</age>
+      <displayunitcount>500</displayunitcount>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>DEHCIturbidePalace</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>3</age>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>DEHCFedMXPortVeracruz</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>XPRevolution</prereqtech>
+      <age>3</age>
       <revoltcard>
       </revoltcard>
     </card>
@@ -1578,6 +1723,10 @@
         <card dbid="2206">HCShipSettlers2</card>
         <card dbid="2236">HCShipFalconets3</card>
         <card dbid="2045">HCHandCavalryCombatSpanish</card>
+        <card dbid="2574">HCShipCoinCrates1</card>
+        <card dbid="10005">DEHCNewSpainViceroyalty</card>
+        <card dbid="10004">DEHCPeninsularGuerrillas</card>
+        <card dbid="10001">DEHCShipCannons1Team</card>
       </cards>
     </deck>
     <deck>
@@ -1607,6 +1756,7 @@
         <card dbid="2231">HCShipRodeleros4</card>
         <card dbid="2563">HCShipPikemen4</card>
         <card dbid="1957">HCAdvancedArsenal</card>
+        <card dbid="10001">DEHCShipCannons1Team</card>
       </cards>
     </deck>
     <deck>
@@ -1636,6 +1786,7 @@
         <card dbid="469">HCFishMarket</card>
         <card dbid="2234">HCShipLancers3</card>
         <card dbid="2670">HCFrontierDefenses2</card>
+        <card dbid="10008">DEHCShipNuestrasSenoras</card>
       </cards>
     </deck>
     <deck version="8">
@@ -1666,6 +1817,66 @@
         <card dbid="2102">HCTextileMills</card>
         <card dbid="3464">HCXPSpanishGold</card>
         <card dbid="2095">HCSustainableAgriculture</card>
+      </cards>
+    </deck>
+    <deck version="11">
+      <name>$$90974$$TreatyNoNat</name>
+      <cards>
+        <card dbid="625">HCUnlockFactory</card>
+        <card dbid="3345">HCXPIndustrialRevolution</card>
+        <card dbid="2045">HCHandCavalryCombatSpanish</card>
+        <card dbid="2622">HCCaballeros</card>
+        <card dbid="3464">HCXPSpanishGold</card>
+        <card dbid="2102">HCTextileMills</card>
+        <card dbid="2041">HCRefrigeration</card>
+        <card dbid="2093">HCRoyalMint</card>
+        <card dbid="474">HCCigarRoller</card>
+        <card dbid="2095">HCSustainableAgriculture</card>
+        <card dbid="773">HCRoyalDecreeSpanish</card>
+        <card dbid="1957">HCAdvancedArsenal</card>
+        <card dbid="3441">HCXPUnction</card>
+        <card dbid="2025">HCHandCavalryHitpointsSpanish</card>
+        <card dbid="2101">HCRumDistillery</card>
+        <card dbid="7626">DEHCLiberationMarch</card>
+        <card dbid="10005">DEHCNewSpainViceroyalty</card>
+        <card dbid="10004">DEHCPeninsularGuerrillas</card>
+        <card dbid="2029">HCHandCavalryDamageSpanish</card>
+        <card dbid="3438">HCXPCapitalism</card>
+        <card dbid="3433">HCXPMayanAlliesRepeat</card>
+        <card dbid="6691">DEHCExtensiveFortificationsEuropean</card>
+        <card dbid="2574">HCShipCoinCrates1</card>
+        <card dbid="1849">HCExplorerSpanish</card>
+        <card dbid="2036">HCStonemasons</card>
+      </cards>
+    </deck>
+    <deck version="11">
+      <name>$$90975$$TreatyNative</name>
+      <cards>
+        <card dbid="625">HCUnlockFactory</card>
+        <card dbid="3345">HCXPIndustrialRevolution</card>
+        <card dbid="2045">HCHandCavalryCombatSpanish</card>
+        <card dbid="2622">HCCaballeros</card>
+        <card dbid="3464">HCXPSpanishGold</card>
+        <card dbid="2102">HCTextileMills</card>
+        <card dbid="2041">HCRefrigeration</card>
+        <card dbid="2093">HCRoyalMint</card>
+        <card dbid="1847">HCNativeWarriors</card>
+        <card dbid="474">HCCigarRoller</card>
+        <card dbid="2095">HCSustainableAgriculture</card>
+        <card dbid="773">HCRoyalDecreeSpanish</card>
+        <card dbid="1957">HCAdvancedArsenal</card>
+        <card dbid="3441">HCXPUnction</card>
+        <card dbid="2025">HCHandCavalryHitpointsSpanish</card>
+        <card dbid="2101">HCRumDistillery</card>
+        <card dbid="7626">DEHCLiberationMarch</card>
+        <card dbid="10005">DEHCNewSpainViceroyalty</card>
+        <card dbid="10004">DEHCPeninsularGuerrillas</card>
+        <card dbid="2029">HCHandCavalryDamageSpanish</card>
+        <card dbid="3438">HCXPCapitalism</card>
+        <card dbid="3433">HCXPMayanAlliesRepeat</card>
+        <card dbid="6691">DEHCExtensiveFortificationsEuropean</card>
+        <card dbid="2573">HCShipWoodCrates1</card>
+        <card dbid="2036">HCStonemasons</card>
       </cards>
     </deck>
     <revoltdeck>
@@ -1721,11 +1932,17 @@
         <card>DEHCREVGranaderos</card>
         <card>DEHCREVCitizenship</card>
         <card>DEHCREVArgentineMortars</card>
+        <card>HCStockyards</card>
+        <card>HCXPRanching</card>
+        <card>HCXPLandGrab</card>
+        <card>DEHCREVBlandengues</card>
+        <card>DEHCREVMXCaballeros</card>
       </cards>
     </revoltdeck>
     <revoltdeck civ="DERevColombia">
       <name>$$45518$$</name>
       <cards>
+        <card>DEHCREVShipColombianRevolutionaries</card>
         <card>DEHCREVAlbionLegion</card>
         <card>HCREVShipGatlingGuns</card>
         <card>HCREVShipIronclads</card>
@@ -1734,20 +1951,38 @@
         <card>DEHCREVLlaneros</card>
         <card>DEHCREVCattleDeliveryColombia</card>
         <card>DEHCREVCitizenship</card>
+        <card>HCAdvancedDock</card>
+        <card>HCUnlockFactory</card>
+        <card>HCShipCoveredWagons2</card>
+        <card>HCNavalCombat</card>
+        <card>HCNavalGunners</card>
+        <card>DEHCREVColombianNavy</card>
+        <card>HCAdvancedArsenal</card>
       </cards>
     </revoltdeck>
     <revoltdeck civ="DERevMexico">
       <name>$$45518$$</name>
       <cards>
+        <card>DEHCREVCharros</card>
         <card>DEHCREVShipVaqueros</card>
-        <card>DEHCREVShipRenegados</card>
-        <card>DEHCREVChinacos</card>
-        <card>HCREVShipIronclads</card>
+        <card>DEHCREVShipBandidos</card>
+        <card>HCREVShipGatlingGuns</card>
         <card>HCREVShipFortWagon</card>
         <card>DEHCREVCattleDeliveryMexico</card>
-        <card>DEHCREVCharros</card>
         <card>DEHCREVCitizenship</card>
         <card>DEHCREVNativeAlliesMexico</card>
+        <card>DEHCREVFedMXRanching</card>
+        <card>DEHCCharreada</card>
+        <card>DEHCBarbacoa</card>
+        <card>DEHCREVMXCaballeros</card>
+        <card>DEHCNewSpainViceroyalty</card>
+        <card>DEHCFedMXThreeGuarantees</card>
+        <card>DEHCREVMXShipHaciendaWagonRepeat</card>
+        <card>DEHCFedMXZacatecasSilver</card>
+        <card>DEHCREVFedMXFilibusterCombat</card>
+        <card>DEHCChipotles</card>
+        <card>DEHCIturbidePalace</card>
+        <card>DEHCFedMXPortVeracruz</card>
       </cards>
     </revoltdeck>
   </decks>

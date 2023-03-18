@@ -211,6 +211,7 @@
   </damagebonus>
   <damagebonus>
     <unittype>AbstractRangedShockInfantry</unittype>
+    <icon>resources/images/hud/stat_icon_light_ranged_infantry.png</icon>
     <displaynameid>44138</displaynameid>
     <showrollover>
     </showrollover>
@@ -251,5 +252,15 @@
   <damagebonus>
     <unittype>MilitaryProductionBuilding</unittype>
     <displaynameid>125577</displaynameid>
+  </damagebonus>
+  <damagebonus>
+    <unittype>AbstractSiegeElephant</unittype>
+    <icon>resources/images/hud/stat_icon_siege_elephant.png</icon>
+    <displaynameid>66586</displaynameid>
+  </damagebonus>
+  <damagebonus>
+    <unittype>AbstractResourceEnclosure</unittype>
+    <icon>resources/images/hud/stat_icon_resource_enclosure.png</icon>
+    <displaynameid>200101</displaynameid>
   </damagebonus>
 </damagebonustypes>

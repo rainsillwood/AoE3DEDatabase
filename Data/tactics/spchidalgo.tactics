@@ -64,7 +64,7 @@
     <persistent>1</persistent>
     <modifytype>Damage</modifytype>
     <modifymultiplier>3</modifymultiplier>
-    <modelattachment>effects\ypack_auras\daimyopower.xml</modelattachment>
+    <modelattachment>effects\ypack_auras\american_power.xml</modelattachment>
     <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
   </action>
   <tactic>Melee<action priority="100">BuildingAttack</action><action priority="75">HandAttack</action><action priority="1">SwashbucklerAttack</action><action>Build</action><action>Discover</action><action>ExtraAttackHidalgo</action><action>Heal</action><speedmodifier>1.0</speedmodifier><attacktype>LogicalTypeHandUnitsAttack</attacktype><autoattacktype>LogicalTypeHandUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeHandUnitsAttack</attackresponsetype><runaway>1</runaway><autoretarget>1</autoretarget><idleanim>Idle</idleanim><boredanim>Bored</boredanim><deathanim>Death</deathanim><walkanim>Walk</walkanim><joganim>Jog</joganim><runanim>Run</runanim></tactic>

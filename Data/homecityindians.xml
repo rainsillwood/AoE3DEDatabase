@@ -847,7 +847,7 @@
       <maxcount>1</maxcount>
       <level>10</level>
       <prereqtech>YPHCConsulateRelationsIndians</prereqtech>
-      <age>3</age>
+      <age>2</age>
     </card>
     <card>
       <name>YPHCAdvancedWondersIndians</name>
@@ -1273,7 +1273,6 @@
         <card dbid="4782">YPHCMercsWarElephant1</card>
         <card dbid="5193">YPHCShipGurkha3</card>
         <card dbid="4803">YPHCAgrarianism</card>
-        <card dbid="4315">YPHCShipCoinCrates1Indians</card>
         <card dbid="4329">YPHCShipSepoy1</card>
         <card dbid="4316">YPHCShipCoinCrates2Indians</card>
         <card dbid="3992">YPHCCamelDamageIndians</card>
@@ -1293,6 +1292,9 @@
         <card dbid="4428">YPHCBattlefieldConstruction</card>
         <card dbid="3914">YPHCShipSiegeElephant2</card>
         <card dbid="4761">YPHCShipGroveWagonIndians1</card>
+        <card dbid="10402">DEHCExportTradeIndians</card>
+        <card dbid="10403">DEHCCheapSepoys</card>
+        <card dbid="10407">DEShipRocketeersIndians</card>
       </cards>
     </deck>
     <deck>
@@ -1383,6 +1385,66 @@
         <card dbid="4374">YPHCSustainableAgricultureIndians</card>
         <card dbid="4756">YPHCRumDistilleryIndians</card>
         <card dbid="3689">YPHCForeignLogging</card>
+      </cards>
+    </deck>
+    <deck version="11">
+      <name>$$90974$$TreatyNoNat</name>
+      <cards>
+        <card dbid="4369">YPHCWoodcraftingIndians</card>
+        <card dbid="4368">YPHCExoticHardwoodsIndians</card>
+        <card dbid="4803">YPHCAgrarianism</card>
+        <card dbid="4376">YPHCFurTradeIndians</card>
+        <card dbid="4373">YPHCFoodSilosIndians</card>
+        <card dbid="3554">YPHCIndianMonkCombat</card>
+        <card dbid="4003">YPHCMughalArchitecture</card>
+        <card dbid="4345">YPHCRidingSchoolIndians</card>
+        <card dbid="4344">YPHCFencingSchoolIndians</card>
+        <card dbid="4710">YPHCMeleeDamageIndians</card>
+        <card dbid="4428">YPHCBattlefieldConstruction</card>
+        <card dbid="4374">YPHCSustainableAgricultureIndians</card>
+        <card dbid="3689">YPHCForeignLogging</card>
+        <card dbid="4872">YPHCExtensiveFortificationsIndians</card>
+        <card dbid="3994">YPHCElephantTrampling</card>
+        <card dbid="5153">YPHCElephantCombatIndians</card>
+        <card dbid="5049">YPHCGurkhaAid</card>
+        <card dbid="3997">YPHCElephantLimit</card>
+        <card dbid="3990">YPHCInfantrySpeedHitpointsTeam</card>
+        <card dbid="4679">YPHCShipWoodCratesInf4Indians</card>
+        <card dbid="5112">YPHCEastIndiaCompany</card>
+        <card dbid="10405">DEShipRocketsRepeatIndians</card>
+        <card dbid="10404">DEHCElephantArmors</card>
+        <card dbid="10403">DEHCCheapSepoys</card>
+        <card dbid="5028">YPHCConscriptSepoys</card>
+      </cards>
+    </deck>
+    <deck version="11">
+      <name>$$90975$$TreatyNative</name>
+      <cards>
+        <card dbid="4369">YPHCWoodcraftingIndians</card>
+        <card dbid="4368">YPHCExoticHardwoodsIndians</card>
+        <card dbid="4803">YPHCAgrarianism</card>
+        <card dbid="4376">YPHCFurTradeIndians</card>
+        <card dbid="4373">YPHCFoodSilosIndians</card>
+        <card dbid="3554">YPHCIndianMonkCombat</card>
+        <card dbid="4003">YPHCMughalArchitecture</card>
+        <card dbid="4345">YPHCRidingSchoolIndians</card>
+        <card dbid="4344">YPHCFencingSchoolIndians</card>
+        <card dbid="4710">YPHCMeleeDamageIndians</card>
+        <card dbid="4374">YPHCSustainableAgricultureIndians</card>
+        <card dbid="3689">YPHCForeignLogging</card>
+        <card dbid="3994">YPHCElephantTrampling</card>
+        <card dbid="5153">YPHCElephantCombatIndians</card>
+        <card dbid="5049">YPHCGurkhaAid</card>
+        <card dbid="3997">YPHCElephantLimit</card>
+        <card dbid="3990">YPHCInfantrySpeedHitpointsTeam</card>
+        <card dbid="4679">YPHCShipWoodCratesInf4Indians</card>
+        <card dbid="5112">YPHCEastIndiaCompany</card>
+        <card dbid="5076">YPHCNativeIncorporationIndians</card>
+        <card dbid="5073">YPHCNativeHitpointsIndians</card>
+        <card dbid="10405">DEShipRocketsRepeatIndians</card>
+        <card dbid="10404">DEHCElephantArmors</card>
+        <card dbid="10403">DEHCCheapSepoys</card>
+        <card dbid="5028">YPHCConscriptSepoys</card>
       </cards>
     </deck>
   </decks>

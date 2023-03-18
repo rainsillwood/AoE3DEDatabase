@@ -84,7 +84,6 @@
     <maxrange>6</maxrange>
     <rate type="LogicalTypeShipsAndBuildings">1.0 </rate>
     <attackaction>1</attackaction>
-    <speedboost>1</speedboost>
     <anim>Raze_Attack</anim>
     <idleanim>Raze_Idle</idleanim>
     <impacteffect>effects\impacts\torch</impacteffect>
@@ -120,7 +119,7 @@
     <modifytype>MaxHP</modifytype>
     <modifymultiplier>1.05</modifymultiplier>
     <forbidabstracttype>AbstractArtillery</forbidabstracttype>
-    <modelattachment>effects\ypack_auras\daimyopower.xml</modelattachment>
+    <modelattachment>effects\ypack_auras\american_power.xml</modelattachment>
     <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
   </action>
   <action>

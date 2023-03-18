@@ -1,6 +1,0 @@
-<tactics>
-  <tactic>Normal<speedmodifier>1.0</speedmodifier><action>HandAttack</action><action>RangedAttack</action><transition><tactic>ShipBombard</tactic><action>Limber</action><length>30</length><exit>1</exit></transition><transition><tactic>ShipBroadside</tactic><action>Limber</action><length>30</length><exit>1</exit></transition><transition><tactic>Bombard</tactic><action>Limber</action><length>4</length><exit>1</exit><commandautomatic>1</commandautomatic></transition></tactic>
-  <tactic>ShipBombard<unittype>Ship</unittype><speedmodifier>0.0</speedmodifier><exclusive>1</exclusive><action>BombardAttack</action><tooltipstringid>26821</tooltipstringid><transition><tactic>Normal</tactic><action>Limber</action><length>10</length><exit>1</exit></transition></tactic>
-  <tactic>ShipBroadside<unittype>Ship</unittype><speedmodifier>0.5</speedmodifier><exclusive>1</exclusive><action>BroadsideAttack</action><tooltipstringid>26823</tooltipstringid><transition><tactic>Normal</tactic><action>Limber</action><length>10</length><exit>1</exit></transition></tactic>
-  <tactic>Bombard<unittype>AbstractArtillery</unittype><speedmodifier>0.0</speedmodifier><exclusive>1</exclusive><action>BombardAttack</action><tooltipstringid>27173</tooltipstringid><transition><tactic>Normal</tactic><action>Limber</action><length>8</length><exit>1</exit></transition></tactic>
-</tactics>

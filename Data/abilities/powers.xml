@@ -1217,6 +1217,7 @@
     <unitaction>HausaSabotage</unitaction>
     <castingpower>dePowerHausaSabotageAux</castingpower>
     <alwaysaddtoplayer>1</alwaysaddtoplayer>
+    <forceglobalcooldown>1</forceglobalcooldown>
   </power>
   <power name="deChimuManeuver" type="GeneralEffect">
     <displaynameid>80579</displaynameid>
@@ -2106,7 +2107,7 @@
     <minimapeventtime sendalertto="player">1</minimapeventtime>
     <activetime>60</activetime>
     <unitmodify amount="1.2" apply="multiply">Armor</unitmodify>
-    <modelattachment>effects\ypack_auras\daimyopower.xml</modelattachment>
+    <modelattachment>effects\ypack_auras\wettin_power.xml</modelattachment>
     <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
     <powerplayerrelation>player</powerplayerrelation>
     <radius>25.0</radius>
@@ -2565,6 +2566,12 @@
     <displaynameid>122273</displaynameid>
     <rolloverid>122274</rolloverid>
     <icon>resources\images\icons\abilities\passive_gunslinger_quick_draw.png</icon>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="deBurningDamage" type="GeneralEffect">
+    <displaynameid>101492</displaynameid>
+    <rolloverid>101501</rolloverid>
+    <icon>resources\images\icons\abilities\passive_burning_damage.png</icon>
     <allowduringnorush>1</allowduringnorush>
   </power>
 </powers>

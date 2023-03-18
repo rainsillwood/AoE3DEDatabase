@@ -322,22 +322,6 @@
       <displayunitcount>2</displayunitcount>
     </card>
     <card>
-      <name>HCShipHoopThrowers1</name>
-      <maxcount>1</maxcount>
-      <level>0</level>
-      <prereqtech>-1</prereqtech>
-      <age>2</age>
-      <displayunitcount>4</displayunitcount>
-    </card>
-    <card>
-      <name>HCShipHoopThrowers2</name>
-      <maxcount>1</maxcount>
-      <level>0</level>
-      <prereqtech>HCShipHoopThrowers1</prereqtech>
-      <age>2</age>
-      <displayunitcount>9</displayunitcount>
-    </card>
-    <card>
       <name>HCShipPikemen1</name>
       <maxcount>1</maxcount>
       <level>0</level>
@@ -480,6 +464,13 @@
       <maxcount>1</maxcount>
       <age>3</age>
       <displayunitcount>24</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>DEHCShipSentinel1</name>
+      <maxcount>1</maxcount>
+      <age>1</age>
+      <displayunitcount>5</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -1558,6 +1549,8 @@
         <card dbid="9309">DEHCShipHospitallerTeam</card>
         <card dbid="9381">DEHCFrenchTongue</card>
         <card dbid="9380">DEHCSpanishTongue</card>
+        <card dbid="9307">DEHCDignitaries</card>
+        <card dbid="10035">DEHCFlintlockRockets</card>
       </cards>
     </deck>
     <deck>
@@ -1648,6 +1641,66 @@
         <card dbid="9384">DEHCWignacourtConstructions</card>
         <card dbid="2102">HCTextileMills</card>
         <card dbid="474">HCCigarRoller</card>
+      </cards>
+    </deck>
+    <deck version="11">
+      <name>$$90974$$TreatyNoNat</name>
+      <cards>
+        <card dbid="9542">DEHCChurchWagon</card>
+        <card dbid="2101">HCRumDistillery</card>
+        <card dbid="9382">DEHCGermanTongue</card>
+        <card dbid="1957">HCAdvancedArsenal</card>
+        <card dbid="2095">HCSustainableAgriculture</card>
+        <card dbid="474">HCCigarRoller</card>
+        <card dbid="9439">DEHCPapalDecreeDissolveTemplars</card>
+        <card dbid="2041">HCRefrigeration</card>
+        <card dbid="2093">HCRoyalMint</card>
+        <card dbid="2102">HCTextileMills</card>
+        <card dbid="9314">DEHCMalteseCombat</card>
+        <card dbid="9446">DEHCSquires</card>
+        <card dbid="625">HCUnlockFactory</card>
+        <card dbid="9114">DEHCSicilianSupply</card>
+        <card dbid="9470">DEHCShipRollingWoodMalta</card>
+        <card dbid="9313">DEHCRocketThrowers</card>
+        <card dbid="9307">DEHCDignitaries</card>
+        <card dbid="9384">DEHCWignacourtConstructions</card>
+        <card dbid="9113">DEHCFireTowers</card>
+        <card dbid="10096">DEHCUnlockFort3</card>
+        <card dbid="814">HCUnlockFort</card>
+        <card dbid="9437">DEHCExplorerMaltese</card>
+        <card dbid="9310">DEHCAuberges</card>
+        <card dbid="9312">DEHCFlameThrowers</card>
+        <card dbid="6691">DEHCExtensiveFortificationsEuropean</card>
+      </cards>
+    </deck>
+    <deck version="11">
+      <name>$$90975$$TreatyNative</name>
+      <cards>
+        <card dbid="2101">HCRumDistillery</card>
+        <card dbid="9382">DEHCGermanTongue</card>
+        <card dbid="1957">HCAdvancedArsenal</card>
+        <card dbid="2095">HCSustainableAgriculture</card>
+        <card dbid="474">HCCigarRoller</card>
+        <card dbid="9439">DEHCPapalDecreeDissolveTemplars</card>
+        <card dbid="2041">HCRefrigeration</card>
+        <card dbid="2093">HCRoyalMint</card>
+        <card dbid="2102">HCTextileMills</card>
+        <card dbid="9314">DEHCMalteseCombat</card>
+        <card dbid="9446">DEHCSquires</card>
+        <card dbid="625">HCUnlockFactory</card>
+        <card dbid="9114">DEHCSicilianSupply</card>
+        <card dbid="9470">DEHCShipRollingWoodMalta</card>
+        <card dbid="9313">DEHCRocketThrowers</card>
+        <card dbid="9307">DEHCDignitaries</card>
+        <card dbid="1847">HCNativeWarriors</card>
+        <card dbid="9384">DEHCWignacourtConstructions</card>
+        <card dbid="9113">DEHCFireTowers</card>
+        <card dbid="10096">DEHCUnlockFort3</card>
+        <card dbid="9312">DEHCFlameThrowers</card>
+        <card dbid="6691">DEHCExtensiveFortificationsEuropean</card>
+        <card dbid="9437">DEHCExplorerMaltese</card>
+        <card dbid="9542">DEHCChurchWagon</card>
+        <card dbid="9310">DEHCAuberges</card>
       </cards>
     </deck>
     <revoltdeck>
@@ -1820,6 +1873,7 @@
       <tech x="0.3" y="5.0">HCShipCrossbowmen4</tech>
       <tech x="0.3" y="5.0">HCShipCrossbowmen5</tech>
       <tech x="0.3" y="5.0">HCShipCrossbowmen3</tech>
+      <tech x="0.3" y="5.0">DEHCShipSentinel1</tech>
       <tech x="0.3" y="5.0">DEHCShipSentinel2</tech>
       <tech x="0.3" y="5.0">DEHCShipSentinel3</tech>
       <tech x="0.3" y="5.0">DEHCShipSentinel4</tech>
@@ -1875,6 +1929,7 @@
       <tech x="0.3" y="5.0">HCShipCrossbowmen4</tech>
       <tech x="0.3" y="5.0">HCShipCrossbowmen5</tech>
       <tech x="0.3" y="5.0">HCShipCrossbowmen3</tech>
+      <tech x="0.3" y="5.0">DEHCShipSentinel1</tech>
       <tech x="0.3" y="5.0">DEHCShipSentinel2</tech>
       <tech x="0.3" y="5.0">DEHCShipSentinel3</tech>
       <tech x="0.3" y="5.0">DEHCShipSentinel4</tech>

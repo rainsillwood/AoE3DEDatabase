@@ -392,7 +392,7 @@
       <level>0</level>
       <prereqtech>YPHCShipArquebusier1</prereqtech>
       <age>3</age>
-      <displayunitcount>16</displayunitcount>
+      <displayunitcount>17</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -1282,6 +1282,8 @@
         <card dbid="2574">HCShipCoinCrates1</card>
         <card dbid="4059">YPHCShipCastleWagons1</card>
         <card dbid="4730">YPHCShipChuKoNu2</card>
+        <card dbid="3948">YPHCForbiddenArmyArmor</card>
+        <card dbid="5057">YPHCHanAntiCavalryBonus</card>
       </cards>
     </deck>
     <deck>
@@ -1373,6 +1375,66 @@
         <card dbid="2093">HCRoyalMint</card>
         <card dbid="2041">HCRefrigeration</card>
         <card dbid="2102">HCTextileMills</card>
+      </cards>
+    </deck>
+    <deck version="11">
+      <name>$$90974$$TreatyNoNat</name>
+      <cards>
+        <card dbid="5130">YPHCWesternReforms</card>
+        <card dbid="5056">YPHCManchuCombat</card>
+        <card dbid="2041">HCRefrigeration</card>
+        <card dbid="2093">HCRoyalMint</card>
+        <card dbid="2102">HCTextileMills</card>
+        <card dbid="3962">YPHCConfusciousGift</card>
+        <card dbid="4057">YPHCAccupuncture</card>
+        <card dbid="5057">YPHCHanAntiCavalryBonus</card>
+        <card dbid="3948">YPHCForbiddenArmyArmor</card>
+        <card dbid="2613">HCFullingMills</card>
+        <card dbid="2607">HCStockyards</card>
+        <card dbid="2094">HCFoodSilos</card>
+        <card dbid="3966">YPHCRanchingWaterBuffalo</card>
+        <card dbid="3959">YPHCBannerSchool</card>
+        <card dbid="5050">YPHCEngineeringSchoolTeam</card>
+        <card dbid="3952">YPHCMongolianScourge</card>
+        <card dbid="474">HCCigarRoller</card>
+        <card dbid="4736">YPHCArtilleryCombatChinese</card>
+        <card dbid="2095">HCSustainableAgriculture</card>
+        <card dbid="3954">YPHCOldHanArmyReforms</card>
+        <card dbid="3949">YPHCStandardArmyHitpoints</card>
+        <card dbid="2091">HCExoticHardwoods</card>
+        <card dbid="5251">YPHCArtilleryDamageChinese</card>
+        <card dbid="3946">YPHCShipFlyingCrow2</card>
+        <card dbid="4997">YPHCShipShaolinMaster</card>
+      </cards>
+    </deck>
+    <deck version="11">
+      <name>$$90975$$TreatyNative</name>
+      <cards>
+        <card dbid="5130">YPHCWesternReforms</card>
+        <card dbid="5056">YPHCManchuCombat</card>
+        <card dbid="2041">HCRefrigeration</card>
+        <card dbid="2093">HCRoyalMint</card>
+        <card dbid="2102">HCTextileMills</card>
+        <card dbid="3962">YPHCConfusciousGift</card>
+        <card dbid="4057">YPHCAccupuncture</card>
+        <card dbid="5057">YPHCHanAntiCavalryBonus</card>
+        <card dbid="3948">YPHCForbiddenArmyArmor</card>
+        <card dbid="2613">HCFullingMills</card>
+        <card dbid="2607">HCStockyards</card>
+        <card dbid="3966">YPHCRanchingWaterBuffalo</card>
+        <card dbid="3959">YPHCBannerSchool</card>
+        <card dbid="474">HCCigarRoller</card>
+        <card dbid="5071">YPHCNativeDamage</card>
+        <card dbid="5074">YPHCNativeHitpoints</card>
+        <card dbid="2095">HCSustainableAgriculture</card>
+        <card dbid="2094">HCFoodSilos</card>
+        <card dbid="3949">YPHCStandardArmyHitpoints</card>
+        <card dbid="3954">YPHCOldHanArmyReforms</card>
+        <card dbid="2091">HCExoticHardwoods</card>
+        <card dbid="4736">YPHCArtilleryCombatChinese</card>
+        <card dbid="5050">YPHCEngineeringSchoolTeam</card>
+        <card dbid="3952">YPHCMongolianScourge</card>
+        <card dbid="3946">YPHCShipFlyingCrow2</card>
       </cards>
     </deck>
   </decks>

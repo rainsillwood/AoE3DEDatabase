@@ -24,7 +24,7 @@
   </action>
   <action>
     <name stringid="91776">BarrageAttack</name>
-    <active>0</active>
+    <active>1</active>
     <reloadanim>Bombard_reload</reloadanim>
     <type>Attack</type>
     <attackaction>1</attackaction>
@@ -47,5 +47,5 @@
     <basedamagecap>1</basedamagecap>
   </action>
   <tactic>Limber<speedmodifier>1.0</speedmodifier><attacktype>LogicalTypeRangedUnitsAttack</attacktype><transition><tactic>Bombard</tactic><action>Limber</action><anim>Bombard_unlimber</anim><length>4</length><exit>1</exit><commandautomatic>1</commandautomatic><automatic>1</automatic></transition><deathanim>Death_by_melee</deathanim></tactic>
-  <tactic>Bombard<speedmodifier>0.4</speedmodifier><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><exclusive>1</exclusive><action priority="100">CannonAttack</action><action priority="90">BarrageAttack</action><transition><tactic>Limber</tactic><action>Limber</action><anim>Bombard_limber</anim><length>6</length><exit>1</exit></transition><idleanim>Bombard_ranged_idle</idleanim><boredanim>Bombard_bored</boredanim><walkanim>Bombard_Walk</walkanim><joganim>Bombard_Jog</joganim><runanim>Bombard_Run</runanim><throw>1</throw><deathanim>Death_by_melee</deathanim></tactic>
+  <tactic>Bombard<speedmodifier>0.4</speedmodifier><attackprioritytype bonusfactor="100000.00">LogicalTypeShipsAndBuildings</attackprioritytype><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><exclusive>1</exclusive><action priority="100">CannonAttack</action><action priority="20">BarrageAttack</action><transition><tactic>Limber</tactic><action>Limber</action><anim>Bombard_limber</anim><length>6</length><exit>1</exit></transition><idleanim>Bombard_ranged_idle</idleanim><boredanim>Bombard_bored</boredanim><walkanim>Bombard_Walk</walkanim><joganim>Bombard_Jog</joganim><runanim>Bombard_Run</runanim><throw>1</throw><deathanim>Death_by_melee</deathanim></tactic>
 </tactics>

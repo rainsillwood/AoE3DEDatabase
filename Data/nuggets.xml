@@ -66,7 +66,7 @@
       <resourcemodentries>
         <resourcemodentry>
           <unittype>Unit</unittype>
-          <modvalue>2.0</modvalue>
+          <modvalue>1.25</modvalue>
         </resourcemodentry>
       </resourcemodentries>
     </resourcemodtechentry>
@@ -1128,6 +1128,20 @@
       <difficulty>2</difficulty>
     </nugget>
     <nugget>
+      <name>BoisDarc1</name>
+      <nuggetunit>NuggetDroppedWood</nuggetunit>
+      <type>AdjustResource</type>
+      <rolloverstringid>27766</rolloverstringid>
+      <applystringid>27767</applystringid>
+      <resource>Wood</resource>
+      <amount>25</amount>
+      <maptype>mexico</maptype>
+      <maptype>texas</maptype>
+      <maptype>greatPlains</maptype>
+      <guardian>Coyote</guardian>
+      <difficulty>1</difficulty>
+    </nugget>
+    <nugget>
       <name>BoisDarc</name>
       <nuggetunit>NuggetWolfWagon</nuggetunit>
       <type>AdjustResource</type>
@@ -1229,6 +1243,21 @@
         <attachdummy>bone_nuggetC</attachdummy>
       </guardianunit>
       <difficulty>3</difficulty>
+    </nugget>
+    <nugget>
+      <name>Cottonwood1</name>
+      <type>AdjustResource</type>
+      <nuggetunit>NuggetDroppedWood</nuggetunit>
+      <rolloverstringid>29439</rolloverstringid>
+      <applystringid>29440</applystringid>
+      <resource>Wood</resource>
+      <amount>45</amount>
+      <maptype>california</maptype>
+      <maptype>northwestTerritory</maptype>
+      <guardianunit>
+        <unit>grizzlyBear</unit>
+      </guardianunit>
+      <difficulty>1</difficulty>
     </nugget>
     <nugget>
       <name>Cottonwood</name>
@@ -1567,7 +1596,7 @@
       <rolloverstringid>27768</rolloverstringid>
       <applystringid>27769</applystringid>
       <resource>Wood</resource>
-      <amount>130</amount>
+      <amount>135</amount>
       <maptype>california</maptype>
       <maptype>northwestTerritory</maptype>
       <guardianunit>
@@ -1583,6 +1612,69 @@
         <unit>GrizzlyBear</unit>
         <attachdummy>bone_nuggetC</attachdummy>
       </guardianunit>
+      <difficulty>3</difficulty>
+    </nugget>
+    <nugget>
+      <name>Redwood4</name>
+      <type>AdjustResource</type>
+      <nuggetunit>NuggetBearCampsite</nuggetunit>
+      <rolloverstringid>27768</rolloverstringid>
+      <applystringid>27769</applystringid>
+      <resource>Wood</resource>
+      <amount>180</amount>
+      <maptype>california</maptype>
+      <maptype>northwestTerritory</maptype>
+      <guardianunit>
+        <unit>GrizzlyBear</unit>
+        <idleanim>Bear_Campsite_Idle</idleanim>
+        <attachdummy>bone_nuggetA</attachdummy>
+      </guardianunit>
+      <guardianunit>
+        <unit>GrizzlyBear</unit>
+        <attachdummy>bone_nuggetB</attachdummy>
+      </guardianunit>
+      <guardianunit>
+        <unit>GrizzlyBear</unit>
+        <attachdummy>bone_nuggetC</attachdummy>
+      </guardianunit>
+      <guardian>GrizzlyBear</guardian>
+      <difficulty>4</difficulty>
+    </nugget>
+    <nugget>
+      <name>Spruce14</name>
+      <nuggetunit>NuggetCoveredWagon</nuggetunit>
+      <type>AdjustResource</type>
+      <rolloverstringid>29433</rolloverstringid>
+      <applystringid>29434</applystringid>
+      <resource>Wood</resource>
+      <amount>175</amount>
+      <maptype>california</maptype>
+      <maptype>northwestTerritory</maptype>
+      <maptype>sonora</maptype>
+      <maptype>texas</maptype>
+      <guardian>Cougar</guardian>
+      <guardian>Cougar</guardian>
+      <guardian>Cougar</guardian>
+      <guardian>Cougar</guardian>
+      <guardian>Cougar</guardian>
+      <difficulty>4</difficulty>
+    </nugget>
+    <nugget>
+      <name>Spruce13</name>
+      <nuggetunit>NuggetCoveredWagon</nuggetunit>
+      <type>AdjustResource</type>
+      <rolloverstringid>29433</rolloverstringid>
+      <applystringid>29434</applystringid>
+      <resource>Wood</resource>
+      <amount>125</amount>
+      <maptype>california</maptype>
+      <maptype>northwestTerritory</maptype>
+      <maptype>sonora</maptype>
+      <maptype>texas</maptype>
+      <guardian>Cougar</guardian>
+      <guardian>Cougar</guardian>
+      <guardian>Cougar</guardian>
+      <guardian>Cougar</guardian>
       <difficulty>3</difficulty>
     </nugget>
     <nugget>
@@ -1791,13 +1883,9 @@
       <resource>Gold</resource>
       <amount>30</amount>
       <maptype>carolina</maptype>
-      <maptype>greatLakes</maptype>
       <maptype>greatPlains</maptype>
-      <maptype>newEngland</maptype>
       <maptype>dakota</maptype>
-      <maptype>northwestTerritory</maptype>
       <maptype>saguenay</maptype>
-      <maptype>yukon</maptype>
       <maptype>arcticterritories</maptype>
       <difficulty>1</difficulty>
     </nugget>
@@ -1828,15 +1916,10 @@
       <applystringid>31672</applystringid>
       <resource>Gold</resource>
       <amount>50</amount>
-      <maptype>carolina</maptype>
       <maptype>greatLakes</maptype>
-      <maptype>greatPlains</maptype>
       <maptype>newEngland</maptype>
-      <maptype>dakota</maptype>
       <maptype>northwestTerritory</maptype>
-      <maptype>saguenay</maptype>
       <maptype>yukon</maptype>
-      <maptype>arcticterritories</maptype>
       <difficulty>1</difficulty>
     </nugget>
     <nugget>
@@ -1991,7 +2074,7 @@
       <maptype>patagonia</maptype>
       <maptype>mexico</maptype>
       <maptype>texas</maptype>
-      <guardian>Jaguar</guardian>
+      <guardian>OutlawRider</guardian>
       <difficulty>1</difficulty>
     </nugget>
     <nugget>
@@ -2053,11 +2136,10 @@
       <rolloverstringid>25470</rolloverstringid>
       <applystringid>25471</applystringid>
       <resource>Gold</resource>
-      <amount>70</amount>
+      <amount>60</amount>
       <maptype>sonora</maptype>
       <maptype>mexico</maptype>
       <maptype>texas</maptype>
-      <maptype>greatPlains</maptype>
       <guardianunit>
         <unit>Coyote</unit>
         <idleanim>Wolf_Wagon_WolfA_Idle</idleanim>
@@ -2164,8 +2246,6 @@
       <maptype>california</maptype>
       <maptype>greatPlains</maptype>
       <maptype>sonora</maptype>
-      <maptype>mexico</maptype>
-      <maptype>texas</maptype>
       <guardianunit>
         <unit>Coyote</unit>
         <idleanim>Wolf_Wagon_WolfA_Idle</idleanim>
@@ -2838,6 +2918,26 @@
       <difficulty>1</difficulty>
     </nugget>
     <nugget>
+      <name>Marigolds1</name>
+      <type>AdjustResource</type>
+      <nuggetunit>NuggetWolfWagon</nuggetunit>
+      <rolloverstringid>28826</rolloverstringid>
+      <applystringid>28827</applystringid>
+      <resource>XP</resource>
+      <amount>30</amount>
+      <maptype>sonora</maptype>
+      <maptype>mexico</maptype>
+      <maptype>texas</maptype>
+      <maptype>greatPlains</maptype>
+      <guardianunit>
+        <unit>Coyote</unit>
+        <idleanim>Wolf_Wagon_WolfA_Idle</idleanim>
+        <exitanim>Wolf_Wagon_WolfA_Exit</exitanim>
+        <attachdummy>bone_nuggetA</attachdummy>
+      </guardianunit>
+      <difficulty>1</difficulty>
+    </nugget>
+    <nugget>
       <name>Marigolds</name>
       <type>AdjustResource</type>
       <nuggetunit>NuggetWolfWagon</nuggetunit>
@@ -3045,7 +3145,7 @@
       <rolloverstringid>29084</rolloverstringid>
       <applystringid>29085</applystringid>
       <resource>XP</resource>
-      <amount>70</amount>
+      <amount>80</amount>
       <maptype>california</maptype>
       <maptype>sonora</maptype>
       <maptype>mexico</maptype>
@@ -3062,6 +3162,9 @@
         <idleanim>Wolf_Wagon_WolfB_Idle</idleanim>
         <exitanim>Wolf_Wagon_WolfB_Exit</exitanim>
         <attachdummy>bone_nuggetB</attachdummy>
+      </guardianunit>
+      <guardianunit>
+        <unit>Coyote</unit>
       </guardianunit>
       <difficulty>2</difficulty>
     </nugget>
@@ -3990,16 +4093,16 @@
         <attachdummy>bone_hostage_A</attachdummy>
       </convertunit>
       <maptype>bayou</maptype>
-      <maptype>carolina</maptype>
-      <maptype>newEngland</maptype>
       <maptype>dakota</maptype>
       <maptype>northwestTerritory</maptype>
-      <maptype>greatLakes</maptype>
       <maptype>saguenay</maptype>
       <maptype>yukon</maptype>
       <maptype>arcticterritories</maptype>
       <maptype>mexico</maptype>
       <maptype>texas</maptype>
+      <maptype>carolina</maptype>
+      <maptype>newEngland</maptype>
+      <maptype>greatLakes</maptype>
       <guardianunit>
         <unit>OutlawRifleman</unit>
         <idleanim>Kidnap_OutlawA_Idle</idleanim>
@@ -7694,7 +7797,7 @@
       <maptype>yellowRiver</maptype>
       <guardian>ypWaywardRonin</guardian>
       <guardian>ypWaywardRonin</guardian>
-      <difficulty>4</difficulty>
+      <difficulty>3</difficulty>
     </nugget>
     <nugget>
       <name>ypSpawnRhino</name>
@@ -10235,7 +10338,7 @@
       <rolloverstringid>102101</rolloverstringid>
       <applystringid>102102</applystringid>
       <resource>Gold</resource>
-      <amount>340</amount>
+      <amount>300</amount>
       <maptype>Arabia</maptype>
       <maptype>Atlas</maptype>
       <maptype>CongoBasin</maptype>
@@ -10252,6 +10355,7 @@
       <maptype>LostSahara1</maptype>
       <maptype>LostSahara2</maptype>
       <maptype>LostSahara3</maptype>
+      <guardian>deHyena</guardian>
       <guardian>deHyena</guardian>
       <guardian>deHyena</guardian>
       <guardian>deHyena</guardian>
@@ -12611,15 +12715,10 @@
       <maptype>greatPlains</maptype>
       <maptype>sonora</maptype>
       <maptype>andes</maptype>
-      <maptype>borneo</maptype>
-      <maptype>japan</maptype>
-      <maptype>mongolia</maptype>
-      <maptype>yellowRiver</maptype>
       <maptype>california</maptype>
       <maptype>yukon</maptype>
       <maptype>caribbean</maptype>
       <maptype>bayou</maptype>
-      <maptype>deccan</maptype>
       <maptype>plymouth</maptype>
       <maptype>carolina</maptype>
       <maptype>saguenay</maptype>
@@ -12628,6 +12727,28 @@
       <maptype>horn</maptype>
       <maptype>pepperCoast</maptype>
       <maptype>nileriver</maptype>
+      <guardian>deGuardBucCaptain</guardian>
+      <guardian>deGuardBucCaptain</guardian>
+      <guardian>deGuardBucCaptain</guardian>
+      <guardian>deGuardBucCaptain</guardian>
+      <guardian>deGuardBucCaptain</guardian>
+      <guardian>deGuardBucCaptain</guardian>
+      <difficulty>12346</difficulty>
+    </nugget>
+    <nugget>
+      <name>ypUnknownMinerRescue</name>
+      <type>SpawnUnit</type>
+      <nuggetunit>ypNuggetCaveAsian</nuggetunit>
+      <rolloverstringid>90927</rolloverstringid>
+      <applystringid>90928</applystringid>
+      <unittype>deMiner</unittype>
+      <amount>4</amount>
+      <maptype>borneo</maptype>
+      <maptype>japan</maptype>
+      <maptype>mongolia</maptype>
+      <maptype>yellowRiver</maptype>
+      <maptype>deccan</maptype>
+      <maptype>silkRoad3</maptype>
       <guardian>deGuardBucCaptain</guardian>
       <guardian>deGuardBucCaptain</guardian>
       <guardian>deGuardBucCaptain</guardian>
@@ -12656,15 +12777,10 @@
       <maptype>greatPlains</maptype>
       <maptype>sonora</maptype>
       <maptype>andes</maptype>
-      <maptype>borneo</maptype>
-      <maptype>japan</maptype>
-      <maptype>mongolia</maptype>
-      <maptype>yellowRiver</maptype>
       <maptype>california</maptype>
       <maptype>yukon</maptype>
       <maptype>caribbean</maptype>
       <maptype>bayou</maptype>
-      <maptype>deccan</maptype>
       <maptype>plymouth</maptype>
       <maptype>carolina</maptype>
       <maptype>saguenay</maptype>
@@ -12673,6 +12789,28 @@
       <maptype>horn</maptype>
       <maptype>pepperCoast</maptype>
       <maptype>nileriver</maptype>
+      <guardian>deGuardBucCaptain</guardian>
+      <guardian>deGuardBucCaptain</guardian>
+      <guardian>deGuardBucCaptain</guardian>
+      <guardian>deGuardBucCaptain</guardian>
+      <guardian>deGuardBucCaptain</guardian>
+      <guardian>deGuardBucCaptain</guardian>
+      <difficulty>12346</difficulty>
+    </nugget>
+    <nugget>
+      <name>ypUnknownMinerRescueTeam</name>
+      <type>GiveTech</type>
+      <teamnugget>1</teamnugget>
+      <nuggetunit>ypNuggetCaveAsian</nuggetunit>
+      <rolloverstringid>90929</rolloverstringid>
+      <applystringid>90930</applystringid>
+      <tech>DEUnknownTeamMiner</tech>
+      <maptype>borneo</maptype>
+      <maptype>japan</maptype>
+      <maptype>mongolia</maptype>
+      <maptype>yellowRiver</maptype>
+      <maptype>deccan</maptype>
+      <maptype>silkRoad3</maptype>
       <guardian>deGuardBucCaptain</guardian>
       <guardian>deGuardBucCaptain</guardian>
       <guardian>deGuardBucCaptain</guardian>
@@ -12717,6 +12855,28 @@
       <difficulty>12346</difficulty>
     </nugget>
     <nugget>
+      <name>ypUnknownLouisianaPurchase</name>
+      <type>GiveTech</type>
+      <teamnugget>1</teamnugget>
+      <nuggetunit>ypNuggetCaveAsian</nuggetunit>
+      <rolloverstringid>90955</rolloverstringid>
+      <applystringid>90956</applystringid>
+      <tech>DEUnknownLouisianaNugget</tech>
+      <maptype>borneo</maptype>
+      <maptype>japan</maptype>
+      <maptype>mongolia</maptype>
+      <maptype>yellowRiver</maptype>
+      <maptype>deccan</maptype>
+      <maptype>silkRoad3</maptype>
+      <guardian>deGuardBucCaptain</guardian>
+      <guardian>deGuardBucCaptain</guardian>
+      <guardian>deGuardBucCaptain</guardian>
+      <guardian>deGuardBucCaptain</guardian>
+      <guardian>deGuardBucCaptain</guardian>
+      <guardian>deGuardBucCaptain</guardian>
+      <difficulty>12346</difficulty>
+    </nugget>
+    <nugget>
       <name>UnknownProspectorCopper</name>
       <type>SpawnUnit</type>
       <nuggetunit>NuggetCave</nuggetunit>
@@ -12747,9 +12907,61 @@
       <difficulty>12345</difficulty>
     </nugget>
     <nugget>
+      <name>ypUnknownProspectorCopper</name>
+      <type>SpawnUnit</type>
+      <nuggetunit>NuggetCave</nuggetunit>
+      <rolloverstringid>90919</rolloverstringid>
+      <applystringid>90920</applystringid>
+      <unittype>deProspectorWagon</unittype>
+      <amount>1</amount>
+      <maptype>borneo</maptype>
+      <maptype>japan</maptype>
+      <maptype>mongolia</maptype>
+      <maptype>yellowRiver</maptype>
+      <maptype>deccan</maptype>
+      <maptype>silkRoad3</maptype>
+      <guardian>ypWokou</guardian>
+      <guardian>ypWokou</guardian>
+      <guardian>ypWokou</guardian>
+      <guardian>ypWokou</guardian>
+      <guardian>ypWokou</guardian>
+      <guardian>ypWokou</guardian>
+      <difficulty>12345</difficulty>
+    </nugget>
+    <nugget>
       <name>UnknownProspectorSilver</name>
       <type>SpawnUnit</type>
       <nuggetunit>NuggetCave</nuggetunit>
+      <rolloverstringid>90919</rolloverstringid>
+      <applystringid>90920</applystringid>
+      <unittype>deProspectorWagonSilver</unittype>
+      <amount>1</amount>
+      <maptype>historicalMaps</maptype>
+      <maptype>lostEU</maptype>
+      <maptype>centralEurope</maptype>
+      <maptype>northeastEurope</maptype>
+      <maptype>westEurope</maptype>
+      <maptype>eastEurope</maptype>
+      <maptype>mediEurope</maptype>
+      <maptype>mediSea</maptype>
+      <maptype>northEurope</maptype>
+      <maptype>greatPlains</maptype>
+      <maptype>sonora</maptype>
+      <maptype>andes</maptype>
+      <maptype>plymouth</maptype>
+      <maptype>carolina</maptype>
+      <maptype>saguenay</maptype>
+      <guardian>OutlawRifleman</guardian>
+      <guardian>OutlawRifleman</guardian>
+      <guardian>OutlawRider</guardian>
+      <guardian>OutlawRider</guardian>
+      <guardian>OutlawRider</guardian>
+      <difficulty>12345</difficulty>
+    </nugget>
+    <nugget>
+      <name>ypUnknownProspectorSilver</name>
+      <type>SpawnUnit</type>
+      <nuggetunit>ypNuggetCaveAsian</nuggetunit>
       <rolloverstringid>90919</rolloverstringid>
       <applystringid>90920</applystringid>
       <unittype>deProspectorWagonSilver</unittype>
@@ -12758,6 +12970,7 @@
       <maptype>japan</maptype>
       <maptype>mongolia</maptype>
       <maptype>yellowRiver</maptype>
+      <maptype>deccan</maptype>
       <guardian>ypWanderingHorseman</guardian>
       <guardian>ypWanderingHorseman</guardian>
       <guardian>ypWanderingHorseman</guardian>
@@ -12790,6 +13003,22 @@
       <maptype>horn</maptype>
       <maptype>pepperCoast</maptype>
       <maptype>nileriver</maptype>
+      <guardian>deGuardBucCaptain</guardian>
+      <guardian>deGuardBucCaptain</guardian>
+      <guardian>deGuardBucCaptain</guardian>
+      <guardian>deGuardBucCaptain</guardian>
+      <guardian>deGuardBucCaptain</guardian>
+      <guardian>deGuardBucCaptain</guardian>
+      <difficulty>12345</difficulty>
+    </nugget>
+    <nugget>
+      <name>ypUnknownProspectorGold</name>
+      <type>SpawnUnit</type>
+      <nuggetunit>ypNuggetCaveAsian</nuggetunit>
+      <rolloverstringid>90919</rolloverstringid>
+      <applystringid>90920</applystringid>
+      <unittype>deProspectorWagonGold</unittype>
+      <amount>1</amount>
       <maptype>borneo</maptype>
       <maptype>japan</maptype>
       <maptype>mongolia</maptype>
@@ -12803,7 +13032,7 @@
       <difficulty>12345</difficulty>
     </nugget>
     <nugget>
-      <name>ypUnknownProspectorGold</name>
+      <name>dekkanUnknownProspectorGold</name>
       <type>SpawnUnit</type>
       <nuggetunit>NuggetCave</nuggetunit>
       <rolloverstringid>90919</rolloverstringid>
@@ -12879,10 +13108,9 @@
       <maptype>horn</maptype>
       <maptype>pepperCoast</maptype>
       <maptype>nileriver</maptype>
+      <maptype>sahara</maptype>
       <guardian>deGuardianCaravanBandit</guardian>
       <guardian>deGuardianCaravanBandit</guardian>
-      <guardian>deGuardianCaravanBandit</guardian>
-      <guardian>deGuardianCamelRaider</guardian>
       <guardian>deGuardianCamelRaider</guardian>
       <guardian>deGuardianCamelRaider</guardian>
       <difficulty>12345</difficulty>
@@ -12940,6 +13168,19 @@
       <maptype>andes</maptype>
       <guardian>Alligator</guardian>
       <guardian>Alligator</guardian>
+      <difficulty>13</difficulty>
+    </nugget>
+    <nugget>
+      <name>himalUnknown0</name>
+      <nuggetunit>NuggetDroppedSupplies</nuggetunit>
+      <type>AdjustResource</type>
+      <rolloverstringid>90905</rolloverstringid>
+      <applystringid>90906</applystringid>
+      <resource>XP</resource>
+      <amount>100</amount>
+      <maptype>silkRoad3</maptype>
+      <guardian>ypSnowMonkey</guardian>
+      <guardian>ypSnowMonkey</guardian>
       <difficulty>13</difficulty>
     </nugget>
     <nugget>
@@ -13032,6 +13273,19 @@
       <difficulty>13</difficulty>
     </nugget>
     <nugget>
+      <name>himalUnknown1</name>
+      <nuggetunit>NuggetDroppedSupplies</nuggetunit>
+      <type>AdjustResource</type>
+      <rolloverstringid>90905</rolloverstringid>
+      <applystringid>90906</applystringid>
+      <resource>Food</resource>
+      <amount>100</amount>
+      <maptype>silkRoad3</maptype>
+      <guardian>ypSnowMonkey</guardian>
+      <guardian>ypSnowMonkey</guardian>
+      <difficulty>13</difficulty>
+    </nugget>
+    <nugget>
       <name>ypUnknown1</name>
       <nuggetunit>NuggetDroppedSupplies</nuggetunit>
       <type>AdjustResource</type>
@@ -13121,6 +13375,19 @@
       <difficulty>13</difficulty>
     </nugget>
     <nugget>
+      <name>himalUnknown2</name>
+      <nuggetunit>NuggetDroppedSupplies</nuggetunit>
+      <type>AdjustResource</type>
+      <rolloverstringid>90905</rolloverstringid>
+      <applystringid>90906</applystringid>
+      <resource>Wood</resource>
+      <amount>100</amount>
+      <maptype>silkRoad3</maptype>
+      <guardian>ypSnowMonkey</guardian>
+      <guardian>ypSnowMonkey</guardian>
+      <difficulty>13</difficulty>
+    </nugget>
+    <nugget>
       <name>ypUnknown2</name>
       <nuggetunit>NuggetDroppedSupplies</nuggetunit>
       <type>AdjustResource</type>
@@ -13207,6 +13474,19 @@
       <maptype>andes</maptype>
       <guardian>Alligator</guardian>
       <guardian>Alligator</guardian>
+      <difficulty>13</difficulty>
+    </nugget>
+    <nugget>
+      <name>himalUnknown3</name>
+      <nuggetunit>NuggetDroppedSupplies</nuggetunit>
+      <type>AdjustResource</type>
+      <rolloverstringid>90905</rolloverstringid>
+      <applystringid>90906</applystringid>
+      <resource>Gold</resource>
+      <amount>100</amount>
+      <maptype>silkRoad3</maptype>
+      <guardian>ypSnowMonkey</guardian>
+      <guardian>ypSnowMonkey</guardian>
       <difficulty>13</difficulty>
     </nugget>
     <nugget>
@@ -13302,6 +13582,21 @@
       <maptype>andes</maptype>
       <guardian>Alligator</guardian>
       <guardian>Alligator</guardian>
+      <difficulty>13</difficulty>
+    </nugget>
+    <nugget>
+      <name>himalUnknown4</name>
+      <nuggetunit>NuggetDroppedSupplies</nuggetunit>
+      <type>AdjustResource</type>
+      <rolloverstringid>90905</rolloverstringid>
+      <applystringid>90907</applystringid>
+      <resource>XP</resource>
+      <amount>50</amount>
+      <resource2>Gold</resource2>
+      <amount2>50</amount2>
+      <maptype>silkRoad3</maptype>
+      <guardian>ypSnowMonkey</guardian>
+      <guardian>ypSnowMonkey</guardian>
       <difficulty>13</difficulty>
     </nugget>
     <nugget>
@@ -13404,6 +13699,21 @@
       <difficulty>13</difficulty>
     </nugget>
     <nugget>
+      <name>himalUnknown5</name>
+      <nuggetunit>NuggetDroppedSupplies</nuggetunit>
+      <type>AdjustResource</type>
+      <rolloverstringid>90905</rolloverstringid>
+      <applystringid>90907</applystringid>
+      <resource>XP</resource>
+      <amount>50</amount>
+      <resource2>Wood</resource2>
+      <amount2>50</amount2>
+      <maptype>silkRoad3</maptype>
+      <guardian>ypSnowMonkey</guardian>
+      <guardian>ypSnowMonkey</guardian>
+      <difficulty>13</difficulty>
+    </nugget>
+    <nugget>
       <name>ypUnknown5</name>
       <nuggetunit>NuggetDroppedSupplies</nuggetunit>
       <type>AdjustResource</type>
@@ -13500,6 +13810,21 @@
       <maptype>andes</maptype>
       <guardian>Alligator</guardian>
       <guardian>Alligator</guardian>
+      <difficulty>13</difficulty>
+    </nugget>
+    <nugget>
+      <name>himalUnknown6</name>
+      <nuggetunit>NuggetDroppedSupplies</nuggetunit>
+      <type>AdjustResource</type>
+      <rolloverstringid>90905</rolloverstringid>
+      <applystringid>90907</applystringid>
+      <resource>XP</resource>
+      <amount>50</amount>
+      <resource2>Food</resource2>
+      <amount2>50</amount2>
+      <maptype>silkRoad3</maptype>
+      <guardian>ypSnowMonkey</guardian>
+      <guardian>ypSnowMonkey</guardian>
       <difficulty>13</difficulty>
     </nugget>
     <nugget>
@@ -13602,6 +13927,21 @@
       <difficulty>13</difficulty>
     </nugget>
     <nugget>
+      <name>himalUnknown7</name>
+      <nuggetunit>NuggetDroppedSupplies</nuggetunit>
+      <type>AdjustResource</type>
+      <rolloverstringid>90905</rolloverstringid>
+      <applystringid>90907</applystringid>
+      <resource>Gold</resource>
+      <amount>50</amount>
+      <resource2>Wood</resource2>
+      <amount2>50</amount2>
+      <maptype>silkRoad3</maptype>
+      <guardian>ypSnowMonkey</guardian>
+      <guardian>ypSnowMonkey</guardian>
+      <difficulty>13</difficulty>
+    </nugget>
+    <nugget>
       <name>ypUnknown7</name>
       <nuggetunit>NuggetDroppedSupplies</nuggetunit>
       <type>AdjustResource</type>
@@ -13698,6 +14038,21 @@
       <maptype>andes</maptype>
       <guardian>Alligator</guardian>
       <guardian>Alligator</guardian>
+      <difficulty>13</difficulty>
+    </nugget>
+    <nugget>
+      <name>himalUnknown8</name>
+      <nuggetunit>NuggetDroppedSupplies</nuggetunit>
+      <type>AdjustResource</type>
+      <rolloverstringid>90905</rolloverstringid>
+      <applystringid>90907</applystringid>
+      <resource>Gold</resource>
+      <amount>50</amount>
+      <resource2>Food</resource2>
+      <amount2>50</amount2>
+      <maptype>silkRoad3</maptype>
+      <guardian>ypSnowMonkey</guardian>
+      <guardian>ypSnowMonkey</guardian>
       <difficulty>13</difficulty>
     </nugget>
     <nugget>
@@ -13800,6 +14155,21 @@
       <difficulty>13</difficulty>
     </nugget>
     <nugget>
+      <name>himalUnknown9</name>
+      <nuggetunit>NuggetDroppedSupplies</nuggetunit>
+      <type>AdjustResource</type>
+      <rolloverstringid>90905</rolloverstringid>
+      <applystringid>90907</applystringid>
+      <resource>Food</resource>
+      <amount>50</amount>
+      <resource2>Wood</resource2>
+      <amount2>50</amount2>
+      <maptype>silkRoad3</maptype>
+      <guardian>ypSnowMonkey</guardian>
+      <guardian>ypSnowMonkey</guardian>
+      <difficulty>13</difficulty>
+    </nugget>
+    <nugget>
       <name>ypUnknown9</name>
       <nuggetunit>NuggetDroppedSupplies</nuggetunit>
       <type>AdjustResource</type>
@@ -13896,6 +14266,21 @@
       <guardian>Alligator</guardian>
       <guardian>Alligator</guardian>
       <guardian>Alligator</guardian>
+      <difficulty>14</difficulty>
+    </nugget>
+    <nugget>
+      <name>himalUnknown1Team</name>
+      <nuggetunit>NuggetDroppedSupplies</nuggetunit>
+      <teamnugget>1</teamnugget>
+      <type>AdjustResource</type>
+      <rolloverstringid>90913</rolloverstringid>
+      <applystringid>90914</applystringid>
+      <resource>Wood</resource>
+      <amount>100</amount>
+      <maptype>silkRoad3</maptype>
+      <guardian>ypSnowMonkey</guardian>
+      <guardian>ypSnowMonkey</guardian>
+      <guardian>ypSnowMonkey</guardian>
       <difficulty>14</difficulty>
     </nugget>
     <nugget>
@@ -13998,6 +14383,21 @@
       <difficulty>14</difficulty>
     </nugget>
     <nugget>
+      <name>himalUnknown2Team</name>
+      <nuggetunit>NuggetDroppedSupplies</nuggetunit>
+      <teamnugget>1</teamnugget>
+      <type>AdjustResource</type>
+      <rolloverstringid>90913</rolloverstringid>
+      <applystringid>90914</applystringid>
+      <resource>Food</resource>
+      <amount>100</amount>
+      <maptype>silkRoad3</maptype>
+      <guardian>ypSnowMonkey</guardian>
+      <guardian>ypSnowMonkey</guardian>
+      <guardian>ypSnowMonkey</guardian>
+      <difficulty>14</difficulty>
+    </nugget>
+    <nugget>
       <name>ypUnknown2Team</name>
       <nuggetunit>NuggetDroppedSupplies</nuggetunit>
       <teamnugget>1</teamnugget>
@@ -14097,6 +14497,21 @@
       <difficulty>14</difficulty>
     </nugget>
     <nugget>
+      <name>himalUnknown3Team</name>
+      <nuggetunit>NuggetDroppedSupplies</nuggetunit>
+      <teamnugget>1</teamnugget>
+      <type>AdjustResource</type>
+      <rolloverstringid>90913</rolloverstringid>
+      <applystringid>90914</applystringid>
+      <resource>Gold</resource>
+      <amount>100</amount>
+      <maptype>silkRoad3</maptype>
+      <guardian>ypSnowMonkey</guardian>
+      <guardian>ypSnowMonkey</guardian>
+      <guardian>ypSnowMonkey</guardian>
+      <difficulty>14</difficulty>
+    </nugget>
+    <nugget>
       <name>ypUnknown3Team</name>
       <nuggetunit>NuggetDroppedSupplies</nuggetunit>
       <teamnugget>1</teamnugget>
@@ -14193,6 +14608,21 @@
       <guardian>Alligator</guardian>
       <guardian>Alligator</guardian>
       <guardian>Alligator</guardian>
+      <difficulty>14</difficulty>
+    </nugget>
+    <nugget>
+      <name>himalUnknown4Team</name>
+      <nuggetunit>NuggetDroppedSupplies</nuggetunit>
+      <teamnugget>1</teamnugget>
+      <type>AdjustResource</type>
+      <rolloverstringid>90913</rolloverstringid>
+      <applystringid>90914</applystringid>
+      <resource>XP</resource>
+      <amount>100</amount>
+      <maptype>silkRoad3</maptype>
+      <guardian>ypSnowMonkey</guardian>
+      <guardian>ypSnowMonkey</guardian>
+      <guardian>ypSnowMonkey</guardian>
       <difficulty>14</difficulty>
     </nugget>
     <nugget>
@@ -14298,6 +14728,23 @@
       <guardian>Alligator</guardian>
       <guardian>Alligator</guardian>
       <guardian>Alligator</guardian>
+      <difficulty>14</difficulty>
+    </nugget>
+    <nugget>
+      <name>himalUnknown5Team</name>
+      <nuggetunit>NuggetDroppedSupplies</nuggetunit>
+      <teamnugget>1</teamnugget>
+      <type>AdjustResource</type>
+      <rolloverstringid>90913</rolloverstringid>
+      <applystringid>90915</applystringid>
+      <resource>XP</resource>
+      <amount>50</amount>
+      <resource2>Gold</resource2>
+      <amount2>50</amount2>
+      <maptype>silkRoad3</maptype>
+      <guardian>ypSnowMonkey</guardian>
+      <guardian>ypSnowMonkey</guardian>
+      <guardian>ypSnowMonkey</guardian>
       <difficulty>14</difficulty>
     </nugget>
     <nugget>
@@ -14410,6 +14857,23 @@
       <difficulty>14</difficulty>
     </nugget>
     <nugget>
+      <name>himalUnknown6Team</name>
+      <nuggetunit>NuggetDroppedSupplies</nuggetunit>
+      <teamnugget>1</teamnugget>
+      <type>AdjustResource</type>
+      <rolloverstringid>90913</rolloverstringid>
+      <applystringid>90915</applystringid>
+      <resource>Wood</resource>
+      <amount>50</amount>
+      <resource2>XP</resource2>
+      <amount2>50</amount2>
+      <maptype>silkRoad3</maptype>
+      <guardian>ypSnowMonkey</guardian>
+      <guardian>ypSnowMonkey</guardian>
+      <guardian>ypSnowMonkey</guardian>
+      <difficulty>14</difficulty>
+    </nugget>
+    <nugget>
       <name>ypUnknown6Team</name>
       <nuggetunit>NuggetDroppedSupplies</nuggetunit>
       <teamnugget>1</teamnugget>
@@ -14516,6 +14980,23 @@
       <guardian>Alligator</guardian>
       <guardian>Alligator</guardian>
       <guardian>Alligator</guardian>
+      <difficulty>14</difficulty>
+    </nugget>
+    <nugget>
+      <name>himalUnknown7Team</name>
+      <nuggetunit>NuggetDroppedSupplies</nuggetunit>
+      <teamnugget>1</teamnugget>
+      <type>AdjustResource</type>
+      <rolloverstringid>90913</rolloverstringid>
+      <applystringid>90915</applystringid>
+      <resource>Food</resource>
+      <amount>50</amount>
+      <resource2>XP</resource2>
+      <amount2>50</amount2>
+      <maptype>silkRoad3</maptype>
+      <guardian>ypSnowMonkey</guardian>
+      <guardian>ypSnowMonkey</guardian>
+      <guardian>ypSnowMonkey</guardian>
       <difficulty>14</difficulty>
     </nugget>
     <nugget>
@@ -14628,6 +15109,23 @@
       <difficulty>14</difficulty>
     </nugget>
     <nugget>
+      <name>himalUnknown8Team</name>
+      <nuggetunit>NuggetDroppedSupplies</nuggetunit>
+      <teamnugget>1</teamnugget>
+      <type>AdjustResource</type>
+      <rolloverstringid>90913</rolloverstringid>
+      <applystringid>90915</applystringid>
+      <resource>Food</resource>
+      <amount>50</amount>
+      <resource2>Gold</resource2>
+      <amount2>50</amount2>
+      <maptype>silkRoad3</maptype>
+      <guardian>ypSnowMonkey</guardian>
+      <guardian>ypSnowMonkey</guardian>
+      <guardian>ypSnowMonkey</guardian>
+      <difficulty>14</difficulty>
+    </nugget>
+    <nugget>
       <name>ypUnknown8Team</name>
       <nuggetunit>NuggetDroppedSupplies</nuggetunit>
       <teamnugget>1</teamnugget>
@@ -14737,6 +15235,23 @@
       <difficulty>14</difficulty>
     </nugget>
     <nugget>
+      <name>himalUnknown9Team</name>
+      <nuggetunit>NuggetDroppedSupplies</nuggetunit>
+      <teamnugget>1</teamnugget>
+      <type>AdjustResource</type>
+      <rolloverstringid>90913</rolloverstringid>
+      <applystringid>90915</applystringid>
+      <resource>Food</resource>
+      <amount>50</amount>
+      <resource2>Wood</resource2>
+      <amount2>50</amount2>
+      <maptype>silkRoad3</maptype>
+      <guardian>ypSnowMonkey</guardian>
+      <guardian>ypSnowMonkey</guardian>
+      <guardian>ypSnowMonkey</guardian>
+      <difficulty>14</difficulty>
+    </nugget>
+    <nugget>
       <name>ypUnknown9Team</name>
       <nuggetunit>NuggetDroppedSupplies</nuggetunit>
       <teamnugget>1</teamnugget>
@@ -14777,6 +15292,182 @@
       <guardian>deBaboon</guardian>
       <guardian>deBaboon</guardian>
       <difficulty>14</difficulty>
+    </nugget>
+    <nugget>
+      <name>naUnknown0Team</name>
+      <nuggetunit>NuggetDroppedSupplies</nuggetunit>
+      <teamnugget>1</teamnugget>
+      <type>AdjustResource</type>
+      <rolloverstringid>90913</rolloverstringid>
+      <applystringid>90915</applystringid>
+      <resource>Gold</resource>
+      <amount>50</amount>
+      <resource2>Wood</resource2>
+      <amount2>50</amount2>
+      <maptype>plymouth</maptype>
+      <maptype>california</maptype>
+      <maptype>greatPlains</maptype>
+      <maptype>carolina</maptype>
+      <maptype>sonora</maptype>
+      <maptype>yukon</maptype>
+      <maptype>saguenay</maptype>
+      <guardian>Coyote</guardian>
+      <guardian>Coyote</guardian>
+      <guardian>Coyote</guardian>
+      <difficulty>14</difficulty>
+    </nugget>
+    <nugget>
+      <name>euUnknown0Team</name>
+      <nuggetunit>NuggetDroppedSupplies</nuggetunit>
+      <teamnugget>1</teamnugget>
+      <type>AdjustResource</type>
+      <rolloverstringid>90913</rolloverstringid>
+      <applystringid>90915</applystringid>
+      <resource>Gold</resource>
+      <amount>50</amount>
+      <resource2>Wood</resource2>
+      <amount2>50</amount2>
+      <maptype>historicalMaps</maptype>
+      <maptype>lostEU</maptype>
+      <maptype>centralEurope</maptype>
+      <maptype>northeastEurope</maptype>
+      <maptype>westEurope</maptype>
+      <maptype>eastEurope</maptype>
+      <maptype>mediEurope</maptype>
+      <maptype>mediSea</maptype>
+      <maptype>northEurope</maptype>
+      <guardian>deGuardianHaramija</guardian>
+      <guardian>deGuardianHaramija</guardian>
+      <guardian>deGuardianHaramija</guardian>
+      <difficulty>14</difficulty>
+    </nugget>
+    <nugget>
+      <name>saUnknown0Team</name>
+      <nuggetunit>NuggetDroppedSupplies</nuggetunit>
+      <teamnugget>1</teamnugget>
+      <type>AdjustResource</type>
+      <rolloverstringid>90913</rolloverstringid>
+      <applystringid>90915</applystringid>
+      <resource>Gold</resource>
+      <amount>50</amount>
+      <resource2>Wood</resource2>
+      <amount2>50</amount2>
+      <maptype>caribbean</maptype>
+      <maptype>bayou</maptype>
+      <maptype>andes</maptype>
+      <guardian>Alligator</guardian>
+      <guardian>Alligator</guardian>
+      <guardian>Alligator</guardian>
+      <difficulty>14</difficulty>
+    </nugget>
+    <nugget>
+      <name>himalUnknown0Team</name>
+      <nuggetunit>NuggetDroppedSupplies</nuggetunit>
+      <teamnugget>1</teamnugget>
+      <type>AdjustResource</type>
+      <rolloverstringid>90913</rolloverstringid>
+      <applystringid>90915</applystringid>
+      <resource>Gold</resource>
+      <amount>50</amount>
+      <resource2>Wood</resource2>
+      <amount2>50</amount2>
+      <maptype>silkRoad3</maptype>
+      <guardian>ypSnowMonkey</guardian>
+      <guardian>ypSnowMonkey</guardian>
+      <guardian>ypSnowMonkey</guardian>
+      <difficulty>14</difficulty>
+    </nugget>
+    <nugget>
+      <name>ypUnknown0Team</name>
+      <nuggetunit>NuggetDroppedSupplies</nuggetunit>
+      <teamnugget>1</teamnugget>
+      <type>AdjustResource</type>
+      <rolloverstringid>90913</rolloverstringid>
+      <applystringid>90915</applystringid>
+      <resource>Gold</resource>
+      <amount>50</amount>
+      <resource2>Wood</resource2>
+      <amount2>50</amount2>
+      <maptype>borneo</maptype>
+      <maptype>japan</maptype>
+      <maptype>mongolia</maptype>
+      <maptype>yellowRiver</maptype>
+      <maptype>deccan</maptype>
+      <guardian>ypMonitorLizard</guardian>
+      <guardian>ypMonitorLizard</guardian>
+      <guardian>ypMonitorLizard</guardian>
+      <difficulty>14</difficulty>
+    </nugget>
+    <nugget>
+      <name>afUnknown0Team</name>
+      <nuggetunit>NuggetDroppedSupplies</nuggetunit>
+      <teamnugget>1</teamnugget>
+      <type>AdjustResource</type>
+      <rolloverstringid>90913</rolloverstringid>
+      <applystringid>90915</applystringid>
+      <resource>Gold</resource>
+      <amount>50</amount>
+      <resource2>Wood</resource2>
+      <amount2>50</amount2>
+      <maptype>greatRift</maptype>
+      <maptype>horn</maptype>
+      <maptype>pepperCoast</maptype>
+      <maptype>nileriver</maptype>
+      <maptype>sahara</maptype>
+      <guardian>deBaboon</guardian>
+      <guardian>deBaboon</guardian>
+      <guardian>deBaboon</guardian>
+      <difficulty>14</difficulty>
+    </nugget>
+    <nugget>
+      <name>euUnknownBatteryTowerCapturable</name>
+      <type>SpawnUnit</type>
+      <nuggetunit>euNuggetRuinedTower</nuggetunit>
+      <rolloverstringid>102270</rolloverstringid>
+      <applystringid>102271</applystringid>
+      <unittype>deSPCTowerCapturable</unittype>
+      <amount>1</amount>
+      <difficulty>121</difficulty>
+      <guardian>deGuardianBoar</guardian>
+      <guardian>deGuardianBrigand</guardian>
+      <guardian>deGuardianCuirassier</guardian>
+      <guardian>deGuardianElmeti</guardian>
+      <maptype>historicalMaps</maptype>
+      <maptype>lostEU</maptype>
+      <maptype>Finland</maptype>
+      <maptype>northEurope</maptype>
+      <maptype>northeastEurope</maptype>
+      <maptype>westEurope</maptype>
+      <maptype>mediEurope</maptype>
+      <maptype>mediSea</maptype>
+      <maptype>centralEurope</maptype>
+      <maptype>Iceland</maptype>
+      <maptype>Steppe1</maptype>
+      <maptype>Steppe2</maptype>
+      <maptype>Steppe3</maptype>
+      <maptype>eastEurope</maptype>
+      <maptype>Wallachia</maptype>
+      <maptype>mediTurkishWar</maptype>
+      <maptype>westNapoleon</maptype>
+    </nugget>
+    <nugget>
+      <name>ypUnknownAsianOutpost</name>
+      <type>SpawnUnit</type>
+      <nuggetunit>ypNuggetAbandonedTower</nuggetunit>
+      <rolloverstringid>102270</rolloverstringid>
+      <applystringid>102271</applystringid>
+      <unittype>deOutpostAsianTreasure</unittype>
+      <amount>1</amount>
+      <difficulty>121</difficulty>
+      <guardian>ypWaywardRonin</guardian>
+      <guardian>ypWokou</guardian>
+      <guardian>ypWanderingHorseman</guardian>
+      <guardian>ypBlindMonk</guardian>
+      <maptype>borneo</maptype>
+      <maptype>mongolia</maptype>
+      <maptype>yellowRiver</maptype>
+      <maptype>deccan</maptype>
+      <maptype>silkRoad3</maptype>
     </nugget>
     <nugget>
       <name>ypWaterNuggetDriftwood</name>
@@ -16123,9 +16814,7 @@
       <nuggetunit>NuggetDroppedFood</nuggetunit>
       <type>adjustResource</type>
       <resource>Food</resource>
-      <amount>50</amount>
-      <maptype>Iceland</maptype>
-      <maptype>Finland</maptype>
+      <amount>35</amount>
       <maptype>Steppe1</maptype>
       <maptype>Steppe2</maptype>
       <maptype>Steppe3</maptype>
@@ -16157,7 +16846,7 @@
       <nuggetunit>NuggetDroppedFood</nuggetunit>
       <type>adjustResource</type>
       <resource>Food</resource>
-      <amount>30</amount>
+      <amount>35</amount>
       <maptype>Iceland</maptype>
       <maptype>Finland</maptype>
       <maptype>Wallachia</maptype>
@@ -16165,6 +16854,7 @@
       <maptype>northeastEurope</maptype>
       <maptype>eastEurope</maptype>
       <maptype>historicalMaps</maptype>
+      <guardian>deGuardianWildDog</guardian>
       <difficulty>1</difficulty>
     </nugget>
     <nugget>
@@ -16179,6 +16869,7 @@
       <maptype>westEurope</maptype>
       <maptype>historicalMaps</maptype>
       <maptype>westNapoleon</maptype>
+      <guardian>Coyote</guardian>
       <difficulty>1</difficulty>
     </nugget>
     <nugget>
@@ -16450,7 +17141,7 @@
       <guardian>deGuardianJaeger</guardian>
       <guardian>deGuardianJaeger</guardian>
       <guardian>deGuardianJaeger</guardian>
-      <guardian>deGuardianLandsknecht</guardian>
+      <guardian>deGuardianJaeger</guardian>
       <guardian>deGuardianLandsknecht</guardian>
       <guardian>deGuardianLandsknecht</guardian>
       <difficulty>4</difficulty>
@@ -16674,7 +17365,7 @@
       <nuggetunit>NuggetDroppedWood</nuggetunit>
       <type>AdjustResource</type>
       <resource>Wood</resource>
-      <amount>150</amount>
+      <amount>165</amount>
       <rolloverstringid>124218</rolloverstringid>
       <applystringid>124219</applystringid>
       <maptype>historicalMaps</maptype>
@@ -16682,8 +17373,8 @@
       <maptype>Wallachia</maptype>
       <maptype>eastEurope</maptype>
       <guardian>deGuardianHussar</guardian>
-      <guardian>deGuardianSkirmisher</guardian>
-      <guardian>deGuardianSkirmisher</guardian>
+      <guardian>deGuardianHussar</guardian>
+      <guardian>deGuardianHussar</guardian>
       <difficulty>3</difficulty>
     </nugget>
     <nugget>
@@ -16761,7 +17452,7 @@
       <nuggetunit>NuggetDroppedWood</nuggetunit>
       <type>AdjustResource</type>
       <resource>Wood</resource>
-      <amount>350</amount>
+      <amount>300</amount>
       <rolloverstringid>124218</rolloverstringid>
       <applystringid>124219</applystringid>
       <maptype>historicalMaps</maptype>
@@ -16779,7 +17470,7 @@
       <guardian>deGuardianHussar</guardian>
       <guardian>deGuardianHussar</guardian>
       <guardian>deGuardianHussar</guardian>
-      <guardian>deGuardianSkirmisher</guardian>
+      <guardian>deGuardianHussar</guardian>
       <guardian>deGuardianSkirmisher</guardian>
       <guardian>deGuardianSkirmisher</guardian>
       <difficulty>4</difficulty>
@@ -17001,7 +17692,7 @@
       <nuggetunit>NuggetDroppedCoin</nuggetunit>
       <type>AdjustResource</type>
       <resource>Gold</resource>
-      <amount>80</amount>
+      <amount>60</amount>
       <rolloverstringid>124222</rolloverstringid>
       <applystringid>124223</applystringid>
       <maptype>historicalMaps</maptype>
@@ -17036,7 +17727,7 @@
       <rolloverstringid>124008</rolloverstringid>
       <applystringid>124009</applystringid>
       <resource>Gold</resource>
-      <amount>200</amount>
+      <amount>150</amount>
       <maptype>westNapoleon</maptype>
       <maptype>historicalMaps</maptype>
       <guardian>deGuardianLandsknecht</guardian>
@@ -17080,7 +17771,7 @@
       <nuggetunit>NuggetDroppedCoin</nuggetunit>
       <type>AdjustResource</type>
       <resource>Gold</resource>
-      <amount>135</amount>
+      <amount>125</amount>
       <rolloverstringid>124227</rolloverstringid>
       <applystringid>124228</applystringid>
       <maptype>historicalMaps</maptype>
@@ -17106,7 +17797,7 @@
       <maptype>eastEurope</maptype>
       <maptype>centralEurope</maptype>
       <maptype>historicalMaps</maptype>
-      <guardian>deGuardianLandsknecht</guardian>
+      <guardian>deGuardianCrabat</guardian>
       <guardian>deGuardianCrabat</guardian>
       <guardian>deGuardianCrabat</guardian>
       <difficulty>3</difficulty>
@@ -17209,7 +17900,7 @@
       <rolloverstringid>124106</rolloverstringid>
       <applystringid>124107</applystringid>
       <resource>Gold</resource>
-      <amount>40</amount>
+      <amount>20</amount>
       <resource2>Wood</resource2>
       <amount2>80</amount2>
       <maptype>Wallachia</maptype>
@@ -17317,6 +18008,8 @@
       <guardian>deGuardianPikeman</guardian>
       <guardian>deGuardianPikeman</guardian>
       <guardian>deGuardianPikeman</guardian>
+      <guardian>deGuardianSkirmisher</guardian>
+      <guardian>deGuardianSkirmisher</guardian>
       <guardian>deGuardianSkirmisher</guardian>
       <guardian>deGuardianSkirmisher</guardian>
       <difficulty>4</difficulty>
@@ -17624,15 +18317,15 @@
       <rolloverstringid>124006</rolloverstringid>
       <applystringid>124007</applystringid>
       <resource>XP</resource>
-      <amount>125</amount>
+      <amount>70</amount>
       <maptype>Wallachia</maptype>
       <maptype>mediEurope</maptype>
       <maptype>mediSea</maptype>
       <maptype>historicalMaps</maptype>
       <maptype>mediTurkishWar</maptype>
       <maptype>westNapoleon</maptype>
-      <guardian>deGuardianHussar</guardian>
-      <guardian>deGuardianHussar</guardian>
+      <guardian>deGuardianSkirmisher</guardian>
+      <guardian>deGuardianSkirmisher</guardian>
       <difficulty>2</difficulty>
     </nugget>
     <nugget>
@@ -17656,11 +18349,11 @@
       <nuggetunit>euNuggetBooksSmall</nuggetunit>
       <type>adjustResource</type>
       <resource>XP</resource>
-      <amount>135</amount>
+      <amount>115</amount>
       <maptype>eastEurope</maptype>
       <maptype>historicalMaps</maptype>
       <guardian>deGuardianCrabat</guardian>
-      <guardian>deGuardianHussar</guardian>
+      <guardian>deGuardianCrabat</guardian>
       <difficulty>2</difficulty>
     </nugget>
     <nugget>
@@ -17691,13 +18384,13 @@
       <nuggetunit>NuggetDroppedSupplies</nuggetunit>
       <type>adjustResource</type>
       <resource>XP</resource>
-      <amount>85</amount>
+      <amount>80</amount>
       <maptype>mediEurope</maptype>
       <maptype>mediSea</maptype>
       <maptype>historicalMaps</maptype>
       <maptype>mediTurkishWar</maptype>
-      <guardian>deGuardianPlagueDoctor</guardian>
-      <guardian>deGuardianPlagueDoctor</guardian>
+      <guardian>deGuardianWitchHunter</guardian>
+      <guardian>deGuardianWitchHunter</guardian>
       <difficulty>2</difficulty>
     </nugget>
     <nugget>
@@ -17816,7 +18509,6 @@
       <maptype>Wallachia</maptype>
       <maptype>Steppe1</maptype>
       <maptype>historicalMaps</maptype>
-      <guardian>deGuardianLandsknecht</guardian>
       <guardian>deGuardianLandsknecht</guardian>
       <guardian>deGuardianLandsknecht</guardian>
       <difficulty>3</difficulty>
@@ -17954,7 +18646,7 @@
       <nuggetunit>NuggetDroppedSupplies</nuggetunit>
       <type>adjustResource</type>
       <resource>XP</resource>
-      <amount>200</amount>
+      <amount>150</amount>
       <maptype>historicalMaps</maptype>
       <maptype>centralEurope</maptype>
       <maptype>westEurope</maptype>
@@ -18013,7 +18705,7 @@
       <nuggetunit>NuggetDroppedSupplies</nuggetunit>
       <type>adjustResource</type>
       <resource>XP</resource>
-      <amount>500</amount>
+      <amount>365</amount>
       <maptype>Wallachia</maptype>
       <maptype>eastEurope</maptype>
       <maptype>mediEurope</maptype>
@@ -18024,7 +18716,6 @@
       <guardian>deGuardianMusketeer</guardian>
       <guardian>deGuardianSkirmisher</guardian>
       <guardian>deGuardianSkirmisher</guardian>
-      <guardian>deGuardianHussar</guardian>
       <guardian>deGuardianHussar</guardian>
       <guardian>deGuardianHussar</guardian>
       <difficulty>4</difficulty>
@@ -18100,13 +18791,13 @@
       <nuggetunit>euNuggetBooksSmall</nuggetunit>
       <type>adjustResource</type>
       <resource>XP</resource>
-      <amount>350</amount>
+      <amount>300</amount>
       <maptype>historicalMaps</maptype>
       <maptype>eastEurope</maptype>
       <guardian>deGuardianCrabat</guardian>
-      <guardian>deGuardianHussar</guardian>
       <guardian>deGuardianCrabat</guardian>
-      <guardian>deGuardianHussar</guardian>
+      <guardian>deGuardianCrabat</guardian>
+      <guardian>deGuardianCrabat</guardian>
       <difficulty>4</difficulty>
     </nugget>
     <nugget>
@@ -18494,6 +19185,80 @@
       </guardianunit>
       <guardian>deGuardianBeastOfGevaudan</guardian>
       <guardian>Wolf</guardian>
+      <killunitonapply>0</killunitonapply>
+      <difficulty>3</difficulty>
+    </nugget>
+    <nugget>
+      <name>euNatRoyalHunter</name>
+      <type>ConvertUnit</type>
+      <nuggetunit>NuggetWolfTreebent</nuggetunit>
+      <rolloverstringid>36940</rolloverstringid>
+      <applystringid>36941</applystringid>
+      <icon>discover_villages</icon>
+      <maptype>northEurope</maptype>
+      <maptype>northeastEurope</maptype>
+      <maptype>eastEurope</maptype>
+      <convertunit>
+        <unit>deNatRoyalHuntsman</unit>
+        <idleanim>Wolf_Treebent_Captive_Idle</idleanim>
+        <exitanim>Wolf_Treebent_Captive_Exit</exitanim>
+        <attachdummy>bone_nuggetA</attachdummy>
+      </convertunit>
+      <guardianunit>
+        <unit>Wolf</unit>
+        <idleanim>Wolf_Treebent_Wolf_Idle</idleanim>
+        <exitanim>Wolf_Treebent_Wolf_Exit</exitanim>
+        <attachdummy>bone_nuggetB</attachdummy>
+      </guardianunit>
+      <guardianunit>
+        <unit>Wolf</unit>
+        <attachdummy>bone_nuggetC</attachdummy>
+      </guardianunit>
+      <guardianunit>
+        <unit>Wolf</unit>
+        <attachdummy>bone_nuggetD</attachdummy>
+      </guardianunit>
+      <guardianunit>
+        <unit>Wolf</unit>
+      </guardianunit>
+      <killunitonapply>0</killunitonapply>
+      <difficulty>3</difficulty>
+    </nugget>
+    <nugget>
+      <name>euNatRoyalHunter2</name>
+      <type>ConvertUnit</type>
+      <nuggetunit>NuggetWolfRock</nuggetunit>
+      <rolloverstringid>36940</rolloverstringid>
+      <applystringid>36941</applystringid>
+      <maptype>centralEurope</maptype>
+      <maptype>westEurope</maptype>
+      <convertunit>
+        <unit>deNatRoyalHuntsman</unit>
+        <idleanim>Nugget_rock_idle</idleanim>
+        <exitanim>Nugget_rock_exit</exitanim>
+        <attachdummy>bone_nuggetA</attachdummy>
+      </convertunit>
+      <guardianunit>
+        <unit>Wolf</unit>
+        <idleanim>Wolf_Treebent_Wolf_Idle</idleanim>
+        <exitanim>Wolf_Treebent_Wolf_Exit</exitanim>
+        <attachdummy>bone_nuggetA</attachdummy>
+      </guardianunit>
+      <guardianunit>
+        <unit>Wolf</unit>
+        <idleanim>Nugget_wolfA_idle</idleanim>
+        <exitanim>Nugget_wolfA_exit</exitanim>
+        <attachdummy>bone_nuggetB</attachdummy>
+      </guardianunit>
+      <guardianunit>
+        <unit>Wolf</unit>
+        <idleanim>Wolf_Wagon_WolfB_Idle</idleanim>
+        <exitanim>Wolf_Wagon_WolfB_Exit</exitanim>
+        <attachdummy>bone_nuggetD</attachdummy>
+      </guardianunit>
+      <guardianunit>
+        <unit>Wolf</unit>
+      </guardianunit>
       <killunitonapply>0</killunitonapply>
       <difficulty>3</difficulty>
     </nugget>

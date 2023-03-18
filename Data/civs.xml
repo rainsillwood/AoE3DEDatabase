@@ -3883,9 +3883,6 @@
     <alliedid>26446</alliedid>
     <alliedotherid>26445</alliedotherid>
     <unalliedid>26444</unalliedid>
-    <hcshipmentmodifier>1.001234</hcshipmentmodifier>
-    <hcshipmentgrowthmodifier>0.001234</hcshipmentgrowthmodifier>
-    <hcmaxshipmentmaxgrowthmodifier>10</hcmaxshipmentmaxgrowthmodifier>
     <additionalwonderbuildrate>0.091</additionalwonderbuildrate>
     <additionalwonderbuildrate>0.1</additionalwonderbuildrate>
     <additionalwonderbuildrate>0.111</additionalwonderbuildrate>
@@ -10277,6 +10274,7 @@
       <age4>1.00</age4>
     </empirewarsageuprates>
     <randomstartingunits>0</randomstartingunits>
+    <partisans>1</partisans>
     <homecityfilename>homecitymexicans.xml</homecityfilename>
     <usetwoheronames>
     </usetwoheronames>
@@ -10994,6 +10992,7 @@
     <alliedid>26446</alliedid>
     <alliedotherid>26445</alliedotherid>
     <unalliedid>26444</unalliedid>
+    <hcshipmentmodifier>1.020</hcshipmentmodifier>
     <herohclabelid>212012</herohclabelid>
     <agetech>
       <age>Age0</age>

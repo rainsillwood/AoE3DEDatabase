@@ -1032,6 +1032,13 @@
       <age>0</age>
     </card>
     <card>
+      <name>HCXPEconomicTheory</name>
+      <maxcount>1</maxcount>
+      <level>40</level>
+      <prereqtech>HCStonemasons</prereqtech>
+      <age>0</age>
+    </card>
+    <card>
       <name>HCShipCaravels1</name>
       <maxcount>-1</maxcount>
       <level>0</level>
@@ -1095,7 +1102,7 @@
       <maxcount>1</maxcount>
       <level>25</level>
       <prereqtech>HCAdmirality</prereqtech>
-      <age>1</age>
+      <age>2</age>
     </card>
     <card>
       <name>HCShipMonitors</name>
@@ -1261,6 +1268,15 @@
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>2</age>
+    </card>
+    <card>
+      <name>DEHCRussianBattleshipCard</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>3</age>
+      <infiniteinlastage>1</infiniteinlastage>
+      <displayunitcount>1</displayunitcount>
     </card>
     <card>
       <name>DEHCShipBattleshipRepeat</name>
@@ -1561,6 +1577,8 @@
         <card dbid="625">HCUnlockFactory</card>
         <card dbid="2288">HCShipStrelets2</card>
         <card dbid="2298">HCShipOprichniks1</card>
+        <card dbid="3461">HCXPNationalRedoubt</card>
+        <card dbid="10286">DEHCSovnya</card>
       </cards>
     </deck>
     <deck>
@@ -1615,7 +1633,7 @@
         <card dbid="2099">HCRenderingPlant</card>
         <card dbid="2593">HCShipRussianFleet</card>
         <card dbid="2216">HCShipCoinCrates4</card>
-        <card dbid="2298">HCShipOprichniks1</card>
+        <card dbid="10429">DEHCRussianBattleshipCard</card>
         <card dbid="2239">HCShipCannons1</card>
         <card dbid="2621">HCCoastalDefensesTeam</card>
         <card dbid="2225">HCNavalCombat</card>
@@ -1651,6 +1669,66 @@
         <card dbid="2102">HCTextileMills</card>
         <card dbid="474">HCCigarRoller</card>
         <card dbid="2095">HCSustainableAgriculture</card>
+      </cards>
+    </deck>
+    <deck version="11">
+      <name>$$90974$$TreatyNoNat</name>
+      <cards>
+        <card dbid="1957">HCAdvancedArsenal</card>
+        <card dbid="3384">HCXPSevastopol</card>
+        <card dbid="2037">HCFencingSchool</card>
+        <card dbid="2038">HCRidingSchool</card>
+        <card dbid="2171">HCUniqueCombatRussian</card>
+        <card dbid="474">HCCigarRoller</card>
+        <card dbid="2095">HCSustainableAgriculture</card>
+        <card dbid="3345">HCXPIndustrialRevolution</card>
+        <card dbid="625">HCUnlockFactory</card>
+        <card dbid="3461">HCXPNationalRedoubt</card>
+        <card dbid="2094">HCFoodSilos</card>
+        <card dbid="2101">HCRumDistillery</card>
+        <card dbid="2306">HCCavalryLOSTeam</card>
+        <card dbid="2167">HCCavalryCombatRussian</card>
+        <card dbid="2102">HCTextileMills</card>
+        <card dbid="2093">HCRoyalMint</card>
+        <card dbid="2041">HCRefrigeration</card>
+        <card dbid="2291">HCStreletsCombatRussian</card>
+        <card dbid="2590">HCUnicorne</card>
+        <card dbid="2363">HCEngineeringSchool</card>
+        <card dbid="7927">DEHCREVMXShipWoodCrates4</card>
+        <card dbid="2589">HCSpawnStrelet</card>
+        <card dbid="3387">HCXPEconomicTheory</card>
+        <card dbid="3440">HCXPDistributivism</card>
+        <card dbid="10305">DEHCOldenburgAlliesRepeat</card>
+      </cards>
+    </deck>
+    <deck version="11">
+      <name>$$90975$$TreatyNative</name>
+      <cards>
+        <card dbid="1957">HCAdvancedArsenal</card>
+        <card dbid="2037">HCFencingSchool</card>
+        <card dbid="2038">HCRidingSchool</card>
+        <card dbid="2171">HCUniqueCombatRussian</card>
+        <card dbid="474">HCCigarRoller</card>
+        <card dbid="2095">HCSustainableAgriculture</card>
+        <card dbid="3345">HCXPIndustrialRevolution</card>
+        <card dbid="625">HCUnlockFactory</card>
+        <card dbid="3461">HCXPNationalRedoubt</card>
+        <card dbid="2094">HCFoodSilos</card>
+        <card dbid="2101">HCRumDistillery</card>
+        <card dbid="2306">HCCavalryLOSTeam</card>
+        <card dbid="2167">HCCavalryCombatRussian</card>
+        <card dbid="2102">HCTextileMills</card>
+        <card dbid="2093">HCRoyalMint</card>
+        <card dbid="2041">HCRefrigeration</card>
+        <card dbid="2291">HCStreletsCombatRussian</card>
+        <card dbid="2590">HCUnicorne</card>
+        <card dbid="1847">HCNativeWarriors</card>
+        <card dbid="3384">HCXPSevastopol</card>
+        <card dbid="2363">HCEngineeringSchool</card>
+        <card dbid="2091">HCExoticHardwoods</card>
+        <card dbid="7927">DEHCREVMXShipWoodCrates4</card>
+        <card dbid="2589">HCSpawnStrelet</card>
+        <card dbid="3387">HCXPEconomicTheory</card>
       </cards>
     </deck>
     <revoltdeck>
@@ -2031,6 +2109,7 @@
     <rolloverstringid>25535</rolloverstringid>
     <obtainabletechs>
       <tech x="0.0" y="3.0">HCStonemasons</tech>
+      <tech x="0.0" y="7.0">HCXPEconomicTheory</tech>
       <tech x="0.7" y="5.0">HCXPLandGrab</tech>
       <tech x="1.3" y="1.0">HCFishMarket</tech>
       <tech x="0.9" y="3.0">HCRenderingPlant</tech>
@@ -2053,6 +2132,7 @@
     </obtainabletechs>
     <activetechs>
       <tech x="0.0" y="3.0">HCStonemasons</tech>
+      <tech x="0.0" y="7.0">HCXPEconomicTheory</tech>
       <tech x="0.7" y="5.0">HCXPLandGrab</tech>
       <tech x="1.3" y="1.0">HCFishMarket</tech>
       <tech x="0.9" y="3.0">HCRenderingPlant</tech>
@@ -2119,6 +2199,7 @@
       <tech x="6.5" y="6.0">HCXPMercsGreatCannon</tech>
       <tech x="5.1" y="1.0">DEHCTheaters</tech>
       <tech x="7.2" y="1.0">HCPrivateers</tech>
+      <tech x="7.2" y="1.0">DEHCRussianBattleshipCard</tech>
       <tech x="7.2" y="1.0">DEHCShipBattleshipRepeat</tech>
     </obtainabletechs>
     <activetechs>
@@ -2149,6 +2230,7 @@
       <tech x="6.5" y="6.0">HCXPMercsGreatCannon</tech>
       <tech x="5.1" y="1.0">DEHCTheaters</tech>
       <tech x="7.2" y="1.0">HCPrivateers</tech>
+      <tech x="7.2" y="1.0">DEHCRussianBattleshipCard</tech>
       <tech x="7.2" y="1.0">DEHCShipBattleshipRepeat</tech>
     </activetechs>
     <validunits>

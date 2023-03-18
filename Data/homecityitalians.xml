@@ -127,6 +127,22 @@
       <displayunitcount>700</displayunitcount>
     </card>
     <card>
+      <name>DEHCSieneseFinancers</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>1</age>
+      <displayunitcount>1000</displayunitcount>
+    </card>
+    <card>
+      <name>DEHCLuccanFinancers</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+      <displayunitcount>1500</displayunitcount>
+    </card>
+    <card>
       <name>DEHCGenoeseFinancers</name>
       <maxcount>1</maxcount>
       <level>0</level>
@@ -664,7 +680,7 @@
       <name>DEHCAlbanianCompany</name>
       <maxcount>1</maxcount>
       <age>2</age>
-      <displayunitcount>7</displayunitcount>
+      <displayunitcount>8</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -1221,6 +1237,7 @@
       <maxcount>1</maxcount>
       <level>25</level>
       <prereqtech>HCStonemasonsItalian</prereqtech>
+      <bindtotech>HCXPLandGrab</bindtotech>
       <age>0</age>
     </card>
     <card>
@@ -1228,6 +1245,7 @@
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
+      <bindtotech>HCXPRanching</bindtotech>
       <age>0</age>
     </card>
     <card>
@@ -1235,6 +1253,7 @@
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
+      <bindtotech>HCStockyards</bindtotech>
       <age>0</age>
     </card>
     <card>
@@ -1769,6 +1788,25 @@
       <revoltcard>
       </revoltcard>
     </card>
+    <card>
+      <name>DEHCREVBlandengues</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>XPRevolution</prereqtech>
+      <age>0</age>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>DEHCREVMXCaballeros</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>XPRevolution</prereqtech>
+      <bindtotech>HCCaballeros</bindtotech>
+      <age>0</age>
+      <revoltcard>
+      </revoltcard>
+    </card>
   </cards>
   <decks>
     <deck>
@@ -1799,6 +1837,8 @@
         <card dbid="9410">DEHCAdvancedLombard</card>
         <card dbid="10010">DEHCShipPapalBombardsRepeat</card>
         <card dbid="9467">HCShipMortars3</card>
+        <card dbid="10012">DEHCLombardy</card>
+        <card dbid="10029">DEHCFlorentineFinancers</card>
       </cards>
     </deck>
     <deck>
@@ -1891,6 +1931,66 @@
         <card dbid="474">HCCigarRoller</card>
       </cards>
     </deck>
+    <deck version="11">
+      <name>$$90974$$TreatyNoNat</name>
+      <cards>
+        <card dbid="3438">HCXPCapitalism</card>
+        <card dbid="9320">DEHCUffizi</card>
+        <card dbid="2037">HCFencingSchool</card>
+        <card dbid="2038">HCRidingSchool</card>
+        <card dbid="9484">DEHCInfantryHitpointsItalian</card>
+        <card dbid="9087">DEHCSchiavoniSwords</card>
+        <card dbid="9109">DEHCRoyalDecreeItalians</card>
+        <card dbid="2095">HCSustainableAgriculture</card>
+        <card dbid="9086">DEHCCavalryCombatItalian</card>
+        <card dbid="2093">HCRoyalMint</card>
+        <card dbid="2041">HCRefrigeration</card>
+        <card dbid="2102">HCTextileMills</card>
+        <card dbid="10030">DEHCMilaneseArsenal</card>
+        <card dbid="2031">HCRobberBarons</card>
+        <card dbid="9318">DEHCUsury</card>
+        <card dbid="9322">DEHCAlpini</card>
+        <card dbid="2101">HCRumDistillery</card>
+        <card dbid="9410">DEHCAdvancedLombard</card>
+        <card dbid="10031">DEHCVenetianArsenal</card>
+        <card dbid="474">HCCigarRoller</card>
+        <card dbid="10152">DEHCRedshirts</card>
+        <card dbid="10151">DEHCRomanTactics</card>
+        <card dbid="10016">DEHCFreemasonry</card>
+        <card dbid="10068">DEHCPapalArsenal</card>
+        <card dbid="2574">HCShipCoinCrates1</card>
+      </cards>
+    </deck>
+    <deck version="11">
+      <name>$$90975$$TreatyNative</name>
+      <cards>
+        <card dbid="3438">HCXPCapitalism</card>
+        <card dbid="9320">DEHCUffizi</card>
+        <card dbid="2037">HCFencingSchool</card>
+        <card dbid="2038">HCRidingSchool</card>
+        <card dbid="9484">DEHCInfantryHitpointsItalian</card>
+        <card dbid="9087">DEHCSchiavoniSwords</card>
+        <card dbid="9109">DEHCRoyalDecreeItalians</card>
+        <card dbid="2095">HCSustainableAgriculture</card>
+        <card dbid="9086">DEHCCavalryCombatItalian</card>
+        <card dbid="2093">HCRoyalMint</card>
+        <card dbid="2041">HCRefrigeration</card>
+        <card dbid="2102">HCTextileMills</card>
+        <card dbid="10030">DEHCMilaneseArsenal</card>
+        <card dbid="2031">HCRobberBarons</card>
+        <card dbid="9318">DEHCUsury</card>
+        <card dbid="9322">DEHCAlpini</card>
+        <card dbid="2101">HCRumDistillery</card>
+        <card dbid="9410">DEHCAdvancedLombard</card>
+        <card dbid="10031">DEHCVenetianArsenal</card>
+        <card dbid="474">HCCigarRoller</card>
+        <card dbid="10152">DEHCRedshirts</card>
+        <card dbid="10068">DEHCPapalArsenal</card>
+        <card dbid="10010">DEHCShipPapalBombardsRepeat</card>
+        <card dbid="1847">HCNativeWarriors</card>
+        <card dbid="10016">DEHCFreemasonry</card>
+      </cards>
+    </deck>
     <revoltdeck>
       <name>$$45518$$</name>
       <cards>
@@ -1972,6 +2072,11 @@
         <card>DEHCREVGranaderos</card>
         <card>DEHCREVCitizenship</card>
         <card>DEHCREVArgentineMortarsItaly</card>
+        <card>HCStockyards</card>
+        <card>HCXPRanching</card>
+        <card>HCXPLandGrab</card>
+        <card>DEHCREVBlandengues</card>
+        <card>DEHCREVMXCaballeros</card>
       </cards>
     </revoltdeck>
     <fakedeck>
@@ -2058,6 +2163,8 @@
       <tech x="7.0" y="5.0">DEHCLombardy</tech>
       <tech x="7.0" y="5.0">DEHCTrattoria</tech>
       <tech x="7.0" y="5.0">DEHCMonteDiPieta</tech>
+      <tech x="7.0" y="5.0">DEHCSieneseFinancers</tech>
+      <tech x="7.0" y="5.0">DEHCLuccanFinancers</tech>
       <tech x="7.0" y="5.0">DEHCGenoeseFinancers</tech>
       <tech x="7.0" y="5.0">DEHCFlorentineFinancers</tech>
     </obtainabletechs>
@@ -2091,6 +2198,8 @@
       <tech x="7.0" y="5.0">DEHCLombardy</tech>
       <tech x="7.0" y="5.0">DEHCTrattoria</tech>
       <tech x="7.0" y="5.0">DEHCMonteDiPieta</tech>
+      <tech x="7.0" y="5.0">DEHCSieneseFinancers</tech>
+      <tech x="7.0" y="5.0">DEHCLuccanFinancers</tech>
       <tech x="7.0" y="5.0">DEHCGenoeseFinancers</tech>
       <tech x="7.0" y="5.0">DEHCFlorentineFinancers</tech>
     </activetechs>

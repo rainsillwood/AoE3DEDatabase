@@ -980,6 +980,55 @@
       <context>BuildAccel</context>
       <command>tis("deMayaCastle")</command>
     </keymapdata>
+    <keymapdata>
+      <name>Build Diamond Mine</name>
+      <displayname>$$90316$$Diamond Mine</displayname>
+      <event>q</event>
+      <context>BuildAccel</context>
+      <command>tis("deREVMineDiamondBuildable")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Build Coal Mine</name>
+      <displayname>$$110308$$Coal Mine</displayname>
+      <event>q</event>
+      <context>BuildAccel</context>
+      <command>tis("deMineCoalBuildable")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Build Copper Mine</name>
+      <displayname>$$43844$$Copper Mine</displayname>
+      <event>q</event>
+      <context>BuildAccel</context>
+      <command>tis("deMineCopperBuildable")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Build Silver Mine</name>
+      <displayname>$$28577$$Silver Mine</displayname>
+      <event>q</event>
+      <context>BuildAccel</context>
+      <command>tis("deMineSilverBuildable")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Build Gold Mine</name>
+      <displayname>$$36007$$Gold Mine</displayname>
+      <event>q</event>
+      <context>BuildAccel</context>
+      <command>tis("deMineGoldBuildable")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Build Salt Mine</name>
+      <displayname>$$102156$$Salt Mine</displayname>
+      <event>q</event>
+      <context>BuildAccel</context>
+      <command>tis("deMineSaltBuildable")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Build Athos Monastery</name>
+      <displayname>$$125088$$Athos Monastery</displayname>
+      <event>q</event>
+      <context>BuildAccel</context>
+      <command>tis("deAthosMonastery")</command>
+    </keymapdata>
   </keymapgroup>
   <keymapgroup name="Commandery" displayname="$$124664$$Commandery Hotkeys" hotkeystyle="Legacy">
     <keymapdata>
@@ -1671,7 +1720,7 @@
       <displayname>$$29469$$Crossbowman</displayname>
       <event>x</event>
       <context>BarracksAccel</context>
-      <command>tis("Crossbowman") this("deLandwehr")</command>
+      <command>tis("Crossbowman") tis("deLandwehr")</command>
     </keymapdata>
     <keymapdata>
       <name>Multiple Crossbowmen</name>
@@ -3171,6 +3220,36 @@
       <command>tis("MercBlackRider",5)</command>
     </keymapdata>
     <keymapdata>
+      <name>Highwayman</name>
+      <displayname>$$122505$$Highwayman Rider</displayname>
+      <event>d</event>
+      <context>StableAccel</context>
+      <command>tis("deSaloonHighwaymanRider")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Multiple Highwaymen</name>
+      <displayname>$$122505$$Highwayman Rider</displayname>
+      <displayformat>$$43376$$Multiple %s</displayformat>
+      <event>shift-d</event>
+      <context>StableAccel</context>
+      <command>tis("deSaloonHighwaymanRider",5)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Royal Horseman</name>
+      <displayname>$$122080$$Royal Horsemen</displayname>
+      <event>c</event>
+      <context>StableAccel</context>
+      <command>tis("deMercRoyalHorseman")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Multiple Royal Horsemen</name>
+      <displayname>$$122080$$Royal Horsemen</displayname>
+      <displayformat>$$43376$$Multiple %s</displayformat>
+      <event>shift-c</event>
+      <context>StableAccel</context>
+      <command>tis("deMercRoyalHorseman",5)</command>
+    </keymapdata>
+    <keymapdata>
       <name>Carbine Cavalry</name>
       <displayname>$$110018$$Carbine Cavalry</displayname>
       <event>d</event>
@@ -3785,7 +3864,7 @@
       <displayname>$$29469$$Crossbowman</displayname>
       <event>x</event>
       <context>FortFrontierAccel</context>
-      <command>tis("Crossbowman") this("deLandwehr")</command>
+      <command>tis("Crossbowman") tis("deLandwehr")</command>
     </keymapdata>
     <keymapdata>
       <name>Multiple Crossbowmen</name>
@@ -4297,6 +4376,21 @@
       <event>shift-z</event>
       <context>FortFrontierAccel</context>
       <command>tis("deNizam",5)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Fire Thrower</name>
+      <displayname>$$124564$$Fire Thrower</displayname>
+      <event>g</event>
+      <context>FortFrontierAccel</context>
+      <command>tis("deHoopThrower")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Multiple Fire Thrower</name>
+      <displayname>$$124564$$Fire Thrower</displayname>
+      <displayformat>$$43376$$Multiple %s</displayformat>
+      <event>shift-g</event>
+      <context>FortFrontierAccel</context>
+      <command>tis("deHoopThrower",5)</command>
     </keymapdata>
   </keymapgroup>
   <keymapgroup name="Palace Hotkeys" displayname="$$101424$$Palace Hotkeys" hotkeystyle="Legacy">

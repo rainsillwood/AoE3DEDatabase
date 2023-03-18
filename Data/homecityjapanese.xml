@@ -174,7 +174,7 @@
       <level>10</level>
       <prereqtech>YPHCShipShrineWagon</prereqtech>
       <age>1</age>
-      <displayunitcount>4</displayunitcount>
+      <displayunitcount>5</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -189,7 +189,7 @@
       <maxcount>1</maxcount>
       <level>25</level>
       <prereqtech>YPHCIncreasedTribute</prereqtech>
-      <age>1</age>
+      <age>0</age>
     </card>
     <card>
       <name>YPHCJapaneseMonkCombat</name>
@@ -356,7 +356,7 @@
       <level>0</level>
       <prereqtech>YPHCShipSamurai1</prereqtech>
       <age>3</age>
-      <displayunitcount>7</displayunitcount>
+      <displayunitcount>8</displayunitcount>
     </card>
     <card>
       <name>YPHCShipSamurai3</name>
@@ -620,10 +620,11 @@
     </card>
     <card>
       <name>DEHCShrineHitpoints</name>
-      <maxcount>1</maxcount>
+      <maxcount>2</maxcount>
       <level>10</level>
       <prereqtech>YPHCZenDiet</prereqtech>
       <age>1</age>
+      <displayunitcount>4</displayunitcount>
     </card>
     <card>
       <name>HCImprovedBuildings</name>
@@ -1257,6 +1258,8 @@
         <card dbid="4034">YPHCYumiRange</card>
         <card dbid="3875">YPHCShipAshigaru4</card>
         <card dbid="4534">YPHCShipShogunate</card>
+        <card dbid="10399">DEHCFortySevenRonin</card>
+        <card dbid="10400">DEHCShrineHitpoints</card>
       </cards>
     </deck>
     <deck>
@@ -1347,6 +1350,66 @@
         <card dbid="474">HCCigarRoller</card>
         <card dbid="4871">YPHCStoneCastles</card>
         <card dbid="2102">HCTextileMills</card>
+      </cards>
+    </deck>
+    <deck version="11">
+      <name>$$90974$$TreatyNoNat</name>
+      <cards>
+        <card dbid="474">HCCigarRoller</card>
+        <card dbid="4035">YPHCAshigaruDamage</card>
+        <card dbid="4033">YPHCYumiDamage</card>
+        <card dbid="2095">HCSustainableAgriculture</card>
+        <card dbid="4999">YPHCShipRicePaddyWagon2</card>
+        <card dbid="2093">HCRoyalMint</card>
+        <card dbid="2041">HCRefrigeration</card>
+        <card dbid="4948">YPHCBakufu</card>
+        <card dbid="4034">YPHCYumiRange</card>
+        <card dbid="4036">YPHCAshigaruAntiCavalryDamage</card>
+        <card dbid="4037">YPHCNaginataHitpoints</card>
+        <card dbid="4534">YPHCShipShogunate</card>
+        <card dbid="4820">YPHCArtilleryCostJapanese</card>
+        <card dbid="5141">YPHCMorutaruRangeJapanese</card>
+        <card dbid="3877">YPHCShipNaginataRider1</card>
+        <card dbid="4216">YPHCIncreasedTribute</card>
+        <card dbid="3706">YPHCChonindoTeam</card>
+        <card dbid="2094">HCFoodSilos</card>
+        <card dbid="2101">HCRumDistillery</card>
+        <card dbid="2091">HCExoticHardwoods</card>
+        <card dbid="4042">YPHCYabusameAntiArtilleryDamage</card>
+        <card dbid="3718">YPHCShipRicePaddyWagon1</card>
+        <card dbid="5000">YPHCShipRicePaddyWagon3</card>
+        <card dbid="4529">YPHCDojoRenpeikan</card>
+        <card dbid="4949">YPHCDojoGenbukan</card>
+      </cards>
+    </deck>
+    <deck version="11">
+      <name>$$90975$$TreatyNative</name>
+      <cards>
+        <card dbid="474">HCCigarRoller</card>
+        <card dbid="4033">YPHCYumiDamage</card>
+        <card dbid="2095">HCSustainableAgriculture</card>
+        <card dbid="4999">YPHCShipRicePaddyWagon2</card>
+        <card dbid="2093">HCRoyalMint</card>
+        <card dbid="2041">HCRefrigeration</card>
+        <card dbid="4948">YPHCBakufu</card>
+        <card dbid="4034">YPHCYumiRange</card>
+        <card dbid="4037">YPHCNaginataHitpoints</card>
+        <card dbid="4534">YPHCShipShogunate</card>
+        <card dbid="4820">YPHCArtilleryCostJapanese</card>
+        <card dbid="5141">YPHCMorutaruRangeJapanese</card>
+        <card dbid="3877">YPHCShipNaginataRider1</card>
+        <card dbid="4216">YPHCIncreasedTribute</card>
+        <card dbid="3706">YPHCChonindoTeam</card>
+        <card dbid="2094">HCFoodSilos</card>
+        <card dbid="2101">HCRumDistillery</card>
+        <card dbid="2091">HCExoticHardwoods</card>
+        <card dbid="4042">YPHCYabusameAntiArtilleryDamage</card>
+        <card dbid="3718">YPHCShipRicePaddyWagon1</card>
+        <card dbid="5000">YPHCShipRicePaddyWagon3</card>
+        <card dbid="4529">YPHCDojoRenpeikan</card>
+        <card dbid="4949">YPHCDojoGenbukan</card>
+        <card dbid="5075">YPHCNativeIncorporation</card>
+        <card dbid="5071">YPHCNativeDamage</card>
       </cards>
     </deck>
   </decks>

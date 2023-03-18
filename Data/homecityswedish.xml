@@ -1061,7 +1061,7 @@
       <maxcount>1</maxcount>
       <level>25</level>
       <prereqtech>HCAdmirality</prereqtech>
-      <age>1</age>
+      <age>2</age>
     </card>
     <card>
       <name>HCShipMonitors</name>
@@ -1116,8 +1116,8 @@
       <maxcount>1</maxcount>
       <level>40</level>
       <prereqtech>DEHCContractMercsGiantGrenadiers</prereqtech>
-      <age>2</age>
-      <displayunitcount>8</displayunitcount>
+      <age>1</age>
+      <displayunitcount>9</displayunitcount>
     </card>
     <card>
       <name>DEHCContractMercsSwissPikemen</name>
@@ -1329,13 +1329,6 @@
     </card>
     <card>
       <name>DEHCNorthernForests</name>
-      <maxcount>1</maxcount>
-      <level>0</level>
-      <prereqtech>-1</prereqtech>
-      <age>3</age>
-    </card>
-    <card>
-      <name>DEHCBarrage</name>
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
@@ -1614,6 +1607,9 @@
         <card dbid="6531">DEHCShipElks</card>
         <card dbid="6414">DEHCCaseShot</card>
         <card dbid="6410">DEHCContractMercsIrishBrigadiers</card>
+        <card dbid="6517">DEHCBlueberries</card>
+        <card dbid="6384">DEHCSoldierTorps</card>
+        <card dbid="6501">DEHCInfantryGuns</card>
       </cards>
     </deck>
     <deck>
@@ -1643,6 +1639,7 @@
         <card dbid="6517">DEHCBlueberries</card>
         <card dbid="6516">DEHCEngelsbergIronworks</card>
         <card dbid="2207">HCShipSettlers3</card>
+        <card dbid="6536">DEHCBlackberries</card>
       </cards>
     </deck>
     <deck>
@@ -1672,6 +1669,7 @@
         <card dbid="814">HCUnlockFort</card>
         <card dbid="6514">DEHCShipBalticFleet</card>
         <card dbid="2099">HCRenderingPlant</card>
+        <card dbid="6609">DEHCNorthernForests</card>
       </cards>
     </deck>
     <deck version="8">
@@ -1702,6 +1700,66 @@
         <card dbid="6398">DEHCOxenstiernaReforms</card>
         <card dbid="2102">HCTextileMills</card>
         <card dbid="474">HCCigarRoller</card>
+      </cards>
+    </deck>
+    <deck version="11">
+      <name>$$90974$$TreatyNoNat</name>
+      <cards>
+        <card dbid="2101">HCRumDistillery</card>
+        <card dbid="6398">DEHCOxenstiernaReforms</card>
+        <card dbid="6387">DEHCHandUnitHitpoints</card>
+        <card dbid="6388">DEHCHeavyInfHitpointsTeam</card>
+        <card dbid="2363">HCEngineeringSchool</card>
+        <card dbid="2037">HCFencingSchool</card>
+        <card dbid="2038">HCRidingSchool</card>
+        <card dbid="2102">HCTextileMills</card>
+        <card dbid="2093">HCRoyalMint</card>
+        <card dbid="6392">DEHCSnaplocks</card>
+        <card dbid="6389">DEHCPlatoonFire</card>
+        <card dbid="3345">HCXPIndustrialRevolution</card>
+        <card dbid="625">HCUnlockFactory</card>
+        <card dbid="6391">DEHCFinnhorses</card>
+        <card dbid="6404">DEHCSveaLifeguard</card>
+        <card dbid="474">HCCigarRoller</card>
+        <card dbid="6633">DEHCTrampleTactics</card>
+        <card dbid="2041">HCRefrigeration</card>
+        <card dbid="6536">DEHCBlackberries</card>
+        <card dbid="6386">DEHCHandUnitDamage</card>
+        <card dbid="6609">DEHCNorthernForests</card>
+        <card dbid="6414">DEHCCaseShot</card>
+        <card dbid="6700">DEHCShipMineWagon3</card>
+        <card dbid="6534">DEHCEngelsbergIronworks</card>
+        <card dbid="10304">DEHCWittelsbachAlliesRepeat</card>
+      </cards>
+    </deck>
+    <deck version="11">
+      <name>$$90975$$TreatyNative</name>
+      <cards>
+        <card dbid="2101">HCRumDistillery</card>
+        <card dbid="6398">DEHCOxenstiernaReforms</card>
+        <card dbid="6387">DEHCHandUnitHitpoints</card>
+        <card dbid="6388">DEHCHeavyInfHitpointsTeam</card>
+        <card dbid="2363">HCEngineeringSchool</card>
+        <card dbid="2037">HCFencingSchool</card>
+        <card dbid="2038">HCRidingSchool</card>
+        <card dbid="2102">HCTextileMills</card>
+        <card dbid="2093">HCRoyalMint</card>
+        <card dbid="6392">DEHCSnaplocks</card>
+        <card dbid="6389">DEHCPlatoonFire</card>
+        <card dbid="3345">HCXPIndustrialRevolution</card>
+        <card dbid="625">HCUnlockFactory</card>
+        <card dbid="6391">DEHCFinnhorses</card>
+        <card dbid="6404">DEHCSveaLifeguard</card>
+        <card dbid="474">HCCigarRoller</card>
+        <card dbid="2041">HCRefrigeration</card>
+        <card dbid="6536">DEHCBlackberries</card>
+        <card dbid="6609">DEHCNorthernForests</card>
+        <card dbid="1847">HCNativeWarriors</card>
+        <card dbid="6414">DEHCCaseShot</card>
+        <card dbid="6386">DEHCHandUnitDamage</card>
+        <card dbid="2573">HCShipWoodCrates1</card>
+        <card dbid="6633">DEHCTrampleTactics</card>
+        <card dbid="6390">DEHCRangedCavalryCombat</card>
       </cards>
     </deck>
     <revoltdeck>
@@ -1908,7 +1966,6 @@
       <tech x="7.3" y="7.0">DEHCCronstedtReforms</tech>
       <tech x="7.3" y="7.0">DEHCSveaLifeguard</tech>
       <tech x="3.0" y="3.0">DEHCSnaplocks</tech>
-      <tech x="6.1" y="3.0">DEHCBarrage</tech>
       <tech x="7.2" y="7.0">DEHCHandMortar</tech>
       <tech x="7.2" y="7.0">DEHCHakkapelitMarch</tech>
       <tech x="7.2" y="7.0">DEHCTrampleTactics</tech>
@@ -1956,7 +2013,6 @@
       <tech x="7.3" y="7.0">DEHCCronstedtReforms</tech>
       <tech x="7.3" y="7.0">DEHCSveaLifeguard</tech>
       <tech x="3.0" y="3.0">DEHCSnaplocks</tech>
-      <tech x="6.1" y="3.0">DEHCBarrage</tech>
       <tech x="7.2" y="7.0">DEHCHandMortar</tech>
       <tech x="7.2" y="7.0">DEHCHakkapelitMarch</tech>
       <tech x="7.2" y="7.0">DEHCTrampleTactics</tech>

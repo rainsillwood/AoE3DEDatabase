@@ -71,6 +71,7 @@
     <name stringid="42178">Gather</name>
     <type>Gather</type>
     <maxrange>0.5</maxrange>
+    <typedanim type="deFurTrade">GatherBush</typedanim>
     <rate type="Plantation">1.0</rate>
     <rate type="AbstractMine">1.0</rate>
     <rate type="SPCSpanishShipRuins">1.0</rate>

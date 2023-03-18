@@ -231,6 +231,7 @@
       <maxcount>1</maxcount>
       <level>10</level>
       <prereqtech>HCDonatarios</prereqtech>
+      <bindtotech>HCShipCoveredWagons2</bindtotech>
       <age>3</age>
       <displayunitcount>2</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
@@ -660,7 +661,7 @@
       <name>HCNativeWarriors</name>
       <maxcount>1</maxcount>
       <level>10</level>
-      <prereqtech>HCNativeTreaties</prereqtech>
+      <bindtotech>HCNativeWarriors</bindtotech>
       <age>2</age>
     </card>
     <card>
@@ -731,7 +732,7 @@
       <name>HCAdvancedArsenal</name>
       <maxcount>1</maxcount>
       <level>10</level>
-      <prereqtech>HCUnlockFort</prereqtech>
+      <bindtotech>HCAdvancedArsenal</bindtotech>
       <age>1</age>
     </card>
     <card>
@@ -754,7 +755,7 @@
       <name>HCFencingSchool</name>
       <maxcount>1</maxcount>
       <level>10</level>
-      <prereqtech>-1</prereqtech>
+      <bindtotech>HCFencingSchool</bindtotech>
       <age>1</age>
     </card>
     <card>
@@ -811,6 +812,7 @@
       <maxcount>1</maxcount>
       <level>10</level>
       <prereqtech>-1</prereqtech>
+      <bindtotech>HCAdvancedDock</bindtotech>
       <age>0</age>
     </card>
     <card>
@@ -818,6 +820,7 @@
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
+      <bindtotech>HCUnlockFactory</bindtotech>
       <age>3</age>
       <displayunitcount>1</displayunitcount>
     </card>
@@ -1078,7 +1081,7 @@
       <name>HCNavalCombat</name>
       <maxcount>1</maxcount>
       <level>10</level>
-      <prereqtech>HCShipFrigates</prereqtech>
+      <bindtotech>HCNavalCombat</bindtotech>
       <age>1</age>
     </card>
     <card>
@@ -1266,6 +1269,15 @@
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>2</age>
+    </card>
+    <card>
+      <name>DEHCPortugueseBattleshipCard</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>3</age>
+      <infiniteinlastage>1</infiniteinlastage>
+      <displayunitcount>1</displayunitcount>
     </card>
     <card>
       <name>DEHCShipBattleshipRepeat</name>
@@ -1493,6 +1505,24 @@
       </revoltcard>
     </card>
     <card>
+      <name>DEHCREVKratonGuards</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>XPRevolution</prereqtech>
+      <age>3</age>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>DEHCREVLantakas</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>XPRevolution</prereqtech>
+      <age>3</age>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
       <name>DEHCREVPeruvianGuard</name>
       <maxcount>1</maxcount>
       <level>0</level>
@@ -1528,6 +1558,34 @@
       <level>0</level>
       <prereqtech>XPRevolution</prereqtech>
       <age>1</age>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>HCNavalGunners</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>XPRevolution</prereqtech>
+      <age>1</age>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>DEHCREVColombianNavy</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>XPRevolution</prereqtech>
+      <age>1</age>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>DEHCREVShipColombianRevolutionaries</name>
+      <maxcount>-1</maxcount>
+      <level>0</level>
+      <prereqtech>XPRevolution</prereqtech>
+      <age>2</age>
+      <displayunitcount>16</displayunitcount>
       <revoltcard>
       </revoltcard>
     </card>
@@ -1667,6 +1725,9 @@
         <card dbid="2216">HCShipCoinCrates4</card>
         <card dbid="814">HCUnlockFort</card>
         <card dbid="2377">HCShipDragoons4</card>
+        <card dbid="10285">DEHCFeitorias</card>
+        <card dbid="10284">DEHCGrapeshot</card>
+        <card dbid="10326">DEHCHandCombatPortuguese</card>
       </cards>
     </deck>
     <deck>
@@ -1723,7 +1784,7 @@
         <card dbid="1992">HCColonialMilitia</card>
         <card dbid="2100">HCAdvancedDock</card>
         <card dbid="2225">HCNavalCombat</card>
-        <card dbid="2209">HCShipFoodCrates3</card>
+        <card dbid="10428">DEHCPortugueseBattleshipCard</card>
         <card dbid="465">HCPrivateers</card>
         <card dbid="2548">HCMercsRonin</card>
         <card dbid="2629">HCShipPortugueseExpForce</card>
@@ -1757,6 +1818,66 @@
         <card dbid="2209">HCShipFoodCrates3</card>
         <card dbid="2102">HCTextileMills</card>
         <card dbid="474">HCCigarRoller</card>
+      </cards>
+    </deck>
+    <deck version="11">
+      <name>$$90974$$TreatyNoNat</name>
+      <cards>
+        <card dbid="3393">HCXPRangefinding</card>
+        <card dbid="3385">HCXPGenitours</card>
+        <card dbid="2375">HCRangedInfantryCombatPortuguese</card>
+        <card dbid="625">HCUnlockFactory</card>
+        <card dbid="2031">HCRobberBarons</card>
+        <card dbid="2378">HCDragoonCombatPortuguese</card>
+        <card dbid="2373">HCRangedInfantryHitpointsPortugueseTeam</card>
+        <card dbid="2102">HCTextileMills</card>
+        <card dbid="2041">HCRefrigeration</card>
+        <card dbid="2093">HCRoyalMint</card>
+        <card dbid="2095">HCSustainableAgriculture</card>
+        <card dbid="474">HCCigarRoller</card>
+        <card dbid="2650">HCRoyalDecreePortuguese</card>
+        <card dbid="2363">HCEngineeringSchool</card>
+        <card dbid="2037">HCFencingSchool</card>
+        <card dbid="1957">HCAdvancedArsenal</card>
+        <card dbid="2038">HCRidingSchool</card>
+        <card dbid="2374">HCRangedInfantryDamagePortuguese</card>
+        <card dbid="3387">HCXPEconomicTheory</card>
+        <card dbid="2101">HCRumDistillery</card>
+        <card dbid="2284">HCShipCulverins1</card>
+        <card dbid="10326">DEHCHandCombatPortuguese</card>
+        <card dbid="2627">HCDonatarios</card>
+        <card dbid="2364">HCShipCoveredWagons2</card>
+        <card dbid="10285">DEHCFeitorias</card>
+      </cards>
+    </deck>
+    <deck version="11">
+      <name>$$90975$$TreatyNative</name>
+      <cards>
+        <card dbid="3393">HCXPRangefinding</card>
+        <card dbid="2375">HCRangedInfantryCombatPortuguese</card>
+        <card dbid="625">HCUnlockFactory</card>
+        <card dbid="2031">HCRobberBarons</card>
+        <card dbid="2378">HCDragoonCombatPortuguese</card>
+        <card dbid="2373">HCRangedInfantryHitpointsPortugueseTeam</card>
+        <card dbid="2102">HCTextileMills</card>
+        <card dbid="2041">HCRefrigeration</card>
+        <card dbid="2093">HCRoyalMint</card>
+        <card dbid="2095">HCSustainableAgriculture</card>
+        <card dbid="474">HCCigarRoller</card>
+        <card dbid="2650">HCRoyalDecreePortuguese</card>
+        <card dbid="2363">HCEngineeringSchool</card>
+        <card dbid="2037">HCFencingSchool</card>
+        <card dbid="1957">HCAdvancedArsenal</card>
+        <card dbid="2038">HCRidingSchool</card>
+        <card dbid="2374">HCRangedInfantryDamagePortuguese</card>
+        <card dbid="3387">HCXPEconomicTheory</card>
+        <card dbid="2101">HCRumDistillery</card>
+        <card dbid="2627">HCDonatarios</card>
+        <card dbid="2364">HCShipCoveredWagons2</card>
+        <card dbid="2284">HCShipCulverins1</card>
+        <card dbid="10326">DEHCHandCombatPortuguese</card>
+        <card dbid="1847">HCNativeWarriors</card>
+        <card dbid="10285">DEHCFeitorias</card>
       </cards>
     </deck>
     <revoltdeck>
@@ -1795,6 +1916,12 @@
         <card>DEHCREVShipWokouJunk</card>
         <card>DEHCREVShipWarElephant</card>
         <card>DEHCREVAcehExports</card>
+        <card>HCAdvancedDock</card>
+        <card>HCNavalCombat</card>
+        <card>HCNativeWarriors</card>
+        <card>HCFencingSchool</card>
+        <card>DEHCREVKratonGuards</card>
+        <card>DEHCREVLantakas</card>
       </cards>
     </revoltdeck>
     <revoltdeck civ="DERevPeru">
@@ -1813,6 +1940,7 @@
     <revoltdeck civ="DERevColombia">
       <name>$$45518$$</name>
       <cards>
+        <card>DEHCREVShipColombianRevolutionaries</card>
         <card>DEHCREVAlbionLegion</card>
         <card>HCREVShipGatlingGuns</card>
         <card>HCREVShipIronclads</card>
@@ -1821,6 +1949,13 @@
         <card>DEHCREVLlaneros</card>
         <card>DEHCREVCattleDeliveryColombia</card>
         <card>DEHCREVCitizenship</card>
+        <card>HCAdvancedDock</card>
+        <card>HCUnlockFactory</card>
+        <card>HCShipCoveredWagons2</card>
+        <card>HCNavalCombat</card>
+        <card>HCNavalGunners</card>
+        <card>DEHCREVColombianNavy</card>
+        <card>HCAdvancedArsenal</card>
       </cards>
     </revoltdeck>
     <revoltdeck civ="DERevBrazil">
@@ -2250,6 +2385,7 @@
       <tech x="5.8" y="6.0">HCXPMercsGreatCannon</tech>
       <tech x="6.5" y="1.0">HCPrivateers</tech>
       <tech x="6.5" y="3.0">HCPrivateers2</tech>
+      <tech x="6.5" y="3.0">DEHCPortugueseBattleshipCard</tech>
       <tech x="6.5" y="3.0">DEHCShipBattleshipRepeat</tech>
     </obtainabletechs>
     <activetechs>
@@ -2282,6 +2418,7 @@
       <tech x="5.8" y="6.0">HCXPMercsGreatCannon</tech>
       <tech x="6.5" y="1.0">HCPrivateers</tech>
       <tech x="6.5" y="3.0">HCPrivateers2</tech>
+      <tech x="6.5" y="3.0">DEHCPortugueseBattleshipCard</tech>
       <tech x="6.5" y="3.0">DEHCShipBattleshipRepeat</tech>
     </activetechs>
     <validunits>
