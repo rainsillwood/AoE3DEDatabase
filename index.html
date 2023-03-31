@@ -146,7 +146,7 @@
             let txt = '';
             for (i in techs) {
                 let tech = techs[i];
-                txt = txt + tech._name + '\t' + tech.dbid + '\t' + returnNode(tech.displaynameid) + '\t' + returnNode(tech.rollovertextid) + '\n';
+                txt = txt + tech._name + '\t' + tech.dbid + '\t' + returnNode(tech.displaynameid) + '\t' + returnNode(tech.rollovertextid) + '\t' + '\n';
             }
             document.getElementById('output').value = txt;
         }
@@ -336,12 +336,13 @@
                         info = info.replace('%picture%', '<img src="./Data/wpfg/' + returnNode(temp.icon).replace(/\\/g, '\/') + '" height="128" width="128">');
                         info = info + '<td class="type">科技</td>';
                         info = info + '<td class="desc">' + temp.rollovertext + '</td><td><div class="effect">';
-                        if (!!temp.effects) {
+                        info = info + getEffects(temp.effects, temp.displayname);
+                        /*if (!!temp.effects) {
                             let effects = returnList(temp.effects.effect);
                             for (k in effects) {
                                 info = info + getEffect(effects[k], temp.displayname) + '<br>';
                             }
-                        }
+                        }*/
                         info = info + '</div></td>';
                         break;
                     }
