@@ -1,0 +1,96 @@
+//==============================================================================
+// unitaitypes.txt
+//
+// Copyright (c) 2000, Ensemble Studios
+//
+//==============================================================================
+
+//=============================================================================
+// Format:
+// Type "Name of type" (this will be the name you use in proto.txt)
+// Attack                        Turns can attack ON for every type.
+// NoAttack                      Turns can attack OFF for every type.
+// Attack "Unit Type"            Turns can attack ON for "Unit Type"
+// NoAttack "Unit Type"          Turns can attack OFF for "Unit Type"
+// AutoAttack                    Turns auto attack ON for every type.
+// NoAutoAttack                  Turns auto attack OFF for every type.
+// AutoAttack "Unit Type"        Turns auto attack ON for "Unit Type"
+// NoAutoAttack "Unit Type"      Turns auto attack OFF for "Unit Type"
+// RespondToAttack               Turns attack response ON for every type.
+// NoRespondToAttack             Turns attack response OFF for every type.
+// RespondToAttack "Unit Type"   Turns attack response ON for "Unit Type"
+// RespondToAttack "Unit Type"   Turns attack response OFF for "Unit Type"
+// NoRunAway                     Restricts these units from running away when they cannot return an attack
+//
+// Once you declare another Type, the previous Type is done and cannot be modified.
+
+//=============================================================================
+// STANDARD
+
+Type "Passive"
+// For units that have no attack
+// == Default AI
+NoAttack
+NoAutoAttack
+NoRespondToAttack
+
+Type "Civilian"
+Attack "LogicalTypeVillagersAttack"
+NoAutoAttack
+RespondToAttack "LogicalTypeVillagersRespondToAttack"
+
+Type "HandCombative"
+// For units that can fight, like soldiers
+Attack "LogicalTypeHandUnitsAttack"
+AutoAttack "LogicalTypeHandUnitsAutoAttack"
+RespondToAttack "LogicalTypeHandUnitsAttack"
+
+Type "RangedCombative"
+// For units that can fight, like soldiers, and shoot flying units
+Attack "LogicalTypeRangedUnitsAttack"
+AutoAttack "LogicalTypeRangedUnitsAutoAttack"
+RespondToAttack "LogicalTypeRangedUnitsAttack"
+
+Type Mortar"
+// Can only attack buildings and ships
+Attack "Building"
+NoAutoAttack
+NoRespondToAttack
+
+Type "Hero"
+// Ranged unit with no auto attack
+// Currently not used
+Attack "LogicalTypeRangedUnitsAttack"
+NoAutoAttack
+RespondToAttack "LogicalTypeRangedUnitsAttack"
+
+//=============================================================================
+// ANIMALS
+
+Type "Predator"
+// Eats human units, like a Wolf
+Attack "LogicalTypeHandUnitsAttack"
+AutoAttack "LogicalTypeHandUnitsAutoAttack"
+RespondToAttack "LogicalTypeHandUnitsAttack"
+
+Type "Reactive"
+// Fights back if attacked, like a Boar
+Attack "LogicalTypeHandUnitsAttack"
+NoAutoAttack
+RespondToAttack "LogicalTypeHandUnitsAttack"
+
+Type "Prey"
+// Will run away if attacked, like a Deer
+NoAttack
+NoAutoAttack
+NoRespondToAttack
+
+Type "HerdAnimal"
+// Will not run away if attacked
+NoAttack
+NoAutoAttack
+NoRespondToAttack
+NoRunAway
+
+
+
