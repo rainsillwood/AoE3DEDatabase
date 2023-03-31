@@ -1,4 +1,6 @@
-/Data/wpfg/
+/Data/wpfg/resources/*.*
+/Data/wpfg/resources/art/
+/Data/wpfg/resources/images/
 /Data/streamingdata/
 /Data/testing/
 /Data/backup/
@@ -9,5 +11,6 @@
 *.blueprint
 *.hkShape
 *.physics
+*.xaml
 CNAME
 web.config
