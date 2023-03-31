@@ -723,7 +723,7 @@ function subType(effect) {
 
 function getEffect(effect, tech) {
     let information = '';
-    switch (effect._type) {
+    switch (effect['@type']) {
         //开/关科技
         case 'TechStatus':
             {
@@ -742,7 +742,7 @@ function getEffect(effect, tech) {
                 information = information + '科技 <ruby>' + getTech(effect.__text).displayname + '<rt>' + effect.__text + '</rt></ruby> ';
                 break;
             }
-        //改变数据
+            //改变数据
         case 'Data':
             {
                 information = subType(effect);
@@ -753,7 +753,7 @@ function getEffect(effect, tech) {
                 information = subType(effect);
                 break;
             }
-        //增加命令
+            //增加命令
         case 'CommandAdd':
             {
                 information = strings['42080'].__text;
@@ -763,13 +763,13 @@ function getEffect(effect, tech) {
                 information = information.replace('操作', '命令');
                 break;
             }
-        //更改单位
+            //更改单位
         case 'TransformUnit':
             {
                 information = targetType(effect._fromprotoid, 'ProtoUnit') + ' 变成 ' + targetType(effect._toprotoid, 'ProtoUnit');
                 break;
             }
-        //更改名称
+            //更改名称
         case 'SetName':
             {
                 let type = !effect._proto ? '科技' : '单位';
@@ -777,17 +777,17 @@ function getEffect(effect, tech) {
                 information = type + ' <ruby>' + target.displayname + '<rt>' + target._name + '</rt></ruby> 更名为 ' + strings[effect._newname];
                 break;
             }
-        //输出消息
+            //输出消息
         case 'TextOutput':
-            information = '输出消息：『' + returnNode(strings[effect.__text]) + '』';
+            information = '输出消息：『' + returnNode(strings[effect['#text']]) + '』';
             break;
-        //输出消息
+            //输出消息
         case 'TextOutputTechName':
-            information = '输出消息：『' + returnNode(strings[effect.__text]) + '』';
+            information = '输出消息：『' + returnNode(strings[effect['#text']]) + '』';
             break;
-        //输出消息
+            //输出消息
         case 'TextEffectOutput':
-            information = '输出消息：『' + returnNode(strings[effect._selfmsg]) + '』/『' + returnNode(strings[effect._playermsg]) + '』';
+            information = '输出消息：『' + returnNode(strings[effect['@selfmsg']]) + '』/『' + returnNode(strings[effect._playermsg]) + '』';
             break;
         case 'CreatePower':
             //HCXPNationalRedoubt{"_type":"CreatePower","_protopower":"deToySoldiersSound"}

@@ -1,27 +1,13 @@
-function getXml(url) {
-    $.ajaxSetup({ async: false });
-    let xml;
-    let json;
-    let x2js = new X2JS();
-    $.get(url, function (data) { xml = data }, 'xml');
-    /*if (xml === undefined) {
-        $.get(url.replace('.xml', ''), function (data) { xml = data }, 'xml');
-    }*/
-    if (xml === undefined) { return xml; }
-    json = x2js.xml2json(xml);
-    return json;
-}
-
 function getJson(url) {
     $.ajaxSetup({ async: false });
     let json;
-    $.get(url, function (data) { json = data; }, 'json');
+    $.get(url, function(data) { json = data; }, 'json');
     return json;
 }
 //返回一个节点或者返回空
 function returnNode(node) {
     if (!node)
-        return '';
+        return 'null';
     return node;
 }
 //返回一个数组
@@ -35,20 +21,20 @@ function returnList(node) {
 //返回string
 function getString(id) {
     if (!id)
-        return "无名";
+        return "没有描述";
     if (!strings[id])
-        return "找不到名称";
-    return strings[id].__text;
+        return "找不到描述";
+    return strings[id]['#text'];
 }
 //返回string
 function getTech(id) {
-    if (!id) return { 'displayname': '空', 'rollovertext': '空', '_id': false };
-    return (!techs[id.toLowerCase()] ? ({ 'displayname': '找不到此科技', 'rollovertext': '找不到此科技', '_id': false }) : techs[id.toLowerCase()]);
+    if (!id) return { 'displayname': '空', 'rollovertext': '空', '@id': false };
+    return (!techs[id.toLowerCase()] ? ({ 'displayname': '找不到此科技', 'rollovertext': '找不到此科技', '@id': false }) : techs[id.toLowerCase()]);
 }
 //返回string
 function getProto(id) {
-    if (!id) return { 'displayname': '空', 'rollovertext': '空', '_id': false };
-    return (!units[id.toLowerCase()] ? ({ 'displayname': '找不到该单位', 'rollovertext': '找不到该单位', '_id': false }) : units[id.toLowerCase()]);
+    if (!id) return { 'displayname': '空', 'rollovertext': '空', '@id': false };
+    return (!units[id.toLowerCase()] ? ({ 'displayname': '找不到该单位', 'rollovertext': '找不到该单位', '@id': false }) : units[id.toLowerCase()]);
 }
 //小数+
 function Add(num1, num2) {
