@@ -28,6 +28,7 @@ function updateData() {
         let temp = idata[i];
         temp.displayname = getString(temp.displaynameid);
         temp.rollovertext = getString(temp.rollovertextid);
+        if (temp.displayname == '没有描述') temp.displayname = temp['@name'];
         techs[temp['@name'].toLowerCase()] = temp;
     }
     //缓存单位&动作
@@ -39,15 +40,18 @@ function updateData() {
         temp.rollovertext = getString(temp.rollovertextid);
         temp.editorname = getString(temp.editornameid);
         temp.shortrollovertext = getString(temp.shortrollovertextid);
-        units[idata[i]['@name'].toLowerCase()] = temp;
+        if (temp.displayname == '没有描述') temp.displayname = temp['@name'];
+        units[temp['@name'].toLowerCase()] = temp;
     }
     //缓存文明
     idata = getJson('./Data/civs.xml.json');
     idata = idata.civs.civ;
     for (i in idata) {
-        idata[i].displayname = getString(idata[i].displaynameid);
-        idata[i].rollovertext = getString(idata[i].rollovertextid);
-        civs[idata[i].name] = idata[i];
+        let temp = idata[i];
+        temp.displayname = getString(temp.displaynameid);
+        temp.rollovertext = getString(temp.rollovertextid);
+        if (temp.displayname == '没有描述') temp.displayname = temp['@name'];
+        civs[temp.name] = temp;
     }
     //缓存主城
     for (i in civs) {
@@ -72,6 +76,8 @@ function updateData() {
     idata = getJson('./Data/nuggets.xml.json');
     idata = idata.nuggetmanager.nuggets.nugget;
     for (i in idata) {
+        idata[i].rolloverstring = getString(idata[i].rolloverstringid);
+        idata[i].applystring = getString(idata[i].applystringid).replace('%1!s!', '玩家 ');
         nuggets[idata[i].name] = idata[i];
     }
     //缓存伤害类型
@@ -87,7 +93,7 @@ function updateData() {
     idata = idata.protounitcommands.protounitcommand;
     for (i in idata) {
         let temp = idata[i];
-        temp.displayname = getString(temp.rollovertextid);
+        temp.rollovertext = getString(temp.rollovertextid);
         commands[temp.name] = temp;
     }
     alert('缓存完成');
@@ -107,8 +113,8 @@ function updateData() {
             }
             let temp = {}
             for (i in strings) {
-                if (!!strings[i]._symbol) {
-                    temp[strings[i]._symbol] = strings[i];
+                if (!!strings[i]['@symbol']) {
+                    temp[strings[i]['@symbol']] = strings[i];
                 }
             }
             for (i in unittypes) {
@@ -117,7 +123,7 @@ function updateData() {
                     let exp = new RegExp('cString.*?' + unittype.replace('Abstract', ''), 'g');
                     if (j.match(exp)) {
                         info = info + '<tr><td>' + unittype + '</td>';
-                        info = info + '<td>' + j + '</td><td>' + temp[j].__text + '</td></tr>';
+                        info = info + '<td>' + j + '</td><td>' + temp[j]['#text'] + '</td></tr>';
                     }
                 }
             }
@@ -129,7 +135,18 @@ function getTechs() {
     let txt = '';
     for (i in techs) {
         let tech = techs[i];
-        txt = txt + tech['@name'] + '\t' + returnNode(tech.displayname) + '\t' + returnNode(tech.rollovertext) + '\t' + tech['dbid'] + '\n';
+        let effects;
+        txt = txt + tech['@name'] + '\t' + tech.displayname + '\t' + tech.rollovertext + '\t' + tech['dbid'] + '\t';
+        if (!(!tech.effects)) {
+            effects = returnList(tech.effects.effect);
+        }
+        for (let j in effects) {
+            let effect = getEffect(effects[j]);
+            txt = txt + effect.replace(/<ruby>/g, '').replace(/<\/ruby>/g, '').replace(/<rt>.*?<\/rt>/g, '');
+            txt = txt + '|';
+        }
+        txt = txt + '\n';
+        txt = txt.replace('|\n','\n');
     }
     document.getElementById('output').value = txt;
 }
@@ -244,39 +261,34 @@ function getTree() {
 
 function getNative() {
     let txt = '';
-    let info = '<tr><th>调用名</th><th>中文名</th><th>科技/兵种</th></tr>';
+    let info = '<tr><th class="name">调用名</th><th class="local">中文名</th><th class="name">科技/兵种</th><th class="type">类型</th><th class="local">名称</th><th class="desc">描述</th><th class="effect">属性</th></tr>';
     for (i in civs) {
         if (!civs[i].agetech) continue;
         if (returnNode(civs[i].agetech.tech).indexOf('Native') > -1) {
+            let techeffect = returnList(getTech(civs[i].agetech.tech).effects.effect);
             txt = txt + civs[i].name + '\t' + civs[i].displayname + '\t';
             info = info + '<tr>';
-            info = info + '<td>' + civs[i].name + '</td>';
-            info = info + '<td>' + civs[i].displayname + '</td>';
-            let techeffect = returnList(getTech(civs[i].agetech.tech).effects.effect);
-            info = info + '<td><table border="1">';
+            info = info + '<th rowspan="' + techeffect.length + '">' + civs[i].name + '</th>';
+            info = info + '<td rowspan="' + techeffect.length + '">' + civs[i].displayname + '</td>';
             for (j in techeffect) {
+                if (j != '0') info = info + '<tr>';
                 if (techeffect[j]['@type'] == 'TechStatus') {
                     let tempTech = getTech(techeffect[j]['#text']);
                     txt = txt + '\t\t' + techeffect[j]['#text'] + '\n';
-                    info = info + '<tr>';
                     info = info + '<td>' + techeffect[j]['#text'] + '</td><td>科技</td>';
                     info = info + '<td>' + tempTech.displayname + '</td>';
-                    info = info + '<td>' + tempTech.rollovertext + '</td><td></td>';
-                    info = info + '<td>' + getEffects(tempTech.effects.effect, tempTech.displayname); + '</td><td></td>';
-                    info = info + '</tr>';
+                    info = info + '<td>' + tempTech.rollovertext + '</td>';
+                    info = info + '<td><div class="effect">' + getEffects(tempTech.effects, tempTech.displayname); + '</div></td>';
                 }
                 if (techeffect[j]['@type'] == 'Data' && techeffect[j]['@subtype'] == 'Enable') {
-                    info = info + '<tr>';
-                    info = info + '<td>' + techeffect[j].target['#text'] + '</td><td>兵种</td>';
+                    info = info + '<td>' + techeffect[j].target['#text'] + '</td><td>单位</td>';
                     info = info + '<td>' + getProto(techeffect[j].target['#text']).displayname + '</td>';
                     info = info + '<td>' + getProto(techeffect[j].target['#text']).rollovertext + '</td>';
-                    info = info + '<td>' + '</td>';
-                    info = info + '</tr>';
+                    info = info + '<td class="effect">' + '</td>';
                 }
+                info = info + '</tr>';
             }
-            info = info + '</table></td>';
         }
-        info = info + '</tr>';
     }
     document.getElementById('output').value = txt;
     document.getElementById('info').innerHTML = info;
@@ -295,8 +307,8 @@ function getNuggetTech() {
             }
             info = info + '</td>';
             info = info + '<td>' + nugget.difficulty + '</td>';
-            info = info + '<td>' + strings[nugget.rolloverstringid] + '</td>';
-            info = info + '<td>' + strings[nugget.applystringid] + '</td></tr>';
+            info = info + '<td>' + nugget.rolloverstring + '</td>';
+            info = info + '<td>' + nugget.applystring + '</td></tr>';
         }
     }
     document.getElementById('info').innerHTML = info;
@@ -313,7 +325,7 @@ function getLocal() {
         info = info + '<td class="name">' + value + '</td>';
         for (j in techs) {
             let temp = techs[j];
-            if (temp._name.toLowerCase() == value.toLowerCase()) {
+            if (temp['@name'].toLowerCase() == value.toLowerCase()) {
                 info = info + '<td class="local">' + temp.displayname + '</td>';
                 info = info.replace('%picture%', '<img src="./Data/wpfg/' + returnNode(temp.icon).replace(/\\/g, '\/') + '" height="128" width="128">');
                 info = info + '<td class="type">科技</td>';
@@ -331,7 +343,7 @@ function getLocal() {
         }
         for (j in units) {
             let temp = units[j];
-            if (temp._name.toLowerCase() == value.toLowerCase()) {
+            if (temp['@name'].toLowerCase() == value.toLowerCase()) {
                 info = info + '<td>' + strings[temp.displaynameid] + '</td>';
                 info = info.replace('%picture%', '<img src="./Data/wpfg/' + temp.icon.replace(/\\/g, '\/') + '">');
                 info = info + '<td>单位</td>';
@@ -343,11 +355,11 @@ function getLocal() {
         for (j in nuggets) {
             let temp = nuggets[j];
             if (temp.name.toLowerCase() == value.toLowerCase()) {
-                info = info + '<td>' + strings[temp.rolloverstringid].__text + '</td>';
+                info = info + '<td>' + strings[temp.rolloverstringid]['#text'] + '</td>';
                 info = info + '<td>宝藏</td>';
                 /*.replace(/%2s/, tString[temp.resource] ? tString[temp.resource] : temp.resource).replace(/%1d/, temp.amount)*/
                 ;
-                info = info + '<td>' + strings[temp.applystringid].__text + '</td>';
+                info = info + '<td>' + strings[temp.applystringid]['#text'] + '</td>';
             }
         }
         info = info + '</tr>';
@@ -361,17 +373,17 @@ function getName() {
     let tempList = [];
     for (i in techs) {
         let temp = {};
-        temp.name = techs[i]._name;
-        temp.displaynameid = techs[i].displaynameid;
-        temp.rollovertextid = techs[i].rollovertextid;
+        temp.name = techs[i]['@name'];
+        temp.displayname = techs[i].displayname;
+        temp.rollovertext = techs[i].rollovertext;
         temp.type = '科技'
         tempList.push(temp);
     }
     for (i in units) {
         let temp = {};
-        temp.name = units[i]._name;
-        temp.displaynameid = units[i].displaynameid;
-        temp.rollovertextid = units[i].rollovertextid;
+        temp.name = units[i]['@name'];
+        temp.displayname = units[i].displayname;
+        temp.rollovertext = units[i].rollovertext;
         temp.type = '单位'
         tempList.push(temp);
     }
@@ -381,11 +393,11 @@ function getName() {
         info = info + '<tr><td>' + value + '</td><td><table border="1">';
         for (j in tempList) {
             let temp = tempList[j];
-            if (returnNode(returnNode(strings[returnNode(temp.displaynameid)]).__text).indexOf(value) > -1) {
+            if (returnNode(temp.displayname).indexOf(value) > -1) {
                 info = info + '<tr><td>' + temp.name + '</td>';
-                info = info + '<td>' + strings[temp.displaynameid] + '</td>';
+                info = info + '<td>' + temp.displayname + '</td>';
                 info = info + '<td>' + temp.type + '</td>';
-                info = info + '<td>' + strings[temp.rollovertextid] + '</td></tr>';
+                info = info + '<td>' + temp.rollovertext + '</td></tr>';
             }
         }
         info = info + '</table></td>';

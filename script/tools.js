@@ -1,7 +1,7 @@
 function getJson(url) {
     $.ajaxSetup({ async: false });
     let json;
-    $.get(url, function(data) { json = data; }, 'json');
+    $.get(url, function (data) { json = data; }, 'json');
     return json;
 }
 //返回一个节点或者返回空
@@ -23,15 +23,15 @@ function getString(id) {
     if (!id)
         return "没有描述";
     if (!strings[id])
-        return "找不到描述";
+        return "找不到描述" + id;
     return strings[id]['#text'];
 }
-//返回string
+//返回科技
 function getTech(id) {
     if (!id) return { 'displayname': '空', 'rollovertext': '空', '@id': false };
     return (!techs[id.toLowerCase()] ? ({ 'displayname': '找不到此科技', 'rollovertext': '找不到此科技', '@id': false }) : techs[id.toLowerCase()]);
 }
-//返回string
+//返回单位
 function getProto(id) {
     if (!id) return { 'displayname': '空', 'rollovertext': '空', '@id': false };
     return (!units[id.toLowerCase()] ? ({ 'displayname': '找不到该单位', 'rollovertext': '找不到该单位', '@id': false }) : units[id.toLowerCase()]);
