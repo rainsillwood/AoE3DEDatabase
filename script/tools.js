@@ -26,6 +26,14 @@ function getString(id) {
         return "找不到描述" + id;
     return strings[id]['#text'];
 }
+//返回string
+function getSymbol(symbol) {
+    if (!symbol)
+        return "没有关键词";
+    if (!strings[symbol])
+        return "找不到关键词" + symbol;
+    return strings[id]['#text'];
+}
 //返回科技
 function getTech(id) {
     if (!id) return { 'displayname': '空', 'rollovertext': '空', '@id': false };

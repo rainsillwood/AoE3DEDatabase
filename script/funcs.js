@@ -1,6 +1,6 @@
 function updateData() {
     let idata = {};
-    //缓存String
+    //缓存String和
     idata = getJson('./Data/strings/SimplifiedChinese/stringtabley.xml.json');
     idata = idata.stringtable.language.string;
     for (i in idata) {
@@ -20,8 +20,10 @@ function updateData() {
     idata = idata.stringtable.language.string;
     for (i in idata) {
         strings[idata[i]['@_locid']] = idata[i];
+        if (!idata[i]['@symbol']) continue;
+        symbols[idata[i]['@symbol']] = idata[i];
     }
-    //缓存科技
+    //缓存techs
     idata = getJson('./Data/techtreey.xml.json');
     idata = idata.techtree.tech;
     for (i in idata) {
@@ -146,7 +148,7 @@ function getTechs() {
             txt = txt + '|';
         }
         txt = txt + '\n';
-        txt = txt.replace('|\n','\n');
+        txt = txt.replace('|\n', '\n');
     }
     document.getElementById('output').value = txt;
 }
@@ -199,7 +201,7 @@ function getCard() {
 function getStrings() {
     let txt = '';
     for (i in strings) {
-        txt = txt + strings[i]['@_locid'] + '\t' + returnNode(strings[i]['#text']) + '\n';
+        txt = txt + strings[i]['@_locid'] + '\t' + returnNode(strings[i]['#text']) + '\t' + returnNode(strings[i]['@symbol']) + '\n';
     }
     document.getElementById('output').value = txt;
 }

@@ -193,9 +193,9 @@ function subType(effect) {
         case 'PopulationCap':
             return (actor + '：人口上限' + relativity(effect['@relativity'], effect['@amount']));
         case 'BuildLimit':
-            info = getString('90125');
+            info = getString('42003');
             info = info.replace('%1!s!', actor);
-            info = info.replace('%2!.0f!%%', relativity(effect['@relativity'], effect['@amount']));
+            info = info.replace('+%2!.0f!%%', relativity(effect['@relativity'], effect['@amount']));
             return info;
         case 'TrainPoints':
             info = getString('90119');
@@ -826,12 +826,12 @@ function relativity(type, text) {
             return '设置为 ' + text;
         case 'Absolute':
             text = text * 1;
-            return (text > 0 ? '+' : '-') + Math.abs(text);
+            return (text > 0 ? '增加' : '减少') + ' ' + Math.abs(text);
         case 'Percent':
             return '设置为 ' + (text * 100) + '%';
         case 'BasePercent':
             text = text * 1;
-            return (text > 1 ? '+' : '-') + (Math.abs((Sub(text, 1)) * 100)) + '%';
+            return (text > 1 ? '+' : '-') + ' ' + (Math.abs((Sub(text, 1)) * 100)) + '%';
         default:
             return '未知';
     }
