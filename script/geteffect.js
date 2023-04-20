@@ -15,66 +15,58 @@ function getEffect(effect, tech) {
     switch (effect['@type']) {
         //开/关科技
         case 'TechStatus':
-            {
-                let status = effect['@status'].toLowerCase();
-                switch (status) {
-                    case 'obtainable':
-                        information = '启用';
-                        break;
-                    case 'unobtainable':
-                        information = '关闭';
-                        break;
-                    case 'active':
-                        information = '激活';
-                        break;
-                }
-                information = information + '科技 <ruby>' + getTech(effect['#text']).displayname + '<rt>' + effect['#text'] + '</rt></ruby> ';
-                break;
+            let status = effect['@status'].toLowerCase();
+            information = getString('42093');
+            information = information.replace('%1!s!', '<ruby>' + getTech(effect['#text']).displayname + '<rt>' + effect['#text'] + '</rt></ruby>');
+            switch (status) {
+                case 'obtainable':
+                    status = '可获得';
+                    break;
+                case 'unobtainable':
+                    status = '已禁用';
+                    break;
+                case 'active':
+                    status = '已生效';
+                    break;
             }
+            information = '☆' + information.replace('%2!s!', status);
+            break;
         //改变数据
         case 'Data':
-            {
-                information = subType(effect);
-                break;
-            }
+            information = subType(effect);
+            break;
+        //改变数据
         case 'Data2':
-            {
-                information = subType(effect);
-                break;
-            }
-        //增加命令
+            information = subType(effect);
+            break;
         case 'CommandAdd':
-            {
-                information = getString('42080');
-                information = information.replace('%1!s!', targetType(effect.target['#text'], effect.target['@type']));
-                information = information.replace('%2!s!', actionType((!effect['@command']) ? effect['@proto'] : effect['@command'], 'CommandAdd', effect.target['#text']));
-                information = information.replace('启用', '增加');
-                information = information.replace('操作', '命令');
-                break;
-            }
-        //更改单位
+            information = '☆' + targetType(effect.target['#text'], effect.target['@type']) + ': 增加命令 ';
+            information = information + targetType(effect['@proto'], 'ProtoUnit');
+            information = information + targetType(effect['@tech'], 'Tech');
+            information = information + targetType(effect['@command'], 'Command');
+            break;
+        case 'CommandRemove':
+            information = '☆' + targetType(effect.target['#text'], effect.target['@type']) + ': 移除命令 ';
+            information = information + targetType(effect['@proto'], 'ProtoUnit');
+            information = information + targetType(effect['@tech'], 'Tech');
+            information = information + targetType(effect['@command'], 'Command');
+            break;
         case 'TransformUnit':
-            {
-                information = targetType(effect['@fromprotoid'], 'ProtoUnit') + ' 变成 ' + targetType(effect['@toprotoid'], 'ProtoUnit');
-                break;
-            }
+            information = targetType(effect['@fromprotoid'], 'ProtoUnit') + ' 变成 ' + targetType(effect['@toprotoid'], 'ProtoUnit');
+            break;
         //更改名称
         case 'SetName':
-            {
-                let type = !effect['@proto'] ? '科技' : '单位';
-                let target = !effect['@proto'] ? getTech(effect['@tech']) : getProto(effect['@proto']);
-                information = type + ' <ruby>' + target.displayname + '<rt>' + target['@name'] + '</rt></ruby> 更名为 ' + getString(effect['@newname']);
-                break;
-            }
-        //输出消息
+            information = ' : 更名为 ' + getString(effect['@newname']);
+            information = targetType(effect['@proto'], 'ProtoUnit') + information;
+            information = targetType(effect['@tech'], 'Tech') + information;
+            information = '☆' + information;
+            break;
         case 'TextOutput':
             information = '输出消息：『' + getString(effect['#text']) + '』';
             break;
-        //输出消息
         case 'TextOutputTechName':
             information = '输出消息：『' + getString(effect['#text']) + '』';
             break;
-        //输出消息
         case 'TextEffectOutput':
             information = '输出消息：『' + getString(effect['@selfmsg']) + '』/『' + getString(effect['@playermsg']) + '』';
             break;
@@ -88,10 +80,6 @@ function getEffect(effect, tech) {
             break;
         case 'SetOnBuildingDeathTech':
             //YPHCCalltoArms1{"_type":"SetOnBuildingDeathTech",['@amount']":"0.00",['@amount']2":"100.00","__text":"ypSpawnIrregulars"}
-            information = '待测试';
-            break;
-        case 'CommandRemove':
-            //DEHCTupacRebellion{"target":{"_type":"ProtoUnit","__text":"WarHut"},"_type":"CommandRemove","_tech":"GuardSkirmishers"}
             information = '待测试';
             break;
         case 'ResetHomeCityCardCount':
@@ -186,8 +174,20 @@ function subType(effect) {
     let resource = targetType(returnNode(effect['@resource']), 'ProtoUnit');
     let info = '';
     switch (effect['@subtype']) {
+        //启用/禁用单位
         case 'Enable':
-            return (((effect['@amount']) * 1 > 0 ? '启用' : '禁用') + '建造 ' + actor);
+            switch (effect['@amount']) {
+                case '0.00':
+                    info = getString('42065');
+                    break;
+                case '1.00':
+                    info = getString('42064');
+                    break;
+                default:
+                    info = '未知';
+            }
+            info = '☆' + info.replace('%1!s!', actor);
+            return info;
         case 'AllowedAge':
             return (actor + '：建造时代' + ((effect['@amount'] * 1) > 0 ? "推迟" : "提前") + Math.abs(effect['@amount'] * 1) + '个时代');
         case 'PopulationCap':
@@ -325,10 +325,11 @@ function subType(effect) {
             info = info.replace('%2!s!', resource);
             info = info.replace('%3!.0f!%%', relativity(effect['@relativity'], effect['@amount']));
             return info;
+        //送兵
         case 'FreeHomeCityUnit':
             info = getString('42177');
             info = info.replace('%1!d!', effect['@amount'] * 1);
-            info = info.replace('%2!s!', target);
+            info = '☆' + info.replace('%2!s!', target);
             return info;
         case 'FreeHomeCityUnitResource':
             info = getString('80529');
@@ -480,11 +481,11 @@ function subType(effect) {
             //HCXPAdvancedScouts{"target":{"_type":"ProtoUnit","__text":"NativeScout"},"_type":"Data","_action":"MeleeHandAttack",['@amount']":"1.00","_subtype":"Snare","_relativity":"Assign"}
             return '待测试';
         case 'ActionAdd':
-            //YPHCSpawnSaigaHerd{"target":{"_type":"Player"},"_type":"Data","_action":"SpawnSaiga",['@amount']":"1.00","_subtype":"ActionAdd","_unittype":"ypVillage","_relativity":"Absolute"}
-            return '待测试';
+            info = actor + ': 增加战术 ' + actionType(effect['@action'], allactions, effect['@unittype']);
+            return info;
         case 'UnitRegenRate':
-            //YPHCAdvancedIrregulars{"target":{"_type":"ProtoUnit","__text":"ypPeasant"},"_type":"Data",['@amount']":"0.00","_subtype":"UnitRegenRate","_relativity":"Assign"}
-            return '待测试';
+            info = actor + ': 生命值恢复速度 ' + relativity(effect['@relativity'], effect['@amount']);
+            return info;
         case 'BuildingWorkRate':
             //YPHCBakufu{"target":{"_type":"ProtoUnit","__text":"AbstractDaimyo"},"_type":"Data",['@amount']":"1.15","_subtype":"BuildingWorkRate","_relativity":"BasePercent"}
             return '待测试';
@@ -557,9 +558,10 @@ function subType(effect) {
         case 'deLivestockMarket':
             //DEHCAdvancedLivestockMarket{"target":{"_type":"Player"},"_type":"Data",['@amount']":"0.80","_subtype":"deLivestockMarket","_component":"BuyFactor","_relativity":"Percent"}
             return '待测试';
+        //复制图标
         case 'CopyTechIcon':
-            //DEHCFulaMarksmen{"target":{"_type":"Tech","__text":"DEHCShipFulaWarriors1"},"_type":"Data",['@amount']":"0.00","_subtype":"CopyTechIcon","_tech":"DEShipFulaMarksmenIcon","_relativity":"Absolute"}
-            return '待测试';
+            info = '☆' + targetType(effect.target['#text'], effect.target['@type']) + ' :从 ' + targetType(effect['@tech'], 'Tech') + ' 复制图标';
+            return info;
         case 'RevealEnemyLOS':
             //DEHCSPCMaraboutNetwork{"target":{"_type":"Player"},"_type":"Data",['@amount']":"0.00","_subtype":"RevealEnemyLOS","_unittype":"TradingPost","_relativity":"Absolute"}
             return '待测试';
@@ -838,9 +840,10 @@ function relativity(type, text) {
 }
 //目标解析
 function targetType(target, type) {
+    if (!target) return '';
     switch (type) {
         case 'ProtoUnit':
-            return ' <ruby>' + ((!unitTypes[target.toLowerCase()]) ? (getProto(target).displayname) : (unitTypes[target.toLowerCase()])) + '<rt>' + target + '</rt></ruby> ';
+            return '<ruby>' + ((!unitTypes[target.toLowerCase()]) ? (getProto(target).displayname) : (unitTypes[target.toLowerCase()])) + '<rt>' + target + '</rt></ruby>';
         case 'Resource':
             let tgt;
             if (!target) {
@@ -848,17 +851,19 @@ function targetType(target, type) {
             } else {
                 tgt = target.toLowerCase();
             }
-            return ' <ruby>' + ((!unitTypes[tgt]) ? '未知' : unitTypes[tgt]) + '<rt>' + target + '</rt></ruby> ';
+            return '<ruby>' + ((!unitTypes[tgt]) ? '未知' : unitTypes[tgt]) + '<rt>' + target + '</rt></ruby>';
         case 'Player':
-            return ' 玩家 ';
+            return '玩家';
         case 'Tech':
-            return ' <ruby>' + getTech(target).displayname + '<rt>' + target + '</rt></ruby>';
+            return '<ruby>' + getTech(target).displayname + '<rt>' + target + '</rt></ruby>';
         case 'techAll':
-            return ' 所有科技 ';
+            return '所有科技';
         case 'techWithFlag':
-            return ' 所有' + target + '科技 ';
+            return '所有' + target + '科技';
+        case 'Command':
+            return '<ruby>' + getString(commands[target].rollovertextid) + '<rt>' + target + '</rt></ruby>';
         default:
-            return ' ' + target + ' ';
+            return target;
     }
 }
 //动作解析

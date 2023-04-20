@@ -42,6 +42,12 @@ function updateData() {
         temp.rollovertext = getString(temp.rollovertextid);
         temp.editorname = getString(temp.editornameid);
         temp.shortrollovertext = getString(temp.shortrollovertextid);
+        if (!temp.tactics) {
+            temp.tactic = null;
+        } else {
+            let temptactic = getJson('./Data/tactics/' + temp.tactics + '.json');
+            temp.tactic = returnList(temptactic.tactics.action);
+        }
         if (temp.displayname == '没有描述') temp.displayname = temp['@name'];
         units[temp['@name'].toLowerCase()] = temp;
     }
