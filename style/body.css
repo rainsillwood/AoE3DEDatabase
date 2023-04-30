@@ -1,0 +1,59 @@
+.hidden {
+    display: none;
+}
+
+#toolbox {
+    position: absolute;
+    float: left;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background-color: white;
+}
+
+#tool {
+    float: left;
+    height: 100%;
+    overflow: auto;
+}
+
+#tool>div {
+    float: left;
+    height: 100%;
+}
+
+#processer {
+    width: 300px;
+    right: 20px;
+}
+
+#databox {
+    position: absolute;
+    height: 100%;
+    top: 0px;
+    left: 20px;
+    z-index: -1;
+}
+
+#functionbox {
+    width: 420px;
+}
+
+button {
+    margin: auto;
+    text-align: center;
+}
+
+#processerShower {
+    position: absolute;
+    right: 20;
+    top: 0px;
+    height: 20px;
+    width: 20px
+}
+
+
+#toolShower {
+    height: 100%;
+    width: 20px
+}

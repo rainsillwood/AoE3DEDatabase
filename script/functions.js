@@ -1,162 +1,24 @@
-function updateData() {
-    let idata = {};
-    //缓存String和
-    idata = getJson('./Data/strings/SimplifiedChinese/stringtabley.xml.json');
-    idata = idata.stringtable.language.string;
-    for (i in idata) {
-        strings[idata[i]['@_locid']] = idata[i];
-    }
-    idata = getJson('./Data/strings/SimplifiedChinese/unithelpstrings.xml.json');
-    idata = idata.stringtable.language.string;
-    for (i in idata) {
-        strings[idata[i]['@_locid']] = idata[i];
-    }
-    idata = getJson('./Data/strings/SimplifiedChinese/unithelpstringsx.xml.json');
-    idata = idata.stringtable.language.string;
-    for (i in idata) {
-        strings[idata[i]['@_locid']] = idata[i];
-    }
-    idata = getJson('./Data/strings/SimplifiedChinese/unithelpstringsy.xml.json');
-    idata = idata.stringtable.language.string;
-    for (i in idata) {
-        strings[idata[i]['@_locid']] = idata[i];
-        if (!idata[i]['@symbol']) continue;
-        symbols[idata[i]['@symbol']] = idata[i];
-    }
-    //缓存techs
-    idata = getJson('./Data/techtreey.xml.json');
-    idata = idata.techtree.tech;
-    for (i in idata) {
-        let temp = idata[i];
-        temp.displayname = getString(temp.displaynameid);
-        temp.rollovertext = getString(temp.rollovertextid);
-        if (temp.displayname == '没有描述') temp.displayname = temp['@name'];
-        techs[temp['@name'].toLowerCase()] = temp;
-    }
-    //缓存单位&动作
-    idata = getJson('./Data/protoy.xml.json');
-    idata = idata.proto.unit;
-    for (i in idata) {
-        let temp = idata[i];
-        temp.displayname = getString(temp.displaynameid);
-        temp.rollovertext = getString(temp.rollovertextid);
-        temp.editorname = getString(temp.editornameid);
-        temp.shortrollovertext = getString(temp.shortrollovertextid);
-        if (!temp.tactics) {
-            temp.tactic = null;
-        } else {
-            let temptactic = getJson('./Data/tactics/' + temp.tactics + '.json');
-            temp.tactic = returnList(temptactic.tactics.action);
-        }
-        if (temp.displayname == '没有描述') temp.displayname = temp['@name'];
-        units[temp['@name'].toLowerCase()] = temp;
-    }
-    //缓存文明
-    idata = getJson('./Data/civs.xml.json');
-    idata = idata.civs.civ;
-    for (i in idata) {
-        let temp = idata[i];
-        temp.displayname = getString(temp.displaynameid);
-        temp.rollovertext = getString(temp.rollovertextid);
-        if (temp.displayname == '没有描述') temp.displayname = temp['@name'];
-        civs[temp.name] = temp;
-    }
-    //缓存主城
-    for (i in civs) {
-        let url = civs[i].homecityfilename + '.json';
-        if (!url) {
-            continue;
-        }
-        url = url.toLowerCase();
-        idata = getJson('./Data/' + url);
-        if (!idata) {
-            continue;
-        }
-        idata = idata.homecity;
-        let cards = {};
-        for (j in idata.cards.card) {
-            cards[idata.cards.card[j].name] = idata.cards.card[j];
-        }
-        idata.cards.card = cards;
-        homecitys[civs[i].name.toLowerCase()] = idata;
-    }
-    //缓存宝藏
-    idata = getJson('./Data/nuggets.xml.json');
-    idata = idata.nuggetmanager.nuggets.nugget;
-    for (i in idata) {
-        idata[i].rolloverstring = getString(idata[i].rolloverstringid);
-        idata[i].applystring = getString(idata[i].applystringid).replace('%1!s!', '玩家 ');
-        nuggets[idata[i].name] = idata[i];
-    }
-    //缓存伤害类型
-    idata = getJson('./Data/damagetypes.xml.json');
-    idata = idata.damagetypes.damagetype;
-    for (i in idata) {
-        let temp = idata[i];
-        temp.displayname = getString(temp.displaynameid);
-        damageTypes[temp.unittype] = temp;
-    }
-    //缓存命令
-    idata = getJson('./Data/protounitcommands.xml.json');
-    idata = idata.protounitcommands.protounitcommand;
-    for (i in idata) {
-        let temp = idata[i];
-        temp.rollovertext = getString(temp.rollovertextid);
-        commands[temp.name] = temp;
-    }
-    alert('缓存完成');
-}
-/*
-        function test() {
-            let unittypes = {};
-            let info = '<tr><th>单位类型</th><th>名称</th></tr>';
-            for (i in units) {
-                let flags = returnList(units[i].unittype);
-                for (j in flags) {
-                    if (!flags[j]) continue;
-                    if (!unittypes[flags[j]]) {
-                        unittypes[flags[j]] = flags[j];
-                    }
-                }
-            }
-            let temp = {}
-            for (i in strings) {
-                if (!!strings[i]['@symbol']) {
-                    temp[strings[i]['@symbol']] = strings[i];
-                }
-            }
-            for (i in unittypes) {
-                let unittype = unittypes[i];
-                for (j in temp) {
-                    let exp = new RegExp('cString.*?' + unittype.replace('Abstract', ''), 'g');
-                    if (j.match(exp)) {
-                        info = info + '<tr><td>' + unittype + '</td>';
-                        info = info + '<td>' + j + '</td><td>' + temp[j]['#text'] + '</td></tr>';
-                    }
-                }
-            }
-            info = info + '</table>';
-            document.getElementById('info').value = info;
-        }
-*/
+
 function getTechs() {
     let txt = '';
-    for (i in techs) {
-        let tech = techs[i];
-        let effects;
-        txt = txt + tech['@name'] + '\t' + tech.displayname + '\t' + tech.rollovertext + '\t' + tech['dbid'] + '\t';
-        if (!(!tech.effects)) {
-            effects = returnList(tech.effects.effect);
+    getArray('techtree', 'all').then(function (resolve) {
+        for (i in resolve) {
+            let tech = resolve[i];
+            let effects;
+            txt = txt + tech['@name'] + '\t' + tech.displayname + '\t' + tech.rollovertext + '\t' + tech['dbid'] + '\t';
+            if (!(!tech.effects)) {
+                effects = returnList(tech.effects.effect);
+            }
+            for (let j in effects) {
+                let effect = getEffect(effects[j]);
+                txt = txt + effect.replace(/<ruby>/g, '').replace(/<\/ruby>/g, '').replace(/<rt>.*?<\/rt>/g, '');
+                txt = txt + '|';
+            }
+            txt = txt + '\n';
+            txt = txt.replace('|\n', '\n');
         }
-        for (let j in effects) {
-            let effect = getEffect(effects[j]);
-            txt = txt + effect.replace(/<ruby>/g, '').replace(/<\/ruby>/g, '').replace(/<rt>.*?<\/rt>/g, '');
-            txt = txt + '|';
-        }
-        txt = txt + '\n';
-        txt = txt.replace('|\n', '\n');
-    }
-    document.getElementById('output').value = txt;
+        document.getElementById('output').value = txt;
+    });
 }
 
 function getProtos() {
@@ -168,7 +30,7 @@ function getProtos() {
     document.getElementById('output').value = txt;
 }
 
-function getCivCard() {
+function getCivCards() {
     let txt = '';
     for (i in homecitys) {
         let homecity = homecitys[i];
@@ -186,7 +48,7 @@ function getCivCard() {
     document.getElementById('output').value = txt;
 }
 
-function getCard() {
+function getCards() {
     let txt = '';
     for (i in techs) {
         let tech = techs[i];
@@ -212,7 +74,7 @@ function getStrings() {
     document.getElementById('output').value = txt;
 }
 
-function getShrine() {
+function getShrines() {
     let txt = '';
     let info = '<tr><th>调用名</th><th>中文名</th><th>种类</th><th>生产效率</th><th>描述</th></tr>';
     for (i in units) {

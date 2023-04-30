@@ -1,13 +1,14 @@
+
 //科技效果
 function getEffects(effects, name) {
-    let tempInfo = '';
+    let oData = '';
     if (!!effects) {
         let effectList = returnList(effects.effect);
         for (i in effectList) {
-            tempInfo = tempInfo + getEffect(effectList[i], name) + '</br>';
+            oData = oData + getEffect(effectList[i], name) + '</br>';
         }
     }
-    return tempInfo;
+    return oData;
 }
 //效果解析
 function getEffect(effect, tech) {
@@ -170,8 +171,8 @@ function getEffect(effect, tech) {
 //次级效果解析
 function subType(effect) {
     let actor = targetType(effect.target['#text'], effect.target['@type']);
-    let target = targetType(returnNode(effect['@unittype']), 'ProtoUnit');
-    let resource = targetType(returnNode(effect['@resource']), 'ProtoUnit');
+    let target = targetType(effect['@unittype'], 'ProtoUnit');
+    let resource = targetType(effect['@resource'], 'ProtoUnit');
     let info = '';
     switch (effect['@subtype']) {
         //启用/禁用单位
@@ -481,7 +482,7 @@ function subType(effect) {
             //HCXPAdvancedScouts{"target":{"_type":"ProtoUnit","__text":"NativeScout"},"_type":"Data","_action":"MeleeHandAttack",['@amount']":"1.00","_subtype":"Snare","_relativity":"Assign"}
             return '待测试';
         case 'ActionAdd':
-            info = actor + ': 增加战术 ' + actionType(effect['@action'], allactions, effect['@unittype']);
+            info = actor + ': 增加战术 ' + actionType(effect['@action'], '-1', effect['@unittype']);
             return info;
         case 'UnitRegenRate':
             info = actor + ': 生命值恢复速度 ' + relativity(effect['@relativity'], effect['@amount']);
@@ -839,27 +840,63 @@ function relativity(type, text) {
     }
 }
 //目标解析
-function targetType(target, type) {
-    if (!target) return '';
+async function targetType(target, type) {
+    if (!target) return 'null';
+    let iData;
+    let text;
     switch (type) {
-        case 'ProtoUnit':
-            return '<ruby>' + ((!unitTypes[target.toLowerCase()]) ? (getProto(target).displayname) : (unitTypes[target.toLowerCase()])) + '<rt>' + target + '</rt></ruby>';
-        case 'Resource':
-            let tgt;
-            if (!target) {
-                tgt = 'null';
-            } else {
-                tgt = target.toLowerCase();
+        case 'ProtoUnit': {
+            //查询unittype
+            iData = await getData('unittype', target.toLowerCase());
+            if (!Data) {
+                //unittype查询失败则查询unitflag
+                iData = await getData('unitflag', target.toLowerCase());
             }
-            return '<ruby>' + ((!unitTypes[tgt]) ? '未知' : unitTypes[tgt]) + '<rt>' + target + '</rt></ruby>';
-        case 'Player':
-            return '玩家';
-        case 'Tech':
-            return '<ruby>' + getTech(target).displayname + '<rt>' + target + '</rt></ruby>';
-        case 'techAll':
-            return '所有科技';
-        case 'techWithFlag':
-            return '所有' + target + '科技';
+            if (!iData) {
+                //均查询失败则查询proto
+                iData = await getProto(target);
+            } else {
+                //查询到unitflag||unittype
+                text = iData.value.displayname;
+            }
+            if (!iData) {
+                //均查询失败则
+                text = '<del>' + target + '</del>';
+            } else {
+
+            }
+            break;
+        }
+        case 'Tech': {
+            iData = await getTech(target);
+            if (iData) {
+                text = iData.displayname;
+            } else {
+                text = '<del>' + target + '</del>';
+            }
+            break;
+        }
+        case 'Resource': {
+            text = getCString('cStringAbstractName' + target);
+            break;
+        }
+        case 'Player': {
+            text = '玩家';
+            break;
+        }
+        case 'techAll': {
+            text = '所有科技';
+            break;
+        }
+        case 'techWithFlag': {
+            iData = await getData('techflag', target.toLowerCase());
+            if (iData) {
+                text = '所有' + iData.value.displayname + '科技';
+            } else {
+                text = '所有<del>' + target + '</del>科技';
+            }
+            break;
+        }
         case 'Command':
             return '<ruby>' + getString(commands[target].rollovertextid) + '<rt>' + target + '</rt></ruby>';
         default:
@@ -869,14 +906,14 @@ function targetType(target, type) {
 //动作解析
 function actionType(action, allactions, proto) {
     if (allactions == '1') return getString('42044');
+    if (allactions == 'CommandAdd') {
+        return action;
+    }
     if (!action) return ' 未知 ';
     let unit = getProto(proto);
 
     if (unit['@id']) {
         let tactic = getJson('./Data/tactics/' + unit.tactics + '.json');
-        if (allactions == 'CommandAdd') {
-            return action;
-        }
         tactic = returnList(tactic.tactics.action);
         let actions = {};
         for (i in tactic) {

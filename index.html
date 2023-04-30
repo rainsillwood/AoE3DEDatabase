@@ -1,61 +1,77 @@
+<!DOCTYPE html>
 <html>
 
 <head>
     <meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
     <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js'></script>
     <script src='./script/tools.js' charset='utf-8'></script>
-    <script src='./script/funcs.js' charset='utf-8'></script>
+    <script src='./script/init.js' charset='utf-8'></script>
+    <script src='./script/database.js' charset='utf-8'></script>
+    <script src='./script/getdata.js' charset='utf-8'></script>
+    <script src='./script/functions.js' charset='utf-8'></script>
     <script src='./script/geteffect.js' charset='utf-8'></script>
     <link rel="stylesheet" type="text/css" href="./style/table.css">
+    <link rel="stylesheet" type="text/css" href="./style/body.css">
     <script>
-        var techs = {};
-        var units = {};
-        var civs = {};
-        var homecitys = {};
-        var strings = {};
-        var nuggets = {};
-        var unitTypes = getJson('./script/unittype.json');
-        var damageTypes = {};
-        //var commands = {};
-        var actions = {};
-        var tactics = {};
-        var symbols = {};
-        var commands = {};
-        //,'':''
-        updateData();
+        var indexedDB = window.indexedDB || window.webkitIndexedDB || window.mozIndexedDB || window.msIndexedDB;
+        var homecityList = {};
+        var tacticList = {};
+        var cardList = {};
+        var techflags = {};
+        var unitflags = {};
+        var unittypes = {};
+        var database;
+        let version = '100.14.3853.0';
+        let date = '2023/4/24';
+        async function test() {
+            let x = await getData('string', '101016');
+            alert(JSON.stringify(x));
+        }
     </script>
     <title>帝国时代3决定版-离线数据查询</title>
 </head>
 
-<body>
-    <div style="width: 100%;height: 100%">
-        <div>当前版本：100.14.3853.0</p>2022/06/24</div>
-        <div style='width: 450;float: left;'>
-            <button type='button' onclick='updateData()'>更新数据</button>
-            </p>
-            <button type='button' onclick='getTechs()'>科技</button>
-            <button type='button' onclick='getProtos()'>单位</button>
-            <button type='button' onclick='getCard()'>卡片</button>
-            <button type='button' onclick='getStrings()'>语言</button>
-            </p>
-            <button type='button' onclick='getCivCard()'>文明卡片</button>
-            <button type='button' onclick='getShrine()'>查询神社效率</button>
-            <button type='button' onclick='getTree()'>查询树木</button>
-            <button type='button' onclick='getNative()'>查询土著</button>
-            <button type='button' onclick='getNuggetTech()'>查询科技宝藏</button>
-            </p>
-            <button type='button' onclick='getLocal()'>查询中文名</button>
-            <button type='button' onclick='getName()'>查询调用名</button>
-            <button type='button' onclick='test()'>测试</button>
-            <textarea id='input'></textarea>
-            </p>
-            <textarea id='output' rows="10" cols="50"></textarea>
+<body onload="init()">
+    <div style="height: 100%;width: 100%;overflow:auto;">
+        <div id="databox">
+            111111111111111111111111111111111111111111111111111111111111111111
+            <table border="1" id="info" cellspacing="0" cellpadding="0" style="table-layout: fixed;width: 100%;">
+            </table>
         </div>
-        <div style="display:block;height: 100%;margin-left:auto; margin-right: auto;overflow-x: auto;">
-            <table border='1' id='info' cellspacing='0' cellpadding='0' style="table-layout: fixed;width: 100%;">
+        <div id="toolbox">
+            <div id="tool">
+                <div>
+                    <div>当前版本：<a id="version" onload="">null</a>-<a id="date">null</a></div>
+                    <div>数据库版本：<a id="versiondatabase">null</a></div>
+                    <div id="functionbox">
+                        <button type="button" onclick="updateDatabase()">更新数据库</button>
+                        <button type="button" onclick="removeDB()">清除数据库</button>
+                        <button type="button" onclick="test()">测试数据</button>
+                        </p>
+                        <button type="button" onclick="getTechs()">科技</button>
+                        <button type="button" onclick="getProtos()">单位</button>
+                        <button type="button" onclick="getCard()">卡片</button>
+                        <button type="button" onclick="getStrings()">语言</button>
+                        </p>
+                        <button type="button" onclick="getCivCard()">文明卡片</button>
+                        <button type="button" onclick="getShrines()">查询神社效率</button>
+                        <button type="button" onclick="getTree()">查询树木</button>
+                        <button type="button" onclick="getNative()">查询土著</button>
+                        <button type="button" onclick="getNuggetTech()">查询科技宝藏</button>
+                        </p>
+                        <button type="button" onclick="getLocal()">查询中文名</button>
+                        <button type="button" onclick="getName()">查询调用名</button>
+                        <textarea id="input"></textarea>
+                        </p>
+                        <textarea id="output" rows="10" cols="50"></textarea>
+                    </div>
+                </div>
+                <button type="button" id="processerShower" onclick="toggleNode('processer');">&gt;</button>
+                <div id="processer" class="hidden"></div>
+            </div>
+            <button type="button" id="toolShower" onclick="toggleNode('tool');">&lt;</button>
         </div>
     </div>
-    </table>
 </body>
 
 </html>

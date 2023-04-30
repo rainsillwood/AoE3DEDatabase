@@ -1,8 +1,12 @@
-function getJson(url) {
-    $.ajaxSetup({ async: false });
-    let json;
-    $.get(url, function (data) { json = data; }, 'json');
-    return json;
+//获取json
+async function getJson(url) {
+    return new Promise(function (resolve, reject) {
+        $.get(url, function (data) {
+            resolve(data);
+        }).fail(function () {
+            resolve(null);
+        });
+    });
 }
 //返回一个节点或者返回空
 function returnNode(node) {
@@ -18,42 +22,16 @@ function returnList(node) {
     node = [node];
     return node;
 }
-//返回string
-function getString(id) {
-    if (!id)
-        return "没有描述";
-    if (!strings[id])
-        return "找不到描述" + id;
-    return strings[id]['#text'];
-}
-//返回string
-function getSymbol(symbol) {
-    if (!symbol)
-        return "没有关键词";
-    if (!strings[symbol])
-        return "找不到关键词" + symbol;
-    return strings[id]['#text'];
-}
-//返回科技
-function getTech(id) {
-    if (!id) return { 'displayname': '空', 'rollovertext': '空', '@id': false };
-    return (!techs[id.toLowerCase()] ? ({ 'displayname': '找不到此科技', 'rollovertext': '找不到此科技', '@id': false }) : techs[id.toLowerCase()]);
-}
-//返回单位
-function getProto(id) {
-    if (!id) return { 'displayname': '空', 'rollovertext': '空', '@id': false };
-    return (!units[id.toLowerCase()] ? ({ 'displayname': '找不到该单位', 'rollovertext': '找不到该单位', '@id': false }) : units[id.toLowerCase()]);
-}
 //小数+
 function Add(num1, num2) {
     let baseNum, baseNum1, baseNum2;
     try {
-        baseNum1 = num1.toString().split(".")[1].length;
+        baseNum1 = num1.toString().split('.')[1].length;
     } catch (e) {
         baseNum1 = 0;
     }
     try {
-        baseNum2 = num2.toString().split(".")[1].length;
+        baseNum2 = num2.toString().split('.')[1].length;
     } catch (e) {
         baseNum2 = 0;
     }
@@ -65,16 +43,58 @@ function Sub(num1, num2) {
     let baseNum, baseNum1, baseNum2;
     let precision; // 精度
     try {
-        baseNum1 = num1.toString().split(".")[1].length;
+        baseNum1 = num1.toString().split('.')[1].length;
     } catch (e) {
         baseNum1 = 0;
     }
     try {
-        baseNum2 = num2.toString().split(".")[1].length;
+        baseNum2 = num2.toString().split('.')[1].length;
     } catch (e) {
         baseNum2 = 0;
     }
     baseNum = Math.pow(10, Math.max(baseNum1, baseNum2));
     precision = (baseNum1 >= baseNum2) ? baseNum1 : baseNum2;
     return ((num1 * baseNum - num2 * baseNum) / baseNum).toFixed(precision);
-};
+}
+function logUpdate(id, value) {
+    let temp = document.getElementById(id).innerHTML * 1 + value;
+    document.getElementById(id).innerHTML = temp;
+}
+function getCookie(key) {
+    var name = key + '=';
+    var iArray = document.cookie.split(';');
+    for (var i = 0; i < iArray.length; i++) {
+        var c = iArray[i].trim();
+        if (c.indexOf(name) == 0) return c.substring(name.length, c.length);
+    }
+    return '';
+}
+function setCookie(key, value, limit) {
+    var d = new Date();
+    d.setTime(d.getTime() + (limit * 24 * 60 * 60 * 1000));
+    var expires = 'expires=' + d.toGMTString();
+    document.cookie = key + '=' + value + '; ' + expires;
+}
+function getStorage(key) {
+    return localStorage.getItem(key);
+}
+function setStorage(key, value) {
+    localStorage.removeItem(key);
+    localStorage.setItem(key, value);
+}
+function hideNode(id) {
+    document.getElementById(id).classList.add('hidden');
+    document.getElementById(id + 'Shower').innerHTML = '&lt;';
+}
+function showNode(id) {
+    document.getElementById(id).classList.remove('hidden');
+    document.getElementById(id + 'Shower').innerHTML = '&gt;';
+}
+function toggleNode(id) {
+    let classList = document.getElementById(id).classList;
+    if (classList.contains('hidden')) {
+        showNode(id);
+    } else {
+        hideNode(id);
+    }
+}
