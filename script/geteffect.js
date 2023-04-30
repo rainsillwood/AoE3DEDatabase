@@ -2,7 +2,7 @@
 //科技效果
 function getEffects(effects, name) {
     let oData = '';
-    if (!!effects) {
+    if (effects) {
         let effectList = returnList(effects.effect);
         for (i in effectList) {
             oData = oData + getEffect(effectList[i], name) + '</br>';
@@ -11,13 +11,13 @@ function getEffects(effects, name) {
     return oData;
 }
 //效果解析
-function getEffect(effect, tech) {
+async function getEffect(effect, tech) {
     let information = effect['@type'] + ':';
     switch (effect['@type']) {
         //开/关科技
         case 'TechStatus':
             let status = effect['@status'].toLowerCase();
-            information = getString('42093');
+            information = await getString('42093');
             information = information.replace('%1!s!', '<ruby>' + getTech(effect['#text']).displayname + '<rt>' + effect['#text'] + '</rt></ruby>');
             switch (status) {
                 case 'obtainable':

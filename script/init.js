@@ -28,14 +28,13 @@ async function updateDatabase() {
     await updateUnitflags();
     await updateTechflags();
     setStorage('version', version + '-' + date);
+    appendLog('数据库更新完成', 'div');
 }
 //缓存String
 async function updateStrings() {
     let table = 'string';
     let files = ['stringtabley', 'unithelpstrings', 'unithelpstringsx', 'unithelpstringsy'];
-    let node = document.createElement('div');
-    node.innerHTML = '更新语言文件: <a id="' + table + '_processed">0</a> / <a id="' + table + '_quest">0</a> , <a id="' + table + '_failed">0</a> Error';
-    document.getElementById('processer').appendChild(node);
+    appendLog('更新语言文件: <a id="' + table + '_processed">0</a> / <a id="' + table + '_quest">0</a> , <a id="' + table + '_failed">0</a> Error', 'div');
     for (i in files) {
         let iArray = await getJson('./Data/strings/SimplifiedChinese/' + files[i] + '.xml.json');
         iArray = iArray.stringtable.language.string;
@@ -45,7 +44,7 @@ async function updateStrings() {
         for (j in iArray) {
             let oData = {};
             oData.index = iArray[j]['@_locid'];
-            oData.symbol = iArray[j]['@symbol'];
+            oData.symbol = returnNode(iArray[j]['@symbol']).toLowerCase();
             oData.value = iArray[j];
             updateData(table, oData);
         }
@@ -54,9 +53,7 @@ async function updateStrings() {
 //缓存单位,前置string
 async function updateProtoy() {
     let table = 'proto';
-    let node = document.createElement('div');
-    node.innerHTML = '更新单位文件: <a id="' + table + '_processed">0</a> / <a id="' + table + '_quest">0</a> , <a id="' + table + '_failed">0</a> Error';
-    document.getElementById('processer').appendChild(node);
+    appendLog('更新单位文件: <a id="' + table + '_processed">0</a> / <a id="' + table + '_quest">0</a> , <a id="' + table + '_failed">0</a> Error', 'div');
     let = iArray = await getJson('./Data/protoy.xml.json');
     iArray = iArray.proto.unit;
     let process = document.getElementById(table + '_quest').innerHTML * 1;
@@ -109,7 +106,7 @@ async function updateProtoy() {
             iArray[i].tactics = tactic;
         }
         let oData = {};
-        oData.index = iArray[i]['@name'];
+        oData.index = iArray[i]['@name'].toLowerCase();
         oData.value = iArray[i];
         updateData(table, oData);
     }
@@ -117,9 +114,7 @@ async function updateProtoy() {
 //缓存科技,前置string
 async function updateTechtreey() {
     let table = 'techtree';
-    let node = document.createElement('div');
-    node.innerHTML = '更新科技文件: <a id="' + table + '_processed">0</a> / <a id="' + table + '_quest">0</a> , <a id="' + table + '_failed">0</a> Error';
-    document.getElementById('processer').appendChild(node);
+    appendLog('更新科技文件: <a id="' + table + '_processed">0</a> / <a id="' + table + '_quest">0</a> , <a id="' + table + '_failed">0</a> Error', 'div');
     let iArray = await getJson('./Data/techtreey.xml.json');
     iArray = iArray.techtree.tech;
     let process = document.getElementById(table + '_quest').innerHTML * 1;
@@ -156,9 +151,7 @@ async function updateTechtreey() {
 //缓存文明,前置string
 async function updateCivs() {
     let table = 'civ';
-    let node = document.createElement('div');
-    node.innerHTML = '更新文明文件: <a id="' + table + '_processed">0</a> / <a id="' + table + '_quest">0</a> , <a id="' + table + '_failed">0</a> Error';
-    document.getElementById('processer').appendChild(node);
+    appendLog('更新文明文件: <a id="' + table + '_processed">0</a> / <a id="' + table + '_quest">0</a> , <a id="' + table + '_failed">0</a> Error', 'div');
     let iArray = await getJson('./Data/civs.xml.json');
     iArray = iArray.civs.civ;
     let process = document.getElementById(table + '_quest').innerHTML * 1;
@@ -184,9 +177,7 @@ async function updateCivs() {
 //缓存宝藏,前置string
 async function updateNuggets() {
     let table = 'nugget';
-    let node = document.createElement('div');
-    node.innerHTML = '更新宝藏文件: <a id="' + table + '_processed">0</a> / <a id="' + table + '_quest">0</a> , <a id="' + table + '_failed">0</a> Error';
-    document.getElementById('processer').appendChild(node);
+    appendLog('更新宝藏文件: <a id="' + table + '_processed">0</a> / <a id="' + table + '_quest">0</a> , <a id="' + table + '_failed">0</a> Error', 'div');
     let iArray = await getJson('./Data/nuggets.xml.json');
     iArray = iArray.nuggetmanager.nuggets.nugget;
     let process = document.getElementById(table + '_quest').innerHTML * 1;
@@ -204,9 +195,7 @@ async function updateNuggets() {
 //缓存伤害类型,前置string
 async function updateDamageTypes() {
     let table = 'damagetype';
-    let node = document.createElement('div');
-    node.innerHTML = '更新伤害文件: <a id="' + table + '_processed">0</a> / <a id="' + table + '_quest">0</a> , <a id="' + table + '_failed">0</a> Error';
-    document.getElementById('processer').appendChild(node);
+    appendLog('更新伤害文件: <a id="' + table + '_processed">0</a> / <a id="' + table + '_quest">0</a> , <a id="' + table + '_failed">0</a> Error', 'div');
     let iArray = await getJson('./Data/damagetypes.xml.json');
     iArray = iArray.damagetypes.damagetype;
     let process = document.getElementById(table + '_quest').innerHTML * 1;
@@ -223,9 +212,7 @@ async function updateDamageTypes() {
 //缓存命令,前置string
 async function updateProtoUnitCommands() {
     let table = 'command';
-    let node = document.createElement('div');
-    node.innerHTML = '更新命令文件: <a id="' + table + '_processed">0</a> / <a id="' + table + '_quest">0</a> , <a id="' + table + '_failed">0</a> Error';
-    document.getElementById('processer').appendChild(node);
+    appendLog('更新命令文件: <a id="' + table + '_processed">0</a> / <a id="' + table + '_quest">0</a> , <a id="' + table + '_failed">0</a> Error', 'div');
     let iArray = await getJson('./Data/protounitcommands.xml.json');
     iArray = iArray.protounitcommands.protounitcommand;
     let process = document.getElementById(table + '_quest').innerHTML * 1;
@@ -242,9 +229,7 @@ async function updateProtoUnitCommands() {
 //缓存主城,前置civ
 async function updateHomecity() {
     let table = 'homecity';
-    let node = document.createElement('div');
-    node.innerHTML = '更新主城文件: <a id="' + table + '_processed">0</a> / <a id="' + table + '_quest">0</a> , <a id="' + table + '_failed">0</a> Error';
-    document.getElementById('processer').appendChild(node);
+    appendLog('更新主城文件: <a id="' + table + '_processed">0</a> / <a id="' + table + '_quest">0</a> , <a id="' + table + '_failed">0</a> Error', 'div');
     let process = document.getElementById(table + '_quest').innerHTML * 1;
     process = process + Object.keys(homecityList).length;
     document.getElementById(table + '_quest').innerHTML = process;
@@ -264,9 +249,7 @@ async function updateHomecity() {
 //缓存战术,前置proto
 async function updateTactics() {
     let table = 'tactic';
-    let node = document.createElement('div');
-    node.innerHTML = '更新战术文件: <a id="' + table + '_processed">0</a> / <a id="' + table + '_quest">0</a> , <a id="' + table + '_failed">0</a> Error';
-    document.getElementById('processer').appendChild(node);
+    appendLog('更新战术文件: <a id="' + table + '_processed">0</a> / <a id="' + table + '_quest">0</a> , <a id="' + table + '_failed">0</a> Error', 'div');
     let process = document.getElementById(table + '_quest').innerHTML * 1;
     process = process + Object.keys(tacticList).length;
     document.getElementById(table + '_quest').innerHTML = process;
@@ -286,9 +269,7 @@ async function updateTactics() {
 //缓存单位类型,前置proto
 function updateUnittypes() {
     let table = 'unittype';
-    let node = document.createElement('div');
-    node.innerHTML = '更新单位类型: <a id="' + table + '_processed">0</a> / <a id="' + table + '_quest">0</a> , <a id="' + table + '_failed">0</a> Error';
-    document.getElementById('processer').appendChild(node);
+    appendLog('更新单位类型: <a id="' + table + '_processed">0</a> / <a id="' + table + '_quest">0</a> , <a id="' + table + '_failed">0</a> Error', 'div');
     let process = document.getElementById(table + '_quest').innerHTML * 1;
     process = process + Object.keys(unittypes).length;
     document.getElementById(table + '_quest').innerHTML = process;
@@ -302,9 +283,7 @@ function updateUnittypes() {
 //缓存单位标志,前置proto
 function updateUnitflags() {
     let table = 'unitflag';
-    let node = document.createElement('div');
-    node.innerHTML = '更新单位标志: <a id="' + table + '_processed">0</a> / <a id="' + table + '_quest">0</a> , <a id="' + table + '_failed">0</a> Error';
-    document.getElementById('processer').appendChild(node);
+    appendLog('更新单位标志: <a id="' + table + '_processed">0</a> / <a id="' + table + '_quest">0</a> , <a id="' + table + '_failed">0</a> Error', 'div');
     let process = document.getElementById(table + '_quest').innerHTML * 1;
     process = process + Object.keys(unitflags).length;
     document.getElementById(table + '_quest').innerHTML = process;
@@ -318,9 +297,7 @@ function updateUnitflags() {
 //缓存科技标志,前置techtree
 function updateTechflags() {
     let table = 'techflag';
-    let node = document.createElement('div');
-    node.innerHTML = '更新科技标志: <a id="' + table + '_processed">0</a> / <a id="' + table + '_quest">0</a> , <a id="' + table + '_failed">0</a> Error';
-    document.getElementById('processer').appendChild(node);
+    appendLog('更新科技标志: <a id="' + table + '_processed">0</a> / <a id="' + table + '_quest">0</a> , <a id="' + table + '_failed">0</a> Error', 'div');
     let process = document.getElementById(table + '_quest').innerHTML * 1;
     process = process + Object.keys(techflags).length;
     document.getElementById(table + '_quest').innerHTML = process;
@@ -330,4 +307,9 @@ function updateTechflags() {
         oData.value = techflags[i];
         updateData(table, oData);
     }
+}
+function appendLog(text, type) {
+    let node = document.createElement(type);
+    node.innerHTML = text;
+    document.getElementById('processer').appendChild(node);
 }

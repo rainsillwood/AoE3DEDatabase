@@ -56,10 +56,12 @@ function Sub(num1, num2) {
     precision = (baseNum1 >= baseNum2) ? baseNum1 : baseNum2;
     return ((num1 * baseNum - num2 * baseNum) / baseNum).toFixed(precision);
 }
+
 function logUpdate(id, value) {
     let temp = document.getElementById(id).innerHTML * 1 + value;
     document.getElementById(id).innerHTML = temp;
 }
+
 function getCookie(key) {
     var name = key + '=';
     var iArray = document.cookie.split(';');
@@ -69,27 +71,33 @@ function getCookie(key) {
     }
     return '';
 }
+
 function setCookie(key, value, limit) {
     var d = new Date();
     d.setTime(d.getTime() + (limit * 24 * 60 * 60 * 1000));
     var expires = 'expires=' + d.toGMTString();
     document.cookie = key + '=' + value + '; ' + expires;
 }
+
 function getStorage(key) {
     return localStorage.getItem(key);
 }
+
 function setStorage(key, value) {
     localStorage.removeItem(key);
     localStorage.setItem(key, value);
 }
+
 function hideNode(id) {
     document.getElementById(id).classList.add('hidden');
-    document.getElementById(id + 'Shower').innerHTML = '&lt;';
-}
-function showNode(id) {
-    document.getElementById(id).classList.remove('hidden');
     document.getElementById(id + 'Shower').innerHTML = '&gt;';
 }
+
+function showNode(id) {
+    document.getElementById(id).classList.remove('hidden');
+    document.getElementById(id + 'Shower').innerHTML = '&lt;';
+}
+
 function toggleNode(id) {
     let classList = document.getElementById(id).classList;
     if (classList.contains('hidden')) {

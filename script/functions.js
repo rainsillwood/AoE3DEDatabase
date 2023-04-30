@@ -1,3 +1,6 @@
+function getInnerHTML() {
+    return returnList(document.getElementById('input').value.replace('\t', '\n').split("\n"));
+}
 
 function getTechs() {
     let txt = '';
@@ -186,7 +189,7 @@ function getNuggetTech() {
 
 function getLocal() {
     let info = '<tr><th class="icon">图标</th><th class="name">调用名</th><th class="local">中文名</th><th class="type">类型</th><th class="desc">描述</th><th class="effect">效果</th></tr>';
-    let values = document.getElementById('input').value.split("\n");
+    let values = getInnerHTML();
     for (i in values) {
         let value = values[i];
         if (value == "") continue;
@@ -239,7 +242,7 @@ function getLocal() {
 
 function getName() {
     let info = '<tr><th>中文名</th><th>调用名</th></tr>';
-    let values = document.getElementById('input').value.split("\n");
+    let values = getInnerHTML();
     let tempList = [];
     for (i in techs) {
         let temp = {};

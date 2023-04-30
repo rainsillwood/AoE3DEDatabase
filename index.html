@@ -34,16 +34,20 @@
 <body onload="init()">
     <div style="height: 100%;width: 100%;overflow:auto;">
         <div id="databox">
-            111111111111111111111111111111111111111111111111111111111111111111
-            <table border="1" id="info" cellspacing="0" cellpadding="0" style="table-layout: fixed;width: 100%;">
+            <table id="info" cellspacing="0" cellpadding="0">
+                <tr>
+                    <td>114514</td>
+                </tr>
             </table>
         </div>
         <div id="toolbox">
             <div id="tool">
-                <div>
-                    <div>当前版本：<a id="version" onload="">null</a>-<a id="date">null</a></div>
-                    <div>数据库版本：<a id="versiondatabase">null</a></div>
-                    <div id="functionbox">
+                <div id="functionbox">
+                    </p>
+                    <div>　当前版本　：<a id="version" onload="">null</a>-<a id="date">null</a></div>
+                    <div>　数据库版本：<a id="versiondatabase">null</a></div>
+                    </p>
+                    <div>
                         <button type="button" onclick="updateDatabase()">更新数据库</button>
                         <button type="button" onclick="removeDB()">清除数据库</button>
                         <button type="button" onclick="test()">测试数据</button>
@@ -59,14 +63,15 @@
                         <button type="button" onclick="getNative()">查询土著</button>
                         <button type="button" onclick="getNuggetTech()">查询科技宝藏</button>
                         </p>
+                        <textarea id="input" cols="55"></textarea>
+                        </p>
                         <button type="button" onclick="getLocal()">查询中文名</button>
                         <button type="button" onclick="getName()">查询调用名</button>
-                        <textarea id="input"></textarea>
                         </p>
-                        <textarea id="output" rows="10" cols="50"></textarea>
+                        <textarea id="output" rows="10" cols="55"></textarea>
                     </div>
+                    <button type="button" id="processerShower" onclick="toggleNode('processer');">&gt;</button>
                 </div>
-                <button type="button" id="processerShower" onclick="toggleNode('processer');">&gt;</button>
                 <div id="processer" class="hidden"></div>
             </div>
             <button type="button" id="toolShower" onclick="toggleNode('tool');">&lt;</button>

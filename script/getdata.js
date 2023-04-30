@@ -26,14 +26,18 @@ async function getCString(textID) {
         //textID不为空,
         //targetID为空:iData.value['#text']
         //targetID不为空:'<ruby>' + iData.value['#text'] + '<rt>' + targetID + '<rt>' + '</ruby>';
-        let iData = await getData('string', 'cString' + textID, 'symbol');
-        let oData;
-        if (iData) {
-            oData = '<ruby>' + iData.value['#text'] + '<rt>' + textID + '</rt></ruby>';
-        } else {
-            oData = textID;
+        let iData = await getData('string', 'cstring' + textID.toLowerCase(), 'symbol');
+        if (!iData) {
+            iData = await getData('string', 'cstring' + textID.toLowerCase().replace('abstract', ''), 'symbol');
         }
-        return oData;
+        if (!iData) {
+            iData = await getData('string', 'cstring' + textID.toLowerCase().replace('abstract', 'abstractname'), 'symbol');
+        }
+        if (iData) {
+            return '<ruby>' + iData.value['#text'] + '<rt>' + textID + '</rt></ruby>';
+        } else {
+            return textID;
+        }
     } else {
         //textID为空:'null'
         return 'null';
@@ -46,7 +50,7 @@ async function getTech(id) {
     }
     let oData = await getData('techtree', id.toLowerCase());
     if (!oData) oData = { 'displayname': '<del>' + id + '</del>', 'rollovertext': '找不到该科技', '@name': id };
-    return oData;
+    return oData.value;
 }
 //返回单位
 async function getProto(id) {
@@ -55,5 +59,5 @@ async function getProto(id) {
     }
     let oData = await getData('proto', id.toLowerCase());
     if (!oData) oData = { 'displayname': '<del>' + id + '</del>', 'rollovertext': '找不到该单位', '@name': id };
-    return oData;
+    return oData.value;
 }
