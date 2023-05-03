@@ -2,37 +2,73 @@ function getInnerHTML() {
     return returnList(document.getElementById('input').value.replace('\t', '\n').split("\n"));
 }
 
-function getTechs() {
-    let txt = '';
-    getArray('techtree', 'all').then(function (resolve) {
-        for (i in resolve) {
-            let tech = resolve[i];
-            let effects;
-            txt = txt + tech['@name'] + '\t' + tech.displayname + '\t' + tech.rollovertext + '\t' + tech['dbid'] + '\t';
-            if (!(!tech.effects)) {
-                effects = returnList(tech.effects.effect);
-            }
-            for (let j in effects) {
-                let effect = getEffect(effects[j]);
-                txt = txt + effect.replace(/<ruby>/g, '').replace(/<\/ruby>/g, '').replace(/<rt>.*?<\/rt>/g, '');
-                txt = txt + '|';
-            }
-            txt = txt + '\n';
-            txt = txt.replace('|\n', '\n');
+function setOuterHTML(text) {
+    document.getElementById('output').value = text;
+}
+
+function resetInfo() {
+    document.getElementById('info').innerHTML = '';
+}
+async function getTechs() {
+    let oArray = [];
+    let iArray = await getArray('techtree', 'all');
+    for (let i in iArray) {
+        let tech = iArray[i];
+        let text = tech['@name'] + '\t' + tech.dbid + '\t' + returnNode(tech.displayname) + '\t' + returnNode(tech.rollovertext);
+        /*let effects;
+        if (!(!tech.effects)) {
+            effects = returnList(tech.effects.effect);
         }
-        document.getElementById('output').value = txt;
-    });
-}
-
-function getProtos() {
-    let txt = '';
-    for (i in units) {
-        let unit = units[i];
-        txt = txt + unit['@name'] + '\t' + returnNode(unit.displayname) + '\t' + returnNode(unit.rollovertext) + '\t' + unit['@id'] + '\t' + unit['dbid'] + '\n';
+        for (let j in effects) {
+            let effect = await getEffect(effects[j]);
+            txt = txt + effect + '|';
+        }*/
+        oArray.push(text.replace(/<ruby>/g, '').replace(/<\/ruby>/g, '').replace(/<rt>.*?<\/rt>/g, ''));
     }
-    document.getElementById('output').value = txt;
+    setOuterHTML(oArray.join('\n'));
 }
 
+async function getProtos() {
+    let oArray = [];
+    let iArray = await getArray('proto', 'all');
+    for (let i in iArray) {
+        let unit = iArray[i];
+        let text = unit['@name'] + '\t' + unit['@id'] + '\t' + returnNode(unit.displayname) + '\t' + returnNode(unit.rollovertext);
+        oArray.push(text.replace(/<ruby>/g, '').replace(/<\/ruby>/g, '').replace(/<rt>.*?<\/rt>/g, ''));
+    }
+    setOuterHTML(oArray.join('\n'));
+}
+
+async function getStrings() {
+    let oArray = [];
+    let iArray = await getArray('string', 'all');
+    for (let i in iArray) {
+        let string = iArray[i];
+        let text = string['@_locid'] + '\t' + returnNode(string['@symbol']) + '\t' + returnNode(string['#text']);
+        oArray.push(text);
+    }
+    setOuterHTML(oArray.join('\n'));
+}
+
+async function getCards() {
+    let oArray = [];
+    let iArray = await getData('techflag', 'homecity');
+    if (iArray) {
+        iArray = iArray.list;
+    } else {
+        return;
+    }
+    for (i in iArray) {
+        let tech = await getData('techtree', iArray[i].toLowerCase());
+        if (!tech) {
+            return;
+        }
+        let text = tech['@name'] + '\t' + tech.displayname + '\t' + tech.rollovertext;
+        oArray.push(text.replace(/<ruby>/g, '').replace(/<\/ruby>/g, '').replace(/<rt>.*?<\/rt>/g, ''));
+    }
+    setOuterHTML(oArray.join('\n'));
+}
+/*
 function getCivCards() {
     let txt = '';
     for (i in homecitys) {
@@ -41,130 +77,115 @@ function getCivCards() {
         for (j in cards) {
             let card = cards[j];
             let temp = homecity.civ + ((card.revoltcard == '') ? '[R]' : '');
-            /*if (!(!)) {
+            if (!(!)) {
                 temp = temp + '[R]';
-            }*/
+            }
             temp = temp + '\t' + card.name + '\t' + returnNode(card.maxcount) + '\t' + returnNode(card.age) + '\n';
             txt = txt + temp;
         }
     }
     document.getElementById('output').value = txt;
 }
-
-function getCards() {
-    let txt = '';
-    for (i in techs) {
-        let tech = techs[i];
-        let flags = returnList(tech.flag);
-        for (j in flags) {
-            if (flags[j] == 'HomeCity') {
-                let displayname = tech.displayname;
-                txt = txt + tech['@name'] + '\t';
-                txt = txt + (displayname.indexOf('队伍：') == 0 ? '队伍' : '单人') + '\t' + displayname.replace("队伍：", "") + '\t';
-                txt = txt + tech.rollovertext + '\n';
-                break;
-            }
+*/
+async function getShrine() {
+    resetInfo();
+    let oArray = [];
+    appendNode('<th class="name">调用名</th><th class="local">中文名</th><th class="type">种类</th><th class="name">生产效率</th><th>描述</th>', 'info', 'tr');
+    let iArray = await getArray('proto', 'all');
+    for (i in iArray) {
+        let unit = iArray[i];
+        if (!unit.protoaction) {
+            continue;
         }
-    }
-    document.getElementById('output').value = txt;
-}
-
-function getStrings() {
-    let txt = '';
-    for (i in strings) {
-        txt = txt + strings[i]['@_locid'] + '\t' + returnNode(strings[i]['#text']) + '\t' + returnNode(strings[i]['@symbol']) + '\n';
-    }
-    document.getElementById('output').value = txt;
-}
-
-function getShrines() {
-    let txt = '';
-    let info = '<tr><th>调用名</th><th>中文名</th><th>种类</th><th>生产效率</th><th>描述</th></tr>';
-    for (i in units) {
-        let temp = '';
-        let unit = units[i];
-        let protoactions = returnList(returnNode(unit.protoaction));
+        let protoactions = returnList(unit.protoaction);
         for (j in protoactions) {
-            protoaction = protoactions[j];
+            let protoaction = protoactions[j];
             if (protoaction.name == 'ShrineGather') {
-                temp = returnNode(unit['@name']) + '\t' + returnNode(protoaction.rate['#text']) + '\n';
-                info = info + '<tr>';
-                info = info + '<td>' + returnNode(unit['@name']) + '</td>';
-                info = info + '<td>' + unit.displayname + '</td>';
+                let text = returnNode(unit['@name']) + '\t' + returnNode(protoaction.rate['#text']);
+                oArray.push(text);
+                let oData = '<td>' + returnNode(unit['@name']) + '</td>';
+                oData = oData + '<td>' + unit.displayname + '</td>';
                 let unittypes = returnList(returnNode(unit.unittype));
                 let utype = '';
                 if (unittypes.includes('Herdable')) {
-                    utype = '养殖';
+                    utype = utype + '养殖';
                 } else if (unittypes.includes('Huntable')) {
-                    utype = '捕猎';
+                    utype = utype + '捕猎';
                 }
-                info = info + '<td>' + utype + '</td>';
-                info = info + '<td>' + returnNode(protoaction.rate['#text']) + '</td>';
-                info = info + '<td>' + unit.rollovertext + '</td>';
-                info = info + '</tr>';
+                oData = oData + '<td>' + utype + '</td>';
+                oData = oData + '<td>' + returnNode(protoaction.rate['#text']) + '</td>';
+                oData = oData + '<td>' + unit.rollovertext + '</td>';
+                appendNode(oData, 'info', 'tr');
                 break;
             }
         }
-        txt = txt + temp;
     }
-    document.getElementById('output').value = txt;
-    document.getElementById('info').innerHTML = info;
+    setOuterHTML(oArray.join('\n'));
 }
 
-function getTree() {
-    let txt = '';
-    let info = '<tr><th>调用名</th><th>中文名</th><th>大小</th><th>资源总量</th><th>描述</th></tr>';
-    for (i in units) {
-        unit = units[i];
-        let unittypes = returnList(unit.unittype);
-        if (unittypes.includes('Tree')) {
-            txt = txt + unit['@name'] + '\t' + unit.initialresource['#text'] + '\n';
-            info = info + '<tr>';
-            info = info + '<td>' + unit['@name'] + '</td>';
-            info = info + '<td>' + unit.displayname + '</td>';
-            info = info + '<td>' + unit.obstructionradiusx + '*' + unit.obstructionradiusz + '</td>';
-            info = info + '<td>' + unit.initialresource['#text'] + '</td>';
-            info = info + '<td>' + unit.rollovertext + '</td>';
-            info = info + '</tr>';
+async function getTree() {
+    resetInfo();
+    let oArray = [];
+    appendNode('<th class="name">调用名</th><th class="local">中文名</th><th class="name">大小</th><th class="local">资源总量</th><th>描述</th>', 'info', 'tr');
+    let iArray = await getData('unittype', 'tree');
+    if (iArray) {
+        iArray = iArray.list;
+    } else {
+        return;
+    }
+    for (let i in iArray) {
+        let unit = await getData('proto', iArray[i].toLowerCase());
+        if (!unit) {
+            continue;
         }
+        let text = unit['@name'] + '\t' + unit.initialresource['#text'];
+        oArray.push(text);
+        let oData = '<td>' + unit['@name'] + '</td>';
+        oData = oData + '<td>' + unit.displayname + '</td>';
+        oData = oData + '<td>' + unit.obstructionradiusx + '*' + unit.obstructionradiusz + '</td>';
+        oData = oData + '<td>' + unit.initialresource['#text'] + '</td>';
+        oData = oData + '<td>' + unit.rollovertext + '</td>';
+        appendNode(oData, 'info', 'tr');
     }
-    document.getElementById('output').value = txt;
-    document.getElementById('info').innerHTML = info;
+    setOuterHTML(oArray.join('\n'));
 }
 
-function getNative() {
-    let txt = '';
-    let info = '<tr><th class="name">调用名</th><th class="local">中文名</th><th class="name">科技/兵种</th><th class="type">类型</th><th class="local">名称</th><th class="desc">描述</th><th class="effect">属性</th></tr>';
-    for (i in civs) {
-        if (!civs[i].agetech) continue;
-        if (returnNode(civs[i].agetech.tech).indexOf('Native') > -1) {
-            let techeffect = returnList(getTech(civs[i].agetech.tech).effects.effect);
-            txt = txt + civs[i].name + '\t' + civs[i].displayname + '\t';
-            info = info + '<tr>';
-            info = info + '<th rowspan="' + techeffect.length + '">' + civs[i].name + '</th>';
-            info = info + '<td rowspan="' + techeffect.length + '">' + civs[i].displayname + '</td>';
-            for (j in techeffect) {
-                if (j != '0') info = info + '<tr>';
-                if (techeffect[j]['@type'] == 'TechStatus') {
-                    let tempTech = getTech(techeffect[j]['#text']);
-                    txt = txt + '\t\t' + techeffect[j]['#text'] + '\n';
-                    info = info + '<td>' + techeffect[j]['#text'] + '</td><td>科技</td>';
-                    info = info + '<td>' + tempTech.displayname + '</td>';
-                    info = info + '<td>' + tempTech.rollovertext + '</td>';
-                    info = info + '<td><div class="effect">' + getEffects(tempTech.effects, tempTech.displayname); + '</div></td>';
+async function getNative() {
+    resetInfo();
+    let oArray = [];
+    appendNode('<th class="name">调用名</th><th class="local">中文名</th><th class="local">名称</th><th class="type">类型</th><th class="desc">描述</th><th class="effect">属性</th>', 'info', 'tr');
+    let iArray = await getArray('civ', 'all');
+    for (i in iArray) {
+        let civ = iArray[i];
+        if (!civ.agetech) continue;
+        if (returnNode(civ.agetech.tech).indexOf('Native') > -1) {
+            let tech = await getTech(civ.agetech.tech);
+            if (tech) {
+                let text = civ.name + '\t' + civ.displayname;
+                oArray.push(text);
+                let techeffect = returnList(tech.effects.effect);
+                let oData = '<th rowspan="' + techeffect.length + '">' + civ.name + '</th>';
+                oData = oData + '<td rowspan="' + techeffect.length + '">' + civ.displayname + '</td>';
+                for (j in techeffect) {
+                    if (techeffect[j]['@type'] == 'TechStatus') {
+                        let tempTech = await getTech(techeffect[j]['#text']);
+                        oData = oData + '<td>' + tempTech.displayname + '</td><td>科技</td>';
+                        oData = oData + '<td>' + tempTech.rollovertext + '</td>';
+                        oData = oData + '<td class="effect"><div>' /*+getEffects(tempTech.effects, tempTech.displayname)*/ + '</div></td>';
+                    }
+                    if (techeffect[j]['@type'] == 'Data' && techeffect[j]['@subtype'] == 'Enable') {
+                        let target = await getProto(techeffect[j].target['#text']);
+                        oData = oData + '<td>' + target.displayname + '</td><td>单位</td>';
+                        oData = oData + '<td>' + target.rollovertext + '</td>';
+                        oData = oData + '<td class="effect"><div>' + '</div></td>';
+                    }
+                    appendNode(oData, 'info', 'tr');
+                    oData = '';
                 }
-                if (techeffect[j]['@type'] == 'Data' && techeffect[j]['@subtype'] == 'Enable') {
-                    info = info + '<td>' + techeffect[j].target['#text'] + '</td><td>单位</td>';
-                    info = info + '<td>' + getProto(techeffect[j].target['#text']).displayname + '</td>';
-                    info = info + '<td>' + getProto(techeffect[j].target['#text']).rollovertext + '</td>';
-                    info = info + '<td class="effect">' + '</td>';
-                }
-                info = info + '</tr>';
             }
         }
     }
-    document.getElementById('output').value = txt;
-    document.getElementById('info').innerHTML = info;
+    setOuterHTML(oArray.join('\n'));
 }
 
 function getNuggetTech() {

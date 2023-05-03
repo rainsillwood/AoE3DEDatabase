@@ -24,8 +24,8 @@
         let version = '100.14.3853.0';
         let date = '2023/4/24';
         async function test() {
-            let x = await getData('string', '101016');
-            alert(JSON.stringify(x));
+            let x = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0];
+            setOuterHTML(x.join('\n'));
         }
     </script>
     <title>帝国时代3决定版-离线数据查询</title>
@@ -34,45 +34,42 @@
 <body onload="init()">
     <div style="height: 100%;width: 100%;overflow:auto;">
         <div id="databox">
-            <table id="info" cellspacing="0" cellpadding="0">
-                <tr>
-                    <td>114514</td>
-                </tr>
+            <table id="info">
             </table>
         </div>
         <div id="toolbox">
             <div id="tool">
                 <div id="functionbox">
-                    </p>
-                    <div>　当前版本　：<a id="version" onload="">null</a>-<a id="date">null</a></div>
-                    <div>　数据库版本：<a id="versiondatabase">null</a></div>
+                    <div>　·当前版本　：<a id="version">null</a>-<a id="date">null</a></div>
+                    <div>　·数据库版本：<a id="versiondatabase">null</a></div>
                     </p>
                     <div>
                         <button type="button" onclick="updateDatabase()">更新数据库</button>
                         <button type="button" onclick="removeDB()">清除数据库</button>
                         <button type="button" onclick="test()">测试数据</button>
                         </p>
+                        <button type="button" onclick="getStrings()">语言</button>
                         <button type="button" onclick="getTechs()">科技</button>
                         <button type="button" onclick="getProtos()">单位</button>
-                        <button type="button" onclick="getCard()">卡片</button>
-                        <button type="button" onclick="getStrings()">语言</button>
                         </p>
+                        <button type="button" onclick="getCards()">卡片</button>
                         <button type="button" onclick="getCivCard()">文明卡片</button>
-                        <button type="button" onclick="getShrines()">查询神社效率</button>
-                        <button type="button" onclick="getTree()">查询树木</button>
-                        <button type="button" onclick="getNative()">查询土著</button>
-                        <button type="button" onclick="getNuggetTech()">查询科技宝藏</button>
                         </p>
-                        <textarea id="input" cols="55"></textarea>
+                        <button type="button" onclick="getNuggetTech()">科技宝藏</button>
+                        <button type="button" onclick="getNative()">土著</button>
+                        <button type="button" onclick="getShrine()">神社效率</button>
+                        <button type="button" onclick="getTree()">树木</button>
+                        </p>
+                        <textarea id="input"></textarea>
                         </p>
                         <button type="button" onclick="getLocal()">查询中文名</button>
                         <button type="button" onclick="getName()">查询调用名</button>
                         </p>
-                        <textarea id="output" rows="10" cols="55"></textarea>
+                        <textarea id="output" readOnly="true"></textarea>
                     </div>
-                    <button type="button" id="processerShower" onclick="toggleNode('processer');">&gt;</button>
+                    <button type="button" id="loggerShower" onclick="toggleNode('logger');">&gt;</button>
                 </div>
-                <div id="processer" class="hidden"></div>
+                <div id="logger" class="hidden"></div>
             </div>
             <button type="button" id="toolShower" onclick="toggleNode('tool');">&lt;</button>
         </div>

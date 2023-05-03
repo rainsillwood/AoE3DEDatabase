@@ -3,7 +3,7 @@
 }
 
 #toolbox {
-    position: absolute;
+    position: fixed;
     float: left;
     height: 100%;
     top: 0px;
@@ -22,17 +22,20 @@
     height: 100%;
 }
 
-#processer {
+#logger {
     width: 300px;
     right: 20px;
 }
 
 #databox {
     position: absolute;
-    height: 100%;
-    top: 15px;
+    height: calc(100% - 10px);
+    top: 0px;
     left: 20px;
     z-index: -1;
+    overflow: auto;
+    margin: 5px;
+    margin-right: 0px;
 }
 
 #functionbox {
@@ -44,7 +47,7 @@ button {
     text-align: center;
 }
 
-#processerShower {
+#loggerShower {
     position: absolute;
     left: 400px;
     top: 0px;
@@ -55,4 +58,14 @@ button {
 #toolShower {
     height: 100%;
     width: 20px;
+}
+
+#output {
+    width: 400px;
+    height: 500px;
+}
+
+#input {
+    width: 400px;
+    height: 100px;
 }

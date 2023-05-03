@@ -58,24 +58,26 @@ function Sub(num1, num2) {
 }
 
 function logUpdate(id, value) {
-    let temp = document.getElementById(id).innerHTML * 1 + value;
-    document.getElementById(id).innerHTML = temp;
+    let temp = document.getElementById(id);
+    if (temp) {
+        document.getElementById(id).innerHTML = temp.innerHTML * 1 + value;
+    }
 }
 
 function getCookie(key) {
-    var name = key + '=';
-    var iArray = document.cookie.split(';');
-    for (var i = 0; i < iArray.length; i++) {
-        var c = iArray[i].trim();
+    let name = key + '=';
+    let iArray = document.cookie.split(';');
+    for (let i = 0; i < iArray.length; i++) {
+        let c = iArray[i].trim();
         if (c.indexOf(name) == 0) return c.substring(name.length, c.length);
     }
     return '';
 }
 
 function setCookie(key, value, limit) {
-    var d = new Date();
+    let d = new Date();
     d.setTime(d.getTime() + (limit * 24 * 60 * 60 * 1000));
-    var expires = 'expires=' + d.toGMTString();
+    let expires = 'expires=' + d.toGMTString();
     document.cookie = key + '=' + value + '; ' + expires;
 }
 
@@ -105,4 +107,11 @@ function toggleNode(id) {
     } else {
         hideNode(id);
     }
+}
+
+function appendNode(text, father, type) {
+    let node = document.createElement(type);
+    node.innerHTML = text;
+    if (!document.getElementById(father)) return;
+    document.getElementById(father).appendChild(node);
 }

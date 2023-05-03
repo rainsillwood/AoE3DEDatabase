@@ -4,16 +4,19 @@ async function openDB() {
     let request = indexedDB.open('database', 1);
     //请求失败
     request.onerror = function (error) {
-        console.error('数据库打开失败:' + error.target.errorCode);
+        appendNode('数据库打开失败:' + error.target.errorCode, 'logger', 'p');
+        //console.error('数据库打开失败:' + error.target.errorCode);
     }
     //请求成功
     request.onsuccess = function (success) {
-        console.log('数据库打开成功');
+        appendNode('数据库打开成功', 'logger', 'p');
+        //console.log('数据库打开成功');
         database = request.result;
     }
     //更新数据库版本
     request.onupgradeneeded = function (upgrade) {
-        console.log('数据库构建中');
+        appendNode('数据库构建中', 'logger', 'p');
+        //console.log('数据库构建中');
         database = request.result;
         //表string是否存在,否则创建
         if (!database.objectStoreNames.contains('string')) {
@@ -126,12 +129,14 @@ async function openDB() {
                 unique: false
             });
         }
+        appendNode('数据库构建成功', 'logger', 'p');
     }
 }
 //关闭数据库
 function colseDB() {
     database.close();
-    console.log('数据库已关闭');
+    appendNode('数据库已关闭', 'logger', 'p');
+    //console.log('数据库已关闭');
 }
 //删除数据库
 async function removeDB() {
@@ -139,11 +144,13 @@ async function removeDB() {
     setStorage('version', '0');
     let request = indexedDB.deleteDatabase('database');
     request.onsuccess = function (success) {
-        console.log('数据库清除成功');
+        appendNode('数据库清除成功', 'logger', 'p');
+        //console.log('数据库清除成功');
         openDB();
     };
     request.onerror = function (error) {
-        console.log('数据库清除失败');
+        appendNode('数据库清除失败,请重试', 'logger', 'p');
+        //console.log('数据库清除失败');
     };
 }
 //插入数据
@@ -207,7 +214,11 @@ async function getData(table, index, key) {
             resolve(null);
         };
         request.onsuccess = function (success) {
-            resolve(this.result);
+            if (this.result) {
+                resolve(this.result.value);
+            } else {
+                resolve(null);
+            }
         }
     });
 }
