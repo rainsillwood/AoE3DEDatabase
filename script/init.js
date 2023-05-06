@@ -7,6 +7,8 @@ async function init() {
     document.getElementById('version').innerHTML = version;
     document.getElementById('date').innerHTML = date;
     document.getElementById('versiondatabase').innerHTML = getStorage('version');
+    document.getElementById('input').value = '';
+    document.getElementById('output').value = '';
     if ((version + '-' + date) != getStorage('version')) {
         alert('当前数据版本:' + version + '-' + date + ',数据库版本:' + getStorage('version') + '\n请更新数据库');
     }
