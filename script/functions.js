@@ -189,7 +189,7 @@ async function getNative() {
 }
 
 function getNuggetTech() {
-    let info = '<tr><th>调用名</th><th>地图</th><th>难度</th><th>描述</th><th>效果</th></tr>';
+    appendNode('<th>调用名</th><th>地图</th><th>难度</th><th>描述</th><th>效果</th>', 'info', 'tr');
     for (i in nuggets) {
         let nugget = nuggets[i];
         if ('AdjustHP|GiveTech|AdjustSpeed'.indexOf(nugget.type) > -1) {
@@ -209,54 +209,44 @@ function getNuggetTech() {
 }
 
 function getLocal() {
-    let info = '<tr><th class="icon">图标</th><th class="name">调用名</th><th class="local">中文名</th><th class="type">类型</th><th class="desc">描述</th><th class="effect">效果</th></tr>';
-    let values = getInnerHTML();
-    for (i in values) {
-        let value = values[i];
-        if (value == "") continue;
-        info = info + '<tr>';
-        info = info + '<td class="icon">%picture%</td>';
-        info = info + '<td class="name">' + value + '</td>';
-        for (j in techs) {
-            let temp = techs[j];
-            if (temp['@name'].toLowerCase() == value.toLowerCase()) {
-                info = info + '<td class="local">' + temp.displayname + '</td>';
-                info = info.replace('%picture%', '<img src="./Data/wpfg/' + returnNode(temp.icon).replace(/\\/g, '\/') + '" height="128" width="128">');
-                info = info + '<td class="type">科技</td>';
-                info = info + '<td class="desc">' + temp.rollovertext + '</td><td><div class="effect">';
-                info = info + getEffects(temp.effects, temp.displayname);
-                /*if (!!temp.effects) {
-                    let effects = returnList(temp.effects.effect);
-                    for (k in effects) {
-                        info = info + getEffect(effects[k], temp.displayname) + '<br>';
-                    }
-                }*/
-                info = info + '</div></td>';
-                break;
-            }
-        }
-        for (j in units) {
-            let temp = units[j];
-            if (temp['@name'].toLowerCase() == value.toLowerCase()) {
-                info = info + '<td>' + strings[temp.displaynameid] + '</td>';
-                info = info.replace('%picture%', '<img src="./Data/wpfg/' + temp.icon.replace(/\\/g, '\/') + '">');
-                info = info + '<td>单位</td>';
-                info = info + '<td>' + strings[temp.rollovertextid] + '</td>';
-                info = info + '<td>' + '</td>';
-                break;
+    appendNode('<th class="icon">图标</th><th class="name">调用名</th><th class="local">中文名</th><th class="type">类型</th><th class="desc">描述</th><th class="effect">效果</th>', 'info', 'tr');
+    let iArray = getInnerHTML();
+    for (i in iArray) {
+        let iData = iArray[i];
+        if (iData == "") continue;
+        let oString = '<td class="icon">%picture%</td>';
+        oString = oString + '<td class="name">' + iData + '</td>';
+        let oData = getTech(iData.toLowerCase());
+        if (oData) {
+            oString = oString + '<td>' + oData.displayname + '</td>';
+            oString = oString.replace('%picture%', '<img src="./Data/wpfg/' + returnNode(oData.icon).replace(/\\/g, '\/') + '" height="128" width="128">');
+            oString = oString + '<td>科技</td>';
+            oString = oString + '<td>' + oData.rollovertext + '</td><td><div class="effect">';
+            oString = oString + getEffects(oData.effects, oData.displayname);
+            oString = oString + '</div></td>';
+        } else {
+            if (oData) {
+                oData = getProto(iData.toLowerCase());
+                oString = oString + '<td>' + strings[oData.displaynameid] + '</td>';
+                oString = oString.replace('%picture%', '<img src="./Data/wpfg/' + oData.icon.replace(/\\/g, '\/') + '">');
+                oString = oString + '<td>单位</td>';
+                oString = oString + '<td>' + strings[oData.rollovertextid] + '</td>';
+                oString = oString + '<td>' + '</td>';
+            } else {
+
             }
         }
         for (j in nuggets) {
             let temp = nuggets[j];
-            if (temp.name.toLowerCase() == value.toLowerCase()) {
-                info = info + '<td>' + strings[temp.rolloverstringid]['#text'] + '</td>';
-                info = info + '<td>宝藏</td>';
+            if (temp.name.toLowerCase() == iData.toLowerCase()) {
+                oString = oString + '<td>' + strings[temp.rolloverstringid]['#text'] + '</td>';
+                oString = oString + '<td>宝藏</td>';
                 /*.replace(/%2s/, tString[temp.resource] ? tString[temp.resource] : temp.resource).replace(/%1d/, temp.amount)*/
                 ;
-                info = info + '<td>' + strings[temp.applystringid]['#text'] + '</td>';
+                oString = oString + '<td>' + strings[temp.applystringid]['#text'] + '</td>';
             }
         }
-        info = info + '</tr>';
+        appendNode(oString, 'info', 'tr');
     }
     document.getElementById('info').innerHTML = info;
 }

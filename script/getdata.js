@@ -61,3 +61,12 @@ async function getProto(id) {
     if (!oData) oData = { 'displayname': '<del>' + id + '</del>', 'rollovertext': '找不到该单位', '@name': id };
     return oData;
 }
+//返回宝藏
+async function getNugget(id) {
+    if (!id) {
+        return { 'name': '空', 'rolloverstring': '空' };
+    }
+    let oData = await getData('nugget', id.toLowerCase());
+    if (!oData) oData = { 'name': '<del>' + id + '</del>', 'rolloverstring': '找不到该单位' };
+    return oData;
+}

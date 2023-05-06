@@ -1,11 +1,12 @@
 
 //科技效果
-function getEffects(effects, name) {
+async function getEffects(effects, name) {
     let oData = '';
     if (effects) {
         let effectList = returnList(effects.effect);
         for (i in effectList) {
-            oData = oData + getEffect(effectList[i], name) + '</br>';
+            let iData = await getEffect(effectList[i], name);
+            oData = oData + iData + '</br>';
         }
     }
     return oData;
