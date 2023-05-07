@@ -28,6 +28,12 @@ async function getCString(textID) {
         //targetID不为空:'<ruby>' + iData['#text'] + '<rt>' + targetID + '<rt>' + '</ruby>';
         let iData = await getData('string', 'cstring' + textID.toLowerCase(), 'symbol');
         if (!iData) {
+            iData = await getData('string', 'cstringabstractname' + textID.toLowerCase(), 'symbol');
+        }
+        if (!iData) {
+            iData = await getData('string', 'cstringabstract' + textID.toLowerCase(), 'symbol');
+        }
+        if (!iData) {
             iData = await getData('string', 'cstring' + textID.toLowerCase().replace('abstract', ''), 'symbol');
         }
         if (!iData) {

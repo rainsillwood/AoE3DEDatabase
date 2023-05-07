@@ -21,18 +21,20 @@
         var unitflags = {};
         var unittypes = {};
         var database;
-        let version = '100.14.3853.0';
-        let date = '2023/4/24';
+        var version = '100.14.3853.0';
+        var date = '2023/4/24';
+        var language = {};
+        var logger;
         async function test() {
-            let x = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0];
-            setOuterHTML(x.join('\n'));
+            let x = document.getElementById('language').options['1'].text;
+            setOuterHTML(x);
         }
     </script>
     <title>帝国时代3决定版-离线数据查询</title>
 </head>
 
 <body onload="init()">
-    <div style="overflow:auto;">
+    <div>
         <div id="databox">
             <table id="info">
             </table>
@@ -46,38 +48,56 @@
                         <button type="button" id="loggerShower" onclick="toggleNode('logger');">&gt;</button>
                         <button type="button" onclick="updateDatabase()">更新数据库</button>
                         <button type="button" onclick="removeDB()">清除数据库</button>
-                        <button type="button" onclick="test()"><del>测试数据</del></button>
-                        <div>·当前版本　：<a id="version">0</a>-<a id="date">0</a></div>
-                        <div>·数据库版本：<a id="versionDatabase">0</a>-<a id="dateDatabase">0</a></div>
+                        <select id="language">
+                            <option value="null">🏁未选择</option>
+                            <option value="SimplifiedChinese">🇨🇳简体中文(MOD)</option>
+                            <option value="TraditionalChinese">🇹🇼繁體中文</option>
+                            <option value="English">🇬🇧English</option>
+                            <option value="Japanese">🇯🇵日本語</option>
+                            <option value="Russian">🇷🇺Pусский</option>
+                            <option value="French">🇫🇷Français</option>
+                            <option value="German">🇩🇪Deutsch</option>
+                            <option value="Hindi">🇮🇳हिन्दी</option>
+                            <option value="Italian">🇮🇹Italiano</option>
+                            <option value="Korean">🇰🇷한국어</option>
+                            <option value="Malay">🇲🇾Bahasa Melayu</option>
+                            <option value="PortugueseBrazil">🇧🇷Português-Brazil</option>
+                            <option value="Spanish">🇪🇸Español</option>
+                            <option value="Turkish">🇹🇷Türkçe</option>
+                            <option value="Vietnamese">🇻🇳Tiếng Việt</option>
+                        </select>
                     </div>
-                    </p>
+                    <hr>
+                    <div style="white-space: nowrap;">
+                        当前版本　:<a id="version">0</a>-<a id="date">0</a><button type="button"
+                            onclick="test()"><del>测试数据</del></button>
+                        </br>
+                        数据库版本:<a id="versionDatabase">0</a>-<a id="dateDatabase">0</a><a id="languageDatabase">0</a>
+                    </div>
+                    <hr>
                     <div>
-                        </p>
                         <button type="button" onclick="getStrings()">语言</button>
                         <button type="button" onclick="getTechs()">科技</button>
                         <button type="button" onclick="getProtos()">单位</button>
-                        </p>
+                    </div>
+                    <hr>
+                    <div>
                         <button type="button" onclick="getCards()">卡片</button>
-                        <button type="button" onclick="getCivCard()"><del>文明卡片</del></button>
-                        </p>
-                        <button type="button" onclick="getNuggetTech()"><del>科技宝藏</del></button>
+                        <button type="button" onclick="getNugget()">宝藏</button>
                         <button type="button" onclick="getNative()">土著</button>
+                        </br>
+                        <button type="button" onclick="getCivCard()"><del>文明卡片</del></button>
                         <button type="button" onclick="getShrine()">神社效率</button>
                         <button type="button" onclick="getTree()">树木</button>
-                        </p>
+                    </div>
+                    <hr>
+                    <div>
                         <textarea id="input"></textarea>
-                        </p>
+                        </br>
                         <button type="button" onclick="getInfo()">查询资料</br>宝藏/科技/单位</button>
                         <button type="button" onclick="searchInfo()"><del>反查资料</br>科技/单位</del></button>
-                        </p>
-                        <textarea id="output" readOnly="true"></textarea>
                     </div>
-                    <select id="language" selectedIndex="1">
-                        <option selected="SimplifiedChinese">简体中文</option>
-                        <option selected="TraditionalChinese"><del>繁體中文</del></option>
-                        <option selected="English"><del>English</del></option>
-                        <option selected="Japanese"><del>日本語</del></option>
-                    </select>
+                    <textarea id="output" readOnly="true"></textarea>
                 </div>
             </div>
         </div>

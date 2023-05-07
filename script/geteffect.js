@@ -1,20 +1,19 @@
-
 //科技效果
-async function getEffects(effects, name) {
-    let oData = '';
+async function getEffects(effects, techName) {
+    let oString = '';
     if (effects) {
         let effectList = returnList(effects.effect);
         for (i in effectList) {
-            let iData = await getEffect(effectList[i], name);
-            oData = oData + iData + '</br>';
+            let iString = await getEffect(effectList[i], techName);
+            oString = oString + iString + '</br>';
         }
     }
-    return oData;
+    return oString;
 }
-//效果解析
+//效果解析,包括宝藏
 async function getEffect(effect, tech) {
-    let information = effect['@type'] + ':';
-    switch (effect['@type']) {
+    let type = effect['@type'] ? effect['@type'] : 'Nugget';
+    switch (type) {
         //开/关科技
         case 'TechStatus':
             let status = effect['@status'].toLowerCase();
@@ -39,6 +38,9 @@ async function getEffect(effect, tech) {
             break;
         //改变数据
         case 'Data2':
+            information = subType(effect);
+            break;
+        case 'Nugget':
             information = subType(effect);
             break;
         case 'CommandAdd':
@@ -819,6 +821,28 @@ function subType(effect) {
         case 'Strelet':
             //euTreasureTechRifleInfantryBonusHP{"target":{"_type":"ProtoUnit","__text":"AbstractRifleman"},"_type":"Data",['@amount']":"0.10","_subtype":"Strelet","_unittype":"AbstractHeavyInfantry","_allactions":"1","_relativity":"Absolute"}
             return '待测试';
+        case 'AdjustResource':
+            information = effect.applystring;
+            information.replace('%1!s!', '玩家').replace('%2!d!', effect.amount).replace('%3!s!', target)
+            break;
+        case 'information':
+            information = '待测试';
+            break;
+        case 'ConvertUnit':
+            information = '待测试';
+            break;
+        case 'SpawnUnit':
+            information = '待测试';
+            break;
+        case 'AdjustSpeed':
+            information = '待测试';
+            break;
+        case 'AdjustHP':
+            information = '待测试';
+            break;
+        case 'GiveTech':
+            information = '待测试';
+            break;
         default:
             return JSON.stringify(effect);
     }

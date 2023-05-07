@@ -9,7 +9,12 @@ function setOuterHTML(text) {
 function resetInfo() {
     document.getElementById('info').innerHTML = '';
 }
+
 async function getTechs() {
+    if (version != getStorage('version')) {
+        alert('当前数据版本:' + version + ',数据库版本:' + getStorage('version') + '\n请更新数据库');
+        return;
+    }
     let oArray = [];
     let iArray = await getArray('techtree', 'all');
     for (let i in iArray) {
@@ -29,6 +34,10 @@ async function getTechs() {
 }
 
 async function getProtos() {
+    if (version != getStorage('version')) {
+        alert('当前数据版本:' + version + ',数据库版本:' + getStorage('version') + '\n请更新数据库');
+        return;
+    }
     let oArray = [];
     let iArray = await getArray('proto', 'all');
     for (let i in iArray) {
@@ -40,6 +49,10 @@ async function getProtos() {
 }
 
 async function getStrings() {
+    if (version != getStorage('version')) {
+        alert('当前数据版本:' + version + ',数据库版本:' + getStorage('version') + '\n请更新数据库');
+        return;
+    }
     let oArray = [];
     let iArray = await getArray('string', 'all');
     for (let i in iArray) {
@@ -51,6 +64,10 @@ async function getStrings() {
 }
 
 async function getCards() {
+    if (version != getStorage('version')) {
+        alert('当前数据版本:' + version + ',数据库版本:' + getStorage('version') + '\n请更新数据库');
+        return;
+    }
     let oArray = [];
     let iArray = await getData('techflag', 'homecity');
     if (iArray) {
@@ -65,87 +82,6 @@ async function getCards() {
         }
         let text = tech['@name'] + '\t' + tech.displayname + '\t' + tech.rollovertext;
         oArray.push(text.replace(/<ruby>/g, '').replace(/<\/ruby>/g, '').replace(/<rt>.*?<\/rt>/g, ''));
-    }
-    setOuterHTML(oArray.join('\n'));
-}
-/*
-function getCivCards() {
-    let txt = '';
-    for (i in homecitys) {
-        let homecity = homecitys[i];
-        let cards = homecity.cards.card;
-        for (j in cards) {
-            let card = cards[j];
-            let temp = homecity.civ + ((card.revoltcard == '') ? '[R]' : '');
-            if (!(!)) {
-                temp = temp + '[R]';
-            }
-            temp = temp + '\t' + card.name + '\t' + returnNode(card.maxcount) + '\t' + returnNode(card.age) + '\n';
-            txt = txt + temp;
-        }
-    }
-    document.getElementById('output').value = txt;
-}
-*/
-async function getShrine() {
-    resetInfo();
-    let oArray = [];
-    appendNode('<th class="name">调用名</th><th class="local">中文名</th><th class="type">种类</th><th class="name">生产效率</th><th>描述</th>', 'info', 'tr');
-    let iArray = await getArray('proto', 'all');
-    for (i in iArray) {
-        let unit = iArray[i];
-        if (!unit.protoaction) {
-            continue;
-        }
-        let protoactions = returnList(unit.protoaction);
-        for (j in protoactions) {
-            let protoaction = protoactions[j];
-            if (protoaction.name == 'ShrineGather') {
-                let text = returnNode(unit['@name']) + '\t' + returnNode(protoaction.rate['#text']);
-                oArray.push(text);
-                let oData = '<td>' + returnNode(unit['@name']) + '</td>';
-                oData = oData + '<td>' + unit.displayname + '</td>';
-                let unittypes = returnList(returnNode(unit.unittype));
-                let utype = '';
-                if (unittypes.includes('Herdable')) {
-                    utype = utype + '养殖';
-                } else if (unittypes.includes('Huntable')) {
-                    utype = utype + '捕猎';
-                }
-                oData = oData + '<td>' + utype + '</td>';
-                oData = oData + '<td>' + returnNode(protoaction.rate['#text']) + '</td>';
-                oData = oData + '<td>' + unit.rollovertext + '</td>';
-                appendNode(oData, 'info', 'tr');
-                break;
-            }
-        }
-    }
-    setOuterHTML(oArray.join('\n'));
-}
-
-async function getTree() {
-    resetInfo();
-    let oArray = [];
-    appendNode('<th class="name">调用名</th><th class="local">中文名</th><th class="name">大小</th><th class="local">资源总量</th><th>描述</th>', 'info', 'tr');
-    let iArray = await getData('unittype', 'tree');
-    if (iArray) {
-        iArray = iArray.list;
-    } else {
-        return;
-    }
-    for (let i in iArray) {
-        let unit = await getData('proto', iArray[i].toLowerCase());
-        if (!unit) {
-            continue;
-        }
-        let text = unit['@name'] + '\t' + unit.initialresource['#text'];
-        oArray.push(text);
-        let oData = '<td>' + unit['@name'] + '</td>';
-        oData = oData + '<td>' + unit.displayname + '</td>';
-        oData = oData + '<td>' + unit.obstructionradiusx + '*' + unit.obstructionradiusz + '</td>';
-        oData = oData + '<td>' + unit.initialresource['#text'] + '</td>';
-        oData = oData + '<td>' + unit.rollovertext + '</td>';
-        appendNode(oData, 'info', 'tr');
     }
     setOuterHTML(oArray.join('\n'));
 }
@@ -188,28 +124,126 @@ async function getNative() {
     setOuterHTML(oArray.join('\n'));
 }
 
-function getNuggetTech() {
+async function getNugget() {
+    if (version != getStorage('version')) {
+        alert('当前数据版本:' + version + ',数据库版本:' + getStorage('version') + '\n请更新数据库');
+        return;
+    }
     resetInfo();
-    appendNode('<th>调用名</th><th>地图</th><th>难度</th><th>描述</th><th>效果</th>', 'info', 'tr');
-    for (i in nuggets) {
-        let nugget = nuggets[i];
-        if ('AdjustHP|GiveTech|AdjustSpeed'.indexOf(nugget.type) > -1) {
-            info = info + '<tr><td>' + nugget.name + '</td>';
-            info = info + '<td>';
-            let maptypes = returnList(nugget.maptype);
-            for (j in maptypes) {
-                info = info + maptypes[j] + '<br>';
+    appendNode('<th class="name">调用名</th><th class="local">地图列表</th><th class="type">难度</th><th class="desc">描述</th><th>效果</th>',
+        'info', 'tr');
+    let iArray = await getArray('nugget', 'all');
+    for (i in iArray) {
+        let iData = iArray[i];
+        oString = '<td>' + iData.name + '</td>';
+        oString = oString + '<td>';
+        let maptypes = returnList(iData.maptype);
+        for (j in maptypes) {
+            oString = oString + maptypes[j] + '<br>';
+        }
+        oString = oString + '</td>';
+        oString = oString + '<td>' + iData.difficulty + '</td>';
+        oString = oString + '<td>' + iData.rolloverstring + '</td>';
+        //let effect = await getEffect(iData, iData.name);
+        oString = oString + '<td><div class="effect">' + /*effect +*/ '</div></td>';
+        appendNode(oString, 'info', 'tr');
+    }
+}
+/*
+function getCivCards() {
+    let txt = '';
+    for (i in homecitys) {
+        let homecity = homecitys[i];
+        let cards = homecity.cards.card;
+        for (j in cards) {
+            let card = cards[j];
+            let temp = homecity.civ + ((card.revoltcard == '') ? '[R]' : '');
+            if (!(!)) {
+                temp = temp + '[R]';
             }
-            info = info + '</td>';
-            info = info + '<td>' + nugget.difficulty + '</td>';
-            info = info + '<td>' + nugget.rolloverstring + '</td>';
-            info = info + '<td>' + nugget.applystring + '</td></tr>';
+            temp = temp + '\t' + card.name + '\t' + returnNode(card.maxcount) + '\t' + returnNode(card.age) + '\n';
+            txt = txt + temp;
         }
     }
-    document.getElementById('info').innerHTML = info;
+    document.getElementById('output').value = txt;
+}
+*/
+async function getShrine() {
+    if (version != getStorage('version')) {
+        alert('当前数据版本:' + version + ',数据库版本:' + getStorage('version') + '\n请更新数据库');
+        return;
+    }
+    resetInfo();
+    let oArray = [];
+    appendNode('<th class="name">调用名</th><th class="local">中文名</th><th class="type">种类</th><th class="name">生产效率</th><th>描述</th>', 'info', 'tr');
+    let iArray = await getArray('proto', 'all');
+    for (i in iArray) {
+        let unit = iArray[i];
+        if (!unit.protoaction) {
+            continue;
+        }
+        let protoactions = returnList(unit.protoaction);
+        for (j in protoactions) {
+            let protoaction = protoactions[j];
+            if (protoaction.name == 'ShrineGather') {
+                let text = returnNode(unit['@name']) + '\t' + returnNode(protoaction.rate['#text']);
+                oArray.push(text);
+                let oData = '<td>' + returnNode(unit['@name']) + '</td>';
+                oData = oData + '<td>' + unit.displayname + '</td>';
+                let unittypes = returnList(returnNode(unit.unittype));
+                let utype = '';
+                if (unittypes.includes('Herdable')) {
+                    utype = utype + '养殖';
+                } else if (unittypes.includes('Huntable')) {
+                    utype = utype + '捕猎';
+                }
+                oData = oData + '<td>' + utype + '</td>';
+                oData = oData + '<td>' + returnNode(protoaction.rate['#text']) + '</td>';
+                oData = oData + '<td>' + unit.rollovertext + '</td>';
+                appendNode(oData, 'info', 'tr');
+                break;
+            }
+        }
+    }
+    setOuterHTML(oArray.join('\n'));
+}
+
+async function getTree() {
+    if (version != getStorage('version')) {
+        alert('当前数据版本:' + version + ',数据库版本:' + getStorage('version') + '\n请更新数据库');
+        return;
+    }
+    resetInfo();
+    let oArray = [];
+    appendNode('<th class="name">调用名</th><th class="local">中文名</th><th class="name">大小</th><th class="local">资源总量</th><th>描述</th>', 'info', 'tr');
+    let iArray = await getData('unittype', 'tree');
+    if (iArray) {
+        iArray = iArray.list;
+    } else {
+        return;
+    }
+    for (let i in iArray) {
+        let unit = await getData('proto', iArray[i].toLowerCase());
+        if (!unit) {
+            continue;
+        }
+        let text = unit['@name'] + '\t' + unit.initialresource['#text'];
+        oArray.push(text);
+        let oData = '<td>' + unit['@name'] + '</td>';
+        oData = oData + '<td>' + unit.displayname + '</td>';
+        oData = oData + '<td>' + unit.obstructionradiusx + '*' + unit.obstructionradiusz + '</td>';
+        oData = oData + '<td>' + unit.initialresource['#text'] + '</td>';
+        oData = oData + '<td>' + unit.rollovertext + '</td>';
+        appendNode(oData, 'info', 'tr');
+    }
+    setOuterHTML(oArray.join('\n'));
 }
 
 async function getInfo() {
+    if (version != getStorage('version')) {
+        alert('当前数据版本:' + version + ',数据库版本:' + getStorage('version') + '\n请更新数据库');
+        return;
+    }
     resetInfo();
     appendNode('<th class="icon">图标</th><th class="name">调用名</th><th class="local">中文名</th><th class="type">类型</th><th class="desc">描述</th><th class="effect">效果</th>',
         'info', 'tr');
@@ -260,8 +294,13 @@ async function getInfo() {
 }
 
 function searchInfo() {
+    if (version != getStorage('version')) {
+        alert('当前数据版本:' + version + ',数据库版本:' + getStorage('version') + '\n请更新数据库');
+        return;
+    }
     resetInfo();
-    appendNode('<th>查询字段 class="icon"</th><th class="name">调用名</th><th class="local">中文名</th>', 'info', 'tr');
+    appendNode('<th>查询字段 class="icon"</th><th class="name">调用名</th><th class="local">中文名</th>',
+        'info', 'tr');
     let iArray = getInnerHTML();
     let tempList = [];
     for (i in techs) {

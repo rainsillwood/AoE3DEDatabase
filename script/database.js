@@ -4,18 +4,18 @@ async function openDB() {
     let request = indexedDB.open('database', 1);
     //请求失败
     request.onerror = function (error) {
-        appendNode('数据库打开失败:' + error.target.errorCode, 'logger', 'p');
+        appendNode('数据库打开失败:' + error.target.errorCode, 'logger', 'div');
         //console.error('数据库打开失败:' + error.target.errorCode);
     }
     //请求成功
     request.onsuccess = function (success) {
-        appendNode('数据库打开成功', 'logger', 'p');
+        appendNode('数据库打开成功', 'logger', 'div');
         //console.log('数据库打开成功');
         database = request.result;
     }
     //更新数据库版本
     request.onupgradeneeded = function (upgrade) {
-        appendNode('数据库构建中', 'logger', 'p');
+        appendNode('数据库构建中', 'logger', 'div');
         //console.log('数据库构建中');
         database = request.result;
         //表string是否存在,否则创建
@@ -35,7 +35,7 @@ async function openDB() {
             let objectStore = database.createObjectStore('proto', {
                 keyPath: 'index'
             });
-            objectStore.createIndex('local', 'symbol', {
+            objectStore.createIndex('local', 'local', {
                 unique: false
             });
             objectStore.createIndex('value', 'value', {
@@ -47,7 +47,7 @@ async function openDB() {
             let objectStore = database.createObjectStore('techtree', {
                 keyPath: 'index'
             });
-            objectStore.createIndex('local', 'symbol', {
+            objectStore.createIndex('local', 'local', {
                 unique: false
             });
             objectStore.createIndex('value', 'value', {
@@ -68,6 +68,9 @@ async function openDB() {
             let objectStore = database.createObjectStore('nugget', {
                 keyPath: 'index'
             });
+            objectStore.createIndex('type', 'type', {
+                unique: false
+            });
             objectStore.createIndex('value', 'value', {
                 unique: false
             });
@@ -86,7 +89,7 @@ async function openDB() {
             let objectStore = database.createObjectStore('command', {
                 keyPath: 'index'
             });
-            objectStore.createIndex('local', 'symbol', {
+            objectStore.createIndex('local', 'local', {
                 unique: false
             });
             objectStore.createIndex('value', 'value', {
@@ -116,7 +119,7 @@ async function openDB() {
             let objectStore = database.createObjectStore('action', {
                 keyPath: 'index'
             });
-            objectStore.createIndex('local', 'symbol', {
+            objectStore.createIndex('local', 'local', {
                 unique: false
             });
             objectStore.createIndex('value', 'value', {
@@ -150,29 +153,31 @@ async function openDB() {
                 unique: false
             });
         }
-        appendNode('数据库构建成功', 'logger', 'p');
+        appendNode('数据库构建成功', 'logger', 'div');
     }
 }
 //关闭数据库
 function colseDB() {
     database.close();
-    appendNode('数据库已关闭', 'logger', 'p');
+    appendNode('数据库已关闭', 'logger', 'div');
     //console.log('数据库已关闭');
 }
 //删除数据库
 async function removeDB() {
     colseDB();
+    logger.innerHTML = '';
     setStorage('version', '0');
     setStorage('date', '0');
+    setStorage('language', '0');
     let request = indexedDB.deleteDatabase('database');
     request.onsuccess = function (success) {
-        appendNode('数据库清除成功', 'logger', 'p');
+        appendNode('数据库清除成功', 'logger', 'div');
         //console.log('数据库清除成功');
         openDB();
         init();
     };
     request.onerror = function (error) {
-        appendNode('数据库清除失败,请重试', 'logger', 'p');
+        appendNode('数据库清除失败,请重试', 'logger', 'div');
         //console.log('数据库清除失败');
     };
 }
