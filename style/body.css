@@ -4,15 +4,15 @@
 
 #toolbox {
     position: fixed;
-    float: left;
+    float: right;
     height: 100%;
     top: 0px;
-    left: 0px;
+    right: 0px;
     background-color: white;
 }
 
 #tool {
-    float: left;
+    float: right;
     height: 100%;
     overflow: auto;
 }
@@ -22,23 +22,19 @@
     height: 100%;
 }
 
-#logger {
-    width: 300px;
-    right: 20px;
-}
-
 #databox {
     position: absolute;
     height: calc(100% - 10px);
+    width: calc(100% - 25px);
     top: 0px;
-    left: 20px;
+    left: 0px;
     z-index: -1;
     overflow: auto;
     margin: 5px;
-    margin-right: 0px;
 }
 
 #functionbox {
+    float: left;
     width: 420px;
 }
 
@@ -47,12 +43,22 @@ button {
     text-align: center;
 }
 
+#logger {
+    width: 300px;
+    left: 20px;
+}
+
 #loggerShower {
-    position: absolute;
-    left: 400px;
+    left: 0px;
     top: 0px;
-    height: 20px;
     width: 20px
+}
+
+#language {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 100px
 }
 
 #toolShower {
@@ -62,7 +68,7 @@ button {
 
 #output {
     width: 400px;
-    height: 500px;
+    height: 520px;
 }
 
 #input {

@@ -189,6 +189,7 @@ async function getNative() {
 }
 
 function getNuggetTech() {
+    resetInfo();
     appendNode('<th>调用名</th><th>地图</th><th>难度</th><th>描述</th><th>效果</th>', 'info', 'tr');
     for (i in nuggets) {
         let nugget = nuggets[i];
@@ -209,85 +210,59 @@ function getNuggetTech() {
 }
 
 async function getInfo() {
-    appendNode('<th class="icon">图标</th><th class="name">调用名</th><th class="local">中文名</th><th class="type">类型</th><th class="desc">描述</th><th class="effect">效果</th>', 'info', 'tr');
+    resetInfo();
+    appendNode('<th class="icon">图标</th><th class="name">调用名</th><th class="local">中文名</th><th class="type">类型</th><th class="desc">描述</th><th class="effect">效果</th>',
+        'info', 'tr');
     let iArray = getInnerHTML();
     for (i in iArray) {
         let iData = iArray[i];
         if (iData == "") continue;
-        let oType = '';
+        let oString = '<td class="icon"><img src="./Data/wpfg/%picturesrc%"></td>';
+        //处理宝藏
         let oData = await getNugget(iData.toLowerCase());
-        if (oData.isNull) {
-            oData = await getTech(iData.toLowerCase());
-        } else {
-            oType = 'nugget';
-        }
-        if (oData.isNull) {
-            oData = await getProto(iData.toLowerCase());
-        } else {
-            oType = 'tech';
-        }
-        if (oData.isNull) {
-            oType = 'unknown';
-        } else {
-            oType = 'proto';
-        }
-        let oString = '<td class="icon">%picture%</td>';
-        oString = oString + '<td class="name">' + iData + '</td>';
-        switch (oType) {
-            case 'proto': {
-                oString = oString.replace('%picture%', '<img src="./Data/wpfg/' + returnNode(oData.icon).replace(/\\/g, '\/') + '" height="128" width="128">');
-                oString = oString + '<td>' + oData.displayname + '</td>';
-                oString = oString + '<td>单位</td>';
-                oString = oString + '<td>' + oData.rollovertext + '</td>';
-                oString = oString + '<td>' + '</td>';
-                break;
-            }
-            case 'tech': {
-                oString = oString.replace('%picture%', '<img src="./Data/wpfg/' + returnNode(oData.icon).replace(/\\/g, '\/') + '" height="128" width="128">');
-                oString = oString + '<td>' + oData.displayname + '</td>';
-                oString = oString + '<td>科技</td>';
-                oString = oString + '<td>' + oData.rollovertext + '</td>';
-                oString = oString + '<td><div class="effect">' + getEffects(oData.effects, oData.displayname) + '</div></td>';
-                break;
-            }
-            case 'nugget': {
-                let nuggetUint = await getProto(oData.nuggetunit);
-                oString = oString.replace('%picture%', '<img src="./Data/wpfg/' + returnNode(nuggetUint.icon).replace(/\\/g, '\/') + '" height="128" width="128">');
-                oString = oString + '<td>' + nuggetUint.displayname + '</td>';
-                oString = oString + '<td>宝藏</td>';
-                oString = oString + '<td>' + oData.rolloverstring + '</td>';
-                oString = oString + '<td>' + '</td>';
-                break;
-            }
-            case 'unknown': {
-                break;
-            }
-            default: {
-                break;
-            }
-        }
-        /*
-        let oData = getTech(iData.toLowerCase());
         if (!oData.isNull) {
-        } else {
-            if (!oData.isNull) {
-            } else {
-
-            }
+            let nuggetUint = await getProto(oData.nuggetunit);
+            oString = oString.replace('%picturesrc%', returnNode(nuggetUint.icon).replace(/\\/g, '\/') + '" height="64" width="64');
+            oString = oString + '<td>' + oData.name + '</td>';
+            oString = oString + '<td>' + nuggetUint.displayname + '</td>';
+            oString = oString + '<td>宝藏</td>';
+            oString = oString + '<td>' + oData.rolloverstring + '</td>';
+            oString = oString + '<td><div class="effect">' + oData.applystring + '</div></td>';
+            appendNode(oString, 'info', 'tr');
+            continue;
         }
-        for (j in nuggets) {
-            let temp = nuggets[j];
-            if (temp.name.toLowerCase() == iData.toLowerCase()) {
-            }
-        }*/
-        appendNode(oString, 'info', 'tr');
+        //处理科技
+        oData = await getTech(iData.toLowerCase());
+        if (!oData.isNull) {
+            let icon = (!oData.iconwpf) ? (returnNode(oData.icon) + '" height="64" width="64') : (returnNode(oData.iconwpf) + '" height="205" width="135');
+            oString = oString.replace('%picturesrc%', icon.replace(/\\/g, '\/'));
+            oString = oString + '<td>' + oData['@name'] + '</td>';
+            oString = oString + '<td>' + oData.displayname + '</td>';
+            oString = oString + '<td>科技</td>';
+            oString = oString + '<td>' + oData.rollovertext + '</td>';
+            oString = oString + '<td><div class="effect">' + /*getEffects(oData.effects, oData.displayname) + */'</div></td>';
+            appendNode(oString, 'info', 'tr');
+            continue;
+        }
+        //处理单位
+        oData = await getProto(iData.toLowerCase());
+        if (!oData.isNull) {
+            oString = oString.replace('%picturesrc%', returnNode(oData.icon).replace(/\\/g, '\/') + '" height="64" width="64');
+            oString = oString + '<td>' + oData['@name'] + '</td>';
+            oString = oString + '<td>' + oData.displayname + '</td>';
+            oString = oString + '<td>单位</td>';
+            oString = oString + '<td>' + oData.rollovertext + '</td>';
+            oString = oString + '<td><div class="effect">' + '</div></td>';
+            appendNode(oString, 'info', 'tr');
+            continue;
+        }
     }
-    document.getElementById('info').innerHTML = info;
 }
 
 function searchInfo() {
-    let info = '<tr><th>中文名</th><th>调用名</th></tr>';
-    let values = getInnerHTML();
+    resetInfo();
+    appendNode('<th>查询字段 class="icon"</th><th class="name">调用名</th><th class="local">中文名</th>', 'info', 'tr');
+    let iArray = getInnerHTML();
     let tempList = [];
     for (i in techs) {
         let temp = {};
@@ -305,21 +280,21 @@ function searchInfo() {
         temp.type = '单位'
         tempList.push(temp);
     }
-    for (i in values) {
-        let value = values[i];
+    for (i in iArray) {
+        let value = iArray[i];
         if (value == "") continue;
-        info = info + '<tr><td>' + value + '</td><td><table border="1">';
+        oString = oString + '<tr><td>' + value + '</td><td><table border="1">';
         for (j in tempList) {
             let temp = tempList[j];
             if (returnNode(temp.displayname).indexOf(value) > -1) {
-                info = info + '<tr><td>' + temp.name + '</td>';
-                info = info + '<td>' + temp.displayname + '</td>';
-                info = info + '<td>' + temp.type + '</td>';
-                info = info + '<td>' + temp.rollovertext + '</td></tr>';
+                oString = oString + '<tr><td>' + temp.name + '</td>';
+                oString = oString + '<td>' + temp.displayname + '</td>';
+                oString = oString + '<td>' + temp.type + '</td>';
+                oString = oString + '<td>' + temp.rollovertext + '</td></tr>';
             }
         }
-        info = info + '</table></td>';
+        oString = oString + '</table></td>';
     }
-    info = info + '</table>';
-    document.getElementById('info').innerHTML = info;
+    oString = oString + '</table>';
+    document.getElementById('info').innerHTML = oString;
 }

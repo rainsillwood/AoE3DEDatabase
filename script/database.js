@@ -35,6 +35,9 @@ async function openDB() {
             let objectStore = database.createObjectStore('proto', {
                 keyPath: 'index'
             });
+            objectStore.createIndex('local', 'symbol', {
+                unique: false
+            });
             objectStore.createIndex('value', 'value', {
                 unique: false
             });
@@ -43,6 +46,9 @@ async function openDB() {
         if (!database.objectStoreNames.contains('techtree')) {
             let objectStore = database.createObjectStore('techtree', {
                 keyPath: 'index'
+            });
+            objectStore.createIndex('local', 'symbol', {
+                unique: false
             });
             objectStore.createIndex('value', 'value', {
                 unique: false
@@ -80,6 +86,9 @@ async function openDB() {
             let objectStore = database.createObjectStore('command', {
                 keyPath: 'index'
             });
+            objectStore.createIndex('local', 'symbol', {
+                unique: false
+            });
             objectStore.createIndex('value', 'value', {
                 unique: false
             });
@@ -97,6 +106,18 @@ async function openDB() {
         if (!database.objectStoreNames.contains('tactic')) {
             let objectStore = database.createObjectStore('tactic', {
                 keyPath: 'index'
+            });
+            objectStore.createIndex('value', 'value', {
+                unique: false
+            });
+        }
+        //表action是否存在,否则创建
+        if (!database.objectStoreNames.contains('action')) {
+            let objectStore = database.createObjectStore('action', {
+                keyPath: 'index'
+            });
+            objectStore.createIndex('local', 'symbol', {
+                unique: false
             });
             objectStore.createIndex('value', 'value', {
                 unique: false
@@ -142,11 +163,13 @@ function colseDB() {
 async function removeDB() {
     colseDB();
     setStorage('version', '0');
+    setStorage('date', '0');
     let request = indexedDB.deleteDatabase('database');
     request.onsuccess = function (success) {
         appendNode('数据库清除成功', 'logger', 'p');
         //console.log('数据库清除成功');
         openDB();
+        init();
     };
     request.onerror = function (error) {
         appendNode('数据库清除失败,请重试', 'logger', 'p');

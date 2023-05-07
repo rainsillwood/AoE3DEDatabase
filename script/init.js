@@ -6,11 +6,12 @@ async function init() {
     await openDB();
     document.getElementById('version').innerHTML = version;
     document.getElementById('date').innerHTML = date;
-    document.getElementById('versiondatabase').innerHTML = getStorage('version');
+    document.getElementById('versionDatabase').innerHTML = getStorage('version');
+    document.getElementById('dateDatabase').innerHTML = getStorage('date');
     document.getElementById('input').value = '';
     document.getElementById('output').value = '';
-    if ((version + '-' + date) != getStorage('version')) {
-        alert('当前数据版本:' + version + '-' + date + ',数据库版本:' + getStorage('version') + '\n请更新数据库');
+    if (version != getStorage('version')) {
+        alert('当前数据版本:' + version + ',数据库版本:' + getStorage('version') + '\n请更新数据库');
     }
 }
 async function updateDatabase() {
@@ -19,17 +20,18 @@ async function updateDatabase() {
     showNode('logger');
     await updateStrings();
     await updateProtoy();
-    await updateTechtreey();
-    await updateNuggets();
-    await updateDamageTypes();
-    await updateCivs();
-    await updateProtoUnitCommands();
-    await updateHomecity();
     await updateTactics();
     await updateUnittypes();
     await updateUnitflags();
+    await updateTechtreey();
     await updateTechflags();
-    setStorage('version', version + '-' + date);
+    await updateCivs();
+    await updateHomecity();
+    await updateNuggets();
+    await updateDamageTypes();
+    await updateProtoUnitCommands();
+    setStorage('version', version);
+    setStorage('date', date);
     appendNode('数据库更新完成', 'logger', 'div');
 }
 //缓存String
@@ -44,10 +46,11 @@ async function updateStrings() {
         process = process + iArray.length;
         document.getElementById(table + '_quest').innerHTML = process;
         for (j in iArray) {
+            let iData = iArray[j];
             let oData = {};
-            oData.index = iArray[j]['@_locid'];
-            oData.symbol = returnNode(iArray[j]['@symbol']).toLowerCase();
-            oData.value = iArray[j];
+            oData.index = iData['@_locid'];
+            oData.symbol = returnNode(iData['@symbol']).toLowerCase();
+            oData.value = iData;
             updateData(table, oData);
         }
     }
@@ -62,54 +65,56 @@ async function updateProtoy() {
     process = process + iArray.length;
     document.getElementById(table + '_quest').innerHTML = process;
     for (i in iArray) {
-        iArray[i].displayname = await getString(iArray[i].displaynameid, iArray[i]['@name']);
-        iArray[i].rollovertext = await getString(iArray[i].rollovertextid);
-        if (!(!iArray[i].unittype)) {
-            let unitType = returnList(iArray[i].unittype);
+        let iData = iArray[i];
+        iData.displayname = await getString(iData.displaynameid, iData['@name']);
+        iData.rollovertext = await getString(iData.rollovertextid);
+        if (!(!iData.unittype)) {
+            let unitType = returnList(iData.unittype);
             for (j in unitType) {
                 let key = unitType[j].toLowerCase();
-                let iData;
+                let oData;
                 if (!unittypes[key]) {
                     let string = await getCString(unitType[j]);
-                    iData = {
+                    oData = {
                         name: unitType[j],
                         list: [],
                         displayname: string
                     };
                 } else {
-                    iData = unittypes[key];
+                    oData = unittypes[key];
                 }
-                iData.list.push(iArray[i]['@name']);
-                unittypes[key] = iData;
+                oData.list.push(iData['@name']);
+                unittypes[key] = oData;
             }
         }
-        if (!(!iArray[i].flag)) {
-            let unitFlag = returnList(iArray[i].flag);
+        if (!(!iData.flag)) {
+            let unitFlag = returnList(iData.flag);
             for (j in unitFlag) {
                 let key = unitFlag[j].toLowerCase();
-                let iData;
+                let oData;
                 if (!unitflags[key]) {
                     let string = await getCString(unitFlag[j]);
-                    iData = {
+                    oData = {
                         name: unitFlag[j],
                         list: [],
                         displayname: string
                     };
                 } else {
-                    iData = unitflags[key];
+                    oData = unitflags[key];
                 }
-                iData.list.push(iArray[i]['@name']);
-                unitflags[key] = iData;
+                oData.list.push(iData['@name']);
+                unitflags[key] = oData;
             }
         }
-        if (!(!iArray[i].tactics)) {
-            let tactic = iArray[i].tactics.split('.')[0].toLowerCase();
+        if (!(!iData.tactics)) {
+            let tactic = iData.tactics.split('.')[0].toLowerCase();
             tacticList[tactic] = './Data/tactics/' + tactic + '.tactics.json';
-            iArray[i].tactics = tactic;
+            iData.tactics = tactic;
         }
         let oData = {};
-        oData.index = iArray[i]['@name'].toLowerCase();
-        oData.value = iArray[i];
+        oData.index = iData['@name'].toLowerCase();
+        oData.local = iData.displayname;
+        oData.value = iData;
         updateData(table, oData);
     }
 }
@@ -123,30 +128,32 @@ async function updateTechtreey() {
     process = process + iArray.length;
     document.getElementById(table + '_quest').innerHTML = process;
     for (i in iArray) {
-        iArray[i].displayname = await getString(iArray[i].displaynameid, iArray[i]['@name']);
-        iArray[i].rollovertext = await getString(iArray[i].rollovertextid);
-        if (!(!iArray[i].flag)) {
-            let techFlag = returnList(iArray[i].flag);
+        let iData = iArray[i];
+        iData.displayname = await getString(iData.displaynameid, iData['@name']);
+        iData.rollovertext = await getString(iData.rollovertextid);
+        if (!(!iData.flag)) {
+            let techFlag = returnList(iData.flag);
             for (j in techFlag) {
                 let key = techFlag[j].toLowerCase();
-                let iData;
+                let oData;
                 if (!techflags[key]) {
                     let string = await getCString(techFlag[j]);
-                    iData = {
+                    oData = {
                         name: techFlag[j],
                         list: [],
                         displayname: string
                     };
                 } else {
-                    iData = techflags[key];
+                    oData = techflags[key];
                 }
-                iData.list.push(iArray[i]['@name']);
-                techflags[key] = iData;
+                oData.list.push(iData['@name']);
+                techflags[key] = oData;
             }
         }
         let oData = {};
-        oData.index = iArray[i]['@name'].toLowerCase();
-        oData.value = iArray[i];
+        oData.index = iData['@name'].toLowerCase();
+        oData.local = iData.displayname;
+        oData.value = iData;
         updateData(table, oData);
     }
 }
@@ -160,16 +167,17 @@ async function updateCivs() {
     process = process + iArray.length;
     document.getElementById(table + '_quest').innerHTML = process;
     for (i in iArray) {
-        iArray[i].displayname = await getString(iArray[i].displaynameid, iArray[i]['name']);
-        iArray[i].rollovername = await getString(iArray[i].rollovernameid);
-        if (!(!iArray[i].homecityfilename)) {
-            let homecity = iArray[i].homecityfilename.split('.')[0].toLowerCase();
-            homecityList[homecity] = './Data/' + iArray[i].homecityfilename + '.json';
-            iArray[i].homecityfilename = homecity;
+        let iData = iArray[i];
+        iData.displayname = await getString(iData.displaynameid, iData['name']);
+        iData.rollovername = await getString(iData.rollovernameid);
+        if (!(!iData.homecityfilename)) {
+            let homecity = iData.homecityfilename.split('.')[0].toLowerCase();
+            homecityList[homecity] = './Data/' + iData.homecityfilename + '.json';
+            iData.homecityfilename = homecity;
         }
         let oData = {};
-        oData.index = iArray[i]['name'].toLowerCase();
-        oData.value = iArray[i];
+        oData.index = iData['name'].toLowerCase();
+        oData.value = iData;
         updateData(table, oData);
     }
 }
@@ -183,11 +191,12 @@ async function updateNuggets() {
     process = process + iArray.length;
     document.getElementById(table + '_quest').innerHTML = process;
     for (i in iArray) {
-        iArray[i].rolloverstring = await getString(iArray[i].rolloverstringid);
-        iArray[i].applystring = await getString(iArray[i].applystringid);
+        let iData = iArray[i];
+        iData.rolloverstring = await getString(iData.rolloverstringid);
+        iData.applystring = await getString(iData.applystringid);
         let oData = {};
-        oData.index = iArray[i]['name'].toLowerCase();
-        oData.value = iArray[i];
+        oData.index = iData['name'].toLowerCase();
+        oData.value = iData;
         updateData(table, oData);
     }
 }
@@ -201,10 +210,11 @@ async function updateDamageTypes() {
     process = process + iArray.length;
     document.getElementById(table + '_quest').innerHTML = process;
     for (i in iArray) {
-        iArray[i].displayname = await getString(iArray[i].displaynameid);
+        let iData = iArray[i];
+        iData.displayname = await getString(iData.displaynameid);
         let oData = {};
-        oData.index = iArray[i]['name'].toLowerCase();
-        oData.value = iArray[i];
+        oData.index = iData['name'].toLowerCase();
+        oData.value = iData;
         updateData(table, oData);
     }
 }
@@ -218,10 +228,11 @@ async function updateProtoUnitCommands() {
     process = process + iArray.length;
     document.getElementById(table + '_quest').innerHTML = process;
     for (i in iArray) {
-        iArray[i].rollovertext = await getString(iArray[i].rollovertextid);
+        let iData = iArray[i];
+        iData.rollovertext = await getString(iData.rollovertextid);
         let oData = {};
-        oData.index = iArray[i]['name'].toLowerCase();
-        oData.value = iArray[i];
+        oData.index = iData['name'].toLowerCase();
+        oData.value = iData;
         updateData(table, oData);
     }
 }

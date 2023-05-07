@@ -32,46 +32,54 @@
 </head>
 
 <body onload="init()">
-    <div style="height: 100%;width: 100%;overflow:auto;">
+    <div style="overflow:auto;">
         <div id="databox">
             <table id="info">
             </table>
         </div>
         <div id="toolbox">
+            <button type="button" id="toolShower" onclick="toggleNode('tool');">&gt;</button>
             <div id="tool">
+                <div id="logger"></div>
                 <div id="functionbox">
-                    <div>　·当前版本　：<a id="version">null</a>-<a id="date">null</a></div>
-                    <div>　·数据库版本：<a id="versiondatabase">null</a></div>
-                    </p>
                     <div>
+                        <button type="button" id="loggerShower" onclick="toggleNode('logger');">&gt;</button>
                         <button type="button" onclick="updateDatabase()">更新数据库</button>
                         <button type="button" onclick="removeDB()">清除数据库</button>
-                        <button type="button" onclick="test()">测试数据</button>
+                        <button type="button" onclick="test()"><del>测试数据</del></button>
+                        <div>·当前版本　：<a id="version">null</a>-<a id="date">null</a></div>
+                        <div>·数据库版本：<a id="versionDatabase">null</a>-<a id="dateDatabase">null</a></div>
+                    </div>
+                    </p>
+                    <div>
                         </p>
                         <button type="button" onclick="getStrings()">语言</button>
                         <button type="button" onclick="getTechs()">科技</button>
                         <button type="button" onclick="getProtos()">单位</button>
                         </p>
                         <button type="button" onclick="getCards()">卡片</button>
-                        <button type="button" onclick="getCivCard()">文明卡片</button>
+                        <button type="button" onclick="getCivCard()"><del>文明卡片</del></button>
                         </p>
-                        <button type="button" onclick="getNuggetTech()">科技宝藏</button>
+                        <button type="button" onclick="getNuggetTech()"><del>科技宝藏</del></button>
                         <button type="button" onclick="getNative()">土著</button>
                         <button type="button" onclick="getShrine()">神社效率</button>
                         <button type="button" onclick="getTree()">树木</button>
                         </p>
                         <textarea id="input"></textarea>
                         </p>
-                        <button type="button" onclick="getInfo()">查询资料</button>
-                        <button type="button" onclick="searchInfo()">反查资料</button>
+                        <button type="button" onclick="getInfo()">查询资料</br>宝藏/科技/单位</button>
+                        <button type="button" onclick="searchInfo()"><del>反查资料</br>科技/单位</del></button>
                         </p>
                         <textarea id="output" readOnly="true"></textarea>
                     </div>
-                    <button type="button" id="loggerShower" onclick="toggleNode('logger');">&gt;</button>
+                    <select id="language" selectedIndex="1">
+                        <option selected="SimplifiedChinese">简体中文</option>
+                        <option selected="TraditionalChinese">繁體中文</option>
+                        <option selected="English">English</option>
+                        <option selected="Japanese">日本語</option>
+                    </select>
                 </div>
-                <div id="logger" class="hidden"></div>
             </div>
-            <button type="button" id="toolShower" onclick="toggleNode('tool');">&lt;</button>
         </div>
     </div>
 </body>

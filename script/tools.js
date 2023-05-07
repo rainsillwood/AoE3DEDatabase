@@ -92,12 +92,12 @@ function setStorage(key, value) {
 
 function hideNode(id) {
     document.getElementById(id).classList.add('hidden');
-    document.getElementById(id + 'Shower').innerHTML = '&gt;';
+    document.getElementById(id + 'Shower').innerHTML = '&lt;';
 }
 
 function showNode(id) {
     document.getElementById(id).classList.remove('hidden');
-    document.getElementById(id + 'Shower').innerHTML = '&lt;';
+    document.getElementById(id + 'Shower').innerHTML = '&gt;';
 }
 
 function toggleNode(id) {

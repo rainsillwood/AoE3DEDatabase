@@ -1,5 +1,8 @@
 .icon {
-    width: 128px;
+    width: 135px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
 }
 
 .name {
@@ -20,7 +23,6 @@
 
 .effect {
     overflow-x: auto;
-    white-space: nowrap;
 }
 
 #info {
