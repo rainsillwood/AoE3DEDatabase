@@ -173,7 +173,6 @@ async function removeDB() {
     request.onsuccess = function (success) {
         appendNode('数据库清除成功', 'logger', 'div');
         //console.log('数据库清除成功');
-        openDB();
         init();
     };
     request.onerror = function (error) {
@@ -251,7 +250,7 @@ async function getData(table, index, key) {
     });
 }
 //获取数据组
-async function getArray(table, index, key) {
+async function getArray(table, index, key, isFuzzy) {
     return new Promise(function (resolve, reject) {
         let oArray = [];
         let transaction = database.transaction([table]);
@@ -262,12 +261,14 @@ async function getArray(table, index, key) {
         };
         let objectStore = transaction.objectStore(table);
         let request;
-        if (index == 'all') {
+        if ((index == 'all') || isFuzzy) {
             request = objectStore.openCursor();
             request.onsuccess = function (success) {
                 let cursor = this.result;
                 if (cursor) {
-                    oArray.push(cursor.value.value);
+                    if ((index == 'all') || (cursor.value.local.indexOf(index) >= 0)) {
+                        oArray.push(cursor.value.value);
+                    }
                     cursor.continue();
                 } else {
                     resolve(oArray);

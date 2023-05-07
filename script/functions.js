@@ -9,7 +9,20 @@ function setOuterHTML(text) {
 function resetInfo() {
     document.getElementById('info').innerHTML = '';
 }
-
+function getIcon(iData) {
+    let icon = iData.iconwpf;
+    if (!icon) {
+        icon = iData.icon;
+    } else {
+        icon = icon + '" height="205" width="135';
+    }
+    if (!icon) {
+        icon = 'resources/images/icons/hp_cp/hp_cp_send_x.png " height="64" width="64';
+    } else {
+        icon = icon + '" height="64" width="64';
+    }
+    return ('<td class="icon"><img src="./Data/wpfg/' + icon.replace(/\\/g, '/') + '"></td>');
+}
 async function getTechs() {
     if (version != getStorage('version')) {
         alert('当前数据版本:' + version + ',数据库版本:' + getStorage('version') + '\n请更新数据库');
@@ -89,7 +102,7 @@ async function getCards() {
 async function getNative() {
     resetInfo();
     let oArray = [];
-    appendNode('<th class="name">调用名</th><th class="local">中文名</th><th class="local">名称</th><th class="type">类型</th><th class="desc">描述</th><th class="effect">属性</th>', 'info', 'tr');
+    appendNode('<th class="name">调用名</th><th class="name">中文名</th><th class="local">名称</th><th class="type">类型</th><th class="desc">描述</th><th class="effect">属性</th>', 'info', 'tr');
     let iArray = await getArray('civ', 'all');
     for (i in iArray) {
         let civ = iArray[i];
@@ -104,14 +117,14 @@ async function getNative() {
                 oData = oData + '<td rowspan="' + techeffect.length + '">' + civ.displayname + '</td>';
                 for (j in techeffect) {
                     if (techeffect[j]['@type'] == 'TechStatus') {
-                        let tempTech = await getTech(techeffect[j]['#text']);
-                        oData = oData + '<td>' + tempTech.displayname + '</td><td>科技</td>';
-                        oData = oData + '<td>' + tempTech.rollovertext + '</td>';
+                        let target = await getTech(techeffect[j]['#text']);
+                        oData = oData + '<td>' + getRuby(target.displayname, target['@name']) + '</td><td>科技</td>';
+                        oData = oData + '<td>' + target.rollovertext + '</td>';
                         oData = oData + '<td class="effect"><div>' /*+getEffects(tempTech.effects, tempTech.displayname)*/ + '</div></td>';
                     }
                     if (techeffect[j]['@type'] == 'Data' && techeffect[j]['@subtype'] == 'Enable') {
                         let target = await getProto(techeffect[j].target['#text']);
-                        oData = oData + '<td>' + target.displayname + '</td><td>单位</td>';
+                        oData = oData + '<td>' + getRuby(target.displayname, target['@name']) + '</td><td>单位</td>';
                         oData = oData + '<td>' + target.rollovertext + '</td>';
                         oData = oData + '<td class="effect"><div>' + '</div></td>';
                     }
@@ -124,17 +137,20 @@ async function getNative() {
     setOuterHTML(oArray.join('\n'));
 }
 
-async function getNugget() {
+async function getNuggets() {
     if (version != getStorage('version')) {
         alert('当前数据版本:' + version + ',数据库版本:' + getStorage('version') + '\n请更新数据库');
         return;
     }
     resetInfo();
+    let oArray = [];
     appendNode('<th class="name">调用名</th><th class="local">地图列表</th><th class="type">难度</th><th class="desc">描述</th><th>效果</th>',
         'info', 'tr');
     let iArray = await getArray('nugget', 'all');
     for (i in iArray) {
         let iData = iArray[i];
+        let text = iData.name + '\t\t' + iData.difficulty + '\t' + iData.rolloverstring;
+        oArray.push(text);
         oString = '<td>' + iData.name + '</td>';
         oString = oString + '<td>';
         let maptypes = returnList(iData.maptype);
@@ -148,6 +164,7 @@ async function getNugget() {
         oString = oString + '<td><div class="effect">' + /*effect +*/ '</div></td>';
         appendNode(oString, 'info', 'tr');
     }
+    setOuterHTML(oArray.join('\n'));
 }
 /*
 function getCivCards() {
@@ -189,7 +206,7 @@ async function getShrine() {
                 let text = returnNode(unit['@name']) + '\t' + returnNode(protoaction.rate['#text']);
                 oArray.push(text);
                 let oData = '<td>' + returnNode(unit['@name']) + '</td>';
-                oData = oData + '<td>' + unit.displayname + '</td>';
+                oData = oData + '<td>' + getRuby(unit.displayname, unit['@name']) + '</td>';
                 let unittypes = returnList(returnNode(unit.unittype));
                 let utype = '';
                 if (unittypes.includes('Herdable')) {
@@ -230,7 +247,7 @@ async function getTree() {
         let text = unit['@name'] + '\t' + unit.initialresource['#text'];
         oArray.push(text);
         let oData = '<td>' + unit['@name'] + '</td>';
-        oData = oData + '<td>' + unit.displayname + '</td>';
+        oData = oData + '<td>' + getRuby(unit.displayname, unit['@name']) + '</td>';
         oData = oData + '<td>' + unit.obstructionradiusx + '*' + unit.obstructionradiusz + '</td>';
         oData = oData + '<td>' + unit.initialresource['#text'] + '</td>';
         oData = oData + '<td>' + unit.rollovertext + '</td>';
@@ -251,14 +268,13 @@ async function getInfo() {
     for (i in iArray) {
         let iData = iArray[i];
         if (iData == "") continue;
-        let oString = '<td class="icon"><img src="./Data/wpfg/%picturesrc%"></td>';
         //处理宝藏
         let oData = await getNugget(iData.toLowerCase());
         if (!oData.isNull) {
             let nuggetUint = await getProto(oData.nuggetunit);
-            oString = oString.replace('%picturesrc%', returnNode(nuggetUint.icon).replace(/\\/g, '\/') + '" height="64" width="64');
+            let oString = getIcon(nuggetUint);
             oString = oString + '<td>' + oData.name + '</td>';
-            oString = oString + '<td>' + nuggetUint.displayname + '</td>';
+            oString = oString + '<td>' + getRuby(nuggetUint.displayname, nuggetUint['@name']) + '</td>';
             oString = oString + '<td>宝藏</td>';
             oString = oString + '<td>' + oData.rolloverstring + '</td>';
             oString = oString + '<td><div class="effect">' + oData.applystring + '</div></td>';
@@ -268,10 +284,9 @@ async function getInfo() {
         //处理科技
         oData = await getTech(iData.toLowerCase());
         if (!oData.isNull) {
-            let icon = (!oData.iconwpf) ? (returnNode(oData.icon) + '" height="64" width="64') : (returnNode(oData.iconwpf) + '" height="205" width="135');
-            oString = oString.replace('%picturesrc%', icon.replace(/\\/g, '\/'));
+            let oString = getIcon(oData);
             oString = oString + '<td>' + oData['@name'] + '</td>';
-            oString = oString + '<td>' + oData.displayname + '</td>';
+            oString = oString + '<td>' + getRuby(oData.displayname, oData['@name']) + '</td>';
             oString = oString + '<td>科技</td>';
             oString = oString + '<td>' + oData.rollovertext + '</td>';
             oString = oString + '<td><div class="effect">' + /*getEffects(oData.effects, oData.displayname) + */'</div></td>';
@@ -281,9 +296,9 @@ async function getInfo() {
         //处理单位
         oData = await getProto(iData.toLowerCase());
         if (!oData.isNull) {
-            oString = oString.replace('%picturesrc%', returnNode(oData.icon).replace(/\\/g, '\/') + '" height="64" width="64');
+            let oString = getIcon(oData);
             oString = oString + '<td>' + oData['@name'] + '</td>';
-            oString = oString + '<td>' + oData.displayname + '</td>';
+            oString = oString + '<td>' + getRuby(oData.displayname, oData['@name']) + '</td>';
             oString = oString + '<td>单位</td>';
             oString = oString + '<td>' + oData.rollovertext + '</td>';
             oString = oString + '<td><div class="effect">' + '</div></td>';
@@ -293,47 +308,42 @@ async function getInfo() {
     }
 }
 
-function searchInfo() {
+async function searchInfo(isFuzzy) {
     if (version != getStorage('version')) {
         alert('当前数据版本:' + version + ',数据库版本:' + getStorage('version') + '\n请更新数据库');
         return;
     }
     resetInfo();
-    appendNode('<th>查询字段 class="icon"</th><th class="name">调用名</th><th class="local">中文名</th>',
+    appendNode('<th class="icon">查询字段</th><th class="icon">图标</th><th class="name">调用名</th><th class="local">中文名</th><th class="type">类型</th><th class="desc">描述</th><th>效果</th>',
         'info', 'tr');
     let iArray = getInnerHTML();
-    let tempList = [];
-    for (i in techs) {
-        let temp = {};
-        temp.name = techs[i]['@name'];
-        temp.displayname = techs[i].displayname;
-        temp.rollovertext = techs[i].rollovertext;
-        temp.type = '科技'
-        tempList.push(temp);
-    }
-    for (i in units) {
-        let temp = {};
-        temp.name = units[i]['@name'];
-        temp.displayname = units[i].displayname;
-        temp.rollovertext = units[i].rollovertext;
-        temp.type = '单位'
-        tempList.push(temp);
-    }
-    for (i in iArray) {
-        let value = iArray[i];
-        if (value == "") continue;
-        oString = oString + '<tr><td>' + value + '</td><td><table border="1">';
-        for (j in tempList) {
-            let temp = tempList[j];
-            if (returnNode(temp.displayname).indexOf(value) > -1) {
-                oString = oString + '<tr><td>' + temp.name + '</td>';
-                oString = oString + '<td>' + temp.displayname + '</td>';
-                oString = oString + '<td>' + temp.type + '</td>';
-                oString = oString + '<td>' + temp.rollovertext + '</td></tr>';
-            }
+    for (let i in iArray) {
+        let protoArray = await getArray('proto', iArray[i], 'local', isFuzzy);
+        let techArray = await getArray('techtree', iArray[i], 'local', isFuzzy);
+        let headString = '<td rowSpan="' + (protoArray.length + techArray.length) + '">' + iArray[i] + '</td>';
+        for (let j in protoArray) {
+            let oData = protoArray[j];
+            let oString = headString;
+            headString = '';
+            oString = oString + getIcon(oData);
+            oString = oString + '<td>' + oData['@name'] + '</td>';
+            oString = oString + '<td>' + getRuby(oData.displayname, oData['@name']) + '</td>';
+            oString = oString + '<td>单位</td>';
+            oString = oString + '<td>' + oData.rollovertext + '</td>';
+            oString = oString + '<td><div class="effect">' + '</div></td>';
+            appendNode(oString, 'info', 'tr');
         }
-        oString = oString + '</table></td>';
+        for (let j in techArray) {
+            let oData = techArray[j];
+            let oString = headString;
+            headString = '';
+            oString = oString + getIcon(oData);
+            oString = oString + '<td>' + oData['@name'] + '</td>';
+            oString = oString + '<td>' + getRuby(oData.displayname, oData['@name']) + '</td>';
+            oString = oString + '<td>科技</td>';
+            oString = oString + '<td>' + oData.rollovertext + '</td>';
+            oString = oString + '<td><div class="effect">' + '</div></td>';
+            appendNode(oString, 'info', 'tr');
+        }
     }
-    oString = oString + '</table>';
-    document.getElementById('info').innerHTML = oString;
 }

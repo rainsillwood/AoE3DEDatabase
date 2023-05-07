@@ -20,6 +20,7 @@
         var techflags = {};
         var unitflags = {};
         var unittypes = {};
+        var localList = {};
         var database;
         var version = '100.14.3853.0';
         var date = '2023/4/24';
@@ -83,7 +84,7 @@
                     <hr>
                     <div>
                         <button type="button" onclick="getCards()">卡片</button>
-                        <button type="button" onclick="getNugget()">宝藏</button>
+                        <button type="button" onclick="getNuggets()">宝藏</button>
                         <button type="button" onclick="getNative()">土著</button>
                         </br>
                         <button type="button" onclick="getCivCard()"><del>文明卡片</del></button>
@@ -95,7 +96,8 @@
                         <textarea id="input"></textarea>
                         </br>
                         <button type="button" onclick="getInfo()">查询资料</br>宝藏/科技/单位</button>
-                        <button type="button" onclick="searchInfo()"><del>反查资料</br>科技/单位</del></button>
+                        <button type="button" onclick="searchInfo(true)">反查(模糊)</br>科技/单位</button>
+                        <button type="button" onclick="searchInfo(false)">反查(严格)</br>科技/单位</button>
                     </div>
                     <textarea id="output" readOnly="true"></textarea>
                 </div>

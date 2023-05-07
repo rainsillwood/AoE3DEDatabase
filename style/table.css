@@ -6,7 +6,7 @@
 }
 
 .name {
-    width: 256px;
+    width: 128px;
 }
 
 .local {
@@ -18,7 +18,7 @@
 }
 
 .desc {
-    width: 300px;
+    width: 384px;
 }
 
 .effect {
@@ -42,6 +42,5 @@ th {
     border-style: solid;
     border-width: 1px;
     border-color: black;
-    border-collapse: separate;
-    border-spacing: 0px;
+    word-wrap: break-word;
 }

@@ -4,6 +4,7 @@ async function getJson(url) {
         $.get(url, function (data) {
             resolve(data);
         }).fail(function () {
+            appendNode('<a style="color:red;">请求失败:' + url + '</a>', 'logger', 'div');
             resolve(null);
         });
     });
@@ -114,4 +115,12 @@ function appendNode(text, father, type) {
     node.innerHTML = text;
     if (!document.getElementById(father)) return;
     document.getElementById(father).appendChild(node);
+}
+
+function getRuby(lower, upper) {
+    if (!lower) {
+        return upper;
+    } else {
+        return ('<ruby>' + lower + '<rt>' + upper + '</rt></ruby>');
+    }
 }

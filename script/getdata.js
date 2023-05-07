@@ -3,22 +3,14 @@ async function getString(textID, targetID) {
     if (textID) {
         //textID不为空,
         let iData = await getData('string', textID);
-        let oData;
         if (iData) {
-            oData = iData['#text'];
+            return iData['#text'];
         } else {
-            oData = '<del>' + textID + '</del>';
+            return '<del>' + textID + '</del>';
         }
-        if (targetID) {
-            //targetID不为空:'<ruby>' + iData['#text'] + '<rt>' + targetID + '<rt>' + '</ruby>';
-            oData = '<ruby>' + oData + '<rt>' + targetID + '</rt></ruby>';
-        }
-        //targetID为空:iData['#text']
-        return oData;
     } else {
-        //textID为空,targetID为空:'null'
-        //textID为空,targetID不为空:targetID
-        return ((targetID) ? targetID : 'null');
+        //textID为空,targetID为空:'null',targetID不为空:targetID
+        return ((targetID) ? (targetID) : '');
     }
 }
 async function getCString(textID) {

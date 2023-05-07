@@ -27,7 +27,7 @@ async function updateDatabase() {
     showNode('logger');
     if (language.index == 0) {
         alert('请选择语言');
-        appendNode('数据库更新失败', 'logger', 'div');
+        appendNode('数据库更新失败,请重选语言', 'logger', 'div');
         return;
     }
     await updateStrings();
@@ -126,6 +126,8 @@ async function updateProtoy() {
             iData.tactics = tactic;
         }
         let oData = {};
+        if (iData.displaynameid) {
+        }
         oData.index = iData['@name'].toLowerCase();
         oData.local = iData.displayname;
         oData.value = iData;
