@@ -176,8 +176,9 @@ function subType(effect) {
     let actor = targetType(effect.target['#text'], effect.target['@type']);
     let target = targetType(effect['@unittype'], 'ProtoUnit');
     let resource = targetType(effect['@resource'], 'ProtoUnit');
+    let subtype = effect['@subtype'] ? effect['@subtype'] : effect.type;
     let info = '';
-    switch (effect['@subtype']) {
+    switch (subtype) {
         //启用/禁用单位
         case 'Enable':
             switch (effect['@amount']) {
@@ -868,7 +869,7 @@ function relativity(type, text) {
 async function targetType(target, type) {
     if (!target) return 'null';
     let iData;
-    let text;
+    let oString;
     switch (type) {
         case 'ProtoUnit': {
             //查询unittype
@@ -879,14 +880,14 @@ async function targetType(target, type) {
             }
             if (!iData) {
                 //均查询失败则查询proto
-                iData = await getProto(target);
+                iData = await getProto(target.toLowerCase());
             } else {
                 //查询到unitflag||unittype
-                text = iData.value.displayname;
+                oString = iData.value.displayname;
             }
             if (!iData) {
                 //均查询失败则
-                text = '<del>' + target + '</del>';
+                oString = '<del>' + target + '</del>';
             } else {
 
             }
@@ -895,30 +896,30 @@ async function targetType(target, type) {
         case 'Tech': {
             iData = await getTech(target);
             if (iData) {
-                text = iData.displayname;
+                oString = iData.displayname;
             } else {
-                text = '<del>' + target + '</del>';
+                oString = '<del>' + target + '</del>';
             }
             break;
         }
         case 'Resource': {
-            text = getCString('cStringAbstractName' + target);
+            oString = getCString('cStringAbstractName' + target);
             break;
         }
         case 'Player': {
-            text = '玩家';
+            oString = '玩家';
             break;
         }
         case 'techAll': {
-            text = '所有科技';
+            oString = '所有科技';
             break;
         }
         case 'techWithFlag': {
             iData = await getData('techflag', target.toLowerCase());
             if (iData) {
-                text = '所有' + iData.value.displayname + '科技';
+                oString = '所有' + iData.value.displayname + '科技';
             } else {
-                text = '所有<del>' + target + '</del>科技';
+                oString = '所有<del>' + target + '</del>科技';
             }
             break;
         }
