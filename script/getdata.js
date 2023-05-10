@@ -6,39 +6,39 @@ async function getString(textID, targetID) {
         if (iData) {
             return iData['#text'];
         } else {
-            return '<del>' + textID + '</del>';
+            return '未找到';
         }
     } else {
-        //textID为空,targetID为空:'null',targetID不为空:targetID
-        return ((targetID) ? (targetID) : '');
+        //textID为空,targetID为空:'空',targetID不为空:targetID
+        return ((targetID) ? ('无描述') : '空');
     }
 }
-async function getCString(textID) {
-    if (textID) {
+async function getCString(cString) {
+    if (cString) {
         //textID不为空,
         //targetID为空:iData['#text']
         //targetID不为空:'<ruby>' + iData['#text'] + '<rt>' + targetID + '<rt>' + '</ruby>';
-        let iData = await getData('string', 'cstring' + textID.toLowerCase(), 'symbol');
+        let iData = await getData('string', 'cstringabstractname' + cString.toLowerCase(), 'symbol');
         if (!iData) {
-            iData = await getData('string', 'cstringabstractname' + textID.toLowerCase(), 'symbol');
+            iData = await getData('string', 'cstring' + cString.toLowerCase().replace('abstract', 'abstractname'), 'symbol');
         }
         if (!iData) {
-            iData = await getData('string', 'cstringabstract' + textID.toLowerCase(), 'symbol');
+            iData = await getData('string', 'cstringabstract' + cString.toLowerCase(), 'symbol');
         }
         if (!iData) {
-            iData = await getData('string', 'cstring' + textID.toLowerCase().replace('abstract', ''), 'symbol');
+            iData = await getData('string', 'cstring' + cString.toLowerCase(), 'symbol');
         }
         if (!iData) {
-            iData = await getData('string', 'cstring' + textID.toLowerCase().replace('abstract', 'abstractname'), 'symbol');
+            iData = await getData('string', 'cstring' + cString.toLowerCase().replace('abstract', ''), 'symbol');
         }
         if (iData) {
-            return '<ruby>' + iData['#text'] + '<rt>' + textID + '</rt></ruby>';
+            return iData['#text'];
         } else {
-            return textID;
+            return '未找到';
         }
     } else {
         //textID为空:'null'
-        return 'null';
+        return '空';
     }
 }
 //返回科技

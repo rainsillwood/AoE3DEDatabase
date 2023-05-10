@@ -118,9 +118,11 @@ function appendNode(text, father, type) {
 }
 
 function getRuby(lower, upper) {
-    if (!lower) {
+    if ((!lower) || (lower == '无描述')) {
         return upper;
-    } else {
-        return ('<ruby>' + lower + '<rt>' + upper + '</rt></ruby>');
     }
+    if (lower.substring(0, 3) == '未找到:') {
+        return lower;
+    }
+    return ('<ruby>' + lower + '<rt>' + upper + '</rt></ruby>');
 }
