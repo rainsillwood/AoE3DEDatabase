@@ -55,7 +55,12 @@ button {
 }
 
 #language {
-    width: 140px;
+    width: 130px;
+    font-size: 12px;
+}
+
+#languageDatabase {
+    font-size: 12px;
 }
 
 #toolShower {
