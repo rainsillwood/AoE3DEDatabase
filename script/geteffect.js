@@ -1,216 +1,283 @@
 //科技效果
-async function getEffects(effects, techName) {
+async function getEffects(tech, isNugget) {
     let oString = '';
-    if (effects) {
-        let effectList = returnList(effects.effect);
-        for (i in effectList) {
-            let iString = await getEffect(effectList[i], techName);
-            oString = oString + iString + '</br>';
-        }
+    let effectList = [];
+    let techName;
+    if (isNugget) {
+        tech['@type'] = 'Nugget';
+        effectList.push(tech);
+        techName = tech.name;
+    } else {
+        if (!tech.effects) return '';
+        effectList = returnList(tech.effects.effect);
+        techName = getRuby(tech.displayname, tech['@name']);
+    }
+    for (i in effectList) {
+        let iString = await getEffect(effectList[i], techName);
+        oString = oString + iString + '</br>';
     }
     return oString;
 }
 //效果解析,包括宝藏
-async function getEffect(effect, tech) {
-    let type = effect['@type'] ? effect['@type'] : 'Nugget';
-    switch (type) {
+async function getEffect(effect, techName) {
+    let oString;
+    let actor;
+    if (effect.target) {
+        actor = await getTarget(effect.target['#text'], effect.target['@type']);
+    }
+
+    let targetProto = await getTarget(effect['@proto'], 'ProtoUnit');
+    let targetUnitType = await getTarget(effect['@unittype'], 'ProtoUnit');
+    let targetTech = await getTarget(effect['@tech'], 'Tech');
+    let targetCommand = await getTarget(effect['@command'], 'Command');
+    let targetResource = await getTarget(effect['@resource'], 'Resource');
+
+    let fromResource = await getTarget(effect['@fromresource'], 'Resource');
+    let toResource = await getTarget(effect['@toresource'], 'Resource');
+
+    let fromProto = await getTarget(effect['@fromprotoid'], 'ProtoUnit');
+    let toProto = await getTarget(effect['@toprotoid'], 'ProtoUnit');
+    switch (effect['@type']) {
+        //宝藏效果
         case 'Nugget': {
-            information = subType(effect);
+            //oString = subEffect(effect);
             break;
         }
-        //开/关科技
+        //改变数据
         case 'Data': {
-            information = subType(effect);
+            //oString = subEffect(effect);
             break;
         }
         //改变数据
         case 'Data2': {
-            information = subType(effect);
+            //oString = subEffect(effect);
             break;
         }
+        //开/关科技 HCAdvancedArsenal
         case 'TechStatus': {
             let status = effect['@status'].toLowerCase();
-            information = await getString('42093');
-            information = information.replace('%1!s!', '<ruby>' + getTech(effect['#text']).displayname + '<rt>' + effect['#text'] + '</rt></ruby>');
             switch (status) {
                 case 'obtainable':
-                    status = '可获得';
+                    status = ' 已启用';
                     break;
                 case 'unobtainable':
-                    status = '已禁用';
+                    status = ' 已禁用';
                     break;
                 case 'active':
-                    status = '已生效';
+                    status = ' 已生效';
                     break;
             }
-            information = '☆' + information.replace('%2!s!', status);
+            let target = await getTarget(effect['#text'], 'Tech');
+            oString = await getCString('TechSetStatusEffect');
+            oString = oString.replace('%1!s!', target);
+            oString = oString.replace('%2!s!', status);
             break;
         }
-        //改变数据
-        case 'CommandAdd': {
-            information = '☆' + targetType(effect.target['#text'], effect.target['@type']) + ': 增加命令 ';
-            information = information + targetType(effect['@proto'], 'ProtoUnit');
-            information = information + targetType(effect['@tech'], 'Tech');
-            information = information + targetType(effect['@command'], 'Command');
-            break;
-        }
-        case 'CommandRemove': {
-            information = '☆' + targetType(effect.target['#text'], effect.target['@type']) + ': 移除命令 ';
-            information = information + targetType(effect['@proto'], 'ProtoUnit');
-            information = information + targetType(effect['@tech'], 'Tech');
-            information = information + targetType(effect['@command'], 'Command');
-            break;
-        }
-        case 'TransformUnit': {
-            information = targetType(effect['@fromprotoid'], 'ProtoUnit') + ' 变成 ' + targetType(effect['@toprotoid'], 'ProtoUnit');
-            break;
-        }
-        //更改名称
-        case 'SetName': {
-            information = ' : 更名为 ' + getString(effect['@newname']);
-            information = targetType(effect['@proto'], 'ProtoUnit') + information;
-            information = targetType(effect['@tech'], 'Tech') + information;
-            information = '☆' + information;
-            break;
-        }
-        case 'TextOutput': {
-            information = '输出消息：『' + getString(effect['#text']) + '』';
-            break;
-        }
-        case 'TextOutputTechName': {
-            information = '输出消息：『' + getString(effect['#text']) + '』';
-            break;
-        }
-        case 'TextEffectOutput': {
-            information = '输出消息：『' + getString(effect['@selfmsg']) + '』/『' + getString(effect['@playermsg']) + '』';
-            break;
-        }
-        case 'CreatePower': {
-            //HCXPNationalRedoubt{"_type":"CreatePower","_protopower":"deToySoldiersSound"}
-            information = '待测试';
-            break;
-        }
-        case 'ResourceExchange': {
-            //HCXPSouthSeaBubble{"_type":"ResourceExchange","_multiplier":"1.25","_toresource":"Wood","_fromresource":"Gold"}
-            information = '待测试';
-            break;
-        }
-        case 'SetOnBuildingDeathTech': {
-            //YPHCCalltoArms1{"_type":"SetOnBuildingDeathTech",['@amount']":"0.00",['@amount']2":"100.00","__text":"ypSpawnIrregulars"}
-            information = '待测试';
-            break;
-        }
-        case 'ResetHomeCityCardCount': {
-            //DEHCShipMineWagon3{"_type":"ResetHomeCityCardCount","_tech":"DEHCShipMineWagon3"}
-            information = '待测试';
-            break;
-        }
-        case 'SetOnShipmentSentTech': {
-            //DEHCFulaniInvasion{"_type":"SetOnShipmentSentTech",['@amount']":"1.00","__text":"DEShipFulaniArcher"}
-            information = '待测试';
-            break;
-        }
-        case 'ResourceInventoryExchange': {
-            //DEHCHabbanaya{"_type":"ResourceInventoryExchange","_multiplier":"0.70","_unittype":"AbstractBovine","_toresource":"Influence","_fromresource":"Food","_keepunit":"True"}
-            information = '待测试';
-            break;
-        }
-        case 'ReplaceUnit': {
-            //DEHCPlanVeracruz{"_type":"ReplaceUnit","_toprotoid":"Falconet","_fromprotoid":"Outpost"}
-            information = '待测试';
-            break;
-        }
-        case 'ResetResendableCards': {
-            //DEHCREVFedMXPlanMonterrey{"_type":"ResetResendableCards"}
-            information = '待测试';
-            break;
-        }
-        case 'SetOnTechResearchedTech': {
-            //DEHCGondolas{"_type":"SetOnTechResearchedTech",['@amount']":"1.00","__text":"DEShipItalianFishingBoat"}
-            information = '待测试';
-            break;
-        }
-        case 'SharedLOS': {
-            //Spies{"_all":"true","_type":"SharedLOS"
-            information = '待测试';
-            break;
-        }
-        case 'Blockade': {
-            //HCBlockade{"_type":"Blockade","_delay":"10.00"}
-            information = '待测试';
-            break;
-        }
-        case 'SetAge': {
-            //PoliticianGovernor{"_type":"SetAge","__text":"Age1"}
-            information = '待测试';
-            break;
-        }
-        case 'InitiateRevolution': {
-            //XPRevolutionLouverture{"_type":"InitiateRevolution"}
-            information = '待测试';
-            break;
-        }
-        case 'AddHomeCityCard': {
-            //DEPoliticianFederalMassachusetts{"_type":"AddHomeCityCard","_tech":"DEHCFedPlymouthSettlers","_maxcount":"1","_ageprereq":"1","_unitcount":"1","_infiniteinlastage":"0"}
-            information = '待测试';
-            break;
-        }
+        //激活随机科技 DEHCPokerShadow
         case 'RandomTech': {
-            //DEHCPokerShadow{"tech":["SaloonBlackRider","SaloonCorsair","SaloonElmeti","SaloonMameluke","SaloonManchu","SaloonNinja","deSaloonHarquebusier","SaloonHighlander","SaloonLandsknecht","SaloonStradiot","SaloonJaeger","SaloonSwissPikeman","SaloonFusilier","ypSaloonArsonist","SaloonGreatCannon","DESaloonNapoleonGun","DESaloonZouave","ypSaloonJat","ypSaloonIronTroop","ypSaloonYojimbo","DESaloonSudaneseRider","DESaloonCannoneer","DESaloonAskari","DESaloonAmazon","DESaloonZenata","DESaloonGatlingCamel","DESaloonKanuri","deSaloonGrenadier","deSaloonPandour","deSaloonRoyalHorseman","deSaloonPistoleer","deSaloonBrigadier","deSaloonMountedRifleman","deSaloonBosniak","deSaloonHajduk","deSaloonCossackFootman"],"_type":"RandomTech","_select":"3","_status":"active"}
-            information = '待测试';
+            let status = effect['@status'].toLowerCase();
+            switch (status) {
+                case 'obtainable':
+                    status = ' 已启用';
+                    break;
+                case 'unobtainable':
+                    status = ' 已禁用';
+                    break;
+                case 'active':
+                    status = ' 已生效';
+                    break;
+            }
+            oString = '随机 ' + effect['@select'] + ' 项科技设置为 ' + status;
+            let techList = effect.tech;
+            if (techList) {
+                for (i in techList) {
+                    techList[i] = await getTarget(techList[i], 'Tech');
+                }
+                oString = oString + '：[' + techList.join(', ') + ']';
+            }
             break;
         }
+        //激活能力 HCXPNationalRedoubt
+        case 'CreatePower': {
+            let protoPower = await getTarget(effect['@protopower'], 'Power');
+            oString = '激活能力：' + protoPower;
+            break;
+        }
+        //增加命令 DEHCEarlyFort
+        case 'CommandAdd': {
+            oString = actor + ': 增加命令 ' + targetProto + targetTech + targetCommand;
+            break;
+        }
+        //移除命令 DEHCFedGoldRush
+        case 'CommandRemove': {
+            oString = actor + ': 移除命令 ' + targetProto + targetTech + targetCommand;
+            break;
+        }
+        //置换单位 HCXPTercioTactics
+        case 'TransformUnit': {
+            oString = '所有 ' + fromProto + ' 转变成 ' + toProto;
+            break;
+        }
+        //转换单位 DEHCPlanVeracruz
+        case 'ReplaceUnit': {
+            oString = '所有 ' + fromProto + ' 转变成 ' + toProto;
+            break;
+        }
+        //更改名称 HCAdvancedArsenal
+        case 'SetName': {
+            let newName = await getString(effect['@newname']);
+            oString = targetTech + targetProto + ': 更名为 ' + newName;
+            break;
+        }
+        //输出消息 HCAdvancedArsenal
+        case 'TextOutput': {
+            oString = await getString(effect['#text']);
+            oString = '输出消息：『' + oString.replace('%1!s!', techName) + '』';
+            break;
+        }
+        //输出消息
+        case 'TextOutputTechName': {
+            oString = await getString(effect['#text']);
+            oString = '输出消息：『' + oString.replace('%1!s!', techName) + '』';
+            break;
+        }
+        //输出消息
+        case 'TextEffectOutput': {
+            let iString = await getString(effect['@playermsg']);
+            oString = await getString(effect['@selfmsg']);
+            oString = '输出消息：『' + oString + '』/『' + iString.replace('%s', 'Player') + '』';
+            break;
+        }
+        //资源交换 YPHCEmpressDowager
+        case 'ResourceExchange': {
+            oString = '所有 ' + fromResource + ' 都将换成 ' + effect['@multiplier'] * 100 + '% 的 ' + toResource;
+            break;
+        }
+        //建筑死亡时激活 YPHCCalltoArms1
+        case 'SetOnBuildingDeathTech': {
+            let target = await getTarget(effect['#text'], 'Tech');
+            oString = '建筑摧毁时激活科技 ' + target + ' ' + effect['@amount'] * 1;
+            if ((effect['@amount'] * 1) < (effect['@amount2'] * 1)) {
+                oString = oString + '-' + effect['@amount2'] * 1 + '(存疑)';
+            }
+            oString = oString + ' 次';
+            break;
+        }
+        //重置指定船运次数 DEHCShipMineWagon3
+        case 'ResetHomeCityCardCount': {
+            oString = targetTech + '：重置船运次数';
+            break;
+        }
+        //重置可重复船运次数 DEHCREVFedMXPlanMonterrey
+        case 'ResetResendableCards': {
+            oString = '重置所有可重复运送船运次数';
+            break;
+        }
+        //每次船运抵达时激活科技 DEHCFulaniInvasion
+        case 'SetOnShipmentSentTech': {
+            let target = await getTarget(effect['#text'], 'Tech');
+            oString = '每次船运抵达时激活科技 ' + target + ' ' + effect['@amount'] * 1 + ' 次';
+            break;
+        }
+        //每次完成研究时激活科技 DEHCGondolas
+        case 'SetOnTechResearchedTech': {
+            let target = await getTarget(effect['#text'], 'Tech');
+            oString = '每次完成研究时激活科技 ' + target + ' ' + effect['@amount'] * 1 + ' 次';
+            //DEHCGondolas{"_type":"SetOnTechResearchedTech",['@amount']":"1.00","__text":"DEShipItalianFishingBoat"}
+            break;
+        }
+        //卖牲畜 DERoyalBanquet
+        case 'ResourceInventoryExchange': {
+            oString = '所有 ' + targetUnitType + ' 储存的 ' + fromResource + ' 兑换为 ' + effect['@multiplier'] * 100 + '% 的 ' + toResource;
+            //DEHCHabbanaya{"@type":"ResourceInventoryExchange","@multiplier":"0.50","@unittype":"Herdable","@toresource":"Influence","@fromresource":"Food","#text":""}
+            break;
+        }
+        //获得所有单位的视野 Spies
+        case 'SharedLOS': {
+            oString = '获得所有单位的视野';
+            break;
+        }
+        //封锁工具 HCBlockade
+        case 'Blockade': {
+            oString = effect['@delay'] + ' 秒后禁止敌对发出船运';
+            //HCBlockade{"_type":"Blockade","_delay":"10.00"}
+            break;
+        }
+        //设置时代 ypConsulateJapaneseMeijiRestoration
+        case 'SetAge': {
+            oString = await getCString(effect['#text']);
+            oString = '设置时代为 ' + oString;
+            break;
+        }
+        //发起革命 DERevolutionPeru
+        case 'InitiateRevolution': {
+            oString = '发起革命';
+            //XPRevolutionLouverture{"_type":"InitiateRevolution"}
+            break;
+        }
+        //启用船运(需启用额外船运卡槽) DEPoliticianFederalNewYork
+        case 'AddHomeCityCard': {
+            oString = await getCString('Age' + effect['@ageprereq']);
+            oString = '于 ' + oString + ' 启用船运：';
+            if (effect['@unitcount'] * 1) {
+                oString = oString + '<sup>' + effect['@unitcount'] + '</sup> ';
+            }
+            oString = oString + targetTech;
+            oString = oString + ' ×' + effect['@maxcount'].replace('-1', '∞');
+            if (effect['@infiniteinlastage'] * 1) {
+                oString = oString + ' 🔄';
+            }
+            break;
+        }
+        //增加百分比细流 DENatBerberSaltCaravans
         case 'AddTrickleByResource': {
+            let srcResource1 = await getTarget(effect['@srcresource1'], 'Resource');
+            let srcResource2 = await getTarget(effect['@srcresource2'], 'Resource');
+            oString = '根据 ' + srcResource1 + (srcResource2 ? '/' + srcResource2 : '') + ' <sub style="display:inline-block;width:3em;">' + effect['@minsrcvalue'] + '-</sub><sup style="position:relative;left:-3em;">' + effect['@maxsrcvalue'] + '</sup> ';
+            oString = oString + '获得 ' + targetResource + ' 细流' + '<sub style="display:inline-block;width:3em;">' + effect['@minvalue'] + '-</sub><sup style="position:relative;left:-3em;">' + effect['@maxvalue'] + '</sup> ';
             //DENatBerberSaltCaravans{"_type":"AddTrickleByResource","_resource":"Gold","_minvalue":"0.001","_maxvalue":"4.0","_minsrcvalue":"1.00","_maxsrcvalue":"4000.00","_srcresource1":"Food","_srcresource2":"Wood"}
-            information = '待测试';
             break;
         }
         case 'ResourceExchange2': {
             //DENatAkanPalmOil{"_type":"ResourceExchange2","_multiplier":"0.50","_toresource":"Wood","_multiplier2":"0.50","_toresource2":"Gold","_fromresource":"Food"}
-            information = '待测试';
             break;
         }
         case 'RevertRevolution': {
             //DEReturnMXCentralAmerica{"_type":"RevertRevolution","_selfmsg":"112858","_playermsg":"112859"}
-            information = '待测试';
             break;
         }
         case 'UIAlert': {
             //DESPCExcommunication{"_type":"UIAlert","_reason":"Papal","_selfmsg":"-1","_playermsg":"123306","_target":"Enemy","_playername":"False","_duration":"2500"}
-            information = '待测试';
             break;
         }
         case 'Sound': {
             //DEVictorianEraColonialShadow{"_type":"Sound","__text":"AgeAdvance"}
-            information = '待测试';
             break;
         }
         case 'ForbidTech': {
             //DECircleArmyShadow1Switch{"_type":"ForbidTech",['@amount']":"0.00","__text":"DECircleArmyIndicator"}
-            information = '待测试';
             break;
         }
         case 'ResetActiveOnce': {
             //DECircleArmyShadow1Switch{"_type":"ResetActiveOnce","__text":"DECircleArmyShadow2Switch"}
-            information = '待测试';
             break;
         }
         case 'HomeCityCardMakeInfinite': {
             //DESebastopolMortarRepeatShadow{"_type":"HomeCityCardMakeInfinite","_tech":"DEHCShipSebastopolMortarRepeat"}
-            information = '待测试';
             break;
         }
         default: {
-            information = JSON.stringify(effect);
+            oString = JSON.stringify(effect);
         }
     }
-    return information.replace('%1!s!', tech);
+    if (!oString) return '·' + JSON.stringify(effect);
+    return oString.replace('%1!s!', techName);
 }
 //次级效果解析
-async function subType(effect) {
-    let actor = targetType(effect.target['#text'], effect.target['@type']);
-    let target = targetType(effect['@unittype'], 'ProtoUnit');
-    let resource = targetType(effect['@resource'], 'ProtoUnit');
+async function subEffect(effect) {
+    let actor = getTarget(effect.target['#text'], effect.target['@type']);
+    let target = getTarget(effect['@unittype'], 'ProtoUnit');
+    let resource = getTarget(effect['@resource'], 'Resource');
     let subtype = effect['@subtype'] ? effect['@subtype'] : effect.type;
     let info = '';
     switch (subtype) {
@@ -302,7 +369,7 @@ async function subType(effect) {
         case 'Cost':
             info = getString('90127');
             info = info.replace('%1!s!', actor);
-            info = info.replace('%2!s!', targetType(effect['@resource'], 'Resource'));
+            info = info.replace('%2!s!', getTarget(effect['@resource'], 'Resource'));
             info = info.replace('%3!.0f!%%', relativity(effect['@relativity'], effect['@amount']));
             return info;
         case 'Lifespan':
@@ -339,7 +406,7 @@ async function subType(effect) {
             info = info.replace('%3!s!', target);
             info = info.replace('%2!s!', actionType(effect['@action'], effect['@allactions'], effect.target['#text']));
             info = info.replace('+%4!.0f!%%', relativity(effect['@relativity'], effect['@amount']));
-            info = info.replace('%5!s!', targetType(effect['@resource'], 'Resource'));
+            info = info.replace('%5!s!', getTarget(effect['@resource'], 'Resource'));
         case 'Yield':
             info = getString('80382');
             info = info.replace('%1!s!', actor);
@@ -369,7 +436,7 @@ async function subType(effect) {
         case 'FreeHomeCityUnit':
             info = getString('42177');
             info = info.replace('%1!d!', effect['@amount'] * 1);
-            info = '☆' + info.replace('%2!s!', target);
+            info = info.replace('%2!s!', target);
             return info;
         case 'FreeHomeCityUnitResource':
             info = getString('80529');
@@ -600,7 +667,7 @@ async function subType(effect) {
             return '待测试';
         //复制图标
         case 'CopyTechIcon':
-            info = '☆' + targetType(effect.target['#text'], effect.target['@type']) + ' :从 ' + targetType(effect['@tech'], 'Tech') + ' 复制图标';
+            info = getTarget(effect.target['#text'], effect.target['@type']) + ' :从 ' + getTarget(effect['@tech'], 'Tech') + ' 复制图标';
             return info;
         case 'RevealEnemyLOS':
             //DEHCSPCMaraboutNetwork{"target":{"_type":"Player"},"_type":"Data",['@amount']":"0.00","_subtype":"RevealEnemyLOS","_unittype":"TradingPost","_relativity":"Absolute"}
@@ -901,9 +968,10 @@ function relativity(type, text) {
     }
 }
 //目标解析
-async function targetType(target, type) {
-    if (!target) return 'null';
+async function getTarget(target, type) {
+    if (!target) return '';
     let iData;
+    let oString;
     switch (type) {
         case 'ProtoUnit': {
             //查询unittype
@@ -914,53 +982,76 @@ async function targetType(target, type) {
             }
             if (iData) {
                 //查询到unitflag||unittype
-                return (getRuby(iData.displayname, iData.name));
+                oString = '⚐' + getRuby(iData.displayname, iData.name);
+                break;
             } else {
                 //均查询失败则查询proto
-                iData = await getProto(target.toLowerCase());
+                iData = await getProto(target);
             }
             if (iData) {
                 //查询到proto
-                return (getRuby(iData.displayname, iData['@name']));
+                oString = getRuby(iData.displayname, iData['@name']);
             } else {
                 //均查询失败则
-                return ('<del>' + target + '</del>');
+                oString = '<del>' + target + '</del>';
             }
+            break;
         }
         case 'Tech': {
             iData = await getTech(target);
             if (iData) {
-                return (getRuby(iData.displayname, iData['@name']));
+                oString = getRuby(iData.displayname, iData['@name']);
             } else {
-                return ('<del>' + target + '</del>');
+                oString = '<del>' + target + '</del>';
             }
-        }
-        case 'Resource': {
-            let oString = await getCString('ResourceName' + target);
-            return getRuby(oString, target);
-        }
-        case 'Player': {
-            return ('玩家');
-        }
-        case 'techAll': {
-            return ('所有科技');
+            break;
         }
         case 'techWithFlag': {
             iData = await getData('techflag', target.toLowerCase());
             if (iData) {
-                return ('所有' + getRuby(iData.displayname, iData.name) + '科技');
+                oString = '⚐' + getRuby(iData.displayname, iData['name']);
             } else {
-                return ('所有<del>' + target + '</del>科技');
+                oString = '<del>⚐' + target + '</del>';
             }
+            break;
+        }
+        case 'Resource': {
+            oString = await getCString('ResourceName' + target);
+            oString = getRuby(oString, target);
+            break;
+        }
+        case 'Player': {
+            oString = '玩家';
+            break;
+        }
+        case 'techAll': {
+            oString = '所有科技';
+            break;
         }
         case 'Command': {
-            //return '<ruby>' + getString(commands[target].rollovertextid) + '<rt>' + target + '</rt></ruby>';
-            return;// oString;
+            iData = await getCommand(target);
+            if (iData) {
+                oString = getRuby(iData.displayname, iData['name']);
+            } else {
+                oString = '<del>' + target + '</del>';
+            }
+            break;
+        }
+        case 'Power': {
+            iData = await getPower(target);
+            if (iData) {
+                oString = getRuby(iData.displayname, iData['@name']);
+            } else {
+                oString = '<del>' + target + '</del>';
+            }
+            break;
         }
         default: {
-            return target;
+            oString = target;
+            break;
         }
     }
+    return oString;
 }
 //动作解析
 function actionType(action, allactions, proto) {

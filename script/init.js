@@ -15,6 +15,7 @@ async function init() {
     if (version != getStorage('version')) {
         alert('当前数据版本:' + version + ',数据库版本:' + getStorage('version') + '\n请更新数据库');
     }
+    toggleID();
 }
 function getLanguage() {
     language.id = document.getElementById('language').options[document.getElementById('language').selectedIndex].value;
@@ -39,6 +40,7 @@ async function updateDatabase() {
     await updateUnittypes();
     await updateUnitflags();
     await updateTechflags();
+    await updatePowers();
     await updateTactics();
     await updateCivs();
     await updateHomecity();
@@ -228,7 +230,7 @@ async function updateDamageTypes() {
     document.getElementById(table + '_quest').innerHTML = process;
     for (i in iArray) {
         let iData = iArray[i];
-        iData.displayname = await getString(iData.displaynameid);
+        iData.displayname = await getString(iData.displaynameid, iData['@name']);
         let oData = {};
         oData.index = iData['name'].toLowerCase();
         oData.value = iData;
@@ -246,13 +248,54 @@ async function updateProtoUnitCommands() {
     document.getElementById(table + '_quest').innerHTML = process;
     for (i in iArray) {
         let iData = iArray[i];
-        iData.rollovertext = await getString(iData.rollovertextid);
+        let iString = await getString(iData.rollovertextid);
+        iData.displayname = iString.replaceAll('<ttf>', '').replaceAll('<tth>', '').split('<tti>')[0];
+        iData.rollovertext = iString.replaceAll('<ttf>', '').replaceAll('<tth>', '').split('<tti>')[1];
         let oData = {};
         oData.index = iData['name'].toLowerCase();
         oData.value = iData;
         updateData(table, oData);
     }
 }
+//缓存技能,前置string
+async function updatePowers() {
+    let table = 'power';
+    appendNode('更新技能文件: <a id="' + table + '_processed">0</a> / <a id="' + table + '_quest">0</a> , <a id="' + table + '_failed">0</a> Error', 'logger', 'div');
+    let iArray = await getJson('./Data/abilities/powers.xml.json');
+    iArray = iArray.powers.power;
+    let process = document.getElementById(table + '_quest').innerHTML * 1;
+    process = process + iArray.length;
+    document.getElementById(table + '_quest').innerHTML = process;
+    for (i in iArray) {
+        let iData = iArray[i];
+        iData.displayname = await getString(iData.displaynameid, iData['@name']);
+        iData.rollovertext = await getString(iData.rollovertextid);
+        let oData = {};
+        oData.index = iData['@name'].toLowerCase();
+        oData.local = iData.displayname;
+        oData.value = iData;
+        updateData(table, oData);
+    }
+}
+//缓存能力,前置string
+/*async function updateAbilities() {
+    let table = 'ability';
+    appendNode('更新能力文件: <a id="' + table + '_processed">0</a> / <a id="' + table + '_quest">0</a> , <a id="' + table + '_failed">0</a> Error', 'logger', 'div');
+    let iArray = await getJson('./Data/abilities/abilities.xml.json');
+    iArray = iArray.abilities.power;
+    let process = document.getElementById(table + '_quest').innerHTML * 1;
+    process = process + iArray.length;
+    document.getElementById(table + '_quest').innerHTML = process;
+    for (i in iArray) {
+        let iData = iArray[i];
+        iData.displayname = await getString(iData.displaynameid);
+        iData.rollovertext = await getString(iData.rollovertextid);
+        let oData = {};
+        oData.index = iData['@name'].toLowerCase();
+        oData.value = iData;
+        updateData(table, oData);
+    }
+}*/
 //缓存主城,前置civ
 async function updateHomecity() {
     let table = 'homecity';

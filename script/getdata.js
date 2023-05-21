@@ -68,3 +68,21 @@ async function getNugget(id) {
     if (!oData) oData = { 'rolloverstring': '<del>' + id + '</del>', 'applystring': '找不到该宝藏', 'name': id, 'isNull': true };
     return oData;
 }
+//返回技能
+async function getPower(id) {
+    if (!id) {
+        return { 'displayname': '空', 'rollovertext': '空', '@name': 'null', 'isNull': true };
+    }
+    let oData = await getData('power', id.toLowerCase());
+    if (!oData) oData = { 'displayname': '<del>' + id + '</del>', 'rollovertext': '找不到该技能', '@name': id, 'isNull': true };
+    return oData;
+}
+//返回命令
+async function getCommand(id) {
+    if (!id) {
+        return { 'displayname': '空', 'rollovertext': '空', 'name': 'null', 'isNull': true };
+    }
+    let oData = await getData('command', id.toLowerCase());
+    if (!oData) oData = { 'displayname': '<del>' + id + '</del>', 'rollovertext': '找不到该命令', 'name': id, 'isNull': true };
+    return oData;
+}

@@ -268,35 +268,38 @@ async function getInfo() {
     for (i in iArray) {
         let iData = iArray[i];
         if (iData == "") continue;
+        let oString, iString;
         //处理宝藏
         let oData = await getNugget(iData.toLowerCase());
         if (!oData.isNull) {
             let nuggetUint = await getProto(oData.nuggetunit);
-            let oString = getIcon(nuggetUint);
+            oString = getIcon(nuggetUint);
+            iString = await getEffects(oData, true);
             oString = oString + '<td>' + oData.name + '</td>';
             oString = oString + '<td>' + getRuby(nuggetUint.displayname, nuggetUint['@name']) + '</td>';
             oString = oString + '<td>宝藏</td>';
             oString = oString + '<td>' + oData.rolloverstring + '</td>';
-            oString = oString + '<td><div class="effect">' + oData.applystring + '</div></td>';
+            oString = oString + '<td><div class="effect">' + iString + '</div></td>';
             appendNode(oString, 'info', 'tr');
             continue;
         }
         //处理科技
         oData = await getTech(iData.toLowerCase());
         if (!oData.isNull) {
-            let oString = getIcon(oData);
+            oString = getIcon(oData);
+            iString = await getEffects(oData, false)
             oString = oString + '<td>' + oData['@name'] + '</td>';
             oString = oString + '<td>' + getRuby(oData.displayname, oData['@name']) + '</td>';
             oString = oString + '<td>科技</td>';
             oString = oString + '<td>' + oData.rollovertext + '</td>';
-            oString = oString + '<td><div class="effect">' + /*getEffects(oData.effects, oData.displayname) + */'</div></td>';
+            oString = oString + '<td><div class="effect">' + iString + '</div></td>';
             appendNode(oString, 'info', 'tr');
             continue;
         }
         //处理单位
         oData = await getProto(iData.toLowerCase());
         if (!oData.isNull) {
-            let oString = getIcon(oData);
+            oString = getIcon(oData);
             oString = oString + '<td>' + oData['@name'] + '</td>';
             oString = oString + '<td>' + getRuby(oData.displayname, oData['@name']) + '</td>';
             oString = oString + '<td>单位</td>';

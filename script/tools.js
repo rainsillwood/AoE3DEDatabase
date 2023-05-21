@@ -110,6 +110,18 @@ function toggleNode(id) {
     }
 }
 
+function toggleID() {
+    let styleRuby = getStyleSheet('ruby');
+    let checkbox = document.getElementById('showID');
+    if (checkbox.checked) {
+        styleRuby.disabled = true;
+        checkbox.checked = true;
+    } else {
+        styleRuby.disabled = false;
+        checkbox.checked = false;
+    }
+}
+
 function appendNode(text, father, type) {
     let node = document.createElement(type);
     node.innerHTML = text;
@@ -124,5 +136,14 @@ function getRuby(lower, upper) {
     if (lower.substring(0, 3) == '未找到:') {
         return lower;
     }
-    return ('<ruby>' + lower + '<rt>' + upper + '</rt></ruby>');
+    return ('<ruby>' + lower + '<rt>-' + upper + '-</rt></ruby>');
+}
+
+function getStyleSheet(name) {
+    let styleList = document.styleSheets;
+    for (i in styleList) {
+        if (styleList[i].title == 'ruby') {
+            return styleList[i];
+        }
+    }
 }

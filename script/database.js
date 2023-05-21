@@ -126,6 +126,30 @@ async function openDB() {
                 unique: false
             });
         }
+        //表power是否存在,否则创建
+        if (!database.objectStoreNames.contains('power')) {
+            let objectStore = database.createObjectStore('power', {
+                keyPath: 'index'
+            });
+            objectStore.createIndex('local', 'local', {
+                unique: false
+            });
+            objectStore.createIndex('value', 'value', {
+                unique: false
+            });
+        }
+        //表ability是否存在,否则创建
+        if (!database.objectStoreNames.contains('ability')) {
+            let objectStore = database.createObjectStore('ability', {
+                keyPath: 'index'
+            });
+            objectStore.createIndex('local', 'local', {
+                unique: false
+            });
+            objectStore.createIndex('value', 'value', {
+                unique: false
+            });
+        }
         //表unittype是否存在,否则创建
         if (!database.objectStoreNames.contains('unittype')) {
             let objectStore = database.createObjectStore('unittype', {
