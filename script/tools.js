@@ -139,6 +139,15 @@ function getRuby(lower, upper) {
     return ('<ruby>' + lower + '<rt>-' + upper + '-</rt></ruby>');
 }
 
+function getSpan(lower, upper, align) {
+    let oString = '<span style="display: inline-flex;flex-direction:column-reverse;">';
+    oString = oString + '<small style="line-height: 0.75em;text-align:' + align + ';">&nbsp;' + (!lower ? '' : lower) + '&nbsp;</small>';
+    oString = oString + '<small style="line-height: 0.25em;text-align:' + align + ';visibility:hidden;">-</small>';
+    oString = oString + '<small style="line-height: 0.75em;text-align:' + align + ';">&nbsp;' + (!upper ? '' : upper) + '&nbsp;</small>';
+    oString = oString + '</span>';
+    return oString;
+}
+
 function getStyleSheet(name) {
     let styleList = document.styleSheets;
     for (i in styleList) {

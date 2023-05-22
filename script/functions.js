@@ -262,9 +262,10 @@ async function getInfo() {
         return;
     }
     resetInfo();
-    appendNode('<th class="icon">图标</th><th class="name">调用名</th><th class="local">中文名</th><th class="type">类型</th><th class="desc">描述</th><th class="effect">效果</th>',
+    appendNode('<th class="icon">图标</th><th class="name">调用名</th><th class="local">中文名</th><th class="type">类型</th><th class="desc">描述</th><th class="effect">效果/属性</th>',
         'info', 'tr');
     let iArray = getInnerHTML();
+    let oArray = ['调用名\t中文名\t类型\t描述\t效果/属性'];
     for (i in iArray) {
         let iData = iArray[i];
         if (iData == "") continue;
@@ -279,8 +280,14 @@ async function getInfo() {
             oString = oString + '<td>' + getRuby(nuggetUint.displayname, nuggetUint['@name']) + '</td>';
             oString = oString + '<td>宝藏</td>';
             oString = oString + '<td>' + oData.rolloverstring + '</td>';
-            oString = oString + '<td><div class="effect">' + iString + '</div></td>';
+            oString = oString + '<td class="effect">' + iString + '</td>';
             appendNode(oString, 'info', 'tr');
+            oString = oData.name + '\t';
+            oString = oString + (nuggetUint.displayname ? nuggetUint.displayname : nuggetUint['@name']) + '\t';
+            oString = oString + '宝藏' + '\t';
+            oString = oString + oData.rolloverstring + '\t';
+            oString = oString + iString.replace(/<ruby>(.*?)<rt>.*?<\/ruby>/g, '$1').replaceAll('</br>', '↩️').replaceAll('&nbsp;', ' ').replace(/<.*?>/g, '');
+            oArray.push(oString);
             continue;
         }
         //处理科技
@@ -292,23 +299,36 @@ async function getInfo() {
             oString = oString + '<td>' + getRuby(oData.displayname, oData['@name']) + '</td>';
             oString = oString + '<td>科技</td>';
             oString = oString + '<td>' + oData.rollovertext + '</td>';
-            oString = oString + '<td><div class="effect">' + iString + '</div></td>';
+            oString = oString + '<td class="effect">' + iString + '</td>';
             appendNode(oString, 'info', 'tr');
+            oString = oData['@name'] + '\t';
+            oString = oString + (oData.displayname ? oData.displayname : oData['@name']) + '\t';
+            oString = oString + '科技' + '\t';
+            oString = oString + oData.rollovertext + '\t';
+            oString = oString + iString.replace(/<ruby>(.*?)<rt>.*?<\/ruby>/g, '$1').replaceAll('</br>', '↩️').replaceAll('&nbsp;', ' ').replace(/<.*?>/g, '');
+            oArray.push(oString);
             continue;
         }
         //处理单位
         oData = await getProto(iData.toLowerCase());
         if (!oData.isNull) {
             oString = getIcon(oData);
+            iString = '';
             oString = oString + '<td>' + oData['@name'] + '</td>';
             oString = oString + '<td>' + getRuby(oData.displayname, oData['@name']) + '</td>';
             oString = oString + '<td>单位</td>';
             oString = oString + '<td>' + oData.rollovertext + '</td>';
-            oString = oString + '<td><div class="effect">' + '</div></td>';
+            oString = oString + '<td>' + '</td>';
             appendNode(oString, 'info', 'tr');
+            oString = oData['@name'] + '\t';
+            oString = oString + (oData.displayname ? oData.displayname : oData['@name']) + '\t';
+            oString = oString + '单位' + '\t';
+            oString = oString + oData.rollovertext + '\t';
+            oString = oString + iString.replace(/<ruby>(.*?)<rt>.*?<\/ruby>/g, '$1').replaceAll('</br>', '↩️').replaceAll('&nbsp;', ' ').replace(/<.*?>/g, '');
             continue;
         }
     }
+    setOuterHTML(oArray.join('\n'));
 }
 
 async function searchInfo(isFuzzy) {

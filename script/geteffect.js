@@ -16,7 +16,8 @@ async function getEffects(tech, isNugget) {
         let iString = await getEffect(effectList[i], techName);
         oString = oString + iString + '</br>';
     }
-    return oString;
+    oString = oString + '</br>';
+    return oString.replace('</br></br>', '');
 }
 //效果解析,包括宝藏
 async function getEffect(effect, techName) {
@@ -129,6 +130,11 @@ async function getEffect(effect, techName) {
             oString = targetTech + targetProto + ': 更名为 ' + newName;
             break;
         }
+        //播放音频
+        case 'Sound': {
+            oString = '播放音频：' + effect['#text'];
+            break;
+        }
         //输出消息 HCAdvancedArsenal
         case 'TextOutput': {
             oString = await getString(effect['#text']);
@@ -148,9 +154,31 @@ async function getEffect(effect, techName) {
             oString = '输出消息：『' + oString + '』/『' + iString.replace('%s', 'Player') + '』';
             break;
         }
-        //资源交换 YPHCEmpressDowager
+        //发起革命 DERevolutionMXBajaCalifornia
+        case 'InitiateRevolution': {
+            oString = '发起革命：' + (!targetProto ? '无市民' : targetProto.replace('<ruby><del>none</del><rt>-none-</rt></ruby>', '无市民')) + '，';
+            oString = oString + (effect['@savedeck'] == 'True' ? '' : '不') + '保存卡组，';
+            oString = oString + (effect['@extdeck'] == 'True' ? '' : '不') + '启用新卡组';
+            break;
+        }
+        //回归 DEReturnMXYucatan
+        case 'RevertRevolution': {
+            let iString = await getString(effect['@playermsg']);
+            oString = await getString(effect['@selfmsg']);
+            oString = '回归：『' + oString + '』/『' + iString.replace('%s', 'Player') + '』';
+            break;
+            break;
+        }
+        //资源交换1换1 YPHCEmpressDowager
         case 'ResourceExchange': {
             oString = '所有 ' + fromResource + ' 都将换成 ' + effect['@multiplier'] * 100 + '% 的 ' + toResource;
+            break;
+        }
+        //资源交换1换2 DENatAkanPalmOil
+        case 'ResourceExchange2': {
+            let toResource2 = await getTarget(effect['@toresource2'], 'Resource');
+            oString = '所有 ' + fromResource + ' 都将换成 ' + effect['@multiplier'] * 100 + '% 的 ' + toResource;
+            oString = oString + ' 和 ' + effect['@multiplier2'] * 100 + '% 的 ' + toResource2;
             break;
         }
         //建筑死亡时激活 YPHCCalltoArms1
@@ -183,13 +211,11 @@ async function getEffect(effect, techName) {
         case 'SetOnTechResearchedTech': {
             let target = await getTarget(effect['#text'], 'Tech');
             oString = '每次完成研究时激活科技 ' + target + ' ' + effect['@amount'] * 1 + ' 次';
-            //DEHCGondolas{"_type":"SetOnTechResearchedTech",['@amount']":"1.00","__text":"DEShipItalianFishingBoat"}
             break;
         }
         //卖牲畜 DERoyalBanquet
         case 'ResourceInventoryExchange': {
             oString = '所有 ' + targetUnitType + ' 储存的 ' + fromResource + ' 兑换为 ' + effect['@multiplier'] * 100 + '% 的 ' + toResource;
-            //DEHCHabbanaya{"@type":"ResourceInventoryExchange","@multiplier":"0.50","@unittype":"Herdable","@toresource":"Influence","@fromresource":"Food","#text":""}
             break;
         }
         //获得所有单位的视野 Spies
@@ -200,19 +226,12 @@ async function getEffect(effect, techName) {
         //封锁工具 HCBlockade
         case 'Blockade': {
             oString = effect['@delay'] + ' 秒后禁止敌对发出船运';
-            //HCBlockade{"_type":"Blockade","_delay":"10.00"}
             break;
         }
         //设置时代 ypConsulateJapaneseMeijiRestoration
         case 'SetAge': {
             oString = await getCString(effect['#text']);
             oString = '设置时代为 ' + oString;
-            break;
-        }
-        //发起革命 DERevolutionPeru
-        case 'InitiateRevolution': {
-            oString = '发起革命';
-            //XPRevolutionLouverture{"_type":"InitiateRevolution"}
             break;
         }
         //启用船运(需启用额外船运卡槽) DEPoliticianFederalNewYork
@@ -233,44 +252,33 @@ async function getEffect(effect, techName) {
         case 'AddTrickleByResource': {
             let srcResource1 = await getTarget(effect['@srcresource1'], 'Resource');
             let srcResource2 = await getTarget(effect['@srcresource2'], 'Resource');
-            oString = '根据 ' + srcResource1 + (srcResource2 ? '/' + srcResource2 : '') + ' <sub style="display:inline-block;width:3em;">' + effect['@minsrcvalue'] + '-</sub><sup style="position:relative;left:-3em;">' + effect['@maxsrcvalue'] + '</sup> ';
-            oString = oString + '获得 ' + targetResource + ' 细流' + '<sub style="display:inline-block;width:3em;">' + effect['@minvalue'] + '-</sub><sup style="position:relative;left:-3em;">' + effect['@maxvalue'] + '</sup> ';
-            //DENatBerberSaltCaravans{"_type":"AddTrickleByResource","_resource":"Gold","_minvalue":"0.001","_maxvalue":"4.0","_minsrcvalue":"1.00","_maxsrcvalue":"4000.00","_srcresource1":"Food","_srcresource2":"Wood"}
+            oString = '<span style="display: inline-flex;align-items:center">';
+            oString = oString + '根据 ' + srcResource1 + (srcResource2 ? '+' + srcResource2 : '') + getSpan(effect['@minsrcvalue'] * 1, effect['@maxsrcvalue'] * 1, 'left');
+            oString = oString + '获得' + getSpan(effect['@minvalue'] * 1, effect['@maxvalue'] * 1, 'right') + targetResource + ' 细流';
+            oString = oString + '</span>';
             break;
         }
-        case 'ResourceExchange2': {
-            //DENatAkanPalmOil{"_type":"ResourceExchange2","_multiplier":"0.50","_toresource":"Wood","_multiplier2":"0.50","_toresource2":"Gold","_fromresource":"Food"}
-            break;
-        }
-        case 'RevertRevolution': {
-            //DEReturnMXCentralAmerica{"_type":"RevertRevolution","_selfmsg":"112858","_playermsg":"112859"}
-            break;
-        }
-        case 'UIAlert': {
-            //DESPCExcommunication{"_type":"UIAlert","_reason":"Papal","_selfmsg":"-1","_playermsg":"123306","_target":"Enemy","_playername":"False","_duration":"2500"}
-            break;
-        }
-        case 'Sound': {
-            //DEVictorianEraColonialShadow{"_type":"Sound","__text":"AgeAdvance"}
-            break;
-        }
+        //DECircleArmyShadow1Switch
         case 'ForbidTech': {
-            //DECircleArmyShadow1Switch{"_type":"ForbidTech",['@amount']":"0.00","__text":"DECircleArmyIndicator"}
             break;
         }
+        //DECircleArmyShadow1Switch
         case 'ResetActiveOnce': {
-            //DECircleArmyShadow1Switch{"_type":"ResetActiveOnce","__text":"DECircleArmyShadow2Switch"}
             break;
         }
+        //DESebastopolMortarRepeatShadow
         case 'HomeCityCardMakeInfinite': {
-            //DESebastopolMortarRepeatShadow{"_type":"HomeCityCardMakeInfinite","_tech":"DEHCShipSebastopolMortarRepeat"}
+            break;
+        }
+        //显示UI DESPCExcommunication
+        case 'UIAlert': {
             break;
         }
         default: {
             oString = JSON.stringify(effect);
         }
     }
-    if (!oString) return '·' + JSON.stringify(effect);
+    if (!oString) return JSON.stringify(effect);
     return oString.replace('%1!s!', techName);
 }
 //次级效果解析
