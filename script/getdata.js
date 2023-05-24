@@ -16,22 +16,18 @@ async function getString(textID, targetID) {
 async function getCString(cString) {
     if (cString) {
         //textID不为空,
-        //targetID为空:iData['#text']
         //targetID不为空:'<ruby>' + iData['#text'] + '<rt>' + targetID + '<rt>' + '</ruby>';
-        let iData = await getData('string', 'cstringabstractname' + cString.toLowerCase(), 'symbol');
-        if (!iData) {
-            iData = await getData('string', 'cstring' + cString.toLowerCase().replace('abstract', 'abstractname'), 'symbol');
+        let iString = cString.toLowerCase().replace('abstractname', '').replace('abstract', '').replace('logicaltypepickable', '').replace('logicaltype', '');
+        //unittype:Herdable → cStringAbstractNameHerdable
+        let iData = await getData('string', 'cstringabstractname' + iString, 'symbol');
+        if (!iData) {//unittype:AbstractCaprine → cStringAbstractCaprine
+            iData = await getData('string', 'cstringabstract' + iString, 'symbol');
         }
-        if (!iData) {
-            iData = await getData('string', 'cstringabstract' + cString.toLowerCase(), 'symbol');
-        }
-        if (!iData) {
-            iData = await getData('string', 'cstring' + cString.toLowerCase(), 'symbol');
-        }
-        if (!iData) {
-            iData = await getData('string', 'cstring' + cString.toLowerCase().replace('abstract', ''), 'symbol');
+        if (!iData) {//unittype:AbstractAbusGun → cStringAbusGun
+            iData = await getData('string', 'cstring' + iString, 'symbol');
         }
         if (iData) {
+            //targetID为空:iData['#text']
             return iData['#text'];
         } else {
             return '未找到';

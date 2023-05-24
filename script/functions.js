@@ -76,6 +76,21 @@ async function getStrings() {
     setOuterHTML(oArray.join('\n'));
 }
 
+async function getUnitTypes() {
+    if (version != getStorage('version')) {
+        alert('当前数据版本:' + version + ',数据库版本:' + getStorage('version') + '\n请更新数据库');
+        return;
+    }
+    let oArray = [];
+    let iArray = await getArray('unittype', 'all');
+    for (let i in iArray) {
+        let iData = iArray[i];
+        let text = iData.name + '\t' + iData.displayname + '\t' + iData.list.join(',');
+        oArray.push(text);
+    }
+    setOuterHTML(oArray.join('\n'));
+}
+
 async function getCards() {
     if (version != getStorage('version')) {
         alert('当前数据版本:' + version + ',数据库版本:' + getStorage('version') + '\n请更新数据库');
