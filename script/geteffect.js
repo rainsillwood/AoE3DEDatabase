@@ -1,25 +1,84 @@
-//数值改变解析 Value=(Assign+[Absolute])*(Percent+[BasePercent])
-function relativity(type, amount) {
+//数值改变解析,设基础数值为Base,当前数值为Current
+function getRelativity(type, amount) {
+    let oData = {}
+    let value = amount * 1;
+    let percent = Sub(amount * 1, 1) * 100;
     switch (type) {
-        case 'Assign':
-            return ['Set', amount * 1];
-        case 'Absolute':
-            return ['Add', amount * 1 < 0 ? amount * 1 : ('+' + amount * 1)];
-        case 'Percent':
-            return [amount * 1 < 0 ? 'Decrease' : 'Increase', (amount - 1) * 100];
-        case 'BasePercent':
-            return [amount * 1 < 0 ? 'Decrease' : 'Increase', (amount - 1) * 100];
-        case 'Override':
-            return ['Set', amount * 1];
-        case 'DefaultValue':
-            return ['Default', amount * 1];
-        default:
-            return ['未知', amount * 1];
+        //直接设定数值,Current=Assign
+        case 'Assign': {
+            oData.type = 'Set';
+            oData.value = value;
+            break;
+        }
+        //当前数值上加,Current=Current+Assign
+        case 'Absolute': {
+            oData.type = 'Add';
+            oData.value = value;
+            oData.chage = '2-3';
+            break;
+        }
+        //当前数值上乘,Current=Current*Percent;
+        case 'Percent': {
+            if (percent < 0) {
+                oData.type = 'Decrease';
+                oData.value = percent;
+            } else {
+                oData.type = 'Increase';
+                oData.value = percent;
+            }
+            break;
+        }
+        //基础数值乘,Current=Current+(BasePercent-1)*Base
+        case 'BasePercent': {
+            if (percent < 0) {
+                oData.type = 'Decrease';
+                oData.value = percent;
+            } else {
+                oData.type = 'Increase';
+                oData.value = percent;
+            }
+            break;
+        }
+        //覆盖部分基础数值
+        case 'Override': {
+            oData.type = 'Set';
+            oData.value = value;
+            break;
+        }
+        case 'DefaultValue': {
+            oData.type = 'Default';
+            oData.value = value;
+            break;
+        }
+        default: {
+            oData.type = '未知';
+            oData.value = value;
+            break;
+        }
     }
+    return oData;
+}
+function replaceData(iString, iArray, changePos) {
+    let oString = iString;
+    oString = oString.replace(/!(.*?)!/g, '$1').replace(/(%\d)\.?\d?[sdfc]/g, '$1x');
+    if (changePos) {
+        let repArray = changePos.split('-');
+        oString = oString.replace('%' + repArray[0] + 'x', '%∞x');
+        oString = oString.replace('%' + repArray[1] + 'x', '%' + repArray[0] + 'x');
+        oString = oString.replace('%∞x', '%' + repArray[1] + 'x');
+    }
+    for (i in iArray) {
+        oString = oString.replace('%' + (i * 1 + 1) + 'x', iArray[i]);
+    }
+    oString = oString.replace('%%', '%');
+    oString = oString.replace('增加 -', '减少 ');
+    oString = oString.replace('+-', '-');
+    if (oString.split('增加 <ruby>')[1]) alert(oString);
+    return oString;
 }
 //目标解析
 async function getTarget(target, type) {
-    if (!target) return '';
+    if (target === undefined) return '';
     let iData;
     let oString;
     switch (type) {
@@ -32,7 +91,7 @@ async function getTarget(target, type) {
             }
             if (iData) {
                 //查询到unitflag||unittype
-                oString = getRuby(iData.displayname, iData.name).replace(' ', ' ⚐');
+                oString = '⚐' + getRuby(iData.displayname, iData.name);
                 break;
             } else {
                 //均查询失败则查询proto
@@ -41,9 +100,27 @@ async function getTarget(target, type) {
             if (iData) {
                 //查询到proto
                 oString = getRuby(iData.displayname, iData['@name']);
+            }
+            break;
+        }
+        case 'Proto': {
+            //查询unittype
+            iData = await getData('unittype', target.toLowerCase());
+            if (!iData) {
+                //unittype查询失败则查询unitflag
+                iData = await getData('unitflag', target.toLowerCase());
+            }
+            if (iData) {
+                //查询到unitflag||unittype
+                oString = '⚐' + getRuby(iData.displayname, iData.name);
+                break;
             } else {
-                //均查询失败则
-                oString = '<del>' + target + '</del>';
+                //均查询失败则查询proto
+                iData = await getProto(target);
+            }
+            if (iData) {
+                //查询到proto
+                oString = getRuby(iData.displayname, iData['@name']);
             }
             break;
         }
@@ -51,8 +128,6 @@ async function getTarget(target, type) {
             iData = await getTech(target);
             if (iData) {
                 oString = getRuby(iData.displayname, iData['@name']);
-            } else {
-                oString = '<del>' + target + '</del>';
             }
             break;
         }
@@ -65,25 +140,23 @@ async function getTarget(target, type) {
             }
             break;
         }
-        case 'Resource': {
-            oString = await getCString('ResourceName' + target);
-            oString = getRuby(oString, target);
-            break;
-        }
         case 'Player': {
-            oString = '玩家';
+            oString = getRuby('玩家', 'Player');
             break;
         }
         case 'techAll': {
-            oString = '所有科技';
+            oString = getRuby('所有科技', 'techAll');
+            break;
+        }
+        case 'Resource': {
+            oString = await getCString('ResourceName' + target);
+            oString = getRuby(oString, target);
             break;
         }
         case 'Command': {
             iData = await getCommand(target);
             if (iData) {
                 oString = getRuby(iData.displayname, iData['name']);
-            } else {
-                oString = '<del>' + target + '</del>';
             }
             break;
         }
@@ -91,8 +164,6 @@ async function getTarget(target, type) {
             iData = await getPower(target);
             if (iData) {
                 oString = getRuby(iData.displayname, iData['@name']);
-            } else {
-                oString = '<del>' + target + '</del>';
             }
             break;
         }
@@ -101,20 +172,37 @@ async function getTarget(target, type) {
             break;
         }
     }
-    return oString;
+    return ' ' + oString + ' ';
+}
+async function getTargetAction(action, proto, isAll) {
+    let oString;
+    if (action && proto) {
+        if (isAll) {
+            oString = await getCString('AllActionsEffect');
+        } else {
+            let target = await getProto(proto);
+            if (!target.tactics) {
+                let uniType = await getData('unittype', proto.toLowerCase());
+                if (uniType) {
+                    target = await getProto(uniType.list[0]);
+                }
+            }
+            if (target.tactics) {
+                let iData = await getAction(target.tactics.toLowerCase() + '-' + action.toLowerCase());
+                if (!iData.name) {
+                    return;
+                }
+                oString = getRuby(iData.displayname, iData.name['#text']);
+            }
+        }
+    }
+    if (!oString) {
+        oString = '未找到:' + action;
+    }
+    return ' ' + oString + ' ';
 }
 /*/动作解析
 function actionType(action, allactions, proto) {
-    if (allactions == '1') return getString('42044');
-    if (allactions == 'CommandAdd') {
-        return action;
-    }
-    if (!action) return ' 未知 ';
-    let unit = getProto(proto);
-
-    if (unit['@id']) {
-        let tactic = getJson('./Data/tactics/' + unit.tactics + '.json');
-        tactic = returnList(tactic.tactics.action);
         let actions = {};
         for (i in tactic) {
             let action = tactic[i];
@@ -154,15 +242,18 @@ async function getEffects(tech, isNugget) {
 //效果解析,包括宝藏
 async function getEffect(effect, techName) {
     let oString;
-    let subEffect;//次级效果
+    let subType;//次级效果
     //获取执行对象
     let actor;
+    let targetAction;
     if (effect.target) {
         actor = await getTarget(effect.target['#text'], effect.target['@type']);
+        targetAction = await getTargetAction(effect['@action'], effect.target['#text'], effect['@allactions']);
     }
     //获取目标对象
     let targetProto = await getTarget(effect['@proto'], 'ProtoUnit');
     let targetUnitType = await getTarget(effect['@unittype'], 'ProtoUnit');
+    let targetUnit = targetProto || targetUnitType;
     let targetTech = await getTarget(effect['@tech'], 'Tech');
     let targetCommand = await getTarget(effect['@command'], 'Command');
     let targetResource = await getTarget(effect['@resource'], 'Resource');
@@ -172,20 +263,24 @@ async function getEffect(effect, techName) {
     //获取改变单位对象
     let fromProto = await getTarget(effect['@fromprotoid'], 'ProtoUnit');
     let toProto = await getTarget(effect['@toprotoid'], 'ProtoUnit');
+    //获取数值改变
+    let relativity = getRelativity(effect['@relativity'], effect['@amount']);
     switch (effect['@type']) {
         case 'Nugget': {//宝藏效果
-            subEffect = effect.type;
+            subType = effect.type;
             break;
         }
         case 'Data': {//改变数据
-            subEffect = effect["@subtype"];
+            subType = effect["@subtype"];
             break;
         }
         case 'Data2': {//改变数据
-            subEffect = effect["@subtype"];
+            subType = effect["@subtype"];
             break;
         }
         case 'TechStatus': {//开/关科技 HCAdvancedArsenal
+            oString = await getCString('TechSetStatus' + 'Effect');
+            let target = await getTarget(effect['#text'], 'Tech');
             let status = effect['@status'].toLowerCase();
             switch (status) {
                 case 'obtainable':
@@ -198,10 +293,11 @@ async function getEffect(effect, techName) {
                     status = ' 已生效';
                     break;
             }
-            let target = await getTarget(effect['#text'], 'Tech');
-            oString = await getCString('TechSetStatusEffect');
-            oString = oString.replace('%1!s!', target);
-            oString = oString.replace('%2!s!', status);
+            oString = replaceData(oString, [
+                target,
+                status
+            ]);
+            oString = '★' + oString;
             break;
         }
         case 'RandomTech': {//激活随机科技 DEHCPokerShadow
@@ -225,119 +321,141 @@ async function getEffect(effect, techName) {
                 }
                 oString = oString + '：[' + techList.join(', ') + ']';
             }
+            oString = '☆' + oString;
             break;
         }
         case 'CreatePower': {//激活能力 HCXPNationalRedoubt
             let protoPower = await getTarget(effect['@protopower'], 'Power');
             oString = '激活能力：' + protoPower;
+            oString = '☆' + oString;
             break;
         }
         case 'CommandAdd': {//增加命令 DEHCEarlyFort
             oString = actor + ': 增加命令' + targetProto + targetTech + targetCommand;
+            oString = '☆' + oString;
             break;
         }
         case 'CommandRemove': {//移除命令 DEHCFedGoldRush
             oString = actor + ': 移除命令' + targetProto + targetTech + targetCommand;
+            oString = '☆' + oString;
             break;
         }
         case 'TransformUnit': {//置换单位 HCXPTercioTactics
             oString = '所有' + fromProto + '转变成' + toProto;
+            oString = '☆' + oString;
             break;
         }
         case 'ReplaceUnit': {//转换单位 DEHCPlanVeracruz
             oString = '所有' + fromProto + '转变成' + toProto;
+            oString = '☆' + oString;
             break;
         }
         case 'SetName': {//更改名称 HCAdvancedArsenal
             let newName = await getString(effect['@newname']);
             oString = targetTech + targetProto + ': 更名为 ' + newName;
+            oString = '☆' + oString;
             break;
         }
-        case 'Sound': {//播放音频
+        case 'Sound': {//播放音频 DEVictorianEraDiscoveryShadow
             oString = '播放音频：' + effect['#text'];
+            oString = '☆' + oString;
             break;
         }
         case 'TextOutput': {//输出消息 HCAdvancedArsenal
             oString = await getString(effect['#text']);
             oString = '输出消息：『' + oString.replace('%1!s!', techName) + '』';
+            oString = '☆' + oString;
             break;
         }
-        case 'TextOutputTechName': {//输出消息
+        case 'TextOutputTechName': {//输出消息 DEHCChurchWagon
             oString = await getString(effect['#text']);
             oString = '输出消息：『' + oString.replace('%1!s!', techName) + '』';
+            oString = '☆' + oString;
             break;
         }
-        case 'TextEffectOutput': {//输出消息
+        case 'TextEffectOutput': {//输出消息 DEChurchRisorgimentoBrazil
             let iString = await getString(effect['@playermsg']);
             oString = await getString(effect['@selfmsg']);
-            oString = '输出消息：『' + oString + '』/『' + iString.replace('%s', 'Player') + '』';
+            oString = '输出消息：『' + oString + '』/『' + iString.replace('%s', '玩家1') + '』';
+            oString = '☆' + oString;
             break;
         }
         case 'InitiateRevolution': {//发起革命 DERevolutionMXBajaCalifornia
-            oString = '发起革命：' + (!targetProto ? ' 无市民 ' : targetProto.replace('<ruby><del>none</del><rt>-none-</rt></ruby>', ' 无市民 ')) + '，';
+            oString = '发起革命：' + (!targetProto ? ' 无市民 ' : targetUnit.replace('<ruby><del>none</del><rt>-none-</rt></ruby>', ' 无市民 ')) + '，';
             oString = oString + (effect['@savedeck'] == 'True' ? '' : '不') + '保存卡组，';
-            oString = oString + (effect['@extdeck'] == 'True' ? '' : '不') + '启用新卡组';
+            oString = '☆' + oString + (effect['@extdeck'] == 'True' ? '' : '不') + '启用新卡组';
             break;
         }
         case 'RevertRevolution': {//回归 DEReturnMXYucatan
             let iString = await getString(effect['@playermsg']);
             oString = await getString(effect['@selfmsg']);
             oString = '回归：『' + oString + '』/『' + iString.replace('%s', 'Player') + '』';
-            break;
+            oString = '☆' + oString;
             break;
         }
         case 'ResourceExchange': {//资源交换1换1 YPHCEmpressDowager
             oString = '所有' + fromResource + '都将换成 ' + effect['@multiplier'] * 100 + '% 的' + toResource;
+            oString = '☆' + oString;
             break;
         }
         case 'ResourceExchange2': {//资源交换1换2 DENatAkanPalmOil
             let toResource2 = await getTarget(effect['@toresource2'], 'Resource');
             oString = '所有' + fromResource + '都将换成 ' + effect['@multiplier'] * 100 + '% 的' + toResource;
             oString = oString + '和 ' + effect['@multiplier2'] * 100 + '% 的' + toResource2;
+            oString = '☆' + oString;
             break;
         }
         case 'SetOnBuildingDeathTech': {//建筑死亡时激活 YPHCCalltoArms1
             let target = await getTarget(effect['#text'], 'Tech');
             oString = '建筑摧毁时激活科技' + target + ' ' + effect['@amount'] * 1;
             if ((effect['@amount'] * 1) < (effect['@amount2'] * 1)) {
-                oString = oString + ' - ' + effect['@amount2'] * 1 + '(存疑)';
+                oString = oString + '-' + effect['@amount2'] * 1 + '(存疑)';
             }
             oString = oString + ' 次';
+            oString = '☆' + oString;
             break;
         }
         case 'ResetHomeCityCardCount': {//重置指定船运次数 DEHCShipMineWagon3
             oString = targetTech + '：重置船运次数';
+            oString = '☆' + oString;
             break;
         }
         case 'ResetResendableCards': {//重置可重复船运次数 DEHCREVFedMXPlanMonterrey
             oString = '重置所有可重复运送船运次数';
+            oString = '☆' + oString;
             break;
         }
         case 'SetOnShipmentSentTech': {//每次船运抵达时激活科技 DEHCFulaniInvasion
             let target = await getTarget(effect['#text'], 'Tech');
             oString = '每次船运抵达时激活科技' + target + ' ' + effect['@amount'] * 1 + ' 次';
+            oString = '☆' + oString;
             break;
         }
         case 'SetOnTechResearchedTech': {//每次完成研究时激活科技 DEHCGondolas
             let target = await getTarget(effect['#text'], 'Tech');
             oString = '每次完成研究时激活科技' + target + ' ' + effect['@amount'] * 1 + ' 次';
+            oString = '☆' + oString;
             break;
         }
         case 'ResourceInventoryExchange': {//卖牲畜 DERoyalBanquet
             oString = '所有' + targetUnitType + '储存的' + fromResource + '兑换为 ' + effect['@multiplier'] * 100 + '% 的' + toResource;
+            oString = '☆' + oString;
             break;
         }
         case 'SharedLOS': {//获得所有单位的视野 Spies
             oString = '获得所有单位的视野';
+            oString = '☆' + oString;
             break;
         }
         case 'Blockade': {//封锁工具 HCBlockade
             oString = effect['@delay'] + ' 秒后禁止敌对发出船运';
+            oString = '☆' + oString;
             break;
         }
         case 'SetAge': {//设置时代 ypConsulateJapaneseMeijiRestoration
             oString = await getCString(effect['#text']);
             oString = '设置时代为 ' + oString;
+            oString = '☆' + oString;
             break;
         }
         case 'AddHomeCityCard': {//启用船运(需启用额外船运卡槽) DEPoliticianFederalNewYork
@@ -351,15 +469,17 @@ async function getEffect(effect, techName) {
             if (effect['@infiniteinlastage'] * 1) {
                 oString = oString + ' 🔄';
             }
+            oString = '☆' + oString;
             break;
         }
         case 'AddTrickleByResource': {//增加百分比细流 DENatBerberSaltCaravans
             let srcResource1 = await getTarget(effect['@srcresource1'], 'Resource');
             let srcResource2 = await getTarget(effect['@srcresource2'], 'Resource');
-            oString = '<span style="display: inline-flex;align-items:center">';
+            oString = '<span style="display: inline-flex;align-items:center;">';
             oString = oString + '根据' + srcResource1 + (srcResource2 ? '+' + srcResource2 : '') + getSpan(effect['@minsrcvalue'] * 1, effect['@maxsrcvalue'] * 1, 'left');
             oString = oString + '获得' + getSpan(effect['@minvalue'] * 1, effect['@maxvalue'] * 1, 'right') + targetResource + '细流';
             oString = oString + '</span>';
+            oString = '☆' + oString;
             break;
         }
         case 'ForbidTech': {//DECircleArmyShadow1Switch
@@ -378,10 +498,19 @@ async function getEffect(effect, techName) {
             break;
         }
     }
-    switch (subEffect) {
+    switch (subType) {
+        case 'RevealLOS': {//临时视野 DEHCUSExpedition
+            oString = (actor + '：获得' + ((effect['@amount']) * 1 > 0 ? '视野' : '位置') + '');
+            break;
+        }
+        case 'EnableTradeRouteLOS': {
+            oString = (((effect['@amount']) * 1 > 0 ? '获得' : '关闭') + '贸易路线视野');
+            break;
+        }
         case 'AllowedAge': {//更改解锁时代 HCAdvancedArsenal
             oString = actor + '：推迟 ' + (effect['@amount'] * 1) + ' 个时代启用';
             oString = oString.replace('推迟 -', '提前 ');
+            oString = '☆' + oString;
             break;
         }
         case 'Enable': {//启用/禁用单位 HCAdvancedArsenal
@@ -390,139 +519,421 @@ async function getEffect(effect, techName) {
             } else {
                 oString = await getCString('DisableEffect');
             }
-            oString = oString.replace('%1!s!', actor);
+            oString = replaceData(oString, [
+                actor
+            ]);
+            oString = '★' + oString;
             break;
         }
         case 'FreeHomeCityUnit': {//运送单位 HCRobberBarons
-            oString = await getCString('FreeHomeCityUnitEffect');
-            oString = oString.replace('%1!d!', effect['@amount'] * 1);
-            oString = oString.replace('%2!s!', targetUnitType);
+            oString = await getCString(subType + 'Effect');
+            oString = replaceData(oString, [
+                effect['@amount'] * 1,
+                targetUnit
+            ]);
+            oString = '★' + oString;
             break;
         }
         case 'FreeHomeCityUnitIfTechObtainable': {//启用指定科技时运送单位 HCAdvancedArsenal
             oString = await getCString('FreeHomeCityUnitEffect');
-            oString = oString.replace('%1!d!', effect['@amount'] * 1);
-            oString = oString.replace('%2!s!', targetUnitType + targetProto);
+            oString = replaceData(oString, [
+                effect['@amount'] * 1,
+                targetUnit
+            ]);
             oString = '启用科技' + targetTech + '时：' + oString;
+            oString = '☆' + oString;
             break;
         }
         case 'FreeHomeCityUnitByTechActiveCount': {//根据生效次数运送单位 DEHCFedNewYorkZouaves
             oString = await getCString('FreeHomeCityUnitEffect');
-            oString = oString.replace('%1!d!', effect['@amount'] * 1 + '×');
-            oString = oString.replace('%2!s!', targetUnitType);
+            oString = replaceData(oString, [
+                effect['@amount'] * 1 + '×',
+                targetUnit
+            ]);
             oString = '根据' + targetTech + '已生效次数，' + oString;
+            oString = '☆' + oString;
             break;
         }
         case 'FreeHomeCityUnitTechActiveCycle': {//数次递减后重置运送单位循环 DEHCRollingArtillery
             oString = await getCString('FreeHomeCityUnitEffect');
-            oString = oString.replace('%1!d!', effect['@amount'] * 1);
-            oString = oString.replace('%2!s!', targetUnitType);
+            oString = replaceData(oString, [
+                effect['@amount'] * 1,
+                targetUnit
+            ]);
             oString = '首次' + oString + '，其后每次减少 1 个，';
             oString = oString + '每 ' + effect['@amount'] * 1 + ' 次后重置';
+            oString = '☆' + oString;
             break;
         }
         case 'FreeHomeCityUnitByShipmentCount': {//根据船运次数运送单位 DEHCFedDelawareBlues
             oString = await getCString('FreeHomeCityUnitEffect');
-            oString = oString.replace('%1!d!', effect['@amount'] * 1 + '×(' + (effect['@includeself'] == 'true' ? '' : '不') + '包含本次)');
-            oString = oString.replace('%2!s!', targetUnitType);
+            oString = replaceData(oString, [
+                effect['@amount'] * 1 + '×(' + (effect['@includeself'] == 'true' ? '' : '不') + '包含本次)',
+                targetUnit
+            ]);
             oString = '根据已运送船运次数，' + oString;
+            oString = '☆' + oString;
             break;
         }
         case 'FreeHomeCityUnitByKBStat': {//根据击杀统计 DEHCOromoMigrations
             oString = await getCString('FreeHomeCityUnitEffect');
-            oString = oString.replace('%1!d!', effect['@amount'] * 1 + '×');
-            oString = oString.replace('%2!s!', targetUnitType);
+            oString = replaceData(oString, [
+                effect['@amount'] * 1 + '×',
+                targetUnit
+            ]);
             oString = '根据统计 ' + effect['@kbstat'] + ' ，' + oString + ',';
             oString = oString + '最多 ' + effect['@unitcap'] * 1 + '个';
+            oString = '☆' + oString;
             break;
         }
         case 'FreeHomeCityUnitByKBQuery': {//根据击杀数量 DEHCRitualGladiators
             let queryUnitType = await getTarget(effect['@queryunittype'], 'ProtoUnit');
             oString = await getCString('FreeHomeCityUnitEffect');
-            oString = oString.replace('%1!d!', effect['@amount'] * 1 + '×');
-            oString = oString.replace('%2!s!', targetUnitType);
+            oString = replaceData(oString, [
+                effect['@amount'] * 1 + '×',
+                targetUnit
+            ]);
             oString = '根据' + queryUnitType + ' 的 ' + effect['@querystate'] + ' 数量' + '，' + oString + ',';
             oString = oString + '最多 ' + effect['@unitcap'] * 1 + '个';
+            oString = '☆' + oString;
             break;
         }
         case 'FreeHomeCityUnitResource': {//运送携带资源单位 HCShipCows
-            oString = await getCString('FreeHomeCityUnitResourceEffect');
-            oString = oString.replace('%1!d!', effect['@amount'] * 1);
-            oString = oString.replace('%2!s!', targetUnitType + targetProto);
-            oString = oString.replace('%3!d!', effect['@resvalue'] * 1);
-            oString = oString.replace('%4!s!', targetResource);
+            oString = await getCString(subType + 'Effect');
+            oString = replaceData(oString, [
+                effect['@amount'] * 1,
+                targetUnit,
+                effect['@resvalue'] * 1,
+                targetResource
+            ]);
+            oString = '★' + oString;
             break;
         }
         case 'FreeHomeCityUnitResourceIfTechObtainable': {//激活指定科技时运送携带资源单位 DEHCAltaCalifornia
             oString = await getCString('FreeHomeCityUnitResourceEffect');
-            oString = oString.replace('%1!d!', effect['@amount'] * 1);
-            oString = oString.replace('%2!s!', targetUnitType + targetProto);
-            oString = oString.replace('%3!d!', effect['@resvalue'] * 1);
-            oString = oString.replace('%4!s!', targetResource);
+            oString = replaceData(oString, [
+                effect['@amount'] * 1,
+                targetUnit,
+                effect['@resvalue'] * 1,
+                targetResource
+            ]);
             oString = '启用科技' + targetTech + '时：' + oString;
+            oString = '☆' + oString;
             break;
         }
         case 'FreeHomeCityUnitResourceIfTechActive': {//启用指定科技时运送携带资源单位 DENatJagiellonInheritance
             oString = await getCString('FreeHomeCityUnitResourceEffect');
-            oString = oString.replace('%1!d!', effect['@amount'] * 1);
-            oString = oString.replace('%2!s!', targetUnitType + targetProto);
-            oString = oString.replace('%3!d!', effect['@resvalue'] * 1);
-            oString = oString.replace('%4!s!', targetResource);
+            oString = replaceData(oString, [
+                effect['@amount'] * 1,
+                targetUnit,
+                effect['@resvalue'] * 1,
+                targetResource
+            ]);
             oString = '科技' + targetTech + '生效时：' + oString;
+            oString = '☆' + oString;
             break;
         }
         case 'FreeHomeCityUnitByShipmentCountResource': {//根据船运次数运送携带资源单位 DEHCFedFloridaCowhunters
             oString = await getCString('FreeHomeCityUnitResourceEffect');
-            oString = oString.replace('%1!d!', effect['@amount'] * 1 + '×(' + (effect['@includeself'] == 'true' ? '' : '不') + '包含本次)');
-            oString = oString.replace('%2!s!', targetUnitType + targetProto);
-            oString = oString.replace('%3!d!', effect['@resvalue'] * 1);
-            oString = oString.replace('%4!s!', targetResource);
+            oString = replaceData(oString, [
+                effect['@amount'] * 1 + '×(' + (effect['@includeself'] == 'true' ? '' : '不') + '包含本次)',
+                targetUnit,
+                effect['@resvalue'] * 1,
+                targetResource
+            ]);
             oString = '根据已运送船运次数，' + oString;
+            oString = '☆' + oString;
             break;
         }
         case 'FreeHomeCityUnitToGatherPoint': {//运送携带资源单位至收集点 DEHCShipZebu3
             let gpUnitType = await getTarget(effect['@gpunittype'], 'ProtoUnit');
             oString = await getCString('FreeHomeCityUnitResourceEffect');
-            oString = oString.replace('%1!d!', effect['@amount'] * 1);
-            oString = oString.replace('%2!s!', targetUnitType + targetProto);
-            oString = oString.replace('%3!d!', effect['@resvalue'] * 1);
-            oString = oString.replace('%4!s!', targetResource);
+            oString = replaceData(oString, [
+                effect['@amount'] * 1,
+                targetUnit,
+                effect['@resvalue'] * 1,
+                targetResource
+            ]);
             oString = '于' + gpUnitType + '处：' + oString;
+            oString = '☆' + oString;
             break;
         }
         case 'FreeHomeCityUnitRandom': {//运送随机单位 HCXPBanditGang
-            oString = await getCString('FreeHomeCityUnitRandomEffect');
-            oString = oString.replace('%1!d!', effect['@amount'] * 1);
-            oString = oString.replace('%2!s!', targetUnitType + targetProto);
+            oString = await getCString(subType + 'Effect');
+            oString = replaceData(oString, [
+                effect['@amount'] * 1,
+                targetUnit
+            ]);
+            oString = '★' + oString;
             break;
         }
         case 'FreeHomeCityUnitShipped': {//运送船载单位 YPHCWokouJapanese1
             oString = await getCString('FreeHomeCityUnitEffectShipped');
-            oString = oString.replace('%1!d!', effect['@amount'] * 1);
-            oString = oString.replace('%2!s!', targetUnitType);
             let targetUnitType2 = await getTarget(effect['@unittype2'], 'ProtoUnit');
-            oString = oString.replace('%3!d!', effect['@amount2'] * 1);
-            oString = oString.replace('%4!s!', targetUnitType2);
+            oString = replaceData(oString, [
+                effect['@amount'] * 1,
+                targetUnit,
+                effect['@amount2'] * 1,
+                targetUnitType2
+            ]);
+            oString = '☆' + oString;
             break;
         }
         case 'FreeHomeCityUnitByUnitCount': {//根据单位数量运送单位 DEHCSoldierTorps
-            let targetCountType = await getTarget(effect['@counttype'], 'ProtoUnit');
             oString = await getCString('FreeHomeCityUnitByUnitCountEffect');
-            oString = oString.replace('%1!d!', effect['@amount'] * 1 + '×');
-            oString = oString.replace('%2!s!', targetUnitType);
-            oString = oString.replace('%3!s!', targetCountType);
+            let targetCountType = await getTarget(effect['@counttype'], 'ProtoUnit');
+            oString = replaceData(oString, [
+                effect['@amount'] * 1 + '×',
+                targetUnit,
+                targetCountType
+            ]);
+            oString = '☆' + oString;
             break;
         }
         case 'PopulationCap': {//人口上限 ImpImmigrants
-            let rArray = relativity(effect['@relativity'], effect['@amount']);
-            oString = actor + '：人口上限' + rArray[1];
-        }
-        case 'PopulationCapExtra': {//额外人口上限
-            oString = (actor + '：额外人口上限+' + effect['@amount']).replace('+-', '-');
+            oString = await getCString('PopulationCapExtra');
+            oString = replaceData(oString, [
+                actor,
+                relativity.value
+            ], relativity.chage);
+            oString = oString.replace('最大', '');
+            oString = '☆' + oString;
             break;
         }
-        case 'PopulationCapAddition': {//提供人口空间增加 FrontierBlockhouse
-            //HCColonialEstancias{"target":{{"_type":{"ProtoUnit","__text":{"TownCenter"},"_type":{"Data",['@amount']":{"70.00","_subtype":{"PopulationCapAddition","_relativity":{"Absolute"}
+        case 'PopulationCapExtra': {//额外人口上限 deUnknownOverpop
+            oString = await getCString(subType);
+            oString = replaceData(oString, [
+                actor,
+                relativity.value
+            ], relativity.chage);
+            oString = '★' + oString;
+            break;
+        }
+        case 'PopulationCapBonus': {//额外人口上限 ypPopulationCapBonus
+            oString = await getCString('PopulationCapExtra');
+            oString = replaceData(oString, [
+                actor,
+                relativity.value
+            ], relativity.chage);
+            oString = '☆' + oString;
+            break;
+        }
+        case 'PopulationCapAddition': {//提供人口空间 FrontierBlockhouse
+            oString = await getCString(subType);
+            oString = replaceData(oString, [
+                actor,
+                relativity.value
+            ], relativity.chage);
+            oString = '★' + oString;
+            break;
+        }
+        case 'PopulationCount': {//占用人口空间 DEHCSiegeConstruction
+            oString = await getCString('PopulationCapAddition');
+            oString = replaceData(oString, [
+                actor,
+                relativity.value
+            ], relativity.chage);
+            oString = oString.replace('提供', '占用');
+            oString = '☆' + oString;
+            break;
+        }
+        case 'BuildLimit': {//建造上限 HCXPMarauders
+            oString = await getCString(relativity.type + subType + 'Effect');
+            oString = replaceData(oString, [
+                actor,
+                relativity.value
+            ], relativity.chage);
+            oString = '★' + oString;
+            break;
+        }
+        case 'TrainPoints': {//训练时间 DEHCSiegeConstruction
+            oString = await getCString(relativity.type + subType + 'Effect');
+            oString = replaceData(oString, [
+                actor,
+                relativity.value
+            ], relativity.chage);
+            oString = '★' + oString;
+            break;
+        }
+        case 'BuildPoints': {//建造时间 Bastion
+            oString = await getCString(relativity.type + subType + 'Effect');
+            oString = replaceData(oString, [
+                actor,
+                relativity.value
+            ], relativity.chage);
+            oString = '★' + oString;
+            break;
+        }
+        case 'ResearchPoints': {//研究时间 ChurchMissionFervor
+            oString = await getCString(relativity.type + subType + 'Effect');
+            oString = replaceData(oString, [
+                actor,
+                relativity.value
+            ], relativity.chage);
+            oString = '★' + oString;
+            break;
+        }
+        case 'Cost': {//成本 DEHCFedMXBustamante
+            oString = await getCString(relativity.type + subType + 'Effect');
+            oString = replaceData(oString, [
+                actor,
+                targetResource,
+                relativity.value
+            ], relativity.chage);
+            oString = '★' + oString;
+            break;
+        }
+        case 'BuildBounty': {//建造回馈 DEHCFedMXBustamante
+            oString = await getCString(relativity.type + subType + 'Effect');
+            oString = replaceData(oString, [
+                actor,
+                relativity.value
+            ], relativity.chage);
+            oString = '★' + oString;
+            break;
+        }
+        case 'KillBounty': {//击杀回馈 DEHCFedMXBustamante
+            oString = await getCString(relativity.type + subType + 'Effect');
+            oString = replaceData(oString, [
+                actor,
+                relativity.value
+            ], relativity.chage);
+            oString = '★' + oString;
+            break;
+        }
+        case 'Hitpoints': {//生命 DEHCFedMXBustamante
+            oString = await getCString(relativity.type + subType + 'Effect');
+            oString = replaceData(oString, [
+                actor,
+                relativity.value
+            ], relativity.chage);
+            oString = '★' + oString;
+            break;
+        }
+        case 'Lifespan': {//存在时间 DEHCObservers
+            oString = actor + '：存在时间 +' + relativity.value;
+            oString = oString.replace('+-', '-');
+            oString = '☆' + oString;
+            break;
+        }
+        case 'Armor': {//护甲 DEHCCentSuisses
+            oString = await getCString(relativity.type + subType + 'Effect');
+            oString = replaceData(oString, [
+                actor,
+                relativity.value
+            ], relativity.chage);
+            oString = '★' + oString;
+            break;
+        }
+        case 'ArmorSpecific': {//额外护甲 DEHCDignitaries
+            oString = await getCString(relativity.type + subType + 'Effect');
+            oString = replaceData(oString, [
+                actor,
+                relativity.value,
+                effect['@newtype']
+            ], relativity.chage);
+            oString = '★' + oString;
+            break;
+        }
+        case 'MaximumVelocity': {//速度 DEChurchTeutonicKnights
+            oString = await getCString(relativity.type + 'Speed' + 'Effect');
+            oString = replaceData(oString, [
+                actor,
+                relativity.value
+            ], relativity.chage);
+            oString = '★' + oString;
+            break;
+        }
+        case 'LOS': {//视野 DEHCFlintlockRockets
+            oString = await getCString(relativity.type + subType + 'Effect');
+            oString = replaceData(oString, [
+                actor,
+                relativity.value
+            ], relativity.chage);
+            oString = '★' + oString;
+            break;
+        }
+        case 'MaximumRange': {//最大范围 DEVeteranAzaps
+            oString = await getCString(relativity.type + 'MaxRange' + 'Effect');
+            oString = replaceData(oString, [
+                actor,
+                targetAction,
+                relativity.value
+            ], relativity.chage);
+            oString = '★' + oString;
+            break;
+        }
+        case 'MinimumRange': {//最小范围 DEHCCaseShot
+            oString = await getCString(relativity.type + 'MinRange' + 'Effect');
+            oString = replaceData(oString, [
+                actor,
+                targetAction,
+                relativity.value
+            ], relativity.chage);
+            oString = '★' + oString;
+            break;
+        }
+        case 'InventoryRate': {//增肥效率 DEHCBarbacoa
+            oString = await getCString(relativity.type + 'WorkRate' + 'Effect');
+            oString = replaceData(oString, [
+                actor,
+                targetAction,
+                targetUnit,
+                relativity.value
+            ], relativity.chage);
+            oString = '★' + oString;
+            break;
+        }
+        case 'WorkRate': {//工作效率 DEHCMedicineWheels
+            oString = await getCString(relativity.type + subType + 'Effect');
+            oString = replaceData(oString, [
+                actor,
+                targetAction,
+                targetUnit,
+                relativity.value
+            ], relativity.chage);
+            oString = '★' + oString;
+            break;
+        }
+        case 'WorkRateSpecific': {//单一工作效率 DEHCREVMXTextileMills
+            oString = await getCString(relativity.type + subType + 'Effect');
+            oString = replaceData(oString, [
+                actor,
+                targetAction,
+                targetUnit,
+                relativity.value,
+                targetResource
+            ], relativity.chage);
+            oString = '★' + oString;
+            break;
+        }
+        case 'CommunityPlazaWeight': {//社区广场工作权重 DEHCMedicineWheels
+            oString = await getCString(relativity.type + subType + 'Effect');
+            oString = replaceData(oString, [
+                actor,
+                relativity.value
+            ], relativity.chage);
+            oString = '★' + oString;
+            break;
+        }
+        case 'BuildingWorkRate': {//训练研究效率 YPHCBakufu
+            oString = await getCString(relativity.type + subType + 'Effect');
+            oString = replaceData(oString, [
+                actor,
+                relativity.value,
+            ], relativity.chage);
+            oString = '★' + oString;
+            break;
+        }
+        case 'Yield': {//产量 DEHCEnvironmentalism
+            oString = await getCString(relativity.type + subType + 'Effect');
+            oString = replaceData(oString, [
+                actor,
+                targetAction,
+                targetUnit,
+                relativity.value,
+            ], relativity.chage);
+            oString = '★' + oString;
             break;
         }
         default: {
@@ -532,168 +943,48 @@ async function getEffect(effect, techName) {
     if (!oString) {
         oString = JSON.stringify(effect);
     }
-    oString = '●' + oString.replace('%1!s!', techName);
+    oString = oString.replace('%1!s!', techName);
     return oString;
 }
 //次级效果解析
 async function subEffect(effect, isNugget) {
     switch (subType) {
-        case 'BuildLimit': {
-            oString = getString('42003');
-            oString = oString.replace('%1!s!', actor);
-            oString = oString.replace('+%2!.0f!%%', relativity(effect['@relativity'], effect['@amount']));
-            break;
-        }
-        case 'TrainPoints': {
-            oString = getString('90119');
-            oString = oString.replace('%1!s!', actor);
-            oString = oString.replace('%2!.0f!%%', relativity(effect['@relativity'], effect['@amount']));
-            break;
-        }
-        case 'BuildPoints': {
-            oString = getString('90120');
-            oString = oString.replace('%1!s!', actor);
-            oString = oString.replace('%2!.0f!%%', relativity(effect['@relativity'], effect['@amount']));
-            break;
-        }
-        case 'ResearchPoints': {
-            oString = getString('90138');
-            oString = oString.replace('%1!s!', actor);
-            oString = oString.replace('%2!.0f!%%', relativity(effect['@relativity'], effect['@amount']));
-            break;
-        }
-        case 'Hitpoints': {
-            oString = getString('90116');
-            oString = oString.replace('%1!s!', actor);
-            oString = oString.replace('%2!.0f!%%', relativity(effect['@relativity'], effect['@amount']));
-            break;
-        }
-        case 'Armor': {
-            oString = getString('90141');
-            oString = oString.replace('%1!s!', actor);
-            oString = oString.replace('%2!.0f!%%', relativity(effect['@relativity'], effect['@amount']));
-            break;
-        }
-        case 'ArmorSpecific': {
-            oString = getString('101113');
-            oString = oString.replace('%1!s!', actor);
-            oString = oString.replace('%2!s!', effect['@newtype']);
-            oString = oString.replace('%3!.0f!%%', relativity(effect['@relativity'], effect['@amount'])).replace('+-', '-');
-            break;
-        }
-        case 'MaximumVelocity': {
-            oString = getString('90118');
-            oString = oString.replace('%1!s!', actor);
-            oString = oString.replace('%2!.0f!%%', relativity(effect['@relativity'], effect['@amount']));
-            break;
-        }
-        case 'LOS': {
-            oString = getString('41979');
-            oString = oString.replace('%1!s!', actor);
-            oString = oString.replace('+%2!.0f!%%', relativity(effect['@relativity'], effect['@amount']));
-            break;
-        }
-        case 'BuildBounty': {
-            oString = getString('90139');
-            oString = oString.replace('%1!s!', actor);
-            oString = oString.replace('%2!.0f!%%', relativity(effect['@relativity'], effect['@amount']));
-            break;
-        }
-        case 'KillBounty': {
-            oString = getString('79848');
-            oString = oString.replace('%1!s!', actor);
-            oString = oString.replace('%2!.0f!%%', relativity(effect['@relativity'], effect['@amount']));
-            break;
-        }
-        case 'CommunityPlazaWeight': {
-            oString = getString('80568');
-            oString = oString.replace('%1!s!', actor);
-            oString = oString.replace('%2!.0f!%%', relativity(effect['@relativity'], effect['@amount']));
-            break;
-        }
-        case 'MaximumRange': {
-            oString = getString('90128');
-            oString = oString.replace('%1!s!', actor);
-            oString = oString.replace('%2!s!', actionType(effect['@action'], effect['@allactions'], effect.target['#text']));
-            oString = oString.replace('%3!.0f!%%', relativity(effect['@relativity'], effect['@amount']));
-            break;
-        }
-        case 'Cost': {
-            oString = getString('90127');
-            oString = oString.replace('%1!s!', actor);
-            oString = oString.replace('%2!s!', getTarget(effect['@resource'], 'Resource'));
-            oString = oString.replace('%3!.0f!%%', relativity(effect['@relativity'], effect['@amount']));
-            break;
-        }
-        case 'Lifespan': {
-            return (actor + '：' + '存在时间 ' + relativity(effect['@relativity'], effect['@amount']));
-        }
         case 'Damage': {
             oString = getString('90130');
             oString = oString.replace('%1!s!', actor);
             oString = oString.replace('%2!s!', actionType(effect['@action'], effect['@allactions'], effect.target['#text']));
-            oString = oString.replace('%3!.0f!%%', relativity(effect['@relativity'], effect['@amount']));
+            oString = oString.replace('%3!.0f!%%', getRelativity(effect['@relativity'], effect['@amount']));
             break;
         }
         case 'DamageBonus': {
-            return (actor + '：' + (effect['@allactions'] == '1' ? '所有操作' : '') + '对 ' + targetProto + ' 的伤害加成 ' + relativity(effect['@relativity'], effect['@amount']));
+            return (actor + '：' + (effect['@allactions'] == '1' ? '所有操作' : '') + '对 ' + targetProto + ' 的伤害加成 ' + getRelativity(effect['@relativity'], effect['@amount']));
         }
         case 'DamageArea': {
             oString = getString('90131');
             oString = oString.replace('%1!s!', actor);
             oString = oString.replace('%2!s!', actionType(effect['@action'], effect['@allactions'], effect.target['#text']));
-            oString = oString.replace('%3!.0f!%%', relativity(effect['@relativity'], effect['@amount']));
-            break;
-        }
-        case 'WorkRate': {
-            oString = getString('42007');
-            oString = oString.replace('%1!s!', actor);
-            oString = oString.replace('%3!s!', targetProto);
-            oString = oString.replace('%2!s!', actionType(effect['@action'], effect['@allactions'], effect.target['#text']));
-            oString = oString.replace('+%4!.0f!%%', relativity(effect['@relativity'], effect['@amount']));
-        }
-        case 'InventoryRate': {
-            oString = getString('42007');
-            oString = oString.replace('%1!s!', actor);
-            oString = oString.replace('%3!s!', targetProto);
-            oString = oString.replace('%2!s!', actionType(effect['@action'], effect['@allactions'], effect.target['#text']));
-            oString = oString.replace('+%4!.0f!%%', relativity(effect['@relativity'], effect['@amount']));
-        }
-        case 'WorkRateSpecific': {
-            oString = getString('90144');
-            oString = oString.replace('%1!s!', actor);
-            oString = oString.replace('%3!s!', targetProto);
-            oString = oString.replace('%2!s!', actionType(effect['@action'], effect['@allactions'], effect.target['#text']));
-            oString = oString.replace('+%4!.0f!%%', relativity(effect['@relativity'], effect['@amount']));
-            oString = oString.replace('%5!s!', getTarget(effect['@resource'], 'Resource'));
-        }
-        case 'Yield': {
-            oString = getString('80382');
-            oString = oString.replace('%1!s!', actor);
-            oString = oString.replace('%3!s!', targetProto);
-            oString = oString.replace('%2!s!', actionType(effect['@action'], effect['@allactions'], effect.target['#text']));
-            oString = oString.replace('变更 %4!.0f!%%', relativity(effect['@relativity'], effect['@amount']));
+            oString = oString.replace('%3!.0f!%%', getRelativity(effect['@relativity'], effect['@amount']));
             break;
         }
         case 'ResourceTrickleRate': {
             oString = getString('90133');
             oString = oString.replace('%1!s!', actor);
             oString = oString.replace('%2!s!', targetResource);
-            oString = oString.replace('%3!.0f!%%', relativity(effect['@relativity'], effect['@amount']));
+            oString = oString.replace('%3!.0f!%%', getRelativity(effect['@relativity'], effect['@amount']));
             break;
         }
         case 'MinimumResourceTrickleRate': {
             oString = getString('90134');
             oString = oString.replace('%1!s!', actor);
             oString = oString.replace('%2!s!', targetResource);
-            oString = oString.replace('%3!.0f!%%', relativity(effect['@relativity'], effect['@amount']));
+            oString = oString.replace('%3!.0f!%%', getRelativity(effect['@relativity'], effect['@amount']));
             break;
         }
         case 'MaximumResourceTrickleRate': {
             oString = getString('90135');
             oString = oString.replace('%1!s!', actor);
             oString = oString.replace('%2!s!', targetResource);
-            oString = oString.replace('%3!.0f!%%', relativity(effect['@relativity'], effect['@amount']));
+            oString = oString.replace('%3!.0f!%%', getRelativity(effect['@relativity'], effect['@amount']));
             break;
             //送兵
         }
@@ -711,12 +1002,6 @@ async function subEffect(effect, isNugget) {
             oString = oString.replace('%3!3s!', targetResource);
             oString = oString.replace('增加', ' ');
             break;
-        }
-        case 'RevealLOS': {
-            return (actor + '：' + ((effect['@amount']) * 1 > 0 ? '获得' : '关闭') + '视野');
-        }
-        case 'EnableTradeRouteLOS': {
-            return (((effect['@amount']) * 1 > 0 ? '获得' : '关闭') + '贸易路线视野');
         }
         case 'ActionEnable': {
             oString = getString('42080');
@@ -758,7 +1043,7 @@ async function subEffect(effect, isNugget) {
             return (actor + '：动作' + actionType(effect['@action'], effect['@allactions'], effect.target['#text']) + '更名为 ' + getString(effect['@stringid']));
         }
         case 'MaximumContained': {
-            return (actor + '：装载空间' + relativity(effect['@relativity'], effect['@amount']));
+            return (actor + '：装载空间' + getRelativity(effect['@relativity'], effect['@amount']));
         }
         case 'AddTrain': {
             return (actor + '：' + ((effect['@amount']) * 1 > 0 ? '添加' : '删除') + '训练' + targetProto);
@@ -778,7 +1063,6 @@ async function subEffect(effect, isNugget) {
             break;
         }
         case 'InventoryAmount': {
-            //HCSilkRoadTeam{"target":{{"_type":{"ProtoUnit","__text":{"AbstractWoodCrate"},"_type":{"Data",['@amount']":{"1.25","_subtype":{"InventoryAmount","_resource":{"Wood","_relativity":{"BasePercent"}
             break;
         }
         case 'UpdateVisual': {
@@ -809,10 +1093,6 @@ async function subEffect(effect, isNugget) {
             //HCXPUnction{"target":{{"_type":{"ProtoUnit","__text":{"Missionary"},"_type":{"Data",['@amount']":{"34.00","_subtype":{"DisplayedRange","_relativity":{"Assign"}
             break;
         }
-        case 'PopulationCount': {
-            //HCXPAdvancedScouts{"target":{{"_type":{"ProtoUnit","__text":{"NativeScout"},"_type":{"Data",['@amount']":{"1.00","_subtype":{"PopulationCount","_relativity":{"Assign"}
-            break;
-        }
         case 'Snare': {
             //HCXPAdvancedScouts{"target":{{"_type":{"ProtoUnit","__text":{"NativeScout"},"_type":{"Data","_action":{"MeleeHandAttack",['@amount']":{"1.00","_subtype":{"Snare","_relativity":{"Assign"}
             break;
@@ -822,11 +1102,7 @@ async function subEffect(effect, isNugget) {
             break;
         }
         case 'UnitRegenRate': {
-            oString = actor + ':{ 生命值恢复速度 ' + relativity(effect['@relativity'], effect['@amount']);
-            break;
-        }
-        case 'BuildingWorkRate': {
-            //YPHCBakufu{"target":{{"_type":{"ProtoUnit","__text":{"AbstractDaimyo"},"_type":{"Data",['@amount']":{"1.15","_subtype":{"BuildingWorkRate","_relativity":{"BasePercent"}
+            oString = actor + ':{ 生命值恢复速度 ' + getRelativity(effect['@relativity'], effect['@amount']);
             break;
         }
         case 'RateOfFire': {
@@ -847,10 +1123,6 @@ async function subEffect(effect, isNugget) {
         }
         case 'ArmorType': {
             //DEHCSveaLifeguard{"target":{{"_type":{"ProtoUnit","__text":{"deCarolean"},"_type":{"Data",['@amount']":{"1.00","_subtype":{"ArmorType","_newtype":{"Ranged","_relativity":{"Absolute"}
-            break;
-        }
-        case 'MinimumRange': {
-            //DEHC}caseShot{"target":{{"_type":{"ProtoUnit","__text":{"Falconet"},"_type":{"Data","_action":{"CannonAttack",['@amount']":{"13.00","_subtype":{"MinimumRange","_relativity":{"Assign"}
             break;
         }
         case 'BountyResourceOverride': {
@@ -1140,10 +1412,6 @@ async function subEffect(effect, isNugget) {
         }
         case 'UpgradeTradeRoute': {
             //TradeRouteUpgrade1{"target":{{"_type":{"Player"},"_type":{"Data",['@amount']":{"1.00","_subtype":{"UpgradeTradeRoute","_relativity":{"Absolute"}
-            break;
-        }
-        case 'PopulationCapBonus': {
-            //ypPopulationCapBonus{"target":{{"_type":{"Player"},"_type":{"Data",['@amount']":{"5.00","_subtype":{"PopulationCapBonus","_relativity":{"Absolute"}
             break;
         }
         case 'SetCivRelation': {

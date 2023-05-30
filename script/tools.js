@@ -131,12 +131,15 @@ function appendNode(text, father, type) {
 
 function getRuby(lower, upper) {
     if ((!lower) || (lower == '无描述')) {
-        return ' ' + upper + ' ';
+        return upper;
     }
-    if (lower.substring(0, 3) == '未找到:') {
-        return ' ' + lower + ' ';
+    if (lower.substring(0, 4) == '<del>') {
+        return lower;
     }
-    return (' <ruby>' + lower + '<rt>-' + upper + '-</rt></ruby> ');
+    if (lower.substring(0, 4) == '未找到:') {
+        return lower;
+    }
+    return ('<ruby>' + lower + '<rt>-' + upper + '-</rt></ruby>');
 }
 
 function getSpan(lower, upper, align) {

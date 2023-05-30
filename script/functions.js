@@ -9,6 +9,10 @@ function setOuterHTML(text) {
 function resetInfo() {
     document.getElementById('info').innerHTML = '';
 }
+
+function help() {
+    alert('暂无帮助');
+}
 function getIcon(iData) {
     let icon = iData.iconwpf;
     if (!icon) {

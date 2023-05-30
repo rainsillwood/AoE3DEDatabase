@@ -3,7 +3,8 @@
 
 <head>
     <meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
-    <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js'></script>
+    <!--script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js'></script-->
+    <script src='./script/jquery.min.js' charset='utf-8'></script>
     <script src='./script/tools.js' charset='utf-8'></script>
     <script src='./script/init.js' charset='utf-8'></script>
     <script src='./script/database.js' charset='utf-8'></script>
@@ -21,6 +22,7 @@
         var unitflags = {};
         var unittypes = {};
         var localList = {};
+        var actionList = {};
         var database;
         var version = '100.14.3853.0';
         var date = '2023/4/24';
@@ -53,12 +55,14 @@
                     <div>
                         <button type="button" id="loggerShower" onclick="toggleNode('logger');">&gt;</button>
                         <input type="checkbox" id="showID" onchange="toggleID()" checked="true">显示ID
-                        <button type="button" onclick="updateDatabase()">更新数据库</button>
-                        <button type="button" onclick="removeDB()">清除数据库</button>
-                        <button type="button" onclick="test()"><del>测试数据</del></button>
+                        <button type="button" onclick="help()"><del>帮助&说明</del></button>
+                        <button type="button" onclick="test()"><del>测试</del></button>
                     </div>
                     <hr>
                     <div style="white-space: nowrap;font-size: 14px;">
+                        <button type="button" onclick="updateDatabase()">更新数据库</button>
+                        <button type="button" onclick="removeDB()">清除数据库</button>
+                        </br>
                         当前版本　:<a id="version">0</a>-<a id="date">0</a><select id="language">
                             <option value="null">🏁未选择</option>
                             <option value="SimplifiedChinese">🇨🇳简体中文(MOD)</option>

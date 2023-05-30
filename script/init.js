@@ -42,6 +42,7 @@ async function updateDatabase() {
     await updateTechflags();
     await updatePowers();
     await updateTactics();
+    await updateActions();
     await updateCivs();
     await updateHomecity();
     setStorage('version', version);
@@ -318,22 +319,54 @@ async function updateHomecity() {
 }
 //缓存战术,前置proto
 async function updateTactics() {
+    let oList = {};
+    for (i in tacticList) {
+        let iData = await getJson(tacticList[i]);
+        if (iData) {
+            let tactics = returnList(iData.tactics.tactic);
+            for (j in tactics) {
+                let tactic = tactics[j];
+                if (tactic) {
+                    oList[i + '-' + tactic['#text']] = tactic;
+                }
+            }
+            let actions = returnList(iData.tactics.action);
+            for (j in actions) {
+                let action = actions[j];
+                if (action) {
+                    actionList[i + '-' + action.name['#text']] = action;
+                }
+            }
+        }
+    }
     let table = 'tactic';
     appendNode('更新战术文件: <a id="' + table + '_processed">0</a> / <a id="' + table + '_quest">0</a> , <a id="' + table + '_failed">0</a> Error', 'logger', 'div');
     let process = document.getElementById(table + '_quest').innerHTML * 1;
-    process = process + Object.keys(tacticList).length;
+    process = process + Object.keys(oList).length;
     document.getElementById(table + '_quest').innerHTML = process;
-    for (i in tacticList) {
-        let tactic = await getJson(tacticList[i]);
-        if (!tactic) {
-            logUpdate(table + '_failed', 1)
-            logUpdate(table + '_processed', 1)
-        } else {
-            let oData = {};
-            oData.index = i;
-            oData.value = tactic.tactics;
-            updateData(table, oData);
-        }
+    for (i in oList) {
+        let oData = {};
+        let tactic = oList[i];
+        oData.index = i.toLowerCase();
+        oData.value = tactic;
+        updateData(table, oData);
+    }
+}
+//缓存动作,前置tactics
+async function updateActions() {
+    let table = 'action';
+    appendNode('更新动作文件: <a id="' + table + '_processed">0</a> / <a id="' + table + '_quest">0</a> , <a id="' + table + '_failed">0</a> Error', 'logger', 'div');
+    let process = document.getElementById(table + '_quest').innerHTML * 1;
+    process = process + Object.keys(actionList).length;
+    document.getElementById(table + '_quest').innerHTML = process;
+    for (i in actionList) {
+        let oData = {};
+        let action = actionList[i];
+        action.displayname = await getString(action.name['@stringid'], action.name['#text']);
+        oData.index = i.toLowerCase();
+        oData.value = action;
+        oData.local = action.displayname;
+        updateData(table, oData);
     }
 }
 //缓存单位类型,前置proto
