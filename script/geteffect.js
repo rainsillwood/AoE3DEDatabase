@@ -500,7 +500,7 @@ async function getEffect(effect, techName) {
     }
     switch (subType) {
         case 'RevealLOS': {//临时视野 DEHCUSExpedition
-            oString = (actor + '：获得' + ((effect['@amount']) * 1 > 0 ? '视野' : '位置') + '');
+            oString = (actor + '：' + ((effect['@amount']) * 1 > 0 ? '获得视野' : '显示位置') + '');
             break;
         }
         case 'EnableTradeRouteLOS': {

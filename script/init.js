@@ -56,6 +56,14 @@ async function updateStrings() {
     let table = 'string';
     let files = ['stringtabley', 'unithelpstrings', 'unithelpstringsx', 'unithelpstringsy'];
     appendNode('更新语言文件: <a id="' + table + '_processed">0</a> / <a id="' + table + '_quest">0</a> , <a id="' + table + '_failed">0</a> Error', 'logger', 'div');
+    let symbolList = {
+        '101137': 'cStringAbstractMountainMonastery',
+        '25736': 'cStringEmbellishmentClass',
+        '42173': 'cStringSocket',
+        '66323': 'cStringAbstractChineseMonk',
+        '66351': 'cStringAbstractJapaneseMonk',
+        '68462': 'cStringAbstractIndianMonk'
+    };
     for (i in files) {
         let iArray = await getJson('./Data/strings/' + language.id + '/' + files[i] + '.xml.json');
         iArray = iArray.stringtable.language.string;
@@ -65,8 +73,12 @@ async function updateStrings() {
         for (j in iArray) {
             let iData = iArray[j];
             let oData = {};
+            let symbolExtra = symbolList[iData['@_locid']];
             oData.index = iData['@_locid'];
             oData.symbol = returnNode(iData['@symbol']).toLowerCase();
+            if (symbolExtra) {
+                iData['@symbol'] = symbolExtra;
+            }
             oData.value = iData;
             updateData(table, oData);
         }

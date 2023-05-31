@@ -21,6 +21,9 @@ async function getCString(cString) {
         if (cString.toLowerCase() == 'ship') {
             iString = 'ships';
         }
+        if (cString.toLowerCase() == 'resource') {
+            iString = 'resources';
+        }
         //unittype:Herdable → cStringAbstractNameHerdable
         let iData = await getData('string', 'cstringabstractname' + iString, 'symbol');
         if (!iData) {//unittype:AbstractCaprine → cStringAbstractCaprine
@@ -39,7 +42,7 @@ async function getCString(cString) {
             //targetID为空:iData['#text']
             return iData['#text'];
         } else {
-            return ('未找到:' + cString);
+            return ('无描述');
         }
     } else {
         //textID为空:'null'
