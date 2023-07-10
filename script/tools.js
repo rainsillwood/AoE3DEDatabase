@@ -23,41 +23,6 @@ function returnList(node) {
     node = [node];
     return node;
 }
-//小数+
-function Add(num1, num2) {
-    let baseNum, baseNum1, baseNum2;
-    try {
-        baseNum1 = num1.toString().split('.')[1].length;
-    } catch (e) {
-        baseNum1 = 0;
-    }
-    try {
-        baseNum2 = num2.toString().split('.')[1].length;
-    } catch (e) {
-        baseNum2 = 0;
-    }
-    baseNum = Math.pow(10, Math.max(baseNum1, baseNum2));
-    return (num1 * baseNum + num2 * baseNum) / baseNum;
-}
-//小数-
-function Sub(num1, num2) {
-    let baseNum, baseNum1, baseNum2;
-    let precision; // 精度
-    try {
-        baseNum1 = num1.toString().split('.')[1].length;
-    } catch (e) {
-        baseNum1 = 0;
-    }
-    try {
-        baseNum2 = num2.toString().split('.')[1].length;
-    } catch (e) {
-        baseNum2 = 0;
-    }
-    baseNum = Math.pow(10, Math.max(baseNum1, baseNum2));
-    precision = (baseNum1 >= baseNum2) ? baseNum1 : baseNum2;
-    return ((num1 * baseNum - num2 * baseNum) / baseNum).toFixed(precision);
-}
-
 function logUpdate(id, value) {
     let temp = document.getElementById(id);
     if (temp) {

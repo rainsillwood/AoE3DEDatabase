@@ -12,6 +12,22 @@ function resetInfo() {
 
 function help() {
     alert('暂无帮助');
+    /*BigNumber
+    +:plus
+    -:minus
+    *:times
+    /:div
+    |:idiv
+    %:mod
+    <:lt
+    <=lte
+    >:gt
+    >=:gte
+    ==:eq
+    ||:abs
+    √:sqrt
+    ^:pow
+    */
 }
 function getIcon(iData) {
     let icon = iData.iconwpf;
@@ -139,7 +155,7 @@ async function getNative() {
                         let target = await getTech(techeffect[j]['#text']);
                         oData = oData + '<td>' + getRuby(target.displayname, target['@name']) + '</td><td>科技</td>';
                         oData = oData + '<td>' + target.rollovertext + '</td>';
-                        oData = oData + '<td class="effect"><div>' /*+getEffects(tempTech.effects, tempTech.displayname)*/ + '</div></td>';
+                        oData = oData + '<td class="effect"><div>' +getEffects(tempTech.effects, tempTech.displayname) + '</div></td>';
                     }
                     if (techeffect[j]['@type'] == 'Data' && techeffect[j]['@subtype'] == 'Enable') {
                         let target = await getProto(techeffect[j].target['#text']);

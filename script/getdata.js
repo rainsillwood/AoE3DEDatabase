@@ -24,19 +24,19 @@ async function getCString(cString) {
         if (cString.toLowerCase() == 'resource') {
             iString = 'resources';
         }
-        //unittype:Herdable → cStringAbstractNameHerdable
-        let iData = await getData('string', 'cstringabstractname' + iString, 'symbol');
-        if (!iData) {//unittype:AbstractCaprine → cStringAbstractCaprine
-            iData = await getData('string', 'cstringabstract' + iString, 'symbol');
-        }
-        if (!iData) {//unittype:AbstractAbusGun → cStringAbusGun
-            iData = await getData('string', 'cstring' + iString, 'symbol');
-        }
-        if (!iData) {//unittype:AbstractAbusGun → cStringAbusGun
-            iData = await getData('string', 'cstring' + iString.replace('specificeffect', 'effectspecific'), 'symbol');
-        }
-        if (!iData) {//unittype:AbstractAbusGun → cStringAbusGun
-            iData = await getData('string', 'cstring' + iString.replace('increase', 'change').replace('decrease', 'change'), 'symbol');
+        let iArray = [
+            iString,
+            'cstringabstractname' + iString,//unittype:Herdable → cStringAbstractNameHerdable
+            'cstringabstract' + iString,//unittype:AbstractCaprine → cStringAbstractCaprine
+            'cstring' + iString,//unittype:AbstractAbusGun → cStringAbusGun
+            'cstring' + iString.replace('specificeffect', 'effectspecific'),
+            'cstring' + iString.replace('increase', 'change').replace('decrease', 'change'),
+            'cstring' + iString.replace('maximum', 'max').replace('minimum', 'min')
+        ];
+        let iData;
+        for (i in iArray) {
+            iData = await getData('string', iArray[i], 'symbol');
+            if (iData) break;
         }
         if (iData) {
             //targetID为空:iData['#text']
@@ -94,12 +94,21 @@ async function getCommand(id) {
     if (!oData) oData = { 'displayname': '<del>' + id + '</del>', 'rollovertext': '找不到该命令', 'name': id, 'isNull': true };
     return oData;
 }
-//返回动作
+//返回操作
 async function getAction(id) {
     if (!id) {
         return { 'displayname': '空', 'name': { '#text': 'null' }, 'isNull': true };
     }
     let oData = await getData('action', id.toLowerCase());
     if (!oData) oData = { 'displayname': '<del>' + id + '</del>', 'name': { '#text': id }, 'isNull': true };
+    return oData;
+}
+//返回操作
+async function getTactic(id) {
+    if (!id) {
+        return { 'displayname': '空', '#text': 'null', 'isNull': true };
+    }
+    let oData = await getData('tactic', id.toLowerCase());
+    if (!oData) oData = { 'displayname': '<del>' + id + '</del>', '#text': id, 'isNull': true };
     return oData;
 }
