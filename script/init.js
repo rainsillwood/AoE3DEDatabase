@@ -54,7 +54,7 @@ async function updateDatabase() {
 //缓存String
 async function updateStrings() {
     let table = 'string';
-    let files = ['stringtabley', 'unithelpstrings', 'unithelpstringsx', 'unithelpstringsy'];
+    let files = ['stringtabley', 'unithelpstrings', 'unithelpstringsx', 'unithelpstringsy', 'stringmods'];
     appendNode('更新语言文件: <a id="' + table + '_processed">0</a> / <a id="' + table + '_quest">0</a> , <a id="' + table + '_failed">0</a> Error', 'logger', 'div');
     let symbolList = {
         '101137': 'cStringAbstractMountainMonastery',
@@ -66,7 +66,11 @@ async function updateStrings() {
     };
     for (i in files) {
         let iArray = await getJson('./Data/strings/' + language.id + '/' + files[i] + '.xml.json');
-        iArray = iArray.stringtable.language.string;
+        if (files[i] == 'stringmods') {
+            iArray = iArray.stringmods.stringtable.language.string;
+        } else {
+            iArray = iArray.stringtable.language.string;
+        }
         let process = document.getElementById(table + '_quest').innerHTML * 1;
         process = process + iArray.length;
         document.getElementById(table + '_quest').innerHTML = process;
