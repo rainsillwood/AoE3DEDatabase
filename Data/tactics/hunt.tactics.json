@@ -1,1 +1,0 @@
-{"tactics":{"#text":"","action":[{"#text":"","name":{"@stringid":"63007","#text":"ShrineGather"},"type":"Gather","maxrange":"0.5","rate":{"@type":"AbstractShrine","#text":".1"}},{"#text":"","name":{"@stringid":"63007","#text":"HaciendaGather"},"type":"Gather","maxrange":"0.5","deposittogathersiteowner":"1"}],"tactic":{"#text":"Normal","action":["ShrineGather","HaciendaGather"]}}}
