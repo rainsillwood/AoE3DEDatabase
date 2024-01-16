@@ -1,0 +1,52 @@
+<layout>
+  <gadget name="myGadget" type="gadget" size1024="10 10 900 700" background="ui\ui_med_gray" bevel="" titlebar="Look At Me" closebutton="">
+    <gadget name="myEditBox1" type="editBox" textcolor="0 0 0" textfont="Arial nodrop" textfontsize="12" textcentervert="" tooltiptext="Normal Edit Box" sunkenbevel="" backgroundcolor="255 255 255" size1024="120 20 210 40">UR-L33T</gadget>
+    <gadget name="myEditBox2" type="editBox" textcolor="0 0 0" textfont="Arial nodrop" textfontsize="12" textcentervert="" tooltiptext="Masked Edit Box" sunkenbevel="" backgroundcolor="255 255 255" editboxmaskchars="" size1024="220 20 310 40">Secret Password</gadget>
+    <gadget name="myEditBox3" type="editBox" textcolor="0 0 0" textfont="Arial nodrop" textfontsize="12" textcentervert="" tooltiptext="Prompted Edit Box" sunkenbevel="" backgroundcolor="255 255 255" editboxprompt="&gt;" size1024="320 20 410 40">Edit Box with prompt</gadget>
+    <gadget name="myEditBox4" type="editBox" textcolor="0 0 0" textfont="Arial nodrop" textfontsize="12" textcentervert="" tooltiptext="ReadOnly Edit Box" sunkenbevel="" backgroundcolor="255 255 255" editboxreadonly="" size1024="420 20 510 40">Read Only</gadget>
+    <gadget name="myEditBox5" type="editBox" textcolor="0 0 0" textfont="Arial nodrop" textfontsize="12" textcentervert="" tooltiptext="Numeric Only Edit Box" sunkenbevel="" backgroundcolor="255 255 255" editboxnumericonly="" size1024="520 20 610 40">55378008</gadget>
+    <gadget name="myEditBox6" type="editBox" textcolor="0 0 0" textfont="Arial nodrop" textfontsize="12" textcentervert="" tooltiptext="Alpha Only Edit Box" sunkenbevel="" backgroundcolor="255 255 255" editboxalphaonly="" size1024="620 20 710 40">Alpha Only</gadget>
+    <gadget name="myTextBox1" type="textBox" textcolor="0 0 0" textfont="Arial nodrop" textfontsize="12" textcentervert="" tooltiptext="Text Box" size1024="20 20 110 40">Text Box</gadget>
+    <gadget name="myTextBox2" type="simpleTextBox" textcolor="255 255 255" backgroundcolor="0 0 128" textfont="Tahoma" textfontsize="8" textwrapon="" scrollvert="" scrollhoriz="" cursoralwayson="" tooltiptext="DP's uber Simple Text Box" size1024="360 320 560 520">Simple Text Box</gadget>
+    <gadget name="myTextField1" type="textField" textcolor="0 0 0" textfont="Arial nobold nodrop" textfontsize="12" tooltiptext="Text Field gadget" size1024="20 45 210 70">Text Field:</gadget>
+    <gadget name="myTextField2" type="textField" textcolor="0 0 0" textfont="Arial nobold nodrop" textfontsize="12" dropdowndistance="100" tooltiptext="Text Field gadget with dropdowns" size1024="220 45 420 70">Another Field:<dropdown>type 1</dropdown><dropdown>type 2</dropdown></gadget>
+    <gadget name="colorDropdown" type="colorDropdown" dropdowndistance="120" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" fieldreadonly="" tooltiptext="color dropdown. add colors in code." size1024="440 45 570 70">
+      <dropdown>
+      </dropdown>
+    </gadget>
+    <gadget name="mySlider1" type="slider" configindex="someValue" showvalue="" tooltiptext="Slider with a config index and showing a value" size1024="20 80 210 105">
+    </gadget>
+    <gadget name="mySlider2" type="slider" sliderbuttons="" tooltiptext="Slider with buttons" size1024="260 80 460 105">
+    </gadget>
+    <gadget name="mySlider3" type="slider" tooltiptext="Slider" size1024="490 80 690 105">
+    </gadget>
+    <gadget name="myButton4" type="button" tooltiptext="Button with a command" size1024="20 120 70 140">One<command>echo("command")</command></gadget>
+    <gadget name="myButton5" type="button" tooltiptext="Button with bevel and different font" bevel="" textfont="Arial nodrop" textfontsize="12" size1024="90 120 190 140">Two</gadget>
+    <gadget name="myButton6" type="button" tooltiptext="Button with bevel and different font" bevel="" textfont="Arial nobold nodrop" textfontsize="10" size1024="200 120 250 140">Three</gadget>
+    <gadget name="myButton7" type="checkButton" tooltiptext="check button" textfont="Arial nobold nodrop" textfontsize="10" configindex="whatever" size1024="270 120 320 140">Click</gadget>
+    <gadget name="myButton7" type="stateButton" tooltiptext="state button" textfont="Arial nobold nodrop" textfontsize="10" bevel="" size1024="370 120 420 140">
+      <stateentry backgroundcolor="0 0 255">One</stateentry>
+      <stateentry background="ui\ui_check">Two</stateentry>
+      <stateentry backgroundcolor="128 128 64">Three</stateentry>
+    </gadget>
+    <gadget name="myRadioSet1" type="radioset" background="UI\ui_med_gray" radiosetbuttonsize1024="110 25" radiosetdefaultbuttonindex="0" textfont="Arial nobold nodrop" textfontsize="12" radiosettitle="Choices:" radiosettitleleft="" tooltiptext="radio buttons" size1024="20 160 130 235">
+      <button>One</button>
+      <button command="echo(&quot;stuff&quot;)">two</button>
+      <button>3</button>
+    </gadget>
+    <gadget name="myList1" type="list" background="ui\ui_dark_gray" showselect="" selectedcolor="255 255 255" buttonsize1024="125 15" scrollvert="" alphasort="" tooltiptext="list" size1024="150 160 250 260">
+    </gadget>
+    <gadget name="myList2" type="list" background="ui\ui_dark_gray" sunkenbevel="" showselect="" selectedcolor="255 255 255" buttonsize1024="125 15" scrollvert="" alphasort="" tooltiptext="sunken bevel list" size1024="260 160 360 260">
+    </gadget>
+    <gadget name="myList3" type="list" background="ui\ui_dark_gray" sunkenbevel="" showselect="" selectedcolor="255 255 255" buttonsize1024="125 15" scrollvert="" alphasort="" titlebar="blah" locktitlebarmove="" tooltiptext="sunken bevel with titlebar" size1024="370 160 470 260">
+    </gadget>
+    <gadget name="myRadioSet2" type="radioset" size1024="17 321 157 352" z="11" background="UI\ui_med_gray" radiosetbuttonsize1024="20 25" radiosetdefaultbuttonindex="0" textfont="Arial nobold nodrop" textfontsize="12" radiosettitle="Choices:" tooltiptext="horizontal radio buttons" radiosethorizlayout="">
+      <button>
+      </button>
+      <button>
+      </button>
+      <button>
+      </button>
+    </gadget>
+  </gadget>
+</layout>

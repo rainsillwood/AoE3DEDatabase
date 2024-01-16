@@ -1,0 +1,24 @@
+<layout>
+  <item type="picture">
+    <filename>ui\\ESO\\eso_logo_128x44</filename>
+  </item>
+  <item type="list">
+    <space>
+    </space>
+    <item type="textbox" bullet="true">
+      <text>&lt;font=Arial 16&gt;&lt;b&gt;Some Stat &lt;/b&gt;&lt;/font&gt;\n&lt;font=Arial 12&gt;This is a description of this stat.&lt;/font&gt;</text>
+    </item>
+    <space>
+    </space>
+    <item type="textbox" bullet="true">
+      <text>&lt;font=Arial 16&gt;&lt;b&gt;Another Stat &lt;/b&gt;&lt;/font&gt;\n&lt;font=Arial 12&gt;This is a description of another stat.&lt;/font&gt;</text>
+    </item>
+    <space>
+    </space>
+    <item type="textbox" bullet="true">
+      <text>&lt;font=Arial 16&gt;&lt;b&gt;An Important Stat &lt;/b&gt;&lt;/font&gt;\n&lt;font=Arial 12&gt;This is a description of an important stat.&lt;/font&gt;</text>
+    </item>
+    <space>
+    </space>
+  </item>
+</layout>

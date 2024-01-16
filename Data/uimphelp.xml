@@ -1,0 +1,34 @@
+<layout>
+  <gadget name="MPHelp" type="gadget" windowzstyle="" size1024="154 56 871 709" closeonesc="">
+    <gadget name="MPHelp-Background" type="gadget" size1024="162 72 863 693" background="ui\ui background blue opaque" tilebackground="" z="1">
+      <gadget tilebackgroundhoriz="" name="MPHelp-BordersTop" type="gadget" background="ui\ui border greek top middle" size1024="186 56 839 72">
+      </gadget>
+      <gadget tilebackgroundhoriz="" name="MPHelp-BordersBottom" type="gadget" background="ui\ui border greek bottom middle" size1024="186 693 839 709">
+      </gadget>
+      <gadget tilebackgroundvert="" name="MPHelp-BordersLeft" type="gadget" background="ui\ui border greek left middle" size1024="154 88 162 677">
+      </gadget>
+      <gadget tilebackgroundvert="" name="MPHelp-BordersRight" type="gadget" background="ui\ui border greek right middle" size1024="863 88 871 677">
+      </gadget>
+      <gadget name="MPHelp-BordersLeftTop" type="gadget" background="ui\ui border greek top left corner" size1024="154 56 186 88">
+      </gadget>
+      <gadget name="MPHelp-BordersLeftBottom" type="gadget" background="ui\ui border greek bottom left corner" size1024="154 677 186 709">
+      </gadget>
+      <gadget name="MPHelp-BordersRightBottom" type="gadget" background="ui\ui border greek bottom right corner" size1024="839 677 871 709">
+      </gadget>
+      <gadget name="MPHelp-BordersRightTop" type="gadget" background="ui\ui border greek top right corner" size1024="839 56 871 88" z="11">
+      </gadget>
+    </gadget>
+    <gadget name="MPHelp-Close" type="stateButton" size1024="435 650 595 682" bevelbutton="" z="101" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="255 208 0" textcenterhoriz="" textcentervert="" texturecoords="0 0 .625 1">$$18457$$Close<stateentry background="ui\core_ui\button_128x32_normal"></stateentry><stateentry background="ui\ui button long 160X32 clicked"></stateentry><stateentry background="ui\ui button long 160X32 rollover"></stateentry><stateentry background=""></stateentry></gadget>
+    <gadget name="MPHelp-quicksetuptext" type="formatText" textfont="AboutBoxVersion" textfontsize="18" textcolor="255 208 0" size1024="184 102 837 130" textwrapon="" formattextusedatareplace="">$$22563$$QUICK SETUP (games are rated)</gadget>
+    <gadget name="MPHelp-quicksetuptext1" textwrapon="" type="formatText" textfont="AboutBoxWarning" textfontsize="16" textcolor="255 208 0" size1024="184 146 838 236">$$22565$$AOM FINDS YOUR TEAMMATES AND OPPONENTS - Select your settings (#players, your god, map type etc.) and press the "Start" button.</gadget>
+    <gadget name="MPHelp-quicksetuptext2" textwrapon="" type="formatText" textfont="AboutBoxWarning" textfontsize="16" textcolor="255 208 0" size1024="184 237 838 327">$$22566$$YOU CREATE YOUR TEAM, AOM FINDS AN OPPOSING TEAM - Create your own team using teh "Create Team" and "Invite Friends" button.  AOM then selects appropriate opponents and the game begins.</gadget>
+    <gadget name="MPHelp-AdvancedSetupText" type="formatText" textfont="AboutBoxVersion" textfontsize="18" textcolor="255 208 0" size1024="184 328 837 356" textwrapon="" formattextusedatareplace="">$$22567$$ADVANCED SETUP (games are not rated)</gadget>
+    <gadget name="MPHelp-AdvancedSetupText1" textwrapon="" type="formatText" textfont="AboutBoxWarning" textfontsize="16" textcolor="255 208 0" size1024="184 371 838 461">$$22568$$JOIN A GAME ON THE GAMES LIST - Select a game on the list and press the "Join" button.</gadget>
+    <gadget name="MPHelp-AdvancedSetupText2" textwrapon="" type="formatText" textfont="AboutBoxWarning" textfontsize="16" textcolor="255 208 0" size1024="184 462 838 552">$$22569$$HOST A GAME TO THE GAMES LIST - Press the "Host" button from teh Games List screen and set your game settings.  People can now join your game from the Games List.  You can also use the "Invite Friends" button to populate this game.</gadget>
+    <gadget name="MPHelp-AdvancedSetupText2" textwrapon="" type="formatText" textfont="AboutBoxWarning" textfontsize="16" textcolor="255 208 0" size1024="184 552 838 642">$$22570$$HOST A PRIVATE GAME - To host an invitation-only game that you do not want added to the Games List screen, press the "Host" button and check the "Private" box.  You must use the "Invite Friends" button to populate your game.</gadget>
+    <gadget name="MPHelp-ScreenSeparator" type="gadget" size1024="178 139 846 140" background="missing" z="11">
+    </gadget>
+    <gadget name="MPHelp-ScreenSeparator2" type="gadget" size1024="178 362 846 363" background="missing" z="11">
+    </gadget>
+  </gadget>
+</layout>

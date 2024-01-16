@@ -1,0 +1,59 @@
+<languagefilemappings>
+  <locale code="en">
+    <stringsfolder>strings\English</stringsfolder>
+  </locale>
+  <locale code="fr">
+    <stringsfolder>strings\French</stringsfolder>
+    <soundfolder>fr-FR</soundfolder>
+  </locale>
+  <locale code="de">
+    <stringsfolder>strings\German</stringsfolder>
+    <soundfolder>de-DE</soundfolder>
+  </locale>
+  <locale code="hi">
+    <stringsfolder>strings\Hindi</stringsfolder>
+  </locale>
+  <locale code="it">
+    <stringsfolder>strings\Italian</stringsfolder>
+    <soundfolder>it-IT</soundfolder>
+  </locale>
+  <locale code="ja">
+    <stringsfolder>strings\Japanese</stringsfolder>
+  </locale>
+  <locale code="ko">
+    <stringsfolder>strings\Korean</stringsfolder>
+  </locale>
+  <locale code="ms">
+    <stringsfolder>strings\Malay</stringsfolder>
+  </locale>
+  <locale code="pt-BR">
+    <stringsfolder>strings\PortugueseBrazil</stringsfolder>
+    <soundfolder>pt-BR</soundfolder>
+  </locale>
+  <locale code="ru">
+    <stringsfolder>strings\Russian</stringsfolder>
+  </locale>
+  <locale code="zh-Hans">
+    <altcode>zh-CN</altcode>
+    <altcode>zh-SG</altcode>
+    <stringsfolder>strings\SimplifiedChinese</stringsfolder>
+    <soundfolder>zh-CN</soundfolder>
+  </locale>
+  <locale code="es">
+    <stringsfolder>strings\Spanish</stringsfolder>
+    <soundfolder>es-ES</soundfolder>
+  </locale>
+  <locale code="zh-Hant">
+    <altcode>zh-TW</altcode>
+    <altcode>zh-HK</altcode>
+    <altcode>zh-MO</altcode>
+    <stringsfolder>strings\TraditionalChinese</stringsfolder>
+    <soundfolder>zh-CN</soundfolder>
+  </locale>
+  <locale code="tr">
+    <stringsfolder>strings\Turkish</stringsfolder>
+  </locale>
+  <locale code="vi">
+    <stringsfolder>strings\Vietnamese</stringsfolder>
+  </locale>
+</languagefilemappings>

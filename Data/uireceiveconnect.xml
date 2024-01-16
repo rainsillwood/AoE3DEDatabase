@@ -1,0 +1,8 @@
+<layout>
+  <gadget type="dialog" name="receive-connect-dialog" bevel="" hidden="" a-dtype="textFontSize number Z number" centervert="" centerhoriz="" size1024="0 0 400 130" titlebar="Receiver connect">
+    <gadget type="textField" a-dtype="textFontSize number Z number" sizerel1024="10 20 390 45" centerhoriz="" fieldval="DefaultName" name="receive-connect-address-field">Broadcaster IP Address:</gadget>
+    <button>OK</button>
+    <button>$$18466$$Cancel</button>
+    <command>gadgetUnreal("receive-connect-dialog")</command>
+  </gadget>
+</layout>

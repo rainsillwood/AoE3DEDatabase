@@ -1,0 +1,895 @@
+<defaultkeymapgrid>
+  <keymapgroup name="General Game Hotkeys Grid" displayname="$$43347$$General Game Hotkeys" hotkeystyle="Grid">
+    <keymapdata>
+      <name>Show Game Menu</name>
+      <displayname>$$71097$$Show Game Menu</displayname>
+      <event>esc</event>
+      <context>game</context>
+      <command>showGameMenu()</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Hide Game Menu</name>
+      <displayname>$$71098$$Hide Game Menu</displayname>
+      <event>esc</event>
+      <context>mainGameMenu</context>
+      <command>hideGameMenu()</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Exit Tech Tree</name>
+      <displayname>$$80375$$Exit Tech Tree</displayname>
+      <event>esc</event>
+      <context>techTreeScreen</context>
+      <command>exitTechTree()</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Show Chat Window</name>
+      <displayname>$$43336$$Show Chat Window</displayname>
+      <event>enter</event>
+      <context>game</context>
+      <command>uiShowChatWindow() uiIgnoreNextKey</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Attack Move</name>
+      <displayname>$$18986$$Attack Move</displayname>
+      <event>space</event>
+      <context>game</context>
+      <command>editMode("attackMove")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Patrol</name>
+      <displayname>$$72797$$Patrol</displayname>
+      <event>shift-control-z</event>
+      <context>game</context>
+      <command>editMode("patrol")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Flare</name>
+      <displayname>$$22513$$Flare Mini Map</displayname>
+      <event>alt-mouse1down</event>
+      <context>game</context>
+      <command>uiFlareAtPointer</command>
+      <minimapignore>1</minimapignore>
+    </keymapdata>
+    <keymapdata>
+      <name>Flare Type</name>
+      <displayname>$$55029$$Select flare type</displayname>
+      <event>control-mouse2down</event>
+      <context>game</context>
+      <command>openFlareType</command>
+      <minimapignore>1</minimapignore>
+    </keymapdata>
+    <keymapdata>
+      <name>Enter Flare Mode</name>
+      <displayname>$$49154$$Enter Flare Mode</displayname>
+      <event>alt-f</event>
+      <context>game</context>
+      <command>editMode("flare") uiSetProtoCursor("WaypointFlag")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Toggle Extended Minimap</name>
+      <displayname>$$91466$$[LOC] Toggle Extended Minimap</displayname>
+      <event>alt-d</event>
+      <context>game</context>
+      <command>toggleExtendedMinimap</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Delete Selected Units</name>
+      <displayname>$$43335$$Delete Selected Units</displayname>
+      <event>delete</event>
+      <context>game</context>
+      <command>uiDeleteSelectedUnit</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Find Town Center</name>
+      <displayname>$$20861$$Find Town Center</displayname>
+      <event>F1</event>
+      <context>game</context>
+      <command>uiFindAnyOfTypes("TownCenter, deSPCCommandPost")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Find Home City</name>
+      <displayname>$$26088$$Find Home City</displayname>
+      <event>F2</event>
+      <context>game</context>
+      <command>toggleHomeCityView</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Find Explorer</name>
+      <displayname>$$43350$$Find Explorer</displayname>
+      <event>F3</event>
+      <context>game</context>
+      <command>uiFindType("Hero")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Find Idle Military</name>
+      <displayname>$$20844$$Find Idle Military</displayname>
+      <event>F4</event>
+      <context>game</context>
+      <command>uiFindIdleType("Military", false)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Toggle Game Time</name>
+      <displayname>$$43348$$Toggle Game Time</displayname>
+      <event>F5</event>
+      <context>game</context>
+      <command>toggleTime</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Toggle Score</name>
+      <displayname>$$43338$$Toggle Score Display</displayname>
+      <event>F6</event>
+      <context>game</context>
+      <command>toggleScore</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Toggle Player Summary Dialog</name>
+      <displayname>$$43339$$Toggle Player Summary Dialog</displayname>
+      <event>F7</event>
+      <context>game</context>
+      <command>hideGameMenu() uiTogglePlayerSummaryDialog</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Pause Gameplay</name>
+      <displayname>$$43430$$Pause/Unpause Gameplay</displayname>
+      <event>F8</event>
+      <context>world</context>
+      <command>pause</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Quick Save Game</name>
+      <displayname>$$43340$$Quick Save Game</displayname>
+      <event>F9</event>
+      <context>game</context>
+      <command>saveGame("QuickSavegame", true)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Quick Load Game</name>
+      <displayname>$$43341$$Quick Load Game</displayname>
+      <event>F10</event>
+      <context>game</context>
+      <command>loadGame("QuickSavegame")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Resign</name>
+      <displayname>$$18444$$Resign</displayname>
+      <context>game</context>
+      <command>gadgetReal("ConfirmResignSinglePlayer")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Quit Game</name>
+      <displayname>$$42323$$Quit</displayname>
+      <context>game</context>
+      <command>gadgetReal("ConfirmQuit")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Toggle Objectives Dialog</name>
+      <displayname>$$43337$$Toggle the Objectives Dialog</displayname>
+      <event>
+      </event>
+      <context>game</context>
+      <command>hideGameMenu() uiHotkeyToggleObjectivesDialog</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Friend Or Foe Colors</name>
+      <displayname>$$37055$$Enable Friend or Foe Colors</displayname>
+      <event>F11</event>
+      <context>game</context>
+      <command>renderFriendOrFoe</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Eject Units from all Town Centers/Haciendas</name>
+      <displayname>$$112219$$Eject Units from all Town Centers/Haciendas</displayname>
+      <event>control-shift-b</event>
+      <context>game</context>
+      <command>uiEjectFromAllMapControlBuildings()</command>
+    </keymapdata>
+  </keymapgroup>
+  <keymapgroup name="Command Panel Hotkeys" displayname="$$90061$$Command Panel Hotkeys" hotkeystyle="Grid">
+    <keymapdata>
+      <name>Row 1 Column 1</name>
+      <displayname>$$90064$$Row 1 Column 1</displayname>
+      <event>q</event>
+      <context>game</context>
+      <command>activateCommandPanel(0, 0)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Multiple Row 1 Column 1</name>
+      <displayname>$$90065$$Multiple Row 1 Column 1</displayname>
+      <event>shift-q</event>
+      <context>game</context>
+      <command>shiftActivateCommandPanel(0, 0)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Row 1 Column 2</name>
+      <displayname>$$90066$$Row 1 Column 2</displayname>
+      <event>w</event>
+      <context>game</context>
+      <command>activateCommandPanel(1, 0)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Multiple Row 1 Column 2</name>
+      <displayname>$$90067$$Multiple Row 1 Column 2</displayname>
+      <event>shift-w</event>
+      <context>game</context>
+      <command>shiftActivateCommandPanel(1, 0)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Row 1 Column 3</name>
+      <displayname>$$90068$$Row 1 Column 3</displayname>
+      <event>e</event>
+      <context>game</context>
+      <command>activateCommandPanel(2, 0)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Multiple Row 1 Column 3</name>
+      <displayname>$$90069$$Multiple Row 1 Column 3</displayname>
+      <event>shift-e</event>
+      <context>game</context>
+      <command>shiftActivateCommandPanel(2, 0)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Row 1 Column 4</name>
+      <displayname>$$90070$$Row 1 Column 4</displayname>
+      <event>r</event>
+      <context>game</context>
+      <command>activateCommandPanel(3, 0)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Multiple Row 1 Column 4</name>
+      <displayname>$$90071$$Multiple Row 1 Column 4</displayname>
+      <event>shift-r</event>
+      <context>game</context>
+      <command>shiftActivateCommandPanel(3, 0)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Row 1 Column 5</name>
+      <displayname>$$90072$$Row 1 Column 5</displayname>
+      <event>t</event>
+      <context>game</context>
+      <command>activateCommandPanel(4, 0)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Multiple Row 1 Column 5</name>
+      <displayname>$$90073$$Multiple Row 1 Column 5</displayname>
+      <event>shift-t</event>
+      <context>game</context>
+      <command>shiftActivateCommandPanel(4, 0)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Row 1 Column 6</name>
+      <displayname>$$90074$$Row 1 Column 6</displayname>
+      <event>y</event>
+      <context>game</context>
+      <command>activateCommandPanel(5, 0)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Multiple Row 1 Column 6</name>
+      <displayname>$$90075$$Multiple Row 1 Column 6</displayname>
+      <event>shift-y</event>
+      <context>game</context>
+      <command>shiftActivateCommandPanel(5, 0)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Row 2 Column 1</name>
+      <displayname>$$90076$$Row 2 Column 1</displayname>
+      <event>a</event>
+      <context>game</context>
+      <command>activateCommandPanel(0, 1)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Multiple Row 2 Column 1</name>
+      <displayname>$$90077$$Multiple Row 2 Column 1</displayname>
+      <event>shift-a</event>
+      <context>game</context>
+      <command>shiftActivateCommandPanel(0, 1)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Row 2 Column 2</name>
+      <displayname>$$90078$$Row 2 Column 2</displayname>
+      <event>s</event>
+      <context>game</context>
+      <command>activateCommandPanel(1, 1)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Multiple Row 2 Column 2</name>
+      <displayname>$$90079$$Multiple Row 2 Column 2</displayname>
+      <event>shift-s</event>
+      <context>game</context>
+      <command>shiftActivateCommandPanel(1, 1)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Row 2 Column 3</name>
+      <displayname>$$90080$$Row 2 Column 3</displayname>
+      <event>d</event>
+      <context>game</context>
+      <command>activateCommandPanel(2, 1)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Multiple Row 2 Column 3</name>
+      <displayname>$$90081$$Multiple Row 2 Column 3</displayname>
+      <event>shift-d</event>
+      <context>game</context>
+      <command>shiftActivateCommandPanel(2, 1)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Row 2 Column 4</name>
+      <displayname>$$90082$$Row 2 Column 4</displayname>
+      <event>f</event>
+      <context>game</context>
+      <command>activateCommandPanel(3, 1)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Multiple Row 2 Column 4</name>
+      <displayname>$$90083$$Multiple Row 2 Column 4</displayname>
+      <event>shift-f</event>
+      <context>game</context>
+      <command>shiftActivateCommandPanel(3, 1)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Row 2 Column 5</name>
+      <displayname>$$90084$$Row 2 Column 5</displayname>
+      <event>g</event>
+      <context>game</context>
+      <command>activateCommandPanel(4, 1)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Multiple Row 2 Column 5</name>
+      <displayname>$$90085$$Multiple Row 2 Column 5</displayname>
+      <event>shift-g</event>
+      <context>game</context>
+      <command>shiftActivateCommandPanel(4, 1)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Row 2 Column 6</name>
+      <displayname>$$90086$$Row 2 Column 6</displayname>
+      <event>h</event>
+      <context>game</context>
+      <command>activateCommandPanel(5, 1)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Multiple Row 2 Column 6</name>
+      <displayname>$$90087$$Multiple Row 2 Column 6</displayname>
+      <event>shift-h</event>
+      <context>game</context>
+      <command>shiftActivateCommandPanel(5, 1)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Row 3 Column 1</name>
+      <displayname>$$90088$$Row 3 Column 1</displayname>
+      <event>z</event>
+      <context>game</context>
+      <command>activateCommandPanel(0, 2)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Multiple Row 3 Column 1</name>
+      <displayname>$$90089$$MultipleRow 3 Column 1</displayname>
+      <event>shift-z</event>
+      <context>game</context>
+      <command>shiftActivateCommandPanel(0, 2)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Row 3 Column 2</name>
+      <displayname>$$90090$$Row 3 Column 2</displayname>
+      <event>x</event>
+      <context>game</context>
+      <command>activateCommandPanel(1, 2)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Multiple Row 3 Column 2</name>
+      <displayname>$$90091$$Multiple Row 3 Column 2</displayname>
+      <event>shift-x</event>
+      <context>game</context>
+      <command>shiftActivateCommandPanel(1, 2)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Row 3 Column 3</name>
+      <displayname>$$90092$$Row 3 Column 3</displayname>
+      <event>c</event>
+      <context>game</context>
+      <command>activateCommandPanel(2, 2)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Multiple Row 3 Column 3</name>
+      <displayname>$$90093$$Multiple Row 3 Column 3</displayname>
+      <event>shift-c</event>
+      <context>game</context>
+      <command>shiftActivateCommandPanel(2, 2)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Row 3 Column 4</name>
+      <displayname>$$90094$$Row 3 Column 4</displayname>
+      <event>v</event>
+      <context>game</context>
+      <command>activateCommandPanel(3, 2)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Multiple Row 3 Column 4</name>
+      <displayname>$$90095$$Multiple Row 3 Column 4</displayname>
+      <event>shift-v</event>
+      <context>game</context>
+      <command>shiftActivateCommandPanel(3, 2)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Row 3 Column 5</name>
+      <displayname>$$90096$$Row 3 Column 5</displayname>
+      <event>b</event>
+      <context>game</context>
+      <command>activateCommandPanel(4, 2)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Multiple Row 3 Column 5</name>
+      <displayname>$$90097$$Multiple Row 3 Column 5</displayname>
+      <event>shift-b</event>
+      <context>game</context>
+      <command>shiftActivateCommandPanel(4, 2)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Row 3 Column 6</name>
+      <displayname>$$90098$$Row 3 Column 6</displayname>
+      <event>n</event>
+      <context>game</context>
+      <command>activateCommandPanel(5, 2)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Row 3 Column 6</name>
+      <displayname>$$90099$$Multiple Row 3 Column 6</displayname>
+      <event>shift-n</event>
+      <context>game</context>
+      <command>shiftActivateCommandPanel(5, 2)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Command Button 0</name>
+      <displayname>$$90100$$</displayname>
+      <event>u</event>
+      <context>game</context>
+      <command>activateCommandButton(0)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Command Button 1</name>
+      <displayname>$$90101$$</displayname>
+      <event>i</event>
+      <context>game</context>
+      <command>activateCommandButton(1)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Command Button 2</name>
+      <displayname>$$90102$$</displayname>
+      <event>j</event>
+      <context>game</context>
+      <command>activateCommandButton(2)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Command Button 3</name>
+      <displayname>$$90103$$</displayname>
+      <event>k</event>
+      <context>game</context>
+      <command>activateCommandButton(3)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Command Button 4</name>
+      <displayname>$$90104$$</displayname>
+      <event>m</event>
+      <context>game</context>
+      <command>activateCommandButton(4)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Command Button 5</name>
+      <displayname>$$90105$$</displayname>
+      <event>,</event>
+      <context>game</context>
+      <command>activateCommandButton(5)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Native Big Button</name>
+      <displayname>$$90191$$</displayname>
+      <event>;</event>
+      <context>game</context>
+      <command>activateCommandPanelBigButton</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Big Button 2</name>
+      <displayname>$$90197$$</displayname>
+      <context>game</context>
+      <command>activateCommandPanelBigButton2</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Big Button 3</name>
+      <displayname>$$90198$$</displayname>
+      <context>game</context>
+      <command>activateCommandPanelBigButton3</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Big Ability Button 1</name>
+      <displayname>$$90192$$</displayname>
+      <event>o</event>
+      <context>game</context>
+      <command>activateCommandPanelMediumButton</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Big Ability Button 2</name>
+      <displayname>$$90194$$</displayname>
+      <event>p</event>
+      <context>game</context>
+      <command>activateCommandPanelMediumButton2</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Big Ability Button 3</name>
+      <displayname>$$90195$$</displayname>
+      <event>l</event>
+      <context>game</context>
+      <command>activateCommandPanelMediumButton3</command>
+    </keymapdata>
+  </keymapgroup>
+  <keymapgroup name="Find Unit Hotkeys Grid" displayname="$$43367$$Find Unit Hotkeys" hotkeystyle="Grid">
+    <keymapdata>
+      <name>Find Selection</name>
+      <displayname>$$20847$$Find Selection</displayname>
+      <event>control-space</event>
+      <context>game</context>
+      <command>uiLookAtSelection</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Find Last Notification</name>
+      <displayname>$$22090$$Find Last Notification</displayname>
+      <event>mouse3down</event>
+      <context>game</context>
+      <command>uiZoomToMinimapEvent()</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Find Last Notification Alt</name>
+      <displayname>$$43380$$Find Last Notification (alternate)</displayname>
+      <event>home</event>
+      <context>game</context>
+      <command>uiZoomToMinimapEvent()</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Find Idle Villager</name>
+      <displayname>$$20843$$Find Idle Villager</displayname>
+      <event>`</event>
+      <context>game</context>
+      <command>uiFindIdleType("ValidIdleVillager", false)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Find Idle Villager (Alternate)</name>
+      <displayname>$$79866$$Find Idle Villager (Alternate)</displayname>
+      <event>.</event>
+      <context>game</context>
+      <command>uiFindIdleType2("ValidIdleVillager", false)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Find Idle Healer</name>
+      <displayname>$$79896$$Find Idle Healer</displayname>
+      <context>game</context>
+      <command>uiFindIdleType("AbstractFindHealer", false)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Find Healer</name>
+      <displayname>$$70934$$Find Healer</displayname>
+      <context>game</context>
+      <command>uiFindType("AbstractFindHealer")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Find All Idle Villagers</name>
+      <displayname>$$68927$$Find All Idle Villagers</displayname>
+      <event>shift-control-`</event>
+      <context>game</context>
+      <command>uiFindAllOfTypeIdle("AbstractVillager")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Find All Idle Villagers Alt</name>
+      <displayname>$$79867$$Find All Idle Villagers (Alternate)</displayname>
+      <event>shift-.</event>
+      <context>game</context>
+      <command>uiFindAllOfTypeIdle2("AbstractVillager")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Find Architect</name>
+      <displayname>$$122185$$Find Architect</displayname>
+      <event>[</event>
+      <context>game</context>
+      <command>uiFindType("deArchitect")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Find Idle Architect</name>
+      <displayname>$$122186$$Find Idle Architect</displayname>
+      <context>game</context>
+      <command>uiFindIdleType("deArchitect", false)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Find All Architects</name>
+      <displayname>$$122187$$Find All Architects</displayname>
+      <context>game</context>
+      <command>uiFindAllOfType("deArchitect")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Find All Idle Military</name>
+      <displayname>$$69011$$Find All Idle Military</displayname>
+      <event>control-f3</event>
+      <context>game</context>
+      <command>uiFindAllOfTypeIdle("Military")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Find All Idle Healers</name>
+      <displayname>$$79897$$Find All Idle Healers</displayname>
+      <context>game</context>
+      <command>uiFindAllOfTypeIdle("AbstractFindHealer")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Find All Military</name>
+      <displayname>$$68853$$Find All Military</displayname>
+      <event>shift-control-f3</event>
+      <context>game</context>
+      <command>uiFindAllOfType("LogicalTypeLandMilitary")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Find House/Longhouse/Teepee/Shrine/Village</name>
+      <displayname>$$90108$$Find House, Longhouse, Teepee, Shrine or Village</displayname>
+      <event>control-q</event>
+      <context>game</context>
+      <command>uiFindType("House") uiFindType("HouseEast") uiFindType("HouseMed") uiFindType("HouseAztec")  uiFindType("Manor") uiFindType("Longhouse")  uiFindType("ypHouseIndian") uiFindType("ypShrineJapanese") uiFindType("deHouseInca") uiFindType("Teepee") uiFindType("deTorp") uiFindType("deTorpGeneric") uiFindType("deHouseAfrican")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Find Market</name>
+      <displayname>$$26774$$Find Market</displayname>
+      <event>control-w</event>
+      <context>game</context>
+      <command>uiFindType("Market") uiFindType("ypTradeMarketAsian") uiFindType("deLivestockMarket")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Find Mill/Farm/Rice paddy</name>
+      <displayname>$$90109$$Find Mill, Farm or Rice Paddy</displayname>
+      <event>control-e</event>
+      <context>game</context>
+      <command>uiFindType("Mill") uiFindType("Farm") uiFindType("ypRicePaddy")  uiFindType("deField")  uiFindType("deHacienda")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Find Granary</name>
+      <displayname>$$101430$$Find Granary</displayname>
+      <context>game</context>
+      <command>uiFindType("deGranary")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Find Dock</name>
+      <displayname>$$20851$$Find Dock</displayname>
+      <event>control-r</event>
+      <context>game</context>
+      <command>uiFindType("AbstractDock")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Find Trading Post</name>
+      <displayname>$$20864$$Find Trading Post</displayname>
+      <event>control-t</event>
+      <context>game</context>
+      <command>uiFindType("AbstractTradingPost")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Find Native Site Trading Post</name>
+      <displayname>$$113188$$Find Native Site Trading Post</displayname>
+      <context>game</context>
+      <command>uiFindNativeSite</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Find Trade Route Trading Post</name>
+      <displayname>$$113189$$Find Trade Route Trading Post</displayname>
+      <context>game</context>
+      <command>uiFindTradeRouteSite</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Find Church/Mosque/Community Plaza/Monastery</name>
+      <displayname>$$90110$$Find Church, Mosque, Community Plaza or Monastery</displayname>
+      <event>control-y</event>
+      <context>game</context>
+      <command>uiFindAnyOfTypes("Church, ypMonastery, ypChurch, CommunityPlaza, deMountainMonastery, deUniversity, deCathedral, deBasilica")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Find Barracks/Blockhouse/War hut/War academy</name>
+      <displayname>$$90111$$Find Barracks, Blockhouse, War Hut or War Academy</displayname>
+      <event>control-a</event>
+      <context>game</context>
+      <command>uiFindAnyOfTypes("Barracks, Blockhouse, ypBarracksIndian, ypBarracksJapanese, WarHut, ypWarAcademy, deWarCamp, deHospital") </command>
+    </keymapdata>
+    <keymapdata>
+      <name>Find Town Center/Capitol</name>
+      <displayname>$$90112$$Find Town Center or Capitol</displayname>
+      <event>control-s</event>
+      <context>game</context>
+      <command>uiFindAnyOfTypes("Capitol, TownCenter, deStateCapitol, deSPCCommandPost")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Find Stable/Nobles Hut/Corral/Caravanserai</name>
+      <displayname>$$90113$$Find Stables, Corral, Nobles Hut or Caravanserai</displayname>
+      <event>control-d</event>
+      <context>game</context>
+      <command>uiFindType("Stable") uiFindType("NoblesHut") uiFindType("Corral") uiFindType("ypStableJapanese") uiFindType("ypCaravanserai") uiFindType("deKallanka")  uiFindType("deCommandery")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Find Artillery foundary/Siege workshop/Castle</name>
+      <displayname>$$90114$$Find Artillery Foundary, Siege Workshop or Castle</displayname>
+      <event>control-f</event>
+      <context>game</context>
+      <command>uiFindType("ArtilleryDepot") uiFindType("ypCastle")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Find Plantation</name>
+      <displayname>$$20857$$Find Plantation</displayname>
+      <event>control-g</event>
+      <context>game</context>
+      <command>uiFindType("Plantation")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Find Tribal Marketplace</name>
+      <displayname>$$79935$$Find Tribal Marketplace</displayname>
+      <event>control-b</event>
+      <context>game</context>
+      <command>uiFindType("deFurTrade")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Find Saloon/Consulate</name>
+      <displayname>$$90115$$Find Saloon or Consulate</displayname>
+      <event>control-h</event>
+      <context>game</context>
+      <command>uiFindType("Saloon") uiFindType("ypConsulate") uiFindType("deTavern")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Find LivestockPen or Sacred Field</name>
+      <displayname>$$68820$$Find Livestock Pen or Sacred Field</displayname>
+      <event>control-z</event>
+      <context>game</context>
+      <command>uiFindType("LivestockPen") uiFindType("ypSacredField") uiFindType("ypVillage")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Find Arsenal</name>
+      <displayname>$$20859$$Find Arsenal</displayname>
+      <event>control-x</event>
+      <context>game</context>
+      <command>uiFindType("Arsenal") uiFindType("ypWJGoldenPavillion2") uiFindType("ypWJGoldenPavillion3") uiFindType("ypWJGoldenPavillion4") uiFindType("ypWJGoldenPavillion5")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Find Outpost</name>
+      <displayname>$$20858$$Find Outpost</displayname>
+      <event>control-c</event>
+      <context>game</context>
+      <command>uiFindType("Outpost") uiFindType("ypOutpostAsian") uiFindType("ypCastle") uiFindType("deTower")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Find Fort</name>
+      <displayname>$$20846$$Find Fort</displayname>
+      <event>control-v</event>
+      <context>game</context>
+      <command>uiFindType("FortFrontier") uiFindType("ypWIAgraFort2") uiFindType("ypWIAgraFort3") uiFindType("ypWIAgraFort4") uiFindType("ypWIAgraFort5") uiFindType("deIncaStronghold") uiFindType("dePalace")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Find Native Embassy</name>
+      <displayname>$$48887$$Find Embassy</displayname>
+      <context>game</context>
+      <command>uiFindType("NativeEmbassy")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Find Bank</name>
+      <displayname>$$20856$$Find Bank</displayname>
+      <context>game</context>
+      <command>uiFindType("Bank") uiFindType("deLombard")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Find Field Hospital</name>
+      <displayname>$$43354$$Find Field Hospital</displayname>
+      <context>game</context>
+      <command>uiFindType("FieldHospital")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Find Factory</name>
+      <displayname>$$26089$$Find Factory</displayname>
+      <event>control-b</event>
+      <context>game</context>
+      <command>uiFindType("Factory")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Find Dojo</name>
+      <displayname>$$68825$$Find Dojo</displayname>
+      <context>game</context>
+      <command>uiFindType("ypDojo")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Find Wonder</name>
+      <displayname>$$68809$$Wonder</displayname>
+      <context>game</context>
+      <command>uiFindType("AbstractWonder")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Find Golden Pavilion</name>
+      <displayname>$$69050$$Golden Pavilion</displayname>
+      <context>game</context>
+      <command>uiFindType("ypWJGoldenPavillion2") uiFindType("ypWJGoldenPavillion3") uiFindType("ypWJGoldenPavillion4") uiFindType("ypWJGoldenPavillion5")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Find Wagon</name>
+      <displayname>$$43351$$Find Wagon</displayname>
+      <context>game</context>
+      <command>uiFindType("AbstractWagon")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Find All Stables</name>
+      <displayname>$$68932$$Find All Stables-type Buildings</displayname>
+      <context>game</context>
+      <command>uiFindAllOfType("AbstractStables") </command>
+    </keymapdata>
+    <keymapdata>
+      <name>Find All Artillery Foundries</name>
+      <displayname>$$68933$$Find All Artillery Foundry-type Buildings</displayname>
+      <context>game</context>
+      <command>uiFindAllOfType("AbstractFoundry")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Find All Of Selected Type</name>
+      <displayname>$$65953$$Find All Of Selected Type</displayname>
+      <context>game</context>
+      <command>uiFindAllOfSelectedType()</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Find All Infantry</name>
+      <displayname>$$66135$$Find All Infantry</displayname>
+      <context>game</context>
+      <command>uiFindAllOfType("AbstractInfantry")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Find All Cavalry</name>
+      <displayname>$$79868$$Find All Cavalry</displayname>
+      <context>game</context>
+      <command>uiFindAllOfTwoTypes("AbstractCavalry", "AbstractLightInfantry")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Find All Artillery</name>
+      <displayname>$$79869$$Find All Artillery</displayname>
+      <context>game</context>
+      <command>uiFindAllOfType("AbstractArtillery")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Find All Docks</name>
+      <displayname>$$68931$$Find All Docks</displayname>
+      <context>game</context>
+      <command>uiFindAllOfType("AbstractDock")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Find All Town Centers</name>
+      <displayname>$$79870$$Find All Town Centers</displayname>
+      <context>game</context>
+      <command>uiFindAllOfTwoTypes("TownCenter", "deSPCCommandPost")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Find All Idle Fishing Boats</name>
+      <displayname>$$69305$$Find All Idle Fishing Boats</displayname>
+      <context>game</context>
+      <command>uiFindAllOfTypeIdle("AbstractFishingBoat")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Find All Military Buildings</name>
+      <displayname>$$68928$$Find All Military Buildings</displayname>
+      <context>game</context>
+      <command>uiFindAllOfType("MilitaryBuilding")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Find All Barracks</name>
+      <displayname>$$68929$$Find All Barracks-type Buildings</displayname>
+      <context>game</context>
+      <command>uiFindAllOfType("AbstractBarracks2")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Find All Warships</name>
+      <displayname>$$68930$$Find All Warships</displayname>
+      <context>game</context>
+      <command>uiFindAllOfType("LogicalTypeNavalMilitary")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Find Fattened Herdable</name>
+      <displayname>$$55646$$Find Fattened Herdable</displayname>
+      <context>game</context>
+      <command>uiFindFattenedHerdable()</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Find All Fattened Herdables</name>
+      <displayname>$$55647$$Find All Fattened Herdables</displayname>
+      <context>game</context>
+      <command>uiFindAllFattenedHerdables()</command>
+    </keymapdata>
+  </keymapgroup>
+</defaultkeymapgrid>

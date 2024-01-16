@@ -1,0 +1,886 @@
+<contents>
+  <category name="100641">
+    <subcategory name="100642">
+      <entry name="100643" historytext="100000" texture="ui\\history\\histories\\H_PC_British">
+      </entry>
+      <entry name="100644" historytext="100001" texture="ui\\history\\histories\\H_PC_Dutch">
+      </entry>
+      <entry name="100645" historytext="100002" texture="ui\\history\\histories\\H_PC_French">
+      </entry>
+      <entry name="100646" historytext="100003" texture="ui\\history\\histories\\H_PC_Germans">
+      </entry>
+      <entry name="100647" historytext="100004" texture="ui\\history\\histories\\H_PC_Ottomans">
+      </entry>
+      <entry name="100648" historytext="100005" texture="ui\\history\\histories\\H_PC_Portuguese">
+      </entry>
+      <entry name="100649" historytext="100006" texture="ui\\history\\histories\\H_PC_Russians">
+      </entry>
+      <entry name="100650" historytext="100007" texture="ui\\history\\histories\\H_PC_Spanish">
+      </entry>
+    </subcategory>
+    <subcategory name="100651">
+      <entry name="100652" historytext="100008" texture="ui\\history\\histories\\H_NAC_Aztecs">
+      </entry>
+      <entry name="100653" historytext="100009" texture="ui\\history\\histories\\H_NAC_Carib">
+      </entry>
+      <entry name="100654" historytext="100010" texture="ui\\history\\histories\\H_NAC_Cherokee">
+      </entry>
+      <entry name="100655" historytext="100011" texture="ui\\history\\histories\\H_NAC_Comanche">
+      </entry>
+      <entry name="100656" historytext="100012" texture="ui\\history\\histories\\H_NAC_Cree">
+      </entry>
+      <entry name="100657" historytext="100013" texture="ui\\history\\histories\\H_NAC_Inca">
+      </entry>
+      <entry name="100658" historytext="100014" texture="ui\\history\\histories\\H_NAC_Iroquois">
+      </entry>
+      <entry name="100659" historytext="100015" texture="ui\\history\\histories\\H_NAC_Lakota">
+      </entry>
+      <entry name="100660" historytext="100016" texture="ui\\history\\histories\\H_NAC_Maya">
+      </entry>
+      <entry name="100661" historytext="100017" texture="ui\\history\\histories\\H_NAC_Nootka">
+      </entry>
+      <entry name="100662" historytext="100018" texture="ui\\history\\histories\\H_NAC_Seminole">
+      </entry>
+      <entry name="100663" historytext="100019" texture="ui\\history\\histories\\H_NAC_Tupi">
+      </entry>
+    </subcategory>
+    <subcategory name="100664">
+      <entry name="100665" historytext="100020" texture="ui\\history\\histories\\H_E_Colonial Revolutions">
+      </entry>
+      <entry name="100666" historytext="100021" texture="ui\\history\\histories\\H_E_Napoleonic Warfare">
+      </entry>
+      <entry name="100667" historytext="100022" texture="ui\\history\\histories\\H_E_Ocean Voyages">
+      </entry>
+      <entry name="100668" historytext="100023" texture="ui\\history\\histories\\H_E_Pirates">
+      </entry>
+      <entry name="100669" historytext="100024" texture="ui\\history\\histories\\H_E_The Fur Trade">
+      </entry>
+      <entry name="100671" historytext="100026" texture="ui\\history\\histories\\H_E_The Industrial Revolution">
+      </entry>
+      <entry name="100672" historytext="100027" texture="ui\\history\\histories\\H_E_The Thirty Years War">
+      </entry>
+    </subcategory>
+    <subcategory name="100673">
+      <entry name="100674" historytext="100028" texture="ui\\history\\histories\\H_P_Queen Elizabeth">
+      </entry>
+      <entry name="100675" historytext="100029" texture="ui\\history\\histories\\H_P_Maurice of Orange">
+      </entry>
+      <entry name="100676" historytext="100030" texture="ui\\history\\histories\\H_P_Napoleon Bonaparte">
+      </entry>
+      <entry name="100677" historytext="100031" texture="ui\\history\\histories\\H_P_Frederick the Greatl">
+      </entry>
+      <entry name="100678" historytext="100032" texture="ui\\history\\histories\\H_P_Suleiman the Magnificent">
+      </entry>
+      <entry name="100680" historytext="100033" texture="ui\\history\\histories\\H_P_Prince Henry the Navigator">
+      </entry>
+      <entry name="100679" historytext="100034" texture="ui\\history\\histories\\H_P_Ivan the Terrible">
+      </entry>
+      <entry name="100681" historytext="100035" texture="ui\\history\\histories\\H_P_Queen Isabella">
+      </entry>
+    </subcategory>
+  </category>
+  <category name="100682">
+    <subcategory name="100683">
+      <entry protoname="abusgun" name="31291" historytext="100037" unithelptext="100036" texture="ui\\history\\militaries\\M_A_Abus Gun">
+      </entry>
+      <entry protoname="culverin" name="22950" historytext="100039" unithelptext="100038" texture="ui\\history\\militaries\\M_A_Culverin">
+      </entry>
+      <entry protoname="falconet" name="22952" historytext="100041" unithelptext="100040" texture="ui\\history\\militaries\\M_A_Falconet">
+      </entry>
+      <entry protoname="greatbombard" name="23737" historytext="100043" unithelptext="100042" texture="ui\\history\\militaries\\M_A_Great Bombard">
+      </entry>
+      <entry protoname="grenadier" name="22958" historytext="100045" unithelptext="100044" texture="ui\\history\\militaries\\M_A_Grenadier">
+      </entry>
+      <entry protoname="cannon" name="22942" historytext="100047" unithelptext="100046" texture="ui\\history\\militaries\\M_A_Heavy Cannon">
+      </entry>
+      <entry protoname="mortar" name="22975" historytext="100049" unithelptext="100048" texture="ui\\history\\militaries\\M_A_Mortar">
+      </entry>
+      <entry protoname="organgun" name="23838" historytext="100051" unithelptext="100050" texture="ui\\history\\militaries\\M_A_Organ Gun">
+      </entry>
+      <entry protoname="rocket" name="24048" historytext="100053" unithelptext="100052" texture="ui\\history\\militaries\\M_A_Rocket">
+      </entry>
+    </subcategory>
+    <subcategory name="100684">
+      <entry protoname="cavalryarcher" name="100824" historytext="100055" unithelptext="100054" texture="ui\\history\\militaries\\M_C_CavalryArcher">
+      </entry>
+      <entry protoname="cossack" name="23656" historytext="100057" unithelptext="100056" texture="ui\\history\\militaries\\M_C_Cossack">
+      </entry>
+      <entry protoname="cuirassier" name="100825" historytext="100059" unithelptext="100058" texture="ui\\history\\militaries\\M_C_Cuirassier">
+      </entry>
+      <entry protoname="dragoon" name="100834" historytext="100061" unithelptext="100060" texture="ui\\history\\militaries\\M_C_Dragoon">
+      </entry>
+      <entry protoname="hussar" name="22948" historytext="100063" unithelptext="100062" texture="ui\\history\\militaries\\M_C_Hussar">
+      </entry>
+      <entry protoname="lancer" name="100826" historytext="100065" unithelptext="100064" texture="ui\\history\\militaries\\M_C_Lancer">
+      </entry>
+      <entry protoname="oprichnik" name="100827" historytext="100067" unithelptext="100066" texture="ui\\history\\militaries\\M_C_Oprichnik">
+      </entry>
+      <entry protoname="ruyter" name="100828" historytext="100069" unithelptext="100068" texture="ui\\history\\militaries\\M_C_Ruyter">
+      </entry>
+      <entry protoname="spahi" name="100829" historytext="100071" unithelptext="100070" texture="ui\\history\\militaries\\M_C_Spahi">
+      </entry>
+      <entry protoname="uhlan" name="22940" historytext="100073" unithelptext="100072" texture="ui\\history\\militaries\\M_C_Uhlan">
+      </entry>
+      <entry protoname="warwagon" name="100830" historytext="100075" unithelptext="100074" texture="ui\\history\\militaries\\M_C_WarWagon">
+      </entry>
+    </subcategory>
+    <subcategory name="100685">
+      <entry protoname="cacadore" name="100831" historytext="100077" unithelptext="100076" texture="ui\\history\\militaries\\M_I_Cassadore">
+      </entry>
+      <entry protoname="crossbowman" name="22938" historytext="100079" unithelptext="100078" texture="ui\\history\\militaries\\M_I_Crossbowman">
+      </entry>
+      <entry protoname="dopplesoldner" name="23836" historytext="100081" unithelptext="100080" texture="ui\\history\\militaries\\M_I_Dopplesoldner">
+      </entry>
+      <entry protoname="halberdier" name="100832" historytext="100083" unithelptext="100082" texture="ui\\history\\militaries\\M_I_Halberdier">
+      </entry>
+      <entry protoname="janissary" name="23735" historytext="100085" unithelptext="100084" texture="ui\\history\\militaries\\M_I_Janissary">
+      </entry>
+      <entry protoname="longbowman" name="22979" historytext="100087" unithelptext="100086" texture="ui\\history\\militaries\\M_I_Longbowman">
+      </entry>
+      <entry protoname="minuteman" name="23826" historytext="100089" unithelptext="100088" texture="ui\\history\\militaries\\M_I_Minuteman">
+      </entry>
+      <entry protoname="musketeer" name="22805" historytext="100091" unithelptext="100090" texture="ui\\history\\militaries\\M_I_Musketeer">
+      </entry>
+      <entry protoname="pikeman" name="22807" historytext="100093" unithelptext="100092" texture="ui\\history\\militaries\\M_I_Pikeman">
+      </entry>
+      <entry protoname="rodelero" name="22935" historytext="100095" unithelptext="100094" texture="ui\\history\\militaries\\M_I_Rodelero">
+      </entry>
+      <entry protoname="skirmisher" name="100833" historytext="100097" unithelptext="100096" texture="ui\\history\\militaries\\M_I_Skirmisher">
+      </entry>
+      <entry protoname="strelet" name="23658" historytext="100099" unithelptext="100098" texture="ui\\history\\militaries\\M_I_Strelet">
+      </entry>
+    </subcategory>
+    <subcategory name="100686">
+      <entry protoname="mercbarbarycorsair" name="27311" historytext="100120" unithelptext="100100" texture="ui\\history\\militaries\\M_M_BarbaryCorsair">
+      </entry>
+      <entry protoname="mercblackrider" name="25150" historytext="100121" unithelptext="100100" texture="ui\\history\\militaries\\M_M_BlackRider">
+      </entry>
+      <entry protoname="merchackapell" name="25179" historytext="100122" unithelptext="100100" texture="ui\\history\\militaries\\M_M_Hackapell">
+      </entry>
+      <entry protoname="merchighlander" name="24867" historytext="100123" unithelptext="100100" texture="ui\\history\\militaries\\M_M_Highlander">
+      </entry>
+      <entry protoname="mercjaeger" name="25174" historytext="100124" unithelptext="100100" texture="ui\\history\\militaries\\M_M_Jaeger">
+      </entry>
+      <entry protoname="merclandsknecht" name="24820" historytext="100125" unithelptext="100100" texture="ui\\history\\militaries\\M_M_Landsknecht">
+      </entry>
+      <entry protoname="mercmameluke" name="25140" historytext="100126" unithelptext="100100" texture="ui\\history\\militaries\\M_M_Mameluke">
+      </entry>
+      <entry protoname="mercmanchu" name="25160" historytext="100127" unithelptext="100100" texture="ui\\history\\militaries\\M_M_HorseArcher">
+      </entry>
+      <entry protoname="mercronin" name="25165" historytext="100128" unithelptext="100100" texture="ui\\history\\militaries\\M_M_Ronin">
+      </entry>
+      <entry protoname="privateer" name="27726" historytext="100129" unithelptext="100100" texture="ui\\history\\militaries\\M_M_Privateer">
+      </entry>
+      <entry protoname="mercstradiot" name="25145" historytext="100130" unithelptext="100100" texture="ui\\history\\militaries\\M_M_Stradiot">
+      </entry>
+      <entry protoname="mercswisspikeman" name="24824" historytext="100131" unithelptext="100100" texture="ui\\history\\militaries\\M_M_SwissPikeman">
+      </entry>
+    </subcategory>
+    <subcategory name="100687">
+      <entry protoname="nateaglewarrior" name="23523" historytext="100133" unithelptext="100132" texture="ui\\history\\militaries\\M_NAW_Aztec Eagle Warrior">
+      </entry>
+      <entry protoname="natjaguarwarrior" name="23521" historytext="100135" unithelptext="100134" texture="ui\\history\\militaries\\M_NAW_Aztec Jaguar Warrior">
+      </entry>
+      <entry protoname="natblowgunwarrior" name="24181" historytext="100137" unithelptext="100136" texture="ui\\history\\militaries\\M_NAW_Carib Blowgunner">
+      </entry>
+      <entry protoname="natrifleman" name="24183" historytext="100139" unithelptext="100138" texture="ui\\history\\militaries\\M_NAW_Cherokee Rifleman">
+      </entry>
+      <entry protoname="nathorsearcher" name="23525" historytext="100141" unithelptext="100140" texture="ui\\history\\militaries\\M_NAW_Comanche Horse Archer">
+      </entry>
+      <entry protoname="nattracker" name="24185" historytext="100143" unithelptext="100142" texture="ui\\history\\militaries\\M_NAW_Cree Tracker">
+      </entry>
+      <entry protoname="natbolaswarrior" name="24189" historytext="100145" unithelptext="100144" texture="ui\\history\\militaries\\M_NAW_Incan Bolas Warrior">
+      </entry>
+      <entry protoname="nathuaminca" name="24187" historytext="100147" unithelptext="100146" texture="ui\\history\\militaries\\M_NAW_Incan Huaminca">
+      </entry>
+      <entry protoname="natmantlet" name="23692" historytext="100149" unithelptext="100148" texture="ui\\history\\militaries\\M_NAW_Iroquois Mantlet">
+      </entry>
+      <entry protoname="nattomahawk" name="23601" historytext="100151" unithelptext="100150" texture="ui\\history\\militaries\\M_NAW_Iroquois Tomahawk">
+      </entry>
+      <entry protoname="nataxerider" name="24195" historytext="100159" unithelptext="100158" texture="ui\\history\\militaries\\M_NAW_Lakota Axe Rider">
+      </entry>
+      <entry protoname="natholcanspearman" name="24191" historytext="100153" unithelptext="100152" texture="ui\\history\\militaries\\M_NAW_Mayan Holcan Spearman">
+      </entry>
+      <entry protoname="natclubman" name="24193" historytext="100155" unithelptext="100154" texture="ui\\history\\militaries\\M_NAW_Nootka Clubman">
+      </entry>
+      <entry protoname="natsharktoothbowman" name="23599" historytext="100157" unithelptext="100156" texture="ui\\history\\militaries\\M_NAW_Seminole Sharktooth Bowman">
+      </entry>
+      <entry protoname="natblackwoodarcher" name="24197" historytext="100161" unithelptext="100160" texture="ui\\history\\militaries\\M_NAW_Tupi Blackwood Archer">
+      </entry>
+    </subcategory>
+    <subcategory name="100688">
+      <entry protoname="canoe" name="23694" historytext="100163" unithelptext="100162" texture="ui\\history\\militaries\\M_Sh_Canoe">
+      </entry>
+      <entry protoname="caravel" name="22826" historytext="100165" unithelptext="100164" texture="ui\\history\\militaries\\M_Sh_Caravel">
+      </entry>
+      <entry protoname="fluyt" name="27698" historytext="100167" unithelptext="100166" texture="ui\\history\\militaries\\M_Sh_Fluyt">
+      </entry>
+      <entry protoname="frigate" name="27684" historytext="100169" unithelptext="100168" texture="ui\\history\\militaries\\M_Sh_Frigate">
+      </entry>
+      <entry protoname="galleon" name="27705" historytext="100171" unithelptext="100170" texture="ui\\history\\militaries\\M_Sh_Galleon">
+      </entry>
+      <entry protoname="galley" name="27712" historytext="100173" unithelptext="100172" texture="ui\\history\\militaries\\M_Sh_Galley">
+      </entry>
+      <entry protoname="monitor" name="30923" historytext="100175" unithelptext="100174" texture="ui\\history\\militaries\\M_Sh_Monitor">
+      </entry>
+    </subcategory>
+    <subcategory name="100689">
+      <entry protoname="natblowgunambusher" name="33963" historytext="100179" unithelptext="100178" texture="ui\\history\\militaries\\M_Sp_Carib Ambusher">
+      </entry>
+      <entry protoname="explorer" name="22824" historytext="100181" unithelptext="100180" texture="ui\\history\\militaries\\M_Sp_Explorer">
+      </entry>
+      <entry protoname="explorerdog" name="28974" historytext="100183" unithelptext="100182" texture="ui\\history\\militaries\\M_Sp_Explorer Dog">
+      </entry>
+      <entry protoname="nataxeriderdogsoldier" name="30326" historytext="100185" unithelptext="100184" texture="ui\\history\\militaries\\M_Sp_Lakota Dog Soldier">
+      </entry>
+      <entry protoname="natclubmanloyal" name="33944" historytext="100155" unithelptext="100186" texture="ui\\history\\militaries\\M_Sp_Nootka War Chief">
+      </entry>
+      <entry protoname="outlawblowgunner" name="29183" historytext="100188" unithelptext="100176" texture="ui\\history\\militaries\\M_Sp_Outlaw Blowgunner">
+      </entry>
+      <entry protoname="outlawpistol" name="35421" historytext="100189" unithelptext="100176" texture="ui\\history\\militaries\\M_Sp_Outlaw Pistolero">
+      </entry>
+      <entry protoname="outlawrider" name="29169" historytext="100190" unithelptext="100176" texture="ui\\history\\militaries\\M_Sp_Outlaw Rider">
+      </entry>
+      <entry protoname="outlawrifleman" name="29190" historytext="100191" unithelptext="100176" texture="ui\\history\\militaries\\M_Sp_Outlaw Rifleman">
+      </entry>
+      <entry protoname="pirate" name="29650" historytext="100192" unithelptext="100176" texture="ui\\history\\militaries\\M_Sp_Pirate">
+      </entry>
+      <entry protoname="wardog" name="25043" historytext="100194" unithelptext="100193" texture="ui\\history\\militaries\\M_Sp_WarDog">
+      </entry>
+    </subcategory>
+  </category>
+  <category name="100690">
+    <subcategory name="100691">
+      <entry protoname="coureur" name="25038" historytext="100196" unithelptext="100195" texture="ui\\history\\civilians\\C_G_Coureur des Bois">
+      </entry>
+      <entry protoname="fishingboat" name="22962" historytext="100198" unithelptext="100197" texture="ui\\history\\civilians\\C_G_Fishing Boat">
+      </entry>
+      <entry protoname="settler" name="22806" historytext="100220" unithelptext="100199" texture="ui\\history\\civilians\\C_G_Settler">
+      </entry>
+      <entry protoname="settlerwagon" name="30679" historytext="100222" unithelptext="100221" texture="ui\\history\\civilians\\C_G_Settler Wagon">
+      </entry>
+    </subcategory>
+    <subcategory name="100692">
+      <entry protoname="imam" name="26226" historytext="100224" unithelptext="100223" texture="ui\\history\\civilians\\C_H_Imam">
+      </entry>
+      <entry protoname="natmedicineman" name="36735" historytext="100226" unithelptext="100225" texture="ui\\history\\civilians\\C_H_Medicine Man">
+      </entry>
+      <entry protoname="missionary" name="25340" historytext="100228" unithelptext="100227" texture="ui\\history\\civilians\\C_H_Missionary">
+      </entry>
+      <entry protoname="priest" name="22954" historytext="100230" unithelptext="100229" texture="ui\\history\\civilians\\C_H_Priest">
+      </entry>
+      <entry protoname="surgeon" name="26218" historytext="100232" unithelptext="100231" texture="ui\\history\\civilians\\C_H_Surgeon">
+      </entry>
+    </subcategory>
+    <subcategory name="100693">
+      <entry protoname="coveredwagon" name="27330" historytext="100234" unithelptext="100233" texture="ui\\history\\civilians\\C_S_Covered Wagon">
+      </entry>
+      <entry protoname="envoy" name="22973" historytext="100236" unithelptext="100235" texture="ui\\history\\civilians\\C_S_Envoy">
+      </entry>
+      <entry protoname="hotairballoon" name="29591" historytext="100238" unithelptext="100237" texture="ui\\history\\civilians\\C_S_Hot Air Balloon">
+      </entry>
+      <entry protoname="nativescout" name="29664" historytext="100242" unithelptext="100241" texture="ui\\history\\civilians\\C_S_Native Scout">
+      </entry>
+      <entry protoname="stagecoach" name="29379" historytext="100244" unithelptext="100243" texture="ui\\history\\civilians\\C_S_Stage Coach">
+      </entry>
+      <entry protoname="traincaboose" name="100855" historytext="100246" unithelptext="100245" texture="ui\\history\\civilians\\C_S_Train_Caboose">
+      </entry>
+      <entry protoname="traincoalcar" name="23041" unithelptext="100250">
+      </entry>
+      <entry protoname="trainengine" name="100856" historytext="100247" unithelptext="100245" texture="ui\\history\\civilians\\C_S_Train_Engine">
+      </entry>
+      <entry name="100694" historytext="100248" unithelptext="100245" texture="ui\\history\\civilians\\C_S_Train_Freight Car">
+      </entry>
+      <entry protoname="traincar" name="100857" historytext="100249" unithelptext="100245" texture="ui\\history\\civilians\\C_S_Train_Passenger Car">
+      </entry>
+      <entry protoname="travois" name="29375" historytext="100252" unithelptext="100251" texture="ui\\history\\civilians\\C_S_Travois">
+      </entry>
+      <entry protoname="nugget" name="24915" historytext="100254" unithelptext="100253" texture="ui\\history\\civilians\\C_S_Treasure">
+      </entry>
+      <entry protoname="nuggetabandonedcabin" unithelptext="100853">
+      </entry>
+      <entry protoname="nuggetbearcampsite" unithelptext="100853">
+      </entry>
+      <entry protoname="nuggetbeartree" unithelptext="100853">
+      </entry>
+      <entry protoname="nuggetbeaver" unithelptext="100853">
+      </entry>
+      <entry protoname="nuggetcave" unithelptext="100853">
+      </entry>
+      <entry protoname="nuggetcoveredwagon" unithelptext="100853">
+      </entry>
+      <entry protoname="nuggetdroppedcoin" unithelptext="100853">
+      </entry>
+      <entry protoname="nuggetdroppedfood" unithelptext="100853">
+      </entry>
+      <entry protoname="nuggetdroppedwood" unithelptext="100853">
+      </entry>
+      <entry protoname="nuggetkidnap" unithelptext="100853">
+      </entry>
+      <entry protoname="nuggetkidnapbrit" unithelptext="100853">
+      </entry>
+      <entry protoname="nuggetnavigationchart" unithelptext="100853">
+      </entry>
+      <entry protoname="nuggetpirate" unithelptext="100853">
+      </entry>
+      <entry protoname="nuggetwolfmissionary" unithelptext="100853">
+      </entry>
+      <entry protoname="nuggetwolfrock" unithelptext="100853">
+      </entry>
+      <entry protoname="nuggetwolftreebent" unithelptext="100853">
+      </entry>
+      <entry protoname="nuggetwolfwagon" unithelptext="100853">
+      </entry>
+      <entry protoname="church" unithelptext="100852">
+      </entry>
+      <entry protoname="crateofcoin" unithelptext="100525">
+      </entry>
+      <entry protoname="crateofcoinlarge" unithelptext="100526">
+      </entry>
+      <entry protoname="crateoffood" unithelptext="100527">
+      </entry>
+      <entry protoname="crateoffoodlarge" unithelptext="100528">
+      </entry>
+      <entry protoname="crateofwood" unithelptext="100529">
+      </entry>
+      <entry protoname="crateofwoodlarge" unithelptext="100530">
+      </entry>
+      <entry protoname="coureurcree" unithelptext="100637">
+      </entry>
+      <entry protoname="fluffy" name="100877" unithelptext="100878">
+      </entry>
+      <entry protoname="houseeast" unithelptext="100850">
+      </entry>
+      <entry protoname="housemed" unithelptext="100850">
+      </entry>
+      <entry protoname="learicorn" name="32356" unithelptext="100240">
+      </entry>
+      <entry protoname="nativevillager" name="24837" unithelptext="100854">
+      </entry>
+      <entry protoname="socketaztec" unithelptext="100531">
+      </entry>
+      <entry protoname="socketcaribs" unithelptext="100532">
+      </entry>
+      <entry protoname="socketcherokee" unithelptext="100533">
+      </entry>
+      <entry protoname="socketcomanche" unithelptext="100534">
+      </entry>
+      <entry protoname="socketcree" unithelptext="100535">
+      </entry>
+      <entry protoname="socketinca" unithelptext="100536">
+      </entry>
+      <entry protoname="socketiroquois" unithelptext="100537">
+      </entry>
+      <entry protoname="socketlakota" unithelptext="100538">
+      </entry>
+      <entry protoname="socketmaya" unithelptext="100539">
+      </entry>
+      <entry protoname="socketnootka" unithelptext="100540">
+      </entry>
+      <entry protoname="socketseminole" unithelptext="100541">
+      </entry>
+      <entry protoname="sockettraderoute" unithelptext="100542">
+      </entry>
+      <entry protoname="sockettupi" unithelptext="100543">
+      </entry>
+      <entry protoname="petbear" unithelptext="100387">
+      </entry>
+      <entry protoname="petcougar" unithelptext="100621">
+      </entry>
+      <entry protoname="petcoyote" unithelptext="100622">
+      </entry>
+      <entry protoname="petgrizzly" unithelptext="100623">
+      </entry>
+      <entry protoname="petjaguar" unithelptext="100624">
+      </entry>
+      <entry protoname="petpolarbear" unithelptext="100625">
+      </entry>
+      <entry protoname="petwolf" unithelptext="100626">
+      </entry>
+      <entry protoname="treebayoumarsh" unithelptext="100627">
+      </entry>
+      <entry protoname="treecarolinamarsh" unithelptext="100628">
+      </entry>
+      <entry protoname="treegreatlakessnow" unithelptext="100629">
+      </entry>
+      <entry protoname="treepatagoniasnow" unithelptext="100630">
+      </entry>
+      <entry protoname="treerockiessnow" unithelptext="100631">
+      </entry>
+      <entry protoname="treetexasdirt" unithelptext="100632">
+      </entry>
+      <entry protoname="treeyukonsnow" unithelptext="100633">
+      </entry>
+      <entry protoname="traincarcoin" unithelptext="100634">
+      </entry>
+      <entry protoname="traincarfood" unithelptext="100634">
+      </entry>
+      <entry protoname="traincarwood" unithelptext="100634">
+      </entry>
+      <entry protoname="outpostwagon" unithelptext="100820">
+      </entry>
+      <entry protoname="fortwagon" unithelptext="100821">
+      </entry>
+      <entry protoname="factorywagon" unithelptext="100822">
+      </entry>
+      <entry protoname="wallstraight2" unithelptext="100635">
+      </entry>
+      <entry protoname="wallstraight3" unithelptext="100635">
+      </entry>
+      <entry protoname="wallstraight4" unithelptext="100635">
+      </entry>
+      <entry protoname="wallstraight5" unithelptext="100635">
+      </entry>
+      <entry protoname="wallconnector" unithelptext="100635">
+      </entry>
+    </subcategory>
+  </category>
+  <category name="100695">
+    <subcategory name="100695">
+      <entry protoname="arsenal" name="22924" historytext="100256" unithelptext="100255" texture="ui\\history\\buildings\\B_Arsenal">
+      </entry>
+      <entry protoname="artillerydepot" name="22922" historytext="100258" unithelptext="100257" texture="ui\\history\\buildings\\B_Artillery Foundry">
+      </entry>
+      <entry protoname="bank" name="23708" historytext="100260" unithelptext="100259" texture="ui\\history\\buildings\\B_Bank">
+      </entry>
+      <entry protoname="barracks" name="22847" historytext="100262" unithelptext="100261" texture="ui\\history\\buildings\\B_Barracks">
+      </entry>
+      <entry protoname="blockhouse" name="23634" historytext="100264" unithelptext="100263" texture="ui\\history\\buildings\\B_Blockhouse">
+      </entry>
+      <entry protoname="capitol" name="30241" historytext="100266" unithelptext="100265" texture="ui\\history\\buildings\\B_Capitol">
+      </entry>
+      <entry name="22928" historytext="100268" unithelptext="100267" texture="ui\\history\\buildings\\B_Church">
+      </entry>
+      <entry protoname="dock" name="22914" historytext="100270" unithelptext="100269" texture="ui\\history\\buildings\\B_Dock">
+      </entry>
+      <entry protoname="factory" name="23986" historytext="100274" unithelptext="100273" texture="ui\\history\\buildings\\B_Factory">
+      </entry>
+      <entry protoname="FieldHospital" name="29733" historytext="100276" unithelptext="100275" texture="ui\\history\\buildings\\B_Field Hospital">
+      </entry>
+      <entry protoname="FortFrontier" name="25270" historytext="100278" unithelptext="100277" texture="ui\\history\\buildings\\B_Fort">
+      </entry>
+      <entry protoname="cwallgate" name="29634" historytext="100280" unithelptext="100279" texture="ui\\history\\buildings\\B_Gate">
+      </entry>
+      <entry protoname="house" name="22839" historytext="100282" unithelptext="100281" texture="ui\\history\\buildings\\B_House">
+      </entry>
+      <entry protoname="livestockpen" name="29032" historytext="100284" unithelptext="100283" texture="ui\\history\\buildings\\B_Livestock Pen">
+      </entry>
+      <entry protoname="manor" name="30633" historytext="100286" unithelptext="100285" texture="ui\\history\\buildings\\B_Manor House">
+      </entry>
+      <entry protoname="market" name="26749" historytext="100288" unithelptext="100287" texture="ui\\history\\buildings\\B_Market">
+      </entry>
+      <entry protoname="mill" name="22804" historytext="100290" unithelptext="100289" texture="ui\\history\\buildings\\B_Mill">
+      </entry>
+      <entry name="100696" historytext="100640" unithelptext="100267" texture="ui\\history\\buildings\\B_Mosque">
+      </entry>
+      <entry protoname="outpost" name="26307" historytext="100292" unithelptext="100291" texture="ui\\history\\buildings\\B_Outpost">
+      </entry>
+      <entry protoname="plantation" name="26042" historytext="100294" unithelptext="100293" texture="ui\\history\\buildings\\B_Plantation">
+      </entry>
+      <entry protoname="stable" name="22919" historytext="100296" unithelptext="100295" texture="ui\\history\\buildings\\B_Stable">
+      </entry>
+      <entry protoname="towncenter" name="22841" historytext="100298" unithelptext="100297" texture="ui\\history\\buildings\\B_Town Center">
+      </entry>
+      <entry protoname="tradingpost" name="22837" historytext="100300" unithelptext="100299" texture="ui\\history\\buildings\\B_Trading Post">
+      </entry>
+      <entry protoname="wallstraight1" name="24924" historytext="100321" unithelptext="100320" texture="ui\\history\\buildings\\B_Wall">
+      </entry>
+    </subcategory>
+  </category>
+  <category name="100697">
+    <subcategory name="100698">
+      <entry name="100699" historytext="100323" unithelptext="35936" texture="ui\\history\\geography\\G_M_Amazonia">
+      </entry>
+      <entry name="100700" historytext="100325" unithelptext="35941" texture="ui\\history\\geography\\G_M_Everglades">
+      </entry>
+      <entry name="100720" historytext="100327" unithelptext="35939" texture="ui\\history\\geography\\G_M_Caribbean">
+      </entry>
+      <entry name="100721" historytext="100329" unithelptext="35940" texture="ui\\history\\geography\\G_M_Carolina">
+      </entry>
+      <entry name="100722" historytext="100331" unithelptext="35942" texture="ui\\history\\geography\\G_M_Great_Lakes">
+      </entry>
+      <entry name="100723" historytext="100333" unithelptext="35943" texture="ui\\history\\geography\\G_M_Great_Plains">
+      </entry>
+      <entry name="100724" historytext="100335" unithelptext="35944" texture="ui\\history\\geography\\G_M_New_England">
+      </entry>
+      <entry name="100725" historytext="100337" unithelptext="35946" texture="ui\\history\\geography\\G_M_Pampas">
+      </entry>
+      <entry name="100726" historytext="100339" unithelptext="35947" texture="ui\\history\\geography\\G_M_Patagonia">
+      </entry>
+      <entry name="100727" historytext="100341" unithelptext="35948" texture="ui\\history\\geography\\G_M_Rockies">
+      </entry>
+      <entry name="100728" historytext="100343" unithelptext="35949" texture="ui\\history\\geography\\G_M_Saguenay">
+      </entry>
+      <entry name="100729" historytext="100345" unithelptext="35950" texture="ui\\history\\geography\\G_M_Sonora">
+      </entry>
+      <entry name="100730" historytext="100347" unithelptext="35876" texture="ui\\history\\geography\\G_M_Texas">
+      </entry>
+      <entry name="100731" historytext="100349" unithelptext="35951" texture="ui\\history\\geography\\G_M_Yucatan">
+      </entry>
+      <entry name="100732" historytext="100351" unithelptext="35952" texture="ui\\history\\geography\\G_M_Yukon">
+      </entry>
+    </subcategory>
+    <subcategory name="100733">
+      <entry protoname="alligator" name="29646" historytext="100359" unithelptext="100354" texture="ui\\history\\geography\\G_R_Alligator">
+      </entry>
+      <entry protoname="berrybush" name="30221" historytext="100363" unithelptext="100362" texture="ui\\history\\geography\\G_R_BerryBush">
+      </entry>
+      <entry protoname="bighornsheep" name="26520" historytext="100364" unithelptext="100356" texture="ui\\history\\geography\\G_R_Bighorn Sheep">
+      </entry>
+      <entry protoname="bison" name="22832" historytext="100365" unithelptext="100356" texture="ui\\history\\geography\\G_R_Bison">
+      </entry>
+      <entry protoname="blackbear" name="26174" historytext="100366" unithelptext="100354" texture="ui\\history\\geography\\G_R_Black Bear">
+      </entry>
+      <entry protoname="capybara" name="26053" historytext="100367" unithelptext="100356" texture="ui\\history\\geography\\G_R_Capybara">
+      </entry>
+      <entry protoname="caribou" name="26292" historytext="100368" unithelptext="100356" texture="ui\\history\\geography\\G_R_Caribou">
+      </entry>
+      <entry protoname="cougar" name="26516" historytext="100369" unithelptext="100354" texture="ui\\history\\geography\\G_R_Cougar">
+      </entry>
+      <entry protoname="cow" name="28186" historytext="100370" unithelptext="100355" texture="ui\\history\\geography\\G_R_Cows">
+      </entry>
+      <entry protoname="coyote" name="28716" historytext="100371" unithelptext="100354" texture="ui\\history\\geography\\G_R_Wolf">
+      </entry>
+      <entry name="100734" historytext="100372" unithelptext="100352" texture="ui\\history\\geography\\G_R_Crates">
+      </entry>
+      <entry protoname="deer" name="26178" historytext="100373" unithelptext="100356" texture="ui\\history\\geography\\G_R_Deer">
+      </entry>
+      <entry protoname="elk" name="24861" historytext="100374" unithelptext="100356" texture="ui\\history\\geography\\G_R_Elk">
+      </entry>
+      <entry protoname="fishbass" name="100861" historytext="100870" unithelptext="100353" texture="ui\\history\\geography\\G_R_Fish_Bass">
+      </entry>
+      <entry protoname="fishcod" name="100862" historytext="100375" unithelptext="100353" texture="ui\\history\\geography\\G_R_Fish Cod">
+      </entry>
+      <entry protoname="fishmahi" name="100863" historytext="100871" unithelptext="100353" texture="ui\\history\\geography\\G_R_Fish Mahi">
+      </entry>
+      <entry protoname="fishsalmon" name="100865" historytext="100376" unithelptext="100353" texture="ui\\history\\geography\\G_R_Fish Salmon">
+      </entry>
+      <entry protoname="fishsardine" name="100866" historytext="100873" unithelptext="100353" texture="ui\\history\\geography\\G_R_Fish Sardine">
+      </entry>
+      <entry protoname="fishtarpon" name="100867" historytext="100874" unithelptext="100353" texture="ui\\history\\geography\\G_R_Fish Tarpon">
+      </entry>
+      <entry protoname="grizzlybear" name="24864" historytext="100377" unithelptext="100354" texture="ui\\history\\geography\\G_R_Grizzly Bear">
+      </entry>
+      <entry protoname="horse" name="28237" historytext="100379" unithelptext="100378" texture="ui\\history\\geography\\G_R_Horse">
+      </entry>
+      <entry protoname="jaguar" name="25958" historytext="100380" unithelptext="100354" texture="ui\\history\\geography\\G_R_Jaguar">
+      </entry>
+      <entry protoname="llama" name="35085" historytext="100382" unithelptext="100355" texture="ui\\history\\geography\\G_R_Llama">
+      </entry>
+      <entry protoname="minegold" name="100875" historytext="100383" unithelptext="100357" texture="ui\\history\\geography\\G_R_Mine Gold">
+      </entry>
+      <entry protoname="mine" name="100876" historytext="100384" unithelptext="100357" texture="ui\\history\\geography\\G_R_Mine Silver">
+      </entry>
+      <entry protoname="moose" name="26507" historytext="100385" unithelptext="100356" texture="ui\\history\\geography\\G_R_Moose">
+      </entry>
+      <entry protoname="muskox" name="26510" historytext="100386" unithelptext="100356" texture="ui\\history\\geography\\G_R_Musk Ox">
+      </entry>
+      <entry protoname="polarbear" name="24983" historytext="100388" unithelptext="100354" texture="ui\\history\\geography\\G_R_Polar Bear">
+      </entry>
+      <entry protoname="pronghorn" name="23643" historytext="100389" unithelptext="100356" texture="ui\\history\\geography\\G_R_Pronghorn">
+      </entry>
+      <entry protoname="rhea" name="28615" historytext="100390" unithelptext="100356" texture="ui\\history\\geography\\G_R_Rhea">
+      </entry>
+      <entry protoname="sheep" name="22829" historytext="100391" unithelptext="100355" texture="ui\\history\\geography\\G_R_Sheep">
+      </entry>
+      <entry protoname="tapir" name="25962" historytext="100392" unithelptext="100356" texture="ui\\history\\geography\\G_R_Tapir">
+      </entry>
+      <entry protoname="treeamazon" name="100835" historytext="100393" unithelptext="100358" texture="ui\\history\\geography\\G_R_Tree Amazon">
+      </entry>
+      <entry protoname="treebayou" name="100836" historytext="100394" unithelptext="100358" texture="ui\\history\\geography\\G_R_Tree Bayou">
+      </entry>
+      <entry protoname="treecaribbean" name="100837" historytext="100395" unithelptext="100358" texture="ui\\history\\geography\\G_R_Tree Caribbean">
+      </entry>
+      <entry protoname="treecarolinagrass" name="100838" historytext="100396" unithelptext="100358" texture="ui\\history\\geography\\G_R_Tree Carolina">
+      </entry>
+      <entry protoname="treegreatlakes" name="100839" historytext="100397" unithelptext="100358" texture="ui\\history\\geography\\G_R_Tree Great Lakes">
+      </entry>
+      <entry protoname="treegreatplains" name="100840" historytext="100398" unithelptext="100358" texture="ui\\history\\geography\\G_R_Tree Great Plains">
+      </entry>
+      <entry protoname="treenewengland" name="100841" historytext="100399" unithelptext="100358" texture="ui\\history\\geography\\G_R_Tree New England">
+      </entry>
+      <entry protoname="treepampas" name="100842" historytext="100420" unithelptext="100358" texture="ui\\history\\geography\\G_R_Tree Pampas">
+      </entry>
+      <entry protoname="treepatagoniadirt" name="100843" historytext="100421" unithelptext="100358" texture="ui\\history\\geography\\G_R_Tree Patagonia">
+      </entry>
+      <entry protoname="treerockies" name="100844" historytext="100422" unithelptext="100358" texture="ui\\history\\geography\\G_R_Tree Rockies">
+      </entry>
+      <entry protoname="treesaguenay" name="100845" historytext="100423" unithelptext="100358" texture="ui\\history\\geography\\G_R_Tree Saguenay">
+      </entry>
+      <entry protoname="treesonora" name="100846" historytext="100424" unithelptext="100358" texture="ui\\history\\geography\\G_R_Tree Sonora">
+      </entry>
+      <entry protoname="treetexas" name="100847" historytext="100425" unithelptext="100358" texture="ui\\history\\geography\\G_R_Tree Texas">
+      </entry>
+      <entry protoname="treeyucatan" name="100848" historytext="100426" unithelptext="100358" texture="ui\\history\\geography\\G_R_Tree Yucatan">
+      </entry>
+      <entry protoname="treeyukon" name="100849" historytext="100427" unithelptext="100358" texture="ui\\history\\geography\\G_R_Tree Yukon">
+      </entry>
+      <entry protoname="turkey" name="27054" historytext="100428" unithelptext="100356" texture="ui\\history\\geography\\G_R_Turkey">
+      </entry>
+      <entry protoname="beluga" name="100858" historytext="100361" unithelptext="100360" texture="ui\\history\\geography\\G_R_Beluga">
+      </entry>
+      <entry protoname="humpbackwhale" name="100859" historytext="100868" unithelptext="100360" texture="ui\\history\\geography\\G_R_Humpback">
+      </entry>
+      <entry protoname="minkewhale" name="100860" historytext="100869" unithelptext="100360" texture="ui\\history\\geography\\G_R_Minke">
+      </entry>
+      <entry protoname="wolf" name="28233" historytext="100429" unithelptext="100354" texture="ui\\history\\geography\\G_R_Wolf">
+      </entry>
+    </subcategory>
+  </category>
+  <category name="100735">
+    <subcategory name="100736">
+      <entry protoname="spcalain" name="100737" historytext="100431" unithelptext="100430" texture="ui\\history\\campaign_heroes\\CH_AI_Alain">
+      </entry>
+      <entry protoname="spcdelgado" name="100738" historytext="100433" unithelptext="100432" texture="ui\\history\\campaign_heroes\\CH_AI_Delgado">
+      </entry>
+      <entry protoname="spclizzie" name="100739" historytext="100435" unithelptext="100434" texture="ui\\history\\campaign_heroes\\CH_AI_Lizzie">
+      </entry>
+      <entry protoname="spcmorgan" name="100740" historytext="100437" unithelptext="100436" texture="ui\\history\\campaign_heroes\\CH_AI_Morgan">
+      </entry>
+      <entry protoname="spcsahin" name="100741" historytext="100439" unithelptext="100438" texture="ui\\history\\campaign_heroes\\CH_AI_Sahin">
+      </entry>
+    </subcategory>
+    <subcategory name="100742">
+      <entry protoname="spcjohn" name="100743" historytext="100441" unithelptext="100440" texture="ui\\history\\campaign_heroes\\CH_AII_John">
+      </entry>
+      <entry protoname="spckanyenke" name="100744" historytext="100443" unithelptext="100442" texture="ui\\history\\campaign_heroes\\CH_AII_Kanyenke">
+      </entry>
+      <entry protoname="spcnonahkee" name="100745" historytext="100445" unithelptext="100444" texture="ui\\history\\campaign_heroes\\CH_AII_Nonakee">
+      </entry>
+      <entry protoname="spcstuart" name="100746" historytext="100447" unithelptext="100446" texture="ui\\history\\campaign_heroes\\CH_AII_Stuart">
+      </entry>
+      <entry protoname="spcwarwick" name="100747" historytext="100449" unithelptext="100448" texture="ui\\history\\campaign_heroes\\CH_AII_Warwick">
+      </entry>
+      <entry protoname="spcwashington" name="100748" historytext="100451" unithelptext="100450" texture="ui\\history\\campaign_heroes\\CH_AII_Washington">
+      </entry>
+    </subcategory>
+    <subcategory name="100749">
+      <entry protoname="spcamelia" name="100750" historytext="100453" unithelptext="100452" texture="ui\\history\\campaign_heroes\\CH_AIII_Amelia">
+      </entry>
+      <entry protoname="spcbeaumont" name="100751" historytext="100455" unithelptext="100454" texture="ui\\history\\campaign_heroes\\CH_AIII_Beaumont">
+      </entry>
+      <entry protoname="spcbolivar" name="100752" historytext="100457" unithelptext="100456" texture="ui\\history\\campaign_heroes\\CH_AIII_Bolivar">
+      </entry>
+      <entry protoname="spccooper" name="100753" historytext="100459" unithelptext="100458" texture="ui\\history\\campaign_heroes\\CH_AIII_Cooper">
+      </entry>
+      <entry protoname="spcalain2" unithelptext="100851">
+      </entry>
+      <entry protoname="spcaztecchief" unithelptext="100544">
+      </entry>
+      <entry protoname="spcaztectemple" unithelptext="100546">
+      </entry>
+      <entry protoname="boneguard" unithelptext="100547">
+      </entry>
+      <entry protoname="boneguardage2" unithelptext="100548">
+      </entry>
+      <entry protoname="spcbuccaneer" unithelptext="100636">
+      </entry>
+      <entry protoname="spcbuccaptain" unithelptext="100177">
+      </entry>
+      <entry protoname="spccherokeearcher" unithelptext="100549">
+      </entry>
+      <entry protoname="spccherokeehorsearcher" unithelptext="100550">
+      </entry>
+      <entry protoname="spccherokeewarhut" unithelptext="100551">
+      </entry>
+      <entry protoname="SPCChiefDaughter" unithelptext="100553">
+      </entry>
+      <entry protoname="rockbridgedead" unithelptext="100554">
+      </entry>
+      <entry protoname="SPCDinghy" unithelptext="100555">
+      </entry>
+      <entry protoname="spcdrydock" unithelptext="100556">
+      </entry>
+      <entry protoname="spcfiercecougar" unithelptext="100621">
+      </entry>
+      <entry protoname="spcfireship" unithelptext="100557">
+      </entry>
+      <entry protoname="spcfixedgun" unithelptext="100558">
+      </entry>
+      <entry protoname="spcfixedgunruins" unithelptext="100559">
+      </entry>
+      <entry protoname="spcfortcenter" unithelptext="100560">
+      </entry>
+      <entry protoname="spcfortcorner" unithelptext="100561">
+      </entry>
+      <entry protoname="spcfortgate" unithelptext="100562">
+      </entry>
+      <entry protoname="spcforttower" unithelptext="100563">
+      </entry>
+      <entry protoname="spcfortwallbarracks" unithelptext="100564">
+      </entry>
+      <entry protoname="spcfortwalllarge" unithelptext="100565">
+      </entry>
+      <entry protoname="spcfortwallmedium" unithelptext="100566">
+      </entry>
+      <entry protoname="spcfortwallsmall" unithelptext="100567">
+      </entry>
+      <entry protoname="spcfortwallstable" unithelptext="100568">
+      </entry>
+      <entry protoname="spcfountainofyouth" unithelptext="100569">
+      </entry>
+      <entry protoname="spcfrigate" unithelptext="100570">
+      </entry>
+      <entry protoname="russiancannon" unithelptext="100571">
+      </entry>
+      <entry protoname="spcgreatplainschief" unithelptext="100572">
+      </entry>
+      <entry protoname="spchoopthrowers" unithelptext="100574">
+      </entry>
+      <entry protoname="spcincaoutpost" unithelptext="100575">
+      </entry>
+      <entry protoname="spcincatemple" unithelptext="100576">
+      </entry>
+      <entry protoname="nativehouseiroquoisspc" unithelptext="100577">
+      </entry>
+      <entry protoname="spclizzieflagship" unithelptext="100578">
+      </entry>
+      <entry protoname="spcmine" unithelptext="100579">
+      </entry>
+      <entry protoname="miner" unithelptext="100580">
+      </entry>
+      <entry protoname="spcmorganflagship" unithelptext="100581">
+      </entry>
+      <entry protoname="spcnativeboy" unithelptext="100582">
+      </entry>
+      <entry protoname="spcoldkanyenke" unithelptext="100583">
+      </entry>
+      <entry protoname="spcossuary" unithelptext="100823">
+      </entry>
+      <entry protoname="SPCRailroadWorker" unithelptext="100584">
+      </entry>
+      <entry protoname="rockbridgeleft" unithelptext="100585">
+      </entry>
+      <entry protoname="rockbridgemiddle" unithelptext="100585">
+      </entry>
+      <entry protoname="rockbridgeright" unithelptext="100585">
+      </entry>
+      <entry protoname="spcspanishshipruins" unithelptext="100586">
+      </entry>
+      <entry protoname="spcsignalfire" unithelptext="100879">
+      </entry>
+      <entry protoname="spcstockades" unithelptext="100587">
+      </entry>
+      <entry protoname="spctentlarge" unithelptext="100588">
+      </entry>
+      <entry protoname="spctreasureship" unithelptext="100589">
+      </entry>
+      <entry protoname="spctreasureship2" unithelptext="100638">
+      </entry>
+      <entry protoname="spcwagonall" unithelptext="100590">
+      </entry>
+      <entry protoname="spcwagongold" unithelptext="100591">
+      </entry>
+      <entry protoname="spcwagonfood" unithelptext="100592">
+      </entry>
+      <entry protoname="spcwagonwood" unithelptext="100593">
+      </entry>
+      <entry protoname="spcweaponscache" unithelptext="100595">
+      </entry>
+      <entry protoname="spcwhitebuffalo" unithelptext="100596">
+      </entry>
+      <entry protoname="whitejaguar" unithelptext="100597">
+      </entry>
+      <entry protoname="whitejaguarguard" unithelptext="100598">
+      </entry>
+      <entry protoname="whitewolf" unithelptext="100599">
+      </entry>
+      <entry protoname="whitewolfguard" unithelptext="100620">
+      </entry>
+    </subcategory>
+  </category>
+  <category name="100754">
+    <subcategory name="100754">
+      <entry name="100755" historytext="100460" texture="ui\\history\\glossary\\G_Ages">
+      </entry>
+      <entry name="100756" historytext="100461" texture="ui\\history\\glossary\\G_AI">
+      </entry>
+      <entry name="100758" historytext="100463" texture="ui\\history\\glossary\\G_Artillery">
+      </entry>
+      <entry name="100759" historytext="100464" texture="ui\\history\\glossary\\G_Black Map">
+      </entry>
+      <entry name="100761" historytext="100466" texture="ui\\history\\glossary\\G_Campaign">
+      </entry>
+      <entry name="100762" historytext="100467" texture="ui\\history\\glossary\\G_Cavalry">
+      </entry>
+      <entry name="100757" historytext="100462" texture="ui\\history\\glossary\\G_AI Personalities">
+      </entry>
+      <entry name="100774" historytext="100479" texture="ui\\history\\glossary\\G_Customization">
+      </entry>
+      <entry name="100763" historytext="100468" texture="ui\\history\\glossary\\G_Deathmatch">
+      </entry>
+      <entry name="100764" historytext="100469" texture="ui\\history\\glossary\\G_Decks and Cards">
+      </entry>
+      <entry name="100765" historytext="100470" texture="ui\\history\\glossary\\G_ESO">
+      </entry>
+      <entry name="100766" historytext="100471" texture="ui\\history\\glossary\\G_Experience">
+      </entry>
+      <entry name="100767" historytext="100472" texture="ui\\history\\glossary\\G_Explorer">
+      </entry>
+      <entry name="100768" historytext="100473" texture="ui\\history\\glossary\\G_Explorer Death Model">
+      </entry>
+      <entry name="100769" historytext="100474" texture="ui\\history\\glossary\\G_Fog of War">
+      </entry>
+      <entry name="100770" historytext="100475" texture="ui\\history\\glossary\\G_Gatherers">
+      </entry>
+      <entry name="100771" historytext="100476" texture="ui\\history\\glossary\\G_Hand Attack">
+      </entry>
+      <entry name="100772" historytext="100477" texture="ui\\history\\glossary\\G_Hitpoints">
+      </entry>
+      <entry name="100773" historytext="100478" texture="ui\\history\\glossary\\G_Home City">
+      </entry>
+      <entry name="100775" historytext="100480" texture="ui\\history\\glossary\\G_Improvements">
+      </entry>
+      <entry name="100776" historytext="100481" texture="ui\\history\\glossary\\G_Infantry">
+      </entry>
+      <entry name="100777" historytext="100482" texture="ui\\history\\glossary\\G_Line of Sight">
+      </entry>
+      <entry name="100778" historytext="100483" texture="ui\\history\\glossary\\G_Map">
+      </entry>
+      <entry name="100779" historytext="100484" texture="ui\\history\\glossary\\G_Mini Map">
+      </entry>
+      <entry name="100780" historytext="100485" texture="ui\\history\\glossary\\G_Multiplayer">
+      </entry>
+      <entry name="100781" historytext="100486" texture="ui\\history\\glossary\\G_Native Americans">
+      </entry>
+      <entry name="100782" historytext="100487" texture="ui\\history\\glossary\\G_Nomad Age">
+      </entry>
+      <entry name="100783" historytext="100488" texture="ui\\history\\glossary\\G_Politicians">
+      </entry>
+      <entry name="100784" historytext="100489" texture="ui\\history\\glossary\\G_Population">
+      </entry>
+      <entry name="100785" historytext="100490" texture="ui\\history\\glossary\\G_Random Map">
+      </entry>
+      <entry name="100786" historytext="100491" texture="ui\\history\\glossary\\G_Ranged Attack">
+      </entry>
+      <entry name="100787" historytext="100492" texture="ui\\history\\glossary\\G_Resists">
+      </entry>
+      <entry name="100788" historytext="100493" texture="ui\\history\\glossary\\G_Resource - Coin">
+      </entry>
+      <entry name="100789" historytext="100494" texture="ui\\history\\glossary\\G_Resource - Crates">
+      </entry>
+      <entry name="100790" historytext="100495" texture="ui\\history\\glossary\\G_Resource - Food">
+      </entry>
+      <entry name="100791" historytext="100496" texture="ui\\history\\glossary\\G_Resource - Wood">
+      </entry>
+      <entry name="100792" historytext="100497" texture="ui\\history\\glossary\\G_Resources">
+      </entry>
+      <entry name="100760" historytext="100465" texture="ui\\history\\glossary\\G_Building Attack">
+      </entry>
+      <entry name="100793" historytext="100498" texture="ui\\history\\glossary\\G_Shipments">
+      </entry>
+      <entry name="100794" historytext="100499" texture="ui\\history\\glossary\\G_Ships">
+      </entry>
+      <entry name="100795" historytext="100520" texture="ui\\history\\glossary\\G_Skirmish">
+      </entry>
+      <entry name="100796" historytext="100521" texture="ui\\history\\glossary\\G_Speed">
+      </entry>
+      <entry name="100797" historytext="100522" texture="ui\\history\\glossary\\G_Trading Posts">
+      </entry>
+      <entry name="100798" historytext="100523" texture="ui\\history\\glossary\\G_Treasures">
+      </entry>
+      <entry name="100799" historytext="100524" texture="ui\\history\\glossary\\G_Unit">
+      </entry>
+    </subcategory>
+  </category>
+</contents>

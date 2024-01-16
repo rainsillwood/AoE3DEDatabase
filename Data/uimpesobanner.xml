@@ -1,0 +1,10 @@
+<layout>
+  <gadget name="AMPESOBanner-container" type="gadget" size1024="210 0 721 106">
+    <gadget name="AMPESOBanner-Background1" type="gadget" size1024="209 0 466 106" background="ui\eso\eso_banner" texturecoords="0 0 1 0.4140625" z="5">
+    </gadget>
+    <gadget name="AMPESOBanner-Background2" type="gadget" size1024="465 0 723 106" background="ui\eso\eso_banner" texturecoords="0 0.4179688 1 0.8320313" z="5">
+    </gadget>
+    <gadget name="AMPESOBanner-banner" type="gadget" size1024="210 5 722 101" background="ui\ESO\eso_homepage_topbanner" z="10" texturecoords="0 0 1 0.75">
+    </gadget>
+  </gadget>
+</layout>

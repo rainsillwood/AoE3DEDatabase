@@ -1,0 +1,30 @@
+<layout>
+  <gadget name="ScenarioDefeatedDlg" type="dialog" windowzstyle="" size1024="257 177 767 450" background="ui\core_ui\wood_thick_board_tile" tilebackground="" dontautoclose="">
+    <gadget name="ScenarioDefeatedDlg-BordersLeftTop" type="gadget" background="ui\file_system\border_top_left" size1024="257 177 289 209" z="11">
+    </gadget>
+    <gadget name="ScenarioDefeatedDlg-BordersLeftBottom" type="gadget" background="ui\file_system\border_bottom_left" size1024="257 418 289 450">
+    </gadget>
+    <gadget name="ScenarioDefeatedDlg-BordersRightBottom" type="gadget" background="ui\file_system\border_bottom_right" size1024="735 418 767 450" z="11">
+    </gadget>
+    <gadget name="ScenarioDefeatedDlg-BordersRightTop" type="gadget" background="ui\file_system\border_top_right" size1024="735 177 767 209" z="12">
+    </gadget>
+    <gadget tilebackgroundhoriz="" name="ScenarioDefeatedDlg-BordersTop" type="gadget" background="ui\file_system\border_top_middle" size1024="289 177 735 185">
+    </gadget>
+    <gadget tilebackgroundhoriz="" name="ScenarioDefeatedDlg-BordersBottom" type="gadget" background="ui\file_system\border_bottom_middle" size1024="289 442 735 450">
+    </gadget>
+    <gadget tilebackgroundvert="" name="ScenarioDefeatedDlg-BordersLeft" type="gadget" background="ui\file_system\border_side_left" size1024="257 209 265 418">
+    </gadget>
+    <gadget tilebackgroundvert="" name="ScenarioDefeatedDlg-BordersRight" type="gadget" background="ui\file_system\border_side_right" size1024="759 209 767 418">
+    </gadget>
+    <gadget name="ScenarioDefeatedDlg-TitleLeft" type="gadget" size1024="277 220 341 284" background="ui\core_ui\title_bar_48_left" z="11">
+    </gadget>
+    <gadget name="ScenarioDefeatedDlg-TitleCenter" type="gadget" size1024="341 220 683 284" background="ui\core_ui\title_bar_48_middle" tilebackgroundhoriz="" z="11">
+    </gadget>
+    <gadget name="ScenarioDefeatedDlg-TitleRight" type="gadget" size1024="683 220 747 284" background="ui\core_ui\title_bar_48_right" z="11">
+    </gadget>
+    <gadget name="ScenarioDefeatedDlg-DefeatedText" type="formatText" textfont="ScenarioTitleLarge" textfontsize="26" textcolor="255 208 0" size1024="277 220 747 284" textcenterhoriz="" textcentervert="" z="12">$$20167$$You Are Defeated</gadget>
+    <gadget name="ScenarioDefeatedDlg-ReplayButton" type="stateButton" size1024="375 308 631 340" bevelbutton="" z="101" statebuttonuseinternalstates="" textfont="IngameButtons" textfontsize="18" textcolor="255 255 255" textcenterhoriz="" textcentervert="">$$20168$$Replay Scenario<stateentry background="ui\core_ui\button_256x32_normal"></stateentry><stateentry background="ui\core_ui\button_256x32_clicked"></stateentry><stateentry background="ui\core_ui\button_256x32_rollover"></stateentry><stateentry background="ui\core_ui\button_256x32_disabled"></stateentry><command>gadgetUnreal("ScenarioDefeatedDlg") restartCurrentGame</command></gadget>
+    <gadget name="ScenarioDefeatedDlg-LoadSavedButton" type="stateButton" size1024="375 350 631 382" bevelbutton="" z="101" statebuttonuseinternalstates="" textfont="IngameButtons" textfontsize="18" textcolor="255 255 255" textcenterhoriz="" textcentervert="">$$19837$$Load Saved Game<stateentry background="ui\core_ui\button_256x32_normal"></stateentry><stateentry background="ui\core_ui\button_256x32_clicked"></stateentry><stateentry background="ui\core_ui\button_256x32_rollover"></stateentry><stateentry background="ui\core_ui\button_256x32_disabled"></stateentry><command>uiOpenSavedGameBrowser</command></gadget>
+    <gadget name="ScenarioDefeatedDlg-MainMenuButton" type="stateButton" size1024="375 392 631 424" bevelbutton="" z="101" statebuttonuseinternalstates="" textfont="IngameButtons" textfontsize="18" textcolor="255 255 255" textcenterhoriz="" textcentervert="">$$22131$$Campaign Menu<stateentry background="ui\core_ui\button_256x32_normal"></stateentry><stateentry background="ui\core_ui\button_256x32_clicked"></stateentry><stateentry background="ui\core_ui\button_256x32_rollover"></stateentry><stateentry background="ui\core_ui\button_256x32_disabled"></stateentry><command>gadgetUnreal("ScenarioDefeatedDlg") leaveGame</command></gadget>
+  </gadget>
+</layout>

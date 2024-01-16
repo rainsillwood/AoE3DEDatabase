@@ -1,0 +1,458 @@
+<buttonsets>
+  <set name="checkBtn" texturecoords="0 0 0.72 0.72">
+    <normal>ui\core_ui\checkbox</normal>
+    <depressed>ui\core_ui\checkbox_checked</depressed>
+    <highlight>ui\core_ui\checkbox_rollover</highlight>
+    <disabled>ui\core_ui\checkbox_disabled</disabled>
+  </set>
+  <set name="PauseBtn" texturecoords="0 0 1 1">
+    <normal>ui\core_ui\checkbox_16_pause</normal>
+    <depressed>ui\core_ui\checkbox_16_pause_clicked</depressed>
+    <highlight>ui\core_ui\checkbox_16_pause</highlight>
+    <disabled>ui\core_ui\checkbox_16_pause</disabled>
+  </set>
+  <set name="buttonLong" texturecoords="0 0 0.75 1">
+    <normal>ui\ui button long 96X32</normal>
+    <depressed>ui\ui button long 96X32 clicked</depressed>
+    <highlight>ui\ui button long 96X32 rollover</highlight>
+    <disabled>ui\ui button long 96X32 grey</disabled>
+  </set>
+  <set name="sliderRightBtn" texturecoords="0 0 1 1">
+    <normal>ui\file_system\slider_arrow_right</normal>
+    <depressed>ui\file_system\slider_arrow_right_clicked</depressed>
+    <highlight>ui\file_system\slider_arrow_right_rollover</highlight>
+    <disabled>ui\file_system\slider_arrow_right_disabled</disabled>
+  </set>
+  <set name="sliderLeftBtn" texturecoords="0 0 1 1">
+    <normal>ui\file_system\slider_arrow_left</normal>
+    <depressed>ui\file_system\slider_arrow_left_clicked</depressed>
+    <highlight>ui\file_system\slider_arrow_left_rollover</highlight>
+    <disabled>ui\file_system\slider_arrow_left_disabled</disabled>
+  </set>
+  <set name="sliderUpBtn" texturecoords="0 0 1 1">
+    <normal>ui\file_system\slider_arrow_up</normal>
+    <depressed>ui\file_system\slider_arrow_up_clicked</depressed>
+    <highlight>ui\file_system\slider_arrow_up_rollover</highlight>
+    <disabled>ui\file_system\slider_arrow_up_disabled</disabled>
+  </set>
+  <set name="sliderDownBtn" texturecoords="0 0 1 1">
+    <normal>ui\file_system\slider_arrow_down</normal>
+    <depressed>ui\file_system\slider_arrow_down_clicked</depressed>
+    <highlight>ui\file_system\slider_arrow_down_rollover</highlight>
+    <disabled>ui\file_system\slider_arrow_down_disabled</disabled>
+  </set>
+  <set name="sliderRightBtn_18" texturecoords="0 0 0.5625 0.5625">
+    <normal>ui\file_system\slider_arrow_18_right</normal>
+    <depressed>ui\file_system\slider_arrow_18_right_clicked</depressed>
+    <highlight>ui\file_system\slider_arrow_18_right_rollover</highlight>
+    <disabled>ui\file_system\slider_arrow_18_right_disabled</disabled>
+  </set>
+  <set name="sliderLeftBtn_18" texturecoords="0 0 0.5625 0.5625">
+    <normal>ui\file_system\slider_arrow_18_left</normal>
+    <depressed>ui\file_system\slider_arrow_18_left_clicked</depressed>
+    <highlight>ui\file_system\slider_arrow_18_left_rollover</highlight>
+    <disabled>ui\file_system\slider_arrow_18_left_disabled</disabled>
+  </set>
+  <set name="sliderUpBtn_18" texturecoords="0 0 0.5625 0.5625">
+    <normal>ui\file_system\slider_arrow_18_up</normal>
+    <depressed>ui\file_system\slider_arrow_18_up_clicked</depressed>
+    <highlight>ui\file_system\slider_arrow_18_up_rollover</highlight>
+    <disabled>ui\file_system\slider_arrow_18_up_disabled</disabled>
+  </set>
+  <set name="sliderDownBtn_18" texturecoords="0 0 0.5625 0.5625">
+    <normal>ui\file_system\slider_arrow_18_down</normal>
+    <depressed>ui\file_system\slider_arrow_18_down_clicked</depressed>
+    <highlight>ui\file_system\slider_arrow_18_down_rollover</highlight>
+    <disabled>ui\file_system\slider_arrow_18_down_disabled</disabled>
+  </set>
+  <set name="defaultSliderRightBtn" bevel="">
+    <normal>ui\core_ui\arrow_right</normal>
+    <depressed>ui\core_ui\arrow_right_clicked</depressed>
+    <highlight>ui\core_ui\arrow_right_rollover</highlight>
+    <disabled>ui\core_ui\arrow_right_disabled</disabled>
+  </set>
+  <set name="defaultSliderLeftBtn" bevel="">
+    <normal>ui\core_ui\arrow_left</normal>
+    <depressed>ui\core_ui\arrow_left_clicked</depressed>
+    <highlight>ui\core_ui\arrow_left_rollover</highlight>
+    <disabled>ui\core_ui\arrow_left_disabled</disabled>
+  </set>
+  <set name="defaultSliderUpBtn" bevel="">
+    <normal>ui\core_ui\arrow_up</normal>
+    <depressed>ui\core_ui\arrow_up_clicked</depressed>
+    <highlight>ui\core_ui\arrow_up_rollover</highlight>
+    <disabled>ui\core_ui\arrow_up_disabled</disabled>
+  </set>
+  <set name="defaultSliderDownBtn" bevel="">
+    <normal>ui\core_ui\arrow_down</normal>
+    <depressed>ui\core_ui\arrow_down_clicked</depressed>
+    <highlight>ui\core_ui\arrow_down_rollover</highlight>
+    <disabled>ui\core_ui\arrow_down_disabled</disabled>
+  </set>
+  <set name="spanishFlagBtn" texturecoords="0 0 0.5859375 0.75">
+    <normal>ui\eso\flag_spanish_normal</normal>
+    <depressed>ui\eso\flag_spanish_clcik</depressed>
+    <highlight>ui\eso\flag_spanish_high</highlight>
+    <disabled>ui\eso\flag_spanish_disable</disabled>
+  </set>
+  <set name="britishFlagBtn" texturecoords="0 0 0.5859375 0.75">
+    <normal>ui\eso\flag_british_normal</normal>
+    <depressed>ui\eso\flag_british_clcik</depressed>
+    <highlight>ui\eso\flag_british_high</highlight>
+    <disabled>ui\eso\flag_british_disable</disabled>
+  </set>
+  <set name="dutchFlagBtn" texturecoords="0 0 0.5859375 0.75">
+    <normal>ui\eso\flag_dutch_normal</normal>
+    <depressed>ui\eso\flag_dutch_clcik</depressed>
+    <highlight>ui\eso\flag_dutch_high</highlight>
+    <disabled>ui\eso\flag_dutch_disable</disabled>
+  </set>
+  <set name="frenchFlagBtn" texturecoords="0 0 0.5859375 0.75">
+    <normal>ui\eso\flag_french_normal</normal>
+    <depressed>ui\eso\flag_french_clcik</depressed>
+    <highlight>ui\eso\flag_french_high</highlight>
+    <disabled>ui\eso\flag_french_disable</disabled>
+  </set>
+  <set name="germanFlagBtn" texturecoords="0 0 0.5859375 0.75">
+    <normal>ui\eso\flag_german_normal</normal>
+    <depressed>ui\eso\flag_german_clcik</depressed>
+    <highlight>ui\eso\flag_german_high</highlight>
+    <disabled>ui\eso\flag_german_disable</disabled>
+  </set>
+  <set name="ottomanFlagBtn" texturecoords="0 0 0.5859375 0.75">
+    <normal>ui\eso\flag_ottoman_normal</normal>
+    <depressed>ui\eso\flag_ottoman_clcik</depressed>
+    <highlight>ui\eso\flag_ottoman_high</highlight>
+    <disabled>ui\eso\flag_ottoman_disable</disabled>
+  </set>
+  <set name="portugueseFlagBtn" texturecoords="0 0 0.5859375 0.75">
+    <normal>ui\eso\flag_portuguese_normal</normal>
+    <depressed>ui\eso\flag_portuguese_clcik</depressed>
+    <highlight>ui\eso\flag_portuguese_high</highlight>
+    <disabled>ui\eso\flag_portuguese_disable</disabled>
+  </set>
+  <set name="russianFlagBtn" texturecoords="0 0 0.5859375 0.75">
+    <normal>ui\eso\flag_russian_normal</normal>
+    <depressed>ui\eso\flag_russian_clcik</depressed>
+    <highlight>ui\eso\flag_russian_high</highlight>
+    <disabled>ui\eso\flag_russian_disable</disabled>
+  </set>
+  <set name="randomFlagBtn" texturecoords="0 0 0.5859375 0.75">
+    <normal>ui\eso\flag_random_normal</normal>
+    <depressed>ui\eso\flag_random_clcik</depressed>
+    <highlight>ui\eso\flag_random_high</highlight>
+    <disabled>ui\eso\flag_random_disable</disabled>
+  </set>
+  <set name="maltaFlagBtn" texturecoords="0 0 0.5859375 0.75">
+    <normal>ui\eso\flag_malta_normal</normal>
+    <depressed>ui\eso\flag_malta_clcik</depressed>
+    <highlight>ui\eso\flag_malta_high</highlight>
+    <disabled>ui\eso\flag_malta_disable</disabled>
+  </set>
+  <set name="blackFlagBtn" texturecoords="0 0 0.5859375 0.75">
+    <normal>ui\eso\flag_black_normal</normal>
+    <depressed>ui\eso\flag_black_clcik</depressed>
+    <highlight>ui\eso\flag_black_high</highlight>
+    <disabled>ui\eso\flag_black_disable</disabled>
+  </set>
+  <set name="americaFlagBtn" texturecoords="0 0 0.5859375 0.75">
+    <normal>ui\eso\flag_americas_normal</normal>
+    <depressed>ui\eso\flag_americas_clcik</depressed>
+    <highlight>ui\eso\flag_americas_high</highlight>
+    <disabled>ui\eso\flag_americas_disable</disabled>
+  </set>
+  <set name="boneFlagBtn" texturecoords="0 0 0.5859375 0.75">
+    <normal>ui\eso\flag_bone_normal</normal>
+    <depressed>ui\eso\flag_bone_clcik</depressed>
+    <highlight>ui\eso\flag_bone_high</highlight>
+    <disabled>ui\eso\flag_bone_disable</disabled>
+  </set>
+  <set name="nativeFlagBtn" texturecoords="0 0 0.5859375 0.75">
+    <normal>ui\eso\flag_native_normal</normal>
+    <depressed>ui\eso\flag_native_clcik</depressed>
+    <highlight>ui\eso\flag_native_high</highlight>
+    <disabled>ui\eso\flag_native_disable</disabled>
+  </set>
+  <set name="iroquoisFlagBtn" texturecoords="0 0 0.5859375 0.75">
+    <normal>ui\eso\flag_iroquois_normal</normal>
+    <depressed>ui\eso\flag_iroquois_click</depressed>
+    <highlight>ui\eso\flag_iroquois_high</highlight>
+    <disabled>ui\eso\flag_iroquois_disable</disabled>
+  </set>
+  <set name="SiouxFlagBtn" texturecoords="0 0 0.5859375 0.75">
+    <normal>ui\eso\flag_Sioux_normal</normal>
+    <depressed>ui\eso\flag_Sioux_click</depressed>
+    <highlight>ui\eso\flag_Sioux_high</highlight>
+    <disabled>ui\eso\flag_Sioux_disable</disabled>
+  </set>
+  <set name="AztecFlagBtn" texturecoords="0 0 0.5859375 0.75">
+    <normal>ui\eso\flag_Aztec_normal</normal>
+    <depressed>ui\eso\flag_Aztec_click</depressed>
+    <highlight>ui\eso\flag_Aztec_high</highlight>
+    <disabled>ui\eso\flag_Aztec_disable</disabled>
+  </set>
+  <set name="ChineseFlagBtn" texturecoords="0 0 0.5859375 0.75">
+    <normal>ui\eso\flag_China_normal</normal>
+    <depressed>ui\eso\flag_China_click</depressed>
+    <highlight>ui\eso\flag_China_high</highlight>
+    <disabled>ui\eso\flag_China_disable</disabled>
+  </set>
+  <set name="JapaneseFlagBtn" texturecoords="0 0 0.5859375 0.75">
+    <normal>ui\eso\flag_Japan_normal</normal>
+    <depressed>ui\eso\flag_Japan_click</depressed>
+    <highlight>ui\eso\flag_Japan_high</highlight>
+    <disabled>ui\eso\flag_Japan_disable</disabled>
+  </set>
+  <set name="IndianFlagBtn" texturecoords="0 0 0.5859375 0.75">
+    <normal>ui\eso\flag_India_normal</normal>
+    <depressed>ui\eso\flag_India_click</depressed>
+    <highlight>ui\eso\flag_India_high</highlight>
+    <disabled>ui\eso\flag_India_disable</disabled>
+  </set>
+  <set name="TokugawaFlagBtn" texturecoords="0 0 0.5859375 0.75">
+    <normal>ui\eso\flag_tokugawa_normal</normal>
+    <depressed>ui\eso\flag_tokugawa_click</depressed>
+    <highlight>ui\eso\flag_tokugawa_high</highlight>
+    <disabled>ui\eso\flag_tokugawa_disable</disabled>
+  </set>
+  <set name="EastIndiaTradingCompanyFlagBtn" texturecoords="0 0 0.5859375 0.75">
+    <normal>ui\eso\flag_eastindiatradingcompany_normal</normal>
+    <depressed>ui\eso\flag_eastindiatradingcompany_click</depressed>
+    <highlight>ui\eso\flag_eastindiatradingcompany_high</highlight>
+    <disabled>ui\eso\flag_eastindiatradingcompany_disable</disabled>
+  </set>
+  <set name="LouvertureFlagBtn" texturecoords="0 0 0.5859375 0.75">
+    <normal>ui\eso\flag_haitian_normal</normal>
+    <depressed>ui\eso\flag_haitian_click</depressed>
+    <highlight>ui\eso\flag_haitian_high</highlight>
+    <disabled>ui\eso\flag_haitian_disable</disabled>
+  </set>
+  <set name="WashingtonFlagBtn" texturecoords="0 0 0.5859375 0.75">
+    <normal>ui\eso\flag_USA_normal</normal>
+    <depressed>ui\eso\flag_USA_click</depressed>
+    <highlight>ui\eso\flag_USA_high</highlight>
+    <disabled>ui\eso\flag_USA_disable</disabled>
+  </set>
+  <set name="HidalgoFlagBtn" texturecoords="0 0 0.5859375 0.75">
+    <normal>ui\eso\flag_mexican_normal</normal>
+    <depressed>ui\eso\flag_mexican_click</depressed>
+    <highlight>ui\eso\flag_mexican_high</highlight>
+    <disabled>ui\eso\flag_mexican_disable</disabled>
+  </set>
+  <set name="BonifacioFlagBtn" texturecoords="0 0 0.5859375 0.75">
+    <normal>ui\eso\flag_brazilian_normal</normal>
+    <depressed>ui\eso\flag_brazilian_click</depressed>
+    <highlight>ui\eso\flag_brazilian_high</highlight>
+    <disabled>ui\eso\flag_brazilian_disable</disabled>
+  </set>
+  <set name="BolivarFlagBtn" texturecoords="0 0 0.5859375 0.75">
+    <normal>ui\eso\flag_peruvian_normal</normal>
+    <depressed>ui\eso\flag_peruvian_click</depressed>
+    <highlight>ui\eso\flag_peruvian_high</highlight>
+    <disabled>ui\eso\flag_peruvian_disable</disabled>
+  </set>
+  <set name="SanMartinFlagBtn" texturecoords="0 0 0.5859375 0.75">
+    <normal>ui\eso\flag_argentinian_normal</normal>
+    <depressed>ui\eso\flag_argentinian_click</depressed>
+    <highlight>ui\eso\flag_argentinian_high</highlight>
+    <disabled>ui\eso\flag_argentinian_disable</disabled>
+  </set>
+  <set name="SantanderFlagBtn" texturecoords="0 0 0.5859375 0.75">
+    <normal>ui\eso\flag_colombian_normal</normal>
+    <depressed>ui\eso\flag_colombian_click</depressed>
+    <highlight>ui\eso\flag_colombian_high</highlight>
+    <disabled>ui\eso\flag_colombian_disable</disabled>
+  </set>
+  <set name="OHigginsFlagBtn" texturecoords="0 0 0.5859375 0.75">
+    <normal>ui\eso\flag_chilean_normal</normal>
+    <depressed>ui\eso\flag_chilean_click</depressed>
+    <highlight>ui\eso\flag_chilean_high</highlight>
+    <disabled>ui\eso\flag_chilean_disable</disabled>
+  </set>
+  <set name="MinimapFilterNormal" texturecoords="0 0 1 1">
+    <normal>ui\ingame\ingame_minimap_all_normal_ypack</normal>
+    <depressed>ui\ingame\ingame_minimap_all_depressed_ypack</depressed>
+    <highlight>ui\ingame\ingame_minimap_all_active_ypack</highlight>
+    <disabled>ui\ingame\ingame_minimap_all_disabled_ypack</disabled>
+  </set>
+  <set name="MinimapFilterMilitary" texturecoords="0 0 1 1">
+    <normal>ui\ingame\ingame_minimap_military_normal_ypack</normal>
+    <depressed>ui\ingame\ingame_minimap_military_depressed_ypack</depressed>
+    <highlight>ui\ingame\ingame_minimap_military_active_ypack</highlight>
+    <disabled>ui\ingame\ingame_minimap_military_disabled_ypack</disabled>
+  </set>
+  <set name="MinimapFilterEconomic" texturecoords="0 0 1 1">
+    <normal>ui\ingame\ingame_minimap_econ_normal_ypack</normal>
+    <depressed>ui\ingame\ingame_minimap_econ_depressed_ypack</depressed>
+    <highlight>ui\ingame\ingame_minimap_econ_active_ypack</highlight>
+    <disabled>ui\ingame\ingame_minimap_econ_disabled_ypack</disabled>
+  </set>
+  <set name="MinimapFilterNormalMin" texturecoords="0 0 1 1">
+    <normal>ui\ingame\ingame_minimap_small_all_normal_ypack</normal>
+    <depressed>ui\ingame\ingame_minimap_small_all_depressed_ypack</depressed>
+    <highlight>ui\ingame\ingame_minimap_small_all_active_ypack</highlight>
+    <disabled>ui\ingame\ingame_minimap_small_all_active_ypack</disabled>
+  </set>
+  <set name="MinimapFilterMilitaryMin" texturecoords="0 0 1 1">
+    <normal>ui\ingame\ingame_minimap_small_military_normal_ypack</normal>
+    <depressed>ui\ingame\ingame_minimap_small_military_depressed_ypack</depressed>
+    <highlight>ui\ingame\ingame_minimap_small_military_active_ypack</highlight>
+    <disabled>ui\ingame\ingame_minimap_small_military_active_ypack</disabled>
+  </set>
+  <set name="MinimapFilterEconomicMin" texturecoords="0 0 1 1">
+    <normal>ui\ingame\ingame_minimap_small_econ_normal_ypack</normal>
+    <depressed>ui\ingame\ingame_minimap_small_econ_depressed_ypack</depressed>
+    <highlight>ui\ingame\ingame_minimap_small_econ_active_ypack</highlight>
+    <disabled>ui\ingame\ingame_minimap_small_econ_active_ypack</disabled>
+  </set>
+  <set name="spanishFlagBtnLarge" texturecoords="0 0 1 0.75">
+    <normal>ui\ingame\flag_spanish_large_normal</normal>
+    <depressed>ui\ingame\flag_spanish_large_click</depressed>
+    <highlight>ui\ingame\flag_spanish_large_high</highlight>
+    <disabled>ui\ingame\flag_spanish_large_disable</disabled>
+  </set>
+  <set name="britishFlagBtnLarge" texturecoords="0 0 1 0.75">
+    <normal>ui\ingame\flag_british_large_normal</normal>
+    <depressed>ui\ingame\flag_british_large_click</depressed>
+    <highlight>ui\ingame\flag_british_large_high</highlight>
+    <disabled>ui\ingame\flag_british_large_disable</disabled>
+  </set>
+  <set name="dutchFlagBtnLarge" texturecoords="0 0 1 0.75">
+    <normal>ui\ingame\flag_dutch_large_normal</normal>
+    <depressed>ui\ingame\flag_dutch_large_click</depressed>
+    <highlight>ui\ingame\flag_dutch_large_high</highlight>
+    <disabled>ui\ingame\flag_dutch_large_disable</disabled>
+  </set>
+  <set name="frenchFlagBtnLarge" texturecoords="0 0 1 0.75">
+    <normal>ui\ingame\flag_french_large_normal</normal>
+    <depressed>ui\ingame\flag_french_large_click</depressed>
+    <highlight>ui\ingame\flag_french_large_high</highlight>
+    <disabled>ui\ingame\flag_french_large_disable</disabled>
+  </set>
+  <set name="germanFlagBtnLarge" texturecoords="0 0 1 0.75">
+    <normal>ui\ingame\flag_germans_large_normal</normal>
+    <depressed>ui\ingame\flag_germans_large_click</depressed>
+    <highlight>ui\ingame\flag_germans_large_high</highlight>
+    <disabled>ui\ingame\flag_germans_large_disable</disabled>
+  </set>
+  <set name="ottomanFlagBtnLarge" texturecoords="0 0 1 0.75">
+    <normal>ui\ingame\flag_ottomans_large_normal</normal>
+    <depressed>ui\ingame\flag_ottomans_large_click</depressed>
+    <highlight>ui\ingame\flag_ottomans_large_high</highlight>
+    <disabled>ui\ingame\flag_ottomans_large_disable</disabled>
+  </set>
+  <set name="portugueseFlagBtnLarge" texturecoords="0 0 1 0.75">
+    <normal>ui\ingame\flag_portuguese_large_normal</normal>
+    <depressed>ui\ingame\flag_portuguese_large_click</depressed>
+    <highlight>ui\ingame\flag_portuguese_large_high</highlight>
+    <disabled>ui\ingame\flag_portuguese_large_disable</disabled>
+  </set>
+  <set name="russianFlagBtnLarge" texturecoords="0 0 1 0.75">
+    <normal>ui\ingame\flag_russians_large_normal</normal>
+    <depressed>ui\ingame\flag_russians_large_click</depressed>
+    <highlight>ui\ingame\flag_russians_large_high</highlight>
+    <disabled>ui\ingame\flag_russians_large_disable</disabled>
+  </set>
+  <set name="randomFlagBtnLarge" texturecoords="0 0 1 0.75">
+    <normal>ui\ingame\flag_random_large_normal</normal>
+    <depressed>ui\ingame\flag_random_large_click</depressed>
+    <highlight>ui\ingame\flag_random_large_high</highlight>
+    <disabled>ui\ingame\flag_random_large_disable</disabled>
+  </set>
+  <set name="iroquoisFlagBtnLarge" texturecoords="0 0 1 0.75">
+    <normal>ui\ingame\flag_iroquois_large_normal</normal>
+    <depressed>ui\ingame\flag_iroquois_large_click</depressed>
+    <highlight>ui\ingame\flag_iroquois_large_high</highlight>
+    <disabled>ui\ingame\flag_iroquois_large_disable</disabled>
+  </set>
+  <set name="SiouxFlagBtnLarge" texturecoords="0 0 1 0.75">
+    <normal>ui\ingame\flag_Sioux_large_normal</normal>
+    <depressed>ui\ingame\flag_Sioux_large_click</depressed>
+    <highlight>ui\ingame\flag_Sioux_large_high</highlight>
+    <disabled>ui\ingame\flag_Sioux_large_disable</disabled>
+  </set>
+  <set name="AztecFlagBtnLarge" texturecoords="0 0 1 0.75">
+    <normal>ui\ingame\flag_Aztec_large_normal</normal>
+    <depressed>ui\ingame\flag_Aztec_large_click</depressed>
+    <highlight>ui\ingame\flag_Aztec_large_high</highlight>
+    <disabled>ui\ingame\flag_Aztec_large_disable</disabled>
+  </set>
+  <set name="ChineseFlagBtnLarge" texturecoords="0 0 1 0.75">
+    <normal>ui\ingame\flag_Chinese_large_normal</normal>
+    <depressed>ui\ingame\flag_Chinese_large_click</depressed>
+    <highlight>ui\ingame\flag_Chinese_large_high</highlight>
+    <disabled>ui\ingame\flag_Chinese_large_disable</disabled>
+  </set>
+  <set name="JapaneseFlagBtnLarge" texturecoords="0 0 1 0.75">
+    <normal>ui\ingame\flag_Japanese_large_normal</normal>
+    <depressed>ui\ingame\flag_Japanese_large_click</depressed>
+    <highlight>ui\ingame\flag_Japanese_large_high</highlight>
+    <disabled>ui\ingame\flag_Japanese_large_disable</disabled>
+  </set>
+  <set name="IndianFlagBtnLarge" texturecoords="0 0 1 0.75">
+    <normal>ui\ingame\flag_Indian_large_normal</normal>
+    <depressed>ui\ingame\flag_Indian_large_click</depressed>
+    <highlight>ui\ingame\flag_Indian_large_high</highlight>
+    <disabled>ui\ingame\flag_Indian_large_disable</disabled>
+  </set>
+  <set name="TokugawaFlagBtnLarge" texturecoords="0 0 1 0.75">
+    <normal>ui\ingame\flag_tokugawa_large_normal</normal>
+    <depressed>ui\ingame\flag_tokugawa_large_click</depressed>
+    <highlight>ui\ingame\flag_tokugawa_large_high</highlight>
+    <disabled>ui\ingame\flag_tokugawa_large_disable</disabled>
+  </set>
+  <set name="EastindiatradingcompanyFlagBtnLarge" texturecoords="0 0 1 0.75">
+    <normal>ui\ingame\flag_Eastindiatradingcompany_large_normal</normal>
+    <depressed>ui\ingame\flag_Eastindiatradingcompany_large_click</depressed>
+    <highlight>ui\ingame\flag_Eastindiatradingcompany_large_high</highlight>
+    <disabled>ui\ingame\flag_Eastindiatradingcompany_large_disable</disabled>
+  </set>
+  <set name="LouvertureFlagBtn" texturecoords="0 0 0.5859375 0.75">
+    <normal>ui\ingame\flag_haitian_large_normal</normal>
+    <depressed>ui\ingame\flag_haitian_large_click</depressed>
+    <highlight>ui\ingame\flag_haitian_large_high</highlight>
+    <disabled>ui\ingame\flag_haitian_large_disable</disabled>
+  </set>
+  <set name="WashingtonFlagBtn" texturecoords="0 0 0.5859375 0.75">
+    <normal>ui\ingame\flag_USA_large_normal</normal>
+    <depressed>ui\ingame\flag_USA_large_click</depressed>
+    <highlight>ui\ingame\flag_USA_large_high</highlight>
+    <disabled>ui\ingame\flag_USA_large_disable</disabled>
+  </set>
+  <set name="HidalgoFlagBtn" texturecoords="0 0 0.5859375 0.75">
+    <normal>ui\ingame\flag_mexican_large_normal</normal>
+    <depressed>ui\ingame\flag_mexican_large_click</depressed>
+    <highlight>ui\ingame\flag_mexican_large_high</highlight>
+    <disabled>ui\ingame\flag_mexican_large_disable</disabled>
+  </set>
+  <set name="BonifacioFlagBtn" texturecoords="0 0 0.5859375 0.75">
+    <normal>ui\ingame\flag_brazilian_large_normal</normal>
+    <depressed>ui\ingame\flag_brazilian_large_click</depressed>
+    <highlight>ui\ingame\flag_brazilian_large_high</highlight>
+    <disabled>ui\ingame\flag_brazilian_large_disable</disabled>
+  </set>
+  <set name="BolivarFlagBtn" texturecoords="0 0 0.5859375 0.75">
+    <normal>ui\ingame\flag_peruvian_large_normal</normal>
+    <depressed>ui\ingame\flag_peruvian_large_click</depressed>
+    <highlight>ui\ingame\flag_peruvian_large_high</highlight>
+    <disabled>ui\ingame\flag_peruvian_large_disable</disabled>
+  </set>
+  <set name="SanMartinFlagBtn" texturecoords="0 0 0.5859375 0.75">
+    <normal>ui\ingame\flag_argentinian_large_normal</normal>
+    <depressed>ui\ingame\flag_argentinian_large_click</depressed>
+    <highlight>ui\ingame\flag_argentinian_large_high</highlight>
+    <disabled>ui\ingame\flag_argentinian_large_disable</disabled>
+  </set>
+  <set name="SantanderFlagBtn" texturecoords="0 0 0.5859375 0.75">
+    <normal>ui\ingame\flag_colombian_large_normal</normal>
+    <depressed>ui\ingame\flag_colombian_large_click</depressed>
+    <highlight>ui\ingame\flag_colombian_large_high</highlight>
+    <disabled>ui\ingame\flag_colombian_large_disable</disabled>
+  </set>
+  <set name="OHigginsFlagBtn" texturecoords="0 0 0.5859375 0.75">
+    <normal>ui\ingame\flag_chilean_large_normal</normal>
+    <depressed>ui\ingame\flag_chilean_large_click</depressed>
+    <highlight>ui\ingame\flag_chilean_large_high</highlight>
+    <disabled>ui\ingame\flag_chilean_large_disable</disabled>
+  </set>
+</buttonsets>

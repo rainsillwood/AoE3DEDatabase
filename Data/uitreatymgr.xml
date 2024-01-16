@@ -1,0 +1,10 @@
+<layout>
+  <gadget name="TreatyMgr" type="gadget" size1024="20 80 380 353" background="ui\editor\editor_background" bevel="" titlebar="$$28366$$Treaty Manager" closebutton="" windowzstyle="" moveable="">
+    <gadget name="TreatyMgr_TreatyList" type="list" background="ui\editor\editor_background" sunkenbevel="" showselect="" selectedcolor="255 255 255" buttonsize1024="175 15" scrollvert="" titlebar="$$28367$$Players in Treaty" locktitlebarmove="" size1024="30 110 250 342">
+    </gadget>
+    <gadget name="TreatyMgr_AddTreaty" type="button" bevel="" textfont="Arial nobold nodrop" textfontsize="12" tooltiptext="$$28371$$Create a new treaty" size1024="260 110 370 132">$$28368$$Create Treaty</gadget>
+    <gadget name="TreatyMgr_EditTreaty" type="button" bevel="" textfont="Arial nobold nodrop" textfontsize="12" tooltiptext="$$28475$$Edit an existing treaty" size1024="260 140 370 162">$$28474$$Edit Treaty</gadget>
+    <gadget name="TreatyMgr_DeleteTreaty" type="button" bevel="" textfont="Arial nobold nodrop" textfontsize="12" tooltiptext="$$28373$$Remove an existing treaty" size1024="260 170 370 192">$$28372$$Delete Treaty</gadget>
+    <gadget name="TreatyMgr_OkBtn" type="button" bevel="" size1024="260 319 370 341" z="11">$$18465$$Ok</gadget>
+  </gadget>
+</layout>

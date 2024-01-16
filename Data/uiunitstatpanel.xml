@@ -1,0 +1,217 @@
+<layout>
+  <gadget name="unitstatpanel" type="unitstatpanel" size1024="749 570 1024 768" background="ui\ingame\tempinterface2" z="5" texturecoords="0.463796477495108 0.223529411764706 1 1">
+    <gadget name="unitstatpanel-singleUnitPanel" type="gadget" size1024="764 599 1016 744" z="10" hidden="">
+      <gadget name="unitstatpanel-singleUnitHeaderPanel" type="gadget" size1024="763 600 1016 688" z="10">
+        <gadget name="unitstatpanel-singleUnitLine0" type="formatText" size1024="817 600 1016 624" textcolor="255 255 255" textcentervert="" textcenterhoriz="" textwrapon="" textfont="StatUnitName" textfontsize="18" z="35">
+        </gadget>
+        <gadget name="unitstatpanel-singleUnitLine1" type="formatText" size1024="817 621 1016 639" textcolor="255 255 255" textcentervert="" textcenterhoriz="" textwrapon="" textfont="StatText" textfontsize="12" z="35">
+        </gadget>
+        <gadget name="unitstatpanel-singleUnitLine2Label" type="formatText" size1024="763 636 861 654" textcolor="255 255 0" textcentervert="" textfont="StatText" textfontsize="12" z="30">$$26015$$Class:</gadget>
+        <gadget name="unitstatpanel-singleUnitLine2" type="formatText" size1024="861 636 1016 654" textcolor="255 255 255" textmarkup="" formattextusedatareplace="" textcentervert="" textfont="StatText" textfontsize="12" z="35">
+        </gadget>
+        <gadget name="unitstatpanel-singleUnitLine3Label" type="formatText" size1024="763 651 861 669" textcolor="0 255 0" textcentervert="" textfont="StatText" textfontsize="12" z="30">$$26017$$Beats:</gadget>
+        <gadget name="unitstatpanel-singleUnitLine3" type="formatText" size1024="861 651 1016 669" textcolor="255 255 255" textcentervert="" textfont="StatText" textfontsize="12" z="35">
+        </gadget>
+        <gadget name="unitstatpanel-singleUnitLine4Label" type="formatText" size1024="763 666 861 684" textcolor="255 0 0" textcentervert="" textfont="StatText" textfontsize="12" z="30">$$26018$$Loses To:</gadget>
+        <gadget name="unitstatpanel-singleUnitLine4" type="formatText" size1024="861 666 1016 684" textcolor="255 255 255" textcentervert="" textfont="StatText" textfontsize="12" z="35">
+        </gadget>
+        <gadget name="unitstatpanel-singleUnitPortrait" type="button" size1024="753 564 817 628" donthighlight="" background="" foreground="" sound="" z="30">
+        </gadget>
+        <gadget name="unitstatpanel-singleUnitButton0" type="stateButton" size1024="754 612 770 628" z="40" mouseovertext="$$18418$$Button0" statebuttonuseinternalstates="">
+          <stateentry background="ui\core_ui\roundsmall">
+          </stateentry>
+          <stateentry background="ui\core_ui\roundsmall_clicked">
+          </stateentry>
+          <stateentry background="ui\core_ui\roundsmall_rollover">
+          </stateentry>
+          <stateentry background="ui\core_ui\roundsmall">
+          </stateentry>
+          <command>uiUnitDetailHelp(-1)</command>
+        </gadget>
+        <gadget name="unitstatpanel-singleUnitButton1" type="stateButton" size1024="771 620 787 636" z="40" mouseovertext="$$24903$$Button1" statebuttonuseinternalstates="">
+          <stateentry background="ui\core_ui\roundsmall">
+          </stateentry>
+          <stateentry background="ui\core_ui\roundsmall_clicked">
+          </stateentry>
+          <stateentry background="ui\core_ui\roundsmall_rollover">
+          </stateentry>
+          <stateentry background="ui\core_ui\roundsmall">
+          </stateentry>
+        </gadget>
+        <gadget name="unitstatpanel-singleUnitButton2" type="stateButton" size1024="797 620 813 636" z="40" mouseovertext="$$26010$$Button2" statebuttonuseinternalstates="">
+          <stateentry background="ui\core_ui\roundsmall">
+          </stateentry>
+          <stateentry background="ui\core_ui\roundsmall_clicked">
+          </stateentry>
+          <stateentry background="ui\core_ui\roundsmall_rollover">
+          </stateentry>
+          <stateentry background="ui\core_ui\roundsmall">
+          </stateentry>
+        </gadget>
+      </gadget>
+      <gadget name="unitstatpanel-singleUnitStatPanel" type="gadget" size1024="763 681 1016 744" z="10">
+        <gadget name="unitstatpanel-singleUnitStatsLabel0" type="formatText" size1024="763 681 861 699" textcolor="255 255 0" textcentervert="" textfont="StatText" textfontsize="12" z="30">$$24320$$Hitpoints:</gadget>
+        <gadget name="unitstatpanel-singleUnitStatsValue0" type="formatText" size1024="861 681 1016 699" textcolor="255 255 255" textcentervert="" textfont="StatText" textfontsize="12" z="30">
+        </gadget>
+        <gadget name="unitstatpanel-singleUnitStatsLabel1" type="formatText" size1024="763 696 861 714" textcolor="255 255 0" textcentervert="" textfont="StatText" textfontsize="12" z="30">$$29782$$Bounty:</gadget>
+        <gadget name="unitstatpanel-singleUnitStatsValue1" type="formatText" size1024="861 696 1016 714" textcolor="255 255 255" textcentervert="" textfont="StatText" textfontsize="12" z="30">
+        </gadget>
+        <gadget name="unitstatpanel-singleUnitStatsLabel2" type="formatText" size1024="763 711 861 729" textcolor="255 255 0" textcentervert="" textfont="StatText" textfontsize="12" z="30" textmarkup="">$$20944$$Upgrades:</gadget>
+        <gadget name="unitstatpanel-singleUnitStatsValue2" type="formatText" size1024="861 711 1016 729" textcolor="255 255 255" textcentervert="" textfont="StatText" textfontsize="12" z="30">
+        </gadget>
+        <gadget name="unitstatpanel-singleUnitStatsLabel3" type="formatText" size1024="763 726 861 744" textcolor="255 255 0" textcentervert="" textfont="StatText" textfontsize="12" z="30" textmarkup="">$$18417$$Range:</gadget>
+        <gadget name="unitstatpanel-singleUnitStatsValue3" type="formatText" size1024="861 726 1016 744" textcolor="255 255 255" textcentervert="" textfont="StatText" textfontsize="12" z="30">
+        </gadget>
+      </gadget>
+    </gadget>
+    <gadget name="unitstatpanel-multipleUnitPanel" type="gadget" size1024="754 600 1007 737" z="10" hidden="">
+      <gadget name="unitstatpanel-multipleUnitHeaderPanel" type="gadget" size1024="764 600 1005 642" z="10">
+        <gadget name="unitstatpanel-multipleUnitLine0" type="formatText" size1024="818 600 1005 621" textcolor="255 255 255" textcentervert="" textcenterhoriz="" textwrapon="" textfont="StatUnitName" textfontsize="18" z="30">
+        </gadget>
+        <gadget name="unitstatpanel-multipleUnitLine1" type="formatText" size1024="818 621 1005 639" textcolor="255 255 255" textcentervert="" textcenterhoriz="" textwrapon="" textfont="StatText" textfontsize="12" z="30">
+        </gadget>
+        <gadget name="unitstatpanel-multipleUnitPortrait" type="button" size1024="754 564 818 628" donthighlight="" background="" foreground="" sound="" z="30">
+        </gadget>
+        <gadget name="unitstatpanel-multipleUnitButton0" type="stateButton" size1024="755 612 771 628" z="40" mouseovertext="$$18418$$Button0" statebuttonuseinternalstates="">
+          <stateentry background="ui\core_ui\roundsmall">
+          </stateentry>
+          <stateentry background="ui\core_ui\roundsmall_clicked">
+          </stateentry>
+          <stateentry background="ui\core_ui\roundsmall_rollover">
+          </stateentry>
+          <stateentry background="ui\core_ui\roundsmall">
+          </stateentry>
+          <command>uiUnitDetailHelp(-1)</command>
+        </gadget>
+        <gadget name="unitstatpanel-multipleUnitButton1" type="stateButton" size1024="772 620 788 636" z="40" mouseovertext="$$24903$$Button1" statebuttonuseinternalstates="">
+          <stateentry background="ui\core_ui\roundsmall">
+          </stateentry>
+          <stateentry background="ui\core_ui\roundsmall_clicked">
+          </stateentry>
+          <stateentry background="ui\core_ui\roundsmall_rollover">
+          </stateentry>
+          <stateentry background="ui\core_ui\roundsmall">
+          </stateentry>
+        </gadget>
+        <gadget name="unitstatpanel-multipleUnitButton2" type="stateButton" size1024="798 620 814 636" z="40" mouseovertext="$$26010$$Button2" statebuttonuseinternalstates="">
+          <stateentry background="ui\core_ui\roundsmall">
+          </stateentry>
+          <stateentry background="ui\core_ui\roundsmall_clicked">
+          </stateentry>
+          <stateentry background="ui\core_ui\roundsmall_rollover">
+          </stateentry>
+          <stateentry background="ui\core_ui\roundsmall">
+          </stateentry>
+        </gadget>
+      </gadget>
+      <gadget name="unitstatpanel-multipleUnitButtonPanel" type="gadget" size1024="764 642 1006 738" z="10">
+        <gadget name="unitstatpanel-multipleUnitUnitButton0" type="button" size1024="779 642 811 674" z="11">
+          <piechartfilling color="0 255 0 128" rotation="cw" fill="false">
+          </piechartfilling>
+        </gadget>
+        <gadget name="unitstatpanel-multipleUnitUnitButton1" type="button" size1024="811 642 843 674" z="11">
+          <piechartfilling color="0 255 0 128" rotation="cw" fill="false">
+          </piechartfilling>
+        </gadget>
+        <gadget name="unitstatpanel-multipleUnitUnitButton2" type="button" size1024="843 642 875 674" z="11">
+          <piechartfilling color="0 255 0 128" rotation="cw" fill="false">
+          </piechartfilling>
+        </gadget>
+        <gadget name="unitstatpanel-multipleUnitUnitButton3" type="button" size1024="875 642 907 674" z="11">
+          <piechartfilling color="0 255 0 128" rotation="cw" fill="false">
+          </piechartfilling>
+        </gadget>
+        <gadget name="unitstatpanel-multipleUnitUnitButton4" type="button" size1024="907 642 939 674" z="11">
+          <piechartfilling color="0 255 0 128" rotation="cw" fill="false">
+          </piechartfilling>
+        </gadget>
+        <gadget name="unitstatpanel-multipleUnitUnitButton5" type="button" size1024="939 642 971 674" z="11">
+          <piechartfilling color="0 255 0 128" rotation="cw" fill="false">
+          </piechartfilling>
+        </gadget>
+        <gadget name="unitstatpanel-multipleUnitUnitButton6" type="button" size1024="971 642 1003 674" z="11">
+          <piechartfilling color="0 255 0 128" rotation="cw" fill="false">
+          </piechartfilling>
+        </gadget>
+        <gadget name="unitstatpanel-multipleUnitUnitButton7" type="button" size1024="779 674 811 706" z="11">
+          <piechartfilling color="0 255 0 128" rotation="cw" fill="false">
+          </piechartfilling>
+        </gadget>
+        <gadget name="unitstatpanel-multipleUnitUnitButton8" type="button" size1024="811 674 843 706" z="11">
+          <piechartfilling color="0 255 0 128" rotation="cw" fill="false">
+          </piechartfilling>
+        </gadget>
+        <gadget name="unitstatpanel-multipleUnitUnitButton9" type="button" size1024="843 674 875 706" z="11">
+          <piechartfilling color="0 255 0 128" rotation="cw" fill="false">
+          </piechartfilling>
+        </gadget>
+        <gadget name="unitstatpanel-multipleUnitUnitButton10" type="button" size1024="875 674 907 706" z="11">
+          <piechartfilling color="0 255 0 128" rotation="cw" fill="false">
+          </piechartfilling>
+        </gadget>
+        <gadget name="unitstatpanel-multipleUnitUnitButton11" type="button" size1024="907 674 939 706" z="11">
+          <piechartfilling color="0 255 0 128" rotation="cw" fill="false">
+          </piechartfilling>
+        </gadget>
+        <gadget name="unitstatpanel-multipleUnitUnitButton12" type="button" size1024="939 674 971 706" z="11">
+          <piechartfilling color="0 255 0 128" rotation="cw" fill="false">
+          </piechartfilling>
+        </gadget>
+        <gadget name="unitstatpanel-multipleUnitUnitButton13" type="button" size1024="971 674 1003 706" z="11">
+          <piechartfilling color="0 255 0 128" rotation="cw" fill="false">
+          </piechartfilling>
+        </gadget>
+        <gadget name="unitstatpanel-multipleUnitUnitButton14" type="button" size1024="779 706 811 738" z="11">
+          <piechartfilling color="0 255 0 128" rotation="cw" fill="false">
+          </piechartfilling>
+        </gadget>
+        <gadget name="unitstatpanel-multipleUnitUnitButton15" type="button" size1024="811 706 843 738" z="11">
+          <piechartfilling color="0 255 0 128" rotation="cw" fill="false">
+          </piechartfilling>
+        </gadget>
+        <gadget name="unitstatpanel-multipleUnitUnitButton16" type="button" size1024="843 706 875 738" z="11">
+          <piechartfilling color="0 255 0 128" rotation="cw" fill="false">
+          </piechartfilling>
+        </gadget>
+        <gadget name="unitstatpanel-multipleUnitUnitButton17" type="button" size1024="875 706 907 738" z="11">
+          <piechartfilling color="0 255 0 128" rotation="cw" fill="false">
+          </piechartfilling>
+        </gadget>
+        <gadget name="unitstatpanel-multipleUnitUnitButton18" type="button" size1024="907 706 939 738" z="11">
+          <piechartfilling color="0 255 0 128" rotation="cw" fill="false">
+          </piechartfilling>
+        </gadget>
+        <gadget name="unitstatpanel-multipleUnitUnitButton19" type="button" size1024="939 706 971 738" z="11">
+          <piechartfilling color="0 255 0 128" rotation="cw" fill="false">
+          </piechartfilling>
+        </gadget>
+        <gadget name="unitstatpanel-multipleUnitUnitButton20" type="button" size1024="971 706 1003 738" z="11">
+          <piechartfilling color="0 255 0 128" rotation="cw" fill="false">
+          </piechartfilling>
+        </gadget>
+      </gadget>
+    </gadget>
+    <gadget name="unitstatpanel-commandPanel" type="gadget" size1024="767 745 997 767" z="10" hidden="">
+      <gadget name="unitstatpanel-commandButton0" type="button" size1024="768 746 789 767" z="11">
+      </gadget>
+      <gadget name="unitstatpanel-commandButton1" type="button" size1024="791 746 812 767" z="11">
+      </gadget>
+      <gadget name="unitstatpanel-commandButton2" type="button" size1024="814 746 835 767" z="11">
+      </gadget>
+      <gadget name="unitstatpanel-commandButton3" type="button" size1024="837 746 858 767" z="11">
+      </gadget>
+      <gadget name="unitstatpanel-commandButton4" type="button" size1024="860 746 881 767" z="11">
+      </gadget>
+      <gadget name="unitstatpanel-commandButton5" type="button" size1024="883 746 904 767" z="11">
+      </gadget>
+      <gadget name="unitstatpanel-commandButton6" type="button" size1024="906 746 927 767" z="11">
+      </gadget>
+      <gadget name="unitstatpanel-commandButton7" type="button" size1024="929 746 950 767" z="11">
+      </gadget>
+      <gadget name="unitstatpanel-commandButton8" type="button" size1024="952 746 973 767" z="11">
+      </gadget>
+      <gadget name="unitstatpanel-commandButton9" type="button" size1024="975 746 996 767" z="11">
+      </gadget>
+    </gadget>
+  </gadget>
+</layout>

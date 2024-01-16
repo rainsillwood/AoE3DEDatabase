@@ -1,0 +1,12 @@
+<layout>
+  <gadget name="soundgadget" type="gadget" size1024="100 200 700 750" closebutton="" titlebar="Sound Control" background="ui\editor\soundedit">
+    <gadget type="textBox" name="soundgadget-typetitle" textcenterhoriz="" textcentervert="" a-dtype="textFontSize number Z number" sizerel1024="10 10 245 30">Sound Types</gadget>
+    <gadget type="list" name="soundgadget-typelist" buttonsize1024="200 30" showselect="" columnorder="" textcolor="192 192 255" selectedcolor="255 255 255" sizerel1024="10 35 245 470" background="ui\core_ui\background_blue_dark" scrollvert="">
+    </gadget>
+    <gadget type="textField" name="soundgadget-sexfield" buttonsize1024="200 30" showselect="" columnorder="" textcolor="192 192 255" selectedcolor="255 255 255" sizerel1024="255 35 590 65" background="ui\core_ui\background_blue_dark" scrollvert="">Sex:<dropdown></dropdown></gadget>
+    <gadget type="textField" name="soundgadget-civfield" buttonsize1024="200 30" showselect="" columnorder="" textcolor="192 192 255" selectedcolor="255 255 255" sizerel1024="255 75 590 105" background="ui\core_ui\background_blue_dark" scrollvert="">Civ:<dropdown></dropdown></gadget>
+    <gadget type="textField" name="soundgadget-targetfield" buttonsize1024="200 30" showselect="" columnorder="" textcolor="192 192 255" selectedcolor="255 255 255" sizerel1024="255 115 590 145" background="ui\core_ui\background_blue_dark" scrollvert="">Target:<dropdown></dropdown></gadget>
+    <gadget type="textField" name="soundgadget-soundsetfield" buttonsize1024="200 30" showselect="" columnorder="" textcolor="192 192 255" selectedcolor="255 255 255" sizerel1024="255 400 590 430" background="ui\core_ui\background_blue_dark" scrollvert="">SoundSet:<dropdown></dropdown></gadget>
+    <gadget type="button" name="soundgadget-savebutton" textcolor="255 255 255" bevelbutton="" sizerel1024="10 480 90 510">save</gadget>
+  </gadget>
+</layout>

@@ -1,0 +1,24 @@
+<layout>
+  <gadget name="xsDebugger" type="xsdebugger" z="1000" size1024="0 32 1024 768" closebutton="" titlebar="XS Debugger" backgroundcolor="128 128 128" hidden="" context="xsdebugger">
+    <gadget type="textBox" name="xsDebugger-outputLabel" size1024="5 69 1014 94" textcolor="255 255 255" backgroundcolor="128 128 128">AI Output:</gadget>
+    <gadget type="simpleTextBox" name="xsDebugger-output" size1024="6 97 1015 282" textcolor="255 255 0" backgroundcolor="0 0 128" textfont="Courier" textfontsize="11" textwrapon="" scrollvert="" scrollhoriz="" cursoralwayson="" textsimpleaddmaintainsposition="">
+    </gadget>
+    <gadget type="textBox" name="xsDebugger-callStackLabel" size1024="28 134 1001 157" textcolor="255 255 255" backgroundcolor="128 128 128">Call Stack:</gadget>
+    <gadget type="simpleTextBox" name="xsDebugger-callStack" size1024="5 290 424 424" textcolor="255 255 0" backgroundcolor="0 0 128" textfont="Courier" textfontsize="11" scrollvert="" scrollhoriz="">
+    </gadget>
+    <gadget type="textBox" name="xsDebugger-heapLabel" size1024="429 290 853 311" textcolor="255 255 255" backgroundcolor="128 128 128">Heap:</gadget>
+    <gadget type="simpleTextBox" name="xsDebugger-heap" size1024="463 316 853 423" textcolor="255 255 0" backgroundcolor="0 0 128" textfont="Courier" textfontsize="11" scrollvert="" scrollhoriz="" textsimpleaddmaintainsposition="">
+    </gadget>
+    <gadget type="button" name="xsDebugger-heapDisplay" size1024="429 316 454 341" textcolor="0 0 0" backgroundcolor="0 0 128" bevelbutton="" tooltiptext="Heap display mode (only active when in a breakpoint).">H</gadget>
+    <gadget type="button" name="xsDebugger-variableDisplay" size1024="429 345 454 370" textcolor="0 0 0" backgroundcolor="0 0 128" bevelbutton="" tooltiptext="Variable display mode (only active when in a breakpoint).">V</gadget>
+    <gadget type="button" name="xsDebugger-breakpointAdd" size1024="862 290 1015 311" backgroundcolor="76 12 0" bevelbutton="" tooltiptext="Add a breakpoint at the current source line.">Add Breakpoint</gadget>
+    <gadget type="button" name="xsDebugger-breakpointRemove" size1024="862 317 1017 337" backgroundcolor="76 12 0" bevelbutton="" tooltiptext="Remove any breakpoint at the current source line.">Remove Breakpoint</gadget>
+    <gadget type="button" name="xsDebugger-breakpointGo" size1024="862 344 1015 365" backgroundcolor="76 12 0" bevelbutton="" tooltiptext="Restart XS execution (if in a breakpoint).">Run</gadget>
+    <gadget type="button" name="xsDebugger-breakpointSingleStep" size1024="862 371 1016 394" backgroundcolor="76 12 0" bevelbutton="" tooltiptext="Execute one line of XS code (if in a breakpoint).">Single Step</gadget>
+    <gadget type="button" name="xsDebugger-breakpointSingleStepOver" size1024="863 398 1017 420" backgroundcolor="76 12 0" bevelbutton="" tooltiptext="Execute one line of XS code, stepping over function (if in a breakpoint).">Single Step Over</gadget>
+    <gadget type="textBox" name="xsDebugger-sourceLabel" size1024="5 430 1017 451" textcolor="255 255 255" backgroundcolor="128 128 128">Current Source:</gadget>
+    <gadget type="textField" name="xsDebugger-sourceFilter" columnorder="" showselect="" selectedcolor="255 0 0" allowdoubleclick="" textcolor="0 0 0" buttonsize1024="400 30" size1024="6 455 1017 474" backgroundcolor="0 0 128" scrollvert="" fieldreadonly="">Source Filter <dropdown>None</dropdown></gadget>
+    <gadget type="simpleTextBox" name="xsDebugger-source" size1024="5 479 1017 763" textcolor="255 255 0" backgroundcolor="0 0 128" textfont="Courier" textfontsize="11" scrollvert="" scrollhoriz="" normalcursoralwayson="">
+    </gadget>
+  </gadget>
+</layout>

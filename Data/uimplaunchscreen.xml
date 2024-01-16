@@ -1,0 +1,89 @@
+<layout>
+  <gadget name="mplaunch-screen" type="gadget">
+    <gadget name="mplaunch-Background" type="gadget" size1024="0 0 1024 768" z="1">
+      <gadget name="mplaunchBackground1" type="gadget" size1024="0 0 256 256" background="UI\submenu_a" clampbackground="">
+      </gadget>
+      <gadget name="mplaunchBackground2" type="gadget" size1024="256 0 512 256" background="UI\submenu_b" clampbackground="">
+      </gadget>
+      <gadget name="mplaunchBackground3" type="gadget" size1024="512 0 768 256" background="UI\submenu_c" clampbackground="">
+      </gadget>
+      <gadget name="mplaunchBackground4" type="gadget" size1024="768 0 896 128" background="UI\submenu_d" clampbackground="">
+      </gadget>
+      <gadget name="mplaunchBackground5" type="gadget" size1024="896 0 1024 64" background="UI\submenu_e" clampbackground="">
+      </gadget>
+      <gadget name="mplaunchBackground6" type="gadget" size1024="896 64 1024 128" background="UI\submenu_f" clampbackground="">
+      </gadget>
+      <gadget name="mplaunchBackground7" type="gadget" size1024="768 128 1024 256" background="UI\submenu_g" clampbackground="">
+      </gadget>
+      <gadget name="mplaunchBackground8" type="gadget" size1024="0 256 256 512" background="UI\submenu_h" clampbackground="">
+      </gadget>
+      <gadget name="mplaunchBackground9" type="gadget" size1024="256 256 512 512" background="UI\submenu_i" clampbackground="">
+      </gadget>
+      <gadget name="mplaunchBackground10" type="gadget" size1024="512 256 768 512" background="UI\submenu_J" clampbackground="">
+      </gadget>
+      <gadget name="mplaunchBackground11" type="gadget" size1024="768 256 1024 512" background="UI\submenu_k" clampbackground="">
+      </gadget>
+      <gadget name="mplaunchBackground12" type="gadget" size1024="0 512 256 768" background="UI\submenu_L" clampbackground="">
+      </gadget>
+      <gadget name="mplaunchBackground13" type="gadget" size1024="256 512 512 768" background="UI\submenu_M" clampbackground="" clampforeground="">
+      </gadget>
+      <gadget name="mplaunchBackground14" type="gadget" size1024="512 512 768 768" background="UI\submenu_N" clampbackground="">
+      </gadget>
+      <gadget name="mplaunchBackground15" type="gadget" size1024="768 512 1024 768" background="UI\submenu_O" clampbackground="">
+      </gadget>
+    </gadget>
+    <gadget name="mplaunch-MainMenuButton" type="stateButton" mouseovertext="Return to the main menu" z="12" statebuttonuseinternalstates="" size1024="896 0 1024 64">
+      <command>exitMPSetupSubScreen()</command>
+      <stateentry background="">
+      </stateentry>
+      <stateentry background="">
+      </stateentry>
+      <stateentry background="UI\submenu_e rollover">
+      </stateentry>
+      <stateentry background="">
+      </stateentry>
+    </gadget>
+    <gadget name="mplaunch-DisablePanel" type="gadget" size1024="50 116 992 718" textfont="Arial nodrop" textfontsize="14" textcolor="255 255 255" backgroundcolor="0 0 0" backgroundalpha="0.85" z="90" hidden="">Launching Game in %d...<gadget name="mplaunch-DisablePanel-CancelBtn" foreground="UI\core_ui\button_128x32_normal" textcolor="3 0 88" textfontsize="14" textfont="ButtonFont" type="button" size1024="860 677 988 709">$$18466$$Cancel</gadget></gadget>
+    <gadget name="mplaunch-BannerArea" type="gadget" size1024="133 15 890 78">
+    </gadget>
+    <gadget name="mplaunch-gamesettings" type="gadget" z="20" size1024="50 116 780 240" background="UI\background_D" tilebackground="" sunkenbevel="">
+      <gadget name="mplaunch-gamesettings-gametype-label" type="formatText" textfont="FieldLabels" textfontsize="14" textcolor="0 0 0" size1024="60 126 190 146">Game Type:         </gadget>
+      <gadget name="mplaunch-gamesettings-gametype" type="formatText" textfont="EntryFields" textcolor="0 0 0" textfontsize="12" size1024="190 126 280 146">AGameType         </gadget>
+      <gadget name="mplaunch-gamesettings-maptype-label" type="formatText" textfont="FieldLabels" textfontsize="14" textcolor="0 0 0" size1024="60 151 190 171">Map Type:         </gadget>
+      <gadget name="mplaunch-gamesettings-maptype" type="formatText" textfont="EntryFields" textcolor="0 0 0" textfontsize="12" size1024="190 151 280 171">AMapType         </gadget>
+      <gadget name="mplaunch-gamesettings-mapsize-label" type="formatText" textfont="FieldLabels" textfontsize="14" textcolor="0 0 0" size1024="60 176 190 196">Map Size:          </gadget>
+      <gadget name="mplaunch-gamesettings-mapsize" type="textField" fieldval="1" fieldnametextfont="FieldLabels" fieldreadonly="" fieldhideoninactive="" fieldnametextfontsize="14" fieldtextboxcolor="255 255 255" fieldnametextcolor="0 0 0" textcolor="0 0 0" textfont="EntryFields" textfontsize="12" size1024="190 176 280 196">
+        <dropdown>Small</dropdown>
+        <dropdown>Medium</dropdown>
+        <dropdown>Large</dropdown>
+      </gadget>
+      <gadget name="mplaunch-gamesettings-victoryconditions-label" type="formatText" textfont="FieldLabels" textfontsize="14" textcolor="0 0 0" size1024="350 126 480 146">Victory Cond:      </gadget>
+      <gadget name="mplaunch-gamesettings-victoryconditions" type="textField" fieldreadonly="" fieldhideoninactive="" fieldval="1" fieldnametextfontsize="14" fieldnametextfont="FieldLabels" fieldtextboxcolor="255 255 255" textfont="EntryFields" textfontsize="12" textcolor="0 0 0" size1024="480 126 590 146">
+        <dropdown>Supremacy</dropdown>
+        <dropdown>Conquest</dropdown>
+        <dropdown>Lightning</dropdown>
+        <dropdown>Deathmatch</dropdown>
+      </gadget>
+      <gadget name="mplaunch-gamesettings-handicap-label" type="formatText" textfont="FieldLabels" textfontsize="14" textcolor="0 0 0" size1024="350 151 480 171">$$21084$$Handicap:          </gadget>
+      <gadget name="mplaunch-gamesettings-handicap" type="textField" textfontsize="12" fieldreadonly="" fieldhideoninactive="" textfont="EntryFields" fieldnametextcolor="0 0 0" textcolor="0 0 0" fieldnametextfontsize="12" fieldnametextfont="EntryFields" fieldtextboxcolor="255 255 255" size1024="480 151 570 171">
+        <dropdown>Normal</dropdown>
+        <dropdown>Fairest</dropdown>
+        <dropdown>Free</dropdown>
+        <dropdown>Practice</dropdown>
+      </gadget>
+      <gadget hidden="" name="mplaunch-gamesettings-setting6-label" type="formatText" textfont="FieldLabels" textfontsize="14" textcolor="0 0 0" size1024="350 176 480 196">Setting 6:         </gadget>
+      <gadget hidden="" name="mplaunch-gamesettings-setting6" type="formatText" textfont="EntryFields" textcolor="0 0 0" textfontsize="12" size1024="480 176 570 196">A setting         </gadget>
+    </gadget>
+    <gadget size1024="842 116 970 244" name="mplaunch-MapPreviewArea" type="gadget" backgroundcolor="255 255 255">
+    </gadget>
+    <gadget name="mplaunch-PlayerContainer" type="gadget" size1024="50 250 780 500" sunkenbevel="" textfont="EntryFields" textfontsize="12" textcolor="0 0 0" background="UI\background_D1" tilebackground="">
+    </gadget>
+    <gadget name="mplaunch-chat-area-container" type="gadget" size1024="50 510 780 715">
+      <gadget textfontsize="12" textfont="ChatOutput" sunkenbevel="" tilebackground="" background="UI\background_D" name="mplaunch-chat-area-chatoutput" type="simpleTextBox" size1024="50 510 780 685" textsimpleaddscrollstobottom="" scrollvert="" textcolor="0 0 0" wordwrap="">
+      </gadget>
+      <gadget sunkenbevel="" tilebackground="" background="UI\background_D" name="mplaunch-chat-area-chatinput" type="editBox" textcolor="0 0 0" textcentervert="" enterkey="" textfont="ChatInput" textfontsize="12" editboxmaxchars="200" size1024="50 690 780 713">
+      </gadget>
+    </gadget>
+    <gadget name="mplaunch-CancelBtn" foreground="UI\button_A" textcolor="0 0 0" textfontsize="14" textfont="ButtonFont" type="button" size1024="850 690 970 720">$$18466$$Cancel</gadget>
+  </gadget>
+</layout>

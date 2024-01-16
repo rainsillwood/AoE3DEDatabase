@@ -1,0 +1,341 @@
+<layout>
+  <gadget name="playerstatusdialog-screen" type="dialog" size1024="46 16 986 752" background="ui\file_system\file_system_background" tilebackground="" windowzstyle="" hidden="" contextexclusive="playerstatusdialog">
+    <gadget name="playerstatusdialog-leftborder1" type="gadget" background="missing" size1024="38 32 46 613" tilebackgroundvert="" transparent="" z="9">
+    </gadget>
+    <gadget name="playerstatusdialog-rightborder1" type="gadget" background="missing" size1024="986 32 994 613" tilebackgroundvert="" z="3" transparent="">
+    </gadget>
+    <gadget name="playerstatusdialog-topwithcorners" type="gadget" size1024="60 2 974 25" z="11">
+      <gadget tilebackgroundhoriz="" name="playerstatusdialog-top" type="gadget" background="missing" size1024="46 0 987 16" z="4" transparent="">
+      </gadget>
+      <gadget name="playerstatusdialog-topright" type="gadget" background="ui\ui border greek top right corner" size1024="962 0 994 32" z="5" transparent="" clampbackground="">
+      </gadget>
+      <gadget name="playerstatusdialog-topleft" type="gadget" background="ui\ui border greek top left corner" size1024="38 0 70 32" z="6" transparent="" clampbackground="">
+      </gadget>
+    </gadget>
+    <gadget name="playerstatusdialog-Header" type="gadget" background="" size1024="51 27 988 83" z="9">
+      <gadget name="playerstatusdialog-ScreenLabel" textcentervert="" textcolor="255 208 0" textfontsize="22" textfont="PregameHeaders" type="formatText" size1024="66 27 365 52" z="10">$$22168$$Diplomacy Settings</gadget>
+      <gadget name="playerstatusdialog-ScreenSeparator" type="gadget" size1024="56 57 966 59" background="missing" z="8">
+      </gadget>
+    </gadget>
+    <gadget name="playerstatusdialog-Body" type="gadget" background="" size1024="48 74 979 608" z="10">
+      <gadget name="PlayerNameText" type="formatText" textcolor="255 208 0" textfont="InGameLabels" textfontsize="18" textwrapon="" size1024="62 68 242 95" textcentervert="">$$19095$$Players</gadget>
+      <gadget name="CivilizationText" type="formatText" textcolor="255 208 0" textfont="InGameLabels" textfontsize="18" textwrapon="" size1024="247 68 393 95" textcentervert="">$$19096$$Civilization</gadget>
+      <gadget name="GPText" type="formatText" textcolor="255 208 0" textfont="InGameLabels" textfontsize="18" textwrapon="" textcenterhoriz="" textcentervert="" size1024="390 68 541 95">$$19097$$God Powers</gadget>
+      <gadget name="DiplomacyText" type="formatText" textcolor="255 208 0" textfont="InGameLabels" textfontsize="18" textwrapon="" textcenterhoriz="" textcentervert="" size1024="544 68 777 95">$$19098$$Diplomacy<gadget name="DiplomacyText-Allied" type="formatText" textcolor="255 208 0" textfont="InGameDialogs" textfontsize="16" textwrapon="" textcenterhoriz="" textcentervert="" size1024="541 97 623 119">$$19101$$Ally</gadget><gadget name="DiplomacyText-Neutral" type="formatText" textcolor="255 208 0" textfont="InGameDialogs" textfontsize="16" textwrapon="" textcenterhoriz="" textcentervert="" size1024="626 97 708 119">$$19102$$Neutral</gadget><gadget name="DiplomacyText-Enemy" type="formatText" textcolor="255 208 0" textfont="InGameDialogs" textfontsize="16" textwrapon="" textcenterhoriz="" textcentervert="" size1024="709 97 791 119">$$19103$$Enemy</gadget></gadget>
+      <gadget name="RatingText" type="formatText" textcolor="255 208 0" textfont="InGameLabels" textfontsize="18" textwrapon="" textcenterhoriz="" textcentervert="" size1024="782 68 867 95">$$19099$$Rating</gadget>
+      <gadget name="HandicapText" type="formatText" textcolor="255 208 0" textfont="InGameLabels" textfontsize="18" textwrapon="" textcenterhoriz="" textcentervert="" size1024="874 68 965 95">$$19100$$Handicap</gadget>
+      <gadget name="Player1Entry" type="gadget" size1024="109 120 968 158" z="11">
+        <gadget name="Player1Name" fieldval="1" type="formatText" fieldtextboxcolor="255 208 0" textfont="InGameLabels" textfontsize="18" textcolor="255 208 0" size1024="62 123 247 155" textcentervert="">Connection Error</gadget>
+        <gadget background="ui\ui god odin 32x32" name="Player1God" type="gadget" size1024="247 123 279 155" z="20">
+        </gadget>
+        <gadget name="Player1Civ" fieldval="1" type="formatText" fieldtextboxcolor="255 208 0" textfont="InGameLabels" textfontsize="18" textcolor="255 208 0" size1024="279 123 385 155" textcentervert="">Poseidon</gadget>
+        <gadget name="Player1GP1" type="gadget" size1024="390 122 422 154" background="icons\God Power Vision icon">
+        </gadget>
+        <gadget name="Player1GP2" type="gadget" size1024="430 122 462 154" background="icons\God Power Vision icon">
+        </gadget>
+        <gadget name="Player1GP3" type="gadget" size1024="470 122 502 154" background="icons\God Power Vision icon">
+        </gadget>
+        <gadget name="Player1GP4" type="gadget" size1024="509 122 541 154" background="icons\God Power Vision icon">
+        </gadget>
+        <gadget name="Player1Diplomacy" type="radioset" mouseovertext="$$19107$$Select if this player is an enemy, an ally, or neutral." size1024="571 122 769 153" textcolor="0 0 0" textfontsize="20" textfont="InGameDialogs" radiosethorizlayout="" radiosetbuttonsize1024="32 32" radiosetdefaultbuttonindex="0" radiocheckedart="ui\core_ui\round clicked" radiouncheckedart="ui\core_ui\round" radiobtnborder1024="2 2">
+          <button>
+          </button>
+          <button>
+          </button>
+          <button>
+          </button>
+        </gadget>
+        <gadget name="Player1Rating" fieldval="1" type="formatText" mouseovertext="$$19108$$This is the player's rating." fieldtextboxcolor="255 255 255" textfont="InGameLabels" textfontsize="18" textcolor="255 208 0" size1024="782 129 870 148" textcenterhoriz="" textcentervert="" hidden="">1234</gadget>
+        <gadget name="Player1Handicap" textcenterhoriz="" fieldval="1" type="formatText" mouseovertext="$$19109$$This is the player's handicap." fieldtextboxcolor="255 255 255" textfont="InGameLabels" textfontsize="18" textcolor="255 208 0" size1024="874 129 962 148" textcentervert="" hidden="">1234</gadget>
+      </gadget>
+      <gadget name="Player2Entry" type="gadget" size1024="109 161 968 199" z="11">
+        <gadget name="Player2Name" fieldval="1" type="formatText" fieldtextboxcolor="255 255 255" textfont="InGameLabels" textfontsize="18" textcolor="255 208 0" size1024="62 165 247 197" textcentervert="">Player 2        <gadget name="Player2Entry-Background" type="gadget" size1024="46 164 986 199" background="missing" tilebackground="" z="10"></gadget></gadget>
+        <gadget background="ui\ui god odin 32x32" name="Player2God" type="gadget" size1024="247 165 279 197" z="20">
+        </gadget>
+        <gadget name="Player2Civ" fieldval="1" type="formatText" fieldtextboxcolor="255 255 255" textfont="InGameLabels" textfontsize="18" textcolor="255 208 0" size1024="279 165 385 197" textcentervert="" z="20">Poseidon</gadget>
+        <gadget background="icons\God Power Vision icon" name="Player2GP1" type="gadget" size1024="390 164 422 196" z="20">
+        </gadget>
+        <gadget background="icons\God Power Vision icon" name="Player2GP2" type="gadget" size1024="430 164 462 196" z="20">
+        </gadget>
+        <gadget background="icons\God Power Vision icon" name="Player2GP3" type="gadget" size1024="470 164 502 196" z="20">
+        </gadget>
+        <gadget background="icons\God Power Vision icon" name="Player2GP4" type="gadget" size1024="509 164 541 196" z="20">
+        </gadget>
+        <gadget name="Player2Diplomacy" type="radioset" mouseovertext="$$19107$$Select if this player is an enemy, an ally, or neutral." size1024="571 164 769 195" textcolor="0 0 0" textfontsize="20" textfont="InGameDialogs" radiosethorizlayout="" radiosetbuttonsize1024="32 32" radiosetdefaultbuttonindex="0" radiocheckedart="ui\core_ui\round clicked" radiouncheckedart="ui\core_ui\round" radiobtnborder1024="2 2" z="20">
+          <button>
+          </button>
+          <button>
+          </button>
+          <button>
+          </button>
+        </gadget>
+        <gadget name="Player2Rating" fieldval="1" type="formatText" mouseovertext="$$19108$$This is the player's rating." fieldtextboxcolor="255 255 255" textfont="InGameLabels" textfontsize="18" textcolor="255 208 0" size1024="782 171 870 190" textcenterhoriz="" textcentervert="" z="20" hidden="">1234</gadget>
+        <gadget name="Player2Handicap" textcenterhoriz="" fieldval="1" type="formatText" mouseovertext="$$19109$$This is the player's handicap." fieldtextboxcolor="255 255 255" textfont="InGameLabels" textfontsize="18" textcolor="255 208 0" size1024="874 171 962 190" textcentervert="" z="20" hidden="">1234</gadget>
+      </gadget>
+      <gadget name="Player3Entry" type="gadget" size1024="109 202 968 240" z="11">
+        <gadget name="Player3Name" fieldval="1" type="formatText" fieldtextboxcolor="255 255 255" textfont="InGameLabels" textfontsize="18" textcolor="255 208 0" size1024="62 205 247 237" textcentervert="">Player 3        </gadget>
+        <gadget background="ui\ui god odin 32x32" name="Player3God" type="gadget" size1024="247 205 279 237">
+        </gadget>
+        <gadget name="Player3Civ" fieldval="1" type="formatText" fieldtextboxcolor="255 255 255" textfont="InGameLabels" textfontsize="18" textcolor="255 208 0" size1024="279 205 385 237" textcentervert="">Poseidon</gadget>
+        <gadget background="icons\God Power Vision icon" name="Player3GP1" type="gadget" size1024="390 205 422 237" z="20">
+        </gadget>
+        <gadget background="icons\God Power Vision icon" name="Player3GP2" type="gadget" size1024="430 205 462 237" z="20">
+        </gadget>
+        <gadget background="icons\God Power Vision icon" name="Player3GP3" type="gadget" size1024="470 205 502 237" z="20">
+        </gadget>
+        <gadget background="icons\God Power Vision icon" name="Player3GP4" type="gadget" size1024="509 205 541 237" z="20">
+        </gadget>
+        <gadget name="Player3Diplomacy" type="radioset" mouseovertext="$$19107$$Select if this player is an enemy, an ally, or neutral." size1024="571 205 769 236" textcolor="0 0 0" textfontsize="14" textfont="FieldLabels" radiosethorizlayout="" radiosetbuttonsize1024="32 32" radiosetdefaultbuttonindex="0" radiocheckedart="ui\core_ui\round clicked" radiouncheckedart="ui\core_ui\round" radiobtnborder1024="2 2">
+          <button>
+          </button>
+          <button>
+          </button>
+          <button>
+          </button>
+        </gadget>
+        <gadget name="Player3Rating" fieldval="1" type="formatText" mouseovertext="$$19108$$This is the player's rating." fieldtextboxcolor="255 255 255" textfont="InGameLabels" textfontsize="18" textcolor="255 208 0" size1024="782 211 870 230" textcenterhoriz="" textcentervert="" hidden="">1234</gadget>
+        <gadget name="Player3Handicap" textcenterhoriz="" fieldval="1" type="formatText" mouseovertext="$$19109$$This is the player's handicap." fieldtextboxcolor="255 255 255" textfont="InGameLabels" textfontsize="18" textcolor="255 208 0" size1024="874 211 962 230" textcentervert="" hidden="">1234</gadget>
+      </gadget>
+      <gadget name="Player4Entry" type="gadget" size1024="109 244 968 282" z="20">
+        <gadget name="Player4Name" fieldval="1" type="formatText" fieldtextboxcolor="255 255 255" textfont="InGameLabels" textfontsize="18" textcolor="255 208 0" size1024="62 246 247 278" textcentervert="">Player 4        <gadget name="Player4Entry-Background" type="gadget" size1024="46 244 986 280" background="missing" tilebackground="" z="10"></gadget></gadget>
+        <gadget background="ui\ui god odin 32x32" name="Player4God" type="gadget" size1024="247 246 279 278" z="20">
+        </gadget>
+        <gadget name="Player4Civ" fieldval="1" type="formatText" fieldtextboxcolor="255 255 255" textfont="InGameLabels" textfontsize="18" textcolor="255 208 0" size1024="279 246 385 278" textcentervert="" z="20">Poseidon</gadget>
+        <gadget background="icons\God Power Vision icon" name="Player4GP1" type="gadget" size1024="390 246 422 278" z="20">
+        </gadget>
+        <gadget background="icons\God Power Vision icon" name="Player4GP2" type="gadget" size1024="430 246 462 278" z="20">
+        </gadget>
+        <gadget background="icons\God Power Vision icon" name="Player4GP3" type="gadget" size1024="470 246 502 278" z="20">
+        </gadget>
+        <gadget background="icons\God Power Vision icon" name="Player4GP4" type="gadget" size1024="509 246 541 278" z="20">
+        </gadget>
+        <gadget name="Player4Diplomacy" type="radioset" mouseovertext="$$19107$$Select if this player is an enemy, an ally, or neutral." size1024="571 246 769 277" textcolor="0 0 0" textfontsize="14" textfont="FieldLabels" radiosethorizlayout="" radiosetbuttonsize1024="32 32" radiosetdefaultbuttonindex="0" radiocheckedart="ui\core_ui\round clicked" radiouncheckedart="ui\core_ui\round" radiobtnborder1024="2 2" z="20">
+          <button>
+          </button>
+          <button>
+          </button>
+          <button>
+          </button>
+        </gadget>
+        <gadget name="Player4Rating" fieldval="1" type="formatText" mouseovertext="$$19108$$This is the player's rating." fieldtextboxcolor="255 255 255" textfont="InGameLabels" textfontsize="18" textcolor="255 208 0" size1024="782 252 870 271" textcenterhoriz="" textcentervert="" z="20" hidden="">1234</gadget>
+        <gadget name="Player4Handicap" textcenterhoriz="" fieldval="1" type="formatText" mouseovertext="$$19109$$This is the player's handicap." fieldtextboxcolor="255 255 255" textfont="InGameLabels" textfontsize="18" textcolor="255 208 0" size1024="874 252 962 271" textcentervert="" z="20" hidden="">1234</gadget>
+      </gadget>
+      <gadget name="Player5Entry" type="gadget" size1024="109 286 968 324" z="11">
+        <gadget name="Player5Name" fieldval="1" type="formatText" fieldtextboxcolor="255 255 255" textfont="InGameLabels" textfontsize="18" textcolor="255 208 0" size1024="62 289 247 321" textcentervert="">Player 5        </gadget>
+        <gadget background="ui\ui god odin 32x32" name="Player5God" type="gadget" size1024="247 289 279 321" z="20">
+        </gadget>
+        <gadget name="Player5Civ" fieldval="1" type="formatText" fieldtextboxcolor="255 255 255" textfont="InGameLabels" textfontsize="18" textcolor="255 208 0" size1024="279 289 385 321" textcentervert="">Poseidon</gadget>
+        <gadget background="icons\God Power Vision icon" name="Player5GP1" type="gadget" size1024="390 289 422 321" z="20">
+        </gadget>
+        <gadget background="icons\God Power Vision icon" name="Player5GP2" type="gadget" size1024="430 289 462 321" z="20">
+        </gadget>
+        <gadget background="icons\God Power Vision icon" name="Player5GP3" type="gadget" size1024="470 289 502 321" z="20">
+        </gadget>
+        <gadget background="icons\God Power Vision icon" name="Player5GP4" type="gadget" size1024="509 289 541 321" z="20">
+        </gadget>
+        <gadget name="Player5Diplomacy" type="radioset" mouseovertext="$$19107$$Select if this player is an enemy, an ally, or neutral." size1024="571 289 769 320" textcolor="0 0 0" textfontsize="14" textfont="FieldLabels" radiosethorizlayout="" radiosetbuttonsize1024="32 32" radiosetdefaultbuttonindex="0" radiocheckedart="ui\core_ui\round clicked" radiouncheckedart="ui\core_ui\round" radiobtnborder1024="2 2">
+          <button>
+          </button>
+          <button>
+          </button>
+          <button>
+          </button>
+        </gadget>
+        <gadget name="Player5Rating" fieldval="1" type="formatText" mouseovertext="$$19108$$This is the player's rating." fieldtextboxcolor="255 255 255" textfont="InGameLabels" textfontsize="18" textcolor="255 208 0" size1024="782 295 870 314" textcenterhoriz="" textcentervert="" hidden="">1234</gadget>
+        <gadget name="Player5Handicap" textcenterhoriz="" fieldval="1" type="formatText" mouseovertext="$$19109$$This is the player's handicap." fieldtextboxcolor="255 255 255" textfont="InGameLabels" textfontsize="18" textcolor="255 208 0" size1024="874 295 962 314" textcentervert="" hidden="">1234</gadget>
+      </gadget>
+      <gadget name="Player6Entry" type="gadget" size1024="109 328 968 366" z="11">
+        <gadget name="Player6Name" fieldval="1" type="formatText" fieldtextboxcolor="255 255 255" textfont="InGameLabels" textfontsize="18" textcolor="255 208 0" size1024="62 330 247 362" textcentervert="">Player 6        <gadget name="Player6Entry-Background" type="gadget" size1024="46 328 986 364" background="missing" tilebackground="" z="10"></gadget></gadget>
+        <gadget background="ui\ui god odin 32x32" name="Player6God" type="gadget" size1024="247 330 279 362" z="20">
+        </gadget>
+        <gadget name="Player6Civ" fieldval="1" type="formatText" fieldtextboxcolor="255 255 255" textfont="InGameLabels" textfontsize="18" textcolor="255 208 0" size1024="279 330 385 362" textcentervert="" z="20">Poseidon</gadget>
+        <gadget background="icons\God Power Vision icon" name="Player6GP1" fieldval="1" type="gadget" size1024="390 330 422 362" z="20">
+        </gadget>
+        <gadget background="icons\God Power Vision icon" name="Player6GP2" fieldval="1" type="gadget" size1024="430 330 462 362" z="20">
+        </gadget>
+        <gadget background="icons\God Power Vision icon" name="Player6GP3" fieldval="1" type="gadget" size1024="470 330 502 362" z="20">
+        </gadget>
+        <gadget background="icons\God Power Vision icon" name="Player6GP4" fieldval="1" type="gadget" size1024="509 330 541 362" z="20">
+        </gadget>
+        <gadget name="Player6Diplomacy" type="radioset" mouseovertext="$$19107$$Select if this player is an enemy, an ally, or neutral." size1024="571 330 769 361" textcolor="0 0 0" textfontsize="14" textfont="FieldLabels" radiosethorizlayout="" radiosetbuttonsize1024="32 32" radiosetdefaultbuttonindex="0" radiocheckedart="ui\core_ui\round clicked" radiouncheckedart="ui\core_ui\round" radiobtnborder1024="2 2" z="20">
+          <button>
+          </button>
+          <button>
+          </button>
+          <button>
+          </button>
+        </gadget>
+        <gadget name="Player6Rating" fieldval="1" type="formatText" mouseovertext="$$19108$$This is the player's rating." fieldtextboxcolor="255 255 255" textfont="InGameLabels" textfontsize="18" textcolor="255 208 0" size1024="782 336 872 356" textcenterhoriz="" textcentervert="" z="20" hidden="">1234</gadget>
+        <gadget name="Player6Handicap" textcenterhoriz="" fieldval="1" type="formatText" mouseovertext="$$19109$$This is the player's handicap." fieldtextboxcolor="255 255 255" textfont="InGameLabels" textfontsize="18" textcolor="255 208 0" size1024="874 336 964 356" textcentervert="" z="20" hidden="">1234</gadget>
+      </gadget>
+      <gadget name="Player7Entry" type="gadget" size1024="109 369 968 407" z="11">
+        <gadget name="Player7Name" fieldval="1" type="formatText" fieldtextboxcolor="255 255 255" textfont="InGameLabels" textfontsize="18" textcolor="255 208 0" size1024="62 371 247 403" textcentervert="">Player 7        </gadget>
+        <gadget background="ui\ui god odin 32x32" name="Player7God" type="gadget" size1024="247 371 279 403" z="20">
+        </gadget>
+        <gadget name="Player7Civ" fieldval="1" type="formatText" fieldtextboxcolor="255 255 255" textfont="InGameLabels" textfontsize="18" textcolor="255 208 0" size1024="279 371 385 403" textcentervert="">Poseidon</gadget>
+        <gadget background="icons\God Power Vision icon" name="Player7GP1" type="gadget" size1024="390 371 422 403" z="20">
+        </gadget>
+        <gadget background="icons\God Power Vision icon" name="Player7GP2" type="gadget" size1024="430 371 462 403" z="20">
+        </gadget>
+        <gadget background="icons\God Power Vision icon" name="Player7GP3" type="gadget" size1024="470 371 502 403" z="20">
+        </gadget>
+        <gadget background="icons\God Power Vision icon" name="Player7GP4" type="gadget" size1024="509 371 541 403" z="20">
+        </gadget>
+        <gadget name="Player7Diplomacy" type="radioset" mouseovertext="$$19107$$Select if this player is an enemy, an ally, or neutral." size1024="571 371 769 402" textcolor="0 0 0" textfontsize="14" textfont="FieldLabels" radiosethorizlayout="" radiosetbuttonsize1024="32 32" radiosetdefaultbuttonindex="0" radiocheckedart="ui\core_ui\round clicked" radiouncheckedart="ui\core_ui\round" radiobtnborder1024="2 2">
+          <button>
+          </button>
+          <button>
+          </button>
+          <button>
+          </button>
+        </gadget>
+        <gadget name="Player7Rating" fieldval="1" type="formatText" mouseovertext="$$19108$$This is the player's rating." fieldtextboxcolor="255 255 255" textfont="InGameLabels" textfontsize="18" textcolor="255 208 0" size1024="782 377 870 396" textcenterhoriz="" textcentervert="" hidden="">1234</gadget>
+        <gadget name="Player7Handicap" textcenterhoriz="" fieldval="1" type="formatText" mouseovertext="$$19109$$This is the player's handicap." fieldtextboxcolor="255 255 255" textfont="InGameLabels" textfontsize="18" textcolor="255 208 0" size1024="874 377 962 396" textcentervert="" hidden="">1234</gadget>
+      </gadget>
+      <gadget name="Player8Entry" type="gadget" size1024="109 410 968 448" z="11">
+        <gadget name="Player8Name" fieldval="1" type="formatText" fieldtextboxcolor="255 255 255" textfont="InGameLabels" textfontsize="18" textcolor="255 208 0" size1024="62 413 247 445" textcentervert="">Player 8        <gadget name="Player8Entry-Background" type="gadget" size1024="46 411 986 447" background="missing" tilebackground="" z="10"></gadget></gadget>
+        <gadget background="ui\ui god odin 32x32" name="Player8God" type="gadget" size1024="247 413 279 445" z="20">
+        </gadget>
+        <gadget name="Player8Civ" fieldval="1" type="formatText" fieldtextboxcolor="255 255 255" textfont="InGameLabels" textfontsize="18" textcolor="255 208 0" size1024="279 413 385 445" textcentervert="" z="20">Poseidon</gadget>
+        <gadget background="icons\God Power Vision icon" name="Player8GP1" type="gadget" size1024="390 413 422 445" z="20">
+        </gadget>
+        <gadget background="icons\God Power Vision icon" name="Player8GP2" type="gadget" size1024="430 413 462 445" z="20">
+        </gadget>
+        <gadget background="icons\God Power Vision icon" name="Player8GP3" type="gadget" size1024="470 413 502 445" z="20">
+        </gadget>
+        <gadget background="icons\God Power Vision icon" name="Player8GP4" type="gadget" size1024="509 413 541 445" z="20">
+        </gadget>
+        <gadget name="Player8Diplomacy" type="radioset" mouseovertext="$$19107$$Select if this player is an enemy, an ally, or neutral." size1024="571 413 769 444" textcolor="0 0 0" textfontsize="14" textfont="FieldLabels" radiosethorizlayout="" radiosetbuttonsize1024="32 32" radiosetdefaultbuttonindex="0" radiocheckedart="ui\core_ui\round clicked" radiouncheckedart="ui\core_ui\round" radiobtnborder1024="2 2" z="20">
+          <button>
+          </button>
+          <button>
+          </button>
+          <button>
+          </button>
+        </gadget>
+        <gadget name="Player8Rating" fieldval="1" type="formatText" mouseovertext="$$19108$$This is the player's rating." fieldtextboxcolor="255 255 255" textfont="InGameLabels" textfontsize="18" textcolor="255 208 0" size1024="782 419 870 438" textcenterhoriz="" textcentervert="" z="20" hidden="">1234</gadget>
+        <gadget name="Player8Handicap" textcenterhoriz="" fieldval="1" type="formatText" mouseovertext="$$19109$$This is the player's handicap." fieldtextboxcolor="255 255 255" textfont="InGameLabels" textfontsize="18" textcolor="255 208 0" size1024="874 419 962 438" textcentervert="" z="20" hidden="">1234</gadget>
+      </gadget>
+      <gadget name="Player9Entry" type="gadget" size1024="109 451 968 489" z="11">
+        <gadget name="Player9Name" fieldval="1" type="formatText" fieldtextboxcolor="255 255 255" textfont="InGameLabels" textfontsize="18" textcolor="255 208 0" size1024="62 455 247 487" textcentervert="">Player 9        </gadget>
+        <gadget background="ui\ui god odin 32x32" name="Player9God" type="gadget" size1024="247 455 279 487" z="20">
+        </gadget>
+        <gadget name="Player9Civ" fieldval="1" type="formatText" fieldtextboxcolor="255 255 255" textfont="InGameLabels" textfontsize="18" textcolor="255 208 0" size1024="280 455 386 487" textcentervert="">Poseidon</gadget>
+        <gadget background="icons\God Power Vision icon" name="Player9GP1" type="gadget" size1024="390 453 422 485" z="20">
+        </gadget>
+        <gadget background="icons\God Power Vision icon" name="Player9GP2" type="gadget" size1024="430 453 462 485" z="20">
+        </gadget>
+        <gadget background="icons\God Power Vision icon" name="Player9GP3" type="gadget" size1024="470 453 502 485" z="20">
+        </gadget>
+        <gadget background="icons\God Power Vision icon" name="Player9GP4" type="gadget" size1024="509 453 541 485" z="20">
+        </gadget>
+        <gadget name="Player9Diplomacy" type="radioset" mouseovertext="$$19107$$Select if this player is an enemy, an ally, or neutral." size1024="571 453 769 484" textcolor="0 0 0" textfontsize="14" textfont="FieldLabels" radiosethorizlayout="" radiosetbuttonsize1024="32 32" radiosetdefaultbuttonindex="0" radiocheckedart="ui\core_ui\round clicked" radiouncheckedart="ui\core_ui\round" radiobtnborder1024="2 2">
+          <button>
+          </button>
+          <button>
+          </button>
+          <button>
+          </button>
+        </gadget>
+        <gadget name="Player9Rating" fieldval="1" type="formatText" mouseovertext="$$19108$$This is the player's rating." fieldtextboxcolor="255 255 255" textfont="InGameDialogs" textfontsize="16" textcolor="255 208 0" size1024="782 461 870 479" textcenterhoriz="" textcentervert="" hidden="">1234</gadget>
+        <gadget name="Player9Handicap" textcenterhoriz="" fieldval="1" type="formatText" mouseovertext="$$19109$$This is the player's handicap." fieldtextboxcolor="255 255 255" textfont="InGameDialogs" textfontsize="16" textcolor="255 208 0" size1024="874 461 962 479" textcentervert="" hidden="">1234</gadget>
+      </gadget>
+      <gadget name="Player10Entry" type="gadget" size1024="109 493 968 531" z="11">
+        <gadget name="Player10Name" fieldval="1" type="formatText" fieldtextboxcolor="255 255 255" textfont="InGameLabels" textfontsize="18" textcolor="255 208 0" size1024="62 497 247 529" textcentervert="">Player 10        <gadget name="Player10Entry-Background" type="gadget" size1024="46 495 986 531" background="missing" tilebackground="" z="10"></gadget></gadget>
+        <gadget background="ui\ui god odin 32x32" name="Player10God" type="gadget" size1024="247 497 279 529" z="20">
+        </gadget>
+        <gadget name="Player10Civ" fieldval="1" type="formatText" fieldtextboxcolor="255 255 255" textfont="InGameLabels" textfontsize="18" textcolor="255 208 0" size1024="279 497 385 529" textcentervert="" z="20">Poseidon</gadget>
+        <gadget background="icons\God Power Vision icon" name="Player10GP1" type="gadget" size1024="390 496 422 528" z="20">
+        </gadget>
+        <gadget background="icons\God Power Vision icon" name="Player10GP2" type="gadget" size1024="430 496 462 528" z="20">
+        </gadget>
+        <gadget background="icons\God Power Vision icon" name="Player10GP3" type="gadget" size1024="470 496 502 528" z="20">
+        </gadget>
+        <gadget background="icons\God Power Vision icon" name="Player10GP4" type="gadget" size1024="509 496 541 528" z="20">
+        </gadget>
+        <gadget name="Player10Diplomacy" type="radioset" mouseovertext="$$19107$$Select if this player is an enemy, an ally, or neutral." size1024="571 496 769 527" textcolor="0 0 0" textfontsize="14" textfont="FieldLabels" radiosethorizlayout="" radiosetbuttonsize1024="32 32" radiosetdefaultbuttonindex="0" radiocheckedart="ui\core_ui\round clicked" radiouncheckedart="ui\core_ui\round" radiobtnborder1024="2 2" z="20">
+          <button>
+          </button>
+          <button>
+          </button>
+          <button>
+          </button>
+        </gadget>
+        <gadget name="Player10Rating" fieldval="1" type="formatText" mouseovertext="$$19108$$This is the player's rating." fieldtextboxcolor="255 255 255" textfont="InGameLabels" textfontsize="18" textcolor="255 208 0" size1024="782 503 870 522" textcenterhoriz="" textcentervert="" z="20" hidden="">1234</gadget>
+        <gadget name="Player10Handicap" textcenterhoriz="" fieldval="1" type="formatText" mouseovertext="$$19109$$This is the player's handicap." fieldtextboxcolor="255 255 255" textfont="InGameDialogs" textfontsize="16" textcolor="255 208 0" size1024="874 503 962 522" textcentervert="" z="20" hidden="">1234</gadget>
+      </gadget>
+      <gadget name="Player11Entry" type="gadget" size1024="109 534 968 573" z="11">
+        <gadget name="Player11Name" fieldval="1" type="formatText" fieldtextboxcolor="255 255 255" textfont="InGameLabels" textfontsize="18" textcolor="255 208 0" size1024="62 536 247 568" textcentervert="">Player 11        </gadget>
+        <gadget background="ui\ui god odin 32x32" name="Player11God" type="gadget" size1024="247 536 279 568" z="20">
+        </gadget>
+        <gadget name="Player11Civ" fieldval="1" type="formatText" fieldtextboxcolor="255 255 255" textfont="InGameLabels" textfontsize="18" textcolor="255 208 0" size1024="281 536 387 568" textcentervert="">Poseidon</gadget>
+        <gadget background="icons\God Power Vision icon" name="Player11GP1" type="gadget" size1024="390 536 422 568" z="20">
+        </gadget>
+        <gadget background="icons\God Power Vision icon" name="Player11GP2" type="gadget" size1024="430 536 462 568" z="20">
+        </gadget>
+        <gadget background="icons\God Power Vision icon" name="Player11GP3" type="gadget" size1024="470 536 502 568" z="20">
+        </gadget>
+        <gadget background="icons\God Power Vision icon" name="Player11GP4" type="gadget" size1024="509 536 541 568" z="20">
+        </gadget>
+        <gadget name="Player11Diplomacy" type="radioset" mouseovertext="$$19107$$ if this player is an enemy, an ally, or neutral." size1024="571 536 769 567" textcolor="0 0 0" textfontsize="14" textfont="FieldLabels" radiosethorizlayout="" radiosetbuttonsize1024="32 32" radiosetdefaultbuttonindex="0" radiocheckedart="ui\core_ui\round clicked" radiouncheckedart="ui\core_ui\round" radiobtnborder1024="2 2">
+          <button>
+          </button>
+          <button>
+          </button>
+          <button>
+          </button>
+        </gadget>
+        <gadget name="Player11Rating" fieldval="1" type="formatText" mouseovertext="$$19108$$This is the player's rating." fieldtextboxcolor="255 208 0" textfont="InGameLabels" textfontsize="18" textcolor="255 208 0" size1024="782 542 872 561" textcenterhoriz="" textcentervert="" hidden="">1234</gadget>
+        <gadget name="Player11Handicap" textcenterhoriz="" fieldval="1" type="formatText" mouseovertext="$$19109$$This is the player's handicap." fieldtextboxcolor="255 255 255" textfont="InGameLabels" textfontsize="18" textcolor="255 208 0" size1024="874 542 964 561" textcentervert="" hidden="">1234</gadget>
+      </gadget>
+      <gadget name="Player12Entry" type="gadget" size1024="109 576 968 614" z="11">
+        <gadget name="Player12Name" fieldval="1" type="formatText" fieldtextboxcolor="255 255 255" textfont="InGameLabels" textfontsize="18" textcolor="255 208 0" size1024="62 578 247 610" textcentervert="">Player 12        <gadget name="Player12Entry-Background" type="gadget" size1024="46 576 986 612" background="missing" tilebackground="" z="10"></gadget></gadget>
+        <gadget background="ui\ui god odin 32x32" name="Player12God" type="gadget" size1024="247 578 279 610" z="20">
+        </gadget>
+        <gadget name="Player12Civ" fieldval="1" type="formatText" fieldtextboxcolor="255 208 0" textfont="InGameLabels" textfontsize="18" textcolor="255 208 0" size1024="279 578 385 610" textcentervert="" z="20">Poseidon</gadget>
+        <gadget background="icons\God Power Vision icon" name="Player12GP1" type="gadget" size1024="390 578 422 610" z="20">
+        </gadget>
+        <gadget background="icons\God Power Vision icon" name="Player12GP2" type="gadget" size1024="430 578 462 610" z="20">
+        </gadget>
+        <gadget background="icons\God Power Vision icon" name="Player12GP3" type="gadget" size1024="470 578 502 610" z="20">
+        </gadget>
+        <gadget background="icons\God Power Vision icon" name="Player12GP4" type="gadget" size1024="509 578 541 610" z="20">
+        </gadget>
+        <gadget name="Player12Diplomacy" type="radioset" mouseovertext="$$19107$$Select if this player is an enemy, an ally, or neutral." size1024="571 578 769 609" textcolor="0 0 0" textfontsize="14" textfont="FieldLabels" radiosethorizlayout="" radiosetbuttonsize1024="32 32" radiosetdefaultbuttonindex="0" radiocheckedart="ui\core_ui\round clicked" radiouncheckedart="ui\core_ui\round" radiobtnborder1024="2 2" z="20">
+          <button>
+          </button>
+          <button>
+          </button>
+          <button>
+          </button>
+        </gadget>
+        <gadget name="Player12Rating" fieldval="1" type="formatText" mouseovertext="$$19108$$This is the player's rating." fieldtextboxcolor="255 208 0" textfont="InGameLabels" textfontsize="18" textcolor="255 208 0" size1024="782 584 870 603" textcenterhoriz="" textcentervert="" z="20" hidden="">1234</gadget>
+        <gadget name="Player12Handicap" textcenterhoriz="" fieldval="1" type="formatText" mouseovertext="$$19109$$This is the player's handicap." fieldtextboxcolor="255 208 0" textfont="InGameLabels" textfontsize="18" textcolor="255 208 0" size1024="874 584 962 603" textcentervert="" z="20" hidden="">1234</gadget>
+      </gadget>
+    </gadget>
+    <gadget name="BottomPanel" type="gadget" size1024="12 613 1021 768" z="11">
+      <gadget name="OKButton" type="stateButton" size1024="348 704 508 736" bevelbutton="" z="94" statebuttonuseinternalstates="" textfont="IngameButtons" textfontsize="18" textcolor="255 208 0" textcenterhoriz="" textcentervert="" texturecoords="0 0 .625 1" mouseovertext="$$19105$$Save your changes and close the Player Status Dialog.">$$18465$$OK<stateentry background="ui\core_ui\button_128x32_normal"></stateentry><stateentry background="ui\ui button long 160X32 clicked"></stateentry><stateentry background="ui\ui button long 160X32 rollover"></stateentry><stateentry background=""></stateentry></gadget>
+      <gadget name="CancelButton" type="stateButton" size1024="516 704 676 736" bevelbutton="" z="92" statebuttonuseinternalstates="" textfont="IngameButtons" textfontsize="18" textcolor="255 208 0" textcenterhoriz="" textcentervert="" texturecoords="0 0 .625 1" mouseovertext="$$19106$$Close the Player Status Dialog without saving your changes.">$$18466$$Cancel<stateentry background="ui\core_ui\button_128x32_normal"></stateentry><stateentry background="ui\ui button long 160X32 clicked"></stateentry><stateentry background="ui\ui button long 160X32 rollover"></stateentry><stateentry background=""></stateentry></gadget>
+      <gadget name="playerstatusdialog-mapborder" type="gadget" background="ui\ui map boarder template 128x128" size1024="62 613 190 741" z="90" mouseovertext="$$21559$$Map Name and Description.">
+      </gadget>
+      <gadget name="playerstatusdialog-map" type="gadget" background="ui\ui map river nile 128x128" size1024="62 613 190 741" z="80" mouseovertext="$$21559$$Map Name and Description.">
+      </gadget>
+      <gadget name="playerstatusdialog-mapname" type="formatText" textcolor="255 208 0" textfont="InGameLabels" textfontsize="18" textcentervert="" size1024="191 660 506 694" mouseovertext="$$21559$$Map Name and Description.">Map Name</gadget>
+      <gadget name="playerstatusdialog-leftborder2" type="gadget" background="missing" size1024="38 613 46 737" tilebackgroundvert="" transparent="" z="10">
+      </gadget>
+      <gadget name="playerstatusdialog-rightborder2" type="gadget" background="missing" size1024="986 613 994 741" tilebackgroundvert="" z="3" transparent="">
+      </gadget>
+      <gadget name="playerstatusdialog-bottomwithcorners" type="gadget" size1024="62 738 986 776" z="20">
+        <gadget tilebackgroundhoriz="" name="playerstatusdialog-bottom" type="gadget" background="missing" size1024="56 752 974 768" z="14" transparent="">
+        </gadget>
+        <gadget name="playerstatusdialog-bottomright" type="gadget" background="ui\ui border greek bottom right corner" size1024="962 736 994 768" z="100" transparent="" clampbackground="">
+        </gadget>
+        <gadget name="playerstatusdialog-bottomleft" type="gadget" background="ui\ui border greek bottom left corner" size1024="38 736 70 768" z="20" transparent="" clampbackground="">
+        </gadget>
+      </gadget>
+      <gadget name="PlayerStatusDialog-Rollover-Section" type="gadget" size1024="584 619 964 693" background="missing" tilebackground="" z="50" outlinecolor="255 208 0">
+        <gadget name="PlayerStatusDialog-HelpText" type="formatText" size1024="589 624 958 691" textfont="PregameRollover" textfontsize="14" textcolor="255 208 0" textmarkup="" formattextusedatareplace="" z="12">Here is some sample rollover</gadget>
+      </gadget>
+    </gadget>
+  </gadget>
+</layout>

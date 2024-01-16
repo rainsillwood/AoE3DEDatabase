@@ -1,0 +1,26 @@
+<layout>
+  <gadget name="unitstatpanel3" type="unitstatpanel3" size1024="700 628 1024 745" background="" z="97">
+    <gadget name="unitstatpanel3-back" type="gadget" size1024="700 628 1024 745" background="ui\ingame\ingame_ui_small_02_ypack" z="99" texturecoords="0 0.5546875 0.640625 0.77734375">
+      <gadget name="unitstatpanel3-StackLabel0" type="formatText" size1024="702 629 832 667" textmarkup="" formattextusedatareplace="" textwrapon="" textfont="StatUnitNameSmall" textfontsize="14" z="100">
+      </gadget>
+      <gadget name="unitstatpanel3-StackValue0" type="formatText" size1024="830 628 1021 666" textmarkup="" formattextusedatareplace="" textwrapon="" textfont="StatUnitNameSmall" textfontsize="14" z="100">
+      </gadget>
+      <gadget name="unitstatpanel3-StackLabel1" type="formatText" size1024="702 666 832 684" textmarkup="" formattextusedatareplace="" textcentervert="" textfont="StatText" textfontsize="12" z="100">
+      </gadget>
+      <gadget name="unitstatpanel3-StackValue1" type="formatText" size1024="831 665 1020 683" textmarkup="" formattextusedatareplace="" textcentervert="" textfont="StatText" textfontsize="12" z="100">
+      </gadget>
+      <gadget name="unitstatpanel3-StackLabel2" type="formatText" size1024="702 682 832 700" textmarkup="" formattextusedatareplace="" textcentervert="" textfont="StatText" textfontsize="12" z="30">
+      </gadget>
+      <gadget name="unitstatpanel3-StackValue2" type="formatText" size1024="831 681 1020 699" textmarkup="" formattextusedatareplace="" textcentervert="" textfont="StatText" textfontsize="12" z="35">
+      </gadget>
+      <gadget name="unitstatpanel3-StackLabel3" type="formatText" size1024="702 698 832 716" textmarkup="" formattextusedatareplace="" textcentervert="" textfont="StatText" textfontsize="12" z="30">
+      </gadget>
+      <gadget name="unitstatpanel3-StackValue3" type="formatText" size1024="831 697 1020 715" textmarkup="" formattextusedatareplace="" textcentervert="" textfont="StatText" textfontsize="12" z="35">
+      </gadget>
+      <gadget name="unitstatpanel3-StackLabel4" type="formatText" size1024="702 714 832 732" textmarkup="" formattextusedatareplace="" textcentervert="" textfont="StatText" textfontsize="12" z="30">
+      </gadget>
+      <gadget name="unitstatpanel3-StackValue4" type="formatText" size1024="831 713 1020 731" textmarkup="" formattextusedatareplace="" textcentervert="" textfont="StatText" textfontsize="12" z="35">
+      </gadget>
+    </gadget>
+  </gadget>
+</layout>

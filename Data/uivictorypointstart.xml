@@ -1,0 +1,53 @@
+<layout>
+  <gadget name="vpstartdialog-screen" type="dialog" size1024="154 56 871 709" hidden="" closeonesc="">
+    <gadget name="vpstartdialog-Background" type="gadget" size1024="162 72 863 693" background="ui\file_system\file_system_background" tilebackground="">
+      <gadget tilebackgroundhoriz="" name="vpstartdialog-BordersTop" type="gadget" background="ui\file_system\border_top_middle" size1024="186 56 839 72">
+      </gadget>
+      <gadget tilebackgroundhoriz="" name="vpstartdialog-BordersBottom" type="gadget" background="ui\file_system\border_bottom_middle" size1024="186 693 839 709">
+      </gadget>
+      <gadget tilebackgroundvert="" name="vpstartdialog-BordersLeft" type="gadget" background="ui\file_system\border_side_left" size1024="154 88 162 677">
+      </gadget>
+      <gadget tilebackgroundvert="" name="vpstartdialog-BordersRight" type="gadget" background="ui\file_system\border_side_right" size1024="863 88 871 677">
+      </gadget>
+      <gadget name="vpstartdialog-BordersLeftTop" type="gadget" background="ui\file_system\border_top_left" size1024="154 56 186 88" clampbackground="">
+      </gadget>
+      <gadget name="vpstartdialog-BordersLeftBottom" type="gadget" background="ui\file_system\border_bottom_left" size1024="154 677 186 709" clampbackground="">
+      </gadget>
+      <gadget name="vpstartdialog-BordersRightBottom" type="gadget" background="ui\file_system\border_bottom_right" size1024="839 677 871 709" clampbackground="">
+      </gadget>
+      <gadget name="vpstartdialog-BordersRightTop" type="gadget" background="ui\file_system\border_top_right" size1024="839 56 871 88" z="11" clampbackground="">
+      </gadget>
+    </gadget>
+    <gadget name="vpstartdialog-objectives-DoneButton" type="stateButton" size1024="416 655 608 687" bevelbutton="" z="101" statebuttonuseinternalstates="" textfont="InGameButtons" textfontsize="18" textcolor="3 0 88" textcenterhoriz="" textcentervert="" texturecoords="0 0 .75 1" mouseovertext="Return to the Game">$$21199$$Done<stateentry background="ui\core_ui\button_192x32_normal"></stateentry><stateentry background="ui\core_ui\button_192X32_clicked"></stateentry><stateentry background="ui\core_ui\button_192X32_rollover"></stateentry><stateentry background=""></stateentry><command>gadgetUnreal("vpstartdialog-screen")</command></gadget>
+    <gadget name="vpstartdialog-page-objectives" type="gadget" size1024="164 72 863 656" z="20">
+      <gadget name="vpstartdialog-goaltext" type="formatText" textfont="ScenarioTitle" textfontsize="24" textcolor="0 0 58" size1024="186 128 839 170" textcenterhoriz="" textcentervert="" z="20">
+      </gadget>
+      <gadget name="vpstartdialog-title" type="formatText" textfont="InGameLabels" textfontsize="18" textcolor="0 0 58" size1024="186 218 839 245" z="20" textcenterhoriz="">$$24954$$</gadget>
+      <gadget name="vpstartdialog-ScreenSeparator2" type="gadget" size1024="162 125 863 126" background="ui\ingame\outline_bottom_middle" z="11">
+      </gadget>
+      <gadget name="vpstartdialog-ScreenSeparator3" type="gadget" size1024="163 170 864 171" background="ui\ingame\outline_bottom_middle" z="11">
+      </gadget>
+      <gadget name="vpstartdialog-goal-Background" type="gadget" size1024="162 127 863 171" background="ui\file_system\file_system_background_dark" z="2" tilebackground="">
+      </gadget>
+      <gadget name="vpstartdialog-objectivelistbox-background" outlinecolor="75 55 30" type="gadget" size1024="184 248 842 623" background="ui\file_system\file_system_background_dark" z="10" tilebackground="">
+      </gadget>
+      <gadget name="vpstartdialog-VPlistbox" type="formatText" size1024="187 250 840 622" z="50" textfont="InGameLabels" textfontsize="18" textcolor="0 0 58" textmarkup="" textscrollbar="" formattextscrolltobottom="">
+        <vertscrollbar sliderbuttons="" slidervertical="" sliderupbtnset="sliderUpBtn" sliderdownbtnset="sliderDownBtn" sliderpipart="ui\file_system\slider_pip_verticle" sliderpiptexturecoords="0 0 1 1" sliderareaart="ui\file_system\file_system_background_dark" background="ui\core_ui\background_yellow_opaque">
+        </vertscrollbar>
+      </gadget>
+      <gadget name="vpstartdialog-Hintslistbox-border" type="gadget" size1024="179 448 839 588" z="12" hidden="">
+        <gadget name="vpstartdialog-Hintslistbox" type="formatText" size1024="182 451 836 585" z="50" textfont="ObjectivesText" textfontsize="16" textcolor="255 208 0">
+        </gadget>
+        <gadget outlinecolor="75 55 30" name="vpstartdialog-Hintslistbox-Background" type="gadget" size1024="180 449 838 587" background="ui\file_system\file_system_background_dark" z="10">
+        </gadget>
+      </gadget>
+    </gadget>
+    <gadget name="vpstartdialog-page-new" type="gadget" size1024="162 72 863 693" z="16" hidden="">
+      <gadget name="vpstartdialog-new-title" type="formatText" textfont="ScenarioTitle" textfontsize="24" textcolor="255 208 0" size1024="375 129 634 159" textcenterhoriz="" textcentervert="" textwrapon="">A Thing</gadget>
+      <gadget name="vpstartdialog-new-picture" type="gadget" size1024="373 165 637 293" background="ui\ui god odin 256x256">
+      </gadget>
+      <gadget name="vpstartdialog-new-text" type="formatText" textfont="NewDescriptions" textfontsize="16" textcolor="255 208 0" size1024="190 315 835 573" textwrapon="">
+      </gadget>
+    </gadget>
+  </gadget>
+</layout>

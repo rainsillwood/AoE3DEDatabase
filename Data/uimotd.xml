@@ -1,0 +1,18 @@
+<layout>
+  <gadget type="dialog" name="motd-popup" autoclose="" bevel="" hidden="" a-dtype="textFontSize number Z number" size1024="256 10 768 522" background="">
+    <gadget type="gadget" name="Background" a-dtype="textFontSize number Z number" sizerel1024="0 0 512 512" z="5">
+      <gadget type="gadget" name="Backgrounda" a-dtype="textFontSize number Z number" sizerel1024="0 0 256 256" background="ui\motd_a">
+      </gadget>
+      <gadget type="gadget" name="Backgroundb" a-dtype="textFontSize number Z number" sizerel1024="256 0 512 256" background="ui\motd_b">
+      </gadget>
+      <gadget type="gadget" name="Backgroundc" a-dtype="textFontSize number Z number" sizerel1024="0 256 256 512" background="ui\motd_c">
+      </gadget>
+      <gadget type="gadget" name="Backgrounda" a-dtype="textFontSize number Z number" sizerel1024="256 256 512 512" background="ui\motd_d">
+      </gadget>
+    </gadget>
+    <gadget z="6" type="textBox" sizerel1024="30 162 480 452" name="motd-popup-text" textwrapon="" textscrollbar="" nodatareplace="" textcolor="255 255 255">
+    </gadget>
+    <gadget type="textBox" z="6" sizerel1024="20 132 480 152" name="TitleText" a-dtype="textFontSize number Z number" textcolor="255 255 255" textfont="Arial" textfontsize="16" textcenterhoriz="">Message of the Day</gadget>
+    <gadget type="meshButton" sizerel1024="200 462 300 482" name="CloseButton" a-dtype="textFontSize number Z number" textcolor="255 255 255" background="ui\motd_button">Close<command>gadgetUnReal("motd-popup")</command></gadget>
+  </gadget>
+</layout>

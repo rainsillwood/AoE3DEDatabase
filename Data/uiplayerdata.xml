@@ -1,0 +1,299 @@
+<layout>
+  <gadget name="PlayerEdit" type="gadget" size1024="0 92 1021 508" background="ui\editor\editor_background" hidden="" bevel="" titlebar="$$20266$$Player Data" closebutton="" moveable="">
+    <gadget name="LabelPlayerEditRow" type="gadget" size1024="0 133 1012 153">
+      <gadget name="ColorText" textcolor="0 0 0" textfontsize="12" textfont="Arial Nodrop For SE" type="textBox" size1024="32 132 103 150">$$20392$$Color:</gadget>
+      <gadget name="CivText" textcolor="0 0 0" textfontsize="12" textfont="Arial Nodrop For SE" type="textBox" size1024="109 132 208 150">$$20393$$Civ:</gadget>
+      <gadget name="ControlText" textcolor="0 0 0" textfontsize="12" textfont="Arial Nodrop For SE" type="textBox" size1024="577 132 688 150">$$20394$$Control:</gadget>
+      <gadget name="PlayerNameText" textcolor="0 0 0" textfontsize="12" textfont="Arial Nodrop For SE" type="textBox" size1024="231 134 305 152">$$20001$$Name:</gadget>
+      <gadget name="FoodText" textcolor="0 0 0" textfontsize="12" textfont="Arial Nodrop For SE" type="textBox" size1024="346 132 385 150">$$19771$$Food:</gadget>
+      <gadget name="WoodText" textcolor="0 0 0" textfontsize="12" textfont="Arial Nodrop For SE" type="textBox" size1024="390 132 430 150">$$19772$$Wood:</gadget>
+      <gadget name="GoldText" textcolor="0 0 0" textfontsize="12" textfont="Arial Nodrop For SE" type="textBox" size1024="435 132 475 150">$$19773$$Gold:</gadget>
+      <gadget name="FameText" textcolor="0 0 0" textfontsize="12" textfont="Arial Nodrop For SE" type="textBox" size1024="481 132 521 150">$$28529$$Fame:</gadget>
+      <gadget name="TeamText" textcolor="0 0 0" textfontsize="12" textfont="Arial Nodrop For SE" type="textBox" size1024="526 132 566 150">Team</gadget>
+      <gadget name="VisibilityText" textcolor="0 0 0" textfontsize="12" textfont="Arial Nodrop For SE" type="textBox" size1024="693 132 774 150">$$19123$$Visibility:</gadget>
+    </gadget>
+    <gadget name="PlayerEditRow1" type="gadget" size1024="1 157 1013 179">
+      <gadget name="PlayerNumber1" type="textBox" textfont="Arial Nodrop For SE" textfontsize="12" textcolor="0 0 0" size1024="4 157 24 177">$$20524$$1</gadget>
+      <gadget name="PlayerEditColorDropdown1" type="colorDropdown" dropdowndistance="120" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" fieldreadonly="" size1024="31 157 101 177">
+        <dropdown>
+        </dropdown>
+      </gadget>
+      <gadget name="PlayerEditCivDropdown1" type="textField" dropdowndistance="120" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" fieldreadonly="" size1024="109 157 224 177">
+        <dropdown>
+        </dropdown>
+      </gadget>
+      <gadget name="PlayerEditControlDropdown1" type="textField" dropdowndistance="100" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" fieldreadonly="" size1024="577 156 687 176">
+        <dropdown>
+        </dropdown>
+      </gadget>
+      <gadget name="PlayerEditNameField1" type="textField" enableime="" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" size1024="231 157 338 177">
+      </gadget>
+      <gadget name="PlayerEditFoodField1" type="textField" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" size1024="346 157 385 177">
+      </gadget>
+      <gadget name="PlayerEditWoodField1" type="textField" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" size1024="391 157 430 177">
+      </gadget>
+      <gadget name="PlayerEditGoldField1" type="textField" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" size1024="436 157 475 177">
+      </gadget>
+      <gadget name="PlayerEditFameField1" type="textField" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" size1024="481 157 520 177">
+      </gadget>
+      <gadget name="PlayerEditTeamField1" type="textField" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" size1024="526 157 569 177">
+      </gadget>
+      <gadget name="PlayerEditHideDropdown1" type="textField" dropdowndistance="95" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" fieldreadonly="" size1024="693 156 774 176">
+        <dropdown>
+        </dropdown>
+      </gadget>
+      <gadget name="PlayerEditAIButton1" type="button" bevelbutton="" textfont="Arial Nodrop For SE" textfontsize="12" size1024="780 156 819 176">$$20396$$AI</gadget>
+      <gadget name="PlayerEditAIClear1" type="button" bevelbutton="" textfont="Arial Nodrop For SE" textfontsize="12" size1024="825 156 882 176" z="11">$$20397$$Clear AI</gadget>
+      <gadget name="PlayerEditHomecity1" type="button" bevelbutton="" textfont="Arial Nodrop For SE" textfontsize="12" size1024="887 156 942 176" z="11">$$34353$$Set HC</gadget>
+      <gadget name="PlayerResetHomecity1" type="button" bevelbutton="" textfont="Arial Nodrop For SE" textfontsize="12" size1024="945 156 1010 176" z="11">$$34354$$Reset HC</gadget>
+    </gadget>
+    <gadget name="PlayerEditRow2" type="gadget" size1024="1 180 1013 202">
+      <gadget name="PlayerNumber2" type="textBox" textfont="Arial Nodrop For SE" textfontsize="12" textcolor="0 0 0" size1024="4 180 24 200">$$20525$$2</gadget>
+      <gadget name="PlayerEditColorDropdown2" type="colorDropdown" dropdowndistance="120" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" fieldreadonly="" size1024="31 180 101 200">
+        <dropdown>
+        </dropdown>
+      </gadget>
+      <gadget name="PlayerEditCivDropdown2" type="textField" dropdowndistance="120" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" fieldreadonly="" size1024="109 180 224 199">
+        <dropdown>
+        </dropdown>
+      </gadget>
+      <gadget name="PlayerEditControlDropdown2" type="textField" dropdowndistance="100" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" fieldreadonly="" size1024="577 179 687 199">
+        <dropdown>
+        </dropdown>
+      </gadget>
+      <gadget enableime="" name="PlayerEditNameField2" type="textField" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" size1024="231 180 338 200">
+      </gadget>
+      <gadget name="PlayerEditFoodField2" type="textField" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" size1024="346 180 385 200">
+      </gadget>
+      <gadget name="PlayerEditWoodField2" type="textField" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" size1024="391 180 430 200">
+      </gadget>
+      <gadget name="PlayerEditGoldField2" type="textField" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" size1024="436 180 475 200">
+      </gadget>
+      <gadget name="PlayerEditFameField2" type="textField" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" size1024="481 180 520 200">
+      </gadget>
+      <gadget name="PlayerEditTeamField2" type="textField" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" size1024="526 180 569 200">
+      </gadget>
+      <gadget name="PlayerEditHideDropdown2" type="textField" dropdowndistance="95" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" fieldreadonly="" size1024="693 179 774 199">
+        <dropdown>
+        </dropdown>
+      </gadget>
+      <gadget name="PlayerEditAIButton2" type="button" bevelbutton="" textfont="Arial Nodrop For SE" textfontsize="12" size1024="780 179 819 199">$$20396$$AI</gadget>
+      <gadget name="PlayerEditAIClear2" type="button" bevelbutton="" textfont="Arial Nodrop For SE" textfontsize="12" size1024="825 179 882 199" z="11">$$20397$$Clear AI</gadget>
+      <gadget name="PlayerEditHomecity2" type="button" bevelbutton="" textfont="Arial Nodrop For SE" textfontsize="12" size1024="887 179 942 199" z="11">$$34353$$Set HC</gadget>
+      <gadget name="PlayerResetHomecity2" type="button" bevelbutton="" textfont="Arial Nodrop For SE" textfontsize="12" size1024="945 179 1010 199" z="11">$$34354$$Reset HC</gadget>
+    </gadget>
+    <gadget name="PlayerEditRow3" type="gadget" size1024="1 203 1013 225">
+      <gadget name="PlayerNumber3" type="textBox" textfont="Arial Nodrop For SE" textfontsize="12" textcolor="0 0 0" size1024="4 203 24 223">$$20526$$3</gadget>
+      <gadget name="PlayerEditColorDropdown3" type="colorDropdown" dropdowndistance="120" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" fieldreadonly="" size1024="31 203 101 223">
+        <dropdown>
+        </dropdown>
+      </gadget>
+      <gadget name="PlayerEditCivDropdown3" type="textField" dropdowndistance="120" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" fieldreadonly="" size1024="109 203 224 222">
+        <dropdown>
+        </dropdown>
+      </gadget>
+      <gadget name="PlayerEditControlDropdown3" type="textField" dropdowndistance="100" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" fieldreadonly="" size1024="577 202 687 222">
+        <dropdown>
+        </dropdown>
+      </gadget>
+      <gadget enableime="" name="PlayerEditNameField3" type="textField" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" size1024="231 203 338 223">
+      </gadget>
+      <gadget name="PlayerEditFoodField3" type="textField" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" size1024="346 203 385 223">
+      </gadget>
+      <gadget name="PlayerEditWoodField3" type="textField" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" size1024="391 203 430 223">
+      </gadget>
+      <gadget name="PlayerEditGoldField3" type="textField" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" size1024="436 203 475 223">
+      </gadget>
+      <gadget name="PlayerEditFameField3" type="textField" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" size1024="481 203 520 223">
+      </gadget>
+      <gadget name="PlayerEditTeamField3" type="textField" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" size1024="526 203 569 223">
+      </gadget>
+      <gadget name="PlayerEditHideDropdown3" type="textField" dropdowndistance="95" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" fieldreadonly="" size1024="693 202 774 222">
+        <dropdown>
+        </dropdown>
+      </gadget>
+      <gadget name="PlayerEditAIButton3" type="button" bevelbutton="" textfont="Arial Nodrop For SE" textfontsize="12" size1024="780 202 819 222">$$20396$$AI</gadget>
+      <gadget name="PlayerEditAIClear3" type="button" bevelbutton="" textfont="Arial Nodrop For SE" textfontsize="12" size1024="825 202 882 222" z="11">$$20397$$Clear AI</gadget>
+      <gadget name="PlayerEditHomecity3" type="button" bevelbutton="" textfont="Arial Nodrop For SE" textfontsize="12" size1024="887 202 942 222" z="11">$$34353$$Set HC</gadget>
+      <gadget name="PlayerResetHomecity3" type="button" bevelbutton="" textfont="Arial Nodrop For SE" textfontsize="12" size1024="945 202 1010 222" z="11">$$34354$$Reset HC</gadget>
+    </gadget>
+    <gadget name="PlayerEditRow4" type="gadget" size1024="1 226 1013 248">
+      <gadget name="PlayerNumber4" type="textBox" textfont="Arial Nodrop For SE" textfontsize="12" textcolor="0 0 0" size1024="4 226 24 246">$$20527$$4</gadget>
+      <gadget name="PlayerEditColorDropdown4" type="colorDropdown" dropdowndistance="120" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" fieldreadonly="" size1024="31 226 101 246">
+        <dropdown>
+        </dropdown>
+      </gadget>
+      <gadget name="PlayerEditCivDropdown4" type="textField" dropdowndistance="120" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" fieldreadonly="" size1024="109 226 224 245">
+        <dropdown>
+        </dropdown>
+      </gadget>
+      <gadget name="PlayerEditControlDropdown4" type="textField" dropdowndistance="100" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" fieldreadonly="" size1024="577 225 687 245">
+        <dropdown>
+        </dropdown>
+      </gadget>
+      <gadget enableime="" name="PlayerEditNameField4" type="textField" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" size1024="231 226 338 246">
+      </gadget>
+      <gadget name="PlayerEditFoodField4" type="textField" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" size1024="346 226 385 246">
+      </gadget>
+      <gadget name="PlayerEditWoodField4" type="textField" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" size1024="391 226 430 246">
+      </gadget>
+      <gadget name="PlayerEditGoldField4" type="textField" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" size1024="436 226 475 246">
+      </gadget>
+      <gadget name="PlayerEditFameField4" type="textField" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" size1024="481 226 520 246">
+      </gadget>
+      <gadget name="PlayerEditTeamField4" type="textField" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" size1024="526 226 569 246">
+      </gadget>
+      <gadget name="PlayerEditHideDropdown4" type="textField" dropdowndistance="95" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" fieldreadonly="" size1024="693 225 774 245">
+        <dropdown>
+        </dropdown>
+      </gadget>
+      <gadget name="PlayerEditAIButton4" type="button" bevelbutton="" textfont="Arial Nodrop For SE" textfontsize="12" size1024="780 225 819 245">$$20396$$AI</gadget>
+      <gadget name="PlayerEditAIClear4" type="button" bevelbutton="" textfont="Arial Nodrop For SE" textfontsize="12" size1024="825 225 882 245" z="11">$$20397$$Clear AI</gadget>
+      <gadget name="PlayerEditHomecity4" type="button" bevelbutton="" textfont="Arial Nodrop For SE" textfontsize="12" size1024="887 225 942 245" z="11">$$34353$$Set HC</gadget>
+      <gadget name="PlayerResetHomecity4" type="button" bevelbutton="" textfont="Arial Nodrop For SE" textfontsize="12" size1024="945 225 1010 245" z="11">$$34354$$Reset HC</gadget>
+    </gadget>
+    <gadget name="PlayerEditRow5" type="gadget" size1024="1 249 1013 271">
+      <gadget name="PlayerNumber5" type="textBox" textfont="Arial Nodrop For SE" textfontsize="12" textcolor="0 0 0" size1024="4 249 24 269">$$20528$$5</gadget>
+      <gadget name="PlayerEditColorDropdown5" type="colorDropdown" dropdowndistance="120" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" fieldreadonly="" size1024="31 249 101 269">
+        <dropdown>
+        </dropdown>
+      </gadget>
+      <gadget name="PlayerEditCivDropdown5" type="textField" dropdowndistance="120" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" fieldreadonly="" size1024="109 249 224 268">
+        <dropdown>
+        </dropdown>
+      </gadget>
+      <gadget name="PlayerEditControlDropdown5" type="textField" dropdowndistance="100" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" fieldreadonly="" size1024="577 248 687 268">
+        <dropdown>
+        </dropdown>
+      </gadget>
+      <gadget enableime="" name="PlayerEditNameField5" type="textField" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" size1024="231 249 338 269">
+      </gadget>
+      <gadget name="PlayerEditFoodField5" type="textField" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" size1024="346 249 385 269">
+      </gadget>
+      <gadget name="PlayerEditWoodField5" type="textField" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" size1024="391 249 430 269">
+      </gadget>
+      <gadget name="PlayerEditGoldField5" type="textField" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" size1024="436 249 475 269">
+      </gadget>
+      <gadget name="PlayerEditFameField5" type="textField" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" size1024="481 249 520 269">
+      </gadget>
+      <gadget name="PlayerEditTeamField5" type="textField" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" size1024="526 249 569 269">
+      </gadget>
+      <gadget name="PlayerEditHideDropdown5" type="textField" dropdowndistance="95" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" fieldreadonly="" size1024="693 248 774 268">
+        <dropdown>
+        </dropdown>
+      </gadget>
+      <gadget name="PlayerEditAIButton5" type="button" bevelbutton="" textfont="Arial Nodrop For SE" textfontsize="12" size1024="780 248 819 268">$$20396$$AI</gadget>
+      <gadget name="PlayerEditAIClear5" type="button" bevelbutton="" textfont="Arial Nodrop For SE" textfontsize="12" size1024="825 248 882 268" z="11">$$20397$$Clear AI</gadget>
+      <gadget name="PlayerEditHomecity5" type="button" bevelbutton="" textfont="Arial Nodrop For SE" textfontsize="12" size1024="887 248 942 268" z="11">$$34353$$Set HC</gadget>
+      <gadget name="PlayerResetHomecity5" type="button" bevelbutton="" textfont="Arial Nodrop For SE" textfontsize="12" size1024="945 248 1010 268" z="11">$$34354$$Reset HC</gadget>
+    </gadget>
+    <gadget name="PlayerEditRow6" type="gadget" size1024="1 272 1013 294">
+      <gadget name="PlayerNumber6" type="textBox" textfont="Arial Nodrop For SE" textfontsize="12" textcolor="0 0 0" size1024="4 272 24 292">$$20529$$6</gadget>
+      <gadget name="PlayerEditColorDropdown6" type="colorDropdown" dropdowndistance="120" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" fieldreadonly="" size1024="31 272 101 292">
+        <dropdown>
+        </dropdown>
+      </gadget>
+      <gadget name="PlayerEditCivDropdown6" type="textField" dropdowndistance="120" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" fieldreadonly="" size1024="109 272 224 291">
+        <dropdown>
+        </dropdown>
+      </gadget>
+      <gadget name="PlayerEditControlDropdown6" type="textField" dropdowndistance="100" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" fieldreadonly="" size1024="577 271 687 291">
+        <dropdown>
+        </dropdown>
+      </gadget>
+      <gadget enableime="" name="PlayerEditNameField6" type="textField" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" size1024="231 272 338 292">
+      </gadget>
+      <gadget name="PlayerEditFoodField6" type="textField" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" size1024="346 272 385 292">
+      </gadget>
+      <gadget name="PlayerEditWoodField6" type="textField" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" size1024="391 272 430 292">
+      </gadget>
+      <gadget name="PlayerEditGoldField6" type="textField" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" size1024="436 272 475 292">
+      </gadget>
+      <gadget name="PlayerEditFameField6" type="textField" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" size1024="481 272 520 292">
+      </gadget>
+      <gadget name="PlayerEditTeamField6" type="textField" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" size1024="526 272 569 292">
+      </gadget>
+      <gadget name="PlayerEditHideDropdown6" type="textField" dropdowndistance="95" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" fieldreadonly="" size1024="693 271 774 291">
+        <dropdown>
+        </dropdown>
+      </gadget>
+      <gadget name="PlayerEditAIButton6" type="button" bevelbutton="" textfont="Arial Nodrop For SE" textfontsize="12" size1024="780 271 819 291">$$20396$$AI</gadget>
+      <gadget name="PlayerEditAIClear6" type="button" bevelbutton="" textfont="Arial Nodrop For SE" textfontsize="12" size1024="825 271 882 291" z="11">$$20397$$Clear AI</gadget>
+      <gadget name="PlayerEditHomecity6" type="button" bevelbutton="" textfont="Arial Nodrop For SE" textfontsize="12" size1024="887 271 942 291" z="11">$$34353$$Set HC</gadget>
+      <gadget name="PlayerResetHomecity6" type="button" bevelbutton="" textfont="Arial Nodrop For SE" textfontsize="12" size1024="945 271 1010 291" z="11">$$34354$$Reset HC</gadget>
+    </gadget>
+    <gadget name="PlayerEditRow7" type="gadget" size1024="1 295 1013 317">
+      <gadget name="PlayerNumber7" type="textBox" textfont="Arial Nodrop For SE" textfontsize="12" textcolor="0 0 0" size1024="4 295 24 315">$$20530$$7</gadget>
+      <gadget name="PlayerEditColorDropdown7" type="colorDropdown" dropdowndistance="120" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" fieldreadonly="" size1024="31 295 101 315">
+        <dropdown>
+        </dropdown>
+      </gadget>
+      <gadget name="PlayerEditCivDropdown7" type="textField" dropdowndistance="120" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" fieldreadonly="" size1024="109 295 224 314">
+        <dropdown>
+        </dropdown>
+      </gadget>
+      <gadget name="PlayerEditControlDropdown7" type="textField" dropdowndistance="100" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" fieldreadonly="" size1024="577 294 687 314">
+        <dropdown>
+        </dropdown>
+      </gadget>
+      <gadget enableime="" name="PlayerEditNameField7" type="textField" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" size1024="231 295 338 315">
+      </gadget>
+      <gadget name="PlayerEditFoodField7" type="textField" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" size1024="346 295 385 315">
+      </gadget>
+      <gadget name="PlayerEditWoodField7" type="textField" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" size1024="391 295 430 315">
+      </gadget>
+      <gadget name="PlayerEditGoldField7" type="textField" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" size1024="436 295 475 315">
+      </gadget>
+      <gadget name="PlayerEditFameField7" type="textField" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" size1024="481 295 520 315">
+      </gadget>
+      <gadget name="PlayerEditTeamField7" type="textField" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" size1024="526 295 569 315">
+      </gadget>
+      <gadget name="PlayerEditHideDropdown7" type="textField" dropdowndistance="95" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" fieldreadonly="" size1024="693 294 774 314">
+        <dropdown>
+        </dropdown>
+      </gadget>
+      <gadget name="PlayerEditAIButton7" type="button" bevelbutton="" textfont="Arial Nodrop For SE" textfontsize="12" size1024="780 294 819 314">$$20396$$AI</gadget>
+      <gadget name="PlayerEditAIClear7" type="button" bevelbutton="" textfont="Arial Nodrop For SE" textfontsize="12" size1024="825 294 882 314" z="11">$$20397$$Clear AI</gadget>
+      <gadget name="PlayerEditHomecity7" type="button" bevelbutton="" textfont="Arial Nodrop For SE" textfontsize="12" size1024="887 294 942 314" z="11">$$34353$$Set HC</gadget>
+      <gadget name="PlayerResetHomecity7" type="button" bevelbutton="" textfont="Arial Nodrop For SE" textfontsize="12" size1024="945 294 1010 314" z="11">$$34354$$Reset HC</gadget>
+    </gadget>
+    <gadget name="PlayerEditRow8" type="gadget" size1024="1 318 1013 340">
+      <gadget name="PlayerNumber8" type="textBox" textfont="Arial Nodrop For SE" textfontsize="12" textcolor="0 0 0" size1024="4 318 24 338">$$20531$$8</gadget>
+      <gadget name="PlayerEditColorDropdown8" type="colorDropdown" dropdowndistance="120" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" fieldreadonly="" size1024="31 318 101 338">
+        <dropdown>
+        </dropdown>
+      </gadget>
+      <gadget name="PlayerEditCivDropdown8" type="textField" dropdowndistance="120" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" fieldreadonly="" size1024="109 318 224 337">
+        <dropdown>
+        </dropdown>
+      </gadget>
+      <gadget name="PlayerEditControlDropdown8" type="textField" dropdowndistance="100" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" fieldreadonly="" size1024="577 317 687 337">
+        <dropdown>
+        </dropdown>
+      </gadget>
+      <gadget enableime="" name="PlayerEditNameField8" type="textField" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" size1024="231 318 338 338">
+      </gadget>
+      <gadget name="PlayerEditFoodField8" type="textField" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" size1024="346 318 385 338">
+      </gadget>
+      <gadget name="PlayerEditWoodField8" type="textField" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" size1024="391 318 430 338">
+      </gadget>
+      <gadget name="PlayerEditGoldField8" type="textField" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" size1024="436 318 475 338">
+      </gadget>
+      <gadget name="PlayerEditFameField8" type="textField" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" size1024="481 318 520 338">
+      </gadget>
+      <gadget name="PlayerEditTeamField8" type="textField" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" size1024="526 318 569 338">
+      </gadget>
+      <gadget name="PlayerEditHideDropdown8" type="textField" dropdowndistance="95" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" fieldreadonly="" size1024="693 317 774 337">
+        <dropdown>
+        </dropdown>
+      </gadget>
+      <gadget name="PlayerEditAIButton8" type="button" bevelbutton="" textfont="Arial Nodrop For SE" textfontsize="12" size1024="780 317 819 337">$$20396$$AI</gadget>
+      <gadget name="PlayerEditAIClear8" type="button" bevelbutton="" textfont="Arial Nodrop For SE" textfontsize="12" size1024="825 317 882 337" z="11">$$20397$$Clear AI</gadget>
+      <gadget name="PlayerEditHomecity8" type="button" bevelbutton="" textfont="Arial Nodrop For SE" textfontsize="12" size1024="887 317 942 337" z="11">$$34353$$Set HC</gadget>
+      <gadget name="PlayerResetHomecity8" type="button" bevelbutton="" textfont="Arial Nodrop For SE" textfontsize="12" size1024="945 317 1010 337" z="11">$$34354$$Reset HC</gadget>
+    </gadget>
+    <gadget name="PlayerEditSeparator" type="gadget" background="UI\editor\menu_separator" size1024="13 460 1001 470">
+    </gadget>
+    <gadget name="PlayerEditCancelButton" type="button" bevelbutton="" textfont="Arial Nodrop For SE" textfontsize="12" size1024="883 473 953 498">$$18457$$Close</gadget>
+  </gadget>
+</layout>

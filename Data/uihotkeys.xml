@@ -1,0 +1,192 @@
+<layout>
+  <gadget name="hotkeysetup" type="gadget" size1024="0 0 1024 768" background="ui\core_ui\wood_thick_board_tile" tilebackground="" windowzstyle="">
+    <gadget tilebackgroundhoriz="" name="hotkeysetup-BordersTop" type="gadget" background="ui\ingame\ui_postgame_heavyborder_top" size1024="128 0 896 64" z="1" transparent="">
+    </gadget>
+    <gadget tilebackgroundhoriz="" name="hotkeysetup-BordersBottom" type="gadget" background="ui\ingame\ui_postgame_heavyborder_bottom" size1024="128 704 896 768" z="1" transparent="">
+    </gadget>
+    <gadget tilebackgroundvert="" name="hotkeysetup-BordersLeft" type="gadget" background="ui\ingame\ui_postgame_heavyborder_left" size1024="0 128 64 640" z="1" transparent="">
+    </gadget>
+    <gadget tilebackgroundvert="" name="hotkeysetup-BordersRight" type="gadget" background="ui\ingame\ui_postgame_heavyborder_right" size1024="960 128 1024 640" z="1" transparent="">
+    </gadget>
+    <gadget name="hotkeysetup-BordersLeftTop" type="gadget" background="ui\ingame\ui_postgame_heavyborder_topleft" size1024="0 0 128 128" clampbackground="" z="1" transparent="">
+    </gadget>
+    <gadget name="hotkeysetup-BordersLeftBottom" type="gadget" background="ui\ingame\ui_postgame_heavyborder_bottomleft" size1024="0 640 128 768" clampbackground="" z="1" transparent="">
+    </gadget>
+    <gadget name="hotkeysetup-BordersRightBottom" type="gadget" background="ui\ingame\ui_postgame_heavyborder_bottomright" size1024="896 640 1024 768" clampbackground="" z="1" transparent="">
+    </gadget>
+    <gadget name="hotkeysetup-BordersRightTop" type="gadget" background="ui\ingame\ui_postgame_heavyborder_topright" size1024="896 0 1024 128" clampbackground="" z="1" transparent="">
+    </gadget>
+    <gadget name="hotkeysetup-LabelLeft" type="gadget" size1024="298 0 330 64" z="2" background="ui\ingame\ingame_ui_postgame_topbar_left" transparent="">
+    </gadget>
+    <gadget name="hotkeysetup-LabelCenter" type="formatText" size1024="330 0 694 64" z="2" tilebackgroundhoriz="" background="ui\ingame\ingame_ui_postgame_topbar" transparent="" textcentervert="" textcenterhoriz="" textcolor="255 208 0" textfontsize="22" textfont="PregameHeaders">$$20095$$Customize Hotkeys</gadget>
+    <gadget name="hotkeysetup-LabelRight" type="gadget" size1024="694 0 726 64" z="2" background="ui\ingame\ingame_ui_postgame_topbar_right" transparent="">
+    </gadget>
+    <gadget name="hotkeysetup-ResetButton" type="stateButton" size1024="582 633 710 665" bevelbutton="" z="101" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="255 208 0" textcenterhoriz="" textcentervert="" mouseovertext="$$19183$$">$$20096$$Default<stateentry background="ui\core_ui\button_128x32_normal"></stateentry><stateentry background="ui\core_ui\button_128x32_clicked"></stateentry><stateentry background="ui\core_ui\button_128x32_rollover"></stateentry><stateentry background="ui\core_ui\button_128x32_disabled"></stateentry></gadget>
+    <gadget name="hotkeysetup-ChangeButton" type="stateButton" size1024="718 633 846 665" bevelbutton="" z="101" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="255 208 0" textcenterhoriz="" textcentervert="" mouseovertext="$$19182$$">$$19176$$Change<stateentry background="ui\core_ui\button_128x32_normal"></stateentry><stateentry background="ui\core_ui\button_128x32_clicked"></stateentry><stateentry background="ui\core_ui\button_128x32_rollover"></stateentry><stateentry background="ui\core_ui\button_128x32_disabled"></stateentry></gadget>
+    <gadget name="hotkeysetup-ResetAllButton" type="stateButton" size1024="128 655 320 687" bevelbutton="" z="101" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="255 208 0" textcenterhoriz="" textcentervert="" texturecoords="0 0 0.75 1" mouseovertext="$$19180$$">$$20097$$Default All<stateentry background="ui\core_ui\button_192x32_normal"></stateentry><stateentry background="ui\core_ui\button_192x32_clicked"></stateentry><stateentry background="ui\core_ui\button_192x32_rollover"></stateentry><stateentry background="ui\core_ui\button_192x32_disabled"></stateentry></gadget>
+    <gadget name="hotkeysetup-OKButton" type="stateButton" size1024="582 675 710 707" bevelbutton="" z="101" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="255 208 0" textcenterhoriz="" textcentervert="" mouseovertext="$$18427$$">$$18465$$OK<stateentry background="ui\core_ui\button_128x32_normal"></stateentry><stateentry background="ui\core_ui\button_128x32_clicked"></stateentry><stateentry background="ui\core_ui\button_128x32_rollover"></stateentry><stateentry background="ui\core_ui\button_128x32_disabled"></stateentry></gadget>
+    <gadget name="hotkeysetup-CancelButton" type="stateButton" size1024="718 675 846 707" bevelbutton="" z="101" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="255 208 0" textcenterhoriz="" textcentervert="" mouseovertext="$$18428$$">$$18466$$Cancel<stateentry background="ui\core_ui\button_128x32_normal"></stateentry><stateentry background="ui\core_ui\button_128x32_clicked"></stateentry><stateentry background="ui\core_ui\button_128x32_rollover"></stateentry><stateentry background="ui\core_ui\button_128x32_disabled"></stateentry></gadget>
+    <gadget name="hotkeysetup-GroupListBackground" type="gadget" size1024="51 120 393 470" tilebackground="" background="ui\core_ui\metal_tile" z="30">
+      <gadget name="hotkeysetup-Command-BorderTop" type="gadget" transparent="" tilebackgroundhoriz="" size1024="83 120 361 128" background="ui\core_ui\metal_trim_top" z="31">
+      </gadget>
+      <gadget name="hotkeysetup-Command-BorderBottom" type="gadget" transparent="" tilebackgroundhoriz="" size1024="83 462 361 470" background="ui\core_ui\metal_trim_bottom" z="31">
+      </gadget>
+      <gadget name="hotkeysetup-Command-BorderLeft" type="gadget" transparent="" tilebackgroundvert="" size1024="51 152 59 438" background="ui\core_ui\metal_trim_left" z="31">
+      </gadget>
+      <gadget name="hotkeysetup-Command-BorderRight" type="gadget" transparent="" tilebackgroundvert="" size1024="385 152 393 438" background="ui\core_ui\metal_trim_right" z="31">
+      </gadget>
+      <gadget name="hotkeysetup-Command-BorderTopLeft" type="gadget" transparent="" size1024="51 120 83 152" background="ui\core_ui\metal_trim_corner_topleft" z="31">
+      </gadget>
+      <gadget name="hotkeysetup-Command-BorderTopRight" type="gadget" transparent="" size1024="361 120 393 152" background="ui\core_ui\metal_trim_corner_topright" z="31">
+      </gadget>
+      <gadget name="hotkeysetup-Command-BorderBottomLeft" type="gadget" transparent="" size1024="51 438 83 470" background="ui\core_ui\metal_trim_corner_bottomleft" z="31">
+      </gadget>
+      <gadget name="hotkeysetup-Command-BorderBottomRight" type="gadget" transparent="" size1024="361 438 393 470" background="ui\core_ui\metal_trim_corner_bottomright" z="31">
+      </gadget>
+      <gadget name="hotkeysetup-GroupList" type="list" scrollvert="" mouseovertext="$$21079$$Select the Hotkey Group you would like to modify." textfont="PeopleListItems" textfontsize="14" textcolor="255 208 0" showselect="" size1024="71 130 373 466" buttonsize1024="340 32" z="32">
+        <vertscrollbar sliderbuttons="" size1024="351 130 369 466" slidervertical="" sliderupbtnset="sliderUpBtn" sliderdownbtnset="sliderDownBtn">
+        </vertscrollbar>
+      </gadget>
+    </gadget>
+    <gadget name="hotkeysetup-GroupsLabel" textcentervert="" textcenterhoriz="" textcolor="255 208 0" textfontsize="18" textfont="Pregamelabels" type="formatText" size1024="94 73 350 105" background="ui\core_ui\text_block_256" z="11">$$19199$$Hotkey Groups:</gadget>
+    <gadget name="hotkeysetup-CommandLabel" textcentervert="" textcenterhoriz="" type="formatText" size1024="480 73 673 105" textfontsize="18" textfont="Pregamelabels" textcolor="255 208 0" background="ui\core_ui\text_block_193" texturecoords="0 0 0.75390625 1" z="30">$$20102$$Command</gadget>
+    <gadget name="hotkeysetup-HotkeyLabel" textcentervert="" textcenterhoriz="" type="formatText" size1024="741 73 934 105" textfontsize="18" textfont="Pregamelabels" textcolor="255 208 0" background="ui\core_ui\text_block_193" texturecoords="0 0 0.75390625 1" z="30">$$21200$$Hotkey</gadget>
+    <gadget name="hotkeysetup-Command-border" type="gadget" size1024="410 120 973 619" z="12" tilebackground="" background="ui\core_ui\metal_tile" transparent="">
+      <gadget name="hotkeysetup-Command-BorderTop" type="gadget" transparent="" tilebackgroundhoriz="" size1024="442 120 941 128" background="ui\core_ui\metal_trim_top" z="13">
+      </gadget>
+      <gadget name="hotkeysetup-Command-BorderBottom" type="gadget" transparent="" tilebackgroundhoriz="" size1024="442 611 941 619" background="ui\core_ui\metal_trim_bottom" z="13">
+      </gadget>
+      <gadget name="hotkeysetup-Command-BorderLeft" type="gadget" transparent="" tilebackgroundvert="" size1024="410 152 418 587" background="ui\core_ui\metal_trim_left" z="13">
+      </gadget>
+      <gadget name="hotkeysetup-Command-BorderRight" type="gadget" transparent="" tilebackgroundvert="" size1024="965 152 973 587" background="ui\core_ui\metal_trim_right" z="13">
+      </gadget>
+      <gadget name="hotkeysetup-Command-BorderTopLeft" type="gadget" transparent="" size1024="410 120 442 152" background="ui\core_ui\metal_trim_corner_topleft" z="13">
+      </gadget>
+      <gadget name="hotkeysetup-Command-BorderTopRight" type="gadget" transparent="" size1024="941 120 973 152" background="ui\core_ui\metal_trim_corner_topright" z="13">
+      </gadget>
+      <gadget name="hotkeysetup-Command-BorderBottomLeft" type="gadget" transparent="" size1024="410 587 442 619" background="ui\core_ui\metal_trim_corner_bottomleft" z="13">
+      </gadget>
+      <gadget name="hotkeysetup-Command-BorderBottomRight" type="gadget" transparent="" size1024="941 587 973 619" background="ui\core_ui\metal_trim_corner_bottomright" z="13">
+      </gadget>
+      <gadget name="hotkeysetup-keylist-keyName1" type="button" textfont="PeopleListItems" textfontsize="14" textcolor="255 208 0" size1024="430 130 730 149" z="30" mouseovertext="$$21314$$Select the command and click the change button to assign a hotkey.">
+      </gadget>
+      <gadget name="hotkeysetup-keylist-keyName2" type="button" textfont="PeopleListItems" textfontsize="14" textcolor="255 208 0" size1024="430 150 730 169" z="30" mouseovertext="$$21314$$Select the command and click the change button to assign a hotkey.">
+      </gadget>
+      <gadget name="hotkeysetup-keylist-keyName3" type="button" textfont="PeopleListItems" textfontsize="14" textcolor="255 208 0" size1024="430 170 730 189" z="30" mouseovertext="$$21314$$Select the command and click the change button to assign a hotkey.">
+      </gadget>
+      <gadget name="hotkeysetup-keylist-keyName4" type="button" textfont="PeopleListItems" textfontsize="14" textcolor="255 208 0" size1024="430 190 730 209" z="30" mouseovertext="$$21314$$Select the command and click the change button to assign a hotkey.">
+      </gadget>
+      <gadget name="hotkeysetup-keylist-keyName5" type="button" textfont="PeopleListItems" textfontsize="14" textcolor="255 208 0" size1024="430 210 730 229" z="30" mouseovertext="$$21314$$Select the command and click the change button to assign a hotkey.">
+      </gadget>
+      <gadget name="hotkeysetup-keylist-keyName6" type="button" textfont="PeopleListItems" textfontsize="14" textcolor="255 208 0" size1024="430 230 730 249" z="30" mouseovertext="$$21314$$Select the command and click the change button to assign a hotkey.">
+      </gadget>
+      <gadget name="hotkeysetup-keylist-keyName7" type="button" textfont="PeopleListItems" textfontsize="14" textcolor="255 208 0" size1024="430 250 730 269" z="30" mouseovertext="$$21314$$Select the command and click the change button to assign a hotkey.">
+      </gadget>
+      <gadget name="hotkeysetup-keylist-keyName8" type="button" textfont="PeopleListItems" textfontsize="14" textcolor="255 208 0" size1024="430 270 730 289" z="30" mouseovertext="$$21314$$Select the command and click the change button to assign a hotkey.">
+      </gadget>
+      <gadget name="hotkeysetup-keylist-keyName9" type="button" textfont="PeopleListItems" textfontsize="14" textcolor="255 208 0" size1024="430 290 730 309" z="30" mouseovertext="$$21314$$Select the command and click the change button to assign a hotkey.">
+      </gadget>
+      <gadget name="hotkeysetup-keylist-keyName10" type="button" textfont="PeopleListItems" textfontsize="14" textcolor="255 208 0" size1024="430 310 730 329" z="30" mouseovertext="$$21314$$Select the command and click the change button to assign a hotkey.">
+      </gadget>
+      <gadget name="hotkeysetup-keylist-keyName11" type="button" textfont="PeopleListItems" textfontsize="14" textcolor="255 208 0" size1024="430 330 730 349" z="30" mouseovertext="$$21314$$Select the command and click the change button to assign a hotkey.">
+      </gadget>
+      <gadget name="hotkeysetup-keylist-keyName12" type="button" textfont="PeopleListItems" textfontsize="14" textcolor="255 208 0" size1024="430 350 730 369" z="30" mouseovertext="$$21314$$Select the command and click the change button to assign a hotkey.">
+      </gadget>
+      <gadget name="hotkeysetup-keylist-keyName13" type="button" textfont="PeopleListItems" textfontsize="14" textcolor="255 208 0" size1024="430 370 730 389" z="30" mouseovertext="$$21314$$Select the command and click the change button to assign a hotkey.">
+      </gadget>
+      <gadget name="hotkeysetup-keylist-keyName14" type="button" textfont="PeopleListItems" textfontsize="14" textcolor="255 208 0" size1024="430 390 730 409" z="30" mouseovertext="$$21314$$Select the command and click the change button to assign a hotkey.">
+      </gadget>
+      <gadget name="hotkeysetup-keylist-keyName15" type="button" textfont="PeopleListItems" textfontsize="14" textcolor="255 208 0" size1024="430 410 730 429" z="30" mouseovertext="$$21314$$Select the command and click the change button to assign a hotkey.">
+      </gadget>
+      <gadget name="hotkeysetup-keylist-keyName16" type="button" textfont="PeopleListItems" textfontsize="14" textcolor="255 208 0" size1024="430 430 730 449" z="30" mouseovertext="$$21314$$Select the command and click the change button to assign a hotkey.">
+      </gadget>
+      <gadget name="hotkeysetup-keylist-keyName17" type="button" textfont="PeopleListItems" textfontsize="14" textcolor="255 208 0" size1024="430 450 730 469" z="30" mouseovertext="$$21314$$Select the command and click the change button to assign a hotkey.">
+      </gadget>
+      <gadget name="hotkeysetup-keylist-keyName18" type="button" textfont="PeopleListItems" textfontsize="14" textcolor="255 208 0" size1024="430 470 730 489" z="30" mouseovertext="$$21314$$Select the command and click the change button to assign a hotkey.">
+      </gadget>
+      <gadget name="hotkeysetup-keylist-keyName19" type="button" textfont="PeopleListItems" textfontsize="14" textcolor="255 208 0" size1024="430 490 730 509" z="30" mouseovertext="$$21314$$Select the command and click the change button to assign a hotkey.">
+      </gadget>
+      <gadget name="hotkeysetup-keylist-keyName20" type="button" textfont="PeopleListItems" textfontsize="14" textcolor="255 208 0" size1024="430 510 730 529" z="30" mouseovertext="$$21314$$Select the command and click the change button to assign a hotkey.">
+      </gadget>
+      <gadget name="hotkeysetup-keylist-keyName21" type="button" textfont="PeopleListItems" textfontsize="14" textcolor="255 208 0" size1024="430 530 730 549" z="30" mouseovertext="$$21314$$Select the command and click the change button to assign a hotkey.">
+      </gadget>
+      <gadget name="hotkeysetup-keylist-keyName22" type="button" textfont="PeopleListItems" textfontsize="14" textcolor="255 208 0" size1024="430 550 730 569" z="30" mouseovertext="$$21314$$Select the command and click the change button to assign a hotkey.">
+      </gadget>
+      <gadget name="hotkeysetup-keylist-keyName23" type="button" textfont="PeopleListItems" textfontsize="14" textcolor="255 208 0" size1024="430 570 730 589" z="30" mouseovertext="$$21314$$Select the command and click the change button to assign a hotkey.">
+      </gadget>
+      <gadget name="hotkeysetup-keylist-keyName24" type="button" textfont="PeopleListItems" textfontsize="14" textcolor="255 208 0" size1024="430 590 730 609" z="30" mouseovertext="$$21314$$Select the command and click the change button to assign a hotkey.">
+      </gadget>
+      <gadget name="hotkeysetup-keyList-key1" type="button" textfont="PeopleListItems" textfontsize="14" textcolor="255 208 0" size1024="737 130 943 149" z="31" mouseovertext="$$21314$$Select the command and click the change button to assign a hotkey.">
+      </gadget>
+      <gadget name="hotkeysetup-keylist-key2" type="button" textfont="PeopleListItems" textfontsize="14" textcolor="255 208 0" size1024="737 150 943 169" z="31" mouseovertext="$$21314$$Select the command and click the change button to assign a hotkey.">
+      </gadget>
+      <gadget name="hotkeysetup-keylist-key3" type="button" textfont="PeopleListItems" textfontsize="14" textcolor="255 208 0" size1024="737 170 943 189" z="31" mouseovertext="$$21314$$Select the command and click the change button to assign a hotkey.">
+      </gadget>
+      <gadget name="hotkeysetup-keylist-key4" type="button" textfont="PeopleListItems" textfontsize="14" textcolor="255 208 0" size1024="737 190 943 209" z="31" mouseovertext="$$21314$$Select the command and click the change button to assign a hotkey.">
+      </gadget>
+      <gadget name="hotkeysetup-keylist-key5" type="button" textfont="PeopleListItems" textfontsize="14" textcolor="255 208 0" size1024="737 210 943 229" z="31" mouseovertext="$$21314$$Select the command and click the change button to assign a hotkey.">
+      </gadget>
+      <gadget name="hotkeysetup-keylist-key6" type="button" textfont="PeopleListItems" textfontsize="14" textcolor="255 208 0" size1024="737 230 943 249" z="31" mouseovertext="$$21314$$Select the command and click the change button to assign a hotkey.">
+      </gadget>
+      <gadget name="hotkeysetup-keylist-key7" type="button" textfont="PeopleListItems" textfontsize="14" textcolor="255 208 0" size1024="737 250 943 269" z="31" mouseovertext="$$21314$$Select the command and click the change button to assign a hotkey.">
+      </gadget>
+      <gadget name="hotkeysetup-keylist-key8" type="button" textfont="PeopleListItems" textfontsize="14" textcolor="255 208 0" size1024="737 270 943 289" z="31" mouseovertext="$$21314$$Select the command and click the change button to assign a hotkey.">
+      </gadget>
+      <gadget name="hotkeysetup-keylist-key9" type="button" textfont="PeopleListItems" textfontsize="14" textcolor="255 208 0" size1024="737 290 943 309" z="31" mouseovertext="$$21314$$Select the command and click the change button to assign a hotkey.">
+      </gadget>
+      <gadget name="hotkeysetup-keylist-key10" type="button" textfont="PeopleListItems" textfontsize="14" textcolor="255 208 0" size1024="737 310 943 329" z="31" mouseovertext="$$21314$$Select the command and click the change button to assign a hotkey.">
+      </gadget>
+      <gadget name="hotkeysetup-keylist-key11" type="button" textfont="PeopleListItems" textfontsize="14" textcolor="255 208 0" size1024="737 330 943 349" z="31" mouseovertext="$$21314$$Select the command and click the change button to assign a hotkey.">
+      </gadget>
+      <gadget name="hotkeysetup-keylist-key12" type="button" textfont="PeopleListItems" textfontsize="14" textcolor="255 208 0" size1024="737 350 943 369" z="31" mouseovertext="$$21314$$Select the command and click the change button to assign a hotkey.">
+      </gadget>
+      <gadget name="hotkeysetup-keylist-key13" type="button" textfont="PeopleListItems" textfontsize="14" textcolor="255 208 0" size1024="737 370 943 389" z="31" mouseovertext="$$21314$$Select the command and click the change button to assign a hotkey.">
+      </gadget>
+      <gadget name="hotkeysetup-keylist-key14" type="button" textfont="PeopleListItems" textfontsize="14" textcolor="255 208 0" size1024="737 390 943 409" z="31" mouseovertext="$$21314$$Select the command and click the change button to assign a hotkey.">
+      </gadget>
+      <gadget name="hotkeysetup-keylist-key15" type="button" textfont="PeopleListItems" textfontsize="14" textcolor="255 208 0" size1024="737 410 943 429" z="31" mouseovertext="$$21314$$Select the command and click the change button to assign a hotkey.">
+      </gadget>
+      <gadget name="hotkeysetup-keylist-key16" type="button" textfont="PeopleListItems" textfontsize="14" textcolor="255 208 0" size1024="737 430 943 449" z="31" mouseovertext="$$21314$$Select the command and click the change button to assign a hotkey.">
+      </gadget>
+      <gadget name="hotkeysetup-keylist-key17" type="button" textfont="PeopleListItems" textfontsize="14" textcolor="255 208 0" size1024="737 450 943 469" z="31" mouseovertext="$$21314$$Select the command and click the change button to assign a hotkey.">
+      </gadget>
+      <gadget name="hotkeysetup-keylist-key18" type="button" textfont="PeopleListItems" textfontsize="14" textcolor="255 208 0" size1024="737 470 943 489" z="31" mouseovertext="$$21314$$Select the command and click the change button to assign a hotkey.">
+      </gadget>
+      <gadget name="hotkeysetup-keylist-key19" type="button" textfont="PeopleListItems" textfontsize="14" textcolor="255 208 0" size1024="737 490 943 509" z="31" mouseovertext="$$21314$$Select the command and click the change button to assign a hotkey.">
+      </gadget>
+      <gadget name="hotkeysetup-keylist-key20" type="button" textfont="PeopleListItems" textfontsize="14" textcolor="255 208 0" size1024="737 510 943 529" z="31" mouseovertext="$$21314$$Select the command and click the change button to assign a hotkey.">
+      </gadget>
+      <gadget name="hotkeysetup-keylist-key21" type="button" textfont="PeopleListItems" textfontsize="14" textcolor="255 208 0" size1024="737 530 943 549" z="31" mouseovertext="$$21314$$Select the command and click the change button to assign a hotkey.">
+      </gadget>
+      <gadget name="hotkeysetup-keylist-key22" type="button" textfont="PeopleListItems" textfontsize="14" textcolor="255 208 0" size1024="737 550 943 569" z="31" mouseovertext="$$21314$$Select the command and click the change button to assign a hotkey.">
+      </gadget>
+      <gadget name="hotkeysetup-keylist-key23" type="button" textfont="PeopleListItems" textfontsize="14" textcolor="255 208 0" size1024="737 570 943 589" z="31" mouseovertext="$$21314$$Select the command and click the change button to assign a hotkey.">
+      </gadget>
+      <gadget name="hotkeysetup-keylist-key24" type="button" textfont="PeopleListItems" textfontsize="14" textcolor="255 208 0" size1024="737 590 943 609" z="31" mouseovertext="$$21314$$Select the command and click the change button to assign a hotkey.">
+      </gadget>
+      <gadget name="hotkeysetup-HotkeyScrollbar" type="slider" z="30" size1024="949 130 967 609" sliderbuttons="" slidervertical="" sliderupbtnset="sliderUpBtn" sliderdownbtnset="sliderDownBtn">
+      </gadget>
+    </gadget>
+    <gadget name="hotkeysetup-StatusTextBackground" type="gadget" size1024="51 484 393 619" z="30" background="ui\core_ui\metal_tile" tilebackground="">
+      <gadget name="hotkeysetup-StatusText-BorderTop" type="gadget" transparent="" tilebackgroundhoriz="" size1024="83 484 361 492" background="ui\core_ui\metal_trim_top" z="31">
+      </gadget>
+      <gadget name="hotkeysetup-StatusText-BorderBottom" type="gadget" transparent="" tilebackgroundhoriz="" size1024="83 611 361 619" background="ui\core_ui\metal_trim_bottom" z="31">
+      </gadget>
+      <gadget name="hotkeysetup-StatusText-BorderLeft" type="gadget" transparent="" tilebackgroundvert="" size1024="51 516 59 587" background="ui\core_ui\metal_trim_left" z="31">
+      </gadget>
+      <gadget name="hotkeysetup-StatusText-BorderRight" type="gadget" transparent="" tilebackgroundvert="" size1024="385 516 393 587" background="ui\core_ui\metal_trim_right" z="31">
+      </gadget>
+      <gadget name="hotkeysetup-StatusText-BorderTopLeft" type="gadget" transparent="" size1024="51 484 83 516" background="ui\core_ui\metal_trim_corner_topleft" z="31">
+      </gadget>
+      <gadget name="hotkeysetup-StatusText-BorderTopRight" type="gadget" transparent="" size1024="361 484 393 516" background="ui\core_ui\metal_trim_corner_topright" z="31">
+      </gadget>
+      <gadget name="hotkeysetup-StatusText-BorderBottomLeft" type="gadget" transparent="" size1024="51 587 83 619" background="ui\core_ui\metal_trim_corner_bottomleft" z="31">
+      </gadget>
+      <gadget name="hotkeysetup-StatusText-BorderBottomRight" type="gadget" transparent="" size1024="361 587 393 619" background="ui\core_ui\metal_trim_corner_bottomright" z="31">
+      </gadget>
+      <gadget name="hotkeysetup-StatusText" type="formatText" size1024="71 504 373 599" textmarkup="" formattextconvertuserlf="" textfont="PeopleListItems" textfontsize="14" textcolor="255 208 0">
+      </gadget>
+    </gadget>
+    <gadget name="hotkeysetup-AllowHotkeyConflictsButton" textcolor="255 208 0" type="checkButton" textfont="PregameButtons" textfontsize="18" z="101" size1024="128 628 324 650" checkcheckedart="ui\core_ui\checkbox_checked" checkuncheckedart="ui\core_ui\checkbox" checkborder1024="5 0" sound="UI_jewel" mouseovertext="$$49047$$Allow multiple commands to be set to the same hotkey">$$48941$$Allow Conflicts</gadget>
+  </gadget>
+</layout>

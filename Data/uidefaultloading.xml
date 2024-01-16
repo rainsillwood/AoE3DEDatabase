@@ -1,0 +1,30 @@
+<layout>
+  <gadget name="DefaultLoading" type="gadget" size1024="0 0 1024 768" windowzstyle="">
+    <gadget name="DefaultLoading-screen-background" type="gadget">
+      <gadget name="DefaultLoading-screen-BG1" type="gadget" size1024="0 0 256 256" clampbackground="" background="ui\singleplayer\background_1">
+      </gadget>
+      <gadget name="DefaultLoading-screen-BG2" type="gadget" size1024="256 0 512 256" clampbackground="" background="ui\singleplayer\background_2">
+      </gadget>
+      <gadget name="DefaultLoading-screen-BG3" type="gadget" size1024="512 0 768 256" clampbackground="" background="ui\singleplayer\background_3">
+      </gadget>
+      <gadget name="DefaultLoading-screen-BG4" type="gadget" size1024="768 0 1024 256" clampbackground="" background="ui\singleplayer\background_4">
+      </gadget>
+      <gadget name="DefaultLoading-screen-BG5" type="gadget" size1024="0 256 256 512" clampbackground="" background="ui\singleplayer\background_5">
+      </gadget>
+      <gadget name="DefaultLoading-screen-BG6" type="gadget" size1024="256 256 512 512" clampbackground="" background="ui\singleplayer\background_6">
+      </gadget>
+      <gadget name="DefaultLoading-screen-BG7" type="gadget" size1024="512 256 768 512" clampbackground="" background="ui\singleplayer\background_7">
+      </gadget>
+      <gadget name="DefaultLoading-screen-BG8" type="gadget" size1024="768 256 1024 512" clampbackground="" background="ui\singleplayer\background_8">
+      </gadget>
+      <gadget name="DefaultLoading-screen-BG9" type="gadget" size1024="0 512 256 768" clampbackground="" background="ui\singleplayer\background_9">
+      </gadget>
+      <gadget name="DefaultLoading-screen-BG10" type="gadget" size1024="256 512 512 768" clampbackground="" background="ui\singleplayer\background_10">
+      </gadget>
+      <gadget name="DefaultLoading-screen-BG11" type="gadget" size1024="512 512 768 768" clampbackground="" background="ui\singleplayer\background_11">
+      </gadget>
+      <gadget name="DefaultLoading-screen-BG12" type="gadget" size1024="768 512 1024 768" clampbackground="" background="ui\singleplayer\background_12">
+      </gadget>
+    </gadget>
+  </gadget>
+</layout>

@@ -1,0 +1,10 @@
+<layout>
+  <gadget name="homecitytransportpanel" type="homecitytransportpanel" transparent="" size1024="336 564 538 768" z="5">
+    <gadget name="homecitytransportpanel-button0" type="meshButton" size1024="364 594 537 756" z="15" background="ui\ingame\home_city" texturecoords="0.587890625 0.5625 0.685546875 0.953125">
+    </gadget>
+    <gadget name="homecitytransportpanel-buttonBackground0" type="gadget" size1024="364 563 537 768" background="ui\ingame\home_city" texturecoords="0.587890625 0.46875 0.689453125 1.0" z="5">
+    </gadget>
+    <gadget name="homecitytransportpanel-buttonBackgroundEnd" type="gadget" size1024="336 563 364 767" background="ui\ingame\home_city" texturecoords="0.556640625 0.46875 0.587890625 1.0" z="5">
+    </gadget>
+  </gadget>
+</layout>

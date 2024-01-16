@@ -1,0 +1,77 @@
+<layout>
+  <gadget name="MPPassport" type="gadget" size1024="3 2 1027 770" background="" windowzstyle="" z="99">
+    <gadget name="MPPassport-Background" type="gadget" size1024="261 210 773 554" background="ui\ui background blue transparent" tilebackground="" z="9">
+      <gadget tilebackgroundhoriz="" name="MPPassport-BordersTop" type="gadget" background="ui\ui border top middle" size1024="292 202 772 210">
+      </gadget>
+      <gadget tilebackgroundhoriz="" name="MPPassport-BordersBottom" type="gadget" background="ui\ui border bottom middle" size1024="261 554 772 562">
+      </gadget>
+      <gadget tilebackgroundvert="" name="MPPassport-BordersLeft" type="gadget" background="ui\ui border left middle" size1024="244 234 260 498">
+      </gadget>
+      <gadget tilebackgroundvert="" name="MPPassport-BordersRight" type="gadget" background="ui\ui border right middle" size1024="773 234 789 498">
+      </gadget>
+      <gadget name="MPPassport-BordersLeftTop" type="gadget" background="ui\ui border top left corner" size1024="228 202 292 234">
+      </gadget>
+      <gadget name="MPPassport-BordersLeftBottom" type="gadget" background="ui\ui border bottom left corner" size1024="228 498 292 562">
+      </gadget>
+      <gadget name="MPPassport-BordersRightBottom" type="gadget" background="ui\ui border bottom right corner" size1024="741 498 805 562">
+      </gadget>
+      <gadget name="MPPassport-BordersRightTop" type="gadget" background="ui\ui border top right corner" size1024="741 202 805 234">
+      </gadget>
+    </gadget>
+    <gadget name="MPPassport-ScreenLabel" textcentervert="" textcolor="255 208 0" textfontsize="22" textfont="PregameHeaders" type="formatText" size1024="278 217 571 242">$$19998$$Existing Passport Users</gadget>
+    <gadget name="MPPassport-ScreenSeparator" type="gadget" size1024="268 246 764 248" background="missing">
+    </gadget>
+    <gadget name="MPPassport-Logo" type="gadget" size1024="630 212 732 244" background="ui\ui dot net passport logo" texturecoords="0 0 .8 1">
+    </gadget>
+    <gadget name="MPPassport-OKButton" type="stateButton" size1024="316 508 508 540" bevelbutton="" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="255 208 0" textcenterhoriz="" textcentervert="" texturecoords="0 0 .75 1" mouseovertext="$$19939$$">$$18465$$OK<stateentry background="ui\core_ui\button_192x32_normal"></stateentry><stateentry background="ui\ui button long 192X32 clicked"></stateentry><stateentry background="ui\ui button long 192X32 rollover"></stateentry><stateentry background=""></stateentry></gadget>
+    <gadget name="MPPassport-CancelButton" type="stateButton" size1024="516 508 708 540" bevelbutton="" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="255 208 0" textcenterhoriz="" textcentervert="" texturecoords="0 0 .75 1" mouseovertext="$$19940$$">$$18466$$Cancel<stateentry background="ui\core_ui\button_192x32_normal"></stateentry><stateentry background="ui\ui button long 192X32 clicked"></stateentry><stateentry background="ui\ui button long 192X32 rollover"></stateentry><stateentry background=""></stateentry><command>gadgetUnreal("MPPassport")</command></gadget>
+    <gadget name="MPPassport-NewESOLabel" textcentervert="" textcolor="255 208 0" textfontsize="18" textfont="Pregamelabels" type="formatText" size1024="259 418 499 439" textjustifyright="">$$20000$$New ESO Name:</gadget>
+    <gadget name="MPPassport-NameLabel" textcentervert="" textcolor="255 208 0" textfontsize="18" textfont="Pregamelabels" type="formatText" size1024="259 301 499 322" textjustifyright="">$$19999$$Existing Passport ID:</gadget>
+    <gadget name="MPPassport-PasswordLabel" textcentervert="" textcolor="255 208 0" textfontsize="18" textfont="Pregamelabels" type="formatText" size1024="259 341 499 362" textjustifyright="">$$20013$$Existing Passport Password:</gadget>
+    <gadget name="MPPassport-EntryFields" type="gadget" size1024="499 296 752 486">
+      <gadget name="MPPassport-Left-NewESONameEntry" type="gadget" background="ui\ui text box left" size1024="500 413 516 445">
+      </gadget>
+      <gadget name="MPPassport-NewESOName" type="gadget" tilebackgroundhoriz="" background="missing" size1024="516 413 694 445">
+      </gadget>
+      <gadget name="MPPassport-NewESOName-Text" type="editBox" size1024="516 419 694 443" textfont="PregameEntry" textfontsize="15" textcolor="0 0 58" enterkey="" z="11">
+      </gadget>
+      <gadget name="MPPassport-Right-NewESONameEntry" type="gadget" background="ui\ui text box right" size1024="694 413 710 445">
+      </gadget>
+      <gadget name="MPPassport-Left-NameEntry" type="gadget" background="ui\ui text box left" size1024="500 296 516 328">
+      </gadget>
+      <gadget name="MPPassport-UserName" type="gadget" tilebackgroundhoriz="" background="missing" size1024="516 296 694 328">
+      </gadget>
+      <gadget name="MPPassport-UserName-Text" type="editBox" size1024="516 302 694 326" textfont="PregameEntry" textfontsize="15" textcolor="0 0 58" enterkey="" z="11">
+      </gadget>
+      <gadget name="MPPassport-Right-NameEntry" type="gadget" background="ui\ui text box right" size1024="694 296 710 328">
+      </gadget>
+      <gadget name="MPPassport-Left-PasswordEntry" type="gadget" background="ui\ui text box left" size1024="500 336 516 368">
+      </gadget>
+      <gadget name="MPPassport-Password" type="gadget" tilebackgroundhoriz="" background="missing" size1024="516 336 694 368">
+      </gadget>
+      <gadget name="MPPassport-Password-Text" type="editBox" size1024="516 342 694 366" textfont="PregameEntry" textfontsize="15" textcolor="0 0 58" enterkey="" editboxmaskchars="" z="11">
+      </gadget>
+      <gadget name="MPPassport-Right-NewESONameEntry" type="gadget" background="ui\ui text box right" size1024="694 336 710 368">
+      </gadget>
+    </gadget>
+  </gadget>
+  <gadget type="dialog" name="MPPassport-DisablePanel" size1024="347 196 677 420" bevel="" background="missing" tilebackground="" texturereplace="" windowzstyle="" hidden="">
+    <gadget tilebackgroundhoriz="" name="pregame-messagedialog-BordersTop" type="gadget" background="ui\ui border top middle" size1024="379 188 645 196">
+    </gadget>
+    <gadget tilebackgroundhoriz="" name="pregame-messagedialog-BordersBottom" type="gadget" background="ui\ui border bottom middle" size1024="379 420 645 428">
+    </gadget>
+    <gadget tilebackgroundvert="" name="pregame-messagedialog-BordersLeft" type="gadget" background="ui\ui border left middle" size1024="331 220 347 364">
+    </gadget>
+    <gadget tilebackgroundvert="" name="pregame-messagedialog-BordersRight" type="gadget" background="ui\ui border right middle" size1024="677 220 693 364">
+    </gadget>
+    <gadget name="pregame-messagedialog-BordersLeftTop" type="gadget" background="ui\ui border top left corner" size1024="315 188 379 220" clampbackground="">
+    </gadget>
+    <gadget name="pregame-messagedialog-BordersLeftBottom" type="gadget" background="ui\ui border bottom left corner" size1024="315 364 379 428" clampbackground="">
+    </gadget>
+    <gadget name="pregame-messagedialog-BordersRightBottom" type="gadget" background="ui\ui border bottom right corner" size1024="645 364 709 428" clampbackground="">
+    </gadget>
+    <gadget name="pregame-messagedialog-BordersRightTop" type="gadget" background="ui\ui border top right corner" size1024="645 188 709 220" clampbackground="">
+    </gadget>
+    <gadget name="MPPassport-DisablePanel-prompt" type="formatText" textcolor="255 208 0" textfont="PregameHeaders" textfontsize="22" textcentervert="" textcenterhoriz="" size1024="367 235 657 350">$$21206$$Attaching the nickname to the passport...</gadget>
+  </gadget>
+</layout>

@@ -1,0 +1,31 @@
+<layout>
+  <gadget type="dialog" name="session-connect" autoclose="" bevel="" size1024="344 265 683 470" background="ui\background_b" tilebackground="">
+    <gadget type="textBox" name="session-connect-timer" textwrapon="" textscrollbar="" nodatareplace="" textfont="Arial" textcolor="0 0 0" textfontsize="12" size1024="386 313 638 396">
+    </gadget>
+    <gadget name="session-connect-Cancelbutton" z="13" type="button" foreground="UI\button_A" bevelbutton="" texturereplace="" textfont="ButtonFont" textfontsize="14" textcolor="0 0 0" size1024="452 411 580 443">$$18466$$Cancel<command>gadgetUnReal("session-connect")</command></gadget>
+    <gadget type="gadget" name="playerroom-decorative-upperleftcorner" background="UI\decor_a corner left top" tilebackground="" size1024="345 267 409 331" z="9">
+    </gadget>
+    <gadget type="gadget" name="playerroom-decorative-upperrightcorner" background="UI\decor_a corner right top" tilebackground="" size1024="615 267 679 331" z="9">
+    </gadget>
+    <gadget type="gadget" name="playerroom-decorative-lowerleftcorner" background="UI\decor_a corner left bottom" tilebackground="" size1024="345 403 409 467">
+    </gadget>
+    <gadget type="gadget" name="playerroom-decorative-lowerrightcorner" background="UI\decor_a corner right bottom" tilebackground="" size1024="615 403 679 467">
+    </gadget>
+    <gadget name="playerroom-bordertop" type="gadget" size1024="345 259 679 267" background="UI\border_A straight top" tilebackground="">
+    </gadget>
+    <gadget name="playerroom-borderleft" type="gadget" size1024="337 267 345 467" background="UI\border_A straight left" tilebackground="">
+    </gadget>
+    <gadget name="playerroom-borderright" type="gadget" size1024="679 267 687 467" background="UI\border_A straight right" tilebackground="">
+    </gadget>
+    <gadget name="playerroom-borderbottom" type="gadget" size1024="345 467 679 475" background="UI\border_A straight bottom" tilebackground="">
+    </gadget>
+    <gadget name="playerroom-upperleftcorner" type="gadget" size1024="337 259 345 267" background="UI\border_A corner left top">
+    </gadget>
+    <gadget name="playerroom-upperrightcorner" type="gadget" size1024="679 259 687 267" background="UI\border_A corner right top">
+    </gadget>
+    <gadget name="playerroom-lowerleftcorner" type="gadget" size1024="337 467 345 475" background="UI\border_A corner left bottom">
+    </gadget>
+    <gadget name="playerroom-lowerrightcorner" type="gadget" size1024="679 467 687 475" background="UI\border_A corner right bottom">
+    </gadget>
+  </gadget>
+</layout>

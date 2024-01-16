@@ -1,0 +1,138 @@
+<layout>
+  <gadget name="History-Background" type="gadget" size1024="0 0 1024 768" z="1" tilebackground="" background="ui\core_ui\wood_thick_board_tile">
+    <gadget name="History-Background-BordersTop" type="gadget" background="ui\ingame\ui_postgame_heavyborder_top" size1024="128 0 896 64" z="2" transparent="">
+    </gadget>
+    <gadget name="History-Background-BordersBottom" type="gadget" background="ui\ingame\ui_postgame_heavyborder_bottom" size1024="128 704 896 768" z="2" transparent="">
+    </gadget>
+    <gadget name="History-Background-BordersLeft" type="gadget" background="ui\ingame\ui_postgame_heavyborder_left" size1024="0 128 64 640" tilebackgroundvert="" transparent="" z="2">
+    </gadget>
+    <gadget name="History-Background-BordersRight" type="gadget" background="ui\ingame\ui_postgame_heavyborder_right" size1024="960 128 1024 640" tilebackgroundvert="" z="2" transparent="">
+    </gadget>
+    <gadget name="History-Background-BordersRightTop" type="gadget" background="ui\ingame\ui_postgame_heavyborder_topright" size1024="896 0 1024 128" z="2" transparent="" clampbackground="">
+    </gadget>
+    <gadget name="History-Background-BordersLeftTop" type="gadget" background="ui\ingame\ui_postgame_heavyborder_topleft" size1024="0 0 128 128" z="2" transparent="" clampbackground="">
+    </gadget>
+    <gadget name="History-Background-BordersRightBottom" type="gadget" background="ui\ingame\ui_postgame_heavyborder_bottomright" size1024="896 640 1024 768" z="2" transparent="" clampbackground="">
+    </gadget>
+    <gadget name="History-Background-BordersLeftBottom" type="gadget" background="ui\ingame\ui_postgame_heavyborder_bottomleft" size1024="0 640 128 768" z="2" transparent="" clampbackground="">
+    </gadget>
+    <gadget name="History-TitleBarMiddle" type="gadget" background="ui\core_ui\title_bar_48_middle" size1024="456 -6 776 58" z="3" transparent="" tilebackgroundhoriz="">
+    </gadget>
+    <gadget name="History-TitleBarLeft" type="gadget" background="ui\core_ui\title_bar_48_left" size1024="392 -6 456 58" z="3" transparent="" clampbackground="">
+    </gadget>
+    <gadget name="History-TitleBarRight" type="gadget" background="ui\core_ui\title_bar_48_right" size1024="776 -6 840 58" z="3" transparent="" clampbackground="">
+    </gadget>
+    <gadget name="History-TitleText" type="formattext" size1024="456 3 776 41" z="4" textcolor="255 198 2" textfont="VictoryPointUI" textfontsize="30" textmarkup="" textcenterhoriz="" textcentervert="">$$19789$$History</gadget>
+    <gadget name="History-CategoryBarMiddle" type="gadget" background="ui\ingame\ingame_ui_postgame_topbar" size1024="392 72 840 136" z="4" transparent="" tilebackgroundhoriz="">
+    </gadget>
+    <gadget name="History-CategoryBarLeft" type="gadget" background="ui\ingame\ingame_ui_postgame_topbar_left" size1024="360 72 392 136" z="4" transparent="" clampbackground="">
+    </gadget>
+    <gadget name="History-CategoryBarRight" type="gadget" background="ui\ingame\ingame_ui_postgame_topbar_right" size1024="840 72 872 136" z="4" transparent="" clampbackground="">
+    </gadget>
+    <gadget name="History-CategoryText" type="formattext" size1024="392 72 840 136" z="5" textcolor="255 198 2" textfont="VictoryPointUI" textfontsize="30" textmarkup="" textcenterhoriz="" textcentervert="">
+    </gadget>
+    <gadget name="History-TabActive0" type="button" activateondown="" foreground="ui\ingame\ui_options_active_tab" background="ui\ingame\ui_options_active_tab" size1024="84 72 276 104" z="5" clampbackground="" texturecoords="0 0 0.75 1">
+    </gadget>
+    <gadget name="History-TabInactive0" type="button" activateondown="" foreground="ui\ingame\ui_options_inactive_tab" background="ui\ingame\ui_options_inactive_tab" size1024="88 72 272 104" z="5" clampbackground="" texturecoords="0 0 0.71484375 1">
+    </gadget>
+    <gadget name="History-TabText0" type="formattext" size1024="104 72 256 104" z="6" textcolor="255 255 255" textfont="SPLoadingScreenText" textfontsize="14" textjustifyright="" textcentervert="" transparent="">
+    </gadget>
+    <gadget name="History-TabActive1" type="button" activateondown="" foreground="ui\ingame\ui_options_active_tab" background="ui\ingame\ui_options_active_tab" size1024="84 112 276 144" z="5" clampbackground="" texturecoords="0 0 0.75 1">
+    </gadget>
+    <gadget name="History-TabInactive1" type="button" activateondown="" foreground="ui\ingame\ui_options_inactive_tab" background="ui\ingame\ui_options_inactive_tab" size1024="88 112 272 144" z="5" clampbackground="" texturecoords="0 0 0.71484375 1">
+    </gadget>
+    <gadget name="History-TabText1" type="formattext" size1024="104 112 256 144" z="6" textcolor="255 255 255" textfont="SPLoadingScreenText" textfontsize="14" textjustifyright="" textcentervert="" transparent="">
+    </gadget>
+    <gadget name="History-TabActive2" type="button" activateondown="" foreground="ui\ingame\ui_options_active_tab" background="ui\ingame\ui_options_active_tab" size1024="84 152 276 184" z="5" clampbackground="" texturecoords="0 0 0.75 1">
+    </gadget>
+    <gadget name="History-TabInactive2" type="button" activateondown="" foreground="ui\ingame\ui_options_inactive_tab" background="ui\ingame\ui_options_inactive_tab" size1024="88 152 272 184" z="5" clampbackground="" texturecoords="0 0 0.71484375 1">
+    </gadget>
+    <gadget name="History-TabText2" type="formattext" size1024="104 152 256 184" z="6" textcolor="255 255 255" textfont="SPLoadingScreenText" textfontsize="14" textjustifyright="" textcentervert="" transparent="">
+    </gadget>
+    <gadget name="History-TabActive3" type="button" activateondown="" foreground="ui\ingame\ui_options_active_tab" background="ui\ingame\ui_options_active_tab" size1024="84 192 276 224" z="5" clampbackground="" texturecoords="0 0 0.75 1">
+    </gadget>
+    <gadget name="History-TabInactive3" type="button" activateondown="" foreground="ui\ingame\ui_options_inactive_tab" background="ui\ingame\ui_options_inactive_tab" size1024="88 192 272 224" z="5" clampbackground="" texturecoords="0 0 0.71484375 1">
+    </gadget>
+    <gadget name="History-TabText3" type="formattext" size1024="104 192 256 224" z="6" textcolor="255 255 255" textfont="SPLoadingScreenText" textfontsize="14" textjustifyright="" textcentervert="" transparent="">
+    </gadget>
+    <gadget name="History-TabActive4" type="button" activateondown="" foreground="ui\ingame\ui_options_active_tab" background="ui\ingame\ui_options_active_tab" size1024="84 232 276 264" z="5" clampbackground="" texturecoords="0 0 0.75 1">
+    </gadget>
+    <gadget name="History-TabInactive4" type="button" activateondown="" foreground="ui\ingame\ui_options_inactive_tab" background="ui\ingame\ui_options_inactive_tab" size1024="88 232 272 264" z="5" clampbackground="" texturecoords="0 0 0.71484375 1">
+    </gadget>
+    <gadget name="History-TabText4" type="formattext" size1024="104 232 256 264" z="6" textcolor="255 255 255" textfont="SPLoadingScreenText" textfontsize="14" textjustifyright="" textcentervert="" transparent="">
+    </gadget>
+    <gadget name="History-TabActive5" type="button" activateondown="" foreground="ui\ingame\ui_options_active_tab" background="ui\ingame\ui_options_active_tab" size1024="84 272 276 304" z="5" clampbackground="" texturecoords="0 0 0.75 1">
+    </gadget>
+    <gadget name="History-TabInactive5" type="button" activateondown="" foreground="ui\ingame\ui_options_inactive_tab" background="ui\ingame\ui_options_inactive_tab" size1024="88 272 272 304" z="5" clampbackground="" texturecoords="0 0 0.71484375 1">
+    </gadget>
+    <gadget name="History-TabText5" type="formattext" size1024="104 272 256 304" z="6" textcolor="255 255 255" textfont="SPLoadingScreenText" textfontsize="14" textjustifyright="" textcentervert="" transparent="">
+    </gadget>
+    <gadget name="History-TabActive6" type="button" activateondown="" foreground="ui\ingame\ui_options_active_tab" background="ui\ingame\ui_options_active_tab" size1024="84 312 276 344" z="5" clampbackground="" texturecoords="0 0 0.75 1">
+    </gadget>
+    <gadget name="History-TabInactive6" type="button" activateondown="" foreground="ui\ingame\ui_options_inactive_tab" background="ui\ingame\ui_options_inactive_tab" size1024="88 312 272 344" z="5" clampbackground="" texturecoords="0 0 0.71484375 1">
+    </gadget>
+    <gadget name="History-TabText6" type="formattext" size1024="104 312 256 344" z="6" textcolor="255 255 255" textfont="SPLoadingScreenText" textfontsize="14" textjustifyright="" textcentervert="" transparent="">
+    </gadget>
+    <gadget name="History-TabActive7" type="button" activateondown="" foreground="ui\ingame\ui_options_active_tab" background="ui\ingame\ui_options_active_tab" size1024="84 352 276 384" z="5" clampbackground="" texturecoords="0 0 0.75 1">
+    </gadget>
+    <gadget name="History-TabInactive7" type="button" activateondown="" foreground="ui\ingame\ui_options_inactive_tab" background="ui\ingame\ui_options_inactive_tab" size1024="88 352 272 384" z="5" clampbackground="" texturecoords="0 0 0.71484375 1">
+    </gadget>
+    <gadget name="History-TabText7" type="formattext" size1024="104 352 256 384" z="6" textcolor="255 255 255" textfont="SPLoadingScreenText" textfontsize="14" textjustifyright="" textcentervert="" transparent="">
+    </gadget>
+    <gadget name="History-Page" type="gadget" background="ui\ingame\ingame_ui_parch" size1024="272 48 960 720" z="3" transparent="" tilebackground="">
+      <gadget name="History-Page-BordersTop" type="gadget" background="ui\ingame\ui_options_innerborder_top" size1024="288 48 944 64" z="4" transparent="">
+      </gadget>
+      <gadget name="History-Page-BordersBottom" type="gadget" background="ui\ingame\ui_options_innerborder_bottom" size1024="288 704 944 720" z="4" transparent="">
+      </gadget>
+      <gadget name="History-Page-BordersLeft" type="gadget" background="ui\ingame\ui_options_innerborder_left" size1024="272 64 288 704" tilebackgroundvert="" transparent="" z="9">
+      </gadget>
+      <gadget name="History-Page-BordersRight" type="gadget" background="ui\ingame\ui_options_innerborder_right" size1024="944 64 960 704" tilebackgroundvert="" z="4" transparent="">
+      </gadget>
+      <gadget name="History-Page-BordersRightTop" type="gadget" background="ui\ingame\ui_options_innerborder_topright" size1024="944 48 960 64" z="4" transparent="" clampbackground="">
+      </gadget>
+      <gadget name="History-Page-BordersLeftTop" type="gadget" background="ui\ingame\ui_options_innerborder_topleft" size1024="272 48 288 64" z="4" transparent="" clampbackground="">
+      </gadget>
+      <gadget name="History-Page-BordersRightBottom" type="gadget" background="ui\ingame\ui_options_innerborder_bottomright" size1024="944 704 960 720" z="4" transparent="" clampbackground="">
+      </gadget>
+      <gadget name="History-Page-BordersLeftBottom" type="gadget" background="ui\ingame\ui_options_innerborder_bottomleft" size1024="272 704 288 720" z="4" transparent="" clampbackground="">
+      </gadget>
+    </gadget>
+    <gadget name="History-LayoutHoriz-Pic" type="gadget" background="missing" size1024="360 152 872 408" z="5" transparent="" clampbackground="">
+    </gadget>
+    <gadget name="History-LayoutHoriz-Title" type="formattext" size1024="360 416 872 448" z="5" textcolor="60 58 42" textfont="HistoryTitle" textfontsize="18" textmarkup="" formattextconvertuserlf="" usehyperlinks="">
+    </gadget>
+    <gadget name="History-LayoutHoriz-Text" type="formattext" size1024="360 456 872 672" z="5" textcolor="60 58 42" textfont="HistoryText" textfontsize="14" textmarkup="" formattextconvertuserlf="" usehyperlinks="" textscrollbar="">
+      <vertscrollbar sliderbuttons="" slidervertical="" sliderupbtnset="sliderUpBtn_18" sliderdownbtnset="sliderDownBtn_18" sliderpipart="ui\file_system\slider_pip_horizontal" sliderareaart="ui\file_system\slider_background_vertical_18" background="ui\file_system\slider_background" z="3">
+      </vertscrollbar>
+    </gadget>
+    <gadget name="History-LayoutVert-Pic" type="gadget" background="missing" size1024="296 160 552 672" z="5" transparent="" clampbackground="">
+    </gadget>
+    <gadget name="History-LayoutVert-Title" type="formattext" size1024="568 160 936 192" z="5" textcolor="60 58 42" textfont="HistoryTitle" textfontsize="18" textmarkup="" formattextconvertuserlf="" usehyperlinks="">
+    </gadget>
+    <gadget name="History-LayoutVert-Text" type="formattext" size1024="568 200 936 672" z="5" textcolor="60 58 42" textfont="HistoryText" textfontsize="14" textmarkup="" formattextconvertuserlf="" usehyperlinks="" textscrollbar="">
+      <vertscrollbar sliderbuttons="" slidervertical="" sliderupbtnset="sliderUpBtn_18" sliderdownbtnset="sliderDownBtn_18" sliderpipart="ui\file_system\slider_pip_horizontal" sliderareaart="ui\file_system\slider_background_vertical_18" background="ui\file_system\slider_background" z="3">
+      </vertscrollbar>
+    </gadget>
+    <gadget name="History-NextPage" type="formattext" size1024="744 672 936 696" z="5" textcolor="255 255 255" textfont="SPLoadingScreenText" textfontsize="14" textcentervert="" textmarkup="" usehyperlinks="">
+    </gadget>
+    <gadget name="History-PrevPage" type="formattext" size1024="296 672 488 696" z="5" textcolor="255 255 255" textfont="SPLoadingScreenText" textfontsize="14" textcentervert="" textcenterhoriz="" textmarkup="" usehyperlinks="">
+    </gadget>
+    <gadget name="History-TopPage" type="formattext" size1024="488 672 744 696" z="5" textcolor="255 255 255" textfont="SPLoadingScreenText" textfontsize="14" textjustifyright="" textcentervert="" textmarkup="" usehyperlinks="">
+    </gadget>
+    <gadget name="History-NavBar" type="formattext" size1024="105 400 273 656" z="2" textcolor="255 255 255" textfont="SPLoadingScreenText" textfontsize="14" textmarkup="" usehyperlinks="" formattextconvertuserlf="" textscrollbar="" background="ui\ingame\ingame_ui_parch" tilebackground="">
+      <vertscrollbar sliderbuttons="" slidervertical="" sliderupbtnset="sliderUpBtn_18" sliderdownbtnset="sliderDownBtn_18" sliderpipart="ui\file_system\slider_pip_horizontal" sliderareaart="ui\file_system\slider_background_vertical_18" background="ui\file_system\slider_background" z="3">
+      </vertscrollbar>
+      <gadget name="History-NavBar-BordersTop" type="gadget" background="ui\home_city\border_top_middle" size1024="105 392 273 400" z="3" transparent="">
+      </gadget>
+      <gadget name="History-NavBar-BordersBottom" type="gadget" background="ui\home_city\border_bottom_middle" size1024="105 656 273 664" z="3" transparent="">
+      </gadget>
+      <gadget name="History-NavBar-BordersLeft" type="gadget" background="ui\home_city\border_left_middle" size1024="97 400 105 656" z="3" transparent="">
+      </gadget>
+      <gadget name="History-NavBar-BordersLeftTop" type="gadget" background="ui\home_city\border_top_left" size1024="97 392 105 400" z="3" transparent="">
+      </gadget>
+      <gadget name="History-NavBar-BordersLeftBottom" type="gadget" background="ui\home_city\border_bottom_left" size1024="97 656 105 664" z="3" transparent="">
+      </gadget>
+    </gadget>
+    <gadget name="History-MainMenuButton" type="stateButton" size1024="64 672 256 704" bevelbutton="" z="2" statebuttonuseinternalstates="" textfont="MainMenuButtons" textfontsize="18" textcolor="255 255 255" texturecoords="0 0 .75 1" mouseovertext="$$18583$$Return to the Main Menu">$$18582$$Main Menu<stateentry background="ui\core_ui\button_x-large_normal"></stateentry><stateentry background="ui\core_ui\button_x-large_clicked"></stateentry><stateentry background="ui\core_ui\button_x-large_high"></stateentry><stateentry background=""></stateentry></gadget>
+  </gadget>
+</layout>

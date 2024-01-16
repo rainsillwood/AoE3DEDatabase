@@ -1,0 +1,34 @@
+<layout>
+  <gadget hidden="" type="gadget" name="mproom-alternatesdialog" size1024="0 0 800 500" bevel="" centervert="" centerhoriz="" background="UI\background_D" z="100" tilebackground="">
+    <gadget name="mproom-alternatesdialog-bordertop" type="gadget" sizerel1024="8   0   792 8  " background="UI\border_B straight top" tilebackground="">
+    </gadget>
+    <gadget name="mproom-alternatesdialog-borderleft" type="gadget" sizerel1024="0   8   8   492" background="UI\border_B straight left" tilebackground="">
+    </gadget>
+    <gadget name="mproom-alternatesdialog-borderright" type="gadget" sizerel1024="792 8   800 492" background="UI\border_B straight right" tilebackground="">
+    </gadget>
+    <gadget name="mproom-alternatesdialog-borderbottom" type="gadget" sizerel1024="8   492 792 500" background="UI\border_B straight bottom" tilebackground="">
+    </gadget>
+    <gadget name="mproom-alternatesdialog-upperleftcorner" type="gadget" sizerel1024="0   0   8   8  " background="UI\border_B corner left top">
+    </gadget>
+    <gadget name="mproom-alternatesdialog-upperrightcorner" type="gadget" sizerel1024="792 0   800 8  " background="UI\border_B corner right top">
+    </gadget>
+    <gadget name="mproom-alternatesdialog-lowerleftcorner" type="gadget" sizerel1024="0   492 8   500" background="UI\border_B corner left bottom">
+    </gadget>
+    <gadget name="mproom-alternatesdialog-lowerrightcorner" type="gadget" sizerel1024="792 492 800 500" background="UI\border_B corner right bottom">
+    </gadget>
+    <gadget name="mproom-alternatesdialog-prompttext" type="formatText" sizerel1024="20 20 780 35" textfont="FieldLabels" textfontsize="14" textcolor="0 0 0">Gonna be here a while. Wanna try one of these alternates?</gadget>
+    <gadget name="mproom-alternatesdialog-columnformat" type="formatText" textwrapon="" sizerel1024="20 35 780 65" textfont="FieldLabels" textfontsize="12" textcolor="0 0 0">(LaunchFrequency): Map,#Players,#Teams,Map Size,Victory,Handicap,Visibility,World Rscs,Team Rscs,Team Pop,Locked Teams,Cheats,Record Game,Coop Game,Pauses,Language</gadget>
+    <gadget name="mproom-alternatesdialog-listarea" type="gadget" sizerel1024="20 61 780 440" backgroundcolor="0 0 0" backgroundalpha="0.3">
+      <gadget name="mproom-alternatesdialog-mygameheading" type="formatText" sizerel1024="10 10 506 25" textfont="LargeLabels" textfontsize="16" textcolor="255 255 255">My Game</gadget>
+      <gadget name="mproom-alternatesdialog-mygame" type="button" sizerel1024="25 30 740 45" textfont="FieldLabels" textfontsize="14" textcolor="0 0 0">My Game Listing</gadget>
+      <gadget name="mproom-alternatesdialog-alternatesheading" type="formatText" sizerel1024="10 50 506 65" textfont="LargeLabels" textfontsize="16" textcolor="255 255 255">Alternate Games</gadget>
+      <gadget name="mproom-alternatesdialog-item1" type="button" sizerel1024="25 70 740 85" textfont="FieldLabels" textfontsize="14" textcolor="0 0 0">Line1 for GamesList Data</gadget>
+      <gadget name="mproom-alternatesdialog-item2" type="button" sizerel1024="25 90 740 105" textfont="FieldLabels" textfontsize="14" textcolor="0 0 0">Line2 for GamesList Data</gadget>
+      <gadget name="mproom-alternatesdialog-item3" type="button" sizerel1024="25 110 740 125" textfont="FieldLabels" textfontsize="14" textcolor="0 0 0">Line3 for GamesList Data</gadget>
+      <gadget name="mproom-alternatesdialog-item4" type="button" sizerel1024="25 130 740 145" textfont="FieldLabels" textfontsize="14" textcolor="0 0 0">Line4 for GamesList Data</gadget>
+      <gadget name="mproom-alternatesdialog-item5" type="button" sizerel1024="25 150 740 165" textfont="FieldLabels" textfontsize="14" textcolor="0 0 0">Line5 for GamesList Data</gadget>
+    </gadget>
+    <gadget name="mproom-alternatesdialog-OKButton" type="button" sizerel1024="504 458 632 490" foreground="UI\button_A" textfont="Arial" textfontsize="14" textcolor="0 0 0">Switch<command>gadgetUnReal("mproom-alternatesdialog")</command></gadget>
+    <gadget name="mproom-alternatesdialog-CancelButton" type="button" sizerel1024="662 458 790 490" foreground="UI\button_A" textfont="Arial" textfontsize="14" textcolor="0 0 0">Wait<command>gadgetUnReal("mproom-alternatesdialog")</command></gadget>
+  </gadget>
+</layout>

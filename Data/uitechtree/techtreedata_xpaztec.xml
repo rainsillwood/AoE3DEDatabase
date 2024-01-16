@@ -1,0 +1,250 @@
+<techtreedata>
+  <group name="Town Center">
+    <proto name="TownCenter" banner="building" icon="resources/art/buildings/town_center/towncenter_portrait.png" row="0" col="1">
+    </proto>
+    <proto name="SettlerNative" banner="unit" icon="resources/art/units/native_villager_aztec_portrait.png" row="1" col="2">
+    </proto>
+    <tech name="BigAztecScoutingParty" banner="improvement" icon="resources/images/icons/techs/native_big_button/native_23.png" row="2" col="2">
+    </tech>
+    <tech name="BigAztecRaidingParty" banner="improvement" icon="resources/images/icons/techs/native_big_button/native_22.png" row="4" col="2">
+    </tech>
+    <tech name="BigAztecWarParty" banner="improvement" icon="resources/images/icons/techs/native_big_button/native_21.png" row="5" col="2">
+    </tech>
+    <tech name="HCBlockadeNative" banner="improvement" icon="resources/images/icons/techs/hc_blockade/hc_blockade.png" row="8" col="2">
+    </tech>
+    <tech name="ImpLegendaryNativesNatives" banner="improvement" icon="resources/images/icons/techs/imperial_legendary_natives/imp_legendary_natives.png" row="9" col="2">
+    </tech>
+    <proto name="xpAztecWarchief" banner="unit" icon="resources/art/units/az_warchief_portrait.png" row="0" col="7">
+    </proto>
+    <proto name="NativeScout" banner="unit" icon="resources/art/units/natives/miskatonic_scout_portrait.png" row="1" col="7">
+    </proto>
+    <tech name="SpiesNative" banner="improvement" icon="resources/images/icons/techs/spies/spies.png" row="8" col="7">
+    </tech>
+    <tech name="ImpImmigrantsNative" banner="improvement" icon="resources/images/icons/techs/imperial_immigrants/imp_immigrants.png" row="9" col="7">
+    </tech>
+  </group>
+  <group name="Market">
+    <proto name="Market" banner="building" icon="resources/art/buildings/market/market_portrait.png" row="0" col="13">
+    </proto>
+    <tech name="LumberCeremony" banner="improvement" icon="resources/images/icons/techs/native/lumber_ceremony.png" row="1" col="13">
+    </tech>
+    <tech name="ForestPeopleCeremony" banner="improvement" icon="resources/images/icons/techs/native/forest_people.png" row="2" col="13">
+    </tech>
+    <tech name="ForestSpiritCeremony" banner="improvement" icon="resources/images/icons/techs/native/forest_spirit.png" row="4" col="13">
+    </tech>
+    <tech name="ImpDeforestationNative" banner="improvement" icon="resources/images/icons/techs/deforestation/deforestation.png" row="8" col="13">
+    </tech>
+    <tech name="PlacerMines" banner="improvement" icon="resources/images/icons/techs/placer_mines/placer_mines_64x64.png" row="0" col="18">
+    </tech>
+    <tech name="HuntingDogs" banner="improvement" icon="resources/images/icons/techs/hunting_dogs/hunting_dogs_64x64.png" row="1" col="18">
+    </tech>
+    <tech name="SpiritMedicine" banner="improvement" icon="resources/images/icons/techs/native/spirit_medicine.png" row="0" col="23">
+    </tech>
+    <tech name="BigMarketNewYear" banner="improvement" icon="resources/images/icons/techs/native_big_button/native_28.png" row="1" col="23">
+    </tech>
+  </group>
+  <group name="Dock">
+    <proto name="Dock" banner="building" icon="resources/art/buildings/dock/dock_portrait.png" row="0" col="29">
+    </proto>
+    <tech name="GillNets" banner="improvement" icon="resources/images/icons/techs/gill_nets/gill_nets.png" row="1" col="30">
+    </tech>
+    <tech name="LongLines" banner="improvement" icon="resources/images/icons/techs/long_lines/long_lines.png" row="2" col="30">
+    </tech>
+    <proto name="xpWarCanoe" banner="unit" icon="resources/art/units/az_war_canoe_portrait.png" row="4" col="30">
+    </proto>
+    <tech name="BigDockCipactli" banner="improvement" icon="resources/images/icons/techs/native_big_button/native_36.png" row="5" col="30">
+    </tech>
+    <proto name="xpTlalocCanoe" banner="unit" icon="resources/art/units/tlaloc_canoe_portrait.png" row="6" col="30">
+    </proto>
+    <proto name="FishingBoat" banner="unit" icon="resources/art/units/native_fishing_boat_portrait.png" row="1" col="35">
+    </proto>
+    <proto name="Canoe" banner="unit" icon="resources/art/units/native_canoe_portrait.png" row="2" col="35">
+    </proto>
+  </group>
+  <group name="Native Embassy">
+    <proto name="NativeEmbassy" banner="building" icon="resources/art/buildings/native_embassy_portrait.png" row="0" col="35">
+    </proto>
+  </group>
+  <group name="Trading Post">
+    <proto name="TradingPost" banner="building" icon="resources/art/buildings/trading_post/trading_post_portrait.png" row="0" col="41">
+    </proto>
+    <tech name="TradeRouteUpgrade1" banner="improvement" icon="resources/art/units/trade/stagecoach_icon_64x64.png" row="2" col="41">
+    </tech>
+    <tech name="TradeRouteUpgrade2" banner="improvement" icon="resources/art/units/trains/train_icon_64x64.png" row="6" col="41">
+    </tech>
+  </group>
+  <group name="Wall">
+    <proto name="WallStraight1" banner="building" icon="resources/art/buildings/wall/wall_portrait.png" row="0" col="47">
+    </proto>
+    <tech name="Bastion" banner="improvement" icon="resources/images/icons/techs/bastion/bastion.png" row="4" col="47">
+    </tech>
+  </group>
+  <group name="War Hut">
+    <proto name="WarHut" banner="building" icon="resources/art/buildings/war_hut_portrait.png" row="0" col="53">
+    </proto>
+    <tech name="BigWarHutBarometz" banner="improvement" icon="resources/images/icons/techs/native_big_button/native_01.png" row="2" col="54">
+    </tech>
+    <tech name="StrongWarHut" banner="improvement" icon="resources/images/icons/techs/native/strong_warhut.png" row="4" col="54">
+    </tech>
+    <tech name="MightyWarHut" banner="improvement" icon="resources/images/icons/techs/native/mighty_warhut.png" row="6" col="54">
+    </tech>
+    <proto name="xpCoyoteMan" banner="unit" icon="resources/art/units/az_coyote_man_portrait.png" row="2" col="59">
+    </proto>
+    <tech name="EliteCoyotemen" banner="improvement" icon="resources/images/icons/techs/native/elite_infantry.png" row="4" col="59">
+    </tech>
+    <tech name="ChampionCoyotemen" banner="improvement" icon="resources/images/icons/techs/native/champion_infantry.png" row="6" col="59">
+    </tech>
+    <tech name="ImpLegendaryCoyoteMen" banner="improvement" icon="resources/images/icons/techs/native/legendary_infantry.png" row="8" col="59">
+    </tech>
+    <proto name="xpMacehualtin" banner="unit" icon="resources/art/units/az_macehuatlin_portrait.png" row="2" col="64">
+    </proto>
+    <tech name="EliteMacehualtins" banner="improvement" icon="resources/images/icons/techs/native/elite_ranged_infantry.png" row="4" col="64">
+    </tech>
+    <tech name="ChampionMacehualtins" banner="improvement" icon="resources/images/icons/techs/native/champion_ranged_infantry.png" row="6" col="64">
+    </tech>
+    <tech name="ImpLegendaryMacehualtins" banner="improvement" icon="resources/images/icons/techs/native/legendary_ranged_infantry.png" row="8" col="64">
+    </tech>
+    <proto name="xpPumaMan" banner="unit" icon="resources/art/units/az_puma_man_portrait.png" row="2" col="69">
+    </proto>
+    <tech name="ElitePumaMen" banner="improvement" icon="resources/images/icons/techs/native/elite_infantry.png" row="4" col="69">
+    </tech>
+    <tech name="ChampionPumaMen" banner="improvement" icon="resources/images/icons/techs/native/champion_infantry.png" row="6" col="69">
+    </tech>
+    <tech name="ImpLegendaryPumaMen" banner="improvement" icon="resources/images/icons/techs/native/legendary_infantry.png" row="8" col="69">
+    </tech>
+  </group>
+  <group name="Community Plaza">
+    <proto name="CommunityPlaza" banner="building" icon="resources/art/buildings/community_plaza_portrait.png" row="0" col="75">
+    </proto>
+    <label string="48963" string2="45904" banner="dance" icon="resources/images/icons/fire_pit/fertility.png" iconalpha="premultiplied" row="0" col="80">
+    </label>
+    <label string="46092" string2="45587" banner="dance" icon="resources/images/icons/fire_pit/town_dance.png" iconalpha="premultiplied" row="1" col="80">
+    </label>
+    <label string="48974" string2="46086" banner="dance" icon="resources/images/icons/fire_pit/holy_iroquois.png" iconalpha="premultiplied" row="2" col="80">
+    </label>
+    <label string="48969" string2="46051" banner="dance" icon="resources/images/icons/fire_pit/heal.png" iconalpha="premultiplied" row="4" col="80">
+    </label>
+    <label string="48971" string2="46061" banner="dance" icon="resources/images/icons/fire_pit/garland_wars.png" iconalpha="premultiplied" row="6" col="80">
+    </label>
+    <label string="45035" string2="45906" banner="dance" icon="resources/images/icons/fire_pit/gifts.png" iconalpha="premultiplied" row="0" col="85">
+    </label>
+    <label string="46094" string2="46045" banner="dance" icon="resources/images/icons/fire_pit/water_dance.png" iconalpha="premultiplied" row="1" col="85">
+    </label>
+    <label string="45358" string2="46652" banner="dance" icon="resources/images/icons/fire_pit/war_dance.png" iconalpha="premultiplied" row="2" col="85">
+    </label>
+    <label string="48972" string2="46084" banner="dance" icon="resources/images/icons/fire_pit/warchief_iroquois.png" iconalpha="premultiplied" row="0" col="90">
+    </label>
+    <tech name="BigFirepitFounder" banner="improvement" icon="resources/images/icons/techs/native_big_button/native_33.png" row="1" col="90">
+    </tech>
+    <label string="48966" string2="46047" banner="dance" icon="resources/images/icons/fire_pit/alarm.png" iconalpha="premultiplied" row="2" col="90">
+    </label>
+  </group>
+  <group name="Estate">
+    <proto name="Plantation" banner="building" icon="resources/art/buildings/plantation/plantation_portrait.png" row="4" col="85">
+    </proto>
+    <tech name="EarthGiftCeremony" banner="improvement" icon="resources/images/icons/techs/native/earth_gift.png" row="5" col="90">
+    </tech>
+    <tech name="EarthCeremony" banner="improvement" icon="resources/images/icons/techs/native/earth_ceremony.png" row="5" col="85">
+    </tech>
+    <tech name="BigPlantationTezcatlipoca" banner="improvement" icon="resources/images/icons/techs/native_big_button/native_03.png" row="4" col="90">
+    </tech>
+    <tech name="ImpExcessiveTributeNative" banner="improvement" icon="resources/images/icons/techs/native/excessive_tribute.png" row="8" col="85">
+    </tech>
+  </group>
+  <group name="Farm">
+    <proto name="Farm" banner="building" icon="resources/art/buildings/farm_portrait.png" row="0" col="95">
+    </proto>
+    <proto name="Sheep" banner="unit" icon="resources/art/units/animals/sheep/sheep_icon_portrait.png" row="0" col="101">
+    </proto>
+    <tech name="SelectiveBreeding" banner="improvement" icon="resources/images/icons/techs/selective_breeding/selective_breeding.png" row="1" col="101">
+    </tech>
+    <tech name="BigFarmCinteotl" banner="improvement" icon="resources/images/icons/techs/native_big_button/native_34.png" row="4" col="101">
+    </tech>
+    <proto name="Cow" banner="unit" icon="resources/art/units/animals/cow/cow_portrait.png" row="0" col="106">
+    </proto>
+    <tech name="GreatFeast" banner="improvement" icon="resources/images/icons/techs/native/great_feast.png" row="1" col="106">
+    </tech>
+    <tech name="HarvestCeremony" banner="improvement" icon="resources/images/icons/techs/native/harvest_ceremony.png" row="2" col="106">
+    </tech>
+    <tech name="GreenCornCeremony" banner="improvement" icon="resources/images/icons/techs/native/green_corn_ceremony.png" row="4" col="106">
+    </tech>
+    <tech name="ImpLargeScaleGathering" banner="improvement" icon="resources/images/icons/techs/native/large_scale_gathering.png" row="8" col="106">
+    </tech>
+  </group>
+  <group name="House">
+    <proto name="HouseAztec" banner="building" icon="resources/art/buildings/az_house_portrait.png" row="0" col="112">
+    </proto>
+    <tech name="BigHouseCoatlicue" banner="improvement" icon="resources/images/icons/techs/native_big_button/native_04.png" row="2" col="112">
+    </tech>
+  </group>
+  <group name="Nobles Hut">
+    <proto name="NoblesHut" banner="building" icon="resources/art/buildings/nobles_hut_portrait.png" row="4" col="112">
+    </proto>
+    <tech name="BigNoblesHutWarSong" banner="improvement" icon="resources/images/icons/techs/native_big_button/native_06.png" row="5" col="113">
+    </tech>
+    <tech name="StrongNoblesHut" banner="improvement" icon="resources/images/icons/techs/native/strong_warhut.png" row="6" col="113">
+    </tech>
+    <tech name="MightyNoblesHut" banner="improvement" icon="resources/images/icons/techs/native/mighty_warhut.png" row="8" col="113">
+    </tech>
+    <proto name="xpArrowKnight" banner="unit" icon="resources/art/units/az_arrow_knight_portrait.png" row="5" col="118">
+    </proto>
+    <tech name="ChampionArrowKnight" banner="improvement" icon="resources/images/icons/techs/native/champion_ranged_infantry.png" row="6" col="118">
+    </tech>
+    <tech name="ImpLegendaryArrowKnights" banner="improvement" icon="resources/images/icons/techs/native/legendary_ranged_infantry.png" row="8" col="118">
+    </tech>
+    <proto name="xpEagleKnight" banner="unit" icon="resources/art/units/az_eagle_knight_portrait.png" row="5" col="123">
+    </proto>
+    <tech name="ChampionEagleKnight" banner="improvement" icon="resources/images/icons/techs/native/champion_ranged_infantry.png" row="6" col="123">
+    </tech>
+    <tech name="ImpLegendaryEagleKnights" banner="improvement" icon="resources/images/icons/techs/native/legendary_ranged_infantry.png" row="8" col="123">
+    </tech>
+    <proto name="xpJaguarKnight" banner="unit" icon="resources/art/units/az_jaguar_warrior_portrait.png" row="5" col="128">
+    </proto>
+    <tech name="ChampionJaguarKnight" banner="improvement" icon="resources/images/icons/techs/native/champion_infantry.png" row="6" col="128">
+    </tech>
+    <tech name="ImpLegendaryJaguarKnights" banner="improvement" icon="resources/images/icons/techs/native/legendary_infantry.png" row="8" col="128">
+    </tech>
+  </group>
+  <group name="Council Members">
+    <tech name="TribalAztecChief2" banner="ally" icon="resources/images/icons/flags/techtree/techtree_az_chief.png" row="2" col="135">
+    </tech>
+    <tech name="TribalAztecShaman2" banner="ally" icon="resources/images/icons/flags/techtree/techtree_az_shaman.png" row="3" col="135">
+    </tech>
+    <tech name="TribalAztecWisewoman2" banner="ally" icon="resources/images/icons/flags/techtree/techtree_az_wisewoman.png" row="2" col="140">
+    </tech>
+    <tech name="TribalAztecWarrior2" banner="ally" icon="resources/images/icons/flags/techtree/techtree_az_warleader.png" row="3" col="140">
+    </tech>
+    <tech name="TribalAztecYouth2" banner="ally" icon="resources/images/icons/flags/techtree/techtree_az_messenger.png" row="2" col="145">
+    </tech>
+    <tech name="TribalAztecChief3" banner="ally" icon="resources/images/icons/flags/techtree/techtree_az_chief.png" row="4" col="135">
+    </tech>
+    <tech name="TribalAztecShaman3" banner="ally" icon="resources/images/icons/flags/techtree/techtree_az_shaman.png" row="5" col="135">
+    </tech>
+    <tech name="TribalAztecWisewoman3" banner="ally" icon="resources/images/icons/flags/techtree/techtree_az_wisewoman.png" row="4" col="140">
+    </tech>
+    <tech name="TribalAztecWarrior3" banner="ally" icon="resources/images/icons/flags/techtree/techtree_az_warleader.png" row="5" col="140">
+    </tech>
+    <tech name="TribalAztecYouth3" banner="ally" icon="resources/images/icons/flags/techtree/techtree_az_messenger.png" row="4" col="145">
+    </tech>
+    <tech name="TribalAztecChief4" banner="ally" icon="resources/images/icons/flags/techtree/techtree_az_chief.png" row="6" col="135">
+    </tech>
+    <tech name="TribalAztecShaman4" banner="ally" icon="resources/images/icons/flags/techtree/techtree_az_shaman.png" row="7" col="135">
+    </tech>
+    <tech name="TribalAztecWisewoman4" banner="ally" icon="resources/images/icons/flags/techtree/techtree_az_wisewoman.png" row="6" col="140">
+    </tech>
+    <tech name="TribalAztecWarrior4" banner="ally" icon="resources/images/icons/flags/techtree/techtree_az_warleader.png" row="7" col="140">
+    </tech>
+    <tech name="TribalAztecYouth4" banner="ally" icon="resources/images/icons/flags/techtree/techtree_az_messenger.png" row="6" col="145">
+    </tech>
+    <tech name="TribalAztecChief5" banner="ally" icon="resources/images/icons/flags/techtree/techtree_az_chief.png" row="8" col="135">
+    </tech>
+    <tech name="TribalAztecShaman5" banner="ally" icon="resources/images/icons/flags/techtree/techtree_az_shaman.png" row="9" col="135">
+    </tech>
+    <tech name="TribalAztecWisewoman5" banner="ally" icon="resources/images/icons/flags/techtree/techtree_az_wisewoman.png" row="8" col="140">
+    </tech>
+    <tech name="TribalAztecWarrior5" banner="ally" icon="resources/images/icons/flags/techtree/techtree_az_warleader.png" row="9" col="140">
+    </tech>
+    <tech name="TribalAztecYouth5" banner="ally" icon="resources/images/icons/flags/techtree/techtree_az_messenger.png" row="8" col="145">
+    </tech>
+  </group>
+</techtreedata>

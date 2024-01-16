@@ -1,0 +1,262 @@
+<techtreedata>
+  <group name="Town Center">
+    <proto name="TownCenter" banner="building" icon="resources/art/buildings/town_center/towncenter_portrait.png" row="0" col="1">
+    </proto>
+    <proto name="SettlerNative" banner="unit" icon="resources/art/units/native_villager_portrait.png" row="1" col="2">
+    </proto>
+    <tech name="deBigIncaScoutingParty" banner="improvement" icon="resources/images/icons/techs/native_big_button/native_23.png" row="2" col="2">
+    </tech>
+    <tech name="deBigIncaRaidingParty" banner="improvement" icon="resources/images/icons/techs/native_big_button/native_22.png" row="4" col="2">
+    </tech>
+    <tech name="deBigIncaWarParty" banner="improvement" icon="resources/images/icons/techs/native_big_button/native_21.png" row="6" col="2">
+    </tech>
+    <proto name="deIncaWarChief" banner="unit" icon="resources/art/units/ic_warchief_portrait.png" row="0" col="7">
+    </proto>
+    <proto name="deChasqui" banner="unit" icon="resources/art/units/natives/inca/scout_portrait.png" row="1" col="7">
+    </proto>
+    <tech name="HCBlockade" banner="improvement" icon="resources/images/icons/techs/hc_blockade/hc_blockade.png" row="8" col="2">
+    </tech>
+    <tech name="ImpLegendaryNatives" banner="improvement" icon="resources/images/icons/techs/imperial_legendary_natives/imp_legendary_natives.png" row="9" col="2">
+    </tech>
+    <tech name="Spies" banner="improvement" icon="resources/images/icons/techs/spies/spies.png" row="8" col="7">
+    </tech>
+    <tech name="ImpImmigrants" banner="improvement" icon="resources/images/icons/techs/imperial_immigrants/imp_immigrants.png" row="9" col="7">
+    </tech>
+  </group>
+  <group name="Kancha House">
+    <proto name="deHouseInca" banner="building" icon="resources/art/buildings/kancha_house_portrait.png" row="0" col="13">
+    </proto>
+    <tech name="deBigHouseQueensFestival" banner="improvement" icon="resources/images/icons/techs/native_big_button/native_41.png" row="2" col="13">
+    </tech>
+  </group>
+  <group name="Wall">
+    <proto name="WallStraight1" banner="building" icon="resources/art/buildings/wall/wall_portrait.png" row="0" col="19">
+    </proto>
+    <tech name="Bastion" banner="improvement" icon="resources/images/icons/techs/bastion/bastion.png" row="4" col="19">
+    </tech>
+  </group>
+  <group name="Tambo">
+    <label string="80128" string2="80131" banner="building" icon="resources/art/buildings/tambo_portrait.png" iconalpha="premultiplied" row="0" col="25">
+    </label>
+    <tech name="TradeRouteUpgrade1" banner="improvement" icon="resources/art/units/trade/stagecoach_icon_64x64.png" row="2" col="25">
+    </tech>
+    <tech name="TradeRouteUpgrade2" banner="improvement" icon="resources/art/units/trains/train_icon_64x64.png" row="6" col="25">
+    </tech>
+    <proto name="deChasqui" banner="unit" icon="resources/art/units/natives/inca/scout_portrait.png" row="1" col="30">
+    </proto>
+    <tech name="deMightyTambos" banner="improvement" icon="resources/images/icons/techs/native/mighty_warhut.png" row="6" col="30">
+    </tech>
+  </group>
+  <group name="Native Embassy">
+    <proto name="NativeEmbassy" banner="building" icon="resources/art/buildings/native_embassy_portrait.png" row="0" col="30">
+    </proto>
+  </group>
+  <group name="Farm">
+    <proto name="Farm" banner="building" icon="resources/art/buildings/farm_portrait.png" row="0" col="36">
+    </proto>
+    <tech name="GreatFeast" banner="improvement" icon="resources/images/icons/techs/native/great_feast.png" row="1" col="36">
+    </tech>
+    <tech name="HarvestCeremony" banner="improvement" icon="resources/images/icons/techs/native/harvest_ceremony.png" row="2" col="36">
+    </tech>
+    <tech name="GreenCornCeremony" banner="improvement" icon="resources/images/icons/techs/native/green_corn_ceremony.png" row="4" col="36">
+    </tech>
+    <tech name="ImpLargeScaleGathering" banner="improvement" icon="resources/images/icons/techs/native/large_scale_gathering.png" row="8" col="36">
+    </tech>
+    <proto name="Llama" banner="unit" icon="resources/art/units/animals/llama/llama_portrait.png" row="0" col="41">
+    </proto>
+    <tech name="SelectiveBreeding" banner="improvement" icon="resources/images/icons/techs/selective_breeding/selective_breeding.png" row="1" col="41">
+    </tech>
+    <tech name="deBigFarmUrcuchillay" banner="improvement" icon="resources/images/icons/techs/native_big_button/native_38.png" row="1" col="46">
+    </tech>
+  </group>
+  <group name="Stronghold">
+    <proto name="deIncaStronghold" banner="building" icon="resources/art/buildings/stronghold_portrait.png" row="4" col="59">
+    </proto>
+    <proto name="deIncaSpearman" banner="unit" icon="resources/art/units/natives/inca/spearman_portrait.png" row="3" col="64">
+    </proto>
+    <proto name="deMaceman" banner="unit" icon="resources/art/units/natives/inca/maceman_portrait.png" row="4" col="64">
+    </proto>
+    <tech name="dePukaras" banner="improvement" icon="resources/images/icons/techs/inca/pukaras.png" row="5" col="64">
+    </tech>
+    <proto name="deJungleBowman" banner="unit" icon="resources/art/units/natives/inca/bowman_portrait.png" row="3" col="69">
+    </proto>
+    <proto name="deSlinger" banner="unit" icon="resources/art/units/natives/inca/slinger_portrait.png" row="4" col="69">
+    </proto>
+    <tech name="deSacsayhuaman" banner="improvement" icon="resources/images/icons/techs/inca/sacsayhuaman.png" row="6" col="69">
+    </tech>
+    <proto name="deIncaRunner" banner="unit" icon="resources/art/units/natives/inca/runner_portrait.png" row="3" col="74">
+    </proto>
+    <proto name="deBolasWarrior" banner="unit" icon="resources/art/units/natives/inca/bolas_warrior_portrait.png" row="4" col="74">
+    </proto>
+    <tech name="deBigStrongholdThunderbolts" banner="improvement" icon="resources/images/icons/techs/native_big_button/native_37.png" row="5" col="74">
+    </tech>
+  </group>
+  <group name="Market">
+    <proto name="Market" banner="building" icon="resources/art/buildings/market/market_portrait.png" row="0" col="52">
+    </proto>
+    <tech name="LumberCeremony" banner="improvement" icon="resources/images/icons/techs/native/lumber_ceremony.png" row="1" col="52">
+    </tech>
+    <tech name="ForestPeopleCeremony" banner="improvement" icon="resources/images/icons/techs/native/forest_people.png" row="2" col="52">
+    </tech>
+    <tech name="ForestSpiritCeremony" banner="improvement" icon="resources/images/icons/techs/native/forest_spirit.png" row="4" col="52">
+    </tech>
+    <tech name="ImpDeforestationNative" banner="improvement" icon="resources/images/icons/techs/native/distributivism.png" row="8" col="52">
+    </tech>
+    <tech name="PlacerMines" banner="improvement" icon="resources/images/icons/techs/placer_mines/placer_mines_64x64.png" row="0" col="57">
+    </tech>
+    <tech name="HuntingDogs" banner="improvement" icon="resources/images/icons/techs/hunting_dogs/hunting_dogs_64x64.png" row="1" col="57">
+    </tech>
+    <tech name="SpiritMedicine" banner="improvement" icon="resources/images/icons/techs/native/spirit_medicine.png" row="0" col="62">
+    </tech>
+    <tech name="deBigMarketIntiFestival" banner="improvement" icon="resources/images/icons/techs/native_big_button/native_44.png" row="1" col="62">
+    </tech>
+  </group>
+  <group name="Dock">
+    <proto name="Dock" banner="building" icon="resources/art/buildings/dock/dock_portrait.png" row="0" col="68">
+    </proto>
+    <proto name="FishingBoat" banner="unit" icon="resources/art/units/naval/fishing_ship/fishing_ship_icon_portrait.png" row="1" col="69">
+    </proto>
+    <proto name="deChinchaRaft" banner="unit" icon="resources/art/units/tlaloc_canoe_portrait.png" row="2" col="69">
+    </proto>
+    <tech name="deBigDockTotora" banner="improvement" icon="resources/images/icons/techs/native_big_button/native_40.png" row="0" col="74">
+    </tech>
+    <tech name="GillNets" banner="improvement" icon="resources/images/icons/techs/gill_nets/gill_nets.png" row="1" col="74">
+    </tech>
+    <tech name="LongLines" banner="improvement" icon="resources/images/icons/techs/long_lines/long_lines.png" row="2" col="74">
+    </tech>
+  </group>
+  <group name="Community Plaza">
+    <proto name="CommunityPlaza" banner="building" icon="resources/art/buildings/community_plaza_portrait.png" row="0" col="80">
+    </proto>
+    <label string="45035" string2="45906" banner="dance" icon="resources/images/icons/fire_pit/gifts.png" iconalpha="premultiplied" row="0" col="85">
+    </label>
+    <label string="48963" string2="45904" banner="dance" icon="resources/images/icons/fire_pit/fertility.png" iconalpha="premultiplied" row="1" col="85">
+    </label>
+    <label string="45358" string2="46652" banner="dance" icon="resources/images/icons/fire_pit/war_dance.png" iconalpha="premultiplied" row="2" col="85">
+    </label>
+    <label string="80575" string2="80380" banner="dance" icon="resources/images/icons/fire_pit/moon_dance.png" iconalpha="premultiplied" row="3" col="85">
+    </label>
+    <tech name="deBigFirePitRoyalFestival" banner="dance" icon="resources/images/icons/techs/native_big_button/native_45.png" row="5" col="85">
+    </tech>
+    <label string="80576" string2="80378" banner="dance" icon="resources/images/icons/fire_pit/supay.png" iconalpha="premultiplied" row="6" col="85">
+    </label>
+    <label string="48972" string2="46084" banner="dance" icon="resources/images/icons/fire_pit/warchief_inca.png" iconalpha="premultiplied" row="1" col="90">
+    </label>
+    <label string="48974" string2="46086" banner="dance" icon="resources/images/icons/fire_pit/holy_inca.png" iconalpha="premultiplied" row="2" col="90">
+    </label>
+    <label string="48966" string2="46047" banner="dance" icon="resources/images/icons/fire_pit/alarm.png" iconalpha="premultiplied" row="3" col="90">
+    </label>
+  </group>
+  <group name="War Hut">
+    <proto name="WarHut" banner="building" icon="resources/art/buildings/war_hut_portrait.png" row="0" col="96">
+    </proto>
+    <proto name="deIncaSpearman" banner="unit" icon="resources/art/units/natives/inca/spearman_portrait.png" row="2" col="96">
+    </proto>
+    <tech name="DEEliteSpearmen" banner="improvement" icon="resources/images/icons/techs/native/elite_infantry.png" row="4" col="96">
+    </tech>
+    <tech name="DEChampionSpearmen" banner="improvement" icon="resources/images/icons/techs/native/champion_infantry.png" row="6" col="96">
+    </tech>
+    <tech name="DEImpLegendarySpearmen" banner="improvement" icon="resources/images/icons/techs/native/legendary_infantry.png" row="8" col="96">
+    </tech>
+    <proto name="deJungleBowman" banner="unit" icon="resources/art/units/natives/inca/bowman_portrait.png" row="2" col="101">
+    </proto>
+    <tech name="DEEliteBowmen" banner="improvement" icon="resources/images/icons/techs/native/elite_ranged_infantry.png" row="4" col="101">
+    </tech>
+    <tech name="DEChampionBowmen" banner="improvement" icon="resources/images/icons/techs/native/champion_ranged_infantry.png" row="6" col="101">
+    </tech>
+    <tech name="DEImpLegendaryBowmen" banner="improvement" icon="resources/images/icons/techs/native/legendary_ranged_infantry.png" row="8" col="101">
+    </tech>
+    <proto name="deIncaRunner" banner="unit" icon="resources/art/units/natives/inca/runner_portrait.png" row="2" col="106">
+    </proto>
+    <tech name="DEEliteRunners" banner="improvement" icon="resources/images/icons/techs/native/elite_infantry.png" row="4" col="106">
+    </tech>
+    <tech name="DEChampionRunners" banner="improvement" icon="resources/images/icons/techs/native/champion_infantry.png" row="6" col="106">
+    </tech>
+    <tech name="DEImpLegendaryRunners" banner="improvement" icon="resources/images/icons/techs/native/legendary_infantry.png" row="8" col="106">
+    </tech>
+    <tech name="deBigWarHutHualcana" banner="improvement" icon="resources/images/icons/techs/native_big_button/native_42.png" row="4" col="112">
+    </tech>
+    <tech name="StrongWarHut" banner="improvement" icon="resources/images/icons/techs/native/strong_warhut.png" row="5" col="112">
+    </tech>
+    <tech name="MightyWarHut" banner="improvement" icon="resources/images/icons/techs/native/mighty_warhut.png" row="6" col="112">
+    </tech>
+  </group>
+  <group name="Estate">
+    <proto name="Plantation" banner="building" icon="resources/art/buildings/plantation/plantation_portrait.png" row="4" col="118">
+    </proto>
+    <tech name="deBigPlantationCoca" banner="improvement" icon="resources/images/icons/techs/native_big_button/native_39.png" row="6" col="118">
+    </tech>
+    <tech name="EarthGiftCeremony" banner="improvement" icon="resources/images/icons/techs/native/earth_gift.png" row="4" col="123">
+    </tech>
+    <tech name="EarthCeremony" banner="improvement" icon="resources/images/icons/techs/native/earth_ceremony.png" row="5" col="123">
+    </tech>
+    <tech name="ImpExcessiveTributeNative" banner="improvement" icon="resources/images/icons/techs/native/excessive_tribute.png" row="8" col="123">
+    </tech>
+  </group>
+  <group name="Kallanka">
+    <proto name="deKallanka" banner="building" icon="resources/art/buildings/kallanka_portrait.png" row="4" col="129">
+    </proto>
+    <proto name="deMaceman" banner="unit" icon="resources/art/units/natives/inca/maceman_portrait.png" row="5" col="129">
+    </proto>
+    <tech name="DEChampionMacemen" banner="improvement" icon="resources/images/icons/techs/native/champion_infantry.png" row="6" col="129">
+    </tech>
+    <tech name="DEImpLegendaryMacemen" banner="improvement" icon="resources/images/icons/techs/native/legendary_infantry.png" row="8" col="129">
+    </tech>
+    <proto name="deSlinger" banner="unit" icon="resources/art/units/natives/inca/slinger_portrait.png" row="5" col="134">
+    </proto>
+    <tech name="DEChampionSlingers" banner="improvement" icon="resources/images/icons/techs/native/champion_ranged_infantry.png" row="6" col="134">
+    </tech>
+    <tech name="DEImpLegendarySlingers" banner="improvement" icon="resources/images/icons/techs/native/legendary_ranged_infantry.png" row="8" col="134">
+    </tech>
+    <proto name="deBolasWarrior" banner="unit" icon="resources/art/units/natives/inca/bolas_warrior_portrait.png" row="5" col="139">
+    </proto>
+    <tech name="DEChampionBolasWarriors" banner="improvement" icon="resources/images/icons/techs/native/champion_ranged_infantry.png" row="6" col="139">
+    </tech>
+    <tech name="DEImpLegendaryBolasWarriors" banner="improvement" icon="resources/images/icons/techs/native/legendary_ranged_infantry.png" row="8" col="139">
+    </tech>
+    <tech name="deBigKallankaViracocha" banner="improvement" icon="resources/images/icons/techs/native_big_button/native_43.png" row="6" col="144">
+    </tech>
+  </group>
+  <group name="Council Members">
+    <tech name="TribalIncaChief2" banner="ally" icon="resources/images/icons/flags/techtree/techtree_ic_chief.png" row="2" col="150">
+    </tech>
+    <tech name="TribalIncaShaman2" banner="ally" icon="resources/images/icons/flags/techtree/techtree_ic_shaman.png" row="3" col="150">
+    </tech>
+    <tech name="TribalIncaWisewoman2" banner="ally" icon="resources/images/icons/flags/techtree/techtree_ic_wisewoman.png" row="2" col="155">
+    </tech>
+    <tech name="TribalIncaWarrior2" banner="ally" icon="resources/images/icons/flags/techtree/techtree_ic_warleader.png" row="3" col="155">
+    </tech>
+    <tech name="TribalIncaYouth2" banner="ally" icon="resources/images/icons/flags/techtree/techtree_ic_messenger.png" row="2" col="160">
+    </tech>
+    <tech name="TribalIncaChief3" banner="ally" icon="resources/images/icons/flags/techtree/techtree_ic_chief.png" row="4" col="150">
+    </tech>
+    <tech name="TribalIncaShaman3" banner="ally" icon="resources/images/icons/flags/techtree/techtree_ic_shaman.png" row="5" col="150">
+    </tech>
+    <tech name="TribalIncaWisewoman3" banner="ally" icon="resources/images/icons/flags/techtree/techtree_ic_wisewoman.png" row="4" col="155">
+    </tech>
+    <tech name="TribalIncaWarrior3" banner="ally" icon="resources/images/icons/flags/techtree/techtree_ic_warleader.png" row="5" col="155">
+    </tech>
+    <tech name="TribalIncaYouth3" banner="ally" icon="resources/images/icons/flags/techtree/techtree_ic_messenger.png" row="4" col="160">
+    </tech>
+    <tech name="TribalIncaChief4" banner="ally" icon="resources/images/icons/flags/techtree/techtree_ic_chief.png" row="6" col="150">
+    </tech>
+    <tech name="TribalIncaShaman4" banner="ally" icon="resources/images/icons/flags/techtree/techtree_ic_shaman.png" row="7" col="150">
+    </tech>
+    <tech name="TribalIncaWisewoman4" banner="ally" icon="resources/images/icons/flags/techtree/techtree_ic_wisewoman.png" row="6" col="155">
+    </tech>
+    <tech name="TribalIncaWarrior4" banner="ally" icon="resources/images/icons/flags/techtree/techtree_ic_warleader.png" row="7" col="155">
+    </tech>
+    <tech name="TribalIncaYouth4" banner="ally" icon="resources/images/icons/flags/techtree/techtree_ic_messenger.png" row="6" col="160">
+    </tech>
+    <tech name="TribalIncaChief5" banner="ally" icon="resources/images/icons/flags/techtree/techtree_ic_chief.png" row="8" col="150">
+    </tech>
+    <tech name="TribalIncaShaman5" banner="ally" icon="resources/images/icons/flags/techtree/techtree_ic_shaman.png" row="9" col="150">
+    </tech>
+    <tech name="TribalIncaWisewoman5" banner="ally" icon="resources/images/icons/flags/techtree/techtree_ic_wisewoman.png" row="8" col="155">
+    </tech>
+    <tech name="TribalIncaWarrior5" banner="ally" icon="resources/images/icons/flags/techtree/techtree_ic_warleader.png" row="9" col="155">
+    </tech>
+    <tech name="TribalIncaYouth5" banner="ally" icon="resources/images/icons/flags/techtree/techtree_ic_messenger.png" row="8" col="160">
+    </tech>
+  </group>
+</techtreedata>

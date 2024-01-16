@@ -1,0 +1,10 @@
+<layout>
+  <gadget name="launch-screen" type="gadget">
+    <gadget name="launch-Background" type="gadget" size1024="0 0 1024 768" z="1" background="UI\core_ui\dropdown_background" tilebackground="">
+    </gadget>
+    <gadget size1024="51 29 179 157" name="launch-MapPreviewArea" type="gadget" backgroundcolor="255 255 255">
+    </gadget>
+    <gadget name="launch-PlayerContainer" type="formatText" size1024="51 365 973 655" sunkenbevel="" textfont="EntryFields" textfontsize="12" textcolor="0 0 0" background="UI\core_ui\dropdown_background" tilebackground="">
+    </gadget>
+  </gadget>
+</layout>

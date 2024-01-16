@@ -1,0 +1,8 @@
+<layout>
+  <gadget name="ScenarioSettings" type="gadget" size1024="256 168 572 342" background="ui\file_system\file_system_background" bevel="" titlebar="$$20500$$Scenario Settings" closebutton="" windowzstyle="" moveable="">
+    <gadget name="ScenSet_OkBtn" type="button" bevel="" background="ui\file_system\file_system_background" textfont="Arial nobold nodrop" textfontsize="12" size1024="304 305 410 330">$$18465$$Ok</gadget>
+    <gadget name="ScenSet_CancelBtn" type="button" bevel="" background="ui\file_system\file_system_background" textfont="Arial nobold nodrop" textfontsize="12" size1024="424 305 530 330">$$18466$$Cancel</gadget>
+    <gadget name="ScenSet_PlayerCountFld" type="textField" textfont="Arial nodrop" textfontsize="12" textcolor="0 0 0" dropdowndistance="100" size1024="280 200 554 220">$$20350$$Number of Players<dropdown>1</dropdown><dropdown>2</dropdown><dropdown>3</dropdown><dropdown>4</dropdown><dropdown>5</dropdown><dropdown>6</dropdown><dropdown>7</dropdown><dropdown>8</dropdown></gadget>
+    <gadget name="ScenSet_RevealOceanWaterBtn" type="checkButton" size1024="280 275 554 295" textcolor="0 0 0" textfont="Arial nobold nodrop" textfontsize="12" z="12">$$33524$$Reveal Ocean Water</gadget>
+  </gadget>
+</layout>

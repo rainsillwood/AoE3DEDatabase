@@ -1,0 +1,10 @@
+<layout>
+  <gadget name="UnitRep" type="gadget" size1024="698 45 1024 392" background="ui\file_system\file_system_background" bevel="" titlebar="$$33064$$Replace Unit" closebutton="" windowzstyle="" moveable="">
+    <gadget name="UnitRep_UnitFld" type="textField" background="ui\file_system\file_system_background" size1024="714 89 1008 109" z="12" fieldreadonly="">$$33065$$Unit:</gadget>
+    <gadget name="UnitRep_SearchFld" type="textField" background="ui\file_system\file_system_background" size1024="714 112 1008 132" z="12">$$72439$$Search:</gadget>
+    <gadget name="UnitRep_ProtoList" type="list" background="ui\file_system\file_system_background" sunkenbevel="" showselect="" selectedcolor="255 255 255" buttonsize1024="175 15" scrollvert="" titlebar="$$33066$$Replacement" locktitlebarmove="" size1024="713 149 915 377" z="12">
+    </gadget>
+    <gadget name="UnitRep_ReplaceBtn" type="button" bevel="" background="ui\file_system\file_system_background" textfont="Arial nobold nodrop" textfontsize="12" size1024="932 150 1007 170">$$33067$$Replace</gadget>
+    <gadget name="UnitRep_CancelBtn" type="button" bevel="" background="ui\file_system\file_system_background" textfont="Arial nobold nodrop" textfontsize="12" size1024="932 184 1007 204">$$18466$$Cancel</gadget>
+  </gadget>
+</layout>

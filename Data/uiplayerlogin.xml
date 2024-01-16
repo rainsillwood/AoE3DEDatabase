@@ -1,0 +1,113 @@
+<layout>
+  <gadget name="playerroom-loginbackground" type="gadget" size1024="0 -5 1024 763" z="1">
+    <gadget name="LoginBackground1" type="gadget" size1024="0 -5 256 251" background="UI\sign in background a" clampbackground="">
+    </gadget>
+    <gadget name="LoginBackground2" type="gadget" size1024="256 -5 512 251" background="UI\sign in background d" clampbackground="">
+    </gadget>
+    <gadget name="LoginBackground3" type="gadget" size1024="512 -5 768 251" background="UI\sign in background g" clampbackground="">
+    </gadget>
+    <gadget name="LoginBackground4" type="gadget" size1024="768 -5 1024 251" background="UI\sign in background j" clampbackground="">
+    </gadget>
+    <gadget name="LoginBackground5" type="gadget" size1024="0 251 256 507" background="UI\sign in background b" clampbackground="">
+    </gadget>
+    <gadget name="LoginBackground6" type="gadget" size1024="256 251 512 507" background="UI\sign in background e" clampbackground="">
+    </gadget>
+    <gadget name="LoginBackground7" type="gadget" size1024="512 251 768 507" background="UI\sign in background h" clampbackground="">
+    </gadget>
+    <gadget name="LoginBackground8" type="gadget" size1024="767 251 1023 507" background="UI\sign in background k" clampbackground="">
+    </gadget>
+    <gadget name="LoginBackground9" type="gadget" size1024="0 507 256 763" background="UI\sign in background c" clampbackground="">
+    </gadget>
+    <gadget name="LoginBackground10" type="gadget" size1024="256 507 512 763" background="UI\sign in background f" clampbackground="">
+    </gadget>
+    <gadget name="LoginBackground11" type="gadget" size1024="512 507 768 763" background="UI\sign in background i" clampbackground="">
+    </gadget>
+    <gadget name="LoginBackground12" type="gadget" size1024="768 507 1024 763" background="UI\sign in background l" clampbackground="">
+    </gadget>
+  </gadget>
+  <gadget type="gadget" name="playerroom-logindialog" background="UI\background_b" tilebackground="" size1024="339 253 673 511" z="90">
+    <gadget hidden="" name="playerroom-logindialog-ConnLabel" type="formatText" size1024="368 275 460 295" textfont="FieldLabels" textfontsize="14" textcolor="0 0 0">$$19021$$Connection:</gadget>
+    <gadget hidden="" name="playerroom-logindialog-ConnType" type="textField" size1024="462 275 563 295" textfont="EntryFields" textfontsize="12" textcolor="0 0 0" fieldtextboxcolor="255 255 255" fieldreadonly="" fieldhideoninactive="" mouseovertext="$$19022$$Select the connection type.">
+      <dropdown>$$19023$$ESOnline</dropdown>
+      <dropdown>$$19024$$LAN</dropdown>
+      <dropdown>$$19025$$Direct IP</dropdown>
+    </gadget>
+    <gadget type="gadget" name="playerroom-logindialog-onlinepanel" size1024="368 297 563 438">
+      <gadget name="playerroom-logindialog-nicklabel" type="textBox" size1024="368 297 563 317" textfont="FieldLabels" textfontsize="14" textcolor="0 0 0">$$18721$$Nickname:</gadget>
+      <gadget name="playerroom-logindialog-nickfield" type="textField" size1024="369 318 563 338" textfont="EntryFields" textfontsize="12" textcolor="0 0 0" fieldtextboxcolor="255 255 255" sunkenbevel="" fieldallowdropedits="" enableime="">
+        <dropdown>
+        </dropdown>
+      </gadget>
+      <gadget name="playerroom-logindialog-namelabel" type="textBox" size1024="368 347 563 367" textfont="FieldLabels" textfontsize="14" textcolor="0 0 0">$$20981$$Passport ID:</gadget>
+      <gadget name="playerroom-logindialog-namefield" type="editBox" size1024="369 368 563 388" textfont="EntryFields" textfontsize="12" textcolor="0 0 0" backgroundcolor="255 255 255" sunkenbevel="" enterkey="">
+      </gadget>
+      <gadget name="playerroom-logindialog-pwdlabel" type="textBox" size1024="368 397 563 417" textfont="FieldLabels" textfontsize="14" textcolor="0 0 0">$$18591$$Password:</gadget>
+      <gadget name="playerroom-logindialog-pwdfield" type="editBox" size1024="369 418 563 438" textfont="EntryFields" textfontsize="12" textcolor="0 0 0" backgroundcolor="255 255 255" sunkenbevel="" editboxmaskchars="" enterkey="">
+      </gadget>
+    </gadget>
+    <gadget type="meshButton" name="playerroom-logindialog-okbtn" background="UI\button_A" textfont="ButtonFont" textfontsize="14" textcolor="0 0 0" textcenterhoriz="" textcentervert="" size1024="366 449 494 481">$$18592$$Log In</gadget>
+    <gadget type="meshButton" name="playerroom-logindialog-cancelbtn" background="UI\button_A" textfont="ButtonFont" textfontsize="14" textcolor="0 0 0" textcenterhoriz="" textcentervert="" size1024="521 449 649 481">$$18466$$Cancel</gadget>
+    <gadget type="meshButton" name="playerroom-logindialog-createacctbtn" background="UI\button_A" textfont="ButtonFont" textfontsize="14" textcolor="0 0 0" textcenterhoriz="" textcentervert="" size1024="566 318 660 348">Create...</gadget>
+    <gadget type="gadget" name="playerroom-decorative-upperleftcorner" background="UI\decor_a corner left top" size1024="339 253 403 317">
+    </gadget>
+    <gadget type="gadget" name="playerroom-decorative-upperrightcorner" background="UI\decor_a corner right top" size1024="609 253 673 317">
+    </gadget>
+    <gadget type="gadget" name="playerroom-decorative-lowerleftcorner" background="UI\decor_a corner left bottom" size1024="339 447 403 511">
+    </gadget>
+    <gadget type="gadget" name="playerroom-decorative-lowerrightcorner" background="UI\decor_a corner right bottom" size1024="609 447 673 511">
+    </gadget>
+    <gadget name="playerroom-bordertop" type="gadget" size1024="339 245 673 253" background="UI\border_A straight top" tilebackgroundhoriz="">
+    </gadget>
+    <gadget name="playerroom-borderleft" type="gadget" size1024="331 253 339 511" background="UI\border_A straight left" tilebackgroundvert="">
+    </gadget>
+    <gadget name="playerroom-borderright" type="gadget" size1024="673 253 681 511" background="UI\border_A straight right" tilebackgroundvert="">
+    </gadget>
+    <gadget name="playerroom-borderbottom" type="gadget" size1024="339 511 673 519" background="UI\border_A straight bottom" tilebackgroundhoriz="">
+    </gadget>
+    <gadget name="playerroom-upperleftcorner" type="gadget" size1024="331 245 339 253" background="UI\border_A corner left top">
+    </gadget>
+    <gadget name="playerroom-upperrightcorner" type="gadget" size1024="673 245 681 253" background="UI\border_A corner right top">
+    </gadget>
+    <gadget name="playerroom-lowerleftcorner" type="gadget" size1024="331 511 339 519" background="UI\border_A corner left bottom">
+    </gadget>
+    <gadget name="playerroom-lowerrightcorner" type="gadget" size1024="673 511 681 519" background="UI\border_A corner right bottom">
+    </gadget>
+    <gadget name="playerroom-logginginpanel" type="gadget" size1024="339 253 673 511" backgroundcolor="0 0 0" backgroundalpha="0.7" textcolor="255 255 255" textfont="ButtonFont" textfontsize="14" hidden="" z="100">$$19399$$Logging in...</gadget>
+  </gadget>
+  <gadget type="dialog" name="playerroom-badlogindialog" bevel="" size1024="363 339 654 473" background="UI\background_c" tilebackground="" hidden="">
+    <gadget type="textBox" name="playerroom-badlogindialog-msg" textwrapon="" nodatareplace="" size1024="374 354 640 419">$$18738$$Invalid username or password. Do you want to create a new user?</gadget>
+    <gadget type="meshButton" name="playerroom-badlogindialog-button-0" background="UI\button_A" textfont="ButtonFont" textfontsize="14" textcolor="0 0 0" textcenterhoriz="" textcentervert="" size1024="375 428 503 460">$$18451$$Yes</gadget>
+    <gadget type="meshButton" name="playerroom-badlogindialog-button-1" background="UI\button_A" textfont="ButtonFont" textfontsize="14" textcolor="0 0 0" textcenterhoriz="" textcentervert="" size1024="513 427 641 459">$$18452$$No<command>gadgetUnReal("playerroom-badlogindialog")</command></gadget>
+  </gadget>
+  <gadget type="dialog" name="playerroom-createfaileddialog" bevel="" size1024="324 308 684 437" background="UI\background_c" tilebackground="" hidden="">
+    <gadget type="textBox" name="playerroom-createfaileddialog-msg" textwrapon="" nodatareplace="" size1024="345 331 664 382">$$18739$$Account creation failed. Try another name.</gadget>
+    <gadget type="meshButton" name="playerroom-createfaileddialog-button-0" background="UI\button_A" textfont="ButtonFont" textfontsize="14" textcolor="0 0 0" textcenterhoriz="" textcentervert="" size1024="439 393 567 425">$$18465$$OK<command>gadgetUnReal("playerroom-createfaileddialog")</command></gadget>
+  </gadget>
+  <gadget type="gadget" name="playerroom-createaccountdialog" size1024="300 200 750 600" background="UI\background_b" tilebackground="" z="99">
+    <gadget name="playerroom-createaccountdialog-nicknamelabel" type="textBox" sizerel1024="2 10 202 30" textfont="FieldLabels" textfontsize="14" textcolor="0 0 0">Nickname:</gadget>
+    <gadget name="playerroom-createaccountdialog-nicknamefield" type="editBox" sizerel1024="210 10 410 30" textfont="EntryFields" textfontsize="12" textcolor="0 0 0" backgroundcolor="255 255 255" sunkenbevel="" enterkey="">
+    </gadget>
+    <gadget name="playerroom-createaccountdialog-namelabel" type="textBox" sizerel1024="2 35 202 55" textfont="FieldLabels" textfontsize="14" textcolor="0 0 0">Passport ID:</gadget>
+    <gadget name="playerroom-createaccountdialog-namefield" type="editBox" sizerel1024="210 35 410 55" textfont="EntryFields" textfontsize="12" textcolor="0 0 0" backgroundcolor="255 255 255" sunkenbevel="" enterkey="">
+    </gadget>
+    <gadget name="playerroom-createaccountdialog-pwdlabel" type="textBox" sizerel1024="2 60 202 80" textfont="FieldLabels" textfontsize="14" textcolor="0 0 0">Password:</gadget>
+    <gadget name="playerroom-createaccountdialog-pwdfield" type="editBox" sizerel1024="210 60 410 80" textfont="EntryFields" textfontsize="12" textcolor="0 0 0" backgroundcolor="255 255 255" sunkenbevel="" editboxmaskchars="" enterkey="">
+    </gadget>
+    <gadget name="playerroom-createaccountdialog-pwdduplabel" type="textBox" sizerel1024="2 85 202 105" textfont="FieldLabels" textfontsize="14" textcolor="0 0 0">Retype Password:</gadget>
+    <gadget name="playerroom-createaccountdialog-pwddupfield" type="editBox" sizerel1024="210 85 410 105" textfont="EntryFields" textfontsize="12" textcolor="0 0 0" backgroundcolor="255 255 255" sunkenbevel="" editboxmaskchars="" enterkey="">
+    </gadget>
+    <gadget name="playerroom-createaccountdialog-questionlabel" type="textBox" sizerel1024="2 110 202 130" textfont="FieldLabels" textfontsize="14" textcolor="0 0 0">Secret Question:</gadget>
+    <gadget name="playerroom-createaccountdialog-questionfield" type="editBox" sizerel1024="210 110 410 130" textfont="EntryFields" textfontsize="12" textcolor="0 0 0" backgroundcolor="255 255 255" sunkenbevel="" enterkey="">
+    </gadget>
+    <gadget name="playerroom-createaccountdialog-answerlabel" type="textBox" sizerel1024="2 135 202 155" textfont="FieldLabels" textfontsize="14" textcolor="0 0 0">Secret Answer:</gadget>
+    <gadget name="playerroom-createaccountdialog-answerfield" type="editBox" sizerel1024="210 135 410 155" textfont="EntryFields" textfontsize="12" textcolor="0 0 0" backgroundcolor="255 255 255" sunkenbevel="" enterkey="">
+    </gadget>
+    <gadget name="playerroom-createaccountdialog-birthlabel" type="textBox" sizerel1024="2 160 202 180" textfont="FieldLabels" textfontsize="14" textcolor="0 0 0">Birth Date (mm/dd/yyyy):</gadget>
+    <gadget name="playerroom-createaccountdialog-birthfield" type="editBox" sizerel1024="210 160 410 180" textfont="EntryFields" textfontsize="12" textcolor="0 0 0" backgroundcolor="255 255 255" sunkenbevel="" enterkey="">
+    </gadget>
+    <gadget name="playerroom-createaccountdialog-savebutton" type="meshButton" sizerel1024="10 370 160 395" background="UI\button_A" textfont="ButtonFont" textfontsize="14" textcolor="0 0 0" textcenterhoriz="" textcentervert="">Create</gadget>
+    <gadget name="playerroom-createaccountdialog-cancelbutton" type="meshButton" sizerel1024="180 370 330 395" background="UI\button_A" textfont="ButtonFont" textfontsize="14" textcolor="0 0 0" textcenterhoriz="" textcentervert="">$$18466$$Cancel<command>gadgetUnReal("playerroom-createaccountdialog")</command></gadget>
+    <gadget name="playerroom-createaccountdialog-existcheckbtn" type="checkButton" sizerel1024="10 300 150 325" textfont="ButtonFont" textfontsize="14" textcolor="0 0 0">Existing Passport</gadget>
+    <gadget hidden="" name="playerroom-createaccountdialog-disablepanel" type="gadget" sizerel1024="0 0 450 400" textfont="FieldLabels" textfontsize="14" textcolor="255 255 255" backgroundcolor="0 0 0" backgroundalpha="0.7" z="99">$$21216$$Creating Account...</gadget>
+  </gadget>
+</layout>

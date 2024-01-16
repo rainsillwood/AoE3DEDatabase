@@ -1,0 +1,23 @@
+<veterancydata>
+  <rank>
+    <numkills>1</numkills>
+    <icon>resources/images/hud/veterancy_bronze.png</icon>
+    <stringid>122198</stringid>
+    <color r="205" g="127" b="50">
+    </color>
+  </rank>
+  <rank>
+    <numkills>2</numkills>
+    <icon>resources/images/hud/veterancy_silver.png</icon>
+    <stringid>122199</stringid>
+    <color r="192" g="192" b="192">
+    </color>
+  </rank>
+  <rank>
+    <numkills>3</numkills>
+    <icon>resources/images/hud/veterancy_gold.png</icon>
+    <stringid>122200</stringid>
+    <color r="255" g="215" b="0">
+    </color>
+  </rank>
+</veterancydata>

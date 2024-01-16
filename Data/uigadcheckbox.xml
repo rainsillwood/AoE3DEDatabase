@@ -1,0 +1,9 @@
+<layout>
+  <gadget name="TreeGadCheckBox" type="gadget" size1024="16 48 546 85" background="">
+    <gadget name="TreeGadCheckBox-Label" textcentervert="" textcolor="0 0 0" textfont="FieldLabels" textfontsize="14" type="formatText" size1024="18 54 367 79" z="11">Checkbox Label</gadget>
+    <gadget name="TreeGadCheckBox-CheckBox" type="checkButton" textfont="RadioButtons" textfontsize="14" z="12" size1024="376 50 408 82" texturecoords="0 0 1 1" checkborder1024="5 0" checkuncheckedart="ui\core_ui\round" checkcheckedart="ui\core_ui\round_clicked" textcolor="0 0 0" mouseovertext="" sound="ui_jewel">
+    </gadget>
+    <gadget name="TreeGadCheckBox-DisableOverlay" type="gadget" size1024="16 48 680 85" backgroundcolor="0 0 0" backgroundalpha="0.5" mouseovertext="$$41589$$" hidden="" z="13">
+    </gadget>
+  </gadget>
+</layout>

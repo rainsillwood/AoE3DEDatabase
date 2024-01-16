@@ -1,0 +1,79 @@
+<layout>
+  <gadget name="GenericEntry" type="gadget" size1024="3 2 1027 770" background="" windowzstyle="" z="99">
+    <gadget name="GenericEntry-Background" type="gadget" size1024="251 224 773 416" background="ui\ui background blue transparent" tilebackground="" z="5">
+      <gadget tilebackgroundhoriz="" name="GenericEntry-BordersTop" type="gadget" background="ui\ui border top middle" size1024="283 216 741 224" z="6">
+      </gadget>
+      <gadget tilebackgroundhoriz="" name="GenericEntry-BordersBottom" type="gadget" background="ui\ui border bottom middle" size1024="283 416 741 424" z="6">
+      </gadget>
+      <gadget tilebackgroundvert="" name="GenericEntry-BordersLeft" type="gadget" background="ui\ui border left middle" size1024="235 244 251 377" z="6">
+      </gadget>
+      <gadget tilebackgroundvert="" name="GenericEntry-BordersRight" type="gadget" background="ui\ui border right middle" size1024="773 244 789 380" z="6">
+      </gadget>
+      <gadget name="GenericEntry-BordersLeftTop" type="gadget" background="ui\ui border top left corner" size1024="219 216 283 248" z="7">
+      </gadget>
+      <gadget name="GenericEntry-BordersLeftBottom" type="gadget" background="ui\ui border bottom left corner" size1024="219 360 283 424" z="7">
+      </gadget>
+      <gadget name="GenericEntry-BordersRightBottom" type="gadget" background="ui\ui border bottom right corner" size1024="741 360 805 424" z="7">
+      </gadget>
+      <gadget name="GenericEntry-BordersRightTop" type="gadget" background="ui\ui border top right corner" size1024="741 216 805 248" z="7">
+      </gadget>
+    </gadget>
+    <gadget name="GenericEntry-ScreenLabel" textcentervert="" textcolor="255 208 0" textfontsize="22" textfont="PregameHeaders" type="formatText" size1024="271 231 573 256">Generic Entry</gadget>
+    <gadget name="GenericEntry-ScreenSeparator" type="gadget" size1024="261 260 763 262" background="missing">
+    </gadget>
+    <gadget name="GenericEntry-LoginButton" type="stateButton" size1024="316 370 508 402" bevelbutton="" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="255 208 0" textcenterhoriz="" textcentervert="" texturecoords="0 0 .75 1" mouseovertext="$$19939$$">$$18465$$OK<stateentry background="ui\core_ui\button_192x32_normal"></stateentry><stateentry background="ui\ui button long 192X32 clicked"></stateentry><stateentry background="ui\ui button long 192X32 rollover"></stateentry><stateentry background=""></stateentry></gadget>
+    <gadget name="GenericEntry-CancelButton" type="stateButton" size1024="516 370 708 402" bevelbutton="" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="255 208 0" textcenterhoriz="" textcentervert="" texturecoords="0 0 .75 1" mouseovertext="$$19940$$">$$18466$$Cancel<stateentry background="ui\core_ui\button_192x32_normal"></stateentry><stateentry background="ui\ui button long 192X32 clicked"></stateentry><stateentry background="ui\ui button long 192X32 rollover"></stateentry><stateentry background=""></stateentry></gadget>
+    <gadget name="GenericEntry-Label" textcentervert="" textcolor="255 208 0" textfontsize="18" textfont="Pregamelabels" type="formatText" size1024="397 289 641 310">$$20001$$Name:</gadget>
+    <gadget name="GenericEntry-EntryFields" type="gadget" size1024="407 318 617 399" z="10">
+      <gadget name="GenericEntry-Left-Entry" type="gadget" background="ui\ui text box left" size1024="397 318 413 350">
+      </gadget>
+      <gadget name="GenericEntry-Entry" type="gadget" tilebackgroundhoriz="" background="missing" size1024="413 318 611 350">
+      </gadget>
+      <gadget name="GenericEntry-Entry-Text" type="editBox" size1024="413 324 611 350" textfont="PregameEntry" textfontsize="15" textcolor="0 0 58" enterkey="" z="11" enableime="">
+      </gadget>
+      <gadget name="GenericEntry-Right-Entry" type="gadget" background="ui\ui text box right" size1024="611 318 627 350">
+      </gadget>
+    </gadget>
+  </gadget>
+  <gadget type="dialog" name="yesno-dialog" size1024="347 196 677 420" bevel="" background="ui\ui background blue opaque" tilebackground="" texturereplace="" windowzstyle="" hidden="">
+    <gadget tilebackgroundhoriz="" name="yesno-dialog-BordersTop" type="gadget" background="ui\ui border top middle" size1024="379 188 645 196">
+    </gadget>
+    <gadget tilebackgroundhoriz="" name="yesno-dialog-BordersBottom" type="gadget" background="ui\ui border bottom middle" size1024="379 420 645 428">
+    </gadget>
+    <gadget tilebackgroundvert="" name="yesno-dialog-BordersLeft" type="gadget" background="ui\ui border left middle" size1024="331 220 347 364">
+    </gadget>
+    <gadget tilebackgroundvert="" name="yesno-dialog-BordersRight" type="gadget" background="ui\ui border right middle" size1024="677 220 693 364">
+    </gadget>
+    <gadget name="yesno-dialog-BordersLeftTop" type="gadget" background="ui\ui border top left corner" size1024="315 188 379 220" clampbackground="">
+    </gadget>
+    <gadget name="yesno-dialog-BordersLeftBottom" type="gadget" background="ui\ui border bottom left corner" size1024="315 364 379 428" clampbackground="">
+    </gadget>
+    <gadget name="yesno-dialog-BordersRightBottom" type="gadget" background="ui\ui border bottom right corner" size1024="645 364 709 428" clampbackground="">
+    </gadget>
+    <gadget name="yesno-dialog-BordersRightTop" type="gadget" background="ui\ui border top right corner" size1024="645 188 709 220" clampbackground="">
+    </gadget>
+    <gadget name="yesno-dialog-msg" type="formatText" textcolor="255 208 0" textfont="PregameErrorText" textfontsize="16" textcenterhoriz="" size1024="367 220 657 372">Message Text Goes Here</gadget>
+    <gadget name="yesno-dialog-button-0" type="stateButton" size1024="380 372 508 404" bevelbutton="" z="51" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="255 208 0" textcenterhoriz="" textcentervert="" texturecoords="0 0 1 1">$$18451$$Yes<stateentry background="ui\ui button long 128X32"></stateentry><stateentry background="ui\ui button long 128X32 clicked"></stateentry><stateentry background="ui\ui button long 128X32 rollover"></stateentry><stateentry background=""></stateentry></gadget>
+    <gadget name="yesno-dialog-button-1" type="stateButton" size1024="516 372 644 404" bevelbutton="" z="51" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="255 208 0" textcenterhoriz="" textcentervert="" texturecoords="0 0 1 1">$$18452$$No<stateentry background="ui\ui button long 128X32"></stateentry><stateentry background="ui\ui button long 128X32 clicked"></stateentry><stateentry background="ui\ui button long 128X32 rollover"></stateentry><stateentry background=""></stateentry><command>gadgetUnreal("yesno-dialog")</command></gadget>
+  </gadget>
+  <gadget type="dialog" name="ok-dialog" size1024="347 196 677 420" bevel="" background="ui\ui background blue opaque" tilebackground="" texturereplace="" windowzstyle="" hidden="">
+    <gadget tilebackgroundhoriz="" name="ok-dialog-BordersTop" type="gadget" background="ui\ui border top middle" size1024="379 188 645 196">
+    </gadget>
+    <gadget tilebackgroundhoriz="" name="ok-dialog-BordersBottom" type="gadget" background="ui\ui border bottom middle" size1024="379 420 645 428">
+    </gadget>
+    <gadget tilebackgroundvert="" name="ok-dialog-BordersLeft" type="gadget" background="ui\ui border left middle" size1024="331 220 347 364">
+    </gadget>
+    <gadget tilebackgroundvert="" name="ok-dialog-BordersRight" type="gadget" background="ui\ui border right middle" size1024="677 220 693 364">
+    </gadget>
+    <gadget name="ok-dialog-BordersLeftTop" type="gadget" background="ui\ui border top left corner" size1024="315 188 379 220" clampbackground="">
+    </gadget>
+    <gadget name="ok-dialog-BordersLeftBottom" type="gadget" background="ui\ui border bottom left corner" size1024="315 364 379 428" clampbackground="">
+    </gadget>
+    <gadget name="ok-dialog-BordersRightBottom" type="gadget" background="ui\ui border bottom right corner" size1024="645 364 709 428" clampbackground="">
+    </gadget>
+    <gadget name="ok-dialog-BordersRightTop" type="gadget" background="ui\ui border top right corner" size1024="645 188 709 220" clampbackground="">
+    </gadget>
+    <gadget name="ok-dialog-msg" type="formatText" textcolor="255 208 0" textfont="PregameErrorText" textfontsize="16" textcenterhoriz="" size1024="367 220 657 350">Message Text Goes Here</gadget>
+    <gadget name="ok-dialog-button" type="stateButton" size1024="432 372 592 404" bevelbutton="" z="51" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="255 208 0" textcenterhoriz="" textcentervert="" texturecoords="0 0 .625 1">$$18465$$OK<stateentry background="ui\core_ui\button_128x32_normal"></stateentry><stateentry background="ui\ui button long 160X32 clicked"></stateentry><stateentry background="ui\ui button long 160X32 rollover"></stateentry><stateentry background=""></stateentry><command>gadgetUnreal("ok-dialog")</command></gadget>
+  </gadget>
+</layout>

@@ -1,0 +1,65 @@
+<layout>
+  <gadget name="hotkeysetup-screen" type="gadget">
+    <gadget name="hotkeysetup-Background" type="gadget" size1024="0 0 1024 768" z="1" background="UI\background_B" tilebackground="">
+    </gadget>
+    <gadget clampbackground="" name="hotkeysetup-Background_edge1" type="gadget" background="missing" tilebackground="" size1024="-2 -2 1024 0">
+    </gadget>
+    <gadget clampbackground="" name="hotkeysetup-Background_edge2" type="gadget" background="missing" tilebackground="" size1024="-2 -2 0 768">
+    </gadget>
+    <gadget name="hotkeysetup-GroupSelection" type="formatText" size1024="65 60 350 80" textfont="LargeLabels" textfontsize="16">$$19199$$Hotkey Groups</gadget>
+    <gadget name="hotkeysetup-WaitingforInputText" type="formatText" size1024="510 500 900 560" textfont="LargeLabels" textfontsize="16">$$20103$$Waiting for key input to remap key</gadget>
+    <gadget tilebackground="" background="UI\background_D" name="hotkeysetup-GroupList" type="list" textcolor="0 0 0" textfontsize="14" textfont="Arial" size1024="65 90 394 454" scrollvert="" z="30" sunkenbevel="" showselect="" selectedcolor="255 255 255" buttonsize1024="115 18">
+    </gadget>
+    <gadget name="hotkeysetup-RolloverHelp" type="gadget" size1024="65 474 445 654" sunkenbevel="" backgroundcolor="0 0 0" backgroundalpha=".5">
+    </gadget>
+    <gadget background="UI\background_D" name="hotkeysetup-KeyList-Background" type="gadget" z="11" scrollvert="" tilebackground="" size1024="490 90 810 450" sunkenbevel="">
+      <gadget name="hotkeysetup-keylist-keyName1" type="button" textfont="Arial" textfontsize="14" textcolor="0 0 0" size1024="500 100 700 115" foreground="UI\background_D">
+      </gadget>
+      <gadget name="hotkeysetup-keylist-keyName2" type="button" textfont="Arial" textfontsize="14" textcolor="0 0 0" size1024="500 120 700 135" foreground="UI\background_D">
+      </gadget>
+      <gadget name="hotkeysetup-keylist-keyName3" type="button" textfont="Arial" textfontsize="14" textcolor="0 0 0" size1024="500 140 700 155" foreground="UI\background_D">
+      </gadget>
+      <gadget name="hotkeysetup-keylist-keyName4" type="button" textfont="Arial" textfontsize="14" textcolor="0 0 0" size1024="500 160 700 175" foreground="UI\background_D">
+      </gadget>
+      <gadget name="hotkeysetup-keylist-keyName5" type="button" textfont="Arial" textfontsize="14" textcolor="0 0 0" size1024="500 180 700 195" foreground="UI\background_D">
+      </gadget>
+      <gadget name="hotkeysetup-keylist-keyName6" type="button" textfont="Arial" textfontsize="14" textcolor="0 0 0" size1024="500 200 700 215" foreground="UI\background_D">
+      </gadget>
+      <gadget name="hotkeysetup-keylist-keyName7" type="button" textfont="Arial" textfontsize="14" textcolor="0 0 0" size1024="500 220 700 235" foreground="UI\background_D">
+      </gadget>
+      <gadget name="hotkeysetup-keylist-keyName8" type="button" textfont="Arial" textfontsize="14" textcolor="0 0 0" size1024="500 240 700 255" foreground="UI\background_D">
+      </gadget>
+      <gadget name="hotkeysetup-keylist-keyName9" type="button" textfont="Arial" textfontsize="14" textcolor="0 0 0" size1024="500 260 700 275" foreground="UI\background_D">
+      </gadget>
+      <gadget name="hotkeysetup-keylist-keyName10" type="button" textfont="Arial" textfontsize="14" textcolor="0 0 0" size1024="500 280 700 295" foreground="UI\background_D">
+      </gadget>
+      <gadget name="hotkeysetup-keyList-key1" type="button" textfont="Arial" textfontsize="14" textcolor="0 0 0" size1024="701 100 800 115" foreground="UI\background_D">
+      </gadget>
+      <gadget name="hotkeysetup-keylist-key2" type="button" textfont="Arial" textfontsize="14" textcolor="0 0 0" size1024="701 120 800 135" foreground="UI\background_D">
+      </gadget>
+      <gadget name="hotkeysetup-keylist-key3" type="button" textfont="Arial" textfontsize="14" textcolor="0 0 0" size1024="701 140 800 155" foreground="UI\background_D">
+      </gadget>
+      <gadget name="hotkeysetup-keylist-key4" type="button" textfont="Arial" textfontsize="14" textcolor="0 0 0" size1024="701 160 800 175" foreground="UI\background_D">
+      </gadget>
+      <gadget name="hotkeysetup-keylist-key5" type="button" textfont="Arial" textfontsize="14" textcolor="0 0 0" size1024="701 180 800 195" foreground="UI\background_D">
+      </gadget>
+      <gadget name="hotkeysetup-keylist-key6" type="button" textfont="Arial" textfontsize="14" textcolor="0 0 0" size1024="701 200 800 215" foreground="UI\background_D">
+      </gadget>
+      <gadget name="hotkeysetup-keylist-key7" type="button" textfont="Arial" textfontsize="14" textcolor="0 0 0" size1024="701 220 800 235" foreground="UI\background_D">
+      </gadget>
+      <gadget name="hotkeysetup-keylist-key8" type="button" textfont="Arial" textfontsize="14" textcolor="0 0 0" size1024="701 240 800 255" foreground="UI\background_D">
+      </gadget>
+      <gadget name="hotkeysetup-keylist-key9" type="button" textfont="Arial" textfontsize="14" textcolor="0 0 0" size1024="701 260 800 275" foreground="UI\background_D">
+      </gadget>
+      <gadget name="hotkeysetup-keylist-key10" type="button" textfont="Arial" textfontsize="14" textcolor="0 0 0" size1024="701 280 800 295" foreground="UI\background_D">
+      </gadget>
+      <gadget name="hotkeysetup-HotkeyScrollbar" type="slider" slidervertical="" sliderbuttons="" z="15" size1024="800 100 820 295">--&gt;</gadget>
+    </gadget>
+    <gadget name="hotkeysetup-HotkeySelectionLabel" type="formatText" size1024="500 60 800 80" textfont="LargeLabels" textfontsize="16">$$19178$$Hotkeys</gadget>
+    <gadget name="hotkeysetup-ResetAllButton" type="button" size1024="636 690 764 722" textfont="ButtonFont" textfontsize="14" bevelbutton="" textcolor="0 0 0" foreground="UI\button_A" mouseovertext="$$19180$$Reset all of the hotkeys to their default assignments.">$$19198$$Reset All</gadget>
+    <gadget name="hotkeysetup-OKButton" mouseovertext="$$19181$$Save your changes and return to the Options Screen." type="button" size1024="193 690 321 722" textfont="ButtonFont" textfontsize="14" bevelbutton="" textcolor="0 0 0" foreground="UI\button_A">$$18465$$OK</gadget>
+    <gadget name="hotkeysetup-CancelButton" mouseovertext="$$19184$$Cancel your changes and return to the Options Screen." type="button" size1024="421 690 549 722" textfont="ButtonFont" textfontsize="14" bevelbutton="" textcolor="0 0 0" foreground="UI\button_A">$$18466$$Cancel</gadget>
+    <gadget name="hotkeysetup-ChangeButton" mouseovertext="$$19182$$Change the selected hotkey." type="button" size1024="826 238 954 270" textfont="ButtonFont" textfontsize="14" bevelbutton="" textcolor="0 0 0" foreground="UI\button_A">$$19176$$Change</gadget>
+    <gadget name="hotkeysetup-ResetButton" mouseovertext="$$19183$$Reset the selected hotkey to its default assignment." type="button" size1024="826 180 954 212" textfont="ButtonFont" textfontsize="14" bevelbutton="" textcolor="0 0 0" foreground="UI\button_A">$$18480$$Reset</gadget>
+  </gadget>
+</layout>

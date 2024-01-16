@@ -1,0 +1,73 @@
+<layout>
+  <gadget name="objectivesdialog-screen" type="dialog" windowzstyle="" size1024="154 56 871 709" hidden="" contextexclusive="objectives" closeonesc="">
+    <gadget name="objectivesdialog-Background" type="gadget" size1024="162 72 863 693" background="ui\file_system\file_system_background" tilebackground="" texturereplace="">
+      <gadget texturereplace="" tilebackgroundhoriz="" name="objectivesdialog-BordersTop" type="gadget" background="ui\file_system\border_top_middle" size1024="186 56 839 72">
+      </gadget>
+      <gadget texturereplace="" tilebackgroundhoriz="" name="objectivesdialog-BordersBottom" type="gadget" background="ui\file_system\border_bottom_middle" size1024="186 693 839 709">
+      </gadget>
+      <gadget texturereplace="" tilebackgroundvert="" name="objectivesdialog-BordersLeft" type="gadget" background="ui\file_system\border_side_left" size1024="154 88 162 677">
+      </gadget>
+      <gadget texturereplace="" tilebackgroundvert="" name="objectivesdialog-BordersRight" type="gadget" background="ui\file_system\border_side_right" size1024="863 88 871 677">
+      </gadget>
+      <gadget texturereplace="" name="objectivesdialog-BordersLeftTop" type="gadget" background="ui\file_system\border_top_left" size1024="154 56 186 88" clampbackground="">
+      </gadget>
+      <gadget texturereplace="" name="objectivesdialog-BordersLeftBottom" type="gadget" background="ui\file_system\border_bottom_left" size1024="154 677 186 709" clampbackground="">
+      </gadget>
+      <gadget texturereplace="" name="objectivesdialog-BordersRightBottom" type="gadget" background="ui\file_system\border_bottom_right" size1024="839 677 871 709" clampbackground="">
+      </gadget>
+      <gadget texturereplace="" name="objectivesdialog-BordersRightTop" type="gadget" background="ui\file_system\border_top_right" size1024="839 56 871 88" z="11" clampbackground="">
+      </gadget>
+    </gadget>
+    <gadget name="objectivesdialog-ScreenSeparator" type="gadget" size1024="175 112 843 113" background="missing" z="20">
+    </gadget>
+    <gadget name="objectivesdialog-tabs-tab1" type="gadget" size1024="190 81 318 113" z="50">
+      <gadget z="1" textcenterhoriz="" textfontsize="18" textfont="InGameTabs" textcolor="255 208 0" name="objectivesdialog-tabs-tab1-on" type="gadget" background="UI\ui button tab up 128X32" size1024="190 81 318 113">$$20104$$Objectives</gadget>
+      <gadget foreground="UI\ui button tab down 128X32" donthighlight="" hidden="" textcenterhoriz="" textfontsize="18" textfont="InGameTabs" textcolor="255 208 0" z="1" name="objectivesdialog-tabs-tab1-off" type="button" size1024="190 81 318 113">$$20104$$Objectives<command>gadgetReal ("objectivesdialog-page-objectives") gadgetUnReal("objectivesdialog-page-new")  gadgetReal("objectivesdialog-tabs-tab1-on") gadgetunReal("objectivesdialog-tabs-tab1-off") gadgetReal("objectivesdialog-tabs-tab2-off") gadgetunReal("objectivesdialog-tabs-tab2-on")</command></gadget>
+    </gadget>
+    <gadget name="objectivesdialog-tabs-tab2" type="gadget" size1024="319 81 447 113" z="50">
+      <gadget textcolor="255 208 0" textfont="InGameTabs" textfontsize="18" textcenterhoriz="" z="1" name="objectivesdialog-tabs-tab2-on" type="gadget" hidden="" background="UI\ui button tab up 128X32" size1024="319 81 447 113">$$21555$$Spotlight</gadget>
+      <gadget foreground="UI\ui button tab down 128X32" donthighlight="" z="1" textcolor="255 208 0" textfont="InGameTabs" textfontsize="18" textcenterhoriz="" name="objectivesdialog-tabs-tab2-off" type="button" size1024="319 81 447 113">$$21555$$Spotlight<command>gadgetunReal ("objectivesdialog-page-objectives") gadgetReal("objectivesdialog-page-new") gadgetunReal("objectivesdialog-tabs-tab1-on") gadgetReal("objectivesdialog-tabs-tab1-off") gadgetunReal("objectivesdialog-tabs-tab2-off") gadgetReal("objectivesdialog-tabs-tab2-on")</command></gadget>
+    </gadget>
+    <gadget name="objectivesdialog-objectives-DoneButton" type="stateButton" size1024="432 655 592 687" bevelbutton="" z="101" statebuttonuseinternalstates="" textfont="InGameButtons" textfontsize="18" textcolor="255 208 0" textcenterhoriz="" textcentervert="" texturecoords="0 0 .625 1" mouseovertext="$$19939$$">$$21199$$Done<stateentry background="ui\core_ui\button_128x32_normal"></stateentry><stateentry background="ui\ui button long 160X32 clicked"></stateentry><stateentry background="ui\ui button long 160X32 rollover"></stateentry><stateentry background=""></stateentry><command>gadgetReal ("objectivesdialog-page-objectives") gadgetUnReal("objectivesdialog-page-new")  gadgetReal("objectivesdialog-tabs-tab1-on") gadgetunReal("objectivesdialog-tabs-tab1-off") gadgetReal("objectivesdialog-tabs-tab2-off") gadgetunReal("objectivesdialog-tabs-tab2-on") gadgetUnreal("objectivesdialog-screen")</command></gadget>
+    <gadget name="objectivesdialog-page-objectives" type="gadget" size1024="164 72 863 656" z="20">
+      <gadget name="objectivesdialog-objectives-scenariotitle" type="formatText" textfont="ScenarioTitle" textfontsize="24" textcolor="0 0 58" size1024="185 138 841 180" textcenterhoriz="" textcentervert="" z="20">
+      </gadget>
+      <gadget name="objectivesdialog-objectives-GoalText" type="formatText" textfont="GoalText" textfontsize="18" textcolor="255 208 0" size1024="177 206 838 233" z="20">
+      </gadget>
+      <gadget name="objectivesdialog-objectives-DiffLevel" textcenterhoriz="" type="formatText" textfont="GoalText" textfontsize="18" textcolor="255 208 0" size1024="404 609 620 634">$$18589$$Difficulty:</gadget>
+      <gadget name="objectivesdialog-ScreenSeparator2" type="gadget" size1024="192 136 833 137" background="missing" z="11">
+      </gadget>
+      <gadget name="objectivesdialog-ScreenSeparator3" type="gadget" size1024="192 181 833 182" background="missing" z="11">
+      </gadget>
+      <gadget name="objectivesdialog-BackgroundFade" type="gadget" size1024="192 137 833 181" background="ui\background fade yellow" z="2">
+      </gadget>
+      <gadget name="objectivesdialog-Swirl" type="gadget" size1024="491 119 523 135" background="ui\ui ornate gold swirl 32x16" z="11">
+      </gadget>
+      <gadget name="objectivesdialog-Swirl2" type="gadget" size1024="491 184 523 200" background="ui\ui ornate gold swirl 32x16" z="30" texturecoords="0 1 1 0">
+      </gadget>
+      <gadget name="objectivesdialog-objectivelistbox-background" outlinecolor="255 208 0" type="gadget" size1024="179 236 837 403" background="ui\ui background dark blue opaque" z="10" texturereplace="">
+      </gadget>
+      <gadget name="objectivesdialog-objectiveslistbox" type="formatText" size1024="181 238 835 401" z="50" textfont="ObjectivesText" textfontsize="16" textcolor="255 208 0" textmarkup="" textscrollbar="" formattextscrolltobottom="">
+        <vertscrollbar sliderbuttons="" slidervertical="" sliderupbtnset="sliderUpBtn" sliderdownbtnset="sliderDownBtn" sliderpipart="ui\ui slider pip verticle" sliderpiptexturecoords="0 0 0.5 0.75" sliderareaart="ui\ui background dark blue opaque" background="ui\core_ui\background_yellow_opaque">
+        </vertscrollbar>
+      </gadget>
+      <gadget textfont="GoalText" textfontsize="18" textcolor="255 208 0" sound="ui_jewel" checkcheckedart="ui\ui button check box 32x32 clicked" checkuncheckedart="ui\ui button check box 32x32" checkhighlightart="ui\ui button check box 32x32 rollover" checkborder1024="5 0" texturecoords="0 0 .69 .72" name="objectivesdialog-ShowHints" type="checkButton" size1024="179 412 401 434" z="50">$$20106$$Show Hints<command>gadgetToggle("objectivesdialog-Hintslistbox-border")</command></gadget>
+      <gadget name="objectivesdialog-Hintslistbox-border" type="gadget" size1024="179 448 839 588" z="12" hidden="">
+        <gadget name="objectivesdialog-Hintslistbox" type="formatText" size1024="182 451 836 585" z="50" textfont="ObjectivesText" textfontsize="16" textcolor="255 208 0">
+        </gadget>
+        <gadget outlinecolor="255 208 0" name="objectivesdialog-Hintslistbox-Background" type="gadget" size1024="180 449 838 587" background="ui\file_system\file_system_background" z="10" texturereplace="">
+        </gadget>
+      </gadget>
+      <gadget texturecoords="0 0 .5 1" name="objectivesdialog-Swirl3" type="gadget" size1024="383 612 399 628" background="ui\ui ornate gold swirl 32x16" z="11">
+      </gadget>
+      <gadget texturecoords=".5 0 0 1" name="objectivesdialog-Swirl4" type="gadget" size1024="625 612 641 628" background="ui\ui ornate gold swirl 32x16" z="11">
+      </gadget>
+    </gadget>
+    <gadget name="objectivesdialog-page-new" type="gadget" size1024="162 72 863 693" z="16" hidden="">
+      <gadget name="objectivesdialog-new-title" type="formatText" textfont="ScenarioTitle" textfontsize="24" textcolor="255 208 0" size1024="375 129 634 159" textcenterhoriz="" textcentervert="" textwrapon="">A Thing</gadget>
+      <gadget name="objectivesdialog-new-picture" type="gadget" size1024="373 165 637 293" background="ui\ui god odin 256x256">
+      </gadget>
+      <gadget name="objectivesdialog-new-text" type="formatText" textfont="NewDescriptions" textfontsize="16" textcolor="255 208 0" size1024="190 315 835 573" textwrapon="">All the stuff that Greg writes about these units goes here.  I'm sure it will be quite edifying and we'll all be happy to read it.  Users will learn a lot and then they will kick our hienies when we try to play them online.</gadget>
+    </gadget>
+  </gadget>
+</layout>

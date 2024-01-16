@@ -1,0 +1,91 @@
+<layout>
+  <gadget name="unitstatpanel2" type="unitstatpanel2" size1024="754 587 1024 768" background="ui\ingame\tempinterface" z="99" texturecoords="0.481409001956947 0.645792563600783 0.99412915851272 0.996086105675147">
+    <gadget name="unitstatpanel2-UnitStackButtonBig0" type="button" size1024="755 581 799 625" z="101" activateondown="">
+    </gadget>
+    <gadget name="unitstatpanel2-UnitStackButtonBig1" type="button" size1024="799 581 843 625" z="101" activateondown="">
+    </gadget>
+    <gadget name="unitstatpanel2-UnitStackButtonBig2" type="button" size1024="843 581 887 625" z="101" activateondown="">
+    </gadget>
+    <gadget name="unitstatpanel2-UnitStackButtonBig3" type="button" size1024="887 581 931 625" z="101" activateondown="">
+    </gadget>
+    <gadget name="unitstatpanel2-UnitStackButtonBig4" type="button" size1024="931 581 975 625" z="101" activateondown="">
+    </gadget>
+    <gadget name="unitstatpanel2-UnitStackButtonBig5" type="button" size1024="975 581 1019 625" z="101" activateondown="">
+    </gadget>
+    <gadget name="unitstatpanel2-UnitStackButton0" type="button" size1024="762 588 794 620" z="100" activateondown="">
+    </gadget>
+    <gadget name="unitstatpanel2-UnitStackButton1" type="button" size1024="805 588 837 620" z="100" activateondown="">
+    </gadget>
+    <gadget name="unitstatpanel2-UnitStackButton2" type="button" size1024="849 588 881 620" z="100" activateondown="">
+    </gadget>
+    <gadget name="unitstatpanel2-UnitStackButton3" type="button" size1024="893 588 925 620" z="100" activateondown="">
+    </gadget>
+    <gadget name="unitstatpanel2-UnitStackButton4" type="button" size1024="938 588 970 620" z="100" activateondown="">
+    </gadget>
+    <gadget name="unitstatpanel2-UnitStackButton5" type="button" size1024="980 588 1012 620" z="100" activateondown="">
+    </gadget>
+    <gadget name="unitstatpanel2-UnitContainsLabel" type="formatText" size1024="768 698 1066 716" textcolor="255 255 0" textcentervert="" textfont="StatText" textfontsize="12" z="100">Contains</gadget>
+    <gadget name="unitstatpanel2-UnitContainsButton0" type="button" size1024="769 715 793 739" z="100" activateondown="">
+    </gadget>
+    <gadget name="unitstatpanel2-UnitContainsButton1" type="button" size1024="793 715 817 739" z="100" activateondown="">
+    </gadget>
+    <gadget name="unitstatpanel2-UnitContainsButton2" type="button" size1024="817 715 841 739" z="100" activateondown="">
+    </gadget>
+    <gadget name="unitstatpanel2-UnitContainsButton3" type="button" size1024="841 715 865 739" z="100" activateondown="">
+    </gadget>
+    <gadget name="unitstatpanel2-UnitContainsButton4" type="button" size1024="865 715 889 739" z="100" activateondown="">
+    </gadget>
+    <gadget name="unitstatpanel2-UnitContainsButton5" type="button" size1024="889 715 913 739" z="100" activateondown="">
+    </gadget>
+    <gadget name="unitstatpanel2-UnitContainsButton6" type="button" size1024="913 715 937 739" z="100" activateondown="">
+    </gadget>
+    <gadget name="unitstatpanel2-UnitContainsButton7" type="button" size1024="937 715 961 739" z="100" activateondown="">
+    </gadget>
+    <gadget name="unitstatpanel2-UnitContainsButton8" type="button" size1024="961 715 985 739" z="100" activateondown="">
+    </gadget>
+    <gadget name="unitstatpanel2-UnitContainsButton9" type="button" size1024="985 715 1009 739" z="100" activateondown="">
+    </gadget>
+    <gadget name="unitstatpanel2-StackLabel0" type="formatText" size1024="763 627 861 645" textmarkup="" formattextusedatareplace="" textcentervert="" textfont="StatText" textfontsize="12" z="100">
+    </gadget>
+    <gadget name="unitstatpanel2-StackValue0" type="formatText" size1024="861 627 1016 645" textmarkup="" formattextusedatareplace="" textcentervert="" textfont="StatText" textfontsize="12" z="100">
+    </gadget>
+    <gadget name="unitstatpanel2-StackLabel1" type="formatText" size1024="763 641 861 659" textmarkup="" formattextusedatareplace="" textcentervert="" textfont="StatText" textfontsize="12" z="100">
+    </gadget>
+    <gadget name="unitstatpanel2-StackValue1" type="formatText" size1024="861 641 1016 659" textmarkup="" formattextusedatareplace="" textcentervert="" textfont="StatText" textfontsize="12" z="100">
+    </gadget>
+    <gadget name="unitstatpanel2-StackLabel2" type="formatText" size1024="763 655 861 673" textmarkup="" formattextusedatareplace="" textcentervert="" textfont="StatText" textfontsize="12" z="30">
+    </gadget>
+    <gadget name="unitstatpanel2-StackValue2" type="formatText" size1024="861 655 1016 673" textmarkup="" formattextusedatareplace="" textcentervert="" textfont="StatText" textfontsize="12" z="35">
+    </gadget>
+    <gadget name="unitstatpanel2-StackLabel3" type="formatText" size1024="763 669 861 687" textmarkup="" formattextusedatareplace="" textcentervert="" textfont="StatText" textfontsize="12" z="30">
+    </gadget>
+    <gadget name="unitstatpanel2-StackValue3" type="formatText" size1024="861 669 1016 687" textmarkup="" formattextusedatareplace="" textcentervert="" textfont="StatText" textfontsize="12" z="35">
+    </gadget>
+    <gadget name="unitstatpanel2-StackLabel4" type="formatText" size1024="763 683 861 701" textmarkup="" formattextusedatareplace="" textcentervert="" textfont="StatText" textfontsize="12" z="30">
+    </gadget>
+    <gadget name="unitstatpanel2-StackValue4" type="formatText" size1024="861 683 1016 701" textmarkup="" formattextusedatareplace="" textcentervert="" textfont="StatText" textfontsize="12" z="35">
+    </gadget>
+    <gadget name="unitstatpanel2-commandPanel" type="gadget" size1024="767 745 997 767" z="100">
+      <gadget name="unitstatpanel2-commandButton0" type="button" size1024="768 746 789 767" z="100" activateondown="">
+      </gadget>
+      <gadget name="unitstatpanel2-commandButton1" type="button" size1024="791 746 812 767" z="100" activateondown="">
+      </gadget>
+      <gadget name="unitstatpanel2-commandButton2" type="button" size1024="814 746 835 767" z="100" activateondown="">
+      </gadget>
+      <gadget name="unitstatpanel2-commandButton3" type="button" size1024="837 746 858 767" z="100" activateondown="">
+      </gadget>
+      <gadget name="unitstatpanel2-commandButton4" type="button" size1024="860 746 881 767" z="100" activateondown="">
+      </gadget>
+      <gadget name="unitstatpanel2-commandButton5" type="button" size1024="883 746 904 767" z="100" activateondown="">
+      </gadget>
+      <gadget name="unitstatpanel2-commandButton6" type="button" size1024="906 746 927 767" z="100" activateondown="">
+      </gadget>
+      <gadget name="unitstatpanel2-commandButton7" type="button" size1024="929 746 950 767" z="100" activateondown="">
+      </gadget>
+      <gadget name="unitstatpanel2-commandButton8" type="button" size1024="952 746 973 767" z="100" activateondown="">
+      </gadget>
+      <gadget name="unitstatpanel2-commandButton9" type="button" size1024="975 746 996 767" z="100" activateondown="">
+      </gadget>
+    </gadget>
+  </gadget>
+</layout>

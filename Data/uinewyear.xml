@@ -1,0 +1,16 @@
+<layout>
+  <gadget name="newyear-screen" type="NewYearDialog" size1024="264 112 751 538" closeonesc="">
+    <gadget name="newyear-Background" type="gadget" size1024="264 112 751 538" background="ui\ingame\background_brown_a" tilebackground="">
+      <gadget name="vpbackground" type="gadget" size1024="280 208 734 454" z="11" background="ui\ingame\background_black" tilebackground="">
+      </gadget>
+    </gadget>
+    <gadget name="newyear-objectives-ContinueButton" type="stateButton" size1024="416 472 608 504" bevelbutton="" z="101" statebuttonuseinternalstates="" textfont="InGameButtons" textfontsize="18" textcolor="3 0 88" textcenterhoriz="" textcentervert="" texturecoords="0 0 .75 1" mouseovertext="Return to the Game">$$20038$$Continue<stateentry background="ui\core_ui\button_192x32_normal"></stateentry><stateentry background="ui\core_ui\button_192X32_clicked"></stateentry><stateentry background="ui\core_ui\button_192X32_rollover"></stateentry><stateentry background=""></stateentry><command>gadgetUnreal("newyear-screen")</command></gadget>
+    <gadget name="newyear-DontShowAgain-Checkbox" size1024="416 510 608 530" textcolor="255 255 255" textcenterhoriz="" textcentervert="" type="checkButton" textfont="InGameButtons" textfontsize="18" z="101" checkcheckedart="ui\core_ui\checkbox_checked" checkuncheckedart="ui\core_ui\checkbox" checkborder1024="5 0" sound="UI_DefaultIngameClickSet">Don't Show Again</gadget>
+    <gadget name="newyear-text" type="formatText" textfont="ScenarioTitle" textfontsize="24" textcolor="255 255 255" size1024="312 152 705 186" textcenterhoriz="" textcentervert="" z="20">
+    </gadget>
+    <gadget name="newyear-teamlistbox" type="formatText" textmarkup="" size1024="312 216 462 286" z="50" donthighlight="" background="ui\ingame\background_black" textcolor="255 255 255" textfont="ScoreFont" textfontsize="12" textcentervert="">
+    </gadget>
+    <gadget name="newyear-separator" type="gadget" size1024="280 192 734 196" background="ui\ingame\outline_bottom_middle" z="11">
+    </gadget>
+  </gadget>
+</layout>

@@ -1,0 +1,8 @@
+<layout>
+  <gadget name="AMPPageBrowser-Container" type="gadget" size1024="210 106 1024 768" backgroundcolor="0 0 0" z="10">
+    <gadget name="AMPPageBrowser-Page" type="gadget" size1024="210 106 1004 768">
+    </gadget>
+    <gadget name="AMPPageBrowser-Slider" type="slider" size1024="1004 106 1024 768" sliderbuttons="" slidervertical="" sliderupbtnset="sliderUpBtn_18" sliderdownbtnset="sliderDownBtn_18" sliderpipart="ui\file_system\slider_pip_horizontal" sliderareaart="ui\file_system\slider_background_vertical_18" background="ui\file_system\slider_background">
+    </gadget>
+  </gadget>
+</layout>

@@ -1,0 +1,5 @@
+<layout>
+  <gadget type="gadget" name="ingame-messagedialog3" size1024="384 274 640 338" windowzstyle="" hidden="" closeonesc="">
+    <gadget name="ingame-messagedialog3-prompt" type="formatText" textcolor="231 201 40" textfont="InGameDialogs" background="ui\ingame\ingame_ui_postgame_topbar_ends" textfontsize="16" texttruecentervert="" textcenterhoriz="" size1024="384 274 640 338">Message Text Goes Here</gadget>
+  </gadget>
+</layout>

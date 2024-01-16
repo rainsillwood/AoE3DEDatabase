@@ -1,0 +1,2586 @@
+<powers>
+  <power name="ypPowerShrineAura" type="UnitAction">
+    <displaynameid>70309</displaynameid>
+    <rolloverid>70310</rolloverid>
+    <icon>resources\images\icons\techs\asians\tech_toshogu_passive_ability.png</icon>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="ypUnitElephantSpeed" type="UnitAction">
+    <displaynameid>70135</displaynameid>
+    <rolloverid>70136</rolloverid>
+    <icon>resources\images\icons\techs\asians\tech_passive_terror_charge_icon_64.png</icon>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="ypUnitMansabdarAura" type="UnitAction">
+    <displaynameid>70185</displaynameid>
+    <rolloverid>70186</rolloverid>
+    <icon>resources\images\icons\techs\asians\tech_passive_mansabdar_aura_icon_64.png</icon>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="ypUnitDaimyoAura" type="UnitAction">
+    <displaynameid>69914</displaynameid>
+    <rolloverid>69915</rolloverid>
+    <icon>resources\images\icons\techs\asians\tech_passive_daimyo_aura.png</icon>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="ypUnitShogunAura" type="UnitAction">
+    <displaynameid>69916</displaynameid>
+    <rolloverid>69917</rolloverid>
+    <icon>resources\images\icons\techs\asians\tech_passive_shogun_aura.png</icon>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="ypUnitDiscipleAura" type="UnitAction">
+    <displaynameid>69918</displaynameid>
+    <rolloverid>69919</rolloverid>
+    <icon>resources\images\icons\techs\asians\tech_passive_disciple_aura.png</icon>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="ypUnitFrightenAura" type="UnitAction">
+    <displaynameid>69920</displaynameid>
+    <rolloverid>69921</rolloverid>
+    <icon>resources\images\icons\techs\asians\tech_passive_frighten_aura.png</icon>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="ypUnitScareAura" type="UnitAction">
+    <displaynameid>69922</displaynameid>
+    <rolloverid>69923</rolloverid>
+    <icon>resources\images\icons\techs\asians\tech_passive_scare_aura.png</icon>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="ypPowerEconAura" type="UnitAction">
+    <displaynameid>69853</displaynameid>
+    <rolloverid>69854</rolloverid>
+    <icon>resources\images\icons\techs\asians\tech_passive_econ_aura.png</icon>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="ypPowerMonkAura" type="UnitAction">
+    <displaynameid>69855</displaynameid>
+    <rolloverid>69856</rolloverid>
+    <icon>resources\images\icons\techs\asians\tech_passive_monk_aura.png</icon>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="ypPowerDaimyoAura" type="UnitAction">
+    <displaynameid>69857</displaynameid>
+    <rolloverid>69858</rolloverid>
+    <icon>resources\images\icons\techs\asians\tech_passive_military_training_aura.png</icon>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="ypPowerXPAura" type="UnitAction">
+    <displaynameid>69859</displaynameid>
+    <rolloverid>69860</rolloverid>
+    <icon>resources\images\icons\techs\asians\tech_passive_xp_aura_icon_64.png</icon>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="ypPowerAttackBlessing" type="AttackBlessing">
+    <displaynameid>65578</displaynameid>
+    <rolloverid>65579</rolloverid>
+    <icon>resources\images\icons\abilities\ability_inspiration.png</icon>
+    <minimapeventtime sendalertto="none">1</minimapeventtime>
+    <activetime>15</activetime>
+    <effect type="MaximumVelocity" relativity="BasePercent" amount="1.1">
+      <target type="ProtoUnit">LogicalTypeLandMilitary</target>
+    </effect>
+    <effect type="HitPoints" relativity="BasePercent" amount="1.15">
+      <target type="ProtoUnit">LogicalTypeLandMilitary</target>
+    </effect>
+    <effect type="Damage" relativity="BasePercent" amount="1.15">
+      <target type="ProtoUnit">LogicalTypeLandMilitary</target>
+    </effect>
+    <placement forceonmap="1" ally="">full</placement>
+    <allowduringnorush>1</allowduringnorush>
+    <soundset type="StartSound" listenertype="Caster">PowerInspiration</soundset>
+  </power>
+  <power name="ypPowerDivineBlow" type="UnitAction">
+    <displaynameid>64603</displaynameid>
+    <rolloverid>64604</rolloverid>
+    <icon>resources\images\icons\techs\asians\tech_passive_kayakujutin_icon_64.png</icon>
+    <allowduringnorush>1</allowduringnorush>
+    <startsoundset>PowerDivineStrike</startsoundset>
+  </power>
+  <power name="ypPowerStomp" type="UnitAction">
+    <displaynameid>64599</displaynameid>
+    <rolloverid>64600</rolloverid>
+    <icon>resources\images\icons\techs\asians\tech_passive_stomp_elephant_icon_64.png</icon>
+    <minimapeventtime sendalertto="none">1</minimapeventtime>
+    <explicitlyrestrictedattacktargettype>WaterGuardian</explicitlyrestrictedattacktargettype>
+    <allowduringnorush>1</allowduringnorush>
+    <startsoundset>PowerStomp</startsoundset>
+  </power>
+  <power name="ypPowerDodge" type="Dodge">
+    <displaynameid>66381</displaynameid>
+    <rolloverid>66382</rolloverid>
+    <icon>resources\images\icons\techs\asians\tech_passive_dodge_icon_64.png</icon>
+    <allowduringnorush>1</allowduringnorush>
+    <startsoundset>PowerEvade</startsoundset>
+  </power>
+  <power name="ypPowerConvertDisciple" type="UnitAction">
+    <displaynameid>64601</displaynameid>
+    <rolloverid>64602</rolloverid>
+    <icon>resources\images\icons\techs\asians\tech_passive_convert_disciple_icon_64.png</icon>
+    <allowduringnorush>1</allowduringnorush>
+    <startsoundset>PowerConvertDisciple</startsoundset>
+  </power>
+  <power name="ypPowerCriticalAttack" type="UnitAction">
+    <displaynameid>64597</displaynameid>
+    <rolloverid>64598</rolloverid>
+    <icon>resources\images\icons\techs\asians\tech_passive_critical_attack_icon_64.png</icon>
+    <allowduringnorush>1</allowduringnorush>
+    <startsoundset>PowerCriticalStrike</startsoundset>
+  </power>
+  <power name="ypPowerGuardianStun" type="UnitAction">
+    <displaynameid>62770</displaynameid>
+    <rolloverid>62764</rolloverid>
+    <icon>resources\images\icons\abilities\ability_guardian_stun.png</icon>
+    <minimapeventtime sendalertto="all">1</minimapeventtime>
+    <activetime>20</activetime>
+    <radius>0</radius>
+    <placement forceonmap="1" enemy="" allowgaia="">unit</placement>
+    <unitaction>Stun</unitaction>
+    <abstractattacktargettype>Guardian</abstractattacktargettype>
+    <explicitlyrestrictedattacktargettype>WaterGuardian</explicitlyrestrictedattacktargettype>
+    <explicitlyrestrictedattacktargettype>LogicalTypeImmuneToSharpshoot</explicitlyrestrictedattacktargettype>
+    <allowduringnorush>1</allowduringnorush>
+    <startsoundset>PowerStun</startsoundset>
+  </power>
+  <power name="ypPowerSweep" type="Stun">
+    <displaynameid>63679</displaynameid>
+    <rolloverid>63680</rolloverid>
+    <icon>resources\images\icons\command\mode_bombard.png</icon>
+    <minimapeventtime sendalertto="none">1</minimapeventtime>
+    <activetime>.75</activetime>
+    <radius>4.0</radius>
+    <placement forceonmap="1" enemy="" allowgaia="">unit</placement>
+    <stundamage>SweepDamage</stundamage>
+    <abstractattacktargettype>Military</abstractattacktargettype>
+    <abstractattacktargettype>Guardian</abstractattacktargettype>
+    <allowduringnorush>1</allowduringnorush>
+    <startsoundset>PowerStomp</startsoundset>
+  </power>
+  <power name="ypPowerRoundhouse" type="UnitAction">
+    <displaynameid>65290</displaynameid>
+    <rolloverid>65291</rolloverid>
+    <icon>resources\images\icons\abilities\ability_roundhouse_kick.png</icon>
+    <minimapeventtime sendalertto="player">1</minimapeventtime>
+    <activetime>8</activetime>
+    <radius>5.0</radius>
+    <placement forceonmap="1" enemy="" allowgaia="">unit</placement>
+    <abstractattacktargettype>Military</abstractattacktargettype>
+    <abstractattacktargettype>Guardian</abstractattacktargettype>
+    <explicitlyrestrictedattacktargettype>WaterGuardian</explicitlyrestrictedattacktargettype>
+    <unitaction>RoundhouseAttack</unitaction>
+  </power>
+  <power name="ypPowerCeaseFire" type="CeaseFire2">
+    <displaynameid>62771</displaynameid>
+    <rolloverid>62765</rolloverid>
+    <icon>resources\images\icons\abilities\ability_ceasefire.png</icon>
+    <minimapeventtime sendalertto="none">1</minimapeventtime>
+    <activetime>20</activetime>
+    <placement forceonmap="1" ally="">full</placement>
+    <soundset type="StartSound" listenertype="All">PowerCeaseFire</soundset>
+    <effect type="MaximumVelocity" relativity="BasePercent" amount="0.85">
+      <target type="ProtoUnit">LogicalTypeLandMilitary</target>
+    </effect>
+  </power>
+  <power name="ypPowerGoodFortune" type="GoodFortune">
+    <displaynameid>62772</displaynameid>
+    <rolloverid>62766</rolloverid>
+    <icon>resources\images\icons\abilities\ability_good_fortune.png</icon>
+    <minimapeventtime sendalertto="none">1</minimapeventtime>
+    <activetime>0.1</activetime>
+    <radius>10.0</radius>
+    <placement forceonmap="1" ally="">full</placement>
+    <abstractattacktargettype>LogicalTypeHealed</abstractattacktargettype>
+    <rangeindicatorprotoid radius="10.0" indicatorcount="8" speed="0.6">PowerRanger</rangeindicatorprotoid>
+    <unitaction>Heal</unitaction>
+    <soundset type="StartSound" listenertype="Caster">PowerGoodFortune</soundset>
+    <hitpointstoheal>100</hitpointstoheal>
+    <ignorehitpointcap>1</ignorehitpointcap>
+    <rate>1000</rate>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="ypPowerInformers" type="Informers">
+    <displaynameid>62773</displaynameid>
+    <rolloverid>62768</rolloverid>
+    <icon>resources\images\icons\abilities\ability_informers.png</icon>
+    <minimapeventtime sendalertto="none">1</minimapeventtime>
+    <activetime>20</activetime>
+    <effect type="SharedLOS">
+      <target type="General">
+      </target>
+    </effect>
+    <placement forceonmap="1" ally="">full</placement>
+    <allowduringnorush>1</allowduringnorush>
+    <startsoundset>PowerInformers</startsoundset>
+  </power>
+  <power name="ypPowerBloodSmash" type="UnitAction">
+    <displaynameid>65739</displaynameid>
+    <rolloverid>65740</rolloverid>
+    <icon>resources\images\icons\abilities\ability_anchor_fist.png</icon>
+    <minimapeventtime sendalertto="player">1</minimapeventtime>
+    <activetime>8</activetime>
+    <radius>5.0</radius>
+    <placement forceonmap="1" enemy="" allowgaia="">unit</placement>
+    <abstractattacktargettype>Unit</abstractattacktargettype>
+    <unitaction>BloodSmash</unitaction>
+    <soundset type="StartSound" listenertype="Caster" positional="True">PowerAnchorFist</soundset>
+  </power>
+  <power name="ypPowerDivineRight" type="GeneralEffect">
+    <displaynameid>65737</displaynameid>
+    <rolloverid>65738</rolloverid>
+    <icon>resources\images\icons\abilities\ability_way_of_the_warrior.png</icon>
+    <minimapeventtime sendalertto="none">1</minimapeventtime>
+    <activetime>10</activetime>
+    <effect type="CanTargetButTakesNoDamage">
+      <target type="ProtoUnit">ypSPCTokugawa</target>
+    </effect>
+    <messagealertplayerrelation>none</messagealertplayerrelation>
+    <placement forceonmap="1" ally="">full</placement>
+    <allowduringnorush>1</allowduringnorush>
+    <startsoundset>PowerInvulnerability</startsoundset>
+  </power>
+  <power name="ypPowerBattleShadow" type="GeneralEffect">
+    <displaynameid>65761</displaynameid>
+    <rolloverid>65762</rolloverid>
+    <icon>resources\images\icons\abilities\ability_blood_charge.png</icon>
+    <minimapeventtime sendalertto="none">1</minimapeventtime>
+    <activetime>2</activetime>
+    <effect type="ActionEnable" action="BattleShadow">
+      <target type="ProtoUnit">ypSPCKichiro</target>
+    </effect>
+    <placement forceonmap="1" ally="">full</placement>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="ypPowerFireCommand" type="GeneralEffect">
+    <displaynameid>66041</displaynameid>
+    <rolloverid>66042</rolloverid>
+    <icon>resources\images\icons\abilities\ability_fire_command.png</icon>
+    <minimapeventtime sendalertto="none">1</minimapeventtime>
+    <activetime>10</activetime>
+    <effect type="ActionEnable" action="FireCommand">
+      <target type="ProtoUnit">ypSPCNanib</target>
+    </effect>
+    <placement forceonmap="1" ally="">full</placement>
+    <startsoundset>PowerAttackAura</startsoundset>
+  </power>
+  <power name="ypPowerSwordFury" type="GeneralEffect">
+    <displaynameid>65735</displaynameid>
+    <rolloverid>65736</rolloverid>
+    <icon>resources\images\icons\abilities\ability_seven_spears.png</icon>
+    <minimapeventtime sendalertto="none">1</minimapeventtime>
+    <activetime>10</activetime>
+    <effect type="Damage" relativity="BasePercent" amount="5">
+      <target type="ProtoUnit">ypSPCKichiro</target>
+    </effect>
+    <messagealertplayerrelation>none</messagealertplayerrelation>
+    <placement forceonmap="1" ally="">unit</placement>
+    <allowduringnorush>1</allowduringnorush>
+    <startsoundset>GeneralKichiro7Spears</startsoundset>
+  </power>
+  <power name="ypPowerHeavenlyFireBomb" type="UnitAction">
+    <displaynameid>65741</displaynameid>
+    <rolloverid>65742</rolloverid>
+    <icon>resources\images\icons\abilities\ability_heavenly_fire_bomb.png</icon>
+    <minimapeventtime sendalertto="player">1</minimapeventtime>
+    <activetime>8</activetime>
+    <radius>10.0</radius>
+    <placement forceonmap="1">LOSDontCare</placement>
+    <abstractattacktargettype>Military</abstractattacktargettype>
+    <abstractattacktargettype>Guardian</abstractattacktargettype>
+    <unitaction>HeavenlyFireBomb</unitaction>
+  </power>
+  <power name="ypPowerHeavenlyTreeBomb" type="UnitAction">
+    <displaynameid>68437</displaynameid>
+    <rolloverid>68438</rolloverid>
+    <icon>resources\images\icons\abilities\ability_tree_bomb.png</icon>
+    <minimapeventtime sendalertto="player">1</minimapeventtime>
+    <activetime>8</activetime>
+    <radius>10.0</radius>
+    <placement forceonmap="1">LOSDontCare</placement>
+    <abstractattacktargettype>All</abstractattacktargettype>
+    <unitaction>HeavenlyTreeBomb</unitaction>
+  </power>
+  <power name="PowerLOS" type="TempUnit">
+    <displaynameid>25568</displaynameid>
+    <rolloverid>25569</rolloverid>
+    <icon>resources\images\icons\abilities\ability_spyglass.png</icon>
+    <minimapeventtime sendalertto="ally">1</minimapeventtime>
+    <activetime>5</activetime>
+    <createunit quantity="1" radius="0" delay="0.0">SpyglassRevealer</createunit>
+    <placement forceonmap="1">LOSDontCare</placement>
+    <rangeindicatorprotoid radius="12.0" indicatorcount="16" speed="0.6">PowerRanger</rangeindicatorprotoid>
+    <allowduringnorush>1</allowduringnorush>
+    <alwaysaddtoplayer>1</alwaysaddtoplayer>
+  </power>
+  <power name="PowerHP" type="UnitModify">
+    <displaynameid>25870</displaynameid>
+    <rolloverid>25871</rolloverid>
+    <icon>resources\images\icons\abilities\ability_hp.png</icon>
+    <minimapeventtime sendalertto="player">1</minimapeventtime>
+    <activetime>30</activetime>
+    <unitmodify amount="1.1" apply="multiply">MaxHP</unitmodify>
+    <powerplayerrelation>ally</powerplayerrelation>
+    <radius>10.0</radius>
+    <abstractattacktargettype>LogicalTypeLandMilitary</abstractattacktargettype>
+    <placement forceonmap="1">full</placement>
+    <rangeindicatorprotoid radius="10.0" indicatorcount="16" speed="0.6">PowerRanger</rangeindicatorprotoid>
+  </power>
+  <power name="PowerSharpshooter" type="UnitAction">
+    <displaynameid>32908</displaynameid>
+    <rolloverid>32909</rolloverid>
+    <icon>resources\images\icons\abilities\ability_sharpshooter.png</icon>
+    <minimapeventtime sendalertto="player">1</minimapeventtime>
+    <activetime>8</activetime>
+    <radius>5.0</radius>
+    <placement forceonmap="1" enemy="" allowgaia="">unit</placement>
+    <abstractattacktargettype>Guardian</abstractattacktargettype>
+    <explicitlyrestrictedattacktargettype>WaterGuardian</explicitlyrestrictedattacktargettype>
+    <explicitlyrestrictedattacktargettype>Hero</explicitlyrestrictedattacktargettype>
+    <explicitlyrestrictedattacktargettype>LogicalTypeImmuneToSharpshoot</explicitlyrestrictedattacktargettype>
+    <unitaction>SharpshooterAttack</unitaction>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="ypPowerSabotage" type="UnitAction">
+    <displaynameid>69742</displaynameid>
+    <rolloverid>69745</rolloverid>
+    <icon>resources\images\icons\abilities\ability_japan_kayakujutin_icon_64.png</icon>
+    <minimapeventtime sendalertto="player">1</minimapeventtime>
+    <activetime>8</activetime>
+    <radius>5.0</radius>
+    <placement forceonmap="1" enemy="" allowgaia="">unit</placement>
+    <abstractattacktargettype>LogicalTypeValidSabotage</abstractattacktargettype>
+    <explicitlyrestrictedattacktargettype>WaterGuardian</explicitlyrestrictedattacktargettype>
+    <unitaction>SabotageAttack</unitaction>
+  </power>
+  <power name="PowerCrackshot" type="UnitAction">
+    <displaynameid>66043</displaynameid>
+    <rolloverid>66044</rolloverid>
+    <icon>resources\images\icons\abilities\ability_snipe.png</icon>
+    <minimapeventtime sendalertto="player">1</minimapeventtime>
+    <activetime>8</activetime>
+    <radius>5.0</radius>
+    <placement forceonmap="1" enemy="" allowgaia="">unit</placement>
+    <abstractattacktargettype>LogicalTypeValidSharpshoot</abstractattacktargettype>
+    <explicitlyrestrictedattacktargettype>WaterGuardian</explicitlyrestrictedattacktargettype>
+    <unitaction>CrackshotAttack</unitaction>
+  </power>
+  <power name="PowerEagleEye" type="UnitAction">
+    <displaynameid>45462</displaynameid>
+    <rolloverid>45463</rolloverid>
+    <icon>resources\images\icons\abilities\eagle_eye.png</icon>
+    <minimapeventtime sendalertto="player">1</minimapeventtime>
+    <activetime>8</activetime>
+    <radius>5.0</radius>
+    <placement forceonmap="1" enemy="" allowgaia="">unit</placement>
+    <abstractattacktargettype>LogicalTypeValidSharpshoot</abstractattacktargettype>
+    <explicitlyrestrictedattacktargettype>WaterGuardian</explicitlyrestrictedattacktargettype>
+    <unitaction>CrackshotAttack</unitaction>
+  </power>
+  <power name="PowerSwashbuckler" type="UnitAction">
+    <displaynameid>34135</displaynameid>
+    <rolloverid>34136</rolloverid>
+    <icon>resources\images\icons\abilities\ability_swashbuckler.png</icon>
+    <minimapeventtime sendalertto="player">1</minimapeventtime>
+    <activetime>8</activetime>
+    <radius>5.0</radius>
+    <placement forceonmap="1" enemy="" allowgaia="">unit</placement>
+    <abstractattacktargettype>All</abstractattacktargettype>
+    <explicitlyrestrictedattacktargettype>WaterGuardian</explicitlyrestrictedattacktargettype>
+    <unitaction>SwashbucklerAttack</unitaction>
+  </power>
+  <power name="PowerOberhau" type="UnitAction">
+    <displaynameid>37371</displaynameid>
+    <rolloverid>37372</rolloverid>
+    <icon>resources\images\icons\abilities\ability_swashbuckler.png</icon>
+    <minimapeventtime sendalertto="player">1</minimapeventtime>
+    <activetime>8</activetime>
+    <radius>5.0</radius>
+    <placement forceonmap="1" enemy="" allowgaia="">unit</placement>
+    <abstractattacktargettype>Unit</abstractattacktargettype>
+    <unitaction>OberhauAttack</unitaction>
+  </power>
+  <power name="PowerHawkeye" type="UnitAction">
+    <displaynameid>37368</displaynameid>
+    <rolloverid>37367</rolloverid>
+    <icon>resources\images\icons\abilities\hawk_eye.png</icon>
+    <minimapeventtime sendalertto="player">1</minimapeventtime>
+    <activetime>8</activetime>
+    <radius>5.0</radius>
+    <placement forceonmap="1" enemy="" allowgaia="">unit</placement>
+    <abstractattacktargettype>LogicalTypeValidSharpshoot</abstractattacktargettype>
+    <unitaction>HawkeyeAttack</unitaction>
+  </power>
+  <power name="PowerArrow" type="UnitAction">
+    <displaynameid>37369</displaynameid>
+    <rolloverid>37370</rolloverid>
+    <icon>resources\images\icons\abilities\ability_sharpshooter.png</icon>
+    <minimapeventtime sendalertto="player">1</minimapeventtime>
+    <activetime>8</activetime>
+    <radius>5.0</radius>
+    <placement forceonmap="1" enemy="" allowgaia="">unit</placement>
+    <abstractattacktargettype>LogicalTypeValidSharpshoot</abstractattacktargettype>
+    <unitaction>RedBearArrowAttack</unitaction>
+  </power>
+  <power name="PowerDoubleBarrel" type="UnitAction">
+    <displaynameid>34452</displaynameid>
+    <rolloverid>34453</rolloverid>
+    <icon>resources\images\icons\abilities\ability_sharpshooter.png</icon>
+    <minimapeventtime sendalertto="player">1</minimapeventtime>
+    <activetime>8</activetime>
+    <radius>5.0</radius>
+    <placement forceonmap="1" enemy="" allowgaia="">unit</placement>
+    <abstractattacktargettype>LogicalTypeValidSharpshoot</abstractattacktargettype>
+    <unitaction>DoubleBarrelAttack</unitaction>
+  </power>
+  <power name="PowerBroadside" type="UnitAction">
+    <displaynameid>32910</displaynameid>
+    <rolloverid>32911</rolloverid>
+    <icon>resources\images\icons\command\mode_broadside.png</icon>
+    <minimapeventtime sendalertto="player">1</minimapeventtime>
+    <activetime>5</activetime>
+    <radius>10.0</radius>
+    <placement forceonmap="1" enemy="" allowgaia="">unit</placement>
+    <abstractattacktargettype>LogicalTypeRangedUnitsAttack</abstractattacktargettype>
+    <unitaction>BroadsideAttack</unitaction>
+  </power>
+  <power name="PowerLongRange" type="UnitAction">
+    <displaynameid>34137</displaynameid>
+    <rolloverid>34138</rolloverid>
+    <icon>resources\images\icons\command\mode_bombard.png</icon>
+    <minimapeventtime sendalertto="all">1</minimapeventtime>
+    <activetime>5</activetime>
+    <radius>10.0</radius>
+    <placement forceonmap="1" enemy="" allowgaia="">unit</placement>
+    <abstractattacktargettype>LogicalTypeRangedUnitsAttack</abstractattacktargettype>
+    <unitaction>LongRangeAttack</unitaction>
+  </power>
+  <power name="PowerHeal" type="UnitAction">
+    <displaynameid>70549</displaynameid>
+    <rolloverid>35604</rolloverid>
+    <icon>resources\images\icons\abilities\ability_heal.png</icon>
+    <minimapeventtime sendalertto="player">1</minimapeventtime>
+    <activetime>8</activetime>
+    <radius>10.0</radius>
+    <placement forceonmap="1" ally="">full</placement>
+    <abstractattacktargettype>LogicalTypeHealed</abstractattacktargettype>
+    <rangeindicatorprotoid radius="10.0" indicatorcount="8" speed="0.6">PowerRanger</rangeindicatorprotoid>
+    <unitaction>Heal</unitaction>
+    <hitpointstoheal>400</hitpointstoheal>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="PowerBalloon" type="TempUnit">
+    <displaynameid>42372</displaynameid>
+    <rolloverid>42373</rolloverid>
+    <icon>resources\art\units\balloons\hot_air_balloon_ability.png</icon>
+    <minimapeventtime sendalertto="ally">1</minimapeventtime>
+    <activetime>30</activetime>
+    <createunit quantity="1" radius="0" delay="0.0">HotAirBalloon</createunit>
+    <placement forceonmap="1">LOSDontCare</placement>
+    <rangeindicatorprotoid radius="12.0" indicatorcount="16" speed="0.6">PowerRanger</rangeindicatorprotoid>
+    <allowduringnorush>1</allowduringnorush>
+    <alwaysaddtoplayer>1</alwaysaddtoplayer>
+  </power>
+  <power name="ypIceCream" type="TempUnit">
+    <displaynameid>70471</displaynameid>
+    <rolloverid>70472</rolloverid>
+    <icon>resources\art\units\villagers\villager_icon.png</icon>
+    <minimapeventtime sendalertto="ally">1</minimapeventtime>
+    <activetime>60</activetime>
+    <createunit quantity="10" radius="5" delay="0.0">ypSettlerIceCream</createunit>
+    <placement forceonmap="1">LOSDontCare</placement>
+    <startsoundset>PowerIceCream</startsoundset>
+    <rangeindicatorprotoid radius="12.0" indicatorcount="16" speed="0.6">PowerRanger</rangeindicatorprotoid>
+    <allowduringnorush>1</allowduringnorush>
+    <alwaysaddtoplayer>1</alwaysaddtoplayer>
+  </power>
+  <power name="PowerConvertGuardian" type="UnitAction">
+    <displaynameid>44595</displaynameid>
+    <rolloverid>44596</rolloverid>
+    <icon>resources\images\icons\abilities\animal_friendship.png</icon>
+    <minimapeventtime sendalertto="player">1</minimapeventtime>
+    <activetime>8</activetime>
+    <radius>5.0</radius>
+    <placement forceonmap="1" enemy="" allowgaia="" gaiaonly="">unit</placement>
+    <abstractattacktargettype>Guardian</abstractattacktargettype>
+    <explicitlyrestrictedattacktargettype>WaterGuardian</explicitlyrestrictedattacktargettype>
+    <unitaction>ConvertGuardian</unitaction>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="ypPowerSmokeBomb" type="UnitAction">
+    <displaynameid>64300</displaynameid>
+    <rolloverid>65734</rolloverid>
+    <icon>resources\images\icons\abilities\ability_smoke_bomb.png</icon>
+    <minimapeventtime sendalertto="player">1</minimapeventtime>
+    <activetime>4</activetime>
+    <radius>1.0</radius>
+    <placement forceonmap="1" ally="">full</placement>
+    <unitaction>SmokeBomb</unitaction>
+    <allowduringnorush>1</allowduringnorush>
+    <startsoundset>PowerSmokeBomb</startsoundset>
+    <forceglobalcooldown>1</forceglobalcooldown>
+  </power>
+  <power name="PowerConvert" type="UnitAction">
+    <displaynameid>80577</displaynameid>
+    <rolloverid>80578</rolloverid>
+    <icon>resources\images\icons\abilities\ability_convert.png</icon>
+    <minimapeventtime sendalertto="player">1</minimapeventtime>
+    <activetime>12</activetime>
+    <radius>5.0</radius>
+    <placement forceonmap="1" enemy="" allowgaia="">unit</placement>
+    <abstractattacktargettype>Unit</abstractattacktargettype>
+    <explicitlyrestrictedattacktargettype>Hero</explicitlyrestrictedattacktargettype>
+    <explicitlyrestrictedattacktargettype>AbstractDaimyo</explicitlyrestrictedattacktargettype>
+    <explicitlyrestrictedattacktargettype>AbstractHealer</explicitlyrestrictedattacktargettype>
+    <explicitlyrestrictedattacktargettype>Building</explicitlyrestrictedattacktargettype>
+    <explicitlyrestrictedattacktargettype>AbstractWagon</explicitlyrestrictedattacktargettype>
+    <explicitlyrestrictedattacktargettype>RailroadUnit</explicitlyrestrictedattacktargettype>
+    <explicitlyrestrictedattacktargettype>Resource</explicitlyrestrictedattacktargettype>
+    <explicitlyrestrictedattacktargettype>AbstractNugget</explicitlyrestrictedattacktargettype>
+    <explicitlyrestrictedattacktargettype>EmbellishmentClass</explicitlyrestrictedattacktargettype>
+    <explicitlyrestrictedattacktargettype>Unattackable</explicitlyrestrictedattacktargettype>
+    <explicitlyrestrictedattacktargettype>Projectile</explicitlyrestrictedattacktargettype>
+    <explicitlyrestrictedattacktargettype>AbstractVillager</explicitlyrestrictedattacktargettype>
+    <explicitlyrestrictedattacktargettype>HotAirBalloon</explicitlyrestrictedattacktargettype>
+    <explicitlyrestrictedattacktargettype>xpAdvancedBalloon</explicitlyrestrictedattacktargettype>
+    <unitaction>Convert</unitaction>
+    <startsoundset>UI_WarChiefConverted</startsoundset>
+    <allowduringnorush>0</allowduringnorush>
+  </power>
+  <power name="PowerCondorEye" type="UnitAction">
+    <displaynameid>80557</displaynameid>
+    <rolloverid>80558</rolloverid>
+    <icon>resources\images\icons\abilities\condor_eye.png</icon>
+    <minimapeventtime sendalertto="player">1</minimapeventtime>
+    <activetime>8</activetime>
+    <radius>5.0</radius>
+    <placement forceonmap="1" enemy="" allowgaia="">unit</placement>
+    <abstractattacktargettype>LogicalTypeValidSharpshoot</abstractattacktargettype>
+    <explicitlyrestrictedattacktargettype>WaterGuardian</explicitlyrestrictedattacktargettype>
+    <unitaction>CrackshotAttack</unitaction>
+  </power>
+  <power name="dePowerSwashbucklerJackson" type="UnitAction">
+    <displaynameid>80680</displaynameid>
+    <rolloverid>80681</rolloverid>
+    <icon>resources\images\icons\abilities\ability_swashbuckler_jackson.png</icon>
+    <minimapeventtime sendalertto="player">1</minimapeventtime>
+    <activetime>8</activetime>
+    <radius>5.0</radius>
+    <placement forceonmap="1" enemy="" allowgaia="">unit</placement>
+    <abstractattacktargettype>All</abstractattacktargettype>
+    <explicitlyrestrictedattacktargettype>WaterGuardian</explicitlyrestrictedattacktargettype>
+    <unitaction>SwashbucklerAttack</unitaction>
+  </power>
+  <power name="dePowerSwashbucklerOruc" type="UnitAction">
+    <displaynameid>80669</displaynameid>
+    <rolloverid>34136</rolloverid>
+    <icon>resources\images\icons\abilities\ability_swashbuckler_oruc.png</icon>
+    <minimapeventtime sendalertto="player">1</minimapeventtime>
+    <activetime>8</activetime>
+    <radius>5.0</radius>
+    <placement forceonmap="1" enemy="" allowgaia="">unit</placement>
+    <abstractattacktargettype>All</abstractattacktargettype>
+    <explicitlyrestrictedattacktargettype>WaterGuardian</explicitlyrestrictedattacktargettype>
+    <unitaction>SwashbucklerAttack</unitaction>
+  </power>
+  <power name="dePowerStrikeOruc" type="UnitAction">
+    <displaynameid>80670</displaynameid>
+    <rolloverid>80671</rolloverid>
+    <icon>resources\images\icons\abilities\ability_lightning_kilij.png</icon>
+    <minimapeventtime sendalertto="player">1</minimapeventtime>
+    <activetime>8</activetime>
+    <radius>5.0</radius>
+    <placement forceonmap="1" enemy="" allowgaia="">unit</placement>
+    <abstractattacktargettype>All</abstractattacktargettype>
+    <explicitlyrestrictedattacktargettype>WaterGuardian</explicitlyrestrictedattacktargettype>
+    <unitaction>HeavyHandAttack</unitaction>
+    <startsoundset>PowerCriticalStrike</startsoundset>
+  </power>
+  <power name="dePowerStrikeYermak" type="UnitAction">
+    <displaynameid>80672</displaynameid>
+    <rolloverid>80673</rolloverid>
+    <icon>resources\images\icons\abilities\ability_bulava.png</icon>
+    <minimapeventtime sendalertto="player">1</minimapeventtime>
+    <activetime>8</activetime>
+    <radius>5.0</radius>
+    <placement forceonmap="1" enemy="" allowgaia="">unit</placement>
+    <abstractattacktargettype>All</abstractattacktargettype>
+    <explicitlyrestrictedattacktargettype>WaterGuardian</explicitlyrestrictedattacktargettype>
+    <unitaction>HeavyHandAttack</unitaction>
+    <startsoundset>PowerCriticalStrike</startsoundset>
+  </power>
+  <power name="dePowerGrapeshot" type="UnitAction">
+    <displaynameid>80674</displaynameid>
+    <rolloverid>80675</rolloverid>
+    <icon>resources\images\icons\abilities\ability_grapeshot.png</icon>
+    <minimapeventtime sendalertto="player">1</minimapeventtime>
+    <activetime>8</activetime>
+    <radius>5.0</radius>
+    <placement forceonmap="1" enemy="" allowgaia="">unit</placement>
+    <abstractattacktargettype>LogicalTypeValidSharpshoot</abstractattacktargettype>
+    <unitaction>GrapeshotAttack</unitaction>
+  </power>
+  <power name="dePowerAttackBoost" type="AttackBlessing">
+    <displaynameid>80676</displaynameid>
+    <rolloverid>80677</rolloverid>
+    <icon>resources\images\icons\abilities\ability_elan.png</icon>
+    <minimapeventtime sendalertto="none">1</minimapeventtime>
+    <activetime>15</activetime>
+    <effect type="Damage" relativity="BasePercent" amount="1.25">
+      <target type="ProtoUnit">LogicalTypeLandMilitary</target>
+    </effect>
+    <placement forceonmap="1" ally="">full</placement>
+    <allowduringnorush>1</allowduringnorush>
+    <soundset type="StartSound" listenertype="Caster">PowerInspiration</soundset>
+  </power>
+  <power name="dePowerHitpointsBoost" type="AttackBlessing">
+    <displaynameid>80678</displaynameid>
+    <rolloverid>80679</rolloverid>
+    <forceshowrollover>true</forceshowrollover>
+    <icon>resources\images\icons\abilities\ability_old_hickory.png</icon>
+    <minimapeventtime sendalertto="none">1</minimapeventtime>
+    <activetime>15</activetime>
+    <effect type="HitPoints" relativity="BasePercent" amount="1.25">
+      <target type="ProtoUnit">LogicalTypeLandMilitary</target>
+    </effect>
+    <placement forceonmap="1" ally="">full</placement>
+    <allowduringnorush>1</allowduringnorush>
+    <soundset type="StartSound" listenertype="Caster">PowerInspiration</soundset>
+  </power>
+  <power name="dePowerFalconDive" type="UnitAction">
+    <displaynameid>80668</displaynameid>
+    <rolloverid>66044</rolloverid>
+    <icon>resources\images\icons\abilities\ability_snipe.png</icon>
+    <minimapeventtime sendalertto="player">1</minimapeventtime>
+    <activetime>8</activetime>
+    <radius>5.0</radius>
+    <placement forceonmap="1" enemy="" allowgaia="">unit</placement>
+    <abstractattacktargettype>LogicalTypeValidSharpshoot</abstractattacktargettype>
+    <explicitlyrestrictedattacktargettype>WaterGuardian</explicitlyrestrictedattacktargettype>
+    <unitaction>CrackshotAttack</unitaction>
+  </power>
+  <power name="dePowerHeavyStrike" type="UnitAction">
+    <displaynameid>91665</displaynameid>
+    <rolloverid>91666</rolloverid>
+    <icon>resources\images\icons\abilities\ability_heavy_strike.png</icon>
+    <minimapeventtime sendalertto="player">1</minimapeventtime>
+    <activetime>8</activetime>
+    <radius>5.0</radius>
+    <placement forceonmap="1" enemy="" allowgaia="">unit</placement>
+    <abstractattacktargettype>LogicalTypeValidSharpshoot</abstractattacktargettype>
+    <explicitlyrestrictedattacktargettype>WaterGuardian</explicitlyrestrictedattacktargettype>
+    <unitaction>HeavyHandAttack</unitaction>
+    <startsoundset>PowerCriticalStrike</startsoundset>
+  </power>
+  <power name="PowerHealSwedish" type="UnitAction">
+    <displaynameid>70549</displaynameid>
+    <rolloverid>35604</rolloverid>
+    <icon>resources\images\icons\abilities\ability_heal.png</icon>
+    <minimapeventtime sendalertto="player">1</minimapeventtime>
+    <activetime>8</activetime>
+    <radius>10.0</radius>
+    <placement forceonmap="1" ally="">full</placement>
+    <abstractattacktargettype>LogicalTypeHealed</abstractattacktargettype>
+    <rangeindicatorprotoid radius="10.0" indicatorcount="8" speed="0.6">PowerRanger</rangeindicatorprotoid>
+    <unitaction>Heal</unitaction>
+    <hitpointstoheal>400</hitpointstoheal>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="PowerHealRussian" type="UnitAction">
+    <displaynameid>35605</displaynameid>
+    <rolloverid>35604</rolloverid>
+    <icon>resources\images\icons\abilities\ability_heal.png</icon>
+    <minimapeventtime sendalertto="player">1</minimapeventtime>
+    <activetime>8</activetime>
+    <radius>10.0</radius>
+    <placement forceonmap="1" ally="">full</placement>
+    <abstractattacktargettype>LogicalTypeHealed</abstractattacktargettype>
+    <rangeindicatorprotoid radius="10.0" indicatorcount="8" speed="0.6">PowerRanger</rangeindicatorprotoid>
+    <unitaction>Heal</unitaction>
+    <hitpointstoheal>400</hitpointstoheal>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="PowerBerserk" type="UnitAction">
+    <displaynameid>72459</displaynameid>
+    <rolloverid>72460</rolloverid>
+    <icon>resources\images\icons\abilities\ability_berserk.png</icon>
+    <minimapeventtime sendalertto="player">1</minimapeventtime>
+    <activetime>8</activetime>
+    <radius>5.0</radius>
+    <placement forceonmap="1" enemy="" allowgaia="">unit</placement>
+    <abstractattacktargettype>Guardian</abstractattacktargettype>
+    <explicitlyrestrictedattacktargettype>WaterGuardian</explicitlyrestrictedattacktargettype>
+    <explicitlyrestrictedattacktargettype>LogicalTypeImmuneToSharpshoot</explicitlyrestrictedattacktargettype>
+    <unitaction>BerserkAttack</unitaction>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="PowerRecruitGuardian" type="UnitAction">
+    <displaynameid>72463</displaynameid>
+    <rolloverid>72464</rolloverid>
+    <icon>resources\images\icons\abilities\recruit_guardian.png</icon>
+    <minimapeventtime sendalertto="player">1</minimapeventtime>
+    <activetime>8</activetime>
+    <radius>5.0</radius>
+    <placement forceonmap="1" enemy="" allowgaia="" gaiaonly="">unit</placement>
+    <abstractattacktargettype>Guardian</abstractattacktargettype>
+    <explicitlyrestrictedattacktargettype>WaterGuardian</explicitlyrestrictedattacktargettype>
+    <explicitlyrestrictedattacktargettype>AnimalGuardian</explicitlyrestrictedattacktargettype>
+    <unitaction>RecruitGuardian</unitaction>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="dePowerMorningStar" type="Informers">
+    <displaynameid>45423</displaynameid>
+    <rolloverid>45422</rolloverid>
+    <msgenemystringid>79893</msgenemystringid>
+    <msgselfstringid>79895</msgselfstringid>
+    <msgallystringid>79894</msgallystringid>
+    <icon>resources\images\icons\abilities\ability_informers.png</icon>
+    <minimapeventtime sendalertto="none">1</minimapeventtime>
+    <activetime>20</activetime>
+    <effect type="SharedLOS">
+      <target type="General">
+      </target>
+    </effect>
+    <placement forceonmap="1" ally="">full</placement>
+    <allowduringnorush>1</allowduringnorush>
+    <startsoundset>PowerInformers</startsoundset>
+  </power>
+  <power name="dePowerAscension" type="UnitAction">
+    <displaynameid>79908</displaynameid>
+    <rolloverid>79909</rolloverid>
+    <icon>resources\images\icons\abilities\ability_cuachic_ascension.png</icon>
+    <minimapeventtime sendalertto="player">1</minimapeventtime>
+    <activetime>13</activetime>
+    <radius>5.0</radius>
+    <placement forceonmap="1" enemy="" allowgaia="">unit</placement>
+    <auxiliarypower>dePowerAscensionAux</auxiliarypower>
+    <auxiliarypowertargettype>self</auxiliarypowertargettype>
+    <abstractattacktargettype>Guardian</abstractattacktargettype>
+    <explicitlyrestrictedattacktargettype>WaterGuardian</explicitlyrestrictedattacktargettype>
+    <explicitlyrestrictedattacktargettype>LogicalTypeImmuneToSharpshoot</explicitlyrestrictedattacktargettype>
+    <unitaction>GuardianSweepAttack</unitaction>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="deCaroleanCharge" type="GeneralEffect">
+    <displaynameid>91821</displaynameid>
+    <rolloverid>91822</rolloverid>
+    <timerrolloverid>91823</timerrolloverid>
+    <icon>resources\images\icons\abilities\ability_carolean_charge_lrg.png</icon>
+    <minimapeventtime sendalertto="none">1</minimapeventtime>
+    <activetime>8</activetime>
+    <effect type="MaximumVelocity" relativity="Absolute" amount="1">
+      <target type="ProtoUnit">deCarolean</target>
+    </effect>
+    <effect type="ForceSquadMode" squadmode="InfantryMelee" relativity="Assign" amount="1">
+      <target type="ProtoUnit">deCarolean</target>
+    </effect>
+    <messagealertplayerrelation>none</messagealertplayerrelation>
+    <placement forceonmap="1" ally="">unit</placement>
+    <allowduringnorush>1</allowduringnorush>
+    <startsoundset>BattlecryMedium</startsoundset>
+  </power>
+  <power name="deNizamCharge" type="GeneralEffect">
+    <displaynameid>91825</displaynameid>
+    <rolloverid>91826</rolloverid>
+    <timerrolloverid>91824</timerrolloverid>
+    <icon>resources\images\icons\abilities\ability_bayonet_charge_lrg.png</icon>
+    <minimapeventtime sendalertto="none">1</minimapeventtime>
+    <activetime>8</activetime>
+    <effect type="MaximumVelocity" relativity="Absolute" amount="1">
+      <target type="ProtoUnit">deNizam</target>
+    </effect>
+    <effect type="ForceSquadMode" squadmode="InfantryMelee" relativity="Assign" amount="1">
+      <target type="ProtoUnit">deNizam</target>
+    </effect>
+    <messagealertplayerrelation>none</messagealertplayerrelation>
+    <placement forceonmap="1" ally="">unit</placement>
+    <allowduringnorush>1</allowduringnorush>
+    <startsoundset>BattlecryMedium</startsoundset>
+  </power>
+  <power name="dePowerAscensionAux" type="GeneralEffect">
+    <displaynameid>79908</displaynameid>
+    <rolloverid>79909</rolloverid>
+    <timerrolloverid>91839</timerrolloverid>
+    <icon>resources\images\icons\abilities\ability_cuachic_ascension.png</icon>
+    <minimapeventtime sendalertto="none">1</minimapeventtime>
+    <activetime>13</activetime>
+    <effect type="RateOfFire" action="HandAttack" relativity="Absolute" amount="-0.30">
+      <target type="ProtoUnit">xpAztecWarchief</target>
+    </effect>
+    <messagealertplayerrelation>none</messagealertplayerrelation>
+    <placement forceonmap="1">LOSDontCare</placement>
+    <allowduringnorush>1</allowduringnorush>
+    <isauxiliarypower>1</isauxiliarypower>
+    <startsoundset>GeneralKichiro7Spears</startsoundset>
+  </power>
+  <power name="deUSLevyMinutemen" type="GeneralEffect">
+    <placement forceonmap="1">LOSDontCare</placement>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="deChargeAbilitySwashbuckler" type="GeneralEffect">
+    <displaynameid>110083</displaynameid>
+    <rolloverid>110084</rolloverid>
+    <icon>resources\images\icons\abilities\passive_oberhau.png</icon>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="deChargeAbilityBuckshot" type="GeneralEffect">
+    <displaynameid>110086</displaynameid>
+    <rolloverid>110087</rolloverid>
+    <icon>resources\images\icons\abilities\passive_buckshot.png</icon>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="deChargeAbilityQuickdraw" type="GeneralEffect">
+    <displaynameid>110089</displaynameid>
+    <rolloverid>110090</rolloverid>
+    <icon>resources\images\icons\abilities\passive_gunslinger_quick_draw.png</icon>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="deChargeAbilityCarbine" type="GeneralEffect">
+    <displaynameid>110172</displaynameid>
+    <rolloverid>110173</rolloverid>
+    <icon>resources\images\icons\abilities\passive_carbine_shot.png</icon>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="deChargeAbilityHeavyStrike" type="GeneralEffect">
+    <displaynameid>110175</displaynameid>
+    <rolloverid>110176</rolloverid>
+    <icon>resources\images\icons\abilities\passive_heavy_strike.png</icon>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="deAbilityInspiringFlag" type="TempUnit">
+    <displaynameid>110177</displaynameid>
+    <rolloverid>110178</rolloverid>
+    <icon>resources\images\icons\abilities\ability_inspiring_flag_us.png</icon>
+    <minimapeventtime sendalertto="ally">1</minimapeventtime>
+    <activetime>5</activetime>
+    <createunit quantity="1" radius="0" delay="0.0" permanent="" singleinstance="">deInspiringFlag</createunit>
+    <placement forceonmap="1">full</placement>
+    <rangeindicatorprotoid radius="24.0" indicatorcount="16" speed="0.6">PowerRanger</rangeindicatorprotoid>
+    <allowduringnorush>1</allowduringnorush>
+    <displayplacementruleserrors>1</displayplacementruleserrors>
+    <alwaysaddtoplayer>1</alwaysaddtoplayer>
+  </power>
+  <power name="deChargeAbilityBullsEye" type="GeneralEffect">
+    <displaynameid>110470</displaynameid>
+    <rolloverid>110636</rolloverid>
+    <icon>resources\images\icons\abilities\passive_cowboy_rifle.png</icon>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="dePowerUSExpedition" type="Informers">
+    <displaynameid>110502</displaynameid>
+    <rolloverid>110501</rolloverid>
+    <msgenemystringid>110501</msgenemystringid>
+    <msgselfstringid>110503</msgselfstringid>
+    <msgallystringid>110502</msgallystringid>
+    <icon>resources\images\icons\abilities\ability_informers.png</icon>
+    <minimapeventtime sendalertto="none">1</minimapeventtime>
+    <activetime>20</activetime>
+    <effect type="SharedLOS">
+      <target type="General">
+      </target>
+    </effect>
+    <placement forceonmap="1" ally="">full</placement>
+    <allowduringnorush>1</allowduringnorush>
+    <startsoundset>PowerInformers</startsoundset>
+  </power>
+  <power name="deChargeAbilityBroadside" type="GeneralEffect">
+    <displaynameid>32910</displaynameid>
+    <rolloverid>110530</rolloverid>
+    <icon>resources\images\icons\abilities\passive_broadside.png</icon>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="dePowerBlock" type="Dodge">
+    <displaynameid>110544</displaynameid>
+    <rolloverid>110545</rolloverid>
+    <icon>resources\images\icons\abilities\passive_block_ironclad.png</icon>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="deChargeAbilityObsidian" type="GeneralEffect">
+    <displaynameid>110556</displaynameid>
+    <rolloverid>110557</rolloverid>
+    <icon>resources\images\icons\abilities\passive_obsidian_storm.png</icon>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="deFullSteam" type="GeneralEffect">
+    <displaynameid>110558</displaynameid>
+    <rolloverid>110559</rolloverid>
+    <icon>resources\images\icons\abilities\ability_full_steam.png</icon>
+    <minimapeventtime sendalertto="none">1</minimapeventtime>
+    <activetime>8</activetime>
+    <effect type="MaximumVelocity" relativity="Percent" amount="1.40">
+      <target type="ProtoUnit">deSteamer</target>
+    </effect>
+    <messagealertplayerrelation>none</messagealertplayerrelation>
+    <placement forceonmap="1" ally="">unit</placement>
+    <allowduringnorush>1</allowduringnorush>
+    <soundset type="StartSound" listenertype="Caster">DEPowerFullSteam</soundset>
+  </power>
+  <power name="deChargeAbilityEagleEye" type="GeneralEffect">
+    <displaynameid>110582</displaynameid>
+    <rolloverid>110583</rolloverid>
+    <icon>resources\images\icons\abilities\passive_eagle_eye.png</icon>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="deUnitHealthRegen" type="UnitAction">
+    <displaynameid>49283</displaynameid>
+    <rolloverid>49257</rolloverid>
+    <icon>\resources\images\icons\abilities\tech_passive_regenerate_health.png</icon>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="deAztecPassiveAbility" type="UnitAction">
+    <displaynameid>49885</displaynameid>
+    <rolloverid>49886</rolloverid>
+    <icon>\resources\images\icons\abilities\tech_passive_aztec_ability.png</icon>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="deLakotaPassiveAbility" type="UnitAction">
+    <displaynameid>49885</displaynameid>
+    <rolloverid>49887</rolloverid>
+    <icon>\resources\images\icons\abilities\tech_passive_lakota_ability.png</icon>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="deIncaPassiveAbility" type="UnitAction">
+    <displaynameid>49885</displaynameid>
+    <rolloverid>49888</rolloverid>
+    <icon>\resources\images\icons\abilities\tech_passive_inca_ability.png</icon>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="deHaudenosauneePassiveAbility" type="UnitAction">
+    <displaynameid>49885</displaynameid>
+    <rolloverid>49889</rolloverid>
+    <icon>\resources\images\icons\abilities\tech_passive_haudenosaunee_ability.png</icon>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="dePowerChaosPlayer" type="TempUnit">
+    <displaynameid>101093</displaynameid>
+    <rolloverid>101094</rolloverid>
+    <icon>resources\images\icons\abilities\ability_chaos.png</icon>
+    <minimapeventtime sendalertto="none">1</minimapeventtime>
+    <activetime>30</activetime>
+    <radius>10.0</radius>
+    <placement forceonmap="1" ally="">full</placement>
+    <createunit quantity="1" radius="0" delay="0.0" chaos="1">deChaosToken</createunit>
+    <rangeindicatorprotoid radius="10.0" indicatorcount="8" speed="0.6">PowerRanger</rangeindicatorprotoid>
+    <allowduringnorush>1</allowduringnorush>
+    <messagealertplayerrelation>player</messagealertplayerrelation>
+    <alwaysaddtoplayer>1</alwaysaddtoplayer>
+  </power>
+  <power name="dePowerChaos" type="UnitAction">
+    <displaynameid>101093</displaynameid>
+    <rolloverid>101094</rolloverid>
+    <icon>resources\images\icons\abilities\ability_chaos.png</icon>
+    <minimapeventtime sendalertto="none">1</minimapeventtime>
+    <activetime>30</activetime>
+    <radius>10.0</radius>
+    <placement forceonmap="1" enemy="" allowgaia="">full</placement>
+    <unitaction>Chaos</unitaction>
+    <castingpower>dePowerChaosPlayer</castingpower>
+    <rangeindicatorprotoid radius="10.0" indicatorcount="8" speed="0.6">PowerRanger</rangeindicatorprotoid>
+    <allowduringnorush>1</allowduringnorush>
+    <messagealertplayerrelation>player</messagealertplayerrelation>
+    <alwaysaddtoplayer>1</alwaysaddtoplayer>
+    <forceglobalcooldown>1</forceglobalcooldown>
+  </power>
+  <power name="deAttackSpeedBoost" type="GeneralEffect">
+    <displaynameid>101403</displaynameid>
+    <rolloverid>101404</rolloverid>
+    <icon>resources\images\icons\abilities\ability_tewodros.png</icon>
+    <minimapeventtime sendalertto="none">1</minimapeventtime>
+    <activetime>15</activetime>
+    <effect type="ActionEnable" action="FireCommand">
+      <target type="ProtoUnit">deSPCKassaHailu</target>
+    </effect>
+    <placement forceonmap="1" ally="">full</placement>
+    <startsoundset>LionMove</startsoundset>
+  </power>
+  <power name="deSpeedBoost" type="GeneralEffect">
+    <displaynameid>101512</displaynameid>
+    <rolloverid>101513</rolloverid>
+    <icon>resources\images\icons\abilities\ability_mansur.png</icon>
+    <minimapeventtime sendalertto="none">1</minimapeventtime>
+    <activetime>9</activetime>
+    <effect type="ActionEnable" action="SpeedAura">
+      <target type="ProtoUnit">deSPCMansur</target>
+    </effect>
+    <placement forceonmap="1" ally="">full</placement>
+    <startsoundset>UI_Select_Building_WatchTower</startsoundset>
+  </power>
+  <power name="dePowerDodgeEthiopian" type="Dodge">
+    <displaynameid>66381</displaynameid>
+    <rolloverid>66382</rolloverid>
+    <icon>resources\images\icons\abilities\passive_dodge_ethiopian.png</icon>
+    <allowduringnorush>1</allowduringnorush>
+    <startsoundset>PowerEvade</startsoundset>
+  </power>
+  <power name="deChargeAbilityBerberMusket" type="GeneralEffect">
+    <displaynameid>102628</displaynameid>
+    <rolloverid>102629</rolloverid>
+    <icon>resources\images\icons\abilities\passive_fantasia.png</icon>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="deNatSomaliLighthouse" type="GeneralEffect">
+    <timerrolloverid>102702</timerrolloverid>
+    <displaynameid>102704</displaynameid>
+    <rolloverid>102701</rolloverid>
+    <icon>resources\images\icons\abilities\ability_lighthouse.png</icon>
+    <minimapeventtime sendalertto="all">1</minimapeventtime>
+    <activetime>10</activetime>
+    <effect type="EnemyAttachProtoUnit" attachprotounit="deSomaliLighthouseRevealer" unittype="AbstractDock">
+      <target type="Player">
+      </target>
+    </effect>
+    <effect type="EnemyAttachProtoUnit" attachprotounit="deSomaliLighthouseRevealer" unittype="TradingPost">
+      <target type="Player">
+      </target>
+    </effect>
+    <effect type="EnemyAttachProtoUnit" attachprotounit="deSomaliLighthouseRevealer" unittype="Outpost">
+      <target type="Player">
+      </target>
+    </effect>
+    <effect type="EnemyAttachProtoUnit" attachprotounit="deSomaliLighthouseRevealer" unittype="FortFrontier">
+      <target type="Player">
+      </target>
+    </effect>
+    <effect type="EnemyAttachProtoUnit" attachprotounit="deSomaliLighthouseRevealer" unittype="Blockhouse">
+      <target type="Player">
+      </target>
+    </effect>
+    <effect type="EnemyAttachProtoUnit" attachprotounit="deSomaliLighthouseRevealer" unittype="WarHut">
+      <target type="Player">
+      </target>
+    </effect>
+    <effect type="EnemyAttachProtoUnit" attachprotounit="deSomaliLighthouseRevealer" unittype="NoblesHut">
+      <target type="Player">
+      </target>
+    </effect>
+    <effect type="EnemyAttachProtoUnit" attachprotounit="deSomaliLighthouseRevealer" unittype="deIncaStronghold">
+      <target type="Player">
+      </target>
+    </effect>
+    <effect type="EnemyAttachProtoUnit" attachprotounit="deSomaliLighthouseRevealer" unittype="ypCastle">
+      <target type="Player">
+      </target>
+    </effect>
+    <effect type="EnemyAttachProtoUnit" attachprotounit="deSomaliLighthouseRevealer" unittype="deTower">
+      <target type="Player">
+      </target>
+    </effect>
+    <effect type="EnemyAttachProtoUnit" attachprotounit="deSomaliLighthouseRevealer" unittype="dePalace">
+      <target type="Player">
+      </target>
+    </effect>
+    <effect type="EnemyAttachProtoUnit" attachprotounit="deSomaliLighthouseRevealer" unittype="Ship">
+      <target type="Player">
+      </target>
+    </effect>
+    <messagealertplayerrelation>none</messagealertplayerrelation>
+    <placement forceonmap="1" ally="">unit</placement>
+    <allowduringnorush>1</allowduringnorush>
+    <startsoundset>UI_Select_Building_Firepit</startsoundset>
+    <alwaysaddtoplayer>1</alwaysaddtoplayer>
+  </power>
+  <power name="deHausaRevealMines" type="GeneralEffect">
+    <timerrolloverid>103391</timerrolloverid>
+    <minimapeventtime sendalertto="all">1</minimapeventtime>
+    <activetime>180</activetime>
+    <effect type="EnemyAttachProtoUnit" attachprotounit="deHausaMineRevealer" unittype="MinedResource" includegaia="1">
+      <target type="Player">
+      </target>
+    </effect>
+    <effect type="EnemyAttachProtoUnit" attachprotounit="deHausaMineRevealer" unittype="AbstractWhale" includegaia="1">
+      <target type="Player">
+      </target>
+    </effect>
+    <messagealertplayerrelation>none</messagealertplayerrelation>
+    <placement forceonmap="1" ally="">unit</placement>
+    <allowduringnorush>1</allowduringnorush>
+    <startsoundset>PowerInformers</startsoundset>
+    <alwaysaddtoplayer>1</alwaysaddtoplayer>
+  </power>
+  <power name="deSphereOfInfluence" type="UnitAction">
+    <displaynameid>103120</displaynameid>
+    <rolloverid>103121</rolloverid>
+    <icon>resources\images\icons\techs\africans\hausa\tech_passive_university_aura.png</icon>
+  </power>
+  <power name="deGranaryAura" type="UnitAction">
+    <displaynameid>103133</displaynameid>
+    <rolloverid>103135</rolloverid>
+    <icon>resources\images\icons\techs\africans\tech_passive_granary_aura.png</icon>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="deRockChurch" type="UnitAction">
+    <displaynameid>103126</displaynameid>
+    <rolloverid>103131</rolloverid>
+    <icon>resources\images\icons\techs\africans\ethiopians\tech_passive_monastery_aura.png</icon>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="deAllegianceSonghaiLevyRaiders" type="GeneralEffect">
+    <placement forceonmap="1">LOSDontCare</placement>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="dePowerHausaSabotageAux" type="SingleModify">
+    <displaynameid>103421</displaynameid>
+    <rolloverid>103422</rolloverid>
+    <icon>resources\images\icons\abilities\ability_tsetse.png</icon>
+    <minimapeventtime sendalertto="all">1</minimapeventtime>
+    <activetime>40</activetime>
+    <unitmodify amount="0.25" apply="multiply" nostackignorepuid="">BuildingWorkRate</unitmodify>
+    <modelattachment>units\attachments\stun_stars.xml</modelattachment>
+    <modelattachmentbone>hitpointbar</modelattachmentbone>
+    <powerplayerrelation>enemy</powerplayerrelation>
+    <abstractattacktargettype>MilitaryBuilding</abstractattacktargettype>
+    <placement forceonmap="1" enemy="">unit</placement>
+    <alwaysaddtoplayer>1</alwaysaddtoplayer>
+  </power>
+  <power name="dePowerLongRangeCannonBoat" type="UnitAction">
+    <displaynameid>34137</displaynameid>
+    <rolloverid>103431</rolloverid>
+    <icon>resources\images\icons\command\mode_bombard.png</icon>
+    <minimapeventtime sendalertto="all">1</minimapeventtime>
+    <activetime>5</activetime>
+    <radius>10.0</radius>
+    <placement forceonmap="1" enemy="" allowgaia="">unit</placement>
+    <abstractattacktargettype>LogicalTypeRangedUnitsAttack</abstractattacktargettype>
+    <unitaction>LongRangeAttack</unitaction>
+  </power>
+  <power name="deFealtyAura" type="UnitAction">
+    <displaynameid>101445</displaynameid>
+    <rolloverid>101450</rolloverid>
+    <icon>resources\images\icons\abilities\tech_passive_fealty_aura.png</icon>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="deAttackSpeedBoostPrince" type="GeneralEffect">
+    <displaynameid>101403</displaynameid>
+    <rolloverid>103436</rolloverid>
+    <icon>resources\images\icons\abilities\ability_tewodros.png</icon>
+    <minimapeventtime sendalertto="none">1</minimapeventtime>
+    <activetime>15</activetime>
+    <effect type="ActionEnable" action="RoarROF">
+      <target type="ProtoUnit">dePrince</target>
+    </effect>
+    <effect type="ActionEnable" action="RoarSpeed">
+      <target type="ProtoUnit">dePrince</target>
+    </effect>
+    <effect type="ActionEnable" action="RoarROF">
+      <target type="ProtoUnit">dePrince2</target>
+    </effect>
+    <effect type="ActionEnable" action="RoarSpeed">
+      <target type="ProtoUnit">dePrince2</target>
+    </effect>
+    <placement forceonmap="1" ally="">full</placement>
+    <startsoundset>LionMove</startsoundset>
+    <alwaysaddtoplayer>1</alwaysaddtoplayer>
+  </power>
+  <power name="dePowerChaosEnemyPlayer" type="TempUnit">
+    <displaynameid>101559</displaynameid>
+    <rolloverid>101560</rolloverid>
+    <icon>resources\images\icons\techs\africans\ethiopians\era_chaos.png</icon>
+    <minimapeventtime sendalertto="all">1</minimapeventtime>
+    <activetime>5</activetime>
+    <radius>3.0</radius>
+    <placement forceonmap="1" ally="">full</placement>
+    <createunit quantity="1" radius="0" delay="0.0" chaos="1">deEraOfChaosToken</createunit>
+    <rangeindicatorprotoid radius="3.0" indicatorcount="8" speed="0.6">PowerRanger</rangeindicatorprotoid>
+    <allowduringnorush>0</allowduringnorush>
+    <alwaysaddtoplayer>1</alwaysaddtoplayer>
+  </power>
+  <power name="dePowerChaosEnemy" type="UnitAction">
+    <displaynameid>101559</displaynameid>
+    <rolloverid>101560</rolloverid>
+    <icon>resources\images\icons\abilities\ability_mayhem.png</icon>
+    <minimapeventtime sendalertto="all">1</minimapeventtime>
+    <activetime>5</activetime>
+    <radius>3.0</radius>
+    <placement forceonmap="1" enemy="" allowgaia="">full</placement>
+    <unitaction>EnemyChaos</unitaction>
+    <castingpower>dePowerChaosEnemyPlayer</castingpower>
+    <rangeindicatorprotoid radius="3.0" indicatorcount="8" speed="0.6">PowerRanger</rangeindicatorprotoid>
+    <allowduringnorush>0</allowduringnorush>
+    <alwaysaddtoplayer>1</alwaysaddtoplayer>
+    <forceglobalcooldown>1</forceglobalcooldown>
+  </power>
+  <power name="deFealtyAuraBerbers" type="UnitAction">
+    <displaynameid>101445</displaynameid>
+    <rolloverid>101476</rolloverid>
+    <icon>resources\images\icons\abilities\tech_passive_fealty_aura.png</icon>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="deFealtyAuraAkan" type="UnitAction">
+    <displaynameid>101445</displaynameid>
+    <rolloverid>101487</rolloverid>
+    <icon>resources\images\icons\abilities\tech_passive_fealty_aura.png</icon>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="dePowerHausaSabotage" type="UnitAction">
+    <displaynameid>103421</displaynameid>
+    <rolloverid>103422</rolloverid>
+    <icon>resources\images\icons\abilities\ability_tsetse.png</icon>
+    <minimapeventtime sendalertto="player">1</minimapeventtime>
+    <activetime>40</activetime>
+    <powerplayerrelation>enemy</powerplayerrelation>
+    <abstractattacktargettype>MilitaryBuilding</abstractattacktargettype>
+    <placement forceonmap="1" enemy="">unit</placement>
+    <unitaction>HausaSabotage</unitaction>
+    <castingpower>dePowerHausaSabotageAux</castingpower>
+    <alwaysaddtoplayer>1</alwaysaddtoplayer>
+    <forceglobalcooldown>1</forceglobalcooldown>
+  </power>
+  <power name="deChimuManeuver" type="GeneralEffect">
+    <displaynameid>80579</displaynameid>
+    <rolloverid>80580</rolloverid>
+    <timerrolloverid>80581</timerrolloverid>
+    <icon>resources\images\icons\abilities\ability_chimu_maneuver_lrg.png</icon>
+    <minimapeventtime sendalertto="none">1</minimapeventtime>
+    <activetime>8</activetime>
+    <effect type="MaximumVelocity" relativity="Absolute" amount="1">
+      <target type="ProtoUnit">deIncaRunner</target>
+    </effect>
+    <effect type="CantBeSlowed">
+      <target type="ProtoUnit">deIncaRunner</target>
+    </effect>
+    <effect type="CannotSnare">
+      <target type="ProtoUnit">deIncaRunner</target>
+    </effect>
+    <effect type="BaseSpeedRunAnim">
+      <target type="ProtoUnit">deIncaRunner</target>
+    </effect>
+    <messagealertplayerrelation>none</messagealertplayerrelation>
+    <placement forceonmap="1" ally="">unit</placement>
+    <allowduringnorush>1</allowduringnorush>
+    <startsoundset>BattlecryMedium</startsoundset>
+  </power>
+  <power name="deAbilityInspiringFlagMexican" type="TempUnit">
+    <displaynameid>110177</displaynameid>
+    <rolloverid>112006</rolloverid>
+    <icon>resources\images\icons\abilities\ability_inspiring_flag_mx.png</icon>
+  </power>
+  <power name="deChargeAbilityStun" type="GeneralEffect">
+    <displaynameid>112092</displaynameid>
+    <rolloverid>112093</rolloverid>
+    <icon>resources\images\icons\abilities\passive_lenape_warcry.png</icon>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="deAbilityInspiringFlagCanada" type="TempUnit">
+    <displaynameid>110177</displaynameid>
+    <rolloverid>112148</rolloverid>
+    <icon>resources\images\icons\abilities\ability_inspiring_flag_canada.png</icon>
+    <minimapeventtime sendalertto="ally">1</minimapeventtime>
+    <activetime>5</activetime>
+    <createunit quantity="1" radius="0" delay="0.0" permanent="" singleinstance="">deInspiringFlag</createunit>
+    <placement forceonmap="1">full</placement>
+    <rangeindicatorprotoid radius="24.0" indicatorcount="16" speed="0.6">PowerRanger</rangeindicatorprotoid>
+    <allowduringnorush>1</allowduringnorush>
+    <displayplacementruleserrors>1</displayplacementruleserrors>
+  </power>
+  <power name="deBigStealth" type="GeneralEffect">
+    <displaynameid>112150</displaynameid>
+    <rolloverid>112151</rolloverid>
+    <timerrolloverid>112152</timerrolloverid>
+    <icon>resources\images\icons\abilities\ability_temp_stealth_infantry.png</icon>
+    <minimapeventtime sendalertto="none">1</minimapeventtime>
+    <activetime>7</activetime>
+    <effect type="ActionEnable" action="AutoStealth">
+      <target type="ProtoUnit">deEmboscador</target>
+    </effect>
+    <effect type="ForbidSquadMode" squadmode="Stealth" relativity="Assign" amount="1">
+      <target type="ProtoUnit">deEmboscador</target>
+    </effect>
+    <placement forceonmap="1" ally="">full</placement>
+    <startsoundset>UI_Stealth</startsoundset>
+    <alwaysaddtoplayer>1</alwaysaddtoplayer>
+  </power>
+  <power name="deSPCBarbaryFlag" type="SelfModify">
+    <displaynameid>112165</displaynameid>
+    <rolloverid>112166</rolloverid>
+    <icon>resources\images\icons\abilities\ability_barbary_flag.png</icon>
+    <minimapeventtime sendalertto="player">1</minimapeventtime>
+    <activetime>30</activetime>
+    <unitmodify flagoverrideunit="deFlagBarbary" apply="set">PeaceFlag</unitmodify>
+    <allowduringnorush>1</allowduringnorush>
+    <allowwhileattacking>0</allowwhileattacking>
+  </power>
+  <power name="deSPCStealthHide" type="ActionAdd">
+    <displaynameid>112167</displaynameid>
+    <rolloverid>112168</rolloverid>
+    <icon>resources\images\icons\abilities\ability_hide_rowboat_us.png</icon>
+    <minimapeventtime sendalertto="all">1</minimapeventtime>
+    <activetime>30</activetime>
+    <radius>0</radius>
+    <unitaction>AutoStealth</unitaction>
+    <allowduringnorush>1</allowduringnorush>
+    <allowwhileattacking>0</allowwhileattacking>
+  </power>
+  <power name="deSPCThrowGrenade" type="UnitAction">
+    <displaynameid>112182</displaynameid>
+    <rolloverid>112183</rolloverid>
+    <icon>resources\images\icons\abilities\ability_japan_kayakujutin_icon_64.png</icon>
+    <minimapeventtime sendalertto="player">1</minimapeventtime>
+    <activetime>8</activetime>
+    <radius>10.0</radius>
+    <placement forceonmap="1">LOSDontCare</placement>
+    <abstractattacktargettype>Military</abstractattacktargettype>
+    <abstractattacktargettype>Guardian</abstractattacktargettype>
+    <unitaction>GrenadeAttack</unitaction>
+  </power>
+  <power name="deSPCInspiringFlag" type="TempUnit">
+    <displaynameid>112177</displaynameid>
+    <rolloverid>110178</rolloverid>
+    <icon>resources\images\icons\abilities\ability_inspiring_flag_us.png</icon>
+    <minimapeventtime sendalertto="ally">1</minimapeventtime>
+    <activetime>5</activetime>
+    <createunit quantity="1" radius="0" delay="0.0" permanent="" singleinstance="">deInspiringFlag</createunit>
+    <placement forceonmap="1">full</placement>
+    <rangeindicatorprotoid radius="24.0" indicatorcount="16" speed="0.6">PowerRanger</rangeindicatorprotoid>
+    <allowduringnorush>1</allowduringnorush>
+    <displayplacementruleserrors>1</displayplacementruleserrors>
+  </power>
+  <power name="dePowerDamageHidalgo" type="GeneralEffect">
+    <displaynameid>112192</displaynameid>
+    <rolloverid>112193</rolloverid>
+    <icon>resources\images\icons\abilities\ability_hidalgo.png</icon>
+    <minimapeventtime sendalertto="none">1</minimapeventtime>
+    <activetime>10</activetime>
+    <effect type="ActionEnable" action="ExtraAttackHidalgo">
+      <target type="ProtoUnit">deSPCHidalgo</target>
+    </effect>
+    <placement forceonmap="1" ally="">full</placement>
+    <startsoundset>PowerAttackAura</startsoundset>
+  </power>
+  <power name="dePowerSwashbucklerAllende" type="UnitAction">
+    <displaynameid>112194</displaynameid>
+    <rolloverid>34136</rolloverid>
+    <icon>resources\images\icons\abilities\ability_swashbuckler_allende.png</icon>
+    <minimapeventtime sendalertto="player">1</minimapeventtime>
+    <activetime>8</activetime>
+    <radius>5.0</radius>
+    <placement forceonmap="1" enemy="" allowgaia="">unit</placement>
+    <abstractattacktargettype>All</abstractattacktargettype>
+    <explicitlyrestrictedattacktargettype>WaterGuardian</explicitlyrestrictedattacktargettype>
+    <unitaction>SwashbucklerAttack</unitaction>
+  </power>
+  <power name="deAllendeHitpointAura" type="UnitAction">
+    <displaynameid>112195</displaynameid>
+    <rolloverid>112196</rolloverid>
+    <icon>resources\images\icons\abilities\passive_professionalism.png</icon>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="dePowerMXCartography" type="Informers">
+    <displaynameid>110502</displaynameid>
+    <rolloverid>110501</rolloverid>
+    <msgenemystringid>112348</msgenemystringid>
+    <msgselfstringid>112350</msgselfstringid>
+    <msgallystringid>112349</msgallystringid>
+    <icon>resources\images\icons\abilities\ability_informers.png</icon>
+    <minimapeventtime sendalertto="none">1</minimapeventtime>
+    <activetime>20</activetime>
+    <effect type="SharedLOS">
+      <target type="General">
+      </target>
+    </effect>
+    <placement forceonmap="1" ally="">full</placement>
+    <allowduringnorush>1</allowduringnorush>
+    <startsoundset>PowerInformers</startsoundset>
+  </power>
+  <power name="dePowerMXTabascoFruits" type="GeneralEffect">
+    <timerrolloverid>112417</timerrolloverid>
+    <minimapeventtime sendalertto="none">1</minimapeventtime>
+    <activetime>60</activetime>
+    <effect type="WorkRateSpecific" action="Gather" unittype="deHacienda" resource="Food" relativity="BasePercent" amount="3.5">
+      <target type="ProtoUnit">AbstractVillager</target>
+    </effect>
+    <effect type="WorkRateSpecific" action="Gather" unittype="deHacienda" resource="Gold" relativity="BasePercent" amount="3.5">
+      <target type="ProtoUnit">AbstractVillager</target>
+    </effect>
+    <placement forceonmap="1" ally="">full</placement>
+    <soundset type="StartSound" listenertype="Caster">GatherFarm</soundset>
+  </power>
+  <power name="dePowerMXJalapenoPeppers" type="GeneralEffect">
+    <timerrolloverid>112695</timerrolloverid>
+    <minimapeventtime sendalertto="none">1</minimapeventtime>
+    <activetime>30</activetime>
+    <effect type="WorkRateSpecific" action="Gather" unittype="deHacienda" resource="Food" relativity="BasePercent" amount="3.5">
+      <target type="ProtoUnit">AbstractVillager</target>
+    </effect>
+    <effect type="WorkRateSpecific" action="Gather" unittype="deHacienda" resource="Gold" relativity="BasePercent" amount="3.5">
+      <target type="ProtoUnit">AbstractVillager</target>
+    </effect>
+    <placement forceonmap="1" ally="">full</placement>
+    <soundset type="StartSound" listenertype="Caster">GatherFarm</soundset>
+  </power>
+  <power name="dePowerMXHabaneroPeppers" type="GeneralEffect">
+    <timerrolloverid>112696</timerrolloverid>
+    <minimapeventtime sendalertto="none">1</minimapeventtime>
+    <activetime>60</activetime>
+    <effect type="WorkRateSpecific" action="Gather" unittype="deHacienda" resource="Food" relativity="BasePercent" amount="2">
+      <target type="ProtoUnit">AbstractVillager</target>
+    </effect>
+    <effect type="WorkRateSpecific" action="Gather" unittype="deHacienda" resource="Gold" relativity="BasePercent" amount="2">
+      <target type="ProtoUnit">AbstractVillager</target>
+    </effect>
+    <placement forceonmap="1" ally="">full</placement>
+    <soundset type="StartSound" listenertype="Caster">GatherFarm</soundset>
+  </power>
+  <power name="dePowerDolores" type="GeneralEffect">
+    <displaynameid>112707</displaynameid>
+    <rolloverid>112709</rolloverid>
+    <timerrolloverid>112770</timerrolloverid>
+    <icon>resources\images\icons\abilities\ability_hidalgo.png</icon>
+    <minimapeventtime sendalertto="none">1</minimapeventtime>
+    <activetime>20</activetime>
+    <effect type="ActionEnable" action="AreaHealDolores">
+      <target type="ProtoUnit">dePadre</target>
+    </effect>
+    <placement forceonmap="1" ally="">full</placement>
+    <soundset type="StartSound" listenertype="Caster">DEPowerDolores</soundset>
+    <alwaysaddtoplayer>1</alwaysaddtoplayer>
+  </power>
+  <power name="deChargeAbilityShootout" type="GeneralEffect">
+    <displaynameid>112727</displaynameid>
+    <rolloverid>112728</rolloverid>
+    <icon>resources\images\icons\abilities\passive_desperado_shootout.png</icon>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="deChargeAbilityLasso" type="GeneralEffect">
+    <displaynameid>112729</displaynameid>
+    <rolloverid>112730</rolloverid>
+    <icon>resources\images\icons\abilities\passive_vaquero_lasso.png</icon>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="deChargeAbilityDynamite" type="GeneralEffect">
+    <displaynameid>112731</displaynameid>
+    <rolloverid>112732</rolloverid>
+    <icon>resources\images\icons\abilities\passive_bandido_demolition.png</icon>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="dePowerPacifyAux" type="SingleModify">
+    <displaynameid>112736</displaynameid>
+    <rolloverid>112737</rolloverid>
+    <activetime>20</activetime>
+    <unitmodify amount="2" apply="multiply">ROF</unitmodify>
+    <unitmodify amount="0.25" apply="multiply">Speed</unitmodify>
+    <modelattachment>units\attachments\stun_stars.xml</modelattachment>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+    <placement forceonmap="1" enemy="" allowgaia="">unit</placement>
+    <abstractattacktargettype>Guardian</abstractattacktargettype>
+    <explicitlyrestrictedattacktargettype>WaterGuardian</explicitlyrestrictedattacktargettype>
+    <explicitlyrestrictedattacktargettype>LogicalTypeImmuneToSharpshoot</explicitlyrestrictedattacktargettype>
+    <alwaysaddtoplayer>1</alwaysaddtoplayer>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="dePowerPacify" type="UnitAction">
+    <displaynameid>112736</displaynameid>
+    <rolloverid>112737</rolloverid>
+    <icon>resources\images\icons\abilities\ability_pacify.png</icon>
+    <minimapeventtime sendalertto="player">1</minimapeventtime>
+    <activetime>20</activetime>
+    <radius>5.0</radius>
+    <placement forceonmap="1" enemy="" allowgaia="">unit</placement>
+    <unitaction>PacifyAttack</unitaction>
+    <castingpower>dePowerPacifyAux</castingpower>
+    <forceattacktarget>1</forceattacktarget>
+    <startsoundset>PowerStun</startsoundset>
+    <alwaysaddtoplayer>1</alwaysaddtoplayer>
+    <allowduringnorush>1</allowduringnorush>
+    <forceglobalcooldown>1</forceglobalcooldown>
+  </power>
+  <power name="dePowerPacifyUnitsAux" type="SingleModify">
+    <displaynameid>112736</displaynameid>
+    <rolloverid>112737</rolloverid>
+    <activetime>20</activetime>
+    <unitmodify amount="2" apply="multiply">ROF</unitmodify>
+    <unitmodify amount="0.25" apply="multiply">Speed</unitmodify>
+    <modelattachment>units\attachments\stun_stars.xml</modelattachment>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+    <placement forceonmap="1" enemy="" allowgaia="">unit</placement>
+    <abstractattacktargettype>LogicalTypeValidSharpshoot</abstractattacktargettype>
+    <explicitlyrestrictedattacktargettype>WaterGuardian</explicitlyrestrictedattacktargettype>
+    <alwaysaddtoplayer>1</alwaysaddtoplayer>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="dePowerPacifyUnits" type="UnitAction">
+    <displaynameid>112736</displaynameid>
+    <rolloverid>112737</rolloverid>
+    <icon>resources\images\icons\abilities\ability_pacify.png</icon>
+    <minimapeventtime sendalertto="player">1</minimapeventtime>
+    <activetime>20</activetime>
+    <radius>5.0</radius>
+    <placement forceonmap="1" enemy="" allowgaia="">unit</placement>
+    <unitaction>PacifyAttack</unitaction>
+    <castingpower>dePowerPacifyUnitsAux</castingpower>
+    <forceattacktarget>1</forceattacktarget>
+    <startsoundset>PowerStun</startsoundset>
+    <alwaysaddtoplayer>1</alwaysaddtoplayer>
+    <forceglobalcooldown>1</forceglobalcooldown>
+  </power>
+  <power name="dePowerREVSalvadoranCoffee" type="GeneralEffect">
+    <timerrolloverid>112838</timerrolloverid>
+    <minimapeventtime sendalertto="none">1</minimapeventtime>
+    <activetime>50</activetime>
+    <effect type="WorkRateSpecific" action="Gather" unittype="deHacienda" resource="Food" relativity="BasePercent" amount="3.5">
+      <target type="ProtoUnit">AbstractVillager</target>
+    </effect>
+    <effect type="WorkRateSpecific" action="Gather" unittype="deHacienda" resource="Gold" relativity="BasePercent" amount="3.5">
+      <target type="ProtoUnit">AbstractVillager</target>
+    </effect>
+    <placement forceonmap="1" ally="">full</placement>
+    <soundset type="StartSound" listenertype="Caster">GatherFarm</soundset>
+  </power>
+  <power name="dePowerREVBlockade" type="BlockHcTransport">
+    <timerrolloverid>112856</timerrolloverid>
+    <msgselfstringid>112840</msgselfstringid>
+    <msgenemystringid>112841</msgenemystringid>
+    <msgallystringid>112839</msgallystringid>
+    <minimapeventtime sendalertto="none">1</minimapeventtime>
+    <activetime>240</activetime>
+    <allplayers>1</allplayers>
+    <placement forceonmap="1" ally="">full</placement>
+    <soundset type="StartSound" listenertype="All">UI_StrategyWarning</soundset>
+  </power>
+  <power name="deREVBigStealthChinaco" type="GeneralEffect">
+    <displaynameid>112892</displaynameid>
+    <rolloverid>112893</rolloverid>
+    <timerrolloverid>112894</timerrolloverid>
+    <icon>resources\images\icons\abilities\ability_temp_stealth_cavalry.png</icon>
+    <minimapeventtime sendalertto="none">1</minimapeventtime>
+    <activetime>15</activetime>
+    <effect type="ActionEnable" action="AutoStealth">
+      <target type="ProtoUnit">deChinaco</target>
+    </effect>
+    <effect type="ForbidSquadMode" squadmode="Stealth" relativity="Assign" amount="1">
+      <target type="ProtoUnit">deChinaco</target>
+    </effect>
+    <placement forceonmap="1" ally="">full</placement>
+    <startsoundset>UI_Stealth</startsoundset>
+    <alwaysaddtoplayer>1</alwaysaddtoplayer>
+  </power>
+  <power name="deStealthHide" type="ActionAdd">
+    <displaynameid>112167</displaynameid>
+    <rolloverid>112168</rolloverid>
+    <icon>resources\images\icons\abilities\ability_hide_rowboat_us.png</icon>
+    <minimapeventtime sendalertto="all">1</minimapeventtime>
+    <activetime>20</activetime>
+    <radius>0</radius>
+    <unitaction>AutoStealth</unitaction>
+    <allowduringnorush>1</allowduringnorush>
+    <allowwhileattacking>0</allowwhileattacking>
+  </power>
+  <power name="deChargeAbilityLance" type="GeneralEffect">
+    <displaynameid>112955</displaynameid>
+    <rolloverid>112956</rolloverid>
+    <icon>resources\images\icons\abilities\passive_chinaco_charge.png</icon>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="deAbilityInspiringFlagBounty" type="TempUnit">
+    <displaynameid>110177</displaynameid>
+    <rolloverid>113005</rolloverid>
+    <icon>resources\images\icons\abilities\ability_inspiring_flag_yucatan.png</icon>
+    <minimapeventtime sendalertto="ally">1</minimapeventtime>
+    <activetime>5</activetime>
+    <createunit quantity="1" radius="0" delay="0.0" permanent="" singleinstance="" buildbounty="">deInspiringFlag</createunit>
+    <placement forceonmap="1">full</placement>
+    <rangeindicatorprotoid radius="24.0" indicatorcount="16" speed="0.6">PowerRanger</rangeindicatorprotoid>
+    <allowduringnorush>1</allowduringnorush>
+    <displayplacementruleserrors>1</displayplacementruleserrors>
+    <alwaysaddtoplayer>1</alwaysaddtoplayer>
+  </power>
+  <power name="deChargeAbilityLassoInsurgente" type="GeneralEffect">
+    <displaynameid>112981</displaynameid>
+    <rolloverid>112982</rolloverid>
+    <icon>resources\images\icons\abilities\passive_lasso_yucateco.png</icon>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="deInspiringFlagCentralAmericaData" type="TempUnit">
+    <displaynameid>110177</displaynameid>
+    <rolloverid>113003</rolloverid>
+    <icon>resources\images\icons\abilities\ability_inspiring_flag_central america.png</icon>
+  </power>
+  <power name="deFlagBajaCaliforniaData" type="TempUnit">
+    <displaynameid>110177</displaynameid>
+    <rolloverid>113004</rolloverid>
+    <icon>resources\images\icons\abilities\ability_inspiring_flag_baja_california.png</icon>
+  </power>
+  <power name="deFlagYucatanData" type="TempUnit">
+    <displaynameid>110177</displaynameid>
+    <rolloverid>113005</rolloverid>
+    <icon>resources\images\icons\abilities\ability_inspiring_flag_yucatan.png</icon>
+  </power>
+  <power name="deFlagRioGrandeData" type="TempUnit">
+    <displaynameid>110177</displaynameid>
+    <rolloverid>113006</rolloverid>
+    <icon>resources\images\icons\abilities\ability_inspiring_flag_rio.png</icon>
+  </power>
+  <power name="deFlagCaliforniaData" type="TempUnit">
+    <displaynameid>110177</displaynameid>
+    <rolloverid>113007</rolloverid>
+    <icon>resources\images\icons\abilities\ability_inspiring_flag_california.png</icon>
+  </power>
+  <power name="deFlagTexasData" type="TempUnit">
+    <displaynameid>110177</displaynameid>
+    <rolloverid>113008</rolloverid>
+    <icon>resources\images\icons\abilities\ability_inspiring_flag_texas.png</icon>
+  </power>
+  <power name="deFlagMayaData" type="TempUnit">
+    <displaynameid>110177</displaynameid>
+    <rolloverid>113009</rolloverid>
+    <icon>resources\images\icons\abilities\ability_inspiring_flag_maya.png</icon>
+  </power>
+  <power name="deLibertyCryData" type="GeneralEffect">
+    <displaynameid>113018</displaynameid>
+    <rolloverid>113019</rolloverid>
+    <icon>resources\images\icons\abilities\ability_padre_rev.png</icon>
+  </power>
+  <power name="deLibertyCryMayaData" type="GeneralEffect">
+    <displaynameid>113018</displaynameid>
+    <rolloverid>113089</rolloverid>
+    <icon>resources\images\icons\abilities\ability_padre_maya.png</icon>
+  </power>
+  <power name="dePowerMariachi" type="TeamEffect">
+    <timerrolloverid>113073</timerrolloverid>
+    <minimapeventtime sendalertto="none">1</minimapeventtime>
+    <activetime>30</activetime>
+    <effect type="MaximumVelocity" relativity="BasePercent" amount="1.1">
+      <target type="ProtoUnit">Unit</target>
+    </effect>
+    <effect type="BuildingWorkRate" relativity="BasePercent" amount="5.0">
+      <target type="ProtoUnit">MilitaryBuilding</target>
+    </effect>
+    <placement forceonmap="1" ally="">full</placement>
+    <soundset type="StartSound" listenertype="All">DEPowerMXMariachi</soundset>
+  </power>
+  <power name="dePowerDoloresImproved" type="GeneralEffect">
+    <displaynameid>112707</displaynameid>
+    <rolloverid>113081</rolloverid>
+    <timerrolloverid>112770</timerrolloverid>
+    <icon>resources\images\icons\abilities\ability_hidalgo.png</icon>
+    <minimapeventtime sendalertto="none">1</minimapeventtime>
+    <activetime>20</activetime>
+    <effect type="ActionEnable" action="AreaHealDoloresImproved">
+      <target type="ProtoUnit">dePadre</target>
+    </effect>
+    <placement forceonmap="1" ally="">full</placement>
+    <soundset type="StartSound" listenertype="Caster">DEPowerDolores</soundset>
+    <alwaysaddtoplayer>1</alwaysaddtoplayer>
+  </power>
+  <power name="deLibertyCryImprovedData" type="GeneralEffect">
+    <displaynameid>113018</displaynameid>
+    <rolloverid>113082</rolloverid>
+    <icon>resources\images\icons\abilities\ability_padre_rev.png</icon>
+  </power>
+  <power name="deLibertyCryMayaImprovedData" type="GeneralEffect">
+    <displaynameid>113018</displaynameid>
+    <rolloverid>113090</rolloverid>
+    <icon>resources\images\icons\abilities\ability_padre_maya.png</icon>
+  </power>
+  <power name="dePassiveAbilityStandoff" type="GeneralEffect">
+    <displaynameid>112753</displaynameid>
+    <rolloverid>112754</rolloverid>
+    <icon>resources\images\icons\abilities\passive_mexican_standoff.png</icon>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="dePassiveAbilityMortar" type="GeneralEffect">
+    <displaynameid>104668</displaynameid>
+    <rolloverid>104669</rolloverid>
+    <icon>resources\images\icons\abilities\passive_battle_bluster.png</icon>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="deMarvelousYear" type="GeneralEffect">
+    <timerrolloverid>104872</timerrolloverid>
+    <minimapeventtime sendalertto="none">1</minimapeventtime>
+    <activetime>365</activetime>
+    <effect type="WorkRate" action="Gather" unittype="Huntable" relativity="BasePercent" amount="1.20">
+      <target type="ProtoUnit">LogicalTypeLandEconomy</target>
+    </effect>
+    <effect type="WorkRate" action="Gather" unittype="AbstractBerryBush" relativity="BasePercent" amount="1.20">
+      <target type="ProtoUnit">LogicalTypeLandEconomy</target>
+    </effect>
+    <effect type="WorkRate" action="Gather" unittype="Herdable" relativity="BasePercent" amount="1.20">
+      <target type="ProtoUnit">LogicalTypeLandEconomy</target>
+    </effect>
+    <effect type="WorkRate" action="Gather" unittype="Tree" relativity="BasePercent" amount="1.20">
+      <target type="ProtoUnit">LogicalTypeLandEconomy</target>
+    </effect>
+    <effect type="WorkRate" action="Gather" unittype="AbstractMine" relativity="BasePercent" amount="1.20">
+      <target type="ProtoUnit">LogicalTypeLandEconomy</target>
+    </effect>
+    <effect type="WorkRate" action="Gather" unittype="Plantation" relativity="BasePercent" amount="1.20">
+      <target type="ProtoUnit">LogicalTypeLandEconomy</target>
+    </effect>
+    <effect type="WorkRate" action="Gather" unittype="Mill" relativity="BasePercent" amount="1.20">
+      <target type="ProtoUnit">LogicalTypeLandEconomy</target>
+    </effect>
+    <effect type="WorkRate" action="Gather" unittype="Farm" relativity="BasePercent" amount="1.20">
+      <target type="ProtoUnit">LogicalTypeLandEconomy</target>
+    </effect>
+    <effect type="WorkRate" action="Gather" unittype="ypBerryBuilding" relativity="BasePercent" amount="1.20">
+      <target type="ProtoUnit">LogicalTypeLandEconomy</target>
+    </effect>
+    <effect type="WorkRate" action="Gather" unittype="ypGroveBuilding" relativity="BasePercent" amount="1.20">
+      <target type="ProtoUnit">LogicalTypeLandEconomy</target>
+    </effect>
+    <effect type="WorkRate" action="Gather" unittype="deFurTrade" relativity="BasePercent" amount="1.20">
+      <target type="ProtoUnit">LogicalTypeLandEconomy</target>
+    </effect>
+    <effect type="WorkRate" action="Gather" unittype="deMountainMonastery" relativity="BasePercent" amount="1.20">
+      <target type="ProtoUnit">LogicalTypeLandEconomy</target>
+    </effect>
+    <effect type="WorkRate" action="Gather" unittype="deMountainMonastery" relativity="BasePercent" amount="1.20">
+      <target type="ProtoUnit">deAbun</target>
+    </effect>
+    <effect type="WorkRate" action="Gather" unittype="deTorpBush2" relativity="BasePercent" amount="1.20">
+      <target type="ProtoUnit">LogicalTypeLandEconomy</target>
+    </effect>
+    <effect type="WorkRateSpecific" action="Gather" unittype="deHacienda" resource="Food" relativity="BasePercent" amount="1.20">
+      <target type="ProtoUnit">LogicalTypeLandEconomy</target>
+    </effect>
+    <effect type="WorkRateSpecific" action="Gather" unittype="deHacienda" resource="Gold" relativity="BasePercent" amount="1.20">
+      <target type="ProtoUnit">LogicalTypeLandEconomy</target>
+    </effect>
+    <effect type="WorkRateSpecific" action="Gather" unittype="deHacienda" resource="Wood" relativity="BasePercent" amount="1.20">
+      <target type="ProtoUnit">LogicalTypeLandEconomy</target>
+    </effect>
+    <effect type="WorkRateSpecific" action="Gather" unittype="ypRicePaddy" resource="Food" relativity="BasePercent" amount="1.20">
+      <target type="ProtoUnit">LogicalTypeLandEconomy</target>
+    </effect>
+    <effect type="WorkRateSpecific" action="Gather" unittype="ypRicePaddy" resource="Gold" relativity="BasePercent" amount="1.20">
+      <target type="ProtoUnit">LogicalTypeLandEconomy</target>
+    </effect>
+    <effect type="WorkRateSpecific" action="Gather" unittype="deField" resource="Food" relativity="BasePercent" amount="1.20">
+      <target type="ProtoUnit">LogicalTypeLandEconomy</target>
+    </effect>
+    <effect type="WorkRateSpecific" action="Gather" unittype="deField" resource="Gold" relativity="BasePercent" amount="1.20">
+      <target type="ProtoUnit">LogicalTypeLandEconomy</target>
+    </effect>
+    <effect type="WorkRate" action="Build" relativity="BasePercent" amount="1.20">
+      <target type="ProtoUnit">LogicalTypeLandEconomy</target>
+    </effect>
+    <effect type="TrainPoints" relativity="BasePercent" amount="0.75">
+      <target type="ProtoUnit">LogicalTypeLandEconomy</target>
+    </effect>
+    <placement forceonmap="1" ally="">full</placement>
+  </power>
+  <power name="deSPCLevyCityGuards" type="GeneralEffect">
+    <placement forceonmap="1">LOSDontCare</placement>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="dePowerPapalBlockade" type="BlockHcTransport">
+    <timerrolloverid>123066</timerrolloverid>
+    <msgselfstringid>123068</msgselfstringid>
+    <msgenemystringid>123069</msgenemystringid>
+    <msgallystringid>123067</msgallystringid>
+    <minimapeventtime sendalertto="none">1</minimapeventtime>
+    <activetime>120</activetime>
+    <placement forceonmap="1" ally="">full</placement>
+    <soundset type="StartSound" listenertype="All">UI_StrategyWarning</soundset>
+  </power>
+  <power name="deChargeAbilityBugleCall" type="GeneralEffect">
+    <displaynameid>122265</displaynameid>
+    <rolloverid>122266</rolloverid>
+    <icon>resources\images\icons\abilities\passive_bugle_call.png</icon>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="deShieldAura" type="GeneralEffect">
+    <displaynameid>122267</displaynameid>
+    <rolloverid>122268</rolloverid>
+    <icon>resources\images\icons\abilities\passive_deflect_damage.png</icon>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="deChargeAbilityPapalHalberd" type="GeneralEffect">
+    <displaynameid>122270</displaynameid>
+    <rolloverid>122271</rolloverid>
+    <icon>resources\images\icons\abilities\passive_halberd_hook.png</icon>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="deChargeAbilityChargedPistol" type="GeneralEffect">
+    <displaynameid>122273</displaynameid>
+    <rolloverid>122274</rolloverid>
+    <icon>resources\images\icons\abilities\passive_pistol.png</icon>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="dePowerPeninsularFixedGunLongRangeAttack" type="UnitAction">
+    <displaynameid>34137</displaynameid>
+    <rolloverid>103431</rolloverid>
+    <icon>resources\images\icons\abilities\ability_long_range_fire.png</icon>
+    <minimapeventtime sendalertto="all">1</minimapeventtime>
+    <activetime>1</activetime>
+    <radius>10.0</radius>
+    <placement forceonmap="1" enemy="" allowgaia="">unit</placement>
+    <abstractattacktargettype>LogicalTypeRangedUnitsAttack</abstractattacktargettype>
+    <unitaction>LongRangeAttack</unitaction>
+  </power>
+  <power name="deSPCPowerScorchedEarth" type="EnemyEffect">
+    <timerrolloverid>123302</timerrolloverid>
+    <minimapeventtime sendalertto="none">1</minimapeventtime>
+    <activetime>60</activetime>
+    <effect type="WorkRate" action="Gather" unittype="Huntable" relativity="BasePercent" amount="0.8">
+      <target type="ProtoUnit">AbstractVillager</target>
+    </effect>
+    <effect type="WorkRate" action="Gather" unittype="AbstractBerryBush" relativity="BasePercent" amount="0.8">
+      <target type="ProtoUnit">AbstractVillager</target>
+    </effect>
+    <effect type="WorkRate" action="Gather" unittype="Herdable" relativity="BasePercent" amount="0.8">
+      <target type="ProtoUnit">AbstractVillager</target>
+    </effect>
+    <effect type="WorkRate" action="Gather" unittype="Tree" relativity="BasePercent" amount="0.8">
+      <target type="ProtoUnit">AbstractVillager</target>
+    </effect>
+    <effect type="WorkRate" action="Gather" unittype="AbstractMine" relativity="BasePercent" amount="0.8">
+      <target type="ProtoUnit">AbstractVillager</target>
+    </effect>
+    <effect type="WorkRate" action="Gather" unittype="Plantation" relativity="BasePercent" amount="0.8">
+      <target type="ProtoUnit">AbstractVillager</target>
+    </effect>
+    <effect type="WorkRate" action="Gather" unittype="Mill" relativity="BasePercent" amount="0.8">
+      <target type="ProtoUnit">AbstractVillager</target>
+    </effect>
+    <effect type="WorkRate" action="Gather" unittype="Farm" relativity="BasePercent" amount="0.8">
+      <target type="ProtoUnit">AbstractVillager</target>
+    </effect>
+    <effect type="WorkRate" action="Gather" unittype="ypBerryBuilding" relativity="BasePercent" amount="0.8">
+      <target type="ProtoUnit">AbstractVillager</target>
+    </effect>
+    <effect type="WorkRate" action="Gather" unittype="ypGroveBuilding" relativity="BasePercent" amount="0.8">
+      <target type="ProtoUnit">AbstractVillager</target>
+    </effect>
+    <effect type="WorkRate" action="Gather" unittype="deFurTrade" relativity="BasePercent" amount="0.8">
+      <target type="ProtoUnit">AbstractVillager</target>
+    </effect>
+    <effect type="WorkRate" action="Gather" unittype="deMountainMonastery" relativity="BasePercent" amount="0.8">
+      <target type="ProtoUnit">AbstractVillager</target>
+    </effect>
+    <effect type="WorkRate" action="Gather" unittype="deMountainMonastery" relativity="BasePercent" amount="0.8">
+      <target type="ProtoUnit">deAbun</target>
+    </effect>
+    <effect type="WorkRate" action="Gather" unittype="deTorpBush2" relativity="BasePercent" amount="0.8">
+      <target type="ProtoUnit">AbstractVillager</target>
+    </effect>
+    <effect type="WorkRateSpecific" action="Gather" unittype="deHacienda" resource="Food" relativity="BasePercent" amount="0.8">
+      <target type="ProtoUnit">AbstractVillager</target>
+    </effect>
+    <effect type="WorkRateSpecific" action="Gather" unittype="deHacienda" resource="Gold" relativity="BasePercent" amount="0.8">
+      <target type="ProtoUnit">AbstractVillager</target>
+    </effect>
+    <effect type="WorkRateSpecific" action="Gather" unittype="deHacienda" resource="Wood" relativity="BasePercent" amount="0.8">
+      <target type="ProtoUnit">AbstractVillager</target>
+    </effect>
+    <effect type="WorkRateSpecific" action="Gather" unittype="ypRicePaddy" resource="Food" relativity="BasePercent" amount="0.8">
+      <target type="ProtoUnit">AbstractVillager</target>
+    </effect>
+    <effect type="WorkRateSpecific" action="Gather" unittype="ypRicePaddy" resource="Gold" relativity="BasePercent" amount="0.8">
+      <target type="ProtoUnit">AbstractVillager</target>
+    </effect>
+    <effect type="WorkRateSpecific" action="Gather" unittype="deField" resource="Food" relativity="BasePercent" amount="0.8">
+      <target type="ProtoUnit">AbstractVillager</target>
+    </effect>
+    <effect type="WorkRateSpecific" action="Gather" unittype="deField" resource="Gold" relativity="BasePercent" amount="0.8">
+      <target type="ProtoUnit">AbstractVillager</target>
+    </effect>
+    <effect type="WorkRate" action="AutoGatherFood" unittype="Food" relativity="BasePercent" amount="0.8">
+      <target type="ProtoUnit">deHacienda</target>
+    </effect>
+    <effect type="WorkRate" action="AutoGatherCoin" unittype="Gold" relativity="BasePercent" amount="0.8">
+      <target type="ProtoUnit">deHacienda</target>
+    </effect>
+    <placement forceonmap="1" ally="">full</placement>
+    <soundset type="StartSound" listenertype="All">UI_StrategyWarning</soundset>
+  </power>
+  <power name="deNatPowerRoyalMarch" type="GeneralEffect">
+    <displaynameid>122544</displaynameid>
+    <rolloverid>122545</rolloverid>
+    <timerrolloverid>122547</timerrolloverid>
+    <icon>resources\images\icons\abilities\ability_royal_march_lrg.png</icon>
+    <minimapeventtime sendalertto="none">1</minimapeventtime>
+    <activetime>15</activetime>
+    <effect type="MaximumVelocity" relativity="BasePercent" amount="1.05">
+      <target type="ProtoUnit">Unit</target>
+    </effect>
+    <effect type="MaximumVelocity" relativity="BasePercent" amount="1.05">
+      <target type="ProtoUnit">AbstractInfantry</target>
+    </effect>
+    <effect type="MaximumVelocity" relativity="BasePercent" amount="1.05">
+      <target type="ProtoUnit">LogicalTypeLandEconomy</target>
+    </effect>
+    <effect type="MaximumVelocity" relativity="BasePercent" amount="1.025">
+      <target type="ProtoUnit">AbstractLightInfantry</target>
+    </effect>
+    <placement forceonmap="1" ally="">full</placement>
+    <allowduringnorush>1</allowduringnorush>
+    <alwaysaddtoplayer>1</alwaysaddtoplayer>
+    <soundset type="StartSound" listenertype="Caster">DENatPowerBourbon</soundset>
+  </power>
+  <power name="deNatPowerRadetzyMarch" type="TempUnit">
+    <displaynameid>122548</displaynameid>
+    <rolloverid>122549</rolloverid>
+    <icon>resources\images\icons\abilities\ability_radetzky_march_lrg.png</icon>
+    <minimapeventtime sendalertto="ally">1</minimapeventtime>
+    <activetime>5</activetime>
+    <createunit pattern="Spawn" quantity="1" delay="0.0" permanent="">deLegionMagyarHussar</createunit>
+    <createunit pattern="Spawn" quantity="1" delay="0.0" permanent="" reqtech="DENatHabsburgAustroHungarian">deNatHungarianGrenadier</createunit>
+    <placement forceonmap="1">LOSDontCare</placement>
+    <rangeindicatorprotoid radius="12.0" indicatorcount="16" speed="0.6">PowerRanger</rangeindicatorprotoid>
+    <powerescalation>1</powerescalation>
+    <powermaxlevel>5</powermaxlevel>
+    <allowduringnorush>1</allowduringnorush>
+    <alwaysaddtoplayer>1</alwaysaddtoplayer>
+    <soundset type="StartSound" listenertype="Caster">DENatPowerHabsburg</soundset>
+  </power>
+  <power name="deNatPowerVasaOrder" type="GeneralEffect">
+    <displaynameid>124583</displaynameid>
+    <rolloverid>124584</rolloverid>
+    <levelrollover>
+      <stringid>124584</stringid>
+      <stringid>124585</stringid>
+      <stringid>124586</stringid>
+      <stringid>124587</stringid>
+      <stringid>124588</stringid>
+    </levelrollover>
+    <timerrolloverid>124589</timerrolloverid>
+    <icon>resources\images\icons\abilities\ability_vasa_order_lrg.png</icon>
+    <minimapeventtime sendalertto="none">1</minimapeventtime>
+    <activetime>30</activetime>
+    <effect type="WorkRate" action="Gather" unittype="Huntable" relativity="BasePercent" amount="1.25">
+      <target type="ProtoUnit">LogicalTypeLandEconomy</target>
+    </effect>
+    <effect type="WorkRate" action="Gather" unittype="AbstractBerryBush" relativity="BasePercent" amount="1.25">
+      <target type="ProtoUnit">LogicalTypeLandEconomy</target>
+    </effect>
+    <effect type="WorkRate" action="Gather" unittype="Herdable" relativity="BasePercent" amount="1.25">
+      <target type="ProtoUnit">LogicalTypeLandEconomy</target>
+    </effect>
+    <effect type="WorkRate" action="Gather" unittype="Tree" relativity="BasePercent" amount="1.25">
+      <target type="ProtoUnit">LogicalTypeLandEconomy</target>
+    </effect>
+    <effect type="WorkRate" action="Gather" unittype="AbstractMine" relativity="BasePercent" amount="1.25">
+      <target type="ProtoUnit">LogicalTypeLandEconomy</target>
+    </effect>
+    <effect type="WorkRate" action="Gather" unittype="Plantation" relativity="BasePercent" amount="1.25">
+      <target type="ProtoUnit">LogicalTypeLandEconomy</target>
+    </effect>
+    <effect type="WorkRate" action="Gather" unittype="Mill" relativity="BasePercent" amount="1.25">
+      <target type="ProtoUnit">LogicalTypeLandEconomy</target>
+    </effect>
+    <effect type="WorkRate" action="Gather" unittype="Farm" relativity="BasePercent" amount="1.25">
+      <target type="ProtoUnit">LogicalTypeLandEconomy</target>
+    </effect>
+    <effect type="WorkRate" action="Gather" unittype="ypBerryBuilding" relativity="BasePercent" amount="1.25">
+      <target type="ProtoUnit">LogicalTypeLandEconomy</target>
+    </effect>
+    <effect type="WorkRate" action="Gather" unittype="ypGroveBuilding" relativity="BasePercent" amount="1.25">
+      <target type="ProtoUnit">LogicalTypeLandEconomy</target>
+    </effect>
+    <effect type="WorkRate" action="Gather" unittype="deFurTrade" relativity="BasePercent" amount="1.25">
+      <target type="ProtoUnit">LogicalTypeLandEconomy</target>
+    </effect>
+    <effect type="WorkRate" action="Gather" unittype="deMountainMonastery" relativity="BasePercent" amount="1.25">
+      <target type="ProtoUnit">LogicalTypeLandEconomy</target>
+    </effect>
+    <effect type="WorkRate" action="Gather" unittype="deMountainMonastery" relativity="BasePercent" amount="1.25">
+      <target type="ProtoUnit">deAbun</target>
+    </effect>
+    <effect type="WorkRate" action="Gather" unittype="deTorpBush2" relativity="BasePercent" amount="1.25">
+      <target type="ProtoUnit">LogicalTypeLandEconomy</target>
+    </effect>
+    <effect type="WorkRateSpecific" action="Gather" unittype="deHacienda" resource="Food" relativity="BasePercent" amount="1.25">
+      <target type="ProtoUnit">LogicalTypeLandEconomy</target>
+    </effect>
+    <effect type="WorkRateSpecific" action="Gather" unittype="deHacienda" resource="Gold" relativity="BasePercent" amount="1.25">
+      <target type="ProtoUnit">LogicalTypeLandEconomy</target>
+    </effect>
+    <effect type="WorkRateSpecific" action="Gather" unittype="deHacienda" resource="Wood" relativity="BasePercent" amount="1.25">
+      <target type="ProtoUnit">LogicalTypeLandEconomy</target>
+    </effect>
+    <effect type="WorkRateSpecific" action="Gather" unittype="ypRicePaddy" resource="Food" relativity="BasePercent" amount="1.25">
+      <target type="ProtoUnit">LogicalTypeLandEconomy</target>
+    </effect>
+    <effect type="WorkRateSpecific" action="Gather" unittype="ypRicePaddy" resource="Gold" relativity="BasePercent" amount="1.25">
+      <target type="ProtoUnit">LogicalTypeLandEconomy</target>
+    </effect>
+    <effect type="WorkRateSpecific" action="Gather" unittype="deField" resource="Food" relativity="BasePercent" amount="1.25">
+      <target type="ProtoUnit">LogicalTypeLandEconomy</target>
+    </effect>
+    <effect type="WorkRateSpecific" action="Gather" unittype="deField" resource="Gold" relativity="BasePercent" amount="1.25">
+      <target type="ProtoUnit">LogicalTypeLandEconomy</target>
+    </effect>
+    <effect type="ModifyRate" action="AreaGatherMine" relativity="BasePercent" amount="1.10">
+      <target type="ProtoUnit">deTorp</target>
+    </effect>
+    <effect type="ModifyRate" action="AreaGatherMine2" relativity="BasePercent" amount="1.10">
+      <target type="ProtoUnit">deTorp</target>
+    </effect>
+    <effect type="ModifyRate" action="AreaGatherTree" relativity="BasePercent" amount="1.10">
+      <target type="ProtoUnit">deTorp</target>
+    </effect>
+    <effect type="ModifyRate" action="AreaGatherTree2" relativity="BasePercent" amount="1.10">
+      <target type="ProtoUnit">deTorp</target>
+    </effect>
+    <effect type="ModifyRate" action="AreaGatherHerdable" relativity="BasePercent" amount="1.10">
+      <target type="ProtoUnit">deTorp</target>
+    </effect>
+    <effect type="ModifyRate" action="AreaGatherHuntable" relativity="BasePercent" amount="1.10">
+      <target type="ProtoUnit">deTorp</target>
+    </effect>
+    <effect type="ModifyRate" action="AreaGatherBerryBush" relativity="BasePercent" amount="1.10">
+      <target type="ProtoUnit">deTorp</target>
+    </effect>
+    <effect type="ModifyRate" action="AreaGatherBerryBush2" relativity="BasePercent" amount="1.10">
+      <target type="ProtoUnit">deTorp</target>
+    </effect>
+    <effect type="ModifyRate" action="AreaGatherBlueBerryBush" relativity="BasePercent" amount="1.10">
+      <target type="ProtoUnit">deTorp</target>
+    </effect>
+    <effect type="ModifyRate" action="AreaGatherBerryBuilding" relativity="BasePercent" amount="1.10">
+      <target type="ProtoUnit">deTorp</target>
+    </effect>
+    <effect type="ModifyRate" action="AreaGatherGroveBuilding" relativity="BasePercent" amount="1.10">
+      <target type="ProtoUnit">deTorp</target>
+    </effect>
+    <effect type="ModifyRate" action="AreaGatherMine" relativity="BasePercent" amount="1.10">
+      <target type="ProtoUnit">deTorpGeneric</target>
+    </effect>
+    <effect type="ModifyRate" action="AreaGatherMine2" relativity="BasePercent" amount="1.10">
+      <target type="ProtoUnit">deTorpGeneric</target>
+    </effect>
+    <effect type="ModifyRate" action="AreaGatherTree" relativity="BasePercent" amount="1.10">
+      <target type="ProtoUnit">deTorpGeneric</target>
+    </effect>
+    <effect type="ModifyRate" action="AreaGatherTree2" relativity="BasePercent" amount="1.10">
+      <target type="ProtoUnit">deTorpGeneric</target>
+    </effect>
+    <effect type="ModifyRate" action="AreaGatherHerdable" relativity="BasePercent" amount="1.10">
+      <target type="ProtoUnit">deTorpGeneric</target>
+    </effect>
+    <effect type="ModifyRate" action="AreaGatherHuntable" relativity="BasePercent" amount="1.10">
+      <target type="ProtoUnit">deTorpGeneric</target>
+    </effect>
+    <effect type="ModifyRate" action="AreaGatherBerryBush" relativity="BasePercent" amount="1.10">
+      <target type="ProtoUnit">deTorpGeneric</target>
+    </effect>
+    <effect type="ModifyRate" action="AreaGatherBerryBush2" relativity="BasePercent" amount="1.10">
+      <target type="ProtoUnit">deTorpGeneric</target>
+    </effect>
+    <effect type="ModifyRate" action="AreaGatherBlueBerryBush" relativity="BasePercent" amount="1.10">
+      <target type="ProtoUnit">deTorpGeneric</target>
+    </effect>
+    <effect type="ModifyRate" action="AreaGatherBerryBuilding" relativity="BasePercent" amount="1.10">
+      <target type="ProtoUnit">deTorpGeneric</target>
+    </effect>
+    <effect type="ModifyRate" action="AreaGatherGroveBuilding" relativity="BasePercent" amount="1.10">
+      <target type="ProtoUnit">deTorpGeneric</target>
+    </effect>
+    <effect type="AutoGatherBonus" relativity="BasePercent" amount="1.10">
+      <target type="Player">
+      </target>
+    </effect>
+    <placement forceonmap="1" ally="">full</placement>
+    <powerescalation>1</powerescalation>
+    <powermaxlevel>5</powermaxlevel>
+    <allowduringnorush>1</allowduringnorush>
+    <alwaysaddtoplayer>1</alwaysaddtoplayer>
+    <soundset type="StartSound" listenertype="Caster">DENatPowerVasa</soundset>
+  </power>
+  <power name="deNatPowerPowerBalance" type="GeneralEffect">
+    <displaynameid>124592</displaynameid>
+    <rolloverid>124593</rolloverid>
+    <icon>resources\images\icons\abilities\ability_balance_power_lrg.png</icon>
+    <minimapeventtime sendalertto="none">1</minimapeventtime>
+    <activetime>5</activetime>
+    <effect type="EqualizeResources">
+      <target type="Player">
+      </target>
+    </effect>
+    <placement forceonmap="1" ally="">full</placement>
+    <allowduringnorush>1</allowduringnorush>
+    <alwaysaddtoplayer>1</alwaysaddtoplayer>
+    <soundset type="StartSound" listenertype="Caster">DENatPowerJagiellon</soundset>
+  </power>
+  <power name="deNatPowerScientificExpeditions" type="TempUnit">
+    <displaynameid>124595</displaynameid>
+    <rolloverid>124596</rolloverid>
+    <icon>resources\images\icons\abilities\ability_scientific_expeditions_lrg.png</icon>
+    <minimapeventtime sendalertto="ally">1</minimapeventtime>
+    <activetime>30</activetime>
+    <createunit quantity="1" radius="0" delay="0.0">deNatHotAirBalloon</createunit>
+    <placement forceonmap="1">LOSDontCare</placement>
+    <rangeindicatorprotoid radius="12.0" indicatorcount="16" speed="0.6">PowerRanger</rangeindicatorprotoid>
+    <allowduringnorush>1</allowduringnorush>
+    <alwaysaddtoplayer>1</alwaysaddtoplayer>
+    <soundset type="StartSound" listenertype="Caster">DENatPowerOldenburg</soundset>
+  </power>
+  <power name="deNatPowerGoldenerReiter" type="UnitModify">
+    <displaynameid>124597</displaynameid>
+    <rolloverid>124598</rolloverid>
+    <timerrolloverid>124599</timerrolloverid>
+    <icon>resources\images\icons\abilities\ability_golden_rider_lrg.png</icon>
+    <minimapeventtime sendalertto="player">1</minimapeventtime>
+    <activetime>15</activetime>
+    <unitmodify amount="1.2" apply="multiply">Armor</unitmodify>
+    <modelattachment>effects\ypack_auras\wettin_power.xml</modelattachment>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+    <powerplayerrelation>player</powerplayerrelation>
+    <radius>25.0</radius>
+    <abstractattacktargettype>AbstractLightInfantry</abstractattacktargettype>
+    <abstractattacktargettype>AbstractCavalry</abstractattacktargettype>
+    <placement forceonmap="1">full</placement>
+    <rangeindicatorprotoid radius="25.0" indicatorcount="16" speed="0.6">PowerRanger</rangeindicatorprotoid>
+    <alwaysaddtoplayer>1</alwaysaddtoplayer>
+    <soundset type="StartSound" listenertype="Caster">DENatPowerWettin</soundset>
+  </power>
+  <power name="deNatPowerAlpineHorns" type="TempUnit">
+    <displaynameid>124605</displaynameid>
+    <rolloverid>124606</rolloverid>
+    <icon>resources\images\icons\abilities\ability_alpine_horns_lrg.png</icon>
+    <minimapeventtime sendalertto="ally">1</minimapeventtime>
+    <activetime>5</activetime>
+    <createunit pattern="Spawn" quantity="1" delay="0.0" permanent="">deNatMercMountainTrooper</createunit>
+    <placement forceonmap="1">LOSDontCare</placement>
+    <rangeindicatorprotoid radius="12.0" indicatorcount="16" speed="0.6">PowerRanger</rangeindicatorprotoid>
+    <auxiliarypower>dePowerAlpineHornsAux</auxiliarypower>
+    <auxiliarypowertargettype>self</auxiliarypowertargettype>
+    <powerescalation>1</powerescalation>
+    <powerescalationrate>2.0</powerescalationrate>
+    <powermaxlevel>16</powermaxlevel>
+    <allowduringnorush>1</allowduringnorush>
+    <alwaysaddtoplayer>1</alwaysaddtoplayer>
+    <soundset type="StartSound" listenertype="Caster">DENatPowerWittelsbach</soundset>
+  </power>
+  <power name="dePowerAlpineHornsAux" type="GeneralEffect">
+    <minimapeventtime sendalertto="none">1</minimapeventtime>
+    <activetime>5</activetime>
+    <effect type="RevealEnemyLOS" unittype="Building">
+      <target type="Player">
+      </target>
+    </effect>
+    <effect type="RevealEnemyLOS" unittype="AbstractResourceCrate">
+      <target type="Player">
+      </target>
+    </effect>
+    <messagealertplayerrelation>none</messagealertplayerrelation>
+    <placement forceonmap="1">LOSDontCare</placement>
+    <allowduringnorush>1</allowduringnorush>
+    <isauxiliarypower>1</isauxiliarypower>
+  </power>
+  <power name="deCommanderyDeploy" type="GeneralEffect">
+    <placement forceonmap="1">LOSDontCare</placement>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="deNatPowerRoyalFireworks" type="Stun">
+    <displaynameid>124711</displaynameid>
+    <rolloverid>124712</rolloverid>
+    <timerrolloverid>124713</timerrolloverid>
+    <icon>resources\images\icons\abilities\ability_royal_fireworks_lrg.png</icon>
+    <minimapeventtime sendalertto="none">1</minimapeventtime>
+    <activetime>2.5</activetime>
+    <radius>25.0</radius>
+    <placement forceonmap="1">full</placement>
+    <placementprotounitid>deHanoverFireworks</placementprotounitid>
+    <powerplayerrelation>enemy</powerplayerrelation>
+    <rangeindicatorprotoid radius="25.0" indicatorcount="16" speed="0.6">PowerRanger</rangeindicatorprotoid>
+    <abstractattacktargettype>Military</abstractattacktargettype>
+    <abstractattacktargettype>Guardian</abstractattacktargettype>
+    <allowduringnorush>1</allowduringnorush>
+    <alwaysaddtoplayer>1</alwaysaddtoplayer>
+    <forceglobalcooldown>1</forceglobalcooldown>
+    <soundset type="StartSound" listenertype="IfOnScreenAll" positional="">DENatPowerHanover</soundset>
+  </power>
+  <power name="dePowerRoundelPierceAttack" type="UnitAction">
+    <displaynameid>124703</displaynameid>
+    <rolloverid>124704</rolloverid>
+    <icon>resources\images\icons\abilities\ability_roundel_attack.png</icon>
+    <minimapeventtime sendalertto="player">1</minimapeventtime>
+    <activetime>5</activetime>
+    <radius>10.0</radius>
+    <placement forceonmap="1">unit</placement>
+    <abstractattacktargettype>LogicalTypeRangedUnitsAttack</abstractattacktargettype>
+    <unitaction>RoundelPierceAttack</unitaction>
+  </power>
+  <power name="dePowerRoundelExplodeAttack" type="UnitAction">
+    <displaynameid>124707</displaynameid>
+    <rolloverid>124708</rolloverid>
+    <icon>resources\images\icons\command\tactics_explosive.png</icon>
+    <minimapeventtime sendalertto="player">1</minimapeventtime>
+    <activetime>5</activetime>
+    <radius>10.0</radius>
+    <placement forceonmap="1">unit</placement>
+    <abstractattacktargettype>LogicalTypeRangedUnitsAttack</abstractattacktargettype>
+    <unitaction>RoundelExplodeAttack</unitaction>
+  </power>
+  <power name="dePowerRoundelCascadeAttack" type="UnitAction">
+    <displaynameid>124709</displaynameid>
+    <rolloverid>124710</rolloverid>
+    <icon>resources\images\icons\abilities\ability_toccata_attack.png</icon>
+    <minimapeventtime sendalertto="player">1</minimapeventtime>
+    <activetime>5</activetime>
+    <radius>10.0</radius>
+    <placement forceonmap="1">unit</placement>
+    <abstractattacktargettype>LogicalTypeRangedUnitsAttack</abstractattacktargettype>
+    <unitaction>RoundelCascadeAttack</unitaction>
+  </power>
+  <power name="dePromotionHpROF" type="UnitAction">
+    <displaynameid>125020</displaynameid>
+    <rolloverid>125021</rolloverid>
+    <icon>resources\images\icons\techs\europeans\tech_passive_veterancy_hitpoints_rof.png</icon>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="dePromotionRangeSPD" type="UnitAction">
+    <displaynameid>125022</displaynameid>
+    <rolloverid>125023</rolloverid>
+    <icon>resources\images\icons\techs\europeans\tech_passive_veterancy_range_speed.png</icon>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="dePromotionHpDMG" type="UnitAction">
+    <displaynameid>125024</displaynameid>
+    <rolloverid>125025</rolloverid>
+    <icon>resources\images\icons\techs\europeans\tech_passive_veterancy_hitpoints_damage.png</icon>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="dePromotionRangeROF" type="UnitAction">
+    <displaynameid>125026</displaynameid>
+    <rolloverid>125027</rolloverid>
+    <icon>resources\images\icons\techs\europeans\tech_passive_veterancy_range_rof.png</icon>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="dePromotionRange" type="UnitAction">
+    <displaynameid>125028</displaynameid>
+    <rolloverid>125029</rolloverid>
+    <icon>resources\images\icons\techs\europeans\tech_passive_veterancy_range.png</icon>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="dePromotionHitpoints" type="UnitAction">
+    <displaynameid>125030</displaynameid>
+    <rolloverid>125031</rolloverid>
+    <icon>resources\images\icons\techs\europeans\tech_passive_veterancy_hitpoints.png</icon>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="dePromotionRangeDMG" type="UnitAction">
+    <displaynameid>125032</displaynameid>
+    <rolloverid>125033</rolloverid>
+    <icon>resources\images\icons\techs\europeans\tech_passive_veterancy_damage_range.png</icon>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="dePromotionDamage" type="UnitAction">
+    <displaynameid>125034</displaynameid>
+    <rolloverid>125035</rolloverid>
+    <icon>resources\images\icons\techs\europeans\tech_passive_veterancy_damage.png</icon>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="dePromotionSpeed" type="UnitAction">
+    <displaynameid>125036</displaynameid>
+    <rolloverid>125037</rolloverid>
+    <icon>resources\images\icons\techs\europeans\tech_passive_veterancy_speed.png</icon>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="deBersagliereSpeedBoost" type="UnitModify">
+    <activetime>2.5</activetime>
+    <unitmodify amount="1.025" apply="multiply">BaseSpeed</unitmodify>
+    <powerplayerrelation>player</powerplayerrelation>
+    <radius>25.0</radius>
+    <abstractattacktargettype>LogicalTypeLandMilitary</abstractattacktargettype>
+    <placement forceonmap="1">full</placement>
+    <rangeindicatorprotoid radius="10.0" indicatorcount="16" speed="0.6">PowerRanger</rangeindicatorprotoid>
+    <modelattachment>effects\ypack_auras\speed_power.xml</modelattachment>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+  </power>
+  <power name="deAbilityInspiringFlagHanover" type="TempUnit">
+    <displaynameid>125079</displaynameid>
+    <rolloverid>125080</rolloverid>
+    <icon>resources\images\icons\abilities\ability_inspiring_flag_hanover.png</icon>
+    <minimapeventtime sendalertto="ally">1</minimapeventtime>
+    <activetime>5</activetime>
+    <createunit quantity="1" radius="0" delay="0.0" permanent="" singleinstance="">deInspiringFlagHanover</createunit>
+    <placement forceonmap="1">full</placement>
+    <rangeindicatorprotoid radius="24.0" indicatorcount="16" speed="0.6">PowerRanger</rangeindicatorprotoid>
+    <allowduringnorush>1</allowduringnorush>
+    <alwaysaddtoplayer>1</alwaysaddtoplayer>
+    <displayplacementruleserrors>1</displayplacementruleserrors>
+  </power>
+  <power name="deChargeAbilityDeathStrike" type="GeneralEffect">
+    <displaynameid>125082</displaynameid>
+    <rolloverid>125083</rolloverid>
+    <icon>resources\images\icons\abilities\passive_death_strike.png</icon>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="dePowerMount" type="UnitAction">
+    <displaynameid>125086</displaynameid>
+    <rolloverid>125087</rolloverid>
+    <icon>resources\images\icons\abilities\ability_horse_mount.png</icon>
+    <activetime>4</activetime>
+    <radius>5.0</radius>
+    <placement forceonmap="1" ally="">unit</placement>
+    <unitaction>DelayedTransform</unitaction>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="dePowerDismount" type="UnitAction">
+    <displaynameid>125084</displaynameid>
+    <rolloverid>125085</rolloverid>
+    <icon>resources\images\icons\abilities\ability_horse_dismount.png</icon>
+    <activetime>4</activetime>
+    <radius>5.0</radius>
+    <placement forceonmap="1" ally="">unit</placement>
+    <unitaction>DelayedTransform</unitaction>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="deNatMountAthos" type="UnitAction">
+    <displaynameid>125095</displaynameid>
+    <rolloverid>125096</rolloverid>
+    <icon>resources\images\icons\techs\africans\ethiopians\tech_passive_monastery_aura.png</icon>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="deChargeAbilityCossackKnife" type="GeneralEffect">
+    <displaynameid>125106</displaynameid>
+    <rolloverid>125107</rolloverid>
+    <icon>resources\images\icons\abilities\passive_cossack_knife.png</icon>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="deChargeAbilityEuropeanLance" type="GeneralEffect">
+    <displaynameid>125109</displaynameid>
+    <rolloverid>125110</rolloverid>
+    <icon>resources\images\icons\abilities\passive_lance_charge.png</icon>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="deChargeAbilityBullsEyeHighwayman" type="GeneralEffect">
+    <displaynameid>125130</displaynameid>
+    <rolloverid>110636</rolloverid>
+    <icon>resources\images\icons\abilities\passive_highwayman_rifle.png</icon>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="deChargeAbilityHolyFire" type="GeneralEffect">
+    <displaynameid>125120</displaynameid>
+    <rolloverid>125121</rolloverid>
+    <icon>resources\images\icons\abilities\passive_holy_fire.png</icon>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="deChargeAbilityZouaveCarbine" type="GeneralEffect">
+    <displaynameid>110172</displaynameid>
+    <rolloverid>110173</rolloverid>
+    <icon>resources\images\icons\abilities\passive_carbine_shot.png</icon>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="deChargeAbilityCossackLance" type="GeneralEffect">
+    <displaynameid>125109</displaynameid>
+    <rolloverid>125113</rolloverid>
+    <icon>resources\images\icons\abilities\passive_lance_charge_cossack.png</icon>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="deChargeAbilityWingedHussarLance" type="GeneralEffect">
+    <displaynameid>125122</displaynameid>
+    <rolloverid>125110</rolloverid>
+    <icon>resources\images\icons\abilities\passive_winged_hussar_charge.png</icon>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="deChargeAbilityShootoutHighwayman" type="GeneralEffect">
+    <displaynameid>125131</displaynameid>
+    <rolloverid>112728</rolloverid>
+    <icon>resources\images\icons\abilities\passive_highwayman_pistol.png</icon>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="deNatPowerGreekRevolution" type="TempUnit">
+    <displaynameid>125116</displaynameid>
+    <rolloverid>125117</rolloverid>
+    <icon>resources\images\icons\abilities\ability_greek_revolution_lrg.png</icon>
+    <minimapeventtime sendalertto="ally">1</minimapeventtime>
+    <activetime>120</activetime>
+    <createunit pattern="Spawn" quantity="2" delay="0.0" permanent="">deSacredBand</createunit>
+    <placement forceonmap="1">LOSDontCare</placement>
+    <rangeindicatorprotoid radius="12.0" indicatorcount="16" speed="0.6">PowerRanger</rangeindicatorprotoid>
+    <auxiliarypower>dePowerGreekRevolutionAux</auxiliarypower>
+    <auxiliarypowertargettype>self</auxiliarypowertargettype>
+    <powerescalation>1</powerescalation>
+    <powerescalationrate>4.0</powerescalationrate>
+    <powermaxlevel>20</powermaxlevel>
+    <allowduringnorush>1</allowduringnorush>
+    <alwaysaddtoplayer>1</alwaysaddtoplayer>
+    <soundset type="StartSound" listenertype="All">DENatPowerPhanar</soundset>
+  </power>
+  <power name="dePowerGreekRevolutionAux" type="GeneralEffect">
+    <timerrolloverid>125164</timerrolloverid>
+    <minimapeventtime sendalertto="none">1</minimapeventtime>
+    <activetime>120</activetime>
+    <effect type="DamageForAllRangedLogicActions" relativity="Absolute" amount="12" reqtech="DEGreekRevolutionColonial">
+      <target type="ProtoUnit">LogicalTypeLandEconomy</target>
+    </effect>
+    <effect type="DamageForAllRangedLogicActions" relativity="Absolute" amount="12" reqtech="DEGreekRevolutionColonial">
+      <target type="ProtoUnit">AbstractDoubleVillager</target>
+    </effect>
+    <effect type="DamageAction" action="BuildingAttack" relativity="Absolute" amount="-12" reqtech="DEGreekRevolutionColonial">
+      <target type="ProtoUnit">LogicalTypeLandEconomy</target>
+    </effect>
+    <effect type="DamageAction" action="BuildingAttack" relativity="Absolute" amount="-12" reqtech="DEGreekRevolutionColonial">
+      <target type="ProtoUnit">AbstractDoubleVillager</target>
+    </effect>
+    <effect type="DamageForAllRangedLogicActions" relativity="Absolute" amount="14.50" reqtech="DEGreekRevolutionFortress">
+      <target type="ProtoUnit">LogicalTypeLandEconomy</target>
+    </effect>
+    <effect type="DamageForAllRangedLogicActions" relativity="Absolute" amount="14.50" reqtech="DEGreekRevolutionFortress">
+      <target type="ProtoUnit">AbstractDoubleVillager</target>
+    </effect>
+    <effect type="DamageAction" action="BuildingAttack" relativity="Absolute" amount="-14.50" reqtech="DEGreekRevolutionFortress">
+      <target type="ProtoUnit">LogicalTypeLandEconomy</target>
+    </effect>
+    <effect type="DamageAction" action="BuildingAttack" relativity="Absolute" amount="-14.50" reqtech="DEGreekRevolutionFortress">
+      <target type="ProtoUnit">AbstractDoubleVillager</target>
+    </effect>
+    <effect type="HitPoints" relativity="BasePercent" amount="1.20" reqtech="DEGreekRevolutionFortress">
+      <target type="ProtoUnit">LogicalTypeLandEconomy</target>
+    </effect>
+    <effect type="HitPoints" relativity="BasePercent" amount="1.20" reqtech="DEGreekRevolutionFortress">
+      <target type="ProtoUnit">AbstractDoubleVillager</target>
+    </effect>
+    <effect type="DamageForAllRangedLogicActions" relativity="Absolute" amount="18" reqtech="DEGreekRevolutionIndustrial">
+      <target type="ProtoUnit">LogicalTypeLandEconomy</target>
+    </effect>
+    <effect type="DamageForAllRangedLogicActions" relativity="Absolute" amount="18" reqtech="DEGreekRevolutionIndustrial">
+      <target type="ProtoUnit">AbstractDoubleVillager</target>
+    </effect>
+    <effect type="DamageAction" action="BuildingAttack" relativity="Absolute" amount="-18" reqtech="DEGreekRevolutionIndustrial">
+      <target type="ProtoUnit">LogicalTypeLandEconomy</target>
+    </effect>
+    <effect type="DamageAction" action="BuildingAttack" relativity="Absolute" amount="-18" reqtech="DEGreekRevolutionIndustrial">
+      <target type="ProtoUnit">AbstractDoubleVillager</target>
+    </effect>
+    <effect type="HitPoints" relativity="BasePercent" amount="1.50" reqtech="DEGreekRevolutionIndustrial">
+      <target type="ProtoUnit">LogicalTypeLandEconomy</target>
+    </effect>
+    <effect type="HitPoints" relativity="BasePercent" amount="1.50" reqtech="DEGreekRevolutionIndustrial">
+      <target type="ProtoUnit">AbstractDoubleVillager</target>
+    </effect>
+    <effect type="DamageForAllRangedLogicActions" relativity="Absolute" amount="22" reqtech="DEGreekRevolutionImperial">
+      <target type="ProtoUnit">LogicalTypeLandEconomy</target>
+    </effect>
+    <effect type="DamageForAllRangedLogicActions" relativity="Absolute" amount="22" reqtech="DEGreekRevolutionImperial">
+      <target type="ProtoUnit">AbstractDoubleVillager</target>
+    </effect>
+    <effect type="DamageAction" action="BuildingAttack" relativity="Absolute" amount="-22" reqtech="DEGreekRevolutionImperial">
+      <target type="ProtoUnit">LogicalTypeLandEconomy</target>
+    </effect>
+    <effect type="DamageAction" action="BuildingAttack" relativity="Absolute" amount="-22" reqtech="DEGreekRevolutionImperial">
+      <target type="ProtoUnit">AbstractDoubleVillager</target>
+    </effect>
+    <effect type="HitPoints" relativity="BasePercent" amount="2" reqtech="DEGreekRevolutionImperial">
+      <target type="ProtoUnit">LogicalTypeLandEconomy</target>
+    </effect>
+    <effect type="HitPoints" relativity="BasePercent" amount="2" reqtech="DEGreekRevolutionImperial">
+      <target type="ProtoUnit">AbstractDoubleVillager</target>
+    </effect>
+    <messagealertplayerrelation>none</messagealertplayerrelation>
+    <placement forceonmap="1">LOSDontCare</placement>
+    <allowduringnorush>1</allowduringnorush>
+    <isauxiliarypower>1</isauxiliarypower>
+  </power>
+  <power name="deDrummerAura" type="GeneralEffect">
+    <displaynameid>125132</displaynameid>
+    <rolloverid>125133</rolloverid>
+    <icon>resources\images\icons\abilities\passive_cadence_support.png</icon>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="deDrummerInverted" type="GeneralEffect">
+    <displaynameid>125134</displaynameid>
+    <rolloverid>125135</rolloverid>
+    <icon>resources\images\icons\abilities\passive_cadence_aura.png</icon>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="deAuraSentinel" type="GeneralEffect">
+    <displaynameid>125136</displaynameid>
+    <rolloverid>125137</rolloverid>
+    <icon>resources\images\icons\abilities\passive_sentinel_aura.png</icon>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="deAuraHospitaller" type="GeneralEffect">
+    <displaynameid>125138</displaynameid>
+    <rolloverid>125139</rolloverid>
+    <icon>resources\images\icons\abilities\passive_courage_aura.png</icon>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="deAuraBasilica" type="GeneralEffect">
+    <displaynameid>125145</displaynameid>
+    <rolloverid>125143</rolloverid>
+    <icon>resources\images\icons\abilities\passive_architectural_heritage.png</icon>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="deChargeAbilityFlamethrower" type="GeneralEffect">
+    <displaynameid>124811</displaynameid>
+    <rolloverid>124812</rolloverid>
+    <icon>resources\images\icons\abilities\passive_flamethrower.png</icon>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="dePowerShunt" type="UnitAction">
+    <displaynameid>124809</displaynameid>
+    <rolloverid>124706</rolloverid>
+    <icon>resources\images\icons\abilities\ability_ram_attack.png</icon>
+    <minimapeventtime sendalertto="player">1</minimapeventtime>
+    <activetime>8</activetime>
+    <radius>5.0</radius>
+    <placement forceonmap="1" enemy="" allowgaia="">unit</placement>
+    <abstractattacktargettype>LogicalTypeNavalMilitary</abstractattacktargettype>
+    <abstractattacktargettype>AbstractDock</abstractattacktargettype>
+    <unitaction>ShuntAttack</unitaction>
+  </power>
+  <power name="dePowerMalteseGunLongRangeAttack" type="UnitAction">
+    <displaynameid>34137</displaynameid>
+    <rolloverid>103431</rolloverid>
+    <icon>resources\images\icons\abilities\ability_long_range_fire.png</icon>
+    <minimapeventtime sendalertto="all">1</minimapeventtime>
+    <activetime>1</activetime>
+    <radius>10.0</radius>
+    <placement forceonmap="1" enemy="">unit</placement>
+    <abstractattacktargettype>LogicalTypeShipsAndBuildings</abstractattacktargettype>
+    <unitaction>LongRangeAttack</unitaction>
+  </power>
+  <power name="dePowerRallyArmy" type="GeneralEffect">
+    <displaynameid>79980</displaynameid>
+    <rolloverid>79981</rolloverid>
+    <icon>resources\images\icons\abilities\ability_army.png</icon>
+    <minimapeventtime sendalertto="none">1</minimapeventtime>
+    <activetime>17</activetime>
+    <effect type="ActionEnable" action="TempSpeedBonus">
+      <target type="ProtoUnit">deUnknownDrummer</target>
+    </effect>
+    <placement forceonmap="1" ally="">full</placement>
+    <startsoundset>UnknownDrum</startsoundset>
+  </power>
+  <power name="dePassiveAbilityMortarMaltese" type="GeneralEffect">
+    <displaynameid>104668</displaynameid>
+    <rolloverid>104647</rolloverid>
+    <icon>resources\images\icons\abilities\passive_battle_bluster.png</icon>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="deRansom" type="GeneralEffect">
+    <placement forceonmap="1">LOSDontCare</placement>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="PowerBalloonFrench" type="TempUnit">
+    <displaynameid>42372</displaynameid>
+    <rolloverid>42373</rolloverid>
+    <icon>resources\art\units\balloons\hot_air_balloon_ability.png</icon>
+    <minimapeventtime sendalertto="ally">1</minimapeventtime>
+    <activetime>45</activetime>
+    <createunit quantity="1" radius="0" delay="0.0">HotAirBalloon</createunit>
+    <placement forceonmap="1">LOSDontCare</placement>
+    <rangeindicatorprotoid radius="12.0" indicatorcount="16" speed="0.6">PowerRanger</rangeindicatorprotoid>
+    <allowduringnorush>1</allowduringnorush>
+    <alwaysaddtoplayer>1</alwaysaddtoplayer>
+  </power>
+  <power name="deToySoldiersSound" type="GeneralEffect">
+    <activetime>10</activetime>
+    <startsoundset>ToySoldierArrival</startsoundset>
+  </power>
+  <power name="deChargeAbilitySpyCrackshot" type="GeneralEffect">
+    <displaynameid>110172</displaynameid>
+    <rolloverid>110173</rolloverid>
+    <icon>resources\images\icons\abilities\passive_carbine_shot.png</icon>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="deChargeAbilitySpyPistol" type="GeneralEffect">
+    <displaynameid>122273</displaynameid>
+    <rolloverid>122274</rolloverid>
+    <icon>resources\images\icons\abilities\passive_gunslinger_quick_draw.png</icon>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="deBurningDamage" type="GeneralEffect">
+    <displaynameid>101492</displaynameid>
+    <rolloverid>101501</rolloverid>
+    <icon>resources\images\icons\abilities\passive_burning_damage.png</icon>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="deFlagCanadaData" type="TempUnit">
+    <displaynameid>110177</displaynameid>
+    <rolloverid>112148</rolloverid>
+    <icon>resources\images\icons\abilities\ability_inspiring_flag_rev_canada.png</icon>
+  </power>
+</powers>

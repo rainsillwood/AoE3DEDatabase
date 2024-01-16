@@ -1,0 +1,139 @@
+<combatcomparison>
+  <techlevel level="0">
+  </techlevel>
+  <techlevel level="1">
+    <tech civ="British">ColonializeBritish</tech>
+    <tech civ="French">ColonializeFrench</tech>
+    <tech civ="Dutch">ColonializeDutch</tech>
+    <tech civ="Russian">ColonializeRussian</tech>
+    <tech civ="Portuguese">ColonializePortuguese</tech>
+    <tech civ="Spanish">ColonializeSpanish</tech>
+    <tech civ="Ottoman">ColonializeOttoman</tech>
+    <tech civ="German">ColonializeGerman</tech>
+    <tech civ="Iroquis">ColonializeIroquis</tech>
+    <tech civ="Sioux">ColonializeSioux</tech>
+    <tech civ="Aztecs">ColonializeAztecs</tech>
+  </techlevel>
+  <techlevel level="2">
+    <tech civ="British">FortressizeBritish</tech>
+    <tech>VeteranLongbowmen</tech>
+    <tech civ="French">FortressizeFrench</tech>
+    <tech civ="Dutch">FortressizeDutch</tech>
+    <tech>VeteranRuytersShadow</tech>
+    <tech civ="Russian">FortressizeRussian</tech>
+    <tech>VeteranCossacks</tech>
+    <tech>VeteranStrelets</tech>
+    <tech civ="Portuguese">FortressizePortuguese</tech>
+    <tech>VeteranCacadoresShadow</tech>
+    <tech civ="Spanish">FortressizeSpanish</tech>
+    <tech>VeteranRodeleros</tech>
+    <tech civ="Ottoman">FortressizeOttoman</tech>
+    <tech>VeteranJanissaries</tech>
+    <tech>VeteranAbusGuns</tech>
+    <tech civ="German">FortressizeGerman</tech>
+    <tech>VeteranDopplesoldners</tech>
+    <tech>VeteranUhlans</tech>
+    <tech civ="Iroquis">FortressizeIroquis</tech>
+    <tech>EliteAennas</tech>
+    <tech>EliteHorsemen</tech>
+    <tech>EliteTomahawks</tech>
+    <tech>EliteMusketWarriorShadow</tech>
+    <tech>EliteMusketRiderShadow</tech>
+    <tech civ="Sioux">FortressizeSioux</tech>
+    <tech>EliteWarRifleShadow</tech>
+    <tech>EliteWarClubs</tech>
+    <tech>EliteWarBows</tech>
+    <tech>EliteRifleRiderShadow</tech>
+    <tech>EliteAxeRiders</tech>
+    <tech civ="Aztecs">FortressizeAztecs</tech>
+    <tech>EliteCoyotemen</tech>
+    <tech>ElitePumaMen</tech>
+    <tech>EliteMacehualtins</tech>
+    <tech>VeteranHussars</tech>
+    <tech>VeteranCrossbowmen</tech>
+    <tech>VeteranGrenadiers</tech>
+    <tech>VeteranMusketeers</tech>
+    <tech>VeteranPikemen</tech>
+    <tech>VeteranCavalryArchersShadow</tech>
+    <tech>VeteranSkirmishersShadow</tech>
+    <tech>VeteranDragoonsShadow</tech>
+  </techlevel>
+  <techlevel level="3">
+    <tech civ="British">IndustrializeBritish</tech>
+    <tech>GuardLongbowmen</tech>
+    <tech civ="French">IndustrializeFrench</tech>
+    <tech>GuardCuirassiers</tech>
+    <tech civ="Dutch">IndustrializeDutch</tech>
+    <tech>GuardRuyters</tech>
+    <tech civ="Russian">IndustrializeRussian</tech>
+    <tech>GuardStrelets</tech>
+    <tech>GuardOprichniks</tech>
+    <tech>GuardCossacks</tech>
+    <tech civ="Portuguese">IndustrializePortuguese</tech>
+    <tech>GuardCacadores</tech>
+    <tech civ="Spanish">IndustrializeSpanish</tech>
+    <tech>GuardRodeleros</tech>
+    <tech>GuardLancers</tech>
+    <tech civ="Ottoman">IndustrializeOttoman</tech>
+    <tech>GuardAbusGuns</tech>
+    <tech>GuardJanissaries</tech>
+    <tech civ="German">IndustrializeGerman</tech>
+    <tech>GuardWarWagons</tech>
+    <tech>GuardUhlans</tech>
+    <tech>GuardDopplesoldners</tech>
+    <tech civ="Iroquis">IndustrializeIroquis</tech>
+    <tech>ChampionAennas</tech>
+    <tech>ChampionHorsemen</tech>
+    <tech>ChampionMusketRiders</tech>
+    <tech>ChampionMusketWarriors</tech>
+    <tech>ChampionMantlets</tech>
+    <tech civ="Sioux">IndustrializeSioux</tech>
+    <tech>ChampionWarRifles</tech>
+    <tech>ChampionWarClubs</tech>
+    <tech>ChampionWarBows</tech>
+    <tech>ChampionRifleRiders</tech>
+    <tech>ChampionCoupRiders</tech>
+    <tech>ChampionAxeRiders</tech>
+    <tech civ="Aztecs">IndustrializeAztecs</tech>
+    <tech>ChampionArrowKnight</tech>
+    <tech>ChampionCoyotemen</tech>
+    <tech>ChampionEagleKnight</tech>
+    <tech>ChampionJaguarKnight</tech>
+    <tech>ChampionMacehualtins</tech>
+    <tech>ChampionPumaMen</tech>
+    <tech>GuardCavalryArchers</tech>
+    <tech>GuardDragoons</tech>
+    <tech>GuardGrenadiers</tech>
+    <tech>GuardHalberdiers</tech>
+    <tech>GuardHussars</tech>
+    <tech>GuardMusketeers</tech>
+    <tech>GuardPikemen</tech>
+    <tech>GuardSkirmishers</tech>
+  </techlevel>
+  <techlevel level="4">
+    <tech civ="British">ImperializeBritish</tech>
+    <tech civ="French">ImperializeFrench</tech>
+    <tech civ="Dutch">ImperializeDutch</tech>
+    <tech civ="Russian">ImperializeRussian</tech>
+    <tech civ="Portuguese">ImperializePortuguese</tech>
+    <tech civ="Spanish">ImperializeSpanish</tech>
+    <tech civ="Ottoman">ImperializeOttoman</tech>
+    <tech civ="German">ImperializeGerman</tech>
+    <tech civ="Iroquis">ImperializeIroquis</tech>
+    <tech civ="Sioux">ImperializeSioux</tech>
+    <tech civ="Aztecs">ImperialezeAztecs</tech>
+  </techlevel>
+  <techlevel level="5">
+    <tech civ="British">PostImperialBritish</tech>
+    <tech civ="French">PostImperialFrench</tech>
+    <tech civ="Dutch">PostImperialDutch</tech>
+    <tech civ="Russian">PostImperialRussian</tech>
+    <tech civ="Portuguese">PostImperialPortuguese</tech>
+    <tech civ="Spanish">PostImperialSpanish</tech>
+    <tech civ="Ottoman">PostImperialOttoman</tech>
+    <tech civ="German">PostImperialGerman</tech>
+    <tech civ="Iroquis">PostImperialIroquis</tech>
+    <tech civ="Sioux">PostImperialSioux</tech>
+    <tech civ="Aztecs">PostImperialAztecs</tech>
+  </techlevel>
+</combatcomparison>

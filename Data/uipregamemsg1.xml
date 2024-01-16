@@ -1,0 +1,8 @@
+<layout>
+  <gadget name="pregame-messagedialog" type="gadget" hidden="" backgroundcolor="0 0 0" backgroundalpha="0.5" size1024="0 0 1024 768" windowzstyle="" closeonesc="" z="99">
+    <gadget tilebackgroundhoriz="" name="pregame-messagedialog-panel" type="gadget" size1024="352 194 682 418" z="100" background="ui\ingame\resign_window" texturecoords="0 0 0.7109375 0.90234375">
+      <gadget name="pregame-messagedialog-prompt" type="formatText" textcenterhoriz="" textcolor="255 200 3" textfont="InGameLabels" textfontsize="18" textmarkup="" size1024="376 228 654 354" z="102" transparent="">Message Text Goes Here</gadget>
+      <gadget name="pregame-messagedialog-OKButton" type="stateButton" size1024="448 372 576 404" z="102" textfont="IngameButtons" textfontsize="18" textcolor="255 255 255" bevelbutton="" statebuttonuseinternalstates="" textcenterhoriz="" textcentervert="" texturecoords="0 0 1 1">$$18465$$OK<stateentry background="ui\core_ui\button_128x32_normal"></stateentry><stateentry background="ui\core_ui\button_128x32_clicked"></stateentry><stateentry background="ui\core_ui\button_128x32_rollover"></stateentry><stateentry background="ui\core_ui\button_128x32_disabled"></stateentry></gadget>
+    </gadget>
+  </gadget>
+</layout>

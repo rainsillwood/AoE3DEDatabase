@@ -1,0 +1,111 @@
+<layout>
+  <gadget name="playerCommsDisplayArea" hidden="" backgroundcolor="0 0 0" backgroundalpha="0" size1024="2 104 385 472" type="gadget" z="5">
+    <gadget name="playercomms-background" background="ui\core_ui\wood_thick_board_tile" tilebackground="" size1024="4 124 385 488" type="gadget" z="5">
+    </gadget>
+    <gadget name="playercomms-mainLabel-background-left" type="gadget" background="ui\ingame\ui_options_minmax_left_design" size1024="15 104 79 136" z="8">
+    </gadget>
+    <gadget name="playercomms-mainLabel-background-middle" type="gadget" background="ui\ingame\ui_options_minmax_middle" size1024="63 104 324 136" z="7" tilebackgroundhoriz="">
+    </gadget>
+    <gadget name="playercomms-mainLabel-background-right" type="gadget" background="ui\ingame\ui_options_minmax_right" size1024="308 104 373 136" z="8">
+    </gadget>
+    <gadget name="playercomms-mainLabel" textcenterhoriz="" textcentervert="" textcolor="255 198 2" textfont="InGameLabels" textfontsize="18" type="formatText" size1024="63 110 324 130" z="11">$$38238$$Player Communications</gadget>
+    <gadget name="playercomms-ExitButton" type="stateButton" size1024="361 116 385 140" bevelbutton="" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="255 255 255" textcenterhoriz="" textcentervert="" z="60">
+      <stateentry background="ui\core_ui\close_normal">
+      </stateentry>
+      <stateentry background="ui\core_ui\close_clicked">
+      </stateentry>
+      <stateentry background="ui\core_ui\close_active">
+      </stateentry>
+      <stateentry background="ui\core_ui\close_disabled">
+      </stateentry>
+    </gadget>
+    <gadget name="playercomms-ToLabel-background-left" type="gadget" background="ui\core_ui\text_block_128" size1024="15 143 50 175" texturecoords="0 0 0.2734375 1" z="7">
+    </gadget>
+    <gadget name="playercomms-ToLabel-background-left" type="gadget" background="ui\core_ui\text_block_128" size1024="50 143 85 175" texturecoords="0.7265625 0 1 1" z="7">
+    </gadget>
+    <gadget name="playercomms-ToLabel" textcenterhoriz="" textcentervert="" textcolor="255 198 2" textfont="PregameButtonsSmall" textfontsize="16" type="formatText" size1024="15 143 85 175" z="11">$$38239$$To</gadget>
+    <gadget name="playercomms-button-allPlayers" foreground="ui\hp_cp\hp_cp_ally" texturecoords="0 0 1 1" backgroundcolor="0 0 0" backgroundalpha="0" size1024="87 143 119 175" type="button" tooltiptext="$$38240$$All Players" activateondown="" z="7">
+    </gadget>
+    <gadget name="playercomms-button-toPlayer1" foreground="ui\hp_cp\hp_cp_player_1" texturecoords="0 0 1 1" backgroundcolor="0 0 0" backgroundalpha="0" size1024="87 143 119 175" type="button" activateondown="" z="7">
+    </gadget>
+    <gadget name="playercomms-highlight-toPlayer1" type="button" foreground="ui\home_city\HC_UI_tabs" backgroundcolor="0 0 0" backgroundalpha="0" size1024="87 143 119 175" texturecoords="0.324853228962818 0.686274509803922 0.461839530332681 0.952941176470588" hidden="" z="8">
+    </gadget>
+    <gadget name="playercomms-button-toPlayer2" foreground="ui\hp_cp\hp_cp_player_2" texturecoords="0 0 1 1" backgroundcolor="0 0 0" backgroundalpha="0" size1024="123 143 155 175" type="button" activateondown="" z="7">
+    </gadget>
+    <gadget name="playercomms-highlight-toPlayer2" type="button" foreground="ui\home_city\HC_UI_tabs" backgroundcolor="0 0 0" backgroundalpha="0" size1024="123 143 155 175" texturecoords="0.324853228962818 0.686274509803922 0.461839530332681 0.952941176470588" hidden="" z="8">
+    </gadget>
+    <gadget name="playercomms-button-toPlayer3" foreground="ui\hp_cp\hp_cp_player_3" texturecoords="0 0 1 1" backgroundcolor="0 0 0" backgroundalpha="0" size1024="159 143 193 175" type="button" activateondown="" z="7">
+    </gadget>
+    <gadget name="playercomms-highlight-toPlayer3" type="button" foreground="ui\home_city\HC_UI_tabs" backgroundcolor="0 0 0" backgroundalpha="0" size1024="159 143 193 175" texturecoords="0.324853228962818 0.686274509803922 0.461839530332681 0.952941176470588" hidden="" z="8">
+    </gadget>
+    <gadget name="playercomms-button-toPlayer4" foreground="ui\hp_cp\hp_cp_player_4" texturecoords="0 0 1 1" backgroundcolor="0 0 0" backgroundalpha="0" size1024="197 143 229 175" type="button" activateondown="" z="7">
+    </gadget>
+    <gadget name="playercomms-highlight-toPlayer4" type="button" foreground="ui\home_city\HC_UI_tabs" backgroundcolor="0 0 0" backgroundalpha="0" size1024="197 143 229 175" texturecoords="0.324853228962818 0.686274509803922 0.461839530332681 0.952941176470588" hidden="" z="8">
+    </gadget>
+    <gadget name="playercomms-button-toPlayer5" foreground="ui\hp_cp\hp_cp_player_5" texturecoords="0 0 1 1" backgroundcolor="0 0 0" backgroundalpha="0" size1024="233 143 265 175" type="button" activateondown="" z="7">
+    </gadget>
+    <gadget name="playercomms-highlight-toPlayer5" type="button" foreground="ui\home_city\HC_UI_tabs" backgroundcolor="0 0 0" backgroundalpha="0" size1024="233 143 265 175" texturecoords="0.324853228962818 0.686274509803922 0.461839530332681 0.952941176470588" hidden="" z="8">
+    </gadget>
+    <gadget name="playercomms-button-toPlayer6" foreground="ui\hp_cp\hp_cp_player_6" texturecoords="0 0 1 1" backgroundcolor="0 0 0" backgroundalpha="0" size1024="269 143 301 175" type="button" activateondown="" z="7">
+    </gadget>
+    <gadget name="playercomms-highlight-toPlayer6" type="button" foreground="ui\home_city\HC_UI_tabs" backgroundcolor="0 0 0" backgroundalpha="0" size1024="269 143 301 175" texturecoords="0.324853228962818 0.686274509803922 0.461839530332681 0.952941176470588" hidden="" z="8">
+    </gadget>
+    <gadget name="playercomms-button-toPlayer7" foreground="ui\hp_cp\hp_cp_player_7" texturecoords="0 0 1 1" backgroundcolor="0 0 0" backgroundalpha="0" size1024="305 143 337 175" type="button" activateondown="" z="7">
+    </gadget>
+    <gadget name="playercomms-highlight-toPlayer7" type="button" foreground="ui\home_city\HC_UI_tabs" backgroundcolor="0 0 0" backgroundalpha="0" size1024="305 143 337 175" texturecoords="0.324853228962818 0.686274509803922 0.461839530332681 0.952941176470588" hidden="" z="8">
+    </gadget>
+    <gadget name="playercomms-button-toPlayer8" foreground="ui\hp_cp\hp_cp_player_8" texturecoords="0 0 1 1" backgroundcolor="0 0 0" backgroundalpha="0" size1024="341 143 373 175" type="button" activateondown="" z="7">
+    </gadget>
+    <gadget name="playercomms-highlight-toPlayer8" type="button" foreground="ui\home_city\HC_UI_tabs" backgroundcolor="0 0 0" backgroundalpha="0" size1024="341 143 373 175" texturecoords="0.324853228962818 0.686274509803922 0.461839530332681 0.952941176470588" hidden="" z="8">
+    </gadget>
+    <gadget name="playercomms-separator-1" type="gadget" background="ui\core_ui\metal_trim_top" size1024="9 178 377 183" z="6" texturecoords="0 0 5.75 0.625">
+    </gadget>
+    <gadget name="playercomms-verbInstructions-background" type="gadget" background="ui\core_ui\text_block_357" size1024="15 186 372 218" texturecoords="0 0 0.697265625 1" z="7">
+    </gadget>
+    <gadget name="playercomms-verbInstructions" textcentervert="" textcolor="255 198 2" textfont="PregameButtonsSmall" textfontsize="16" type="formatText" size1024="42 186 345 218" z="11">$$38241$$Click on an action</gadget>
+    <gadget name="playercomms-verbArea" hidden="" backgroundcolor="0 0 0" backgroundalpha="0" size1024="30 222 354 254" type="gadget" z="5">
+    </gadget>
+    <gadget name="playercomms-verb-highlight" hidden="" type="gadget" background="ui\home_city\HC_UI_tabs" size1024="30 222 62 254" texturecoords="0.324853228962818 0.686274509803922 0.461839530332681 0.952941176470588" z="8">
+    </gadget>
+    <gadget name="playercomms-separator-2" type="gadget" background="ui\core_ui\metal_trim_top" size1024="9 257 377 262" z="6" texturecoords="0 0 5.75 0.625">
+    </gadget>
+    <gadget name="playercomms-targetInstructions-background" type="gadget" background="ui\core_ui\text_block_357" size1024="15 265 372 297" texturecoords="0 0 0.697265625 1" z="7">
+    </gadget>
+    <gadget name="playercomms-targetInstructions" textcentervert="" textcolor="255 198 2" textfont="PregameButtonsSmall" textfontsize="16" type="formatText" size1024="42 265 345 297" z="11">
+    </gadget>
+    <gadget name="playercomms-targetLocationInstructions" hidden="" textcolor="255 255 255" textfont="PregameChat" textfontsize="14" type="formatText" size1024="30 301 354 409" z="11">$$38242$$Click on a world or minimap location</gadget>
+    <gadget name="playercomms-targetArea" hidden="" backgroundcolor="0 0 0" backgroundalpha="0" size1024="30 301 354 409" type="gadget" textfont="PregameChat" textfontsize="14" textcolor="255 255 255" z="5">
+    </gadget>
+    <gadget name="playercomms-separator-3" type="gadget" background="ui\core_ui\metal_trim_top" size1024="9 409 377 414" z="6" texturecoords="0 0 5.75 0.625">
+    </gadget>
+    <gadget name="playercomms-chatInput" type="gadget" size1024="30 417 354 485">
+      <gadget name="playercomms-chatLabel-background" type="gadget" background="ui\core_ui\text_block_193" size1024="15 417 208 449" texturecoords="0 0 0.75390625 1" z="7">
+      </gadget>
+      <gadget name="playercomms-chatLabel" textcentervert="" textcolor="255 198 2" textfont="PregameButtonsSmall" textfontsize="16" type="formatText" size1024="42 417 180 449" z="11">$$38243$$Chat Message</gadget>
+      <gadget name="playercomms-chatInput-text" type="editBox" enterkey="" grabinput="" textfont="ChatInput" textfontsize="12" textcolor="0 0 0" size1024="30 457 354 484" enableime="" editboxmaxchars="200">
+      </gadget>
+      <gadget name="chatInputArtLeft" type="gadget" size1024="30 453 62 485" background="ui\core_ui\text_bar_32_left">
+      </gadget>
+      <gadget name="chatInputArtMiddle" tilebackgroundhoriz="" type="gadget" size1024="62 453 322 485" background="ui\core_ui\text_bar_32_middle">
+      </gadget>
+      <gadget name="chatInputArtRight" type="gadget" size1024="322 453 354 485" background="ui\core_ui\text_bar_32_right">
+      </gadget>
+    </gadget>
+    <gadget name="playercomms-border-top-left" type="gadget" background="ui\file_system\border_top_left" size1024="2 116 34 148" z="6">
+    </gadget>
+    <gadget name="playercomms-border-top-middle" type="gadget" background="ui\file_system\border_top_middle" size1024="34 116 353 124" tilebackgroundhoriz="" z="6">
+    </gadget>
+    <gadget name="playercomms-border-top-right" type="gadget" background="ui\file_system\border_top_right" size1024="353 116 385 148" z="6">
+    </gadget>
+    <gadget name="playercomms-border-side-left" type="gadget" background="ui\file_system\border_side_left" size1024="2 148 10 464" tilebackgroundvert="" z="6">
+    </gadget>
+    <gadget name="playercomms-border-side-right" type="gadget" background="ui\file_system\border_side_right" size1024="377 148 385 464" tilebackgroundvert="" z="6">
+    </gadget>
+    <gadget name="playercomms-border-bottom-left" type="gadget" background="ui\file_system\border_bottom_left" size1024="2 464 34 496" z="6">
+    </gadget>
+    <gadget name="playercomms-border-bottom-middle" type="gadget" background="ui\file_system\border_bottom_middle" size1024="34 488 353 496" tilebackgroundhoriz="" z="6">
+    </gadget>
+    <gadget name="playercomms-border-bottom-right" type="gadget" background="ui\file_system\border_bottom_right" size1024="353 464 385 496" z="6">
+    </gadget>
+  </gadget>
+</layout>

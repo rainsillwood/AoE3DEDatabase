@@ -1,0 +1,54 @@
+<layout>
+  <gadget name="minimapPanel" type="gadget" size1024="0 553 342 768" background="ui\ingame\ingame_ui_01x_ypack" clickthrufile="ui\ingame\ingame_ui_01x_ypack" z="10" texturecoords="0 0.580078125 0.66796875 0.999023438" clickthrucoords="0 0.580078125 0.66796875 0.999023438">
+    <position name="AGameMinimap" size1024="18 566 210 758" windowzstyle="" z="15">
+    </position>
+    <gadget name="minimapPanel-map" type="gadget" size1024="12 549 219 757" z="10">
+    </gadget>
+    <gadget name="minimapPanel-flareButton" type="stateButton" z="16" size1024="6 705 67 766" texturecoords="0.4921875 0 0.73046875 1" mouseovertext="$$18424$$Click this button, and then click in the world to send a flare to all other players." anchortooltiptopright="" clampforeground="" clampbackground="" statebuttonuseinternalstates="" activateondown="" clickthrufile="ui\ingame\ingame_minimap_buttons_normal_ypack" clickthrucoords="0.4921875 0 0.73046875 1">
+      <command>editMode("flare") uiSetProtoCursor("WaypointFlag")</command>
+      <stateentry background="ui\ingame\ingame_minimap_buttons_normal_ypack">
+      </stateentry>
+      <stateentry background="ui\ingame\ingame_minimap_buttons_depressed_ypack">
+      </stateentry>
+      <stateentry background="ui\ingame\ingame_minimap_buttons_active_ypack">
+      </stateentry>
+      <stateentry background="ui\ingame\ingame_minimap_buttons_disabled_ypack">
+      </stateentry>
+    </gadget>
+    <gadget name="minimapPanel-explorerButton" type="stateButton" z="16" size1024="161 705 222 766" texturecoords="0.73828125 0 0.9765625 1" mouseovertext="$$48949$$" anchortooltiptopright="" clampforeground="" clampbackground="" statebuttonuseinternalstates="" activateondown="" clickthrufile="ui\ingame\ingame_minimap_buttons_normal_ypack" clickthrucoords="0.73828125 0 0.9765625 1">
+      <command>editMode("moveAllMilitary") uiSetProtoCursor("WaypointFlag")</command>
+      <stateentry background="ui\ingame\ingame_minimap_buttons_normal_ypack">
+      </stateentry>
+      <stateentry background="ui\ingame\ingame_minimap_buttons_depressed_ypack">
+      </stateentry>
+      <stateentry background="ui\ingame\ingame_minimap_buttons_active_ypack">
+      </stateentry>
+      <stateentry background="ui\ingame\ingame_minimap_buttons_disabled_ypack">
+      </stateentry>
+    </gadget>
+    <gadget name="minimapPanel-chat" type="stateButton" z="16" size1024="6 559 67 623" texturecoords="0 0 0.23828125 1" mouseovertext="$$21431$$" anchortooltiptopright="" statebuttonuseinternalstates="" activateondown="" clickthrufile="ui\ingame\ingame_minimap_buttons_normal_ypack" clickthrucoords="0 0 0.23828125 1">
+      <command>uiShowChatWindow()</command>
+      <stateentry background="ui\ingame\ingame_minimap_buttons_normal_ypack">
+      </stateentry>
+      <stateentry background="ui\ingame\ingame_minimap_buttons_depressed_ypack">
+      </stateentry>
+      <stateentry background="ui\ingame\ingame_minimap_buttons_active_ypack">
+      </stateentry>
+      <stateentry background="ui\ingame\ingame_minimap_buttons_disabled_ypack">
+      </stateentry>
+    </gadget>
+    <gadget name="minimapPanel-FilterToggle" type="stateButton" z="16" size1024="161 559 222 623" mouseovertext="$$36021$$" anchortooltiptopright="" keepflashingonactivate="" statebuttonuseinternalstates="" activateondown="" textfont="SmallButtonFont" textfontsize="10" textcolor="255 255 255" background="" clickthrufile="ui\ingame\ingame_minimap_all_normal_ypack" clickthrucoords="0 0 1 1">
+      <leftcommand>setMinimapUnitFilter(-1)</leftcommand>
+    </gadget>
+  </gadget>
+  <gadget name="shipsDisplay" type="textBox" size1024="298 585 340 609" textcenterhoriz="" textcentervert="" transparent="" datarefreshrate=".5" textcolor="255 255 255" z="20" textfont="TimerDisplays" textfontsize="12">{resource(ships)}</gadget>
+  <gadget name="uimain-homeCityToggle" type="stateButton" z="16" size1024="230 562 305 610" mouseovertext="$$43039$$" anchortooltiptopright="" keepflashingonactivate="" statebuttonuseinternalstates="" activateondown="" textfont="SmallButtonFont" textfontsize="10" textcolor="255 255 255" background="" sound="UI_DefaultPregameClickSet">
+    <leftcommand>toggleHomeCityView()</leftcommand>
+  </gadget>
+  <gadget name="shipsDisplayBG" type="gadget" size1024="307 586 335 610" background="ui\ingame\ingame_ui_01x_ypack" z="14" texturecoords="0.693 0.625 0.74609375 0.672">
+  </gadget>
+  <gadget name="shipsTimerBG" type="gadget" size1024="233 613 332 623" mouseovertext="$$32711$$" background="ui\ingame\ingame_ui_01x_ypack" z="14" texturecoords="0.693 0.691 0.888671875 0.713">
+  </gadget>
+  <gadget name="shipsTimerFG" type="gadget" size1024="233 613 332 623" mouseovertext="$$32711$$" background="ui\ingame\ingame_ui_01x_ypack" z="16" texturecoords="0.693359375 0.59 0.888671875 0.613">
+  </gadget>
+</layout>

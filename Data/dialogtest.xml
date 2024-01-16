@@ -1,0 +1,8 @@
+<layout>
+  <gadget type="dialog" centervert="" centerhoriz="">
+    <button>Alpha</button>
+    <command>echo("Button Alpha, Check")</command>
+    <button>Two</button>
+    <command>echo("Dis Be Button Two, Mon")Some Dialog Text</command>
+  </gadget>
+</layout>

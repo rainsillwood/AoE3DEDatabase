@@ -1,0 +1,123 @@
+<layout>
+  <gadget name="nativedialog" type="dialog" size1024="181 106 843 634" background="ui\file_system\file_system_background" tilebackground="" hidden="" windowzstyle="" contextexclusive="nativedialog" closeonesc="">
+    <gadget tilebackgroundhoriz="" name="nativedialog-BordersTop" type="gadget" background="ui\file_system\border_top_middle" size1024="209 93 819 109" z="6">
+    </gadget>
+    <gadget tilebackgroundhoriz="" name="nativedialog-BordersBottom" type="gadget" background="ui\file_system\border_bottom_middle" size1024="209 634 819 650" z="6">
+    </gadget>
+    <gadget tilebackgroundvert="" name="nativedialog-BordersLeft" type="gadget" background="ui\file_system\border_side_left" size1024="177 125 185 618" z="6">
+    </gadget>
+    <gadget tilebackgroundvert="" name="nativedialog-BordersRight" type="gadget" background="ui\file_system\border_side_right" size1024="843 125 851 618" z="6">
+    </gadget>
+    <gadget name="nativedialog-BordersLeftTop" type="gadget" background="ui\file_system\border_top_left" size1024="177 93 209 125" z="7">
+    </gadget>
+    <gadget name="nativedialog-BordersLeftBottom" type="gadget" background="ui\file_system\border_bottom_left" size1024="177 618 209 650" z="7">
+    </gadget>
+    <gadget name="nativedialog-BordersRightBottom" type="gadget" background="ui\file_system\border_bottom_right" size1024="819 618 851 650" z="7">
+    </gadget>
+    <gadget name="nativedialog-BordersRightTop" type="gadget" background="ui\file_system\border_top_right" size1024="819 93 851 125" z="7">
+    </gadget>
+    <gadget name="nativedialog-Header" type="gadget" background="" size1024="185 106 843 162" z="9">
+      <gadget name="nativedialog-ScreenLabel" textcentervert="" textcenterhoriz="" textcolor="3 0 88" textfontsize="22" textfont="PregameHeaders" type="formatText" size1024="214 117 810 148" z="10">$$23630$$Native Alliances</gadget>
+      <gadget name="MPLanIP-ScreenSeparator" type="gadget" size1024="185 154 843 156" background="missing" z="50">
+      </gadget>
+    </gadget>
+    <gadget name="nativedialog-Body" type="gadget" background="" size1024="185 163 843 493" z="10">
+      <gadget name="nativedialog-Native0Name" z="13" type="formatText" background="" textfont="AgeUpgradeMedium" textfontsize="17" textcolor="3 0 88" textjustifyright="" size1024="197 173 367 196">Native0</gadget>
+      <gadget name="nativedialog-Native0Portrait-Background" type="gadget" size1024="379 171 506 363" z="5" backgroundcolor="0 0 0">
+      </gadget>
+      <gadget name="nativedialog-Native0Portrait" type="button" size1024="381 173 504 361" z="11" texturecoords="0 0 .66 1" outlinecolor="75 55 30">
+      </gadget>
+      <gadget name="nativedialog-Native0UnitLabel" z="13" type="formatText" background="" textfont="AgeUpgradeMedium" textfontsize="17" textcolor="3 0 88" size1024="200 205 368 228" textjustifyright="">$$25504$$Units</gadget>
+      <gadget name="nativedialog-Native0Unit0" type="button" size1024="216 229 248 261" z="11">
+      </gadget>
+      <gadget name="nativedialog-Native0Unit1" type="button" size1024="256 229 288 261" z="11">
+      </gadget>
+      <gadget name="nativedialog-Native0Unit2" type="button" size1024="296 229 328 261" z="11">
+      </gadget>
+      <gadget name="nativedialog-Native0Unit3" type="button" size1024="335 229 367 261" z="11">
+      </gadget>
+      <gadget name="nativedialog-Native0TechLabel" z="13" type="formatText" background="" textfont="AgeUpgradeMedium" textfontsize="17" textcolor="3 0 88" size1024="200 261 368 284" textjustifyright="">$$25505$$Techs</gadget>
+      <gadget name="nativedialog-Native0Tech0" type="button" size1024="216 285 248 317" z="11">
+      </gadget>
+      <gadget name="nativedialog-Native0Tech1" type="button" size1024="256 285 288 317" z="11">
+      </gadget>
+      <gadget name="nativedialog-Native0Tech2" type="button" size1024="296 285 328 317" z="11">
+      </gadget>
+      <gadget name="nativedialog-Native0Tech3" type="button" size1024="336 285 368 317" z="11">
+      </gadget>
+      <gadget name="nativedialog-Native1Name" z="13" type="formatText" background="" textfont="AgeUpgradeMedium" textfontsize="17" textcolor="3 0 88" textjustifyright="" size1024="195 378 368 401">Native0</gadget>
+      <gadget name="nativedialog-Native1Portrait-Background" type="gadget" size1024="379 376 506 568" z="5" backgroundcolor="0 0 0">
+      </gadget>
+      <gadget name="nativedialog-Native1Portrait" type="button" size1024="381 378 504 566" z="11" texturecoords="0 0 .66 1" outlinecolor="75 55 30">
+      </gadget>
+      <gadget name="nativedialog-Native1UnitLabel" z="13" type="formatText" background="" textfont="AgeUpgradeMedium" textfontsize="17" textcolor="3 0 88" size1024="200 411 368 435" textjustifyright="">$$25504$$Units</gadget>
+      <gadget name="nativedialog-Native1Unit0" type="button" size1024="216 435 248 467" z="11">
+      </gadget>
+      <gadget name="nativedialog-Native1Unit1" type="button" size1024="256 435 288 467" z="11">
+      </gadget>
+      <gadget name="nativedialog-Native1Unit2" type="button" size1024="296 435 328 467" z="11">
+      </gadget>
+      <gadget name="nativedialog-Native1Unit3" type="button" size1024="336 435 368 467" z="11">
+      </gadget>
+      <gadget name="nativedialog-Native1TechLabel" z="13" type="formatText" background="" textfont="AgeUpgradeMedium" textfontsize="17" textcolor="3 0 88" size1024="199 467 368 491" textjustifyright="">$$25505$$Techs</gadget>
+      <gadget name="nativedialog-Native1Tech0" type="button" size1024="216 491 248 523" z="11">
+      </gadget>
+      <gadget name="nativedialog-Native1Tech1" type="button" size1024="256 491 288 523" z="11">
+      </gadget>
+      <gadget name="nativedialog-Native1Tech2" type="button" size1024="296 491 328 523" z="11">
+      </gadget>
+      <gadget name="nativedialog-Native1Tech3" type="button" size1024="336 491 368 523" z="11">
+      </gadget>
+      <gadget name="nativedialog-Native2Name" z="13" type="formatText" background="" textfont="AgeUpgradeMedium" textfontsize="17" textcolor="3 0 88" size1024="657 173 826 196">Native0</gadget>
+      <gadget name="nativedialog-Native2Portrait-Background" type="gadget" size1024="518 171 645 363" z="5" backgroundcolor="0 0 0">
+      </gadget>
+      <gadget name="nativedialog-Native2Portrait" type="button" size1024="520 173 643 361" z="11" texturecoords="0 0 .66 1" outlinecolor="75 55 30">
+      </gadget>
+      <gadget name="nativedialog-Native2UnitLabel" z="13" type="formatText" background="" textfont="AgeUpgradeMedium" textfontsize="17" textcolor="3 0 88" size1024="657 205 824 229">$$25504$$Units</gadget>
+      <gadget name="nativedialog-Native2Unit0" type="button" size1024="657 229 689 261" z="11">
+      </gadget>
+      <gadget name="nativedialog-Native2Unit1" type="button" size1024="697 229 729 261" z="11">
+      </gadget>
+      <gadget name="nativedialog-Native2Unit2" type="button" size1024="737 229 769 261" z="11">
+      </gadget>
+      <gadget name="nativedialog-Native2Unit3" type="button" size1024="777 229 809 261" z="11">
+      </gadget>
+      <gadget name="nativedialog-Native2TechLabel" z="13" type="formatText" background="" textfont="AgeUpgradeMedium" textfontsize="17" textcolor="3 0 88" size1024="657 261 824 284">$$25505$$Techs</gadget>
+      <gadget name="nativedialog-Native2Tech0" type="button" size1024="657 285 689 317" z="11">
+      </gadget>
+      <gadget name="nativedialog-Native2Tech1" type="button" size1024="697 285 729 317" z="11">
+      </gadget>
+      <gadget name="nativedialog-Native2Tech2" type="button" size1024="737 285 769 317" z="11">
+      </gadget>
+      <gadget name="nativedialog-Native2Tech3" type="button" size1024="777 285 809 317" z="11">
+      </gadget>
+      <gadget name="nativedialog-Native3Name" z="13" type="formatText" background="" textfont="AgeUpgradeMedium" textfontsize="17" textcolor="3 0 88" size1024="657 378 826 401">Native0</gadget>
+      <gadget name="nativedialog-Native3Portrait-Background" type="gadget" size1024="518 376 645 568" z="5" backgroundcolor="0 0 0">
+      </gadget>
+      <gadget name="nativedialog-Native3Portrait" type="button" size1024="520 378 643 566" z="11" texturecoords="0 0 .66 1" outlinecolor="75 55 30">
+      </gadget>
+      <gadget name="nativedialog-Native3UnitLabel" z="13" type="formatText" background="" textfont="AgeUpgradeMedium" textfontsize="17" textcolor="3 0 88" size1024="657 411 824 435">$$25504$$Units</gadget>
+      <gadget name="nativedialog-Native3Unit0" type="button" size1024="657 435 689 467" z="11">
+      </gadget>
+      <gadget name="nativedialog-Native3Unit1" type="button" size1024="697 435 729 467" z="11">
+      </gadget>
+      <gadget name="nativedialog-Native3Unit2" type="button" size1024="737 435 769 467" z="11">
+      </gadget>
+      <gadget name="nativedialog-Native3Unit3" type="button" size1024="777 435 809 467" z="11">
+      </gadget>
+      <gadget name="nativedialog-Native3TechLabel" z="13" type="formatText" background="" textfont="AgeUpgradeMedium" textfontsize="17" textcolor="3 0 88" size1024="657 467 824 491">$$25505$$Techs</gadget>
+      <gadget name="nativedialog-Native3Tech0" type="button" size1024="657 491 689 523" z="11">
+      </gadget>
+      <gadget name="nativedialog-Native3Tech1" type="button" size1024="697 491 729 523" z="11">
+      </gadget>
+      <gadget name="nativedialog-Native3Tech2" type="button" size1024="737 491 769 523" z="11">
+      </gadget>
+      <gadget name="nativedialog-Native3Tech3" type="button" size1024="777 491 809 523" z="11">
+      </gadget>
+    </gadget>
+    <gadget name="nativedialog-BottomPanel" type="gadget" size1024="185 577 843 618" z="11">
+      <gadget name="nativedialog-CloseButton" type="stateButton" size1024="704 586 828 618" bevelbutton="" z="94" statebuttonuseinternalstates="" textfont="IngameButtons" textfontsize="18" textcolor="3 0 88" textcenterhoriz="" textcentervert="" mouseovertext="$$23631$$Close the Native Alliances Dialog.">$$21291$$Close<stateentry background="ui\core_ui\button_128x32_normal"></stateentry><stateentry background="ui\core_ui\button_128x32_clicked"></stateentry><stateentry background="ui\core_ui\button_128x32_rollover"></stateentry><stateentry background=""></stateentry></gadget>
+      <gadget name="nativedialog-AllyButton" type="stateButton" size1024="386 586 638 618" bevelbutton="" z="94" statebuttonuseinternalstates="" textfont="IngameButtons" textfontsize="18" textcolor="3 0 88" textcenterhoriz="" textcentervert="" mouseovertext="Set Native Alliances">$$23651$$Set Alliances<stateentry background="ui\core_ui\button_128x32_normal"></stateentry><stateentry background="ui\core_ui\button_128x32_clicked"></stateentry><stateentry background="ui\core_ui\button_128x32_rollover"></stateentry><stateentry background=""></stateentry></gadget>
+    </gadget>
+  </gadget>
+</layout>

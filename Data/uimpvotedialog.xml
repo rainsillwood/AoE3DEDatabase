@@ -1,0 +1,195 @@
+<layout>
+  <gadget name="MPVoteDialog" type="dialog" size1024="0 0 1024 768" background="" windowzstyle="" dontautoclose="">
+    <gadget name="MPVoteDialog-Background" type="gadget" size1024="155 5 872 758" background="ui\core_ui\wood_thick_board_tile" tilebackground="" texturereplace="" z="9">
+      <gadget tilebackgroundhoriz="" name="MPVoteDialog-BordersTop" type="gadget" background="ui\file_system\border_top_middle" texturereplace="" size1024="181 0 844 11" z="3" transparent="">
+      </gadget>
+      <gadget tilebackgroundhoriz="" name="MPVoteDialog-BordersBottom" type="gadget" background="ui\file_system\border_bottom_middle" texturereplace="" size1024="182 757 845 767" z="3" transparent="">
+      </gadget>
+      <gadget name="MPVoteDialog-BordersLeft" type="gadget" background="ui\file_system\border_side_left" size1024="149 32 157 736" texturereplace="" tilebackgroundvert="" transparent="" z="9">
+      </gadget>
+      <gadget name="MPVoteDialog-BordersRight" type="gadget" background="ui\file_system\border_side_right" size1024="868 32 876 736" texturereplace="" tilebackgroundvert="" z="3" transparent="">
+      </gadget>
+      <gadget name="MPVoteDialog-BordersRightTop" type="gadget" background="ui\file_system\border_top_right" size1024="844 0 876 32" texturereplace="" z="4" transparent="" clampbackground="">
+      </gadget>
+      <gadget name="MPVoteDialog-BordersLeftTop" type="gadget" background="ui\file_system\border_top_left" size1024="149 0 181 32" texturereplace="" z="4" transparent="" clampbackground="">
+      </gadget>
+      <gadget name="MPVoteDialog-BordersRightBottom" type="gadget" background="ui\file_system\border_bottom_right" size1024="844 736 876 768" texturereplace="" z="4" transparent="" clampbackground="">
+      </gadget>
+      <gadget name="MPVoteDialog-BordersLeftBottom" type="gadget" background="ui\file_system\border_bottom_left" size1024="149 736 181 768" texturereplace="" z="10" transparent="" clampbackground="">
+      </gadget>
+      <gadget name="MPVoteDialog-TitleCenter" type="gadget" size1024="377 6 633 54" z="9" background="ui\core_ui\title_bar_48_middle">
+      </gadget>
+      <gadget name="MPVoteDialog-TitleLeft" type="gadget" size1024="329 6 377 54" z="9" background="ui\core_ui\title_bar_48_left">
+      </gadget>
+      <gadget name="MPVoteDialog-TitleRight" type="gadget" size1024="633 6 681 54" z="9" background="ui\core_ui\title_bar_48_right">
+      </gadget>
+      <gadget name="MPVoteDialog-CategoryMiddle" type="gadget" size1024="454 75 842 107" z="10" background="ui\core_ui\text_block_tile">
+      </gadget>
+      <gadget name="MPVoteDialog-CategoryLeft" type="gadget" size1024="433 75 465 107" z="10" background="ui\core_ui\text_block_left_end">
+      </gadget>
+      <gadget name="MPVoteDialog-CategoryRight" type="gadget" size1024="826 75 858 107" z="10" background="ui\core_ui\text_block_right_end">
+      </gadget>
+      <gadget name="MPVoteDialog-CategoryB1" type="gadget" size1024="590 84 606 100" z="12" background="ui\core_ui\bolt">
+      </gadget>
+      <gadget name="MPVoteDialog-CategoryB2" type="gadget" size1024="723 84 739 100" z="12" background="ui\core_ui\bolt">
+      </gadget>
+    </gadget>
+    <gadget name="MPVoteDialog-ScreenLabel" textcenterhoriz="" textcolor="253 193 1" textfontsize="22" textfont="PregameHeaders" type="formatText" size1024="378 10 632 41" z="10">$$20160$$Unresponsive Player</gadget>
+    <gadget name="MPVoteDialog-QuitButton" type="stateButton" size1024="398 715 606 748" bevelbutton="" z="51" statebuttonuseinternalstates="" textfont="IngameButtons" textfontsize="18" textcolor="255 255 255" textcenterhoriz="" textcentervert="">$$33157$$Leave Game<stateentry background="ui\core_ui\button_128x32_normal"></stateentry><stateentry background="ui\core_ui\button_128x32_clicked"></stateentry><stateentry background="ui\core_ui\button_128x32_rollover"></stateentry><stateentry background=""></stateentry></gadget>
+    <gadget name="MPVoteDialog-chat-area-container" type="gadget" size1024="170 490 855 704" background="ui\core_ui\chat_panel">
+      <gadget name="MPVoteDialog-ChatInput" enableime="" tilebackground="" type="editBox" size1024="206 667 818 695" textcolor="255 255 255" textcentervert="" enterkey="" textfont="PregameChat" textfontsize="14" editboxmaxchars="200" z="15">
+      </gadget>
+      <gadget name="MPVoteDialog-ChatOutput" type="simpleTextBox" size1024="185 503 842 664" textcolor="255 255 255" textfont="ChatInput" textfontsize="12" scrollvert="" z="10">
+        <vertscrollbar sliderbuttons="" slidervertical="" sliderupbtnset="sliderUpBtn" sliderdownbtnset="sliderDownBtn" sliderpipart="ui\core_ui\scroll_lever" sliderpiptexturecoords="0 0 0.625 0.438" sliderareaart="ui\core_ui\scroll_bar" background="ui\core_ui\scroll_bar">
+        </vertscrollbar>
+      </gadget>
+    </gadget>
+    <gadget name="MPVoteDialog-Entries" type="gadget" size1024="170 114 855 464" z="14" background="ui\core_ui\metal_tile">
+      <gadget name="MPVoteDialog-Entry1" type="gadget" size1024="192 123 843 155" z="14">
+        <gadget name="MPVoteDialog-Entry1-NameBoxL" type="gadget" size1024="201 123 233 155" z="13" background="ui\core_ui\text_bar_32_left">
+        </gadget>
+        <gadget name="MPVoteDialog-Entry1-NameBoxM" type="gadget" size1024="233 123 398 155" z="13" background="ui\core_ui\text_bar_32_middle">
+        </gadget>
+        <gadget name="MPVoteDialog-Entry1-NameBoxR" type="gadget" size1024="398 123 430 155" z="13" background="ui\core_ui\text_bar_32_right">
+        </gadget>
+        <gadget name="MPVoteDialog-Entry1-Name" type="formatText" size1024="210 126 402 151" z="18" textfontsize="18" textfont="Pregamelabels">$$21255$$Player Name</gadget>
+        <gadget name="MPVoteDialog-Entry1-Vote" type="radioset" size1024="445 124 741 155" textcolor="253 193 1" textfontsize="18" textfont="Pregamelabels" radiosetbuttonsize1024="100 36" radiosethorizlayout="" radiosetdefaultbuttonindex="2" z="14" sound="UI_DefaultPregameClickSet" radiocheckedart="ui\core_ui\round_clicked" radiouncheckedart="ui\core_ui\round" radiobtnborder1024="2 2" radiohighlightart="ui\core_ui\round_rollover">
+          <button>[00/00]</button>
+          <button>[00/00]</button>
+        </gadget>
+        <gadget name="MPVoteDialog-Entry1-Timeout" type="formatText" textcolor="253 193 1" textfontsize="18" textfont="Pregamelabels" textcenterhoriz="" size1024="746 126 825 156" z="15">60</gadget>
+      </gadget>
+      <gadget name="MPVoteDialog-Entry2" type="gadget" hidden="" size1024="192 163 843 195" z="15">
+        <gadget name="MPVoteDialog-Entry2-NameBoxL" type="gadget" size1024="201 163 233 195" z="13" background="ui\core_ui\text_bar_32_left">
+        </gadget>
+        <gadget name="MPVoteDialog-Entry2-NameBoxM" type="gadget" size1024="233 163 398 195" z="13" background="ui\core_ui\text_bar_32_middle">
+        </gadget>
+        <gadget name="MPVoteDialog-Entry2-NameBoxR" type="gadget" size1024="398 163 430 195" z="13" background="ui\core_ui\text_bar_32_right">
+        </gadget>
+        <gadget name="MPVoteDialog-Entry2-Name" type="formatText" size1024="210 167 402 192" z="18" textfontsize="18" textfont="Pregamelabels">
+        </gadget>
+        <gadget name="MPVoteDialog-Entry2-Vote" type="radioset" size1024="445 163 741 194" textcolor="253 193 1" textfontsize="18" textfont="Pregamelabels" radiosetbuttonsize1024="100 36" radiosethorizlayout="" radiosetdefaultbuttonindex="2" z="16" sound="UI_DefaultPregameClickSet" radiocheckedart="ui\core_ui\round_clicked" radiouncheckedart="ui\core_ui\round" radiobtnborder1024="2 2" radiohighlightart="ui\core_ui\round_rollover">
+          <button>[00/00]</button>
+          <button>[00/00]</button>
+        </gadget>
+        <gadget name="MPVoteDialog-Entry2-Timeout" type="formatText" textcolor="253 193 1" textfontsize="18" textfont="Pregamelabels" textcenterhoriz="" size1024="746 165 825 197" z="15">
+        </gadget>
+      </gadget>
+      <gadget name="MPVoteDialog-Entry3" type="gadget" hidden="" size1024="192 206 843 238" z="13">
+        <gadget name="MPVoteDialog-Entry3-NameBoxL" type="gadget" size1024="201 206 233 238" z="13" background="ui\core_ui\text_bar_32_left">
+        </gadget>
+        <gadget name="MPVoteDialog-Entry3-NameBoxM" type="gadget" size1024="233 206 398 238" z="13" background="ui\core_ui\text_bar_32_middle">
+        </gadget>
+        <gadget name="MPVoteDialog-Entry4-NameBoxR" type="gadget" size1024="398 206 430 238" z="13" background="ui\core_ui\text_bar_32_right">
+        </gadget>
+        <gadget name="MPVoteDialog-Entry3-Name" type="formatText" size1024="210 210 402 235" z="18" textfontsize="18" textfont="Pregamelabels">
+        </gadget>
+        <gadget name="MPVoteDialog-Entry3-Vote" type="radioset" size1024="445 206 741 237" textcolor="253 193 1" textfontsize="18" textfont="Pregamelabels" radiosetbuttonsize1024="100 36" radiosethorizlayout="" radiosetdefaultbuttonindex="2" z="12" sound="UI_DefaultPregameClickSet" radiocheckedart="ui\core_ui\round_clicked" radiouncheckedart="ui\core_ui\round" radiobtnborder1024="2 2" radiohighlightart="ui\core_ui\round_rollover">
+          <button>[00/00]</button>
+          <button>[00/00]</button>
+        </gadget>
+        <gadget name="MPVoteDialog-Entry3-Timeout" type="formatText" textcolor="253 193 1" textfontsize="18" textfont="Pregamelabels" textcenterhoriz="" size1024="746 208 825 239" z="15">
+        </gadget>
+      </gadget>
+      <gadget name="MPVoteDialog-Entry4" type="gadget" hidden="" size1024="192 249 843 281" z="18">
+        <gadget name="MPVoteDialog-Entry4-NameBoxL" type="gadget" size1024="201 249 233 281" z="13" background="ui\core_ui\text_bar_32_left">
+        </gadget>
+        <gadget name="MPVoteDialog-Entry4-NameBoxM" type="gadget" size1024="233 249 398 281" z="13" background="ui\core_ui\text_bar_32_middle">
+        </gadget>
+        <gadget name="MPVoteDialog-Entry4-NameBoxR" type="gadget" size1024="398 249 430 281" z="13" background="ui\core_ui\text_bar_32_right">
+        </gadget>
+        <gadget name="MPVoteDialog-Entry4-Name" type="formatText" size1024="210 253 402 278" z="18" textfontsize="18" textfont="Pregamelabels">
+        </gadget>
+        <gadget name="MPVoteDialog-Entry4-Vote" type="radioset" size1024="445 249 741 280" textcolor="253 193 1" textfontsize="18" textfont="Pregamelabels" radiosetbuttonsize1024="100 36" radiosethorizlayout="" radiosetdefaultbuttonindex="2" z="20" sound="UI_DefaultPregameClickSet" radiocheckedart="ui\core_ui\round_clicked" radiouncheckedart="ui\core_ui\round" radiobtnborder1024="2 2" radiohighlightart="ui\core_ui\round_rollover">
+          <button>[00/00]</button>
+          <button>[00/00]</button>
+        </gadget>
+        <gadget name="MPVoteDialog-Entry4-Timeout" type="formatText" textcolor="253 193 1" textfontsize="18" textfont="Pregamelabels" textcenterhoriz="" size1024="746 252 825 282" z="15">
+        </gadget>
+      </gadget>
+      <gadget name="MPVoteDialog-Entry5" type="gadget" hidden="" size1024="192 292 843 324" z="17">
+        <gadget name="MPVoteDialog-Entry5-NameBoxL" type="gadget" size1024="201 292 233 324" z="13" background="ui\core_ui\text_bar_32_left">
+        </gadget>
+        <gadget name="MPVoteDialog-Entry5-NameBoxM" type="gadget" size1024="233 292 398 324" z="13" background="ui\core_ui\text_bar_32_middle">
+        </gadget>
+        <gadget name="MPVoteDialog-Entry5-NameBoxR" type="gadget" size1024="398 292 430 324" z="13" background="ui\core_ui\text_bar_32_right">
+        </gadget>
+        <gadget name="MPVoteDialog-Entry5-Name" type="formatText" size1024="210 296 402 321" z="18" textfontsize="18" textfont="Pregamelabels">
+        </gadget>
+        <gadget name="MPVoteDialog-Entry5-Vote" type="radioset" size1024="445 292 741 323" textcolor="253 193 1" textfontsize="18" textfont="Pregamelabels" radiosetbuttonsize1024="100 36" radiosethorizlayout="" radiosetdefaultbuttonindex="2" z="16" sound="UI_DefaultPregameClickSet" radiocheckedart="ui\core_ui\round_clicked" radiouncheckedart="ui\core_ui\round" radiobtnborder1024="2 2" radiohighlightart="ui\core_ui\round_rollover">
+          <button>[00/00]</button>
+          <button>[00/00]</button>
+        </gadget>
+        <gadget name="MPVoteDialog-Entry5-Timeout" type="formatText" textcolor="253 193 1" textfontsize="18" textfont="Pregamelabels" textcenterhoriz="" size1024="746 294 825 326" z="15">
+        </gadget>
+      </gadget>
+      <gadget name="MPVoteDialog-Entry6" type="gadget" hidden="" size1024="192 335 843 367" z="10">
+        <gadget name="MPVoteDialog-Entry6-NameBoxL" type="gadget" size1024="201 335 233 367" z="13" background="ui\core_ui\text_bar_32_left">
+        </gadget>
+        <gadget name="MPVoteDialog-Entry6-NameBoxM" type="gadget" size1024="233 335 398 367" z="13" background="ui\core_ui\text_bar_32_middle">
+        </gadget>
+        <gadget name="MPVoteDialog-Entry6-NameBoxR" type="gadget" size1024="398 335 430 367" z="13" background="ui\core_ui\text_bar_32_right">
+        </gadget>
+        <gadget name="MPVoteDialog-Entry6-Name" type="formatText" size1024="210 339 402 364" z="18" textfontsize="18" textfont="Pregamelabels">
+        </gadget>
+        <gadget name="MPVoteDialog-Entry6-Vote" type="radioset" size1024="445 335 741 366" textcolor="253 193 1" textfontsize="18" textfont="Pregamelabels" radiosetbuttonsize1024="100 36" radiosethorizlayout="" radiosetdefaultbuttonindex="2" z="12" sound="UI_DefaultPregameClickSet" radiocheckedart="ui\core_ui\round_clicked" radiouncheckedart="ui\core_ui\round" radiobtnborder1024="2 2" radiohighlightart="ui\core_ui\round_rollover">
+          <button>[00/00]</button>
+          <button>[00/00]</button>
+        </gadget>
+        <gadget name="MPVoteDialog-Entry6-Timeout" type="formatText" textcolor="253 193 1" textfontsize="18" textfont="Pregamelabels" textcenterhoriz="" size1024="746 338 825 368" z="15">
+        </gadget>
+      </gadget>
+      <gadget name="MPVoteDialog-Entry7" type="gadget" hidden="" size1024="192 378 843 410" z="19">
+        <gadget name="MPVoteDialog-Entry7-NameBoxL" type="gadget" size1024="201 378 233 410" z="13" background="ui\core_ui\text_bar_32_left">
+        </gadget>
+        <gadget name="MPVoteDialog-Entry7-NameBoxM" type="gadget" size1024="233 378 398 410" z="13" background="ui\core_ui\text_bar_32_middle">
+        </gadget>
+        <gadget name="MPVoteDialog-Entry7-NameBoxR" type="gadget" size1024="398 378 430 410" z="13" background="ui\core_ui\text_bar_32_right">
+        </gadget>
+        <gadget name="MPVoteDialog-Entry7-Name" type="formatText" size1024="210 382 402 407" z="18" textfontsize="18" textfont="Pregamelabels">
+        </gadget>
+        <gadget name="MPVoteDialog-Entry7-Vote" type="radioset" size1024="445 378 741 409" textcolor="253 193 1" textfontsize="18" textfont="Pregamelabels" radiosetbuttonsize1024="100 36" radiosethorizlayout="" radiosetdefaultbuttonindex="2" z="20" sound="UI_DefaultPregameClickSet" radiocheckedart="ui\core_ui\round_clicked" radiouncheckedart="ui\core_ui\round" radiobtnborder1024="2 2" radiohighlightart="ui\core_ui\round_rollover">
+          <button>[00/00]</button>
+          <button>[00/00]</button>
+        </gadget>
+        <gadget name="MPVoteDialog-Entry7-Timeout" type="formatText" textcolor="253 193 1" textfontsize="18" textfont="Pregamelabels" textcenterhoriz="" size1024="746 380 825 412" z="15">
+        </gadget>
+      </gadget>
+      <gadget name="MPVoteDialog-Entry8" type="gadget" hidden="" size1024="192 421 843 453" z="12">
+        <gadget name="MPVoteDialog-Entry8-NameBoxL" type="gadget" size1024="201 421 233 453" z="13" background="ui\core_ui\text_bar_32_left">
+        </gadget>
+        <gadget name="MPVoteDialog-Entry8-NameBoxM" type="gadget" size1024="233 421 398 453" z="13" background="ui\core_ui\text_bar_32_middle">
+        </gadget>
+        <gadget name="MPVoteDialog-Entry8-NameBoxR" type="gadget" size1024="398 421 430 453" z="13" background="ui\core_ui\text_bar_32_right">
+        </gadget>
+        <gadget name="MPVoteDialog-Entry8-Name" type="formatText" size1024="210 425 402 450" z="18" textfontsize="18" textfont="Pregamelabels">
+        </gadget>
+        <gadget name="MPVoteDialog-Entry8-Vote" type="radioset" size1024="445 421 741 452" textcolor="253 193 1" textfontsize="18" textfont="Pregamelabels" radiosetbuttonsize1024="100 36" radiosethorizlayout="" radiosetdefaultbuttonindex="2" z="12" sound="UI_DefaultPregameClickSet" radiocheckedart="ui\core_ui\round_clicked" radiouncheckedart="ui\core_ui\round" radiobtnborder1024="2 2" radiohighlightart="ui\core_ui\round_rollover">
+          <button>[00/00]</button>
+          <button>[00/00]</button>
+        </gadget>
+        <gadget name="MPVoteDialog-Entry8-Timeout" type="formatText" textcolor="253 193 1" textfontsize="18" textfont="Pregamelabels" textcenterhoriz="" size1024="746 423 825 455" z="15">
+        </gadget>
+      </gadget>
+      <gadget name="MPVoteDialog-Entries-BorderTopLeft" type="gadget" size1024="167 111 199 143" z="16" background="ui\core_ui\metal_trim_corner_topleft">
+      </gadget>
+      <gadget name="MPVoteDialog-Entries-BorderBottom" type="gadget" size1024="190 460 836 468" z="12" background="ui\core_ui\metal_trim_bottom">
+      </gadget>
+      <gadget name="MPVoteDialog-Entries-BorderLeft" type="gadget" size1024="167 126 175 453" z="14" background="ui\core_ui\metal_trim_left">
+      </gadget>
+      <gadget name="MPVoteDialog-Entries-BorderRight" type="gadget" size1024="850 141 858 455" z="20" background="ui\core_ui\metal_trim_right">
+      </gadget>
+      <gadget name="MPVoteDialog-Entries-BorderTop" type="gadget" size1024="189 111 838 119" z="13" background="ui\core_ui\metal_trim_top">
+      </gadget>
+      <gadget name="MPVoteDialog-Entries-BorderTopRight" type="gadget" size1024="826 110 858 142" z="16" background="ui\core_ui\metal_trim_corner_topright">
+      </gadget>
+      <gadget name="MPVoteDialog-Entries-BorderBottomLeft" type="gadget" size1024="167 436 199 468" z="27" background="ui\core_ui\metal_trim_corner_bottomleft">
+      </gadget>
+      <gadget name="MPVoteDialog-Entries-BorderBottomRight" type="gadget" size1024="826 436 858 468" z="11" background="ui\core_ui\metal_trim_corner_bottomright">
+      </gadget>
+    </gadget>
+    <gadget name="MPVoteDialog-DropText" type="formatText" size1024="478 79 545 102" z="11" textcentervert="" textcolor="253 193 1" textfontsize="12" textfont="RegularIngame">$$20214$$Drop</gadget>
+    <gadget name="MPVoteDialog-WaitText" type="formatText" size1024="611 78 683 102" z="11" textcentervert="" textcolor="253 193 1" textfontsize="12" textfont="RegularIngame">$$22642$$Wait</gadget>
+    <gadget name="MPVoteDialog-TimeoutText" type="formatText" size1024="741 78 820 102" z="10" textcentervert="" textcolor="253 193 1" textfontsize="12" textfont="RegularIngame">$$44362$$Timeout</gadget>
+  </gadget>
+</layout>

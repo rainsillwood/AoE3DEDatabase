@@ -1,0 +1,11 @@
+<layout>
+  <gadget name="SPCNote" type="gadget" backgroundcolor="0 0 0" backgroundalpha="0.5" windowzstyle="" size1024="0 0 1024 768" z="99">
+    <gadget name="SPCNote_Panel" type="gadget" size1024="259 28 771 540" background="ui\core_ui\SPC_HC_Dialog_Note" bevel="" texturecoords="0 0 1 1">
+      <gadget name="SPCNoteDlg_Title" type="formatText" textcentervert="" textcenterhoriz="" textcolor="224 185 2" textfontsize="26" textfont="ScenarioTitleLarge" size1024="339 59 691 91" z="11">
+      </gadget>
+      <gadget name="SPCNoteDlg_Text" type="formatText" textcolor="60 60 60" textfontsize="16" textfont="ObjectivesText" size1024="341 167 706 428" textwrapon="" textmarkup="" z="11">
+      </gadget>
+      <gadget name="SPCNoteDlg_AcceptBtn" type="stateButton" size1024="457 492 585 522" bevelbutton="" z="94" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="255 255 255" textcenterhoriz="" textcentervert="" texturecoords="0 0 1 1">$$18465$$Ok<stateentry background="ui\core_ui\button_128x32_normal"></stateentry><stateentry background="ui\core_ui\button_128x32_clicked"></stateentry><stateentry background="ui\core_ui\button_128x32_rollover"></stateentry><stateentry background=""></stateentry></gadget>
+    </gadget>
+  </gadget>
+</layout>

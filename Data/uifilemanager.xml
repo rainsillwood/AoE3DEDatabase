@@ -1,0 +1,67 @@
+<layout>
+  <gadget name="Filebrowser" type="gadget" backgroundcolor="0 0 0" backgroundalpha="0.5" size1024="0 0 1024 768" z="90">
+    <gadget name="Filebrowser-Panel" type="gadget" size1024="224 150 796 563" background="ui\core_ui\wood_thick_board_tile" tilebackground="" contextexclusive="" moveable="" z="5">
+      <gadget name="Filebrowser-Label" textcentervert="" textcenterhoriz="" textcolor="255 198 2" textfontsize="22" textfont="PregameHeaders" type="formatText" size1024="255 168 765 193" z="11">Save Game</gadget>
+      <gadget name="Filebrowser-Label-background-left" type="gadget" background="ui\core_ui\title_bar_48_left" size1024="255 154 319 218" z="5">
+      </gadget>
+      <gadget name="Filebrowser-Label-background-middle" type="gadget" tilebackgroundhoriz="" background="ui\core_ui\title_bar_48_middle" size1024="319 154 701 218" z="5">
+      </gadget>
+      <gadget name="Filebrowser-Label-background-right" type="gadget" background="ui\core_ui\title_bar_48_right" size1024="701 154 765 218" z="5">
+      </gadget>
+      <gadget name="Filebrowser-curfolder" type="textField" textcolor="0 0 0" textfont="PregameEntry" dropdowndistance="132" dropdownvisitems="5" fieldreadonly="" textfontsize="15" size1024="290 212 732 237" z="5" background="ui\core_ui\dropdown_background2" dropdownbuttonart="ui\core_ui\minimize_down">
+      </gadget>
+      <gadget name="Filebrowser-dirlist" type="list" textcolor="0 0 0" textfont="PeopleListItems" textfontsize="14" background="ui\file_system\file_system_background" tilebackground="" showselect="" buttonsize1024="220 20" scrollhoriz="" columnorder="" size1024="242 245 779 468" z="5" outlinecolor="0 0 0">
+        <horizscrollbar sliderbuttons="" sliderleftbtnset="sliderLeftBtn_18" sliderrightbtnset="sliderRightBtn_18" sliderpipart="ui\file_system\slider_pip_horizontal" sliderareaart="ui\file_system\slider_background_horizontal_18" background="ui\file_system\slider_background" tilebackground="">
+        </horizscrollbar>
+      </gadget>
+      <gadget name="Filebrowser-filenamelabel" background="ui\core_ui\text_block_154" texturecoords="0 0 0.6015625 1" textcentervert="" textcolor="255 198 2" textfontsize="18" textfont="PregameLabels" type="formatText" size1024="234 476 388 508" textcenterhoriz="" z="2">$$18971$$Filename:</gadget>
+      <gadget name="Filebrowser-filenameGroup" type="gadget" size1024="394 476 756 508" z="5">
+        <gadget name="Filebrowser-filename-background-left" type="gadget" background="ui\core_ui\text_bar_32_left" size1024="394 476 426 508" z="5">
+        </gadget>
+        <gadget name="Filebrowser-filename-background-middle" type="gadget" tilebackgroundhoriz="" background="ui\core_ui\text_bar_32_middle" size1024="426 476 724 508" z="5">
+        </gadget>
+        <gadget name="Filebrowser-filename-background-right" type="gadget" background="ui\core_ui\text_bar_32_right" size1024="724 476 756 508" z="5">
+        </gadget>
+        <gadget name="Filebrowser-filename" type="editBox" size1024="411 480 739 503" textfont="PregameEntry" textfontsize="15" textcolor="0 0 0" enterkey="" z="7" editboxmaxchars="127" enableime="">
+        </gadget>
+      </gadget>
+      <gadget name="Filebrowser-dirupbtn" type="stateButton" size1024="740 214 761 235" bevelbutton="" z="45" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="255 255 255" textcenterhoriz="" textcentervert="">
+        <stateentry background="ui\file_system\directory_up">
+        </stateentry>
+        <stateentry background="ui\file_system\directory_up_clicked">
+        </stateentry>
+        <stateentry background="ui\file_system\directory_up_rollover">
+        </stateentry>
+        <stateentry background="">
+        </stateentry>
+      </gadget>
+      <gadget name="Filebrowser-actionbtn" type="stateButton" size1024="380 517 508 549" bevelbutton="" z="46" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="255 255 255" textcenterhoriz="" textcentervert="" texturecoords="0 0 1 1">$$18970$$Action<stateentry background="ui\core_ui\button_med_normal"></stateentry><stateentry background="ui\core_ui\button_med_clicked"></stateentry><stateentry background="ui\core_ui\button_med_high"></stateentry><stateentry background=""></stateentry></gadget>
+      <gadget name="Filebrowser-cancelbtn" type="stateButton" size1024="516 517 644 549" bevelbutton="" z="47" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="255 255 255" textcenterhoriz="" textcentervert="" texturecoords="0 0 1 1">$$18466$$Cancel<stateentry background="ui\core_ui\button_med_normal"></stateentry><stateentry background="ui\core_ui\button_med_clicked"></stateentry><stateentry background="ui\core_ui\button_med_high"></stateentry><stateentry background=""></stateentry></gadget>
+      <gadget name="Filebrowser-BordersLeftTop" type="gadget" background="ui\file_system\border_top_left" size1024="216 142 248 174" clampbackground="" z="10">
+      </gadget>
+      <gadget name="Filebrowser-BordersRightTop" type="gadget" background="ui\file_system\border_top_right" size1024="772 142 804 174" clampbackground="" z="10">
+      </gadget>
+      <gadget tilebackgroundhoriz="" name="Filebrowser-BordersTop" type="gadget" background="ui\file_system\border_top_middle" size1024="224 142 796 150" z="9">
+      </gadget>
+      <gadget tilebackgroundvert="" name="Filebrowser-BordersLeft" type="gadget" background="ui\file_system\border_side_left" size1024="216 150 224 563" z="9">
+      </gadget>
+      <gadget tilebackgroundvert="" name="Filebrowser-BordersRight" type="gadget" background="ui\file_system\border_side_right" size1024="796 150 804 563" z="4">
+      </gadget>
+      <gadget tilebackgroundhoriz="" name="Filebrowser-BordersBottom" type="gadget" background="ui\file_system\border_bottom_middle" size1024="224 563 796 571" z="9">
+      </gadget>
+      <gadget name="Filebrowser-BordersLeftBottom" type="gadget" background="ui\file_system\border_bottom_left" size1024="216 539 248 571" clampbackground="" z="10">
+      </gadget>
+      <gadget name="Filebrowser-BordersRightBottom" type="gadget" background="ui\file_system\border_bottom_right" size1024="772 539 804 571" clampbackground="" z="10">
+      </gadget>
+      <gadget type="dialog" name="invalidFileDialog" size1024="330 192 694 423" bevel="" background="ui\ingame\resign_window" texturecoords="0 0 0.7109375 0.90234375" z="50" dialogdefaultbuttonindex="0" hidden="">
+        <gadget name="invalidFileDialog-prompt" type="formatText" textcolor="255 198 2" textfont="PregameErrorText" textfontsize="16" textcentervert="" textcenterhoriz="" size1024="367 235 657 350" z="10">Message Text Goes Here</gadget>
+        <gadget name="invalidFileDialog-OKButton" type="stateButton" size1024="432 378 592 410" bevelbutton="" z="10" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="255 255 255" textcenterhoriz="" textcentervert="" texturecoords="0 0 1 1">$$18465$$OK<command>gadgetUnReal("invalidFileDialog")</command><stateentry background="ui\core_ui\button_128x32_normal"></stateentry><stateentry background="ui\core_ui\button_128x32_clicked"></stateentry><stateentry background="ui\core_ui\button_128x32_rollover"></stateentry><stateentry background=""></stateentry></gadget>
+      </gadget>
+      <gadget type="dialog" name="warningDialog" size1024="330 192 694 423" bevel="" background="ui\ingame\resign_window" texturecoords="0 0 0.7109375 0.90234375" hidden="" z="8" dialogdefaultbuttonindex="1">
+        <gadget name="warningDialog-prompt" type="formatText" textcolor="255 198 2" textfont="PregameErrorText" textfontsize="16" textcentervert="" textcenterhoriz="" size1024="367 235 657 350" z="11">Message Text Goes Here</gadget>
+        <gadget name="warningDialog-OKButton" type="stateButton" size1024="380 378 508 410" bevelbutton="" z="50" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="255 255 255" textcenterhoriz="" textcentervert="" texturecoords="0 0 1 1">$$18465$$OK<stateentry background="ui\core_ui\button_128x32_normal"></stateentry><stateentry background="ui\core_ui\button_128x32_clicked"></stateentry><stateentry background="ui\core_ui\button_128x32_rollover"></stateentry><stateentry background=""></stateentry></gadget>
+        <gadget name="warningDialog-CancelButton" type="stateButton" size1024="516 378 644 410" bevelbutton="" z="48" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="255 255 255" textcenterhoriz="" textcentervert="" texturecoords="0 0 1 1">$$18466$$Cancel<command>gadgetUnReal("warningDialog")</command><stateentry background="ui\core_ui\button_128x32_normal"></stateentry><stateentry background="ui\core_ui\button_128x32_clicked"></stateentry><stateentry background="ui\core_ui\button_128x32_rollover"></stateentry><stateentry background=""></stateentry></gadget>
+      </gadget>
+    </gadget>
+  </gadget>
+</layout>

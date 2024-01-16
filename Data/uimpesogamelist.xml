@@ -1,0 +1,679 @@
+<layout>
+  <gadget name="MPESOGameList-ScreenContainer" hidden="" type="gadget" size1024="211 108 1024 768" background="ui\eso\eso_game_browser" texturecoords="0 0 0.7939453 0.6445313" z="20">
+    <gadget name="MPESOGameList-GameList" type="gadget" size1024="213 152 858 726" z="11 ">
+      <gadget name="MPESOGameList-Entry1" type="gadget" donthighlight="" size1024="213 182 818 214" z="12">
+        <gadget name="MPESOGameList-Entry1-GameTypeIconSupremacy" type="gadget" size1024="215 188 238 211" background="ui\ingame\game_type_supremacy" texturecoords="0 0 0.75 0.75" z="12" transparent="">
+        </gadget>
+        <gadget name="MPESOGameList-Entry1-GameTypeIconDeathmatch" type="gadget" size1024="215 188 238 211" background="ui\ingame\game_type_deathmatch" texturecoords="0 0 0.75 0.75" z="12" transparent="">
+        </gadget>
+        <gadget name="MPESOGameList-Entry1-GameTypeIconScenario" type="gadget" size1024="215 188 238 211" background="ui\ingame\game_type_custom" texturecoords="0 0 0.75 0.75" z="12" transparent="">
+        </gadget>
+        <gadget name="MPESOGameList-Entry1-Name" type="button" donthighlight="" textcentervert="" textcenterhoriz="" textfont="AgeText" textfontsize="12" size1024="235 182 429 214" z="12">
+          <gadget name="MPESOGameList-Entry1-PasswordProtectedIcon" background="ui\eso\lock_icon" type="gadget" size1024="234 186 254 214" z="12" texturecoords="0 0 0.625 0.875">
+          </gadget>
+          <gadget name="MPESOGameList-Entry1-ContentXPack" background="ui\eso\game2" type="gadget" size1024="405 188 428 211" z="12" texturecoords="0 0 1 1">
+          </gadget>
+        </gadget>
+        <gadget name="MPESOGameList-Entry1-Players" type="button" donthighlight="" textcentervert="" textcenterhoriz="" textfont="AgeText" textfontsize="12" size1024="432 182 494 214" z="12">
+        </gadget>
+        <gadget name="MPESOGameList-Entry1-MapName" type="button" donthighlight="" textcentervert="" textcenterhoriz="" textfont="AgeText" textfontsize="12" size1024="503 182 605 214" z="12">
+        </gadget>
+        <gadget name="MPESOGameList-Entry1-GameType" type="button" donthighlight="" textcentervert="" textcenterhoriz="" textfont="AgeText" textfontsize="12" size1024="609 182 697 214" z="12">
+        </gadget>
+        <gadget name="MPESOGameList-Entry1-Rating" type="button" donthighlight="" textcentervert="" textcenterhoriz="" textfont="AgeText" textfontsize="12" size1024="702 182 782 214" z="12">
+        </gadget>
+        <gadget name="MPESOGameList-Entry1-Time" type="button" donthighlight="" textcentervert="" textcenterhoriz="" textfont="AgeText" textfontsize="12" size1024="788 182 841 214" z="12">
+        </gadget>
+      </gadget>
+      <gadget name="MPESOGameList-Entry2" type="gadget" donthighlight="" size1024="213 214 818 246" z="12">
+        <gadget name="MPESOGameList-Entry2-GameTypeIconSupremacy" type="gadget" size1024="215 220 238 243" background="ui\ingame\game_type_supremacy" texturecoords="0 0 0.75 0.75" z="12" transparent="">
+        </gadget>
+        <gadget name="MPESOGameList-Entry2-GameTypeIconDeathmatch" type="gadget" size1024="215 220 238 243" background="ui\ingame\game_type_deathmatch" texturecoords="0 0 0.75 0.75" z="12" transparent="">
+        </gadget>
+        <gadget name="MPESOGameList-Entry2-GameTypeIconScenario" type="gadget" size1024="215 220 238 243" background="ui\ingame\game_type_custom" texturecoords="0 0 0.75 0.75" z="12" transparent="">
+        </gadget>
+        <gadget name="MPESOGameList-Entry2-Name" type="button" donthighlight="" textcentervert="" textcenterhoriz="" textfont="AgeText" textfontsize="12" size1024="239 214 429 246" z="12">
+          <gadget name="MPESOGameList-Entry2-PasswordProtectedIcon" background="ui\eso\lock_icon" type="gadget" textcentervert="" textcenterhoriz="" size1024="234 218 254 246" z="12" texturecoords="0 0 0.625 0.875">
+          </gadget>
+          <gadget name="MPESOGameList-Entry2-ContentXPack" background="ui\eso\game2" type="gadget" size1024="405 220 428 243" z="12" texturecoords="0 0 1 1">
+          </gadget>
+        </gadget>
+        <gadget name="MPESOGameList-Entry2-Players" type="button" donthighlight="" textcentervert="" textcenterhoriz="" textfont="AgeText" textfontsize="12" size1024="432 214 494 246" z="12">
+        </gadget>
+        <gadget name="MPESOGameList-Entry2-MapName" type="button" donthighlight="" textcentervert="" textcenterhoriz="" textfont="AgeText" textfontsize="12" size1024="503 214 605 246" z="12">
+        </gadget>
+        <gadget name="MPESOGameList-Entry2-GameType" type="button" donthighlight="" textcentervert="" textcenterhoriz="" textfont="AgeText" textfontsize="12" size1024="609 214 697 246" z="12">
+        </gadget>
+        <gadget name="MPESOGameList-Entry2-Rating" type="button" donthighlight="" textcentervert="" textcenterhoriz="" textfont="AgeText" textfontsize="12" size1024="702 214 782 246" z="12">
+        </gadget>
+        <gadget name="MPESOGameList-Entry2-Time" type="button" donthighlight="" textcentervert="" textcenterhoriz="" textfont="AgeText" textfontsize="12" size1024="788 214 841 246" z="12">
+        </gadget>
+      </gadget>
+      <gadget name="MPESOGameList-Entry3" type="gadget" donthighlight="" size1024="213 246 818 278" z="12">
+        <gadget name="MPESOGameList-Entry3-GameTypeIconSupremacy" type="gadget" size1024="215 252 238 275" background="ui\ingame\game_type_supremacy" texturecoords="0 0 0.75 0.75" z="12" transparent="">
+        </gadget>
+        <gadget name="MPESOGameList-Entry3-GameTypeIconDeathmatch" type="gadget" size1024="215 252 238 275" background="ui\ingame\game_type_deathmatch" texturecoords="0 0 0.75 0.75" z="12" transparent="">
+        </gadget>
+        <gadget name="MPESOGameList-Entry3-GameTypeIconScenario" type="gadget" size1024="215 252 238 275" background="ui\ingame\game_type_custom" texturecoords="0 0 0.75 0.75" z="12" transparent="">
+        </gadget>
+        <gadget name="MPESOGameList-Entry3-Name" type="button" donthighlight="" textcentervert="" textcenterhoriz="" textfont="AgeText" textfontsize="12" size1024="239 246 429 278" z="12">
+          <gadget name="MPESOGameList-Entry3-PasswordProtectedIcon" background="ui\eso\lock_icon" type="gadget" textcentervert="" textcenterhoriz="" size1024="234 250 254 278" z="12" texturecoords="0 0 0.625 0.875">
+          </gadget>
+          <gadget name="MPESOGameList-Entry3-ContentXPack" background="ui\eso\game2" type="gadget" size1024="405 252 428 275" z="12" texturecoords="0 0 1 1">
+          </gadget>
+        </gadget>
+        <gadget name="MPESOGameList-Entry3-Players" type="button" donthighlight="" textcentervert="" textcenterhoriz="" textfont="AgeText" textfontsize="12" size1024="432 246 494 278" z="12">
+        </gadget>
+        <gadget name="MPESOGameList-Entry3-MapName" type="button" donthighlight="" textcentervert="" textcenterhoriz="" textfont="AgeText" textfontsize="12" size1024="503 246 605 278" z="12">
+        </gadget>
+        <gadget name="MPESOGameList-Entry3-GameType" type="button" donthighlight="" textcentervert="" textcenterhoriz="" textfont="AgeText" textfontsize="12" size1024="609 246 697 278" z="12">
+        </gadget>
+        <gadget name="MPESOGameList-Entry3-Rating" type="button" donthighlight="" textcentervert="" textcenterhoriz="" textfont="AgeText" textfontsize="12" size1024="702 246 782 278" z="12">
+        </gadget>
+        <gadget name="MPESOGameList-Entry3-Time" type="button" donthighlight="" textcentervert="" textcenterhoriz="" textfont="AgeText" textfontsize="12" size1024="788 246 841 278" z="12">
+        </gadget>
+      </gadget>
+      <gadget name="MPESOGameList-Entry4" type="gadget" donthighlight="" size1024="213 278 818 310" z="12">
+        <gadget name="MPESOGameList-Entry4-GameTypeIconSupremacy" type="gadget" size1024="215 284 238 307" background="ui\ingame\game_type_supremacy" texturecoords="0 0 0.75 0.75" z="12" transparent="">
+        </gadget>
+        <gadget name="MPESOGameList-Entry4-GameTypeIconDeathmatch" type="gadget" size1024="215 284 238 307" background="ui\ingame\game_type_deathmatch" texturecoords="0 0 0.75 0.75" z="12" transparent="">
+        </gadget>
+        <gadget name="MPESOGameList-Entry4-GameTypeIconScenario" type="gadget" size1024="215 284 238 307" background="ui\ingame\game_type_custom" texturecoords="0 0 0.75 0.75" z="12" transparent="">
+        </gadget>
+        <gadget name="MPESOGameList-Entry4-Name" type="button" donthighlight="" textcentervert="" textcenterhoriz="" textfont="AgeText" textfontsize="12" size1024="239 278 429 310" z="12">
+          <gadget name="MPESOGameList-Entry4-PasswordProtectedIcon" background="ui\eso\lock_icon" type="gadget" textcentervert="" textcenterhoriz="" size1024="234 282 254 310" z="12" texturecoords="0 0 0.625 0.875">
+          </gadget>
+          <gadget name="MPESOGameList-Entry4-ContentXPack" background="ui\eso\game2" type="gadget" size1024="405 284 428 307" z="12" texturecoords="0 0 1 1">
+          </gadget>
+        </gadget>
+        <gadget name="MPESOGameList-Entry4-Players" type="button" donthighlight="" textcentervert="" textcenterhoriz="" textfont="AgeText" textfontsize="12" size1024="432 278 494 310" z="12">
+        </gadget>
+        <gadget name="MPESOGameList-Entry4-MapName" type="button" donthighlight="" textcentervert="" textcenterhoriz="" textfont="AgeText" textfontsize="12" size1024="503 278 605 310" z="12">
+        </gadget>
+        <gadget name="MPESOGameList-Entry4-GameType" type="button" donthighlight="" textcentervert="" textcenterhoriz="" textfont="AgeText" textfontsize="12" size1024="609 278 697 310" z="12">
+        </gadget>
+        <gadget name="MPESOGameList-Entry4-Rating" type="button" donthighlight="" textcentervert="" textcenterhoriz="" textfont="AgeText" textfontsize="12" size1024="702 278 782 310" z="12">
+        </gadget>
+        <gadget name="MPESOGameList-Entry4-Time" type="button" donthighlight="" textcentervert="" textcenterhoriz="" textfont="AgeText" textfontsize="12" size1024="788 278 841 310" z="12">
+        </gadget>
+      </gadget>
+      <gadget name="MPESOGameList-Entry5" type="gadget" donthighlight="" size1024="213 310 818 342" z="12">
+        <gadget name="MPESOGameList-Entry5-GameTypeIconSupremacy" type="gadget" size1024="215 316 238 339" background="ui\ingame\game_type_supremacy" texturecoords="0 0 0.75 0.75" z="12" transparent="">
+        </gadget>
+        <gadget name="MPESOGameList-Entry5-GameTypeIconDeathmatch" type="gadget" size1024="215 316 238 339" background="ui\ingame\game_type_deathmatch" texturecoords="0 0 0.75 0.75" z="12" transparent="">
+        </gadget>
+        <gadget name="MPESOGameList-Entry5-GameTypeIconScenario" type="gadget" size1024="215 316 238 339" background="ui\ingame\game_type_custom" texturecoords="0 0 0.75 0.75" z="12" transparent="">
+        </gadget>
+        <gadget name="MPESOGameList-Entry5-Name" type="button" donthighlight="" textcentervert="" textcenterhoriz="" textfont="AgeText" textfontsize="12" size1024="239 310 429 342" z="12">
+          <gadget name="MPESOGameList-Entry5-PasswordProtectedIcon" background="ui\eso\lock_icon" type="gadget" textcentervert="" textcenterhoriz="" size1024="234 314 254 342" z="12" texturecoords="0 0 0.625 0.875">
+          </gadget>
+          <gadget name="MPESOGameList-Entry5-ContentXPack" background="ui\eso\game2" type="gadget" size1024="405 316 428 339" z="12" texturecoords="0 0 1 1">
+          </gadget>
+        </gadget>
+        <gadget name="MPESOGameList-Entry5-Players" type="button" donthighlight="" textcentervert="" textcenterhoriz="" textfont="AgeText" textfontsize="12" size1024="432 310 494 342" z="12">
+        </gadget>
+        <gadget name="MPESOGameList-Entry5-MapName" type="button" donthighlight="" textcentervert="" textcenterhoriz="" textfont="AgeText" textfontsize="12" size1024="503 310 605 342" z="12">
+        </gadget>
+        <gadget name="MPESOGameList-Entry5-GameType" type="button" donthighlight="" textcentervert="" textcenterhoriz="" textfont="AgeText" textfontsize="12" size1024="609 310 697 342" z="12">
+        </gadget>
+        <gadget name="MPESOGameList-Entry5-Rating" type="button" donthighlight="" textcentervert="" textcenterhoriz="" textfont="AgeText" textfontsize="12" size1024="702 310 782 342" z="12">
+        </gadget>
+        <gadget name="MPESOGameList-Entry5-Time" type="button" donthighlight="" textcentervert="" textcenterhoriz="" textfont="AgeText" textfontsize="12" size1024="788 310 841 342" z="12">
+        </gadget>
+      </gadget>
+      <gadget name="MPESOGameList-Entry6" type="gadget" donthighlight="" size1024="213 342 818 374" z="12">
+        <gadget name="MPESOGameList-Entry6-GameTypeIconSupremacy" type="gadget" size1024="215 348 238 371" background="ui\ingame\game_type_supremacy" texturecoords="0 0 0.75 0.75" z="12" transparent="">
+        </gadget>
+        <gadget name="MPESOGameList-Entry6-GameTypeIconDeathmatch" type="gadget" size1024="215 348 238 371" background="ui\ingame\game_type_deathmatch" texturecoords="0 0 0.75 0.75" z="12" transparent="">
+        </gadget>
+        <gadget name="MPESOGameList-Entry6-GameTypeIconScenario" type="gadget" size1024="215 348 238 371" background="ui\ingame\game_type_custom" texturecoords="0 0 0.75 0.75" z="12" transparent="">
+        </gadget>
+        <gadget name="MPESOGameList-Entry6-Name" type="button" donthighlight="" textcentervert="" textcenterhoriz="" textfont="AgeText" textfontsize="12" size1024="239 342 429 374" z="12">
+          <gadget name="MPESOGameList-Entry6-PasswordProtectedIcon" background="ui\eso\lock_icon" type="gadget" textcentervert="" textcenterhoriz="" size1024="234 346 254 374" z="12" texturecoords="0 0 0.625 0.875">
+          </gadget>
+          <gadget name="MPESOGameList-Entry6-ContentXPack" background="ui\eso\game2" type="gadget" size1024="405 348 428 371" z="12" texturecoords="0 0 1 1">
+          </gadget>
+        </gadget>
+        <gadget name="MPESOGameList-Entry6-Players" type="button" donthighlight="" textcentervert="" textcenterhoriz="" textfont="AgeText" textfontsize="12" size1024="432 342 494 374" z="12">
+        </gadget>
+        <gadget name="MPESOGameList-Entry6-MapName" type="button" donthighlight="" textcentervert="" textcenterhoriz="" textfont="AgeText" textfontsize="12" size1024="503 342 605 374" z="12">
+        </gadget>
+        <gadget name="MPESOGameList-Entry6-GameType" type="button" donthighlight="" textcentervert="" textcenterhoriz="" textfont="AgeText" textfontsize="12" size1024="609 342 697 374" z="12">
+        </gadget>
+        <gadget name="MPESOGameList-Entry6-Rating" type="button" donthighlight="" textcentervert="" textcenterhoriz="" textfont="AgeText" textfontsize="12" size1024="702 342 782 374" z="12">
+        </gadget>
+        <gadget name="MPESOGameList-Entry6-Time" type="button" donthighlight="" textcentervert="" textcenterhoriz="" textfont="AgeText" textfontsize="12" size1024="788 342 841 374" z="12">
+        </gadget>
+      </gadget>
+      <gadget name="MPESOGameList-Entry7" type="gadget" donthighlight="" size1024="213 374 818 406" z="12">
+        <gadget name="MPESOGameList-Entry7-GameTypeIconSupremacy" type="gadget" size1024="215 380 238 403" background="ui\ingame\game_type_supremacy" texturecoords="0 0 0.75 0.75" z="12" transparent="">
+        </gadget>
+        <gadget name="MPESOGameList-Entry7-GameTypeIconDeathmatch" type="gadget" size1024="215 380 238 403" background="ui\ingame\game_type_deathmatch" texturecoords="0 0 0.75 0.75" z="12" transparent="">
+        </gadget>
+        <gadget name="MPESOGameList-Entry7-GameTypeIconScenario" type="gadget" size1024="215 380 238 403" background="ui\ingame\game_type_custom" texturecoords="0 0 0.75 0.75" z="12" transparent="">
+        </gadget>
+        <gadget name="MPESOGameList-Entry7-Name" type="button" donthighlight="" textcentervert="" textcenterhoriz="" textfont="AgeText" textfontsize="12" size1024="239 374 429 406" z="12">
+          <gadget name="MPESOGameList-Entry7-PasswordProtectedIcon" background="ui\eso\lock_icon" type="gadget" textcentervert="" textcenterhoriz="" size1024="234 378 254 406" z="12" texturecoords="0 0 0.625 0.875">
+          </gadget>
+          <gadget name="MPESOGameList-Entry7-ContentXPack" background="ui\eso\game2" type="gadget" size1024="405 380 428 403" z="12" texturecoords="0 0 1 1">
+          </gadget>
+        </gadget>
+        <gadget name="MPESOGameList-Entry7-Players" type="button" donthighlight="" textcentervert="" textcenterhoriz="" textfont="AgeText" textfontsize="12" size1024="432 374 494 406" z="12">
+        </gadget>
+        <gadget name="MPESOGameList-Entry7-MapName" type="button" donthighlight="" textcentervert="" textcenterhoriz="" textfont="AgeText" textfontsize="12" size1024="503 374 605 406" z="12">
+        </gadget>
+        <gadget name="MPESOGameList-Entry7-GameType" type="button" donthighlight="" textcentervert="" textcenterhoriz="" textfont="AgeText" textfontsize="12" size1024="609 374 697 406" z="12">
+        </gadget>
+        <gadget name="MPESOGameList-Entry7-Rating" type="button" donthighlight="" textcentervert="" textcenterhoriz="" textfont="AgeText" textfontsize="12" size1024="702 374 782 406" z="12">
+        </gadget>
+        <gadget name="MPESOGameList-Entry7-Time" type="button" donthighlight="" textcentervert="" textcenterhoriz="" textfont="AgeText" textfontsize="12" size1024="788 374 841 406" z="12">
+        </gadget>
+      </gadget>
+      <gadget name="MPESOGameList-Entry8" type="gadget" donthighlight="" size1024="213 406 818 438" z="12">
+        <gadget name="MPESOGameList-Entry8-GameTypeIconSupremacy" type="gadget" size1024="215 412 238 435" background="ui\ingame\game_type_supremacy" texturecoords="0 0 0.75 0.75" z="12" transparent="">
+        </gadget>
+        <gadget name="MPESOGameList-Entry8-GameTypeIconDeathmatch" type="gadget" size1024="215 412 238 435" background="ui\ingame\game_type_deathmatch" texturecoords="0 0 0.75 0.75" z="12" transparent="">
+        </gadget>
+        <gadget name="MPESOGameList-Entry8-GameTypeIconScenario" type="gadget" size1024="215 412 238 435" background="ui\ingame\game_type_custom" texturecoords="0 0 0.75 0.75" z="12" transparent="">
+        </gadget>
+        <gadget name="MPESOGameList-Entry8-Name" type="button" donthighlight="" textcentervert="" textcenterhoriz="" textfont="AgeText" textfontsize="12" size1024="239 406 429 438" z="12">
+          <gadget name="MPESOGameList-Entry8-PasswordProtectedIcon" background="ui\eso\lock_icon" type="gadget" textcentervert="" textcenterhoriz="" size1024="234 410 254 438" z="12" texturecoords="0 0 0.625 0.875">
+          </gadget>
+          <gadget name="MPESOGameList-Entry8-ContentXPack" background="ui\eso\game2" type="gadget" size1024="405 412 428 435" z="12" texturecoords="0 0 1 1">
+          </gadget>
+        </gadget>
+        <gadget name="MPESOGameList-Entry8-Players" type="button" donthighlight="" textcentervert="" textcenterhoriz="" textfont="AgeText" textfontsize="12" size1024="432 406 494 438" z="12">
+        </gadget>
+        <gadget name="MPESOGameList-Entry8-MapName" type="button" donthighlight="" textcentervert="" textcenterhoriz="" textfont="AgeText" textfontsize="12" size1024="503 406 605 438" z="12">
+        </gadget>
+        <gadget name="MPESOGameList-Entry8-GameType" type="button" donthighlight="" textcentervert="" textcenterhoriz="" textfont="AgeText" textfontsize="12" size1024="609 406 697 438" z="12">
+        </gadget>
+        <gadget name="MPESOGameList-Entry8-Rating" type="button" donthighlight="" textcentervert="" textcenterhoriz="" textfont="AgeText" textfontsize="12" size1024="702 406 782 438" z="12">
+        </gadget>
+        <gadget name="MPESOGameList-Entry8-Time" type="button" donthighlight="" textcentervert="" textcenterhoriz="" textfont="AgeText" textfontsize="12" size1024="788 406 841 438" z="12">
+        </gadget>
+      </gadget>
+      <gadget name="MPESOGameList-Entry9" type="gadget" donthighlight="" size1024="213 438 818 470" z="12">
+        <gadget name="MPESOGameList-Entry9-GameTypeIconSupremacy" type="gadget" size1024="215 444 238 467" background="ui\ingame\game_type_supremacy" texturecoords="0 0 0.75 0.75" z="12" transparent="">
+        </gadget>
+        <gadget name="MPESOGameList-Entry9-GameTypeIconDeathmatch" type="gadget" size1024="215 444 238 467" background="ui\ingame\game_type_deathmatch" texturecoords="0 0 0.75 0.75" z="12" transparent="">
+        </gadget>
+        <gadget name="MPESOGameList-Entry9-GameTypeIconScenario" type="gadget" size1024="215 444 238 467" background="ui\ingame\game_type_custom" texturecoords="0 0 0.75 0.75" z="12" transparent="">
+        </gadget>
+        <gadget name="MPESOGameList-Entry9-Name" type="button" donthighlight="" textcentervert="" textcenterhoriz="" textfont="AgeText" textfontsize="12" size1024="239 438 429 470" z="12">
+          <gadget name="MPESOGameList-Entry9-PasswordProtectedIcon" background="ui\eso\lock_icon" type="gadget" textcentervert="" textcenterhoriz="" size1024="234 442 254 470" z="12" texturecoords="0 0 0.625 0.875">
+          </gadget>
+          <gadget name="MPESOGameList-Entry9-ContentXPack" background="ui\eso\game2" type="gadget" size1024="405 444 428 467" z="12" texturecoords="0 0 1 1">
+          </gadget>
+        </gadget>
+        <gadget name="MPESOGameList-Entry9-Players" type="button" donthighlight="" textcentervert="" textcenterhoriz="" textfont="AgeText" textfontsize="12" size1024="432 438 494 470" z="12">
+        </gadget>
+        <gadget name="MPESOGameList-Entry9-MapName" type="button" donthighlight="" textcentervert="" textcenterhoriz="" textfont="AgeText" textfontsize="12" size1024="503 438 605 470" z="12">
+        </gadget>
+        <gadget name="MPESOGameList-Entry9-GameType" type="button" donthighlight="" textcentervert="" textcenterhoriz="" textfont="AgeText" textfontsize="12" size1024="609 438 697 470" z="12">
+        </gadget>
+        <gadget name="MPESOGameList-Entry9-Rating" type="button" donthighlight="" textcentervert="" textcenterhoriz="" textfont="AgeText" textfontsize="12" size1024="702 438 782 470" z="12">
+        </gadget>
+        <gadget name="MPESOGameList-Entry9-Time" type="button" donthighlight="" textcentervert="" textcenterhoriz="" textfont="AgeText" textfontsize="12" size1024="788 438 841 470" z="12">
+        </gadget>
+      </gadget>
+      <gadget name="MPESOGameList-Entry10" type="gadget" donthighlight="" size1024="213 470 818 502" z="12">
+        <gadget name="MPESOGameList-Entry10-GameTypeIconSupremacy" type="gadget" size1024="215 476 238 499" background="ui\ingame\game_type_supremacy" texturecoords="0 0 0.75 0.75" z="12" transparent="">
+        </gadget>
+        <gadget name="MPESOGameList-Entry10-GameTypeIconDeathmatch" type="gadget" size1024="215 476 238 499" background="ui\ingame\game_type_deathmatch" texturecoords="0 0 0.75 0.75" z="12" transparent="">
+        </gadget>
+        <gadget name="MPESOGameList-Entry10-GameTypeIconScenario" type="gadget" size1024="215 476 238 499" background="ui\ingame\game_type_custom" texturecoords="0 0 0.75 0.75" z="12" transparent="">
+        </gadget>
+        <gadget name="MPESOGameList-Entry10-Name" type="button" donthighlight="" textcentervert="" textcenterhoriz="" textfont="AgeText" textfontsize="12" size1024="239 470 429 502" z="12">
+          <gadget name="MPESOGameList-Entry10-PasswordProtectedIcon" background="ui\eso\lock_icon" type="gadget" textcentervert="" textcenterhoriz="" size1024="234 474 254 502" z="12" texturecoords="0 0 0.625 0.875">
+          </gadget>
+          <gadget name="MPESOGameList-Entry10-ContentXPack" background="ui\eso\game2" type="gadget" size1024="405 476 428 499" z="12" texturecoords="0 0 1 1">
+          </gadget>
+        </gadget>
+        <gadget name="MPESOGameList-Entry10-Players" type="button" donthighlight="" textcentervert="" textcenterhoriz="" textfont="AgeText" textfontsize="12" size1024="432 470 494 502" z="12">
+        </gadget>
+        <gadget name="MPESOGameList-Entry10-MapName" type="button" donthighlight="" textcentervert="" textcenterhoriz="" textfont="AgeText" textfontsize="12" size1024="503 470 605 502" z="12">
+        </gadget>
+        <gadget name="MPESOGameList-Entry10-GameType" type="button" donthighlight="" textcentervert="" textcenterhoriz="" textfont="AgeText" textfontsize="12" size1024="609 470 697 502" z="12">
+        </gadget>
+        <gadget name="MPESOGameList-Entry10-Rating" type="button" donthighlight="" textcentervert="" textcenterhoriz="" textfont="AgeText" textfontsize="12" size1024="702 470 782 502" z="12">
+        </gadget>
+        <gadget name="MPESOGameList-Entry10-Time" type="button" donthighlight="" textcentervert="" textcenterhoriz="" textfont="AgeText" textfontsize="12" size1024="788 470 841 502" z="12">
+        </gadget>
+      </gadget>
+      <gadget name="MPESOGameList-Entry11" type="gadget" donthighlight="" size1024="213 502 818 534" z="12">
+        <gadget name="MPESOGameList-Entry11-GameTypeIconSupremacy" type="gadget" size1024="215 508 238 531" background="ui\ingame\game_type_supremacy" texturecoords="0 0 0.75 0.75" z="12" transparent="">
+        </gadget>
+        <gadget name="MPESOGameList-Entry11-GameTypeIconDeathmatch" type="gadget" size1024="215 508 238 531" background="ui\ingame\game_type_deathmatch" texturecoords="0 0 0.75 0.75" z="12" transparent="">
+        </gadget>
+        <gadget name="MPESOGameList-Entry11-GameTypeIconScenario" type="gadget" size1024="215 508 238 531" background="ui\ingame\game_type_custom" texturecoords="0 0 0.75 0.75" z="12" transparent="">
+        </gadget>
+        <gadget name="MPESOGameList-Entry11-Name" type="button" donthighlight="" textcentervert="" textcenterhoriz="" textfont="AgeText" textfontsize="12" size1024="239 502 429 534" z="12">
+          <gadget name="MPESOGameList-Entry11-PasswordProtectedIcon" background="ui\eso\lock_icon" type="gadget" textcentervert="" textcenterhoriz="" size1024="234 506 254 534" z="12" texturecoords="0 0 0.625 0.875">
+          </gadget>
+          <gadget name="MPESOGameList-Entry11-ContentXPack" background="ui\eso\game2" type="gadget" size1024="405 508 428 531" z="12" texturecoords="0 0 1 1">
+          </gadget>
+        </gadget>
+        <gadget name="MPESOGameList-Entry11-Players" type="button" donthighlight="" textcentervert="" textcenterhoriz="" textfont="AgeText" textfontsize="12" size1024="432 502 494 534" z="12">
+        </gadget>
+        <gadget name="MPESOGameList-Entry11-MapName" type="button" donthighlight="" textcentervert="" textcenterhoriz="" textfont="AgeText" textfontsize="12" size1024="503 502 605 534" z="12">
+        </gadget>
+        <gadget name="MPESOGameList-Entry11-GameType" type="button" donthighlight="" textcentervert="" textcenterhoriz="" textfont="AgeText" textfontsize="12" size1024="609 502 697 534" z="12">
+        </gadget>
+        <gadget name="MPESOGameList-Entry11-Rating" type="button" donthighlight="" textcentervert="" textcenterhoriz="" textfont="AgeText" textfontsize="12" size1024="702 502 782 534" z="12">
+        </gadget>
+        <gadget name="MPESOGameList-Entry11-Time" type="button" donthighlight="" textcentervert="" textcenterhoriz="" textfont="AgeText" textfontsize="12" size1024="788 502 841 534" z="12">
+        </gadget>
+      </gadget>
+      <gadget name="MPESOGameList-Entry12" type="gadget" donthighlight="" size1024="213 534 818 566" z="12">
+        <gadget name="MPESOGameList-Entry12-GameTypeIconSupremacy" type="gadget" size1024="215 540 238 563" background="ui\ingame\game_type_supremacy" texturecoords="0 0 0.75 0.75" z="12" transparent="">
+        </gadget>
+        <gadget name="MPESOGameList-Entry12-GameTypeIconDeathmatch" type="gadget" size1024="215 540 238 563" background="ui\ingame\game_type_deathmatch" texturecoords="0 0 0.75 0.75" z="12" transparent="">
+        </gadget>
+        <gadget name="MPESOGameList-Entry12-GameTypeIconScenario" type="gadget" size1024="215 540 238 563" background="ui\ingame\game_type_custom" texturecoords="0 0 0.75 0.75" z="12" transparent="">
+        </gadget>
+        <gadget name="MPESOGameList-Entry12-Name" type="button" donthighlight="" textcentervert="" textcenterhoriz="" textfont="AgeText" textfontsize="12" size1024="239 534 429 566" z="12">
+          <gadget name="MPESOGameList-Entry12-PasswordProtectedIcon" background="ui\eso\lock_icon" type="gadget" textcentervert="" textcenterhoriz="" size1024="234 538 254 566" z="12" texturecoords="0 0 0.625 0.875">
+          </gadget>
+          <gadget name="MPESOGameList-Entry12-ContentXPack" background="ui\eso\game2" type="gadget" size1024="405 540 428 563" z="12" texturecoords="0 0 1 1">
+          </gadget>
+        </gadget>
+        <gadget name="MPESOGameList-Entry12-Players" type="button" donthighlight="" textcentervert="" textcenterhoriz="" textfont="AgeText" textfontsize="12" size1024="432 534 494 566" z="12">
+        </gadget>
+        <gadget name="MPESOGameList-Entry12-MapName" type="button" donthighlight="" textcentervert="" textcenterhoriz="" textfont="AgeText" textfontsize="12" size1024="503 534 605 566" z="12">
+        </gadget>
+        <gadget name="MPESOGameList-Entry12-GameType" type="button" donthighlight="" textcentervert="" textcenterhoriz="" textfont="AgeText" textfontsize="12" size1024="609 534 697 566" z="12">
+        </gadget>
+        <gadget name="MPESOGameList-Entry12-Rating" type="button" donthighlight="" textcentervert="" textcenterhoriz="" textfont="AgeText" textfontsize="12" size1024="702 534 782 566" z="12">
+        </gadget>
+        <gadget name="MPESOGameList-Entry12-Time" type="button" donthighlight="" textcentervert="" textcenterhoriz="" textfont="AgeText" textfontsize="12" size1024="788 534 841 566" z="12">
+        </gadget>
+      </gadget>
+      <gadget name="MPESOGameList-Entry13" type="gadget" donthighlight="" size1024="213 566 818 598" z="12">
+        <gadget name="MPESOGameList-Entry13-GameTypeIconSupremacy" type="gadget" size1024="215 572 238 595" background="ui\ingame\game_type_supremacy" texturecoords="0 0 0.75 0.75" z="12" transparent="">
+        </gadget>
+        <gadget name="MPESOGameList-Entry13-GameTypeIconDeathmatch" type="gadget" size1024="215 572 238 595" background="ui\ingame\game_type_deathmatch" texturecoords="0 0 0.75 0.75" z="12" transparent="">
+        </gadget>
+        <gadget name="MPESOGameList-Entry13-GameTypeIconScenario" type="gadget" size1024="215 572 238 595" background="ui\ingame\game_type_custom" texturecoords="0 0 0.75 0.75" z="12" transparent="">
+        </gadget>
+        <gadget name="MPESOGameList-Entry13-Name" type="button" donthighlight="" textcentervert="" textcenterhoriz="" textfont="AgeText" textfontsize="12" size1024="239 566 429 598" z="12">
+          <gadget name="MPESOGameList-Entry13-PasswordProtectedIcon" background="ui\eso\lock_icon" type="gadget" textcentervert="" textcenterhoriz="" size1024="234 570 254 598" z="12" texturecoords="0 0 0.625 0.875">
+          </gadget>
+          <gadget name="MPESOGameList-Entry13-ContentXPack" background="ui\eso\game2" type="gadget" size1024="405 572 428 595" z="12" texturecoords="0 0 1 1">
+          </gadget>
+        </gadget>
+        <gadget name="MPESOGameList-Entry13-Players" type="button" donthighlight="" textcentervert="" textcenterhoriz="" textfont="AgeText" textfontsize="12" size1024="432 566 494 598" z="12">
+        </gadget>
+        <gadget name="MPESOGameList-Entry13-MapName" type="button" donthighlight="" textcentervert="" textcenterhoriz="" textfont="AgeText" textfontsize="12" size1024="503 566 605 598" z="12">
+        </gadget>
+        <gadget name="MPESOGameList-Entry13-GameType" type="button" donthighlight="" textcentervert="" textcenterhoriz="" textfont="AgeText" textfontsize="12" size1024="609 566 697 598" z="12">
+        </gadget>
+        <gadget name="MPESOGameList-Entry13-Rating" type="button" donthighlight="" textcentervert="" textcenterhoriz="" textfont="AgeText" textfontsize="12" size1024="702 566 782 598" z="12">
+        </gadget>
+        <gadget name="MPESOGameList-Entry13-Time" type="button" donthighlight="" textcentervert="" textcenterhoriz="" textfont="AgeText" textfontsize="12" size1024="788 566 841 598" z="12">
+        </gadget>
+      </gadget>
+      <gadget name="MPESOGameList-Entry14" type="gadget" donthighlight="" size1024="213 598 818 630" z="12">
+        <gadget name="MPESOGameList-Entry14-GameTypeIconSupremacy" type="gadget" size1024="215 604 238 627" background="ui\ingame\game_type_supremacy" texturecoords="0 0 0.75 0.75" z="12" transparent="">
+        </gadget>
+        <gadget name="MPESOGameList-Entry14-GameTypeIconDeathmatch" type="gadget" size1024="215 604 238 627" background="ui\ingame\game_type_deathmatch" texturecoords="0 0 0.75 0.75" z="12" transparent="">
+        </gadget>
+        <gadget name="MPESOGameList-Entry14-GameTypeIconScenario" type="gadget" size1024="215 604 238 627" background="ui\ingame\game_type_custom" texturecoords="0 0 0.75 0.75" z="12" transparent="">
+        </gadget>
+        <gadget name="MPESOGameList-Entry14-Name" type="button" donthighlight="" textcentervert="" textcenterhoriz="" textfont="AgeText" textfontsize="12" size1024="239 598 429 630" z="12">
+          <gadget name="MPESOGameList-Entry14-PasswordProtectedIcon" background="ui\eso\lock_icon" type="gadget" textcentervert="" textcenterhoriz="" size1024="234 602 254 630" z="12" texturecoords="0 0 0.625 0.875">
+          </gadget>
+          <gadget name="MPESOGameList-Entry14-ContentXPack" background="ui\eso\game2" type="gadget" size1024="405 604 428 627" z="12" texturecoords="0 0 1 1">
+          </gadget>
+        </gadget>
+        <gadget name="MPESOGameList-Entry14-Players" type="button" donthighlight="" textcentervert="" textcenterhoriz="" textfont="AgeText" textfontsize="12" size1024="432 598 494 630" z="12">
+        </gadget>
+        <gadget name="MPESOGameList-Entry14-MapName" type="button" donthighlight="" textcentervert="" textcenterhoriz="" textfont="AgeText" textfontsize="12" size1024="503 598 605 630" z="12">
+        </gadget>
+        <gadget name="MPESOGameList-Entry14-GameType" type="button" donthighlight="" textcentervert="" textcenterhoriz="" textfont="AgeText" textfontsize="12" size1024="609 598 697 630" z="12">
+        </gadget>
+        <gadget name="MPESOGameList-Entry14-Rating" type="button" donthighlight="" textcentervert="" textcenterhoriz="" textfont="AgeText" textfontsize="12" size1024="702 598 782 630" z="12">
+        </gadget>
+        <gadget name="MPESOGameList-Entry14-Time" type="button" donthighlight="" textcentervert="" textcenterhoriz="" textfont="AgeText" textfontsize="12" size1024="788 598 841 630" z="12">
+        </gadget>
+      </gadget>
+      <gadget name="MPESOGameList-Entry15" type="gadget" donthighlight="" size1024="213 630 818 662" z="12">
+        <gadget name="MPESOGameList-Entry15-GameTypeIconSupremacy" type="gadget" size1024="215 636 238 659" background="ui\ingame\game_type_supremacy" texturecoords="0 0 0.75 0.75" z="12" transparent="">
+        </gadget>
+        <gadget name="MPESOGameList-Entry15-GameTypeIconDeathmatch" type="gadget" size1024="215 636 238 659" background="ui\ingame\game_type_deathmatch" texturecoords="0 0 0.75 0.75" z="12" transparent="">
+        </gadget>
+        <gadget name="MPESOGameList-Entry15-GameTypeIconScenario" type="gadget" size1024="215 636 238 659" background="ui\ingame\game_type_custom" texturecoords="0 0 0.75 0.75" z="12" transparent="">
+        </gadget>
+        <gadget name="MPESOGameList-Entry15-Name" type="button" donthighlight="" textcentervert="" textcenterhoriz="" textfont="AgeText" textfontsize="12" size1024="239 630 429 662" z="12">
+          <gadget name="MPESOGameList-Entry15-PasswordProtectedIcon" background="ui\eso\lock_icon" type="gadget" textcentervert="" textcenterhoriz="" size1024="234 634 254 662" z="12" texturecoords="0 0 0.625 0.875">
+          </gadget>
+          <gadget name="MPESOGameList-Entry15-ContentXPack" background="ui\eso\game2" type="gadget" size1024="405 636 428 659" z="12" texturecoords="0 0 1 1">
+          </gadget>
+        </gadget>
+        <gadget name="MPESOGameList-Entry15-Players" type="button" donthighlight="" textcentervert="" textcenterhoriz="" textfont="AgeText" textfontsize="12" size1024="432 630 494 662" z="12">
+        </gadget>
+        <gadget name="MPESOGameList-Entry15-MapName" type="button" donthighlight="" textcentervert="" textcenterhoriz="" textfont="AgeText" textfontsize="12" size1024="503 630 605 662" z="12">
+        </gadget>
+        <gadget name="MPESOGameList-Entry15-GameType" type="button" donthighlight="" textcentervert="" textcenterhoriz="" textfont="AgeText" textfontsize="12" size1024="609 630 697 662" z="12">
+        </gadget>
+        <gadget name="MPESOGameList-Entry15-Rating" type="button" donthighlight="" textcentervert="" textcenterhoriz="" textfont="AgeText" textfontsize="12" size1024="702 630 782 662" z="12">
+        </gadget>
+        <gadget name="MPESOGameList-Entry15-Time" type="button" donthighlight="" textcentervert="" textcenterhoriz="" textfont="AgeText" textfontsize="12" size1024="788 630 841 662" z="12">
+        </gadget>
+      </gadget>
+      <gadget name="MPESOGameList-Entry16" type="gadget" donthighlight="" size1024="213 662 818 694" z="12">
+        <gadget name="MPESOGameList-Entry16-GameTypeIconSupremacy" type="gadget" size1024="215 668 238 691" background="ui\ingame\game_type_supremacy" texturecoords="0 0 0.75 0.75" z="12" transparent="">
+        </gadget>
+        <gadget name="MPESOGameList-Entry16-GameTypeIconDeathmatch" type="gadget" size1024="215 668 238 691" background="ui\ingame\game_type_deathmatch" texturecoords="0 0 0.75 0.75" z="12" transparent="">
+        </gadget>
+        <gadget name="MPESOGameList-Entry16-GameTypeIconScenario" type="gadget" size1024="215 668 238 691" background="ui\ingame\game_type_custom" texturecoords="0 0 0.75 0.75" z="12" transparent="">
+        </gadget>
+        <gadget name="MPESOGameList-Entry16-Name" type="button" donthighlight="" textcentervert="" textcenterhoriz="" textfont="AgeText" textfontsize="12" size1024="239 662 429 694" z="12">
+          <gadget name="MPESOGameList-Entry16-PasswordProtectedIcon" background="ui\eso\lock_icon" type="gadget" textcentervert="" textcenterhoriz="" size1024="234 666 254 694" z="12" texturecoords="0 0 0.625 0.875">
+          </gadget>
+          <gadget name="MPESOGameList-Entry16-ContentXPack" background="ui\eso\game2" type="gadget" size1024="405 668 428 691" z="12" texturecoords="0 0 1 1">
+          </gadget>
+        </gadget>
+        <gadget name="MPESOGameList-Entry16-Players" type="button" donthighlight="" textcentervert="" textcenterhoriz="" textfont="AgeText" textfontsize="12" size1024="432 662 494 694" z="12">
+        </gadget>
+        <gadget name="MPESOGameList-Entry16-MapName" type="button" donthighlight="" textcentervert="" textcenterhoriz="" textfont="AgeText" textfontsize="12" size1024="503 662 605 694" z="12">
+        </gadget>
+        <gadget name="MPESOGameList-Entry16-GameType" type="button" donthighlight="" textcentervert="" textcenterhoriz="" textfont="AgeText" textfontsize="12" size1024="609 662 697 694" z="12">
+        </gadget>
+        <gadget name="MPESOGameList-Entry16-Rating" type="button" donthighlight="" textcentervert="" textcenterhoriz="" textfont="AgeText" textfontsize="12" size1024="702 662 782 694" z="12">
+        </gadget>
+        <gadget name="MPESOGameList-Entry16-Time" type="button" donthighlight="" textcentervert="" textcenterhoriz="" textfont="AgeText" textfontsize="12" size1024="788 662 841 694" z="12">
+        </gadget>
+      </gadget>
+      <gadget name="MPESOGameList-Entry17" type="gadget" donthighlight="" size1024="213 694 818 726" z="12">
+        <gadget name="MPESOGameList-Entry17-GameTypeIconSupremacy" type="gadget" size1024="215 700 238 723" background="ui\ingame\game_type_supremacy" texturecoords="0 0 0.75 0.75" z="12" transparent="">
+        </gadget>
+        <gadget name="MPESOGameList-Entry17-GameTypeIconDeathmatch" type="gadget" size1024="215 700 238 723" background="ui\ingame\game_type_deathmatch" texturecoords="0 0 0.75 0.75" z="12" transparent="">
+        </gadget>
+        <gadget name="MPESOGameList-Entry17-GameTypeIconScenario" type="gadget" size1024="215 700 238 723" background="ui\ingame\game_type_custom" texturecoords="0 0 0.75 0.75" z="12" transparent="">
+        </gadget>
+        <gadget name="MPESOGameList-Entry17-Name" type="button" donthighlight="" textcentervert="" textcenterhoriz="" textfont="AgeText" textfontsize="12" size1024="239 694 429 726" z="12">
+          <gadget name="MPESOGameList-Entry17-PasswordProtectedIcon" background="ui\eso\lock_icon" type="gadget" textcentervert="" textcenterhoriz="" size1024="234 698 254 726" z="12" texturecoords="0 0 0.625 0.875">
+          </gadget>
+          <gadget name="MPESOGameList-Entry17-ContentXPack" background="ui\eso\game2" type="gadget" size1024="405 700 428 723" z="12" texturecoords="0 0 1 1">
+          </gadget>
+        </gadget>
+        <gadget name="MPESOGameList-Entry17-Players" type="button" donthighlight="" textcentervert="" textcenterhoriz="" textfont="AgeText" textfontsize="12" size1024="432 694 494 726" z="12">
+        </gadget>
+        <gadget name="MPESOGameList-Entry17-MapName" type="button" donthighlight="" textcentervert="" textcenterhoriz="" textfont="AgeText" textfontsize="12" size1024="503 694 605 726" z="12">
+        </gadget>
+        <gadget name="MPESOGameList-Entry17-GameType" type="button" donthighlight="" textcentervert="" textcenterhoriz="" textfont="AgeText" textfontsize="12" size1024="609 694 697 726" z="12">
+        </gadget>
+        <gadget name="MPESOGameList-Entry17-Rating" type="button" donthighlight="" textcentervert="" textcenterhoriz="" textfont="AgeText" textfontsize="12" size1024="702 694 782 726" z="12">
+        </gadget>
+        <gadget name="MPESOGameList-Entry17-Time" type="button" donthighlight="" textcentervert="" textcenterhoriz="" textfont="AgeText" textfontsize="12" size1024="788 694 841 726" z="12">
+        </gadget>
+      </gadget>
+      <gadget name="MPESOGameList-GameListSlider" type="slider" size1024="842 152 859 726" z="15" sliderbuttons="" slidervertical="" sliderupbtnset="sliderUpBtn_18" sliderdownbtnset="sliderDownBtn_18" sliderpipart="ui\file_system\slider_pip_horizontal" sliderareaart="ui\file_system\slider_background_vertical_18" background="ui\file_system\slider_background">
+      </gadget>
+      <gadget name="MPESOGameList-SortByName" type="stateButton" textcolor="253 193 1" textcentervert="" textcenterhoriz="" textfont="AgeText" textfontsize="12" alpha="0.0" size1024="239 152 429 182" z="12">
+      </gadget>
+      <gadget name="MPESOGameList-SortByPlayers" type="stateButton" textcolor="253 193 1" textcentervert="" textcenterhoriz="" textfont="AgeText" textfontsize="12" alpha="0.0" size1024="432 152 503 182" z="12">
+      </gadget>
+      <gadget name="MPESOGameList-SortByMap" type="stateButton" textcolor="253 193 1" textcentervert="" textcenterhoriz="" textfont="AgeText" textfontsize="12" alpha="0.0" size1024="503 152 605 182" z="12">
+      </gadget>
+      <gadget name="MPESOGameList-SortByGameType" type="stateButton" textcolor="253 193 1" textcentervert="" textcenterhoriz="" textfont="AgeText" textfontsize="12" alpha="0.0" size1024="609 152 697 182" z="12">
+      </gadget>
+      <gadget name="MPESOGameList-SortByRating" type="stateButton" textcolor="253 193 1" textcentervert="" textcenterhoriz="" textfont="AgeText" textfontsize="12" alpha="0.0" size1024="702 152 782 182" z="12">
+      </gadget>
+      <gadget name="MPESOGameList-SortByTime" type="stateButton" textcolor="253 193 1" textcentervert="" textcenterhoriz="" textfont="AgeText" textfontsize="12" alpha="0.0" size1024="788 152 841 182" z="12">
+      </gadget>
+      <gadget name="MPESOGameList-NameDivider" type="gadget" backgroundcolor="0 0 0" size1024="428 184 429 727" z="13">
+      </gadget>
+      <gadget name="MPESOGameList-PlayersDivider" type="gadget" backgroundcolor="0 0 0" size1024="496 184 497 726" z="13">
+      </gadget>
+      <gadget name="MPESOGameList-MapDivider" type="gadget" backgroundcolor="0 0 0" size1024="605 184 606 726" z="13">
+      </gadget>
+      <gadget name="MPESOGameList-GameTypeDivider" type="gadget" backgroundcolor="0 0 0" size1024="697 184 698 727" z="13">
+      </gadget>
+      <gadget name="MPESOGameList-RatingDivider" type="gadget" backgroundcolor="0 0 0" size1024="783 184 784 727" z="13">
+      </gadget>
+    </gadget>
+    <gadget name="MPESOGameList-LoadingMsg" type="formatText" hidden="" textcenterhoriz="" textcentervert="" textfont="LargeInGame" textfontsize="24" textcolor="253 193 1" size1024="398 361 634 419" z="12">$$22605$$Loading...</gadget>
+    <gadget name="MPESOGameList-RefreshButton" type="stateButton" bevelbutton="" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="255 255 255" textcenterhoriz="" textcentervert="" size1024="542 114 670 146" z="11" mouseovertext="$$22103$$Refresh the game list.">$$21130$$Refresh<stateentry background="ui\core_ui\button_med_normal"></stateentry><stateentry background="ui\core_ui\button_med_clicked"></stateentry><stateentry background="ui\core_ui\button_med_high"></stateentry><stateentry background="ui\core_ui\button_med_disable"></stateentry></gadget>
+    <gadget name="MPESOGameList-HostButton" type="stateButton" bevelbutton="" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="255 255 255" textcenterhoriz="" textcentervert="" size1024="325 731 517 763" z="11" texturecoords="0 0 0.625 1">$$21128$$Host<stateentry background="ui\core_ui\button_large_normal"></stateentry><stateentry background="ui\core_ui\button_large_clicked"></stateentry><stateentry background="ui\core_ui\button_large_high"></stateentry><stateentry background="ui\core_ui\button_large_disable"></stateentry></gadget>
+    <gadget name="MPESOGameList-JoinButton" type="stateButton" bevelbutton="" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="255 255 255" textcenterhoriz="" textcentervert="" size1024="527 731 719 763" z="11" texturecoords="0 0 0.625 1">$$21129$$Join			<stateentry background="ui\core_ui\button_large_normal"></stateentry><stateentry background="ui\core_ui\button_large_clicked"></stateentry><stateentry background="ui\core_ui\button_large_high"></stateentry><stateentry background="ui\core_ui\button_large_disable"></stateentry></gadget>
+    <gadget name="MPESOGameList-ObserveButton" type="stateButton" bevelbutton="" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="255 255 255" textcenterhoriz="" textcentervert="" size1024="729 731 921 763" z="11" texturecoords="0 0 0.625 1">Observe<stateentry background="ui\core_ui\button_large_normal"></stateentry><stateentry background="ui\core_ui\button_large_clicked"></stateentry><stateentry background="ui\core_ui\button_large_high"></stateentry><stateentry background="ui\core_ui\button_large_disable"></stateentry></gadget>
+    <gadget name="MPESOGameList-Details" type="gadget" size1024="863 148 1014 725" z="11">
+      <gadget name="MPESOGameList-MapIcon" type="gadget" size1024="875 181 1003 309" z="12">
+      </gadget>
+      <gadget name="MPESOGameList-MapName" type="formatText" textcenterhoriz="" textcentervert="" textfont="GamesListMediumLabels" textfontsize="16" textcolor="255 255 255" size1024="866 317 1011 339" z="12">
+      </gadget>
+      <gadget name="MPESOGameList-MapLabel" type="formatText" textcenterhoriz="" textcentervert="" textfont="GamesListMediumLabels" textfontsize="16" textcolor="253 193 1" size1024="866 151 1011 173" z="12">$$30078$$Map</gadget>
+      <gadget name="MPESOGameList-PlayersLabel" type="gadget" size1024="867 577 1008 609" textfont="GamesListMediumLabels" textfontsize="16" textcolor="253 193 1" background="ui\core_ui\text_block_154" texturecoords="0.0 0.0 0.6 1.0" z="3">$$30068$$Players</gadget>
+      <gadget name="MPESOGameList-HomeCityTierLabel" type="gadget" size1024="867 341 1008 373" textfont="GamesListMediumLabels" textfontsize="16" textcolor="253 193 1" background="ui\core_ui\text_block_154" texturecoords="0.0 0.0 0.6 1.0" z="3">$$45788$$City Levels</gadget>
+      <gadget name="MPESOGameList-HomeCityTier" type="formatText" sunkenbevel="" textcenterhoriz="" size1024="867 370 1008 395" textfont="GamesListMediumLabels" textfontsize="16" textcolor="255 255 255" z="3">
+      </gadget>
+      <gadget name="MPESOGameList-StartingAgeLabel" type="gadget" size1024="867 459 1008 491" textfont="GamesListMediumLabels" textfontsize="16" textcolor="253 193 1" background="ui\core_ui\text_block_154" texturecoords="0.0 0.0 0.6 1.0" z="3">$$36148$$Starting Age</gadget>
+      <gadget name="MPESOGameList-StartingAge" type="formatText" sunkenbevel="" textcenterhoriz="" size1024="867 488 1008 513" textfont="GamesListMediumLabels" textfontsize="16" textcolor="255 255 255" z="3">
+      </gadget>
+      <gadget name="MPESOGameList-GameSpeedLabel" type="gadget" size1024="867 400 1008 432" textfont="GamesListMediumLabels" textfontsize="16" textcolor="253 193 1" background="ui\core_ui\text_block_154" texturecoords="0.0 0.0 0.6 1.0" z="3">$$36149$$Game Speed</gadget>
+      <gadget name="MPESOGameList-GameSpeed" type="formatText" sunkenbevel="" textcenterhoriz="" size1024="867 429 1008 454" textfont="GamesListMediumLabels" textfontsize="16" textcolor="255 255 255" z="3">
+      </gadget>
+      <gadget name="MPESOGameList-CheatsLabel" type="gadget" size1024="867 518 1008 550" textfont="GamesListMediumLabels" textfontsize="16" textcolor="253 193 1" background="ui\core_ui\text_block_154" texturecoords="0.0 0.0 0.6 1.0" z="3">$$45775$$Cheats</gadget>
+      <gadget name="MPESOGameList-Cheats" type="formatText" sunkenbevel="" textcenterhoriz="" size1024="867 547 1008 572" textfont="GamesListMediumLabels" textfontsize="16" textcolor="255 255 255" z="3">
+      </gadget>
+      <gadget name="MPESOGameList-Players" type="gadget" size1024="865 609 1012 724" z="11">
+        <gadget name="MPESOGameList-Player1" type="formatText" textcolor="255 255 255" textfont="GamesListSmallLabels" textfontsize="14" textcenterhoriz="" textcentervert="" size1024="865 609 1013 632" z="12">
+        </gadget>
+        <gadget name="MPESOGameList-Player2" type="formatText" textcolor="255 255 255" textfont="GamesListSmallLabels" textfontsize="14" textcenterhoriz="" textcentervert="" size1024="865 632 1013 655" z="12">
+        </gadget>
+        <gadget name="MPESOGameList-Player3" type="formatText" textcolor="255 255 255" textfont="GamesListSmallLabels" textfontsize="14" textcenterhoriz="" textcentervert="" size1024="865 655 1013 678" z="12">
+        </gadget>
+        <gadget name="MPESOGameList-Player4" type="formatText" textcolor="255 255 255" textfont="GamesListSmallLabels" textfontsize="14" textcenterhoriz="" textcentervert="" size1024="865 678 1013 701" z="12">
+        </gadget>
+        <gadget name="MPESOGameList-Player4" type="formatText" textcolor="255 255 255" textfont="GamesListSmallLabels" textfontsize="14" textcenterhoriz="" textcentervert="" size1024="865 701 1013 724" z="12">
+        </gadget>
+        <gadget name="MPESOGameList-PlayersSlider" type="slider" size1024="992 609 1014 724" z="15" sliderbuttons="" slidervertical="" sliderupbtnset="sliderUpBtn_18" sliderdownbtnset="sliderDownBtn_18" sliderpipart="ui\file_system\slider_pip_horizontal" sliderareaart="ui\file_system\slider_background_vertical_18" background="ui\file_system\slider_background">
+        </gadget>
+      </gadget>
+    </gadget>
+    <gadget name="MPESOGameList-Password" hidden="" type="textBox" size1024="698 698 1064 722" z="11">
+    </gadget>
+    <gadget name="MPESOGameList-PasswordLabel" hidden="" type="formatText" size1024="540 698 694 722" z="11">$$22111$$Password:</gadget>
+    <gadget name="MPESOGameList-ScreenLabel" type="formatText" textfont="GamesListMediumLabels" textfontsize="16" textcolor="253 193 1" textcenterhoriz="" textcentervert="" size1024="237 117 453 145" z="11">
+    </gadget>
+    <gadget name="MPESOGameList-FilterButton" type="stateButton" bevelbutton="" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="255 255 255" textcenterhoriz="" textcentervert="" size1024="683 114 811 146" z="11" mouseovertext="$$41558$$Filter Game List.">$$30067$$Filter<stateentry background="ui\core_ui\button_med_normal"></stateentry><stateentry background="ui\core_ui\button_med_clicked"></stateentry><stateentry background="ui\core_ui\button_med_high"></stateentry><stateentry background="ui\core_ui\button_med_disable"></stateentry></gadget>
+    <gadget name="MPESOGameList-GameDetailsLabel" type="formatText" textfont="GamesListMediumLabels" textfontsize="16" textcolor="253 193 1" textcenterhoriz="" textcentervert="" size1024="869 118 1009 142" z="11">$$19114$$Game Settings</gadget>
+    <gadget name="MPESOGameList-FilterDlg-Container" type="gadget" backgroundcolor="0 0 0" backgroundalpha="0.5" size1024="0 0 1024 768" z="13">
+      <gadget name="MPESOGameList-FilterDlg" type="gadget" background="ui\core_ui\wood_thick_board_tile" size1024="284 196 754 585" z="13">
+        <gadget tilebackgroundhoriz="" name="MPESOGameList-FilterDlg-BordersTop" type="gadget" background="ui\file_system\border_top_middle" size1024="313 194 733 202" z="5" transparent="">
+        </gadget>
+        <gadget tilebackgroundhoriz="" name="MPESOGameList-FilterDlg-BordersBottom" type="gadget" background="ui\file_system\border_bottom_middle" size1024="313 580 733 588" z="6" transparent="">
+        </gadget>
+        <gadget name="MPESOGameList-FilterDlg-BordersLeft" type="gadget" background="ui\file_system\border_side_left" size1024="281 226 289 555" tilebackgroundvert="" transparent="" z="11">
+        </gadget>
+        <gadget name="MPESOGameList-FilterDlg-BordersRight" type="gadget" background="ui\file_system\border_side_right" size1024="749 226 757 555" tilebackgroundvert="" z="7" transparent="">
+        </gadget>
+        <gadget name="MPESOGameList-FilterDlg-BordersRightTop" type="gadget" background="ui\file_system\border_top_right" size1024="725 194 757 226" z="6" transparent="" clampbackground="">
+        </gadget>
+        <gadget name="MPESOGameList-FilterDlg-BordersLeftTop" type="gadget" background="ui\file_system\border_top_left" size1024="281 194 313 226" z="8" transparent="" clampbackground="">
+        </gadget>
+        <gadget name="MPESOGameList-FilterDlg-BordersRightBottom" type="gadget" background="ui\file_system\border_bottom_right" size1024="725 556 757 588" z="8" transparent="" clampbackground="">
+        </gadget>
+        <gadget name="MPESOGameList-FilterDlg-BordersLeftBottom" type="gadget" background="ui\file_system\border_bottom_left" size1024="281 556 313 588" z="15" transparent="" clampbackground="">
+        </gadget>
+        <gadget name="MPESOGameList-FilterDlg-Label-Left" type="gadget" background="ui\core_ui\title_bar_48_left" size1024="307 203 371 267" z="14">
+        </gadget>
+        <gadget name="MPESOGameList-FilterDlg-Label-Middle" type="gadget" background="ui\core_ui\title_bar_48_middle" size1024="371 203 667 267" z="15">
+        </gadget>
+        <gadget name="MPESOGameList-FilterDlg-Label-Right" type="gadget" background="ui\core_ui\title_bar_48_right" size1024="667 203 731 267" z="14">
+        </gadget>
+        <gadget name="MPESOGameList-FilterDlg-Label" type="formatText" textcenterhoriz="" textcolor="255 200 3" textfont="PregameHeaders" textfontsize="22" size1024="371 213 666 248" transparent="" z="16">$$37381$$Filter Games</gadget>
+        <gadget name="MPESOGamelist-FilterDlg-Privacy" type="gadget" background="ui\core_ui\text_block_154" size1024="304 275 457 306" z="10" texturecoords="0 0 0.6015625 1">
+        </gadget>
+        <gadget name="MPESOGamelist-FilterDlg-PrivacyLabel" type="formatText" textcolor="255 200 3" textfont="IPAddy" textfontsize="14" size1024="329 280 434 299" textcenterhoriz="" transparent="" z="15">$$30070$$Password:</gadget>
+        <gadget name="MPESOGameList-FilterDlg-PrivacyDropdown" type="textField" textfont="PregameEntry" textfontsize="15" textcolor="0 0 0" size1024="481 275 733 304" background="ui\core_ui\dropdown_background2" dropdownbuttonart="ui\core_ui\minimize_down" z="12">
+          <dropdown>$$30072$$All Games</dropdown>
+          <dropdown>$$30071$$Password Protected Games</dropdown>
+          <dropdown>$$30073$$Public Games</dropdown>
+        </gadget>
+        <gadget name="MPESOGamelist-FilterDlg-Map" type="gadget" background="ui\core_ui\text_block_154" size1024="304 319 457 350" z="10" texturecoords="0 0 0.6015625 1">
+        </gadget>
+        <gadget name="MPESOGamelist-FilterDlg-MapLabel" type="formatText" textcolor="255 200 3" textfont="IPAddy" textfontsize="14" size1024="329 324 434 343" textcenterhoriz="" transparent="" z="15">$$19815$$Map Type:</gadget>
+        <gadget name="MPESOGamelist-FilterDlg-MapDropdown" type="textField" textfont="PregameEntry" textfontsize="15" textcolor="0 0 0" size1024="481 319 733 348" background="ui\core_ui\dropdown_background2" dropdownbuttonart="ui\core_ui\minimize_down" z="12">
+          <dropdown>
+          </dropdown>
+        </gadget>
+        <gadget name="MPESOGamelist-FilterDlg-GameType" type="gadget" background="ui\core_ui\text_block_154" size1024="304 363 457 394" z="10" texturecoords="0 0 0.6015625 1">
+        </gadget>
+        <gadget name="MPESOGamelist-FilterDlg-GameTypeLabel" type="formatText" textcolor="255 200 3" textfont="IPAddy" textfontsize="14" size1024="329 368 434 387" textcenterhoriz="" transparent="" z="15">$$48915$$Game Type:</gadget>
+        <gadget name="MPESOGameList-FilterDlg-GameTypeDropdown" type="textField" textfont="PregameEntry" textfontsize="15" textcolor="0 0 0" size1024="481 363 733 394" background="ui\core_ui\dropdown_background2" dropdownbuttonart="ui\core_ui\minimize_down" z="12">
+          <dropdown>$$48914$$All Game Types</dropdown>
+          <dropdown>$$18864$$Supremacy</dropdown>
+          <dropdown>$$18867$$Deathmatch</dropdown>
+          <dropdown>$$69767$$Scenario</dropdown>
+        </gadget>
+        <gadget name="MPESOGameList-ShowFullGames" type="checkButton" size1024="303 403 572 429" textfontsize="14" textfont="IPAddy" textcolor="253 193 1" mouseovertext="$$45741$$Show/Hide Games which can not accept new players" z="3">$$45737$$Show Full Games</gadget>
+        <gadget name="MPESOGameList-ShowHCLvlRestrictedGames" type="checkButton" size1024="303 439 572 465" textfontsize="14" textfont="IPAddy" textcolor="253 193 1" mouseovertext="$$45743$$Show/Hide games based on whether you meet the Home City type and level requirements" z="3">$$45742$$Show Level Restricted Games</gadget>
+        <gadget name="MPESOGameList-FilterDlg-ShowXPackContentGames" type="checkButton" size1024="303 475 700 501" textfontsize="14" textfont="IPAddy" textcolor="253 193 1" mouseovertext="$$60018$$Show games allowing xpack content" z="3">$$60019$$Show games allowing xpack content</gadget>
+        <gadget name="MPESOGameList-FilterDlg-ApplyButton" type="stateButton" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="255 255 255" textcenterhoriz="" textcentervert="" size1024="353 532 499 567" z="12">$$18465$$OK<stateentry background="ui\core_ui\button_256x32_normal"></stateentry><stateentry background="ui\core_ui\button_256x32_clicked"></stateentry><stateentry background="ui\core_ui\button_256x32_rollover"></stateentry><stateentry background="ui\core_ui\button_256x32_disabled"></stateentry></gadget>
+        <gadget name="MPESOGameList-FilterDlg-CancelButton" type="stateButton" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="255 255 255" textcenterhoriz="" textcentervert="" size1024="529 532 675 567" z="12">$$18466$$Cancel<stateentry background="ui\core_ui\button_256x32_normal"></stateentry><stateentry background="ui\core_ui\button_256x32_clicked"></stateentry><stateentry background="ui\core_ui\button_256x32_rollover"></stateentry><stateentry background="ui\core_ui\button_256x32_disabled"></stateentry></gadget>
+      </gadget>
+    </gadget>
+    <gadget name="MPESOGameList-HostDlg-Container" type="gadget" backgroundcolor="0 0 0" backgroundalpha="0.5" size1024="1 1 1021 769" z="12">
+      <gadget name="MPESOGameList-HostDlg" type="gadget" background="ui\core_ui\wood_thick_board_tile" size1024="282 169 751 602" tilebackgroundhoriz="" z="12">
+        <gadget name="MPESOGameList-HostDlg-Label-Left" type="gadget" background="ui\core_ui\title_bar_48_left" size1024="303 179 367 243" z="13">
+        </gadget>
+        <gadget name="MPESOGameList-HostDlg-Label-Middle" type="gadget" background="ui\core_ui\title_bar_48_middle" size1024="367 179 663 243" z="13">
+        </gadget>
+        <gadget name="MPESOGameList-HostDlg-Label-Right" type="gadget" background="ui\core_ui\title_bar_48_right" size1024="663 179 727 243" z="13">
+        </gadget>
+        <gadget name="MPESOGameList-HostDlg-Label" type="formatText" textcenterhoriz="" textcolor="255 200 3" textfont="PregameHeaders" textfontsize="22" size1024="367 189 662 224" transparent="" z="14">$$30075$$Host Game</gadget>
+        <gadget name="MPESOGameList-HostDlg-BordersTop" type="gadget" background="ui\file_system\border_top_middle" size1024="308 170 725 178" z="4" tilebackgroundhoriz="" transparent="">
+        </gadget>
+        <gadget name="MPESOGameList-HostDlg-BordersBottom" type="gadget" background="ui\file_system\border_bottom_middle" size1024="309 598 721 606" z="4" tilebackgroundhoriz="" transparent="">
+        </gadget>
+        <gadget name="MPESOGameList-HostDlg-BordersLeft" type="gadget" background="ui\file_system\border_side_left" size1024="282 175 290 582" tilebackgroundvert="" transparent="" z="3">
+        </gadget>
+        <gadget name="MPESOGameList-HostDlg-BordersRight" type="gadget" background="ui\file_system\border_side_right" size1024="742 175 750 582" tilebackgroundvert="" z="4" transparent="">
+        </gadget>
+        <gadget name="MPESOGameList-HostDlg-BordersRightTop" type="gadget" background="ui\file_system\border_top_right" size1024="718 170 750 202" z="5" transparent="" clampbackground="">
+        </gadget>
+        <gadget name="MPESOGameList-HostDlg-BordersLeftTop" type="gadget" background="ui\file_system\border_top_left" size1024="282 170 314 202" z="5" transparent="" clampbackground="">
+        </gadget>
+        <gadget name="MPESOGameList-HostDlg-BordersRightBottom" type="gadget" background="ui\file_system\border_bottom_right" size1024="718 574 750 606" z="5" transparent="" clampbackground="">
+        </gadget>
+        <gadget name="MPESOGameList-HostDlg-BordersLeftBottom" type="gadget" background="ui\file_system\border_bottom_left" size1024="282 574 314 606" z="10" transparent="" clampbackground="">
+        </gadget>
+        <gadget name="MPESOGameList-HostDlg-GameName" type="gadget" background="ui\core_ui\text_block_154" size1024="301 250 557 282" z="5">
+        </gadget>
+        <gadget name="MPESOGameList-HostDlg-GameNameLabel" type="formatText" textcolor="255 200 3" textfont="IPAddy" textfontsize="14" size1024="326 256 431 275" textcenterhoriz="" transparent="" z="14">$$21191$$Game Name:</gadget>
+        <gadget name="MPESOGameList-HostDlg-GameNameBack-Left" type="gadget" background="ui\core_ui\text_bar_32_left" size1024="478 250 510 282">
+        </gadget>
+        <gadget name="MPESOGameList-HostDlg-GameNameBack-Middle" type="gadget" background="ui\core_ui\text_bar_32_middle" size1024="509 250 699 282">
+        </gadget>
+        <gadget name="MPESOGameList-HostDlg-GameNameBack-Right" type="gadget" background="ui\core_ui\text_bar_32_right" size1024="698 250 730 282">
+        </gadget>
+        <gadget name="MPESOGameList-HostDlg-GameNameText" type="editBox" editboxmaxchars="30" size1024="482 254 724 277" cursorcolor="0 0 0" textfont="PregameEntry" textfontsize="15" textcolor="0 0 0" enterkey="" z="13" enableime="">
+        </gadget>
+        <gadget name="MPESOGameList-HostDlg-PasswordButton" type="checkButton" size1024="300 430 330 458" checkcheckedart="ui\core_ui\round_clicked" checkuncheckedart="ui\core_ui\round" sound="UI_DefaultPregameClickSet" z="13" checkborder1024="5 0">
+        </gadget>
+        <gadget name="MPESOGameList-HostDlg-PasswordButtonLabel" type="formatText" textcolor="255 200 3" textfont="IPAddy" textfontsize="14" size1024="328 430 478 458" textcentervert="" textcenterhoriz="" transparent="" z="13">$$30070$$Password Protected</gadget>
+        <gadget name="MPESOGameList-HostDlg-Password" type="gadget" background="ui\core_ui\text_block_154" size1024="300 396 556 428" z="9">
+        </gadget>
+        <gadget name="MPESOGameList-HostDlg-PasswordTextLabel" type="formatText" textcolor="255 200 3" textfont="IPAddy" textfontsize="14" size1024="324 402 429 421" textcenterhoriz="" transparent="" z="14">$$22111$$Password:</gadget>
+        <gadget name="MPESOGameList-HostDlg-PasswordBack-Left" type="gadget" background="ui\core_ui\text_bar_32_left" size1024="475 396 507 428">
+        </gadget>
+        <gadget name="MPESOGameList-HostDlg-PasswordBack-Middle" type="gadget" background="ui\core_ui\text_bar_32_middle" size1024="506 396 696 428">
+        </gadget>
+        <gadget name="MPESOGameList-HostDlg-PasswordBack-Right" type="gadget" background="ui\core_ui\text_bar_32_right" size1024="695 396 727 428">
+        </gadget>
+        <gadget name="MPESOGameList-HostDlg-PasswordDisable" type="gadget" backgroundcolor="128 128 128" backgroundalpha="0.5" size1024="477 398 725 425" z="13">
+        </gadget>
+        <gadget name="MPESOGameList-HostDlg-PasswordText" type="editBox" editboxmaxchars="30" size1024="479 400 721 423" textfont="PregameEntry" textfontsize="15" textcolor="0 0 0" enterkey="" z="13">
+        </gadget>
+        <gadget name="MPESOGameList-HostDlg-PasswordWarning" type="formatText" textcolor="255 255 255" textfont="Arial Nodrop" textfontsize="12" size1024="476 430 668 458" textcentervert="" textcenterhoriz="" transparent="" z="13">$$33444$$*Passwords are case sensitive</gadget>
+        <gadget name="MPESOGameList-HostDlg-ScenarioLabel" type="gadget" hidden="" background="ui\core_ui\text_block_154" size1024="300 461 556 493" z="5">
+          <gadget name="MPESOGameList-HostDlg-ScenarioLabel-Text" type="formatText" textcolor="255 200 3" textfont="IPAddy" textfontsize="14" size1024="325 467 430 486" textcenterhoriz="" transparent="" z="14">$$69767$$Scenario</gadget>
+        </gadget>
+        <gadget name="MPESOGameList-HostDlg-Scenario" type="formatText" hidden="" textcolor="255 255 255" textfont="PregameEntry" textfontsize="15" textcentervert="" size1024="479 461 725 493" transparent="" z="14">
+        </gadget>
+        <gadget name="MPESOGameList-HostDlg-GameType" type="gadget" background="ui\core_ui\text_block_154" size1024="300 288 556 320" z="5">
+        </gadget>
+        <gadget name="MPESOGameList-HostDlg-GameTypeLabel" type="formatText" textcolor="255 200 3" textfont="IPAddy" textfontsize="14" size1024="325 294 430 313" textcenterhoriz="" transparent="" z="14">$$21226$$Game Type:</gadget>
+        <gadget name="MPESOGameList-HostDlg-GameTypeDropdown" type="textField" textfont="PregameEntry" textfontsize="15" textcolor="0 0 0" size1024="478 289 730 318" background="ui\core_ui\dropdown_background2" dropdownbuttonart="ui\core_ui\minimize_down" listitemheight="10" z="12">
+          <dropdown>
+          </dropdown>
+        </gadget>
+        <gadget name="MPESOGameList-HostDlg-HCTiers" type="gadget" background="ui\core_ui\text_block_154" size1024="300 325 556 357" z="5">
+        </gadget>
+        <gadget name="MPESOGameList-HostDlg-HCTiersLabel" type="formatText" textcolor="255 200 3" textfont="IPAddy" textfontsize="14" size1024="325 331 430 350" textcenterhoriz="" transparent="" z="14">$$42889$$City Levels:</gadget>
+        <gadget name="MPESOGameList-HostDlg-HCTiersDropdown" type="textField" textfont="PregameEntry" textfontsize="15" textcolor="0 0 0" size1024="478 326 730 355" background="ui\core_ui\dropdown_background2" dropdownbuttonart="ui\core_ui\minimize_down" listitemheight="10" z="12">
+          <dropdown>
+          </dropdown>
+        </gadget>
+        <gadget name="MPESOGameList-HostDlg-XtraRules" type="gadget" background="ui\core_ui\text_block_154" size1024="300 362 556 394" z="15">
+        </gadget>
+        <gadget name="MPESOGameList-HostDlg-XtraRulesLabel" type="formatText" textcolor="255 200 3" textfont="IPAddy" textfontsize="14" size1024="325 368 430 387" textcenterhoriz="" transparent="" z="16">$$46632$$More Rules:</gadget>
+        <gadget name="MPESOGameList-HostDlg-XtraRulesDropdown" type="textField" textfont="PregameEntry" textfontsize="15" textcolor="0 0 0" size1024="478 363 730 392" background="ui\core_ui\dropdown_background2" dropdownbuttonart="ui\core_ui\minimize_down" listitemheight="10" z="16">
+          <dropdown>
+          </dropdown>
+        </gadget>
+        <gadget name="MPESOGameList-HostDlg-XtraRulesNoDropdown" type="formatText" readonly="" mouseovertext="$$46656$$" textfont="PregameEntry" textfontsize="15" textcolor="0 0 0" size1024="478 363 730 392" background="ui\core_ui\dropdown_background2" z="16">$$46661$$Classic</gadget>
+        <gadget name="MPESOGameList-HostDlg-UseXPackContentButton" type="checkButton" size1024="300 513 330 541" checkcheckedart="ui\core_ui\round_clicked" checkuncheckedart="ui\core_ui\round" sound="UI_DefaultPregameClickSet" z="13" checkborder1024="5 0">
+        </gadget>
+        <gadget name="MPESOGameList-HostDlg-UseXPackContentButtonLabel" type="formatText" textcolor="255 200 3" textfont="IPAddy" textfontsize="14" size1024="336 513 700 541" textcentervert="" transparent="" z="13">$$60016$$Use XPack content</gadget>
+        <gadget name="MPESOGameList-HostDlg-HostButton" type="stateButton" bevelbutton="" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="255 255 255" textcenterhoriz="" textcentervert="" size1024="312 553 504 585" z="11" texturecoords="0 0 1 1">$$21128$$Host<stateentry background="ui\core_ui\button_256x32_normal"></stateentry><stateentry background="ui\core_ui\button_256x32_clicked"></stateentry><stateentry background="ui\core_ui\button_256x32_rollover"></stateentry><stateentry background="ui\core_ui\button_256x32_disabled"></stateentry></gadget>
+        <gadget name="MPESOGameList-HostDlg-CancelButton" type="stateButton" bevelbutton="" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="255 255 255" textcenterhoriz="" textcentervert="" size1024="524 553 716 585" z="11" texturecoords="0 0 1 1">$$18466$$Cancel<stateentry background="ui\core_ui\button_256x32_normal"></stateentry><stateentry background="ui\core_ui\button_256x32_clicked"></stateentry><stateentry background="ui\core_ui\button_256x32_rollover"></stateentry><stateentry background="ui\core_ui\button_256x32_disabled"></stateentry></gadget>
+        <gadget name="MPESOGameList-HostDlg-Region" type="gadget" background="ui\core_ui\text_block_154" size1024="300 598 556 630" z="15">
+        </gadget>
+        <gadget name="MPESOGameList-HostDlg-RegionLabel" type="formatText" textcolor="255 200 3" textfont="IPAddy" textfontsize="14" size1024="325 604 430 625" textcenterhoriz="" transparent="" z="16">Region</gadget>
+        <gadget name="MPESOGameList-HostDlg-RegionDropdown" type="textField" textfont="PregameEntry" textfontsize="15" textcolor="0 0 0" size1024="478 599 730 628" background="ui\core_ui\dropdown_background2" dropdownbuttonart="ui\core_ui\minimize_down" listitemheight="6" z="16">
+          <dropdown>
+          </dropdown>
+        </gadget>
+      </gadget>
+    </gadget>
+    <gadget name="MPESOGameList-JoinDlg-Container" type="gadget" backgroundcolor="0 0 0" backgroundalpha="0.5" size1024="1 1 1021 769" z="12">
+      <gadget name="MPESOGameList-JoinDlg" type="gadget" background="ui\core_ui\wood_thick_board_tile" size1024="282 201 750 423" tilebackgroundhoriz="" z="12">
+        <gadget name="MPESOGameList-JoinDlg-Label-Left" type="gadget" background="ui\core_ui\title_bar_48_left" size1024="303 210 367 274" z="21">
+        </gadget>
+        <gadget name="MPESOGameList-JoinDlg-Label-Middle" type="gadget" background="ui\core_ui\title_bar_48_middle" size1024="367 210 663 274" z="19">
+        </gadget>
+        <gadget name="MPESOGameList-JoinDlg-Label-Right" type="gadget" background="ui\core_ui\title_bar_48_right" size1024="663 210 727 274" z="18">
+        </gadget>
+        <gadget name="MPESOGameList-JoinDlg-Label" type="formatText" textcenterhoriz="" textcolor="255 200 3" textfont="PregameHeaders" textfontsize="22" size1024="367 220 662 255" transparent="" z="20">$$37380$$Join Game</gadget>
+        <gadget name="MPESOGameList-JoinDlg-BordersTop" type="gadget" background="ui\file_system\border_top_middle" size1024="308 201 725 209" z="11" transparent="">
+        </gadget>
+        <gadget name="MPESOGameList-JoinDlg-BordersBottom" type="gadget" background="ui\file_system\border_bottom_middle" size1024="308 421 720 429" z="13" transparent="">
+        </gadget>
+        <gadget name="MPESOGameList-JoinDlg-BordersLeft" type="gadget" background="ui\file_system\border_side_left" size1024="282 229 289 400" tilebackgroundvert="" transparent="" z="11">
+        </gadget>
+        <gadget name="MPESOGameList-JoinDlg-BordersRight" type="gadget" background="ui\file_system\border_side_right" size1024="742 230 750 398" tilebackgroundvert="" z="6" transparent="">
+        </gadget>
+        <gadget name="MPESOGameList-JoinDlg-BordersRightTop" type="gadget" background="ui\file_system\border_top_right" size1024="718 201 750 233" z="9" transparent="" clampbackground="">
+        </gadget>
+        <gadget name="MPESOGameList-JoinDlg-BordersLeftTop" type="gadget" background="ui\file_system\border_top_left" size1024="282 201 314 233" z="7" transparent="" clampbackground="">
+        </gadget>
+        <gadget name="MPESOGameList-JoinDlg-BordersRightBottom" type="gadget" background="ui\file_system\border_bottom_right" size1024="717 397 749 429" z="8" transparent="" clampbackground="">
+        </gadget>
+        <gadget name="MPESOGameList-JoinDlg-BordersLeftBottom" type="gadget" background="ui\file_system\border_bottom_left" size1024="281 397 313 429" z="13" transparent="" clampbackground="">
+        </gadget>
+        <gadget name="MPESOGameList-JoinDlg-Password" type="gadget" background="ui\core_ui\text_block_256" size1024="387 278 643 310" z="10">
+        </gadget>
+        <gadget name="MPESOGameList-JoinDlg-PasswordTextLabel" type="formatText" textcolor="255 200 3" textfont="IPAddy" textfontsize="14" size1024="411 284 619 303" textcenterhoriz="" transparent="" z="17">$$30074$$Please enter password:</gadget>
+        <gadget name="MPESOGameList-JoinDlg-PasswordBack-Left" type="gadget" background="ui\core_ui\text_bar_32_left" size1024="388 318 420 350" z="14">
+        </gadget>
+        <gadget name="MPESOGameList-JoinDlg-PasswordBack-Middle" type="gadget" background="ui\core_ui\text_bar_32_middle" size1024="419 318 609 350" z="12">
+        </gadget>
+        <gadget name="MPESOGameList-JoinDlg-PasswordBack-Right" type="gadget" background="ui\core_ui\text_bar_32_right" size1024="608 318 640 350" z="15">
+        </gadget>
+        <gadget name="MPESOGameList-JoinDlg-PasswordText" type="editBox" editboxmaxchars="30" size1024="392 322 634 345" cursorcolor="3 0 208" textfont="PregameEntry" textfontsize="15" textcolor="3 0 208" enterkey="" z="17">
+        </gadget>
+        <gadget name="MPESOGameList-JoinDlg-PasswordWarning" type="formatText" textcolor="255 255 255" textfont="Arial Nodrop" textfontsize="12" size1024="388 350 580 364" textcenterhoriz="" transparent="" z="15">$$33444$$*Passwords are case sensitive</gadget>
+        <gadget name="MPESOGameList-JoinDlg-JoinButton" type="stateButton" bevelbutton="" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="255 255 255" textcenterhoriz="" textcentervert="" size1024="313 376 505 408" z="14" texturecoords="0 0 1 1">$$37380$$Join Game<stateentry background="ui\core_ui\button_256x32_normal"></stateentry><stateentry background="ui\core_ui\button_256x32_clicked"></stateentry><stateentry background="ui\core_ui\button_256x32_rollover"></stateentry><stateentry background="ui\core_ui\button_256x32_disabled"></stateentry></gadget>
+        <gadget name="MPESOGameList-JoinDlg-CancelButton" type="stateButton" bevelbutton="" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="255 255 255" textcenterhoriz="" textcentervert="" size1024="525 376 717 408" z="16" texturecoords="0 0 1 1">$$18466$$Cancel<stateentry background="ui\core_ui\button_256x32_normal"></stateentry><stateentry background="ui\core_ui\button_256x32_clicked"></stateentry><stateentry background="ui\core_ui\button_256x32_rollover"></stateentry><stateentry background="ui\core_ui\button_256x32_disabled"></stateentry></gadget>
+      </gadget>
+    </gadget>
+    <gadget name="MPESOGameList-SelectOnlineLAN" type="textField" textfont="PregameEntry" textfontsize="15" textcolor="0 0 0" size1024="200 0 392 29" background="ui\core_ui\dropdown_background2" dropdownbuttonart="ui\core_ui\minimize_down" z="12">
+      <dropdown>$$22073$$Online</dropdown>
+      <dropdown>$$19024$$LAN</dropdown>
+    </gadget>
+  </gadget>
+</layout>

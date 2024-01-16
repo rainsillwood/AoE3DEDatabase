@@ -1,0 +1,13 @@
+<layout>
+  <gadget name="CliffDlg1" type="gadget" size1024="0 0 350 200" closebutton="" titlebar="Cliff Editor" backgroundcolor="160 160 160" hidden="">
+    <gadget type="textBox" name="cliffDlg-TypesText" size1024="5 40 125 70" textcolor="0 0 0" backgroundcolor="160 160 160">Types: </gadget>
+    <gadget type="textField" name="cliffDlg-TypesList" size1024="130 35 320 70" textcolor="255 255 255" backgroundcolor="160 160 160" bevel="" dropdowndistance="132">
+      <dropdown>
+      </dropdown>
+    </gadget>
+    <gadget type="textBox" name="cliffDlg-CliffHeightText" size1024="5 80 125 110" textcolor="0 0 0" backgroundcolor="160 160 160">Height: </gadget>
+    <gadget type="slider" name="cliffDlg-CliffHeightSlider" size1024="140 75 320 110" textcolor="255 255 0" backgroundcolor="0 0 128" showvalue="">
+    </gadget>
+    <gadget type="checkbutton" name="cliffDlg-RelativeCheckButton" size1024="140 120 320 150" textcolor="0 0 0" backgroundcolor="160 160 160" rightcheck="">Relative: </gadget>
+  </gadget>
+</layout>

@@ -1,0 +1,59 @@
+<playercommsdef>
+  <targettypes>
+    <targettype type="Units" helptext="$$38201$$Selected unit(s)" icon="ui\hp_cp\hp_cp_targ_unit" unitselect="">
+    </targettype>
+    <targettype type="UnitTypes" helptext="$$38203$$Selected unit type(s)" icon="ui\hp_cp\hp_cp_targ_unit" unitselect="">
+    </targettype>
+    <targettype type="Resource" helptext="$$38205$$Resource(s)" icon="ui\hp_cp\hp_cp_verb_tribute">
+    </targettype>
+    <targettype type="Location" helptext="$$38206$$Location" icon="ui\hp_cp\hp_cp_targ_local" flared="">
+    </targettype>
+  </targettypes>
+  <targets>
+    <target type="ResourceFood" maptoresourceid="food" helptext="$$18900$$Food" buttontext="$$38210$$Send food" icon="ui\hp_cp\hp_cp_rec_food">
+    </target>
+    <target type="ResourceWood" maptoresourceid="wood" helptext="$$18899$$Wood" buttontext="$$38211$$Send wood" icon="ui\hp_cp\hp_cp_rec_wood">
+    </target>
+    <target type="ResourceGold" maptoresourceid="gold" helptext="$$18129$$Gold" buttontext="$$38212$$Send gold" icon="ui\hp_cp\hp_cp_rec_gold">
+    </target>
+    <target type="UnitTypeInfantry" maptounittypeid="AbstractInfantry" helptext="$$24098$$Infantry" buttontext="$$38207$$Build infantry" chattext="$$38213$$infantry" icon="ui\hp_cp\hp_cp_build_inf">
+    </target>
+    <target type="UnitTypeCavalry" maptounittypeid="AbstractCavalry" helptext="$$24100$$Cavalry" buttontext="$$38208$$Build cavalry" chattext="$$38214$$cavalry" icon="ui\hp_cp\hp_cp_build_cav">
+    </target>
+    <target type="UnitTypeArtillery" maptounittypeid="AbstractArtillery" helptext="$$24101$$Artillery" buttontext="$$38209$$Build artillery" chattext="$$38215$$artillery" icon="ui\hp_cp\hp_cp_build_art">
+    </target>
+    <target type="StrategyRush" maptostrategyid="rush" helptext="$$38216$$Aggressive strategy" buttontext="$$38219$$Focus on a quick attack" chattext="$$38222$$focus on a quick attack" icon="ui\hp_cp\hp_cp_rush">
+    </target>
+    <target type="StrategyBoom" maptostrategyid="boom" helptext="$$38217$$Economic strategy" buttontext="$$38220$$Focus on economy" chattext="$$38223$$focus on economy" icon="ui\hp_cp\hp_cp_boom">
+    </target>
+    <target type="StrategyTurtle" maptostrategyid="turtle" helptext="$$38218$$Defensive strategy" buttontext="$$38221$$Focus on defense" chattext="$$38224$$focus on defense" icon="ui\hp_cp\hp_cp_turtle">
+    </target>
+  </targets>
+  <verbs>
+    <verb type="Attack" helptext="$$38225$$Attack" targetselecttext="$$38226$$Select a location" icon="ui\hp_cp\hp_cp_verb_attack">
+      <validtargettype>Location</validtargettype>
+    </verb>
+    <verb type="Tribute" helptext="$$38227$$Tribute resources" targetselecttext="$$38228$$Select a resource to send" icon="ui\hp_cp\hp_cp_verb_tribute">
+      <validtarget>ResourceFood</validtarget>
+      <validtarget>ResourceWood</validtarget>
+      <validtarget>ResourceGold</validtarget>
+    </verb>
+    <verb type="Feed" helptext="$$38229$$Feed resources over time" targetselecttext="$$38230$$Select a resource to feed over time" icon="ui\hp_cp\hp_cp_feed_resouce_over_time">
+      <validtarget>ResourceFood</validtarget>
+      <validtarget>ResourceWood</validtarget>
+      <validtarget>ResourceGold</validtarget>
+    </verb>
+    <verb type="Train" helptext="$$38231$$Build units" targetselecttext="$$38232$$Select the unit type to build" icon="ui\hp_cp\hp_cp_build_units">
+      <validtarget>UnitTypeInfantry</validtarget>
+      <validtarget>UnitTypeCavalry</validtarget>
+      <validtarget>UnitTypeArtillery</validtarget>
+    </verb>
+    <verb type="Strategy" helptext="$$38233$$Set strategy" targetselecttext="$$38234$$Select a strategy" icon="ui\hp_cp\hp_cp_strategy">
+      <validtarget>StrategyRush</validtarget>
+      <validtarget>StrategyBoom</validtarget>
+      <validtarget>StrategyTurtle</validtarget>
+    </verb>
+    <verb type="Cancel" helptext="$$48918$$Cancel all commands" targetselecttext="$$48918$$Cancel all commands" icon="ui\hp_cp\hp_cp_cancel">
+    </verb>
+  </verbs>
+</playercommsdef>

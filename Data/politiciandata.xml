@@ -1,0 +1,856 @@
+<politicians>
+  <politicianadmiral portraitfilename="ui\ingame\politicians\politician_admiral" portraitfilenamewpf="resources/images/icons/politicians/politician_admiral.png">
+  </politicianadmiral>
+  <politicianadmiralottoman portraitfilename="ui\ingame\politicians\politician_admiral" portraitfilenamewpf="resources/images/icons/politicians/politician_admiral.png">
+  </politicianadmiralottoman>
+  <politicianadventurerbritish portraitfilename="ui\ingame\politicians\politician_adventurer" portraitfilenamewpf="resources/images/icons/politicians/politician_adventurer.png">
+  </politicianadventurerbritish>
+  <politicianadventurerrussian portraitfilename="ui\ingame\politicians\politician_adventurer" portraitfilenamewpf="resources/images/icons/politicians/politician_adventurer.png">
+  </politicianadventurerrussian>
+  <politicianadventurerspanish portraitfilename="ui\ingame\politicians\politician_adventurer" portraitfilenamewpf="resources/images/icons/politicians/politician_adventurer.png">
+  </politicianadventurerspanish>
+  <politicianbishop portraitfilename="ui\ingame\politicians\politician_bishop" portraitfilenamewpf="resources/images/icons/politicians/politician_bishop.png">
+  </politicianbishop>
+  <politicianbishopgerman portraitfilename="ui\ingame\politicians\politician_bishop" portraitfilenamewpf="resources/images/icons/politicians/politician_bishop.png">
+  </politicianbishopgerman>
+  <politiciancavalierdutch portraitfilename="ui\ingame\politicians\politician_cavalier" portraitfilenamewpf="resources/images/icons/politicians/politician_cavalier.png">
+  </politiciancavalierdutch>
+  <politiciancavalierfrench portraitfilename="ui\ingame\politicians\politician_cavalier" portraitfilenamewpf="resources/images/icons/politicians/politician_cavalier.png">
+  </politiciancavalierfrench>
+  <politiciancavaliergerman portraitfilename="ui\ingame\politicians\politician_cavalier" portraitfilenamewpf="resources/images/icons/politicians/politician_cavalier.png">
+  </politiciancavaliergerman>
+  <politiciancavalierottoman portraitfilename="ui\ingame\politicians\politician_cavalier" portraitfilenamewpf="resources/images/icons/politicians/politician_cavalier.png">
+  </politiciancavalierottoman>
+  <politiciancavalierrussian portraitfilename="ui\ingame\politicians\politician_cavalier" portraitfilenamewpf="resources/images/icons/politicians/politician_cavalier.png">
+  </politiciancavalierrussian>
+  <politiciancavalierspanish portraitfilename="ui\ingame\politicians\politician_cavalier" portraitfilenamewpf="resources/images/icons/politicians/politician_cavalier.png">
+  </politiciancavalierspanish>
+  <politicianengineer portraitfilename="ui\ingame\politicians\politician_engineer" portraitfilenamewpf="resources/images/icons/politicians/politician_engineer.png">
+  </politicianengineer>
+  <politicianengineerportuguese portraitfilename="ui\ingame\politicians\politician_engineer" portraitfilenamewpf="resources/images/icons/politicians/politician_engineer.png">
+  </politicianengineerportuguese>
+  <politicianexiledprince portraitfilename="ui\ingame\politicians\politician_exiled_prince" portraitfilenamewpf="resources/images/icons/politicians/politician_exiled_prince.png">
+  </politicianexiledprince>
+  <politiciangeneral portraitfilename="ui\ingame\politicians\politician_general" portraitfilenamewpf="resources/images/icons/politicians/politician_general.png">
+  </politiciangeneral>
+  <politiciangeneralbritish portraitfilename="ui\ingame\politicians\politician_general" portraitfilenamewpf="resources/images/icons/politicians/politician_general.png">
+  </politiciangeneralbritish>
+  <politiciangeneralottoman portraitfilename="ui\ingame\politicians\politician_general" portraitfilenamewpf="resources/images/icons/politicians/politician_general.png">
+  </politiciangeneralottoman>
+  <politiciangeneralskirmisher portraitfilename="ui\ingame\politicians\politician_general" portraitfilenamewpf="resources/images/icons/politicians/politician_general.png">
+  </politiciangeneralskirmisher>
+  <politiciangovernor portraitfilename="ui\ingame\politicians\politician_governor" portraitfilenamewpf="resources/images/icons/politicians/politician_governor.png">
+  </politiciangovernor>
+  <politiciangrandvizier portraitfilename="ui\ingame\politicians\politician_grand_vizier" portraitfilenamewpf="resources/images/icons/politicians/politician_grand_vizier.png">
+  </politiciangrandvizier>
+  <politicianmarksman portraitfilename="ui\ingame\politicians\politician_marksman" portraitfilenamewpf="resources/images/icons/politicians/politician_marksman.png">
+  </politicianmarksman>
+  <politicianmarksmanottoman portraitfilename="ui\ingame\politicians\politician_marksman" portraitfilenamewpf="resources/images/icons/politicians/politician_marksman.png">
+  </politicianmarksmanottoman>
+  <politicianmarksmanportuguese portraitfilename="ui\ingame\politicians\politician_marksman" portraitfilenamewpf="resources/images/icons/politicians/politician_marksman.png">
+  </politicianmarksmanportuguese>
+  <politicianmohawk portraitfilename="ui\ingame\politicians\politician_mohawk_statesmen" portraitfilenamewpf="resources/images/icons/politicians/politician_mohawk_statesmen.png">
+  </politicianmohawk>
+  <politicianmusketeerbritish portraitfilename="ui\ingame\politicians\politician_kings_musketeer" portraitfilenamewpf="resources/images/icons/politicians/politician_kings_musketeer.png">
+  </politicianmusketeerbritish>
+  <politicianmusketeerdutch portraitfilename="ui\ingame\politicians\politician_kings_musketeer" portraitfilenamewpf="resources/images/icons/politicians/politician_kings_musketeer.png">
+  </politicianmusketeerdutch>
+  <politicianmusketeerfrench portraitfilename="ui\ingame\politicians\politician_kings_musketeer" portraitfilenamewpf="resources/images/icons/politicians/politician_kings_musketeer.png">
+  </politicianmusketeerfrench>
+  <politicianmusketeerportuguese portraitfilename="ui\ingame\politicians\politician_kings_musketeer" portraitfilenamewpf="resources/images/icons/politicians/politician_kings_musketeer.png">
+  </politicianmusketeerportuguese>
+  <politicianmusketeerrussian portraitfilename="ui\ingame\politicians\politician_kings_musketeer" portraitfilenamewpf="resources/images/icons/politicians/politician_kings_musketeer.png">
+  </politicianmusketeerrussian>
+  <politicianmusketeerspanish portraitfilename="ui\ingame\politicians\politician_kings_musketeer" portraitfilenamewpf="resources/images/icons/politicians/politician_kings_musketeer.png">
+  </politicianmusketeerspanish>
+  <politiciannaturalist portraitfilename="ui\ingame\politicians\politician_naturalist" portraitfilenamewpf="resources/images/icons/politicians/politician_naturalist.png">
+  </politiciannaturalist>
+  <politicianphilosopherprince portraitfilename="ui\ingame\politicians\politician_philosopher_prince" portraitfilenamewpf="resources/images/icons/politicians/politician_philosopher_prince.png">
+  </politicianphilosopherprince>
+  <politicianpirate portraitfilename="ui\ingame\politicians\politician_gentlemen_pirate" portraitfilenamewpf="resources/images/icons/politicians/politician_gentlemen_pirate.png">
+  </politicianpirate>
+  <politicianpresidente portraitfilename="ui\ingame\politicians\politician_el_presidente" portraitfilenamewpf="resources/images/icons/politicians/politician_el_presidente.png">
+  </politicianpresidente>
+  <politicianquartermaster portraitfilename="ui\ingame\politicians\politician_quarter_master" portraitfilenamewpf="resources/images/icons/politicians/politician_quarter_master.png">
+  </politicianquartermaster>
+  <politicianscout portraitfilename="ui\ingame\politicians\politician_scout" portraitfilenamewpf="resources/images/icons/politicians/politician_scout.png">
+  </politicianscout>
+  <politicianscoutrussian portraitfilename="ui\ingame\politicians\politician_scout" portraitfilenamewpf="resources/images/icons/politicians/politician_scout.png">
+  </politicianscoutrussian>
+  <politicianscoutspanish portraitfilename="ui\ingame\politicians\politician_scout" portraitfilenamewpf="resources/images/icons/politicians/politician_scout.png">
+  </politicianscoutspanish>
+  <politicianscoutottoman portraitfilename="ui\ingame\politicians\politician_scout" portraitfilenamewpf="resources/images/icons/politicians/politician_scout.png">
+  </politicianscoutottoman>
+  <politiciansergeantdutch portraitfilename="ui\ingame\politicians\politician_sergeant_arms" portraitfilenamewpf="resources/images/icons/politicians/politician_sergeant_arms.png">
+  </politiciansergeantdutch>
+  <politiciansergeantgerman portraitfilename="ui\ingame\politicians\politician_sergeant_arms" portraitfilenamewpf="resources/images/icons/politicians/politician_sergeant_arms.png">
+  </politiciansergeantgerman>
+  <politiciansergeantspanish portraitfilename="ui\ingame\politicians\politician_sergeant_arms" portraitfilenamewpf="resources/images/icons/politicians/politician_sergeant_arms.png">
+  </politiciansergeantspanish>
+  <politiciantycoon portraitfilename="ui\ingame\politicians\politician_tycoon" portraitfilenamewpf="resources/images/icons/politicians/politician_tycoon.png">
+  </politiciantycoon>
+  <politicianviceroybritish portraitfilename="ui\ingame\politicians\politician_viceroy" portraitfilenamewpf="resources/images/icons/politicians/politician_viceroy.png">
+  </politicianviceroybritish>
+  <politicianviceroydutch portraitfilename="ui\ingame\politicians\politician_viceroy" portraitfilenamewpf="resources/images/icons/politicians/politician_viceroy.png">
+  </politicianviceroydutch>
+  <politicianviceroygerman portraitfilename="ui\ingame\politicians\politician_viceroy" portraitfilenamewpf="resources/images/icons/politicians/politician_viceroy.png">
+  </politicianviceroygerman>
+  <politicianviceroyportuguese portraitfilename="ui\ingame\politicians\politician_viceroy" portraitfilenamewpf="resources/images/icons/politicians/politician_viceroy.png">
+  </politicianviceroyportuguese>
+  <politicianwarministerrussian portraitfilename="ui\ingame\politicians\politician_war_minister" portraitfilenamewpf="resources/images/icons/politicians/politician_war_minister.png">
+  </politicianwarministerrussian>
+  <politicianwarministerspanish portraitfilename="ui\ingame\politicians\politician_war_minister" portraitfilenamewpf="resources/images/icons/politicians/politician_war_minister.png">
+  </politicianwarministerspanish>
+  <politiciantycoonact3 portraitfilename="ui\ingame\politicians\politician_tycoon" portraitfilenamewpf="resources/images/icons/politicians/politician_tycoon.png">
+  </politiciantycoonact3>
+  <politicianwarministeract3 portraitfilename="ui\ingame\politicians\politician_war_minister" portraitfilenamewpf="resources/images/icons/politicians/politician_war_minister.png">
+  </politicianwarministeract3>
+  <xprevolutionlouverture portraitfilename="ui\ingame\politicians\politician_REV_louverture" portraitfilenamewpf="resources/images/icons/politicians/politician_REV_louverture.png">
+  </xprevolutionlouverture>
+  <xprevolutionwashington portraitfilename="ui\ingame\politicians\politician_REV_washington" portraitfilenamewpf="resources/images/icons/politicians/politician_REV_washington.png">
+  </xprevolutionwashington>
+  <xprevolutionhidalgo portraitfilename="ui\ingame\politicians\politician_REV_hidalgo" portraitfilenamewpf="resources/images/icons/politicians/politician_REV_hidalgo.png">
+  </xprevolutionhidalgo>
+  <xprevolutionbonifacio portraitfilename="ui\ingame\politicians\politician_REV_bonifacio" portraitfilenamewpf="resources/images/icons/politicians/politician_REV_bonifacio.png">
+  </xprevolutionbonifacio>
+  <xprevolutionbolivar portraitfilename="ui\ingame\politicians\politician_REV_bolivar" portraitfilenamewpf="resources/images/icons/politicians/politician_REV_bolivar.png">
+  </xprevolutionbolivar>
+  <xprevolutionsanmartin portraitfilename="ui\ingame\politicians\politician_REV_sanmartin" portraitfilenamewpf="resources/images/icons/politicians/politician_REV_sanmartin.png">
+  </xprevolutionsanmartin>
+  <xprevolutionsantander portraitfilename="ui\ingame\politicians\politician_REV_santander" portraitfilenamewpf="resources/images/icons/politicians/politician_REV_santander.png">
+  </xprevolutionsantander>
+  <xprevolutionohiggins portraitfilename="ui\ingame\politicians\politician_REV_higgins" portraitfilenamewpf="resources/images/icons/politicians/politician_REV_higgins.png">
+  </xprevolutionohiggins>
+  <tribaliroquoischief2 portraitfilename="ui\ingame\politicians\politician_IR_chief" nativeciv="Iroquois" techslot="3" portraitfilenamewpf="resources/images/icons/politicians/politician_IR_chief.png">
+  </tribaliroquoischief2>
+  <tribaliroquoischief3 portraitfilename="ui\ingame\politicians\politician_IR_chief" nativeciv="Iroquois" techslot="3" portraitfilenamewpf="resources/images/icons/politicians/politician_IR_chief.png">
+  </tribaliroquoischief3>
+  <tribaliroquoischief4 portraitfilename="ui\ingame\politicians\politician_IR_chief" nativeciv="Iroquois" techslot="3" portraitfilenamewpf="resources/images/icons/politicians/politician_IR_chief.png">
+  </tribaliroquoischief4>
+  <tribaliroquoischief5 portraitfilename="ui\ingame\politicians\politician_IR_chief" nativeciv="Iroquois" techslot="3" portraitfilenamewpf="resources/images/icons/politicians/politician_IR_chief.png">
+  </tribaliroquoischief5>
+  <tribaliroquoisshaman2 portraitfilename="ui\ingame\politicians\politician_IR_shaman" nativeciv="Iroquois" techslot="1" portraitfilenamewpf="resources/images/icons/politicians/politician_IR_shaman.png">
+  </tribaliroquoisshaman2>
+  <tribaliroquoisshaman3 portraitfilename="ui\ingame\politicians\politician_IR_shaman" nativeciv="Iroquois" techslot="1" portraitfilenamewpf="resources/images/icons/politicians/politician_IR_shaman.png">
+  </tribaliroquoisshaman3>
+  <tribaliroquoisshaman4 portraitfilename="ui\ingame\politicians\politician_IR_shaman" nativeciv="Iroquois" techslot="1" portraitfilenamewpf="resources/images/icons/politicians/politician_IR_shaman.png">
+  </tribaliroquoisshaman4>
+  <tribaliroquoisshaman5 portraitfilename="ui\ingame\politicians\politician_IR_shaman" nativeciv="Iroquois" techslot="1" portraitfilenamewpf="resources/images/icons/politicians/politician_IR_shaman.png">
+  </tribaliroquoisshaman5>
+  <tribaliroquoiswisewoman2 portraitfilename="ui\ingame\politicians\politician_IR_wisewoman" nativeciv="Iroquois" techslot="4" portraitfilenamewpf="resources/images/icons/politicians/politician_IR_wisewoman.png">
+  </tribaliroquoiswisewoman2>
+  <tribaliroquoiswisewoman3 portraitfilename="ui\ingame\politicians\politician_IR_wisewoman" nativeciv="Iroquois" techslot="4" portraitfilenamewpf="resources/images/icons/politicians/politician_IR_wisewoman.png">
+  </tribaliroquoiswisewoman3>
+  <tribaliroquoiswisewoman4 portraitfilename="ui\ingame\politicians\politician_IR_wisewoman" nativeciv="Iroquois" techslot="4" portraitfilenamewpf="resources/images/icons/politicians/politician_IR_wisewoman.png">
+  </tribaliroquoiswisewoman4>
+  <tribaliroquoiswisewoman5 portraitfilename="ui\ingame\politicians\politician_IR_wisewoman" nativeciv="Iroquois" techslot="4" portraitfilenamewpf="resources/images/icons/politicians/politician_IR_wisewoman.png">
+  </tribaliroquoiswisewoman5>
+  <tribaliroquoiswarrior2 portraitfilename="ui\ingame\politicians\politician_IR_warleader" nativeciv="Iroquois" techslot="0" portraitfilenamewpf="resources/images/icons/politicians/politician_IR_warleader.png">
+  </tribaliroquoiswarrior2>
+  <tribaliroquoiswarrior3 portraitfilename="ui\ingame\politicians\politician_IR_warleader" nativeciv="Iroquois" techslot="0" portraitfilenamewpf="resources/images/icons/politicians/politician_IR_warleader.png">
+  </tribaliroquoiswarrior3>
+  <tribaliroquoiswarrior4 portraitfilename="ui\ingame\politicians\politician_IR_warleader" nativeciv="Iroquois" techslot="0" portraitfilenamewpf="resources/images/icons/politicians/politician_IR_warleader.png">
+  </tribaliroquoiswarrior4>
+  <tribaliroquoiswarrior5 portraitfilename="ui\ingame\politicians\politician_IR_warleader" nativeciv="Iroquois" techslot="0" portraitfilenamewpf="resources/images/icons/politicians/politician_IR_warleader.png">
+  </tribaliroquoiswarrior5>
+  <tribaliroquoisyouth2 portraitfilename="ui\ingame\politicians\politician_IR_messenger" nativeciv="Iroquois" techslot="2" portraitfilenamewpf="resources/images/icons/politicians/politician_IR_messenger.png">
+  </tribaliroquoisyouth2>
+  <tribaliroquoisyouth3 portraitfilename="ui\ingame\politicians\politician_IR_messenger" nativeciv="Iroquois" techslot="2" portraitfilenamewpf="resources/images/icons/politicians/politician_IR_messenger.png">
+  </tribaliroquoisyouth3>
+  <tribaliroquoisyouth4 portraitfilename="ui\ingame\politicians\politician_IR_messenger" nativeciv="Iroquois" techslot="2" portraitfilenamewpf="resources/images/icons/politicians/politician_IR_messenger.png">
+  </tribaliroquoisyouth4>
+  <tribaliroquoisyouth5 portraitfilename="ui\ingame\politicians\politician_IR_messenger" nativeciv="Iroquois" techslot="2" portraitfilenamewpf="resources/images/icons/politicians/politician_IR_messenger.png">
+  </tribaliroquoisyouth5>
+  <tribalsiouxchief2 portraitfilename="ui\ingame\politicians\politician_SX_chief" nativeciv="Sioux" techslot="3" portraitfilenamewpf="resources/images/icons/politicians/politician_SX_chief.png">
+  </tribalsiouxchief2>
+  <tribalsiouxchief3 portraitfilename="ui\ingame\politicians\politician_SX_chief" nativeciv="Sioux" techslot="3" portraitfilenamewpf="resources/images/icons/politicians/politician_SX_chief.png">
+  </tribalsiouxchief3>
+  <tribalsiouxchief4 portraitfilename="ui\ingame\politicians\politician_SX_chief" nativeciv="Sioux" techslot="3" portraitfilenamewpf="resources/images/icons/politicians/politician_SX_chief.png">
+  </tribalsiouxchief4>
+  <tribalsiouxchief5 portraitfilename="ui\ingame\politicians\politician_SX_chief" nativeciv="Sioux" techslot="3" portraitfilenamewpf="resources/images/icons/politicians/politician_SX_chief.png">
+  </tribalsiouxchief5>
+  <tribalsiouxshaman2 portraitfilename="ui\ingame\politicians\politician_SX_shaman" nativeciv="Sioux" techslot="1" portraitfilenamewpf="resources/images/icons/politicians/politician_SX_shaman.png">
+  </tribalsiouxshaman2>
+  <tribalsiouxshaman3 portraitfilename="ui\ingame\politicians\politician_SX_shaman" nativeciv="Sioux" techslot="1" portraitfilenamewpf="resources/images/icons/politicians/politician_SX_shaman.png">
+  </tribalsiouxshaman3>
+  <tribalsiouxshaman4 portraitfilename="ui\ingame\politicians\politician_SX_shaman" nativeciv="Sioux" techslot="1" portraitfilenamewpf="resources/images/icons/politicians/politician_SX_shaman.png">
+  </tribalsiouxshaman4>
+  <tribalsiouxshaman5 portraitfilename="ui\ingame\politicians\politician_SX_shaman" nativeciv="Sioux" techslot="1" portraitfilenamewpf="resources/images/icons/politicians/politician_SX_shaman.png">
+  </tribalsiouxshaman5>
+  <tribalsiouxwisewoman2 portraitfilename="ui\ingame\politicians\politician_SX_wisewoman" nativeciv="Sioux" techslot="4" portraitfilenamewpf="resources/images/icons/politicians/politician_SX_wisewoman.png">
+  </tribalsiouxwisewoman2>
+  <tribalsiouxwisewoman3 portraitfilename="ui\ingame\politicians\politician_SX_wisewoman" nativeciv="Sioux" techslot="4" portraitfilenamewpf="resources/images/icons/politicians/politician_SX_wisewoman.png">
+  </tribalsiouxwisewoman3>
+  <tribalsiouxwisewoman4 portraitfilename="ui\ingame\politicians\politician_SX_wisewoman" nativeciv="Sioux" techslot="4" portraitfilenamewpf="resources/images/icons/politicians/politician_SX_wisewoman.png">
+  </tribalsiouxwisewoman4>
+  <tribalsiouxwisewoman5 portraitfilename="ui\ingame\politicians\politician_SX_wisewoman" nativeciv="Sioux" techslot="4" portraitfilenamewpf="resources/images/icons/politicians/politician_SX_wisewoman.png">
+  </tribalsiouxwisewoman5>
+  <tribalsiouxwarrior2 portraitfilename="ui\ingame\politicians\politician_SX_warleader" nativeciv="Sioux" techslot="0" portraitfilenamewpf="resources/images/icons/politicians/politician_SX_warleader.png">
+  </tribalsiouxwarrior2>
+  <tribalsiouxwarrior3 portraitfilename="ui\ingame\politicians\politician_SX_warleader" nativeciv="Sioux" techslot="0" portraitfilenamewpf="resources/images/icons/politicians/politician_SX_warleader.png">
+  </tribalsiouxwarrior3>
+  <tribalsiouxwarrior4 portraitfilename="ui\ingame\politicians\politician_SX_warleader" nativeciv="Sioux" techslot="0" portraitfilenamewpf="resources/images/icons/politicians/politician_SX_warleader.png">
+  </tribalsiouxwarrior4>
+  <tribalsiouxwarrior5 portraitfilename="ui\ingame\politicians\politician_SX_warleader" nativeciv="Sioux" techslot="0" portraitfilenamewpf="resources/images/icons/politicians/politician_SX_warleader.png">
+  </tribalsiouxwarrior5>
+  <tribalsiouxyouth2 portraitfilename="ui\ingame\politicians\politician_SX_messenger" nativeciv="Sioux" techslot="2" portraitfilenamewpf="resources/images/icons/politicians/politician_SX_messenger.png">
+  </tribalsiouxyouth2>
+  <tribalsiouxyouth3 portraitfilename="ui\ingame\politicians\politician_SX_messenger" nativeciv="Sioux" techslot="2" portraitfilenamewpf="resources/images/icons/politicians/politician_SX_messenger.png">
+  </tribalsiouxyouth3>
+  <tribalsiouxyouth4 portraitfilename="ui\ingame\politicians\politician_SX_messenger" nativeciv="Sioux" techslot="2" portraitfilenamewpf="resources/images/icons/politicians/politician_SX_messenger.png">
+  </tribalsiouxyouth4>
+  <tribalsiouxyouth5 portraitfilename="ui\ingame\politicians\politician_SX_messenger" nativeciv="Sioux" techslot="2" portraitfilenamewpf="resources/images/icons/politicians/politician_SX_messenger.png">
+  </tribalsiouxyouth5>
+  <tribalaztecchief2 portraitfilename="ui\ingame\politicians\politician_AZ_chief" nativeciv="Aztec" techslot="3" portraitfilenamewpf="resources/images/icons/politicians/politician_AZ_chief.png">
+  </tribalaztecchief2>
+  <tribalaztecchief3 portraitfilename="ui\ingame\politicians\politician_AZ_chief" nativeciv="Aztec" techslot="3" portraitfilenamewpf="resources/images/icons/politicians/politician_AZ_chief.png">
+  </tribalaztecchief3>
+  <tribalaztecchief4 portraitfilename="ui\ingame\politicians\politician_AZ_chief" nativeciv="Aztec" techslot="3" portraitfilenamewpf="resources/images/icons/politicians/politician_AZ_chief.png">
+  </tribalaztecchief4>
+  <tribalaztecchief5 portraitfilename="ui\ingame\politicians\politician_AZ_chief" nativeciv="Aztec" techslot="3" portraitfilenamewpf="resources/images/icons/politicians/politician_AZ_chief.png">
+  </tribalaztecchief5>
+  <tribalaztecshaman2 portraitfilename="ui\ingame\politicians\politician_AZ_shaman" nativeciv="Aztec" techslot="1" portraitfilenamewpf="resources/images/icons/politicians/politician_AZ_shaman.png">
+  </tribalaztecshaman2>
+  <tribalaztecshaman3 portraitfilename="ui\ingame\politicians\politician_AZ_shaman" nativeciv="Aztec" techslot="1" portraitfilenamewpf="resources/images/icons/politicians/politician_AZ_shaman.png">
+  </tribalaztecshaman3>
+  <tribalaztecshaman4 portraitfilename="ui\ingame\politicians\politician_AZ_shaman" nativeciv="Aztec" techslot="1" portraitfilenamewpf="resources/images/icons/politicians/politician_AZ_shaman.png">
+  </tribalaztecshaman4>
+  <tribalaztecshaman5 portraitfilename="ui\ingame\politicians\politician_AZ_shaman" nativeciv="Aztec" techslot="1" portraitfilenamewpf="resources/images/icons/politicians/politician_AZ_shaman.png">
+  </tribalaztecshaman5>
+  <tribalaztecwisewoman2 portraitfilename="ui\ingame\politicians\politician_AZ_wisewoman" nativeciv="Aztec" techslot="4" portraitfilenamewpf="resources/images/icons/politicians/politician_AZ_wisewoman.png">
+  </tribalaztecwisewoman2>
+  <tribalaztecwisewoman3 portraitfilename="ui\ingame\politicians\politician_AZ_wisewoman" nativeciv="Aztec" techslot="4" portraitfilenamewpf="resources/images/icons/politicians/politician_AZ_wisewoman.png">
+  </tribalaztecwisewoman3>
+  <tribalaztecwisewoman4 portraitfilename="ui\ingame\politicians\politician_AZ_wisewoman" nativeciv="Aztec" techslot="4" portraitfilenamewpf="resources/images/icons/politicians/politician_AZ_wisewoman.png">
+  </tribalaztecwisewoman4>
+  <tribalaztecwisewoman5 portraitfilename="ui\ingame\politicians\politician_AZ_wisewoman" nativeciv="Aztec" techslot="4" portraitfilenamewpf="resources/images/icons/politicians/politician_AZ_wisewoman.png">
+  </tribalaztecwisewoman5>
+  <tribalaztecwarrior2 portraitfilename="ui\ingame\politicians\politician_AZ_warleader" nativeciv="Aztec" techslot="0" portraitfilenamewpf="resources/images/icons/politicians/politician_AZ_warleader.png">
+  </tribalaztecwarrior2>
+  <tribalaztecwarrior3 portraitfilename="ui\ingame\politicians\politician_AZ_warleader" nativeciv="Aztec" techslot="0" portraitfilenamewpf="resources/images/icons/politicians/politician_AZ_warleader.png">
+  </tribalaztecwarrior3>
+  <tribalaztecwarrior4 portraitfilename="ui\ingame\politicians\politician_AZ_warleader" nativeciv="Aztec" techslot="0" portraitfilenamewpf="resources/images/icons/politicians/politician_AZ_warleader.png">
+  </tribalaztecwarrior4>
+  <tribalaztecwarrior5 portraitfilename="ui\ingame\politicians\politician_AZ_warleader" nativeciv="Aztec" techslot="0" portraitfilenamewpf="resources/images/icons/politicians/politician_AZ_warleader.png">
+  </tribalaztecwarrior5>
+  <tribalaztecyouth2 portraitfilename="ui\ingame\politicians\politician_AZ_messenger" nativeciv="Aztec" techslot="2" portraitfilenamewpf="resources/images/icons/politicians/politician_AZ_messenger.png">
+  </tribalaztecyouth2>
+  <tribalaztecyouth3 portraitfilename="ui\ingame\politicians\politician_AZ_messenger" nativeciv="Aztec" techslot="2" portraitfilenamewpf="resources/images/icons/politicians/politician_AZ_messenger.png">
+  </tribalaztecyouth3>
+  <tribalaztecyouth4 portraitfilename="ui\ingame\politicians\politician_AZ_messenger" nativeciv="Aztec" techslot="2" portraitfilenamewpf="resources/images/icons/politicians/politician_AZ_messenger.png">
+  </tribalaztecyouth4>
+  <tribalaztecyouth5 portraitfilename="ui\ingame\politicians\politician_AZ_messenger" nativeciv="Aztec" techslot="2" portraitfilenamewpf="resources/images/icons/politicians/politician_AZ_messenger.png">
+  </tribalaztecyouth5>
+  <ypwonderchinesewhitepagoda2 wondername="ypWCWhitePagoda2" techslot="0" nativeciv="Chinese" portraitfilename="ui\ingame\politicians\politician_white_pagoda" destructiontech="YPWonderChineseWhitePagodaDisable" portraitfilenamewpf="resources/images/icons/portraits/buildings/white_pagoda_icon_portrait.png">
+  </ypwonderchinesewhitepagoda2>
+  <ypwonderchinesesummerpalace2 wondername="ypWCSummerPalace2" techslot="1" nativeciv="Chinese" portraitfilename="ui\ingame\politicians\politician_summer_palace" destructiontech="YPWonderChineseSummerPalaceDisable" portraitfilenamewpf="resources/images/icons/portraits/buildings/summer_palace_icon_portrait.png">
+  </ypwonderchinesesummerpalace2>
+  <ypwonderchineseconfucianacademy2 wondername="ypWCConfucianAcademy2" techslot="2" nativeciv="Chinese" portraitfilename="buildings\wonders\confucian_academy\confucian_academy_icon_politician" destructiontech="YPWonderChineseConfucianAcademyDisable" portraitfilenamewpf="resources/images/icons/portraits/buildings/confucian_academy_icon_portrait.png">
+  </ypwonderchineseconfucianacademy2>
+  <ypwonderchinesetempleofheaven2 wondername="ypWCTempleOfHeaven2" techslot="3" nativeciv="Chinese" portraitfilename="ui\ingame\politicians\politician_templeofheaven" destructiontech="YPWonderChineseTempleOfHeavenDisable" portraitfilenamewpf="resources/images/icons/portraits/buildings/temple_of_heaven_icon_portrait.png">
+  </ypwonderchinesetempleofheaven2>
+  <ypwonderchineseporcelaintower2 wondername="ypWCPorcelainTower2" techslot="4" nativeciv="Chinese" portraitfilename="buildings\wonders\porcelain_tower\porcelain_tower_icon_politician" destructiontech="YPWonderChinesePorcelainTowerDisable" portraitfilenamewpf="resources/images/icons/portraits/buildings/porcelain_tower_icon_portrait.png">
+  </ypwonderchineseporcelaintower2>
+  <ypwonderchinesewhitepagoda3 wondername="ypWCWhitePagoda3" techslot="0" nativeciv="Chinese" portraitfilename="ui\ingame\politicians\politician_white_pagoda" destructiontech="YPWonderChineseWhitePagodaDisable" portraitfilenamewpf="resources/images/icons/portraits/buildings/white_pagoda_icon_portrait.png">
+  </ypwonderchinesewhitepagoda3>
+  <ypwonderchinesesummerpalace3 wondername="ypWCSummerPalace3" techslot="1" nativeciv="Chinese" portraitfilename="ui\ingame\politicians\politician_summer_palace" destructiontech="YPWonderChineseSummerPalaceDisable" portraitfilenamewpf="resources/images/icons/portraits/buildings/summer_palace_icon_portrait.png">
+  </ypwonderchinesesummerpalace3>
+  <ypwonderchineseconfucianacademy3 wondername="ypWCConfucianAcademy3" techslot="2" nativeciv="Chinese" portraitfilename="buildings\wonders\confucian_academy\confucian_academy_icon_politician" destructiontech="YPWonderChineseConfucianAcademyDisable" portraitfilenamewpf="resources/images/icons/portraits/buildings/confucian_academy_icon_portrait.png">
+  </ypwonderchineseconfucianacademy3>
+  <ypwonderchinesetempleofheaven3 wondername="ypWCTempleOfHeaven3" techslot="3" nativeciv="Chinese" portraitfilename="ui\ingame\politicians\politician_templeofheaven" destructiontech="YPWonderChineseTempleOfHeavenDisable" portraitfilenamewpf="resources/images/icons/portraits/buildings/temple_of_heaven_icon_portrait.png">
+  </ypwonderchinesetempleofheaven3>
+  <ypwonderchineseporcelaintower3 wondername="ypWCPorcelainTower3" techslot="4" nativeciv="Chinese" portraitfilename="buildings\wonders\porcelain_tower\porcelain_tower_icon_politician" destructiontech="YPWonderChinesePorcelainTowerDisable" portraitfilenamewpf="resources/images/icons/portraits/buildings/porcelain_tower_icon_portrait.png">
+  </ypwonderchineseporcelaintower3>
+  <ypwonderchinesewhitepagoda4 wondername="ypWCWhitePagoda4" techslot="0" nativeciv="Chinese" portraitfilename="ui\ingame\politicians\politician_white_pagoda" destructiontech="YPWonderChineseWhitePagodaDisable" portraitfilenamewpf="resources/images/icons/portraits/buildings/white_pagoda_icon_portrait.png">
+  </ypwonderchinesewhitepagoda4>
+  <ypwonderchinesesummerpalace4 wondername="ypWCSummerPalace4" techslot="1" nativeciv="Chinese" portraitfilename="ui\ingame\politicians\politician_summer_palace" destructiontech="YPWonderChineseSummerPalaceDisable" portraitfilenamewpf="resources/images/icons/portraits/buildings/summer_palace_icon_portrait.png">
+  </ypwonderchinesesummerpalace4>
+  <ypwonderchineseconfucianacademy4 wondername="ypWCConfucianAcademy4" techslot="2" nativeciv="Chinese" portraitfilename="buildings\wonders\confucian_academy\confucian_academy_icon_politician" destructiontech="YPWonderChineseConfucianAcademyDisable" portraitfilenamewpf="resources/images/icons/portraits/buildings/confucian_academy_icon_portrait.png">
+  </ypwonderchineseconfucianacademy4>
+  <ypwonderchinesetempleofheaven4 wondername="ypWCTempleOfHeaven4" techslot="3" nativeciv="Chinese" portraitfilename="ui\ingame\politicians\politician_templeofheaven" destructiontech="YPWonderChineseTempleOfHeavenDisable" portraitfilenamewpf="resources/images/icons/portraits/buildings/temple_of_heaven_icon_portrait.png">
+  </ypwonderchinesetempleofheaven4>
+  <ypwonderchineseporcelaintower4 wondername="ypWCPorcelainTower4" techslot="4" nativeciv="Chinese" portraitfilename="buildings\wonders\porcelain_tower\porcelain_tower_icon_politician" destructiontech="YPWonderChinesePorcelainTowerDisable" portraitfilenamewpf="resources/images/icons/portraits/buildings/porcelain_tower_icon_portrait.png">
+  </ypwonderchineseporcelaintower4>
+  <ypwonderchinesewhitepagoda5 wondername="ypWCWhitePagoda5" techslot="0" nativeciv="Chinese" portraitfilename="ui\ingame\politicians\politician_white_pagoda" destructiontech="YPWonderChineseWhitePagodaDisable" portraitfilenamewpf="resources/images/icons/portraits/buildings/white_pagoda_icon_portrait.png">
+  </ypwonderchinesewhitepagoda5>
+  <ypwonderchinesesummerpalace5 wondername="ypWCSummerPalace5" techslot="1" nativeciv="Chinese" portraitfilename="ui\ingame\politicians\politician_summer_palace" destructiontech="YPWonderChineseSummerPalaceDisable" portraitfilenamewpf="resources/images/icons/portraits/buildings/summer_palace_icon_portrait.png">
+  </ypwonderchinesesummerpalace5>
+  <ypwonderchineseconfucianacademy5 wondername="ypWCConfucianAcademy5" techslot="2" nativeciv="Chinese" portraitfilename="buildings\wonders\confucian_academy\confucian_academy_icon_politician" destructiontech="YPWonderChineseConfucianAcademyDisable" portraitfilenamewpf="resources/images/icons/portraits/buildings/confucian_academy_icon_portrait.png">
+  </ypwonderchineseconfucianacademy5>
+  <ypwonderchinesetempleofheaven5 wondername="ypWCTempleOfHeaven5" techslot="3" nativeciv="Chinese" portraitfilename="ui\ingame\politicians\politician_templeofheaven" destructiontech="YPWonderChineseTempleOfHeavenDisable" portraitfilenamewpf="resources/images/icons/portraits/buildings/temple_of_heaven_icon_portrait.png">
+  </ypwonderchinesetempleofheaven5>
+  <ypwonderchineseporcelaintower5 wondername="ypWCPorcelainTower5" techslot="4" nativeciv="Chinese" portraitfilename="buildings\wonders\porcelain_tower\porcelain_tower_icon_politician" destructiontech="YPWonderChinesePorcelainTowerDisable" portraitfilenamewpf="resources/images/icons/portraits/buildings/porcelain_tower_icon_portrait.png">
+  </ypwonderchineseporcelaintower5>
+  <ypwonderindianagra2 wondername="ypWIAgraFort2" techslot="0" nativeciv="Indians" portraitfilename="buildings\wonders\agra_fort\agra_fort_icon_politician" destructiontech="YPWonderIndianAgraFortDisable" portraitfilenamewpf="resources/images/icons/portraits/buildings/agra_fort_icon_portrait.png">
+  </ypwonderindianagra2>
+  <ypwonderindiancharminar2 wondername="ypWICharminarGate2" techslot="1" nativeciv="Indians" portraitfilename="buildings\wonders\charminar_gate\charminar_gate_icon_politician" destructiontech="YPWonderIndianCharminarDisable" portraitfilenamewpf="resources/images/icons/portraits/buildings/charminar_gate_icon_portrait.png">
+  </ypwonderindiancharminar2>
+  <ypwonderindiankarnimata2 wondername="ypWIKarniMata2" techslot="2" nativeciv="Indians" portraitfilename="buildings\wonders\karni_mata\karni_mata_icon_politician" destructiontech="YPWonderIndianKarniMataDisable" portraitfilenamewpf="resources/images/icons/portraits/buildings/karni_mata_icon_portrait.png">
+  </ypwonderindiankarnimata2>
+  <ypwonderindiantajmahal2 wondername="ypWITajMahal2" techslot="3" nativeciv="Indians" portraitfilename="ui\ingame\politicians\politician_tajmahal" destructiontech="YPWonderIndianTajMahalDisable" portraitfilenamewpf="resources/images/icons/portraits/buildings/taj_mahal_icon_portrait.png">
+  </ypwonderindiantajmahal2>
+  <ypwonderindiantowerofvictory2 wondername="ypWITowerOfVictory2" techslot="4" nativeciv="Indians" portraitfilename="buildings\wonders\tower_of_victory\tower_of_victory_icon_politician" destructiontech="YPWonderIndianTowerOfVictoryDisable" portraitfilenamewpf="resources/images/icons/portraits/buildings/tower_of_victory_icon_portrait.png">
+  </ypwonderindiantowerofvictory2>
+  <ypwonderindianagra3 wondername="ypWIAgraFort3" techslot="0" nativeciv="Indians" portraitfilename="buildings\wonders\agra_fort\agra_fort_icon_politician" destructiontech="YPWonderIndianAgraFortDisable" portraitfilenamewpf="resources/images/icons/portraits/buildings/agra_fort_icon_portrait.png">
+  </ypwonderindianagra3>
+  <ypwonderindiancharminar3 wondername="ypWICharminarGate3" techslot="1" nativeciv="Indians" portraitfilename="buildings\wonders\charminar_gate\charminar_gate_icon_politician" destructiontech="YPWonderIndianCharminarDisable" portraitfilenamewpf="resources/images/icons/portraits/buildings/charminar_gate_icon_portrait.png">
+  </ypwonderindiancharminar3>
+  <ypwonderindiankarnimata3 wondername="ypWIKarniMata3" techslot="2" nativeciv="Indians" portraitfilename="buildings\wonders\karni_mata\karni_mata_icon_politician" destructiontech="YPWonderIndianKarniMataDisable" portraitfilenamewpf="resources/images/icons/portraits/buildings/karni_mata_icon_portrait.png">
+  </ypwonderindiankarnimata3>
+  <ypwonderindiantajmahal3 wondername="ypWITajMahal3" techslot="3" nativeciv="Indians" portraitfilename="ui\ingame\politicians\politician_tajmahal" destructiontech="YPWonderIndianTajMahalDisable" portraitfilenamewpf="resources/images/icons/portraits/buildings/taj_mahal_icon_portrait.png">
+  </ypwonderindiantajmahal3>
+  <ypwonderindiantowerofvictory3 wondername="ypWITowerOfVictory3" techslot="4" nativeciv="Indians" portraitfilename="buildings\wonders\tower_of_victory\tower_of_victory_icon_politician" destructiontech="YPWonderIndianTowerOfVictoryDisable" portraitfilenamewpf="resources/images/icons/portraits/buildings/tower_of_victory_icon_portrait.png">
+  </ypwonderindiantowerofvictory3>
+  <ypwonderindianagra4 wondername="ypWIAgraFort4" techslot="0" nativeciv="Indians" portraitfilename="buildings\wonders\agra_fort\agra_fort_icon_politician" destructiontech="YPWonderIndianAgraFortDisable" portraitfilenamewpf="resources/images/icons/portraits/buildings/agra_fort_icon_portrait.png">
+  </ypwonderindianagra4>
+  <ypwonderindiancharminar4 wondername="ypWICharminarGate4" techslot="1" nativeciv="Indians" portraitfilename="buildings\wonders\charminar_gate\charminar_gate_icon_politician" destructiontech="YPWonderIndianCharminarDisable" portraitfilenamewpf="resources/images/icons/portraits/buildings/charminar_gate_icon_portrait.png">
+  </ypwonderindiancharminar4>
+  <ypwonderindiankarnimata4 wondername="ypWIKarniMata4" techslot="2" nativeciv="Indians" portraitfilename="buildings\wonders\karni_mata\karni_mata_icon_politician" destructiontech="YPWonderIndianKarniMataDisable" portraitfilenamewpf="resources/images/icons/portraits/buildings/karni_mata_icon_portrait.png">
+  </ypwonderindiankarnimata4>
+  <ypwonderindiantajmahal4 wondername="ypWITajMahal4" techslot="3" nativeciv="Indians" portraitfilename="ui\ingame\politicians\politician_tajmahal" destructiontech="YPWonderIndianTajMahalDisable" portraitfilenamewpf="resources/images/icons/portraits/buildings/taj_mahal_icon_portrait.png">
+  </ypwonderindiantajmahal4>
+  <ypwonderindiantowerofvictory4 wondername="ypWITowerOfVictory4" techslot="4" nativeciv="Indians" portraitfilename="buildings\wonders\tower_of_victory\tower_of_victory_icon_politician" destructiontech="YPWonderIndianTowerOfVictoryDisable" portraitfilenamewpf="resources/images/icons/portraits/buildings/tower_of_victory_icon_portrait.png">
+  </ypwonderindiantowerofvictory4>
+  <ypwonderindianagra5 wondername="ypWIAgraFort5" techslot="0" nativeciv="Indians" portraitfilename="buildings\wonders\agra_fort\agra_fort_icon_politician" destructiontech="YPWonderIndianAgraFortDisable" portraitfilenamewpf="resources/images/icons/portraits/buildings/agra_fort_icon_portrait.png">
+  </ypwonderindianagra5>
+  <ypwonderindiancharminar5 wondername="ypWICharminarGate5" techslot="1" nativeciv="Indians" portraitfilename="buildings\wonders\charminar_gate\charminar_gate_icon_politician" destructiontech="YPWonderIndianCharminarDisable" portraitfilenamewpf="resources/images/icons/portraits/buildings/charminar_gate_icon_portrait.png">
+  </ypwonderindiancharminar5>
+  <ypwonderindiankarnimata5 wondername="ypWIKarniMata5" techslot="2" nativeciv="Indians" portraitfilename="buildings\wonders\karni_mata\karni_mata_icon_politician" destructiontech="YPWonderIndianKarniMataDisable" portraitfilenamewpf="resources/images/icons/portraits/buildings/karni_mata_icon_portrait.png">
+  </ypwonderindiankarnimata5>
+  <ypwonderindiantajmahal5 wondername="ypWITajMahal5" techslot="3" nativeciv="Indians" portraitfilename="ui\ingame\politicians\politician_tajmahal" destructiontech="YPWonderIndianTajMahalDisable" portraitfilenamewpf="resources/images/icons/portraits/buildings/taj_mahal_icon_portrait.png">
+  </ypwonderindiantajmahal5>
+  <ypwonderindiantowerofvictory5 wondername="ypWITowerOfVictory5" techslot="4" nativeciv="Indians" portraitfilename="buildings\wonders\tower_of_victory\tower_of_victory_icon_politician" destructiontech="YPWonderIndianTowerOfVictoryDisable" portraitfilenamewpf="resources/images/icons/portraits/buildings/tower_of_victory_icon_portrait.png">
+  </ypwonderindiantowerofvictory5>
+  <ypwonderjapanesegiantbuddha2 wondername="ypWJGiantBuddha2" techslot="0" nativeciv="Japanese" portraitfilename="buildings\wonders\giant_buddha\giant_buddha_icon_politician" destructiontech="YPWonderJapaneseGiantBuddhaDisable" portraitfilenamewpf="resources/images/icons/portraits/buildings/giant_buddha_icon_portrait.png">
+  </ypwonderjapanesegiantbuddha2>
+  <ypwonderjapanesegoldenpavillion2 wondername="ypWJGoldenPavillion2" techslot="1" nativeciv="Japanese" portraitfilename="buildings\wonders\golden_pavillion\golden_pavillion_icon_politician" destructiontech="YPWonderJapaneseGoldenPavillionDisable" portraitfilenamewpf="resources/images/icons/portraits/buildings/golden_pavillion_icon_portrait.png">
+  </ypwonderjapanesegoldenpavillion2>
+  <ypwonderjapaneseshogunate2 wondername="ypWJShogunate2" techslot="2" nativeciv="Japanese" portraitfilename="buildings\wonders\imperial_palace\shogunate_icon_politician" destructiontech="YPWonderJapaneseShogunateDisable" portraitfilenamewpf="resources/images/icons/portraits/buildings/shogunate_icon_portrait.png">
+  </ypwonderjapaneseshogunate2>
+  <ypwonderjapanesetoriigates2 wondername="ypWJToriiGates2" techslot="3" nativeciv="Japanese" portraitfilename="buildings\wonders\torii_gates\torii_gates_icon_politician" destructiontech="YPWonderJapaneseToriiGatesDisable" portraitfilenamewpf="resources/images/icons/portraits/buildings/torii_gates_icon_portrait.png">
+  </ypwonderjapanesetoriigates2>
+  <ypwonderjapanesetoshogushrine2 wondername="ypWJToshoguShrine2" techslot="4" nativeciv="Japanese" portraitfilename="buildings\wonders\toshogu_shrine\toshogu_shrine_icon_politician" destructiontech="YPWonderJapaneseToshoguShrineDisable" portraitfilenamewpf="resources/images/icons/portraits/buildings/toshogu_shrine_icon_portrait.png">
+  </ypwonderjapanesetoshogushrine2>
+  <ypwonderjapanesegiantbuddha3 wondername="ypWJGiantBuddha3" techslot="0" nativeciv="Japanese" portraitfilename="buildings\wonders\giant_buddha\giant_buddha_icon_politician" destructiontech="YPWonderJapaneseGiantBuddhaDisable" portraitfilenamewpf="resources/images/icons/portraits/buildings/giant_buddha_icon_portrait.png">
+  </ypwonderjapanesegiantbuddha3>
+  <ypwonderjapanesegoldenpavillion3 wondername="ypWJGoldenPavillion3" techslot="1" nativeciv="Japanese" portraitfilename="buildings\wonders\golden_pavillion\golden_pavillion_icon_politician" destructiontech="YPWonderJapaneseGoldenPavillionDisable" portraitfilenamewpf="resources/images/icons/portraits/buildings/golden_pavillion_icon_portrait.png">
+  </ypwonderjapanesegoldenpavillion3>
+  <ypwonderjapaneseshogunate3 wondername="ypWJShogunate3" techslot="2" nativeciv="Japanese" portraitfilename="buildings\wonders\imperial_palace\shogunate_icon_politician" destructiontech="YPWonderJapaneseShogunateDisable" portraitfilenamewpf="resources/images/icons/portraits/buildings/shogunate_icon_portrait.png">
+  </ypwonderjapaneseshogunate3>
+  <ypwonderjapanesetoriigates3 wondername="ypWJToriiGates3" techslot="3" nativeciv="Japanese" portraitfilename="buildings\wonders\torii_gates\torii_gates_icon_politician" destructiontech="YPWonderJapaneseToriiGatesDisable" portraitfilenamewpf="resources/images/icons/portraits/buildings/torii_gates_icon_portrait.png">
+  </ypwonderjapanesetoriigates3>
+  <ypwonderjapanesetoshogushrine3 wondername="ypWJToshoguShrine3" techslot="4" nativeciv="Japanese" portraitfilename="buildings\wonders\toshogu_shrine\toshogu_shrine_icon_politician" destructiontech="YPWonderJapaneseToshoguShrineDisable" portraitfilenamewpf="resources/images/icons/portraits/buildings/toshogu_shrine_icon_portrait.png">
+  </ypwonderjapanesetoshogushrine3>
+  <ypwonderjapanesegiantbuddha4 wondername="ypWJGiantBuddha4" techslot="0" nativeciv="Japanese" portraitfilename="buildings\wonders\giant_buddha\giant_buddha_icon_politician" destructiontech="YPWonderJapaneseGiantBuddhaDisable" portraitfilenamewpf="resources/images/icons/portraits/buildings/giant_buddha_icon_portrait.png">
+  </ypwonderjapanesegiantbuddha4>
+  <ypwonderjapanesegoldenpavillion4 wondername="ypWJGoldenPavillion4" techslot="1" nativeciv="Japanese" portraitfilename="buildings\wonders\golden_pavillion\golden_pavillion_icon_politician" destructiontech="YPWonderJapaneseGoldenPavillionDisable" portraitfilenamewpf="resources/images/icons/portraits/buildings/golden_pavillion_icon_portrait.png">
+  </ypwonderjapanesegoldenpavillion4>
+  <ypwonderjapaneseshogunate4 wondername="ypWJShogunate4" techslot="2" nativeciv="Japanese" portraitfilename="buildings\wonders\imperial_palace\shogunate_icon_politician" destructiontech="YPWonderJapaneseShogunateDisable" portraitfilenamewpf="resources/images/icons/portraits/buildings/shogunate_icon_portrait.png">
+  </ypwonderjapaneseshogunate4>
+  <ypwonderjapanesetoriigates4 wondername="ypWJToriiGates4" techslot="3" nativeciv="Japanese" portraitfilename="buildings\wonders\torii_gates\torii_gates_icon_politician" destructiontech="YPWonderJapaneseToriiGatesDisable" portraitfilenamewpf="resources/images/icons/portraits/buildings/torii_gates_icon_portrait.png">
+  </ypwonderjapanesetoriigates4>
+  <ypwonderjapanesetoshogushrine4 wondername="ypWJToshoguShrine4" techslot="4" nativeciv="Japanese" portraitfilename="buildings\wonders\toshogu_shrine\toshogu_shrine_icon_politician" destructiontech="YPWonderJapaneseToshoguShrineDisable" portraitfilenamewpf="resources/images/icons/portraits/buildings/toshogu_shrine_icon_portrait.png">
+  </ypwonderjapanesetoshogushrine4>
+  <ypwonderjapanesegiantbuddha5 wondername="ypWJGiantBuddha5" techslot="0" nativeciv="Japanese" portraitfilename="buildings\wonders\giant_buddha\giant_buddha_icon_politician" destructiontech="YPWonderJapaneseGiantBuddhaDisable" portraitfilenamewpf="resources/images/icons/portraits/buildings/giant_buddha_icon_portrait.png">
+  </ypwonderjapanesegiantbuddha5>
+  <ypwonderjapanesegoldenpavillion5 wondername="ypWJGoldenPavillion5" techslot="1" nativeciv="Japanese" portraitfilename="buildings\wonders\golden_pavillion\golden_pavillion_icon_politician" destructiontech="YPWonderJapaneseGoldenPavillionDisable" portraitfilenamewpf="resources/images/icons/portraits/buildings/golden_pavillion_icon_portrait.png">
+  </ypwonderjapanesegoldenpavillion5>
+  <ypwonderjapaneseshogunate5 wondername="ypWJShogunate5" techslot="2" nativeciv="Japanese" portraitfilename="buildings\wonders\imperial_palace\shogunate_icon_politician" destructiontech="YPWonderJapaneseShogunateDisable" portraitfilenamewpf="resources/images/icons/portraits/buildings/shogunate_icon_portrait.png">
+  </ypwonderjapaneseshogunate5>
+  <ypwonderjapanesetoriigates5 wondername="ypWJToriiGates5" techslot="3" nativeciv="Japanese" portraitfilename="buildings\wonders\torii_gates\torii_gates_icon_politician" destructiontech="YPWonderJapaneseToriiGatesDisable" portraitfilenamewpf="resources/images/icons/portraits/buildings/torii_gates_icon_portrait.png">
+  </ypwonderjapanesetoriigates5>
+  <ypwonderjapanesetoshogushrine5 wondername="ypWJToshoguShrine5" techslot="4" nativeciv="Japanese" portraitfilename="buildings\wonders\toshogu_shrine\toshogu_shrine_icon_politician" destructiontech="YPWonderJapaneseToshoguShrineDisable" portraitfilenamewpf="resources/images/icons/portraits/buildings/toshogu_shrine_icon_portrait.png">
+  </ypwonderjapanesetoshogushrine5>
+  <tribalincachief2 portraitfilename="ui\ingame\politicians\politician_IC_chief" nativeciv="DEInca" techslot="3" portraitfilenamewpf="resources/images/icons/politicians/politician_IC_chief.png">
+  </tribalincachief2>
+  <tribalincachief3 portraitfilename="ui\ingame\politicians\politician_IC_chief" nativeciv="DEInca" techslot="3" portraitfilenamewpf="resources/images/icons/politicians/politician_IC_chief.png">
+  </tribalincachief3>
+  <tribalincachief4 portraitfilename="ui\ingame\politicians\politician_IC_chief" nativeciv="DEInca" techslot="3" portraitfilenamewpf="resources/images/icons/politicians/politician_IC_chief.png">
+  </tribalincachief4>
+  <tribalincachief5 portraitfilename="ui\ingame\politicians\politician_IC_chief" nativeciv="DEInca" techslot="3" portraitfilenamewpf="resources/images/icons/politicians/politician_IC_chief.png">
+  </tribalincachief5>
+  <tribalincashaman2 portraitfilename="ui\ingame\politicians\politician_IC_shaman" nativeciv="DEInca" techslot="1" portraitfilenamewpf="resources/images/icons/politicians/politician_IC_shaman.png">
+  </tribalincashaman2>
+  <tribalincashaman3 portraitfilename="ui\ingame\politicians\politician_IC_shaman" nativeciv="DEInca" techslot="1" portraitfilenamewpf="resources/images/icons/politicians/politician_IC_shaman.png">
+  </tribalincashaman3>
+  <tribalincashaman4 portraitfilename="ui\ingame\politicians\politician_IC_shaman" nativeciv="DEInca" techslot="1" portraitfilenamewpf="resources/images/icons/politicians/politician_IC_shaman.png">
+  </tribalincashaman4>
+  <tribalincashaman5 portraitfilename="ui\ingame\politicians\politician_IC_shaman" nativeciv="DEInca" techslot="1" portraitfilenamewpf="resources/images/icons/politicians/politician_IC_shaman.png">
+  </tribalincashaman5>
+  <tribalincawisewoman2 portraitfilename="ui\ingame\politicians\politician_IC_wisewoman" nativeciv="DEInca" techslot="4" portraitfilenamewpf="resources/images/icons/politicians/politician_IC_wisewoman.png">
+  </tribalincawisewoman2>
+  <tribalincawisewoman3 portraitfilename="ui\ingame\politicians\politician_IC_wisewoman" nativeciv="DEInca" techslot="4" portraitfilenamewpf="resources/images/icons/politicians/politician_IC_wisewoman.png">
+  </tribalincawisewoman3>
+  <tribalincawisewoman4 portraitfilename="ui\ingame\politicians\politician_IC_wisewoman" nativeciv="DEInca" techslot="4" portraitfilenamewpf="resources/images/icons/politicians/politician_IC_wisewoman.png">
+  </tribalincawisewoman4>
+  <tribalincawisewoman5 portraitfilename="ui\ingame\politicians\politician_IC_wisewoman" nativeciv="DEInca" techslot="4" portraitfilenamewpf="resources/images/icons/politicians/politician_IC_wisewoman.png">
+  </tribalincawisewoman5>
+  <tribalincawarrior2 portraitfilename="ui\ingame\politicians\politician_IC_warleader" nativeciv="DEInca" techslot="0" portraitfilenamewpf="resources/images/icons/politicians/politician_IC_warleader.png">
+  </tribalincawarrior2>
+  <tribalincawarrior3 portraitfilename="ui\ingame\politicians\politician_IC_warleader" nativeciv="DEInca" techslot="0" portraitfilenamewpf="resources/images/icons/politicians/politician_IC_warleader.png">
+  </tribalincawarrior3>
+  <tribalincawarrior4 portraitfilename="ui\ingame\politicians\politician_IC_warleader" nativeciv="DEInca" techslot="0" portraitfilenamewpf="resources/images/icons/politicians/politician_IC_warleader.png">
+  </tribalincawarrior4>
+  <tribalincawarrior5 portraitfilename="ui\ingame\politicians\politician_IC_warleader" nativeciv="DEInca" techslot="0" portraitfilenamewpf="resources/images/icons/politicians/politician_IC_warleader.png">
+  </tribalincawarrior5>
+  <tribalincayouth2 portraitfilename="ui\ingame\politicians\politician_IC_messenger" nativeciv="DEInca" techslot="2" portraitfilenamewpf="resources/images/icons/politicians/politician_IC_messenger.png">
+  </tribalincayouth2>
+  <tribalincayouth3 portraitfilename="ui\ingame\politicians\politician_IC_messenger" nativeciv="DEInca" techslot="2" portraitfilenamewpf="resources/images/icons/politicians/politician_IC_messenger.png">
+  </tribalincayouth3>
+  <tribalincayouth4 portraitfilename="ui\ingame\politicians\politician_IC_messenger" nativeciv="DEInca" techslot="2" portraitfilenamewpf="resources/images/icons/politicians/politician_IC_messenger.png">
+  </tribalincayouth4>
+  <tribalincayouth5 portraitfilename="ui\ingame\politicians\politician_IC_messenger" nativeciv="DEInca" techslot="2" portraitfilenamewpf="resources/images/icons/politicians/politician_IC_messenger.png">
+  </tribalincayouth5>
+  <depoliticianadventurerswedish portraitfilename="ui\ingame\politicians\politician_adventurer" portraitfilenamewpf="resources/images/icons/politicians/politician_adventurer.png">
+  </depoliticianadventurerswedish>
+  <depoliticiansergeantswedish portraitfilename="ui\ingame\politicians\politician_sergeant_arms" portraitfilenamewpf="resources/images/icons/politicians/politician_sergeant_arms.png">
+  </depoliticiansergeantswedish>
+  <depoliticiancavalierswedish portraitfilename="ui\ingame\politicians\politician_cavalier" portraitfilenamewpf="resources/images/icons/politicians/politician_cavalier.png">
+  </depoliticiancavalierswedish>
+  <depoliticianmusketeerswedish portraitfilename="ui\ingame\politicians\politician_kings_musketeer" portraitfilenamewpf="resources/images/icons/politicians/politician_kings_musketeer.png">
+  </depoliticianmusketeerswedish>
+  <depoliticiangeneralswedish portraitfilename="ui\ingame\politicians\politician_general" portraitfilenamewpf="resources/images/icons/politicians/politician_general.png">
+  </depoliticiangeneralswedish>
+  <depoliticianmarksmanswedish portraitfilename="ui\ingame\politicians\politician_marksman" portraitfilenamewpf="resources/images/icons/politicians/politician_marksman.png">
+  </depoliticianmarksmanswedish>
+  <depoliticianpapalguard portraitfilename="ui\ingame\politicians\politician_adventurer" portraitfilenamewpf="resources/images/icons/politicians/politician_papal_guard.png">
+  </depoliticianpapalguard>
+  <depoliticianpapalguardbritish portraitfilename="ui\ingame\politicians\politician_adventurer" portraitfilenamewpf="resources/images/icons/politicians/politician_papal_guard.png">
+  </depoliticianpapalguardbritish>
+  <depoliticianpapalguardspanish portraitfilename="ui\ingame\politicians\politician_adventurer" portraitfilenamewpf="resources/images/icons/politicians/politician_papal_guard.png">
+  </depoliticianpapalguardspanish>
+  <depoliticianpapalguardswedish portraitfilename="ui\ingame\politicians\politician_adventurer" portraitfilenamewpf="resources/images/icons/politicians/politician_papal_guard.png">
+  </depoliticianpapalguardswedish>
+  <depoliticianpapalguardportuguese portraitfilename="ui\ingame\politicians\politician_adventurer" portraitfilenamewpf="resources/images/icons/politicians/politician_papal_guard.png">
+  </depoliticianpapalguardportuguese>
+  <depoliticianmerccontractor portraitfilename="ui\ingame\politicians\politician_gentlemen_pirate" portraitfilenamewpf="resources/images/icons/politicians/politician_mercenary_contractor.png">
+  </depoliticianmerccontractor>
+  <depoliticianmerccontractorfortress portraitfilename="ui\ingame\politicians\politician_gentlemen_pirate" portraitfilenamewpf="resources/images/icons/politicians/politician_mercenary_contractor.png">
+  </depoliticianmerccontractorfortress>
+  <depoliticianmerccontractorfortressdutch portraitfilename="ui\ingame\politicians\politician_gentlemen_pirate" portraitfilenamewpf="resources/images/icons/politicians/politician_mercenary_contractor.png">
+  </depoliticianmerccontractorfortressdutch>
+  <depoliticianmerccontractorfortressbritish portraitfilename="ui\ingame\politicians\politician_gentlemen_pirate" portraitfilenamewpf="resources/images/icons/politicians/politician_mercenary_contractor.png">
+  </depoliticianmerccontractorfortressbritish>
+  <depoliticianmerccontractorfortressportuguese portraitfilename="ui\ingame\politicians\politician_gentlemen_pirate" portraitfilenamewpf="resources/images/icons/politicians/politician_mercenary_contractor.png">
+  </depoliticianmerccontractorfortressportuguese>
+  <depoliticianmerccontractorfortressottoman portraitfilename="ui\ingame\politicians\politician_gentlemen_pirate" portraitfilenamewpf="resources/images/icons/politicians/politician_mercenary_contractor.png">
+  </depoliticianmerccontractorfortressottoman>
+  <depoliticianmerccontractorfortressswedish portraitfilename="ui\ingame\politicians\politician_gentlemen_pirate" portraitfilenamewpf="resources/images/icons/politicians/politician_mercenary_contractor.png">
+  </depoliticianmerccontractorfortressswedish>
+  <depoliticianknightcolonial portraitfilename="ui\ingame\politicians\politician_sergeant_arms" portraitfilenamewpf="resources/images/icons/politicians/politician_knight.png">
+  </depoliticianknightcolonial>
+  <depoliticianknight portraitfilename="ui\ingame\politicians\politician_sergeant_arms" portraitfilenamewpf="resources/images/icons/politicians/politician_knight.png">
+  </depoliticianknight>
+  <depoliticianknightalt portraitfilename="ui\ingame\politicians\politician_sergeant_arms" portraitfilenamewpf="resources/images/icons/politicians/politician_knight.png">
+  </depoliticianknightalt>
+  <depoliticianinventor portraitfilename="ui\ingame\politicians\politician_philosopher_prince" portraitfilenamewpf="resources/images/icons/politicians/politician_inventor.png">
+  </depoliticianinventor>
+  <depoliticianlogisticianfrench portraitfilename="ui\ingame\politicians\politician_engineer" portraitfilenamewpf="resources/images/icons/politicians/politician_logistician.png">
+  </depoliticianlogisticianfrench>
+  <depoliticianlogisticianswedish portraitfilename="ui\ingame\politicians\politician_engineer" portraitfilenamewpf="resources/images/icons/politicians/politician_logistician.png">
+  </depoliticianlogisticianswedish>
+  <depoliticianlogisticiancolonialbritish portraitfilename="ui\ingame\politicians\politician_engineer" portraitfilenamewpf="resources/images/icons/politicians/politician_logistician.png">
+  </depoliticianlogisticiancolonialbritish>
+  <depoliticianlogisticiancolonialdutch portraitfilename="ui\ingame\politicians\politician_engineer" portraitfilenamewpf="resources/images/icons/politicians/politician_logistician.png">
+  </depoliticianlogisticiancolonialdutch>
+  <depoliticianlogisticiangerman portraitfilename="ui\ingame\politicians\politician_engineer" portraitfilenamewpf="resources/images/icons/politicians/politician_logistician.png">
+  </depoliticianlogisticiangerman>
+  <depoliticianlogisticianottoman portraitfilename="ui\ingame\politicians\politician_engineer" portraitfilenamewpf="resources/images/icons/politicians/politician_logistician.png">
+  </depoliticianlogisticianottoman>
+  <depoliticianlogisticianportuguese portraitfilename="ui\ingame\politicians\politician_engineer" portraitfilenamewpf="resources/images/icons/politicians/politician_logistician.png">
+  </depoliticianlogisticianportuguese>
+  <depoliticianlogisticiancolonialrussian portraitfilename="ui\ingame\politicians\politician_engineer" portraitfilenamewpf="resources/images/icons/politicians/politician_logistician.png">
+  </depoliticianlogisticiancolonialrussian>
+  <depoliticianlogisticianspanish portraitfilename="ui\ingame\politicians\politician_engineer" portraitfilenamewpf="resources/images/icons/politicians/politician_logistician.png">
+  </depoliticianlogisticianspanish>
+  <depoliticianlogisticianrussian portraitfilename="ui\ingame\politicians\politician_engineer" portraitfilenamewpf="resources/images/icons/politicians/politician_logistician.png">
+  </depoliticianlogisticianrussian>
+  <depoliticianlogistician portraitfilename="ui\ingame\politicians\politician_engineer" portraitfilenamewpf="resources/images/icons/politicians/politician_logistician.png">
+  </depoliticianlogistician>
+  <politiciannaturalistgerman portraitfilename="ui\ingame\politicians\politician_naturalist" portraitfilenamewpf="resources/images/icons/politicians/politician_naturalist.png">
+  </politiciannaturalistgerman>
+  <politicianbishopfortress portraitfilename="ui\ingame\politicians\politician_bishop" portraitfilenamewpf="resources/images/icons/politicians/politician_bishop.png">
+  </politicianbishopfortress>
+  <politiciannaturalistindustial portraitfilename="ui\ingame\politicians\politician_naturalist" portraitfilenamewpf="resources/images/icons/politicians/politician_naturalist.png">
+  </politiciannaturalistindustial>
+  <depoliticianinventorfortress portraitfilename="ui\ingame\politicians\politician_philosopher_prince" portraitfilenamewpf="resources/images/icons/politicians/politician_inventor.png">
+  </depoliticianinventorfortress>
+  <depoliticianinventorcolonial portraitfilename="ui\ingame\politicians\politician_philosopher_prince" portraitfilenamewpf="resources/images/icons/politicians/politician_inventor.png">
+  </depoliticianinventorcolonial>
+  <depoliticianadventurermorocco portraitfilename="ui\ingame\politicians\politician_adventurer" portraitfilenamewpf="resources/images/icons/politicians/politician_adventurer.png">
+  </depoliticianadventurermorocco>
+  <depoliticianmarksmanmorocco portraitfilename="ui\ingame\politicians\politician_marksman" portraitfilenamewpf="resources/images/icons/politicians/politician_marksman.png">
+  </depoliticianmarksmanmorocco>
+  <depoliticiangrandviziermorocco portraitfilename="ui\ingame\politicians\politician_grand_vizier" portraitfilenamewpf="resources/images/icons/politicians/politician_grand_vizier.png">
+  </depoliticiangrandviziermorocco>
+  <depoliticianethiopianqueen portraitfilename="ui\ingame\politicians\politician_ethiopian_queen" portraitfilenamewpf="resources/images/icons/politicians/politician_ethiopian_queen.png">
+  </depoliticianethiopianqueen>
+  <derevolutionhaiti portraitfilename="ui\ingame\politicians\politician_REV_louverture" portraitfilenamewpf="resources/images/icons/politicians/politician_REV_haiti.png">
+  </derevolutionhaiti>
+  <derevolutionusa portraitfilename="ui\ingame\politicians\politician_REV_washington" portraitfilenamewpf="resources/images/icons/politicians/politician_REV_usa.png">
+  </derevolutionusa>
+  <derevolutionmexico portraitfilename="ui\ingame\politicians\politician_REV_hidalgo" portraitfilenamewpf="resources/images/icons/politicians/politician_REV_mexico.png">
+  </derevolutionmexico>
+  <derevolutionbrazil portraitfilename="ui\ingame\politicians\politician_REV_bonifacio" portraitfilenamewpf="resources/images/icons/politicians/politician_REV_brazil.png">
+  </derevolutionbrazil>
+  <derevolutionperu portraitfilename="ui\ingame\politicians\politician_REV_bolivar" portraitfilenamewpf="resources/images/icons/politicians/politician_REV_peru.png">
+  </derevolutionperu>
+  <derevolutionargentina portraitfilename="ui\ingame\politicians\politician_REV_sanmartin" portraitfilenamewpf="resources/images/icons/politicians/politician_REV_argentina.png">
+  </derevolutionargentina>
+  <derevolutioncolombia portraitfilename="ui\ingame\politicians\politician_REV_santander" portraitfilenamewpf="resources/images/icons/politicians/politician_REV_colombia.png">
+  </derevolutioncolombia>
+  <derevolutioncolombiaportuguese portraitfilename="ui\ingame\politicians\politician_REV_santander" portraitfilenamewpf="resources/images/icons/politicians/politician_REV_colombia.png">
+  </derevolutioncolombiaportuguese>
+  <derevolutionchile portraitfilename="ui\ingame\politicians\politician_REV_higgins" portraitfilenamewpf="resources/images/icons/politicians/politician_REV_chile.png">
+  </derevolutionchile>
+  <derevolutioncanadafrench portraitfilename="ui\ingame\politicians\politician_REV_higgins" portraitfilenamewpf="resources/images/icons/politicians/politician_rev_canadian.png">
+  </derevolutioncanadafrench>
+  <derevolutioncanadabritish portraitfilename="ui\ingame\politicians\politician_REV_higgins" portraitfilenamewpf="resources/images/icons/politicians/politician_rev_canadian.png">
+  </derevolutioncanadabritish>
+  <derevolutionegypt portraitfilename="ui\ingame\politicians\politician_REV_higgins" portraitfilenamewpf="resources/images/icons/politicians/politician_rev_egyptian.png">
+  </derevolutionegypt>
+  <derevolutionfinland portraitfilename="ui\ingame\politicians\politician_REV_higgins" portraitfilenamewpf="resources/images/icons/politicians/politician_rev_finnish.png">
+  </derevolutionfinland>
+  <derevolutionhungarygerman portraitfilename="ui\ingame\politicians\politician_REV_higgins" portraitfilenamewpf="resources/images/icons/politicians/politician_rev_hungarians.png">
+  </derevolutionhungarygerman>
+  <derevolutionhungaryrussian portraitfilename="ui\ingame\politicians\politician_REV_higgins" portraitfilenamewpf="resources/images/icons/politicians/politician_rev_hungarians.png">
+  </derevolutionhungaryrussian>
+  <derevolutionhungaryottoman portraitfilename="ui\ingame\politicians\politician_REV_higgins" portraitfilenamewpf="resources/images/icons/politicians/politician_rev_hungarians.png">
+  </derevolutionhungaryottoman>
+  <derevolutionhungarymaltese portraitfilename="ui\ingame\politicians\politician_REV_higgins" portraitfilenamewpf="resources/images/icons/politicians/politician_rev_hungarians.png">
+  </derevolutionhungarymaltese>
+  <derevolutionindonesia portraitfilename="ui\ingame\politicians\politician_REV_higgins" portraitfilenamewpf="resources/images/icons/politicians/politician_rev_indonesians.png">
+  </derevolutionindonesia>
+  <derevolutionromania portraitfilename="ui\ingame\politicians\politician_REV_higgins" portraitfilenamewpf="resources/images/icons/politicians/politician_rev_romanian.png">
+  </derevolutionromania>
+  <derevolutionsouthafrica portraitfilename="ui\ingame\politicians\politician_REV_higgins" portraitfilenamewpf="resources/images/icons/politicians/politician_rev_south_african.png">
+  </derevolutionsouthafrica>
+  <derevolutionbarbarystates portraitfilename="ui\ingame\politicians\politician_REV_higgins" portraitfilenamewpf="resources/images/icons/politicians/politician_rev_barbary.png">
+  </derevolutionbarbarystates>
+  <derevolutionfrance portraitfilename="ui\ingame\politicians\politician_REV_higgins" portraitfilenamewpf="resources/images/icons/politicians/politician_rev_french.png">
+  </derevolutionfrance>
+  <derevolutionfrancene portraitfilename="ui\ingame\politicians\politician_REV_higgins" portraitfilenamewpf="resources/images/icons/politicians/politician_rev_french.png">
+  </derevolutionfrancene>
+  <depoliticianfederaldelaware portraitfilename="ui\ingame\politicians\politician_philosopher_prince" portraitfilenamewpf="resources/images/icons/politicians/politician_us_delaware.png" hccardtech1="DEHCFedFertileLowlands" hccardtech2="DEHCFedDelawareBlues">
+  </depoliticianfederaldelaware>
+  <depoliticianfederalpennsylvania portraitfilename="ui\ingame\politicians\politician_philosopher_prince" portraitfilenamewpf="resources/images/icons/politicians/politician_us_pennsylvania.png" hccardtech1="DEHCFedPhiladelphiaConvention" hccardtech2="DEHCFedTammanyFestival">
+  </depoliticianfederalpennsylvania>
+  <depoliticianfederalconnecticut portraitfilename="ui\ingame\politicians\politician_philosopher_prince" portraitfilenamewpf="resources/images/icons/politicians/politician_us_connecticut.png" hccardtech1="DEHCFedConnecticutShipwrights" hccardtech2="DEHCFedSapperCorps">
+  </depoliticianfederalconnecticut>
+  <depoliticianfederalmassachusetts portraitfilename="ui\ingame\politicians\politician_philosopher_prince" portraitfilenamewpf="resources/images/icons/politicians/politician_us_massachussetts.png" hccardtech1="DEHCFedPlymouthSettlers" hccardtech2="DEHCFedBostonTeaParty">
+  </depoliticianfederalmassachusetts>
+  <depoliticianfederalnewjersey portraitfilename="ui\ingame\politicians\politician_philosopher_prince" portraitfilenamewpf="resources/images/icons/politicians/politician_us_new jersey.png" hccardtech1="DEHCFedNewJerseySeaports" hccardtech2="DEHCFedMorrisCanal">
+  </depoliticianfederalnewjersey>
+  <depoliticianfederalmaryland portraitfilename="ui\ingame\politicians\politician_philosopher_prince" portraitfilenamewpf="resources/images/icons/politicians/politician_us_maryland.png" hccardtech1="DEHCFedAnnapolisAcademy" hccardtech2="DEHCFedOysterPirates">
+  </depoliticianfederalmaryland>
+  <depoliticianfederaltennessee portraitfilename="ui\ingame\politicians\politician_philosopher_prince" portraitfilenamewpf="resources/images/icons/politicians/politician_us_tennessee.png" hccardtech1="DEHCFedOvermountainSettlers" hccardtech2="DEHCFedWataugaAssociation">
+  </depoliticianfederaltennessee>
+  <depoliticianfederalsouthcarolina portraitfilename="ui\ingame\politicians\politician_philosopher_prince" portraitfilenamewpf="resources/images/icons/politicians/politician_us_south carolina.png" hccardtech1="DEHCFedMoultriesMilitia" hccardtech2="DEHCFedMarionsDiversions">
+  </depoliticianfederalsouthcarolina>
+  <depoliticianfederalvirginia portraitfilename="ui\ingame\politicians\politician_philosopher_prince" portraitfilenamewpf="resources/images/icons/politicians/politician_us_virginia.png" hccardtech1="DEHCFedVirginiaPlan" hccardtech2="DEHCFedCulpeperMinutemen">
+  </depoliticianfederalvirginia>
+  <depoliticianfederalnewyork portraitfilename="ui\ingame\politicians\politician_philosopher_prince" portraitfilenamewpf="resources/images/icons/politicians/politician_us_new_york.png" hccardtech1="DEHCFedNewYorkZouaves" hccardtech2="DEHCFedHamiltonsOwn">
+  </depoliticianfederalnewyork>
+  <depoliticianfederalvermont portraitfilename="ui\ingame\politicians\politician_philosopher_prince" portraitfilenamewpf="resources/images/icons/politicians/politician_us_vermont.png" hccardtech1="DEHCFedGreenMountainBoys" hccardtech2="DEHCFedVermontCoppers">
+  </depoliticianfederalvermont>
+  <depoliticianfederalnorthcarolina portraitfilename="ui\ingame\politicians\politician_philosopher_prince" portraitfilenamewpf="resources/images/icons/politicians/politician_us_north carolina.png">
+  </depoliticianfederalnorthcarolina>
+  <depoliticianfederalrhodeisland portraitfilename="ui\ingame\politicians\politician_philosopher_prince" portraitfilenamewpf="resources/images/icons/politicians/politician_us_rhode island.png" hccardtech1="DEHCFedSteamEngine" hccardtech2="DEHCFedTextileMill">
+  </depoliticianfederalrhodeisland>
+  <depoliticianfederalkentucky portraitfilename="ui\ingame\politicians\politician_philosopher_prince" portraitfilenamewpf="resources/images/icons/politicians/politician_us_kentucky.png" hccardtech1="DEHCFedKentuckyCoalfields" hccardtech2="DEHCFedKentuckyHunters">
+  </depoliticianfederalkentucky>
+  <depoliticianfederalnewhampshire portraitfilename="ui\ingame\politicians\politician_philosopher_prince" portraitfilenamewpf="resources/images/icons/politicians/politician_us_new hampshire.png" hccardtech1="DEHCFedFrenchCanadians" hccardtech2="DEHCFedNewHampshireManufacturing">
+  </depoliticianfederalnewhampshire>
+  <depoliticianfederallouisiana portraitfilename="ui\ingame\politicians\politician_philosopher_prince" portraitfilenamewpf="resources/images/icons/politicians/politician_us_louisiana.png">
+  </depoliticianfederallouisiana>
+  <depoliticianfederaltexas portraitfilename="ui\ingame\politicians\politician_philosopher_prince" portraitfilenamewpf="resources/images/icons/politicians/politician_us_texas.png" hccardtech1="DEHCFedTexanForts" hccardtech2="DEHCFedAlamo">
+  </depoliticianfederaltexas>
+  <depoliticianfederalcalifornia portraitfilename="ui\ingame\politicians\politician_philosopher_prince" portraitfilenamewpf="resources/images/icons/politicians/politician_us_california.png" hccardtech1="DEHCFedGoldRush" hccardtech2="DEHCFedBearFlagRevolt">
+  </depoliticianfederalcalifornia>
+  <depoliticianfederalmaine portraitfilename="ui\ingame\politicians\politician_philosopher_prince" portraitfilenamewpf="resources/images/icons/politicians/politician_us_maine.png">
+  </depoliticianfederalmaine>
+  <depoliticianfederalflorida portraitfilename="ui\ingame\politicians\politician_philosopher_prince" portraitfilenamewpf="resources/images/icons/politicians/politician_us_florida.png" hccardtech1="DEHCFedSeminolePonies" hccardtech2="DEHCFedFloridaCowhunters">
+  </depoliticianfederalflorida>
+  <depoliticianfederalindiana portraitfilename="ui\ingame\politicians\politician_philosopher_prince" portraitfilenamewpf="resources/images/icons/politicians/politician_us_indiana.png" hccardtech1="DEHCFedMammothImprovementAct" hccardtech2="DEHCFedIndianaMobilization">
+  </depoliticianfederalindiana>
+  <depoliticianfederalillinois portraitfilename="ui\ingame\politicians\politician_philosopher_prince" portraitfilenamewpf="resources/images/icons/politicians/politician_us_illinois.png" hccardtech1="DEHCFedDeereSteelPlow" hccardtech2="DEHCFedLincolnLand">
+  </depoliticianfederalillinois>
+  <depoliticianfederalohio portraitfilename="ui\ingame\politicians\politician_philosopher_prince" portraitfilenamewpf="resources/images/icons/politicians/politician_us_ohio.png" hccardtech1="DEHCFedPutnamEngineering" hccardtech2="DEHCFedOhioSupply">
+  </depoliticianfederalohio>
+  <deallegiancefulani2 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/allegiance_fulani.png" unlocktech1="DEAllegianceFulaniUnlock1" unlocktech2="DEAllegianceFulaniUnlock2" unlocktech3="-1">
+  </deallegiancefulani2>
+  <deallegiancefulani3 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/allegiance_fulani.png" unlocktech1="DEAllegianceFulaniUnlock1" unlocktech2="DEAllegianceFulaniUnlock2" unlocktech3="-1">
+  </deallegiancefulani3>
+  <deallegiancefulani4 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/allegiance_fulani.png" unlocktech1="DEAllegianceFulaniUnlock1" unlocktech2="DEAllegianceFulaniUnlock2" unlocktech3="-1">
+  </deallegiancefulani4>
+  <deallegiancefulani5 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/allegiance_fulani.png" unlocktech1="DEAllegianceFulaniUnlock1" unlocktech2="DEAllegianceFulaniUnlock2" unlocktech3="-1">
+  </deallegiancefulani5>
+  <deallegianceberber2 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/allegiance_berber.png" unlocktech1="DEAllegianceBerberUnlock1" unlocktech2="DEAllegianceBerberUnlock2" unlocktech3="-1">
+  </deallegianceberber2>
+  <deallegianceberber3 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/allegiance_berber.png" unlocktech1="DEAllegianceBerberUnlock1" unlocktech2="DEAllegianceBerberUnlock2" unlocktech3="-1">
+  </deallegianceberber3>
+  <deallegianceberber4 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/allegiance_berber.png" unlocktech1="DEAllegianceBerberUnlock1" unlocktech2="DEAllegianceBerberUnlock2" unlocktech3="-1">
+  </deallegianceberber4>
+  <deallegianceberber5 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/allegiance_berber.png" unlocktech1="DEAllegianceBerberUnlock1" unlocktech2="DEAllegianceBerberUnlock2" unlocktech3="-1">
+  </deallegianceberber5>
+  <deallegiancehausa2 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/allegiance_hausa.png" unlocktech1="DEAllegianceHausaUnlock1" unlocktech2="DEAllegianceHausaUnlock2" unlocktech3="-1">
+  </deallegiancehausa2>
+  <deallegiancehausa3 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/allegiance_hausa.png" unlocktech1="DEAllegianceHausaUnlock1" unlocktech2="DEAllegianceHausaUnlock2" unlocktech3="-1">
+  </deallegiancehausa3>
+  <deallegiancehausa4 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/allegiance_hausa.png" unlocktech1="DEAllegianceHausaUnlock1" unlocktech2="DEAllegianceHausaUnlock2" unlocktech3="-1">
+  </deallegiancehausa4>
+  <deallegiancehausa5 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/allegiance_hausa.png" unlocktech1="DEAllegianceHausaUnlock1" unlocktech2="DEAllegianceHausaUnlock2" unlocktech3="-1">
+  </deallegiancehausa5>
+  <deallegiancesonghai2 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/allegiance_songhai.png" unlocktech1="DEAllegianceSonghaiUnlock2" unlocktech2="DEAllegianceSonghaiUnlock1" unlocktech3="-1">
+  </deallegiancesonghai2>
+  <deallegiancesonghai3 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/allegiance_songhai.png" unlocktech1="DEAllegianceSonghaiUnlock2" unlocktech2="DEAllegianceSonghaiUnlock1" unlocktech3="-1">
+  </deallegiancesonghai3>
+  <deallegiancesonghai4 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/allegiance_songhai.png" unlocktech1="DEAllegianceSonghaiUnlock2" unlocktech2="DEAllegianceSonghaiUnlock1" unlocktech3="-1">
+  </deallegiancesonghai4>
+  <deallegiancesonghai5 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/allegiance_songhai.png" unlocktech1="DEAllegianceSonghaiUnlock2" unlocktech2="DEAllegianceSonghaiUnlock1" unlocktech3="-1">
+  </deallegiancesonghai5>
+  <deallegianceyoruba2 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/allegiance_yoruba.png" unlocktech1="DEAllegianceYorubaUnlock1" unlocktech2="DEAllegianceYorubaUnlock2" unlocktech3="-1">
+  </deallegianceyoruba2>
+  <deallegianceyoruba3 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/allegiance_yoruba.png" unlocktech1="DEAllegianceYorubaUnlock1" unlocktech2="DEAllegianceYorubaUnlock2" unlocktech3="-1">
+  </deallegianceyoruba3>
+  <deallegianceyoruba4 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/allegiance_yoruba.png" unlocktech1="DEAllegianceYorubaUnlock1" unlocktech2="DEAllegianceYorubaUnlock2" unlocktech3="-1">
+  </deallegianceyoruba4>
+  <deallegianceyoruba5 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/allegiance_yoruba.png" unlocktech1="DEAllegianceYorubaUnlock1" unlocktech2="DEAllegianceYorubaUnlock2" unlocktech3="-1">
+  </deallegianceyoruba5>
+  <deallegianceakan2 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/allegiance_akan.png" unlocktech1="DEAllegianceAkanUnlock1" unlocktech2="DEAllegianceAkanUnlock2" unlocktech3="-1">
+  </deallegianceakan2>
+  <deallegianceakan3 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/allegiance_akan.png" unlocktech1="DEAllegianceAkanUnlock1" unlocktech2="DEAllegianceAkanUnlock2" unlocktech3="-1">
+  </deallegianceakan3>
+  <deallegianceakan4 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/allegiance_akan.png" unlocktech1="DEAllegianceAkanUnlock1" unlocktech2="DEAllegianceAkanUnlock2" unlocktech3="-1">
+  </deallegianceakan4>
+  <deallegianceakan5 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/allegiance_akan.png" unlocktech1="DEAllegianceAkanUnlock1" unlocktech2="DEAllegianceAkanUnlock2" unlocktech3="-1">
+  </deallegianceakan5>
+  <deallegiancemoroccan2 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/allegiance_moroccan.png" unlocktech1="DEAllegianceMoroccanUnlock1" unlocktech2="DEAllegianceMoroccanUnlock2">
+  </deallegiancemoroccan2>
+  <deallegiancemoroccan3 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/allegiance_moroccan.png" unlocktech1="DEAllegianceMoroccanUnlock1" unlocktech2="DEAllegianceMoroccanUnlock2">
+  </deallegiancemoroccan3>
+  <deallegiancemoroccan4 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/allegiance_moroccan.png" unlocktech1="DEAllegianceMoroccanUnlock1" unlocktech2="DEAllegianceMoroccanUnlock2">
+  </deallegiancemoroccan4>
+  <deallegiancemoroccan5 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/allegiance_moroccan.png" unlocktech1="DEAllegianceMoroccanUnlock1" unlocktech2="DEAllegianceMoroccanUnlock2">
+  </deallegiancemoroccan5>
+  <deallegiancebritish2 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/allegiance_british.png" unlocktech1="DEAllegianceBritishUnlock1" unlocktech2="DEAllegianceBritishUnlock2">
+  </deallegiancebritish2>
+  <deallegiancebritish3 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/allegiance_british.png" unlocktech1="DEAllegianceBritishUnlock1" unlocktech2="DEAllegianceBritishUnlock2">
+  </deallegiancebritish3>
+  <deallegiancebritish4 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/allegiance_british.png" unlocktech1="DEAllegianceBritishUnlock1" unlocktech2="DEAllegianceBritishUnlock2">
+  </deallegiancebritish4>
+  <deallegiancebritish5 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/allegiance_british.png" unlocktech1="DEAllegianceBritishUnlock1" unlocktech2="DEAllegianceBritishUnlock2">
+  </deallegiancebritish5>
+  <deallegianceoromo2 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/allegiance_oromo.png" unlocktech1="DEAllegianceOromoUnlock1" unlocktech2="DEAllegianceOromoUnlock2" unlocktech3="-1">
+  </deallegianceoromo2>
+  <deallegianceoromo3 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/allegiance_oromo.png" unlocktech1="DEAllegianceOromoUnlock1" unlocktech2="DEAllegianceOromoUnlock2" unlocktech3="-1">
+  </deallegianceoromo3>
+  <deallegianceoromo4 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/allegiance_oromo.png" unlocktech1="DEAllegianceOromoUnlock1" unlocktech2="DEAllegianceOromoUnlock2" unlocktech3="-1">
+  </deallegianceoromo4>
+  <deallegianceoromo5 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/allegiance_oromo.png" unlocktech1="DEAllegianceOromoUnlock1" unlocktech2="DEAllegianceOromoUnlock2" unlocktech3="-1">
+  </deallegianceoromo5>
+  <deallegianceportuguese2 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/allegiance_portuguese.png" unlocktech1="DEAllegiancePortugueseUnlock1" unlocktech2="DEAllegiancePortugueseUnlock2" unlocktech3="-1">
+  </deallegianceportuguese2>
+  <deallegianceportuguese3 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/allegiance_portuguese.png" unlocktech1="DEAllegiancePortugueseUnlock1" unlocktech2="DEAllegiancePortugueseUnlock2" unlocktech3="-1">
+  </deallegianceportuguese3>
+  <deallegianceportuguese4 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/allegiance_portuguese.png" unlocktech1="DEAllegiancePortugueseUnlock1" unlocktech2="DEAllegiancePortugueseUnlock2" unlocktech3="-1">
+  </deallegianceportuguese4>
+  <deallegianceportuguese5 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/allegiance_portuguese.png" unlocktech1="DEAllegiancePortugueseUnlock1" unlocktech2="DEAllegiancePortugueseUnlock2" unlocktech3="-1">
+  </deallegianceportuguese5>
+  <deallegiancehabesha2 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/allegiance_habesha.png" unlocktech1="DEAllegianceHabeshaUnlock2" unlocktech2="DEAllegianceHabeshaUnlock1" unlocktech3="-1">
+  </deallegiancehabesha2>
+  <deallegiancehabesha3 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/allegiance_habesha.png" unlocktech1="DEAllegianceHabeshaUnlock2" unlocktech2="DEAllegianceHabeshaUnlock1" unlocktech3="-1">
+  </deallegiancehabesha3>
+  <deallegiancehabesha4 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/allegiance_habesha.png" unlocktech1="DEAllegianceHabeshaUnlock2" unlocktech2="DEAllegianceHabeshaUnlock1" unlocktech3="-1">
+  </deallegiancehabesha4>
+  <deallegiancehabesha5 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/allegiance_habesha.png" unlocktech1="DEAllegianceHabeshaUnlock2" unlocktech2="DEAllegianceHabeshaUnlock1" unlocktech3="-1">
+  </deallegiancehabesha5>
+  <deallegiancesomali2 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/allegiance_somali.png" unlocktech1="DEAllegianceSomaliUnlock1" unlocktech2="DEAllegianceSomaliUnlock2" unlocktech3="-1">
+  </deallegiancesomali2>
+  <deallegiancesomali3 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/allegiance_somali.png" unlocktech1="DEAllegianceSomaliUnlock1" unlocktech2="DEAllegianceSomaliUnlock2" unlocktech3="-1">
+  </deallegiancesomali3>
+  <deallegiancesomali4 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/allegiance_somali.png" unlocktech1="DEAllegianceSomaliUnlock1" unlocktech2="DEAllegianceSomaliUnlock2" unlocktech3="-1">
+  </deallegiancesomali4>
+  <deallegiancesomali5 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/allegiance_somali.png" unlocktech1="DEAllegianceSomaliUnlock1" unlocktech2="DEAllegianceSomaliUnlock2" unlocktech3="-1">
+  </deallegiancesomali5>
+  <deallegiancesudanese2 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/allegiance_sudanese.png" unlocktech1="DEAllegianceSudaneseUnlock1" unlocktech2="DEAllegianceSudaneseUnlock2" unlocktech3="-1">
+  </deallegiancesudanese2>
+  <deallegiancesudanese3 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/allegiance_sudanese.png" unlocktech1="DEAllegianceSudaneseUnlock1" unlocktech2="DEAllegianceSudaneseUnlock2" unlocktech3="-1">
+  </deallegiancesudanese3>
+  <deallegiancesudanese4 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/allegiance_sudanese.png" unlocktech1="DEAllegianceSudaneseUnlock1" unlocktech2="DEAllegianceSudaneseUnlock2" unlocktech3="-1">
+  </deallegiancesudanese4>
+  <deallegiancesudanese5 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/allegiance_sudanese.png" unlocktech1="DEAllegianceSudaneseUnlock1" unlocktech2="DEAllegianceSudaneseUnlock2" unlocktech3="-1">
+  </deallegiancesudanese5>
+  <deallegianceindian2 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/allegiance_indian.png" unlocktech1="DEAllegianceIndianUnlock1" unlocktech2="DEAllegianceIndianUnlock2" unlocktech3="-1">
+  </deallegianceindian2>
+  <deallegianceindian3 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/allegiance_indian.png" unlocktech1="DEAllegianceIndianUnlock1" unlocktech2="DEAllegianceIndianUnlock2" unlocktech3="-1">
+  </deallegianceindian3>
+  <deallegianceindian4 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/allegiance_indian.png" unlocktech1="DEAllegianceIndianUnlock1" unlocktech2="DEAllegianceIndianUnlock2" unlocktech3="-1">
+  </deallegianceindian4>
+  <deallegianceindian5 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/allegiance_indian.png" unlocktech1="DEAllegianceIndianUnlock1" unlocktech2="DEAllegianceIndianUnlock2" unlocktech3="-1">
+  </deallegianceindian5>
+  <deallegiancejesuit2 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/allegiance_jesuit.png" unlocktech1="DEAllegianceJesuitUnlock1" unlocktech2="DEAllegianceJesuitUnlock2" unlocktech3="-1">
+  </deallegiancejesuit2>
+  <deallegiancejesuit3 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/allegiance_jesuit.png" unlocktech1="DEAllegianceJesuitUnlock1" unlocktech2="DEAllegianceJesuitUnlock2" unlocktech3="-1">
+  </deallegiancejesuit3>
+  <deallegiancejesuit4 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/allegiance_jesuit.png" unlocktech1="DEAllegianceJesuitUnlock1" unlocktech2="DEAllegianceJesuitUnlock2" unlocktech3="-1">
+  </deallegiancejesuit4>
+  <deallegiancejesuit5 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/allegiance_jesuit.png" unlocktech1="DEAllegianceJesuitUnlock1" unlocktech2="DEAllegianceJesuitUnlock2" unlocktech3="-1">
+  </deallegiancejesuit5>
+  <deallegiancearab2 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/allegiance_arab.png" unlocktech1="DEAllegianceArabUnlock1" unlocktech2="DEAllegianceArabUnlock2" unlocktech3="-1">
+  </deallegiancearab2>
+  <deallegiancearab3 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/allegiance_arab.png" unlocktech1="DEAllegianceArabUnlock1" unlocktech2="DEAllegianceArabUnlock2" unlocktech3="-1">
+  </deallegiancearab3>
+  <deallegiancearab4 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/allegiance_arab.png" unlocktech1="DEAllegianceArabUnlock1" unlocktech2="DEAllegianceArabUnlock2" unlocktech3="-1">
+  </deallegiancearab4>
+  <deallegiancearab5 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/allegiance_arab.png" unlocktech1="DEAllegianceArabUnlock1" unlocktech2="DEAllegianceArabUnlock2" unlocktech3="-1">
+  </deallegiancearab5>
+  <depoliticianfederalmxdurango portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_mx_durango.png" hccardtech1="DEHCFedMXFortifiedHaciendas" hccardtech2="DEHCFedMXCerroDeMercado">
+  </depoliticianfederalmxdurango>
+  <depoliticianfederalmxmichoacan portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_mx_michoacan.png" hccardtech1="DEHCFedMXColegioSanNicolas" hccardtech2="DEHCFedMXFishermen">
+  </depoliticianfederalmxmichoacan>
+  <depoliticianfederalmxtlaxcala portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_mx_tlaxcala.png" hccardtech1="DEHCFedMXMestizos" hccardtech2="DEHCFedMXTlaxcalaTextiles">
+  </depoliticianfederalmxtlaxcala>
+  <depoliticianfederalmxchiapas portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_mx_chiapas.png" hccardtech1="DEHCFedMXTzotzilUprising" hccardtech2="DEHCFedMXMayaCrops">
+  </depoliticianfederalmxchiapas>
+  <depoliticianfederalmxqueretaro portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_mx_queretaro.png" hccardtech1="DEHCFedMXArteagaReforms" hccardtech2="DEHCFedMXQueretaroHaciendas">
+  </depoliticianfederalmxqueretaro>
+  <depoliticianfederalmxtabasco portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_mx_tabasco.png" hccardtech1="DEHCFedMXTabascanGuerrillas" hccardtech2="DEHCFedMXTabascoFruits">
+  </depoliticianfederalmxtabasco>
+  <depoliticianfederalmxsonora portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_mx_sonora.png" hccardtech1="DEHCFedMXVaqueros" hccardtech2="DEHCFedMXSonoraValleys">
+  </depoliticianfederalmxsonora>
+  <depoliticianfederalmxsinaloa portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_mx_sinaloa.png" hccardtech1="DEHCFedMXPacificPearl" hccardtech2="DEHCFedMXHirePrivateers">
+  </depoliticianfederalmxsinaloa>
+  <depoliticianfederalmxcoahuila portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_mx_coahuila.png" hccardtech1="DEHCFedMXEmpresarioContracts" hccardtech2="DEHCFedMXZaragozaLands">
+  </depoliticianfederalmxcoahuila>
+  <depoliticianfederalmxsanluispotosi portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_mx_san_luis_potosi.png" hccardtech1="DEHCFedMXSanLuisPatriots" hccardtech2="DEHCFedMXBustamante">
+  </depoliticianfederalmxsanluispotosi>
+  <depoliticianfederalmxzacatecas portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_mx_zacatecas.png" hccardtech1="DEHCFedMXZacatecasSilver" hccardtech2="DEHCFedMXZacatecasRebellion">
+  </depoliticianfederalmxzacatecas>
+  <depoliticianfederalmxtamaulipas portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_mx_tamaulipas.png" hccardtech1="DEHCFedMXTampicoCustoms" hccardtech2="DEHCFedMXPanucoWaterway">
+  </depoliticianfederalmxtamaulipas>
+  <depoliticianfederalmxchihuahua portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_mx_chihuahua.png" hccardtech1="DEHCFedMXTriasFortifications" hccardtech2="DEHCFedMXSierraMadre">
+  </depoliticianfederalmxchihuahua>
+  <depoliticianfederalmxguanajuato portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_mx_guanajuato.png" hccardtech1="DEHCFedMXElBajio" hccardtech2="DEHCFedMXOurLadyOfLight">
+  </depoliticianfederalmxguanajuato>
+  <depoliticianfederalmxguerrero portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_mx_guerrero.png" hccardtech1="DEHCFedMXIndependenceHero" hccardtech2="DEHCFedMXAztecPueblos">
+  </depoliticianfederalmxguerrero>
+  <depoliticianfederalmxjalisco portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_mx_jalisco.png" hccardtech1="DEHCFedMXRanching" hccardtech2="DEHCFedMXTonalaCeramics">
+  </depoliticianfederalmxjalisco>
+  <depoliticianfederalmxmexico portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_mx_mexico.png" hccardtech1="DEHCFedMXNationalServant" hccardtech2="DEHCFedMXThreeGuarantees">
+  </depoliticianfederalmxmexico>
+  <depoliticianfederalmxveracruz portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_mx_veracruz.png" hccardtech1="DEHCFedMXPortVeracruz" hccardtech2="DEHCFedMXNationalGuard">
+  </depoliticianfederalmxveracruz>
+  <depoliticianfederalmxpuebla portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_mx_puebla.png" hccardtech1="DEHCFedMXCincoDeMayo" hccardtech2="DEHCFedMXTalaveraArchitecture">
+  </depoliticianfederalmxpuebla>
+  <depoliticianfederalmxoaxaca portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_mx_oaxaca.png" hccardtech1="DEHCFedMXJuarezLand" hccardtech2="DEHCFedMXZapotecValley">
+  </depoliticianfederalmxoaxaca>
+  <derevolutionmxcentralamerica portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_rev_central_america.png">
+  </derevolutionmxcentralamerica>
+  <derevolutionmxbajacalifornia portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_rev_baja_california.png">
+  </derevolutionmxbajacalifornia>
+  <derevolutionmxyucatan portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_rev_yucatan.png">
+  </derevolutionmxyucatan>
+  <derevolutionmxriogrande portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_rev_rio_grande.png">
+  </derevolutionmxriogrande>
+  <derevolutionmxmaya portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_rev_maya.png">
+  </derevolutionmxmaya>
+  <derevolutionmxcalifornia portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_us_california.png">
+  </derevolutionmxcalifornia>
+  <derevolutionmxtexas portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_us_texas.png">
+  </derevolutionmxtexas>
+  <dereturnmxcentralamerica portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_mx_rev_mexico.png">
+  </dereturnmxcentralamerica>
+  <dereturnmxbajacalifornia portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_mx_rev_mexico.png">
+  </dereturnmxbajacalifornia>
+  <dereturnmxyucatan portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_mx_rev_mexico.png">
+  </dereturnmxyucatan>
+  <dereturnmxriogrande portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_mx_rev_mexico.png">
+  </dereturnmxriogrande>
+  <depoliticianfreecolonialitalian portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_governor.png">
+  </depoliticianfreecolonialitalian>
+  <depoliticianfreefortressitalian portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_sergeant_arms.png">
+  </depoliticianfreefortressitalian>
+  <depoliticianfreeindustrialitalian portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_engineer.png">
+  </depoliticianfreeindustrialitalian>
+  <depoliticianfreeimperialitalian portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_el_presidente.png">
+  </depoliticianfreeimperialitalian>
+  <depoliticianmediciitalian portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_medici.png">
+  </depoliticianmediciitalian>
+  <depoliticianlogisticianitalian portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_logistician.png">
+  </depoliticianlogisticianitalian>
+  <politicianadventureritalian portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_adventurer.png">
+  </politicianadventureritalian>
+  <politicianmarksmanitalian portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_marksman.png">
+  </politicianmarksmanitalian>
+  <depoliticianmerccontractorfortressitalian portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_mercenary_contractor.png">
+  </depoliticianmerccontractorfortressitalian>
+  <politiciancavalieritalian portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_cavalier.png">
+  </politiciancavalieritalian>
+  <depoliticianpope portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_pope.png">
+  </depoliticianpope>
+  <depoliticianpapalguarditalian portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_papal_guard.png">
+  </depoliticianpapalguarditalian>
+  <depoliticianroyalistitalian portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_royalist.png">
+  </depoliticianroyalistitalian>
+  <depoliticiangeneralitalian portraitfilename="ui\ingame\politicians\politician_general" portraitfilenamewpf="resources/images/icons/politicians/politician_general.png">
+  </depoliticiangeneralitalian>
+  <politicianadmiralmaltese portraitfilename="ui\ingame\politicians\politician_admiral" portraitfilenamewpf="resources/images/icons/politicians/politician_admiral.png">
+  </politicianadmiralmaltese>
+  <politicianwarministermaltese portraitfilename="ui\ingame\politicians\politician_war_minister" portraitfilenamewpf="resources/images/icons/politicians/politician_war_minister.png">
+  </politicianwarministermaltese>
+  <politiciansergeantmaltese portraitfilename="ui\ingame\politicians\politician_sergeant_arms" portraitfilenamewpf="resources/images/icons/politicians/politician_sergeant_arms.png">
+  </politiciansergeantmaltese>
+  <depoliticianmerccontractorfortressmaltese portraitfilename="ui\ingame\politicians\politician_gentlemen_pirate" portraitfilenamewpf="resources/images/icons/politicians/politician_mercenary_contractor.png">
+  </depoliticianmerccontractorfortressmaltese>
+  <politiciangeneralmaltese portraitfilename="ui\ingame\politicians\politician_general" portraitfilenamewpf="resources/images/icons/politicians/politician_general.png">
+  </politiciangeneralmaltese>
+  <depoliticianmorganblack portraitfilename="ui\ingame\politicians\politician_sergeant_arms" portraitfilenamewpf="resources/images/icons/politicians/politician_morgan_black.png">
+  </depoliticianmorganblack>
+  <depoliticianpapalguardmaltese portraitfilename="ui\ingame\politicians\politician_adventurer" portraitfilenamewpf="resources/images/icons/politicians/politician_papal_guard.png">
+  </depoliticianpapalguardmaltese>
+  <depoliticianblackdukebritish portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_black_duke.png">
+  </depoliticianblackdukebritish>
+  <depoliticianblackdukegerman portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_black_duke.png">
+  </depoliticianblackdukegerman>
+  <depoliticianroyalistdutch portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_royalist.png">
+  </depoliticianroyalistdutch>
+  <depoliticianroyalistswedish portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_royalist.png">
+  </depoliticianroyalistswedish>
+  <depoliticianroyalistrussian portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_royalist.png">
+  </depoliticianroyalistrussian>
+  <depoliticianimam portraitfilename="ui\ingame\politicians\politician_imam" portraitfilenamewpf="resources/images/icons/politicians/politician_imam.png">
+  </depoliticianimam>
+  <ypbigconsulatebritish portraitfilename="ui\ingame\politicians\consulate_british" portraitfilenamewpf="resources/images/icons/politicians/consulate_british.png">
+  </ypbigconsulatebritish>
+  <ypbigconsulateportuguese portraitfilename="ui\ingame\politicians\consulate_portuguese" portraitfilenamewpf="resources/images/icons/politicians/consulate_portuguese.png">
+  </ypbigconsulateportuguese>
+  <ypbigconsulatedutch portraitfilename="ui\ingame\politicians\consulate_dutch" portraitfilenamewpf="resources/images/icons/politicians/consulate_dutch.png">
+  </ypbigconsulatedutch>
+  <ypbigconsulaterussians portraitfilename="ui\ingame\politicians\consulate_russians" portraitfilenamewpf="resources/images/icons/politicians/consulate_russians.png">
+  </ypbigconsulaterussians>
+  <ypbigconsulatespanish portraitfilename="ui\ingame\politicians\consulate_spanish" portraitfilenamewpf="resources/images/icons/politicians/consulate_spanish.png">
+  </ypbigconsulatespanish>
+  <ypbigconsulatefrench portraitfilename="ui\ingame\politicians\consulate_french" portraitfilenamewpf="resources/images/icons/politicians/consulate_french.png">
+  </ypbigconsulatefrench>
+  <ypbigconsulateottomans portraitfilename="ui\ingame\politicians\consulate_ottomans" portraitfilenamewpf="resources/images/icons/politicians/consulate_ottomans.png">
+  </ypbigconsulateottomans>
+  <ypbigconsulategermans portraitfilename="ui\ingame\politicians\consulate_germans" portraitfilenamewpf="resources/images/icons/politicians/consulate_germans.png">
+  </ypbigconsulategermans>
+  <ypbigconsulatejapanese portraitfilename="ui\ingame\politicians\consulate_japanese" portraitfilenamewpf="resources/images/icons/politicians/consulate_japanese.png">
+  </ypbigconsulatejapanese>
+  <ypbigconsulatespcportuguese portraitfilename="ui\ingame\politicians\consulate_portuguese" portraitfilenamewpf="resources/images/icons/politicians/consulate_portuguese.png">
+  </ypbigconsulatespcportuguese>
+  <ypbigconsulatespcdutch portraitfilename="ui\ingame\politicians\consulate_dutch" portraitfilenamewpf="resources/images/icons/politicians/consulate_dutch.png">
+  </ypbigconsulatespcdutch>
+  <ypbigconsulatespcindia portraitfilename="ui\ingame\politicians\consulate_india" portraitfilenamewpf="resources/images/icons/politicians/consulate_india.png">
+  </ypbigconsulatespcindia>
+  <ypbigconsulatespcjapan portraitfilename="ui\ingame\politicians\consulate_japanese" portraitfilenamewpf="resources/images/icons/politicians/consulate_japanese.png">
+  </ypbigconsulatespcjapan>
+  <ypbigconsulatespcchina portraitfilename="ui\ingame\politicians\consulate_chinese" portraitfilenamewpf="resources/images/icons/politicians/consulate_chinese.png">
+  </ypbigconsulatespcchina>
+  <ypbigconsulatespcfrench portraitfilename="ui\ingame\politicians\consulate_french" portraitfilenamewpf="resources/images/icons/politicians/consulate_french.png">
+  </ypbigconsulatespcfrench>
+  <ypbigconsulatespcottomans portraitfilename="ui\ingame\politicians\consulate_ottomans" portraitfilenamewpf="resources/images/icons/politicians/consulate_ottomans.png">
+  </ypbigconsulatespcottomans>
+</politicians>

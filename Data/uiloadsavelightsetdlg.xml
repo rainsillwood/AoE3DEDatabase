@@ -1,0 +1,8 @@
+<layout>
+  <gadget name="ASaveLightSetDialog" type="gadget" size1024="10 10 300 250" closebutton="" titlebar="Load / Save LightSet" background="ui\core_ui\background_blue_normal" tilebackground="" bevel="">
+    <gadget type="button" name="lightset-HomeCitysaveButton" tooltiptext="Save Current LightSet as Default HomeCity Light Set" bevelbutton="" textcolor="192 192 255" textfont="Arial nodrop" textfontsize="12" size1024="20 60 250 90">Save As Default HomeCity LightSet<command>saveLightingSet("DefaultHomeCity")</command></gadget>
+    <gadget type="button" name="lightset-HomeCityloadButton" tooltiptext="Load Default HomeCity Light Set" bevelbutton="" textcolor="192 192 255" textfont="Arial nodrop" textfontsize="12" size1024="20 100 250 130">Load Default HomeCity LightSet<command>loadLightingSet("DefaultHomeCity", true)</command></gadget>
+    <gadget type="button" name="lightset-DefaultsaveButton" tooltiptext="Save Current LightSet as Default Light Set" bevelbutton="" textcolor="192 192 255" textfont="Arial nodrop" textfontsize="12" size1024="20 150 250 180">Save As Default LightSet<command>saveLightingSet("Default")</command></gadget>
+    <gadget type="button" name="lightset-DefaultloadButton" tooltiptext="Load Default Light Set" bevelbutton="" textcolor="192 192 255" textfont="Arial nodrop" textfontsize="12" size1024="20 190 250 220">Load Default LightSet<command>loadLightingSet("Default", true)</command></gadget>
+  </gadget>
+</layout>

@@ -1,0 +1,6 @@
+<layout>
+  <gadget name="gadaiprompt" type="gadget" size1024="99 148 527 278" z="10" titlebar="" background="ui\ui_med_gray" bevel="" closebutton="">
+    <gadget name="yesbutton" type="button" bevel="" size1024="277 245 387 271" z="11">Yes</gadget>
+    <gadget name="nobutton" type="button" bevel="" size1024="408 245 518 271" z="11">No</gadget>
+  </gadget>
+</layout>

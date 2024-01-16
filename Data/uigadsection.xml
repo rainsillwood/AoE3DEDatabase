@@ -1,0 +1,18 @@
+<layout>
+  <gadget name="TreeGadSection" type="gadget" size1024="14 52 560 172" background="">
+    <gadget name="TreeGadSection-HeaderArea" type="gadget" size1024="14 52 312 84" z="11" transparent="" background="">
+      <gadget name="TreeGadSection-CheckBox" type="checkButton" textfont="RegularInGame" textfontsize="12" z="12" size1024="14 58 35 79" texturecoords="0 0 0.65625 0.65625" checkborder1024="5 0" checkuncheckedart="ui\ingame\ui_options_min" checkcheckedart="ui\ingame\ui_options_max" textcolor="255 255 255" mouseovertext="" sound="ui_jewel">
+      </gadget>
+      <gadget name="TreeGadSection-TopPlateLeft" type="gadget" size1024="40 52 72 84" z="13" background="ui\ingame\ui_options_minmax_left">
+      </gadget>
+      <gadget name="TreeGadSection-TopPlate" type="gadget" tilebackgroundhoriz="" size1024="62 52 290 84" z="12" background="ui\ingame\ui_options_minmax_middle">
+      </gadget>
+      <gadget name="TreeGadSection-TopPlateRight" type="gadget" size1024="275 52 339 84" z="13" background="ui\ingame\ui_options_minmax_right">
+      </gadget>
+      <gadget name="TreeGadCheckBox-Label" textcentervert="" textcenterhoriz="" size1024="69 55 290 80" textcolor="255 255 255" textfont="FieldLabels" textfontsize="14" type="formatText" z="13">
+      </gadget>
+    </gadget>
+    <gadget name="TreeGadSection-ChildArea" type="gadget" background="" size1024="14 52 560 172">
+    </gadget>
+  </gadget>
+</layout>

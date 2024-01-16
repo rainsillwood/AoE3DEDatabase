@@ -1,0 +1,155 @@
+<layout>
+  <gadget name="GodPicker" type="gadget" size1024="0 0 1024 768" background="" windowzstyle="">
+    <gadget name="GodPicker-LeftArea" type="gadget" size1024="25 15 1000 754" background="ui\file_system\file_system_background" tilebackground="" z="1" transparent="">
+      <gadget tilebackgroundhoriz="" name="GodPicker-BordersTop" type="gadget" background="ui\file_system\border_top_middle" size1024="0 0 1024 16" z="5">
+      </gadget>
+      <gadget tilebackgroundhoriz="" name="GodPicker-BordersBottom" type="gadget" background="ui\file_system\border_bottom_middle" size1024="0 752 1024 768" z="5">
+      </gadget>
+      <gadget tilebackgroundvert="" name="GodPicker-BordersLeft" type="gadget" background="ui\file_system\border_side_left" size1024="0 0 8 768" z="5">
+      </gadget>
+      <gadget tilebackgroundvert="" name="GodPicker-BordersRight" type="gadget" background="ui\file_system\border_side_right" size1024="1016 0 1024 768" z="5">
+      </gadget>
+      <gadget name="GodPicker-BordersLeftTop" type="gadget" background="ui\file_system\border_top_left" size1024="0 0 32 32" clampbackground="" z="10">
+      </gadget>
+      <gadget name="GodPicker-BordersLeftBottom" type="gadget" background="ui\file_system\border_bottom_left" size1024="0 736 32 768" clampbackground="" z="10">
+      </gadget>
+      <gadget name="GodPicker-BordersRightBottom" type="gadget" background="ui\file_system\border_bottom_right" size1024="992 736 1024 768" clampbackground="" z="10">
+      </gadget>
+      <gadget name="GodPicker-BordersRightTop" type="gadget" background="ui\file_system\border_top_right" size1024="992 0 1024 32" clampbackground="" z="10">
+      </gadget>
+    </gadget>
+    <gadget name="GodPicker-Label" textcentervert="" textcolor="3 0 88" textfontsize="22" textfont="PregameHeaders" type="formatText" size1024="52 23 345 48" z="11">$$19880$$Civilization Picker</gadget>
+    <gadget name="GodPicker-ScreenSeparator" type="gadget" size1024="32 52 992 54" background="missing" z="11">
+    </gadget>
+    <gadget name="RandomSelect" type="stateButton" size1024="52 710 148 742" bevelbutton="" z="20" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="3 0 88" mouseovertext="$$19964$$Randomly selects one of the 9 civilizations." sound="UI_thunder">$$19269$$Random<stateentry background="ui\core_ui\button_128x32_normal"></stateentry><stateentry background="ui\core_ui\button_128x32_clicked"></stateentry><stateentry background="ui\core_ui\button_128x32_rollover"></stateentry><stateentry background=""></stateentry></gadget>
+    <gadget name="Col1Select" type="stateButton" size1024="156 710 252 742" bevelbutton="" z="20" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="3 0 88" mouseovertext="$$19269$$Randomly selects one of the Greek gods." sound="UI_thunder">$$20043$$Greek<stateentry background="ui\core_ui\button_128x32_normal"></stateentry><stateentry background="ui\core_ui\button_128x32_clicked"></stateentry><stateentry background="ui\core_ui\button_128x32_rollover"></stateentry><stateentry background=""></stateentry></gadget>
+    <gadget name="Col2Select" type="stateButton" size1024="260 710 356 742" bevelbutton="" z="20" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="3 0 88" mouseovertext="$$19269$$Randomly selects one the Egyptian gods." sound="UI_thunder">$$20043$$Egyptian<stateentry background="ui\core_ui\button_128x32_normal"></stateentry><stateentry background="ui\core_ui\button_128x32_clicked"></stateentry><stateentry background="ui\core_ui\button_128x32_rollover"></stateentry><stateentry background=""></stateentry></gadget>
+    <gadget name="Col3Select" type="stateButton" size1024="364 710 460 742" bevelbutton="" z="20" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="3 0 88" mouseovertext="$$19269$$Randomly selects one the Norse gods." sound="UI_thunder">$$20043$$Norse<stateentry background="ui\core_ui\button_128x32_normal"></stateentry><stateentry background="ui\core_ui\button_128x32_clicked"></stateentry><stateentry background="ui\core_ui\button_128x32_rollover"></stateentry><stateentry background=""></stateentry></gadget>
+    <gadget name="GodPicker-OKButton" type="stateButton" size1024="483 710 579 742" bevelbutton="" z="20" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="3 0 88" mouseovertext="$$18427$$Accept changes and close screen.">$$18465$$OK      <stateentry background="ui\core_ui\button_128x32_normal"></stateentry><stateentry background="ui\core_ui\button_128x32_clicked"></stateentry><stateentry background="ui\core_ui\button_128x32_rollover"></stateentry><stateentry background=""></stateentry></gadget>
+    <gadget name="GodPicker-CancelButton" type="stateButton" size1024="587 710 683 742" bevelbutton="" z="20" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="3 0 88" mouseovertext="$$18428$$Ignore changes and close screen.">$$18466$$Cancel      <stateentry background="ui\core_ui\button_128x32_normal"></stateentry><stateentry background="ui\core_ui\button_128x32_clicked"></stateentry><stateentry background="ui\core_ui\button_128x32_rollover"></stateentry><stateentry background=""></stateentry></gadget>
+    <gadget name="GodPicker-Civs" type="gadget" size1024="75 73 676 660" background="" z="2">
+      <gadget name="Col1Row1Highlight" type="gadget" size1024="75 73 242 240" z="12" hidden="" background="ui\ui god boarder highlight 256x256" transparent="">
+      </gadget>
+      <gadget sound="UI_thunder" name="Col1Row1Button" type="button" size1024="75 73 242 240" z="11" background="ui\ui god zeus 256x256" donthighlight="">
+      </gadget>
+      <gadget name="Col1Row1Name" textcentervert="" textcolor="3 0 88" textfontsize="30" textfont="Pregamelarge" type="formatText" size1024="75 238 242 275" z="12" textcenterhoriz="">$$20043$$Zeus</gadget>
+      <gadget name="Col2Row1Highlight" type="gadget" size1024="292 73 459 240" z="12" background="ui\ui god boarder highlight 256x256" hidden="" transparent="">
+      </gadget>
+      <gadget sound="UI_thunder" name="Col2Row1Button" type="button" size1024="292 73 459 240" z="11" background="ui\ui god poseidon 256x256" donthighlight="">
+      </gadget>
+      <gadget name="Col2Row1Name" textcentervert="" textcolor="3 0 88" textfontsize="30" textfont="Pregamelarge" type="formatText" size1024="292 238 459 275" z="12" textcenterhoriz="">$$20043$$Poseidon</gadget>
+      <gadget name="Col3Row1Highlight" type="gadget" size1024="509 73 676 240" z="12" background="ui\ui god boarder highlight 256x256" hidden="" transparent="">
+      </gadget>
+      <gadget sound="UI_thunder" name="Col3Row1Button" type="button" size1024="509 73 676 240" z="11" background="ui\ui god hades 256x256" donthighlight="">
+      </gadget>
+      <gadget name="Col3Row1Name" textcentervert="" textcolor="3 0 88" textfontsize="30" textfont="Pregamelarge" type="formatText" size1024="509 238 676 275" z="12" textcenterhoriz="">$$20043$$Hades</gadget>
+      <gadget name="Col1Row2Highlight" type="gadget" size1024="75 283 242 450" z="12" hidden="" background="ui\ui god boarder highlight 256x256" transparent="">
+      </gadget>
+      <gadget sound="UI_thunder" name="Col1Row2Button" type="button" size1024="75 283 242 450" z="11" background="ui\ui god isis 256x256" donthighlight="">
+      </gadget>
+      <gadget name="Col1Row2Name" textcentervert="" textcolor="3 0 88" textfontsize="30" textfont="Pregamelarge" type="formatText" size1024="75 448 242 485" z="12" textcenterhoriz="">$$20043$$Isis</gadget>
+      <gadget name="Col2Row2Highlight" type="gadget" size1024="292 283 459 450" z="12" hidden="" background="ui\ui god boarder highlight 256x256" transparent="">
+      </gadget>
+      <gadget sound="UI_thunder" name="Col2Row2Button" type="button" size1024="292 283 459 450" z="11" background="ui\ui god ra 256x256" donthighlight="">
+      </gadget>
+      <gadget name="Col2Row2Name" textcentervert="" textcolor="3 0 88" textfontsize="30" textfont="Pregamelarge" type="formatText" size1024="292 448 459 485" z="12" textcenterhoriz="">$$20043$$Ra</gadget>
+      <gadget name="Col3Row2Highlight" type="gadget" size1024="509 283 676 450" z="12" hidden="" background="ui\ui god boarder highlight 256x256" transparent="">
+      </gadget>
+      <gadget sound="UI_thunder" name="Col3Row2Button" type="button" size1024="509 283 676 450" z="11" background="ui\ui god set 256x256" donthighlight="">
+      </gadget>
+      <gadget name="Col3Row2Name" textcentervert="" textcolor="3 0 88" textfontsize="30" textfont="Pregamelarge" type="formatText" size1024="509 448 676 485" z="12" textcenterhoriz="">$$20043$$Set</gadget>
+      <gadget name="Col1Row3Highlight" type="gadget" size1024="75 493 242 660" z="12" hidden="" background="ui\ui god boarder highlight 256x256" transparent="">
+      </gadget>
+      <gadget sound="UI_thunder" name="Col1Row3Button" type="button" size1024="75 493 242 660" z="11" background="ui\ui god odin 256x256" donthighlight="">
+      </gadget>
+      <gadget name="Col1Row3Name" textcentervert="" textcolor="3 0 88" textfontsize="30" textfont="Pregamelarge" type="formatText" size1024="75 658 242 695" z="12" textcenterhoriz="">$$20043$$Odin</gadget>
+      <gadget name="Col2Row3Highlight" type="gadget" size1024="292 493 459 660" z="12" hidden="" background="ui\ui god boarder highlight 256x256" transparent="">
+      </gadget>
+      <gadget sound="UI_thunder" name="Col2Row3Button" type="button" size1024="292 493 459 660" z="11" background="ui\ui god thor 256x256" donthighlight="">
+      </gadget>
+      <gadget name="Col2Row3Name" textcentervert="" textcolor="3 0 88" textfontsize="30" textfont="Pregamelarge" type="formatText" size1024="292 658 459 695" z="12" textcenterhoriz="">$$20043$$Thor</gadget>
+      <gadget name="Col3Row3Highlight" type="gadget" size1024="509 493 676 660" z="12" hidden="" background="ui\ui god boarder highlight 256x256" transparent="">
+      </gadget>
+      <gadget sound="UI_thunder" name="Col3Row3Button" type="button" size1024="509 493 676 660" z="11" background="ui\ui god loki 256x256" donthighlight="">
+      </gadget>
+      <gadget name="Col3Row3Name" textcentervert="" textcolor="3 0 88" textfontsize="30" textfont="Pregamelarge" type="formatText" size1024="509 658 676 695" z="12" textcenterhoriz="">$$20043$$Loki</gadget>
+    </gadget>
+    <gadget name="Selected-God-Area" type="gadget" size1024="695 55 972 493" z="5">
+      <gadget name="FirstAge-Section" type="gadget" size1024="695 62 972 182" background="ui\ui background dark blue opaque" z="11">
+        <gadget name="Selected-God-Name" textcentervert="" textcolor="3 0 88" textfontsize="30" textfont="Pregamelarge" type="formatText" size1024="696 63 972 93" z="12" textcenterhoriz="">$$20043$$Zeus</gadget>
+        <gadget name="MinorGodText" textcentervert="" textcolor="3 0 88" textfontsize="16" textfont="GodPickerTitles" type="formatText" size1024="696 93 972 118" z="12" textcenterhoriz="">$$20043$$Minor Gods and God Powers</gadget>
+        <gadget name="FirstAge-Text" textcentervert="" textcolor="3 0 88" textfontsize="18" textfont="PregameLabels" type="formatText" size1024="696 118 972 143" z="12" textcenterhoriz="">$$20043$$Archaic Age</gadget>
+        <gadget outlinecolor="3 0 88" name="FirstAge-GodPower" type="gadget" size1024="782 147 814 179" background="ui\core_ui\background_yellow_opaque" z="12" mouseovertext="">
+        </gadget>
+        <gadget outlinecolor="3 0 88" name="FirstAge-MythUnit" type="gadget" size1024="818 147 850 179" background="ui\core_ui\background_yellow_opaque" z="12" mouseovertext="">
+        </gadget>
+        <gadget outlinecolor="3 0 88" name="FirstAge-MythTech" type="gadget" size1024="854 147 886 179" background="ui\core_ui\background_yellow_opaque" z="12" mouseovertext="">
+        </gadget>
+      </gadget>
+      <gadget name="SecondAge-Section" type="gadget" size1024="695 187 972 319" z="11" background="ui\ui background dark blue opaque">
+        <gadget name="SecondAge-Text" textcentervert="" textcolor="3 0 88" textfontsize="18" textfont="PregameLabels" type="formatText" size1024="696 186 972 211" z="11" textcenterhoriz="">$$20043$$Classical Age</gadget>
+        <gadget outlinecolor="3 0 88" name="SecondAge-First-MinorGod-Icon" type="gadget" size1024="746 216 810 280" background="ui\core_ui\background_yellow_opaque" z="12" mouseovertext="">
+        </gadget>
+        <gadget outlinecolor="3 0 88" name="SecondAge-First-MinorGod-GodPower" type="gadget" size1024="744 285 776 317" background="ui\core_ui\background_yellow_opaque" z="12" mouseovertext="">
+        </gadget>
+        <gadget outlinecolor="3 0 88" name="SecondAge-First-MinorGod-MythUnit" type="gadget" size1024="780 285 812 317" background="ui\core_ui\background_yellow_opaque" z="12" mouseovertext="">
+        </gadget>
+        <gadget outlinecolor="3 0 88" name="SecondAge-First-MinorGod-MythTech" type="gadget" size1024="708 285 740 317" background="ui\core_ui\background_yellow_opaque" z="12" mouseovertext="">
+        </gadget>
+        <gadget outlinecolor="3 0 88" name="SecondAge-Second-MinorGod-Icon" type="gadget" size1024="858 216 922 280" background="ui\core_ui\background_yellow_opaque" z="12" mouseovertext="">
+        </gadget>
+        <gadget outlinecolor="3 0 88" name="SecondAge-Second-MinorGod-GodPower" type="gadget" size1024="856 285 888 317" background="ui\core_ui\background_yellow_opaque" z="12" mouseovertext="">
+        </gadget>
+        <gadget outlinecolor="3 0 88" name="SecondAge-Second-MinorGod-MythUnit" type="gadget" size1024="892 285 924 317" background="ui\core_ui\background_yellow_opaque" z="12" mouseovertext="">
+        </gadget>
+        <gadget outlinecolor="3 0 88" name="SecondAge-Second-MinorGod-MythTech" type="gadget" size1024="928 285 960 317" background="ui\core_ui\background_yellow_opaque" z="12" mouseovertext="">
+        </gadget>
+      </gadget>
+      <gadget name="ThirdAge-Section" type="gadget" size1024="695 324 972 456" z="12" background="ui\ui background dark blue opaque">
+        <gadget name="ThirdAge-Text" textcentervert="" textcolor="3 0 88" textfontsize="18" textfont="PregameLabels" type="formatText" size1024="696 323 972 348" z="11" textcenterhoriz="">$$20043$$Heroic Age</gadget>
+        <gadget outlinecolor="3 0 88" name="ThirdAge-First-MinorGod-Icon" type="gadget" size1024="747 352 811 416" background="ui\core_ui\background_yellow_opaque" z="12" mouseovertext="">
+        </gadget>
+        <gadget outlinecolor="3 0 88" name="ThirdAge-First-MinorGod-GodPower" type="gadget" size1024="745 421 777 453" background="ui\core_ui\background_yellow_opaque" z="12" mouseovertext="">
+        </gadget>
+        <gadget outlinecolor="3 0 88" name="ThirdAge-First-MinorGod-MythUnit" type="gadget" size1024="781 421 813 453" background="ui\core_ui\background_yellow_opaque" z="12" mouseovertext="">
+        </gadget>
+        <gadget outlinecolor="3 0 88" name="ThirdAge-First-MinorGod-MythTech" type="gadget" size1024="709 421 741 453" background="ui\core_ui\background_yellow_opaque" z="12" mouseovertext="">
+        </gadget>
+        <gadget outlinecolor="3 0 88" name="ThirdAge-Second-MinorGod-Icon" type="gadget" size1024="859 352 923 416" background="ui\core_ui\background_yellow_opaque" z="12" mouseovertext="">
+        </gadget>
+        <gadget outlinecolor="3 0 88" name="ThirdAge-Second-MinorGod-GodPower" type="gadget" size1024="857 421 889 453" background="ui\core_ui\background_yellow_opaque" z="12" mouseovertext="">
+        </gadget>
+        <gadget outlinecolor="3 0 88" name="ThirdAge-Second-MinorGod-MythUnit" type="gadget" size1024="893 421 925 453" background="ui\core_ui\background_yellow_opaque" z="12" mouseovertext="">
+        </gadget>
+        <gadget outlinecolor="3 0 88" name="ThirdAge-Second-MinorGod-MythTech" type="gadget" size1024="929 421 961 453" background="ui\core_ui\background_yellow_opaque" z="12" mouseovertext="">
+        </gadget>
+      </gadget>
+      <gadget name="FourthAge-Section" type="gadget" size1024="695 461 972 593" z="13" background="ui\ui background dark blue opaque">
+        <gadget name="FourthAge-Text" textcentervert="" textcolor="3 0 88" textfontsize="18" textfont="PregameLabels" type="formatText" size1024="696 460 972 485" z="11" textcenterhoriz="">$$20043$$Mythic Age</gadget>
+        <gadget outlinecolor="3 0 88" name="FourthAge-First-MinorGod-Icon" type="gadget" size1024="746 489 810 553" background="ui\core_ui\background_yellow_opaque" z="12" mouseovertext="">
+        </gadget>
+        <gadget outlinecolor="3 0 88" name="FourthAge-First-MinorGod-GodPower" type="gadget" size1024="744 558 776 590" background="ui\core_ui\background_yellow_opaque" z="12" mouseovertext="">
+        </gadget>
+        <gadget outlinecolor="3 0 88" name="FourthAge-First-MinorGod-MythUnit" type="gadget" size1024="780 558 812 590" background="ui\core_ui\background_yellow_opaque" z="12" mouseovertext="">
+        </gadget>
+        <gadget outlinecolor="3 0 88" name="FourthAge-First-MinorGod-MythTech" type="gadget" size1024="708 558 740 590" background="ui\core_ui\background_yellow_opaque" z="12" mouseovertext="">
+        </gadget>
+        <gadget outlinecolor="3 0 88" name="FourthAge-Second-MinorGod-Icon" type="gadget" size1024="858 489 922 553" background="ui\core_ui\background_yellow_opaque" z="12" mouseovertext="">
+        </gadget>
+        <gadget outlinecolor="3 0 88" name="FourthAge-Second-MinorGod-GodPower" type="gadget" size1024="856 558 888 590" background="ui\core_ui\background_yellow_opaque" z="12" mouseovertext="">
+        </gadget>
+        <gadget outlinecolor="3 0 88" name="FourthAge-Second-MinorGod-MythUnit" type="gadget" size1024="892 558 924 590" background="ui\core_ui\background_yellow_opaque" z="12" mouseovertext="">
+        </gadget>
+        <gadget outlinecolor="3 0 88" name="FourthAge-Second-MinorGod-MythTech" type="gadget" size1024="928 558 960 590" background="ui\core_ui\background_yellow_opaque" z="12" mouseovertext="">
+        </gadget>
+      </gadget>
+    </gadget>
+    <gadget name="Rollover-Background" type="gadget" size1024="696 597 971 747" background="ui\file_system\file_system_background_dark" outlinecolor="75 55 30" z="10" tilebackground="">
+    </gadget>
+    <gadget name="Rollover-HelpDisplay" textmarkup="" textwrapon="" textcolor="3 0 88" type="formatText" textfont="PregameRollover" textfontsize="14" z="15" size1024="701 601 967 743">
+    </gadget>
+    <gadget name="uigodpicker-TechTreeButton" z="13" type="button" foreground="UI\Techtree\Icon" bevelinart="" beveloutart="" textfont="ButtonFont" textfontsize="14" textcolor="255 255 255" size1024="934 29 966 45" mouseovertext="$$21434$$View the Improvements Tree" donthighlight="">
+      <command>uishowfakeTechTree</command>
+    </gadget>
+  </gadget>
+</layout>

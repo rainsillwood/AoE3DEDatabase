@@ -1,0 +1,274 @@
+<layout>
+  <gadget name="singleplayersetup-screen" type="gadget" size1024="0 0 1024 769" z="1" background="ui\core_ui\background_blue_dark" tilebackground="">
+    <gadget clampbackground="" name="singleplayersetupBackground_edge1" type="gadget" background="missing" tilebackground="" size1024="-2 -2 1024 0">
+    </gadget>
+    <gadget clampbackground="" name="singleplayersetupBackground_edge2" type="gadget" background="missing" tilebackground="" size1024="-2 -2 0 768">
+    </gadget>
+    <gadget clampbackground="" name="singleplayersetupBackground_corner1" type="gadget" background="UI\decor_B corner left bottom" tilebackground="" size1024="8 632 136 760" hidden="">
+    </gadget>
+    <gadget hidden="" clampbackground="" name="singleplayersetupBackground_leftedge" type="gadget" background="UI\border_b straight left" tilebackground="" size1024="0 0 8 768">
+    </gadget>
+    <gadget name="SetupArea" type="gadget" z="2" size1024="54 30 623 565" background="UI\Background_C" tilebackground="">
+      <gadget name="singleplayersetup-MaxPlayerSelectionLabel" type="formatText" textfont="FieldLabels" textfontsize="14" textcolor="0 0 0" size1024="103 68 353 93" mouseovertext="$$18678$$Select how many computer players you want to have in the game.">$$18677$$Number of Other Players:</gadget>
+      <gadget fieldval="1" name="MaxPlayerSelection" type="textField" fieldnametextcolor="0 0 0" textcolor="0 0 0" textfont="FieldLabels" textfontsize="14" fieldtextboxcolor="255 255 255" fieldnametextfontsize="14" fieldnametextfont="FieldLabels" size1024="103 93 160 113" mouseovertext="$$18678$$Select how many computer players you want to have in the game.">
+        <dropdown>1</dropdown>
+        <dropdown>2</dropdown>
+        <dropdown>3</dropdown>
+        <dropdown>4</dropdown>
+        <dropdown>5</dropdown>
+        <dropdown>6</dropdown>
+        <dropdown>7</dropdown>
+        <dropdown>8</dropdown>
+        <dropdown>9</dropdown>
+        <dropdown>10</dropdown>
+        <dropdown>11</dropdown>
+      </gadget>
+      <gadget name="PlayerLabel" type="formatText" textfont="FieldLabels" textfontsize="14" textcolor="0 0 0" hidden="" size1024="37 89 237 109">$$18679$$Player Name:</gadget>
+      <gadget name="TeamLabel" type="formatText" textfont="FieldLabels" textfontsize="14" textcolor="0 0 0" size1024="318 123 408 143">$$18680$$Team</gadget>
+      <gadget name="CivLabel" type="formatText" textfont="FieldLabels" textfontsize="14" textcolor="0 0 0" size1024="424 123 554 143">$$18682$$Civilization</gadget>
+      <gadget name="ColorLabel" type="formatText" textfont="FieldLabels" textfontsize="14" textcolor="0 0 0" textcenterhoriz="" hidden="" size1024="467 79 557 99">Color</gadget>
+      <gadget name="Player1Name" type="textBox" textfont="FieldLabels" textfontsize="14" textcolor="0 0 0" size1024="105 144 285 164">Player1</gadget>
+      <gadget name="Player1Team" type="gadget" mouseovertext="$$19112$$Select your team number." textfont="EntryFields" textfontsize="12" textcolor="0 0 0" fieldval="1" fieldtextboxcolor="255 255 255" size1024="321 145 378 165">
+      </gadget>
+      <gadget name="Player1Civ" type="textField" mouseovertext="$$19113$$Select your civilization. " fieldtextboxcolor="255 255 255" textfont="EntryFields" textfontsize="12" textcolor="0 0 0" fieldval="1" size1024="425 145 545 165">
+        <dropdown>Zeus</dropdown>
+      </gadget>
+      <gadget name="Player1Btn" type="button" size1024="555 148 571 164" z="3" foreground="ui\godbuffetbtn">
+      </gadget>
+      <gadget name="Player1Color" type="colorDropdown" fieldtextboxcolor="255 255 255" dropdowndistance="120" hidden="" size1024="457 113 507 133">
+        <dropdown>
+        </dropdown>
+      </gadget>
+      <gadget name="Player1NameAI" type="textField" fieldtextboxcolor="255 255 255" textfont="EntryFields" textfontsize="12" textcolor="0 0 0" hidden="" size1024="103 144 283 164">
+        <dropdown>
+        </dropdown>
+      </gadget>
+      <gadget name="PlayerList" type="gadget" size1024="104 180 281 515">
+        <gadget name="Player2Name" fieldval="1" type="textField" mouseovertext="$$18676$$Select which computer opponent you want to face." fieldtextboxcolor="255 255 255" textfont="EntryFields" textfontsize="12" textcolor="0 0 0" size1024="105 186 275 206">
+          <dropdown>
+          </dropdown>
+        </gadget>
+        <gadget name="Player3Name" fieldval="1" type="textField" mouseovertext="$$18676$$Select which computer opponent you want to face." fieldtextboxcolor="255 255 255" textfont="EntryFields" textfontsize="12" textcolor="0 0 0" size1024="105 217 275 237">
+          <dropdown>
+          </dropdown>
+        </gadget>
+        <gadget name="Player4Name" fieldval="1" type="textField" mouseovertext="$$18676$$Select which computer opponent you want to face." fieldtextboxcolor="255 255 255" textfont="EntryFields" textfontsize="12" textcolor="0 0 0" size1024="105 249 275 269">
+          <dropdown>
+          </dropdown>
+        </gadget>
+        <gadget name="Player5Name" fieldval="1" type="textField" mouseovertext="$$18676$$Select which computer opponent you want to face." fieldtextboxcolor="255 255 255" textfont="EntryFields" textfontsize="12" textcolor="0 0 0" size1024="105 279 275 299">
+          <dropdown>
+          </dropdown>
+        </gadget>
+        <gadget name="Player6Name" fieldval="1" type="textField" mouseovertext="$$18676$$Select which computer opponent you want to face." fieldtextboxcolor="255 255 255" textfont="EntryFields" textfontsize="12" textcolor="0 0 0" size1024="105 310 275 330">
+          <dropdown>
+          </dropdown>
+        </gadget>
+        <gadget name="Player7Name" fieldval="1" type="textField" mouseovertext="$$18676$$Select which computer opponent you want to face." fieldtextboxcolor="255 255 255" textfont="EntryFields" textfontsize="12" textcolor="0 0 0" size1024="105 341 275 361">
+          <dropdown>
+          </dropdown>
+        </gadget>
+        <gadget name="Player8Name" fieldval="1" type="textField" mouseovertext="$$18676$$Select which computer opponent you want to face." fieldtextboxcolor="255 255 255" textfont="EntryFields" textfontsize="12" textcolor="0 0 0" size1024="105 372 275 392">
+          <dropdown>
+          </dropdown>
+        </gadget>
+        <gadget name="Player9Name" fieldval="1" type="textField" mouseovertext="$$18676$$Select which computer opponent you want to face." fieldtextboxcolor="255 255 255" textfont="EntryFields" textfontsize="12" textcolor="0 0 0" size1024="105 404 275 424">
+          <dropdown>
+          </dropdown>
+        </gadget>
+        <gadget name="Player10Name" fieldval="1" type="textField" mouseovertext="$$18676$$Select which computer opponent you want to face." fieldtextboxcolor="255 255 255" textfont="EntryFields" textfontsize="12" textcolor="0 0 0" size1024="105 435 275 455">
+          <dropdown>
+          </dropdown>
+        </gadget>
+        <gadget name="Player11Name" fieldval="1" type="textField" mouseovertext="$$18676$$Select which computer opponent you want to face." fieldtextboxcolor="255 255 255" textfont="EntryFields" textfontsize="12" textcolor="0 0 0" size1024="105 465 275 485">
+          <dropdown>
+          </dropdown>
+        </gadget>
+        <gadget name="Player12Name" fieldval="1" type="textField" mouseovertext="$$18676$$Select which computer opponent you want to face." fieldtextboxcolor="255 255 255" textfont="EntryFields" textfontsize="12" textcolor="0 0 0" size1024="105 495 275 515">
+          <dropdown>
+          </dropdown>
+        </gadget>
+      </gadget>
+      <gadget name="TeamSelections" type="gadget" size1024="320 186 405 515">
+        <gadget name="Player2Team" fieldval="1" type="textField" mouseovertext="$$18683$$Select the team number for this player." fieldtextboxcolor="255 255 255" textfont="EntryFields" textfontsize="12" textcolor="0 0 0" size1024="321 187 378 207">
+          <dropdown>1</dropdown>
+        </gadget>
+        <gadget name="Player3Team" fieldval="1" type="textField" mouseovertext="$$18683$$Select the team number for this player." fieldtextboxcolor="255 255 255" textfont="EntryFields" textfontsize="12" textcolor="0 0 0" size1024="321 217 378 237">
+          <dropdown>1</dropdown>
+        </gadget>
+        <gadget name="Player4Team" fieldval="1" type="textField" mouseovertext="$$18683$$Select the team number for this player." fieldtextboxcolor="255 255 255" textfont="EntryFields" textfontsize="12" textcolor="0 0 0" size1024="321 249 378 269">
+          <dropdown>1</dropdown>
+        </gadget>
+        <gadget name="Player5Team" fieldval="1" type="textField" mouseovertext="$$18683$$Select the team number for this player." fieldtextboxcolor="255 255 255" textfont="EntryFields" textfontsize="12" textcolor="0 0 0" size1024="321 279 378 299">
+          <dropdown>1</dropdown>
+        </gadget>
+        <gadget name="Player6Team" fieldval="1" type="textField" mouseovertext="$$18683$$Select the team number for this player." fieldtextboxcolor="255 255 255" textfont="EntryFields" textfontsize="12" textcolor="0 0 0" size1024="321 310 378 330">
+          <dropdown>1</dropdown>
+        </gadget>
+        <gadget name="Player7Team" fieldval="1" type="textField" mouseovertext="$$18683$$Select the team number for this player." fieldtextboxcolor="255 255 255" textfont="EntryFields" textfontsize="12" textcolor="0 0 0" size1024="321 342 378 362">
+          <dropdown>1</dropdown>
+        </gadget>
+        <gadget name="Player8Team" fieldval="1" type="textField" mouseovertext="$$18683$$Select the team number for this player." fieldtextboxcolor="255 255 255" textfont="EntryFields" textfontsize="12" textcolor="0 0 0" size1024="321 373 378 393">
+          <dropdown>1</dropdown>
+        </gadget>
+        <gadget name="Player9Team" fieldval="1" type="textField" mouseovertext="$$18683$$Select the team number for this player." fieldtextboxcolor="255 255 255" textfont="EntryFields" textfontsize="12" textcolor="0 0 0" size1024="321 405 378 425">
+          <dropdown>1</dropdown>
+        </gadget>
+        <gadget name="Player10Team" fieldval="1" type="textField" mouseovertext="$$18683$$Select the team number for this player." fieldtextboxcolor="255 255 255" textfont="EntryFields" textfontsize="12" textcolor="0 0 0" size1024="321 435 378 455">
+          <dropdown>1</dropdown>
+        </gadget>
+        <gadget name="Player11Team" fieldval="1" type="textField" mouseovertext="$$18683$$Select the team number for this player." fieldtextboxcolor="255 255 255" textfont="EntryFields" textfontsize="12" textcolor="0 0 0" size1024="321 466 378 486">
+          <dropdown>1</dropdown>
+        </gadget>
+        <gadget name="Player12Team" fieldval="1" type="textField" mouseovertext="$$18683$$Select the team number for this player." fieldtextboxcolor="255 255 255" textfont="EntryFields" textfontsize="12" textcolor="0 0 0" size1024="321 494 378 514">
+          <dropdown>1</dropdown>
+        </gadget>
+      </gadget>
+      <gadget name="CivSelections" type="gadget" size1024="424 183 548 515">
+        <gadget name="Player2Civ" fieldval="1" type="textField" mouseovertext="$$18684$$Select the civilization for this player." fieldtextboxcolor="255 255 255" textfont="EntryFields" textfontsize="12" textcolor="0 0 0" size1024="425 187 545 207">
+          <dropdown>Zeus</dropdown>
+        </gadget>
+        <gadget name="Player3Civ" fieldval="1" type="textField" mouseovertext="$$18684$$Select the team number for this player." fieldtextboxcolor="255 255 255" textfont="EntryFields" textfontsize="12" textcolor="0 0 0" size1024="425 218 545 238">
+          <dropdown>Zeus</dropdown>
+        </gadget>
+        <gadget name="Player4Civ" fieldval="1" type="textField" mouseovertext="$$18684$$Select the team number for this player." fieldtextboxcolor="255 255 255" textfont="EntryFields" textfontsize="12" textcolor="0 0 0" size1024="425 249 545 269">
+          <dropdown>Zeus</dropdown>
+        </gadget>
+        <gadget name="Player5Civ" fieldval="1" type="textField" mouseovertext="$$18684$$Select the team number for this player." fieldtextboxcolor="255 255 255" textfont="EntryFields" textfontsize="12" textcolor="0 0 0" size1024="425 280 545 300">
+          <dropdown>Zeus</dropdown>
+        </gadget>
+        <gadget name="Player6Civ" fieldval="1" type="textField" mouseovertext="$$18684$$Select the team number for this player." fieldtextboxcolor="255 255 255" textfont="EntryFields" textfontsize="12" textcolor="0 0 0" size1024="425 310 545 330">
+          <dropdown>Zeus</dropdown>
+        </gadget>
+        <gadget name="Player7Civ" fieldval="1" type="textField" mouseovertext="$$18684$$Select the team number for this player." fieldtextboxcolor="255 255 255" textfont="EntryFields" textfontsize="12" textcolor="0 0 0" size1024="425 342 545 362">
+          <dropdown>Zeus</dropdown>
+        </gadget>
+        <gadget name="Player8Civ" fieldval="1" type="textField" mouseovertext="$$18684$$Select the team number for this player." fieldtextboxcolor="255 255 255" textfont="EntryFields" textfontsize="12" textcolor="0 0 0" size1024="425 372 545 392">
+          <dropdown>Zeus</dropdown>
+        </gadget>
+        <gadget name="Player9Civ" fieldval="1" type="textField" mouseovertext="$$18684$$Select the team number for this player." fieldtextboxcolor="255 255 255" textfont="EntryFields" textfontsize="12" textcolor="0 0 0" size1024="425 405 545 425">
+          <dropdown>Zeus</dropdown>
+        </gadget>
+        <gadget name="Player10Civ" fieldval="1" type="textField" mouseovertext="$$18684$$Select the team number for this player." fieldtextboxcolor="255 255 255" textfont="EntryFields" textfontsize="12" textcolor="0 0 0" size1024="425 435 545 455">
+          <dropdown>Zeus</dropdown>
+        </gadget>
+        <gadget name="Player11Civ" fieldval="1" type="textField" mouseovertext="$$18684$$Select the team number for this player." fieldtextboxcolor="255 255 255" textfont="EntryFields" textfontsize="12" textcolor="0 0 0" size1024="425 465 545 485">
+          <dropdown>Zeus</dropdown>
+        </gadget>
+        <gadget name="Player12Civ" fieldval="1" type="textField" mouseovertext="$$18684$$Select the team number for this player." fieldtextboxcolor="255 255 255" textfont="EntryFields" textfontsize="12" textcolor="0 0 0" size1024="425 495 545 515">
+          <dropdown>Zeus</dropdown>
+        </gadget>
+      </gadget>
+      <gadget name="singleplayersetup-Gamesetting-decor-upperleft" type="gadget" size1024="54 30 118 94" background="UI\decor_c corner left top">
+      </gadget>
+      <gadget name="singleplayersetup-Gamesetting-decor-upperright" type="gadget" size1024="559 30 623 94" background="UI\decor_c corner right top">
+      </gadget>
+      <gadget name="singleplayersetup-Gamesetting-decor-lowerleft" type="gadget" size1024="54 501 118 565" background="UI\decor_c corner left bottom">
+      </gadget>
+      <gadget name="singleplayersetup-Gamesetting-decor-lowerright" type="gadget" size1024="559 501 623 565" background="UI\decor_c corner right bottom" z="9">
+      </gadget>
+      <gadget name="mpsetupquickteams-borders-bordertop" type="gadget" size1024="54 22 623 30" background="UI\border_a straight top" tilebackground="">
+      </gadget>
+      <gadget name="mpsetupquickteams-borders-borderleft" type="gadget" size1024="46 30 54 565" background="UI\border_a straight left" tilebackground="">
+      </gadget>
+      <gadget name="mpsetupquickteams-borders-borderright" type="gadget" size1024="623 30 631 565" background="UI\border_a straight right" tilebackground="">
+      </gadget>
+      <gadget name="mpsetupquickteams-borders-borderbottom" type="gadget" size1024="54 565 623 573" background="UI\border_a straight bottom" tilebackground="">
+      </gadget>
+      <gadget name="mpsetupquickteams-borders-upperleftcorner" type="gadget" size1024="46 22 54 30" background="UI\border_a corner left top">
+      </gadget>
+      <gadget name="mpsetupquickteams-borders-upperrightcorner" type="gadget" size1024="623 22 631 30" background="UI\border_a corner right top">
+      </gadget>
+      <gadget name="mpsetupquickteams-borders-lowerleftcorner" type="gadget" size1024="46 565 54 573" background="UI\border_a corner left bottom">
+      </gadget>
+      <gadget name="mpsetupquickteams-borders-lowerrightcorner" type="gadget" size1024="623 565 631 573" background="UI\border_a corner right bottom">
+      </gadget>
+      <gadget name="GodBuffetBtns" type="gadget" size1024="551 183 575 515" z="3">
+        <gadget name="Player2Btn" type="button" size1024="555 187 571 203" z="3" foreground="ui\godbuffetbtn">
+        </gadget>
+        <gadget name="Player3Btn" type="button" size1024="555 218 571 234" z="3" foreground="ui\godbuffetbtn">
+        </gadget>
+        <gadget name="Player4Btn" type="button" size1024="555 249 571 265" z="3" foreground="ui\godbuffetbtn">
+        </gadget>
+        <gadget name="Player5Btn" type="button" size1024="555 280 571 296" z="3" foreground="ui\godbuffetbtn">
+        </gadget>
+        <gadget name="Player6Btn" type="button" size1024="555 310 571 326" z="3" foreground="ui\godbuffetbtn">
+        </gadget>
+        <gadget name="Player7Btn" type="button" size1024="555 342 571 358" z="3" foreground="ui\godbuffetbtn">
+        </gadget>
+        <gadget name="Player8Btn" type="button" size1024="555 372 571 388" z="3" foreground="ui\godbuffetbtn">
+        </gadget>
+        <gadget name="Player9Btn" type="button" size1024="555 405 571 421" z="3" foreground="ui\godbuffetbtn">
+        </gadget>
+        <gadget name="Player10Btn" type="button" size1024="555 435 571 451" z="3" foreground="ui\godbuffetbtn">
+        </gadget>
+        <gadget name="Player11Btn" type="button" size1024="555 465 571 481" z="3" foreground="ui\godbuffetbtn">
+        </gadget>
+        <gadget name="Player12Btn" type="button" size1024="555 495 571 511" z="3" foreground="ui\godbuffetbtn">
+        </gadget>
+      </gadget>
+    </gadget>
+    <gadget name="GameSettings" type="gadget" background="UI\Background_C" tilebackground="" size1024="711 96 967 643" z="5">
+      <gadget name="singleplayersetup-MapLabel" type="formatText" textfont="LargeLabels" textfontsize="16" textcolor="0 0 0" size1024="711 114 967 134" textcenterhoriz="">$$19114$$Game Settings</gadget>
+      <gadget name="singleplayersetup-MapLabel" type="formatText" textfont="FieldLabels" textfontsize="14" textcolor="0 0 0" size1024="776 152 876 172" mouseovertext="$$18686$$Select a map type.  A thumbnail of the selected type will appear, below.">$$18685$$Map:</gadget>
+      <gadget fieldnametextcolor="0 0 0" textcolor="0 0 0" textfont="FieldLabels" textfontsize="14" name="MapTypeSelection" type="textField" fieldtextboxcolor="255 255 255" mouseovertext="$$18686$$Select a map type.  A thumbnail of the selected type will appear, below." fieldnametextfont="FieldLabels" fieldnametextfontsize="14" size1024="776 172 940 192" z="0">
+        <dropdown>Random</dropdown>
+        <dropdown>Arabia</dropdown>
+        <dropdown>Islands</dropdown>
+        <dropdown>Desert</dropdown>
+      </gadget>
+      <gadget mouseovertext="$$18687$$This is a thumbnail that shows a typical map of the type you have selected." name="MapThumbnail" type="gadget" background="UI\minimapthumbnail" size1024="776 202 904 330" z="0">
+      </gadget>
+      <gadget name="singleplayersetup-MapSeedLabel" mouseovertext="$$19115$$Type in a map seed, but don't get too attached to this field as it won't be in the shipping version of the game." type="formatText" textfont="FieldLabels" textfontsize="14" textcolor="0 0 0" size1024="778 521 878 541">$$18689$$Map Seed:</gadget>
+      <gadget fieldval="1" mouseovertext="$$19115$$Type in a map seed, but don't get too attached to this field as it won't be in the shipping version of the game." fieldnametextfont="FieldLabels" fieldnametextfontsize="14" fieldtextboxcolor="255 255 255" name="MapSeed" type="textField" fieldnametextcolor="0 0 0" textcolor="0 0 0" textfont="FieldLabels" textfontsize="14" size1024="778 542 833 562" z="0">
+      </gadget>
+      <gadget name="singleplayersetup-GameDifficultyLabel" type="formatText" textfont="FieldLabels" textfontsize="14" textcolor="0 0 0" size1024="778 400 878 420" mouseovertext="$$18690$$Select how difficult you want this opponent to be.">$$18691$$Difficulty:</gadget>
+      <gadget name="GameDifficulty" fieldval="1" type="textField" fieldnametextfontsize="14" fieldnametextfont="FieldLabels" mouseovertext="$$18690$$Select how difficult you want this opponent to be." fieldtextboxcolor="255 255 255" textfont="FieldLabels" textfontsize="14" textcolor="0 0 0" size1024="778 420 900 440" z="23">
+        <dropdown>1</dropdown>
+      </gadget>
+      <gadget name="singleplayersetup-MapSizeLabel" type="formatText" textfont="FieldLabels" textfontsize="14" textcolor="0 0 0" size1024="778 343 878 363" mouseovertext="$$19117$$Choose the size for your game's map, relative to number of players. Maps with more players will automatically be larger.">$$19116$$Map Size:</gadget>
+      <gadget fieldval="1" fieldnametextfont="FieldLabels" fieldnametextfontsize="14" fieldtextboxcolor="255 255 255" name="MapSize" type="textField" fieldnametextcolor="0 0 0" mouseovertext="$$19118$$Choose the size for your game's map." textcolor="0 0 0" textfont="FieldLabels" textfontsize="14" size1024="778 363 873 383" z="0">
+        <dropdown>$$18294$$Normal</dropdown>
+        <dropdown>$$18847$$Large</dropdown>
+      </gadget>
+      <gadget name="singleplayersetup-VictoryConditionsLabel" type="formatText" textfont="FieldLabels" textfontsize="14" textcolor="0 0 0" size1024="778 461 930 481" mouseovertext="$$19408$$Select the Victory Condition.  &quot;Supremacy&quot; is victory by conquest, Settlements or Wonders.  &quot;Conquest&quot; is defeating all enemies.  &quot;Deathmatch&quot; starts with high resources. &quot;Lightning&quot; plays at high speed.">$$19121$$Victory Conditions:</gadget>
+      <gadget name="VictoryConditions" fieldval="1" type="textField" fieldnametextfontsize="14" fieldnametextfont="FieldLabels" fieldtextboxcolor="255 255 255" textfont="FieldLabels" textfontsize="14" textcolor="0 0 0" mouseovertext="$$19408$$Select the Victory Condition.  &quot;Supremacy&quot; is victory by conquest, Settlements or Wonders.  &quot;Conquest&quot; is defeating all enemies.  &quot;Deathmatch&quot; starts with high resources. &quot;Lightning&quot; plays at high speed." size1024="778 482 900 502" z="23">
+        <dropdown>$$18864$$Supremacy</dropdown>
+        <dropdown>$$18865$$Conquest</dropdown>
+        <dropdown>$$18866$$Lightning</dropdown>
+        <dropdown>$$18867$$Deathmatch</dropdown>
+      </gadget>
+      <gadget name="GameSettingsButton" foreground="UI\button_A" textcolor="0 0 0" textfontsize="14" textfont="ButtonFont" type="button" mouseovertext="$$18692$$Click on this button to change other game settings." size1024="776 581 903 613" z="0">$$18693$$Other Settings...</gadget>
+      <gadget name="singleplayersetup-Gamesetting-decor-upperleft" type="gadget" size1024="711 96 775 160" background="UI\decor_c corner left top">
+      </gadget>
+      <gadget name="singleplayersetup-Gamesetting-decor-upperright" type="gadget" size1024="903 96 967 160" background="UI\decor_c corner right top">
+      </gadget>
+      <gadget name="singleplayersetup-Gamesetting-decor-lowerleft" type="gadget" size1024="711 571 775 635" background="UI\decor_c corner left bottom">
+      </gadget>
+      <gadget name="singleplayersetup-Gamesetting-decor-lowerright" type="gadget" size1024="903 571 967 635" background="UI\decor_c corner right bottom">
+      </gadget>
+      <gadget name="mpsetupquickteams-borders-bordertop" type="gadget" size1024="711 88 967 96" background="UI\border_a straight top" tilebackground="">
+      </gadget>
+      <gadget name="mpsetupquickteams-borders-borderleft" type="gadget" size1024="703 96 711 636" background="UI\border_a straight left" tilebackground="">
+      </gadget>
+      <gadget name="mpsetupquickteams-borders-borderright" type="gadget" size1024="967 96 975 636" background="UI\border_a straight right" tilebackground="">
+      </gadget>
+      <gadget name="mpsetupquickteams-borders-borderbottom" type="gadget" size1024="711 635 967 643" background="UI\border_a straight bottom" tilebackground="">
+      </gadget>
+      <gadget name="mpsetupquickteams-borders-upperleftcorner" type="gadget" size1024="703 88 711 96" background="UI\border_a corner left top">
+      </gadget>
+      <gadget name="mpsetupquickteams-borders-upperrightcorner" type="gadget" size1024="967 88 975 96" background="UI\border_a corner right top">
+      </gadget>
+      <gadget name="mpsetupquickteams-borders-lowerleftcorner" type="gadget" size1024="703 635 711 643" background="UI\border_a corner left bottom">
+      </gadget>
+      <gadget name="mpsetupquickteams-borders-lowerrightcorner" type="gadget" size1024="967 635 975 643" background="UI\border_a corner right bottom">
+      </gadget>
+    </gadget>
+    <gadget name="GoButton" foreground="ui\core_ui\button_128x32_normal" textcolor="0 0 0" textfontsize="14" textfont="ButtonFont" type="button" bevelbutton="" mouseovertext="$$19368$$Start the game." size1024="474 704 602 736">$$18593$$Play</gadget>
+    <gadget name="MainMenuButton" type="button" mouseovertext="$$18583$$Return to the main menu" textfont="ButtonFont" textfontsize="14" bevelbutton="" textcolor="0 0 0" z="25" size1024="875 7 1003 39" foreground="ui\core_ui\button_128x32_normal">$$18582$$Main Menu<command>modeEnter("PreGame")</command></gadget>
+    <gadget name="RolloverHelpBackground" tilebackground="" background="UI\background_C" type="gadget" size1024="46 582 627 682" z="20" sunkenbevel="" backgroundalpha=".5">
+      <gadget name="RolloverHelp" type="formatText" size1024="53 589 618 675" textcolor="0 0 0" textfontsize="12" textfont="RolloverFont" z="20" textmarkup="">
+      </gadget>
+    </gadget>
+  </gadget>
+</layout>

@@ -1,0 +1,402 @@
+<layout>
+  <gadget name="CustomizeOpponents" type="gadget" size1024="0 0 1024 768" background="" windowzstyle="">
+    <gadget name="CustomizeOpponents-Background" type="gadget" size1024="0 0 1024 768" background="ui\file_system\file_system_background" tilebackground="">
+      <gadget tilebackgroundhoriz="" name="CustomizeOpponents-BordersTop" type="gadget" background="ui\file_system\border_top_middle" size1024="0 0 1024 16" z="5">
+      </gadget>
+      <gadget tilebackgroundhoriz="" name="CustomizeOpponents-BordersBottom" type="gadget" background="ui\file_system\border_bottom_middle" size1024="0 752 1024 768" z="5">
+      </gadget>
+      <gadget tilebackgroundvert="" name="CustomizeOpponents-BordersLeft" type="gadget" background="ui\file_system\border_side_left" size1024="0 0 8 768" z="5">
+      </gadget>
+      <gadget tilebackgroundvert="" name="CustomizeOpponents-BordersRight" type="gadget" background="ui\file_system\border_side_right" size1024="1016 0 1024 768" z="5">
+      </gadget>
+      <gadget name="CustomizeOpponents-BordersLeftTop" type="gadget" background="ui\file_system\border_top_left" size1024="0 0 32 32" clampbackground="" z="10">
+      </gadget>
+      <gadget name="CustomizeOpponents-BordersLeftBottom" type="gadget" background="ui\file_system\border_bottom_left" size1024="0 736 32 768" clampbackground="" z="10">
+      </gadget>
+      <gadget name="CustomizeOpponents-BordersRightBottom" type="gadget" background="ui\file_system\border_bottom_right" size1024="992 736 1024 768" clampbackground="" z="10">
+      </gadget>
+      <gadget name="CustomizeOpponents-BordersRightTop" type="gadget" background="ui\file_system\border_top_right" size1024="992 0 1024 32" clampbackground="" z="10">
+      </gadget>
+    </gadget>
+    <gadget name="CustomizeOpponents-Screenlabel" textcentervert="" textcolor="3 0 88" textfontsize="22" textfont="PregameHeaders" type="formatText" size1024="42 23 345 48" z="11">$$19822$$Customize Opponents</gadget>
+    <gadget name="CustomizeOpponents-ScreenSeparator" type="gadget" size1024="33 52 991 54" background="missing" z="11">
+    </gadget>
+    <gadget name="CustomizeOpponents-Player1" type="gadget" size1024="46 85 669 110" z="12">
+      <gadget name="CustomizeOpponents-Player1-Name" textcentervert="" textcolor="3 0 88" textfontsize="18" textfont="Pregamelabels" type="formatText" size1024="47 88 256 113" z="13">MelindaHernandez</gadget>
+      <gadget textcolor="0 0 58" textfont="ScrollFont" textfontsize="16" listitemheight="18" border1024="10 0" background="ui\core_ui\dropdown_background" topcapart="missing" bottomcapart="missing" leftcapart="ui\core_ui\dropdown_cap_left" rightcapart="ui\core_ui\dropdown_cap_right" artsize1024="256 16" tilebackground="" fieldval="1" name="CustomizeOpponents-Player1-NameCustom" type="scrollList" size1024="69 88 252 123" z="52" mouseovertext="$$19928$$">
+        <listitem>AName</listitem>
+        <listitem>AName</listitem>
+      </gadget>
+      <gadget fieldval="1" textfontsize="16" textfont="ScrollFont" background="ui\core_ui\dropdown_background" tilebackground="" border1024="10 0" listitemheight="18" textcolor="0 0 58" name="CustomizeOpponents-Player1-Team" type="scrollList" rightcapart="ui\core_ui\dropdown_cap_right" leftcapart="ui\core_ui\dropdown_cap_left" bottomcapart="missing" topcapart="missing" size1024="268 86 319 121" z="12" mouseovertext="$$19112$$">
+        <listitem>1</listitem>
+        <listitem>2</listitem>
+        <listitem>3</listitem>
+        <listitem>4</listitem>
+      </gadget>
+      <gadget textcolor="0 0 58" textfont="ScrollFont" textfontsize="16" listitemheight="18" border1024="10 0" artsize1024="128 16" tilebackground="" fieldval="1" name="CustomizeOpponents-Player1-Civ" type="scrollList" size1024="341 85 469 120" z="11" rightcapart="ui\core_ui\dropdown_cap_right" leftcapart="ui\core_ui\dropdown_cap_left" bottomcapart="missing" topcapart="missing" background="ui\core_ui\dropdown_background" mouseovertext="$$19113$$">
+        <listitem>Random</listitem>
+        <listitem>Egyptian</listitem>
+        <listitem>Greek</listitem>
+        <listitem>Norse</listitem>
+        <listitem>Isis</listitem>
+        <listitem>Ra</listitem>
+        <listitem>Set</listitem>
+        <listitem>Hades</listitem>
+        <listitem>Poseidon</listitem>
+        <listitem>Zeus</listitem>
+        <listitem>Loki</listitem>
+        <listitem>Thor</listitem>
+        <listitem>Odin</listitem>
+      </gadget>
+      <gadget name="CustomizeOpponents-Player1-CivIcon" type="gadget" size1024="687 56 815 184" z="12" background="ui\ui god isis 128x128">
+      </gadget>
+      <gadget name="CustomizeOpponents-Player1-Line" type="gadget" size1024="472 100 682 102" background="missing" z="11">
+      </gadget>
+    </gadget>
+    <gadget name="CustomizeOpponents-Player2" type="gadget" size1024="46 137 669 162" z="12">
+      <gadget textcolor="0 0 58" textfont="ScrollFont" textfontsize="16" listitemheight="18" border1024="10 0" background="ui\core_ui\dropdown_background" topcapart="missing" bottomcapart="missing" leftcapart="ui\core_ui\dropdown_cap_left" rightcapart="ui\core_ui\dropdown_cap_right" artsize1024="256 16" tilebackground="" fieldval="1" name="CustomizeOpponents-Player2-Name" type="scrollList" size1024="69 137 252 172" z="52" mouseovertext="$$19928$$">
+        <listitem>AName</listitem>
+        <listitem>AName</listitem>
+      </gadget>
+      <gadget fieldval="1" textfontsize="16" textfont="ScrollFont" tilebackground="" artsize1024="64 16" border1024="10 0" listitemheight="18" textcolor="0 0 58" name="CustomizeOpponents-Player2-Team" type="scrollList" size1024="268 137 319 172" mouseovertext="$$18683$$" background="ui\core_ui\dropdown_background" topcapart="missing" bottomcapart="missing" leftcapart="ui\core_ui\dropdown_cap_left" rightcapart="ui\core_ui\dropdown_cap_right" z="12">
+        <listitem>1</listitem>
+        <listitem>2</listitem>
+        <listitem>3</listitem>
+        <listitem>4</listitem>
+      </gadget>
+      <gadget textcolor="0 0 58" textfont="ScrollFont" textfontsize="16" listitemheight="18" border1024="10 0" artsize1024="128 16" tilebackground="" fieldval="1" name="CustomizeOpponents-Player2-Civ" type="scrollList" size1024="341 137 469 172" z="11" rightcapart="ui\core_ui\dropdown_cap_right" leftcapart="ui\core_ui\dropdown_cap_left" bottomcapart="missing" topcapart="missing" background="ui\core_ui\dropdown_background" mouseovertext="$$18684$$">
+        <listitem>Random</listitem>
+        <listitem>Egyptian</listitem>
+        <listitem>Greek</listitem>
+        <listitem>Norse</listitem>
+        <listitem>Isis</listitem>
+        <listitem>Ra</listitem>
+        <listitem>Set</listitem>
+        <listitem>Hades</listitem>
+        <listitem>Poseidon</listitem>
+        <listitem>Zeus</listitem>
+        <listitem>Loki</listitem>
+        <listitem>Thor</listitem>
+        <listitem>Odin</listitem>
+      </gadget>
+      <gadget name="CustomizeOpponents-Player2-CivIcon" type="gadget" size1024="520 120 584 184" z="12" background="ui\ui god isis 64x64">
+      </gadget>
+      <gadget name="CustomizeOpponents-Player2-Line" type="gadget" size1024="473 149 514 151" background="missing" z="11">
+      </gadget>
+    </gadget>
+    <gadget name="CustomizeOpponents-Player3" type="gadget" size1024="46 187 669 212" z="12">
+      <gadget name="CustomizeOpponents-Player3-CivIcon" type="gadget" size1024="599 164 663 228" z="12" background="ui\ui god isis 64x64">
+      </gadget>
+      <gadget name="CustomizeOpponents-Player3-Line" type="gadget" size1024="473 197 589 199" background="missing" z="11">
+      </gadget>
+      <gadget textcolor="0 0 58" textfont="ScrollFont" textfontsize="16" listitemheight="18" border1024="10 0" mouseovertext="$$19928$$" background="ui\core_ui\dropdown_background" topcapart="missing" bottomcapart="missing" leftcapart="ui\core_ui\dropdown_cap_left" rightcapart="ui\core_ui\dropdown_cap_right" artsize1024="256 16" tilebackground="" fieldval="1" name="CustomizeOpponents-Player3-Name" type="scrollList" size1024="69 187 252 222" z="52">
+        <listitem>AName</listitem>
+        <listitem>AName</listitem>
+      </gadget>
+      <gadget fieldval="1" textfontsize="16" textfont="ScrollFont" tilebackground="" artsize1024="64 16" border1024="10 0" listitemheight="18" textcolor="0 0 58" name="CustomizeOpponents-Player3-Team" type="scrollList" size1024="268 187 319 222" mouseovertext="$$18683$$" background="ui\core_ui\dropdown_background" topcapart="missing" bottomcapart="missing" leftcapart="ui\core_ui\dropdown_cap_left" rightcapart="ui\core_ui\dropdown_cap_right" z="12">
+        <listitem>1</listitem>
+        <listitem>2</listitem>
+        <listitem>3</listitem>
+        <listitem>4</listitem>
+      </gadget>
+      <gadget textcolor="0 0 58" textfont="ScrollFont" textfontsize="16" listitemheight="18" border1024="10 0" artsize1024="128 16" tilebackground="" fieldval="1" name="CustomizeOpponents-Player3-Civ" type="scrollList" size1024="341 187 469 222" z="11" rightcapart="ui\core_ui\dropdown_cap_right" leftcapart="ui\core_ui\dropdown_cap_left" bottomcapart="missing" topcapart="missing" background="ui\core_ui\dropdown_background" mouseovertext="$$18684$$">
+        <listitem>Random</listitem>
+        <listitem>Egyptian</listitem>
+        <listitem>Greek</listitem>
+        <listitem>Norse</listitem>
+        <listitem>Isis</listitem>
+        <listitem>Ra</listitem>
+        <listitem>Set</listitem>
+        <listitem>Hades</listitem>
+        <listitem>Poseidon</listitem>
+        <listitem>Zeus</listitem>
+        <listitem>Loki</listitem>
+        <listitem>Thor</listitem>
+        <listitem>Odin</listitem>
+      </gadget>
+    </gadget>
+    <gadget name="CustomizeOpponents-Player4" type="gadget" size1024="46 237 669 262" z="12">
+      <gadget textcolor="0 0 58" textfont="ScrollFont" textfontsize="16" listitemheight="18" border1024="10 0" mouseovertext="$$19928$$" background="ui\core_ui\dropdown_background" topcapart="missing" bottomcapart="missing" leftcapart="ui\core_ui\dropdown_cap_left" rightcapart="ui\core_ui\dropdown_cap_right" artsize1024="256 16" tilebackground="" fieldval="1" name="CustomizeOpponents-Player4-Name" type="scrollList" size1024="69 237 252 272" z="52">
+        <listitem>AName</listitem>
+        <listitem>AName</listitem>
+      </gadget>
+      <gadget fieldval="1" textfontsize="16" textfont="ScrollFont" tilebackground="" artsize1024="64 16" border1024="10 0" listitemheight="18" textcolor="0 0 58" name="CustomizeOpponents-Player4-Team" type="scrollList" size1024="268 237 319 272" mouseovertext="$$18683$$" background="ui\core_ui\dropdown_background" topcapart="missing" bottomcapart="missing" leftcapart="ui\core_ui\dropdown_cap_left" rightcapart="ui\core_ui\dropdown_cap_right" z="12">
+        <listitem>1</listitem>
+        <listitem>2</listitem>
+        <listitem>3</listitem>
+        <listitem>4</listitem>
+      </gadget>
+      <gadget textcolor="0 0 58" textfont="ScrollFont" textfontsize="16" listitemheight="18" border1024="10 0" artsize1024="128 16" tilebackground="" fieldval="1" name="CustomizeOpponents-Player4-Civ" type="scrollList" size1024="341 237 469 272" z="11" rightcapart="ui\core_ui\dropdown_cap_right" leftcapart="ui\core_ui\dropdown_cap_left" bottomcapart="missing" topcapart="missing" background="ui\core_ui\dropdown_background" mouseovertext="$$18684$$">
+        <listitem>Random</listitem>
+        <listitem>Egyptian</listitem>
+        <listitem>Greek</listitem>
+        <listitem>Norse</listitem>
+        <listitem>Isis</listitem>
+        <listitem>Ra</listitem>
+        <listitem>Set</listitem>
+        <listitem>Hades</listitem>
+        <listitem>Poseidon</listitem>
+        <listitem>Zeus</listitem>
+        <listitem>Loki</listitem>
+        <listitem>Thor</listitem>
+        <listitem>Odin</listitem>
+      </gadget>
+      <gadget name="CustomizeOpponents-Player4-CivIcon" type="gadget" size1024="520 220 584 284" z="12" background="ui\ui god isis 64x64">
+      </gadget>
+      <gadget name="CustomizeOpponents-Player4-Line" type="gadget" size1024="473 249 514 251" background="missing" z="11">
+      </gadget>
+    </gadget>
+    <gadget name="CustomizeOpponents-Player5" type="gadget" size1024="46 289 669 314" z="12">
+      <gadget name="CustomizeOpponents-Player5-CivIcon" type="gadget" size1024="599 266 663 330" z="12" background="ui\ui god isis 64x64">
+      </gadget>
+      <gadget name="CustomizeOpponents-Player5-Line" type="gadget" size1024="473 299 589 301" background="missing" z="11">
+      </gadget>
+      <gadget textcolor="0 0 58" textfont="ScrollFont" textfontsize="16" listitemheight="18" border1024="10 0" mouseovertext="$$19928$$" background="ui\core_ui\dropdown_background" topcapart="missing" bottomcapart="missing" leftcapart="ui\core_ui\dropdown_cap_left" rightcapart="ui\core_ui\dropdown_cap_right" artsize1024="256 16" tilebackground="" fieldval="1" name="CustomizeOpponents-Player5-Name" type="scrollList" size1024="69 289 252 324" z="52">
+        <listitem>AName</listitem>
+        <listitem>AName</listitem>
+      </gadget>
+      <gadget fieldval="1" textfontsize="16" textfont="ScrollFont" tilebackground="" artsize1024="64 16" border1024="10 0" listitemheight="18" textcolor="0 0 58" name="CustomizeOpponents-Player5-Team" type="scrollList" size1024="268 289 319 324" mouseovertext="$$18683$$" background="ui\core_ui\dropdown_background" topcapart="missing" bottomcapart="missing" leftcapart="ui\core_ui\dropdown_cap_left" rightcapart="ui\core_ui\dropdown_cap_right" z="12">
+        <listitem>1</listitem>
+        <listitem>2</listitem>
+        <listitem>3</listitem>
+        <listitem>4</listitem>
+      </gadget>
+      <gadget textcolor="0 0 58" textfont="ScrollFont" textfontsize="16" listitemheight="18" border1024="10 0" artsize1024="128 16" tilebackground="" fieldval="1" name="CustomizeOpponents-Player5-Civ" type="scrollList" size1024="341 289 469 324" z="11" rightcapart="ui\core_ui\dropdown_cap_right" leftcapart="ui\core_ui\dropdown_cap_left" bottomcapart="missing" topcapart="missing" background="ui\core_ui\dropdown_background" mouseovertext="$$18684$$">
+        <listitem>Random</listitem>
+        <listitem>Egyptian</listitem>
+        <listitem>Greek</listitem>
+        <listitem>Norse</listitem>
+        <listitem>Isis</listitem>
+        <listitem>Ra</listitem>
+        <listitem>Set</listitem>
+        <listitem>Hades</listitem>
+        <listitem>Poseidon</listitem>
+        <listitem>Zeus</listitem>
+        <listitem>Loki</listitem>
+        <listitem>Thor</listitem>
+        <listitem>Odin</listitem>
+      </gadget>
+    </gadget>
+    <gadget name="CustomizeOpponents-Player6" type="gadget" size1024="46 339 669 364" z="12">
+      <gadget textcolor="0 0 58" textfont="ScrollFont" textfontsize="16" listitemheight="18" border1024="10 0" mouseovertext="$$19928$$" background="ui\core_ui\dropdown_background" topcapart="missing" bottomcapart="missing" leftcapart="ui\core_ui\dropdown_cap_left" rightcapart="ui\core_ui\dropdown_cap_right" artsize1024="256 16" tilebackground="" fieldval="1" name="CustomizeOpponents-Player6-Name" type="scrollList" size1024="69 339 252 374" z="52">
+        <listitem>AName</listitem>
+        <listitem>AName</listitem>
+      </gadget>
+      <gadget fieldval="1" textfontsize="16" textfont="ScrollFont" tilebackground="" artsize1024="64 16" border1024="10 0" listitemheight="18" textcolor="0 0 58" name="CustomizeOpponents-Player6-Team" type="scrollList" size1024="268 339 319 374" mouseovertext="$$18683$$" background="ui\core_ui\dropdown_background" topcapart="missing" bottomcapart="missing" leftcapart="ui\core_ui\dropdown_cap_left" rightcapart="ui\core_ui\dropdown_cap_right" z="12">
+        <listitem>1</listitem>
+        <listitem>2</listitem>
+        <listitem>3</listitem>
+        <listitem>4</listitem>
+      </gadget>
+      <gadget textcolor="0 0 58" textfont="ScrollFont" textfontsize="16" listitemheight="18" border1024="10 0" artsize1024="128 16" tilebackground="" fieldval="1" name="CustomizeOpponents-Player6-Civ" type="scrollList" size1024="341 339 469 374" z="11" rightcapart="ui\core_ui\dropdown_cap_right" leftcapart="ui\core_ui\dropdown_cap_left" bottomcapart="missing" topcapart="missing" background="ui\core_ui\dropdown_background" mouseovertext="$$18684$$">
+        <listitem>Random</listitem>
+        <listitem>Egyptian</listitem>
+        <listitem>Greek</listitem>
+        <listitem>Norse</listitem>
+        <listitem>Isis</listitem>
+        <listitem>Ra</listitem>
+        <listitem>Set</listitem>
+        <listitem>Hades</listitem>
+        <listitem>Poseidon</listitem>
+        <listitem>Zeus</listitem>
+        <listitem>Loki</listitem>
+        <listitem>Thor</listitem>
+        <listitem>Odin</listitem>
+      </gadget>
+      <gadget name="CustomizeOpponents-Player6-CivIcon" type="gadget" size1024="520 322 584 386" z="12" background="ui\ui god isis 64x64">
+      </gadget>
+      <gadget name="CustomizeOpponents-Player6-Line" type="gadget" size1024="473 351 514 353" background="missing" z="11">
+      </gadget>
+    </gadget>
+    <gadget name="CustomizeOpponents-Player7" type="gadget" size1024="46 387 669 412" z="12">
+      <gadget name="CustomizeOpponents-Player7-CivIcon" type="gadget" size1024="599 364 663 428" z="12" background="ui\ui god isis 64x64">
+      </gadget>
+      <gadget name="CustomizeOpponents-Player7-Line" type="gadget" size1024="473 397 589 399" background="missing" z="11">
+      </gadget>
+      <gadget textcolor="0 0 58" textfont="ScrollFont" textfontsize="16" listitemheight="18" border1024="10 0" mouseovertext="$$19928$$" background="ui\core_ui\dropdown_background" topcapart="missing" bottomcapart="missing" leftcapart="ui\core_ui\dropdown_cap_left" rightcapart="ui\core_ui\dropdown_cap_right" artsize1024="256 16" tilebackground="" fieldval="1" name="CustomizeOpponents-Player7-Name" type="scrollList" size1024="69 387 252 422" z="52">
+        <listitem>AName</listitem>
+        <listitem>AName</listitem>
+      </gadget>
+      <gadget fieldval="1" textfontsize="16" textfont="ScrollFont" tilebackground="" artsize1024="64 16" border1024="10 0" listitemheight="18" textcolor="0 0 58" name="CustomizeOpponents-Player7-Team" type="scrollList" size1024="268 387 319 422" mouseovertext="$$18683$$" background="ui\core_ui\dropdown_background" topcapart="missing" bottomcapart="missing" leftcapart="ui\core_ui\dropdown_cap_left" rightcapart="ui\core_ui\dropdown_cap_right" z="12">
+        <listitem>1</listitem>
+        <listitem>2</listitem>
+        <listitem>3</listitem>
+        <listitem>4</listitem>
+      </gadget>
+      <gadget textcolor="0 0 58" textfont="ScrollFont" textfontsize="16" listitemheight="18" border1024="10 0" artsize1024="128 16" tilebackground="" fieldval="1" name="CustomizeOpponents-Player7-Civ" type="scrollList" size1024="341 387 469 422" z="11" rightcapart="ui\core_ui\dropdown_cap_right" leftcapart="ui\core_ui\dropdown_cap_left" bottomcapart="missing" topcapart="missing" background="ui\core_ui\dropdown_background" mouseovertext="$$18684$$">
+        <listitem>Random</listitem>
+        <listitem>Egyptian</listitem>
+        <listitem>Greek</listitem>
+        <listitem>Norse</listitem>
+        <listitem>Isis</listitem>
+        <listitem>Ra</listitem>
+        <listitem>Set</listitem>
+        <listitem>Hades</listitem>
+        <listitem>Poseidon</listitem>
+        <listitem>Zeus</listitem>
+        <listitem>Loki</listitem>
+        <listitem>Thor</listitem>
+        <listitem>Odin</listitem>
+      </gadget>
+    </gadget>
+    <gadget name="CustomizeOpponents-Player8" type="gadget" size1024="46 438 669 463" z="12">
+      <gadget textcolor="0 0 58" textfont="ScrollFont" textfontsize="16" listitemheight="18" border1024="10 0" mouseovertext="$$19928$$" background="ui\core_ui\dropdown_background" topcapart="missing" bottomcapart="missing" leftcapart="ui\core_ui\dropdown_cap_left" rightcapart="ui\core_ui\dropdown_cap_right" artsize1024="256 16" tilebackground="" fieldval="1" name="CustomizeOpponents-Player8-Name" type="scrollList" size1024="69 438 252 473" z="52">
+        <listitem>AName</listitem>
+        <listitem>AName</listitem>
+      </gadget>
+      <gadget fieldval="1" textfontsize="16" textfont="ScrollFont" tilebackground="" artsize1024="64 16" border1024="10 0" listitemheight="18" textcolor="0 0 58" name="CustomizeOpponents-Player8-Team" type="scrollList" size1024="268 439 319 474" mouseovertext="$$18683$$" background="ui\core_ui\dropdown_background" topcapart="missing" bottomcapart="missing" leftcapart="ui\core_ui\dropdown_cap_left" rightcapart="ui\core_ui\dropdown_cap_right" z="12">
+        <listitem>1</listitem>
+        <listitem>2</listitem>
+        <listitem>3</listitem>
+        <listitem>4</listitem>
+      </gadget>
+      <gadget textcolor="0 0 58" textfont="ScrollFont" textfontsize="16" listitemheight="18" border1024="10 0" artsize1024="128 16" tilebackground="" fieldval="1" name="CustomizeOpponents-Player8-Civ" type="scrollList" size1024="341 438 469 473" z="11" rightcapart="ui\core_ui\dropdown_cap_right" leftcapart="ui\core_ui\dropdown_cap_left" bottomcapart="missing" topcapart="missing" background="ui\core_ui\dropdown_background" mouseovertext="$$18684$$">
+        <listitem>Random</listitem>
+        <listitem>Egyptian</listitem>
+        <listitem>Greek</listitem>
+        <listitem>Norse</listitem>
+        <listitem>Isis</listitem>
+        <listitem>Ra</listitem>
+        <listitem>Set</listitem>
+        <listitem>Hades</listitem>
+        <listitem>Poseidon</listitem>
+        <listitem>Zeus</listitem>
+        <listitem>Loki</listitem>
+        <listitem>Thor</listitem>
+        <listitem>Odin</listitem>
+      </gadget>
+      <gadget name="CustomizeOpponents-Player8-CivIcon" type="gadget" size1024="520 421 584 485" z="12" background="ui\ui god isis 64x64">
+      </gadget>
+      <gadget name="CustomizeOpponents-Player8-Line" type="gadget" size1024="473 450 514 452" background="missing" z="11">
+      </gadget>
+    </gadget>
+    <gadget name="CustomizeOpponents-Player9" type="gadget" size1024="46 489 669 514" z="12">
+      <gadget name="CustomizeOpponents-Player9-CivIcon" type="gadget" size1024="599 466 663 530" z="12" background="ui\ui god isis 64x64">
+      </gadget>
+      <gadget name="CustomizeOpponents-Player9-Line" type="gadget" size1024="473 499 589 501" background="missing" z="11">
+      </gadget>
+      <gadget textcolor="0 0 58" textfont="ScrollFont" textfontsize="16" listitemheight="18" border1024="10 0" mouseovertext="$$19928$$" background="ui\core_ui\dropdown_background" topcapart="missing" bottomcapart="missing" leftcapart="ui\core_ui\dropdown_cap_left" rightcapart="ui\core_ui\dropdown_cap_right" artsize1024="256 16" tilebackground="" fieldval="1" name="CustomizeOpponents-Player9-Name" type="scrollList" size1024="69 489 252 524" z="52">
+        <listitem>AName</listitem>
+        <listitem>AName</listitem>
+      </gadget>
+      <gadget fieldval="1" textfontsize="16" textfont="ScrollFont" tilebackground="" artsize1024="64 16" border1024="10 0" listitemheight="18" textcolor="0 0 58" name="CustomizeOpponents-Player9-Team" type="scrollList" size1024="268 489 319 524" mouseovertext="$$18683$$" background="ui\core_ui\dropdown_background" topcapart="missing" bottomcapart="missing" leftcapart="ui\core_ui\dropdown_cap_left" rightcapart="ui\core_ui\dropdown_cap_right" z="12">
+        <listitem>1</listitem>
+        <listitem>2</listitem>
+        <listitem>3</listitem>
+        <listitem>4</listitem>
+      </gadget>
+      <gadget textcolor="0 0 58" textfont="ScrollFont" textfontsize="16" listitemheight="18" border1024="10 0" artsize1024="128 16" tilebackground="" fieldval="1" name="CustomizeOpponents-Player9-Civ" type="scrollList" size1024="341 489 469 524" z="11" rightcapart="ui\core_ui\dropdown_cap_right" leftcapart="ui\core_ui\dropdown_cap_left" bottomcapart="missing" topcapart="missing" background="ui\core_ui\dropdown_background" mouseovertext="$$18684$$">
+        <listitem>Random</listitem>
+        <listitem>Egyptian</listitem>
+        <listitem>Greek</listitem>
+        <listitem>Norse</listitem>
+        <listitem>Isis</listitem>
+        <listitem>Ra</listitem>
+        <listitem>Set</listitem>
+        <listitem>Hades</listitem>
+        <listitem>Poseidon</listitem>
+        <listitem>Zeus</listitem>
+        <listitem>Loki</listitem>
+        <listitem>Thor</listitem>
+        <listitem>Odin</listitem>
+      </gadget>
+    </gadget>
+    <gadget name="CustomizeOpponents-Player10" type="gadget" size1024="46 541 669 566" z="12">
+      <gadget textcolor="0 0 58" textfont="ScrollFont" textfontsize="16" listitemheight="18" border1024="10 0" mouseovertext="$$19928$$" background="ui\core_ui\dropdown_background" topcapart="missing" bottomcapart="missing" leftcapart="ui\core_ui\dropdown_cap_left" rightcapart="ui\core_ui\dropdown_cap_right" artsize1024="256 16" tilebackground="" fieldval="1" name="CustomizeOpponents-Player10-Name" type="scrollList" size1024="69 541 252 576" z="52">
+        <listitem>AName</listitem>
+        <listitem>AName</listitem>
+      </gadget>
+      <gadget fieldval="1" textfontsize="16" textfont="ScrollFont" tilebackground="" artsize1024="64 16" border1024="10 0" listitemheight="18" textcolor="0 0 58" name="CustomizeOpponents-Player10-Team" type="scrollList" size1024="268 541 319 576" mouseovertext="$$18683$$" background="ui\core_ui\dropdown_background" topcapart="missing" bottomcapart="missing" leftcapart="ui\core_ui\dropdown_cap_left" rightcapart="ui\core_ui\dropdown_cap_right" z="12">
+        <listitem>1</listitem>
+        <listitem>2</listitem>
+        <listitem>3</listitem>
+        <listitem>4</listitem>
+      </gadget>
+      <gadget textcolor="0 0 58" textfont="ScrollFont" textfontsize="16" listitemheight="18" border1024="10 0" artsize1024="128 16" tilebackground="" fieldval="1" name="CustomizeOpponents-Player10-Civ" type="scrollList" size1024="341 541 469 576" z="11" rightcapart="ui\core_ui\dropdown_cap_right" leftcapart="ui\core_ui\dropdown_cap_left" bottomcapart="missing" topcapart="missing" background="ui\core_ui\dropdown_background" mouseovertext="$$18684$$">
+        <listitem>Random</listitem>
+        <listitem>Egyptian</listitem>
+        <listitem>Greek</listitem>
+        <listitem>Norse</listitem>
+        <listitem>Isis</listitem>
+        <listitem>Ra</listitem>
+        <listitem>Set</listitem>
+        <listitem>Hades</listitem>
+        <listitem>Poseidon</listitem>
+        <listitem>Zeus</listitem>
+        <listitem>Loki</listitem>
+        <listitem>Thor</listitem>
+        <listitem>Odin</listitem>
+      </gadget>
+      <gadget name="CustomizeOpponents-Player10-CivIcon" type="gadget" size1024="520 524 584 588" z="12" background="ui\ui god isis 64x64">
+      </gadget>
+      <gadget name="CustomizeOpponents-Player10-Line" type="gadget" size1024="473 553 514 555" background="missing" z="11">
+      </gadget>
+    </gadget>
+    <gadget name="CustomizeOpponents-Player11" type="gadget" size1024="46 593 669 618" z="12">
+      <gadget name="CustomizeOpponents-Player11-CivIcon" type="gadget" size1024="599 570 663 634" z="12" background="ui\ui god isis 64x64">
+      </gadget>
+      <gadget name="CustomizeOpponents-Player11-Line" type="gadget" size1024="473 603 589 605" background="missing" z="11">
+      </gadget>
+      <gadget textcolor="0 0 58" textfont="ScrollFont" textfontsize="16" listitemheight="18" border1024="10 0" mouseovertext="$$19928$$" background="ui\core_ui\dropdown_background" topcapart="missing" bottomcapart="missing" leftcapart="ui\core_ui\dropdown_cap_left" rightcapart="ui\core_ui\dropdown_cap_right" artsize1024="256 16" tilebackground="" fieldval="1" name="CustomizeOpponents-Player11-Name" type="scrollList" size1024="69 593 252 628" z="52">
+        <listitem>AName</listitem>
+        <listitem>AName</listitem>
+      </gadget>
+      <gadget fieldval="1" textfontsize="16" textfont="ScrollFont" tilebackground="" artsize1024="64 16" border1024="10 0" listitemheight="18" textcolor="0 0 58" name="CustomizeOpponents-Player11-Team" type="scrollList" size1024="268 593 319 628" mouseovertext="$$18683$$" background="ui\core_ui\dropdown_background" topcapart="missing" bottomcapart="missing" leftcapart="ui\core_ui\dropdown_cap_left" rightcapart="ui\core_ui\dropdown_cap_right" z="12">
+        <listitem>1</listitem>
+        <listitem>2</listitem>
+        <listitem>3</listitem>
+        <listitem>4</listitem>
+      </gadget>
+      <gadget textcolor="0 0 58" textfont="ScrollFont" textfontsize="16" listitemheight="18" border1024="10 0" artsize1024="128 16" tilebackground="" fieldval="1" name="CustomizeOpponents-Player11-Civ" type="scrollList" size1024="341 593 469 628" z="11" rightcapart="ui\core_ui\dropdown_cap_right" leftcapart="ui\core_ui\dropdown_cap_left" bottomcapart="missing" topcapart="missing" background="ui\core_ui\dropdown_background" mouseovertext="$$18684$$">
+        <listitem>Random</listitem>
+        <listitem>Egyptian</listitem>
+        <listitem>Greek</listitem>
+        <listitem>Norse</listitem>
+        <listitem>Isis</listitem>
+        <listitem>Ra</listitem>
+        <listitem>Set</listitem>
+        <listitem>Hades</listitem>
+        <listitem>Poseidon</listitem>
+        <listitem>Zeus</listitem>
+        <listitem>Loki</listitem>
+        <listitem>Thor</listitem>
+        <listitem>Odin</listitem>
+      </gadget>
+    </gadget>
+    <gadget name="CustomizeOpponents-Player12" type="gadget" size1024="46 643 669 668" z="12">
+      <gadget textcolor="0 0 58" textfont="ScrollFont" textfontsize="16" listitemheight="18" border1024="10 0" mouseovertext="$$19928$$" background="ui\core_ui\dropdown_background" topcapart="missing" bottomcapart="missing" leftcapart="ui\core_ui\dropdown_cap_left" rightcapart="ui\core_ui\dropdown_cap_right" artsize1024="256 16" tilebackground="" fieldval="1" name="CustomizeOpponents-Player12-Name" type="scrollList" size1024="69 643 252 677" z="52">
+        <listitem>AName</listitem>
+        <listitem>AName</listitem>
+      </gadget>
+      <gadget fieldval="1" textfontsize="16" textfont="ScrollFont" tilebackground="" artsize1024="64 16" border1024="10 0" listitemheight="18" textcolor="0 0 58" name="CustomizeOpponents-Player12-Team" type="scrollList" size1024="268 643 319 678" mouseovertext="$$18683$$" background="ui\core_ui\dropdown_background" topcapart="missing" bottomcapart="missing" leftcapart="ui\core_ui\dropdown_cap_left" rightcapart="ui\core_ui\dropdown_cap_right" z="12">
+        <listitem>1</listitem>
+        <listitem>2</listitem>
+        <listitem>3</listitem>
+        <listitem>4</listitem>
+      </gadget>
+      <gadget textcolor="0 0 58" textfont="ScrollFont" textfontsize="16" listitemheight="18" border1024="10 0" artsize1024="128 16" tilebackground="" fieldval="1" name="CustomizeOpponents-Player12-Civ" type="scrollList" size1024="341 643 469 677" z="11" rightcapart="ui\core_ui\dropdown_cap_right" leftcapart="ui\core_ui\dropdown_cap_left" bottomcapart="missing" topcapart="missing" background="ui\core_ui\dropdown_background" mouseovertext="$$18684$$">
+        <listitem>Random</listitem>
+        <listitem>Egyptian</listitem>
+        <listitem>Greek</listitem>
+        <listitem>Norse</listitem>
+        <listitem>Isis</listitem>
+        <listitem>Ra</listitem>
+        <listitem>Set</listitem>
+        <listitem>Hades</listitem>
+        <listitem>Poseidon</listitem>
+        <listitem>Zeus</listitem>
+        <listitem>Loki</listitem>
+        <listitem>Thor</listitem>
+        <listitem>Odin</listitem>
+      </gadget>
+      <gadget name="CustomizeOpponents-Player12-CivIcon" type="gadget" size1024="520 626 584 690" z="12" background="ui\ui god isis 64x64">
+      </gadget>
+      <gadget name="CustomizeOpponents-Player12-Line" type="gadget" size1024="473 655 514 657" background="missing" z="11">
+      </gadget>
+    </gadget>
+    <gadget name="CustomizeOpponents-Team-Heading" textfont="Pregamelabels" textfontsize="18" textcolor="3 0 88" textcentervert="" textcenterhoriz="" type="formatText" size1024="256 58 338 86" z="13">$$18680$$Team</gadget>
+    <gadget name="CustomizeOpponents-Civ-Heading" textcenterhoriz="" textfont="Pregamelabels" textfontsize="18" textcolor="3 0 88" textcentervert="" type="formatText" size1024="340 58 469 86" z="13">$$19096$$Civilization</gadget>
+    <gadget name="CustomizeOpponents-OKButton" type="stateButton" size1024="380 710 508 742" bevelbutton="" z="101" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="3 0 88" mouseovertext="$$19929$$">$$18465$$OK<stateentry background="ui\core_ui\button_128x32_normal"></stateentry><stateentry background="ui\core_ui\button_128x32_clicked"></stateentry><stateentry background="ui\core_ui\button_128x32_rollover"></stateentry><stateentry background=""></stateentry></gadget>
+    <gadget name="CustomizeOpponents-CancelButton" type="stateButton" size1024="516 710 644 742" bevelbutton="" z="101" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="3 0 88" mouseovertext="$$19930$$">$$18466$$Cancel<stateentry background="ui\core_ui\button_128x32_normal"></stateentry><stateentry background="ui\core_ui\button_128x32_clicked"></stateentry><stateentry background="ui\core_ui\button_128x32_rollover"></stateentry><stateentry background=""></stateentry></gadget>
+  </gadget>
+</layout>

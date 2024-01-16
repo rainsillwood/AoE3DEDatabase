@@ -1,0 +1,231 @@
+<economymode>
+  <globalsettings>
+    <tech>DEEconomyMode</tech>
+    <norushtime>10</norushtime>
+    <militarypopulationcap>25</militarypopulationcap>
+    <unitregen>
+      <unittype>Military</unittype>
+      <halflife>30</halflife>
+      <excludeunittypes>
+        <unittype>Hero</unittype>
+        <unittype>AbstractWagon</unittype>
+      </excludeunittypes>
+    </unitregen>
+  </globalsettings>
+  <gamemodetypes>
+    <gamemodetype type="timed" name="Timeout 10 mins" nameid="55533">
+      <gametime>10</gametime>
+    </gamemodetype>
+    <gamemodetype type="timed" name="Timeout 20 mins" nameid="55534">
+      <gametime>20</gametime>
+    </gamemodetype>
+    <gamemodetype type="timed" name="Timeout 30 mins" nameid="55535">
+      <gametime>30</gametime>
+    </gamemodetype>
+    <gamemodetype type="timed" name="Timeout 40 mins" nameid="55536">
+      <gametime>40</gametime>
+    </gamemodetype>
+    <gamemodetype type="timed" name="Timeout 60 mins" nameid="55537">
+      <gametime>60</gametime>
+    </gamemodetype>
+    <gamemodetype type="score" name="Score Limit 10k" nameid="55538">
+      <scorelimit>10000</scorelimit>
+    </gamemodetype>
+    <gamemodetype type="score" name="Score Limit 30k" nameid="55539">
+      <scorelimit>30000</scorelimit>
+    </gamemodetype>
+    <gamemodetype type="score" name="Score Limit 100k" nameid="55540">
+      <scorelimit>100000</scorelimit>
+    </gamemodetype>
+    <gamemodetype type="score" name="Score Limit 250k" nameid="55632">
+      <scorelimit>250000</scorelimit>
+    </gamemodetype>
+    <gamemodetype type="score" name="Score Limit 500k" nameid="55633">
+      <scorelimit>500000</scorelimit>
+    </gamemodetype>
+    <gamemodetype type="score" name="Score Limit 750k" nameid="55634">
+      <scorelimit>750000</scorelimit>
+    </gamemodetype>
+  </gamemodetypes>
+  <scoring>
+    <scoremode>Default</scoremode>
+    <scoremultiplier civ="default">
+      <food>1</food>
+      <wood>1</wood>
+      <gold>1</gold>
+      <trade>1</trade>
+      <influence>1</influence>
+      <score>1</score>
+      <ecobonus>1</ecobonus>
+    </scoremultiplier>
+    <aiscoremultiplier difficulty="0">1</aiscoremultiplier>
+    <aiscoremultiplier difficulty="1">1</aiscoremultiplier>
+    <aiscoremultiplier difficulty="2">1</aiscoremultiplier>
+    <aiscoremultiplier difficulty="3">1</aiscoremultiplier>
+    <aiscoremultiplier difficulty="4">1</aiscoremultiplier>
+    <aiscoremultiplier difficulty="5">1</aiscoremultiplier>
+  </scoring>
+  <economyvictory>
+    <scoreadvantage>10000</scoreadvantage>
+    <victorytime>300</victorytime>
+    <firstwarningtime>150</firstwarningtime>
+    <finalwarningtime>60</finalwarningtime>
+  </economyvictory>
+  <challenges>
+    <placestrings>
+      <place place="1st">55500</place>
+      <place place="2nd">55501</place>
+      <place place="3rd">55502</place>
+    </placestrings>
+    <challenge name="Tiered Food Gathering">
+      <level place="1st" type="GatherFood" amount="800" time="3" score="1000" stringid="49945" shortstringid="55522">
+      </level>
+      <level place="2nd" type="GatherFood" amount="800" time="5" score="500" stringid="49945" shortstringid="55522">
+      </level>
+      <level place="3rd" type="GatherFood" amount="800" time="7" score="250" stringid="49945" shortstringid="55522">
+      </level>
+    </challenge>
+    <challenge name="Tiered Wood Gathering">
+      <level place="1st" type="GatherWood" amount="1500" time="7" score="2000" stringid="49946" shortstringid="55523">
+      </level>
+      <level place="2nd" type="GatherWood" amount="1500" time="9" score="1000" stringid="49946" shortstringid="55523">
+      </level>
+      <level place="3rd" type="GatherWood" amount="1500" time="11" score="500" stringid="49946" shortstringid="55523">
+      </level>
+    </challenge>
+    <challenge name="Tiered Coin Gathering">
+      <level place="1st" type="GatherGold" amount="2000" time="11" score="2500" stringid="49947" shortstringid="55524">
+      </level>
+      <level place="2nd" type="GatherGold" amount="2000" time="13" score="2000" stringid="49947" shortstringid="55524">
+      </level>
+      <level place="3rd" type="GatherGold" amount="2000" time="15" score="1000" stringid="49947" shortstringid="55524">
+      </level>
+    </challenge>
+    <challenge name="Tiered Population Reached">
+      <level place="1st" type="Population" amount="50" time="14" score="3000" stringid="49948" shortstringid="55525">
+      </level>
+      <level place="2nd" type="Population" amount="50" time="16" score="2000" stringid="49948" shortstringid="55525">
+      </level>
+      <level place="3rd" type="Population" amount="50" time="18" score="1000" stringid="49948" shortstringid="55525">
+      </level>
+    </challenge>
+    <challenge name="Commerce Age">
+      <level place="1st" type="Age" amount="1" score="500" stringid="55595" shortstringid="55602" substring1id="55596" perplayer="true">
+      </level>
+    </challenge>
+    <challenge name="Fortress Age">
+      <level place="1st" type="Age" amount="2" score="1000" stringid="55595" shortstringid="55602" substring1id="55597" perplayer="true">
+      </level>
+    </challenge>
+    <challenge name="Industrial Age">
+      <level place="1st" type="Age" amount="3" score="1500" stringid="55595" shortstringid="55602" substring1id="55598" perplayer="true">
+      </level>
+    </challenge>
+    <challenge name="Imperial Age">
+      <level place="1st" type="Age" amount="4" score="2000" stringid="55595" shortstringid="55602" substring1id="55599" perplayer="true">
+      </level>
+    </challenge>
+    <challenge name="Revolt">
+      <level place="1st" type="Revolt" amount="1" score="250" stringid="55603" shortstringid="55604" perplayer="true">
+      </level>
+    </challenge>
+    <challenge name="Revolt2">
+      <level place="2nd" type="Revolt" amount="2" score="500" stringid="55689" shortstringid="55604" perplayer="true">
+      </level>
+    </challenge>
+    <challenge name="Homecity Shipment1">
+      <level place="1st" type="Shipment" amount="5" score="500" stringid="55624" perplayer="true" shortstringid="55625">
+      </level>
+    </challenge>
+    <challenge name="Homecity Shipment2">
+      <level place="1st" type="Shipment" amount="10" score="1000" stringid="55624" perplayer="true" shortstringid="55625">
+      </level>
+    </challenge>
+    <challenge name="Homecity Shipment3">
+      <level place="1st" type="Shipment" amount="15" score="1500" stringid="55624" perplayer="true" shortstringid="55625">
+      </level>
+    </challenge>
+    <challenge name="Homecity Shipment4">
+      <level place="1st" type="Shipment" amount="20" score="2000" stringid="55624" perplayer="true" shortstringid="55625">
+      </level>
+    </challenge>
+    <challenge name="Research Improvements">
+      <level place="1st" type="Research" amount="10" score="2000" stringid="55626" perplayer="true" shortstringid="55627">
+      </level>
+    </challenge>
+  </challenges>
+  <ecopackages>
+    <maxmultiple>5</maxmultiple>
+    <purchasetime>30</purchasetime>
+    <minbonus>20</minbonus>
+    <maxbonus>100</maxbonus>
+    <bonusreduction multiple="1">6</bonusreduction>
+    <bonusreduction multiple="2">11</bonusreduction>
+    <bonusreduction multiple="3">15</bonusreduction>
+    <bonusreduction multiple="4">18</bonusreduction>
+    <bonusreduction multiple="5">20</bonusreduction>
+    <bonusregenrate>0.2</bonusregenrate>
+    <agemultiplier age="2">1</agemultiplier>
+    <agemultiplier age="3">1.5</agemultiplier>
+    <agemultiplier age="4">2</agemultiplier>
+    <agemultiplier age="5">4</agemultiplier>
+    <ecopackage name="FoodWood" nameid="55637">
+      <icon>resources\images\economy\eco_packages_fw.png</icon>
+      <cost>
+        <food>60</food>
+        <wood>40</wood>
+      </cost>
+      <bonuspoints age="2">200</bonuspoints>
+      <bonuspoints age="3">170</bonuspoints>
+      <bonuspoints age="4">140</bonuspoints>
+      <bonuspoints age="5">85</bonuspoints>
+      <purchasedstringid>55521</purchasedstringid>
+    </ecopackage>
+    <ecopackage name="FoodGold" nameid="55638">
+      <icon>resources\images\economy\eco_packages_fc.png</icon>
+      <cost>
+        <food>40</food>
+        <gold>60</gold>
+      </cost>
+      <bonuspoints age="2">200</bonuspoints>
+      <bonuspoints age="3">170</bonuspoints>
+      <bonuspoints age="4">140</bonuspoints>
+      <bonuspoints age="5">85</bonuspoints>
+      <purchasedstringid>55521</purchasedstringid>
+    </ecopackage>
+    <ecopackage name="WoodGold" nameid="55639">
+      <icon>resources\images\economy\eco_packages_wc.png</icon>
+      <cost>
+        <wood>40</wood>
+        <gold>40</gold>
+      </cost>
+      <bonuspoints age="2">220</bonuspoints>
+      <bonuspoints age="3">188</bonuspoints>
+      <bonuspoints age="4">155</bonuspoints>
+      <bonuspoints age="5">94</bonuspoints>
+      <purchasedstringid>55521</purchasedstringid>
+    </ecopackage>
+    <ecopackage name="Export" nameid="55641">
+      <icon>resources\images\economy\eco_packages_e.png</icon>
+      <cost>
+        <trade>60</trade>
+      </cost>
+      <bonuspoints age="2">200</bonuspoints>
+      <bonuspoints age="3">170</bonuspoints>
+      <bonuspoints age="4">140</bonuspoints>
+      <bonuspoints age="5">85</bonuspoints>
+      <purchasedstringid>55521</purchasedstringid>
+    </ecopackage>
+    <ecopackage name="Influence" nameid="55640">
+      <icon>resources\images\economy\eco_packages_i.png</icon>
+      <cost>
+        <influence>100</influence>
+      </cost>
+      <bonuspoints age="2">200</bonuspoints>
+      <bonuspoints age="3">170</bonuspoints>
+      <bonuspoints age="4">140</bonuspoints>
+      <bonuspoints age="5">85</bonuspoints>
+      <purchasedstringid>55521</purchasedstringid>
+    </ecopackage>
+  </ecopackages>
+</economymode>

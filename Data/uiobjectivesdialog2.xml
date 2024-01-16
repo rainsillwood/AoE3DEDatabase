@@ -1,0 +1,107 @@
+<layout>
+  <gadget name="objectivesdialog2" type="objectivedialog2" contextexclusive="objectives" windowzstyle="" size1024="154 26 871 739" background="ui\core_ui\wood_thick_board_tile" tilebackground="">
+    <gadget texturereplace="" z="1" name="objectivesdialog2-BordersTop" tilebackgroundhoriz="" type="gadget" background="ui\file_system\border_top_middle" size1024="186 26 839 34">
+    </gadget>
+    <gadget texturereplace="" z="1" name="objectivesdialog2-BordersBottom" tilebackgroundhoriz="" type="gadget" background="ui\file_system\border_bottom_middle" size1024="186 731 839 739">
+    </gadget>
+    <gadget texturereplace="" z="1" name="objectivesdialog2-BordersLeft" tilebackgroundvert="" type="gadget" background="ui\file_system\border_side_left" size1024="154 58 162 707">
+    </gadget>
+    <gadget texturereplace="" z="1" name="objectivesdialog2-BordersRight" tilebackgroundvert="" type="gadget" background="ui\file_system\border_side_right" size1024="863 58 871 707">
+    </gadget>
+    <gadget texturereplace="" z="1" name="objectivesdialog2-BordersLeftTop" type="gadget" background="ui\file_system\border_top_left" size1024="154 26 186 58" clampbackground="">
+    </gadget>
+    <gadget texturereplace="" z="1" name="objectivesdialog2-BordersLeftBottom" type="gadget" background="ui\file_system\border_bottom_left" size1024="154 707 186 739" clampbackground="">
+    </gadget>
+    <gadget texturereplace="" z="1" name="objectivesdialog2-BordersRightBottom" type="gadget" background="ui\file_system\border_bottom_right" size1024="839 707 871 739" clampbackground="">
+    </gadget>
+    <gadget texturereplace="" z="1" name="objectivesdialog2-BordersRightTop" type="gadget" background="ui\file_system\border_top_right" size1024="839 26 871 58" clampbackground="">
+    </gadget>
+    <gadget name="objectivesdialog2-DoneButton" type="stateButton" size1024="423 693 551 725" bevelbutton="" z="101" statebuttonuseinternalstates="" textfont="InGameButtons" textfontsize="18" textcolor="255 208 0" textcenterhoriz="" textcentervert="" mouseovertext="$$42864$$">$$21199$$Done<stateentry background="ui\core_ui\button_128x32_normal"></stateentry><stateentry background="ui\core_ui\button_128x32_clicked"></stateentry><stateentry background="ui\core_ui\button_128x32_rollover"></stateentry><stateentry background=""></stateentry><command>gadgetUnreal("objectivesdialog2")</command></gadget>
+    <gadget name="OD2-TitleLeft" type="gadget" background="ui\core_ui\title_bar_48_left" size1024="205 20 269 84" z="2">
+    </gadget>
+    <gadget name="OD2-TitleCenter" type="gadget" background="ui\core_ui\title_bar_48_middle" tilebackgroundhoriz="" size1024="269 20 758 84" z="2">
+    </gadget>
+    <gadget name="objectivesdialog2-scenarioTitleText" type="formatText" textfont="GoalText" textfontsize="18" textcolor="255 208 0" size1024="259 33 768 65" textcenterhoriz="" textcentervert="" z="3">
+    </gadget>
+    <gadget name="OD2-TitleRight" type="gadget" background="ui\core_ui\title_bar_48_right" size1024="758 20 822 84" z="2">
+    </gadget>
+    <gadget name="objectivesdialog2-scenarioGoalText" type="formatText" textfont="AgeUpgradeMedium" textfontsize="17" textcolor="255 255 255" size1024="192 90 832 120" textcenterhoriz="" textcentervert="">
+    </gadget>
+    <gadget name="objectivesdialog2-primaryObjectivesLabel" type="formatText" textcenterhoriz="" textcentervert="" background="ui\core_ui\text_block_256" textfont="GoalText" textfontsize="18" textcolor="255 208 0" size1024="185 126 441 158">$$31802$$Primary Objectives</gadget>
+    <gadget name="objectivesdialog2-secondaryObjectivesLabel" type="formatText" textcenterhoriz="" textcentervert="" background="ui\core_ui\text_block_256" textfont="GoalText" textfontsize="18" textcolor="255 208 0" size1024="185 316 441 348">$$31803$$Secondary Objectives</gadget>
+    <gadget name="objectivesdialog2-primaryObjectivesListBackground" background="ui\core_ui\metal_tile" tilebackground="" type="gadget" size1024="185 159 839 309">
+      <gadget name="objectivesdialog2-primaryObjectivesPanel" type="gadget" size1024="205 178 819 289" z="10">
+      </gadget>
+      <gadget name="od2-PB-TopLeft" type="gadget" background="ui\core_ui\metal_trim_corner_topleft" size1024="185 159 217 191">
+      </gadget>
+      <gadget name="od2-PB-TopRight" type="gadget" background="ui\core_ui\metal_trim_corner_topright" size1024="807 159 839 191">
+      </gadget>
+      <gadget name="od2-PB-BottomLeft" type="gadget" background="ui\core_ui\metal_trim_corner_bottomleft" size1024="185 277 217 309">
+      </gadget>
+      <gadget name="od2-PB-BottomRight" type="gadget" background="ui\core_ui\metal_trim_corner_bottomright" size1024="807 277 839 309">
+      </gadget>
+      <gadget name="od2-PB-Top" type="gadget" background="ui\core_ui\metal_trim_top" size1024="217 159 807 167" tilebackgroundhoriz="">
+      </gadget>
+      <gadget name="od2-PB-Bottom" type="gadget" background="ui\core_ui\metal_trim_bottom" size1024="217 301 807 309" tilebackgroundhoriz="">
+      </gadget>
+      <gadget name="od2-PB-Left" type="gadget" background="ui\core_ui\metal_trim_left" size1024="185 167 193 301" tilebackgroundvert="">
+      </gadget>
+      <gadget name="od2-PB-Right" type="gadget" background="ui\core_ui\metal_trim_right" size1024="831 167 839 301" tilebackgroundvert="">
+      </gadget>
+      <gadget name="objectivesdialog2-primaryObjectivesListScrollbar" type="slider" sliderbuttons="" slidervertical="" sliderupbtnset="sliderUpBtn" sliderdownbtnset="sliderDownBtn" sliderpipart="ui\file_system\slider_pip_vertical" background="ui\file_system\slider_background_vertical" size1024="839 159 855 309">
+      </gadget>
+    </gadget>
+    <gadget name="objectivesdialog2-secondaryObjectivesListBackground" type="gadget" background="ui\core_ui\metal_tile" tilebackground="" size1024="185 349 839 499">
+      <gadget name="objectivesdialog2-secondary-border-top-left" type="gadget" background="ui\core_ui\metal_trim_corner_topleft" size1024="185 349 217 381">
+      </gadget>
+      <gadget name="objectivesdialog2-secondary-border-top-middle" type="gadget" background="ui\core_ui\metal_trim_top" size1024="217 349 807 357" tilebackgroundhoriz="">
+      </gadget>
+      <gadget name="objectivesdialog2-secondary-border-top-right" type="gadget" background="ui\core_ui\metal_trim_corner_topright" size1024="807 349 839 381">
+      </gadget>
+      <gadget name="objectivesdialog2-secondary-border-side-left" type="gadget" background="ui\core_ui\metal_trim_left" size1024="185 357 193 491" tilebackgroundvert="">
+      </gadget>
+      <gadget name="objectivesdialog2-secondary-border-side-right" type="gadget" background="ui\core_ui\metal_trim_right" size1024="831 357 839 491" tilebackgroundvert="">
+      </gadget>
+      <gadget name="objectivesdialog2-secondary-border-bottom-left" type="gadget" background="ui\core_ui\metal_trim_corner_bottomleft" size1024="185 467 217 499">
+      </gadget>
+      <gadget name="objectivesdialog2-secondary-border-bottom-middle" type="gadget" background="ui\core_ui\metal_trim_bottom" size1024="217 491 807 499" tilebackgroundhoriz="">
+      </gadget>
+      <gadget name="objectivesdialog2-secondary-border-bottom-right" type="gadget" background="ui\core_ui\metal_trim_corner_bottomright" size1024="807 467 839 499">
+      </gadget>
+      <gadget name="objectivesdialog2-secondaryObjectivesListScrollbar" type="slider" sliderbuttons="" slidervertical="" sliderupbtnset="sliderUpBtn" sliderdownbtnset="sliderDownBtn" sliderpipart="ui\file_system\slider_pip_vertical" background="ui\file_system\slider_background_vertical" size1024="839 349 855 499">
+      </gadget>
+      <gadget name="objectivesdialog2-secondaryObjectivesPanel" type="gadget" size1024="203 365 823 482" z="11">
+      </gadget>
+    </gadget>
+    <gadget name="objectivesdialog2-templateObjectiveRow" transparent="" hidden="" type="gadget" size1024="186 169 820 319">
+      <gadget name="objectivesdialog2-templateObjectiveRowIcon" transparent="" hidden="" type="gadget" size1024="190 173 206 189">
+      </gadget>
+      <gadget name="objectivesdialog2-templateObjectiveRowText" transparent="" hidden="" type="gadget" size1024="226 173 815 315">
+      </gadget>
+    </gadget>
+    <gadget name="objectivesdialog2-hintsLabel" type="formatText" textcenterhoriz="" textcentervert="" background="ui\core_ui\text_block_256" textfont="GoalText" textfontsize="18" textcolor="255 208 0" size1024="185 506 441 538">$$31804$$Objective Hint</gadget>
+    <gadget name="objectivesdialog2-DisplayObjectiveHintsLabel" type="formatText" textfont="GoalText" textfontsize="18" align="left" size1024="536 514 811 538" textcolor="255 208 0">$$32306$$Display Objective Hints</gadget>
+    <gadget name="objectivesdialog2-DisplayObjectiveHints" type="checkButton" size1024="506 514 530 538" checkcheckedart="ui\core_ui\checkbox_checked" checkuncheckedart="ui\core_ui\checkbox" sound="UI_DefaultPregameClickSet" z="15" checkborder1024="5 0">
+    </gadget>
+    <gadget name="objectivesdialog2-hints" type="gadget" background="ui\core_ui\metal_tile" tilebackground="" size1024="185 539 839 689" textfont="ObjectivesText" textfontsize="16" textcolor="255 208 0">
+      <gadget name="objectivesdialog2-hintsPanel" type="formatText" size1024="203 557 821 673" z="11" textfont="ObjectivesText" textfontsize="16" textcolor="255 208 0">
+      </gadget>
+      <gadget name="objectivesdialog2-hints-border-top-left" type="gadget" background="ui\core_ui\metal_trim_corner_topleft" size1024="185 539 217 571">
+      </gadget>
+      <gadget name="objectivesdialog2-hints-border-top-middle" type="gadget" background="ui\core_ui\metal_trim_top" size1024="217 539 807 547" tilebackgroundhoriz="">
+      </gadget>
+      <gadget name="objectivesdialog2-hints-border-top-right" type="gadget" background="ui\core_ui\metal_trim_corner_topright" size1024="807 539 839 571">
+      </gadget>
+      <gadget name="objectivesdialog2-hints-border-side-left" type="gadget" background="ui\core_ui\metal_trim_left" size1024="185 547 193 681" tilebackgroundvert="">
+      </gadget>
+      <gadget name="objectivesdialog2-hints-border-side-right" type="gadget" background="ui\core_ui\metal_trim_right" size1024="831 547 839 681" tilebackgroundvert="">
+      </gadget>
+      <gadget name="objectivesdialog2-hints-border-bottom-left" type="gadget" background="ui\core_ui\metal_trim_corner_bottomleft" size1024="185 657 217 689">
+      </gadget>
+      <gadget name="objectivesdialog2-hints-border-bottom-middle" type="gadget" background="ui\core_ui\metal_trim_bottom" size1024="217 681 807 689" tilebackgroundhoriz="">
+      </gadget>
+      <gadget name="objectivesdialog2-hints-border-bottom-right" type="gadget" background="ui\core_ui\metal_trim_corner_bottomright" size1024="807 657 839 689">
+      </gadget>
+    </gadget>
+  </gadget>
+</layout>

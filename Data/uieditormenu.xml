@@ -1,0 +1,2277 @@
+<layout>
+  <gadget name="EditorMenu" type="menu" size1024="0 0 1024 20" bevel="" textfont="Arial nobold nodrop" textfontsize="12" background="ui\editor\editor_background" tilebackground="" buttonsize1024="90 19">
+    <submenu title="$$20252$$File" accelerator="F">
+      <submenu title="$$20105$$New" accelerator="N">gadgetReal("NewScenarioGadget")</submenu>
+      <submenu title="$$42170$$Load Scenario" accelerator="L">uiScenarioLoad</submenu>
+      <submenu title="" separator="">
+      </submenu>
+      <submenu title="$$19012$$Save" accelerator="S">uiSaveScenarioBrowser</submenu>
+      <submenu title="$$20253$$Save As" accelerator="A">uiSaveAsScenarioBrowser</submenu>
+      <submenu title="" separator="">
+      </submenu>
+      <submenu title="$$20255$$Screenshot" accelerator="c">gadgetReal("ScreenshotDialog")</submenu>
+      <submenu title="" separator="">
+      </submenu>
+      <submenu title="$$20259$$Return to Main Menu" accelerator="R">clearTradeRouteLines leaveGame</submenu>
+      <submenu title="$$18449$$Exit to Windows" accelerator="E">exit</submenu>
+    </submenu>
+    <submenu title="$$18575$$Edit" accelerator="E">
+      <submenu title="$$20260$$Undo" accelerator="U">undo</submenu>
+      <submenu title="$$20261$$Redo" accelerator="R">redo</submenu>
+      <submenu title="" separator="">
+      </submenu>
+      <submenu title="$$20262$$Unit Copy" accelerator="C">uiCopyToClipboard</submenu>
+      <submenu title="$$20263$$Unit Paste" accelerator="P">editMode("UnitPaste")</submenu>
+      <submenu title="$$20264$$Terrain Copy" accelerator="T">editMode("copy")</submenu>
+      <submenu title="$$20265$$Terrain Paste" accelerator="e">editMode("TerrainPaste")</submenu>
+      <submenu title="$$25343$$Define Grouping" accelerator="D">editMode("defineGrouping")</submenu>
+      <submenu title="$$25560$$Load built-in grouping" accelerator="L">loadGrouping</submenu>
+      <submenu title="$$43018$$Load user-made grouping" accelerator="L">loadUserDefinedGrouping</submenu>
+    </submenu>
+    <submenu title="$$20303$$Scenario" accelerator="S">
+      <submenu title="$$20266$$Player Data" accelerator="P">gadgetReal("PlayerEditDlg")</submenu>
+      <submenu title="$$36398$$Fake Player Data">gadgetReal("FakePlayerEditDlg")</submenu>
+      <submenu title="$$20267$$Scenario Data" accelerator="S">gadgetReal("ScenarioSettingsDlg")</submenu>
+      <submenu title="$$20268$$Scenario Summary" accelerator="c">gadgetReal("AScenarioSummaryGadget")</submenu>
+      <submenu title="$$20269$$Playtest Scenario" accelerator="t">gadgetReal("PlaytestDialog")</submenu>
+      <submenu title="$$20104$$Objectives" accelerator="O">gadgetReal("ObjectiveEditor")</submenu>
+      <submenu title="$$26824$$Mercenary Editor" accelerator="M">gadgetReal("MercEditDlg")</submenu>
+      <submenu title="$$28366$$Treaty Manager" accelerator="R">gadgetReal("TreatyMgrDlg")</submenu>
+      <submenu title="$$28589$$Native American Manager" accelerator="R">gadgetReal("NativeMgrDlg")</submenu>
+      <submenu title="$$32606$$Forbidden Units/Techs" accelerator="R">gadgetReal("ForbiddenUnitsTechsDlg")</submenu>
+      <submenu title="$$69794$$Homecity Editor" accelerator="R">gadgetReal("HomecityEditDlg")</submenu>
+    </submenu>
+    <submenu title="$$20271$$World" accelerator="W">
+      <submenu title="$$20272$$Lighting..." accelerator="L">gadgetReal("WorldLightingDialog")</submenu>
+      <submenu title="$$20273$$Map Size..." accelerator="S">gadgetReal("MapSizeDialog")</submenu>
+      <submenu title="$$20274$$Map Elevation..." accelerator="E">gadgetReal("MapElevationGadget")</submenu>
+      <submenu title="$$28209$$Map types..." accelerator="T">gadgetReal("MapTypeDialog")</submenu>
+    </submenu>
+    <submenu title="$$20275$$Terrain" accelerator="T">
+      <submenu title="$$18829$$Paint Terrain" accelerator="P">editMode("Paint")</submenu>
+      <submenu title="$$18830$$Paint Land" accelerator="L">editMode("PaintLand")</submenu>
+      <submenu title="$$24834$$River Tool" accelerator="W">editMode("createRiver")</submenu>
+      <submenu title="$$33804$$Shallow Tool" accelerator="W">editMode("createRiverShallow")</submenu>
+      <submenu title="$$20276$$Water Tool" accelerator="W">editMode("paintWater")</submenu>
+      <submenu title="$$20277$$Edit Water Tool" accelerator="E">editMode("editWater")</submenu>
+      <submenu title="$$70606$$Edit River Flow Tool" accelerator="K">editMode("editRiver")</submenu>
+      <submenu title="$$90187$$Edit Grass Tool" accelerator="K">editMode("editGrass")</submenu>
+      <submenu title="$$20278$$Canyon/Cliff Tool" accelerator="C">editMode("paintCliff")</submenu>
+      <submenu title="$$23990$$Edit Cliff Tool" accelerator="C">editMode("editCliff")</submenu>
+      <submenu title="$$20279$$Forest Tool" accelerator="F">editMode("paintforest")</submenu>
+      <submenu title="$$79850$$Edit Terrain Details" accelerator="F">editMode("terrainDetails")</submenu>
+      <submenu title="$$23988$$Edit Forest Tool" accelerator="F">editMode("editforest")</submenu>
+      <submenu title="$$20280$$Brush Settings" accelerator="B">gadgetReal("BrushSettingsDialog")</submenu>
+    </submenu>
+    <submenu title="$$20281$$Objects" accelerator="O">
+      <submenu title="$$20282$$Place Object..." accelerator="P">editMode("PlaceUnit")</submenu>
+      <submenu title="$$20283$$Position Object" accelerator="O">editMode("moveunit")</submenu>
+      <submenu title="$$20284$$Delete Objects" accelerator="D">editMode("deleteunits")</submenu>
+      <submenu title="$$20285$$Object Info" accelerator="I">gadgetReal("ObjectInfoPanel")</submenu>
+      <submenu title="$$33064$$Replace Unit" accelerator="R">gadgetReal("UnitRepDlg")</submenu>
+      <submenu title="" separator="">
+      </submenu>
+      <submenu title="$$37031$$Place Wall" accelerator="W">editMode("PlaceWall") uiSetProtoCursor("WallConnector", true)</submenu>
+      <submenu title="$$21581$$Convert to Gate" accelerator="G">uiTransformSelectedUnit("CWallGate")</submenu>
+      <submenu title="" separator="">
+      </submenu>
+      <submenu title="$$26355$$Place Trade Route" accelerator="T">gadgetReal("TradeRouteDlg")</submenu>
+      <submenu title="" separator="">
+      </submenu>
+      <submenu title="$$26540$$Place Home City Gatherpoint" accelerator="H">editMode("HomeCityGatherPoint")uiSetProtoCursor("HomeCityGatherFlag", true)</submenu>
+      <submenu title="$$36400$$Place Home City Water Spawnpoint" accelerator="W">editMode("HomeCityWaterSpawnPoint")uiSetProtoCursor("HomeCityWaterSpawnFlag", true)</submenu>
+      <submenu title="" separator="">
+      </submenu>
+      <submenu title="$$25562$$Ignore Placement Restrictions" configindex="ignoreColonyRules" accelerator="R">
+      </submenu>
+      <submenu title="" separator="">
+      </submenu>
+      <submenu title="$$33175$$Herd Editor" accelerator="A">gadgetReal("AHerdEditorGadget")</submenu>
+      <submenu title="$$36399$$Nugget Editor" accelerator="N">gadgetReal("ANuggetEditorGadget")</submenu>
+    </submenu>
+    <submenu title="$$20287$$Triggers" accelerator="r">
+      <submenu title="$$20287$$Triggers" accelerator="T">editMode("Triggers")</submenu>
+      <submenu title="$$20288$$Group Editor" accelerator="I">editMode("TrigGroups")</submenu>
+      <submenu title="$$20289$$Army Editor" accelerator="A">gadgetReal("ATriggerArmyGadget")</submenu>
+    </submenu>
+    <submenu title="$$20290$$Cinematics" accelerator="n">
+      <submenu title="$$20291$$Camera Editor" accelerator="a">editMode("CameraTracks")</submenu>
+      <submenu title="$$20292$$Toggle Letterbox Bars" accelerator="T">gadgetToggle("Letterbox-topbar") gadgetToggle("Letterbox-bottombar")</submenu>
+    </submenu>
+    <submenu title="$$20293$$View" accelerator="V">
+      <submenu title="$$20294$$Camera Lock" configindex="cameraMovementLock" accelerator="C">
+      </submenu>
+      <submenu title="" separator="">
+      </submenu>
+      <submenu title="$$32668$$Set Camera Start Location">uiSetCameraStartLoc()</submenu>
+      <submenu title="$$32669$$Show Camera Start Location">uiShowCameraStartLoc()</submenu>
+      <submenu title="$$32699$$Delete Camera Start Location">uiDeleteCameraStartLoc()</submenu>
+      <submenu title="" separator="">
+      </submenu>
+      <submenu title="$$20295$$Terrain Grid" configindex="terrainGrid" accelerator="T">
+      </submenu>
+      <submenu title="$$20296$$Terrain Grid Major Tick..." accelerator="M">gadgetReal("terrainGridMajorTickDialog")</submenu>
+      <submenu title="$$20297$$Terrain Grid Minor Tick..." configindex="terrainGridMinorTick" accelerator="G">
+      </submenu>
+      <submenu title="" separator="">
+      </submenu>
+      <submenu title="$$20298$$Non-Scenario Objects" accelerator="N" configindex="drawEditorUnits">
+      </submenu>
+      <submenu title="$$20299$$LOS Rings" configindex="showUnitLOS" accelerator="L">
+      </submenu>
+      <submenu title="$$20300$$Hide Unit Outlines" accelerator="H" configindex="noObscuredUnits">
+      </submenu>
+      <submenu title="" separator="">
+      </submenu>
+      <submenu title="$$20301$$Toggle Range Rings" accelerator="R">unitToggleShowActionRange("rangedattack")</submenu>
+      <submenu title="$$20302$$Toggle Minimap" accelerator="M">gadgetToggle("AGameMinimap")</submenu>
+      <submenu title="$$79814$$Toggle Fog of War" accelerator="F">fog</submenu>
+      <submenu title="$$79815$$Toggle Blackmap" accelerator="B">blackmap</submenu>
+    </submenu>
+    <submenu title="DEVELOPER">
+      <submenu title="Dev Scenario Load Save" configindex="devScenarioSaveLoad">
+      </submenu>
+      <submenu title="Cliff Side Paint" configindex="cliffsidePaint">
+      </submenu>
+      <submenu title="Fixup Selected Water">fixupSelectedWater()</submenu>
+      <submenu title="Reload Cliff Data">reloadCliffData()</submenu>
+      <submenu title="Reload Mix Data">reloadMixData()</submenu>
+      <submenu title="Reload MP Scenario Header">reloadMPScenarioFileHeader()</submenu>
+    </submenu>
+  </gadget>
+  <gadget name="ToolBar" type="menu" size1024="0 20 1024 45" background="ui\editor\editor_background">
+    <gadget name="FileFunctions" type="gadget" background="" size1024="5 23 75 43">
+      <gadget name="NewButton" type="button" tooltiptext="$$20105$$New" foreground="ui\editor\new" size1024="5 23 25 43">
+        <command>gadgetReal("NewScenarioGadget")</command>
+      </gadget>
+      <gadget name="LoadButton" type="button" tooltiptext="$$18441$$Load" foreground="ui\editor\load" size1024="30 23 50 43">
+        <command>uiScenarioLoad</command>
+      </gadget>
+      <gadget name="SaveButton" type="button" tooltiptext="$$18442$$Save" foreground="ui\editor\save" size1024="55 23 75 43">
+        <command>uiSaveScenarioBrowser</command>
+      </gadget>
+    </gadget>
+    <gadget name="EditFunctions" type="gadget" background="" size1024="90 23 135 43">
+      <gadget name="UndoButton" type="button" tooltiptext="$$20260$$Undo" foreground="ui\editor\undo" size1024="90 23 110 43">
+        <command>undo</command>
+      </gadget>
+      <gadget name="RedoButton" type="button" tooltiptext="$$20261$$Redo" foreground="ui\editor\redo" size1024="115 23 135 43">
+        <command>redo</command>
+      </gadget>
+    </gadget>
+    <gadget name="CopyPaste" type="gadget" background="" size1024="150 23 195 43">
+      <gadget name="CopyButton" type="button" tooltiptext="$$20264$$Terrain Copy" foreground="ui\editor\copy" size1024="150 23 170 43">
+        <command>editMode("copy")</command>
+      </gadget>
+      <gadget name="PasteButton" type="button" tooltiptext="$$20265$$Terrain Paste" foreground="ui\editor\paste" size1024="175 23 195 43">
+        <command>editMode("TerrainPaste")</command>
+      </gadget>
+    </gadget>
+    <gadget name="BrushandElevation" type="gadget" background="" size1024="210 23 355 43">
+      <gadget name="BrushSettingsButton" type="button" tooltiptext="$$20280$$Brush Settings" foreground="ui\editor\brushsettings" size1024="210 23 230 43">
+        <command>gadgetReal("BrushSettingsDialog")</command>
+      </gadget>
+      <gadget name="RaiseLowerButton" type="button" tooltiptext="$$20304$$Raise/Lower Terrain" foreground="ui\editor\raiseLowerTerrain" size1024="235 23 255 43">
+        <command>editMode("elevation")</command>
+      </gadget>
+      <gadget name="SampleTerrainButton" type="button" tooltiptext="$$20305$$Sample Terrain" foreground="ui\editor\sampleterrain" size1024="260 23 280 43">
+        <command>editMode("paintsample")</command>
+      </gadget>
+      <gadget name="SampleElevationButton" type="button" tooltiptext="$$20306$$Sample Elevation" foreground="ui\editor\sampleelevation" size1024="285 23 305 43">
+        <command>editMode("elevationsample")</command>
+      </gadget>
+      <gadget name="SmoothButton" type="button" tooltiptext="$$20307$$Smooth" foreground="ui\editor\smooth" size1024="310 23 330 43">
+        <command>editMode("smooth")</command>
+      </gadget>
+      <gadget name="RoughenButton" type="button" tooltiptext="$$20308$$Roughen" foreground="ui\editor\roughen" size1024="335 23 355 43">
+        <command>editMode("roughen")</command>
+      </gadget>
+    </gadget>
+    <gadget name="Tools" type="gadget" background="" size1024="370 23 655 43">
+      <gadget name="FreePaintButton" type="button" tooltiptext="$$20309$$Free Paint" foreground="ui\editor\paintterrain" size1024="370 23 390 43">
+        <command>editMode("Paint")</command>
+      </gadget>
+      <gadget name="MixButton" type="button" tooltiptext="$$28144$$Mixes" foreground="ui\editor\paintmix" size1024="395 23 415 43">
+        <command>editMode("paintmix")</command>
+      </gadget>
+      <gadget name="LandButton" type="button" tooltiptext="$$20310$$Land" foreground="ui\editor\mountain" size1024="420 23 440 43">
+        <command>editMode("PaintLand")</command>
+      </gadget>
+      <gadget name="RiverButton" type="button" tooltiptext="$$24834$$River Tool" foreground="ui\editor\river" size1024="445 23 465 43">
+        <command>editMode("createRiver")</command>
+      </gadget>
+      <gadget name="ShallowButton" type="button" tooltiptext="$$33804$$Shallow Tool" foreground="ui\editor\rivershallow" size1024="467 23 487 43">
+        <command>editMode("createRiverShallow")</command>
+      </gadget>
+      <gadget name="OceanButton" type="button" tooltiptext="$$20311$$Paint Water" foreground="ui\editor\river" size1024="489 23 509 43">
+        <command>editMode("paintWater")</command>
+      </gadget>
+      <gadget name="EditWaterButton" type="button" tooltiptext="$$20312$$Edit Water" foreground="ui\editor\water" size1024="511 23 531 43">
+        <command>editMode("editWater")</command>
+      </gadget>
+      <gadget name="EditRiverButton" type="button" tooltiptext="$$70606$$Edit River Flow Tool" foreground="ui\editor\riveredit" size1024="533 23 553 43">
+        <command>editMode("editRiver")</command>
+      </gadget>
+      <gadget name="CliffButton" type="button" tooltiptext="$$20313$$Canyon and Cliff" foreground="ui\editor\cliff" size1024="555 23 575 43">
+        <command>editMode("paintCliff")</command>
+      </gadget>
+      <gadget name="EditCliffButton" type="button" tooltiptext="$$23990$$Edit Cliff Tool" foreground="ui\editor\cliffedit" size1024="580 23 600 43">
+        <command>editMode("editCliff")</command>
+      </gadget>
+      <gadget name="ForestButton" type="button" tooltiptext="$$20314$$Forest" foreground="ui\editor\forest" size1024="610 23 630 43">
+        <command>editMode("paintforest")</command>
+      </gadget>
+      <gadget name="EditForestButton" type="button" tooltiptext="$$23988$$Edit Forest Tool" size1024="635 23 655 43" z="11" foreground="ui\editor\forest">
+        <command>editMode("editforest")</command>
+      </gadget>
+    </gadget>
+    <gadget name="UnitFunctions" type="gadget" size1024="670 23 740 43" background="">
+      <gadget name="PlaceUnitButton" type="button" tooltiptext="$$20282$$Place Object" foreground="ui\editor\placeunit" size1024="670 23 690 43">
+        <command>editMode("PlaceUnit")</command>
+      </gadget>
+      <gadget name="MoveUnitButton" type="button" tooltiptext="$$20315$$Move Object" foreground="ui\editor\MoveUnit" size1024="695 23 715 43">
+        <command>editMode("moveunit")</command>
+      </gadget>
+      <gadget name="DeleteUnitButton" type="button" tooltiptext="$$20284$$Delete Object" foreground="ui\editor\deleteunit" size1024="720 23 740 43">
+        <command>editMode("deleteunits")</command>
+      </gadget>
+    </gadget>
+    <gadget name="LightingFunctions" type="gadget" size1024="755 23 775 43" background="">
+      <gadget name="LightingButton" type="button" tooltiptext="$$20272$$Lighting" foreground="ui\editor\lighting" size1024="755 23 775 43">
+        <command>editMode("None") gadgetReal("WorldLightingDialog")</command>
+      </gadget>
+    </gadget>
+    <gadget name="TriggersCinematicsFunctions" type="gadget" background="" size1024="790 23 860 43">
+      <gadget name="TriggersButton" type="button" tooltiptext="$$20287$$Triggers" foreground="ui\editor\triggers" size1024="790 23 810 43">
+        <command>editMode("Triggers")</command>
+      </gadget>
+      <gadget name="CinematicsButton" type="button" tooltiptext="$$20290$$Cinematics" foreground="ui\editor\cinematics" size1024="815 23 835 43">
+        <command>editMode("CameraTracks")</command>
+      </gadget>
+      <gadget name="LetterBoxBars" type="button" tooltiptext="$$20292$$Toggle Letterbox Bars" foreground="ui\editor\letterboxbars" size1024="840 23 860 43">
+        <command>gadgetToggle("Letterbox-topbar") gadgetToggle("Letterbox-bottombar")</command>
+      </gadget>
+    </gadget>
+    <gadget name="YpackFunctions" type="gadget" size1024="900 23 920 43" background="">
+      <gadget name="AsianFyButton" type="button" tooltiptext="$$63078$$Convert to Asia" foreground="ui\editor\asianfy" size1024="900 23 920 43">
+        <command>editorSetAllTradeRoutesToDef("water") editorSetTechStatus("YPEnableAsianNativeOutpost",true) editorUpdateUnitVisuals()</command>
+      </gadget>
+      <gadget name="UnAsianFyButton" type="button" tooltiptext="$$63079$$Unconvert Asia" foreground="ui\editor\un_asianfy" size1024="920 23 940 43">
+        <command>editorSetAllTradeRoutesToDef("dirt") editorSetTechStatus("YPEnableAsianNativeOutpost", false) editorUpdateUnitVisuals()</command>
+      </gadget>
+    </gadget>
+  </gadget>
+  <gadget name="BrushFunctionsTerrain" type="gadget" size1024="0 550 254 768" background="ui\editor\editor_background" bevel="" titlebar="$$18829$$Paint Terrain" hidden="" windowzstyle="">
+    <gadget name="BrushFunctionsTerrainName" type="gadget" textcolor="0 0 0" textfont="Arial Nodrop For SE" textfontsize="12" bevel="" size1024="59 587 189 612">
+    </gadget>
+    <gadget name="BrushFunctionsTerrainSwatch" type="gadget" background="ui\editor\editor_background" sunkenbevel="" size1024="96 622 160 688">
+    </gadget>
+    <gadget name="BrushFunctionsTerrainBrushMask" type="button" textcolor="0 0 0" textfont="Arial Nodrop For SE" textfontsize="12" bevel="" size1024="59 698 189 723">$$20316$$Paint Mask<command>gadgetToggle("BrushMaskDialog")</command></gadget>
+  </gadget>
+  <gadget name="BrushFunctionsSampleTexture" type="gadget" size1024="0 550 254 768" background="ui\editor\editor_background" bevel="" titlebar="$$20305$$Sample Terrain" hidden="" windowzstyle="">
+    <gadget name="BrushFunctionsSampleSwatch" type="gadget" background="ui\editor\editor_background" sunkenbevel="" size1024="96 622 160 688">
+    </gadget>
+    <gadget name="BrushFunctionsSampleBrushMask" type="button" textcolor="0 0 0" textfont="Arial Nodrop For SE" textfontsize="12" bevel="" size1024="56 698 193 723">$$20316$$Paint Mask<command>gadgetToggle("BrushMaskDialog")</command></gadget>
+  </gadget>
+  <gadget name="BrushFunctionsAdjustElevation" type="gadget" size1024="0 550 254 768" background="ui\editor\editor_background" bevel="" titlebar="$$20325$$Adjust Elevation" hidden="" windowzstyle="">
+    <gadget name="ElevationSlider" type="slider" configindex="brushTimeScale" size1024="10 632 244 662">
+    </gadget>
+    <gadget name="SliderTextSlow" type="textBox" textcolor="0 0 0" textfont="Arial Nodrop For SE" textfontsize="12" textcentervert="" size1024="10 662 100 682">$$20317$$Slow</gadget>
+    <gadget name="SliderTextFast" type="textBox" textcolor="0 0 0" textfont="Arial Nodrop For SE" textfontsize="12" textcentervert="" size1024="215 662 244 682">$$20318$$Fast</gadget>
+  </gadget>
+  <gadget name="BrushFunctionsDeleteObjects" type="gadget" size1024="0 550 254 768" background="ui\editor\editor_background" bevel="" titlebar="$$20284$$Delete Objects" hidden="" windowzstyle="">
+    <gadget name="Inclusions" type="gadget" size1024="2 588 254 772">
+      <gadget name="IncludePlayer1" type="checkButton" textfont="Arial nobold nodrop" textcolor="0 0 0" textfontsize="12" size1024="3 598 117 618">$$19047$$Player 1</gadget>
+      <gadget name="IncludePlayer2" type="checkButton" textcolor="0 0 0" textfont="Arial nobold nodrop" textfontsize="12" size1024="3 618 117 638">$$19048$$Player 2</gadget>
+      <gadget name="IncludePlayer3" type="checkButton" textcolor="0 0 0" textfont="Arial nobold nodrop" textfontsize="12" size1024="3 638 117 658">$$19049$$Player 3</gadget>
+      <gadget name="IncludePlayer4" type="checkButton" textcolor="0 0 0" textfont="Arial nobold nodrop" textfontsize="12" size1024="3 658 117 678">$$19050$$Player 4</gadget>
+      <gadget name="IncludePlayer5" type="checkButton" textcolor="0 0 0" textfont="Arial nobold nodrop" textfontsize="12" size1024="3 678 117 698">$$19051$$Player 5</gadget>
+      <gadget name="IncludePlayer6" type="checkButton" textcolor="0 0 0" textfont="Arial nobold nodrop" textfontsize="12" size1024="3 698 117 718">$$19052$$Player 6</gadget>
+      <gadget name="IncludePlayer7" type="checkButton" textcolor="0 0 0" textfont="Arial nobold nodrop" textfontsize="12" size1024="3 718 117 738">$$19053$$Player 7</gadget>
+      <gadget name="IncludePlayer8" type="checkButton" textcolor="0 0 0" textfont="Arial nobold nodrop" textfontsize="12" size1024="3 738 117 758">$$19054$$Player 8</gadget>
+      <gadget name="IncludeGaia" type="checkButton" textcolor="0 0 0" textfont="Arial nobold nodrop" textfontsize="12" size1024="119 738 253 758">$$20319$$Gaia</gadget>
+    </gadget>
+    <gadget name="IncludeText" type="textBox" textcolor="0 0 0" textcentervert="" textfont="Arial Nodrop For SE" textfontsize="12" size1024="2 570 254 595">$$20320$$Include:</gadget>
+  </gadget>
+  <gadget name="BrushFunctionsPlaceObject" type="gadget" size1024="0 550 254 768" background="ui\editor\editor_background" bevel="" titlebar="$$20326$$Place Objects" hidden="" windowzstyle="">
+    <gadget name="BrushFunctionsPlaceObjectPicture" type="meshButton" background="ui\editor\editor_background" sunkenbevel="" size1024="95 622 159 686">
+    </gadget>
+    <gadget name="BrushFunctionsPlaceObjectName" type="textBox" textcenterhoriz="" textcentervert="" textcolor="0 0 0" textfont="Arial Nodrop For SE" textfontsize="12" size1024="77 692 177 712">
+    </gadget>
+    <gadget name="BrushFunctionsPlacePlaceAsDropdown" type="textField" dropdowndistance="140" textfont="Arial Nodrop For SE" textfontsize="12" textcolor="0 0 0" size1024="10 582 244 602">$$20345$$Place As:<dropdown command="player(0)">$$20319$$Gaia</dropdown><dropdown command="player(1)">$$19047$$Player 1</dropdown><dropdown command="player(2)">$$19048$$Player 2</dropdown><dropdown command="player(3)">$$19049$$Player 3</dropdown><dropdown command="player(4)">$$19050$$Player 4</dropdown><dropdown command="player(5)">$$19051$$Player 5</dropdown><dropdown command="player(6)">$$19052$$Player 6</dropdown><dropdown command="player(7)">$$19053$$Player 7</dropdown><dropdown command="player(8)">$$19054$$Player 8</dropdown></gadget>
+  </gadget>
+  <gadget name="BrushFunctionsPositionObject" type="gadget" size1024="0 550 254 768" background="ui\editor\editor_background" bevel="" titlebar="$$20327$$Position Objects" hidden="" windowzstyle="">
+    <gadget name="RotateHorizontal" type="button" foreground="UI\ui_dark_gray" tooltiptext="Rotate Horizontally" bevelbutton="" size1024="90 612 122 644">
+    </gadget>
+    <gadget name="RotateVertical" type="button" foreground="UI\ui_dark_gray" tooltiptext="Rotate Vertically" bevelbutton="" size1024="132 612 164 644">
+    </gadget>
+    <gadget name="RotateStyle1" type="button" foreground="UI\ui_dark_gray" tooltiptext="Rotate About Object Axis" bevelbutton="" size1024="90 657 122 689">
+    </gadget>
+    <gadget name="RotateStyle2" type="button" foreground="UI\ui_dark_gray" tooltiptext="Rotate About Object Placement Axis" bevelbutton="" size1024="132 657 164 689">
+    </gadget>
+  </gadget>
+  <gadget resizevert="" resizehorz="" name="PaintWaterToolPalette" type="palette" size1024="256 550 800 768" palettecontentsize1024="40 40" paletteelemsize1024="200 60" palettetitleright="" bevel="" background="ui\editor\editor_background" tilebackground="" paletteusedropdown="" alphasort="" refreshonreal="" titlebar="$$20328$$Water" hidden="" windowzstyle="">
+  </gadget>
+  <gadget name="BrushFunctionsWaterTool" type="gadget" size1024="0 550 254 768" background="ui\editor\editor_background" bevel="" titlebar="$$20276$$Water Tool" hidden="" windowzstyle="">
+    <gadget name="WaterSwatch" type="gadget" background="ui\editor\editor_background" sunkenbevel="" size1024="10 582 74 646">
+    </gadget>
+    <gadget name="WaterName" type="gadget" textcolor="0 0 0" textfont="Arial Nodrop For SE" textfontsize="12" bevel="" size1024="10 582 240 607">
+    </gadget>
+    <gadget name="WaterPaintArea" type="checkButton" configindex="waterPaintArea" size1024="80 612 240 632">$$20322$$Paint Area</gadget>
+    <gadget name="WaterToolRadioButtonsText" type="textBox" textcolor="0 0 0" textfont="Arial Nodrop For SE" textfontsize="12" size1024="5 668 55 680">$$20323$$Action:</gadget>
+    <gadget name="WaterToolRadioButtons" type="radioset" background="ui\editor\editor_background" radiosetbuttonsize1024="140 25" radiosetdefaultbuttonindex="0" size1024="55 662 250 722">
+      <button>$$20237$$Default</button>
+      <button>$$20329$$Do not change type</button>
+      <button>$$20330$$Free texturing</button>
+    </gadget>
+  </gadget>
+  <gadget resizevert="" resizehorz="" name="RiverToolPalette" type="palette" size1024="256 550 800 768" palettecontentsize1024="40 40" paletteelemsize1024="200 60" palettetitleright="" bevel="" background="ui\editor\editor_background" tilebackground="" paletteusedropdown="" alphasort="" refreshonreal="" titlebar="$$20328$$Water" hidden="" windowzstyle="">
+  </gadget>
+  <gadget name="BrushFunctionsRiverTool" type="gadget" size1024="0 550 254 768" background="ui\editor\editor_background" bevel="" titlebar="$$24834$$River Tool" hidden="" windowzstyle="">
+    <gadget name="RiverSwatch" type="gadget" background="ui\editor\editor_background" sunkenbevel="" size1024="10 577 65 632">
+    </gadget>
+    <gadget name="RiverName" type="gadget" textcolor="0 0 0" textfont="Arial Nodrop For SE" textfontsize="12" bevel="" size1024="5 637 65 662">
+    </gadget>
+    <gadget name="RiverWaypointMode" type="checkbutton" size1024="158 575 238 595" bevel="">$$20511$$Waypoints<command>uiCreateRiverToggleWaypointMode</command></gadget>
+    <gadget name="RiverCreateRiver" type="button" size1024="160 651 244 671" bevel="">$$24835$$Create<command>uiCreateRiver</command></gadget>
+    <gadget name="RiverRandomWaypointBtn" type="button" size1024="160 603 244 623" bevel="">$$19269$$Random<command>uiCreateRandomRiver</command></gadget>
+    <gadget name="RiverRemove" type="button" size1024="160 627 244 647" bevel="">$$33280$$Remove River<command>gadgetReal("RemoveRiverDlg")</command></gadget>
+    <gadget name="RiverWaypointList" type="list" size1024="70 576 155 673" z="10" sunkenbevel="" buttonsize1024="110 15" scrollvert="" alphasort="" background="ui\core_ui\background_blue_normal" textcolor="0 0 0" showselect="" selectedcolor="255 255 255">
+    </gadget>
+    <gadget name="RiverWaypointRadiusSlider" type="slider" size1024="77 680 238 700" z="10" showvalue="" sliderbuttons="" configindex="RiverWaypointRadius" sliderminmax="2,10" sliderquantize="1">
+    </gadget>
+    <gadget name="RiverBreaksSlider" type="slider" size1024="77 706 238 726" z="10" showvalue="" sliderbuttons="" configindex="RiverRandBreaks" sliderminmax="0,18" sliderquantize="1">
+    </gadget>
+    <gadget name="RiverDistSlider" type="slider" size1024="77 732 238 752" z="10" showvalue="" sliderbuttons="" configindex="RiverRandOffset" sliderminmax="5,50" sliderquantize="1">
+    </gadget>
+    <gadget name="RiverSlider1Label" type="gadget" size1024="4 680 72 700">$$22303$$Radius</gadget>
+    <gadget name="RiverSlider2Label" type="gadget" size1024="4 706 72 726">$$24858$$Breaks</gadget>
+    <gadget name="RiverSlider3Label" type="gadget" size1024="4 732 72 752">$$24859$$Offset</gadget>
+  </gadget>
+  <gadget name="BrushFunctionsPaintTerrainDetails" type="gadget" size1024="0 550 254 768" background="ui\editor\editor_background" bevel="" titlebar="$$79851$$Terrain Details" hidden="" windowzstyle="">
+    <gadget name="RedLabel" type="textBox" textcolor="1 0 0" size1024="0 580 20 605">$$23559$$Red</gadget>
+    <gadget name="Red" type="slider" size1024="20 580 250 605" z="10" showvalue="" sliderbuttons="" configindex="TerrainDetailPaintRed" sliderminmax="0,1" sliderquantize="0.01">
+    </gadget>
+    <gadget name="GreenLabel" type="textBox" textcolor="0 1 0" size1024="0 610 20 635">$$23560$$Green</gadget>
+    <gadget name="Green" type="slider" size1024="20 610 250 635" z="10" showvalue="" sliderbuttons="" configindex="TerrainDetailPaintGreen" sliderminmax="0,1" sliderquantize="0.01">
+    </gadget>
+    <gadget name="BlueLabel" type="textBox" textcolor="0 0 1" size1024="0 640 20 665">$$23561$$Blue</gadget>
+    <gadget name="Blue" type="slider" size1024="20 640 250 665" z="10" showvalue="" sliderbuttons="" configindex="TerrainDetailPaintBlue" sliderminmax="0,1" sliderquantize="0.01">
+    </gadget>
+    <gadget name="WetnessLabel" type="textBox" textcolor="1 0 0" size1024="0 580 20 605">$$79854$$Wet</gadget>
+    <gadget name="Wetness" type="slider" size1024="20 580 250 605" z="10" showvalue="" sliderbuttons="" configindex="TerrainDetailPaintWetness" sliderminmax="0,1" sliderquantize="0.01">
+    </gadget>
+    <gadget name="OpacityLabel" type="textBox" textcolor="0 0 1" size1024="120 670 250 690">$$79855$$Opacity</gadget>
+    <gadget name="Opacity" type="slider" size1024="120 690 250 710" z="10" sliderbuttons="" configindex="TerrainDetailPaintOpacity" sliderminmax="0,1" sliderquantize="0.01">
+    </gadget>
+    <gadget name="HardnessLabel" type="textBox" textcolor="0 0 1" size1024="120 710 250 730">$$79856$$Hardness</gadget>
+    <gadget name="Hardness" type="slider" size1024="120 730 250 750" z="10" sliderbuttons="" configindex="TerrainDetailPaintHardness" sliderminmax="0,1" sliderquantize="0.01">
+    </gadget>
+    <gadget name="PaintTerrainDetailsMode" type="radioset" background="ui\editor\editor_background" radiosetbuttonsize1024="140 25" radiosetdefaultbuttonindex="0" size1024="10 670 120 730">
+      <button command="uiSetTerrainDetailPaintMode(0)">$$79852$$Paint Overlay</button>
+      <button command="uiSetTerrainDetailPaintMode(1)">$$79853$$Paint Wetness</button>
+      <button command="uiSetTerrainDetailPaintMode(2)">$$20307$$Smooth</button>
+    </gadget>
+  </gadget>
+  <gadget name="BrushFunctionsRiverShallowTool" type="gadget" size1024="0 550 254 768" background="ui\editor\editor_background" bevel="" titlebar="Shallow Tool" hidden="" windowzstyle="">
+    <gadget name="RiverShallowRadiusSlider" type="slider" size1024="77 632 238 652" z="10" showvalue="" sliderbuttons="" configindex="RiverShallowRadius" sliderminmax="1,20" sliderquantize="1">
+    </gadget>
+    <gadget name="RiverShallowRadiusSliderLabel" type="gadget" size1024="4 632 72 652">$$33805$$Width</gadget>
+    <gadget name="ShallowCreate" type="button" size1024="67 670 187 695" bevel="">$$33806$$Create Shallow</gadget>
+  </gadget>
+  <gadget resizevert="" resizehorz="" name="MountainToolPalette" type="palette" size1024="256 550 800 768" palettecontentsize1024="40 40" paletteelemsize1024="90 60" palettetitlebottom="" bevel="" background="ui\editor\editor_background" tilebackground="" paletteusedropdown="" alphasort="" refreshonreal="" titlebar="$$20337$$Mountains" hidden="" windowzstyle="">
+  </gadget>
+  <gadget name="BrushFunctionsMountainTool" type="gadget" size1024="0 550 254 768" background="ui\editor\editor_background" bevel="" titlebar="Mountain Tool" hidden="">
+    <gadget name="MountainSwatch" type="gadget" background="ui\editor\editor_background" sunkenbevel="" size1024="10 582 74 646">
+    </gadget>
+    <gadget name="MountainToolRadioButtonsText" type="textBox" textcolor="0 0 0" textfont="Arial Nodrop For SE" textfontsize="12" size1024="5 668 55 680">$$20323$$Action:</gadget>
+    <gadget name="MountainToolRadioButtons" type="radioset" background="ui\editor\editor_background" radiosetbuttonsize1024="125 25" radiosetdefaultbuttonindex="0" size1024="55 662 250 722">
+      <button>$$20237$$Default</button>
+      <button>$$20329$$Do not change type</button>
+      <button>$$20330$$Free texturing</button>
+    </gadget>
+  </gadget>
+  <gadget resizevert="" resizehorz="" name="CanyonToolPalette" type="palette" size1024="256 550 800 768" palettecontentsize1024="40 40" paletteelemsize1024="200 60" palettetitleright="" bevel="" background="ui\editor\editor_background" tilebackground="" paletteusedropdown="" alphasort="" refreshonreal="" titlebar="$$20331$$Canyons" hidden="" windowzstyle="">
+  </gadget>
+  <gadget name="BrushFunctionsEditCliffTool" type="gadget" size1024="0 550 254 768" background="ui\editor\editor_background" bevel="" titlebar="$$23990$$Edit Cliff Tool" hidden="" windowzstyle="">
+    <gadget name="EditCliffSwatch" type="gadget" background="ui\editor\editor_background" sunkenbevel="" size1024="95 601 159 665">
+    </gadget>
+    <gadget name="CliffUpdateBtn" type="button" bevelbutton="" size1024="77 675 177 700" z="11">$$30123$$Update Cliff</gadget>
+    <gadget name="PaintTextures" type="checkButton" configindex="cliffPaintTextures" size1024="80 748 240 768">[LOCALE] Paint Textures</gadget>
+    <gadget name="PaintTOBs" type="checkButton" configindex="cliffPaintTOBs" size1024="80 718 240 738">[LOCALE] Paint Props</gadget>
+  </gadget>
+  <gadget resizevert="" resizehorz="" name="CliffToolPalette" type="palette" size1024="256 550 800 768" palettecontentsize1024="40 40" paletteelemsize1024="200 60" palettetitleright="" bevel="" background="ui\editor\editor_background" tilebackground="" paletteusedropdown="" alphasort="" refreshonreal="" titlebar="$$20333$$Cliffs" hidden="" windowzstyle="">
+  </gadget>
+  <gadget name="BrushFunctionsCliffTool" type="gadget" size1024="0 550 254 768" background="ui\editor\editor_background" bevel="" titlebar="$$20334$$Cliff Tool" hidden="">
+    <gadget name="CliffSwatch" type="gadget" background="ui\editor\editor_background" sunkenbevel="" size1024="10 582 74 646">
+    </gadget>
+    <gadget name="CliffName" type="gadget" textcolor="0 0 0" textfont="Arial Nodrop For SE" textfontsize="12" bevel="" size1024="10 582 240 607">
+    </gadget>
+    <gadget name="CliffHeightText" type="textBox" textfont="Arial Nodrop For SE" textfontsize="12" textcolor="0 0 0" size1024="80 603 162 623" z="11">$$30131$$Height</gadget>
+    <gadget name="CliffHeight" type="slider" size1024="80 624 246 644" z="10" showvalue="" configindex="cliffHeight" sliderminmax="-15,30" sliderquantize="0.25">
+    </gadget>
+    <gadget name="Paint Textures" type="checkButton" configindex="cliffPaintTextures" size1024="80 748 240 768">[LOCALE] Paint Textures</gadget>
+  </gadget>
+  <gadget name="BrushFunctionsGrassTool" type="gadget" size1024="0 550 254 768" background="ui\editor\editor_background" bevel="" titlebar="$$20334$$Grass Tool" hidden="">
+    <gadget name="GrassLengthText" type="textBox" textfont="Arial Nodrop For SE" textfontsize="12" textcolor="0 0 0" size1024="80 603 162 623" z="11">Grass Length</gadget>
+    <gadget name="GrassLength" type="slider" size1024="80 624 246 644" z="10" showvalue="" configindex="grassLength" sliderminmax="0,1.5" sliderquantize="0.1">
+    </gadget>
+  </gadget>
+  <gadget resizevert="" resizehorz="" name="MixPalette" type="palette" size1024="256 550 800 768" palettecontentsize1024="40 40" paletteelemsize1024="200 60" palettetitleright="" bevel="" background="ui\editor\editor_background" tilebackground="" paletteusedropdown="" alphasort="" refreshonreal="" titlebar="$$28144$$Mixes" hidden="" windowzstyle="">
+  </gadget>
+  <gadget resizevert="" resizehorz="" name="ForestToolPalette" type="palette" size1024="256 550 800 768" palettecontentsize1024="40 40" paletteelemsize1024="200 60" palettetitleright="" bevel="" background="ui\editor\editor_background" tilebackground="" paletteusedropdown="" alphasort="" refreshonreal="" titlebar="$$20335$$Forests" hidden="" windowzstyle="">
+  </gadget>
+  <gadget name="BrushFunctionsForestTool" type="gadget" size1024="0 550 254 768" background="ui\editor\editor_background" bevel="" titlebar="$$20279$$Forest Tool" hidden="">
+    <gadget name="ForestSwatch" type="gadget" background="ui\editor\editor_background" sunkenbevel="" size1024="10 582 74 646">
+    </gadget>
+    <gadget name="ForestName" type="gadget" textcolor="0 0 0" textfont="Arial Nodrop For SE" textfontsize="12" bevel="" size1024="10 582 240 607">
+    </gadget>
+    <gadget name="ForestDensityText" type="textBox" textfont="Arial Nodrop For SE" textfontsize="12" textcolor="0 0 0" size1024="80 603 162 623" z="11">Density:</gadget>
+    <gadget name="ForestDensity" type="slider" size1024="80 624 246 644" z="11" configindex="forestDensity">
+    </gadget>
+    <gadget name="ForestClumpinessText" type="textBox" textfont="Arial Nodrop For SE" textfontsize="12" textcolor="0 0 0" size1024="80 644 162 664" z="11">Clumpiness:</gadget>
+    <gadget name="ForestClumpiness" type="slider" size1024="80 664 246 684" z="11" configindex="forestClumpiness">
+    </gadget>
+    <gadget name="ForestUnderbrushText" type="textBox" textfont="Arial Nodrop For SE" textfontsize="12" textcolor="0 0 0" size1024="80 684 162 704" z="11">Underbrush:</gadget>
+    <gadget name="ForestUnderbrush" type="slider" size1024="80 704 246 724" z="11" configindex="forestUnderbrush">
+    </gadget>
+  </gadget>
+  <gadget name="BrushFunctionsEditForestTool" type="gadget" size1024="0 550 254 768" background="ui\editor\editor_background" bevel="" titlebar="$$23988$$Edit Forest Tool" hidden="">
+    <gadget name="ForestSwatch" type="gadget" background="ui\editor\editor_background" sunkenbevel="" size1024="10 582 74 646">
+    </gadget>
+    <gadget name="ForestDensityText" type="textBox" textfont="Arial Nodrop For SE" textfontsize="12" textcolor="0 0 0" size1024="81 633 163 653" z="11">Density:</gadget>
+    <gadget name="ForestDensity" type="slider" size1024="81 654 247 674" z="11" configindex="forestDensity">
+    </gadget>
+    <gadget name="ForestClumpinessText" type="textBox" textfont="Arial Nodrop For SE" textfontsize="12" textcolor="0 0 0" size1024="81 674 163 694" z="11">Clumpiness:</gadget>
+    <gadget name="ForestClumpiness" type="slider" size1024="81 694 247 714" z="11" configindex="forestClumpiness">
+    </gadget>
+    <gadget name="ForestUnderbrushText" type="textBox" textfont="Arial Nodrop For SE" textfontsize="12" textcolor="0 0 0" size1024="81 714 163 734" z="11">Underbrush:</gadget>
+    <gadget name="ForestUnderbrush" type="slider" size1024="81 734 247 754" z="11" configindex="forestUnderbrush">
+    </gadget>
+    <gadget name="ForestBuildBtn" type="button" size1024="82 591 172 616" z="11">$$23989$$Build Forest<command>uiRebuildForest()</command></gadget>
+  </gadget>
+  <gadget name="BrushFunctionsCopyPaste" type="gadget" size1024="0 550 254 768" background="ui\editor\editor_background" bevel="" titlebar="$$20336$$Copy &amp; Paste" hidden="" windowzstyle="">
+    <gadget name="BrushFunctionsCopyPasteIncludeText" type="textBox" textfont="Arial Nodrop For SE" textfontsize="12" textcolor="0 0 0" size1024="15 582 80 607">$$20320$$Include</gadget>
+    <gadget name="BrushFunctionsCopyPasteHeight" type="checkButton" textcolor="0 0 0" textfont="Arial Nodrop For SE" textfontsize="12" size1024="92 602 255 622">$$20338$$Elevation<command>uiToggleTerrainPasteMode(2)</command></gadget>
+    <gadget name="BrushFunctionsCopyPasteTexture" type="checkButton" textcolor="0 0 0" textfont="Arial Nodrop For SE" textfontsize="12" size1024="92 622 255 642">$$20339$$Textures<command>uiToggleTerrainPasteMode(1)</command></gadget>
+    <gadget name="BrushFunctionsCopyPasteRotationText" type="textBox" textfont="Arial Nodrop For SE" textfontsize="12" textcolor="0 0 0" size1024="15 652 80 677">$$20340$$Rotation:</gadget>
+    <gadget name="BrushFunctionsCopyPasteRotation" type="radioset" background="ui\editor\editor_background" radiosetbuttonsize1024="100 25" radiosetdefaultbuttonindex="2" size1024="90 647 200 712">
+      <button command="uiSetClipboardRotation(0)">$$20341$$0 Degrees</button>
+      <button command="uiSetClipboardRotation(90)">$$20342$$90 Degrees</button>
+      <button command="uiSetClipboardRotation(180)">$$20343$$180 Degrees</button>
+      <button command="uiSetClipboardRotation(270)">$$20344$$270 Degrees</button>
+    </gadget>
+  </gadget>
+  <gadget resizevert="" resizehorz="" name="EditWaterToolPalette" type="palette" size1024="256 550 800 768" palettecontentsize1024="40 40" paletteelemsize1024="200 60" palettetitleright="" bevel="" background="ui\editor\editor_background" tilebackground="" paletteusedropdown="" alphasort="" refreshonreal="" titlebar="$$20328$$Water" hidden="" windowzstyle="">
+  </gadget>
+  <gadget name="BrushFunctionsEditWater" type="gadget" size1024="0 550 254 768" background="ui\editor\editor_background" bevel="" titlebar="$$20277$$Edit Water Tool" hidden="" windowzstyle="">
+    <gadget name="EditWaterName" type="gadget" textcolor="0 0 0" textfont="Arial Nodrop For SE" textfontsize="12" bevel="" size1024="10 570 240 595">
+    </gadget>
+    <gadget name="EditWaterSwatch" type="gadget" background="ui\editor\editor_background" sunkenbevel="" size1024="95 596 159 660">
+    </gadget>
+    <gadget name="EditWaterUpdateButton" type="button" bevelbutton="" size1024="77 670 177 695" z="11">$$33339$$Update Water</gadget>
+    <gadget name="EditWaterBeautifyButton" type="button" textcolor="0 0 0" textfont="Arial Nodrop For SE" textfontsize="12" bevelbutton="" size1024="77 700 177 725">$$20324$$Beautify</gadget>
+    <gadget name="EditWaterRemoveButton" type="button" bevelbutton="" size1024="77 730 177 755" z="11">$$33452$$Remove Water</gadget>
+  </gadget>
+  <gadget name="NewScenarioDialog" type="gadget" size1024="332 284 700 552" background="ui\editor\editor_background" bevel="" titlebar="$$20346$$New Scenario" closebutton="" hidden="" windowzstyle="" moveable="">
+    <gadget name="NewScenarioTypeDropdown" type="textField" textfont="Arial Nodrop For SE" textfontsize="12" textcolor="0 0 0" dropdowndistance="100" size1024="342 316 607 338">$$20347$$Type:<dropdown>Something Goes Here!</dropdown></gadget>
+    <gadget name="NewScenarioSeedEntry" type="textField" textfont="Arial Nodrop For SE" textfontsize="12" textcolor="0 0 0" size1024="342 341 582 363">$$20348$$Seed:</gadget>
+    <gadget name="NewScenarioSizeText" type="textBox" textfont="Arial Nodrop For SE" textfontsize="12" textcolor="0 0 0" size1024="342 422 407 441">$$20349$$Size:</gadget>
+    <gadget name="NewScenarioSizeRadioButtons" type="radioset" background="ui\editor\editor_background" radiosetbuttonsize1024="100 25" size1024="409 421 529 441">
+      <button command="configSetInt(&quot;WorldSizeX&quot;,200) configSetInt(&quot;WorldSizeZ&quot;,200)">$$18853$$Normal</button>
+      <button command="configSetInt(&quot;WorldSizeX&quot;,400) configSetInt(&quot;WorldSizeZ&quot;,400)">$$18847$$Large</button>
+    </gadget>
+    <gadget name="NewScenarioPlayersDropdown" type="textField" textfont="Arial Nodrop For SE" textfontsize="12" textcolor="0 0 0" dropdowndistance="100" size1024="342 366 607 388">$$20350$$Number of Players<dropdown>1</dropdown><dropdown>2</dropdown><dropdown>3</dropdown><dropdown>4</dropdown><dropdown>5</dropdown><dropdown>6</dropdown><dropdown>7</dropdown><dropdown>8</dropdown></gadget>
+    <gadget name="NewScenarioTeamsDropdown" type="textField" textfont="Arial Nodrop For SE" textfontsize="12" textcolor="0 0 0" dropdowndistance="100" size1024="342 391 607 413">$$33766$$Number of Teams<dropdown>-1</dropdown><dropdown>1</dropdown><dropdown>2</dropdown><dropdown>3</dropdown><dropdown>4</dropdown><dropdown>5</dropdown><dropdown>6</dropdown><dropdown>7</dropdown><dropdown>8</dropdown></gadget>
+    <gadget name="NewScenarioSeparator" type="gadget" background="UI\editor\menu_separator" size1024="342 493 685 503">
+    </gadget>
+    <gadget name="NewScenarioDefaultsButton" type="button" bevelbutton="" textfont="Arial Nodrop For SE" textfontsize="12" size1024="352 513 462 538">$$20351$$Restore Defaults</gadget>
+    <gadget name="NewScenarioGenerateButton" type="button" bevelbutton="" textfont="Arial Nodrop For SE" textfontsize="12" size1024="525 513 595 538">$$20352$$Generate</gadget>
+    <gadget name="NewScenarioStartUnderDebugger" type="checkButton" textfont="Arial Nodrop For SE" textcolor="0 0 0" textfontsize="12" size1024="507 461 662 481">$$20353$$Start under debugger</gadget>
+    <gadget name="NewScenarioCloseButton" type="button" bevelbutton="" textfont="Arial Nodrop For SE" textfontsize="12" size1024="605 513 675 538">$$18457$$Close<command>gadgetUnReal("NewScenarioGadget")</command></gadget>
+  </gadget>
+  <gadget name="MapElevationDialog" type="gadget" size1024="337 200 700 410" background="ui\editor\editor_background" bevel="" titlebar="$$20274$$Map Elevation" closebutton="" hidden="" windowzstyle="" moveable="">
+    <gadget name="MapElevationSpaceAvailable" type="textBox" textcolor="0 0 0" textfontsize="12" textfont="Arial Nodrop For SE" size1024="347 232 537 252">$$20354$$Current Elevation State</gadget>
+    <gadget name="MapElevationSpaceAvailableAboveLabel" type="textBox" textcolor="0 0 0" textfontsize="12" textfont="Arial nobold nodrop" size1024="357 262 427 282">$$20355$$Above:</gadget>
+    <gadget name="MapElevationSpaceAvailableAbove" type="textBox" textcolor="0 0 0" textfontsize="12" textfont="Arial nobold nodrop" size1024="412 262 487 282">
+    </gadget>
+    <gadget name="MapElevationSpaceAvailableBelowLabel" type="textBox" textcolor="0 0 0" textfontsize="12" textfont="Arial nobold nodrop" size1024="497 262 557 282">$$20356$$Below:</gadget>
+    <gadget name="MapElevationSpaceAvailableBelow" type="textBox" textcolor="0 0 0" textfontsize="12" textfont="Arial nobold nodrop" size1024="557 262 627 282">
+    </gadget>
+    <gadget name="MapElevationUpButton" type="button" bevelbutton="" textfont="Arial Nodrop For SE" textfontsize="12" size1024="362 294 482 319">$$20357$$Move Map Up</gadget>
+    <gadget name="MapElevationDownButton" type="button" bevelbutton="" textfont="Arial Nodrop For SE" textfontsize="12" size1024="507 294 627 319">$$20358$$Move Map Down</gadget>
+    <gadget name="MapElevationApplyButton" type="button" bevelbutton="" textfont="Arial Nodrop For SE" textfontsize="12" size1024="530 365 600 390">$$20359$$Apply</gadget>
+    <gadget name="MapElevationCloseButton" type="button" bevelbutton="" textfont="Arial Nodrop For SE" textfontsize="12" size1024="610 365 680 390">$$18457$$Close<command>gadgetUnReal("MapElevationGadget")</command></gadget>
+    <gadget name="MapElevationSeparator" type="gadget" background="UI\editor\menu_separator" size1024="347 342 690 352">
+    </gadget>
+    <gadget name="MapElevationResetButton" type="button" bevelbutton="" textfont="Arial Nodrop For SE" textfontsize="12" size1024="357 365 427 390">$$18480$$Reset</gadget>
+  </gadget>
+  <gadget name="GroupingSettingsDialog" type="gadget" size1024="337 200 700 460" background="ui\editor\editor_background" bevel="" titlebar="$$26085$$Save Grouping" closebutton="" hidden="" windowzstyle="" moveable="">
+    <gadget name="GroupingSettingsTerrainTypeDropdown" type="textField" textfont="Arial Nodrop For SE" textfontsize="12" textcolor="0 0 0" dropdowndistance="100" size1024="347 241 687 264">$$25548$$Transparent Terrain<dropdown>Something Goes Here!</dropdown></gadget>
+    <gadget name="GroupingSettingsUsePlacementRules" type="checkButton" size1024="347 275 678 297">$$26086$$Ignore Placement Rules</gadget>
+    <gadget name="GroupingSettingsSelectAsSingleUnit" type="checkButton" size1024="348 307 679 327">$$26087$$Select As Single Unit</gadget>
+    <gadget name="GroupingSettingsWorkOnAsSingleUnit" type="checkButton" size1024="348 339 679 359">$$72628$$Work On As Single Unit</gadget>
+    <gadget name="GroupingSettingsSaveHeights" type="checkButton" size1024="348 371 679 391">$$30192$$Save heights/cliffs</gadget>
+    <gadget name="GroupingSettingsSeparator" type="gadget" background="UI\editor\menu_separator" size1024="347 402 690 412">
+    </gadget>
+    <gadget name="GroupingSettingsDialog-OKButton" type="button" bevelbutton="" textfont="Arial Nodrop For SE" textfontsize="12" size1024="530 419 600 444">$$18465$$OK<command>gadgetUnReal("GroupingSettingsDialog") uiExportGrouping</command></gadget>
+    <gadget name="GroupingSettingsCancelButton" type="button" bevelbutton="" textfont="Arial Nodrop For SE" textfontsize="12" size1024="610 419 680 444">$$18466$$Cancel<command>gadgetUnReal("GroupingSettingsDialog")</command></gadget>
+  </gadget>
+  <gadget name="WorldLightingDialog" type="gadget" size1024="337 200 700 400" background="ui\editor\editor_background" bevel="" titlebar="$$20364$$World Lighting" closebutton="" hidden="" windowzstyle="" moveable="">
+    <gadget name="PresetLightingDropdown" type="textField" dropdowndistance="120" textfont="Arial Nodrop For SE" textfontsize="12" textcolor="0 0 0" size1024="347 262 637 282">$$20368$$Preset Lighting<dropdown>Some Stuff in Here</dropdown></gadget>
+    <gadget name="WorldLightingSeparator" type="gadget" background="UI\editor\menu_separator" size1024="347 317 690 327">
+    </gadget>
+    <gadget name="WorldLightingDefaultsButton" type="button" bevelbutton="" textfont="Arial Nodrop For SE" textfontsize="12" size1024="357 357 467 382">$$20351$$Restore Defaults</gadget>
+    <gadget name="WorldLightingCloseButton" type="button" bevelbutton="" textfont="Arial Nodrop For SE" textfontsize="12" size1024="610 357 680 382">$$18457$$Close<command>gadgetUnReal("WorldLightingDialog")</command></gadget>
+  </gadget>
+  <gadget name="BrushSettingsDialog" type="gadget" size1024="337 200 600 645" background="ui\editor\editor_background" bevel="" titlebar="$$20280$$Brush Settings" closebutton="" hidden="" windowzstyle="" moveable="">
+    <gadget name="ShapeText" type="textBox" textfont="Arial Nodrop For SE" textfontsize="12" textcolor="0 0 0" size1024="340 236 417 256">$$20369$$Shape:</gadget>
+    <gadget name="ShapeRadioButtons" type="radioset" background="ui\editor\editor_background" radiosetbuttonsize1024="100 25" size1024="420 229 593 299">
+      <button command="uiChangeBrushType(&quot;circular&quot;)">$$20370$$Circle</button>
+      <button command="uiChangeBrushType(&quot;Rectangular&quot;)">$$20371$$Square</button>
+    </gadget>
+    <gadget name="CornerText" type="textBox" textfont="Arial Nodrop For SE" textfontsize="12" textcolor="0 0 0" size1024="340 311 420 331">$$37032$$Corner Mode:</gadget>
+    <gadget name="CornerRadioButtons" type="radioset" background="ui\editor\editor_background" radiosetbuttonsize1024="100 25" size1024="420 299 593 399">
+      <button command="uiChangeBrushCornerMode(0)">$$37033$$All</button>
+      <button command="uiChangeBrushCornerMode(1)">$$37034$$Corners Only</button>
+      <button command="uiChangeBrushCornerMode(2)">$$37035$$No Corners</button>
+    </gadget>
+    <gadget name="CliffModeText" type="textBox" textfont="Arial Nodrop For SE" textfontsize="12" textcolor="0 0 0" size1024="340 414 420 434">$$37036$$Cliff Mode:</gadget>
+    <gadget name="CliffModeRadioButtons" type="radioset" background="ui\editor\editor_background" radiosetbuttonsize1024="140 25" size1024="420 399 593 549">
+      <button command="uiChangeCliffModMode(0)">$$37037$$No Clamping</button>
+      <button command="uiChangeCliffModMode(1)">$$37038$$Clamp High Edge</button>
+      <button command="uiChangeCliffModMode(2)">$$37039$$Clamp Low Edge</button>
+      <button command="uiChangeCliffModMode(3)">$$37040$$Clamp All Edges</button>
+    </gadget>
+    <gadget name="BrushSettingsSlider" type="slider" sliderbuttons="" size1024="347 552 581 572">
+    </gadget>
+    <gadget name="SliderTextSmall" type="textBox" textcolor="0 0 0" textfont="Arial Nodrop For SE" textfontsize="12" textcentervert="" size1024="347 572 437 592">$$18845$$Small</gadget>
+    <gadget name="SliderTextMedium" type="textBox" textcolor="0 0 0" textfont="Arial Nodrop For SE" textfontsize="12" textcentervert="" size1024="444 572 492 592">$$18846$$Medium</gadget>
+    <gadget name="SliderTextLarge" type="textBox" textcolor="0 0 0" textfont="Arial Nodrop For SE" textfontsize="12" textcentervert="" size1024="552 572 597 592">$$18847$$Large</gadget>
+    <gadget name="BrushSettingsSeparator" type="gadget" background="UI\editor\menu_separator" size1024="347 595 590 605">
+    </gadget>
+    <gadget name="BrushSettingsCloseButton" type="button" bevelbutton="" textfont="Arial Nodrop For SE" textfontsize="12" size1024="510 607 580 632">$$18457$$Close<command>gadgetUnReal("BrushSettingsDialog")</command></gadget>
+  </gadget>
+  <gadget name="PlaytestDialog" type="gadget" size1024="337 200 700 380" background="ui\editor\editor_background" bevel="" titlebar="$$20269$$Playtest Scenario" closebutton="" hidden="" windowzstyle="" moveable="">
+    <gadget name="PlaytestAsPlayer" type="textField" textfont="Arial Nodrop For SE" textfontsize="12" textcolor="0 0 0" dropdowndistance="125" size1024="347 236 597 260">$$20372$$Test As Player:<dropdown command="player(1)">$$20524$$1</dropdown><dropdown command="player(2)">$$20525$$2</dropdown><dropdown command="player(3)">$$20526$$3</dropdown><dropdown command="player(4)">$$20527$$4</dropdown><dropdown command="player(5)">$$20528$$5</dropdown><dropdown command="player(6)">$$20529$$6</dropdown><dropdown command="player(7)">$$20530$$7</dropdown><dropdown command="player(8)">$$20531$$8</dropdown><dropdown command="player(9)">$$20532$$9</dropdown><dropdown command="player(10)">$$20533$$10</dropdown><dropdown command="player(11)">$$20534$$11</dropdown><dropdown command="player(12)">$$20535$$12</dropdown></gadget>
+    <gadget name="PlaytestDifficultyLevel" type="textField" textfont="Arial Nodrop For SE" textfontsize="12" textcolor="0 0 0" dropdowndistance="100" size1024="347 272 597 297">$$20373$$Difficulty Level:<dropdown command="configSetInt(&quot;playtestDifficultyLevel&quot;, 0)">$$32605$$Sandbox</dropdown><dropdown command="configSetInt(&quot;playtestDifficultyLevel&quot;, 1)">$$18297$$Easy</dropdown><dropdown command="configSetInt(&quot;playtestDifficultyLevel&quot;, 2)">$$18298$$Moderate</dropdown><dropdown command="configSetInt(&quot;playtestDifficultyLevel&quot;, 3)">$$18299$$Hard</dropdown><dropdown command="configSetInt(&quot;playtestDifficultyLevel&quot;, 4)">$$18300$$Expert</dropdown><dropdown command="configSetInt(&quot;playtestDifficultyLevel&quot;, 5)">$$91770$$Extreme</dropdown></gadget>
+    <gadget name="PlaytestScenarioSeparator" type="gadget" background="UI\editor\menu_separator" size1024="347 322 690 332">
+    </gadget>
+    <gadget name="PlaytestScenarioOKButton" type="button" bevelbutton="" textfont="Arial Nodrop For SE" textfontsize="12" size1024="530 337 600 362">$$18465$$OK<command>gadgetUnReal("PlaytestDialog") clearTradeRouteLines uiStartScenarioTest</command></gadget>
+    <gadget name="PlaytestScenarioCancelButton" type="button" bevelbutton="" textfont="Arial Nodrop For SE" textfontsize="12" size1024="610 337 680 362">$$18466$$Cancel<command>gadgetUnReal("PlaytestDialog")</command></gadget>
+  </gadget>
+  <gadget name="ScreenshotDialog" type="gadget" size1024="337 200 700 480" background="ui\editor\editor_background" bevel="" titlebar="$$20374$$Create a Screenshot" closebutton="" hidden="" windowzstyle="" moveable="">
+    <gadget name="ScreenshotTypeText" type="textBox" textfont="Arial Nodrop For SE" textfontsize="12" textcolor="0 0 0" size1024="337 228 418 248">$$20347$$Type:</gadget>
+    <gadget name="ScreenshotTypeRadioButtons" type="radioset" background="ui\editor\editor_background" radiosetbuttonsize1024="100 25" size1024="420 223 520 303">
+      <button command="configDef(&quot;jpegScreenshots&quot;)">$$20536$$JPG</button>
+      <button command="configUndef(&quot;jpegScreenshots&quot;)">$$20537$$TGA</button>
+    </gadget>
+    <gadget name="ScreenshotQualityText" type="textBox" textfont="Arial Nodrop For SE" textfontsize="12" textcolor="0 0 0" size1024="527 229 604 249">$$20375$$Quality:</gadget>
+    <gadget name="ScreenshotQualityRadioButtons" type="radioset" background="ui\editor\editor_background" radiosetbuttonsize1024="100 25" radiosetdefaultbuttonindex="2" size1024="606 222 686 322">
+      <button command="configSetInt(&quot;jpegScreenshotQuality&quot;, 25)">$$18579$$Low</button>
+      <button command="configSetInt(&quot;jpegScreenshotQuality&quot;, 50)">$$18846$$Medium</button>
+      <button command="configSetInt(&quot;jpegScreenshotQuality&quot;, 100)">$$18578$$High</button>
+    </gadget>
+    <gadget name="ScreenshotIncludeText" type="textBox" textfont="Arial Nodrop For SE" textfontsize="12" textcolor="0 0 0" size1024="339 327 531 347">$$20376$$Hide:</gadget>
+    <gadget name="ScreenshotIncludeInterface" type="checkButton" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" configindex="screenShotHideUI" size1024="412 352 587 372">$$20377$$Interface</gadget>
+    <gadget name="ScreenshotIncludeCursor" type="checkButton" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" configindex="screenShotHideCursor" size1024="412 382 587 402">$$20378$$Cursor</gadget>
+    <gadget name="ScreenshotSeparator" type="gadget" background="UI\editor\menu_separator" size1024="347 422 690 432">
+    </gadget>
+    <gadget name="ScreenshotTakeButton" type="button" bevelbutton="" textfont="Arial Nodrop For SE" textfontsize="12" size1024="428 439 529 464">$$20379$$Shoot</gadget>
+    <gadget name="ScreenshotCloseButton" type="button" bevelbutton="" textfont="Arial Nodrop For SE" textfontsize="12" size1024="555 439 656 464">$$18457$$Close<command>gadgetUnReal("ScreenshotDialog")</command></gadget>
+  </gadget>
+  <gadget name="ScenarioSummaryDialog" type="gadget" size1024="304 153 731 600" background="ui\editor\editor_background" bevel="" titlebar="$$20268$$Scenario Summary" closebutton="" hidden="" windowzstyle="" moveable="">
+    <gadget name="ScenarioSummaryScenarioName" type="textBox" textcolor="0 0 0" textfont="Arial Nodrop For SE" textfontsize="12" size1024="310 188 508 213">ScenarioNameHere:</gadget>
+    <gadget name="ScenarioSummaryPageSelectDropDown" type="textField" textcolor="0 0 0" textfont="Arial nobold nodrop" textfontsize="12" dropdowndistance="115" size1024="508 188 723 213">
+      <dropdown>$$20380$$World Info</dropdown>
+      <dropdown>$$20381$$Player Info</dropdown>
+      <dropdown>$$20382$$Misc Info</dropdown>
+    </gadget>
+    <gadget name="WorldInfoPage" type="gadget" background="ui\editor\editor_background" sunkenbevel="" size1024="313 225 723 546">
+      <gadget name="WorldInfoMapDimensionsLabel" type="textBox" textcolor="0 0 0" textfont="Courier Bold" textfontsize="12" size1024="316 232 486 252">$$20383$$Map Dimensions:</gadget>
+      <gadget name="WorldInfoMapDimensions" type="textBox" textcolor="0 0 0" textfont="Courier" textfontsize="12" size1024="489 232 721 252">SomeTextHere</gadget>
+      <gadget name="WorldInfoAverageElevationLabel" type="textBox" textcolor="0 0 0" textfont="Courier Bold" textfontsize="12" size1024="316 258 486 278">$$20384$$Average Elevation:</gadget>
+      <gadget name="WorldInfoAverageElevation" type="textBox" textcolor="0 0 0" textfont="Courier" textfontsize="12" size1024="489 258 721 278">SomeTextHere</gadget>
+      <gadget name="WorldInfoHighestPointLabel" type="textBox" textcolor="0 0 0" textfont="Courier Bold" textfontsize="12" size1024="316 286 486 306">$$20385$$Highest Point:</gadget>
+      <gadget name="WorldInfoHighestPoint" type="textBox" textcolor="0 0 0" textfont="Courier" textfontsize="12" size1024="489 286 721 306">SomeTextHere</gadget>
+      <gadget name="WorldInfoLowestPointLabel" type="textBox" textcolor="0 0 0" textfont="Courier Bold" textfontsize="12" size1024="316 313 486 333">$$20386$$Lowest Point:</gadget>
+      <gadget name="WorldInfoLowestPoint" type="textBox" textcolor="0 0 0" textfont="Courier" textfontsize="12" size1024="489 313 721 333">SomeTextHere</gadget>
+      <gadget name="WorldInfoDominantTerrainsLabel" type="textBox" textcolor="0 0 0" textfont="Courier Bold" textfontsize="12" size1024="316 341 486 361">$$20387$$Dominant Terrains:</gadget>
+      <gadget name="WorldInfoDominantTerrain1" type="textBox" textcolor="0 0 0" textfont="Courier" textfontsize="12" size1024="489 341 721 361">Terrain1Here</gadget>
+      <gadget name="WorldInfoDominantTerrain2" type="textBox" textcolor="0 0 0" textfont="Courier" textfontsize="12" size1024="489 367 721 387">Terrain2Here</gadget>
+      <gadget name="WorldInfoDominantTerrain3" type="textBox" textcolor="0 0 0" textfont="Courier" textfontsize="12" size1024="489 395 721 415">Terrain3Here</gadget>
+      <gadget name="WorldInfoDominantTerrain4" type="textBox" textcolor="0 0 0" textfont="Courier" textfontsize="12" size1024="489 422 721 442">Terrain4Here</gadget>
+      <gadget name="WorldInfoDominantTerrain5" type="textBox" textcolor="0 0 0" textfont="Courier" textfontsize="12" size1024="489 449 721 469">Terrain5Here</gadget>
+      <gadget name="WorldInfoRandomMapTypeLabel" type="textBox" textcolor="0 0 0" textfont="Courier Bold" textfontsize="12" size1024="316 479 486 499">$$20388$$Random Map Type:</gadget>
+      <gadget name="WorldInfoRandomMapType" type="textBox" textcolor="0 0 0" textfont="Courier" textfontsize="12" size1024="489 479 721 499">SomeTextHere</gadget>
+      <gadget name="WorldInfoRandomMapSeedLabel" type="textBox" textcolor="0 0 0" textfont="Courier Bold" textfontsize="12" size1024="316 511 486 531">$$20389$$Random Map Seed:</gadget>
+      <gadget name="WorldInfoRandomMapSeed" type="textBox" textcolor="0 0 0" textfont="Courier" textfontsize="12" size1024="489 511 721 531">SomeTextHere</gadget>
+    </gadget>
+    <gadget name="PlayerInfoPage" type="gadget" background="ui\editor\editor_background" sunkenbevel="" hidden="" size1024="347 262 700 547">
+      <gadget name="PlayerInfoLabels" type="textBox" textfont="Courier Bold" textfontsize="12" size1024="357 262 700 287">Labels here</gadget>
+      <gadget name="PlayerInfoList" type="gadget" size1024="347 282 700 547">
+        <gadget name="PlayerInfoPlayer1" type="textBox" textcolor="0 0 0" textfont="Courier" textfontsize="12" size1024="357 287 700 299">123456789012 12345678 1234567 12345 12345 12345</gadget>
+        <gadget name="PlayerInfoPlayer2" type="textBox" textcolor="0 0 0" textfont="Courier" textfontsize="12" size1024="357 304 700 316">
+        </gadget>
+        <gadget name="PlayerInfoPlayer3" type="textBox" textcolor="0 0 0" textfont="Courier" textfontsize="12" size1024="357 321 700 333">
+        </gadget>
+        <gadget name="PlayerInfoPlayer4" type="textBox" textcolor="0 0 0" textfont="Courier" textfontsize="12" size1024="357 338 700 350">
+        </gadget>
+        <gadget name="PlayerInfoPlayer5" type="textBox" textcolor="0 0 0" textfont="Courier" textfontsize="12" size1024="357 355 700 367">
+        </gadget>
+        <gadget name="PlayerInfoPlayer6" type="textBox" textcolor="0 0 0" textfont="Courier" textfontsize="12" size1024="357 372 700 384">
+        </gadget>
+        <gadget name="PlayerInfoPlayer7" type="textBox" textcolor="0 0 0" textfont="Courier" textfontsize="12" size1024="357 389 700 401">
+        </gadget>
+        <gadget name="PlayerInfoPlayer8" type="textBox" textcolor="0 0 0" textfont="Courier" textfontsize="12" size1024="357 406 700 418">
+        </gadget>
+        <gadget name="PlayerInfoPlayer9" type="textBox" textcolor="0 0 0" textfont="Courier" textfontsize="12" size1024="357 423 700 435">
+        </gadget>
+        <gadget name="PlayerInfoPlayer10" type="textBox" textcolor="0 0 0" textfont="Courier" textfontsize="12" size1024="357 440 700 452">
+        </gadget>
+        <gadget name="PlayerInfoPlayer11" type="textBox" textcolor="0 0 0" textfont="Courier" textfontsize="12" size1024="357 457 700 469">
+        </gadget>
+        <gadget name="PlayerInfoPlayer12" type="textBox" textcolor="0 0 0" textfont="Courier" textfontsize="12" size1024="357 474 700 486">
+        </gadget>
+        <gadget name="PlayerInfoPlayer13" type="textBox" textcolor="0 0 0" textfont="Courier" textfontsize="12" size1024="357 491 700 503">
+        </gadget>
+        <gadget name="PlayerInfoPlayer14" type="textBox" textcolor="0 0 0" textfont="Courier" textfontsize="12" size1024="357 508 700 520">
+        </gadget>
+        <gadget name="PlayerInfoPlayer15" type="textBox" textcolor="0 0 0" textfont="Courier" textfontsize="12" size1024="357 525 700 537">
+        </gadget>
+      </gadget>
+    </gadget>
+    <gadget name="MiscInfoPage" type="gadget" background="ui\editor\editor_background" sunkenbevel="" hidden="" size1024="347 262 700 547">
+      <gadget name="MiscInfoAvailFoodResource" type="textBox" textcolor="0 0 0" textfont="Courier" textfontsize="12" size1024="357 267 700 279">
+      </gadget>
+      <gadget name="MiscInfoAvailWoodResource" type="textBox" textcolor="0 0 0" textfont="Courier" textfontsize="12" size1024="357 284 700 296">
+      </gadget>
+      <gadget name="MiscInfoAvailGoldResource" type="textBox" textcolor="0 0 0" textfont="Courier" textfontsize="12" size1024="357 301 700 313">
+      </gadget>
+      <gadget name="MiscInfoGaiaObjects" type="textBox" textcolor="0 0 0" textfont="Courier" textfontsize="12" size1024="357 318 700 330">
+      </gadget>
+    </gadget>
+    <gadget name="ExportToTextButton" type="button" bevelbutton="" textfont="Arial Nodrop For SE" textfontsize="12" size1024="496 562 600 587">$$20390$$Export to Text</gadget>
+    <gadget name="ScenarioSummaryCloseButton" type="button" bevelbutton="" textfont="Arial Nodrop For SE" textfontsize="12" size1024="610 562 714 587">$$18457$$Close<command>gadgetUnReal("AScenarioSummaryGadget")</command></gadget>
+  </gadget>
+  <gadget name="PlayerDataDialog" type="gadget" size1024="4 93 1019 509" background="ui\editor\editor_background" bevel="" titlebar="$$20266$$Player Data" hidden="" closebutton="" windowzstyle="" moveable="">
+    <gadget name="LabelPlayerDataRow" type="gadget" size1024="4 134 1016 154">
+      <gadget name="PlayerText" textcolor="0 0 0" textfontsize="12" textfont="Arial Nodrop For SE" type="textBox" size1024="13 134 60 152">$$20391$$Player:</gadget>
+      <gadget name="ColorText" textcolor="0 0 0" textfontsize="12" textfont="Arial Nodrop For SE" type="textBox" size1024="62 134 133 152">$$20392$$Color:</gadget>
+      <gadget name="CivText" textcolor="0 0 0" textfontsize="12" textfont="Arial Nodrop For SE" type="textBox" size1024="143 134 242 152">$$20393$$Civ:</gadget>
+      <gadget name="ControlText" textcolor="0 0 0" textfontsize="12" textfont="Arial Nodrop For SE" type="textBox" size1024="684 134 795 152">$$20394$$Control:</gadget>
+      <gadget name="PlayerNameText" textcolor="0 0 0" textfontsize="12" textfont="Arial Nodrop For SE" type="textBox" size1024="265 134 339 152">$$20001$$Name:</gadget>
+      <gadget name="FoodText" textcolor="0 0 0" textfontsize="12" textfont="Arial Nodrop For SE" type="textBox" size1024="381 134 435 152">$$19771$$Food:</gadget>
+      <gadget name="WoodText" textcolor="0 0 0" textfontsize="12" textfont="Arial Nodrop For SE" type="textBox" size1024="438 134 492 152">$$19772$$Wood:</gadget>
+      <gadget name="GoldText" textcolor="0 0 0" textfontsize="12" textfont="Arial Nodrop For SE" type="textBox" size1024="495 134 549 152">$$19773$$Gold:</gadget>
+      <gadget name="VisibilityText" textcolor="0 0 0" textfontsize="12" textfont="Arial Nodrop For SE" type="textBox" size1024="804 134 925 152">$$19123$$Visibility:</gadget>
+      <gadget name="PopText" textcolor="0 0 0" textfontsize="12" textfont="Arial Nodrop For SE" type="textBox" size1024="609 134 663 152">$$20395$$Pop:</gadget>
+    </gadget>
+    <gadget name="PlayerDataRow1" type="gadget" size1024="5 158 1017 180">
+      <gadget name="PlayerNumber1" type="textBox" textfont="Arial Nodrop For SE" textfontsize="12" textcolor="0 0 0" size1024="25 158 45 178">$$20524$$1</gadget>
+      <gadget name="PlayerDataColorDropdown1" type="colorDropdown" dropdowndistance="120" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" fieldreadonly="" size1024="63 158 133 178">
+        <dropdown>
+        </dropdown>
+      </gadget>
+      <gadget name="PlayerDataCivDropdown1" type="textField" dropdowndistance="120" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" fieldreadonly="" size1024="143 159 258 179">
+        <dropdown>
+        </dropdown>
+      </gadget>
+      <gadget name="PlayerDataControlDropdown1" type="textField" dropdowndistance="100" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" fieldreadonly="" size1024="684 158 794 178">
+        <dropdown>
+        </dropdown>
+      </gadget>
+      <gadget name="PlayerDataNameField1" type="textField" enableime="" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" size1024="265 158 372 178">
+      </gadget>
+      <gadget name="PlayerDataFoodField1" type="textField" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" size1024="382 159 435 179">
+      </gadget>
+      <gadget name="PlayerDataWoodField1" type="textField" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" size1024="439 159 492 179">
+      </gadget>
+      <gadget name="PlayerDataGoldField1" type="textField" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" size1024="496 159 549 179">
+      </gadget>
+      <gadget name="PlayerDataHideDropdown1" type="textField" dropdowndistance="95" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" fieldreadonly="" size1024="804 158 885 178">
+        <dropdown>
+        </dropdown>
+      </gadget>
+      <gadget name="PlayerDataAIButton1" type="button" bevelbutton="" textfont="Arial Nodrop For SE" textfontsize="12" size1024="896 158 935 178">$$20396$$AI</gadget>
+      <gadget name="PlayerDataPopField1" type="textField" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" size1024="610 159 663 179">
+      </gadget>
+      <gadget name="PlayerDataAIClear1" type="button" bevelbutton="" textfont="Arial Nodrop For SE" textfontsize="12" size1024="941 158 998 178" z="11">$$20397$$Clear AI</gadget>
+    </gadget>
+    <gadget name="PlayerDataRow2" type="gadget" size1024="5 181 1017 203">
+      <gadget name="PlayerNumber2" type="textBox" textfont="Arial Nodrop For SE" textfontsize="12" textcolor="0 0 0" size1024="25 181 45 201">$$20525$$2</gadget>
+      <gadget name="PlayerDataColorDropdown2" type="colorDropdown" dropdowndistance="120" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" fieldreadonly="" size1024="63 181 133 201">
+        <dropdown>
+        </dropdown>
+      </gadget>
+      <gadget name="PlayerDataCivDropdown2" type="textField" dropdowndistance="120" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" fieldreadonly="" size1024="143 182 258 201">
+        <dropdown>
+        </dropdown>
+      </gadget>
+      <gadget name="PlayerDataControlDropdown2" type="textField" dropdowndistance="100" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" fieldreadonly="" size1024="684 181 794 201">
+        <dropdown>
+        </dropdown>
+      </gadget>
+      <gadget enableime="" name="PlayerDataNameField2" type="textField" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" size1024="265 181 372 201">
+      </gadget>
+      <gadget name="PlayerDataFoodField2" type="textField" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" size1024="382 182 435 202">
+      </gadget>
+      <gadget name="PlayerDataWoodField2" type="textField" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" size1024="439 182 492 202">
+      </gadget>
+      <gadget name="PlayerDataGoldField2" type="textField" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" size1024="496 182 549 202">
+      </gadget>
+      <gadget name="PlayerDataHideDropdown2" type="textField" dropdowndistance="95" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" fieldreadonly="" size1024="804 181 885 201">
+        <dropdown>
+        </dropdown>
+      </gadget>
+      <gadget name="PlayerDataAIButton2" type="button" bevelbutton="" textfont="Arial Nodrop For SE" textfontsize="12" size1024="896 181 935 201">$$20396$$AI</gadget>
+      <gadget name="PlayerDataPopField2" type="textField" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" size1024="610 182 663 202">
+      </gadget>
+      <gadget name="PlayerDataAIClear2" type="button" bevelbutton="" textfont="Arial Nodrop For SE" textfontsize="12" size1024="941 181 998 201" z="11">$$20397$$Clear AI</gadget>
+    </gadget>
+    <gadget name="PlayerDataRow3" type="gadget" size1024="5 204 1017 226">
+      <gadget name="PlayerNumber3" type="textBox" textfont="Arial Nodrop For SE" textfontsize="12" textcolor="0 0 0" size1024="25 204 45 224">$$20526$$3</gadget>
+      <gadget name="PlayerDataColorDropdown3" type="colorDropdown" dropdowndistance="120" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" fieldreadonly="" size1024="63 204 133 224">
+        <dropdown>
+        </dropdown>
+      </gadget>
+      <gadget name="PlayerDataCivDropdown3" type="textField" dropdowndistance="120" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" fieldreadonly="" size1024="143 205 258 224">
+        <dropdown>
+        </dropdown>
+      </gadget>
+      <gadget name="PlayerDataControlDropdown3" type="textField" dropdowndistance="100" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" fieldreadonly="" size1024="684 204 794 224">
+        <dropdown>
+        </dropdown>
+      </gadget>
+      <gadget enableime="" name="PlayerDataNameField3" type="textField" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" size1024="265 204 372 224">
+      </gadget>
+      <gadget name="PlayerDataFoodField3" type="textField" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" size1024="382 205 435 225">
+      </gadget>
+      <gadget name="PlayerDataWoodField3" type="textField" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" size1024="439 205 492 225">
+      </gadget>
+      <gadget name="PlayerDataGoldField3" type="textField" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" size1024="496 205 549 225">
+      </gadget>
+      <gadget name="PlayerDataHideDropdown3" type="textField" dropdowndistance="95" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" fieldreadonly="" size1024="804 204 885 224">
+        <dropdown>
+        </dropdown>
+      </gadget>
+      <gadget name="PlayerDataAIButton3" type="button" bevelbutton="" textfont="Arial Nodrop For SE" textfontsize="12" size1024="896 204 935 224">$$20396$$AI</gadget>
+      <gadget name="PlayerDataPopField3" type="textField" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" size1024="610 205 663 225">
+      </gadget>
+      <gadget name="PlayerDataAIClear3" type="button" bevelbutton="" textfont="Arial Nodrop For SE" textfontsize="12" size1024="941 204 998 224" z="11">$$20397$$Clear AI</gadget>
+    </gadget>
+    <gadget name="PlayerDataRow4" type="gadget" size1024="5 227 1017 249">
+      <gadget name="PlayerNumber4" type="textBox" textfont="Arial Nodrop For SE" textfontsize="12" textcolor="0 0 0" size1024="25 227 45 247">$$20527$$4</gadget>
+      <gadget name="PlayerDataColorDropdown4" type="colorDropdown" dropdowndistance="120" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" fieldreadonly="" size1024="63 227 133 247">
+        <dropdown>
+        </dropdown>
+      </gadget>
+      <gadget name="PlayerDataCivDropdown4" type="textField" dropdowndistance="120" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" fieldreadonly="" size1024="143 228 258 247">
+        <dropdown>
+        </dropdown>
+      </gadget>
+      <gadget name="PlayerDataControlDropdown4" type="textField" dropdowndistance="100" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" fieldreadonly="" size1024="684 227 794 247">
+        <dropdown>
+        </dropdown>
+      </gadget>
+      <gadget enableime="" name="PlayerDataNameField4" type="textField" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" size1024="265 227 372 247">
+      </gadget>
+      <gadget name="PlayerDataFoodField4" type="textField" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" size1024="382 228 435 248">
+      </gadget>
+      <gadget name="PlayerDataWoodField4" type="textField" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" size1024="439 228 492 248">
+      </gadget>
+      <gadget name="PlayerDataGoldField4" type="textField" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" size1024="496 228 549 248">
+      </gadget>
+      <gadget name="PlayerDataHideDropdown4" type="textField" dropdowndistance="95" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" fieldreadonly="" size1024="804 227 885 247">
+        <dropdown>
+        </dropdown>
+      </gadget>
+      <gadget name="PlayerDataAIButton4" type="button" bevelbutton="" textfont="Arial Nodrop For SE" textfontsize="12" size1024="896 227 935 247">$$20396$$AI</gadget>
+      <gadget name="PlayerDataPopField4" type="textField" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" size1024="610 228 663 248">
+      </gadget>
+      <gadget name="PlayerDataAIClear4" type="button" bevelbutton="" textfont="Arial Nodrop For SE" textfontsize="12" size1024="941 227 998 247" z="11">$$20397$$Clear AI</gadget>
+    </gadget>
+    <gadget name="PlayerDataRow5" type="gadget" size1024="5 250 1017 272">
+      <gadget name="PlayerNumber5" type="textBox" textfont="Arial Nodrop For SE" textfontsize="12" textcolor="0 0 0" size1024="25 250 45 270">$$20528$$5</gadget>
+      <gadget name="PlayerDataColorDropdown5" type="colorDropdown" dropdowndistance="120" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" fieldreadonly="" size1024="63 250 133 270">
+        <dropdown>
+        </dropdown>
+      </gadget>
+      <gadget name="PlayerDataCivDropdown5" type="textField" dropdowndistance="120" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" fieldreadonly="" size1024="143 251 258 270">
+        <dropdown>
+        </dropdown>
+      </gadget>
+      <gadget name="PlayerDataControlDropdown5" type="textField" dropdowndistance="100" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" fieldreadonly="" size1024="684 250 794 270">
+        <dropdown>
+        </dropdown>
+      </gadget>
+      <gadget enableime="" name="PlayerDataNameField5" type="textField" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" size1024="265 250 372 270">
+      </gadget>
+      <gadget name="PlayerDataFoodField5" type="textField" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" size1024="382 251 435 271">
+      </gadget>
+      <gadget name="PlayerDataWoodField5" type="textField" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" size1024="439 251 492 271">
+      </gadget>
+      <gadget name="PlayerDataGoldField5" type="textField" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" size1024="496 251 549 271">
+      </gadget>
+      <gadget name="PlayerDataHideDropdown5" type="textField" dropdowndistance="95" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" fieldreadonly="" size1024="804 250 885 270">
+        <dropdown>
+        </dropdown>
+      </gadget>
+      <gadget name="PlayerDataAIButton5" type="button" bevelbutton="" textfont="Arial Nodrop For SE" textfontsize="12" size1024="896 250 935 270">$$20396$$AI</gadget>
+      <gadget name="PlayerDataPopField5" type="textField" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" size1024="610 251 663 271">
+      </gadget>
+      <gadget name="PlayerDataAIClear5" type="button" bevelbutton="" textfont="Arial Nodrop For SE" textfontsize="12" size1024="941 250 998 270" z="11">$$20397$$Clear AI</gadget>
+    </gadget>
+    <gadget name="PlayerDataRow6" type="gadget" size1024="5 273 1017 295">
+      <gadget name="PlayerNumber6" type="textBox" textfont="Arial Nodrop For SE" textfontsize="12" textcolor="0 0 0" size1024="25 273 45 293">$$20529$$6</gadget>
+      <gadget name="PlayerDataColorDropdown6" type="colorDropdown" dropdowndistance="120" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" fieldreadonly="" size1024="63 273 133 293">
+        <dropdown>
+        </dropdown>
+      </gadget>
+      <gadget name="PlayerDataCivDropdown6" type="textField" dropdowndistance="120" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" fieldreadonly="" size1024="143 274 258 293">
+        <dropdown>
+        </dropdown>
+      </gadget>
+      <gadget name="PlayerDataControlDropdown6" type="textField" dropdowndistance="100" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" fieldreadonly="" size1024="684 273 794 293">
+        <dropdown>
+        </dropdown>
+      </gadget>
+      <gadget enableime="" name="PlayerDataNameField6" type="textField" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" size1024="265 273 372 293">
+      </gadget>
+      <gadget name="PlayerDataFoodField6" type="textField" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" size1024="382 274 435 294">
+      </gadget>
+      <gadget name="PlayerDataWoodField6" type="textField" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" size1024="439 274 492 294">
+      </gadget>
+      <gadget name="PlayerDataGoldField6" type="textField" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" size1024="496 274 549 294">
+      </gadget>
+      <gadget name="PlayerDataHideDropdown6" type="textField" dropdowndistance="95" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" fieldreadonly="" size1024="804 273 885 293">
+        <dropdown>
+        </dropdown>
+      </gadget>
+      <gadget name="PlayerDataAIButton6" type="button" bevelbutton="" textfont="Arial Nodrop For SE" textfontsize="12" size1024="896 273 935 293">$$20396$$AI</gadget>
+      <gadget name="PlayerDataPopField6" type="textField" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" size1024="610 274 663 294">
+      </gadget>
+      <gadget name="PlayerDataAIClear6" type="button" bevelbutton="" textfont="Arial Nodrop For SE" textfontsize="12" size1024="941 273 998 293" z="11">$$20397$$Clear AI</gadget>
+    </gadget>
+    <gadget name="PlayerDataRow7" type="gadget" size1024="5 296 1017 318">
+      <gadget name="PlayerNumber7" type="textBox" textfont="Arial Nodrop For SE" textfontsize="12" textcolor="0 0 0" size1024="25 296 45 316">$$20530$$7</gadget>
+      <gadget name="PlayerDataColorDropdown7" type="colorDropdown" dropdowndistance="120" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" fieldreadonly="" size1024="63 296 133 316">
+        <dropdown>
+        </dropdown>
+      </gadget>
+      <gadget name="PlayerDataCivDropdown7" type="textField" dropdowndistance="120" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" fieldreadonly="" size1024="143 297 258 316">
+        <dropdown>
+        </dropdown>
+      </gadget>
+      <gadget name="PlayerDataControlDropdown7" type="textField" dropdowndistance="100" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" fieldreadonly="" size1024="684 296 794 316">
+        <dropdown>
+        </dropdown>
+      </gadget>
+      <gadget enableime="" name="PlayerDataNameField7" type="textField" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" size1024="265 296 372 316">
+      </gadget>
+      <gadget name="PlayerDataFoodField7" type="textField" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" size1024="382 297 435 317">
+      </gadget>
+      <gadget name="PlayerDataWoodField7" type="textField" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" size1024="439 297 492 317">
+      </gadget>
+      <gadget name="PlayerDataGoldField7" type="textField" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" size1024="496 297 549 317">
+      </gadget>
+      <gadget name="PlayerDataHideDropdown7" type="textField" dropdowndistance="95" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" fieldreadonly="" size1024="804 296 885 316">
+        <dropdown>
+        </dropdown>
+      </gadget>
+      <gadget name="PlayerDataAIButton7" type="button" bevelbutton="" textfont="Arial Nodrop For SE" textfontsize="12" size1024="896 296 935 316">$$20396$$AI</gadget>
+      <gadget name="PlayerDataPopField7" type="textField" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" size1024="610 297 663 317">
+      </gadget>
+      <gadget name="PlayerDataAIClear7" type="button" bevelbutton="" textfont="Arial Nodrop For SE" textfontsize="12" size1024="941 296 998 316" z="11">$$20397$$Clear AI</gadget>
+    </gadget>
+    <gadget name="PlayerDataRow8" type="gadget" size1024="5 319 1017 341">
+      <gadget name="PlayerNumber8" type="textBox" textfont="Arial Nodrop For SE" textfontsize="12" textcolor="0 0 0" size1024="25 319 45 339">$$20531$$8</gadget>
+      <gadget name="PlayerDataColorDropdown8" type="colorDropdown" dropdowndistance="120" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" fieldreadonly="" size1024="63 319 133 339">
+        <dropdown>
+        </dropdown>
+      </gadget>
+      <gadget name="PlayerDataCivDropdown8" type="textField" dropdowndistance="120" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" fieldreadonly="" size1024="143 320 258 339">
+        <dropdown>
+        </dropdown>
+      </gadget>
+      <gadget name="PlayerDataControlDropdown8" type="textField" dropdowndistance="100" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" fieldreadonly="" size1024="684 319 794 339">
+        <dropdown>
+        </dropdown>
+      </gadget>
+      <gadget enableime="" name="PlayerDataNameField8" type="textField" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" size1024="265 319 372 339">
+      </gadget>
+      <gadget name="PlayerDataFoodField8" type="textField" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" size1024="382 320 435 340">
+      </gadget>
+      <gadget name="PlayerDataWoodField8" type="textField" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" size1024="439 320 492 340">
+      </gadget>
+      <gadget name="PlayerDataGoldField8" type="textField" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" size1024="496 320 549 340">
+      </gadget>
+      <gadget name="PlayerDataHideDropdown8" type="textField" dropdowndistance="95" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" fieldreadonly="" size1024="804 319 885 339">
+        <dropdown>
+        </dropdown>
+      </gadget>
+      <gadget name="PlayerDataAIButton8" type="button" bevelbutton="" textfont="Arial Nodrop For SE" textfontsize="12" size1024="896 319 935 339">$$20396$$AI</gadget>
+      <gadget name="PlayerDataPopField8" type="textField" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" size1024="610 320 663 340">
+      </gadget>
+      <gadget name="PlayerDataAIClear8" type="button" bevelbutton="" textfont="Arial Nodrop For SE" textfontsize="12" size1024="941 319 998 339" z="11">$$20397$$Clear AI</gadget>
+    </gadget>
+    <gadget name="PlayerDataRow9" type="gadget" size1024="5 342 1017 364">
+      <gadget name="PlayerNumber9" type="textBox" textfont="Arial Nodrop For SE" textfontsize="12" textcolor="0 0 0" size1024="25 342 45 362">$$20532$$9</gadget>
+      <gadget name="PlayerDataColorDropdown9" type="colorDropdown" dropdowndistance="120" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" fieldreadonly="" size1024="63 342 133 362">
+        <dropdown>
+        </dropdown>
+      </gadget>
+      <gadget name="PlayerDataCivDropdown9" type="textField" dropdowndistance="120" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" fieldreadonly="" size1024="143 343 258 362">
+        <dropdown>
+        </dropdown>
+      </gadget>
+      <gadget name="PlayerDataControlDropdown9" type="textField" dropdowndistance="100" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" fieldreadonly="" size1024="684 342 794 362">
+        <dropdown>
+        </dropdown>
+      </gadget>
+      <gadget enableime="" name="PlayerDataNameField9" type="textField" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" size1024="265 342 372 362">
+      </gadget>
+      <gadget name="PlayerDataFoodField9" type="textField" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" size1024="382 343 435 363">
+      </gadget>
+      <gadget name="PlayerDataWoodField9" type="textField" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" size1024="439 343 492 363">
+      </gadget>
+      <gadget name="PlayerDataGoldField9" type="textField" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" size1024="496 343 549 363">
+      </gadget>
+      <gadget name="PlayerDataHideDropdown9" type="textField" dropdowndistance="95" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" fieldreadonly="" size1024="804 342 885 362">
+        <dropdown>
+        </dropdown>
+      </gadget>
+      <gadget name="PlayerDataAIButton9" type="button" bevelbutton="" textfont="Arial Nodrop For SE" textfontsize="12" size1024="896 342 935 362">$$20396$$AI</gadget>
+      <gadget name="PlayerDataPopField9" type="textField" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" size1024="610 343 663 363">
+      </gadget>
+      <gadget name="PlayerDataAIClear9" type="button" bevelbutton="" textfont="Arial Nodrop For SE" textfontsize="12" size1024="941 342 998 362" z="11">$$20397$$Clear AI</gadget>
+    </gadget>
+    <gadget name="PlayerDataRow10" type="gadget" size1024="5 365 1017 387">
+      <gadget name="PlayerNumber10" type="textBox" textfont="Arial Nodrop For SE" textfontsize="12" textcolor="0 0 0" size1024="25 365 45 385">$$20533$$10</gadget>
+      <gadget name="PlayerDataColorDropdown10" type="colorDropdown" dropdowndistance="120" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" fieldreadonly="" size1024="63 365 133 385">
+        <dropdown>
+        </dropdown>
+      </gadget>
+      <gadget name="PlayerDataCivDropdown10" type="textField" dropdowndistance="120" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" fieldreadonly="" size1024="143 366 258 385">
+        <dropdown>
+        </dropdown>
+      </gadget>
+      <gadget name="PlayerDataControlDropdown10" type="textField" dropdowndistance="100" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" fieldreadonly="" size1024="684 365 794 385">
+        <dropdown>
+        </dropdown>
+      </gadget>
+      <gadget enableime="" name="PlayerDataNameField10" type="textField" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" size1024="265 365 372 385">
+      </gadget>
+      <gadget name="PlayerDataFoodField10" type="textField" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" size1024="382 366 435 386">
+      </gadget>
+      <gadget name="PlayerDataWoodField10" type="textField" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" size1024="439 366 492 386">
+      </gadget>
+      <gadget name="PlayerDataGoldField10" type="textField" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" size1024="496 366 549 386">
+      </gadget>
+      <gadget name="PlayerDataHideDropdown10" type="textField" dropdowndistance="95" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" fieldreadonly="" size1024="804 365 885 385">
+        <dropdown>
+        </dropdown>
+      </gadget>
+      <gadget name="PlayerDataAIButton10" type="button" bevelbutton="" textfont="Arial Nodrop For SE" textfontsize="12" size1024="896 365 935 385">$$20396$$AI</gadget>
+      <gadget name="PlayerDataPopField10" type="textField" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" size1024="610 366 663 386">
+      </gadget>
+      <gadget name="PlayerDataAIClear10" type="button" bevelbutton="" textfont="Arial Nodrop For SE" textfontsize="12" size1024="941 365 998 385" z="11">$$20397$$Clear AI</gadget>
+    </gadget>
+    <gadget name="PlayerDataRow11" type="gadget" size1024="5 388 1017 410">
+      <gadget name="PlayerNumber11" type="textBox" textfont="Arial Nodrop For SE" textfontsize="12" textcolor="0 0 0" size1024="25 388 45 408">$$20534$$11</gadget>
+      <gadget name="PlayerDataColorDropdown11" type="colorDropdown" dropdowndistance="120" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" fieldreadonly="" size1024="63 388 133 408">
+        <dropdown>
+        </dropdown>
+      </gadget>
+      <gadget name="PlayerDataCivDropdown11" type="textField" dropdowndistance="120" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" fieldreadonly="" size1024="143 389 258 408">
+        <dropdown>
+        </dropdown>
+      </gadget>
+      <gadget name="PlayerDataControlDropdown11" type="textField" dropdowndistance="100" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" fieldreadonly="" size1024="684 388 794 408">
+        <dropdown>
+        </dropdown>
+      </gadget>
+      <gadget enableime="" name="PlayerDataNameField11" type="textField" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" size1024="265 388 372 408">
+      </gadget>
+      <gadget name="PlayerDataFoodField11" type="textField" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" size1024="382 389 435 409">
+      </gadget>
+      <gadget name="PlayerDataWoodField11" type="textField" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" size1024="439 389 492 409">
+      </gadget>
+      <gadget name="PlayerDataGoldField11" type="textField" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" size1024="496 389 549 409">
+      </gadget>
+      <gadget name="PlayerDataHideDropdown11" type="textField" dropdowndistance="95" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" fieldreadonly="" size1024="804 388 885 408">
+        <dropdown>
+        </dropdown>
+      </gadget>
+      <gadget name="PlayerDataAIButton11" type="button" bevelbutton="" textfont="Arial Nodrop For SE" textfontsize="12" size1024="896 388 935 408">$$20396$$AI</gadget>
+      <gadget name="PlayerDataPopField11" type="textField" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" size1024="610 389 663 409">
+      </gadget>
+      <gadget name="PlayerDataAIClear11" type="button" bevelbutton="" textfont="Arial Nodrop For SE" textfontsize="12" size1024="941 388 998 408" z="11">$$20397$$Clear AI</gadget>
+    </gadget>
+    <gadget name="PlayerDataRow12" type="gadget" size1024="5 411 1017 433" z="9">
+      <gadget name="PlayerNumber12" type="textBox" textfont="Arial Nodrop For SE" textfontsize="12" textcolor="0 0 0" size1024="25 411 45 431" z="9">$$20535$$12</gadget>
+      <gadget name="PlayerDataColorDropdown12" type="colorDropdown" dropdowndistance="120" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" fieldreadonly="" size1024="63 411 133 431" z="9">
+        <dropdown>
+        </dropdown>
+      </gadget>
+      <gadget name="PlayerDataCivDropdown12" type="textField" dropdowndistance="120" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" fieldreadonly="" size1024="143 412 258 431" z="9">
+        <dropdown>
+        </dropdown>
+      </gadget>
+      <gadget name="PlayerDataControlDropdown12" type="textField" dropdowndistance="100" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" fieldreadonly="" size1024="684 411 794 431" z="9">
+        <dropdown>
+        </dropdown>
+      </gadget>
+      <gadget enableime="" name="PlayerDataNameField12" type="textField" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" size1024="265 411 372 431" z="9">
+      </gadget>
+      <gadget name="PlayerDataFoodField12" type="textField" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" size1024="382 412 435 432" z="9">
+      </gadget>
+      <gadget name="PlayerDataWoodField12" type="textField" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" size1024="439 412 492 432" z="9">
+      </gadget>
+      <gadget name="PlayerDataGoldField12" type="textField" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" size1024="496 412 549 432" z="9">
+      </gadget>
+      <gadget name="PlayerDataHideDropdown12" type="textField" dropdowndistance="95" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" fieldreadonly="" size1024="804 411 885 431" z="9">
+        <dropdown>
+        </dropdown>
+      </gadget>
+      <gadget name="PlayerDataAIButton12" type="button" bevelbutton="" textfont="Arial Nodrop For SE" textfontsize="12" size1024="896 411 935 431" z="9">$$20396$$AI</gadget>
+      <gadget name="PlayerDataPopField12" type="textField" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" size1024="610 412 663 432">
+      </gadget>
+      <gadget name="PlayerDataAIClear12" type="button" bevelbutton="" textfont="Arial Nodrop For SE" textfontsize="12" size1024="941 411 998 431" z="11">$$20397$$Clear AI</gadget>
+    </gadget>
+    <gadget name="PlayerDataSeparator" type="gadget" background="UI\editor\menu_separator" size1024="17 461 1005 471">
+    </gadget>
+    <gadget name="PlayerDataCancelButton" type="button" bevelbutton="" textfont="Arial Nodrop For SE" textfontsize="12" size1024="887 474 957 499">$$18457$$Close</gadget>
+  </gadget>
+  <gadget name="PlayerDiplomacyDialog" type="gadget" size1024="140 50 860 560" background="ui\editor\editor_background" bevel="" titlebar="$$19098$$Diplomacy" closebutton="" hidden="" moveable="" windowzstyle="">
+    <gadget name="PlayerText" textcolor="0 0 0" textfontsize="12" textfont="Arial Nodrop For SE" type="textBox" size1024="142 78 242 99">$$20020$$Player</gadget>
+    <gadget name="PlayerText" textcolor="0 0 0" textfontsize="12" textfont="Arial Nodrop For SE" type="textBox" size1024="258 79 288 99">$$20524$$1</gadget>
+    <gadget name="PlayerText" textcolor="0 0 0" textfontsize="12" textfont="Arial Nodrop For SE" type="textBox" size1024="296 78 326 98">$$20525$$2</gadget>
+    <gadget name="PlayerText" textcolor="0 0 0" textfontsize="12" textfont="Arial Nodrop For SE" type="textBox" size1024="336 78 366 98">$$20526$$3</gadget>
+    <gadget name="PlayerText" textcolor="0 0 0" textfontsize="12" textfont="Arial Nodrop For SE" type="textBox" size1024="376 78 406 98">$$20527$$4</gadget>
+    <gadget name="PlayerText" textcolor="0 0 0" textfontsize="12" textfont="Arial Nodrop For SE" type="textBox" size1024="416 78 446 98">$$20528$$5</gadget>
+    <gadget name="PlayerText" textcolor="0 0 0" textfontsize="12" textfont="Arial Nodrop For SE" type="textBox" size1024="456 78 486 98">$$20529$$6</gadget>
+    <gadget name="PlayerText" textcolor="0 0 0" textfontsize="12" textfont="Arial Nodrop For SE" type="textBox" size1024="496 78 526 98">$$20530$$7</gadget>
+    <gadget name="PlayerText" textcolor="0 0 0" textfontsize="12" textfont="Arial Nodrop For SE" type="textBox" size1024="536 78 566 98">$$20531$$8</gadget>
+    <gadget name="PlayerText" textcolor="0 0 0" textfontsize="12" textfont="Arial Nodrop For SE" type="textBox" size1024="576 78 606 98">$$20532$$9</gadget>
+    <gadget name="PlayerText" textcolor="0 0 0" textfontsize="12" textfont="Arial Nodrop For SE" type="textBox" size1024="616 78 646 98">$$20533$$10</gadget>
+    <gadget name="PlayerText" textcolor="0 0 0" textfontsize="12" textfont="Arial Nodrop For SE" type="textBox" size1024="656 78 686 98">$$20534$$11</gadget>
+    <gadget name="PlayerText" textcolor="0 0 0" textfontsize="12" textfont="Arial Nodrop For SE" type="textBox" size1024="696 78 726 98">$$20535$$12</gadget>
+    <gadget name="Player1Diplomacy" type="gadget" size1024="150 107 740 127">
+      <gadget name="PlayerNumber1" type="textBox" textfont="Arial Nodrop For SE" textfontsize="12" textcolor="0 0 0" size1024="150 107 180 127">$$20524$$1</gadget>
+      <gadget name="P1P1" type="stateButton" bevel="" hidden="" size1024="190 107 205 122">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P1P2" type="stateButton" bevel="" size1024="299 108 315 124">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P1P3" type="stateButton" bevel="" size1024="340 108 355 123">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P1P4" type="stateButton" bevel="" size1024="380 108 395 123">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P1P5" type="stateButton" bevel="" size1024="420 108 435 123">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P1P6" type="stateButton" bevel="" size1024="460 108 475 123">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P1P7" type="stateButton" bevel="" size1024="502 108 517 123">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P1P8" type="stateButton" bevel="" size1024="542 108 557 123">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P1P9" type="stateButton" bevel="" size1024="579 108 594 123">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P1P10" type="stateButton" bevel="" size1024="623 108 638 123">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P1P11" type="stateButton" bevel="" size1024="662 108 677 123">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P1P12" type="stateButton" bevel="" size1024="701 108 716 123">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+    </gadget>
+    <gadget name="Player2Diplomacy" type="gadget" size1024="150 136 740 156">
+      <gadget name="PlayerNumber2" type="textBox" textfont="Arial Nodrop For SE" textfontsize="12" textcolor="0 0 0" size1024="150 136 180 156">$$20525$$2</gadget>
+      <gadget name="P2P1" type="stateButton" bevel="" size1024="259 137 274 152">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P2P2" type="stateButton" bevel="" hidden="" size1024="230 136 245 151">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P2P3" type="stateButton" bevel="" size1024="340 137 355 152">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P2P4" type="stateButton" bevel="" size1024="380 137 395 152">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P2P5" type="stateButton" bevel="" size1024="420 137 435 152">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P2P6" type="stateButton" bevel="" size1024="460 137 475 152">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P2P7" type="stateButton" bevel="" size1024="502 137 517 152">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P2P8" type="stateButton" bevel="" size1024="542 137 557 152">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P2P9" type="stateButton" bevel="" size1024="579 137 594 152">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P2P10" type="stateButton" bevel="" size1024="623 137 638 152">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P2P11" type="stateButton" bevel="" size1024="662 137 677 152">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P2P12" type="stateButton" bevel="" size1024="701 137 716 152">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+    </gadget>
+    <gadget name="Player3Diplomacy" type="gadget" size1024="150 166 740 186">
+      <gadget name="PlayerNumber3" type="textBox" textfont="Arial Nodrop For SE" textfontsize="12" textcolor="0 0 0" size1024="150 166 180 186">$$20526$$3</gadget>
+      <gadget name="P3P1" type="stateButton" bevel="" size1024="259 167 274 182">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P3P2" type="stateButton" bevel="" size1024="299 167 314 182">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P3P3" type="stateButton" bevel="" hidden="" size1024="270 166 285 181">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P3P4" type="stateButton" bevel="" size1024="380 167 395 182">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P3P5" type="stateButton" bevel="" size1024="420 167 435 182">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P3P6" type="stateButton" bevel="" size1024="460 167 475 182">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P3P7" type="stateButton" bevel="" size1024="502 167 517 182">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P3P8" type="stateButton" bevel="" size1024="542 167 557 182">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P3P9" type="stateButton" bevel="" size1024="579 167 594 182">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P3P10" type="stateButton" bevel="" size1024="623 167 638 182">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P3P11" type="stateButton" bevel="" size1024="662 167 677 182">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P3P12" type="stateButton" bevel="" size1024="701 167 716 182">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+    </gadget>
+    <gadget name="Player4Diplomacy" type="gadget" size1024="150 196 740 216">
+      <gadget name="PlayerNumber4" type="textBox" textfont="Arial Nodrop For SE" textfontsize="12" textcolor="0 0 0" size1024="150 196 180 216">$$20527$$4</gadget>
+      <gadget name="P4P1" type="stateButton" bevel="" size1024="259 197 274 212">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P4P2" type="stateButton" bevel="" size1024="299 197 314 212">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P4P3" type="stateButton" bevel="" size1024="340 197 355 212">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P4P4" type="stateButton" bevel="" hidden="" size1024="310 196 325 211">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P4P5" type="stateButton" bevel="" size1024="420 197 435 212">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P4P6" type="stateButton" bevel="" size1024="460 197 475 212">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P4P7" type="stateButton" bevel="" size1024="502 197 517 212">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P4P8" type="stateButton" bevel="" size1024="542 197 557 212">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P4P9" type="stateButton" bevel="" size1024="579 197 594 212">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P4P10" type="stateButton" bevel="" size1024="623 197 638 212">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P4P11" type="stateButton" bevel="" size1024="662 197 677 212">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P4P12" type="stateButton" bevel="" size1024="701 197 716 212">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+    </gadget>
+    <gadget name="Player5Diplomacy" type="gadget" size1024="150 226 740 246">
+      <gadget name="PlayerNumber5" type="textBox" textfont="Arial Nodrop For SE" textfontsize="12" textcolor="0 0 0" size1024="150 226 180 246">$$20528$$5</gadget>
+      <gadget name="P5P1" type="stateButton" bevel="" size1024="259 227 274 242">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P5P2" type="stateButton" bevel="" size1024="299 227 314 242">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P5P3" type="stateButton" bevel="" size1024="340 227 355 242">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P5P4" type="stateButton" bevel="" size1024="380 227 395 242">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P5P5" type="stateButton" bevel="" hidden="" size1024="350 226 365 241">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P5P6" type="stateButton" bevel="" size1024="460 227 475 242">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P5P7" type="stateButton" bevel="" size1024="502 227 517 242">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P5P8" type="stateButton" bevel="" size1024="542 227 557 242">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P5P9" type="stateButton" bevel="" size1024="579 227 594 242">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P5P10" type="stateButton" bevel="" size1024="623 227 638 242">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P5P11" type="stateButton" bevel="" size1024="662 227 677 242">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P5P12" type="stateButton" bevel="" size1024="701 227 716 242">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+    </gadget>
+    <gadget name="Player6Diplomacy" type="gadget" size1024="150 254 740 274">
+      <gadget name="PlayerNumber6" type="textBox" textfont="Arial Nodrop For SE" textfontsize="12" textcolor="0 0 0" size1024="150 254 180 274">$$20529$$6</gadget>
+      <gadget name="P6P1" type="stateButton" bevel="" size1024="259 255 274 270">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P6P2" type="stateButton" bevel="" size1024="299 255 314 270">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P6P3" type="stateButton" bevel="" size1024="340 255 355 270">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P6P4" type="stateButton" bevel="" size1024="380 255 395 270">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P6P5" type="stateButton" bevel="" size1024="420 255 435 270">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P6P6" type="stateButton" bevel="" hidden="" size1024="390 254 405 269">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P6P7" type="stateButton" bevel="" size1024="502 255 517 270">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P6P8" type="stateButton" bevel="" size1024="542 255 557 270">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P6P9" type="stateButton" bevel="" size1024="579 255 594 270">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P6P10" type="stateButton" bevel="" size1024="623 255 638 270">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P6P11" type="stateButton" bevel="" size1024="662 255 677 270">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P6P12" type="stateButton" bevel="" size1024="701 255 716 270">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+    </gadget>
+    <gadget name="Player7Diplomacy" type="gadget" size1024="150 284 740 304">
+      <gadget name="PlayerNumber7" type="textBox" textfont="Arial Nodrop For SE" textfontsize="12" textcolor="0 0 0" size1024="150 284 180 304">$$20530$$7</gadget>
+      <gadget name="P7P1" type="stateButton" bevel="" size1024="259 285 274 300">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P7P2" type="stateButton" bevel="" size1024="299 285 314 300">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P7P3" type="stateButton" bevel="" size1024="340 285 355 300">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P7P4" type="stateButton" bevel="" size1024="380 285 395 300">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P7P5" type="stateButton" bevel="" size1024="420 285 435 300">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P7P6" type="stateButton" bevel="" size1024="460 285 475 300">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P7P7" type="stateButton" bevel="" hidden="" size1024="430 284 445 299">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P7P8" type="stateButton" bevel="" size1024="542 285 557 300">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P7P9" type="stateButton" bevel="" size1024="579 285 594 300">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P7P10" type="stateButton" bevel="" size1024="623 285 638 300">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P7P11" type="stateButton" bevel="" size1024="662 285 677 300">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P7P12" type="stateButton" bevel="" size1024="701 285 716 300">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+    </gadget>
+    <gadget name="Player8Diplomacy" type="gadget" size1024="150 315 740 335">
+      <gadget name="PlayerNumber8" type="textBox" textfont="Arial Nodrop For SE" textfontsize="12" textcolor="0 0 0" size1024="150 315 180 335">$$20531$$8</gadget>
+      <gadget name="P8P1" type="stateButton" bevel="" size1024="259 316 274 331">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P8P2" type="stateButton" bevel="" size1024="299 316 314 331">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P8P3" type="stateButton" bevel="" size1024="340 316 355 331">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P8P4" type="stateButton" bevel="" size1024="380 316 395 331">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P8P5" type="stateButton" bevel="" size1024="420 316 435 331">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P8P6" type="stateButton" bevel="" size1024="460 316 475 331">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P8P7" type="stateButton" bevel="" size1024="502 316 517 331">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P8P8" type="stateButton" bevel="" hidden="" size1024="470 315 485 330">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P8P9" type="stateButton" bevel="" size1024="579 316 594 331">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P8P10" type="stateButton" bevel="" size1024="623 316 638 331">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P8P11" type="stateButton" bevel="" size1024="662 316 677 331">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P8P12" type="stateButton" bevel="" size1024="701 316 716 331">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+    </gadget>
+    <gadget name="Player9Diplomacy" type="gadget" size1024="150 345 740 365">
+      <gadget name="PlayerNumber9" type="textBox" textfont="Arial Nodrop For SE" textfontsize="12" textcolor="0 0 0" size1024="150 345 180 365">$$20532$$9</gadget>
+      <gadget name="P9P1" type="stateButton" bevel="" size1024="259 346 274 361">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P9P2" type="stateButton" bevel="" size1024="299 346 314 361">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P9P3" type="stateButton" bevel="" size1024="340 346 355 361">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P9P4" type="stateButton" bevel="" size1024="380 346 395 361">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P9P5" type="stateButton" bevel="" size1024="420 346 435 361">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P9P6" type="stateButton" bevel="" size1024="460 346 475 361">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P9P7" type="stateButton" bevel="" size1024="502 346 517 361">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P9P8" type="stateButton" bevel="" size1024="542 346 557 361">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P9P9" type="stateButton" bevel="" hidden="" size1024="510 345 525 360">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P9P10" type="stateButton" bevel="" size1024="623 346 638 361">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P9P11" type="stateButton" bevel="" size1024="662 346 677 361">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P9P12" type="stateButton" bevel="" size1024="701 346 716 361">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+    </gadget>
+    <gadget name="Player10Diplomacy" type="gadget" size1024="150 373 740 393">
+      <gadget name="PlayerNumber10" type="textBox" textfont="Arial Nodrop For SE" textfontsize="12" textcolor="0 0 0" size1024="150 373 180 393">$$20533$$10</gadget>
+      <gadget name="P10P1" type="stateButton" bevel="" size1024="259 374 274 389">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P10P2" type="stateButton" bevel="" size1024="299 374 314 389">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P10P3" type="stateButton" bevel="" size1024="340 374 355 389">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P10P4" type="stateButton" bevel="" size1024="380 374 395 389">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P10P5" type="stateButton" bevel="" size1024="420 374 435 389">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P10P6" type="stateButton" bevel="" size1024="460 374 475 389">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P10P7" type="stateButton" bevel="" size1024="502 374 517 389">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P10P8" type="stateButton" bevel="" size1024="542 374 557 389">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P10P9" type="stateButton" bevel="" size1024="579 374 594 389">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P10P10" type="stateButton" bevel="" hidden="" size1024="554 373 569 388">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P10P11" type="stateButton" bevel="" size1024="662 374 677 389">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P10P12" type="stateButton" bevel="" size1024="701 374 716 389">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+    </gadget>
+    <gadget name="Player11Diplomacy" type="gadget" size1024="150 403 740 423">
+      <gadget name="PlayerNumber11" type="textBox" textfont="Arial Nodrop For SE" textfontsize="12" textcolor="0 0 0" size1024="150 403 180 423">$$20534$$11</gadget>
+      <gadget name="P11P1" type="stateButton" bevel="" size1024="259 404 274 419">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P11P2" type="stateButton" bevel="" size1024="299 404 314 419">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P11P3" type="stateButton" bevel="" size1024="340 404 355 419">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P11P4" type="stateButton" bevel="" size1024="380 404 395 419">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P11P5" type="stateButton" bevel="" size1024="420 404 435 419">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P11P6" type="stateButton" bevel="" size1024="460 404 475 419">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P11P7" type="stateButton" bevel="" size1024="502 404 517 419">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P11P8" type="stateButton" bevel="" size1024="542 404 557 419">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P11P9" type="stateButton" bevel="" size1024="579 404 594 419">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P11P10" type="stateButton" bevel="" size1024="623 404 638 419">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P11P11" type="stateButton" bevel="" hidden="" size1024="594 403 609 418">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P11P12" type="stateButton" bevel="" size1024="701 404 716 419">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+    </gadget>
+    <gadget name="Player12Diplomacy" type="gadget" size1024="150 436 740 456">
+      <gadget name="PlayerNumber12" type="textBox" textfont="Arial Nodrop For SE" textfontsize="12" textcolor="0 0 0" size1024="150 436 180 456">$$20535$$12</gadget>
+      <gadget name="P12P1" type="stateButton" bevel="" size1024="259 437 274 452">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P12P2" type="stateButton" bevel="" size1024="299 437 314 452">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P12P3" type="stateButton" bevel="" size1024="340 437 355 452">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P12P4" type="stateButton" bevel="" size1024="380 437 395 452">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P12P5" type="stateButton" bevel="" size1024="420 437 435 452">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P12P6" type="stateButton" bevel="" size1024="460 437 475 452">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P12P7" type="stateButton" bevel="" size1024="502 437 517 452">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P12P8" type="stateButton" bevel="" size1024="542 437 557 452">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P12P9" type="stateButton" bevel="" size1024="579 437 594 452">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P12P10" type="stateButton" bevel="" size1024="623 437 638 452">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P12P11" type="stateButton" bevel="" size1024="662 437 677 452">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+      <gadget name="P12P12" type="stateButton" bevel="" hidden="" size1024="634 436 649 451">
+        <stateentry backgroundcolor="255 255 255">
+        </stateentry>
+        <stateentry backgroundcolor="255 0 0">
+        </stateentry>
+        <stateentry backgroundcolor="0 255 0">
+        </stateentry>
+      </gadget>
+    </gadget>
+    <gadget name="DiplomacySettingsSeparator" type="gadget" background="UI\editor\menu_separator" size1024="148 468 848 478">
+    </gadget>
+    <gadget name="DiplomacySettingsCloseButton" type="button" bevelbutton="" textfont="Arial Nodrop For SE" textfontsize="12" size1024="728 512 828 537">$$18457$$Close<command>gadgetUnreal("PlayerDiplomacyDialog");</command></gadget>
+    <gadget name="diplomacydialog-Key" type="gadget" size1024="149 480 378 558">
+      <gadget name="diplomacydialog-Key-Alliedtext" textcolor="0 0 0" textfontsize="12" textfont="Arial Nodrop For SE" type="textBox" size1024="175 482 350 503">$$21223$$Allied</gadget>
+      <gadget name="diplomacydialog-Key-Enemytext" textcolor="0 0 0" textfontsize="12" textfont="Arial Nodrop For SE" type="textBox" size1024="175 509 350 530">$$21224$$Enemies</gadget>
+      <gadget name="diplomacydialog-Key-Neutraltext" textcolor="0 0 0" textfontsize="12" textfont="Arial Nodrop For SE" type="textBox" size1024="175 536 350 557">$$21225$$Neutral</gadget>
+      <gadget backgroundcolor="0 255 0" name="diplomacydialog-Key-Alliedicon" type="gadget" size1024="154 482 170 498">
+      </gadget>
+      <gadget backgroundcolor="255 0 0" name="diplomacydialog-Key-Enemyicon" type="gadget" size1024="154 509 170 525">
+      </gadget>
+      <gadget name="diplomacydialog-Key-Neutralicon" type="gadget" size1024="154 536 170 552" backgroundcolor="255 255 255">
+      </gadget>
+    </gadget>
+  </gadget>
+  <gadget name="ForbiddenProtoDlg" type="gadget" size1024="10 60 610 600" closebutton="" titlebar="$$20479$$Forbidden Units" background="ui\editor\editor_background" tilebackground="" bevel="" hidden="" windowzstyle="" moveable="">
+    <gadget type="textBox" name="ForbiddenProtoDlg-player-Text" size1024="15 90 170 110" textcolor="0 0 0" background="ui\editor\editor_background">$$20391$$Player:</gadget>
+    <gadget type="textField" name="ForbiddenProtoDlg-player-Field" size1024="180 90 300 110" textcolor="255 255 255" background="ui\editor\editor_background" bevel="" dropdowndistance="132">
+    </gadget>
+    <gadget type="list" checkbutton="" name="ForbiddenProtoDlg-protolist" size1024="20 140 600 590" background="ui\editor\editor_background" bevel="" buttonsize1024="400 25" scrollvert="" alphasort="">
+    </gadget>
+  </gadget>
+  <position name="AGameMinimap" size1024="813 560 1003 750">
+  </position>
+  <gadget type="gadget" name="Letterbox-topbar" size1024="0 104 1024 107" backgroundcolor="255 0 0" z="200" hidden="">
+  </gadget>
+  <gadget type="gadget" name="Letterbox-bottombar" size1024="0 661 1024 664" backgroundcolor="255 0 0" z="200" hidden="">
+  </gadget>
+  <gadget type="gadget" name="editorPausedText" textcolor="255 255 255" size1024="462 370 562 390" transparent="" background="" hidden="" textfont="Arial" textfontsize="14">$$20478$$Editor Paused</gadget>
+</layout>

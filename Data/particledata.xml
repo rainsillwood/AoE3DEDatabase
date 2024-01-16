@@ -1,0 +1,42 @@
+<particledata>
+  <effect file="homecity\american_hc_fireworks.pkfx">
+    <event name="Kaboom" type="PlaySFX" soundset="DEFireworks">
+    </event>
+  </effect>
+  <effect file="homecity\china_hc_fireworks.pkfx">
+    <event name="Kaboom" type="PlaySFX" soundset="DEFireworks">
+    </event>
+  </effect>
+  <effect file="homecity\china_hc_storm.pkfx">
+    <event name="Thunder" type="PlaySFX" soundset="DEThunder">
+    </event>
+    <event name="Rain" type="PlaySFX" soundset="DERain">
+    </event>
+  </effect>
+  <effect file="homecity\india_hc_storm.pkfx">
+    <event name="Thunder" type="PlaySFX" soundset="DEThunder">
+    </event>
+    <event name="Rain" type="PlaySFX" soundset="DERain">
+    </event>
+  </effect>
+  <effect file="homecity\aztec_hc_storm.pkfx">
+    <event name="Thunder" type="PlaySFX" soundset="DEThunder">
+    </event>
+    <event name="Rain" type="PlaySFX" soundset="DERain">
+    </event>
+  </effect>
+  <effect file="homecity\mexico_hc_fireworks.pkfx">
+    <event name="Kaboom" type="PlaySFX" soundset="DEFireworksLight">
+    </event>
+  </effect>
+  <effect file="homecity\mexico_hc_fireworks2.pkfx">
+    <event name="Kaboom" type="PlaySFX" soundset="DEFireworks">
+    </event>
+  </effect>
+  <effect file="homecity\italy_hc_storm.pkfx">
+    <event name="Thunder" type="PlaySFX" soundset="DEThunder">
+    </event>
+    <event name="Rain" type="PlaySFX" soundset="DERain">
+    </event>
+  </effect>
+</particledata>

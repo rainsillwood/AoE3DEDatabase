@@ -1,0 +1,6 @@
+<layout>
+  <gadget type="dialog" name="receive-status" bevel="" hidden="" a-dtype="textFontSize number Z number" centervert="" centerhoriz="" size1024="0 0 400 200" titlebar="Receiving Game">
+    <gadget type="textBox" sizerel1024="10 10 390 140" name="receive-status-text" textwrapon="" textscrollbar="" nodatareplace="" backgroundcolor="White">
+    </gadget>
+  </gadget>
+</layout>

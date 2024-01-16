@@ -1,0 +1,100 @@
+<layout>
+  <gadget name="camEditor" type="gadget" size1024="0 565 798 767" titlebar="$$20507$$Camera Track Editor" background="ui\editor\editor_background" tilebackground="" locktitlebarmove="">
+    <gadget type="button" name="camEdit-newbtn" size1024="159 598 209 623" bevelbutton="" textcolor="0 0 0" textfont="Arial Nodrop For SE" textfontsize="12">$$19009$$Clear<command>trackClear</command></gadget>
+    <gadget type="list" name="camEdit-Track-list" titlebar="$$20523$$Tracks" size1024="11 598 152 753" textcolor="0 0 0" background="ui\editor\editor_background" showselect="" selectedcolor="255 255 255" buttonsize1024="115 15" scrollvert="" locktitlebarmove="">
+    </gadget>
+    <gadget type="button" name="camEdit-Track-insbtn" size1024="159 627 209 652" bevelbutton="" textcolor="0 0 0" textfont="Arial Nodrop For SE" textfontsize="12">$$20488$$Insert<command>trackInsert</command></gadget>
+    <gadget type="button" name="camEdit-Track-delbtn" size1024="159 657 209 682" bevelbutton="" textcolor="0 0 0" textfont="Arial Nodrop For SE" textfontsize="12">$$18574$$Delete<command>trackRemove</command></gadget>
+    <gadget type="textField" name="camEdit-Name" size1024="219 598 401 623" textcolor="0 0 0" textfont="Arial nobold nodrop" textfontsize="12" history="">$$20509$$Name</gadget>
+    <gadget type="textField" name="camEdit-Duration" size1024="219 627 401 652" textcolor="0 0 0" textfont="Arial nobold nodrop" textfontsize="12" history="" numberfield="">$$20510$$Duration</gadget>
+    <gadget type="checkbutton" name="camEdit-AutoTime" configindex="CameraTrackAutoAdjustTimes" size1024="219 652 401 682" textcolor="0 0 0" textfont="Arial nobold nodrop" textfontsize="12" rightcheck="">Auto Update Times</gadget>
+    <gadget type="slider" name="camEdit-progress" size1024="240 687 373 712" textcolor="0 0 0">
+    </gadget>
+    <gadget type="button" name="camEdit-backbtn" size1024="240 719 265 744" bevelbutton="" textcolor="0 0 0" foreground="ui\editor\back">
+      <command>trackStepBackward</command>
+    </gadget>
+    <gadget type="button" name="camEdit-pausebtn" size1024="267 719 292 744" bevelbutton="" textcolor="0 0 0" foreground="ui\editor\pause">
+      <command>trackPause</command>
+    </gadget>
+    <gadget type="button" name="camEdit-stopbtn" size1024="294 719 319 744" bevelbutton="" textcolor="0 0 0" foreground="ui\editor\stop">
+      <command>trackStop</command>
+    </gadget>
+    <gadget type="button" name="camEdit-playbtn" size1024="321 719 346 744" bevelbutton="" textcolor="0 0 0" foreground="ui\editor\play">
+      <command>trackPlay(10.0)</command>
+    </gadget>
+    <gadget type="button" name="camEdit-fwdbtn" size1024="348 719 373 744" bevelbutton="" textcolor="0 0 0" foreground="ui\editor\fwd">
+      <command>trackStepForward</command>
+    </gadget>
+    <gadget type="list" name="camEdit-Waypoint-list" titlebar="$$20511$$Waypoints" size1024="414 598 555 753" textcolor="0 0 0" background="ui\editor\editor_background" showselect="" selectedcolor="255 255 255" buttonsize1024="115 15" scrollvert="" locktitlebarmove="" allowdoubleclick="">
+    </gadget>
+    <gadget type="button" name="camEdit-addbtn" size1024="562 598 612 623" bevelbutton="" textcolor="0 0 0" textfont="Arial Nodrop For SE" textfontsize="12">$$18573$$Add<command>trackAddWaypoint</command></gadget>
+    <gadget type="button" name="camEdit-delbtn" size1024="562 627 612 652" bevelbutton="" textcolor="0 0 0" textfont="Arial Nodrop For SE" textfontsize="12">$$18574$$Delete<command>trackRemoveWaypoint</command></gadget>
+    <gadget type="button" name="camEdit-applybtn" size1024="562 657 612 682" bevelbutton="" textcolor="0 0 0" textfont="Arial Nodrop For SE" textfontsize="12">$$20512$$Update<command>trackEditWaypoint</command></gadget>
+    <gadget type="button" name="camEdit-pitch" size1024="562 695 612 720" bevelbutton="" textcolor="0 0 0" textfont="Arial nodrop" tooltiptext="Pitch Editor" textfontsize="12">Free Cam<command>cameraLimit()</command></gadget>
+    <gadget type="textField" name="camEdit-Time" size1024="623 598 788 623" textcolor="0 0 0" textfont="Arial nobold nodrop" textfontsize="12" history="" numberfield="">$$20513$$Time</gadget>
+    <gadget type="textField" name="camEdit-Tension" size1024="623 627 788 652" textcolor="0 0 0" textfont="Arial nobold nodrop" textfontsize="12" history="" numberfield="">$$20514$$Tension</gadget>
+    <gadget type="textField" name="camEdit-Continuity" size1024="623 657 788 682" textcolor="0 0 0" textfont="Arial nobold nodrop" textfontsize="12" history="" numberfield="">$$20515$$Continuity</gadget>
+    <gadget type="textField" name="camEdit-Bias" size1024="623 687 788 712" textcolor="0 0 0" textfont="Arial nobold nodrop" textfontsize="12" history="" numberfield="">$$20516$$Bias</gadget>
+    <gadget type="gadget" name="gadgettohideevents" hidden="">
+      <gadget type="list" name="camEdit-Event-list" titlebar="Events" size1024="815 600 955 750" textcolor="0 0 0" background="ui\editor\editor_background" showselect="" selectedcolor="255 255 255" buttonsize1024="115 15" scrollvert="" locktitlebarmove="" allowdoubleclick="">
+      </gadget>
+      <gadget type="button" name="camEdit-event-addbtn" size1024="960 600 1010 625" bevelbutton="" textcolor="0 0 0" textfont="Arial Nodrop For SE" textfontsize="12">$$18573$$Add</gadget>
+      <gadget type="button" name="camEdit-event-delbtn" size1024="960 630 1010 655" bevelbutton="" textcolor="0 0 0" textfont="Arial Nodrop For SE" textfontsize="12">$$18574$$Delete</gadget>
+    </gadget>
+  </gadget>
+  <gadget name="ChangeBias" type="gadget" size1024="0 500 254 768" closeonesc="" background="ui\editor\editor_background" bevel="" titlebar="Pitch Editor" hidden="" moveable="" windowzstyle="">
+    <gadget name="closePitchEditor" type="button" tooltiptext="$$18457$$Close" foreground="ui\editor_exit" size1024="234 525 250 541">
+      <command>gadgetUnreal("ChangeBias")</command>
+    </gadget>
+    <gadget name="maxZoomText" type="textBox" textfont="Arial nodrop" textfontsize="12" textcolor="0 0 0" size1024="67 529 147 545">Max. Zoom</gadget>
+    <gadget name="CinematicsButton" type="button" tooltiptext="$$20291$$Camera Editor" foreground="ui\editor\cinematics" size1024="22 550 42 570">
+      <command>editMode("CameraTracks")</command>
+    </gadget>
+    <gadget name="maxZoomList" type="textField" scrollvert="" tooltiptext="ZFirst open the camera editor" size1024="67 550 147 570" textcolor="0 0 0" textfont="Arial nobold nodrop" showselect="" textfontsize="12">
+      <dropdown command="configSetInt(&quot;minZoom&quot;,150) cameraRotate() cameraRotate()">150</dropdown>
+      <dropdown command="configSetInt(&quot;minZoom&quot;,175) cameraRotate() cameraRotate()">175</dropdown>
+      <dropdown command="configSetInt(&quot;minZoom&quot;,200) cameraRotate() cameraRotate()">200</dropdown>
+      <dropdown command="configSetInt(&quot;minZoom&quot;,250) cameraRotate() cameraRotate()">250</dropdown>
+      <dropdown command="configSetInt(&quot;minZoom&quot;,300) cameraRotate() cameraRotate()">300</dropdown>
+      <dropdown command="configSetInt(&quot;minZoom&quot;,400) cameraRotate() cameraRotate()">400</dropdown>
+      <dropdown command="configSetInt(&quot;minZoom&quot;,500) cameraRotate() cameraRotate()">500</dropdown>
+      <dropdown command="configSetInt(&quot;minZoom&quot;,750) cameraRotate() cameraRotate()">750</dropdown>
+      <dropdown command="configSetInt(&quot;minZoom&quot;,1000) cameraRotate() cameraRotate()">1000</dropdown>
+      <dropdown command="configSetInt(&quot;minZoom&quot;,100) cameraRotate() cameraRotate()">Normal</dropdown>
+    </gadget>
+    <gadget name="minZoomText" type="textBox" textfont="Arial nodrop" textfontsize="12" textcolor="0 0 0" size1024="157 529 237 545">Min. Zoom</gadget>
+    <gadget type="button" name="camEdit-zoom" size1024="157 550 192 570" bevelbutton="" textcolor="100 100 100" textfont="Arial nodrop" tooltiptext="$$18443$$Load" textfontsize="12">5<command>configSetInt("minZoom",5) cameraRotate() cameraRotate()</command></gadget>
+    <gadget type="button" name="camEdit-zoom" size1024="202 550 237 570" bevelbutton="" textcolor="100 100 100" textfont="Arial nodrop" tooltiptext="$$18443$$Load" textfontsize="12">20<command>configSetInt("minZoom",20) cameraRotate() cameraRotate()</command></gadget>
+    <gadget type="button" name="camEdit-normalmaxzoom" size1024="157 580 237 600" bevelbutton="" textcolor="100 100 100" textfont="Arial nodrop" tooltiptext="Zoom Normal" textfontsize="12">Z Normal<command>configSetInt("minZoom",50) cameraRotate() cameraRotate()</command></gadget>
+    <gadget type="button" name="camEdit-normalpitch" size1024="157 605 237 625" bevelbutton="" textcolor="0 0 0" textfont="Arial nodrop" tooltiptext="Pitch Normal 47" textfontsize="12">P Normal<command>configSetInt("limitPitch",47) cameraRotate() cameraRotate()</command></gadget>
+    <gadget type="button" name="normalPitch" size1024="127 605 147 625" tooltiptext="Pitch + Zoom Normal" foreground="ui\editor\zoom_normal">
+      <command>configSetInt("limitPitch",47) configSetInt("minZoom",29) cameraRotate() cameraRotate()</command>
+    </gadget>
+    <gadget name="camEdit-unlimit" type="button" configindex="cameraMovementLock" tooltiptext="Unlock camera" textfontsize="12" textfont="Arial nobold nodrop" foreground="ui\editor\unlock_camera" z="11" size1024="104 605 124 625">Unlock camera<command>loadCamera("unlockscreen")</command></gadget>
+    <gadget name="camEdit-defaultOrientation" type="button" tooltiptext="Puts the camera in a reasonable orientation." foreground="ui\editor\default_orientation" size1024="127 580 147 600">
+      <command>cameraNice</command>
+    </gadget>
+    <gadget type="button" name="PitchNote" size1024="75 605 95 625" bevelbutton="" tooltiptext="Information" foreground="ui\editor\pitch_note">
+      <command>uiMessagebox("With unlocked camera, shift+a and shift+z can be used to change the camera angle, with ctrl+left and ctrl+right you can turn it.")</command>
+    </gadget>
+    <gadget name="PitchText" type="textBox" textfont="Arial nodrop" textfontsize="12" textcolor="0 0 0" size1024="22 610 107 625">Pitch</gadget>
+    <gadget type="button" name="camEdit-bias" size1024="22 635 57 655" bevelbutton="" textcolor="0 0 0" textfont="Arial nodrop" tooltiptext="$$19176$$Change" textfontsize="12">-60<command>configSetInt("limitPitch",-60) configSetInt("minZoom",-5000) cameraRotate() cameraRotate()</command></gadget>
+    <gadget type="button" name="camEdit-bias" size1024="67 635 102 655" bevelbutton="" textcolor="0 0 0" textfont="Arial nodrop" tooltiptext="$$19176$$Change" textfontsize="12">-40<command>configSetInt("limitPitch",-40) configSetInt("minZoom",-1000) cameraRotate() cameraRotate()</command></gadget>
+    <gadget type="button" name="camEdit-bias" size1024="112 635 147 655" bevelbutton="" textcolor="0 0 0" textfont="Arial nodrop" tooltiptext="10x Zoom+" textfontsize="12">-20<command>configSetInt("limitPitch",-20) configSetInt("minZoom",-500) cameraRotate() cameraRotate()</command></gadget>
+    <gadget type="button" name="camEdit-bias" size1024="157 635 192 655" bevelbutton="" textcolor="0 0 0" textfont="Arial nodrop" tooltiptext="Zoom+ Max." textfontsize="12">-10<command>configSetInt("limitPitch",-10) configSetInt("minZoom",-150) cameraRotate() cameraRotate()</command></gadget>
+    <gadget type="button" name="camEdit-bias" size1024="202 635 237 655" bevelbutton="" textcolor="0 0 0" textfont="Arial nodrop" tooltiptext="$$19176$$Change" textfontsize="12">1<command>configSetInt("limitPitch",1) configSetInt("minZoom",0) cameraRotate() cameraRotate()</command></gadget>
+    <gadget type="button" name="camEdit-bias" size1024="22 660 57 680" bevelbutton="" textcolor="0 0 0" textfont="Arial nodrop" tooltiptext="$$19176$$Change" textfontsize="12">5<command>configSetInt("limitPitch",5) configSetInt("minZoom",20) cameraRotate() cameraRotate()</command></gadget>
+    <gadget type="button" name="camEdit-bias" size1024="67 660 102 680" bevelbutton="" textcolor="0 0 0" textfont="Arial nodrop" tooltiptext="$$19176$$Change" textfontsize="12">10<command>configSetInt("limitPitch",10) configSetInt("minZoom",20) cameraRotate() cameraRotate()</command></gadget>
+    <gadget type="button" name="camEdit-bias" size1024="112 660 147 680" bevelbutton="" textcolor="0 0 0" textfont="Arial nodrop" tooltiptext="$$19176$$Change" textfontsize="12">15<command>configSetInt("limitPitch",15) cameraRotate() cameraRotate()</command></gadget>
+    <gadget type="button" name="camEdit-bias" size1024="157 660 192 680" bevelbutton="" textcolor="0 0 0" textfont="Arial nodrop" tooltiptext="$$19176$$Change" textfontsize="12">25<command>configSetInt("limitPitch",25) cameraRotate() cameraRotate()</command></gadget>
+    <gadget type="button" name="camEdit-bias" size1024="202 660 237 680" bevelbutton="" textcolor="0 0 0" textfont="Arial nodrop" tooltiptext="$$19176$$Change" textfontsize="12">35<command>configSetInt("limitPitch",35) cameraRotate() cameraRotate()</command></gadget>
+    <gadget type="button" name="camEdit-bias" size1024="22 685 57 705" bevelbutton="" textcolor="0 0 0" textfont="Arial nodrop" tooltiptext="$$19176$$Change" textfontsize="12">55<command>configSetInt("limitPitch",55) cameraRotate() cameraRotate()</command></gadget>
+    <gadget type="button" name="camEdit-bias" size1024="67 685 102 705" bevelbutton="" textcolor="0 0 0" textfont="Arial nodrop" tooltiptext="$$19176$$Change" textfontsize="12">70<command>configSetInt("limitPitch",70) cameraRotate() cameraRotate()</command></gadget>
+    <gadget type="button" name="camEdit-bias" size1024="112 685 147 705" bevelbutton="" textcolor="0 0 0" textfont="Arial nodrop" tooltiptext="$$19176$$Change" textfontsize="12">90<command>configSetInt("limitPitch",90) cameraRotate() cameraRotate()</command></gadget>
+    <gadget type="button" name="camEdit-bias" size1024="157 685 192 705" bevelbutton="" textcolor="0 0 0" textfont="Arial nodrop" tooltiptext="$$19176$$Change" textfontsize="12">110<command>configSetInt("limitPitch",110) cameraRotate() cameraRotate()</command></gadget>
+    <gadget type="button" name="camEdit-bias" size1024="202 685 237 705" bevelbutton="" textcolor="0 0 0" textfont="Arial nodrop" tooltiptext="$$19176$$Change" textfontsize="12">135<command>configSetInt("limitPitch",135) cameraRotate() cameraRotate()</command></gadget>
+    <gadget name="camEdit-limit" type="checkButton" configindex="cameraMovementLock" tooltiptext="$$20294$$Camera Lock" textfontsize="12" textfont="Arial nobold nodrop" foreground="ui\ui_check" z="11" size1024="12 710 112 730">$$20294$$Camera Lock</gadget>
+    <gadget name="camEdit-rotate" type="checkButton" configindex="enableCameraRotation" textfontsize="12" textfont="Arial nobold nodrop" tooltiptext="$$19359$$Allow Camera Rotation" foreground="ui\ui_check" z="11" size1024="117 710 250 730">Camera Rotate<command>cameraRotate</command></gadget>
+    <gadget type="button" name="camEdit-close" size1024="172 735 242 755" bevelbutton="" textcolor="0 0 0" textfont="Arial nodrop" tooltiptext="$$18457$$Close" textfontsize="12">$$18457$$Close<command>gadgetUnReal("ChangeBias")</command></gadget>
+  </gadget>
+</layout>

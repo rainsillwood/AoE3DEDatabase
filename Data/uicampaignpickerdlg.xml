@@ -1,0 +1,65 @@
+<layout>
+  <gadget name="CampaignPicker" type="gadget" size1024="280 168 696 488" background="ui\core_ui\wood_thick_board_tile" windowzstyle="" tilebackground="">
+    <gadget name="CampaignPicker-BordersTop" type="gadget" background="ui\file_system\border_top_middle" size1024="312 168 664 176" z="4" transparent="">
+    </gadget>
+    <gadget name="CampaignPicker-BordersBottom" type="gadget" background="ui\file_system\border_bottom_middle" size1024="312 480 664 488" z="4" transparent="">
+    </gadget>
+    <gadget name="CampaignPicker-BordersLeft" type="gadget" background="ui\file_system\border_side_left" size1024="280 200 288 456" tilebackgroundvert="" transparent="">
+    </gadget>
+    <gadget name="CampaignPicker-BordersRight" type="gadget" background="ui\file_system\border_side_right" size1024="688 200 696 456" tilebackgroundvert="" z="4" transparent="">
+    </gadget>
+    <gadget name="CampaignPicker-BordersRightTop" type="gadget" background="ui\file_system\border_top_right" size1024="664 168 696 200" z="5" transparent="" clampbackground="">
+    </gadget>
+    <gadget name="CampaignPicker-BordersLeftTop" type="gadget" background="ui\file_system\border_top_left" size1024="280 168 312 200" z="5" transparent="" clampbackground="">
+    </gadget>
+    <gadget name="CampaignPicker-BordersRightBottom" type="gadget" background="ui\file_system\border_bottom_right" size1024="664 456 696 488" z="5" transparent="" clampbackground="">
+    </gadget>
+    <gadget name="CampaignPicker-BordersLeftBottom" type="gadget" background="ui\file_system\border_bottom_left" size1024="280 456 312 488" z="10" transparent="" clampbackground="">
+    </gadget>
+    <gadget name="CampaignPicker-text" type="formatText" textcenterhoriz="" textcentervert="" textcolor="255 255 255" textfont="IngameDialogs" textfontsize="16" size1024="328 240 649 406">$$18722$$Are you sure you want to resign?</gadget>
+    <gadget name="CampaignPicker-OKBtn" type="stateButton" textfont="IngameButtons" textfontsize="18" textcolor="255 255 255" bevelbutton="" statebuttonuseinternalstates="" size1024="312 440 440 472">
+      <stateentry background="ui\core_ui\button_med_normal">
+      </stateentry>
+      <stateentry background="ui\core_ui\button_med_clicked">
+      </stateentry>
+      <stateentry background="ui\core_ui\button_med_high">
+      </stateentry>
+      <stateentry background="ui\core_ui\button_med_disable">
+      </stateentry>
+    </gadget>
+    <gadget name="CampaignPicker-CancelBtn" type="stateButton" bevelbutton="" textfont="IngameButtons" textfontsize="18" textcolor="255 255 255" statebuttonuseinternalstates="" size1024="536 440 664 472">
+      <stateentry background="ui\core_ui\button_med_normal">
+      </stateentry>
+      <stateentry background="ui\core_ui\button_med_clicked">
+      </stateentry>
+      <stateentry background="ui\core_ui\button_med_high">
+      </stateentry>
+      <stateentry background="ui\core_ui\button_med_disable">
+      </stateentry>
+    </gadget>
+    <gadget name="CampaignPicker-TextBackground" type="gadget" size1024="304 224 672 424" z="4" background="ui\core_ui\metal_tile">
+      <gadget name="CampaignPicker-TextBackground-BordersTop" type="gadget" background="ui\core_ui\metal_trim_top" size1024="336 224 640 232" z="5" transparent="">
+      </gadget>
+      <gadget name="CampaignPicker-TextBackground-BordersBottom" type="gadget" background="ui\core_ui\metal_trim_bottom" size1024="336 416 640 424" z="5" transparent="">
+      </gadget>
+      <gadget name="CampaignPicker-TextBackground-BordersLeft" type="gadget" background="ui\core_ui\metal_trim_left" size1024="304 256 312 392" tilebackgroundvert="" transparent="" z="5">
+      </gadget>
+      <gadget name="CampaignPicker-TextBackground-BordersRight" type="gadget" background="ui\core_ui\metal_trim_right" size1024="664 256 672 392" tilebackgroundvert="" z="5" transparent="">
+      </gadget>
+      <gadget name="CampaignPicker-TextBackground-BordersRightTop" type="gadget" background="ui\core_ui\metal_trim_corner_topright" size1024="640 224 672 256" z="6" transparent="" clampbackground="">
+      </gadget>
+      <gadget name="CampaignPicker-TextBackground-BordersLeftTop" type="gadget" background="ui\core_ui\metal_trim_corner_topleft" size1024="304 224 336 256" z="6" transparent="" clampbackground="">
+      </gadget>
+      <gadget name="CampaignPicker-TextBackground-BordersRightBottom" type="gadget" background="ui\core_ui\metal_trim_corner_bottomright" size1024="640 392 672 424" z="6" transparent="" clampbackground="">
+      </gadget>
+      <gadget name="CampaignPicker-TextBackground-BordersLeftBottom" type="gadget" background="ui\core_ui\metal_trim_corner_bottomleft" size1024="304 392 336 424" z="6" transparent="" clampbackground="">
+      </gadget>
+    </gadget>
+    <gadget name="CampaignPicker-TitleLeft" type="gadget" size1024="304 184 336 216" z="11" background="ui\core_ui\title_bar_48_left" texturecoords="0 0.0952380952380952 1 0.793650793650794">
+    </gadget>
+    <gadget name="CampaignPicker-Title" type="formatText" textcolor="255 255 255" textcenterhoriz="" textcentervert="" size1024="336 184 640 216" z="11" background="ui\core_ui\title_bar_48_middle" tilebackground="" texturecoords="0 0.0952380952380952 1 0.793650793650794">
+    </gadget>
+  </gadget>
+  <gadget name="CampaignPicker-TitleRight" type="gadget" size1024="640 184 672 216" z="11" background="ui\core_ui\title_bar_48_right" texturecoords="0 0.0952380952380952 1 0.793650793650794">
+  </gadget>
+</layout>

@@ -1,0 +1,35 @@
+<layout>
+  <gadget name="mainGameMenuUiOptions" type="dialog" windowzstyle="" size1024="344 124 707 501" hidden="" z="5" background="ui\file_system\file_system_background" closeonesc="" dontautoclose="">
+    <gadget name="mainGameMenuUiOptions-Title" type="textBox" size1024="437 135 621 157" z="8" textcenterhoriz="" textcolor="3 0 88" textfont="InGameLabels" textfontsize="18">UI Options</gadget>
+    <gadget name="mainGameMenuUiOptions-check1" type="checkButton" size1024="384 170 400 186" checkcheckedart="ui\core_ui\checkbox_checked" checkuncheckedart="ui\core_ui\checkbox" sound="UI_DefaultPregameClickSet" z="15" checkborder1024="5 0">
+    </gadget>
+    <gadget name="mainGameMenuUiOptions-check2" type="checkButton" size1024="384 198 400 214" checkcheckedart="ui\core_ui\checkbox_checked" checkuncheckedart="ui\core_ui\checkbox" sound="UI_DefaultPregameClickSet" z="15" checkborder1024="5 0">
+    </gadget>
+    <gadget name="mainGameMenuUiOptions-check3" type="checkButton" size1024="384 224 400 240" checkcheckedart="ui\core_ui\checkbox_checked" checkuncheckedart="ui\core_ui\checkbox" sound="UI_DefaultPregameClickSet" z="15" checkborder1024="5 0">
+    </gadget>
+    <gadget name="mainGameMenuUiOptions-check4" type="checkButton" size1024="384 250 400 266" checkcheckedart="ui\core_ui\checkbox_checked" checkuncheckedart="ui\core_ui\checkbox" sound="UI_DefaultPregameClickSet" z="15" checkborder1024="5 0">
+    </gadget>
+    <gadget name="mainGameMenuUiOptions-check5" type="checkButton" size1024="384 276 400 292" checkcheckedart="ui\core_ui\checkbox_checked" checkuncheckedart="ui\core_ui\checkbox" sound="UI_DefaultPregameClickSet" z="15" checkborder1024="5 0">
+    </gadget>
+    <gadget name="mainGameMenuUiOptions-check6" type="checkButton" size1024="384 304 400 320" checkcheckedart="ui\core_ui\checkbox_checked" checkuncheckedart="ui\core_ui\checkbox" sound="UI_DefaultPregameClickSet" z="15" checkborder1024="5 0">
+    </gadget>
+    <gadget name="mainGameMenuUiOptions-check7" type="checkButton" size1024="384 332 400 348" checkcheckedart="ui\core_ui\checkbox_checked" checkuncheckedart="ui\core_ui\checkbox" sound="UI_DefaultPregameClickSet" z="15" checkborder1024="5 0">
+    </gadget>
+    <gadget name="mainGameMenuUiOptions-check8" type="checkButton" size1024="384 360 400 376" checkcheckedart="ui\core_ui\checkbox_checked" checkuncheckedart="ui\core_ui\checkbox" sound="UI_DefaultPregameClickSet" z="15" checkborder1024="5 0">
+    </gadget>
+    <gadget name="mainGameMenuUiOptions-check9" type="checkButton" size1024="384 388 400 404" checkcheckedart="ui\core_ui\checkbox_checked" checkuncheckedart="ui\core_ui\checkbox" sound="UI_DefaultPregameClickSet" z="15" checkborder1024="5 0">
+    </gadget>
+    <gadget name="mainGameMenuUiOptions-Label1" type="textBox" size1024="412 168 686 190" z="8" textcolor="3 0 88" textfont="InGameLabels" textfontsize="18">Show Training Units</gadget>
+    <gadget name="mainGameMenuUiOptions-Label2" type="textBox" size1024="412 196 686 218" z="8" textcolor="3 0 88" textfont="InGameLabels" textfontsize="18">Show Battles</gadget>
+    <gadget name="mainGameMenuUiOptions-Label3" type="textBox" size1024="412 222 686 244" z="8" textcolor="3 0 88" textfont="InGameLabels" textfontsize="18">Show Unit Stats</gadget>
+    <gadget name="mainGameMenuUiOptions-Label4" type="textBox" size1024="412 248 686 270" z="8" textcolor="3 0 88" textfont="InGameLabels" textfontsize="18">Show Fame</gadget>
+    <gadget name="mainGameMenuUiOptions-Label5" type="textBox" size1024="412 274 686 296" z="8" textcolor="3 0 88" textfont="InGameLabels" textfontsize="18">Show Game Time</gadget>
+    <gadget name="mainGameMenuUiOptions-Label6" type="textBox" size1024="412 302 686 324" z="8" textcolor="3 0 88" textfont="InGameLabels" textfontsize="18">Show Advanced Resource UI</gadget>
+    <gadget name="mainGameMenuUiOptions-Label7" type="textBox" size1024="412 330 686 352" z="8" textcolor="3 0 88" textfont="InGameLabels" textfontsize="18">Show Score</gadget>
+    <gadget name="mainGameMenuUiOptions-Label8" type="textBox" size1024="412 358 686 380" z="8" textcolor="3 0 88" textfont="InGameLabels" textfontsize="18">Show Advanced Shipment UI</gadget>
+    <gadget name="mainGameMenuUiOptions-Label9" type="textBox" size1024="412 386 686 408" z="8" textcolor="3 0 88" textfont="InGameLabels" textfontsize="18">Show Tactics</gadget>
+    <gadget name="mainGameMenuUiOptions-ShowAll" type="stateButton" size1024="393 419 524 450" z="10" statebuttonuseinternalstates="" textfont="IngameButtons" textfontsize="18" textcolor="255 255 255" texturecoords="0 0 0.826771653543307 0.67741935483871" textcenterhoriz="">Show All<stateentry background="ui\ingame\button"></stateentry><stateentry background="ui\ingame\button_clicked"></stateentry><stateentry background="ui\ingame\button_rollover"></stateentry><stateentry background="ui\ingame\button_disable"></stateentry><command></command></gadget>
+    <gadget name="mainGameMenuUiOptions-ShowNone" type="stateButton" size1024="534 419 665 450" z="10" statebuttonuseinternalstates="" textfont="IngameButtons" textfontsize="18" textcolor="255 255 255" texturecoords="0 0 0.826771653543307 0.67741935483871" textcenterhoriz="">Show None<stateentry background="ui\ingame\button"></stateentry><stateentry background="ui\ingame\button_clicked"></stateentry><stateentry background="ui\ingame\button_rollover"></stateentry><stateentry background="ui\ingame\button_disable"></stateentry><command></command></gadget>
+    <gadget name="mainGameMenuUiOptions-Close" type="stateButton" size1024="463 457 594 488" z="10" statebuttonuseinternalstates="" textfont="IngameButtons" textfontsize="18" textcolor="255 255 255" texturecoords="0 0 0.826771653543307 0.67741935483871" textcenterhoriz="">OK<stateentry background="ui\ingame\button"></stateentry><stateentry background="ui\ingame\button_clicked"></stateentry><stateentry background="ui\ingame\button_rollover"></stateentry><stateentry background="ui\ingame\button_disable"></stateentry><command></command></gadget>
+  </gadget>
+</layout>

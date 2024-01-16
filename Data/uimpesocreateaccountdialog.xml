@@ -1,0 +1,30 @@
+<layout>
+  <gadget name="MPESOCreateAccountDialog-ScreenContainer" hidden="" type="gadget" size1024="0 0 1024 768" background="ui\\home_city\\intro_hc" texturecoords="0 0 1 0.749755620723363" z="10">
+    <gadget name="MPESOCreateAccountDialog-ScreenLabel" textcentervert="" textcenterhoriz="" textcolor="255 208 0" textfontsize="22" textfont="PregameHeaders" type="formatText" size1024="366 147 670 180" z="15">$$20002$$Create New ESO Account</gadget>
+    <gadget name="MPESOCreateAccountDialog-EntryFields" type="gadget" background="ui\eso\eso_log_info" texturecoords="0 0 0.7939453 0.6542969" size1024="109 144 933 477">
+      <gadget name="MPESOCreateAccountDialog-NameLabel" textcentervert="" textcolor="255 208 0" textfont="ScrollFont" textfontsize="16" type="formatText" size1024="168 205 314 232" textjustifyright="">$$22077$$Nickname:</gadget>
+      <gadget name="MPESOCreateAccountDialog-PasswordLabel" textcentervert="" textcolor="255 208 0" textfont="ScrollFont" textfontsize="16" type="formatText" size1024="168 244 314 271" textjustifyright="">$$22111$$Password:</gadget>
+      <gadget name="MPESOCreateAccountDialog-PasswordConfirmLabel" textcentervert="" textcolor="255 208 0" textfont="ScrollFont" textfontsize="16" type="formatText" size1024="538 245 684 272" textjustifyright="">$$20004$$Confirm Password:</gadget>
+      <gadget name="MPESOCreateAccountDialog-SecretQuestionLabel" textcentervert="" textcolor="255 208 0" textfont="ScrollFont" textfontsize="16" type="formatText" size1024="168 284 314 311" textjustifyright="">$$20008$$Secret Question:</gadget>
+      <gadget name="MPESOCreateAccountDialog-SecretAnswerLabel" textcentervert="" textcolor="255 208 0" textfont="ScrollFont" textfontsize="16" type="formatText" size1024="168 324 314 351" textjustifyright="">$$20009$$Secret Answer:</gadget>
+      <gadget name="MPESOCreateAccountDialog-EmailLabel" textcentervert="" textcolor="255 208 0" textfont="ScrollFont" textfontsize="16" type="formatText" size1024="168 364 314 391" textjustifyright="">$$42148$$Email Address:</gadget>
+      <gadget name="MPESOCreateAccountDialog-PasswordWarning" type="formatText" textcolor="255 255 255" size1024="711 279 907 299" z="11">$$33444$$*Passwords are case sensitive</gadget>
+      <gadget name="MPESOCreateAccountDialog-Name-Text" type="editBox" size1024="341 203 509 233" textfont="PregameEntry" textfontsize="15" textcolor="0 0 58" editboxmaxchars="16" enterkey="" z="11">
+      </gadget>
+      <gadget name="MPESOCreateAccountDialog-Password-Text" type="editBox" size1024="341 243 509 273" textfont="PregameEntry" textfontsize="15" textcolor="0 0 58" enterkey="" editboxmaskchars="" editboxmaxchars="16" editz="11">
+      </gadget>
+      <gadget name="MPESOCreateAccountDialog-ConfirmPassword-Text" type="editBox" size1024="715 243 883 273" textfont="PregameEntry" textfontsize="15" textcolor="0 0 58" enterkey="" editboxmaskchars="" editboxmaxchars="16" z="11">
+      </gadget>
+      <gadget name="MPESOCreateAccountDialog-SecretQuestion-Text" type="editBox" size1024="341 283 628 313" textfont="PregameEntry" textfontsize="15" textcolor="0 0 58" enterkey="" z="11" enableime="">
+      </gadget>
+      <gadget name="MPESOCreateAccountDialog-SecretAnswer-Text" type="editBox" size1024="341 322 628 352" textfont="PregameEntry" textfontsize="15" textcolor="0 0 58" enterkey="" z="11" enableime="">
+      </gadget>
+      <gadget name="MPESOCreateAccountDialog-Email-Text" type="editBox" size1024="341 362 628 392" textfont="PregameEntry" textfontsize="15" textcolor="0 0 58" enterkey="" z="11">
+      </gadget>
+      <gadget name="MPESOCreateAccountDialog-AllFieldsRequired" textcentervert="" textcolor="255 255 255" textfontsize="15" textfont="PregameEntry" type="formatText" size1024="657 203 885 235" textjustifyright="">$$22114$$All fields are required</gadget>
+      <gadget name="MPESOCreateAccountDialog-CDKeyWarning" textcentervert="" textcolor="255 208 0" textfontsize="15" textfont="PregameEntry" type="formatText" size1024="657 296 885 390" wordwrap="" textjustifyright="">$$45755$$Note: You may only create one ESO account per CD Key.</gadget>
+      <gadget name="MPESOCreateAccountDialog-CancelButton" type="stateButton" size1024="544 430 674 463" bevelbutton="" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="255 255 255" textcenterhoriz="" textcentervert="" texturecoords="0 0 1 1" z="11">$$18466$$Cancel<stateentry background="ui\core_ui\button_med_normal"></stateentry><stateentry background="ui\core_ui\button_med_clicked"></stateentry><stateentry background="ui\core_ui\button_med_high"></stateentry><stateentry background="ui\core_ui\button_med_disabled"></stateentry></gadget>
+      <gadget name="MPESOCreateAccountDialog-OKButton" type="stateButton" size1024="368 430 498 463" bevelbutton="" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="255 255 255" textcenterhoriz="" textcentervert="" texturecoords="0 0 1 1" z="11">$$18465$$OK<stateentry background="ui\core_ui\button_med_normal"></stateentry><stateentry background="ui\core_ui\button_med_clicked"></stateentry><stateentry background="ui\core_ui\button_med_high"></stateentry><stateentry background="ui\core_ui\button_med_disabled"></stateentry></gadget>
+    </gadget>
+  </gadget>
+</layout>

@@ -1,0 +1,468 @@
+<layout>
+  <gadget name="MPFriendsList" type="dialog" size1024="281 76 741 688" background="" windowzstyle="" closeonesc="" dontautoclose="">
+    <gadget name="MPFriendsList-Background" type="gadget" size1024="313 123 709 647" background="missing" tilebackground="" z="1">
+      <gadget tilebackgroundhoriz="" name="BasicOptions-BordersTop" type="gadget" background="ui\ui border top middle" size1024="345 115 707 123" z="9" transparent="">
+      </gadget>
+      <gadget tilebackgroundhoriz="" name="BasicOptions-BordersBottom" type="gadget" background="ui\ui border bottom middle" size1024="345 645 707 653" z="9" transparent="">
+      </gadget>
+      <gadget tilebackgroundvert="" name="BasicOptions-BordersLeft" type="gadget" background="ui\ui border left middle" size1024="297 147 313 589" z="9" transparent="">
+      </gadget>
+      <gadget tilebackgroundvert="" name="BasicOptions-BordersRight" type="gadget" background="ui\ui border right middle" size1024="709 147 725 589" z="9" transparent="">
+      </gadget>
+      <gadget name="BasicOptions-BordersLeftTop" type="gadget" background="ui\ui border top left corner" size1024="281 115 345 147" z="10" clampbackground="" transparent="">
+      </gadget>
+      <gadget name="BasicOptions-BordersLeftBottom" type="gadget" background="ui\ui border bottom left corner" size1024="281 589 345 653" z="10" clampbackground="" transparent="">
+      </gadget>
+      <gadget name="AdvancedOptions-BordersRightBottom" type="gadget" background="ui\ui border bottom right corner" size1024="677 589 741 653" z="10" clampbackground="" transparent="">
+      </gadget>
+      <gadget name="AdvancedOptions-BordersRightTop" type="gadget" background="ui\ui border top right corner" size1024="677 115 741 147" z="10" clampbackground="" transparent="">
+      </gadget>
+    </gadget>
+    <gadget z="25" textcenterhoriz="" textfontsize="14" textfont="TabFont" textcolor="255 208 0" name="MPFriendsList-tabs-tab1-on" type="gadget" background="UI\ui button tab up 128X32" size1024="333 129 461 160" texturecoords="0 0 1 1">$$20022$$Friends List</gadget>
+    <gadget foreground="UI\ui button tab down 128X32" donthighlight="" hidden="" texturecoords="0 0 1 1" textcenterhoriz="" textfontsize="14" textfont="TabFont" textcolor="255 208 0" z="14" name="MPFriendsList-tabs-tab1-off" type="button" size1024="333 128 461 160" sound="UI_latch">$$20022$$Friends List<command>gadgetReal ("MPFriendsList-Page") gadgetUnReal("MPPest-Page") gadgetReal("MPFriendsList-tabs-tab1-on") gadgetUnReal("MPFriendsList-tabs-tab1-off") gadgetReal("MPFriendsList-tabs-tab2-off") gadgetunReal("MPFriendsList-tabs-tab2-on")</command></gadget>
+    <gadget texturecoords="0 0 1 1" textcolor="255 208 0" textfont="TabFont" textfontsize="14" textcenterhoriz="" z="25" name="MPFriendsList-tabs-tab2-on" type="gadget" hidden="" background="UI\ui button tab up 128X32" size1024="471 129 599 160">$$20058$$Pest List</gadget>
+    <gadget foreground="UI\ui button tab down 128X32" donthighlight="" z="14" textcolor="255 208 0" textfont="TabFont" textfontsize="14" textcenterhoriz="" texturecoords="0 0 1 1" name="MPFriendsList-tabs-tab2-off" type="button" size1024="471 128 599 160" sound="UI_latch">$$20058$$Pest List<command>gadgetReal ("MPPest-Page") gadgetUnReal("MPFriendsList-Page")  gadgetUnReal("MPFriendsList-tabs-tab1-on") gadgetReal("MPFriendsList-tabs-tab1-off") gadgetUnReal("MPFriendsList-tabs-tab2-off") gadgetReal("MPFriendsList-tabs-tab2-on") </command></gadget>
+    <gadget name="MPFriendsList-Page" type="gadget" size1024="319 131 635 618" background="">
+      <gadget name="mpsetupcustom-FriendsList-InviteButton" type="stateButton" size1024="348 525 508 557" bevelbutton="" z="101" statebuttonuseinternalstates="" textfont="PregameButtonsSmall" textfontsize="16" textcolor="255 208 0" textcenterhoriz="" textcentervert="" texturecoords="0 0 .625 1">$$20049$$Invite<stateentry background="ui\ui button long 160X32"></stateentry><stateentry background="ui\ui button long 160X32 clicked"></stateentry><stateentry background="ui\ui button long 160X32 rollover"></stateentry><stateentry background=""></stateentry></gadget>
+      <gadget name="mpsetupcustom-FriendsList-AddFriend" type="stateButton" size1024="516 525 676 557" bevelbutton="" z="101" statebuttonuseinternalstates="" textfont="PregameButtonsSmall" textfontsize="16" textcolor="255 208 0" textcenterhoriz="" textcentervert="" texturecoords="0 0 .625 1">$$20050$$Add<stateentry background="ui\ui button long 160X32"></stateentry><stateentry background="ui\ui button long 160X32 clicked"></stateentry><stateentry background="ui\ui button long 160X32 rollover"></stateentry><stateentry background=""></stateentry><command>gadgetReal("mpsetupcustom-FriendsList-AddAFriend")</command></gadget>
+      <gadget name="mpsetupcustom-FriendsList-DeleteFriend" type="stateButton" size1024="348 565 508 597" bevelbutton="" z="101" statebuttonuseinternalstates="" textfont="PregameButtonsSmall" textfontsize="16" textcolor="255 208 0" textcenterhoriz="" textcentervert="" texturecoords="0 0 .625 1">$$20057$$Remove<stateentry background="ui\ui button long 160X32"></stateentry><stateentry background="ui\ui button long 160X32 clicked"></stateentry><stateentry background="ui\ui button long 160X32 rollover"></stateentry><stateentry background=""></stateentry></gadget>
+      <gadget name="mpsetupcustom-FriendsList-MessageButton" type="stateButton" size1024="516 565 676 597" bevelbutton="" z="101" statebuttonuseinternalstates="" textfont="PregameButtonsSmall" textfontsize="16" textcolor="255 208 0" textcenterhoriz="" textcentervert="" texturecoords="0 0 .625 1">$$20056$$Message<stateentry background="ui\ui button long 160X32"></stateentry><stateentry background="ui\ui button long 160X32 clicked"></stateentry><stateentry background="ui\ui button long 160X32 rollover"></stateentry><stateentry background=""></stateentry><command>gadgetReal("mpsetupcustom-FriendsList-SendMessage")</command></gadget>
+      <gadget name="CloseButtonFriend" type="stateButton" size1024="448 605 576 637" bevelbutton="" z="101" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="255 208 0" textcenterhoriz="" textcentervert="" texturecoords="0 0 1 1">$$18457$$Close<stateentry background="ui\ui button long 128X32"></stateentry><stateentry background="ui\ui button long 128X32 clicked"></stateentry><stateentry background="ui\ui button long 128X32 rollover"></stateentry><stateentry background=""></stateentry></gadget>
+      <gadget name="FriendPrivacy" texturecoords="0 0 .69 .69" textcolor="255 208 0" type="checkButton" textfont="RadioButtons" textfontsize="14" z="11" size1024="324 608 445 630" checkcheckedart="ui\ui button check box 32x32 clicked" checkuncheckedart="ui\ui button check box 32x32" checkhighlightart="ui\ui button check box 32x32 rollover" checkborder1024="5 0">$$22130$$Privacy</gadget>
+      <gadget type="dialog" name="friend-delete-yorn" size1024="348 201 678 425" bevel="" background="missing" tilebackground="" texturereplace="" windowzstyle="" hidden="" closeonesc="">
+        <gadget tilebackgroundhoriz="" name="pregame-messagedialog2-BordersTop" type="gadget" background="ui\ui border top middle" size1024="380 193 646 201">
+        </gadget>
+        <gadget tilebackgroundhoriz="" name="pregame-messagedialog2-BordersBottom" type="gadget" background="ui\ui border bottom middle" size1024="380 425 646 433">
+        </gadget>
+        <gadget tilebackgroundvert="" name="pregame-messagedialog2-BordersLeft" type="gadget" background="ui\ui border left middle" size1024="332 225 348 369">
+        </gadget>
+        <gadget tilebackgroundvert="" name="pregame-messagedialog2-BordersRight" type="gadget" background="ui\ui border right middle" size1024="678 225 694 369">
+        </gadget>
+        <gadget name="pregame-messagedialog2-BordersLeftTop" type="gadget" background="ui\ui border top left corner" size1024="316 193 380 225" clampbackground="">
+        </gadget>
+        <gadget name="pregame-messagedialog2-BordersLeftBottom" type="gadget" background="ui\ui border bottom left corner" size1024="316 369 380 433" clampbackground="">
+        </gadget>
+        <gadget name="pregame-messagedialog2-BordersRightBottom" type="gadget" background="ui\ui border bottom right corner" size1024="646 369 710 433" clampbackground="">
+        </gadget>
+        <gadget name="pregame-messagedialog2-BordersRightTop" type="gadget" background="ui\ui border top right corner" size1024="646 193 710 225" clampbackground="">
+        </gadget>
+        <gadget name="friend-delete-prompt" type="formatText" textcolor="255 208 0" textfont="PregameEntry" textfontsize="15" textcentervert="" textcenterhoriz="" size1024="368 240 658 355">Message Text Goes Here</gadget>
+        <gadget name="friend-delete-Yesbutton" type="stateButton" size1024="381 377 509 409" bevelbutton="" z="51" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="255 208 0" textcenterhoriz="" textcentervert="" texturecoords="0 0 1 1">$$18465$$OK<stateentry background="ui\ui button long 128X32"></stateentry><stateentry background="ui\ui button long 128X32 clicked"></stateentry><stateentry background="ui\ui button long 128X32 rollover"></stateentry><stateentry background=""></stateentry></gadget>
+        <gadget name="friend-delete-Nobutton" type="stateButton" size1024="517 377 645 409" bevelbutton="" z="51" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="255 208 0" textcenterhoriz="" textcentervert="" texturecoords="0 0 1 1">$$18466$$Cancel<stateentry background="ui\ui button long 128X32"></stateentry><stateentry background="ui\ui button long 128X32 clicked"></stateentry><stateentry background="ui\ui button long 128X32 rollover"></stateentry><stateentry background=""></stateentry><command>gadgetUnReal("friend-delete-yorn")</command></gadget>
+      </gadget>
+      <gadget name="MPFriendsList-DataSection" type="gadget" size1024="324 160 701 595">
+        <gadget name="MPFriendsList-Border" type="gadget" size1024="321 160 701 509" background="" outlinecolor="255 208 0" transparent="">
+        </gadget>
+        <gadget name="mpsetupcustom-friendslist-friend-Scrollbar" type="slider" z="15" size1024="681 160 701 508" sliderbuttons="" slidervertical="" sliderupbtnset="sliderUpBtn" sliderdownbtnset="sliderDownBtn" sliderpipart="ui\ui slider pip verticle" sliderpiptexturecoords="0 0 0.5 0.75" sliderareaart="ui\ui background dark blue opaque" background="ui\core_ui\background_yellow_opaque">
+        </gadget>
+        <gadget name="mpsetupcustom-FriendsList-PeopleList" type="gadget" z="11" scrollvert="" tilebackground="" size1024="314 190 706 530">
+          <gadget name="mpsetupcustom-friendslist-friend1-state" type="stateButton" size1024="324 200 340 215" bevel="" statebuttondefaultstate="" transparent="">
+            <stateentry background="icons\friendoffline">
+            </stateentry>
+            <stateentry background="icons\friendhosting">
+            </stateentry>
+            <stateentry background="icons\friendonline">
+            </stateentry>
+            <stateentry background="icons\friendingame">
+            </stateentry>
+          </gadget>
+          <gadget name="mpsetupcustom-friendslist-friend1" type="button" textfont="PeopleListItems" textfontsize="14" textcolor="255 208 0" size1024="345 200 671 215">Friend 1</gadget>
+          <gadget name="mpsetupcustom-friendslist-friend2-state" type="stateButton" size1024="324 220 340 235" bevel="" statebuttondefaultstate="" transparent="">
+            <stateentry background="icons\friendoffline">
+            </stateentry>
+            <stateentry background="icons\friendhosting">
+            </stateentry>
+            <stateentry background="icons\friendonline">
+            </stateentry>
+            <stateentry background="icons\friendingame">
+            </stateentry>
+          </gadget>
+          <gadget name="mpsetupcustom-friendslist-friend2" type="button" textfont="PeopleListItems" textfontsize="14" textcolor="255 208 0" size1024="345 220 671 235">Friend 2</gadget>
+          <gadget name="mpsetupcustom-friendslist-friend3-state" type="stateButton" size1024="324 240 340 255" bevel="" statebuttondefaultstate="" transparent="">
+            <stateentry background="icons\friendoffline">
+            </stateentry>
+            <stateentry background="icons\friendhosting">
+            </stateentry>
+            <stateentry background="icons\friendonline">
+            </stateentry>
+            <stateentry background="icons\friendingame">
+            </stateentry>
+          </gadget>
+          <gadget name="mpsetupcustom-friendslist-friend3" type="button" textfont="PeopleListItems" textfontsize="14" textcolor="255 208 0" size1024="345 240 671 255">Friend 3</gadget>
+          <gadget name="mpsetupcustom-friendslist-friend4-state" type="stateButton" size1024="324 260 340 275" bevel="" statebuttondefaultstate="" transparent="">
+            <stateentry background="icons\friendoffline">
+            </stateentry>
+            <stateentry background="icons\friendhosting">
+            </stateentry>
+            <stateentry background="icons\friendonline">
+            </stateentry>
+            <stateentry background="icons\friendingame">
+            </stateentry>
+          </gadget>
+          <gadget name="mpsetupcustom-friendslist-friend4" type="button" textfont="PeopleListItems" textfontsize="14" textcolor="255 208 0" size1024="345 260 671 275">Friend 4</gadget>
+          <gadget name="mpsetupcustom-friendslist-friend5-state" type="stateButton" size1024="324 280 340 295" bevel="" statebuttondefaultstate="" transparent="">
+            <stateentry background="icons\friendoffline">
+            </stateentry>
+            <stateentry background="icons\friendhosting">
+            </stateentry>
+            <stateentry background="icons\friendonline">
+            </stateentry>
+            <stateentry background="icons\friendingame">
+            </stateentry>
+          </gadget>
+          <gadget name="mpsetupcustom-friendslist-friend5" type="button" textfont="PeopleListItems" textfontsize="14" textcolor="255 208 0" size1024="345 280 671 295">Friend 5</gadget>
+          <gadget name="mpsetupcustom-friendslist-friend6-state" type="stateButton" size1024="324 300 340 315" bevel="" statebuttondefaultstate="" transparent="">
+            <stateentry background="icons\friendoffline">
+            </stateentry>
+            <stateentry background="icons\friendhosting">
+            </stateentry>
+            <stateentry background="icons\friendonline">
+            </stateentry>
+            <stateentry background="icons\friendingame">
+            </stateentry>
+          </gadget>
+          <gadget name="mpsetupcustom-friendslist-friend6" type="button" textfont="PeopleListItems" textfontsize="14" textcolor="255 208 0" size1024="345 300 671 315">Friend 6</gadget>
+          <gadget name="mpsetupcustom-friendslist-friend7-state" type="stateButton" size1024="324 320 340 335" bevel="" statebuttondefaultstate="" transparent="">
+            <stateentry background="icons\friendoffline">
+            </stateentry>
+            <stateentry background="icons\friendhosting">
+            </stateentry>
+            <stateentry background="icons\friendonline">
+            </stateentry>
+            <stateentry background="icons\friendingame">
+            </stateentry>
+          </gadget>
+          <gadget name="mpsetupcustom-friendslist-friend7" type="button" textfont="PeopleListItems" textfontsize="14" textcolor="255 208 0" size1024="345 320 671 335">Friend 7</gadget>
+          <gadget name="mpsetupcustom-friendslist-friend8-state" type="stateButton" size1024="324 340 340 355" bevel="" statebuttondefaultstate="" transparent="">
+            <stateentry background="icons\friendoffline">
+            </stateentry>
+            <stateentry background="icons\friendhosting">
+            </stateentry>
+            <stateentry background="icons\friendonline">
+            </stateentry>
+            <stateentry background="icons\friendingame">
+            </stateentry>
+          </gadget>
+          <gadget name="mpsetupcustom-friendslist-friend8" type="button" textfont="PeopleListItems" textfontsize="14" textcolor="255 208 0" size1024="345 340 671 355">Friend 8</gadget>
+          <gadget name="mpsetupcustom-friendslist-friend9-state" type="stateButton" size1024="324 360 340 375" bevel="" statebuttondefaultstate="" transparent="">
+            <stateentry background="icons\friendoffline">
+            </stateentry>
+            <stateentry background="icons\friendhosting">
+            </stateentry>
+            <stateentry background="icons\friendonline">
+            </stateentry>
+            <stateentry background="icons\friendingame">
+            </stateentry>
+          </gadget>
+          <gadget name="mpsetupcustom-friendslist-friend9" type="button" textfont="PeopleListItems" textfontsize="14" textcolor="255 208 0" size1024="345 360 671 375">Friend 9</gadget>
+          <gadget name="mpsetupcustom-friendslist-friend10-state" type="stateButton" size1024="324 380 340 395" bevel="" statebuttondefaultstate="" transparent="">
+            <stateentry background="icons\friendoffline">
+            </stateentry>
+            <stateentry background="icons\friendhosting">
+            </stateentry>
+            <stateentry background="icons\friendonline">
+            </stateentry>
+            <stateentry background="icons\friendingame">
+            </stateentry>
+          </gadget>
+          <gadget name="mpsetupcustom-friendslist-friend10" type="button" textfont="PeopleListItems" textfontsize="14" textcolor="255 208 0" size1024="345 380 671 395">Friend 10</gadget>
+          <gadget name="mpsetupcustom-friendslist-friend11-state" type="stateButton" size1024="324 400 340 415" bevel="" statebuttondefaultstate="" transparent="">
+            <stateentry background="icons\friendoffline">
+            </stateentry>
+            <stateentry background="icons\friendhosting">
+            </stateentry>
+            <stateentry background="icons\friendonline">
+            </stateentry>
+            <stateentry background="icons\friendingame">
+            </stateentry>
+          </gadget>
+          <gadget name="mpsetupcustom-friendslist-friend11" type="button" textfont="PeopleListItems" textfontsize="14" textcolor="255 208 0" size1024="345 400 671 415">Friend 11</gadget>
+          <gadget name="mpsetupcustom-friendslist-friend12-state" type="stateButton" size1024="324 420 340 435" bevel="" statebuttondefaultstate="" transparent="">
+            <stateentry background="icons\friendoffline">
+            </stateentry>
+            <stateentry background="icons\friendhosting">
+            </stateentry>
+            <stateentry background="icons\friendonline">
+            </stateentry>
+            <stateentry background="icons\friendingame">
+            </stateentry>
+          </gadget>
+          <gadget name="mpsetupcustom-friendslist-friend12" type="button" textfont="PeopleListItems" textfontsize="14" textcolor="255 208 0" size1024="345 420 671 435">Friend 12</gadget>
+          <gadget name="mpsetupcustom-friendslist-friend13-state" type="stateButton" size1024="324 440 340 455" bevel="" statebuttondefaultstate="" transparent="">
+            <stateentry background="icons\friendoffline">
+            </stateentry>
+            <stateentry background="icons\friendhosting">
+            </stateentry>
+            <stateentry background="icons\friendonline">
+            </stateentry>
+            <stateentry background="icons\friendingame">
+            </stateentry>
+          </gadget>
+          <gadget name="mpsetupcustom-friendslist-friend13" type="button" textfont="PeopleListItems" textfontsize="14" textcolor="255 208 0" size1024="345 440 671 455">Friend 13</gadget>
+          <gadget name="mpsetupcustom-friendslist-friend14-state" type="stateButton" size1024="324 460 340 475" bevel="" statebuttondefaultstate="" transparent="">
+            <stateentry background="icons\friendoffline">
+            </stateentry>
+            <stateentry background="icons\friendhosting">
+            </stateentry>
+            <stateentry background="icons\friendonline">
+            </stateentry>
+            <stateentry background="icons\friendingame">
+            </stateentry>
+          </gadget>
+          <gadget name="mpsetupcustom-friendslist-friend14" type="button" textfont="PeopleListItems" textfontsize="14" textcolor="255 208 0" size1024="345 460 671 475">Friend 14</gadget>
+          <gadget name="mpsetupcustom-friendslist-friend15-state" type="stateButton" size1024="324 480 340 495" bevel="" statebuttondefaultstate="" transparent="">
+            <stateentry background="icons\friendoffline">
+            </stateentry>
+            <stateentry background="icons\friendhosting">
+            </stateentry>
+            <stateentry background="icons\friendonline">
+            </stateentry>
+            <stateentry background="icons\friendingame">
+            </stateentry>
+          </gadget>
+          <gadget name="mpsetupcustom-friendslist-friend15" type="button" textfont="PeopleListItems" textfontsize="14" textcolor="255 208 0" size1024="345 480 671 495">Friend 15</gadget>
+        </gadget>
+      </gadget>
+    </gadget>
+    <gadget name="MPPest-Page" type="gadget" size1024="315 131 800 647" background="" hidden="">
+      <gadget name="AddPestButton" type="stateButton" size1024="348 565 508 597" bevelbutton="" z="101" statebuttonuseinternalstates="" textfont="PregameButtonsSmall" textfontsize="16" textcolor="255 208 0" textcenterhoriz="" textcentervert="" texturecoords="0 0 .625 1">$$18573$$Add<stateentry background="ui\ui button long 160X32"></stateentry><stateentry background="ui\ui button long 160X32 clicked"></stateentry><stateentry background="ui\ui button long 160X32 rollover"></stateentry><stateentry background=""></stateentry><command>gadgetReal("mpsetupcustom-FriendsList-AddAPest")</command></gadget>
+      <gadget name="RemovePestButton" type="stateButton" size1024="516 565 676 597" bevelbutton="" z="101" statebuttonuseinternalstates="" textfont="PregameButtonsSmall" textfontsize="16" textcolor="255 208 0" textcenterhoriz="" textcentervert="" texturecoords="0 0 .625 1">$$20055$$Remove<stateentry background="ui\ui button long 160X32"></stateentry><stateentry background="ui\ui button long 160X32 clicked"></stateentry><stateentry background="ui\ui button long 160X32 rollover"></stateentry><stateentry background=""></stateentry></gadget>
+      <gadget name="CloseButtonPest" type="stateButton" size1024="448 605 576 637" bevelbutton="" z="101" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="255 208 0" textcenterhoriz="" textcentervert="" texturecoords="0 0 1 1">$$18457$$Close<stateentry background="ui\ui button long 128X32"></stateentry><stateentry background="ui\ui button long 128X32 clicked"></stateentry><stateentry background="ui\ui button long 128X32 rollover"></stateentry><stateentry background=""></stateentry></gadget>
+      <gadget type="dialog" name="pest-delete-yorn" size1024="346 228 676 452" bevel="" background="missing" tilebackground="" texturereplace="" windowzstyle="" hidden="" closeonesc="">
+        <gadget tilebackgroundhoriz="" name="pregame-messagedialog2-BordersTop" type="gadget" background="ui\ui border top middle" size1024="378 220 644 228">
+        </gadget>
+        <gadget tilebackgroundhoriz="" name="pregame-messagedialog2-BordersBottom" type="gadget" background="ui\ui border bottom middle" size1024="378 452 644 460">
+        </gadget>
+        <gadget tilebackgroundvert="" name="pregame-messagedialog2-BordersLeft" type="gadget" background="ui\ui border left middle" size1024="330 252 346 396">
+        </gadget>
+        <gadget tilebackgroundvert="" name="pregame-messagedialog2-BordersRight" type="gadget" background="ui\ui border right middle" size1024="676 252 692 396">
+        </gadget>
+        <gadget name="pregame-messagedialog2-BordersLeftTop" type="gadget" background="ui\ui border top left corner" size1024="314 220 378 252" clampbackground="">
+        </gadget>
+        <gadget name="pregame-messagedialog2-BordersLeftBottom" type="gadget" background="ui\ui border bottom left corner" size1024="314 396 378 460" clampbackground="">
+        </gadget>
+        <gadget name="pregame-messagedialog2-BordersRightBottom" type="gadget" background="ui\ui border bottom right corner" size1024="644 396 708 460" clampbackground="">
+        </gadget>
+        <gadget name="pregame-messagedialog2-BordersRightTop" type="gadget" background="ui\ui border top right corner" size1024="644 220 708 252" clampbackground="">
+        </gadget>
+        <gadget name="pest-delete-prompt" type="formatText" textcolor="255 208 0" textfont="PregameEntry" textfontsize="15" textcentervert="" textcenterhoriz="" size1024="366 267 656 382">Message Text Goes Here</gadget>
+        <gadget name="pest-delete-Yesbutton" type="stateButton" size1024="379 404 507 436" bevelbutton="" z="51" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="255 208 0" textcenterhoriz="" textcentervert="" texturecoords="0 0 1 1">$$18465$$OK<stateentry background="ui\ui button long 128X32"></stateentry><stateentry background="ui\ui button long 128X32 clicked"></stateentry><stateentry background="ui\ui button long 128X32 rollover"></stateentry><stateentry background=""></stateentry></gadget>
+        <gadget name="pest-delete-Nobutton" type="stateButton" size1024="515 404 643 436" bevelbutton="" z="51" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="255 208 0" textcenterhoriz="" textcentervert="" texturecoords="0 0 1 1">$$18466$$Cancel<stateentry background="ui\ui button long 128X32"></stateentry><stateentry background="ui\ui button long 128X32 clicked"></stateentry><stateentry background="ui\ui button long 128X32 rollover"></stateentry><stateentry background=""></stateentry><command>gadgetUnReal("pest-delete-yorn")</command></gadget>
+      </gadget>
+      <gadget name="MPFriendsList-DataSection" type="gadget" size1024="324 183 800 595">
+        <gadget name="MPFriendsList-Bottomline" type="gadget" size1024="321 160 701 549" z="12" background="" outlinecolor="255 208 0" transparent="">
+        </gadget>
+        <gadget name="mpsetupcustom-friendslist-pest-Scrollbar" type="slider" z="15" size1024="681 160 701 548" sliderbuttons="" slidervertical="" sliderupbtnset="sliderUpBtn" sliderdownbtnset="sliderDownBtn" sliderpipart="ui\ui slider pip verticle" sliderpiptexturecoords="0 0 0.5 0.75" sliderareaart="ui\ui background dark blue opaque" background="ui\core_ui\background_yellow_opaque">
+        </gadget>
+        <gadget name="mpsetupcustom-FriendsList-PeopleList" type="gadget" z="11" scrollvert="" tilebackground="" size1024="314 190 671 605">
+          <gadget name="mpsetupcustom-friendslist-pest1-state" type="stateButton" size1024="324 200 340 215" bevel="" statebuttondefaultstate="" transparent="">
+            <stateentry background="icons\friendoffline">
+            </stateentry>
+            <stateentry background="icons\friendonline">
+            </stateentry>
+          </gadget>
+          <gadget name="mpsetupcustom-friendslist-pest1" type="button" textfont="PeopleListItems" textfontsize="14" textcolor="255 208 0" size1024="345 200 671 215">Pest 1</gadget>
+          <gadget name="mpsetupcustom-friendslist-pest2-state" type="stateButton" size1024="324 220 340 235" bevel="" statebuttondefaultstate="" transparent="">
+            <stateentry background="icons\friendoffline">
+            </stateentry>
+            <stateentry background="icons\friendonline">
+            </stateentry>
+          </gadget>
+          <gadget name="mpsetupcustom-friendslist-pest2" type="button" textfont="PeopleListItems" textfontsize="14" textcolor="255 208 0" size1024="345 220 671 235">Pest 2</gadget>
+          <gadget name="mpsetupcustom-friendslist-pest3-state" type="stateButton" size1024="324 240 340 255" bevel="" statebuttondefaultstate="" transparent="">
+            <stateentry background="icons\friendoffline">
+            </stateentry>
+            <stateentry background="icons\friendonline">
+            </stateentry>
+          </gadget>
+          <gadget name="mpsetupcustom-friendslist-pest3" type="button" textfont="PeopleListItems" textfontsize="14" textcolor="255 208 0" size1024="345 240 671 255">Pest 3</gadget>
+          <gadget name="mpsetupcustom-friendslist-pest4-state" type="stateButton" size1024="324 260 340 275" bevel="" statebuttondefaultstate="" transparent="">
+            <stateentry background="icons\friendoffline">
+            </stateentry>
+            <stateentry background="icons\friendonline">
+            </stateentry>
+          </gadget>
+          <gadget name="mpsetupcustom-friendslist-pest4" type="button" textfont="PeopleListItems" textfontsize="14" textcolor="255 208 0" size1024="345 260 671 275">Pest 4</gadget>
+          <gadget name="mpsetupcustom-friendslist-pest5-state" type="stateButton" size1024="324 280 340 295" bevel="" statebuttondefaultstate="" transparent="">
+            <stateentry background="icons\friendoffline">
+            </stateentry>
+            <stateentry background="icons\friendonline">
+            </stateentry>
+          </gadget>
+          <gadget name="mpsetupcustom-friendslist-pest5" type="button" textfont="PeopleListItems" textfontsize="14" textcolor="255 208 0" size1024="345 280 671 295">Pest 5</gadget>
+          <gadget name="mpsetupcustom-friendslist-pest6-state" type="stateButton" size1024="324 300 340 315" bevel="" statebuttondefaultstate="" transparent="">
+            <stateentry background="icons\friendoffline">
+            </stateentry>
+            <stateentry background="icons\friendonline">
+            </stateentry>
+          </gadget>
+          <gadget name="mpsetupcustom-friendslist-pest6" type="button" textfont="PeopleListItems" textfontsize="14" textcolor="255 208 0" size1024="345 300 671 315">Pest 6</gadget>
+          <gadget name="mpsetupcustom-friendslist-pest7-state" type="stateButton" size1024="324 320 340 335" bevel="" statebuttondefaultstate="" transparent="">
+            <stateentry background="icons\friendoffline">
+            </stateentry>
+            <stateentry background="icons\friendonline">
+            </stateentry>
+          </gadget>
+          <gadget name="mpsetupcustom-friendslist-pest7" type="button" textfont="PeopleListItems" textfontsize="14" textcolor="255 208 0" size1024="345 320 671 335">Pest 7</gadget>
+          <gadget name="mpsetupcustom-friendslist-pest8-state" type="stateButton" size1024="324 340 340 355" bevel="" statebuttondefaultstate="" transparent="">
+            <stateentry background="icons\friendoffline">
+            </stateentry>
+            <stateentry background="icons\friendonline">
+            </stateentry>
+          </gadget>
+          <gadget name="mpsetupcustom-friendslist-pest8" type="button" textfont="PeopleListItems" textfontsize="14" textcolor="255 208 0" size1024="345 340 671 355">Pest 8</gadget>
+          <gadget name="mpsetupcustom-friendslist-pest9-state" type="stateButton" size1024="324 360 340 375" bevel="" statebuttondefaultstate="" transparent="">
+            <stateentry background="icons\friendoffline">
+            </stateentry>
+            <stateentry background="icons\friendonline">
+            </stateentry>
+          </gadget>
+          <gadget name="mpsetupcustom-friendslist-pest9" type="button" textfont="PeopleListItems" textfontsize="14" textcolor="255 208 0" size1024="345 360 671 375">Pest 9</gadget>
+          <gadget name="mpsetupcustom-friendslist-pest10-state" type="stateButton" size1024="324 380 340 395" bevel="" statebuttondefaultstate="" transparent="">
+            <stateentry background="icons\friendoffline">
+            </stateentry>
+            <stateentry background="icons\friendonline">
+            </stateentry>
+          </gadget>
+          <gadget name="mpsetupcustom-friendslist-pest10" type="button" textfont="PeopleListItems" textfontsize="14" textcolor="255 208 0" size1024="345 380 671 395">Pest 10</gadget>
+          <gadget name="mpsetupcustom-friendslist-pest11-state" type="stateButton" size1024="324 400 340 415" bevel="" statebuttondefaultstate="" transparent="">
+            <stateentry background="icons\friendoffline">
+            </stateentry>
+            <stateentry background="icons\friendonline">
+            </stateentry>
+          </gadget>
+          <gadget name="mpsetupcustom-friendslist-pest11" type="button" textfont="PeopleListItems" textfontsize="14" textcolor="255 208 0" size1024="345 400 671 415">Pest 11</gadget>
+          <gadget name="mpsetupcustom-friendslist-pest12-state" type="stateButton" size1024="324 420 340 435" bevel="" statebuttondefaultstate="" transparent="">
+            <stateentry background="icons\friendoffline">
+            </stateentry>
+            <stateentry background="icons\friendonline">
+            </stateentry>
+          </gadget>
+          <gadget name="mpsetupcustom-friendslist-pest12" type="button" textfont="PeopleListItems" textfontsize="14" textcolor="255 208 0" size1024="345 420 671 435">Pest 12</gadget>
+          <gadget name="mpsetupcustom-friendslist-pest13-state" type="stateButton" size1024="324 440 340 455" bevel="" statebuttondefaultstate="" transparent="">
+            <stateentry background="icons\friendoffline">
+            </stateentry>
+            <stateentry background="icons\friendonline">
+            </stateentry>
+          </gadget>
+          <gadget name="mpsetupcustom-friendslist-pest13" type="button" textfont="PeopleListItems" textfontsize="14" textcolor="255 208 0" size1024="345 440 671 455">Pest 13</gadget>
+          <gadget name="mpsetupcustom-friendslist-pest14-state" type="stateButton" size1024="324 460 340 475" bevel="" statebuttondefaultstate="" transparent="">
+            <stateentry background="icons\friendoffline">
+            </stateentry>
+            <stateentry background="icons\friendonline">
+            </stateentry>
+          </gadget>
+          <gadget name="mpsetupcustom-friendslist-pest14" type="button" textfont="PeopleListItems" textfontsize="14" textcolor="255 208 0" size1024="345 460 671 475">Pest 14</gadget>
+          <gadget name="mpsetupcustom-friendslist-pest15-state" type="stateButton" size1024="324 480 340 495" bevel="" statebuttondefaultstate="" transparent="">
+            <stateentry background="icons\friendoffline">
+            </stateentry>
+            <stateentry background="icons\friendonline">
+            </stateentry>
+          </gadget>
+          <gadget name="mpsetupcustom-friendslist-pest15" type="button" textfont="PeopleListItems" textfontsize="14" textcolor="255 208 0" size1024="345 480 671 495">Pest 15</gadget>
+          <gadget name="mpsetupcustom-friendslist-pest16-state" type="stateButton" size1024="324 500 340 515" bevel="" statebuttondefaultstate="" transparent="">
+            <stateentry background="icons\friendoffline">
+            </stateentry>
+            <stateentry background="icons\friendonline">
+            </stateentry>
+          </gadget>
+          <gadget name="mpsetupcustom-friendslist-pest16" type="button" textfont="PeopleListItems" textfontsize="14" textcolor="255 208 0" size1024="345 500 671 515">Pest 16</gadget>
+          <gadget name="mpsetupcustom-friendslist-pest17-state" type="stateButton" size1024="324 520 340 535" bevel="" statebuttondefaultstate="" transparent="">
+            <stateentry background="icons\friendoffline">
+            </stateentry>
+            <stateentry background="icons\friendonline">
+            </stateentry>
+          </gadget>
+          <gadget name="mpsetupcustom-friendslist-pest17" type="button" textfont="PeopleListItems" textfontsize="14" textcolor="255 208 0" size1024="345 520 671 535">Pest 17</gadget>
+        </gadget>
+      </gadget>
+    </gadget>
+    <gadget name="mpsetupcustom-FriendsList-AddAFriend" type="dialog" size1024="336 277 780 449" bevel="" z="95" background="" closeonesc="" hidden="">
+      <gadget name="MPFriendsList-Background-AddAFriend" type="gadget" size1024="349 277 680 456" background="missing" tilebackground="" z="1">
+        <gadget tilebackgroundhoriz="" name="BasicOptions-BordersTop-Pest" type="gadget" background="ui\ui border top middle" size1024="378 270 643 278" z="9">
+        </gadget>
+        <gadget tilebackgroundhoriz="" name="BasicOptions-BordersBottom-Pest" type="gadget" background="ui\ui border bottom middle" size1024="380 456 643 464" z="9">
+        </gadget>
+        <gadget tilebackgroundvert="" name="BasicOptions-BordersLeft-Pest" type="gadget" background="ui\ui border left middle" size1024="333 302 349 407" z="9">
+        </gadget>
+        <gadget tilebackgroundvert="" name="BasicOptions-BordersRight-Pest" type="gadget" background="ui\ui border right middle" size1024="675 290 691 403" z="9">
+        </gadget>
+        <gadget name="BasicOptions-BordersLeftTop-Pest" type="gadget" background="ui\ui border top left corner" size1024="317 270 381 302" z="10">
+        </gadget>
+        <gadget name="BasicOptions-BordersLeftBottom-Pest" type="gadget" background="ui\ui border bottom left corner" size1024="317 400 381 464" z="10">
+        </gadget>
+        <gadget name="AdvancedOptions-BordersRightBottom-Pest" type="gadget" background="ui\ui border bottom right corner" size1024="643 400 707 464" z="9">
+        </gadget>
+        <gadget name="AdvancedOptions-BordersRightTop-Pest" type="gadget" background="ui\ui border top right corner" size1024="643 270 707 302" z="10">
+        </gadget>
+      </gadget>
+      <gadget name="mpsetupcustom-FriendsList-AddAFriend-AddButton" type="stateButton" size1024="380 409 508 441" bevelbutton="" z="101" statebuttonuseinternalstates="" textfont="PregameButtonsSmall" textfontsize="16" textcolor="255 208 0" textcenterhoriz="" textcentervert="" texturecoords="0 0 1 1">$$20050$$Add Friend<stateentry background="ui\ui button long 128X32"></stateentry><stateentry background="ui\ui button long 128X32 clicked"></stateentry><stateentry background="ui\ui button long 128X32 rollover"></stateentry><stateentry background=""></stateentry><command>gadgetUnReal("mpsetupcustom-FriendsList-AddAFriend")</command></gadget>
+      <gadget name="mpsetupcustom-FriendsList-AddAFriend-CancelButton" type="stateButton" size1024="516 409 644 441" bevelbutton="" z="101" statebuttonuseinternalstates="" textfont="PregameButtonsSmall" textfontsize="16" textcolor="255 208 0" textcenterhoriz="" textcentervert="" texturecoords="0 0 1 1">$$18466$$Cancel<stateentry background="ui\ui button long 128X32"></stateentry><stateentry background="ui\ui button long 128X32 clicked"></stateentry><stateentry background="ui\ui button long 128X32 rollover"></stateentry><stateentry background=""></stateentry><command>gadgetUnReal("mpsetupcustom-FriendsList-AddAFriend")</command></gadget>
+      <gadget name="mpsetupcustom-FriendsList-AddAFriend-HelpText" type="formatText" textfont="PregameEntry" textfontsize="15" textcolor="255 208 0" textwrapon="" size1024="359 295 667 368">$$20054$$Type your friend's online name in the field below and then hit the "Add Friend" button  to add them to your list:</gadget>
+      <gadget name="mpsetupcustom-FriendsList-AddAFriend-Left-NameEntry" type="gadget" background="ui\ui text box left" size1024="359 369 375 401">
+      </gadget>
+      <gadget name="mpsetupcustom-FriendsList-AddAFriend-UserName" type="gadget" tilebackgroundhoriz="" background="missing" size1024="376 369 650 401">
+      </gadget>
+      <gadget name="mpsetupcustom-FriendsList-AddAFriend-EditNameEntry" type="editBox" size1024="376 374 649 398" textfont="PregameEntry" textfontsize="15" textcolor="0 0 58" enterkey="" z="11">
+      </gadget>
+      <gadget name="mpsetupcustom-FriendsList-AddAFriend-Right-NameEntry" type="gadget" background="ui\ui text box right" size1024="651 369 667 401">
+      </gadget>
+    </gadget>
+    <gadget name="mpsetupcustom-FriendsList-AddAPest" type="dialog" size1024="249 267 780 439" bevel="" z="95" background="" closeonesc="" hidden="">
+      <gadget name="MPFriendsList-Background-AddAPest" type="gadget" size1024="349 267 680 446" background="missing" tilebackground="" z="1">
+        <gadget tilebackgroundhoriz="" name="BasicOptions-BordersTop-Pest" type="gadget" background="ui\ui border top middle" size1024="378 260 643 268" z="9">
+        </gadget>
+        <gadget tilebackgroundhoriz="" name="BasicOptions-BordersBottom-Pest" type="gadget" background="ui\ui border bottom middle" size1024="380 446 643 454" z="9">
+        </gadget>
+        <gadget tilebackgroundvert="" name="BasicOptions-BordersLeft-Pest" type="gadget" background="ui\ui border left middle" size1024="333 292 349 397" z="9">
+        </gadget>
+        <gadget tilebackgroundvert="" name="BasicOptions-BordersRight-Pest" type="gadget" background="ui\ui border right middle" size1024="675 280 691 393" z="9">
+        </gadget>
+        <gadget name="BasicOptions-BordersLeftTop-Pest" type="gadget" background="ui\ui border top left corner" size1024="317 260 381 292" z="10">
+        </gadget>
+        <gadget name="BasicOptions-BordersLeftBottom-Pest" type="gadget" background="ui\ui border bottom left corner" size1024="317 390 381 454" z="10">
+        </gadget>
+        <gadget name="AdvancedOptions-BordersRightBottom-Pest" type="gadget" background="ui\ui border bottom right corner" size1024="643 390 707 454" z="9">
+        </gadget>
+        <gadget name="AdvancedOptions-BordersRightTop-Pest" type="gadget" background="ui\ui border top right corner" size1024="643 260 707 292" z="10">
+        </gadget>
+      </gadget>
+      <gadget name="mpsetupcustom-FriendsList-AddAPest-AddButton" type="stateButton" size1024="380 399 508 431" bevelbutton="" z="101" statebuttonuseinternalstates="" textfont="PregameButtonsSmall" textfontsize="16" textcolor="255 208 0" textcenterhoriz="" textcentervert="" texturecoords="0 0 1 1">$$20053$$Add Pest<stateentry background="ui\ui button long 128X32"></stateentry><stateentry background="ui\ui button long 128X32 clicked"></stateentry><stateentry background="ui\ui button long 128X32 rollover"></stateentry><stateentry background=""></stateentry><command>gadgetUnReal("mpsetupcustom-FriendsList-AddAPest")</command></gadget>
+      <gadget name="mpsetupcustom-FriendsList-AddAPest-CancelButton" type="stateButton" size1024="516 399 644 431" bevelbutton="" z="101" statebuttonuseinternalstates="" textfont="PregameButtonsSmall" textfontsize="16" textcolor="255 208 0" textcenterhoriz="" textcentervert="" texturecoords="0 0 1 1">$$18466$$Cancel<stateentry background="ui\ui button long 128X32"></stateentry><stateentry background="ui\ui button long 128X32 clicked"></stateentry><stateentry background="ui\ui button long 128X32 rollover"></stateentry><stateentry background=""></stateentry><command>gadgetUnReal("mpsetupcustom-FriendsList-AddAPest")</command></gadget>
+      <gadget name="mpsetupcustom-FriendsList-AddAPest-HelpText" type="formatText" textfont="PregameEntry" textfontsize="15" textcolor="255 208 0" textwrapon="" size1024="359 285 667 358">$$20052$$Type the pest's online name in the field below and then hit the "Add Pest" button  to add them to your list:</gadget>
+      <gadget name="mpsetupcustom-FriendsList-AddAPest-Left-NameEntry" type="gadget" background="ui\ui text box left" size1024="359 358 375 390">
+      </gadget>
+      <gadget name="mpsetupcustom-FriendsList-AddAPest-UserName" type="gadget" tilebackgroundhoriz="" background="missing" size1024="376 358 650 390">
+      </gadget>
+      <gadget name="mpsetupcustom-FriendsList-AddAPest-EditNameEntry" type="editBox" size1024="376 363 649 387" textfont="PregameEntry" textfontsize="15" textcolor="0 0 58" enterkey="" z="11">
+      </gadget>
+      <gadget name="mpsetupcustom-FriendsList-AddAPest-Right-NameEntry" type="gadget" background="ui\ui text box right" size1024="651 358 667 390">
+      </gadget>
+    </gadget>
+    <gadget name="mpsetupcustom-FriendsList-SendMessage" type="dialog" size1024="349 242 780 414" bevel="" z="95" background="" closeonesc="" hidden="">
+      <gadget name="MPFriendsList-Background-Message" type="gadget" size1024="349 242 680 421" background="missing" tilebackground="" z="1">
+        <gadget tilebackgroundhoriz="" name="BasicOptions-BordersTop-Pest" type="gadget" background="ui\ui border top middle" size1024="378 235 643 243" z="9">
+        </gadget>
+        <gadget tilebackgroundhoriz="" name="BasicOptions-BordersBottom-Pest" type="gadget" background="ui\ui border bottom middle" size1024="380 421 643 429" z="9">
+        </gadget>
+        <gadget tilebackgroundvert="" name="BasicOptions-BordersLeft-Pest" type="gadget" background="ui\ui border left middle" size1024="333 267 349 372" z="9">
+        </gadget>
+        <gadget tilebackgroundvert="" name="BasicOptions-BordersRight-Pest" type="gadget" background="ui\ui border right middle" size1024="675 255 691 368" z="9">
+        </gadget>
+        <gadget name="BasicOptions-BordersLeftTop-Pest" type="gadget" background="ui\ui border top left corner" size1024="317 235 381 267" z="9">
+        </gadget>
+        <gadget name="BasicOptions-BordersLeftBottom-Pest" type="gadget" background="ui\ui border bottom left corner" size1024="317 365 381 429" z="10">
+        </gadget>
+        <gadget name="AdvancedOptions-BordersRightBottom-Pest" type="gadget" background="ui\ui border bottom right corner" size1024="643 365 707 429" z="9">
+        </gadget>
+        <gadget name="AdvancedOptions-BordersRightTop-Pest" type="gadget" background="ui\ui border top right corner" size1024="643 235 707 267" z="10">
+        </gadget>
+      </gadget>
+      <gadget name="mpsetupcustom-FriendsList-Message-SendButton" type="stateButton" size1024="380 374 508 406" bevelbutton="" z="101" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="255 208 0" textcenterhoriz="" textcentervert="" texturecoords="0 0 1 1">$$19008$$Send<stateentry background="ui\ui button long 128X32"></stateentry><stateentry background="ui\ui button long 128X32 clicked"></stateentry><stateentry background="ui\ui button long 128X32 rollover"></stateentry><stateentry background=""></stateentry><command>gadgetUnReal("mpsetupcustom-FriendsList-SendMessage")</command></gadget>
+      <gadget name="mpsetupcustom-FriendsList-Message-CancelButton" type="stateButton" size1024="516 374 644 406" bevelbutton="" z="101" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="255 208 0" textcenterhoriz="" textcentervert="" texturecoords="0 0 1 1">$$18466$$Cancel<stateentry background="ui\ui button long 128X32"></stateentry><stateentry background="ui\ui button long 128X32 clicked"></stateentry><stateentry background="ui\ui button long 128X32 rollover"></stateentry><stateentry background=""></stateentry><command>gadgetUnReal("mpsetupcustom-FriendsList-SendMessage")</command></gadget>
+      <gadget name="mpsetupcustom-FriendsList-Message-HelpText" type="formatText" textfont="PregameEntry" textfontsize="15" textcolor="255 208 0" size1024="358 286 663 306">$$20066$$Type your message and click send:</gadget>
+      <gadget name="mpsetupcustom-FriendsList-MessageEntry" fieldtextboxcolor="255 255 255" type="textField" textcolor="0 0 58" size1024="359 327 664 347" fieldrequireenter="" enableime="">
+      </gadget>
+    </gadget>
+  </gadget>
+</layout>

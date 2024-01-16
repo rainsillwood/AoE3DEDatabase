@@ -1,0 +1,1564 @@
+<homecityprops>
+  <prop>
+    <name>JapanesePeasantMale</name>
+    <type>Unit</type>
+    <displayname>Peasant Male</displayname>
+    <displaynamestringid>
+    </displaynamestringid>
+    <description>A Japanese farmer.</description>
+    <descriptionstringid>
+    </descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <position>
+      <building>Estate</building>
+    </position>
+    <icon>homecity\home_city_props\icons\thug</icon>
+  </prop>
+  <prop>
+    <name>JapanesePeasantFemale</name>
+    <type>Unit</type>
+    <displayname>Peasant Female</displayname>
+    <displaynamestringid>
+    </displaynamestringid>
+    <description>A Japanese farmer.</description>
+    <descriptionstringid>
+    </descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <position>
+      <building>Estate</building>
+    </position>
+    <icon>homecity\home_city_props\icons\thug</icon>
+  </prop>
+  <prop>
+    <name>JapaneseLady</name>
+    <type>Unit</type>
+    <displayname>Noblewoman</displayname>
+    <displaynamestringid>
+    </displaynamestringid>
+    <description>An elegant member of any society.</description>
+    <descriptionstringid>
+    </descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <position>
+      <building>Academy</building>
+    </position>
+    <icon>homecity\home_city_props\icons\noble_female</icon>
+  </prop>
+  <prop>
+    <name>JapaneseGirl</name>
+    <type>Unit</type>
+    <displayname>City Girl</displayname>
+    <displaynamestringid>
+    </displaynamestringid>
+    <description>A young girl, new to the city.</description>
+    <descriptionstringid>
+    </descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <position>
+      <building>Academy</building>
+    </position>
+    <icon>homecity\home_city_props\icons\noble_female</icon>
+  </prop>
+  <prop>
+    <name>JapaneseSamurai</name>
+    <type>Unit</type>
+    <displayname>Nobleman</displayname>
+    <displaynamestringid>
+    </displaynamestringid>
+    <description>An elite warrior of any society.</description>
+    <descriptionstringid>
+    </descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <position>
+      <building>Academy</building>
+    </position>
+    <icon>homecity\home_city_props\icons\noble_male</icon>
+  </prop>
+  <prop>
+    <name>JapaneseMonk</name>
+    <type>PerformerUnit</type>
+    <displayname>Monk</displayname>
+    <displaynamestringid>
+    </displaynamestringid>
+    <description>A Japanese monk.</description>
+    <descriptionstringid>
+    </descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <position>
+      <building>Cathedral</building>
+    </position>
+    <icon>homecity\home_city_props\icons\preacher</icon>
+  </prop>
+  <prop>
+    <name>JapaneseGeisha</name>
+    <type>Unit</type>
+    <displayname>Nice Lady</displayname>
+    <displaynamestringid>
+    </displaynamestringid>
+    <description>A female entertainer.</description>
+    <descriptionstringid>
+    </descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <position>
+      <building>Dock</building>
+    </position>
+    <icon>homecity\home_city_props\icons\nicelady</icon>
+  </prop>
+  <prop>
+    <name>JapaneseRonin</name>
+    <type>Unit</type>
+    <displayname>Thug</displayname>
+    <displaynamestringid>
+    </displaynamestringid>
+    <description>An exiled or disloyal samurai.</description>
+    <descriptionstringid>
+    </descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <position>
+      <building>ManufacturingPlant</building>
+    </position>
+    <icon>homecity\home_city_props\icons\thug</icon>
+  </prop>
+  <prop>
+    <name>JapaneseStreetPerformer</name>
+    <type>PerformerUnit</type>
+    <displayname>Street Performer</displayname>
+    <displaynamestringid>
+    </displaynamestringid>
+    <description>A Japanese performer.</description>
+    <descriptionstringid>
+    </descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <position>
+      <building>Market</building>
+    </position>
+    <icon>homecity\home_city_props\icons\juggler</icon>
+  </prop>
+  <prop>
+    <name>ChineseMan</name>
+    <type>Unit</type>
+    <displayname>Chinese Man</displayname>
+    <displaynamestringid>
+    </displaynamestringid>
+    <description>A Chinese man.</description>
+    <descriptionstringid>
+    </descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <position>
+      <building>Estate</building>
+    </position>
+    <icon>homecity\home_city_props\icons\thug</icon>
+  </prop>
+  <prop>
+    <name>ChineseFarmer</name>
+    <type>Unit</type>
+    <displayname>Farmer</displayname>
+    <displaynamestringid>
+    </displaynamestringid>
+    <description>A Chinese farmer.</description>
+    <descriptionstringid>
+    </descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <position>
+      <building>Estate</building>
+    </position>
+    <icon>homecity\home_city_props\icons\thug</icon>
+  </prop>
+  <prop>
+    <name>ChineseWoman</name>
+    <type>Unit</type>
+    <displayname>Chinese Woman</displayname>
+    <displaynamestringid>
+    </displaynamestringid>
+    <description>A Chinese woman.</description>
+    <descriptionstringid>
+    </descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <position>
+      <building>ManufacturingPlant</building>
+    </position>
+    <icon>homecity\home_city_props\icons\noble_female</icon>
+  </prop>
+  <prop>
+    <name>ChineseNoblewoman</name>
+    <type>Unit</type>
+    <displayname>Noblewoman</displayname>
+    <displaynamestringid>
+    </displaynamestringid>
+    <description>An elegant member of any society.</description>
+    <descriptionstringid>
+    </descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <position>
+      <building>Academy</building>
+    </position>
+    <icon>homecity\home_city_props\icons\noble_female</icon>
+  </prop>
+  <prop>
+    <name>ChineseNobleman</name>
+    <type>Unit</type>
+    <displayname>Nobleman</displayname>
+    <displaynamestringid>
+    </displaynamestringid>
+    <description>An elegant member of any society.</description>
+    <descriptionstringid>
+    </descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <position>
+      <building>Dock</building>
+    </position>
+    <icon>homecity\home_city_props\icons\noble_male</icon>
+  </prop>
+  <prop>
+    <name>ChineseMonk</name>
+    <type>PerformerUnit</type>
+    <displayname>Monk</displayname>
+    <displaynamestringid>
+    </displaynamestringid>
+    <description>A Chinese monk.</description>
+    <descriptionstringid>
+    </descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <position>
+      <building>Cathedral</building>
+    </position>
+    <icon>homecity\home_city_props\icons\preacher</icon>
+  </prop>
+  <prop>
+    <name>ChineseStreetPerformer</name>
+    <type>PerformerUnit</type>
+    <displayname>Street Performer</displayname>
+    <displaynamestringid>
+    </displaynamestringid>
+    <description>A Chinese performer.</description>
+    <descriptionstringid>
+    </descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <position>
+      <building>Market</building>
+    </position>
+    <icon>homecity\home_city_props\icons\juggler</icon>
+  </prop>
+  <prop>
+    <name>IndianGirl</name>
+    <type>Unit</type>
+    <displayname>City Girl</displayname>
+    <displaynamestringid>
+    </displaynamestringid>
+    <description>A young girl, new to the city.</description>
+    <descriptionstringid>
+    </descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <position>
+      <building>Academy</building>
+    </position>
+    <icon>homecity\home_city_props\icons\noble_female</icon>
+  </prop>
+  <prop>
+    <name>IndianWoman</name>
+    <type>Unit</type>
+    <displayname>Noblewoman</displayname>
+    <displaynamestringid>
+    </displaynamestringid>
+    <description>An elegant member of any society.</description>
+    <descriptionstringid>
+    </descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <position>
+      <building>Academy</building>
+    </position>
+    <icon>homecity\home_city_props\icons\noble_female</icon>
+  </prop>
+  <prop>
+    <name>IndianGentleman</name>
+    <type>Unit</type>
+    <displayname>Nobleman</displayname>
+    <displaynamestringid>
+    </displaynamestringid>
+    <description>An elegant member of any society.</description>
+    <descriptionstringid>
+    </descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <position>
+      <building>Dock</building>
+    </position>
+    <icon>homecity\home_city_props\icons\noble_male</icon>
+  </prop>
+  <prop>
+    <name>IndianMan</name>
+    <type>Unit</type>
+    <displayname>Nobleman</displayname>
+    <displaynamestringid>
+    </displaynamestringid>
+    <description>An Indian man.</description>
+    <descriptionstringid>
+    </descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <position>
+      <building>Dock</building>
+    </position>
+    <icon>homecity\home_city_props\icons\noble_male</icon>
+  </prop>
+  <prop>
+    <name>IndianMonk</name>
+    <type>Unit</type>
+    <displayname>Monk</displayname>
+    <displaynamestringid>
+    </displaynamestringid>
+    <description>A Indian monk.</description>
+    <descriptionstringid>
+    </descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <position>
+      <building>Cathedral</building>
+    </position>
+    <icon>homecity\home_city_props\icons\preacher</icon>
+  </prop>
+  <prop>
+    <name>IndianSnakecharmer</name>
+    <type>PerformerUnit</type>
+    <displayname>Street Performer</displayname>
+    <displaynamestringid>
+    </displaynamestringid>
+    <description>A Indian performer.</description>
+    <descriptionstringid>
+    </descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <position>
+      <building>Market</building>
+    </position>
+    <icon>homecity\home_city_props\icons\juggler</icon>
+  </prop>
+  <prop>
+    <name>ChineseLightSetMorning</name>
+    <type>LightSet</type>
+    <displayname>Morning Lighting</displayname>
+    <displaynamestringid>49054</displaynamestringid>
+    <description>The city on a cool morning.</description>
+    <descriptionstringid>49055</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <position>
+      <building>Emperor's Treasury</building>
+    </position>
+    <icon>homecity\home_city_props\icons\china_lightset1</icon>
+    <variationid>0</variationid>
+    <lightset>china</lightset>
+  </prop>
+  <prop>
+    <name>ChineseLightSetDay</name>
+    <type>LightSet</type>
+    <displayname>Day Lighting</displayname>
+    <displaynamestringid>49056</displaynamestringid>
+    <description>The city during the day.</description>
+    <descriptionstringid>49057</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <position>
+      <building>Emperor's Treasury</building>
+    </position>
+    <icon>homecity\home_city_props\icons\china_lightset2</icon>
+    <variationid>1</variationid>
+    <lightset>china_day</lightset>
+  </prop>
+  <prop>
+    <name>ChineseLightSetNight</name>
+    <type>LightSet</type>
+    <displayname>Night Lighting</displayname>
+    <displaynamestringid>49058</displaynamestringid>
+    <description>The city at night with spectacular fireworks.</description>
+    <descriptionstringid>49059</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <position>
+      <building>Emperor's Treasury</building>
+      <bone>bone_fx</bone>
+    </position>
+    <icon>homecity\home_city_props\icons\china_lightset3</icon>
+    <variationid>2</variationid>
+    <lightset>china_night</lightset>
+    <visual>homecity\home_city_props\prop_china_fireworks.xml</visual>
+  </prop>
+  <prop>
+    <name>ChineseLightSetNightStormy</name>
+    <type>LightSet</type>
+    <displayname>Stormy Night Lighting</displayname>
+    <displaynamestringid>49060</displaynamestringid>
+    <description>The city on a stormy night.</description>
+    <descriptionstringid>49061</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <position>
+      <building>Emperor's Treasury</building>
+      <bone>bone_fx</bone>
+    </position>
+    <icon>homecity\home_city_props\icons\china_lightset4</icon>
+    <variationid>3</variationid>
+    <lightset>china_storm_night</lightset>
+    <visual>homecity\home_city_props\prop_china_storm.xml</visual>
+  </prop>
+  <prop>
+    <name>ChineseTorchy</name>
+    <type>PerformerUnit</type>
+    <displayname>Torchy</displayname>
+    <displaynamestringid>37569</displaynamestringid>
+    <description>An entertainer who performs tricks with fire.</description>
+    <descriptionstringid>37570</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <position>
+      <building>Emperor's Treasury</building>
+    </position>
+    <icon>homecity\home_city_props\icons\chinese_FireBreather</icon>
+  </prop>
+  <prop>
+    <name>ChineseJuggler</name>
+    <type>PerformerUnit</type>
+    <displayname>Juggler</displayname>
+    <displaynamestringid>37571</displaynamestringid>
+    <description>A juggling performer.</description>
+    <descriptionstringid>37572</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <position>
+      <building>Emperor's Treasury</building>
+    </position>
+    <icon>homecity\home_city_props\icons\chinese_juggler</icon>
+  </prop>
+  <prop>
+    <name>ChinesePeasantVendor</name>
+    <type>PerformerUnit</type>
+    <displayname>Vendor Cart</displayname>
+    <displaynamestringid>42472</displaynamestringid>
+    <description>A store on wheels hawking goods of all kinds.</description>
+    <descriptionstringid>42473</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <position>
+      <building>Fortress</building>
+    </position>
+    <icon>homecity\home_city_props\icons\chinese_dumpling_cart</icon>
+  </prop>
+  <prop>
+    <name>ChineseDrunk</name>
+    <type>Unit</type>
+    <displayname>Drunk</displayname>
+    <displaynamestringid>42508</displaynamestringid>
+    <description>A sailor who has overindulged in adult beverages.</description>
+    <descriptionstringid>42509</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <position>
+      <building>Merchant's Guild</building>
+    </position>
+    <icon>homecity\home_city_props\icons\chinese_drunk</icon>
+  </prop>
+  <prop>
+    <name>ChinesePeasantFisherman</name>
+    <type>Unit</type>
+    <displayname>Fisherman</displayname>
+    <displaynamestringid>42512</displaynamestringid>
+    <description>A man who would rather be fishing.</description>
+    <descriptionstringid>42513</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <position>
+      <building>Customs House</building>
+    </position>
+    <icon>homecity\home_city_props\icons\chinese_fisherman</icon>
+  </prop>
+  <prop>
+    <name>ChineseThug</name>
+    <type>Unit</type>
+    <displayname>Thug</displayname>
+    <displaynamestringid>42514</displaynamestringid>
+    <description>A brutish and unpleasant fellow.</description>
+    <descriptionstringid>42515</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <position>
+      <building>Imperial Court</building>
+    </position>
+    <icon>homecity\home_city_props\icons\chinese_thug</icon>
+  </prop>
+  <prop>
+    <name>ChineseOx</name>
+    <type>Unit</type>
+    <displayname>Ox</displayname>
+    <displaynamestringid>49052</displaynamestringid>
+    <description>A wandering Ox.</description>
+    <descriptionstringid>49053</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <position>
+      <building>Customs House</building>
+    </position>
+    <icon>homecity\home_city_props\icons\chinese_ox</icon>
+  </prop>
+  <prop>
+    <name>ChineseETTexture0</name>
+    <type>ReplaceVisual</type>
+    <displayname>Emperor's Treasury Color 1</displayname>
+    <displaynamestringid>49062</displaynamestringid>
+    <description>The first variant of the Emperor's Treasury</description>
+    <descriptionstringid>49063</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <position>
+      <building>Emperor's Treasury</building>
+    </position>
+    <icon>homecity\home_city_props\icons\china_trs2</icon>
+    <variationid>1</variationid>
+  </prop>
+  <prop>
+    <name>ChineseETTexture1</name>
+    <type>ReplaceVisual</type>
+    <displayname>Emperor's Treasury Color 2</displayname>
+    <displaynamestringid>49064</displaynamestringid>
+    <description>The second variant of the Emperor's Treasury</description>
+    <descriptionstringid>49065</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <position>
+      <building>Emperor's Treasury</building>
+    </position>
+    <icon>homecity\home_city_props\icons\china_trs1</icon>
+    <variationid>0</variationid>
+  </prop>
+  <prop>
+    <name>ChineseETTexture2</name>
+    <type>ReplaceVisual</type>
+    <displayname>Emperor's Treasury Color 3</displayname>
+    <displaynamestringid>49066</displaynamestringid>
+    <description>The third variant of the Emperor's Treasury</description>
+    <descriptionstringid>49067</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <position>
+      <building>Emperor's Treasury</building>
+    </position>
+    <icon>homecity\home_city_props\icons\china_trs3</icon>
+    <variationid>2</variationid>
+  </prop>
+  <prop>
+    <name>ChineseETTexture3</name>
+    <type>ReplaceVisual</type>
+    <displayname>Emperor's Treasury Color 4</displayname>
+    <displaynamestringid>49068</displaynamestringid>
+    <description>The fourth variant of the Emperor's Treasury</description>
+    <descriptionstringid>49069</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <position>
+      <building>Emperor's Treasury</building>
+    </position>
+    <icon>homecity\home_city_props\icons\china_trs4</icon>
+    <variationid>3</variationid>
+  </prop>
+  <prop>
+    <name>ChineseETTexture4</name>
+    <type>ReplaceVisual</type>
+    <displayname>Emperor's Treasury Color 5</displayname>
+    <displaynamestringid>49070</displaynamestringid>
+    <description>The fifth variant of the Emperor's Treasury</description>
+    <descriptionstringid>49071</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <position>
+      <building>Emperor's Treasury</building>
+    </position>
+    <icon>homecity\home_city_props\icons\china_trs5</icon>
+    <variationid>4</variationid>
+  </prop>
+  <prop>
+    <name>ChineseFortTexture0</name>
+    <type>ReplaceVisual</type>
+    <displayname>Fortress Color 1</displayname>
+    <displaynamestringid>49072</displaynamestringid>
+    <description>The first variant of the Fortress</description>
+    <descriptionstringid>49073</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <position>
+      <building>Fortress</building>
+    </position>
+    <icon>homecity\home_city_props\icons\china_ft1</icon>
+    <variationid>0</variationid>
+  </prop>
+  <prop>
+    <name>ChineseFortTexture1</name>
+    <type>ReplaceVisual</type>
+    <displayname>Fortress Color 2</displayname>
+    <displaynamestringid>49074</displaynamestringid>
+    <description>The second variant of the Fortress</description>
+    <descriptionstringid>49075</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <position>
+      <building>Fortress</building>
+    </position>
+    <icon>homecity\home_city_props\icons\china_ft2</icon>
+    <variationid>1</variationid>
+  </prop>
+  <prop>
+    <name>ChineseFortTexture2</name>
+    <type>ReplaceVisual</type>
+    <displayname>Fortress Color 3</displayname>
+    <displaynamestringid>49076</displaynamestringid>
+    <description>The third variant of the Fortress</description>
+    <descriptionstringid>49077</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <position>
+      <building>Fortress</building>
+    </position>
+    <icon>homecity\home_city_props\icons\china_ft3</icon>
+    <variationid>2</variationid>
+  </prop>
+  <prop>
+    <name>ChineseFortTexture3</name>
+    <type>ReplaceVisual</type>
+    <displayname>Fortress Color 4</displayname>
+    <displaynamestringid>49078</displaynamestringid>
+    <description>The fourth variant of the Fortress</description>
+    <descriptionstringid>49079</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <position>
+      <building>Fortress</building>
+    </position>
+    <icon>homecity\home_city_props\icons\china_ft4</icon>
+    <variationid>3</variationid>
+  </prop>
+  <prop>
+    <name>ChineseFortTexture4</name>
+    <type>ReplaceVisual</type>
+    <displayname>Fortress Color 5</displayname>
+    <displaynamestringid>49080</displaynamestringid>
+    <description>The fifth variant of the Fortress</description>
+    <descriptionstringid>49081</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <position>
+      <building>Fortress</building>
+    </position>
+    <icon>homecity\home_city_props\icons\china_ft5</icon>
+    <variationid>4</variationid>
+  </prop>
+  <prop>
+    <name>ChineseICTexture0</name>
+    <type>ReplaceVisual</type>
+    <displayname>Imperial Court Color 1</displayname>
+    <displaynamestringid>49086</displaynamestringid>
+    <description>The first variant of the Imperial Court</description>
+    <descriptionstringid>49087</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <position>
+      <building>Imperial Court</building>
+    </position>
+    <icon>homecity\home_city_props\icons\china_crt1</icon>
+    <variationid>0</variationid>
+  </prop>
+  <prop>
+    <name>ChineseICTexture1</name>
+    <type>ReplaceVisual</type>
+    <displayname>Imperial Court Color 2</displayname>
+    <displaynamestringid>49082</displaynamestringid>
+    <description>The second variant of the Imperial Court</description>
+    <descriptionstringid>49083</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <position>
+      <building>Imperial Court</building>
+    </position>
+    <icon>homecity\home_city_props\icons\china_crt2</icon>
+    <variationid>1</variationid>
+  </prop>
+  <prop>
+    <name>ChineseICTexture2</name>
+    <type>ReplaceVisual</type>
+    <displayname>Imperial Court Color 3</displayname>
+    <displaynamestringid>49084</displaynamestringid>
+    <description>The third variant of the Imperial Court</description>
+    <descriptionstringid>49085</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <position>
+      <building>Imperial Court</building>
+    </position>
+    <icon>homecity\home_city_props\icons\china_crt3</icon>
+    <variationid>2</variationid>
+  </prop>
+  <prop>
+    <name>ChineseICTexture3</name>
+    <type>ReplaceVisual</type>
+    <displayname>Imperial Court Color 4</displayname>
+    <displaynamestringid>49088</displaynamestringid>
+    <description>The fourth variant of the Imperial Court</description>
+    <descriptionstringid>49089</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <position>
+      <building>Imperial Court</building>
+    </position>
+    <icon>homecity\home_city_props\icons\china_crt4</icon>
+    <variationid>3</variationid>
+  </prop>
+  <prop>
+    <name>ChineseICTexture4</name>
+    <type>ReplaceVisual</type>
+    <displayname>Imperial Court Color 5</displayname>
+    <displaynamestringid>49090</displaynamestringid>
+    <description>The fifth variant of the Imperial Court</description>
+    <descriptionstringid>49091</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <position>
+      <building>Imperial Court</building>
+    </position>
+    <icon>homecity\home_city_props\icons\china_crt5</icon>
+    <variationid>4</variationid>
+  </prop>
+  <prop>
+    <name>ChineseMGTexture0</name>
+    <type>ReplaceVisual</type>
+    <displayname>Merchant's Guild Color 1</displayname>
+    <displaynamestringid>49092</displaynamestringid>
+    <description>The first variant of the Merchant's Guild</description>
+    <descriptionstringid>49093</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <position>
+      <building>Merchant's Guild</building>
+    </position>
+    <icon>homecity\home_city_props\icons\china_mrch1</icon>
+    <variationid>0</variationid>
+  </prop>
+  <prop>
+    <name>ChineseMGTexture1</name>
+    <type>ReplaceVisual</type>
+    <displayname>Merchant's Guild Color 2</displayname>
+    <displaynamestringid>49094</displaynamestringid>
+    <description>The second variant of the Merchant's Guild</description>
+    <descriptionstringid>49095</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <position>
+      <building>Merchant's Guild</building>
+    </position>
+    <icon>homecity\home_city_props\icons\china_mrch2</icon>
+    <variationid>1</variationid>
+  </prop>
+  <prop>
+    <name>ChineseMGTexture2</name>
+    <type>ReplaceVisual</type>
+    <displayname>Merchant's Guild Color 3</displayname>
+    <displaynamestringid>49096</displaynamestringid>
+    <description>The third variant of the Merchant's Guild</description>
+    <descriptionstringid>49097</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <position>
+      <building>Merchant's Guild</building>
+    </position>
+    <icon>homecity\home_city_props\icons\china_mrch3</icon>
+    <variationid>2</variationid>
+  </prop>
+  <prop>
+    <name>ChineseMGTexture3</name>
+    <type>ReplaceVisual</type>
+    <displayname>Merchant's Guild Color 4</displayname>
+    <displaynamestringid>49098</displaynamestringid>
+    <description>The fourth variant of the Merchant's Guild</description>
+    <descriptionstringid>49099</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <position>
+      <building>Merchant's Guild</building>
+    </position>
+    <icon>homecity\home_city_props\icons\china_mrch4</icon>
+    <variationid>3</variationid>
+  </prop>
+  <prop>
+    <name>ChineseMGTexture4</name>
+    <type>ReplaceVisual</type>
+    <displayname>Merchant's Guild Color 5</displayname>
+    <displaynamestringid>49100</displaynamestringid>
+    <description>The fifth variant of the Merchant's Guild</description>
+    <descriptionstringid>49101</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <position>
+      <building>Merchant's Guild</building>
+    </position>
+    <icon>homecity\home_city_props\icons\china_mrch5</icon>
+    <variationid>4</variationid>
+  </prop>
+  <prop>
+    <name>ChineseCHTexture0</name>
+    <type>ReplaceVisual</type>
+    <displayname>Customs House Color 1</displayname>
+    <displaynamestringid>49102</displaynamestringid>
+    <description>The first variant of the Customs House</description>
+    <descriptionstringid>49103</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <position>
+      <building>Customs House</building>
+    </position>
+    <icon>homecity\home_city_props\icons\china_cstm1</icon>
+    <variationid>0</variationid>
+  </prop>
+  <prop>
+    <name>ChineseCHTexture1</name>
+    <type>ReplaceVisual</type>
+    <displayname>Customs House Color 2</displayname>
+    <displaynamestringid>49104</displaynamestringid>
+    <description>The second variant of the Customs House</description>
+    <descriptionstringid>49105</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <position>
+      <building>Customs House</building>
+    </position>
+    <icon>homecity\home_city_props\icons\china_cstm2</icon>
+    <variationid>1</variationid>
+  </prop>
+  <prop>
+    <name>ChineseCHTexture2</name>
+    <type>ReplaceVisual</type>
+    <displayname>Customs House Color 3</displayname>
+    <displaynamestringid>49106</displaynamestringid>
+    <description>The third variant of the Customs House</description>
+    <descriptionstringid>49107</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <position>
+      <building>Customs House</building>
+    </position>
+    <icon>homecity\home_city_props\icons\china_cstm3</icon>
+    <variationid>2</variationid>
+  </prop>
+  <prop>
+    <name>ChineseCHTexture3</name>
+    <type>ReplaceVisual</type>
+    <displayname>Customs House Color 4</displayname>
+    <displaynamestringid>49108</displaynamestringid>
+    <description>The fourth variant of the Customs House</description>
+    <descriptionstringid>49109</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <position>
+      <building>Customs House</building>
+    </position>
+    <icon>homecity\home_city_props\icons\china_cstm4</icon>
+    <variationid>3</variationid>
+  </prop>
+  <prop>
+    <name>ChineseCHTexture4</name>
+    <type>ReplaceVisual</type>
+    <displayname>Customs House Color 5</displayname>
+    <displaynamestringid>49110</displaynamestringid>
+    <description>The fifth variant of the Customs House</description>
+    <descriptionstringid>49111</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <position>
+      <building>Customs House</building>
+    </position>
+    <icon>homecity\home_city_props\icons\china_cstm5</icon>
+    <variationid>4</variationid>
+  </prop>
+  <prop>
+    <name>ChineseLanterns</name>
+    <type>Object</type>
+    <displayname>Lanterns</displayname>
+    <displaynamestringid>49112</displaynamestringid>
+    <description>Beautiful lanterns to celebrate the year of the Ox.</description>
+    <descriptionstringid>49113</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <visual>homecity\home_city_props\prop_china_lanterns.xml</visual>
+    <position>
+      <bone>bone_fx</bone>
+      <building>Emperor's Treasury</building>
+    </position>
+    <icon>homecity\home_city_props\icons\chinese_lanterns</icon>
+  </prop>
+  <prop>
+    <name>ChineseBanners</name>
+    <type>Object</type>
+    <displayname>Banners</displayname>
+    <displaynamestringid>49114</displaynamestringid>
+    <description>Banners flying high.</description>
+    <descriptionstringid>49115</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <visual>homecity\home_city_props\prop_china_banner.xml</visual>
+    <position>
+      <bone>bone_fx</bone>
+      <building>Emperor's Treasury</building>
+    </position>
+    <icon>homecity\home_city_props\icons\chinese_banner</icon>
+  </prop>
+  <exclusiveprops>
+    <prop>ChineseLightSetMorning</prop>
+    <prop>ChineseLightSetDay</prop>
+    <prop>ChineseLightSetNight</prop>
+    <prop>ChineseLightSetNightStormy</prop>
+  </exclusiveprops>
+  <exclusiveprops>
+    <prop>ChineseETTexture0</prop>
+    <prop>ChineseETTexture1</prop>
+    <prop>ChineseETTexture2</prop>
+    <prop>ChineseETTexture3</prop>
+    <prop>ChineseETTexture4</prop>
+  </exclusiveprops>
+  <exclusiveprops>
+    <prop>ChineseFortTexture0</prop>
+    <prop>ChineseFortTexture1</prop>
+    <prop>ChineseFortTexture2</prop>
+    <prop>ChineseFortTexture4</prop>
+    <prop>ChineseFortTexture3</prop>
+  </exclusiveprops>
+  <exclusiveprops>
+    <prop>ChineseICTexture0</prop>
+    <prop>ChineseICTexture1</prop>
+    <prop>ChineseICTexture2</prop>
+    <prop>ChineseICTexture3</prop>
+    <prop>ChineseICTexture4</prop>
+  </exclusiveprops>
+  <exclusiveprops>
+    <prop>ChineseMGTexture0</prop>
+    <prop>ChineseMGTexture1</prop>
+    <prop>ChineseMGTexture2</prop>
+    <prop>ChineseMGTexture3</prop>
+    <prop>ChineseMGTexture4</prop>
+  </exclusiveprops>
+  <exclusiveprops>
+    <prop>ChineseCHTexture0</prop>
+    <prop>ChineseCHTexture1</prop>
+    <prop>ChineseCHTexture2</prop>
+    <prop>ChineseCHTexture3</prop>
+    <prop>ChineseCHTexture4</prop>
+  </exclusiveprops>
+  <prop>
+    <name>Indian_MarketDay</name>
+    <type>Unit</type>
+    <displayname>Market Day</displayname>
+    <displaynamestringid>49454</displaynamestringid>
+    <description>The center square filled with market stalls.</description>
+    <descriptionstringid>49455</descriptionstringid>
+    <position>
+      <building>Customs House</building>
+    </position>
+    <cost>2</cost>
+    <icon>homecity\home_city_props\icons\india_markets</icon>
+    <buttonaction>toggle</buttonaction>
+  </prop>
+  <prop>
+    <name>Indian_Holi_Festival_1</name>
+    <type>Unit</type>
+    <displayname>Holi Colour Festival Part 1</displayname>
+    <displaynamestringid>49552</displaynamestringid>
+    <description>The people of India celebrating the Holi Colour festival in the city sqaure.</description>
+    <descriptionstringid>49553</descriptionstringid>
+    <position>
+      <building>Customs House</building>
+    </position>
+    <cost>5</cost>
+    <icon>homecity\home_city_props\icons\india_holi_festival1</icon>
+    <buttonaction>toggle</buttonaction>
+  </prop>
+  <prop>
+    <name>Indian_Holi_Festival_2</name>
+    <type>Unit</type>
+    <displayname>Holi Colour Festival Part 2</displayname>
+    <displaynamestringid>49554</displaynamestringid>
+    <description>The people of India celebrating the Holi Colour festival with coloured powder.</description>
+    <descriptionstringid>49555</descriptionstringid>
+    <position>
+      <building>Customs House</building>
+    </position>
+    <cityvariationid>1</cityvariationid>
+    <applyvariationoffset>coloured_dust</applyvariationoffset>
+    <prereq>Indian_Holi_Festival_1</prereq>
+    <cost>10</cost>
+    <icon>homecity\home_city_props\icons\india_holi_festival2</icon>
+    <buttonaction>toggle</buttonaction>
+  </prop>
+  <exclusiveprops>
+    <prop>Indian_MarketDay</prop>
+    <prop>Indian_Holi_Festival_1</prop>
+    <prop>Indian_Holi_Festival_2</prop>
+  </exclusiveprops>
+  <prop>
+    <name>Indian_Elephant_Parade</name>
+    <type>Unit</type>
+    <displayname>Elephant Parade</displayname>
+    <displaynamestringid>49550</displaynamestringid>
+    <description>Elephants parading through the city.</description>
+    <descriptionstringid>49551</descriptionstringid>
+    <position>
+      <building>Customs House</building>
+    </position>
+    <cost>5</cost>
+    <icon>homecity\home_city_props\icons\india_military_elephants</icon>
+    <buttonaction>toggle</buttonaction>
+  </prop>
+  <prop>
+    <name>Indian_LightSetDay</name>
+    <type>LightSet</type>
+    <displayname>Daytime Lighting</displayname>
+    <displaynamestringid>42534</displaynamestringid>
+    <description>The city with the sun shining brightly.</description>
+    <descriptionstringid>42535</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <position>
+      <building>Fortress</building>
+    </position>
+    <variationid>0</variationid>
+    <lightset>india</lightset>
+    <icon>homecity\home_city_props\icons\india_lightset</icon>
+  </prop>
+  <prop>
+    <name>Indian_LightSetNight</name>
+    <type>LightSet</type>
+    <displayname>Night Lighting</displayname>
+    <displaynamestringid>49058</displaynamestringid>
+    <description>The city at night.</description>
+    <descriptionstringid>49226</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <position>
+      <building>Fortress</building>
+      <bone>bone_centered</bone>
+    </position>
+    <variationid>1</variationid>
+    <lightset>india_night</lightset>
+    <visual>homecity\india\india_night_lights.xml</visual>
+    <cost>10</cost>
+    <icon>homecity\home_city_props\icons\india_night_lightset</icon>
+  </prop>
+  <prop>
+    <name>Indian_LightSetSunset</name>
+    <type>LightSet</type>
+    <displayname>Sunset Lighting</displayname>
+    <displaynamestringid>49456</displaynamestringid>
+    <description>The city with the sun setting.</description>
+    <descriptionstringid>49457</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <position>
+      <building>Fortress</building>
+    </position>
+    <variationid>3</variationid>
+    <lightset>india_sunset</lightset>
+    <cost>5</cost>
+    <icon>homecity\home_city_props\icons\india_sunset_lightset</icon>
+  </prop>
+  <prop>
+    <name>Indian_LightSetMonsoon</name>
+    <type>LightSet</type>
+    <displayname>Monsoon Season</displayname>
+    <displaynamestringid>49508</displaynamestringid>
+    <description>The city during the monsoon season.</description>
+    <descriptionstringid>49509</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <position>
+      <building>Fortress</building>
+      <bone>bone_main</bone>
+    </position>
+    <variationid>2</variationid>
+    <lightset>india_rain</lightset>
+    <cost>10</cost>
+    <icon>homecity\home_city_props\icons\india_monsoon_lightset</icon>
+    <visual>homecity\home_city_props\prop_india_storm.xml</visual>
+  </prop>
+  <exclusiveprops>
+    <prop>Indian_LightSetDay</prop>
+    <prop>Indian_LightSetNight</prop>
+    <prop>Indian_LightSetSunset</prop>
+    <prop>Indian_LightSetMonsoon</prop>
+  </exclusiveprops>
+  <prop>
+    <name>Indian_TajMahal_Variation0</name>
+    <type>ReplaceVisual</type>
+    <displayname>Taj Mahal (original)</displayname>
+    <displaynamestringid>49458</displaynamestringid>
+    <description>The original version of the Taj Mahal.</description>
+    <descriptionstringid>49459</descriptionstringid>
+    <position>
+      <building>Imperial Court</building>
+    </position>
+    <variationid>0</variationid>
+    <icon>homecity\home_city_props\icons\india_imperial_court1</icon>
+  </prop>
+  <prop>
+    <name>Indian_TajMahal_Variation1</name>
+    <type>ReplaceVisual</type>
+    <displayname>Taj Mahal (red)</displayname>
+    <displaynamestringid>49460</displaynamestringid>
+    <description>The red version of the Taj Mahal.</description>
+    <descriptionstringid>49461</descriptionstringid>
+    <position>
+      <building>Imperial Court</building>
+    </position>
+    <variationid>1</variationid>
+    <cost>2</cost>
+    <icon>homecity\home_city_props\icons\india_imperial_court2</icon>
+  </prop>
+  <exclusiveprops>
+    <prop>Indian_TajMahal_Variation0</prop>
+    <prop>Indian_TajMahal_Variation1</prop>
+  </exclusiveprops>
+  <prop>
+    <name>Indian_Tower_Variation0</name>
+    <type>ReplaceVisual</type>
+    <displayname>Fortress Tower (blue tint)</displayname>
+    <displaynamestringid>49462</displaynamestringid>
+    <description>The Fortress Tower with blue tint brick work.</description>
+    <descriptionstringid>49463</descriptionstringid>
+    <position>
+      <building>Fortress</building>
+    </position>
+    <variationid>0</variationid>
+    <icon>homecity\home_city_props\icons\india_fortress1</icon>
+  </prop>
+  <prop>
+    <name>Indian_Tower_Variation1</name>
+    <type>ReplaceVisual</type>
+    <displayname>Fortress Tower (brown)</displayname>
+    <displaynamestringid>49464</displaynamestringid>
+    <description>The Fortress Tower with brown brick work and red columns and roof.</description>
+    <descriptionstringid>49465</descriptionstringid>
+    <position>
+      <building>Fortress</building>
+    </position>
+    <variationid>1</variationid>
+    <cost>2</cost>
+    <icon>homecity\home_city_props\icons\india_fortress2</icon>
+  </prop>
+  <exclusiveprops>
+    <prop>Indian_Tower_Variation0</prop>
+    <prop>Indian_Tower_Variation1</prop>
+  </exclusiveprops>
+  <prop>
+    <name>Indian_Customs_Variation0</name>
+    <type>ReplaceVisual</type>
+    <displayname>Customs House (original)</displayname>
+    <displaynamestringid>49466</displaynamestringid>
+    <description>The original version of the Customs House.</description>
+    <descriptionstringid>49467</descriptionstringid>
+    <position>
+      <building>Customs House</building>
+    </position>
+    <variationid>0</variationid>
+    <variationoffset name="coloured_dust">2</variationoffset>
+    <icon>homecity\home_city_props\icons\india_customs_house1</icon>
+  </prop>
+  <prop>
+    <name>Indian_Customs_Variation1</name>
+    <type>ReplaceVisual</type>
+    <displayname>Customs House (gold and white)</displayname>
+    <displaynamestringid>49468</displaynamestringid>
+    <description>The gold and white version of the Customs House with green covers.</description>
+    <descriptionstringid>49469</descriptionstringid>
+    <position>
+      <building>Customs House</building>
+    </position>
+    <variationid>1</variationid>
+    <variationoffset name="coloured_dust">2</variationoffset>
+    <cost>2</cost>
+    <icon>homecity\home_city_props\icons\india_customs_house1</icon>
+  </prop>
+  <exclusiveprops>
+    <prop>Indian_Customs_Variation0</prop>
+    <prop>Indian_Customs_Variation1</prop>
+  </exclusiveprops>
+  <prop>
+    <name>Indian_Merchant_Variation0</name>
+    <type>ReplaceVisual</type>
+    <displayname>Merchant's Guild (red)</displayname>
+    <displaynamestringid>49470</displaynamestringid>
+    <description>The red version of the Merchant's Guild</description>
+    <descriptionstringid>49471</descriptionstringid>
+    <position>
+      <building>Merchant's Guild</building>
+    </position>
+    <variationid>0</variationid>
+    <icon>homecity\home_city_props\icons\india_merchants_guild1</icon>
+  </prop>
+  <prop>
+    <name>Indian_Merchant_Variation1</name>
+    <type>ReplaceVisual</type>
+    <displayname>Merchant's Guild (blue)</displayname>
+    <displaynamestringid>49472</displaynamestringid>
+    <description>The blue version of the Merchant's Guild</description>
+    <descriptionstringid>49473</descriptionstringid>
+    <position>
+      <building>Merchant's Guild</building>
+    </position>
+    <variationid>1</variationid>
+    <cost>2</cost>
+    <icon>homecity\home_city_props\icons\india_merchants_guild2</icon>
+  </prop>
+  <exclusiveprops>
+    <prop>Indian_Merchant_Variation0</prop>
+    <prop>Indian_Merchant_Variation1</prop>
+  </exclusiveprops>
+  <prop>
+    <name>Indian_Treasury_Variation0</name>
+    <type>ReplaceVisual</type>
+    <displayname>Emperor's Treasury (original)</displayname>
+    <displaynamestringid>49474</displaynamestringid>
+    <description>The original version of the Emperor's Treasury.</description>
+    <descriptionstringid>49475</descriptionstringid>
+    <position>
+      <building>Emperor's Treasury</building>
+    </position>
+    <variationid>0</variationid>
+    <icon>homecity\home_city_props\icons\india_treasury1</icon>
+  </prop>
+  <prop>
+    <name>Indian_Treasury_Variation1</name>
+    <type>ReplaceVisual</type>
+    <displayname>Emperor's Treasury (white)</displayname>
+    <displaynamestringid>49476</displaynamestringid>
+    <description>The Emperor's Treasury with a white and blue brick finish.</description>
+    <descriptionstringid>49477</descriptionstringid>
+    <position>
+      <building>Emperor's Treasury</building>
+    </position>
+    <variationid>1</variationid>
+    <cost>2</cost>
+    <icon>homecity\home_city_props\icons\india_treasury2</icon>
+  </prop>
+  <exclusiveprops>
+    <prop>Indian_Treasury_Variation0</prop>
+    <prop>Indian_Treasury_Variation1</prop>
+  </exclusiveprops>
+  <prop>
+    <name>Indian_Boats</name>
+    <type>Object</type>
+    <displayname>Fishing Boats</displayname>
+    <displaynamestringid>49478</displaynamestringid>
+    <description>Display fishing boats by the coast.</description>
+    <descriptionstringid>49479</descriptionstringid>
+    <position>
+      <building>Emperor's Treasury</building>
+      <bone>bone_centered</bone>
+    </position>
+    <visual>homecity\home_city_props\indian_boats\indian_boats.xml</visual>
+    <cost>2</cost>
+    <icon>homecity\home_city_props\icons\india_boats</icon>
+  </prop>
+  <prop>
+    <name>Japanese_LightSunset</name>
+    <type>LightSet</type>
+    <displayname>Sunset Lighting</displayname>
+    <displaynamestringid>49456</displaynamestringid>
+    <description>The city with the sun setting.</description>
+    <descriptionstringid>49457</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <position>
+      <building>Fortress</building>
+    </position>
+    <variationid>0</variationid>
+    <lightset>japan</lightset>
+    <deactivateprops>
+      <prop>Japanese_Paper_Balloon_Festival_Part1</prop>
+    </deactivateprops>
+    <icon>homecity\home_city_props\icons\japan_sunset_lightset</icon>
+  </prop>
+  <prop>
+    <name>Japanese_LightMistyMorning</name>
+    <type>LightSet</type>
+    <displayname>Misty Morning</displayname>
+    <displaynamestringid>49546</displaynamestringid>
+    <description>The city in the morning with mist.</description>
+    <descriptionstringid>49547</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <position>
+      <building>Fortress</building>
+    </position>
+    <variationid>3</variationid>
+    <lightset>japan_misty_morning</lightset>
+    <deactivateprops>
+      <prop>Japanese_Paper_Balloon_Festival_Part1</prop>
+    </deactivateprops>
+    <icon>homecity\home_city_props\icons\japan_misty_morning_lightset</icon>
+    <cost>5</cost>
+  </prop>
+  <prop>
+    <name>Japanese_LightSetNight</name>
+    <type>LightSet</type>
+    <displayname>Night Lighting</displayname>
+    <displaynamestringid>49058</displaynamestringid>
+    <description>The city at night.</description>
+    <descriptionstringid>49226</descriptionstringid>
+    <levelprereq>1</levelprereq>
+    <position>
+      <building>Fortress</building>
+      <bone>bone_centered</bone>
+    </position>
+    <variationid>1</variationid>
+    <lightset>japan_night</lightset>
+    <visual>homecity\japan\japan_night_lights.xml</visual>
+    <icon>homecity\home_city_props\icons\japan_night_lightset</icon>
+    <cost>10</cost>
+  </prop>
+  <prop>
+    <name>Japanese_LightSetSnow</name>
+    <type>LightSet</type>
+    <displayname>Snowy Season</displayname>
+    <displaynamestringid>49510</displaynamestringid>
+    <description>The city during the snowy season.</description>
+    <descriptionstringid>49511</descriptionstringid>
+    <levelprereq>1</levelprereq>
+    <position>
+      <building>Fortress</building>
+      <bone>bone_centered</bone>
+    </position>
+    <variationid>2</variationid>
+    <cityvariationid>2</cityvariationid>
+    <applyvariationoffset>snow</applyvariationoffset>
+    <lightset>japan_snow</lightset>
+    <deactivateprops>
+      <prop>Japanese_Paper_Balloon_Festival_Part1</prop>
+    </deactivateprops>
+    <icon>homecity\home_city_props\icons\japan_snow_lightset</icon>
+    <weathereffect>Snow</weathereffect>
+    <cost>10</cost>
+  </prop>
+  <exclusiveprops>
+    <prop>Japanese_LightSunset</prop>
+    <prop>Japanese_LightMistyMorning</prop>
+    <prop>Japanese_LightSetNight</prop>
+    <prop>Japanese_LightSetSnow</prop>
+  </exclusiveprops>
+  <prop>
+    <name>Japanese_Customs_Variation0</name>
+    <type>ReplaceVisual</type>
+    <displayname>Customs House (original)</displayname>
+    <displaynamestringid>49480</displaynamestringid>
+    <description>The original version of the Customs House.</description>
+    <descriptionstringid>49481</descriptionstringid>
+    <position>
+      <building>Customs House</building>
+    </position>
+    <variationid>0</variationid>
+    <variationoffset name="snow">2</variationoffset>
+    <icon>homecity\home_city_props\icons\japan_customs_house1</icon>
+  </prop>
+  <prop>
+    <name>Japanese_Customs_Variation1</name>
+    <type>ReplaceVisual</type>
+    <displayname>Customs House (mahogany red and black)</displayname>
+    <displaynamestringid>49482</displaynamestringid>
+    <description>The mahogany red and black version of the Customs House.</description>
+    <descriptionstringid>49483</descriptionstringid>
+    <position>
+      <building>Customs House</building>
+    </position>
+    <variationid>1</variationid>
+    <variationoffset name="snow">2</variationoffset>
+    <cost>2</cost>
+    <icon>homecity\home_city_props\icons\japan_customs_house2</icon>
+  </prop>
+  <exclusiveprops>
+    <prop>Japanese_Customs_Variation0</prop>
+    <prop>Japanese_Customs_Variation1</prop>
+  </exclusiveprops>
+  <prop>
+    <name>Japanese_Merchant_Variation0</name>
+    <type>ReplaceVisual</type>
+    <displayname>Merchant's Guild (original)</displayname>
+    <displaynamestringid>49484</displaynamestringid>
+    <description>The original version of the Merchant's Guild.</description>
+    <descriptionstringid>49485</descriptionstringid>
+    <position>
+      <building>Merchants Guild</building>
+    </position>
+    <variationid>0</variationid>
+    <variationoffset name="snow">2</variationoffset>
+    <icon>homecity\home_city_props\icons\japan_merchants_guild1</icon>
+  </prop>
+  <prop>
+    <name>Japanese_Merchant_Variation1</name>
+    <type>ReplaceVisual</type>
+    <displayname>Merchant Varaition 1</displayname>
+    <displaynamestringid>49486</displaynamestringid>
+    <description>
+    </description>
+    <descriptionstringid>49487</descriptionstringid>
+    <position>
+      <building>Merchants Guild</building>
+    </position>
+    <variationid>1</variationid>
+    <variationoffset name="snow">2</variationoffset>
+    <cost>2</cost>
+    <icon>homecity\home_city_props\icons\japan_merchants_guild2</icon>
+  </prop>
+  <exclusiveprops>
+    <prop>Japanese_Merchant_Variation0</prop>
+    <prop>Japanese_Merchant_Variation1</prop>
+  </exclusiveprops>
+  <prop>
+    <name>Japanese_Court_Variation0</name>
+    <type>ReplaceVisual</type>
+    <displayname>Imperial Court (original)</displayname>
+    <displaynamestringid>49488</displaynamestringid>
+    <description>The original version of the Imperial Court.</description>
+    <descriptionstringid>49489</descriptionstringid>
+    <position>
+      <building>Imperial Court</building>
+    </position>
+    <variationid>0</variationid>
+    <variationoffset name="snow">2</variationoffset>
+    <icon>homecity\home_city_props\icons\japan_imperial_court1</icon>
+  </prop>
+  <prop>
+    <name>Japanese_Court_Variation1</name>
+    <type>ReplaceVisual</type>
+    <displayname>Imperial Court (Imperial gold)</displayname>
+    <displaynamestringid>49490</displaynamestringid>
+    <description>The imperial gold version of the Imperial Court.1</description>
+    <descriptionstringid>49491</descriptionstringid>
+    <position>
+      <building>Imperial Court</building>
+    </position>
+    <variationid>1</variationid>
+    <variationoffset name="snow">2</variationoffset>
+    <cost>2</cost>
+    <icon>homecity\home_city_props\icons\japan_imperial_court2</icon>
+  </prop>
+  <exclusiveprops>
+    <prop>Japanese_Court_Variation0</prop>
+    <prop>Japanese_Court_Variation1</prop>
+  </exclusiveprops>
+  <prop>
+    <name>Japanese_Fortress_Variation0</name>
+    <type>ReplaceVisual</type>
+    <displayname>Fortress Tower (original)</displayname>
+    <displaynamestringid>49492</displaynamestringid>
+    <description>The original version of the Fortress Tower.</description>
+    <descriptionstringid>49493</descriptionstringid>
+    <position>
+      <building>Fortress</building>
+    </position>
+    <variationid>0</variationid>
+    <variationoffset name="snow">2</variationoffset>
+    <icon>homecity\home_city_props\icons\japan_fortress1</icon>
+  </prop>
+  <prop>
+    <name>Japanese_Fortress_Variation1</name>
+    <type>ReplaceVisual</type>
+    <displayname>Fortress Tower (red and blue)</displayname>
+    <displaynamestringid>49494</displaynamestringid>
+    <description>The red and blue version of the Fortress Tower.</description>
+    <descriptionstringid>49495</descriptionstringid>
+    <position>
+      <building>Fortress</building>
+    </position>
+    <variationid>1</variationid>
+    <variationoffset name="snow">2</variationoffset>
+    <cost>2</cost>
+    <icon>homecity\home_city_props\icons\japan_fortress2</icon>
+  </prop>
+  <exclusiveprops>
+    <prop>Japanese_Fortress_Variation0</prop>
+    <prop>Japanese_Fortress_Variation1</prop>
+  </exclusiveprops>
+  <prop>
+    <name>Japanese_Treasury_Variation0</name>
+    <type>ReplaceVisual</type>
+    <displayname>Emperor's Treasury (original)</displayname>
+    <displaynamestringid>49496</displaynamestringid>
+    <description>The original version of the Emperor's Treasury.</description>
+    <descriptionstringid>49497</descriptionstringid>
+    <position>
+      <building>Emperor's Treasury</building>
+    </position>
+    <variationid>0</variationid>
+    <variationoffset name="snow">2</variationoffset>
+    <icon>homecity\home_city_props\icons\japan_treasury1</icon>
+  </prop>
+  <prop>
+    <name>Japanese_Treasury_Variation1</name>
+    <type>ReplaceVisual</type>
+    <displayname>Emperor's Treasury (white and oak)</displayname>
+    <displaynamestringid>49498</displaynamestringid>
+    <description>The white and oak version of the Emperor's Treasury.</description>
+    <descriptionstringid>49499</descriptionstringid>
+    <position>
+      <building>Emperor's Treasury</building>
+    </position>
+    <variationid>1</variationid>
+    <variationoffset name="snow">2</variationoffset>
+    <cost>2</cost>
+    <icon>homecity\home_city_props\icons\japan_treasury2</icon>
+  </prop>
+  <exclusiveprops>
+    <prop>Japanese_Treasury_Variation0</prop>
+    <prop>Japanese_Treasury_Variation1</prop>
+  </exclusiveprops>
+  <prop>
+    <name>Japanese_Kite_Festival</name>
+    <type>Object</type>
+    <displayname>Kite Festival</displayname>
+    <displaynamestringid>49500</displaynamestringid>
+    <description>The citizens of Japan celebrating the Hamamatsu Kite Festival.</description>
+    <descriptionstringid>49501</descriptionstringid>
+    <position>
+      <building>Customs House</building>
+      <bone>bone_centered</bone>
+    </position>
+    <visual>homecity\home_city_props\japanese_kites\japanese_kite_holders.xml</visual>
+    <cost>2</cost>
+    <icon>homecity\home_city_props\icons\japan_kites</icon>
+  </prop>
+  <prop>
+    <name>Japanese_Boats</name>
+    <type>Object</type>
+    <displayname>Japanese fishing boats</displayname>
+    <displaynamestringid>49502</displaynamestringid>
+    <description>Display japanese fishing boats by the Merchant's Guild.</description>
+    <descriptionstringid>49503</descriptionstringid>
+    <position>
+      <building>Merchants Guild</building>
+      <bone>bone_centered</bone>
+    </position>
+    <visual>homecity\home_city_props\japanese_boats\japanese_boats.xml</visual>
+    <cost>2</cost>
+    <icon>homecity\home_city_props\icons\japan_boats</icon>
+  </prop>
+  <prop>
+    <name>Japanese_SnowMonkey</name>
+    <type>Unit</type>
+    <displayname>Snow Monkey</displayname>
+    <displaynamestringid>49504</displaynamestringid>
+    <description>Snow monkeys running loose in the city.</description>
+    <descriptionstringid>49505</descriptionstringid>
+    <position>
+      <building>Imperial Court</building>
+    </position>
+    <cost>5</cost>
+    <icon>homecity\home_city_props\icons\japan_snowmonkey</icon>
+  </prop>
+  <prop>
+    <name>Japanese_Paper_Balloon_Festival_Part1</name>
+    <type>Object</type>
+    <displayname>Kamihinokinai Paper Balloon Festival - Lanterns</displayname>
+    <displaynamestringid>49506</displaynamestringid>
+    <description>Lantern decorations from building to building for the Kamihinokinai Paper Balloon Festival.</description>
+    <descriptionstringid>49507</descriptionstringid>
+    <position>
+      <building>Imperial Court</building>
+      <bone>bone_centered</bone>
+    </position>
+    <visual>homecity\home_city_props\japanese_lanterns\small_lanterns.xml</visual>
+    <prereq>Japanese_LightSetNight</prereq>
+    <buttonaction>Toggle</buttonaction>
+    <activateprops>
+      <prop>Japanese_LightSetNight</prop>
+    </activateprops>
+    <cost>5</cost>
+    <icon>homecity\home_city_props\icons\Japan_hanging_lanterns-kamihinokinai1</icon>
+  </prop>
+  <prop>
+    <name>Japanese_Paper_Balloon_Festival_Water_Part2</name>
+    <type>Object</type>
+    <displayname>Kamihinokinai Paper Balloon Festival - Water Lanterns</displayname>
+    <displaynamestringid>49512</displaynamestringid>
+    <description>Water lanterns floating by the harbor for the Kamihinokinai Paper Balloon Festival.</description>
+    <descriptionstringid>49513</descriptionstringid>
+    <position>
+      <building>Customs House</building>
+      <bone>bone_centered</bone>
+    </position>
+    <visual>homecity\home_city_props\japanese_lanterns\water_lanterns.xml</visual>
+    <prereq>Japanese_Paper_Balloon_Festival_Part1</prereq>
+    <buttonaction>Toggle</buttonaction>
+    <activateprops>
+      <prop>Japanese_LightSetNight</prop>
+      <prop>Japanese_Paper_Balloon_Festival_Sky_Part2</prop>
+    </activateprops>
+    <cost>5</cost>
+    <icon>homecity\home_city_props\icons\Japan_water_lanterns-kamihinokinai2</icon>
+  </prop>
+  <prop>
+    <name>Japanese_Paper_Balloon_Festival_Sky_Part2</name>
+    <type>Object</type>
+    <position>
+      <bone>bone_centered</bone>
+    </position>
+    <visual>homecity\home_city_props\japanese_lanterns\sky_lanterns.xml</visual>
+  </prop>
+  <inclusiveprops>
+    <prop>Japanese_Paper_Balloon_Festival_Sky_Part2</prop>
+    <prop>Japanese_Paper_Balloon_Festival_Water_Part2</prop>
+    <prop>Japanese_Paper_Balloon_Festival_Part1</prop>
+  </inclusiveprops>
+</homecityprops>

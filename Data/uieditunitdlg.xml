@@ -1,0 +1,7 @@
+<layout>
+  <gadget name="editUnitDlg" type="dialog" size1024="100 200 320 350" closebutton="" titlebar="Edit Unit" background="ui\editor\editor_background" tilebackground="">
+    <gadget type="textField" name="editUnitDlg-unitName" size1024="120 230 300 260" textcolor="255 255 255" history="" bevel="">Name</gadget>
+    <gadget type="textField" name="editUnitDlg-currentHP" size1024="120 270 300 300" textcolor="255 255 255" history="" bevel="">Current HP</gadget>
+    <button>APPLY</button>
+  </gadget>
+</layout>

@@ -1,0 +1,420 @@
+<techtreedata>
+  <group name="Town Center">
+    <proto name="TownCenter" banner="building" icon="resources/art/buildings/town_center/towncenter_portrait.png" row="0" col="1">
+    </proto>
+    <tech name="ypMuster" banner="unit" icon="resources/images/icons/techs/asians/tech_town_defense.png" row="1" col="2">
+    </tech>
+    <tech name="HCBlockade" banner="improvement" icon="resources/images/icons/techs/hc_blockade/hc_blockade.png" row="8" col="2">
+    </tech>
+    <tech name="ypImpLegendaryNatives2" banner="improvement" icon="resources/images/icons/techs/asians/tech_legendary_natives.png" row="9" col="2">
+    </tech>
+    <proto name="ypSettlerAsian" banner="unit" icon="resources/art/units/asians/shared/villager/peasant_icon_portrait.png" row="0" col="7">
+    </proto>
+    <tech name="ypAssemble" banner="unit" icon="resources/images/icons/techs/asians/tech_peasant_uprising.png" row="1" col="7">
+    </tech>
+    <tech name="Spies" banner="improvement" icon="resources/images/icons/techs/spies/spies.png" row="8" col="7">
+    </tech>
+    <tech name="ImpImmigrants" banner="improvement" icon="resources/images/icons/techs/imperial_immigrants/imp_immigrants.png" row="9" col="7">
+    </tech>
+    <proto name="ypMonkChinese2" banner="unit" icon="resources/art/units/asians/chinese/shaolin_disciple/shaolin_master_icon_portrait.png" row="0" col="12">
+    </proto>
+  </group>
+  <group name="Native Embassy">
+    <proto name="NativeEmbassy" banner="building" icon="resources/art/buildings/native_embassy_portrait.png" row="1" col="12">
+    </proto>
+  </group>
+  <group name="Village">
+    <proto name="ypVillage" banner="building" icon="resources/art/buildings/asian_civs/village/chinese_village_icon_portrait.png" row="0" col="18">
+    </proto>
+    <tech name="ypVillagePopCapIncrease" banner="improvement" icon="resources/images/icons/techs/asians/government_town_icon_64.png" row="1" col="19">
+    </tech>
+    <tech name="ypPeasants" banner="improvement" icon="resources/images/icons/techs/asians/tech_rural_peasant_uprising.png" row="2" col="19">
+      <override>
+        <additionaldesc>49241</additionaldesc>
+      </override>
+    </tech>
+    <tech name="ypIrregulars" banner="improvement" icon="resources/images/icons/techs/asians/tech_rural_defense.png" row="3" col="19">
+      <override>
+        <additionaldesc>49241</additionaldesc>
+      </override>
+    </tech>
+    <proto name="ypGoat" banner="unit" icon="resources/art/units/animals/goat/goat_icon_portrait.png" row="0" col="24">
+    </proto>
+    <tech name="ypVillagePopCapIncrease2" banner="improvement" icon="resources/images/icons/techs/asians/government_county_icon_64.png" row="1" col="24">
+    </tech>
+    <proto name="ypWaterBuffalo" banner="unit" icon="resources/art/units/animals/water_buffalo/water_buffalo_icon_portrait.png" row="0" col="29">
+    </proto>
+    <tech name="ypVillagePopCapIncrease3" banner="improvement" icon="resources/images/icons/techs/asians/government_prefecture_icon_64.png" row="1" col="29">
+    </tech>
+    <tech name="ypVillagePopCapIncrease4" banner="improvement" icon="resources/images/icons/techs/asians/government_provincial_icon_64.png" row="1" col="34">
+    </tech>
+  </group>
+  <group name="Market">
+    <proto name="ypTradeMarketAsian" banner="building" icon="resources/art/buildings/asian_civs/trade_market/china_trade_market_icon_portrait.png" row="0" col="40">
+    </proto>
+    <tech name="ypMarketGangsaw" banner="improvement" icon="resources/images/icons/techs/asians/waterwheel.png" row="1" col="40">
+    </tech>
+    <tech name="ypMarketLogFlume" banner="improvement" icon="resources/images/icons/techs/asians/regenerative_forestry.png" row="2" col="40">
+    </tech>
+    <tech name="ypMarketCircularSaw" banner="improvement" icon="resources/images/icons/techs/circular_saw/circular_saw.png" row="4" col="40">
+    </tech>
+    <tech name="ypImpDeforestationAsian" banner="improvement" icon="resources/images/icons/techs/asians/tech_tropical_timber_trade.png" row="8" col="40">
+    </tech>
+    <tech name="ypMarketSpiritMedicine" banner="improvement" icon="resources/images/icons/techs/asians/tech_spirit_medicine_icon_64.png" row="0" col="45">
+    </tech>
+    <tech name="ypMarketHuntingDogs" banner="improvement" icon="resources/images/icons/techs/asians/hunting_eagles.png" row="1" col="45">
+    </tech>
+    <tech name="ypMarketSteelTraps" banner="improvement" icon="resources/images/icons/techs/asians/professional_hunters.png" row="2" col="45">
+    </tech>
+    <tech name="ypMarketPlacerMines" banner="improvement" icon="resources/images/icons/techs/asians/tech_blanket_filters.png" row="1" col="50">
+    </tech>
+    <tech name="ypMarketAmalgamation" banner="improvement" icon="resources/images/icons/techs/asians/flume_and_ditching.png" row="2" col="50">
+    </tech>
+    <tech name="ypMarketWheelbarrow" banner="improvement" icon="resources/images/icons/techs/asians/civil_servants.png" row="1" col="55">
+    </tech>
+    <tech name="ypMarketWheelbarrow2" banner="improvement" icon="resources/images/icons/techs/asians/imperial_beureaucracy.png" row="2" col="55">
+    </tech>
+  </group>
+  <group name="Rice Paddy">
+    <proto name="ypRicePaddy" banner="building" icon="resources/art/buildings/asian_civs/rice_paddy/china/china_rice_paddy_icon_portrait.png" row="0" col="61">
+    </proto>
+    <tech name="ypCultivateWasteland" banner="improvement" icon="resources/images/icons/techs/asians/paddy_threshing.png" row="2" col="61">
+    </tech>
+    <tech name="ypWaterConservancy" banner="improvement" icon="resources/images/icons/techs/asians/irrigation_channels.png" row="4" col="61">
+    </tech>
+    <tech name="ypIrrigationSystems" banner="improvement" icon="resources/images/icons/techs/asians/tech_dike_controlled_canals.png" row="6" col="61">
+    </tech>
+    <tech name="ypImpLargeScaleAgricultureAsian" banner="improvement" icon="resources/images/icons/techs/asians/mechanized_rice_cultivation.png" row="8" col="61">
+    </tech>
+    <tech name="ypCropMarket" banner="improvement" icon="resources/images/icons/techs/asians/rice_surplus.png" row="2" col="66">
+    </tech>
+    <tech name="ypSharecropping" banner="improvement" icon="resources/images/icons/techs/asians/rice_trade.png" row="4" col="66">
+    </tech>
+    <tech name="ypLandRedistribution" banner="improvement" icon="resources/images/icons/techs/asians/rice_markets.png" row="6" col="66">
+    </tech>
+    <tech name="ypCooperative" banner="improvement" icon="resources/images/icons/techs/asians/rice_exports.png" row="7" col="66">
+    </tech>
+    <tech name="ypImpExcessiveTributeAsian" banner="improvement" icon="resources/images/icons/techs/asians/collective_economy.png" row="8" col="66">
+    </tech>
+  </group>
+  <group name="Dock">
+    <proto name="Dock" banner="building" icon="resources/art/buildings/dock/dock_portrait.png" row="0" col="72">
+    </proto>
+    <tech name="GillNets" banner="improvement" icon="resources/images/icons/techs/gill_nets/gill_nets.png" row="1" col="73">
+    </tech>
+    <tech name="LongLines" banner="improvement" icon="resources/images/icons/techs/long_lines/long_lines.png" row="2" col="73">
+    </tech>
+    <tech name="Carronade" banner="improvement" icon="resources/images/icons/techs/carronade/carronade.png" row="3" col="73">
+    </tech>
+    <tech name="PercussionLocks" banner="improvement" icon="resources/images/icons/techs/percussion_locks/percussion_locks.png" row="4" col="73">
+    </tech>
+    <proto name="Monitor" banner="unit" icon="resources/art/units/naval/monitor/monitor_icon_portrait.png" row="6" col="73">
+    </proto>
+    <tech name="ShipHowitzers" banner="improvement" icon="resources/images/icons/techs/ship_howitzers/ship_howitzers.png" row="7" col="73">
+    </tech>
+    <tech name="ImperialMonitors" banner="improvement" icon="resources/images/icons/techs/imperial_navy/imperial_navy.png" row="8" col="73">
+    </tech>
+    <proto name="ypFishingBoatAsian" banner="unit" icon="resources/art/units/asians/naval/fishing_boat_asian/chinese_fishing_boat_icon_portrait.png" row="1" col="79">
+    </proto>
+    <proto name="ypFireship" banner="unit" icon="resources/art/units/fire_ship_icon_portrait.png" row="2" col="79">
+    </proto>
+    <tech name="ArmorPlating" banner="improvement" icon="resources/images/icons/techs/armor_plating/armor_plating.png" row="3" col="79">
+    </tech>
+    <proto name="ypWarJunk" banner="unit" icon="resources/art/units/asians/naval/war_junk/war_junk_icon_portrait.png" row="4" col="79">
+    </proto>
+    <proto name="ypFuchuan" banner="unit" icon="resources/art/units/asians/naval/fuchuan/fuchuan_icon_portrait.png" row="5" col="79">
+    </proto>
+    <tech name="YPExaltedFuchuan" banner="improvement" icon="resources/images/icons/techs/imperial_navy/imperial_navy.png" row="8" col="79">
+    </tech>
+  </group>
+  <group name="Castle">
+    <proto name="ypCastle" banner="building" icon="resources/art/buildings/asian_civs/castle/china/chinese_castle_icon_portrait.png" row="0" col="85">
+    </proto>
+    <proto name="ypMongolianArmy" banner="army" icon="resources/art/units/asians/chinese/new_mongolian_army/new_mongolian_army_icon_64.png" row="4" col="86">
+    </proto>
+    <proto name="ypBlackFlagArmy" banner="army" icon="resources/art/units/asians/chinese/old_han_army/old_han_icon_64.png" row="5" col="86">
+    </proto>
+    <tech name="ypFrontierCastle" banner="improvement" icon="resources/images/icons/techs/asians/tech_fortified_castle.png" row="4" col="91">
+    </tech>
+    <tech name="ypFortifiedCastle" banner="improvement" icon="resources/images/icons/techs/asians/tech_frontier_castle.png" row="6" col="91">
+    </tech>
+    <proto name="ypFlameThrower" banner="unit" icon="resources/art/units/asians/chinese/flame_thrower/flame_thrower_icon_portrait.png" row="2" col="96">
+    </proto>
+    <tech name="YPDisciplinedFlameThrower" banner="improvement" icon="resources/images/icons/techs/asians/disciplined_siege.png" row="4" col="96">
+    </tech>
+    <tech name="YPHonoredFlameThrower" banner="improvement" icon="resources/images/icons/techs/asians/honored_siege.png" row="6" col="96">
+    </tech>
+    <tech name="YPExaltedFlameThrower" banner="improvement" icon="resources/images/icons/techs/asians/exalted_siege.png" row="8" col="96">
+    </tech>
+    <proto name="ypHandMortar" banner="unit" icon="resources/art/units/asians/chinese/hand_mortar/hand_mortar_icon_portrait.png" row="4" col="101">
+    </proto>
+    <tech name="YPHonoredHandMortar" banner="improvement" icon="resources/images/icons/techs/asians/honored_siege.png" row="6" col="101">
+    </tech>
+    <tech name="YPExaltedHandMortar" banner="improvement" icon="resources/images/icons/techs/asians/exalted_siege.png" row="8" col="101">
+    </tech>
+  </group>
+  <group name="Trading">
+    <proto name="TradingPost" banner="building" icon="resources/art/buildings/trading_post/trading_post_asian_icon_portrait.png" row="0" col="107">
+    </proto>
+    <tech name="ypTradeRouteUpgrade1" banner="improvement" icon="resources/art/units/asians/shared/rickshaw/rickshaw2_icon_portrait.png" row="2" col="107">
+    </tech>
+    <tech name="TradeRouteUpgrade2" banner="improvement" icon="resources/art/units/trains/train_icon_64x64.png" row="6" col="107">
+    </tech>
+  </group>
+  <group name="Wall">
+    <proto name="WallStraight1" banner="building" icon="resources/art/buildings/wall/wall_icon_64x64.png" row="0" col="113">
+    </proto>
+    <tech name="Bastion" banner="improvement" icon="resources/images/icons/techs/bastion/bastion.png" row="4" col="113">
+    </tech>
+  </group>
+  <group name="Monastery">
+    <proto name="ypMonastery" banner="building" icon="resources/art/buildings/asian_civs/monastery/monastery_icon_portrait.png" row="0" col="119">
+    </proto>
+    <tech name="ypMonasteryDiscipleAura" banner="improvement" icon="resources/images/icons/techs/asians/disciple_aura.png" row="1" col="120">
+    </tech>
+    <tech name="ypMonasteryShaolinWarrior" banner="improvement" icon="resources/images/icons/techs/asians/tech_shaolin_warrior.png" row="2" col="120">
+    </tech>
+    <tech name="ypMonasteryAttackSpeed" banner="improvement" icon="resources/images/icons/techs/asians/tech_attack_upgrade.png" row="4" col="120">
+    </tech>
+    <tech name="ypMonasteryCriticalUpgrade" banner="improvement" icon="resources/images/icons/techs/asians/tech_critical_upgrade.png" row="6" col="120">
+    </tech>
+    <tech name="ypMonasteryCompunction" banner="improvement" icon="resources/images/icons/home_city/hc_atonement.png" row="8" col="120">
+    </tech>
+    <proto name="ypRepentantOutlawRider" banner="unit" icon="resources/art/units/spc/outlaws/outlaw_rider_portrait.png" row="2" col="125">
+    </proto>
+    <proto name="ypRepentantWanderingHorseman" banner="unit" icon="resources/art/units/asians/mercenaries/wandering_horseman/wandering_horseman_icon_portrait.png" row="3" col="125">
+    </proto>
+    <proto name="ypRepentantArsonist" banner="unit" icon="resources/art/units/asians/spc/arsonist/arsonist_icon_portrait.png" row="4" col="125">
+    </proto>
+    <proto name="ypRepentantJaeger" banner="unit" icon="resources/art/units/mercenaries/jaeger/hessian_jaeger_portrait.png" row="5" col="125">
+    </proto>
+    <proto name="ypRepentantElmeti" banner="unit" icon="resources/art/units/elmeti_portrait.png" row="6" col="125">
+    </proto>
+    <proto name="ypRepentantMameluke" banner="unit" icon="resources/art/units/mercenaries/mameluke/mameluke_portrait.png" row="7" col="125">
+    </proto>
+    <proto name="ypRepentantDacoit" banner="unit" icon="resources/art/units/asians/mercenaries/fugitive_dacoit/dacoit_icon_portrait.png" row="2" col="130">
+    </proto>
+    <proto name="ypRepentantBlindMonk" banner="unit" icon="resources/art/units/asians/mercenaries/blind_monk/blind_monk_icon_portrait.png" row="3" col="130">
+    </proto>
+    <proto name="ypRepentantBarbaryCorsair" banner="unit" icon="resources/art/units/mercenaries/barbary_corsair/barbary_corsair_portrait.png" row="4" col="130">
+    </proto>
+    <proto name="ypRepentantLandsknecht" banner="unit" icon="resources/art/units/mercenaries/landsknecht/landsknecht_portrait.png" row="5" col="130">
+    </proto>
+    <proto name="ypRepentantGreatCannon" banner="unit" icon="resources/art/units/spc/russian_cannon/russian_cannon_icon_portrait.png" row="6" col="130">
+    </proto>
+    <proto name="ypRepentantPirate" banner="unit" icon="resources/art/units/spc/pirates/pirate_portrait.png" row="2" col="135">
+    </proto>
+    <proto name="ypRepentantSmuggler" banner="unit" icon="resources/art/units/asians/mercenaries/wokou_pirate/wokou_pirate_icon_portrait.png" row="3" col="135">
+    </proto>
+    <proto name="ypRepentantBlackRider" banner="unit" icon="resources/art/units/mercenaries/black_rider/black_rider_portrait.png" row="4" col="135">
+    </proto>
+    <proto name="ypRepentantManchu" banner="unit" icon="resources/art/units/mercenaries/manchurian_archer/manchurian_archer_portrait.png" row="5" col="135">
+    </proto>
+    <proto name="ypRepentantOutlawPistol" banner="unit" icon="resources/art/nuggets/outlaw_kidnap/outlaw_icon_portrait.png" row="2" col="140">
+    </proto>
+    <proto name="ypRepentantWaywardRonin" banner="unit" icon="resources/art/units/asians/mercenaries/wayward_ronin/wayward_ronin_icon_portrait.png" row="3" col="140">
+    </proto>
+    <proto name="ypRepentantFusilier" banner="unit" icon="resources/art/units/fusilier_portrait.png" row="4" col="140">
+    </proto>
+    <proto name="ypRepentantNinja" banner="unit" icon="resources/art/units/ninja_portrait.png" row="5" col="140">
+    </proto>
+    <proto name="ypRepentantOutlawRifleman" banner="unit" icon="resources/art/units/spc/outlaws/outlaw_shotgun_portrait.png" row="2" col="145">
+    </proto>
+    <proto name="ypRepentantYojimbo" banner="unit" icon="resources/art/units/asians/mercenaries/yojimbo/yojimbo_icon_portrait.png" row="3" col="145">
+    </proto>
+    <proto name="deRepentantHarquebusier" banner="unit" icon="resources/art/units/mercenaries/harquebusier/harquebusier_portrait.png" row="4" col="145">
+    </proto>
+    <proto name="ypRepentantRonin" banner="unit" icon="resources/art/units/mercenaries/samurai/ronin_portrait.png" row="5" col="145">
+    </proto>
+    <proto name="ypRepentantThuggee" banner="unit" icon="resources/art/units/asians/mercenaries/delinquent_thuggee/thuggee_icon_portrait.png" row="2" col="150">
+    </proto>
+    <proto name="ypRepentantHighlander" banner="unit" icon="resources/art/units/mercenaries/highlander/highlander_portrait.png" row="4" col="150">
+    </proto>
+    <proto name="ypRepentantStradiot" banner="unit" icon="resources/art/units/mercenaries/balkan_stradiot/balkan_stradiot_portrait.png" row="5" col="150">
+    </proto>
+    <proto name="ypRepentantIronTroop" banner="unit" icon="resources/art/units/asians/mercenaries/iron_troop/iron_troop_icon_portrait.png" row="4" col="155">
+    </proto>
+    <proto name="ypRepentantSwissPikeman" banner="unit" icon="resources/art/units/mercenaries/swiss_pikeman/swiss_pikeman_portrait.png" row="5" col="155">
+    </proto>
+    <proto name="ypRepentantJatLancer" banner="unit" icon="resources/art/units/asians/mercenaries/jat_lancer/jat_lancer_icon_portrait.png" row="4" col="160">
+    </proto>
+  </group>
+  <group name="War Academy">
+    <proto name="ypWarAcademy" banner="building" icon="resources/art/buildings/asian_civs/war_academy/china_waracademy_icon_64.png" row="2" col="166">
+    </proto>
+    <proto name="ypOldHanArmy" banner="army" icon="resources/art/units/asians/chinese/standard_army/standard_army_icon_64.png" row="3" col="167">
+    </proto>
+    <proto name="ypTerritorialArmy" banner="army" icon="resources/art/units/asians/chinese/forbidden_army/forbidden_army_icon_64.png" row="4" col="167">
+    </proto>
+    <proto name="ypImperialArmy" banner="army" icon="resources/art/units/asians/chinese/territorial_army/territorial_army_icon_64.png" row="5" col="167">
+    </proto>
+    <proto name="ypStandardArmy" banner="army" icon="resources/art/units/asians/chinese/ming_army/ming_army_icon_64.png" row="2" col="172">
+    </proto>
+    <proto name="ypMingArmy" banner="army" icon="resources/art/units/asians/chinese/qing_army/qing_army_icon_64.png" row="3" col="172">
+    </proto>
+    <proto name="ypForbiddenArmy" banner="army" icon="resources/art/units/asians/chinese/mongolian_army/mongolian_army_icon_64.png" row="4" col="172">
+    </proto>
+    <proto name="ypChuKoNu" banner="unit" icon="resources/art/units/asians/chinese/chu_ko_nu/chu_ko_nu_icon_portrait.png" row="3" col="177">
+    </proto>
+    <tech name="YPDisciplinedChuKoNu" banner="improvement" icon="resources/images/icons/techs/asians/disciplined_ranged_infantry.png" row="4" col="177">
+    </tech>
+    <tech name="YPHonoredChuKoNu" banner="improvement" icon="resources/images/icons/techs/asians/honored_ranged_infantry.png" row="6" col="177">
+    </tech>
+    <tech name="YPExaltedChuKoNu" banner="improvement" icon="resources/images/icons/techs/asians/exalted_ranged_infantry.png" row="8" col="177">
+    </tech>
+    <proto name="ypQiangPikeman" banner="unit" icon="resources/art/units/asians/chinese/qiang_pikeman/qiang_pikeman_icon_portrait.png" row="3" col="182">
+    </proto>
+    <tech name="YPDisciplinedQiangPikeman" banner="improvement" icon="resources/images/icons/techs/asians/disciplined_pikeman.png" row="4" col="182">
+    </tech>
+    <tech name="YPHonoredQiangPikeman" banner="improvement" icon="resources/images/icons/techs/asians/honored_pikeman.png" row="6" col="182">
+    </tech>
+    <tech name="YPExaltedQiangPikeman" banner="improvement" icon="resources/images/icons/techs/asians/exalted_pikeman.png" row="8" col="182">
+    </tech>
+    <proto name="ypSteppeRider" banner="unit" icon="resources/art/units/asians/chinese/steppe_rider/steppe_rider_icon_portrait.png" row="3" col="187">
+    </proto>
+    <tech name="YPDisciplinedSteppeRider" banner="improvement" icon="resources/images/icons/techs/asians/disciplined_stepperider.png" row="4" col="187">
+    </tech>
+    <tech name="YPHonoredSteppeRider" banner="improvement" icon="resources/images/icons/techs/asians/honored_stepperider.png" row="6" col="187">
+    </tech>
+    <tech name="YPExaltedSteppeRider" banner="improvement" icon="resources/images/icons/techs/asians/exalted_stepperider.png" row="8" col="187">
+    </tech>
+    <proto name="ypKeshik" banner="unit" icon="resources/art/units/asians/chinese/keshik/keshik_icon_portrait.png" row="3" col="192">
+    </proto>
+    <tech name="YPDisciplinedKeshik" banner="improvement" icon="resources/images/icons/techs/asians/disciplined_keshik.png" row="4" col="192">
+    </tech>
+    <tech name="YPHonoredKeshik" banner="improvement" icon="resources/images/icons/techs/asians/honored_keshik.png" row="6" col="192">
+    </tech>
+    <tech name="YPExaltedKeshik" banner="improvement" icon="resources/images/icons/techs/asians/exalted_keshik.png" row="8" col="192">
+    </tech>
+    <proto name="ypChangdao" banner="unit" icon="resources/art/units/asians/chinese/changdao/changdao_icon_portrait.png" row="4" col="197">
+    </proto>
+    <tech name="YPHonoredChangdao" banner="improvement" icon="resources/images/icons/techs/asians/honored_changdao.png" row="6" col="197">
+    </tech>
+    <tech name="YPExaltedChangdao" banner="improvement" icon="resources/images/icons/techs/asians/exalted_changdao.png" row="8" col="197">
+    </tech>
+    <proto name="ypArquebusier" banner="unit" icon="resources/art/units/asians/chinese/arquebusier/arquebusier_icon_portrait.png" row="4" col="202">
+    </proto>
+    <tech name="YPHonoredArquebusier" banner="improvement" icon="resources/images/icons/techs/asians/honored_arquebusier.png" row="6" col="202">
+    </tech>
+    <tech name="YPExaltedArquebusier" banner="improvement" icon="resources/images/icons/techs/asians/exalted_arquebusier.png" row="8" col="202">
+    </tech>
+    <proto name="ypIronFlail" banner="unit" icon="resources/art/units/asians/chinese/iron_flail/iron_flail_icon_portrait.png" row="4" col="207">
+    </proto>
+    <tech name="YPHonoredIronFlail" banner="improvement" icon="resources/images/icons/techs/asians/honored_ironflail.png" row="6" col="207">
+    </tech>
+    <tech name="YPExaltedIronFlail" banner="improvement" icon="resources/images/icons/techs/asians/exalted_ironflail.png" row="8" col="207">
+    </tech>
+    <proto name="ypMeteorHammer" banner="unit" icon="resources/art/units/asians/chinese/meteor_hammer/meteor_hammer_icon_portrait.png" row="4" col="212">
+    </proto>
+    <tech name="YPHonoredMeteorHammer" banner="improvement" icon="resources/images/icons/techs/asians/honored_meteorhammer.png" row="6" col="212">
+    </tech>
+    <tech name="YPExaltedMeteorHammer" banner="improvement" icon="resources/images/icons/techs/asians/exalted_meteorhammer.png" row="8" col="212">
+    </tech>
+  </group>
+  <group name="Consulate">
+    <proto name="ypConsulate" banner="building" icon="resources/art/buildings/asian_civs/consulate/consulate_icon_64.png" row="0" col="218">
+    </proto>
+    <tech name="ypBigConsulateBritish" banner="ally" icon="resources/images/icons/eso/flag_british_icon.png" row="1" col="218">
+    </tech>
+    <tech name="ypConsulateBritishRedcoats" banner="shipment" icon="resources/art/units/surgeons/surgeon_portrait.png" row="2" col="219">
+    </tech>
+    <proto name="ypConsulateArmyBritish1" banner="army" icon="resources/art/units/asians/consulate/british_armies/british_company_icon_64.png" row="3" col="219">
+    </proto>
+    <tech name="ypConsulateBritishLifeGuards" banner="shipment" icon="resources/art/units/petard_portrait.png" row="4" col="219">
+    </tech>
+    <proto name="ypConsulateArmyBritish2" banner="army" icon="resources/art/units/asians/consulate/british_armies/british_force_icon_64.png" row="5" col="219">
+    </proto>
+    <proto name="ypConsulateArmyBritish3" banner="army" icon="resources/art/units/asians/consulate/british_armies/british_army_icon_64.png" row="7" col="219">
+    </proto>
+    <tech name="ypConsulateBritishBrigade" banner="shipment" icon="resources/art/units/asians/consulate/british_armies/british_brigade_icon_64.png" row="8" col="219">
+    </tech>
+    <tech name="ypConsulateBritishRogersRangers" banner="shipment" icon="resources/art/units/spy_portrait.png" row="2" col="224">
+    </tech>
+    <tech name="ypBigConsulateFrench" banner="ally" icon="resources/images/icons/eso/flag_french_icon.png" row="1" col="230">
+    </tech>
+    <tech name="ypConsulateFrenchFoodCrates" banner="shipment" icon="resources/images/icons/techs/hc_food_crate/hc_food_crate_64.png" row="2" col="231">
+    </tech>
+    <proto name="ypConsulateArmyFrench1" banner="army" icon="resources/art/units/asians/consulate/french_armies/french_company_icon_64.png" row="3" col="231">
+    </proto>
+    <proto name="ypConsulateArmyFrench2" banner="army" icon="resources/art/units/asians/consulate/french_armies/french_force_icon_64.png" row="5" col="231">
+    </proto>
+    <proto name="ypConsulateArmyFrench3" banner="army" icon="resources/art/units/asians/consulate/french_armies/french_army_icon_64.png" row="7" col="231">
+    </proto>
+    <tech name="ypConsulateFrenchBrigade" banner="shipment" icon="resources/art/units/asians/consulate/french_armies/french_brigade_icon_64.png" row="8" col="231">
+    </tech>
+    <tech name="ypConsulateFrenchWoodCrates" banner="shipment" icon="resources/images/icons/techs/hc_wood_crate/hc_wood_crate_64.png" row="2" col="236">
+    </tech>
+    <tech name="ypConsulateFrenchCoinCrates" banner="shipment" icon="resources/images/icons/techs/hc_coin_crate/hc_coin_crate_64.png" row="3" col="236">
+    </tech>
+    <tech name="ypBigConsulateGermans" banner="ally" icon="resources/images/icons/eso/flag_german_icon.png" row="1" col="242">
+    </tech>
+    <tech name="ypConsulateGermansFoodTrickle" banner="shipment" icon="resources/images/icons/techs/native/colbertism.png" row="2" col="243">
+    </tech>
+    <proto name="ypConsulateArmyGerman1" banner="army" icon="resources/images/icons/techs/asians/german_expeditionary_company.png" row="3" col="243">
+    </proto>
+    <tech name="ypConsulateGermansWoodTrickle" banner="shipment" icon="resources/images/icons/techs/native/distributivism.png" row="4" col="243">
+    </tech>
+    <proto name="ypConsulateArmyGerman2" banner="army" icon="resources/images/icons/techs/asians/germany_company.png" row="5" col="243">
+    </proto>
+    <tech name="ypConsulateGermansCoinTrickle" banner="shipment" icon="resources/images/icons/techs/native/capitalism.png" row="6" col="243">
+    </tech>
+    <proto name="ypConsulateArmyGerman3" banner="army" icon="resources/images/icons/techs/asians/germany_army.png" row="7" col="243">
+    </proto>
+    <tech name="ypConsulateGermansBrigade" banner="shipment" icon="resources/images/icons/techs/asians/german_brigade.png" row="8" col="243">
+    </tech>
+    <tech name="ypBigConsulateRussians" banner="ally" icon="resources/images/icons/eso/flag_russian_icon.png" row="1" col="249">
+    </tech>
+    <tech name="ypConsulateRussianOutpostWagon" banner="shipment" icon="resources/art/buildings/blockhouse/blockhouse_portrait.png" row="2" col="250">
+    </tech>
+    <proto name="ypConsulateArmyRussian1" banner="army" icon="resources/images/icons/techs/asians/rus_company_icon_64.png" row="3" col="250">
+    </proto>
+    <tech name="ypConsulateRussianFortWagon" banner="shipment" icon="resources/art/units/trade/fort_wagon_icon_64x64.png" row="4" col="250">
+    </tech>
+    <proto name="ypConsulateArmyRussian2" banner="army" icon="resources/images/icons/techs/asians/rus_force_icon_64.png" row="5" col="250">
+    </proto>
+    <tech name="ypConsulateRussianFactoryWagon" banner="shipment" icon="resources/art/units/trade/factory_wagon_icon_64x64.png" row="6" col="250">
+    </tech>
+    <proto name="ypConsulateArmyRussian3" banner="army" icon="resources/images/icons/techs/asians/rus_army_icon_64.png" row="7" col="250">
+    </proto>
+    <tech name="ypConsulateRussianBrigade" banner="shipment" icon="resources/art/units/asians/consulate/rus_armies/rus_brigade_icon_64.png" row="8" col="250">
+    </tech>
+  </group>
+  <group name="Wonders">
+    <proto name="ypWCConfucianAcademy2" banner="building" icon="resources/art/buildings/wonders/confucian_academy/confucian_academy_icon_64.png" row="0" col="257">
+    </proto>
+    <proto name="ypFlyingCrow" banner="unit" icon="resources/images/icons/command/factory_produce_heavy_art_off.png" row="1" col="257">
+    </proto>
+    <proto name="ypWCPorcelainTower2" banner="building" icon="resources/art/buildings/wonders/porcelain_tower/porcelain_tower_icon_64.png" row="2" col="257">
+    </proto>
+    <label string="65911" string2="65910" banner="improvement" icon="resources/images/icons/command/generate_food_off.png" iconalpha="premultiplied" row="2" col="262">
+    </label>
+    <label string="65909" string2="65908" banner="improvement" icon="resources/images/icons/command/generate_coin_off.png" iconalpha="premultiplied" row="3" col="262">
+    </label>
+    <label string="65913" string2="65912" banner="improvement" icon="resources/images/icons/command/generate_wood_off.png" iconalpha="premultiplied" row="2" col="267">
+    </label>
+    <label string="71302" string2="71303" banner="improvement" icon="resources/images/icons/command/tactic_rainbow_trickle_off.png" iconalpha="premultiplied" row="3" col="267">
+    </label>
+    <proto name="ypWCSummerPalace2" banner="building" icon="resources/art/buildings/wonders/summer_palace/summer_palace_icon_64.png" row="4" col="257">
+    </proto>
+    <proto name="ypOldHanArmy" banner="army" icon="resources/images/icons/command/tactic_wonder_old_han_army_off.png" row="4" col="262">
+    </proto>
+    <proto name="ypTerritorialArmy" banner="army" icon="resources/images/icons/command/tactic_wonder_territorial_army_off.png" row="5" col="262">
+    </proto>
+    <proto name="ypStandardArmy" banner="army" icon="resources/images/icons/command/tactic_wonder_standard_army_off.png" row="4" col="267">
+    </proto>
+    <proto name="ypForbiddenArmySpawn" banner="army" icon="resources/images/icons/command/tactic_wonder_forbidden_army_off.png" row="5" col="267">
+    </proto>
+    <proto name="ypMingArmySpawn" banner="army" icon="resources/images/icons/command/tactic_wonder_qing_army_off.png" row="4" col="272">
+    </proto>
+    <proto name="ypImperialArmySpawn" banner="army" icon="resources/images/icons/command/tactic_wonder_imperial_army_off.png" row="5" col="272">
+    </proto>
+    <proto name="ypWCTempleOfHeaven2" banner="building" icon="resources/art/buildings/wonders/temple_of_heaven/temple_of_heaven_icon_64.png" row="6" col="257">
+    </proto>
+    <label string="62772" string2="62766" banner="improvement" icon="resources/images/icons/abilities/ability_good_fortune.png" iconalpha="premultiplied" row="7" col="257">
+    </label>
+    <proto name="ypWCWhitePagoda2" banner="building" icon="resources/art/buildings/wonders/white_pagoda/white_pagoda_icon_64.png" row="8" col="257">
+    </proto>
+    <label string="69855" string2="71305" banner="improvement" icon="resources/images/icons/techs/asians/tech_passive_monk_aura.png" iconalpha="premultiplied" row="9" col="257">
+    </label>
+  </group>
+</techtreedata>

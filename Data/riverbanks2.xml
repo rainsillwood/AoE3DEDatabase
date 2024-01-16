@@ -1,0 +1,32 @@
+<cliffs>
+  <cliff name="Deccan Plateau River" blockland="1" blockwater="0" iconname="ui\editor\cliffAndes">
+    <modelset>Default</modelset>
+    <texturing>
+      <bump>
+      </bump>
+      <topedge>deccan\ground_grass4_deccan</topedge>
+      <top>deccan\ground_grass4_deccan</top>
+      <side>deccan\ground_grass4_deccan</side>
+      <edge>deccan\ground_grass4_deccan</edge>
+      <bottomedge>deccan\ground_grass4_deccan</bottomedge>
+      <piecetex height="6.0" bump="terrain\texas\cliff_diffuse_tex_bump">terrain\deccan\cliff_river_deccan_01</piecetex>
+      <cappiecetex bump="terrain\amazon\cliff_bump_ama">terrain\amazon\cliff_ama</cappiecetex>
+      <displacement>terrain\deccan\cliff_displacement_deccan</displacement>
+    </texturing>
+  </cliff>
+  <cliff name="Yellow River" blockland="1" blockwater="0" iconname="ui\editor\cliffdeccan">
+    <modelset>Default</modelset>
+    <texturing>
+      <bump>
+      </bump>
+      <topedge>yellow_river\grass1_yellow_riv</topedge>
+      <top>yellow_river\grass2_yellow_riv</top>
+      <side>yellow_river\grass4_yellow_riv</side>
+      <edge>yellow_river\grass3_yellow_riv</edge>
+      <bottomedge>yellow_river\grass1_yellow_riv</bottomedge>
+      <piecetex height="6.0" bump="terrain\yellow_river\cliff_bumpspec_yellow_riv_01">terrain\yellow_river\cliff_yellow_riv_01</piecetex>
+      <cappiecetex bump="terrain\yellow_river\cliff_bumpspec_yellow_riv_01">terrain\yellow_river\cliff_yellow_riv_01</cappiecetex>
+      <displacement>terrain\yellow_river\cliff_displacement_yellow_riv_01</displacement>
+    </texturing>
+  </cliff>
+</cliffs>

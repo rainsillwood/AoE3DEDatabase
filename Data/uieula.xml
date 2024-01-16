@@ -1,0 +1,36 @@
+<layout>
+  <gadget name="EULA" type="dialog" size1024="0 0 1024 768" background="">
+    <gadget name="EULA-Background" type="gadget" size1024="214 98 808 644" background="ui\ui background blue opaque" tilebackground="" z="9">
+      <gadget tilebackgroundhoriz="" name="EULA-BordersTop" type="gadget" background="ui\ui border top middle" size1024="246 90 806 98" z="9">
+      </gadget>
+      <gadget tilebackgroundhoriz="" name="EULA-BordersBottom" type="gadget" background="ui\ui border bottom middle" size1024="246 644 806 652" z="9">
+      </gadget>
+      <gadget tilebackgroundvert="" name="EULA-BordersLeft" type="gadget" background="ui\ui border left middle" size1024="198 122 214 588" z="9">
+      </gadget>
+      <gadget tilebackgroundvert="" name="EULA-BordersRight" type="gadget" background="ui\ui border right middle" size1024="808 122 824 588" z="9">
+      </gadget>
+      <gadget name="EULA-BordersLeftTop" type="gadget" background="ui\ui border top left corner" size1024="182 90 246 122" z="9">
+      </gadget>
+      <gadget name="EULA-BordersLeftBottom" type="gadget" background="ui\ui border bottom left corner" size1024="182 588 246 652" z="10">
+      </gadget>
+      <gadget name="EULA-BordersRightBottom" type="gadget" background="ui\ui border bottom right corner" size1024="775 588 839 652" z="10">
+      </gadget>
+      <gadget name="EULA-BordersRightTop" type="gadget" background="ui\ui border top right corner" size1024="775 90 839 122" z="10">
+      </gadget>
+    </gadget>
+    <gadget name="EULA-ScreenLabel" textcentervert="" textcolor="255 208 0" textfontsize="22" textfont="PregameHeaders" type="formatText" size1024="237 104 530 129">$$22575$$End User License Agreement</gadget>
+    <gadget name="EULA-ScreenSeparator" type="gadget" size1024="227 133 804 135" background="missing">
+    </gadget>
+    <gadget name="EULA-YesButton" type="stateButton" size1024="347 594 507 626" bevelbutton="" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="255 208 0" textcenterhoriz="" textcentervert="" texturecoords="0 0 .625 1">$$18451$$Yes<stateentry background="ui\ui button long 160X32"></stateentry><stateentry background="ui\ui button long 160X32 clicked"></stateentry><stateentry background="ui\ui button long 160X32 rollover"></stateentry><stateentry background=""></stateentry></gadget>
+    <gadget name="EULA-NoButton" type="stateButton" size1024="515 594 675 626" bevelbutton="" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="255 208 0" textcenterhoriz="" textcentervert="" texturecoords="0 0 .625 1">$$18452$$No<stateentry background="ui\ui button long 160X32"></stateentry><stateentry background="ui\ui button long 160X32 clicked"></stateentry><stateentry background="ui\ui button long 160X32 rollover"></stateentry><stateentry background=""></stateentry><command>gadgetUnreal("EULA") modeEnter("Pregame")</command></gadget>
+    <gadget name="EULA-PleaseRead-Text" textcolor="255 208 0" textfontsize="18" textfont="Pregamelabels" type="formatText" size1024="235 152 785 182">$$22576$$Please Read the following license agreement carefully:</gadget>
+    <gadget name="EULA-PleaseRead-Text2" textcolor="255 208 0" textfontsize="18" textfont="Pregamelabels" type="formatText" size1024="235 182 785 211">$$22577$$Scroll down to see the rest of the agreement.</gadget>
+    <gadget name="EULA-BigTextArea-Background" type="gadget" size1024="235 214 785 489" background="ui\ui background dark blue opaque" tilebackground="" transparent="" outlinecolor="255 208 0" z="10">
+    </gadget>
+    <gadget textfontsize="14" textfont="History" name="EULA-BigTextArea" border1024="5 2" type="formatText" textcolor="60 170 255" textwrapon="" textscrollbar="" textmarkup="" usehyperlinks="" size1024="239 218 790 485" z="30">
+      <vertscrollbar sliderbuttons="" slidervertical="" sliderupbtnset="sliderUpBtn" sliderdownbtnset="sliderDownBtn" sliderpipart="ui\ui slider pip verticle" sliderpiptexturecoords="0 0 0.5 0.68" sliderareaart="ui\ui background dark blue opaque" background="ui\core_ui\background_yellow_opaque">
+      </vertscrollbar>
+    </gadget>
+    <gadget name="EULA-DoYouAccept-Text" textcolor="255 208 0" textfontsize="18" textfont="Pregamelabels" type="formatText" size1024="235 504 785 587">$$22578$$Do you accept all the terms of the preceding License Agreement? If you choose No, the setup with close. To play online you must accept this agreement.</gadget>
+  </gadget>
+</layout>

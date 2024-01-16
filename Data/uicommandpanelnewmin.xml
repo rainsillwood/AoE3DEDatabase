@@ -1,0 +1,176 @@
+<layout>
+  <gadget name="commandpanel2" type="commandpanel2" size1024="700 628 1024 768" z="5">
+    <gadget name="commandpanel2-main" type="gadget" background="ui\ingame\ingame_ui_small_01_ypack" size1024="700 627 1024 744" z="5" texturecoords="0 0 0.640625 0.22265625">
+      <gadget name="commandpanel2-rowLabel0" type="formatText" size1024="701 633 810 665" textfont="StatAreaText" textfontsize="12" textcentervert="" textcenterhoriz="" textcolor="255 255 255" z="10" hidden="">Row0</gadget>
+      <gadget name="commandpanel2-rowLabel1" type="formatText" size1024="700 671 809 703" textfont="StatAreaText" textfontsize="12" textcentervert="" textcenterhoriz="" textcolor="255 255 255" z="10" hidden="">Row0</gadget>
+      <gadget name="commandpanel2-rowLabel2" type="formatText" size1024="700 710 809 742" textfont="StatAreaText" textfontsize="12" textcentervert="" textcenterhoriz="" textcolor="255 255 255" z="10" hidden="">Row0</gadget>
+      <gadget name="commandpanel2-button00" type="button" size1024="804 635 836 667" z="15" hidden="" activateondown="" anchortooltipbottomleft="">
+        <piechartfilling color="255 0 0 100" rotation="cw" fill="false">
+        </piechartfilling>
+      </gadget>
+      <gadget name="commandpanel2-button01" type="button" size1024="840 635 872 667" z="15" hidden="" activateondown="" anchortooltipbottomleft="">
+        <piechartfilling color="255 0 0 100" rotation="cw" fill="false">
+        </piechartfilling>
+      </gadget>
+      <gadget name="commandpanel2-button02" type="button" size1024="875 635 907 667" z="15" hidden="" activateondown="" anchortooltipbottomleft="">
+        <piechartfilling color="255 0 0 100" rotation="cw" fill="false">
+        </piechartfilling>
+      </gadget>
+      <gadget name="commandpanel2-button03" type="button" size1024="911 635 943 667" z="15" hidden="" activateondown="" anchortooltipbottomleft="">
+        <piechartfilling color="255 0 0 100" rotation="cw" fill="false">
+        </piechartfilling>
+      </gadget>
+      <gadget name="commandpanel2-button04" type="button" size1024="947 635 979 667" z="15" hidden="" activateondown="" anchortooltipbottomleft="">
+        <piechartfilling color="255 0 0 100" rotation="cw" fill="false">
+        </piechartfilling>
+      </gadget>
+      <gadget name="commandpanel2-button05" type="button" size1024="982 635 1014 667" z="15" hidden="" activateondown="" anchortooltipbottomleft="">
+        <piechartfilling color="255 0 0 100" rotation="cw" fill="false">
+        </piechartfilling>
+      </gadget>
+      <gadget name="ageOverlay2-button00" type="gadget" size1024="824 653 836 665" z="20" transparent="">
+      </gadget>
+      <gadget name="ageOverlay2-button01" type="gadget" size1024="860 653 872 665" z="20" transparent="">
+      </gadget>
+      <gadget name="ageOverlay2-button02" type="gadget" size1024="896 653 908 665" z="20" transparent="">
+      </gadget>
+      <gadget name="ageOverlay2-button03" type="gadget" size1024="932 653 944 665" z="20" transparent="">
+      </gadget>
+      <gadget name="ageOverlay2-button04" type="gadget" size1024="968 653 980 665" z="20" transparent="">
+      </gadget>
+      <gadget name="ageOverlay2-button05" type="gadget" size1024="1004 653 1016 665" z="20" transparent="">
+      </gadget>
+      <gadget name="commandpanel2-button10" type="button" size1024="804 673 836 705" z="15" hidden="" activateondown="" anchortooltipbottomleft="">
+        <piechartfilling color="255 0 0 100" rotation="cw" fill="false">
+        </piechartfilling>
+      </gadget>
+      <gadget name="commandpanel2-button11" type="button" size1024="840 673 872 705" z="15" hidden="" activateondown="" anchortooltipbottomleft="">
+        <piechartfilling color="255 0 0 100" rotation="cw" fill="false">
+        </piechartfilling>
+      </gadget>
+      <gadget name="commandpanel2-button12" type="button" size1024="875 673 907 705" z="15" hidden="" activateondown="" anchortooltipbottomleft="">
+        <piechartfilling color="255 0 0 100" rotation="cw" fill="false">
+        </piechartfilling>
+      </gadget>
+      <gadget name="commandpanel2-button13" type="button" size1024="911 673 943 705" z="15" hidden="" activateondown="" anchortooltipbottomleft="">
+        <piechartfilling color="255 0 0 100" rotation="cw" fill="false">
+        </piechartfilling>
+      </gadget>
+      <gadget name="commandpanel2-button14" type="button" size1024="947 673 979 705" z="15" hidden="" activateondown="" anchortooltipbottomleft="">
+        <piechartfilling color="255 0 0 100" rotation="cw" fill="false">
+        </piechartfilling>
+      </gadget>
+      <gadget name="commandpanel2-button15" type="button" size1024="982 673 1014 705" z="15" hidden="" activateondown="" anchortooltipbottomleft="">
+        <piechartfilling color="255 0 0 100" rotation="cw" fill="false">
+        </piechartfilling>
+      </gadget>
+      <gadget name="ageOverlay2-button10" type="gadget" size1024="824 691 836 703" z="20" transparent="">
+      </gadget>
+      <gadget name="ageOverlay2-button11" type="gadget" size1024="860 691 872 703" z="20" transparent="">
+      </gadget>
+      <gadget name="ageOverlay2-button12" type="gadget" size1024="896 691 908 703" z="20" transparent="">
+      </gadget>
+      <gadget name="ageOverlay2-button13" type="gadget" size1024="932 691 944 703" z="20" transparent="">
+      </gadget>
+      <gadget name="ageOverlay2-button14" type="gadget" size1024="968 691 980 703" z="20" transparent="">
+      </gadget>
+      <gadget name="ageOverlay2-button15" type="gadget" size1024="1004 691 1016 703" z="20" transparent="">
+      </gadget>
+      <gadget name="commandpanel2-button20" type="button" size1024="804 709 836 741" z="15" hidden="" activateondown="" anchortooltipbottomleft="">
+        <piechartfilling color="255 0 0 100" rotation="cw" fill="false">
+        </piechartfilling>
+      </gadget>
+      <gadget name="commandpanel2-button21" type="button" size1024="840 709 872 741" z="15" hidden="" activateondown="" anchortooltipbottomleft="">
+        <piechartfilling color="255 0 0 100" rotation="cw" fill="false">
+        </piechartfilling>
+      </gadget>
+      <gadget name="commandpanel2-button22" type="button" size1024="875 709 907 741" z="15" hidden="" activateondown="" anchortooltipbottomleft="">
+        <piechartfilling color="255 0 0 100" rotation="cw" fill="false">
+        </piechartfilling>
+      </gadget>
+      <gadget name="commandpanel2-button23" type="button" size1024="911 709 943 741" z="15" hidden="" activateondown="" anchortooltipbottomleft="">
+        <piechartfilling color="255 0 0 100" rotation="cw" fill="false">
+        </piechartfilling>
+      </gadget>
+      <gadget name="commandpanel2-button24" type="button" size1024="947 709 979 741" z="15" hidden="" activateondown="" anchortooltipbottomleft="">
+        <piechartfilling color="255 0 0 100" rotation="cw" fill="false">
+        </piechartfilling>
+      </gadget>
+      <gadget name="commandpanel2-button25" type="button" size1024="982 709 1014 741" z="15" hidden="" activateondown="" anchortooltipbottomleft="">
+        <piechartfilling color="255 0 0 100" rotation="cw" fill="false">
+        </piechartfilling>
+      </gadget>
+      <gadget name="ageOverlay2-button20" type="gadget" size1024="824 728 836 740" z="20" transparent="">
+      </gadget>
+      <gadget name="ageOverlay2-button21" type="gadget" size1024="860 729 872 741" z="20" transparent="">
+      </gadget>
+      <gadget name="ageOverlay2-button22" type="gadget" size1024="896 729 908 741" z="20" transparent="">
+      </gadget>
+      <gadget name="ageOverlay2-button23" type="gadget" size1024="932 729 944 741" z="20" transparent="">
+      </gadget>
+      <gadget name="ageOverlay2-button24" type="gadget" size1024="968 729 980 741" z="20" transparent="">
+      </gadget>
+      <gadget name="ageOverlay2-button25" type="gadget" size1024="1004 729 1016 741" z="20" transparent="">
+      </gadget>
+      <gadget name="commandpanel2nativepanel-Button0" type="button" size1024="948 633 1016 741" z="35" hidden="" activateondown="">
+        <piechartfilling color="255 0 0 100" rotation="cw" fill="false">
+        </piechartfilling>
+      </gadget>
+      <gadget name="commandpanel2-bigbutton2" type="button" size1024="880 633 948 741" z="35" hidden="" activateondown="">
+        <piechartfilling color="255 0 0 100" rotation="cw" fill="false">
+        </piechartfilling>
+      </gadget>
+      <gadget name="commandpanel2-bigbutton3" type="button" size1024="804 633 880 741" z="35" hidden="" activateondown="">
+        <piechartfilling color="255 0 0 100" rotation="cw" fill="false">
+        </piechartfilling>
+      </gadget>
+      <gadget name="commandpanel2-bighugebutton" type="button" size1024="804 633 1016 741" z="35" hidden="" activateondown="">
+        <piechartfilling color="255 0 0 100" rotation="cw" fill="false">
+        </piechartfilling>
+      </gadget>
+      <gadget name="ageOverlay2-nativebutton" type="gadget" size1024="999 724 1015 740" z="40" transparent="">
+      </gadget>
+    </gadget>
+    <gadget name="commandpanel2commands" type="gadget" background="ui\ingame\ingame_ui_small_01_ypack" size1024="700 744 1024 768" z="5" texturecoords="0 0.33984375 0.640625 0.3828125">
+      <gadget name="commandpanel2commands-Label" type="formatText" size1024="700 746 804 766" textfont="StatAreaText" textfontsize="12" textcentervert="" textcenterhoriz="" textcolor="255 255 255" z="10" hidden="">Row0</gadget>
+      <gadget name="commandpanel2commands-Button0" type="button" size1024="804 748 836 766" z="15" hidden="" activateondown="">
+      </gadget>
+      <gadget name="commandpanel2commands-Button1" type="button" size1024="840 748 872 766" z="15" hidden="" activateondown="">
+      </gadget>
+      <gadget name="commandpanel2commands-Button2" type="button" size1024="876 749 908 767" z="15" hidden="" activateondown="">
+      </gadget>
+      <gadget name="commandpanel2commands-Button3" type="button" size1024="911 749 943 767" z="15" hidden="" activateondown="">
+      </gadget>
+      <gadget name="commandpanel2commands-Button4" type="button" size1024="948 749 980 767" z="15" hidden="" activateondown="">
+      </gadget>
+      <gadget name="commandpanel2commands-Button5" type="button" size1024="984 749 1016 767" z="15" hidden="" activateondown="">
+      </gadget>
+    </gadget>
+  </gadget>
+  <gadget name="SocketPanel2" type="gadget" backgroundcolor="0 0 0" size1024="700 628 1024 768" hidden="" texturecoords="0 0 0.642578125 0.53" z="5" background="ui\ingame\ingame_ui_small_04x_ypack">
+    <gadget name="SocketPanel2-portrait" type="gadget" size1024="913 654 1009 750" z="11">
+    </gadget>
+    <gadget name="SocketPanel2-textUnitLabel" z="13" type="formatText" background="" textfont="AgeUpgradeMedium" textcenterhoriz="" textcentervert="" textfontsize="17" textcolor="255 255 255" textjustifycenter="" size1024="900 630 1020 657">
+    </gadget>
+    <gadget name="SocketPanel2-textDescription" z="13" type="formatText" background="" textfont="AgeUpgradeMedium" textcenterhoriz="" textfontsize="17" textcolor="255 255 255" textjustifycenter="" size1024="703 643 911 767">
+    </gadget>
+  </gadget>
+  <gadget name="TreasurePanel" type="gadget" backgroundcolor="0 0 0" size1024="700 628 1024 768" hidden="" texturecoords="0 0 0.642578125 0.53" z="5" background="ui\ingame\ingame_ui_small_04x_ypack">
+    <gadget name="TreasurePanel-portrait" type="gadget" size1024="913 654 1009 750" z="11">
+    </gadget>
+    <gadget name="TreasurePanel-textUnitLabel" z="13" type="formatText" background="" textfont="AgeUpgradeMedium" textcenterhoriz="" textcentervert="" textfontsize="17" textcolor="255 255 255" textjustifycenter="" size1024="900 630 1020 657">
+    </gadget>
+    <gadget name="TreasurePanel-textTreasure" z="13" type="formatText" background="" textfont="AgeUpgradeMedium" textfontsize="17" textcolor="255 255 255" size1024="713 642 911 661">
+    </gadget>
+    <gadget name="TreasurePanel-textTreasureItem" z="13" type="formatText" background="" textfont="AgeUpgradeMedium" textfontsize="15" textcolor="255 255 255" size1024="720 661 911 708">
+    </gadget>
+    <gadget name="TreasurePanel-textGuardian" z="13" type="formatText" background="" textfont="AgeUpgradeMedium" textfontsize="17" textcolor="255 255 255" size1024="712 704 910 721">
+    </gadget>
+    <gadget name="TreasurePanel-textGuard0" z="13" type="formatText" background="" textfont="AgeUpgradeMedium" textfontsize="15" textcolor="255 255 255" size1024="712 720 910 737">
+    </gadget>
+    <gadget name="TreasurePanel-textGuard1" z="13" type="formatText" background="" textfont="AgeUpgradeMedium" textfontsize="15" textcolor="255 255 255" size1024="712 736 910 753">
+    </gadget>
+    <gadget name="TreasurePanel-textGuard2" z="13" type="formatText" background="" textfont="AgeUpgradeMedium" textfontsize="15" textcolor="255 255 255" size1024="712 752 910 769">
+    </gadget>
+  </gadget>
+</layout>

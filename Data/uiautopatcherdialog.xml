@@ -1,0 +1,46 @@
+<layout>
+  <gadget tilebackgroundhoriz="" name="autoPatcherDialog" type="dialog" size1024="343 196 692 415" z="12" background="ui\core_ui\wood_thick_board_tile" hidden="" windowzstyle="" tilebackground="">
+    <gadget tilebackgroundhoriz="" name="autoPatcherDialog-BordersTop" type="gadget" background="ui\file_system\border_top_middle" size1024="367 188 670 196" z="4" transparent="">
+    </gadget>
+    <gadget tilebackgroundhoriz="" name="autoPatcherDialog-BordersBottom" type="gadget" background="ui\file_system\border_bottom_middle" size1024="367 411 670 419" z="4" transparent="">
+    </gadget>
+    <gadget name="autoPatcherDialog-BordersLeft" type="gadget" background="ui\file_system\border_side_left" size1024="335 220 343 390" tilebackgroundvert="" transparent="">
+    </gadget>
+    <gadget name="autoPatcherDialog-BordersRight" type="gadget" background="ui\file_system\border_side_right" size1024="691 220 699 390" tilebackgroundvert="" z="4" transparent="">
+    </gadget>
+    <gadget name="autoPatcherDialog-BordersRightTop" type="gadget" background="ui\file_system\border_top_right" size1024="667 188 699 220" z="5" transparent="" clampbackground="">
+    </gadget>
+    <gadget name="autoPatcherDialog-BordersLeftTop" type="gadget" background="ui\file_system\border_top_left" size1024="335 188 367 220" z="5" transparent="" clampbackground="">
+    </gadget>
+    <gadget name="autoPatcherDialog-BordersRightBottom" type="gadget" background="ui\file_system\border_bottom_right" size1024="667 387 699 419" z="5" transparent="" clampbackground="">
+    </gadget>
+    <gadget name="autoPatcherDialog-BordersLeftBottom" type="gadget" background="ui\file_system\border_bottom_left" size1024="335 387 367 419" z="10" transparent="" clampbackground="">
+    </gadget>
+    <gadget name="autoPatcherDialog-StatusText" type="formatText" textcenterhoriz="" textcolor="255 200 3" textfont="IngameDialogs" textfontsize="16" size1024="370 222 660 352" transparent="">Message Text Goes Here</gadget>
+    <gadget name="autoPatcherDialog-CancelButton" type="stateButton" size1024="448 372 576 404" z="51" textfont="IngameButtons" textfontsize="18" textcolor="255 255 255" foreground="UI\button_Greek" bevelbutton="" statebuttonuseinternalstates="" textcenterhoriz="" textcentervert="" texturecoords="0 0 1 1">$$18466$$Cancel<stateentry background="ui\core_ui\button_128x32_normal"></stateentry><stateentry background="ui\core_ui\button_128x32_clicked"></stateentry><stateentry background="ui\core_ui\button_128x32_rollover"></stateentry><stateentry background="ui\core_ui\button_128x32_disabled"></stateentry><command>cancelAutoPatcher</command></gadget>
+    <gadget name="autoPatcherDialog-TextBackground" type="gadget" size1024="354 213 679 359" z="4" background="ui\core_ui\metal_tile">
+      <gadget name="autoPatcherDialog-TextBackground-BordersTop" type="gadget" background="ui\core_ui\metal_trim_top" size1024="383 209 651 217" z="5" transparent="">
+      </gadget>
+      <gadget name="autoPatcherDialog-TextBackground-BordersBottom" type="gadget" background="ui\core_ui\metal_trim_bottom" size1024="382 356 650 364" z="16" transparent="">
+      </gadget>
+      <gadget name="autoPatcherDialog-TextBackground-BordersLeft" type="gadget" background="ui\core_ui\metal_trim_left" size1024="351 241 359 331" tilebackgroundvert="" transparent="" z="5">
+      </gadget>
+      <gadget name="autoPatcherDialog-TextBackground-BordersRight" type="gadget" background="ui\core_ui\metal_trim_right" size1024="675 241 682 331" tilebackgroundvert="" z="5" transparent="">
+      </gadget>
+      <gadget name="autoPatcherDialog-TextBackground-BordersRightTop" type="gadget" background="ui\core_ui\metal_trim_corner_topright" size1024="650 209 682 241" z="7" transparent="" clampbackground="">
+      </gadget>
+      <gadget name="autoPatcherDialog-TextBackground-BordersLeftTop" type="gadget" background="ui\core_ui\metal_trim_corner_topleft" size1024="351 209 383 241" z="7" transparent="" clampbackground="">
+      </gadget>
+      <gadget name="autoPatcherDialog-TextBackground-BordersRightBottom" type="gadget" background="ui\core_ui\metal_trim_corner_bottomright" size1024="650 332 682 364" z="6" transparent="" clampbackground="">
+      </gadget>
+      <gadget name="autoPatcherDialog-TextBackground-BordersLeftBottom" type="gadget" background="ui\core_ui\metal_trim_corner_bottomleft" size1024="351 332 383 364" z="6" transparent="" clampbackground="">
+      </gadget>
+    </gadget>
+  </gadget>
+  <gadget name="autoPatcherDialog-confirmdialog" type="gadget" hidden="" backgroundcolor="0 0 0" backgroundalpha="0.5" size1024="0 0 1024 768" windowzstyle="" z="99">
+    <gadget tilebackgroundhoriz="" name="autoPatcherDialog-confirmdialog-panel" type="gadget" size1024="352 194 682 418" z="100" background="ui\ingame\resign_window" texturecoords="0 0 0.7109375 0.90234375">
+      <gadget name="autoPatcherDialog-confirmdialog-prompt" type="formatText" textcenterhoriz="" textcolor="255 200 3" textfont="InGameLabels" textfontsize="18" size1024="376 228 654 354" z="102" transparent="">Message Text Goes Here</gadget>
+      <gadget name="autoPatcherDialog-confirmdialog-OKButton" type="stateButton" size1024="448 372 576 404" z="102" textfont="IngameButtons" textfontsize="18" textcolor="255 255 255" bevelbutton="" statebuttonuseinternalstates="" textcenterhoriz="" textcentervert="" texturecoords="0 0 1 1">$$18465$$OK<stateentry background="ui\core_ui\button_128x32_normal"></stateentry><stateentry background="ui\core_ui\button_128x32_clicked"></stateentry><stateentry background="ui\core_ui\button_128x32_rollover"></stateentry><stateentry background="ui\core_ui\button_128x32_disabled"></stateentry></gadget>
+    </gadget>
+  </gadget>
+</layout>

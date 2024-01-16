@@ -1,0 +1,52 @@
+<layout>
+  <gadget name="trEditor" type="gadget" size1024="0 502 254 768" background="ui\editor\editor_background" bevel="" titlebar="$$20517$$Trigger Editor" locktitlebarmove="">
+    <gadget name="trEdit-Trigger-group" type="textField" textcolor="0 0 0" bevel="" dropdowndistance="132" dropdownvisitems="5" size1024="10 579 240 602">$$20518$$Group:<dropdown>1</dropdown></gadget>
+    <gadget name="trEdit-Trigger-list" type="list" background="ui\editor\editor_background" sunkenbevel="" showselect="" selectedcolor="255 255 255" buttonsize1024="125 15" scrollvert="" alphasort="" listactivateonalphajump="" size1024="10 606 160 752">
+    </gadget>
+    <gadget name="trEdit-Trigger-insbtn" type="button" bevel="" size1024="168 612 245 632">$$20488$$Insert</gadget>
+    <gadget name="trEdit-Trigger-copybtn" type="button" bevel="" size1024="210 637 245 657">$$25345$$Copy</gadget>
+    <gadget name="trEdit-Trigger-delbtn" type="button" bevel="" size1024="168 637 203 657">$$25347$$Del</gadget>
+    <gadget name="trEdit-Trigger-RadioButtonsLabel" type="textBox" textcolor="0 0 0" textfont="Arial Nodrop For SE" textfontsize="12" size1024="165 662 230 672">$$20489$$Edit:</gadget>
+    <gadget name="trEdit-Trigger-RadioButtons" type="radioset" textcolor="0 0 0" textfont="Arial nobold nodrop" textfontsize="12" background="ui\editor\editor_background" radiosetbuttonsize1024="70 25" radiosetdefaultbuttonindex="0" size1024="160 677 200 717">
+      <button>$$20287$$Triggers</button>
+      <button>$$18264$$Conditions</button>
+      <button>$$18265$$Effects</button>
+    </gadget>
+    <gadget name="trEdit-Triggers" type="gadget" size1024="256 502 799 768" bevel="" background="ui\editor\editor_background" tilebackground="" titlebar="$$20287$$Triggers" locktitlebarmove="">
+      <gadget type="textBox" name="trEdit-Trigger-nametext" textcolor="0 0 0" textfont="Arial Nodrop For SE" textfontsize="12" size1024="266 582 426 592">$$20001$$Name:</gadget>
+      <gadget type="textField" name="trEdit-Trigger-name" textcolor="0 0 0" fieldrequireenter="" size1024="266 597 426 622">
+      </gadget>
+      <gadget type="checkButton" name="trEdit-Trigger-activebtn" textcolor="0 0 0" textfont="Arial nobold nodrop" textfontsize="12" size1024="266 632 426 652">$$20519$$Active</gadget>
+      <gadget type="checkButton" name="trEdit-Trigger-loopbtn" textcolor="0 0 0" textfont="Arial nobold nodrop" textfontsize="12" size1024="266 652 426 672">$$19007$$Loop</gadget>
+      <gadget type="checkButton" name="trEdit-Trigger-runimmediatelybtn" textcolor="0 0 0" textfont="Arial nobold nodrop" textfontsize="12" size1024="266 672 426 692">$$20522$$RunImmediately</gadget>
+      <gadget type="textBox" name="trEdit-Trigger-prioritytext" textcolor="0 0 0" textfont="Arial Nodrop For SE" textfontsize="12" size1024="266 692 426 712">$$20520$$Priority:</gadget>
+      <gadget type="slider" name="trEdit-Trigger-priority" textcolor="0 0 0" size1024="266 712 426 732">
+      </gadget>
+      <gadget type="textBox" name="trEdit-Trigger-Lowtext" textcolor="0 0 0" textfont="Arial nobold nodrop" textfontsize="12" size1024="266 732 296 752">$$18579$$Low</gadget>
+      <gadget type="textBox" name="trEdit-Trigger-Normaltext" textcolor="0 0 0" textfont="Arial nobold nodrop" textfontsize="12" size1024="326 732 376 752">$$18294$$Normal</gadget>
+      <gadget type="textBox" name="trEdit-Trigger-Hightext" textcolor="0 0 0" textfont="Arial nobold nodrop" textfontsize="12" size1024="396 732 426 752">$$18578$$High</gadget>
+      <gadget type="list" name="trEdit-Condition-list" titlebar="$$18264$$Conditions" textcolor="0 0 0" background="ui\editor\editor_background" scrollvert="" locktitlebarmove="" sunkenbevel="" alphasort="" size1024="436 534 606 752">
+      </gadget>
+      <gadget type="list" name="trEdit-Effect-list" titlebar="$$18265$$Effects" textcolor="0 0 0" background="ui\editor\editor_background" scrollvert="" locktitlebarmove="" sunkenbevel="" alphasort="" size1024="616 534 786 752">
+      </gadget>
+    </gadget>
+    <gadget name="trEdit-CondEffPanel" type="gadget" size1024="256 502 799 768" bevel="" background="ui\editor\editor_background" tilebackground="" titlebar="$$18264$$Conditions" locktitlebarmove="" hidden="">
+      <gadget name="trEdit-CondEffPanel-name" type="textField" textcolor="0 0 0" size1024="266 582 416 607">
+      </gadget>
+      <gadget name="trEdit-CondEffPanel-list" type="list" background="ui\editor\editor_background" sunkenbevel="" showselect="" selectedcolor="255 255 255" scrollvert="" size1024="266 612 416 752">
+      </gadget>
+      <gadget name="trEdit-CondEffPanel-insbtn" type="button" bevel="" size1024="424 582 481 602">$$20488$$Insert</gadget>
+      <gadget name="trEdit-CondEffPanel-delbtn" type="button" bevel="" size1024="424 607 481 627">$$18574$$Delete</gadget>
+      <gadget name="trEdit-CondEffPanel-copybtn" type="button" bevel="" size1024="424 632 481 652">$$25345$$Copy</gadget>
+      <gadget name="trEdit-CondEffPanel-upbtn" type="button" bevel="" size1024="424 657 481 677">$$31654$$MoveUp</gadget>
+      <gadget name="trEdit-CondEffPanel-downbtn" type="button" bevel="" size1024="424 682 481 703">$$31655$$MoveDown</gadget>
+      <gadget name="trEdit-CondEffPanel-notbox" type="checkbutton" textcolor="0 0 0" textfont="Arial nobold nodrop" textfontsize="12" size1024="424 702 481 722">$$25348$$NOT</gadget>
+      <gadget name="trEdit-CondEffPanel-orbox" type="checkbutton" textcolor="0 0 0" textfont="Arial nobold nodrop" textfontsize="12" size1024="424 727 481 747">$$25349$$OR</gadget>
+      <gadget type="textField" name="trEdit-CondEffPanel-type" textcolor="0 0 0" bevel="" dropdowndistance="132" fieldreadonly="" size1024="491 534 786 557">$$20347$$Type:<dropdown>1</dropdown></gadget>
+      <gadget type="gadget" name="trEdit-CondEffPanel-custom" size1024="541 559 786 752">
+      </gadget>
+    </gadget>
+    <gadget name="trEdit-LoadAllTriggers" type="button" bevel="" size1024="10 535 123 555" textfont="Arial nodrop" textfontsize="12">$$72699$$Load all triggers<command>uiImportTriggers</command></gadget>
+    <gadget name="trEdit-SaveAllTriggers" type="button" bevel="" size1024="127 535 240 555" textfont="Arial nodrop" textfontsize="12">$$72700$$Save all triggers<command>uiExportTriggers</command></gadget>
+  </gadget>
+</layout>

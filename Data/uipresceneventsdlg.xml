@@ -1,0 +1,10 @@
+<layout>
+  <gadget name="PrescenarioEvents" type="gadget" size1024="578 104 916 276" background="ui\file_system\file_system_background" bevel="" titlebar="$$28206$$PrescenarioEvents" closebutton="" windowzstyle="" moveable="">
+    <gadget name="PrescenarioEvents_OkBtn" type="button" bevel="" background="ui\file_system\file_system_background" textfont="Arial nobold nodrop" textfontsize="12" size1024="632 232 738 253">$$18465$$Ok</gadget>
+    <gadget name="PrescenarioEvents_CancelBtn" type="button" bevel="" background="ui\file_system\file_system_background" textfont="Arial nobold nodrop" textfontsize="12" size1024="760 232 866 252">$$18466$$Cancel</gadget>
+    <gadget name="PrescenarioEvents_UnitBoardsTxt" type="formatText" size1024="584 136 794 156" z="11">
+    </gadget>
+    <gadget name="PrescenarioEvents_UnitBoardsShowBtn" type="button" bevel="" background="ui\file_system\file_system_background" textfont="Arial nobold nodrop" textfontsize="12" size1024="800 136 850 156">$$20508$$Show</gadget>
+    <gadget name="PrescenarioEvents_UnitBoardsSelectBtn" type="button" bevel="" background="ui\file_system\file_system_background" textfont="Arial nobold nodrop" textfontsize="12" size1024="856 136 906 156">$$28213$$Select</gadget>
+  </gadget>
+</layout>

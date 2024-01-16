@@ -1,0 +1,56 @@
+<layout>
+  <gadget name="hctabpanel" type="hctabpanel" background="ui\home_city\hc_inventory_customize" tilebackgroundvert="" tilebackgroundhoriz="" size1024="0 401 1 402" z="50" texturecoords="0 0.6416015625 0.337890625 1">
+    <gadget name="hctabpanel-HelpText" type="formatText" size1024="32 565 318 724" textfont="ChatOutline" textcolor="231 201 40" textfontsize="12" textcenterhoriz="" texttruecentervert="" z="60">
+    </gadget>
+    <gadget name="hctabpanel-RespecButton" type="stateButton" hidden="" size1024="73 692 269 724" bevelbutton="" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="255 255 255" textcenterhoriz="" textcentervert="" mouseovertext="$$18480$$" z="60">$$18480$$Reset<stateentry background="ui\core_ui\button_256x32_normal"></stateentry><stateentry background="ui\core_ui\button_256x32_clicked"></stateentry><stateentry background="ui\core_ui\button_256x32_rollover"></stateentry><stateentry background="ui\core_ui\button_256x32_disabled"></stateentry></gadget>
+    <gadget name="hctabpanel-DoneButton" type="stateButton" bevelbutton="" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="255 255 255" textcenterhoriz="" textcentervert="" mouseovertext="$$42144$$" size1024="73 729 269 761" z="60">$$18457$$<stateentry background="ui\core_ui\button_256x32_normal"></stateentry><stateentry background="ui\core_ui\button_256x32_clicked"></stateentry><stateentry background="ui\core_ui\button_256x32_rollover"></stateentry><stateentry background="ui\core_ui\button_256x32_disabled"></stateentry></gadget>
+    <gadget name="hcDeck-CardViewContextLabel" type="formatText" textfont="GoalText" textfontsize="18" textcenterhoriz="" textcolor="231 201 40" size1024="34 320 312 340" z="51" transparent="">$$46336$$View Cards Inventory</gadget>
+    <gadget name="byBuildingLabel" textcentervert="" textcolor="231 201 40" textfontsize="12" textfont="ChatOutline" type="formatText" size1024="60 355 170 375" z="11">$$46333$$By Building:</gadget>
+    <gadget name="byLeaderLabel" textcentervert="" textcolor="231 201 40" textfontsize="12" textfont="ChatOutline" type="formatText" size1024="60 355 170 375" z="11">$$46334$$By Leader:</gadget>
+    <gadget name="byAgeLabel" textcentervert="" textcolor="231 201 40" textfontsize="12" textfont="ChatOutline" type="formatText" size1024="210 355 320 375" z="11">$$46335$$By Age:</gadget>
+    <gadget name="hcDeck-CardViewContextButtons" type="radioset" size1024="20 355 320 375" radiosetbuttonsize1024="86 32" radiosetdefaultbuttonindex="0" z="11" radiocheckedart="ui\core_ui\round_clicked" radiouncheckedart="ui\core_ui\round" radiobtnborder1024="2 2" radiosethorizlayout="" sound="UI_DefaultIngameClickSet">
+      <button>
+      </button>
+      <button>
+      </button>
+    </gadget>
+    <gadget name="hctabpanel-button1" type="button" size1024="102 415 340 439" z="65" textcolor="180 180 180" textfont="AgeText" textfontsize="12" activateondown="" foreground="ui\home_city\HC_UI_tabs" texturecoords="0 0.545098039215686 0.463796477495108 0.623529411764706">
+    </gadget>
+    <gadget name="hctabpanel-button2" type="button" size1024="102 440 340 464" z="65" textcolor="180 180 180" textfont="AgeText" textfontsize="12" activateondown="" foreground="ui\home_city\HC_UI_tabs" texturecoords="0 0.545098039215686 0.463796477495108 0.623529411764706">
+    </gadget>
+    <gadget name="hctabpanel-button3" type="button" size1024="102 465 340 489" z="65" textcolor="180 180 180" textfont="AgeText" textfontsize="12" activateondown="" foreground="ui\home_city\HC_UI_tabs" texturecoords="0 0.545098039215686 0.463796477495108 0.623529411764706">
+    </gadget>
+    <gadget name="hctabpanel-button4" type="button" size1024="102 490 340 514" z="65" textcolor="180 180 180" textfont="AgeText" textfontsize="12" activateondown="" foreground="ui\home_city\HC_UI_tabs" texturecoords="0 0.545098039215686 0.463796477495108 0.623529411764706">
+    </gadget>
+    <gadget name="hctabpanel-button5" type="button" size1024="102 515 340 539" z="65" textcolor="180 180 180" textfont="AgeText" textfontsize="12" activateondown="" foreground="ui\home_city\HC_UI_tabs" texturecoords="0 0.545098039215686 0.463796477495108 0.623529411764706">
+    </gadget>
+    <gadget name="hctabpanel-buttonOn1" type="button" size1024="55 415 340 439" z="65" textcolor="255 255 255" textfont="GoalText" textfontsize="18" activateondown="" foreground="ui\home_city\HC_UI_tabs" hidden="" texturecoords="0 0.219607843137255 0.555772994129158 0.327647058823529">
+    </gadget>
+    <gadget name="hctabpanel-buttonOn2" type="button" size1024="55 440 340 464" z="65" textcolor="255 255 255" textfont="GoalText" textfontsize="18" activateondown="" foreground="ui\home_city\HC_UI_tabs" hidden="" texturecoords="0 0.109803921568627 0.555772994129158 0.217843137254902">
+    </gadget>
+    <gadget name="hctabpanel-buttonOn3" type="button" size1024="55 465 340 489" z="65" textcolor="255 255 255" textfont="GoalText" textfontsize="18" activateondown="" foreground="ui\home_city\HC_UI_tabs" hidden="" texturecoords="0 0.43921568627451 0.555772994129158 0.547254901960784">
+    </gadget>
+    <gadget name="hctabpanel-buttonOn4" type="button" size1024="55 490 340 514" z="65" textcolor="255 255 255" textfont="GoalText" textfontsize="18" activateondown="" foreground="ui\home_city\HC_UI_tabs" hidden="" texturecoords="0 0.329411764705882 0.555772994129158 0.43">
+    </gadget>
+    <gadget name="hctabpanel-buttonOn5" type="button" size1024="55 515 340 539" z="65" textcolor="255 255 255" textfont="GoalText" textfontsize="18" activateondown="" foreground="ui\home_city\HC_UI_tabs" hidden="" texturecoords="0 0 0.555772994129158 0.105">
+    </gadget>
+    <gadget name="hctabpanel-buttonNativeOn1" type="button" size1024="55 415 340 439" z="65" textcolor="255 255 255" textfont="GoalText" textfontsize="18" activateondown="" foreground="ui\home_city\HC_UI_tabs_native" hidden="" texturecoords="0 0.219607843137255 0.555772994129158 0.327647058823529">
+    </gadget>
+    <gadget name="hctabpanel-buttonNativeOn2" type="button" size1024="55 440 340 464" z="65" textcolor="255 255 255" textfont="GoalText" textfontsize="18" activateondown="" foreground="ui\home_city\HC_UI_tabs_native" hidden="" texturecoords="0 0.109803921568627 0.555772994129158 0.217843137254902">
+    </gadget>
+    <gadget name="hctabpanel-buttonNativeOn3" type="button" size1024="55 465 340 489" z="65" textcolor="255 255 255" textfont="GoalText" textfontsize="18" activateondown="" foreground="ui\home_city\HC_UI_tabs_native" hidden="" texturecoords="0 0.43921568627451 0.555772994129158 0.547254901960784">
+    </gadget>
+    <gadget name="hctabpanel-buttonNativeOn4" type="button" size1024="55 490 340 514" z="65" textcolor="255 255 255" textfont="GoalText" textfontsize="18" activateondown="" foreground="ui\home_city\HC_UI_tabs_native" hidden="" texturecoords="0 0.329411764705882 0.555772994129158 0.43">
+    </gadget>
+    <gadget name="hctabpanel-buttonNativeOn5" type="button" size1024="55 515 340 539" z="65" textcolor="255 255 255" textfont="GoalText" textfontsize="18" activateondown="" foreground="ui\home_city\HC_UI_tabs_native" hidden="" texturecoords="0 0 0.555772994129158 0.105">
+    </gadget>
+    <gadget name="hctabpanel-buttonAgeOn1" type="button" size1024="55 415 340 439" z="65" textcolor="255 255 255" textfont="GoalText" textfontsize="18" activateondown="" foreground="ui\home_city\HC_UI_tabs_byage" hidden="" texturecoords="0 0.219607843137255 0.555772994129158 0.327647058823529">
+    </gadget>
+    <gadget name="hctabpanel-buttonAgeOn2" type="button" size1024="55 440 340 464" z="65" textcolor="255 255 255" textfont="GoalText" textfontsize="18" activateondown="" foreground="ui\home_city\HC_UI_tabs_byage" hidden="" texturecoords="0 0.109803921568627 0.555772994129158 0.217843137254902">
+    </gadget>
+    <gadget name="hctabpanel-buttonAgeOn3" type="button" size1024="55 465 340 489" z="65" textcolor="255 255 255" textfont="GoalText" textfontsize="18" activateondown="" foreground="ui\home_city\HC_UI_tabs_byage" hidden="" texturecoords="0 0.43921568627451 0.555772994129158 0.547254901960784">
+    </gadget>
+    <gadget name="hctabpanel-buttonAgeOn4" type="button" size1024="55 490 340 514" z="65" textcolor="255 255 255" textfont="GoalText" textfontsize="18" activateondown="" foreground="ui\home_city\HC_UI_tabs_byage" hidden="" texturecoords="0 0.329411764705882 0.555772994129158 0.43">
+    </gadget>
+  </gadget>
+</layout>

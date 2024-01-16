@@ -1,0 +1,131 @@
+<layout>
+  <gadget name="MPESOFriends" type="gadget" size1024="0 518 209 768" z="10" wheelfocuswhenmouseinside="">
+    <gadget name="MPESOFriends-FriendsBackground" type="gadget" size1024="0 516 208 768" hidden="" z="2" background="ui\eso\eso_main_ui" texturecoords="0.4082031 0.515625 0.8164063 1">
+    </gadget>
+    <gadget name="MPESOFriends-PestBackground" type="gadget" size1024="0 516 209 768" hidden="" z="1" background="ui\eso\eso_main_ui2" texturecoords="0 0 0.8164063 0.96875">
+    </gadget>
+    <gadget name="Friends-Button" type="button" textfont="AgeText" textfontsize="12" textcolor="255 255 255" alpha="0.0" size1024="13 516 103 542" z="12">$$20022$$Friends</gadget>
+    <gadget name="Pest-Button" type="button" textfont="AgeText" textfontsize="12" textcolor="255 255 255" alpha="0.0" size1024="106 516 196 542" z="12">$$20058$$Pests</gadget>
+    <gadget name="MPESOFriends-FriendList" type="gadget" size1024="17 553 172 727" z="10">
+      <gadget name="MPESOFriends-Entry1" type="gadget" size1024="18 553 172 575" z="12">
+        <gadget name="MPESOFriends-Entry1-Game" type="button" alpha="0.0" textcentervert="" textcenterhoriz="" size1024="18 555 34 573" z="12">
+        </gadget>
+        <gadget name="MPESOFriends-Entry1-Status" type="button" alpha="0.0" textcentervert="" textcenterhoriz="" size1024="34 555 50 573" z="12">
+        </gadget>
+        <gadget name="MPESOFriends-Entry1-Name" type="button" statebuttondefaultstate="0" statebuttonuseinternalstates="" alpha="0.0" useeventcode="1" allowrightclick="1" align="left" textcentervert="" textcenterhoriz="" textfont="AgeText" textfontsize="12" textcolor="255 255 255" size1024="50 553 172 573" z="12">
+        </gadget>
+      </gadget>
+      <gadget name="MPESOFriends-Entry2" type="gadget" size1024="18 575 172 597" z="12">
+        <gadget name="MPESOFriends-Entry2-Game" type="button" alpha="0.0" textcentervert="" textcenterhoriz="" size1024="18 577 34 595" z="12">
+        </gadget>
+        <gadget name="MPESOFriends-Entry2-Status" type="button" alpha="0.0" textcentervert="" textcenterhoriz="" size1024="34 577 50 595" z="12">
+        </gadget>
+        <gadget name="MPESOFriends-Entry2-Name" type="button" statebuttondefaultstate="0" statebuttonuseinternalstates="" alpha="0.0" useeventcode="1" allowrightclick="1" align="left" textcentervert="" textcenterhoriz="" textfont="AgeText" textfontsize="12" textcolor="255 255 255" size1024="50 575 172 595" z="12">
+        </gadget>
+      </gadget>
+      <gadget name="MPESOFriends-Entry3" type="gadget" size1024="18 597 172 619" z="12">
+        <gadget name="MPESOFriends-Entry3-Game" type="button" alpha="0.0" textcentervert="" textcenterhoriz="" size1024="18 599 34 617" z="12">
+        </gadget>
+        <gadget name="MPESOFriends-Entry3-Status" type="button" alpha="0.0" textcentervert="" textcenterhoriz="" size1024="34 599 50 617" z="12">
+        </gadget>
+        <gadget name="MPESOFriends-Entry3-Name" type="button" statebuttondefaultstate="0" statebuttonuseinternalstates="" alpha="0.0" useeventcode="1" allowrightclick="1" align="left" textcentervert="" textcenterhoriz="" textfont="AgeText" textfontsize="12" textcolor="255 255 255" size1024="50 597 172 617" z="12">
+        </gadget>
+      </gadget>
+      <gadget name="MPESOFriends-Entry4" type="gadget" size1024="18 619 172 641" z="12">
+        <gadget name="MPESOFriends-Entry4-Game" type="button" alpha="0.0" textcentervert="" textcenterhoriz="" size1024="18 621 34 639" z="12">
+        </gadget>
+        <gadget name="MPESOFriends-Entry4-Status" type="button" alpha="0.0" textcentervert="" textcenterhoriz="" size1024="34 621 50 639" z="12">
+        </gadget>
+        <gadget name="MPESOFriends-Entry4-Name" type="button" statebuttondefaultstate="0" statebuttonuseinternalstates="" alpha="0.0" useeventcode="1" allowrightclick="1" align="left" textcentervert="" textcenterhoriz="" textfont="AgeText" textfontsize="12" textcolor="255 255 255" size1024="50 619 172 639" z="12">
+        </gadget>
+      </gadget>
+      <gadget name="MPESOFriends-Entry5" type="gadget" size1024="18 641 172 663" z="12">
+        <gadget name="MPESOFriends-Entry5-Game" type="button" alpha="0.0" textcentervert="" textcenterhoriz="" size1024="18 643 34 661" z="12">
+        </gadget>
+        <gadget name="MPESOFriends-Entry5-Status" type="button" alpha="0.0" textcentervert="" textcenterhoriz="" size1024="34 643 50 661" z="12">
+        </gadget>
+        <gadget name="MPESOFriends-Entry5-Name" type="button" statebuttondefaultstate="0" statebuttonuseinternalstates="" alpha="0.0" useeventcode="1" allowrightclick="1" align="left" textcentervert="" textcenterhoriz="" textfont="AgeText" textfontsize="12" textcolor="255 255 255" size1024="50 641 172 661" z="12">
+        </gadget>
+      </gadget>
+      <gadget name="MPESOFriends-Entry6" type="gadget" size1024="18 663 172 685" z="12">
+        <gadget name="MPESOFriends-Entry6-Game" type="button" alpha="0.0" textcentervert="" textcenterhoriz="" size1024="18 665 34 683" z="12">
+        </gadget>
+        <gadget name="MPESOFriends-Entry6-Status" type="button" alpha="0.0" textcentervert="" textcenterhoriz="" size1024="34 665 50 683" z="12">
+        </gadget>
+        <gadget name="MPESOFriends-Entry6-Name" type="button" statebuttondefaultstate="0" statebuttonuseinternalstates="" alpha="0.0" useeventcode="1" allowrightclick="1" align="left" textcentervert="" textcenterhoriz="" textfont="AgeText" textfontsize="12" textcolor="255 255 255" size1024="50 663 172 683" z="12">
+        </gadget>
+      </gadget>
+      <gadget name="MPESOFriends-Entry7" type="gadget" size1024="18 685 172 707" z="12">
+        <gadget name="MPESOFriends-Entry7-Game" type="button" alpha="0.0" textcentervert="" textcenterhoriz="" size1024="18 687 34 705" z="12">
+        </gadget>
+        <gadget name="MPESOFriends-Entry7-Status" type="button" alpha="0.0" textcentervert="" textcenterhoriz="" size1024="34 687 50 705" z="12">
+        </gadget>
+        <gadget name="MPESOFriends-Entry7-Name" type="button" statebuttondefaultstate="0" statebuttonuseinternalstates="" alpha="0.0" useeventcode="1" allowrightclick="1" align="left" textcentervert="" textcenterhoriz="" textfont="AgeText" textfontsize="12" textcolor="255 255 255" size1024="50 685 172 705" z="12">
+        </gadget>
+      </gadget>
+      <gadget name="MPESOFriends-Entry8" type="gadget" size1024="18 707 172 729" z="12">
+        <gadget name="MPESOFriends-Entry8-Game" type="button" alpha="0.0" textcentervert="" textcenterhoriz="" size1024="18 709 34 727" z="12">
+        </gadget>
+        <gadget name="MPESOFriends-Entry8-Status" type="button" alpha="0.0" textcentervert="" textcenterhoriz="" size1024="34 709 50 727" z="12">
+        </gadget>
+        <gadget name="MPESOFriends-Entry8-Name" type="button" statebuttondefaultstate="0" statebuttonuseinternalstates="" alpha="0.0" useeventcode="1" allowrightclick="1" align="left" textcentervert="" textcenterhoriz="" textfont="AgeText" textfontsize="12" textcolor="255 255 255" size1024="50 707 172 727" z="12">
+        </gadget>
+      </gadget>
+    </gadget>
+    <gadget name="MPESOFriends-Slider" type="slider" size1024="172 554 188 724" z="14" sliderbuttons="" slidervertical="" sliderupbtnset="sliderUpBtn" sliderdownbtnset="sliderDownBtn">
+    </gadget>
+    <gadget name="MPESOFriends-AddButton" type="stateButton" statebuttonuseinternalstates="" textfont="AgeText" textfontsize="12" textcolor="255 255 255" textcenterhoriz="" textcentervert="" size1024="11 736 102 757" z="14" texturecoords="0 0 0.828125 0.71875">$$18573$$Add<stateentry background="ui\ingame\button"></stateentry><stateentry background="ui\ingame\button_clicked"></stateentry><stateentry background="ui\ingame\button_rollover"></stateentry><stateentry background="ui\ingame\button_disabled"></stateentry></gadget>
+    <gadget name="MPESOFriends-RemoveButton" type="stateButton" statebuttonuseinternalstates="" textfont="AgeText" textfontsize="12" textcolor="255 255 255" textcenterhoriz="" size1024="107 736 198 757" z="14" texturecoords="0 0 0.828125 0.71875">$$20055$$Remove<stateentry background="ui\ingame\button"></stateentry><stateentry background="ui\ingame\button_clicked"></stateentry><stateentry background="ui\ingame\button_rollover"></stateentry><stateentry background="ui\ingame\button_disabled"></stateentry></gadget>
+  </gadget>
+  <gadget name="MPESOFriends-Menu" type="menu" windowzstyle="" buttonmask="ui\ingame\background_black" ignorecheckboxspacing="1" verticallayout="1" hidden="" bevel="1" textfont="Arial nobold nodrop" textfontsize="12" background="ui\file_system\file_system_background" tilebackground="">
+  </gadget>
+  <gadget tilebackgroundhoriz="" name="MPESOFriends-Dialog" type="dialog" size1024="343 196 692 389" z="12" background="ui\core_ui\wood_thick_board_tile" hidden="" windowzstyle="" closeonesc="" tilebackground="">
+    <gadget tilebackgroundhoriz="" name="MPESOFriends-Dialog-BordersTop" type="gadget" background="ui\file_system\border_top_middle" size1024="367 188 670 196" z="4" transparent="">
+    </gadget>
+    <gadget tilebackgroundhoriz="" name="MPESOFriends-Dialog-BordersBottom" type="gadget" background="ui\file_system\border_bottom_middle" size1024="367 382 670 390" z="4" transparent="">
+    </gadget>
+    <gadget name="MPESOFriends-Dialog-BordersLeft" type="gadget" background="ui\file_system\border_side_left" size1024="335 220 343 359" tilebackgroundvert="" transparent="">
+    </gadget>
+    <gadget name="MPESOFriends-Dialog-BordersRight" type="gadget" background="ui\file_system\border_side_right" size1024="691 220 699 359" tilebackgroundvert="" z="4" transparent="">
+    </gadget>
+    <gadget name="MPESOFriends-Dialog-BordersRightTop" type="gadget" background="ui\file_system\border_top_right" size1024="667 188 699 220" z="5" transparent="" clampbackground="">
+    </gadget>
+    <gadget name="MPESOFriends-Dialog-BordersLeftTop" type="gadget" background="ui\file_system\border_top_left" size1024="335 188 367 220" z="5" transparent="" clampbackground="">
+    </gadget>
+    <gadget name="MPESOFriends-Dialog-BordersRightBottom" type="gadget" background="ui\file_system\border_bottom_right" size1024="667 358 699 390" z="5" transparent="" clampbackground="">
+    </gadget>
+    <gadget name="MPESOFriends-Dialog-BordersLeftBottom" type="gadget" background="ui\file_system\border_bottom_left" size1024="335 358 367 390" z="10" transparent="" clampbackground="">
+    </gadget>
+    <gadget name="MPESOFriends-Dialog-Text" type="formatText" textcenterhoriz="" textcolor="255 200 3" textfont="IngameDialogs" textfontsize="16" size1024="363 220 668 292" transparent="" z="5">$$20054$$Type the user's online name in the field below and then hit the "Add" button to add them to your list:</gadget>
+    <gadget name="MPESOFriends-Dialog-Fields" type="gadget" size1024="354 309 679 343">
+      <gadget name="MPESOFriends-Dialog-Name-Left" type="gadget" size1024="355 310 387 342" background="ui\core_ui\text_bar_32_left">
+      </gadget>
+      <gadget name="MPESOFriends-Dialog-Name" type="gadget" size1024="387 310 646 342" background="ui\core_ui\text_bar_32_middle">
+      </gadget>
+      <gadget name="MPESOFriends-Dialog-Name-Right" type="gadget" size1024="646 310 678 342" background="ui\core_ui\text_bar_32_right">
+      </gadget>
+      <gadget name="MPESOFriends-Dialog-Name-Text" type="editBox" cursorcolor="3 0 208" editboxmaxchars="32" size1024="358 313 674 338" textfont="PregameEntry" textfontsize="15" textcolor="3 0 208" enterkey="" z="13">
+      </gadget>
+    </gadget>
+    <gadget name="MPESOFriends-Dialog-OKButton" type="stateButton" textfont="IngameButtons" textfontsize="18" textcolor="255 255 255" foreground="UI\button_Greek" bevelbutton="" statebuttonuseinternalstates="" size1024="382 348 510 380" texturecoords="0 0 1 1">$$18573$$Add<stateentry background="ui\core_ui\button_128x32_normal"></stateentry><stateentry background="ui\core_ui\button_128x32_clicked"></stateentry><stateentry background="ui\core_ui\button_128x32_rollover"></stateentry><stateentry background="ui\core_ui\button_128x32_disabled"></stateentry></gadget>
+    <gadget name="MPESOFriends-Dialog-CancelButton" type="stateButton" bevelbutton="" foreground="UI\button_Greek" textfont="IngameButtons" textfontsize="18" textcolor="255 255 255" statebuttonuseinternalstates="" size1024="524 348 652 380" texturecoords="0 0 1 1">$$18466$$Cancel<stateentry background="ui\core_ui\button_128x32_normal"></stateentry><stateentry background="ui\core_ui\button_128x32_clicked"></stateentry><stateentry background="ui\core_ui\button_128x32_rollover"></stateentry><stateentry background="ui\core_ui\button_128x32_disabled"></stateentry></gadget>
+    <gadget name="MPESOFriends-Dialog-TextBackground" type="gadget" size1024="354 213 679 299" z="4" background="ui\core_ui\metal_tile">
+      <gadget name="MPESOFriends-Dialog-TextBackground-BordersTop" type="gadget" background="ui\core_ui\metal_trim_top" size1024="383 209 651 217" z="5" transparent="">
+      </gadget>
+      <gadget name="MPESOFriends-Dialog-TextBackground-BordersBottom" type="gadget" background="ui\core_ui\metal_trim_bottom" size1024="382 295 650 303" z="5" transparent="">
+      </gadget>
+      <gadget name="MPESOFriends-Dialog-TextBackground-BordersLeft" type="gadget" background="ui\core_ui\metal_trim_left" size1024="351 241 359 271" tilebackgroundvert="" transparent="" z="5">
+      </gadget>
+      <gadget name="MPESOFriends-Dialog-TextBackground-BordersRight" type="gadget" background="ui\core_ui\metal_trim_right" size1024="675 241 682 271" tilebackgroundvert="" z="5" transparent="">
+      </gadget>
+      <gadget name="MPESOFriends-Dialog-TextBackground-BordersRightTop" type="gadget" background="ui\core_ui\metal_trim_corner_topright" size1024="650 209 682 241" z="7" transparent="" clampbackground="">
+      </gadget>
+      <gadget name="MPESOFriends-Dialog-TextBackground-BordersLeftTop" type="gadget" background="ui\core_ui\metal_trim_corner_topleft" size1024="351 209 383 241" z="7" transparent="" clampbackground="">
+      </gadget>
+      <gadget name="MPESOFriends-Dialog-TextBackground-BordersRightBottom" type="gadget" background="ui\core_ui\metal_trim_corner_bottomright" size1024="650 271 682 303" z="6" transparent="" clampbackground="">
+      </gadget>
+      <gadget name="MPESOFriends-Dialog-TextBackground-BordersLeftBottom" type="gadget" background="ui\core_ui\metal_trim_corner_bottomleft" size1024="351 271 383 303" z="6" transparent="" clampbackground="">
+      </gadget>
+    </gadget>
+  </gadget>
+</layout>

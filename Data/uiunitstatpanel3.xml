@@ -1,0 +1,61 @@
+<layout>
+  <gadget name="unitstatpanel3" type="unitstatpanel3" size1024="595 563 1024 732" background="" z="97">
+    <gadget name="unitstatpanel3-help" type="gadget" size1024="595 41 1024 563" z="5">
+      <gadget name="unitstatpanel3-helpBackground" type="gadget" size1024="607 41 1008 561" background="ui\ingame\background_brown_a" tilebackgroundvert="" tilebackground="">
+      </gadget>
+      <gadget name="unitstatpanel3-helpRightBorder" type="gadget" size1024="1008 41 1024 561" background="ui\ingame\ingame_ui_02x_ypack" tilebackgroundvert="" texturecoords="0.8125 0.892578125 0.837890625 1">
+      </gadget>
+      <gadget name="unitstatpanel3-helpLeftBorder" type="gadget" size1024="591 41 607 561" background="ui\ingame\ingame_ui_02x_ypack" tilebackgroundvert="" texturecoords="0 0.890625 0.03125 1">
+      </gadget>
+      <gadget name="unitstatpanel3-helpTopBorder" type="gadget" size1024="591 41 1024 49" background="ui\ingame\ingame_ui_02x_ypack" texturecoords="0 0.458984375 0.837890625 0.4765625">
+      </gadget>
+      <gadget name="unitstatpanel3-helpBottomBorder" type="gadget" size1024="591 553 1024 561" background="ui\ingame\ingame_ui_02x_ypack" texturecoords="0 0.533203125 0.837890625 0.55078125">
+      </gadget>
+      <gadget textfontsize="12" textfont="History" name="unitstatpanel3-helpText" border1024="5 2" type="formatText" textcolor="255 255 255" textwrapon="" textscrollbar="" textmarkup="" formattextconvertuserlf="" usehyperlinks="" size1024="607 49 1010 553" z="98">Something cool will go here<vertscrollbar sliderbuttons="" slidervertical="" sliderupbtnset="sliderUpBtn_18" sliderdownbtnset="sliderDownBtn_18" sliderpipart="ui\file_system\slider_pip_horizontal" sliderareaart="ui\file_system\slider_background_vertical_18" background="ui\file_system\slider_background" z="101"></vertscrollbar></gadget>
+    </gadget>
+    <gadget name="unitstatpanel3-back" type="gadget" size1024="595 562 1024 732" background="ui\ingame\ingame_ui_02x_ypack" z="99" texturecoords="0 0.552734375 0.837890625 0.884765625">
+      <gadget name="unitstatpanel3-maximize" type="button" size1024="990 572 1008 590" z="103" activateondown="" foreground="ui\ingame\ingame_ui_02x_ypack" texturecoords="0.892578125 0.806640625 0.935546875 0.849609375" mouseovertext="$$42182$$Click to show detailed help and history.">
+        <command>uiShowDetailedHelp()</command>
+      </gadget>
+      <gadget name="unitstatpanel3-minimize" type="button" size1024="990 572 1008 590" z="102" activateondown="" foreground="ui\ingame\ingame_ui_02x_ypack" texturecoords="0.84765625 0.806640625 0.890625 0.849609375" mouseovertext="$$42183$$Click to hide detailed help and history." hidden="">
+        <command>uiMinimizeStats()</command>
+      </gadget>
+      <gadget name="unitstatpanel3-StackLabel0" type="formatText" size1024="601 565 733 603" textmarkup="" formattextusedatareplace="" textwrapon="" textfont="StatUnitNameSmall" textfontsize="14" z="100">
+      </gadget>
+      <gadget name="unitstatpanel3-StackValue0" type="formatText" size1024="735 565 1009 603" textmarkup="" formattextusedatareplace="" textwrapon="" textfont="StatUnitNameSmall" textfontsize="14" z="100">
+      </gadget>
+      <gadget name="unitstatpanel3-StackLabel1" type="formatText" size1024="603 602 733 620" textmarkup="" formattextusedatareplace="" textcentervert="" textfont="StatText" textfontsize="12" z="100">
+      </gadget>
+      <gadget name="unitstatpanel3-StackValue1" type="formatText" size1024="736 602 1008 620" textmarkup="" formattextusedatareplace="" textcentervert="" textfont="StatText" textfontsize="12" z="100">
+      </gadget>
+      <gadget name="unitstatpanel3-StackLabel2" type="formatText" size1024="603 618 733 636" textmarkup="" formattextusedatareplace="" textcentervert="" textfont="StatText" textfontsize="12" z="30">
+      </gadget>
+      <gadget name="unitstatpanel3-StackValue2" type="formatText" size1024="736 618 1008 636" textmarkup="" formattextusedatareplace="" textcentervert="" textfont="StatText" textfontsize="12" z="35">
+      </gadget>
+      <gadget name="unitstatpanel3-StackLabel3" type="formatText" size1024="603 634 733 652" textmarkup="" formattextusedatareplace="" textcentervert="" textfont="StatText" textfontsize="12" z="30">
+      </gadget>
+      <gadget name="unitstatpanel3-StackValue3" type="formatText" size1024="736 634 1008 652" textmarkup="" formattextusedatareplace="" textcentervert="" textfont="StatText" textfontsize="12" z="35">
+      </gadget>
+      <gadget name="unitstatpanel3-StackLabel4" type="formatText" size1024="603 650 733 668" textmarkup="" formattextusedatareplace="" textcentervert="" textfont="StatText" textfontsize="12" z="30">
+      </gadget>
+      <gadget name="unitstatpanel3-StackValue4" type="formatText" size1024="736 650 1008 668" textmarkup="" formattextusedatareplace="" textcentervert="" textfont="StatText" textfontsize="12" z="35">
+      </gadget>
+      <gadget name="unitstatpanel3-StackLabel5" type="formatText" size1024="603 666 733 684" textmarkup="" formattextusedatareplace="" textcentervert="" textfont="StatText" textfontsize="12" z="30">
+      </gadget>
+      <gadget name="unitstatpanel3-StackValue5" type="formatText" size1024="736 666 1008 684" textmarkup="" formattextusedatareplace="" textcentervert="" textfont="StatText" textfontsize="12" z="35">
+      </gadget>
+      <gadget name="unitstatpanel3-StackLabel6" type="formatText" size1024="603 682 733 700" textmarkup="" formattextusedatareplace="" textcentervert="" textfont="StatText" textfontsize="12" z="30">
+      </gadget>
+      <gadget name="unitstatpanel3-StackValue6" type="formatText" size1024="736 682 1008 700" textmarkup="" formattextusedatareplace="" textcentervert="" textfont="StatText" textfontsize="12" z="35">
+      </gadget>
+      <gadget name="unitstatpanel3-StackLabel7" type="formatText" size1024="603 698 733 716" textmarkup="" formattextusedatareplace="" textcentervert="" textfont="StatText" textfontsize="12" z="30">
+      </gadget>
+      <gadget name="unitstatpanel3-StackValue7" type="formatText" size1024="736 698 1008 716" textmarkup="" formattextusedatareplace="" textcentervert="" textfont="StatText" textfontsize="12" z="35">
+      </gadget>
+      <gadget name="unitstatpanel3-StackLabel8" type="formatText" size1024="603 714 733 732" textmarkup="" formattextusedatareplace="" textcentervert="" textfont="StatText" textfontsize="12" z="30">
+      </gadget>
+      <gadget name="unitstatpanel3-StackValue8" type="formatText" size1024="736 714 1008 732" textmarkup="" formattextusedatareplace="" textcentervert="" textfont="StatText" textfontsize="12" z="35">
+      </gadget>
+    </gadget>
+  </gadget>
+</layout>

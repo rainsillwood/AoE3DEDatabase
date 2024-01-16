@@ -1,0 +1,28 @@
+<layout>
+  <gadget name="lowdetail-background" type="gadget" z="1" size1024="0 0 1024 768" hidden="">
+    <gadget name="lowdetail-background-BG1" type="gadget" size1024="0 0 256 256" clampbackground="" background="ui\singleplayer\background_1">
+    </gadget>
+    <gadget name="lowdetail-background-BG2" background="ui\singleplayer\background_2" type="gadget" size1024="256 0 512 256" clampbackground="">
+    </gadget>
+    <gadget name="lowdetail-background-BG3" background="ui\singleplayer\background_3" type="gadget" size1024="512 0 768 256" clampbackground="">
+    </gadget>
+    <gadget name="lowdetail-background-BG4" background="ui\singleplayer\background_4" type="gadget" size1024="768 0 1024 256" clampbackground="">
+    </gadget>
+    <gadget name="lowdetail-background-BG5" background="ui\singleplayer\background_5" type="gadget" size1024="0 256 256 512" clampbackground="">
+    </gadget>
+    <gadget name="lowdetail-background-BG6" background="ui\singleplayer\background_6" type="gadget" size1024="256 256 512 512" clampbackground="">
+    </gadget>
+    <gadget name="lowdetail-background-BG7" background="ui\singleplayer\background_7" type="gadget" size1024="512 256 768 512" clampbackground="">
+    </gadget>
+    <gadget name="lowdetail-background-BG8" background="ui\singleplayer\background_8" type="gadget" size1024="768 256 1024 512" clampbackground="">
+    </gadget>
+    <gadget name="lowdetail-background-BG9" background="ui\singleplayer\background_9" type="gadget" size1024="0 512 256 768" clampbackground="">
+    </gadget>
+    <gadget name="lowdetail-background-BG10" background="ui\singleplayer\background_10" type="gadget" size1024="256 512 512 768" clampbackground="">
+    </gadget>
+    <gadget name="lowdetail-background-BG11" background="ui\singleplayer\background_11" type="gadget" size1024="512 512 768 768" clampbackground="">
+    </gadget>
+    <gadget name="lowdetail-background-BG12" background="ui\singleplayer\background_12" type="gadget" size1024="768 512 1024 768" clampbackground="">
+    </gadget>
+  </gadget>
+</layout>

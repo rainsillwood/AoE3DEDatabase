@@ -1,0 +1,18 @@
+<placementrules>
+  <obstructionatleastfromtype player="any" foundation="any" distance="8" errorstringid="72586">Building</obstructionatleastfromtype>
+  <obstructionatleastfromtype player="any" foundation="any" distance="8" errorstringid="72586">AbstractMine</obstructionatleastfromtype>
+  <obstructionatleastfromtype player="any" foundation="any" distance="8" errorstringid="34686">Mill</obstructionatleastfromtype>
+  <obstructionatleastfromtype player="any" foundation="any" distance="8" errorstringid="34686">Plantation</obstructionatleastfromtype>
+  <obstructionatleastfromtype player="any" foundation="any" distance="8" errorstringid="46694">CommunityPlaza</obstructionatleastfromtype>
+  <obstructionatleastfromtype player="any" foundation="any" distance="8" errorstringid="34686">Farm</obstructionatleastfromtype>
+  <obstructionatleastfromtype player="any" foundation="any" distance="8" errorstringid="34686">ypBerryBuilding</obstructionatleastfromtype>
+  <obstructionatleastfromtype player="any" foundation="any" distance="8" errorstringid="34686">ypRicePaddy</obstructionatleastfromtype>
+  <obstructionatleastfromtype player="any" foundation="any" distance="11" errorstringid="34686">deHacienda</obstructionatleastfromtype>
+  <distanceatleastfromtype player="any" foundation="any" distance="20" errorstringid="69985">ypKingsHill</distanceatleastfromtype>
+  <distanceatleastfromtype player="any" foundation="any" distance="8" errorstringid="72559">deFurTrade</distanceatleastfromtype>
+  <distanceatleastfromcliff distance="6" errorstringid="25529">
+  </distanceatleastfromcliff>
+  <distanceatleastfromtype player="enemy" foundation="any" distance="10" errorstringid="101167">deMountainMonastery</distanceatleastfromtype>
+  <distanceatmostfromtype player="any" foundation="any" distance="8" errorstringid="72549">AbstractMine</distanceatmostfromtype>
+  <distanceatleastfromtype player="enemy" foundation="any" distance="30" errorstringid="25521">FirstTC</distanceatleastfromtype>
+</placementrules>

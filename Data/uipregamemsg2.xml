@@ -1,0 +1,43 @@
+<layout>
+  <gadget name="pregame-messagedialog2" type="gadget" backgroundcolor="0 0 0" hidden="" windowzstyle="" backgroundalpha="0.5" size1024="0 0 1024 768" z="90">
+    <gadget type="gadget" name="pregame-messagedialog2-panel" size1024="343 196 691 411" bevel="" background="ui\core_ui\wood_thick_board_tile" tilebackground="" texturereplace="" z="99" oulinecolor="255 208 0">
+      <gadget name="pregame-messagedialog2-BordersTop" type="gadget" background="ui\file_system\border_top_middle" size1024="366 188 667 196" z="4" tilebackgroundhoriz="" transparent="">
+      </gadget>
+      <gadget name="pregame-messagedialog2-BordersBottom" type="gadget" background="ui\file_system\border_bottom_middle" size1024="366 411 667 419" z="4" tilebackgroundhoriz="" transparent="">
+      </gadget>
+      <gadget name="pregame-messagedialog2-BordersLeft" type="gadget" background="ui\file_system\border_side_left" size1024="335 220 343 387" tilebackgroundvert="" transparent="">
+      </gadget>
+      <gadget name="pregame-messagedialog2-BordersRight" type="gadget" background="ui\file_system\border_side_right" size1024="691 220 699 387" tilebackgroundvert="" z="4" transparent="">
+      </gadget>
+      <gadget name="pregame-messagedialog2-BordersRightTop" type="gadget" background="ui\file_system\border_top_right" size1024="667 188 699 220" z="5" transparent="" clampbackground="">
+      </gadget>
+      <gadget name="pregame-messagedialog2-BordersLeftTop" type="gadget" background="ui\file_system\border_top_left" size1024="335 188 367 220" z="5" transparent="" clampbackground="">
+      </gadget>
+      <gadget name="pregame-messagedialog2-BordersRightBottom" type="gadget" background="ui\file_system\border_bottom_right" size1024="667 387 699 419" z="5" transparent="" clampbackground="">
+      </gadget>
+      <gadget name="pregame-messagedialog2-BordersLeftBottom" type="gadget" background="ui\file_system\border_bottom_left" size1024="335 387 367 419" z="10" transparent="" clampbackground="">
+      </gadget>
+      <gadget name="pregame-messagedialog2-prompt" type="formatText" textcenterhoriz="" texttruecentervert="" textcolor="255 255 255" textfont="PregameEntry" textfontsize="15" size1024="356 245 677 324">Message Text Goes Here</gadget>
+      <gadget name="pregame-messagedialog2-OKButton" type="stateButton" textfont="PregameButtons" textfontsize="18" textcolor="255 255 255" bevelbutton="" statebuttonuseinternalstates="" size1024="375 366 503 398">$$18465$$OK<stateentry background="ui\core_ui\button_med_normal"></stateentry><stateentry background="ui\core_ui\button_med_clicked"></stateentry><stateentry background="ui\core_ui\button_med_high"></stateentry><stateentry background="ui\core_ui\button_med_disable"></stateentry></gadget>
+      <gadget name="pregame-messagedialog2-CancelButton" type="stateButton" bevelbutton="" textfont="PregameButtons" textfontsize="18" textcolor="255 255 255" statebuttonuseinternalstates="" size1024="531 366 659 398">$$18466$$Cancel<command>gadgetUnreal("pregame-messagedialog2")</command><stateentry background="ui\core_ui\button_med_normal"></stateentry><stateentry background="ui\core_ui\button_med_clicked"></stateentry><stateentry background="ui\core_ui\button_med_high"></stateentry><stateentry background="ui\core_ui\button_med_disable"></stateentry></gadget>
+      <gadget name="pregame-messagedialog2-TextBackground" type="gadget" size1024="356 220 679 348" z="4" background="ui\core_ui\metal_tile">
+        <gadget name="pregame-messagedialog2-TextBackground-BordersTop" type="gadget" background="ui\core_ui\metal_trim_top" size1024="383 216 651 224" z="5" transparent="">
+        </gadget>
+        <gadget name="pregame-messagedialog2-TextBackground-BordersBottom" type="gadget" background="ui\core_ui\metal_trim_bottom" size1024="383 344 651 352" z="5" transparent="">
+        </gadget>
+        <gadget name="pregame-messagedialog2-TextBackground-BordersLeft" type="gadget" background="ui\core_ui\metal_trim_left" size1024="351 248 359 321" tilebackgroundvert="" transparent="" z="5">
+        </gadget>
+        <gadget name="pregame-messagedialog2-TextBackground-BordersRight" type="gadget" background="ui\core_ui\metal_trim_right" size1024="675 248 683 321" tilebackgroundvert="" z="5" transparent="">
+        </gadget>
+        <gadget name="pregame-messagedialog2-TextBackground-BordersRightTop" type="gadget" background="ui\core_ui\metal_trim_corner_topright" size1024="651 216 683 248" z="6" transparent="" clampbackground="">
+        </gadget>
+        <gadget name="pregame-messagedialog2-TextBackground-BordersLeftTop" type="gadget" background="ui\core_ui\metal_trim_corner_topleft" size1024="351 216 383 248" z="6" transparent="" clampbackground="">
+        </gadget>
+        <gadget name="pregame-messagedialog2-TextBackground-BordersRightBottom" type="gadget" background="ui\core_ui\metal_trim_corner_bottomright" size1024="651 320 683 352" z="6" transparent="" clampbackground="">
+        </gadget>
+        <gadget name="pregame-messagedialog2-TextBackground-BordersLeftBottom" type="gadget" background="ui\core_ui\metal_trim_corner_bottomleft" size1024="351 320 383 352" z="6" transparent="" clampbackground="">
+        </gadget>
+      </gadget>
+    </gadget>
+  </gadget>
+</layout>

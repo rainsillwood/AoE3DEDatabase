@@ -1,0 +1,8 @@
+<layout>
+  <gadget name="HerdEditor" type="gadget" size1024="50 50 350 320" background="ui\editor\editor_background" bevel="" titlebar="$$33175$$Herd Editor" closebutton="" windowzstyle="" moveable="">
+    <gadget name="AE-HerdList" type="list" background="ui\editor\editor_background" sunkenbevel="" showselect="" selectedcolor="255 255 255" buttonsize1024="125 15" scrollvert="" alphasort="" titlebar="$$33176$$Current Herds" locktitlebarmove="" size1024="60 82 200 302">
+    </gadget>
+    <gadget name="AE-CreateHerd" type="button" bevel="" textfont="Arial nobold nodrop" textfontsize="12" tooltiptext="$$33177$$Create a herd with all the selected units." size1024="210 82 340 102">$$33179$$Create Herd</gadget>
+    <gadget name="AE-DeleteHerd" type="button" bevel="" textfont="Arial nobold nodrop" textfontsize="12" tooltiptext="$$33178$$Delete the selected herd." size1024="210 107 340 127">$$33180$$Delete Herd</gadget>
+  </gadget>
+</layout>

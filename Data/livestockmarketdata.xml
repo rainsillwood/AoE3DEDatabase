@@ -1,0 +1,19 @@
+<livestockmarketdata>
+  <initialexchangerate>
+    <wood>87.5</wood>
+    <gold>37.5</gold>
+  </initialexchangerate>
+  <recoveryrate>
+    <wood>0.1</wood>
+    <gold>0.1</gold>
+  </recoveryrate>
+  <salepenaltyrate>
+    <wood>20</wood>
+    <gold>20</gold>
+  </salepenaltyrate>
+  <recoveryreqmarket>0</recoveryreqmarket>
+  <exchangeratefloor>20</exchangeratefloor>
+  <exchangerateceiling>119</exchangerateceiling>
+  <maximumexchangerate>100</maximumexchangerate>
+  <mincapacitykeepunit>-1</mincapacitykeepunit>
+</livestockmarketdata>

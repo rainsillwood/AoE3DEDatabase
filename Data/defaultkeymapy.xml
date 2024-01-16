@@ -1,0 +1,668 @@
+<defaultkeymapy>
+  <keymapgroup name="Game World Hotkeys" displayname="$$43411$$Game World Hotkeys">
+    <keymapdata>
+      <name>Move Camera Left</name>
+      <displayname>$$43412$$Move Camera Left</displayname>
+      <event>arrowleft</event>
+      <context>world</context>
+      <edgetriggered>1</edgetriggered>
+      <command>cameraLeft</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Move Camera Right</name>
+      <displayname>$$43413$$Move Camera Right</displayname>
+      <event>arrowright</event>
+      <context>world</context>
+      <edgetriggered>1</edgetriggered>
+      <command>cameraRight</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Move Camera Forward</name>
+      <displayname>$$43414$$Move Camera Forward</displayname>
+      <event>arrowup</event>
+      <context>world</context>
+      <edgetriggered>1</edgetriggered>
+      <command>cameraWorldForward</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Move Camera Backward</name>
+      <displayname>$$43415$$Move Camera Backward</displayname>
+      <event>arrowdown</event>
+      <context>world</context>
+      <edgetriggered>1</edgetriggered>
+      <command>cameraWorldBackward</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Move Camera Forward Left</name>
+      <displayname>$$43416$$Move Camera Forward Left</displayname>
+      <event>numpad7</event>
+      <context>world</context>
+      <edgetriggered>1</edgetriggered>
+      <command>cameraWorldForwardLeft</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Move Camera Forward Right</name>
+      <displayname>$$43417$$Move Camera Forward Right</displayname>
+      <event>numpad9</event>
+      <context>world</context>
+      <edgetriggered>1</edgetriggered>
+      <command>cameraWorldForwardRight</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Move Camera Backward Left</name>
+      <displayname>$$43418$$Move Camera Backward Left</displayname>
+      <event>numpad1</event>
+      <context>world</context>
+      <edgetriggered>1</edgetriggered>
+      <command>cameraWorldBackwardLeft</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Move Camera Backward Right</name>
+      <displayname>$$43419$$Move Camera Backward Right</displayname>
+      <event>numpad3</event>
+      <context>world</context>
+      <edgetriggered>1</edgetriggered>
+      <command>cameraWorldBackwardRight</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Camera Zoom In</name>
+      <displayname>$$43420$$Camera Zoom In</displayname>
+      <event>numpadplus</event>
+      <context>world</context>
+      <edgetriggered>1</edgetriggered>
+      <command>handleCameraForward</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Camera Zoom Out</name>
+      <displayname>$$43421$$Camera Zoom Out</displayname>
+      <event>numpadminus</event>
+      <context>world</context>
+      <edgetriggered>1</edgetriggered>
+      <command>handleCameraBackward</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Camera Rotate Left</name>
+      <displayname>$$43423$$Camera Rotate Left</displayname>
+      <event>control-arrowleft</event>
+      <context>world</context>
+      <edgetriggered>1</edgetriggered>
+      <command>cameraYawLeft</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Camera Rotate Right</name>
+      <displayname>$$43424$$Camera Rotate Right</displayname>
+      <event>control-arrowright</event>
+      <context>world</context>
+      <edgetriggered>1</edgetriggered>
+      <command>cameraYawRight</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Camera Reset Rotation</name>
+      <displayname>$$212014$$Camera Reset Rotation</displayname>
+      <event>control-mouse3down</event>
+      <context>world</context>
+      <command>uiResetInGameCameraRotation</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Chat Scroll Backward</name>
+      <displayname>$$43426$$Chat Scroll Backward</displayname>
+      <event>pageup</event>
+      <context>world</context>
+      <edgetriggered>1</edgetriggered>
+      <command>uiChatScrollBack</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Chat Scroll Forward</name>
+      <displayname>$$43427$$Chat Scroll Forward</displayname>
+      <event>pagedown</event>
+      <context>world</context>
+      <edgetriggered>1</edgetriggered>
+      <command>uiChatScrollForward</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Clear Chats</name>
+      <displayname>$$43428$$Clear Chats</displayname>
+      <event>end</event>
+      <context>world</context>
+      <command>uiClearChat</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Screenshot</name>
+      <displayname>$$43431$$Screenshot</displayname>
+      <event>f12</event>
+      <context>world</context>
+      <command>screenshot</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Pause Gameplay</name>
+      <displayname>$$43430$$Pause/Unpause Gameplay</displayname>
+      <event>f7</event>
+      <context>world</context>
+      <command>pause</command>
+    </keymapdata>
+  </keymapgroup>
+  <keymapgroup name="Selection Group Hotkeys" displayname="$$43366$$Selection Group Hotkeys">
+    <keymapdata>
+      <name>Select Group 1</name>
+      <displayname>$$20524$$1</displayname>
+      <displayformat>$$43372$$Select Group %s</displayformat>
+      <event>1</event>
+      <context>game</context>
+      <command>uiSelectNumberGroup(1)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Select Group 2</name>
+      <displayname>$$20525$$2</displayname>
+      <displayformat>$$43372$$Select Group %s</displayformat>
+      <event>2</event>
+      <context>game</context>
+      <command>uiSelectNumberGroup(2)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Select Group 3</name>
+      <displayname>$$20526$$3</displayname>
+      <displayformat>$$43372$$Select Group %s</displayformat>
+      <event>3</event>
+      <context>game</context>
+      <command>uiSelectNumberGroup(3)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Select Group 4</name>
+      <displayname>$$20527$$4</displayname>
+      <displayformat>$$43372$$Select Group %s</displayformat>
+      <event>4</event>
+      <context>game</context>
+      <command>uiSelectNumberGroup(4)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Select Group 5</name>
+      <displayname>$$20528$$5</displayname>
+      <displayformat>$$43372$$Select Group %s</displayformat>
+      <event>5</event>
+      <context>game</context>
+      <command>uiSelectNumberGroup(5)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Select Group 6</name>
+      <displayname>$$20529$$6</displayname>
+      <displayformat>$$43372$$Select Group %s</displayformat>
+      <event>6</event>
+      <context>game</context>
+      <command>uiSelectNumberGroup(6)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Select Group 7</name>
+      <displayname>$$20530$$7</displayname>
+      <displayformat>$$43372$$Select Group %s</displayformat>
+      <event>7</event>
+      <context>game</context>
+      <command>uiSelectNumberGroup(7)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Select Group 8</name>
+      <displayname>$$20531$$8</displayname>
+      <displayformat>$$43372$$Select Group %s</displayformat>
+      <event>8</event>
+      <context>game</context>
+      <command>uiSelectNumberGroup(8)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Select Group 9</name>
+      <displayname>$$20532$$9</displayname>
+      <displayformat>$$43372$$Select Group %s</displayformat>
+      <event>9</event>
+      <context>game</context>
+      <command>uiSelectNumberGroup(9)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Add to Group 1</name>
+      <displayname>$$20524$$1</displayname>
+      <displayformat>$$43373$$Add to Group %s</displayformat>
+      <event>shift-1</event>
+      <context>game</context>
+      <command>uiAddSelectNumberGroup(1)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Add to Group 2</name>
+      <displayname>$$20525$$2</displayname>
+      <displayformat>$$43373$$Add to Group %s</displayformat>
+      <event>shift-2</event>
+      <context>game</context>
+      <command>uiAddSelectNumberGroup(2)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Add to Group 3</name>
+      <displayname>$$20526$$3</displayname>
+      <displayformat>$$43373$$Add to Group %s</displayformat>
+      <event>shift-3</event>
+      <context>game</context>
+      <command>uiAddSelectNumberGroup(3)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Add to Group 4</name>
+      <displayname>$$20527$$4</displayname>
+      <displayformat>$$43373$$Add to Group %s</displayformat>
+      <event>shift-4</event>
+      <context>game</context>
+      <command>uiAddSelectNumberGroup(4)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Add to Group 5</name>
+      <displayname>$$20528$$5</displayname>
+      <displayformat>$$43373$$Add to Group %s</displayformat>
+      <event>shift-5</event>
+      <context>game</context>
+      <command>uiAddSelectNumberGroup(5)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Add to Group 6</name>
+      <displayname>$$20529$$6</displayname>
+      <displayformat>$$43373$$Add to Group %s</displayformat>
+      <event>shift-6</event>
+      <context>game</context>
+      <command>uiAddSelectNumberGroup(6)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Add to Group 7</name>
+      <displayname>$$20530$$7</displayname>
+      <displayformat>$$43373$$Add to Group %s</displayformat>
+      <event>shift-7</event>
+      <context>game</context>
+      <command>uiAddSelectNumberGroup(7)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Add to  Group 8</name>
+      <displayname>$$20531$$8</displayname>
+      <displayformat>$$43373$$Add to Group %s</displayformat>
+      <event>shift-8</event>
+      <context>game</context>
+      <command>uiAddSelectNumberGroup(8)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Add to Group 9</name>
+      <displayname>$$20532$$9</displayname>
+      <displayformat>$$43373$$Add to Group %s</displayformat>
+      <event>shift-9</event>
+      <context>game</context>
+      <command>uiAddSelectNumberGroup(9)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Create Group 1</name>
+      <displayname>$$20524$$1</displayname>
+      <displayformat>$$43374$$Create Group %s</displayformat>
+      <event>control-1</event>
+      <context>game</context>
+      <command>uiCreateNumberGroup(1)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Create Group 2</name>
+      <displayname>$$20525$$2</displayname>
+      <displayformat>$$43374$$Create Group %s</displayformat>
+      <event>control-2</event>
+      <context>game</context>
+      <command>uiCreateNumberGroup(2)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Create Group 3</name>
+      <displayname>$$20526$$3</displayname>
+      <displayformat>$$43374$$Create Group %s</displayformat>
+      <event>control-3</event>
+      <context>game</context>
+      <command>uiCreateNumberGroup(3)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Create Group 4</name>
+      <displayname>$$20527$$4</displayname>
+      <displayformat>$$43374$$Create Group %s</displayformat>
+      <event>control-4</event>
+      <context>game</context>
+      <command>uiCreateNumberGroup(4)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Create Group 5</name>
+      <displayname>$$20528$$5</displayname>
+      <displayformat>$$43374$$Create Group %s</displayformat>
+      <event>control-5</event>
+      <context>game</context>
+      <command>uiCreateNumberGroup(5)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Create Group 6</name>
+      <displayname>$$20529$$6</displayname>
+      <displayformat>$$43374$$Create Group %s</displayformat>
+      <event>control-6</event>
+      <context>game</context>
+      <command>uiCreateNumberGroup(6)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Create Group 7</name>
+      <displayname>$$20530$$7</displayname>
+      <displayformat>$$43374$$Create Group %s</displayformat>
+      <event>control-7</event>
+      <context>game</context>
+      <command>uiCreateNumberGroup(7)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Create Group 8</name>
+      <displayname>$$20531$$8</displayname>
+      <displayformat>$$43374$$Create Group %s</displayformat>
+      <event>control-8</event>
+      <context>game</context>
+      <command>uiCreateNumberGroup(8)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Create Group 9</name>
+      <displayname>$$20532$$9</displayname>
+      <displayformat>$$43374$$Create Group %s</displayformat>
+      <event>control-9</event>
+      <context>game</context>
+      <command>uiCreateNumberGroup(9)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Remove From Any Group</name>
+      <displayname>$$43349$$Remove From Any Group</displayname>
+      <event>control-0</event>
+      <context>game</context>
+      <command>uiRemoveFromAnyNumberGroup</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Look At Group 1</name>
+      <displayname>$$20524$$1</displayname>
+      <displayformat>$$43375$$Look At Group %s</displayformat>
+      <event>alt-1</event>
+      <context>game</context>
+      <command>uiSelectNumberGroup(1) uiLookAtNumberGroup(1)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Look At Group 2</name>
+      <displayname>$$20525$$2</displayname>
+      <displayformat>$$43375$$Look At Group %s</displayformat>
+      <event>alt-2</event>
+      <context>game</context>
+      <command>uiSelectNumberGroup(2) uiLookAtNumberGroup(2)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Look At Group 3</name>
+      <displayname>$$20526$$3</displayname>
+      <displayformat>$$43375$$Look At Group %s</displayformat>
+      <event>alt-3</event>
+      <context>game</context>
+      <command>uiSelectNumberGroup(3) uiLookAtNumberGroup(3)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Look At Group 4</name>
+      <displayname>$$20527$$4</displayname>
+      <displayformat>$$43375$$Look At Group %s</displayformat>
+      <event>alt-4</event>
+      <context>game</context>
+      <command>uiSelectNumberGroup(4) uiLookAtNumberGroup(4)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Look At Group 5</name>
+      <displayname>$$20528$$5</displayname>
+      <displayformat>$$43375$$Look At Group %s</displayformat>
+      <event>alt-5</event>
+      <context>game</context>
+      <command>uiSelectNumberGroup(5) uiLookAtNumberGroup(5)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Look At Group 6</name>
+      <displayname>$$20529$$6</displayname>
+      <displayformat>$$43375$$Look At Group %s</displayformat>
+      <event>alt-6</event>
+      <context>game</context>
+      <command>uiSelectNumberGroup(6) uiLookAtNumberGroup(6)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Look At Group 7</name>
+      <displayname>$$20530$$7</displayname>
+      <displayformat>$$43375$$Look At Group %s</displayformat>
+      <event>alt-7</event>
+      <context>game</context>
+      <command>uiSelectNumberGroup(7) uiLookAtNumberGroup(7)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Look At Group 8</name>
+      <displayname>$$20531$$8</displayname>
+      <displayformat>$$43375$$Look At Group %s</displayformat>
+      <event>alt-8</event>
+      <context>game</context>
+      <command>uiSelectNumberGroup(8) uiLookAtNumberGroup(8)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Look At Group 9</name>
+      <displayname>$$20532$$9</displayname>
+      <displayformat>$$43375$$Look At Group %s</displayformat>
+      <event>alt-9</event>
+      <context>game</context>
+      <command>uiSelectNumberGroup(9) uiLookAtNumberGroup(9)</command>
+    </keymapdata>
+  </keymapgroup>
+  <keymapgroup name="Command Hotkeys" displayname="$$66106$$Command Hotkeys">
+    <keymapdata>
+      <name>Stop</name>
+      <displayname>$$66107$$Stop</displayname>
+      <event>shift-control-s</event>
+      <context>game</context>
+      <command>doCommandInSelected("Stop")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Repair</name>
+      <displayname>$$66108$$Toggle Auto Repair</displayname>
+      <event>shift-control-r</event>
+      <context>game</context>
+      <command>doCommandInSelected("AutoRepairUnit")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Eject Units</name>
+      <displayname>$$66109$$Eject Units</displayname>
+      <event>shift-control-e</event>
+      <context>game</context>
+      <command>doCommandInSelected("Eject")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Garrison Unit</name>
+      <displayname>$$112226$$Garrison Unit</displayname>
+      <event>shift-control-g</event>
+      <context>game</context>
+      <command>doCommandInSelected("Garrison")</command>
+    </keymapdata>
+  </keymapgroup>
+  <keymapgroup name="Photo Mode" displayname="$$220001$$Photo Mode">
+    <keymapdata>
+      <name>Photo Mode</name>
+      <displayname>$$220001$$Photo Mode</displayname>
+      <event>control-F7</event>
+      <context>game</context>
+      <command>openPhotoScreen</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Move Camera Left</name>
+      <displayname>$$43412$$Move Camera Left</displayname>
+      <event>a</event>
+      <context>Photo</context>
+      <edgetriggered>1</edgetriggered>
+      <command>cameraLeft</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Move Camera Right</name>
+      <displayname>$$43413$$Move Camera Right</displayname>
+      <event>d</event>
+      <context>Photo</context>
+      <edgetriggered>1</edgetriggered>
+      <command>cameraRight</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Move Camera Forward</name>
+      <displayname>$$43414$$Move Camera Forward</displayname>
+      <event>w</event>
+      <context>Photo</context>
+      <edgetriggered>1</edgetriggered>
+      <command>cameraWorldForward</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Move Camera Backward</name>
+      <displayname>$$43415$$Move Camera Backward</displayname>
+      <event>s</event>
+      <context>Photo</context>
+      <edgetriggered>1</edgetriggered>
+      <command>cameraWorldBackward</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Camera Zoom In</name>
+      <displayname>$$43420$$Camera Zoom In</displayname>
+      <event>numpadplus</event>
+      <context>Photo</context>
+      <edgetriggered>1</edgetriggered>
+      <command>handleCameraForward</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Camera Zoom Out</name>
+      <displayname>$$43421$$Camera Zoom Out</displayname>
+      <event>numpadminus</event>
+      <context>Photo</context>
+      <edgetriggered>1</edgetriggered>
+      <command>handleCameraBackward</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Move Camera Up</name>
+      <displayname>$$220030$$Move Camera Up</displayname>
+      <event>q</event>
+      <context>Photo</context>
+      <edgetriggered>1</edgetriggered>
+      <command>cameraUp</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Move Camera Down</name>
+      <displayname>$$220031$$Move Camera Down</displayname>
+      <event>e</event>
+      <context>Photo</context>
+      <edgetriggered>1</edgetriggered>
+      <command>cameraDown</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Reset Camera Start Location</name>
+      <displayname>$$32670$$Reset Camera Start Location</displayname>
+      <event>r</event>
+      <context>Photo</context>
+      <command>resetCameraPhotoScreen</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Toggle UI On/Off</name>
+      <displayname>$$220010$$Toggle UI On/Off</displayname>
+      <event>t</event>
+      <context>Photo</context>
+      <command>toggleUIPhotoScreen</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Toggle Fog of War</name>
+      <displayname>$$79814$$Toggle Fog of War</displayname>
+      <event>f</event>
+      <context>Photo</context>
+      <command>ToggleFogOfWarCheckBox</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Toggle Blackmap</name>
+      <displayname>$$79815$$Toggle Blackmap</displayname>
+      <event>g</event>
+      <context>Photo</context>
+      <command>ToggleBlackMapCheckBox</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Camera Rotate Left</name>
+      <displayname>$$43423$$Camera Rotate Left</displayname>
+      <event>alt-d</event>
+      <context>Photo</context>
+      <edgetriggered>1</edgetriggered>
+      <command>cameraYawLeft</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Camera Rotate Right</name>
+      <displayname>$$43424$$Camera Rotate Right</displayname>
+      <event>alt-a</event>
+      <context>Photo</context>
+      <edgetriggered>1</edgetriggered>
+      <command>cameraYawRight</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Camera Rotate Up</name>
+      <displayname>$$220032$$Camera Rotate Up</displayname>
+      <event>alt-w</event>
+      <context>Photo</context>
+      <edgetriggered>1</edgetriggered>
+      <command>cameraPitchForward</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Camera Rotate Down</name>
+      <displayname>$$220033$$Camera Rotate Down</displayname>
+      <event>alt-s</event>
+      <context>Photo</context>
+      <edgetriggered>1</edgetriggered>
+      <command>cameraPitchBackward</command>
+    </keymapdata>
+  </keymapgroup>
+  <keymapgroup name="Tycoon Package Hotkeys" displayname="$$79982$$Tycoon Package Hotkeys">
+    <keymapdata>
+      <name>Expand Tycoon Menu</name>
+      <displayname>$$55693$$Expand Tycoon Menu</displayname>
+      <context>game</context>
+      <command>uiToggleEcoPackagePanel()</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Tycoon Package 1</name>
+      <displayname>$$79983$$Tycoon Package 1</displayname>
+      <event>q</event>
+      <context>TycoonPackage</context>
+      <command>uiEcoTradeHotkey(1)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Multiple Tycoon Package 1</name>
+      <displayname>$$79987$$Multiple Tycoon Package 1</displayname>
+      <event>shift-q</event>
+      <context>TycoonPackage</context>
+      <command>uiEcoTradeMultipleHotkey(1)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Tycoon Package 2</name>
+      <displayname>$$79984$$Tycoon Package 2</displayname>
+      <event>w</event>
+      <context>TycoonPackage</context>
+      <command>uiEcoTradeHotkey(2)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Multiple Tycoon Package 2</name>
+      <displayname>$$79988$$Multiple Tycoon Package 2</displayname>
+      <event>shift-w</event>
+      <context>TycoonPackage</context>
+      <command>uiEcoTradeMultipleHotkey(2)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Tycoon Package 3</name>
+      <displayname>$$79985$$Tycoon Package 3</displayname>
+      <event>e</event>
+      <context>TycoonPackage</context>
+      <command>uiEcoTradeHotkey(3)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Multiple Tycoon Package 3</name>
+      <displayname>$$79989$$Multiple Tycoon Package 3</displayname>
+      <event>shift-e</event>
+      <context>TycoonPackage</context>
+      <command>uiEcoTradeMultipleHotkey(3)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Tycoon Package 4</name>
+      <displayname>$$79986$$Tycoon Package 4</displayname>
+      <event>r</event>
+      <context>TycoonPackage</context>
+      <command>uiEcoTradeHotkey(4)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Multiple Tycoon Package 4</name>
+      <displayname>$$79990$$Multiple Tycoon Package 4</displayname>
+      <event>shift-r</event>
+      <context>TycoonPackage</context>
+      <command>uiEcoTradeMultipleHotkey(4)</command>
+    </keymapdata>
+  </keymapgroup>
+</defaultkeymapy>
