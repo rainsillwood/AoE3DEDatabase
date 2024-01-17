@@ -1,0 +1,61 @@
+<tactics>
+  <action>
+    <name stringid="38133">RangedAttack</name>
+    <type>Attack</type>
+    <attackaction>1</attackaction>
+    <rangedlogic>1</rangedlogic>
+    <anim>RangedAttack</anim>
+    <reloadanim>Idle</reloadanim>
+    <accuracy>1.0</accuracy>
+    <accuracyreductionfactor>0.5</accuracyreductionfactor>
+    <aimbonus>0</aimbonus>
+    <maxspread>5</maxspread>
+    <spreadfactor>0.25</spreadfactor>
+    <trackrating>12</trackrating>
+    <unintentionaldamagemultiplier>1.0</unintentionaldamagemultiplier>
+    <projectile>Grenade</projectile>
+    <impacteffect>effects\impacts\grenade</impacteffect>
+    <minrange>2</minrange>
+    <rate type="Unit">1.0</rate>
+    <throw>1</throw>
+    <impactforcemin>450.0</impactforcemin>
+    <impactforcemax>600.0</impactforcemax>
+    <impactlaunchangle>50.0</impactlaunchangle>
+    <areasortmode>Radial</areasortmode>
+    <targetground>1</targetground>
+    <basedamagecap>1</basedamagecap>
+  </action>
+  <action>
+    <name stringid="38118">BuildingAttack</name>
+    <type>Attack</type>
+    <rangedlogic>1</rangedlogic>
+    <maxrange>8</maxrange>
+    <rate type="Building">1.0</rate>
+    <attackaction>1</attackaction>
+    <speedboost>1</speedboost>
+    <anim>RangedAttack</anim>
+    <idleanim>Idle</idleanim>
+    <projectile>Grenade</projectile>
+    <impacteffect>effects\impacts\grenade</impacteffect>
+  </action>
+  <action>
+    <name stringid="38132">HandAttack</name>
+    <type>Attack</type>
+    <maxrange>1.75</maxrange>
+    <rate type="Unit">1.0</rate>
+    <rate type="Herdable">1.0</rate>
+    <attackaction>1</attackaction>
+    <handlogic>1</handlogic>
+    <speedboost>1</speedboost>
+    <anim>Melee_Attack</anim>
+    <idleanim>Melee_Idle</idleanim>
+    <impacteffect>effects\impacts\melee</impacteffect>
+    <damage>6.5</damage>
+    <rof>1.0</rof>
+    <targetspeedboost>1</targetspeedboost>
+  </action>
+  <tactic>Stagger<action priority="75">BuildingAttack</action><action priority="100">RangedAttack</action><action priority="50">HandAttack</action><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><runaway>0</runaway><autoretarget>1</autoretarget><idleanim>Idle</idleanim><boredanim>Bored</boredanim><deathanim>Death_by_melee</deathanim><walkanim>Walk</walkanim><joganim>Jog</joganim><runanim>Run</runanim></tactic>
+  <tactic>Defend<action priority="100">RangedAttack</action><action priority="50">HandAttack</action><action priority="75">BuildingAttack</action><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><runaway>1</runaway><autoretarget>1</autoretarget><idleanim>Idle</idleanim><boredanim>Bored</boredanim><deathanim>Death_by_melee</deathanim><walkanim>Walk</walkanim><joganim>Jog</joganim><runanim>Run</runanim></tactic>
+  <tactic>Melee<action priority="100">HandAttack</action><action priority="75">BuildingAttack</action><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><runaway>0</runaway><autoretarget>1</autoretarget><idleanim>Melee_Idle</idleanim><boredanim>Melee_Bored</boredanim><deathanim>Death_by_melee</deathanim><walkanim>Melee_Walk</walkanim><joganim>Melee_Jog</joganim><runanim>Melee_Run</runanim></tactic>
+  <tactic>StandGround<action priority="100">RangedAttack</action><action priority="50">HandAttack</action><action priority="75">BuildingAttack</action><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><runaway>1</runaway><autoretarget>1</autoretarget><idleanim>Idle</idleanim><boredanim>Bored</boredanim><deathanim>Death_by_melee</deathanim><walkanim>Walk</walkanim><joganim>Jog</joganim><runanim>Run</runanim></tactic>
+</tactics>

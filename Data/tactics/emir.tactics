@@ -1,0 +1,193 @@
+<tactics>
+  <action>
+    <name stringid="38133">RangedAttack</name>
+    <type>Attack</type>
+    <attackaction>1</attackaction>
+    <rangedlogic>1</rangedlogic>
+    <anim>Attack_ranged</anim>
+    <idleanim>Idle</idleanim>
+    <reloadanim>Attack_ranged_reload</reloadanim>
+    <maxheight>0</maxheight>
+    <accuracy>1.0</accuracy>
+    <accuracyreductionfactor>0.5</accuracyreductionfactor>
+    <aimbonus>0</aimbonus>
+    <maxspread>5</maxspread>
+    <spreadfactor>0.25</spreadfactor>
+    <trackrating>12</trackrating>
+    <unintentionaldamagemultiplier>0.7</unintentionaldamagemultiplier>
+    <projectile>InvisibleProjectile</projectile>
+    <impacteffect>effects\impacts\gun</impacteffect>
+    <rate type="Unit">1.0</rate>
+    <instantballistics>1</instantballistics>
+  </action>
+  <action>
+    <name stringid="38134">HandAttack</name>
+    <type>Attack</type>
+    <maxrange>1.75</maxrange>
+    <rate type="Unit">1.0</rate>
+    <attackaction>1</attackaction>
+    <handlogic>1</handlogic>
+    <speedboost>1</speedboost>
+    <anim>Attack_melee</anim>
+    <idleanim>Idle</idleanim>
+    <impacteffect>effects\impacts\melee</impacteffect>
+    <damage>6.5</damage>
+    <rof>1.0</rof>
+    <targetspeedboost>1</targetspeedboost>
+  </action>
+  <action>
+    <name stringid="38118">BuildingAttack</name>
+    <type>Attack</type>
+    <rangedlogic>1</rangedlogic>
+    <maxrange>6</maxrange>
+    <rate type="LogicalTypeShipsAndBuildings">1.0</rate>
+    <attackaction>1</attackaction>
+    <speedboost>1</speedboost>
+    <anim>Raze_attack</anim>
+    <idleanim>Raze_idle</idleanim>
+    <projectile>TorchProjectile</projectile>
+    <impacteffect>effects\impacts\torch</impacteffect>
+  </action>
+  <action>
+    <name stringid="69148">Discover</name>
+    <type>Discover</type>
+    <active>1</active>
+    <anim>Pickup</anim>
+    <maxrange>0.2</maxrange>
+    <rate type="AbstractNuggetLand">1.0</rate>
+  </action>
+  <action>
+    <name stringid="69147">Build</name>
+    <type>Build</type>
+    <anim>Build</anim>
+    <maxrange>0.2</maxrange>
+    <rate type="Building">1.0</rate>
+  </action>
+  <action>
+    <name stringid="110152">IncreaseHPWithUnits</name>
+    <type>LikeBonus</type>
+    <modifyratebytype>1</modifyratebytype>
+    <modifyabstracttype>Military</modifyabstracttype>
+    <active>1</active>
+    <maxrange>32</maxrange>
+    <rate type="LogicalTypeLandMilitary">0.02</rate>
+    <persistent>1</persistent>
+    <modifytype>MaxHP</modifytype>
+    <modifybase>1.0</modifybase>
+    <modifyratecap>3.0</modifyratecap>
+  </action>
+  <action>
+    <name stringid="110152">IncreaseDamageWithUnits</name>
+    <type>LikeBonus</type>
+    <modifyratebytype>1</modifyratebytype>
+    <modifyabstracttype>Military</modifyabstracttype>
+    <active>1</active>
+    <maxrange>32</maxrange>
+    <rate type="LogicalTypeLandMilitary">0.01</rate>
+    <persistent>1</persistent>
+    <modifytype>Damage</modifytype>
+    <modifybase>1.0</modifybase>
+    <modifyratecap>3.0</modifyratecap>
+  </action>
+  <action>
+    <name stringid="68971">HeroRespawn</name>
+    <type>Maintain</type>
+    <maintaintrainpoints>120</maintaintrainpoints>
+    <usehcgatherpoint>1</usehcgatherpoint>
+    <showqueuewhilewaiting>0</showqueuewhilewaiting>
+    <restricttoknockout>1</restricttoknockout>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="110152">IncreaseHPWithEnemyUnits</name>
+    <type>LikeBonus</type>
+    <active>0</active>
+    <targetenemy>1</targetenemy>
+    <modifyratebytype>1</modifyratebytype>
+    <modifyabstracttype>Military</modifyabstracttype>
+    <maxrange>32</maxrange>
+    <rate type="Hero">0.2</rate>
+    <rate type="LogicalTypeLandMilitary">0.02</rate>
+    <persistent>1</persistent>
+    <modifytype>MaxHP</modifytype>
+    <modifybase>1.0</modifybase>
+    <modifyratecap>5.0</modifyratecap>
+  </action>
+  <action>
+    <name stringid="110152">IncreaseDamageWithEnemyUnits</name>
+    <type>LikeBonus</type>
+    <active>0</active>
+    <targetenemy>1</targetenemy>
+    <modifyratebytype>1</modifyratebytype>
+    <modifyabstracttype>Military</modifyabstracttype>
+    <maxrange>32</maxrange>
+    <rate type="Hero">0.1</rate>
+    <rate type="LogicalTypeLandMilitary">0.01</rate>
+    <persistent>1</persistent>
+    <modifytype>Damage</modifytype>
+    <modifybase>1.0</modifybase>
+    <modifyratecap>5.0</modifyratecap>
+  </action>
+  <action>
+    <name stringid="101093">Chaos</name>
+    <type>CastPower</type>
+    <idleanim>Idle</idleanim>
+    <rangedlogic>1</rangedlogic>
+    <maxrange>18</maxrange>
+    <damage>75</damage>
+    <rof>1</rof>
+    <maxheight>0</maxheight>
+    <accuracy>1</accuracy>
+    <accuracyreductionfactor>0</accuracyreductionfactor>
+    <aimbonus>5</aimbonus>
+    <trackrating>12</trackrating>
+    <projectile>InvisibleProjectile</projectile>
+    <instantballistics>0</instantballistics>
+  </action>
+  <action>
+    <name stringid="101093">HausaSabotage</name>
+    <type>CastPower</type>
+    <anim>CastPower</anim>
+    <idleanim>Idle</idleanim>
+    <rangedlogic>1</rangedlogic>
+    <maxrange>5</maxrange>
+    <rate type="MilitaryBuilding">1.0</rate>
+    <damage>75</damage>
+    <rof>1</rof>
+    <maxheight>0</maxheight>
+    <accuracy>1</accuracy>
+    <accuracyreductionfactor>0</accuracyreductionfactor>
+    <aimbonus>5</aimbonus>
+    <trackrating>12</trackrating>
+    <projectile>InvisibleProjectile</projectile>
+    <instantballistics>0</instantballistics>
+  </action>
+  <action>
+    <name stringid="48954">ExtraHitPointsHM02</name>
+    <type>AutoRangedModify</type>
+    <active>0</active>
+    <maxrange>24</maxrange>
+    <persistent>1</persistent>
+    <modifytype>MaxHP</modifytype>
+    <forbidabstracttype>AbstractArtillery</forbidabstracttype>
+    <modifymultiplier>1.10</modifymultiplier>
+    <nostack>1</nostack>
+    <nostackignorepuid>1</nostackignorepuid>
+    <modelattachment>effects\chiefpower\chiefpower.xml</modelattachment>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+  </action>
+  <action>
+    <name stringid="69158">SpawnKnockoutEvzone</name>
+    <type>Spawn</type>
+    <rate type="deNatEvzone">1.0</rate>
+    <singleuse>1</singleuse>
+    <restricttoknockout>1</restricttoknockout>
+    <animationrate>1</animationrate>
+    <active>0</active>
+    <persistent>1</persistent>
+  </action>
+  <tactic>Stagger<action priority="75">BuildingAttack</action><action priority="100">RangedAttack</action><action priority="90">HandAttack</action><action priority="2">HausaSabotage</action><action priority="1">Chaos</action><action>Discover</action><action>Build</action><action>IncreaseHPWithUnits</action><action>IncreaseDamageWithUnits</action><action>IncreaseHPWithEnemyUnits</action><action>IncreaseDamageWithEnemyUnits</action><action>HeroRespawn</action><action>ExtraHitPointsHM02</action><action>SpawnKnockoutEvzone</action><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><runaway>0</runaway><autoretarget>1</autoretarget><idleanim>Idle</idleanim><boredanim>Bored</boredanim><deathanim>Death_by_melee</deathanim><walkanim>Walk</walkanim><joganim>Jog</joganim><runanim>Run</runanim></tactic>
+  <tactic>Defend<action priority="75">BuildingAttack</action><action priority="100">RangedAttack</action><action priority="90">HandAttack</action><action priority="2">HausaSabotage</action><action priority="1">Chaos</action><action>Discover</action><action>Build</action><action>IncreaseHPWithUnits</action><action>IncreaseDamageWithUnits</action><action>IncreaseHPWithEnemyUnits</action><action>IncreaseDamageWithEnemyUnits</action><action>HeroRespawn</action><action>ExtraHitPointsHM02</action><action>SpawnKnockoutEvzone</action><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><runaway>1</runaway><autoretarget>1</autoretarget><idleanim>Idle</idleanim><boredanim>Bored</boredanim><deathanim>Death_by_melee</deathanim><walkanim>Walk</walkanim><joganim>Jog</joganim><runanim>Run</runanim></tactic>
+  <tactic>Melee<action priority="75">BuildingAttack</action><action priority="100">HandAttack</action><action priority="2">HausaSabotage</action><action priority="1">Chaos</action><action>Discover</action><action>Build</action><action>IncreaseHPWithUnits</action><action>IncreaseDamageWithUnits</action><action>IncreaseHPWithEnemyUnits</action><action>IncreaseDamageWithEnemyUnits</action><action>HeroRespawn</action><action>ExtraHitPointsHM02</action><action>SpawnKnockoutEvzone</action><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><runaway>0</runaway><autoretarget>1</autoretarget><idleanim>Idle</idleanim><boredanim>Bored</boredanim><deathanim>Death_by_melee</deathanim><walkanim>Walk</walkanim><joganim>Jog</joganim><runanim>Run</runanim></tactic>
+  <tactic>StandGround<action priority="75">BuildingAttack</action><action priority="100">RangedAttack</action><action priority="90">HandAttack</action><action priority="2">HausaSabotage</action><action priority="1">Chaos</action><action>Discover</action><action>Build</action><action>IncreaseHPWithUnits</action><action>IncreaseDamageWithUnits</action><action>IncreaseHPWithEnemyUnits</action><action>IncreaseDamageWithEnemyUnits</action><action>HeroRespawn</action><action>ExtraHitPointsHM02</action><action>SpawnKnockoutEvzone</action><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><runaway>1</runaway><autoretarget>1</autoretarget><idleanim>Idle</idleanim><boredanim>Bored</boredanim><deathanim>Death_by_melee</deathanim><walkanim>Walk</walkanim><joganim>Jog</joganim><runanim>Run</runanim></tactic>
+</tactics>

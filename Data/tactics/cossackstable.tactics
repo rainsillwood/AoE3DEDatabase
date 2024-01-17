@@ -1,0 +1,22 @@
+<tactics>
+  <action>
+    <name stringid="68971">SpawnCossacks</name>
+    <type>Maintain</type>
+    <maintaintrainpoints>60</maintaintrainpoints>
+    <rate type="deSPCDelugeCossack">3.0</rate>
+    <activeifnotgaia>1</activeifnotgaia>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="69158">SpawnCossackOnce</name>
+    <active>0</active>
+    <type>Spawn</type>
+    <rate type="deSPCDelugeCossack">2.0</rate>
+    <activeifnotgaia>1</activeifnotgaia>
+    <singleuse>1</singleuse>
+    <animationrate>1</animationrate>
+    <forcespawn>1</forcespawn>
+    <persistent>1</persistent>
+  </action>
+  <tactic>Normal<action>SpawnCossacks</action><action>SpawnCossackOnce</action></tactic>
+</tactics>

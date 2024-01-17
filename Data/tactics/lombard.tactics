@@ -1,0 +1,31 @@
+<tactics>
+  <action>
+    <name stringid="43019">AutoGatherFoodInvestment</name>
+    <type>AutoGather</type>
+    <active>1</active>
+    <persistent>1</persistent>
+    <investmentresource>Food</investmentresource>
+  </action>
+  <action>
+    <name stringid="43019">AutoGatherWoodInvestment</name>
+    <type>AutoGather</type>
+    <active>1</active>
+    <persistent>1</persistent>
+    <investmentresource>Wood</investmentresource>
+  </action>
+  <action>
+    <name stringid="43019">AutoGatherCoinInvestment</name>
+    <type>AutoGather</type>
+    <active>1</active>
+    <persistent>1</persistent>
+    <investmentresource>Gold</investmentresource>
+  </action>
+  <action>
+    <name stringid="43019">AutoGatherXP</name>
+    <type>AutoGather</type>
+    <active>0</active>
+    <persistent>1</persistent>
+    <autogatherifresourcesinvested>1</autogatherifresourcesinvested>
+  </action>
+  <tactic>Normal<action>AutoGatherFoodInvestment</action><action>AutoGatherWoodInvestment</action><action>AutoGatherCoinInvestment</action><action>AutoGatherXP</action></tactic>
+</tactics>

@@ -1,0 +1,34 @@
+<tactics>
+  <action>
+    <name stringid="38118">BuildingAttack</name>
+    <type>Attack</type>
+    <maxrange>1.75</maxrange>
+    <rate type="LogicalTypeShipsAndBuildings">1.0</rate>
+    <attackaction>1</attackaction>
+    <handlogic>1</handlogic>
+    <speedboost>1</speedboost>
+    <anim>Raze_attack</anim>
+    <idleanim>Raze_idle</idleanim>
+    <impacteffect>effects\impacts\melee</impacteffect>
+    <targetspeedboost>1</targetspeedboost>
+    <basedamagecap>1</basedamagecap>
+  </action>
+  <action>
+    <name stringid="38118">CoverBuildingAttack</name>
+    <type>Attack</type>
+    <maxrange>1.75</maxrange>
+    <rate type="LogicalTypeShipsAndBuildings">1.0</rate>
+    <attackaction>1</attackaction>
+    <handlogic>1</handlogic>
+    <speedboost>1</speedboost>
+    <anim>Raze_attack</anim>
+    <idleanim>Raze_idle</idleanim>
+    <impacteffect>effects\impacts\melee</impacteffect>
+    <targetspeedboost>1</targetspeedboost>
+    <basedamagecap>1</basedamagecap>
+  </action>
+  <tactic>Melee<action priority="100">BuildingAttack</action><speedmodifier>1.0</speedmodifier><attacktype>LogicalTypeShipsAndBuildings</attacktype><autoattacktype>LogicalTypeShipsAndBuildings</autoattacktype><runaway>0</runaway><transition><tactic>Defend</tactic><length>0</length><exit>1</exit></transition><autoretarget>1</autoretarget><idleanim>Charge_idle</idleanim><boredanim>Charge_bored</boredanim><deathanim>Death_by_melee</deathanim><walkanim>Charge_walk</walkanim><joganim>Charge_jog</joganim><runanim>Charge_run</runanim></tactic>
+  <tactic>Defend<action priority="100">BuildingAttack</action><attacktype>LogicalTypeShipsAndBuildings</attacktype><autoattacktype>LogicalTypeShipsAndBuildings</autoattacktype><runaway>0</runaway><autoretarget>1</autoretarget><transition><tactic>Normal</tactic><length>0</length><exit>1</exit></transition><idleanim>Defend_idle</idleanim><boredanim>Defend_bored</boredanim><deathanim>Death_by_melee</deathanim><walkanim>Cover_walk</walkanim><joganim>Cover_jog</joganim><runanim>Cover_run</runanim></tactic>
+  <tactic>Cover<speedmodifier>0.5</speedmodifier><action priority="100">BuildingAttack</action><attacktype>LogicalTypeShipsAndBuildings</attacktype><autoattacktype>LogicalTypeShipsAndBuildings</autoattacktype><runaway>0</runaway><autoretarget>1</autoretarget><transition><tactic>Normal</tactic><length>0</length><exit>1</exit></transition><idleanim>Cover_idle</idleanim><boredanim>Cover_bored</boredanim><deathanim>Death_by_melee</deathanim><walkanim>Cover_walk</walkanim><joganim>Cover_jog</joganim><runanim>Cover_run</runanim></tactic>
+  <tactic>StandGround<action priority="100">BuildingAttack</action><attacktype>LogicalTypeShipsAndBuildings</attacktype><autoattacktype>LogicalTypeShipsAndBuildings</autoattacktype><runaway>0</runaway><autoretarget>1</autoretarget><transition><tactic>Normal</tactic><length>0</length><exit>1</exit></transition><idleanim>Defend_idle</idleanim><boredanim>Defend_bored</boredanim><deathanim>Death_by_melee</deathanim><walkanim>Cover_walk</walkanim><joganim>Cover_jog</joganim><runanim>Cover_run</runanim></tactic>
+</tactics>

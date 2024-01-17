@@ -1,0 +1,120 @@
+<tactics>
+  <action>
+    <name stringid="112954">LanceChargeAttack</name>
+    <type>Attack</type>
+    <active>0</active>
+    <attackaction>1</attackaction>
+    <speedboost>1</speedboost>
+    <targetspeedboost>1</targetspeedboost>
+    <rangedlogic>1</rangedlogic>
+    <anim>Attack_melee_charged</anim>
+    <idleanim>Idle_charged</idleanim>
+    <walkanim>Walk_charged</walkanim>
+    <runanim>Run_charged</runanim>
+    <maxrange>3</maxrange>
+    <trackrating>240</trackrating>
+    <projectile>InvisibleProjectileNoTracer</projectile>
+    <impacteffect>effects\impacts\melee</impacteffect>
+    <rate type="Unit">1.0</rate>
+    <chargeaction>1</chargeaction>
+    <throw>1</throw>
+    <impactforcemin>500.0f</impactforcemin>
+    <impactforcemax>800.0f</impactforcemax>
+    <outerdamageareadistance>.55</outerdamageareadistance>
+    <outerdamageareafactor>.5</outerdamageareafactor>
+    <impactlaunchangle>65.0</impactlaunchangle>
+    <areasortmode>Directional</areasortmode>
+    <directionaldamage>1</directionaldamage>
+    <directionaldamagerefangle>0.196350</directionaldamagerefangle>
+    <numberbounces>0</numberbounces>
+    <basedamagecap>1</basedamagecap>
+    <perfectaccuracy>1</perfectaccuracy>
+  </action>
+  <action>
+    <name stringid="38135">MeleeHandAttack</name>
+    <type>Attack</type>
+    <maxrange>1.75</maxrange>
+    <rate type="Unit">1.0</rate>
+    <attackaction>1</attackaction>
+    <handlogic>1</handlogic>
+    <anim>Attack_melee</anim>
+    <idleanim>Idle</idleanim>
+    <impacteffect>effects\impacts\melee</impacteffect>
+    <targetspeedboost>1</targetspeedboost>
+    <basedamagecap>1</basedamagecap>
+  </action>
+  <action>
+    <name stringid="42873">GuardianAttack</name>
+    <type>Attack</type>
+    <maxrange>1.75</maxrange>
+    <rate type="Guardian">1.0</rate>
+    <attackaction>1</attackaction>
+    <handlogic>1</handlogic>
+    <anim>Attack_melee</anim>
+    <idleanim>Idle</idleanim>
+    <impacteffect>effects\impacts\melee</impacteffect>
+    <targetspeedboost>1</targetspeedboost>
+    <basedamagecap>1</basedamagecap>
+    <hidefromstats>1</hidefromstats>
+  </action>
+  <action>
+    <name stringid="38118">BuildingAttack</name>
+    <type>Attack</type>
+    <rangedlogic>1</rangedlogic>
+    <maxrange>6</maxrange>
+    <rate type="LogicalTypeShipsAndBuildings">1.0</rate>
+    <attackaction>1</attackaction>
+    <speedboost>1</speedboost>
+    <anim>Raze_attack</anim>
+    <idleanim>Raze_idle</idleanim>
+    <projectile>TorchProjectile</projectile>
+    <impacteffect>effects\impacts\torch</impacteffect>
+  </action>
+  <action>
+    <name stringid="38142">TrampleHandAttack</name>
+    <type>Attack</type>
+    <maxrange>1.75</maxrange>
+    <rate type="Unit">1.0</rate>
+    <attackaction>1</attackaction>
+    <handlogic>1</handlogic>
+    <speedboost>1</speedboost>
+    <anim>Attack_trample</anim>
+    <idleanim>Idle</idleanim>
+    <impacteffect>effects\impacts\melee</impacteffect>
+    <damage>6.5</damage>
+    <rof>1.0</rof>
+    <targetspeedboost>1</targetspeedboost>
+    <basedamagecap>1</basedamagecap>
+  </action>
+  <action>
+    <name stringid="38137">DefendHandAttack</name>
+    <type>Attack</type>
+    <maxrange>1.75</maxrange>
+    <rate type="Unit">1.0</rate>
+    <attackaction>1</attackaction>
+    <handlogic>1</handlogic>
+    <speedboost>1</speedboost>
+    <anim>Attack_melee</anim>
+    <idleanim>Idle</idleanim>
+    <impacteffect>effects\impacts\melee</impacteffect>
+    <damage>6.5</damage>
+    <rof>1.0</rof>
+    <targetspeedboost>1</targetspeedboost>
+    <basedamagecap>1</basedamagecap>
+  </action>
+  <action>
+    <name stringid="112710">ShieldAura</name>
+    <type>AutoRangedModify</type>
+    <maxrange>12</maxrange>
+    <modifyabstracttype>AbstractCavalry</modifyabstracttype>
+    <persistent>1</persistent>
+    <modifytype>Shield</modifytype>
+    <modifymultiplier>0.25</modifymultiplier>
+    <modelattachment>effects\ypack_auras\papal_guard_power.xml</modelattachment>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+  </action>
+  <tactic>Melee<action priority="100">BuildingAttack</action><action priority="75">GuardianAttack</action><action priority="30">LanceChargeAttack</action><action priority="25">MeleeHandAttack</action><action>ShieldAura</action><attacktype>LogicalTypeHandUnitsAttack</attacktype><autoattacktype>LogicalTypeHandUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeHandUnitsAttack</attackresponsetype><runaway>0</runaway><autoretarget>1</autoretarget><idleanim>Idle</idleanim><boredanim>Bored</boredanim><deathanim>Death_by_melee</deathanim><walkanim>Walk</walkanim><joganim>Jog</joganim><runanim>Run</runanim></tactic>
+  <tactic>Trample<speedmodifier>0.5</speedmodifier><action priority="100">BuildingAttack</action><action priority="75">GuardianAttack</action><action priority="30">LanceChargeAttack</action><action priority="25">TrampleHandAttack</action><action>ShieldAura</action><attacktype>LogicalTypeHandUnitsAttack</attacktype><autoattacktype>LogicalTypeHandUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeHandUnitsAttack</attackresponsetype><runaway>0</runaway><autoretarget>1</autoretarget><idleanim>Idle</idleanim><boredanim>Bored</boredanim><deathanim>Death_by_melee</deathanim><walkanim>Highstep</walkanim><joganim>Jog</joganim><runanim>Run</runanim></tactic>
+  <tactic>Defend<action priority="100">BuildingAttack</action><action priority="75">GuardianAttack</action><action priority="30">LanceChargeAttack</action><action priority="25">DefendHandAttack</action><action>ShieldAura</action><attacktype>LogicalTypeHandUnitsAttack</attacktype><autoattacktype>LogicalTypeHandUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeHandUnitsAttack</attackresponsetype><runaway>0</runaway><autoretarget>1</autoretarget><idleanim>Idle</idleanim><boredanim>Bored</boredanim><deathanim>Death_by_melee</deathanim><walkanim>Walk</walkanim><joganim>Jog</joganim><runanim>Run</runanim></tactic>
+  <tactic>StandGround<action priority="100">BuildingAttack</action><action priority="75">GuardianAttack</action><action priority="30">LanceChargeAttack</action><action priority="25">DefendHandAttack</action><action>ShieldAura</action><attacktype>LogicalTypeHandUnitsAttack</attacktype><autoattacktype>LogicalTypeHandUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeHandUnitsAttack</attackresponsetype><runaway>0</runaway><autoretarget>1</autoretarget><idleanim>Idle</idleanim><boredanim>Bored</boredanim><deathanim>Death_by_melee</deathanim><walkanim>Walk</walkanim><joganim>Jog</joganim><runanim>Run</runanim></tactic>
+</tactics>

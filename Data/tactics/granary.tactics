@@ -1,0 +1,69 @@
+<tactics>
+  <action>
+    <name stringid="68961">EconomicAuraGranary</name>
+    <type>AutoRangedModify</type>
+    <maxrange>20</maxrange>
+    <modifyabstracttype>AbstractVillager</modifyabstracttype>
+    <persistent>1</persistent>
+    <squareaura>1</squareaura>
+    <nostack>1</nostack>
+    <modifytype>FarmingGatherRate</modifytype>
+    <modifymultiplier>1.1</modifymultiplier>
+    <modelattachment>effects\ypack_auras\econpower.xml</modelattachment>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+  </action>
+  <action>
+    <name stringid="68961">NaturalFoodAuraGranary</name>
+    <type>AutoRangedModify</type>
+    <maxrange>17</maxrange>
+    <modifyabstracttype>AbstractVillager</modifyabstracttype>
+    <persistent>1</persistent>
+    <squareaura>1</squareaura>
+    <nostack>1</nostack>
+    <modifytype>NaturalFoodGatherRate</modifytype>
+    <modifymultiplier>1.1</modifymultiplier>
+    <modelattachment>effects\ypack_auras\econpower.xml</modelattachment>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+  </action>
+  <action>
+    <name stringid="68961">TreeGatherRateBonus</name>
+    <type>AutoRangedModify</type>
+    <active>0</active>
+    <maxrange>17</maxrange>
+    <modifyabstracttype>AbstractVillager</modifyabstracttype>
+    <persistent>1</persistent>
+    <squareaura>1</squareaura>
+    <nostack>1</nostack>
+    <modifytype>TreeGatherRate</modifytype>
+    <modifymultiplier>1.15</modifymultiplier>
+    <modelattachment>effects\ypack_auras\econpower.xml</modelattachment>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+  </action>
+  <action>
+    <name stringid="68961">NaturalFoodAuraGranary2</name>
+    <type>AutoRangedModify</type>
+    <active>0</active>
+    <maxrange>17</maxrange>
+    <modifyabstracttype>AbstractVillager</modifyabstracttype>
+    <persistent>1</persistent>
+    <squareaura>1</squareaura>
+    <nostack>1</nostack>
+    <modifytype>NaturalFoodGatherRate</modifytype>
+    <modifymultiplier>1.15</modifymultiplier>
+    <modelattachment>effects\ypack_auras\econpower.xml</modelattachment>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+  </action>
+  <action>
+    <name stringid="103418">BuildRateBonus</name>
+    <type>AutoRangedModify</type>
+    <modifyprotoid>deField</modifyprotoid>
+    <maxrange>20</maxrange>
+    <persistent>1</persistent>
+    <squareaura>1</squareaura>
+    <targetunbuilt>1</targetunbuilt>
+    <nostack>1</nostack>
+    <modifytype>BuildRate</modifytype>
+    <modifymultiplier>1.5</modifymultiplier>
+  </action>
+  <tactic>Normal<action>EconomicAuraGranary</action><action>NaturalFoodAuraGranary</action><action>NaturalFoodAuraGranary2</action><action>TreeGatherRateBonus</action><action>BuildRateBonus</action></tactic>
+</tactics>

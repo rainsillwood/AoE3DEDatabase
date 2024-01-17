@@ -1,0 +1,27 @@
+<tactics>
+  <action>
+    <name stringid="101095">deGuardianColoSwordChaos</name>
+    <type>AutoRangedModify</type>
+    <active>1</active>
+    <modifyprotoid>deGuardianColoSword</modifyprotoid>
+    <targetenemyincludegaia>1</targetenemyincludegaia>
+    <modifysingleactionbytype>1</modifysingleactionbytype>
+    <maxrange>10</maxrange>
+    <persistent>1</persistent>
+    <modifytype>Chaos</modifytype>
+    <modifymultiplier>0.45</modifymultiplier>
+  </action>
+  <action>
+    <name stringid="101095">GuardianChaos</name>
+    <type>AutoRangedModify</type>
+    <active>1</active>
+    <modifyabstracttype>Guardian</modifyabstracttype>
+    <targetenemyincludegaia>1</targetenemyincludegaia>
+    <modifysingleactionbytype>1</modifysingleactionbytype>
+    <maxrange>10</maxrange>
+    <persistent>1</persistent>
+    <modifytype>Chaos</modifytype>
+    <modifymultiplier>0.8</modifymultiplier>
+  </action>
+  <tactic>Chaos<action>deGuardianColoSwordChaos</action><action>GuardianChaos</action></tactic>
+</tactics>

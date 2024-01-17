@@ -1,0 +1,141 @@
+<tactics>
+  <action>
+    <name stringid="69148">Discover</name>
+    <type>Discover</type>
+    <anim>Pickup</anim>
+    <maxrange>0.2</maxrange>
+    <rate type="AbstractNuggetLand">1.0</rate>
+  </action>
+  <action>
+    <name stringid="69147">Build</name>
+    <type>Build</type>
+    <anim>Build</anim>
+    <maxrange>0.2</maxrange>
+    <rate type="Building">1.0</rate>
+  </action>
+  <action>
+    <name stringid="38134">HandAttack</name>
+    <type>Attack</type>
+    <maxrange>1.75</maxrange>
+    <rate type="Unit">1.0</rate>
+    <attackaction>1</attackaction>
+    <handlogic>1</handlogic>
+    <anim>Attack_melee</anim>
+    <idleanim>Idle</idleanim>
+    <impacteffect>effects\impacts\melee_no_weapon</impacteffect>
+    <basedamagecap>1</basedamagecap>
+  </action>
+  <action>
+    <name stringid="38134">GuardianAttack</name>
+    <type>Attack</type>
+    <maxrange>1.75</maxrange>
+    <rate type="Guardian">1.0</rate>
+    <attackaction>1</attackaction>
+    <handlogic>1</handlogic>
+    <anim>Attack_melee</anim>
+    <idleanim>Idle</idleanim>
+    <impacteffect>effects\impacts\melee_no_weapon</impacteffect>
+    <basedamagecap>1</basedamagecap>
+  </action>
+  <action>
+    <name stringid="38134">SweepDamage</name>
+    <type>Attack</type>
+    <maxrange>1.75</maxrange>
+    <rate type="Guardian">1.0</rate>
+    <attackaction>1</attackaction>
+    <handlogic>1</handlogic>
+    <anim>Attack_melee</anim>
+    <idleanim>Idle</idleanim>
+    <impacteffect>effects\impacts\melee_no_weapon</impacteffect>
+    <basedamagecap>1</basedamagecap>
+  </action>
+  <action>
+    <name stringid="38118">BuildingAttack</name>
+    <type>Attack</type>
+    <maxrange>1.75</maxrange>
+    <rate type="LogicalTypeShipsAndBuildings">1.0</rate>
+    <attackaction>1</attackaction>
+    <handlogic>1</handlogic>
+    <speedboost>1</speedboost>
+    <anim>Raze_attack</anim>
+    <idleanim>Raze_idle</idleanim>
+    <impacteffect>effects\impacts\melee_no_weapon</impacteffect>
+  </action>
+  <action>
+    <name stringid="70488">Heal</name>
+    <type>Heal</type>
+    <active>1</active>
+    <maxrange>12</maxrange>
+    <rate type="LogicalTypeHealed">10.0</rate>
+    <anim>Cheer</anim>
+  </action>
+  <action>
+    <name stringid="38124">Stun</name>
+    <type>StunAttack</type>
+    <handlogic>1</handlogic>
+    <anim>stun_attack</anim>
+    <idleanim>CombatIdle</idleanim>
+    <maxrange>16</maxrange>
+    <impacteffect>effects\impacts\gun</impacteffect>
+    <rate type="Guardian">1.0</rate>
+    <rof>1</rof>
+  </action>
+  <action>
+    <name stringid="68994">FrightenSpeed</name>
+    <type>AutoRangedModify</type>
+    <targetenemy>1</targetenemy>
+    <active>0</active>
+    <maxrange>24</maxrange>
+    <persistent>1</persistent>
+    <modifytype>Speed</modifytype>
+    <modifymultiplier>0.95</modifymultiplier>
+    <modelattachment>effects\ypack_auras\frightpower.xml</modelattachment>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+  </action>
+  <action>
+    <name stringid="48955">ExtraSpeed</name>
+    <type>AutoRangedModify</type>
+    <modifyabstracttype>AbstractElephant</modifyabstracttype>
+    <active>0</active>
+    <maxrange>24</maxrange>
+    <persistent>1</persistent>
+    <modifytype>Speed</modifytype>
+    <modifymultiplier>1.05</modifymultiplier>
+    <modelattachment>effects\ypack_auras\daimyopower.xml</modelattachment>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+  </action>
+  <action>
+    <name stringid="43296">AutoGatherWood</name>
+    <type>AutoGather</type>
+    <active>0</active>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="48954">ExtraHitPointsHM02</name>
+    <type>AutoRangedModify</type>
+    <active>0</active>
+    <maxrange>24</maxrange>
+    <persistent>1</persistent>
+    <modifytype>MaxHP</modifytype>
+    <forbidabstracttype>AbstractArtillery</forbidabstracttype>
+    <modifymultiplier>1.10</modifymultiplier>
+    <nostack>1</nostack>
+    <nostackignorepuid>1</nostackignorepuid>
+    <modelattachment>effects\chiefpower\chiefpower.xml</modelattachment>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+  </action>
+  <action>
+    <name stringid="69158">SpawnKnockoutEvzone</name>
+    <type>Spawn</type>
+    <rate type="deNatEvzone">1.0</rate>
+    <singleuse>1</singleuse>
+    <restricttoknockout>1</restricttoknockout>
+    <animationrate>1</animationrate>
+    <active>0</active>
+    <persistent>1</persistent>
+  </action>
+  <tactic>Melee<action priority="100">BuildingAttack</action><action priority="100">GuardianAttack</action><action priority="75">HandAttack</action><action priority="2">Stun</action><action priority="1">SwashbucklerAttack</action><action>AutoGatherWood</action><action>Build</action><action>ExtraSpeed</action><action>FrightenSpeed</action><action>Discover</action><action>Heal</action><action>ExtraHitPointsHM02</action><action>SpawnKnockoutEvzone</action><attacktype>LogicalTypeHandUnitsAttack</attacktype><autoattacktype>LogicalTypeHandUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeHandUnitsAttack</attackresponsetype><idleanim>Idle</idleanim><boredanim>Bored</boredanim><deathanim>Death_by_melee</deathanim><walkanim>Walk</walkanim><joganim>Jog</joganim><runanim>Run</runanim></tactic>
+  <tactic>Trample<speedmodifier>0.5</speedmodifier><action priority="100">BuildingAttack</action><action priority="100">GuardianAttack</action><action priority="75">HandAttack</action><action priority="2">Stun</action><action priority="1">SwashbucklerAttack</action><action>AutoGatherWood</action><action>Build</action><action>ExtraSpeed</action><action>FrightenSpeed</action><action>Discover</action><action>Heal</action><action>ExtraHitPointsHM02</action><action>SpawnKnockoutEvzone</action><attacktype>LogicalTypeHandUnitsAttack</attacktype><autoattacktype>LogicalTypeHandUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeHandUnitsAttack</attackresponsetype><runaway>0</runaway><transition><tactic>Stealth</tactic><length>2</length><exit>1</exit></transition><autoretarget>1</autoretarget><idleanim>Idle</idleanim><boredanim>Bored</boredanim><deathanim>Death_by_melee</deathanim><walkanim>Highstep</walkanim><joganim>Jog</joganim><runanim>Run</runanim></tactic>
+  <tactic>Defend<action priority="100">BuildingAttack</action><action priority="100">GuardianAttack</action><action priority="75">HandAttack</action><action priority="2">Stun</action><action priority="1">SwashbucklerAttack</action><action>AutoGatherWood</action><action>Build</action><action>ExtraSpeed</action><action>FrightenSpeed</action><action>Discover</action><action>Heal</action><action>ExtraHitPointsHM02</action><action>SpawnKnockoutEvzone</action><attacktype>LogicalTypeHandUnitsAttack</attacktype><autoattacktype>LogicalTypeHandUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeHandUnitsAttack</attackresponsetype><runaway>0</runaway><transition><tactic>Stealth</tactic><length>2</length><exit>1</exit></transition><autoretarget>1</autoretarget><idleanim>Idle</idleanim><boredanim>Bored</boredanim><deathanim>Death_by_melee</deathanim><walkanim>Walk</walkanim><joganim>Jog</joganim><runanim>Run</runanim></tactic>
+  <tactic>StandGround<action priority="100">BuildingAttack</action><action priority="100">GuardianAttack</action><action priority="75">HandAttack</action><action priority="2">Stun</action><action priority="1">SwashbucklerAttack</action><action>AutoGatherWood</action><action>Build</action><action>ExtraSpeed</action><action>FrightenSpeed</action><action>Discover</action><action>Heal</action><action>ExtraHitPointsHM02</action><action>SpawnKnockoutEvzone</action><attacktype>LogicalTypeHandUnitsAttack</attacktype><autoattacktype>LogicalTypeHandUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeHandUnitsAttack</attackresponsetype><runaway>0</runaway><transition><tactic>Stealth</tactic><length>2</length><exit>1</exit></transition><autoretarget>1</autoretarget><idleanim>Idle</idleanim><boredanim>Bored</boredanim><deathanim>Death_by_melee</deathanim><walkanim>Walk</walkanim><joganim>Jog</joganim><runanim>Run</runanim></tactic>
+</tactics>

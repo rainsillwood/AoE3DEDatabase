@@ -1,0 +1,264 @@
+<tactics>
+  <action>
+    <name stringid="43294">ModifyGatherCoin</name>
+    <type>ModifyGather</type>
+    <modifyamount>999.0</modifyamount>
+    <active>1</active>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="43295">ModifyGatherFood</name>
+    <type>ModifyGather</type>
+    <modifyamount>999.0</modifyamount>
+    <active>1</active>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="43294">ModifyGatherWood</name>
+    <type>ModifyGather</type>
+    <modifyamount>999.0</modifyamount>
+    <active>1</active>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="43295">ModifyGatherNoResource</name>
+    <type>ModifyGather</type>
+    <active>1</active>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="113108">SpawnCow</name>
+    <type>DanceBonus</type>
+    <dancebonustype>UnitSpawn</dancebonustype>
+    <modifyprotoid>Cow</modifyprotoid>
+    <modifymultiplier>0.12462</modifymultiplier>
+    <modifyexponent>0.908173</modifyexponent>
+    <modifybase>0.25</modifybase>
+    <active>1</active>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="112438">SpawnSettler</name>
+    <type>DanceBonus</type>
+    <active>0</active>
+    <dancebonustype>UnitSpawn</dancebonustype>
+    <modifyprotoid>Settler</modifyprotoid>
+    <modifymultiplier>0.111111</modifymultiplier>
+    <modifyexponent>0.916667</modifyexponent>
+    <modifybase>0.25</modifybase>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="113107">SpawnComanchero</name>
+    <type>DanceBonus</type>
+    <active>0</active>
+    <dancebonustype>UnitSpawn</dancebonustype>
+    <modifyprotoid>deSaloonVaquero</modifyprotoid>
+    <maintaintrainpoints>90</maintaintrainpoints>
+    <modifymultiplier>0.24</modifymultiplier>
+    <modifyexponent>0.97</modifyexponent>
+    <modifybase>1.0</modifybase>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="113109">SpawnChinaco</name>
+    <type>DanceBonus</type>
+    <active>0</active>
+    <dancebonustype>UnitSpawn</dancebonustype>
+    <modifyprotoid>deChinaco</modifyprotoid>
+    <maintaintrainpoints>70</maintaintrainpoints>
+    <modifymultiplier>0.325</modifymultiplier>
+    <modifyexponent>0.9656</modifyexponent>
+    <modifybase>1.0</modifybase>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="43294">AutoGatherCoin</name>
+    <type>AutoGather</type>
+    <active>1</active>
+    <persistent>1</persistent>
+    <addgatherercontribution>1</addgatherercontribution>
+  </action>
+  <action>
+    <name stringid="43295">AutoGatherFood</name>
+    <type>AutoGather</type>
+    <active>1</active>
+    <persistent>1</persistent>
+    <addgatherercontribution>1</addgatherercontribution>
+  </action>
+  <action>
+    <name stringid="43294">AutoGatherWood</name>
+    <type>AutoGather</type>
+    <active>1</active>
+    <persistent>1</persistent>
+    <addgatherercontribution>1</addgatherercontribution>
+  </action>
+  <action>
+    <name stringid="38133">RangedAttack</name>
+    <type>Attack</type>
+    <active>0</active>
+    <attackaction>1</attackaction>
+    <rangedlogic>1</rangedlogic>
+    <activeifcontainsunits>1</activeifcontainsunits>
+    <damagefactorcap>20</damagefactorcap>
+    <scalebycontainedunits>1</scalebycontainedunits>
+    <anim>RangedAttack</anim>
+    <maxheight>0</maxheight>
+    <accuracy>1.0</accuracy>
+    <aimbonus>0</aimbonus>
+    <maxspread>5</maxspread>
+    <spreadfactor>0.25</spreadfactor>
+    <trackrating>120</trackrating>
+    <unintentionaldamagemultiplier>0.7</unintentionaldamagemultiplier>
+    <projectile>InvisibleProjectile</projectile>
+    <impacteffect>effects\impacts\gun</impacteffect>
+    <rate type="Unit">1.0 </rate>
+    <instantballistics>1</instantballistics>
+    <perfectaccuracy>1</perfectaccuracy>
+  </action>
+  <action>
+    <name stringid="38121">AntiShipAttack</name>
+    <type>Attack</type>
+    <active>0</active>
+    <attackaction>1</attackaction>
+    <rangedlogic>1</rangedlogic>
+    <activeifcontainsunits>1</activeifcontainsunits>
+    <anim>RangedAttackShip</anim>
+    <maxheight>0</maxheight>
+    <accuracy>1.0</accuracy>
+    <aimbonus>0</aimbonus>
+    <maxspread>5</maxspread>
+    <spreadfactor>0.25</spreadfactor>
+    <trackrating>120</trackrating>
+    <unintentionaldamagemultiplier>0.7</unintentionaldamagemultiplier>
+    <projectile>Cannonball</projectile>
+    <impacteffect>effects\impacts\cannon</impacteffect>
+    <perfectaccuracy>1</perfectaccuracy>
+    <rate type="Ship">1.0 </rate>
+  </action>
+  <action>
+    <name stringid="69158">SpawnBajaCaliforniaTerritory</name>
+    <type>Maintain</type>
+    <active>0</active>
+    <rate type="deSpawnBajaCaliforniaTerritoryBatch">2</rate>
+    <singleuse>1</singleuse>
+    <animationrate>1</animationrate>
+    <persistent>1</persistent>
+    <keepalive>1</keepalive>
+  </action>
+  <action>
+    <name stringid="69158">SpawnCrates</name>
+    <type>Spawn</type>
+    <rate type="CrateofFood">1.0</rate>
+    <rate type="CrateofCoin">1.0</rate>
+    <singleuse>1</singleuse>
+    <animationrate>1</animationrate>
+    <active>1</active>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="112874">AutoGatherCoinHenequen</name>
+    <type>AutoGather</type>
+    <active>0</active>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="112874">AutoGatherFoodHenequen</name>
+    <type>AutoGather</type>
+    <active>0</active>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="112874">AutoGatherWoodHenequen</name>
+    <type>AutoGather</type>
+    <active>0</active>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="69158">SpawnREVNatVillager</name>
+    <type>Maintain</type>
+    <rate type="deREVNativeVillager">3</rate>
+    <maintaintrainpoints>0.0000</maintaintrainpoints>
+    <singleuse>1</singleuse>
+    <animationrate>1</animationrate>
+    <active>0</active>
+    <persistent>1</persistent>
+    <keepalive>1</keepalive>
+  </action>
+  <action>
+    <name stringid="69158">SpawnFedMXMayaCrops</name>
+    <type>Maintain</type>
+    <active>0</active>
+    <rate type="deCrateMayaCrops">1</rate>
+    <singleuse>1</singleuse>
+    <animationrate>1</animationrate>
+    <persistent>1</persistent>
+    <keepalive>1</keepalive>
+  </action>
+  <action>
+    <name stringid="91721">AreaGatherCrate</name>
+    <type>AutoRangedModify</type>
+    <modifyabstracttype>AbstractResourceCrate</modifyabstracttype>
+    <active>0</active>
+    <maxrange>16</maxrange>
+    <persistent>1</persistent>
+    <donotignoredead>1</donotignoredead>
+    <singleunit>0</singleunit>
+    <modifytype>UnitResource</modifytype>
+    <modifyamount>10.0</modifyamount>
+    <modifytargetlimit>20</modifytargetlimit>
+    <modelattachment>effects\ypack_auras\torpgatherpower.xml</modelattachment>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+  </action>
+  <action>
+    <name stringid="113171">AreaGatherHerdable</name>
+    <type>AutoRangedModify</type>
+    <modifyabstracttype>Herdable</modifyabstracttype>
+    <includegaia>1</includegaia>
+    <active>0</active>
+    <maxrange>16</maxrange>
+    <persistent>1</persistent>
+    <donotignoredead>1</donotignoredead>
+    <modifytype>UnitResource</modifytype>
+    <modifyamount>8.0</modifyamount>
+    <modifytargetlimit>2</modifytargetlimit>
+    <restricttofullcapacitygatherers>1</restricttofullcapacitygatherers>
+    <modelattachment>effects\ypack_auras\torpgatherpower.xml</modelattachment>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+  </action>
+  <action>
+    <name stringid="68994">FarmSlowEnemyMilitary</name>
+    <type>AutoRangedModify</type>
+    <targetenemy>1</targetenemy>
+    <active>0</active>
+    <maxrange>12.00</maxrange>
+    <persistent>1</persistent>
+    <squareaura>1</squareaura>
+    <nostack>1</nostack>
+    <nostackignorepuid>1</nostackignorepuid>
+    <modifytype>Speed</modifytype>
+    <modifymultiplier>0.70</modifymultiplier>
+    <modelattachment>effects\ypack_auras\frightpower.xml</modelattachment>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+  </action>
+  <action>
+    <name stringid="113109">SpawnSoldado</name>
+    <type>DanceBonus</type>
+    <active>0</active>
+    <dancebonustype>UnitSpawn</dancebonustype>
+    <modifyprotoid>deSoldado</modifyprotoid>
+    <maintaintrainpoints>90.5</maintaintrainpoints>
+    <modifymultiplier>0.325</modifymultiplier>
+    <modifyexponent>0.9656</modifyexponent>
+    <modifybase>1.0</modifybase>
+    <persistent>1</persistent>
+  </action>
+  <tactic>HaciendaFood<attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><action priority="100">AntiShipAttack</action><action priority="75">RangedAttack</action><action>ModifyGatherFood</action><action>AutoGatherFood</action><action>AutoGatherCoinHenequen</action><action>AutoGatherWoodHenequen</action><action>SpawnBajaCaliforniaTerritory</action><action>SpawnFedMXMayaCrops</action><action>SpawnREVNatVillager</action><action>AreaGatherCrate</action><action>AreaGatherHerdable</action><action>FarmSlowEnemyMilitary</action><transition><tactic>HaciendaCoin</tactic><length>2</length><exit>1</exit></transition><transition><tactic>HaciendaWood</tactic><length>2</length><exit>1</exit></transition><transition><tactic>HaciendaCow</tactic><length>2</length><exit>1</exit></transition><transition><tactic>HaciendaSettler</tactic><length>2</length><exit>1</exit></transition><transition><tactic>HaciendaComanchero</tactic><length>2</length><exit>1</exit></transition><transition><tactic>HaciendaChinaco</tactic><length>2</length><exit>1</exit></transition><transition><tactic>HaciendaSoldado</tactic><length>2</length><exit>1</exit></transition></tactic>
+  <tactic>HaciendaCoin<attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><action priority="100">AntiShipAttack</action><action priority="75">RangedAttack</action><action>ModifyGatherCoin</action><action>AutoGatherCoin</action><action>AutoGatherFoodHenequen</action><action>AutoGatherWoodHenequen</action><action>SpawnBajaCaliforniaTerritory</action><action>SpawnFedMXMayaCrops</action><action>SpawnREVNatVillager</action><action>AreaGatherCrate</action><action>AreaGatherHerdable</action><action>FarmSlowEnemyMilitary</action><transition><tactic>HaciendaFood</tactic><length>2</length><exit>1</exit></transition><transition><tactic>HaciendaWood</tactic><length>2</length><exit>1</exit></transition><transition><tactic>HaciendaCow</tactic><length>2</length><exit>1</exit></transition><transition><tactic>HaciendaSettler</tactic><length>2</length><exit>1</exit></transition><transition><tactic>HaciendaComanchero</tactic><length>2</length><exit>1</exit></transition><transition><tactic>HaciendaChinaco</tactic><length>2</length><exit>1</exit></transition><transition><tactic>HaciendaSoldado</tactic><length>2</length><exit>1</exit></transition></tactic>
+  <tactic>HaciendaWood<active>0</active><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><action priority="100">AntiShipAttack</action><action priority="75">RangedAttack</action><action>ModifyGatherWood</action><action>AutoGatherWood</action><action>AutoGatherFoodHenequen</action><action>AutoGatherCoinHenequen</action><action>SpawnBajaCaliforniaTerritory</action><action>SpawnFedMXMayaCrops</action><action>SpawnREVNatVillager</action><action>AreaGatherCrate</action><action>AreaGatherHerdable</action><action>FarmSlowEnemyMilitary</action><transition><tactic>HaciendaFood</tactic><length>2</length><exit>1</exit></transition><transition><tactic>HaciendaCoin</tactic><length>2</length><exit>1</exit></transition><transition><tactic>HaciendaCow</tactic><length>2</length><exit>1</exit></transition><transition><tactic>HaciendaSettler</tactic><length>2</length><exit>1</exit></transition><transition><tactic>HaciendaComanchero</tactic><length>2</length><exit>1</exit></transition><transition><tactic>HaciendaChinaco</tactic><length>2</length><exit>1</exit></transition><transition><tactic>HaciendaSoldado</tactic><length>2</length><exit>1</exit></transition></tactic>
+  <tactic>HaciendaCow<attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><action priority="100">AntiShipAttack</action><action priority="75">RangedAttack</action><action>ModifyGatherNoResource</action><action>SpawnCow</action><action>SpawnBajaCaliforniaTerritory</action><action>SpawnFedMXMayaCrops</action><action>SpawnREVNatVillager</action><action>AutoGatherCoinHenequen</action><action>AutoGatherFoodHenequen</action><action>AutoGatherWoodHenequen</action><action>AreaGatherCrate</action><action>AreaGatherHerdable</action><action>FarmSlowEnemyMilitary</action><transition><tactic>HaciendaFood</tactic><length>2</length><exit>1</exit></transition><transition><tactic>HaciendaCoin</tactic><length>2</length><exit>1</exit></transition><transition><tactic>HaciendaWood</tactic><length>2</length><exit>1</exit></transition><transition><tactic>HaciendaSettler</tactic><length>2</length><exit>1</exit></transition><transition><tactic>HaciendaComanchero</tactic><length>2</length><exit>1</exit></transition><transition><tactic>HaciendaChinaco</tactic><length>2</length><exit>1</exit></transition><transition><tactic>HaciendaSoldado</tactic><length>2</length><exit>1</exit></transition></tactic>
+  <tactic>HaciendaSettler<active>0</active><agerequirement>2</agerequirement><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><action priority="100">AntiShipAttack</action><action priority="75">RangedAttack</action><action>ModifyGatherNoResource</action><action>SpawnSettler</action><action>SpawnBajaCaliforniaTerritory</action><action>SpawnFedMXMayaCrops</action><action>SpawnREVNatVillager</action><action>AutoGatherCoinHenequen</action><action>AutoGatherFoodHenequen</action><action>AutoGatherWoodHenequen</action><action>AreaGatherCrate</action><action>AreaGatherHerdable</action><action>FarmSlowEnemyMilitary</action><transition><tactic>HaciendaFood</tactic><length>2</length><exit>1</exit></transition><transition><tactic>HaciendaCoin</tactic><length>2</length><exit>1</exit></transition><transition><tactic>HaciendaWood</tactic><length>2</length><exit>1</exit></transition><transition><tactic>HaciendaCow</tactic><length>2</length><exit>1</exit></transition><transition><tactic>HaciendaComanchero</tactic><length>2</length><exit>1</exit></transition><transition><tactic>HaciendaChinaco</tactic><length>2</length><exit>1</exit></transition><transition><tactic>HaciendaSoldado</tactic><length>2</length><exit>1</exit></transition></tactic>
+  <tactic>HaciendaComanchero<active>0</active><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><action priority="100">AntiShipAttack</action><action priority="75">RangedAttack</action><action>ModifyGatherNoResource</action><action>SpawnComanchero</action><action>SpawnBajaCaliforniaTerritory</action><action>SpawnFedMXMayaCrops</action><action>SpawnREVNatVillager</action><action>AutoGatherCoinHenequen</action><action>AutoGatherFoodHenequen</action><action>AutoGatherWoodHenequen</action><action>AreaGatherCrate</action><action>AreaGatherHerdable</action><action>FarmSlowEnemyMilitary</action><transition><tactic>HaciendaFood</tactic><length>2</length><exit>1</exit></transition><transition><tactic>HaciendaCoin</tactic><length>2</length><exit>1</exit></transition><transition><tactic>HaciendaWood</tactic><length>2</length><exit>1</exit></transition><transition><tactic>HaciendaCow</tactic><length>2</length><exit>1</exit></transition><transition><tactic>HaciendaSettler</tactic><length>2</length><exit>1</exit></transition><transition><tactic>HaciendaChinaco</tactic><length>2</length><exit>1</exit></transition><transition><tactic>HaciendaSoldado</tactic><length>2</length><exit>1</exit></transition></tactic>
+  <tactic>HaciendaChinaco<active>0</active><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><action priority="100">AntiShipAttack</action><action priority="75">RangedAttack</action><action>ModifyGatherNoResource</action><action>SpawnChinaco</action><action>SpawnBajaCaliforniaTerritory</action><action>SpawnFedMXMayaCrops</action><action>SpawnREVNatVillager</action><action>AutoGatherCoinHenequen</action><action>AutoGatherFoodHenequen</action><action>AutoGatherWoodHenequen</action><action>AreaGatherCrate</action><action>AreaGatherHerdable</action><action>FarmSlowEnemyMilitary</action><transition><tactic>HaciendaFood</tactic><length>2</length><exit>1</exit></transition><transition><tactic>HaciendaCoin</tactic><length>2</length><exit>1</exit></transition><transition><tactic>HaciendaWood</tactic><length>2</length><exit>1</exit></transition><transition><tactic>HaciendaCow</tactic><length>2</length><exit>1</exit></transition><transition><tactic>HaciendaSettler</tactic><length>2</length><exit>1</exit></transition><transition><tactic>HaciendaComanchero</tactic><length>2</length><exit>1</exit></transition><transition><tactic>HaciendaSoldado</tactic><length>2</length><exit>1</exit></transition></tactic>
+  <tactic>HaciendaSoldado<active>0</active><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><action priority="100">AntiShipAttack</action><action priority="75">RangedAttack</action><action>ModifyGatherNoResource</action><action>SpawnSoldado</action><action>SpawnBajaCaliforniaTerritory</action><action>SpawnFedMXMayaCrops</action><action>SpawnREVNatVillager</action><action>AutoGatherCoinHenequen</action><action>AutoGatherFoodHenequen</action><action>AutoGatherWoodHenequen</action><action>AreaGatherCrate</action><action>AreaGatherHerdable</action><action>FarmSlowEnemyMilitary</action><transition><tactic>HaciendaFood</tactic><length>2</length><exit>1</exit></transition><transition><tactic>HaciendaCoin</tactic><length>2</length><exit>1</exit></transition><transition><tactic>HaciendaWood</tactic><length>2</length><exit>1</exit></transition><transition><tactic>HaciendaCow</tactic><length>2</length><exit>1</exit></transition><transition><tactic>HaciendaSettler</tactic><length>2</length><exit>1</exit></transition><transition><tactic>HaciendaComanchero</tactic><length>2</length><exit>1</exit></transition><transition><tactic>HaciendaChinaco</tactic><length>2</length><exit>1</exit></transition></tactic>
+</tactics>

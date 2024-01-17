@@ -1,0 +1,18 @@
+<tactics>
+  <action>
+    <name stringid="68971">SpawnArchitect</name>
+    <active>0</active>
+    <type>Maintain</type>
+    <maintaintrainpoints>120</maintaintrainpoints>
+    <rate type="deArchitect">1.0</rate>
+    <activeifnotgaia>1</activeifnotgaia>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="43019">AutoGather</name>
+    <type>AutoGather</type>
+    <persistent>1</persistent>
+    <autogatherteam>1</autogatherteam>
+  </action>
+  <tactic>Normal<action>SpawnArchitect</action><action>AutoGather</action></tactic>
+</tactics>

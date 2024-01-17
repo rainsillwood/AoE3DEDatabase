@@ -1,0 +1,11 @@
+<tactics>
+  <action>
+    <name stringid="48943">ExtraBounty</name>
+    <type>AutoRangedModify</type>
+    <active>1</active>
+    <persistent>1</persistent>
+    <modifytype>Bounty</modifytype>
+    <modifymultiplier>1.6</modifymultiplier>
+  </action>
+  <tactic>Normal<action>ExtraBounty</action></tactic>
+</tactics>

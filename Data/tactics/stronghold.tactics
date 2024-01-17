@@ -1,0 +1,52 @@
+<tactics>
+  <action>
+    <name stringid="38133">RangedAttack</name>
+    <type>Attack</type>
+    <attackaction>1</attackaction>
+    <rangedlogic>1</rangedlogic>
+    <anim>RangedAttack</anim>
+    <accuracy>1</accuracy>
+    <aimbonus>0</aimbonus>
+    <maxspread>35</maxspread>
+    <spreadfactor>100</spreadfactor>
+    <trackrating>100</trackrating>
+    <scalebycontainedunittype>
+      <rate type="Military">0.101</rate>
+    </scalebycontainedunittype>
+    <damagefactorcap>3.5</damagefactorcap>
+    <projectile>Arrow</projectile>
+    <rate type="Unit">1.0 </rate>
+    <throw>1</throw>
+    <numberprojectiles>6</numberprojectiles>
+    <displayednumberprojectiles>6</displayednumberprojectiles>
+    <instantballistics>0</instantballistics>
+  </action>
+  <action>
+    <name stringid="38121">AntiShipAttack</name>
+    <type>Attack</type>
+    <attackaction>1</attackaction>
+    <rangedlogic>1</rangedlogic>
+    <anim>RangedAttack</anim>
+    <maxheight>0</maxheight>
+    <accuracy>1.0</accuracy>
+    <aimbonus>0</aimbonus>
+    <maxspread>8</maxspread>
+    <spreadfactor>0.40</spreadfactor>
+    <trackrating>12</trackrating>
+    <unintentionaldamagemultiplier>0.7</unintentionaldamagemultiplier>
+    <projectile>ArrowFlaming</projectile>
+    <displayednumberprojectiles>6</displayednumberprojectiles>
+    <impacteffect>effects\impacts\torch</impacteffect>
+    <perfectaccuracy>1</perfectaccuracy>
+    <rate type="AbstractWarship">1.0 </rate>
+  </action>
+  <action>
+    <name stringid="46491">Stealth</name>
+    <type>Stealth</type>
+    <active>0</active>
+    <maxrange>30.0</maxrange>
+    <persistent>1</persistent>
+  </action>
+  <tactic>Normal<attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><action priority="100">AntiShipAttack</action><action priority="75">RangedAttack</action><transition><tactic>Stealth</tactic><length>2</length><exit>1</exit></transition></tactic>
+  <tactic>Stealth<action>Stealth</action><active>0</active><checkifcanstealth range="30.0">1</checkifcanstealth><transition><tactic>Normal</tactic><length>0.3</length><exit>1</exit></transition></tactic>
+</tactics>

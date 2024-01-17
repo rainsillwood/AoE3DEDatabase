@@ -1,0 +1,38 @@
+<tactics>
+  <action>
+    <name stringid="38134">HandAttack</name>
+    <type>HandAttack</type>
+    <maxrange>1.75</maxrange>
+    <rate type="Unit">1.0 </rate>
+    <attackaction>1</attackaction>
+    <handlogic>1</handlogic>
+    <anim>Attack_melee</anim>
+    <idleanim>Idle</idleanim>
+    <impacteffect>effects\impacts\melee</impacteffect>
+  </action>
+  <action>
+    <name stringid="42873">GuardianAttack</name>
+    <type>HandAttack</type>
+    <maxrange>1.75</maxrange>
+    <rate type="Guardian">1.0 </rate>
+    <attackaction>1</attackaction>
+    <handlogic>1</handlogic>
+    <anim>Attack_melee</anim>
+    <idleanim>Idle</idleanim>
+    <impacteffect>effects\impacts\melee</impacteffect>
+  </action>
+  <action>
+    <name stringid="38118">BuildingAttack</name>
+    <type>Attack</type>
+    <rangedlogic>1</rangedlogic>
+    <maxrange>6</maxrange>
+    <rate type="LogicalTypeShipsAndBuildings">1.0 </rate>
+    <attackaction>1</attackaction>
+    <speedboost>1</speedboost>
+    <anim>Raze_attack</anim>
+    <idleanim>Raze_idle</idleanim>
+    <impacteffect>effects\impacts\torch</impacteffect>
+    <projectile>TorchProjectile</projectile>
+  </action>
+  <tactic>Normal<action priority="100">BuildingAttack</action><action priority="76">GuardianAttack</action><action priority="75">HandAttack</action><attacktype>LogicalTypeHandUnitsAttack</attacktype><attackresponsetype>LogicalTypeHandUnitsAttack</attackresponsetype><runaway>1</runaway><autoretarget>1</autoretarget><idleanim>Idle</idleanim><boredanim>Bored</boredanim><deathanim>Death_by_melee</deathanim><walkanim>Walk</walkanim><joganim>Jog</joganim><runanim>Run</runanim></tactic>
+</tactics>

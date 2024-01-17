@@ -1,0 +1,17 @@
+<tactics>
+  <action>
+    <name stringid="48954">TempSpeedBonus</name>
+    <active>0</active>
+    <type>AutoRangedModify</type>
+    <maxrange>20</maxrange>
+    <modifyabstracttype>Military</modifyabstracttype>
+    <persistent>1</persistent>
+    <nostack>1</nostack>
+    <modifyself>1</modifyself>
+    <modifytype>Speed</modifytype>
+    <modifymultiplier>1.10</modifymultiplier>
+    <modelattachment>effects\ypack_auras\daimyopower.xml</modelattachment>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+  </action>
+  <tactic>Default<action>TempSpeedBonus</action><idleanim>Idle</idleanim><boredanim>Bored</boredanim><deathanim>Death</deathanim><walkanim>Walk</walkanim><joganim>Walk</joganim><runanim>Walk</runanim></tactic>
+</tactics>

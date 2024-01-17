@@ -1,0 +1,31 @@
+<tactics>
+  <action>
+    <name stringid="43294">ModifyGatherCoin</name>
+    <type>ModifyGather</type>
+    <active>1</active>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="43295">ModifyGatherFood</name>
+    <type>ModifyGather</type>
+    <active>1</active>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="68994">FarmSlowEnemyMilitary</name>
+    <type>AutoRangedModify</type>
+    <targetenemy>1</targetenemy>
+    <active>0</active>
+    <maxrange>9.5</maxrange>
+    <persistent>1</persistent>
+    <squareaura>1</squareaura>
+    <nostack>1</nostack>
+    <nostackignorepuid>1</nostackignorepuid>
+    <modifytype>Speed</modifytype>
+    <modifymultiplier>0.70</modifymultiplier>
+    <modelattachment>effects\ypack_auras\frightpower.xml</modelattachment>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+  </action>
+  <tactic>PaddyFood<action>ModifyGatherFood</action><action>FarmSlowEnemyMilitary</action><transition><tactic>PaddyCoin</tactic><length>2</length><exit>1</exit></transition></tactic>
+  <tactic>PaddyCoin<action>ModifyGatherCoin</action><action>FarmSlowEnemyMilitary</action><transition><tactic>PaddyFood</tactic><length>2</length><exit>1</exit></transition></tactic>
+</tactics>

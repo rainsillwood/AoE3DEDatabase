@@ -1,0 +1,15 @@
+<tactics>
+  <action>
+    <name stringid="63007">ShrineGather</name>
+    <type>Gather</type>
+    <maxrange>0.5</maxrange>
+    <rate type="AbstractShrine">.1</rate>
+  </action>
+  <action>
+    <name stringid="63007">HaciendaGather</name>
+    <type>Gather</type>
+    <maxrange>0.5</maxrange>
+    <deposittogathersiteowner>1</deposittogathersiteowner>
+  </action>
+  <tactic>Normal<action>ShrineGather</action><action>HaciendaGather</action></tactic>
+</tactics>

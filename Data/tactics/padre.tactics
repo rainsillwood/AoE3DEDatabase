@@ -1,0 +1,192 @@
+<tactics>
+  <action>
+    <name stringid="69148">Discover</name>
+    <type>Discover</type>
+    <anim>Pickup</anim>
+    <maxrange>0.2</maxrange>
+    <rate type="AbstractNuggetLand">1.0</rate>
+  </action>
+  <action>
+    <name stringid="69147">Build</name>
+    <type>Build</type>
+    <anim>Build</anim>
+    <maxrange>0.2</maxrange>
+    <rate type="Building">1.0</rate>
+  </action>
+  <action>
+    <name stringid="38133">VolleyRangedAttack</name>
+    <type>Attack</type>
+    <active>0</active>
+    <attackaction>1</attackaction>
+    <rangedlogic>1</rangedlogic>
+    <anim>RangedAttack</anim>
+    <reloadanim>Reload</reloadanim>
+    <idleanim>Reload</idleanim>
+    <maxheight>0</maxheight>
+    <accuracy>1.0</accuracy>
+    <accuracyreductionfactor>0.5</accuracyreductionfactor>
+    <aimbonus>0</aimbonus>
+    <maxspread>5</maxspread>
+    <spreadfactor>0.25</spreadfactor>
+    <trackrating>12</trackrating>
+    <unintentionaldamagemultiplier>0.7</unintentionaldamagemultiplier>
+    <projectile>InvisibleProjectile</projectile>
+    <impacteffect>effects\impacts\gun</impacteffect>
+    <minrange>2</minrange>
+    <rate type="Unit">1.0</rate>
+    <instantballistics>1</instantballistics>
+  </action>
+  <action>
+    <name stringid="38134">HandAttack</name>
+    <type>Attack</type>
+    <attackaction>1</attackaction>
+    <handlogic>1</handlogic>
+    <anim>HandAttack</anim>
+    <idleanim>CombatIdleMelee</idleanim>
+    <maxrange>1.75</maxrange>
+    <impacteffect>effects\impacts\melee</impacteffect>
+    <rate type="Unit">1.0</rate>
+  </action>
+  <action>
+    <name stringid="38118">BuildingAttack</name>
+    <type>Attack</type>
+    <rangedlogic>1</rangedlogic>
+    <maxrange>6</maxrange>
+    <rate type="LogicalTypeShipsAndBuildings">1.0</rate>
+    <attackaction>1</attackaction>
+    <speedboost>1</speedboost>
+    <anim>Raze_Attack</anim>
+    <idleanim>Raze_Idle</idleanim>
+    <impacteffect>effects\impacts\torch</impacteffect>
+    <projectile>TorchProjectile</projectile>
+  </action>
+  <action>
+    <name stringid="69155">Heal</name>
+    <type>Heal</type>
+    <maxrange>12</maxrange>
+    <rate type="LogicalTypeHealed">5.0</rate>
+    <anim>Heal</anim>
+  </action>
+  <action>
+    <name stringid="69155">HealAreaAux</name>
+    <type>Heal</type>
+    <active>0</active>
+    <maxrange>6</maxrange>
+    <rate type="LogicalTypeHealed">0.00001</rate>
+    <anim>Heal</anim>
+    <hidefromstats>1</hidefromstats>
+  </action>
+  <action>
+    <name stringid="112252">AreaHeal</name>
+    <type>AutoRangedModify</type>
+    <maxrange>12</maxrange>
+    <modifyabstracttype>LogicalTypeHealed</modifyabstracttype>
+    <active>0</active>
+    <persistent>1</persistent>
+    <modifytype>HealRate</modifytype>
+    <modifyamount>10</modifyamount>
+    <modifytargetlimit>50</modifytargetlimit>
+    <restricttoidleunits>1</restricttoidleunits>
+    <modelattachment>effects\areaheal.xml</modelattachment>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+  </action>
+  <action>
+    <name stringid="110174">ChargeHeavyStrikeAttack</name>
+    <type>Attack</type>
+    <attackaction>1</attackaction>
+    <handlogic>1</handlogic>
+    <chargeaction>1</chargeaction>
+    <anim>SwordStrike</anim>
+    <idleanim>Charge_Idle</idleanim>
+    <maxrange>2</maxrange>
+    <impacteffect>effects\impacts\melee</impacteffect>
+    <rate type="Unit">1.0</rate>
+    <basedamagecap>1</basedamagecap>
+  </action>
+  <action>
+    <name stringid="112252">AreaHealDolores</name>
+    <type>AutoRangedModify</type>
+    <maxrange>35</maxrange>
+    <modifyabstracttype>UnitClass</modifyabstracttype>
+    <active>0</active>
+    <modifyexclusive>1</modifyexclusive>
+    <persistent>1</persistent>
+    <modifytype>HealRate</modifytype>
+    <modifyamount>10</modifyamount>
+    <restricttoidleunits>0</restricttoidleunits>
+    <modelattachment>effects\areaheal.xml</modelattachment>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+  </action>
+  <action>
+    <name stringid="112252">AreaHealDoloresImproved</name>
+    <type>AutoRangedModify</type>
+    <maxrange>70</maxrange>
+    <modifyabstracttype>UnitClass</modifyabstracttype>
+    <active>0</active>
+    <modifyexclusive>1</modifyexclusive>
+    <persistent>1</persistent>
+    <modifytype>HealRate</modifytype>
+    <modifyamount>20</modifyamount>
+    <restricttoidleunits>0</restricttoidleunits>
+    <modelattachment>effects\areaheal.xml</modelattachment>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+  </action>
+  <action>
+    <name stringid="110174">PacifyAttack</name>
+    <type>CastPower</type>
+    <anim>PacifyAttack</anim>
+    <idleanim>Idle</idleanim>
+    <rangedlogic>1</rangedlogic>
+    <maxrange>5</maxrange>
+    <rate type="Unit">1.0</rate>
+    <damage>75</damage>
+    <rof>1</rof>
+    <maxheight>0</maxheight>
+    <accuracy>1</accuracy>
+    <accuracyreductionfactor>0</accuracyreductionfactor>
+    <aimbonus>5</aimbonus>
+    <trackrating>12</trackrating>
+    <projectile>InvisibleProjectile</projectile>
+    <instantballistics>0</instantballistics>
+  </action>
+  <action>
+    <name stringid="69158">SpawnKnockout</name>
+    <type>Spawn</type>
+    <rate type="Minuteman">1.0</rate>
+    <singleuse>1</singleuse>
+    <restricttoknockout>1</restricttoknockout>
+    <animationrate>1</animationrate>
+    <active>0</active>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="48954">ExtraHitPointsHM02</name>
+    <type>AutoRangedModify</type>
+    <active>0</active>
+    <maxrange>24</maxrange>
+    <persistent>1</persistent>
+    <modifytype>MaxHP</modifytype>
+    <forbidabstracttype>AbstractArtillery</forbidabstracttype>
+    <modifymultiplier>1.10</modifymultiplier>
+    <nostack>1</nostack>
+    <nostackignorepuid>1</nostackignorepuid>
+    <modelattachment>effects\chiefpower\chiefpower.xml</modelattachment>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+  </action>
+  <action>
+    <name stringid="69158">SpawnKnockoutEvzone</name>
+    <type>Spawn</type>
+    <rate type="deNatEvzone">1.0</rate>
+    <singleuse>1</singleuse>
+    <restricttoknockout>1</restricttoknockout>
+    <animationrate>1</animationrate>
+    <active>0</active>
+    <persistent>1</persistent>
+  </action>
+  <tactic>Volley<action priority="100">VolleyRangedAttack</action><action priority="75">BuildingAttack</action><action priority="30">ChargeHeavyStrikeAttack</action><action priority="25">HandAttack</action><action priority="1">PacifyAttack</action><action>Build</action><action>Discover</action><action>SpawnKnockout</action><action>Heal</action><action>HealAreaAux</action><action>AreaHeal</action><action>AreaHealDolores</action><action>AreaHealDoloresImproved</action><action>ExtraHitPointsHM02</action><action>SpawnKnockoutEvzone</action><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><runaway>0</runaway><idleanim>Idle</idleanim><boredanim>Bored</boredanim><deathanim>Death</deathanim><walkanim>Walk</walkanim><joganim>Jog</joganim><runanim>Run</runanim></tactic>
+  <tactic>Melee<action priority="100">BuildingAttack</action><action priority="80">ChargeHeavyStrikeAttack</action><action priority="75">HandAttack</action><action priority="1">PacifyAttack</action><action>Build</action><action>Discover</action><action>SpawnKnockout</action><action>Heal</action><action>HealAreaAux</action><action>AreaHeal</action><action>AreaHealDolores</action><action>AreaHealDoloresImproved</action><action>ExtraHitPointsHM02</action><action>SpawnKnockoutEvzone</action><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><runaway>0</runaway><autoretarget>1</autoretarget><idleanim>Idle</idleanim><boredanim>Bored</boredanim><deathanim>Death</deathanim><walkanim>Walk</walkanim><joganim>Jog</joganim><runanim>Run</runanim></tactic>
+  <tactic>Defend<action priority="100">VolleyRangedAttack</action><action priority="75">BuildingAttack</action><action priority="30">ChargeHeavyStrikeAttack</action><action priority="25">HandAttack</action><action priority="1">PacifyAttack</action><action>Build</action><action>Discover</action><action>SpawnKnockout</action><action>Heal</action><action>HealAreaAux</action><action>AreaHeal</action><action>AreaHealDolores</action><action>AreaHealDoloresImproved</action><action>ExtraHitPointsHM02</action><action>SpawnKnockoutEvzone</action><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><runaway>0</runaway><autoretarget>1</autoretarget><idleanim>Idle</idleanim><boredanim>Bored</boredanim><deathanim>Death</deathanim><walkanim>Walk</walkanim><joganim>Jog</joganim><runanim>Run</runanim></tactic>
+  <tactic>Stagger<action priority="100">VolleyRangedAttack</action><action priority="75">BuildingAttack</action><action priority="30">ChargeHeavyStrikeAttack</action><action priority="25">HandAttack</action><action priority="1">PacifyAttack</action><action>Build</action><action>Discover</action><action>SpawnKnockout</action><action>Heal</action><action>HealAreaAux</action><action>AreaHeal</action><action>AreaHealDolores</action><action>AreaHealDoloresImproved</action><action>ExtraHitPointsHM02</action><action>SpawnKnockoutEvzone</action><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><runaway>0</runaway><autoretarget>1</autoretarget><idleanim>Idle</idleanim><boredanim>Bored</boredanim><deathanim>Death</deathanim><walkanim>Walk</walkanim><joganim>Jog</joganim><runanim>Run</runanim></tactic>
+  <tactic>StandGround<action priority="100">VolleyRangedAttack</action><action priority="75">BuildingAttack</action><action priority="30">ChargeHeavyStrikeAttack</action><action priority="25">HandAttack</action><action priority="1">PacifyAttack</action><action>Build</action><action>Discover</action><action>SpawnKnockout</action><action>Heal</action><action>HealAreaAux</action><action>AreaHeal</action><action>AreaHealDolores</action><action>AreaHealDoloresImproved</action><action>ExtraHitPointsHM02</action><action>SpawnKnockoutEvzone</action><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><runaway>0</runaway><autoretarget>1</autoretarget><idleanim>Idle</idleanim><boredanim>Bored</boredanim><deathanim>Death</deathanim><walkanim>Walk</walkanim><joganim>Jog</joganim><runanim>Run</runanim></tactic>
+  <tactic>VolleyAnims<active>0</active><idleanim>Idle</idleanim><boredanim>Bored</boredanim><deathanim>Death</deathanim><walkanim>Walk</walkanim><joganim>Jog</joganim><runanim>Run</runanim></tactic>
+</tactics>

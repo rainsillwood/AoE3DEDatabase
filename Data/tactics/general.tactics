@@ -1,0 +1,511 @@
+<tactics>
+  <action>
+    <name stringid="69148">Discover</name>
+    <type>Discover</type>
+    <anim>Pickup</anim>
+    <maxrange>0.2</maxrange>
+    <rate type="AbstractNuggetLand">1.0</rate>
+  </action>
+  <action>
+    <name stringid="69147">Build</name>
+    <type>Build</type>
+    <anim>Build</anim>
+    <maxrange>0.2</maxrange>
+    <rate type="Building">1.0</rate>
+  </action>
+  <action>
+    <name stringid="38133">VolleyRangedAttack</name>
+    <type>Attack</type>
+    <attackaction>1</attackaction>
+    <rangedlogic>1</rangedlogic>
+    <anim>RangedAttack</anim>
+    <reloadanim>Reload</reloadanim>
+    <idleanim>Reload</idleanim>
+    <maxheight>0</maxheight>
+    <accuracy>1.0</accuracy>
+    <accuracyreductionfactor>0.5</accuracyreductionfactor>
+    <aimbonus>0</aimbonus>
+    <maxspread>5</maxspread>
+    <spreadfactor>0.25</spreadfactor>
+    <trackrating>12</trackrating>
+    <unintentionaldamagemultiplier>0.7</unintentionaldamagemultiplier>
+    <projectile>InvisibleProjectile</projectile>
+    <impacteffect>effects\impacts\gun</impacteffect>
+    <minrange>2</minrange>
+    <rate type="Unit">1.0</rate>
+    <instantballistics>1</instantballistics>
+  </action>
+  <action>
+    <name stringid="38134">HandAttack</name>
+    <type>Attack</type>
+    <attackaction>1</attackaction>
+    <handlogic>1</handlogic>
+    <anim>HandAttack</anim>
+    <idleanim>Charge_Idle</idleanim>
+    <maxrange>1.75</maxrange>
+    <impacteffect>effects\impacts\melee</impacteffect>
+    <rate type="Unit">1.0</rate>
+    <targetspeedboost>1</targetspeedboost>
+  </action>
+  <action>
+    <name stringid="38118">BuildingAttack</name>
+    <type>Attack</type>
+    <rangedlogic>1</rangedlogic>
+    <maxrange>6</maxrange>
+    <rate type="LogicalTypeShipsAndBuildings">1.0</rate>
+    <attackaction>1</attackaction>
+    <speedboost>1</speedboost>
+    <anim>Raze_Attack</anim>
+    <idleanim>Raze_Idle</idleanim>
+    <impacteffect>effects\impacts\torch</impacteffect>
+    <projectile>TorchProjectile</projectile>
+  </action>
+  <action>
+    <name stringid="38124">SharpshooterAttack</name>
+    <type>Attack</type>
+    <attackaction>1</attackaction>
+    <rangedlogic>1</rangedlogic>
+    <anim>RangedAttackSharpshoot</anim>
+    <idleanim>SharpshootIdle</idleanim>
+    <boredanim>SharpshootIdle</boredanim>
+    <reloadanim>ReloadSharpshoot</reloadanim>
+    <maxheight>0</maxheight>
+    <accuracy>1.0</accuracy>
+    <perfectaccuracy>1</perfectaccuracy>
+    <aimbonus>5</aimbonus>
+    <trackrating>120</trackrating>
+    <rate type="Guardian">1.0</rate>
+    <impacteffect>effects\impacts\gun</impacteffect>
+    <projectile>InvisibleProjectile</projectile>
+    <rof>1.000000</rof>
+    <instantballistics>1</instantballistics>
+  </action>
+  <action>
+    <name stringid="110171">ChargeCarbineAttack</name>
+    <type>Attack</type>
+    <attackaction>1</attackaction>
+    <rangedlogic>1</rangedlogic>
+    <chargeaction>1</chargeaction>
+    <anim>RangedAttackSharpshoot</anim>
+    <idleanim>SharpshootIdle</idleanim>
+    <maxheight>0</maxheight>
+    <accuracy>1.0</accuracy>
+    <accuracyreductionfactor>0.001</accuracyreductionfactor>
+    <aimbonus>5</aimbonus>
+    <trackrating>120</trackrating>
+    <rate type="Unit">1.0</rate>
+    <minrange>2</minrange>
+    <impacteffect>effects\impacts\gun</impacteffect>
+    <projectile>InvisibleProjectile</projectile>
+    <instantballistics>1</instantballistics>
+  </action>
+  <action>
+    <name stringid="110174">ChargeHeavyStrikeAttack</name>
+    <type>Attack</type>
+    <attackaction>1</attackaction>
+    <handlogic>1</handlogic>
+    <auxchargeaction>1</auxchargeaction>
+    <anim>SwordStrike</anim>
+    <idleanim>Charge_Idle</idleanim>
+    <maxrange>2</maxrange>
+    <impacteffect>effects\impacts\melee</impacteffect>
+    <rate type="Unit">1.0</rate>
+    <basedamagecap>1</basedamagecap>
+  </action>
+  <action>
+    <name stringid="70488">Heal</name>
+    <type>Heal</type>
+    <active>0</active>
+    <maxrange>12</maxrange>
+    <rate type="LogicalTypeHealed">50.0</rate>
+    <anim>Heal</anim>
+  </action>
+  <action>
+    <name stringid="103418">FlagBuildRateBonus</name>
+    <type>AutoRangedModify</type>
+    <active>0</active>
+    <modifyabstracttype>UnitClass</modifyabstracttype>
+    <maxrange>14</maxrange>
+    <persistent>1</persistent>
+    <nostack>1</nostack>
+    <nostackignorepuid>1</nostackignorepuid>
+    <modifytype>BuildRate</modifytype>
+    <modifymultiplier>1.50</modifymultiplier>
+    <modifyrangeuselos>1</modifyrangeuselos>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+  </action>
+  <action>
+    <name stringid="103418">FlagWagonBuildRateBonus</name>
+    <type>AutoRangedModify</type>
+    <active>0</active>
+    <maxrange>14</maxrange>
+    <modifyabstracttype>Building</modifyabstracttype>
+    <persistent>1</persistent>
+    <targetunbuilt>1</targetunbuilt>
+    <nostack>1</nostack>
+    <nostackignorepuid>1</nostackignorepuid>
+    <modifytype>AutoBuildRate</modifytype>
+    <modifymultiplier>1.50</modifymultiplier>
+    <modifyrangeuselos>1</modifyrangeuselos>
+  </action>
+  <action>
+    <name stringid="103417">FlagBuildingWorkRateBonus</name>
+    <type>AutoRangedModify</type>
+    <active>0</active>
+    <maxrange>14</maxrange>
+    <persistent>1</persistent>
+    <nostack>1</nostack>
+    <nostackignorepuid>1</nostackignorepuid>
+    <modifytype>BuildingWorkRate</modifytype>
+    <modifyabstracttype>MilitaryBuilding</modifyabstracttype>
+    <modifymultiplier>1.25</modifymultiplier>
+    <modifyrangeuselos>1</modifyrangeuselos>
+  </action>
+  <action>
+    <name stringid="48958">FlagExtraDamage</name>
+    <type>AutoRangedModify</type>
+    <active>0</active>
+    <maxrange>14</maxrange>
+    <modifyabstracttype>UnitClass</modifyabstracttype>
+    <forbidabstracttype>AbstractArtillery</forbidabstracttype>
+    <persistent>1</persistent>
+    <nostack>1</nostack>
+    <nostackignorepuid>1</nostackignorepuid>
+    <modifytype>Damage</modifytype>
+    <modifymultiplier>1.1</modifymultiplier>
+    <modifyrangeuselos>1</modifyrangeuselos>
+    <modelattachment>effects\ypack_auras\american_power.xml</modelattachment>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+  </action>
+  <action>
+    <name stringid="48958">FlagExtraDamageBuilding</name>
+    <type>AutoRangedModify</type>
+    <active>0</active>
+    <maxrange>14</maxrange>
+    <persistent>1</persistent>
+    <nostack>1</nostack>
+    <nostackignorepuid>1</nostackignorepuid>
+    <modifyabstracttype>Building</modifyabstracttype>
+    <modifytype>Damage</modifytype>
+    <modifymultiplier>1.1</modifymultiplier>
+    <modifyrangeuselos>1</modifyrangeuselos>
+  </action>
+  <action>
+    <name stringid="48958">FlagExtraDamageStateMilitia</name>
+    <type>AutoRangedModify</type>
+    <active>0</active>
+    <maxrange>14</maxrange>
+    <persistent>1</persistent>
+    <nostack>1</nostack>
+    <nostackignorepuid>1</nostackignorepuid>
+    <modifyprotoid>deStateMilitia</modifyprotoid>
+    <modifytype>BaseDamage</modifytype>
+    <modifymultiplier>1.091</modifymultiplier>
+    <modifyrangeuselos>1</modifyrangeuselos>
+  </action>
+  <action>
+    <name stringid="112436">FlagBuildingWorkRateBonusImprovedMX</name>
+    <type>AutoRangedModify</type>
+    <active>0</active>
+    <maxrange>14</maxrange>
+    <persistent>1</persistent>
+    <nostack>1</nostack>
+    <nostackignorepuid>1</nostackignorepuid>
+    <modifyabstracttype>MilitaryBuilding</modifyabstracttype>
+    <modifytype>BuildingWorkRate</modifytype>
+    <modifymultiplier>1.5</modifymultiplier>
+    <modifyrangeuselos>1</modifyrangeuselos>
+  </action>
+  <action>
+    <name stringid="112437">FlagBuildingWorkRateBonusTownCenterMX</name>
+    <type>AutoRangedModify</type>
+    <active>0</active>
+    <maxrange>14</maxrange>
+    <persistent>1</persistent>
+    <nostack>1</nostack>
+    <nostackignorepuid>1</nostackignorepuid>
+    <modifyprotoid>TownCenter</modifyprotoid>
+    <modifytype>BuildingWorkRate</modifytype>
+    <modifymultiplier>1.25</modifymultiplier>
+    <modifyrangeuselos>1</modifyrangeuselos>
+  </action>
+  <action>
+    <name stringid="112891">FlagExtraSpeed</name>
+    <type>AutoRangedModify</type>
+    <active>0</active>
+    <maxrange>14</maxrange>
+    <persistent>1</persistent>
+    <nostack>1</nostack>
+    <nostackignorepuid>1</nostackignorepuid>
+    <modifyabstracttype>UnitClass</modifyabstracttype>
+    <modifytype>Speed</modifytype>
+    <modifymultiplier>1.15</modifymultiplier>
+    <modifyrangeuselos>1</modifyrangeuselos>
+    <modelattachment>effects\ypack_auras\american_power.xml</modelattachment>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+  </action>
+  <action>
+    <name stringid="48958">FlagExtraDamageMercenary</name>
+    <type>AutoRangedModify</type>
+    <active>0</active>
+    <maxrange>14</maxrange>
+    <persistent>1</persistent>
+    <nostack>1</nostack>
+    <nostackignorepuid>1</nostackignorepuid>
+    <modifyabstracttype>Mercenary</modifyabstracttype>
+    <modifytype>BaseDamage</modifytype>
+    <modifymultiplier>1.1</modifymultiplier>
+    <modifyrangeuselos>1</modifyrangeuselos>
+  </action>
+  <action>
+    <name stringid="48958">FlagExtraDamageOutlaw</name>
+    <type>AutoRangedModify</type>
+    <active>0</active>
+    <maxrange>14</maxrange>
+    <persistent>1</persistent>
+    <nostack>1</nostack>
+    <nostackignorepuid>1</nostackignorepuid>
+    <modifyabstracttype>AbstractOutlaw</modifyabstracttype>
+    <modifytype>BaseDamage</modifytype>
+    <modifymultiplier>1.1</modifymultiplier>
+    <modifyrangeuselos>1</modifyrangeuselos>
+  </action>
+  <action>
+    <name stringid="113137">FlagRechargeTime</name>
+    <type>AutoRangedModify</type>
+    <active>0</active>
+    <maxrange>14</maxrange>
+    <persistent>1</persistent>
+    <nostack>1</nostack>
+    <nostackignorepuid>1</nostackignorepuid>
+    <modifyabstracttype>AbstractOutlaw</modifyabstracttype>
+    <modifytype>RechargeTime</modifytype>
+    <modifymultiplier>0.5</modifymultiplier>
+    <modifyrangeuselos>1</modifyrangeuselos>
+  </action>
+  <action>
+    <name stringid="113137">FlagRechargeTimeBuilding</name>
+    <type>AutoRangedModify</type>
+    <active>0</active>
+    <maxrange>14</maxrange>
+    <persistent>1</persistent>
+    <nostack>1</nostack>
+    <nostackignorepuid>1</nostackignorepuid>
+    <modifyabstracttype>Building</modifyabstracttype>
+    <modifytype>RechargeTime</modifytype>
+    <modifymultiplier>0.5</modifymultiplier>
+    <modifyrangeuselos>1</modifyrangeuselos>
+  </action>
+  <action>
+    <name stringid="68961">FlagGatherRate</name>
+    <type>AutoRangedModify</type>
+    <active>0</active>
+    <maxrange>14</maxrange>
+    <persistent>1</persistent>
+    <nostack>1</nostack>
+    <nostackignorepuid>1</nostackignorepuid>
+    <modifyabstracttype>AbstractVillager</modifyabstracttype>
+    <modifytype>GatherRate</modifytype>
+    <modifymultiplier>1.15</modifymultiplier>
+    <modifyrangeuselos>1</modifyrangeuselos>
+  </action>
+  <action>
+    <name stringid="48954">FlagExtraHitpoints</name>
+    <type>AutoRangedModify</type>
+    <active>0</active>
+    <maxrange>70</maxrange>
+    <persistent>1</persistent>
+    <nostack>1</nostack>
+    <nostackignorepuid>1</nostackignorepuid>
+    <modifyabstracttype>UnitClass</modifyabstracttype>
+    <forbidabstracttype>AbstractArtillery</forbidabstracttype>
+    <modifytype>MaxHP</modifytype>
+    <modifymultiplier>1.1</modifymultiplier>
+    <modifyrangeuselos>1</modifyrangeuselos>
+    <modelattachment>effects\ypack_auras\american_power.xml</modelattachment>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+  </action>
+  <action>
+    <name stringid="48954">FlagExtraHitpointsBuilding</name>
+    <type>AutoRangedModify</type>
+    <active>0</active>
+    <maxrange>70</maxrange>
+    <persistent>1</persistent>
+    <nostack>1</nostack>
+    <nostackignorepuid>1</nostackignorepuid>
+    <modifyabstracttype>Building</modifyabstracttype>
+    <modifytype>MaxHP</modifytype>
+    <modifymultiplier>1.1</modifymultiplier>
+    <modifyrangeuselos>1</modifyrangeuselos>
+  </action>
+  <action>
+    <name stringid="48958">FlagExtraDamageMX</name>
+    <type>AutoRangedModify</type>
+    <active>0</active>
+    <maxrange>70</maxrange>
+    <persistent>1</persistent>
+    <nostack>1</nostack>
+    <nostackignorepuid>1</nostackignorepuid>
+    <modifyabstracttype>UnitClass</modifyabstracttype>
+    <modifytype>Damage</modifytype>
+    <modifymultiplier>1.15</modifymultiplier>
+    <modifyrangeuselos>1</modifyrangeuselos>
+    <modelattachment>effects\ypack_auras\american_power.xml</modelattachment>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+  </action>
+  <action>
+    <name stringid="48958">FlagExtraDamageBuildingMX</name>
+    <type>AutoRangedModify</type>
+    <active>0</active>
+    <maxrange>70</maxrange>
+    <persistent>1</persistent>
+    <nostack>1</nostack>
+    <nostackignorepuid>1</nostackignorepuid>
+    <modifyabstracttype>Building</modifyabstracttype>
+    <modifytype>Damage</modifytype>
+    <modifymultiplier>1.15</modifymultiplier>
+    <modifyrangeuselos>1</modifyrangeuselos>
+  </action>
+  <action>
+    <name stringid="48954">FlagExtraHitpointsTeam</name>
+    <type>AutoRangedModify</type>
+    <active>0</active>
+    <maxrange>70</maxrange>
+    <persistent>1</persistent>
+    <nostack>1</nostack>
+    <nostackignorepuid>1</nostackignorepuid>
+    <includeally>1</includeally>
+    <modifyabstracttype>UnitClass</modifyabstracttype>
+    <modifytype>MaxHP</modifytype>
+    <modifymultiplier>1.1</modifymultiplier>
+    <modifyrangeuselos>1</modifyrangeuselos>
+    <modelattachment>effects\ypack_auras\american_power.xml</modelattachment>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+  </action>
+  <action>
+    <name stringid="48954">FlagExtraHitpointsBuildingTeam</name>
+    <type>AutoRangedModify</type>
+    <active>0</active>
+    <maxrange>70</maxrange>
+    <persistent>1</persistent>
+    <nostack>1</nostack>
+    <nostackignorepuid>1</nostackignorepuid>
+    <includeally>1</includeally>
+    <modifyabstracttype>Building</modifyabstracttype>
+    <modifytype>MaxHP</modifytype>
+    <modifymultiplier>1.1</modifymultiplier>
+    <modifyrangeuselos>1</modifyrangeuselos>
+  </action>
+  <action>
+    <name stringid="69158">SpawnKnockout</name>
+    <type>Spawn</type>
+    <rate type="Minuteman">1.0</rate>
+    <singleuse>1</singleuse>
+    <restricttoknockout>1</restricttoknockout>
+    <animationrate>1</animationrate>
+    <active>0</active>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="48954">ExtraHitPointsHM02</name>
+    <type>AutoRangedModify</type>
+    <active>0</active>
+    <maxrange>24</maxrange>
+    <persistent>1</persistent>
+    <modifytype>MaxHP</modifytype>
+    <forbidabstracttype>AbstractArtillery</forbidabstracttype>
+    <modifymultiplier>1.10</modifymultiplier>
+    <nostack>1</nostack>
+    <nostackignorepuid>1</nostackignorepuid>
+    <modelattachment>effects\ypack_auras\american_power.xml</modelattachment>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+  </action>
+  <action>
+    <name stringid="103418">GrandMasterBuildRateBonus</name>
+    <type>AutoRangedModify</type>
+    <active>0</active>
+    <modifyabstracttype>UnitClass</modifyabstracttype>
+    <maxrange>24</maxrange>
+    <persistent>1</persistent>
+    <nostack>1</nostack>
+    <nostackignorepuid>1</nostackignorepuid>
+    <modifytype>BuildRate</modifytype>
+    <modifymultiplier>1.50</modifymultiplier>
+    <modifyrangeuselos>1</modifyrangeuselos>
+    <modelattachment>effects\ypack_auras\malta_power.xml</modelattachment>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+    <modifyself>1</modifyself>
+  </action>
+  <action>
+    <name stringid="103418">GrandMasterWagonBuildRateBonus</name>
+    <type>AutoRangedModify</type>
+    <active>0</active>
+    <maxrange>24</maxrange>
+    <modifyabstracttype>Building</modifyabstracttype>
+    <persistent>1</persistent>
+    <targetunbuilt>1</targetunbuilt>
+    <nostack>1</nostack>
+    <nostackignorepuid>1</nostackignorepuid>
+    <modifytype>AutoBuildRate</modifytype>
+    <modifymultiplier>1.50</modifymultiplier>
+    <modifyrangeuselos>1</modifyrangeuselos>
+  </action>
+  <action>
+    <name stringid="38153">OberhauAttack</name>
+    <type>Attack</type>
+    <attackaction>1</attackaction>
+    <handlogic>1</handlogic>
+    <anim>Swashbuckler</anim>
+    <idleanim>CombatIdle</idleanim>
+    <maxrange>2</maxrange>
+    <impacteffect>effects\impacts\melee</impacteffect>
+    <rate type="Unit">1.0 </rate>
+    <basedamagecap>1</basedamagecap>
+    <active>0</active>
+  </action>
+  <action>
+    <name stringid="69158">SpawnKnockoutEvzone</name>
+    <type>Spawn</type>
+    <rate type="deNatEvzone">2.0</rate>
+    <singleuse>1</singleuse>
+    <restricttoknockout>1</restricttoknockout>
+    <animationrate>1</animationrate>
+    <active>0</active>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="113137">FlagRechargeTimeHero</name>
+    <type>AutoRangedModify</type>
+    <active>0</active>
+    <maxrange>14</maxrange>
+    <persistent>1</persistent>
+    <nostack>1</nostack>
+    <nostackignorepuid>1</nostackignorepuid>
+    <modifyabstracttype>Hero</modifyabstracttype>
+    <modifytype>RechargeTime</modifytype>
+    <modifymultiplier>0.5</modifymultiplier>
+    <modifyrangeuselos>1</modifyrangeuselos>
+  </action>
+  <action>
+    <name stringid="48958">FlagExtraDamageCanada</name>
+    <type>AutoRangedModify</type>
+    <active>0</active>
+    <maxrange>14</maxrange>
+    <modifyprotoid>Minuteman</modifyprotoid>
+    <modifyabstracttype>AbstractNativeWarrior</modifyabstracttype>
+    <modifyabstracttype>AbstractVillager</modifyabstracttype>
+    <persistent>1</persistent>
+    <nostack>1</nostack>
+    <nostackignorepuid>1</nostackignorepuid>
+    <modifytype>Damage</modifytype>
+    <modifymultiplier>1.1</modifymultiplier>
+    <modifyrangeuselos>1</modifyrangeuselos>
+    <modelattachment>effects\ypack_auras\american_power.xml</modelattachment>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+  </action>
+  <tactic>Volley<action priority="100">ChargeCarbineAttack</action><action priority="95">VolleyRangedAttack</action><action priority="75">BuildingAttack</action><action priority="30">ChargeHeavyStrikeAttack</action><action priority="25">HandAttack</action><action priority="3">SharpshooterAttack</action><action priority="1">OberhauAttack</action><action>Build</action><action>Discover</action><action>Heal</action><action>SpawnKnockout</action><action>FlagBuildRateBonus</action><action>FlagWagonBuildRateBonus</action><action>FlagBuildingWorkRateBonus</action><action>FlagExtraDamage</action><action>FlagExtraDamageBuilding</action><action>FlagExtraDamageStateMilitia</action><action>FlagBuildingWorkRateBonusImprovedMX</action><action>FlagBuildingWorkRateBonusTownCenterMX</action><action>FlagExtraSpeed</action><action>FlagExtraDamageMercenary</action><action>FlagExtraDamageOutlaw</action><action>FlagRechargeTime</action><action>FlagRechargeTimeBuilding</action><action>FlagRechargeTimeHero</action><action>FlagGatherRate</action><action>FlagExtraHitpoints</action><action>FlagExtraHitpointsBuilding</action><action>FlagExtraDamageMX</action><action>FlagExtraDamageBuildingMX</action><action>FlagExtraHitpointsTeam</action><action>FlagExtraHitpointsBuildingTeam</action><action>ExtraHitPointsHM02</action><action>GrandMasterBuildRateBonus</action><action>GrandMasterWagonBuildRateBonus</action><action>SpawnKnockoutEvzone</action><action>FlagExtraDamageCanada</action><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><runaway>0</runaway><idleanim>Idle</idleanim><boredanim>Bored</boredanim><deathanim>Death</deathanim><walkanim>Walk</walkanim><joganim>Jog</joganim><runanim>Run</runanim></tactic>
+  <tactic>Melee<action priority="100">BuildingAttack</action><action priority="80">ChargeHeavyStrikeAttack</action><action priority="75">HandAttack</action><action priority="3">SharpshooterAttack</action><action priority="1">OberhauAttack</action><action>Build</action><action>Discover</action><action>Heal</action><action>SpawnKnockout</action><action>FlagBuildRateBonus</action><action>FlagWagonBuildRateBonus</action><action>FlagBuildingWorkRateBonus</action><action>FlagExtraDamage</action><action>FlagExtraDamageBuilding</action><action>FlagExtraDamageStateMilitia</action><action>FlagBuildingWorkRateBonusImprovedMX</action><action>FlagBuildingWorkRateBonusTownCenterMX</action><action>FlagExtraSpeed</action><action>FlagExtraDamageMercenary</action><action>FlagExtraDamageOutlaw</action><action>FlagRechargeTime</action><action>FlagRechargeTimeBuilding</action><action>FlagRechargeTimeHero</action><action>FlagGatherRate</action><action>FlagExtraHitpoints</action><action>FlagExtraHitpointsBuilding</action><action>FlagExtraDamageMX</action><action>FlagExtraDamageBuildingMX</action><action>FlagExtraHitpointsTeam</action><action>FlagExtraHitpointsBuildingTeam</action><action>ExtraHitPointsHM02</action><action>BuildRateBonus</action><action>GrandMasterBuildRateBonus</action><action>GrandMasterWagonBuildRateBonus</action><action>SpawnKnockoutEvzone</action><action>FlagExtraDamageCanada</action><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><runaway>0</runaway><autoretarget>1</autoretarget><idleanim>Charge_Idle</idleanim><boredanim>Charge_Bored</boredanim><deathanim>Death</deathanim><walkanim>Charge_Walk</walkanim><joganim>Charge_Jog</joganim><runanim>Charge_Run</runanim></tactic>
+  <tactic>Defend<action priority="100">ChargeCarbineAttack</action><action priority="95">VolleyRangedAttack</action><action priority="75">BuildingAttack</action><action priority="30">ChargeHeavyStrikeAttack</action><action priority="25">HandAttack</action><action priority="3">SharpshooterAttack</action><action priority="1">OberhauAttack</action><action>Build</action><action>Discover</action><action>Heal</action><action>SpawnKnockout</action><action>FlagBuildRateBonus</action><action>FlagWagonBuildRateBonus</action><action>FlagBuildingWorkRateBonus</action><action>FlagExtraDamage</action><action>FlagExtraDamageBuilding</action><action>FlagExtraDamageStateMilitia</action><action>FlagBuildingWorkRateBonusImprovedMX</action><action>FlagBuildingWorkRateBonusTownCenterMX</action><action>FlagExtraSpeed</action><action>FlagExtraDamageMercenary</action><action>FlagExtraDamageOutlaw</action><action>FlagRechargeTime</action><action>FlagRechargeTimeBuilding</action><action>FlagRechargeTimeHero</action><action>FlagGatherRate</action><action>FlagExtraHitpoints</action><action>FlagExtraHitpointsBuilding</action><action>FlagExtraDamageMX</action><action>FlagExtraDamageBuildingMX</action><action>FlagExtraHitpointsTeam</action><action>FlagExtraHitpointsBuildingTeam</action><action>ExtraHitPointsHM02</action><action>BuildRateBonus</action><action>GrandMasterBuildRateBonus</action><action>GrandMasterWagonBuildRateBonus</action><action>SpawnKnockoutEvzone</action><action>FlagExtraDamageCanada</action><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><runaway>0</runaway><autoretarget>1</autoretarget><idleanim>Idle</idleanim><boredanim>Bored</boredanim><deathanim>Death</deathanim><walkanim>Walk</walkanim><joganim>Jog</joganim><runanim>Run</runanim></tactic>
+  <tactic>Stagger<action priority="100">ChargeCarbineAttack</action><action priority="95">VolleyRangedAttack</action><action priority="75">BuildingAttack</action><action priority="30">ChargeHeavyStrikeAttack</action><action priority="25">HandAttack</action><action priority="3">SharpshooterAttack</action><action priority="1">OberhauAttack</action><action>Build</action><action>Discover</action><action>Heal</action><action>SpawnKnockout</action><action>FlagBuildRateBonus</action><action>FlagWagonBuildRateBonus</action><action>FlagBuildingWorkRateBonus</action><action>FlagExtraDamage</action><action>FlagExtraDamageBuilding</action><action>FlagExtraDamageStateMilitia</action><action>FlagBuildingWorkRateBonusImprovedMX</action><action>FlagBuildingWorkRateBonusTownCenterMX</action><action>FlagExtraSpeed</action><action>FlagExtraDamageMercenary</action><action>FlagExtraDamageOutlaw</action><action>FlagRechargeTime</action><action>FlagRechargeTimeBuilding</action><action>FlagRechargeTimeHero</action><action>FlagGatherRate</action><action>FlagExtraHitpoints</action><action>FlagExtraHitpointsBuilding</action><action>FlagExtraDamageMX</action><action>FlagExtraDamageBuildingMX</action><action>FlagExtraHitpointsTeam</action><action>FlagExtraHitpointsBuildingTeam</action><action>ExtraHitPointsHM02</action><action>BuildRateBonus</action><action>GrandMasterBuildRateBonus</action><action>GrandMasterWagonBuildRateBonus</action><action>SpawnKnockoutEvzone</action><action>FlagExtraDamageCanada</action><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><runaway>0</runaway><autoretarget>1</autoretarget><idleanim>Idle</idleanim><boredanim>Bored</boredanim><deathanim>Death</deathanim><walkanim>Walk</walkanim><joganim>Jog</joganim><runanim>Run</runanim></tactic>
+  <tactic>StandGround<action priority="100">ChargeCarbineAttack</action><action priority="95">VolleyRangedAttack</action><action priority="75">BuildingAttack</action><action priority="30">ChargeHeavyStrikeAttack</action><action priority="25">HandAttack</action><action priority="3">SharpshooterAttack</action><action priority="1">OberhauAttack</action><action>Build</action><action>Discover</action><action>Heal</action><action>SpawnKnockout</action><action>FlagBuildRateBonus</action><action>FlagWagonBuildRateBonus</action><action>FlagBuildingWorkRateBonus</action><action>FlagExtraDamage</action><action>FlagExtraDamageBuilding</action><action>FlagExtraDamageStateMilitia</action><action>FlagBuildingWorkRateBonusImprovedMX</action><action>FlagBuildingWorkRateBonusTownCenterMX</action><action>FlagExtraSpeed</action><action>FlagExtraDamageMercenary</action><action>FlagExtraDamageOutlaw</action><action>FlagRechargeTime</action><action>FlagRechargeTimeBuilding</action><action>FlagRechargeTimeHero</action><action>FlagGatherRate</action><action>FlagExtraHitpoints</action><action>FlagExtraHitpointsBuilding</action><action>FlagExtraDamageMX</action><action>FlagExtraDamageBuildingMX</action><action>FlagExtraHitpointsTeam</action><action>FlagExtraHitpointsBuildingTeam</action><action>ExtraHitPointsHM02</action><action>BuildRateBonus</action><action>GrandMasterBuildRateBonus</action><action>GrandMasterWagonBuildRateBonus</action><action>SpawnKnockoutEvzone</action><action>FlagExtraDamageCanada</action><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><runaway>0</runaway><autoretarget>1</autoretarget><idleanim>Idle</idleanim><boredanim>Bored</boredanim><deathanim>Death</deathanim><walkanim>Walk</walkanim><joganim>Jog</joganim><runanim>Run</runanim></tactic>
+</tactics>

@@ -1,0 +1,19 @@
+<tactics>
+  <action>
+    <name stringid="38134">HandAttack</name>
+    <type>HandAttack</type>
+    <maxrange>1.0</maxrange>
+    <rate type="Unit">1.0 </rate>
+    <attackaction>1</attackaction>
+    <handlogic>1</handlogic>
+    <anim>Attack</anim>
+    <impacteffect>effects\impacts\melee</impacteffect>
+  </action>
+  <action>
+    <name stringid="69147">Build</name>
+    <type>Build</type>
+    <anim>Build</anim>
+    <maxrange>0.2</maxrange>
+  </action>
+  <tactic>Normal<action>HandAttack</action><action>Build</action><attacktype>LogicalTypeHandUnitsAttack</attacktype><runaway>1</runaway><autoretarget>1</autoretarget></tactic>
+</tactics>

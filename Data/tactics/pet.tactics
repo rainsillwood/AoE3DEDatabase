@@ -1,0 +1,24 @@
+<tactics>
+  <action>
+    <name stringid="38135">MeleeHandAttack</name>
+    <type>Attack</type>
+    <maxrange>1.75</maxrange>
+    <rate type="Unit">1.0 </rate>
+    <attackaction>1</attackaction>
+    <handlogic>1</handlogic>
+    <speedboost>1</speedboost>
+    <anim>HandAttack</anim>
+    <impacteffect>effects\impacts\melee_no_weapon</impacteffect>
+  </action>
+  <action>
+    <name stringid="69158">SpawnKnockoutEvzone</name>
+    <type>Spawn</type>
+    <rate type="deNatEvzone">1.0</rate>
+    <singleuse>1</singleuse>
+    <restricttoknockout>1</restricttoknockout>
+    <animationrate>1</animationrate>
+    <active>0</active>
+    <persistent>1</persistent>
+  </action>
+  <tactic>Normal<action priority="100">MeleeHandAttack</action><action>Discover</action><action>SpawnKnockoutEvzone</action><speedmodifier>1.0</speedmodifier><attacktype>LogicalTypeHandUnitsAttack</attacktype><autoattacktype>LogicalTypeHandUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeHandUnitsAttack</attackresponsetype><runaway>1</runaway><autoretarget>1</autoretarget></tactic>
+</tactics>

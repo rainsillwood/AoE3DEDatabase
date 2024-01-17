@@ -1,0 +1,80 @@
+<tactics>
+  <action>
+    <name stringid="42178">Gather</name>
+    <type>Gather</type>
+    <maxrange>0.5</maxrange>
+    <rate type="LivestockPen">1.0</rate>
+    <rate type="Farm">1.0</rate>
+    <rate type="ypVillage">1.0</rate>
+    <addresourcestoinventory>1</addresourcestoinventory>
+  </action>
+  <action>
+    <name stringid="42178">GatherHacienda</name>
+    <type>Gather</type>
+    <maxrange>0.5</maxrange>
+  </action>
+  <action>
+    <name stringid="42178">GatherField</name>
+    <active>0</active>
+    <type>Gather</type>
+    <maxrange>0.5</maxrange>
+  </action>
+  <action>
+    <name stringid="43294">AutoGatherCoin</name>
+    <type>AutoGather</type>
+    <active>0</active>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="43295">AutoGatherFood</name>
+    <type>AutoGather</type>
+    <persistent>1</persistent>
+    <addresourcestoinventory>1</addresourcestoinventory>
+  </action>
+  <action>
+    <name stringid="43295">AutoGatherFood2</name>
+    <type>AutoGather</type>
+    <active>0</active>
+    <persistent>1</persistent>
+    <addresourcestoinventory>1</addresourcestoinventory>
+  </action>
+  <action>
+    <name stringid="63007">GatherXP</name>
+    <type>Gather</type>
+    <maxrange>0.5</maxrange>
+    <rate type="ypSacredField">0.5</rate>
+  </action>
+  <action>
+    <name stringid="63007">ShrineGather</name>
+    <type>Gather</type>
+    <maxrange>0.5</maxrange>
+    <rate type="AbstractShrine">0.9</rate>
+  </action>
+  <action>
+    <name stringid="61766">AutoGatherXP</name>
+    <type>AutoGather</type>
+    <active>1</active>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="43019">AutoGatherInfluence</name>
+    <type>AutoGather</type>
+    <active>1</active>
+    <civtype>6</civtype>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="69161">AutoConvert</name>
+    <type>AutoConvert</type>
+    <maxrange>12.0</maxrange>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="24102">Build</name>
+    <active>0</active>
+    <type>Build</type>
+    <anim>Build</anim>
+    <maxrange>0.2</maxrange>
+  </action>
+  <tactic>Normal<action>Gather</action><action>GatherHacienda</action><action>GatherField</action><action>GatherXP</action><action>AutoGatherCoin</action><action>AutoGatherFood</action><action>AutoGatherFood2</action><action>AutoGatherXP</action><action>AutoConvert</action><action>ShrineGather</action><action>AutoGatherInfluence</action><action>Build</action></tactic>
+</tactics>

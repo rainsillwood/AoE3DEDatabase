@@ -1,0 +1,298 @@
+<tactics>
+  <action>
+    <name stringid="38119">CannonAttack</name>
+    <type>Attack</type>
+    <attackaction>1</attackaction>
+    <rangedlogic>1</rangedlogic>
+    <anim>RangedAttack</anim>
+    <maxheight>0</maxheight>
+    <accuracy>1.0</accuracy>
+    <aimbonus>0</aimbonus>
+    <maxspread>5</maxspread>
+    <spreadfactor>0.25</spreadfactor>
+    <trackrating>120</trackrating>
+    <unintentionaldamagemultiplier>0.7</unintentionaldamagemultiplier>
+    <projectile>Cannonball</projectile>
+    <impacteffect>effects\impacts\cannon</impacteffect>
+    <rate type="Unit">1.0</rate>
+    <throw>1</throw>
+    <outerdamageareadistance>.25</outerdamageareadistance>
+    <outerdamageareafactor>.20</outerdamageareafactor>
+    <areasortmode>Directional</areasortmode>
+    <perfectaccuracy>1</perfectaccuracy>
+    <targetground>1</targetground>
+    <numberbounces>1</numberbounces>
+    <basedamagecap>1</basedamagecap>
+  </action>
+  <action>
+    <name stringid="38121">AntiShipAttack</name>
+    <type>Attack</type>
+    <attackaction>1</attackaction>
+    <rangedlogic>1</rangedlogic>
+    <anim>RangedAttack</anim>
+    <maxheight>0</maxheight>
+    <accuracy>1.0</accuracy>
+    <aimbonus>0</aimbonus>
+    <maxspread>5</maxspread>
+    <spreadfactor>0.25</spreadfactor>
+    <trackrating>120</trackrating>
+    <unintentionaldamagemultiplier>0.7</unintentionaldamagemultiplier>
+    <projectile>Cannonball</projectile>
+    <impacteffect>effects\impacts\cannon</impacteffect>
+    <perfectaccuracy>1</perfectaccuracy>
+    <rate type="AbstractWarship">1.0</rate>
+  </action>
+  <action>
+    <name stringid="38118">BuildingAttack</name>
+    <type>Attack</type>
+    <active>0</active>
+    <attackaction>1</attackaction>
+    <rangedlogic>1</rangedlogic>
+    <anim>RangedAttack</anim>
+    <maxheight>0</maxheight>
+    <accuracy>1.0</accuracy>
+    <aimbonus>0</aimbonus>
+    <maxspread>5</maxspread>
+    <spreadfactor>0.25</spreadfactor>
+    <trackrating>120</trackrating>
+    <unintentionaldamagemultiplier>0.7</unintentionaldamagemultiplier>
+    <projectile>Cannonball</projectile>
+    <impacteffect>effects\impacts\cannon</impacteffect>
+    <rate type="Building">1.0</rate>
+    <throw>1</throw>
+    <outerdamageareadistance>.25</outerdamageareadistance>
+    <outerdamageareafactor>.20</outerdamageareafactor>
+    <areasortmode>Directional</areasortmode>
+    <perfectaccuracy>1</perfectaccuracy>
+    <targetground>1</targetground>
+    <numberbounces>1</numberbounces>
+    <basedamagecap>1</basedamagecap>
+    <hidefromstats>1</hidefromstats>
+  </action>
+  <action>
+    <name stringid="69158">SpawnGatlingGun</name>
+    <type>Spawn</type>
+    <rate type="xpGatlingGun">2.0</rate>
+    <singleuse>1</singleuse>
+    <animationrate>1</animationrate>
+    <active>0</active>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="69158">SpawnVolunteers1</name>
+    <type>Spawn</type>
+    <rate type="deREVUSVolunteer">1.0</rate>
+    <singleuse>1</singleuse>
+    <animationrate>1</animationrate>
+    <active>0</active>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="69158">SpawnVolunteers2</name>
+    <type>Spawn</type>
+    <rate type="deREVUSVolunteer">1.0</rate>
+    <singleuse>1</singleuse>
+    <animationrate>1</animationrate>
+    <active>0</active>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="69158">SpawnVolunteers3</name>
+    <type>Spawn</type>
+    <rate type="deREVUSVolunteer">1.0</rate>
+    <singleuse>1</singleuse>
+    <animationrate>1</animationrate>
+    <active>0</active>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="69158">SpawnVolunteers4</name>
+    <type>Spawn</type>
+    <rate type="deREVUSVolunteer">1.0</rate>
+    <singleuse>1</singleuse>
+    <animationrate>1</animationrate>
+    <active>0</active>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="48943">ExtraBounty</name>
+    <type>AutoRangedModify</type>
+    <active>0</active>
+    <maxrange>24</maxrange>
+    <persistent>1</persistent>
+    <modifytype>Bounty</modifytype>
+    <modifymultiplier>2</modifymultiplier>
+    <modelattachment>effects\ypack_auras\malta_power.xml</modelattachment>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+  </action>
+  <action>
+    <name stringid="112433">ExtraDamageInfantry</name>
+    <type>AutoRangedModify</type>
+    <active>0</active>
+    <maxrange>32</maxrange>
+    <modifyabstracttype>AbstractInfantry</modifyabstracttype>
+    <persistent>1</persistent>
+    <nostack>1</nostack>
+    <modifytype>BaseDamage</modifytype>
+    <modifymultiplier>1.25</modifymultiplier>
+    <modelattachment>effects\ypack_auras\american_power.xml</modelattachment>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+  </action>
+  <action>
+    <name stringid="112432">ExtraDamageCavalry</name>
+    <type>AutoRangedModify</type>
+    <active>0</active>
+    <maxrange>32</maxrange>
+    <modifyabstracttype>AbstractCavalry</modifyabstracttype>
+    <persistent>1</persistent>
+    <nostack>1</nostack>
+    <modifytype>BaseDamage</modifytype>
+    <modifymultiplier>1.25</modifymultiplier>
+    <modelattachment>effects\ypack_auras\american_power.xml</modelattachment>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+  </action>
+  <action>
+    <name stringid="112435">ExtraHPInfantry</name>
+    <type>AutoRangedModify</type>
+    <active>0</active>
+    <maxrange>32</maxrange>
+    <modifyabstracttype>AbstractInfantry</modifyabstracttype>
+    <persistent>1</persistent>
+    <nostack>1</nostack>
+    <modifytype>BaseHP</modifytype>
+    <modifymultiplier>1.25</modifymultiplier>
+    <modelattachment>effects\ypack_auras\american_power.xml</modelattachment>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+  </action>
+  <action>
+    <name stringid="112434">ExtraHPCavalry</name>
+    <type>AutoRangedModify</type>
+    <active>0</active>
+    <maxrange>32</maxrange>
+    <modifyabstracttype>AbstractCavalry</modifyabstracttype>
+    <persistent>1</persistent>
+    <nostack>1</nostack>
+    <modifytype>BaseHP</modifytype>
+    <modifymultiplier>1.25</modifymultiplier>
+    <modelattachment>effects\ypack_auras\american_power.xml</modelattachment>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+  </action>
+  <action>
+    <name stringid="48943">ExtraBuildBounty</name>
+    <type>AutoRangedModify</type>
+    <active>0</active>
+    <maxrange>41</maxrange>
+    <modifyabstracttype>BuildingClass</modifyabstracttype>
+    <persistent>1</persistent>
+    <targetunbuilt>1</targetunbuilt>
+    <modifytype>BuildBounty</modifytype>
+    <modifymultiplier>2</modifymultiplier>
+  </action>
+  <action>
+    <name stringid="43299">MaintainFedStateMilitia</name>
+    <type>Maintain</type>
+    <rate type="deFortStateMilitiaBatch">1.15 </rate>
+    <active>0</active>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="43299">MaintainFedRegular</name>
+    <type>Maintain</type>
+    <rate type="deFortRegularBatch">1.15 </rate>
+    <active>0</active>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="43299">MaintainFedRifleman</name>
+    <type>Maintain</type>
+    <rate type="deFortRiflemanBatch">1.15 </rate>
+    <active>0</active>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="43299">MaintainFedHussar</name>
+    <type>Maintain</type>
+    <rate type="deFortHussarBatch">1.15 </rate>
+    <active>0</active>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="43299">MaintainFedUSCavalry</name>
+    <type>Maintain</type>
+    <rate type="deFortUSCavalryBatch">1.15 </rate>
+    <active>0</active>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="43299">MaintainFedGatlingGun</name>
+    <type>Maintain</type>
+    <rate type="deFortGatlingGunBatch">1.15 </rate>
+    <active>0</active>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="43299">MaintainFedLegionDragoon</name>
+    <type>Maintain</type>
+    <rate type="deFortLegionDragoonBatch">1.15 </rate>
+    <active>0</active>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="43299">MaintainFedLegionCzapaka</name>
+    <type>Maintain</type>
+    <rate type="deFortLegionCzapakaBatch">1.15 </rate>
+    <active>0</active>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="43299">MaintainFedLegionMagyarHussar</name>
+    <type>Maintain</type>
+    <rate type="deFortLegionMagyarHussarBatch">1.15 </rate>
+    <active>0</active>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="43299">MaintainFedLegionGrenadier</name>
+    <type>Maintain</type>
+    <rate type="deFortLegionGrenadierBatch">1.15 </rate>
+    <active>0</active>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="69158">SpawnREVMXMinutemenOnce</name>
+    <type>Maintain</type>
+    <rate type="deREVMXMinutemanBatch">1.0</rate>
+    <singleuse>1</singleuse>
+    <animationrate>1</animationrate>
+    <active>1</active>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="69158">SpawnNapoleonGunOnce</name>
+    <type>Spawn</type>
+    <rate type="deMercNapoleonGun">1.0</rate>
+    <singleuse>1</singleuse>
+    <animationrate>1</animationrate>
+    <active>1</active>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="124967">SpawnHospitaller</name>
+    <type>Maintain</type>
+    <rate type="deFortSpawnHospitallers">1.0</rate>
+    <singleuse>1</singleuse>
+    <animationrate>1</animationrate>
+    <active>0</active>
+    <persistent>1</persistent>
+  </action>
+  <tactic>FortNormal<attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><action priority="100">AntiShipAttack</action><action priority="75">CannonAttack</action><action priority="70">BuildingAttack</action><action>SpawnGatlingGun</action><action>SpawnVolunteers1</action><action>SpawnVolunteers2</action><action>SpawnVolunteers3</action><action>SpawnVolunteers4</action><action>Spawn</action><action>ExtraBounty</action><action>ExtraBuildBounty</action><action>ExtraDamageInfantry</action><action>ExtraDamageCavalry</action><action>ExtraHPInfantry</action><action>ExtraHPCavalry</action><action>MaintainFedStateMilitia</action><action>SpawnHospitaller</action><transition><tactic>FortRegular</tactic><length>2</length><exit>1</exit></transition><transition><tactic>FortRifleman</tactic><length>2</length><exit>1</exit></transition><transition><tactic>FortHussar</tactic><length>2</length><exit>1</exit></transition><transition><tactic>FortUSCavalry</tactic><length>2</length><exit>1</exit></transition><transition><tactic>FortGatlingGun</tactic><length>2</length><exit>1</exit></transition><transition><tactic>FortLegionMagyarHussar</tactic><length>2</length><exit>1</exit></transition><transition><tactic>FortLegionDragoon</tactic><length>2</length><exit>1</exit></transition><transition><tactic>FortLegionCzapaka</tactic><length>2</length><exit>1</exit></transition><transition><tactic>FortLegionGrenadier</tactic><length>2</length><exit>1</exit></transition></tactic>
+  <tactic>FortRegular<active>0</active><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><action priority="100">AntiShipAttack</action><action priority="75">CannonAttack</action><action priority="70">BuildingAttack</action><action>SpawnGatlingGun</action><action>SpawnVolunteers1</action><action>SpawnVolunteers2</action><action>SpawnVolunteers3</action><action>SpawnVolunteers4</action><action>Spawn</action><action>ExtraBounty</action><action>ExtraBuildBounty</action><action>ExtraDamageInfantry</action><action>ExtraDamageCavalry</action><action>ExtraHPInfantry</action><action>ExtraHPCavalry</action><action>MaintainFedRegular</action><action>SpawnHospitaller</action><transition><tactic>FortNormal</tactic><length>2</length><exit>1</exit></transition><transition><tactic>FortRifleman</tactic><length>2</length><exit>1</exit></transition><transition><tactic>FortHussar</tactic><length>2</length><exit>1</exit></transition><transition><tactic>FortUSCavalry</tactic><length>2</length><exit>1</exit></transition><transition><tactic>FortGatlingGun</tactic><length>2</length><exit>1</exit></transition><transition><tactic>FortLegionMagyarHussar</tactic><length>2</length><exit>1</exit></transition><transition><tactic>FortLegionDragoon</tactic><length>2</length><exit>1</exit></transition><transition><tactic>FortLegionCzapaka</tactic><length>2</length><exit>1</exit></transition><transition><tactic>FortLegionGrenadier</tactic><length>2</length><exit>1</exit></transition></tactic>
+  <tactic>FortRifleman<active>0</active><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><action priority="100">AntiShipAttack</action><action priority="75">CannonAttack</action><action priority="70">BuildingAttack</action><action>SpawnGatlingGun</action><action>SpawnVolunteers1</action><action>SpawnVolunteers2</action><action>SpawnVolunteers3</action><action>SpawnVolunteers4</action><action>Spawn</action><action>ExtraBounty</action><action>ExtraBuildBounty</action><action>ExtraDamageInfantry</action><action>ExtraDamageCavalry</action><action>ExtraHPInfantry</action><action>ExtraHPCavalry</action><action>MaintainFedRifleman</action><action>SpawnHospitaller</action><transition><tactic>FortNormal</tactic><length>2</length><exit>1</exit></transition><transition><tactic>FortRegular</tactic><length>2</length><exit>1</exit></transition><transition><tactic>FortHussar</tactic><length>2</length><exit>1</exit></transition><transition><tactic>FortUSCavalry</tactic><length>2</length><exit>1</exit></transition><transition><tactic>FortGatlingGun</tactic><length>2</length><exit>1</exit></transition><transition><tactic>FortLegionMagyarHussar</tactic><length>2</length><exit>1</exit></transition><transition><tactic>FortLegionDragoon</tactic><length>2</length><exit>1</exit></transition><transition><tactic>FortLegionCzapaka</tactic><length>2</length><exit>1</exit></transition><transition><tactic>FortLegionGrenadier</tactic><length>2</length><exit>1</exit></transition></tactic>
+  <tactic>FortHussar<active>0</active><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><action priority="100">AntiShipAttack</action><action priority="75">CannonAttack</action><action priority="70">BuildingAttack</action><action>SpawnGatlingGun</action><action>SpawnVolunteers1</action><action>SpawnVolunteers2</action><action>SpawnVolunteers3</action><action>SpawnVolunteers4</action><action>Spawn</action><action>ExtraBounty</action><action>ExtraBuildBounty</action><action>ExtraDamageInfantry</action><action>ExtraDamageCavalry</action><action>ExtraHPInfantry</action><action>ExtraHPCavalry</action><action>MaintainFedHussar</action><action>SpawnHospitaller</action><transition><tactic>FortNormal</tactic><length>2</length><exit>1</exit></transition><transition><tactic>FortRegular</tactic><length>2</length><exit>1</exit></transition><transition><tactic>FortRifleman</tactic><length>2</length><exit>1</exit></transition><transition><tactic>FortUSCavalry</tactic><length>2</length><exit>1</exit></transition><transition><tactic>FortGatlingGun</tactic><length>2</length><exit>1</exit></transition><transition><tactic>FortLegionMagyarHussar</tactic><length>2</length><exit>1</exit></transition><transition><tactic>FortLegionDragoon</tactic><length>2</length><exit>1</exit></transition><transition><tactic>FortLegionCzapaka</tactic><length>2</length><exit>1</exit></transition><transition><tactic>FortLegionGrenadier</tactic><length>2</length><exit>1</exit></transition></tactic>
+  <tactic>FortLegionMagyarHussar<active>0</active><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><action priority="100">AntiShipAttack</action><action priority="75">CannonAttack</action><action priority="70">BuildingAttack</action><action>SpawnGatlingGun</action><action>SpawnVolunteers1</action><action>SpawnVolunteers2</action><action>SpawnVolunteers3</action><action>SpawnVolunteers4</action><action>Spawn</action><action>ExtraBounty</action><action>ExtraBuildBounty</action><action>ExtraDamageInfantry</action><action>ExtraDamageCavalry</action><action>ExtraHPInfantry</action><action>ExtraHPCavalry</action><action>MaintainFedLegionMagyarHussar</action><action>SpawnHospitaller</action><transition><tactic>FortNormal</tactic><length>2</length><exit>1</exit></transition><transition><tactic>FortRegular</tactic><length>2</length><exit>1</exit></transition><transition><tactic>FortRifleman</tactic><length>2</length><exit>1</exit></transition><transition><tactic>FortUSCavalry</tactic><length>2</length><exit>1</exit></transition><transition><tactic>FortGatlingGun</tactic><length>2</length><exit>1</exit></transition><transition><tactic>FortHussar</tactic><length>2</length><exit>1</exit></transition><transition><tactic>FortLegionDragoon</tactic><length>2</length><exit>1</exit></transition><transition><tactic>FortLegionCzapaka</tactic><length>2</length><exit>1</exit></transition><transition><tactic>FortLegionGrenadier</tactic><length>2</length><exit>1</exit></transition></tactic>
+  <tactic>FortUSCavalry<active>0</active><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><action priority="100">AntiShipAttack</action><action priority="75">CannonAttack</action><action priority="70">BuildingAttack</action><action>SpawnGatlingGun</action><action>SpawnVolunteers1</action><action>SpawnVolunteers2</action><action>SpawnVolunteers3</action><action>SpawnVolunteers4</action><action>Spawn</action><action>ExtraBounty</action><action>ExtraBuildBounty</action><action>ExtraDamageInfantry</action><action>ExtraDamageCavalry</action><action>ExtraHPInfantry</action><action>ExtraHPCavalry</action><action>MaintainFedUSCavalry</action><action>SpawnHospitaller</action><transition><tactic>FortNormal</tactic><length>2</length><exit>1</exit></transition><transition><tactic>FortRegular</tactic><length>2</length><exit>1</exit></transition><transition><tactic>FortRifleman</tactic><length>2</length><exit>1</exit></transition><transition><tactic>FortHussar</tactic><length>2</length><exit>1</exit></transition><transition><tactic>FortGatlingGun</tactic><length>2</length><exit>1</exit></transition><transition><tactic>FortLegionMagyarHussar</tactic><length>2</length><exit>1</exit></transition><transition><tactic>FortLegionDragoon</tactic><length>2</length><exit>1</exit></transition><transition><tactic>FortLegionCzapaka</tactic><length>2</length><exit>1</exit></transition><transition><tactic>FortLegionGrenadier</tactic><length>2</length><exit>1</exit></transition></tactic>
+  <tactic>FortGatlingGun<active>0</active><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><action priority="100">AntiShipAttack</action><action priority="75">CannonAttack</action><action priority="70">BuildingAttack</action><action>SpawnGatlingGun</action><action>SpawnVolunteers1</action><action>SpawnVolunteers2</action><action>SpawnVolunteers3</action><action>SpawnVolunteers4</action><action>Spawn</action><action>ExtraBounty</action><action>ExtraBuildBounty</action><action>ExtraDamageInfantry</action><action>ExtraDamageCavalry</action><action>ExtraHPInfantry</action><action>ExtraHPCavalry</action><action>MaintainFedGatlingGun</action><action>SpawnHospitaller</action><transition><tactic>FortNormal</tactic><length>2</length><exit>1</exit></transition><transition><tactic>FortRegular</tactic><length>2</length><exit>1</exit></transition><transition><tactic>FortRifleman</tactic><length>2</length><exit>1</exit></transition><transition><tactic>FortHussar</tactic><length>2</length><exit>1</exit></transition><transition><tactic>FortUSCavalry</tactic><length>2</length><exit>1</exit></transition><transition><tactic>FortLegionMagyarHussar</tactic><length>2</length><exit>1</exit></transition><transition><tactic>FortLegionDragoon</tactic><length>2</length><exit>1</exit></transition><transition><tactic>FortLegionCzapaka</tactic><length>2</length><exit>1</exit></transition><transition><tactic>FortLegionGrenadier</tactic><length>2</length><exit>1</exit></transition></tactic>
+  <tactic>FortLegionDragoon<active>0</active><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><action priority="100">AntiShipAttack</action><action priority="75">CannonAttack</action><action priority="70">BuildingAttack</action><action>SpawnGatlingGun</action><action>SpawnVolunteers1</action><action>SpawnVolunteers2</action><action>SpawnVolunteers3</action><action>SpawnVolunteers4</action><action>Spawn</action><action>ExtraBounty</action><action>ExtraBuildBounty</action><action>ExtraDamageInfantry</action><action>ExtraDamageCavalry</action><action>ExtraHPInfantry</action><action>ExtraHPCavalry</action><action>MaintainFedLegionDragoon</action><action>SpawnHospitaller</action><transition><tactic>FortNormal</tactic><length>2</length><exit>1</exit></transition><transition><tactic>FortRegular</tactic><length>2</length><exit>1</exit></transition><transition><tactic>FortRifleman</tactic><length>2</length><exit>1</exit></transition><transition><tactic>FortHussar</tactic><length>2</length><exit>1</exit></transition><transition><tactic>FortUSCavalry</tactic><length>2</length><exit>1</exit></transition><transition><tactic>FortLegionMagyarHussar</tactic><length>2</length><exit>1</exit></transition><transition><tactic>FortGatlingGun</tactic><length>2</length><exit>1</exit></transition><transition><tactic>FortLegionCzapaka</tactic><length>2</length><exit>1</exit></transition><transition><tactic>FortLegionGrenadier</tactic><length>2</length><exit>1</exit></transition></tactic>
+  <tactic>FortLegionCzapaka<active>0</active><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><action priority="100">AntiShipAttack</action><action priority="75">CannonAttack</action><action priority="70">BuildingAttack</action><action>SpawnGatlingGun</action><action>SpawnVolunteers1</action><action>SpawnVolunteers2</action><action>SpawnVolunteers3</action><action>SpawnVolunteers4</action><action>Spawn</action><action>ExtraBounty</action><action>ExtraBuildBounty</action><action>ExtraDamageInfantry</action><action>ExtraDamageCavalry</action><action>ExtraHPInfantry</action><action>ExtraHPCavalry</action><action>MaintainFedLegionCzapaka</action><action>SpawnHospitaller</action><transition><tactic>FortNormal</tactic><length>2</length><exit>1</exit></transition><transition><tactic>FortRegular</tactic><length>2</length><exit>1</exit></transition><transition><tactic>FortRifleman</tactic><length>2</length><exit>1</exit></transition><transition><tactic>FortHussar</tactic><length>2</length><exit>1</exit></transition><transition><tactic>FortUSCavalry</tactic><length>2</length><exit>1</exit></transition><transition><tactic>FortLegionMagyarHussar</tactic><length>2</length><exit>1</exit></transition><transition><tactic>FortLegionDragoon</tactic><length>2</length><exit>1</exit></transition><transition><tactic>FortGatlingGun</tactic><length>2</length><exit>1</exit></transition><transition><tactic>FortLegionGrenadier</tactic><length>2</length><exit>1</exit></transition></tactic>
+  <tactic>FortLegionGrenadier<active>0</active><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><action priority="100">AntiShipAttack</action><action priority="75">CannonAttack</action><action priority="70">BuildingAttack</action><action>SpawnGatlingGun</action><action>SpawnVolunteers1</action><action>SpawnVolunteers2</action><action>SpawnVolunteers3</action><action>SpawnVolunteers4</action><action>Spawn</action><action>ExtraBounty</action><action>ExtraBuildBounty</action><action>ExtraDamageInfantry</action><action>ExtraDamageCavalry</action><action>ExtraHPInfantry</action><action>ExtraHPCavalry</action><action>MaintainFedLegionGrenadier</action><action>SpawnHospitaller</action><transition><tactic>FortNormal</tactic><length>2</length><exit>1</exit></transition><transition><tactic>FortRegular</tactic><length>2</length><exit>1</exit></transition><transition><tactic>FortRifleman</tactic><length>2</length><exit>1</exit></transition><transition><tactic>FortHussar</tactic><length>2</length><exit>1</exit></transition><transition><tactic>FortUSCavalry</tactic><length>2</length><exit>1</exit></transition><transition><tactic>FortLegionMagyarHussar</tactic><length>2</length><exit>1</exit></transition><transition><tactic>FortLegionDragoon</tactic><length>2</length><exit>1</exit></transition><transition><tactic>FortGatlingGun</tactic><length>2</length><exit>1</exit></transition><transition><tactic>FortLegionCzapaka</tactic><length>2</length><exit>1</exit></transition></tactic>
+</tactics>

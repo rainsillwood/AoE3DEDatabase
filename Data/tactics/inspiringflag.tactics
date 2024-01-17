@@ -1,0 +1,313 @@
+<tactics>
+  <action>
+    <name stringid="69161">AutoConvert</name>
+    <type>AutoConvert</type>
+    <maxrange>12.0</maxrange>
+    <persistent>1</persistent>
+    <cannotbeconvertedbyallies>1</cannotbeconvertedbyallies>
+  </action>
+  <action>
+    <name stringid="103418">FlagBuildRateBonus</name>
+    <type>AutoRangedModify</type>
+    <modifyabstracttype>UnitClass</modifyabstracttype>
+    <forbidabstracttype>AbstractArtillery</forbidabstracttype>
+    <maxrange>14</maxrange>
+    <persistent>1</persistent>
+    <nostack>1</nostack>
+    <nostackignorepuid>1</nostackignorepuid>
+    <modifytype>BuildRate</modifytype>
+    <modifymultiplier>1.50</modifymultiplier>
+    <modelattachment>effects\ypack_auras\american_power.xml</modelattachment>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+  </action>
+  <action>
+    <name stringid="103418">FlagWagonBuildRateBonus</name>
+    <type>AutoRangedModify</type>
+    <maxrange>14</maxrange>
+    <modifyabstracttype>Building</modifyabstracttype>
+    <persistent>1</persistent>
+    <targetunbuilt>1</targetunbuilt>
+    <nostack>1</nostack>
+    <nostackignorepuid>1</nostackignorepuid>
+    <modifytype>AutoBuildRate</modifytype>
+    <modifymultiplier>1.50</modifymultiplier>
+  </action>
+  <action>
+    <name stringid="103417">FlagBuildingWorkRateBonus</name>
+    <type>AutoRangedModify</type>
+    <maxrange>14</maxrange>
+    <persistent>1</persistent>
+    <nostack>1</nostack>
+    <nostackignorepuid>1</nostackignorepuid>
+    <modifytype>BuildingWorkRate</modifytype>
+    <modifyabstracttype>MilitaryBuilding</modifyabstracttype>
+    <modifymultiplier>1.25</modifymultiplier>
+  </action>
+  <action>
+    <name stringid="48958">FlagExtraDamage</name>
+    <type>AutoRangedModify</type>
+    <maxrange>14</maxrange>
+    <modifyabstracttype>UnitClass</modifyabstracttype>
+    <forbidabstracttype>AbstractArtillery</forbidabstracttype>
+    <persistent>1</persistent>
+    <nostack>1</nostack>
+    <nostackignorepuid>1</nostackignorepuid>
+    <modifytype>Damage</modifytype>
+    <modifymultiplier>1.1</modifymultiplier>
+    <modelattachment>effects\ypack_auras\american_power.xml</modelattachment>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+  </action>
+  <action>
+    <name stringid="48958">FlagExtraDamageBuilding</name>
+    <type>AutoRangedModify</type>
+    <maxrange>14</maxrange>
+    <persistent>1</persistent>
+    <nostack>1</nostack>
+    <nostackignorepuid>1</nostackignorepuid>
+    <modifyabstracttype>Building</modifyabstracttype>
+    <modifytype>Damage</modifytype>
+    <modifymultiplier>1.1</modifymultiplier>
+  </action>
+  <action>
+    <name stringid="48958">FlagExtraDamageStateMilitia</name>
+    <type>AutoRangedModify</type>
+    <active>0</active>
+    <maxrange>14</maxrange>
+    <persistent>1</persistent>
+    <nostack>1</nostack>
+    <nostackignorepuid>1</nostackignorepuid>
+    <modifyprotoid>deStateMilitia</modifyprotoid>
+    <modifytype>BaseDamage</modifytype>
+    <modifymultiplier>1.070</modifymultiplier>
+  </action>
+  <action>
+    <name stringid="112436">FlagBuildingWorkRateBonusImprovedMX</name>
+    <type>AutoRangedModify</type>
+    <active>0</active>
+    <maxrange>14</maxrange>
+    <persistent>1</persistent>
+    <nostack>1</nostack>
+    <nostackignorepuid>1</nostackignorepuid>
+    <modifyabstracttype>MilitaryBuilding</modifyabstracttype>
+    <modifytype>BuildingWorkRate</modifytype>
+    <modifymultiplier>1.5</modifymultiplier>
+  </action>
+  <action>
+    <name stringid="112437">FlagBuildingWorkRateBonusTownCenterMX</name>
+    <type>AutoRangedModify</type>
+    <active>0</active>
+    <maxrange>14</maxrange>
+    <persistent>1</persistent>
+    <nostack>1</nostack>
+    <nostackignorepuid>1</nostackignorepuid>
+    <modifyprotoid>TownCenter</modifyprotoid>
+    <modifytype>BuildingWorkRate</modifytype>
+    <modifymultiplier>1.25</modifymultiplier>
+  </action>
+  <action>
+    <name stringid="112891">FlagExtraSpeed</name>
+    <type>AutoRangedModify</type>
+    <active>0</active>
+    <maxrange>14</maxrange>
+    <persistent>1</persistent>
+    <nostack>1</nostack>
+    <nostackignorepuid>1</nostackignorepuid>
+    <modifyabstracttype>UnitClass</modifyabstracttype>
+    <modifytype>Speed</modifytype>
+    <modifymultiplier>1.15</modifymultiplier>
+    <modelattachment>effects\ypack_auras\american_power.xml</modelattachment>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+  </action>
+  <action>
+    <name stringid="48958">FlagExtraDamageMercenary</name>
+    <type>AutoRangedModify</type>
+    <active>0</active>
+    <maxrange>14</maxrange>
+    <persistent>1</persistent>
+    <nostack>1</nostack>
+    <nostackignorepuid>1</nostackignorepuid>
+    <modifyabstracttype>Mercenary</modifyabstracttype>
+    <modifytype>BaseDamage</modifytype>
+    <modifymultiplier>1.1</modifymultiplier>
+  </action>
+  <action>
+    <name stringid="48958">FlagExtraDamageOutlaw</name>
+    <type>AutoRangedModify</type>
+    <active>0</active>
+    <maxrange>14</maxrange>
+    <persistent>1</persistent>
+    <nostack>1</nostack>
+    <nostackignorepuid>1</nostackignorepuid>
+    <modifyabstracttype>AbstractOutlaw</modifyabstracttype>
+    <modifytype>BaseDamage</modifytype>
+    <modifymultiplier>1.1</modifymultiplier>
+  </action>
+  <action>
+    <name stringid="113137">FlagRechargeTime</name>
+    <type>AutoRangedModify</type>
+    <active>0</active>
+    <maxrange>14</maxrange>
+    <persistent>1</persistent>
+    <nostack>1</nostack>
+    <nostackignorepuid>1</nostackignorepuid>
+    <modifyabstracttype>AbstractOutlaw</modifyabstracttype>
+    <modifytype>RechargeTime</modifytype>
+    <modifymultiplier>0.50</modifymultiplier>
+  </action>
+  <action>
+    <name stringid="113137">FlagRechargeTimeBuilding</name>
+    <type>AutoRangedModify</type>
+    <active>0</active>
+    <maxrange>14</maxrange>
+    <persistent>1</persistent>
+    <nostack>1</nostack>
+    <nostackignorepuid>1</nostackignorepuid>
+    <modifyabstracttype>Building</modifyabstracttype>
+    <modifytype>RechargeTime</modifytype>
+    <modifymultiplier>0.75</modifymultiplier>
+  </action>
+  <action>
+    <name stringid="68961">FlagGatherRate</name>
+    <type>AutoRangedModify</type>
+    <active>0</active>
+    <maxrange>14</maxrange>
+    <persistent>1</persistent>
+    <nostack>1</nostack>
+    <nostackignorepuid>1</nostackignorepuid>
+    <modifyabstracttype>AbstractVillager</modifyabstracttype>
+    <modifytype>GatherRate</modifytype>
+    <modifymultiplier>1.15</modifymultiplier>
+  </action>
+  <action>
+    <name stringid="48954">FlagExtraHitpoints</name>
+    <type>AutoRangedModify</type>
+    <active>0</active>
+    <maxrange>70</maxrange>
+    <persistent>1</persistent>
+    <nostack>1</nostack>
+    <nostackignorepuid>1</nostackignorepuid>
+    <modifyabstracttype>UnitClass</modifyabstracttype>
+    <forbidabstracttype>AbstractArtillery</forbidabstracttype>
+    <modifytype>MaxHP</modifytype>
+    <modifymultiplier>1.05</modifymultiplier>
+    <modelattachment>effects\ypack_auras\american_power.xml</modelattachment>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+  </action>
+  <action>
+    <name stringid="48954">FlagExtraHitpointsBuilding</name>
+    <type>AutoRangedModify</type>
+    <active>0</active>
+    <maxrange>70</maxrange>
+    <persistent>1</persistent>
+    <nostack>1</nostack>
+    <nostackignorepuid>1</nostackignorepuid>
+    <modifyabstracttype>Building</modifyabstracttype>
+    <modifytype>MaxHP</modifytype>
+    <modifymultiplier>1.1</modifymultiplier>
+  </action>
+  <action>
+    <name stringid="48958">FlagExtraDamageMX</name>
+    <type>AutoRangedModify</type>
+    <active>0</active>
+    <maxrange>70</maxrange>
+    <persistent>1</persistent>
+    <nostack>1</nostack>
+    <nostackignorepuid>1</nostackignorepuid>
+    <modifyabstracttype>UnitClass</modifyabstracttype>
+    <modifytype>Damage</modifytype>
+    <modifymultiplier>1.15</modifymultiplier>
+    <modelattachment>effects\ypack_auras\american_power.xml</modelattachment>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+  </action>
+  <action>
+    <name stringid="48958">FlagExtraDamageBuildingMX</name>
+    <type>AutoRangedModify</type>
+    <active>0</active>
+    <maxrange>70</maxrange>
+    <persistent>1</persistent>
+    <nostack>1</nostack>
+    <nostackignorepuid>1</nostackignorepuid>
+    <modifyabstracttype>Building</modifyabstracttype>
+    <modifytype>Damage</modifytype>
+    <modifymultiplier>1.15</modifymultiplier>
+  </action>
+  <action>
+    <name stringid="48954">FlagExtraHitpointsTeam</name>
+    <type>AutoRangedModify</type>
+    <active>0</active>
+    <maxrange>70</maxrange>
+    <persistent>1</persistent>
+    <nostack>1</nostack>
+    <nostackignorepuid>1</nostackignorepuid>
+    <includeally>1</includeally>
+    <modifyabstracttype>UnitClass</modifyabstracttype>
+    <modifytype>MaxHP</modifytype>
+    <modifymultiplier>1.1</modifymultiplier>
+    <modelattachment>effects\ypack_auras\american_power.xml</modelattachment>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+  </action>
+  <action>
+    <name stringid="48954">FlagExtraHitpointsBuildingTeam</name>
+    <type>AutoRangedModify</type>
+    <active>0</active>
+    <maxrange>70</maxrange>
+    <persistent>1</persistent>
+    <nostack>1</nostack>
+    <nostackignorepuid>1</nostackignorepuid>
+    <includeally>1</includeally>
+    <modifyabstracttype>Building</modifyabstracttype>
+    <modifytype>MaxHP</modifytype>
+    <modifymultiplier>1.1</modifymultiplier>
+  </action>
+  <action>
+    <name stringid="112710">AreaHealDolores</name>
+    <type>AutoRangedModify</type>
+    <maxrange>14</maxrange>
+    <modifyabstracttype>UnitClass</modifyabstracttype>
+    <active>0</active>
+    <modifyexclusive>1</modifyexclusive>
+    <persistent>1</persistent>
+    <modifytype>HealRate</modifytype>
+    <modifyamount>20</modifyamount>
+    <restricttoidleunits>1</restricttoidleunits>
+    <modelattachment>effects\areaheal.xml</modelattachment>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+  </action>
+  <action>
+    <name stringid="69158">Spawn</name>
+    <type>Spawn</type>
+    <singleuse>1</singleuse>
+    <animationrate>1</animationrate>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="69158">SpawnOnce</name>
+    <type>Spawn</type>
+    <rate type="PetGrizzly">5.0 </rate>
+    <singleuseplayer>1</singleuseplayer>
+    <animationrate>1</animationrate>
+    <active>0</active>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="69158">SpawnREVMXBear</name>
+    <type>Maintain</type>
+    <maintaintrainpoints>200</maintaintrainpoints>
+    <rate type="PetGrizzly">5.0 </rate>
+    <active>0</active>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="113137">FlagRechargeTimeHero</name>
+    <type>AutoRangedModify</type>
+    <active>0</active>
+    <maxrange>14</maxrange>
+    <persistent>1</persistent>
+    <nostack>1</nostack>
+    <nostackignorepuid>1</nostackignorepuid>
+    <modifyabstracttype>Hero</modifyabstracttype>
+    <modifytype>RechargeTime</modifytype>
+    <modifymultiplier>0.50</modifymultiplier>
+  </action>
+  <tactic>Normal<action>AutoConvert</action><action>FlagBuildRateBonus</action><action>FlagWagonBuildRateBonus</action><action>FlagBuildingWorkRateBonus</action><action>FlagExtraDamage</action><action>FlagExtraDamageBuilding</action><action>FlagExtraDamageStateMilitia</action><action>FlagBuildingWorkRateBonusImprovedMX</action><action>FlagBuildingWorkRateBonusTownCenterMX</action><action>FlagExtraSpeed</action><action>FlagExtraDamageMercenary</action><action>FlagExtraDamageOutlaw</action><action>FlagRechargeTime</action><action>FlagRechargeTimeBuilding</action><action>FlagRechargeTimeHero</action><action>FlagGatherRate</action><action>FlagExtraHitpoints</action><action>FlagExtraHitpointsBuilding</action><action>FlagExtraDamageMX</action><action>FlagExtraDamageBuildingMX</action><action>FlagExtraHitpointsTeam</action><action>FlagExtraHitpointsBuildingTeam</action><action>AreaHealDolores</action><action>Spawn</action><action>SpawnOnce</action><action>SpawnREVMXBear</action></tactic>
+</tactics>

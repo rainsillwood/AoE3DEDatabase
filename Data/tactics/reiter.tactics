@@ -1,0 +1,29 @@
+<tactics>
+  <action>
+    <name stringid="31827">MusketAttack</name>
+    <type>Attack</type>
+    <attackaction>1</attackaction>
+    <rangedlogic>1</rangedlogic>
+    <initialrof>1</initialrof>
+    <anim>RangedAttack</anim>
+    <maxheight>0</maxheight>
+    <accuracy>1.0</accuracy>
+    <accuracyreductionfactor>0.5</accuracyreductionfactor>
+    <aimbonus>0</aimbonus>
+    <maxspread>5</maxspread>
+    <spreadfactor>0.25</spreadfactor>
+    <trackrating>12</trackrating>
+    <unintentionaldamagemultiplier>0.7</unintentionaldamagemultiplier>
+    <projectile>InvisibleProjectile</projectile>
+    <impacteffect>effects\impacts\gun</impacteffect>
+    <rate type="All">1.0 </rate>
+  </action>
+  <action>
+    <name stringid="69146">AutoGather</name>
+    <type>AutoGather</type>
+    <persistent>1</persistent>
+    <active>0</active>
+    <rate type="Gold">0.02</rate>
+  </action>
+  <tactic>Normal<attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><runaway>1</runaway><autoretarget>1</autoretarget><action priority="100">MusketAttack</action><action>AutoGather</action></tactic>
+</tactics>

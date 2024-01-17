@@ -1,0 +1,72 @@
+<tactics>
+  <action>
+    <name stringid="38134">HandAttack</name>
+    <type>HandAttack</type>
+    <maxrange>1.0</maxrange>
+    <rate type="Unit">1.0 </rate>
+    <attackaction>1</attackaction>
+    <handlogic>1</handlogic>
+    <anim>Attack</anim>
+    <impacteffect>effects\impacts\melee</impacteffect>
+  </action>
+  <action>
+    <name stringid="91782">HandAttackCrate</name>
+    <type>HandAttack</type>
+    <active>0</active>
+    <maxrange>1.0</maxrange>
+    <rate type="AbstractInfiniteCrate">1.0 </rate>
+    <attackaction>1</attackaction>
+    <handlogic>1</handlogic>
+    <anim>GatherCrateAttack</anim>
+    <impacteffect>effects\impacts\melee</impacteffect>
+    <hidefromstats>1</hidefromstats>
+  </action>
+  <action>
+    <name stringid="69155">Heal</name>
+    <type>Heal</type>
+    <maxrange>12</maxrange>
+    <rate type="LogicalTypeHealed">5.0 </rate>
+    <anim>Heal</anim>
+  </action>
+  <action>
+    <name stringid="69150">CrateGather</name>
+    <anim>GatherCrate</anim>
+    <type>Gather</type>
+    <maxrange>0.5</maxrange>
+    <active>0</active>
+    <rate type="AbstractResourceCrate">1.0</rate>
+  </action>
+  <action>
+    <name stringid="42178">Gather</name>
+    <type>Gather</type>
+    <maxrange>0.5</maxrange>
+    <rate type="CommunityPlaza">1.0</rate>
+    <rate type="AbstractInfiniteCrate">1.0</rate>
+  </action>
+  <action>
+    <name stringid="69148">Discover</name>
+    <type>Discover</type>
+    <anim>Pickup</anim>
+    <maxrange>0.2</maxrange>
+    <active>0</active>
+    <rate type="AbstractNuggetLand">1.0</rate>
+  </action>
+  <action>
+    <name stringid="69155">Convert</name>
+    <type>Convert</type>
+    <active>1</active>
+    <maxrange>12</maxrange>
+    <anim>Convert</anim>
+    <rof>1.000000</rof>
+    <conversiondelay>6.000000</conversiondelay>
+  </action>
+  <action>
+    <name stringid="69151">Hunting</name>
+    <type>Hunting</type>
+    <maxrange>0</maxrange>
+    <active>0</active>
+    <rate type="AbstractInfiniteCrate">1.0</rate>
+    <typedmaxrange type="AbstractInfiniteCrate">0</typedmaxrange>
+  </action>
+  <tactic>Normal<action priority="100">Heal</action><action priority="95">HandAttackCrate</action><action priority="90">HandAttack</action><action>Discover</action><action>CrateGather</action><action>Gather</action><action>Convert</action><action>Hunting</action><attacktype>LogicalTypeHandUnitsAttack</attacktype><runaway>1</runaway><autoretarget>1</autoretarget></tactic>
+</tactics>

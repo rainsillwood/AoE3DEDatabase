@@ -1,0 +1,54 @@
+<tactics>
+  <action>
+    <name stringid="38134">MeleeHandAttack</name>
+    <type>Attack</type>
+    <maxrange>1.75</maxrange>
+    <rate type="Unit">1.0 </rate>
+    <attackaction>1</attackaction>
+    <handlogic>1</handlogic>
+    <speedboost>1</speedboost>
+    <anim>Attack_melee</anim>
+    <impacteffect>effects\impacts\melee</impacteffect>
+  </action>
+  <action>
+    <name stringid="38131">CoverHandAttack</name>
+    <type>Attack</type>
+    <maxrange>2</maxrange>
+    <rate type="Unit">1.0 </rate>
+    <attackaction>1</attackaction>
+    <handlogic>1</handlogic>
+    <anim>Attack_melee</anim>
+    <damage>6.5</damage>
+    <rof>1.0</rof>
+  </action>
+  <action>
+    <name stringid="38137">DefendHandAttack</name>
+    <type>Attack</type>
+    <maxrange>2</maxrange>
+    <rate type="Unit">1.0 </rate>
+    <attackaction>1</attackaction>
+    <handlogic>1</handlogic>
+    <speedboost>1</speedboost>
+    <anim>Attack_melee</anim>
+    <impacteffect>effects\impacts\melee</impacteffect>
+    <damage>6.5</damage>
+    <rof>1.0</rof>
+  </action>
+  <action>
+    <name stringid="38118">BuildingAttack</name>
+    <type>Attack</type>
+    <rangedlogic>1</rangedlogic>
+    <maxrange>6</maxrange>
+    <rate type="Building">1.0 </rate>
+    <attackaction>1</attackaction>
+    <speedboost>1</speedboost>
+    <anim>Raze_attack</anim>
+    <idleanim>Raze_idle</idleanim>
+    <impacteffect>effects\impacts\torch</impacteffect>
+    <projectile>TorchProjectile</projectile>
+  </action>
+  <tactic>Melee<action priority="100">MeleeHandAttack</action><action priority="75">BuildingAttack</action><speedmodifier>1.0</speedmodifier><attacktype>LogicalTypeHandUnitsAttack</attacktype><autoattacktype>LogicalTypeHandUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeHandUnitsAttack</attackresponsetype><runaway>1</runaway><transition><tactic>Defend</tactic><length>0</length><exit>1</exit></transition><autoretarget>1</autoretarget><idleanim>Idle</idleanim><boredanim>Bored</boredanim><deathanim>Death_by_melee</deathanim><walkanim>Walk</walkanim><joganim>Jog</joganim><runanim>Run</runanim></tactic>
+  <tactic>Defend<action priority="100">DefendHandAttack</action><action priority="25">BuildingAttack</action><attacktype>LogicalTypeHandUnitsAttack</attacktype><autoattacktype>LogicalTypeHandUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeHandUnitsAttack</attackresponsetype><runaway>0</runaway><autoretarget>1</autoretarget><transition><tactic>Normal</tactic><length>0</length><exit>1</exit></transition><idleanim>Idle</idleanim><boredanim>Bored</boredanim><deathanim>Death_by_melee</deathanim><walkanim>Walk</walkanim><joganim>Jog</joganim><runanim>Run</runanim></tactic>
+  <tactic>Cover<action priority="100">CoverHandAttack</action><action priority="25">BuildingAttack</action><attacktype>LogicalTypeHandUnitsAttack</attacktype><autoattacktype>LogicalTypeHandUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeHandUnitsAttack</attackresponsetype><runaway>0</runaway><autoretarget>1</autoretarget><transition><tactic>Normal</tactic><length>0</length><exit>1</exit></transition><idleanim>Idle</idleanim><boredanim>Bored</boredanim><deathanim>Death_by_melee</deathanim><walkanim>Walk</walkanim><joganim>Jog</joganim><runanim>Run</runanim></tactic>
+  <tactic>StandGround<action priority="100">DefendHandAttack</action><action priority="25">BuildingAttack</action><attacktype>LogicalTypeHandUnitsAttack</attacktype><autoattacktype>LogicalTypeHandUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeHandUnitsAttack</attackresponsetype><runaway>0</runaway><autoretarget>1</autoretarget><transition><tactic>Normal</tactic><length>0</length><exit>1</exit></transition><idleanim>Idle</idleanim><boredanim>Bored</boredanim><deathanim>Death_by_melee</deathanim><walkanim>Walk</walkanim><joganim>Jog</joganim><runanim>Run</runanim></tactic>
+</tactics>

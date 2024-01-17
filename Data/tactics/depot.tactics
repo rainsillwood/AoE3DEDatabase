@@ -1,0 +1,51 @@
+<tactics>
+  <action>
+    <name stringid="124920">ExplosionAttack</name>
+    <type>Attack</type>
+    <attackaction>1</attackaction>
+    <rangedlogic>1</rangedlogic>
+    <anim>RangedAttack</anim>
+    <maxheight>0</maxheight>
+    <accuracy>1.0</accuracy>
+    <accuracyreductionfactor>0.01</accuracyreductionfactor>
+    <aimbonus>0</aimbonus>
+    <maxspread>5</maxspread>
+    <spreadfactor>0.25</spreadfactor>
+    <trackrating>12</trackrating>
+    <unintentionaldamagemultiplier>0.7</unintentionaldamagemultiplier>
+    <projectile>InvisibleProjectile</projectile>
+    <impacteffect>effects\impacts\gun</impacteffect>
+    <rate type="All">1.0</rate>
+    <instantballistics>1</instantballistics>
+    <basedamagecap>1</basedamagecap>
+    <selfdestruct>1</selfdestruct>
+  </action>
+  <action>
+    <name stringid="48958">ExtraROFUnits</name>
+    <type>AutoRangedModify</type>
+    <active>1</active>
+    <modifyabstracttype>Ranged</modifyabstracttype>
+    <forbidabstracttype>AbstractArcher</forbidabstracttype>
+    <forbidabstracttype>AbstractVillager</forbidabstracttype>
+    <maxrange>16</maxrange>
+    <persistent>1</persistent>
+    <modifytype>ROF</modifytype>
+    <modifymultiplier>0.90</modifymultiplier>
+    <modelattachment>effects\ypack_auras\malta_power.xml</modelattachment>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+    <nostack>1</nostack>
+  </action>
+  <action>
+    <name stringid="48958">ExtraROFBuildings</name>
+    <type>AutoRangedModify</type>
+    <active>1</active>
+    <modifyabstracttype>LogicalTypeBuildingsHasRangedAttack</modifyabstracttype>
+    <maxrange>16</maxrange>
+    <persistent>1</persistent>
+    <modifytype>ROF</modifytype>
+    <modifymultiplier>0.90</modifymultiplier>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+    <nostack>1</nostack>
+  </action>
+  <tactic>Normal<action>ExtraROFUnits</action><action>ExtraROFBuildings</action></tactic>
+</tactics>

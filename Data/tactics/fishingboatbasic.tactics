@@ -1,0 +1,27 @@
+<tactics>
+  <action>
+    <name stringid="42178">Gather</name>
+    <type>Gather</type>
+    <maxrange>1.0</maxrange>
+    <rate type="AbstractFish">0.4</rate>
+    <rate type="AbstractWhale">0.4</rate>
+  </action>
+  <action>
+    <dbaction>BoatManager</dbaction>
+    <name stringid="69156">BoatManager</name>
+    <type>BoatManager</type>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="43019">AutoGatherCoinFish</name>
+    <type>AutoGather</type>
+    <active>0</active>
+    <donotautogatherunlessgatheringtypes>
+      <unittype>AbstractFish</unittype>
+    </donotautogatherunlessgatheringtypes>
+    <autogatherscalebygatherrate>1</autogatherscalebygatherrate>
+    <persistent>1</persistent>
+    <rate type="Gold">0.100000</rate>
+  </action>
+  <tactic>Normal<action>BoatManager</action><action>Gather</action><action>AutoGatherCoinFish</action></tactic>
+</tactics>

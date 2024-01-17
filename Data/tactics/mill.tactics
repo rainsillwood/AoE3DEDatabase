@@ -1,0 +1,50 @@
+<tactics>
+  <action>
+    <name stringid="69180">SpawnWagon</name>
+    <type>Maintain</type>
+    <rate type="SettlerWagon">1.0 </rate>
+    <active>0</active>
+    <persistent>1</persistent>
+    <singleuse>1</singleuse>
+  </action>
+  <action>
+    <name stringid="26019">SpawnCrateFood</name>
+    <type>Spawn</type>
+    <rate type="CrateofFood">1.0</rate>
+    <active>1</active>
+    <persistent>0</persistent>
+    <singleuse>1</singleuse>
+  </action>
+  <action>
+    <name stringid="69180">deSpawnSettlerWagon</name>
+    <type>Spawn</type>
+    <rate type="SettlerWagon">1.0</rate>
+    <active>0</active>
+    <persistent>1</persistent>
+    <singleuse>1</singleuse>
+  </action>
+  <action>
+    <name stringid="110006">deSpawnStateMilitia</name>
+    <type>Maintain</type>
+    <rate type="deFedStateMilitiaBatch2">1.0</rate>
+    <active>0</active>
+    <persistent>1</persistent>
+    <singleuse>1</singleuse>
+  </action>
+  <action>
+    <name stringid="68994">FarmSlowEnemyMilitary</name>
+    <type>AutoRangedModify</type>
+    <targetenemy>1</targetenemy>
+    <active>0</active>
+    <maxrange>9.5</maxrange>
+    <persistent>1</persistent>
+    <squareaura>1</squareaura>
+    <nostack>1</nostack>
+    <nostackignorepuid>1</nostackignorepuid>
+    <modifytype>Speed</modifytype>
+    <modifymultiplier>0.70</modifymultiplier>
+    <modelattachment>effects\ypack_auras\frightpower.xml</modelattachment>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+  </action>
+  <tactic>Normal<action>SpawnWagon</action><action>SpawnCrateFood</action><action>deSpawnSettlerWagon</action><action>deSpawnStateMilitia</action><action>FarmSlowEnemyMilitary</action></tactic>
+</tactics>

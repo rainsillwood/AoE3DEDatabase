@@ -1,0 +1,40 @@
+<tactics>
+  <action>
+    <name stringid="43019">AutoGather</name>
+    <type>AutoGather</type>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="48943">ExtraBuildBounty</name>
+    <type>AutoRangedModify</type>
+    <maxrange>40</maxrange>
+    <modifyabstracttype>BuildingClass</modifyabstracttype>
+    <persistent>1</persistent>
+    <nostack>1</nostack>
+    <targetunbuilt>1</targetunbuilt>
+    <modifytype>BuildBounty</modifytype>
+    <modifymultiplier>2</modifymultiplier>
+    <active>0</active>
+  </action>
+  <action>
+    <name stringid="103418">BuildRateBonus</name>
+    <type>AutoRangedModify</type>
+    <modifyabstracttype>LogicalTypeLandEconomy</modifyabstracttype>
+    <maxrange>60</maxrange>
+    <persistent>1</persistent>
+    <nostack>1</nostack>
+    <modifytype>BuildRate</modifytype>
+    <modifymultiplier>1.5</modifymultiplier>
+  </action>
+  <action>
+    <name stringid="103418">BuildRateBonusArchitect</name>
+    <type>AutoRangedModify</type>
+    <modifyprotoid>deArchitect</modifyprotoid>
+    <maxrange>60</maxrange>
+    <persistent>1</persistent>
+    <nostack>1</nostack>
+    <modifytype>BuildRate</modifytype>
+    <modifymultiplier>0.75</modifymultiplier>
+  </action>
+  <tactic>Normal<action>AutoGather</action><action>ExtraBuildBounty</action><action>BuildRateBonus</action><action>BuildRateBonusArchitect</action></tactic>
+</tactics>

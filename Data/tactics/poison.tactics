@@ -1,0 +1,26 @@
+<tactics>
+  <action>
+    <name stringid="38134">Attaching</name>
+    <type>Attaching</type>
+    <maxrange>10.75</maxrange>
+    <rate type="All">1.0 </rate>
+    <attackaction>1</attackaction>
+    <handlogic>1</handlogic>
+    <speedboost>1</speedboost>
+    <anim>HandAttack</anim>
+    <idleanim>CombatIdle</idleanim>
+    <singleuse>1</singleuse>
+  </action>
+  <action>
+    <name stringid="38134">HandAttack</name>
+    <type>Attack</type>
+    <maxrange>1.75</maxrange>
+    <rate type="All">1.0 </rate>
+    <attackaction>1</attackaction>
+    <handlogic>1</handlogic>
+    <speedboost>1</speedboost>
+    <anim>HandAttack</anim>
+    <idleanim>CombatIdle</idleanim>
+  </action>
+  <tactic>Melee<action priority="100">HandAttack</action><attacktype>LogicalTypeHandUnitsAttack</attacktype><autoattacktype>LogicalTypeHandUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeHandUnitsAttack</attackresponsetype><runaway>0</runaway><autoretarget>1</autoretarget></tactic>
+</tactics>

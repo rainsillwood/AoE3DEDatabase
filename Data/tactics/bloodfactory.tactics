@@ -1,0 +1,26 @@
+<tactics>
+  <action>
+    <name stringid="43297">SpawnMusketeer</name>
+    <type>Maintain</type>
+    <rate type="Musketeer">1.0 </rate>
+    <active>1</active>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="43297">SpawnHussar</name>
+    <type>Maintain</type>
+    <rate type="Hussar">1.0 </rate>
+    <active>1</active>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="43297">SpawnCannon</name>
+    <type>Maintain</type>
+    <rate type="Cannon">1.0 </rate>
+    <active>0</active>
+    <persistent>1</persistent>
+  </action>
+  <tactic>Musketeer<action>SpawnMusketeer</action><transition><tactic>Hussar</tactic><length>2</length><exit>1</exit></transition><transition><tactic>Cannon</tactic><length>2</length><exit>1</exit></transition></tactic>
+  <tactic>Hussar<action>SpawnHussar</action><transition><tactic>Musketeer</tactic><length>2</length><exit>1</exit></transition><transition><tactic>Cannon</tactic><length>2</length><exit>1</exit></transition></tactic>
+  <tactic>Cannon<action>SpawnCannon</action><transition><tactic>Musketeer</tactic><length>2</length><exit>1</exit></transition><transition><tactic>Hussar</tactic><length>2</length><exit>1</exit></transition></tactic>
+</tactics>

@@ -1,0 +1,20 @@
+<tactics>
+  <action>
+    <name stringid="101095">UnitChaos</name>
+    <type>AutoRangedModify</type>
+    <active>1</active>
+    <modifyabstracttype>Unit</modifyabstracttype>
+    <forbidabstracttype>Hero</forbidabstracttype>
+    <forbidabstracttype>RailroadUnit</forbidabstracttype>
+    <forbidabstracttype>Resource</forbidabstracttype>
+    <forbidabstracttype>EmbellishmentClass</forbidabstracttype>
+    <forbidabstracttype>Unattackable</forbidabstracttype>
+    <targetenemy>1</targetenemy>
+    <modifysingleactionbytype>1</modifysingleactionbytype>
+    <maxrange>3.0</maxrange>
+    <persistent>1</persistent>
+    <modifytype>Chaos</modifytype>
+    <modifyduration>5000</modifyduration>
+  </action>
+  <tactic>Chaos<action>UnitChaos</action></tactic>
+</tactics>

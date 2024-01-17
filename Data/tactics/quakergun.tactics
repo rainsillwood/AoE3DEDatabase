@@ -1,0 +1,209 @@
+<tactics>
+  <action>
+    <name stringid="38119">FalconetAttack</name>
+    <reloadanim>Falconet_reload</reloadanim>
+    <type>Attack</type>
+    <attackaction>1</attackaction>
+    <rangedlogic>1</rangedlogic>
+    <anim>Falconet_attack</anim>
+    <idleanim>Falconet_idle</idleanim>
+    <boredanim>Falconet_bored</boredanim>
+    <maxheight>0</maxheight>
+    <accuracy>1.0</accuracy>
+    <aimbonus>0</aimbonus>
+    <maxspread>5</maxspread>
+    <spreadfactor>0.25</spreadfactor>
+    <trackrating>12</trackrating>
+    <unintentionaldamagemultiplier>1.0</unintentionaldamagemultiplier>
+    <projectile>Cannonball</projectile>
+    <impacteffect>effects\impacts\cannon</impacteffect>
+    <rate type="All">1.0</rate>
+    <throw>1</throw>
+    <impactforcemin>500.0f</impactforcemin>
+    <impactforcemax>800.0f</impactforcemax>
+    <outerdamageareadistance>.25</outerdamageareadistance>
+    <outerdamageareafactor>.20</outerdamageareafactor>
+    <impactlaunchangle>10.0</impactlaunchangle>
+    <areasortmode>Directional</areasortmode>
+    <targetground>1</targetground>
+    <numberbounces>1</numberbounces>
+    <basedamagecap>1</basedamagecap>
+    <perfectaccuracy>1</perfectaccuracy>
+    <hidefromstats>1</hidefromstats>
+  </action>
+  <action>
+    <name stringid="38119">CulverinAttack</name>
+    <reloadanim>Culverin_reload</reloadanim>
+    <type>Attack</type>
+    <attackaction>1</attackaction>
+    <rangedlogic>1</rangedlogic>
+    <anim>Culverin_attack</anim>
+    <idleanim>Culverin_idle</idleanim>
+    <boredanim>Culverin_bored</boredanim>
+    <maxheight>0</maxheight>
+    <accuracy>1.0</accuracy>
+    <aimbonus>0</aimbonus>
+    <maxspread>5</maxspread>
+    <spreadfactor>0.25</spreadfactor>
+    <trackrating>12</trackrating>
+    <unintentionaldamagemultiplier>1.0</unintentionaldamagemultiplier>
+    <projectile>Cannonball</projectile>
+    <impacteffect>effects\impacts\cannon</impacteffect>
+    <rate type="All">1.0</rate>
+    <throw>1</throw>
+    <areasortmode>Directional</areasortmode>
+    <perfectaccuracy>1</perfectaccuracy>
+    <targetground>1</targetground>
+    <numberbounces>1</numberbounces>
+    <basedamagecap>1</basedamagecap>
+    <hidefromstats>1</hidefromstats>
+  </action>
+  <action>
+    <name stringid="38119">MortarAttack</name>
+    <reloadanim>Mortar_reload</reloadanim>
+    <type>Attack</type>
+    <attackaction>1</attackaction>
+    <rangedlogic>1</rangedlogic>
+    <anim>Mortar_attack</anim>
+    <idleanim>Mortar_idle</idleanim>
+    <boredanim>Mortar_bored</boredanim>
+    <accuracy>1.0</accuracy>
+    <aimbonus>0</aimbonus>
+    <maxspread>5</maxspread>
+    <spreadfactor>0.25</spreadfactor>
+    <trackrating>2</trackrating>
+    <unintentionaldamagemultiplier>1.0</unintentionaldamagemultiplier>
+    <projectile>MortarShell</projectile>
+    <impacteffect>effects\impacts\mortar</impacteffect>
+    <rate type="All">1.0</rate>
+    <areasortmode>Radial</areasortmode>
+    <perfectaccuracy>1</perfectaccuracy>
+    <targetground>1</targetground>
+    <basedamagecap>1</basedamagecap>
+    <hidefromstats>1</hidefromstats>
+  </action>
+  <action>
+    <name stringid="38119">HorseArtAttack</name>
+    <reloadanim>horseart_reload</reloadanim>
+    <type>attack</type>
+    <attackaction>1</attackaction>
+    <rangedlogic>1</rangedlogic>
+    <anim>horseart_attack</anim>
+    <idleanim>horseart_idle</idleanim>
+    <boredanim>horseart_bored</boredanim>
+    <maxheight>0</maxheight>
+    <accuracy>1.0</accuracy>
+    <aimbonus>0</aimbonus>
+    <maxspread>5</maxspread>
+    <spreadfactor>0.25</spreadfactor>
+    <trackrating>12</trackrating>
+    <unintentionaldamagemultiplier>1.0</unintentionaldamagemultiplier>
+    <projectile>Cannonball</projectile>
+    <impacteffect>effects\impacts\cannon</impacteffect>
+    <rate type="All">1.0</rate>
+    <throw>1</throw>
+    <impactforcemin>500.0f</impactforcemin>
+    <impactforcemax>800.0f</impactforcemax>
+    <outerdamageareadistance>.25</outerdamageareadistance>
+    <outerdamageareafactor>.20</outerdamageareafactor>
+    <impactlaunchangle>10.0</impactlaunchangle>
+    <areasortmode>directional</areasortmode>
+    <targetground>1</targetground>
+    <numberbounces>3</numberbounces>
+    <basedamagecap>1</basedamagecap>
+    <perfectaccuracy>1</perfectaccuracy>
+    <hidefromstats>1</hidefromstats>
+  </action>
+  <action>
+    <name stringid="110145">GatlingRepeatingAttack</name>
+    <type>Attack</type>
+    <active>0</active>
+    <attackaction>1</attackaction>
+    <rangedlogic>1</rangedlogic>
+    <anim>Gatling_repeating_attack</anim>
+    <idleanim>Gatling_idle</idleanim>
+    <boredanim>Gatling_bored</boredanim>
+    <maxheight>0</maxheight>
+    <accuracy>1.0</accuracy>
+    <accuracyreductionfactor>0.5</accuracyreductionfactor>
+    <aimbonus>0</aimbonus>
+    <maxspread>5</maxspread>
+    <spreadfactor>0.25</spreadfactor>
+    <trackrating>12</trackrating>
+    <unintentionaldamagemultiplier>0.7</unintentionaldamagemultiplier>
+    <projectile>InvisibleProjectile</projectile>
+    <numberprojectiles>1</numberprojectiles>
+    <displayednumberprojectiles>7</displayednumberprojectiles>
+    <impacteffect>effects\impacts\gun</impacteffect>
+    <rate type="All">1.0</rate>
+    <instantballistics>1</instantballistics>
+    <basedamagecap>1</basedamagecap>
+    <perfectaccuracy>1</perfectaccuracy>
+    <hidefromstats>1</hidefromstats>
+  </action>
+  <action>
+    <name stringid="38119">GatlingAttack</name>
+    <reloadanim>Gatling_reload</reloadanim>
+    <type>Attack</type>
+    <attackaction>1</attackaction>
+    <rangedlogic>1</rangedlogic>
+    <anim>Gatling_attack</anim>
+    <idleanim>Gatling_idle</idleanim>
+    <boredanim>Gatling_bored</boredanim>
+    <maxheight>0</maxheight>
+    <accuracy>1.0</accuracy>
+    <accuracyreductionfactor>0.5</accuracyreductionfactor>
+    <aimbonus>0</aimbonus>
+    <maxspread>5</maxspread>
+    <spreadfactor>0.25</spreadfactor>
+    <trackrating>12</trackrating>
+    <unintentionaldamagemultiplier>0.7</unintentionaldamagemultiplier>
+    <projectile>InvisibleProjectile</projectile>
+    <numberprojectiles>1</numberprojectiles>
+    <displayednumberprojectiles>6</displayednumberprojectiles>
+    <impacteffect>effects\impacts\gun</impacteffect>
+    <rate type="All">1.0</rate>
+    <instantballistics>1</instantballistics>
+    <basedamagecap>1</basedamagecap>
+    <perfectaccuracy>1</perfectaccuracy>
+    <hidefromstats>1</hidefromstats>
+  </action>
+  <action>
+    <name stringid="38119">HeavyCannonAttack</name>
+    <reloadanim>Cannon_reload</reloadanim>
+    <type>Attack</type>
+    <attackaction>1</attackaction>
+    <rangedlogic>1</rangedlogic>
+    <anim>Cannon_attack</anim>
+    <idleanim>Cannon_idle</idleanim>
+    <boredanim>Cannon_bored</boredanim>
+    <maxheight>0</maxheight>
+    <accuracy>1.0</accuracy>
+    <aimbonus>0</aimbonus>
+    <maxspread>5</maxspread>
+    <spreadfactor>0.25</spreadfactor>
+    <trackrating>12</trackrating>
+    <unintentionaldamagemultiplier>1.0</unintentionaldamagemultiplier>
+    <projectile>Cannonball</projectile>
+    <impacteffect>effects\impacts\cannon</impacteffect>
+    <rate type="All">1.0</rate>
+    <throw>1</throw>
+    <impactforcemin>700.0f</impactforcemin>
+    <impactforcemax>900.0f</impactforcemax>
+    <outerdamageareadistance>.25</outerdamageareadistance>
+    <outerdamageareafactor>.20</outerdamageareafactor>
+    <impactlaunchangle>12.0</impactlaunchangle>
+    <areasortmode>Directional</areasortmode>
+    <targetground>1</targetground>
+    <numberbounces>1</numberbounces>
+    <basedamagecap>1</basedamagecap>
+    <perfectaccuracy>1</perfectaccuracy>
+    <hidefromstats>1</hidefromstats>
+  </action>
+  <tactic>QuakerGunCulverin<fakeportraiticon>resources\art\units\artillery\culverin\culverin_portrait.png</fakeportraiticon><fakedisplaynameid>22950</fakedisplaynameid><fakerollovertextid>22949</fakerollovertextid><fakeshortrollovertextid>25626</fakeshortrollovertextid><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><action priority="100">CulverinAttack</action><throw>1</throw><idleanim>Culverin_idle</idleanim><boredanim>Culverin_bored</boredanim><walkanim>Culverin_Walk</walkanim><joganim>Culverin_Jog</joganim><runanim>Culverin_Run</runanim><deathanim>Culverin_Death</deathanim></tactic>
+  <tactic>QuakerGunGatlingGun<fakeportraiticon>resources\art\units\gatling_gun_portrait.png</fakeportraiticon><fakedisplaynameid>45211</fakedisplaynameid><fakerollovertextid>45210</fakerollovertextid><fakeshortrollovertextid>45209</fakeshortrollovertextid><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><action priority="100">GatlingAttack</action><action priority="100">GatlingRepeatingAttack</action><throw>1</throw><idleanim>Gatling_idle</idleanim><boredanim>Gatling_bored</boredanim><walkanim>Gatling_Walk</walkanim><joganim>Gatling_Jog</joganim><runanim>Gatling_Run</runanim><deathanim>Gatling_Death</deathanim></tactic>
+  <tactic>QuakerGunFalconet<fakeportraiticon>resources\art\units\artillery\falconet\falconet_portrait.png</fakeportraiticon><fakedisplaynameid>22952</fakedisplaynameid><fakerollovertextid>22951</fakerollovertextid><fakeshortrollovertextid>25635</fakeshortrollovertextid><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><action priority="100">FalconetAttack</action><throw>1</throw><idleanim>Falconet_idle</idleanim><boredanim>Falconet_bored</boredanim><walkanim>Falconet_Walk</walkanim><joganim>Falconet_Jog</joganim><runanim>Falconet_Run</runanim><deathanim>Falconet_Death</deathanim></tactic>
+  <tactic>QuakerGunMortar<active>0</active><fakeportraiticon>resources\art\units\artillery\mortar\mortar_portrait.png</fakeportraiticon><fakedisplaynameid>22975</fakedisplaynameid><fakerollovertextid>22974</fakerollovertextid><fakeshortrollovertextid>25668</fakeshortrollovertextid><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><action priority="100">MortarAttack</action><throw>1</throw><idleanim>Mortar_idle</idleanim><boredanim>Mortar_bored</boredanim><walkanim>Mortar_Walk</walkanim><joganim>Mortar_Jog</joganim><runanim>Mortar_Run</runanim><deathanim>Mortar_Death</deathanim></tactic>
+  <tactic>QuakerGunHorseArtillery<active>0</active><fakeportraiticon>resources\art\units\horse_artillery_portrait.png</fakeportraiticon><fakedisplaynameid>46620</fakedisplaynameid><fakerollovertextid>46619</fakerollovertextid><fakeshortrollovertextid>46618</fakeshortrollovertextid><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><action priority="100">HorseArtAttack</action><throw>1</throw><idleanim>horseart_idle</idleanim><boredanim>horseart_bored</boredanim><walkanim>horseart_Walk</walkanim><joganim>horseart_Jog</joganim><runanim>horseart_Run</runanim><deathanim>horseart_Death</deathanim></tactic>
+  <tactic>QuakerGunHeavyCannon<active>0</active><fakeportraiticon>resources\art\units\artillery\cannon\cannon_portrait.png</fakeportraiticon><fakedisplaynameid>22942</fakedisplaynameid><fakerollovertextid>22963</fakerollovertextid><fakeshortrollovertextid>25616</fakeshortrollovertextid><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><action priority="100">HeavyCannonAttack</action><throw>1</throw><idleanim>Cannon_idle</idleanim><boredanim>Cannon_bored</boredanim><walkanim>Cannon_Walk</walkanim><joganim>Cannon_Jog</joganim><runanim>Cannon_Run</runanim><deathanim>Cannon_Death</deathanim></tactic>
+</tactics>

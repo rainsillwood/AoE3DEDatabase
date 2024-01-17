@@ -1,0 +1,28 @@
+<tactics>
+  <action>
+    <name stringid="125075">DockWorkRateBonus</name>
+    <type>AutoRangedModify</type>
+    <active>0</active>
+    <maxrange>24</maxrange>
+    <persistent>1</persistent>
+    <nostack>1</nostack>
+    <modifytype>BuildingWorkRate</modifytype>
+    <modifyabstracttype>AbstractDock</modifyabstracttype>
+    <modifymultiplier>1.60</modifymultiplier>
+    <modifybase>1.0</modifybase>
+  </action>
+  <action>
+    <name stringid="112436">MilitaryBuildingWorkRateBonus</name>
+    <type>AutoRangedModify</type>
+    <active>0</active>
+    <maxrange>24</maxrange>
+    <persistent>1</persistent>
+    <nostack>1</nostack>
+    <modifyself>1</modifyself>
+    <modifytype>BuildingWorkRate</modifytype>
+    <modifyabstracttype>MilitaryBuilding</modifyabstracttype>
+    <modifymultiplier>1.60</modifymultiplier>
+    <modifybase>1.0</modifybase>
+  </action>
+  <tactic>Normal<action>DockWorkRateBonus</action><action>MilitaryBuildingWorkRateBonus</action></tactic>
+</tactics>
