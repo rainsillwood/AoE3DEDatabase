@@ -1,0 +1,164 @@
+<protounitsounddef>
+  <protounit name="ypMonkChinese">
+    <soundtype name="Select">
+      <skinlogic>
+        <choice name="none">
+          <soundset name="ChineseMonkSelect">
+          </soundset>
+        </choice>
+        <choice name="0">
+          <soundset name="ChineseChenSelect">
+          </soundset>
+        </choice>
+        <choice name="1">
+          <soundset name="ChineseHuangSelect">
+          </soundset>
+        </choice>
+        <choice name="2">
+          <soundset name="ChineseNunSelect">
+          </soundset>
+        </choice>
+      </skinlogic>
+    </soundtype>
+    <soundtype name="Grunt">
+      <skinlogic>
+        <choice name="none">
+          <soundset name="GenericMaleGrunt">
+          </soundset>
+        </choice>
+        <choice name="2">
+          <soundset name="GenericFemaleGrunt">
+          </soundset>
+        </choice>
+      </skinlogic>
+    </soundtype>
+    <soundtype name="Death">
+      <skinlogic>
+        <choice name="none">
+          <soundset name="GenericMaleDeath">
+          </soundset>
+        </choice>
+        <choice name="2">
+          <soundset name="GenericFemaleDeath">
+          </soundset>
+        </choice>
+      </skinlogic>
+    </soundtype>
+    <soundtype name="Creation">
+      <skinlogic>
+        <choice name="none">
+          <soundset name="ChineseMonkRevived">
+          </soundset>
+        </choice>
+        <choice name="2">
+          <soundset name="ChineseNunRevived">
+          </soundset>
+        </choice>
+      </skinlogic>
+    </soundtype>
+    <soundtype name="Acknowledge">
+      <skinlogic>
+        <choice name="none">
+          <targetlogic>
+            <choice name="default">
+              <soundset name="ChineseMonkAcknowledge">
+              </soundset>
+            </choice>
+            <choice name="enemy">
+              <soundset name="ChineseMonkAttack">
+              </soundset>
+            </choice>
+            <choice name="build">
+              <soundset name="ChineseMonkAcknowledge">
+              </soundset>
+            </choice>
+          </targetlogic>
+        </choice>
+        <choice name="0">
+          <targetlogic>
+            <choice name="default">
+              <soundset name="ChineseChangdaoAcknowledge">
+              </soundset>
+            </choice>
+            <choice name="enemy">
+              <soundset name="ChineseChenAttack">
+              </soundset>
+            </choice>
+            <choice name="build">
+              <soundset name="ChineseChangdaoAcknowledge">
+              </soundset>
+            </choice>
+          </targetlogic>
+        </choice>
+        <choice name="1">
+          <targetlogic>
+            <choice name="default">
+              <soundset name="ChineseHuangAcknowledge">
+              </soundset>
+            </choice>
+            <choice name="enemy">
+              <soundset name="ChineseHuangAttack">
+              </soundset>
+            </choice>
+            <choice name="build">
+              <soundset name="ChineseHuangAcknowledge">
+              </soundset>
+            </choice>
+          </targetlogic>
+        </choice>
+        <choice name="2">
+          <targetlogic>
+            <choice name="default">
+              <soundset name="ChineseNunAcknowledge">
+              </soundset>
+            </choice>
+            <choice name="enemy">
+              <soundset name="ChineseNunAttack">
+              </soundset>
+            </choice>
+            <choice name="build">
+              <soundset name="ChineseNunAcknowledge">
+              </soundset>
+            </choice>
+          </targetlogic>
+        </choice>
+      </skinlogic>
+    </soundtype>
+    <soundtype name="Claim">
+      <soundset name="ChineseMonkClaim">
+      </soundset>
+    </soundtype>
+    <soundtype name="KnockOut">
+      <skinlogic>
+        <choice name="none">
+          <soundset name="ChineseMonkDisabled">
+          </soundset>
+        </choice>
+        <choice name="2">
+          <soundset name="ChineseNunDisabled">
+          </soundset>
+        </choice>
+      </skinlogic>
+    </soundtype>
+    <soundtype name="KnockOutRevived">
+      <skinlogic>
+        <choice name="none">
+          <soundset name="ChineseMonkRevived">
+          </soundset>
+        </choice>
+        <choice name="0">
+          <soundset name="ChineseChenSelect">
+          </soundset>
+        </choice>
+        <choice name="1">
+          <soundset name="ChineseHuangSelect">
+          </soundset>
+        </choice>
+        <choice name="2">
+          <soundset name="ChineseNunRevived">
+          </soundset>
+        </choice>
+      </skinlogic>
+    </soundtype>
+  </protounit>
+</protounitsounddef>
