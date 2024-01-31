@@ -323,7 +323,6 @@ async function getInfo() {
             oString = oString + oData.rolloverstring + '\t';
             oString = oString + iString.replace(/<ruby>(.*?)<rt>.*?<\/ruby>/g, '$1').replaceAll('</br>', '↩️').replaceAll('&nbsp;', ' ').replace(/<.*?>/g, '');
             oArray.push(oString);
-            continue;
         }
         //处理科技
         oData = await getTech(iData.toLowerCase());
@@ -342,7 +341,6 @@ async function getInfo() {
             oString = oString + oData.rollovertext + '\t';
             oString = oString + iString.replace(/<ruby>(.*?)<rt>.*?<\/ruby>/g, '$1').replaceAll('</br>', '↩️').replaceAll('&nbsp;', ' ').replace(/<.*?>/g, '');
             oArray.push(oString);
-            continue;
         }
         //处理单位
         oData = await getProto(iData.toLowerCase());
@@ -360,7 +358,6 @@ async function getInfo() {
             oString = oString + '单位' + '\t';
             oString = oString + oData.rollovertext + '\t';
             oString = oString + iString.replace(/<ruby>(.*?)<rt>.*?<\/ruby>/g, '$1').replaceAll('</br>', '↩️').replaceAll('&nbsp;', ' ').replace(/<.*?>/g, '');
-            continue;
         }
     }
     setOuterHTML(oArray.join('\n'));
