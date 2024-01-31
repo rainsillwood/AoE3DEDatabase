@@ -5,16 +5,16 @@
     <meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
     <!--script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js'></script>
     <script type='text/javascript' src='https://cdn.jsdelivr.net/npm/bignumber.js@9.1.0/bignumber.min.js'></script-->
-    <script src='./script/jquery.js' charset='utf-8'></script>
-    <script src='./script/bignumber.js' charset='utf-8'></script>
-    <script src='./script/tools.js' charset='utf-8'></script>
-    <script src='./script/init.js' charset='utf-8'></script>
-    <script src='./script/database.js' charset='utf-8'></script>
-    <script src='./script/getdata.js' charset='utf-8'></script>
-    <script src='./script/functions.js' charset='utf-8'></script>
-    <script src='./script/geteffect.js' charset='utf-8'></script>
-    <link rel="stylesheet" type="text/css" href="./style/table.css">
-    <link rel="stylesheet" type="text/css" href="./style/body.css">
+    <script src='./Script/jquery.js' charset='utf-8'></script>
+    <script src='./Script/bignumber.js' charset='utf-8'></script>
+    <script src='./Script/tools.js' charset='utf-8'></script>
+    <script src='./Script/init.js' charset='utf-8'></script>
+    <script src='./Script/database.js' charset='utf-8'></script>
+    <script src='./Script/getdata.js' charset='utf-8'></script>
+    <script src='./Script/functions.js' charset='utf-8'></script>
+    <script src='./Script/geteffect.js' charset='utf-8'></script>
+    <link rel="stylesheet" type="text/css" href="./Style/table.css">
+    <link rel="stylesheet" type="text/css" href="./Style/body.css">
     <script>
         var indexedDB = window.indexedDB || window.webkitIndexedDB || window.mozIndexedDB || window.msIndexedDB;
         var homecityList = {};
@@ -67,7 +67,8 @@
                         </br>
                         当前版本　:<a id="version">0</a>-<a id="date">0</a><select id="language">
                             <option value="null">🏁未选择</option>
-                            <option value="SimplifiedChinese">🇨🇳简体中文(MOD)</option>
+                            <option value="SimplifiedChineseMod">🇨🇳简体中文(MOD)</option>
+                            <option value="SimplifiedChinese">🇨🇳简体中文</option>
                             <option value="TraditionalChinese">🇹🇼繁體中文</option>
                             <option value="English">🇬🇧English</option>
                             <option value="Japanese">🇯🇵日本語</option>
@@ -88,9 +89,11 @@
                     </div>
                     <hr>
                     <div>
-                        <button type="button" onclick="getStrings()">语言</button>
-                        <button type="button" onclick="getTechs()">科技</button>
-                        <button type="button" onclick="getProtos()">单位</button>
+                        <input type="checkbox" id="getString"><button type="button" onclick="getStrings()">语言</button>
+                        <input type="checkbox" id="getTech"><button type="button" onclick="getTechs()">科技</button>
+                        <input type="checkbox" id="getProto"><button type="button" onclick="getProtos()">单位</button>
+                        <!--input type="checkbox" id="getCiv"><button type="button" onclick="getCivs()">文明</button-->
+                        </br>
                         <button type="button" onclick="getUnitTypes()">单位类型</button>
                     </div>
                     <hr>
