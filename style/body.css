@@ -34,7 +34,6 @@
 }
 
 #functionbox {
-    float: left;
     width: 420px;
 }
 
@@ -45,7 +44,6 @@ button {
 
 #logger {
     width: 300px;
-    left: 20px;
 }
 
 #loggerShower {

@@ -46,8 +46,6 @@
 <body onload="init()">
     <div>
         <div id="databox">
-            <table id="info">
-            </table>
         </div>
         <div id="toolbox">
             <button type="button" id="toolShower" onclick="toggleNode('tool');">&gt;</button>
@@ -89,20 +87,22 @@
                     </div>
                     <hr>
                     <div>
-                        <input type="checkbox" id="getString"><button type="button" onclick="getStrings()">语言</button>
-                        <input type="checkbox" id="getTech"><button type="button" onclick="getTechs()">科技</button>
-                        <input type="checkbox" id="getProto"><button type="button" onclick="getProtos()">单位</button>
+                        <input type="checkbox" id="getString"><button type="button" onclick="getStrings(true)">语言</button>
+                        <input type="checkbox" id="getTech" checked="checked"><button type="button" onclick="getTechs(true)">科技</button>
+                        <input type="checkbox" id="getProto" checked="checked"><button type="button" onclick="getProtos(true)">单位</button>
+                        <input type="checkbox" id="getNugget"><button type="button" onclick="getNuggets(true)">宝藏</button>
                         <!--input type="checkbox" id="getCiv"><button type="button" onclick="getCivs()">文明</button-->
                         </br>
-                        <button type="button" onclick="getUnitTypes()">单位类型</button>
+                        <!--input type="checkbox" id="getUnitType"--><button type="button" onclick="getUnitTypes()">单位类型</button>
+                        <!--input type="checkbox" id="getUnitType"><button type="button" onclick="getUnitFlags()">单位标签</button-->
+                        <!--input type="checkbox" id="getUnitType"><button type="button" onclick="getUnitFlags()">科技标签</button-->
                     </div>
                     <hr>
                     <div>
                         <button type="button" onclick="getCards()">卡片</button>
-                        <button type="button" onclick="getNuggets()">宝藏</button>
                         <button type="button" onclick="getNative()">土著</button>
                         </br>
-                        <button type="button" onclick="getCivCard()"><del>文明卡片</del></button>
+                        <!--button type="button" onclick="getCivCard()">文明卡片</button-->
                         <button type="button" onclick="getShrine()">神社效率</button>
                         <button type="button" onclick="getTree()">树木</button>
                     </div>
@@ -110,9 +110,9 @@
                     <div>
                         <textarea id="input"></textarea>
                         </br>
-                        <button type="button" onclick="getInfo()">查询资料</br>宝藏/科技/单位</button>
-                        <button type="button" onclick="searchInfo(true)">反查(模糊)</br>科技/单位</button>
-                        <button type="button" onclick="searchInfo(false)">反查(严格)</br>科技/单位</button>
+                        <button type="button" onclick="getInfo()">查询资料</button>
+                        <button type="button" onclick="searchInfo(true)">反查(模糊)</button>
+                        <button type="button" onclick="searchInfo(false)">反查(严格)</button>
                     </div>
                     <textarea id="output" readOnly="true"></textarea>
                 </div>

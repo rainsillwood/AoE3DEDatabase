@@ -526,11 +526,11 @@ async function getEffect(effect, techName) {
     }
     switch (subType) {
         case 'RevealLOS': {//临时视野 DEHCUSExpedition
-            oString = (actor + '：' + (amount.gt(0) ? '获得视野' : '显示位置') + '');
+            oString = '★' + (actor + '：' + (amount.gt(0) ? '获得视野' : '显示位置') + '');
             break;
         }
         case 'EnableTradeRouteLOS': {
-            oString = ((amount.gt(0) ? '获得' : '关闭') + '贸易路线视野');
+            oString = '★' + ((amount.gt(0) ? '获得' : '关闭') + '贸易路线视野');
             break;
         }
         case 'AllowedAge': {//更改解锁时代 HCAdvancedArsenal
@@ -1721,27 +1721,21 @@ async function subEffect(effect, isNugget) {
             break;
         }
         case 'information': {
-            oString = '待测试';
             break;
         }
         case 'ConvertUnit': {
-            oString = '待测试';
             break;
         }
         case 'SpawnUnit': {
-            oString = '待测试';
             break;
         }
         case 'AdjustSpeed': {
-            oString = '待测试';
             break;
         }
         case 'AdjustHP': {
-            oString = '待测试';
             break;
         }
         case 'GiveTech': {
-            oString = '待测试';
             break;
         } default: {
             oString = JSON.stringify(effect);
