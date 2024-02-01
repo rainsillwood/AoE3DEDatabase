@@ -25,7 +25,7 @@
     overflow-x: auto;
 }
 
-#info {
+.infoTable {
     border-style: solid;
     border-width: 1px;
     border-color: black;
