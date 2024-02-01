@@ -169,7 +169,7 @@
     <modifyratebytype>1</modifyratebytype>
     <modifyabstracttype>LogicalTypeRomanTactics</modifyabstracttype>
     <active>0</active>
-    <maxrange>34</maxrange>
+    <maxrange>17</maxrange>
     <rate type="LogicalTypeRomanTactics">0.0033333334</rate>
     <persistent>1</persistent>
     <modifytype>Damage</modifytype>
@@ -184,12 +184,12 @@
     <modifyratebytype>1</modifyratebytype>
     <modifyabstracttype>LogicalTypeRomanTactics</modifyabstracttype>
     <active>0</active>
-    <maxrange>34</maxrange>
+    <maxrange>17</maxrange>
     <rate type="LogicalTypeRomanTactics">0.06666667</rate>
     <persistent>1</persistent>
     <modifytype>Damage</modifytype>
     <modifybase>1.0</modifybase>
-    <modifyratecap>1.50</modifyratecap>
+    <modifyratecap>1.30</modifyratecap>
     <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
     <modifyself>1</modifyself>
   </action>

@@ -596,6 +596,7 @@
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>2</age>
+      <displayunitcount>1</displayunitcount>
     </card>
     <card>
       <name>HCShipMortars1</name>
@@ -927,6 +928,13 @@
       <level>25</level>
       <prereqtech>HCRefrigeration</prereqtech>
       <age>0</age>
+    </card>
+    <card>
+      <name>DEHCColbertismTeam</name>
+      <maxcount>1</maxcount>
+      <level>25</level>
+      <prereqtech>HCRefrigeration</prereqtech>
+      <age>1</age>
     </card>
     <card>
       <name>HCXPFurTrade</name>
@@ -1329,15 +1337,6 @@
       </revoltcard>
     </card>
     <card>
-      <name>DEHCREVFencibles</name>
-      <maxcount>1</maxcount>
-      <level>0</level>
-      <prereqtech>XPRevolution</prereqtech>
-      <age>1</age>
-      <revoltcard>
-      </revoltcard>
-    </card>
-    <card>
       <name>DEHCREVShipGrizzlies</name>
       <maxcount>-1</maxcount>
       <level>0</level>
@@ -1497,7 +1496,7 @@
       </revoltcard>
     </card>
     <card>
-      <name>HCXPWarHutTrainingIroquois</name>
+      <name>HCNativeChampionsDutchTeam</name>
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>XPRevolution</prereqtech>
@@ -2355,7 +2354,7 @@
         <card>DEHCREVHighlanders</card>
         <card>DEHCREVShipMusketeers</card>
         <card>DEHCREVShipSkirmishers</card>
-        <card>DEHCREVShipWarCanoes</card>
+        <card>HCREVShipIronclads</card>
         <card>DEHCREVQuebec</card>
         <card>DEHCREVMetisFrench</card>
         <card>DEHCREVConscriptionCanada</card>
@@ -2364,7 +2363,7 @@
         <card>DEHCREVNativeAlliesCanada</card>
         <card>DEHCLenapeAllies</card>
         <card>DEHCHanoverAllies2</card>
-        <card>HCXPWarHutTrainingIroquois</card>
+        <card>HCNativeChampionsDutchTeam</card>
         <card>DEHCREVMXBloodBrothers</card>
       </cards>
     </revoltdeck>
@@ -2800,6 +2799,7 @@
       <tech x="3.6" y="3.0">HCSustainableAgriculture</tech>
       <tech x="3.6" y="5.0">HCRefrigeration</tech>
       <tech x="3.6" y="6.0">HCXPColbertism</tech>
+      <tech x="3.6" y="6.0">DEHCColbertismTeam</tech>
       <tech x="3.6" y="7.0">HCXPFurTrade</tech>
       <tech x="4.5" y="1.0">HCStockyards</tech>
       <tech x="5.4" y="1.0">HCFurrier</tech>
@@ -2822,6 +2822,7 @@
       <tech x="3.6" y="3.0">HCSustainableAgriculture</tech>
       <tech x="3.6" y="5.0">HCRefrigeration</tech>
       <tech x="3.6" y="6.0">HCXPColbertism</tech>
+      <tech x="3.6" y="6.0">DEHCColbertismTeam</tech>
       <tech x="3.6" y="7.0">HCXPFurTrade</tech>
       <tech x="4.5" y="1.0">HCStockyards</tech>
       <tech x="5.4" y="1.0">HCFurrier</tech>

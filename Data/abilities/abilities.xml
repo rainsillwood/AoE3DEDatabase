@@ -280,10 +280,16 @@
     <ability>PowerRecruitGuardian<rof>90</rof><sharedcooldown>true</sharedcooldown></ability>
     <ability>PowerCondorEye<rof>70</rof><sharedcooldown>true</sharedcooldown></ability>
     <ability>PowerSwashbuckler<tech>DEHCWarChiefInca2</tech><rof>90</rof><sharedcooldown>true</sharedcooldown></ability>
-    <ability>PowerLOS<tech>DESpyglassEnableShadow</tech><rof>90</rof><activetimecooldown>true</activetimecooldown></ability>
     <ability>deUnitHealthRegen<alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
     <ability>deIncaPassiveAbility<alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
   </deincawarchief>
+  <derevmancoinca>
+    <ability>PowerRecruitGuardian<rof>90</rof><sharedcooldown>true</sharedcooldown></ability>
+    <ability>PowerCondorEye<rof>70</rof><sharedcooldown>true</sharedcooldown></ability>
+    <ability>PowerSwashbuckler<rof>90</rof><sharedcooldown>true</sharedcooldown></ability>
+    <ability>deUnitHealthRegen<alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
+    <ability>deIncaPassiveAbility<alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
+  </derevmancoinca>
   <spcsahin>
     <ability>PowerSwashbuckler<rof>90</rof></ability>
     <ability>deUnitHealthRegen<alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
@@ -958,6 +964,9 @@
     <ability>deUnitHealthRegen<tech>ChurchQuatrefage</tech><alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
     <ability>dePromotionHpDMG<tech>ChurchQuatrefage</tech><alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
   </halberdier>
+  <hussar>
+    <ability>deUnitHealthRegen<tech>DEHCGeorgianHussars</tech><alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
+  </hussar>
   <derussianhalberdier>
     <ability>deFealtyAura<tech>DEHCPolk</tech><alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
   </derussianhalberdier>

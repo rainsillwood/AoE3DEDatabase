@@ -605,6 +605,7 @@
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>2</age>
+      <displayunitcount>1</displayunitcount>
     </card>
     <card>
       <name>HCShipMortars1German</name>
@@ -1393,6 +1394,16 @@
       </revoltcard>
     </card>
     <card>
+      <name>DEHCREVShipSteamers</name>
+      <maxcount>-1</maxcount>
+      <level>0</level>
+      <prereqtech>XPRevolution</prereqtech>
+      <age>2</age>
+      <displayunitcount>2</displayunitcount>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
       <name>HCREVShipFortWagon</name>
       <maxcount>-1</maxcount>
       <level>0</level>
@@ -1416,7 +1427,7 @@
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>XPRevolution</prereqtech>
-      <age>2</age>
+      <age>3</age>
       <displayunitcount>15</displayunitcount>
       <revoltcard>
       </revoltcard>
@@ -1469,7 +1480,7 @@
       </revoltcard>
     </card>
     <card>
-      <name>DEHCREVOutlawCombat</name>
+      <name>DEHCREVOutlawMercCombat</name>
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>XPRevolution</prereqtech>
@@ -1478,7 +1489,7 @@
       </revoltcard>
     </card>
     <card>
-      <name>HCXPShipGrenadiersRepeat</name>
+      <name>DEHCREVShipGrenadiersRepeat</name>
       <maxcount>-1</maxcount>
       <level>0</level>
       <prereqtech>XPRevolution</prereqtech>
@@ -1488,7 +1499,7 @@
       </revoltcard>
     </card>
     <card>
-      <name>DEHCREVShipFalconets</name>
+      <name>DEHCREVShipFalconetsBalkan</name>
       <maxcount>-1</maxcount>
       <level>0</level>
       <prereqtech>XPRevolution</prereqtech>
@@ -1631,7 +1642,7 @@
       </revoltcard>
     </card>
     <card>
-      <name>DEHCTrattoria</name>
+      <name>DEHCREVTrattoria</name>
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
@@ -1646,6 +1657,7 @@
       <level>0</level>
       <prereqtech>XPRevolution</prereqtech>
       <age>1</age>
+      <displayunitcount>5</displayunitcount>
       <revoltcard>
       </revoltcard>
     </card>
@@ -1706,6 +1718,16 @@
       <prereqtech>HCShipFrigates</prereqtech>
       <bindtotech>HCNavalCombatGerman</bindtotech>
       <age>1</age>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>DEHCREVShipIronclads</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>1</age>
+      <displayunitcount>3</displayunitcount>
       <revoltcard>
       </revoltcard>
     </card>
@@ -1997,13 +2019,13 @@
         <card>DEHCREVCrabats</card>
         <card>DEHCREVPandours</card>
         <card>DEHCREVMagyarHussarsAlt</card>
-        <card>DEHCREVOutlawCombat</card>
+        <card>DEHCREVOutlawMercCombat</card>
         <card>DEHCREVShipEuropeanFleet</card>
         <card>DEHCREVShipFortWagonOutpost</card>
         <card>DEHCREVCitizenshipOutpost</card>
         <card>DEHCREVLegionHungarian</card>
-        <card>HCXPShipGrenadiersRepeat</card>
-        <card>DEHCREVShipFalconets</card>
+        <card>DEHCREVShipGrenadiersRepeat</card>
+        <card>DEHCREVShipFalconetsBalkan</card>
       </cards>
     </revoltdeck>
     <revoltdeck civ="DERevArgentina">
@@ -2030,7 +2052,7 @@
         <card>DEHCREVBuenosAires</card>
         <card>DEHCREVSanMartin</card>
         <card>HCXPBanditGang</card>
-        <card>DEHCTrattoria</card>
+        <card>DEHCREVTrattoria</card>
         <card>DEHCREVFlyingBattery</card>
       </cards>
     </revoltdeck>
@@ -2052,8 +2074,10 @@
         <card>HCNavalCombat</card>
         <card>HCNavalGunners</card>
         <card>DEHCREVColombianNavy</card>
+        <card>DEHCREVShipIronclads</card>
         <card>HCAdvancedArsenal</card>
         <card>DEHCREVColombianArmy</card>
+        <card>DEHCREVShipSteamers</card>
       </cards>
     </revoltdeck>
   </decks>

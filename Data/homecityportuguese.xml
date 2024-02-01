@@ -591,6 +591,7 @@
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>2</age>
+      <displayunitcount>1</displayunitcount>
     </card>
     <card>
       <name>HCShipMortars1</name>
@@ -676,7 +677,7 @@
       <name>HCAdvancedTradingPost</name>
       <maxcount>1</maxcount>
       <level>25</level>
-      <prereqtech>HCNativeWarriors</prereqtech>
+      <bindtotech>HCAdvancedTradingPost</bindtotech>
       <age>0</age>
     </card>
     <card>
@@ -975,17 +976,17 @@
       <age>2</age>
     </card>
     <card>
+      <name>HCRumDistilleryTeam</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>0</age>
+    </card>
+    <card>
       <name>HCXPEconomicTheory</name>
       <maxcount>1</maxcount>
       <level>40</level>
       <prereqtech>HCMedicine</prereqtech>
-      <age>0</age>
-    </card>
-    <card>
-      <name>HCRumDistillery</name>
-      <maxcount>1</maxcount>
-      <level>0</level>
-      <prereqtech>-1</prereqtech>
       <age>0</age>
     </card>
     <card>
@@ -1111,7 +1112,7 @@
       <maxcount>1</maxcount>
       <level>10</level>
       <prereqtech>-1</prereqtech>
-      <age>2</age>
+      <age>0</age>
     </card>
     <card>
       <name>HCAdmirality</name>
@@ -1260,6 +1261,16 @@
       <displayunitcount>15</displayunitcount>
     </card>
     <card>
+      <name>DEHCBelandaHitam</name>
+      <maxcount>1</maxcount>
+      <level>25</level>
+      <bindtotech>DEHCBelandaHitam</bindtotech>
+      <age>3</age>
+      <displayunitcount>12</displayunitcount>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
       <name>DEHCHandMortar</name>
       <maxcount>1</maxcount>
       <level>0</level>
@@ -1305,6 +1316,16 @@
     </card>
     <card>
       <name>HCREVShipIronclads</name>
+      <maxcount>-1</maxcount>
+      <level>0</level>
+      <prereqtech>XPRevolution</prereqtech>
+      <age>2</age>
+      <displayunitcount>2</displayunitcount>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>DEHCREVShipSteamers</name>
       <maxcount>-1</maxcount>
       <level>0</level>
       <prereqtech>XPRevolution</prereqtech>
@@ -1546,6 +1567,35 @@
       </revoltcard>
     </card>
     <card>
+      <name>DEHCREVOttomanExpArmy</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>XPRevolution</prereqtech>
+      <age>3</age>
+      <displayunitcount>14</displayunitcount>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>DEHCImmigrantsChinese</name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <prereqtech>-1</prereqtech>
+      <age>0</age>
+      <displayunitcount>1</displayunitcount>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>DEHCREVAdvancedArsenal</name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <bindtotech>HCAdvancedArsenal</bindtotech>
+      <age>0</age>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
       <name>DEHCREVShipBolasWarrior</name>
       <maxcount>-1</maxcount>
       <level>0</level>
@@ -1562,6 +1612,16 @@
       <prereqtech>XPRevolution</prereqtech>
       <age>2</age>
       <displayunitcount>10</displayunitcount>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>DEHCREVGuano</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>XPRevolution</prereqtech>
+      <age>2</age>
+      <displayunitcount>2</displayunitcount>
       <revoltcard>
       </revoltcard>
     </card>
@@ -1607,7 +1667,7 @@
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>XPRevolution</prereqtech>
-      <age>2</age>
+      <age>3</age>
       <revoltcard>
       </revoltcard>
     </card>
@@ -1694,6 +1754,25 @@
       <level>0</level>
       <prereqtech>XPRevolution</prereqtech>
       <age>0</age>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>DEHCREVJuninHussars</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>XPRevolution</prereqtech>
+      <age>0</age>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>DEHCREVShipIronclads</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>1</age>
+      <displayunitcount>3</displayunitcount>
       <revoltcard>
       </revoltcard>
     </card>
@@ -2073,7 +2152,7 @@
         <card dbid="2038">HCRidingSchool</card>
         <card dbid="2374">HCRangedInfantryDamagePortuguese</card>
         <card dbid="3387">HCXPEconomicTheory</card>
-        <card dbid="2101">HCRumDistillery</card>
+        <card dbid="2447">HCRumDistilleryTeam</card>
         <card dbid="2284">HCShipCulverins1</card>
         <card dbid="10326">DEHCHandCombatPortuguese</card>
         <card dbid="2627">HCDonatarios</card>
@@ -2102,7 +2181,7 @@
         <card dbid="2038">HCRidingSchool</card>
         <card dbid="2374">HCRangedInfantryDamagePortuguese</card>
         <card dbid="3387">HCXPEconomicTheory</card>
-        <card dbid="2101">HCRumDistillery</card>
+        <card dbid="2447">HCRumDistilleryTeam</card>
         <card dbid="2627">HCDonatarios</card>
         <card dbid="2364">HCShipCoveredWagons2</card>
         <card dbid="2284">HCShipCulverins1</card>
@@ -2138,6 +2217,7 @@
         <card>DEHCREVBerberNomads</card>
         <card>DEHCREVShipBerberAllies</card>
         <card>DEHCREVShipZenataTeam</card>
+        <card>DEHCREVOttomanExpArmy</card>
       </cards>
     </revoltdeck>
     <revoltdeck civ="DERevIndonesia">
@@ -2157,6 +2237,10 @@
         <card>HCFencingSchool</card>
         <card>DEHCREVKratonGuards</card>
         <card>DEHCREVLantakas</card>
+        <card>DEHCBelandaHitam</card>
+        <card>DEHCREVOttomanExpArmy</card>
+        <card>DEHCImmigrantsChinese</card>
+        <card>DEHCREVAdvancedArsenal</card>
       </cards>
     </revoltdeck>
     <revoltdeck civ="DERevPeru">
@@ -2165,11 +2249,12 @@
         <card>DEHCREVPeruvianGuard</card>
         <card>HCREVShipGatlingGuns</card>
         <card>HCREVShipIronclads</card>
+        <card>HCAdvancedTradingPost</card>
+        <card>HCXPUnlockFort2</card>
         <card>DEHCREVCattleDelivery</card>
         <card>DEHCREVCowboys</card>
         <card>DEHCREVShipBolasWarrior</card>
         <card>DEHCREVCitizenship</card>
-        <card>DEHCSeasonalLaborTeam</card>
         <card>DEHCREVShipFatLlamas</card>
         <card>DEHCREVAmericanAlliesPeru</card>
         <card>DEHCREVLima</card>
@@ -2178,9 +2263,10 @@
         <card>DEHCShipPriestessRepeat2</card>
         <card>DEHCShipInsurgente2</card>
         <card>DEHCMonumentalArchitecture</card>
-        <card>DEHCShipPriestessTeam</card>
         <card>DEHCMachuPicchu</card>
         <card>DEHCAlpacaWool</card>
+        <card>DEHCREVJuninHussars</card>
+        <card>DEHCREVGuano</card>
       </cards>
     </revoltdeck>
     <revoltdeck civ="DERevColombia">
@@ -2201,8 +2287,10 @@
         <card>HCNavalCombat</card>
         <card>HCNavalGunners</card>
         <card>DEHCREVColombianNavy</card>
+        <card>DEHCREVShipIronclads</card>
         <card>HCAdvancedArsenal</card>
         <card>DEHCREVColombianArmy</card>
+        <card>DEHCREVShipSteamers</card>
       </cards>
     </revoltdeck>
     <revoltdeck civ="DERevBrazil">
@@ -2569,9 +2657,9 @@
       <tech x="4.5" y="3.0">HCSpiceTrade</tech>
       <tech x="4.5" y="5.0">HCMedicine</tech>
       <tech x="4.5" y="7.0">HCXPEconomicTheory</tech>
-      <tech x="5.4" y="1.0">HCRumDistillery</tech>
       <tech x="5.4" y="2.0">HCCigarRoller</tech>
       <tech x="5.4" y="3.0">HCTextileMills</tech>
+      <tech x="5.4" y="3.0">HCRumDistilleryTeam</tech>
     </obtainabletechs>
     <activetechs>
       <tech x="0.0" y="3.0">DEHCFeitorias</tech>
@@ -2594,9 +2682,9 @@
       <tech x="4.5" y="3.0">HCSpiceTrade</tech>
       <tech x="4.5" y="5.0">HCMedicine</tech>
       <tech x="4.5" y="7.0">HCXPEconomicTheory</tech>
-      <tech x="5.4" y="1.0">HCRumDistillery</tech>
       <tech x="5.4" y="2.0">HCCigarRoller</tech>
       <tech x="5.4" y="3.0">HCTextileMills</tech>
+      <tech x="5.4" y="3.0">HCRumDistilleryTeam</tech>
     </activetechs>
     <validunits>
     </validunits>

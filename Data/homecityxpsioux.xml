@@ -904,6 +904,13 @@
       <age>1</age>
     </card>
     <card>
+      <name>HCRumDistilleryTeam</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>0</age>
+    </card>
+    <card>
       <name>HCXPAdoption</name>
       <maxcount>1</maxcount>
       <level>25</level>
@@ -1782,6 +1789,7 @@
       <tech x="7.0" y="1.0">DEHCNorthAmericaTrade</tech>
       <tech x="7.0" y="1.0">DEHCMedicineWheels</tech>
       <tech x="7.0" y="1.0">HCXPFurTrade</tech>
+      <tech x="7.0" y="1.0">HCRumDistilleryTeam</tech>
     </obtainabletechs>
     <activetechs>
       <tech x="1.0" y="1.0">HCXPShipFarmTravois1</tech>
@@ -1808,6 +1816,7 @@
       <tech x="7.0" y="1.0">DEHCNorthAmericaTrade</tech>
       <tech x="7.0" y="1.0">DEHCMedicineWheels</tech>
       <tech x="7.0" y="1.0">HCXPFurTrade</tech>
+      <tech x="7.0" y="1.0">HCRumDistilleryTeam</tech>
     </activetechs>
     <validunits>
     </validunits>

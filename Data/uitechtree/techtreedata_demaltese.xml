@@ -407,6 +407,9 @@
     <proto name="Crossbowman" banner="unit" icon="resources/art/units/infantry_ranged/crossbow/crossbow_portrait.png" row="4" col="262">
     </proto>
     <proto name="ypConsulateJinete" banner="unit" icon="resources/images/icons/portraits/units/dragoon_portrait.png" row="5" col="262">
+      <override>
+        <nameoverride>124714</nameoverride>
+      </override>
     </proto>
     <tech name="Revetment" banner="improvement" icon="resources/images/icons/techs/revetment/revetment.png" row="6" col="262">
     </tech>
@@ -419,6 +422,9 @@
     <proto name="deMalteseMusketeer" banner="unit" icon="resources/art/units/infantry_ranged/sentinel/sentinel_portrait.png" row="4" col="272">
     </proto>
     <proto name="ypConsulateLifeGuard" banner="unit" icon="resources/images/icons/portraits/units/light_cavalry_portrait.png" row="5" col="272">
+      <override>
+        <nameoverride>124715</nameoverride>
+      </override>
     </proto>
   </group>
 </techtreedata>

@@ -531,7 +531,12 @@
       <name>DEHCSchiavoniSwords</name>
       <maxcount>1</maxcount>
       <level>10</level>
-      <prereqtech>DEHCCavalryHitpointsItalian</prereqtech>
+      <prereqtech>DEHCCavalryDamageItalianTeam</prereqtech>
+      <age>1</age>
+    </card>
+    <card>
+      <name>DEHCCavalryDamageItalianTeam</name>
+      <maxcount>1</maxcount>
       <age>1</age>
     </card>
     <card>
@@ -582,6 +587,7 @@
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>2</age>
+      <displayunitcount>1</displayunitcount>
     </card>
     <card>
       <name>HCDEShipCulverins</name>
@@ -1238,14 +1244,6 @@
       <age>2</age>
     </card>
     <card>
-      <name>HCDonatarios</name>
-      <maxcount>1</maxcount>
-      <level>10</level>
-      <prereqtech>-1</prereqtech>
-      <age>2</age>
-      <bindtotech>HCDonatarios</bindtotech>
-    </card>
-    <card>
       <name>DEHCFeitorias</name>
       <maxcount>1</maxcount>
       <level>10</level>
@@ -1787,6 +1785,16 @@
       </revoltcard>
     </card>
     <card>
+      <name>DEHCREVOttomanExpArmy</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>XPRevolution</prereqtech>
+      <age>3</age>
+      <displayunitcount>14</displayunitcount>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
       <name>DEBasilicaShipCardinal1</name>
       <maxcount>-1</maxcount>
       <level>0</level>
@@ -2045,13 +2053,13 @@
       <maxcount>1</maxcount>
       <prereqtech>XPRevolution</prereqtech>
       <age>3</age>
-      <displayunitcount>7</displayunitcount>
+      <displayunitcount>6</displayunitcount>
       <revoltcard>
       </revoltcard>
     </card>
     <card>
       <name>HCXPMercsGreatCannon</name>
-      <maxcount>-1</maxcount>
+      <maxcount>1</maxcount>
       <prereqtech>XPRevolution</prereqtech>
       <age>3</age>
       <displayunitcount>3</displayunitcount>
@@ -2120,6 +2128,7 @@
       <level>0</level>
       <prereqtech>XPRevolution</prereqtech>
       <age>1</age>
+      <displayunitcount>5</displayunitcount>
       <revoltcard>
       </revoltcard>
     </card>
@@ -2425,6 +2434,7 @@
         <card>DEHCREVBerberNomads</card>
         <card>DEHCREVShipBerberAllies</card>
         <card>DEHCREVShipZenataTeam</card>
+        <card>DEHCREVOttomanExpArmy</card>
       </cards>
     </revoltdeck>
     <revoltdeck civ="DERevBrazil">
@@ -2647,6 +2657,7 @@
       <tech x="1.8" y="4.0">DEHCInfantryHitpointsItalian</tech>
       <tech x="5.3" y="4.0">DEHCGuardiaFinanza</tech>
       <tech x="3.2" y="3.0">DEHCShipBersaglieriRepeat</tech>
+      <tech x="4.6" y="3.0">DEHCCavalryDamageItalianTeam</tech>
       <tech x="4.6" y="4.0">DEHCSchiavoniSwords</tech>
       <tech x="4.6" y="5.0">DEHCCavalryCombatItalian</tech>
       <tech x="5.7" y="2.0">HCShipGrenadiers2</tech>
@@ -2688,6 +2699,7 @@
       <tech x="1.8" y="4.0">DEHCInfantryHitpointsItalian</tech>
       <tech x="5.3" y="4.0">DEHCGuardiaFinanza</tech>
       <tech x="3.2" y="3.0">DEHCShipBersaglieriRepeat</tech>
+      <tech x="4.6" y="3.0">DEHCCavalryDamageItalianTeam</tech>
       <tech x="4.6" y="4.0">DEHCSchiavoniSwords</tech>
       <tech x="4.6" y="5.0">DEHCCavalryCombatItalian</tech>
       <tech x="5.7" y="2.0">HCShipGrenadiers2</tech>

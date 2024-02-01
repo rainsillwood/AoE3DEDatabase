@@ -74,7 +74,7 @@
     <persistent>1</persistent>
     <modifytype>MaxHP</modifytype>
     <modifybase>1.0</modifybase>
-    <modifyratecap>1.10</modifyratecap>
+    <modifyratecap>1.13</modifyratecap>
   </action>
   <action>
     <name stringid="113226">RomanTactics1</name>
@@ -82,7 +82,7 @@
     <modifyratebytype>1</modifyratebytype>
     <modifyabstracttype>LogicalTypeRomanTactics</modifyabstracttype>
     <active>0</active>
-    <maxrange>34</maxrange>
+    <maxrange>17</maxrange>
     <rate type="LogicalTypeRomanTactics">0.0033333334</rate>
     <persistent>1</persistent>
     <modifytype>Damage</modifytype>
@@ -97,12 +97,12 @@
     <modifyratebytype>1</modifyratebytype>
     <modifyabstracttype>LogicalTypeRomanTactics</modifyabstracttype>
     <active>0</active>
-    <maxrange>34</maxrange>
+    <maxrange>17</maxrange>
     <rate type="LogicalTypeRomanTactics">0.005</rate>
     <persistent>1</persistent>
     <modifytype>Damage</modifytype>
     <modifybase>1.0</modifybase>
-    <modifyratecap>1.20</modifyratecap>
+    <modifyratecap>1.30</modifyratecap>
     <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
     <modifyself>1</modifyself>
   </action>

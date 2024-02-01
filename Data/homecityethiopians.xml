@@ -79,6 +79,14 @@
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
+      <name>DEHCShipVillagersAfricanTeam</name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <prereqtech>DEHCShipVillagers3</prereqtech>
+      <age>1</age>
+      <displayunitcount>3</displayunitcount>
+    </card>
+    <card>
       <name>DEHCOromoMigrations</name>
       <maxcount>1</maxcount>
       <age>0</age>
@@ -1106,7 +1114,7 @@
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>1</age>
-      <displayunitcount>7</displayunitcount>
+      <displayunitcount>6</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -1115,7 +1123,7 @@
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>2</age>
-      <displayunitcount>10</displayunitcount>
+      <displayunitcount>8</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -1399,6 +1407,7 @@
       <tech x="1.0" y="1.0">DEHCShipVillagersAbunRepeat</tech>
       <tech x="1.0" y="1.0">DEHCShipZebu2</tech>
       <tech x="1.0" y="1.0">DEHCShipVillagers2</tech>
+      <tech x="1.0" y="1.0">DEHCShipVillagersAfricanTeam</tech>
       <tech x="1.0" y="1.0">DEHCOromoMigrations</tech>
       <tech x="1.0" y="1.0">HCShipFoodCrates1</tech>
       <tech x="1.7" y="1.0">HCShipWoodCrates1</tech>
@@ -1437,6 +1446,7 @@
       <tech x="1.0" y="1.0">DEHCShipVillagersAbunRepeat</tech>
       <tech x="1.0" y="1.0">DEHCShipZebu2</tech>
       <tech x="1.0" y="1.0">DEHCShipVillagers2</tech>
+      <tech x="1.0" y="1.0">DEHCShipVillagersAfricanTeam</tech>
       <tech x="1.0" y="1.0">DEHCOromoMigrations</tech>
       <tech x="1.0" y="1.0">HCShipFoodCrates1</tech>
       <tech x="1.7" y="1.0">HCShipWoodCrates1</tech>

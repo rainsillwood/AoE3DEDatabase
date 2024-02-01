@@ -156,7 +156,7 @@
       <level>10</level>
       <prereqtech>HCShipCoinCrates2</prereqtech>
       <age>2</age>
-      <displayunitcount>400</displayunitcount>
+      <displayunitcount>500</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -629,6 +629,7 @@
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>2</age>
+      <displayunitcount>1</displayunitcount>
     </card>
     <card>
       <name>HCShipMortars1</name>
@@ -1566,12 +1567,32 @@
       </revoltcard>
     </card>
     <card>
+      <name>DEHCREVOttomanExpArmy</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>XPRevolution</prereqtech>
+      <age>3</age>
+      <displayunitcount>14</displayunitcount>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
       <name>DEHCREVShipStradiots</name>
       <maxcount>-1</maxcount>
       <level>0</level>
       <prereqtech>XPRevolution</prereqtech>
       <age>3</age>
       <displayunitcount>4</displayunitcount>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>HCREVShipKheviteFusiliers</name>
+      <maxcount>-1</maxcount>
+      <level>0</level>
+      <prereqtech>XPRevolution</prereqtech>
+      <age>2</age>
+      <displayunitcount>14</displayunitcount>
       <revoltcard>
       </revoltcard>
     </card>
@@ -1688,7 +1709,7 @@
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>XPRevolution</prereqtech>
-      <age>2</age>
+      <age>3</age>
       <displayunitcount>15</displayunitcount>
       <revoltcard>
       </revoltcard>
@@ -1741,7 +1762,16 @@
       </revoltcard>
     </card>
     <card>
-      <name>HCXPShipGrenadiersRepeat</name>
+      <name>DEHCREVOutlawMercCombat</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>XPRevolution</prereqtech>
+      <age>1</age>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>DEHCREVShipGrenadiersRepeat</name>
       <maxcount>-1</maxcount>
       <level>0</level>
       <prereqtech>XPRevolution</prereqtech>
@@ -1751,7 +1781,7 @@
       </revoltcard>
     </card>
     <card>
-      <name>DEHCREVShipFalconets</name>
+      <name>DEHCREVShipFalconetsBalkan</name>
       <maxcount>-1</maxcount>
       <level>0</level>
       <prereqtech>XPRevolution</prereqtech>
@@ -1819,11 +1849,49 @@
       </revoltcard>
     </card>
     <card>
+      <name>DEHCREVRidingSchool</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <bindtotech>HCRidingSchool</bindtotech>
+      <age>1</age>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>DEHCREVCavalryCombat</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <bindtotech>HCCavalryCombatOttoman</bindtotech>
+      <age>1</age>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
       <name>DEHCREVPhanariotes</name>
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>XPRevolution</prereqtech>
       <age>1</age>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>DEHCREVShipCavArchers</name>
+      <maxcount>-1</maxcount>
+      <level>0</level>
+      <prereqtech>XPRevolution</prereqtech>
+      <age>2</age>
+      <displayunitcount>8</displayunitcount>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>DEHCREVRussianExpArmy</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>XPRevolution</prereqtech>
+      <age>3</age>
+      <displayunitcount>12</displayunitcount>
       <revoltcard>
       </revoltcard>
     </card>
@@ -2038,12 +2106,13 @@
         <card>DEHCREVBerberNomads</card>
         <card>DEHCREVShipBerberAllies</card>
         <card>DEHCREVShipZenataTeam</card>
+        <card>DEHCREVOttomanExpArmy</card>
       </cards>
     </revoltdeck>
     <revoltdeck civ="DERevEgypt">
       <name>$$45518$$</name>
       <cards>
-        <card>HCREVShipColonialMilitia</card>
+        <card>HCREVShipKheviteFusiliers</card>
         <card>DEHCREVShipStradiots</card>
         <card>DEHCREVShipEgyptianFleet</card>
         <card>HCREVShipFortWagon</card>
@@ -2069,13 +2138,13 @@
         <card>DEHCREVCrabats</card>
         <card>DEHCREVPandours</card>
         <card>DEHCREVMagyarHussarsAlt</card>
-        <card>DEHCREVOutlawCombat</card>
+        <card>DEHCREVOutlawMercCombat</card>
         <card>DEHCREVShipEuropeanFleet</card>
         <card>DEHCREVShipFortWagonOutpost</card>
         <card>DEHCREVCitizenshipOutpost</card>
         <card>DEHCREVLegionHungarian</card>
-        <card>HCXPShipGrenadiersRepeat</card>
-        <card>DEHCREVShipFalconets</card>
+        <card>DEHCREVShipGrenadiersRepeat</card>
+        <card>DEHCREVShipFalconetsBalkan</card>
       </cards>
     </revoltdeck>
     <revoltdeck civ="DERevRomania">
@@ -2091,9 +2160,11 @@
         <card>DEHCREVShipFortWagonOutpost</card>
         <card>DEHCREVCitizenshipOutpost</card>
         <card>DEHCREVRoshiorDragoons</card>
-        <card>HCRidingSchool</card>
-        <card>HCCavalryCombatOttoman</card>
+        <card>DEHCREVRidingSchool</card>
+        <card>DEHCREVCavalryCombat</card>
         <card>DEHCREVPhanariotes</card>
+        <card>DEHCREVShipCavArchers</card>
+        <card>DEHCREVRussianExpArmy</card>
       </cards>
     </revoltdeck>
   </decks>

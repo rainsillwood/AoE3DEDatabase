@@ -570,6 +570,7 @@
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>2</age>
+      <displayunitcount>1</displayunitcount>
     </card>
     <card>
       <name>HCShipMortars1</name>
@@ -775,7 +776,7 @@
       <name>HCAdvancedMill</name>
       <maxcount>1</maxcount>
       <level>0</level>
-      <prereqtech>-1</prereqtech>
+      <bindtotech>HCAdvancedMill</bindtotech>
       <age>0</age>
       <displayunitcount>1</displayunitcount>
     </card>
@@ -938,7 +939,7 @@
       <name>HCSustainableAgriculture</name>
       <maxcount>1</maxcount>
       <level>10</level>
-      <prereqtech>-1</prereqtech>
+      <bindtotech>HCSustainableAgriculture</bindtotech>
       <age>1</age>
     </card>
     <card>
@@ -1331,11 +1332,22 @@
       <bindtotech>DEHCLiberationMarch</bindtotech>
     </card>
     <card>
+      <name>DEHCREVCitizenshipChile</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>XPRevolution</prereqtech>
+      <age>1</age>
+      <displayunitcount>2</displayunitcount>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
       <name>DEHCREVSalitrera</name>
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>XPRevolution</prereqtech>
       <age>1</age>
+      <displayunitcount>3</displayunitcount>
       <revoltcard>
       </revoltcard>
     </card>
@@ -1345,6 +1357,16 @@
       <level>0</level>
       <prereqtech>XPRevolution</prereqtech>
       <age>1</age>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>DEHCREVMilitaryParadeChile</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>XPRevolution</prereqtech>
+      <age>3</age>
+      <displayunitcount>25</displayunitcount>
       <revoltcard>
       </revoltcard>
     </card>
@@ -1399,6 +1421,16 @@
       </revoltcard>
     </card>
     <card>
+      <name>DEHCREVGuano</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>XPRevolution</prereqtech>
+      <age>2</age>
+      <displayunitcount>2</displayunitcount>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
       <name>DEHCREVAmericanAlliesPeru</name>
       <maxcount>1</maxcount>
       <level>0</level>
@@ -1440,7 +1472,7 @@
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>XPRevolution</prereqtech>
-      <age>2</age>
+      <age>3</age>
       <revoltcard>
       </revoltcard>
     </card>
@@ -1542,6 +1574,15 @@
       </revoltcard>
     </card>
     <card>
+      <name>DEHCREVJuninHussars</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>XPRevolution</prereqtech>
+      <age>0</age>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
       <name>HCXPMercsGreatCannon</name>
       <maxcount>1</maxcount>
       <prereqtech>XPRevolution</prereqtech>
@@ -1607,7 +1648,7 @@
       </revoltcard>
     </card>
     <card>
-      <name>DEHCTrattoria</name>
+      <name>DEHCREVTrattoria</name>
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
@@ -1622,6 +1663,7 @@
       <level>0</level>
       <prereqtech>XPRevolution</prereqtech>
       <age>1</age>
+      <displayunitcount>5</displayunitcount>
       <revoltcard>
       </revoltcard>
     </card>
@@ -1660,6 +1702,16 @@
       <prereqtech>-1</prereqtech>
       <age>3</age>
       <displayunitcount>24</displayunitcount>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>DEHCREVShipIronclads</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>1</age>
+      <displayunitcount>3</displayunitcount>
       <revoltcard>
       </revoltcard>
     </card>
@@ -2091,18 +2143,20 @@
         <card>HCFishMarket</card>
         <card>HCSchooners</card>
         <card>HCAdvancedDock</card>
-        <card>HCAdvancedTradingPost</card>
+        <card>HCAdvancedMill</card>
         <card>HCXPCapitalism</card>
+        <card>HCSustainableAgriculture</card>
         <card>HCRenderingPlant</card>
         <card>DEHCREVMXLiberationMarch</card>
         <card>DEHCREVSalitrera</card>
+        <card>DEHCREVCitizenshipChile</card>
         <card>DEHCREVFishingFleet</card>
         <card>HCREVShipGatlingGuns</card>
         <card>HCREVShipColonialMilitia</card>
         <card>DEHCREVShipBolasRider</card>
-        <card>DEHCREVShipSteamers</card>
         <card>HCREVShipIronclads</card>
         <card>HCREVShipFortWagon</card>
+        <card>DEHCREVMilitaryParadeChile</card>
       </cards>
     </revoltdeck>
     <revoltdeck civ="DERevPeru">
@@ -2111,11 +2165,12 @@
         <card>DEHCREVPeruvianGuard</card>
         <card>HCREVShipGatlingGuns</card>
         <card>HCREVShipIronclads</card>
+        <card>HCAdvancedTradingPost</card>
+        <card>HCXPUnlockFort2</card>
         <card>DEHCREVCattleDelivery</card>
         <card>DEHCREVCowboys</card>
         <card>DEHCREVShipBolasWarrior</card>
         <card>DEHCREVCitizenship</card>
-        <card>DEHCSeasonalLaborTeam</card>
         <card>DEHCREVShipFatLlamas</card>
         <card>DEHCREVAmericanAlliesPeru</card>
         <card>DEHCREVLima</card>
@@ -2124,9 +2179,10 @@
         <card>DEHCShipPriestessRepeat2</card>
         <card>DEHCShipInsurgente2</card>
         <card>DEHCMonumentalArchitecture</card>
-        <card>DEHCShipPriestessTeam</card>
         <card>DEHCMachuPicchu</card>
         <card>DEHCAlpacaWool</card>
+        <card>DEHCREVJuninHussars</card>
+        <card>DEHCREVGuano</card>
       </cards>
     </revoltdeck>
     <revoltdeck civ="DERevArgentina">
@@ -2147,14 +2203,15 @@
         <card>DEHCREVMXCaballeros</card>
         <card>HCShipLancers4</card>
         <card>DEHCREVShipMortars</card>
-        <card>HCXPMercsElmetiGerman</card>
+        <card>HCXPMercsElmeti</card>
         <card>HCXPMercsGreatCannon</card>
         <card>DEHCREVCriollos</card>
         <card>DEHCREVBuenosAires</card>
         <card>DEHCREVSanMartin</card>
         <card>HCXPBanditGang</card>
-        <card>DEHCTrattoria</card>
+        <card>DEHCREVTrattoria</card>
         <card>DEHCREVFlyingBattery</card>
+        <card>HCXPMercsElmeti</card>
       </cards>
     </revoltdeck>
     <revoltdeck civ="DERevColombia">
@@ -2175,8 +2232,10 @@
         <card>HCNavalCombat</card>
         <card>HCNavalGunners</card>
         <card>DEHCREVColombianNavy</card>
+        <card>DEHCREVShipIronclads</card>
         <card>HCAdvancedArsenal</card>
         <card>DEHCREVColombianArmy</card>
+        <card>DEHCREVShipSteamers</card>
       </cards>
     </revoltdeck>
     <revoltdeck civ="DERevMexico">

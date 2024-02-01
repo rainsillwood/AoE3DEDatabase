@@ -615,12 +615,12 @@
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
-      <name>HCDEShipCulverins</name>
+      <name>DEHCShipFalconetMortar</name>
       <maxcount>1</maxcount>
       <level>40</level>
       <prereqtech>HCShipFalconets3</prereqtech>
-      <age>3</age>
-      <displayunitcount>3</displayunitcount>
+      <age>2</age>
+      <displayunitcount>2</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -657,6 +657,15 @@
       <prereqtech>HCShipCannons1</prereqtech>
       <age>3</age>
       <displayunitcount>2</displayunitcount>
+    </card>
+    <card>
+      <name>HCDEShipCulverins</name>
+      <maxcount>1</maxcount>
+      <level>40</level>
+      <prereqtech>HCShipFalconets3</prereqtech>
+      <age>3</age>
+      <displayunitcount>3</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
       <name>HCMercsMediterranean</name>
@@ -835,6 +844,7 @@
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>2</age>
+      <displayunitcount>1</displayunitcount>
     </card>
     <card>
       <name>HCNativeWarriors</name>
@@ -914,7 +924,7 @@
     <card>
       <name>DEHCMilitaryOutposts</name>
       <maxcount>1</maxcount>
-      <age>2</age>
+      <age>1</age>
       <displayunitcount>2</displayunitcount>
     </card>
     <card>
@@ -1138,6 +1148,13 @@
     </card>
     <card>
       <name>HCExoticHardwoods</name>
+      <maxcount>1</maxcount>
+      <level>25</level>
+      <prereqtech>HCSawmills</prereqtech>
+      <age>0</age>
+    </card>
+    <card>
+      <name>DEHCWoodTrickleTeam</name>
       <maxcount>1</maxcount>
       <level>25</level>
       <prereqtech>HCSawmills</prereqtech>
@@ -1466,6 +1483,16 @@
       </revoltcard>
     </card>
     <card>
+      <name>DEHCREVOttomanExpArmy</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>XPRevolution</prereqtech>
+      <age>3</age>
+      <displayunitcount>14</displayunitcount>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
       <name>DEHCREVMilitaryFrontier</name>
       <maxcount>-1</maxcount>
       <level>0</level>
@@ -1479,7 +1506,7 @@
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>XPRevolution</prereqtech>
-      <age>2</age>
+      <age>3</age>
       <displayunitcount>15</displayunitcount>
       <revoltcard>
       </revoltcard>
@@ -1532,7 +1559,16 @@
       </revoltcard>
     </card>
     <card>
-      <name>HCXPShipGrenadiersRepeat</name>
+      <name>DEHCREVOutlawMercCombat</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>XPRevolution</prereqtech>
+      <age>1</age>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>DEHCREVShipGrenadiersRepeat</name>
       <maxcount>-1</maxcount>
       <level>0</level>
       <prereqtech>XPRevolution</prereqtech>
@@ -1542,7 +1578,7 @@
       </revoltcard>
     </card>
     <card>
-      <name>DEHCREVShipFalconets</name>
+      <name>DEHCREVShipFalconetsBalkan</name>
       <maxcount>-1</maxcount>
       <level>0</level>
       <prereqtech>XPRevolution</prereqtech>
@@ -1792,6 +1828,7 @@
         <card>DEHCREVBerberNomads</card>
         <card>DEHCREVShipBerberAllies</card>
         <card>DEHCREVShipZenataTeam</card>
+        <card>DEHCREVOttomanExpArmy</card>
       </cards>
     </revoltdeck>
     <revoltdeck civ="DERevHungary">
@@ -1803,13 +1840,13 @@
         <card>DEHCREVCrabats</card>
         <card>DEHCREVPandours</card>
         <card>DEHCREVMagyarHussarsAlt</card>
-        <card>DEHCREVOutlawCombat</card>
+        <card>DEHCREVOutlawMercCombat</card>
         <card>DEHCREVShipEuropeanFleet</card>
         <card>DEHCREVShipFortWagonOutpost</card>
         <card>DEHCREVCitizenshipOutpost</card>
         <card>DEHCREVLegionHungarian</card>
-        <card>HCXPShipGrenadiersRepeat</card>
-        <card>DEHCREVShipFalconets</card>
+        <card>DEHCREVShipGrenadiersRepeat</card>
+        <card>DEHCREVShipFalconetsBalkan</card>
       </cards>
     </revoltdeck>
   </decks>
@@ -1971,6 +2008,7 @@
       <tech x="6.7" y="2.0">HCShipFalconets2</tech>
       <tech x="6.7" y="7.0">HCShipFalconets4</tech>
       <tech x="6.7" y="7.0">HCShipFalconets5</tech>
+      <tech x="6.7" y="7.0">DEHCShipFalconetMortar</tech>
       <tech x="6.7" y="7.0">HCDEShipCulverins</tech>
       <tech x="7.4" y="1.0">HCAdvancedArtillery</tech>
       <tech x="7.4" y="2.0">HCShipMortars1</tech>
@@ -2022,6 +2060,7 @@
       <tech x="6.7" y="2.0">HCShipFalconets2</tech>
       <tech x="6.7" y="7.0">HCShipFalconets4</tech>
       <tech x="6.7" y="7.0">HCShipFalconets5</tech>
+      <tech x="6.7" y="7.0">DEHCShipFalconetMortar</tech>
       <tech x="6.7" y="7.0">HCDEShipCulverins</tech>
       <tech x="7.4" y="1.0">HCAdvancedArtillery</tech>
       <tech x="7.4" y="2.0">HCShipMortars1</tech>
@@ -2154,6 +2193,7 @@
       <tech x="1.6" y="3.0">HCSchooners</tech>
       <tech x="2.5" y="3.0">HCSawmills</tech>
       <tech x="2.5" y="5.0">HCExoticHardwoods</tech>
+      <tech x="2.5" y="5.0">DEHCWoodTrickleTeam</tech>
       <tech x="3.4" y="1.0">HCIronmonger</tech>
       <tech x="3.4" y="3.0">HCSilversmith</tech>
       <tech x="3.4" y="5.0">HCRoyalMint</tech>
@@ -2178,6 +2218,7 @@
       <tech x="1.6" y="3.0">HCSchooners</tech>
       <tech x="2.5" y="3.0">HCSawmills</tech>
       <tech x="2.5" y="5.0">HCExoticHardwoods</tech>
+      <tech x="2.5" y="5.0">DEHCWoodTrickleTeam</tech>
       <tech x="3.4" y="1.0">HCIronmonger</tech>
       <tech x="3.4" y="3.0">HCSilversmith</tech>
       <tech x="3.4" y="5.0">HCRoyalMint</tech>

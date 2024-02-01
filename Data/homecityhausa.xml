@@ -533,6 +533,13 @@
       <age>2</age>
     </card>
     <card>
+      <name>HCRangedInfantryDamageFrenchTeam</name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+    </card>
+    <card>
       <name>DEHCEmirKano</name>
       <maxcount>1</maxcount>
       <level>0</level>
@@ -568,7 +575,7 @@
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
-      <age>1</age>
+      <age>2</age>
     </card>
     <card>
       <name>DEHCDambeWrestling</name>
@@ -1569,6 +1576,7 @@
       <tech x="0.0" y="3.0">DEHCShipLifidiKnights3</tech>
       <tech x="0.0" y="3.0">DEHCShipLifidiKnightsRepeat</tech>
       <tech x="0.0" y="3.0">DEHCSarkinDogarai</tech>
+      <tech x="0.0" y="3.0">HCRangedInfantryDamageFrenchTeam</tech>
       <tech x="0.0" y="3.0">DEHCEmirKano</tech>
       <tech x="0.0" y="3.0">DEHCAminaEpic</tech>
       <tech x="0.0" y="3.0">DEHCFutaJallon</tech>
@@ -1605,6 +1613,7 @@
       <tech x="0.0" y="3.0">DEHCShipLifidiKnights3</tech>
       <tech x="0.0" y="3.0">DEHCShipLifidiKnightsRepeat</tech>
       <tech x="0.0" y="3.0">DEHCSarkinDogarai</tech>
+      <tech x="0.0" y="3.0">HCRangedInfantryDamageFrenchTeam</tech>
       <tech x="0.0" y="3.0">DEHCEmirKano</tech>
       <tech x="0.0" y="3.0">DEHCAminaEpic</tech>
       <tech x="0.0" y="3.0">DEHCFutaJallon</tech>

@@ -1325,7 +1325,7 @@
       <displayname>$$29469$$Crossbowman</displayname>
       <event>x</event>
       <context>TownCenterAccel</context>
-      <command>tis("Crossbowman")</command>
+      <command>tis("Crossbowman")  tis("deOrdenanca",5)</command>
     </keymapdata>
     <keymapdata>
       <name>Multiple Crossbowmen</name>
@@ -1333,7 +1333,7 @@
       <displayformat>$$43376$$Multiple %s</displayformat>
       <event>shift-x</event>
       <context>TownCenterAccel</context>
-      <command>tis("Crossbowman",5)</command>
+      <command>tis("Crossbowman",5)  tis("deOrdenanca",5)</command>
     </keymapdata>
     <keymapdata>
       <name>Karelian Skirmisher</name>
@@ -2729,7 +2729,7 @@
       <displayformat>$$43376$$Multiple %s</displayformat>
       <event>shift-x</event>
       <context>BlockhouseAccel</context>
-      <command>tis("Crossbowman",5) tis("deLandwehr",5)</command>
+      <command>tis("Crossbowman",5) tis("deLandwehr",5) tis("deOrdenanca",5)</command>
     </keymapdata>
     <keymapdata>
       <name>Carolean</name>
@@ -4097,7 +4097,7 @@
       <displayformat>$$43376$$Multiple %s</displayformat>
       <event>shift-x</event>
       <context>FortFrontierAccel</context>
-      <command>tis("Crossbowman",5) tis("deLandwehr",5)</command>
+      <command>tis("Crossbowman",5) tis("deLandwehr",5) tis("deOrdenanca",5)</command>
     </keymapdata>
     <keymapdata>
       <name>Carolean</name>

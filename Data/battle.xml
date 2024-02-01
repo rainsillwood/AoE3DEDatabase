@@ -86,10 +86,10 @@
     <targetunittype>All</targetunittype>
     <stance>Defensive</stance>
     <formationtype>Line</formationtype>
-    <maxnumberformationlines>4</maxnumberformationlines>
+    <maxnumberformationlines>14</maxnumberformationlines>
     <formationlinelinespacing>1.6</formationlinelinespacing>
     <formationlinecolumnspacing>1.6</formationlinecolumnspacing>
-    <randomspacingoffset>1.0</randomspacingoffset>
+    <randomspacingoffset>0.5</randomspacingoffset>
     <cooldowntime>5000</cooldowntime>
     <transitiontimein>500</transitiontimein>
     <activeicon>resources\images\icons\command\tactics_stagger_cur.png</activeicon>

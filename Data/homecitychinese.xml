@@ -294,6 +294,14 @@
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
+      <name>DEHCChineseBridgesTeam</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>1</age>
+      <displayunitcount>1</displayunitcount>
+    </card>
+    <card>
       <name>YPHCShipChuKoNu1</name>
       <maxcount>1</maxcount>
       <level>0</level>
@@ -1507,6 +1515,7 @@
       <tech x="6.3" y="2">YPHCChineseMonkMakeDisciple</tech>
       <tech x="6.3" y="5">YPHCShipShaolinMaster</tech>
       <tech x="7.1" y="1">YPHCShipMongolScoutTeam</tech>
+      <tech x="7.1" y="1">DEHCChineseBridgesTeam</tech>
       <tech x="6.3" y="3">YPHCShipDisciple1</tech>
       <tech x="6.3" y="3">DEHCTigerYear</tech>
     </obtainabletechs>
@@ -1539,6 +1548,7 @@
       <tech x="6.3" y="2">YPHCChineseMonkMakeDisciple</tech>
       <tech x="6.3" y="5">YPHCShipShaolinMaster</tech>
       <tech x="7.1" y="1">YPHCShipMongolScoutTeam</tech>
+      <tech x="7.1" y="1">DEHCChineseBridgesTeam</tech>
       <tech x="6.3" y="3">YPHCShipDisciple1</tech>
       <tech x="6.3" y="3">DEHCTigerYear</tech>
     </activetechs>

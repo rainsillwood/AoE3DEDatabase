@@ -403,6 +403,13 @@
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
+      <name>HCXPNationalRedoubt</name>
+      <maxcount>1</maxcount>
+      <level>40</level>
+      <prereqtech>HCRoyalDecreeRussian</prereqtech>
+      <age>3</age>
+    </card>
+    <card>
       <name>DEHCMilyutinReforms</name>
       <maxcount>1</maxcount>
       <level>40</level>
@@ -671,6 +678,7 @@
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>2</age>
+      <displayunitcount>1</displayunitcount>
     </card>
     <card>
       <name>HCShipMortars1</name>
@@ -866,13 +874,6 @@
       <level>10</level>
       <prereqtech>-1</prereqtech>
       <age>1</age>
-    </card>
-    <card>
-      <name>HCXPNationalRedoubt</name>
-      <maxcount>1</maxcount>
-      <level>40</level>
-      <prereqtech>HCRoyalDecreeRussian</prereqtech>
-      <age>3</age>
     </card>
     <card>
       <name>HCAdvancedMill</name>
@@ -1515,6 +1516,15 @@
       </revoltcard>
     </card>
     <card>
+      <name>DEHCREVJaegerCombat</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>XPRevolution</prereqtech>
+      <age>2</age>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
       <name>DEHCREVArmfeltsAutonomy</name>
       <maxcount>1</maxcount>
       <level>0</level>
@@ -1622,7 +1632,7 @@
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>XPRevolution</prereqtech>
-      <age>2</age>
+      <age>3</age>
       <displayunitcount>15</displayunitcount>
       <revoltcard>
       </revoltcard>
@@ -1675,7 +1685,7 @@
       </revoltcard>
     </card>
     <card>
-      <name>DEHCREVOutlawCombat</name>
+      <name>DEHCREVOutlawMercCombat</name>
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>XPRevolution</prereqtech>
@@ -1684,7 +1694,7 @@
       </revoltcard>
     </card>
     <card>
-      <name>HCXPShipGrenadiersRepeat</name>
+      <name>DEHCREVShipGrenadiersRepeat</name>
       <maxcount>-1</maxcount>
       <level>0</level>
       <prereqtech>XPRevolution</prereqtech>
@@ -1694,7 +1704,7 @@
       </revoltcard>
     </card>
     <card>
-      <name>DEHCREVShipFalconets</name>
+      <name>DEHCREVShipFalconetsBalkan</name>
       <maxcount>-1</maxcount>
       <level>0</level>
       <prereqtech>XPRevolution</prereqtech>
@@ -1762,11 +1772,49 @@
       </revoltcard>
     </card>
     <card>
+      <name>DEHCREVRidingSchool</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <bindtotech>HCRidingSchool</bindtotech>
+      <age>1</age>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>DEHCREVCavalryCombat</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <bindtotech>HCCavalryCombatRussian</bindtotech>
+      <age>1</age>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
       <name>DEHCREVPhanariotes</name>
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>XPRevolution</prereqtech>
       <age>1</age>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>DEHCREVShipCavArchers</name>
+      <maxcount>-1</maxcount>
+      <level>0</level>
+      <prereqtech>XPRevolution</prereqtech>
+      <age>2</age>
+      <displayunitcount>8</displayunitcount>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>DEHCREVRussianExpArmy</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>XPRevolution</prereqtech>
+      <age>3</age>
+      <displayunitcount>12</displayunitcount>
       <revoltcard>
       </revoltcard>
     </card>
@@ -1979,6 +2027,7 @@
         <card>DEHCREVShipBalticFleet</card>
         <card>DEHCREVGunboats</card>
         <card>DEHCREVCudgelWar</card>
+        <card>DEHCREVJaegerCombat</card>
         <card>DEHCREVArmfeltsAutonomy</card>
         <card>DEHCREVFinnishCounterArmy</card>
         <card>DEHCREVFinnhorses</card>
@@ -1999,13 +2048,13 @@
         <card>DEHCREVCrabats</card>
         <card>DEHCREVPandours</card>
         <card>DEHCREVMagyarHussarsAlt</card>
-        <card>DEHCREVOutlawCombat</card>
+        <card>DEHCREVOutlawMercCombat</card>
         <card>DEHCREVShipEuropeanFleet</card>
         <card>DEHCREVShipFortWagonOutpost</card>
         <card>DEHCREVCitizenshipOutpost</card>
         <card>DEHCREVLegionHungarian</card>
-        <card>HCXPShipGrenadiersRepeat</card>
-        <card>DEHCREVShipFalconets</card>
+        <card>DEHCREVShipGrenadiersRepeat</card>
+        <card>DEHCREVShipFalconetsBalkan</card>
       </cards>
     </revoltdeck>
     <revoltdeck civ="DERevRomania">
@@ -2021,9 +2070,11 @@
         <card>DEHCREVShipFortWagonOutpost</card>
         <card>DEHCREVCitizenshipOutpost</card>
         <card>DEHCREVRoshiorDragoons</card>
-        <card>HCRidingSchool</card>
+        <card>DEHCREVRidingSchool</card>
         <card>HCCavalryCombatRussian</card>
         <card>DEHCREVPhanariotes</card>
+        <card>DEHCREVShipCavArchers</card>
+        <card>DEHCREVRussianExpArmy</card>
       </cards>
     </revoltdeck>
   </decks>
@@ -2152,6 +2203,7 @@
       <tech x="0.7" y="4.0">HCShipStrelets4</tech>
       <tech x="0.7" y="5.0">HCSpawnStrelet</tech>
       <tech x="0.7" y="7.0">HCXPSuvorovReforms</tech>
+      <tech x="1.8" y="1.0">DEHCShipHalberdiersRussian1</tech>
       <tech x="1.8" y="1.0">HCShipHalberdiersRussian1</tech>
       <tech x="1.8" y="2.0">HCShipHalberdiersRussian2</tech>
       <tech x="1.8" y="3.0">HCShipHalberdiersRussian3</tech>
@@ -2160,6 +2212,7 @@
       <tech x="1.8" y="5.0">DEHCSovnya</tech>
       <tech x="2.5" y="1.0">HCShipMusketeersRussian2</tech>
       <tech x="2.5" y="2.0">HCShipMusketeersRussian3</tech>
+      <tech x="5.1" y="7.0">HCXPNationalRedoubt</tech>
       <tech x="3.5" y="1.0">DEHCMilyutinReforms</tech>
       <tech x="2.5" y="5.0">DEHCInfantryCombatRussian</tech>
       <tech x="3.5" y="1.0">HCShipCossacks1</tech>
@@ -2205,6 +2258,7 @@
       <tech x="0.7" y="4.0">HCShipStrelets4</tech>
       <tech x="0.7" y="5.0">HCSpawnStrelet</tech>
       <tech x="0.7" y="7.0">HCXPSuvorovReforms</tech>
+      <tech x="1.8" y="1.0">DEHCShipHalberdiersRussian1</tech>
       <tech x="1.8" y="1.0">HCShipHalberdiersRussian1</tech>
       <tech x="1.8" y="2.0">HCShipHalberdiersRussian2</tech>
       <tech x="1.8" y="3.0">HCShipHalberdiersRussian3</tech>
@@ -2213,6 +2267,7 @@
       <tech x="1.8" y="5.0">DEHCSovnya</tech>
       <tech x="2.5" y="1.0">HCShipMusketeersRussian2</tech>
       <tech x="2.5" y="2.0">HCShipMusketeersRussian3</tech>
+      <tech x="5.1" y="7.0">HCXPNationalRedoubt</tech>
       <tech x="3.5" y="1.0">DEHCMilyutinReforms</tech>
       <tech x="2.5" y="5.0">DEHCInfantryCombatRussian</tech>
       <tech x="3.5" y="1.0">HCShipCossacks1</tech>
@@ -2293,7 +2348,6 @@
       <tech x="4.2" y="1.0">HCBarracksHPTeam</tech>
       <tech x="4.2" y="3.0">HCBlockhouseCannon</tech>
       <tech x="5.1" y="3.0">HCRoyalDecreeRussian</tech>
-      <tech x="5.1" y="7.0">HCXPNationalRedoubt</tech>
       <tech x="5.8" y="1.0">HCAdvancedMill</tech>
       <tech x="6.5" y="1.0">HCAdvancedMarket</tech>
       <tech x="5.8" y="3.0">HCAdvancedDock</tech>
@@ -2329,7 +2383,6 @@
       <tech x="4.2" y="1.0">HCBarracksHPTeam</tech>
       <tech x="4.2" y="3.0">HCBlockhouseCannon</tech>
       <tech x="5.1" y="3.0">HCRoyalDecreeRussian</tech>
-      <tech x="5.1" y="7.0">HCXPNationalRedoubt</tech>
       <tech x="5.8" y="1.0">HCAdvancedMill</tech>
       <tech x="6.5" y="1.0">HCAdvancedMarket</tech>
       <tech x="5.8" y="3.0">HCAdvancedDock</tech>

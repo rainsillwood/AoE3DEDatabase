@@ -80,6 +80,14 @@
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
+      <name>DEHCShipVillagersNativeTeam</name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <prereqtech>HCXPShipVillagers3</prereqtech>
+      <age>1</age>
+      <displayunitcount>3</displayunitcount>
+    </card>
+    <card>
       <name>HCShipFoodCrates1</name>
       <maxcount>-1</maxcount>
       <level>0</level>
@@ -1535,6 +1543,7 @@
       <tech x="0.7" y="3.0">HCXPShipVillagers3</tech>
       <tech x="0.7" y="2.0">HCXPShipVillagers2</tech>
       <tech x="0.7" y="4.0">HCXPShipVillagers4</tech>
+      <tech x="0.7" y="4.0">DEHCShipVillagersNativeTeam</tech>
       <tech x="0.7" y="5.0">HCXPAdvancedScouts</tech>
       <tech x="1.7" y="1.0">HCShipFoodCrates1</tech>
       <tech x="2.5" y="1.0">HCShipWoodCrates1</tech>
@@ -1564,6 +1573,7 @@
       <tech x="0.7" y="3.0">HCXPShipVillagers3</tech>
       <tech x="0.7" y="2.0">HCXPShipVillagers2</tech>
       <tech x="0.7" y="4.0">HCXPShipVillagers4</tech>
+      <tech x="0.7" y="4.0">DEHCShipVillagersNativeTeam</tech>
       <tech x="0.7" y="5.0">HCXPAdvancedScouts</tech>
       <tech x="1.7" y="1.0">HCShipFoodCrates1</tech>
       <tech x="2.5" y="1.0">HCShipWoodCrates1</tech>

@@ -556,6 +556,7 @@
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>2</age>
+      <displayunitcount>1</displayunitcount>
     </card>
     <card>
       <name>HCShipMortars1</name>
@@ -1151,6 +1152,14 @@
       <age>3</age>
       <displayunitcount>21</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>HCXPCreeAlliesTeam</name>
+      <maxcount>1</maxcount>
+      <level>40</level>
+      <prereqtech>HCXPCreeAllies2</prereqtech>
+      <age>3</age>
+      <displayunitcount>10</displayunitcount>
     </card>
     <card>
       <name>DEHCLegionLee</name>
@@ -1777,6 +1786,7 @@
       <tech x="6.3" y="7.0">DEHCSeminoleScouts</tech>
       <tech x="6.3" y="7.0">DEHCApacheScouts</tech>
       <tech x="6.3" y="7.0">DEHCNavajoScouts</tech>
+      <tech x="6.3" y="7.0">HCXPCreeAlliesTeam</tech>
       <tech x="7.2" y="7.0">DEHCLegionLee</tech>
       <tech x="3.4" y="4.0">DEHCLegionWashington</tech>
       <tech x="0.9" y="1.0">DEHCImmigrantsDutch</tech>
@@ -1817,6 +1827,7 @@
       <tech x="6.3" y="7.0">DEHCSeminoleScouts</tech>
       <tech x="6.3" y="7.0">DEHCApacheScouts</tech>
       <tech x="6.3" y="7.0">DEHCNavajoScouts</tech>
+      <tech x="6.3" y="7.0">HCXPCreeAlliesTeam</tech>
       <tech x="7.2" y="7.0">DEHCLegionLee</tech>
       <tech x="3.4" y="4.0">DEHCLegionWashington</tech>
       <tech x="0.9" y="1.0">DEHCImmigrantsDutch</tech>

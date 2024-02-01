@@ -1755,6 +1755,7 @@
       <target type="ProtoUnit">LogicalTypeLandEconomy</target>
     </effect>
     <placement forceonmap="1" ally="">full</placement>
+    <soundset type="StartSound" listenertype="Caster">MarvelousYearArrival</soundset>
   </power>
   <power name="deSPCLevyCityGuards" type="GeneralEffect">
     <placement forceonmap="1">LOSDontCare</placement>
@@ -2110,7 +2111,7 @@
     <icon>resources\images\icons\abilities\ability_golden_rider_lrg.png</icon>
     <minimapeventtime sendalertto="player">1</minimapeventtime>
     <activetime>15</activetime>
-    <unitmodify amount="1.2" apply="multiply">Armor</unitmodify>
+    <unitmodify amount="1.15" apply="multiply">Armor</unitmodify>
     <modelattachment>effects\ypack_auras\wettin_power.xml</modelattachment>
     <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
     <powerplayerrelation>player</powerplayerrelation>
@@ -2558,7 +2559,11 @@
   </power>
   <power name="deToySoldiersSound" type="GeneralEffect">
     <activetime>10</activetime>
-    <startsoundset>ToySoldierArrival</startsoundset>
+    <soundset type="StartSound" listenertype="Caster">ToySoldierArrival</soundset>
+  </power>
+  <power name="deBritishGrenadiersSound" type="GeneralEffect">
+    <activetime>10</activetime>
+    <soundset type="StartSound" listenertype="Caster">BritishGrenadiersArrival</soundset>
   </power>
   <power name="deChargeAbilitySpyCrackshot" type="GeneralEffect">
     <displaynameid>110172</displaynameid>

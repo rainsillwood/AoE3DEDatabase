@@ -2221,6 +2221,9 @@
     <protoaction name="CoverBuildingAttack">
       <time>0.54</time>
     </protoaction>
+    <protoaction name="HandAttack">
+      <time>0.54</time>
+    </protoaction>
   </unit>
   <unit name="xpMantlet">
     <protoaction name="BuildingAttack">
@@ -2535,12 +2538,6 @@
   <unit name="xpCoyoteMan">
     <protoaction name="BuildingAttack">
       <time>1.7549999999999997</time>
-    </protoaction>
-    <protoaction name="CoverBuildingAttack">
-      <time>1.7549999999999997</time>
-    </protoaction>
-    <protoaction name="CoverHandAttack">
-      <time>0.595</time>
     </protoaction>
     <protoaction name="DefendHandAttack">
       <time>0.595</time>
@@ -3115,6 +3112,9 @@
     <protoaction name="RangedAttack">
       <time>0.9750000000000001</time>
     </protoaction>
+    <protoaction name="CoverRangedAttack">
+      <time>0.9750000000000001</time>
+    </protoaction>
   </unit>
   <unit name="HuariStrongholdAndes">
     <protoaction name="RangedAttack">
@@ -3550,6 +3550,12 @@
     </protoaction>
     <protoaction name="CoverBuildingAttack">
       <time>1.7549999999999997</time>
+    </protoaction>
+    <protoaction name="MortarBuildingAttack">
+      <time>0.32299067835444323</time>
+    </protoaction>
+    <protoaction name="CoverMortarBuildingAttack">
+      <time>0.32299067835444323</time>
     </protoaction>
     <protoaction name="CoverHandAttack">
       <time>0.7875000000000001</time>
@@ -4440,10 +4446,7 @@
     <protoaction name="CoverBuildingAttack">
       <time>1.7549999999999997</time>
     </protoaction>
-    <protoaction name="CoverHandAttack">
-      <time>0.8699999999999999</time>
-    </protoaction>
-    <protoaction name="HandAttack">
+    <protoaction name="DefendHandAttack">
       <time>0.8699999999999999</time>
     </protoaction>
   </unit>
@@ -4737,9 +4740,6 @@
     </protoaction>
     <protoaction name="CoverBuildingAttack">
       <time>1.6800000000000002</time>
-    </protoaction>
-    <protoaction name="CoverHandAttack">
-      <time>0.38500000000000006</time>
     </protoaction>
     <protoaction name="DefendHandAttack">
       <time>0.38500000000000006</time>
@@ -7681,13 +7681,13 @@
   </unit>
   <unit name="deREVGranadero">
     <protoaction name="BuildingAttack">
-      <time>1.98</time>
+      <time>1.6500000000000001</time>
     </protoaction>
     <protoaction name="HandAttack">
       <time>0.9250000000000002</time>
     </protoaction>
     <protoaction name="RangedAttack">
-      <time>0.39932772773674174</time>
+      <time>0.3327731064472848</time>
     </protoaction>
   </unit>
   <unit name="deREVLlanero">
@@ -8428,12 +8428,6 @@
   <unit name="deShotelWarrior">
     <protoaction name="BuildingAttack">
       <time>1.7549999999999997</time>
-    </protoaction>
-    <protoaction name="CoverBuildingAttack">
-      <time>1.7549999999999997</time>
-    </protoaction>
-    <protoaction name="CoverHandAttack">
-      <time>0.448</time>
     </protoaction>
     <protoaction name="DefendHandAttack">
       <time>0.448</time>
@@ -12451,16 +12445,16 @@
   </unit>
   <unit name="deNatTatarArcher">
     <protoaction name="BowAttack">
-      <time>0.5225</time>
+      <time>0.6269999999999999</time>
     </protoaction>
     <protoaction name="BuildingAttack">
-      <time>0.6</time>
+      <time>0.75</time>
     </protoaction>
     <protoaction name="ChargeAttack">
-      <time>0.7125</time>
+      <time>0.684</time>
     </protoaction>
     <protoaction name="MeleeHandAttack">
-      <time>0.653125</time>
+      <time>0.6269999999999999</time>
     </protoaction>
   </unit>
   <unit name="deNatTengriWolf">
@@ -12625,7 +12619,7 @@
       <time>0.09000000000000001</time>
     </protoaction>
     <protoaction name="VolleyRangedAttack">
-      <time>0.375</time>
+      <time>0.24500000000000002</time>
     </protoaction>
   </unit>
   <unit name="deNatMercRoyalDragoon">
@@ -12943,16 +12937,16 @@
   </unit>
   <unit name="deNatMercTatarArcher">
     <protoaction name="BowAttack">
-      <time>0.5225</time>
+      <time>0.6269999999999999</time>
     </protoaction>
     <protoaction name="BuildingAttack">
-      <time>0.6</time>
+      <time>0.75</time>
     </protoaction>
     <protoaction name="ChargeAttack">
-      <time>0.7125</time>
+      <time>0.684</time>
     </protoaction>
     <protoaction name="MeleeHandAttack">
-      <time>0.653125</time>
+      <time>0.6269999999999999</time>
     </protoaction>
   </unit>
   <unit name="deNatMercQizilbash">
@@ -13007,10 +13001,10 @@
       <time>0.7864285714285715</time>
     </protoaction>
     <protoaction name="StaggerRangedAttack">
-      <time>0.15000000000000002</time>
+      <time>0.09000000000000001</time>
     </protoaction>
     <protoaction name="VolleyRangedAttack">
-      <time>0.21000000000000005</time>
+      <time>0.24500000000000002</time>
     </protoaction>
   </unit>
   <unit name="deUnknownNatJaguarWarrior">
@@ -13317,6 +13311,29 @@
     </protoaction>
     <protoaction name="TrampleHandAttack">
       <time>1.04</time>
+    </protoaction>
+  </unit>
+  <unit name="deREVMancoInca">
+    <protoaction name="BuildingAttack">
+      <time>1.6800000000000002</time>
+    </protoaction>
+    <protoaction name="CoverBuildingAttack">
+      <time>1.6800000000000002</time>
+    </protoaction>
+    <protoaction name="CoverHandAttack">
+      <time>0.8362499999999999</time>
+    </protoaction>
+    <protoaction name="HandAttack">
+      <time>0.8362499999999999</time>
+    </protoaction>
+    <protoaction name="CrackshotAttack">
+      <time>0.6125</time>
+    </protoaction>
+    <protoaction name="HeavenlyFireBomb">
+      <time>1.4142857142857141</time>
+    </protoaction>
+    <protoaction name="SwashbucklerAttack">
+      <time>1.03</time>
     </protoaction>
   </unit>
 </attacktime>

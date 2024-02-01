@@ -6,12 +6,43 @@
     <modifyratebytype>1</modifyratebytype>
     <modifyabstracttype>Military</modifyabstracttype>
     <maxrange>15</maxrange>
-    <rate type="LogicalTypeLandMilitary">0.03</rate>
+    <rate type="LogicalTypeLandMilitary">0.06</rate>
     <includeally>1</includeally>
     <persistent>1</persistent>
     <modifytype>BaseHP</modifytype>
     <modifybase>1.0</modifybase>
     <modifyratecap>13.0</modifyratecap>
+  </action>
+  <action>
+    <name stringid="48954">BuildingHP</name>
+    <type>AutoRangedModify</type>
+    <active>0</active>
+    <maxrange>1</maxrange>
+    <persistent>1</persistent>
+    <modifytype>BaseHP</modifytype>
+    <forbidunittype>WallConnector</forbidunittype>
+    <modifyabstracttype>AbstractWall</modifyabstracttype>
+    <modifymultiplier>1.5</modifymultiplier>
+    <nostack>1</nostack>
+    <nostackignorepuid>1</nostackignorepuid>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+  </action>
+  <action>
+    <name stringid="110152">IncreaseHPWithWalls</name>
+    <active>0</active>
+    <type>LikeBonus</type>
+    <modifyratebytype>1</modifyratebytype>
+    <modifyabstracttype>All</modifyabstracttype>
+    <maxrange>1</maxrange>
+    <rate type="WallConnector">0.0</rate>
+    <rate type="WallStraight2">1.5</rate>
+    <rate type="WallStraight5">1.5</rate>
+    <rate type="CWallGate">1.5</rate>
+    <persistent>1</persistent>
+    <nostack>1</nostack>
+    <modifytype>BaseHP</modifytype>
+    <modifybase>1.0</modifybase>
+    <modifyratecap>1.5</modifyratecap>
   </action>
   <action>
     <name stringid="48958">ExtraDamageMalta</name>
@@ -41,5 +72,5 @@
     <modelattachment>effects\ypack_auras\malta_power.xml</modelattachment>
     <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
   </action>
-  <tactic>Normal<action>ExtraRangeMalta</action><action>ExtraDamageMalta</action><action>IncreaseHPWithMilitaryUnits</action></tactic>
+  <tactic>Normal<action>ExtraRangeMalta</action><action>ExtraDamageMalta</action><action>BuildingHP</action><action>IncreaseHPWithWalls</action><action>IncreaseHPWithMilitaryUnits</action></tactic>
 </tactics>

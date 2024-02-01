@@ -586,6 +586,7 @@
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>2</age>
+      <displayunitcount>1</displayunitcount>
     </card>
     <card>
       <name>DEHCCaseShot</name>
@@ -914,6 +915,13 @@
     </card>
     <card>
       <name>HCExoticHardwoods</name>
+      <maxcount>1</maxcount>
+      <level>25</level>
+      <prereqtech>HCSawmills</prereqtech>
+      <age>0</age>
+    </card>
+    <card>
+      <name>DEHCWoodTrickleTeam</name>
       <maxcount>1</maxcount>
       <level>25</level>
       <prereqtech>HCSawmills</prereqtech>
@@ -1382,6 +1390,7 @@
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>1</age>
+      <displayunitcount>3</displayunitcount>
     </card>
     <card>
       <name>DEHCTrampleTactics</name>
@@ -1742,6 +1751,15 @@
       </revoltcard>
     </card>
     <card>
+      <name>DEHCREVJaegerCombat</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>XPRevolution</prereqtech>
+      <age>2</age>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
       <name>DEHCREVArmfeltsAutonomy</name>
       <maxcount>1</maxcount>
       <level>0</level>
@@ -2075,6 +2093,7 @@
         <card>DEHCREVShipBalticFleet</card>
         <card>DEHCREVGunboats</card>
         <card>DEHCREVCudgelWar</card>
+        <card>DEHCREVJaegerCombat</card>
         <card>DEHCREVArmfeltsAutonomy</card>
         <card>DEHCREVFinnishCounterArmy</card>
         <card>DEHCREVFinnhorses</card>
@@ -2425,6 +2444,7 @@
       <tech x="1.6" y="3.0">HCSchooners</tech>
       <tech x="2.5" y="3.0">HCSawmills</tech>
       <tech x="2.5" y="5.0">HCExoticHardwoods</tech>
+      <tech x="2.5" y="5.0">DEHCWoodTrickleTeam</tech>
       <tech x="3.4" y="1.0">HCIronmonger</tech>
       <tech x="3.4" y="3.0">HCSilversmith</tech>
       <tech x="3.4" y="5.0">HCRoyalMint</tech>
@@ -2452,6 +2472,7 @@
       <tech x="1.6" y="3.0">HCSchooners</tech>
       <tech x="2.5" y="3.0">HCSawmills</tech>
       <tech x="2.5" y="5.0">HCExoticHardwoods</tech>
+      <tech x="2.5" y="5.0">DEHCWoodTrickleTeam</tech>
       <tech x="3.4" y="1.0">HCIronmonger</tech>
       <tech x="3.4" y="3.0">HCSilversmith</tech>
       <tech x="3.4" y="5.0">HCRoyalMint</tech>

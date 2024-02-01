@@ -524,6 +524,13 @@
       <age>2</age>
     </card>
     <card>
+      <name>DEHCArtilleryDamageJapaneseTeam</name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <prereqtech>YPHCShipFlamingArrow2</prereqtech>
+      <age>2</age>
+    </card>
+    <card>
       <name>YPHCArtilleryCostJapanese</name>
       <maxcount>1</maxcount>
       <level>25</level>
@@ -1555,6 +1562,7 @@
       <tech x="6.8" y="2">YPHCShipFlamingArrow2</tech>
       <tech x="6.8" y="3">YPHCShipFlamingArrow3</tech>
       <tech x="6.8" y="4">YPHCArtilleryHitpointsJapanese</tech>
+      <tech x="6.8" y="4">DEHCArtilleryDamageJapaneseTeam</tech>
       <tech x="6.8" y="6">YPHCArtilleryCostJapanese</tech>
       <tech x="7.6" y="1">YPHCShipMorutaru1</tech>
       <tech x="7.6" y="3">YPHCShipMorutaru2</tech>
@@ -1595,6 +1603,7 @@
       <tech x="6.8" y="2">YPHCShipFlamingArrow2</tech>
       <tech x="6.8" y="3">YPHCShipFlamingArrow3</tech>
       <tech x="6.8" y="4">YPHCArtilleryHitpointsJapanese</tech>
+      <tech x="6.8" y="4">DEHCArtilleryDamageJapaneseTeam</tech>
       <tech x="6.8" y="6">YPHCArtilleryCostJapanese</tech>
       <tech x="7.6" y="1">YPHCShipMorutaru1</tech>
       <tech x="7.6" y="3">YPHCShipMorutaru2</tech>

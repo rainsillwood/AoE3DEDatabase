@@ -387,7 +387,7 @@
       <maxcount>1</maxcount>
       <level>40</level>
       <prereqtech>HCMusketeerGrenadierCombatBritish</prereqtech>
-      <age>3</age>
+      <age>2</age>
     </card>
     <card>
       <name>HCShipMusketeers1</name>
@@ -580,6 +580,7 @@
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>2</age>
+      <displayunitcount>1</displayunitcount>
     </card>
     <card>
       <name>HCShipMortars1</name>
@@ -965,6 +966,15 @@
       <age>2</age>
     </card>
     <card>
+      <name>HCXPFurTrade</name>
+      <maxcount>1</maxcount>
+      <level>40</level>
+      <bindtotech>HCXPFurTrade</bindtotech>
+      <age>0</age>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
       <name>HCStockyards</name>
       <maxcount>1</maxcount>
       <level>0</level>
@@ -1308,13 +1318,6 @@
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
-      <name>DEHCHandMortar</name>
-      <maxcount>1</maxcount>
-      <level>0</level>
-      <prereqtech>-1</prereqtech>
-      <age>2</age>
-    </card>
-    <card>
       <name>HCREVShipGatlingGuns</name>
       <maxcount>-1</maxcount>
       <level>0</level>
@@ -1513,7 +1516,7 @@
       </revoltcard>
     </card>
     <card>
-      <name>HCXPWarHutTrainingIroquois</name>
+      <name>HCNativeChampionsDutchTeam</name>
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>XPRevolution</prereqtech>
@@ -2010,7 +2013,7 @@
         <card dbid="3382">HCXPAdvancedBalloon</card>
         <card dbid="3465">HCXPShipRocketsRepeat</card>
         <card dbid="2041">HCRefrigeration</card>
-        <card dbid="6615">DEHCHandMortar</card>
+        <card dbid="3374">HCXPImprovedGrenades</card>
         <card dbid="2083">HCMusketeerGrenadierCombatBritish</card>
         <card dbid="2075">HCCheaperManors</card>
         <card dbid="2218">HCShipSheep1</card>
@@ -2207,7 +2210,7 @@
         <card>DEHCREVHighlanders</card>
         <card>DEHCREVShipMusketeers</card>
         <card>DEHCREVShipRangers</card>
-        <card>DEHCREVShipWarCanoes</card>
+        <card>HCREVShipIronclads</card>
         <card>DEHCREVQuebec</card>
         <card>DEHCREVMetis</card>
         <card>DEHCREVConscriptionCanada</card>
@@ -2216,7 +2219,7 @@
         <card>DEHCREVNativeAlliesCanada</card>
         <card>DEHCLenapeAllies</card>
         <card>DEHCHanoverAllies2</card>
-        <card>HCXPWarHutTrainingIroquois</card>
+        <card>HCNativeChampionsDutchTeam</card>
         <card>DEHCREVMXBloodBrothers</card>
       </cards>
     </revoltdeck>
@@ -2458,7 +2461,6 @@
       <tech x="6.5" y="3.0">HCShipMortars2</tech>
       <tech x="7.2" y="5.0">HCShipRockets2</tech>
       <tech x="7.2" y="7.0">HCXPShipRocketsRepeat</tech>
-      <tech x="7.2" y="7.0">DEHCHandMortar</tech>
       <tech x="7.2" y="7.0">DEHCRangers</tech>
       <tech x="7.2" y="7.0">DEHCSiegeArchery</tech>
     </obtainabletechs>
@@ -2503,7 +2505,6 @@
       <tech x="6.5" y="3.0">HCShipMortars2</tech>
       <tech x="7.2" y="5.0">HCShipRockets2</tech>
       <tech x="7.2" y="7.0">HCXPShipRocketsRepeat</tech>
-      <tech x="7.2" y="7.0">DEHCHandMortar</tech>
       <tech x="7.2" y="7.0">DEHCRangers</tech>
       <tech x="7.2" y="7.0">DEHCSiegeArchery</tech>
     </activetechs>

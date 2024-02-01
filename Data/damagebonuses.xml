@@ -183,9 +183,8 @@
   </damagebonus>
   <damagebonus>
     <unittype>AbstractOutlaw</unittype>
+    <icon>resources/images/hud/stat_icon_outlaw.png</icon>
     <displaynameid>110185</displaynameid>
-    <showrollover>
-    </showrollover>
   </damagebonus>
   <damagebonus>
     <unittype>AbstractLancer</unittype>
@@ -262,5 +261,12 @@
     <unittype>AbstractResourceEnclosure</unittype>
     <icon>resources/images/hud/stat_icon_resource_enclosure.png</icon>
     <displaynameid>200101</displaynameid>
+  </damagebonus>
+  <damagebonus>
+    <unittype>AbstractTrainingShip</unittype>
+    <icon>resources/images/hud/stat_icon_training_ship.png</icon>
+    <displaynameid>127007</displaynameid>
+    <showrollover>
+    </showrollover>
   </damagebonus>
 </damagebonustypes>

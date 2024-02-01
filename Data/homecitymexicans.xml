@@ -530,14 +530,6 @@
       <age>1</age>
     </card>
     <card>
-      <name>DEHCAmbuscade</name>
-      <maxcount>1</maxcount>
-      <level>0</level>
-      <prereqtech>-1</prereqtech>
-      <bindtotech>DEHCREVMXAmbuscade</bindtotech>
-      <age>1</age>
-    </card>
-    <card>
       <name>DEHCQueensDragoons</name>
       <maxcount>1</maxcount>
       <level>0</level>
@@ -655,6 +647,7 @@
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>2</age>
+      <displayunitcount>1</displayunitcount>
     </card>
     <card>
       <name>HCXPShipMortarsTeam</name>
@@ -1261,6 +1254,15 @@
       <age>3</age>
       <displayunitcount>24</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
+      <overrideicontech>DEHCMayanAlliesSingleIcon</overrideicontech>
+    </card>
+    <card>
+      <name>DEHCZapotecAlliesTeam</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>3</age>
+      <displayunitcount>14</displayunitcount>
     </card>
     <card>
       <name>DEHCRenegadeNavajo</name>
@@ -1855,16 +1857,6 @@
       </revoltcard>
     </card>
     <card>
-      <name>DEHCREVMXAmbuscade</name>
-      <maxcount>1</maxcount>
-      <level>0</level>
-      <prereqtech>-1</prereqtech>
-      <bindtotech>DEHCAmbuscade</bindtotech>
-      <age>3</age>
-      <revoltcard>
-      </revoltcard>
-    </card>
-    <card>
       <name>DEHCREVMXReservistas</name>
       <maxcount>1</maxcount>
       <level>0</level>
@@ -2186,6 +2178,7 @@
       <level>0</level>
       <prereqtech>XPRevolution</prereqtech>
       <age>0</age>
+      <displayunitcount>6</displayunitcount>
       <revoltcard>
       </revoltcard>
     </card>
@@ -2495,7 +2488,7 @@
       <level>0</level>
       <prereqtech>XPRevolution</prereqtech>
       <bindtotech>HCHeavyFortificationsUS</bindtotech>
-      <age>2</age>
+      <age>3</age>
       <revoltcard>
       </revoltcard>
     </card>
@@ -2504,7 +2497,7 @@
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>XPRevolution</prereqtech>
-      <age>2</age>
+      <age>3</age>
       <revoltcard>
       </revoltcard>
     </card>
@@ -2817,7 +2810,6 @@
         <card>DEHCREVMXShipYucatecoInsurgentesRepeat</card>
         <card>DEHCREVMXShipEmboscadorRepeat</card>
         <card>DEHCREVFedMXJungleWarfare</card>
-        <card>DEHCREVMXAmbuscade</card>
         <card>DEHCREVMXReservistas</card>
         <card>DEHCREVMXObservers</card>
         <card>DEHCREVMXGuerillaTactics</card>
@@ -2864,7 +2856,6 @@
         <card>DEHCREVMXKuchkabal</card>
         <card>DEHCREVMXMayaKowojTraditions</card>
         <card>DEHCREVMXMayaYalainTraditions</card>
-        <card>DEHCREVMXAmbuscade</card>
         <card>HCNativeCombat</card>
         <card>DEHCREVMXNativeTreaties</card>
         <card>DEHCREVMXBloodBrothers</card>
@@ -2919,6 +2910,7 @@
     <revoltdeck civ="DERevMXTexas">
       <name>$$45518$$</name>
       <cards>
+        <card>HCREVShipGatlingGuns</card>
         <card>DEHCREVMXEmpresarioContracts</card>
         <card>DEHCFedMXFortifiedHaciendas</card>
         <card>DEHCREVMXRobberBarons2</card>
@@ -3088,7 +3080,6 @@
       <tech x="5.2" y="4.8">DEHCShipEmboscador3</tech>
       <tech x="5.1" y="4.7">DEHCShipEmboscador2</tech>
       <tech x="5.3" y="5.0">DEHCObservers</tech>
-      <tech x="5.3" y="5.0">DEHCAmbuscade</tech>
       <tech x="5.3" y="5.0">DEHCGuerillaTactics</tech>
       <tech x="5.3" y="5.0">DEHCMariachiTeam</tech>
       <tech x="5.3" y="5.0">DEHCManOfDestiny</tech>
@@ -3133,7 +3124,6 @@
       <tech x="6.0" y="4.0">HCCaballeros</tech>
       <tech x="5.3" y="5.0">DEHCShipEmboscador3</tech>
       <tech x="5.3" y="5.0">DEHCObservers</tech>
-      <tech x="5.3" y="5.0">DEHCAmbuscade</tech>
       <tech x="5.3" y="5.0">DEHCGuerillaTactics</tech>
       <tech x="5.3" y="5.0">DEHCMariachiTeam</tech>
       <tech x="5.3" y="5.0">DEHCManOfDestiny</tech>
@@ -3357,6 +3347,7 @@
       <tech x="6.5" y="1.0">DEHCShipCapturedGalleons2</tech>
       <tech x="7.2" y="1.0">DEHCSpanishSympathizers</tech>
       <tech x="7.2" y="1.0">HCXPMayanAllies2</tech>
+      <tech x="7.2" y="1.0">DEHCZapotecAlliesTeam</tech>
       <tech x="7.2" y="1.0">DEHCRenegadeNavajo</tech>
       <tech x="7.2" y="1.0">DEHCRenegadeComanche</tech>
       <tech x="7.2" y="3.0">DEHCRenegadeApache</tech>
@@ -3384,6 +3375,7 @@
       <tech x="6.5" y="1.0">DEHCShipCapturedGalleons2</tech>
       <tech x="7.2" y="1.0">DEHCSpanishSympathizers</tech>
       <tech x="7.2" y="1.0">HCXPMayanAllies2</tech>
+      <tech x="7.2" y="1.0">DEHCZapotecAlliesTeam</tech>
       <tech x="7.2" y="1.0">DEHCRenegadeNavajo</tech>
       <tech x="7.2" y="1.0">DEHCRenegadeComanche</tech>
       <tech x="7.2" y="3.0">DEHCRenegadeApache</tech>
