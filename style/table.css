@@ -21,7 +21,7 @@
     width: 384px;
 }
 
-.effect {
+.effect>div {
     overflow-x: auto;
 }
 

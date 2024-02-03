@@ -15,7 +15,8 @@ async function init() {
     if (version != getStorage('version')) {
         alert('当前数据版本:' + version + ',数据库版本:' + getStorage('version') + '\n请更新数据库');
     }
-    toggleID();
+    getStyleSheet('ruby').disabled = true;
+    getStyleSheet('maxHeight').disabled = false;
 }
 function getLanguage() {
     language.id = document.getElementById('language').options[document.getElementById('language').selectedIndex].value;
@@ -66,6 +67,7 @@ async function updateStrings() {
     };
     for (i in files) {
         let iArray = await getJson('./Data/strings/' + language.id + '/' + files[i] + '.xml.json');
+        if (!iArray) continue;
         if (files[i] == 'stringmods') {
             iArray = iArray.stringmods.stringtable.language.string;
         } else {

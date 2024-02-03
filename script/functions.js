@@ -1,15 +1,3 @@
-function getInnerHTML() {
-    return returnList(document.getElementById('input').value.replace('\t', '\n').split("\n"));
-}
-
-function setOuterHTML(text) {
-    document.getElementById('output').value = text;
-}
-
-function resetInfo() {
-    document.getElementById('info').innerHTML = '';
-}
-
 function help() {
     alert('暂无帮助');
     /*BigNumber
@@ -29,7 +17,7 @@ function help() {
     ^:pow
     */
 }
-
+//提取图标
 function getIcon(iData) {
     let icon = iData.iconwpf;
     if (!icon) {
@@ -44,22 +32,7 @@ function getIcon(iData) {
     }
     return ('<td class="icon"><img src="./Data/wpfg/' + icon.replace(/\\/g, '/') + '"></td>');
 }
-
-async function getStrings(isAll) {
-    if (version != getStorage('version')) {
-        alert('当前数据版本:' + version + ',数据库版本:' + getStorage('version') + '\n请更新数据库');
-        return;
-    }
-    let oArray = [];
-    let iArray = await getArray('string', 'all');
-    for (let i in iArray) {
-        let string = iArray[i];
-        let text = string['@_locid'] + '\t' + returnNode(string['@symbol']) + '\t' + returnNode(string['#text']);
-        oArray.push(text);
-    }
-    setOuterHTML(oArray.join('\n'));
-}
-
+//
 async function getTechs(isAll, iArray) {
     if (version != getStorage('version')) {
         alert('当前数据版本:' + version + ',数据库版本:' + getStorage('version') + '\n请更新数据库');
@@ -67,12 +40,11 @@ async function getTechs(isAll, iArray) {
     }
     let isAction = document.getElementById('getTech').checked;
     if (isAction || isAll) {
-        appendNode('<table class="infoTable" id="techTable">', 'databox', 'div');
-        appendNode('<th class="icon">图标</th><th class="name">调用名</th><th class="local">中文名</th><th class="type">类型</th><th class="desc">描述</th><th class="effect">效果</th>',
-            'techTable', 'tr');
         let iList = [];
         if (isAll) {
-            iList = await getArray('tech', 'all');
+            iList = await getArray('techtree', 'all');
+            clearValue('output');
+            clearNode('databox');
         } else {
             for (let i in iArray) {
                 let iData = iArray[i];
@@ -83,7 +55,10 @@ async function getTechs(isAll, iArray) {
                 }
             }
         }
-        let oArray = ['调用名\t中文名\t类型\t描述\t效果'];
+        appendNode('<table class="infoTable" id="tableTech">', 'databox', 'div');
+        appendNode('<th class="icon">图标</th><th class="name">调用名</th><th class="local">中文名</th><th class="type">类型</th><th class="desc">描述</th><th class="effect">效果</th>',
+            'tableTech', 'tr');
+        addValue('output', '调用名\t中文名\t类型\t描述\t效果');
         for (let i in iList) {
             let oNode, oString, stringEffect;
             if (!iList[i].isNull) {
@@ -93,95 +68,38 @@ async function getTechs(isAll, iArray) {
                     + '<td>' + getRuby(iList[i].displayname, iList[i]['@name']) + '</td>'
                     + '<td>科技</td>'
                     + '<td>' + iList[i].rollovertext + '</td>'
-                    + '<td class="effect">' + stringEffect + '</td>';
-                appendNode(oNode, 'info', 'tr');
+                    + '<td class="effect"><div>' + stringEffect + '</div></td>';
+                appendNode(oNode, 'tableTech', 'tr');
                 oString = iList[i]['@name'] + '\t'
                     + (iList[i].displayname ? iList[i].displayname : iList[i]['@name']) + '\t'
                     + '科技' + '\t'
                     + iList[i].rollovertext + '\t'
                     + stringEffect.replace(/<ruby>(.*?)<rt>.*?<\/ruby>/g, '$1').replaceAll('</br>', '↩️').replaceAll('&nbsp;', ' ').replace(/<.*?>/g, '');
-                oArray.push(oString);
+                addValue('output', oString);
             }
         }
-        return oArray.join('\n');
     }
     return '';
 }
 
 async function getProtos(isAll, iArray) {
-    if (version != getStorage('version')) {
-        alert('当前数据版本:' + version + ',数据库版本:' + getStorage('version') + '\n请更新数据库');
-        return;
-    }
-    let isAction = document.getElementById('getProto').checked;
-    if (isAction || isAll) {
-        appendNode('<table class="infoTable" id="techTable">', 'databox', 'div');
-        appendNode('<th class="icon">图标</th><th class="name">调用名</th><th class="local">中文名</th><th class="type">类型</th><th class="desc">描述</th><th class="effect">数据</th>',
-            'techTable', 'tr');
-        let iList = [];
-        if (isAll) {
-            iList = await getArray('proto', 'all');
-        } else {
-            for (let i in iArray) {
-                let iData = iArray[i];
-                if (iData == "") continue;
-                let oData = await getNugget(iData.toLowerCase());
-                if (!oData.isNull) {
-                    iList.push(oData);
-                }
-            }
-        }
-        let oArray = ['调用名\t中文名\t类型\t描述\t数据'];
-        for (let i in iList) {
-            let oNode, oString, stringAttribute;
-            if (!iList[i].isNull) {
-                stringAttribute = await getAttribute(iList[i], false);
-                oNode = getIcon(iList[i])
-                    + '<td>' + iList[i]['@name'] + '</td>'
-                    + '<td>' + getRuby(iList[i].displayname, iList[i]['@name']) + '</td>'
-                    + '<td>科技</td>'
-                    + '<td>' + iList[i].rollovertext + '</td>'
-                    + '<td class="effect">' + stringAttribute + '</td>';
-                appendNode(oNode, 'info', 'tr');
-                oString = iList[i]['@name'] + '\t'
-                    + (iList[i].displayname ? iList[i].displayname : iList[i]['@name']) + '\t'
-                    + '科技' + '\t'
-                    + iList[i].rollovertext + '\t'
-                    + stringAttribute.replace(/<ruby>(.*?)<rt>.*?<\/ruby>/g, '$1').replaceAll('</br>', '↩️').replaceAll('&nbsp;', ' ').replace(/<.*?>/g, '');
-                oArray.push(oString);
-            }
-        }
-        return oArray.join('\n');
-    }
-    return '';
 }
 
-async function getNuggets() {
+async function getNuggets(isAll, iArray) {
+}
+//提取文本
+async function getStrings(isAll) {
     if (version != getStorage('version')) {
         alert('当前数据版本:' + version + ',数据库版本:' + getStorage('version') + '\n请更新数据库');
         return;
     }
-    resetInfo();
+    let isAction = document.getElementById('getTech').checked;
     let oArray = [];
-    appendNode('<th class="name">调用名</th><th class="local">地图列表</th><th class="type">难度</th><th class="desc">描述</th><th>效果</th>',
-        'info', 'tr');
-    let iArray = await getArray('nugget', 'all');
-    for (i in iArray) {
-        let iData = iArray[i];
-        let text = iData.name + '\t\t' + iData.difficulty + '\t' + iData.rolloverstring;
+    let iArray = await getArray('string', 'all');
+    for (let i in iArray) {
+        let string = iArray[i];
+        let text = string['@_locid'] + '\t' + returnNode(string['@symbol']) + '\t' + returnNode(string['#text']);
         oArray.push(text);
-        oString = '<td>' + iData.name + '</td>';
-        oString = oString + '<td>';
-        let maptypes = returnList(iData.maptype);
-        for (j in maptypes) {
-            oString = oString + maptypes[j] + '<br>';
-        }
-        oString = oString + '</td>';
-        oString = oString + '<td>' + iData.difficulty + '</td>';
-        oString = oString + '<td>' + iData.rolloverstring + '</td>';
-        //let effect = await getEffect(iData, iData.name);
-        oString = oString + '<td><div class="effect">' + /*effect +*/ '</div></td>';
-        appendNode(oString, 'info', 'tr');
     }
     setOuterHTML(oArray.join('\n'));
 }
@@ -202,14 +120,6 @@ async function getUnitTypes(isAll) {
 }
 
 async function getInfo() {
-    resetInfo();
-    iArray = getInnerHTML();
-    //
-    oString = getTechs(isAll, iArray) + '\n'
-        + getProtos(isAll, iArray) + '\n'
-        + getNuggets(isAll, iArray) + '\n'
-        //
-        + getUnitTypes(isAll, iArray) + '\n';
 }
 
 async function searchInfo(isFuzzy) {
@@ -220,7 +130,7 @@ async function searchInfo(isFuzzy) {
     resetInfo();
     appendNode('<th class="icon">查询字段</th><th class="icon">图标</th><th class="name">调用名</th><th class="local">中文名</th><th class="type">类型</th><th class="desc">描述</th><th>效果</th>',
         'info', 'tr');
-    let iArray = getInnerHTML();
+    let iArray = getInnerHTML('input');
     for (let i in iArray) {
         let protoArray = await getArray('proto', iArray[i], 'local', isFuzzy);
         let techArray = await getArray('techtree', iArray[i], 'local', isFuzzy);
