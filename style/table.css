@@ -4,7 +4,10 @@
     vertical-align: middle;
     text-align: center;
 }
-
+h1{
+    width: 100%;
+    text-align: center;
+}
 .name {
     width: 128px;
 }

@@ -16,7 +16,7 @@ async function init() {
         alert('当前数据版本:' + version + ',数据库版本:' + getStorage('version') + '\n请更新数据库');
     }
     getStyleSheet('ruby').disabled = true;
-    getStyleSheet('maxHeight').disabled = false;
+    getStyleSheet('ruby').disabled = false;
 }
 function getLanguage() {
     language.id = document.getElementById('language').options[document.getElementById('language').selectedIndex].value;
@@ -24,6 +24,7 @@ function getLanguage() {
     language.index = document.getElementById('language').selectedIndex;
 }
 async function updateDatabase() {
+    enableProtect();
     getLanguage();
     logger.innerHTML = '';
     showNode('logger');
@@ -51,6 +52,7 @@ async function updateDatabase() {
     setStorage('language', language.index);
     appendNode('数据库更新完成', 'logger', 'div');
     init();
+    disableProtect()
 }
 //缓存String
 async function updateStrings() {
@@ -65,7 +67,7 @@ async function updateStrings() {
         '66351': 'cStringAbstractJapaneseMonk',
         '68462': 'cStringAbstractIndianMonk'
     };
-    for (i in files) {
+    for (let i in files) {
         let iArray = await getJson('./Data/strings/' + language.id + '/' + files[i] + '.xml.json');
         if (!iArray) continue;
         if (files[i] == 'stringmods') {
@@ -76,7 +78,7 @@ async function updateStrings() {
         let process = document.getElementById(table + '_quest').innerHTML * 1;
         process = process + iArray.length;
         document.getElementById(table + '_quest').innerHTML = process;
-        for (j in iArray) {
+        for (let j in iArray) {
             let iData = iArray[j];
             let oData = {};
             let symbolExtra = symbolList[iData['@_locid']];
@@ -99,13 +101,13 @@ async function updateProtoy() {
     let process = document.getElementById(table + '_quest').innerHTML * 1;
     process = process + iArray.length;
     document.getElementById(table + '_quest').innerHTML = process;
-    for (i in iArray) {
+    for (let i in iArray) {
         let iData = iArray[i];
         iData.displayname = await getString(iData.displaynameid, iData['@name']);
         iData.rollovertext = await getString(iData.rollovertextid);
         if (!(!iData.unittype)) {
             let unitType = returnList(iData.unittype);
-            for (j in unitType) {
+            for (let j in unitType) {
                 let key = unitType[j].toLowerCase();
                 let oData;
                 if (!unittypes[key]) {
@@ -124,7 +126,7 @@ async function updateProtoy() {
         }
         if (!(!iData.flag)) {
             let unitFlag = returnList(iData.flag);
-            for (j in unitFlag) {
+            for (let j in unitFlag) {
                 let key = unitFlag[j].toLowerCase();
                 let oData;
                 if (!unitflags[key]) {
@@ -164,13 +166,13 @@ async function updateTechtreey() {
     let process = document.getElementById(table + '_quest').innerHTML * 1;
     process = process + iArray.length;
     document.getElementById(table + '_quest').innerHTML = process;
-    for (i in iArray) {
+    for (let i in iArray) {
         let iData = iArray[i];
         iData.displayname = await getString(iData.displaynameid, iData['@name']);
         iData.rollovertext = await getString(iData.rollovertextid);
         if (!(!iData.flag)) {
             let techFlag = returnList(iData.flag);
-            for (j in techFlag) {
+            for (let j in techFlag) {
                 let key = techFlag[j].toLowerCase();
                 let oData;
                 if (!techflags[key]) {
@@ -203,7 +205,7 @@ async function updateCivs() {
     let process = document.getElementById(table + '_quest').innerHTML * 1;
     process = process + iArray.length;
     document.getElementById(table + '_quest').innerHTML = process;
-    for (i in iArray) {
+    for (let i in iArray) {
         let iData = iArray[i];
         iData.displayname = await getString(iData.displaynameid, iData['name']);
         iData.rollovername = await getString(iData.rollovernameid);
@@ -227,7 +229,7 @@ async function updateNuggets() {
     let process = document.getElementById(table + '_quest').innerHTML * 1;
     process = process + iArray.length;
     document.getElementById(table + '_quest').innerHTML = process;
-    for (i in iArray) {
+    for (let i in iArray) {
         let iData = iArray[i];
         iData.rolloverstring = await getString(iData.rolloverstringid);
         iData.applystring = await getString(iData.applystringid);
@@ -247,7 +249,7 @@ async function updateDamageTypes() {
     let process = document.getElementById(table + '_quest').innerHTML * 1;
     process = process + iArray.length;
     document.getElementById(table + '_quest').innerHTML = process;
-    for (i in iArray) {
+    for (let i in iArray) {
         let iData = iArray[i];
         iData.displayname = await getString(iData.displaynameid, iData['@name']);
         let oData = {};
@@ -265,7 +267,7 @@ async function updateProtoUnitCommands() {
     let process = document.getElementById(table + '_quest').innerHTML * 1;
     process = process + iArray.length;
     document.getElementById(table + '_quest').innerHTML = process;
-    for (i in iArray) {
+    for (let i in iArray) {
         let iData = iArray[i];
         let iString = await getString(iData.rollovertextid);
         iData.displayname = iString.replaceAll('<ttf>', '').replaceAll('<tth>', '').split('<tti>')[0];
@@ -285,7 +287,7 @@ async function updatePowers() {
     let process = document.getElementById(table + '_quest').innerHTML * 1;
     process = process + iArray.length;
     document.getElementById(table + '_quest').innerHTML = process;
-    for (i in iArray) {
+    for (let i in iArray) {
         let iData = iArray[i];
         iData.displayname = await getString(iData.displaynameid, iData['@name']);
         iData.rollovertext = await getString(iData.rollovertextid);
@@ -305,7 +307,7 @@ async function updatePowers() {
     let process = document.getElementById(table + '_quest').innerHTML * 1;
     process = process + iArray.length;
     document.getElementById(table + '_quest').innerHTML = process;
-    for (i in iArray) {
+    for (let i in iArray) {
         let iData = iArray[i];
         iData.displayname = await getString(iData.displaynameid);
         iData.rollovertext = await getString(iData.rollovertextid);
@@ -322,7 +324,7 @@ async function updateHomecity() {
     let process = document.getElementById(table + '_quest').innerHTML * 1;
     process = process + Object.keys(homecityList).length;
     document.getElementById(table + '_quest').innerHTML = process;
-    for (i in homecityList) {
+    for (let i in homecityList) {
         let homecity = await getJson(homecityList[i]);
         if (!homecity) {
             logUpdate(table + '_failed', 1)
@@ -338,18 +340,18 @@ async function updateHomecity() {
 //缓存战术,前置proto
 async function updateTactics() {
     let oList = {};
-    for (i in tacticList) {
+    for (let i in tacticList) {
         let iData = await getJson(tacticList[i]);
         if (iData) {
             let tactics = returnList(iData.tactics.tactic);
-            for (j in tactics) {
+            for (let j in tactics) {
                 let tactic = tactics[j];
                 if (tactic) {
                     oList[i + '-' + tactic['#text']] = tactic;
                 }
             }
             let actions = returnList(iData.tactics.action);
-            for (j in actions) {
+            for (let j in actions) {
                 let action = actions[j];
                 if (action) {
                     actionList[i + '-' + action.name['#text']] = action;
@@ -362,7 +364,7 @@ async function updateTactics() {
     let process = document.getElementById(table + '_quest').innerHTML * 1;
     process = process + Object.keys(oList).length;
     document.getElementById(table + '_quest').innerHTML = process;
-    for (i in oList) {
+    for (let i in oList) {
         let oData = {};
         let tactic = oList[i];
         oData.index = i.toLowerCase();
@@ -377,7 +379,7 @@ async function updateActions() {
     let process = document.getElementById(table + '_quest').innerHTML * 1;
     process = process + Object.keys(actionList).length;
     document.getElementById(table + '_quest').innerHTML = process;
-    for (i in actionList) {
+    for (let i in actionList) {
         let oData = {};
         let action = actionList[i];
         action.displayname = await getString(action.name['@stringid'], action.name['#text']);
@@ -394,7 +396,7 @@ function updateUnittypes() {
     let process = document.getElementById(table + '_quest').innerHTML * 1;
     process = process + Object.keys(unittypes).length;
     document.getElementById(table + '_quest').innerHTML = process;
-    for (i in unittypes) {
+    for (let i in unittypes) {
         let oData = {};
         oData.index = i;
         oData.value = unittypes[i];
@@ -408,7 +410,7 @@ function updateUnitflags() {
     let process = document.getElementById(table + '_quest').innerHTML * 1;
     process = process + Object.keys(unitflags).length;
     document.getElementById(table + '_quest').innerHTML = process;
-    for (i in unitflags) {
+    for (let i in unitflags) {
         let oData = {};
         oData.index = i;
         oData.value = unitflags[i];
@@ -422,7 +424,7 @@ function updateTechflags() {
     let process = document.getElementById(table + '_quest').innerHTML * 1;
     process = process + Object.keys(techflags).length;
     document.getElementById(table + '_quest').innerHTML = process;
-    for (i in techflags) {
+    for (let i in techflags) {
         let oData = {};
         oData.index = i;
         oData.value = techflags[i];

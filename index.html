@@ -32,6 +32,7 @@
         var language = {};
         var logger;
         async function test() {
+            enableProtect();
         }
         //切换显示ID
         function toggleID() {
@@ -78,21 +79,19 @@
         <div id="toolbox">
             <button type="button" id="toolShower" onclick="toggleNode('tool');">&gt;</button>
             <div id="tool">
-                <div id="logger"></div>
+                <div id="logger" class="hidden"></div>
                 <div id="functionbox">
                     <div>
-                        <button type="button" id="loggerShower" onclick="toggleNode('logger');">&gt;</button>
+                        <button type="button" id="loggerShower" onclick="toggleNode('logger');">&lt;</button>
                         <input type="checkbox" id="showID" onchange="toggleID()" checked="true">显示ID
                         <input type="checkbox" id="enableMaxHeight" onchange="toggleMaxHeight()" checked="true">限制高度
-                        <button type="button" onclick="help()"><del>帮助&说明</del></button>
+                        <button type="button" onclick="help()">帮助&说明</button>
                         <button type="button" onclick="test()"><del>测试</del></button>
                     </div>
                     <hr>
                     <div style="white-space: nowrap;font-size: 14px;">
                         <button type="button" onclick="updateDatabase()">更新数据库</button>
-                        <button type="button" onclick="removeDB()">清除数据库</button>
-                        </br>
-                        当前版本　:<a id="version">0</a>-<a id="date">0</a><select id="language">
+                        <a id="version">0</a>-<a id="date">0</a><select id="language">
                             <option value="null">🏁未选择</option>
                             <option value="SimplifiedChineseMod">🇨🇳简体中文(MOD)</option>
                             <option value="SimplifiedChinese">🇨🇳简体中文</option>
@@ -112,46 +111,60 @@
                             <option value="Vietnamese">🇻🇳Tiếng Việt</option>
                         </select>
                         </br>
-                        数据库版本:<a id="versionDatabase">0</a>-<a id="dateDatabase">0</a> <a id="languageDatabase">0</a>
+                        <button type="button" onclick="removeDB()">清除数据库</button>
+                        <a id="versionDatabase">0</a>-<a id="dateDatabase">0</a> <a id="languageDatabase">0</a>
                     </div>
                     <hr>
                     <div>
-                        <input type="checkbox" id="getTech" checked="checked"><button type="button"
-                            onclick="getTechs(true)">科技</button>
-                        <input type="checkbox" id="getProto" checked="checked"><button type="button"
-                            onclick="getProtos(true)">单位</button>
-                        <input type="checkbox" id="getNugget"><button type="button"
-                            onclick="getNuggets(true)">宝藏</button>
+                        <button type="button" onclick="getStrings(true)">语言</button>
+                        </br>
+                        |<input type="checkbox" id="getTech" checked="checked">
+                        <button type="button" onclick="getTechs(true)">科技</button>|
+                        |<input type="checkbox" id="getProto" checked="checked">
+                        <button type="button" onclick="getProtos(true)">单位</button>|
+                        |<input type="checkbox" id="getNugget">
+                        <button type="button" onclick="getNuggets(true)">宝藏</button>|
                         <!--input type="checkbox" id="getCiv"><button type="button" onclick="getCivs()">文明</button-->
-                        <input type="checkbox" id="getString"><button type="button"
-                            onclick="getStrings(true)">语言</button>
                         </br>
-                        <!--input type="checkbox" id="getUnitType"--><button type="button"
-                            onclick="getUnitTypes()">单位类型</button>
-                        <!--input type="checkbox" id="getUnitType"><button type="button" onclick="getUnitFlags()">单位标签</button-->
-                        <!--input type="checkbox" id="getUnitType"><button type="button" onclick="getUnitFlags()">科技标签</button-->
+                        <!--input type="checkbox" id="getUnitType"-->
+                        <button type="button" onclick="getUnitTypes()">单位类型</button>
+                        <!--input type="checkbox" id="getUnitType">
+                        <button type="button" onclick="getUnitFlags()">单位标签</button-->
+                        <!--input type="checkbox" id="getUnitType">
+                        <button type="button" onclick="getUnitFlags()">科技标签</button-->
                     </div>
-                    <hr>
-                    <div>
-                        <button type="button" onclick="getCards()">卡片</button>
-                        <button type="button" onclick="getNative()">土著</button>
-                        </br>
-                        <!--button type="button" onclick="getCivCard()">文明卡片</button-->
-                        <button type="button" onclick="getShrine()">神社效率</button>
-                        <button type="button" onclick="getTree()">树木</button>
-                    </div>
-                    <hr>
                     <div>
                         <textarea id="input"></textarea>
                         </br>
                         <button type="button" onclick="getInfo()">查询资料</button>
                         <button type="button" onclick="searchInfo(true)">反查(模糊)</button>
                         <button type="button" onclick="searchInfo(false)">反查(严格)</button>
+                        <hr>
+                        <div>
+                            <button type="button" onclick="getCards()">卡片</button>
+                            <button type="button" onclick="getNative()">土著</button>
+                            </br>
+                            <!--button type="button" onclick="getCivCard()">文明卡片</button-->
+                            <button type="button" onclick="getShrine()">神社效率</button>
+                            <button type="button" onclick="getTree()">树木</button>
+                        </div>
                     </div>
                     <textarea id="output" readOnly="true"></textarea>
                 </div>
             </div>
         </div>
+        <div id="helpbox" ondblclick="this.classList.add('hidden')" class="hidden">
+            <h1>帮助&说明</h1>
+            <p>1.双击关闭帮助</p>
+            <p>2.本工具需要浏览器的Indexed DB、Cookie，请提前开启</p>
+            <p>3.使用前需要先选择语言，然后点击更新数据库以初始化</p>
+            <p>4.若数据库有问题可以点击清除数据库重新初始化</p>
+            <p>∞.暂无其他帮助</p>
+        </div>
+    </div>
+    <div id="protectbox" class="hidden" ondblclick="disableProtect()">
+        <h1>耐心等待动作完成，请勿刷新页面</h1>
+        <h1>双击强制关闭保护</h1>
     </div>
 </body>
 

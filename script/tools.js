@@ -75,6 +75,15 @@ function toggleNode(id) {
         hideNode(id);
     }
 }
+//开启/关闭保护页面
+function enableProtect() {
+    document.getElementById('protectbox').classList.remove('hidden');
+
+}
+function disableProtect() {
+    document.getElementById('protectbox').classList.add('hidden');
+}
+
 //获取/追加/设置/清除元素值
 function getValue(id) {
     let textArray = returnList(document.getElementById(id).value.replace('\r', '\n').split("\n"));
@@ -130,7 +139,7 @@ function getSpan(lower, upper, align) {
 //获取样式表
 function getStyleSheet(name) {
     let styleList = document.styleSheets;
-    for (i in styleList) {
+    for (let i in styleList) {
         if (styleList[i].title == name) {
             return styleList[i];
         }

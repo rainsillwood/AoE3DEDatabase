@@ -1,5 +1,5 @@
 function help() {
-    alert('暂无帮助');
+    document.getElementById('helpbox').classList.remove('hidden')
     /*BigNumber
     +:plus
     -:minus
@@ -40,9 +40,9 @@ async function getTechs(isAll, iArray) {
     }
     let isAction = document.getElementById('getTech').checked;
     if (isAction || isAll) {
-        let iList = [];
+        let oArray = [];
         if (isAll) {
-            iList = await getArray('techtree', 'all');
+            oArray = await getArray('techtree', 'all');
             clearValue('output');
             clearNode('databox');
         } else {
@@ -51,41 +51,138 @@ async function getTechs(isAll, iArray) {
                 if (iData == "") continue;
                 let oData = await getTech(iData.toLowerCase());
                 if (!oData.isNull) {
-                    iList.push(oData);
+                    oArray.push(oData);
                 }
             }
         }
-        appendNode('<table class="infoTable" id="tableTech">', 'databox', 'div');
+        if (oArray.length == 0) return;
+        enableProtect();
+        let tableName = 'tableTech';
+        appendNode('<table class="infoTable" id="' + tableName + '">', 'databox', 'div');
         appendNode('<th class="icon">图标</th><th class="name">调用名</th><th class="local">中文名</th><th class="type">类型</th><th class="desc">描述</th><th class="effect">效果</th>',
-            'tableTech', 'tr');
+            tableName, 'tr');
         addValue('output', '调用名\t中文名\t类型\t描述\t效果');
-        for (let i in iList) {
-            let oNode, oString, stringEffect;
-            if (!iList[i].isNull) {
-                stringEffect = await getEffects(iList[i], false);
-                oNode = getIcon(iList[i])
-                    + '<td>' + iList[i]['@name'] + '</td>'
-                    + '<td>' + getRuby(iList[i].displayname, iList[i]['@name']) + '</td>'
+        for (let i in oArray) {
+            if (!oArray[i].isNull) {
+                let stringEffect = await getEffects(oArray[i], false);
+                let oNode = getIcon(oArray[i])
+                    + '<td>' + oArray[i]['@name'] + '</td>'
+                    + '<td>' + getRuby(oArray[i].displayname, oArray[i]['@name']) + '</td>'
                     + '<td>科技</td>'
-                    + '<td>' + iList[i].rollovertext + '</td>'
+                    + '<td>' + oArray[i].rollovertext + '</td>'
                     + '<td class="effect"><div>' + stringEffect + '</div></td>';
-                appendNode(oNode, 'tableTech', 'tr');
-                oString = iList[i]['@name'] + '\t'
-                    + (iList[i].displayname ? iList[i].displayname : iList[i]['@name']) + '\t'
+                appendNode(oNode, tableName, 'tr');
+                let oString = oArray[i]['@name'] + '\t'
+                    + (oArray[i].displayname ? oArray[i].displayname : oArray[i]['@name']) + '\t'
                     + '科技' + '\t'
-                    + iList[i].rollovertext + '\t'
+                    + oArray[i].rollovertext + '\t'
                     + stringEffect.replace(/<ruby>(.*?)<rt>.*?<\/ruby>/g, '$1').replaceAll('</br>', '↩️').replaceAll('&nbsp;', ' ').replace(/<.*?>/g, '');
                 addValue('output', oString);
             }
         }
     }
-    return '';
+    disableProtect();
 }
 
 async function getProtos(isAll, iArray) {
+    if (version != getStorage('version')) {
+        alert('当前数据版本:' + version + ',数据库版本:' + getStorage('version') + '\n请更新数据库');
+        return;
+    }
+    let isAction = document.getElementById('getProto').checked;
+    if (isAction || isAll) {
+        let oArray = [];
+        if (isAll) {
+            oArray = await getArray('proto', 'all');
+            clearValue('output');
+            clearNode('databox');
+        } else {
+            for (let i in iArray) {
+                let iData = iArray[i];
+                if (iData == "") continue;
+                let oData = await getProto(iData.toLowerCase());
+                if (!oData.isNull) {
+                    oArray.push(oData);
+                }
+            }
+        }
+        if (oArray.length == 0) return;
+        enableProtect();
+        let tableName = 'tableProto';
+        appendNode('<table class="infoTable" id="' + tableName + '">', 'databox', 'div');
+        appendNode('<th class="icon">图标</th><th class="name">调用名</th><th class="local">中文名</th><th class="type">类型</th><th class="desc">描述</th><th class="effect">属性</th>',
+            tableName, 'tr');
+        addValue('output', '调用名\t中文名\t类型\t描述\t属性');
+        for (let i in oArray) {
+            if (!oArray[i].isNull) {
+                let stringAttribute = await getAttribute(oArray[i], false);
+                let oNode = getIcon(oArray[i])
+                    + '<td>' + oArray[i]['@name'] + '</td>'
+                    + '<td>' + getRuby(oArray[i].displayname, oArray[i]['@name']) + '</td>'
+                    + '<td>单位</td>'
+                    + '<td>' + oArray[i].rollovertext + '</td>'
+                    + '<td class="effect"><div>' + stringAttribute + '</div></td>';
+                appendNode(oNode, tableName, 'tr');
+                let oString = oArray[i]['@name'] + '\t'
+                    + (oArray[i].displayname ? oArray[i].displayname : oArray[i]['@name']) + '\t'
+                    + '单位' + '\t'
+                    + oArray[i].rollovertext + '\t'
+                    + stringAttribute.replace(/<ruby>(.*?)<rt>.*?<\/ruby>/g, '$1').replaceAll('</br>', '↩️').replaceAll('&nbsp;', ' ').replace(/<.*?>/g, '');
+                addValue('output', oString);
+            }
+        }
+    }
+    disableProtect();
 }
 
 async function getNuggets(isAll, iArray) {
+    if (version != getStorage('version')) {
+        alert('当前数据版本:' + version + ',数据库版本:' + getStorage('version') + '\n请更新数据库');
+        return;
+    }
+    let isAction = document.getElementById('getNugget').checked;
+    if (isAction || isAll) {
+        let oArray = [];
+        if (isAll) {
+            oArray = await getArray('nugget', 'all');
+            clearValue('output');
+            clearNode('databox');
+        } else {
+            for (let i in iArray) {
+                let iData = iArray[i];
+                if (iData == "") continue;
+                let oData = await getNugget(iData.toLowerCase());
+                if (!oData.isNull) {
+                    oArray.push(oData);
+                }
+            }
+        }
+        if (oArray.length == 0) return;
+        enableProtect();
+        let tableName = 'tableNugget';
+        appendNode('<table class="infoTable" id="' + tableName + '">', 'databox', 'div');
+        appendNode('<th class="icon">图标</th><th class="name">调用名</th><th class="local">中文名</th><th class="type">类型</th><th class="desc">描述</th><th class="effect">效果</th>',
+            tableName, 'tr');
+        addValue('output', '调用名\t中文名\t类型\t描述\t效果');
+        for (let i in oArray) {
+            let nuggetUint = await getProto(oArray[i].nuggetunit);
+            let stringEffects = await getEffects(oArray[i], true);
+            let oNode = getIcon(oArray[i])
+                + '<td>' + oArray[i].name + '</td>'
+                + '<td>' + getRuby(nuggetUint.displayname, nuggetUint['@name']) + '</td>'
+                + '<td>宝藏</td>'
+                + '<td>' + oArray[i].rolloverstring + '</td>'
+                + '<td class="effect"><div>' + stringEffects + '</div></td>';
+            appendNode(oNode, tableName, 'tr');
+            let oString = oArray[i].name + '\t'
+                + (nuggetUint.displayname ? nuggetUint.displayname : nuggetUint['@name']) + '\t'
+                + '宝藏' + '\t'
+                + oArray[i].rolloverstring + '\t'
+                + stringEffects.replace(/<ruby>(.*?)<rt>.*?<\/ruby>/g, '$1').replaceAll('</br>', '↩️').replaceAll('&nbsp;', ' ').replace(/<.*?>/g, '');
+            addValue('output', oString);
+        }
+    }
+    disableProtect();
 }
 //提取文本
 async function getStrings(isAll) {
@@ -120,6 +217,12 @@ async function getUnitTypes(isAll) {
 }
 
 async function getInfo() {
+    clearValue('output');
+    clearNode('databox');
+    let iArray = getValue('input');
+    await getTechs(false, iArray);
+    await getProtos(false, iArray);
+    await getNuggets(false, iArray);
 }
 
 async function searchInfo(isFuzzy) {

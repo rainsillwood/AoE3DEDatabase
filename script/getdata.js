@@ -34,7 +34,7 @@ async function getCString(cString) {
             'cstring' + iString.replace('maximum', 'max').replace('minimum', 'min')
         ];
         let iData;
-        for (i in iArray) {
+        for (let i in iArray) {
             iData = await getData('string', iArray[i], 'symbol');
             if (iData) break;
         }

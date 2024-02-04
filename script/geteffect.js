@@ -70,14 +70,14 @@ function replaceData(iString, iArray, changePos) {
     let oString = iString;
     oString = oString.replace(/!(.*?)!/g, '$1').replace(/(%\d)\.?\d?[sdfc]/g, '$1x');
     if (changePos) {
-        for (i in changePos.cross) {
+        for (let i in changePos.cross) {
             let cross = ['%' + changePos.cross[i][0] * changePos.multiplier + 'x', '%' + changePos.cross[i][1] * changePos.multiplier + 'x'];
             oString = oString.replace(cross[0], '%∞x');
             oString = oString.replace(cross[1], cross[0]);
             oString = oString.replace('%∞x', cross[1]);
         }
     }
-    for (i in iArray) {
+    for (let i in iArray) {
         oString = oString.replace('%' + (i * 1 + 1) + 'x', iArray[i]);
     }
     oString = oString.replace('%%', '%');
@@ -197,7 +197,7 @@ async function getTargetAction(action, proto, isAll) {
                 };
             }
             uniType.list.unshift(proto);
-            for (i in uniType.list) {
+            for (let i in uniType.list) {
                 let target = await getProto(uniType.list[i]);
                 if (target.tactics) {
                     let iData = await getAction(target.tactics.toLowerCase() + '-' + action.toLowerCase());
@@ -228,7 +228,7 @@ async function gettargetTactic(tactic, proto, isAll) {
                 };
             }
             uniType.list.unshift(proto);
-            for (i in uniType.list) {
+            for (let i in uniType.list) {
                 let target = await getProto(uniType.list[i]);
                 if (target.tactics) {
                     let iData = await getTactic(target.tactics.toLowerCase() + '-' + tactic.toLowerCase());
@@ -252,6 +252,7 @@ async function getEffects(tech, isNugget) {
     let techName;
     if (isNugget) {
         tech['@type'] = 'Nugget';
+        
         effectList.push(tech);
         techName = tech.name;
     } else {
@@ -259,7 +260,7 @@ async function getEffects(tech, isNugget) {
         effectList = returnList(tech.effects.effect);
         techName = getRuby(tech.displayname, tech['@name']);
     }
-    for (i in effectList) {
+    for (let i in effectList) {
         let iString = await getEffect(effectList[i], techName);
         oString = oString + iString + '</br>';
     }
@@ -344,7 +345,7 @@ async function getEffect(effect, techName) {
             oString = '随机 ' + effect['@select'] + ' 项科技设置为' + status;
             let techList = effect.tech;
             if (techList) {
-                for (i in techList) {
+                for (let i in techList) {
                     techList[i] = await getTarget(techList[i], 'Tech');
                 }
                 oString = oString + '：[' + techList.join(', ') + ']';
@@ -1303,7 +1304,7 @@ async function getEffect(effect, techName) {
         }
     }
     if (!oString) {
-        oString = JSON.stringify(effect);
+        oString = '❓'+JSON.stringify(effect);
     }
     oString = oString.replace('%1!s!', techName);
     return oString;
