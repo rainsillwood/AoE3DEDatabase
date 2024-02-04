@@ -1,0 +1,46 @@
+.icon {
+    width: 135px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.name {
+    width: 128px;
+}
+
+.local {
+    width: 256px;
+}
+
+.type {
+    width: 32px;
+}
+
+.desc {
+    width: 384px;
+}
+
+.effect>div {
+    overflow-x: auto;
+}
+
+.infoTable {
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    border-collapse: separate;
+    border-spacing: 0px;
+    padding: 0px;
+    table-layout: fixed;
+    position: relative;
+    width: calc(100% - 15px);
+}
+
+td,
+th {
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    word-wrap: break-word;
+}
