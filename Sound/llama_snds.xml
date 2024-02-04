@@ -1,0 +1,20 @@
+<protounitsounddef>
+  <protounit name="Llama">
+    <soundtype name="Select">
+      <soundset name="LlamaSelect">
+      </soundset>
+    </soundtype>
+    <soundtype name="Death">
+      <soundset name="LlamaDeath">
+      </soundset>
+    </soundtype>
+    <soundtype name="Creation">
+      <soundset name="SettlerBirth">
+      </soundset>
+    </soundtype>
+    <soundtype name="Acknowledge">
+      <soundset name="LlamaAcknowledge">
+      </soundset>
+    </soundtype>
+  </protounit>
+</protounitsounddef>

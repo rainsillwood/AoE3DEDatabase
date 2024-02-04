@@ -1,0 +1,28 @@
+<protounitsounddef>
+  <protounit name="Lazerbear">
+    <soundtype name="Select">
+      <soundset name="BearSelect">
+      </soundset>
+    </soundtype>
+    <soundtype name="Grunt">
+      <soundset name="BearGrunt">
+      </soundset>
+    </soundtype>
+    <soundtype name="Death">
+      <soundset name="BearDie">
+      </soundset>
+    </soundtype>
+    <soundtype name="Creation">
+      <soundset name="LazerBearBirth">
+      </soundset>
+    </soundtype>
+    <soundtype name="Acknowledge">
+      <soundset name="BearAcknowledge">
+      </soundset>
+    </soundtype>
+    <soundtype name="Exists">
+      <soundset name="LazerBearExist">
+      </soundset>
+    </soundtype>
+  </protounit>
+</protounitsounddef>

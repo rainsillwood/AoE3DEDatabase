@@ -1,0 +1,1414 @@
+<protounitsounddef>
+  <protounit name="Explorer">
+    <soundtype name="Select">
+      <civlogic>
+        <choice name="Nature">
+        </choice>
+        <choice name="French">
+          <skinlogic>
+            <choice name="none">
+              <soundset name="FrenchExplorerSelect">
+              </soundset>
+            </choice>
+            <choice name="1">
+              <soundset name="FrenchFemplorerSelect">
+              </soundset>
+            </choice>
+            <choice name="3">
+              <soundset name="FrenchFemplorerSelect">
+              </soundset>
+            </choice>
+          </skinlogic>
+        </choice>
+        <choice name="British">
+          <skinlogic>
+            <choice name="none">
+              <soundset name="BritishExplorerSelect">
+              </soundset>
+            </choice>
+            <choice name="0">
+              <soundset name="ElizabetRamseySelect">
+              </soundset>
+            </choice>
+            <choice name="1">
+              <soundset name="BritishFemplorerSelect">
+              </soundset>
+            </choice>
+            <choice name="2">
+              <soundset name="WarwickSelect">
+              </soundset>
+            </choice>
+          </skinlogic>
+        </choice>
+        <choice name="Russians">
+          <skinlogic>
+            <choice name="none">
+              <soundset name="RussianExplorerSelect">
+              </soundset>
+            </choice>
+            <choice name="2">
+              <soundset name="BearSelect">
+              </soundset>
+            </choice>
+          </skinlogic>
+        </choice>
+        <choice name="Spanish">
+          <skinlogic>
+            <choice name="none">
+              <soundset name="SpanishExplorerSelect">
+              </soundset>
+            </choice>
+            <choice name="0">
+              <soundset name="SpanishFemplorerSelect">
+              </soundset>
+            </choice>
+            <choice name="1">
+              <soundset name="SpanishFemplorerSelect">
+              </soundset>
+            </choice>
+            <choice name="2">
+              <soundset name="DelgadoSelect">
+              </soundset>
+            </choice>
+          </skinlogic>
+        </choice>
+        <choice name="Ottomans">
+          <skinlogic>
+            <choice name="none">
+              <soundset name="OttomanExplorerSelect">
+              </soundset>
+            </choice>
+            <choice name="0">
+              <soundset name="SahinSelect">
+              </soundset>
+            </choice>
+          </skinlogic>
+        </choice>
+        <choice name="Portuguese">
+          <skinlogic>
+            <choice name="none">
+              <soundset name="PortugueseExplorerSelect">
+              </soundset>
+            </choice>
+            <choice name="0">
+              <soundset name="PortugueseFemplorerSelect">
+              </soundset>
+            </choice>
+          </skinlogic>
+        </choice>
+        <choice name="Germans">
+          <skinlogic>
+            <choice name="none">
+              <soundset name="GermanExplorerSelect">
+              </soundset>
+            </choice>
+            <choice name="0">
+              <soundset name="GermanFemplorerSelect">
+              </soundset>
+            </choice>
+            <choice name="3">
+              <soundset name="GermanFemplorerSelect">
+              </soundset>
+            </choice>
+          </skinlogic>
+        </choice>
+        <choice name="Dutch">
+          <skinlogic>
+            <choice name="none">
+              <soundset name="DutchExplorerSelect">
+              </soundset>
+            </choice>
+          </skinlogic>
+        </choice>
+        <choice name="DESwedish">
+          <skinlogic>
+            <choice name="none">
+              <soundset name="DESwedishExplorerSelect">
+              </soundset>
+            </choice>
+            <choice name="0">
+              <soundset name="SwedishFemplorerSelect">
+              </soundset>
+            </choice>
+            <choice name="2">
+              <soundset name="ThorSelect">
+              </soundset>
+            </choice>
+          </skinlogic>
+        </choice>
+        <choice name="Pirate">
+          <soundset name="BritishExplorerSelect">
+          </soundset>
+        </choice>
+        <choice name="DEItalians">
+          <skinlogic>
+            <choice name="none">
+              <soundset name="DEItalianExplorerSelect">
+              </soundset>
+            </choice>
+            <choice name="1">
+              <soundset name="ItalianFemplorerSelect">
+              </soundset>
+            </choice>
+            <choice name="2">
+              <soundset name="ItalianFemplorerSelect">
+              </soundset>
+            </choice>
+            <choice name="3">
+              <soundset name="CenturionSelect">
+              </soundset>
+            </choice>
+          </skinlogic>
+        </choice>
+      </civlogic>
+    </soundtype>
+    <soundtype name="Grunt">
+      <civlogic>
+        <choice name="none">
+          <soundset name="GenericMaleGrunt">
+          </soundset>
+        </choice>
+        <choice name="French">
+          <skinlogic>
+            <choice name="none">
+              <soundset name="GenericMaleGrunt">
+              </soundset>
+            </choice>
+            <choice name="1">
+              <soundset name="GenericFemaleGrunt">
+              </soundset>
+            </choice>
+            <choice name="3">
+              <soundset name="GenericFemaleGrunt">
+              </soundset>
+            </choice>
+          </skinlogic>
+        </choice>
+        <choice name="British">
+          <skinlogic>
+            <choice name="none">
+              <soundset name="GenericMaleGrunt">
+              </soundset>
+            </choice>
+            <choice name="0">
+              <soundset name="GenericFemaleGrunt">
+              </soundset>
+            </choice>
+            <choice name="1">
+              <soundset name="GenericFemaleGrunt">
+              </soundset>
+            </choice>
+            <choice name="2">
+              <soundset name="WarwickGrunt">
+              </soundset>
+            </choice>
+          </skinlogic>
+        </choice>
+        <choice name="Russians">
+          <skinlogic>
+            <choice name="none">
+              <soundset name="GenericMaleGrunt">
+              </soundset>
+            </choice>
+            <choice name="2">
+              <soundset name="BearGrunt">
+              </soundset>
+            </choice>
+          </skinlogic>
+        </choice>
+        <choice name="Spanish">
+          <skinlogic>
+            <choice name="none">
+              <soundset name="GenericMaleGrunt">
+              </soundset>
+            </choice>
+            <choice name="0">
+              <soundset name="GenericFemaleGrunt">
+              </soundset>
+            </choice>
+            <choice name="1">
+              <soundset name="GenericFemaleGrunt">
+              </soundset>
+            </choice>
+            <choice name="2">
+              <soundset name="DelgadoGrunt">
+              </soundset>
+            </choice>
+          </skinlogic>
+        </choice>
+        <choice name="Ottomans">
+          <skinlogic>
+            <choice name="none">
+              <soundset name="GenericMaleGrunt">
+              </soundset>
+            </choice>
+            <choice name="0">
+              <soundset name="SahinGrunt">
+              </soundset>
+            </choice>
+          </skinlogic>
+        </choice>
+        <choice name="Portuguese">
+          <skinlogic>
+            <choice name="none">
+              <soundset name="GenericMaleGrunt">
+              </soundset>
+            </choice>
+            <choice name="0">
+              <soundset name="GenericFemaleGrunt">
+              </soundset>
+            </choice>
+          </skinlogic>
+        </choice>
+        <choice name="Germans">
+          <skinlogic>
+            <choice name="none">
+              <soundset name="GenericMaleGrunt">
+              </soundset>
+            </choice>
+            <choice name="0">
+              <soundset name="GenericFemaleGrunt">
+              </soundset>
+            </choice>
+            <choice name="3">
+              <soundset name="GenericFemaleGrunt">
+              </soundset>
+            </choice>
+          </skinlogic>
+        </choice>
+        <choice name="Dutch">
+          <skinlogic>
+            <choice name="none">
+              <soundset name="GenericMaleGrunt">
+              </soundset>
+            </choice>
+          </skinlogic>
+        </choice>
+        <choice name="DESwedish">
+          <skinlogic>
+            <choice name="none">
+              <soundset name="GenericMaleGrunt">
+              </soundset>
+            </choice>
+            <choice name="0">
+              <soundset name="GenericFemaleGrunt">
+              </soundset>
+            </choice>
+            <choice name="2">
+              <soundset name="ThorGrunt">
+              </soundset>
+            </choice>
+          </skinlogic>
+        </choice>
+        <choice name="DEItalians">
+          <skinlogic>
+            <choice name="none">
+              <soundset name="GenericMaleGrunt">
+              </soundset>
+            </choice>
+            <choice name="1">
+              <soundset name="GenericFemaleGrunt">
+              </soundset>
+            </choice>
+            <choice name="2">
+              <soundset name="GenericFemaleGrunt">
+              </soundset>
+            </choice>
+          </skinlogic>
+        </choice>
+      </civlogic>
+    </soundtype>
+    <soundtype name="Death">
+      <civlogic>
+        <choice name="none">
+          <soundset name="GenericMaleDeath">
+          </soundset>
+        </choice>
+        <choice name="French">
+          <skinlogic>
+            <choice name="none">
+              <soundset name="GenericMaleDeath">
+              </soundset>
+            </choice>
+            <choice name="1">
+              <soundset name="GenericFemaleDeath">
+              </soundset>
+            </choice>
+            <choice name="3">
+              <soundset name="GenericFemaleDeath">
+              </soundset>
+            </choice>
+          </skinlogic>
+        </choice>
+        <choice name="British">
+          <skinlogic>
+            <choice name="none">
+              <soundset name="GenericMaleDeath">
+              </soundset>
+            </choice>
+            <choice name="0">
+              <soundset name="GenericFemaleDeath">
+              </soundset>
+            </choice>
+            <choice name="1">
+              <soundset name="GenericFemaleDeath">
+              </soundset>
+            </choice>
+            <choice name="2">
+              <soundset name="WarwickDeath">
+              </soundset>
+            </choice>
+          </skinlogic>
+        </choice>
+        <choice name="Russians">
+          <skinlogic>
+            <choice name="none">
+              <soundset name="GenericMaleDeath">
+              </soundset>
+            </choice>
+            <choice name="2">
+              <soundset name="BearDie">
+              </soundset>
+            </choice>
+          </skinlogic>
+        </choice>
+        <choice name="Spanish">
+          <skinlogic>
+            <choice name="none">
+              <soundset name="GenericMaleDeath">
+              </soundset>
+            </choice>
+            <choice name="0">
+              <soundset name="GenericFemaleDeath">
+              </soundset>
+            </choice>
+            <choice name="1">
+              <soundset name="GenericFemaleDeath">
+              </soundset>
+            </choice>
+            <choice name="2">
+              <soundset name="DelgadoDeath">
+              </soundset>
+            </choice>
+          </skinlogic>
+        </choice>
+        <choice name="Ottomans">
+          <skinlogic>
+            <choice name="none">
+              <soundset name="GenericMaleDeath">
+              </soundset>
+            </choice>
+            <choice name="0">
+              <soundset name="SahinGrunt">
+              </soundset>
+            </choice>
+          </skinlogic>
+        </choice>
+        <choice name="Portuguese">
+          <skinlogic>
+            <choice name="none">
+              <soundset name="GenericMaleDeath">
+              </soundset>
+            </choice>
+            <choice name="0">
+              <soundset name="GenericFemaleDeath">
+              </soundset>
+            </choice>
+          </skinlogic>
+        </choice>
+        <choice name="Germans">
+          <skinlogic>
+            <choice name="none">
+              <soundset name="GenericMaleDeath">
+              </soundset>
+            </choice>
+            <choice name="0">
+              <soundset name="GenericFemaleDeath">
+              </soundset>
+            </choice>
+            <choice name="3">
+              <soundset name="GenericFemaleDeath">
+              </soundset>
+            </choice>
+          </skinlogic>
+        </choice>
+        <choice name="Dutch">
+          <skinlogic>
+            <choice name="none">
+              <soundset name="GenericMaleDeath">
+              </soundset>
+            </choice>
+          </skinlogic>
+        </choice>
+        <choice name="DESwedish">
+          <skinlogic>
+            <choice name="none">
+              <soundset name="GenericMaleDeath">
+              </soundset>
+            </choice>
+            <choice name="0">
+              <soundset name="GenericFemaleDeath">
+              </soundset>
+            </choice>
+            <choice name="2">
+              <soundset name="ThorDeath">
+              </soundset>
+            </choice>
+          </skinlogic>
+        </choice>
+        <choice name="DEItalians">
+          <skinlogic>
+            <choice name="none">
+              <soundset name="GenericMaleDeath">
+              </soundset>
+            </choice>
+            <choice name="1">
+              <soundset name="GenericFemaleDeath">
+              </soundset>
+            </choice>
+            <choice name="2">
+              <soundset name="GenericFemaleDeath">
+              </soundset>
+            </choice>
+          </skinlogic>
+        </choice>
+      </civlogic>
+    </soundtype>
+    <soundtype name="Creation">
+      <soundset name="MilitaryBirth">
+      </soundset>
+    </soundtype>
+    <soundtype name="Acknowledge">
+      <civlogic>
+        <choice name="Nature">
+          <targetlogic>
+            <choice name="default">
+            </choice>
+            <choice name="enemy">
+            </choice>
+          </targetlogic>
+        </choice>
+        <choice name="French">
+          <skinlogic>
+            <choice name="none">
+              <targetlogic>
+                <choice name="default">
+                  <soundset name="FrenchExplorerAcknowledge">
+                  </soundset>
+                </choice>
+                <choice name="enemy">
+                  <soundset name="FrenchExplorerAttack">
+                  </soundset>
+                </choice>
+              </targetlogic>
+            </choice>
+            <choice name="1">
+              <targetlogic>
+                <choice name="default">
+                  <soundset name="FrenchFemplorerAcknowledge">
+                  </soundset>
+                </choice>
+                <choice name="enemy">
+                  <soundset name="FrenchFemplorerAttack">
+                  </soundset>
+                </choice>
+              </targetlogic>
+            </choice>
+            <choice name="3">
+              <targetlogic>
+                <choice name="default">
+                  <soundset name="FrenchFemplorerAcknowledge">
+                  </soundset>
+                </choice>
+                <choice name="enemy">
+                  <soundset name="FrenchFemplorerAttack">
+                  </soundset>
+                </choice>
+              </targetlogic>
+            </choice>
+          </skinlogic>
+        </choice>
+        <choice name="British">
+          <skinlogic>
+            <choice name="none">
+              <targetlogic>
+                <choice name="default">
+                  <soundset name="BritishExplorerAcknowledge">
+                  </soundset>
+                </choice>
+                <choice name="enemy">
+                  <soundset name="BritishExplorerAttack">
+                  </soundset>
+                </choice>
+              </targetlogic>
+            </choice>
+            <choice name="0">
+              <targetlogic>
+                <choice name="default">
+                  <soundset name="ElizabetRamseyAcknowledge">
+                  </soundset>
+                </choice>
+                <choice name="enemy">
+                  <soundset name="ElizabetRamseyAttack">
+                  </soundset>
+                </choice>
+              </targetlogic>
+            </choice>
+            <choice name="1">
+              <targetlogic>
+                <choice name="default">
+                  <soundset name="BritishFemplorerAcknowledge">
+                  </soundset>
+                </choice>
+                <choice name="enemy">
+                  <soundset name="BritishFemplorerAttack">
+                  </soundset>
+                </choice>
+              </targetlogic>
+            </choice>
+            <choice name="2">
+              <targetlogic>
+                <choice name="default">
+                  <soundset name="WarwickAcknowledge">
+                  </soundset>
+                </choice>
+                <choice name="enemy">
+                  <soundset name="WarwickAttack">
+                  </soundset>
+                </choice>
+              </targetlogic>
+            </choice>
+          </skinlogic>
+        </choice>
+        <choice name="Russians">
+          <skinlogic>
+            <choice name="none">
+              <targetlogic>
+                <choice name="default">
+                  <soundset name="RussianExplorerAcknowledge">
+                  </soundset>
+                </choice>
+                <choice name="enemy">
+                  <soundset name="RussianExplorerAttack">
+                  </soundset>
+                </choice>
+              </targetlogic>
+            </choice>
+            <choice name="2">
+              <targetlogic>
+                <choice name="default">
+                  <soundset name="BearAcknowledge">
+                  </soundset>
+                </choice>
+                <choice name="enemy">
+                  <soundset name="BearGrunt">
+                  </soundset>
+                </choice>
+              </targetlogic>
+            </choice>
+          </skinlogic>
+        </choice>
+        <choice name="Spanish">
+          <skinlogic>
+            <choice name="none">
+              <targetlogic>
+                <choice name="default">
+                  <soundset name="SpanishExplorerAcknowledge">
+                  </soundset>
+                </choice>
+                <choice name="enemy">
+                  <soundset name="SpanishExplorerAttack">
+                  </soundset>
+                </choice>
+              </targetlogic>
+            </choice>
+            <choice name="0">
+              <targetlogic>
+                <choice name="default">
+                  <soundset name="SpanishFemplorerAcknowledge">
+                  </soundset>
+                </choice>
+                <choice name="enemy">
+                  <soundset name="SpanishFemplorerAttack">
+                  </soundset>
+                </choice>
+              </targetlogic>
+            </choice>
+            <choice name="1">
+              <targetlogic>
+                <choice name="default">
+                  <soundset name="SpanishFemplorerAcknowledge">
+                  </soundset>
+                </choice>
+                <choice name="enemy">
+                  <soundset name="SpanishFemplorerAttack">
+                  </soundset>
+                </choice>
+              </targetlogic>
+            </choice>
+            <choice name="2">
+              <targetlogic>
+                <choice name="default">
+                  <soundset name="DelgadoAcknowledge">
+                  </soundset>
+                </choice>
+                <choice name="enemy">
+                  <soundset name="DelgadoAttack">
+                  </soundset>
+                </choice>
+              </targetlogic>
+            </choice>
+          </skinlogic>
+        </choice>
+        <choice name="Ottomans">
+          <skinlogic>
+            <choice name="none">
+              <targetlogic>
+                <choice name="default">
+                  <soundset name="OttomanExplorerAcknowledge">
+                  </soundset>
+                </choice>
+                <choice name="enemy">
+                  <soundset name="OttomanExplorerAttack">
+                  </soundset>
+                </choice>
+              </targetlogic>
+            </choice>
+            <choice name="0">
+              <targetlogic>
+                <choice name="default">
+                  <soundset name="SahinAcknowledge">
+                  </soundset>
+                </choice>
+                <choice name="enemy">
+                  <soundset name="SahinAttack">
+                  </soundset>
+                </choice>
+              </targetlogic>
+            </choice>
+          </skinlogic>
+        </choice>
+        <choice name="Portuguese">
+          <skinlogic>
+            <choice name="none">
+              <targetlogic>
+                <choice name="default">
+                  <soundset name="PortugueseExplorerAcknowledge">
+                  </soundset>
+                </choice>
+                <choice name="enemy">
+                  <soundset name="PortugueseExplorerAttack">
+                  </soundset>
+                </choice>
+              </targetlogic>
+            </choice>
+            <choice name="0">
+              <targetlogic>
+                <choice name="default">
+                  <soundset name="PortugueseFemplorerAcknowledge">
+                  </soundset>
+                </choice>
+                <choice name="enemy">
+                  <soundset name="PortugueseFemplorerAttack">
+                  </soundset>
+                </choice>
+              </targetlogic>
+            </choice>
+          </skinlogic>
+        </choice>
+        <choice name="Germans">
+          <skinlogic>
+            <choice name="none">
+              <targetlogic>
+                <choice name="default">
+                  <soundset name="GermanExplorerAcknowledge">
+                  </soundset>
+                </choice>
+                <choice name="enemy">
+                  <soundset name="GermanExplorerAttack">
+                  </soundset>
+                </choice>
+              </targetlogic>
+            </choice>
+            <choice name="0">
+              <targetlogic>
+                <choice name="default">
+                  <soundset name="GermanFemplorerAcknowledge">
+                  </soundset>
+                </choice>
+                <choice name="enemy">
+                  <soundset name="GermanFemplorerAttack">
+                  </soundset>
+                </choice>
+              </targetlogic>
+            </choice>
+            <choice name="3">
+              <targetlogic>
+                <choice name="default">
+                  <soundset name="GermanFemplorerAcknowledge">
+                  </soundset>
+                </choice>
+                <choice name="enemy">
+                  <soundset name="GermanFemplorerAttack">
+                  </soundset>
+                </choice>
+              </targetlogic>
+            </choice>
+          </skinlogic>
+        </choice>
+        <choice name="Dutch">
+          <skinlogic>
+            <choice name="none">
+              <targetlogic>
+                <choice name="default">
+                  <soundset name="DutchExplorerAcknowledge">
+                  </soundset>
+                </choice>
+                <choice name="enemy">
+                  <soundset name="DutchExplorerAttack">
+                  </soundset>
+                </choice>
+              </targetlogic>
+            </choice>
+          </skinlogic>
+        </choice>
+        <choice name="DESwedish">
+          <skinlogic>
+            <choice name="none">
+              <targetlogic>
+                <choice name="default">
+                  <soundset name="DESwedishExplorerAcknowledge">
+                  </soundset>
+                </choice>
+                <choice name="enemy">
+                  <soundset name="DESwedishExplorerAttack">
+                  </soundset>
+                </choice>
+              </targetlogic>
+            </choice>
+            <choice name="0">
+              <targetlogic>
+                <choice name="default">
+                  <soundset name="SwedishFemplorerAcknowledge">
+                  </soundset>
+                </choice>
+                <choice name="enemy">
+                  <soundset name="SwedishFemplorerAttack">
+                  </soundset>
+                </choice>
+              </targetlogic>
+            </choice>
+            <choice name="2">
+              <targetlogic>
+                <choice name="default">
+                  <soundset name="ThorAcknowledge">
+                  </soundset>
+                </choice>
+                <choice name="enemy">
+                  <soundset name="ThorAttack">
+                  </soundset>
+                </choice>
+              </targetlogic>
+            </choice>
+          </skinlogic>
+        </choice>
+        <choice name="Pirate">
+          <targetlogic>
+            <choice name="default">
+              <soundset name="BritishExplorerAcknowledge">
+              </soundset>
+            </choice>
+            <choice name="enemy">
+              <soundset name="BritishExplorerAttack">
+              </soundset>
+            </choice>
+          </targetlogic>
+        </choice>
+        <choice name="DEItalians">
+          <skinlogic>
+            <choice name="none">
+              <targetlogic>
+                <choice name="default">
+                  <soundset name="DEItalianExplorerAcknowledge">
+                  </soundset>
+                </choice>
+                <choice name="enemy">
+                  <soundset name="DEItalianExplorerAttack">
+                  </soundset>
+                </choice>
+              </targetlogic>
+            </choice>
+            <choice name="1">
+              <targetlogic>
+                <choice name="default">
+                  <soundset name="ItalianFemplorerAcknowledge">
+                  </soundset>
+                </choice>
+                <choice name="enemy">
+                  <soundset name="ItalianFemplorerAttack">
+                  </soundset>
+                </choice>
+              </targetlogic>
+            </choice>
+            <choice name="2">
+              <targetlogic>
+                <choice name="default">
+                  <soundset name="ItalianFemplorerAcknowledge">
+                  </soundset>
+                </choice>
+                <choice name="enemy">
+                  <soundset name="ItalianFemplorerAttack">
+                  </soundset>
+                </choice>
+              </targetlogic>
+            </choice>
+            <choice name="3">
+              <targetlogic>
+                <choice name="default">
+                  <soundset name="CenturionAcknowledge">
+                  </soundset>
+                </choice>
+                <choice name="enemy">
+                  <soundset name="CenturionAttack">
+                  </soundset>
+                </choice>
+              </targetlogic>
+            </choice>
+          </skinlogic>
+        </choice>
+      </civlogic>
+    </soundtype>
+    <soundtype name="Claim">
+      <civlogic>
+        <choice name="Nature">
+        </choice>
+        <choice name="French">
+          <soundset name="FrenchExplorerClaim">
+          </soundset>
+        </choice>
+        <choice name="British">
+          <soundset name="BritishExplorerClaim">
+          </soundset>
+        </choice>
+        <choice name="Russians">
+          <soundset name="RussianExplorerClaim">
+          </soundset>
+        </choice>
+        <choice name="Ottomans">
+          <soundset name="OttomanExplorerClaim">
+          </soundset>
+        </choice>
+        <choice name="Dutch">
+          <soundset name="DutchExplorerClaim">
+          </soundset>
+        </choice>
+        <choice name="Spanish">
+          <soundset name="SpanishExplorerClaim">
+          </soundset>
+        </choice>
+        <choice name="Portuguese">
+          <soundset name="PortugueseExplorerClaim">
+          </soundset>
+        </choice>
+        <choice name="Germans">
+          <soundset name="GermanExplorerClaim">
+          </soundset>
+        </choice>
+        <choice name="DESwedish">
+          <soundset name="GermanExplorerClaim">
+          </soundset>
+        </choice>
+        <choice name="Pirate">
+          <soundset name="BritishExplorerClaim">
+          </soundset>
+        </choice>
+      </civlogic>
+    </soundtype>
+    <soundtype name="KnockOut">
+      <civlogic>
+        <choice name="Nature">
+        </choice>
+        <choice name="French">
+          <skinlogic>
+            <choice name="none">
+              <soundset name="FrenchExplorerDisabled">
+              </soundset>
+            </choice>
+            <choice name="1">
+              <soundset name="FrenchFemplorerDisabled">
+              </soundset>
+            </choice>
+            <choice name="3">
+              <soundset name="FrenchFemplorerDisabled">
+              </soundset>
+            </choice>
+          </skinlogic>
+        </choice>
+        <choice name="British">
+          <skinlogic>
+            <choice name="none">
+              <soundset name="BritishExplorerDisabled">
+              </soundset>
+            </choice>
+            <choice name="0">
+              <soundset name="ElizabetRamseyDeath">
+              </soundset>
+            </choice>
+            <choice name="1">
+              <soundset name="BritishFemplorerDisabled">
+              </soundset>
+            </choice>
+            <choice name="2">
+              <soundset name="WarwickDeath">
+              </soundset>
+            </choice>
+          </skinlogic>
+        </choice>
+        <choice name="Russians">
+          <skinlogic>
+            <choice name="none">
+              <soundset name="RussianExplorerDisabled">
+              </soundset>
+            </choice>
+            <choice name="2">
+              <soundset name="BearDie">
+              </soundset>
+            </choice>
+          </skinlogic>
+        </choice>
+        <choice name="Spanish">
+          <skinlogic>
+            <choice name="none">
+              <soundset name="SpanishExplorerDisabled">
+              </soundset>
+            </choice>
+            <choice name="0">
+              <soundset name="SpanishFemplorerDisabled">
+              </soundset>
+            </choice>
+            <choice name="1">
+              <soundset name="SpanishFemplorerDisabled">
+              </soundset>
+            </choice>
+            <choice name="2">
+              <soundset name="DelgadoDeath">
+              </soundset>
+            </choice>
+          </skinlogic>
+        </choice>
+        <choice name="Ottomans">
+          <skinlogic>
+            <choice name="none">
+              <soundset name="OttomanExplorerDisabled">
+              </soundset>
+            </choice>
+            <choice name="0">
+              <soundset name="SahinGrunt">
+              </soundset>
+            </choice>
+          </skinlogic>
+        </choice>
+        <choice name="Portuguese">
+          <skinlogic>
+            <choice name="none">
+              <soundset name="PortugueseExplorerDisabled">
+              </soundset>
+            </choice>
+            <choice name="0">
+              <soundset name="PortugueseFemplorerDisabled">
+              </soundset>
+            </choice>
+          </skinlogic>
+        </choice>
+        <choice name="Germans">
+          <skinlogic>
+            <choice name="none">
+              <soundset name="GermanExplorerDisabled">
+              </soundset>
+            </choice>
+            <choice name="0">
+              <soundset name="GermanFemplorerDisabled">
+              </soundset>
+            </choice>
+            <choice name="3">
+              <soundset name="GermanFemplorerDisabled">
+              </soundset>
+            </choice>
+          </skinlogic>
+        </choice>
+        <choice name="Dutch">
+          <skinlogic>
+            <choice name="none">
+              <soundset name="DutchExplorerDisabled">
+              </soundset>
+            </choice>
+          </skinlogic>
+        </choice>
+        <choice name="DESwedish">
+          <skinlogic>
+            <choice name="none">
+              <soundset name="DESwedishExplorerDisabled">
+              </soundset>
+            </choice>
+            <choice name="0">
+              <soundset name="SwedishFemplorerDisabled">
+              </soundset>
+            </choice>
+            <choice name="2">
+              <soundset name="ThorDeath">
+              </soundset>
+            </choice>
+          </skinlogic>
+        </choice>
+        <choice name="Pirate">
+          <soundset name="BritishExplorerDisabled">
+          </soundset>
+        </choice>
+        <choice name="DEItalians">
+          <skinlogic>
+            <choice name="none">
+              <soundset name="DEItalianExplorerDisabled">
+              </soundset>
+            </choice>
+            <choice name="1">
+              <soundset name="ItalianFemplorerDisabled">
+              </soundset>
+            </choice>
+            <choice name="2">
+              <soundset name="ItalianFemplorerDisabled">
+              </soundset>
+            </choice>
+            <choice name="3">
+              <soundset name="DEItalianExplorerDisabled">
+              </soundset>
+            </choice>
+          </skinlogic>
+        </choice>
+      </civlogic>
+    </soundtype>
+    <soundtype name="KnockOutRevived">
+      <civlogic>
+        <choice name="Nature">
+        </choice>
+        <choice name="French">
+          <skinlogic>
+            <choice name="none">
+              <soundset name="FrenchExplorerRevived">
+              </soundset>
+            </choice>
+            <choice name="1">
+              <soundset name="FrenchFemplorerRevived">
+              </soundset>
+            </choice>
+            <choice name="3">
+              <soundset name="FrenchFemplorerRevived">
+              </soundset>
+            </choice>
+          </skinlogic>
+        </choice>
+        <choice name="British">
+          <skinlogic>
+            <choice name="none">
+              <soundset name="BritishExplorerRevived">
+              </soundset>
+            </choice>
+            <choice name="0">
+              <soundset name="ElizabetRamseyRevive">
+              </soundset>
+            </choice>
+            <choice name="1">
+              <soundset name="BritishFemplorerRevived">
+              </soundset>
+            </choice>
+            <choice name="2">
+              <soundset name="WarwickRevive">
+              </soundset>
+            </choice>
+          </skinlogic>
+        </choice>
+        <choice name="Russians">
+          <skinlogic>
+            <choice name="none">
+              <soundset name="RussianExplorerRevived">
+              </soundset>
+            </choice>
+            <choice name="2">
+              <soundset name="BearSelect">
+              </soundset>
+            </choice>
+          </skinlogic>
+        </choice>
+        <choice name="Spanish">
+          <skinlogic>
+            <choice name="none">
+              <soundset name="SpanishExplorerRevived">
+              </soundset>
+            </choice>
+            <choice name="0">
+              <soundset name="SpanishFemplorerRevived">
+              </soundset>
+            </choice>
+            <choice name="1">
+              <soundset name="SpanishFemplorerRevived">
+              </soundset>
+            </choice>
+            <choice name="2">
+              <soundset name="DelgadoRevive">
+              </soundset>
+            </choice>
+          </skinlogic>
+        </choice>
+        <choice name="Ottomans">
+          <skinlogic>
+            <choice name="none">
+              <soundset name="OttomanExplorerRevived">
+              </soundset>
+            </choice>
+            <choice name="0">
+              <soundset name="SahinRevive">
+              </soundset>
+            </choice>
+          </skinlogic>
+        </choice>
+        <choice name="Portuguese">
+          <skinlogic>
+            <choice name="none">
+              <soundset name="PortugueseExplorerRevived">
+              </soundset>
+            </choice>
+            <choice name="0">
+              <soundset name="PortugueseFemplorerRevived">
+              </soundset>
+            </choice>
+          </skinlogic>
+        </choice>
+        <choice name="Germans">
+          <skinlogic>
+            <choice name="none">
+              <soundset name="GermanExplorerRevived">
+              </soundset>
+            </choice>
+            <choice name="0">
+              <soundset name="GermanFemplorerRevived">
+              </soundset>
+            </choice>
+            <choice name="3">
+              <soundset name="GermanFemplorerRevived">
+              </soundset>
+            </choice>
+          </skinlogic>
+        </choice>
+        <choice name="Dutch">
+          <skinlogic>
+            <choice name="none">
+              <soundset name="DutchExplorerRevived">
+              </soundset>
+            </choice>
+          </skinlogic>
+        </choice>
+        <choice name="DESwedish">
+          <skinlogic>
+            <choice name="none">
+              <soundset name="DESwedishExplorerRevived">
+              </soundset>
+            </choice>
+            <choice name="0">
+              <soundset name="SwedishFemplorerRevived">
+              </soundset>
+            </choice>
+            <choice name="2">
+              <soundset name="ThorRevived">
+              </soundset>
+            </choice>
+          </skinlogic>
+        </choice>
+        <choice name="Pirate">
+          <soundset name="BritishExplorerRevived">
+          </soundset>
+        </choice>
+        <choice name="DEItalians">
+          <skinlogic>
+            <choice name="none">
+              <soundset name="DEItalianExplorerRevived">
+              </soundset>
+            </choice>
+            <choice name="1">
+              <soundset name="ItalianFemplorerRevived">
+              </soundset>
+            </choice>
+            <choice name="2">
+              <soundset name="ItalianFemplorerRevived">
+              </soundset>
+            </choice>
+            <choice name="3">
+              <soundset name="CenturionAcknowledge">
+              </soundset>
+            </choice>
+          </skinlogic>
+        </choice>
+      </civlogic>
+    </soundtype>
+    <soundtype name="Ransomed">
+      <civlogic>
+        <choice name="Nature">
+        </choice>
+        <choice name="French">
+          <skinlogic>
+            <choice name="none">
+              <soundset name="FrenchExplorerRansomed">
+              </soundset>
+            </choice>
+            <choice name="1">
+              <soundset name="FrenchFemplorerRansomed">
+              </soundset>
+            </choice>
+            <choice name="3">
+              <soundset name="FrenchFemplorerRansomed">
+              </soundset>
+            </choice>
+          </skinlogic>
+        </choice>
+        <choice name="British">
+          <skinlogic>
+            <choice name="none">
+              <soundset name="BritishExplorerRansomed">
+              </soundset>
+            </choice>
+            <choice name="0">
+              <soundset name="ElizabetRamseySelect">
+              </soundset>
+            </choice>
+            <choice name="1">
+              <soundset name="BritishFemplorerRansomed">
+              </soundset>
+            </choice>
+            <choice name="2">
+              <soundset name="WarwickRevive">
+              </soundset>
+            </choice>
+          </skinlogic>
+        </choice>
+        <choice name="Russians">
+          <skinlogic>
+            <choice name="none">
+              <soundset name="RussianExplorerRansomed">
+              </soundset>
+            </choice>
+            <choice name="2">
+              <soundset name="BearSelect">
+              </soundset>
+            </choice>
+          </skinlogic>
+        </choice>
+        <choice name="Spanish">
+          <skinlogic>
+            <choice name="none">
+              <soundset name="SpanishExplorerRansomed">
+              </soundset>
+            </choice>
+            <choice name="0">
+              <soundset name="SpanishFemplorerRansomed">
+              </soundset>
+            </choice>
+            <choice name="1">
+              <soundset name="SpanishFemplorerRansomed">
+              </soundset>
+            </choice>
+            <choice name="2">
+              <soundset name="DelgadoRevive">
+              </soundset>
+            </choice>
+          </skinlogic>
+        </choice>
+        <choice name="Ottomans">
+          <skinlogic>
+            <choice name="none">
+              <soundset name="OttomanExplorerRansomed">
+              </soundset>
+            </choice>
+            <choice name="0">
+              <soundset name="SahinSelect">
+              </soundset>
+            </choice>
+          </skinlogic>
+        </choice>
+        <choice name="Portuguese">
+          <skinlogic>
+            <choice name="none">
+              <soundset name="PortugueseExplorerRansomed">
+              </soundset>
+            </choice>
+            <choice name="0">
+              <soundset name="PortugueseFemplorerRansomed">
+              </soundset>
+            </choice>
+          </skinlogic>
+        </choice>
+        <choice name="Germans">
+          <skinlogic>
+            <choice name="none">
+              <soundset name="GermanExplorerRansomed">
+              </soundset>
+            </choice>
+            <choice name="0">
+              <soundset name="GermanFemplorerRansomed">
+              </soundset>
+            </choice>
+            <choice name="3">
+              <soundset name="GermanFemplorerRansomed">
+              </soundset>
+            </choice>
+          </skinlogic>
+        </choice>
+        <choice name="Dutch">
+          <skinlogic>
+            <choice name="none">
+              <soundset name="DutchExplorerRansomed">
+              </soundset>
+            </choice>
+          </skinlogic>
+        </choice>
+        <choice name="DESwedish">
+          <skinlogic>
+            <choice name="none">
+              <soundset name="DESwedishExplorerRansomed">
+              </soundset>
+            </choice>
+            <choice name="0">
+              <soundset name="SwedishFemplorerRansomed">
+              </soundset>
+            </choice>
+            <choice name="2">
+              <soundset name="ThorRansomed">
+              </soundset>
+            </choice>
+          </skinlogic>
+        </choice>
+        <choice name="Pirate">
+          <soundset name="BritishExplorerRansomed">
+          </soundset>
+        </choice>
+        <choice name="DEItalians">
+          <skinlogic>
+            <choice name="none">
+              <soundset name="DEItalianExplorerRansomed">
+              </soundset>
+            </choice>
+            <choice name="1">
+              <soundset name="ItalianFemplorerRansomed">
+              </soundset>
+            </choice>
+            <choice name="2">
+              <soundset name="ItalianFemplorerRansomed">
+              </soundset>
+            </choice>
+            <choice name="3">
+              <soundset name="CenturionSelect">
+              </soundset>
+            </choice>
+          </skinlogic>
+        </choice>
+      </civlogic>
+    </soundtype>
+  </protounit>
+</protounitsounddef>

@@ -1,0 +1,92 @@
+<protounitsounddef>
+  <protounit name="deSPCMilitiaOfficer">
+    <soundtype name="Select">
+      <techlogic>
+        <choice name="none">
+          <soundset name="BritishExplorerSelect">
+          </soundset>
+        </choice>
+        <choice name="DESPCMilitiaOfficerUSShadow">
+          <soundset name="DEAmericanGeneralSelect">
+          </soundset>
+        </choice>
+      </techlogic>
+    </soundtype>
+    <soundtype name="Grunt">
+      <soundset name="GenericMaleGrunt">
+      </soundset>
+    </soundtype>
+    <soundtype name="Death">
+      <soundset name="GenericMaleDeath">
+      </soundset>
+    </soundtype>
+    <soundtype name="Creation">
+      <soundset name="MilitaryBirth">
+      </soundset>
+    </soundtype>
+    <soundtype name="Acknowledge">
+      <targetlogic>
+        <choice name="default">
+          <techlogic>
+            <choice name="none">
+              <soundset name="BritishExplorerAcknowledge">
+              </soundset>
+            </choice>
+            <choice name="DESPCMilitiaOfficerUSShadow">
+              <soundset name="DEAmericanGeneralAcknowledge">
+              </soundset>
+            </choice>
+          </techlogic>
+        </choice>
+        <choice name="enemy">
+          <techlogic>
+            <choice name="none">
+              <soundset name="BritishExplorerAttack">
+              </soundset>
+            </choice>
+            <choice name="DESPCMilitiaOfficerUSShadow">
+              <soundset name="DEAmericanGeneralAttack">
+              </soundset>
+            </choice>
+          </techlogic>
+        </choice>
+      </targetlogic>
+    </soundtype>
+    <soundtype name="KnockOut">
+      <techlogic>
+        <choice name="none">
+          <soundset name="BritishExplorerDisabled">
+          </soundset>
+        </choice>
+        <choice name="DESPCMilitiaOfficerUSShadow">
+          <soundset name="DEAmericanGeneralDisabled">
+          </soundset>
+        </choice>
+      </techlogic>
+    </soundtype>
+    <soundtype name="KnockOutRevived">
+      <techlogic>
+        <choice name="none">
+          <soundset name="BritishExplorerRevived">
+          </soundset>
+        </choice>
+        <choice name="DESPCMilitiaOfficerUSShadow">
+          <soundset name="DEAmericanGeneralRevived">
+          </soundset>
+        </choice>
+      </techlogic>
+    </soundtype>
+    <soundtype name="Ransomed">
+      <techlogic>
+        <choice name="none">
+          <soundset name="BritishExplorerRansomed">
+          </soundset>
+        </choice>
+        <choice name="DESPCMilitiaOfficerUSShadow">
+          <soundset name="DEAmericanGeneralRansomed">
+          </soundset>
+        </choice>
+      </techlogic>
+    </soundtype>
+  </protounit>
+</protounitsounddef>

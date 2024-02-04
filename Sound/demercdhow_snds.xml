@@ -1,0 +1,36 @@
+<protounitsounddef>
+  <protounit name="deMercDhow">
+    <soundtype name="Acknowledge">
+      <targetlogic>
+        <choice name="default">
+          <soundset name="DEArabMilitaryMove">
+          </soundset>
+        </choice>
+        <choice name="enemy">
+          <soundset name="DEArabMilitaryAttack">
+          </soundset>
+        </choice>
+      </targetlogic>
+    </soundtype>
+    <soundtype name="Move">
+      <soundset name="DEArabMilitaryMove">
+      </soundset>
+    </soundtype>
+    <soundtype name="Select">
+      <soundset name="DEArabMilitarySelect">
+      </soundset>
+    </soundtype>
+    <soundtype name="Death">
+      <soundset name="ShipDeath">
+      </soundset>
+    </soundtype>
+    <soundtype name="Creation">
+      <soundset name="ShipBirth">
+      </soundset>
+    </soundtype>
+    <soundtype name="Exists">
+      <soundset name="AmbienceShip">
+      </soundset>
+    </soundtype>
+  </protounit>
+</protounitsounddef>

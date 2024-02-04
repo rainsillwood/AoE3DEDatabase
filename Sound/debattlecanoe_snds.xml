@@ -1,0 +1,48 @@
+<protounitsounddef>
+  <protounit name="deBattleCanoe">
+    <soundtype name="Acknowledge">
+      <civlogic>
+        <choice name="DEHausa">
+          <targetlogic>
+            <choice name="default">
+              <soundset name="DEHausaBattleCanoeAcknowledge">
+              </soundset>
+            </choice>
+          </targetlogic>
+        </choice>
+        <choice name="DEEthiopians">
+          <targetlogic>
+            <choice name="default">
+              <soundset name="DEEthiopianBattleCanoeAcknowledge">
+              </soundset>
+            </choice>
+          </targetlogic>
+        </choice>
+      </civlogic>
+    </soundtype>
+    <soundtype name="Select">
+      <civlogic>
+        <choice name="DEHausa">
+          <soundset name="DEHausaBattleCanoeSelect">
+          </soundset>
+        </choice>
+        <choice name="DEEthiopians">
+          <soundset name="DEEthiopianBattleCanoeSelect">
+          </soundset>
+        </choice>
+      </civlogic>
+    </soundtype>
+    <soundtype name="Death">
+      <soundset name="ShipDeath">
+      </soundset>
+    </soundtype>
+    <soundtype name="Creation">
+      <soundset name="ShipBirth">
+      </soundset>
+    </soundtype>
+    <soundtype name="Exists">
+      <soundset name="AmbienceShip">
+      </soundset>
+    </soundtype>
+  </protounit>
+</protounitsounddef>

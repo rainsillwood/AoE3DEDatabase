@@ -1,0 +1,166 @@
+<protounitsounddef>
+  <protounit name="TownCenter">
+    <soundtype name="Select">
+      <soundset name="UI_Building_Economic">
+      </soundset>
+    </soundtype>
+    <soundtype name="SelectSecondary">
+      <soundset name="UI_Select_Building_TownCenter">
+      </soundset>
+    </soundtype>
+    <soundtype name="Grunt">
+      <civlogic>
+        <choice name="Nature">
+        </choice>
+        <choice name="Spanish">
+          <soundset name="GlassBreak">
+          </soundset>
+        </choice>
+        <choice name="British">
+          <soundset name="GlassBreak">
+          </soundset>
+        </choice>
+        <choice name="French">
+          <soundset name="GlassBreak">
+          </soundset>
+        </choice>
+        <choice name="Portuguese">
+          <soundset name="GlassBreak">
+          </soundset>
+        </choice>
+        <choice name="Dutch">
+          <soundset name="GlassBreak">
+          </soundset>
+        </choice>
+        <choice name="Russians">
+          <soundset name="GlassBreak">
+          </soundset>
+        </choice>
+        <choice name="Germans">
+          <soundset name="GlassBreak">
+          </soundset>
+        </choice>
+        <choice name="Ottomans">
+          <soundset name="GlassBreak">
+          </soundset>
+        </choice>
+        <choice name="SPCAct1">
+          <soundset name="GlassBreak">
+          </soundset>
+        </choice>
+        <choice name="SPCAct2">
+          <soundset name="GlassBreak">
+          </soundset>
+        </choice>
+        <choice name="SPCAct3">
+          <soundset name="GlassBreak">
+          </soundset>
+        </choice>
+        <choice name="Pirate">
+          <soundset name="GlassBreak">
+          </soundset>
+        </choice>
+        <choice name="TheCircle">
+          <soundset name="GlassBreak">
+          </soundset>
+        </choice>
+        <choice name="NativeAmerican">
+        </choice>
+        <choice name="XPIroquois">
+        </choice>
+        <choice name="XPSioux">
+        </choice>
+        <choice name="XPAztec">
+        </choice>
+        <choice name="XPSPC">
+        </choice>
+        <choice name="Aztecs">
+        </choice>
+        <choice name="Caribs">
+        </choice>
+        <choice name="Cherokee">
+        </choice>
+        <choice name="Comanche">
+        </choice>
+        <choice name="Cree">
+        </choice>
+        <choice name="Incas">
+        </choice>
+        <choice name="Iroquois">
+        </choice>
+        <choice name="Lakota">
+        </choice>
+        <choice name="Maya">
+        </choice>
+        <choice name="Nootka">
+        </choice>
+        <choice name="Seminoles">
+        </choice>
+        <choice name="Tupi">
+        </choice>
+        <choice name="Zapotec">
+        </choice>
+        <choice name="Huron">
+        </choice>
+        <choice name="Cheyenne">
+        </choice>
+        <choice name="Klamath">
+        </choice>
+        <choice name="Mapuche">
+        </choice>
+        <choice name="Navajo">
+        </choice>
+        <choice name="Apache">
+        </choice>
+      </civlogic>
+    </soundtype>
+    <soundtype name="Death">
+      <soundset name="BuildingDestruction">
+      </soundset>
+    </soundtype>
+    <soundtype name="Creation">
+      <soundset name="UI_Select_Building_TownCenter">
+      </soundset>
+    </soundtype>
+    <soundtype name="Exists">
+      <soundset name="AmbienceTownCenterDinSmall">
+      </soundset>
+    </soundtype>
+    <soundtype name="ExistsAge1">
+      <soundset name="AmbienceTownCenterDinMedium">
+      </soundset>
+    </soundtype>
+    <soundtype name="ExistsAge2">
+      <soundset name="AmbienceTownCenterDinMedium">
+      </soundset>
+    </soundtype>
+    <soundtype name="ExistsAge3">
+      <soundset name="AmbienceTownCenterDinLarge">
+      </soundset>
+    </soundtype>
+    <soundtype name="ExistsAge4">
+      <soundset name="AmbienceTownCenterDinLarge">
+      </soundset>
+    </soundtype>
+    <soundtype name="Panic">
+      <soundset name="AmbienceTownCenterDinSmallPanic">
+      </soundset>
+    </soundtype>
+    <soundtype name="PanicAge1">
+      <soundset name="AmbienceTownCenterDinMediumPanic">
+      </soundset>
+    </soundtype>
+    <soundtype name="PanicAge2">
+      <soundset name="AmbienceTownCenterDinMediumPanic">
+      </soundset>
+    </soundtype>
+    <soundtype name="PanicAge3">
+      <soundset name="AmbienceTownCenterDinLargePanic">
+      </soundset>
+    </soundtype>
+    <soundtype name="PanicAge4">
+      <soundset name="AmbienceTownCenterDinLargePanic">
+      </soundset>
+    </soundtype>
+  </protounit>
+</protounitsounddef>

@@ -1,0 +1,116 @@
+<protounitsounddef>
+  <protounit name="deIncaWarChief">
+    <soundtype name="Select">
+      <skinlogic>
+        <choice name="none">
+          <soundset name="DEIncaWarChiefSelect">
+          </soundset>
+        </choice>
+        <choice name="2">
+          <soundset name="IncaWarladySelect">
+          </soundset>
+        </choice>
+        <choice name="3">
+          <soundset name="IncaWarladySelect">
+          </soundset>
+        </choice>
+      </skinlogic>
+    </soundtype>
+    <soundtype name="Grunt">
+      <skinlogic>
+        <choice name="none">
+          <soundset name="GenericMaleGrunt">
+          </soundset>
+        </choice>
+        <choice name="2">
+          <soundset name="GenericFemaleGrunt">
+          </soundset>
+        </choice>
+        <choice name="3">
+          <soundset name="GenericFemaleGrunt">
+          </soundset>
+        </choice>
+      </skinlogic>
+    </soundtype>
+    <soundtype name="Death">
+      <skinlogic>
+        <choice name="none">
+          <soundset name="GenericMaleDeath">
+          </soundset>
+        </choice>
+        <choice name="2">
+          <soundset name="GenericFemaleDeath">
+          </soundset>
+        </choice>
+        <choice name="3">
+          <soundset name="GenericFemaleDeath">
+          </soundset>
+        </choice>
+      </skinlogic>
+    </soundtype>
+    <soundtype name="Creation">
+      <soundset name="WarChiefBirth">
+      </soundset>
+    </soundtype>
+    <soundtype name="Acknowledge">
+      <skinlogic>
+        <choice name="none">
+          <targetlogic>
+            <choice name="default">
+              <soundset name="DEIncaWarChiefAcknowledge">
+              </soundset>
+            </choice>
+            <choice name="enemy">
+              <soundset name="DEIncaWarChiefAttack">
+              </soundset>
+            </choice>
+            <choice name="build">
+              <soundset name="DEIncaWarChiefAcknowledge">
+              </soundset>
+            </choice>
+          </targetlogic>
+        </choice>
+        <choice name="2">
+          <targetlogic>
+            <choice name="default">
+              <soundset name="IncaWarladyAcknowledge">
+              </soundset>
+            </choice>
+            <choice name="enemy">
+              <soundset name="IncaWarladyAttack">
+              </soundset>
+            </choice>
+            <choice name="build">
+              <soundset name="IncaWarladyAcknowledge">
+              </soundset>
+            </choice>
+          </targetlogic>
+        </choice>
+        <choice name="3">
+          <targetlogic>
+            <choice name="default">
+              <soundset name="IncaWarladyAcknowledge">
+              </soundset>
+            </choice>
+            <choice name="enemy">
+              <soundset name="IncaWarladyAttack">
+              </soundset>
+            </choice>
+            <choice name="build">
+              <soundset name="IncaWarladyAcknowledge">
+              </soundset>
+            </choice>
+          </targetlogic>
+        </choice>
+      </skinlogic>
+    </soundtype>
+    <soundtype name="KnockOutRevived">
+      <soundset name="WarChiefBirth">
+      </soundset>
+    </soundtype>
+    <soundtype name="Ransomed">
+      <soundset name="WarChiefBirth">
+      </soundset>
+    </soundtype>
+  </protounit>
+</protounitsounddef>

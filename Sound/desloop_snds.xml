@@ -1,0 +1,56 @@
+<protounitsounddef>
+  <protounit name="deSloop">
+    <soundtype name="Select">
+      <civlogic>
+        <choice name="DEAmericans">
+          <soundset name="DEAmericanSloopSelect">
+          </soundset>
+        </choice>
+        <choice name="DEMexicans">
+          <techlogic>
+            <choice name="none">
+              <soundset name="DEMexicanSloopSelect">
+              </soundset>
+            </choice>
+            <choice name="DEHCREVMXTexasNavy">
+              <soundset name="DEAmericanSloopSelect">
+              </soundset>
+            </choice>
+          </techlogic>
+        </choice>
+      </civlogic>
+    </soundtype>
+    <soundtype name="Death">
+      <soundset name="ShipDeath">
+      </soundset>
+    </soundtype>
+    <soundtype name="Creation">
+      <soundset name="ShipBirth">
+      </soundset>
+    </soundtype>
+    <soundtype name="Acknowledge">
+      <civlogic>
+        <choice name="DEAmericans">
+          <soundset name="DEAmericanSloopAcknowledge">
+          </soundset>
+        </choice>
+        <choice name="DEMexicans">
+          <techlogic>
+            <choice name="none">
+              <soundset name="DEMexicanSloopAcknowledge">
+              </soundset>
+            </choice>
+            <choice name="DEHCREVMXTexasNavy">
+              <soundset name="DEAmericanSloopAcknowledge">
+              </soundset>
+            </choice>
+          </techlogic>
+        </choice>
+      </civlogic>
+    </soundtype>
+    <soundtype name="Exists">
+      <soundset name="AmbienceShip">
+      </soundset>
+    </soundtype>
+  </protounit>
+</protounitsounddef>

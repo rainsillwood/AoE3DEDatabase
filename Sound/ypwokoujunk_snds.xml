@@ -1,0 +1,82 @@
+<protounitsounddef>
+  <protounit name="ypWokouJunk">
+    <soundtype name="Death">
+      <soundset name="ShipDeath">
+      </soundset>
+    </soundtype>
+    <soundtype name="Creation">
+      <soundset name="ShipBirth">
+      </soundset>
+    </soundtype>
+    <soundtype name="Select">
+      <techlogic>
+        <choice name="none">
+          <soundset name="JapanesePirateSelect">
+          </soundset>
+        </choice>
+        <choice name="deage0americans">
+          <soundset name="SpanishMonitorSelect">
+          </soundset>
+        </choice>
+        <choice name="derevolutionmxcalifornia">
+          <soundset name="SpanishMonitorSelect">
+          </soundset>
+        </choice>
+      </techlogic>
+    </soundtype>
+    <soundtype name="Acknowledge">
+      <targetlogic>
+        <choice name="default">
+          <techlogic>
+            <choice name="none">
+              <soundset name="JapanesePirateAcknowledge">
+              </soundset>
+            </choice>
+            <choice name="deage0americans">
+              <soundset name="SpanishMonitorAcknowledge">
+              </soundset>
+            </choice>
+            <choice name="derevolutionmxcalifornia">
+              <soundset name="SpanishMonitorAcknowledge">
+              </soundset>
+            </choice>
+          </techlogic>
+        </choice>
+        <choice name="enemy">
+          <techlogic>
+            <choice name="none">
+              <soundset name="JapanesePirateAttack">
+              </soundset>
+            </choice>
+            <choice name="deage0americans">
+              <soundset name="SpanishMonitorAcknowledge">
+              </soundset>
+            </choice>
+            <choice name="derevolutionmxcalifornia">
+              <soundset name="SpanishMonitorAcknowledge">
+              </soundset>
+            </choice>
+          </techlogic>
+        </choice>
+        <choice name="build">
+        </choice>
+        <choice name="Huntable">
+        </choice>
+        <choice name="Tree">
+        </choice>
+        <choice name="AbstractMine">
+        </choice>
+        <choice name="AbstractFarm">
+        </choice>
+        <choice name="AbstractResourceCrate">
+        </choice>
+        <choice name="AbstractFruit">
+        </choice>
+      </targetlogic>
+    </soundtype>
+    <soundtype name="Exists">
+      <soundset name="AmbienceShip">
+      </soundset>
+    </soundtype>
+  </protounit>
+</protounitsounddef>

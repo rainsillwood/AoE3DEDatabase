@@ -1,0 +1,292 @@
+<protounitsounddef>
+  <protounit name="FishingBoat">
+    <soundtype name="Select">
+      <civlogic>
+        <choice name="Nature">
+        </choice>
+        <choice name="Spanish">
+          <soundset name="SpanishFishingBoatSelect">
+          </soundset>
+        </choice>
+        <choice name="British">
+          <soundset name="BritishFishingBoatSelect">
+          </soundset>
+        </choice>
+        <choice name="French">
+          <soundset name="FrenchFishingBoatSelect">
+          </soundset>
+        </choice>
+        <choice name="Portuguese">
+          <soundset name="PortugueseFishingBoatSelect">
+          </soundset>
+        </choice>
+        <choice name="Dutch">
+          <soundset name="DutchFishingShipSelect">
+          </soundset>
+        </choice>
+        <choice name="Russians">
+          <soundset name="RussianFishingShipSelect">
+          </soundset>
+        </choice>
+        <choice name="Germans">
+          <soundset name="GermanFishingShipSelect">
+          </soundset>
+        </choice>
+        <choice name="Ottomans">
+          <soundset name="OttomanFishingBoatSelect">
+          </soundset>
+        </choice>
+        <choice name="SPCAct1">
+          <soundset name="BritishFishingBoatSelect">
+          </soundset>
+        </choice>
+        <choice name="SPCAct2">
+          <soundset name="BritishFishingBoatSelect">
+          </soundset>
+        </choice>
+        <choice name="SPCAct3">
+          <soundset name="BritishFishingBoatSelect">
+          </soundset>
+        </choice>
+        <choice name="Aztecs">
+        </choice>
+        <choice name="Caribs">
+        </choice>
+        <choice name="Cherokee">
+        </choice>
+        <choice name="Comanche">
+        </choice>
+        <choice name="Cree">
+        </choice>
+        <choice name="Incas">
+        </choice>
+        <choice name="Iroquois">
+        </choice>
+        <choice name="Lakota">
+        </choice>
+        <choice name="Maya">
+        </choice>
+        <choice name="Nootka">
+        </choice>
+        <choice name="Seminoles">
+        </choice>
+        <choice name="Tupi">
+        </choice>
+        <choice name="XPAztec">
+          <soundset name="AztecFishingBoatSelect">
+          </soundset>
+        </choice>
+        <choice name="XPIroquois">
+          <soundset name="IroquoisFishingBoatSelect">
+          </soundset>
+        </choice>
+        <choice name="XPSioux">
+          <soundset name="SiouxFishingBoatSelect">
+          </soundset>
+        </choice>
+        <choice name="XPSPC">
+          <soundset name="SPCAmericanSelect">
+          </soundset>
+        </choice>
+        <choice name="XPSPCFalcon">
+          <soundset name="SPCAmericanSelect">
+          </soundset>
+        </choice>
+        <choice name="XPSPCLakota">
+          <soundset name="SiouxFishingBoatSelect">
+          </soundset>
+        </choice>
+        <choice name="DEInca">
+          <soundset name="DEIncaFishingBoatSelect">
+          </soundset>
+        </choice>
+        <choice name="SPCBarbaryPirates">
+          <soundset name="OttomanFishingBoatSelect">
+          </soundset>
+        </choice>
+        <choice name="DESwedish">
+          <soundset name="DESwedishFishingBoatSelect">
+          </soundset>
+        </choice>
+        <choice name="DEAmericans">
+          <soundset name="DEAmericanFishingBoatSelect">
+          </soundset>
+        </choice>
+        <choice name="Pirate">
+          <soundset name="BritishFishingBoatSelect">
+          </soundset>
+        </choice>
+        <choice name="DEMexicans">
+          <techlogic>
+            <choice name="none">
+              <soundset name="DEMexicanFishingBoatSelect">
+              </soundset>
+            </choice>
+            <choice name="DEHCREVMXEmpresarioContracts">
+              <soundset name="DEAmericanFishingBoatSelect">
+              </soundset>
+            </choice>
+          </techlogic>
+        </choice>
+        <choice name="DEItalians">
+          <soundset name="DEItalianFishingBoatSelect">
+          </soundset>
+        </choice>
+        <choice name="DEMaltese">
+          <soundset name="DEMalteseFishingBoatSelect">
+          </soundset>
+        </choice>
+      </civlogic>
+    </soundtype>
+    <soundtype name="Death">
+      <soundset name="ShipDeath">
+      </soundset>
+    </soundtype>
+    <soundtype name="Creation">
+      <soundset name="ShipBirth">
+      </soundset>
+    </soundtype>
+    <soundtype name="Acknowledge">
+      <civlogic>
+        <choice name="Nature">
+        </choice>
+        <choice name="Spanish">
+          <soundset name="SpanishFishingBoatAcknowledge">
+          </soundset>
+        </choice>
+        <choice name="British">
+          <soundset name="BritishFishingBoatAcknowledge">
+          </soundset>
+        </choice>
+        <choice name="French">
+          <soundset name="FrenchFishingBoatAcknowledge">
+          </soundset>
+        </choice>
+        <choice name="Portuguese">
+          <soundset name="PortugueseFishingBoatAcknowledge">
+          </soundset>
+        </choice>
+        <choice name="Dutch">
+          <soundset name="DutchFishingShipAcknowledge">
+          </soundset>
+        </choice>
+        <choice name="Russians">
+          <soundset name="RussianFishingShipAcknowledge">
+          </soundset>
+        </choice>
+        <choice name="Germans">
+          <soundset name="GermanFishingShipAcknowledge">
+          </soundset>
+        </choice>
+        <choice name="Ottomans">
+          <soundset name="OttomanFishingBoatAcknowledge">
+          </soundset>
+        </choice>
+        <choice name="SPCAct1">
+          <soundset name="BritishFishingBoatAcknowledge">
+          </soundset>
+        </choice>
+        <choice name="SPCAct2">
+          <soundset name="BritishFishingBoatAcknowledge">
+          </soundset>
+        </choice>
+        <choice name="SPCAct3">
+          <soundset name="BritishFishingBoatAcknowledge">
+          </soundset>
+        </choice>
+        <choice name="Aztecs">
+        </choice>
+        <choice name="Caribs">
+        </choice>
+        <choice name="Cherokee">
+        </choice>
+        <choice name="Comanche">
+        </choice>
+        <choice name="Cree">
+        </choice>
+        <choice name="Incas">
+        </choice>
+        <choice name="Iroquois">
+        </choice>
+        <choice name="Lakota">
+        </choice>
+        <choice name="Maya">
+        </choice>
+        <choice name="Nootka">
+        </choice>
+        <choice name="Seminoles">
+        </choice>
+        <choice name="Tupi">
+        </choice>
+        <choice name="XPAztec">
+          <soundset name="AztecFishingBoatAcknowledge">
+          </soundset>
+        </choice>
+        <choice name="XPIroquois">
+          <soundset name="IroquoisFishingBoatAcknowledge">
+          </soundset>
+        </choice>
+        <choice name="XPSioux">
+          <soundset name="SiouxFishingBoatAcknowledge">
+          </soundset>
+        </choice>
+        <choice name="XPSPC">
+          <soundset name="SPCAmericanBoatAcknowledge">
+          </soundset>
+        </choice>
+        <choice name="XPSPCFalcon">
+          <soundset name="SPCAmericanBoatAcknowledge">
+          </soundset>
+        </choice>
+        <choice name="XPSPCLakota">
+          <soundset name="SiouxFishingBoatAcknowledge">
+          </soundset>
+        </choice>
+        <choice name="DEInca">
+          <soundset name="DEIncaFishingBoatAcknowledge">
+          </soundset>
+        </choice>
+        <choice name="SPCBarbaryPirates">
+          <soundset name="OttomanFishingBoatAcknowledge">
+          </soundset>
+        </choice>
+        <choice name="DESwedish">
+          <soundset name="DESwedishFishingBoatAcknowledge">
+          </soundset>
+        </choice>
+        <choice name="DEAmericans">
+          <soundset name="DEAmericanFishingBoatAcknowledge">
+          </soundset>
+        </choice>
+        <choice name="Pirate">
+          <soundset name="BritishFishingBoatAcknowledge">
+          </soundset>
+        </choice>
+        <choice name="DEMexicans">
+          <techlogic>
+            <choice name="none">
+              <soundset name="DEMexicanFishingBoatAcknowledge">
+              </soundset>
+            </choice>
+            <choice name="DEHCREVMXEmpresarioContracts">
+              <soundset name="DEAmericanFishingBoatAcknowledge">
+              </soundset>
+            </choice>
+          </techlogic>
+        </choice>
+        <choice name="DEItalians">
+          <soundset name="DEItalianFishingBoatAcknowledge">
+          </soundset>
+        </choice>
+        <choice name="DEMaltese">
+          <soundset name="DEMalteseFishingBoatAcknowledge">
+          </soundset>
+        </choice>
+      </civlogic>
+    </soundtype>
+    <soundtype name="Exists">
+      <soundset name="AmbienceShip">
+      </soundset>
+    </soundtype>
+  </protounit>
+</protounitsounddef>

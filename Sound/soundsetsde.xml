@@ -5079,6 +5079,14 @@
     <sound filename="ui\toysoldiersarrival.wav" volume="1.0000">
     </sound>
   </soundset>
+  <soundset name="BritishGrenadiersArrival" volume="0.7500" maxnum="1" distance="1.0000">
+    <sound filename="ui\britishgrenadiersarrival.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MarvelousYearArrival" volume="0.7500" maxnum="1" distance="1.0000">
+    <sound filename="ui\marvelousyeararrival.wav" volume="1.0000">
+    </sound>
+  </soundset>
   <soundset name="CenturionSelect" volume="0.8000" maxnum="4" distance="1.0000">
     <sound filename="DE\CenturionSelect1.wav" volume="0.8000">
     </sound>
@@ -5101,6 +5109,32 @@
     <sound filename="DE\CenturionAttack2.wav" volume="0.8000">
     </sound>
     <sound filename="DE\CenturionAttack3.wav" volume="0.8000">
+    </sound>
+  </soundset>
+  <soundset name="DEGeorgianMilitaryAttack" maxnum="4" distance="1.0000">
+    <sound filename="DE\GeorgianMilitaryAttack1.wav" volume="1.0000">
+    </sound>
+    <sound filename="DE\GeorgianMilitaryAttack2.wav" volume="1.0000">
+    </sound>
+    <sound filename="DE\GeorgianMilitaryAttack3.wav" volume="1.0000">
+    </sound>
+    <sound filename="DE\GeorgianMilitaryAttack4.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="DEGeorgianMilitaryMove" maxnum="4" distance="1.0000">
+    <sound filename="DE\GeorgianMilitaryMove1.wav" volume="1.0000">
+    </sound>
+    <sound filename="DE\GeorgianMilitaryMove2.wav" volume="1.0000">
+    </sound>
+    <sound filename="DE\GeorgianMilitaryMove3.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="DEGeorgianMilitarySelect" maxnum="4" distance="1.0000">
+    <sound filename="DE\GeorgianMilitarySelect1.wav" volume="1.0000">
+    </sound>
+    <sound filename="DE\GeorgianMilitarySelect2.wav" volume="1.0000">
+    </sound>
+    <sound filename="DE\GeorgianMilitarySelect3.wav" volume="1.0000">
     </sound>
   </soundset>
 </soundsetdef>

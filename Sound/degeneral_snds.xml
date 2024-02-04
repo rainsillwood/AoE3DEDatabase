@@ -1,0 +1,416 @@
+<protounitsounddef>
+  <protounit name="deGeneral">
+    <soundtype name="Select">
+      <civlogic>
+        <choice name="none">
+          <soundset name="DEAmericanGeneralSelect">
+          </soundset>
+        </choice>
+        <choice name="DEAmericans">
+          <skinlogic>
+            <choice name="none">
+              <soundset name="DEAmericanGeneralSelect">
+              </soundset>
+            </choice>
+            <choice name="1">
+              <soundset name="DEAstronautGeneralSelect">
+              </soundset>
+            </choice>
+            <choice name="2">
+              <soundset name="AmeliaBlackSelect">
+              </soundset>
+            </choice>
+          </skinlogic>
+        </choice>
+        <choice name="DEMexicans">
+          <skinlogic>
+            <choice name="none">
+              <techlogic>
+                <choice name="none">
+                  <soundset name="DEMexicanGeneralSelect">
+                  </soundset>
+                </choice>
+                <choice name="DERevolutionMXBajaCalifornia">
+                  <soundset name="DEAmericanGeneralSelect">
+                  </soundset>
+                </choice>
+                <choice name="DERevolutionMXCalifornia">
+                  <soundset name="DEAmericanGeneralSelect">
+                  </soundset>
+                </choice>
+                <choice name="DERevolutionMXTexas">
+                  <soundset name="DEAmericanGeneralSelect">
+                  </soundset>
+                </choice>
+                <choice name="DEReturnMXBajaCalifornia">
+                  <soundset name="DEMexicanGeneralSelect">
+                  </soundset>
+                </choice>
+              </techlogic>
+            </choice>
+            <choice name="2">
+              <soundset name="MexicanFemeralSelect">
+              </soundset>
+            </choice>
+            <choice name="3">
+              <soundset name="MexicanFemeralSelect">
+              </soundset>
+            </choice>
+          </skinlogic>
+        </choice>
+      </civlogic>
+    </soundtype>
+    <soundtype name="Grunt">
+      <skinlogic>
+        <choice name="none">
+          <soundset name="GenericMaleGrunt">
+          </soundset>
+        </choice>
+        <choice name="2">
+          <soundset name="GenericFemaleGrunt">
+          </soundset>
+        </choice>
+        <choice name="3">
+          <soundset name="GenericFemaleGrunt">
+          </soundset>
+        </choice>
+      </skinlogic>
+    </soundtype>
+    <soundtype name="Death">
+      <skinlogic>
+        <choice name="none">
+          <soundset name="GenericMaleDeath">
+          </soundset>
+        </choice>
+        <choice name="2">
+          <soundset name="GenericFemaleDeath">
+          </soundset>
+        </choice>
+        <choice name="3">
+          <soundset name="GenericFemaleDeath">
+          </soundset>
+        </choice>
+      </skinlogic>
+    </soundtype>
+    <soundtype name="Creation">
+      <soundset name="MilitaryBirth">
+      </soundset>
+    </soundtype>
+    <soundtype name="Acknowledge">
+      <civlogic>
+        <choice name="none">
+          <targetlogic>
+            <choice name="default">
+              <soundset name="DEAmericanGeneralAcknowledge">
+              </soundset>
+            </choice>
+            <choice name="enemy">
+              <soundset name="DEAmericanGeneralAttack">
+              </soundset>
+            </choice>
+          </targetlogic>
+        </choice>
+        <choice name="DEAmericans">
+          <skinlogic>
+            <choice name="none">
+              <targetlogic>
+                <choice name="default">
+                  <soundset name="DEAmericanGeneralAcknowledge">
+                  </soundset>
+                </choice>
+                <choice name="enemy">
+                  <soundset name="DEAmericanGeneralAttack">
+                  </soundset>
+                </choice>
+              </targetlogic>
+            </choice>
+            <choice name="1">
+              <targetlogic>
+                <choice name="default">
+                  <soundset name="DEAstronautGeneralAcknowledge">
+                  </soundset>
+                </choice>
+                <choice name="enemy">
+                  <soundset name="DEAstronautGeneralAttack">
+                  </soundset>
+                </choice>
+              </targetlogic>
+            </choice>
+            <choice name="2">
+              <targetlogic>
+                <choice name="default">
+                  <soundset name="AmeliaBlackAcknowledge">
+                  </soundset>
+                </choice>
+                <choice name="enemy">
+                  <soundset name="AmeliaBlackAttack">
+                  </soundset>
+                </choice>
+              </targetlogic>
+            </choice>
+          </skinlogic>
+        </choice>
+        <choice name="DEMexicans">
+          <skinlogic>
+            <choice name="none">
+              <targetlogic>
+                <choice name="default">
+                  <techlogic>
+                    <choice name="none">
+                      <soundset name="DEMexicanGeneralAcknowledge">
+                      </soundset>
+                    </choice>
+                    <choice name="DERevolutionMXBajaCalifornia">
+                      <soundset name="DEAmericanGeneralAcknowledge">
+                      </soundset>
+                    </choice>
+                    <choice name="DERevolutionMXCalifornia">
+                      <soundset name="DEAmericanGeneralAcknowledge">
+                      </soundset>
+                    </choice>
+                    <choice name="DERevolutionMXTexas">
+                      <soundset name="DEAmericanGeneralAcknowledge">
+                      </soundset>
+                    </choice>
+                    <choice name="DEReturnMXBajaCalifornia">
+                      <soundset name="DEMexicanGeneralAcknowledge">
+                      </soundset>
+                    </choice>
+                  </techlogic>
+                </choice>
+                <choice name="enemy">
+                  <techlogic>
+                    <choice name="none">
+                      <soundset name="DEMexicanGeneralAttack">
+                      </soundset>
+                    </choice>
+                    <choice name="DERevolutionMXBajaCalifornia">
+                      <soundset name="DEAmericanGeneralAttack">
+                      </soundset>
+                    </choice>
+                    <choice name="DERevolutionMXCalifornia">
+                      <soundset name="DEAmericanGeneralAttack">
+                      </soundset>
+                    </choice>
+                    <choice name="DERevolutionMXTexas">
+                      <soundset name="DEAmericanGeneralAttack">
+                      </soundset>
+                    </choice>
+                    <choice name="DEReturnMXBajaCalifornia">
+                      <soundset name="DEMexicanGeneralAttack">
+                      </soundset>
+                    </choice>
+                  </techlogic>
+                </choice>
+              </targetlogic>
+            </choice>
+            <choice name="2">
+              <targetlogic>
+                <choice name="default">
+                  <soundset name="MexicanFemeralAcknowledge">
+                  </soundset>
+                </choice>
+                <choice name="enemy">
+                  <soundset name="MexicanFemeralAttack">
+                  </soundset>
+                </choice>
+              </targetlogic>
+            </choice>
+            <choice name="3">
+              <targetlogic>
+                <choice name="default">
+                  <soundset name="MexicanFemeralAcknowledge">
+                  </soundset>
+                </choice>
+                <choice name="enemy">
+                  <soundset name="MexicanFemeralAttack">
+                  </soundset>
+                </choice>
+              </targetlogic>
+            </choice>
+          </skinlogic>
+        </choice>
+      </civlogic>
+    </soundtype>
+    <soundtype name="KnockOut">
+      <civlogic>
+        <choice name="none">
+          <soundset name="DEAmericanGeneralDisabled">
+          </soundset>
+        </choice>
+        <choice name="DEAmericans">
+          <skinlogic>
+            <choice name="none">
+              <soundset name="DEAmericanGeneralDisabled">
+              </soundset>
+            </choice>
+            <choice name="1">
+              <soundset name="DEAstronautGeneralDisabled">
+              </soundset>
+            </choice>
+            <choice name="2">
+              <soundset name="AmeliaBlackDeath">
+              </soundset>
+            </choice>
+          </skinlogic>
+        </choice>
+        <choice name="DEMexicans">
+          <skinlogic>
+            <choice name="none">
+              <techlogic>
+                <choice name="none">
+                  <soundset name="GenericMaleDeath">
+                  </soundset>
+                </choice>
+                <choice name="DERevolutionMXBajaCalifornia">
+                  <soundset name="DEAmericanGeneralDisabled">
+                  </soundset>
+                </choice>
+                <choice name="DERevolutionMXCalifornia">
+                  <soundset name="DEAmericanGeneralDisabled">
+                  </soundset>
+                </choice>
+                <choice name="DERevolutionMXTexas">
+                  <soundset name="DEAmericanGeneralDisabled">
+                  </soundset>
+                </choice>
+                <choice name="DEReturnMXBajaCalifornia">
+                  <soundset name="GenericMaleDeath">
+                  </soundset>
+                </choice>
+              </techlogic>
+            </choice>
+            <choice name="2">
+              <soundset name="GenericFemaleDeath">
+              </soundset>
+            </choice>
+            <choice name="3">
+              <soundset name="GenericFemaleDeath">
+              </soundset>
+            </choice>
+          </skinlogic>
+        </choice>
+      </civlogic>
+    </soundtype>
+    <soundtype name="KnockOutRevived">
+      <civlogic>
+        <choice name="none">
+          <soundset name="DEAmericanGeneralRevived">
+          </soundset>
+        </choice>
+        <choice name="DEAmericans">
+          <skinlogic>
+            <choice name="none">
+              <soundset name="DEAmericanGeneralRevived">
+              </soundset>
+            </choice>
+            <choice name="1">
+              <soundset name="DEAstronautGeneralRevived">
+              </soundset>
+            </choice>
+            <choice name="2">
+              <soundset name="AmeliaBlackSelect">
+              </soundset>
+            </choice>
+          </skinlogic>
+        </choice>
+        <choice name="DEMexicans">
+          <skinlogic>
+            <choice name="none">
+              <techlogic>
+                <choice name="none">
+                  <soundset name="DEMexicanGeneralRevived">
+                  </soundset>
+                </choice>
+                <choice name="DERevolutionMXBajaCalifornia">
+                  <soundset name="DEAmericanGeneralRevived">
+                  </soundset>
+                </choice>
+                <choice name="DERevolutionMXCalifornia">
+                  <soundset name="DEAmericanGeneralRevived">
+                  </soundset>
+                </choice>
+                <choice name="DERevolutionMXTexas">
+                  <soundset name="DEAmericanGeneralRevived">
+                  </soundset>
+                </choice>
+                <choice name="DEReturnMXBajaCalifornia">
+                  <soundset name="DEMexicanGeneralRevived">
+                  </soundset>
+                </choice>
+              </techlogic>
+            </choice>
+            <choice name="2">
+              <soundset name="MexicanFemeralRevived">
+              </soundset>
+            </choice>
+            <choice name="3">
+              <soundset name="MexicanFemeralRevived">
+              </soundset>
+            </choice>
+          </skinlogic>
+        </choice>
+      </civlogic>
+    </soundtype>
+    <soundtype name="Ransomed">
+      <civlogic>
+        <choice name="none">
+          <soundset name="DEAmericanGeneralRansomed">
+          </soundset>
+        </choice>
+        <choice name="DEAmericans">
+          <skinlogic>
+            <choice name="none">
+              <soundset name="DEAmericanGeneralRansomed">
+              </soundset>
+            </choice>
+            <choice name="1">
+              <soundset name="DEAstronautGeneralRansomed">
+              </soundset>
+            </choice>
+            <choice name="2">
+              <soundset name="AmeliaBlackSelect">
+              </soundset>
+            </choice>
+          </skinlogic>
+        </choice>
+        <choice name="DEMexicans">
+          <skinlogic>
+            <choice name="none">
+              <techlogic>
+                <choice name="none">
+                  <soundset name="DEMexicanGeneralRansomed">
+                  </soundset>
+                </choice>
+                <choice name="DERevolutionMXBajaCalifornia">
+                  <soundset name="DEAmericanGeneralRansomed">
+                  </soundset>
+                </choice>
+                <choice name="DERevolutionMXCalifornia">
+                  <soundset name="DEAmericanGeneralRansomed">
+                  </soundset>
+                </choice>
+                <choice name="DERevolutionMXTexas">
+                  <soundset name="DEAmericanGeneralRansomed">
+                  </soundset>
+                </choice>
+                <choice name="DEReturnMXBajaCalifornia">
+                  <soundset name="DEMexicanGeneralRansomed">
+                  </soundset>
+                </choice>
+              </techlogic>
+            </choice>
+            <choice name="2">
+              <soundset name="MexicanFemeralRansomed">
+              </soundset>
+            </choice>
+            <choice name="3">
+              <soundset name="MexicanFemeralRansomed">
+              </soundset>
+            </choice>
+          </skinlogic>
+        </choice>
+      </civlogic>
+    </soundtype>
+  </protounit>
+</protounitsounddef>

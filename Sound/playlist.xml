@@ -1,0 +1,79 @@
+<playlists>
+  <playlist name="Primary">
+    <musicset name="Muptop">
+      <file volume="1.0" mood="normal">Music\Standard\Muptop.mp3</file>
+    </musicset>
+    <musicset name="HappyToYou">
+      <file volume="1.0" mood="normal">Music\Standard\HappyToYou.mp3</file>
+    </musicset>
+    <musicset name="GetOffMyBand">
+      <file volume="1.0" mood="normal">Music\Standard\GetOffMyBand.mp3</file>
+    </musicset>
+    <musicset name="GetYeSum">
+      <file volume="1.0" mood="normal">Music\Standard\GetYeSum.mp3</file>
+    </musicset>
+    <musicset name="MajorRewriteGeneralChunks">
+      <file volume="1.0" mood="normal">Music\Standard\MajorRewriteGeneralChunks.mp3</file>
+    </musicset>
+    <musicset name="FeloniousJunk">
+      <file volume="1.0" mood="normal">Music\Standard\FeloniousJunk.mp3</file>
+    </musicset>
+    <musicset name="IMenevero">
+      <file volume="1.0" mood="normal">Music\Standard\IMenevero.mp3</file>
+    </musicset>
+    <musicset name="LeisurelyBrows">
+      <file volume="1.0" mood="normal">Music\Standard\LeisurelyBrows.mp3</file>
+    </musicset>
+    <musicset name="OfLicious">
+      <file volume="1.0" mood="normal">Music\Standard\OfLicious.mp3</file>
+    </musicset>
+    <musicset name="LastNameCraneIchabod">
+      <file volume="1.0" mood="normal">Music\Standard\LastNameCraneIchabod.mp3</file>
+    </musicset>
+  </playlist>
+  <playlist name="battle">
+    <file volume="1.0">Music\Battle\BubbleChum.mp3</file>
+    <file volume="1.0">Music\Battle\Ruinion.mp3</file>
+    <file volume="1.0">Music\Battle\CamelsStrawsAndBacks.mp3</file>
+  </playlist>
+  <playlist name="WonGame">
+    <file volume="1.0" mood="normal">Music\Interface\Niceterium.mp3</file>
+  </playlist>
+  <playlist name="WonGameRevOrTrade">
+    <file volume="1.0" mood="normal">Xpack\Music\Interface\GeluAustrinum.mp3</file>
+  </playlist>
+  <playlist name="LostGame">
+    <file volume="1.0" mood="normal">Music\Interface\LudusPerditus.mp3</file>
+  </playlist>
+  <playlist name="Credits">
+    <file volume="1.0" mood="normal">Music\Interface\Credits.mp3</file>
+    <file volume="1.0" mood="normal">Xpack\Music\Interface\DidntSeeItComing.mp3</file>
+    <file volume="1.0" mood="normal">Ypack\Music\Interface\EndCredits_606b.mp3</file>
+  </playlist>
+  <playlist name="CivJingles">
+    <file civ="British">Music\CivJingles\Britain.mp3</file>
+    <file civ="Dutch">Music\CivJingles\Netherlands.mp3</file>
+    <file civ="French">Music\CivJingles\France.mp3</file>
+    <file civ="Germans">Music\CivJingles\Germany.mp3</file>
+    <file civ="Ottomans">Music\CivJingles\Ottoman.mp3</file>
+    <file civ="Portuguese">Music\CivJingles\Portugal.mp3</file>
+    <file civ="Russians">Music\CivJingles\Russia.mp3</file>
+    <file civ="Spanish">Music\CivJingles\Spain.mp3</file>
+    <file civ="XPAztec">Music\CivJingles\Aztec.mp3</file>
+    <file civ="XPIroquois">Music\CivJingles\Iroquois.mp3</file>
+    <file civ="XPSioux">Music\CivJingles\Sioux.mp3</file>
+    <file civ="Chinese">Music\CivJingles\China.mp3</file>
+    <file civ="Indians">Music\CivJingles\India.mp3</file>
+    <file civ="Japanese">Music\CivJingles\Japan.mp3</file>
+    <file civ="DEInca">Music\CivJingles\Inca.mp3</file>
+    <file civ="DESwedish">Music\CivJingles\Sweden.mp3</file>
+    <file civ="SPCBarbaryPirates">Music\CivJingles\BarbaryCoast.mp3</file>
+    <file civ="SPCEthiopians">Music\CivJingles\Ethiopia.mp3</file>
+    <file civ="DEAmericans">Music\CivJingles\USA.mp3</file>
+    <file civ="DEEthiopians">Music\CivJingles\Ethiopia.mp3</file>
+    <file civ="DEHausa">Music\CivJingles\Hausa.mp3</file>
+    <file civ="DEMexicans">Music\CivJingles\Mexico.mp3</file>
+    <file civ="DEItalians">Music\CivJingles\Italy.mp3</file>
+    <file civ="DEMaltese">Music\CivJingles\Malta.mp3</file>
+  </playlist>
+</playlists>

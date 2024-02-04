@@ -1,0 +1,52 @@
+<protounitsounddef>
+  <protounit name="SPCDinghy">
+    <soundtype name="Select">
+      <techlogic>
+        <choice name="deEUMapDanishStrait">
+          <soundset name="GermanFishingShipSelect">
+          </soundset>
+        </choice>
+        <choice name="deEUMapCorsicaSardinia">
+          <soundset name="DEItalianFishingBoatSelect">
+          </soundset>
+        </choice>
+        <choice name="deEUMapScotland">
+          <soundset name="BritishFishingBoatSelect">
+          </soundset>
+        </choice>
+      </techlogic>
+    </soundtype>
+    <soundtype name="Grunt">
+      <soundset name="CavalryGrunt">
+      </soundset>
+    </soundtype>
+    <soundtype name="Death">
+      <soundset name="GenericMaleDeath">
+      </soundset>
+    </soundtype>
+    <soundtype name="Creation">
+      <soundset name="MilitaryBirth">
+      </soundset>
+    </soundtype>
+    <soundtype name="Acknowledge">
+      <techlogic>
+        <choice name="deEUMapDanishStrait">
+          <soundset name="GermanFishingShipAcknowledge">
+          </soundset>
+        </choice>
+        <choice name="deEUMapCorsicaSardinia">
+          <soundset name="DEItalianFishingBoatAcknowledge">
+          </soundset>
+        </choice>
+        <choice name="deEUMapScotland">
+          <soundset name="BritishFishingBoatAcknowledge">
+          </soundset>
+        </choice>
+      </techlogic>
+    </soundtype>
+    <soundtype name="Exists">
+      <soundset name="AmbienceShip">
+      </soundset>
+    </soundtype>
+  </protounit>
+</protounitsounddef>

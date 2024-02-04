@@ -1,0 +1,60 @@
+<protounitsounddef>
+  <protounit name="SettlerWagon">
+    <soundtype name="Select">
+      <soundset name="GermanSettlerMaleSelect">
+      </soundset>
+    </soundtype>
+    <soundtype name="Grunt">
+      <soundset name="CavalryGrunt">
+      </soundset>
+    </soundtype>
+    <soundtype name="Death">
+      <soundset name="GenericMaleDeath">
+      </soundset>
+    </soundtype>
+    <soundtype name="Creation">
+      <soundset name="SettlerBirth">
+      </soundset>
+    </soundtype>
+    <soundtype name="Acknowledge">
+      <targetlogic>
+        <choice name="default">
+          <soundset name="GermanSettlerMaleAcknowledge">
+          </soundset>
+        </choice>
+        <choice name="enemy">
+          <soundset name="GermanSettlerMaleAttack">
+          </soundset>
+        </choice>
+        <choice name="build">
+          <soundset name="GermanSettlerMaleBuild">
+          </soundset>
+        </choice>
+        <choice name="Huntable">
+          <soundset name="GermanSettlerMaleGatherMeat">
+          </soundset>
+        </choice>
+        <choice name="Tree">
+          <soundset name="GermanSettlerMaleGatherWood">
+          </soundset>
+        </choice>
+        <choice name="AbstractMine">
+          <soundset name="GermanSettlerMaleGatherCoin">
+          </soundset>
+        </choice>
+        <choice name="AbstractFarm">
+          <soundset name="GermanSettlerMaleFarm">
+          </soundset>
+        </choice>
+        <choice name="AbstractResourceCrate">
+          <soundset name="GermanSettlerMaleAcknowledge">
+          </soundset>
+        </choice>
+        <choice name="AbstractFruit">
+          <soundset name="GermanSettlerMaleGatherFruit">
+          </soundset>
+        </choice>
+      </targetlogic>
+    </soundtype>
+  </protounit>
+</protounitsounddef>

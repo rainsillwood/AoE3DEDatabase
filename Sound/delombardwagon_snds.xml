@@ -1,0 +1,24 @@
+<protounitsounddef>
+  <protounit name="deLombardWagon">
+    <soundtype name="Select">
+      <soundset name="DEItalianSettlerMaleSelect">
+      </soundset>
+    </soundtype>
+    <soundtype name="Grunt">
+      <soundset name="CavalryGrunt">
+      </soundset>
+    </soundtype>
+    <soundtype name="Death">
+      <soundset name="GenericMaleDeath">
+      </soundset>
+    </soundtype>
+    <soundtype name="Creation">
+      <soundset name="SettlerBirth">
+      </soundset>
+    </soundtype>
+    <soundtype name="Acknowledge">
+      <soundset name="DEItalianSettlerMaleAcknowledge">
+      </soundset>
+    </soundtype>
+  </protounit>
+</protounitsounddef>

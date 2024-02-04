@@ -1,0 +1,20 @@
+<protounitsounddef>
+  <protounit name="deNatSaltCamel">
+    <soundtype name="Select">
+      <soundset name="CamelSelect">
+      </soundset>
+    </soundtype>
+    <soundtype name="Death">
+      <soundset name="CamelDeath">
+      </soundset>
+    </soundtype>
+    <soundtype name="Creation">
+      <soundset name="CamelSelect">
+      </soundset>
+    </soundtype>
+    <soundtype name="Acknowledge">
+      <soundset name="CamelMove">
+      </soundset>
+    </soundtype>
+  </protounit>
+</protounitsounddef>

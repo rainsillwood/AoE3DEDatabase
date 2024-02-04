@@ -1,0 +1,32 @@
+<protounitsounddef>
+  <protounit name="deWarthog">
+    <soundtype name="Select">
+      <soundset name="BoarAcknowledge">
+      </soundset>
+    </soundtype>
+    <soundtype name="Grunt">
+      <soundset name="BoarAttack">
+      </soundset>
+    </soundtype>
+    <soundtype name="Death">
+      <soundset name="BoarDeath">
+      </soundset>
+    </soundtype>
+    <soundtype name="Creation">
+      <soundset name="SettlerBirth">
+      </soundset>
+    </soundtype>
+    <soundtype name="Acknowledge">
+      <targetlogic>
+        <choice name="default">
+          <soundset name="BoarAcknowledge">
+          </soundset>
+        </choice>
+        <choice name="enemy">
+          <soundset name="BoarAttack">
+          </soundset>
+        </choice>
+      </targetlogic>
+    </soundtype>
+  </protounit>
+</protounitsounddef>

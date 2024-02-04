@@ -1,0 +1,128 @@
+<protounitsounddef>
+  <protounit name="xpAztecWarchief">
+    <soundtype name="Select">
+      <skinlogic>
+        <choice name="none">
+          <soundset name="AztecWarChiefSelect">
+          </soundset>
+        </choice>
+        <choice name="1">
+          <soundset name="TonatiuhSelect">
+          </soundset>
+        </choice>
+        <choice name="2">
+          <soundset name="AztecGoddessSelect">
+          </soundset>
+        </choice>
+        <choice name="3">
+          <soundset name="AztecWarladySelect">
+          </soundset>
+        </choice>
+      </skinlogic>
+    </soundtype>
+    <soundtype name="Grunt">
+      <skinlogic>
+        <choice name="none">
+          <soundset name="GenericMaleGrunt">
+          </soundset>
+        </choice>
+        <choice name="1">
+          <soundset name="ThorGrunt">
+          </soundset>
+        </choice>
+        <choice name="2">
+          <soundset name="AztecGoddessGrunt">
+          </soundset>
+        </choice>
+        <choice name="3">
+          <soundset name="GenericFemaleGrunt">
+          </soundset>
+        </choice>
+      </skinlogic>
+    </soundtype>
+    <soundtype name="Death">
+      <skinlogic>
+        <choice name="none">
+          <soundset name="GenericMaleDeath">
+          </soundset>
+        </choice>
+        <choice name="1">
+          <soundset name="ThorDeath">
+          </soundset>
+        </choice>
+        <choice name="2">
+          <soundset name="AztecGoddessDeath">
+          </soundset>
+        </choice>
+        <choice name="3">
+          <soundset name="GenericFemaleDeath">
+          </soundset>
+        </choice>
+      </skinlogic>
+    </soundtype>
+    <soundtype name="Creation">
+      <soundset name="WarChiefBirth">
+      </soundset>
+    </soundtype>
+    <soundtype name="Acknowledge">
+      <skinlogic>
+        <choice name="none">
+          <targetlogic>
+            <choice name="default">
+              <soundset name="AztecWarChiefAcknowledge">
+              </soundset>
+            </choice>
+            <choice name="enemy">
+              <soundset name="AztecWarChiefAttack">
+              </soundset>
+            </choice>
+          </targetlogic>
+        </choice>
+        <choice name="1">
+          <targetlogic>
+            <choice name="default">
+              <soundset name="TonatiuhAcknowledge">
+              </soundset>
+            </choice>
+            <choice name="enemy">
+              <soundset name="TonatiuhAttack">
+              </soundset>
+            </choice>
+          </targetlogic>
+        </choice>
+        <choice name="2">
+          <targetlogic>
+            <choice name="default">
+              <soundset name="AztecWarladyAcknowledge">
+              </soundset>
+            </choice>
+            <choice name="enemy">
+              <soundset name="AztecWarladyAttack">
+              </soundset>
+            </choice>
+          </targetlogic>
+        </choice>
+        <choice name="3">
+          <targetlogic>
+            <choice name="default">
+              <soundset name="AztecGoddessAcknowledge">
+              </soundset>
+            </choice>
+            <choice name="enemy">
+              <soundset name="AztecGoddessAttack">
+              </soundset>
+            </choice>
+          </targetlogic>
+        </choice>
+      </skinlogic>
+    </soundtype>
+    <soundtype name="KnockOutRevived">
+      <soundset name="WarChiefBirth">
+      </soundset>
+    </soundtype>
+    <soundtype name="Ransomed">
+      <soundset name="WarChiefBirth">
+      </soundset>
+    </soundtype>
+  </protounit>
+</protounitsounddef>

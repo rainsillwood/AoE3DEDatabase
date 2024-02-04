@@ -1,0 +1,20 @@
+<protounitsounddef>
+  <protounit name="deChonkyCattle">
+    <soundtype name="Select">
+      <soundset name="CowSelect">
+      </soundset>
+    </soundtype>
+    <soundtype name="Death">
+      <soundset name="CowDie">
+      </soundset>
+    </soundtype>
+    <soundtype name="Creation">
+      <soundset name="SettlerBirth">
+      </soundset>
+    </soundtype>
+    <soundtype name="Acknowledge">
+      <soundset name="CowAcknowledge">
+      </soundset>
+    </soundtype>
+  </protounit>
+</protounitsounddef>

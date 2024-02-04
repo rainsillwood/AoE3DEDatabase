@@ -1,0 +1,64 @@
+<protounitsounddef>
+  <protounit name="deSteamer">
+    <soundtype name="Select">
+      <civlogic>
+        <choice name="DEAmericans">
+          <soundset name="DEAmericanGalleonSelect">
+          </soundset>
+        </choice>
+        <choice name="DEMexicans">
+          <techlogic>
+            <choice name="none">
+              <soundset name="DEMexicanSteamerSelect">
+              </soundset>
+            </choice>
+            <choice name="DEHCREVMXTexasNavy">
+              <soundset name="DEAmericanGalleonSelect">
+              </soundset>
+            </choice>
+          </techlogic>
+        </choice>
+        <choice name="Spanish">
+          <soundset name="SpanishGalleonSelect">
+          </soundset>
+        </choice>
+      </civlogic>
+    </soundtype>
+    <soundtype name="Acknowledge">
+      <civlogic>
+        <choice name="DEAmericans">
+          <soundset name="DEAmericanGalleonAcknowledge">
+          </soundset>
+        </choice>
+        <choice name="DEMexicans">
+          <techlogic>
+            <choice name="none">
+              <soundset name="DEMexicanSteamerAcknowledge">
+              </soundset>
+            </choice>
+            <choice name="DEHCREVMXTexasNavy">
+              <soundset name="DEAmericanGalleonAcknowledge">
+              </soundset>
+            </choice>
+          </techlogic>
+        </choice>
+        <choice name="Spanish">
+          <soundset name="SpanishGalleonAcknowledge">
+          </soundset>
+        </choice>
+      </civlogic>
+    </soundtype>
+    <soundtype name="Death">
+      <soundset name="ShipDeath">
+      </soundset>
+    </soundtype>
+    <soundtype name="Creation">
+      <soundset name="ShipBirth">
+      </soundset>
+    </soundtype>
+    <soundtype name="Exists">
+      <soundset name="AmbienceShip">
+      </soundset>
+    </soundtype>
+  </protounit>
+</protounitsounddef>

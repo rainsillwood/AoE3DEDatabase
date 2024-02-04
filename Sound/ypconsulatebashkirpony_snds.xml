@@ -1,0 +1,32 @@
+<protounitsounddef>
+  <protounit name="ypConsulateBashkirPony">
+    <soundtype name="Grunt">
+      <soundset name="CavalryGrunt">
+      </soundset>
+    </soundtype>
+    <soundtype name="Death">
+      <soundset name="GenericMaleDeath">
+      </soundset>
+    </soundtype>
+    <soundtype name="Select">
+      <soundset name="RussianCossackSelect">
+      </soundset>
+    </soundtype>
+    <soundtype name="Acknowledge">
+      <targetlogic>
+        <choice name="default">
+          <soundset name="RussianCossackAcknowledge">
+          </soundset>
+        </choice>
+        <choice name="enemy">
+          <soundset name="RussianCossackAttack">
+          </soundset>
+        </choice>
+      </targetlogic>
+    </soundtype>
+    <soundtype name="Creation">
+      <soundset name="MilitaryBirth">
+      </soundset>
+    </soundtype>
+  </protounit>
+</protounitsounddef>

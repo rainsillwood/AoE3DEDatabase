@@ -1,0 +1,16 @@
+<protounitsounddef>
+  <protounit name="Cart">
+    <soundtype name="Select">
+      <soundset name="DonkeySelect">
+      </soundset>
+    </soundtype>
+    <soundtype name="Death">
+      <soundset name="DonkeyDeath">
+      </soundset>
+    </soundtype>
+    <soundtype name="Acknowledge">
+      <soundset name="DonkeyAcknowledge">
+      </soundset>
+    </soundtype>
+  </protounit>
+</protounitsounddef>

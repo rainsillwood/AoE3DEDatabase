@@ -1,0 +1,56 @@
+<rules>
+  <manifest>
+    <output name="Sound/soundmanifest.xml">
+    </output>
+    <excludedir name="localised">
+    </excludedir>
+  </manifest>
+  <manifest>
+    <output name="Sound/localised/de-DE/soundmanifest.xml">
+    </output>
+    <excludedir name="">
+    </excludedir>
+    <includedir name="localised/de-DE" output="">
+    </includedir>
+  </manifest>
+  <manifest>
+    <output name="Sound/localised/es-ES/soundmanifest.xml">
+    </output>
+    <excludedir name="">
+    </excludedir>
+    <includedir name="localised/es-ES" output="">
+    </includedir>
+  </manifest>
+  <manifest>
+    <output name="Sound/localised/fr-FR/soundmanifest.xml">
+    </output>
+    <excludedir name="">
+    </excludedir>
+    <includedir name="localised/fr-FR" output="">
+    </includedir>
+  </manifest>
+  <manifest>
+    <output name="Sound/localised/it-IT/soundmanifest.xml">
+    </output>
+    <excludedir name="">
+    </excludedir>
+    <includedir name="localised/it-IT" output="">
+    </includedir>
+  </manifest>
+  <manifest>
+    <output name="Sound/localised/pt-BR/soundmanifest.xml">
+    </output>
+    <excludedir name="">
+    </excludedir>
+    <includedir name="localised/pt-BR" output="">
+    </includedir>
+  </manifest>
+  <manifest>
+    <output name="Sound/localised/zh-CN/soundmanifest.xml">
+    </output>
+    <excludedir name="">
+    </excludedir>
+    <includedir name="localised/zh-CN" output="">
+    </includedir>
+  </manifest>
+</rules>

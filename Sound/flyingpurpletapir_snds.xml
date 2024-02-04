@@ -1,0 +1,24 @@
+<protounitsounddef>
+  <protounit name="FlyingPurpleTapir">
+    <soundtype name="Select">
+      <soundset name="FlyingTapirSelect">
+      </soundset>
+    </soundtype>
+    <soundtype name="Death">
+      <soundset name="Explosion">
+      </soundset>
+    </soundtype>
+    <soundtype name="Creation">
+      <soundset name="FlyingTapirBirth">
+      </soundset>
+    </soundtype>
+    <soundtype name="Acknowledge">
+      <soundset name="FlyingTapirAcknowledge">
+      </soundset>
+    </soundtype>
+    <soundtype name="Exists">
+      <soundset name="FlyingTapirExist">
+      </soundset>
+    </soundtype>
+  </protounit>
+</protounitsounddef>

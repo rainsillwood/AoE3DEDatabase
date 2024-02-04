@@ -1,0 +1,28 @@
+<protounitsounddef>
+  <protounit name="deGriot">
+    <soundtype name="Acknowledge">
+      <targetlogic>
+        <choice name="default">
+          <soundset name="DEHausaGriotAcknowledge">
+          </soundset>
+        </choice>
+      </targetlogic>
+    </soundtype>
+    <soundtype name="Select">
+      <soundset name="DEHausaGriotSelect">
+      </soundset>
+    </soundtype>
+    <soundtype name="Grunt">
+      <soundset name="GenericMaleGrunt">
+      </soundset>
+    </soundtype>
+    <soundtype name="Death">
+      <soundset name="GenericMaleDeath">
+      </soundset>
+    </soundtype>
+    <soundtype name="Creation">
+      <soundset name="SettlerBirth">
+      </soundset>
+    </soundtype>
+  </protounit>
+</protounitsounddef>

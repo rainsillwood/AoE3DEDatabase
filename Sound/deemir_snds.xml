@@ -1,0 +1,108 @@
+<protounitsounddef>
+  <protounit name="deEmir">
+    <soundtype name="Acknowledge">
+      <skinlogic>
+        <choice name="none">
+          <targetlogic>
+            <choice name="default">
+              <soundset name="DEHausaEmirAcknowledge">
+              </soundset>
+            </choice>
+            <choice name="enemy">
+              <soundset name="DEHausaEmirAttack">
+              </soundset>
+            </choice>
+          </targetlogic>
+        </choice>
+        <choice name="1">
+          <targetlogic>
+            <choice name="default">
+              <soundset name="HausaPrincessAcknowledge">
+              </soundset>
+            </choice>
+            <choice name="enemy">
+              <soundset name="HausaPrincessAttack">
+              </soundset>
+            </choice>
+          </targetlogic>
+        </choice>
+      </skinlogic>
+    </soundtype>
+    <soundtype name="KnockOut">
+      <skinlogic>
+        <choice name="none">
+          <soundset name="DEHausaEmirdisabled">
+          </soundset>
+        </choice>
+        <choice name="1">
+          <soundset name="HausaPrincessDisabled">
+          </soundset>
+        </choice>
+      </skinlogic>
+    </soundtype>
+    <soundtype name="Ransomed">
+      <skinlogic>
+        <choice name="none">
+          <soundset name="DEHausaEmirransomed">
+          </soundset>
+        </choice>
+        <choice name="1">
+          <soundset name="HausaPrincessRansomed">
+          </soundset>
+        </choice>
+      </skinlogic>
+    </soundtype>
+    <soundtype name="KnockOutRevived">
+      <skinlogic>
+        <choice name="none">
+          <soundset name="DEHausaEmirrevived">
+          </soundset>
+        </choice>
+        <choice name="1">
+          <soundset name="HausaPrincessRevived">
+          </soundset>
+        </choice>
+      </skinlogic>
+    </soundtype>
+    <soundtype name="Select">
+      <skinlogic>
+        <choice name="none">
+          <soundset name="DEHausaEmirSelect">
+          </soundset>
+        </choice>
+        <choice name="1">
+          <soundset name="HausaPrincessSelect">
+          </soundset>
+        </choice>
+      </skinlogic>
+    </soundtype>
+    <soundtype name="Grunt">
+      <skinlogic>
+        <choice name="none">
+          <soundset name="GenericMaleGrunt">
+          </soundset>
+        </choice>
+        <choice name="1">
+          <soundset name="GenericFemaleGrunt">
+          </soundset>
+        </choice>
+      </skinlogic>
+    </soundtype>
+    <soundtype name="Death">
+      <skinlogic>
+        <choice name="none">
+          <soundset name="GenericMaleDeath">
+          </soundset>
+        </choice>
+        <choice name="1">
+          <soundset name="GenericFemaleDeath">
+          </soundset>
+        </choice>
+      </skinlogic>
+    </soundtype>
+    <soundtype name="Creation">
+      <soundset name="MilitaryBirth">
+      </soundset>
+    </soundtype>
+  </protounit>
+</protounitsounddef>

@@ -1,0 +1,24 @@
+<protounitsounddef>
+  <protounit name="deAbun">
+    <soundtype name="Acknowledge">
+      <targetlogic>
+        <choice name="default">
+          <soundset name="DEEthiopianAbunAcknowledge">
+          </soundset>
+        </choice>
+      </targetlogic>
+    </soundtype>
+    <soundtype name="Select">
+      <soundset name="DEEthiopianAbunSelect">
+      </soundset>
+    </soundtype>
+    <soundtype name="Death">
+      <soundset name="GenericMaleDeath">
+      </soundset>
+    </soundtype>
+    <soundtype name="Creation">
+      <soundset name="SettlerBirth">
+      </soundset>
+    </soundtype>
+  </protounit>
+</protounitsounddef>

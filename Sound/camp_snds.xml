@@ -1,0 +1,20 @@
+<protounitsounddef>
+  <protounit name="Camp">
+    <soundtype name="Select">
+      <soundset name="BuildingButtonTest">
+      </soundset>
+    </soundtype>
+    <soundtype name="Hit">
+      <soundset name="BuildingImpactTest">
+      </soundset>
+    </soundtype>
+    <soundtype name="Death">
+      <soundset name="BuildingDestruction">
+      </soundset>
+    </soundtype>
+    <soundtype name="Creation">
+      <soundset name="BuildingButtonTest">
+      </soundset>
+    </soundtype>
+  </protounit>
+</protounitsounddef>

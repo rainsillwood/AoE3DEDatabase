@@ -1,0 +1,16 @@
+<protounitsounddef>
+  <protounit name="ypWaterBuffalo">
+    <soundtype name="Select">
+      <soundset name="WBuffaloSelect">
+      </soundset>
+    </soundtype>
+    <soundtype name="Death">
+      <soundset name="WBuffaloDeath">
+      </soundset>
+    </soundtype>
+    <soundtype name="Acknowledge">
+      <soundset name="WBuffaloMove">
+      </soundset>
+    </soundtype>
+  </protounit>
+</protounitsounddef>

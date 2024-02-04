@@ -1,0 +1,216 @@
+<protounitsounddef>
+  <protounit name="deGrandMaster">
+    <soundtype name="Select">
+      <skinlogic>
+        <choice name="none">
+          <soundset name="AlainMagnanSelect">
+          </soundset>
+        </choice>
+        <choice name="0">
+          <soundset name="MorganBlackSelect">
+          </soundset>
+        </choice>
+        <choice name="1">
+          <soundset name="BritishFemplorerSelect">
+          </soundset>
+        </choice>
+        <choice name="2">
+          <soundset name="SpanishFemplorerSelect">
+          </soundset>
+        </choice>
+        <choice name="3">
+          <soundset name="AlainMagnanSelect">
+          </soundset>
+        </choice>
+      </skinlogic>
+    </soundtype>
+    <soundtype name="Grunt">
+      <skinlogic>
+        <choice name="none">
+          <soundset name="AlainMagnanGrandmasterGrunt">
+          </soundset>
+        </choice>
+        <choice name="0">
+          <soundset name="MorganBlackGrunt">
+          </soundset>
+        </choice>
+        <choice name="1">
+          <soundset name="GenericFemaleGrunt">
+          </soundset>
+        </choice>
+        <choice name="2">
+          <soundset name="GenericFemaleGrunt">
+          </soundset>
+        </choice>
+        <choice name="3">
+          <soundset name="AlainMagnanGrandmasterGrunt">
+          </soundset>
+        </choice>
+      </skinlogic>
+    </soundtype>
+    <soundtype name="Death">
+      <skinlogic>
+        <choice name="none">
+          <soundset name="AlainMagnanDeath">
+          </soundset>
+        </choice>
+        <choice name="0">
+          <soundset name="MorganBlackDeath">
+          </soundset>
+        </choice>
+        <choice name="1">
+          <soundset name="GenericFemaleDeath">
+          </soundset>
+        </choice>
+        <choice name="2">
+          <soundset name="GenericFemaleDeath">
+          </soundset>
+        </choice>
+        <choice name="3">
+          <soundset name="AlainMagnanDeath">
+          </soundset>
+        </choice>
+      </skinlogic>
+    </soundtype>
+    <soundtype name="Creation">
+      <soundset name="MilitaryBirth">
+      </soundset>
+    </soundtype>
+    <soundtype name="Acknowledge">
+      <skinlogic>
+        <choice name="none">
+          <targetlogic>
+            <choice name="default">
+              <soundset name="AlainMagnanAcknowledge">
+              </soundset>
+            </choice>
+            <choice name="enemy">
+              <soundset name="AlainMagnanAttack">
+              </soundset>
+            </choice>
+          </targetlogic>
+        </choice>
+        <choice name="0">
+          <targetlogic>
+            <choice name="default">
+              <soundset name="MorganBlackAcknowledge">
+              </soundset>
+            </choice>
+            <choice name="enemy">
+              <soundset name="MorganBlackAttack">
+              </soundset>
+            </choice>
+          </targetlogic>
+        </choice>
+        <choice name="1">
+          <targetlogic>
+            <choice name="default">
+              <soundset name="BritishFemplorerAcknowledge">
+              </soundset>
+            </choice>
+            <choice name="enemy">
+              <soundset name="BritishFemplorerAttack">
+              </soundset>
+            </choice>
+          </targetlogic>
+        </choice>
+        <choice name="2">
+          <targetlogic>
+            <choice name="default">
+              <soundset name="SpanishFemplorerAcknowledge">
+              </soundset>
+            </choice>
+            <choice name="enemy">
+              <soundset name="SpanishFemplorerAttack">
+              </soundset>
+            </choice>
+          </targetlogic>
+        </choice>
+        <choice name="3">
+          <targetlogic>
+            <choice name="default">
+              <soundset name="AlainMagnanAcknowledge">
+              </soundset>
+            </choice>
+            <choice name="enemy">
+              <soundset name="AlainMagnanAttack">
+              </soundset>
+            </choice>
+          </targetlogic>
+        </choice>
+      </skinlogic>
+    </soundtype>
+    <soundtype name="KnockOut">
+      <skinlogic>
+        <choice name="none">
+          <soundset name="AlainMagnanDeath">
+          </soundset>
+        </choice>
+        <choice name="0">
+          <soundset name="MorganBlackDeath">
+          </soundset>
+        </choice>
+        <choice name="1">
+          <soundset name="BritishFemplorerDisabled">
+          </soundset>
+        </choice>
+        <choice name="2">
+          <soundset name="SpanishFemplorerDisabled">
+          </soundset>
+        </choice>
+        <choice name="3">
+          <soundset name="AlainMagnanDeath">
+          </soundset>
+        </choice>
+      </skinlogic>
+    </soundtype>
+    <soundtype name="KnockOutRevived">
+      <skinlogic>
+        <choice name="none">
+          <soundset name="AlainMagnanRevive">
+          </soundset>
+        </choice>
+        <choice name="0">
+          <soundset name="MorganBlackRevive">
+          </soundset>
+        </choice>
+        <choice name="1">
+          <soundset name="BritishFemplorerRevived">
+          </soundset>
+        </choice>
+        <choice name="2">
+          <soundset name="SpanishFemplorerRevived">
+          </soundset>
+        </choice>
+        <choice name="3">
+          <soundset name="AlainMagnanRevive">
+          </soundset>
+        </choice>
+      </skinlogic>
+    </soundtype>
+    <soundtype name="Ransomed">
+      <skinlogic>
+        <choice name="none">
+          <soundset name="AlainMagnanSelect">
+          </soundset>
+        </choice>
+        <choice name="0">
+          <soundset name="MorganBlackSelect">
+          </soundset>
+        </choice>
+        <choice name="1">
+          <soundset name="BritishFemplorerRansomed">
+          </soundset>
+        </choice>
+        <choice name="2">
+          <soundset name="SpanishFemplorerRansomed">
+          </soundset>
+        </choice>
+        <choice name="3">
+          <soundset name="AlainMagnanSelect">
+          </soundset>
+        </choice>
+      </skinlogic>
+    </soundtype>
+  </protounit>
+</protounitsounddef>

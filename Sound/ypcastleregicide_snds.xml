@@ -1,0 +1,16 @@
+<protounitsounddef>
+  <protounit name="ypCastleRegicide">
+    <soundtype name="Select">
+      <soundset name="UI_Building_Military">
+      </soundset>
+    </soundtype>
+    <soundtype name="SelectSecondary">
+      <soundset name="UI_Select_Building_Fort">
+      </soundset>
+    </soundtype>
+    <soundtype name="Death">
+      <soundset name="BuildingDestruction">
+      </soundset>
+    </soundtype>
+  </protounit>
+</protounitsounddef>

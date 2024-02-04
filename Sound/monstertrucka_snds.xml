@@ -1,0 +1,24 @@
+<protounitsounddef>
+  <protounit name="MonsterTruckA">
+    <soundtype name="Select">
+      <soundset name="TruckSelect">
+      </soundset>
+    </soundtype>
+    <soundtype name="Death">
+      <soundset name="Explosion">
+      </soundset>
+    </soundtype>
+    <soundtype name="Creation">
+      <soundset name="TruckBirth">
+      </soundset>
+    </soundtype>
+    <soundtype name="Acknowledge">
+      <soundset name="TruckAcknowledge">
+      </soundset>
+    </soundtype>
+    <soundtype name="Exists">
+      <soundset name="TruckExist">
+      </soundset>
+    </soundtype>
+  </protounit>
+</protounitsounddef>

@@ -1,0 +1,32 @@
+<protounitsounddef>
+  <protounit name="NatTomahawkLeague">
+    <soundtype name="Select">
+      <soundset name="NativeTempSelect">
+      </soundset>
+    </soundtype>
+    <soundtype name="Grunt">
+      <soundset name="GenericMale4Grunt">
+      </soundset>
+    </soundtype>
+    <soundtype name="Death">
+      <soundset name="GenericMale4Death">
+      </soundset>
+    </soundtype>
+    <soundtype name="Creation">
+      <soundset name="NativeBirth">
+      </soundset>
+    </soundtype>
+    <soundtype name="Acknowledge">
+      <targetlogic>
+        <choice name="default">
+          <soundset name="NativeTempAcknowledge">
+          </soundset>
+        </choice>
+        <choice name="enemy">
+          <soundset name="NativeTempAttack">
+          </soundset>
+        </choice>
+      </targetlogic>
+    </soundtype>
+  </protounit>
+</protounitsounddef>

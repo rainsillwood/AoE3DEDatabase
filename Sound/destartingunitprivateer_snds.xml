@@ -1,0 +1,40 @@
+<protounitsounddef>
+  <protounit name="deStartingUnitPrivateer">
+    <soundtype name="Select">
+      <techlogic>
+        <choice name="none">
+          <soundset name="BarbaryCorsairSelect">
+          </soundset>
+        </choice>
+        <choice name="derevolutionhaiti">
+          <soundset name="BritishPrivateerSelect">
+          </soundset>
+        </choice>
+      </techlogic>
+    </soundtype>
+    <soundtype name="Death">
+      <soundset name="ShipDeath">
+      </soundset>
+    </soundtype>
+    <soundtype name="Creation">
+      <soundset name="ShipBirth">
+      </soundset>
+    </soundtype>
+    <soundtype name="Acknowledge">
+      <techlogic>
+        <choice name="none">
+          <soundset name="PrivateerAcknowledge">
+          </soundset>
+        </choice>
+        <choice name="derevolutionhaiti">
+          <soundset name="BritishPrivateerAcknowledge">
+          </soundset>
+        </choice>
+      </techlogic>
+    </soundtype>
+    <soundtype name="Exists">
+      <soundset name="AmbienceShip">
+      </soundset>
+    </soundtype>
+  </protounit>
+</protounitsounddef>

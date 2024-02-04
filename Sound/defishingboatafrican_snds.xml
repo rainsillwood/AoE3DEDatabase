@@ -1,0 +1,88 @@
+<protounitsounddef>
+  <protounit name="deFishingBoatAfrican">
+    <soundtype name="Acknowledge">
+      <variationlogic>
+        <choice name="1">
+          <civlogic>
+            <choice name="DEHausa">
+              <targetlogic>
+                <choice name="default">
+                  <soundset name="DEHausaFishingBoatFAcknowledge">
+                  </soundset>
+                </choice>
+              </targetlogic>
+            </choice>
+            <choice name="DEEthiopians">
+              <targetlogic>
+                <choice name="default">
+                  <soundset name="DEEthiopianFishingBoatFAcknowledge">
+                  </soundset>
+                </choice>
+              </targetlogic>
+            </choice>
+          </civlogic>
+        </choice>
+        <choice name="0">
+          <civlogic>
+            <choice name="DEHausa">
+              <targetlogic>
+                <choice name="default">
+                  <soundset name="DEHausaFishingBoatMAcknowledge">
+                  </soundset>
+                </choice>
+              </targetlogic>
+            </choice>
+            <choice name="DEEthiopians">
+              <targetlogic>
+                <choice name="default">
+                  <soundset name="DEEthiopianFishingBoatMAcknowledge">
+                  </soundset>
+                </choice>
+              </targetlogic>
+            </choice>
+          </civlogic>
+        </choice>
+      </variationlogic>
+    </soundtype>
+    <soundtype name="Select">
+      <variationlogic>
+        <choice name="1">
+          <civlogic>
+            <choice name="DEHausa">
+              <soundset name="DEHausaFishingBoatFSelect">
+              </soundset>
+            </choice>
+            <choice name="DEEthiopians">
+              <soundset name="DEEthiopianFishingBoatFSelect">
+              </soundset>
+            </choice>
+          </civlogic>
+        </choice>
+        <choice name="0">
+          <civlogic>
+            <choice name="DEHausa">
+              <soundset name="DEHausaFishingBoatMSelect">
+              </soundset>
+            </choice>
+            <choice name="DEEthiopians">
+              <soundset name="DEEthiopianFishingBoatMSelect">
+              </soundset>
+            </choice>
+          </civlogic>
+        </choice>
+      </variationlogic>
+    </soundtype>
+    <soundtype name="Death">
+      <soundset name="ShipDeath">
+      </soundset>
+    </soundtype>
+    <soundtype name="Creation">
+      <soundset name="ShipBirth">
+      </soundset>
+    </soundtype>
+    <soundtype name="Exists">
+      <soundset name="AmbienceShip">
+      </soundset>
+    </soundtype>
+  </protounit>
+</protounitsounddef>

@@ -1,0 +1,44 @@
+<protounitsounddef>
+  <protounit name="deSPCMarineOfficer">
+    <soundtype name="Select">
+      <soundset name="DEAmericanGeneralSelect">
+      </soundset>
+    </soundtype>
+    <soundtype name="Grunt">
+      <soundset name="GenericMaleGrunt">
+      </soundset>
+    </soundtype>
+    <soundtype name="Death">
+      <soundset name="GenericMaleDeath">
+      </soundset>
+    </soundtype>
+    <soundtype name="Creation">
+      <soundset name="MilitaryBirth">
+      </soundset>
+    </soundtype>
+    <soundtype name="Acknowledge">
+      <targetlogic>
+        <choice name="default">
+          <soundset name="DEAmericanGeneralAcknowledge">
+          </soundset>
+        </choice>
+        <choice name="enemy">
+          <soundset name="DEAmericanGeneralAttack">
+          </soundset>
+        </choice>
+      </targetlogic>
+    </soundtype>
+    <soundtype name="KnockOut">
+      <soundset name="DEAmericanGeneralDisabled">
+      </soundset>
+    </soundtype>
+    <soundtype name="KnockOutRevived">
+      <soundset name="DEAmericanGeneralRevived">
+      </soundset>
+    </soundtype>
+    <soundtype name="Ransomed">
+      <soundset name="DEAmericanGeneralRansomed">
+      </soundset>
+    </soundtype>
+  </protounit>
+</protounitsounddef>

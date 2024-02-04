@@ -1,0 +1,24 @@
+<protounitsounddef>
+  <protounit name="SPCFireship">
+    <soundtype name="Select">
+      <soundset name="BritishFrigateSelect">
+      </soundset>
+    </soundtype>
+    <soundtype name="Death">
+      <soundset name="FireShipExplode">
+      </soundset>
+    </soundtype>
+    <soundtype name="Creation">
+      <soundset name="ShipBirth">
+      </soundset>
+    </soundtype>
+    <soundtype name="Acknowledge">
+      <soundset name="BritishFrigateAcknowledge">
+      </soundset>
+    </soundtype>
+    <soundtype name="Exists">
+      <soundset name="AmbienceFireShip">
+      </soundset>
+    </soundtype>
+  </protounit>
+</protounitsounddef>

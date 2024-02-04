@@ -1,0 +1,32 @@
+<protounitsounddef>
+  <protounit name="ypSPCBrahminHealer">
+    <soundtype name="Select">
+      <soundset name="IndianMonkSelect">
+      </soundset>
+    </soundtype>
+    <soundtype name="Grunt">
+      <soundset name="ElephantGrunt">
+      </soundset>
+    </soundtype>
+    <soundtype name="Death">
+      <soundset name="GenericMaleDeath">
+      </soundset>
+    </soundtype>
+    <soundtype name="Creation">
+      <soundset name="MilitaryBirth">
+      </soundset>
+    </soundtype>
+    <soundtype name="Acknowledge">
+      <targetlogic>
+        <choice name="default">
+          <soundset name="IndianMonkAcknowledge">
+          </soundset>
+        </choice>
+        <choice name="enemy">
+          <soundset name="IndianMonkAttack">
+          </soundset>
+        </choice>
+      </targetlogic>
+    </soundtype>
+  </protounit>
+</protounitsounddef>

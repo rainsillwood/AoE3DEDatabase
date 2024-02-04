@@ -1,0 +1,88 @@
+<protounitsounddef>
+  <protounit name="Galley">
+    <soundtype name="Select">
+      <techlogic>
+        <choice name="none">
+          <soundset name="OttomanGalleySelect">
+          </soundset>
+        </choice>
+        <choice name="derevolutionhungarygerman">
+          <soundset name="GermanCaravelSelect">
+          </soundset>
+        </choice>
+        <choice name="derevolutionhungaryottoman">
+          <soundset name="OttomanGalleySelect">
+          </soundset>
+        </choice>
+        <choice name="derevolutionhungaryrussian">
+          <soundset name="RussianCaravelSelect">
+          </soundset>
+        </choice>
+        <choice name="derevolutionromania">
+          <civlogic>
+            <choice name="Germans">
+              <soundset name="GermanCaravelSelect">
+              </soundset>
+            </choice>
+            <choice name="Russians">
+              <soundset name="RussianCaravelSelect">
+              </soundset>
+            </choice>
+            <choice name="Ottomans">
+              <soundset name="OttomanGalleySelect">
+              </soundset>
+            </choice>
+          </civlogic>
+        </choice>
+      </techlogic>
+    </soundtype>
+    <soundtype name="Death">
+      <soundset name="ShipDeath">
+      </soundset>
+    </soundtype>
+    <soundtype name="Creation">
+      <soundset name="ShipBirth">
+      </soundset>
+    </soundtype>
+    <soundtype name="Acknowledge">
+      <techlogic>
+        <choice name="none">
+          <soundset name="OttomanGalleyAcknowledge">
+          </soundset>
+        </choice>
+        <choice name="derevolutionhungarygerman">
+          <soundset name="GermanCaravelAcknowledge">
+          </soundset>
+        </choice>
+        <choice name="derevolutionhungaryottoman">
+          <soundset name="OttomanGalleyAcknowledge">
+          </soundset>
+        </choice>
+        <choice name="derevolutionhungaryrussian">
+          <soundset name="RussianCaravelAcknowledge">
+          </soundset>
+        </choice>
+        <choice name="derevolutionromania">
+          <civlogic>
+            <choice name="Germans">
+              <soundset name="GermanCaravelAcknowledge">
+              </soundset>
+            </choice>
+            <choice name="Russians">
+              <soundset name="RussianCaravelAcknowledge">
+              </soundset>
+            </choice>
+            <choice name="Ottomans">
+              <soundset name="OttomanGalleyAcknowledge">
+              </soundset>
+            </choice>
+          </civlogic>
+        </choice>
+      </techlogic>
+    </soundtype>
+    <soundtype name="Exists">
+      <soundset name="AmbienceShip">
+      </soundset>
+    </soundtype>
+  </protounit>
+</protounitsounddef>

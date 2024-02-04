@@ -1,0 +1,140 @@
+<protounitsounddef>
+  <protounit name="ypMonkIndian2">
+    <soundtype name="Select">
+      <skinlogic>
+        <choice name="none">
+          <soundset name="IndianMonkSelect">
+          </soundset>
+        </choice>
+        <choice name="0">
+          <soundset name="IndianNanibSelect">
+          </soundset>
+        </choice>
+        <choice name="1">
+          <soundset name="IndianJatLancerSelect">
+          </soundset>
+        </choice>
+      </skinlogic>
+    </soundtype>
+    <soundtype name="Grunt">
+      <skinlogic>
+        <choice name="none">
+          <soundset name="GenericMaleGrunt">
+          </soundset>
+        </choice>
+      </skinlogic>
+    </soundtype>
+    <soundtype name="Death">
+      <skinlogic>
+        <choice name="none">
+          <soundset name="GenericMaleDeath">
+          </soundset>
+        </choice>
+      </skinlogic>
+    </soundtype>
+    <soundtype name="Creation">
+      <skinlogic>
+        <choice name="none">
+          <soundset name="IndianMonkRevived">
+          </soundset>
+        </choice>
+        <choice name="0">
+          <soundset name="IndianNanibSelect">
+          </soundset>
+        </choice>
+        <choice name="1">
+          <soundset name="IndianJatLancerSelect">
+          </soundset>
+        </choice>
+      </skinlogic>
+    </soundtype>
+    <soundtype name="Acknowledge">
+      <skinlogic>
+        <choice name="none">
+          <targetlogic>
+            <choice name="default">
+              <soundset name="IndianMonkAcknowledge">
+              </soundset>
+            </choice>
+            <choice name="enemy">
+              <soundset name="IndianMonkAttack">
+              </soundset>
+            </choice>
+            <choice name="build">
+              <soundset name="IndianMonkAcknowledge">
+              </soundset>
+            </choice>
+          </targetlogic>
+        </choice>
+        <choice name="0">
+          <targetlogic>
+            <choice name="default">
+              <soundset name="IndianNanibAcknowledge">
+              </soundset>
+            </choice>
+            <choice name="enemy">
+              <soundset name="IndianNanibAttack">
+              </soundset>
+            </choice>
+            <choice name="build">
+              <soundset name="IndianNanibAcknowledge">
+              </soundset>
+            </choice>
+          </targetlogic>
+        </choice>
+        <choice name="1">
+          <targetlogic>
+            <choice name="default">
+              <soundset name="IndianJatLancerAcknowledge">
+              </soundset>
+            </choice>
+            <choice name="enemy">
+              <soundset name="IndianJatLancerAttack">
+              </soundset>
+            </choice>
+            <choice name="build">
+              <soundset name="IndianJatLancerAcknowledge">
+              </soundset>
+            </choice>
+          </targetlogic>
+        </choice>
+      </skinlogic>
+    </soundtype>
+    <soundtype name="Claim">
+      <soundset name="IndianMonkClaim">
+      </soundset>
+    </soundtype>
+    <soundtype name="KnockOut">
+      <skinlogic>
+        <choice name="none">
+          <soundset name="IndianMonkDisabled">
+          </soundset>
+        </choice>
+        <choice name="0">
+          <soundset name="GenericMaleGrunt">
+          </soundset>
+        </choice>
+        <choice name="1">
+          <soundset name="GenericMaleGrunt">
+          </soundset>
+        </choice>
+      </skinlogic>
+    </soundtype>
+    <soundtype name="KnockOutRevived">
+      <skinlogic>
+        <choice name="none">
+          <soundset name="IndianMonkRevived">
+          </soundset>
+        </choice>
+        <choice name="0">
+          <soundset name="IndianNanibSelect">
+          </soundset>
+        </choice>
+        <choice name="1">
+          <soundset name="IndianJatLancerSelect">
+          </soundset>
+        </choice>
+      </skinlogic>
+    </soundtype>
+  </protounit>
+</protounitsounddef>

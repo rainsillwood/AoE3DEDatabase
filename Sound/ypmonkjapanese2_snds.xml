@@ -1,0 +1,212 @@
+<protounitsounddef>
+  <protounit name="ypMonkJapanese2">
+    <soundtype name="Select">
+      <skinlogic>
+        <choice name="none">
+          <soundset name="JapaneseMonkSelect">
+          </soundset>
+        </choice>
+        <choice name="0">
+          <soundset name="JapaneseKichiroSelect">
+          </soundset>
+        </choice>
+        <choice name="1">
+          <soundset name="JapaneseNunSelect">
+          </soundset>
+        </choice>
+        <choice name="2">
+          <soundset name="JapaneseNunSelect">
+          </soundset>
+        </choice>
+        <choice name="3">
+          <soundset name="JapaneseTokugawaSelect">
+          </soundset>
+        </choice>
+      </skinlogic>
+    </soundtype>
+    <soundtype name="Grunt">
+      <skinlogic>
+        <choice name="none">
+          <soundset name="GenericMaleGrunt">
+          </soundset>
+        </choice>
+        <choice name="1">
+          <soundset name="GenericFemaleGrunt">
+          </soundset>
+        </choice>
+        <choice name="2">
+          <soundset name="GenericFemaleGrunt">
+          </soundset>
+        </choice>
+      </skinlogic>
+    </soundtype>
+    <soundtype name="Death">
+      <skinlogic>
+        <choice name="none">
+          <soundset name="GenericMaleDeath">
+          </soundset>
+        </choice>
+        <choice name="1">
+          <soundset name="GenericFemaleDeath">
+          </soundset>
+        </choice>
+        <choice name="2">
+          <soundset name="GenericFemaleDeath">
+          </soundset>
+        </choice>
+      </skinlogic>
+    </soundtype>
+    <soundtype name="Creation">
+      <skinlogic>
+        <choice name="none">
+          <soundset name="JapaneseMonkRevived">
+          </soundset>
+        </choice>
+        <choice name="0">
+          <soundset name="JapaneseKichiroSelect">
+          </soundset>
+        </choice>
+        <choice name="1">
+          <soundset name="JapaneseNunRevived">
+          </soundset>
+        </choice>
+        <choice name="2">
+          <soundset name="JapaneseNunRevived">
+          </soundset>
+        </choice>
+        <choice name="3">
+          <soundset name="JapaneseTokugawaSelect">
+          </soundset>
+        </choice>
+      </skinlogic>
+    </soundtype>
+    <soundtype name="Acknowledge">
+      <skinlogic>
+        <choice name="none">
+          <targetlogic>
+            <choice name="default">
+              <soundset name="JapaneseMonkAcknowledge">
+              </soundset>
+            </choice>
+            <choice name="enemy">
+              <soundset name="JapaneseMonkAttack">
+              </soundset>
+            </choice>
+            <choice name="build">
+              <soundset name="JapaneseMonkAcknowledge">
+              </soundset>
+            </choice>
+          </targetlogic>
+        </choice>
+        <choice name="0">
+          <targetlogic>
+            <choice name="default">
+              <soundset name="JapaneseKichiroAcknowledge">
+              </soundset>
+            </choice>
+            <choice name="enemy">
+              <soundset name="JapaneseKichiroAttack">
+              </soundset>
+            </choice>
+            <choice name="build">
+              <soundset name="JapaneseKichiroAcknowledge">
+              </soundset>
+            </choice>
+          </targetlogic>
+        </choice>
+        <choice name="1">
+          <targetlogic>
+            <choice name="default">
+              <soundset name="JapaneseNunAcknowledge">
+              </soundset>
+            </choice>
+            <choice name="enemy">
+              <soundset name="JapaneseNunAttack">
+              </soundset>
+            </choice>
+            <choice name="build">
+              <soundset name="JapaneseNunAcknowledge">
+              </soundset>
+            </choice>
+          </targetlogic>
+        </choice>
+        <choice name="2">
+          <targetlogic>
+            <choice name="default">
+              <soundset name="JapaneseNunAcknowledge">
+              </soundset>
+            </choice>
+            <choice name="enemy">
+              <soundset name="JapaneseNunAttack">
+              </soundset>
+            </choice>
+            <choice name="build">
+              <soundset name="JapaneseNunAcknowledge">
+              </soundset>
+            </choice>
+          </targetlogic>
+        </choice>
+        <choice name="3">
+          <targetlogic>
+            <choice name="default">
+              <soundset name="JapaneseSoheiAcknowledge">
+              </soundset>
+            </choice>
+            <choice name="enemy">
+              <soundset name="JapaneseTokugawaAttack">
+              </soundset>
+            </choice>
+            <choice name="build">
+              <soundset name="JapaneseSoheiAcknowledge">
+              </soundset>
+            </choice>
+          </targetlogic>
+        </choice>
+      </skinlogic>
+    </soundtype>
+    <soundtype name="Claim">
+      <soundset name="JapaneseMonkClaim">
+      </soundset>
+    </soundtype>
+    <soundtype name="KnockOut">
+      <skinlogic>
+        <choice name="none">
+          <soundset name="JapaneseMonkDisabled">
+          </soundset>
+        </choice>
+        <choice name="1">
+          <soundset name="JapaneseNunDisabled">
+          </soundset>
+        </choice>
+        <choice name="2">
+          <soundset name="JapaneseNunDisabled">
+          </soundset>
+        </choice>
+      </skinlogic>
+    </soundtype>
+    <soundtype name="KnockOutRevived">
+      <skinlogic>
+        <choice name="none">
+          <soundset name="JapaneseMonkRevived">
+          </soundset>
+        </choice>
+        <choice name="0">
+          <soundset name="JapaneseKichiroSelect">
+          </soundset>
+        </choice>
+        <choice name="1">
+          <soundset name="JapaneseNunRevived">
+          </soundset>
+        </choice>
+        <choice name="2">
+          <soundset name="JapaneseNunRevived">
+          </soundset>
+        </choice>
+        <choice name="3">
+          <soundset name="JapaneseTokugawaSelect">
+          </soundset>
+        </choice>
+      </skinlogic>
+    </soundtype>
+  </protounit>
+</protounitsounddef>

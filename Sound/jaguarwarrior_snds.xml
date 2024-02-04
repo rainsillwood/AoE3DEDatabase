@@ -1,0 +1,34 @@
+<protounitsounddef>
+  <protounit name="JaguarWarrior">
+    <soundtype name="Select">
+      <soundset name="NativeTempSelect">
+      </soundset>
+    </soundtype>
+    <soundtype name="Acknowledge">
+      <targetlogic>
+        <choice name="default">
+          <soundset name="NativeTempAcknowledge">
+          </soundset>
+        </choice>
+        <choice name="enemy">
+          <soundset name="NativeTempAttack">
+          </soundset>
+        </choice>
+        <choice name="Hunt">
+        </choice>
+        <choice name="Tree">
+        </choice>
+        <choice name="Farm">
+        </choice>
+        <choice name="Build">
+        </choice>
+        <choice name="Repair">
+        </choice>
+        <choice name="Forage">
+        </choice>
+        <choice name="Gather">
+        </choice>
+      </targetlogic>
+    </soundtype>
+  </protounit>
+</protounitsounddef>

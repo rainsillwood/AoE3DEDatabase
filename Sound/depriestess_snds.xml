@@ -1,0 +1,46 @@
+<protounitsounddef>
+  <protounit name="dePriestess">
+    <soundtype name="Select">
+      <soundset name="DEIncaPriestessSelect">
+      </soundset>
+    </soundtype>
+    <soundtype name="Grunt">
+      <soundset name="GenericFemaleGrunt">
+      </soundset>
+    </soundtype>
+    <soundtype name="Death">
+      <soundset name="GenericFemaleDeath">
+      </soundset>
+    </soundtype>
+    <soundtype name="Creation">
+      <soundset name="SettlerBirth">
+      </soundset>
+    </soundtype>
+    <soundtype name="Acknowledge">
+      <targetlogic>
+        <choice name="default">
+          <soundset name="DEIncaPriestessAcknowledge">
+          </soundset>
+        </choice>
+        <choice name="enemy">
+          <soundset name="DEIncaPriestessAttack">
+          </soundset>
+        </choice>
+        <choice name="build">
+        </choice>
+        <choice name="Huntable">
+        </choice>
+        <choice name="Tree">
+        </choice>
+        <choice name="AbstractMine">
+        </choice>
+        <choice name="AbstractFarm">
+        </choice>
+        <choice name="AbstractResourceCrate">
+        </choice>
+        <choice name="AbstractFruit">
+        </choice>
+      </targetlogic>
+    </soundtype>
+  </protounit>
+</protounitsounddef>

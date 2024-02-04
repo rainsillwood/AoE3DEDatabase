@@ -1,0 +1,24 @@
+<protounitsounddef>
+  <protounit name="ypBlackPanther">
+    <soundtype name="Select">
+      <soundset name="BlackPantherSelect">
+      </soundset>
+    </soundtype>
+    <soundtype name="Grunt">
+      <soundset name="BlackPantherGrunt">
+      </soundset>
+    </soundtype>
+    <soundtype name="Death">
+      <soundset name="BlackPantherDie">
+      </soundset>
+    </soundtype>
+    <soundtype name="Creation">
+      <soundset name="SettlerBirth">
+      </soundset>
+    </soundtype>
+    <soundtype name="Acknowledge">
+      <soundset name="BlackPantherAcknowledge">
+      </soundset>
+    </soundtype>
+  </protounit>
+</protounitsounddef>

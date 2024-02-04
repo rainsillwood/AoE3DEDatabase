@@ -1,0 +1,398 @@
+<protounitsounddef>
+  <protounit name="Skirmisher">
+    <soundtype name="Select">
+      <civlogic>
+        <choice name="Nature">
+        </choice>
+        <choice name="French">
+          <soundset name="FrenchSkirmisherSelect">
+          </soundset>
+        </choice>
+        <choice name="British">
+          <soundset name="BritishSkirmisherSelect">
+          </soundset>
+        </choice>
+        <choice name="Ottomans">
+        </choice>
+        <choice name="Dutch">
+          <soundset name="DutchSkirmisherSelect">
+          </soundset>
+        </choice>
+        <choice name="Spanish">
+          <soundset name="SpanishDragoonSelect">
+          </soundset>
+        </choice>
+        <choice name="Portuguese">
+        </choice>
+        <choice name="Germans">
+          <soundset name="GermanSkirmisherSelect">
+          </soundset>
+        </choice>
+        <choice name="Aztecs">
+        </choice>
+        <choice name="Incas">
+        </choice>
+        <choice name="Maya">
+        </choice>
+        <choice name="Seminoles">
+        </choice>
+        <choice name="Caribs">
+        </choice>
+        <choice name="Cherokee">
+        </choice>
+        <choice name="Iroquois">
+        </choice>
+        <choice name="Cree">
+        </choice>
+        <choice name="Lakota">
+        </choice>
+        <choice name="Comanche">
+        </choice>
+        <choice name="Nootka">
+        </choice>
+        <choice name="Tupi">
+        </choice>
+        <choice name="SPCAct3">
+          <soundset name="BritishSkirmisherSelect">
+          </soundset>
+        </choice>
+        <choice name="SPCAct2">
+          <soundset name="BritishSkirmisherSelect">
+          </soundset>
+        </choice>
+        <choice name="XPSPC">
+          <soundset name="SPCMilitiaSelect">
+          </soundset>
+        </choice>
+        <choice name="XPSPCFalcon">
+          <soundset name="SPCMilitiaSelect">
+          </soundset>
+        </choice>
+        <choice name="XPSPCLakota">
+          <soundset name="SPCMilitiaSelect">
+          </soundset>
+        </choice>
+        <choice name="DEInca">
+          <soundset name="DEIncaBowmanSelect">
+          </soundset>
+        </choice>
+        <choice name="DESwedish">
+          <soundset name="FinnishHakkapeliittasSelect">
+          </soundset>
+        </choice>
+        <choice name="Russians">
+          <soundset name="FinnishHakkapeliittasSelect">
+          </soundset>
+        </choice>
+        <choice name="DEMaltese">
+          <soundset name="SpanishDragoonSelect">
+          </soundset>
+        </choice>
+      </civlogic>
+    </soundtype>
+    <soundtype name="Grunt">
+      <soundset name="GenericMaleGrunt">
+      </soundset>
+    </soundtype>
+    <soundtype name="Death">
+      <soundset name="GenericMaleDeath">
+      </soundset>
+    </soundtype>
+    <soundtype name="Creation">
+      <soundset name="MilitaryBirth">
+      </soundset>
+    </soundtype>
+    <soundtype name="Acknowledge">
+      <civlogic>
+        <choice name="Nature">
+          <targetlogic>
+            <choice name="default">
+            </choice>
+            <choice name="enemy">
+            </choice>
+          </targetlogic>
+        </choice>
+        <choice name="French">
+          <targetlogic>
+            <choice name="default">
+              <soundset name="FrenchSkirmisherAcknowledge">
+              </soundset>
+            </choice>
+            <choice name="enemy">
+              <soundset name="FrenchSkirmisherAttack">
+              </soundset>
+            </choice>
+          </targetlogic>
+        </choice>
+        <choice name="British">
+          <targetlogic>
+            <choice name="default">
+              <soundset name="BritishSkirmisherAcknowledge">
+              </soundset>
+            </choice>
+            <choice name="enemy">
+              <soundset name="BritishSkirmisherAttack">
+              </soundset>
+            </choice>
+          </targetlogic>
+        </choice>
+        <choice name="Ottomans">
+          <targetlogic>
+            <choice name="default">
+            </choice>
+            <choice name="enemy">
+            </choice>
+          </targetlogic>
+        </choice>
+        <choice name="Dutch">
+          <targetlogic>
+            <choice name="default">
+              <soundset name="DutchSkirmisherAcknowledge">
+              </soundset>
+            </choice>
+            <choice name="enemy">
+              <soundset name="DutchSkirmisherAttack">
+              </soundset>
+            </choice>
+          </targetlogic>
+        </choice>
+        <choice name="Spanish">
+          <targetlogic>
+            <choice name="default">
+              <soundset name="SpanishDragoonAcknowledge">
+              </soundset>
+            </choice>
+            <choice name="enemy">
+              <soundset name="SpanishDragoonAttack">
+              </soundset>
+            </choice>
+          </targetlogic>
+        </choice>
+        <choice name="Portuguese">
+          <targetlogic>
+            <choice name="default">
+            </choice>
+            <choice name="enemy">
+            </choice>
+          </targetlogic>
+        </choice>
+        <choice name="Germans">
+          <targetlogic>
+            <choice name="default">
+              <soundset name="GermanSkirmisherAcknowledge">
+              </soundset>
+            </choice>
+            <choice name="enemy">
+              <soundset name="GermanSkirmisherAttack">
+              </soundset>
+            </choice>
+          </targetlogic>
+        </choice>
+        <choice name="Aztecs">
+          <targetlogic>
+            <choice name="default">
+            </choice>
+            <choice name="enemy">
+            </choice>
+          </targetlogic>
+        </choice>
+        <choice name="Incas">
+          <targetlogic>
+            <choice name="default">
+            </choice>
+            <choice name="enemy">
+            </choice>
+          </targetlogic>
+        </choice>
+        <choice name="Maya">
+          <targetlogic>
+            <choice name="default">
+            </choice>
+            <choice name="enemy">
+            </choice>
+          </targetlogic>
+        </choice>
+        <choice name="Seminoles">
+          <targetlogic>
+            <choice name="default">
+            </choice>
+            <choice name="enemy">
+            </choice>
+          </targetlogic>
+        </choice>
+        <choice name="Caribs">
+          <targetlogic>
+            <choice name="default">
+            </choice>
+            <choice name="enemy">
+            </choice>
+          </targetlogic>
+        </choice>
+        <choice name="Cherokee">
+          <targetlogic>
+            <choice name="default">
+            </choice>
+            <choice name="enemy">
+            </choice>
+          </targetlogic>
+        </choice>
+        <choice name="Iroquois">
+          <targetlogic>
+            <choice name="default">
+            </choice>
+            <choice name="enemy">
+            </choice>
+          </targetlogic>
+        </choice>
+        <choice name="Cree">
+          <targetlogic>
+            <choice name="default">
+            </choice>
+            <choice name="enemy">
+            </choice>
+          </targetlogic>
+        </choice>
+        <choice name="Lakota">
+          <targetlogic>
+            <choice name="default">
+            </choice>
+            <choice name="enemy">
+            </choice>
+          </targetlogic>
+        </choice>
+        <choice name="Comanche">
+          <targetlogic>
+            <choice name="default">
+            </choice>
+            <choice name="enemy">
+            </choice>
+          </targetlogic>
+        </choice>
+        <choice name="Nootka">
+          <targetlogic>
+            <choice name="default">
+            </choice>
+            <choice name="enemy">
+            </choice>
+          </targetlogic>
+        </choice>
+        <choice name="Tupi">
+          <targetlogic>
+            <choice name="default">
+            </choice>
+            <choice name="enemy">
+            </choice>
+          </targetlogic>
+        </choice>
+        <choice name="SPCAct3">
+          <targetlogic>
+            <choice name="default">
+              <soundset name="BritishSkirmisherAcknowledge">
+              </soundset>
+            </choice>
+            <choice name="enemy">
+              <soundset name="BritishSkirmisherAttack">
+              </soundset>
+            </choice>
+          </targetlogic>
+        </choice>
+        <choice name="SPCAct2">
+          <targetlogic>
+            <choice name="default">
+              <soundset name="BritishSkirmisherAcknowledge">
+              </soundset>
+            </choice>
+            <choice name="enemy">
+              <soundset name="BritishSkirmisherAttack">
+              </soundset>
+            </choice>
+          </targetlogic>
+        </choice>
+        <choice name="XPSPC">
+          <targetlogic>
+            <choice name="default">
+              <soundset name="SPCMilitiaAcknowledge">
+              </soundset>
+            </choice>
+            <choice name="enemy">
+              <soundset name="SPCMilitiaAttack">
+              </soundset>
+            </choice>
+          </targetlogic>
+        </choice>
+        <choice name="XPSPCFalcon">
+          <targetlogic>
+            <choice name="default">
+              <soundset name="SPCMilitiaAcknowledge">
+              </soundset>
+            </choice>
+            <choice name="enemy">
+              <soundset name="SPCMilitiaAttack">
+              </soundset>
+            </choice>
+          </targetlogic>
+        </choice>
+        <choice name="XPSPCLakota">
+          <targetlogic>
+            <choice name="default">
+              <soundset name="SPCMilitiaAcknowledge">
+              </soundset>
+            </choice>
+            <choice name="enemy">
+              <soundset name="SPCMilitiaAttack">
+              </soundset>
+            </choice>
+          </targetlogic>
+        </choice>
+        <choice name="DEInca">
+          <targetlogic>
+            <choice name="default">
+              <soundset name="DEIncaBowmanAcknowledge">
+              </soundset>
+            </choice>
+            <choice name="enemy">
+              <soundset name="DEIncaBowmanAttack">
+              </soundset>
+            </choice>
+          </targetlogic>
+        </choice>
+        <choice name="DESwedish">
+          <targetlogic>
+            <choice name="default">
+              <soundset name="FinnishHakkapeliittasAcknowledge">
+              </soundset>
+            </choice>
+            <choice name="enemy">
+              <soundset name="FinnishHakkapeliittasAttack">
+              </soundset>
+            </choice>
+          </targetlogic>
+        </choice>
+        <choice name="Russians">
+          <targetlogic>
+            <choice name="default">
+              <soundset name="FinnishHakkapeliittasAcknowledge">
+              </soundset>
+            </choice>
+            <choice name="enemy">
+              <soundset name="FinnishHakkapeliittasAttack">
+              </soundset>
+            </choice>
+          </targetlogic>
+        </choice>
+        <choice name="DEMaltese">
+          <targetlogic>
+            <choice name="default">
+              <soundset name="SpanishDragoonAcknowledge">
+              </soundset>
+            </choice>
+            <choice name="enemy">
+              <soundset name="SpanishDragoonAttack">
+              </soundset>
+            </choice>
+          </targetlogic>
+        </choice>
+      </civlogic>
+    </soundtype>
+  </protounit>
+</protounitsounddef>

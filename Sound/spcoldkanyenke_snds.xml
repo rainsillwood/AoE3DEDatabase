@@ -1,0 +1,76 @@
+<protounitsounddef>
+  <protounit name="SPCOldKanyenke">
+    <soundtype name="Select">
+      <soundset name="KanyenkeOldSelect">
+      </soundset>
+    </soundtype>
+    <soundtype name="Grunt">
+      <soundset name="KanyenkeGrunt">
+      </soundset>
+    </soundtype>
+    <soundtype name="Death">
+      <soundset name="KanyenkeDeath">
+      </soundset>
+    </soundtype>
+    <soundtype name="Creation">
+      <soundset name="NativeBirth">
+      </soundset>
+    </soundtype>
+    <soundtype name="Move">
+      <targetlogic>
+        <choice name="default">
+          <soundset name="KanyenkeOldAcknowledge">
+          </soundset>
+        </choice>
+        <choice name="enemy">
+          <soundset name="KanyenkeOldAttack">
+          </soundset>
+        </choice>
+        <choice name="build">
+        </choice>
+        <choice name="Huntable">
+        </choice>
+        <choice name="Tree">
+        </choice>
+        <choice name="AbstractMine">
+        </choice>
+        <choice name="AbstractFarm">
+        </choice>
+        <choice name="AbstractResourceCrate">
+        </choice>
+        <choice name="AbstractFruit">
+        </choice>
+      </targetlogic>
+    </soundtype>
+    <soundtype name="Acknowledge">
+      <targetlogic>
+        <choice name="default">
+          <soundset name="KanyenkeOldAcknowledge">
+          </soundset>
+        </choice>
+        <choice name="enemy">
+          <soundset name="KanyenkeOldAttack">
+          </soundset>
+        </choice>
+        <choice name="build">
+        </choice>
+        <choice name="Huntable">
+        </choice>
+        <choice name="Tree">
+        </choice>
+        <choice name="AbstractMine">
+        </choice>
+        <choice name="AbstractFarm">
+        </choice>
+        <choice name="AbstractResourceCrate">
+        </choice>
+        <choice name="AbstractFruit">
+        </choice>
+      </targetlogic>
+    </soundtype>
+    <soundtype name="KnockOutRevived">
+      <soundset name="KanyenkeOldRevive">
+      </soundset>
+    </soundtype>
+  </protounit>
+</protounitsounddef>

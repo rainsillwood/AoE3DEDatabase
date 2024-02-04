@@ -1,0 +1,16 @@
+<protounitsounddef>
+  <protounit name="ypYak">
+    <soundtype name="Select">
+      <soundset name="YakSelect">
+      </soundset>
+    </soundtype>
+    <soundtype name="Death">
+      <soundset name="YakDeath">
+      </soundset>
+    </soundtype>
+    <soundtype name="Acknowledge">
+      <soundset name="YakMove">
+      </soundset>
+    </soundtype>
+  </protounit>
+</protounitsounddef>

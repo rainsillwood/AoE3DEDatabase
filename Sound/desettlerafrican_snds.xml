@@ -1,0 +1,232 @@
+<protounitsounddef>
+  <protounit name="deSettlerAfrican">
+    <soundtype name="Acknowledge">
+      <variationlogic>
+        <choice name="0">
+          <civlogic>
+            <choice name="DEHausa">
+              <targetlogic>
+                <choice name="default">
+                  <soundset name="DEHausaVMAcknowledge">
+                  </soundset>
+                </choice>
+                <choice name="AbstractResourceCrate">
+                  <soundset name="DEHausaVMAcknowledge">
+                  </soundset>
+                </choice>
+                <choice name="enemy">
+                  <soundset name="DEHausaVMAttack">
+                  </soundset>
+                </choice>
+                <choice name="build">
+                  <soundset name="DEHausaVMBuild">
+                  </soundset>
+                </choice>
+                <choice name="AbstractFarm">
+                  <soundset name="DEHausaVMFarm">
+                  </soundset>
+                </choice>
+                <choice name="AbstractMine">
+                  <soundset name="DEHausaVMGatherCoin">
+                  </soundset>
+                </choice>
+                <choice name="AbstractFruit">
+                  <soundset name="DEHausaVMGatherFruit">
+                  </soundset>
+                </choice>
+                <choice name="Huntable">
+                  <soundset name="DEHausaVMGatherMeat">
+                  </soundset>
+                </choice>
+                <choice name="Tree">
+                  <soundset name="DEHausaVMGatherWood">
+                  </soundset>
+                </choice>
+              </targetlogic>
+            </choice>
+            <choice name="DEEthiopians">
+              <targetlogic>
+                <choice name="default">
+                  <soundset name="DEEthiopianVillagerMaleAcknowledge">
+                  </soundset>
+                </choice>
+                <choice name="AbstractResourceCrate">
+                  <soundset name="DEEthiopianVillagerMaleAcknowledge">
+                  </soundset>
+                </choice>
+                <choice name="enemy">
+                  <soundset name="DEEthiopianVillagerMaleAttack">
+                  </soundset>
+                </choice>
+                <choice name="build">
+                  <soundset name="DEEthiopianVillagerMaleBuild">
+                  </soundset>
+                </choice>
+                <choice name="AbstractFarm">
+                  <soundset name="DEEthiopianVillagerMaleFarm">
+                  </soundset>
+                </choice>
+                <choice name="AbstractMine">
+                  <soundset name="DEEthiopianVillagerMaleGatherCoin">
+                  </soundset>
+                </choice>
+                <choice name="AbstractFruit">
+                  <soundset name="DEEthiopianVillagerMaleGatherFruit">
+                  </soundset>
+                </choice>
+                <choice name="Huntable">
+                  <soundset name="DEEthiopianVillagerMaleGatherMeat">
+                  </soundset>
+                </choice>
+                <choice name="Tree">
+                  <soundset name="DEEthiopianVillagerMaleGatherWood">
+                  </soundset>
+                </choice>
+              </targetlogic>
+            </choice>
+          </civlogic>
+        </choice>
+        <choice name="1">
+          <civlogic>
+            <choice name="DEHausa">
+              <targetlogic>
+                <choice name="default">
+                  <soundset name="DEHausaVFAcknowledge">
+                  </soundset>
+                </choice>
+                <choice name="AbstractResourceCrate">
+                  <soundset name="DEHausaVFAcknowledge">
+                  </soundset>
+                </choice>
+                <choice name="enemy">
+                  <soundset name="DEHausaVFAttack">
+                  </soundset>
+                </choice>
+                <choice name="build">
+                  <soundset name="DEHausaVFBuild">
+                  </soundset>
+                </choice>
+                <choice name="AbstractFarm">
+                  <soundset name="DEHausaVFFarm">
+                  </soundset>
+                </choice>
+                <choice name="AbstractMine">
+                  <soundset name="DEHausaVFGatherCoin">
+                  </soundset>
+                </choice>
+                <choice name="AbstractFruit">
+                  <soundset name="DEHausaVFGatherFruit">
+                  </soundset>
+                </choice>
+                <choice name="Huntable">
+                  <soundset name="DEHausaVFGatherMeat">
+                  </soundset>
+                </choice>
+                <choice name="Tree">
+                  <soundset name="DEHausaVFGatherWood">
+                  </soundset>
+                </choice>
+              </targetlogic>
+            </choice>
+            <choice name="DEEthiopians">
+              <targetlogic>
+                <choice name="default">
+                  <soundset name="DEEthiopianVillagerFemaleAcknowledge">
+                  </soundset>
+                </choice>
+                <choice name="AbstractResourceCrate">
+                  <soundset name="DEEthiopianVillagerFemaleAcknowledge">
+                  </soundset>
+                </choice>
+                <choice name="enemy">
+                  <soundset name="DEEthiopianVillagerFemaleAttack">
+                  </soundset>
+                </choice>
+                <choice name="build">
+                  <soundset name="DEEthiopianVillagerFemaleBuild">
+                  </soundset>
+                </choice>
+                <choice name="AbstractFarm">
+                  <soundset name="DEEthiopianVillagerFemaleFarm">
+                  </soundset>
+                </choice>
+                <choice name="AbstractMine">
+                  <soundset name="DEEthiopianVillagerFemaleGatherCoin">
+                  </soundset>
+                </choice>
+                <choice name="AbstractFruit">
+                  <soundset name="DEEthiopianVillagerFemaleGatherFruit">
+                  </soundset>
+                </choice>
+                <choice name="Huntable">
+                  <soundset name="DEEthiopianVillagerFemaleGatherMeat">
+                  </soundset>
+                </choice>
+                <choice name="Tree">
+                  <soundset name="DEEthiopianVillagerFemaleGatherWood">
+                  </soundset>
+                </choice>
+              </targetlogic>
+            </choice>
+          </civlogic>
+        </choice>
+      </variationlogic>
+    </soundtype>
+    <soundtype name="Select">
+      <variationlogic>
+        <choice name="0">
+          <civlogic>
+            <choice name="DEHausa">
+              <soundset name="DEHausaVMSelect">
+              </soundset>
+            </choice>
+            <choice name="DEEthiopians">
+              <soundset name="DEEthiopianVillagerMaleSelect">
+              </soundset>
+            </choice>
+          </civlogic>
+        </choice>
+        <choice name="1">
+          <civlogic>
+            <choice name="DEHausa">
+              <soundset name="DEHausaVFSelect">
+              </soundset>
+            </choice>
+            <choice name="DEEthiopians">
+              <soundset name="DEEthiopianVillagerFemaleSelect">
+              </soundset>
+            </choice>
+          </civlogic>
+        </choice>
+      </variationlogic>
+    </soundtype>
+    <soundtype name="Grunt">
+      <variationlogic>
+        <choice name="1">
+          <soundset name="GenericFemaleGrunt">
+          </soundset>
+        </choice>
+        <choice name="0">
+          <soundset name="GenericMaleGrunt">
+          </soundset>
+        </choice>
+      </variationlogic>
+    </soundtype>
+    <soundtype name="Death">
+      <variationlogic>
+        <choice name="1">
+          <soundset name="GenericFemaleDeath">
+          </soundset>
+        </choice>
+        <choice name="0">
+          <soundset name="GenericMaleDeath">
+          </soundset>
+        </choice>
+      </variationlogic>
+    </soundtype>
+    <soundtype name="Creation">
+      <soundset name="SettlerBirth">
+      </soundset>
+    </soundtype>
+  </protounit>
+</protounitsounddef>

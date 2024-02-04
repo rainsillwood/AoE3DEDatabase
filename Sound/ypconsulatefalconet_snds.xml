@@ -1,0 +1,320 @@
+<protounitsounddef>
+  <protounit name="ypConsulateFalconet">
+    <soundtype name="Grunt">
+      <soundset name="GenericMaleGrunt">
+      </soundset>
+    </soundtype>
+    <soundtype name="Death">
+      <soundset name="GenericMaleDeath">
+      </soundset>
+    </soundtype>
+    <soundtype name="Select">
+      <civlogic>
+        <choice name="French">
+          <soundset name="FrenchFalconetSelect">
+          </soundset>
+        </choice>
+        <choice name="British">
+          <soundset name="BritishFalconetSelect">
+          </soundset>
+        </choice>
+        <choice name="Russians">
+          <soundset name="RussianFalconetSelect">
+          </soundset>
+        </choice>
+        <choice name="Ottomans">
+          <soundset name="OttomanFalconetSelect">
+          </soundset>
+        </choice>
+        <choice name="Dutch">
+          <soundset name="DutchFalconetSelect">
+          </soundset>
+        </choice>
+        <choice name="Spanish">
+          <soundset name="SpanishFalconetSelect">
+          </soundset>
+        </choice>
+        <choice name="Portuguese">
+          <soundset name="PortugueseFalconetSelect">
+          </soundset>
+        </choice>
+        <choice name="Germans">
+          <soundset name="GermanMusketeerSelect">
+          </soundset>
+        </choice>
+        <choice name="XPIroquois">
+          <soundset name="IroquoisMusketRiderSelect">
+          </soundset>
+        </choice>
+        <choice name="XPSioux">
+          <soundset name="SiouxRifleRiderSelect">
+          </soundset>
+        </choice>
+        <choice name="XPAztec">
+          <soundset name="AztecSkullKnightSelect">
+          </soundset>
+        </choice>
+        <choice name="Chinese">
+          <soundset name="BritishFalconetSelect">
+          </soundset>
+        </choice>
+        <choice name="Indians">
+          <soundset name="BritishFalconetSelect">
+          </soundset>
+        </choice>
+        <choice name="Japanese">
+          <soundset name="SpanishFalconetSelect">
+          </soundset>
+        </choice>
+        <choice name="SPCChinese">
+          <soundset name="BritishFalconetSelect">
+          </soundset>
+        </choice>
+        <choice name="SPCIndians">
+          <soundset name="BritishFalconetSelect">
+          </soundset>
+        </choice>
+        <choice name="SPCJapanese">
+          <techlogic>
+            <choice name="none">
+              <soundset name="PortugueseFalconetSelect">
+              </soundset>
+            </choice>
+            <choice name="ypbigconsulatespcdutch">
+              <soundset name="DutchFalconetSelect">
+              </soundset>
+            </choice>
+          </techlogic>
+        </choice>
+      </civlogic>
+    </soundtype>
+    <soundtype name="Acknowledge">
+      <civlogic>
+        <choice name="French">
+          <targetlogic>
+            <choice name="default">
+              <soundset name="FrenchFalconetAcknowledge">
+              </soundset>
+            </choice>
+            <choice name="enemy">
+              <soundset name="FrenchFalconetAttack">
+              </soundset>
+            </choice>
+          </targetlogic>
+        </choice>
+        <choice name="British">
+          <targetlogic>
+            <choice name="default">
+              <soundset name="BritishFalconetAcknowledge">
+              </soundset>
+            </choice>
+            <choice name="enemy">
+              <soundset name="BritishFalconetAttack">
+              </soundset>
+            </choice>
+          </targetlogic>
+        </choice>
+        <choice name="Russians">
+          <targetlogic>
+            <choice name="default">
+              <soundset name="RussianFalconetAcknowledge">
+              </soundset>
+            </choice>
+            <choice name="enemy">
+              <soundset name="RussianFalconetAttack">
+              </soundset>
+            </choice>
+          </targetlogic>
+        </choice>
+        <choice name="Ottomans">
+          <targetlogic>
+            <choice name="default">
+              <soundset name="OttomanFalconetAcknowledge">
+              </soundset>
+            </choice>
+            <choice name="enemy">
+              <soundset name="OttomanFalconetAttack">
+              </soundset>
+            </choice>
+          </targetlogic>
+        </choice>
+        <choice name="Dutch">
+          <targetlogic>
+            <choice name="default">
+              <soundset name="DutchFalconetAcknowledge">
+              </soundset>
+            </choice>
+            <choice name="enemy">
+              <soundset name="DutchFalconetAttack">
+              </soundset>
+            </choice>
+          </targetlogic>
+        </choice>
+        <choice name="Spanish">
+          <targetlogic>
+            <choice name="default">
+              <soundset name="SpanishFalconetAcknowledge">
+              </soundset>
+            </choice>
+            <choice name="enemy">
+              <soundset name="SpanishFalconetAttack">
+              </soundset>
+            </choice>
+          </targetlogic>
+        </choice>
+        <choice name="Portuguese">
+          <targetlogic>
+            <choice name="default">
+              <soundset name="PortugueseFalconetAcknowledge">
+              </soundset>
+            </choice>
+            <choice name="enemy">
+              <soundset name="PortugueseFalconetAttack">
+              </soundset>
+            </choice>
+          </targetlogic>
+        </choice>
+        <choice name="Germans">
+          <targetlogic>
+            <choice name="default">
+              <soundset name="GermanMusketeerAcknowledge">
+              </soundset>
+            </choice>
+            <choice name="enemy">
+              <soundset name="GermanMusketeerAttack">
+              </soundset>
+            </choice>
+          </targetlogic>
+        </choice>
+        <choice name="XPIroquois">
+          <targetlogic>
+            <choice name="default">
+              <soundset name="IroquoisMusketRiderAcknowledge">
+              </soundset>
+            </choice>
+            <choice name="enemy">
+              <soundset name="IroquoisMusketRiderAttack">
+              </soundset>
+            </choice>
+          </targetlogic>
+        </choice>
+        <choice name="XPSioux">
+          <targetlogic>
+            <choice name="default">
+              <soundset name="SiouxRifleRiderAcknowledge">
+              </soundset>
+            </choice>
+            <choice name="enemy">
+              <soundset name="SiouxRifleRiderAttack">
+              </soundset>
+            </choice>
+          </targetlogic>
+        </choice>
+        <choice name="XPAztec">
+          <targetlogic>
+            <choice name="default">
+              <soundset name="AztecSkullKnightAcknowledge">
+              </soundset>
+            </choice>
+            <choice name="enemy">
+              <soundset name="AztecSkullKnightAttack">
+              </soundset>
+            </choice>
+          </targetlogic>
+        </choice>
+        <choice name="Chinese">
+          <targetlogic>
+            <choice name="default">
+              <soundset name="BritishFalconetAcknowledge">
+              </soundset>
+            </choice>
+            <choice name="enemy">
+              <soundset name="BritishFalconetAttack">
+              </soundset>
+            </choice>
+          </targetlogic>
+        </choice>
+        <choice name="Indians">
+          <targetlogic>
+            <choice name="default">
+              <soundset name="BritishFalconetAcknowledge">
+              </soundset>
+            </choice>
+            <choice name="enemy">
+              <soundset name="BritishFalconetAttack">
+              </soundset>
+            </choice>
+          </targetlogic>
+        </choice>
+        <choice name="Japanese">
+          <targetlogic>
+            <choice name="default">
+              <soundset name="SpanishFalconetAcknowledge">
+              </soundset>
+            </choice>
+            <choice name="enemy">
+              <soundset name="SpanishFalconetAttack">
+              </soundset>
+            </choice>
+          </targetlogic>
+        </choice>
+        <choice name="SPCChinese">
+          <targetlogic>
+            <choice name="default">
+              <soundset name="BritishFalconetAcknowledge">
+              </soundset>
+            </choice>
+            <choice name="enemy">
+              <soundset name="BritishFalconetAttack">
+              </soundset>
+            </choice>
+          </targetlogic>
+        </choice>
+        <choice name="SPCIndians">
+          <targetlogic>
+            <choice name="default">
+              <soundset name="BritishFalconetAcknowledge">
+              </soundset>
+            </choice>
+            <choice name="enemy">
+              <soundset name="BritishFalconetAttack">
+              </soundset>
+            </choice>
+          </targetlogic>
+        </choice>
+        <choice name="SPCJapanese">
+          <targetlogic>
+            <choice name="default">
+              <techlogic>
+                <choice name="none">
+                  <soundset name="PortugueseFalconetAcknowledge">
+                  </soundset>
+                </choice>
+                <choice name="ypbigconsulatespcdutch">
+                  <soundset name="DutchFalconetAcknowledge">
+                  </soundset>
+                </choice>
+              </techlogic>
+            </choice>
+            <choice name="enemy">
+              <techlogic>
+                <choice name="none">
+                  <soundset name="PortugueseFalconetAttack">
+                  </soundset>
+                </choice>
+                <choice name="ypbigconsulatespcdutch">
+                  <soundset name="DutchFalconetAttack">
+                  </soundset>
+                </choice>
+              </techlogic>
+            </choice>
+          </targetlogic>
+        </choice>
+      </civlogic>
+    </soundtype>
+    <soundtype name="Creation">
+      <soundset name="MilitaryBirth">
+      </soundset>
+    </soundtype>
+  </protounit>
+</protounitsounddef>

@@ -1,0 +1,32 @@
+<protounitsounddef>
+  <protounit name="NatMantlet">
+    <soundtype name="Select">
+      <soundset name="IroquoisMantletSelect">
+      </soundset>
+    </soundtype>
+    <soundtype name="Grunt">
+      <soundset name="GenericMaleGrunt">
+      </soundset>
+    </soundtype>
+    <soundtype name="Death">
+      <soundset name="GenericMaleDeath">
+      </soundset>
+    </soundtype>
+    <soundtype name="Creation">
+      <soundset name="NativeBirth">
+      </soundset>
+    </soundtype>
+    <soundtype name="Acknowledge">
+      <targetlogic>
+        <choice name="default">
+          <soundset name="IroquoisMantletAcknowledge">
+          </soundset>
+        </choice>
+        <choice name="enemy">
+          <soundset name="IroquoisMantletAttack">
+          </soundset>
+        </choice>
+      </targetlogic>
+    </soundtype>
+  </protounit>
+</protounitsounddef>

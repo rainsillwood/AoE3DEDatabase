@@ -1,0 +1,24 @@
+<protounitsounddef>
+  <protounit name="CoureurCree">
+    <soundtype name="Select">
+      <soundset name="CreeTrackerSelect">
+      </soundset>
+    </soundtype>
+    <soundtype name="Grunt">
+      <soundset name="GenericMaleGrunt">
+      </soundset>
+    </soundtype>
+    <soundtype name="Death">
+      <soundset name="GenericMaleDeath">
+      </soundset>
+    </soundtype>
+    <soundtype name="Creation">
+      <soundset name="NativeBirth">
+      </soundset>
+    </soundtype>
+    <soundtype name="Acknowledge">
+      <soundset name="CreeTrackerAcknowledge">
+      </soundset>
+    </soundtype>
+  </protounit>
+</protounitsounddef>

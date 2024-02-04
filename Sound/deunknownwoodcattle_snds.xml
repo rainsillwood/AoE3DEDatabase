@@ -1,0 +1,20 @@
+<protounitsounddef>
+  <protounit name="deUnknownWoodCattle">
+    <soundtype name="Select">
+      <soundset name="WoodCattleSelect">
+      </soundset>
+    </soundtype>
+    <soundtype name="Death">
+      <soundset name="WoodCattleExplosion">
+      </soundset>
+    </soundtype>
+    <soundtype name="Creation">
+      <soundset name="WoodCattleBirth">
+      </soundset>
+    </soundtype>
+    <soundtype name="Acknowledge">
+      <soundset name="WoodCattleAcknowledge">
+      </soundset>
+    </soundtype>
+  </protounit>
+</protounitsounddef>

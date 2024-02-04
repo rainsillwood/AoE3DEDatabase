@@ -1,0 +1,20 @@
+<protounitsounddef>
+  <protounit name="ypGoat">
+    <soundtype name="Select">
+      <soundset name="GoatSelect">
+      </soundset>
+    </soundtype>
+    <soundtype name="Death">
+      <soundset name="GoatDeath">
+      </soundset>
+    </soundtype>
+    <soundtype name="Creation">
+      <soundset name="SettlerBirth">
+      </soundset>
+    </soundtype>
+    <soundtype name="Acknowledge">
+      <soundset name="GoatMove">
+      </soundset>
+    </soundtype>
+  </protounit>
+</protounitsounddef>
