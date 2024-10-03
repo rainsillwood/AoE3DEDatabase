@@ -3,73 +3,24 @@
 
 <head>
     <meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
-    <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js'></script>
-    <script type='text/javascript' src='https://cdn.jsdelivr.net/npm/bignumber.js@9.1.0/bignumber.min.js'></script>
-    <!--script src='./Script/jquery.js' charset='utf-8'></script-->
-    <!--script src='./Script/bignumber.js' charset='utf-8'></script-->
-    <script src='./Script/tools.js' charset='utf-8'></script>
-    <script src='./Script/init.js' charset='utf-8'></script>
-    <script src='./Script/database.js' charset='utf-8'></script>
-    <script src='./Script/getdata.js' charset='utf-8'></script>
-    <script src='./Script/functions.js' charset='utf-8'></script>
-    <script src='./Script/geteffect.js' charset='utf-8'></script>
-    <script src='./Script/getattribute.js' charset='utf-8'></script>
+    <title>帝国时代3决定版-离线数据查询</title>
     <link rel="stylesheet" type="text/css" href="./Style/table.css">
     <link rel="stylesheet" type="text/css" href="./Style/body.css">
-    <script>
-        var version = '100.15.59076.0';
-        var date = '2024/2/1';
-        var indexedDB = window.indexedDB || window.webkitIndexedDB || window.mozIndexedDB || window.msIndexedDB;
-        var homecityList = {};
-        var tacticList = {};
-        var cardList = {};
-        var techflags = {};
-        var unitflags = {};
-        var unittypes = {};
-        var localList = {};
-        var actionList = {};
-        var database;
-        var language = {};
-        var logger;
-        async function test() {
-            enableProtect();
-        }
-        //切换显示ID
-        function toggleID() {
-            let styleSheet = getStyleSheet('ruby');
-            let checkbox = document.getElementById('showID');
-            if (checkbox.checked) {
-                styleSheet.disabled = true;
-                checkbox.checked = true;
-            } else {
-                styleSheet.disabled = false;
-                checkbox.checked = false;
-            }
-        }
-        //切换行号限制
-        function toggleMaxHeight() {
-            let styleSheet = getStyleSheet('maxHeight');
-            let checkbox = document.getElementById('enableMaxHeight');
-            if (checkbox.checked) {
-                styleSheet.disabled = false;
-                checkbox.checked = true;
-            } else {
-                styleSheet.disabled = true;
-                checkbox.checked = false;
-            }
-        }
-    </script>
     <style title="ruby">
         rt {
             display: none;
         }
     </style>
     <style title="maxHeight">
-        .effect>div {
+        .maxHeight {
             max-height: 300px;
         }
     </style>
-    <title>帝国时代3决定版-离线数据查询</title>
+    <!--script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js'></script>
+    <script type='text/javascript' src='https://cdn.jsdelivr.net/npm/bignumber.js@9.1.0/bignumber.min.js'></script-->
+    <script src='./Script/jquery.js' charset='utf-8'></script>
+    <script src='./Script/bignumber.js' charset='utf-8'></script>
+    <script src='./Script/init.js' charset='utf-8'></script>
 </head>
 
 <body onload="init()">
@@ -84,7 +35,7 @@
                     <div>
                         <button type="button" id="loggerShower" onclick="toggleNode('logger');">&lt;</button>
                         <input type="checkbox" id="showID" onchange="toggleID()" checked="true">显示ID
-                        <input type="checkbox" id="enableMaxHeight" onchange="toggleMaxHeight()" checked="true">限制高度
+                        <input type="checkbox" id="enableMaxHeight" onchange="changeMaxHeight()" checked="true">限制高度
                         <button type="button" onclick="help()">帮助&说明</button>
                         <button type="button" onclick="test()"><del>测试</del></button>
                     </div>
@@ -116,7 +67,7 @@
                     </div>
                     <hr>
                     <div>
-                        <button type="button" onclick="getStrings(true)">语言</button>
+                        <button type="button" onclick="getStrings()">语言</button>
                         </br>
                         |<input type="checkbox" id="getTech" checked="checked">
                         <button type="button" onclick="getTechs(true)">科技</button>|
@@ -126,8 +77,8 @@
                         <button type="button" onclick="getNuggets(true)">宝藏</button>|
                         <!--input type="checkbox" id="getCiv"><button type="button" onclick="getCivs()">文明</button-->
                         </br>
-                        <!--input type="checkbox" id="getUnitType"-->
-                        <button type="button" onclick="getUnitTypes()">单位类型</button>
+                        <input type="checkbox" id="getUnitType">
+                        <button type="button" onclick="getUnitTypes(true)">单位类型</button>
                         <!--input type="checkbox" id="getUnitType">
                         <button type="button" onclick="getUnitFlags()">单位标签</button-->
                         <!--input type="checkbox" id="getUnitType">
@@ -149,17 +100,20 @@
                             <button type="button" onclick="getTree()">树木</button>
                         </div>
                     </div>
-                    <textarea id="output" readOnly="true"></textarea>
+                    <textarea id="output" readOnly="true" ondblclick="copy(this)"></textarea>
                 </div>
             </div>
         </div>
         <div id="helpbox" ondblclick="this.classList.add('hidden')" class="hidden">
             <h1>帮助&说明</h1>
-            <p>1.双击关闭帮助</p>
-            <p>2.本工具需要浏览器的Indexed DB、Cookie，请提前开启</p>
-            <p>3.使用前需要先选择语言，然后点击更新数据库以初始化</p>
-            <p>4.若数据库有问题可以点击清除数据库重新初始化</p>
-            <p>∞.暂无其他帮助</p>
+            <p>双击关闭帮助</p>
+            <p>本工具需要浏览器的Indexed DB、Cookie，请提前开启</p>
+            <p>使用前需要先选择语言，然后点击更新数据库以初始化</p>
+            <p>若数据库有问题可以点击清除数据库重新初始化</p>
+            <p>表格内过长内容双击可展开</p>
+            <p>科技效果中❓表示推测效果，✔️表示已确认效果，❌表示未确认效果</p>
+            <p>输出文本框双击可复制，↩️可在Excel内替换成CHAR(10)</p>
+            <p>∞.暂无其他帮助111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111</p>
         </div>
     </div>
     <div id="protectbox" class="hidden" ondblclick="disableProtect()">

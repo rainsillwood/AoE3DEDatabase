@@ -40,9 +40,10 @@ async function getTechs(isAll, iArray) {
     }
     let isAction = document.getElementById('getTech').checked;
     if (isAction || isAll) {
-        let oArray = [];
+        let iList = [];
+        let tableName = 'tableTech';
         if (isAll) {
-            oArray = await getArray('techtree', 'all');
+            iList = await getArray('techtree', 'all');
             clearValue('output');
             clearNode('databox');
         } else {
@@ -51,37 +52,45 @@ async function getTechs(isAll, iArray) {
                 if (iData == "") continue;
                 let oData = await getTech(iData.toLowerCase());
                 if (!oData.isNull) {
-                    oArray.push(oData);
+                    iList.push(oData);
                 }
             }
+            appendNode('<table class="infoTable" id="' + tableName + '">', 'databox', 'div');
+            appendNode('<th class="icon">图标</th><th class="name">调用名</th><th class="local">中文名</th><th class="type">类型</th><th class="desc">描述</th><th class="effect">效果</th>', tableName, 'tr');
         }
-        if (oArray.length == 0) return;
+        if (iList.length == 0) return;
         enableProtect();
-        let tableName = 'tableTech';
-        appendNode('<table class="infoTable" id="' + tableName + '">', 'databox', 'div');
-        appendNode('<th class="icon">图标</th><th class="name">调用名</th><th class="local">中文名</th><th class="type">类型</th><th class="desc">描述</th><th class="effect">效果</th>',
-            tableName, 'tr');
-        addValue('output', '调用名\t中文名\t类型\t描述\t效果');
-        for (let i in oArray) {
-            if (!oArray[i].isNull) {
-                let stringEffect = await getEffects(oArray[i], false);
-                let oNode = getIcon(oArray[i])
-                    + '<td>' + oArray[i]['@name'] + '</td>'
-                    + '<td>' + getRuby(oArray[i].displayname, oArray[i]['@name']) + '</td>'
-                    + '<td>科技</td>'
-                    + '<td>' + oArray[i].rollovertext + '</td>'
-                    + '<td class="effect"><div>' + stringEffect + '</div></td>';
-                appendNode(oNode, tableName, 'tr');
-                let oString = oArray[i]['@name'] + '\t'
-                    + (oArray[i].displayname ? oArray[i].displayname : oArray[i]['@name']) + '\t'
+        appendNode('正在查询科技: <a id="' + tableName + '_processed">0</a> / <a id="' + tableName + '_quest">0</a> , <a id="' + tableName + '_failed">0</a> Error', 'logger', 'div');
+        document.getElementById(tableName + '_quest').innerHTML = iList.length;
+        let oArray = ['调用名\t中文名\t类型\t描述\t效果'];
+        for (let i in iList) {
+            if (!iList[i].isNull) {
+                let stringEffect = await getEffects(iList[i], false);
+                if (!isAll) {
+                    let oNode = getIcon(iList[i])
+                        + '<td>' + iList[i]['@name'] + '</td>'
+                        + '<td>' + getRuby(iList[i].displayname, iList[i]['@name']) + '</td>'
+                        + '<td>科技</td>'
+                        + '<td>' + iList[i].rollovertext + '</td>'
+                        + '<td class="effect"><div class="maxHeight" ondblclick="toggleMaxHeight(this)">' + stringEffect + '</div></td>';
+                    appendNode(oNode, tableName, 'tr');
+                }
+                let oString = iList[i]['@name'] + '\t'
+                    + (iList[i].displayname ? iList[i].displayname : iList[i]['@name']) + '\t'
                     + '科技' + '\t'
-                    + oArray[i].rollovertext + '\t'
-                    + stringEffect.replace(/<ruby>(.*?)<rt>.*?<\/ruby>/g, '$1').replaceAll('</br>', '↩️').replaceAll('&nbsp;', ' ').replace(/<.*?>/g, '');
-                addValue('output', oString);
+                    + iList[i].rollovertext + '\t'
+                    + stringEffect.replace(/<ruby>(.*?)<rt>.*?<\/ruby>/g, '$1').replaceAll('</br>', '↩️').replaceAll('&nbsp;', ' ').replace(/<.*?>/g, '') + '\n';
+                oArray.push(oString);
+                logUpdate(tableName + '_processed', 1);
+            } else {
+                logUpdate(tableName + '_failed', 1);
+                logUpdate(tableName + '_processed', 1);
+                console.error('查询失败:' + iList[i]['@name']);
             }
         }
+        setValue('output', oArray.join('\n'));
+        disableProtect();
     }
-    disableProtect();
 }
 
 async function getProtos(isAll, iArray) {
@@ -91,9 +100,10 @@ async function getProtos(isAll, iArray) {
     }
     let isAction = document.getElementById('getProto').checked;
     if (isAction || isAll) {
-        let oArray = [];
+        let iList = [];
+        let tableName = 'tableProto';
         if (isAll) {
-            oArray = await getArray('proto', 'all');
+            iList = await getArray('proto', 'all');
             clearValue('output');
             clearNode('databox');
         } else {
@@ -102,37 +112,46 @@ async function getProtos(isAll, iArray) {
                 if (iData == "") continue;
                 let oData = await getProto(iData.toLowerCase());
                 if (!oData.isNull) {
-                    oArray.push(oData);
+                    iList.push(oData);
                 }
             }
+            appendNode('<table class="infoTable" id="' + tableName + '">', 'databox', 'div');
+            appendNode('<th class="icon">图标</th><th class="name">调用名</th><th class="local">中文名</th><th class="type">类型</th><th class="desc">描述</th><th class="effect">属性</th>', tableName, 'tr');
         }
-        if (oArray.length == 0) return;
+        if (iList.length == 0) return;
         enableProtect();
-        let tableName = 'tableProto';
-        appendNode('<table class="infoTable" id="' + tableName + '">', 'databox', 'div');
-        appendNode('<th class="icon">图标</th><th class="name">调用名</th><th class="local">中文名</th><th class="type">类型</th><th class="desc">描述</th><th class="effect">属性</th>',
-            tableName, 'tr');
-        addValue('output', '调用名\t中文名\t类型\t描述\t属性');
-        for (let i in oArray) {
-            if (!oArray[i].isNull) {
-                let stringAttribute = await getAttribute(oArray[i], false);
-                let oNode = getIcon(oArray[i])
-                    + '<td>' + oArray[i]['@name'] + '</td>'
-                    + '<td>' + getRuby(oArray[i].displayname, oArray[i]['@name']) + '</td>'
-                    + '<td>单位</td>'
-                    + '<td>' + oArray[i].rollovertext + '</td>'
-                    + '<td class="effect"><div>' + stringAttribute + '</div></td>';
-                appendNode(oNode, tableName, 'tr');
-                let oString = oArray[i]['@name'] + '\t'
-                    + (oArray[i].displayname ? oArray[i].displayname : oArray[i]['@name']) + '\t'
+        showNode('logger');
+        appendNode('正在查询单位: <a id="' + tableName + '_processed">0</a> / <a id="' + tableName + '_quest">0</a> , <a id="' + tableName + '_failed">0</a> Error', 'logger', 'div');
+        document.getElementById(tableName + '_quest').innerHTML = iList.length;
+        let oArray = ['调用名\t中文名\t类型\t描述\t属性'];
+        for (let i in iList) {
+            if (!iList[i].isNull) {
+                let stringAttribute = await getAttribute(iList[i], false);
+                if (!isAll) {
+                    let oNode = getIcon(iList[i])
+                        + '<td>' + iList[i]['@name'] + '</td>'
+                        + '<td>' + getRuby(iList[i].displayname, iList[i]['@name']) + '</td>'
+                        + '<td>单位</td>'
+                        + '<td>' + iList[i].rollovertext + '</td>'
+                        + '<td class="effect"><div class="maxHeight" ondblclick="toggleMaxHeight(this)">' + stringAttribute + '</div></td>';
+                    appendNode(oNode, tableName, 'tr');
+                }
+                let oString = iList[i]['@name'] + '\t'
+                    + (iList[i].displayname ? iList[i].displayname : iList[i]['@name']) + '\t'
                     + '单位' + '\t'
-                    + oArray[i].rollovertext + '\t'
-                    + stringAttribute.replace(/<ruby>(.*?)<rt>.*?<\/ruby>/g, '$1').replaceAll('</br>', '↩️').replaceAll('&nbsp;', ' ').replace(/<.*?>/g, '');
-                addValue('output', oString);
+                    + iList[i].rollovertext + '\t'
+                    + stringAttribute.replace(/<ruby>(.*?)<rt>.*?<\/ruby>/g, '$1').replaceAll('</br>', '↩️').replaceAll('&nbsp;', ' ').replace(/<.*?>/g, '') + '\n';
+                oArray.push(oString);
+                logUpdate(tableName + '_processed', 1);
+            } else {
+                logUpdate(tableName + '_failed', 1);
+                logUpdate(tableName + '_processed', 1);
+                console.error('查询失败:' + iList[i]['@name']);
             }
         }
+        setValue('output', oArray.join('\n'));
+        disableProtect();
     }
-    disableProtect();
 }
 
 async function getNuggets(isAll, iArray) {
@@ -142,9 +161,10 @@ async function getNuggets(isAll, iArray) {
     }
     let isAction = document.getElementById('getNugget').checked;
     if (isAction || isAll) {
-        let oArray = [];
+        let iList = [];
+        let tableName = 'tableNugget';
         if (isAll) {
-            oArray = await getArray('nugget', 'all');
+            iList = await getArray('nugget', 'all');
             clearValue('output');
             clearNode('databox');
         } else {
@@ -153,61 +173,134 @@ async function getNuggets(isAll, iArray) {
                 if (iData == "") continue;
                 let oData = await getNugget(iData.toLowerCase());
                 if (!oData.isNull) {
-                    oArray.push(oData);
+                    iList.push(oData);
                 }
             }
+            appendNode('<table class="infoTable" id="' + tableName + '">', 'databox', 'div');
+            appendNode('<th class="icon">图标</th><th class="name">调用名</th><th class="local">中文名</th><th class="type">类型</th><th class="desc">描述</th><th class="effect">效果</th>', tableName, 'tr');
         }
-        if (oArray.length == 0) return;
+        if (iList.length == 0) return;
         enableProtect();
-        let tableName = 'tableNugget';
-        appendNode('<table class="infoTable" id="' + tableName + '">', 'databox', 'div');
-        appendNode('<th class="icon">图标</th><th class="name">调用名</th><th class="local">中文名</th><th class="type">类型</th><th class="desc">描述</th><th class="effect">效果</th>',
-            tableName, 'tr');
-        addValue('output', '调用名\t中文名\t类型\t描述\t效果');
-        for (let i in oArray) {
-            let nuggetUint = await getProto(oArray[i].nuggetunit);
-            let stringEffects = await getEffects(oArray[i], true);
-            let oNode = getIcon(oArray[i])
-                + '<td>' + oArray[i].name + '</td>'
-                + '<td>' + getRuby(nuggetUint.displayname, nuggetUint['@name']) + '</td>'
-                + '<td>宝藏</td>'
-                + '<td>' + oArray[i].rolloverstring + '</td>'
-                + '<td class="effect"><div>' + stringEffects + '</div></td>';
-            appendNode(oNode, tableName, 'tr');
-            let oString = oArray[i].name + '\t'
-                + (nuggetUint.displayname ? nuggetUint.displayname : nuggetUint['@name']) + '\t'
-                + '宝藏' + '\t'
-                + oArray[i].rolloverstring + '\t'
-                + stringEffects.replace(/<ruby>(.*?)<rt>.*?<\/ruby>/g, '$1').replaceAll('</br>', '↩️').replaceAll('&nbsp;', ' ').replace(/<.*?>/g, '');
-            addValue('output', oString);
+        showNode('logger');
+        appendNode('正在查询宝藏: <a id="' + tableName + '_processed">0</a> / <a id="' + tableName + '_quest">0</a> , <a id="' + tableName + '_failed">0</a> Error', 'logger', 'div');
+        document.getElementById(tableName + '_quest').innerHTML = iList.length;
+        let oArray = ['调用名\t中文名\t类型\t描述\t效果'];
+        for (let i in iList) {
+            if (!iList[i].isNull) {
+                let nuggetUint = await getProto(iList[i].nuggetunit);
+                let stringEffects = await getEffects(iList[i], true);
+                if (!isAll) {
+                    let oNode = getIcon(iList[i])
+                        + '<td>' + iList[i].name + '</td>'
+                        + '<td>' + getRuby(nuggetUint.displayname, nuggetUint['@name']) + '</td>'
+                        + '<td>宝藏</td>'
+                        + '<td>' + iList[i].rolloverstring + '</td>'
+                        + '<td class="effect"><div class="maxHeight" ondblclick="toggleMaxHeight(this)">' + stringEffects + '</div></td>';
+                    appendNode(oNode, tableName, 'tr');
+                }
+                let oString = iList[i].name + '\t'
+                    + (nuggetUint.displayname ? nuggetUint.displayname : nuggetUint['@name']) + '\t'
+                    + '宝藏' + '\t'
+                    + iList[i].rolloverstring + '\t'
+                    + stringEffects.replace(/<ruby>(.*?)<rt>.*?<\/ruby>/g, '$1').replaceAll('</br>', '↩️').replaceAll('&nbsp;', ' ').replace(/<.*?>/g, '') + '\n';
+                oArray.push(oString);
+                logUpdate(tableName + '_processed', 1);
+            } else {
+                logUpdate(tableName + '_failed', 1);
+                logUpdate(tableName + '_processed', 1);
+                console.error('查询失败:' + iList[i].name);
+            }
         }
+        setValue('output', oArray.join('\n'));
+        disableProtect();
     }
-    disableProtect();
 }
 //提取文本
-async function getStrings(isAll) {
+async function getStrings() {
     if (version != getStorage('version')) {
         alert('当前数据版本:' + version + ',数据库版本:' + getStorage('version') + '\n请更新数据库');
         return;
     }
-    let isAction = document.getElementById('getTech').checked;
-    let oArray = [];
-    let iArray = await getArray('string', 'all');
-    for (let i in iArray) {
-        let string = iArray[i];
-        let text = string['@_locid'] + '\t' + returnNode(string['@symbol']) + '\t' + returnNode(string['#text']);
-        oArray.push(text);
+    clearValue('output');
+    clearNode('databox');
+    enableProtect();
+    showNode('logger');
+    let tableName = 'tableString';
+    let iList = await getArray('string', 'all');
+    appendNode('正在查询语言: <a id="' + tableName + '_processed">0</a> / <a id="' + tableName + '_quest">0</a> , <a id="' + tableName + '_failed">0</a> Error', 'logger', 'div');
+    document.getElementById(tableName + '_quest').innerHTML = iList.length;
+    let oArray = ['ID\tCString\tValue'];
+    for (let i in iList) {
+        let x = await getData('unkown', 'unkown');
+        let oData = iList[i];
+        let oString = oData['@_locid'] + '\t' + returnNode(oData['@symbol']) + '\t' + returnNode(oData['#text']);
+        oArray.push(oString);
+        logUpdate(tableName + '_processed', 1);
     }
-    setOuterHTML(oArray.join('\n'));
+    setValue('output', oArray.join('\n'));
+    disableProtect();
 }
 
-async function getUnitTypes(isAll) {
+async function getUnitTypes(isAll, iArray) {
     if (version != getStorage('version')) {
         alert('当前数据版本:' + version + ',数据库版本:' + getStorage('version') + '\n请更新数据库');
         return;
     }
-    let oArray = [];
-    let iArray = await getArray('unittype', 'all');
+    let isAction = document.getElementById('getUnitType').checked;
+    if (isAction || isAll) {
+        let iList1, iList2 = [];
+        let tableName = 'tableUnitType';
+        if (isAll) {
+            iList1 = await getArray('unittype', 'all');
+            clearValue('output');
+            clearNode('databox');
+        } else {
+            for (let i in iArray) {
+                let iData = iArray[i];
+                if (iData == "") continue;
+                let oData = await getData(iData.toLowerCase());
+                if (!oData.isNull) {
+                    iList1.push(oData);
+                }
+            }
+            appendNode('<table class="infoTable" id="' + tableName + '">', 'databox', 'div');
+            appendNode('<th class="name">调用名</th><th class="local">中文名</th><th class="effect">单位</th><th class="effect">科技</th>', tableName, 'tr');
+        }
+        if (iList1.length == 0) return;
+        enableProtect();
+        showNode('logger');
+        appendNode('正在查询单位类型: <a id="' + tableName + '_processed">0</a> / <a id="' + tableName + '_quest">0</a> , <a id="' + tableName + '_failed">0</a> Error', 'logger', 'div');
+        document.getElementById(tableName + '_quest').innerHTML = iList1.length;
+        let oArray = ['调用名\t中文名\t单位\t科技'];
+        for (let i in iList1) {
+            if (!iList1[i].isNull) {
+                let nuggetUint = await getProto(iList1[i].nuggetunit);
+                let stringEffects = await getEffects(iList1[i], true);
+                if (!isAll) {
+                    let oNode = getIcon(iList1[i])
+                        + '<td>' + iList1[i].name + '</td>'
+                        + '<td>' + getRuby(nuggetUint.displayname, nuggetUint['@name']) + '</td>'
+                        + '<td>宝藏</td>'
+                        + '<td>' + iList1[i].rolloverstring + '</td>'
+                        + '<td class="effect"><div class="maxHeight" ondblclick="toggleMaxHeight(this)">' + stringEffects + '</div></td>';
+                    appendNode(oNode, tableName, 'tr');
+                }
+                let oString = iList1[i].name + '\t'
+                    + (nuggetUint.displayname ? nuggetUint.displayname : nuggetUint['@name']) + '\t'
+                    + '宝藏' + '\t'
+                    + iList1[i].rolloverstring + '\t'
+                    + stringEffects.replace(/<ruby>(.*?)<rt>.*?<\/ruby>/g, '$1').replaceAll('</br>', '↩️').replaceAll('&nbsp;', ' ').replace(/<.*?>/g, '') + '\n';
+                oArray.push(oString);
+                logUpdate(tableName + '_processed', 1);
+            } else {
+                logUpdate(tableName + '_failed', 1);
+                logUpdate(tableName + '_processed', 1);
+                console.error('查询失败:' + iList1[i].name);
+            }
+        }
+        setValue('output', oArray.join('\n'));
+        disableProtect();
+    }
     for (let i in iArray) {
         let iData = iArray[i];
         let text = iData.name + '\t' + iData.displayname + '\t' + iData.list.join(',');

@@ -1,20 +1,4 @@
-//获取json
-async function getJson(url) {
-    return new Promise(function (resolve, reject) {
-        $.get(url, function (data) {
-            resolve(data);
-        }).fail(function () {
-            appendNode('<a style="color:red;">请求失败:' + url + '</a>', 'logger', 'div');
-            resolve(null);
-        });
-    });
-}
-//返回一个节点或者返回空
-function returnNode(node) {
-    if (!node)
-        return 'null';
-    return node;
-}
+
 //返回一个数组
 function returnList(node) {
     if (Array.isArray(node)) {
@@ -83,16 +67,23 @@ function enableProtect() {
 function disableProtect() {
     document.getElementById('protectbox').classList.add('hidden');
 }
-
+//切换限高
+function toggleMaxHeight(node) {
+    let classList = node.classList;
+    if (classList.contains('maxHeight')) {
+        classList.remove('maxHeight');
+    } else {
+        classList.add('maxHeight');
+    }
+}
 //获取/追加/设置/清除元素值
 function getValue(id) {
-    let textArray = returnList(document.getElementById(id).value.replace('\r', '\n').split("\n"));
+    let textArray = returnList(document.getElementById(id).value.replaceAll('\r', '\n').split("\n"));
     return textArray.filter(notEmpty);
 }
 
 function addValue(id, text) {
-    let textArray = getValue(id);
-    textArray.push(text);
+    let textArray = [document.getElementById(id).value, text];
     document.getElementById(id).value = textArray.join('\n');
 }
 
@@ -113,6 +104,12 @@ function appendNode(text, father, type) {
 //清除元素
 function clearNode(father) {
     document.getElementById(father).innerHTML = '';
+}
+//复制元素
+function copy(node) {
+    node.select();
+    navigator.clipboard.writeText(node.value);
+    alert("复制成功");
 }
 //生成注释
 function getRuby(lower, upper) {
@@ -158,5 +155,30 @@ function notEmpty(value) {
             return false;
         default:
             return true;
+    }
+}
+
+//切换显示ID
+function toggleID() {
+    let styleSheet = getStyleSheet('ruby');
+    let checkbox = document.getElementById('showID');
+    if (checkbox.checked) {
+        styleSheet.disabled = true;
+        checkbox.checked = true;
+    } else {
+        styleSheet.disabled = false;
+        checkbox.checked = false;
+    }
+}
+//切换行号限制
+function changeMaxHeight() {
+    let styleSheet = getStyleSheet('maxHeight');
+    let checkbox = document.getElementById('enableMaxHeight');
+    if (checkbox.checked) {
+        styleSheet.disabled = false;
+        checkbox.checked = true;
+    } else {
+        styleSheet.disabled = true;
+        checkbox.checked = false;
     }
 }

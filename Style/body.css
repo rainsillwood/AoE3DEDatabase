@@ -12,6 +12,12 @@
     opacity: 75%;
     overflow-y: auto;
     overflow-x: hidden;
+    padding: 20px;
+}
+
+#helpbox>p {
+    width: 100%;
+    word-wrap: break-word;
 }
 
 #protectbox {

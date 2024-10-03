@@ -103,7 +103,7 @@ async function getAction(id) {
     if (!oData) oData = { 'displayname': '<del>' + id + '</del>', 'name': { '#text': id }, 'isNull': true };
     return oData;
 }
-//返回操作
+//返回战术
 async function getTactic(id) {
     if (!id) {
         return { 'displayname': '空', '#text': 'null', 'isNull': true };

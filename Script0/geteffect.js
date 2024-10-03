@@ -338,7 +338,7 @@ async function getEffect(effect, techName) {
                 target,
                 status
             ], relativity.change);
-            oString = '★' + oString;
+            oString = '✔️' + oString;
             break;
         }
         case 'RandomTech': {//激活随机科技 DEHCPokerShadow
@@ -350,88 +350,88 @@ async function getEffect(effect, techName) {
                 }
                 oString = oString + '：[' + techList.join(', ') + ']';
             }
-            oString = '☆' + oString;
+            oString = '❓' + oString;
             break;
         }
         case 'CreatePower': {//激活能力 HCXPNationalRedoubt
             let protoPower = await getTarget(effect['@protopower'], 'Power');
             oString = '激活能力：' + protoPower;
-            oString = '☆' + oString;
+            oString = '❓' + oString;
             break;
         }
         case 'CommandAdd': {//增加命令 DEHCEarlyFort
             oString = actor + ': 增加命令' + targetProto + targetTech + targetCommand;
-            oString = '☆' + oString;
+            oString = '❓' + oString;
             break;
         }
         case 'CommandRemove': {//移除命令 DEHCFedGoldRush
             oString = actor + ': 移除命令' + targetProto + targetTech + targetCommand;
-            oString = '☆' + oString;
+            oString = '❓' + oString;
             break;
         }
         case 'TransformUnit': {//置换单位 HCXPTercioTactics
             oString = '所有' + fromProto + '转变成' + toProto;
-            oString = '☆' + oString;
+            oString = '❓' + oString;
             break;
         }
         case 'ReplaceUnit': {//转换单位 DEHCPlanVeracruz
             oString = '所有' + fromProto + '转变成' + toProto;
-            oString = '☆' + oString;
+            oString = '❓' + oString;
             break;
         }
         case 'SetName': {//更改名称 HCAdvancedArsenal
             let newName = await getString(effect['@newname']);
             oString = targetTech + targetProto + ': 更名为 ' + newName;
-            oString = '☆' + oString;
+            oString = '❓' + oString;
             break;
         }
         case 'Sound': {//播放音频 DEVictorianEraDiscoveryShadow
             oString = '播放音频：' + effect['#text'];
-            oString = '☆' + oString;
+            oString = '❓' + oString;
             break;
         }
         case 'TextOutput': {//输出消息 HCAdvancedArsenal
             oString = await getString(effect['#text']);
             oString = '输出消息：『' + oString.replace('%1!s!', techName) + '』';
-            oString = '☆' + oString;
+            oString = '❓' + oString;
             break;
         }
         case 'TextOutputTechName': {//输出消息 DEHCChurchWagon
             oString = await getString(effect['#text']);
             oString = '输出消息：『' + oString.replace('%1!s!', techName) + '』';
-            oString = '☆' + oString;
+            oString = '❓' + oString;
             break;
         }
         case 'TextEffectOutput': {//输出消息 DEChurchRisorgimentoBrazil
             let iString = await getString(effect['@playermsg']);
             oString = await getString(effect['@selfmsg']);
             oString = '输出消息：『' + oString + '』/『' + iString.replace('%s', '玩家1') + '』';
-            oString = '☆' + oString;
+            oString = '❓' + oString;
             break;
         }
         case 'InitiateRevolution': {//发起革命 DERevolutionMXBajaCalifornia
             oString = '发起革命：' + (!targetProto ? ' 无市民 ' : targetUnit.replace('<ruby><del>none</del><rt>-none-</rt></ruby>', ' 无市民 ')) + '，';
             oString = oString + (effect['@savedeck'] == 'True' ? '' : '不') + '保存卡组，';
-            oString = '☆' + oString + (effect['@extdeck'] == 'True' ? '' : '不') + '启用新卡组';
+            oString = '❓' + oString + (effect['@extdeck'] == 'True' ? '' : '不') + '启用新卡组';
             break;
         }
         case 'RevertRevolution': {//回归 DEReturnMXYucatan
             let iString = await getString(effect['@playermsg']);
             oString = await getString(effect['@selfmsg']);
             oString = '回归：『' + oString + '』/『' + iString.replace('%s', 'Player') + '』';
-            oString = '☆' + oString;
+            oString = '❓' + oString;
             break;
         }
         case 'ResourceExchange': {//资源交换1换1 YPHCEmpressDowager
             oString = '所有' + fromResource + '都将换成 ' + multiplier + ' 的' + toResource;
-            oString = '☆' + oString;
+            oString = '❓' + oString;
             break;
         }
         case 'ResourceExchange2': {//资源交换1换2 DENatAkanPalmOil
             let toResource2 = await getTarget(effect['@toresource2'], 'Resource');
             oString = '所有' + fromResource + '都将换成' + multiplier + '的' + toResource;
             oString = oString + '和 ' + multiplier2 + ' 的' + toResource2;
-            oString = '☆' + oString;
+            oString = '❓' + oString;
             break;
         }
         case 'SetOnBuildingDeathTech': {//建筑死亡时激活 YPHCCalltoArms1
@@ -441,50 +441,50 @@ async function getEffect(effect, techName) {
                 oString = oString + '-' + effect['@amount2'] + '(存疑)';
             }
             oString = oString + ' 次';
-            oString = '☆' + oString;
+            oString = '❓' + oString;
             break;
         }
         case 'ResetHomeCityCardCount': {//重置指定船运次数 DEHCShipMineWagon3
             oString = targetTech + '：重置船运次数';
-            oString = '☆' + oString;
+            oString = '❓' + oString;
             break;
         }
         case 'ResetResendableCards': {//重置可重复船运次数 DEHCREVFedMXPlanMonterrey
             oString = '重置所有可重复运送船运次数';
-            oString = '☆' + oString;
+            oString = '❓' + oString;
             break;
         }
         case 'SetOnShipmentSentTech': {//每次船运抵达时激活科技 DEHCFulaniInvasion
             let target = await getTarget(effect['#text'], 'Tech');
             oString = '每次船运抵达时激活科技' + target + ' ' + amount + ' 次';
-            oString = '☆' + oString;
+            oString = '❓' + oString;
             break;
         }
         case 'SetOnTechResearchedTech': {//每次完成研究时激活科技 DEHCGondolas
             let target = await getTarget(effect['#text'], 'Tech');
             oString = '每次完成研究时激活科技' + target + ' ' + amount + '次';
-            oString = '☆' + oString;
+            oString = '❓' + oString;
             break;
         }
         case 'ResourceInventoryExchange': {//卖牲畜 DERoyalBanquet
             oString = '所有' + targetUnitType + '储存的' + fromResource + '兑换为 ' + multiplier + ' 的' + toResource;
-            oString = '☆' + oString;
+            oString = '❓' + oString;
             break;
         }
         case 'SharedLOS': {//获得所有单位的视野 Spies
             oString = '获得所有单位的视野';
-            oString = '☆' + oString;
+            oString = '❓' + oString;
             break;
         }
         case 'Blockade': {//封锁工具 HCBlockade
             oString = effect['@delay'] + ' 秒后禁止敌对发出船运';
-            oString = '☆' + oString;
+            oString = '❓' + oString;
             break;
         }
         case 'SetAge': {//设置时代 ypConsulateJapaneseMeijiRestoration
             oString = await getCString(effect['#text']);
             oString = '设置时代为 ' + oString;
-            oString = '☆' + oString;
+            oString = '❓' + oString;
             break;
         }
         case 'AddHomeCityCard': {//启用船运(需启用额外船运卡槽) DEPoliticianFederalNewYork
@@ -496,7 +496,7 @@ async function getEffect(effect, techName) {
             oString = oString + targetTech;
             oString = oString + maxcount;
             oString = oString + infiniteinlastage ? ' 🔄' : '';
-            oString = '☆' + oString;
+            oString = '❓' + oString;
             break;
         }
         case 'AddTrickleByResource': {//增加百分比细流 DENatBerberSaltCaravans
@@ -506,7 +506,7 @@ async function getEffect(effect, techName) {
             oString = oString + '根据' + srcResource1 + (srcResource2 ? ('+' + srcResource2) : '') + getSpan(minsrcvalue, maxsrcvalue, 'left');
             oString = oString + '获得 ' + getSpan(minvalue, maxvalue, 'right') + targetResource + '细流';
             oString = oString + '</span>';
-            oString = '☆' + oString;
+            oString = '❓' + oString;
             break;
         }
         case 'ForbidTech': {//DECircleArmyShadow1Switch
@@ -527,17 +527,17 @@ async function getEffect(effect, techName) {
     }
     switch (subType) {
         case 'RevealLOS': {//临时视野 DEHCUSExpedition
-            oString = '★' + (actor + '：' + (amount.gt(0) ? '获得视野' : '显示位置') + '');
+            oString = '✔️' + (actor + '：' + (amount.gt(0) ? '获得视野' : '显示位置') + '');
             break;
         }
         case 'EnableTradeRouteLOS': {
-            oString = '★' + ((amount.gt(0) ? '获得' : '关闭') + '贸易路线视野');
+            oString = '✔️' + ((amount.gt(0) ? '获得' : '关闭') + '贸易路线视野');
             break;
         }
         case 'AllowedAge': {//更改解锁时代 HCAdvancedArsenal
             oString = actor + '：推迟 ' + amount + ' 个时代启用';
             oString = oString.replace('推迟 -', '提前 ');
-            oString = '☆' + oString;
+            oString = '❓' + oString;
             break;
         }
         case 'Enable': {//启用/禁用单位 HCAdvancedArsenal
@@ -546,7 +546,7 @@ async function getEffect(effect, techName) {
             oString = replaceData(oString, [
                 actor
             ], relativity.change);
-            oString = '★' + oString;
+            oString = '✔️' + oString;
             break;
         }
         case 'ActionEnable': {//DEHCNewSpainViceroyalty
@@ -556,7 +556,7 @@ async function getEffect(effect, techName) {
                 actor,
                 targetAction
             ], relativity.change);
-            oString = '★' + oString;
+            oString = '✔️' + oString;
             break;
         }
         case 'TacticEnable': {//DEHCNewSpainViceroyalty
@@ -566,7 +566,7 @@ async function getEffect(effect, techName) {
                 actor,
                 targetTactic
             ], relativity.change);
-            oString = '☆' + oString;
+            oString = '❓' + oString;
             break;
         }
         case 'EnableAutoCrateGather': {//DEHCChichaBrewing
@@ -576,7 +576,7 @@ async function getEffect(effect, techName) {
                 actor,
                 targetAction
             ], relativity.change);
-            oString = '★' + oString;
+            oString = '✔️' + oString;
             break;
         }
         case 'FreeHomeCityUnit': {//运送单位 HCRobberBarons
@@ -585,7 +585,7 @@ async function getEffect(effect, techName) {
                 amount,
                 targetUnit
             ], relativity.change);
-            oString = '★' + oString;
+            oString = '✔️' + oString;
             break;
         }
         case 'FreeHomeCityUnitIfTechObtainable': {//启用指定科技时运送单位 HCAdvancedArsenal
@@ -595,7 +595,7 @@ async function getEffect(effect, techName) {
                 targetUnit
             ], relativity.change);
             oString = '启用科技' + targetTech + '时：' + oString;
-            oString = '☆' + oString;
+            oString = '❓' + oString;
             break;
         }
         case 'FreeHomeCityUnitByTechActiveCount': {//根据生效次数运送单位 DEHCFedNewYorkZouaves
@@ -605,7 +605,7 @@ async function getEffect(effect, techName) {
                 targetUnit
             ], relativity.change);
             oString = '根据' + targetTech + '已生效次数，' + oString;
-            oString = '☆' + oString;
+            oString = '❓' + oString;
             break;
         }
         case 'FreeHomeCityUnitTechActiveCycle': {//数次递减后重置运送单位循环 DEHCRollingArtillery
@@ -616,7 +616,7 @@ async function getEffect(effect, techName) {
             ], relativity.change);
             oString = '首次' + oString + '，其后每次减少 1 个，';
             oString = oString + '每 ' + amount + ' 次后重置';
-            oString = '☆' + oString;
+            oString = '❓' + oString;
             break;
         }
         case 'FreeHomeCityUnitByShipmentCount': {//根据船运次数运送单位 DEHCFedDelawareBlues
@@ -626,7 +626,7 @@ async function getEffect(effect, techName) {
                 targetUnit
             ], relativity.change);
             oString = '根据已运送船运次数，' + oString;
-            oString = '☆' + oString;
+            oString = '❓' + oString;
             break;
         }
         case 'FreeHomeCityUnitByKBStat': {//根据计分状态运送单位 DEHCOromoMigrations
@@ -637,7 +637,7 @@ async function getEffect(effect, techName) {
             ], relativity.change);
             oString = '根据统计 ' + kbstat + ' ，' + oString + ',';
             oString = oString + '最多 ' + unitcap + ' 个';
-            oString = '☆' + oString;
+            oString = '❓' + oString;
             break;
         }
         case 'FreeHomeCityUnitByKBQuery': {//根据计分统计运送单位 DEHCRitualGladiators
@@ -649,7 +649,7 @@ async function getEffect(effect, techName) {
             ], relativity.change);
             oString = '根据' + queryUnitType + ' 的 ' + querystate + ' 数量' + '，' + oString + ',';
             oString = oString + '最多 ' + unitcap + ' 个';
-            oString = '☆' + oString;
+            oString = '❓' + oString;
             break;
         }
         case 'FreeHomeCityUnitResource': {//运送携带资源单位 HCShipCows
@@ -660,7 +660,7 @@ async function getEffect(effect, techName) {
                 resvalue,
                 targetResource
             ], relativity.change);
-            oString = '★' + oString;
+            oString = '✔️' + oString;
             break;
         }
         case 'FreeHomeCityUnitResourceIfTechObtainable': {//激活指定科技时运送携带资源单位 DEHCAltaCalifornia
@@ -672,7 +672,7 @@ async function getEffect(effect, techName) {
                 targetResource
             ], relativity.change);
             oString = '启用科技' + targetTech + '时：' + oString;
-            oString = '☆' + oString;
+            oString = '❓' + oString;
             break;
         }
         case 'FreeHomeCityUnitResourceIfTechActive': {//启用指定科技时运送携带资源单位 DENatJagiellonInheritance
@@ -684,7 +684,7 @@ async function getEffect(effect, techName) {
                 targetResource
             ], relativity.change);
             oString = '科技' + targetTech + '生效时：' + oString;
-            oString = '☆' + oString;
+            oString = '❓' + oString;
             break;
         }
         case 'FreeHomeCityUnitByShipmentCountResource': {//根据船运次数运送携带资源单位 DEHCFedFloridaCowhunters
@@ -696,7 +696,7 @@ async function getEffect(effect, techName) {
                 targetResource
             ], relativity.change);
             oString = '根据已运送船运次数，' + oString;
-            oString = '☆' + oString;
+            oString = '❓' + oString;
             break;
         }
         case 'FreeHomeCityUnitToGatherPoint': {//运送携带资源单位至收集点 DEHCShipZebu3
@@ -709,7 +709,7 @@ async function getEffect(effect, techName) {
                 targetResource
             ], relativity.change);
             oString = '于' + gpUnitType + '处：' + oString;
-            oString = '☆' + oString;
+            oString = '❓' + oString;
             break;
         }
         case 'FreeHomeCityUnitRandom': {//运送随机单位 HCXPBanditGang
@@ -718,7 +718,7 @@ async function getEffect(effect, techName) {
                 amount,
                 targetUnit
             ], relativity.change);
-            oString = '★' + oString;
+            oString = '✔️' + oString;
             break;
         }
         case 'FreeHomeCityUnitShipped': {//运送船载单位 YPHCWokouJapanese1
@@ -730,7 +730,7 @@ async function getEffect(effect, techName) {
                 amount2,
                 targetUnitType2
             ], relativity.change);
-            oString = '☆' + oString;
+            oString = '❓' + oString;
             break;
         }
         case 'FreeHomeCityUnitByUnitCount': {//根据单位数量运送单位 DEHCSoldierTorps
@@ -741,7 +741,7 @@ async function getEffect(effect, techName) {
                 targetUnit,
                 targetCountType
             ], relativity.change);
-            oString = '☆' + oString;
+            oString = '❓' + oString;
             break;
         }
         case 'Resource': {//运送资源 
@@ -751,7 +751,7 @@ async function getEffect(effect, techName) {
                 targetResource,
                 amount
             ], relativity.change);
-            oString = '☆' + oString;
+            oString = '❓' + oString;
             break;
         }
         case 'ResourceIfTechObtainable': {//启用指定科技时运送资源 HCShipBalloons
@@ -762,7 +762,7 @@ async function getEffect(effect, techName) {
                 amount
             ], relativity.change);
             oString = '启用科技' + targetTech + '时：' + oString;
-            oString = '☆' + oString;
+            oString = '❓' + oString;
             break;
         }
         case 'ResourceIfTechActive': {//启用指定科技时运送资源 DENatJagiellonInheritance
@@ -773,7 +773,7 @@ async function getEffect(effect, techName) {
                 amount
             ], relativity.change);
             oString = '科技' + targetTech + '生效时：' + oString;
-            oString = '☆' + oString;
+            oString = '❓' + oString;
             break;
         }
         case 'ResourceByKBStat': {//根据计分统计运送资源 HCXPGreatHunter
@@ -786,7 +786,7 @@ async function getEffect(effect, techName) {
             ], relativity.change);
             oString = '根据统计 ' + kbstat + ' ，' + oString + ',';
             oString = oString + '最多 ' + resourcecap;
-            oString = '☆' + oString;
+            oString = '❓' + oString;
             break;
         }
         case 'ResourceByKBQuery': {//根据计分数量运送资源 DEHCTripToJerusalem
@@ -800,7 +800,7 @@ async function getEffect(effect, techName) {
             ], relativity.change);
             oString = '根据' + queryUnitType + ' 的 ' + querystate + ' 数量' + '，' + oString + ',';
             oString = oString + '最多 ' + resourcecap;
-            oString = '☆' + oString;
+            oString = '❓' + oString;
             break;
         }
         case 'ResourceByUnitCount': {//根据单位数量运送资源 DEHCFedTextileMill
@@ -811,7 +811,7 @@ async function getEffect(effect, techName) {
                 amount
             ], relativity.change);
             oString = '地图上每存在一' + targetUnit + '，' + oString;
-            oString = '☆' + oString;
+            oString = '❓' + oString;
             break;
         }
         case 'ResourceAsCratesByShipmentCount': {//根据船运次数运送携带资源箱子 DEHCREVMXMayaCeramics
@@ -822,7 +822,7 @@ async function getEffect(effect, techName) {
                 targetResource
             ], relativity.change);
             oString = '根据已运送船运次数，' + oString.replace('+', '');
-            oString = '☆' + oString;
+            oString = '❓' + oString;
             break;
         }
         case 'ResourceReturn': {//设置返还资源 DEHCVasa
@@ -832,7 +832,7 @@ async function getEffect(effect, techName) {
                 relativity.value,
                 targetResource
             ], relativity.change);
-            oString = '★' + oString;
+            oString = '✔️' + oString;
             break;
         }
         case 'ResourceReturnRate': {//设置返还资源率 DEHCTEAMHausaGates
@@ -842,7 +842,7 @@ async function getEffect(effect, techName) {
                 rate + '%',
                 targetResource
             ], relativity.change);
-            oString = '☆' + oString;
+            oString = '❓' + oString;
             break;
         }
         case 'ResourceReturnRateTotalCost': {//设置所有返还资源率 DEHCTEAMHausaGates
@@ -852,7 +852,7 @@ async function getEffect(effect, techName) {
                 rate + '%',
                 ' 所有 '
             ], relativity.change);
-            oString = '☆' + oString;
+            oString = '❓' + oString;
             break;
         }
         case 'InventoryAmount': {//携带资源提升 DEHCLevantineTrade
@@ -863,7 +863,7 @@ async function getEffect(effect, techName) {
                 targetResource,
                 relativity.value
             ], relativity.change);
-            oString = '★' + oString;
+            oString = '✔️' + oString;
             break;
         }
         case 'PopulationCap': {//人口上限 ImpImmigrants
@@ -873,7 +873,7 @@ async function getEffect(effect, techName) {
                 relativity.value
             ], relativity.change);
             oString = oString.replace('最大', '');
-            oString = '☆' + oString;
+            oString = '❓' + oString;
             break;
         }
         case 'PopulationCapExtra': {//额外人口上限 deUnknownOverpop
@@ -882,7 +882,7 @@ async function getEffect(effect, techName) {
                 actor,
                 relativity.value
             ], relativity.change);
-            oString = '★' + oString;
+            oString = '✔️' + oString;
             break;
         }
         case 'PopulationCapBonus': {//额外人口上限 ypPopulationCapBonus
@@ -891,7 +891,7 @@ async function getEffect(effect, techName) {
                 actor,
                 relativity.value
             ], relativity.change);
-            oString = '☆' + oString;
+            oString = '❓' + oString;
             break;
         }
         case 'PopulationCapAddition': {//提供人口空间 FrontierBlockhouse
@@ -900,7 +900,7 @@ async function getEffect(effect, techName) {
                 actor,
                 relativity.value
             ]);
-            oString = '★' + oString;
+            oString = '✔️' + oString;
             break;
         }
         case 'PopulationCount': {//占用人口空间 DEHCSiegeConstruction
@@ -910,7 +910,7 @@ async function getEffect(effect, techName) {
                 relativity.value
             ]);
             oString = oString.replace('提供', '占用');
-            oString = '☆' + oString;
+            oString = '❓' + oString;
             break;
         }
         case 'BuildLimit': {//建造上限 HCXPMarauders
@@ -919,7 +919,7 @@ async function getEffect(effect, techName) {
                 actor,
                 relativity.value
             ]);
-            oString = '★' + oString;
+            oString = '✔️' + oString;
             break;
         }
         case 'BuildLimitIncrement': {//建造上限增加 DEIncreaseMayaLimit
@@ -928,13 +928,13 @@ async function getEffect(effect, techName) {
                 actor,
                 relativity.value
             ]);
-            oString = '☆' + oString;
+            oString = '❓' + oString;
             break;
         }
         case 'AddSharedBuildLimitUnitType': {//Age0Russian
             oString = actor + '：建造数量上限';
             oString = oString + (amount.gt(0) ? '增加' : '取消') + '共享'
-            oString = '☆' + oString;
+            oString = '❓' + oString;
             break;
         }
         case 'SharedBuildLimitUnit': {//Age0Russian
@@ -943,7 +943,7 @@ async function getEffect(effect, techName) {
                 actor,
                 relativity.value
             ]);
-            oString = '★' + oString;
+            oString = '✔️' + oString;
             break;
         }
         case 'TrainPoints': {//训练时间 DEHCSiegeConstruction
@@ -952,7 +952,7 @@ async function getEffect(effect, techName) {
                 actor,
                 relativity.value
             ], relativity.change);
-            oString = '★' + oString;
+            oString = '✔️' + oString;
             break;
         }
         case 'BuildPoints': {//建造时间 Bastion
@@ -961,7 +961,7 @@ async function getEffect(effect, techName) {
                 actor,
                 relativity.value
             ], relativity.change);
-            oString = '★' + oString;
+            oString = '✔️' + oString;
             break;
         }
         case 'ResearchPoints': {//研究时间 ChurchMissionFervor
@@ -970,7 +970,7 @@ async function getEffect(effect, techName) {
                 actor,
                 relativity.value
             ], relativity.change);
-            oString = '★' + oString;
+            oString = '✔️' + oString;
             break;
         }
         case 'BuildBounty': {//建造回馈 DEHCFedMXBustamante
@@ -979,7 +979,7 @@ async function getEffect(effect, techName) {
                 actor,
                 relativity.value
             ], relativity.change);
-            oString = '★' + oString;
+            oString = '✔️' + oString;
             break;
         }
         case 'KillBounty': {//击杀回馈 DEHCFedMXBustamante
@@ -988,7 +988,7 @@ async function getEffect(effect, techName) {
                 actor,
                 relativity.value
             ], relativity.change);
-            oString = '★' + oString;
+            oString = '✔️' + oString;
             break;
         }
         case 'Cost': {//成本 DEHCFedMXBustamante
@@ -999,7 +999,7 @@ async function getEffect(effect, techName) {
                 targetResource,
                 relativity.value
             ], relativity.change);
-            oString = '★' + oString;
+            oString = '✔️' + oString;
             break;
         }
         case 'Hitpoints': {//生命 DEHCFedMXBustamante
@@ -1008,13 +1008,13 @@ async function getEffect(effect, techName) {
                 actor,
                 relativity.value
             ], relativity.change);
-            oString = '★' + oString;
+            oString = '✔️' + oString;
             break;
         }
         case 'Lifespan': {//存在时间 DEHCObservers
             oString = actor + '：存在时间 +' + relativity.value;
             oString = oString.replace('+-', '-');
-            oString = '☆' + oString;
+            oString = '❓' + oString;
             break;
         }
         case 'Armor': {//护甲 DEHCCentSuisses
@@ -1023,7 +1023,7 @@ async function getEffect(effect, techName) {
                 actor,
                 relativity.value
             ], relativity.change);
-            oString = '★' + oString;
+            oString = '✔️' + oString;
             break;
         }
         case 'ArmorSpecific': {//额外护甲 DEHCDignitaries
@@ -1034,7 +1034,7 @@ async function getEffect(effect, techName) {
                 relativity.value,
                 effect['@newtype']
             ], relativity.change);
-            oString = '★' + oString;
+            oString = '✔️' + oString;
             break;
         }
         case 'MaximumVelocity': {//速度 DEChurchTeutonicKnights
@@ -1043,7 +1043,7 @@ async function getEffect(effect, techName) {
                 actor,
                 relativity.value
             ], relativity.change);
-            oString = '★' + oString;
+            oString = '✔️' + oString;
             break;
         }
         case 'LOS': {//视野 DEHCFlintlockRockets
@@ -1052,7 +1052,7 @@ async function getEffect(effect, techName) {
                 actor,
                 relativity.value
             ], relativity.change);
-            oString = '★' + oString;
+            oString = '✔️' + oString;
             break;
         }
         case 'MaximumRange': {//最大范围 DEVeteranAzaps
@@ -1063,7 +1063,7 @@ async function getEffect(effect, techName) {
                 targetAction,
                 relativity.value
             ], relativity.change);
-            oString = '★' + oString;
+            oString = '✔️' + oString;
             break;
         }
         case 'MinimumRange': {//最小范围 DEHCCaseShot
@@ -1074,7 +1074,7 @@ async function getEffect(effect, techName) {
                 targetAction,
                 relativity.value
             ], relativity.change);
-            oString = '★' + oString;
+            oString = '✔️' + oString;
             break;
         }
         case 'RateOfFire': {//攻击间隔 DEHCGrapeshot
@@ -1085,7 +1085,7 @@ async function getEffect(effect, techName) {
                 targetAction,
                 relativity.value
             ], relativity.change);
-            oString = '★' + oString;
+            oString = '✔️' + oString;
             break;
         }
         case 'InventoryRate': {//增肥效率 DEHCBarbacoa
@@ -1097,7 +1097,7 @@ async function getEffect(effect, techName) {
                 targetUnit,
                 relativity.value
             ], relativity.change);
-            oString = '★' + oString;
+            oString = '✔️' + oString;
             break;
         }
         case 'WorkRate': {//工作效率 DEHCMedicineWheels
@@ -1109,7 +1109,7 @@ async function getEffect(effect, techName) {
                 targetUnit,
                 relativity.value
             ], relativity.change);
-            oString = '★' + oString;
+            oString = '✔️' + oString;
             break;
         }
         case 'WorkRateSpecific': {//单一工作效率 DEHCREVMXTextileMills
@@ -1121,7 +1121,7 @@ async function getEffect(effect, techName) {
                 relativity.value,
                 targetResource
             ], relativity.change);
-            oString = '★' + oString;
+            oString = '✔️' + oString;
             break;
         }
         case 'CommunityPlazaWeight': {//社区广场工作权重 DEHCMedicineWheels
@@ -1130,7 +1130,7 @@ async function getEffect(effect, techName) {
                 actor,
                 relativity.value
             ], relativity.change);
-            oString = '★' + oString;
+            oString = '✔️' + oString;
             break;
         }
         case 'BuildingWorkRate': {//训练研究效率 YPHCBakufu
@@ -1139,7 +1139,7 @@ async function getEffect(effect, techName) {
                 actor,
                 relativity.value,
             ], relativity.change);
-            oString = '★' + oString;
+            oString = '✔️' + oString;
             break;
         }
         case 'Yield': {//资源产量 DEHCEnvironmentalism
@@ -1151,7 +1151,7 @@ async function getEffect(effect, techName) {
                 targetUnit,
                 relativity.value,
             ], relativity.change);
-            oString = '★' + oString;
+            oString = '✔️' + oString;
             break;
         }
         case 'ResourceTrickleRate': {//资源细流 XPTrickle
@@ -1162,7 +1162,7 @@ async function getEffect(effect, techName) {
                 targetResource,
                 relativity.value,
             ], relativity.change);
-            oString = '★' + oString;
+            oString = '✔️' + oString;
             break;
         }
         case 'MinimumResourceTrickleRate': {//最小资源细流 XPTrickle
@@ -1173,7 +1173,7 @@ async function getEffect(effect, techName) {
                 targetResource,
                 relativity.value,
             ], relativity.change);
-            oString = '★' + oString;
+            oString = '✔️' + oString;
             break;
         }
         case 'MaximumResourceTrickleRate': {//最大资源细流 XPTrickle
@@ -1184,7 +1184,7 @@ async function getEffect(effect, techName) {
                 targetResource,
                 relativity.value,
             ], relativity.change);
-            oString = '★' + oString;
+            oString = '✔️' + oString;
             break;
         }
         case 'DamageTimeoutTrickle': {//无伤资源流
@@ -1192,7 +1192,7 @@ async function getEffect(effect, techName) {
             oString = oString + BigNumber(effect['@timeout']) + ' 秒内未受到伤害，';
             oString = oString + targetResource + '细流';
             oString = oString + ' +' + relativity.value;
-            oString = '☆' + oString;
+            oString = '❓' + oString;
             //DEMonasteryPhanarHesychasm{"target":{{"_type":{"Player"},"_type":{"Data",['@amount']":{"2.50","_subtype":{"DamageTimeoutTrickle","_resource":{"XP","_timeout":{"30.00","_relativity":{"Absolute"}
             break;
         }
@@ -1204,7 +1204,7 @@ async function getEffect(effect, techName) {
                 targetAction,
                 relativity.value,
             ], relativity.change);
-            oString = '★' + oString;
+            oString = '✔️' + oString;
             break;
         }
         case 'DamageCap': {//伤害上限 ypMonasteryKillingBlowUpgrade
@@ -1215,7 +1215,7 @@ async function getEffect(effect, techName) {
                 targetAction,
                 relativity.value,
             ], relativity.change);
-            oString = '★' + oString;
+            oString = '✔️' + oString;
             break;
         }
         case 'DamageBonus': {//伤害倍率 Rifling
@@ -1227,7 +1227,7 @@ async function getEffect(effect, techName) {
                 targetUnit,
                 relativity.value,
             ], relativity.change);
-            oString = '★' + oString;
+            oString = '✔️' + oString;
             break;
         }
         case 'DamageArea': {//伤害范围 HCXPGreatTempleHuitzilopochtli
@@ -1238,7 +1238,7 @@ async function getEffect(effect, techName) {
                 targetAction,
                 relativity.value,
             ], relativity.change);
-            oString = '★' + oString;
+            oString = '✔️' + oString;
             break;
         }
         case 'DamageForAllRangedLogicActions': {//HCXPPioneers2
@@ -1247,7 +1247,7 @@ async function getEffect(effect, techName) {
                 actor,
                 relativity.value,
             ], relativity.change);
-            oString = '★' + oString;
+            oString = '✔️' + oString;
             break;
         }
         case 'DamageForAllHandLogicActions': {
@@ -1256,14 +1256,14 @@ async function getEffect(effect, techName) {
                 actor,
                 relativity.value,
             ], relativity.change);
-            oString = '★' + oString;
+            oString = '✔️' + oString;
             break;
         }
         case 'GarrisonBonusDamage': {//驻守伤害倍率
             oString = actor + '：';
             oString = oString + targetAction + ' 的驻守伤害增益';
             oString = oString + ' +' + relativity.value;
-            oString = '☆' + oString;
+            oString = '❓' + oString;
             //DEHCKatsinaFortifications{"target":{{"_type":{"ProtoUnit","__text":{"deTower"},"_type":{"Data","_action":{"RangedAttack",['@amount']":{"0.1","_subtype":{"GarrisonBonusDamage","_unittype":{"Unit","_relativity":{"Assign"}
             break;
         }
@@ -1271,7 +1271,7 @@ async function getEffect(effect, techName) {
             oString = actor + '：';
             oString = oString + targetAction + ' 的额外伤害倍率';
             oString = oString + ' +' + relativity.value;
-            oString = '☆' + oString;
+            oString = '❓' + oString;
             //DEHCMexicanStandoff{"target":{{"_type":{"ProtoUnit","__text":{"deSaloonDesperado"},"_type":{"Data","_action":{"RangedAttack",['@amount']":{"2.00","_subtype":{"DamageMultiplier","_relativity":{"Assign"}
             break;
         }
@@ -1279,7 +1279,7 @@ async function getEffect(effect, techName) {
             oString = actor + '：';
             oString = oString + targetAction + ' 的反伤倍率';
             oString = oString + ' +' + relativity.value;
-            oString = '☆' + oString;
+            oString = '❓' + oString;
             //DEHCMexicanStandoff{"target":{{"_type":{"ProtoUnit","__text":{"deSaloonDesperado"},"_type":{"Data","_action":{"RangedAttack",['@amount']":{"0.50","_subtype":{"SelfDamageMultiplier","_relativity":{"Assign"}
             break;
         }
@@ -1287,7 +1287,7 @@ async function getEffect(effect, techName) {
             oString = actor + '：';
             oString = oString + targetAction + ' 的附加效果几率';
             oString = oString + ' +' + relativity.value + '%';
-            oString = '☆' + oString;
+            oString = '❓' + oString;
             //DEHCMexicanStandoff{"target":{{"_type":{"ProtoUnit","__text":{"deSaloonDesperado"},"_type":{"Data","_action":{"RangedAttack",['@amount']":{"25.00","_subtype":{"HitPercent","_relativity":{"Assign"}
             break;
         }
@@ -1295,7 +1295,7 @@ async function getEffect(effect, techName) {
             oString = actor + '：';
             oString = oString + targetAction + ' 的攻击附加效果为 ';
             oString = oString + effect['@hitpercenttype'];
-            oString = '☆' + oString;
+            oString = '❓' + oString;
             //DEHCMexicanStandoff{"target":{{"_type":{"ProtoUnit","__text":{"deSaloonDesperado"},"_type":{"Data","_action":{"RangedAttack",['@amount']":{"0.00","_subtype":{"HitPercentType","_relativity":{"Absolute","_hitpercenttype":{"CriticalAttack"}
             break;
         }
@@ -1304,7 +1304,7 @@ async function getEffect(effect, techName) {
         }
     }
     if (!oString) {
-        oString = '❓'+JSON.stringify(effect);
+        oString = '❌'+JSON.stringify(effect);
     }
     oString = oString.replace('%1!s!', techName);
     return oString;
